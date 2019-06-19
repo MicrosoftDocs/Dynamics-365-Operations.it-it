@@ -1,165 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="personalized-product-recommendations.md" target-language="it-IT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>personalized-product-recommendations.8ef0a6.c73bc10332329e81986a259969f8fe34b57f4ee6.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c73bc10332329e81986a259969f8fe34b57f4ee6</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\personalized-product-recommendations.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suggerimenti sul prodotto personalizzati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic has information about the Dynamics 365 for Retail product recommendations that can be displayed on the point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In questo argomento vengono fornite informazioni sui suggerimenti sul prodotto di Dynamics 365 for Retail visualizzabili nel dispositivo POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suggerimenti sul prodotto personalizzati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For more information see <bpt id="p1">[</bpt>Removed or deprecated features<ept id="p1">](../dev-itpro/migration-upgrade/deprecated-features.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per ulteriori informazioni vedere <bpt id="p1">[</bpt>Funzionalità rimosse o deprecate<ept id="p1">](../dev-itpro/migration-upgrade/deprecated-features.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>In Dynamics 365 for Retail, product recommendations can be displayed on the point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In Dynamics 365 for Retail, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>For retailers with large catalogs, recommendations help the customer with product discovery.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>By showcasing products targeted to a customer's interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l'upselling e il cross-selling e possono aumentare la ritenuta cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In Dynamics 365 for Retail, product recommendations are powered by cognitive services and Microsoft Azure machine learning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">In Dynamics 365 for Retail i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Scenarios</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scenari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Product recommendations are enabled for the following POS scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>They are available in Cloud POS or Modern POS (MPOS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sono disponibili in Cloud POS o Modern POS (MPOS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>On the <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Dettagli prodotto<ept id="p1">**</ept>:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>If a store associate visits a <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page when looking at previous transactions across different channels, the recommendation engine suggests additional items that are likely to be purchased together.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se un associato del punto vendita visita una pagina <bpt id="p1">**</bpt>Dettagli prodotto<ept id="p1">**</ept> quando visualizza le transazioni precedenti su più canali diversi, il motore dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>If the store associate adds a customer to the transaction and then visits a <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page, the recommendation engine provides personalized recommendations using the customer's transaction history.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Se l'associato del punto vendita aggiunge un cliente alla transazione e quindi visita una pagina <bpt id="p1">**</bpt>Dettagli prodotto<ept id="p1">**</ept>, il motore dei suggerimenti fornisce suggerimenti personalizzati utilizzando lo storico transazioni del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Product details page<ept id="p1">](./media/proddetails.png)](./media/proddetails.png)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Suggerimenti sulla pagina Dettagli prodotto<ept id="p1">](./media/proddetails.png)](./media/proddetails.png)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page:</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Nella pagina <bpt id="p1">**</bpt>Transazione<ept id="p1">**</ept>:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The recommendation engine suggests items based on the entire list of items in the basket.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Il motore dei suggerimenti suggerisce articoli in base all'intero elenco di articoli nel carrello.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer's transaction history and the list of items in the basket.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se l'associato del punto vendita aggiunge un cliente alla transazione, il motore dei suggerimenti fornisce suggerimenti personalizzati utilizzando lo storico transazioni del cliente e l'elenco di articoli nel carrello.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>To display recommendations on the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page, the retailer needs to update the screen layout in Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per visualizzare i suggerimenti nella pagina <bpt id="p1">**</bpt>Transazione<ept id="p1">**</ept>, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The <bpt id="p1">**</bpt>Recommendations<ept id="p1">**</ept> control must be dropped on to the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Il controllo <bpt id="p1">**</bpt>Suggerimenti<ept id="p1">**</ept> deve essere rilasciato nella pagina <bpt id="p2">**</bpt>Transazione<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Transaction page<ept id="p1">](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</ept></source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Suggerimenti nella pagina Transazione<ept id="p1">](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>On the <bpt id="p1">**</bpt>Customer details<ept id="p1">**</ept> page, the recommendation engine suggests items based on the user ID and items in the customer's wish list.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Nella pagina <bpt id="p1">**</bpt>Dettagli cliente<ept id="p1">**</ept>, Il motore dei suggerimenti suggerisce articoli in base all'ID utente e articoli nell'elenco preferenze del cliente.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Customer details page<ept id="p1">](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</ept></source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Suggerimenti sulla pagina Dettagli cliente<ept id="p1">](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Configure Dynamics 365 for Retail to enable POS recommendations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Configurare Dynamics 365 for Retail per abilitare i suggerimenti POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>To set up product recommendations, you need to do the following.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Per impostare i suggerimenti sul prodotto, è necessario effettuare le seguenti operazioni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Make sure that you have selected the correct <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assicurarsi di aver selezionato la <bpt id="p1">**</bpt>Persona giuridica<ept id="p1">**</ept> corretta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Navigate to <bpt id="p1">**</bpt>Entity store<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Retail sales<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Refresh<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accedere a <bpt id="p1">**</bpt>Archivio entità<ept id="p1">**</ept>, selezionare <bpt id="p2">**</bpt>Vendite al dettaglio<ept id="p2">**</ept>, quindi fare clic su <bpt id="p3">**</bpt>Aggiorna<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>This will use the demo data (or your data) from your operational database and move it to Entity store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verranno utilizzati i dati dimostrativi (o i dati dell'utente) provenienti dal database operativo che verranno spostati nell'Archivio entità.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Optional: To display recommendations on the transaction screen, go to <bpt id="p1">**</bpt>Screen Layout<ept id="p1">**</ept>, choose your screen layout, launch the <bpt id="p2">**</bpt>Screen layout designer<ept id="p2">**</ept>, and then drop the <bpt id="p3">**</bpt>recommendations<ept id="p3">**</ept> control where needed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facoltativo: per visualizzare i suggerimenti sulla schermata della transazione, passare a <bpt id="p1">**</bpt>Layout schermo<ept id="p1">**</ept>, scegliere il layout dello schermo, avviare <bpt id="p2">**</bpt>Progettazione layout schermo<ept id="p2">**</ept>, quindi rilasciare il controllo <bpt id="p3">**</bpt>suggerimenti<ept id="p3">**</ept> dove necessario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Go to <bpt id="p1">**</bpt>Retail parameters<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Machine-learning<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> under <bpt id="p4">**</bpt>Enable POS recommendations<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a <bpt id="p1">**</bpt>Parametri di vendita al dettaglio<ept id="p1">**</ept>, selezionare <bpt id="p2">**</bpt>Machine learning<ept id="p2">**</ept>, quindi scegliere <bpt id="p3">**</bpt>Sì<ept id="p3">**</ept> in <bpt id="p4">**</bpt>Abilita suggerimenti POS<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>To see recommendations on POS, run global configuration job <bpt id="p1">**</bpt>1110<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per visualizzare i suggerimenti sul POS, eseguire il processo di configurazione globale <bpt id="p1">**</bpt>1110<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>To reflect changes made to POS screen layout designer, run channel configuration job <bpt id="p1">**</bpt>1070<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per riflettere le modifiche apportate a Progettazione layout schermo POS, eseguire il processo di configurazione dei canali <bpt id="p1">**</bpt>1070<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>How does it work?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Come funziona?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>When you refresh the <bpt id="p1">**</bpt>Entity store<ept id="p1">**</ept> entity, the following actions take place.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando si aggiorna l'entità <bpt id="p1">**</bpt>Archivio entità<ept id="p1">**</ept>, verranno effettuate le azioni seguenti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Data in the format required by the Cognitive services is extracted from the Dynamics 365 for Retail operational database and sent to the Entity store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I dati nel formato richiesto dai servizi cognitivi vengono estratti dal database operativo Dynamics 365 for Retail e vengono inviati all'Archivio entità.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>The data is used by Azure Data Factory (ADF) to cleanse the data using Hive scripts as part of ADF activities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I dati vengono utilizzati da Azure Data Factory (ADF) per eseguire la pulitura dei dati tramite gli script Hive come parte delle attività ADF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Cleansed data is stored in blob storage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I dati puliti vengono archiviati nell'archiviazione BLOB.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Data from blob storage is used by the Cognitive services API to train a recommendation model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I dati nell'archiviazione BLOB vengono utilizzati dall'API dei servizi cognitivi per preparare un modello di suggerimento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>When you turn on <bpt id="p1">**</bpt>Enable recommendations<ept id="p1">**</ept> and run the configuration jobs, the following actions take place.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando si attiva <bpt id="p1">**</bpt>Abilita suggerimenti<ept id="p1">**</ept> e si eseguono i processi di configurazione, verranno effettuate le azioni seguenti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Model credentials and ID are picked up from the API and stored in the Dynamics 365 for Retail operational database, in the web.config for AOS, and also in the retail server.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">L'ID e le credenziali di modello vengono recuperate dall'API e archiviate nel database operativo di Dynamics 365 for Retail, nel file web.config per AOS e nel server vendita al dettaglio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</source><target logoport:matchpercent="92" state="translated" state-qualifier="fuzzy-match">L'ID e le credenziali del modello vengono rese disponibili a CRT in modo da poter soddisfare le richieste di suggerimenti sul prodotto da Cloud POS e MPOS in modalità online.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Troubleshoot issues where you have Product recommendations already enabled</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Risolvere i problemi in caso di suggerimenti sul prodotto già abilitati</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Navigate to <bpt id="p1">**</bpt>Retail Parameters<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Machine learning<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Disable product recommendations<ept id="p3">**</ept> and run <bpt id="p4">**</bpt>Global configuration job <ph id="ph3">\[</ph>1110<ph id="ph4">\]</ph><ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a <bpt id="p1">**</bpt>Parametri di vendita al dettaglio<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Machine Learning<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Disabilita suggerimenti sul prodotto<ept id="p3">**</ept> ed eseguire il <bpt id="p4">**</bpt>Processo di configurazione globale <ph id="ph3">\[</ph>1110<ph id="ph4">\]</ph><ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>If you are not able to locate <bpt id="p1">**</bpt>Machine learning<ept id="p1">**</ept> tab, please contact Dynamics Support.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se non è possibile individuare la scheda <bpt id="p1">**</bpt>Machine Learning<ept id="p1">**</ept>, contattare il supporto Dynamics.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>If you added the <bpt id="p1">**</bpt>Recommendations control<ept id="p1">**</ept> to your transaction screen using the <bpt id="p2">**</bpt>Screen layout designer<ept id="p2">**</ept>, please remove that as well.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se si è aggiunto il <bpt id="p1">**</bpt>Controllo per suggerimenti<ept id="p1">**</ept> alla schermata di transazione mediante la <bpt id="p2">**</bpt>Progettazione layout schermo<ept id="p2">**</ept>, rimuovere anche tale elemento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Risorse aggiuntive</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source><bpt id="p1">[</bpt>Add a recommendations control to the transaction page on a POS device<ept id="p1">](add-recommendations-control-pos-screen.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Aggiungere un controllo di suggerimenti alla pagina della transazione su un dispositivo POS<ept id="p1">](add-recommendations-control-pos-screen.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Suggerimenti sul prodotto personalizzati
+description: In questo argomento vengono fornite informazioni sui suggerimenti sul prodotto di Dynamics 365 for Retail visualizzabili nel dispositivo POS.
+author: ashishmsft
+manager: AnnBe
+ms.date: 02/05/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 259664
+ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607009"
+---
+# <a name="personalized-product-recommendations"></a><span data-ttu-id="1aaa5-103">Suggerimenti sul prodotto personalizzati</span><span class="sxs-lookup"><span data-stu-id="1aaa5-103">Personalized product recommendations</span></span>
+
+[!include [banner](includes/banner.md)]
+
+> [!NOTE]
+> <span data-ttu-id="1aaa5-104">Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="1aaa5-105">Per ulteriori informazioni vedere [Funzionalità rimosse o deprecate](../dev-itpro/migration-upgrade/deprecated-features.md).</span><span class="sxs-lookup"><span data-stu-id="1aaa5-105">For more information see [Removed or deprecated features](../dev-itpro/migration-upgrade/deprecated-features.md).</span></span>
+
+<span data-ttu-id="1aaa5-106">In Dynamics 365 for Retail, i suggerimenti d prodotti possono essere visualizzati nel dispositivo POS.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-106">In Dynamics 365 for Retail, product recommendations can be displayed on the point of sale (POS) device.</span></span> <span data-ttu-id="1aaa5-107">I suggerimenti sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-107">The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</span></span> <span data-ttu-id="1aaa5-108">Per i rivenditori con cataloghi di grandi dimensioni, i suggerimenti aiutano il cliente a individuare i prodotti.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-108">For retailers with large catalogs, recommendations help the customer with product discovery.</span></span> <span data-ttu-id="1aaa5-109">Mostrando i prodotti mirati agli interessi e alle abitudini di acquisto di un cliente, i suggerimenti sul prodotto possono aiutare i rivenditori con l'upselling e il cross-selling e possono aumentare la ritenuta cliente.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-109">By showcasing products targeted to a customer's interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention.</span></span> <span data-ttu-id="1aaa5-110">In Dynamics 365 for Retail i suggerimenti sul prodotto sono generati da servizi cognitivi e da Microsoft Azure Machine Learning.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-110">In Dynamics 365 for Retail, product recommendations are powered by cognitive services and Microsoft Azure machine learning.</span></span>
+
+## <a name="scenarios"></a><span data-ttu-id="1aaa5-111">Scenari</span><span class="sxs-lookup"><span data-stu-id="1aaa5-111">Scenarios</span></span>
+
+<span data-ttu-id="1aaa5-112">I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-112">Product recommendations are enabled for the following POS scenarios.</span></span> <span data-ttu-id="1aaa5-113">Sono disponibili in Cloud POS o Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="1aaa5-113">They are available in Cloud POS or Modern POS (MPOS).</span></span>
+
+1. <span data-ttu-id="1aaa5-114">Nella pagina **Dettagli prodotto**:</span><span class="sxs-lookup"><span data-stu-id="1aaa5-114">On the **Product details** page:</span></span>
+
+    - <span data-ttu-id="1aaa5-115">Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il motore dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-115">If a store associate visits a **Product details** page when looking at previous transactions across different channels, the recommendation engine suggests additional items that are likely to be purchased together.</span></span>
+    - <span data-ttu-id="1aaa5-116">Se l'associato del punto vendita aggiunge un cliente alla transazione e quindi visita una pagina **Dettagli prodotto**, il motore dei suggerimenti fornisce suggerimenti personalizzati utilizzando lo storico transazioni del cliente.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-116">If the store associate adds a customer to the transaction and then visits a **Product details** page, the recommendation engine provides personalized recommendations using the customer's transaction history.</span></span>
+
+    <span data-ttu-id="1aaa5-117">[![Suggerimenti sulla pagina Dettagli prodotto](./media/proddetails.png)](./media/proddetails.png)</span><span class="sxs-lookup"><span data-stu-id="1aaa5-117">[![Recommendations on the Product details page](./media/proddetails.png)](./media/proddetails.png)</span></span>
+
+2. <span data-ttu-id="1aaa5-118">Nella pagina **Transazione**:</span><span class="sxs-lookup"><span data-stu-id="1aaa5-118">On the **Transaction** page:</span></span>
+
+    - <span data-ttu-id="1aaa5-119">Il motore dei suggerimenti suggerisce articoli in base all'intero elenco di articoli nel carrello.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-119">The recommendation engine suggests items based on the entire list of items in the basket.</span></span>
+    - <span data-ttu-id="1aaa5-120">Se l'associato del punto vendita aggiunge un cliente alla transazione, il motore dei suggerimenti fornisce suggerimenti personalizzati utilizzando lo storico transazioni del cliente e l'elenco di articoli nel carrello.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-120">If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer's transaction history and the list of items in the basket.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="1aaa5-121">Per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-121">To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 for Retail.</span></span> <span data-ttu-id="1aaa5-122">Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-122">The **Recommendations** control must be dropped on to the **Transaction** page.</span></span>
+
+    <span data-ttu-id="1aaa5-123">[![Suggerimenti nella pagina Transazione](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span><span class="sxs-lookup"><span data-stu-id="1aaa5-123">[![Recommendations on the Transaction page](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span></span>
+
+3. <span data-ttu-id="1aaa5-124">Nella pagina **Dettagli cliente**, Il motore dei suggerimenti suggerisce articoli in base all'ID utente e articoli nell'elenco preferenze del cliente.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-124">On the **Customer details** page, the recommendation engine suggests items based on the user ID and items in the customer's wish list.</span></span>
+
+    <span data-ttu-id="1aaa5-125">[![Suggerimenti sulla pagina Dettagli cliente](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span><span class="sxs-lookup"><span data-stu-id="1aaa5-125">[![Recommendations on the Customer details page](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span></span>
+
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a><span data-ttu-id="1aaa5-126">Configurare Dynamics 365 for Retail per abilitare i suggerimenti POS</span><span class="sxs-lookup"><span data-stu-id="1aaa5-126">Configure Dynamics 365 for Retail to enable POS recommendations</span></span>
+
+<span data-ttu-id="1aaa5-127">Per impostare i suggerimenti sul prodotto, è necessario effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-127">To set up product recommendations, you need to do the following.</span></span>
+
+1. <span data-ttu-id="1aaa5-128">Assicurarsi di aver selezionato la **Persona giuridica** corretta.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-128">Make sure that you have selected the correct **Legal entity**.</span></span>
+2. <span data-ttu-id="1aaa5-129">Accedere a **Archivio entità**, selezionare **Vendite al dettaglio**, quindi fare clic su **Aggiorna**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-129">Navigate to **Entity store**, select **Retail sales**, and then click **Refresh**.</span></span> <span data-ttu-id="1aaa5-130">Verranno utilizzati i dati dimostrativi (o i dati dell'utente) provenienti dal database operativo che verranno spostati nell'Archivio entità.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-130">This will use the demo data (or your data) from your operational database and move it to Entity store.</span></span>
+3. <span data-ttu-id="1aaa5-131">Facoltativo: per visualizzare i suggerimenti sulla schermata della transazione, passare a **Layout schermo**, scegliere il layout dello schermo, avviare **Progettazione layout schermo**, quindi rilasciare il controllo **suggerimenti** dove necessario.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-131">Optional: To display recommendations on the transaction screen, go to **Screen Layout**, choose your screen layout, launch the **Screen layout designer**, and then drop the **recommendations** control where needed.</span></span>
+4. <span data-ttu-id="1aaa5-132">Passare a **Parametri di vendita al dettaglio**, selezionare **Machine learning**, quindi scegliere **Sì** in **Abilita suggerimenti POS**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-132">Go to **Retail parameters**, select **Machine-learning**, select **Yes** under **Enable POS recommendations**.</span></span>
+5. <span data-ttu-id="1aaa5-133">Per visualizzare i suggerimenti sul POS, eseguire il processo di configurazione globale **1110**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-133">To see recommendations on POS, run global configuration job **1110**.</span></span> <span data-ttu-id="1aaa5-134">Per riflettere le modifiche apportate a Progettazione layout schermo POS, eseguire il processo di configurazione dei canali **1070**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-134">To reflect changes made to POS screen layout designer, run channel configuration job **1070**.</span></span>
+
+## <a name="how-does-it-work"></a><span data-ttu-id="1aaa5-135">Come funziona?</span><span class="sxs-lookup"><span data-stu-id="1aaa5-135">How does it work?</span></span>
+
+<span data-ttu-id="1aaa5-136">Quando si aggiorna l'entità **Archivio entità**, verranno effettuate le azioni seguenti.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-136">When you refresh the **Entity store** entity, the following actions take place.</span></span>
+
+- <span data-ttu-id="1aaa5-137">I dati nel formato richiesto dai servizi cognitivi vengono estratti dal database operativo Dynamics 365 for Retail e vengono inviati all'Archivio entità.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-137">Data in the format required by the Cognitive services is extracted from the Dynamics 365 for Retail operational database and sent to the Entity store.</span></span>
+- <span data-ttu-id="1aaa5-138">I dati vengono utilizzati da Azure Data Factory (ADF) per eseguire la pulitura dei dati tramite gli script Hive come parte delle attività ADF.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-138">The data is used by Azure Data Factory (ADF) to cleanse the data using Hive scripts as part of ADF activities.</span></span> <span data-ttu-id="1aaa5-139">I dati puliti vengono archiviati nell'archiviazione BLOB.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-139">Cleansed data is stored in blob storage.</span></span>
+- <span data-ttu-id="1aaa5-140">I dati nell'archiviazione BLOB vengono utilizzati dall'API dei servizi cognitivi per preparare un modello di suggerimento.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-140">Data from blob storage is used by the Cognitive services API to train a recommendation model.</span></span>
+
+<span data-ttu-id="1aaa5-141">Quando si attiva **Abilita suggerimenti** e si eseguono i processi di configurazione, verranno effettuate le azioni seguenti.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-141">When you turn on **Enable recommendations** and run the configuration jobs, the following actions take place.</span></span>
+
+- <span data-ttu-id="1aaa5-142">L'ID e le credenziali di modello vengono recuperate dall'API e archiviate nel database operativo di Dynamics 365 for Retail, nel file web.config per AOS e nel server vendita al dettaglio.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-142">Model credentials and ID are picked up from the API and stored in the Dynamics 365 for Retail operational database, in the web.config for AOS, and also in the retail server.</span></span>
+- <span data-ttu-id="1aaa5-143">L'ID e le credenziali del modello vengono rese disponibili a CRT in modo da poter soddisfare le richieste di suggerimenti sul prodotto da Cloud POS e MPOS in modalità online.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-143">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
+
+## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="1aaa5-144">Risolvere i problemi in caso di suggerimenti sul prodotto già abilitati</span><span class="sxs-lookup"><span data-stu-id="1aaa5-144">Troubleshoot issues where you have Product recommendations already enabled</span></span>
+
+- <span data-ttu-id="1aaa5-145">Passare a **Parametri di vendita al dettaglio** \> **Machine Learning** \> **Disabilita suggerimenti sul prodotto** ed eseguire il **Processo di configurazione globale \[1110\]**.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-145">Navigate to **Retail Parameters** \> **Machine learning** \> **Disable product recommendations** and run **Global configuration job \[1110\]**.</span></span> <span data-ttu-id="1aaa5-146">Se non è possibile individuare la scheda **Machine Learning**, contattare il supporto Dynamics.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-146">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span>
+- <span data-ttu-id="1aaa5-147">Se si è aggiunto il **Controllo per suggerimenti** alla schermata di transazione mediante la **Progettazione layout schermo**, rimuovere anche tale elemento.</span><span class="sxs-lookup"><span data-stu-id="1aaa5-147">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="1aaa5-148">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="1aaa5-148">Additional resources</span></span>
+
+[<span data-ttu-id="1aaa5-149">Aggiungere un controllo di suggerimenti alla pagina della transazione su un dispositivo POS</span><span class="sxs-lookup"><span data-stu-id="1aaa5-149">Add a recommendations control to the transaction page on a POS device</span></span>](add-recommendations-control-pos-screen.md)

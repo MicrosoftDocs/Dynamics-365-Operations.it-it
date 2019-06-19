@@ -1,306 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00011-eu-sales-list-reporting.md" target-language="it-IT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00011-eu-sales-list-reporting.e82505.aef1d19aabb7937fcd961a9657b8ca65c064b0b1.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>aef1d19aabb7937fcd961a9657b8ca65c064b0b1</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00011-eu-sales-list-reporting.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00011 Set up EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 - Imposta dichiarazioni elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This task walks you through an overview of the prerequisites required for EU sales list reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa attività illustra una panoramica dei prerequisiti necessari per la dichiarazione dell'elenco vendite UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00011 Set up EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 - Imposta dichiarazioni elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This task walks you through an overview of the prerequisites required for EU sales list reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa attività illustra una panoramica dei prerequisiti necessari per la dichiarazione dell'elenco vendite UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Per ulteriori informazioni sulla dichiarazione elenco vendite UE, inclusi i prerequisiti necessari, vedere la Guida di Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This task applies to all European countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Questa attività si applica a tutti i paesi europei.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The guide was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La guida è stata creata utilizzando la società di dati dimostrativi DEMF e di conseguenza la Germania come paese di esempio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>The guide also uses Portugal as an exemplar EU country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nella guida si utilizza anche il Portogallo come paese UE di esempio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>These tasks are intended for system administrators.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Queste attività sono destinate agli amministratori di sistema.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Import electronic reporting configurations for EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importare configurazioni di report elettronici per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare ad Amministrazione organizzazione &gt; Aree di lavoro &gt; Creazione di report elettronici.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Imposta attivo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Click Repositories.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Archivi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click Open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Apri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>On the Action Pane, click Options.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Opzioni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click Advanced Filter/Sort.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Filtro/ordinamento avanzato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scegliere Aggiungi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Field field, select 'Configuration name'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Campo selezionare 'Nome configurazione'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the Criteria field, type 'EU Sales list (DE)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Criteri, immettere 'Elenco vendite UE (DE)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Click Import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Importa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Sì.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>On the Action Pane, click Options.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel riquadro azioni fare clic su Opzioni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Click Advanced Filter/Sort.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Filtro/ordinamento avanzato.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Reset.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Reimposta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scegliere Aggiungi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Field field, select 'Configuration name'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Campo selezionare 'Nome configurazione'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Criteria field, type 'EU Sales list by rows report'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Criteri, immettere 'Elenco vendite UE per report righe'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Click Import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Importa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Sì.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Set up sales tax codes for EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare codici IVA per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Go to Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a Imposta &gt; Imposte indirette &gt; IVA &gt; Codici IVA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Use the Quick Filter to filter on the Sales tax code field with a value of 'VAT19'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare il filtro rapido per filtrare il campo Codice IVA in base a un valore di 'VAT19'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Expand the Report setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Impostazione report.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Verify that the Excluded selection is set to No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che la selezione Escluso sia impostata su No.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>You may need to unlock the task guide to change this setting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Può essere necessario sbloccare la guida di attività per modificare questa impostazione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Set up sales tax groups for EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare fasce IVA per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Go to Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a Imposta &gt; Imposte indirette &gt; IVA &gt; Fasce IVA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Use the Quick Filter to filter on the Sales tax group field with a value of 'AR-DOM'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare il filtro rapido per filtrare il campo Fascia IVA in base a un valore di 'AR-DOM'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Modifica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Expand the Setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Impostazione.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>In the list, select the first row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco selezionare la prima riga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Select the Exempt check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare la casella di controllo Esente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the list, select the second row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco selezionare la seconda riga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Select the Exempt check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare la casella di controllo Esente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>In the list, select the third row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nell'elenco selezionare la terza riga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Select the Exempt check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare la casella di controllo Esente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Set up item sales tax groups for EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare fasce IVA articoli per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Go to Tax &gt; Indirect taxes &gt; Sales tax &gt; Item sales tax groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a Imposta &gt; Imposte indirette &gt; IVA &gt; Fasce IVA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Use the Quick Filter to filter on the Item sales tax group field with a value of 'FULL '.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare il filtro rapido per filtrare il campo Fascia IVA articoli in base a un valore di 'FULL'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Verify that the Reporting type selection is set to 'Item'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che la selezione Tipo di dichiarazione sia impostata su 'Articolo'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>You may need to unlock the task guide to change the value in this field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Use the Quick Filter to filter on the Item sales tax group field with a value of 'RED '.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilizzare il filtro rapido per filtrare il campo Fascia IVA articoli in base a un valore di 'RED'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Verify that the Reporting type selection is set to 'Service'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che la selezione Tipo di dichiarazione sia impostata su 'Servizio'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>You may need to unlock the task guide to change the value in this field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Set up country/region parameters for EU sales list reporting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare parametri paese per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Go to Tax &gt; Setup &gt; Sales tax &gt; Country/region parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a Imposta &gt; Impostazione &gt; IVA &gt; Parametri paese.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the Country/region field, type 'PRT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Paese, digitare 'PRT'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Sales tax field, type 'PT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo IVA, immettere 'PT'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Create tax exempt numbers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Creare partite IVA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Go to Tax &gt; Setup &gt; Sales tax &gt; Tax exempt numbers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a Imposta &gt; Impostazione &gt; IVA &gt; Partite IVA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>In the Country/region field, type 'PRT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Paese, digitare 'PRT'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>In the Tax exempt number field, type 'PT12345'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Partita IVA digitare 'PT12345'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Set up EU sales list reporting parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare parametri per la dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Go to Tax &gt; Setup &gt; Foreign trade &gt; Foreign trade parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passare a Imposta &gt; Impostazione &gt; Commercio estero &gt; Parametri per il commercio estero.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Click the EU sales list tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic sulla scheda Elenco vendite UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Select Yes in the Transfer purchases field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Trasferisci acquisti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Expand the Rounding rules section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Regole di arrotondamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Set Rounding rule to '0.1'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostare Regola di arrotondamento su '0.1'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Select Yes in the Use minimum value field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selezionare Sì nel campo Utilizzare il valore minimo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>In the Number of decimals field, enter '2'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Immettere '2' nel campo Numero di decimali.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Expand the Electronic reporting section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espandere la sezione Creazione di report elettronici.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>In the File format mapping field, select 'EU Sales list (DE)'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Mapping formato file, selezionare 'Elenco vendite UE (DE)'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>In the Report format mapping field, select 'EU Sales list by rows report'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Mapping formato report, selezionare 'Elenco vendite UE per report righe'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Click the Country/region properties tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic sulla scheda Proprietà paese.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Verify that the Country/region type field is set to 'Domestic' for Country/region DEU.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che il campo Tipo di paese sia impostato su 'Nazionale' per Paese DEU.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>You may need to unlock the task guide to change the value in this field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>In the Country/region field, type 'PRT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Paese, digitare 'PRT'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>In the Intrastat code field, type 'PT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Digitare 'PT' nel campo Codice Intrastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>In the Country/region type field, select 'EU'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Tipo di paese selezionare 'UE'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic sulla scheda Sequenze numeriche.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Verify that a Number sequence code is specified for the Reference 'EU sales list'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verificare che un codice di sequenza numerica sia specificato per l'elenco vendite UE di riferimento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Create a customer for EU sales list reporting demo purposes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Creare un cliente a scopo dimostrativo della dichiarazione dell'elenco vendite UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andare a Contabilità clienti &gt; Clienti &gt; Tutti i clienti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Nuovo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>In the Customer account field, type 'PRT-001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Conto cliente digitare 'PRT-001'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>In the Name field, type 'A customer from Portugal'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Nome digitare 'Cliente dal Portogallo'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>In the Customer group field, select '10'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Gruppo di clienti, selezionare '10'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>In the Sales tax group field, select 'AR-DOM'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Fascia IVA selezionare 'AR-DOM'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>In the Tax exempt number field, select 'PT12345'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Partita IVA selezionare 'PT12345'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>In the Country/region field, type 'PRT'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nel campo Paese, digitare 'PRT'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fare clic su Salva.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00011 - Imposta dichiarazioni elenco vendite UE
+description: Questa attività illustra una panoramica dei prerequisiti necessari per la dichiarazione dell'elenco vendite UE.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, SysQueryForm, SysQueryFieldLookUp,  TaxTable, TaxGroup, TaxItemGroup, TaxCountryRegionParameters, TaxVATNumTable, IntrastatParameters, CustTable, DirPartyQuickCreateForm
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: aef1d19aabb7937fcd961a9657b8ca65c064b0b1
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564399"
+---
+# <a name="eur-00011-set-up-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-103">EUR-00011 - Imposta dichiarazioni elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-103">EUR-00011 Set up EU sales list reporting</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="4f56d-104">Questa attività illustra una panoramica dei prerequisiti necessari per la dichiarazione dell'elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="4f56d-104">This task walks you through an overview of the prerequisites required for EU sales list reporting.</span></span> <span data-ttu-id="4f56d-105">Per ulteriori informazioni sulla dichiarazione elenco vendite UE, inclusi i prerequisiti necessari, vedere la Guida di Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4f56d-105">For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</span></span>
+
+<span data-ttu-id="4f56d-106">Questa attività si applica a tutti i paesi europei.</span><span class="sxs-lookup"><span data-stu-id="4f56d-106">This task applies to all European countries/regions.</span></span> <span data-ttu-id="4f56d-107">La guida è stata creata utilizzando la società di dati dimostrativi DEMF e di conseguenza la Germania come paese di esempio.</span><span class="sxs-lookup"><span data-stu-id="4f56d-107">The guide was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</span></span> <span data-ttu-id="4f56d-108">Nella guida si utilizza anche il Portogallo come paese UE di esempio.</span><span class="sxs-lookup"><span data-stu-id="4f56d-108">The guide also uses Portugal as an exemplar EU country/region.</span></span>
+
+<span data-ttu-id="4f56d-109">Queste attività sono destinate agli amministratori di sistema.</span><span class="sxs-lookup"><span data-stu-id="4f56d-109">These tasks are intended for system administrators.</span></span>
+
+
+## <a name="import-electronic-reporting-configurations-for-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-110">Importare configurazioni di report elettronici per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-110">Import electronic reporting configurations for EU sales list reporting</span></span>
+1. <span data-ttu-id="4f56d-111">Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="4f56d-111">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="4f56d-112">Fare clic su Imposta attivo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-112">Click Set active.</span></span>
+3. <span data-ttu-id="4f56d-113">Fare clic su Archivi.</span><span class="sxs-lookup"><span data-stu-id="4f56d-113">Click Repositories.</span></span>
+4. <span data-ttu-id="4f56d-114">Fare clic su Apri.</span><span class="sxs-lookup"><span data-stu-id="4f56d-114">Click Open.</span></span>
+5. <span data-ttu-id="4f56d-115">Nel riquadro azioni fare clic su Opzioni.</span><span class="sxs-lookup"><span data-stu-id="4f56d-115">On the Action Pane, click Options.</span></span>
+6. <span data-ttu-id="4f56d-116">Fare clic su Filtro/ordinamento avanzato.</span><span class="sxs-lookup"><span data-stu-id="4f56d-116">Click Advanced Filter/Sort.</span></span>
+7. <span data-ttu-id="4f56d-117">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="4f56d-117">Click Add.</span></span>
+8. <span data-ttu-id="4f56d-118">Nel campo Campo selezionare 'Nome configurazione'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-118">In the Field field, select 'Configuration name'.</span></span>
+9. <span data-ttu-id="4f56d-119">Nel campo Criteri, immettere 'Elenco vendite UE (DE)'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-119">In the Criteria field, type 'EU Sales list (DE)'.</span></span>
+10. <span data-ttu-id="4f56d-120">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="4f56d-120">Click OK.</span></span>
+11. <span data-ttu-id="4f56d-121">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="4f56d-121">Click Import.</span></span>
+12. <span data-ttu-id="4f56d-122">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="4f56d-122">Click Yes.</span></span>
+13. <span data-ttu-id="4f56d-123">Nel riquadro azioni fare clic su Opzioni.</span><span class="sxs-lookup"><span data-stu-id="4f56d-123">On the Action Pane, click Options.</span></span>
+14. <span data-ttu-id="4f56d-124">Fare clic su Filtro/ordinamento avanzato.</span><span class="sxs-lookup"><span data-stu-id="4f56d-124">Click Advanced Filter/Sort.</span></span>
+15. <span data-ttu-id="4f56d-125">Fare clic su Reimposta.</span><span class="sxs-lookup"><span data-stu-id="4f56d-125">Click Reset.</span></span>
+16. <span data-ttu-id="4f56d-126">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="4f56d-126">Click Add.</span></span>
+17. <span data-ttu-id="4f56d-127">Nel campo Campo selezionare 'Nome configurazione'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-127">In the Field field, select 'Configuration name'.</span></span>
+18. <span data-ttu-id="4f56d-128">Nel campo Criteri, immettere 'Elenco vendite UE per report righe'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-128">In the Criteria field, type 'EU Sales list by rows report'.</span></span>
+19. <span data-ttu-id="4f56d-129">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="4f56d-129">Click OK.</span></span>
+20. <span data-ttu-id="4f56d-130">Fare clic su Importa.</span><span class="sxs-lookup"><span data-stu-id="4f56d-130">Click Import.</span></span>
+21. <span data-ttu-id="4f56d-131">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="4f56d-131">Click Yes.</span></span>
+
+## <a name="set-up-sales-tax-codes-for-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-132">Impostare codici IVA per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-132">Set up sales tax codes for EU sales list reporting</span></span>
+1. <span data-ttu-id="4f56d-133">Andare a Imposta > Imposte indirette > IVA > Codici IVA.</span><span class="sxs-lookup"><span data-stu-id="4f56d-133">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+2. <span data-ttu-id="4f56d-134">Utilizzare il filtro rapido per filtrare il campo Codice IVA in base a un valore di 'VAT19'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-134">Use the Quick Filter to filter on the Sales tax code field with a value of 'VAT19'.</span></span>
+3. <span data-ttu-id="4f56d-135">Espandere la sezione Impostazione report.</span><span class="sxs-lookup"><span data-stu-id="4f56d-135">Expand the Report setup section.</span></span>
+    * <span data-ttu-id="4f56d-136">Verificare che la selezione Escluso sia impostata su No.</span><span class="sxs-lookup"><span data-stu-id="4f56d-136">Verify that the Excluded selection is set to No.</span></span>  
+    * <span data-ttu-id="4f56d-137">Può essere necessario sbloccare la guida di attività per modificare questa impostazione.</span><span class="sxs-lookup"><span data-stu-id="4f56d-137">You may need to unlock the task guide to change this setting.</span></span>  
+
+## <a name="set-up-sales-tax-groups-for-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-138">Impostare fasce IVA per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-138">Set up sales tax groups for EU sales list reporting</span></span>
+1. <span data-ttu-id="4f56d-139">Passare a Imposta > Imposte indirette > IVA > Fasce IVA.</span><span class="sxs-lookup"><span data-stu-id="4f56d-139">Go to Tax > Indirect taxes > Sales tax > Sales tax groups.</span></span>
+2. <span data-ttu-id="4f56d-140">Utilizzare il filtro rapido per filtrare il campo Fascia IVA in base a un valore di 'AR-DOM'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-140">Use the Quick Filter to filter on the Sales tax group field with a value of 'AR-DOM'.</span></span>
+3. <span data-ttu-id="4f56d-141">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="4f56d-141">Click Edit.</span></span>
+4. <span data-ttu-id="4f56d-142">Espandere la sezione Impostazione.</span><span class="sxs-lookup"><span data-stu-id="4f56d-142">Expand the Setup section.</span></span>
+5. <span data-ttu-id="4f56d-143">Nell'elenco selezionare la prima riga.</span><span class="sxs-lookup"><span data-stu-id="4f56d-143">In the list, select the first row.</span></span>
+6. <span data-ttu-id="4f56d-144">Selezionare la casella di controllo Esente.</span><span class="sxs-lookup"><span data-stu-id="4f56d-144">Select the Exempt check box.</span></span>
+7. <span data-ttu-id="4f56d-145">Nell'elenco selezionare la seconda riga.</span><span class="sxs-lookup"><span data-stu-id="4f56d-145">In the list, select the second row.</span></span>
+8. <span data-ttu-id="4f56d-146">Selezionare la casella di controllo Esente.</span><span class="sxs-lookup"><span data-stu-id="4f56d-146">Select the Exempt check box.</span></span>
+9. <span data-ttu-id="4f56d-147">Nell'elenco selezionare la terza riga.</span><span class="sxs-lookup"><span data-stu-id="4f56d-147">In the list, select the third row.</span></span>
+10. <span data-ttu-id="4f56d-148">Selezionare la casella di controllo Esente.</span><span class="sxs-lookup"><span data-stu-id="4f56d-148">Select the Exempt check box.</span></span>
+
+## <a name="set-up-item-sales-tax-groups-for-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-149">Impostare fasce IVA articoli per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-149">Set up item sales tax groups for EU sales list reporting</span></span>
+1. <span data-ttu-id="4f56d-150">Passare a Imposta > Imposte indirette > IVA > Fasce IVA.</span><span class="sxs-lookup"><span data-stu-id="4f56d-150">Go to Tax > Indirect taxes > Sales tax > Item sales tax groups.</span></span>
+2. <span data-ttu-id="4f56d-151">Utilizzare il filtro rapido per filtrare il campo Fascia IVA articoli in base a un valore di 'FULL'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-151">Use the Quick Filter to filter on the Item sales tax group field with a value of 'FULL '.</span></span>
+    * <span data-ttu-id="4f56d-152">Verificare che la selezione Tipo di dichiarazione sia impostata su 'Articolo'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-152">Verify that the Reporting type selection is set to 'Item'.</span></span>  
+    * <span data-ttu-id="4f56d-153">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-153">You may need to unlock the task guide to change the value in this field.</span></span>  
+3. <span data-ttu-id="4f56d-154">Utilizzare il filtro rapido per filtrare il campo Fascia IVA articoli in base a un valore di 'RED'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-154">Use the Quick Filter to filter on the Item sales tax group field with a value of 'RED '.</span></span>
+    * <span data-ttu-id="4f56d-155">Verificare che la selezione Tipo di dichiarazione sia impostata su 'Servizio'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-155">Verify that the Reporting type selection is set to 'Service'.</span></span>  
+    * <span data-ttu-id="4f56d-156">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-156">You may need to unlock the task guide to change the value in this field.</span></span>  
+
+## <a name="set-up-countryregion-parameters-for-eu-sales-list-reporting"></a><span data-ttu-id="4f56d-157">Impostare parametri paese per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-157">Set up country/region parameters for EU sales list reporting</span></span>
+1. <span data-ttu-id="4f56d-158">Passare a Imposta > Impostazione > IVA > Parametri paese.</span><span class="sxs-lookup"><span data-stu-id="4f56d-158">Go to Tax > Setup > Sales tax > Country/region parameters.</span></span>
+2. <span data-ttu-id="4f56d-159">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-159">Click New.</span></span>
+3. <span data-ttu-id="4f56d-160">Nel campo Paese, digitare 'PRT'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-160">In the Country/region field, type 'PRT'.</span></span>
+4. <span data-ttu-id="4f56d-161">Nel campo IVA, immettere 'PT'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-161">In the Sales tax field, type 'PT'.</span></span>
+
+## <a name="create-tax-exempt-numbers"></a><span data-ttu-id="4f56d-162">Creare partite IVA</span><span class="sxs-lookup"><span data-stu-id="4f56d-162">Create tax exempt numbers</span></span>
+1. <span data-ttu-id="4f56d-163">Passare a Imposta > Impostazione > IVA > Partite IVA.</span><span class="sxs-lookup"><span data-stu-id="4f56d-163">Go to Tax > Setup > Sales tax > Tax exempt numbers.</span></span>
+2. <span data-ttu-id="4f56d-164">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-164">Click New.</span></span>
+3. <span data-ttu-id="4f56d-165">Nel campo Paese, digitare 'PRT'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-165">In the Country/region field, type 'PRT'.</span></span>
+4. <span data-ttu-id="4f56d-166">Nel campo Partita IVA digitare 'PT12345'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-166">In the Tax exempt number field, type 'PT12345'.</span></span>
+
+## <a name="set-up-eu-sales-list-reporting-parameters"></a><span data-ttu-id="4f56d-167">Impostare parametri per la dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-167">Set up EU sales list reporting parameters</span></span>
+1. <span data-ttu-id="4f56d-168">Passare a Imposta > Impostazione > Commercio estero > Parametri per il commercio estero.</span><span class="sxs-lookup"><span data-stu-id="4f56d-168">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+2. <span data-ttu-id="4f56d-169">Fare clic sulla scheda Elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="4f56d-169">Click the EU sales list tab.</span></span>
+3. <span data-ttu-id="4f56d-170">Selezionare Sì nel campo Trasferisci acquisti.</span><span class="sxs-lookup"><span data-stu-id="4f56d-170">Select Yes in the Transfer purchases field.</span></span>
+4. <span data-ttu-id="4f56d-171">Espandere la sezione Regole di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="4f56d-171">Expand the Rounding rules section.</span></span>
+5. <span data-ttu-id="4f56d-172">Impostare Regola di arrotondamento su '0.1'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-172">Set Rounding rule to '0.1'.</span></span>
+6. <span data-ttu-id="4f56d-173">Selezionare Sì nel campo Utilizzare il valore minimo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-173">Select Yes in the Use minimum value field.</span></span>
+7. <span data-ttu-id="4f56d-174">Immettere '2' nel campo Numero di decimali.</span><span class="sxs-lookup"><span data-stu-id="4f56d-174">In the Number of decimals field, enter '2'.</span></span>
+8. <span data-ttu-id="4f56d-175">Espandere la sezione Creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="4f56d-175">Expand the Electronic reporting section.</span></span>
+9. <span data-ttu-id="4f56d-176">Nel campo Mapping formato file, selezionare 'Elenco vendite UE (DE)'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-176">In the File format mapping field, select 'EU Sales list (DE)'.</span></span>
+10. <span data-ttu-id="4f56d-177">Nel campo Mapping formato report, selezionare 'Elenco vendite UE per report righe'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-177">In the Report format mapping field, select 'EU Sales list by rows report'.</span></span>
+11. <span data-ttu-id="4f56d-178">Fare clic sulla scheda Proprietà paese.</span><span class="sxs-lookup"><span data-stu-id="4f56d-178">Click the Country/region properties tab.</span></span>
+    * <span data-ttu-id="4f56d-179">Verificare che il campo Tipo di paese sia impostato su 'Nazionale' per Paese DEU.</span><span class="sxs-lookup"><span data-stu-id="4f56d-179">Verify that the Country/region type field is set to 'Domestic' for Country/region DEU.</span></span>  
+    * <span data-ttu-id="4f56d-180">Può essere necessario sbloccare la guida di attività per modificare il valore in questo campo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-180">You may need to unlock the task guide to change the value in this field.</span></span>  
+12. <span data-ttu-id="4f56d-181">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-181">Click New.</span></span>
+13. <span data-ttu-id="4f56d-182">Nel campo Paese, digitare 'PRT'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-182">In the Country/region field, type 'PRT'.</span></span>
+14. <span data-ttu-id="4f56d-183">Digitare 'PT' nel campo Codice Intrastat.</span><span class="sxs-lookup"><span data-stu-id="4f56d-183">In the Intrastat code field, type 'PT'.</span></span>
+15. <span data-ttu-id="4f56d-184">Nel campo Tipo di paese selezionare 'UE'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-184">In the Country/region type field, select 'EU'.</span></span>
+16. <span data-ttu-id="4f56d-185">Fare clic sulla scheda Sequenze numeriche.</span><span class="sxs-lookup"><span data-stu-id="4f56d-185">Click the Number sequences tab.</span></span>
+    * <span data-ttu-id="4f56d-186">Verificare che un codice di sequenza numerica sia specificato per l'elenco vendite UE di riferimento.</span><span class="sxs-lookup"><span data-stu-id="4f56d-186">Verify that a Number sequence code is specified for the Reference 'EU sales list'.</span></span>  
+
+## <a name="create-a-customer-for-eu-sales-list-reporting-demo-purposes"></a><span data-ttu-id="4f56d-187">Creare un cliente a scopo dimostrativo della dichiarazione dell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="4f56d-187">Create a customer for EU sales list reporting demo purposes</span></span>
+1. <span data-ttu-id="4f56d-188">Andare a Contabilità clienti > Clienti > Tutti i clienti.</span><span class="sxs-lookup"><span data-stu-id="4f56d-188">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="4f56d-189">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4f56d-189">Click New.</span></span>
+3. <span data-ttu-id="4f56d-190">Nel campo Conto cliente digitare 'PRT-001'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-190">In the Customer account field, type 'PRT-001'.</span></span>
+4. <span data-ttu-id="4f56d-191">Nel campo Nome digitare 'Cliente dal Portogallo'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-191">In the Name field, type 'A customer from Portugal'.</span></span>
+5. <span data-ttu-id="4f56d-192">Nel campo Gruppo di clienti, selezionare '10'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-192">In the Customer group field, select '10'.</span></span>
+6. <span data-ttu-id="4f56d-193">Nel campo Fascia IVA selezionare 'AR-DOM'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-193">In the Sales tax group field, select 'AR-DOM'.</span></span>
+7. <span data-ttu-id="4f56d-194">Nel campo Partita IVA selezionare 'PT12345'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-194">In the Tax exempt number field, select 'PT12345'.</span></span>
+8. <span data-ttu-id="4f56d-195">Nel campo Paese, digitare 'PRT'.</span><span class="sxs-lookup"><span data-stu-id="4f56d-195">In the Country/region field, type 'PRT'.</span></span>
+9. <span data-ttu-id="4f56d-196">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="4f56d-196">Click Save.</span></span>
+
