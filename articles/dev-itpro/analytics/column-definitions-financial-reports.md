@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502732"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595341"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -120,7 +120,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 | ADJ                     | Limita gli importi nella colonna agli importi di rettifica di periodo, se questi importi sono disponibili. |
 | XAD                     | Limita gli importi nella colonna in modo da escludere gli importi di rettifica di periodo. |
 | TP                      | Limita gli importi nella colonna, in modo che solo le transazioni registrate vengono incluse, se le transazioni sono disponibili. |
-| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<blockquote>[!NOTE] Non tutti i provider di dati supportano transazioni non registrate. Per ulteriori informazioni, vedere la <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guida di integrazione dei dati</a> per il sistema Microsoft Dynamics ERP.</blockquote> |
+| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<p><strong>Nota:</strong> Non tutti i provider di dati supportano le transazioni non registrate. Per ulteriori informazioni, vedere la <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guida di integrazione dei dati</a> per il sistema Microsoft Dynamics ERP.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Limitare una colonna a un'unità gerarchica
 
@@ -310,7 +310,7 @@ La cella **Controllo stampa** può contenere i codici che regolano la visualizza
 | Codice di controllo di stampa | Traduzione                                     | Descrizione |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Non stampare                                     | Esclude gli importi nella colonna dal report stampato e dai calcoli. Per includere una colonna contrassegnata da non stampare nel calcolo, fare riferimento alla colonna direttamente nella formula di calcolo. Ad esempio, la colonna C da non stampare è inclusa nel calcolo seguente: **B+C+D**. Tuttavia, la colonna C da non stampare non è inclusa nel calcolo seguente: **B:D**. |
-| XCR                | Cambia il segno se il saldo tipico della riga è in Avere | Crea un report di budget o comparativo in cui qualsiasi scostamento sfavorevole (ad esempio minori ricavi o un eccesso di spesa) è sempre negativo. Applicare il codice a un colonna **CALC** per invertire il segno dell'importo della colonna se il saldo tipico di una riga specificata è un credito (identificato da una **C** nella colonna **Saldo normale** della definizione di riga).<blockquote>[!NOTE] Per le righe <strong>TOT</strong> e </strong>CAL</strong> che in genere portano un saldo in avere, assicurarsi di immettere una <strong>C</strong> nella colonna <strong>Saldo normale</strong> della definizione di riga.</blockquote> |
+| XCR                | Cambia il segno se il saldo tipico della riga è in Avere | Crea un report di budget o comparativo in cui qualsiasi scostamento sfavorevole (ad esempio minori ricavi o un eccesso di spesa) è sempre negativo. Applicare il codice a un colonna **CALC** per invertire il segno dell'importo della colonna se il saldo tipico di una riga specificata è un credito (identificato da una **C** nella colonna **Saldo normale** della definizione di riga).<p><strong>Nota:</strong> Per le righe <strong>TOT</strong> e </strong>CAL</strong> che in genere portano un saldo in avere, assicurarsi di immettere una <strong>C</strong> nella colonna <strong>Saldo normale</strong> della definizione di riga.</p> |
 | X0                 | Consente di eliminare la colonna se contiene tutti zeri o spazi vuoti          | Esclude una colonna **FD** dal report se tutte le celle nella colonna sono vuote o contengono zeri. |
 | SR                 | Elimina arrotondamento                               | Impedisce l'arrotondamento degli importi nella colonna. |
 | XR                 | Consente di eliminare il rollup                                 | Consente di eliminare il rollup. Se il report utilizza un albero gerarchico, non viene eseguito il rollup degli importi nella colonna nei nodi padre successivi. |
@@ -546,8 +546,8 @@ Nella seguente tabella vengono visualizzati i risultati del report che possono v
 | Cella Visualizzazione valuta                        | Cella Filtro valuta | Risultato report |
 |----------------------------------------------|----------------------|---------------|
 | Valuta transazione                 | **YEN**              | **Y 6.000** – Il risultato mostra solo solo le transazioni immesse in JPY. |
-| Valuta di contabilizzazione della contabilità generale | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<blockquote>[!NOTE] Il tasso di conversione è circa 100 JPY per USD.</blockquote> |
-| Valuta di contabilizzazione della contabilità generale | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta di contabilizzazione specificata nella contabilità generale.<blockquote>[!NOTE] Questo importo corrisponde alla somma di tutte le transazioni nella valuta di contabilizzazione.</blockquote> |
+| Valuta di contabilizzazione della contabilità generale | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<p><strong>Nota:</strong> Il tasso di conversione è circa 100 JPY per USD.</p> |
+| Valuta di contabilizzazione della contabilità generale | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta di contabilizzazione specificata nella contabilità generale.<p><strong>Nota:</strong> questo importo corrisponde alla somma di tutte le transazioni nella valuta di contabilizzazione.</p> |
 | Valuta transazione                 | Vuoto                | **$ 2.250** – Il risultato mostra tutti gli importi nella valuta in cui la transazione è stata eseguita. Ciò significa che il totale è la somma degli importi in valute diverse. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonna di calcolo in una definizione di colonna
@@ -565,7 +565,7 @@ Per aggiungere, sottrarre, moltiplicare, o dividere le colonne, immettere le let
 |----------|---------------------|-------------|
 | +        | A+C                 | Aggiunge l'importo di colonna A all'importo in colonna C. |
 | :        | A:C A:C-D           | Somma un intervallo di colonne consecutive. Ad esempio, la formula **A:C** aggiunge le somme delle colonne da A a C e la formula **A:C-D** aggiunge le somme delle colonne da A a C e quindi sottrae l'importo in colonna D. |
-| -        | A-C                 | Sottrae l'importo della colonna A dall'importo della colonna C.<blockquote>[!NOTE] È inoltre possibile utilizzare il segno meno (-) per invertire i segni in una colonna. Ad esempio, utilizzare <strong>-A+B</strong> per aggiungere l'inverso dell'importo in colonna A all'importo in colonna B.</blockquote> |
+| -        | A-C                 | Sottrae l'importo della colonna A dall'importo della colonna C.<p><strong>Nota:</strong> è inoltre possibile utilizzare il segno meno (-) per invertire i segni in una colonna. Ad esempio, utilizzare <strong>-A+B</strong> per aggiungere l'inverso dell'importo in colonna A all'importo in colonna B.</p> |
 | \*       | A\*C                | Moltiplica l'importo di colonna A per l'importo in colonna C. |
 | /        | A/C                 | Divide l'importo di colonna A per l'importo in colonna C. |
 

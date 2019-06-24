@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 64f54c1a63706ccd9225d47df96ffc3f88cf3332
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550746"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606920"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opzioni per impedire sconti sui prodotti al dettaglio
 
@@ -40,4 +40,4 @@ Le opzioni seguenti, disponibili nella scheda **Vendita al dettaglio** dei prodo
 > [!NOTE]
 > Queste impostazioni non limitano l'operazione di sostituzione dei prezzi in quanto questa definisce il prezzo base e non è considerata come sconto.
 
-[![campo Impedisci sconti](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+[![Campo Impedisci sconti](./media/prevent-discounts.png)](./media/prevent-discounts.png)

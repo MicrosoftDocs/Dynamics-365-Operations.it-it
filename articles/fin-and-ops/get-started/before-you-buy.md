@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546834"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595687"
 ---
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
@@ -63,7 +63,7 @@ Sono disponibili due modi per acquistare una sottoscrizione per una distribuzion
 
 ### <a name="buy-through-volume-licensing"></a>Acquisto tramite contratti multilicenza
 
-Se l'organizzazione conta 250 o più utenti di Dynamics 365, potrebbe essere interessata a un [Contratto multilicenza](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365)
+Se l'organizzazione conta 250 o più utenti di Dynamics 365, potrebbe essere interessata a un [Contratto multilicenza](https://www.microsoft.com/Licensing/product-licensing/dynamics365)
 
 Nei Contratti multilicenza Finance and Operations è disponibile tramite:
 
@@ -87,7 +87,7 @@ Microsoft offre supporto, servizi e risorse leader del settore e flessibili, che
 Ulteriori informazioni:
 
 - [Supporto per Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Guida introduttiva per i benefit del supporto per servizi cloud di Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Guida introduttiva per i benefit del supporto per servizi cloud di Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Passaggio quattro: informazioni su FastTrack e pianificazione della distribuzione
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518348"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577797"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Estendere Talent utilizzando PowerApps e Microsoft Flow - Scenari di esempio
 
@@ -115,7 +115,7 @@ Eseguire questa app PowerApps come console di amministrazione per eseguire le se
 
 Questa app di PowerApps utilizza relazioni molti-a-molti, quindi è possibile utilizzarla come modello per altri scenari in cui è necessario estrarre record con relazioni molti-a-molti.
 
-Per scaricare il modello **Console di amministrazione per gestire i pool di talenti**, andare a [Console di amministrazione per gestire i pool di talenti](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) nell'Area download Microsoft.
+Per scaricare il modello **Console di amministrazione per gestire i pool di talenti**, andare a [Console di amministrazione per gestire i pool di talenti](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) nell'Area download Microsoft.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

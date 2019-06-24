@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571637"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595613"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Impostare un catalogo esterno per PunchOut eProcurement
 
@@ -59,8 +59,10 @@ In questa sezione vengono forniti ulteriori dettagli sull'attività 4 della sezi
 4. Selezionare il fornitore per il catalogo. Nell'elenco **Persone giuridiche** è presente una riga per ciascuna persona giuridica in cui il fornitore è impostato. Per consentire agli utenti di richiedere prodotti direttamente dal catalogo del fornitore in alcune persone giuridiche ma non in altre, è possibile utilizzare il pulsante **Impedisci accesso** o **Consenti accesso** per ogni persona giuridica in cui si desidera rendere disponibile o meno il catalogo.
 5. Nel campo **Scadenza predefinita (in giorni)** immettere il numero di giorni di validità di un'offerta ricevuta dal catalogo esterno e in cui può essere utilizzata per acquistare dal fornitore esterno. Quando un'offerta viene creata e recuperata dal sito del catalogo esterno del fornitore, è valida a partire dalla data di sistema corrente e rimane valida per il numero di giorni immessi in questo campo.
 6. Fare clic su **Aggiungi** per iniziare a mappare le categorie di approvvigionamento al catalogo esterno. Nell'elenco dei nomi di categoria selezionare quindi una categoria. L'elenco di categorie è un soprainsieme di categorie di approvvigionamento a cui il fornitore è stato mappato in tutte le persone giuridiche impostate per il fornitore.
-[!NOTE]
-I criteri di approvvigionamento vengono utilizzati per consentire o limitare l'accesso alle categorie per la persona giuridica acquirente o unità operativa ricevente. L'utilizzo di un catalogo esterno richiede che l'accesso sia consentito ad almeno una delle categorie di approvvigionamento mappate al catalogo.
+
+    > [!NOTE]
+    > I criteri di approvvigionamento vengono utilizzati per consentire o limitare l'accesso alle categorie per la persona giuridica acquirente o unità operativa ricevente. L'utilizzo di un catalogo esterno richiede che l'accesso sia consentito ad almeno una delle categorie di approvvigionamento mappate al catalogo.
+
 7. Impostare il messaggio di richiesta di impostazione cXML che verrà inviato al fornitore. Il formato del messaggio generato automaticamente è il modello minimo necessario per avviare una sessione. Specificare i valori per i tag.
 
 In qualsiasi momento, è possibile ricaricare il modello del messaggio generato dal sistema facendo clic su **Ripristina formato di messaggio**. 
@@ -85,7 +87,7 @@ Di seguito è possibile trovare una descrizione dei tag inclusi nel modello:
 
 Un elemento estrinseco è un'informazione aggiuntiva, ad esempio un nome utente basato su un utente che esegue l'ordine esterno. L'elemento estrinseco viene impostato quando il si verifica l'operazione esterna e può essere inviato nel messaggio di impostazione della richiesta.
 Il fornitore potrebbe avere un'esigenza per la ricezione di un elemento estrinseco nella richiesta di impostazione. In tal caso, è necessario aggiungere l'elemento estrinseco all'elenco di elementi estrinseci nella sezione **Formato di messaggio** della pagina **Catalogo esterno**. Specificare un nome per l'elemento estrinseco che il fornitore può riconoscere e mappare a un valore. Le opzioni per i valori sono: nome utente, posta elettronica dell'utente o valore casuale.
-Per ulteriori informazioni sul protocollo cXML, vedere: http://cxml.org/
+Per ulteriori informazioni sul protocollo cXML, vedere il [sito Web](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Messaggio postback
 Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Finance and Operations. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta:

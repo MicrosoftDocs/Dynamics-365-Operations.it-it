@@ -3,7 +3,7 @@ title: Suggerimenti intelligenti
 description: In questo argomento viene descritto come l'apprendimento automatico può essere utilizzato per fornire suggerimenti per mansioni e candidati a mansioni.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518351"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620622"
 ---
 # <a name="intelligent-recommendations"></a>Suggerimenti intelligenti
 
@@ -33,7 +33,7 @@ L'apprendimento automatico può aiutare i selezionatori e i responsabili assunzi
 
 > [!NOTE] 
 > - Le funzionalità di suggerimenti intelligenti sono disponibili solo con il [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando **Impostazioni di amministrazione** in Attract. Impostare **Suggerimento candidato**, **Suggerimento posizione** e **Suggerimento prospect** su **Attivato**. Per ulteriori informazioni, vedere [Accesso alle funzionalità di anteprima in Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando l'**Interfaccia di amministrazione** in Attract. Impostare **Suggerimento candidato**, **Suggerimento posizione** e **Suggerimento prospect** su **Attivato**. Per ulteriori informazioni, vedere [Accesso alle funzionalità in anteprima in Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Suggerimenti candidato

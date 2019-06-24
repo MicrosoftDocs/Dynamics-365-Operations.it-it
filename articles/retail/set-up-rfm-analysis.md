@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553047"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606828"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Impostare l'analisi Recency, di frequenza e monetaria (RFM)
 
@@ -46,7 +46,7 @@ Si supponga, ad esempio, che l'organizzazione abbia impostato le valutazioni su 
 
 Se l'organizzazione utilizza un numero di aggregazione per il punteggio, le singole valutazioni vengono sommate insieme. Se consideriamo lo stesso esempio, il cliente ha una valutazione pari a 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Per impostare analisi RFM per i clienti nell'organizzazione
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Impostare analisi RFM per i clienti nell'organizzazione
 
 1. Passare a **Servizio clienti** \> **Periodico** \> **Analisi RFM**.
 2. Nella pagina **Analisi RFM** selezionare **Nuovo**. Nel campo **Definizione RFM** immettere un nome descrittivo per la definizione RFM. Ad esempio, è possibile chiamare la definizione RFM-A.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567978"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577846"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>Ottenere supporto per Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ Per ottenere supporto per Retail, usare le risorse indicate nella tabella seguen
 <li>Nella scheda <strong>Problema attivo</strong>, selezionare il problema e fare clic su <strong>Invia a Microsoft</strong>.</li>
 <li>Nella scheda <strong>Inviato a Microsoft</strong>, fare clic su <strong>Invia un nuovo evento imprevisto</strong> per inviare il problema.</li>
 </ul>
-<blockquote>[!NOTE] I partner e i clienti di Microsoft Premier possono inviare ticket di supporto Premier utilizzando i passaggi precedenti.</blockquote>
+<p><strong>Nota:</strong> i partner e i clienti di Microsoft Premier possono inviare ticket di supporto Premier utilizzando i passaggi precedenti.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ Per quesiti tecnici relative all'accesso a CustomerSource, e-learning, ricerca, 
 </tbody>
 </table>
 
-Per ulteriori informazioni sui piani di supporto di Microsoft Dynamics, vedere [Supporto Microsoft Dynamics Online](https://dynamics.microsoft.com/en-us/support/).
+Per ulteriori informazioni sui piani di supporto di Microsoft Dynamics, vedere [Supporto Microsoft Dynamics Online](https://dynamics.microsoft.com/support/).

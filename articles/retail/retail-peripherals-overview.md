@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571560"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577931"
 ---
 # <a name="retail-peripherals"></a>Periferiche di vendita al dettaglio
 
@@ -295,7 +295,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>NOTA: Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<p><strong>Note:</strong> un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>NOTA: Un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<p><strong>Note:</strong> un solo cassetto può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Driver Windows
-<blockquote>NOTA: Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
+<p><strong>Nota:</strong> per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</p>
 </li>
 <li>Rete</li>
 </ul>
@@ -404,7 +404,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>NOTA: Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<p><strong>Nota:</strong> un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Driver Windows
-<blockquote>NOTA: Per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</blockquote>
+<p><strong>Nota:</strong> per le stampanti di Windows in una rete, l'utente della stazione hardware deve disporre delle autorizzazioni di accesso alla stampante.</p>
 </li>
 <li>Rete</li>
 </ul>
@@ -491,7 +491,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <ul>
 <li>OPOS</li>
 <li>Rete
-<blockquote>NOTA: Un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</blockquote>
+<p><strong>Nota:</strong> un solo cassetto per profilo hardware può essere impostato se <strong>Consenti uso turno condiviso</strong> è configurato per il cassetto.</p>
 </li>
 </ul>
 </td>

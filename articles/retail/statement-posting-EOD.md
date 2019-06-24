@@ -16,16 +16,16 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541293"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606966"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo argomento descrive il primo set di miglioramenti apportati alla funzionalità di registrazione dei rendiconti. Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -58,10 +58,10 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 
 Inoltre, i seguenti parametri sono stati introdotti nella scheda dettaglio **Elaborazione batch** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio** : 
 
-- **Numero massimo di registrazioni rendiconti paralleli** - Questo campo definisce il numero di attività batch che verranno utilizzate per registrare più rendiconti. 
-- **Numero massimo di thread per l'elaborazione ordini per rendiconto** - Questo campo rappresenta il numero massimo di thread utilizzati dal processo batch di registrazione del rendiconto per creare e fatturare gli ordini di vendita per un singolo rendiconto. Il numero totale di thread che verrà utilizzato dal processo di registrazione del rendiconto verrà calcolato in base al valore in questo parametro moltiplicato per il valore nel parametro **Numero massimo di registrazioni rendiconti paralleli**. L'impostazione del valore di questo parametro troppo alto può influire negativamente sulle prestazioni del processo di registrazione del rendiconto.
-- **Numero massimo di righe transazione incluse nell'aggregazione** - Questo campo definisce il numero di righe transazione che verranno incluse in una singola transazione aggregata prima che ne venga creata una nuova. Le transazioni aggregate vengono create in base a diversi criteri di aggregazione come cliente, data del giorno lavorativo o dimensioni finanziarie. È importante notare che le righe de una singola transazione di vendita al dettaglio non verranno suddivise tra diverse transazioni aggregate. Ciò significa che è necessario prendere in considerazione la possibilità che il numero di righe in una transazione aggregata sia leggermente superiore o inferiore in base a fattori quali il numero di prodotti distinti.
-- **Numero massimo di thread per convalidare le transazioni del punto vendita** - Questo campo definisce il numero di thread che verranno utilizzati per convalidare le transazioni di vendita al dettaglio. La convalida delle transazioni di vendita al dettaglio è un passaggio necessario che deve verificarsi prima che le transazioni vengano inserite nei rendiconti. Inoltre, è necessario definire un **Prodotto gift card** nella Scheda dettaglio **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò deve essere definito anche se nessuna gift card verrà utilizzata dall'organizzazione.
+- **Numero massimo di registrazioni rendiconti paralleli** – Questo campo definisce il numero di attività batch che verranno utilizzate per registrare più rendiconti. 
+- **Numero massimo di thread per l'elaborazione ordini per rendiconto** – Questo campo rappresenta il numero massimo di thread utilizzati dal processo batch di registrazione del rendiconto per creare e fatturare gli ordini di vendita per un singolo rendiconto. Il numero totale di thread che verrà utilizzato dal processo di registrazione del rendiconto verrà calcolato in base al valore in questo parametro moltiplicato per il valore nel parametro **Numero massimo di registrazioni rendiconti paralleli**. L'impostazione del valore di questo parametro troppo alto può influire negativamente sulle prestazioni del processo di registrazione del rendiconto.
+- **Numero massimo di righe transazione incluse nell'aggregazione** – Questo campo definisce il numero di righe transazione che verranno incluse in una singola transazione aggregata prima che ne venga creata una nuova. Le transazioni aggregate vengono create in base a diversi criteri di aggregazione come cliente, data del giorno lavorativo o dimensioni finanziarie. È importante notare che le righe de una singola transazione di vendita al dettaglio non verranno suddivise tra diverse transazioni aggregate. Ciò significa che è necessario prendere in considerazione la possibilità che il numero di righe in una transazione aggregata sia leggermente superiore o inferiore in base a fattori quali il numero di prodotti distinti.
+- **Numero massimo di thread per convalidare le transazioni del punto vendita** – Questo campo definisce il numero di thread che verranno utilizzati per convalidare le transazioni di vendita al dettaglio. La convalida delle transazioni di vendita al dettaglio è un passaggio necessario che deve verificarsi prima che le transazioni vengano inserite nei rendiconti. Inoltre, è necessario definire un **Prodotto gift card** nella Scheda dettaglio **Gift card** della scheda **Registrazione** della pagina **Parametri di vendita al dettaglio**. Ciò deve essere definito anche se nessuna gift card verrà utilizzata dall'organizzazione.
 
 > [!NOTE]
 > Tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nella pagina **Punti vendita al dettaglio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.

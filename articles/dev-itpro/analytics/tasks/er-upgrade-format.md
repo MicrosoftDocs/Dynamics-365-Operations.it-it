@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544451"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595442"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Aggiornare il formato adottandone una nuova versione di base
 
@@ -36,7 +36,7 @@ Per completare questi passaggi, è necessario completare i passaggi delle proced
 
 ## <a name="select-format-configuration-for-customization"></a>Selezionare la configurazione del formato per la personalizzazione
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
-    * In questo esempio, la società campione Litware, Inc. (http://www.litware.com) fungerà da provider di configurazione che supporta le configurazioni dei formati per i pagamenti elettronici di un paese specifico.    La società campione Proseware, Inc. (http://www.proseware.com) fungerà da utente della configurazione del formato che Litware, Inc. ha fornito. Proseware, Inc. utilizza formati in determinate aree del paese.  
+    * In questo esempio, la società campione Litware, Inc. (https://www.litware.com) fungerà da provider di configurazione che supporta le configurazioni dei formati per i pagamenti elettronici di un paese specifico.    La società campione Proseware, Inc. (http://www.proseware.com) fungerà da utente della configurazione del formato che Litware, Inc. ha fornito. Proseware, Inc. utilizza formati in determinate aree del paese.  
 2. Fare clic su Configurazioni report.
 3. Fare clic su Mostra filtri.
 4. Applicare i filtri seguenti: immettere un valore di filtro "BACS (fittizio per il Regno Unito)" nel campo "Nome" utilizzando l'operatore di filtro "inizia con".

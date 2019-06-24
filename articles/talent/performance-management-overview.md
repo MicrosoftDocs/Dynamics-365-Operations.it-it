@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1954b691d84b0aa8710da621af21415c6c116539
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518363"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590507"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
 
@@ -109,7 +109,7 @@ Per revisioni più dettagliate, è possibile effettuare il pull degli obiettivi 
 
 ### <a name="ratings"></a>Valutazioni
 
-È possibile applicare una valutazione per ogni obiettivo o competenza presente nella revisione. È possibile definire i modelli di valutazione per ciascuna revisione. I valori predefiniti per le valutazioni sono nella pagina **Parametri risorse umane** in **Prestazioni**.
+È possibile applicare una valutazione per ogni obiettivo o competenza presente nella revisione. È possibile definire i modelli di valutazione per ciascuna revisione. I valori predefiniti per le valutazioni sono nella pagina **Parametri condividi Risorse umane** in **Prestazioni**.
 
 ### <a name="sign-offs"></a>Conferme
 

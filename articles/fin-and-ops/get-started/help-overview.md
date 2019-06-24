@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538958"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595641"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema della Guida di Finance and Operations
 
@@ -192,7 +192,7 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 | [Docs.microsoft.com](/dynamics365/)                                                            | Host o collegamenti a tutta la documentazione del prodotto per Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Sito gratuito di eLearning Microsoft. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Offre un'area di lavoro collaborativa basata sul cloud che i clienti e i partner possono utilizzare per gestire i progetti Dynamics 365 for Finance and Operations dalle prevendite all'implementazione e alle operazioni. Questo sito è utile in tutte le fasi dell'implementazione. |
-| [Blog di supporto](http://aka.ms/AXSupportBlog)                                                    | Fornisce suggerimenti e trucchi registrati dal team del supporto di Dynamics 365 for Finance and Operations. |
+| [Blog di supporto](https://aka.ms/AXSupportBlog)                                                    | Fornisce suggerimenti e trucchi registrati dal team del supporto di Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Ospita contenuto delle versioni precedenti. |
 | [Community di Dynamics](https://community.dynamics.com/)                                          | Ospita blog, i forum e video. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Fornisce informazioni su vendite e valutazione. |

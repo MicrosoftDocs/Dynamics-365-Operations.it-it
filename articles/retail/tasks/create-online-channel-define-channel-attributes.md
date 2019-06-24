@@ -3,7 +3,7 @@ title: Creare il canale online e definire gli attributi del canale
 description: In questa procedura vengono descritti i passaggi per creare un nuovo canale online e aggiungerlo alla gerarchia organizzativa.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569523"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618298"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Creare il canale online e definire gli attributi del canale
 
@@ -60,4 +60,10 @@ In questa procedura vengono descritti i passaggi per creare un nuovo canale onli
 9. Fare clic su Pubblica per aprire la finestra di dialogo a discesa.
 10. Nel campo Data di validità immettere una data e un'ora.
 11. Fare clic su Pubblica.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Configurare ordini per la notifica quasi in tempo reale
+1. Accedere a Vendita al dettaglio > Impostazione sedi centrali > Parametri > Parametri di vendita al dettaglio.
+2. Impostare Utilizza servizio in tempo reale per creazione di ordini di e-commerce su "Sì".
+3. Eseguire la programmazione di distribuzione 1070 per sincronizzare le modifiche nel database del canale. 
+
 

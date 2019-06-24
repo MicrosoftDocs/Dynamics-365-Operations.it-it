@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c3710ca2a5022c9de51e46042971cda6b621440e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d5008604f66de94f1d2845ce8f0bd7f6e9815cc7
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538015"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595572"
 ---
 # <a name="modello-770"></a>Modello 770
 
@@ -39,7 +39,7 @@ Completare le attività seguenti prima di creare un Modello 770:
 - Impostare i libri IVA italiani. Per ulteriori informazioni, vedere [Libri IVA italiani](emea-ita-fiscal-books.md).
 
 ## <a name="set-up-address-information"></a>Impostare le informazioni sull'indirizzo
-Utilizzare la pagina **Impostazione indirizzo** per impostare il codice paese, il codice dell'area e dello stato e i codici di comune e provincia per un terzista o un lavoratore autonomo da includere nel Modello 770. È necessario impostare le informazioni relative all'indirizzo per tutti i terzisti e i lavoratori autonomi per i quali trattenere le imposte dai pagamenti. Per informazioni sui codici indirizzo, vedere le istruzioni del governo italiano pubblicate per il Modello 770 sul sito Web dell'[Agenzia delle Entrate](http://www.agenziaentrate.gov.it).
+Utilizzare la pagina **Impostazione indirizzo** per impostare il codice paese, il codice dell'area e dello stato e i codici di comune e provincia per un terzista o un lavoratore autonomo da includere nel Modello 770. È necessario impostare le informazioni relative all'indirizzo per tutti i terzisti e i lavoratori autonomi per i quali trattenere le imposte dai pagamenti. Per informazioni sui codici indirizzo, vedere le istruzioni del governo italiano pubblicate per il Modello 770 sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 
 1. Selezionare **Amministrazione organizzazione** > **Indirizzi** > **Impostazione indirizzo**.
 2. Selezionare **Paese**, quindi nel campo **Paese**, immettere il codice di due lettere dell'organizzazione internazionale per la standardizzazione (ISO, International Organization for Standardization) per l'Italia.
@@ -84,7 +84,7 @@ Scaricare le *versioni effettive* delle configurazioni delle dichiarazioni elett
 Per istruzioni su come scaricare le configurazioni dei report elettronici, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 ## <a name="create-and-export-the-model-770-report"></a>Creare ed esportare il Modello 770
-Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli uffici tributari. Il nome del file ASCII deve essere \[partita IVA della società\] 77S\[*AA*\].77s, dove **AA** corrisponde alle ultime due cifre dell'anno di riferimento. Per ulteriori informazioni sul completamento e la presentazione del Modello 770, vedere il sito Web dell'[Agenzia delle Entrate](http://www.agenziaentrate.gov.it).
+Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli uffici tributari. Il nome del file ASCII deve essere \[partita IVA della società\] 77S\[*AA*\].77s, dove **AA** corrisponde alle ultime due cifre dell'anno di riferimento. Per ulteriori informazioni sul completamento e la presentazione del Modello 770, vedere il sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 
 1. Selezionare **Imposta** > **Richieste di informazioni e report** > **Report ritenuta d'acconto** > **Ritenuta d'acconto - Modello 770**.
 2. Creare un nuovo report Il report viene numerato in base alla sequenza numerica impostata per il riferimento **ID modello** nella pagina **Parametri di contabilità generale**.
@@ -116,7 +116,7 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 10. Nel campo **Commenti editoriali** selezionare la sezione per cui la società deve presentare la ritenuta d'acconto.
 
     > [!NOTE] 
-    > La sezione predefinita è la Sezione II. Selezionare una sezione in base alle istruzioni che il governo italiano ha pubblicato per il Modello 770 sul sito Web dell'[Agenzia delle Entrate](http://www.agenziaentrate.gov.it).
+    > La sezione predefinita è la Sezione II. Selezionare una sezione in base alle istruzioni che il governo italiano ha pubblicato per il Modello 770 sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 
 11. Nel campo **Tipo di dichiarante**, specificare il tipo di dichiarante che invia la dichiarazione fiscale all'ufficio tributario:
 
@@ -140,5 +140,5 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 21. Selezionare **Convalida** per convalidare i dati impostati per i fornitori e la società.
 22. È possibile utilizzare il pulsante **Reimposta** per reimpostare i valori in tutte le schede.
 23. Selezionare **Esporta**, quindi nella pagina **Esporta**, nel campo **Nome file**, specificare il nome file compresso per scaricare. Il file compresso contiene il Modello 770 come file ASCII.
-24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](http://www.agenziaentrate.gov.it).
+24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 25. Selezionare **OK** per esportare il Modello 770.

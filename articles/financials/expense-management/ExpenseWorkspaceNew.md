@@ -3,7 +3,7 @@ title: Note spese rinnovate
 description: In questo argomento vengono fornite informazioni sull'esperienza rinnovata e riprogettata per immissione delle note spese in Microsoft Dynamics 365 for Finance and Operations. La nuova esperienza semplifica il processo di completamento delle note spese e riduce il tempo necessario.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538694"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592639"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese rinnovate
 
@@ -46,10 +46,9 @@ Per attivare la nuova esperienza, utilizzare l'area di lavoro **Gestione funzion
 
 ## <a name="getting-started-video-for-new-users"></a>Video introduttivo per i nuovi utenti
 
-È possibile guardare un breve video che mostra le caratteristiche principali dell'immissione delle spese.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Il video non è ancora disponibile. Questo argomento verrà aggiornato quando il video sarà disponibile.
+Il video relativo all'[esperienza di spesa in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile in YouTube.
 
 ## <a name="new-features"></a>Nuove funzionalità
 

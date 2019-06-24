@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df02ce4ed43bc0cb1d2ff519c92ac41ca2983357
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538017"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555514"
 ---
 # <a name="intrastat"></a>Intrastat
 
@@ -76,7 +76,7 @@ Nella seguente tabella vengono elencati i prerequisiti per la dichiarazione Int
 </tr>
 <tr class="odd">
 <td>Gerarchia di categorie di prodotti (gerarchia di vendita, gerarchia di approvvigionamento)</td>
-<td>Assegnare i codici di voce doganale Intrastat ai nodi di categoria <strong>Codici di voce doganale</strong> nella scheda <strong>Gerarchia di categorie</strong> della pagina. Quando si assegna un codice di voce doganale a un nodo di categoria padre, il codice è applicabile a tutti i nodi di categoria figlio. I codici di voce doganale selezionati verranno disponibili <strong>Selezionato</strong> nella visualizzazione quando si seleziona un codice di voce doganale in {{dettaglio:in}} prodotto rilasciato e in ordinazione ordine cliente, ordine fornitore e le righe ordine di trasferimento.</td>
+<td>Assegnare i codici di voce doganale Intrastat ai nodi di categoria <strong>Codici di voce doganale</strong> nella scheda <strong>Gerarchia di categorie</strong> della pagina. Quando si assegna un codice di voce doganale a un nodo di categoria padre, il codice è applicabile a tutti i nodi di categoria figlio. I codici di voce doganale selezionati saranno disponibili nella visualizzazione <strong>Selezionato</strong> quando si seleziona un codice di voce doganale nei dettagli del prodotto rilasciato e nelle righe di ordine cliente, ordine fornitore e ordine di trasferimento.</td>
 </tr>
 <tr class="even">
 <td>Dettagli prodotto rilasciato</td>

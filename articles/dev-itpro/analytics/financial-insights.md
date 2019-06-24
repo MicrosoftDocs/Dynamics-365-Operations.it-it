@@ -3,7 +3,7 @@ title: Informazioni finanziarie dettagliate
 description: Informazioni finanziarie dettagliate utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554094"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595078"
 ---
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
@@ -67,10 +67,9 @@ I dati per **Informazioni finanziarie dettagliate** vengono estratti dall'archiv
 
 Per visualizzare i dati delle aree di lavoro **Informazioni finanziarie dettagliate** e **Panoramica responsabile finanziario**, è necessario aggiornare le seguenti entità:
 
+- Versione 2 di Dati transazione dei reporting finanziari (**Nota:** è una nuova funzionalità della versione 10.0.1 e sostituisce l'entità precedente).
+- Dati transazione dei report finanziari
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Cubo Acquisti
 - Cubo Vendite
@@ -148,7 +147,7 @@ I filtri sono inoltre disponibili per i campi **Anno fiscale** e **Data**. In ge
 
 Tutti gli oggetti visivi che riportano sui dati di contabilità generale mostrano gli importi nella valuta di contabilizzazione. Pertanto, quando si filtra per persona giuridica, è necessario fare attenzione a includere solo le persone giuridiche che hanno la stessa valuta di contabilizzazione. In caso contrario, verranno aggregati dati in valute diverse.
 
-Tutti gli oggetti visivi che forniscono un report dei dati relativi ai giornali di registrazione secondari, come **Previsione di cassa** e **Primi 10** , mostrano gli importi nella valuta del sistema. La valuta di sistema e il tipo di tasso di cambio del sistema vengono definiti nella pagina **Paramenti di sistema**.
+Tutti gli oggetti visivi che forniscono un report dei dati relativi ai giornali di registrazione secondari, come **Previsione di cassa** e **Primi 10** , mostrano gli importi nella valuta del sistema. La valuta di sistema e il tipo di tasso di cambio del sistema vengono definiti nella pagina **Parametri di sistema**.
 
 L'oggetto visivo **Saldo per conto bancario** utilizza gli importi nella valuta dei conti bancari.
 

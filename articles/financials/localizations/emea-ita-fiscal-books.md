@@ -17,12 +17,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 52610faa10cfbcab33e49e17e46baa5db71a2f05
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 109b6c10d49f735ef4e750a2737304903d0c011a
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538018"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549074"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 

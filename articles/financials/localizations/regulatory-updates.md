@@ -3,7 +3,7 @@ title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530709"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593345"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -52,9 +52,20 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      2019 aprile          |   10.0.1      |   Germania     |Fatturazione elettronica - Le fatture dei clienti sono esportate in formato xRechnung 1.1         |
 |      2019 aprile          |   10.0.1      |    Regno Unito     |[Modifiche all'invio della dichiarazione VAT (digitalizzazione delle imposte)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 aprile          |   10.0.1      |    Brasile     |Nuovo NF-e NT 2018.005         |
-|      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019         |
-|      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019 (libri acquisti e vendite) 
+|      2019 aprile          |   10.0.1      |    Russia     |[Il formato della dichiarazione IVA cambia a partire dal 2019](rus-VAT-declaration.md) |
+|      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019 (libri acquisti e vendite) |
+|      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione dell'imposta fondiaria dal 2018 |
+|      2019 aprile          |   10.0.1      |    Russia     |[Modifiche alla dichiarazione fiscale della proprietà dal 2019](rus-assessed-tax-declaration.md)|
+|      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione fiscale per imposte di trasporto dal 2019  |
+|      2019 aprile            |   10.0.1      | Ungheria      |  Ungheria: fatturazione in linea v.1.1 2019 in Microsoft Dynamics 365 for Finance and Operations  |
 |      2019° maggio            |   10.0.2      | Brasile      |   Layout 7 SPED ECD   |
+|      In sospeso            |   10.0.3      | Brasile      |   Nuovo NF-e NT 2018.005 - v.1.20   |
+|      In sospeso            |   10.0.3      | Brasile      |   Layout 7 SPED ECD   |
+|      In sospeso            |   10.0.3      | Brasile      |   Sped ECF - Layout 5 per 2019   |
+|      In sospeso            |   10.0.3      | Lituania    |   Il report i.SAF consente all'utente di definire i codici IVA insieme a codici di imposte legali    |
+|      In sospeso            |   10.0.3      | Polonia     |   Fatture SAF (JPK_FA) v.2 dal 1° luglio 2019  |
+|      In sospeso            |   10.0.3      | Brasile   |   Le rettifiche ICMS per documenti fiscali abilitano la tabella 5.2   |
+|      In sospeso            |   10.0.3      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

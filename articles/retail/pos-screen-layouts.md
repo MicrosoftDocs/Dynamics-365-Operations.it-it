@@ -3,7 +3,7 @@ title: Layout delle schermate per il POS
 description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Microsoft Dynamics 365 for Retail POS.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549430"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607041"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layout delle schermate per il POS
 
@@ -51,6 +51,7 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 - **Tema**: gli utenti possono scegliere tra i temi chiari o scuri dell'applicazione. Il tema ha effetto sui colori di sfondo sul carattere e dell'applicazione.
 - **Colore accento**: il colore accento viene utilizzato nel POS per distinguere o evidenziare specifici elementi visivi ad esempio riquadri, pulsanti di comando e collegamenti ipertestuali. Questi elementi sono in genere elementi su cui è possibile eseguire azioni.
 - **Colore dell'intestazione** - Consente di configurare il colore dell'intestazione di pagina per soddisfare i requisiti di branding del rivenditore. Questa funzionalità è disponibile solo nella versione 1611 di Microsoft Dynamics 365 for Retail.
+- **Mostra data/ora** - Quando abilitate, la data e l'ora corrente saranno visualizzate nell'intestazione POS.
 - **Sfondi di accesso**: è possibile specificare un'immagine di sfondo per la schermata di accesso. Le dimensioni dei file di immagine di sfondo devono essere mantenute il più ridotte possibile in quanto la memorizzazione e il caricamento di file di grandi dimensioni può avere un impatto sul comportamento e sulle prestazioni dell'applicazione.
 - **Sfondo dell'applicazione**: è possibile specificare un'immagine di sfondo da utilizzare al posto del colore solido del tema in tutta l'applicazione. Per quanto riguarda gli sfondi dell'accesso, la dimensione del file deve essere tenuta il più piccola possibile.
 

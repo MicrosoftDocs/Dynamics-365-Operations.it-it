@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517101"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561389"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurare ed elaborare uno scambio in un ordine di reso
 
@@ -37,7 +37,7 @@ Tuttavia, è stata aggiunta una funzionalità per supportare gli scenari in cui 
 
 Seguire questi passaggi per configurare il sistema in modo da supportare cambi sugli ordini di reso.
 
-1. Accedere a **Vendita al dettaglio \> Impostazione sedi centrali \> Parametri \> Parametri Retail**. Nella Scheda dettaglio **Ordini cliente**, impostare l'opzione **Elabora ordini di reso come ordini cliente** su **Sì**.
+1. Accedere a **Vendita al dettaglio \> Impostazione sedi centrali \> Parametri \> Parametri di vendita al dettaglio**. Nella Scheda dettaglio **Ordini cliente**, impostare l'opzione **Elabora ordini di reso come ordini cliente** su **Sì**.
 2. Eseguire il processo **Programmazione di distribuzione configurazione globale** (**1110**).
 
 ## <a name="make-an-exchange"></a>Eseguire uno scambio

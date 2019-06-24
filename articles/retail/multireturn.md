@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d410fde2cd127f8d644e6a385937b6bc98d74576
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517100"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565302"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Articoli di reso in più fatture e ordini cliente
 
@@ -34,7 +34,7 @@ Nella versione 10.0 di Dynamics 365 for Finance and Operations, i resi possono e
 
 ## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>Configurare Retail per supportare i resi in più fatture e ordini cliente
 
-1. Andare a **Parametri Retail \> Ordini cliente**.
+1. Andare a **Parametri di vendita al dettaglio \> Ordini cliente**.
 1. Attivare il parametro **Consenti resi per più ordini**. 
 
 ## <a name="process-returns"></a>Elaborare i resi

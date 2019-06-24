@@ -3,7 +3,7 @@ title: Configura strutture dei conti
 description: In questo argomento vengono fornite informazioni sulle strutture dei conti e le dimensioni finanziarie.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552010"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617298"
 ---
 # <a name="configure-account-structures"></a>Configura strutture dei conti
 
@@ -70,6 +70,16 @@ La sezione **Dettagli valori consentiti** fornisce le istruzioni per creare i cr
 
 [![Valori consentiti](./media/account.png)](./media/account.png) 
 
+I valori consentiti vengono impostati su un pagina delle voci di distribuzione contabile o giornale di registrazione quando non sono presenti altri valori possibili da selezionare in base alla configurazione della struttura dei conti.
+
+Di seguito è riportato un esempio della **Struttura dei conti profitti e perdite**.
+
+|Conto principale          | Business Unit    |Reparto          | Centro di costo    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Durante l'immissione di un giornale di registrazione e la selezione di un conto nell'intervallo profitti e perdite, la selezione della business unit "002" comporterà l'impostazione dei valori 022 e 014 come predefiniti nel controllo dei conti. Questo comportamento si verificherà anche con la pagina della distribuzione contabile. 
+
 ## <a name="more-than-7-criteria-needed"></a>Sono necessari più di 7 criteri
 
 Se sono necessari più di 7 criteri, è possibile continuare ad aggiungerne nella riga successiva. Quando si utilizza la sezione **Dettagli valori consentiti** si noterà che il criterio **+Aggiungi nuovo** non è più attivo dopo che viene immesso il settimo criterio. Ciò è dovuto a molti fattori tra cui: 
@@ -79,8 +89,6 @@ Se sono necessari più di 7 criteri, è possibile continuare ad aggiungerne nell
  - Usabilità  
  
 Per continuare ad aggiungere altri criteri, fare clic su **Duplica nel segmento** e sulla sezione **Valori consentiti**. Questa operazione copia i criteri in una nuova riga. È quindi possibile immettere i dettagli o modificare la sezione **Dettagli valori consentiti**.
-
-(COLLEGAMENTO AL VIDEO CHE SARÀ CREATO)
 
 ## <a name="best-practices"></a>Procedure consigliate
 Quando si impostano le strutture dei conti esistono alcune procedure consigliate che è possibile seguire. Si tratta tuttavia di indicazioni pertanto una discussione olistica su business, piano di crescita e piano di gestione deve essere considerata parte integrante di tale discussione.

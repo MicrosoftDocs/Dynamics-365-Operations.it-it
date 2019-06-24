@@ -6,7 +6,7 @@
       href: get-started/whats-new.md
     - name: Funzionalità di anteprima in Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: Funzionalità di anteprima in Dynamics 365 for Retail 10.0.2
+    - name: Novità o modifiche in Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
     - name: Novità o modifiche in Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
@@ -49,14 +49,18 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Implementare progetti di Finance and Operations Retail
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Impostare nuovi ambienti, Azure DevOps e rami per i progetti Retail'
+    - name: 'Impostare nuovi ambienti, Azure DevOps e filiali per i progetti Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Aggiornare codice e ambienti per progetti Retail
       href: dev-itpro/updating-environments.md
     - name: Test e problemi relativi alle prestazioni
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: Gestione ordini distribuiti (DOM - Distributed Order Management)
-  href: dom.md
+  items:
+    - name: Panoramica DOM
+      href: dom.md
+    - name: Configurazione costi
+      href: cost.md
 - name: Pagamenti
   items:
     - name: Metodi di pagamento
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: Connettore pagamenti di Dynamics 365 per Adyen
       href: dev-itpro/adyen-connector.md
+    - name: Salvare gli strumenti di pagamento online con il connettore Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: Configurare scenari di pagamento delle fatture
       href: payinvoice.md
     - name: Domande frequenti sui pagamenti
@@ -95,7 +101,9 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: Miglioramenti alla funzionalità di registrazione del rendiconto
       href: statement-posting-EOD.md
-    - name: Configurare i parametri di Retail che influiscono sui rendiconti della vendita al dettaglio
+    - name: Gestione migliorata degli articoli di cui viene tenuta traccia in batch
+      href: batch.md
+    - name: Configurare i parametri di vendita al dettaglio che influiscono sui rendiconti della vendita al dettaglio
       href: tasks/parameter-configurations-retail-statements.md
     - name: Configurare le impostazioni del metodo di pagamento che influiscono sui rendiconti della vendita al dettaglio
       href: tasks/payment-configurations-retail-statements.md
@@ -115,6 +123,8 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Opzioni importo totale e intervallo per i codici IVA
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Panoramica dei pagamenti multicanale
+  href: omni-channel-payments.md
 - name: Addebiti automatici avanzati omnicanale
   items:
     - name: Configurare e utilizzare addebiti automatici avanzati
@@ -159,15 +169,17 @@
       href: MPOS-or-CPOS.md
     - name: 'Operazioni POS, online e offline'
       href: pos-operations.md
-    - name: Attivazione dispositivi di un'istanza di Retail Modern POS personalizzata
+    - name: Attivazione dispositivi di un'istanza di Retail MPOS
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Layout schermo con dati dimostrativi in MPOS e Cloud POS
       href: demo-data.md
     - name: Ricerca di prodotti e clienti nel POS
       href: POS-search-improvements.md
+    - name: Miglioramenti alla gestione di cassa
+      href: cash-mgmt.md
     - name: Ricerca in magazzino nel POS
       href: product-variants-POS.md
-    - name: Sospensione e ripresa delle transazioni nel POS
+    - name: Sospendere e riprendere le transazioni nel POS
       href: pos-suspend-recall-transactions.md
     - name: Periferiche hardware
       items:
@@ -486,7 +498,7 @@
       items:
         - name: Componenti di Retail
           href: retail-components.md
-        - name: Architettura del server Retail
+        - name: Architettura di Retail Server
           href: dev-itpro/retail-server-architecture.md
         - name: Selezionare una topologia in punto vendita
           href: dev-itpro/retail-in-store-topology.md
@@ -592,17 +604,17 @@
           href: dev-itpro/call-crt-service-offline.md
     - name: Estendibilità di Commerce Runtime (CRT)
       items:
-        - name: Configurazione e architettura CRT
+        - name: Architettura e configurazione CRT
           href: dev-itpro/commerce-runtime-overview.md
         - name: Servizi CRT
           href: dev-itpro/crt-services.md
-        - name: Estendibilità di CRT e Retail Server
+        - name: Estendibilità CRT e Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
         - name: Aggiungere dati di preferenza del cliente a database di canale
           href: dev-itpro/add-customer-preference-channel.md
         - name: Aggiungere proprietà a ordini cliente
           href: dev-itpro/add-properties-sales-order.md
-        - name: Attivazioni ed estendibilità di CRT
+        - name: Estendibilità e attivazioni CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
         - name: Bloccare le transazioni utilizzando i trigger
           href: dev-itpro/trigger-example-blocking-transaction.md

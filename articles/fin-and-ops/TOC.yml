@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Funzionalità non implementate nelle distribuzioni locali
               href: get-started/features-not-implemented-on-prem.md
+            - name: Funzionalità di anteprima in Finance and Operations versione 10.0.4 (luglio 2019)
+              href: get-started/whats-new-changed-10-0-4.md
             - name: Funzionalità di anteprima in Finance and Operations versione 10.0.3 (giugno 2019)
               href: get-started/whats-new-changed-10-0-3.md
-            - name: Funzionalità di anteprima in Finance and Operations versione 10.0.2 (maggio 2019)
+            - name: Finance and Operations versione 10.0.2 (maggio 2019)
               href: get-started/whats-new-changed-10-0-2.md
             - name: Finance and Operations versione 10.0.1 (aprile 2019)
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations versione 8.1.3 (gennaio 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: 'Funzionalità di anteprima in Finance and Operations, platform update 28 (luglio 2019)'
+              href: get-started/whats-new-platform-update-28.md
             - name: 'Funzionalità di anteprima in Finance and Operations, platform update 27 (giugno 2019)'
               href: get-started/whats-new-platform-update-27.md
-            - name: 'Funzionalità di anteprima in Finance and Operations, platform update 26 (maggio 2019)'
+            - name: Platform update 26 (maggio 2019)
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25 (aprile 2019)
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Creare un budget preliminare per il settore pubblico
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: Report analisi budget
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Analisi budget nel settore pubblico
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Budget preliminari e ripartizioni nel settore pubblico
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Impostare i tassi di cambio per le transazioni in valuta
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: Importare i tassi di cambio valuta dalla Banca centrale della Federazione Russa ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Titolari anticipi
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Impostare i benefit
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Frequenze e cicli
             - name: Impostare cicli e periodi retributivi
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Impostare frequenze di calcolo retribuzioni
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Analizzare i documenti in entrata in formato CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3877,6 +3885,10 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: App per dispositivi mobili Foglio presenze progetto
           href: ../financials/project-management/project-timesheet.md
+        - name: Fogli presenze di progetto in un dispositivo mobile
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Implementare campi personalizzati per l'app per dispositivi mobili Foglio presenze progetto
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: Vendite e marketing
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536712"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617975"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Esposizione della funzionalità
@@ -138,10 +138,6 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 - La creazione manuale di ordini di quarantena non è supportata per i prodotti a peso variabile.
 - Il movimento manuale delle scorte relativo al lavoro non è supportato per i prodotti a peso variabile.
 - Il consolidamento di targhe non è supportato per i prodotti a peso variabile.
-- Le modifiche allo stato delle scorte magazzino come parte di un'attività periodica non sono supportate per i prodotti a peso variabile.
-- Le modifiche allo stato delle scorte definite da una query non sono supportate per i prodotti a peso variabile (non sono supportate nemmeno le modifiche allo stato delle scorte dell'ordine di controllo qualità).
-- Per i prodotti a peso variabile, lo stato delle scorte non può essere modificato dalla pagina **Disponibili per ubicazione**.
-- Per i prodotti a peso variabile, lo stato delle scorte non può essere modificato come parte del lavoro di movimento dell'app magazzino.
 - Il caricamento targa per inizializzare le scorte di magazzino non è supportato per i prodotti a peso variabile.
 - I processi di bilanciamento del batch non sono supportati per i prodotti a peso variabile.
 - La gestione dell'inventario fisico negativo non è supportata per i prodotti a peso variabile.
@@ -151,7 +147,6 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 
 - La funzionalità per il prelievo del cluster non è supportata per i prodotti a peso variabile.
 - L'elaborazione di magazzino per prelievo e imballaggio non è supportata per i prodotti a peso variabile.
-- Per i prodotti a peso variabile, il lavoro non può essere completato nella pagina **Lavoro**.
 - Per i prodotti a peso variabile, il lavoro definito in un modello di lavoro può essere eseguito automaticamente.
 - La funzionalità per lo storno del lavoro non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, l'elaborazione manuale presso il centro d'imballaggio in cui il lavoro viene creato dopo la chiusura dei contenitori non è supportata.
@@ -163,7 +158,7 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 - La funzionalità kanban non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, i numeri di serie non possono essere registrati prima del consumo.
 - La funzionalità per lo storno delle targhe non è supportata per i prodotti a peso variabile.
-- Per i prodotti a peso variabile, la dichiarazione di finito può essere registrata mediante il numero di serie.
+- Per i prodotti a peso variabile, la dichiarazione di finito non può essere registrata mediante il numero di serie.
 
 ### <a name="transportation-management-processing"></a>Elaborazione della gestione trasporto
 

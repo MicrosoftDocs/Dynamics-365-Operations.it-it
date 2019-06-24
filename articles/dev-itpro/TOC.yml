@@ -227,8 +227,9 @@
             - name: Classi X
               href: dev-ref/x-classes.md
     - name: Estendibilità
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Estendibilità home page
+          href: extensibility/extensibility-home-page.md
         - name: Introduzione
           items:
             - name: Piano di estendibilità dell'applicazione
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Novità
           items:
-            - name: Modifiche all'estendibilità (luglio 2017)
-              href: extensibility/changes-july-2017.md
-            - name: Modifiche all'estendibilità nella versione 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Modifiche all'estendibilità nella versione 8.0
-              href: extensibility/changes-80.md
-            - name: Modifiche all'estendibilità versione 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: Modifiche all'estendibilità versione 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: Modifiche all'estendibilità versione 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: Modifiche all'estendibilità versione 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: Modifiche all'estendibilità versione 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: Modifiche all'estendibilità versione 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: Modifiche all'estendibilità versione 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: Modifiche all'estendibilità versione 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: Modifiche all'estendibilità versione 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: Modifiche all'estendibilità versione 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Modifiche all'estendibilità versione 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Novità o modifiche per l'estendibilità
+              href: extensibility/extensibility-new.md
             - name: Modifiche all'estendibilità versione 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: Modifiche all'estendibilità versione 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Modifiche all'estendibilità versione 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Modifiche all'estendibilità versione 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Modifiche all'estendibilità versione 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Modifiche all'estendibilità versione 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Modifiche all'estendibilità versione 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Modifiche all'estendibilità versione 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Modifiche all'estendibilità versione 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Modifiche all'estendibilità versione 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Modifiche all'estendibilità versione 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Modifiche all'estendibilità versione 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Modifiche all'estendibilità nella versione 8.0
+              href: extensibility/changes-80.md
+            - name: Modifiche all'estendibilità nella versione 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Modifiche all'estendibilità (luglio 2017)
+              href: extensibility/changes-july-2017.md
         - name: Elementi fondamentali
           items:
             - name: Personalizzazioni intrusive
@@ -361,8 +364,14 @@
       items:
         - name: Effettuare tracciature con il parser di traccia
           href: perf-test/trace-trace-tutorial.md
-        - name: Performance SDK e test dell'ambiente multiutente tramite Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: Test dell'ambiente a utente singolo con Registrazione attività e SDK prestazioni
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Test dell'ambiente multiutente con SDK prestazioni e un controllore di test locale
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Test dell'ambiente multiutente con SDK prestazioni e Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Guida alla risoluzione dei problemi per test dell'ambiente a utente singolo o multiutente con SDK prestazioni
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Performance SDK e test dell'ambiente multiutente in ambienti locali
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Diagnosticare problemi e analizzare le prestazioni con il parser Trace
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Creare fornitori di tassi di cambio in Finance and Operations versione 8.0
           href: financial/create-exchange-rate-8.md
+    - name: 'Liquidare transazioni con CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Sviluppo della supply chain
   items:
     - name: Guida per lo sviluppo del controllo Gantt
@@ -1076,7 +1087,7 @@
       items:
         - name: Preparare la migrazione del codice
           href: migration-upgrade/prepare-migration.md
-        - name: Configurare il mapping di Azure DevOps
+        - name: Configurare il mapping Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Divisione modelli
           href: dev-tools/model-split.md

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525327"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577902"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Impostare l'integrazione fiscale per canali di vendita al dettaglio
 
@@ -88,7 +88,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
         È possibile modificare i parametri di mapping dei dati in un profilo funzionale di connettore. Per ripristinare i parametri predefiniti definiti in una configurazione di fornitore di documenti fiscali, selezionare **Aggiorna**.
 
         **Esempi**
-    
+
         |   | Formatta | Esempio |
         |---|--------|---------|
         | **Impostazioni aliquote IVA** | value : VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
 4. Creare gruppi di connettori fiscali.
 
     Un gruppo di connettori fiscali combina profili funzionali di connettori fiscali che eseguono funzioni identiche e sono utilizzati nella stessa fase di un processo di registrazione fiscale. Ad esempio, se è possibile utilizzare diversi modelli di stampante fiscale in un punto vendita al dettaglio, i connettori fiscali per quelle stampanti fiscali possono essere combinati in un gruppo di connettori fiscali.
-    
+
     1. Nella pagina **Gruppo di connettori fiscali** (**Vendita al dettaglio \> Impostazione canale \> Integrazione fiscale \> Gruppi di connettori fiscali**), creare un nuovo gruppo di connettori fiscali.
     2. Aggiungere profili funzionali al gruppo di connettori. Nella scheda **Profili funzionali**, selezionare **Aggiungi** e selezionare un numero di profilo. Ogni connettore fiscale In un gruppo di connettori può avere un solo profilo funzionale.
     3. Per sospendere l'utilizzo del profilo funzionale, impostare l'opzione **Disabilita** su **Sì**. Questa modifica viene applicata solo al gruppo di connettori corrente. È possibile continuare a utilizzare lo stesso profilo funzionale in altri gruppi di connettori.
@@ -119,7 +119,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
 5. Creare un processo di registrazione fiscale
 
     Un processo di registrazione fiscale è definito dalla sequenza dei passaggi di registrazione e dal gruppo di connettori utilizzato in ogni passaggio.
-    
+
     1. Nella pagina **Processo di registrazione fiscale** (**Vendita al dettaglio \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**), creare un nuovo record per ogni processo univoco di registrazione fiscale.
     2. Aggiungere i passaggi di registrazione al processo:
 
@@ -145,7 +145,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
 7. Nella pagina **Processo di registrazione fiscale** (**Vendita al dettaglio \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**), selezionare **Convalida** per convalidare il processo di registrazione fiscale.
 
     Si consiglia di eseguire questo tipo di convalida nei seguenti casi:
-    
+
     - Dopo aver completato tutte le impostazioni per un nuovo processo di registrazione, tra cui l'assegnazione di processi di registrazione a profili di funzionalità POS e a profili hardware.
     - Dopo aver apportato modifiche a un processo di registrazione fiscale esistente e tali modifiche possono comportare la selezione di un connettore fiscale differente al runtime (ad esempio, se si modifica il gruppo di connettori per un passaggio del processo di registrazione fiscale, si abilita un profilo funzionale di connettore in un gruppo di connettori o si aggiunge un nuovo profilo funzionale di connettore a un gruppo di connettori).
     - Dopo aver apportato modifiche all'assegnazione dei profili tecnici di connettore ai profili hardware.

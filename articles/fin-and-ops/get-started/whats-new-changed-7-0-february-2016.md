@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561812"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595664"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
@@ -670,7 +670,7 @@ L'area di lavoro <strong>Gestione cataloghi</strong> abilita le seguenti funzion
 <td>Le entità di dati consentono ai clienti di effettuare l'importazione e l'esportazione guidate dai metadati. Le entità di OData consentono anch'esse ai clienti di integrare i clienti Dynamics AX con i programmi di terze parti.</td>
 </tr>
 <tr>
-<td>Eseguire l'analisi dei dati intelligente utilizzando i report di BI da Microsoft Dynamics AX e il client POS.</td>
+<td>Eseguire l'analisi dei dati intelligente utilizzando i report di BI da Dynamics Microsoft AX e il client POS.</td>
 <td>Più di 25 report di back office e cinque report di canale sono disponibili.</td>
 <td>Più di 30 report di back office e 10 report di canale sono disponibili.</td>
 <td>Questi report danno ai clienti più BI per prevedere le tendenze, scoprire informazioni e operare sempre alle massime prestazioni.</td>
@@ -721,7 +721,7 @@ Il server al dettaglio e la gestione dei dati consente agli utenti e le imprese 
 </thead>
 <tbody>
 <tr>
-<td>Connetti al database runtime commerciale (CRT) che vengono archiviate i dati aziendali per il canale utilizzando i servizi di CRT.</td>
+<td>Eseguire la connessione al database Commerce Runtime (CRT) che archivia i dati aziendali per il canale utilizzando i servizi CRT.</td>
 <td>OData V3 è supportato.</td>
 <td>OData V4 è supportato.</td>
 <td>Consente al cliente di restare aggiornato con gli standard di OData. Crea inoltre un'esperienza affidabile omni-canale con integrazione delle vendite a livello di in-store, mobile e canali online.</td>
@@ -971,7 +971,7 @@ Presenza di installazione migliore del componente client "a tocco" tramite l'imp
 </tr>
 <tr>
 <td>Monitorare le integrità del sistema e diagnostichi errori e le uscite.</td>
-<td>Questa funzionalità richiede <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack per Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Questa funzionalità richiede <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack per Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Il monitoraggio e la diagnostica per i componenti al dettaglio è ora disponibili tramite <strong>Comprensioni operative</strong> il dashboard in LC.</td>
 <td><strong>Comprensioni operative</strong> Il dashboard è in un portale basato su cloud del monitoraggio che sostituiscono la necessità di impostare l'infrastruttura di System Center Operations Manager (SCOM).</td>
 </tr>
