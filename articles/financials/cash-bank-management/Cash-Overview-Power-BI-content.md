@@ -3,7 +3,7 @@ title: Contenuto di Power BI della panoramica situazione di cassa
 description: Questo argomento descrive il contenuto Panoramica situazione di cassa di Power BI. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568919"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702797"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenuto di Power BI della panoramica situazione di cassa
 
@@ -33,6 +33,17 @@ Questo argomento descrive il contenuto **Panoramica situazione di cassa** di Mic
 
 Il contenuto **Panoramica situazione di cassa** di Power BI è stato creato per i responsabili della cassa dell'organizzazione. Il contenuto **Panoramica situazione di cassa** di Power BI fornisce la visibilità del flusso di cassa. Fornisce inoltre le previsioni che consentono di prendere decisioni migliori e quindi migliorare la stabilità del flusso di cassa. È possibile analizzare il flusso di cassa per persona giuridica, valuta e conto bancario per ottenere una migliore comprensione delle eccedenze e delle carenze.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Impostazione necessaria per visualizzare il contenuto di Power BI
+
+La seguente impostazione deve essere completata per visualizzare i dati nelle rappresentazioni **Panoramica situazione di cassa** e **Gestione banche** di Power BI.
+
+1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
+2. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
+2. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema, la valuta di contabilizzazione e le valute delle banche. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
+3. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Previsione di cassa</a>. 
+4. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
 I report dal contenuto Power BI **Panoramica situazione di cassa** vengono visualizzati nelle aree di lavoro **Panoramica situazione di cassa** e **Gestione banche**.
@@ -42,6 +53,7 @@ Per visualizzare i report delle previsioni di cassa con dati, è necessario prim
 A tale scopo, è possibile aggiungere i dati dimostrativi delle previsioni di cassa utilizzando la pagina **Genera dati** dal modulo Dati dimostrativi.  Questo script inserirà i dati nelle tabelle delle previsioni di cassa per popolare rapidamente le informazioni necessarie per i report.  Questo modulo è disponibile solo se si dispone del modello della serie di dati dimostrativi distribuito nell'ambiente. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
+
 Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in ogni pagina del report nel contenuto di Power BI **Panoramica situazione di cassa**.
 
 | Report                                | Contenuto |
@@ -67,5 +79,3 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Riepilogo di entrate di cassa, uscite e saldo utilizzando la valuta di contabilizzazione di ciascuna società |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Riepilogo di entrate di cassa, uscite e saldo utilizzando la valuta di sistema per tutte le società |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Riepilogo dell'importo della transazione e del saldo netti delle valute utilizzando la valuta della transazione |
-
-

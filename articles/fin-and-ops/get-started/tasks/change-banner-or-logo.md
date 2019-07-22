@@ -3,7 +3,7 @@ title: Modificare banner o logo
 description: La procedura riportata di seguito elenca i passaggi che gli amministratori di sistema possono utilizzare per aggiornare l'immagine di logo o banner visualizzata per una persona giuridica.
 author: aneesmsft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 78300008ac819f8ba82212f7aecaa73246ab774d
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561786"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711156"
 ---
 # <a name="change-the-banner-or-logo"></a>Modificare banner o logo
 
@@ -29,16 +29,14 @@ ms.locfileid: "1561786"
 
 La procedura riportata di seguito elenca i passaggi che gli amministratori di sistema possono utilizzare per aggiornare l'immagine di logo o banner visualizzata per una persona giuridica. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
-1. Andare ad Amministrazione organizzazione > Organizzazioni > Persone giuridiche.
+1. Andare a **Pannello di navigazione > Moduli > Amministrazione organizzazione > Organizzazioni Persone giuridiche**.
 2. Nell'elenco a sinistra, selezionare la persona giuridica per cui si desidera aggiornare il banner o il logo. Se è già selezionata, andare al passaggio successivo.
-3. Espandere la sezione Immagini. Se è già espansa, andare al passaggio successivo.
-4. Fare clic su Modifica.
-5. Nel campo Tipo di immagine società nel dashboard, selezionare 'Banner'.
-6. Fare clic su Modifica.
-    * Suggerimento: la risoluzione ideale per un'immagine di tipo banner è 1920 x 281 pixel. La larghezza ideale per un'immagine di tipo logo è 350 pixel.  
-    * Quando il caricamento è completato, la nuova immagine di logo o banner viene visualizzata nella sezione Immagine nel dashboard.  
-7. Fare clic su Salva.
-8. Passare a Comune > Comune > Dashboard predefinito.
-    * La nuova immagine di logo o banner viene visualizzata nel dashboard.  
-    * Potrebbe essere necessario modificare la società, utilizzando la selezione delle società, impostando quella per cui è stato caricato il banner.  
-
+3. Espandere la scheda **Immagine nel dashboard**.
+4. Selezionare **Modifica**.
+    
+    La risoluzione ideale per un'immagine di tipo banner è 1920 x 281 pixel. La larghezza ideale per un'immagine di tipo logo è 350 pixel.
+    
+5. Selezionare **Salva**.
+6. Andare a **Pannello di navigazione > Moduli > Comune > Comune > Dashboard predefinito**. La nuova immagine di logo o banner viene visualizzata nel dashboard.  
+    
+    Potrebbe essere necessario modificare la società, utilizzando la selezione delle società, impostando quella per cui è stato caricato il banner.  
