@@ -3,7 +3,7 @@ title: Video per Finance and Operations
 description: In questa pagina sono elencati i video illustrativi e quelli tecnologici relativi a Dynamics 365 for Finance and Operations disponibili su YouTube e altri siti.
 author: josaw1
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
+ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591550"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625399"
 ---
 # <a name="videos-for-finance-and-operations"></a>Video per Finance and Operations
 
@@ -39,58 +39,62 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 #### <a name="data-integration"></a>Integrazione dati
 
 - [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg)
-- [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizzare un ordine di lavoro tra Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gestione dati
 
-- [Use data entities and data packages in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [Utilizzare entità di dati e pacchetti di dati in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
 #### <a name="development"></a>Sviluppo
 
 - [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [Setting up a development branch and build](https://www.youtube.com/watch?v=qXLd-NMx9OY)
-- [Setting up a development machine](https://www.youtube.com/watch?v=cqp9MetfiyM)
+- [Configurare un ramo di sviluppo e compilare](https://www.youtube.com/watch?v=qXLd-NMx9OY)
+- [Configurare un computer per lo sviluppo](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [Integrazione di Azure DevOps con Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>Esplorare l'interfaccia utente
 
-- [Add custom fields](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [Embed PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Aggiungere campi personalizzati](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
+- [Incorporare PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 #### <a name="financial-management"></a>Gestione finanziaria
 
-- [Find the version of Report designer](https://www.youtube.com/embed/icfA5Q3kp4w)
+- [Determinare la versione di Progettazione report](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [Cost control mobile workspace](https://youtu.be/imsuTg8rUVk)
 - [Introduzione alla contabilità industriale](https://youtu.be/1pUDtJQZ8FU)
 - [Utilizzare Excel per l'analisi dei costi](https://youtu.be/-HKHYdClvx8)
 - [Esperienza di spesa](https://youtu.be/Ocy-MsTvEE0)
 
+#### <a name="help-system"></a>Guida
+
+- [Come contribuire alla documentazione di Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
+
 #### <a name="intelligence"></a>Intelligence
 
-- [Bring your own database (BYOD) to Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [How to use cost management Power BI content in Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [Portare il proprio database in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Come utilizzare il contenuto di Power BI per la gestione dei costi in Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
-- [Asset library in Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
+- [Raccolta di risorse in Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
 - [Distribuzione ambienti ospitati nel cloud](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [Creating support tickets from Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
-- [Deploying environments](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
-- [Getting started with Lifecycle Services](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
-- [Deploying code to a sandbox environment](https://www.youtube.com/watch?v=5azLeOO078k)
-- [Deploying code to a production environment](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
-- [Implementation projects in Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [Manage the code upgrade and tool process in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
-- [Managing business process libraries in Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
-- [Methodologies in Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Request a Dynamics 365 for Finance and Operations production environment](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
-- [Refreshing data in a production environment](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Uptake a new Dynamics 365 for Finance and Operations platform release after Platform update 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
-- [Use telemetry to monitor key performance counters in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+- [Creare ticket di supporto da Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [Distribuire ambienti](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
+- [Introduzione a Lifecycle Services](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
+- [Distribuire codice in un ambiente sandbox](https://www.youtube.com/watch?v=5azLeOO078k)
+- [Distribuire codice in un ambiente di produzione](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
+- [Progetti di implementazione in Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
+- [Gestire l'aggiornamento di codice e il processo di strumenti in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [Gestire librerie di processi aziendali in Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
+- [Metodologie in Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
+- [Richiedere un ambiente di produzione di Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Aggiornare i dati in un ambiente di produzione](https://www.youtube.com/watch?v=VCd5SgkYPTw)
+- [Utilizzare una nuova versione piattaforma di Dynamics 365 for Finance and Operations dopo l'update 3 della piattaforma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Utilizzare la telemetria per monitorare i contatori delle prestazioni chiave in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Integrazione Office
 
-- [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Creare un modello di Excel per motivi di intestazione e linea in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>Amministrazione organizzazione
 
@@ -99,12 +103,12 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 #### <a name="procurement-and-sourcing"></a>Approvvigionamento
 
 - [Approvare gli ordini fornitore su un dispositivo mobile](https://youtu.be/gZ-gOlJe7H8)
-- [Onboard a new vendor](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+- [Integrare un nuovo fornitore](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
 
 #### <a name="production-control"></a>Controllo produzione
 
-- [Batch balancing](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
-- [Enhancements to the production order release process](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
+- [Bilanciamento dei batch](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+- [Miglioramenti al processo di rilascio di ordini di produzione](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione](https://youtu.be/BtbuShkGj4I)
 
 #### <a name="tax-engine"></a>Motore imposte
@@ -114,7 +118,7 @@ I video sono elencati per funzionalità ed è quindi necessario scorrere l'elenc
 #### <a name="warehouse-management"></a>Gestione magazzino
 
 - [Release production picking to the warehouse in batch](https://youtu.be/8urAJn50dQ8)
-- [Use warehouse template to copy configuration](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Utilizzare un modello di magazzino per copiare la configurazione](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 ## <a name="fasttrack-tech-talks"></a>Video tecnologici FastTrack
 

@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620647"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624909"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -40,7 +40,10 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > Informazioni dettagliate sugli oggetti in Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione di Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francia: esportazione dati contabili FEC in formato XML
 
@@ -52,17 +55,12 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato. Il calendario di destinazione per la funzionalità verrà rimosso nel luglio 2020. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Barra di navigazione precedente
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Allineamento dell'intestazione ad altri prodotti Dynamics e Office. Per ulteriori informazioni, vedere [Barra di navigazione aggiornata allineata all'intestazione di Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Motivo del deprecamento/rimozione** | Allineamento dell'intestazione ad altri prodotti Dynamics e Office. Per ulteriori informazioni, vedere [Barra di navigazione aggiornata allineata all'intestazione di Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento della piattaforma 24,è stata introdotta una barra di navigazione aggiornata che dispone di funzionalità di ricerca. |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutte |
@@ -71,8 +69,6 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 con aggiornamento 26 della piattaforma
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 con aggiornamento 26 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Comportamento precedente delle azioni predefinite
 
@@ -116,9 +112,6 @@ Il supporto per la creazione di ordini cliente basati su progetti in cui il cont
 | **Stato**                         | Deprecato: il calendario di destinazione per la funzionalità verrà rimosso nell'aprile 2020. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 con aggiornamento 25 della piattaforma
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 con aggiornamento 25 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Api deprecate e modifiche significative potenziali
 
@@ -626,7 +619,7 @@ Informazioni sulle retribuzioni in Risorse umane
 
 ### <a name="performance-management-goal-workflow"></a>Flusso di lavoro relativo agli obiettivi di gestione delle prestazioni
 
-La gestione delle prestazioni include la gestione e l'integrazione degli obiettivi con le revisioni delle prestazioni.
+La gestione delle prestazioni include la gestione e l'integrazione degli obiettivi con le valutazioni delle prestazioni.
 
 |   |  |
 |------------|--------------------|

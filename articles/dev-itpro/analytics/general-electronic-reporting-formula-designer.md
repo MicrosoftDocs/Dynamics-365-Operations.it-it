@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592662"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625874"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (numero, formato)</td>
 <td>Restituisce una rappresentazione di stringa del numero specificato nel formato specificato. (Per informazioni sui formati supportati, vedere <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standard</a> e <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">personalizzato</a>). Il contesto in cui questa funzione viene eseguita determina la lingua utilizzata per formattare i numeri.</td>
 <td>Per le impostazioni cultura EN-US, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> restituisce <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> restituisce <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (numero, formato, cultura)</td>
+<td>Restituisce una rappresentazione stringa del numero specificato nel formato e nella cultura specificati (per informazioni sui formati supportati, vedere <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standard</a> e <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">personalizzato</a>).</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> restituisce <strong>3,33</strong> mentre <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> restituisce <strong>3.33</strong>.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (numero, lingua, valuta, flag stampa nome valuta, decimali)</td>

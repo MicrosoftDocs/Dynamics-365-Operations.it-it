@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518344"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624583"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Novità o modifiche in Dynamics 365 for Talent (23 aprile 2019)
 
@@ -46,7 +46,7 @@ Nella versione di questa settimana, le seguenti entità supportano campi persona
 ### <a name="additional-odata-entities-302992"></a>Entità aggiuntive OData (302992)
 Le seguenti entità sono ora supportate all'interno di OData: esperienza professionale dei lavoratori e percorso formativo del lavoratore.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Allegati del Giornale di registrazione prestazioni per manager e dipendenti (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Allegati del Giornale di registrazione prestazioni per manager e dipendenti (308248)
 In questa versione, gli allegati sono ora disponibili sia per i manager che per i dipendenti durante la creazione e l'aggiornamento delle voci del giornale delle prestazioni.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Flag di riassunzione del dipendente sempre disponibile (310047)

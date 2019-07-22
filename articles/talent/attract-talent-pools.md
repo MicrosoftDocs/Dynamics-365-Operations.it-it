@@ -3,7 +3,7 @@ title: Esaminare i candidati utilizzando i pool di talenti
 description: In questo argomento viene descritto come creare e configurare pool di talenti in Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518331"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711296"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Esaminare i candidati utilizzando i pool di talenti
 
@@ -110,15 +110,16 @@ Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei can
 
 - È possibile visualizzare i dettagli di contatto per il candidato. È inoltre possibile modificare e aggiornare informazioni come necessario tramite il pulsante **Modifica dettagli**.
 
-- È possibile aggiungere più tag di competenze che consentono di identificare le competenze di un candidato.
-
 - È possibile visualizzare l'intero storico delle domande di lavoro del candidato. È possibile visualizzare tutte le mansioni per cui il candidato ha presentato domanda nell'organizzazione e lo stato di tali domande. Se si è parte del team di assunzione per una mansione, è possibile selezionare **Visualizza** per esaminare la domanda in dettaglio.
 
-- Scheda **Documenti** mostra tutti i documenti che il candidato ha aggiunto dal proprio profilo o durante le domande di lavoro. Questa scheda consente di gestire i curriculum, lettere di presentazione, portfolio e altro del candidato. È possibile utilizzare questa scheda per aggiungere documenti.
+- Scheda **Documenti** mostra tutti i documenti che il candidato ha aggiunto dal proprio profilo o durante le domande di lavoro. È possibile utilizzare questa scheda per gestire i curriculum, lettere di presentazione, portfolio e altro del candidato. È possibile utilizzare questa scheda per aggiungere documenti.
 
     Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft Office 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
 
 - Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Cercare candidati con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Solo i candidati possono aggiornare le competenze, lo storico del percorso formativo e le esperienze di lavoro ad essi relativi.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Aggiungere candidati da un pool di talenti a una mansione
 

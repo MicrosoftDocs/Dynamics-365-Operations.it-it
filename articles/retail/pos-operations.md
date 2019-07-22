@@ -3,7 +3,7 @@ title: Operazioni POS online e offline
 description: In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Microsoft Dynamics 365 for Retail. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505098"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625667"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -159,9 +159,9 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 114 | Transazione di reso | Richiama una transazione precedente in base al relativo numero di ricevuta per restituire alcuni o tutti i prodotti. | Sì | Sì | Sì | Sì§ | No |
 | 1211 | Deposito in cassaforte | Esegue un deposito in cassaforte per il trasferimento di denaro dal registratore di cassa a una cassaforte. | Sì | Sì | Sì | Sì | No |
 | 516 | Fattura di vendita | Questa operazione consente al cliente di effettuare i pagamenti per la fattura di vendita selezionata. | Sì | Sì | No | No | No |
-| 502 | Venditore | L'operazione consente all'utente di impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | No | Sì\* | No |
-| 2000 | Gestione programmazione | Questa operazione consente agli utenti di creare, modificare o visualizzare la programmazione del dipendente. | Sì | Sì | Sì | No | No |
-| 2001 | Richieste di programmazione | Questa operazione consente all'utente di richiedere permessi, scambiare turni o offrire turni ad altri dipendenti. | Sì | Sì | Sì | No | No |
+| 502 | Venditore | L'operazione consente all'utente di impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | Nessuno | Sì\* | Nessuno |
+| 2000 | Gestione programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | Nessuno | Nessuno |
+| 2001 | Richieste di programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | Nessuno | Nessuno |
 | 622 | Cerca ordini | Questa operazione consente agli utenti di preconfigurare i pulsanti del POS per eseguire ricerche per articolo, cliente o categoria. | Sì | Sì | Sì | Sì | No |
 | 1213 | Cerca indirizzo di spedizione | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 709 | Seleziona stazione hardware | Questa operazione consente all'utente di selezionare una stazione hardware in un elenco di stazioni hardware disponibili. | Sì | Sì | Sì | Sì | No |

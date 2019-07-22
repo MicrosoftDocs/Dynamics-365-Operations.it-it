@@ -3,7 +3,7 @@ title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593345"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624313"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -66,6 +66,13 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      In sospeso            |   10.0.3      | Polonia     |   Fatture SAF (JPK_FA) v.2 dal 1° luglio 2019  |
 |      In sospeso            |   10.0.3      | Brasile   |   Le rettifiche ICMS per documenti fiscali abilitano la tabella 5.2   |
 |      In sospeso            |   10.0.3      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
+  | In sospeso            |   10.0.4      | Brasile    |   Documento fiscale 66 in ingresso   |
+   | In sospeso            |   10.0.4      | Brasile    |   NF-e and NFC-e - Risoluzione 13/2019 e Decreto SUCIEF 55/2019- RJ - nuove condizioni per l'output di tag di esenzione in NF-e.   |
+   | In sospeso            |   10.0.4      | India   |   Visualizzazione di "Luogo di fornitura" e "Stato" nella fattura d'imposta GST  |
+   | In sospeso            |   10.0.4      | Messico   |  Dichiarazione di terzi DIOT - modifiche nel layout 2019   |
+   | In sospeso            |   10.0.4      | Brasile    |   NF-e ICMS-ST - Decreto CAT 42/18 per stato SP - CAT 42/18
+   | In sospeso            |   10.0.4      | Brasile    |   NF-e Delibera 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

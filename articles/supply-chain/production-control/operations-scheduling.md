@@ -3,7 +3,7 @@ title: Programmazione operazioni
 description: In questo argomento sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560263"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691464"
 ---
 # <a name="operations-scheduling"></a>Programmazione operazioni
 
@@ -67,6 +67,9 @@ Il programma delle operazioni influenza inoltre la pianificazione generale e det
 -   **Produzioni in backlog**: prodotti pianificati, rilasciati o iniziati
 -   **Disponibilità di materiale**: scorte, produzioni secondarie e fornitori
 -   **Disponibilità della capacità**: risorse necessarie per la produzione
+
+> [!NOTE]
+> Se si utilizza la programmazione delle operazioni e la pianificazione generale a thread multipli, la capacità limitata non verrà considerata. 
 
 ## <a name="cancellations"></a>Annullamenti
 Quando si esegue la programmazione operazioni, è possibile annullare determinate parti del ciclo di lavorazione. Sono inclusi il tempo di attesa, il tempo di attrezzaggio, il tempo di processo, il tempo di sovrapposizione e i tempi di trasferimento.
