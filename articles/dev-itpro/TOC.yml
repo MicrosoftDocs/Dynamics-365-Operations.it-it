@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Sviluppare e distribuire modelli personalizzati in ambienti locali
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Integrazione di PowerBI.com con gli ambienti locali
+          href: analytics/entity-store-on-prem.md
         - name: Configurare proxy inversi per ambienti locali
           href: deployment/onprem-reverseproxy.md
         - name: Applicare aggiornamenti a una distribuzione locale
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Risolvere i problemi relativi alle distribuzioni locali
           href: deployment/troubleshoot-on-prem.md
+        - name: Rotazione certificati
+          href: deployment/certificate-rotation-on-prem.md
     - name: Distribuire codice personalizzato
       items:
         - name: Creare pacchetti distribuibili di modelli

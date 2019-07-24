@@ -3,7 +3,7 @@ title: Configurare l'integrazione delle retribuzioni tra Talent e Dayforce
 description: In questo argomento viene descritto come configurare l'integrazione tra Microsoft Dynamics 365 for Talent e Ceridian Dayforce in modo da poter elaborare è un ciclo di pagamenti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518326"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702820"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurare l'integrazione retribuzioni tra Talent e Dayforce
 
@@ -54,6 +54,16 @@ Per altre informazioni sugli account di Archiviazione di Azure e sulle stringhe 
 
 - [Account di Archiviazione di Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurare le stringhe di connessione di Archiviazione di Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Dettagli tecnici quando l'integrazione delle retribuzioni è attivata
+
+L'attivazione dell'integrazione delle retribuzioni comporta due effetti primari:
+
+- Viene creato un progetto di esportazione di dati denominato "Esportazione integrazione delle retribuzioni". Questo progetto contiene le entità e i campi necessari per l'integrazione delle retribuzioni. Per esaminare il progetto, andare a **Amministrazione sistema**, selezionare il riquadro **Gestione dati** e infine aprire il progetto dati dall'elenco di progetti.
+- Questo processo batch esegue il progetto di esportazione dei dati, codifica il pacchetto dati risultante e trasferisce il file del pacchetto dati all'endpoint SFTP configurato nella schermata **Configurazione di integrazione**.
+
+> [!NOTE]
+> Il pacchetto dati trasferito all'endpoint SFTP viene codificato utilizzando una chiave univoca per il pacchetto. La chiave è un Azure Key Vault accessibile solo da Ceridian. Non è possibile decrittografare ed esaminare il contenuto del pacchetto dati. Se è necessario esaminare il contenuto del pacchetto dati, esportare manualmente il progetto dati "Esportazione integrazione delle retribuzioni", scaricarlo e quindi aprirlo. L'esportazione manuale non comporta la crittografia o il trasferimento del pacchetto.
 
 ## <a name="configure-your-data"></a>Configurare i dati 
 

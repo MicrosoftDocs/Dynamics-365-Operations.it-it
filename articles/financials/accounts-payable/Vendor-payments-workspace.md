@@ -3,7 +3,7 @@ title: Area di lavoro pagamenti fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro Pagamenti fornitore. Nell'area di lavoro Pagamenti fornitore vengono visualizzate le informazioni correlate all'elaborazione dei pagamenti fornitore.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509224"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702937"
 ---
 # <a name="vendor-payments-workspace"></a>Area di lavoro pagamenti fornitore
 
 [!include [banner](../includes/banner.md)]
 
 Nell'area di lavoro **Pagamenti fornitore** vengono visualizzate le informazioni correlate all'elaborazione dei pagamenti fornitore. Questa area di lavoro include una visualizzazione **Lavoro personale** e una pagina **Analisi**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai pagamenti fornitore.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Impostazione necessaria per visualizzare il contenuto di Power BI
+
+La seguente impostazione deve essere completata per visualizzare i dati nelle rappresentazioni **Pagamenti fornitore** di Power BI.
+1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
+2. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**. 
+2. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
+3. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **VendPaymentBIMeasure**. 
 
 ## <a name="my-work-view"></a>Visualizzazione Lavoro personale
 

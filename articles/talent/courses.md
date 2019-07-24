@@ -3,7 +3,7 @@ title: Impostare i corsi di formazione
 description: Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518325"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701392"
 ---
 # <a name="set-up-training-courses"></a>Impostare i corsi di formazione
 
@@ -128,12 +128,12 @@ Nella seguente tabella sono elencati gli stati possibili del corso e le azioni c
 </table>
 
 ## <a name="course-participants"></a>Partecipanti al corso
-I partecipanti a un corso sono i dipendenti, i candidati o i contatti che prendono parte a un evento o a un corso di formazione. È possibile registrare solo i partecipanti ai corsi aperti. Il numero minimo e massimo di partecipanti che è possibile registrare per un corso viene definito nella scheda dettaglio **Generale** sulla pagina **Corsi**.
+I partecipanti a un corso sono i dipendenti che prendono parte a un evento o a un corso di formazione. È possibile registrare solo i partecipanti ai corsi aperti. Il numero minimo e massimo di partecipanti che è possibile registrare per un corso viene definito nella scheda dettaglio **Generale** sulla pagina **Corsi**.
 
 <a name="workflow"></a>Flusso di lavoro
 --------
 
-I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione.  Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.
+I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione. Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.
 
 
 

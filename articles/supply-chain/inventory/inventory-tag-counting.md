@@ -1,9 +1,9 @@
 ---
 title: Conteggio tag scorte
-description: Questo articolo fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l'effettivo contenuto di un magazzino con le scorte disponibili.
+description: Questo argomento fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l'effettivo contenuto di un magazzino con le scorte disponibili.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff899d0e6d94287c0f1924fe1787189d79c09f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570836"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624863"
 ---
 # <a name="inventory-tag-counting"></a>Conteggio tag scorte
 
@@ -31,11 +31,10 @@ ms.locfileid: "1570836"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Questo articolo fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l'effettivo contenuto di un magazzino con le scorte disponibili.
+Questo argomento fornisce informazioni sul conteggio dei tag, utilizzato per confrontare l'effettivo contenuto di un magazzino con le scorte disponibili.
 
 La creazione di righe nella pagina **Conteggio tag** consente di inserire un numero tag su ogni articolo di magazzino, ad esempio un numero da 1 a 500. Durante il conteggio, si immette il numero di articolo e la quantità su un tag corrispondente. Il tag può quindi essere utilizzato come base per l'inserimento nel giornale di registrazione del conteggio tag. Dopo la registrazione del giornale di registrazione del conteggio tag viene creato un nuovo giornale di registrazione del conteggio nella pagina **Conteggio**. Il nuovo giornale di registrazione si basa sulle righe del giornale di registrazione del conteggio tag creato. Per il conteggio tag degli articoli di una dimensione inventariale specifica selezionare la dimensione nella pagina **Visualizza dimensioni** che appare quando si crea il giornale di registrazione del conteggio tag. Ad esempio, per conteggiare gli articoli in un magazzino specifico, selezionare la casella di controllo **Magazzino**. Se il dispositivo **Blocca articoli durante il conteggio** nella pagina **Parametri di gestione inventario e magazzino** è selezionato, gli articoli non possono essere aggiornati fisicamente durante il conteggio. Tuttavia, gli articoli nei giornali di registrazione del conteggio tag non sono bloccati durante il conteggio. Le operazioni di magazzino non vengono create fino a quando le righe del conteggio tag non vengono registrate e trasferite a un giornale di registrazione. Se i tag vengono immessi casualmente e si desidera visualizzare quelli mancanti, fare clic sull'intestazione della colonna **Tag** per ordinare le righe in base al tag.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Conteggio ciclo](../warehousing/cycle-counting.md)

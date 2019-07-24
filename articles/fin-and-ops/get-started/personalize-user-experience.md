@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620016"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625013"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -169,6 +169,6 @@ Gli utenti con privilegi di amministrazione possono anche gestire le personalizz
 
 Quando si personalizza l'impostazione delle dimensioni inventariali in una pagina, considerare le impostazioni create utilizzando l'opzione **Visualizza dimensioni**. Ad esempio, è possibile utilizzare la personalizzazione per nascondere una colonna per la dimensione inventariale del numero batch, ma alla successiva apertura della pagina la colonna sarà di nuovo visibile. Questo comportamento si verifica perché le impostazioni **Visualizzazione di dimensioni** controllano le colonne di dimensioni inventariali che vengono visualizzate.
 
-Le impostazioni **Visualizzazione dimensioni** vengono applicate a tutte le pagine e sostituiscono qualsiasi impostazione personalizzata dei campi delle dimensioni inventariali nelle singole pagine.
+Le impostazioni **Visualizzazione dimensioni** vengono applicate a tutte le pagine e sostituiscono qualsiasi impostazione personalizzata dei campi delle dimensioni inventariali in ogni singola pagina.
 
-Di conseguenza, nell'esempio precedente, se non si desidera che la colonna relativa alla dimensione inventariale del numero batch venga visualizzata, è necessario cancellare la dimensione come parte dell'opzione **Dimensioni di visualizzazione** della tabella. Questa modifica verrà applicata non solo a una pagina specifica ma a tutte le pagine.
+Di conseguenza, nell'esempio precedente, se non si desidera che la colonna relativa alla dimensione inventariale del numero batch venga visualizzata in una pagina, è necessario cancellare la dimensione come parte dell'opzione **Dimensioni di visualizzazione** della tabella per quella pagina.

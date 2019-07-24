@@ -4,7 +4,7 @@
   items:
     - name: Novità o modifiche
       href: get-started/whats-new.md
-    - name: Funzionalità di anteprima in Dynamics 365 for Retail 10.0.3
+    - name: Novità o modifiche in Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novità o modifiche in Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: Esempio di integrazione di stampante fiscale per l'Italia
           href: localizations/emea-ita-fpi-sample.md
+    - name: Messico
+      items:
+        - name: Fatture elettroniche CFDI globali per il Messico
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Norvegia
       items:
         - name: Funzionalità registratore di cassa

@@ -3,7 +3,7 @@ title: Panoramica delle fatture fornitore
 description: Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618275"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625081"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
@@ -91,13 +91,6 @@ Una fattura fornitore in uso non può essere modificata da un altro utente. Tutt
 
 È possibile accedere alla pagina **Ripristina fatture fornitore** solo se si dispone dei diritti e dei privilegi di sicurezza **Ripristina fatture fornitore utilizzate**. Inoltre, il parametro **Consenti ripristino fatture fornitore** nella pagina **Parametri contabilità fornitori** deve essere abilitato.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Reimpostare lo stato flusso di lavoro di fatture fornitore da Irreversibile a Bozza
-
-Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile avrà lo stato **Irriversibile**. Quando lo stato di un flusso di lavoro di fatture fornitore è **Irreversibile**, è possibile reimpostarlo su **Bozza**. È quindi possibile modificare la fattura fornitore. Questa funzionalità è disponibile se il parametro **Reimposta stato Bozza per flusso di lavoro fatture fornitore** nella pagina **Gestione funzionalità** è abilitato.
-
-È possibile utilizzare la pagina **Reimposta stato flusso di lavoro di fatture fornitore** per reimpostare lo stato flusso di lavoro su **Bozza**. È possibile aprire questa pagina da **Attività periodica**. La pagina visualizza tutte le fatture fornitore il cui stato flusso di lavoro è **Irreversibile** nella persona giuridica corrente. Mostra inoltre l'utente che ha inviato ogni fattura al flusso di lavoro nonché l'identificatore fattura e fornisce un collegamento allo storico flusso di lavoro. Per reimpostare lo stato flusso di lavoro su **Bozza**, contrassegnare una o più fatture e selezionare **Aggiorna a bozza**. Dopo la reimpostazione dello stato flusso di lavoro su **Bozza**, diventa disponibile per modificare la pagina **Fattura fornitore**.
-
-È possibile accedere alla pagina **Reimposta stato flusso di lavoro di fatture fornitore** solo se si dispone dei diritti di sicurezza **Gestisci stato per flusso di lavoro di fatture fornitore** e del privilegio **Reimposta stato per flusso di lavoro di fatture fornitore**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

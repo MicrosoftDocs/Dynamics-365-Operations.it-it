@@ -3,7 +3,7 @@ title: Gestione dei prezzi di vendita al dettaglio in Retail
 description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
-ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
+ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1594072"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624791"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -234,6 +234,6 @@ Inoltre, **solo** il motore di determinazione del prezzo di vendita al dettaglio
 
 ## <a name="pricing-api-enhancements"></a>Miglioramenti dell'API sui prezzi
 
-Il prezzo è uno dei fattori più importanti che governano le decisioni di acquisto di molti clienti e la maggior parte di questi confronta i prezzi in vari siti prima di effettuare un acquisto. Per avere la certezza di fornire prezzi concorrenziali, i rivenditori vigilano sui loro concorrenti e spesso eseguono promozioni. Di conseguenza, per consentire ai rivenditori di attirare clienti, è molto importante che la ricerca dei prodotti, la funzionalità di esplorazione, gli elenchi e la pagina dei dettagli visualizzino i prezzi più accurati.
+Il prezzo è uno dei fattori più importanti che governano le decisioni di acquisto di molti clienti e la maggior parte di questi confronta i prezzi in vari siti prima di effettuare un acquisto. Per avere la certezza di fornire prezzi concorrenziali, i rivenditori vigilano sui loro concorrenti e spesso eseguono promozioni. Per consentire ai rivenditori di attirare clienti, è molto importante che la ricerca dei prodotti, la funzionalità di esplorazione, gli elenchi e la pagina dei dettagli visualizzino i prezzi più accurati.
 
 In una versione imminente di Retail, l'API (Application Programming Interface) **GetActivePrices** restituirà i prezzi che includono sconti semplici (ad esempio sconti a riga singola che non dipendono da altri articoli nel carrello). In questo modo, i prezzi visualizzati sono prossimi all'importo effettivo che i clienti pagheranno per gli articoli. Questa API includerà tutti i tipi di sconti semplici: sconti in base all'affiliazione, alla fedeltà, al catalogo e al canale. Inoltre, l'API restituirà i nomi e le informazioni di validità per gli sconti applicati, di modo che i rivenditori possano fornire una descrizione più dettagliata del prezzo e creare un senso di urgenza se la validità dello sconto scade ben presto.

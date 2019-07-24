@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518409"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729705"
 ---
 # <a name="career-site-functionality-in-attract"></a>Funzionalità del sito di avanzamento professionale in Attract
 
@@ -48,11 +48,14 @@ Per impostare i valori per i seguenti elementi, accedere ad Attract come amminis
  
 Per impostare i valori per i seguenti elementi, accedere ad Attract come amministratore, selezionare **Interfaccia di amministrazione** dal menu **Impostazioni**, quindi selezionare la scheda **Gestione del sito per le possibilità di carriera**.
 
--   **Ottimizzazione motore di ricerca** - Quando abilitati, tutti gli annunci di lavoro pubblici pubblicati sul sito di avanzamento professionale Attract saranno individuabili mediante motori di ricerca come Bing e Google.
+-   **Ottimizzazione motore di ricerca** - Quando abilitati, tutti gli annunci di lavoro pubblici pubblicati sul sito di avanzamento professionale Attract saranno individuabili mediante motori di ricerca come Bing e Google. 
 
     > [!NOTE] 
     > È possibile che i risultati di ricerca non siano visualizzati subito dopo l'attivazione di questa impostazione, a seconda del motore di ricerca che si sta utilizzando.
-         
+    
+-   **Termini e condizioni** - Quando abilitata, tutti i candidati devono accettare i termini e le condizioni dell'organizzazione alla presentazione di una domanda di lavoro per una posizione. L'amministratore di Attract può configurare il relativo testo di consenso nonché il collegamento alla pagina Termini e condizioni. 
+
+        
 ## <a name="career-site-urls"></a>URL del sito di avanzamento professionale
 
 Nell'elenco seguente sono riportati gli URL del sito di avanzamento professionale utilizzati comunemente e viene descritto come accedervi.
@@ -128,7 +131,7 @@ I candidati possono inoltre possibile caricare un curriculum, secondo le esigenz
 1. Accedere a Attract come amministratore.
 2. Selezionare il pulsante **Impostazioni** (il simbolo dell'ingranaggio) nell'angolo superiore destro della pagina, quindi selezionare **Interfaccia di amministrazione**.
 3. Selezionare la scheda **Integrazione di LinkedIn** e connettersi a un conto di LinkedIn Recruiter.
-4. Nella sezione **Integrazione di LinkedIn Recruiter System Connect** selezionare **Abilitato** per l'impostazione **Fai domanda con LinkedIn**.
+4. Nella sezione **Integrazione di LinkedIn Recruiter System Connect**selezionare **Abilitato** per l'impostazione **Fai domanda con LinkedIn**.
 
 Dopo avere abilitato l'impostazione, i candidati possono candidarsi utilizzando i dati dei propri profili LinkedIn. Quando i candidati si candidano scegliendo il pulsante **Fai domanda con LinkedIn**, verrà chiesto loro di eseguire l'autenticazione con LinkedIn se non hanno ancora eseguito l'accesso. Dopo l'autenticazione, il relativo profilo LinkedIn sostituisce tutti i dati di profilo esistenti visualizzati nella pagina dell'applicazione. I candidati possono modificare le informazioni come necessario e quindi inviare la domanda. Se un candidato esce dalla pagina senza inviare la domanda di candidatura per la mansione, i dati del relativo profilo non vengono aggiornati in Attract.
 

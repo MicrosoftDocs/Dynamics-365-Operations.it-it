@@ -3,7 +3,7 @@ title: Contenuto Power BI per crediti e riscossioni
 description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547234"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702774"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenuto Power BI per crediti e riscossioni
 
@@ -42,7 +42,17 @@ Tutti gli importi verranno visualizzati nella valuta di sistema. È possibile im
 
 Per impostazione predefinita, vengono visualizzati i dati di crediti e riscossioni per la società corrente. Per visualizzare i dati di tutte le società, assegnare il diritto **CustCollectionsBICrossCompany** al ruolo.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Impostazione necessaria per visualizzare il contenuto di Power BI
+
+La seguente impostazione deve essere completata per visualizzare i dati nelle rappresentazioni **Crediti e riscossioni cliente** di Power BI.
+
+1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
+2. Andare a **Contabilità generale > Impostazioni > Contabilità generale** e impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
+3. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
+4. Andare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
+
 Il contenuto di Power BI **Gestione crediti e riscossioni** viene visualizzato nell'area di lavoro **Crediti e riscossioni cliente**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
@@ -63,28 +73,3 @@ Il contenuto di Power BI **CustCollectionsBICrossCompany** include un report cos
 | Lettere di sollecito         | <ul><li>Importi codice riscossioni</li><li>Dettagli importi codice riscossioni</li><li>Importo lettera di sollecito per società</li><li>Importo lettera di sollecito per gruppo di clienti</li><li>Importo lettera di sollecito per stato/regione</li></ul> |
 
 I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
-
-## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-
-I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Gestione crediti e riscossioni**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Entità                    |      Misure di aggregazione chiave      |             Origine dati              |                           Campo                            |                                    descrizione                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Numero di attività chiuse e tempo medio di chiusura delle attività.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Numero di attività aperte.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Somma dei saldi con aging.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Gli importi scaduti.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Numero di casi chiusi e tempo medio di chiusura dei casi.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Numero di casi aperti.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Numero di lettere di sollecito aperte.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Saldo delle lettere di sollecito registrate.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Saldo delle transazioni con stato riscossione.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Somma degli importi e dell'esposizione di credito con limite di credito superato dai clienti. |
-|         CustCollectionsBICustOnHold         |               Bloccata                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Numero dei clienti in attesa.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Tempo medio di incasso per 30 giorni.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Somma dei pagamenti previsti per il prossimo anno.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Numero delle note di interesse create.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Numero degli ordini cliente totali in attesa.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Somma delle transazioni che sono state annullate.                 |
-

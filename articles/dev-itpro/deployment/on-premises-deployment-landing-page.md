@@ -3,7 +3,7 @@ title: Home page relativa alle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550954"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702725"
 ---
 # <a name="on-premises-deployments-home-page"></a>Home page relativa alle distribuzioni locali
 
@@ -67,6 +67,7 @@ ms.locfileid: "1550954"
 
 ## <a name="other-resources"></a>Altre risorse
 - [Risolvere i problemi relativi alle distribuzioni locali](troubleshoot-on-prem.md)
+- [Rotazione certificati](certificate-rotation-on-prem.md)
 - [Diagnostica locale](on-premises-diagnostics.md)
 - [Funzionalità non implementate nelle distribuzioni locali](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Funzionalità rimosse o deprecate](../migration-upgrade/deprecated-features.md)

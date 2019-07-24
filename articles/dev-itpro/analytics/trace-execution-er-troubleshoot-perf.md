@@ -3,7 +3,7 @@ title: Generare la traccia dell'esecuzione del formato ER per risolvere problemi
 description: In questo argomento vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576548"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703877"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -52,8 +52,8 @@ Per completare gli esempi in questa esercitazione, è necessario disporre del se
 |---------------------------------------|---------------------------------------|
 | Performance trace model.version.1     | [Configurazione del modello di dati ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
 | Performance trace metadata.version.1  | [Configurazione dei metadati ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Performance trace mapping.version.1.1 | [Configurazione del mapping del modello ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance trace format.version.1.1  | [Configurazione del formato ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Performance trace mapping.version.1.1 | [Configurazione del mapping di modello ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Performance trace format.version.1.1  | [Configurazione di formato ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
 
 ### <a name="configure-er-parameters"></a>Configurare i parametri ER
 
@@ -84,12 +84,12 @@ Per essere disponibile nel campo di ricerca **Altri**, un tipo di documento DM d
 
 ## <a name="design-an-er-solution"></a>Progettare una soluzione ER
 
-Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un nuovo report che presenta le transazioni fornitore. Attualmente, è possibile trovare le transazioni di un fornitore selezionato nella pagina **Transazioni fornitore** (accedere a **Contabilità fornitori \> Fornitori \> Tutti i fornitori**, selezionare un fornitore e quindi, nel riquadro Azioni, nella scheda **Fornitore**, nel gruppo **Transazioni**, selezionare **Transazioni**). Tuttavia, si desidera avere tutte le transazioni fornitore contemporaneamente in un documento elettronico in formato XML. Questa soluzione comporterà diverse configurazioni ER contenenti il modello dati, i metadati, il mapping del modello e i componenti formato necessari.
+Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un nuovo report che presenta le transazioni fornitore. Attualmente, è possibile trovare le transazioni di un fornitore selezionato nella pagina **Transazioni fornitore** (accedere a **Contabilità fornitori \> Fornitori \> Tutti i fornitori**, selezionare un fornitore e quindi, nel riquadro Azioni, nella scheda **Fornitore**, nel gruppo **Transazioni**, selezionare **Transazioni**). Tuttavia, si desidera avere tutte le transazioni fornitore contemporaneamente in un documento elettronico in formato XML. Questa soluzione comporterà diverse configurazioni ER contenenti il modello dati, i metadati, il mapping di modello e i componenti formato necessari.
 
 1. Accedere all'istanza di RCS di cui è stato eseguito il provisioning per la società.
-2. In questa esercitazione si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Di conseguenza, verificare che questo provider di configurazioni sia stato aggiunto a RCS e sia selezionato come attivo. Per istruzioni, vedere la procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. In questa esercitazione si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Di conseguenza, verificare che questo provider di configurazioni sia stato aggiunto a RCS e sia selezionato come attivo. Per istruzioni, vedere la procedura [Creare provider di configurazioni e contrassegnarli come attivi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare il riquadro **Configurazioni report**.
-4. Nella pagina **Configurazioni**, importare le configurazioni ER scaricate come prerequisito in RCS, nel seguente ordine: modello dati, metadati, mapping del modello, formato. Per ogni configurazione, procedere come segue:
+4. Nella pagina **Configurazioni**, importare le configurazioni ER scaricate come prerequisito in RCS, nel seguente ordine: modello dati, metadati, mapping di modello, formato. Per ogni configurazione, procedere come segue:
 
     1. Nella riquadro Azioni, selezionare **Scambia \> Carica da file XML**.
     2. Selezionare **Sfoglia** per selezionare il file appropriato per la configurazione ER necessaria in formato XML.
@@ -107,14 +107,14 @@ Presupponiamo di aver completato la progettazione della prima versione della sol
 2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza di Finance and Operations (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
 3. Seguire questi passaggi per importare le configurazioni da RCS in Finance and Operations:
 
-    1. Nell'area di lavoro **Creazione di report elettronici**, nel riquadro del fornitore di configurazioni **Litware, Inc.**, selezionare **Archivi**.
+    1. Nell'area di lavoro **Creazione di report elettronici**, nel riquadro del provider di configurazioni **Litware, Inc.**, selezionare **Archivi**.
     2. Nella pagina **Archivio di configurazioni** selezionare l'archivio del tipo **RCS**, quindi selezionare **Apri**.
     3. Nella Scheda dettaglio **Configurazioni** selezionare la configurazione **Formato traccia delle prestazioni**.
     4. Nella Scheda dettaglio **Versioni** selezionare la versione **1.1** della configurazione selezionata, quindi selezionare **Importa**.
 
     ![Pagina Archivio di configurazioni in Finance and Operations](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
-Le versioni corrispondenti delle configurazioni del modello dati e del mapping del modello vengono importate automaticamente come prerequisiti per la configurazione del formato ER importato.
+Le versioni corrispondenti delle configurazioni del modello dati e del mapping di modello vengono importate automaticamente come prerequisiti per la configurazione di formato ER importata.
 
 ### <a name="turn-on-the-er-performance-trace"></a>Attivare la traccia delle prestazioni ER
 
@@ -124,12 +124,12 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
 
     1. Nel campo **Formato traccia dell'esecuzione**, selezionare **Debug formato traccia** per avviare la raccolta dei dettagli dell'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglierà informazioni sul tempo dedicato alle seguenti azioni:
 
-        - Esecuzione di ogni origine dati nel mapping del modello chiamato per acquisire i dati
+        - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
         - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
 
         Il campo **Formato traccia dell'esecuzione** consente di specificare il formato della traccia delle prestazioni generata in cui sono archiviati i dettagli dell'esecuzione per gli elementi del mapping e del formato ER. Selezionando **Esegui debug formato di traccia** come valore, sarà possibile analizzare il contenuto della traccia nella progettazione Operazione ER e vedere gli elementi del mapping o del formato ER menzionati nella traccia.
 
-    2. Impostare le seguenti opzioni su **Sì** per raccogliere dettagli specifici dell'esecuzione dei componenti mapping del modello ER e formato ER:
+    2. Impostare le seguenti opzioni su **Sì** per raccogliere dettagli specifici dell'esecuzione dei componenti mapping di modello ER e formato ER:
 
         - **Raccogli statistiche di query** - Quando questa opzione è attivata, la traccia delle prestazioni raccoglierà le seguenti informazioni:
 
@@ -137,7 +137,7 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
             - Il numero di chiamate duplicate al database
             - Dettagli delle istruzioni SQL utilizzate per effettuare chiamate database
 
-        - **Traccia acceso alla memorizzazione nella cache** - Quando questa opzione è attivata, la traccia delle prestazioni raccoglierà informazioni sull'utilizzo della cache del mapping del modello ER.
+        - **Traccia acceso alla memorizzazione nella cache** - Quando questa opzione è attivata, la traccia delle prestazioni raccoglierà informazioni sull'utilizzo della cache del mapping di modello ER.
         - **Traccia accesso ai dati** - Quando questa opzione è attivata, la traccia delle prestazioni raccoglierà informazioni sul numero di chiamate al database per le origini dati eseguite del tipo di elenco di record.
         - **Enumerazione elenco tracce** - Quando questa opzione è attivata, la traccia delle prestazioni raccoglierà informazioni sul numero di record richiesti dalle origini dati del tipo di elenco di record.
 
@@ -174,7 +174,7 @@ Le tracce delle prestazioni sono disaccoppiate dal formato ER di origine e posso
 > [!NOTE]
 > La traccia generata contiene un riferimento al report ER di origine tramite un identificatore di report univoco solo nel formato **GUID**. Il numero di versione del formato non viene considerato.
 
-Si noti che l'associazione tra la traccia delle prestazioni generata per il formato ER eseguito e il mapping del modello ER è basata sul descrittore radice utilizzato e il modello dati comune. Il numero di versione del formato e il mapping del modello non vengono considerati. Anche l'impostazione del flag **Impostazione predefinita per mapping del modello** per il mapping del modello non è considerata.
+Si noti che l'associazione tra la traccia delle prestazioni generata per il formato ER eseguito e il mapping di modello ER è basata sul descrittore radice utilizzato e il modello dati comune. Il numero di versione del formato e il mapping di modello non vengono considerati. Anche l'impostazione del flag **Impostazione predefinita per mapping di modello** per il mapping di modello non è considerata.
 
 ### <a id='import-trace'></a>Importare la traccia generata in RCS
 
@@ -201,21 +201,21 @@ Si noti che l'associazione tra la traccia delle prestazioni generata per il form
 
 2. Chiudere la pagina **Progettazione formati**.
 
-### <a id='use-trace'></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - Mapping del modello
+### <a id='use-trace'></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello
 
 1. In RCS, nella pagina **Configurazioni**, nella struttura della configurazione, selezionare **Mapping traccia delle prestazioni**.
 2. Nel riquadro azioni selezionare **Progettazione**.
-3. Selezionare **Designer**.
+3. Selezionare **Progettazione**.
 4. Nella pagina **Progettazione mapping modello**, nel riquadro azioni, selezionare **Traccia delle prestazioni**.
 5. Selezionare la traccia importata in precedenza.
 6. Selezionare **OK**.
 
-Si noti che le nuove informazioni diventano disponibili per alcuni elementi dell'origine dati del mapping del modello corrente:
+Si noti che le nuove informazioni diventano disponibili per alcuni elementi dell'origine dati del mapping di modello corrente:
 
 - Il tempo effettivo impiegato per acquisire dati utilizzando l'origine dati
-- Lo stesso tempo espresso come percentuale del tempo totale impiegato per l'esecuzione dell'intero mapping del modello
+- Lo stesso tempo espresso come percentuale del tempo totale impiegato per l'esecuzione dell'intero mapping di modello
 
-Da notare che ER segnala che il mapping del modello corrente duplica le richieste di database durante l'esecuzione dell'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum. Questa duplicazione si verifica perché l'elenco delle transazioni fornitore viene chiamato due volte per ogni record fornitore iterato:
+Da notare che ER segnala che il mapping di modello corrente duplica le richieste di database durante l'esecuzione dell'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum. Questa duplicazione si verifica perché l'elenco delle transazioni fornitore viene chiamato due volte per ogni record fornitore iterato:
 
 - Una chiamata viene effettuata per immettere i dettagli di ogni transazione nel modello dati, in base alle associazioni configurate.
 - Una chiamata viene effettuata per immettere il numero calcolato di transazioni per fornitore nel modello dati.
@@ -224,15 +224,15 @@ Da notare che ER segnala che il mapping del modello corrente duplica le richiest
 
 Il valore **\[Q:530\]** indica che la tabella VendTrans è stata chiamata 530 volte per restituire un record da quella tabella all'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum. Il valore **\[530\]** indica l'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum che è stata chiamata 530 volte per restituire un record da quell'origine dati e immettere i dettagli della stessa nel modello dati.
 
-Si consiglia di utilizzare la memorizzazione nella cache per l'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum, per ridurre il numero di chiamate effettuate per acquisire i dettagli per 265 transazioni e migliorare le prestazioni del mapping del modello.
+Si consiglia di utilizzare la memorizzazione nella cache per l'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum, per ridurre il numero di chiamate effettuate per acquisire i dettagli per 265 transazioni e migliorare le prestazioni del mapping di modello.
 
 Può anche essere utile ridurre il numero di chiamate effettuate all'origine dati LedgerTransTypeList. Questa origine dati viene utilizzata per associare ogni valore dell'enumerazione **LedgerTransType** alla relativa etichetta. Utilizzando questa origine dati, è possibile trovare un'etichetta appropriata e immetterla nel modello dati per ogni transazione fornitore. Il numero corrente di chiamate a questa origine dati (9.027) è alto per 265 transazioni.
 
 ![Pagina Progettazione mapping modello in RCS che mostra 9.027 chiamate all'origine dati](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
-## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Migliorare il mapping del modello in base alle informazioni della traccia dell'esecuzione
+## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Migliorare il mapping di modello basato sulle informazioni della traccia dell'esecuzione
 
-### <a name="modify-the-logic-of-the-model-mapping"></a>Modificare la logica del mapping del modello
+### <a name="modify-the-logic-of-the-model-mapping"></a>Modificare la logica del mapping di modello
 
 1. Seguire i passaggi seguenti per utilizzare la memorizzazione nella cache allo scopo di impedire chiamate al database:
 
@@ -285,13 +285,13 @@ Può anche essere utile ridurre il numero di chiamate effettuate all'origine dat
 6. Chiudere la pagina **Progettazione mapping modello**.
 7. Chiudere la pagina **Mapping modello**.
 
-### <a name="complete-the-modified-version-of-the-er-model-mapping"></a>Completare la versione modificata del mapping del modello ER
+### <a name="complete-the-modified-version-of-the-er-model-mapping"></a>Completare la versione modificata del mapping di modello ER
 
 1. In RCS, nella pagina **Configurazioni**, nella Scheda dettaglio **Versioni**, selezionare la versione **1.2** della configurazione **Mapping traccia delle prestazioni**.
 2. Selezionare **Cambia stato**.
 3. Selezionare **Completa**.
 
-### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-finance-and-operations"></a>Importare la configurazione del mapping del modello ER modificata da RCS in Finance and Operations
+### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-finance-and-operations"></a>Importare la configurazione del mapping di modello ER modificata da RCS in Finance and Operations
 
 Ripetere la procedura nella sezione [Importare una configurazione ER da RCS in Finance and Operations](#import-configuration) vista in precedenza in questo argomento per importare la versione 1.2 della configurazione **Mapping traccia delle prestazioni** in Finance and Operations.
 
@@ -311,11 +311,11 @@ Ripetere i passaggi nella sezione [Esportare la traccia generata da Finance and 
 
 Ripetere i passaggi nella sezione [Importare la traccia generata in RCS](#import-trace) vista in precedenza in questo argomento per importare la nuova traccia delle prestazioni in RCS.
 
-### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - Mapping del modello
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello
 
-Ripetere i passaggi nella sezione [Utilizzare la traccia delle prestazioni per l'analisi in RCS - Mapping del modello](#use-trace) vista in precedenza in questo argomento per analizzare la traccia delle prestazioni più recente.
+Ripetere i passaggi nella sezione [Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello](#use-trace) vista in precedenza in questo argomento per analizzare la traccia delle prestazioni più recente.
 
-Si noti che le rettifiche apportate al mapping del modello hanno eliminato le query duplicate al database. Anche il numero di chiamate alle tabelle di database e alle origini dati per questo mapping del modello sono state ridotti. Di conseguenza, le prestazioni dell'intera soluzione ER sono state migliorate.
+Si noti che le rettifiche apportate al mapping di modello hanno eliminato le query duplicate al database. Anche il numero di chiamate alle tabelle di database e alle origini dati per questo mapping di modello sono state ridotti. Di conseguenza, le prestazioni dell'intera soluzione ER sono state migliorate.
 
 ![Informazioni sulla traccia per l'origine dati VendTable nella pagina Progettazione mapping modello in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
@@ -346,3 +346,29 @@ Se si utilizza una di queste versioni di Finance and Operations, è possibile an
 Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER.
+
+![Informazioni sulla traccia per il formato ER eseguito in PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilizzare strumenti esterni per esaminare una traccia dell'esecuzione che include le query di database
+
+In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazioni che viene generata nel formato di PerfView ora offre ulteriori dettagli sull'esecuzione del formato ER. In Microsoft Dynamics 365 for Finance and Operations versione 10.0.4 (luglio 2019), questa traccia può anche includere i dettagli delle query SQL eseguite nel database dell'applicazione.
+
+### <a name="configure-user-parameters"></a>Configurare parametri utente
+
+1. In Finance and Operations, andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
+2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
+3. Nella finestra di dialogo **Parametri utente**, nella sezione **Traccia esecuzione**, impostare i seguenti parametri:
+
+    - Nel campo **Formato traccia dell'esecuzione**, selezionare **XML PerfView**.
+    - Impostare l'opzione **Raccogli statistiche di query** su **Sì**.
+    - Impostare l'opzione **Traccia query** su **Sì**.
+
+    ![Finestra di dialogo Parametri utente in Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>Eseguire il formato ER
+
+Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
+
+Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER. Questa traccia ora include i dettagli di accesso al database SQL durante l'esecuzione del formato ER.
+
+![Informazioni sulla traccia per il formato ER eseguito in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

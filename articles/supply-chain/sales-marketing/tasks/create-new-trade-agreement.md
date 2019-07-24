@@ -3,7 +3,7 @@ title: Creare un nuovo accordo commerciale
 description: Questa procedura illustra come creare un accordo commerciale in cui si registra un nuovo prezzo di vendita del prodotto accordato con un cliente specifico.
 author: omulvad
 manager: AnnBe
-ms.date: 11/16/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e42383b237a60d41d3b4e09ffbbe1c1bb5ebbfd7
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549269"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711203"
 ---
 # <a name="create-a-new-trade-agreement"></a>Creare un nuovo accordo commerciale
 
@@ -30,40 +30,43 @@ Questa procedura illustra come creare un accordo commerciale in cui si registra 
 
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Creare e registrare un nuovo giornale di registrazione degli accordi commerciali
-1. Andare a Vendite e marketing > Prezzi e sconti > Giornale di registrazione accordi commerciali.
-2. Fare clic su Nuovo.
-3. Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.
-4. Trovare e selezionare il record desiderato nell'elenco.
-5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-6. Fare clic su Righe.
-7. Nel campo Conto selezionare "Tabella".
-    * In questo esempio viene aggiornato il prezzo per un cliente specifico ed è pertanto necessario scegliere Tabella. Se si aggiorna il prezzo di listino del prodotto, è necessario selezionare Tutti, in modo che il nuovo prezzo sia valido per tutti i clienti. Se si differenziano i prezzi per segmenti di clienti diversi, è necessario selezionare Gruppo. Per selezionare Gruppo, è necessario impostare i gruppi di prezzi del cliente.  
-8. Nel campo Selezione del conto fare clic sul pulsante a discesa per aprire la ricerca.
-9. Nell'elenco trovare e selezionare il record desiderato.
-10. Nel campo Codice articolo selezionare "Tabella".
-    * Quando si immette un accordo commerciale di tipo "Prezzo (vend.)", è necessario selezionare "Tabella" nel campo Codice articolo. Ciò è dovuto al fatto che un prezzo è un valore assoluto e non può essere lo stesso per tutti i prodotti o per un gruppo di prodotti.  
-11. Nel campo Relazione articolo fare clic sul pulsante a discesa per aprire la ricerca.
-12. Nell'elenco selezionare il prodotto da includere nell'accordo.
-    * Prendere nota del prodotto selezionato.  
-13. Nell'elenco fare clic sul collegamento nella riga selezionata.
-14. Nel campo Da immettere una quantità minima.
-    * Se il cliente deve ordinare una quantità minima prima di ottenere il nuovo prezzo, è necessario specificare la quantità in questo campo.  
-    * Immettere un valore nel campo A per specificare la quantità massima sopra cui il prezzo del contratto non sarà valido. Se si offrono prezzi e sconti in base a più intervalli di quantità, specificare ogni intervallo come una coppia di quantità minima e massima nel campo "Da" e "A" rispettivamente.  
-15. Nel campo Importo in valuta immettere un prezzo.
-16. Nel campo Dal immettere una data di inizio validità dell'accordo.
-17. Fare clic su Salva.
-18. Fare clic su Convalida.
-19. Fare clic su Convalida le righe selezionate.
-20. Fare clic su OK.
-21. Fare clic su Registra.
-22. Fare clic su OK.
+1. Andare a **Pannello di navigazione > Moduli > Vendite e marketing > Prezzi e sconti > Giornali di registrazione accordi commerciali**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Nome** fare clic sul pulsante a discesa per aprire la ricerca.
+4. Nell'elenco trovare e selezionare il record desiderato.
+5. Nel **riquadro azioni** fare clic su **Righe**.
+6. Nel campo **Codice conto** selezionare "Tabella".
+    
+    In questo esempio viene aggiornato il prezzo per un cliente specifico ed è pertanto necessario scegliere Tabella. Se si aggiorna il prezzo di listino del prodotto, è necessario selezionare "Tutti", in modo che il nuovo prezzo sia valido per tutti i clienti. Se si differenziano i prezzi per segmenti di clienti diversi, è necessario selezionare Gruppo. Per selezionare Gruppo, è necessario impostare i gruppi di prezzi del cliente.  
+
+7. Nel campo **Selezione del conto** fare clic sul pulsante a discesa per aprire la ricerca.
+8. Nell'elenco trovare e selezionare il record desiderato.
+9. Nel campo **Codice articolo** selezionare "Tabella".
+    
+    Quando si immette un accordo commerciale di tipo "Prezzo (vend.)", è necessario selezionare "Tabella" nel campo **Codice articolo**. Ciò è dovuto al fatto che un prezzo è un valore assoluto e non può essere lo stesso per tutti i prodotti o per un gruppo di prodotti.
+    
+10. Nel campo **Relazione articolo** fare clic sul pulsante a discesa per aprire la ricerca.
+11. Nell'elenco selezionare il prodotto da includere nell'accordo. Prendere nota del prodotto selezionato.  
+12. Nel campo **Da** immettere una quantità minima.
+    - Se il cliente deve ordinare una quantità minima prima di ottenere il nuovo prezzo, è necessario specificare la quantità in questo campo.  
+    - Immettere un valore nel campo **A** per specificare la quantità massima sopra cui il prezzo del contratto non sarà valido. Se si offrono prezzi e sconti in base a più intervalli di quantità, specificare ogni intervallo come una coppia di quantità minima e massima nel campo **Da** e **A** rispettivamente.
+13. Nel campo **Importo in valuta** immettere un prezzo.
+14. Sotto la sezione **Dettagli**, nel campo **Dal** immettere una data di inizio validità dell'accordo.
+15. Fare clic su **Salva**.
+16. Fare clic su **Convalida**.
+17. Fare clic su **Convalida le righe selezionate**.
+18. Fare clic su **OK**.
+19. Fare clic su **Registra**.
+20. Fare clic su **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Visualizzare accordi commerciali per un prodotto
-1. Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.
+1. Andare a **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.
 2. Nell'elenco individuare e selezionare il prodotto il cui prezzo è stato aggiornato.
-3. Nel riquadro azioni fare clic su Vendi.
-4. Fare clic su Visualizza accordi commerciali.
-    * Esaminare i dettagli dell'accordo commerciale sui prezzi creato.    
+3. Nel **riquadro azioni** fare clic su **Vendi**.
+4. Fare clic su **Visualizza accordi commerciali**.
+    
+    Esaminare i dettagli dell'accordo commerciale sui prezzi creato.    
+
 5. Chiudere la pagina.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

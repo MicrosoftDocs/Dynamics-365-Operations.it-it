@@ -3,7 +3,7 @@ title: Sistema della Guida di Finance and Operations
 description: Questo argomento fornisce una panoramica dei componenti della Guida di Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595641"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625331"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema della Guida di Finance and Operations
 
@@ -95,16 +95,18 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
     ![Pubblica un commento](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Suggerire una modifica o collaborare alla creazione di contenuto mediante GitHub
+### <a name="contribute-to-the-documentation"></a>Contribuire alla documentazione
 
-Per suggerire una modifica, sarà necessario disporre di un account GitHub e firmare un contratto di licenza per collaboratori. Le modifiche proposte verranno esaminate dopo l'invio di una richiesta pull. Se necessario, saranno esaminate internamente e il collaboratore verrà ricontattato.
+È possibile contribuire alla documentazione di Finance and Operations e apportarvi delle modifiche. Per iniziare, fare clic sul pulsante **Modifica** (matita) in un argomento o accedere al repository all'indirizzo <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Nel video seguente viene mostrato come contribuire alla nostra documentazione.
 
-Per iniziare, fare clic sul pulsante **Modifica** (matita) in un argomento o accedere al repository all'indirizzo <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Per ulteriori informazioni, fare riferimento alla guida del collaboratore: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+Il video [Come contribuire alla documentazione di Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrato sopra) è incluso in [Novità nella playlist di Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) disponibile su  YouTube.
+
+Per ulteriori informazioni, fare riferimento alla guida del collaboratore all'indirizzo <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> Al momento accettiamo solo contributi al nostro set di contenuti in inglese.
+> Al momento accettiamo solo contributi al nostro contenuto in inglese.
 
 ## <a name="task-guides"></a>Guide attività
 
@@ -176,7 +178,7 @@ Le guide attività tradotte vengono rilasciate nelle librerie con "tutte le ling
 
 È possibile creare una Guida per gli utenti creando guide attività personalizzate oppure collegare il proprio sito Web al riquadro della Guida. Per informazioni dettagliate, vedere:
 
-- [Come creare una registrazione di attività da utilizzare per documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+- [Come creare una registrazione attività da utilizzare per documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
 - [Creazione di una Guida personalizzata per Finance and Operations (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

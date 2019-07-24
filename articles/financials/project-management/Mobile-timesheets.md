@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557331"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624886"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Fogli presenze di progetto in un dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Panoramica
 
 La funzionalità **Fogli presenze personali (ottimizzati per dispositivi mobili)** consente ai dipendenti di creare e inoltrare fogli presenze di progetto in un dispositivo mobile per registrare le ore dedicate a un progetto specifico. I dipendenti possono creare un nuovo foglio presenze o copiare i dati da uno foglio presenze esistente per garantire l'immissione rapida e precisa delle ore. Se si è designati come delegato, è possibile immettere un foglio presenze per un altro lavoratore. L'app consente ai dipendenti di applicare filtri in base al progetto, alla risorsa o allo stato di approvazione per individuare rapidamente e selezionare un foglio presenze. Offre inoltre ai dipendenti la possibilità di salvare i preferiti, salvando così le informazioni sul progetto e sulle attività nel foglio presenze. I preferiti salvati possono essere utilizzati per creare fogli presenze futuri e accelerare così il processo di immissione delle ore. La modifica o la visualizzazione delle informazioni sulle dimensioni finanziarie non è supportata nell'app per dispositivi mobili. È possibile accedere alla funzionalità **Fogli presenze personali (ottimizzati per dispositivi mobili)** tramite il Web browser nel dispositivo mobile.
 
@@ -35,8 +33,7 @@ La funzionalità **Fogli presenze per revisione personale (ottimizzato per dispo
 Questa applicazione per dispositivi mobili è compatibile con iPhone con l'aggiornamento 15 della piattaforma di Dynamics 365 for Finance and Operations.
 La compatibilità con Android è prevista con il futuro aggiornamento 16 della piattaforma.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Creare un foglio presenze di progetto nel dispositivo mobile
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Creare un foglio presenze di progetto nel dispositivo mobile
 
 1.  Annotare l'URL di Dynamics 365 per la pagina **Gestione progetti e contabilità** \> **Fogli presenze** \> **Fogli presenze personali (ottimizzati per dispositivi mobili)**.
 

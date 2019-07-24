@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518385"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729728"
 ---
 # <a name="email-templates"></a>Modelli di messaggio di posta elettronica
 [!include[banner](../includes/banner.md)]
 
-Utilizzando la raccolta di modelli di messaggio di posta elettronica, gli amministratori possono creare un tema e un marchio uniforme per tutti i messaggi di posta elettronica inviati tramite Microsoft Dynamics 365 for Talent: Attract. Gli amministratori possono anche curare una raccolta di modelli di contenuto dei messaggi di posta elettronica che altri utenti possono utilizzare. Il team di assunzione può utilizzare questi modelli nel flusso di lavoro per inviare più efficientemente messaggi di posta elettronica. Alcuni messaggi di posta elettronica in Attract sono configurati per essere inviati automaticamente e il amministratore può utilizzare la raccolta di modelli di messaggio di posta elettronica per personalizzare il contenuto per tale posta elettronica.
+Utilizzando la raccolta di modelli di messaggio di posta elettronica, gli amministratori possono creare un tema e un marchio uniforme per tutti i messaggi di posta elettronica inviati tramite Microsoft Dynamics 365 for Talent: Attract and Offer. Gli amministratori possono anche curare una raccolta di modelli di contenuto dei messaggi di posta elettronica che altri utenti possono utilizzare. Il team di assunzione può utilizzare questi modelli nel flusso di lavoro per inviare più efficientemente messaggi di posta elettronica. Alcuni messaggi di posta elettronica sono configurati per essere inviati automaticamente e il amministratore può utilizzare la raccolta di modelli di messaggio di posta elettronica per personalizzare il contenuto per tale posta elettronica.
 
 > [!NOTE]
 > Per utilizzare modelli di messaggio di posta elettronica, l'organizzazione deve avere il componente aggiuntivo per l'assunzione a livello globale.
@@ -37,7 +37,7 @@ Utilizzando la raccolta di modelli di messaggio di posta elettronica, gli ammini
 
 Per creare un marchio coerente per tutte le comunicazioni via posta elettronica, un amministratore deve innanzitutto configurare l'intestazione e il piè di pagina globali per tutti i modelli di messaggio di posta elettronica. Nell'Interfaccia di amministrazione, nella scheda **Impostazioni del modello di messaggio di posta elettronica**, sezione **Intestazione**, un amministratore può caricare un'immagine da utilizzare come intestazione o banner per tutti i messaggi di posta elettronica. Immagine può essere costituita da un logo della società, una carta intestata, o altre immagini rappresentative. Si consiglia della larghezza sia compresa tra 25 e 800 pixel e l'altezza compreso tra 25 e 150 pixel, in quanto queste dimensioni sono ottimali per la maggior parte dei client di posta, ad esempio Microsoft Outlook. Immagine deve essere un file JPEG, JPG, PNG, o SVG e la dimensione del file deve essere inferiore a 1 megabyte (MB). Dopo che un'immagine verrà caricata, un'anteprima dell'intestazione viene generata e visualizzata. Se l'immagine di intestazione deve essere sostituita o rimossa, il amministratore può utilizzare l'opzione **Rimuovi** sopra l'anteprima.
 
-Nella sezione **Piè di pagina**, il amministratore può fornire i collegamenti all'informativa sulla privacy per le comunicazioni e alle condizioni delle società. Questi collegamenti vengono incorporati in un piè di pagina generato automaticamente. Un'anteprima di questo piè di pagina verrà visualizzata.
+Nella sezione **Piè di pagina**, il amministratore può fornire i collegamenti all'informativa sulla privacy per le comunicazioni e alle condizioni delle società. Questi collegamenti vengono incorporati in un piè di pagina generato automaticamente. Un'anteprima di questo piè di pagina verrà visualizzata. L'amministratore può anche scegliere una lingua particolare in cui i piè di pagina di posta elettronica verranno inviati come parte di tutti i messaggi di posta elettronica. La stessa configurazione di lingua verrà utilizzata anche per la tabella di riepilogo del colloquio. 
 
 Assicurarsi di salvare le modifiche prima di chiudere l'Interfaccia di amministrazione.
 
@@ -46,7 +46,7 @@ Assicurarsi di salvare le modifiche prima di chiudere l'Interfaccia di amministr
 
 ## <a name="email-template-library"></a>Raccolta di modelli di messaggio di posta elettronica 
 
-Dopo che le configurazioni complessive del modello vengono impostate, un amministratore può iniziare e creare i modelli di vicario per tutti i messaggi di posta elettronica da cui vengono inviati attirano. La raccolta di modelli di messaggio di posta elettronica è disponibile solo per gli amministratori. Per aprire la raccolta, nel menu principale di navigazione, fare clic sulla scheda **Modelli di messaggio di posta elettronica**. La raccolta è categorizzata per le varie attività in Attract che richiedono l'invio di messaggi di posta elettronica, ad esempio programmazione, la valutazione e la creazione di mansioni. Il amministratore può selezionare un qualsiasi categoria per visualizzare tutti i tipi di messaggio di posta elettronica associati all'attività. Ad esempio, selezionare **Programmazione** per visualizzare i diversi tipi di posta elettronica inviati durante il processo di programmazione e tutti i modelli disponibili per ciascun tipo di messaggio di posta elettronica. Ogni sottosezione in una categoria rappresenta un tipo di messaggio di posta elettronica.
+Dopo che le configurazioni complessive del modello vengono impostate, l'amministratore può iniziare a creare e gestire i modelli per tutti i messaggi di posta elettronica inviati da Attract and Offer. La raccolta di modelli di messaggio di posta elettronica è disponibile solo per gli amministratori. Per aprire la raccolta, nel menu principale di navigazione, fare clic sulla scheda **Modelli di messaggio di posta elettronica**. La raccolta è categorizzata per le varie attività in Attract che richiedono l'invio di messaggi di posta elettronica, ad esempio programmazione, la valutazione, la creazione di mansioni e l'offerta. Il amministratore può selezionare un qualsiasi categoria per visualizzare tutti i tipi di messaggio di posta elettronica associati all'attività. Ad esempio, selezionare **Programmazione** per visualizzare i diversi tipi di posta elettronica inviati durante il processo di programmazione e tutti i modelli disponibili per ciascun tipo di messaggio di posta elettronica. Ogni sottosezione in una categoria rappresenta un tipo di messaggio di posta elettronica.
 
 Alcuni tipi di posta elettronica possono avere più destinatari. Ad esempio, nella categoria **Programmazione**, i messaggi di posta elettronica inviati quando il riepilogo del programma di colloqui è necessario, vengono inviati sia ai candidati sia ai responsabili dei colloqui. Ogni sezione sono presenti due colonne principali: **Titolo modello** e **Destinatario**. Ogni riga di una sezione rappresenta un singolo modello per un tipo di posta elettronica. Inizialmente, un simbolo di blocco verrà visualizzato nella riga per ciascun modello. Il simbolo indica che il modello è il modello standard fornito con Attract e che non può essere eliminato. Per ogni modello, un amministratore può utilizzare il pulsante con i puntini di sospensione  (**...**) per duplicare il modello, per impostarlo come predefinito, o per eliminarlo. Quando un modello è impostato come predefinito, uno di due comportamenti può verificarsi. Il comportamento è indicato dal badge o i badge visualizzati nella riga relativa al modello:
 
