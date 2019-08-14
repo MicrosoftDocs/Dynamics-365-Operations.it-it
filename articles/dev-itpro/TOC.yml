@@ -106,10 +106,28 @@
           items:
             - name: Riferimento al linguaggio X++
               href: dev-ref/xpp-language-reference.md
-            - name: Tipi di dati e variabili X++
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Rendiconti, cicli e gestione delle eccezioni X++'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Tipi di dati e variabili
+              items:
+                - name: Variabili
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Tipi di dati primitivi
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Tipi di dati compositi
+                  href: dev-ref/xpp-data-composite.md
+                - name: Classi di raccolte
+                  href: dev-ref/xpp-data-collection.md
+                - name: Extended Data Type
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Istruzioni, cicli e gestione delle eccezioni'
+              items:
+                - name: Commenti e istruzioni using e print
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Istruzioni condizionali
+                  href: dev-ref/xpp-conditional.md
+                - name: Istruzioni di ciclo
+                  href: dev-ref/xpp-loops.md
+                - name: Gestione delle eccezioni
+                  href: dev-ref/xpp-exceptions.md
             - name: Eccezione X++ errore di connessione SQL
               href: dev-ref/sql-connection-error.md
             - name: Operatori X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: Manipolazione e selezione dati X++
               href: dev-ref/xpp-data-query.md
+            - name: Accesso ai dati tramite l'API SysDa
+              href: dev-ref/sysda.md
             - name: Macro X++
               href: dev-ref/xpp-macros.md
             - name: Classi di attributi X++
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Carattere Symbol in Dynamics
           href: user-interface/symbol-font.md
+        - name: Visualizzazioni salvate
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Creare moduli che utilizzano interamente visualizzazioni salvate
+          href: user-interface/understanding-saved-views.md
         - name: Moduli di test che utilizzano schemi personalizzati
           href: user-interface/testing-forms-custom-patterns.md
         - name: Creare URL condivisibili e protetti (collegamenti diretti)
@@ -494,9 +518,9 @@
           href: user-interface/slider-messagebox.md
         - name: 'API per dettagli di un messaggio, barra dei messaggi e centro messaggi'
           href: user-interface/messaging-api-center-bar-details.md
-        - name: 'Domande frequenti su dettagli messaggio, barra dei messaggi e centro messaggi'
+        - name: 'Domande frequenti su dettagli di un messaggio, barra dei messaggi e centro messaggi'
           href: user-interface/messaging-user.md
-    - name: Linee guida per schemi di modulo principali
+    - name: Linee guida per schemi di modulo
       items:
         - name: Schemi di modulo per moduli migrati
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Aggiornamenti rapidi
       items:
-        - name: Scaricare aggiornamenti rapidi da Lifecycle Services
+        - name: Ottenere aggiornamenti da Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Applicare aggiornamenti ad ambienti cloud
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Esportare utenti B2B in Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Impostare l'intervallo di inattività di una sessione
+      href: sysadmin/session-idle-timeout.md
     - name: Sicurezza basata sui ruoli
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: Ottenere supporto per Finance and Operations e Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Panoramica del supporto per Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Ottenere supporto per Finance and Operations gestito da 21Vianet in Cina
       href: lifecycle-services/21vianet-support.md
     - name: Registrare una richiesta di supporto Premier
