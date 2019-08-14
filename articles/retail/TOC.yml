@@ -4,6 +4,8 @@
   items:
     - name: Novità o modifiche
       href: get-started/whats-new.md
+    - name: Funzionalità di anteprima in Dynamics 365 for Retail 10.0.5
+      href: get-started/whats-new-10-0-5.md
     - name: Novità o modifiche in Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novità o modifiche in Dynamics 365 for Retail 10.0.2
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: Resi
   items:
+    - name: Rimborsi collegati
+      href: dev-itpro/linked-refunds.md
     - name: Vendere e restituire prodotti non inclusi nell'assortimento di un punto vendita
       href: sell-return-outside-assortments.md
     - name: Configurare ed elaborare uno scambio in un ordine di reso

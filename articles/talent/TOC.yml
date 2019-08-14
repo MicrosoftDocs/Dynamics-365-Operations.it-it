@@ -8,6 +8,12 @@
         - name: Novità o modifiche in Talent
           href: whats-new.md
           items:
+            - name: 23 luglio 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 luglio 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 luglio 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2 luglio 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25 giugno 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR e Common Data Service
           href: CoreHREntities.md
-        - name: Accedere alle funzionalità di anteprima
-          href: access-preview-feature.md
         - name: Ottenere supporto per Talent
           href: talent-support.md
     - name: Assumere personale per l'organizzazione con Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Funzionalità e capacità di Attract
           href: attract-overview.md
-        - name: Domande frequenti su LinkedIn
-          href: attract-linkedin-faq.md
-        - name: Configurare impostazioni di posta elettronica
-          href: attract-configure-email-settings.md
-        - name: Creare un modello di processo in Attract
-          href: Process-templates-Attract.md
-        - name: Creare e registrare posizioni
-          href: Creating-jobs-Attract.md
-        - name: Impostare l'integrazione con LinkedIn
-          href: attract-admin-linkedin.md
-        - name: Pubblicare posizioni in LinkedIn da Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Pubblicare posizioni in Broadbean da Attract
-          href: posting-jobs-external.md
-        - name: Selezionare i candidati utilizzando i pool di talenti
-          href: attract-talent-pools.md
-        - name: Selezionare i candidati con LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Attività dei processi di assunzione
-          href: activities-attract.md
-        - name: Programmazione del colloquio e riscontro
-          href: interview-scheduling-feedback.md
+        - name: Domande frequenti
+          items:
+            - name: Domande frequenti sull'integrazione di LinkedIn
+              href: attract-linkedin-faq.md
+        - name: Configurare impostazioni di sistema
+          items:
+            - name: Configurare informazioni sulla società
+              href: admin-settings-attract.md
+            - name: Impostare le autorizzazioni utente
+              href: security-attract.md
+            - name: Gestire le funzionalità
+              href: access-preview-feature.md
+            - name: Configurare il sito per le possibilità di carriera
+              href: career-site.md
+            - name: Abilitare l'integrazione di Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: Configurare impostazioni di posta elettronica
+              href: attract-configure-email-settings.md
+            - name: Configurare l'integrazione di LinkedIn
+              href: attract-admin-linkedin.md
+        - name: Creare un processo di assunzione
+          items:
+            - name: Creare un modello di processo
+              href: process-templates-attract.md
+            - name: Attività nei processi di assunzione
+              href: activities-attract.md
+            - name: Modelli di messaggio di posta elettronica
+              href: email-templates.md
+            - name: Utilizzare report analitici
+              href: analytic-reports.md
+        - name: Creare e pubblicare posizioni
+          items:
+            - name: Creare una posizione
+              href: creating-jobs-attract.md
+            - name: Pubblicare posizioni in LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Pubblicare posizioni in Broadbean
+              href: posting-jobs-external.md
+            - name: Chiudere una posizione
+              href: attract-close-job.md
+        - name: Selezionare i candidati
+          items:
+            - name: Selezionare i candidati utilizzando i pool di talenti
+              href: attract-talent-pools.md
+            - name: Selezionare i candidati con LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Tenere traccia delle origini dei candidati
+              href: source-tracking.md
+            - name: Suggerimenti intelligenti
+              href: Intelligent-Recommendations.md
+        - name: Configurare i colloqui
+          items:
+            - name: Programmazione del colloquio e riscontro
+              href: interview-scheduling-feedback.md
+        - name: Creare un'offerta
+          items:
+            - name: Impostare la gestione offerta
+              href: offer-setup.md
+            - name: 'Creare, approvare e firmare le offerte'
+              href: creating-offers.md
         - name: Estendibilità in Attract
           href: extensibility-attract.md
-        - name: Funzionalità del sito per le possibilità di carriera in Attract
-          href: career-site.md
-        - name: Impostare la gestione offerta
-          href: offer-setup.md
-        - name: 'Creare, approvare e firmare le offerte'
-          href: creating-offers.md
-        - name: Modelli di messaggio di posta elettronica
-          href: email-templates.md
-        - name: Sicurezza e gestione dei ruoli in Attract
-          href: security-attract.md
-        - name: Impostazioni di amministrazione in Attract
-          href: Admin-Settings-Attract.md
-        - name: Suggerimenti intelligenti
-          href: Intelligent-Recommendations.md
-        - name: Tenere traccia delle origini delle domande di lavoro e dei profili dei candidati
-          href: source-tracking.md
-        - name: Utilizzare i report analitici per informazioni dettagliate sul processo di assunzione
-          href: analytic-reports.md
     - name: Accogliere nuove assunzioni con Onboard
       items:
         - name: Introduzione a Onboard
@@ -186,6 +210,8 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Impostare i parametri di Risorse umane specifici della società
               href: set-up-company-specific-hr-parameters.md
+            - name: Campi di data e ora in Talent
+              href: date-time-fields-in-talent.md
             - name: Domande frequenti sulle azioni del personale
               href: personnel-actions-faq.md
             - name: Formalizzare i processi aziendali

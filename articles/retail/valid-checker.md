@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617322"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790423"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Controllo di coerenza per le transazioni di vendita al dettaglio
 
@@ -50,6 +50,7 @@ Il processo batch **Convalida transazioni punto vendita** controlla la coerenza 
 - **Conto cliente** - Verifica che il conto cliente presente nelle tabelle di transazioni di vendita al dettaglio sia presente nei dati master cliente della sede centrale.
 - **Conteggio righe** - Verifica che il numero di righe, come acquisito nella tabella di intestazione delle transazioni, corrisponda al numero di righe nelle tabelle di transazioni vendite.
 - **Prezzo IVA inclusa** - Verifica che il parametro **Prezzo IVA inclusa** sia coerente nelle righe di transazione.
+- **Importo pagamento** - Verifica che i record di pagamento corrispondano all'importo del pagamento sull'intestazione.
 - **Importo lordo** - Verifica che l'importo lordo nell'intestazione sia la somma degli importi netti presenti nelle righe e dell'importo IVA.
 - **Importo netto** - Verifica che l'importo netto nell'intestazione sia la somma degli importi netti presenti nelle righe.
 - **Insufficienza/Eccedenza pagamento** - Verifica che la differenza tra l'importo lordo presente nell'intestazione e l'importo del pagamento non superi la configurazione massima di insufficienza/eccedenza pagamento.
@@ -58,6 +59,7 @@ Il processo batch **Convalida transazioni punto vendita** controlla la coerenza 
 - **Articolo gift card** - In Retail la restituzione di articoli con gift card non è supportata. Il saldo di una gift card, tuttavia, può essere liquidato. Qualsiasi articolo con gift card elaborato come riga di reso anziché come riga di liquidazione provoca un errore nel processo di registrazione rendiconti. Il processo di convalida per gli articoli con gift card garantisce che solo le voci di reso relative alla gift card presenti nella tabella di transazioni di vendita al dettaglio siano righe di liquidazione gift card.
 - **Prezzo negativo** - Verifica che non sia presente alcuna riga di transazione prezzo negativo.
 - **Articolo e variante** - Verifica che gli articoli e le varianti sulle righe transazioni siano presenti nel file master relativo.
+- **Importo imposta** - Verifica che i record di imposta corrispondano agli importi sulle righe. 
 
 ## <a name="set-up-the-consistency-checker"></a>Impostare il controllo di coerenza
 
