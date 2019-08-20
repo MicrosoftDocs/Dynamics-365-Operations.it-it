@@ -9,25 +9,25 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 42861a66b44d6156341bf2d4d895a4bf35295ee6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2d054a1bdcfb3d189b343b51de77b407335a7792
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568100"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852356"
 ---
-# <a name="tax-directives-for-europe"></a><span data-ttu-id="fd209-104">Direttive fiscali per l'Europa</span><span class="sxs-lookup"><span data-stu-id="fd209-104">Tax directives for Europe</span></span>
+# <a name="tax-directives-for-europe"></a><span data-ttu-id="973b6-104">Direttive fiscali per l'Europa</span><span class="sxs-lookup"><span data-stu-id="973b6-104">Tax directives for Europe</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fd209-105">La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle regole di fatturazione e alle informazioni da includere durante la creazione delle fatture.</span><span class="sxs-lookup"><span data-stu-id="fd209-105">EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</span></span> <span data-ttu-id="fd209-106">La direttiva UE elenca le informazioni richieste dai fornitori per i propri clienti nell'Unione Europea.</span><span class="sxs-lookup"><span data-stu-id="fd209-106">EU Directive lists the information that is required by suppliers for their customers in the EU.</span></span> <span data-ttu-id="fd209-107">Ad esempio, una fattura può includere un riferimento che descrive i motivi legali per una categoria a zero IVA o un'esenzione.</span><span class="sxs-lookup"><span data-stu-id="fd209-107">For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</span></span> <span data-ttu-id="fd209-108">Se una fattura modifica una fattura emessa in precedenza, ad esempio una nota di credito, un riferimento univoco deve essere indicato per la fattura originale.</span><span class="sxs-lookup"><span data-stu-id="fd209-108">If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</span></span>
+<span data-ttu-id="973b6-105">La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle regole di fatturazione e alle informazioni da includere durante la creazione delle fatture.</span><span class="sxs-lookup"><span data-stu-id="973b6-105">EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</span></span> <span data-ttu-id="973b6-106">La direttiva UE elenca le informazioni richieste dai fornitori per i propri clienti nell'Unione Europea.</span><span class="sxs-lookup"><span data-stu-id="973b6-106">EU Directive lists the information that is required by suppliers for their customers in the EU.</span></span> <span data-ttu-id="973b6-107">Ad esempio, una fattura può includere un riferimento che descrive i motivi legali per una categoria a zero IVA o un'esenzione.</span><span class="sxs-lookup"><span data-stu-id="973b6-107">For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</span></span> <span data-ttu-id="973b6-108">Se una fattura modifica una fattura emessa in precedenza, ad esempio una nota di credito, un riferimento univoco deve essere indicato per la fattura originale.</span><span class="sxs-lookup"><span data-stu-id="973b6-108">If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</span></span>
 
-- <span data-ttu-id="fd209-109">Per stampare una descrizione dei codici IVA sui report fatture di vendita, fatture a testo libero, fatture di progetto, impostare il testo di riferimento Direttive fiscali sui codici IVA.</span><span class="sxs-lookup"><span data-stu-id="fd209-109">To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</span></span>
-- <span data-ttu-id="fd209-110">Per le note di credito, il numero e la data della fattura originale vengono stampati con il motivo della correzione.</span><span class="sxs-lookup"><span data-stu-id="fd209-110">For credit notes, the number and date of the original invoice are printed along with the reason for correction.</span></span>
+- <span data-ttu-id="973b6-109">Per stampare una descrizione dei codici IVA sui report fatture di vendita, fatture a testo libero, fatture di progetto, impostare il testo di riferimento Direttive fiscali sui codici IVA.</span><span class="sxs-lookup"><span data-stu-id="973b6-109">To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</span></span>
+- <span data-ttu-id="973b6-110">Per le note di credito, il numero e la data della fattura originale vengono stampati con il motivo della correzione.</span><span class="sxs-lookup"><span data-stu-id="973b6-110">For credit notes, the number and date of the original invoice are printed along with the reason for correction.</span></span>
 

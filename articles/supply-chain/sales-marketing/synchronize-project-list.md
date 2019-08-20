@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,51 +19,51 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 535094821ca7efa33bf40f2057fac8ffc17bb822
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525879"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843555"
 ---
-# <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a><span data-ttu-id="ab5a8-103">Sincronizzare l'elenco dei progetti da Finance and Operations a Field Service</span><span class="sxs-lookup"><span data-stu-id="ab5a8-103">Synchronize project list from Finance and Operations to Field Service</span></span>
+# <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a><span data-ttu-id="2ad99-103">Sincronizzare l'elenco dei progetti da Finance and Operations a Field Service</span><span class="sxs-lookup"><span data-stu-id="2ad99-103">Synchronize project list from Finance and Operations to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="ab5a8-104">Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
+<span data-ttu-id="2ad99-104">Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.</span><span class="sxs-lookup"><span data-stu-id="2ad99-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
 
-<span data-ttu-id="ab5a8-105">[![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="ab5a8-105">[![Synchronization of business processes between Finance and Operations and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
+<span data-ttu-id="2ad99-105">[![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="2ad99-105">[![Synchronization of business processes between Finance and Operations and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="ab5a8-106">Modelli e attività</span><span class="sxs-lookup"><span data-stu-id="ab5a8-106">Templates and tasks</span></span>
-<span data-ttu-id="ab5a8-107">Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-107">The following template and underlying tasks are used to run synchronization of projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="2ad99-106">Modelli e attività</span><span class="sxs-lookup"><span data-stu-id="2ad99-106">Templates and tasks</span></span>
+<span data-ttu-id="2ad99-107">Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare progetti da Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.</span><span class="sxs-lookup"><span data-stu-id="2ad99-107">The following template and underlying tasks are used to run synchronization of projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
 
-<span data-ttu-id="ab5a8-108">**Modello in Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="ab5a8-108">**Template in Data integration**</span></span>
-- <span data-ttu-id="ab5a8-109">Progetti (da Fin and Ops a Field Service)</span><span class="sxs-lookup"><span data-stu-id="ab5a8-109">Projects (Fin and Ops to Field Service)</span></span>
+<span data-ttu-id="2ad99-108">**Modello in Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="2ad99-108">**Template in Data integration**</span></span>
+- <span data-ttu-id="2ad99-109">Progetti (da Fin and Ops a Field Service)</span><span class="sxs-lookup"><span data-stu-id="2ad99-109">Projects (Fin and Ops to Field Service)</span></span>
 
-<span data-ttu-id="ab5a8-110">**Attività nel progetto di Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="ab5a8-110">**Task in the Data integration project**</span></span>
-- <span data-ttu-id="ab5a8-111">Progetti</span><span class="sxs-lookup"><span data-stu-id="ab5a8-111">Projects</span></span>
+<span data-ttu-id="2ad99-110">**Attività nel progetto di Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="2ad99-110">**Task in the Data integration project**</span></span>
+- <span data-ttu-id="2ad99-111">Progetti</span><span class="sxs-lookup"><span data-stu-id="2ad99-111">Projects</span></span>
 
-<span data-ttu-id="ab5a8-112">Le attività di sincronizzazione seguenti sono necessarie prima della sincronizzazione dell'elenco di progetti:</span><span class="sxs-lookup"><span data-stu-id="ab5a8-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
-- <span data-ttu-id="ab5a8-113">Conti (da Sales a Fin and Ops)</span><span class="sxs-lookup"><span data-stu-id="ab5a8-113">Accounts (Sales to Fin and Ops)</span></span> 
+<span data-ttu-id="2ad99-112">Le attività di sincronizzazione seguenti sono necessarie prima della sincronizzazione dell'elenco di progetti:</span><span class="sxs-lookup"><span data-stu-id="2ad99-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
+- <span data-ttu-id="2ad99-113">Conti (da Sales a Fin and Ops)</span><span class="sxs-lookup"><span data-stu-id="2ad99-113">Accounts (Sales to Fin and Ops)</span></span> 
 
-## <a name="entity-set"></a><span data-ttu-id="ab5a8-114">Insieme di entità</span><span class="sxs-lookup"><span data-stu-id="ab5a8-114">Entity set</span></span>
-| <span data-ttu-id="ab5a8-115">Field Service</span><span class="sxs-lookup"><span data-stu-id="ab5a8-115">Field Service</span></span>           | <span data-ttu-id="ab5a8-116">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ab5a8-116">Finance and Operations</span></span>  |
+## <a name="entity-set"></a><span data-ttu-id="2ad99-114">Insieme di entità</span><span class="sxs-lookup"><span data-stu-id="2ad99-114">Entity set</span></span>
+| <span data-ttu-id="2ad99-115">Field Service</span><span class="sxs-lookup"><span data-stu-id="2ad99-115">Field Service</span></span>           | <span data-ttu-id="2ad99-116">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="2ad99-116">Finance and Operations</span></span>  |
 |-------------------------|-------------------------|
-|<span data-ttu-id="ab5a8-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="ab5a8-117">msdynce_externalprojects</span></span> | <span data-ttu-id="ab5a8-118">Progetti</span><span class="sxs-lookup"><span data-stu-id="ab5a8-118">Projects</span></span>                |
+|<span data-ttu-id="2ad99-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="2ad99-117">msdynce_externalprojects</span></span> | <span data-ttu-id="2ad99-118">Progetti</span><span class="sxs-lookup"><span data-stu-id="2ad99-118">Projects</span></span>                |
 
-## <a name="entity-flow"></a><span data-ttu-id="ab5a8-119">Flusso di entità</span><span class="sxs-lookup"><span data-stu-id="ab5a8-119">Entity flow</span></span>
-<span data-ttu-id="ab5a8-120">I progetti sono creati in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-120">Projects are created in Finance and Operations.</span></span> <span data-ttu-id="ab5a8-121">I progetti con **Tipo di progetto** impostato su **Tempistica e materiali** e **Fase progetto** impostato su **In corso** saranno sincronizzati all'entità **Progetto esterno** in Field Service, incluse le informazioni Numero progetto, Nome progetto, Fase progetto e Conto cliente.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="ab5a8-122">L'elenco **Progetto esterno** viene utilizzato per associare gli ordini di assistenza Field Service ai progetti Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-122">The **External Project** list is used to pair Field service work orders with Finance and Operations projects.</span></span>
+## <a name="entity-flow"></a><span data-ttu-id="2ad99-119">Flusso di entità</span><span class="sxs-lookup"><span data-stu-id="2ad99-119">Entity flow</span></span>
+<span data-ttu-id="2ad99-120">I progetti sono creati in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="2ad99-120">Projects are created in Finance and Operations.</span></span> <span data-ttu-id="2ad99-121">I progetti con **Tipo di progetto** impostato su **Tempistica e materiali** e **Fase progetto** impostato su **In corso** saranno sincronizzati all'entità **Progetto esterno** in Field Service, incluse le informazioni Numero progetto, Nome progetto, Fase progetto e Conto cliente.</span><span class="sxs-lookup"><span data-stu-id="2ad99-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="2ad99-122">L'elenco **Progetto esterno** viene utilizzato per associare gli ordini di assistenza Field Service ai progetti Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="2ad99-122">The **External Project** list is used to pair Field service work orders with Finance and Operations projects.</span></span>
 
-## <a name="field-service-crm-solution"></a><span data-ttu-id="ab5a8-123">Soluzione CRM Field Service</span><span class="sxs-lookup"><span data-stu-id="ab5a8-123">Field Service CRM solution</span></span>
-<span data-ttu-id="ab5a8-124">L'entità **Progetto esterno** ottiene tutti i progetti da Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-124">The **External Project** entity gets all the projects from Finance and Operations.</span></span> <span data-ttu-id="ab5a8-125">Il campo **Progetto esterno** è stato aggiunto all'entità **Ordine di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="ab5a8-126">Questo campo è un lookup, quindi contrassegnando l'ordine di lavoro con un progetto, l'ordine cliente verrà collegato a un progetto in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Finance and Operations.</span></span> <span data-ttu-id="ab5a8-127">Quando **Stato sistema** passa da **Aperto - In corso (690,970,000)** a uno stato superiore, il campo **Progetto esterno** verrà bloccato e non sarà più possibile aggiungere, rimuovere o cambiare il valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
+## <a name="field-service-crm-solution"></a><span data-ttu-id="2ad99-123">Soluzione CRM Field Service</span><span class="sxs-lookup"><span data-stu-id="2ad99-123">Field Service CRM solution</span></span>
+<span data-ttu-id="2ad99-124">L'entità **Progetto esterno** ottiene tutti i progetti da Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="2ad99-124">The **External Project** entity gets all the projects from Finance and Operations.</span></span> <span data-ttu-id="2ad99-125">Il campo **Progetto esterno** è stato aggiunto all'entità **Ordine di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="2ad99-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="2ad99-126">Questo campo è un lookup, quindi contrassegnando l'ordine di lavoro con un progetto, l'ordine cliente verrà collegato a un progetto in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="2ad99-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Finance and Operations.</span></span> <span data-ttu-id="2ad99-127">Quando **Stato sistema** passa da **Aperto - In corso (690,970,000)** a uno stato superiore, il campo **Progetto esterno** verrà bloccato e non sarà più possibile aggiungere, rimuovere o cambiare il valore.</span><span class="sxs-lookup"><span data-stu-id="2ad99-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
 
-## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="ab5a8-128">Prerequisiti e impostazione del mapping</span><span class="sxs-lookup"><span data-stu-id="ab5a8-128">Prerequisites and mapping setup</span></span>
-### <a name="finance-and-operations"></a><span data-ttu-id="ab5a8-129">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ab5a8-129">Finance and Operations</span></span>
-<span data-ttu-id="ab5a8-130">Abilitare il rilevamento delle modifiche per progetti entità di dati.</span><span class="sxs-lookup"><span data-stu-id="ab5a8-130">Enable change tracking for Data entity projects.</span></span>
+## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="2ad99-128">Prerequisiti e impostazione del mapping</span><span class="sxs-lookup"><span data-stu-id="2ad99-128">Prerequisites and mapping setup</span></span>
+### <a name="finance-and-operations"></a><span data-ttu-id="2ad99-129">Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="2ad99-129">Finance and Operations</span></span>
+<span data-ttu-id="2ad99-130">Abilitare il rilevamento delle modifiche per progetti entità di dati.</span><span class="sxs-lookup"><span data-stu-id="2ad99-130">Enable change tracking for Data entity projects.</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="ab5a8-131">Mapping dei modelli in Integrazione dati</span><span class="sxs-lookup"><span data-stu-id="ab5a8-131">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="2ad99-131">Mapping dei modelli in Integrazione dati</span><span class="sxs-lookup"><span data-stu-id="2ad99-131">Template mapping in Data integration</span></span>
 
 
-### <a name="projects-fin-and-ops-to-field-service-projects"></a><span data-ttu-id="ab5a8-132">Progetti (da Fin and Ops a Field Service): Progetti</span><span class="sxs-lookup"><span data-stu-id="ab5a8-132">Projects (Fin and Ops to Field Service): Projects</span></span>
+### <a name="projects-fin-and-ops-to-field-service-projects"></a><span data-ttu-id="2ad99-132">Progetti (da Fin and Ops a Field Service): Progetti</span><span class="sxs-lookup"><span data-stu-id="2ad99-132">Projects (Fin and Ops to Field Service): Projects</span></span>
 
-<span data-ttu-id="ab5a8-133">[![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="ab5a8-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>
+<span data-ttu-id="2ad99-133">[![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="2ad99-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>
