@@ -10,76 +10,76 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdTable, ProdBOM, ProdParmCostEstimation
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82a4252548fd030f2a044436ff607da5125d2854
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e0247e50f03e61d8a04020d020c13afb812937b9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551931"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837880"
 ---
-# <a name="create-a-bom-line-event-kanban-rule"></a><span data-ttu-id="57a6b-103">Creare una regola kanban eventi riga DBA</span><span class="sxs-lookup"><span data-stu-id="57a6b-103">Create a BOM line event kanban rule</span></span>
+# <a name="create-a-bom-line-event-kanban-rule"></a><span data-ttu-id="373d1-103">Creare una regola kanban eventi riga DBA</span><span class="sxs-lookup"><span data-stu-id="373d1-103">Create a BOM line event kanban rule</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="57a6b-104">Questa attività mostra la configurazione necessaria per creare una regola kanban evento per garantire il rifornimento per le righe DBA di produzione in un ambiente di produzione misto lean e classico.</span><span class="sxs-lookup"><span data-stu-id="57a6b-104">This task focuses on the setup needed to create an event kanban rule to ensure supply for production BOM lines in a mixed lean and classic production environment.</span></span> <span data-ttu-id="57a6b-105">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="57a6b-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="57a6b-106">Questa attività è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un prodotto nuovo o modificato.</span><span class="sxs-lookup"><span data-stu-id="57a6b-106">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product.</span></span>
+<span data-ttu-id="373d1-104">Questa attività mostra la configurazione necessaria per creare una regola kanban evento per garantire il rifornimento per le righe DBA di produzione in un ambiente di produzione misto lean e classico.</span><span class="sxs-lookup"><span data-stu-id="373d1-104">This task focuses on the setup needed to create an event kanban rule to ensure supply for production BOM lines in a mixed lean and classic production environment.</span></span> <span data-ttu-id="373d1-105">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="373d1-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="373d1-106">Questa attività è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un prodotto nuovo o modificato.</span><span class="sxs-lookup"><span data-stu-id="373d1-106">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="57a6b-107">Crea una nuova regola kanban</span><span class="sxs-lookup"><span data-stu-id="57a6b-107">Create a new kanban rule</span></span>
-1. <span data-ttu-id="57a6b-108">Andare a Controllo produzione > Attività periodiche > Calcolo quantità kanban > Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="57a6b-108">Go to Production control > Periodic tasks > Kanban quantity calculation > Kanban rules.</span></span>
-2. <span data-ttu-id="57a6b-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="57a6b-109">Click New.</span></span>
-3. <span data-ttu-id="57a6b-110">Selezionare "Prelievo" nel campo Tipo.</span><span class="sxs-lookup"><span data-stu-id="57a6b-110">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="57a6b-111">Il tipo Prelievo viene utilizzato per creare kanban di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="57a6b-111">The Withdrawal type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="57a6b-112">Nel campo Strategia di rifornimento, selezionare 'Evento'.</span><span class="sxs-lookup"><span data-stu-id="57a6b-112">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="57a6b-113">La strategia di evento è selezionata per creare il trasferimento dei kanban in base a un evento.</span><span class="sxs-lookup"><span data-stu-id="57a6b-113">The Event strategy is selected to create the transfer of kanbans based on an event.</span></span> <span data-ttu-id="57a6b-114">Più avanti nella guida di attività verrà attivata con la stima di un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="57a6b-114">Later in the task guide, we will trigger it by estimating a production order.</span></span>  
-5. <span data-ttu-id="57a6b-115">Nel campo Prima attività piano immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="57a6b-115">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a6b-116">Immettere o selezionare ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="57a6b-116">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="57a6b-117">Questa attività di trasferimento ha magazzino e ubicazione di entrata (output) 12, pertanto il materiale verrà spostato in ubicazione 12 in magazzino 12.</span><span class="sxs-lookup"><span data-stu-id="57a6b-117">This transfer activity has receipt (output) warehouse and location 12, which means that material will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="57a6b-118">Espandere la sezione Dettagli.</span><span class="sxs-lookup"><span data-stu-id="57a6b-118">Expand the Details section.</span></span>
-7. <span data-ttu-id="57a6b-119">Nel campo Prodotto immettere o selezionare M0001.</span><span class="sxs-lookup"><span data-stu-id="57a6b-119">In the Product field, enter or select M0001.</span></span>
-8. <span data-ttu-id="57a6b-120">Espandere la sezione Eventi.</span><span class="sxs-lookup"><span data-stu-id="57a6b-120">Expand the Events section.</span></span>
-9. <span data-ttu-id="57a6b-121">Nel campo Evento riga DBA selezionare "Automatico".</span><span class="sxs-lookup"><span data-stu-id="57a6b-121">In the BOM line event field, select 'Automatic'.</span></span>
-    * <span data-ttu-id="57a6b-122">Con il campo Evento riga DBA impostato su Automatico, il kanban verrà creato per soddisfare le esigenze di materiale delle righe DBA dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="57a6b-122">With the BOM line event field set to Automatic, kanban will be created to fulfill material needs for production order BOM lines.</span></span>  
-10. <span data-ttu-id="57a6b-123">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="57a6b-123">Close the page.</span></span>
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="373d1-107">Crea una nuova regola kanban</span><span class="sxs-lookup"><span data-stu-id="373d1-107">Create a new kanban rule</span></span>
+1. <span data-ttu-id="373d1-108">Andare a Controllo produzione > Attività periodiche > Calcolo quantità kanban > Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="373d1-108">Go to Production control > Periodic tasks > Kanban quantity calculation > Kanban rules.</span></span>
+2. <span data-ttu-id="373d1-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="373d1-109">Click New.</span></span>
+3. <span data-ttu-id="373d1-110">Selezionare "Prelievo" nel campo Tipo.</span><span class="sxs-lookup"><span data-stu-id="373d1-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="373d1-111">Il tipo Prelievo viene utilizzato per creare kanban di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="373d1-111">The Withdrawal type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="373d1-112">Nel campo Strategia di rifornimento, selezionare 'Evento'.</span><span class="sxs-lookup"><span data-stu-id="373d1-112">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="373d1-113">La strategia di evento è selezionata per creare il trasferimento dei kanban in base a un evento.</span><span class="sxs-lookup"><span data-stu-id="373d1-113">The Event strategy is selected to create the transfer of kanbans based on an event.</span></span> <span data-ttu-id="373d1-114">Più avanti nella guida di attività verrà attivata con la stima di un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="373d1-114">Later in the task guide, we will trigger it by estimating a production order.</span></span>  
+5. <span data-ttu-id="373d1-115">Nel campo Prima attività piano immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="373d1-115">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="373d1-116">Immettere o selezionare ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="373d1-116">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="373d1-117">Questa attività di trasferimento ha magazzino e ubicazione di entrata (output) 12, pertanto il materiale verrà spostato in ubicazione 12 in magazzino 12.</span><span class="sxs-lookup"><span data-stu-id="373d1-117">This transfer activity has receipt (output) warehouse and location 12, which means that material will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="373d1-118">Espandere la sezione Dettagli.</span><span class="sxs-lookup"><span data-stu-id="373d1-118">Expand the Details section.</span></span>
+7. <span data-ttu-id="373d1-119">Nel campo Prodotto immettere o selezionare M0001.</span><span class="sxs-lookup"><span data-stu-id="373d1-119">In the Product field, enter or select M0001.</span></span>
+8. <span data-ttu-id="373d1-120">Espandere la sezione Eventi.</span><span class="sxs-lookup"><span data-stu-id="373d1-120">Expand the Events section.</span></span>
+9. <span data-ttu-id="373d1-121">Nel campo Evento riga DBA selezionare "Automatico".</span><span class="sxs-lookup"><span data-stu-id="373d1-121">In the BOM line event field, select 'Automatic'.</span></span>
+    * <span data-ttu-id="373d1-122">Con il campo Evento riga DBA impostato su Automatico, il kanban verrà creato per soddisfare le esigenze di materiale delle righe DBA dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="373d1-122">With the BOM line event field set to Automatic, kanban will be created to fulfill material needs for production order BOM lines.</span></span>  
+10. <span data-ttu-id="373d1-123">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="373d1-123">Close the page.</span></span>
 
-## <a name="create-and-modify-a-new-production-order"></a><span data-ttu-id="57a6b-124">Creare e modificare un nuovo ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="57a6b-124">Create and modify a new production order</span></span>
-1. <span data-ttu-id="57a6b-125">Andare a Controllo produzione > Ordini di produzione > Tutti gli ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="57a6b-125">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="57a6b-126">Fare clic su Nuovo ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="57a6b-126">Click New production order.</span></span>
-3. <span data-ttu-id="57a6b-127">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="57a6b-127">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a6b-128">Immettere o selezionare "L0001".</span><span class="sxs-lookup"><span data-stu-id="57a6b-128">Enter or select 'L0001'.</span></span> <span data-ttu-id="57a6b-129">Viene utilizzato l'articolo L0001 poiché l'articolo M0001 è incluso nella DBA per l'articolo L0001.</span><span class="sxs-lookup"><span data-stu-id="57a6b-129">We use item L0001 because item M0001 is included in the BOM for item L0001.</span></span>  
-4. <span data-ttu-id="57a6b-130">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="57a6b-130">Click Create.</span></span>
-5. <span data-ttu-id="57a6b-131">Nell'elenco fare clic sul collegamento nella riga per L0001</span><span class="sxs-lookup"><span data-stu-id="57a6b-131">In the list, click the link in the row for L0001</span></span>
-6. <span data-ttu-id="57a6b-132">Fare clic su DBA.</span><span class="sxs-lookup"><span data-stu-id="57a6b-132">Click BOM.</span></span>
-7. <span data-ttu-id="57a6b-133">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="57a6b-133">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="57a6b-134">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="57a6b-134">Click Edit.</span></span>
-9. <span data-ttu-id="57a6b-135">Nel campo Tipo di riga selezionare "Fornitura sottoposta a pegging".</span><span class="sxs-lookup"><span data-stu-id="57a6b-135">In the Line type field, select 'Pegged supply'.</span></span>
-    * <span data-ttu-id="57a6b-136">La fornitura sottoposta a pegging è selezionata per avviare la creazione della fornitura di un kanban.</span><span class="sxs-lookup"><span data-stu-id="57a6b-136">Pegged supply is selected to trigger the supply creation of a kanban.</span></span>  
-10. <span data-ttu-id="57a6b-137">Selezionare No nel campo Consumo risorsa.</span><span class="sxs-lookup"><span data-stu-id="57a6b-137">Select No in the Resource consumption field.</span></span>
-    * <span data-ttu-id="57a6b-138">Deselezionando la casella di controllo Consumo risorsa è possibile modificare il magazzino.</span><span class="sxs-lookup"><span data-stu-id="57a6b-138">Clearing the check box of Resource consumption lets us change the warehouse.</span></span>  
-11. <span data-ttu-id="57a6b-139">Espandere la sezione Dimensioni inventariali.</span><span class="sxs-lookup"><span data-stu-id="57a6b-139">Expand the Inventory dimensions section.</span></span>
-12. <span data-ttu-id="57a6b-140">Nel campo Magazzino digitare "12".</span><span class="sxs-lookup"><span data-stu-id="57a6b-140">In the Warehouse field, type '12'.</span></span>
-    * <span data-ttu-id="57a6b-141">Il magazzino viene impostato su 12 poiché questo è il magazzino di output per l'attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="57a6b-141">Warehouse is set to 12 because this is the output warehouse for the withdrawal activity.</span></span>  
-13. <span data-ttu-id="57a6b-142">Nel campo Ubicazione digitare "12".</span><span class="sxs-lookup"><span data-stu-id="57a6b-142">In the Location field, type '12'.</span></span>
-    * <span data-ttu-id="57a6b-143">L'ubicazione viene impostata su 12 poiché questa è l'ubicazione di output per l'attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="57a6b-143">Location is set to 12 because this is the output location of the withdrawal activity.</span></span>  
-14. <span data-ttu-id="57a6b-144">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="57a6b-144">Close the page.</span></span>
-15. <span data-ttu-id="57a6b-145">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="57a6b-145">Close the page.</span></span>
+## <a name="create-and-modify-a-new-production-order"></a><span data-ttu-id="373d1-124">Creare e modificare un nuovo ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="373d1-124">Create and modify a new production order</span></span>
+1. <span data-ttu-id="373d1-125">Andare a Controllo produzione > Ordini di produzione > Tutti gli ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="373d1-125">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="373d1-126">Fare clic su Nuovo ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="373d1-126">Click New production order.</span></span>
+3. <span data-ttu-id="373d1-127">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="373d1-127">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="373d1-128">Immettere o selezionare "L0001".</span><span class="sxs-lookup"><span data-stu-id="373d1-128">Enter or select 'L0001'.</span></span> <span data-ttu-id="373d1-129">Viene utilizzato l'articolo L0001 poiché l'articolo M0001 è incluso nella DBA per l'articolo L0001.</span><span class="sxs-lookup"><span data-stu-id="373d1-129">We use item L0001 because item M0001 is included in the BOM for item L0001.</span></span>  
+4. <span data-ttu-id="373d1-130">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="373d1-130">Click Create.</span></span>
+5. <span data-ttu-id="373d1-131">Nell'elenco fare clic sul collegamento nella riga per L0001</span><span class="sxs-lookup"><span data-stu-id="373d1-131">In the list, click the link in the row for L0001</span></span>
+6. <span data-ttu-id="373d1-132">Fare clic su DBA.</span><span class="sxs-lookup"><span data-stu-id="373d1-132">Click BOM.</span></span>
+7. <span data-ttu-id="373d1-133">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="373d1-133">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="373d1-134">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="373d1-134">Click Edit.</span></span>
+9. <span data-ttu-id="373d1-135">Nel campo Tipo di riga selezionare "Fornitura sottoposta a pegging".</span><span class="sxs-lookup"><span data-stu-id="373d1-135">In the Line type field, select 'Pegged supply'.</span></span>
+    * <span data-ttu-id="373d1-136">La fornitura sottoposta a pegging è selezionata per avviare la creazione della fornitura di un kanban.</span><span class="sxs-lookup"><span data-stu-id="373d1-136">Pegged supply is selected to trigger the supply creation of a kanban.</span></span>  
+10. <span data-ttu-id="373d1-137">Selezionare No nel campo Consumo risorsa.</span><span class="sxs-lookup"><span data-stu-id="373d1-137">Select No in the Resource consumption field.</span></span>
+    * <span data-ttu-id="373d1-138">Deselezionando la casella di controllo Consumo risorsa è possibile modificare il magazzino.</span><span class="sxs-lookup"><span data-stu-id="373d1-138">Clearing the check box of Resource consumption lets us change the warehouse.</span></span>  
+11. <span data-ttu-id="373d1-139">Espandere la sezione Dimensioni inventariali.</span><span class="sxs-lookup"><span data-stu-id="373d1-139">Expand the Inventory dimensions section.</span></span>
+12. <span data-ttu-id="373d1-140">Nel campo Magazzino digitare "12".</span><span class="sxs-lookup"><span data-stu-id="373d1-140">In the Warehouse field, type '12'.</span></span>
+    * <span data-ttu-id="373d1-141">Il magazzino viene impostato su 12 poiché questo è il magazzino di output per l'attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="373d1-141">Warehouse is set to 12 because this is the output warehouse for the withdrawal activity.</span></span>  
+13. <span data-ttu-id="373d1-142">Nel campo Ubicazione digitare "12".</span><span class="sxs-lookup"><span data-stu-id="373d1-142">In the Location field, type '12'.</span></span>
+    * <span data-ttu-id="373d1-143">L'ubicazione viene impostata su 12 poiché questa è l'ubicazione di output per l'attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="373d1-143">Location is set to 12 because this is the output location of the withdrawal activity.</span></span>  
+14. <span data-ttu-id="373d1-144">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="373d1-144">Close the page.</span></span>
+15. <span data-ttu-id="373d1-145">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="373d1-145">Close the page.</span></span>
 
-## <a name="estimate-the-production-order-and-view-the-kanban-created"></a><span data-ttu-id="57a6b-146">Stimare l'ordine di produzione e visualizzare il kanban creato</span><span class="sxs-lookup"><span data-stu-id="57a6b-146">Estimate the production order and view the kanban created</span></span>
-1. <span data-ttu-id="57a6b-147">Fare clic su Stima.</span><span class="sxs-lookup"><span data-stu-id="57a6b-147">Click Estimate.</span></span>
-    * <span data-ttu-id="57a6b-148">La stima dell'ordine di produzione avvierà la creazione del kanban collegato per fornire l'articolo M0001.</span><span class="sxs-lookup"><span data-stu-id="57a6b-148">Estimating the production order will trigger the creation of the associated kanban to supply item M0001.</span></span>  
-2. <span data-ttu-id="57a6b-149">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="57a6b-149">Click OK.</span></span>
-3. <span data-ttu-id="57a6b-150">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="57a6b-150">Close the page.</span></span>
-4. <span data-ttu-id="57a6b-151">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="57a6b-151">Close the page.</span></span>
-5. <span data-ttu-id="57a6b-152">Andare a Gestione informazioni sul prodotto > Lean manufacturing > Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="57a6b-152">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-6. <span data-ttu-id="57a6b-153">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="57a6b-153">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="57a6b-154">Selezionare la regola kanban evento creata per l'articolo M0001.</span><span class="sxs-lookup"><span data-stu-id="57a6b-154">Select the event kanban rule created for item M0001.</span></span>  
-7. <span data-ttu-id="57a6b-155">Espandere la sezione Kanban.</span><span class="sxs-lookup"><span data-stu-id="57a6b-155">Expand the Kanbans section.</span></span>
-8. <span data-ttu-id="57a6b-156">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="57a6b-156">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="57a6b-157">Si noti il kanban creato per fornire M0001 per l'ordine di produzione stimato.</span><span class="sxs-lookup"><span data-stu-id="57a6b-157">Notice the kanban created to supply M0001 for the estimated production order.</span></span>  
-    * <span data-ttu-id="57a6b-158">Questo è l'ultimo passaggio.</span><span class="sxs-lookup"><span data-stu-id="57a6b-158">This is the last step!</span></span>  
+## <a name="estimate-the-production-order-and-view-the-kanban-created"></a><span data-ttu-id="373d1-146">Stimare l'ordine di produzione e visualizzare il kanban creato</span><span class="sxs-lookup"><span data-stu-id="373d1-146">Estimate the production order and view the kanban created</span></span>
+1. <span data-ttu-id="373d1-147">Fare clic su Stima.</span><span class="sxs-lookup"><span data-stu-id="373d1-147">Click Estimate.</span></span>
+    * <span data-ttu-id="373d1-148">La stima dell'ordine di produzione avvierà la creazione del kanban collegato per fornire l'articolo M0001.</span><span class="sxs-lookup"><span data-stu-id="373d1-148">Estimating the production order will trigger the creation of the associated kanban to supply item M0001.</span></span>  
+2. <span data-ttu-id="373d1-149">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="373d1-149">Click OK.</span></span>
+3. <span data-ttu-id="373d1-150">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="373d1-150">Close the page.</span></span>
+4. <span data-ttu-id="373d1-151">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="373d1-151">Close the page.</span></span>
+5. <span data-ttu-id="373d1-152">Andare a Gestione informazioni sul prodotto > Lean manufacturing > Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="373d1-152">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+6. <span data-ttu-id="373d1-153">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="373d1-153">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="373d1-154">Selezionare la regola kanban evento creata per l'articolo M0001.</span><span class="sxs-lookup"><span data-stu-id="373d1-154">Select the event kanban rule created for item M0001.</span></span>  
+7. <span data-ttu-id="373d1-155">Espandere la sezione Kanban.</span><span class="sxs-lookup"><span data-stu-id="373d1-155">Expand the Kanbans section.</span></span>
+8. <span data-ttu-id="373d1-156">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="373d1-156">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="373d1-157">Si noti il kanban creato per fornire M0001 per l'ordine di produzione stimato.</span><span class="sxs-lookup"><span data-stu-id="373d1-157">Notice the kanban created to supply M0001 for the estimated production order.</span></span>  
+    * <span data-ttu-id="373d1-158">Questo è l'ultimo passaggio.</span><span class="sxs-lookup"><span data-stu-id="373d1-158">This is the last step!</span></span>  
 

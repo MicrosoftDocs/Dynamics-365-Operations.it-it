@@ -9,66 +9,66 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46ba6322f2cea7828033c214502accdf73f073be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1d040f9495c7fb36985b5f96c15ac43aa226da24
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543866"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841323"
 ---
-# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a><span data-ttu-id="3d091-103">Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="3d091-103">Create and assign a cost distribution policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a><span data-ttu-id="39c2c-103">Creare e assegnare i criteri di distribuzione costi a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="39c2c-103">Create and assign a cost distribution policy to a cost control unit</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3d091-104">Le regole di distribuzione costi vengono utilizzate per distribuire i costi conteggiati finanziariamente in un centro di costo collettivo.</span><span class="sxs-lookup"><span data-stu-id="3d091-104">Cost distribution rules are used to distribute costs that have been financially counted on a collective cost center.</span></span> <span data-ttu-id="3d091-105">Il contabile deve verificare che il costo sia distribuito ai centri di costo a seconda della base di allocazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="3d091-105">The cost accountant makes sure that the cost is distributed to the cost centers, based on the selected allocation base.</span></span> <span data-ttu-id="3d091-106">I criteri e le regole corrispondenti vengono assegnati a un'unità di controllo dei costi.</span><span class="sxs-lookup"><span data-stu-id="3d091-106">A policy and the corresponding rules are assigned to a cost control unit.</span></span> <span data-ttu-id="3d091-107">In questa guida attività viene utilizzato un esempio per mostrare come creare criteri di distribuzione dei costi e le regole corrispondenti.</span><span class="sxs-lookup"><span data-stu-id="3d091-107">This task guide uses an example to show how to create a cost distribution policy and the corresponding rules.</span></span>
+<span data-ttu-id="39c2c-104">Le regole di distribuzione costi vengono utilizzate per distribuire i costi conteggiati finanziariamente in un centro di costo collettivo.</span><span class="sxs-lookup"><span data-stu-id="39c2c-104">Cost distribution rules are used to distribute costs that have been financially counted on a collective cost center.</span></span> <span data-ttu-id="39c2c-105">Il contabile deve verificare che il costo sia distribuito ai centri di costo a seconda della base di allocazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="39c2c-105">The cost accountant makes sure that the cost is distributed to the cost centers, based on the selected allocation base.</span></span> <span data-ttu-id="39c2c-106">I criteri e le regole corrispondenti vengono assegnati a un'unità di controllo dei costi.</span><span class="sxs-lookup"><span data-stu-id="39c2c-106">A policy and the corresponding rules are assigned to a cost control unit.</span></span> <span data-ttu-id="39c2c-107">In questa guida attività viene utilizzato un esempio per mostrare come creare criteri di distribuzione dei costi e le regole corrispondenti.</span><span class="sxs-lookup"><span data-stu-id="39c2c-107">This task guide uses an example to show how to create a cost distribution policy and the corresponding rules.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="3d091-108">Creare un criterio</span><span class="sxs-lookup"><span data-stu-id="3d091-108">Create a policy</span></span>
-1. <span data-ttu-id="3d091-109">Andare a Contabilità industriale > Criteri > Criteri di distribuzione costi.</span><span class="sxs-lookup"><span data-stu-id="3d091-109">Go to Cost accounting > Policies > Cost distribution policies.</span></span>
-2. <span data-ttu-id="3d091-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="3d091-110">Click New.</span></span>
-3. <span data-ttu-id="3d091-111">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="3d091-111">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="3d091-112">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-112">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="3d091-113">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-113">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-114">Selezionare Organizzazione.</span><span class="sxs-lookup"><span data-stu-id="3d091-114">Select Organization.</span></span>  
-6. <span data-ttu-id="3d091-115">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-115">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-116">Selezionare CDS P/L.</span><span class="sxs-lookup"><span data-stu-id="3d091-116">Select CDS P/L.</span></span>  
-7. <span data-ttu-id="3d091-117">Nel campo Dimensione statistica immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-117">In the Statistical dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-118">Selezionare Elementi statistici.</span><span class="sxs-lookup"><span data-stu-id="3d091-118">Select Statistical elements.</span></span>  
-8. <span data-ttu-id="3d091-119">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="3d091-119">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="39c2c-108">Creare un criterio</span><span class="sxs-lookup"><span data-stu-id="39c2c-108">Create a policy</span></span>
+1. <span data-ttu-id="39c2c-109">Andare a Contabilità industriale > Criteri > Criteri di distribuzione costi.</span><span class="sxs-lookup"><span data-stu-id="39c2c-109">Go to Cost accounting > Policies > Cost distribution policies.</span></span>
+2. <span data-ttu-id="39c2c-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="39c2c-110">Click New.</span></span>
+3. <span data-ttu-id="39c2c-111">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="39c2c-111">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="39c2c-112">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="39c2c-113">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-113">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-114">Selezionare Organizzazione.</span><span class="sxs-lookup"><span data-stu-id="39c2c-114">Select Organization.</span></span>  
+6. <span data-ttu-id="39c2c-115">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-115">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-116">Selezionare CDS P/L.</span><span class="sxs-lookup"><span data-stu-id="39c2c-116">Select CDS P/L.</span></span>  
+7. <span data-ttu-id="39c2c-117">Nel campo Dimensione statistica immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-117">In the Statistical dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-118">Selezionare Elementi statistici.</span><span class="sxs-lookup"><span data-stu-id="39c2c-118">Select Statistical elements.</span></span>  
+8. <span data-ttu-id="39c2c-119">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="39c2c-119">Click Save.</span></span>
 
-## <a name="create-rules-for-the-policy"></a><span data-ttu-id="3d091-120">Creare regole per i criteri</span><span class="sxs-lookup"><span data-stu-id="3d091-120">Create rules for the policy</span></span>
-1. <span data-ttu-id="3d091-121">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="3d091-121">Click New.</span></span>
-2. <span data-ttu-id="3d091-122">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="3d091-122">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="3d091-123">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-123">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-124">Espande la gerarchia per selezionare 094.</span><span class="sxs-lookup"><span data-stu-id="3d091-124">Expand the hierarchy to select 094.</span></span>  
-4. <span data-ttu-id="3d091-125">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-125">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-126">Selezionare Altri costi operativi, quindi selezionare 605110 Pulizia.</span><span class="sxs-lookup"><span data-stu-id="3d091-126">Select Other operating expenses and then select 605110 Cleaning.</span></span>  
-5. <span data-ttu-id="3d091-127">Nel campo Comportamento costo selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="3d091-127">In the Cost behavior field, select an option.</span></span>
-    * <span data-ttu-id="3d091-128">Selezionare Costo fisso</span><span class="sxs-lookup"><span data-stu-id="3d091-128">Select Fixed cost.</span></span>  
-6. <span data-ttu-id="3d091-129">Nel campo Base di allocazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-129">In the Allocation base field, enter or select a value.</span></span>
-7. <span data-ttu-id="3d091-130">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="3d091-130">Click New.</span></span>
-8. <span data-ttu-id="3d091-131">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="3d091-131">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="3d091-132">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-132">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-133">Espande la gerarchia per selezionare 094.</span><span class="sxs-lookup"><span data-stu-id="3d091-133">Expand the hierarchy to select 094.</span></span>  
-10. <span data-ttu-id="3d091-134">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-134">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="3d091-135">Selezionare Altri costi operativi, quindi selezionare 605150 Affitto.</span><span class="sxs-lookup"><span data-stu-id="3d091-135">Select Other operating expenses and then select 605150 Rent.</span></span>  
-11. <span data-ttu-id="3d091-136">Nel campo Comportamento costo selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="3d091-136">In the Cost behavior field, select an option.</span></span>
-    * <span data-ttu-id="3d091-137">Selezionare Costo fisso</span><span class="sxs-lookup"><span data-stu-id="3d091-137">Select Fixed cost.</span></span>  
-12. <span data-ttu-id="3d091-138">Nel campo Base di allocazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-138">In the Allocation base field, enter or select a value.</span></span>
-13. <span data-ttu-id="3d091-139">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="3d091-139">Click Save.</span></span>
+## <a name="create-rules-for-the-policy"></a><span data-ttu-id="39c2c-120">Creare regole per i criteri</span><span class="sxs-lookup"><span data-stu-id="39c2c-120">Create rules for the policy</span></span>
+1. <span data-ttu-id="39c2c-121">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="39c2c-121">Click New.</span></span>
+2. <span data-ttu-id="39c2c-122">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="39c2c-122">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="39c2c-123">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-123">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-124">Espande la gerarchia per selezionare 094.</span><span class="sxs-lookup"><span data-stu-id="39c2c-124">Expand the hierarchy to select 094.</span></span>  
+4. <span data-ttu-id="39c2c-125">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-125">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-126">Selezionare Altri costi operativi, quindi selezionare 605110 Pulizia.</span><span class="sxs-lookup"><span data-stu-id="39c2c-126">Select Other operating expenses and then select 605110 Cleaning.</span></span>  
+5. <span data-ttu-id="39c2c-127">Nel campo Comportamento costo selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="39c2c-127">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="39c2c-128">Selezionare Costo fisso</span><span class="sxs-lookup"><span data-stu-id="39c2c-128">Select Fixed cost.</span></span>  
+6. <span data-ttu-id="39c2c-129">Nel campo Base di allocazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-129">In the Allocation base field, enter or select a value.</span></span>
+7. <span data-ttu-id="39c2c-130">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="39c2c-130">Click New.</span></span>
+8. <span data-ttu-id="39c2c-131">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="39c2c-131">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="39c2c-132">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-132">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-133">Espande la gerarchia per selezionare 094.</span><span class="sxs-lookup"><span data-stu-id="39c2c-133">Expand the hierarchy to select 094.</span></span>  
+10. <span data-ttu-id="39c2c-134">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-134">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="39c2c-135">Selezionare Altri costi operativi, quindi selezionare 605150 Affitto.</span><span class="sxs-lookup"><span data-stu-id="39c2c-135">Select Other operating expenses and then select 605150 Rent.</span></span>  
+11. <span data-ttu-id="39c2c-136">Nel campo Comportamento costo selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="39c2c-136">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="39c2c-137">Selezionare Costo fisso</span><span class="sxs-lookup"><span data-stu-id="39c2c-137">Select Fixed cost.</span></span>  
+12. <span data-ttu-id="39c2c-138">Nel campo Base di allocazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-138">In the Allocation base field, enter or select a value.</span></span>
+13. <span data-ttu-id="39c2c-139">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="39c2c-139">Click Save.</span></span>
 
-## <a name="assign-rules-to-a-cost-control-unit"></a><span data-ttu-id="3d091-140">Assegnare regole a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="3d091-140">Assign rules to a cost control unit</span></span>
-1. <span data-ttu-id="3d091-141">Fare clic su Assegnazioni criteri per unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="3d091-141">Click Policy assignments for cost control unit.</span></span>
-2. <span data-ttu-id="3d091-142">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="3d091-142">Click New.</span></span>
-3. <span data-ttu-id="3d091-143">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="3d091-143">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="3d091-144">Immettere una data nel campo Valido dalla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="3d091-144">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="3d091-145">Selezionare il 1° settembre nell'anno fiscale valido.</span><span class="sxs-lookup"><span data-stu-id="3d091-145">Select September 1 in the valid fiscal year.</span></span>  
-5. <span data-ttu-id="3d091-146">Nel campo Unità di controllo costi immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="3d091-146">In the Cost control unit field, enter or select a value.</span></span>
-6. <span data-ttu-id="3d091-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="3d091-147">Click Save.</span></span>
+## <a name="assign-rules-to-a-cost-control-unit"></a><span data-ttu-id="39c2c-140">Assegnare regole a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="39c2c-140">Assign rules to a cost control unit</span></span>
+1. <span data-ttu-id="39c2c-141">Fare clic su Assegnazioni criteri per unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="39c2c-141">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="39c2c-142">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="39c2c-142">Click New.</span></span>
+3. <span data-ttu-id="39c2c-143">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="39c2c-143">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="39c2c-144">Immettere una data nel campo Valido dalla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="39c2c-144">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="39c2c-145">Selezionare il 1° settembre nell'anno fiscale valido.</span><span class="sxs-lookup"><span data-stu-id="39c2c-145">Select September 1 in the valid fiscal year.</span></span>  
+5. <span data-ttu-id="39c2c-146">Nel campo Unità di controllo costi immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="39c2c-146">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="39c2c-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="39c2c-147">Click Save.</span></span>
 

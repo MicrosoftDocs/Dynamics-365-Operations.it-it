@@ -10,32 +10,32 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9754c46010e7bbdb2edef0d6e68162f344bb1257
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39450b5aef2fb7b57492a52011f4b0db9dc8ff2e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570413"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845046"
 ---
-# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="cee93-103">Aggiungere un calcolo a un modello di configurazione dei prodotti</span><span class="sxs-lookup"><span data-stu-id="cee93-103">Add a calculation to a product configuration model</span></span>
+# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="3e075-103">Aggiungere un calcolo a un modello di configurazione dei prodotti</span><span class="sxs-lookup"><span data-stu-id="3e075-103">Add a calculation to a product configuration model</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cee93-104">In questa procedura vengono descritti i passaggi per aggiungere un nuovo calcolo a un modello di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="cee93-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="cee93-105">Indica come è possibile creare un'espressione logica utilizzando l'operatore "If" per impostare l'altezza dell'altoparlante a 10 per gli altoparlanti bianchi e a 15 per tutti gli altri colori.</span><span class="sxs-lookup"><span data-stu-id="cee93-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="cee93-106">La procedura utilizza il componente High end speaker nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="cee93-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="3e075-104">In questa procedura vengono descritti i passaggi per aggiungere un nuovo calcolo a un modello di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="3e075-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="3e075-105">Indica come è possibile creare un'espressione logica utilizzando l'operatore "If" per impostare l'altezza dell'altoparlante a 10 per gli altoparlanti bianchi e a 15 per tutti gli altri colori.</span><span class="sxs-lookup"><span data-stu-id="3e075-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="3e075-106">La procedura utilizza il componente High end speaker nella società di dati dimostrativi USMF.</span><span class="sxs-lookup"><span data-stu-id="3e075-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="add-a-calculation"></a><span data-ttu-id="cee93-107">Aggiungere un calcolo</span><span class="sxs-lookup"><span data-stu-id="cee93-107">Add a calculation</span></span>
+## <a name="add-a-calculation"></a><span data-ttu-id="3e075-107">Aggiungere un calcolo</span><span class="sxs-lookup"><span data-stu-id="3e075-107">Add a calculation</span></span>
 
-## <a name="create-calculation-expression"></a><span data-ttu-id="cee93-108">Creare un'espressione di calcolo</span><span class="sxs-lookup"><span data-stu-id="cee93-108">Create calculation expression</span></span>
-1. <span data-ttu-id="cee93-109">Fare clic su Modifica espressione.</span><span class="sxs-lookup"><span data-stu-id="cee93-109">Click Edit expression.</span></span>
-2. <span data-ttu-id="cee93-110">Nel campo ConstraintBody, immettere 'If[CabinetFinish=="White", 10, 15]'.</span><span class="sxs-lookup"><span data-stu-id="cee93-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
-3. <span data-ttu-id="cee93-111">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="cee93-111">Click Validate.</span></span>
-4. <span data-ttu-id="cee93-112">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="cee93-112">Click Close.</span></span>
-5. <span data-ttu-id="cee93-113">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="cee93-113">Click OK.</span></span>
+## <a name="create-calculation-expression"></a><span data-ttu-id="3e075-108">Creare un'espressione di calcolo</span><span class="sxs-lookup"><span data-stu-id="3e075-108">Create calculation expression</span></span>
+1. <span data-ttu-id="3e075-109">Fare clic su Modifica espressione.</span><span class="sxs-lookup"><span data-stu-id="3e075-109">Click Edit expression.</span></span>
+2. <span data-ttu-id="3e075-110">Nel campo ConstraintBody, immettere 'If[CabinetFinish=="White", 10, 15]'.</span><span class="sxs-lookup"><span data-stu-id="3e075-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
+3. <span data-ttu-id="3e075-111">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="3e075-111">Click Validate.</span></span>
+4. <span data-ttu-id="3e075-112">Fare clic su Chiudi.</span><span class="sxs-lookup"><span data-stu-id="3e075-112">Click Close.</span></span>
+5. <span data-ttu-id="3e075-113">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="3e075-113">Click OK.</span></span>
 

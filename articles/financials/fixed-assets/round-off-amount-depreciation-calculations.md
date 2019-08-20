@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7721e46a72e0f8133ed67c597a066a97ffd61669
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549129"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840195"
 ---
-# <a name="round-off-amount-for-depreciation-calculations"></a><span data-ttu-id="597c9-103">Importo per l'arrotondamento dei calcoli di ammortamento</span><span class="sxs-lookup"><span data-stu-id="597c9-103">Round-off amount for depreciation calculations</span></span>
+# <a name="round-off-amount-for-depreciation-calculations"></a><span data-ttu-id="2a0a8-103">Importo per l'arrotondamento dei calcoli di ammortamento</span><span class="sxs-lookup"><span data-stu-id="2a0a8-103">Round-off amount for depreciation calculations</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="597c9-104">Questo articolo illustra il campo Arrotonda ammortamento presente nelle pagine Impostazione libro.</span><span class="sxs-lookup"><span data-stu-id="597c9-104">This article discusses the Round-off depreciation field that is found on the Book setup pages.</span></span>
+<span data-ttu-id="2a0a8-104">Questo articolo illustra il campo Arrotonda ammortamento presente nelle pagine Impostazione libro.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-104">This article discusses the Round-off depreciation field that is found on the Book setup pages.</span></span>
 
-<span data-ttu-id="597c9-105">Gli importi di arrotondamento per l'ammortamento vengono impostati per ogni libro.</span><span class="sxs-lookup"><span data-stu-id="597c9-105">Round-off depreciation amounts are set for each book.</span></span> <span data-ttu-id="597c9-106">Gli importi di arrotondamento per l'ammortamento vengono utilizzati nel profilo di ammortamento cespiti che mostra l'ammortamento e il valore futuri del cespite e anche nelle proposte di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="597c9-106">Round-off depreciation amounts are used in the fixed asset depreciation profile that shows the future depreciation and value of the fixed asset, and also in depreciation proposals.</span></span> <span data-ttu-id="597c9-107">Immettere l'importo minimo dell'ammortamento consentito per il libro.</span><span class="sxs-lookup"><span data-stu-id="597c9-107">Enter the lowest depreciation amount that is allowed for the book.</span></span> 
+<span data-ttu-id="2a0a8-105">Gli importi di arrotondamento per l'ammortamento vengono impostati per ogni libro.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-105">Round-off depreciation amounts are set for each book.</span></span> <span data-ttu-id="2a0a8-106">Gli importi di arrotondamento per l'ammortamento vengono utilizzati nel profilo di ammortamento cespiti che mostra l'ammortamento e il valore futuri del cespite e anche nelle proposte di ammortamento.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-106">Round-off depreciation amounts are used in the fixed asset depreciation profile that shows the future depreciation and value of the fixed asset, and also in depreciation proposals.</span></span> <span data-ttu-id="2a0a8-107">Immettere l'importo minimo dell'ammortamento consentito per il libro.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-107">Enter the lowest depreciation amount that is allowed for the book.</span></span> 
 
-<span data-ttu-id="597c9-108">Indipendentemente dall'arrotondamento che viene impostato, l'importo di ammortamento nell'ultimo periodo di ammortamento non viene arrotondato.</span><span class="sxs-lookup"><span data-stu-id="597c9-108">Regardless of the rounding that is set up, the depreciation amount in the last depreciation period isn't rounded.</span></span> <span data-ttu-id="597c9-109">Alla fine dell'ultimo periodo di ammortamento, il valore del cespite deve essere 0 (zero) o il valore di scarto, se il valore di scarto viene utilizzato.</span><span class="sxs-lookup"><span data-stu-id="597c9-109">At the end of the last depreciation period, the value of the fixed asset must be 0 (zero) or the scrap value, if scrap value is used.</span></span>
+<span data-ttu-id="2a0a8-108">Indipendentemente dall'arrotondamento che viene impostato, l'importo di ammortamento nell'ultimo periodo di ammortamento non viene arrotondato.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-108">Regardless of the rounding that is set up, the depreciation amount in the last depreciation period isn't rounded.</span></span> <span data-ttu-id="2a0a8-109">Alla fine dell'ultimo periodo di ammortamento, il valore del cespite deve essere 0 (zero) o il valore di scarto, se il valore di scarto viene utilizzato.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-109">At the end of the last depreciation period, the value of the fixed asset must be 0 (zero) or the scrap value, if scrap value is used.</span></span>
 
-### <a name="example"></a><span data-ttu-id="597c9-110">Esempio</span><span class="sxs-lookup"><span data-stu-id="597c9-110">Example</span></span>
+### <a name="example"></a><span data-ttu-id="2a0a8-110">Esempio</span><span class="sxs-lookup"><span data-stu-id="2a0a8-110">Example</span></span>
 
-<span data-ttu-id="597c9-111">L'ammortamento senza arrotondamento ammonta a 2.444,44.</span><span class="sxs-lookup"><span data-stu-id="597c9-111">Depreciation without rounding is calculated as 2,444.44.</span></span> <span data-ttu-id="597c9-112">Come indicato nella tabella seguente, gli importi suggeriti variano a seconda del modo in cui l'arrotondamento viene impostato.</span><span class="sxs-lookup"><span data-stu-id="597c9-112">As the following table shows, the amounts that are suggested vary, depending on how rounding is set up.</span></span>
+<span data-ttu-id="2a0a8-111">L'ammortamento senza arrotondamento ammonta a 2.444,44.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-111">Depreciation without rounding is calculated as 2,444.44.</span></span> <span data-ttu-id="2a0a8-112">Come indicato nella tabella seguente, gli importi suggeriti variano a seconda del modo in cui l'arrotondamento viene impostato.</span><span class="sxs-lookup"><span data-stu-id="2a0a8-112">As the following table shows, the amounts that are suggested vary, depending on how rounding is set up.</span></span>
 
-| <span data-ttu-id="597c9-113">Metodo di arrotondamento</span><span class="sxs-lookup"><span data-stu-id="597c9-113">Rounding method</span></span> | <span data-ttu-id="597c9-114">Importo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="597c9-114">Depreciation amount</span></span> |
+| <span data-ttu-id="2a0a8-113">Metodo di arrotondamento</span><span class="sxs-lookup"><span data-stu-id="2a0a8-113">Rounding method</span></span> | <span data-ttu-id="2a0a8-114">Importo di ammortamento</span><span class="sxs-lookup"><span data-stu-id="2a0a8-114">Depreciation amount</span></span> |
 |-----------------|---------------------|
-| <span data-ttu-id="597c9-115">Arrotondamento 0,1</span><span class="sxs-lookup"><span data-stu-id="597c9-115">Rounding 0.1</span></span>    | <span data-ttu-id="597c9-116">2.444,40</span><span class="sxs-lookup"><span data-stu-id="597c9-116">2,444.40</span></span>            |
-| <span data-ttu-id="597c9-117">Arrotondamento 1,00</span><span class="sxs-lookup"><span data-stu-id="597c9-117">Rounding 1.00</span></span>   | <span data-ttu-id="597c9-118">2.444,00</span><span class="sxs-lookup"><span data-stu-id="597c9-118">2,444.00</span></span>            |
-| <span data-ttu-id="597c9-119">Arrotondamento 10,00</span><span class="sxs-lookup"><span data-stu-id="597c9-119">Rounding 10.00</span></span>  | <span data-ttu-id="597c9-120">2.440,00</span><span class="sxs-lookup"><span data-stu-id="597c9-120">2,440.00</span></span>            |
-| <span data-ttu-id="597c9-121">Arrotondamento 100,00</span><span class="sxs-lookup"><span data-stu-id="597c9-121">Rounding 100.00</span></span> | <span data-ttu-id="597c9-122">2.400,00</span><span class="sxs-lookup"><span data-stu-id="597c9-122">2,400.00</span></span>            |
+| <span data-ttu-id="2a0a8-115">Arrotondamento 0,1</span><span class="sxs-lookup"><span data-stu-id="2a0a8-115">Rounding 0.1</span></span>    | <span data-ttu-id="2a0a8-116">2.444,40</span><span class="sxs-lookup"><span data-stu-id="2a0a8-116">2,444.40</span></span>            |
+| <span data-ttu-id="2a0a8-117">Arrotondamento 1,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-117">Rounding 1.00</span></span>   | <span data-ttu-id="2a0a8-118">2.444,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-118">2,444.00</span></span>            |
+| <span data-ttu-id="2a0a8-119">Arrotondamento 10,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-119">Rounding 10.00</span></span>  | <span data-ttu-id="2a0a8-120">2.440,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-120">2,440.00</span></span>            |
+| <span data-ttu-id="2a0a8-121">Arrotondamento 100,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-121">Rounding 100.00</span></span> | <span data-ttu-id="2a0a8-122">2.400,00</span><span class="sxs-lookup"><span data-stu-id="2a0a8-122">2,400.00</span></span>            |
 
 
 

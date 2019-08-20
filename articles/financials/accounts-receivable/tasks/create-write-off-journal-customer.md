@@ -10,80 +10,80 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cd576458bab1e4654d21773b581a5b0f726c928
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 44f36a12195a57e1b4cea524d2e4881f1fa7d0e9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545520"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842931"
 ---
-# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="f4f29-103">Creare un giornale di registrazione annullamento per un cliente</span><span class="sxs-lookup"><span data-stu-id="f4f29-103">Create a write-off journal for a customer</span></span>
+# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="bed20-103">Creare un giornale di registrazione annullamento per un cliente</span><span class="sxs-lookup"><span data-stu-id="bed20-103">Create a write-off journal for a customer</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f4f29-104">Questa guida attività indicherà come impostare i parametri per gli annullamenti e come annullare le transazioni nelle pagine Riscossioni, Fatture cliente aperte e Cliente.</span><span class="sxs-lookup"><span data-stu-id="f4f29-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="f4f29-105">In questa attività viene utilizzata la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="f4f29-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="bed20-104">Questa guida attività indicherà come impostare i parametri per gli annullamenti e come annullare le transazioni nelle pagine Riscossioni, Fatture cliente aperte e Cliente.</span><span class="sxs-lookup"><span data-stu-id="bed20-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="bed20-105">In questa attività viene utilizzata la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="bed20-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="f4f29-106">Impostare i parametri di annullamento</span><span class="sxs-lookup"><span data-stu-id="f4f29-106">Set up the write off parameters</span></span>
-1. <span data-ttu-id="f4f29-107">Andare a Crediti e riscossioni > Impostazioni > Parametri contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="f4f29-107">Go to Credit and collections > Setup > Accounts receivable parameters.</span></span>
-2. <span data-ttu-id="f4f29-108">Fare clic sulla scheda Riscossioni.</span><span class="sxs-lookup"><span data-stu-id="f4f29-108">Click the Collections tab.</span></span>
-3. <span data-ttu-id="f4f29-109">Espandere o comprimere la sezione Annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-109">Expand or collapse the Write-off section.</span></span>
-    * <span data-ttu-id="f4f29-110">Il giornale di registrazione di annullamento contiene le transazioni di annullamento create.</span><span class="sxs-lookup"><span data-stu-id="f4f29-110">The Write-off journal is the general journal that will hold the write-off transactions that you create.</span></span>  
-    * <span data-ttu-id="f4f29-111">È possibile collegare un codice motivo a ogni annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="f4f29-112">È possibile sovrascrivere questo valore predefinito al momento dell'annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-112">You can override this default at the time of the write-off.</span></span>  
-    * <span data-ttu-id="f4f29-113">Impostare questa opzione su Sì se si desidera separare l'IVA dalla transazione originale nell'annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-113">Set this to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
-4. <span data-ttu-id="f4f29-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-114">Close the page.</span></span>
-5. <span data-ttu-id="f4f29-115">Andare a Crediti e riscossioni > Impostazioni > Profili di registrazione cliente.</span><span class="sxs-lookup"><span data-stu-id="f4f29-115">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
-    * <span data-ttu-id="f4f29-116">Il conto di annullamento verrà utilizzato come rettifica del conto spese o di prenotazione nel giornale di registrazione generale</span><span class="sxs-lookup"><span data-stu-id="f4f29-116">The write-off account will be used as the expense account or reserve adjustment in the general journal</span></span>   
-6. <span data-ttu-id="f4f29-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-117">Close the page.</span></span>
+## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="bed20-106">Impostare i parametri di annullamento</span><span class="sxs-lookup"><span data-stu-id="bed20-106">Set up the write off parameters</span></span>
+1. <span data-ttu-id="bed20-107">Andare a Crediti e riscossioni > Impostazioni > Parametri contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="bed20-107">Go to Credit and collections > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="bed20-108">Fare clic sulla scheda Riscossioni.</span><span class="sxs-lookup"><span data-stu-id="bed20-108">Click the Collections tab.</span></span>
+3. <span data-ttu-id="bed20-109">Espandere o comprimere la sezione Annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-109">Expand or collapse the Write-off section.</span></span>
+    * <span data-ttu-id="bed20-110">Il giornale di registrazione di annullamento contiene le transazioni di annullamento create.</span><span class="sxs-lookup"><span data-stu-id="bed20-110">The Write-off journal is the general journal that will hold the write-off transactions that you create.</span></span>  
+    * <span data-ttu-id="bed20-111">È possibile collegare un codice motivo a ogni annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="bed20-112">È possibile sovrascrivere questo valore predefinito al momento dell'annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-112">You can override this default at the time of the write-off.</span></span>  
+    * <span data-ttu-id="bed20-113">Impostare questa opzione su Sì se si desidera separare l'IVA dalla transazione originale nell'annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-113">Set this to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
+4. <span data-ttu-id="bed20-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-114">Close the page.</span></span>
+5. <span data-ttu-id="bed20-115">Andare a Crediti e riscossioni > Impostazioni > Profili di registrazione cliente.</span><span class="sxs-lookup"><span data-stu-id="bed20-115">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
+    * <span data-ttu-id="bed20-116">Il conto di annullamento verrà utilizzato come rettifica del conto spese o di prenotazione nel giornale di registrazione generale</span><span class="sxs-lookup"><span data-stu-id="bed20-116">The write-off account will be used as the expense account or reserve adjustment in the general journal</span></span>   
+6. <span data-ttu-id="bed20-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-117">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="f4f29-118">Annullare il saldo di un cliente dalla pagina dei saldi con aging</span><span class="sxs-lookup"><span data-stu-id="f4f29-118">Write off a customer balance from the aged balances page</span></span>
-1. <span data-ttu-id="f4f29-119">Andare a Crediti e riscossioni > Riscossioni > Saldi con aging.</span><span class="sxs-lookup"><span data-stu-id="f4f29-119">Go to Credit and collections > Collections > Aged balances.</span></span>
-2. <span data-ttu-id="f4f29-120">Contrassegnare la riga per il cliente per cui si desidera eseguire l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="f4f29-121">Ad esempio, contrassegnare la riga con Birch Company.</span><span class="sxs-lookup"><span data-stu-id="f4f29-121">For example, mark the line with Birch Company on it.</span></span>
-3. <span data-ttu-id="f4f29-122">Nel riquadro azioni fare clic su Raccolta.</span><span class="sxs-lookup"><span data-stu-id="f4f29-122">On the Action Pane, click Collect.</span></span>
-4. <span data-ttu-id="f4f29-123">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="f4f29-123">Click Write off.</span></span>
-5. <span data-ttu-id="f4f29-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="f4f29-124">Click OK.</span></span>
-6. <span data-ttu-id="f4f29-125">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-125">Close the page.</span></span>
-7. <span data-ttu-id="f4f29-126">Fare clic su Contabilità generale > Scritture contabili > Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="f4f29-126">Go to General ledger > Journal entries > General journals.</span></span>
-8. <span data-ttu-id="f4f29-127">Selezionare il numero batch del giornale di registrazione contenente l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-127">Select the journal batch number for the journal that contains your write-off.</span></span>
-    * <span data-ttu-id="f4f29-128">Una riga viene creata per stornare il saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="f4f29-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="f4f29-129">Una o più righe vengono create per registrare l'annullamento nel conto relativo.</span><span class="sxs-lookup"><span data-stu-id="f4f29-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
-9. <span data-ttu-id="f4f29-130">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-130">Close the page.</span></span>
-10. <span data-ttu-id="f4f29-131">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-131">Close the page.</span></span>
+## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="bed20-118">Annullare il saldo di un cliente dalla pagina dei saldi con aging</span><span class="sxs-lookup"><span data-stu-id="bed20-118">Write off a customer balance from the aged balances page</span></span>
+1. <span data-ttu-id="bed20-119">Andare a Crediti e riscossioni > Riscossioni > Saldi con aging.</span><span class="sxs-lookup"><span data-stu-id="bed20-119">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="bed20-120">Contrassegnare la riga per il cliente per cui si desidera eseguire l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="bed20-121">Ad esempio, contrassegnare la riga con Birch Company.</span><span class="sxs-lookup"><span data-stu-id="bed20-121">For example, mark the line with Birch Company on it.</span></span>
+3. <span data-ttu-id="bed20-122">Nel riquadro azioni fare clic su Raccolta.</span><span class="sxs-lookup"><span data-stu-id="bed20-122">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="bed20-123">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="bed20-123">Click Write off.</span></span>
+5. <span data-ttu-id="bed20-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="bed20-124">Click OK.</span></span>
+6. <span data-ttu-id="bed20-125">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-125">Close the page.</span></span>
+7. <span data-ttu-id="bed20-126">Fare clic su Contabilità generale > Scritture contabili > Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="bed20-126">Go to General ledger > Journal entries > General journals.</span></span>
+8. <span data-ttu-id="bed20-127">Selezionare il numero batch del giornale di registrazione contenente l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-127">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="bed20-128">Una riga viene creata per stornare il saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="bed20-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="bed20-129">Una o più righe vengono create per registrare l'annullamento nel conto relativo.</span><span class="sxs-lookup"><span data-stu-id="bed20-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
+9. <span data-ttu-id="bed20-130">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-130">Close the page.</span></span>
+10. <span data-ttu-id="bed20-131">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-131">Close the page.</span></span>
 
-## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="f4f29-132">Annullare transazioni nel modulo delle riscossioni.</span><span class="sxs-lookup"><span data-stu-id="f4f29-132">Write off transactions from the collections form.</span></span>
-1. <span data-ttu-id="f4f29-133">Andare a Crediti e riscossioni > Riscossioni > Saldi con aging.</span><span class="sxs-lookup"><span data-stu-id="f4f29-133">Go to Credit and collections > Collections > Aged balances.</span></span>
-2. <span data-ttu-id="f4f29-134">Selezionare il nome del cliente a cui sono associate le transazioni che si desidera annullare.</span><span class="sxs-lookup"><span data-stu-id="f4f29-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="f4f29-135">Ad esempio, selezionare Cave Wholesales (US-004).</span><span class="sxs-lookup"><span data-stu-id="f4f29-135">For example, select Cave Wholesales (US-004).</span></span>
-3. <span data-ttu-id="f4f29-136">Contrassegnare la riga per la prima transazione.</span><span class="sxs-lookup"><span data-stu-id="f4f29-136">Mark the row for the first transaction.</span></span>
-4. <span data-ttu-id="f4f29-137">Contrassegnare la riga per la seconda transazione.</span><span class="sxs-lookup"><span data-stu-id="f4f29-137">Mark the row for the second transaction.</span></span>
-5. <span data-ttu-id="f4f29-138">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="f4f29-138">Click Write off.</span></span>
-6. <span data-ttu-id="f4f29-139">Nel campo Commento motivo digitare "Crediti inesigibili".</span><span class="sxs-lookup"><span data-stu-id="f4f29-139">In the Reason comment field, type 'Bad debts'.</span></span>
-7. <span data-ttu-id="f4f29-140">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="f4f29-140">Click OK.</span></span>
-8. <span data-ttu-id="f4f29-141">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-141">Close the page.</span></span>
-9. <span data-ttu-id="f4f29-142">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-142">Close the page.</span></span>
-10. <span data-ttu-id="f4f29-143">Fare clic su Contabilità generale > Scritture contabili > Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="f4f29-143">Go to General ledger > Journal entries > General journals.</span></span>
-11. <span data-ttu-id="f4f29-144">Selezionare il numero batch del giornale di registrazione contenente l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="f4f29-144">Select the journal batch number for the journal that contains your write-off.</span></span>
-    * <span data-ttu-id="f4f29-145">Una riga viene creata per stornare il saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="f4f29-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="f4f29-146">Una o più righe vengono create per registrare l'annullamento nel conto relativo.</span><span class="sxs-lookup"><span data-stu-id="f4f29-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
-12. <span data-ttu-id="f4f29-147">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-147">Close the page.</span></span>
-13. <span data-ttu-id="f4f29-148">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-148">Close the page.</span></span>
+## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="bed20-132">Annullare transazioni nel modulo delle riscossioni.</span><span class="sxs-lookup"><span data-stu-id="bed20-132">Write off transactions from the collections form.</span></span>
+1. <span data-ttu-id="bed20-133">Andare a Crediti e riscossioni > Riscossioni > Saldi con aging.</span><span class="sxs-lookup"><span data-stu-id="bed20-133">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="bed20-134">Selezionare il nome del cliente a cui sono associate le transazioni che si desidera annullare.</span><span class="sxs-lookup"><span data-stu-id="bed20-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="bed20-135">Ad esempio, selezionare Cave Wholesales (US-004).</span><span class="sxs-lookup"><span data-stu-id="bed20-135">For example, select Cave Wholesales (US-004).</span></span>
+3. <span data-ttu-id="bed20-136">Contrassegnare la riga per la prima transazione.</span><span class="sxs-lookup"><span data-stu-id="bed20-136">Mark the row for the first transaction.</span></span>
+4. <span data-ttu-id="bed20-137">Contrassegnare la riga per la seconda transazione.</span><span class="sxs-lookup"><span data-stu-id="bed20-137">Mark the row for the second transaction.</span></span>
+5. <span data-ttu-id="bed20-138">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="bed20-138">Click Write off.</span></span>
+6. <span data-ttu-id="bed20-139">Nel campo Commento motivo digitare "Crediti inesigibili".</span><span class="sxs-lookup"><span data-stu-id="bed20-139">In the Reason comment field, type 'Bad debts'.</span></span>
+7. <span data-ttu-id="bed20-140">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="bed20-140">Click OK.</span></span>
+8. <span data-ttu-id="bed20-141">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-141">Close the page.</span></span>
+9. <span data-ttu-id="bed20-142">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-142">Close the page.</span></span>
+10. <span data-ttu-id="bed20-143">Fare clic su Contabilità generale > Scritture contabili > Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="bed20-143">Go to General ledger > Journal entries > General journals.</span></span>
+11. <span data-ttu-id="bed20-144">Selezionare il numero batch del giornale di registrazione contenente l'annullamento.</span><span class="sxs-lookup"><span data-stu-id="bed20-144">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="bed20-145">Una riga viene creata per stornare il saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="bed20-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="bed20-146">Una o più righe vengono create per registrare l'annullamento nel conto relativo.</span><span class="sxs-lookup"><span data-stu-id="bed20-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
+12. <span data-ttu-id="bed20-147">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-147">Close the page.</span></span>
+13. <span data-ttu-id="bed20-148">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-148">Close the page.</span></span>
 
-## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="f4f29-149">Annullare una fattura nella pagina Fatture cliente aperte</span><span class="sxs-lookup"><span data-stu-id="f4f29-149">Write off an invoice from the Open customers invoices page</span></span>
-1. <span data-ttu-id="f4f29-150">Andare a Contabilità clienti > Fatture > Fatture cliente aperte.</span><span class="sxs-lookup"><span data-stu-id="f4f29-150">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
-2. <span data-ttu-id="f4f29-151">Contrassegnare la riga per una fattura.</span><span class="sxs-lookup"><span data-stu-id="f4f29-151">Mark the line for an invoice.</span></span> <span data-ttu-id="f4f29-152">Ad esempio, contrassegnare la riga per CIV-000667.</span><span class="sxs-lookup"><span data-stu-id="f4f29-152">For example, mark the line for CIV-000667.</span></span>
-3. <span data-ttu-id="f4f29-153">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="f4f29-153">On the Action Pane, click Invoice.</span></span>
-4. <span data-ttu-id="f4f29-154">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="f4f29-154">Click Write off.</span></span>
-5. <span data-ttu-id="f4f29-155">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="f4f29-155">Click OK.</span></span>
-6. <span data-ttu-id="f4f29-156">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-156">Close the page.</span></span>
+## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="bed20-149">Annullare una fattura nella pagina Fatture cliente aperte</span><span class="sxs-lookup"><span data-stu-id="bed20-149">Write off an invoice from the Open customers invoices page</span></span>
+1. <span data-ttu-id="bed20-150">Andare a Contabilità clienti > Fatture > Fatture cliente aperte.</span><span class="sxs-lookup"><span data-stu-id="bed20-150">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="bed20-151">Contrassegnare la riga per una fattura.</span><span class="sxs-lookup"><span data-stu-id="bed20-151">Mark the line for an invoice.</span></span> <span data-ttu-id="bed20-152">Ad esempio, contrassegnare la riga per CIV-000667.</span><span class="sxs-lookup"><span data-stu-id="bed20-152">For example, mark the line for CIV-000667.</span></span>
+3. <span data-ttu-id="bed20-153">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="bed20-153">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="bed20-154">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="bed20-154">Click Write off.</span></span>
+5. <span data-ttu-id="bed20-155">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="bed20-155">Click OK.</span></span>
+6. <span data-ttu-id="bed20-156">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-156">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="f4f29-157">Annullare un saldo cliente dalla pagina clienti</span><span class="sxs-lookup"><span data-stu-id="f4f29-157">Write off a customer balance from the customer page</span></span>
-1. <span data-ttu-id="f4f29-158">Andare a Contabilità clienti > Clienti > Tutti i clienti.</span><span class="sxs-lookup"><span data-stu-id="f4f29-158">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="f4f29-159">Selezionare un account cliente.</span><span class="sxs-lookup"><span data-stu-id="f4f29-159">Select a customer account.</span></span> <span data-ttu-id="f4f29-160">Ad esempio, selezionare US-001 (Contoso Retail San Diego).</span><span class="sxs-lookup"><span data-stu-id="f4f29-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
-3. <span data-ttu-id="f4f29-161">Nel riquadro azioni fare clic su Raccolta.</span><span class="sxs-lookup"><span data-stu-id="f4f29-161">On the Action Pane, click Collect.</span></span>
-4. <span data-ttu-id="f4f29-162">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="f4f29-162">Click Write off.</span></span>
-5. <span data-ttu-id="f4f29-163">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="f4f29-163">Click OK.</span></span>
-6. <span data-ttu-id="f4f29-164">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f29-164">Close the page.</span></span>
+## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="bed20-157">Annullare un saldo cliente dalla pagina clienti</span><span class="sxs-lookup"><span data-stu-id="bed20-157">Write off a customer balance from the customer page</span></span>
+1. <span data-ttu-id="bed20-158">Andare a Contabilità clienti > Clienti > Tutti i clienti.</span><span class="sxs-lookup"><span data-stu-id="bed20-158">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="bed20-159">Selezionare un account cliente.</span><span class="sxs-lookup"><span data-stu-id="bed20-159">Select a customer account.</span></span> <span data-ttu-id="bed20-160">Ad esempio, selezionare US-001 (Contoso Retail San Diego).</span><span class="sxs-lookup"><span data-stu-id="bed20-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
+3. <span data-ttu-id="bed20-161">Nel riquadro azioni fare clic su Raccolta.</span><span class="sxs-lookup"><span data-stu-id="bed20-161">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="bed20-162">Fare clic su Annullare.</span><span class="sxs-lookup"><span data-stu-id="bed20-162">Click Write off.</span></span>
+5. <span data-ttu-id="bed20-163">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="bed20-163">Click OK.</span></span>
+6. <span data-ttu-id="bed20-164">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="bed20-164">Close the page.</span></span>
 
