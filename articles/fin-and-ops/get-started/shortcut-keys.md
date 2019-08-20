@@ -3,7 +3,7 @@ title: Tasti di scelta rapida
 description: In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561835"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780060"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -138,9 +138,13 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
 | Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ              |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
-| Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
 | Passa al primo record                                                                                               | CTRL+HOME                       |
 | Passa all'ultimo record                                                                                                | CTRL+FINE                        |
+| Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
+| Passa alla prima riga contrassegnata                                                                                           | ALT+MAIUSC+M, F                    |
+| Passa alla riga contrassegnata successiva                                                                                            | ALT+MAIUSC+M, L                    |
+| Passa alla riga contrassegnata precedente                                                                                        | ALT+MAIUSC+M, P                    |
+| Passa alla ultima riga contrassegnata                                                                                           | ALT+MAIUSC+M, N                    |
 | Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
 | Passare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT+MAIUSC+H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |

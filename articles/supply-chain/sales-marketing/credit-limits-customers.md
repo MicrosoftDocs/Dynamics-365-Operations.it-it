@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551816"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742380"
 ---
 # <a name="credit-limits-for-customers"></a>Limiti di credito per i clienti
 
@@ -93,7 +93,7 @@ Utilizzare il modulo **Parametri contabilità clienti** per specificare le infor
 
 **Dove sono utilizzate le informazioni sul credito rimanente di un cliente?**
 
-Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](https://technet.microsoft.com/en-us/library/hh209221.aspx).
+Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](https://technet.microsoft.com/library/hh209221.aspx).
 
 In base ai documenti selezionati, le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolati quando gli ordini cliente, i documenti di trasporto e le fatture cliente vengono aggiornati. Se l'importo del documento su cui si sta lavorando causasse il superamento del limite di credito, viene visualizzato un messaggio.
 

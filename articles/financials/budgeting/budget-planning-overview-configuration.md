@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570974"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834152"
 ---
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
@@ -154,6 +154,8 @@ Per lo schema di esempio, si potrebbero voler creare le colonne per gli scenari 
 [![Colonne](./media/columns.png)](./media/columns.png) 
 
 Inoltre, è possibile definire se ogni elemento di layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di stima, le colonne di previsione sono modificabili, mentre le colonne di vendita e dei contratti dell'anno fiscale sono di sola lettura.
+
+[!Note] Per impostazione predefinita viene limitato a 36 colonne a meno che non si estenda la pianificazione di budget con i passaggi descritti in [Estendere il layout di pianificazione del budget](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Modelli
 

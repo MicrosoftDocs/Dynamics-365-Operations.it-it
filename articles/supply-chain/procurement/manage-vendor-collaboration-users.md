@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555063"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742472"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
@@ -65,7 +65,7 @@ Prima di poter richiedere il provisoning di un nuovo utente, tale persona deve e
 4. Nella sezione **Assegna ruoli utente**, selezionare la casella di controllo **Assegna** per i ruoli di sicurezza che il nuovo utente deve avere.
 5. Fare clic su **Invia**.
 
-Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Finance and Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Finance and Operations. Per ulteriori informazioni, vedere [Che cos'è la collaborazione B2B di Azure AD?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Finance and Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Finance and Operations. Per ulteriori informazioni, vedere [Che cos'è la collaborazione B2B di Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Disattivare un utente
 

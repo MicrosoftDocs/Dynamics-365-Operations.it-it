@@ -1,71 +1,61 @@
 ---
 title: Creare e assegnare strutture di regole avanzate
-description: Questa guida di attività descrive come creare e assegnare una struttura di regole avanzate a una struttura dei conti.
+description: In questo argomento viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558908"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834896"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Creare e assegnare strutture di regole avanzate
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Questa guida di attività descrive come creare e assegnare una struttura di regole avanzate a una struttura dei conti. Questa guida utilizza la società dimostrativa USMF.
-
+In questo argomento viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti. Questa guida utilizza la società dimostrativa USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Crea una struttura di regole avanzate
-1. Andare a Contabilità generale > Piano dei conti > Strutture > Strutture regole avanzate.
-2. Fare clic su Nuovo per aprire la finestra di dialogo a discesa.
-3. Nel campo Struttura regole avanzate, digitare un nome per descrivere la struttura delle regole.
-4. Nel campo Descrizione, immettere un valore per descrivere la struttura.
-5. Fare clic su OK.
-6. Fare clic su Aggiungi segmento.
-7. Selezionare una dimensione finanziaria nell'elenco di segmenti.
-    * Ad esempio, Punto vendita.  
-8. Fare clic su Aggiungi segmento.
-9. Nell'elenco, fare clic sul collegamento della struttura di regole avanzate per visualizzarla.
-10. Fare clic su Attiva.
-11. Fare clic su Attiva.
+1. Passare a **Pannello di navigazione > Moduli > Contabilità generale > Piano dei conti > Strutture > Strutture regole avanzate**.
+2. Selezionare **Nuovo** per aprire la finestra di dialogo a discesa.
+3. Nel campo **Struttura regole avanzate**, digitare un nome per descrivere la struttura delle regole.
+4. Selezionare **OK**.
+5. Selezionare **Aggiungi segmento**.
+6. Selezionare una dimensione finanziaria nell'elenco di segmenti. Ad esempio, **Punto vendita**.  
+7. Selezionare **Aggiungi segmento**.
+8. Selezionare **Attiva**.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Applicare una struttura di regole avanzate a una struttura dei conti
-1. Chiudere il modulo.
-2. Chiudere la pagina.
-3. Andare a Contabilità generale > Piano dei conti > Strutture > Configura strutture dei conti.
-4. Nell'elenco, trovare e selezionare la struttura dei conti a cui applicare la regola avanzata.
-5. Fare clic sul nome della struttura dei conti per aprirla.
-6. Fare clic su Modifica.
-    * È inoltre possibile fare clic su Regole avanzate e verrà richiesto di inserire la struttura dei conti in modalità di bozza.  
-7. Fare clic su Regole avanzate.
-8. Fare clic su Nuovo per aprire la finestra di dialogo a discesa.
-9. Digitare un valore nel campo Regola avanzata.
-10. Digitare un valore nel campo Nome.
-11. Fare clic su Crea.
-12. Fare clic su Aggiungi nuovi criteri.
-13. Nel campo Percorso, selezionare un conto principale o una dimensione finanziaria.
-14. Nel campo Operatore, selezionare un'opzione, ad esempio è compreso in e include.
-15. Digitare un valore nel campo Valore.
-16. Digitare un valore nel campo attraverso.
-17. Fare clic su Aggiungi per aprire la finestra di dialogo a discesa.
-18. Nell'elenco, individuare la struttura di regole avanzate da utilizzare quando vengono soddisfatti i criteri immessi.
-19. Scegliere Aggiungi.
-20. Chiudere la pagina.
-21. Fare clic su Attiva.
-22. Fare clic su Attiva.
+1. Passare a **Pannello di navigazione > Moduli > Contabilità generale > Piano dei conti > Strutture > Configura strutture dei conti**.
+2. Nell'elenco, trovare e selezionare la struttura dei conti a cui applicare la regola avanzata.
+3. Selezionare **Modifica**. È inoltre possibile fare clic su **Regole avanzate** e verrà richiesto di inserire la struttura dei conti in **modalità di bozza**.  
+4. Selezionare **Regole avanzate**.
+5. Selezionare **Nuovo** per aprire la finestra di dialogo a discesa.
+6. Digitare un valore nel campo **Regola avanzata**.
+7. Digitare un valore nel campo **Nome**.
+8. Selezionare **Crea**.
+9. Fare clic su **Aggiungi nuovi criteri**.
+10. Nel campo **Percorso**, selezionare un conto principale o una dimensione finanziaria.
+11. Nel campo **Operatore**, selezionare un'opzione, ad esempio **è compreso in** e **include**.
+12. Digitare un valore nel campo **Valore**.
+13. Digitare un valore nel campo **attraverso**.
+14. Fare clic su **Aggiungi** per aprire la finestra di dialogo a discesa.
+15. Nell'elenco, individuare la struttura di regole avanzate da utilizzare quando vengono soddisfatti i criteri immessi.
+16. Selezionare **Aggiungi**.
+17. Chiudere la pagina.
+18. Selezionare **Attiva**.
 
