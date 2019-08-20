@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 068a811c3f1e7033e2625a99975652e0d6f1a139
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572352"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838225"
 ---
 # <a name="work-breakdown-structures"></a>Strutture di suddivisione del lavoro
 
@@ -39,7 +39,7 @@ Il grado di dettaglio in una struttura di suddivisione del lavoro dipende dal li
 
 Per contro, i progetti in settori quali media e pubblicità, software e infrastruttura IT tendono a una essere di tipo e la produttività è correlata all'esperienza e alla competenza dell'utente che esegue l'attività. Di conseguenza, questi settori utilizzano una struttura di suddivisione del lavoro per ottenere un'approssimazione della dimensione del progetto, non per tenere traccia dello stato di avanzamento del progetto. 
 
-Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti nella struttura di suddivisione del lavoro in Microsoft Dynamics 365 for Finance and Operations per soddisfare i requisiti relativi a stime e tracciabilità.
+Generare una struttura di suddivisione del lavoro è un processo intensivo in genere eseguito per lungo periodo e che richiede la collaborazione e le informazioni di un'ampia gamma di persone. In questo argomento viene descritto come utilizzare i miglioramenti nella struttura di suddivisione del lavoro in Microsoft Dynamics 365 for Finance and Operations per soddisfare i requisiti relativi a stime e tracciabilità.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prerequisiti per creare una struttura di suddivisione del lavoro
 Per creare una struttura di suddivisione del lavoro, è necessario poter creare un programma lavori e stimare il costo di lavoro.

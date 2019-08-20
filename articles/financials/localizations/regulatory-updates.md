@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624313"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849334"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -59,19 +59,22 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione fiscale per imposte di trasporto dal 2019  |
 |      2019 aprile            |   10.0.1      | Ungheria      |  Ungheria: fatturazione in linea v.1.1 2019 in Microsoft Dynamics 365 for Finance and Operations  |
 |      2019° maggio            |   10.0.2      | Brasile      |   Layout 7 SPED ECD   |
-|      In sospeso            |   10.0.3      | Brasile      |   Nuovo NF-e NT 2018.005 - v.1.20   |
-|      In sospeso            |   10.0.3      | Brasile      |   Layout 7 SPED ECD   |
-|      In sospeso            |   10.0.3      | Brasile      |   Sped ECF - Layout 5 per 2019   |
-|      In sospeso            |   10.0.3      | Lituania    |   Il report i.SAF consente all'utente di definire i codici IVA insieme a codici di imposte legali    |
-|      In sospeso            |   10.0.3      | Polonia     |   Fatture SAF (JPK_FA) v.2 dal 1° luglio 2019  |
-|      In sospeso            |   10.0.3      | Brasile   |   Le rettifiche ICMS per documenti fiscali abilitano la tabella 5.2   |
-|      In sospeso            |   10.0.3      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
-  | In sospeso            |   10.0.4      | Brasile    |   Documento fiscale 66 in ingresso   |
-   | In sospeso            |   10.0.4      | Brasile    |   NF-e and NFC-e - Risoluzione 13/2019 e Decreto SUCIEF 55/2019- RJ - nuove condizioni per l'output di tag di esenzione in NF-e.   |
-   | In sospeso            |   10.0.4      | India   |   Visualizzazione di "Luogo di fornitura" e "Stato" nella fattura d'imposta GST  |
-   | In sospeso            |   10.0.4      | Messico   |  Dichiarazione di terzi DIOT - modifiche nel layout 2019   |
-   | In sospeso            |   10.0.4      | Brasile    |   NF-e ICMS-ST - Decreto CAT 42/18 per stato SP - CAT 42/18
-   | In sospeso            |   10.0.4      | Brasile    |   NF-e Delibera 54.308/18 - RS NF   |
+|      2019 giugno            |   10.0.3      | Brasile      |   Nuovo NF-e NT 2018.005 - v.1.20   |
+|      2019 giugno            |   10.0.3      | Brasile      |   Layout 7 SPED ECD   |
+|      2019 giugno            |   10.0.3      | Brasile      |   Sped ECF - Layout 5 per 2019   |
+|      2019 giugno            |   10.0.3      | Lituania    |   Il report i.SAF consente all'utente di definire i codici IVA insieme a codici di imposte legali    |
+|      2019 giugno            |   10.0.3      | Polonia     |   Fatture SAF (JPK_FA) v.2 dal 1° luglio 2019  |
+|      2019 giugno            |   10.0.3      | Brasile   |   Le rettifiche ICMS per documenti fiscali abilitano la tabella 5.2   |
+|      2019 giugno            |   10.0.3      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
+  | Luglio 2019            |   10.0.4      | Brasile    |   Documento fiscale 66 in ingresso   |
+   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e and NFC-e - Risoluzione 13/2019 e Decreto SUCIEF 55/2019- RJ - nuove condizioni per l'output di tag di esenzione in NF-e.   |
+   | Luglio 2019            |   10.0.4      | India   |   Visualizzazione di "Luogo di fornitura" e "Stato" nella fattura d'imposta GST  |
+   | Luglio 2019            |   10.0.4      | Messico   |  Dichiarazione di terzi DIOT - modifiche nel layout 2019   |
+   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e ICMS-ST - Decreto CAT 42/18 per stato SP - CAT 42/18
+   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e Delibera 54.308/18 - RS NF   |
+       | In sospeso            |   10.0.5      | Brasile    |   Guida pratica ai contributi Sped 1.31. nuove indicazioni   |
+         | In sospeso            |   10.0.5      | Brasile    |   Una nuova versione delle note tecniche per NF-e: NT 2019.001 Versione 1.00   |
+          | In sospeso            |   10.0.5      | Spagna    |   Le regole di convalida cambiano dal 1° ottobre 2019   |
    
 
 

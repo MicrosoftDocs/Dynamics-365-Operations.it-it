@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5ca01b085315d916a18c512af28fc7534ce76ee8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 77358513ffdf791ab10d6efe1b84f598ffb5ec26
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536735"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843411"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Sincronizzare ordini di lavoro con un progetto da Field Service a Finance and Operations
 
@@ -34,7 +34,7 @@ Questo argomento descrive i modelli e l'attività sottostante utilizzati per sin
 
 [![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-Il modello **Ordini di lavoro con progetto (da Field Service a Finance and Operations)** utilizzato si basa sul modello **Ordini di lavoro (da Field Service a Fin and Ops)**. Per ulteriori informazioni, vedere [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+Il modello **Ordini di lavoro con progetto (da Field Service a Finance and Operations)** utilizzato si basa sul modello **Ordini di lavoro (da Field Service a Fin and Ops)**. Per ulteriori informazioni, vedere [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 In questo argomento vengono descritte le differenze tra i due modelli:
 - **Ordini di lavoro con progetto (da Field Service a Fin and Ops)**
