@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 269664
 ms.assetid: af07d122-5694-4de6-96bf-7bf5478b0175
@@ -18,12 +18,12 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e3ac3d6fd9a92d919743b25f865f5ee13a9fb4f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 29a0c46863c2b6a1f25d13f56f90324c781e2c83
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549068"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852466"
 ---
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
