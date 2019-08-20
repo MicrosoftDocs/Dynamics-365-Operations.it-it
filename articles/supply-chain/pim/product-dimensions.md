@@ -3,7 +3,7 @@ title: Dimensioni prodotto
 description: 'Esistono quattro dimensioni prodotto: Colore, Configurazione, Dimensioni e Stile. Le dimensioni prodotto si combinano nei gruppi di dimensioni che si assegnano alle rappresentazioni generali prodotto. Le combinazioni di dimensioni prodotto determinano come si definiscono le varianti prodotto.'
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563576"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863038"
 ---
 # <a name="product-dimensions"></a>Dimensioni prodotto
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563576"
 Esistono quattro dimensioni prodotto: Colore, Configurazione, Dimensioni e Stile. Le dimensioni prodotto si combinano nei gruppi di dimensioni che si assegnano alle rappresentazioni generali prodotto. Le combinazioni di dimensioni prodotto determinano come si definiscono le varianti prodotto.
 
 Le dimensioni prodotto sono caratteristiche che servono a identificare una variante prodotto. È possibile utilizzare combinazioni di dimensioni prodotto per definire le varianti prodotto. Per creare una variante prodotto, è necessario definire almeno una dimensione prodotto per una rappresentazione generale prodotto.
-Varianti prodotto
-----------------
+
+## <a name="product-variants"></a>Varianti prodotto
 
 Le varianti prodotto vengono indicate anche con il termine articoli. Un articolo è un prodotto tangibile, non corrisponde a un servizio. È anche possibile definire una rappresentazione generale prodotto con il tipo Servizio. Utilizzando il tipo di servizio, è possibile specificare varianti prodotto che includono servizi. Ad esempio, è possibile specificare una rappresentazione generale prodotto per le varianti prodotto e consulenza per il lavoro che viene eseguito da consulenti senior e junior.
 

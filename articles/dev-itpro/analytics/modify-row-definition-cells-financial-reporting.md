@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551840"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863726"
 ---
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
 
@@ -402,7 +402,7 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 2. Fare doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
 3. Nella finestra di dialogo **Dimensioni** fare doppio clic su una cella in corrispondenza del nome della dimensione.
 4. Nella finestra di dialogo per la dimensione, selezionare **Singolo o intervallo**.
-5. Nel campo **Da**, immettere la dimensione iniziale o fare clic su ![Sfoglia](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
+5. Nel campo **Da**, immettere la dimensione iniziale o fare clic su ![Sfoglia](media/browse.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
 6. Fare clic su **OK** per chiudere la finestra di dialogo per la dimensione. Nella finestra di dialogo **Dimensioni** è visualizzata la dimensione o l'intervallo aggiornato.
 7. Scegliere **OK** per chiudere la finestra di dialogo **Dimensioni**.
 
@@ -479,7 +479,7 @@ Nella seguente tabella sono descritti i campi della finestra di dialogo **Dimens
 
 | Articolo                | Descrizione |
 |---------------------|-------------|
-| Utente o intervallo | Nel campo **Da**, immettere il nome di un conto o fare clic sul pulsante **Sfoglia** ![Sfoglia](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Sfoglia") per individuare il conto. Per selezionare un intervallo, immettere o individuare un valore nel campo **A**. |
+| Utente o intervallo | Nel campo **Da**, immettere il nome di un conto o fare clic sul pulsante **Sfoglia** ![Sfoglia](media/browse.gif "Sfoglia") per individuare il conto. Per selezionare un intervallo, immettere o individuare un valore nel campo **A**. |
 | Set di valori di dimensione | Nel campo **Nome** immettere il nome di un set di valori di dimensione. Per creare, modificare, copiare o eliminare un set, fare clic su **Gestire set di valori di dimensione**. Il campo **Formula** viene popolato automaticamente con la formula della cella **Collegamento a dimensioni finanziarie** per il set di valori di dimensione nella definizione di riga. |
 | Conti di totalizzazione   | Nel campo **Nome**, immettere o selezionare una dimensione dei conti di totalizzazione. Il campo **Formula** viene popolato automaticamente con la formula della cella **Collegamento a dimensioni finanziarie** per il conto di totalizzazione nella definizione di report. |
 

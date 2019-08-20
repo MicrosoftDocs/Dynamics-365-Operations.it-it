@@ -3,14 +3,14 @@ title: Panoramica delle fatture fornitore
 description: Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625081"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863325"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 
@@ -90,6 +90,13 @@ Una fattura fornitore in uso non può essere modificata da un altro utente. Tutt
 È possibile utilizzare la pagina **Ripristina fatture fornitore** per ripristinare o emettere fatture fornitore utilizzate per più di quattro ore, in modo che possano essere modificate. È possibile aprire questa pagina da **Attività periodica** o da un riquadro nell'area di lavoro **Inserimento fatture fornitore**. Dopo il ripristino di una fattura, questa sarà disponibile per la modifica nella pagina **Fattura fornitore**.
 
 È possibile accedere alla pagina **Ripristina fatture fornitore** solo se si dispone dei diritti e dei privilegi di sicurezza **Ripristina fatture fornitore utilizzate**. Inoltre, il parametro **Consenti ripristino fatture fornitore** nella pagina **Parametri contabilità fornitori** deve essere abilitato.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Reimpostare lo stato flusso di lavoro di fatture fornitore da Irreversibile a Bozza
+
+Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile avrà lo stato **Irriversibile**. Quando lo stato di un flusso di lavoro di fatture fornitore è **Irreversibile**, è possibile reimpostarlo su **Bozza** selezionando **Richiama**. È quindi possibile modificare la fattura fornitore. Questa funzionalità è disponibile se il parametro **Reimposta stato Bozza per flusso di lavoro fatture fornitore** nella pagina **Gestione funzionalità** è abilitato.
+
+È possibile utilizzare la pagina **Storico flusso di lavoro** per reimpostare lo stato flusso di lavoro su **Bozza**. È possibile visualizzare questa pagina da **Fattura fornitore** o dal percorso **Comune > Richieste di informazioni > Flusso di lavoro**. Per reimpostare lo stato del flusso di lavoro su **Bozza**, selezionare **Richiama**. È inoltre possibile reimpostare lo stato del flusso di lavoro su Bozza selezionando l'azione **Richiama** nella pagina **Fattura fornitore** o **Fatture fornitore in sospeso**. Dopo la reimpostazione dello stato flusso di lavoro su **Bozza**, diventa disponibile per modificare la pagina **Fattura fornitore**.
+
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

@@ -3,28 +3,29 @@ title: Processi di importazione ed esportazione di dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505796"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862906"
 ---
 # <a name="data-import-and-export-jobs"></a>Processi di importazione ed esportazione dati
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Per creare e gestire processi di importazione ed esportazione di dati in Microsoft Dynamics 365 for Finance and Operations si utilizza l'area di lavoro **Gestione dati**. Per impostazione predefinita, il processo di importazione ed esportazione crea una tabella di gestione temporanea per ciascuna entità nel database di destinazione. Le tabelle di gestione temporanea consentono di verificare, pulire o convertire i dati prima di spostarli.
 
@@ -129,8 +130,8 @@ Un processo può essere protetto in base a ruoli, utenti e persone giuridiche co
 ## <a name="run-the-import-or-export-job"></a>Eseguire il processo di importazione o di esportazione
 È possibile eseguire un processo una volta facendo clic sul pulsante **Importa** o **Esporta** dopo aver definito il processo. Per impostare un processo ricorrente, selezionare **Crea processo dati ricorrente**.
 
-[!NOTE]
-Un processo di importazione o esportazione può essere eseguito in modo asincrono selezionando il pulsante **Importa** o **Esporta**. L'esecuzione asincrona utilizza il framework asincrono in Finance and Operations, che è differente dal framework batch. Tuttavia, come il framework batch, il framework asincrono può anche essere soggetto a una limitazione e di conseguenza il processo può non essere eseguito immediatamente. I processi possono anche essere eseguiti in modo sincrono selezionando **Importa adesso** o **Esporta adesso**. Questa selezione avvia immediatamente il processo e risulta utile se l'esecuzione asincrona o batch non viene avviata a causa di una limitazione. I processi possono anche essere eseguiti in un batch scegliendo **Esegui in batch**. Le risorse batch sono soggette a limitazione, quindi il processo batch potrebbe non essere avviato immediatamente. L'opzione asincrona è utile quando gli utenti interagiscono direttamente con l'interfaccia utente e non sono power user per comprendere la pianificazione batch. L'utilizzo di un batch è un'opzione alternativa se è necessario esportare o importare grandi volumi. I processi batch possono essere pianificati per l'esecuzione in un gruppo batch specifico, che consente un maggior controllo da una prospettiva di bilanciamento del carico. Se l'esecuzione asincrona e quella batch sono soggette a limitazione a causa di un utilizzo elevato delle risorse di sistema, come soluzione alternativa immediata è possibile utilizzare la versione sincrona dell'importazione/esportazione. L'opzione sincrona verrà avviata immediatamente e bloccherà l'interfaccia utente poiché viene eseguita in modo sincrono. La finestra del browser deve rimanere aperta quando l'operazione sincrona è in corso.
+> [!NOTE]
+> Un processo di importazione o esportazione può essere eseguito in modo asincrono selezionando il pulsante **Importa** o **Esporta**. L'esecuzione asincrona utilizza il framework asincrono in Finance and Operations, che è differente dal framework batch. Tuttavia, come il framework batch, il framework asincrono può anche essere soggetto a una limitazione e di conseguenza il processo può non essere eseguito immediatamente. I processi possono anche essere eseguiti in modo sincrono selezionando **Importa adesso** o **Esporta adesso**. Questa selezione avvia immediatamente il processo e risulta utile se l'esecuzione asincrona o batch non viene avviata a causa di una limitazione. I processi possono anche essere eseguiti in un batch scegliendo **Esegui in batch**. Le risorse batch sono soggette a limitazione, quindi il processo batch potrebbe non essere avviato immediatamente. L'opzione asincrona è utile quando gli utenti interagiscono direttamente con l'interfaccia utente e non sono power user per comprendere la pianificazione batch. L'utilizzo di un batch è un'opzione alternativa se è necessario esportare o importare grandi volumi. I processi batch possono essere pianificati per l'esecuzione in un gruppo batch specifico, che consente un maggior controllo da una prospettiva di bilanciamento del carico. Se l'esecuzione asincrona e quella batch sono soggette a limitazione a causa di un utilizzo elevato delle risorse di sistema, come soluzione alternativa immediata è possibile utilizzare la versione sincrona dell'importazione/esportazione. L'opzione sincrona verrà avviata immediatamente e bloccherà l'interfaccia utente poiché viene eseguita in modo sincrono. La finestra del browser deve rimanere aperta quando l'operazione sincrona è in corso.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Verificare che il processo è stato eseguito come previsto
 Lo storico processi è disponibile per la risoluzione dei problemi e l'analisi dei processi di importazione e di esportazione. Le esecuzioni dello storico processi sono organizzate in base a intervalli di tempo.
@@ -153,6 +154,8 @@ I dettagli relativi all'esecuzione indicano lo stato di ciascuna entità di dati
 Dai dettagli di esecuzione è anche possibile aprire il registro di esecuzione.
 
 ## <a name="clean-up-the-staging-tables"></a>Pulire le tabelle di gestione temporanea
+Introduzione all'aggiornamento della piattaforma 29, questa funzionalità è stata rimossa. Questo viene sostituita da una nuova versione di funzionalità di pulizia di storico processi illustrato sotto.
+
 È possibile pulire le tabelle di gestione temporanea utilizzando la funzione **Pulizia gestione temporanea** nell'area di lavoro **Gestione dati**. È possibile utilizzare le seguenti opzioni per selezionare i record che devono essere eliminati dalla tabella di gestione temporanea:
 
 - **Entità**: se si specifica una sola entità, vengono eliminati tutti i record della tabella di gestione temporanea di quell'entità. Selezionare questa opzione per pulire tutti i dati dell'entità in tutti i progetti di dati e in tutti i processi.
@@ -160,3 +163,37 @@ Dai dettagli di esecuzione è anche possibile aprire il registro di esecuzione.
 - **Progetti dati**: se si seleziona un solo progetto di dati, vengono eliminati tutti i record di tutte le entità e in tutti i processi per il progetto di dati selezionato.
 
 È anche possibile combinare le opzioni per definire ulteriormente il set di record da eliminare.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Pulizia storico processi (disponibile nell'aggiornamento della piattaforma 29 e successivi)
+
+La funzionalità di pulizia dello storico processi nella gestione dei dati deve essere utilizzata per programmare una pulizia periodica dello storico di esecuzione. Questa funzionalità sostituisce la funzionalità precedente della pulizia delle tabelle di gestione temporanea, ora deprecata. Le seguenti tabelle verranno pulite dal processo di pulizia.
+
+-   Tutte le tabelle di gestione temporanea
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+La funzionalità è disponibile in **Gestione dati \> Pulizia storico processi**.
+
+### <a name="scheduling-parameters"></a>Parametri di programmazione
+
+Quando si esegue la programmazione del processo di pulizia, i seguenti parametri devono essere definite per definire i criteri di pulizia.
+
+-   **Numero di giorni di mantenimento storico** - Questa impostazione viene utilizzata per stabilire la quantità dello storico di esecuzione da conservare. Specificato in numero di giorni. Quando il processo di pulizia viene programmato come processo batch ricorrente, questa impostazione agirà come una finestra in continuo spostamento, sempre lasciando lo storico intatto per il numero di giorni specificato ed eliminando il resto. Il valore predefinito è 7 giorni.
+
+-   **Numero di ore per eseguire il processo** - Seconda della quantità dello storico da pulire, il tempo di esecuzione totale per il processo di pulizia può variare da alcuni minuti a qualche ora. Poiché la pulizia delle tabelle citate deve essere eseguita quando non sono presenti altre attività di gestione dei dati nel sistema, è importante che il processo di pulizia sia eseguito e completato prima dell'inizio dell'attività aziendale.
+
+    Un tempo di esecuzione massimo può essere specificato impostando un limite massimo sul numero di ore in cui il processo deve essere eseguito mediante questa impostazione. La logica di pulizia gestisce un ID di esecuzione processo alla volta in una sequenza cronologica, con il più vecchio come primo della pulizia dello storico di esecuzione correlato. Smetterà di prendere nuovi ID di esecuzione per la pulizia quando la durata rimanente di esecuzione rientra nell'ultimo 10% della durata specificata. In alcuni casi, verrà previsto che il processo di pulizia continua oltre il tempo massimo specificato. Ciò dipende in gran parte dal numero di record da eliminare per l'ID di esecuzione corrente che è stato avviata prima della soglia di 10% venga raggiunta. La pulizia iniziata deve essere completata per assicurarla l'integrità dei dati, pertanto la pulizia continuare nonostante il superamento del limite specificato. Al termine, i nuovi ID di esecuzione non vengono prelevate e il processo di pulizia termina. Lo storico di esecuzione rimanente che non è stato pulito per mancanza di tempo di esecuzione, verrà selezionato nella successiva programmazione del processo di pulizia. Il valore predefinito e minimo per questa impostazione è impostato su 2 ore.
+
+-   **Batch ricorrente** - Il processo di pulizia può essere eseguito come esecuzione manuale occasionale, oppure può essere programmata per l'esecuzione ricorrente in batch. Il batch può essere programmato utilizzando le impostazioni **Esecuzione in background**, che è l'impostazione batch standard.

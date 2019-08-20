@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9b9533ae650c05f57a45be25aec6cbe2e3db76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551462"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849869"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale
 
@@ -57,10 +57,10 @@ Gli utenti aggiunti al ruolo **Controller oggetto di costo** visualizzeranno sol
 > La protezione a livello di riga si applica ai riquadri e ai report in Microsoft Dynamics 365 for Finance and Operations incorporati da Power BI.
 
 ## <a name="updating-security"></a>Aggiornamento della protezione
-Se vengono eseguiti aggiornamenti alla protezione a livello di accesso nella contabilità industriale e si desidera che Power BI rifletta tali aggiornamenti, è necessario aggiornare l'archivio entità per il contenuto Power BI **Analisi della contabilità industriale**. Dopo aver completato l'aggiornamento dell'archivio entità da Dynamics 365 for Finance and Operations, è necessario aggiornare gli elementi in PowerBI.com. Per ulteriori informazioni sull'aggiornamento dell'archivio entità, vedere [Aggiornare l'archivio entità](power-bi-integration-entity-store.md#update-entity-store). Il proprietario dei contenuti Power BI **Analisi della contabilità industriale** deve inoltre effettuare un aggiornamento dell'archivio entità se a nuovi utenti viene concesso l'accesso alla gerarchia organizzativa. Inoltre, il proprietario deve aggiungere i nuovi utenti al ruolo **Controller oggetto di costo** in PowerBI.com, in modo che la protezione a livello di riga venga applicata a tali utenti.
+Se vengono eseguiti aggiornamenti alla protezione a livello di accesso nella contabilità industriale e si desidera che Power BI rifletta tali aggiornamenti, è necessario aggiornare l'archivio entità per il contenuto Power BI **Analisi della contabilità industriale**. Dopo aver completato l'aggiornamento dell'archivio entità da Finance and Operations, è necessario aggiornare gli elementi in PowerBI.com. Per ulteriori informazioni sull'aggiornamento dell'archivio entità, vedere [Aggiornare l'archivio entità](power-bi-integration-entity-store.md#update-entity-store). Il proprietario dei contenuti Power BI **Analisi della contabilità industriale** deve inoltre effettuare un aggiornamento dell'archivio entità se a nuovi utenti viene concesso l'accesso alla gerarchia organizzativa. Inoltre, il proprietario deve aggiungere i nuovi utenti al ruolo **Controller oggetto di costo** in PowerBI.com, in modo che la protezione a livello di riga venga applicata a tali utenti.
 
 ## <a name="disabling-security"></a>Disabilitazione della protezione
 Supponiamo che l'organizzazione desideri limitare l'accesso ai dati. Se, per qualsiasi motivo, i parametri di protezione sono disabilitati quando si esegue la contabilità industriale, il proprietario deve invece aggiungere gli utenti al ruolo **Contabilità industriale** in Power BI. Se si modifica la protezione da uno stato abilitato a uno stato disabilitato, è consigliabile rimuovere gli utenti dal ruolo **Controller oggetto di costo**. Se si abilita nuovamente la protezione, è opportuno aggiungere gli utenti a tale ruolo. Gli utenti possono appartenere a entrambi i ruoli. L'accesso congiunto è l'unione di entrambi i ruoli. Nel caso del contenuto Power BI **Analisi della contabilità industriale**, gli utenti che dispongono dell'accesso congiunto hanno accesso ai dati senza limitazioni. Se l'obiettivo è applicare un accesso limitato, è necessario assegnare agli utenti solo il ruolo **Controller oggetto di costo**. Questi aggiornamenti della protezione a livello di riga hanno effetto immediato. Gli utenti interessati devono aggiornare il proprio browser.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-Per ulteriori informazioni sulla protezione a livello di riga di Power BI, vedere [Gestire la protezione sul proprio modello in Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Per ulteriori informazioni sulla protezione a livello di riga di Power BI, vedere [Gestire la protezione sul proprio modello in Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).

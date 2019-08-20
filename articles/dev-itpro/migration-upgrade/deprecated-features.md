@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624909"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863385"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -40,10 +40,32 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > Informazioni dettagliate sugli oggetti in Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione di Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 con aggiornamento 29 della piattaforma
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 con aggiornamento 29 della piattaforma è disponibile per specifici utenti nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Aggiornamenti fiscali per la retribuzione negli Stati Uniti
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Stiamo ritirando gli aggiornamenti fiscali per la funzionalità di retribuzione negli Stati Uniti a causa del basso utilizzo e della funzionalità migliorata che viene ora offerta tramite le integrazioni strategiche.  |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Retribuzioni |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecata: Dal 1° ottobre 2021, non intendiamo più fornire aggiornamenti fiscali peri clienti delle retribuzioni negli Stati Uniti. La funzionalità rimarrà nel prodotto, tuttavia i miglioramenti non manterranno più la funzionalità aggiornata e gli eventuali i difetti del prodotto verranno valutati caso per caso. Per ulteriori informazioni, vedere [Aggiornamenti fiscali in corso di ritiro per la funzionalità di retribuzione negli Stati Uniti in Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Pulizia della gestione intermedia per la gestione dei dati
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Non soddisfa i requisiti di base necessari per la programmazione della pulizia periodica. |
+| **Sostituita da un'altra funzionalità?**   | Sì, la funzionalità di pulizia dello storico processi verrà aggiunta per soddisfare gli scenari in modo olistico. |
+| **Aree del prodotto interessate**         | Gestione dati |
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Deprecata: obiettivo di tempistica per la rimozione della funzionalità è dicembre 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con aggiornamento 28 della piattaforma
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francia: esportazione dati contabili FEC in formato XML
 
@@ -280,7 +302,7 @@ I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Pre
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Aggiornamenti di prodotto in Microsoft Power BI. |
-| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Aree del prodotto interessate**         | Cost management, Finance e Retail                                                                                               |
 | **Opzione di distribuzione**              | Solo cloud (l'integrazione con PowerBI.com non è supportata nelle distribuzioni locali).                                                                                                            |
 | **Stato**                         | Deprecato: il calendario di destinazione per la rimozione della funzionalità è il 2° trimestre 2018.    |
@@ -1235,7 +1257,7 @@ La funzionalità Sites Services consente di costruire i siti Web che estendono i
 
 ### <a name="virtual-company-accounts"></a>Account società virtuali
 
-La funzionalità virtuale di più società non è supportata in Dynamics AX. La funzionalità relativa alle società virtuali consente agli utenti di impostare le tabelle da condividere da un insieme di società. Per una descrizione della funzionalità, vedere [Account società e account società virtuali](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Il funzionamento della funzionalità delle tabelle di raggruppamento le attività assegnate alle società virtuali, ovvero gruppi di società “reali„ esistenti. Le query vengono creati in modo che tutte società nella società virtuale possano accedere ai dati nelle tabelle delle raccolte di tabelle associate.
+La funzionalità virtuale di più società non è supportata in Dynamics AX. La funzionalità relativa alle società virtuali consente agli utenti di impostare le tabelle da condividere da un insieme di società. Per una descrizione della funzionalità, vedere [Account società e account società virtuali](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Il funzionamento della funzionalità delle tabelle di raggruppamento le attività assegnate alle società virtuali, ovvero gruppi di società “reali„ esistenti. Le query vengono creati in modo che tutte società nella società virtuale possano accedere ai dati nelle tabelle delle raccolte di tabelle associate.
 
 |   |  | 
 |------------|--------------------|

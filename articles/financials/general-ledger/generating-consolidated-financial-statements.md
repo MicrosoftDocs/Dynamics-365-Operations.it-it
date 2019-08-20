@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557733"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863702"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
@@ -49,11 +49,11 @@ Come viene mostrato nel report consolidato nella figura seguente, quando si util
 
 È inoltre possibile creare un albero gerarchico multilivello che include tutti i livelli necessari. Nella figura seguente viene illustrata una definizione di albero gerarchico multilivello con rollup per area mondiale.
 
-![Definizione di albero gerarchico multilivello con rollup per area](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Definizione di albero gerarchico multilivello con rollup per area")
+![Definizione di albero gerarchico multilivello con rollup per area](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definizione di albero gerarchico multilivello con rollup per area")
 
 Nella figura seguente viene illustrata una definizione di albero gerarchico multilivello con rollup per funzione.
 
-![Definizione di albero gerarchico multilivello con rollup per funzione](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Definizione di albero gerarchico multilivello con rollup per funzione")
+![Definizione di albero gerarchico multilivello con rollup per funzione](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definizione di albero gerarchico multilivello con rollup per funzione")
 
 ### <a name="viewing-companies-side-by-side"></a>Visualizzazione affiancata delle società
 Molti clienti preferiscono i report in cui le società vengono visualizzate affiancate e dove una colonna mostra il totale consolidato. Questo formato è facile da ottenere dopo che è stato creato l'albero gerarchico. Di seguito vengono riportati i passaggi di alto livello per visualizzare le società affiancate nei rendiconti finanziari consolidati.
@@ -98,7 +98,7 @@ Nella definizione di albero gerarchico, immettere la percentuale di proprietà n
 > [!NOTE]
 > È possibile applicare questa percentuale di proprietà a qualsiasi unità gerarchica, non solo a livello di società. 
 
-![Utilizzo della percentuale nella definizione dell'albero gerarchico](./media/Using-reporting%20tree-definition-percentage.png "Utilizzo della percentuale nella definizione dell'albero gerarchico")
+![Utilizzo della percentuale nella definizione dell'albero gerarchico](./media/Using-reporting-tree-definition-percentage.png "Utilizzo della percentuale nella definizione dell'albero gerarchico")
 
 Quando viene generato il report, il report di Contoso Germania mostrerà il 100% dell'importo vendite e l'80% dell'importo verrà allocato con rollup al livello di consolidamento per le vendite.
 
