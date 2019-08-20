@@ -3,47 +3,46 @@ title: Configurare la rubrica globale
 description: Utilizzare questa procedura per impostare i valori predefiniti e i criteri di sicurezza della rubrica globale.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230d3c089189ddb6186bc2ca4b647b8ad5b003ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3994c7bb77e9821a880dc009681e113013129850
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545695"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851873"
 ---
-# <a name="configure-the-global-address-book"></a><span data-ttu-id="ee68d-103">Configurare la rubrica globale</span><span class="sxs-lookup"><span data-stu-id="ee68d-103">Configure the global address book</span></span>
+# <a name="configure-the-global-address-book"></a><span data-ttu-id="3c1a2-103">Configurare la rubrica globale</span><span class="sxs-lookup"><span data-stu-id="3c1a2-103">Configure the global address book</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ee68d-104">Utilizzare questa procedura per impostare i valori predefiniti e i criteri di sicurezza della rubrica globale.</span><span class="sxs-lookup"><span data-stu-id="ee68d-104">Use this procedure to set the default values and security policies for the global address book.</span></span> 
+<span data-ttu-id="3c1a2-104">Utilizzare questa procedura per impostare i valori predefiniti e i criteri di sicurezza della rubrica globale.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-104">Use this procedure to set the default values and security policies for the global address book.</span></span> 
 
-<span data-ttu-id="ee68d-105">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="ee68d-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ee68d-106">Questa attività è destinata del team di pianificazione e configurazione.</span><span class="sxs-lookup"><span data-stu-id="ee68d-106">This task is intended for the Planning and configuration team.</span></span>
+<span data-ttu-id="3c1a2-105">La società di dati dimostrativi utilizzata per creare questa attività è USMF.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="3c1a2-106">Questa attività è destinata del team di pianificazione e configurazione.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-106">This task is intended for the Planning and configuration team.</span></span>
 
-1. <span data-ttu-id="ee68d-107">Andare ad Amministrazione organizzazione > Rubrica globale > Parametri Rubrica globale.</span><span class="sxs-lookup"><span data-stu-id="ee68d-107">Go to Organization administration > Global address book > Global address book parameters.</span></span>
-2. <span data-ttu-id="ee68d-108">Nel campo Sequenza nome selezionare la modalità di visualizzazione dei nomi.</span><span class="sxs-lookup"><span data-stu-id="ee68d-108">In the Name sequence field, select how names should be shown.</span></span>
-3. <span data-ttu-id="ee68d-109">Selezionare se eliminare le parti alle quali non sono stati assegnati ruoli.</span><span class="sxs-lookup"><span data-stu-id="ee68d-109">Select whether to delete parties with that have not been assigned a role.</span></span>
-4. <span data-ttu-id="ee68d-110">Selezionare se verificare la presenza di record duplicati.</span><span class="sxs-lookup"><span data-stu-id="ee68d-110">Select whether to check for duplicate records.</span></span>
-5. <span data-ttu-id="ee68d-111">Selezionare se visualizzare il numero DUN sugli indirizzi.</span><span class="sxs-lookup"><span data-stu-id="ee68d-111">Select whether to display the DUNS number on addresses.</span></span>
-6. <span data-ttu-id="ee68d-112">Selezionare se verificare la presenza di numeri DUN univoci.</span><span class="sxs-lookup"><span data-stu-id="ee68d-112">Select whether to check for unique DUNS numbers.</span></span>
-7. <span data-ttu-id="ee68d-113">Selezionare un'opzione nel campo Parte.</span><span class="sxs-lookup"><span data-stu-id="ee68d-113">In the Party field, select an option.</span></span>
-8. <span data-ttu-id="ee68d-114">Selezionare un'opzione nel campo Cliente.</span><span class="sxs-lookup"><span data-stu-id="ee68d-114">In the Customer field, select an option.</span></span>
-9. <span data-ttu-id="ee68d-115">Selezionare un'opzione nel campo Fornitore.</span><span class="sxs-lookup"><span data-stu-id="ee68d-115">In the Vendor field, select an option.</span></span>
-10. <span data-ttu-id="ee68d-116">Selezionare un'opzione nel campo Prospect.</span><span class="sxs-lookup"><span data-stu-id="ee68d-116">In the Prospect field, select an option.</span></span>
-11. <span data-ttu-id="ee68d-117">Selezionare un'opzione nel campo Concorrente.</span><span class="sxs-lookup"><span data-stu-id="ee68d-117">In the Competitor field, select an option.</span></span>
-12. <span data-ttu-id="ee68d-118">Fare clic sulla scheda Sicurezza ubicazione privata.</span><span class="sxs-lookup"><span data-stu-id="ee68d-118">Click the Private location security tab.</span></span>
-13. <span data-ttu-id="ee68d-119">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="ee68d-119">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="ee68d-120">Premere il tasto Maiusc per selezionare più ruoli da aggiungere al riquadro Ruoli selezionati, quindi fare clic sulla freccia per aggiungere i ruoli selezionati.</span><span class="sxs-lookup"><span data-stu-id="ee68d-120">Press the Shift key to select multiple roles to add to the Selected roles pane and then click the arrow to add the selected roles.</span></span>  
-14. <span data-ttu-id="ee68d-121">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ee68d-121">Click Save.</span></span>
+1. <span data-ttu-id="3c1a2-107">Nel pannello di navigazione andare a **Moduli > Amministrazione organizzazione > Rubrica globale > Parametri Rubrica globale**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-107">In the Navigation pane, go to **Modules > Organization administration > Global address book > Global address book parameters**.</span></span>
+2. <span data-ttu-id="3c1a2-108">Nel campo **Sequenza nome** selezionare la modalità di visualizzazione dei nomi.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-108">In the **Name sequence** field, select how names should be shown.</span></span>
+3. <span data-ttu-id="3c1a2-109">In **Elimina parti senza ruoli**, selezionare se eliminare le parti a cui non sono stati assegnati ruoli.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-109">In **Delete parties with no roles**, select whether to delete parties with that have not been assigned a role.</span></span>
+4. <span data-ttu-id="3c1a2-110">In **Usa verifica duplicati**, selezionare se verificare i record duplicati.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-110">In **Use duplicate check**, select whether to check for duplicate records.</span></span>
+5. <span data-ttu-id="3c1a2-111">In **Visualizza numero DUNS negli indirizzi**, selezionare se visualizzare il numero DUNS sugli indirizzi.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-111">In **Display DUNS number on addresses**, select whether to display the DUNS number on addresses.</span></span>
+6. <span data-ttu-id="3c1a2-112">In **Controlla numero DUNS univoco**, selezionare se verificare i numeri univoci DUNS.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-112">In **Check for unique DUNS number**, select whether to check for unique DUNS numbers.</span></span>
+7. <span data-ttu-id="3c1a2-113">Selezionare un'opzione nel campo **Parte**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-113">In the **Party** field, select an option.</span></span>
+8. <span data-ttu-id="3c1a2-114">Selezionare un'opzione nel campo **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-114">In the **Customer** field, select an option.</span></span>
+9. <span data-ttu-id="3c1a2-115">Selezionare un'opzione nel campo **Fornitore**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-115">In the **Vendor** field, select an option.</span></span>
+10. <span data-ttu-id="3c1a2-116">Selezionare un'opzione nel campo **Prospect**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-116">In the **Prospect** field, select an option.</span></span>
+11. <span data-ttu-id="3c1a2-117">Selezionare un'opzione nel campo **Concorrente**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-117">In the **Competitor** field, select an option.</span></span>
+12. <span data-ttu-id="3c1a2-118">Fare clic sulla scheda **Sicurezza ubicazione privata**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-118">Click the **Private location security** tab.</span></span>
+13. <span data-ttu-id="3c1a2-119">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-119">In the list, find and select the desired record.</span></span> <span data-ttu-id="3c1a2-120">Premere il tasto Maiusc per selezionare più ruoli da aggiungere al riquadro **Ruoli selezionati**, quindi fare clic sulla freccia per aggiungere i ruoli selezionati.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-120">Press the Shift key to select multiple roles to add to the **Selected roles** pane and then click the arrow to add the selected roles.</span></span>  
+14. <span data-ttu-id="3c1a2-121">Fare clic su **Salva**.</span><span class="sxs-lookup"><span data-stu-id="3c1a2-121">Click **Save**.</span></span>
 
