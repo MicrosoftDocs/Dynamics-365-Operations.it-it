@@ -10,58 +10,58 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 66d84f497775ce4f988242dd2b327bf4854faef5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549562"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834393"
 ---
-# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="1f765-103">Registrare la fattura fornitore e associarla alla quantità ricevuta</span><span class="sxs-lookup"><span data-stu-id="1f765-103">Record vendor invoice and match against received quantity</span></span>
+# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="df0f3-103">Registrare la fattura fornitore e associarla alla quantità ricevuta</span><span class="sxs-lookup"><span data-stu-id="df0f3-103">Record vendor invoice and match against received quantity</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1f765-104">Quando si riceve una fattura da un fornitore per merci o servizi di un ordine fornitore, è possibile che per i processi aziendali sia necessario ricevere le merci o i servizi prima dell'approvazione della fattura per il pagamento.</span><span class="sxs-lookup"><span data-stu-id="1f765-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="1f765-105">Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione Abbinamento fatture.</span><span class="sxs-lookup"><span data-stu-id="1f765-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
+<span data-ttu-id="df0f3-104">Quando si riceve una fattura da un fornitore per merci o servizi di un ordine fornitore, è possibile che per i processi aziendali sia necessario ricevere le merci o i servizi prima dell'approvazione della fattura per il pagamento.</span><span class="sxs-lookup"><span data-stu-id="df0f3-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="df0f3-105">Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione Abbinamento fatture.</span><span class="sxs-lookup"><span data-stu-id="df0f3-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-<span data-ttu-id="1f765-106">Nella pagina Parametri di contabilità fornitori, assicurarsi che l'opzione Abilita convalida abbinamento fatture sia selezionata,che il campo Registra fatture con discrepanze sia impostato su Richiedi approvazione e che il campo Criteri di abbinamento riga sia impostato su Criteri di abbinamento a tre elementi di verifica.</span><span class="sxs-lookup"><span data-stu-id="1f765-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
+<span data-ttu-id="df0f3-106">Nella pagina Parametri di contabilità fornitori, assicurarsi che l'opzione Abilita convalida abbinamento fatture sia selezionata,che il campo Registra fatture con discrepanze sia impostato su Richiedi approvazione e che il campo Criteri di abbinamento riga sia impostato su Criteri di abbinamento a tre elementi di verifica.</span><span class="sxs-lookup"><span data-stu-id="df0f3-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
 
-<span data-ttu-id="1f765-107">Questa procedura utilizza la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="1f765-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="1f765-108">Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni.</span><span class="sxs-lookup"><span data-stu-id="1f765-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
+<span data-ttu-id="df0f3-107">Questa procedura utilizza la società dimostrativa USMF.</span><span class="sxs-lookup"><span data-stu-id="df0f3-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="df0f3-108">Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni.</span><span class="sxs-lookup"><span data-stu-id="df0f3-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="1f765-109">Creare un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="1f765-109">Create a purchase order</span></span>
-1. <span data-ttu-id="1f765-110">Fare clic su Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="1f765-110">Go to All purchase orders.</span></span>
-2. <span data-ttu-id="1f765-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="1f765-111">Click New.</span></span>
-3. <span data-ttu-id="1f765-112">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="1f765-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="1f765-113">Digitare un valore nel campo Conto fornitore.</span><span class="sxs-lookup"><span data-stu-id="1f765-113">In the Vendor account field, type a value.</span></span>
-5. <span data-ttu-id="1f765-114">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="1f765-114">Click OK.</span></span>
-6. <span data-ttu-id="1f765-115">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="1f765-115">Click Add line.</span></span>
-7. <span data-ttu-id="1f765-116">Nel campo Numero articolo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="1f765-116">In the Item number field, type a value.</span></span>
-8. <span data-ttu-id="1f765-117">Nel riquadro azioni fare clic su Acquisti.</span><span class="sxs-lookup"><span data-stu-id="1f765-117">On the Action Pane, click Purchase.</span></span>
-9. <span data-ttu-id="1f765-118">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="1f765-118">Click Confirm.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="df0f3-109">Creare un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="df0f3-109">Create a purchase order</span></span>
+1. <span data-ttu-id="df0f3-110">Fare clic su Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="df0f3-110">Go to All purchase orders.</span></span>
+2. <span data-ttu-id="df0f3-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="df0f3-111">Click New.</span></span>
+3. <span data-ttu-id="df0f3-112">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="df0f3-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="df0f3-113">Digitare un valore nel campo Conto fornitore.</span><span class="sxs-lookup"><span data-stu-id="df0f3-113">In the Vendor account field, type a value.</span></span>
+5. <span data-ttu-id="df0f3-114">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="df0f3-114">Click OK.</span></span>
+6. <span data-ttu-id="df0f3-115">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="df0f3-115">Click Add line.</span></span>
+7. <span data-ttu-id="df0f3-116">Nel campo Numero articolo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="df0f3-116">In the Item number field, type a value.</span></span>
+8. <span data-ttu-id="df0f3-117">Nel riquadro azioni fare clic su Acquisti.</span><span class="sxs-lookup"><span data-stu-id="df0f3-117">On the Action Pane, click Purchase.</span></span>
+9. <span data-ttu-id="df0f3-118">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="df0f3-118">Click Confirm.</span></span>
 
-## <a name="post-a-product-receipt"></a><span data-ttu-id="1f765-119">Registra un'entrata prodotti</span><span class="sxs-lookup"><span data-stu-id="1f765-119">Post a product receipt</span></span>
-1. <span data-ttu-id="1f765-120">Nel riquadro azioni fare clic su Ricevimento.</span><span class="sxs-lookup"><span data-stu-id="1f765-120">On the Action Pane, click Receive.</span></span>
-2. <span data-ttu-id="1f765-121">Fare clic su Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="1f765-121">Click Product receipt.</span></span>
-3. <span data-ttu-id="1f765-122">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="1f765-122">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="1f765-123">Digitare un valore nel campo Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="1f765-123">In the Product receipt field, type a value.</span></span>
-5. <span data-ttu-id="1f765-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="1f765-124">Click OK.</span></span>
+## <a name="post-a-product-receipt"></a><span data-ttu-id="df0f3-119">Registra un'entrata prodotti</span><span class="sxs-lookup"><span data-stu-id="df0f3-119">Post a product receipt</span></span>
+1. <span data-ttu-id="df0f3-120">Nel riquadro azioni fare clic su Ricevimento.</span><span class="sxs-lookup"><span data-stu-id="df0f3-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="df0f3-121">Fare clic su Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="df0f3-121">Click Product receipt.</span></span>
+3. <span data-ttu-id="df0f3-122">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="df0f3-122">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="df0f3-123">Digitare un valore nel campo Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="df0f3-123">In the Product receipt field, type a value.</span></span>
+5. <span data-ttu-id="df0f3-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="df0f3-124">Click OK.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="1f765-125">Registrare e abbinare una fattura fornitore a un'entrata prodotti</span><span class="sxs-lookup"><span data-stu-id="1f765-125">Record and match a vendor invoice to a product receipt</span></span>
-1. <span data-ttu-id="1f765-126">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="1f765-126">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="1f765-127">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="1f765-127">Click Invoice.</span></span>
-3. <span data-ttu-id="1f765-128">Digitare un valore nel campo Numero.</span><span class="sxs-lookup"><span data-stu-id="1f765-128">In the Number field, type a value.</span></span>
-4. <span data-ttu-id="1f765-129">Fare clic su Predefinito da: Quantità ordinata per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="1f765-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
-5. <span data-ttu-id="1f765-130">Nel campo Quantità predefinita per le righe selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="1f765-130">In the Default quantity for lines field, select an option.</span></span>
-6. <span data-ttu-id="1f765-131">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="1f765-131">Click OK.</span></span>
-7. <span data-ttu-id="1f765-132">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="1f765-132">Click Yes.</span></span>
-8. <span data-ttu-id="1f765-133">Fare clic su Abbina entrate prodotti.</span><span class="sxs-lookup"><span data-stu-id="1f765-133">Click Match product receipts.</span></span>
-9. <span data-ttu-id="1f765-134">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="1f765-134">Click OK.</span></span>
-10. <span data-ttu-id="1f765-135">Nel riquadro azioni fare clic su Revisione.</span><span class="sxs-lookup"><span data-stu-id="1f765-135">On the Action Pane, click Review.</span></span>
-11. <span data-ttu-id="1f765-136">Fare clic su Dettagli abbinamento.</span><span class="sxs-lookup"><span data-stu-id="1f765-136">Click Matching details.</span></span>
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="df0f3-125">Registrare e abbinare una fattura fornitore a un'entrata prodotti</span><span class="sxs-lookup"><span data-stu-id="df0f3-125">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="df0f3-126">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="df0f3-126">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="df0f3-127">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="df0f3-127">Click Invoice.</span></span>
+3. <span data-ttu-id="df0f3-128">Digitare un valore nel campo Numero.</span><span class="sxs-lookup"><span data-stu-id="df0f3-128">In the Number field, type a value.</span></span>
+4. <span data-ttu-id="df0f3-129">Fare clic su Predefinito da: Quantità ordinata per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="df0f3-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
+5. <span data-ttu-id="df0f3-130">Nel campo Quantità predefinita per le righe selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="df0f3-130">In the Default quantity for lines field, select an option.</span></span>
+6. <span data-ttu-id="df0f3-131">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="df0f3-131">Click OK.</span></span>
+7. <span data-ttu-id="df0f3-132">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="df0f3-132">Click Yes.</span></span>
+8. <span data-ttu-id="df0f3-133">Fare clic su Abbina entrate prodotti.</span><span class="sxs-lookup"><span data-stu-id="df0f3-133">Click Match product receipts.</span></span>
+9. <span data-ttu-id="df0f3-134">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="df0f3-134">Click OK.</span></span>
+10. <span data-ttu-id="df0f3-135">Nel riquadro azioni fare clic su Revisione.</span><span class="sxs-lookup"><span data-stu-id="df0f3-135">On the Action Pane, click Review.</span></span>
+11. <span data-ttu-id="df0f3-136">Fare clic su Dettagli abbinamento.</span><span class="sxs-lookup"><span data-stu-id="df0f3-136">Click Matching details.</span></span>
 

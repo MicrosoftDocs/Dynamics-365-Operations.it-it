@@ -1,0 +1,72 @@
+---
+title: Stati del ciclo di vita del cespite
+description: In questo argomento vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti.
+author: josaw1
+manager: AnnBe
+ms.date: 06/26/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 2214
+ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2dc72c61ed4dbb04122c6859123307dc79f2b233
+ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "1783367"
+---
+# <a name="asset-lifecycle-states"></a><span data-ttu-id="7e0d6-103">Stati del ciclo di vita del cespite</span><span class="sxs-lookup"><span data-stu-id="7e0d6-103">Asset lifecycle states</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="7e0d6-104">In questo argomento vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-104">This topic explains asset lifecycle states and lifecycle models in Asset Management.</span></span> <span data-ttu-id="7e0d6-105">Gli stati del ciclo di vita del cespite vengono utilizzato per definire se un cespite è attivo o inattivo.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-105">Asset lifecycle states are used to define whether an asset is active or inactive.</span></span> <span data-ttu-id="7e0d6-106">Ad esempio, è possibile impostare stati del ciclo di vita del cespite come **Creato**, **Attivo** e **Terminato**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-106">For example, you can set up asset lifecycle states such as **Created**, **Active**, and **Terminated**.</span></span>
+
+> [!NOTE]
+> - <span data-ttu-id="7e0d6-107">Gli stati del ciclo di vita delle richieste sono collegati agli stati del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-107">Request lifecycle states are linked to asset lifecycle states.</span></span> <span data-ttu-id="7e0d6-108">Pertanto, quando una richiesta viene modificato in un nuovo stato del ciclo di vita, il cespite collegato alla richiesta viene modificato in un nuovo stato del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-108">Therefore, when a request is changed to a new request lifecycle state, the asset that is attached to the request is changed to a new asset lifecycle state.</span></span> <span data-ttu-id="7e0d6-109">Ad esempio, se lo stato del ciclo di vita di una richiesta viene cambiato in **In entrata**, lo stato del ciclo di vita del cespite collegato viene modificato nello stato del ciclo di vita selezionato nel campo **Stato del ciclo di vita in entrata** della scheda dettaglio **Stati del ciclo di vita del cespite** della pagina **Modelli di stato del ciclo di vita del cespite**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-109">For example, if the lifecycle state of a request is changed to **Inbound**, the lifecycle state of the attached asset is changed to the lifecycle state that is selected in the **Inbound lifecycle state** field on the **Asset lifecycle state** FastTab of the **Asset lifecycle state models** page.</span></span> 
+
+
+<span data-ttu-id="7e0d6-110">Gli stati del ciclo di vita del cespite possono essere impostati nei modelli del ciclo di vita del cespite, in cui è possibile definire gli stati del ciclo di vita richiesti per diversi tipi di cespiti.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-110">Asset lifecycle states can be set up in asset lifecycle models, where you can define the required lifecycle states for various types of assets.</span></span> <span data-ttu-id="7e0d6-111">Innanzi tutto si impostano gli stati di ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-111">You first set up lifecycle states.</span></span> <span data-ttu-id="7e0d6-112">Successivamente si crea un modello del ciclo di vita e si selezionano gli stati del ciclo di vita per il modello.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-112">You then create a lifecycle model and select lifecycle states for it.</span></span>
+
+1. <span data-ttu-id="7e0d6-113">Selezionare **Gestione cespiti** \> **Impostazione** \> **Cespiti** \> **Stati del ciclo di vita**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-113">Select **Asset management** \> **Setup** \> **Assets** \> **Lifecycle states**.</span></span>
+2. <span data-ttu-id="7e0d6-114">Selezionare **Nuovo** per creare un nuovo stato del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-114">Select **New** to create a new asset lifecycle state.</span></span>
+3. <span data-ttu-id="7e0d6-115">Nel campo **Stato del ciclo di vita**, immettere l'ID dello stato del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-115">In the **Lifecycle state** field, enter the lifecycle state ID.</span></span>
+4. <span data-ttu-id="7e0d6-116">Nel campo **Nome** immettere una descrizione.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-116">In the **Name** field, enter a description.</span></span>
+
+    <span data-ttu-id="7e0d6-117">Nel campo **Modelli del ciclo di vita** viene visualizzato il numero di modelli del ciclo di vita del cespite che utilizzano lo stato del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-117">The **Lifecycle models** field shows the number of asset lifecycle models that use the asset lifecycle state.</span></span>
+
+5. <span data-ttu-id="7e0d6-118">Impostare l'opzione **Attivo** su **Sì** se questo stato del ciclo di vita deve essere uno stato del ciclo di vita attivo ovvero se ordini di lavoro possono essere creati per i cespiti che sono in questo stato del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-118">Set the **Active** option to **Yes** if this lifecycle state should be an active lifecycle state (in other words, if work orders can be created for assets that are in this lifecycle state).</span></span>
+6. <span data-ttu-id="7e0d6-119">Impostare l'opzione **Elimina righe di calendario aperte** su **Sì** se le righe del calendario aperte del cespite con lo stato del ciclo di vita del cespite **Creato** devono essere eliminate quando sono in questo stato del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-119">Set the **Delete open calendar lines** option to **Yes** if open asset calendar lines that have an asset lifecycle state of **Created** should be deleted when they are in this lifecycle state.</span></span> <span data-ttu-id="7e0d6-120">Questa impostazione è utile se si desidera pulire i programmi di manutenzione aperti che non sono più pertinenti per il cespite, ad esempio se il cespite non è più attivo.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-120">This setting is useful if you want to clean up any open maintenance schedules that are no longer relevant for the asset (for example, if the asset is no longer active).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="7e0d6-121">Gli stati del ciclo di vita del cespite, i modelli del ciclo di vita del cespite e i tipi di cespite sono correlati.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-121">Asset lifecycle states, asset lifecycle models, and asset types are related.</span></span> <span data-ttu-id="7e0d6-122">Vengono utilizzati nello stesso modo come gli stati del ciclo di vita dell'ordine di lavoro, i modelli del ciclo di vita dell'ordine di lavoro e tipi di ordine di lavoro.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-122">They are used in the same way as work order lifecycle states, work order lifecycle models, and work order types.</span></span> 
+
+
+<span data-ttu-id="7e0d6-123">Dopo aver creato gli stati del ciclo di vita del cespite necessari, è possibile impostare gli stati del ciclo di vita nei modelli del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-123">After you've created the required asset lifecycle states, you can set up lifecycle states in asset lifecycle models.</span></span>
+
+1. <span data-ttu-id="7e0d6-124">Selezionare **Gestione cespiti** \> **Impostazione** \> **Cespiti** \> **Modelli del ciclo di vita**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-124">Select **Asset management** \> **Setup** \> **assets** \> **lifecycle models**.</span></span>
+2. <span data-ttu-id="7e0d6-125">Selezionare **Nuovo** per creare un nuovo modello del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-125">Select **New** to create a new asset lifecycle model.</span></span>
+3. <span data-ttu-id="7e0d6-126">Nel campo **Modello del ciclo di vita**, immettere l'ID dello modello del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-126">In the **Lifecycle model** field, enter the lifecycle model ID.</span></span>
+4. <span data-ttu-id="7e0d6-127">Nel campo **Nome** immettere una descrizione.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-127">In the **Name** field, enter a description.</span></span>
+
+    <span data-ttu-id="7e0d6-128">Nel campo **Stati del ciclo di vita** viene visualizzato il numero di stati del ciclo di vita del cespite selezionati nel modello del ciclo di vita del cespite.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-128">The **Lifecycle states** field shows the number of asset lifecycle states that are selected in the asset lifecycle model.</span></span> <span data-ttu-id="7e0d6-129">Nel campo **Tipi di cespite** viene visualizzato il numero di tipi di cespite che utilizzano il modello del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-129">The **Asset types** field shows the number of asset types that use the lifecycle model.</span></span>
+
+5. <span data-ttu-id="7e0d6-130">Nella Scheda dettaglio **Stati del ciclo di vita**, selezionare gli stati del ciclo di vita del cespite che devono essere inclusi nel modello:</span><span class="sxs-lookup"><span data-stu-id="7e0d6-130">On the **Lifecycle states** FastTab, select the asset lifecycle states that should be included in the asset lifecycle model:</span></span>
+
+    - <span data-ttu-id="7e0d6-131">Per utilizzare uno stato del ciclo di vita per il modello, selezionarlo nella sezione **Stati del ciclo di vita rimanenti** e quindi fare clic sul pulsante freccia destra ![Freccia destra](media/15-setup-for-objects.png) per spostarlo nella sezione **Stati del ciclo di vita selezionati**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-131">To use a lifecycle state for the model, select it in the **Lifecycle states remaining** section, and then select the right arrow button ![Right arrow](media/15-setup-for-objects.png) to move it to the **Lifecycle states selected** section.</span></span>
+    - <span data-ttu-id="7e0d6-132">Per utilizzare tutti gli stati del ciclo di vita disponibili per il modello, selezionare il pulsante **Tutti gli stati del ciclo di vita disponibili** ![Tutti gli stati del ciclo di vita disponibili](media/20-setup-for-objects.png).</span><span class="sxs-lookup"><span data-stu-id="7e0d6-132">To use all the available lifecycle states for the model, select the **All available lifecycle states** button ![All available lifecycle states](media/20-setup-for-objects.png).</span></span> <span data-ttu-id="7e0d6-133">Tutti gli stati del ciclo di vita verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-133">All lifecycle states are transferred to the **Lifecycle states selected** section.</span></span>
+    - <span data-ttu-id="7e0d6-134">Per rimuovere uno stato del ciclo di vita dal modello, selezionarlo nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante freccia sinistra ![Freccia sinistra](media/16-setup-for-objects.png) per spostarlo nella sezione **Stati del ciclo di vita rimanenti**.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-134">To remove a lifecycle state from the model, select it in the **lifecycle states selected** section, and then select the left arrow button ![Left arrow](media/16-setup-for-objects.png) to move it to the **Lifecycle states remaining** section.</span></span>
+
+6. <span data-ttu-id="7e0d6-135">Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita del cespite possono seguire uno stato selezionato.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-135">Select **Lifecycle state updates** to define the asset lifecycle states that can follow a selected lifecycle state.</span></span>
+7. <span data-ttu-id="7e0d6-136">È possibile utilizzare la Scheda dettaglio **Stato del cespite** per gestire i cespiti ricevuti per la riparazione.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-136">You use the **Asset state** FastTab if you handle assets that you receive for repair.</span></span> <span data-ttu-id="7e0d6-137">Nella sezione **In entrata/in uscita**, è possibile selezionare gli stati del ciclo di vita del cespite per indicare il flusso di lavoro di un cespite ricevuto per la riparazione.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-137">In the **Inbound/outbound** section, you can select asset lifecycle states to indicate the workflow of an asset that you receive for repair.</span></span> <span data-ttu-id="7e0d6-138">Se si offrono cespiti in prestito a clienti o reparti, nella sezione **Prestito**, è possibile selezionare gli stati del ciclo di vita per i cespiti di prestito.</span><span class="sxs-lookup"><span data-stu-id="7e0d6-138">If you offer loan assets to customers or departments, in the **Loan** section, you can select lifecycle states for loan assets.</span></span>

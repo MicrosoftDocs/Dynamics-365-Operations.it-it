@@ -1,9 +1,9 @@
 ---
-title: Creare un calendario e generare orari di lavoro
-description: I calendari descrivono la capacità e gli orari di lavoro delle risorse operative.
+title: Creare calendari e generare orari di lavoro
+description: I calendari descrivono la capacità e gli orari di lavoro delle risorse operative. Questa argomento spiega come definire un calendario di lavoro in base a un modello di orario di lavoro.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba4bd51d2102b3036307f34ab46f94f83df4f461
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50b81ae228d9aee4111ce8d161508d5ed1af4f27
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510130"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738998"
 ---
-# <a name="create-calendar-and-generate-working-times"></a><span data-ttu-id="11ff3-103">Creare un calendario e generare orari di lavoro</span><span class="sxs-lookup"><span data-stu-id="11ff3-103">Create calendar and generate working times</span></span>
+# <a name="create-calendar-and-generate-working-times"></a><span data-ttu-id="e1b95-104">Creare un calendario e generare orari di lavoro</span><span class="sxs-lookup"><span data-stu-id="e1b95-104">Create calendar and generate working times</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="11ff3-104">I calendari descrivono la capacità e gli orari di lavoro delle risorse operative.</span><span class="sxs-lookup"><span data-stu-id="11ff3-104">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="11ff3-105">Questa procedura consente di definire un calendario di lavoro in base a un modello di orario di lavoro.</span><span class="sxs-lookup"><span data-stu-id="11ff3-105">This procedure will help you define a work calendar based on a working time template.</span></span> <span data-ttu-id="11ff3-106">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="11ff3-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="e1b95-105">I calendari descrivono la capacità e gli orari di lavoro delle risorse operative.</span><span class="sxs-lookup"><span data-stu-id="e1b95-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="e1b95-106">Questa argomento spiega come definire un calendario di lavoro in base a un modello di orario di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e1b95-106">This topic explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="e1b95-107">È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.</span><span class="sxs-lookup"><span data-stu-id="e1b95-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="11ff3-107">Andare a Tutte le aree di lavoro > Gestione ciclo di vita risorse.</span><span class="sxs-lookup"><span data-stu-id="11ff3-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="11ff3-108">Fare clic su Calendari.</span><span class="sxs-lookup"><span data-stu-id="11ff3-108">Click Calendars.</span></span>
-3. <span data-ttu-id="11ff3-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="11ff3-109">Click New.</span></span>
-4. <span data-ttu-id="11ff3-110">Digitare un valore nel campo Calendario.</span><span class="sxs-lookup"><span data-stu-id="11ff3-110">In the Calendar field, type a value.</span></span>
-    * <span data-ttu-id="11ff3-111">Si tratta dell'ID del calendario, utilizzato come riferimento quando si assegnano i calendari, ad esempio a una risorsa operativa o un gruppo di risorse.</span><span class="sxs-lookup"><span data-stu-id="11ff3-111">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
-5. <span data-ttu-id="11ff3-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="11ff3-112">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="11ff3-113">Nel campo Giorno lavorativo standard in ore, immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="11ff3-113">In the Standard work day in hours field, enter a number.</span></span>
-7. <span data-ttu-id="11ff3-114">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="11ff3-114">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="11ff3-115">Fare clic su Orari di lavoro.</span><span class="sxs-lookup"><span data-stu-id="11ff3-115">Click Working times.</span></span>
-9. <span data-ttu-id="11ff3-116">Fare clic su Componi orari di lavoro.</span><span class="sxs-lookup"><span data-stu-id="11ff3-116">Click Compose working times.</span></span>
-    * <span data-ttu-id="11ff3-117">Generare le ore lavorative per ogni giorno del periodo in cui si desidera poter programmare il lavoro.</span><span class="sxs-lookup"><span data-stu-id="11ff3-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="11ff3-118">Col passare al tempo, è possibile generare gli orari di lavoro per periodi aggiuntivi.</span><span class="sxs-lookup"><span data-stu-id="11ff3-118">As time goes by, you can generate working times for additional periods.</span></span>  
-10. <span data-ttu-id="11ff3-119">Immettere una data nel campo Dal.</span><span class="sxs-lookup"><span data-stu-id="11ff3-119">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="11ff3-120">Questo è il primo giorno in cui il calendario deve essere aperto.</span><span class="sxs-lookup"><span data-stu-id="11ff3-120">This is the first day that this calendar must be open.</span></span>  
-11. <span data-ttu-id="11ff3-121">Nel campo Data finale immettere una data.</span><span class="sxs-lookup"><span data-stu-id="11ff3-121">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="11ff3-122">Questo è l'ultimo giorno in cui il calendario è aperto.</span><span class="sxs-lookup"><span data-stu-id="11ff3-122">This is the last day that this calendar is open.</span></span>  
-12. <span data-ttu-id="11ff3-123">Nel campo Modello di orario di lavoro immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="11ff3-123">In the Working time template field, enter or select a value.</span></span>
-    * <span data-ttu-id="11ff3-124">Il modello di orario di lavoro definisce le ore lavorative per ogni giorno della settimana.</span><span class="sxs-lookup"><span data-stu-id="11ff3-124">The working time template defines the working hours for each day of the week.</span></span>  
-13. <span data-ttu-id="11ff3-125">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="11ff3-125">Click OK.</span></span>
-14. <span data-ttu-id="11ff3-126">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="11ff3-126">Close the page.</span></span>
+1. <span data-ttu-id="e1b95-108">Nella home page, selezionare **Gestione ciclo di vita risorse**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-108">On the home page, select **Resource lifecycle management**.</span></span>
+2. <span data-ttu-id="e1b95-109">Selezionare **Calendari**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-109">Select **Calendars**.</span></span>
+3. <span data-ttu-id="e1b95-110">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-110">Select **New**.</span></span>
+4. <span data-ttu-id="e1b95-111">Nel campo **Calendario**, classificare il calendario.</span><span class="sxs-lookup"><span data-stu-id="e1b95-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="e1b95-112">Si tratta dell'ID del calendario, utilizzato come riferimento quando si assegnano i calendari, ad esempio a una risorsa operativa o un gruppo di risorse.</span><span class="sxs-lookup"><span data-stu-id="e1b95-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
+5. <span data-ttu-id="e1b95-113">Nel campo **Nome** immettere un nome per il calendario.</span><span class="sxs-lookup"><span data-stu-id="e1b95-113">In the **Name** field, name your calendar.</span></span>
+6. <span data-ttu-id="e1b95-114">Nel campo **Giorno lavorativo standard in ore**, immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="e1b95-114">In the **Standard work day in hours** field, enter a number.</span></span>
+7. <span data-ttu-id="e1b95-115">Verificare che la riga è selezionato, quindi selezionare **Orari di lavoro** nel riquadro azioni.</span><span class="sxs-lookup"><span data-stu-id="e1b95-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
+8. <span data-ttu-id="e1b95-116">Selezionare **Componi orari di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-116">Select **Compose working times**.</span></span> <span data-ttu-id="e1b95-117">Generare le ore lavorative per ogni giorno del periodo in cui si desidera poter programmare il lavoro.</span><span class="sxs-lookup"><span data-stu-id="e1b95-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="e1b95-118">Col passare al tempo, è possibile generare gli orari di lavoro per periodi aggiuntivi.</span><span class="sxs-lookup"><span data-stu-id="e1b95-118">As time goes by, you can generate working times for additional periods.</span></span>  
+9. <span data-ttu-id="e1b95-119">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="e1b95-120">Questo è il primo giorno in cui il calendario deve essere aperto.</span><span class="sxs-lookup"><span data-stu-id="e1b95-120">This is the first day that this calendar must be open.</span></span>  
+10. <span data-ttu-id="e1b95-121">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="e1b95-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="e1b95-122">Questo è l'ultimo giorno in cui il calendario è aperto.</span><span class="sxs-lookup"><span data-stu-id="e1b95-122">This is the last day that this calendar is open.</span></span>  
+11. <span data-ttu-id="e1b95-123">Nel campo **Modello di orario di lavoro** immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="e1b95-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="e1b95-124">Il modello di orario di lavoro definisce le ore lavorative per ogni giorno della settimana.</span><span class="sxs-lookup"><span data-stu-id="e1b95-124">The working time template defines the working hours for each day of the week.</span></span>  
+12. <span data-ttu-id="e1b95-125">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="e1b95-125">Select **OK**.</span></span>
+13. <span data-ttu-id="e1b95-126">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="e1b95-126">Close the page.</span></span>
 
