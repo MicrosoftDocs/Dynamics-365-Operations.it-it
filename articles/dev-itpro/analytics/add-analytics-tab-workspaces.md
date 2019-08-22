@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548187"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848599"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -45,10 +45,10 @@ Se si estende un'area di lavoro dell'applicazione esistente o si introduce una n
 4. Facoltativo: aggiungere le estensioni per personalizzare la visualizzazione.
 
 > [!NOTE]
-> Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Questa pagina offre notevoli approfondimenti che consentono di creare soluzioni efficaci per la creazione di report analitici.
+> Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Questa pagina offre notevoli approfondimenti che consentono di creare soluzioni efficaci per la creazione di report analitici.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Aggiungere un file .pbix come risorsa
-Prima di iniziare è necessario creare o visualizzare il report di Power BI che verrà importato nell'area di lavoro. Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Prima di iniziare è necessario creare o visualizzare il report di Power BI che verrà importato nell'area di lavoro. Per ulteriori informazioni su come creare report analitici, vedere [Introduzione a Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
 
 Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto di Visual Studio.
 

@@ -3,25 +3,25 @@ title: Impostare criteri per le gerarchie di categorie di approvvigionamento
 description: Utilizzare questa procedura per impostare le regole per ordinare prodotti in una categoria.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569916"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844179"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Impostare criteri per le gerarchie di categorie di approvvigionamento
 
@@ -31,31 +31,24 @@ Utilizzare questa procedura per impostare le regole per ordinare prodotti in una
 
 
 ## <a name="find-the-procurement-policy"></a>Trovare i criteri di approvvigionamento
-1. Andare a Approvvigionamento > Impostazioni > Criteri > Criteri di acquisto.
-2. Fare clic sul collegamento sui criteri di approvvigionamento USMF.
-    * Questi sono i criteri a cui aggiungerete una regola. Devono essere criteri attivi.  
+1. Nel pannello di navigazione andare a **Moduli > Approvvigionamento > Impostazioni > Criteri > Criteri di acquisto**.
+2. Fare clic sul collegamento dei criteri di approvvigionamento USMF. Questi sono i criteri a cui aggiungerete una regola. Devono essere criteri attivi.  
 
 ## <a name="create-a-category-access-rule"></a>Creare una regola di accesso alla categoria
-1. Selezionare la regola dei criteri di accesso alle categorie.
-    * Se il pulsante Crea regola dei criteri è disattivato, è perché c'è già una regola dei criteri attiva per l'accesso alle categorie. Controllare i campi Data di validità e Data di scadenza per determinare quale è, quindi selezionarla e fare clic su Ritira regola dei criteri. Se il pulsante Crea regola dei criteri è disponibile, non dovete fare nulla.  
-2. Fare clic su Crea regola dei criteri.
-3. Nel campo Data di validità immettere una data e un'ora.
-    * Il tempo non deve sovrapporsi con un'altra regola che è già attiva.  
-    * Selezionare una categoria a cui la regola si applicherà. Prendere nota di quale categoria questa è – l'informazione sarà necessaria successivamente. Quando si seleziona una categoria, anche le relative categorie padre verranno aggiunte all'elenco Categorie selezionate.  
-    * Selezionare la casella di controllo Includi sottocategorie per applicare la regola a tutte le sottocategorie della categoria selezionata.  
-4. Scegliere Aggiungi.
-    * Se si imposta l'opzione Includi regola padre su Sì, la regola dei criteri definiti per una categoria padre verrà assegnata anche alle categorie figlio se non è stata definita una regola dei criteri per le categorie figlio.  
-5. Fare clic su OK.
+1. Espandere la Scheda dettaglio **Regole dei criteri**.
+2. Nell'elenco **Tipo di regola dei criteri**, selezionare **Regola dei criteri di accesso alle categorie**. Se il pulsante **Crea regola dei criteri** è disattivato, è perché c'è già una regola dei criteri attiva per l'accesso alle categorie. Controllare i campi **Validità** e **Scadenza** per determinare quale è, quindi selezionarlo e fare clic su **Ritira regola dei criteri**. Se il pulsante **Crea regola dei criteri** è disponibile, non dovete fare nulla.  
+3. Fare clic su **Crea regola dei criteri**.
+4. Nel campo **Data di validità** immettere una data e un'ora. Il tempo non deve sovrapporsi con un'altra regola che è già attiva.  
+5. Selezionare una categoria a cui la regola si applicherà. Prendere nota di quale categoria questa è – l'informazione sarà necessaria successivamente. Quando si seleziona una categoria, anche le relative categorie padre verranno aggiunte all'elenco Categorie selezionate. Selezionare la casella di controllo **Includi sottocategorie** per applicare la regola a tutte le sottocategorie della categoria selezionata.
+6. Fare clic sulla freccia destra per aggiungere all'elenco **Categorie selezionate**.  
+4. Fare clic su **OK**. Se si imposta l'opzione **Includi regola padre** su Sì, la regola dei criteri definita per una categoria padre verrà assegnata anche alle categorie figlio se non è stata definita una regola dei criteri per le categorie figlio.
 
 ## <a name="create-a-category-policy-rule"></a>Crea una regola dei criteri categorie
-1. Selezionare la regola dei criteri di accesso.
-    * Se il pulsante Crea regola dei criteri è disattivato, selezionare la regola dei criteri attiva e poi fare clic su Ritira regola dei criteri.  
-2. Fare clic su Crea regola dei criteri.
-3. Nel campo Data di validità immettere una data e un'ora.
-4. Scegliere Aggiungi.
-5. Selezionare la stessa categoria che avete usato per la regola di accesso alle categorie.
-6. Selezionare un'opzione nel campo Selezione fornitore.
-    * Selezionare una regola per controllare il tipo di fornitori che può essere selezionato per la categoria quando le richieste vengono create.  
-7. Fare clic su Chiudi.
-    * Le regole dei criteri definite sono state per le richieste di tipo Consumo. Se voleste definire criteri per le richieste di tipo Rifornimento, dovreste creare una regola per Tipo di regola dei criteri chiamata "Regola dei criteri di accesso alle categorie di rifornimento".  
+1. Nell'elenco **Tipo di regola dei criteri**, selezionare **Regola dei criteri categorie**. Se il pulsante **Crea regola dei criteri** è disattivato, selezionare la regola dei criteri attiva e poi fare clic su **Ritira regola dei criteri**.  
+2. Fare clic su **Crea regola dei criteri**.
+3. Nel campo **Data di validità** immettere una data e un'ora.
+4. Scegliere **Aggiungi**.
+5. Nel campo **Categoria** selezionare la stessa categoria usata per la **regola di accesso alle categorie**.
+6. Selezionare un'opzione nel campo **Selezione fornitore**. Selezionare una regola per controllare il tipo di fornitori che può essere selezionato per la categoria quando le richieste vengono create.  
+7. Fare clic su **Chiudi**. Le regole dei criteri definite sono state per le richieste di tipo Consumo. Se voleste definire criteri per le richieste di tipo Rifornimento, dovreste creare una regola per Tipo di regola dei criteri chiamata "Regola dei criteri di accesso alle categorie di rifornimento".  
 

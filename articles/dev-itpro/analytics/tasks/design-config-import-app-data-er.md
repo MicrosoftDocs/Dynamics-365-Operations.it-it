@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551485"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741357"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Progettare le configurazioni di ER per analizzare i documenti in entrata
 
@@ -30,7 +30,7 @@ Questa procedura indica come progettare le configurazioni ER per analizzare un d
 
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. 
 
-Tali passaggi possono essere completati mediante un set di dati. Prima di iniziare, scaricare e salvare i file elencati nell'argomento, "Analizzare i documenti in entrata per aggiornare i dati dell'applicazione" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). I file sono i seguenti: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Tali passaggi possono essere completati mediante un set di dati. Prima di iniziare, scaricare e salvare i file elencati nell'argomento, "Analizzare i documenti in entrata per aggiornare i dati dell'applicazione" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). I file sono i seguenti: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
     * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".  

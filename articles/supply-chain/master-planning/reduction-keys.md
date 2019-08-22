@@ -3,7 +3,7 @@ title: Chiavi di riduzione previsionali
 description: Questo argomento fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504081"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736306"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>Metodo utilizzato per ridurre i requisiti di previsione
 
@@ -138,14 +138,14 @@ Per questo esempio, includere la seguente previsione della domanda in un piano g
 | Data       | Previsione della domanda |
 |------------|-----------------|
 | 1 gennaio  | 1.000           |
-| 1 febbraio | 500             |
+| 1 febbraio | 1.000             |
 
 Si creano inoltre i seguenti ordini cliente.
 
 | Data        | Quantità ordine cliente |
 |-------------|----------------------|
-| 15 gennaio  | 500                  |
-| 15 febbraio | 100                  |
+| 15 gennaio  | 200                  |
+| 15 febbraio | 400                  |
 
 In questo caso, vengono creati i seguenti ordini pianificati.
 

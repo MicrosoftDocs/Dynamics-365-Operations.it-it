@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37b338d5971395264bd2ff673ee7892814859846
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554441"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741161"
 ---
 # <a name="company-directory-mobile-workspace"></a>Area di lavoro mobile della directory aziendale
 
@@ -57,7 +57,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 </ul>
 </td>
 <td>Amministratore di sistema</td>
-<td>Se Finance and Operations non è stato ancora distribuito nell&#39;organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Talent non è stato ancora distribuito nell&#39;'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella pagina <a href="https://www.microsoft.com/en-us/dynamics365/talent">Web di Talent</a>.
+<td>Se Finance and Operations non è stato ancora distribuito nell&#39;organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Talent non è stato ancora distribuito nell&#39;'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella pagina <a href="https://www.microsoft.com/dynamics365/talent">Web di Talent</a>.
 </td>
 </tr>
 <tr class="even">

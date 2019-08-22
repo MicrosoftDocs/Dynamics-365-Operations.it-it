@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594962"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839209"
 ---
 # <a name="financial-reporting"></a>Creazione di report finanziari
 
@@ -117,7 +117,7 @@ Quando si fa clic sul menu **Report finanziari**, l'elenco dei report finanziari
 Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario facendo clic su **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società utilizzata in Finance and Operations. 
 
 > [!NOTE] 
-> Nel computer su cui si scarica il client per la progettazione di report è necessario che sia installata la versione 4.6.2 di Microsoft .NET Framework. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se si utilizza Chrome, è necessario installare l'estensione ClickOnce per scaricare il client per la progettazione di report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. È anche possibile modificare un report che viene visualizzato nell'elenco dei report finanziari. Quando l'area attorno al nome del report è selezionata, fare clic si **Modifica** nel Riquadro azioni. Il programma di progettazione report viene avviato.
+> Nel computer su cui si scarica il client per la progettazione di report è necessario che sia installata la versione 4.6.2 di Microsoft .NET Framework. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). Se si utilizza Chrome, è necessario installare l'estensione ClickOnce per scaricare il client per la progettazione di report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. È anche possibile modificare un report che viene visualizzato nell'elenco dei report finanziari. Quando l'area attorno al nome del report è selezionata, fare clic si **Modifica** nel Riquadro azioni. Il programma di progettazione report viene avviato.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Visualizzare i report finanziari](view-financial-reports.md)

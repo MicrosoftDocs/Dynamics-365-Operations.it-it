@@ -1,26 +1,26 @@
 ---
 title: Reverse charge
-description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e l'Arabia Saudita.
+description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei, l'Arabia Saudita e Singapore.
 author: epodkolz
 manager: AnnBe
-ms.date: 04/05/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26f7f3f11408cac387c58a5345b566ac50ed426f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571172"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852424"
 ---
 # <a name="reverse-charge-vat"></a>Reverse charge
 
@@ -28,7 +28,7 @@ ms.locfileid: "1571172"
 [!include [banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e l'Arabia Saudita.
+In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e l'Arabia Saudita e Singapore.
 
 Reverse charge è uno schema di imposta che sposta la responsabilità per la contabilità e la dichiarazione dell'IVA dal venditore all'acquirente delle merci e/o dei servizi. Di conseguenza, i destinatari delle merci e/o dei servizi dichiarano sia l'IVA in uscita (nel ruolo del venditore) che l'IVA in entrata (nel ruolo dell'acquirente) nella dichiarazione IVA.
 

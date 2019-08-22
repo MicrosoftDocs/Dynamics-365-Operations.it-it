@@ -3,25 +3,25 @@ title: Imposta i periodi di liquidazione IVA
 description: I periodi di liquidazione IVA contengono informazioni sugli intervalli periodici in cui l'IVA deve essere dichiarata e pagata.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569588"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862990"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Imposta i periodi di liquidazione IVA
 
@@ -50,6 +50,8 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 12. Immettere il numero di unità dell'intervallo periodico per periodo. Ad esempio, un trimestre ha 3 mesi.
 13. Selezionare o deselezionare la casella di controllo Utilizza elaborazione batch per liquidazione IVA.
     * Il processo di liquidazione per il periodo di liquidazione può essere elaborato come processo batch in background. Si consigliano tantissime transazioni IVA all'interno di un intervallo periodico.  
+    > [!NOTE]
+    > Attualmente questo non è supportato in Austria, in Belgio, Spagna, in Italia, in Giappone e nei Paesi Bassi.
 14. Selezionare o deselezionare la casella di controllo Impedisci generazione transazioni contropartita fiscale.
     * Per impostazione predefinita, il sistema genera transazioni di contropartita fiscale durante il processo di liquidazione, la cui causa può creare problemi in caso di un numero elevato di transazioni fiscali in un determinato intervallo periodico. Selezionare questa casella di controllo per impedire la generazione di transazioni di contropartita fiscale.
 15. Espandere la scheda Intervalli periodici.

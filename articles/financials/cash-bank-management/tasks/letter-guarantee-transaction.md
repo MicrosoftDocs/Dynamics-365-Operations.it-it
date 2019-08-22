@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566112"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841995"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transazione lettera di garanzia
 
@@ -61,7 +61,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 15. Nel campo Data di spedizione richiesta immettere una data.
 16. Nel campo Data di spedizione confermata immettere una data.
 
-## <a name="process-letter-of-guaranteerequest"></a>Elaborare la lettera di garanzia: Richiesta
+## <a name="process-letter-of-guarantee_request"></a>Elaborare la lettera di garanzia: Richiesta
 1. Nel riquadro azioni, fare clic su Gestisci.
 2. Fare clic su Lettera di garanzia.
 3. Nel Riquadro azioni, fare clic su Lettera di garanzia.
@@ -73,7 +73,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 9. Fare clic su OK.
 10. Chiudere la pagina.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Elaborare la lettera di garanzia: Invia a banca
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Elaborare la lettera di garanzia: Invia a banca
 1. Fare clic su Gestione cassa e banche > Lettere di garanzia > Lettere di garanzia.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Fare clic su Invia a banca per aprire la finestra di dialogo a discesa.
@@ -81,7 +81,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 5. Nell'elenco fare clic sul collegamento nella riga selezionata.
 6. Fare clic su OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Elaborare la lettera di garanzia: Ricevi da banca
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Elaborare la lettera di garanzia: Ricevi da banca
 1. Fare clic su Ricevi da banca per aprire la finestra di dialogo a discesa.
 2. Digitare un valore nel campo Numero banca.
     * Verificare i valori nei campi calcolati di spesa e margine.  
@@ -93,7 +93,7 @@ Questa procedura utilizza la società dimostrativa USMF.
     * Verificare la registrazione delle scritture contabili.  
 7. Chiudere la pagina.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Elaborare la lettera di garanzia: Assegna al beneficiario
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Elaborare la lettera di garanzia: Assegna al beneficiario
 1. Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.
 2. Nell'elenco fare clic sul collegamento nella riga selezionata.
 3. Nel riquadro azioni, fare clic su Gestisci.
@@ -108,7 +108,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 12. Espandere la sezione Azioni.
     * Convalidare il record 'Assegna al beneficiario'.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Elaborare la lettera di garanzia: Aumenta valore
+## <a name="process-letter-of-guarantee_increase-value"></a>Elaborare la lettera di garanzia: Aumenta valore
 1. Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.
 2. Nell'elenco fare clic sul collegamento nella riga selezionata.
 3. Nel riquadro azioni, fare clic su Gestisci.
@@ -128,7 +128,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 16. Fare clic su Righe.
     * Verificare la scritture contabili registrate.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Elaborare la lettera di garanzia: Liquida
+## <a name="process-letter-of-guarantee_liquidate"></a>Elaborare la lettera di garanzia: Liquida
 1. Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.
 2. Nell'elenco fare clic sul collegamento nella riga selezionata.
 3. Nel riquadro azioni, fare clic su Gestisci.

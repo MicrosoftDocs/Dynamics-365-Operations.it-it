@@ -3,7 +3,7 @@ title: Panoramica della gestione funzionalità
 description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632055"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862940"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Le funzionalità vengono aggiunte e aggiornate in ogni versione di Microsoft Dynamics 365 for Finance and Operations. L'esperienza di gestione delle funzionalità offre un'area di lavoro in cui è possibile visualizzare un elenco delle funzionalità incluse in ciascuna versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata.
 
@@ -38,7 +39,7 @@ Le funzionalità vengono aggiunte e aggiornate in ogni versione di Microsoft Dyn
 L'elenco delle funzionalità include le seguenti informazioni:
 
 - **Nome funzionalità** - Una descrizione della funzionalità che è stata aggiunta.
-- **Stato abilitato** - Un simbolo indica se una funzionalità è stata abilitata (segno di spunta), non è abilitata (vuoto), se è stata programmata per essere abilitata (orologio) o se è obbligatorio abilitarla (blocco). L'impostazione mostrata qui viene utilizzata per tutte le persone giuridiche. Tenere presente che anche quando una funzione è stata abilitata, è comunque controllata dalla sicurezza. Di conseguenza, la funzionalità sarà disponibile solo per gli utenti che hanno accesso ad essa, in base al ruolo di sicurezza. Inoltre è disponibile solo nelle persone giuridiche a cui l'utente può accedere.
+- **Stato abilitato** - Un simbolo indica se una funzionalità è stata abilitata (segno di spunta), non è abilitata (vuoto), se è stata programmata per essere abilitata (orologio) o se è obbligatorio abilitarla (blocco), richiede attenzione prima di essere abilitata (avviso) o non può essere abilitata (X). L'impostazione mostrata viene utilizzata per tutte le persone giuridiche. Tenere presente che anche quando una funzione è stata abilitata, è comunque controllata dalla sicurezza. Di conseguenza, la funzionalità sarà disponibile solo per gli utenti che hanno accesso ad essa, in base al ruolo di sicurezza. Inoltre è disponibile solo nelle persone giuridiche a cui l'utente può accedere.
 - **Data abilitazione** - La data in cui la funzionalità è stata o verrà abilitata.
 - **Funzionalità aggiunta** - La data in cui la funzionalità è stata aggiunta all'ambiente. Questa data viene immessa automaticamente quando si aggiorna l'ambiente durante i cicli mensili di rilascio.
 - **Modulo** - Il modulo interessato dalla nuova funzionalità.
@@ -59,6 +60,10 @@ Se una funzionalità non è stata abilitata, un pulsante **Abilita ora** viene v
 - Selezionare la funzionalità che si desidera abilitare, quindi nel riquadro dei dettagli, selezionare **Abilita ora**. La funzionalità viene abilitata.
 
 Alcune funzionalità non possono essere disabilitate dopo l'abilitazione. Se la funzionalità che si sta cercando di abilitare non può essere disabilitata, viene visualizzato un avviso. A quel punto, è possibile selezionare **Annulla** per annullare l'operazione e lasciare la funzionalità disabilitata. Tuttavia, se si seleziona **Abilita** per abilitare la funzionalità, non sarà possibile disabilitarla in un secondo momento.
+
+Alcune funzionalità visualizzeranno un messaggio che fornisce ulteriori informazioni prima dell'abilitazione. Queste funzionalità sono contrassegnate da un simbolo giallo di avviso. È consigliabile leggere attentamente informazioni aggiuntive per capire meglio che cosa si verifica quando la funzionalità è abilitata. Tuttavia, è comunque possibile selezionare **Abilita** per abilitare la funzionalità.
+
+Alcune funzionalità visualizzeranno un messaggio che la funzionalità non può essere abilitata finché non si intraprende un'azione. Queste funzionalità sono contrassegnate da un simbolo X rosso. È necessario intraprendere azioni descritti nella descrizione prima di abilitare la funzionalità. Ad esempio, se non è possibile utilizzare una funzionalità finché non si disabilita una chiave di configurazione, è necessario prima disabilitare la chiave di configurazione e successivamente tornare alla Gestione funzionalità per abilitare la funzionalità.
 
 Dopo la disabilitazione di una funzionalità, sotto il collegamento **Ulteriori informazioni** viene visualizzato un messaggio nel riquadro dei dettagli. Questo messaggio informa che la funzionalità è stata abilitata o indica la data in cui la funzionalità verrà abilitata. Viene visualizzato ogni volta che si seleziona la funzionalità nell'elenco delle funzionalità.
 
@@ -84,12 +89,28 @@ Dopo la disabilitazione di una funzionalità, sotto il collegamento **Ulteriori 
 
 A volte, viene fornita una funzionalità fondamentale che deve essere abilitata automaticamente quando si esegue un aggiornamento. Queste funzionalità saranno abilitate automaticamente alla data specificata nel campo **Data abilitazione**. Per queste funzionalità, sotto il collegamento **Ulteriori informazioni** viene visualizzato un messaggio nel riquadro dei dettagli. Questo messaggio informa che la funzionalità è stata abilitata o indica la data in cui la funzionalità verrà abilitata. Viene visualizzato ogni volta che si seleziona la funzionalità nell'elenco delle funzionalità.
 
+## <a name="enable-all-features"></a>Abilita tutte le funzionalità
+
+Per impostazione predefinita, tutte le funzionalità aggiunte all'ambiente sono disabilitate. È possibile abilitare tutte le funzionalità selezionando il pulsante **Abilita tutto**. 
+
+Quando si seleziona **Abilita tutto**, verrà visualizzato un'opzione in cui necessario immettere le seguenti informazioni:
+- Elenco di tutte le funzionalità che richiedono la conferma prima di poter essere abilitate. Se si desidera abilitare le funzionalità nell'elenco, scegliere **Sì** per il pulsante **Abilita le funzionalità che richiedono conferma**.
+- Elenco di tutte le funzionalità che non possono essere abilitate verrà visualizzato. Quelle funzionalità non verranno abilitate.
+
+Tutte le funzionalità che possono essere abilitate verranno abilitate. Se una funzionalità è già programmata per essere abilitata in futuro, la programmazione non verrà modificata. 
+
 ## <a name="turn-on-all-features-automatically"></a>Abilitare automaticamente tutte le funzionalità
 
 Per impostazione predefinita, tutte le funzionalità aggiunte all'ambiente sono disabilitate, a meno che non siano funzionalità obbligatorie. Tuttavia, se si desidera abilitare automaticamente tutte le nuove funzionalità, è possibile utilizzare l'elenco a discesa sotto il titolo dell'area di lavoro per modificare ciò che avviene quando vengono aggiunte nuove funzionalità.
 
 - Selezionare **Tutte le nuove funzionalità saranno abilitate per impostazione predefinita** per abilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
 - Selezionare **Tutte le nuove funzionalità saranno disabilitate per impostazione predefinita** per disabilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+
+Quando si abilita automaticamente ogni funzionalità, saranno abilitate tutte le funzionalità che verrebbero abilitate quando si fa clic sul pulsante **Abilita tutto**. Non saranno abilitate le funzionalità che richiedono la conferma o le funzionalità che non possono essere abilitate finché non si intraprende un'azione.
+
+## <a name="check-for-updates"></a>Controlla aggiornamenti
+
+Le funzionalità vengono aggiunti all'ambiente dopo ogni aggiornamento. Tuttavia, è possibile controllare manualmente se esistono aggiornamenti facendo clic sul pulsante **Controlla aggiornamenti**. Qualsiasi funzionalità che è stata aggiunta al sistema dopo l'aggiornamento verrà aggiunta all'elenco delle funzionalità. Ad esempio, se una funzionalità in anteprima viene abilitata dopo un rilascio di versione, è possibile verificare la presenza di eventuali aggiornamenti e la funzionalità verrà aggiunta all'elenco.
 
 ## <a name="assigning-roles"></a>Assegnare i ruoli
 

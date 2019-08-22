@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625331"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850866"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema della Guida di Finance and Operations
 
@@ -99,7 +99,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 È possibile contribuire alla documentazione di Finance and Operations e apportarvi delle modifiche. Per iniziare, fare clic sul pulsante **Modifica** (matita) in un argomento o accedere al repository all'indirizzo <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Nel video seguente viene mostrato come contribuire alla nostra documentazione.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 Il video [Come contribuire alla documentazione di Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrato sopra) è incluso in [Novità nella playlist di Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) disponibile su  YouTube.
 

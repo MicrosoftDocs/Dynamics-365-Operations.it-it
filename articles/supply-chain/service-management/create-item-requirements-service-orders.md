@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553417"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743322"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Creare richieste articoli per gli ordini di assistenza 
 
@@ -44,7 +44,7 @@ Le richieste articoli per gli ordini di assistenza vengono elaborati nel corso d
 
 3.  Nel **riquadro azioni** fare clic su **Richiesta articolo** nella scheda **Spedisci**.
 
-4.  Nel modulo **Richieste articoli** immettere le informazioni relative all'articolo richiesto. Per ulteriori informazioni su specifici campi, consultare [Richieste articoli (modulo)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+4.  Nel modulo **Richieste articoli** immettere le informazioni relative all'articolo richiesto. Per ulteriori informazioni su specifici campi, consultare [Richieste articoli (modulo)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Creare una richiesta di articoli per un contratto di assistenza
 

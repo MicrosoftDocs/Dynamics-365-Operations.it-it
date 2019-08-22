@@ -1,5 +1,5 @@
 ---
-title: Preparare metadati specifici dell'applicazione per RCS e ER
+title: Importare file in formato XML con attributi facoltativi
 description: In questo argomento vengono fornite informazioni sulla progettazione di formati ER che specificano attributi XML per analizzare i documenti elettronici in entrata in formato XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726577"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849997"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Preparare metadati specifici dell'applicazione per RCS e ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Importare file in formato XML con attributi facoltativi
 
 È possibile progettare formati di report elettronici (ER) per analizzare documenti elettronici in entrata in formato XML. Determinati attributi di elementi XML possono essere specificati nel formato ER progettato come facoltativi. Ciò consentirà di gestire correttamente i file in entrata con e senza tali attributi XML. È quindi possibile utilizzare il contenuto di tali file per aggiornare i dati dell'applicazione.
 
@@ -97,11 +97,11 @@ I passaggi seguenti illustrano come un utente con ruolo di amministratore di sis
 5.  Fare clic su **Salva**.
 6.  Fare clic su **Progettazione**.
 7.  Nella struttura espandere **formato**.
-8.  Nella struttura espandere **formato\radice: elemento XML (radice)**.
-9.  Nella struttura selezionare **formato\radice: elemento XML (radice)\documento: elemento XML 1..* (documento)**.
+8.  Nella struttura espandere **format\root: XML Element(root)**.
+9.  Nella struttura selezionare **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
 10. Fare clic su **Associa**.
-11. Nella struttura espandere **formato\radice: elemento XML (radice)\documento: elemento XML 1..* (documento)**.
-12. Nella struttura selezionare **formato\radice: elemento XML (radice)\documento: elemento XML 1..* (documento)\id**.
+11. Nella struttura, espandere **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+12. Nella struttura selezionare **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
 13. Nella struttura espandere **Elenco = format.root.document**.
 14. Nella struttura selezionare **Elenco = format.root.document\Codice**.
 15. Fare clic su **Associa**.

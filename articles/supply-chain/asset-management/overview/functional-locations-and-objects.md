@@ -1,0 +1,60 @@
+---
+title: Unità funzionali e cespiti
+description: Questo argomento illustra unità funzionali e cespiti in Gestione cespiti. Gestione cespiti è un modulo avanzato per gestire i cespiti e processi di manutenzione in Microsoft Dynamics 365 for Finance and Operations.
+author: josaw1
+manager: AnnBe
+ms.date: 06/24/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 2214
+ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 351e27dfbbd5227a9642f14a48afe194c447a0f3
+ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "1783390"
+---
+# <a name="functional-locations-and-assets"></a>Unità funzionali e cespiti
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+Questo argomento illustra unità funzionali e cespiti in Gestione cespiti. Gestione cespiti è un modulo avanzato per gestire i cespiti e processi di manutenzione in Microsoft Dynamics 365 for Finance and Operations.
+
+## <a name="overview"></a>Panoramica
+
+Gestione cespiti è integrato con diversi moduli in Finance and Operations. La figura di seguito mostra le interfacce con altri moduli.
+
+![Figura 1](media/01-overview-image.png)
+
+Gestione cespiti consente di gestire e eseguire in modo efficiente tutte le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società. Queste attrezzatture includono macchine, impianti di produzione e veicoli. Gestione cespiti supporta anche soluzioni per numerosi settori.
+
+Nella seguente figura è illustrata una panoramica delle funzionalità principali di Gestione cespiti.
+
+![Figura 2](media/02-overview-image.png)
+
+## <a name="functional-locations-and-assets"></a>Unità funzionali e cespiti
+
+Le unità funzionali vengono utilizzate per gestire i cespiti nelle ubicazioni. La gestione comprende la tracciabilità dei costi dei cespiti nelle unità funzionali. Le unità funzionali sono strutturate in modo gerarchico e le ubicazioni possono avere ubicazioni secondarie. La struttura delle unità funzionali è statica. Ovvero le ubicazioni non possono cambiare posto. I cespiti possono essere installati nelle unità funzionali e, secondo le esigenze, è possibile installarli più avanti in altre unità funzionali.
+
+I costi dei cespiti seguono sempre l'ubicazione del cespite. Ovvero se si installa un cespite in una nuova unità funzionale, il cespite utilizza automaticamente le dimensioni finanziarie correlate alla nuova unità funzionale. Di conseguenza, i costi dei cespiti sono sempre correlati all'unità funzionale in cui il cespite è attualmente installato. Questa gestione automatica delle dimensioni finanziarie facilita la tracciabilità completa dei costi quando la società effettua il controllo dei progetti e il reporting sulle unità funzionali.
+
+Il modo in cui sviluppare la gerarchia delle unità funzionali dipende dai requisiti della società per la manutenzione delle attrezzature interne o dei clienti. Nella figura seguente viene illustrato un esempio di unità funzionali basate sulle ubicazioni geografiche.
+
+![Figura 3](media/03-overview-image.png)
+
+Nella figura seguente viene illustrato un esempio di unità funzionali basate sui clienti.
+
+![Figura 4](media/04-overview-image.png)

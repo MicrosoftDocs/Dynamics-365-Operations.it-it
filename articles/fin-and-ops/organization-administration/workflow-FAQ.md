@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adcc9bbc422a3fddfd51d248daf95c0da6d4c9bb
-ms.sourcegitcommit: 8cf77e9171d6cad8ae6c8bfad9e4f9a46fef6d23
+ms.openlocfilehash: 7ca04433937d0d7a16b450f190cd3814533e270d
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "1689002"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741058"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -48,6 +48,6 @@ Di seguito sono descritte alcune aree chiave da prendere in considerazione in re
     - In un aggiornamento futuro aggiungeremo un messaggio del Centro azioni di modo che a un utente sia assegnato un elemento del flusso di lavoro. 
 - Aggiunta di notifiche a flussi di lavoro
     - I messaggi del Centro azioni possono essere creati per utenti specifici, ad esempio un messaggio creato da un flusso di lavoro in X++.
-    - [I flussi di lavoro dispongono di eventi aziendali](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) che il cliente può utilizzare affinché i flussi di lavoro abbiano le notifiche di cui necessitano.   
+    - [I flussi di lavoro dispongono di eventi aziendali](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) che il cliente può utilizzare affinché i flussi di lavoro abbiano le notifiche di cui necessitano.   
 
-Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Flow per fornire notifiche aggiuntive o differenti.
+Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Flow per fornire notifiche aggiuntive o differenti.

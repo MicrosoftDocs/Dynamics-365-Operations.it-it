@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec3fe2a7344c2719ca12a180fa0adb025b7fcc7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558128"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742982"
 ---
 # <a name="view-the-status-of-service-orders"></a>Visualizzare lo stato degli ordini di assistenza 
 
@@ -50,7 +50,7 @@ Per valutare rapidamente l'urgenza di un ordine di assistenza, il diagramma di G
 
 [Monitorare le attività di assistenza tecnica](monitor-service-activities.md)
 
-[Prospetto interventi (modulo)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Prospetto interventi (modulo)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 

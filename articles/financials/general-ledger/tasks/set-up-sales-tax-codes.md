@@ -1,6 +1,6 @@
 ---
-title: Imposta i codici IVA
-description: I codici IVA vengono creati per ogni imposta indiretta che la persona giuridica è obbligata a calcolare, riscuotere e pagare agli uffici IVA.
+title: Impostare i codici IVA
+description: In questo argomento viene illustrato come impostare i codici IVA in Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,46 +10,39 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3419c6b569093d717158e80bd9bc01054d82bff9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571585"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834832"
 ---
-# <a name="set-up-sales-tax-codes"></a>Imposta i codici IVA
+# <a name="set-up-sales-tax-codes"></a>Impostare i codici IVA
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-I codici IVA vengono creati per ogni imposta indiretta che la persona giuridica è obbligata a calcolare, riscuotere e pagare agli uffici IVA.
+In questo argomento viene illustrato come impostare i codici IVA in Dynamics 365 for Finance and Operations. I codici IVA vengono creati per ogni imposta indiretta che la persona giuridica è obbligata a calcolare, riscuotere e pagare agli uffici IVA.
 
 In questa attività viene utilizzata la società dimostrativa USMF.
 
-
-
-1. Andare a Imposta > Imposte indirette > IVA > Codici IVA.
-2. Fare clic su Nuovo.
-3. Nel campo Codice IVA digitare un valore.
-4. Digitare un valore nel campo Nome.
-5. Selezionare un periodo di liquidazione per specificare in che ufficio IVA e in quali intervalli l'IVA deve essere dichiarata e pagata.
-6. Nell'elenco fare clic sul collegamento nella riga selezionata.
-7. Selezionare un gruppo di registrazione contabile per specificare i conti principali per registrare l'IVA nella contabilità generale.
-8. Trovare e selezionare il record desiderato nell'elenco.
-9. Nell'elenco fare clic sul collegamento nella riga selezionata.
-10. Espandere la Scheda dettaglio Calcolo.
-    * La Scheda dettaglio Calcolo presenta più campi che controllano la modalità di calcolo degli importi VAT.  
-11. Nel riquadro azioni, fare clic su Codice IVA.
-12. Fare clic su Valori.
-13. Nell'elenco contrassegnare la riga selezionata.
-14. Immettere il valore per il codice imposta.
-    * Nella Scheda dettaglio Calcolo, nel campo Origine, se Importo unitario è selezionato, il valore verrà moltiplicato per la quantità della transazione per calcolare l'importo IVA.  Se il codice IVA non è un'imposta basata sull'unità, il valore è una percentuale applicata all'origine per il codice IVA per calcolare l'importo IVA.     
-15. Fare clic su Salva.
-16. Chiudere la pagina.
-17. Fare clic su Salva.
+1. Andare a **Pannello di navigazione > Imposta > Imposte indirette > IVA > Codici IVA**.
+2. Selezionare **Nuovo**.
+3. Nel campo **Codice IVA** digitare un valore.
+4. Digitare un valore nel campo **Nome**.
+5. Selezionare un **periodo di liquidazione** aprendo l'elenco a discesa per specificare in che ufficio IVA e in quali intervalli l'IVA deve essere dichiarata e pagata.
+6. Selezionare un **gruppo di registrazione contabile** per specificare i conti principali per registrare l'IVA nella contabilità generale.
+7. Espandere la Scheda dettaglio **Calcolo**. Sono inclusi più campi che controllano la modalità di calcolo degli importi IVA. Completare questi campi in base alle esigenze.  
+8. Nel **Riquadro azioni** nella parte superiore dell'interfaccia, selezionare **Codice IVA**.
+9. Selezionare**Valori**.
+10. Immettere il valore per questo codice IVA nella colonna **valore**.
+    - Nella Scheda dettaglio **Calcolo**, nel campo Origine, se Importo unitario è selezionato, il valore verrà moltiplicato per la quantità della transazione per calcolare l'importo IVA.  Se il codice IVA non è un'imposta basata sull'unità, il valore è una percentuale applicata all'origine per il codice IVA per calcolare l'importo IVA.     
+11. Selezionare **Salva**.
+12. Chiudere la pagina.
+13. Selezionare **Salva**.
 

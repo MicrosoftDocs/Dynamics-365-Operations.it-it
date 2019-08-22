@@ -1,9 +1,9 @@
 ---
-title: Impostazione del fuso orario preferito di un utente
-description: Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.
+title: Impostare il fuso orario preferito di un utente
+description: In questa argomento viene illustrato come un utente con il ruolo di amministratore di sistema può impostare il fuso orario per un utente.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6dc521fe4fc7ea901c882abad47d5fc899e0326
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560523"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738813"
 ---
-# <a name="set-a-users-preferred-time-zone"></a>Impostazione del fuso orario preferito di un utente
+# <a name="set-a-users-preferred-time-zone"></a>Impostare il fuso orario preferito di un utente
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore del sistema può impostare il fuso orario per un utente.
+Nella seguente argomento viene illustrato come un utente con il ruolo di amministratore di sistema può impostare il fuso orario per un utente.
 
-1. Andare a Amministrazione sistema > Utenti > Utenti.
+1. Andare a **Pannello di navigazione > Moduli > Amministrazione sistema > Utenti > Utenti**.
 2. Nell'elenco trovare e selezionare il record desiderato.
-3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Fare clic su Opzioni utente.
-5. Fare clic sulla scheda Preferenze.
-6. Selezionare un'opzione nel campo Fuso orario.
-7. Fare clic su Salva.
+3. Selezionare **Opzioni utente**.
+4. Selezionare la scheda **Preferenze**.
+5. Nel campo **Fuso orario**, selezionare un'opzione dall'elenco a discesa.
+6. Selezionare **Salva**.
 

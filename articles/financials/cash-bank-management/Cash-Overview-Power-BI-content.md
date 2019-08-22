@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702797"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842691"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenuto di Power BI della panoramica situazione di cassa
 
@@ -40,7 +40,7 @@ La seguente impostazione deve essere completata per visualizzare i dati nelle ra
 1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
 2. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
 2. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema, la valuta di contabilizzazione e le valute delle banche. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
-3. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">Previsione di cassa</a>. 
 4. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **LedgerCovLiquidityMeasurement**.
 

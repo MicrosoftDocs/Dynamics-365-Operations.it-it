@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595687"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850953"
 ---
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
@@ -39,7 +39,7 @@ Ora è possibile distribuire Microsoft Dynamics 365 for Finance and Operations n
 
 Quando si sceglie un'opzione di distribuzione locale, è opportuno effettuare le seguenti considerazioni:
 
-- Requisiti di conformità alle normative che non sono disponibili nelle [certificazioni cloud](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Requisiti di conformità alle normative che non sono disponibili nelle certificazioni cloud
 - Per l'accesso a Microsoft Dynamics Lifecycle Services (LCS) al fine della gestione del ciclo di vita dell'applicazione, è richiesto un processo aziendale senza connessione con connettività Internet intermittente
 - [Funzionalità attualmente non implementate nelle distribuzioni locali](features-not-implemented-on-prem.md)
 - [Requisiti minimi dell'infrastruttura](system-requirements-on-prem.md#minimum-infrastructure-requirements)

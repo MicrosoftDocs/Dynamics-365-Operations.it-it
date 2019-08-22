@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6fcdfec083aeb9c58d63f6e03542758e4d07e4d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6991fc04f5015fc3d604306e9327a5e551e728db
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560096"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743074"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>Specificare la modalità di smaltimento dei resi 
 
@@ -176,9 +176,9 @@ Per ogni codice smaltimento definito, è necessario selezionare un'azione di sma
 
 ## <a name="see-also"></a>Vedere anche
 
-[Ordine di quarantena (modulo)](https://technet.microsoft.com/en-us/library/aa554073(v=ax.60))
+[Ordine di quarantena (modulo)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
-[Codici smaltimento (modulo)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))
+[Codici smaltimento (modulo)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
   
 

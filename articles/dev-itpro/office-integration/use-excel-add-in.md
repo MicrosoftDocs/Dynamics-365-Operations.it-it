@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554992"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741112"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel
 
@@ -60,7 +60,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 
 6. Selezionare **OK**, quindi **Sì** per confermare la modifica. Il componente aggiuntivo di Excel viene riavviato e carica i metadati.
 
-    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione [Risoluzione dei problemi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) di questo argomento.
+    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione [Risoluzione dei problemi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) di questo argomento.
 
 7. Selezionare **Struttura**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
 8. Selezionare **Aggiungi tabella**. Verrà visualizzato un elenco di entità. Le entità vengono elencate nel formato "Nome - Etichetta".

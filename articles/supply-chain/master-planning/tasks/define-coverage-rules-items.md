@@ -3,25 +3,25 @@ title: Definire le regole di copertura per gli articoli
 description: La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 02aa3b2b7924cdf6317225bfce23f182aa390b8c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 680d7c9339b089a4da82bef18bae3af41e23af30
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565658"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845177"
 ---
 # <a name="define-coverage-rules-for-items"></a>Definire le regole di copertura per gli articoli
 
@@ -31,81 +31,74 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
 
 ## <a name="create-a-coverage-group"></a>Creare un gruppo di copertura
-1. Fare clic su Gruppi di copertura
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Gruppo di copertura.
-4. Digitare un valore nel campo Nome.
-5. Digitare un valore nel campo Calendario.
-    * Selezionare il calendario utilizzato dalla pianificazione generale per creare i suggerimenti di rifornimento per gli articoli inclusi nel gruppo.  
-6. Nel campo Codice copertura selezionare un'opzione.
-    * Selezionare Fabbisogno per questa procedura.  
-7. Nel campo Intervallo temporale di copertura (giorni) immettere "90".
-    * Per gli articoli inclusi nel gruppo, la pianificazione generale creerà i suggerimenti di rifornimento per i fino a 90 giorni nel futuro.  
-8. Nel campo Giorni negativi immettere "1".
-9. Nel campo Giorni positività immettere "1".
-10. Espandere o comprimere la sezione Altro.
-11. Nel campo Margine su entrata in magazzino aggiunto dalla data del fabbisogno immettere "1".
-    * Ad esempio, se il margine sull'entrata in magazzino è impostato su 1 giorno e una riga ordine fornitore è programmata per l'entrata il 15 maggio, la programmazione generale calcola come data di entrata rettificata il giorno 16 maggio.  
-12. Nel campo Margine su uscita da magazzino detratto dalla data del fabbisogno immettere "1".
-    * Ad esempio, se il margine di sicurezza è impostato su 1 giorno e una riga ordine cliente è programmata per la consegna il 15 maggio, la programmazione generale calcola come data rettificata il giorno 14 maggio.  
-13. Nel campo Margine di riordino aggiunto al lead time dell'articolo immettere "1".
-14. Fare clic su Salva.
+1. Passare a **Pannello di navigazione > Moduli > Pianificazione generale > Impostazioni > Gruppi di copertura**.
+2. Fare clic su **Nuovo**.
+3. Digitare un valore nel campo **Gruppo di copertura**.
+4. Digitare un valore nel campo **Nome**.
+5. Digitare un valore nel campo **Calendario**. Selezionare il calendario utilizzato dalla pianificazione generale per creare i suggerimenti di rifornimento per gli articoli inclusi nel gruppo.  
+6. Nel campo **Codice copertura** selezionare un'opzione. Selezionare 'Fabbisogno' per questa procedura.  
+7. Nel campo **Intervallo temporale di copertura (giorni)** immettere '90'. Per gli articoli inclusi nel gruppo, la pianificazione generale creerà i suggerimenti di rifornimento per i fino a 90 giorni nel futuro.  
+8. Nel campo **Giorni negativi** immettere '1'.
+9. Nel campo **Giorni positività** immettere '1'.
+10. Espandere o comprimere la sezione **Altro**.
+11. Nella sezione **Margini di sicurezza in giorni**, nel campo **Margine su entrata in magazzino aggiunto dalla data del fabbisogno**, immettere '1'. Ad esempio, se il margine sull'entrata in magazzino è impostato su 1 giorno e una riga ordine fornitore è programmata per l'entrata il 15 maggio, la programmazione generale calcola come data di entrata rettificata il giorno 16 maggio.  
+12. Nel campo **Margine su uscita da magazzino detratto dalla data del fabbisogno** immettere '1'. Ad esempio, se il margine di sicurezza è impostato su 1 giorno e una riga ordine cliente è programmata per la consegna il 15 maggio, la programmazione generale calcola come data rettificata il giorno 14 maggio.  
+13. Nel campo **Margine di riordino aggiunto al lead time dell'articolo** immettere '1'.
+14. Fare clic su **Salva**.
 
-## <a name="create-a-new-product"></a>Crea un nuovo prodotto
-1. Fare clic su Prodotti rilasciati.
-2. Fare clic su Nuovo.
-3. Nel campo Numero prodotto, digitare un valore.
-4. Digitare un valore nel campo Nome prodotto.
-5. Nel campo Gruppo di modelli di articoli fare clic sul pulsante a discesa per aprire la ricerca.
+## <a name="create-a-new-product"></a>Creare un nuovo prodotto
+1. Andare a **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Numero prodotto**, digitare un valore.
+4. Digitare un valore nel campo **Nome prodotto**.
+5. Nel campo **Gruppo di modelli di articoli** fare clic sul pulsante a discesa per aprire la ricerca.
 6. Trovare e selezionare il record desiderato nell'elenco.
 7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Nel campo Gruppo di articoli fare clic sul pulsante a discesa per aprire la ricerca.
+8. Nel campo **Gruppo di articoli** fare clic sul pulsante a discesa per aprire la ricerca.
 9. Trovare e selezionare il record desiderato nell'elenco.
 10. Nell'elenco fare clic sul collegamento nella riga selezionata.
-11. Nel campo Gruppo di dimensioni di immagazzinamento fare clic sul pulsante a discesa per aprire la ricerca.
+11. Nel campo **Gruppo di dimensioni di immagazzinamento** fare clic sul pulsante a discesa per aprire la ricerca.
 12. Trovare e selezionare il record desiderato nell'elenco.
 13. Nell'elenco fare clic sul collegamento nella riga selezionata.
-14. Nel campo Gruppo di dimensioni di tracciabilità fare clic sul pulsante a discesa per aprire la ricerca.
+14. Nel campo **Gruppo di dimensioni di tracciabilità** fare clic sul pulsante a discesa per aprire la ricerca.
 15. Nell'elenco trovare e selezionare il record desiderato.
 16. Nell'elenco fare clic sul collegamento nella riga selezionata.
-17. Fare clic su OK.
+17. Fare clic su **OK**.
 
 ## <a name="setup-default-order-settings"></a>Configura impostazioni ordine predefinite
-1. Nel riquadro azioni fare clic su Piano.
-2. Fare clic su Impostazioni ordine predefinite.
-3. Nel campo Sito acquisto, immettere il sito utilizzato come valore predefinito quando vengono creati gli ordini fornitore.
-4. Nel campo Sito magazzino immettere il sito in cui è immagazzinato l'articolo.
-5. Espandere o comprimere la sezione Inventario.
-6. Imposta Multiplo su "10".
-7. Impostare la quantità ordine minima su "10".
-8. Impostare quantità ordine ordine minima massima su "100".
-9. Imposta la quantità ordine standard su "10".
-10. Nel campo Lead time acquisto immettere un numero.
-11. Selezionare o deselezionare la casella di controllo Giorni lavorativi.
-12. Fare clic su Salva.
-13. Nel campo Tipo di ordine predefinito selezionare "Ordine acquisto".
-14. Fare clic su Salva.
-15. Chiudere la pagina.
-    * Chiudere la pagina Impostazioni ordine predefinite.  
+1. Nel **riquadro azioni**, fare clic su **Piano**.
+2. In **Impostazioni ordine**, fare clic su **Impostazioni ordine predefinite**.
+3. In **Ordine fornitore**, nel campo **Sito predefinito**, immettere il sito utilizzato come predefinito quando vengono creati gli ordini fornitore.
+4. Nel campo **Magazzino predefinito** immettere il sito in cui è immagazzinato l'articolo.
+5. Espandere o comprimere la sezione **Inventario**.
+6. Nel campo **Multiplo** digitare '10'.
+7. Nel campo **Quantità min. ordine**, immettere '10'.
+8. Nel campo **Quantità max. ordine**, immettere '100'.
+9. Nel campo **Quantità ordine standard**, immettere '10'.
+10. Nel campo **Lead time acquisto** immettere un numero.
+11. Selezionare o deselezionare la casella di controllo **Giorni lavorativi**.
+12. Fare clic su **Salva**.
+13. Nel campo **Tipo di ordine predefinito** selezionare 'Ordine fornitore'.
+14. Fare clic su **Salva**.
+15. Chiudere la pagina. Chiudere la pagina Impostazioni ordine predefinite.  
 
 ## <a name="add-an-item-to-a-coverage-group"></a>Aggiunge un articolo a un gruppo di copertura
-1. Espandere o comprimere la sezione Piano.
-2. Nel campo Gruppo di copertura fare clic sul pulsante a discesa per aprire la ricerca.
-3. Nell'elenco, individuare il gruppo di copertura creato.
+1. Espandere o comprimere la sezione **Piano**.
+2. Nel campo **Gruppo di copertura** fare clic sul pulsante a discesa per aprire la ricerca.
+3. Nell'elenco, individuare il **gruppo di copertura** creato.
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
 ## <a name="create-item-coverage-rules"></a>Crea le regole copertura articoli
-1. Nel riquadro azioni fare clic su Piano.
-2. Fare clic su Copertura articoli.
-3. Fare clic su Nuovo.
-4. Fare clic sulla scheda Generale.
-5. Selezionare la casella nell'intestazione di Ignora impostazioni gruppo di copertura.
-6. Nel campo Intervallo temporale di copertura (giorni) immettere "60".
-    * Anche se gli articoli nel gruppo di copertura Fabbisogno sono pianificati 90 giorni in anticipo, l'articolo verrà pianificato 60 giorni in anticipo.  
-7. Nel campo Giorni negativi immettere "2".
-8. Nel campo Giorni positività immettere "2".
-9. Fare clic sulla scheda Lead time.
-10. Selezionare la casella sull'intestazione di Acquisto.
-11. Nel campo Ora dell'acquisto immettere "5".
-12. Fare clic su Salva.
+1. Nel **riquadro azioni**, fare clic su **Piano**.
+2. In **Copertura**, fare clic su **Copertura articoli**.
+3. Fare clic su **Nuovo**.
+4. Fare clic sulla scheda **Generale**.
+5. Selezionare la casella nell'intestazione di **Ignora impostazioni gruppo di copertura**.
+6. Nel campo **Intervallo temporale di copertura (giorni)** immettere '60'. Anche se gli articoli nel gruppo di copertura Fabbisogno sono pianificati 90 giorni in anticipo, l'articolo verrà pianificato 60 giorni in anticipo.  
+7. Nel campo **Giorni negativi** immettere '2'.
+8. Nel campo **Giorni positività** immettere '2'.
+9. Fare clic sulla scheda **Lead time**.
+10. Selezionare la casella sull'intestazione di **Acquisto**.
+11. Nel campo **Ora dell'acquisto** immettere '5'.
+12. Fare clic su **Salva**.
 

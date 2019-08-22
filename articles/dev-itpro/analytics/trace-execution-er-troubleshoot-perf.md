@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703877"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741505"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -104,7 +104,7 @@ Presupponiamo di aver completato la progettazione della prima versione della sol
 ### <a id='import-configuration'></a>Importare una configurazione ER da RCS in Finance and Operations
 
 1. Accedere all'istanza di Finance and Operations.
-2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza di Finance and Operations (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza di Finance and Operations (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
 3. Seguire questi passaggi per importare le configurazioni da RCS in Finance and Operations:
 
     1. Nell'area di lavoro **Creazione di report elettronici**, nel riquadro del provider di configurazioni **Litware, Inc.**, selezionare **Archivi**.

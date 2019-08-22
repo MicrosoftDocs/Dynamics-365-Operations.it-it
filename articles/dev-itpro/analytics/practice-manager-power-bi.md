@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551673"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850099"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
@@ -54,7 +54,7 @@ Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in o
 | EVM               | Indice delle prestazioni di programmazione e costo per progetto |
 | Ore             | <ul><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive rispetto a ore di budget</li><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive per progetto</li><li>Ore utilizzate fatturabili effettive rispetto a ore improduttive fatturabili effettive per risorsa</li><li>Percentuale ore fatturabili effettive per progetto</li><li>Percentuale ore fatturabili effettive per risorsa</li></ul> |
 
-I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
+I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
@@ -62,7 +62,7 @@ I seguenti dati vengono utilizzati per compilare le pagine di report nel contenu
 
 Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in ciascuna entità.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entità: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entità: ProjectAccountingCube\_ActualHourUtilization
 **Origine dati:** ProjEmplTrans
 
 | Misura di aggregazione chiave      | Campo                              | descrizione |
@@ -70,7 +70,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Ore utilizzate fatturabili effettive | Sum(ActualUtilizationBillableRate) | Totale delle ore utilizzate fatturabili effettive. |
 | Ore improduttive rispetto alle ore fatturabili effettive   | Sum(ActualBurdenBillableRate)      | Totale della percentuale effettiva improduttiva. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entità: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Entità: ProjectAccountingCube\_Actuals
 **Origine dati:** ProjTransPosting
 
 | Misura di aggregazione chiave | Campo              | descrizione |
@@ -78,14 +78,14 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Ricavi effettivi            | Sum(ActualRevenue) | Totale dei ricavi registrati per tutte le transazioni. |
 | Costo effettivo               | Sum(ActualCost)    | Totale dei costi registrati per tutti i tipi di transazione. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entità: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Entità: ProjectAccountingCube\_Customer
 **Origine dati:** CustTable
 
 | Misura di aggregazione chiave | Campo                                             | descrizione |
 |---------------------------|---------------------------------------------------|-------------|
 | Numero di progetti        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Numero di progetti disponibili. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entità: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Entità: ProjectAccountingCube\_Forecasts
 **Origine dati:** ProjTransBudget
 
 | Misura di aggregazione chiave | Campo                  | descrizione |
@@ -94,14 +94,14 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Ricavi budget            | Sum(BudgetRevenue)     | Totale dei ricavi maturati/fatturati di previsione. |
 | Margine lordo budget       | Sum(BudgetGrossMargin) | Differenza tra la somma dei ricavi di previsione totali e la somma dei costi di previsione totali. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entità: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entità: ProjectAccountingCube\_ProjectPlanCostsView
 **Origine dati:** Project
 
 | Misura di aggregazione chiave | Campo                    | descrizione |
 |---------------------------|--------------------------|-------------|
 | Costo pianificato              | Sum(SumOfTotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività pianificate. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entità: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Entità: ProjectAccountingCube\_Projects
 **Origine dati:** Project
 
 | Misura di aggregazione chiave    | Campo | descrizione |
@@ -112,7 +112,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Rapporto tra ore fatturabili effettive  | ProjectAccountingCube\_Projects\[Ore utilizzate fatturabili effettive totali del progetto\] ÷ (ProjectAccountingCube\_Projects\[Ore utilizzate fatturabili effettive totali del progetto\] + ProjectAccountingCube\_Projects\[Ore improduttive fatturabili effettive totali del progetto\]) | Ore fatturabili effettive totali, in base alle ore utilizzate e alle ore improduttive. |
 | Valore ottenuto                 | ProjectAccountingCube\_Projects\[Costo pianificato totale del progetto\] × ProjectAccountingCube\_Projects\[Percentuale di lavoro completato\] | Il costo pianificato totale moltiplicato per la percentuale di lavoro completato. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entità: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entità: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origine dati:** ProjTable
 
 | Misura di aggregazione chiave       | Campo               | descrizione |

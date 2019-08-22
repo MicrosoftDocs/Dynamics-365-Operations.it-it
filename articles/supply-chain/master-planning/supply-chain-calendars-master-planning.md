@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538728"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845298"
 ---
 # <a name="calendars-and-master-planning"></a>Calendari e pianificazione generale
 
@@ -93,7 +93,7 @@ Per indicare le date in cui un cliente può accettare le consegne, è possibile 
 
 Tenere presente che è possibile includere un solo calendario per cliente. Se è necessario includere un calendario per ogni indirizzo diverso per un cliente, è possibile creare un cliente per indirizzo e quindi assegnare il rispettivo calendario. 
 
-La data di ricevimento richiesta nelle righe di ordine cliente è determinata dal calendario cliente e dal metodo di controllo della data di consegna. Per ulteriori informazioni su come calcolare la data di consegna meno recente, vedere [Promesse ordine.](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
+La data di ricevimento richiesta nelle righe di ordine cliente è determinata dal calendario cliente e dal metodo di controllo della data di consegna. Per ulteriori informazioni su come calcolare la data di consegna meno recente, vedere [Promesse ordine.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendario di spedizione per una persona giuridica
 Per indicare le date in cui una persona giuridica può spedire merci, è possibile impostare un calendario di spedizione in **Amministrazione organizzazione > Organizzazioni > Persone giuridiche**. Selezionare la persona giuridica e aggiungere il calendario nella scheda **Commercio estero e logistica** nel campo **Calendario di spedizione**. Il calendario di spedizione verrà utilizzato come origine dei valori predefiniti per tutti i calendari di magazzino nella persona giuridica. 
