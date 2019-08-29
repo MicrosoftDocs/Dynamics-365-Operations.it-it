@@ -1,6 +1,6 @@
 - name: Dynamics 365 for Retail
   href: index.md
-- name: Per iniziare
+- name: Introduzione
   items:
     - name: Novità o modifiche
       href: get-started/whats-new.md
@@ -24,14 +24,15 @@
       href: dev-itpro/choose-deployment.md
     - name: Ottenere supporto per Retail
       href: retail-support.md
-    - name: Domande frequenti sugli aggiornamenti del servizio versione uno
+    - name: Domande frequenti sugli aggiornamenti del servizio One Version
       href: ../fin-and-ops/get-started/one-version.md
-- name: Comprendere il ciclo di vita dell'implementazione
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Gestione ciclo di vita implementazione
   items:
+    - name: Home page gestione ciclo di vita implementazione
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
-    - name: Integrazione
+    - name: Onboarding
       href: ../fin-and-ops/imp-lifecycle/onboard.md
     - name: Preparazione per la fase operativa
       href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Orario e presenze in Retail
       href: retail-time-attendance.md
+    - name: Creare e modificare gli orari del punto vendita
+      href: dev-itpro/store-hours.md
 - name: Modern Point of Sale (MPOS) e Cloud POS
   items:
     - name: Scegliere tra MPOS e Cloud POS
@@ -315,17 +318,19 @@
       href: attribute-attributegroups-lifecycle.md
     - name: Creare e gestire gli attributi
       href: create-manage-attributes.md
-    - name: Impostare prodotti di vendita al dettaglio
+    - name: Configurare prodotti di vendita al dettaglio
       href: set-up-retail-products.md
-    - name: Gestire le categorie di prodotti Retail e di prodotti
+    - name: Gestire le categorie di prodotti e i prodotti della vendita al dettaglio
       href: category-management-product-creation.md
+    - name: Modificare l'ordinamento di visualizzazione per entità di merchandising
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Dimensioni prodotto
       href: ../supply-chain/pim/product-dimensions.md
     - name: Impostare codici a barre
       href: set-up-bar-codes.md
-    - name: Impostare le maschere codice a barre
+    - name: Impostare maschere codici a barre
       href: set-up-bar-code-masks.md
-    - name: Impostare gli assortimenti
+    - name: Impostare assortimenti
       href: set-up-assortments.md
     - name: Vendere e restituire prodotti non inclusi nell'assortimento di un punto vendita
       href: sell-return-outside-assortments.md
@@ -499,9 +504,10 @@
       href: tasks/use-continuity-program.md
     - name: Configurare lavoratori di vendita al dettaglio
       href: tasks/worker.md
-- name: Amministrazione e sviluppo di vendita al dettaglio
-  href: dev-itpro/dev-retail-home-page.md
+- name: Amministrazione e sviluppo di Retail
   items:
+    - name: Retail per professionisti IT e sviluppatori
+      href: dev-itpro/dev-retail-home-page.md
     - name: Architettura
       items:
         - name: Componenti di Retail
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station ed estendibilità
       href: dev-itpro/hardware-station-extensibility.md
+    - name: Integrare POS con un nuovo dispositivo hardware
+      href: dev-itpro/hardware-device-extension.md
     - name: Estendibilità Retail Server
       items:
         - name: Estendere un controller Retail Server OData
@@ -655,8 +663,9 @@
         - name: Attivare la protezione dei pagamenti duplicati per il connettore pagamenti
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Architettura di Retail SDK
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Modifiche future in Retail SDK
           href: dev-itpro/UpcomingSDKChanges.md
         - name: Unire sistemi di build per Retail e Finance and Operations
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Esempi di Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Punti di estensione per i documenti di trasporto
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Punti di estensione per i documenti di trasporto
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Estensioni del database del canale
           href: dev-itpro/channel-db-extensions.md
         - name: Abilitare la sincronizzazione CDX personalizzata tramite estensione

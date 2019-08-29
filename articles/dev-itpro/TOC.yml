@@ -5,13 +5,15 @@
 - name: Requisiti di sistema per le distribuzioni locali
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Dati dimostrativi
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Panoramica dati dimostrativi
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Generare dati dimostrativi mediante pacchetti di dati
       href: data-entities/generate-demo-data-packages.md
 - name: Sviluppo e personalizzazione
-  href: dev-tools/developer-home-page.md
   items:
+    - name: Home page sviluppo e personalizzazione
+      href: dev-tools/developer-home-page.md
     - name: Stack dell'applicazione e architettura del server
       href: dev-tools/application-stack-server-architecture.md
     - name: Ottenere copie di valutazione
@@ -19,8 +21,9 @@
     - name: Iscrizione a sottoscrizioni di anteprima
       href: dev-tools/sign-up-preview-subscription.md
     - name: Distribuire e accedere ad ambienti di sviluppo
-      href: dev-tools/access-instances.md
       items:
+        - name: Ambienti di sviluppo
+          href: dev-tools/access-instances.md
         - name: Configurare ambienti di sviluppo one-box
           href: dev-tools/configure-developer-vm.md
         - name: Creare nuovi utenti in computer per lo sviluppo
@@ -58,11 +61,12 @@
         - name: Funzionalità editor di codice
           href: dev-tools/code-editor.md
         - name: Creare modelli ed elementi del modello dati
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Panoramica della creazione di modelli ed elementi del modello dati
+              href: dev-tools/create-data-model-elements.md
             - name: Linee guida sulla denominazione per estensioni
               href: extensibility/NamingGuidelines.md
-            - name: Disattivare la personalizzazione di modello e la funzionalità deprecata
+            - name: Disattivare la personalizzazione del modello e la funzionalità deprecata
               href: dev-tools/lock-models.md
         - name: Report di Analisi personalizzazione
           href: dev-tools/customization-analysis-report.md
@@ -86,8 +90,6 @@
       items:
         - name: Funzionalità del debugger e X++
           href: dev-tools/new-x-debugger-features.md
-        - name: Eseguire il debug X++ di copie di database di produzione
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Debug del codice X++
           href: dev-tools/debug-xpp.md
         - name: Classi EventHandlerResult in scenari di risposta o richiesta
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: Riferimento al linguaggio X++
           items:
-            - name: Riferimento al linguaggio X++
+            - name: Panoramica riferimento al linguaggio X++
               href: dev-ref/xpp-language-reference.md
             - name: Tipi di dati e variabili
               items:
@@ -135,7 +137,19 @@
             - name: Precedenza operatore X++
               href: dev-ref/xpp-operator-precedence.md
             - name: Classi e metodi X++
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Classi e metodi
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Ereditarietà
+                  href: dev-ref/xpp-inheritance.md
+                - name: Membri a classe statica
+                  href: dev-ref/xpp-static-classes.md
+                - name: Interfacce
+                  href: dev-ref/xpp-interfaces.md
+                - name: Librerie
+                  href: dev-ref/xpp-library-objects.md
+                - name: Eventi
+                  href: dev-ref/xpp-events.md
             - name: Manipolazione e selezione dati X++
               href: dev-ref/xpp-data-query.md
             - name: Accesso ai dati tramite l'API SysDa
@@ -149,16 +163,18 @@
             - name: Sintassi X++
               href: dev-ref/xpp-syntax.md
     - name: 'API, classe e riferimento a tabella'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'Risorse API, classe e tabella'
+          href: dev-ref/api-reference.md
         - name: Funzioni fase di compilazione X++
           href: dev-ref/xpp-compile-time-functions.md
-        - name: Funzioni fase di esecuzione X++
-          href: dev-ref/xpp-run-time-functions.md
+        - name: Funzioni runtime X++
           items:
-            - name: Funzioni fase di esecuzione business X++
+            - name: Risorse funzione runtime X++
+              href: dev-ref/xpp-run-time-functions.md
+            - name: Funzioni runtime business X++
               href: dev-ref/xpp-business-run-time-functions.md
-            - name: Funzioni fase di esecuzione contenitore X++
+            - name: Funzioni runtime contenitore X++
               href: dev-ref/xpp-container-run-time-functions.md
             - name: Funzioni fase di esecuzione conversione X++
               href: dev-ref/xpp-conversion-run-time-functions.md
@@ -409,8 +425,9 @@
         - name: Filtraggio SysTest tramite attributi di classe e metodo
           href: perf-test/systest-filtering.md
         - name: Libreria ATL
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Risorse libreria ATL
+              href: perf-test/acceptance-test-library.md
             - name: Concetti di navigazione
               href: perf-test/concepts-navigation.md
             - name: Metodi dei dati di test
@@ -438,8 +455,9 @@
     - name: Licenze ISV locali
       href: dev-tools/isv-licensing-on-prem.md
 - name: Sviluppo dell'interfaccia utente
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Home page sviluppo dell'interfaccia utente
+      href: user-interface/user-interface-development-home-page.md
     - name: Esercitazioni
       items:
         - name: Sviluppare il modulo Tipo di spese noleggio
@@ -633,18 +651,21 @@
         - name: Memorizzazione nella cache di elenchi e riquadri per le aree di lavoro
           href: user-interface/tile-list-caching-workspaces.md
     - name: Registrazione attività
-      href: user-interface/task-recorder.md
       items:
-        - name: Riferimento rapido a Registrazione attività
+        - name: Risorse registrazione attività
+          href: user-interface/task-recorder.md
+        - name: Riferimento rapido a registrazione attività
           href: user-interface/task-recorder-quick-reference.md
         - name: Creare la documentazione o la formazione per file di Registrazione attività
           href: user-interface/task-recorder-training-docs.md
 - name: Piattaforma mobile
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: Per iniziare
-      href: mobile-apps/platform/mobile-platform-getting-started.md
+    - name: Risorse piattaforma mobile
+      href: mobile-apps/platform/mobile-platform-home-page.md
+    - name: Introduzione
       items:
+        - name: Introduzione con la piattaforma mobile
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Considerazioni sulla progettazione e sull'architettura
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: Eventi della logica di business
@@ -678,8 +699,9 @@
         - name: API di progettazione lato client
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: API client
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Home page API client
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: Enumerazione PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Modulo applicazione
@@ -842,12 +864,14 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: Tipo ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Normativa generale sulla protezione dei dati (GDPR)
-  href: gdpr/gdpr-guide.md
+- name: Regolamento generale sulla protezione dei dati (GDPR)
   items:
-    - name: Risorse per la risposta a richieste di dati GDPR
-      href: gdpr/gdpr-home-page.md
+    - name: Panoramica sul Regolamento generale sulla protezione dei dati
+      href: gdpr/gdpr-guide.md
+    - name: Rispondere alle richieste di dati GDPR
       items:
+        - name: Rispondere alle risorse delle richieste di dati GDPR
+          href: gdpr/gdpr-home-page.md
         - name: Classificazioni cespiti
           href: gdpr/gdpr-asset-classification-values.md
         - name: Report di ricerca persona
@@ -863,8 +887,9 @@
         - name: Richieste di dati GDPR per LCS
           href: gdpr/gdpr-lcs.md
 - name: Recapito continuo
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Home page recapito continuo
+      href: dev-tools/continuous-delivery-home-page.md
     - name: Domande frequenti sullo sviluppo e sul recapito continuo
       href: dev-tools/continuous-delivery-faq.md
     - name: Escludere i pacchetti di test dall'output della compilazione
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: Aggiornare versioni di modello nella compilazione automatica
       href: dev-tools/version-models-build.md
+- name: Regression Suite Automation Tool
+  items:
+    - name: Panoramica Regression Suite Automation Tool
+      href: perf-test/rsat/rsat-overview.md
+    - name: Installazione e configurazione
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Eseguire casi test
+      href: perf-test/rsat/rsat-run.md
+    - name: Convalidare i valori previsti
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Incatenare casi test
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Casi test derivati
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Procedure consigliate
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Risoluzione dei problemi
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: Rilasciare soluzioni mediante Lifecycle Services
   items:
     - name: Sviluppare e rilasciare
@@ -892,8 +935,9 @@
     - name: Eseguire il backup di database della soluzione
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: Funzionalità per la normativa e la localizzazione
-      href: lcs-solutions/country-region.md
       items:
+        - name: Risorse di globalizzazione
+          href: lcs-solutions/country-region.md
         - name: Classificazione delle funzionalità di localizzazione
           href: lcs-solutions/classify-localization-features.md
         - name: Applicare il contesto del paese
@@ -907,8 +951,9 @@
         - name: Inviare avvisi normativi
           href: lcs-solutions/submit-localization-alerts.md
 - name: Sviluppo di dati finanziari
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Home page sviluppo di dati finanziari
+      href: financial/financial-dev-home-page.md
     - name: Framework dimensione finanziaria
       items:
         - name: Combinazioni conto CoGe
@@ -968,11 +1013,13 @@
     - name: Distribuire ambienti di dimostrazione
       href: deployment/deploy-demo-environment.md
     - name: Distribuzione cloud
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: Panoramica distribuzione cloud
+          href: deployment/cloud-deployment-overview.md
         - name: Distribuzione self-service
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Panoramica distribuzione self-service
+              href: deployment/infrastructure-stack.md
             - name: Distribuire un nuovo ambiente
               href: deployment/deployenvironment-newinfrastructure.md
             - name: Domande frequenti sulla distribuzione
@@ -1000,9 +1047,10 @@
         - name: Residenza dei dati Retail
           href: deployment/retail-data-residency.md
     - name: Distribuzione locale
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Opzione di distribuzione locale
+        - name: Home page delle distribuzioni locali
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Panoramica della distribuzione locale
           href: deployment/on-premises-overview.md
         - name: Pianificare e preparare le distribuzioni locali
           href: deployment/plan-onprem-deployment.md
@@ -1010,9 +1058,10 @@
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
         - name: Impostare progetti locali
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-        - name: Impostare e distribuire in ambienti locali
-          href: deployment/setup-deploy-on-premises-environments.md
+        - name: Impostare e distribuire ambienti locali
           items:
+            - name: Home page impostare e distribuire ambienti locali
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: Distribuire gli ambienti locali (Platform update 12 e successivi aggiornamenti)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: Distribuire gli ambienti locali (Platform update 8 e 11)
@@ -1031,11 +1080,17 @@
           href: deployment/on-premises-diagnostics.md
         - name: Ridistribuire distribuzioni locali
           href: deployment/redeploy-on-prem.md
-        - name: Aggiornare l'agente locale
-          href: lifecycle-services/update-local-agent.md
+        - name: Agente locale
+          items:
+            - name: Compatibilità AD FS Office 365
+              href: deployment/onprem-adfscompatibility.md
+            - name: Script agente locale pre-distribuzione e post-distribuzione
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Aggiornare l'agente locale
+              href: lifecycle-services/update-local-agent.md
         - name: Riconfigurare ambienti
           href: lifecycle-services/reconfigure-environment.md
-        - name: Connettività Internet del client
+        - name: Connettività Internet client
           href: user-interface/client-disconnected.md
         - name: Risolvere i problemi relativi alle distribuzioni locali
           href: deployment/troubleshoot-on-prem.md
@@ -1052,11 +1107,13 @@
         - name: Risolvere i problemi relativi alle applicazioni del pacchetto
           href: deployment/deployable-package-troubleshooting.md
 - name: Aggiornamenti e hotfix
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Effettuare l'aggiornamento da AX 2012 a Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: Risorse aggiornamenti e hotfix
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Eseguire l'aggiornamento da AX 2012
       items:
+        - name: Eseguire l'aggiornamento da AX 2012 a Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: 'Aggiornamento AX 2012: pianificare l''utilizzo dello strumento Analisi aggiornamenti'
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: 'Aggiornamento AX 2012: effettuare una stima dell''impegno utilizzando il servizio di aggiornamento codice'
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Aggiornare la pianificazione del budget
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Migrare i dati da AX 2009 a Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: Migrazione dei dati da AX 2009
       items:
+        - name: Migrare i dati da AX 2009 a Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: Migrazione AX 2009 - Installare lo strumento di migrazione dei dati
           href: migration-upgrade/install-dmt.md
         - name: Migrazione AX 2009 - Generare mappe
@@ -1111,8 +1169,9 @@
         - name: Migrazione AX 2009 - Importare pacchetti
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Aggiornamento e migrazione del codice
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Home page aggiornamento e migrazione del codice
+          href: migration-upgrade/code-migration-home-page.md
         - name: Preparare la migrazione del codice
           href: migration-upgrade/prepare-migration.md
         - name: Configurare il mapping Azure DevOps
@@ -1125,7 +1184,7 @@
       items:
         - name: Processo di spostamento all'ultimo aggiornamento
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Percorsi per la versione uno
+        - name: Percorsi per One Version
           items:
             - name: Aggiornamento Self Service alla versione più recente
               href: migration-upgrade/self-service-upgrade.md
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Applicare l'ultimo aggiornamento della piattaforma agli ambienti
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Aggiornare la piattaforma Dynamics AX alla versione di agosto 2016
-          href: migration-upgrade/update-platform-each-release.md
         - name: Aggiornare i dati in ambienti di dimostrazione o di sviluppo
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Aggiornare gli strumenti di sviluppo
@@ -1172,9 +1229,10 @@
         - name: API deprecate (giugno 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: Amministrazione sistema
-  href: sysadmin/system-administration-home-page.md
   items:
-    - name: Aggiungere collegamenti alle note legali e all'Informativa sulla privacy
+    - name: Home page amministrazione sistema
+      href: sysadmin/system-administration-home-page.md
+    - name: Aggiungere collegamenti alle note legali e all'informativa sulla privacy
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Report su codici di licenza e chiavi di configurazione
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Esportare utenti B2B in Azure AD
       href: sysadmin/implement-b2b.md
-    - name: Impostare l'intervallo di inattività di una sessione
-      href: sysadmin/session-idle-timeout.md
-    - name: Sicurezza basata sui ruoli
-      href: sysadmin/role-based-security.md
+    - name: Sicurezza
       items:
+        - name: Sicurezza basata sui ruoli
+          href: sysadmin/role-based-security.md
         - name: Architettura di sicurezza
           href: sysadmin/security-architecture.md
+        - name: Impostare l'intervallo di inattività di una sessione
+          href: sysadmin/session-idle-timeout.md
         - name: Report di sicurezza predefiniti
           href: sysadmin/security-reports.md
         - name: Creare nuovi utenti
@@ -1206,8 +1265,9 @@
         - name: Assegnare gli utenti ai ruoli di sicurezza
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Elaborazione batch
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Panoramica elaborazione batch
+          href: sysadmin/batch-processing-overview.md
         - name: Elaborazione batch e server batch
           href: sysadmin/batch-server-overview.md
         - name: Creare processi batch
@@ -1229,8 +1289,9 @@
         - name: Interrompere un processo batch in esecuzione
           href: sysadmin/batch-abort.md
     - name: Consulente dell'ottimizzazione
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: Panoramica consulente dell'ottimizzazione
+          href: sysadmin/optimization-advisor-overview.md
         - name: Creare regole per il consulente dell'ottimizzazione
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Segnalare un'interruzione della produzione
@@ -1238,8 +1299,9 @@
 - name: Lifecycle Services
   items:
     - name: Risorse per Lifecycle Services
-      href: lifecycle-services/lcs.md
       items:
+        - name: Risorse Lifecycle Services
+          href: lifecycle-services/lcs.md
         - name: LCS per i clienti
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS per i partner
@@ -1257,9 +1319,10 @@
     - name: Ricerca argomento
       href: lifecycle-services/issue-search-lcs.md
     - name: Gestione configurazione
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
-        - name: Impostare Gestione configurazione
+        - name: Panoramica gestione configurazione
+          href: lifecycle-services/configuration-manager-lcs.md
+        - name: Impostare gestione configurazione
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Configurare il servizio di aggiornamento codice
       href: lifecycle-services/configure-execute-code-upgrade.md
@@ -1293,13 +1356,14 @@
       href: lifecycle-services/user-logins.md
     - name: Raccolta di risorse
       href: lifecycle-services/asset-library.md
-    - name: Risoluzione delle prestazioni utilizzando gli strumenti in LC
+    - name: Risoluzione delle prestazioni utilizzando gli strumenti in LCS
       href: lifecycle-services/performancetroubleshooting.md
     - name: Query guida di riferimento dettagliata
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 - Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: Panoramica Dynamics 365 Translation service
+          href: lifecycle-services/translation-service-overview.md
         - name: Tradurre file dell'interfaccia utente
           href: lifecycle-services/use-translation-service.md
         - name: Tradurre file di documentazione
