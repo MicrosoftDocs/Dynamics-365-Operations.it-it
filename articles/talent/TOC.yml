@@ -1,13 +1,21 @@
 - name: Dynamics 365 for Talent
   href: index.md
   items:
-    - name: Per iniziare
+    - name: Introduzione
       items:
         - name: Introduzione a Talent
           href: talent-get-started.md
         - name: Novità o modifiche in Talent
           href: whats-new.md
           items:
+            - name: 22 agosto 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 agosto 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 agosto 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 luglio 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 luglio 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 luglio 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 giugno 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 maggio 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 maggio 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 maggio 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 maggio 2019
-              href: whats-new-talent-may-6-2019.md
             - name: Archivi delle novità 2019
               items:
+                - name: 28 maggio 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 maggio 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 maggio 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 maggio 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 aprile 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 aprile 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: Impostare i componenti di una mansione
               href: create-job.md
+            - name: Inserimento e navigazione dei dipendenti semplificati
+              href: streamlined-employee-entry.md
             - name: Creare i reparti e includerli nella gerarchia reparti
               href: create-department-add-department-hierarchy.md
             - name: Impostare i parametri di Risorse umane per le persone giuridiche

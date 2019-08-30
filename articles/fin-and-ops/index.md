@@ -1,9 +1,9 @@
 ---
-title: Documentazione di Microsoft Dynamics 365 for Finance and Operations
+title: Documentazione di Dynamics 365 for Finance and Operations
 description: Documentazione per Microsoft Dynamics 365 for Finance and Operations.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856307"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864844"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentazione di Microsoft Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Documentazione di Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -51,8 +51,8 @@ Molta parte di questo contenuto si applica anche ai prodotti correlati Microsoft
 <p><a href="imp-lifecycle/onboard.md">Integrazione di un progetto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Preparazione per la fase operativa</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Aggiornamenti del servizio versione uno</a></h3>
-<p><a href="get-started/one-version.md">Domande frequenti sugli aggiornamenti del servizio versione uno</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Aggiornamenti del servizio One Version</a></h3>
+<p><a href="get-started/one-version.md">Domande frequenti sugli aggiornamenti del servizio One Version</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Criteri del ciclo di vita del software: versioni sul cloud</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Criteri del ciclo di vita del software: versioni in locale</a></p>
 <p><a href="get-started/public-preview-releases.md">Aggiornamenti del servizio standard e di primo rilascio</a></p>

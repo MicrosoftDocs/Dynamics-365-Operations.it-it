@@ -3,7 +3,7 @@ title: Dynamics 365 for Retail
 description: Home page per Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572172"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874929"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Nel riquadro a sinistra, selezionare l'area di una funzionalità per ulteriori i
 
 ## <a name="channel-management"></a>Gestione del canale
 
-Quando si imposta l'esperienza Retail è necessario decidere il modo in cui definire e configurare i punti vendita. I punti vendita possono essere negozi fisici, punti vendita online o servizi clienti.
+Dopo aver configurato l'esperienza Retail, deciderai come definire e configurare i punti vendita, che possono essere punti vendita tradizionali, online o call center.
 
 Ogni punto vendita al dettaglio può disporre di propri metodi di pagamento, metodi di consegna, gruppi di prezzi, conti ricavi e spese, registratori di cassa e personale. Dopo aver creato un punto vendita al dettaglio, si crea il relativo assortimento di prodotti. È inoltre possibile definire prezzi e sconti specifici del punto vendita applicabili ai prodotti disponibili nel punto vendita.
 
