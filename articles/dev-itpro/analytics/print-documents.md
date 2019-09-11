@@ -1,9 +1,9 @@
 ---
-title: Stampa del documento
+title: Panoramica della stampa di documenti
 description: In Microsoft Dynamics 365 for Finance and Operations, è possibile stampare i documenti mediante una stampante locale o un dispositivo connesso alla rete. L'articolo fornisce una panoramica su come i documenti vengono stampati.
 author: TJVass
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc45865b55b4794202408ca19a0776440382fdd
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 779931a779cdb8fcbc8e85c3d6c2a4e123d8ec47
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850073"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864666"
 ---
-# <a name="document-printing"></a>Stampa del documento
+# <a name="document-printing-overview"></a>Panoramica della stampa di documenti
 
 [!include [banner](../includes/banner.md)]
 

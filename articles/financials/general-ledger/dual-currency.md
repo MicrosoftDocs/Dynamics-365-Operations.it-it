@@ -3,7 +3,7 @@ title: Doppia valuta
 description: In questo argomento vengono fornite informazioni sulla doppia valuta, dove la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione per Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839403"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867513"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La funzionalità che è stata introdotta in Microsoft Dynamics 365 for Finance and Operations versione 8.1 (ottobre 2018) consente di ridestinare e utilizzare la valuta di dichiarazione come seconda valuta di contabilizzazione. Questa funzionalità viene talvolta definita *valuta doppia*. Le modifiche per valuta doppia non possono essere disabilitate tramite una chiave di configurazione o un parametro. Poiché la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione, la modalità in cui la valuta di dichiarazione viene calcolata nella logica di registrazione è cambiata.
 
-Inoltre, alcuni moduli sono stati aggiornati a scopo di traccia, report e utilizzo della valuta di dichiarazione nei diversi processi. I moduli interessati sono **Contabilità generale**, **Creazione di report finanziari**, **Contabilità fornitori**, **Contabilità clienti**, **Gestione cassa e banche** e **Cespiti**. Dopo un aggiornamento, è necessario completare passaggi specifici per Gestione cassa e banche e Cespiti. Di conseguenza, assicurarsi di leggere attentamente le aree pertinenti di questo argomento.
+Inoltre, vari moduli sono stati aggiornati a scopo di traccia, report e utilizzo della valuta di dichiarazione nei diversi processi. I moduli interessati sono:
+
+- Contabilità generale 
+- Creazione di report finanziari 
+- Contabilità fornitori
+- Contabilità clienti 
+- Gestione cassa e banche 
+- Cespiti 
+- Consolidamenti
+
+Dopo un aggiornamento, è necessario completare passaggi specifici per Gestione cassa e banche e Cespiti. Di conseguenza, assicurarsi di leggere e comprendere le sezioni pertinenti di questo argomento.
 
 ## <a name="posting-process"></a>Processo di registrazione
 
@@ -75,6 +86,7 @@ Di seguito sono elencati i moduli che utilizzano la valuta di dichiarazione come
 - [Contabilità clienti](#accounts-payable-and-accounts-receivable)
 - [Gestione cassa e banche](#cash-and-bank-management)
 - [Cespiti](#fixed-assets)
+- [Consolidamenti](#consolidations)
 
 ### <a name="general-ledger"></a>Contabilità generale
 
@@ -124,6 +136,8 @@ In precedenza, il modulo **Cespiti** non teneva traccia degli importi nella valu
 Inoltre, le modifiche principali sono stati effettuate al processo di ammortamento. Le modifiche richiedono l'azione dell'utente dopo un aggiornamento. È importante aver letto e compreso le seguenti modifiche, anche se non si utilizza ancora il modulo Cespiti.
 
 - Il modo in cui il processo di ammortamento determina l'importo in valuta di dichiarazione è cambiato. Il seguente scenario confronta come l'ammortamento in precedenza ha determinato l'importo in valuta di dichiarazione e come ora determina l'importo in valuta di dichiarazione.
+
+
 
     **Scenario di ammortamento**
 
@@ -186,3 +200,13 @@ Inoltre, le modifiche principali sono stati effettuate al processo di ammortamen
     - Se il tipo di transazione di ammortamento viene immesso nel giornale di registrazione cespiti, gli importi in valuta di dichiarazione appaiono nelle nuove colonne. Quegli importi possono essere modificati.
     - Se la valuta di contabilizzazione e le valute di dichiarazione per la contabilità generale sono uguali, gli importi verranno mantenuti in sincronizzazione. Se si modifica l'importo **Avere**, l'importo **Avere in valuta di dichiarazione** verrà modificato automaticamente in modo da corrispondere.
     - Se qualsiasi altro tipo di transazione viene immesso nel giornale di registrazione cespiti, gli importi **Dare in valuta di dichiarazione** e **Avere in valuta di dichiarazione** non vengono mai visualizzati, prima o dopo la registrazione. Gli importi in valuta di contabilizzazione e in valuta di dichiarazione sono comunque disponibili sul giustificativo registrato nella contabilità generale.
+    
+### <a name="consolidations"></a>Consolidamenti
+    
+La funzionalità introdotta in Microsoft Dynamics 365 for Finance and Operations versione 10.0.5 (ottobre 2019) viene abilitata mediante Gestione funzionalità per una migliore flessibilità quanto a consolidamento e valuta doppia. Per abilitare questa funzionalità, andare all'area di lavoro **Gestione funzionalità** e selezionare **Abilitare la funzionalità Doppia valuta nel consolidamento della contabilità generale**.
+
+Nel consolidamento della contabilità generale, è stata aggiunta una nuova opzione per consolidare gli importi in valuta di dichiarazione o contabilizzazione delle società di origine. Se la valuta di dichiarazione o contabilizzazione è uguale alla valuta di dichiarazione o contabilizzazione nella società di consolidamento, gli importi verranno copiati direttamente anziché convertiti.
+
+-  È ora possibile scegliere se utilizzare la valuta di contabilizzazione o di dichiarazione della società di origine come valuta di transazione nella società di consolidamento.
+
+- Gli importi in valuta di dichiarazione o contabilizzazione della società di origine verranno copiati direttamente in quelli nella società di consolidamento, se una delle valute è uguale. Gli importi in valuta di dichiarazione e contabilizzazione nella società di consolidamento vengono calcolati utilizzando il tasso di cambio se nessuna delle valute è uguale.

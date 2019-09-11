@@ -1,9 +1,9 @@
 ---
-title: Organizzazioni e gerarchie organizzative
+title: Panoramica delle organizzazioni e delle gerarchie organizzative
 description: Un'organizzazione è un gruppo di persone che collaborano per svolgere un processo aziendale o raggiungere un obiettivo. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda.
 author: sericks007
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e35abeef2ef79dd994fac7d0ee0578591427b595
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545835"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864770"
 ---
-# <a name="organizations-and-organizational-hierarchies"></a>Organizzazioni e gerarchie organizzative
+# <a name="organizations-and-organizational-hierarchies-overview"></a>Panoramica delle organizzazioni e delle gerarchie organizzative
 
 [!include [banner](../includes/banner.md)]
 

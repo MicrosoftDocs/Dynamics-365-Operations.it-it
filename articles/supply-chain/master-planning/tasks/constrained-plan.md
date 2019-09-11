@@ -1,9 +1,9 @@
 ---
 title: Generare un piano con vincoli
-description: In questa procedura viene descritta la creazione di un piano in cui verranno considerati sia i vincoli materiali che di capacità.
+description: In questo argomento viene descritta la creazione di un piano in cui verranno considerati sia i vincoli materiali che di capacità.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845299"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867175"
 ---
 # <a name="generate-a-constrained-plan"></a>Generare un piano con vincoli
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In questa procedura viene descritta la creazione di un piano in cui verranno considerati sia i vincoli materiali che di capacità. Il piano garantisce che la produzione non inizi prima che i materiali siano disponibili e che le risorse non siano sovraprenotate. 
+In questo argomento viene descritta la creazione di un piano in cui verranno considerati sia i vincoli materiali che di capacità. Il piano garantisce che la produzione non inizi prima che i materiali siano disponibili e che le risorse non siano sovraprenotate. 
 
 La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata al responsabile pianificazione produzione.
 
 
 ## <a name="set-up-a-constrained-plan"></a>Impostare un piano con vincoli
-1. Fare clic su Pianificazione generale.
-2. Fare clic su Piani generali.
-3. Nell'elenco trovare e selezionare il record desiderato.
-    * Esempio: StaticPlan  
-4. Selezionare Sì nel campo Capacità limitata.
-5. Nel campo Intervallo temporale capacità limitata immettere "30".
-6. Espandere gli intervalli temporali nella sezione Giorni.
-7. Selezionare Sì nel campo Capacità.
-8. Nel campo Intervallo temporale programmazione capacità (giorni) immettere un numero.
-    * Esempio: 60  
-9. Selezionare Sì nel campo Ritardi calcolati.
-10. Nel campo Calcola intervallo temporale dei ritardi (giorni) immettere un numero.
-    * Esempio: 60  
-11. Espandere la sezione Ritardi calcolati.
-12. Selezionare Sì nel campo Aggiungere il ritardo calcolato alla data del fabbisogno
-13. Selezionare Sì nel campo Aggiungere il ritardo calcolato alla data del fabbisogno
-14. Selezionare Sì nel campo Aggiungere il ritardo calcolato alla data del fabbisogno
-15. Chiudere la pagina.
+1. Nella home page, selezionare l'area di lavoro **Pianificazione generale**.
+2. Selezionare **Piani generali** nell'elenco dei collegamenti all'estrema destra dell'area di lavoro.
+3. Nell'elenco trovare e selezionare il record desiderato. Esempio: **StaticPlan**  
+4. Selezionare **Sì** nel campo **Capacità limitata**.
+5. Nel campo **Intervallo temporale capacità limitata** immettere `30`.
+6. Espandere la sezione **Intervalli temporali in giorni**.
+7. Selezionare **Sì** nel campo **Capacità**.
+8. Nel campo **Intervallo temporale programmazione capacità (giorni)** immettere un numero. Esempio: `60`  
+9. Selezionare **Sì** nel campo **Ritardi calcolati**.
+10. Nel campo **Calcola intervallo temporale dei ritardi (giorni)** immettere un numero. Esempio: `60` 
+11. Espandere la sezione **Ritardi calcolati**.
+12. Selezionare **Sì** in tutti i campi **Aggiungere il ritardo calcolato alla data del fabbisogno**.
+13. Chiudere la pagina.
 
 ## <a name="create-a-constrained-plan"></a>Crea un piano con vincoli
-1. Fare clic su Esegui.
-2. Nel campo Piano generale immettere o selezionare un valore.
-    * Selezionare il piano per cui sono stati impostati i vincoli.  
-3. Fare clic su OK.
-    * Questa operazione potrebbe richiedere tempo.  
-4. Fare clic su Ordini pianificati.
+1. Selezionare **Esegui**.
+2. Nel campo **Piano generale**, immettere o selezionare il piano per cui sono stati impostati dei vincoli.  
+3. Selezionare **OK**.
+4. Selezionare **Ordini pianificati**.
 

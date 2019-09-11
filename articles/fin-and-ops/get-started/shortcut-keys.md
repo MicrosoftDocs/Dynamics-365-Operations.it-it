@@ -3,7 +3,7 @@ title: Tasti di scelta rapida
 description: In Dynamics 365 for Finance and Operations vengono utilizzati i tasti di scelta rapida descritti di seguito.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780060"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920653"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -155,8 +155,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Azione                                                                   | Tasti di premere                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
-| Immettere la data della sessione in un campo data                                       | D + TAB                         |
-| Immettere la data corrente in un campo data                                       | T + TAB                         |
+| Immettere la data della sessione in un campo data                                       | D                         |
+| Immettere la data corrente in un campo data                                       | M                         |
 | Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa                         | ALT + Freccia GIÙ                |
 | Chiudere ricerca, casella combinata, selezione data, finestra di dialogo a discesa                        | ESC                           |
 | Spostare lo stato attivo in una ricerca (quando la ricerca è già aperta)                   | ALT + Freccia GIÙ                |

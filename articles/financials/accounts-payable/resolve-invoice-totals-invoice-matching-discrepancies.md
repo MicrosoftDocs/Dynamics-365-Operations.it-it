@@ -1,9 +1,9 @@
 ---
-title: Risolvere le discrepanze durante l'abbinamento dei totali fatture
+title: Panoramica della risoluzione delle discrepanze durante l'abbinamento dei totali fatture
 description: È possibile utilizzare l'abbinamento dei totali fatture per garantire che gli importi totali delle fatture non si discostino dagli importi previsti oltre un livello accettabile.
 author: abruer
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c664f0b66b41b3db8f45b4507bca39e1ffefb599
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d4a20368385ec43547ee3d29770bd83cdec47e4a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834563"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864944"
 ---
-# <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Risolvere le discrepanze durante l'abbinamento dei totali fatture
+# <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Panoramica della risoluzione delle discrepanze durante l'abbinamento dei totali fatture
 
 [!include [banner](../includes/banner.md)]
 

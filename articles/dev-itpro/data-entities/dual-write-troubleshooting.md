@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797277"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873107"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Guida alla risoluzione dei problemi di integrazione dei dati
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Abilitare Traccia plug-in in Common Data Service e controllare i dettagli degli errori del plug-in di doppia scrittura
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Abilitare i registri di traccia plug-in in Common Data Service ed analizzare i dettagli degli errori del plug-in di doppia scrittura.
 
-Se si verifica un problema o errore con la sincronizzazione della doppia scrittura, è possibile analizzare gli errori nel Registro di traccia:
+[!include [banner](../includes/banner.md)]
 
-1. Prima di poter analizzare gli errori, è necessario abilitare Traccia plug-in usando le istruzioni in [Registrare il plug-in](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs). A questo punto è possibile analizzare gli errori.
-2. Accedere a Dynamics 365 for Sales
-3. Fare clic sull'icona delle impostazioni (ingranaggio) e selezionare **Impostazioni avanzate**.
-4. Nel menu **Impostazioni**, scegliere **Personalizzazione > Registro di traccia plug-in**.
-5. Fare clic sul nome del tipo **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** per visualizzare i dettagli di errore.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Controllare gli errori di doppia scrittura in Finance and Operations
+Se si verifica un problema o un errore durante la sincronizzazione della doppia scrittura, seguire i passaggi seguenti per analizzare gli errori nel registro di traccia:
 
-È possibile controllare gli errori durante il test seguendo queste operazioni:
+1. Per poter analizzare gli errori, è necessario abilitare i registri di traccia plug-in. Per istruzioni, vedere la sezione "Visualizzare registri di traccia in [Esercitazione: Scrivere e registrare un plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ Accedere a Lifecycle Services (LCS).
-+ Apri progetto LCS su cui si è scelto di eseguire il test di doppia scrittura.
-+ Andare a Distribuzione ambienti ospitati nel cloud.
-+ Desktop remoto in VM Finance and Operations utilizzando l'account locale visualizzato in LCS.
-+ Apri il visualizzatore eventi. 
-+ Spostarsi a **Registri applicazioni e servizi > Microsoft > Dynamics > > AX- DualWriteSync > Operativo**. Gli errori e i dettagli vengono visualizzati.
+    A questo punto è possibile analizzare gli errori.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Come scollegare e collegare un altro ambiente Common Data Service da Finance and Operations
+2. Accedere a Microsoft Dynamics 365 for Sales.
+3. Selezionare il pulsante **Impostazioni** (il simbolo di ingranaggio) e quindi selezionare **Impostazioni avanzate**.
+4. Nel menu **Impostazioni**, scegliere **Personalizzazione \> Registro di traccia plug-in**.
+5. Selezionare **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** come nome di tipo per visualizzare i dettagli dell'errore.
 
-È possibile aggiornare i collegamenti effettuando le seguenti operazioni:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Analizzare gli errori di sincronizzazione della doppia scrittura in Finance and Operations
 
-+ Passare all'ambiente Finance and Operations.
-+ Aprire Gestione dati.
-+ Fare clic su **Collega a CDS per le app**.
-+ Selezionare tutti i mapping in esecuzione e fare clic su **Interrompi**. 
-+ Selezionare tutti i mapping e fare clic su **Elimina**.
+Seguire questi passaggi per analizzare gli errori durante i test.
+
+1. Accedere a Microsoft Dynamics Lifecycle Services (LCS).
+2. Aprire il progetto LCS per il quale eseguire i test della doppia scrittura.
+3. Selezionare **Distribuzione ambienti ospitati nel cloud**.
+4. Eseguire una connessione Desktop remoto alla macchina virtuale (VM) Dynamics 365 for Finance and Operations utilizzando l'account locale visualizzato in LCS.
+5. Aprire il visualizzatore eventi. 
+6. Andare a **Registri applicazioni e servizi \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operativo**. Gli errori e i dettagli vengono visualizzati.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Scollegare un ambiente Common Data Service da Finance and Operations e collegare un altro ambiente
+
+Seguire i passaggi seguenti per aggiornare i collegamenti.
+
+1. Accedere all'ambiente di Finance and Operations.
+2. Aprire Gestione dati.
+3. Selezionare **Collega a CDS per le app**.
+4. Selezionare tutti i mapping in esecuzione, quindi selezionare **Interrompi**.
+5. Selezionare tutti i mapping e quindi selezionare **Elimina**.
 
     > [!NOTE]
-    > L'opzione **Elimina** non verrà visualizzato se il modello **CustomerV3-Account** è selezionato. Deselezionarlo se necessario. **CustomerV3-Account** è un modello meno recente fornito e funziona con la soluzione Prospect to Cash. Poiché è rilasciato globalmente, appare sotto tutti i modelli.
+    > L'opzione **Elimina** non è disponibile se il modello **CustomerV3-Account** è selezionato. Annullare la selezione di questo modello come necessario. **CustomerV3-Account** è un modello meno recente fornito e funziona con la soluzione Prospect to Cash. Poiché è rilasciato a livello globale, è visualizzato sotto tutti i modelli.
 
-+ Scegliere **Scollega ambiente**.
-+ Fare clic su **Sì** per la conferma.
-+ Per collegare il nuovo ambiente, seguire i passaggi nella [guida all'installazione](https://aka.ms/dualwrite-docs).
-
+6. Selezionare **Scollega ambiente**.
+7. Selezionare **Sì** per confermare l'operazione.
+8. Per collegare il nuovo ambiente, seguire i passaggi nella [guida all'installazione](https://aka.ms/dualwrite-docs).

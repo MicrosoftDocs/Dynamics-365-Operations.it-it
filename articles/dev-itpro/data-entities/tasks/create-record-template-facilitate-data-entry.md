@@ -1,9 +1,9 @@
 ---
 title: Creare un modello di record per facilitare l'immissione dei dati
-description: Questa procedura dimostra come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record.
+description: In questo argomento viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848209"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866930"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Creare un modello di record per facilitare l'immissione dei dati
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura dimostra come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record. In questa procedura, verrà creato un nuovo record per i nuovi computer portatili che devono essere aggiunti ai cespiti. Questa procedura utilizza la società di esempio USMF.
+In questo argomento viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record. In questa procedura, verrà creato un nuovo record per i nuovi computer portatili che devono essere aggiunti ai cespiti. Questa procedura utilizza la società di esempio USMF.
 
-1. Passare a Cespiti > Cespiti > Cespiti.
-2. Fare clic su Nuovo.
-3. Nel campo Cespiti immettere o selezionare un valore.
-4. Digitare un valore nel campo Nome.
-    * Ad esempio, immettere 'Corporate lead laptop'.  
-5. Digitare un valore nel campo Nome di ricerca.
-    * Ad esempio, immettere 'laptop.'  
-6. Espandere la sezione Informazioni tecniche.
-7. Nel campo Marca digitare un valore.
-8. Nel campo Modello digitare un valore.
-9. Nel campo Anno modello digitare un valore.
-10. Nel riquadro azioni fare clic su Opzioni.
-11. Fare clic su Informazioni sui record.
-12. Fare clic su Modello utente.
-13. Digitare un valore nel campo Nome.
-    * Ad esempio, immettere 'Corporate laptop.'  
-14. Nel campo Descrizione digitare un valore.
-    * Ad esempio, immettere 'Corporate laptop'.  
-15. Fare clic su OK.
-16. Fare clic su Chiudi.
+1. Nel pannello di navigazione, passare a **Moduli > Cespiti > Cespiti > Cespiti**.
+2. Selezionare **Nuovo**.
+3. Nel campo **Gruppo cespite** immettere o selezionare un valore.
+4. Digitare un valore nel campo **Nome**. Ad esempio, immettere **Corporate lead laptop**.  
+5. Digitare un valore nel campo **Nome di ricerca**. Ad esempio, immettere **laptop**.  
+6. Espandere la sezione **Informazioni tecniche**.
+7. Nei campi **Marca**, **Modello** e **Anno modello**, immettere i valori.
+8. Nel riquadro azioni selezionare **Opzioni**.
+9. Selezionare **Informazioni sui record**.
+10. Selezionare **Modello utente**.
+11. Digitare un valore nel campo **Nome**.
+12. Digitare un valore nel campo **Descrizione**
+13. Selezionare **OK**.
+14. Selezionare **Chiudi**.
 

@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863385"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867103"
 ---
 # <a name="removed-or-deprecated-features"></a>Funzionalità rimosse o deprecate
 
@@ -157,6 +157,17 @@ Il supporto per la creazione di ordini cliente basati su progetti in cui il cont
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione nell'aggiornamento 26 della piattaforma. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 con aggiornamento 24 della piattaforma
+
+### <a name="renaming-released-products"></a>Ridenominazione dei prodotti rilasciati 
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Quando si utilizza la funzione **Rinomina chiave primaria** per modificare l'ID articolo di un prodotto rilasciato, solo i riferimenti diretti alla chiave primaria vengono aggiornati. Tutti gli altri riferimenti al prodotto rilasciato, ad esempio dagli ordini di produzione, conserveranno l'ID articolo precedente. Di conseguenza, dovrebbero esserci dati incoerenti che bloccheranno i processi aziendali. |
+| **Sostituita da un'altra funzionalità?**   | N. |
+| **Aree del prodotto interessate**         | Gestione informazioni sul prodotto |
+| **Opzione di distribuzione**              | Tutte  |
+| **Stato**                         | Rimossa da Dynamics 365 for Finance and Operations 10.0.0 con aggiornamento 24 della piattaforma. In casi eccezionali, ad esempio il ripristino di una ridenominazione precedente della chiave primaria di un prodotto rilasciato, è possibile richiedere a Microsoft di rimuovere temporaneamente questa restrizione sull'operazione di ridenominazione della chiave primaria per i prodotti rilasciati. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 con aggiornamento 23 della piattaforma

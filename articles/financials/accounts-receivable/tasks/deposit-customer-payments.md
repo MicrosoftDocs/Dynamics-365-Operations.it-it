@@ -3,7 +3,7 @@ title: Depositare pagamenti clienti
 description: Depositare pagamenti cliente.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834465"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867776"
 ---
 # <a name="deposit-customer-payments"></a>Depositare pagamenti clienti
 
@@ -29,29 +29,22 @@ ms.locfileid: "1834465"
 
 Depositare pagamenti cliente. In questa attività viene utilizzata la società dimostrativa USMF.
 
-1. Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.
-2. Fare clic su Nuovo.
-3. Nel campo Nome fare clic sul pulsante a discesa per aprire la ricerca.
-4. Selezionare il giornale di registrazione pagamento. 
-5. Fare clic su Righe.
-6. Nel campo Conto selezionare il cliente per il quale si sta registrando il pagamento.
-7. Nel campo Avere, immettere l'importo del pagamento.
-    * È possibile scegliere di lasciare l'importo vuoto e farlo calcolare dal sistema selezionando le fatture che sono state pagate.  
-8. Digitare un valore nel campo Riferimento di pagamento.
-    * Il riferimento di pagamento può essere il numero di assegno per il pagamento che si immette. Il riferimento di pagamento è necessario per includere il pagamento in una distinta di deposito.  
-9. Contrassegnare la casella Utilizzo di una distinta di deposito.
-    * Se il pagamento deve essere incluso nel deposito, modificare questa impostazione su Sì.  
-10. Fare clic su Nuovo.
-11. Nel campo Conto selezionare il cliente per il pagamento successivo.
-12. Nel campo Avere, immettere l'importo del pagamento.
-13. Digitare un valore nel campo Riferimento di pagamento.
-14. Contrassegnare la casella Utilizzo di una distinta di deposito.
-15. Fare clic su Registra.
-    * I pagamenti devono essere registrati prima che la distinta di deposito possa essere generata. In questo modo è possibile garantire che i pagamenti non cambino dopo che la distinta di deposito viene generata.  
-16. Fare clic su Funzioni.
-17. Fare clic su Distinta di deposito.
-18. Fare clic su OK.
-    * La prima pagina viene utilizzata per creare la distinta di deposito.  
-19. Fare clic su OK.
-    * Il secondo passaggio è di stampare la distinta di deposito, ma questo passaggio non è obbligatorio.  
+1. Andare a **Pannello di navigazione > Moduli > Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti**.
+2. Selezionare **Nuovo**.
+3. Nel campo **Nome**, selezionare **CustPay** dal menu a discesa.
+4. Selezionare **Righe**.
+5. Nel campo **Conto** selezionare il cliente per il quale si sta registrando il pagamento.
+6. Nel campo **Avere**, immettere l'importo del pagamento. È possibile scegliere di lasciare l'importo vuoto e farlo calcolare dal sistema selezionando le fatture che sono state pagate.  
+7. Digitare un valore nel campo **Riferimento di pagamento**. Il riferimento di pagamento può essere il numero di assegno per il pagamento che si immette. Il riferimento di pagamento è necessario per includere il pagamento in una distinta di deposito.  
+8. Contrassegnare la casella Utilizzo di una distinta di deposito. Se il pagamento deve essere incluso nel deposito, modificare questa impostazione su Sì.  
+9. Selezionare **Nuovo**.
+10. Nel campo **Conto** selezionare il cliente per il pagamento successivo.
+11. Nel campo **Avere**, immettere l'importo del pagamento.
+12. Digitare un valore nel campo **Riferimento di pagamento**.
+13. Contrassegnare la casella **Utilizzo di una distinta di deposito**.
+14. Selezionare **Registra**. I pagamenti devono essere registrati prima che la distinta di deposito possa essere generata. In questo modo è possibile garantire che i pagamenti non cambino dopo che la distinta di deposito viene generata.  
+15. Selezionare **Funzioni**.
+16. Selezionare **Distinta di deposito**.
+17. Selezionare **OK**. La prima pagina viene utilizzata per creare la distinta di deposito.  
+18. Selezionare **OK**. Il secondo passaggio è di stampare la distinta di deposito, ma questo passaggio non è obbligatorio.  
 
