@@ -1,9 +1,9 @@
 ---
 title: Ricevere articoli in un ordine fornitore da una richiesta articolo
-description: In questa procedura viene illustrato come ricevere gli articoli in un ordine fornitore da una richiesta articolo.
+description: In questo argomento viene illustrato come ricevere gli articoli in un ordine fornitore da una richiesta articolo.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838249"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867297"
 ---
-# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="e494d-103">Ricevere articoli in un ordine fornitore da una richiesta articolo</span><span class="sxs-lookup"><span data-stu-id="e494d-103">Receive items on purchase order from item requirement</span></span>
+# <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="c76a0-103">Ricevere articoli in un ordine fornitore da una richiesta articolo</span><span class="sxs-lookup"><span data-stu-id="c76a0-103">Receive items on purchase order from item requirement</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e494d-104">In questa procedura viene illustrato come ricevere gli articoli in un ordine fornitore da una richiesta articolo.</span><span class="sxs-lookup"><span data-stu-id="e494d-104">This procedure shows how to receive items on a purchase order from an item requirement.</span></span>
+<span data-ttu-id="c76a0-104">In questo argomento viene illustrato come ricevere gli articoli in un ordine fornitore da una richiesta articolo.</span><span class="sxs-lookup"><span data-stu-id="c76a0-104">This topic explains how to receive items on a purchase order from an item requirement.</span></span>
 
-<span data-ttu-id="e494d-105">Le richieste articoli consentono, rispetto alle transazioni articolo, di pianificare la consegna per il momento immediatamente precedente l'utilizzo effettivo dell'articolo, di creare un ordine fornitore, di includere l'articolo all'interno di un accordo commerciale e di includere la richiesta articolo nella pianificazione della produzione.</span><span class="sxs-lookup"><span data-stu-id="e494d-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
+<span data-ttu-id="c76a0-105">Le richieste articoli consentono, rispetto alle transazioni articolo, di pianificare la consegna per il momento immediatamente precedente l'utilizzo effettivo dell'articolo, di creare un ordine fornitore, di includere l'articolo all'interno di un accordo commerciale e di includere la richiesta articolo nella pianificazione della produzione.</span><span class="sxs-lookup"><span data-stu-id="c76a0-105">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span> 
 
-<span data-ttu-id="e494d-106">Questa attività utilizza il set di dati dimostrativi USSI.</span><span class="sxs-lookup"><span data-stu-id="e494d-106">This task uses the USSI data set.</span></span>
+<span data-ttu-id="c76a0-106">Questa attività utilizza il set di dati dimostrativi USSI.</span><span class="sxs-lookup"><span data-stu-id="c76a0-106">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="e494d-107">Passare a Gestione progetti e contabilità > Progetti > Tutti i progetti.</span><span class="sxs-lookup"><span data-stu-id="e494d-107">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="e494d-108">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e494d-108">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="e494d-109">Nel riquadro azioni fare clic su Piano.</span><span class="sxs-lookup"><span data-stu-id="e494d-109">On the Action Pane, click Plan.</span></span>
-4. <span data-ttu-id="e494d-110">Fare clic su Richieste articoli.</span><span class="sxs-lookup"><span data-stu-id="e494d-110">Click Item requirements.</span></span>
-5. <span data-ttu-id="e494d-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="e494d-111">Click New.</span></span>
-6. <span data-ttu-id="e494d-112">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e494d-112">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="e494d-113">Nel campo Numero di articoli immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="e494d-113">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="e494d-114">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="e494d-114">In the Quantity field, enter a number.</span></span>
-9. <span data-ttu-id="e494d-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="e494d-115">Click Save.</span></span>
-10. <span data-ttu-id="e494d-116">Nel riquadro azioni, fare clic su Gestisci.</span><span class="sxs-lookup"><span data-stu-id="e494d-116">On the Action Pane, click Manage.</span></span>
-11. <span data-ttu-id="e494d-117">Fare clic su Funzioni.</span><span class="sxs-lookup"><span data-stu-id="e494d-117">Click Functions.</span></span>
-12. <span data-ttu-id="e494d-118">Fare clic su Crea ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="e494d-118">Click Create purchase order.</span></span>
-13. <span data-ttu-id="e494d-119">Selezionare la casella di controllo Includi.</span><span class="sxs-lookup"><span data-stu-id="e494d-119">Select the Include check box.</span></span>
-14. <span data-ttu-id="e494d-120">Nel campo Conto fornitore, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="e494d-120">In the Vendor account field, enter or select a value.</span></span>
-15. <span data-ttu-id="e494d-121">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e494d-121">Click OK.</span></span>
-16. <span data-ttu-id="e494d-122">Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="e494d-122">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-17. <span data-ttu-id="e494d-123">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e494d-123">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="e494d-124">Nel riquadro azioni fare clic su Acquisti.</span><span class="sxs-lookup"><span data-stu-id="e494d-124">On the Action Pane, click Purchase.</span></span>
-19. <span data-ttu-id="e494d-125">Fare clic su Conferma.</span><span class="sxs-lookup"><span data-stu-id="e494d-125">Click Confirm.</span></span>
-20. <span data-ttu-id="e494d-126">Nel riquadro azioni fare clic su Ricevimento.</span><span class="sxs-lookup"><span data-stu-id="e494d-126">On the Action Pane, click Receive.</span></span>
-21. <span data-ttu-id="e494d-127">Fare clic su Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="e494d-127">Click Product receipt.</span></span>
-22. <span data-ttu-id="e494d-128">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e494d-128">In the list, mark the selected row.</span></span>
-23. <span data-ttu-id="e494d-129">Digitare un valore nel campo Entrata prodotti.</span><span class="sxs-lookup"><span data-stu-id="e494d-129">In the Product receipt field, type a value.</span></span>
-24. <span data-ttu-id="e494d-130">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e494d-130">Click OK.</span></span>
+1. <span data-ttu-id="c76a0-107">Nel pannello di navigazione, andare a **Moduli > Gestione progetti e contabilità > Progetti > Tutti i progetti**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-107">In the navigation pane, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
+2. <span data-ttu-id="c76a0-108">Nell'elenco fare clic sul collegamento nella riga desiderata.</span><span class="sxs-lookup"><span data-stu-id="c76a0-108">In the list, select the link in the desired row.</span></span>
+3. <span data-ttu-id="c76a0-109">Nel Riquadro azioni selezionare **Pianifica**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-109">On the Action Pane, select **Plan**.</span></span>
+4. <span data-ttu-id="c76a0-110">Selezionare **Richieste articoli**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-110">Select **Item requirements**.</span></span>
+5. <span data-ttu-id="c76a0-111">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-111">Select **New**.</span></span>
+6. <span data-ttu-id="c76a0-112">Nella nuova riga, immettere o selezionare un valore nel campo **Numero articolo**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-112">In the new row, enter or select a value in the **Item number** field.</span></span>
+7. <span data-ttu-id="c76a0-113">Nel campo **Quantità** immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="c76a0-113">In the **Quantity** field, enter a number.</span></span>
+8. <span data-ttu-id="c76a0-114">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-114">Select **Save**.</span></span>
+9. <span data-ttu-id="c76a0-115">Nel riquadro azioni, fare clic su **Gestisci**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-115">On the Action Pane, select **Manage**.</span></span>
+10. <span data-ttu-id="c76a0-116">Selezionare **Funzioni**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-116">Select **Functions**.</span></span>
+11. <span data-ttu-id="c76a0-117">Selezionare **Crea ordine fornitore**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-117">Select **Create purchase order**.</span></span>
+12. <span data-ttu-id="c76a0-118">Selezionare la casella di controllo **Includi tutto**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-118">Select the **Include all** check box.</span></span>
+13. <span data-ttu-id="c76a0-119">Nel campo **Conto fornitore**, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="c76a0-119">In the **Vendor account** field, enter or select a value.</span></span>
+14. <span data-ttu-id="c76a0-120">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-120">Select **OK**.</span></span>
+15. <span data-ttu-id="c76a0-121">Nel pannello di navigazione, andare a **Moduli > Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-121">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > All purchase orders**.</span></span>
+16. <span data-ttu-id="c76a0-122">Nell'elenco fare clic sul collegamento nella riga desiderata.</span><span class="sxs-lookup"><span data-stu-id="c76a0-122">In the list, select the link in the desired row.</span></span>
+17. <span data-ttu-id="c76a0-123">Nel riquadro azioni fare clic su **Acquisto**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-123">On the Action Pane, select **Purchase**.</span></span>
+18. <span data-ttu-id="c76a0-124">Selezionare **Conferma**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-124">Select **Confirm**.</span></span>
+19. <span data-ttu-id="c76a0-125">Nel riquadro azioni fare clic su **Ricevimento**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-125">On the Action Pane, select **Receive**.</span></span>
+20. <span data-ttu-id="c76a0-126">Selezionare **Entrata prodotti**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-126">Select **Product receipt**.</span></span>
+21. <span data-ttu-id="c76a0-127">Nel campo **Entrata prodotti**, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="c76a0-127">In the **Product receipt** field, type a value.</span></span>
+22. <span data-ttu-id="c76a0-128">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="c76a0-128">Select **OK**.</span></span>
 

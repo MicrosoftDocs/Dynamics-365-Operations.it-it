@@ -1,9 +1,9 @@
 ---
-title: Creare ordini di produzione
+title: Panoramica del ciclo di vita dell'ordine di produzione
 description: Quando si crea un ordine di produzione, si esegue una richiesta di avvio della produzione di un articolo. Nell'ordine di produzione sono contenute informazioni sull'articolo che verrà prodotto, sulla quantità da produrre e sulla data di fine pianificata. Sono contenute anche informazioni sui materiali da utilizzare e sul processo da seguire per produrre l'articolo.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,28 +19,28 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2957b387aac9e0218f88572fa605cde1a30c52e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 79b1866cdca885d408aca07c546ca54aa0c3616b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572629"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865196"
 ---
-# <a name="create-production-orders"></a><span data-ttu-id="d3547-105">Creare ordini di produzione</span><span class="sxs-lookup"><span data-stu-id="d3547-105">Create production orders</span></span>
+# <a name="production-order-lifecycle-overview"></a><span data-ttu-id="f6f2b-105">Panoramica del ciclo di vita dell'ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="f6f2b-105">Production order lifecycle overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d3547-106">Quando si crea un ordine di produzione, si esegue una richiesta di avvio della produzione di un articolo.</span><span class="sxs-lookup"><span data-stu-id="d3547-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="d3547-107">Nell'ordine di produzione sono contenute informazioni sull'articolo che verrà prodotto, sulla quantità da produrre e sulla data di fine pianificata.</span><span class="sxs-lookup"><span data-stu-id="d3547-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="d3547-108">Sono contenute anche informazioni sui materiali da utilizzare e sul processo da seguire per produrre l'articolo.</span><span class="sxs-lookup"><span data-stu-id="d3547-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
+<span data-ttu-id="f6f2b-106">Quando si crea un ordine di produzione, si esegue una richiesta di avvio della produzione di un articolo.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="f6f2b-107">Nell'ordine di produzione sono contenute informazioni sull'articolo che verrà prodotto, sulla quantità da produrre e sulla data di fine pianificata.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="f6f2b-108">Sono contenute anche informazioni sui materiali da utilizzare e sul processo da seguire per produrre l'articolo.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 
-<span data-ttu-id="d3547-109">Un ordine di produzione attraversa le fasi del ciclo di vita della produzione.</span><span class="sxs-lookup"><span data-stu-id="d3547-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="d3547-110">Al momento della creazione, a un ordine viene assegnato lo stato **Creato**.</span><span class="sxs-lookup"><span data-stu-id="d3547-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="d3547-111">Al termine della creazione, a un ordine viene assegnato lo stato **Terminato**.</span><span class="sxs-lookup"><span data-stu-id="d3547-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="d3547-112">L'impostazione dei parametri in ogni fase consente a un utente di configurare ogni fase.</span><span class="sxs-lookup"><span data-stu-id="d3547-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="d3547-113">L'impostazione può essere impostata per un singolo utente o per tutti gli utenti.</span><span class="sxs-lookup"><span data-stu-id="d3547-113">The setting can be set up for a single user or for all users.</span></span>
+<span data-ttu-id="f6f2b-109">Un ordine di produzione attraversa le fasi del ciclo di vita della produzione.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="f6f2b-110">Al momento della creazione, a un ordine viene assegnato lo stato **Creato**.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="f6f2b-111">Al termine della creazione, a un ordine viene assegnato lo stato **Terminato**.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="f6f2b-112">L'impostazione dei parametri in ogni fase consente a un utente di configurare ogni fase.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="f6f2b-113">L'impostazione può essere impostata per un singolo utente o per tutti gli utenti.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-113">The setting can be set up for a single user or for all users.</span></span>
 
-<span data-ttu-id="d3547-114">La distinta base di produzione e il ciclo di lavorazione di produzione sono le entità principali dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="d3547-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="d3547-115">Vengono copiati nell'ordine di produzione in base all'articolo e alla quantità che saranno prodotti.</span><span class="sxs-lookup"><span data-stu-id="d3547-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="d3547-116">Prima che venga avviato l'ordine di produzione, è possibile modificare la distinta base di produzione e il ciclo.</span><span class="sxs-lookup"><span data-stu-id="d3547-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
+<span data-ttu-id="f6f2b-114">La distinta base di produzione e il ciclo di lavorazione di produzione sono le entità principali dell'ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="f6f2b-115">Vengono copiati nell'ordine di produzione in base all'articolo e alla quantità che saranno prodotti.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="f6f2b-116">Prima che venga avviato l'ordine di produzione, è possibile modificare la distinta base di produzione e il ciclo.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
 
-<span data-ttu-id="d3547-117">Un ordine di produzione può essere creato negli scenari seguenti:</span><span class="sxs-lookup"><span data-stu-id="d3547-117">A production order can be created in the following scenarios:</span></span>
+<span data-ttu-id="f6f2b-117">Un ordine di produzione può essere creato negli scenari seguenti:</span><span class="sxs-lookup"><span data-stu-id="f6f2b-117">A production order can be created in the following scenarios:</span></span>
 
--   <span data-ttu-id="d3547-118">Creato dall'esecuzione di pianificazione generale in base alla richiesta di materiale.</span><span class="sxs-lookup"><span data-stu-id="d3547-118">Created by master planning execution based on material demand.</span></span>
--   <span data-ttu-id="d3547-119">Creato direttamente da una riga ordine cliente o quando un ordine di produzione di livello superiore viene creato e stimato (offerta sottoposta a pegging).</span><span class="sxs-lookup"><span data-stu-id="d3547-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
--   <span data-ttu-id="d3547-120">Creato manualmente.</span><span class="sxs-lookup"><span data-stu-id="d3547-120">Created manually.</span></span>
+-   <span data-ttu-id="f6f2b-118">Creato dall'esecuzione di pianificazione generale in base alla richiesta di materiale.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-118">Created by master planning execution based on material demand.</span></span>
+-   <span data-ttu-id="f6f2b-119">Creato direttamente da una riga ordine cliente o quando un ordine di produzione di livello superiore viene creato e stimato (offerta sottoposta a pegging).</span><span class="sxs-lookup"><span data-stu-id="f6f2b-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
+-   <span data-ttu-id="f6f2b-120">Creato manualmente.</span><span class="sxs-lookup"><span data-stu-id="f6f2b-120">Created manually.</span></span>
 
 
 
