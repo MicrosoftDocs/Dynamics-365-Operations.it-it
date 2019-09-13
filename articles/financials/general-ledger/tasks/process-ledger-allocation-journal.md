@@ -1,9 +1,9 @@
 ---
 title: Elaborare giornale di registrazione allocazioni contabili
-description: Utilizzare la pagina Elabora richiesta di allocazione per creare un giornale di registrazione allocazione che è possibile rivedere e approvare prima della registrazione in contabilità generale o registrare direttamente in contabilità generale.
+description: In questo argomento viene illustrato come elaborare una richiesta di allocazione in Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0798d9f1c09e827bf64635cf67102f77244948c5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846369"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867441"
 ---
 # <a name="process-ledger-allocation-journal"></a>Elaborare giornale di registrazione allocazioni contabili
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Utilizzare la pagina Elabora richiesta di allocazione per creare un giornale di registrazione allocazione che è possibile rivedere e approvare prima della registrazione in contabilità generale o registrare direttamente in contabilità generale. Prima di creare un giornale di registrazione allocazioni, è necessario che esista almeno una regola di allocazione contabile attiva. In questa attività viene utilizzata la società dimostrativa USMF.
+In questo argomento viene illustrato come elaborare una richiesta di allocazione in Dynamics 365 for Finance and Operations. Utilizzare la pagina Elabora richiesta di allocazione per creare un giornale di registrazione allocazione che è possibile rivedere e approvare prima della registrazione in contabilità generale o registrare direttamente in contabilità generale. Prima di creare un giornale di registrazione allocazioni, è necessario che esista almeno una regola di allocazione contabile attiva. In questa attività viene utilizzata la società dimostrativa USMF.
 
-1. Andare a Contabilità generale > Allocazioni > Elabora richiesta di allocazione.
-2. Nel campo Regola fare clic sul pulsante a discesa per aprire la ricerca.
-3. Trovare e selezionare il record desiderato nell'elenco.
-4. Nell'elenco fare clic sul collegamento nella riga selezionata.
-5. Immettere una data nel campo In data.
-    * Il valore di In data è molto importante quando la contabilità generale è l'origine dati per la regola. Questa data determina quali saldi contabili includere per l'allocazione.     Nel campo Origine zero selezionare Interrompi. Questo interromperà il processo di allocazione e visualizzerà un messaggio indicante che è selezionato un importo di origine pari a zero.  
-6. Nel campo Opzioni proposta, selezionare 'Solo proposta'.
-    * Selezionare Solo proposta per esaminare e facoltativamente approvare il risultato nei giornali di registrazione allocazioni prima della registrazione dell'allocazione nella contabilità generale.  
-7. Immettere una data nel campo Data registrazione CoGe.
-8. Fare clic su OK.
-9. Andare a Contabilità generale > Allocazioni > Giornali di registrazione allocazioni.
-10. Fare clic su Righe.
-11. Fare clic su Registra.
-12. Fare clic su Registra.
+1. Nel pannello di navigazione, andare a **Moduli > Contabilità generale > Allocazioni > Elabora richiesta di allocazione**.
+2. Nel campo **Regola** selezionare il record desiderato nel menu a discesa.
+3. Immettere una data nel campo **In data**.
+
+    - Il valore di **In data** è molto importante quando la contabilità generale è l'origine dati per la regola. Questa data determina quali saldi contabili includere per l'allocazione.  
+    - Nel campo **Origine zero** selezionare **Interrompi**. Questa operazione interromperà il processo di allocazione e visualizzerà un messaggio indicante che è selezionato un importo di origine pari a zero.  
+
+4. Nel campo **Opzioni proposta**, selezionare **Solo proposta**. Selezionare **Solo proposta** per esaminare e facoltativamente approvare il risultato nei giornali di registrazione allocazioni prima della registrazione dell'allocazione nella contabilità generale.  
+5. Immettere una data nel campo Data registrazione CoGe.
+6. Selezionare **OK**.
+7. Nel pannello di navigazione, andare a **Moduli > Contabilità generale > Allocazioni > Giornali di registrazione allocazioni**.
+8. Selezionare **Righe**.
+9. Selezionare **Registra**.
+10. Selezionare **Registra**.
 

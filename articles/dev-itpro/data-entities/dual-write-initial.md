@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797300"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873130"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a>Ordine di esecuzione per la sincronizzazione iniziale di Finance and Operations e Common Data Service
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a>Ordine di esecuzione per la sincronizzazione iniziale di Finance and Operations e Common Data Service
 
-Prima di utilizzare l'integrazione dei dati, è necessario creare i dati iniziali necessari per clienti, fornitori e i contatti. Ad esempio, se si desidera creare un nuovo articolo **Gruppo di fornitori** e impostare il relativo **Termini di pagamento** come **Net30**, prima di tentiate di creare l'articolo **Gruppo di fornitori** è necessario assicurarsi che **Net30** sia presente sia in Finance and Operations che in Common Data Service. (In futuro, rilasceremo una funzionalità per la piattaforma di doppia scrittura denominata **Sincronizzazione iniziale**. Farà una sincronizzazione una-tantum dei dati tra Finance and Operations e Common Data Service come parte dell'impostazione di doppia scrittura).
+[!include [banner](../includes/banner.md)]
 
-Suggerimenti: Stiamo rilasciando una mappa di doppia scrittura per tutti i dati di riferimento inclusi **Termini di pagamento** (condizioni di pagamento). Se si dispone già dei dati iniziali in un sistema, una piccola operazione di aggiornamento su un record può attivare la doppia scrittura su tale record. 
+[!include [preview](../includes/preview-banner.md)]
 
-È necessario seguire il seguente ordine di priorità e accertarsi che i dati iniziali sono disponibili sia in Finance and Operations che in Common Data Service.   
+Prima di utilizzare l'integrazione dei dati, è necessario creare i dati iniziali necessari per clienti, fornitori e i contatti. Ad esempio, se si desidera creare un nuovo articolo **Gruppo di fornitori** e impostare il relativo valore **Termini di pagamento** su **Net30**. In questo caso, prima di provare a creare l'articolo **Gruppo di fornitori**, verificare che **Net30** sia presente in Microsoft Dynamics 365 for Finance and Operations e Common Data Service (in futuro, Microsoft rilascerà una funzionalità per la piattaforma di doppia scrittura denominata Sincronizzazione iniziale. Questa funzionalità eseguirà una sincronizzazione una-tantum dei dati tra Finance and Operations e Common Data Service come parte dell'impostazione di doppia scrittura).
+
+> [!TIP]
+> Microsoft sta rilasciando una mappa di doppia scrittura per tutti i dati di riferimento inclusi **Termini di pagamento** (condizioni di pagamento). Se si dispone già dei dati iniziali in un sistema, una piccola operazione di aggiornamento su un record può attivare la doppia scrittura su tale record.
+
+È necessario seguire il seguente ordine di priorità e accertarsi che i dati iniziali sono disponibili sia in Finance and Operations che in Common Data Service.
 
 ## <a name="vendor"></a>Fornitore
 
-L'ordine dell'esecuzione per Fornitore è:
+Di seguito è riportato l'ordine di esecuzione dell'entità **Fornitore** :
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+1. Gruppo di fornitori
+
+    1. Termini di pagamento
+
+        1. Righe e giorno di pagamento
+        2. Scadenzario pagamenti
+
+2. Metodo di pagamento fornitore
 
 ## <a name="customer-organization"></a>Cliente (Organizzazione)
 
-L'ordine dell'esecuzione per Cliente è:
+Di seguito è riportato l'ordine di esecuzione dell'entità **Cliente**:
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+1. Gruppo di clienti
+
+    1. Termini di pagamento
+
+        1. Righe e giorno di pagamento
+        2. Pagamento 
+
+2. Metodo di pagamento clienti
 
 ## <a name="contact-person"></a>Contatto (Persona)
 
-L'ordine dell'esecuzione per Contatto è:
+Di seguito è riportato l'ordine di esecuzione dell'entità **Contatto**:
 
-```
-Customer
-Vendor               
-```
+1. Cliente
+2. Fornitore

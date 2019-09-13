@@ -1,9 +1,9 @@
 ---
-title: Creare flusso di lavoro
+title: Panoramica della creazione di flussi di lavoro
 description: In questo argomento viene illustrato come creare un flusso di lavoro.
 author: sericks007
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1dc2b2cd6b9372fb60d0e112b5dbb0b60898caca
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570552"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865042"
 ---
-# <a name="create-workflows"></a>Creare flusso di lavoro
+# <a name="create-workflows-overview"></a>Panoramica di creazione di flussi di lavoro
 
 [!include [banner](../includes/banner.md)]
 

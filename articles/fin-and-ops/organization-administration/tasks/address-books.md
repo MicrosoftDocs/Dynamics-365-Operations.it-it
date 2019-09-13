@@ -3,7 +3,7 @@ title: Configurare le rubriche
 description: Utilizzare questa procedura e le decisioni prese nell'argomento relativo alla pianificazione della configurazione della rubrica globale e delle rubriche aggiuntive per impostare le rubriche aggiuntive per l'organizzazione.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7d30cbc5836c47b4a68e27a7af05bd82956f70
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: f8ffba13b4a025f39b7ca26206b93a4bb646bac5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851897"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916690"
 ---
 # <a name="configure-address-books"></a>Configurare le rubriche
 
@@ -33,12 +33,12 @@ La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 
 
 ## <a name="configure-address-books"></a>Configurare le rubriche
-1. Scegliere Amministrazione organizzazione > Rubrica globale > Rubriche.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Nome.
-4. Nel campo Descrizione digitare un valore.
-5. Fare clic su Salva.
+1. Nel **pannello di navigazione** andare a **Moduli > Amministrazione organizzazione > Rubrica globale > Rubriche**.
+2. Fare clic su **Nuovo**.
+3. Digitare un valore nel campo **Nome**.
+4. Digitare un valore nel campo **Descrizione**
+5. Fare clic su **Salva**.
 6. Nell'elenco trovare e selezionare il record desiderato.
 7. Fare clic sulla freccia per aggiungere i team disponibili selezionati alla rubrica.
-8. Fare clic su Salva.
+8. Fare clic su **Salva**.
 

@@ -3,7 +3,7 @@ title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a9d107fa57bdc2edf2dc1a69081e02b3c4321551
+ms.sourcegitcommit: b7f70ee1e54c65c19e1d33c76d2428f9c6c05c66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849334"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "1918467"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -51,30 +51,32 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      2019 aprile          |   10.0.1      |    Europa     |Fatturazione elettronica - Le fatture dei fornitori sono importate in formato PEPPOL BIS 3         |
 |      2019 aprile          |   10.0.1      |   Germania     |Fatturazione elettronica - Le fatture dei clienti sono esportate in formato xRechnung 1.1         |
 |      2019 aprile          |   10.0.1      |    Regno Unito     |[Modifiche all'invio della dichiarazione VAT (digitalizzazione delle imposte)](emea-gbr-mtd-vat-integration.md)    |    
-|      2019 aprile          |   10.0.1      |    Brasile     |Nuovo NF-e NT 2018.005         |
 |      2019 aprile          |   10.0.1      |    Russia     |[Il formato della dichiarazione IVA cambia a partire dal 2019](rus-VAT-declaration.md) |
 |      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019 (libri acquisti e vendite) |
 |      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione dell'imposta fondiaria dal 2018 |
 |      2019 aprile          |   10.0.1      |    Russia     |[Modifiche alla dichiarazione fiscale della proprietà dal 2019](rus-assessed-tax-declaration.md)|
 |      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione fiscale per imposte di trasporto dal 2019  |
-|      2019 aprile            |   10.0.1      | Ungheria      |  Ungheria: fatturazione in linea v.1.1 2019 in Microsoft Dynamics 365 for Finance and Operations  |
-|      2019° maggio            |   10.0.2      | Brasile      |   Layout 7 SPED ECD   |
-|      2019 giugno            |   10.0.3      | Brasile      |   Nuovo NF-e NT 2018.005 - v.1.20   |
-|      2019 giugno            |   10.0.3      | Brasile      |   Layout 7 SPED ECD   |
+|      2019 aprile          |   10.0.1      |    Lituania     |Il report i.SAF consente all'utente di definire i codici IVA insieme a codici di imposte legali  |
+|      2019 aprile          |   10.0.1      | Ungheria      |  Ungheria: fatturazione in linea v.1.1 2019  |
+|      2019 aprile          |   10.0.1      | Giappone      |  Modifica era calendario giapponese 2019  |
+|      2019 aprile          |   10.0.1/10.0.2/10.0.3      | India      |  Modifica formato numero IEC  |
+|      2019 giugno           |   10.0.1HF/10.0.2HF/10.0.3      | Brasile      |   Nuovo NF-e NT 2018.005 - v.1.20   |
+|      2019 giugno           |   10.0.1HF/10.0.2HF/10.0.3      | Brasile      |   Layout 7 SPED ECD   |
+|      2019 giugno           |   10.0.1HF/10.0.2HF/10.0.3HF/10.0.4      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
+|      Luglio 2019           |   10.0.1HF/10.0.2HF/10.0.3HF/10.0.4      | Brasile    |   NF-e and NFC-e - Risoluzione 13/2019 e Decreto SUCIEF 55/2019- RJ - nuove condizioni per l'output di tag di esenzione in NF-e.   |
+|      2019 giugno           |   10.0.2     | Italia      |   "Nuovo Spesometro" (Esterometro) per supportare la suddivisione di file in base al volume di file e ai limiti del numero di record   |
+ | Agosto 2019            |   10.0.2HF/10.0.3HF/10.0.4HF/10.0.5      | Brasile    |   Una nuova versione delle note tecniche per NF-e: NT 2019.001 Versione 1.00   |
+|      Luglio 2019            |   10.0.3/10.0.4      | India   |   Visualizzazione di "Luogo di fornitura" e "Stato" nella fattura d'imposta GST  | Luglio 2019            |   10.0.2HF/10.0.3HF/10.0.4HF/10.0.5HF/10.0.6      | Brasile    |   NF-e ICMS-ST - Decreto CAT 42/18 per stato SP - CAT 42/18   |
 |      2019 giugno            |   10.0.3      | Brasile      |   Sped ECF - Layout 5 per 2019   |
-|      2019 giugno            |   10.0.3      | Lituania    |   Il report i.SAF consente all'utente di definire i codici IVA insieme a codici di imposte legali    |
 |      2019 giugno            |   10.0.3      | Polonia     |   Fatture SAF (JPK_FA) v.2 dal 1° luglio 2019  |
 |      2019 giugno            |   10.0.3      | Brasile   |   Le rettifiche ICMS per documenti fiscali abilitano la tabella 5.2   |
-|      2019 giugno            |   10.0.3      | Brasile    |   NF-e Decree 54.308/18 (RS)   |
+|      2019 giugno            |   10.0.3      | India    |   Rettifica dell'IVA nella valuta doganale nell'effetto attivo anziché nella valuta della transazione  |
   | Luglio 2019            |   10.0.4      | Brasile    |   Documento fiscale 66 in ingresso   |
-   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e and NFC-e - Risoluzione 13/2019 e Decreto SUCIEF 55/2019- RJ - nuove condizioni per l'output di tag di esenzione in NF-e.   |
-   | Luglio 2019            |   10.0.4      | India   |   Visualizzazione di "Luogo di fornitura" e "Stato" nella fattura d'imposta GST  |
-   | Luglio 2019            |   10.0.4      | Messico   |  Dichiarazione di terzi DIOT - modifiche nel layout 2019   |
-   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e ICMS-ST - Decreto CAT 42/18 per stato SP - CAT 42/18
-   | Luglio 2019            |   10.0.4      | Brasile    |   NF-e Delibera 54.308/18 - RS NF   |
-       | In sospeso            |   10.0.5      | Brasile    |   Guida pratica ai contributi Sped 1.31. nuove indicazioni   |
-         | In sospeso            |   10.0.5      | Brasile    |   Una nuova versione delle note tecniche per NF-e: NT 2019.001 Versione 1.00   |
-          | In sospeso            |   10.0.5      | Spagna    |   Le regole di convalida cambiano dal 1° ottobre 2019   |
+  | Luglio 2019            |   10.0.4      | Messico   |  Dichiarazione di terzi DIOT - modifiche nel layout 2019   |  
+  | Agosto 2019            |   10.0.5      | Brasile    |   Guida tecnica ai contributi Sped 1.31. nuove indicazioni   | 
+  | Agosto 2019            |   10.0.5      | Spagna    |   Le regole di convalida cambiano dal 1° ottobre 2019   |
+  | Agosto 2019          |   10.0.5      | Messico    |   CFDI 3.3 - Il dettaglio delle transazioni IVA IEPS in XML deve essere facoltativo a seconda del profilo cliente |
+  |      Agosto 2019           |   10.0.5      | Regno Unito    |   DCR - Digitalizzare le imposte - Parametri di prevenzione delle frodi sul dispositivo di origine  |
    
 
 

@@ -1,9 +1,9 @@
 ---
-title: Piani generali
+title: Panoramica dei piani generali
 description: Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9731ba47f449e037850c95a7873e1ae4551e2a9
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 6a3fa16e0eeb4c392a80cc16cff004cf3765bd12
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595525"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865421"
 ---
-# <a name="master-plans"></a>Piani generali
+# <a name="master-plans-overview"></a>Panoramica dei piani generali
 
 [!include [banner](../includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836119"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887137"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -136,7 +136,6 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 
 - La creazione manuale di ordini di quarantena non è supportata per i prodotti a peso variabile.
 - Il movimento manuale delle scorte relativo al lavoro non è supportato per i prodotti a peso variabile.
-- Il consolidamento di targhe non è supportato per i prodotti a peso variabile.
 - Il caricamento targa per inizializzare le scorte di magazzino non è supportato per i prodotti a peso variabile.
 - I processi di bilanciamento del batch non sono supportati per i prodotti a peso variabile.
 - La gestione dell'inventario fisico negativo non è supportata per i prodotti a peso variabile.
@@ -147,7 +146,6 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 - La funzionalità per il prelievo del cluster non è supportata per i prodotti a peso variabile.
 - L'elaborazione di magazzino per prelievo e imballaggio non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, il lavoro definito in un modello di lavoro può essere eseguito automaticamente.
-- La funzionalità per lo storno del lavoro non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, l'elaborazione manuale presso il centro d'imballaggio in cui il lavoro viene creato dopo la chiusura dei contenitori non è supportata.
 - La funzionalità per la scansione pezzo per pezzo non è supportata per i prodotti a peso variabile.
  

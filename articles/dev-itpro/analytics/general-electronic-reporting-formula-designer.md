@@ -2,8 +2,8 @@
 title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849511"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864296"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -113,6 +113,33 @@ Designer formula ER può essere utilizzato anche per generare un nome file per l
 - Un'espressione abilita (restituendo **TRUE**) il processo di creazione file solo per i batch che contengono almeno un record.
 
 [![Controllo file](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Controllo del contenuto dei documenti
+
+Il designer formula ER può essere utilizzato per configurare espressioni che determinano i dati che verranno inseriti nei documenti elettronici generati in fase di esecuzione. Le espressioni possono abilitare o disabilitare l'output di elementi specifici del formato, in base ai dati di elaborazione e alla logica configurata. Queste espressioni possono essere immesse per un singolo elemento di formato nel campo **Abilitato** della scheda **Mapping** nella pagina **Designer operazioni** come condizione logica che restituisce il valore **Booleano** :
+
+-   Quando viene restituito **True**, l'elemento di formato corrente viene eseguito.
+-   Quando viene restituito **False**, l'elemento di formato corrente viene ignorato.
+
+La figura seguente mostra le espressioni di questo tipo (la versione **11.12.11** della configurazione formato **Bonifico ISO20022 (NO)** fornita da Microsoft è un esempio). Il componente formato **XMLHeader** è configurato per descrivere la struttura del messaggio di bonifico, in base agli standard di messaggio XML ISO 20022. Il componente formato **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** è configurato per essere aggiunto al messaggio generato, l'elemento XML **Ustrd**, e inserisce le informazioni sulla rimessa in un formato non strutturato come testo dei seguenti elementi XML:
+
+-   Il componente **PaymentNotes** viene utilizzato per generare il testo delle note di pagamento.
+-   Il componente **DelimitedSequence** genera numeri di fattura separati con virgole utilizzati per liquidare il bonifico corrente.
+
+[![Designer operazioni](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> I componenti **DelimitedSequence** e **PaymentNotes** sono etichettati utilizzando un punto interrogativo. Ciò significa che l'utilizzo di entrambi i componenti è condizionale, in base ai seguenti criteri:
+
+-   Definita per il componente **PaymentNote**, l'espressione **@.PaymentsNotes<>""** consente (restituendo **TRUE**) la popolazione nell'elemento XML **Ustrd**, il testo delle note di pagamento quando questo testo per il bonifico corrente non è vuoto.
+
+[![Designer operazioni](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Definita per il componente **DelimitedSequence**, l'espressione **@.PaymentsNotes=""** consente (restituendo **TRUE**) la popolazione dell'elemento XML **Ustrd**, numeri di fattura separati con virgole utilizzati per liquidare il bonifico corrente quando il testo delle note di pagamento per tale bonifico è vuoto.
+
+[![Designer operazioni](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+In base a questa impostazione, il messaggio generato per ogni pagamento debitore, l'elemento XML **Ustrd**, conterrà il testo delle note di pagamento o, quando questo testo è vuoto, il testo dei numeri di fattura separati con virgole utilizzati per liquidare il pagamento.
 
 ### <a name="basic-syntax"></a>Sintassi di base
 

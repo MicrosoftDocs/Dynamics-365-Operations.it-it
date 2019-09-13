@@ -3,7 +3,7 @@ title: " Configurazioni dei punti vendita per rendiconti di vendita al dettaglio
 description: In questa procedura sono illustrate le configurazioni per il punto vendita al dettaglio che interessa la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dbedcda59f503b103d5448e59038e4ed8ca0b51d
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563646"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916532"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Configurazioni dei punti vendita per rendiconti di vendita al dettaglio
 
@@ -30,21 +30,22 @@ ms.locfileid: "1563646"
 
 In questa procedura sono illustrate le configurazioni per il punto vendita al dettaglio che interessa la modalità di creazione e registrazione dei rendiconti di vendita al dettaglio. Le dimensioni finanziarie dei punti vendita al dettaglio sono analizzate in un'altra procedura. Questa procedura utilizza la società dimostrativa USRT.
 
-1. Passare a Vendita al dettaglio e commercio > Canali > Punti vendita al dettaglio > Tutti i punti vendita al dettaglio.
+1. Nel **pannello di navigazione**, andare a **Moduli > Vendita al dettaglio e commercio > Canali > Punti di vendita al dettaglio**.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Le impostazioni nella sezione Rendiconto/Chiusura interessa la creazione, la convalida e la registrazione del rendiconto per l'archivio.  Aprire la sezione Rendiconto/Chiusura.  
-    * Selezionare il metodo da utilizzare per raggruppare le linee del rendiconto.  
-    * Selezionare "Sì" se si deve creare un solo rendiconto al giorno quando si creano i rendiconti tramite il processo batch di creazione dei rendiconti.  
-    * Il campo Calcolo riepilogo incassi definisce se si devono aggiungere tutti i riepiloghi incassi o solo l'ultimo.  
-    * Selezionare il conto CoGe per la registrazione delle differenze di arrotondamento.  
-    * Nel campo Importo arrotondamento massimo, è possibile immettere la differenza di arrotondamento massima consentita.  
-    * Nel campo Registrazione, è possibile immettere la differenza di registrazione totale massima consentita per un rendiconto.  
-    * Nel campo Turno, è possibile immettere la differenza totale massima in un turno di un rendiconto.  
-    * Nel campo Transazione, è possibile immettere la differenza totale massima in una riga del rendiconto.  
-    * Nel campo Metodo di chiusura, è possibile definire se le transazioni da includere nel rendiconto devono fanno parte di turno chiuso o se possono essere transazioni che rientrano nell'intervallo di data/ora definito.  
-    * Nel campo Fine giorno lavorativo, è possibile immettere un'ora se le transazioni che si verificano dopo la mezzanotte devono essere registrate per il giorno precedente.  
-    * Selezionare "Sì" se le transazioni che si verificano dopo la mezzanotte devono essere registrate come parte del giorno precedente.  
-    * Selezionare "Sì" per ottenere i rendiconti creati per ciascun metodo di rendiconto definito. Ciò può essere utile se le prestazioni di registrazione devono essere migliorate per gli archivi con alti volumi di transazioni perché creano molti piccoli rendiconti che possono essere elaborati in parallelo.  
-    * Nel campo Cliente predefinito, è possibile selezionare il conto cliente da utilizzare per le vendite ai clienti che entrano.  
+4. Fare clic su **Modifica**.
+5. Le impostazioni nella Scheda dettaglio **Rendiconto/Chiusura** interessano la creazione, la convalida e la registrazione del rendiconto per l'archivio. Espandere la Scheda dettaglio **Rendiconto/Chiusura**.  
+6. Nel campo **Metodo rendiconto**, selezionare il metodo in base al quale raggruppare le linee del rendiconto.  
+7. Selezionare "Sì" in **Un rendiconto al giorno** se si deve creare un solo rendiconto al giorno quando si creano i rendiconti tramite il processo batch di creazione dei rendiconti.  
+8. Il campo **Calcolo riepilogo incassi** definisce se si devono aggiungere tutti i riepiloghi incassi o solo l'ultimo.  
+9. Nel campo **Arrotondamento**, selezionare il conto CoGe per la registrazione delle differenze di arrotondamento.  
+10. Nel campo **Importo arrotondamento massimo**, immettere la differenza di arrotondamento massima consentita.
+11. Nel campo **Registrazione**, immettere la differenza di registrazione totale massima consentita per un rendiconto.
+12. Nel campo **Turno**, immettere la differenza totale massima in un turno di un rendiconto.  
+13. Nel campo **Transazione**, immettere la differenza totale massima in una riga del rendiconto.  
+14. Nel campo **Metodo di chiusura**, definire se le transazioni da includere nel rendiconto devono fanno parte di turno chiuso o se possono essere transazioni che rientrano nell'intervallo di data/ora definito.  
+15. Nel campo **Fine giorno lavorativo**, immettere un'ora se le transazioni che si verificano dopo la mezzanotte devono essere registrate per il giorno precedente.  
+16. Selezionare "Sì" in **Registra come giorno lavorativo** se le transazioni che si verificano dopo la mezzanotte devono essere registrate come parte del giorno precedente.  
+17. Selezionare "Sì" in **Dividi per metodo rendiconto** per ottenere i rendiconti creati per ciascun metodo di rendiconto definito. Ciò può essere utile se le prestazioni di registrazione devono essere migliorate per gli archivi con alti volumi di transazioni perché creano molti piccoli rendiconti che possono essere elaborati in parallelo.  
+18. Nella Scheda dettatlio **Generale**, nel campo **Cliente predefinito**, è possibile selezionare il conto cliente da utilizzare per le vendite ai clienti che entrano.  
 

@@ -1,9 +1,9 @@
 ---
-title: Creare una revisione delle prestazioni
-description: In questa procedura viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
+title: Creare revisioni delle prestazioni
+description: In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,67 +16,66 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a387180386d65d31bf89004b374c43d377e7d349
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3583f974d1768e0efefb80f0ad8aa011669c1301
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508152"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867351"
 ---
-# <a name="create-a-performance-review"></a>Creare una revisione delle prestazioni
+# <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In questa procedura viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
+In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.
 
-1. Fare clic su Dipendente self-service.
-2. Fare clic su Nuova revisione per creare una nuova revisione.
-3. Nel campo Tipo di revisione immettere o selezionare un valore.
-4. Nel campo Periodo prestazioni immettere o selezionare un valore.
-5. Immettere una data nel campo Data di fine.
-6. Fare clic su OK.
-    * È inoltre possibile creare una revisione a partire da un modello. Si tratta del modo migliore per creare una revisione perché ogni sezione conterrà le informazioni necessarie per avviare una revisione.  
-7. Fare clic su Mostra sezioni per aprire la finestra di dialogo a discesa.
-8. Selezionare No nel campo Mostra allegati.
-9. Fare clic su Salva.
-    * Si noti che la scheda degli allegati ora è nascosta.  
-10. Fare clic su Mostra sezioni per aprire la finestra di dialogo a discesa.
-11. Selezionare Sì nel campo Mostra allegati.
-12. Fare clic su Salva.
-13. Fare clic su Aggiungi obiettivo a revisione.
-14. Scegliere Annulla.
-15. Fare clic su Aggiungi competenza per aprire la finestra di dialogo a discesa.
-16. Digitare un valore nel campo Titolo.
-17. Nel campo Descrizione, immettere 'Aumentare le competenze cliente lavorando con il team di supporto'.
-18. Fare clic su OK.
-19. Fare clic su Comprimi tutto.
-20. Fare clic su Espandi tutto.
-21. Fare clic su Aggiungi commento.
-22. Fare clic su Registra.
-23. Fare clic sulla scheda Misure.
-24. Fare clic su Aggiungi misura per aprire la finestra di dialogo a discesa.
-25. Nel campo Misura immettere o selezionare un valore.
-26. Nel campo Importo di destinazione immettere un numero.
-27. Fare clic su OK.
-28. Fare clic sulla scheda Attività.
-29. Scegliere Aggiungi.
-30. Digitare un valore nel campo Titolo.
-31. Nel campo Descrizione digitare un valore.
-32. Nel campo Data di inizio, immettere una data.
-33. Immettere una data nel campo Data di completamento.
-34. Nel campo Piano di sviluppo selezionare Sì.
-35. Nel campo Parole chiave digitare un valore.
-36. Fare clic su Salva.
-37. Fare clic sulla scheda Valutazioni.
-    * La scheda dettaglio Dettagli valutazione consente ai dipendenti di valutare se stessi e il responsabile di valutare il dipendente. Se i pesi vengono utilizzati, il valore del peso dei punteggi verrà calcolato automaticamente.    Per visualizzare questa sezione, è necessario abilitare le impostazioni dei parametri per la visualizzazione delle valutazioni del dipendente.  
-38. Fare clic sulla scheda Conferme.
-    * Se la revisione utilizza il flusso di lavoro, le conferme verranno visualizzate solo dopo il flusso di lavoro viene completato. Se nessun flusso di lavoro è utilizzato, sia il lavoratore che il responsabile sono elencati qui. La casella di controllo richiesta viene selezionata in base alle impostazioni del tipo di revisione.  
-39. Fare clic sulla scheda Generale.
-    * Il periodo di prestazioni crea le date di inizio e fine predefinite. Quelle date sono modificabili.  
-    * Gli stati consentono di controllare l'accesso alla revisione. Lo stato Non avviato consente a ognuno di modificare la revisione. Lo stato In corso consente solo al dipendente di visualizzare e modificare la revisione. Pronto per revisione consente solo al responsabile di visualizzare e modificare la revisione. Stato Revisione finale consente sia al dipendente che al responsabile di visualizzare e anche modificare la revisione se impostato nel tipo di revisione. Gli stati Completato, Rifiutato e Annullato rendono la revisione di sola lettura.  
-40. Nel campo Panoramica digitare un valore.
-41. Fare clic sulla scheda Revisione.
-    * Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  
-42. Fare clic sulla scheda Conferme.
-    * Il lavoratore e il responsabile possono confermare la revisione. Quando tutte le conferme sono state completate, lo stato verrà modificato in Completato e non è possibile apportare altre modifiche.  
+1. Nella home page, selezionare l'area di lavoro **Dipendente self-service**.
+2. Selezionare **Nuova revisione** per creare una nuova revisione.
+3. Nel campo **Tipo di revisione** immettere o selezionare un valore.
+4. Nel campo **Periodo prestazioni** immettere o selezionare un valore.
+5. Immettere una data nel campo **Data di fine**.
+6. Selezionare **OK**. È inoltre possibile creare una revisione a partire da un modello. Si tratta del modo migliore per creare una revisione perché ogni sezione conterrà le informazioni necessarie per avviare una revisione.  
+7. È possibile visualizzare o nascondere le schede come la scheda Allegati:
+
+    1. Nel riquadro azioni, selezionare **Mostra sezioni** per aprire la finestra di dialogo a discesa.
+    1. Selezionare **Sì** o **No** nel campo **Mostra allegati** per visualizzare o nascondere la scheda Allegati.
+    1. Selezionare **Salva**.
+
+8. Selezionare **Aggiungi obiettivo a revisione** per aggiungere un obiettivo. Al termine, selezionare **OK**.
+9. Fare clic su **Aggiungi competenza** per aprire la finestra di dialogo a discesa.
+10. Digitare un valore nel campo **Titolo**.
+11. Nel campo **Descrizione**, immettere `Increase customer skills by working with the support team`.
+12. Selezionare **OK**.
+13. Selezionare **Comprimi tutto**.
+14. Selezionare **Espandi tutto**.
+15. Selezionare **Aggiungi commento**.
+16. Selezionare **Registra**.
+17. Selezionare la scheda **Misurazioni**.
+18. Selezionare **Aggiungi misura** per aprire la finestra di dialogo a discesa.
+19. Nel campo **Misura** immettere o selezionare un valore.
+26. Nel campo **Importo di destinazione** immettere un numero.
+20. Selezionare **OK**.
+21. Selezionare la scheda **Attività**.
+22. Selezionare **Aggiungi**.
+23. Digitare un valore nel campo **Titolo**.
+24. Digitare un valore nel campo **Descrizione**
+25. Nel campo **Data di inizio**, immettere una data.
+26. Immettere una data nel campo **Data di completamento**.
+27. Selezionare **Sì** nel campo **Piano di sviluppo**.
+28. Nel campo **Parole chiave** digitare un valore.
+29. Selezionare **Salva**.
+30. Selezionare la scheda **Valutazioni**.  
+
+    - La Scheda dettaglio **Dettagli valutazione** consente ai dipendenti di valutare se stessi e il responsabile di valutare il dipendente. Se i pesi vengono utilizzati, il valore del peso dei punteggi verrà calcolato automaticamente.  
+    - Per visualizzare questa sezione, è necessario abilitare le impostazioni dei parametri per la visualizzazione delle valutazioni del dipendente.  
+
+31. Selezionare la scheda **Conferme**. Se la revisione utilizza il flusso di lavoro, le conferme verranno visualizzate solo dopo il flusso di lavoro viene completato. Se nessun flusso di lavoro è utilizzato, sia il lavoratore che il responsabile sono elencati qui. La casella di controllo richiesta viene selezionata in base alle impostazioni del tipo di revisione.  
+32. Selezionare la scheda **Generale**.
+
+    - Il periodo di prestazioni crea le date di inizio e fine predefinite. Quelle date sono modificabili.  
+    - Gli stati consentono di controllare l'accesso alla revisione. Lo stato **Non avviato** consente a ognuno di modificare la revisione. Lo stato **In corso** consente solo al dipendente di visualizzare e modificare la revisione. Pronto per revisione consente solo al responsabile di visualizzare e modificare la revisione. Stato Revisione finale consente sia al dipendente che al responsabile di visualizzare e anche modificare la revisione se impostato nel tipo di revisione. Gli stati **Completato**, **Rifiutato** e **Annullato** rendono la revisione di sola lettura.  
+
+33. Nel campo **Panoramica** digitare un valore.
+34. Selezionare la scheda **Revisione**. Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  
+35. Selezionare la scheda **Conferme**. Il lavoratore e il responsabile possono confermare la revisione. Quando tutte le conferme necessarie sono state completate, lo stato diventa **Completato** e non è possibile apportare altre modifiche.  
 

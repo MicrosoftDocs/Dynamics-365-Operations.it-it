@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837254"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867752"
 ---
 # <a name="reverse-a-vendor-payment"></a>Stornare un pagamento fornitore
 
@@ -48,7 +48,7 @@ Per conoscere il metodo utilizzato dall'organizzazione, visualizzare la pagina *
 Se l'organizzazione desidera registrare gli storni assegni subito dopo che è stato fatto clic su **Storno di pagamento** nella pagina **Assegni**, attenersi alla procedura che segue. Nella pagina **Parametri di gestione cassa e banche** impostare l'opzione **Usa processo di revisione per storni di pagamenti** su **No**. Nella pagina **Assegni** è possibile selezionare l'assegno da stornare e scegliere **Storno di pagamento**. È possibile quindi immettere la data e selezionare una causale per lo storno.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Stornare assegni registrati dopo che sono stati rivisti nel giornale di registrazione storni assegni
-Se l'organizzazione desidera esaminare gli storni assegni prima della registrazione, creare un giornale di registrazione storno assegni per la revisione e nella pagina **Parametri di gestione cassa e banche** impostare l'opzione **Usa processo di revisione per storni di pagamenti** su **Sì**. Nella pagina **Assegni** è possibile selezionare l'assegno da stornare e scegliere **Storno di pagamento**. È possibile quindi immettere la data e selezionare una causale per lo storno. È inoltre necessario selezionare un nome di giornale di registrazione per creare un giornale di registrazione nel giornale di registrazione storno assegni.
+Se l'organizzazione desidera esaminare gli storni assegni prima della registrazione, creare un giornale di registrazione storno assegni per la revisione e nella pagina **Parametri di gestione cassa e banche** impostare l'opzione **Usa processo di revisione per storni di pagamenti** su **Sì**. Nella pagina **Assegni** è possibile selezionare l'assegno da stornare e scegliere **Storno di pagamento**. È possibile quindi immettere la data e selezionare una causale per lo storno. Il motivo finanziario deve essere impostato per i tipi di fornitor e di banca. È inoltre necessario selezionare un nome di giornale di registrazione per creare un giornale di registrazione nel giornale di registrazione storno assegni.
 
 ### <a name="review-a-reversal"></a>Effettuare la revisione di uno storno
 

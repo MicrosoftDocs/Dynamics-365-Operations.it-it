@@ -3,7 +3,7 @@ title: Panoramica della gestione funzionalità
 description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862940"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887113"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -103,8 +103,9 @@ Tutte le funzionalità che possono essere abilitate verranno abilitate. Se una f
 
 Per impostazione predefinita, tutte le funzionalità aggiunte all'ambiente sono disabilitate, a meno che non siano funzionalità obbligatorie. Tuttavia, se si desidera abilitare automaticamente tutte le nuove funzionalità, è possibile utilizzare l'elenco a discesa sotto il titolo dell'area di lavoro per modificare ciò che avviene quando vengono aggiunte nuove funzionalità.
 
-- Selezionare **Tutte le nuove funzionalità saranno abilitate per impostazione predefinita** per abilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
-- Selezionare **Tutte le nuove funzionalità saranno disabilitate per impostazione predefinita** per disabilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+- Selezionare **Abilità nuove funzionalità automaticamente** per abilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+- Selezionare **Non abilitare nuove funzionalità automaticamente** per disabilitare tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+
 
 Quando si abilita automaticamente ogni funzionalità, saranno abilitate tutte le funzionalità che verrebbero abilitate quando si fa clic sul pulsante **Abilita tutto**. Non saranno abilitate le funzionalità che richiedono la conferma o le funzionalità che non possono essere abilitate finché non si intraprende un'azione.
 

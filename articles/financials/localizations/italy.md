@@ -1,9 +1,9 @@
 ---
-title: Italia
+title: Panoramica per l'Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 for Finance and Operations per l'Italia.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8c41786bb968a82c686fd943cf4df7f48809db4
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 05d8ad61d37ea08ffa0426f3f7436fc91449edfb
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852304"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865661"
 ---
-# <a name="italy"></a>Italia 
+# <a name="italy-overview"></a>Panoramica per l'Italia
 
 [!include [banner](../includes/banner.md)]
 

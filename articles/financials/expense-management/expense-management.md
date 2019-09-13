@@ -1,9 +1,9 @@
 ---
-title: Gestione spese
+title: Panoramica della gestione spese
 description: In questo argomento vengono fornite informazioni generali sulla gestione delle spese e collegamenti a risorse aggiuntive. È possibile utilizzare Gestione spese per creare un flusso di lavoro integrato in cui è possibile memorizzare informazioni sui metodi di pagamento, importare transazioni con carta di credito e tenere traccia delle spese sostenute dai dipendenti per conto della società.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/18/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fc56b77bea30583448b955bc0af5ef23d693f88
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 151abf630b444107459142f5d2da769dc5834b99
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1841011"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865824"
 ---
-# <a name="expense-management"></a>Gestione spese
+# <a name="expense-management-overview"></a>Panoramica della gestione spese
 
 [!include [banner](../includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: Inviare e approvare un budget di progetto
 description: In questa procedura viene illustrato come creare e inviare il budget per un progetto.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843915"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914863"
 ---
 # <a name="submit-and-approve-project-budget"></a>Inviare e approvare un budget di progetto
 
@@ -34,26 +34,26 @@ Quando si crea un budget del progetto è possibile immettere i costi e i ricavi 
 
 Questa attività è stata creata utilizzando il set di dati USSI.
 
-1. Passare a Gestione progetti e contabilità > Progetti > Tutti i progetti.
+1. Nel **pannello di navigazione**, andare a **Moduli > Gestione progetti e contabilità > Progetti > Tutti i progetti**.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Nel riquadro azioni, fare clic su Piano.
-5. Fare clic su Budget progetto.
-6. Nel campo Descrizione digitare un valore.
-7. Espandere la sezione Costi
-8. Fare clic su Nuovo.
-9. Selezionare un'opzione nel campo Tipo di transazione.
-10. Nel campo Categoria immettere o selezionare un valore.
-11. Nel campo Budget originale immettere un numero.
-12. Espandere la sezione Ricavi.
-13. Fare clic su Nuovo.
+4. Nel **riquadro azioni**, fare clic su **Piano**.
+5. Fare clic su **Budget progetto**.
+6. Digitare un valore nel campo **Descrizione**
+7. Espandere la Scheda dettaglio **Costo**.
+8. Fare clic su **Nuovo**.
+9. Selezionare un'opzione nel campo **Tipo di transazione**.
+10. Nel campo **Categoria** immettere o selezionare un valore.
+11. Nel campo **Budget originale** immettere un numero.
+12. Espandere la Scheda dettaglio **Ricavi**.
+13. Fare clic su **Nuovo**.
 14. Nell'elenco contrassegnare la riga selezionata.
-15. Selezionare un'opzione nel campo Tipo di transazione.
-16. Nel campo Categoria immettere o selezionare un valore.
-17. Nel campo Budget originale immettere un numero.
-18. Fare clic su Salva.
-19. Fare clic su Flusso di lavoro.
-20. Fare clic su Invia.
-21. Digitare un valore nel campo Commento.
-22. Fare clic su Invia.
+15. Selezionare un'opzione nel campo **Tipo di transazione**.
+16. Nel campo **Categoria** immettere o selezionare un valore.
+17. Nel campo **Budget originale** immettere un numero.
+18. Fare clic su **Salva**.
+19. Fare clic su **Flusso di lavoro**.
+20. Fare clic su **Invia**.
+21. Digitare un valore nel campo **Commento**.
+22. Fare clic su **Invia**.
 

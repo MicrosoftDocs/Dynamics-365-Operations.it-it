@@ -1,9 +1,9 @@
 ---
 title: Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
-description: In questa guida viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato.
+description: In questo argomento viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,45 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a2e61fd99cb80a1a9cc3d8e985fb0f14e3c2fc2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5cf0efeac2851e6ead6fc5e15a016370dfa620bc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844683"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914909"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In questa guida viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. La nuova nomenclatura di numero prodotto è assegnata al gruppo di dimensioni prodotto Colore e Dimensioni. Questa attività viene in genere effettuata da un responsabile del design del prodotto.
+In questo argomento viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. La nuova nomenclatura di numero prodotto è assegnata al gruppo di dimensioni prodotto Colore e Dimensioni. Questa attività viene in genere effettuata da un responsabile del design del prodotto.
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Creare una nomenclatura di numero prodotto
-1. Fare clic su Definizione modello di variante prodotto.
-2. Fare clic su Nomenclatura di prodotto.
-3. Fare clic su Nuovo.
-4. Nel campo Nome, immettere un nome di nomenclatura che consente di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio ColorSize.
-5. Nel campo Descrizione digitare un valore.
-6. Scegliere Aggiungi.
-7. Fare clic su Numero rappresentazione generale prodotto.
-8. Scegliere Aggiungi.
-9. Fare clic su Costante testo.
-10. Digitare un valore nel campo Testo.
-11. Scegliere Aggiungi.
-12. Fare clic su Colore.
-13. Scegliere Aggiungi.
-14. Fare clic su Costante testo.
-15. Digitare un valore nel campo Testo.
-16. Scegliere Aggiungi.
-17. Fare clic su Dimensione.
+1. Selezionare **Definizione modello di variante prodotto**.
+2. Selezionare **Nomenclatura di prodotto**.
+3. Selezionare **Nuovo**.
+4. Nel campo **Nome**, immettere un nome di nomenclatura che consente di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio `ColorSize`.
+5. Digitare un valore nel campo **Descrizione**
+6. Selezionare **Aggiungi**.
+7. Selezionare **Numero rappresentazione generale prodotto**.
+8. Selezionare **Aggiungi**.
+9. Selezionare **Costante testo**.
+10. Digitare un valore nel campo **Testo**.
+11. Selezionare **Aggiungi**.
+12. Seleziona **Colore**.
+13. Selezionare **Aggiungi**.
+14. Selezionare **Costante testo**.
+15. Digitare un valore nel campo **Testo**.
+16. Selezionare **Aggiungi**.
+17. Seleziona **Dimensioni**.
 18. Chiudere la pagina.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Assegnare la nomenclatura a una rappresentazione generale prodotto
-1. Fare clic su Gruppi di dimensioni prodotto.
-2. Selezionare il gruppo di dimensioni prodotto SizeCol.
-3. Fare clic su Modifica.
-4. Selezionare Sì nel campo Utilizza nomenclatura.
-5. Nel campo Nomenclatura di numero di variante prodotto immettere o selezionare un valore.
+1. Selezionare **Gruppi di dimensioni prodotto**.
+2. Selezionare il gruppo di **dimensioni prodotto SizeCol**.
+3. Selezionare **Modifica**.
+4. Selezionare **Sì** nel campo **Utilizza nomenclatura**.
+5. Nel campo **Nomenclatura di numero di variante prodotto** immettere o selezionare un valore.
 6. Chiudere la pagina.
 

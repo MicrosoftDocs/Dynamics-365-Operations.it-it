@@ -3,7 +3,7 @@ title: Impostare e creare profili di ammortamento
 description: I profili di ammortamento determinano il tipo e la frequenza di ammortamento per un cespite.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8879e61b872e36ddff9bf9c85efe54085f7a62c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cdfcf62615faa76a6bd1f00bd947ef04e23613df
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839835"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916209"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Impostare e creare profili di ammortamento
 
@@ -31,13 +31,12 @@ I profili di ammortamento determinano il tipo e la frequenza di ammortamento per
 
 
 ## <a name="create-a-depreciation-profile"></a>Creare un profilo di ammortamento
-1. Passare a Cespiti > Configurazione > Profili di ammortamento.
-2. Fare clic su Nuovo.
-3. Nel campo Profilo di ammortamento digitare un valore.
-4. Digitare un valore nel campo Nome.
-5. Selezionare un'opzione nel campo Metodo.
-    * Se si seleziona Saldo decrescente, sarà necessario immettere una percentuale nel campo Percentuale.  
-6. Selezionare un'opzione nel campo Anno di ammortamento.
-7. Selezionare un'opzione nel campo Frequenza periodo.
+1. Nel pannello di navigazione, passare a **Moduli > Cespiti > Impostazione > Profili di ammortamento**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Profilo di ammortamento** digitare un valore.
+4. Digitare un valore nel campo **Nome**.
+5. Selezionare un'opzione nel campo **Metodo**. Se si seleziona Saldo decrescente, sarà necessario immettere una percentuale nel campo **Percentuale**.  
+6. Selezionare un'opzione nel campo **Anno di ammortamento**.
+7. Selezionare un'opzione nel campo **Frequenza periodo**.
 8. Chiudere il modulo.
 
