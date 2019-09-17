@@ -17,92 +17,92 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 87d1c1994b14fac45fa305a9223ed45ee363a70c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518334"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741823"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="ab2c9-104">Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio</span><span class="sxs-lookup"><span data-stu-id="ab2c9-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="676f2-104">Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio</span><span class="sxs-lookup"><span data-stu-id="676f2-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ab2c9-105">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="ab2c9-105">**Issue**</span></span>
+<span data-ttu-id="676f2-105">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="676f2-105">**Issue**</span></span>
 
-<span data-ttu-id="ab2c9-106">Quando un cliente visualizza la gerarchia posizioni in Microsoft Dynamics 365 for Talent, i nomi di utenti e posizioni sono troncati.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-106">When a customer views the position hierarchy in Microsoft Dynamics 365 for Talent, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="ab2c9-107">Di conseguenza, può risultare difficile acquisire una schermata o stampare e distribuire la gerarchia.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
+<span data-ttu-id="676f2-106">Quando un cliente visualizza la gerarchia posizioni in Microsoft Dynamics 365 for Talent, i nomi di utenti e posizioni sono troncati.</span><span class="sxs-lookup"><span data-stu-id="676f2-106">When a customer views the position hierarchy in Microsoft Dynamics 365 for Talent, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="676f2-107">Di conseguenza, può risultare difficile acquisire una schermata o stampare e distribuire la gerarchia.</span><span class="sxs-lookup"><span data-stu-id="676f2-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
 
 ![Gerarchia posizioni](media/position-h.png)
 
-<span data-ttu-id="ab2c9-109">**Causa**</span><span class="sxs-lookup"><span data-stu-id="ab2c9-109">**Cause**</span></span>
+<span data-ttu-id="676f2-109">**Causa**</span><span class="sxs-lookup"><span data-stu-id="676f2-109">**Cause**</span></span>
 
-<span data-ttu-id="ab2c9-110">Questo comportamento è predefinito.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-110">This behavior is by design.</span></span>
+<span data-ttu-id="676f2-110">Questo comportamento è predefinito.</span><span class="sxs-lookup"><span data-stu-id="676f2-110">This behavior is by design.</span></span>
 
-<span data-ttu-id="ab2c9-111">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="ab2c9-111">**Resolution**</span></span>
+<span data-ttu-id="676f2-111">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="676f2-111">**Resolution**</span></span>
 
-<span data-ttu-id="ab2c9-112">Purtroppo, gli utenti non possono cambiare facilmente la dimensione del testo.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="ab2c9-113">Tuttavia, è possibile esportare la gerarchia posizioni da Talent e quindi importarla in Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-113">However, you can export the position hierarchy out of Talent and then import it into Microsoft Visio.</span></span> <span data-ttu-id="ab2c9-114">Sebbene l'articolo successivo sia scritto per Microsoft Dynamics AX 2012, il processo è valido anche per Talent: [Esportare una gerarchia posizioni in Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span><span class="sxs-lookup"><span data-stu-id="ab2c9-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Talent: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
+<span data-ttu-id="676f2-112">Purtroppo, gli utenti non possono cambiare facilmente la dimensione del testo.</span><span class="sxs-lookup"><span data-stu-id="676f2-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="676f2-113">Tuttavia, è possibile esportare la gerarchia posizioni da Talent e quindi importarla in Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="676f2-113">However, you can export the position hierarchy out of Talent and then import it into Microsoft Visio.</span></span> <span data-ttu-id="676f2-114">Sebbene l'articolo successivo sia scritto per Microsoft Dynamics AX 2012, il processo è valido anche per Talent: [Esportare una gerarchia posizioni in Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span><span class="sxs-lookup"><span data-stu-id="676f2-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Talent: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
 
-<span data-ttu-id="ab2c9-115">Seguire questa procedura per esportare in Visio.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-115">Follow these steps to export to Visio.</span></span>
+<span data-ttu-id="676f2-115">Seguire questa procedura per esportare in Visio.</span><span class="sxs-lookup"><span data-stu-id="676f2-115">Follow these steps to export to Visio.</span></span>
 
-1. <span data-ttu-id="ab2c9-116">In Talent, aprire la pagina elenco **Posizioni**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-116">In Talent, open the **Positions** list page.</span></span>
+1. <span data-ttu-id="676f2-116">In Talent, aprire la pagina elenco **Posizioni**.</span><span class="sxs-lookup"><span data-stu-id="676f2-116">In Talent, open the **Positions** list page.</span></span>
 
-    <span data-ttu-id="ab2c9-117">Per includere ulteriori informazioni nel diagramma della struttura organizzativa, aggiungere campi all'elenco **Posizioni**, di modo che siano disponibili quando si utilizza la procedura guidata in seguito in questa procedura.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
+    <span data-ttu-id="676f2-117">Per includere ulteriori informazioni nel diagramma della struttura organizzativa, aggiungere campi all'elenco **Posizioni**, di modo che siano disponibili quando si utilizza la procedura guidata in seguito in questa procedura.</span><span class="sxs-lookup"><span data-stu-id="676f2-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
 
-2. <span data-ttu-id="ab2c9-118">Nel riquadro azioni, selezionare il pulsante **Apri in Microsoft Office**, quindi sotto **Esporta in Excel**, selezionare **Posizioni**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="ab2c9-119">In alternativa, premere CTRL+T.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-119">Alternatively, press Ctrl+T.</span></span>
+2. <span data-ttu-id="676f2-118">Nel riquadro azioni, selezionare il pulsante **Apri in Microsoft Office**, quindi sotto **Esporta in Excel**, selezionare **Posizioni**.</span><span class="sxs-lookup"><span data-stu-id="676f2-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="676f2-119">In alternativa, premere CTRL+T.</span><span class="sxs-lookup"><span data-stu-id="676f2-119">Alternatively, press Ctrl+T.</span></span>
 
     ![Esportare la pagina elenco Posizioni in Excel](media/org-admin.png)
 
-3. <span data-ttu-id="ab2c9-121">Salvare il file di Excel esportato.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-121">Save the Excel file that is exported.</span></span>
+3. <span data-ttu-id="676f2-121">Salvare il file di Excel esportato.</span><span class="sxs-lookup"><span data-stu-id="676f2-121">Save the Excel file that is exported.</span></span>
 
     ![Finestra di dialogo Esporta in Excel](media/export-excel.png)
 
-4. <span data-ttu-id="ab2c9-123">In Visio, selezionare **Visio - Crea nuovo**, quindi selezionare la categoria di modelli **Ufficio**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
+4. <span data-ttu-id="676f2-123">In Visio, selezionare **Visio - Crea nuovo**, quindi selezionare la categoria di modelli **Ufficio**.</span><span class="sxs-lookup"><span data-stu-id="676f2-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
 
     ![Nuovo diagramma](media/new.png)
 
-5. <span data-ttu-id="ab2c9-125">Selezionare **Creazione guidata organigramma** e quindi selezionare **Crea**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
+5. <span data-ttu-id="676f2-125">Selezionare **Creazione guidata organigramma** e quindi selezionare **Crea**.</span><span class="sxs-lookup"><span data-stu-id="676f2-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
 
     ![Finestra di dialogo Creazione guidata organigramma](media/orgchart-wizard.png)
 
-6. <span data-ttu-id="ab2c9-127">Selezionare **Informazioni memorizzate in un file o database** e quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
+6. <span data-ttu-id="676f2-127">Selezionare **Informazioni memorizzate in un file o database** e quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 1](media/orgchart-wizard7.png)
 
-7. <span data-ttu-id="ab2c9-129">Scegliere **Un file di testo, Org Plus (\*.txt) o Excel**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
+7. <span data-ttu-id="676f2-129">Scegliere **Un file di testo, Org Plus (\*.txt) o Excel**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 2](media/orgchart-wizard3.png)
 
-8. <span data-ttu-id="ab2c9-131">Selezionare il file di Excel esportato contenente la gerarchia posizioni, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
+8. <span data-ttu-id="676f2-131">Selezionare il file di Excel esportato contenente la gerarchia posizioni, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 3](media/orgchart-wizard2.png)
 
-9. <span data-ttu-id="ab2c9-133">Impostare il campo **Nome** su **Posizione**, impostare il campo **Subordinato a** su **Subordinato a**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
+9. <span data-ttu-id="676f2-133">Impostare il campo **Nome** su **Posizione**, impostare il campo **Subordinato a** su **Subordinato a**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 4](media/orgchart-wizard1.png)
 
-10. <span data-ttu-id="ab2c9-135">Selezionare i campi che devono essere visualizzati in ogni nodo, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
+10. <span data-ttu-id="676f2-135">Selezionare i campi che devono essere visualizzati in ogni nodo, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 5](media/orgchart-wizard5.png)
 
-11. <span data-ttu-id="ab2c9-137">Aggiungere la colonna **Posizione** all'elenco **Campi proprietà forme**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
+11. <span data-ttu-id="676f2-137">Aggiungere la colonna **Posizione** all'elenco **Campi proprietà forme**, quindi selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
 
     ![Creazione guidata organigramma 6](media/orgchart-wizard6.png)
 
-12. <span data-ttu-id="ab2c9-139">Le immagini non sono attualmente disponibili.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-139">Pictures aren't currently available.</span></span> <span data-ttu-id="ab2c9-140">Di conseguenza, nella pagina successiva, selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-140">Therefore, on the next page, select **Next**.</span></span>
-13. <span data-ttu-id="ab2c9-141">Selezionare **I dati aziendali verranno suddivisi sulle pagine in modo automatico**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
+12. <span data-ttu-id="676f2-139">Le immagini non sono attualmente disponibili.</span><span class="sxs-lookup"><span data-stu-id="676f2-139">Pictures aren't currently available.</span></span> <span data-ttu-id="676f2-140">Di conseguenza, nella pagina successiva, selezionare **Avanti**.</span><span class="sxs-lookup"><span data-stu-id="676f2-140">Therefore, on the next page, select **Next**.</span></span>
+13. <span data-ttu-id="676f2-141">Selezionare **I dati aziendali verranno suddivisi sulle pagine in modo automatico**.</span><span class="sxs-lookup"><span data-stu-id="676f2-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
 
     ![Creazione guidata organigramma 7](media/orgchart-wizard4.png)
 
-14. <span data-ttu-id="ab2c9-143">Selezionare **Fine**.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-143">Select **Finish**.</span></span>
+14. <span data-ttu-id="676f2-143">Selezionare **Fine**.</span><span class="sxs-lookup"><span data-stu-id="676f2-143">Select **Finish**.</span></span>
 
-    <span data-ttu-id="ab2c9-144">Se sono presenti posizioni non incluse nella struttura, viene richiesto di includerle nel diagramma.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
+    <span data-ttu-id="676f2-144">Se sono presenti posizioni non incluse nella struttura, viene richiesto di includerle nel diagramma.</span><span class="sxs-lookup"><span data-stu-id="676f2-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
 
-<span data-ttu-id="ab2c9-145">Nel diagramma generato in Visio ogni responsabile è visualizzato su un foglio di lavoro distinto.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
+<span data-ttu-id="676f2-145">Nel diagramma generato in Visio ogni responsabile è visualizzato su un foglio di lavoro distinto.</span><span class="sxs-lookup"><span data-stu-id="676f2-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
 
-<span data-ttu-id="ab2c9-146">In base ai campi selezionati da includere nel diagramma, ogni nodo visualizza le informazioni appropriate quando il file Visio viene generato.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
+<span data-ttu-id="676f2-146">In base ai campi selezionati da includere nel diagramma, ogni nodo visualizza le informazioni appropriate quando il file Visio viene generato.</span><span class="sxs-lookup"><span data-stu-id="676f2-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
 
 ![Diagramma della gerarchia](media/hierarchy.png)
 
-<span data-ttu-id="ab2c9-148">**Opzione aggiuntiva**</span><span class="sxs-lookup"><span data-stu-id="ab2c9-148">**Additional option**</span></span>
+<span data-ttu-id="676f2-148">**Opzione aggiuntiva**</span><span class="sxs-lookup"><span data-stu-id="676f2-148">**Additional option**</span></span>
 
-<span data-ttu-id="ab2c9-149">In Talent, è inoltre possibile utilizzare l'area di lavoro **Persone** per visualizzare le informazioni relative alla gerarchia.</span><span class="sxs-lookup"><span data-stu-id="ab2c9-149">In Talent, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
+<span data-ttu-id="676f2-149">In Talent, è inoltre possibile utilizzare l'area di lavoro **Persone** per visualizzare le informazioni relative alla gerarchia.</span><span class="sxs-lookup"><span data-stu-id="676f2-149">In Talent, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
