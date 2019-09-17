@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634482"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741622"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Novità e modifiche in Dynamics 365 for Talent (11 giugno 2019)
 
@@ -76,9 +76,9 @@ L'entità Gruppo di attività è stata aggiunta.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Le funzionalità di anteprima verranno attivate solo negli ambienti sandbox
 
-Per ulteriori informazioni su come vengono pubblicate le modifiche, vedere [Eseguire il provisioning di Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Per ulteriori informazioni su come vengono pubblicate le modifiche, vedere [Eseguire il provisioning di Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-Quando si esegue il provisioning di una nuova istanza di Talent, è possibile indicare se il tipo di istanza è Produzione o Sandbox. Il tipo di istanza Sandbox consente di testare le nuove funzionalità prima dell'utilizzo. Tutte le istanze Talent esistenti verranno aggiornate al tipo di istanza di **produzione**. Se si desidera aggiornare una delle istanze esistenti al tipo di istanza **Sandbox**, contattare il [supporto tecnico](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) per avviare la richiesta di modifica.
+Quando si esegue il provisioning di una nuova istanza di Talent, è possibile indicare se il tipo di istanza è Produzione o Sandbox. Il tipo di istanza Sandbox consente di testare le nuove funzionalità prima dell'utilizzo. Tutte le istanze Talent esistenti verranno aggiornate al tipo di istanza di **produzione**. Se si desidera aggiornare una delle istanze esistenti al tipo di istanza **Sandbox**, contattare il [supporto tecnico](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) per avviare la richiesta di modifica.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>Limitare i tipi di congedo nelle richieste di permessi
 

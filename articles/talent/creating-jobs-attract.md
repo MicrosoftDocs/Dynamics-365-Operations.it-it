@@ -3,7 +3,7 @@ title: Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
 description: In questo argomento sono descritti gli elementi di una mansione in Attract. Viene illustrato anche come creare una mansione.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518354"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773260"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
+# <a name="create-a-job"></a>Creare una posizione
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [F
 > [!NOTE]
 > La funzionalità di pubblicazione di annunci di mansioni è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale di Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Pubblicare annunci di mansioni in LinkedIn 
-
-Prima di pubblicare un annuncio di mansione da Attract a LinkedIn, l'amministratore deve aggiungere l'ID e il nome società LinkedIn in **Impostazioni di amministrazione**. L'ID società LinkedIn è necessario per garantire che gli annunci pubblicati da Attract siano mappati alla pagina società corretta.
-
-L'ID società LinkedIn è una stringa di numeri che identifica in modo univoco la società in LinkedIn. Per ulteriori informazioni su come trovare l'ID società LinkedIn, visitare il [sito LinkedIn](https://aka.ms/findID).
-
-Per aggiornare la società LinkedIn, selezionare **Interfaccia di amministrazione** nel menu **impostazioni**  (il simbolo di ingranaggio) e quindi selezionare **Integrazione di LinkedIn** . Nella sezione **Connetti a LinkedIn**, immettere il nome e l'ID società LinkedIn, quindi salvare le impostazioni.
-
-> [!NOTE]
-> È necessario considerare quattro cose importanti in relazione al processo di pubblicazione di annunci di mansioni in LinkedIn.
-> 1. Le mansioni pubblicate in LinkedIn lo sono come mansioni di "Elenchi restrizioni". Le mansioni di elenchi restrizioni non possono essere promosse nel sito di LinkedIn. Se si desidera promuovere le mansioni di elenchi restrizioni pubblicate in LinkedIn da Attract, è necessario abilitare il wrapping delle mansioni in LinkedIn. Per ulteriori informazioni, fare riferimento ai collegamenti qui sotto e contattare il Supporto tecnico LinkedIn.
->
->    [Elenchi restrizioni e slot di mansioni premium per il wrapping di mansioni](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Domande frequenti sul wrapping di mansioni](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Quando si pubblicano mansioni in LinkedIn, Attract passa il nome dell'organizzazione Microsoft 365 per la mansione. LinkedIn collega le mansioni a una società sul lato LinkedIn in base al nome dell'organizzazione passato. Se la mansione è elencata per una società errata in LinkedIn, verificare che il nome dell'organizzazione Microsoft 365 corrisponda al nome della società in LinkedIn.  
->
->    [Modifica di indirizzo, contatto e altre informazioni](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    In caso di problemi dopo questo passaggio, contattare il Supporto tecnico LinkedIn. 
-> 
-> 1. Gli annunci di mansioni pubblicati in LinkedIn sono visualizzati nel sito LinkedIn. Non esiste un ambiente di prova per la pubblicazione di annunci di mansioni in LinkedIn. 
->
-> 1. A causa del processo di registrazione corrente del processo batch di LinkedIn, è possibile che siano necessarie fino a 24 ore perché le mansioni registrate in LinkedIn siano visibili ai candidati in LinkedIn.
-
-
 ## <a name="activate"></a>Attiva
 
 Dopo che una mansione è attivata, può essere pubblicata e i prospect e i candidati vi possono essere aggiunti. L'opzione per aggiungere prospect a una mansione viene impostata nell'attività di prospect nel processo di assunzione.
@@ -142,7 +115,7 @@ Se un utente modifica il processo dopo l'approvazione, ma prima dell'attivazione
 Le persone elencate come approvatori riceveranno una notifica in Attract e un messaggio di posta elettronica per informarli che hanno un elemento da approvare.  Nel messaggio di posta elettronica, gli approvatori possono fare clic sul collegamento per aprire il processo, esaminarne i dettagli e approvarlo o rifiutarlo. Dopo che lo stato del processo diventa **Approvato** o **Rifiutato**, l'autore dell'invio verrà informato in Attract e riceverà un messaggio di posta elettronica. Inoltre, gli approvatori riceveranno un messaggio di posta elettronica se non hanno risposto alla richiesta di approvazione entro 24 ore.
 
 > [!NOTE]
-> È possibile creare modelli personalizzati per i messaggi di posta elettronica di approvazione. Per ulteriori informazioni, vedere [Creazione e gestione di modelli di e-mail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> È possibile creare modelli personalizzati per i messaggi di posta elettronica di approvazione. Per ulteriori informazioni, vedere [Creazione e gestione di modelli di e-mail](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Creare una mansione
 

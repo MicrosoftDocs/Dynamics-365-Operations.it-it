@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518360"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742751"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Utenti di Azure Active Directory non trovati nello strumento di selezione persone
 
@@ -36,9 +36,9 @@ Alcuni utenti validi in Microsoft Azure Active Directory (Azure AD) per il tenan
 
 Alcuni tipi di utenti non sono attualmente supportati nelle applicazioni Attract e Onboard. Verificare che l'utente non sia un utente guest B2B Azure AD. L'informazione "Tipo utente" si trova nel pannello Azure Active Directory nel portale di Azure.
 
-Per ulteriori informazioni su Azure B2B, vedere [Che cos'è l'accesso utente guest in Azure Active Directory B2B?](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Per ulteriori informazioni su Azure B2B, vedere [Che cos'è l'accesso utente guest in Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Per alcuni utenti non B2B, è possibile che la proprietà "Tipo di utente" sia incompleta nell'oggetto **Utente**. Ciò può essere verificato e risolto utilizzando il modulo Azure AD Powershell. Per ulteriori informazioni, vedere [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).
+Per alcuni utenti non B2B, è possibile che la proprietà "Tipo di utente" sia incompleta nell'oggetto **Utente**. Ciò può essere verificato e risolto utilizzando il modulo Azure AD Powershell. Per ulteriori informazioni, vedere [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).
 
 ## <a name="resolution"></a>Risoluzione
 

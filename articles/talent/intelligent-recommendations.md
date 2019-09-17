@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620622"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741754"
 ---
 # <a name="intelligent-recommendations"></a>Suggerimenti intelligenti
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620622"
 L'apprendimento automatico può aiutare i selezionatori e i responsabili assunzioni a identificare i candidati migliori per una posizione. Può anche consentire ai prospect di individuare la posizione più appropriata per il proprio profilo e interessi. Man mano che si usano queste funzionalità e viene fornito feedback, i suggerimenti migliorano.
 
 > [!NOTE] 
-> - Le funzionalità di suggerimenti intelligenti sono disponibili solo con il [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Le funzionalità di suggerimenti intelligenti sono disponibili solo con il [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando l'**Interfaccia di amministrazione** in Attract. Impostare **Suggerimento candidato**, **Suggerimento posizione** e **Suggerimento prospect** su **Attivato**. Per ulteriori informazioni, vedere [Accesso alle funzionalità in anteprima in Talent](./access-preview-feature.md). 
 
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518341"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795246"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Novità o modifiche in Dynamics 365 for Talent (2 aprile 2019)
 
@@ -57,13 +57,13 @@ In Attract and Onboard, i problemi segnalati dagli utenti finali mediante la fun
 Le modifiche descritte in questo sezione sono valide per la build numero 8.1.2216.
 
 ### <a name="platform-update-25"></a>Update 25 della piattaforma
-Per ulteriori informazioni sull'aggiornamento 25 della piattaforma, vedere [Funzionalità di anteprima nell'aggiornamento 25 della piattaforma Dynamics 365 for Finance and Operations (aprile 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Per ulteriori informazioni sull'aggiornamento 25 della piattaforma, vedere [Funzionalità di anteprima nell'aggiornamento 25 della piattaforma Dynamics 365 for Finance and Operations (aprile 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Protezione retribuzione avanzata (fissa e variabile)
 In molte organizzazioni, i responsabili delle retribuzioni e dei benefit potrebbero avere accesso solo a determinati record di retribuzione. Questi potrebbero includere record per dirigenti o dipendenti regionali. Questa modifica consente alle Risorse umane di gestire i piani di retribuzione per differenti gruppi di dipendenti nell'organizzazione. È possibile assegnare ruoli di sicurezza a piani fissi e variabili. Questi ruoli di sicurezza determinano l'accesso a piani e ai dati dei dipendenti correlati, quali record di stipendi e premi, di modo che solo quei ruoli possano elaborare la retribuzione per i gruppi di dipendenti.
 
 ### <a name="upgrade-to-common-data-service"></a>Aggiornamento a Common Data Service
-Le scadenze per l'aggiornamento a Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Le scadenze per l'aggiornamento a Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>In anteprima
 
