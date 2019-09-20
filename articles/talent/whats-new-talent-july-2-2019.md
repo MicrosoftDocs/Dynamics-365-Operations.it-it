@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729786"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791978"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Novità e modifiche in Dynamics 365 for Talent (2 luglio 2019)
 
@@ -37,13 +37,18 @@ Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynam
 
 È ora possibile configurare le impostazioni di posta elettronica di modo che i messaggi di posta elettronica a candidati, responsabili del colloquio, selezionatori e responsabili assunzioni siano inviati dall'account del servizio di posta elettronica dell'organizzazione. Per ulteriori informazioni vedere [Connettere un account del servizio di posta elettronica](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>Modelli di messaggio di posta elettronica per offerte 
+### <a name="offer-email-templates"></a>Modelli di messaggio di posta elettronica per offerte 
 
 Ora è possibile configurare modelli di messaggio di posta elettronica dell'organizzazione per tutte le fasi durante la preparazione, l'approvazione e l'accettazione delle offerte. Gli utenti possono utilizzare il modello predefinito o personalizzarlo prima dell'invio dei messaggi di posta elettronica. Per ulteriori informazioni, vedere [Configurare le impostazioni per modelli di messaggio di posta elettronica](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Consenso dei candidati prima dell'invio delle domande di lavoro
 
 È ora possibile attivare il collegamento Termini e condizioni per l'organizzazione. Con questa impostazione attivata, i candidati devono accettare i termini e le condizioni prima di inviare le domande di lavoro. 
+
+### <a name="coming-soon-in-attract"></a>Funzionalità presto disponibili in Attract
+#### <a name="job-approvals-appear-on-the-home-page"></a>Approvazioni delle mansioni visualizzate nella home page
+
+Le approvazioni sono visualizzate nella sezione **Approvazioni** del dashboard. Gli approvatori possono esaminare le relative approvazioni in **Assegnate all'utente**, in cui è visualizzato l'ID mansione, il titolo della mansione, altri approvatori e la data in cui la mansione è stata assegnata. Gli utenti che inviano una mansione per l'approvazione possono esaminare le mansioni in **Richieste dall'utente** in cui sono visualizzati gli approvatori che devono ancora approvare la mansione inviata.
 
 ## <a name="changes-in-onboard"></a>Modifiche in Onboard
 

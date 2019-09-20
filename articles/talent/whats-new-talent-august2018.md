@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: be76f29dc9d38cdf3c2d56120a830acae69937a4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518336"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742611"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (agosto 2018)
 
@@ -81,7 +81,7 @@ Dopo avere configurato per l'utilizzo di una delle date specifiche di un dipende
 
 Sono stati abilitati modelli di documento in tutto Core HR. Questa funzionalità consente di creare lettere e report in base ai modelli di Word che si intende creare.
 
-Ulteriori informazioni su questa funzionalità sono disponibili nell'[Esercitazione sull'integrazione di Office](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
+Ulteriori informazioni su questa funzionalità sono disponibili nell'[Esercitazione sull'integrazione di Office](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
 
 
 ## <a name="other-fixes"></a>Altre correzioni

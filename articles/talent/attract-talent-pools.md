@@ -1,6 +1,6 @@
 ---
-title: Esaminare i candidati utilizzando i pool di talenti
-description: In questo argomento viene descritto come creare e configurare pool di talenti in Attract.
+title: Selezionare candidati con pool di talenti in Microsoft Dynamics 365 for Talent - Attract
+description: In questo argomento viene descritto come creare e configurare pool di talenti in Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711296"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741869"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Esaminare i candidati utilizzando i pool di talenti
+# <a name="source-candidates-with-talent-pools"></a>Selezionare i candidati utilizzando i pool di talenti
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Il proprietario e i contributori nel pool di talenti possono aggiungere candidat
 ## <a name="search-and-view-candidate-profiles"></a>Cercare e visualizzare profili di candidati
 
 > [!NOTE] 
-> Questa funzionalità è attualmente in anteprima. Se si desidera provarla, è necessario [attivarla nelle impostazioni di amministrazione di Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Questa funzionalità è attualmente in anteprima. Se si desidera provarla, è necessario [attivarla nelle impostazioni di amministrazione di Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 I pool di talenti consentono di visualizzare il profilo di un candidato, le informazioni di LinkedIn, i documenti correlati e lo storico dell'applicazione. È possibile cercare nell'intero database tutti i candidati aggiunti a qualsiasi pool di talenti, inclusi i candidati chiusi e attivi.
 
@@ -116,7 +116,7 @@ Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei can
 
     Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft Office 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
 
-- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Cercare candidati con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Cercare candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Solo i candidati possono aggiornare le competenze, lo storico del percorso formativo e le esperienze di lavoro ad essi relativi.

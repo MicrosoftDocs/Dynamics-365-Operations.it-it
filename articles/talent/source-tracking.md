@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518398"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742720"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Tenere traccia delle origini delle domande di lavoro e dei profili dei candidati 
+# <a name="track-candidate-sources"></a>Tenere traccia delle origini dei candidati
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando **Impostazioni di amministrazione** in Attract. Una versione futura fornirà report di tracciabilità delle origini. Per ulteriori informazioni, vedere [Accesso alle funzionalità di anteprima in Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando **Impostazioni di amministrazione** in Attract. Una versione futura fornirà report di tracciabilità delle origini. Per ulteriori informazioni, vedere [Accesso alle funzionalità di anteprima in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Quando i candidati si candidano per una mansione, Attract tiene automaticamente traccia dell'origine delle loro domande di lavoro, fornendo informazioni preziose per migliorare le operazioni di selezione. I selezionatori e i responsabili delle assunzioni possono inoltre selezionare l'origine di una domanda di lavoro quando aggiungono manualmente un candidato a una mansione o a un pool di talenti.
 
 È possibile visualizzare l'origine della domanda di lavoro nei dettagli dell'attività della domanda di lavoro nella scheda **Attività** nonché nello storico delle domande di lavoro disponibile in **Profilo** nei pool di talenti. È possibile trovare l'origine del profilo di un candidato nei dettagli del candidato nella scheda **Profilo** di Domande di lavoro e Pool di talenti.
 
 > [!NOTE] 
-> I modelli di processo sono disponibili nel [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> I modelli di processo sono disponibili nel [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Origini preconfigurate
 
@@ -93,7 +93,7 @@ L'elenco di origini predefinite contiene origini di domande di lavoro comuni. Al
 
 ## <a name="customize-the-source-list"></a>Personalizzare l'elenco di origini 
 
-È possibile estendere l'elenco di origini per includere ulteriori origini di domande di lavoro. Per personalizzare questo elenco, seguire le istruzioni in [Estensione di set di opzioni in Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Modificare l'entità **TalentSource** per includere ulteriori origini. 
+È possibile estendere l'elenco di origini per includere ulteriori origini di domande di lavoro. Per personalizzare questo elenco, seguire le istruzioni in [Estensione di set di opzioni in Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Modificare l'entità **TalentSource** per includere ulteriori origini. 
 
 Per evitare un impatto negativo sull'interfaccia utente, non modificare o eliminare i valori di enumerazione **TalentCategory** (non i nomi) per quanto segue:
 

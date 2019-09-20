@@ -1,9 +1,9 @@
 ---
-title: Attività nei processi
-description: Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione.
+title: Attività nei processi in Microsoft Dynamics 365 for Talent - Attract
+description: Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione in Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518404"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739719"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Attività nei processi di assunzione
+# <a name="activities-in-hiring-processes"></a>Attività nei processi di assunzione
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Le attività è possibile aggiungere come parte del processo di assunzione in Mi
 ## <a name="prospect-activity"></a>Attività per prospect
 
 L'attività di prospect controlla se i prospect possano essere aggiunte a una mansione. Per impostazione predefinita, i prospect possono essere aggiunte a una mansione. Per disattivare l'attività di prospect, impostare l'opzione **Abilita candidato** su **Disattivato**. Quando l'attività di prospect abilitata, i responsabili delle assunzioni possono aggiungere e visualizzare i prospect e la scheda **Candidato** viene visualizzata nella mansione.
+
+> [!NOTE]
+> Per consentire ai candidati da aggiungere a un processo da LinkedIn, è necessario impostare l'opzione **Abilita prospect** **Il**.
 
 ## <a name="application-activity"></a>Attività per domande di lavoro
 

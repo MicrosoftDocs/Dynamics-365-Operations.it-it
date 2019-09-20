@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577797"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781444"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Estendere Talent utilizzando PowerApps e Microsoft Flow - Scenari di esempio
 
@@ -101,24 +101,15 @@ Questo modello può essere esteso di modo che sia possibile utilizzarlo per qual
 
 Per scaricare il modello **Flusso – Integrazione di SharePoint**, andare a [Flusso – Integrazione di SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) nell'Area download Microsoft.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Console di amministrazione per gestire i pool di talenti
+## <a name="referral-app"></a>Referral App
+È possibile utilizzare Referral App per aggiungere candidati a un pool di talenti condiviso. Il referente può immettere **Nome**, **Cognome**, **E-mail** e **URL Linkedln** quando invia un candidato. I metadati di origine del candidato vengono quindi completati con le informazioni del referente.
 
-Quando si abilita l'integrazione con LinkedIn, Attract crea automaticamente un pool di talenti su LinkedIn. Quando un selezionatore scambia InMail con un candidato tramite LinkedIn, Attract crea un profilo per il candidato e il candidato diventa un membro del pool di talenti di LinkedIn. Questa app PowerApps è utile per riorganizzare i candidati nei pool di talenti in base alle competenze.
+È possibile incorporare questa app in Dipendente self-service (ESS) per inviare referenze oppure è possibile utilizzarla come collegamento ipertestuale nel portale aziendale ed eseguirla come applicazione autonoma.
 
-Eseguire questa app PowerApps come console di amministrazione per eseguire le seguenti attività:
-
-- Elencare i candidati in un pool di talenti
-- Aggiungere e rimuovere candidati da un pool di talenti
-- Spostare i candidati da un pool di talenti a un altro
-- Determinare se i candidati fanno già parte di un pool di talenti prima di spostarli
-- Verificare le competenze dei candidati prima di spostarli in altri pool di talenti
-
-Questa app di PowerApps utilizza relazioni molti-a-molti, quindi è possibile utilizzarla come modello per altri scenari in cui è necessario estrarre record con relazioni molti-a-molti.
-
-Per scaricare il modello **Console di amministrazione per gestire i pool di talenti**, andare a [Console di amministrazione per gestire i pool di talenti](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) nell'Area download Microsoft.
+Per scaricare **Referral App**, accedere a [Soluzione di estensibilità Dynamics 365 for Talent: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) nell'Area download Microsoft. È possibile importare questa app e personalizzarla per aggiungere altre funzionalità.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Migrare app tra tenant e ambienti](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Migrare app tra tenant e ambienti](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

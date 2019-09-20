@@ -1,6 +1,6 @@
 ---
-title: Utilizzare i report analitici per informazioni dettagliate sul processo di assunzione
-description: In questo argomento vengono descritti i report analitici di Attract
+title: Utilizzare i report analitici in Microsoft Dynamics 365 for Talent - Attract
+description: In questo argomento vengono descritti i report analitici per il processo di assunzione in Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516562"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742890"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Utilizzare i report analitici per informazioni dettagliate sul processo di assunzione
+# <a name="use-analytic-reports"></a>Utilizzare report analitici
 
 I report analitici in Attract offrono una soluzione pronta all'uso per informazioni sul processo di assunzione. Le funzionalità disponibili includono:
 
@@ -81,8 +81,8 @@ Nei report Analisi posizione vengono visualizzati i dati relativi alla posizione
 
 ## <a name="cross-filter"></a>Filtro incrociato
 
-Una delle interessanti caratteristiche di Power BI è il modo in cui tutte le immagini in una pagina di report sono interconnesse. Se si seleziona un punto dati su una delle immagini, tutte le altre immagini della pagina che contengono tali dati cambiano, in base a tale selezione. Ulteriori informazioni e un esempio sono disponibili qui: [In che modo le immagini si filtrano a vicenda in un report di Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Una delle interessanti caratteristiche di Power BI è il modo in cui tutte le immagini in una pagina di report sono interconnesse. Se si seleziona un punto dati su una delle immagini, tutte le altre immagini della pagina che contengono tali dati cambiano, in base a tale selezione. Ulteriori informazioni e un esempio sono disponibili qui: [In che modo le immagini si filtrano a vicenda in un report di Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Esporta in Excel
 
-Per visualizzare i dati del report in Excel, è possibile fare clic sul menu di opzioni (tre punti) su un'immagine e selezionare **Esporta i dati sottostanti**. I dati esportati verranno esportati come filtrati, rispettando le autorizzazioni degli utenti in Attract. Per ulteriori informazioni, vedere [Esportare dati dalle visualizzazioni](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Per visualizzare i dati del report in Excel, è possibile fare clic sul menu di opzioni (tre punti) su un'immagine e selezionare **Esporta i dati sottostanti**. I dati esportati verranno esportati come filtrati, rispettando le autorizzazioni degli utenti in Attract. Per ulteriori informazioni, vedere [Esportare dati dalle visualizzazioni](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

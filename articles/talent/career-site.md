@@ -1,6 +1,6 @@
 ---
-title: Funzionalità del sito di avanzamento professionale in Attract
-description: Questo articolo fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Attract.
+title: Configurare il sito per le possibilità di carriera in Microsoft Dynamics 365 for Talent - Attract
+description: Questo articolo fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729705"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739773"
 ---
-# <a name="career-site-functionality-in-attract"></a>Funzionalità del sito di avanzamento professionale in Attract
+# <a name="set-up-your-career-site"></a>Configurare il sito per le possibilità di carriera
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ I candidati possono inoltre possibile caricare un curriculum, secondo le esigenz
 1. Accedere a Attract come amministratore.
 2. Selezionare il pulsante **Impostazioni** (il simbolo dell'ingranaggio) nell'angolo superiore destro della pagina, quindi selezionare **Interfaccia di amministrazione**.
 3. Selezionare la scheda **Integrazione di LinkedIn** e connettersi a un conto di LinkedIn Recruiter.
-4. Nella sezione **Integrazione di LinkedIn Recruiter System Connect**selezionare **Abilitato** per l'impostazione **Fai domanda con LinkedIn**.
+4. Nella sezione **Integrazione di LinkedIn Recruiter System Connect** selezionare **Abilitato** per l'impostazione **Fai domanda con LinkedIn**.
 
 Dopo avere abilitato l'impostazione, i candidati possono candidarsi utilizzando i dati dei propri profili LinkedIn. Quando i candidati si candidano scegliendo il pulsante **Fai domanda con LinkedIn**, verrà chiesto loro di eseguire l'autenticazione con LinkedIn se non hanno ancora eseguito l'accesso. Dopo l'autenticazione, il relativo profilo LinkedIn sostituisce tutti i dati di profilo esistenti visualizzati nella pagina dell'applicazione. I candidati possono modificare le informazioni come necessario e quindi inviare la domanda. Se un candidato esce dalla pagina senza inviare la domanda di candidatura per la mansione, i dati del relativo profilo non vengono aggiornati in Attract.
 

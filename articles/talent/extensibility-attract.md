@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505866"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795222"
 ---
 # <a name="extensibility-in-attract"></a>Estendibilità in Attract
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent si basa sulla piattaforma Common Data Service 
 
 ## <a name="extending-option-sets-in-attract"></a>Estensione di set di opzioni in Attract
 
-Un **set di opzioni** (elenco a discesa) è un tipo di campo che può essere incluso in un'entità e che definisce un set di opzioni. Quando un set di opzioni è visualizzato in un modulo utilizza un controllo di elenco a discesa.  In Attract sono presenti più campi che sono set di opzioni.  Stiamo iniziando a introdurre la funzionalità di estensione di set di opzioni, a partire dai campi Motivo del rifiuto, Tipo di impiego e Tipo di anzianità.   Inoltre, è possibile aggiungere etichette di visualizzazione localizzate per le opzioni aggiunte. Per ulteriori informazioni, vedere [Personalizzazione delle etichette di set di opzioni](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+Un **set di opzioni** (elenco a discesa) è un tipo di campo che può essere incluso in un'entità e che definisce un set di opzioni. Quando un set di opzioni è visualizzato in un modulo utilizza un controllo di elenco a discesa.  In Attract sono presenti più campi che sono set di opzioni.  Stiamo iniziando a introdurre la funzionalità di estensione di set di opzioni, a partire dai campi Motivo del rifiuto, Tipo di impiego e Tipo di anzianità.   Inoltre, è possibile aggiungere etichette di visualizzazione localizzate per le opzioni aggiunte. Per ulteriori informazioni, vedere [Personalizzazione delle etichette di set di opzioni](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > La funzionalità di pubblicazione di annunci di lavoro in LinkedIn richiede l'utilizzo del campo **Tipo di impiego** e **Tipo di anzianità** nella pagina **Dettagli mansione**. I valori predefiniti in questi campi sono supportati da LinkedIn e visualizzati quando l'annuncio viene pubblicato. Di conseguenza, se si pubblicano annunci di lavoro in LinkedIn e si modificano i valori del set di opzioni esistente per tali campi, l'annuncio verrà ancora pubblicato ma LinkedIn non visualizzerà i valori **Tipo di anzianità** e **Tipo di impiego**.  
@@ -62,15 +62,15 @@ Poiché tutti i dati di Attract risiedono in Common Data Service, è possibile u
 
 È possibile utilizzare PowerApps per creare facilmente app di collegamento ai dati Attract e che utilizzano espressioni come lle espressioni in Microsoft Excel per aggiungere la logica. Le app create con PowerApps possono essere eseguite sul Web e su dispositivi Apple iOS e Google Android.
 
-Ad esempio, è possibile facilitare le attività di selezione in occasione delle fiere di orientamento professionale sviluppando un'app leggera che consenta di analizzare i curriculum e inserire i candidati per una posizione in Attract. In alternativa, è possibile creare un'app che soddisfi i requisiti di conformità dell'organizzazione. Per ulteriori informazioni su PowerApps e come utilizzarlo per creare app, vedere [Integrare i dati in Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+Ad esempio, è possibile facilitare le attività di selezione in occasione delle fiere di orientamento professionale sviluppando un'app leggera che consenta di analizzare i curriculum e inserire i candidati per una posizione in Attract. In alternativa, è possibile creare un'app che soddisfi i requisiti di conformità dell'organizzazione. Per ulteriori informazioni su PowerApps e come utilizzarlo per creare app, vedere [Integrare i dati in Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-È possibile utilizzare Microsoft Flow per creare flussi di lavoro automatici da eseguire sui dati Attract. È possibile connettersi facilmente a centinaia di app e servizi popolari senza dover scrivere un codice. Creando flussi che interagiscono con le entità Mansione, Candidato e Domanda di lavoro di Attract in Common Data Service, è possibile automatizzare varie azioni. Ad esempio, quando accetta un candidato un'offerta, una notifica può essere inviata a un team di inserimento o la notizia può essere annunciata su Twitter. Per ulteriori informazioni sui flussi, vedere la [documentazione di Microsoft Flow](https://docs.microsoft.com/en-us/flow/).
+È possibile utilizzare Microsoft Flow per creare flussi di lavoro automatici da eseguire sui dati Attract. È possibile connettersi facilmente a centinaia di app e servizi popolari senza dover scrivere un codice. Creando flussi che interagiscono con le entità Mansione, Candidato e Domanda di lavoro di Attract in Common Data Service, è possibile automatizzare varie azioni. Ad esempio, quando accetta un candidato un'offerta, una notifica può essere inviata a un team di inserimento o la notizia può essere annunciata su Twitter. Per ulteriori informazioni sui flussi, vedere la [documentazione di Microsoft Flow](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI consente di creare e visualizzare report e dashboard personalizzati che consentono di approfondire l'analisi dei dati di Attract. Per ulteriori informazioni su Power BI e come creare report e dashboard interattivi, vedere la [documentazione di Power BI](https://docs.microsoft.com/en-us/power-bi/).
+Power BI consente di creare e visualizzare report e dashboard personalizzati che consentono di approfondire l'analisi dei dati di Attract. Per ulteriori informazioni su Power BI e come creare report e dashboard interattivi, vedere la [documentazione di Power BI](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Attività personalizzate 
 

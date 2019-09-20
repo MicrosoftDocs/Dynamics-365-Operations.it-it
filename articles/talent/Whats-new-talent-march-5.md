@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518405"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741892"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novità o modifiche in Dynamics 365 for Talent (5 marzo 2019)
 
@@ -43,10 +43,10 @@ In Attract, molteplici campi sono set di opzioni in Common Data Service. Sono st
 ## <a name="changes-in-onboarding"></a>Modifiche in Onboard
 
 ### <a name="private-preview-for-onboard-teams"></a>Anteprima privata per i team Onboard
-Ora è possibile condividere e collaborare facilmente sui modelli nell'intera organizzazione. Per ulteriori informazioni, vedere [Procedura consigliate sulla condivisione nell'organizzazione mediante i team Onboard](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Ora è possibile condividere e collaborare facilmente sui modelli nell'intera organizzazione. Per ulteriori informazioni, vedere [Procedura consigliate sulla condivisione nell'organizzazione mediante i team Onboard](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Anteprima privata per segnaposto di assegnatari
-È possibile arricchire i modelli assegnando attività a ruoli anziché a individui. I ruoli sono quindi assegnati a utenti al momento della creazione della guida. Per ulteriori informazioni, vedere [Semplificare l'amministrazione della guida assegnando attività a ruoli](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+È possibile arricchire i modelli assegnando attività a ruoli anziché a individui. I ruoli sono quindi assegnati a utenti al momento della creazione della guida. Per ulteriori informazioni, vedere [Semplificare l'amministrazione della guida assegnando attività a ruoli](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Modifiche di Core HR
 **Build 8.1.2178**
@@ -71,7 +71,7 @@ Con questa modifica, quando si richiedono modifiche alle posizioni esistenti, pe
 Altre correzioni di bug minori incluse in questa versione.
 
 ### <a name="upgrade-to-common-data-service"></a>Eseguire l'aggiornamento a Common Data Service
-Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Presto disponibili
 
@@ -79,4 +79,4 @@ Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere 
 In molte organizzazioni, i responsabili retribuzione e benefit possono accedere solo a determinati record di retribuzione, ad esempio i record di dirigenti o di dipendenti in base all'area geografica. Con questa modifica, è possibile gestire i piani di retribuzione per differenti popolazioni di dipendenti nell'organizzazione. Ai piani fissi e variabili è possibile assegnare ruoli di sicurezza, che determineranno l'accesso ai piani e ai dati dei dipendenti correlati ai piani, ad esempio i record di stipendi o premi. Solo i ruoli con l'accesso potranno elaborare la retribuzione per quei dipendenti.
 
 ###  <a name="platform-update-24"></a>Update 24 della piattaforma
-Per ulteriori informazioni sull'aggiornamento 24 della piattaforma, vedere [Novità o modifiche nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Per ulteriori informazioni sull'aggiornamento 24 della piattaforma, vedere [Novità o modifiche nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

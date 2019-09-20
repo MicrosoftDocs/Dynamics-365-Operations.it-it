@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518343"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Novità o modifiche in Dynamics 365 for Talent (9 aprile 2019)
 
@@ -37,10 +37,10 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 fo
 In Attract and Onboard, i problemi segnalati dagli utenti finali mediante la funzionalità Segnala un problema ora generano automaticamente problemi per il supporto tecnico nel progetto LCS del cliente. Gli amministratori possono quindi valutare i problemi e inviarli a Microsoft quando necessario. Ciò è coerente con il modo in cui Core HR gestisce i problemi segnalati dagli utenti finali.
 
 ### <a name="relevance-search"></a>Ricerca di rilevanza
-Nei pool di talenti, è ora possibile cercare competenze, nomi o informazioni relative al percorso informativo nell'intero database dei candidati. Non è più necessario specificare in quale sezione del profilo di un candidato si desidera effettuare la ricerca. Attract esegue la ricerca nell'intero profilo ed evidenzia tutte le corrispondenze trovate. Attract esegue la ricerca anche in tutti i documenti disponibili di un candidato e classifica i risultati della ricerca in modo intelligente. Inoltre, è possibile filtrare i risultati per origine o medaglia d'argento. Per ulteriori informazioni, vedere [Cercare e visualizzare profili di candidati](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Nei pool di talenti, è ora possibile cercare competenze, nomi o informazioni relative al percorso informativo nell'intero database dei candidati. Non è più necessario specificare in quale sezione del profilo di un candidato si desidera effettuare la ricerca. Attract esegue la ricerca nell'intero profilo ed evidenzia tutte le corrispondenze trovate. Attract esegue la ricerca anche in tutti i documenti disponibili di un candidato e classifica i risultati della ricerca in modo intelligente. Inoltre, è possibile filtrare i risultati per origine o medaglia d'argento. Per ulteriori informazioni, vedere [Cercare e visualizzare profili di candidati](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Suggerimenti prospect
-Attract consente di avviare la ricerca di candidati per una mansione non appena lo si attiva generando suggerimenti intelligenti sui candidati a partire dal database dei candidati dell'organizzazione. I suggerimenti includono le competenze e le informazioni sul percorso formativo identificate durante la ricerca di prospect pertinenti. Questi suggerimenti sono visualizzati nella scheda **Prospect** sotto una mansione, se attivati durante il processo di assunzione relativo alla mansione. Per ulteriori informazioni, vedere [Suggerimenti prospect](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract consente di avviare la ricerca di candidati per una mansione non appena lo si attiva generando suggerimenti intelligenti sui candidati a partire dal database dei candidati dell'organizzazione. I suggerimenti includono le competenze e le informazioni sul percorso formativo identificate durante la ricerca di prospect pertinenti. Questi suggerimenti sono visualizzati nella scheda **Prospect** sotto una mansione, se attivati durante il processo di assunzione relativo alla mansione. Per ulteriori informazioni, vedere [Suggerimenti prospect](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Stati di disponibilità dei responsabili del colloquio
 I programmatori dei colloqui saranno presto in grado di visualizzare gli stati **Fuori sede, Altra postazione di lavoro** per i responsabili dei colloqui, in modo da agevolare la programmazione degli orari più appropriati per tali responsabili.
