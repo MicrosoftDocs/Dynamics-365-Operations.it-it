@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="8d54c-101">La funzionalità indicata in questo argomento è disponibile per gli utenti interessati nell'ambito di una versione di anteprima privata.</span><span class="sxs-lookup"><span data-stu-id="8d54c-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="8d54c-102">Il contenuto e la funzionalità sono soggetti a modifiche.</span><span class="sxs-lookup"><span data-stu-id="8d54c-102">The content and the functionality are subject to change.</span></span> 
