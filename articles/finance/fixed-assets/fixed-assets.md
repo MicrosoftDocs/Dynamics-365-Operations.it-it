@@ -1,0 +1,63 @@
+---
+title: Home page di cespiti
+description: I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/31/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AssetWorkspace
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 21481
+ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd1488fc6b2c29a4cfa4be18b9a88a07d693d7fa
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2175982"
+---
+# <a name="fixed-assets-home-page"></a><span data-ttu-id="c4632-103">Home page di cespiti</span><span class="sxs-lookup"><span data-stu-id="c4632-103">Fixed assets home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="c4632-104">I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.</span><span class="sxs-lookup"><span data-stu-id="c4632-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
+
+<span data-ttu-id="c4632-105">È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento.</span><span class="sxs-lookup"><span data-stu-id="c4632-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="c4632-106">È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti.</span><span class="sxs-lookup"><span data-stu-id="c4632-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="c4632-107">Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti.</span><span class="sxs-lookup"><span data-stu-id="c4632-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="c4632-108">La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese.</span><span class="sxs-lookup"><span data-stu-id="c4632-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="c4632-109">I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti.</span><span class="sxs-lookup"><span data-stu-id="c4632-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="c4632-110">Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.</span><span class="sxs-lookup"><span data-stu-id="c4632-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
+
+<span data-ttu-id="c4632-111">[![Processo aziendale](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="c4632-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
+
+
+
+### <a name="additional-resources"></a><span data-ttu-id="c4632-112">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="c4632-112">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="c4632-113">Novità rilasciate e in via di sviluppo</span><span class="sxs-lookup"><span data-stu-id="c4632-113">What's new and in development</span></span>
+
+<span data-ttu-id="c4632-114">Passare alle [note sulla versione di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate.</span><span class="sxs-lookup"><span data-stu-id="c4632-114">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="c4632-115">Blog</span><span class="sxs-lookup"><span data-stu-id="c4632-115">Blogs</span></span>
+
+<span data-ttu-id="c4632-116">Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="c4632-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="c4632-117">Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="c4632-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="c4632-118">Guide attività</span><span class="sxs-lookup"><span data-stu-id="c4632-118">Task guides</span></span>
+<span data-ttu-id="c4632-119">Informazioni aggiuntive sono disponibili come guide attività.</span><span class="sxs-lookup"><span data-stu-id="c4632-119">Additional help is available as task guides.</span></span> <span data-ttu-id="c4632-120">Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.</span><span class="sxs-lookup"><span data-stu-id="c4632-120">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="c4632-121">Video</span><span class="sxs-lookup"><span data-stu-id="c4632-121">Videos</span></span>
+
+<span data-ttu-id="c4632-122">Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="c4632-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+
+
+
+
+

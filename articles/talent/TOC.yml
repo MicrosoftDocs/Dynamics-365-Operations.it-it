@@ -1,13 +1,21 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
-    - name: Introduzione
+    - name: Per iniziare
       items:
         - name: Introduzione a Talent
           href: talent-get-started.md
         - name: Novità o modifiche in Talent
           href: whats-new.md
           items:
+            - name: 1 ottobre 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 settembre 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 settembre 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 agosto 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 agosto 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 agosto 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 luglio 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 giugno 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 giugno 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 giugno 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 giugno 2019
-              href: whats-new-talent-june-4-2019.md
             - name: Archivi delle novità 2019
               items:
+                - name: 25 giugno 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 giugno 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 giugno 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 giugno 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 maggio 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 maggio 2019
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Risolvere i problemi di Talent
       items:
+        - name: Ottimizzare le prestazioni con attività di pulizia automatica
+          href: talent-batch-history-cleanup.md
         - name: Risolvere i problemi relativi alla registrazione di posizioni in LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: I report analitici non sono aggiornati
