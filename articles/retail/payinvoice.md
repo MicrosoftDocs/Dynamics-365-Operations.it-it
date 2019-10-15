@@ -1,6 +1,6 @@
 ---
 title: Configurare scenari di pagamento delle fatture
-description: In questo argomento viene descritto come configurare Dynamics 365 for Retail per supportare vari scenari di pagamento delle fatture.
+description: In questo argomento viene descritto come configurare Dynamics 365 Retail per supportare vari scenari di pagamento delle fatture.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564972"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018015"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Configurare scenari di pagamento delle fatture
 
 [!include [banner](includes/banner.md)]
 
-La funzionalità Paga fattura in Dynamics 365 for Retail è stata espansa in modo da supportare:
+La funzionalità Paga fattura in Dynamics 365 Retail è stata espansa in modo da supportare:
 
 - Il pagamento di più fatture di ordini cliente in un'unica transazione POS.
 - Il pagamento di vari tipi di fattura cliente incluse le fatture a testo libero, le fatture basate su progetto e le note di accredito.

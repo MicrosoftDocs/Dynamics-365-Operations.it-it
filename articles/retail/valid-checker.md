@@ -1,6 +1,6 @@
 ---
 title: Controllo di coerenza per le transazioni di vendita al dettaglio
-description: In questo argomento viene descritta la funzionalità di controllo di coerenza per le transazioni di vendita al dettaglio in Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene descritta la funzionalità di controllo di coerenza per le transazioni di vendita al dettaglio in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790423"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018417"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Controllo di coerenza per le transazioni di vendita al dettaglio
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790423"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-In questo argomento viene descritta la funzionalità di controllo di coerenza per le transazioni di vendita al dettaglio introdotta in Microsoft Dynamics 365 for Finance and Operations, versione 8.1.3. Il controllo di coerenza identifica e isole le transazioni incoerenti prima che vengano prelevate dal processo di registrazione rendiconti.
+In questo argomento viene descritta la funzionalità di controllo di coerenza per le transazioni di vendita al dettaglio. Il controllo di coerenza identifica e isole le transazioni incoerenti prima che vengano prelevate dal processo di registrazione rendiconti.
 
-Quando un rendiconto viene registrato in Microsoft Dynamics 365 for Retail, la registrazione può non riuscire a causa di dati incoerenti nelle tabelle di transazioni di vendita al dettaglio. Il problema sui dati può essere causato da problemi non previsti nell'applicazione POS o da transazioni importate in modo non corretto da sistemi POS di terze parti. Esempi di come le incoerenze possono essere visualizzate includono i seguenti: 
+Quando un rendiconto viene registrato in Retail, la registrazione può non riuscire a causa di dati incoerenti nelle tabelle di transazioni di vendita al dettaglio. Il problema sui dati può essere causato da problemi non previsti nell'applicazione POS o da transazioni importate in modo non corretto da sistemi POS di terze parti. Esempi di come le incoerenze possono essere visualizzate includono i seguenti: 
 
 - Il totale delle transazioni nella tabella di intestazione non corrisponde al totale delle transazioni nelle righe.
 - Il conteggio delle righe nella tabella di intestazione non corrisponde al numero di righe nella tabella di transazioni.

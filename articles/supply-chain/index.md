@@ -1,9 +1,9 @@
 ---
-title: Home page di Supply Chain Management
-description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie alle funzionalità di Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Risorse di guida per Supply Chain Management
+description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557594"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278326"
 ---
-# <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
+# <a name="help-resources-for-supply-chain-management"></a>Risorse di guida per Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce un elenco di argomenti della Guida e di altre risorse necessarie alle funzionalità di Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. 
+In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse in Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a> per esaminare le nuove funzionalità rilasciate e quelle in via di sviluppo. 
@@ -38,9 +38,10 @@ Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a>
 
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 
+- [Gestione cespiti](asset-management/index.md)
 - [Contabilità industriale](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gestione costi](cost-management/cost-management-home-page.md)  
-- [Gestione inventario](inventory/inventory-home-page.md)
+- [Gestione scorte](inventory/inventory-home-page.md)
 - [Pianificazione generale](master-planning/master-planning-home-page.md)
 - [Approvvigionamento](procurement/procurement-sourcing-overview.md)
 - [Gestione informazioni sul prodotto](pim/product-information.md)
@@ -49,6 +50,10 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestione assistenza](service-management/service-management-home-page.md)
 - [Gestione trasporto](transportation/transportation-management-overview.md)
 - [Gestione magazzino](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Per ulteriori informazioni su Dynamics 365 Finance, passare alla pagina [Risorse di guida per Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Video
 
@@ -113,6 +118,6 @@ Numerosi argomenti sulla produzione e sulla gestione della supply chain sono dis
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilità nel magazzino facilitata da Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Corsi eLearning
-Per informazioni sulla formazione per Microsoft Dynamics 365 for Finance and Operations, vedere il <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> portale della formazione di Microsoft Dynamics</a>. (richiede l'account CustomerSource) 
+Per informazioni sulla formazione per Dynamics 365, vedere il <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">portale della formazione di Microsoft Dynamics</a>. (richiede il conto CustomerSource) 
 
 

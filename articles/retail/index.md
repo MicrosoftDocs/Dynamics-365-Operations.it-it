@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Retail
-description: Home page per Dynamics 365 for Retail
+title: Risorse di guida per Dynamics 365 Retail
+description: Home page per Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,27 +18,30 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874929"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278108"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Risorse di guida per Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail è una soluzione completa per la vendita al dettaglio che consente di svolgere attività commerciali unificate su tutti i canali. Comprende funzionalità per le vendite, la mobilità, l'intelligence e la produttività, consentendo a rivenditori e lavoratori di essere più efficienti e orientati all'ambiente cloud e mobile. Retail offre supporto completo alle operazioni in una vasta gamma di processi aziendali, quali il merchandising, l'inventario e le funzionalità di gestione di canale. Assicura inoltre esperienze coinvolgenti in tutti i punti di contatto con i clienti.
-
-> [!NOTE]
-> Dynamics 365 for Retail è strettamente connesso a Dynamics 365 for Finance and Operations e a Dynamics 365 for Talent. La stessa funzionalità può essere presente in tutti i tre prodotti. Di conseguenza, negli argomenti principalmente correlati a Retail, il nome prodotto sarà Microsoft Dynamics 365 for Retail, negli argomenti correlati al prodotto principale (Finance and Operations), il nome del prodotto sarà Microsoft Dynamics 365 for Finance and Operations e in quelli principalmente correlati alle risorse umane sarà Dynamics 365 for Talent.
+Microsoft Dynamics 365 Retail è una soluzione completa per la vendita al dettaglio che consente di svolgere attività commerciali unificate su tutti i canali. Comprende funzionalità per le vendite, la mobilità, l'intelligence e la produttività, consentendo a rivenditori e lavoratori di essere più efficienti e orientati all'ambiente cloud e mobile. Retail offre supporto completo alle operazioni in una vasta gamma di processi aziendali, quali il merchandising, l'inventario e le funzionalità di gestione di canale. Assicura inoltre esperienze coinvolgenti in tutti i punti di contatto con i clienti.
 
 Nel riquadro a sinistra, selezionare l'area di una funzionalità per ulteriori informazioni.
 
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (Anteprima)
+
+Dynamics 365 Commerce si basa sulle funzionalità consolidate di Dynamics 365 Retail e offre una soluzione omnicanale completa che unifica le esperienze di back office, punto vendita, call center e area Digital. Commerce è ora disponibile per visualizzare l'anteprima dei clienti. I clienti attuali di Dynamics 365 Retail potranno effettuare l'aggiornamento a Commerce quando questo sarà generalmente disponibile.
+
+Per ulteriori informazioni su Dynamics 365 Commerce, passare alla pagina [Risorse di guida per Dynamics 365 Commerce](../commerce/index.md).
+
 ## <a name="channel-management"></a>Gestione del canale
 
-Dopo aver configurato l'esperienza Retail, deciderai come definire e configurare i punti vendita, che possono essere punti vendita tradizionali, online o call center.
+Dopo aver configurato Retail Experience, è necessario decidere come definire e configurare i punti vendita, che possono essere punti vendita tradizionali, online o call center.
 
 Ogni punto vendita al dettaglio può disporre di propri metodi di pagamento, metodi di consegna, gruppi di prezzi, conti ricavi e spese, registratori di cassa e personale. Dopo aver creato un punto vendita al dettaglio, si crea il relativo assortimento di prodotti. È inoltre possibile definire prezzi e sconti specifici del punto vendita applicabili ai prodotti disponibili nel punto vendita.
 
@@ -78,8 +81,8 @@ Sono diversi i componenti che si impostano per definire le relazioni tra un punt
 
 Se si è ricevuta la richiesta di personalizzare l'ambiente o si è responsabili della distribuzione e della gestione del sistema, assicurarsi di fare riferimento al contenuto per amministratori del sistema e sviluppatori specifico di Retail, oltre al contenuto più generale.
 
-- [Dynamics 365 for Retail per professionisti IT e sviluppatori](dev-itpro/dev-retail-home-page.md)
-- [Sviluppo e amministrazione per Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail per professionisti IT e sviluppatori](dev-itpro/dev-retail-home-page.md)
+- [Sviluppo e amministrazione per Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
