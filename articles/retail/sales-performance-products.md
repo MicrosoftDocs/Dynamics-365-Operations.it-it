@@ -1,6 +1,6 @@
 ---
 title: Valutare le prestazioni delle vendite per prodotto
-description: È possibile studiare la redditività per i primi 10 prodotti tramite Microsoft Dynamics 365 for Retail.
+description: È possibile studiare la redditività per i primi 10 prodotti tramite Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546388"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024960"
 ---
 # <a name="assess-sales-performance-by-product"></a>Valutare le prestazioni delle vendite per prodotto
 
 [!include [banner](includes/banner.md)]
 
-È possibile studiare la redditività per i primi 10 prodotti tramite Microsoft Dynamics 365 for Retail.
+È possibile studiare la redditività per i primi 10 prodotti tramite Dynamics 365 Retail.
 
-Come parte di Dynamics 365 for Retail, gli utenti possono anche studiare la redditività relativa ai prodotti principali (da 10 a 100) tra diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
+Come parte di Retail, gli utenti possono anche studiare la redditività relativa ai prodotti principali (da 10 a 100) tra diversi livelli della gerarchia organizzativa, in base a uno dei seguenti criteri:
 
 - Importo vendite
 - Quantità

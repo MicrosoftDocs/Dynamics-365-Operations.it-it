@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561270"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249427"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
@@ -35,13 +35,13 @@ In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Ap
 ## <a name="overview"></a>Panoramica 
 Gli ordini fornitore che richiedono l'approvazione devono passare attraverso un flusso di lavoro di approvazione. Il flusso di lavoro può includere vari passaggi che richiedono l'esecuzione di operazioni da parte di una o più persone. Ad esempio, una persona potrebbe dover completare un'attività o approvare l'ordine fornitore. 
 
-L'area di lavoro mobile **Approvazione di ordine fornitore** consente di visualizzare in modo semplice e rispondere agli ordini fornitore dal dispositivo mobile. Questa area di lavoro consente inoltre di effettuare le stesse azioni del flusso di lavoro che è possibile effettuare da Microsoft Dynamics 365 for Finance and Operations, client Web.
+L'area di lavoro mobile **Approvazione di ordine fornitore** consente di visualizzare in modo semplice e rispondere agli ordini fornitore dal dispositivo mobile. Questa area di lavoro consente inoltre di effettuare le stesse azioni del flusso di lavoro che è possibile effettuare dal client Web.
 
 ## <a name="prerequisites"></a>Prerequisiti
-I prerequisiti variano a seconda della versione di Finance and Operations che è stata installata nell'organizzazione.
+I prerequisiti variano a seconda della versione di Supply Chain Management che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations 
-Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Finance and Operations, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Approvazione ordine fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Prerequisiti si utilizza Supply Chain Management 
+Se nell'organizzazione è stato distribuito Finance and Operations, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Approvazione ordine fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
@@ -74,8 +74,8 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app mobile
-Scaricare e installare l'app Microsoft Dynamics 365 for Unified Operations Mobile:
+## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
+Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 
 - [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

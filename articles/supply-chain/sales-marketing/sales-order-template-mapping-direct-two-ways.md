@@ -1,6 +1,6 @@
 ---
-title: Sincronizzazione di ordini cliente direttamente tra Sales e Finance and Operations
-description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
+description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/09/2019
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539116"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251272"
 ---
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Finance and Operations
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Microsoft Dynamics 365 for Sales e Microsoft Dynamics 365 for Finance and Operations.
+L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
-La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Finance and Operations e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Finance and Operations e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Finance and Operations e Sales.
+La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati per conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
 [![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,12 +42,12 @@ La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per si
 
 Per accedere ai modelli disponibili, aprire l'[Interfaccia di amministrazione di PowerApps](https://preview.admin.powerapps.com/dataintegration). Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici.
 
-I modelli e le attività sottostanti seguenti vengono utilizzati per sincronizzare le gli ordini cliente direttamente tra Sales e Finance and Operations:
+I modelli e le attività sottostanti seguenti vengono utilizzati per sincronizzare le gli ordini cliente direttamente tra Sales e Supply Chain Management.
 
 - **Nomi dei modelli in Integrazione dati:** 
 
-    - Ordini cliente (da Sales in Fin and Ops) - Diretto
-    - Ordini cliente (da Fin and Ops in Sales) - Diretto
+    - Ordini di vendita (da Sales a Supply Chain Management) - Diretto
+    - Ordini di vendita (da Supply Chain Management a Sales) - Diretto
 
 - **Nomi delle attività nel progetto di Integrazione dati:**
 
@@ -56,57 +56,57 @@ I modelli e le attività sottostanti seguenti vengono utilizzati per sincronizza
 
 Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la sincronizzazione delle intestazioni e delle righe di fatture di vendita:
 
-- Prodotti (da Fin and Ops in Sales) - Diretto
-- Conti (da Sales in Fin and Ops) - Diretto (se utilizzata)
-- Da Contatti a Clienti (da Sales in Fin and Ops) - Diretto (se utilizzata)
+- Prodotti (da Supply Chain Management in Sales) - Diretto
+- Conti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
+- Da Contatti a Clienti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| Finance and Operations  | Vendite             |
+| Gestione della supply chain  | Vendite             |
 |-------------------------|-------------------|
 | Intestazioni ordine cliente CDS | SalesOrders       |
 | Righe ordine cliente CDS   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Gli ordini cliente vengono creati in Sales e sincronizzati in Finance and Operations quando **Esegui progetto** viene attivato per un progetto basato sul modello **Ordini cliente (da Sales in Fin and Ops) - Diretto**. È possibile attivare e sincronizzare gli ordini da Sales se tutti i **prodotti dell'ordine** sono prodotti gestiti esternamente. Di conseguenza, non possono includere prodotti fuori catalogo. Dopo l'attivazione dell'ordine, l'ordine cliente diventa di sola lettura nell'interfaccia utente (UI). A quel punto, gli aggiornamenti vengono effettuati in Finance and Operations. Dopo che lo stato dell'ordine cliente diventa **Confermato**, un progetto basato sul modello **Ordini cliente (da Fin and Ops in Sales) - Diretto** può essere utilizzato per sincronizzare gli aggiornamenti o lo stato dell'evasione da Finance and Operations in Sales.
+Gli ordini cliente vengono creati in Sales e sincronizzati in Supply Chain Management quando **Esegui progetto** viene attivato per un progetto basato sul modello **Ordini cliente (da Sales in Supply Chain Management) - Diretto**. È possibile attivare e sincronizzare gli ordini da Sales se tutti i **prodotti dell'ordine** sono prodotti gestiti esternamente. Di conseguenza, non possono includere prodotti fuori catalogo. Dopo l'attivazione dell'ordine, l'ordine cliente diventa di sola lettura nell'interfaccia utente (UI). A quel punto, gli aggiornamenti vengono effettuati in Supply Chain Management. Dopo che lo stato dell'ordine cliente diventa **Confermato**, un progetto basato sul modello **Ordini cliente (da Supply Chain Management in Sales) - Diretto** può essere utilizzato per sincronizzare gli aggiornamenti o lo stato dell'evasione da Supply Chain Management in Sales.
 
-Non è necessario creare ordini in Sales. È invece possibile creare nuovi ordini cliente in Finance and Operations. Dopo che lo stato di un ordine cliente diventa **Confermato**, viene sincronizzato in Sales come descritto nel paragrafo precedente.
+Non è necessario creare ordini in Sales. È invece possibile creare nuovi ordini cliente in Supply Chain Management. Dopo che lo stato di un ordine cliente diventa **Confermato**, viene sincronizzato in Sales come descritto nel paragrafo precedente.
 
-In Finance and Operations, i filtri nel modello garantiscono che solo gli ordini cliente pertinenti siano inclusi nella sincronizzazione:
+In Supply Chain Management, i filtri nel modello garantiscono che solo gli ordini cliente pertinenti siano inclusi nella sincronizzazione:
 
-- Nell'ordine cliente, il cliente che richiede l'ordine e quello che emette la fattura devono essere originati in Sales per essere inclusi nella sincronizzazione. In Finance and Operations, i campi **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** sono utilizzati per filtrare ordini cliente dalle entità di dati.
-- L'ordine cliente in Finance and Operations deve essere confermato. Solo gli ordini cliente confermati o gli ordini cliente con stato di elaborazione più elevato, ad esempio **Inviato** o **Fatturato** vengono sincronizzati in Sales.
-- Dopo la creazione o la modifica di un ordine cliente, è necessario eseguire il processo batch **Calcola totali vendite** in Finance and Operations. Solo gli ordini cliente in cui vengono calcolati i totali delle vendite saranno sincronizzati in Sales.
+- Nell'ordine cliente, il cliente che richiede l'ordine e quello che emette la fattura devono essere originati in Sales per essere inclusi nella sincronizzazione. In Supply Chain Management, i campi **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** sono utilizzati per filtrare ordini cliente dalle entità di dati.
+- L'ordine cliente in Supply Chain Management deve essere confermato. Solo gli ordini cliente confermati o gli ordini cliente con stato di elaborazione più elevato, ad esempio **Inviato** o **Fatturato** vengono sincronizzati in Sales.
+- Dopo la creazione o la modifica di un ordine cliente, è necessario eseguire il processo batch **Calcola totali vendite** in Supply Chain Management. Solo gli ordini cliente in cui vengono calcolati i totali delle vendite saranno sincronizzati in Sales.
 
 ## <a name="freight-tax"></a>Imposta di trasporto
 
-Sales non supporta le imposte a livello di intestazione in quanto sono registrate a livello di riga. Per supportare le imposte a livello di intestazione da Finance and Operations, ad esempio l'imposta di trasporto, il sistema sincronizza l'imposta in Sales come prodotto fuori catalogo denominato **Imposta di trasporto** e con l'importo imposta in Finance and Operations. In questo modo, il calcolo del prezzo standard in Sales può essere utilizzato per i totali, anche quando vi sono imposte a livello di intestazione in Finance and Operations.
+Sales non supporta le imposte a livello di intestazione in quanto sono registrate a livello di riga. Per supportare le imposte a livello di intestazione da Supply Chain Management, ad esempio l'imposta di trasporto, il sistema sincronizza l'imposta in Sales come prodotto fuori catalogo denominato **Imposta di trasporto** e con l'importo imposta in Supply Chain Management. In questo modo, il calcolo del prezzo standard in Sales può essere utilizzato per i totali, anche quando vi sono imposte a livello di intestazione in Supply Chain Management.
 
 ## <a name="discount-calculation-and-rounding"></a>Calcolo e arrotondamento dello sconto
 
-Il modello di calcolo dello sconto in Sales differisce da quello in Finance and Operations. In Finance and Operations, l'importo di sconto finale in una riga di vendita può derivare da una combinazione di importi e percentuali di sconto. Se questo importo di sconto finale viene diviso per la quantità nella riga, è possibile che venga applicato l'arrotondamento. Tuttavia, questo arrotondamento non viene considerato se un importo di sconto per unità arrotondato viene sincronizzato in Sales. Per garantire la corretta sincronizzazione in Sales dell'intero importo di sconto da una riga di vendita in Finance and Operations, l'intero importo deve essere sincronizzato senza essere diviso per la quantità della riga. Di conseguenza, è necessario definire il **metodo di calcolo sconto** come **Voce** in Sales.
+Il modello di calcolo dello sconto in Sales differisce da quello in Supply Chain Management. In Supply Chain Management, l'importo di sconto finale in una riga di vendita può derivare da una combinazione di importi e percentuali di sconto. Se questo importo di sconto finale viene diviso per la quantità nella riga, è possibile che venga applicato l'arrotondamento. Tuttavia, questo arrotondamento non viene considerato se un importo di sconto per unità arrotondato viene sincronizzato in Sales. Per garantire la corretta sincronizzazione in Sales dell'intero importo di sconto da una riga di vendita in Supply Chain Management, l'intero importo deve essere sincronizzato senza essere diviso per la quantità della riga. Di conseguenza, è necessario definire il **metodo di calcolo sconto** come **Voce** in Sales.
 
-Quando una riga dell'ordine cliente viene sincronizzata da Sales in Finance and Operations, viene utilizzato l'intero importo di sconto riga. Poiché Finance and Operations non include un campo in cui registrare l'intero importo di sconto per una riga, l'importo viene diviso per la quantità e registrato nel campo **Sconto riga**. Qualsiasi arrotondamento in questa divisione viene registrato nel campo **Addebiti vendite** nella riga di vendita.
+Quando una riga dell'ordine cliente viene sincronizzata da Sales in Supply Chain Management, viene utilizzato l'intero importo di sconto riga. Poiché Supply Chain Management non include un campo in cui registrare l'intero importo di sconto per una riga, l'importo viene diviso per la quantità e registrato nel campo **Sconto riga**. Qualsiasi arrotondamento in questa divisione viene registrato nel campo **Addebiti vendite** nella riga di vendita.
 
 ### <a name="example"></a>Esempio
 
-**Sincronizzazione da Sales in Finance and Operations**
+**Sincronizzazione da Sales a Supply Chain Management**
 
 - **Sales:** Quantità = 3, sconto per riga = $ 10,00
-- **Finance and Operations:** Quantità = 3, importo di sconto riga = $ 3,33, addebito vendita = -$ 0,01 
+- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3.33, addebito vendita = -$0.01 
 
-**Sincronizzazione da Finance and Operations in Sales**
+**Sincronizzazione da Supply Chain Management a Sales**
 
-- **Finance and Operations:** Quantità = 3, importo di sconto riga = $ 3,33, addebito vendita = -$ 0,01
+- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3.33, addebito vendita = -$0.01
 - **Sales:** Quantità = 3, sconto per riga = (3 × $ 3,33) + $ 0,01 = $ 10,00
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
 Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagina:
 
-- **Gestito esternamente** - Impostare questa opzione su **Sì** se l'ordine proviene da Finance and Operations.
-- **Stato elaborazione** - Questo campo mostra lo stato di elaborazione dell'ordine in Finance and Operations. Sono disponibili i valori seguenti:
+- **Gestito esternamente** - Impostare questa opzione su **Sì** se l'ordine proviene da Supply Chain Management.
+- **Stato elaborazione** - Questo campo mostra lo stato di elaborazione dell'ordine in Supply Chain Management. Sono disponibili i valori seguenti:
 
     - **Bozza** - Lo stato iniziale quando un ordine viene creato in Sales. In Sales, solo gli ordini con questo stato di elaborazione possono essere modificati.
     - **Attivo** - Lo stato dopo che l'ordine viene attivato in Sales utilizzando il pulsante **Attiva**.
@@ -121,11 +121,11 @@ Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagi
     - **Parzialmente fatturato**
     - **Operazione annullata**
 
-L'impostazione **Solo prodotti gestiti esternamente** viene utilizzata durante l'attivazione dell'ordine per rilevare in modo coerente se un ordine cliente consiste interamente di prodotti gestiti esternamente. Se un ordine cliente include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Finance and Operations. Questa impostazione impedisce l'attivazione e il tentativo di sincronizzare righe dell'ordine cliente che hanno prodotti sconosciuti in Finance and Operations.
+L'impostazione **Solo prodotti gestiti esternamente** viene utilizzata durante l'attivazione dell'ordine per rilevare in modo coerente se un ordine cliente consiste interamente di prodotti gestiti esternamente. Se un ordine cliente include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Supply Chain Management. Questa impostazione impedisce l'attivazione e il tentativo di sincronizzare righe dell'ordine cliente che hanno prodotti sconosciuti in Supply Chain Management.
 
-I pulsanti **Crea fattura**, **Annulla ordine**, **Ricalcola**, **Ottieni prodotti** e **Cerca indirizzo** della pagina **Ordine cliente** sono nascosti per gli ordini gestiti esternamente poiché le fatture verranno create in Finance and Operations e sincronizzate in Sales. Questi ordini non sono modificabili poiché le relative informazioni verranno sincronizzate da Finance and Operations dopo l'attivazione.
+I pulsanti **Crea fattura**, **Annulla ordine**, **Ricalcola**, **Ottieni prodotti** e **Cerca indirizzo** della pagina **Ordine cliente** sono nascosti per gli ordini gestiti esternamente poiché le fatture verranno create in Supply Chain Management e sincronizzate in Sales. Questi ordini non sono modificabili poiché le relative informazioni verranno sincronizzate da Supply Chain Management dopo l'attivazione.
 
-Lo stato dell'ordine cliente rimarrà **attivo** per garantire che le modifiche da Finance and Operations possano essere applicate all'ordine cliente in Sales. Per controllare questo comportamento, impostare il valore **Codice stato \[Stato\]** su **Attivo** nel progetto di Integrazione dati.
+Lo stato dell'ordine cliente rimarrà **attivo** per garantire che le modifiche da Supply Chain Management possano essere applicate all'ordine cliente in Sales. Per controllare questo comportamento, impostare il valore **Codice stato \[Stato\]** su **Attivo** nel progetto di Integrazione dati.
 
 ## <a name="preconditions-and-mapping-setup"></a>Prerequisiti e impostazioni di mapping
 
@@ -137,17 +137,17 @@ Prima di sincronizzare gli ordini cliente, è importante aggiornare le impostazi
 
     Andare a **Impostazioni** &gt; **Sicurezza** &gt; **Team**, selezionare il team pertinente, selezionare **Gestisci ruoli** e selezionare un ruolo con le autorizzazioni desiderate, ad esempio **Amministratore di sistema**.
 
-- Per garantire il calcolo corretto degli sconti in Sales e in Finance and Operations, il campo **Metodo di calcolo sconto** deve essere impostato su **Voce**.
+- Per garantire il calcolo corretto degli sconti in Sales e in Supply Chain Management, il campo **Metodo di calcolo sconto** deve essere impostato su **Voce**.
 - Andare a **Impostazioni** &gt; **Amministrazione** &gt; **Impostazioni di sistema** &gt; **Vendite** e assicurarsi che:
 
     - L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
     - Il campo **Metodo di calcolo sconto** sia impostato su **Voce**.
 
-### <a name="setup-in-finance-and-operations"></a>Impostazione in Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Impostazione in Supply Chain Management
 
 - Andare a **Vendite e marketing** &gt; **Attività periodiche** &gt; **Calcola totali vendite** e impostare il processo da eseguire come processo batch. Impostare l'opzione **Calcola totali per ordini cliente** su **Sì**. Questo passaggio è importante perché solo gli ordini cliente con totali vendite calcolati verranno sincronizzati in Sales. La frequenza del processo batch deve essere in linea con la frequenza della sincronizzazione dell'ordine cliente.
 
-Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario impostare l'origine delle vendite. L'origine vendite viene utilizzata per distinguere gli ordini cliente in Finance and Operations che sono stati creati da ordini di lavoro in Field Service. Quando un ordine cliente ha un'origine vendite di tipo **Integrazione ordine di lavoro**, il campo **Stato ordine di lavoro esterno** viene visualizzato nell'intestazione dell'ordine cliente. L'origine vendite inoltre garantisce che gli ordini client creati da ordini di lavoro in Field Service vengano filtrati durante la sincronizzazione degli ordini cliente da Finance and Operations verso Field Service.
+Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario impostare l'origine delle vendite. L'origine vendite viene utilizzata per distinguere gli ordini cliente in Supply Chain Management che sono stati creati da ordini di lavoro in Field Service. Quando un ordine cliente ha un'origine vendite di tipo **Integrazione ordine di lavoro**, il campo **Stato ordine di lavoro esterno** viene visualizzato nell'intestazione dell'ordine cliente. L'origine vendite garantisce inoltre che gli ordini client che sono stati creati da ordini di lavoro in Field Service vengano filtrati durante la sincronizzazione degli ordini cliente da Supply Chain Management a Field Service.
 
 1. Passare a **Vendite e marketing** \> **Impostazioni** \> **Ordini cliente** \> **Origine vendite**.
 2. Selezionare **Nuovo** per creare una nuova origine vendite.
@@ -157,13 +157,13 @@ Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario imposta
 6. Impostare il campo **Tipo di origine vendite** su **Integrazione ordine cliente**.
 7. Selezionare **Salva**.
 
-### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (da Sales in Fin and Ops) - Diretto
+### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (da Sales in Supply Chain Management) - Diretto
 
 - Assicurarsi che il mapping necessario esista per **Shipto\_country** a **DeliveryAddressCountryRegionISOCode**. È possibile impostare come vuoto un valore predefinito nella mappa di valori per evitare di immettere il paese per gli ordini nazionali. Impostare la parte sinistra su Vuoto e la parte destra sul paese desiderato.
 
     Il valore di modello è una mappa di valori dove vari paesi vengono mappati e dove Vuoto = Stati Uniti.
 
-### <a name="setup-in-the-sales-orders-fin-and-ops-to-sales---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (da Fin and Ops in Sales) - Diretto
+### <a name="setup-in-the-sales-orders-supply-chain-management-to-sales---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (Supply Chain Management a Sales) - Diretto
 
 #### <a name="salesheader-task"></a>Attività SalesHeader
 
@@ -173,7 +173,7 @@ Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario imposta
 
 #### <a name="salesline-task"></a>Attività SalesLine
 
-- Assicurarsi che la mappa di valori richiesta esista per **SalesUnitSymbol** in Finance and Operations.
+- Assicurarsi che la mappa valori richiesta esista per **SalesUnitSymbol** in Supply Chain Management.
 - Assicurarsi che le unità richieste siano definite in Sales.
 
     Un valore di modello con una mappa di valori viene definito per **SalesUnitSymbol** a **oumid.name**.
@@ -186,21 +186,21 @@ Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario imposta
 Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integrazione dati.
 
 > [!NOTE]
-> Il mapping mostra quali informazioni dei campi verranno sincronizzate da Sales in Finance and Operations o da Finance and Operations in Sales.
+> Il mapping mostra quali informazioni dei campi verranno sincronizzate da Sales in Supply Chain Management o da Supply Chain Management in Sales.
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderheader"></a>Ordini cliente (da Fin and Ops in Sales) - Diretto: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordini di vendita (da Supply Chain Management a Sales) - Diretto: OrderHeader
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderline"></a>Ordini cliente (da Fin and Ops in Sales) - Diretto: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Ordini di vendita (da Supply Chain Management a Sales) - Diretto: OrderLine
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderheader"></a>Ordini cliente (da Sales in Fin and Ops) - Diretto: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Ordini di vendita (da Sales a Supply Chain Management) - Diretto: OrderHeader
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderline"></a>Ordini cliente (da Sales in Fin and Ops) - Diretto: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Ordini di vendita (da Sales a Supply Chain Management) - Diretto: OrderLine
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 

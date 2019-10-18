@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563530"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249473"
 ---
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
@@ -57,17 +57,17 @@ Un prodotto viene principalmente definito da un numero prodotto, un nome e una d
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribuzione, esportazione e importazione di dati di prodotto
 
-La definizione del prodotto può essere creata in Microsoft Dynamics 365 for Finance and Operations. Può inoltre essere importata dai sistemi PLM (Product Lifecycle Management), PDM (Product Data Management) o PIM (Product Information Management). Quando si utilizzano più istanze di Finance and Operations, un'istanza viene in genere utilizzata come rappresentazione dei dati di prodotto per tutte le altre istanze. Questo approccio è supportato da un ampio insieme di entità di dati che consentono l'esportazione e l'importazione di dati di definizione di prodotto da un'istanza all'altra.
+La definizione del prodotto può essere creata in Supply Chain Management. Può inoltre essere importata dai sistemi PLM (Product Lifecycle Management), PDM (Product Data Management) o PIM (Product Information Management). Quando si utilizzano più istanze di Supply Chain Management, un'istanza viene in genere utilizzata come rappresentazione dei dati di prodotto per tutte le altre istanze. Questo approccio è supportato da un ampio insieme di entità di dati che consentono l'esportazione e l'importazione di dati di definizione di prodotto da un'istanza all'altra.
 
-Per supportare la distribuzione dei dati di prodotto su più istanze, Finance and Operations consente di utilizzare Common Data Service. Le definizioni di prodotto possono essere esportate da un'istanza di Finance and Operations a Common Data Service. Le definizioni di prodotto possono quindi essere utilizzate per il provisioning di altre applicazioni aziendali, ad esempio Microsoft Dynamics 365 for Sales, con i dati di prodotto.
+Per supportare la distribuzione dei dati di prodotto su più istanze, Supply Chain Management consente di utilizzare Common Data Service. Le definizioni di prodotto possono essere esportate da un'istanza di Supply Chain Management a Common Data Service. Le definizioni di prodotto possono quindi essere utilizzate per il provisioning di altre applicazioni aziendali, ad esempio Dynamics 365 Sales, con i dati di prodotto.
 
 Tenere presente che, nelle organizzazioni dinamiche e flessibili, i dati delle informazioni di prodotto cambiano ogni giorno. Di conseguenza, la gestione di dati di prodotto reali ed accurati è un processo aziendale critico in sé.
 
 ## <a name="product-masters-and-product-variants"></a>Rappresentazioni generali prodotto e varianti prodotto
 
-In una situazione agile, in cui i prodotti devono adattarsi rapidamente ai requisiti del cliente, le definizioni di prodotto specificano un set di prodotti anziché prodotti specifici. In Microsoft Dynamics 365 for Finance and Operations, i prodotti generici sono noti come *rappresentazioni generali prodotto*. Le rappresentazioni generali prodotto contengono la definizione e le regole che consentono di specificare la modalità in cui i prodotti specifici sono descritti e si comportano nei processi aziendali. In base a queste definizioni, i prodotti specifici possono essere generati. Questi prodotti specifici sono noti come *varianti prodotto*.
+In una situazione agile, in cui i prodotti devono adattarsi rapidamente ai requisiti del cliente, le definizioni di prodotto specificano un set di prodotti anziché prodotti specifici. In Supply Chain Management, i prodotti generici sono noti come *rappresentazioni generali prodotto*. Le rappresentazioni generali prodotto contengono la definizione e le regole che consentono di specificare la modalità in cui i prodotti specifici sono descritti e si comportano nei processi aziendali. In base a queste definizioni, i prodotti specifici possono essere generati. Questi prodotti specifici sono noti come *varianti prodotto*.
 
-In Finance and Operations, una rappresentazione generale prodotto è associata a un gruppo di dimensioni prodotto e una tecnologia di configurazione per definire le regole di business. Le dimensioni prodotto (colore, dimensioni, stile e configurazione) sono un set specifico di attributi che possono essere utilizzati nell'applicazione per definire e tenere traccia dei comportamenti specifici dei prodotti correlati. Le dimensioni assistono inoltre gli utenti nella ricerca e nell'identificazione dei prodotti.
+Una rappresentazione generale prodotto è associata a un gruppo di dimensioni prodotto e una tecnologia di configurazione per definire le regole di business. Le dimensioni prodotto (colore, dimensioni, stile e configurazione) sono un set specifico di attributi che possono essere utilizzati nell'applicazione per definire e tenere traccia dei comportamenti specifici dei prodotti correlati. Le dimensioni assistono inoltre gli utenti nella ricerca e nell'identificazione dei prodotti.
 
 ## <a name="configuration-technologies"></a>Tecnologie di configurazione
 
@@ -77,7 +77,7 @@ In Finance and Operations, una rappresentazione generale prodotto è associata a
 - La configurazione basata su dimensioni viene in genere utilizzata in scenari di produzione e consente di utilizzare la dimensione di configurazione nella definizione delle distinte base (BOMs). Dopo che una specifica configurazione viene selezionata, il sistema utilizza il sottoinsieme di righe DBA valide per tale configurazione per la pianificazione e la produzione. Questo concetto è anche denominato *DBA generale*, poiché una DBA condivisa viene utilizzata per tutte le configurazioni di un prodotto.
 - La configurazione basata su vincoli utilizza un modello di configurazione prodotto per descrivere tutti i possibili attributi e componenti necessari per descrivere tutte le varianti possibili di un prodotto in un singolo modello. I vincoli di combinazioni di attributi possono essere definiti con le espressioni standard o i vincoli basati su tabella. I modelli di configurazione e le configurazioni diventano più importanti nella gestione delle informazioni sul prodotto e vengono utilizzati in tutti i settori.
 
-Quando si pianifica l'implementazione di Finance and Operations, è particolarmente importante scegliere la tecnologia di configurazione corretta per un processo aziendale. Un prodotto non può essere convertito da un modello in un altro dopo l'implementazione.
+Quando si pianifica l'implementazione di Supply Chain Management, è particolarmente importante scegliere la tecnologia di configurazione corretta per un processo aziendale. Un prodotto non può essere convertito da un modello in un altro dopo l'implementazione.
 
 ## <a name="product-variant-model-definition-workspace"></a>Area di lavoro Definizione modello di variante prodotto
 

@@ -1,6 +1,6 @@
 ---
 title: Impostare e progettare formati di ricevute
-description: In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
+description: In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Dynamics 365 Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553070"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025127"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Impostare e progettare formati di ricevute
 
 [!include [banner](includes/banner.md)]
 
-In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Microsoft Dynamics 365 for Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
+In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Dynamics 365 Retail include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
 
 > [!IMPORTANT]
 > È necessario impostare i layout modulo e i profili della ricevuta per stampare le ricevute e altri documenti da Retail Modern POS e POS cloud. È possibile includere più layout modulo in un profilo ricevuta. È possibile quindi assegnare il profilo della ricevuta a una stampante modificando un profilo hardware.
@@ -55,7 +55,7 @@ Utilizzare il progetto del layout modulo per creare graficamente il layout del d
 2. Nella pagina **Formato ricevuta** selezionare un layout modulo e quindi fare clic su **Progettazione**.
 3. Fare clic su **Esegui** per avviare l'installazione dell'host della progettazione Retail.
 4. Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. La barra di notifica potrebbe apparire in una posizione diversa in altri browser. L'indicatore di avanzamento mostra l'avanzamento del processo di installazione.
-5. Dopo che l'impostazione è stata completata, immettere nome utente e password di Dynamics 365 for Retail e quindi fare clic **Accedi** per avviare la finestra di progettazione.
+5. Dopo che l'impostazione è stata completata, immettere nome utente e password di Retail e quindi fare clic **Accedi** per avviare la finestra di progettazione.
 6. Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il formato ricevuta o a modificare un formato esistente.
 7. Per creare gli elementi del modulo, selezionare la sezione **Intestazione**, **Righe** o **Piè di pagina** e quindi trascinare un elemento dalla sezione all'area di lavoro. La maggior parte degli elementi contengono variabili che sono automaticamente compilate con dati ricavati dal database. Altre elementi, ad esempio il **Testo**, consentono di stampare testo personalizzato sulla ricevuta.
 

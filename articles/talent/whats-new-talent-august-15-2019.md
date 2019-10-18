@@ -1,6 +1,6 @@
 ---
-title: Novità e modifiche in Dynamics 365 for Talent (13 agosto 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità e modifiche in Dynamics 365 Talent (13 agosto 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/13/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1c10d5d7639c1606b00f95e0bd2b3b3fec326787
-ms.sourcegitcommit: db84eeef6f0bd531ba45b5e66bdacfd0398472e6
+ms.openlocfilehash: b813f3e4707724c262a32aca1227b3d91d1a229f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887485"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025981"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-13-2019"></a>Novità e modifiche in Dynamics 365 for Talent (13 agosto 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Novità e modifiche in Dynamics 365 Talent (13 agosto 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
 Questa versione include correzioni di bug minori per Dynamics 365 Talent: Attract.
@@ -54,9 +54,9 @@ Una nuova opzione consentirà ai responsabili di visualizzare le prestazioni dei
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="platform-update-29"></a>Update 29 della piattaforma
+### <a name="platform-update-29-for-finance-and-operations"></a>Aggiornamento 29 della piattaforma per Finance and Operations
 
-Per ulteriori dettagli sull'aggiornamento 29 della piattaforma, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 for Finance and Operations (ottobre 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 Finance and Operations (ottobre 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Inserimento e navigazione dei dipendenti semplificati
 

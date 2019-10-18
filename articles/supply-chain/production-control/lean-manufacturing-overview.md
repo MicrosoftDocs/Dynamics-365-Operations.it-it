@@ -1,6 +1,6 @@
 ---
 title: Panoramica sul lean manufacturing
-description: In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 for Finance and Operations.
+description: In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562394"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250074"
 ---
 # <a name="lean-manufacturing-overview"></a>Panoramica del lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Microsoft Dynamics 365 for Finance and Operations.
+In questo articolo vengono fornite una panoramica e una descrizione delle funzionalità di lean manufacturing in Dynamics 365 Supply Chain Management.
 
 La funzionalità lean manufacturing mette a disposizione strumenti per la gestione di operazioni snelle. Questi strumenti supportano e promuovono i concetti e le attività commerciali seguenti:
 -   Creare una base di lean manufacturing modellando i processi di logistica e di produzione come flussi di produzione.
 -   Implementare un sistema pull snello utilizzando i kanban per segnalare i requisiti della domanda.
 -   Monitorare e gestire i processi kanban.
 
-L'architettura di lean manufacturing in Finance and Operations è costituita da flussi di produzione, attività e regole kanban. Queste strutture sono interamente integrate con i processi di Finance and Operations. La funzionalità lean manufacturing si adatta a un ambiente di produzione misto in cui si combinano varie strategie di fornitura, produzione e approvvigionamento. Queste strategie includono gli ordini di produzione, gli ordini batch per i settori della trasformazione, gli ordini fornitore e di trasferimento.
+L'architettura di lean manufacturing è costituita da flussi di produzione, attività e regole kanban. Queste strutture sono interamente integrate con i processi di Supply Chain Management. La funzionalità lean manufacturing si adatta a un ambiente di produzione misto in cui si combinano varie strategie di fornitura, produzione e approvvigionamento. Queste strategie includono gli ordini di produzione, gli ordini batch per i settori della trasformazione, gli ordini fornitore e di trasferimento.
 
 | **Importante**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| È possibile utilizzare Finance and Operations per supportare l'implementazione di lean manufacturing con kanban. Tuttavia, il successo di un'implementazione dei principi di lean manufacturing dipende dai processi aziendali interni in uso e dall'ambiente e dalle condizioni di produzione effettivi. |
+| È possibile utilizzare Supply Chain Management per supportare l'implementazione di lean manufacturing con kanban. Tuttavia, il successo di un'implementazione dei principi di lean manufacturing dipende dai processi aziendali interni in uso e dall'ambiente e dalle condizioni di produzione effettivi. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Modellizzazione dei processi di logistica e di produzione come flussi di produzione
 Per creare una base di lean manufacturing, modellare i processi di logistica e di produzione come flussi di produzione. Questa attività consiste nelle seguenti mansioni:
@@ -69,8 +69,8 @@ Nel seguente elenco vengono descritte le bacheche kanban specifiche:
 -   Bacheca kanban per i processi di trasferimento: in questa bacheca viene fornita una panoramica dei processi di trasferimento correnti. È possibile aggiornare e registrare le distinte di prelievo, avviare e completare i processi di trasferimento ed eseguire altre attività.
 -   Bacheca kanban per i processi di lavorazione - Questa bacheca è progettata per supportare il flusso di produzione normale e per effettuare una panoramica della situazione corrente in una o più celle di lavoro. Da questa bacheca ai kanban può essere assegnata la priorità, possono prelevati o prodotti. La bacheca è inoltre progettata per supportare lo scansione del codice a barre per la registrazione di kanban.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Processi kanban e integrazione con i processi di Finance and Operations
-I processi kanban sono pienamente integrati con i processi correnti per le operazioni di magazzino in Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Processi kanban e integrazione con i processi Supply Chain Management
+I processi kanban sono pienamente integrati con i processi correnti per le operazioni di magazzino in Supply Chain Management.
 -   È possibile eseguire attività di prelievo per rifornire il materiale utilizzato per i processi kanban.
 -   È possibile stampare le schede kanban, le schede kanban circolanti e le distinte di prelievo a supporto dell'utilizzo dei kanban. Questi documenti vengono utilizzati per rappresentare, tenere traccia e registrare i processi kanban nel magazzino e nel reparto di produzione.
 -   È possibile registrare le attività di prelievo e di trasferimento delle scorte eseguendo la scansione dei codici a barre.

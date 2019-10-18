@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518355"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008378"
 ---
 # <a name="formalize-business-processes"></a>Formalizzare i processi aziendali
 
@@ -43,7 +43,7 @@ Un modello del processo aziendale elenca un gruppo di attività che costituiscon
 Il proprietario di un processo non può creare nuovi processi aziendali o modelli di processi aziendali, né eliminare i processi aziendali attivi o i modelli di processi aziendali.
 
 ## <a name="tasks"></a>Attività
-Un processo aziendale spesso comprende molteplici attività. Alcune attività, come la revisione delle offerte di corsi interni, possono essere completate in Microsoft Dynamics 365 for Talent[?]. In questo caso, si seleziona un'opzione nel campo **Collegamento attività**. Altre attività potrebbero includere la verifica o il completamento di pagine su un sito Web. In questo caso, nel campo **URL** è selezionato **Collegamento attività** e infine l'indirizzo Web può essere immesso. È possibile immettere URL per siti interni ed esterni. È inoltre possibile creare attività da completare manualmente, ad esempio la revisione dell'accessibilità di tutte le strutture. In questo caso, un collegamento di attività non è obbligatorio. Questa flessibilità consente di monitorare più tipi di attività in un processo completo.
+Un processo aziendale spesso comprende molteplici attività. Alcune attività, come la revisione delle offerte di corsi interni, possono essere completate in Microsoft Dynamics 365 Talent. In questo caso, si seleziona un'opzione nel campo **Collegamento attività**. Altre attività potrebbero includere la verifica o il completamento di pagine su un sito Web. In questo caso, nel campo **URL** è selezionato **Collegamento attività** e infine l'indirizzo Web può essere immesso. È possibile immettere URL per siti interni ed esterni. È inoltre possibile creare attività da completare manualmente, ad esempio la revisione dell'accessibilità di tutte le strutture. In questo caso, un collegamento di attività non è obbligatorio. Questa flessibilità consente di monitorare più tipi di attività in un processo completo.
 
 Le attività possono essere assegnate a un lavoratore specifico o a una posizione. Ad esempio, il responsabile delle retribuzioni e dei benefit sarà sempre la persona che conduce una revisione dei premi assicurativi. Pertanto, quando si crea questa attività, selezionare la **posizione** per il **tipo di assegnazione**, quindi selezionare **Responsabile retribuzione** e benefit dall'elenco **Posizione**. Quando il processo aziendale ha inizio, l'attività viene assegnata al lavoratore che occupa la posizione di **responsabile retribuzione e benefit**. È possibile assegnare un'attività a un lavoratore specifico selezionando **Lavoratore** nel campo **Tipo di assegnazione** e selezionando la persona appropriata.
 

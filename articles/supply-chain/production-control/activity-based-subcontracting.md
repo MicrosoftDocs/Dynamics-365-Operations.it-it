@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549315"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250222"
 ---
 # <a name="activity-based-subcontracting"></a>Conto lavoro basato su attività
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549315"
 
 In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 
-In Microsoft Dynamics 365 for Finance and Operations sono presenti due approcci per il conto lavoro: ordini di produzione e lean manufacturing. Nell'approccio lean manufacturing, il lavoro in conto lavoro è modellizzato come servizio correlato a un'attività del flusso di produzione. Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno più parte di una distinta base (DBA). La contabilità industriale di lavoro in conto lavoro è completamente integrata nella soluzione di determinazione costi per il lean manufacturing.
+In Microsoft Dynamics 365 Supply Chain Management sono presenti due approcci per il conto lavoro: ordini di produzione e lean manufacturing. Nell'approccio lean manufacturing, il lavoro in conto lavoro è modellizzato come servizio correlato a un'attività del flusso di produzione. Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno più parte di una distinta base (DBA). La contabilità industriale di lavoro in conto lavoro è completamente integrata nella soluzione di determinazione costi per il lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Flussi di produzione che includono terzisti
 Il principio di base di un flusso di produzione non cambia quando le attività sono in conto lavoro. Il materiale ancora si sposta tra ubicazioni, le attività di processo convertono il materiale in prodotti e le attività di trasferimento spostano il materiale o i prodotti da un'ubicazione a un'altra. È possibile modellare le ubicazioni e le celle di lavoro come gestire dal fornitore assegnando il conto fornitore a un magazzino o a una risorsa di un gruppo di risorse.  
@@ -102,7 +102,7 @@ Le persone spesso considerano il trasporto non produttivo e pensano che aggiunga
 
 Il conto lavoro basato su attività nel lean manufacturing consente di integrare i vettori e i fornitori di trasporto che spostano materiale e prodotti tra ubicazioni di un flusso di produzione. Modellando un'attività di trasferimento, è possibile assegnare un vettore o un fornitore. Le attività o il processo di trasferimento è basato su un contratto di servizio e di acquisto e sarà possibile creare ordini fornitore e avvisi di ricevimenti, in base ai processi di trasferimento effettivi. Questa funzionalità è la stessa della funzionalità per le attività di processo in conto lavoro.  
 
-Di conseguenza, Finance and Operations ora supporta il calcolo DBA che comprende servizi di trasporto, la creazione di ordini fornitore correlati, la registrazione integrata dell'entrata e l'integrazione dei costi del servizio di trasporto nella determinazione costi del flusso di produzione.
+Supply Chain Management ora supporta il calcolo DBA che comprende servizi di trasporto, la creazione di ordini fornitore correlati, la registrazione integrata dell'entrata e l'integrazione dei costi del servizio di trasporto nella determinazione costi del flusso di produzione.
 
 
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865378"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249496"
 ---
 # <a name="product-configuration-overview"></a>Panoramica configurazione prodotto
 
@@ -60,6 +60,9 @@ Un modello di configurazione prodotto è costituito da uno o più componenti che
 
 Ciascun componente dispone di uno o più attributi che ne identificano le proprietà. Gli attributi sono gli elementi che gli utenti sceglieranno durante il processo di configurazione. Gli attributi controllano sia le relazioni sia all'interno di un componente che tra componenti attraverso l'inclusione in vincoli o calcoli. Tramite le condizioni applicate alle righe DBA, gli attributi possono essere utilizzati per determinare le parti fisiche di cui sarà composto il prodotto configurato. Inoltre, un attributo può anche controllare la proprietà di una riga DBA tramite un meccanismo di mapping. Una funzionalità simile è presente per le operazioni del ciclo di lavorazione in relazione alle impostazioni dell'inclusione e delle proprietà.
 
+>[!NOTE]
+> Quando si creano tipi di attributo, evitare di creare un numero elevato di valori per il dominio del tipo di attributo in quanto questa operazione potrebbe rallentare la configurazione del prodotto. 
+
 ### <a name="expression-constraints"></a>Vincoli di espressione
 
 L'utilizzo di un modello di configurazione prodotto basato su vincoli implica la presenza di alcune limitazioni quando l'utente seleziona dei valori per i vari attributi. Tali limitazioni possono essere implementate come vincoli di espressione utilizzando il linguaggio OML (Optimization Modeling Language). In alternativa, un vincolo può essere implementato sotto forma di vincolo di tabella.
@@ -70,7 +73,7 @@ I vincoli di tabella possono essere definiti dall'utente o dal sistema.
 
 Un vincolo di tabella definito dall'utente è creato dall'utente. L'utente seleziona una combinazione di tipi di attributo per rappresentare le colonne della tabella e immette i valori dai domini dei tipi di attributo selezionati per creare le righe nel vincolo di tabella.  
 
-Un vincolo di tabella definito dal sistema viene definito selezionando la tabella di Microsoft Dynamics 365 for Finance and Operations da utilizzare come riferimento quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Finance and Operations che sono presenti al momento della configurazione.  
+Un vincolo di tabella definito dal sistema viene definito selezionando la tabella da utilizzare come riferimento quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Finance and Operations che sono presenti al momento della configurazione.  
 
 Un vincolo di tabella viene incluso in un modello di configurazione prodotto facendo riferimento alla definizione del vincolo di tabella ed eseguendo il mapping degli attributi appropriati nel modello alle colonne del vincolo di tabella.
 

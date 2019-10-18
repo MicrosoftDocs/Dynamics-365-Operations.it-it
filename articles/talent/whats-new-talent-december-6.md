@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent Core HR (6 dicembre 2018)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
+title: Novità o modifiche in Dynamics 365 Talent - Core HR (6 dicembre 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742588"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025958"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (6 dicembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Novità o modifiche in Dynamics 365 Talent: Core HR (6 dicembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742588"
 Questo argomento descrive le funzionalità nuove o modificate di Core HR.
 
 
-## <a name="platform-update-22"></a>Update 22 della piattaforma
+## <a name="platform-update-22-for-finance-and-operations"></a>Aggiornamento 22 della piattaforma per Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Esportazione fino a 1 milione di righe in Excel
 
@@ -42,7 +42,7 @@ La funzionalità Esporta in Excel può ora essere configurata per consentire agl
 
 ### <a name="restyled-personalization-toolbar"></a>Barra degli strumenti di personalizzazione modificata
 
-La barra degli strumenti di personalizzazione è stata modificata nell'aggiornamento 22 della piattaforma per consentire agli utenti di adattare più facilmente le proprie esperienze in Talent. Sono state apportate le seguenti modifiche: 
+La barra degli strumenti di personalizzazione è stata modificata nell'aggiornamento 22 della piattaforma per Finance and Operations per consentire agli utenti di adattare più facilmente le proprie esperienze in Talent. Sono state apportate le seguenti modifiche: 
 
 -  Il nome di ogni strumento di personalizzazione è ora visualizzato con un'icona e ciò consente agli utenti di riconoscere rapidamente lo strumento che intendono utilizzare.
 -  Ora è visualizzata anche la descrizione su come utilizzare lo strumento corrente e ciò consente agli utenti di comprendere come eseguire le personalizzazioni necessarie.  
@@ -50,19 +50,19 @@ La barra degli strumenti di personalizzazione è stata modificata nell'aggiornam
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Esperienza di filtro "è uno di" ottimizzata
 
-L'operatore di filtro "è uno di" è disponibile per la maggior parte dei campi quando si utilizza il riquadro filtri e gli elenchi a discesa dell'intestazione della griglia. Questo operatore consente a un utente di filtrare un campo in base a molteplici valori. Una nuova e migliorata esperienza per l'operatore "è uno di" è disponibile nell'aggiornamento della piattaforma 22. Per ulteriori informazioni, vedere [Esperienza del filtro "è uno di" ottimizzata](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+L'operatore di filtro "è uno di" è disponibile per la maggior parte dei campi quando si utilizza il riquadro filtri e gli elenchi a discesa dell'intestazione della griglia. Questo operatore consente a un utente di filtrare un campo in base a molteplici valori. Una nuova e migliorata esperienza per l'operatore "è uno di" è disponibile nell'aggiornamento della piattaforma 22 per Finance and Operations. Per ulteriori informazioni, vedere [Esperienza del filtro "è uno di" ottimizzata](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Incollare elenchi da Excel nei campi filtro con l'operatore "è uno di"
 
 Per alcune attività, è possibile che gli utenti dispongano di un elenco di valori in Excel che desiderano utilizzare per filtrare i dati in Talent. Ad esempio, un utente Risorse umane può aver identificato un gruppo di dipendenti in un report per i quali è necessaria un'ulteriore ricerca nel sistema e per questo utente sarebbe ideale poter copiare l'elenco direttamente da Excel in un campo filtro in Talent.
 
-A partire dall'aggiornamento 22 della piattaforma, l'operatore "è uno di" nel riquadro filtri e nel filtro delle colonne della griglia riconosce gli elenchi copiati da Excel in modo da poter essere incollati direttamente in un campo filtro. Ciò include una raccolta di valori copiati da varie righe e colonne in Excel. Per ulteriori informazioni su questa funzionalità, vedere [Incollare elenchi da Excel nei campi filtro con l'operatore "è uno di"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+A partire dall'aggiornamento 22 della piattaforma per Finance and Operations, l'operatore "è uno di" nel riquadro filtri e nel filtro delle colonne della griglia riconosce gli elenchi copiati da Excel in modo da poter essere incollati direttamente in un campo filtro. Ciò include una raccolta di valori copiati da varie righe e colonne in Excel. Per ulteriori informazioni su questa funzionalità, vedere [Incollare elenchi da Excel nei campi filtro con l'operatore "è uno di"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>In anteprima
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Configurare l'integrazione retribuzioni per il Regno Unito tra Talent e Dayforce
 
-L'integrazione tra Microsoft Dynamics 365 for Talent e Ceridian Dayforce è disponibile in anteprima per il Regno Unito. Per ulteriori informazioni, fare riferimento all'argomento [Configurare l'integrazione retribuzioni tra Talent e Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+L'integrazione tra Talent e Ceridian Dayforce è disponibile in anteprima per il Regno Unito. Per ulteriori informazioni, fare riferimento all'argomento [Configurare l'integrazione retribuzioni tra Talent e Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Presto disponibili
 
@@ -90,9 +90,9 @@ Sono stata apportate delle modifiche per correggere gli allegati. Ora quando si 
 
 ## <a name="known-issues"></a>Problemi noti
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Errori di mapping nell'integrazione con Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Errori di mapping nell'integrazione con Finance
 
-I seguenti problemi sono stati identificati nel modello corrente per l'integrazione di Talent con Finance and Operations. Un nuovo modello verrà pubblicato a breve e applicato a tutti i nuovi progetti di integrazione creati. Per i progetti di integrazione esistenti, i mapping di attività possono essere aggiornati. Consultare la tabella seguente per i mapping aggiornati. 
+I seguenti problemi sono stati identificati nel modello corrente per l'integrazione di Talent con Finance. Un nuovo modello verrà pubblicato a breve e applicato a tutti i nuovi progetti di integrazione creati. Per i progetti di integrazione esistenti, i mapping di attività possono essere aggiornati. Consultare la tabella seguente per i mapping aggiornati. 
 
 >[!NOTE]
 > L'attività di assegnazione del processo padre Posizioni lavorative a Posizioni non integra dati. Questo problema è attualmente in fase di risoluzione. Non esiste alcuna soluzione alternativa nel mapping corrente. 

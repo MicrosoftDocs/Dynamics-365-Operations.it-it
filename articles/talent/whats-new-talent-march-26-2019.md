@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (26 marzo 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (26 marzo 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741569"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023886"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Novità o modifiche in Dynamics 365 for Talent (26 marzo 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novità o modifiche in Dynamics 365 Talent (26 marzo 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
 
@@ -53,7 +53,7 @@ Questa versione include correzioni di bug minori per Dynamics 365 Talent: Onboar
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Supporto per campi personalizzati disponibile per le entità di selezione in Common Data Service 
 
-Le seguenti entità di Common Data Service ora supportano campi dei clienti creati in Dynamics 365 for Talent:
+Le seguenti entità di Common Data Service ora supportano campi dei clienti creati in Talent:
 
 - Lavoro
 - Origine etnica
@@ -72,9 +72,9 @@ Con questa modifica, la pagina dello storico delle esperienze lavorative ora vis
 In questa versione, i piani di retribuzione fissa ora sono visualizzati quando si limitano gli utenti per società in Sicurezza. Tutte le impostazioni di sicurezza saranno rispettate e i piani fissi saranno visualizzati per le società per le quali l'utente dispone di autorizzazioni di accesso. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Impossibile eliminare i record relativi alle mansioni utilizzando l'opzione Apri in Excel di Talent
-Con questa versione, è ora possibile rimuovere i record relativi alle mansioni utilizzando l'opzione **Apri in Excel** di Dynamics 365 for Talent.
+Con questa versione, è ora possibile rimuovere i record relativi alle mansioni utilizzando l'opzione **Apri in Excel** di Talent.
 
-### <a name="upgrade-to-common-data-service"></a>Aggiornamento a Common Data Service
+### <a name="upgrade-to-common-data-service"></a>Eseguire l'aggiornamento a Common Data Service
 Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>In anteprima
@@ -93,7 +93,7 @@ Le organizzazioni potrebbero richiedere l'impostazione di codici motivo per dete
 In molte organizzazioni, i responsabili delle retribuzioni e dei benefit potrebbero avere accesso solo a determinati record di retribuzione. Questi record potrebbero essere per dirigenti o dipendenti regionali. Con questa modifica, le Risorse umane possono gestire i piani di retribuzione per differenti gruppi di dipendenti nell'organizzazione. È possibile assegnare ruoli di sicurezza a piani fissi e variabili che determinano l'accesso ai piani e ai dati dei dipendenti correlati ai piani, ad esempio record di stipendi o premi. Solo i ruoli a cui è consentito l'accesso possono elaborare la retribuzione per quei dipendenti.
 
 ###  <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
-Grazie all'aggiornamento 25 della piattaforma, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento. 
+Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Verifiche di dipendenti duplicati: modifiche dell'interfaccia utente
 Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi Nome e uno stato indica il numero di duplicati trovati. È possibile selezionare il collegamento fornito per aprire una nuova pagina e valutare se utilizzare la corrispondenza rilevata. Per evitare di interrompere l'immissione di dati, il modulo Duplicati non viene aperto automaticamente.

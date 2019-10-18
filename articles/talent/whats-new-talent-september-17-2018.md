@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent Core HR (17 settembre 2018)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
+title: Novità o modifiche in Dynamics 365 Talent - Core HR (17 settembre 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518392"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026038"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (17 settembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Novità o modifiche in Dynamics 365 Talent: Core HR (17 settembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ Questo argomento descrive le funzionalità nuove o modificate di Core HR.
 
 È stato aggiunto un nuovo tipo di attribuzione per competenza ai piani di congedo. La programmazione di attribuzione può ora essere basata sui mesi di servizio o sulle ore lavorate. Per ulteriori informazioni, vedere [Attribuire permessi in base alle ore lavorate](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Update 18 della piattaforma
+## <a name="platform-update-18-for-finance-and-operations"></a>Aggiornamento 18 della piattaforma per Finance and Operations
 
-L'aggiornamento 18 della piattaforma fa ora parte della versione di Talent. 
+L'aggiornamento 18 della piattaforma per Finance and Operations fa ora parte della versione di Talent. 
 
 -   I campi obbligatori e altri campi possono essere nascosti tramite la personalizzazione. Ciò consente a un utente di creare un'esperienza semplificata in cui i campi obbligatori che sono impostati su valori predefiniti dalla logica di business non vengono mostrati. I campi obbligatori nascosti vengono inoltre resi temporaneamente visibili se sono vuoti quando si prova a eseguire il salvataggio.
 
--   Nell'aggiornamento 18 della piattaforma, il client Web Talent allinea ora gli elementi visivi a Microsoft Fluent Design.
+-   Nell'aggiornamento 18 della piattaforma per Finance and Operations, il client Web Talent allinea ora gli elementi visivi a Microsoft Fluent Design.
 
     -   Quando i campi sono in "modalità di lettura", è possibile selezionare semplicemente l'opzione di modifica nei campi pe passare al modulo di modifica.
 

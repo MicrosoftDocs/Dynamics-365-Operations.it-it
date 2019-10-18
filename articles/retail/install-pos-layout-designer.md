@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572082"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025450"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Installare lo strumento di progettazione layout di POS di Retail
 
@@ -36,11 +36,11 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
 
 ## <a name="install-the-one-click-designer"></a>Installare lo strumento di progettazione con un clic
 
-1. In Microsoft Dynamics 365 for Retail, utilizzare il menu in alto a sinistra per accedere a **Vendita al dettaglio** **e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **POS** &gt; **Layout schermo**.
+1. In Retail, utilizzare il menu in alto a sinistra per accedere a **Vendita al dettaglio** **e commercio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **POS** &gt; **Layout schermo**.
 2. Selezionare il layout con tipo applicazione **Modern POS per Windows** o **POS cloud**, quindi fare clic su **Progettazione layout**.
 3. Nella barra di notifica visualizzata nella parte inferiore della finestra di Internet Explorer, fare clic su **Apri** per avviare l'installazione della progettazione con un clic. (La barra di notifica potrebbe essere visualizzata in un posto diverso in altri browser).
 4. Nella finestra di messaggio **Esecuzione applicazione - Avviso di sicurezza** visualizzata, fare clic su  **Esegui** per installare l'host della progettazione Retail. Un indicatore di stato mostra lo stato di avanzamento di installazione.
-5. Dopo che l'installazione è stata completata, nella pagina **Accedi** immettere nome utente e password di Microsoft Dynamics 365 for Retail e quindi fare clic **Accedi** per avviare lo strumento di progettazione.
+5. Dopo che l'installazione è stata completata, nella pagina **Accedi** immettere nome utente e password di Retail e quindi fare clic **Accedi** per avviare lo strumento di progettazione.
 6. Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il proprio layout o modificare il layout esistente.
 
     [![Layout nello strumento di progettazione con un clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
     **Soluzioni:**
 
     - In Internet Explorer, assicurarsi che il blocco popup è disabilitato per il sito. Fare clic su **Impostazioni** &gt; **Opzioni** &gt; **Privacy** &gt; **Trova blocco popup** e modificare le impostazioni, se sono necessarie modifiche.
-    - In Internet Explorer, aggiungere l'URL di Dynamics 365 for Retail ai siti attendibili. Fare clic su **Impostazioni** &gt; **Opzioni** &gt; **Sicurezza** &gt; **Siti attendibili** &gt; **Siti** &gt; **Aggiungi**.
+    - In Internet Explorer, aggiungere l'URL di Retail ai siti attendibili. Fare clic su **Impostazioni** &gt; **Opzioni** &gt; **Sicurezza** &gt; **Siti attendibili** &gt; **Siti** &gt; **Aggiungi**.
 
 - Il programma non viene avviato o viene richiesto di contattare il fornitore.
 
-    **Soluzione:** In Internet Explorer, aggiungere l'URL di Dynamics 365 for Retail ai siti attendibili. Fare clic su **Impostazioni** &gt; **Opzioni** &gt; **Sicurezza** &gt; **Siti attendibili** &gt; **Siti** &gt; **Aggiungi**.
+    **Soluzione:** In Internet Explorer, aggiungere l'URL di Retail ai siti attendibili. Fare clic su **Impostazioni** &gt; **Opzioni** &gt; **Sicurezza** &gt; **Siti attendibili** &gt; **Siti** &gt; **Aggiungi**.
 
 **Problema noto:** lo strumento di progettazione attualmente non funziona nei browser Google Chrome e Mozilla Firefox Stiamo lavorando per risolvere questo problema.
 

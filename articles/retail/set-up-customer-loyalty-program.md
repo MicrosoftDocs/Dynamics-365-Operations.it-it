@@ -1,6 +1,6 @@
 ---
 title: Panoramica fedeltà
-description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
+description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Dynamics 365 Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863774"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250969"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
 [!include [banner](includes/banner.md)]
 
-I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Microsoft Dynamics 365 for Retail è possibile impostare programmi fedeltà semplici o complessi applicabili tra le persone giuridiche in qualsiasi canale di vendita al dettaglio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Microsoft Dynamics 365 for Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
+I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Dynamics 365 Retail è possibile impostare programmi fedeltà semplici o complessi applicabili tra le persone giuridiche in qualsiasi canale di vendita al dettaglio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Retail e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 
 È possibile impostare il programma fedeltà in modo che comprenda le seguenti opzioni.
 
@@ -42,7 +42,7 @@ I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti pr
 
 ## <a name="setting-up-loyalty-programs"></a>Impostazione dei programmi fedeltà
 
-È necessario impostare più componenti per abilitare la funzionalità di fedeltà in Dynamics 365 for Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro.
+È necessario impostare più componenti per abilitare la funzionalità di fedeltà in Retail. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro.
 
 ![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif "Componenti del programma fedeltà e come sono correlati tra loro")
 
@@ -69,9 +69,9 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
 
 | Nome processo                         | Descrizione | Nome pagina |
 |--------------------------------------|-------------|-----------|
-| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati di configurazione fedeltà da Dynamics 365 for Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi. | Programmazione della distribuzione |
+| 1050 (informazioni fedeltà)           | Eseguire questo processo per inviare i dati di configurazione fedeltà da Retail ai punti vendita al dettaglio. È una buona idea programmare l'esecuzione del processo di frequente, in modo che i dati del programma fedeltà siano trasmessi a tutti gli archivi. | Programmazione della distribuzione |
 | Elabora programmi fedeltà              | Eseguire questo processo per associare gli schemi del programma fedeltà ai canali di vendita al dettaglio a cui lo schema del programma fedeltà è assegnato. Questo processo può essere programmato per l'esecuzione come processo batch. È necessario eseguire questo processo se si modificano i dati di configurazione del programma fedeltà, ad esempio schemi del programma fedeltà, programmi fedeltà o i punti di ricompensa del programma fedeltà. | Elabora programmi fedeltà |
-| Elabora transazioni fedeltà offline | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Guadagna offline** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che le ricompense possano essere guadagnate offline. | Elabora transazioni fedeltà offline |
+| Registra punti fedeltà ottenuti in batch | Eseguire questo processo per aggiornare le carte fedeltà in modo che includano le transazioni elaborate offline. Questo processo si applica solo se la casella di controllo **Registra punti ottenuti in batch** è selezionata nella pagina **Parametri condivisi di vendita al dettaglio**, in modo che le ricompense possano essere guadagnate offline. | Registra punti fedeltà ottenuti in batch |
 | Aggiorna livelli carta fedeltà            | Eseguire questo processo per valutare l'attività di acquisizione del cliente rispetto alle regole di livello per un programma fedeltà e aggiornare lo stato del livello del cliente. Questo processo è necessario solo se si modificano le regole di livello nei programmi fedeltà e si desidera applicare le regole aggiornate con effetto retroattivo alle carte fedeltà già emesse. Questo processo può essere eseguito come processo batch o per le carte singole. | Aggiorna livelli carta fedeltà |
 
 ## <a name="loyalty-enhancements"></a>Miglioramenti al programma fedeltà
@@ -89,7 +89,7 @@ La vendita al dettaglio è una nuova funzionalità del programma fedeltà nell'a
 
     ![Rapporti esclusi](./media/Excluded-affiliations.png "Rapporti esclusi dai punti del programma fedeltà")
     
-- I rivenditori possono generare i numeri di carta fedeltà nei canali. Prima dell'aggiornamento del mese di ottobre 2018 i rivenditori potevano utilizzare carte fedeltà fisiche o generare una carta fedeltà utilizzando alcuna informazione univoche sul cliente, ad esempio un numero di telefono. Per abilitare la generazione automatica di carte fedeltà nelle vendite al dettaglio, attivare **Genera numero carta fedeltà** nel profilo della funzionalità associato al punto vendita. Per i canali online, i rivenditori possono utilizzare l'API IssueLoyaltyCard per emettere le carte fedeltà ai clienti. I rivenditori possono fornire un numero di carta fedeltà a questa API, che verrà utilizzato per generare la carta fedeltà, o il sistema utilizzerà la sequenza numerica della carta fedeltà in Dynamics 365 for Retail. Tuttavia, se la sequenza numerica non è presente e il rivenditore non fornisce un numero di carta fedeltà mentre chiama l'API, verrà visualizzato un errore.
+- I rivenditori possono generare i numeri di carta fedeltà nei canali. Prima dell'aggiornamento del mese di ottobre 2018 i rivenditori potevano utilizzare carte fedeltà fisiche o generare una carta fedeltà utilizzando alcuna informazione univoche sul cliente, ad esempio un numero di telefono. Per abilitare la generazione automatica di carte fedeltà nelle vendite al dettaglio, attivare **Genera numero carta fedeltà** nel profilo della funzionalità associato al punto vendita. Per i canali online, i rivenditori possono utilizzare l'API IssueLoyaltyCard per emettere le carte fedeltà ai clienti. I rivenditori possono fornire un numero di carta fedeltà a questa API, che verrà utilizzato per generare la carta fedeltà, o il sistema utilizzerà la sequenza numerica della carta fedeltà in Retail. Tuttavia, se la sequenza numerica non è presente e il rivenditore non fornisce un numero di carta fedeltà mentre chiama l'API, verrà visualizzato un errore.
 
     ![Genera carta fedeltà](./media/Generate-loyalty-card.png "Il numero di carta fedeltà verrà generato automaticamente")
 
@@ -137,7 +137,7 @@ La vendita al dettaglio è una nuova funzionalità del programma fedeltà nell'a
     - La realizzazione di un'attività che deve essere ricompensata.
     - L'attribuzione dei punti appropriati.
 
-    La prima fase è esterna a Microsoft Dynamics 365 for Retail, ad esempio l'invio di tweet in relazione al brand o il gradimento del brand su Facebook. Dopo il riconoscimento di tale attività, i rivenditori possono chiamare l'API menzionata precedentemente e attribuire punti fedeltà in tempo reale. In tali scenari, non è necessario un'operazione di verifica in quanto un'attività è stata eseguita e i punti corrispondenti devono essere attribuiti. Tuttavia, vi sono scenari in cui il rivenditore intende esaminare i record prima di attribuire i punti. Ad esempio, il rivenditore ha organizzato un workshop nel punto vendita al quale i clienti si iscrivono sul sito Web e-commerce o tramite un'applicazione di registrazione. Tuttavia, solo i clienti effettivamente presenti otterranno punti fedeltà. Per tali scenari, nella versione 10.0, abbiamo introdotto un'entità di dati denominata **Righe altro tipo di attività fedeltà vendita al dettaglio**. Questa entità consente ai rivenditori di utilizzare il Framework di importazione/esportazione dati o l'API OData per registrare le attività che devono attribuire punti fedeltà ai clienti. L'entità di dati archivia le attività in un giornale denominato **Righe programma fedeltà per altre attività**, che può essere utilizzato per fini di verifica e modifica. Dopo che i dati sono stati esaminati, l'utente IT può registrare manualmente le righe dell'attività o eseguire un processo denominato **Elaborare altro tipo di attività per righe programma fedeltà**, che registrerà tutte le righe delle attività non registrate e attribuirà i punti ai clienti in base alle regole di acquisizione. Nello scenario descritto sopra, l'applicazione di registrazione all'evento chiamerebbe l'API OData per inviare le informazioni relative ai clienti a Dynamics 365 for Retail. Tuttavia, l'utente IT può registrare le righe attività solo per i clienti effettivamente presenti al workshop ed eliminare le righe attività relative agli altri clienti. 
+    La prima fase è esterna a Retail, ad esempio l'invio di tweet in relazione al brand o il gradimento del brand su Facebook. Dopo il riconoscimento di tale attività, i rivenditori possono chiamare l'API menzionata precedentemente e attribuire punti fedeltà in tempo reale. In tali scenari, non è necessario un'operazione di verifica in quanto un'attività è stata eseguita e i punti corrispondenti devono essere attribuiti. Tuttavia, vi sono scenari in cui il rivenditore intende esaminare i record prima di attribuire i punti. Ad esempio, il rivenditore ha organizzato un workshop nel punto vendita al quale i clienti si iscrivono sul sito Web e-commerce o tramite un'applicazione di registrazione. Tuttavia, solo i clienti effettivamente presenti otterranno punti fedeltà. Per tali scenari, nella versione 10.0, abbiamo introdotto un'entità di dati denominata **Righe altro tipo di attività fedeltà vendita al dettaglio**. Questa entità consente ai rivenditori di utilizzare il Framework di importazione/esportazione dati o l'API OData per registrare le attività che devono attribuire punti fedeltà ai clienti. L'entità di dati archivia le attività in un giornale denominato **Righe programma fedeltà per altre attività**, che può essere utilizzato per fini di verifica e modifica. Dopo che i dati sono stati esaminati, l'utente IT può registrare manualmente le righe dell'attività o eseguire un processo denominato **Elaborare altro tipo di attività per righe programma fedeltà**, che registrerà tutte le righe delle attività non registrate e attribuirà i punti ai clienti in base alle regole di acquisizione. Nello scenario descritto sopra, l'applicazione di registrazione all'evento chiamerebbe l'API OData per inviare le informazioni relative ai clienti a Dynamics 365 Retail. Tuttavia, l'utente IT può registrare le righe attività solo per i clienti effettivamente presenti al workshop ed eliminare le righe attività relative agli altri clienti. 
 
     > [!NOTE]
     > Attualmente, il sistema forza gli utenti a impostare una sequenza numerica per "altri tipi di attività", ma ciò non sarà necessario nelle versioni future. Per impostare una sequenza numerica, andare a **Parametri condivisi di vendita al dettaglio** \> **Sequenze numeriche** e selezionare una sequenza numerica per **ID altro tipo di attività fedeltà**.

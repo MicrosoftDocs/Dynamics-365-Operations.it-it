@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783369"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024570"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783369"
 
 In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lavoro e la programmazione degli ordini di lavoro devono essere impostati. In questo argomento viene illustrato come impostarli. Selezionare **Gestione cespiti** > **Impostazione** > **Parametri di gestione cespiti** per aprire il modulo.
 
-Il pulsante **Creazione guidata dati** può essere utilizzato per creare automaticamente i dati di impostazione per scopi di test o di dati dimostrativi in una società in Dynamics 365 for Finance and Operations. Fare riferimento al white paper sull'impostazione dei dati di test in Gestione cespiti per informazioni su come utilizzare la procedura guidata.
+Il pulsante **Creazione guidata dati** può essere utilizzato per creare automaticamente i dati di impostazione per scopi di test o di dati dimostrativi in una società in Dynamics 365 Supply Chain Management. Fare riferimento al white paper sull'impostazione dei dati di test in Gestione cespiti per informazioni su come utilizzare la procedura guidata.
 
 collegamento**Cespiti**
 
@@ -57,7 +57,7 @@ collegamento**Ordini di lavoro**
 - Selezionare "Sì" sull'interruttore **Copia errori** per copiare automaticamente gli errori registrati in ordini di lavoro nelle richieste di intervento di manutenzione correlate.  
 - Nel campo **Livello**, definire il livello di unità funzionale che viene inserito automaticamente in un ordine di lavoro se tutti i processi di ordini di lavoro correlati fanno riferimento alla stessa unità funzionale. Se i processi di ordine di lavoro non sono tutti relativi alla stessa unità funzionale del livello definito, il campo **Unità funzionale** è lasciato vuoto nell'ordine di lavoro. Esempio: Se si inserisce il numero "1" in questo campo, quello è il livello principale di una struttura di unità funzionali. Se si inserisce il numero "0" in questo campo, non è stato definito un livello specifico di unità funzionale, solo che tutti i processi di ordine di lavoro in un ordine di lavoro devono essere correlati alla stessa unità funzionale per l'unità funzionale da aggiungere all'ordine di lavoro.  
 - I giornali di registrazione utilizzati per la registrazione del consumo in un ordine di lavoro possono essere selezionati nella Scheda dettaglio **Generale** nei campi **Ora**, **Articolo** e **Spese**.  
-- Nel campo **Origine lingua prodotto**, selezionare la lingua da utilizzare per i nomi di prodotti nei report di Gestione cespiti. È possibile selezionare la lingua impostata nel conto della società o quella impostata per l'utente attualmente connesso in Dynamics 365 for Finance and Operations.  
+- Nel campo **Origine lingua prodotto**, selezionare la lingua da utilizzare per i nomi di prodotti nei report di Gestione cespiti. È possibile selezionare la lingua impostata nel conto della società o quella impostata per l'utente attualmente connesso.  
 - Selezionare "Sì" sull'interruttore **Aggiornamento in tempo reale** se si desidera aggiornare automaticamente le modifiche ai valori predefiniti del tipo di processo, ai piani di manutenzione e ai cicli di manutezione.
 > - Se si seleziona"No", le modifiche ai valori predefiniti del tipo di processo, ai piani di manutenzione e ai cicli di manutenzione non vengono aggiornate automaticamente in Gestione cespiti  
 > - Selezionare "No" sull'interruttore se si dispone di grandi quantità di dati da sincronizzare, ad esempio, numerosi cespiti o unità funzionali impostate nei piani di manutenzione o cicli di manutenzione, o un numero elevato di piani o cicli di manutenzione.  
@@ -75,7 +75,7 @@ collegamento**Programmazione ordine di lavoro**
 - Il **Piano generale** Riguarda le risorse del modulo **Amministrazione organizzazione**. Se si seleziona un piano generale in questo campo, sarà possibile visualizzare le prenotazioni di capacità correlate agli ordini di lavoro in **Prenotazioni capacità** (**Amministrazione organizzazione** > **Risorse** > **Risorse** > selezionare risorsa > scheda **Risorsa** > pulsante **Prenotazioni capacità** ). Se si lascia questo campo vuoto, sarà possibile visualizzare il carico di capacità correlato agli ordini di lavoro in **Carico di capacità** (**Amministrazione organizzazione** \> **Risorse** \> **Risorse** \> selezionare risorsa \> scheda **Risorsa** \> pulsante **Prenotazioni capacità**).  
 
 >[!NOTE]
->La selezione riguardante l'uso di un piano generale o meno nel modulo **Gestione cespiti** e il modulo correlato utilizzato per ottenere una panoramica delle prenotazioni di capacità o del carico di capacità è impostazione standard di Dynamics 365 for Finance and Operations. A seconda delle impostazioni nel campo **Piano generale**, sarà possibile accedere alle informazioni di capacità in **Prenotazioni capacità** o **Carico di capacità** nel modulo **Amministrazione organizzazione**. Non è possibile creare un'impostazione in cui le prenotazioni di capacità vengono visualizzate in entrambe le visualizzazioni.  
+>La selezione riguardante l'uso di un piano generale o meno nel modulo **Gestione cespiti** e il modulo correlato utilizzato per ottenere una panoramica delle prenotazioni di capacità o del carico di capacità è l'impostazione standard. A seconda delle impostazioni nel campo **Piano generale**, sarà possibile accedere alle informazioni di capacità in **Prenotazioni capacità** o **Carico di capacità** nel modulo **Amministrazione organizzazione**. Non è possibile creare un'impostazione in cui le prenotazioni di capacità vengono visualizzate in entrambe le visualizzazioni.  
 
 I campi descritti nell'elenco puntato seguente sono tutti relativi ai punteggi di valutazione calcolati, utilizzati per calcolare la priorità dell'ordine di lavoro durante la programmazione degli ordini di lavoro.
 

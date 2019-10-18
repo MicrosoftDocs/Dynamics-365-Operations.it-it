@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568001"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025031"
 ---
 # <a name="retail-statements"></a>Rendiconti di vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Retail il processo di registrazione dei rendiconti viene utilizzato per gestire le transazioni che si verificano nei punti vendita nel cloud (POS) o nei Modern POS (MPOS). Il processo di registrazione dei rendiconti utilizza la programmazione di distribuzione per recuperare un set di transazioni POS nel client della sede centrale (HQ). I parametri che vengono definiti nelle pagine **Parametri di vendita al dettaglio** e **Punti vendita** vengono utilizzati per selezionare le transazioni che vengono inserite nei singoli rendiconti.
+In Dynamics 365 Retail il processo di registrazione dei rendiconti viene utilizzato per gestire le transazioni che si verificano nei punti vendita nel cloud (POS) o nei Modern POS (MPOS). Il processo di registrazione dei rendiconti utilizza la programmazione di distribuzione per recuperare un set di transazioni POS nel client della sede centrale (HQ). I parametri che vengono definiti nelle pagine **Parametri di vendita al dettaglio** e **Punti vendita** vengono utilizzati per selezionare le transazioni che vengono inserite nei singoli rendiconti.
 
 L'illustrazione seguente mostra il processo di registrazione dei rendiconti. In questo processo le transazioni registrate nel POS vengono trasmesse al client utilizzando Retail Scheduler. Dopo che il client riceve le transazioni, è possibile creare, calcolare e registrare il rendiconto delle transazioni per il punto vendita.
 
@@ -85,6 +85,6 @@ Se la casella di controllo **Registra come giorno lavorativo** è deselezionata 
 Quando si registra un rendiconto, gli ordini cliente e le fatture vengono creati per le vendite al dettaglio nel rendiconto.
 
 - Le vendite cash and carry vengono aggregate in un ordine cliente e fatturate per il cliente predefinito assegnato al punto vendita.
-- Le vendite al dettaglio per cui un cliente è stato aggiunto alla transazione in Microsoft Dynamics 365 for Retail POS generano ordini cliente e fatture separati, uno per ciascun cliente univoco.
+- Le vendite al dettaglio per cui un cliente è stato aggiunto alla transazione in Retail POS generano ordini cliente e fatture separati, uno per ciascun cliente univoco.
 
 I giornali di registrazione pagamenti vengono creati automaticamente per i pagamenti nel rendiconto e il magazzino viene aggiornato per il punto vendita relativo al POS.

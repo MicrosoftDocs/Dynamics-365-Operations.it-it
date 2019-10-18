@@ -1,6 +1,6 @@
 ---
-title: Impostare la gestione delle offerte
-description: In questo argomento viene descritto come impostare le offerte in Talent.
+title: Impostare la gestione offerta
+description: In questo argomento viene descritto come impostare le offerte in Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518359"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010846"
 ---
-# <a name="set-up-offer-management"></a>Impostare la gestione delle offerte 
+# <a name="set-up-offer-management"></a>Impostare la gestione offerta 
 
 [!include [banner](includes/banner.md)]
 
-Quando un candidato viene passato nella fase offerta in Dynamics 365 for Talent: Attract, è necessario assicurarsi che le offerte possano essere create rapidamente per il candidato, essere approvate secondo le esigenze e essere inviate al candidato. Poiché la maggior parte delle offerte sono standard, è possibile crearle da modelli riutilizzabili. In Attract, tutte le offerte vengono presentate in un pacchetto di offerta, cioè una raccolta di uno o più documenti di offerta. 
+Quando un candidato viene passato nella fase offerta in Dynamics 365 Talent: Attract, è necessario assicurarsi che le offerte possano essere create rapidamente per il candidato, essere approvate secondo le esigenze e essere inviate al candidato. Poiché la maggior parte delle offerte sono standard, è possibile crearle da modelli riutilizzabili. In Attract, tutte le offerte vengono presentate in un pacchetto di offerta, cioè una raccolta di uno o più documenti di offerta. 
 
 Di seguito sono elencati tutti i passaggi che un amministratore di Attract deve seguire per impostare diversi modelli di pacchetti di offerta nell'ambito della funzionalità di gestione delle offerta in Attract. Gli utenti senza ruoli di amministratore non avranno accesso a tali funzionalità.
 

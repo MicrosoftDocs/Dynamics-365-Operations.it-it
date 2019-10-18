@@ -1,6 +1,6 @@
 ---
-title: Configurare le impostazioni di posta elettronica in Microsoft Dynamics 365 for Talent - Attract
-description: In questo argomento viene descritto come configurare le impostazioni di posta elettronica inviata da Microsoft Dynamics 365 for Talent - Attract.
+title: Configurare le impostazioni di posta elettronica in Microsoft Dynamics 365 Talent - Attract
+description: In questo argomento viene descritto come configurare le impostazioni di posta elettronica inviata da Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739497"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008664"
 ---
 # <a name="configure-email-settings"></a>Configurare impostazioni di posta elettronica
 
 [!include[banner](../includes/banner.md)]
 
-Il proprio marchio è sinonimo di fiducia e consente di costruire una relazione con i candidati ancor prima che questi inviino la loro candidatura. Una percezione positiva del marchio attira i migliori talenti e aumenta la fedeltà dei dipendenti esistenti. Microsoft Dynamics 365 for Talent: Attract consente di configurare i messaggi di posta elettronica di modo che riflettano il marchio della società. Di conseguenza, è possibile fornire un'esperienza coerente ai candidati durante il processo di candidatura.
+Il proprio marchio è sinonimo di fiducia e consente di costruire una relazione con i candidati ancor prima che questi inviino la loro candidatura. Una percezione positiva del marchio attira i migliori talenti e aumenta la fedeltà dei dipendenti esistenti. Microsoft Dynamics 365 Talent: Attract consente di configurare i messaggi di posta elettronica di modo che riflettano il marchio della società. Di conseguenza, è possibile fornire un'esperienza coerente ai candidati durante il processo di candidatura.
 
 Attract consente di eseguire queste operazioni:
 

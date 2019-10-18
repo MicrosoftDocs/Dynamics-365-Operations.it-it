@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742635"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025055"
 ---
 # <a name="retail-peripherals"></a>Periferiche di vendita al dettaglio
 
@@ -116,9 +116,9 @@ Il supporto del dispositivo di pagamento è implementato tramite il connettore p
 
 ### <a name="opos"></a>OPOS
 
-Per contribuire a garantire che il più ampio range di dispositivi possa essere utilizzato con Microsoft Dynamics 365 for Retail, lo standard del settore OLE per POS è la principale piattaforma per le periferiche di vendita al dettaglio supportata in Microsoft Dynamics 365 for Retail. Lo standard OLE per POS è stato realizzato dalla National Retail Federation (NRF), che stabilisce i protocolli di comunicazione standard di settore per le periferiche di vendita al dettaglio. OPOS è un'implementazione largamente adottata dello standard OLE per POS. È stato sviluppato a metà degli anni '90 ed è stato aggiornato più volte da allora. OPOS fornisce un'architettura di driver di dispositivo che consente la facile integrazione dell'hardware POS con sistemi POS basati su Windows. I controlli OPOS gestiscono la comunicazione tra compatibile hardware e software POS. Un controllo OPOS consiste di due parti:
+Per contribuire a garantire che il più ampio range di dispositivi possa essere utilizzato con Retail, lo standard del settore OLE per POS è la principale piattaforma per le periferiche di vendita al dettaglio supportata. Lo standard OLE per POS è stato realizzato dalla National Retail Federation (NRF), che stabilisce i protocolli di comunicazione standard di settore per le periferiche di vendita al dettaglio. OPOS è un'implementazione largamente adottata dello standard OLE per POS. È stato sviluppato a metà degli anni '90 ed è stato aggiornato più volte da allora. OPOS fornisce un'architettura di driver di dispositivo che consente la facile integrazione dell'hardware POS con sistemi POS basati su Windows. I controlli OPOS gestiscono la comunicazione tra compatibile hardware e software POS. Un controllo OPOS consiste di due parti:
 
-- **Oggetto controllo**  - l'oggetto controllo per una classe di dispositivi (ad esempio le visualizzazioni di riga) costituisce l'interfaccia per il programma software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) offre un set standardizzato di oggetti controllo OPOS che sono noti come oggetti controlli comuni (CCO). I CCO vengono utilizzati per testare il componente POS di Microsoft Dynamics 365 for Retail Di conseguenza, il test consente di assicurare che, se Microsoft Dynamics 365 for Retail supporta una classe di dispositivi tramite OPOS, molti tipi di dispositivi possono essere supportati, a condizione che il produttore fornisce un oggetto assistenza sviluppato per OPOS. Non è necessario esplicitamente verificare ogni tipo di dispositivo.
+- **Oggetto controllo**  - l'oggetto controllo per una classe di dispositivi (ad esempio le visualizzazioni di riga) costituisce l'interfaccia per il programma software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) offre un set standardizzato di oggetti controllo OPOS che sono noti come oggetti controlli comuni (CCO). I CCO vengono utilizzati per testare il componente POS di Retail. Di conseguenza, il test consente di assicurare che, se Retail supporta una classe di dispositivi tramite OPOS, molti tipi di dispositivi possono essere supportati, a condizione che il produttore fornisce un oggetto assistenza sviluppato per OPOS. Non è necessario esplicitamente verificare ogni tipo di dispositivo.
 - **Oggetto assistenza** –  l'oggetto assistenza fornisce le comunicazioni tra l'oggetto controllo (CCO) e il dispositivo. In genere, l'oggetto assistenza per un dispositivo viene fornito dal produttore del dispositivo. Tuttavia, in alcuni casi, potrebbe essere necessario scaricare l'oggetto assistenza dal sito Web del produttore. Ad esempio, un oggetto assistenza più recente potrebbe essere disponibile. Per trovare l'indirizzo del sito Web del produttore, vedere la documentazione hardware.
 
 [![Oggetto controllo e oggetto assistenza](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Per contribuire a garantire che il più ampio range di dispositivi possa essere 
 Il supporto per l'implementazione OPOS di OLE per POS aiuta a garantire che, se i produttori di dispositivi e gli autori di software POS implementano correttamente lo standard, i sistemi POS e i dispositivi supportati possono funzionare congiuntamente, anche se in precedenza non sono stati testati insieme.
 
 > [!NOTE]
-> Il supporto OPOS non garantisce il supporto per tutti i dispositivi con driver OPOS. Microsoft Dynamics 365 for Retail deve prima supportare il tipo o classe di dispositivo tramite OPOS. Inoltre, gli oggetti assistenza potrebbero non essere sempre aggiornati con l'ultima versione dei CCO. È inoltre necessario tenere presente che, in generale, la qualità degli oggetti assistenza varia.
+> Il supporto OPOS non garantisce il supporto per tutti i dispositivi con driver OPOS. Retail deve prima supportare il tipo o classe di dispositivo tramite OPOS. Inoltre, gli oggetti assistenza potrebbero non essere sempre aggiornati con l'ultima versione dei CCO. È inoltre necessario tenere presente che, in generale, la qualità degli oggetti assistenza varia.
 
 ### <a name="windows"></a>Windows
 
@@ -136,7 +136,7 @@ La stampa della ricevuta nel POS viene ottimizzata per OPOS. OPOS tende a essere
 - I dispositivi connessi tramite la stampante ("connessione a catena") potrebbero non funzionare correttamente quando i driver di Windows vengono utilizzati. Ad esempio, il cassetto della cassa potrebbe non aprirsi o la stampante delle distinte potrebbe non funzionare come previsto.
 - OPOS inoltre supporta una serie di variabili più estesa, specifica delle stampanti di ricevute di vendita al dettaglio, ad esempio la stampa di ritagli e distinte.
 
-Se i controlli OPOS sono disponibili per la stampante Windows in uso, la stampante deve comunque funzionare correttamente con Microsoft Dynamics 365 for Retail.
+Se i controlli OPOS sono disponibili per la stampante Windows in uso, la stampante deve comunque funzionare correttamente con Retail.
 
 ### <a name="universal-windows-platform"></a>Piattaforma UWP (Universal Windows Platform)
 
@@ -192,7 +192,7 @@ La designazione della rete per i dispositivi nel profilo hardware consente ai ca
 
 #### <a name="modern-pos-for-android"></a>Modern POS per Android
 
-A partire da Dynamics 365 for Retail versione 8.1.3, il Modern POS per l'applicazione Android include una stazione hardware IPC incorporata. Questa stazione hardware supporta le comunicazioni con le stampanti di rete e i connettori di pagamento. Per ulteriori informazioni, visitare l'[articolo sulla documentazione dell'app Hybrid per Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+A partire da Retail versione 8.1.3, il Modern POS per l'applicazione Android include una stazione hardware IPC incorporata. Questa stazione hardware supporta le comunicazioni con le stampanti di rete e i connettori di pagamento. Per ulteriori informazioni, visitare l'[articolo sulla documentazione dell'app Hybrid per Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>POS cloud e Modern POS per IOS
 
@@ -526,7 +526,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 Per ulteriori informazioni sulla creazione di profili hardware, vedere [Definire e gestire i client di canale, inclusi i registratori di cassa e le stazioni hardware](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Per Microsoft Dynamics 365 for Retail versione 1611, il profilo della stazione hardware non è più usato. Gli attributi precedentemente impostati nel profilo della stazione hardware ora fanno parte della stazione hardware stessa.
+> Per Retail versione 1611, il profilo della stazione hardware non è più usato. Gli attributi precedentemente impostati nel profilo della stazione hardware ora fanno parte della stazione hardware stessa.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS per Windows con una stazione hardware IPC (integrata)
 

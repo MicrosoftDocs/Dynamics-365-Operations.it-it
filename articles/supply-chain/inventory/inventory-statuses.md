@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570505"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024386"
 ---
 # <a name="inventory-statuses"></a>Stati inventario
 
@@ -42,7 +42,7 @@ Di seguito sono riportati alcuni esempi delle modalità con cui è possibile uti
 
 Uno stato inventario è una delle dimensioni nel gruppo di dimensioni di immagazzinamento. Gli stati inventario possono essere suddivisi in categorie come disponibili o non disponibili ed è possibile utilizzare il parametro **Blocco scorte** per bloccare gli articoli con stato inventario non disponibile. Gli articoli con uno stato bloccato vengono considerati inventario fisico e non possono essere utilizzati in un ordine di produzione, in un ordine cliente, in un ordine di trasferimento o in una transazione in uscita.
 
-È possibile utilizzare gli articoli di magazzino con stati inventario disponibile o non disponibile per il lavoro in entrata. Ad esempio, si crea uno stato disponibile denominato **Pronto**, uno stato non disponibile denominato **Danneggiato** e uno stato bloccato denominato **Bloccato**. Quando si crea un ordine acquisto per articoli ricevuti o resi, se gli articoli sono danneggiati o rotti, è possibile modificare lo stato inventario di tali articoli in **Danneggiato** nella riga dell'ordine acquisto. Dopo la ricezione degli articoli, lo stato viene automaticamente impostato su **Bloccato**. Se si esegue la scansione degli articoli danneggiati con un dispositivo mobile, Microsoft Dynamics 365 for Finance and Operations può utilizzare le direttive di ubicazione e i modelli di lavoro per mostrare le informazioni relative a un'ubicazione appropriata o a un gruppo di ubicazioni in cui è possibile stoccare tali articoli. Per i resi, viene creato un problema di tipo **Prenotazione** nella pagina **Transazioni di magazzino**.
+È possibile utilizzare gli articoli di magazzino con stati inventario disponibile o non disponibile per il lavoro in entrata. Ad esempio, si crea uno stato disponibile denominato **Pronto**, uno stato non disponibile denominato **Danneggiato** e uno stato bloccato denominato **Bloccato**. Quando si crea un ordine acquisto per articoli ricevuti o resi, se gli articoli sono danneggiati o rotti, è possibile modificare lo stato inventario di tali articoli in **Danneggiato** nella riga dell'ordine acquisto. Dopo la ricezione degli articoli, lo stato viene automaticamente impostato su **Bloccato**. Se si esegue la scansione degli articoli danneggiati con un dispositivo mobile, Finance and Operations può utilizzare le direttive di ubicazione e i modelli di lavoro per mostrare le informazioni relative a un'ubicazione appropriata o a un gruppo di ubicazioni in cui è possibile stoccare tali articoli. Per i resi, viene creato un problema di tipo **Prenotazione** nella pagina **Transazioni di magazzino**.
 
 Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibile. Se si dispone di articoli con stato **Rotto** e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito.
 

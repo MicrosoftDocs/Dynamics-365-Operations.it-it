@@ -1,6 +1,6 @@
 ---
 title: Miglioramenti della gestione di cassa
-description: In questo argomento vengono descritti i miglioramenti della gestione di cassa in POS per Dynamics 365 for Retail.
+description: In questo argomento vengono descritti i miglioramenti della gestione di cassa in POS per Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630055"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019533"
 ---
 # <a name="cash-management-improvements"></a>Miglioramenti della gestione di cassa
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630055"
 
 La gestione di cassa è una funzione chiave per i rivenditori nei punti vendita fisici. I rivenditori desiderano disporre di sistemi che consentono di fornire tracciabilità e rendicontazione complete della cassa e dei relativi movimenti nei vari registratori di cassa di un punto vendita. Essi devono essere in grado di riconciliare tutte le differenze e determinare la rendicontazione.
 
-Microsoft Dynamics 365 for Retail include funzionalità di gestione di cassa nella relativa applicazione POS. Tuttavia, nelle versioni di Retail antecedenti alla versione 10.0.3, la funzionalità di gestione di cassa non è in grado di fornire una tracciabilità completa dei movimenti di cassa nei punti vendita. Sebbene i rivenditori possano riconciliare la cassa di un punto vendita, non possono determinare in modo preciso la rendicontazione nel caso di una discrepanza di cassa.
 
-Con Microsoft Dynamics 365 for Retail versione 10.0.3 e successive, i rivenditori avranno a disposizione una migliore tracciabilità per la gestione di cassa. Nell'ambito di questa tracciabilità, i rivenditori potranno definire casseforti, effettuare transazioni in contanti fronte/retro e riconciliare transazioni di gestione di cassa.
+Microsoft Dynamics 365 Retail include funzionalità di gestione di cassa nella relativa applicazione POS. Tuttavia, nelle versioni di Retail antecedenti alla versione 10.0.3, la funzionalità di gestione di cassa non è in grado di fornire una tracciabilità completa dei movimenti di cassa nei punti vendita. Sebbene i rivenditori possano riconciliare la cassa di un punto vendita, non possono determinare in modo preciso la rendicontazione nel caso di una discrepanza di cassa.
+
+
+In Retail versione 10.0.3 e successive, i rivenditori avranno a disposizione una migliore tracciabilità per la gestione di cassa. Nell'ambito di questa tracciabilità, i rivenditori potranno definire casseforti, effettuare transazioni in contanti fronte/retro e riconciliare transazioni di gestione di cassa.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Impostare la tracciabilità e definire casseforti
 

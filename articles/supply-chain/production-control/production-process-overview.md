@@ -3,7 +3,7 @@ title: Panoramica del processo di produzione
 description: Questo argomento fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546665"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250021"
 ---
 # <a name="production-process-overview"></a>Panoramica del processo di produzione
 
@@ -36,12 +36,12 @@ La produzione degli articoli, processo talvolta detto anche ciclo di vita della 
 
 Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Gestione informazioni sul prodotto**, **Gestione articoli**, **Contabilità generale**, **Gestione magazzino**, **Contabilità progetti**  e **Amministrazione organizzazione**. Grazie a tale integrazione, viene garantito il supporto del flusso di informazioni necessario per completare la produzione di un articolo finito.  
 
-Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Finance and Operations supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
+Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Supply Chain Management supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
 
 La scelta dei metodi di misurazione dei costi consente inoltre di definire i requisiti per le dichiarazione sul consumo di materiale e risorse durante il processo di produzione. In genere, i metodi di costo effettivo necessitano di dichiarazioni accurate a livello di processo, mentre i metodi di determinazione costi periodici consentono una dichiarazione meno granulare del consumo di materiali e risorse.
 
 ## <a name="mixed-mode-manufacturing"></a>Produzione in modalità mista
-Le topologie di produzione e i prodotti diversi richiedono l'applicazione di tipi di ordine diversi. Finance and Operations può applicare i diversi tipi di ordine in modalità mista. In altre parole, tutti i tipi di ordine possono verificarsi durante il processo di produzione end-to-end di un prodotto finito.
+Le topologie di produzione e i prodotti diversi richiedono l'applicazione di tipi di ordine diversi. Supply Chain Management può applicare i diversi tipi di ordine in modalità mista. In altre parole, tutti i tipi di ordine possono verificarsi durante il processo di produzione end-to-end di un prodotto finito.
 
 -   **Ordine di produzione**: classico tipo di ordine per realizzare un prodotto o una variante prodotto specifico in una determinata quantità in una data specifica. Gli ordini di produzione si basano sulle distinte base (DBA) e sui cicli di lavorazione.
 -   **Ordine batch**: il tipo di ordine viene utilizzato per settori di trasformazione e processi discreti in cui la conversione di produzione è basata su una formula o in cui co-prodotti e sottoprodotti possono essere prodotti finiti, in aggiunta o in sostituzione del prodotto principale. Gli ordini batch utilizzano DBA e cicli di lavorazione di tipo **Formula**.

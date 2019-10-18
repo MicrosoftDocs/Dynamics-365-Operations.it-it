@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572698"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248877"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare gli ordini fornitore
 
@@ -39,7 +39,7 @@ Dopo aver creato un ordine fornitore (PO), potrebbe essere necessario passare at
 ## <a name="approval-of-purchase-orders"></a>Approvazione di ordini fornitore
 I PO che non utilizzano la gestione delle modifiche hanno uno stato di **Approvato** appena creati, mentre i PO che utilizzano la gestione delle modifiche hanno uno stato di **Bozza** quando vengono creati. Un ordine fornitore creato consolidando un ordine pianificato dalla pianificazione generale viene impostato sempre su **Approvato**, indipendentemente dalle impostazioni della gestione modifiche. Un ordine fornitore consente di creare transazioni di magazzino solo quando raggiunge lo stato **Approvato**. Di conseguenza, tale inventario non viene visualizzato come disponibile per la prenotazione o il contrassegno fino a quando non viene accettato l'ordine.  
 
-Abilitare la gestione modifiche per i PO impostando l'opzione **Attiva gestione modifiche** nella pagina **Parametri di approvvigionamento**. Quando è attivata la gestione delle modifiche, i PO deve passare attraverso un flusso di lavoro di approvazione dopo essere stati completati. Microsoft Dynamics 365 for Finance and Operations dispone di un editor di processo del flusso di lavoro in cui è possibile definire un flusso di lavoro per rappresentare il processo di approvazione. Il flusso di lavoro può includere regole per l'approvazione automatica, regole che determinano chi verrà assegnato per approvare specifici PO e regole di escalation di un flusso di lavoro che è stato in attesa di approvazione per molto tempo. È possibile attivare il processo di gestione delle modifiche per tutti i fornitori o per fornitori specifici. È inoltre possibile impostare il processo in modo che possa essere ignorato per singoli PO.  
+Abilitare la gestione modifiche per i PO impostando l'opzione **Attiva gestione modifiche** nella pagina **Parametri di approvvigionamento**. Quando è attivata la gestione delle modifiche, i PO deve passare attraverso un flusso di lavoro di approvazione dopo essere stati completati. Supply Chain Management dispone di un editor di processo del flusso di lavoro in cui è possibile definire un flusso di lavoro per rappresentare il processo di approvazione. Il flusso di lavoro può includere regole per l'approvazione automatica, regole che determinano chi verrà assegnato per approvare specifici PO e regole di escalation di un flusso di lavoro che è stato in attesa di approvazione per molto tempo. È possibile attivare il processo di gestione delle modifiche per tutti i fornitori o per fornitori specifici. È inoltre possibile impostare il processo in modo che possa essere ignorato per singoli PO.  
 
 Quando è attivata la gestione delle modifiche, i PO passano attraverso sei stati di approvazione, dal **Bozza** a **Finalizzato**. Dopo l'approvazione di un ordine, gli utenti che desiderano modificalo devono utilizzare l'azione **Richiedi modifica**.
 
@@ -55,7 +55,7 @@ Quando è attivata la gestione delle modifiche, i PO passano attraverso sei stat
 ## <a name="confirming-purchase-orders"></a>Conferma di ordini fornitore
 I PO che hanno uno stato di approvazione di **Approvato** possono passare attraverso passaggi aggiuntivi prima di essere confermati. Ad esempio, potrebbe essere necessario inviare una richiesta di informazioni sull'acquisto al fornitore per informazioni su prezzi, sconti o le date di consegna. In questo caso, è possibile impostare l'ordine fornitore sullo stato **In revisione esterna** utilizzando l'azione **Richiesta informazioni su acquisto**.  
 
-I fornitori che sono impostati per utilizzare il portale fornitori possono esaminare gli ordini nel portale e approvarli o rifiutarli. Durante questo processo di revisione, l'ordine fornitoredi ha lo stato **In revisione esterna**. Il portale fornitori può essere configurato in modo che una conferma del fornitore confermi automaticamente l'ordine in Dynamics 365 for Finance and Operations. In alternativa, è possibile confermare manualmente un ordine fornitore dopo aver ricevuto conferma dal fornitore. Se un fornitore rifiuta un ordine fornitore, il rifiuto viene ricevuto con il motivo del rifiuto e suggerimenti per le modifiche. In questo caso, lo stato dell'ordine fornitore rimane **In revisione esterna**.  
+I fornitori che sono impostati per utilizzare il portale fornitori possono esaminare gli ordini nel portale e approvarli o rifiutarli. Durante questo processo di revisione, l'ordine fornitoredi ha lo stato **In revisione esterna**. Il portale fornitori può essere configurato in modo che una conferma del fornitore confermi automaticamente l'ordine in Supply Chain Management. In alternativa, è possibile confermare manualmente un ordine fornitore dopo aver ricevuto conferma dal fornitore. Se un fornitore rifiuta un ordine fornitore, il rifiuto viene ricevuto con il motivo del rifiuto e suggerimenti per le modifiche. In questo caso, lo stato dell'ordine fornitore rimane **In revisione esterna**.  
 
 È inoltre disponibile un'opzione per generare una conferma proforma per un ordine prima che la conferma effettiva è stata elaborata. Questa opzione crea solo un report che è possibile condividere con il fornitore. Non crea alcuna informazione di giornale di registrazione.  
 

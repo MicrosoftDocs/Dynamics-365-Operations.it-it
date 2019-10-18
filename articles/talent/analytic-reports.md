@@ -1,6 +1,6 @@
 ---
-title: Utilizzare i report analitici in Microsoft Dynamics 365 for Talent - Attract
-description: In questo argomento vengono descritti i report analitici per il processo di assunzione in Microsoft Dynamics 365 for Talent - Attract
+title: Utilizzare report analitici in Microsoft Dynamics 365 Talent - Attract
+description: In questo argomento vengono descritti i report analitici per il processo di assunzione in Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742890"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010014"
 ---
 # <a name="use-analytic-reports"></a>Utilizzare report analitici
 
-I report analitici in Attract offrono una soluzione pronta all'uso per informazioni sul processo di assunzione. Le funzionalità disponibili includono:
+I report analitici in Microsoft Dynamics 365 Talent: Attract offrono una soluzione pronta all'uso per informazioni sul processo di assunzione. Le funzionalità disponibili includono:
 
 - **Analisi posizione**: fare clic sulla scheda **Analisi** in una mansione per visualizzare le metriche su un candidato per la mansione.
 - **Hub analisi**: fare clic su **Analisi** nel riquadro di spostamento sinistro per visualizzare le metriche aggregate di tutte le posizioni lavorative.

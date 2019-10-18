@@ -1,6 +1,6 @@
 ---
-title: Attività nei processi in Microsoft Dynamics 365 for Talent - Attract
-description: Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione in Microsoft Dynamics 365 for Talent - Attract.
+title: Attività nei processi in Microsoft Dynamics 365 Talent - Attract
+description: Di seguito vengono descritti i vari tipi di attività da utilizzare nel processo di assunzione in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739719"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008687"
 ---
 # <a name="activities-in-hiring-processes"></a>Attività nei processi di assunzione
 
 [!include[banner](../includes/banner.md)]
 
-Le attività è possibile aggiungere come parte del processo di assunzione in Microsoft Dynamics 365 for Talent: Attract. Le attività possono essere aggiunte a un modello di processo, oppure possono essere aggiunte direttamente al processo di assunzione nella mansione. Quando viene definita una mansione, viene selezionato un modello di processo e le attività incluse nel modello verranno applicati al mansione. Se un modello non è selezionata, il modello predefinito viene utilizzato. Il processo di assunzione può anche essere modificato nella mansione dopo che il modello è applicato.
+Le attività è possibile aggiungere come parte del processo di assunzione in Microsoft Dynamics 365 Talent: Attract. Le attività possono essere aggiunte a un modello di processo, oppure possono essere aggiunte direttamente al processo di assunzione nella mansione. Quando viene definita una mansione, viene selezionato un modello di processo e le attività incluse nel modello verranno applicati al mansione. Se un modello non è selezionata, il modello predefinito viene utilizzato. Il processo di assunzione può anche essere modificato nella mansione dopo che il modello è applicato.
 
 > [!NOTE] 
 > I modelli di processo sono disponibili con il componente aggiuntivo per l'assunzione a livello globale. Per ulteriori informazioni, vedere [Attract con componente aggiuntivo per l'assunzione a livello globale](./attract-comprehensive-hiring.md)
@@ -69,14 +69,14 @@ L'attività YouTube consente di condividere un video YouTube come parte del proc
 
 ## <a name="web-content-activity"></a>Attività contenuto Web
 
-L'attività contenuto Web consente di includere contenuto online nel processo di assunzione. Per salvare l'attività contenuto Web nel processo di assunzione, è necessario specificare l'URL del contenuto. È possibile scegliere di visualizzare il contenuto per **Team di assunzione**, **Candidati solo interni**, **Candidati esterni solo** oppure **Tutti i candidati**. Come per l'attività PowerApps e YouTube, è possibile consentire l'aggiunta dei partecipanti del team di assunzione all'attività. Se si sceglie di rendere visibile il contenuto ai candidati, il contenuto Web viene visualizzato solo come parte dell'esperienza del candidato e non nel processo di assunzione. È possibile scegliere le dimensioni del contenuto mostrato.
+L'attività contenuto Web consente di includere contenuto online nel processo di assunzione. Per salvare l'attività contenuto Web nel processo di assunzione, è necessario specificare l'URL del contenuto. È possibile scegliere di visualizzare il contenuto per **Team di assunzione**, **Candidati solo interni**, **Candidati esterni solo** oppure **Tutti i candidati**. Come per le attività PowerApps e YouTube, è possibile consentire l'aggiunta dei partecipanti del team di assunzione all'attività. Se si sceglie di rendere visibile il contenuto ai candidati, il contenuto Web viene visualizzato solo come parte dell'esperienza del candidato e non nel processo di assunzione. È possibile scegliere le dimensioni del contenuto mostrato.
 
 > [!NOTE]
 > L'attività contenuto Web è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale. Per ulteriori informazioni, vedere [Attract con componente aggiuntivo per l'assunzione a livello globale](./attract-comprehensive-hiring.md)
 
 ## <a name="microsoft-forms-activity"></a>Attività Microsoft Forms
 
-L'attività Microsoft Forms consente di incorporare un'attività di Microsoft Forms nel processo di assunzione. Microsoft Forms consente di creare quiz e sondaggi. Per salvare l'attività Microsoft Forms nel processo di assunzione, è necessario specificare l'URL del modulo. È possibile scegliere di visualizzare il contenuto per **Team di assunzione**, **Candidati solo interni**, **Candidati esterni solo** oppure **Tutti i candidati**. Come per l'attività PowerApps? YouTube e contenuto Web è possibile consentire l'aggiunta dei partecipanti del team di assunzione all'attività. Se si sceglie di rendere visibile il contenuto ai candidati, il modulo viene visualizzato solo come parte dell'esperienza del candidato e non nel processo di assunzione.
+L'attività Microsoft Forms consente di incorporare un'attività di Microsoft Forms nel processo di assunzione. Microsoft Forms consente di creare quiz e sondaggi. Per salvare l'attività Microsoft Forms nel processo di assunzione, è necessario specificare l'URL del modulo. È possibile scegliere di visualizzare il contenuto per **Team di assunzione**, **Candidati solo interni**, **Candidati esterni solo** oppure **Tutti i candidati**. Come per le attività PowerApps, YouTube e contenuto Web è possibile consentire l'aggiunta dei partecipanti del team di assunzione all'attività. Se si sceglie di rendere visibile il contenuto ai candidati, il modulo viene visualizzato solo come parte dell'esperienza del candidato e non nel processo di assunzione.
 
 In Microsoft Forms, gli autori possono modificare le relative impostazioni per consentire agli utenti esterni alla propria organizzazione di rispondere al sondaggio o al quiz. In questo caso, gli utenti inviano le risposte in modo anonimo. Se si desidera visualizzare chi ha compilato il sondaggio o il quiz, è possibile richiedere che gli intervistati immettano il nome come parte del sondaggio o quiz.
 

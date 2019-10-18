@@ -1,6 +1,6 @@
 ---
 title: Eseguire analisi delle tendenze e dei criteri di vendita
-description: È possibile studiare schemi e tendenze di vendita in tempo reale in Microsoft Dynamics 365 for Retail.
+description: È possibile studiare schemi e tendenze di vendita in tempo reale in Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557902"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025819"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Eseguire analisi delle tendenze e dei criteri di vendita
 
 [!include [banner](includes/banner.md)]
 
-È possibile studiare schemi e tendenze di vendita in tempo reale in Microsoft Dynamics 365 for Retail.
+È possibile studiare schemi e tendenze di vendita in tempo reale in Dynamics 365 Retail.
 
-Come parte di Dynamics 365 for Retail, gli utenti possono studiare schemi e tendenze di vendita in tempo reale tra livelli diversi della gerarchia organizzativa in un periodo di anni utilizzando il **Report vendite canale per anno**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
+Come parte di Retail, gli utenti possono studiare schemi e tendenze di vendita in tempo reale tra livelli diversi della gerarchia organizzativa in un periodo di anni utilizzando il **Report vendite canale per anno**. È possibile aprire questo report da qualsiasi delle seguenti posizioni:
 
 - Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**
 - Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio e commercio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report vendite canale per anno**

@@ -3,7 +3,7 @@ title: Tempi di fermo per la manutenzione
 description: In questo argomento vengono descritti i tempi di fermo per la manutenzione in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875726"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922185"
 ---
 # <a name="maintenance-downtime"></a>Tempi di fermo per la manutenzione
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Dopo la selezione dei cespiti in una registrazione di tempi di fermo per la manu
 
 ## <a name="maintenance-downtime-activities"></a>Attività dei tempi di fermo per la manutenzione
 
-Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** per visualizzare un elenco di tutte le attività dei tempi di fermo per la manutenzione e alcune delle informazioni relative alle attività. Fare clic su un collegamento nella colonna **Attività tempi di fermo per manutenzione** per visualizzare i dettagli.
+Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** per visualizzare un elenco di tutte le attività dei tempi di fermo per la manutenzione e alcune delle informazioni relative alle attività. Fare clic su un collegamento nella colonna **Attività tempi di fermo per manutenzione** per visualizzare i dettagli. Nella figura seguente è illustrato un esempio dell'elenco **Attività dei tempi di fermo per la manutenzione**.
 
 ![Figura 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Creare una registrazione di tempi di fermo per la manutenzione
+## <a name="create-a-maintenance-downtime-activity"></a>Creare un'attività di tempi di fermo per la manutenzione
 
 1. Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** o **Attività tempi di fermo per manutenzione attive**.
 
@@ -61,9 +60,11 @@ Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per 
 
 5. Nella Scheda dettaglio **Cespiti attività tempi di fermo per manutenzione** > fare clic su **Aggiungi riga** per aggiungere i cespiti, uno alla volta, all'attività dei tempi di fermo per la manutenzione.
 
-6. Fare clic su **Salva** dopo che tutti i cespiti sono stati aggiunti.
+6. Fare clic su **Salva** dopo che tutti i cespiti sono stati aggiunti. Nella figura seguente è illustrato un esempio di un'attività dei tempi di fermo per la manutenzione con i cespiti e i processi di manutenzione correlati.
 
 7. I processi di manutenzione di ordine di lavoro e le righe di programma di manutenzione aperte associati ai cespiti selezionati sono visualizzati nelle Schede dettaglio **Processi di manutenzione ordine di lavoro risultanti** e **Righe programma di manutenzione**. Nella Scheda dettaglio **Generale** > gruppo **Ordini di lavoro** > campo **Ore previsioni di manutenzione** e nella Scheda dettaglio **Generale** > gruppo **Programma di manutenzione** > campo **Ore previsioni di manutenzione**, viene visualizzato il numero totale di ore previste per i processi di manutenzione di ordine di lavoro e le righe di programma di manutenzione.
+
+Nella figura seguente è illustrato un esempio della visualizzazione dettagliata **Attività dei tempi di fermo per la manutenzione**.
 
 ![Figura 2](media/20-preventive-maintenance.png)
 
@@ -74,7 +75,7 @@ Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per 
 
 9. Nella finestra di dialogo **Calcolare carico di capacità**, modificare la data di inizio e di fine se necessario e scegliere se includere o meno gli ordini di lavoro e i programmi di manutenzione nel calcolo. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli del calcolo del carico di capacità in relazione alle unità funzionali. Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutti i cespiti di un'unità funzionale, selezionati nell'attività dei tempi di fermo per la manutenzione verranno visualizzati nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del carico di capacità in tutti i livelli di unità funzionali a cui sono correlate.
 
-10. Fare clic su **OK** per avviare il calcolo. Il numero totale di ore viene visualizzato nella panoramica. **Carico di capacità**. Nella scheda **Carico di capacità** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione delle ore previste.
+10. Fare clic su **OK** per avviare il calcolo. Il numero totale di ore viene visualizzato nella panoramica. **Carico di capacità**. Nella scheda **Carico di capacità** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione delle ore previste. Nella figura seguente vengono illustrati i risultati di un calcolo **Carico di capacità**.
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per 
 
 15. Nella finestra di dialogo **Calcolare previsioni articolo**, modificare la data di inizio e di fine se necessario e scegliere se includere o meno gli ordini di lavoro e i programmi di manutenzione nel calcolo. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli del calcolo del carico di capacità in relazione alle unità funzionali. Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutti i cespiti di un'unità funzionale, selezionati nell'attività dei tempi di fermo per la manutenzione verranno visualizzati nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del carico di capacità in tutti i livelli di unità funzionali a cui sono correlate.
 
-16. Fare clic su **OK** per avviare il calcolo. Il numero totale di previsioni articolo è visualizzato nella panoramica **Previsione articolo**. Nella scheda **Previsione articolo** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione degli articoli previsti.
+16. Fare clic su **OK** per avviare il calcolo. Il numero totale di previsioni articolo è visualizzato nella panoramica **Previsione articolo**. Nella scheda **Previsione articolo** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione degli articoli previsti. Nella figura seguente vengono illustrati i risultati di un calcolo **Previsione articolo**.
 
 ![Figura 4](media/22-preventive-maintenance.png)
 

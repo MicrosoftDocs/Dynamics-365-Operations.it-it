@@ -1,6 +1,6 @@
 ---
 title: Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
-description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Retail.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516240"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025409"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516240"
 
 ## <a name="introduction"></a>Introduzione
 
-In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Microsoft Dynamics 365 for Retail. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite al dettaglio in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale:
+In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Retail. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite al dettaglio in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale:
 
 - Registrare una vendita al dettaglio in un dispositivo fiscale collegato al Retail POS, ad esempio una stampante fiscale, e stampare una ricevuta fiscale per il cliente.
 - Inviare in modo sicuro informazioni relative a vendite e resi completati in Retail POS a un servizio Web esterno gestito dall'ufficio tributario competente.
 - Assicurare l'inalterabilità dei dati delle transazioni di vendita mediante firme digitali.
 
-La funzionalità di integrazione fiscale in Retail è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di vendita al dettaglio di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Retail ed è incluso nel kit SDK di Retail. Per ulteriori informazioni sugli esempi di integrazione fiscale disponibili in Retail SDK, vedere [Esempi di integrazione fiscale in Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Per informazioni su come installare e utilizzare Retail SDK, vedere [Panoramica di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+La funzionalità di integrazione fiscale è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di vendita al dettaglio di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Retail ed è incluso nel kit SDK. Per ulteriori informazioni su esempi di integrazione fiscale, vedere [Esempi di integrazione fiscale in Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Per informazioni su come installare e utilizzare Retail SDK, vedere [Panoramica di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Per supportare altri scenari non supportati da un esempio di integrazione fiscale, integrare Retail Retail POS con altri servizi o dispositivi fiscali o soddisfare i requisiti di altri paesi o aree geografiche, è necessario estendere un esempio di integrazione fiscale esistente o creare un nuovo esempio utilizzando un esempio esistente.
 
@@ -132,7 +132,7 @@ La funzionalità di integrazione fiscale supporta la generazione di rendiconti g
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Esempi di integrazione fiscale in Retail SDK
 
-I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retail SDK rilasciato con Retail:
+I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retail SDK:
 
 - [Esempio di integrazione di stampante fiscale per l'Italia](emea-ita-fpi-sample.md)
 - [Esempio di integrazione di stampante fiscale per la Polonia](emea-pol-fpi-sample.md)

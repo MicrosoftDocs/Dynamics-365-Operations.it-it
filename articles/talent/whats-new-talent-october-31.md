@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent Core HR (31 ottobre 2018)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
+title: Novità o modifiche in Dynamics 365 Talent - Core HR (31 ottobre 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518394"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025934"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (31 ottobre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Novità o modifiche in Dynamics 365 Talent: Core HR (31 ottobre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1518394"
 
 Questo argomento descrive le funzionalità nuove o modificate di Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Creare collegamenti da Talent a Finance and Operations
-Questa nuova funzionalità di navigazione consente di selezionare il collegamento da Talent a Finance and Operations, permettendo la navigazione diretta alle pagine Finance and Operations. Quando i collegamenti vengono configurati, è possibile specificare il nome e il gruppo del collegamento, dove il collegamento deve emergere in Talent e la pagina di destinazione da aprire in Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Creare collegamenti da Talent a Finance
+Questa nuova funzionalità di navigazione consente di selezionare il collegamento da Talent a Finance, permettendo la navigazione diretta alle pagine Finance. Quando i collegamenti vengono configurati, è possibile specificare il nome e il gruppo del collegamento, dove il collegamento deve emergere in Talent e la pagina di destinazione da aprire in Finance.
 
 #### <a name="coming-soon"></a>Presto disponibili
-Il contesto del campo verrà aggiunto in futuro per consentire la navigazione diretta ai record corrispondenti in Finance and Operations. Ad esempio, è possibile utilizzare **Collegamento a campo** per immettere il contesto per navigare direttamente a un dipendente o a un percorso specifico in Finance and Operations.
+Il contesto del campo verrà aggiunto in futuro per consentire la navigazione diretta ai record corrispondenti in Finance. Ad esempio, è possibile utilizzare **Collegamento a campo** per immettere il contesto per navigare direttamente a un dipendente o a un percorso specifico in Finance.
 
 ### <a name="configure-target-systems"></a>Configurare i sistemi di destinazione
 
-In Talent gli amministratori di sistema possono definire i collegamenti che saranno disponibili tramite l'area di lavoro Amministrazione sistema. Parte della configurazione avviene negli ambienti Finance and Operations ai quali si desidera navigare in quanto "destinazione" del collegamento. È possibile effettuare questa operazione assegnando al sistema di destinazione un nome e fornendo l'URL dell'ambiente Finance and Operations. Di seguito è riportato un esempio di URL Finance and Operations che verrà fornito: https://devax00124aos.cloud.test.dynamics.com/. Dopo aver configurato i sistemi di destinazione, è possibile definire i collegamenti.
+In Talent gli amministratori di sistema possono definire i collegamenti che saranno disponibili tramite l'area di lavoro Amministrazione sistema. Parte della configurazione avviene negli ambienti Finance ai quali si desidera navigare in quanto "destinazione" del collegamento. È possibile effettuare questa operazione assegnando al sistema di destinazione un nome e fornendo l'URL dell'ambiente Finance. Di seguito è riportato un esempio di URL Finance che verrà fornito: https://devax00124aos.cloud.test.dynamics.com/. Dopo aver configurato i sistemi di destinazione, è possibile definire i collegamenti.
 
 ### <a name="configure-links"></a>Configura collegamenti
 
@@ -51,27 +51,27 @@ Ogni collegamento creato conterrà le seguenti informazioni definite.
 
 - Abilitare questo collegamento - Impostare su **Sì** se si desidera visualizzare il collegamento agli utenti di Talent.
 
-- Nome visualizzato - Definire il nome che apparirà come collegamento a Finance and Operations. Questi dati non sono attualmente convertiti.
+- Nome visualizzato - Definire il nome che apparirà come collegamento a Finance. Questi dati non sono attualmente convertiti.
 
 - Collegamento area nel modulo - Scegliere su quale pagina visualizzare il collegamento.
 
 - Gruppo - I gruppi non sono obbligatori, ma se si desidera organizzare i collegamenti utilizzando i gruppi, selezionare un gruppo esistente o crearne uno nuovo utilizzando il campo **Gruppo**.
 
-- Sistema di destinazione - Selezionare il sistema di destinazione che è stato creato utilizzano l'opzione **Configura sistema di destinazione**. Sarà l'ambiente Finance and Operations che verrà utilizzato per navigare usando il collegamento.
+- Sistema di destinazione - Selezionare il sistema di destinazione che è stato creato utilizzano l'opzione **Configura sistema di destinazione**. Sarà l'ambiente Finance che verrà utilizzato per navigare usando il collegamento.
 
-- Usa società corrente dell'utente - Selezionare **Sì** per utilizzare il contesto della società corrente dell'utente quando naviga a Finance and Operations. Se si seleziona **No**, è possibile scegliere la società da utilizzare.
+- Usa società corrente dell'utente - Selezionare **Sì** per utilizzare il contesto della società corrente dell'utente quando naviga a Finance. Se si seleziona **No**, è possibile scegliere la società da utilizzare.
 
-- Voce di menu di destinazione - Immettere la voce di menu di Finance and Operation che il collegamento dovrebbe utilizzare durante la navigazione. Sono disponibili voci di menu sulle quali è possibile spostarsi direttamente. Per trovare la voce di menu richiesta, aprire Finance and Operations, quindi la pagina che corrisponde all'obiettivo di navigazione. Copiare la voce di menu dall'URL. Ad esempio, se si desidera che il collegamento porti all'elenco dei dipendenti in Finance and Operations, immettere il valore visualizzato dopo "&mi" nell'URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. La voce di menu per navigare alla pagina con l'elenco dei dipendenti in questo esempio è: HcmWorkerListPage_Employees.
+- Voce di menu di destinazione - Immettere la voce di menu di Finance che il collegamento dovrebbe utilizzare durante la navigazione. Sono disponibili voci di menu sulle quali è possibile spostarsi direttamente. Per trovare la voce di menu richiesta, aprire Finance, quindi la pagina che corrisponde all'obiettivo di navigazione. Copiare la voce di menu dall'URL. Ad esempio, se si desidera che il collegamento porti all'elenco dei dipendenti in Finance and Operations, immettere il valore visualizzato dopo "&mi" nell'URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. La voce di menu per navigare alla pagina con l'elenco dei dipendenti in questo esempio è: HcmWorkerListPage_Employees.
 
 - Collegamento a origine dati - Selezionare l'origine dei dati alla quale si riferisce il collegamento. Le origini più comuni come **Lavoratore** e **Posizione** sono disponibili.
 
-- Collegamento a campo - (Presto disponibile) Questa selezione del campo consentirà la navigazione diretta da un unico record in Talent a un unico record in Finance and Operations.
+- Collegamento a campo - (Presto disponibile) Questa selezione del campo consentirà la navigazione diretta da un unico record in Talent a un unico record in Finance.
 
 ### <a name="access-to-links"></a>Accedere ai collegamenti
 
 Gli amministratori di sistema vedranno i collegamenti appena creati nelle pagine definite anche se l'opzione **Abilitare questo collegamento** è impostata su **No**. Ciò può essere utilizzato per verificare i collegamenti prima di renderli disponibili ad altri dipendenti. Tutti gli altri ruoli vedranno soltanto i collegamenti configurati dopo che l'opzione **Abilitare questo collegamento** sarà stata impostata su **Sì**. I dipendenti che hanno accesso alle pagine in cui i collegamenti vengono resi disponibili potranno accedere ad essi.
 
-Gli utenti possono anche avere diritti di protezione all'interno di Finance and Operations impostati per accedere alle pagine di Finance and Operations. In caso contrario, viene visualizzata una finestra di dialogo di protezione quando si utilizza il collegamento.
+Gli utenti possono anche avere diritti di protezione all'interno di Finance impostati per accedere alle pagine di Finance and Operations. In caso contrario, viene visualizzata una finestra di dialogo di protezione quando si utilizza il collegamento.
 
 
 ## <a name="other-changesfixes"></a>Altre modifiche/correzioni

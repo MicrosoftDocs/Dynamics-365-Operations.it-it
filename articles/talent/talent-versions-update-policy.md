@@ -1,6 +1,6 @@
 ---
 title: Requisiti di sistema e criteri di aggiornamento di Talent
-description: In questo argomento vengono illustrati i requisiti per Dynamics 365 for Talent. nonché i relativi criteri di aggiornamento.
+description: In questo argomento vengono illustrati i requisiti per Dynamics 365 Talent. nonché i relativi criteri di aggiornamento.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741777"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024162"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Requisiti di sistema e criteri di aggiornamento di Talent
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i requisiti di Microsoft Dynamics 365 for Talent, inclusi quelli per Attract, Onboard e Core HR. Vengono descritti inoltre i paesi e le regioni in cui Talent è disponibile, oltre a informazioni su lingue e localizzazione per i dati di Talent. Inoltre, questo argomento descrive i criteri di aggiornamento per Talent.
+In questo argomento vengono descritti i requisiti di Microsoft Dynamics 365 Talent, inclusi quelli per Attract, Onboard e Core HR. Vengono descritti inoltre i paesi e le regioni in cui Talent è disponibile, oltre a informazioni su lingue e localizzazione per i dati di Talent. Inoltre, questo argomento descrive i criteri di aggiornamento per Talent.
 
 ## <a name="supported-web-browsers"></a>Web browser supportati
 
-L'applicazione Web Microsoft Dynamics 365 for Talent può essere eseguita in uno dei seguenti Web browser eseguiti sui sistemi operativi specificati: 
+Microsoft Dynamics 365 Talent può essere eseguita in uno dei seguenti Web browser eseguiti sui sistemi operativi specificati: 
 
 *   Microsoft Edge (ultima versione pubblicamente disponibile) su Windows 10
 *   Internet Explorer 11 in Windows 10, Windows 8.1 o Windows 7
@@ -46,11 +46,11 @@ Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web
 > * L'editor flusso di lavoro viene avviato come un'applicazione ClickOnce. In Microsoft Edge e Internet Explorer (su una versione supportata di Microsoft Windows) supportano le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
 > * Per visualizzare l'anteprima dei file PDF, si consiglia di utilizzare browser moderni come Microsoft Edge (versione pubblica più recente) su Windows 10 o Google Chrome (versione pubblica più recente) su Windows 10, Windows 8.1, Windows 8, Windows 7 o tablet Google Nexus 10.
 >   Requisiti di rete
-> * Dynamics 365 for Talent è progettato per reti con latenza pari a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client browser al data center Microsoft Azure che ospita Dynamics 365 for Talent. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
-> * I requisiti di larghezza di banda per Dynamics 365 for Talent dipendono dallo scenario in uso. La maggior parte degli scenari tipici richiede una larghezza di banda superiore a 50 kilobyte al secondo (Kbps).
+> * Dynamics 365 Talent è progettato per reti con latenza pari a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client browser al data center Microsoft Azure che ospita Talent. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * I requisiti di larghezza di banda per Talent dipendono dallo scenario in uso. La maggior parte degli scenari tipici richiede una larghezza di banda superiore a 50 kilobyte al secondo (Kbps).
 > 
 > [!WARNING]
-> Non calcolare i requisiti di larghezza di banda da un'ubicazione client moltiplicando il numero di utenti per i requisiti minimi di larghezza di banda. L'utilizzo simultaneo di una determinata ubicazione è molto difficile da calcolare. Per i clienti con problemi relativi ai requisiti di larghezza di banda, utilizzare una versione di prova di Dynamics 365 for Talent.
+> Non calcolare i requisiti di larghezza di banda da un'ubicazione client moltiplicando il numero di utenti per i requisiti minimi di larghezza di banda. L'utilizzo simultaneo di una determinata ubicazione è molto difficile da calcolare. Per i clienti con problemi relativi ai requisiti di larghezza di banda, utilizzare una versione di prova di Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>Applicazioni Microsoft Office supportate
 
@@ -68,6 +68,6 @@ Gli sviluppatori interessati a creare personalizzazioni specifiche per paese o r
 
 ## <a name="update-policy"></a>Criteri di aggiornamento
 
-Microsoft Dynamics 365 for Talent è un'offerta cloud. Gli aggiornamenti di Dynamics 365 for Talent vengono forniti in modo continuo e applicati automaticamente da Microsoft.
+Talent è un'offerta cloud. Gli aggiornamenti di Talent vengono forniti in modo continuo e applicati automaticamente da Microsoft.
 
-Gli aggiornamenti vengono rilasciati a cadenza regolare e per tutti gli ambienti. Dynamics 365 for Talent è supportato secondo i [criteri relativi al ciclo di vita del supporto di Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), che offrono linee guida coerenti e prevedibili in merito alla disponibilità del supporto per il prodotto.
+Gli aggiornamenti vengono rilasciati a cadenza regolare e per tutti gli ambienti. Talent è supportato secondo i [criteri relativi al ciclo di vita del supporto di Microsoft Support Lifecycle](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), che offrono linee guida coerenti e prevedibili in merito alla disponibilità del supporto per il prodotto.

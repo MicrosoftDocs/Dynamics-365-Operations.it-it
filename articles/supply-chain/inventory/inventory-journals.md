@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553440"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249542"
 ---
 # <a name="inventory-journals"></a>Giornali di registrazione magazzino
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553440"
 
 In questo argomento viene descritto come utilizzare i giornali di registrazione magazzino per registrare i diversi tipi di transazioni dell'inventario fisico.
 
-I giornali di registrazione magazzino in Microsoft Dynamics 365 for Finance and Operations vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
+I giornali di registrazione magazzino in Supply Chain Management vengono utilizzati per registrare le transazioni di inventario fisico di diversi tipi, ad esempio la registrazione delle uscite e delle entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. Tutti i giornali di registrazione magazzino vengono utilizzati in una modalità simile, ma vengono suddivisi in diversi tipi.
 
 ## <a name="types-of-inventory-journals"></a>Tipi di giornali di registrazione magazzino
 Sono disponibili i seguenti tipi di giornali di registrazione magazzino:
@@ -68,7 +68,7 @@ Quando si dichiara una DBA come finita, è possibile creare un giornale di regis
 
 ### <a name="item-arrival"></a>Arrivo articoli
 
-È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli**. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Finance and Operations cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
+È possibile utilizzare il giornale di registrazione arrivi articoli per registrare l'entrata di articoli (ad esempio, ordini fornitore). Un giornale di registrazione arrivi articoli può essere creato come parte della gestione degli arrivi dalla pagina **Panoramica arrivi** oppure è possibile creare manualmente un inserimento nel giornale di registrazione dalla pagina **Arrivo articoli**. Se si consente al nome del giornale di registrazione arrivi articoli di controllare le ubicazioni di prelievo, Supply Chain Management cerca una ubicazione per gli articoli ricevuti e, se c'è spazio disponibile, genera le destinazioni di ubicazione per gli articoli in arrivo.
 
 ### <a name="production-input"></a>Entrata produzione
 
@@ -103,7 +103,7 @@ Le entità di dati supportano i tipi di scenari di integrazione seguenti:
 Per ulteriori informazioni, vedere [Entità di dati](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Non tutti i giornali di registrazione magazzino sono abilitati per OData, di conseguenza non è possibile utilizzare il connettore di dati di Excel per far pubblicare, aggiornare e reimportare i dati in Dynamics 365 for Finance and Operations. 
+> Non tutti i giornali di registrazione magazzino sono abilitati per OData, di conseguenza non è possibile utilizzare il connettore di dati di Excel per far pubblicare, aggiornare e reimportare i dati in Supply Chain Management. 
 
 Un'altra differenza tra le entità di dati del giornale di registrazione è la possibilità di utilizzare entità composite che includono sia l'intestazione che i dati di riga. Al momento è possibile utilizzare le entità composite per:
 -   Giornale di registrazione di rettifica magazzino

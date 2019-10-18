@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556071"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018114"
 ---
 # <a name="backflush-costing"></a>Determinazione costi di tipo backflush
 
@@ -61,11 +61,11 @@ Per i prodotti forniti al di fuori da un flusso di produzione, il calcolo DBA de
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Calcolo basato sul flusso di lavoro.
 
-Il Lean manufacturing per Microsoft Dynamics 365 for Finance and Operations è indipendente dai cicli di lavorazione. Il calcolo dei costi per i prodotti forniti da un flusso di produzione può essere basato sul flusso di produzione stesso. Prima che il calcolo possa essere effettuato, è necessario creare una regola kanban che fornisce il prodotto dal flusso di produzione. Se un prodotto può essere fornito da più flussi di produzione allo stesso sito alla data di calcolo, è possibile selezionare il flusso di produzione per il calcolo DBA. Nella pagina **Flusso di produzione predefinito**, è possibile configurare un flusso di produzione predefinito per ciascun articolo. Se esistono più regole kanban per lo stesso prodotto nello stesso flusso di produzione attivo nella data di calcolo, il calcolo seleziona la prima regola kanban attiva per il calcolo.
+Il Lean manufacturing per Dynamics 365 Supply Chain Management è indipendente dai cicli di lavorazione. Il calcolo dei costi per i prodotti forniti da un flusso di produzione può essere basato sul flusso di produzione stesso. Prima che il calcolo possa essere effettuato, è necessario creare una regola kanban che fornisce il prodotto dal flusso di produzione. Se un prodotto può essere fornito da più flussi di produzione allo stesso sito alla data di calcolo, è possibile selezionare il flusso di produzione per il calcolo DBA. Nella pagina **Flusso di produzione predefinito**, è possibile configurare un flusso di produzione predefinito per ciascun articolo. Se esistono più regole kanban per lo stesso prodotto nello stesso flusso di produzione attivo nella data di calcolo, il calcolo seleziona la prima regola kanban attiva per il calcolo.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Calcolo basato sul ciclo di lavorazione
 
-Il calcolo in base a un ciclo di lavorazione è valido come calcolo basato su un flusso di produzione. Tuttavia, il calcolo in base a un ciclo di prelievo non utilizza la determinazione costi per il funzionamento della lean manufacturing. Il ciclo di lavorazione deve utilizzare i requisiti risorsa del gruppo di risorse. Per evitare gli scostamenti sistematici, deve inoltre utilizzare le stesse celle di lavoro, o almeno le stesse categorie di costi. Anche in questo caso, è opportuno evitare le categorie di costi per l'impostazione e la quantità. Queste non consentono di calcolare il costo in una scomposizione più granulare rispetto al backflush di costo di lean manufacturing. Per determinare l'opzione (flusso di produzione o ciclo di lavorazione) da utilizzare per calcolare il costo, esaminare i risultati della scomposizione dei costi. La versione disponibile più vicina alla realtà e che produce inferiore scostamenti complessivi rappresenta la migliore opzione. In un ambiente di lean manufacturing in cui un prodotto viene specificato in base a un singolo flusso di produzione e una singola regola kanban, il calcolo basato sul flusso di produzione probabilmente è più accurato. Per un prodotto che può essere fornito da lean manufacturing e ordini di produzione nello stesso sito o che può avere più flussi di produzione o più regole kanban nello stesso flusso, il calcolo potrebbe risultare più accurato se basato su una versione del ciclo di lavorazione generata in modo specifico per il calcolo dei costi, non per la produzione. Il calcolo del flusso di produzione deve essere utilizzato per calcolare i prodotti che includono il conto lavoro. In Microsoft Dynamics 365 for Finance and Operations, i modelli dei costi per il conto lavoro tramite gli ordini di produzione e il conto lavoro in lean manufacturing utilizzano due diversi metodi. In lean manufacturing è stata introdotto un nuovo tipo di gruppo di costi **Esternalizzazione diretta**, per calcolare i servizi in conto lavoro.
+Il calcolo in base a un ciclo di lavorazione è valido come calcolo basato su un flusso di produzione. Tuttavia, il calcolo in base a un ciclo di prelievo non utilizza la determinazione costi per il funzionamento della lean manufacturing. Il ciclo di lavorazione deve utilizzare i requisiti risorsa del gruppo di risorse. Per evitare gli scostamenti sistematici, deve inoltre utilizzare le stesse celle di lavoro, o almeno le stesse categorie di costi. Anche in questo caso, è opportuno evitare le categorie di costi per l'impostazione e la quantità. Queste non consentono di calcolare il costo in una scomposizione più granulare rispetto al backflush di costo di lean manufacturing. Per determinare l'opzione (flusso di produzione o ciclo di lavorazione) da utilizzare per calcolare il costo, esaminare i risultati della scomposizione dei costi. La versione disponibile più vicina alla realtà e che produce inferiore scostamenti complessivi rappresenta la migliore opzione. In un ambiente di lean manufacturing in cui un prodotto viene specificato in base a un singolo flusso di produzione e una singola regola kanban, il calcolo basato sul flusso di produzione probabilmente è più accurato. Per un prodotto che può essere fornito da lean manufacturing e ordini di produzione nello stesso sito o che può avere più flussi di produzione o più regole kanban nello stesso flusso, il calcolo potrebbe risultare più accurato se basato su una versione del ciclo di lavorazione generata in modo specifico per il calcolo dei costi, non per la produzione. Il calcolo del flusso di produzione deve essere utilizzato per calcolare i prodotti che includono il conto lavoro. I modelli dei costi per il conto lavoro tramite gli ordini di produzione e il conto lavoro in lean manufacturing utilizzano due diversi metodi. In lean manufacturing è stata introdotto un nuovo tipo di gruppo di costi **Esternalizzazione diretta**, per calcolare i servizi in conto lavoro.
 
 ## <a name="material-consumption"></a>Consumo materiali
 Quando il materiale viene consumato dal magazzino al WIP, il costo dei materiali viene aggiunto al calcolo WIP al costo standard effettivo per un gruppo di costi. Questa operazione viene eseguita nelle seguenti condizioni:
@@ -82,7 +82,7 @@ I prodotti vengono ricevuti dal flusso di produzione nei seguenti casi:
 I prodotti ricevuti dal flusso di produzione vengono detratti dal WIP.
 
 ## <a name="products-in-wip"></a>Prodotti nel WIP
-Il modello WIP di lean manufacturing in Microsoft Dynamics 365 for Finance and Operations consente di utilizzare lo stato dell'unità movimentazione kanban per gestire il materiale, i prodotti semilavorati e i prodotti finiti che fanno parte del WIP.
+Il modello WIP di lean manufacturing consente di utilizzare lo stato dell'unità movimentazione kanban per gestire il materiale, i prodotti semilavorati e i prodotti finiti che fanno parte del WIP.
 
 -   **Assegnato** - Il kanban può avere consumato il materiale registrato nel WIP.
 -   **Ricevuto** - Se il kanban fa riferimento all'ultima attività in cui l'**aggiornamento alla ricezione** è impostato su **No**, rappresenta un'unità movimentazione completa di un prodotto o di un prodotto semilavorato non registrato nell'inventario.

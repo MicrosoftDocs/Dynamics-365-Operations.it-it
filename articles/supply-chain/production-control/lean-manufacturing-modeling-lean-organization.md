@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560142"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250217"
 ---
 # <a name="modeling-a-lean-organization"></a>Modellizzazione di un'organizzazione snella
 
@@ -39,7 +39,7 @@ Negli scenari di produzione basati su ordini di produzione, il materiale viene r
 
 Per ridurre i lead time di consegna e l'eccesso di magazzino tra centri di lavoro causati dalla produzione in batch, la lean manufacturing introduce il rifornimento kanban e le aree di deposito nella produzione e nel rifornimento magazzino. In genere, ciò interrompe la produzione di cicli di lavorazione kanban parzialmente indipendenti. Il rifornimento di un kanban per un prodotto semilavorato non viene più attivato da un ordine per un prodotto finito. 
 
-Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti in Microsoft Dynamics 365 for Finance and Operations, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una vasta gamma di scenari. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
+Per ristabilire un contesto di costi e di produzione per i diversi scenari kanban proposti, i flussi di produzione basati su attività sono stati introdotti come spina dorsale della lean manufacturing. Tutte le regole kanban fanno riferimento a questa struttura predefinita. Il modello basato su attività supporta l'impostazione di una vasta gamma di scenari. Tuttavia, il modello non aggiunge complessità per i lavoratori del reparto produzione, in quanto tutti gli scenari utilizzano la stessa interfaccia utente basata sulle attività.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Prodotti semilavorati (livelli non DBA)
 La lean manufacturing integra i kanban per i prodotti inventariati e i prodotti semilavorati in un unico framework, offrendo in tal modo un'interfaccia utente unificata per tutte le situazioni. A causa dell'architettura, i livelli aggiuntivi DBA non devono più essere introdotti per attivare i kanban da utilizzare per i prodotti semilavorati. Questa architettura contribuisce anche a ridurre al minimo le operazioni di magazzino.
@@ -50,7 +50,7 @@ La riduzione delle dimensioni batch allo stato ideale di un unico flusso nella l
 ## <a name="value-streams-and-value-stream-mapping"></a>Flussi di valori e mapping dei flussi di valori
 L'architettura di Lean Manufacturing è ispirata ai cinque principi Lean formulati da Womack e Jones: Valore del cliente, Flusso del valore, flusso, pull e perfezione. Un metodo approvato per implementare le soluzioni di lean manufacturing nel mondo fisico di produzione è il mapping dei flussi dei valori (VSM). Questo metodo è stato introdotto da Rother e Shook nella pubblicazione “Learning to See" presso il Lean Manufacturing Institute. 
 
-In Finance and Operations, il flusso del valore di stato futuro può essere modellato come versione del flusso di produzione. Tutti i processi del flusso del valore sono modellati come attività del processo. I movimenti o trasferimenti possono essere modellati come attività di trasferimento se deve essere registrato lo stato di trasferimento o se occorre un'integrazione al prelievo da magazzino o alle spedizioni consolidate. 
+Il flusso del valore di stato futuro può essere modellato come versione del flusso di produzione. Tutti i processi del flusso del valore sono modellati come attività del processo. I movimenti o trasferimenti possono essere modellati come attività di trasferimento se deve essere registrato lo stato di trasferimento o se occorre un'integrazione al prelievo da magazzino o alle spedizioni consolidate. 
 
 Il flusso del valore stesso è modellato come unità operativa. Di conseguenza, il flusso del valore può essere utilizzato come dimensione finanziaria.
 

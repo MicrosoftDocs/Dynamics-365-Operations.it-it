@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559155"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249798"
 ---
 # <a name="sales-returns"></a>Resi su vendite
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559155"
 
 In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
 
-I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un articolo potrebbe essere difettoso o potrebbe non soddisfare le aspettative del cliente. Il processo di reso inizia quando un cliente genera una richiesta per restituire un articolo. Dopo che la richiesta del cliente viene ricevuta, viene creato un ordine di reso in Microsoft Dynamics 365 for Finance and Operations.
+I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un articolo potrebbe essere difettoso o potrebbe non soddisfare le aspettative del cliente. Il processo di reso inizia quando un cliente genera una richiesta per restituire un articolo. Dopo che la richiesta del cliente viene ricevuta, viene creato un ordine di reso.
 
 ## <a name="return-order-process"></a>Processo relativo all'ordine di reso
 Nell'illustrazione riportata di seguito viene fornita una panoramica del processo relativo all'ordine di reso.  
@@ -281,7 +281,7 @@ Questo scenario interessa due società della stessa organizzazione, come illustr
 
 ![Reso interaziendale semplice](./media/SalesReturn07.png)
 
-È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. Finance and Operations crea l'ordine corrispondente nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
+È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. L'ordine corrispondente viene creato nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Resi di spedizione consegna diretta tra tre parti
 

@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549000"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250153"
 ---
 # <a name="onboard-vendors"></a>Inserimento di fornitori
 [!include [banner](../includes/banner.md)]
 
 ---
 
-I nuovi fornitori possono essere inseriti e registrati come fornitori in Microsoft Dynamics 365 for Finance and Operations, in base alle informazioni raccolte da una persona che rappresenta il fornitore.
+I nuovi fornitori possono essere inseriti e registrati come fornitori in Microsoft Dynamics 365 Supply Chain Management, in base alle informazioni raccolte da una persona che rappresenta il fornitore.
 
 Il processo è costituito dai seguenti passaggi, in cui vari ruoli eseguono le azioni nel sistema.
 
 1. **Gestione dati OData** - Importazione di entità - La domanda iniziale è la richiesta di registrazione del fornitore potenziale. In genere, questa richiesta proviene da un'origine come un sito Web ospitato dal cliente che consente l'accesso anonimo. I fornitori possono registrarsi tramite l'immissione delle informazioni di base, ad esempio il nome del fornitore, la motivazione aziendale, il numero di organizzazione e il nome e l'indirizzo di posta elettronica del contatto. Le richieste vengono importate tramite l'interfaccia per la gestione dei dati.
-2. **Pagina elenco di richiesta registrazione del fornitore potenziale** - In base alle informazioni che vengono fornite nella richiesta di registrazione del fornitore potenziale, un professionista di approvvigionamento determina se il fornitore deve essere integrato o meno. Il responsabile di approvvigionamento visualizzare la richiesta in arrivo nella pagina elenco **Richieste di registrazione di fornitori potenziali** in Finance and Operations.
+2. **Pagina elenco di richiesta registrazione del fornitore potenziale** - In base alle informazioni che vengono fornite nella richiesta di registrazione del fornitore potenziale, un professionista di approvvigionamento determina se il fornitore deve essere integrato o meno. Il responsabile di approvvigionamento visualizzare la richiesta in arrivo nella pagina elenco **Richieste di registrazione di fornitori potenziali**.
 3. **Flusso di lavoro di approvvigionamento dell'utente** - Quando un professionista di approvvigionamento ha verificato le informazioni nella richiesta ricevuta e ha deciso di proseguire il processo di integrazione fornitori, il flusso di lavoro di richiesta dell'utente effettua il provisioning del nuovo utente e invia un'email di invito per accettare la persona di contatto come utente autenticato di Microsoft Dynamics 365.
-4. **Procedura guidata di registrazione fornitore** - La persona di contatto del fornitore accede a Finance and Operations utilizzando il nuovo account utente. Deve completare una procedura guidata di registrazione del fornitore per fornire informazioni quali indirizzi, informazioni commerciali, categorie di approvvigionamento e risposte al questionario.
+4. **Procedura guidata di registrazione fornitore** - La persona di contatto del fornitore accede utilizzando il nuovo account utente. Deve completare una procedura guidata di registrazione del fornitore per fornire informazioni quali indirizzi, informazioni commerciali, categorie di approvvigionamento e risposte al questionario.
 5. **Flusso di lavoro di approvazione** - Viene creata una richiesta fornitore che include le informazioni di registrazione. La richiesta del fornitore viene inviata a un flusso di lavoro e viene inoltrata per la revisione e l'approvazione.
 6. **Creazione di un master del fornitore e modifica del ruolo utente** - Quando viene approvata la richiesta del fornitore, viene creato un record del fornitore. L'account utente della persona di contatto del fornitore viene autorizzato alla collaborare fornitore o disattivato.
 
@@ -45,14 +45,14 @@ Nella seguente tabella sono riportati i passaggi e ruoli inclusi nel processo.
 |--------------------------|---|---|---|---|---|---|
 | System                   | La richiesta per un nuovo fornitore viene importata. | | | | | Dopo che la richiesta fornitore viene accettata, viene creato il record del fornitore. |
 | Professionista di approvvigionamento | | Avviare il processo di integrazione. | | | Verificare e accettare o rifiutare la richiesta fornitore. | |
-| Amministratore            | | | Creare un utente in Finance and Operations e Microsoft Azure. | | | |
+| Amministratore            | | | Creare un utente in Supply Chain Management e Microsoft Azure. | | | |
 | Contatto del fornitore    | | | Inviare un messaggio di posta elettronica al contatto. | Registrare le informazioni sul fornitore. | | |
 
-Per una dimostrazione rapida del processo di inserimento del fornitore, vedere questo breve video su YouTube: [Inserire un nuovo fornitore in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Per una dimostrazione rapida del processo di inserimento del fornitore, vedere questo breve video su YouTube: [Come aggiungere un nuovo fornitore in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importare la richiesta di registrazione di fornitori potenziali
 
-La richiesta di registrazione del fornitore potenziale è un'entità di Finance and Operations. È possibile impostare il sistema per importare i dati tramite questa entità. 
+La richiesta di registrazione del fornitore potenziale è un'entità di Supply Chain Management. È possibile impostare il sistema per importare i dati tramite questa entità. 
 
 Nella seguente tabella sono riportate le informazioni che contiene questa entità e che possono essere importate.
 
@@ -65,18 +65,18 @@ Nella seguente tabella sono riportate le informazioni che contiene questa entit�
 | Nome del contatto  | Nome della persona che verrà invitata a registrare le informazioni sul fornitore. |
 | Secondo nome del contatto | Secondo nome della persona che verrà invitata a registrare le informazioni sul fornitore. |
 | Cognome del contatto.   | Cognome della persona che verrà invitata a registrare le informazioni sul fornitore. |
-| Indirizzo di posta elettronica del contatto       | Indirizzo di posta elettronica che verrà utilizzato per creare un nuovo utente in Finance and Operations e che verrà registrato nel tenant dell'account Azure Active Directory (Azure AD). |
+| Indirizzo di posta elettronica del contatto       | Indirizzo di posta elettronica che verrà utilizzato per creare un nuovo utente in Supply Chain Management e che verrà registrato nel tenant dell'account Azure Active Directory (Azure AD). |
 | Data di invio               | Data in cui la richiesta è stata creata in un sistema esterno. |
-| Persona giuridica                 | Persona giuridica con cui il fornitore sta richiedendo di diventare un fornitore. Il valore deve essere un codice della persona giuridica registrato in Finance and Operations. Se non viene ricevuto alcun valore attraverso il processo di importazione, vengono applicati i parametri di Approvvigionamento. |
+| Persona giuridica                 | Persona giuridica con cui il fornitore sta richiedendo di diventare un fornitore. Il valore deve essere un codice della persona giuridica registrato in Supply Chain Management. Se non viene ricevuto alcun valore attraverso il processo di importazione, vengono applicati i parametri di Approvvigionamento. |
 | Tipo di fornitore                  | Una fornitore può essere un'organizzazioni o una persona. Il tipo di fornitore determina come fornitore viene creato. |
 
 Dopo aver importato la richiesta di registrazione del fornitore potenziale, questa appare nella pagina elenco **Richiesta di registrazione fornitore potenziale**. In questa pagina elenco, un professionista di approvvigionamento può invitare l'utente. Una richiesta utente per il provisioning dell'utente viene inviata a un flusso di lavoro.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Inoltro di una richiesta utente fornitore potenziale
 
-Lo scopo di una richiesta utente fornitore potenziale è effettuare il provisioning della persona che ha inviato la richiesta iniziale, in modo che possa accedere a Finance and Operations utilizzando l'account di posta elettronica fornito nella richiesta di registrazione del fornitore potenziale.
+Lo scopo di una richiesta utente fornitore potenziale è effettuare il provisioning della persona che ha inviato la richiesta iniziale, in modo che possa accedere a Supply Chain Management utilizzando l'account di posta elettronica fornito nella richiesta di registrazione del fornitore potenziale.
 
-La richiesta utente fornitore potenziale viene elaborata dal flusso di lavoro di richiesta utente. Questo flusso di lavoro deve comunicare tramite la collaborazione B2B di Azure AD. Crea un utente in Finance and Operations con le impostazioni di protezione appropriate.
+La richiesta utente fornitore potenziale viene elaborata dal flusso di lavoro di richiesta utente. Questo flusso di lavoro deve comunicare tramite la collaborazione B2B di Azure AD. Crea un utente in Supply Chain Management con le impostazioni di protezione appropriate.
 
 I nuovi utenti vengono impostati con i seguenti ruoli di sicurezza:
 
@@ -89,7 +89,7 @@ Per informazioni sulla configurazione dell'e-mail e del flusso di lavoro in gene
 
 ## <a name="vendor-registration"></a>Registrazione fornitore
 
-Un utente fornitore potenziale che accede a Finance and Operations visualizzerà la prima pagina di una procedura guidata di registrazione fornitore, in si possono immettere le informazioni sul fornitore.
+Un utente fornitore potenziale che accede a Supply Chain Management visualizzerà la prima pagina di una procedura guidata di registrazione fornitore, in si possono immettere le informazioni sul fornitore.
 
 La procedura guidata riflette la configurazione della richiesta fornitore. Il paese o la regione in cui il fornitore opera determina le informazioni necessarie per la procedura guidata e le informazioni obbligatorie.
 
@@ -119,7 +119,7 @@ Le richieste fornitore sono disponibili nella pagina **Richieste utente collabor
 
 Una richiesta fornitore contiene le informazioni per cui l'utente fornitore potenziale ha fornito nella procedura guidata di registrazione fornitore.
 
-La richiesta consente di esaminare le informazioni sul fornitore e decidere se il fornitore deve diventare fornitore registrato in Finance and Operations.
+La richiesta consente di esaminare le informazioni sul fornitore e decidere se il fornitore deve diventare fornitore registrato.
 
 La richiesta fornitore deve essere inviata a un flusso di lavoro e deve essere inviata ai revisori e agli approvatori rilevanti. Per informazioni di base su come impostare i flussi di lavoro, vedere [Flussi di lavoro di approvvigionamento](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Quando una richiesta fornitore viene approvata, viene creato un account fornitor
 
 Prima di approvare una richiesta fornitore, nella pagina **Nuovo fornitore** nella scheda dettaglio **Generale** selezionare **Gruppo di fornitori** per selezionare un gruppo di fornitori.
 
-Se l'utente del fornitore potenziale può accedere a Finance and Operations come utente di collaborazione fornitore che rappresenta il fornitore, impostare l'autorizzazione di accesso di collaborazione su **Sì**. Per disattivare l'account utente che il fornitore potenziale ha usato per la registrazione, impostare questa autorizzazione su **No**.
+Se l'utente del fornitore potenziale può accedere a Supply Chain Management come utente di collaborazione fornitore che rappresenta il fornitore, impostare l'autorizzazione di accesso di collaborazione su **Sì**. Per disattivare l'account utente che il fornitore potenziale ha usato per la registrazione, impostare questa autorizzazione su **No**.
 
 Se l'autorizzazione di accesso di collaborazione fornitore è impostata su **Sì**, quando la richiesta fornitore viene approvata, viene inviata una richiesta di modifica dei ruoli utente in modo che l'utente disponga di ruoli definiti per il tipo **Fornitore** in **Ruoli esterni**. Se l'autorizzazione è impostata su **No**, quando la richiesta fornitore viene approvata, viene inviata una richiesta di disattivazione dell'utente. In questo caso, il flusso di lavoro per disattivare una richiesta utente deve essere configurato.
 

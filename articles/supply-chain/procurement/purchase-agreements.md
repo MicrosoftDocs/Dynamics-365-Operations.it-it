@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570390"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248934"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -78,7 +78,7 @@ Quando si conferma un contratto di acquisto, la versione corrente del contratto 
 Quando si crea un ORDINE FORNITORE, è possibile applicarvi un contratto di acquisto. Le informazioni dei termini del contratto, ad esempio termini di pagamento, termini di consegna e indirizzo di consegna, vengono copiate nell'intestazione del PO. Se il PO contiene una o più righe che si riferiscono a prodotti e categorie specificati nel contratto, per tali righe vengono utilizzati i prezzi e gli sconti del contratto di acquisto. L'importo o la quantità nella riga ordine contribuiscono all'evasione dell'impegno nel contratto di acquisto. Lo stesso PO può includere sia le righe che non sono correlate a un contratto di acquisto sia le righe con un impegno per un contratto di acquisto.  
 
 È possibile selezionare un contratto di acquisto solo quando si crea un ORDINE FORNITORE. Non è possibile selezionare un contratto di acquisto dopo che il PO è stato creato.  
-In alcune situazioni in cui gli ordini acquisto vengono creati indirettamente, è possibile stabilire se in Finance and Operations deve essere eseguita la ricerca automatica dei contratti di acquisto applicabili, ad esempio è possibile effettuare questa operazione quando si esegue la stabilizzazione automatica degli ordini fornitore pianificati o si creano ordini fornitore basati su ordini cliente.
+In alcune situazioni in cui gli ordini acquisto vengono creati indirettamente, è possibile stabilire se in Supply Chain Management deve essere eseguita la ricerca automatica dei contratti di acquisto applicabili, ad esempio è possibile effettuare questa operazione quando si esegue la stabilizzazione automatica degli ordini fornitore pianificati o si creano ordini fornitore basati su ordini cliente.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratti di acquisto e commercio interaziendale
 Le relazioni commerciali interaziendali possono essere create tra conti fornitore e conti cliente in persone giuridiche diverse. Quando un ordine cliente o un ordine fornitore viene creato per una delle parti, viene creata una catena di ordini interaziendali. Nella catena di ordini, l'ordine cliente e l'ordine fornitore vengono creati nelle persone giuridiche competenti.  

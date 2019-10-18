@@ -1,6 +1,6 @@
 ---
 title: Creazione, approvazione e firma di offerte
-description: Questo argomento descrive come creare, approvare e firmare un'offerta per un candidato tramite Dynamics 365 for Talent.
+description: Questo argomento descrive come creare, approvare e firmare un'offerta per un candidato tramite Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739635"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008107"
 ---
 # <a name="create-approve-and-sign-offers"></a>Creare, approvare e firmare le offerte
 
@@ -110,7 +110,7 @@ Esistono vari azioni che è possibile eseguire prima dell'invio dell'offerta al 
 Se Adobe Sign è stato scelto come metodo di firma elettronica preferito, gli autori di offerte devono connettere la licenza Adobe Sign in questa fase. 
 
 ### <a name="docusign"></a>DocuSign
-Se DocuSign è stato scelto come metodo di firma elettronica preferito, gli autori di offerte devono connettere la licenza DocuSign. Dopo l'accesso, l'account predefinito e le autorizzazioni associate al profilo DocuSign dell'utente sono connessi a Talent Attract. 
+Se DocuSign è stato scelto come metodo di firma elettronica preferito, gli autori di offerte devono connettere la licenza DocuSign. Dopo l'accesso, l'account predefinito e le autorizzazioni associate al profilo DocuSign dell'utente sono connessi a Talent: Attract. 
 
 -  È possibile visualizzare e modificare il modello di messaggio di posta elettronica se necessario.
 

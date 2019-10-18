@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556946"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025865"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 
@@ -96,7 +96,7 @@ Dopo che un ordine è stato accettato, le righe possono essere selezionate e con
 
 Le distinte di prelievo possono essere stampate presso il POS per supportare i lavoratori nell'esecuzione del processo di prelievo. Una distinta di prelievo stampata può essere trasportata con il lavoratore che esegue il prelievo e mentre i prodotti vengono prelevati, l'operatore li contrassegnerà manualmente come selezionato nella distinta di prelievo.
 
-Il formato della distinta di prelievo è configurato in Dynamics 365 for Retail e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Il formato della distinta di prelievo è configurato in Retail e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
 
 Se le righe vengono selezionate e una distinta di prelievo viene stampata per le righe, queste vengono aggiornate automaticamente con stato **Prelievo**.
 
@@ -105,7 +105,7 @@ Se le righe vengono selezionate e una distinta di prelievo viene stampata per le
 - **Stato risultante:** Prelevato o Prelevato in parte
 - **Stato back office risultante:** Prelevato o Prelevato in parte
 
-Al termine del processo di prelievo fisico, le righe possono essere contrassegnate come **Prelevate**. Selezionando una riga e contrassegnandola come **Prelevata** si esegue una chiamata in tempo reale per aggiornare la riga dell'ordine in Dynamics 365 for Retail. Dopo che la riga è stata contrassegnata come **Prelevata** nel POS, anche lo stato di back office viene aggiornato come **Prelevato** e le transazioni di magazzino riflettono la quantità specificata come diminuita.
+Al termine del processo di prelievo fisico, le righe possono essere contrassegnate come **Prelevate**. Selezionando una riga e contrassegnandola come **Prelevata** si esegue una chiamata in tempo reale per aggiornare la riga dell'ordine. Dopo che la riga è stata contrassegnata come **Prelevata** nel POS, anche lo stato di back office viene aggiornato come **Prelevato** e le transazioni di magazzino riflettono la quantità specificata come diminuita.
 
 Se gli ordini vengono elaborati nel tempo, quantità parziali possono essere elaborate per una riga specifica. Se una riga viene selezionata e viene eseguita l'azione è **Contrassegna come prelevato** e la quantità è maggiore di uno, viene richiesto all'utente di specificare la quantità. La quantità rimanente da prelevare viene compilata automaticamente. Se viene specificata una quantità inferiore alla quantità rimanente, lo stato della riga diventa **Prelevato in parte**. Quando la riga dell'ordine viene aggiornata nel back office, rifletterà anche lo stato parzialmente prelevato e la quantità inserita dall'utente verrà utilizzata per l'aggiornamento dell'inventario.
 
@@ -122,7 +122,7 @@ Le righe ordine possono essere imballate in qualsiasi momento dopo che la riga o
 - **Stato risultante:** Imballato o Imballato in parte
 - **Stato back office risultante:** Consegnato o Consegnato in parte
 
-Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Dynamics 365 for Retail e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Retail e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
 
 **Azione: Contrassegna come imballato**
 

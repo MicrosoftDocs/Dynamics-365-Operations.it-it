@@ -1,6 +1,6 @@
 ---
 title: Collaborazione fornitore con i clienti
-description: In questo argomento viene descritto come utilizzare la collaborazione fornitore in Microsoft Dynamics 365 for Finance and Operations per gestire gli ordini fornitore e monitorare l'inventario spedizione.
+description: In questo argomento viene descritto come utilizzare la collaborazione fornitore per gestire gli ordini fornitore e monitorare l'inventario spedizione.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567586"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250128"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare la collaborazione fornitore per lavorare con i clienti in Microsoft Dynamics 365 for Finance and Operations. I fornitori possono eseguire una serie di processi aziendali dalle seguenti aree di lavoro:
+In questo argomento viene descritto come utilizzare la collaborazione fornitore per lavorare con i clienti in Microsoft Dynamics 365 Supply Chain Management. I fornitori possono eseguire una serie di processi aziendali dalle seguenti aree di lavoro:
 
 - **Conferma ordine fornitore** - Controllare e rispondere agli ordini fornitore.
 - **Offerta fornitore** - Visualizzare richieste di offerta (RdO) e rispondere immettendo le offerte.

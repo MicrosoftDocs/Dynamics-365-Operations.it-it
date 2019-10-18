@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606805"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024685"
 ---
 # <a name="store-inventory-management"></a>Gestione scorte di magazzino
 
 [!include [banner](includes/banner.md)]
 
-Quando si utilizzano le scorte in Dynamics 365 for Retail e l'applicazione POS, è importante notare che il POS offre supporto limitato per le dimensioni inventariali e alcuni tipi di articoli di magazzino.
+Quando si utilizzano le scorte in Dynamics 365 Retail e l'applicazione POS, è importante notare che il POS offre supporto limitato per le dimensioni inventariali e alcuni tipi di articoli di magazzino.
 
 La soluzione POS non supporta le seguenti configurazioni articoli:
 
@@ -56,7 +56,7 @@ La soluzione POS offre supporto limitato per le dimensioni seguenti. Con support
 
 ## <a name="purchase-orders"></a>Ordine fornitore
 
-Gli ordini fornitore vengono creati nella sede centrale. Se un magazzino al dettaglio viene incluso nell'intestazione dell'ordine fornitore, l'ordine può essere ricevuto presso il punto vendita utilizzando Modern POS (MPOS) o Cloud POS di Microsoft Dynamics 365 for Retail tramite l'operazione **Prelievo/Ricevimento**. Dopo che le quantità ricevute al punto vendita sono state immesse nel campo **Ricevi ora** del POS per il documento di ordine fornitore, è possibile salvarle in locale o confermarle. Salvare questi dati localmente non ha alcun effetto sulle scorte di articoli a magazzino. Il salvataggio deve essere effettuato solo se l'utente non è pronto per la registrazione dell'entrata nella sede centrale e necessita di un modo per memorizzare temporaneamente i dati immessi in precedenza di **Ricevi ora**. Ciò consente di salvare i dati Ricevi ora localmente nel database dei canali dell'utente. Quando il documento viene elaborato con l'opzione **Conferma**, i dati **Ricevi ora** vengono inviati alla sede centrale e il ricevimento dell'ordine fornitore verrà registrata. 
+Gli ordini fornitore vengono creati nella sede centrale. Se un magazzino al dettaglio viene incluso nell'intestazione dell'ordine fornitore, l'ordine può essere ricevuto presso il punto vendita utilizzando Modern POS (MPOS) o Cloud POS tramite l'operazione **Prelievo/Ricevimento**. Dopo che le quantità ricevute al punto vendita sono state immesse nel campo **Ricevi ora** del POS per il documento di ordine fornitore, è possibile salvarle in locale o confermarle. Salvare questi dati localmente non ha alcun effetto sulle scorte di articoli a magazzino. Il salvataggio deve essere effettuato solo se l'utente non è pronto per la registrazione dell'entrata nella sede centrale e necessita di un modo per memorizzare temporaneamente i dati immessi in precedenza di **Ricevi ora**. Ciò consente di salvare i dati Ricevi ora localmente nel database dei canali dell'utente. Quando il documento viene elaborato con l'opzione **Conferma**, i dati **Ricevi ora** vengono inviati alla sede centrale e il ricevimento dell'ordine fornitore verrà registrata. 
 
 ## <a name="transfer-orders"></a>Ordini di trasferimento
 

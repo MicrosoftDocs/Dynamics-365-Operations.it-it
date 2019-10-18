@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875738"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024501"
 ---
 # <a name="maintenance-forecasts"></a>Previsioni di manutenzione
 
@@ -104,7 +104,7 @@ Sono disponibili tre modi per aggiungere articoli a una previsione di manutenzio
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Aggiornamento automatico delle previsioni dell'ordine di lavoro
 
-In Gestione cespiti, è possibile aggiornare automaticamente qualsiasi modifica alle previsioni dell'ordine di lavoro relative a costi orari, costi degli articoli e spese, che sono state aggiornati in altri moduli di Dynamics 365 for Finance and Operations. Ciò garantisce l'utilizzo degli ultimi prezzi di costo nelle previsioni dell'ordine di lavoro. È inoltre possibile effettuare aggiornamenti simili per le [previsioni del tipo di processo di manutenzione](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+In Gestione cespiti, è possibile aggiornare automaticamente qualsiasi modifica nelle previsioni degli ordini di lavoro relative ai costi delle ore, ai costi degli articoli e alle spese, che sono state aggiornate in altri moduli. Ciò garantisce l'utilizzo degli ultimi prezzi di costo nelle previsioni dell'ordine di lavoro. È inoltre possibile effettuare aggiornamenti simili per le [previsioni del tipo di processo di manutenzione](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Fare clic su **Gestione cespiti** > **Periodico** > **Previsione** > **Aggiorna previsione ordine di lavoro**.
 

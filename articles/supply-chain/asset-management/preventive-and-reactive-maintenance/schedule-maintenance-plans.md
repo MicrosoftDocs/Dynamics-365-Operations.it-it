@@ -3,7 +3,7 @@ title: Programmare piani di manutenzione
 description: In questo argomento viene descritto come programmare piani di manutenzione in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875731"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922047"
 ---
 # <a name="schedule-maintenance-plans"></a>Programmare piani di manutenzione
 
@@ -49,11 +49,11 @@ La programmazione della manutenzione preventiva genera voci di calendario nei ce
 
 - In relazione alla programmazione dei piani di manutenzione nelle unità funzionali: se si aggiorna l'impostazione di tipi di cespite, produttori e modelli nei piani di manutenzione in **Tutte le unità funzionali** > Scheda dettaglio **Piani di manutenzione** dopo avere programmato i piani di manutenzione, le voci del programma di manutenzione esistenti correlate a tale unità funzionale vengono eliminate automaticamente. Per creare nuove voci di calendario, corrispondenti all'impostazione aggiornata del piano di manutenzione per l'unità funzionale, è necessario eseguire una nuova programmazione del piano di manutenzione per tale unità funzionale. Per ulteriori informazioni sull'impostazione di tipi di cespite, produttori e modelli nelle unità funzionali, vedere [Creare unità funzionali](../functional-locations/create-functional-locations.md).
 
->*Esempio:* si desidera creare un piano di manutenzione per un'unità funzionale specifica, di modo che tutti i cespiti impostati in quell'unità funzionale in qualsiasi momento saranno inclusi quando si programma il piano di manutenzione. In tal caso, si crea un piano di manutenzione e si seleziona l'unità funzionale specifica, ma NON si aggiungono oggetti al piano di manutenzione. Il risultato è che quando si programma quel piano di manutenzione, le righe di programma di manutenzione verranno create per tutti i cespiti associati all'unità funzionale in quel momento.
+>*Esempio:* si desidera creare un piano di manutenzione per un'unità funzionale specifica, di modo che tutti i cespiti impostati in quell'unità funzionale in qualsiasi momento saranno inclusi quando si programma il piano di manutenzione. In tal caso, si crea un piano di manutenzione e si seleziona l'unità funzionale specifica, ma NON si aggiungono cespiti al piano di manutenzione. Il risultato è che quando si programma quel piano di manutenzione, le righe di programma di manutenzione verranno create per tutti i cespiti associati all'unità funzionale in quel momento.
 
 - Se si apportano modifiche a tipi di cespite, produttori e modelli in **Tipi di cespite**, quelle modifiche interessano solo i nuovi cespiti che utilizzano il tipo di cespite aggiornato. Per ulteriori informazioni sull'impostazione dei tipi di cespite, leggere [Tipi di cespite](../setup-for-objects/object-types.md).  
 
-5. Fare clic su **OK** per avviare la generazione delle voci del programma di manutenzione nei cespiti. Le voci generate saranno visualizzate nella pagina elenco **Tutti i programmi di manutenzione**.
+5. Fare clic su **OK** per avviare la generazione delle voci del programma di manutenzione nei cespiti. Le voci generate saranno visualizzate nella pagina elenco **Tutti i programmi di manutenzione**. Nella figura seguente è illustrato un esempio della finestra **Piani di manutenzione programmata**.
 
 ![Figura 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Gli esempi descritti qui mostrano che tutte le registrazioni contatore eseguite 
 ![Figura 3](media/11-preventive-maintenance.png)
 
 ![Figura 4](media/12-preventive-maintenance.png)
+

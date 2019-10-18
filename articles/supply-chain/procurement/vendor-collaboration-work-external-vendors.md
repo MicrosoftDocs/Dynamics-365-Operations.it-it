@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546712"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250205"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
 [!include [banner](../includes/banner.md)]
 
-Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 for Finance and Operations. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
+Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Finance and Operations. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
+> Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
 
 Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Se è necessario aggiungere messaggi in più lingue, creare messaggi separati co
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Impostare le opzioni di collaborazione fornitore per un fornitore specifico
 
-Un amministratore può configurare le impostazioni generali per la collaborazione fin Finance and Operations, ad esempio i ruoli di sicurezza disponibili per tutti i fornitori con cui collabora. Tuttavia, sono previste anche alcune impostazioni che possono essere diverse per ciascun conto fornitore. È necessario configurare queste impostazioni.
+Un amministratore può configurare le impostazioni generali per la collaborazione, ad esempio i ruoli di sicurezza disponibili per tutti i fornitori con cui collabora. Tuttavia, sono previste anche alcune impostazioni che possono essere diverse per ciascun conto fornitore. È necessario configurare queste impostazioni.
 
 - Abilitare la collaborazione fornitore.
 - Specificare se il fornitore deve visualizzare le informazioni sul prezzo.
@@ -71,7 +71,7 @@ Per condividere le informazioni sui prezzi per gli ordini di acquisto tramite l'
 
 ### <a name="sending-a-po-to-a-vendor"></a>Inviare un ordine fornitore a un fornitore
 
-Gli ordini fornitore vengono preparati in Finance and Operations. Quando un ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore selezionando l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo aver inviato l'ordine fornitore, il fornitore lo può vedere nella pagina **Ordini fornitore per la revisione** dell'interfaccia della collaborazione fornitore. Il fornitore può quindi accettare l'ordine fornitore, rifiutarlo o suggerire modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
+Gli ordini fornitore vengono preparati in Supply Chain Management. Quando un ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore selezionando l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo aver inviato l'ordine fornitore, il fornitore lo può vedere nella pagina **Ordini fornitore per la revisione** dell'interfaccia della collaborazione fornitore. Il fornitore può quindi accettare l'ordine fornitore, rifiutarlo o suggerire modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Conferma e accettazione di un ordine fornitore da parte di un fornitore
 
@@ -92,13 +92,13 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda della
 </thead>
 <tbody>
 <tr class="even">
-<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Finance and Operations è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Supply Chain Management è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
 <td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>Confermato</strong>. Quando l'ordine fornitore viene confermato, viene visualizzato nell'interfaccia di collaborazione fornitore.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accetta</strong> l'ordine, ma Finance and Operations non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari ma Supply Chain Management non è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
 <td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>In revisione esterna</strong>. È quindi possibile confermare manualmente l'ordine fornitore.</td>
@@ -180,14 +180,14 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 
 | Azione | Stato e versione |
 |--------|--------------------|
-| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations. | Lo stato è **Approvato**. |
+| La versione iniziale dell'ordine fornitore viene creata in Supply Chain Management. | Lo stato è **Approvato**. |
 | L'ordine fornitore viene inviato al fornitore. | Una versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**. |
 | Il fornitore invia una risposta **Accettata con modifiche** . | Lo stato è ancora **In revisione esterna**. |
 | Si apportano alcune modifiche richieste dal fornitore. | Lo stato viene impostato su **Approvato**. |
 | La nuova versione dell'ordine fornitore viene inviata al fornitore. | Una nuova versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**. |
 | Il fornitore accetta la nuova versione dell'ordine. | Lo stato è ancora **In revisione esterna** a meno che il conto fornitore sia configurato per impostare automaticamente gli ordini fornitore su uno stato **Confermato** quando accettati dal fornitore. |
 
-I fornitori non devono confermare un ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare messaggi di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare manualmente l'ordine in Finance and Operations. In questo caso, viene visualizzato un avviso che informa che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. A questo punto, il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.
+I fornitori non devono confermare un ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare messaggi di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare manualmente l'ordine. In questo caso, viene visualizzato un avviso che informa che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. A questo punto, il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.
 
 > [!NOTE]
 > La versione dell'ordine fornitore disponibile ad altri processi in Finance and Operations è sempre la versione più recente, anche se tale versione non è ancora stata registrata nell'interfaccia di collaborazione fornitore.
@@ -200,7 +200,7 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 
 | Azione | Stato e versione |
 |--------|--------------------|
-| La versione iniziale dell'ordine fornitore viene creata in Finance and Operations. | Lo stato è **Bozza**. |
+| La versione iniziale dell'ordine fornitore viene creata in Supply Chain Management. | Lo stato è **Bozza**. |
 | L'ordine fornitore viene inviato al processo di approvazione. Il processo di approvazione è un processo interno che non coinvolge il fornitore. | Lo stato viene modificato da **Bozza** a **In revisione** ad **Approvazione** se l'ordine non viene rifiutato durante il processo di approvazione. L'ordine fornitore approvato viene registrato come una versione. | 
 | L'ordine fornitore viene inviato al fornitore. | La versione viene registrata nell'interfaccia di collaborazione fornitore e lo stato viene impostato su **In revisione esterna**. |
 | È possibile apportare alcune modifiche richieste dal fornitore manualmente o utilizzando l'azione **Elabora aggiornamento ordine fornitore** sulla risposta per aggiornare l'ordine fornitore. | Lo stato torna a essere **Bozza**. |
@@ -237,13 +237,13 @@ In questa sezione vengono descritte le interazioni tra clienti e fornitori duran
 
 ## <a name="public-sector-extensions"></a>Estensioni per il settore pubblico
 
-Per il settore pubblico, la funzionalità estesa consente di inviare un caso RdO ai fornitori e di pubblicarlo. Quando si pubblica una RdO, qualsiasi utente che richiede le informazioni può visualizzare il lavoro che corrisponde alla maggior parte delle normative del settore pubblico. Qualsiasi lavoro disponibile viene visualizzato nella pagina elenco **Richieste di offerta pubblicate aperte** e le richieste di offerta annullate, in sospeso o assegnate possono essere visualizzate nella pagina elenco **Richieste di offerta pubblicate chiuse**. Questi documenti possono essere visualizzati in un sito esterno a Finance and Operations tramite le integrazioni con le seguenti entità dei dati:
+Per il settore pubblico, la funzionalità estesa consente di inviare un caso RdO ai fornitori e di pubblicarlo. Quando si pubblica una RdO, qualsiasi utente che richiede le informazioni può visualizzare il lavoro che corrisponde alla maggior parte delle normative del settore pubblico. Qualsiasi lavoro disponibile viene visualizzato nella pagina elenco **Richieste di offerta pubblicate aperte** e le richieste di offerta annullate, in sospeso o assegnate possono essere visualizzate nella pagina elenco **Richieste di offerta pubblicate chiuse**. Questi documenti possono essere visualizzati in un sito esterno a Supply Chain Management tramite le integrazioni con le seguenti entità dei dati:
 
 - Richieste di offerta pubblicate
 - Riga di richieste di offerta pubblicate
 - Allegati intestazioni richieste di offerta pubblicate
 
-Queste entità consentono alle persone che non sono utenti di Finance and Operations, ma che hanno accesso anonimo al sito esterno, di visualizzare il lavoro disponibile e chiuso. Inoltre, la funzionalità estesa **Invia e pubblica** consente all'utente che ha impostato i parametri per il processo RdO di definire un modello di messaggio di posta elettronica. In seguito, quando la persona responsabile dell'approvvigionamento crea il caso RdO, dovrà selezionare il modello di messaggio di posta elettronica per inviare le informazioni necessarie ai fornitori nel caso RdO. 
+Queste entità consentono alle persone che non sono utenti di Supply Chain Management, ma che hanno accesso anonimo al sito esterno, di visualizzare il lavoro disponibile e chiuso. Inoltre, la funzionalità estesa **Invia e pubblica** consente all'utente che ha impostato i parametri per il processo RdO di definire un modello di messaggio di posta elettronica. In seguito, quando la persona responsabile dell'approvvigionamento crea il caso RdO, dovrà selezionare il modello di messaggio di posta elettronica per inviare le informazioni necessarie ai fornitori nel caso RdO. 
 
 L'utente che imposta i parametri per il processo RdO può creare più modelli di messaggio di posta elettronica. Questi modelli di messaggio di posta elettronica possono contenere sia testo statico che i seguenti token di sostituzione. I token verranno sostituiti con i valori contestuali quando viene creato un messaggio di posta elettronica.
 

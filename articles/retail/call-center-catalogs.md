@@ -1,6 +1,6 @@
 ---
 title: Cataloghi del servizio clienti
-description: Questo argomento descrive le funzionalità specifiche del servizio clienti per i cataloghi in Microsoft Dynamics 365 for Retail.
+description: Questo argomento descrive le funzionalità specifiche del servizio clienti per i cataloghi in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562743"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023661"
 ---
 # <a name="call-center-catalogs"></a>Cataloghi del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità specifiche del servizio clienti collegate alle funzionalità di catalogo in Microsoft Dynamics 365 for Retail.
+Questo argomento descrive le funzionalità specifiche del servizio clienti collegate alle funzionalità di catalogo in Dynamics 365 Retail.
 
-Le funzionalità del catalogo disponibili in Dynamics 365 for Retail possono essere utilizzate per più scopi. Inizialmente le funzionalità del catalogo sono state create per supportare le integrazioni di e-commerce di terze parti. L'impostazione di un catalogo ha consentito alle società di creare un raggruppamento di prodotti e attributi che potessero essere pubblicati esternamente a uso e consumo di una soluzione di e-commerce di terze parti.
+Le funzionalità del catalogo disponibili in Retail possono essere utilizzate per più scopi. Inizialmente le funzionalità del catalogo sono state create per supportare le integrazioni di e-commerce di terze parti. L'impostazione di un catalogo ha consentito alle società di creare un raggruppamento di prodotti e attributi che potessero essere pubblicati esternamente a uso e consumo di una soluzione di e-commerce di terze parti.
 
-Con l'aggiunta del supporto di canale di servizio clienti a Dynamics 365 for Retail, il concetto di catalogo è stato esteso per includere funzionalità di supporto e di gestione correlate ai tradizionali cataloghi di marketing diretto a consumatori. Un società che si rivolge direttamente ai consumatori produce spesso cataloghi stampati, che vengono spediti per posta a uno o più segmenti di consumatori. Questi cataloghi contengono in genere promozioni o offerte specifiche che vengono onorate solo se il cliente fornisce un codice di identificazione del catalogo al momento della creazione dell'ordine.
+Con l'aggiunta del supporto di canale di servizio clienti a Retail, il concetto di catalogo è stato esteso per includere funzionalità di supporto e di gestione correlate ai tradizionali cataloghi di marketing diretto a consumatori. Un società che si rivolge direttamente ai consumatori produce spesso cataloghi stampati, che vengono spediti per posta a uno o più segmenti di consumatori. Questi cataloghi contengono in genere promozioni o offerte specifiche che vengono onorate solo se il cliente fornisce un codice di identificazione del catalogo al momento della creazione dell'ordine.
 
-Le società di marketing che si rivolgono direttamente ai consumatori sono concentrate sul tracciamento della risposta a questi cataloghi per verificare che i costi di produzione e spedizione di tali cataloghi siano giustificati. Per tenere traccia della risposta, sul retro del catalogo è presente un codice stampato che viene richiesto e applicato quando il destinatario del catalogo chiama per effettuare un ordine telefonicamente (o, come avviene più frequentemente in questi anni, viene inserito dal cliente quando effettua un ordine online). Sebbene esistano diversi termini standard per identificare questo codice di tracciamento del catalogo (tra cui codice chiave, codice promo, codice catalogo, codice di origine), in Dynamics 365 for Retail viene chiamato **ID codice di origine**.
+Le società di marketing che si rivolgono direttamente ai consumatori sono concentrate sul tracciamento della risposta a questi cataloghi per verificare che i costi di produzione e spedizione di tali cataloghi siano giustificati. Per tenere traccia della risposta, sul retro del catalogo è presente un codice stampato che viene richiesto e applicato quando il destinatario del catalogo chiama per effettuare un ordine telefonicamente (o, come avviene più frequentemente in questi anni, viene inserito dal cliente quando effettua un ordine online). Sebbene esistano diversi termini standard per identificare questo codice di tracciamento del catalogo (tra cui codice chiave, codice promo, codice catalogo, codice di origine), in Retail viene chiamato **ID codice di origine**.
 
 ## <a name="basic-catalog-setup"></a>Impostare il catalogo di base
 
@@ -92,7 +92,7 @@ Quando si configurazione i prodotti nel catalogo, utilizzare l'azione **Layout p
 
 ## <a name="catalog-requests"></a>Richieste catalogo
 
-Poiché i cataloghi sono configurati e pubblicati in Dynamics 365 for Retail, è possibile utilizzare la funzionalità **Invia catalogo**. Questa funzionalità è disponibile nelle pagine **Ricerca cliente** e **Servizio clienti**. Dopo avere selezionato un record di cliente tramite **Ricerca cliente** o mentre si visualizza un account di clienti selezionati da **Servizio clienti**, gli utenti possono selezionare l'opzione **Invia catalogo** che visualizza una finestra di dialogo in cui l'utente può scegliere da un elenco di cataloghi attivi e pubblicati. Un utente può selezionare un catalogo e una quantità, nonché un ID codice di origine specifico da inviare. Quando l'utente fa clic su **Invia**, viene memorizzata una richiesta che può successivamente essere gestita stampando il report **Richieste catalogo**. Questo report è disponibile passando a **Retail** \> **Report servizio clienti** \> **Report richieste catalogo**. Questo report elenca tutte le richieste di catalogo, inclusi i dettagli del nome e dell'indirizzo del cliente che ha richiesto il catalogo. Questo report può essere utilizzato internamente oppure è possibile trasmettere i dati a terze parti che si occupano di inviare fisicamente il catalogo al cliente.
+Poiché i cataloghi sono configurati e pubblicati in Retail, è possibile utilizzare la funzionalità **Invia catalogo**. Questa funzionalità è disponibile nelle pagine **Ricerca cliente** e **Servizio clienti**. Dopo avere selezionato un record di cliente tramite **Ricerca cliente** o mentre si visualizza un account di clienti selezionati da **Servizio clienti**, gli utenti possono selezionare l'opzione **Invia catalogo** che visualizza una finestra di dialogo in cui l'utente può scegliere da un elenco di cataloghi attivi e pubblicati. Un utente può selezionare un catalogo e una quantità, nonché un ID codice di origine specifico da inviare. Quando l'utente fa clic su **Invia**, viene memorizzata una richiesta che può successivamente essere gestita stampando il report **Richieste catalogo**. Questo report è disponibile passando a **Retail** \> **Report servizio clienti** \> **Report richieste catalogo**. Questo report elenca tutte le richieste di catalogo, inclusi i dettagli del nome e dell'indirizzo del cliente che ha richiesto il catalogo. Questo report può essere utilizzato internamente oppure è possibile trasmettere i dati a terze parti che si occupano di inviare fisicamente il catalogo al cliente.
 
 ## <a name="additional-features"></a>Funzionalità aggiuntive
 

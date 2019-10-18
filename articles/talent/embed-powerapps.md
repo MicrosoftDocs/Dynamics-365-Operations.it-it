@@ -1,5 +1,5 @@
 ---
-title: Incorporare app di PowerApps in Core HR
+title: Incorporare app di PowerApps in Dynamics 365 - Core HR
 description: In questo argomento viene descritto come risolvere il problema in cui la voce di menu PowerApps non è più visualizzata nel modulo Amministrazione sistema.
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742821"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008432"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Incorporare app di PowerApps in Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Uscita**
+**Problema**
 
 La voce di menu **PowerApps** non è più visualizzata nel modulo **Amministrazione sistema**.
 
@@ -38,9 +38,9 @@ Il design dell'interfaccia utente è stato modificato e Microsoft PowerApps è o
 
 **Risoluzione**
 
-Il modo in cui le app di PowerApps sono incorporate è stato modificato. Le app di PowerApps ora vengono aggiunte tramite il modello di personalizzazione. È possibile aggiungere app di PowerApps a quasi tutte le pagine in Microsoft Dynamics 365 for Talent.
+Il modo in cui le app di PowerApps sono incorporate è stato modificato. Le app di PowerApps ora vengono aggiunte tramite il modello di personalizzazione. È possibile aggiungere app di PowerApps a quasi tutte le pagine in Microsoft Dynamics 365 Talent.
 
-Per informazioni su come incorporare app di PowerApp in Talent, consultare [Incorporare le app di PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Per informazioni su come incorporare app di PowerApps in Talent, consultare [Incorporare le app di PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Qualsiasi cliente PowerApps che ha incorporato app prima della modifica deve eseguire l'aggiornamento al nuovo modello.
 

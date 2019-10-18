@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare prodotti con l'unità di magazzino da Finance and Operations a Field Service
-description: Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
+title: Sincronizzare i prodotti con l'unità di magazzino da Supply Chain Management a Field Service
+description: Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835696"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251226"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Sincronizzare i prodotti con l'unità di magazzino da Finance and Operations a Field Service
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sincronizzare i prodotti con l'unità di magazzino da Supply Chain Management a Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
+Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
-[![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Il modello **Prodotti Field Service con unità di magazzino (da Fin and Ops a Field Service)** utilizzato è basato sul modello **Prodotti Field Service (da Fin and Ops a Field Service)**. Per ulteriori informazioni, vedere [Prodotti Field Service (da Finance and Operations a Field Service)](field-service-product.md).
+Il modello **Prodotti Field Service con unità di magazzino (da Supply Chain Management a Field Service)** utilizzato è basato sul modello **Prodotti Field Service (da Supply Chain Management a Field Service)**. Per ulteriori informazioni, vedere [Prodotti Field Service (da Supply Chain Management a Field Service)](field-service-product.md).
 
 In questo argomento vengono descritte le differenze tra i due modelli: 
-- **Prodotti Field Service con unità di magazzino (da Fin and Ops a Sales)**
-- **Prodotti Field Service (da Fin and Ops a Field Service)** 
+- **Prodotti Field Service con l'unità di magazzino (Supply Chain Management a Sales)**
+- **Prodotti Field Service (da Supply Chain Management a Field Service)** 
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
 **Nome del modello in Integrazione dati:**
 
-- Prodotti Field Service con unità di magazzino (da Fin and Ops a Sales)
+- Prodotti Field Service con l'unità di magazzino (Supply Chain Management a Sales)
 
 **Nome dell'attività nel progetto di Integrazione dati:**
 
 - Prodotti
 
-Il modello **Prodotti Field Service con unità di magazzino (da Fin and Ops a Field Service)** include una mappatura che non è inclusa nel modello **Prodotti Field Service (da Fin and Ops a Field Service)**. Questo mapping assicura l'inclusione dell'unità di magazzino necessaria per la sincronizzazione del livello delle scorte.
+Il modello **Prodotti Field Service con unità di magazzino (da Supply Chain Management a Field Service)** include un mapping che non è previsto nel modello **Prodotti Field Service (da Supply Chain Management a Field Service)**. Questo mapping assicura l'inclusione dell'unità di magazzino necessaria per la sincronizzazione del livello delle scorte.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dati.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Prodotti Field Service con unità di magazzino (da Fin and Ops a Field Service): Prodotti
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Prodotti Field Service con unità di magazzino (da Supply Chain Management a Field Service): Prodotti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSProduct1.png)](./media/FSProduct1.png)

@@ -1,6 +1,6 @@
 ---
-title: Configurare il sito per le possibilità di carriera in Microsoft Dynamics 365 for Talent - Attract
-description: Questo articolo fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Microsoft Dynamics 365 for Talent - Attract.
+title: Configurare il sito per le possibilità di carriera in Microsoft Dynamics 365 Talent - Attract
+description: Questo argomento fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739773"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026281"
 ---
 # <a name="set-up-your-career-site"></a>Configurare il sito per le possibilità di carriera
 
 [!include[banner](../includes/banner.md)]
 
-Questo articolo fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Microsoft Dynamics 365 for Talent: Attract. Descrive inoltre come configurare queste funzionalità.
+Questo articolo fornisce una panoramica delle funzionalità del sito di avanzamento professionale rivolto ai candidati in Microsoft Dynamics 365 Talent: Attract. Descrive inoltre come configurare queste funzionalità.
 
 Attract fornisce un sito di avanzamento professionale per ogni ambiente in un tenant. Ad esempio, se un'organizzazione ha un ambiente di sviluppo e un ambiente di test, un sito di avanzamento professionale viene fornito per l'ambiente di sviluppo e un altro sito di avanzamento professionale per l'ambiente di test. Ogni sito di avanzamento professionale è completamente isolato e ha un proprio meccanismo di autenticazione. Le mansioni e i profili dei candidati non sono condivisi tra siti di avanzamento professionale.
 
@@ -62,7 +62,7 @@ Nell'elenco seguente sono riportati gli URL del sito di avanzamento professional
 
 -   **URL home page del sito di avanzamento professionale** - Per visualizzare l'URL della home page del sito di avanzamento professionale, accedere a Attract come amministratore, selezionare **Interfaccia di amministrazione** dal menu **Impostazioni** e quindi selezionare la scheda **Gestione del sito per le possibilità di carriera**.
 
--   **URL domanda singolo annuncio di lavoro** - Quando si [pubblica un annuncio di lavoro esterno](Creating-jobs-Attract.md#postings) per la prima volta, è possibile copiare il collegamento **Domanda di lavoro** dall'applicazione Attract. L'URL per questo collegamento avrà il formato seguente: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL domanda singolo annuncio di lavoro** - Quando si [pubblica un annuncio di lavoro esterno](Creating-jobs-Attract.md#postings) per la prima volta, è possibile copiare il collegamento **Domanda di lavoro** da Attract. L'URL per questo collegamento avrà il formato seguente: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL singolo annuncio di lavoro** - L'URL dell'annuncio è una sottostringa dell'URL della domanda e include tutte le parti fino al numero di annuncio. Di conseguenza, per l'URL della domanda di lavoro precedente, l'URL dell'annuncio è [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

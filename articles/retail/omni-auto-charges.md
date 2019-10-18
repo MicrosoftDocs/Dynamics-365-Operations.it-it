@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577871"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018040"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -34,7 +34,7 @@ In questo argomento vengono fornite informazioni sulla configurazione e la distr
 
 Quando le funzionalità di addebiti automatici avanzati sono abilitate, per gli ordini creati in qualsiasi canale di vendita al dettaglio (POS, servizio clienti, online) è possibile utilizzare le configurazioni degli [addebiti automatici](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definite nell'applicazione ERP per le spese correlate a livello di riga e intestazione.
 
-Nelle versioni precedenti alla versione 10.0 di Dynamics 365 for Retail, le configurazioni di [addebiti automatici](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sono accessibili solo tramite ordini creati nei canali e-Commerce e del servizio clienti. Nelle versioni 10.0 e successive, gli ordini creati dal POS possono utilizzare le configurazioni degli addebiti automatici. In tal modo, le spese varie aggiuntive possono essere aggiunte in modo sistematico alle transazioni di vendita.
+Nelle versioni precedenti alla versione 10.0 di Retail, le configurazioni di [addebiti automatici](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sono accessibili solo tramite ordini creati nei canali e-Commerce e del servizio clienti. Nelle versioni 10.0 e successive, gli ordini creati dal POS possono utilizzare le configurazioni degli addebiti automatici. In tal modo, le spese varie aggiuntive possono essere aggiunte in modo sistematico alle transazioni di vendita.
 
 Quando si utilizzano le versioni precedenti alla versione 10.0, a un utente POS viene richiesto di immettere manualmente le spese di spedizione durante la creazione di una transazione POS "Spedisci tutto" o "Spedizione selezionata". Sebbene le funzionalità relative alle spese varie dell'applicazione siano utilizzate secondo il modo in cui le spese sono scritte nell'ordine, non viene fornito un calcolo sistematico; il calcolo è basato sull'input dell'utente per determinare il valore delle spese. Le spese possono essere aggiunte solo come singolo codice spese relativo alla "spedizione" e non possono essere modificate facilmente nel POS dopo la creazione.
 

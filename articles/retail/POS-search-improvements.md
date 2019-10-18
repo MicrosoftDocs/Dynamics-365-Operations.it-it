@@ -1,6 +1,6 @@
 ---
 title: Ricerca di prodotti e di clienti nel POS
-description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Microsoft Dynamics 365 for Retail.
+description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625644"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023685"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -99,7 +99,10 @@ La ricerca tradizionale dei clienti può richiedere molto tempo, poiché esegue 
 
 ![Collegamenti di ricerca del cliente](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
 
-Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di vendita** al dettaglio in Microsoft Dynamics 365 for Finance and Operations, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
+
+
+Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di vendita** al dettaglio in Microsoft Dynamics 365 Retail, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
+
 
 ![Configurare i collegamenti di ricerca](./media/ConfigureShortcutsAX.png "Configurare i collegamenti di ricerca")
 
@@ -111,6 +114,6 @@ Il campo **Ordine di visualizzazione** determina l'ordine in cui i collegamenti 
 > [!NOTE]
 > Una proprietà personalizzata che viene aggiunta all'enumerazione non influisce sull'algoritmo predefinito di ricerca del cliente. In altre parole, l'algoritmo di ricerca del cliente non cerca nella proprietà personalizzata. Gli utenti possono utilizzare una proprietà personalizzata per le ricerche solo se la proprietà personalizzata viene aggiunta come collegamento o se l'algoritmo di ricerca predefinito viene sovrascritto.
 
-In una versione futura di Microsoft Dynamics 365 for Retail, i rivenditori potranno impostare la modalità di ricerca clienti predefinita in POS su **Cerca in tutti i punti vendita**. Questa configurazione può risultare utile in scenari in cui la ricerca di clienti creati al di fuori di POS deve essere eseguita immediatamente (ad esempio anche prima del processo di distribuzione). Una nuova opzione **Modalità di ricerca di clienti predefinita** sarà disponibile nel profilo funzionalità POS. Impostarla su **On** per impostare la modalità di ricerca predefinita su **Cerca in tutti i punti vendita**. Ogni tentativo di ricerca di clienti eseguirà quindi una chiamata in tempo reale alla sede centrale.
+In una versione futura di Retail, i rivenditori potranno impostare la modalità di ricerca clienti predefinita in POS su **Cerca in tutti i punti vendita**. Questa configurazione può risultare utile in scenari in cui la ricerca di clienti creati al di fuori di POS deve essere eseguita immediatamente (ad esempio anche prima del processo di distribuzione). Una nuova opzione **Modalità di ricerca di clienti predefinita** sarà disponibile nel profilo funzionalità POS. Impostarla su **On** per impostare la modalità di ricerca predefinita su **Cerca in tutti i punti vendita**. Ogni tentativo di ricerca di clienti eseguirà quindi una chiamata in tempo reale alla sede centrale.
 
 Per impedire problemi imprevisti relativi alle prestazioni, questa configurazione è nascosta dietro a un flighting flag denominato **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Pertanto, per visualizzare l'impostazione **Modalità di ricerca di clienti predefinita** nell'interfaccia utente, il rivenditore deve creare una richiesta di supporto per il relativo test di accettazione utente (UAT) e gli ambienti di produzione. Dopo il ricevimento della richiesta, il team di progettazione collaborerà con il rivenditore per assicurare che questi esegua il test nei relativi ambienti non di produzione per valutare le prestazioni e implementare le eventuali ottimizzazioni necessarie.

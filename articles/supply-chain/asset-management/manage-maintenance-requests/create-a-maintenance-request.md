@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847507"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024639"
 ---
 # <a name="create-maintenance-requests"></a>Creare richieste di intervento di manutenzione
 
@@ -41,7 +41,7 @@ La sezione **Richieste di interventi di manutenzione attive** del riquadro **Inf
 2. Selezionare **Nuovo**.
 3. Nella finestra di dialogo **Crea richiesta**, nel campo **Tipo di richiesta di intervento di manutenzione**, selezionare il tipo di richiesta di intervento di manutenzione. Tipo predefinito viene suggerito.
 4. Nel campo **Descrizione**, immettere un nome o un titolo che brevemente descrivono la richiesta di intervento di manutenzione.
-5. Nei campi **Unità funzionale** e **Cespite**, selezionare una unità funzionale o un cespite, o una combinazione dei due, come richiesto. È possibile creare una richiesta di intervento di manutenzione senza selezionare un cespite e il cespite può essere aggiunti successivamente alla richiesta di intervento di manutenzione. Se l'addetto alla manutenzione che ha eseguito l'accesso a Microsoft Dynamics 365 for Finance and Operations è correlato a una risorsa correlata a un cespite, il campo **Cespite** viene impostato automaticamente.
+5. Nei campi **Unità funzionale** e **Cespite**, selezionare una unità funzionale o un cespite, o una combinazione dei due, come richiesto. È possibile creare una richiesta di intervento di manutenzione senza selezionare un cespite e il cespite può essere aggiunti successivamente alla richiesta di intervento di manutenzione. Se l'addetto alla manutenzione che ha eseguito l'accesso è correlato a una risorsa correlata a un cespite, il campo **Cespite** viene impostato automaticamente.
 
     Se una richiesta di intervento di manutenzione è già collegata al cespite selezionato, una barra dei messaggi viene visualizzata nella parte superiore della finestra  dialogo **Crea richiesta** per segnalare l'ID della richiesta di intervento di manutenzione esistente. La barra dei messaggi anche informa se il cespite è coperto da un contratto di garanzia.
 

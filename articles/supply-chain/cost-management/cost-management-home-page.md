@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557643"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249634"
 ---
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
@@ -69,5 +69,5 @@ Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](htt
 Opinioni, notizie e altre informazioni sulla gestione costi sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm). Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione costi, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 #### <a name="task-guides"></a>Guide attività
-Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
+Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
 

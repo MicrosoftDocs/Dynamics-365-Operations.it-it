@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553555"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025104"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -37,10 +37,10 @@ Ogni buono sconto è relativo a uno sconto al dettaglio. I gruppi di prezzi asso
 
 Essenzialmente, i buoni sconto rappresentano una convalida aggiuntiva sugli sconti al dettaglio. Il buono sconto fornisce i codici e i codici a barre necessari dei buoni sconto, insieme a intervalli di date per tali codici. Il buono sconto fornisce inoltre i limiti facoltativi di utilizzo e le proprietà obbligatorie del cliente. Lo sconto fornisce un set di prodotti per cui il buono sconto è valido. I gruppi di prezzi per lo sconto forniscono il set di clienti, canali o cataloghi per cui il buono sconto è valido.
 
-Per creare un buono sconto, verranno creati separatamente lo sconto e il buono sconto. Quindi vengono collegati selezionando lo sconto nella pagina dei buoni sconto in Microsoft Dynamics 365 for Retail.
+Per creare un buono sconto, verranno creati separatamente lo sconto e il buono sconto. Quindi vengono collegati selezionando lo sconto nella pagina dei buoni sconto in Retail.
 
 > [!NOTE]
-> Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Microsoft Dynamics 365 for Retail diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
+> Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Retail diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
 
 ### <a name="limited-use-coupons"></a>Buoni sconti a utilizzo limitato
 
@@ -75,7 +75,7 @@ Prima di impostare un buono sconto, è necessario impostare il codice a barre de
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Effetto degli aggiornamenti parziali sui buoni sconto
 
-La funzionalità Buono sconto include diverse funzionalità distinte in Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail Headquarters e il canale possono essere parzialmente aggiornati sui componenti. Di conseguenza, è importante comprendere come gli aggiornamenti parziali influiscono complessivamente sulla funzionalità dei buoni sconto.
+La funzionalità Buono sconto include diverse funzionalità distinte. Dynamics 365 Retail Headquarters e il canale possono essere parzialmente aggiornati sui componenti. Di conseguenza, è importante comprendere come gli aggiornamenti parziali influiscono complessivamente sulla funzionalità dei buoni sconto.
 
 - **HQ è parzialmente aggiornato, ma il server Retail e POS non vengono aggiornati.** In un aggiornamento HQ, il buono sconto e le pagine di sconto vengono aggiornati e il motore di prezzo di vendita al dettaglio viene aggiornato. Se uno solo di questi due componenti viene aggiornato, alcune pagine in Retail non corrisponderanno ai dati del calcolo dei prezzi. Di conseguenza, calcoli degli sconti imprevisti o errori possono verificarsi durante i calcoli degli sconti.
 - **HQ è aggiornato, ma il server Retail e POS non vengono aggiornati (N-1).** Poiché non tutti i punti vendita al dettaglio possono essere aggiornati contemporaneamente, si consiglia di aggiornare HQ prima di aggiornare i punti vendita al dettaglio. Nello scenario N-1, le nuove funzionalità correlate ai buoni sconto non saranno disponibili nei punti vendita che non sono stati ancora aggiornati. Ad esempio, la funzionalità dei buoni sconto introduce l'esclusione delle righe. Se si utilizza l'esclusione delle righe in uno sconto, questo non verrà applicato in un punto vendita al dettaglio che esegue una versione precedente.

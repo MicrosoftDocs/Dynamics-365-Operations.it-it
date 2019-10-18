@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559606"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025358"
 ---
 # <a name="payment-methods"></a>Metodi di pagamento
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559606"
 
 Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
 
-I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti e i servizi forniti. Sebbene il pagamento in contanti sia in genere la forma più comune, i rivenditori possono ricevere anche pagamenti tramite assegno, carta, buoni e altro ancora. Ogni tipo di pagamento accettato dal rivenditore deve essere configurato in Dynamics 365 for Retail quando si imposta il sistema. Nell'elenco riportato di seguito viene descritto ogni tipo di pagamento che è possibile impostare in Dynamics 365 for Retail.
+I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti e i servizi forniti. Sebbene il pagamento in contanti sia in genere la forma più comune, i rivenditori possono ricevere anche pagamenti tramite assegno, carta, buoni e altro ancora. Ogni tipo di pagamento accettato dal rivenditore deve essere configurato in Dynamics 365 Retail quando si imposta il sistema. Nell'elenco riportato di seguito viene descritto ogni tipo di pagamento che è possibile impostare.
 
 - **Contante**: denaro nella forma fisica della valuta, ad esempio banconote e monete. La valuta può essere quella della società o quella locale del punto vendita.
 - **Assegno**: titolo negoziabile per il pagamento di un importo specifico in una valuta specifica emesso da una banca specifica. In genere, un assegno è valido o per un periodo di tempo illimitato o per sei mesi dalla data di emissione, salvo diversa indicazione relativa al periodo di validità. Tale periodo può variare a seconda della banca di emissione dell'assegno. Esistono vari tipi di assegni, ad esempio all'ordine, di sportello, al portatore e del beneficiario del conto. È possibile impostare l'assegno come metodo di pagamento per ogni punto vendita. Gli assegni possono essere accettati nella valuta definita a livello aziendale o a livello di punto vendita. Prima di poter accettare un assegno per il pagamento in un punto vendita, è necessario impostare come metodo di pagamento questo tipo di titolo.
