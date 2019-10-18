@@ -1,6 +1,6 @@
 ---
 title: Scegliere tra Retail Modern POS (MPOS) e Cloud POS
-description: In questo argomento vengono illustrate le differenze chiave tra Retail Modern POS e Cloud POS. Sono inoltre descritti i diversi fattori che i rivenditori che implementano Microsoft Dynamics 365 for Retail devono considerare per operare la scelta più adatta alle proprie esigenze.
+description: In questo argomento vengono illustrate le differenze chiave tra Retail Modern POS e Cloud POS. Sono inoltre descritti i diversi fattori che i rivenditori che implementano Dynamics 365 Retail devono considerare per operare la scelta più adatta alle proprie esigenze.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557016"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025911"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Scegliere tra Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono fornite agli implementatori contesto, suggerimenti e indicazioni supplementari per i fattori da considerare durante la distribuzione di Microsoft Dynamics 365 for Retail. Esaminando e seguendo queste indicazioni durante il processo di distribuzione, gli implementatori possono evitare eventuali problemi che potrebbero influire sulla soddisfazione dell'utente o sulle prestazioni.
+In questo argomento vengono fornite agli implementatori contesto, suggerimenti e indicazioni supplementari per i fattori da considerare durante la distribuzione di Dynamics 365 Retail. Esaminando e seguendo queste indicazioni durante il processo di distribuzione, gli implementatori possono evitare eventuali problemi che potrebbero influire sulla soddisfazione dell'utente o sulle prestazioni.
 
 ## <a name="insights"></a>Informazioni approfondite
 
@@ -59,7 +59,7 @@ Sebbene MPOS e CPOS siano in gran parte uguali, esistono delle differenze import
 
 MPOS in un dispositivo Windows, iOS o Android è un'applicazione in pacchetto che viene installato e supportato nel dispositivo.
 
-- **Windows** - L'applicazione MPOS per Windows contiene tutto il codice applicazione e il runtime di Commerce (CRT) incorporato. 
+- **Windows** - L'applicazione MPOS per Windows contiene tutto il codice applicazione e il Commerce Runtime (CRT) incorporato. 
 - **iOS/Android** - In queste piattaforme, l'applicazione agisce da host per il codice applicazione CPOS. In altre parole, il codice applicazione deriva dal server CPOS in Microsoft Azure o Retail Store Scale Unit (RSSU). Per ulteriori informazioni, vedere [Panoramica di Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS

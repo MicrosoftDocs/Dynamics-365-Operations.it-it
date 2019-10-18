@@ -3,7 +3,7 @@ title: Cicli di manutenzione
 description: In questo argomento vengono descritti i cicli di manutenzione in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875732"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922024"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 In **Gestione cespiti**, è possibile creare cicli di manutenzione per vari cespiti in cui è necessario eseguire un'attività simile a intervalli regolari. Ad esempio, le lubrificazioni o le ispezioni di sicurezza da eseguire su una serie di macchine entro gli stessi intervalli. Il primo passo è di creare un ciclo di manutenzione per i cespiti che richiedono lo stesso tipo di manutenzione. Successivamente, si programmano i cicli di manutenzione. Una volta completata la programmazione dei cicli di manutenzione, è possibile visualizzare tutti i record relativi al ciclo in **Tutti i programmi di manutenzione** e **Apri righe di programma di manutenzione**.
 
@@ -83,6 +81,8 @@ In **Gestione cespiti**, è possibile creare cicli di manutenzione per vari cesp
 >[!NOTE]
 >I campi **Cespiti** e **Righe** nel gruppo **Dettagli** della Scheda dettaglio **Intestazione** indicano il numero totale di cespiti e righe associati al ciclo di manutenzione selezionato.
 
+L'illustrazione seguente mostra ed esempio di un ciclo di manutenzione contenente tre cespiti.
+
 ![Figura 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ Dopo l'impostazione di un ciclo di manutenzione, si esegue un processo di progra
 6. Fare clic su **OK**.
 
 7. A questo punto è possibile visualizzare i processi dei cicli di manutenzione in **Gestione cespiti** > **Comune** > **Programma di manutenzione** > **Tutti i programmi di manutenzione** o **Apri righe di programma di manutenzione**. Se i cicli di manutenzione sono collegati a un pool di ordini di lavoro, vengono visualizzate anche le righe di programma di manutenzione in **Apri pool di programmazione di manutenzione**. Le righe di programma di manutenzione create da un ciclo hanno il tipo di riferimento "Cicli di manutenzione".
+
+Le due illustrazioni di seguito illustrano un processo di programmazione nella finestra di dialogo **Cicli di programmazione della manutenzione** e le righe del programma di manutenzione create in **Tutto il programma di manutenzione** in base al processo di programmazione.
 
 ![Figura 2](media/14-preventive-maintenance.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Modificare l'ordine di visualizzazione per entità di merchandising
-description: In questo argomento vengono descritti i concetti correlati al controllo dell'ordine di visualizzazione per varie entità di merchandising in Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: In questo argomento vengono descritti i concetti correlati al controllo dell'ordine di visualizzazione per varie entità di merchandising in Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866163"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019418"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modificare l'ordine di visualizzazione per entità di merchandising
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Per i rivenditori, la scoperta dei prodotti è uno strumento principale per l'interazione dei clienti in tutti i canali di vendita al dettaglio. Varie funzionalità possono consentire ai clienti di scoprire facilmente i prodotti. Ad esempio, possono esaminare le categorie, cercare e filtrare.
@@ -38,7 +38,7 @@ In questo argomento vengono descritti i concetti correlati al controllo dell'ord
 
 Il supporto per ordinare varie entità di merchandising è stato migliorato. Questo supporto è ora meglio allineato agli scenari per clienti esistenti che in precedenza richiedevano estensioni da partner di implementazione.
 
-Nelle versioni di Microsoft Dynamics 365 for Retail precedenti alla versione 10.0.5, l'ordine delle categorie nella gerarchia di navigazione è alfabetico. La nuova funzionalità di ordinamento personalizzata consente ai responsabili del merchandising di configurare l'ordine per varie entità di merchandising in tutti i client dell'utente finale. Questi client includono le sedi e i servizi clienti.
+Nelle versioni di Retail precedenti alla versione 10.0.5, l'ordine delle categorie nella gerarchia di navigazione è alfabetico. La nuova funzionalità di ordinamento personalizzata consente ai responsabili del merchandising di configurare l'ordine per varie entità di merchandising in tutti i client dell'utente finale. Questi client includono le sedi e i servizi clienti.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Configurare l'ordine di visualizzazione delle categorie nella gerarchia di prodotti al dettaglio
 

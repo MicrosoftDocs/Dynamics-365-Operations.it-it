@@ -1,6 +1,6 @@
 ---
 title: Blocco scorte
-description: Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
+description: Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Supply Chain Management. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557478"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250808"
 ---
 # <a name="inventory-blocking"></a>Blocco scorte
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Microsoft Dynamics 365 for Finance and Operations. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
+Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Supply Chain Management. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 
 È possibile bloccare gli articoli di magazzino in uno dei modi seguenti.
 -   Manualmente

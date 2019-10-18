@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865995"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248633"
 ---
 # <a name="sales-and-marketing-overview"></a>Panoramica di Vendite e marketing
 
@@ -41,7 +41,7 @@ In vendite e marketing, le interazioni iniziali con potenziali clienti possono v
 
 ### <a name="campaigns"></a>Campagne
 
-Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Microsoft Dynamics 365 for Finance and Operations, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
+Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Supply Chain Management, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
 
 ## <a name="sales"></a>Vendite
 Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite](./media/sales01.jpg)](./media/sales01.jpg)

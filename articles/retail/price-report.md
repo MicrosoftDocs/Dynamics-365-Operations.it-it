@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564949"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025197"
 ---
 # <a name="retail-price-reports"></a>Report dei prezzi di vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
 
 
-Per fornire prezzi concorrenziali ai clienti, i rivenditori spesso modificano i prezzi dei prodotti. I responsabili punto vendita vogliono avere la possibilità di accedere facilmente alle modifiche recenti o future dei prezzi in modo da poter pianificare le risorse necessarie per aggiornare le etichette dei prezzi visualizzate sugli scaffali del punto vendita. Con Dynamics 365 for Retail versione 10.0, un responsabile punto vendita può aprire il report **Prezzi** accedendo a **Tutti i punti vendita al dettaglio \> Punto vendita \> Report prezzi** e visualizzando i prezzi aggiornati per i prodotti associati al punto vendita. 
+Per fornire prezzi concorrenziali ai clienti, i rivenditori spesso modificano i prezzi dei prodotti. I responsabili punto vendita vogliono avere la possibilità di accedere facilmente alle modifiche recenti o future dei prezzi in modo da poter pianificare le risorse necessarie per aggiornare le etichette dei prezzi visualizzate sugli scaffali del punto vendita. Con Retail versione 10.0, un responsabile punto vendita può aprire il report **Prezzi** accedendo a **Tutti i punti vendita al dettaglio \> Punto vendita \> Report prezzi** e visualizzando i prezzi aggiornati per i prodotti associati al punto vendita. 
 
 Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per punto vendita al dettaglio** deve essere attivato. Questo parametro si trova nella scheda **Parametri di vendita al dettaglio \> Sconti \> Varie**. L'apertura della pagina **Report prezzi** visualizza una finestra di dialogo con varie configurazioni. Le configurazioni disponibili sono elencate di seguito.
 

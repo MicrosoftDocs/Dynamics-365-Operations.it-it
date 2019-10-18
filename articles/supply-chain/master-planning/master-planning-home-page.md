@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543585"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250693"
 ---
 # <a name="master-planning-home-page"></a>Home page di pianificazione generale
 
@@ -74,7 +74,7 @@ Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) 
 Opinioni, notizie e altre informazioni sulla Pianificazione generale e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guide attività
-Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina.
+Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina.
 
 ### <a name="webinars"></a>Webinar
 [Utilizzare Azure Machine Learning per la previsione della domanda](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

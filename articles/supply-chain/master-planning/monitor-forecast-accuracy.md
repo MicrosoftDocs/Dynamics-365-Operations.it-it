@@ -1,6 +1,6 @@
 ---
-title: Monitorare la precisione previsione
-description: In questo articolo vengono descritti i tipi di previsione di previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione.
+title: Monitorare la precisione della previsione
+description: In questo argomento vengono descritti i tipi di previsione di previsione calcolati in Dynamics 365 Supply Chain Management e viene illustrato come è possibile visualizzare i valori di previsione.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,25 +19,26 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f238afadfa064e972ef11a95fdad073f63ff20c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556808"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250670"
 ---
-# <a name="monitor-forecast-accuracy"></a>Monitorare la precisione previsione
+# <a name="monitor-forecast-accuracy"></a>Monitorare la precisione della previsione
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo vengono descritti i tipi di previsione di previsione calcolati in Microsoft Dynamics 365 for Finance and Operations e viene illustrato come è possibile visualizzare i valori di previsione.
+In questo argomento vengono descritti i tipi di previsione di previsione calcolati in Microsoft Dynamics 365 Supply Chain Management e viene illustrato come è possibile visualizzare i valori di previsione.
 
-Finance and Operations calcola i seguenti tipi di precisione della previsione:
+Supply Chain Management calcola i seguenti tipi di precisione della previsione:
 
 -   Previsione di precisione storica, confrontando la previsione storica utilizzata nella pianificazione generale con la domanda storica. Per visualizzare i valori (sia i valori assoluti che i valori percentuali) per la precisione di previsione storica, fare clic su **Visualizza precisione** nella pagina **Dettagli previsione della domanda**.
 -   Precisione stimata del modello previsionale utilizzato per generare previsioni. È possibile visualizzare la percentuale di previsione in **Dettagli modello - Errore medio assoluto percentuale** nella pagina **Dettagli previsione della domanda**. 
 
-**Nota:** se si utilizza il servizio Microsoft Azure Machine Learning per la previsione della domanda in Finance and Operations, il calcolo della previsione del modello interno si basa sul set di dati di prova. Per specificare le dimensioni del set di dati di prova, impostare il parametro **TEST\_SET\_SIZE\_PERCENT** nella pagina **Parametri di previsione della domanda**. Ad esempio, se si imposta il valore su **20**, l'ultimo 20% dei dati storici verrà utilizzato per calcolare la previsione del modello interno.
+> [!NOTE]
+> Se si utilizza il servizio Microsoft Azure Machine Learning per la previsione della domanda, il calcolo della previsione del modello interno si basa sul set di dati di prova. Per specificare le dimensioni del set di dati di prova, impostare il parametro **TEST\_SET\_SIZE\_PERCENT** nella pagina **Parametri di previsione della domanda**. Ad esempio, se si imposta il valore su **20**, l'ultimo 20% dei dati storici verrà utilizzato per calcolare la previsione del modello interno.
 
 
 <a name="additional-resources"></a>Risorse aggiuntive

@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare conti direttamente da Sales con clienti in Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Dynamics 365 Sales in Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743350"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249890"
 ---
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Sincronizzare conti direttamente da Sales con clienti in Finance and Operations
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
-La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Finance and Operations e Sales.  I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Finance and Operations e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Finance and Operations e Sales.
+La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales.  I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
 [![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,7 +45,7 @@ La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per si
 
 Per accedere ai modelli disponibili, aprire l'[Interfaccia di amministrazione di PowerApps](https://preview.admin.powerapps.com/dataintegration). Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici.
 
-Il seguente modello e l'attività sottostante vengono utilizzati per sincronizzare i conti da Sales in Finance and Operations:
+Il modello e l'attività sottostanti seguenti vengono utilizzati per sincronizzare i conti da Sales in Supply Chain Management.
 
 - **Nome del modello in Integrazione dati:** Conti (da Sales in Fin and Ops) - Diretto
 - **Nome dell'attività del progetto:** Conti - Clienti
@@ -54,13 +54,13 @@ Nessuna attività di sincronizzazione è necessaria prima della sincronizzazione
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| Vendite    | Finance and Operations |
+| Vendite    | Gestione della supply chain |
 |----------|------------------------|
-| Conti | Clienti V2           |
+| Account | Clienti V2           |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-I conti vengono gestiti in Sales e sincronizzati in Finance and Operations come clienti. La proprietà **Gestito esternamente** per tali clienti è impostata su **Sì** per tenere traccia dei clienti che hanno origine da Sales. Durante la fatturazione queste informazioni vengono utilizzate per filtrare le fatture che vengono sincronizzate in Sales.
+I conti vengono gestiti in Sales e sincronizzati in Supply Chain Management come clienti. La proprietà **Gestito esternamente** per tali clienti è impostata su **Sì** per tenere traccia dei clienti che hanno origine da Sales. Durante la fatturazione queste informazioni vengono utilizzate per filtrare le fatture che vengono sincronizzate in Sales.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
@@ -72,21 +72,21 @@ Quando viene applicata la soluzione di integrazione per Sales, uno script di agg
 
 ## <a name="preconditions-and-mapping-setup"></a>Prerequisiti e impostazioni di mapping
 
-- Il mapping **CustomerGroupId** deve essere aggiornato a un valore valido in Finance and Operations. È possibile specificare un valore predefinito oppure è possibile impostare il valore utilizzando una mappa di valori.
+- Il mapping **CustomerGroupId** deve essere aggiornato a un valore valido in Supply Chain Management. È possibile specificare un valore predefinito oppure è possibile impostare il valore utilizzando una mappa di valori.
 
     Il valore del modello predefinito è **10**.
 
-- Aggiungendo i seguenti mapping, è possibile consentire una riduzione del numero degli aggiornamenti manuali necessari in Finance and Operations. È possibile utilizzare un valore predefinito o una mappa di valori da, ad esempio, **Paese** o **Città**.
+- Aggiungendo i seguenti mapping, è possibile consentire una riduzione del numero degli aggiornamenti manuali necessari in Supply Chain Management. È possibile utilizzare un valore predefinito o una mappa di valori da, ad esempio, **Paese** o **Città**.
 
-    - **SiteId** - Un sito è obbligatorio per la generazione di offerte e righe di ordine cliente in Finance and Operations. Un sito predefinito può essere preso sia dal prodotto che dall'intestazione ordine del cliente.
+    - **SiteId** - Un sito è obbligatorio per la generazione di offerte e righe di ordine cliente in Supply Chain Management. Un sito predefinito può essere preso sia dal prodotto che dall'intestazione ordine del cliente.
 
         Il valore del modello predefinito è **1**.
 
-    - **WarehouseId** - Un magazzino è obbligatorio per l'elaborazione di offerte e righe di ordine cliente in Finance and Operations. Un sito predefinito può essere preso sia dal prodotto che dall'intestazione ordine del cliente in Finance and Operations.
+    - **WarehouseId** - Un magazzino è obbligatorio per l'elaborazione di offerte e righe di ordine cliente in Supply Chain Management. Un sito predefinito può essere preso sia dal prodotto che dall'intestazione ordine del cliente in Supply Chain Management.
 
         Il valore del modello predefinito è **13**.
 
-    - **LanguageId** - Una lingua è obbligatoria per la generazione di offerte e ordini cliente in Finance and Operations. Per impostazione predefinita, viene utilizzata la lingua dell'intestazione ordine del cliente.
+    - **LanguageId** - Una lingua è obbligatoria per la generazione di offerte e ordini cliente in Supply Chain Management. Per impostazione predefinita, viene utilizzata la lingua dell'intestazione ordine del cliente.
 
         Il valore di modello predefinito è **en-us**.
 
@@ -98,20 +98,20 @@ Quando viene applicata la soluzione di integrazione per Sales, uno script di agg
 Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integrazione dati. 
 
 > [!NOTE]
-> Il mapping mostra quali informazioni sui campi verranno sincronizzate da Sales in Finance and Operations.
+> Il mapping mostra quali informazioni sui campi verranno sincronizzate da Sales in Supply Chain Management.
 
 ![Mapping dei modelli in Integrazione dati](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 
 
-[Prospect to cash](prospect-to-cash.md)
+[Prospect per uno scenario di liquidazione](prospect-to-cash.md)
 
-[Sincronizzare conti direttamente da Sales con clienti in Finance and Operations](accounts-template-mapping-direct.md)
+[Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Sincronizzare contatti direttamente da Sales con contatti o clienti in Finance and Operations](contacts-template-mapping-direct.md)
+[Sincronizzare contatti direttamente da Sales con contatti o clienti in Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Sincronizzare intestazioni e righe di ordini di vendita direttamente da Finance and Operations in Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronizzare intestazioni e righe di ordini di vendita direttamente da Supply Chain Management in Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales](sales-invoice-template-mapping-direct.md)
+[Sincronizzare intestazioni e righe di fatture di vendita direttamente da Supply Chain Management in Sales](sales-invoice-template-mapping-direct.md)
 

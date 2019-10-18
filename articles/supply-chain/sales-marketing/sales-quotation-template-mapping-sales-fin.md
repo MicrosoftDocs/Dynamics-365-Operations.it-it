@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Finance and Operations
-description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
+description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743373"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251249"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales a Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
 [!include [banner](../includes/banner.md)]
 
-L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Microsoft Dynamics 365 for Sales in Microsoft Dynamics 365 for Finance and Operations.
+L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
-La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Finance and Operations e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Finance and Operations e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Finance and Operations e Sales.
+La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati per conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
 [![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modello e attività
 
-Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare le intestazioni e le righe delle offerte di vendita direttamente da Sales in Finance and Operations:
+Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare le intestazioni e le righe delle offerte di vendita direttamente da Sales in Supply Chain Management:
 
-- **Nome del modello in Integrazione dati:** Offerte di vendita (da Sales in Fin and Ops) - Diretto
+- **Nome del modello in Integrazione dati:** Offerte di vendita (da Sales in Supply Chain Management) - Diretto
 - **Nomi delle attività nel progetto di Integrazione dati:**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ Il seguente modello e le attività sottostanti vengono utilizzati per sincronizz
 
 Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la sincronizzazione delle intestazioni e delle righe di un'offerta di vendita:
 
-- Prodotti (da Fin and Ops in Sales) - Diretto
-- Conti (da Sales in Fin and Ops) - Diretto (se utilizzata)
-- Da Contatti a Clienti (da Sales in Fin and Ops) - Diretto (se utilizzata)
+- Prodotti (da Supply Chain Management in Sales) - Diretto
+- Conti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
+- Da Contatti a Clienti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
 
 ## <a name="entity-set"></a>Insieme di entità
 
@@ -66,7 +66,7 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Le offerte di vendita vengono create in Sales e sincronizzate in Finance and Operations.
+Le offerte di vendita vengono create in Sales e sincronizzate in Supply Chain Management.
 
 Le offerte di vendita da Sales vengono sincronizzate solo se vengono soddisfatte le condizioni seguenti:
 
@@ -75,13 +75,13 @@ Le offerte di vendita da Sales vengono sincronizzate solo se vengono soddisfatte
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
-È stato aggiunto il campo **Solo prodotti gestiti esternamente** all'entità **Offerta** per rilevare in modo coerente se l'offerta di vendita consiste interamente di prodotti gestiti esternamente. Se un'offerta di vendita include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Finance and Operations. Questo comportamento impedisce il tentativo di sincronizzare righe di offerta di vendita che hanno prodotti sconosciuti in Finance and Operations.
+È stato aggiunto il campo **Solo prodotti gestiti esternamente** all'entità **Offerta** per rilevare in modo coerente se l'offerta di vendita consiste interamente di prodotti gestiti esternamente. Se un'offerta di vendita include solo prodotti gestiti esternamente, i prodotti vengono gestiti in Supply Chain Management. Questo comportamento impedisce il tentativo di sincronizzare righe di offerta di vendita che hanno prodotti sconosciuti in Supply Chain Management.
 
 Tutti i prodotti offerta e l'offerta di vendita vengono aggiornati con le informazioni **Solo prodotti gestiti esternamente** derivate dall'intestazione dell'offerta di vendita. Queste informazioni sono disponibili nel campo **L'offerta ha solo prodotti gestiti esternamente** nell'entità **QuoteDetails**.
 
-Uno sconto può essere aggiunto al prodotto offerta e verrà sincronizzato con Finance and Operations. I campi **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Finance and Operations. Questa impostazione al momento non supporta il mapping di integrazione. Nella progettazione attuale, i campi **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti in Finance and Operations.
+Uno sconto può essere aggiunto al prodotto offerta e verrà sincronizzato con Supply Chain Management. I campi **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione al momento non supporta il mapping di integrazione. Nella progettazione attuale, i campi **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti in Supply Chain Management.
 
-In Sales, la soluzione rende i campi seguenti di sola lettura, perché i valori non vengono sincronizzati con Finance and Operations:
+In Sales, la soluzione rende i campi seguenti di sola lettura, perché i valori non vengono sincronizzati con Supply Chain Management.
 
 - Campi di sola lettura nell'intestazione dell'offerta di vendita: **% sconto**, **Sconto**, **Importo trasporto**
 - Campi di sola lettura nei prodotti offerta: **Imposta**
@@ -111,20 +111,20 @@ Prima di sincronizzare le offerte di vendita, è importante aggiornare le seguen
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Assicurarsi che la mappa valori richiesta esista per **SalesUnitSymbol** in Finance and Operations.
+- Assicurarsi che la mappa valori richiesta esista per **SalesUnitSymbol** in Supply Chain Management.
 - Assicurarsi che le unità richieste siano definite in Sales.
 
     Un valore di modello con una mappa di valori viene definito per **oumid.name** a **SalesUnitSymbol**.
 
-- Facoltativo: è possibile aggiungere i mapping seguenti in modo da garantire che le righe dell'offerta di vendita vengano importate in Finance and Operations se non sono disponibili informazioni predefinite dal cliente o dal prodotto:
+- Facoltativo: è possibile aggiungere i mapping seguenti in modo da garantire che le righe dell'offerta di vendita vengano importate in Supply Chain Management se non sono disponibili informazioni predefinite dal cliente o dal prodotto:
 
-    - **SiteId** - Un sito è obbligatorio per la generazione di offerte e righe di ordine cliente in Finance and Operations. Non è disponibile alcun valore del modello predefinito per **SiteId**.
-    - **WarehouseId** - Un magazzino è obbligatorio per l'elaborazione di offerte e righe di ordine cliente in Finance and Operations. Non è disponibile alcun valore del modello predefinito per **WarehouseId**.
+    - **SiteId** - Un sito è obbligatorio per la generazione di offerte e righe di ordine cliente in Supply Chain Management. Non è disponibile alcun valore del modello predefinito per **SiteId**.
+    - **WarehouseId** - Un magazzino è obbligatorio per l'elaborazione di offerte e righe di ordine cliente in Supply Chain Management. Non è disponibile alcun valore del modello predefinito per **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Mapping dei modelli nell'integratore di dati
 
 > [!NOTE]
-> - I campi relativi a **Sconto**, **Spese** e **Imposta** sono controllati da un'impostazione complessa in Finance and Operations. Questa impostazione al momento non supporta il mapping di integrazione. Nella progettazione attuale, i campi relativi a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti da Finance and Operations.
+> - I campi **Sconto**, **Spese** e **Imposta** sono controllati da un'impostazione complessa in Supply Chain Management. Questa impostazione al momento non supporta il mapping di integrazione. Nella progettazione attuale, i campi relativi a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti da Supply Chain Management.
 > - I campi **Termini di pagamento**, **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
 
 Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'integratore di dati.

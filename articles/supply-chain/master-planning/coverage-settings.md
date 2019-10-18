@@ -3,7 +3,7 @@ title: Impostazioni della copertura
 description: In questo argomento vengono fornite informazioni sulle impostazioni di copertura utilizzate dalla programmazione generale per calcolare le richieste articolo.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538896"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998973"
 ---
 # <a name="coverage-settings"></a>Impostazioni della copertura
 
@@ -49,6 +49,19 @@ Nella programmazione generale vengono utilizzate impostazioni di copertura per c
 - Specificare impostazioni di copertura per un gruppo di dimensioni.
 
     Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Nella pagina **Dettagli prodotto rilasciato** , nella scheda dettagli **Generale**, nella sezione **Amministrazione** selezionare il collegamento nel campo **Gruppo di dimensioni di immagazzinamento**. Nella pagina **Gruppi di dimensioni di immagazzinamento** selezionare la casella di controllo **Piano di copertura della dimensione** per creare le impostazioni di copertura per una dimensione nel gruppo di dimensioni di immagazzinamento. Per tutte le dimensioni prodotto, ad esempio configurazione, colore, dimensioni, stile, il campo **Piano di copertura per dimensione** deve essere selezionato.
+
+
+## <a name="coverage-codes"></a>Codici di copertura
+
+La pianificazione generale può essere configurata per utilizzare differenti metodi di rifornimento. I metodi di rifornimento o di dimensionamento dei lotti sono le tecniche utilizzate dal sistema per determinare le dimensioni dei batch degli articoli acquistati o prodotti. 
+
+A ogni metodo di rifornimento viene assegnato uno dei seguenti codici di copertura:
+
+- **Manuale** - Il metodo di dimensionamento dei lotti in cui il sistema non suggerisce ordini di produzione, trasferimento o fornitore per l'articolo. Il responsabile della pianificazione dell'articolo dovrà creare gli ordini necessari per il rifornimento dell'articolo.
+- **Per fabbisogno** - Il metodo di dimensionamento dei lotti in cui il sistema crea un ordine di produzione, trasferimento o fornitore per fabbisogno per l'articolo. Questo codice viene in genere utilizzato per gli articoli costosi con domanda intermittente.  
+- **Per periodo** - Il metodo di dimensionamento dei lotti che combina tutta la domande durante un periodo in un ordine per l'articolo. L'ordine verrà pianificato per il primo giorno del periodo e la relativa quantità soddisferà i fabbisogni netti durante il periodo stabilito. Il periodo inizia con la prima domanda dell'articolo e copre la lunghezza definita nel tempo. Il periodo successivo inizierà con i requisiti successivi dell'articolo.
+- **Min/Max** - Il metodo di dimensionamento dei lotti che contiene il rifornimento delle scorte fino a un determinato livello quando la disponibilità prevista è inferiore a una soglia. La quantità di rifornimento sarà la differenza tra il livello massimo e il livello disponibile previsto.
+
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595613"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249391"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Impostare un catalogo esterno per PunchOut eProcurement
 
@@ -37,12 +37,12 @@ Per impostare la comunicazione, il fornitore deve fornire informazioni da utiliz
 
 ## <a name="setting-up-an-external-catalog"></a>Impostazione di un catalogo esterno
 
-Il catalogo esterno deve consentire a un dipendente che inserisce una richiesta di acquisto di essere reindirizzato a un sito esterno per selezionare i prodotti. I prodotti che il dipendente seleziona dal catalogo esterno vengono restituiti in Dynamics 365 for Finance and Operations con le informazioni sui prezzi aggiornate e da qui tali informazioni possono essere aggiunte alla richiesta di acquisto. L'intenzione non è di consentire ai dipendente di piazzare un ordine nel sito esterno. Quando si imposta il catalogo esterno, è necessario assicurarsi che lo scopo del sito a cui si accederà dal catalogo esterno sia di raccogliere le informazioni dell'offerta e non di piazzare un ordine effettivo.
+Il catalogo esterno deve consentire a un dipendente che inserisce una richiesta di acquisto di essere reindirizzato a un sito esterno per selezionare i prodotti. I prodotti che il dipendente seleziona dal catalogo esterno vengono restituiti con le informazioni sui prezzi aggiornate e da qui tali informazioni possono essere aggiunte alla richiesta di acquisto. L'intenzione non è di consentire ai dipendente di piazzare un ordine nel sito esterno. Quando si imposta il catalogo esterno, è necessario assicurarsi che lo scopo del sito a cui si accederà dal catalogo esterno sia di raccogliere le informazioni dell'offerta e non di piazzare un ordine effettivo.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Per impostare un catalogo fornitore esterno, completare le attività elencate di seguito:
 
 1. Impostare una gerarchia di categorie di approvvigionamento. Per ulteriori informazioni, vedere [Impostare criteri per le gerarchie di categorie di approvvigionamento](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Registrare il fornitore in Finance and Operations. Prima di impostare le configurazioni per accedere al catalogo di un fornitore esterno, è necessario impostare il fornitore e il relativo contatto in Microsoft Dynamics 365. È inoltre necessario aggiungere il fornitore del catalogo esterno alla categoria di approvvigionamento selezionata. Per ulteriori informazioni sulla registrazione di fornitori in Microsoft Dynamics 365, vedere [Gestire gli utenti della collaborazione fornitore](manage-vendor-collaboration-users.md). Per informazioni su come assegnare fornitori a una categoria di approvvigionamento, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](tasks/approve-vendors-specific-procurement-categories.md).
+2. Registrare il fornitore in Supply Chain Management. Prima di impostare le configurazioni per accedere al catalogo di un fornitore esterno, è necessario impostare il fornitore e il relativo contatto in Microsoft Dynamics 365. È inoltre necessario aggiungere il fornitore del catalogo esterno alla categoria di approvvigionamento selezionata. Per ulteriori informazioni sulla registrazione di fornitori, vedere [Gestire gli utenti della collaborazione fornitore](manage-vendor-collaboration-users.md) Per informazioni su come assegnare fornitori a una categoria di approvvigionamento, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](tasks/approve-vendors-specific-procurement-categories.md).
 3. Verificare che le unità di misura e la valuta utilizzate dal fornitore siano impostate. Per informazioni su come creare un'unità di misura, vedere [Gestire unità di misura](../pim/tasks/manage-unit-measure.md).
 4. Configurare il catalogo fornitore esterno utilizzando i requisiti del sito del catalogo del fornitore esterno desiderato. Per ulteriori informazioni su questa attività, vedere [Configurare il catalogo fornitore esterno](#configure-the-external-vendor-catalog).
 5. Eseguire il test delle configurazioni del catalogo esterno del fornitore per verificare che le impostazioni siano valide e che sia possibile accedere al catalogo esterno del fornitore. Utilizzare l'azione **Convalida impostazioni** per convalidare il messaggio di richiesta di impostazione definito. Questo messaggio deve far sì che il sito del catalogo esterno dei fornitori venga aperto in una finestra di browser. Durante la convalida non è possibile ordinare articoli e servizi dal fornitore. Per ordinare articoli e servizi, è necessario accedere al catalogo del fornitore tramite una richiesta di acquisto.
@@ -90,9 +90,9 @@ Il fornitore potrebbe avere un'esigenza per la ricezione di un elemento estrinse
 Per ulteriori informazioni sul protocollo cXML, vedere il [sito Web](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Messaggio postback
-Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Finance and Operations. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta:
+Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Supply Chain Management. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta.
 
-| Messaggio ricevuto dal fornitore | Copiato nella riga della richiesta in Finance and Operations|
+| Messaggio ricevuto dal fornitore | Copiato nella riga di richiesta|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity="" > |Quantità|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|ID articolo esterno|

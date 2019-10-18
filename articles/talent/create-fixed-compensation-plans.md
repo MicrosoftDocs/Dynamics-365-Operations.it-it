@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518328"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008153"
 ---
 # <a name="create-fixed-compensation-plans"></a>Creare piani di retribuzione fissa
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518328"
 
 La retribuzione fissa fa riferimento allo stipendio lordo regolare o alle retribuzioni del dipendente. Questo articolo descrive i componenti che devono essere impostati per creare un piano di retribuzione fissa e iscrivere i dipendenti.
 
-Gli importi di retribuzione fissa possono essere calcolati per i dipendenti in base a fattori quali prestazioni, regione e incrementi di budget. Microsoft Talent supporta tipi di retribuzione basati su scala, fascia o grado retributivo.
+Gli importi di retribuzione fissa possono essere calcolati per i dipendenti in base a fattori quali prestazioni, regione e incrementi di budget. Dynamics 365 Talent supporta tipi di retribuzione basati su scala, fascia o grado retributivo.
 
 ## <a name="fixed-compensation-components"></a>Componenti di retribuzione fissa
 ### <a name="compensation-levels"></a>Livelli retributivi

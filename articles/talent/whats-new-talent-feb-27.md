@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (27 febbraio 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (27 febbraio 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518356"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024001"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Novità o modifiche in Dynamics 365 for Talent (27 febbraio 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Novità o modifiche in Dynamics 365 Talent (27 febbraio 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
 
@@ -77,9 +77,9 @@ Questa versione include altre correzioni di bug minori.
 
 In molte organizzazioni, i responsabili retribuzioni e benefit potrebbero accedere solo a specifici record di retribuzione. Questi record potrebbero essere utilizzati da dirigenti o dipendenti regionali. Questa modifica consentirà alle Risorse umane di gestire i piani di retribuzione per differenti popolazioni di dipendenti nell'organizzazione. I ruoli di sicurezza che possono essere assegnati a piani fissi e variabili determineranno l'accesso a tali piani e ai dati dei dipendenti ad essi correlati (ad esempio, informazioni sugli stipendi e record di premi). Solo i ruoli con l'accesso specificato potranno elaborare la retribuzione per quei dipendenti.
 
-### <a name="platform-update-24"></a>Update 24 della piattaforma
+### <a name="platform-update-24-for-finance-and-operations"></a>Aggiornamento 24 della piattaforma per Finance and Operations
 
-Per ulteriori informazioni sull'aggiornamento 24 della piattaforma Microsoft Dynamics 365 for Finance and Operations (marzo 2019), vedere [Funzionalità di anteprima nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Per ulteriori informazioni sull'aggiornamento 24 della piattaforma per Microsoft Dynamics 365 Finance and Operations (marzo 2019), vedere [Funzionalità di anteprima nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Rendere la retribuzione fissa dei dipendenti disponibile per assegnazioni di posizione future
 
@@ -87,10 +87,10 @@ Per ulteriori informazioni sull'aggiornamento 24 della piattaforma Microsoft Dyn
 
 ## <a name="known-issues"></a>Problemi noti
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Modifiche al modello di integrazione Core HR ( Talent Common Data Service in Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Modifiche al modello di integrazione Core HR ( Talent Common Data Service in Finance)
 Il modello per Core HR è stato aggiornato a un "modello di query avanzate". Pertanto, per impostazione predefinita, la query avanzata sarà disponibile per i progetti creati utilizzando il modello. Inoltre, tutte le funzioni di mapping predefinite saranno visibili solo nell'editor di query avanzate (le funzioni di mapping predefinite vengono visualizzate come "FN" nei mapping).
 
-Per ulteriori informazioni sugli errori di mapping, vedere [Novità o modifiche in Dynamics 365 for Talent Core HR (14 dicembre 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Per ulteriori informazioni sugli errori di mapping, vedere [Novità o modifiche in Dynamics 365 Talent: Core HR (14 dicembre 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Per utilizzare il nuovo modello, creare un nuovo progetto e selezionare il nuovo modello di integrazione di Talent.
 

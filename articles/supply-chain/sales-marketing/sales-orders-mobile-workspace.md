@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835744"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251623"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Area di lavoro mobile per ordini cliente
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835744"
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Ordini cliente**. Questa area di lavoro offre aggiornamenti costanti sugli ordini cliente in qualsiasi momento e ovunque. 
 
-Questa area di lavoro mobile può essere utilizzata con l'app Microsoft Dynamics 365 for Unified Operations Mobile.
+Questa area di lavoro mobile può essere utilizzata con l'app Finance and Operations per dispositivi mobili.
 
 ## <a name="overview"></a>Panoramica
 L'area di lavoro mobile **Ordini cliente** consente di visualizzare informazioni dettagliate su ogni ordine cliente. Tali informazioni includono lo stato dell'ordine, le informazioni di contatto per il cliente e le informazioni di contatto per l'incaricato dell'ordine. L'area di lavoro mobile **Ordini cliente** offre una visualizzazione immediata degli ordini cliente. È possibile visualizzare gli ordini cliente o visualizzare gli ordini cliente in base al cliente oppure visualizzare le informazioni relative a un ordine cliente specifico. 
@@ -83,8 +83,8 @@ Questa visualizzazione elenca gli ordini cliente per cliente.
 ## <a name="prerequisites"></a>Prerequisiti
 I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Prerequisiti per l'utilizzo di Microsoft Dynamics 365 for Finance and Operations 
-Se Dynamics 365 for Finance and Operations è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Ordini cliente**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Prerequisiti si utilizza Supply Chain Management 
+Se Supply Chain Management è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Ordini cliente**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
@@ -119,8 +119,8 @@ Se nell'organizzazione è stato distribuito Dynamics 365 for Operations versione
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app mobile
-Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
+Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 
 -   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

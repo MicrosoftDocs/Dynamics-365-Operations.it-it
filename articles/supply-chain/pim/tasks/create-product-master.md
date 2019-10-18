@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21cfc2699fdcd6024286ee16bb60c3cd6dda5b67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844713"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924472"
 ---
 # <a name="create-a-product-master"></a>Creare una rappresentazione generale prodotto
 
@@ -31,39 +31,33 @@ Creare una rappresentazione generale prodotto per le varianti predefinite. La so
 
 
 ## <a name="create-a-new-product-master"></a>Creare una nuova rappresentazione generale prodotto
-1. Andare a Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto.
-2. Fare clic su Nuovo.
-3. Nel campo Numero prodotto, digitare un valore.
-    * Il numero deve essere univoco. Per il campo Numero prodotto è possibile impostare una sequenza numerica. In questo caso, l'utente non deve immettere alcun valore.  
-4. Digitare un valore nel campo Nome prodotto.
-    * Immettere un nome descrittivo per il prodotto. Il valore predefinito è il nome di ricerca, ma tale valore può essere modificato dall'utente.  
-5. Nel campo Gruppo di dimensioni prodotto fare clic sul pulsante a discesa per aprire la ricerca.
-    * Il gruppo di dimensioni prodotto determina quale delle 4 dimensioni possono essere utilizzate per creare varianti prodotto. In questo esempio viene utilizzato un gruppo con colore e dimensione.  
+1. Selezionare **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Numero prodotto**, digitare un valore. Il numero deve essere univoco. Per il campo **Numero prodotto** è possibile impostare una sequenza numerica. In questo caso, l'utente non deve immettere alcun valore.
+4. Digitare un valore nel campo **Nome prodotto**. Immettere un nome descrittivo per il prodotto. Il valore predefinito è il nome di ricerca, ma tale valore può essere modificato dall'utente.
+5. Nel campo **Gruppo di dimensioni prodotto** fare clic sul pulsante a discesa per aprire la ricerca. Il gruppo di dimensioni prodotto determina quale delle 4 dimensioni possono essere utilizzate per creare varianti prodotto. In questo esempio viene utilizzato un gruppo con colore e dimensione.
 6. Nell'elenco trovare e selezionare il record desiderato.
-7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * La tecnologia di configurazione predefinita è Variante predefinita. Tale impostazione verrà utilizzata per questo esempio.  
-8. Fare clic su OK.
+7. Nell'elenco fare clic sul collegamento nella riga selezionata. La **tecnologia di configurazione** predefinita è "Variante predefinita". Tale impostazione verrà utilizzata per questo esempio.
+8. Fare clic su **OK**.
 
 ## <a name="select-product-dimension-groups"></a>Selezionare gruppi di dimensione prodotto
-1. Nel campo Gruppo di colori fare clic sul pulsante a discesa per aprire la ricerca.
+1. Nel campo **Gruppo di colori** fare clic sul pulsante a discesa per aprire la ricerca.
 2. Trovare e selezionare il record desiderato nell'elenco.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Nel campo Gruppo di dimensioni fare clic sul pulsante a discesa per aprire la ricerca.
+4. Nel campo **Gruppo di dimensioni** fare clic sul pulsante a discesa per aprire la ricerca.
 5. Nell'elenco trovare e selezionare il record desiderato.
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
 ## <a name="add-dimension-groups"></a>Aggiungere gruppi di dimensioni
-1. Nel riquadro azioni fare clic su Prodotto.
-2. Fare clic su gruppi di dimensioni per aprire la finestra di dialogo a discesa.
-3. Nel campo Gruppo di dimensioni di immagazzinamento fare clic sul pulsante a discesa per aprire la ricerca.
-    * Le dimensioni di immagazzinamento consentono di controllare il modo in cui gli articoli vengono immagazzinati e prelevati dal magazzino. Ad esempio, una dimensione di immagazzinamento può includere il sito e il magazzino.  
+1. Nel **riquadro azioni**, fare clic su **Prodotto**.
+2. Fare clic su **Gruppi di dimensioni** per aprire la finestra di dialogo a discesa.
+3. Nel campo **Gruppo di dimensioni di immagazzinamento** fare clic sul pulsante a discesa per aprire la ricerca. Le dimensioni di immagazzinamento consentono di controllare il modo in cui gli articoli vengono immagazzinati e prelevati dal magazzino. Ad esempio, una dimensione di immagazzinamento può includere il sito e il magazzino.
 4. Nell'elenco trovare e selezionare il record desiderato.
 5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-6. Nel campo Gruppo di dimensioni di tracciabilità fare clic sul pulsante a discesa per aprire la ricerca.
-    * Il gruppo di dimensioni di tracciabilità determina quali dimensioni di tracciabilità è possibile aggiungere a un prodotto. Ad esempio, numero batch e numero di serie vengono utilizzati per tenere traccia degli articoli di magazzino.  
+6. Nel campo **Gruppo di dimensioni di tracciabilità** fare clic sul pulsante a discesa per aprire la ricerca. Il gruppo di dimensioni di tracciabilità determina quali dimensioni di tracciabilità è possibile aggiungere a un prodotto. Ad esempio, numero batch e numero di serie vengono utilizzati per tenere traccia degli articoli di magazzino.
 7. Nell'elenco trovare e selezionare il record desiderato.
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
-9. Fare clic su OK.
-10. Fare clic su Salva.
+9. Fare clic su **OK**.
+10. Fare clic su **Salva**.
 11. Chiudere la pagina.
 

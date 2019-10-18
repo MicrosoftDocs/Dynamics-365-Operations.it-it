@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518324"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026258"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuire e programmare questionari
 
@@ -83,7 +83,7 @@ I tipi di pianificazione sono necessari se si desidera programmare le sessioni d
 
 È possibile utilizzare i tipi di riferimento per immettere i criteri per gli intervistati che è possibile selezionare quando si programma un questionario. 
 
-Utilizzare la pagina **Tipi di riferimento** per impostare i tipi di riferimento per un questionario. Ogni tipo di riferimento corrisponde a una tabella in Microsoft Dynamics 365 for Finance and Operations. Quando si creano programmazioni questionari, è possibile specificare i singoli record della tabella o un intervallo di record a cui verrà associato il questionario. 
+Utilizzare la pagina **Tipi di riferimento** per impostare i tipi di riferimento per un questionario. Ogni tipo di riferimento corrisponde a una tabella in Microsoft Dynamics 365 Finance. Quando si creano programmazioni questionari, è possibile specificare i singoli record della tabella o un intervallo di record a cui verrà associato il questionario. 
 
 Ad esempio, se si seleziona la tabella Corsi, è possibile decidere il corso specifico a cui il questionario si riferirà. Se si imposta un riferimento per la tabella Corsi, verranno resi disponibili alcuni campi e pulsanti nel modulo **Corsi**.
 
