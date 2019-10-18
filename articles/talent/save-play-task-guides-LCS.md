@@ -17,51 +17,51 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1128a1d9b54935e44be76bf93549c0cae82e1d38
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e84f0c18cfb52de2c6c8c40af9a08a88c947e38c
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518365"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010570"
 ---
-# <a name="save-task-guides-to-lcs-and-replay-them"></a><span data-ttu-id="cb282-103">Salvare le guide attività in LCS e riprodurle nuovamente</span><span class="sxs-lookup"><span data-stu-id="cb282-103">Save task guides to LCS and replay them</span></span>
+# <a name="save-task-guides-to-lcs-and-replay-them"></a><span data-ttu-id="13f18-103">Salvare le guide attività in LCS e riprodurle nuovamente</span><span class="sxs-lookup"><span data-stu-id="13f18-103">Save task guides to LCS and replay them</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="cb282-104">**Dettagli ambiente**</span><span class="sxs-lookup"><span data-stu-id="cb282-104">**Environment details**</span></span> 
+<span data-ttu-id="13f18-104">**Dettagli ambiente**</span><span class="sxs-lookup"><span data-stu-id="13f18-104">**Environment details**</span></span> 
 
-<span data-ttu-id="cb282-105">Microsoft Dynamics 365 for Talent, distribuito tramite Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="cb282-105">Microsoft Dynamics 365 for Talent, which was deployed via Microsoft Dynamics Lifecycle Services (LCS)</span></span>
+<span data-ttu-id="13f18-105">Microsoft Dynamics 365 Talent, distribuito tramite Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="13f18-105">Microsoft Dynamics 365 Talent, which was deployed via Microsoft Dynamics Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="cb282-106">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="cb282-106">**Issue**</span></span>
+<span data-ttu-id="13f18-106">**Uscita**</span><span class="sxs-lookup"><span data-stu-id="13f18-106">**Issue**</span></span>
 
-<span data-ttu-id="cb282-107">Il cliente desidera salvare nuove registrazioni attività nel progetto LCS e quindi riprodurre le guide attività salvate.</span><span class="sxs-lookup"><span data-stu-id="cb282-107">The customer wants to save new task recordings to his or her LCS project, and then replay the saved task guides.</span></span>
+<span data-ttu-id="13f18-107">Il cliente desidera salvare nuove registrazioni attività nel progetto LCS e quindi riprodurre le guide attività salvate.</span><span class="sxs-lookup"><span data-stu-id="13f18-107">The customer wants to save new task recordings to his or her LCS project, and then replay the saved task guides.</span></span>
 
-<span data-ttu-id="cb282-108">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="cb282-108">**Resolution**</span></span>
+<span data-ttu-id="13f18-108">**Risoluzione**</span><span class="sxs-lookup"><span data-stu-id="13f18-108">**Resolution**</span></span>
 
-<span data-ttu-id="cb282-109">Seguire la procedura seguente per salvare una registrazione attività in LCS.</span><span class="sxs-lookup"><span data-stu-id="cb282-109">Follow these steps to save a task recording to LCS.</span></span>
+<span data-ttu-id="13f18-109">Seguire la procedura seguente per salvare una registrazione attività in LCS.</span><span class="sxs-lookup"><span data-stu-id="13f18-109">Follow these steps to save a task recording to LCS.</span></span>
 
-1. <span data-ttu-id="cb282-110">Accedere a LCS e selezionare il progetto.</span><span class="sxs-lookup"><span data-stu-id="cb282-110">Sign in to LCS, and select the project.</span></span>
-2. <span data-ttu-id="cb282-111">Selezionare il riquadro **Modellatore di processi aziendali**.</span><span class="sxs-lookup"><span data-stu-id="cb282-111">Select the **Business process modeler** tile.</span></span>
-3. <span data-ttu-id="cb282-112">Visualizzare la pagina nell'"Esperienza BPM aggiornata".</span><span class="sxs-lookup"><span data-stu-id="cb282-112">View the page in the "Updated BPM experience."</span></span>
-4. <span data-ttu-id="cb282-113">Selezionare una libreria, quindi **Copia**.</span><span class="sxs-lookup"><span data-stu-id="cb282-113">Select a library, and then select **Copy**.</span></span>
-5. <span data-ttu-id="cb282-114">Immettere un nome per il modello Modellatore di processi aziendali (BPM).</span><span class="sxs-lookup"><span data-stu-id="cb282-114">Enter a name for the Business process modeler (BPM) model.</span></span>
-6. <span data-ttu-id="cb282-115">Accedere a Talent da LCS.</span><span class="sxs-lookup"><span data-stu-id="cb282-115">Sign in to Talent from LCS.</span></span>
-7. <span data-ttu-id="cb282-116">Nel campo **Cerca**, immettere **guida**.</span><span class="sxs-lookup"><span data-stu-id="cb282-116">In the **Search** field, enter **help**.</span></span> <span data-ttu-id="cb282-117">Viene aperta la Guida di Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="cb282-117">Lifecycle Services Help is opened.</span></span>
-8. <span data-ttu-id="cb282-118">Selezionare il pulsante **Aggiorna** per la configurazione della Guida di Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="cb282-118">Select the **Refresh** button for Lifecycle Services Help configuration.</span></span>
+1. <span data-ttu-id="13f18-110">Accedere a LCS e selezionare il progetto.</span><span class="sxs-lookup"><span data-stu-id="13f18-110">Sign in to LCS, and select the project.</span></span>
+2. <span data-ttu-id="13f18-111">Selezionare il riquadro **Modellatore di processi aziendali**.</span><span class="sxs-lookup"><span data-stu-id="13f18-111">Select the **Business process modeler** tile.</span></span>
+3. <span data-ttu-id="13f18-112">Visualizzare la pagina nell'"Esperienza BPM aggiornata".</span><span class="sxs-lookup"><span data-stu-id="13f18-112">View the page in the "Updated BPM experience."</span></span>
+4. <span data-ttu-id="13f18-113">Selezionare una libreria, quindi **Copia**.</span><span class="sxs-lookup"><span data-stu-id="13f18-113">Select a library, and then select **Copy**.</span></span>
+5. <span data-ttu-id="13f18-114">Immettere un nome per il modello Modellatore di processi aziendali (BPM).</span><span class="sxs-lookup"><span data-stu-id="13f18-114">Enter a name for the Business process modeler (BPM) model.</span></span>
+6. <span data-ttu-id="13f18-115">Accedere a Talent da LCS.</span><span class="sxs-lookup"><span data-stu-id="13f18-115">Sign in to Talent from LCS.</span></span>
+7. <span data-ttu-id="13f18-116">Nel campo **Cerca**, immettere **guida**.</span><span class="sxs-lookup"><span data-stu-id="13f18-116">In the **Search** field, enter **help**.</span></span> <span data-ttu-id="13f18-117">Viene aperta la Guida di Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="13f18-117">Lifecycle Services Help is opened.</span></span>
+8. <span data-ttu-id="13f18-118">Selezionare il pulsante **Aggiorna** per la configurazione della Guida di Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="13f18-118">Select the **Refresh** button for Lifecycle Services Help configuration.</span></span>
 
-    <span data-ttu-id="cb282-119">La nuova libreria BPM viene visualizzata e dovrebbe essere attiva.</span><span class="sxs-lookup"><span data-stu-id="cb282-119">Your new BPM library should appear, and it should be active.</span></span>
+    <span data-ttu-id="13f18-119">La nuova libreria BPM viene visualizzata e dovrebbe essere attiva.</span><span class="sxs-lookup"><span data-stu-id="13f18-119">Your new BPM library should appear, and it should be active.</span></span>
 
-9. <span data-ttu-id="cb282-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="cb282-120">Close the page.</span></span>
-10. <span data-ttu-id="cb282-121">Creare una registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="cb282-121">Create a task recording.</span></span>
-11. <span data-ttu-id="cb282-122">Al termine, selezionare **Salvare in Lifecycle Services**.</span><span class="sxs-lookup"><span data-stu-id="cb282-122">When you've finished, select **Save to Lifecycle Services**.</span></span>
+9. <span data-ttu-id="13f18-120">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="13f18-120">Close the page.</span></span>
+10. <span data-ttu-id="13f18-121">Creare una registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="13f18-121">Create a task recording.</span></span>
+11. <span data-ttu-id="13f18-122">Al termine, selezionare **Salvare in Lifecycle Services**.</span><span class="sxs-lookup"><span data-stu-id="13f18-122">When you've finished, select **Save to Lifecycle Services**.</span></span>
 
     ![Salvare in Lifecycle Services](media/task-guides.png)
 
-12. <span data-ttu-id="cb282-124">Selezionare il nodo e la libreria BPM in cui salvare la registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="cb282-124">Select the BPM library and node to save the task recording to.</span></span>
+12. <span data-ttu-id="13f18-124">Selezionare il nodo e la libreria BPM in cui salvare la registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="13f18-124">Select the BPM library and node to save the task recording to.</span></span>
 
-<span data-ttu-id="cb282-125">Seguire questi passaggi per riprodurre una guida attività da LCS.</span><span class="sxs-lookup"><span data-stu-id="cb282-125">Follow these steps to replay a task guide from LCS.</span></span>
+<span data-ttu-id="13f18-125">Seguire questi passaggi per riprodurre una guida attività da LCS.</span><span class="sxs-lookup"><span data-stu-id="13f18-125">Follow these steps to replay a task guide from LCS.</span></span>
 
-1. <span data-ttu-id="cb282-126">Avviare Registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="cb282-126">Start Task recorder.</span></span>
-2. <span data-ttu-id="cb282-127">Selezionare **Apri da LCS**.</span><span class="sxs-lookup"><span data-stu-id="cb282-127">Select **Open from LCS**.</span></span>
-3. <span data-ttu-id="cb282-128">Selezionare la libreria e il nodo BPM con la guida attività salvata.</span><span class="sxs-lookup"><span data-stu-id="cb282-128">Select the library and the BPM node that have the saved task guide.</span></span>
-4. <span data-ttu-id="cb282-129">Aprire la guida attività.</span><span class="sxs-lookup"><span data-stu-id="cb282-129">Open the task guide.</span></span>
+1. <span data-ttu-id="13f18-126">Avviare Registrazione attività.</span><span class="sxs-lookup"><span data-stu-id="13f18-126">Start Task recorder.</span></span>
+2. <span data-ttu-id="13f18-127">Selezionare **Apri da LCS**.</span><span class="sxs-lookup"><span data-stu-id="13f18-127">Select **Open from LCS**.</span></span>
+3. <span data-ttu-id="13f18-128">Selezionare la libreria e il nodo BPM con la guida attività salvata.</span><span class="sxs-lookup"><span data-stu-id="13f18-128">Select the library and the BPM node that have the saved task guide.</span></span>
+4. <span data-ttu-id="13f18-129">Aprire la guida attività.</span><span class="sxs-lookup"><span data-stu-id="13f18-129">Open the task guide.</span></span>

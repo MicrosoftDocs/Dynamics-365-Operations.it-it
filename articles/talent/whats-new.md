@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: tfehr
 manager: AnnBe
 ms.date: 02/14/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55fcec49feb27c1dd5c96b48a95e879d75e8d977
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1640cb5ee0ec2fe3e8b987493cf2d2565cdb0f9d
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518381"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2183016"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a><span data-ttu-id="65342-103">Novità o modifiche in Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="65342-103">What's new or changed in Dynamics 365 for Talent</span></span> 
+# <a name="whats-new-or-changed-in-dynamics-365-talent"></a><span data-ttu-id="51d63-103">Novità o modifiche in Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="51d63-103">What's new or changed in Dynamics 365 Talent</span></span> 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="65342-104">In questa pagina vengono forniti i dettagli su come trovare informazioni sulle ultime versioni di Microsoft Dynamics Talent HR Core.</span><span class="sxs-lookup"><span data-stu-id="65342-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
+<span data-ttu-id="51d63-104">In questa pagina vengono forniti i dettagli su come trovare informazioni sulle ultime versioni di Microsoft Dynamics Talent HR Core.</span><span class="sxs-lookup"><span data-stu-id="51d63-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
 
-<span data-ttu-id="65342-105">Ogni settimana sono presenti nuove versioni per Talent.</span><span class="sxs-lookup"><span data-stu-id="65342-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="65342-106">Queste versioni vengono elencate nel sommario del sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="65342-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="65342-107">È possibile analizzare il sommario o utilizzare il controllo Filtro sul sommario per individuare gli ultimi argomenti cercati.</span><span class="sxs-lookup"><span data-stu-id="65342-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="65342-108">I titoli degli argomenti inizieranno con "Novità o modifiche in Dynamics 365 for Talent...".</span><span class="sxs-lookup"><span data-stu-id="65342-108">The topic titles will begin with "What's new or changed in Dynamics 365 for Talent…”.</span></span>
+<span data-ttu-id="51d63-105">Ogni settimana sono presenti nuove versioni per Talent.</span><span class="sxs-lookup"><span data-stu-id="51d63-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="51d63-106">Queste versioni vengono elencate nel sommario del sito docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="51d63-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="51d63-107">È possibile analizzare il sommario o utilizzare il controllo Filtro sul sommario per individuare gli ultimi argomenti cercati.</span><span class="sxs-lookup"><span data-stu-id="51d63-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="51d63-108">I titoli degli argomenti inizieranno con "Novità o modifiche in Dynamics 365 Talent...".</span><span class="sxs-lookup"><span data-stu-id="51d63-108">The topic titles will begin with "What's new or changed in Dynamics 365 Talent…”.</span></span>
 
-<span data-ttu-id="65342-109">Il sommario continuerà a essere aggiornato ogni settimana, si consiglia quindi di tornare di frequente per trovare tutte le nuove funzioni e modifiche delle ultime versioni di Talent.</span><span class="sxs-lookup"><span data-stu-id="65342-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
+<span data-ttu-id="51d63-109">Il sommario continuerà a essere aggiornato ogni settimana, si consiglia quindi di tornare di frequente per trovare tutte le nuove funzioni e modifiche delle ultime versioni di Talent.</span><span class="sxs-lookup"><span data-stu-id="51d63-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
 
-[!include [release notes](../fin-and-ops/includes/release-notes.md)]
+[!include [release notes](../fin-ops-core/fin-ops/includes/release-notes.md)]

@@ -1,0 +1,46 @@
+---
+title: Contenuto di Power BI Panoramica responsabile finanziario
+description: Questo argomento descrive il contenuto Panoramica responsabile finanziario di Microsoft Power BI.
+author: kweekley
+manager: AnnBe
+ms.date: 10/02/2010
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application user, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 513d645c5f419dd9f0b938b3354b00d7e221aa2d
+ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2536895"
+---
+# <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="e8ba7-103">Contenuto di Power BI Panoramica responsabile finanziario</span><span class="sxs-lookup"><span data-stu-id="e8ba7-103">CFO overview Power BI content</span></span>
+
+[!include [banner](../includes/banner.md)] 
+
+<span data-ttu-id="e8ba7-104">Questo argomento descrive il contenuto **Panoramica responsabile finanziario** di Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> <span data-ttu-id="e8ba7-105">Il contenuto Power BI si applica agli utenti di Microsoft Dynamics 365 for Finance and Operations version 7.2.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-105">This Power BI content applies to those using Microsoft Dynamics 365 for Finance and Operations version 7.2.</span></span> <span data-ttu-id="e8ba7-106">Se si utilizza la versione 7.3 o versioni successivi, vedere [Informazioni finanziarie dettagliate](financial-insights.md).</span><span class="sxs-lookup"><span data-stu-id="e8ba7-106">If you are using version 7.3 or later, please refer to [Financial Insights](financial-insights.md).</span></span>
+
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="e8ba7-107">Accesso al contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="e8ba7-107">Accessing the Power BI content</span></span>
+
+<span data-ttu-id="e8ba7-108">I report dal contenuto di Power BI **Panoramica responsabile finanziario** vengono visualizzati nell'area di lavoro **Panoramica responsabile finanziario**.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-108">Reports from the **CFO overview** Power BI content are shown in the **CFO overview** workspace.</span></span>
+
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="e8ba7-109">Report inclusi nel contenuto Power BI</span><span class="sxs-lookup"><span data-stu-id="e8ba7-109">Reports that are included in the Power BI content</span></span>
+<span data-ttu-id="e8ba7-110">Il contenuto di Power BI **Panoramica responsabile finanziario** è una combinazione di report di altri contenuti di Power BI, oltre ad alcuni saldi budget effettivi della contabilità generale.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-110">The **CFO overview** Power BI content is a composite of reports from various other Power BI content, together with some actual and budget balances from General ledger.</span></span> <span data-ttu-id="e8ba7-111">Di conseguenza, il contenuto di Power BI offre al responsabile finanziario una panoramica dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-111">Therefore, this Power BI content gives the chief financial officer (CFO) an overview of the organization.</span></span>
+
+<span data-ttu-id="e8ba7-112">Nella seguente tabella viene visualizzato il contenuto di Power BI da cui vengono copiati i report e i report disponibili nell'area di lavoro **Panoramica responsabile finanziario**.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-112">The following table shows the Power BI content that the reports are copied from and the reports that are provided in the **CFO overview** workspace.</span></span> <span data-ttu-id="e8ba7-113">Vengono forniti i collegamenti alla documentazione dei vari contenuti di Power BI.</span><span class="sxs-lookup"><span data-stu-id="e8ba7-113">Links are provided to the documentation for the various Power BI content.</span></span>
+
+| <span data-ttu-id="e8ba7-114">Il contenuto Power BI è incluso</span><span class="sxs-lookup"><span data-stu-id="e8ba7-114">Power BI content that is included</span></span> | <span data-ttu-id="e8ba7-115">Subalterni</span><span class="sxs-lookup"><span data-stu-id="e8ba7-115">Reports</span></span> |
+|-----------------------------------|---------|
+| [<span data-ttu-id="e8ba7-116">Prestazioni finanziarie</span><span class="sxs-lookup"><span data-stu-id="e8ba7-116">Financial performance</span></span>](financial-performance-power-bi-content-pack.md) | <ul><li><span data-ttu-id="e8ba7-117">Ricavi</span><span class="sxs-lookup"><span data-stu-id="e8ba7-117">Revenue</span></span></li><li><span data-ttu-id="e8ba7-118">Spese</span><span class="sxs-lookup"><span data-stu-id="e8ba7-118">Expenses</span></span></li><li><span data-ttu-id="e8ba7-119">Reddito netto</span><span class="sxs-lookup"><span data-stu-id="e8ba7-119">Net income</span></span></li><li><span data-ttu-id="e8ba7-120">Margine lordo</span><span class="sxs-lookup"><span data-stu-id="e8ba7-120">Gross margin</span></span></li><li><span data-ttu-id="e8ba7-121">Indice corrente</span><span class="sxs-lookup"><span data-stu-id="e8ba7-121">Current ratio</span></span></li><li><span data-ttu-id="e8ba7-122">Totale contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="e8ba7-122">Total accounts payable</span></span></li><li><span data-ttu-id="e8ba7-123">Totale contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="e8ba7-123">Total accounts receivable</span></span></li><li><span data-ttu-id="e8ba7-124">Spese per categoria di conti</span><span class="sxs-lookup"><span data-stu-id="e8ba7-124">Expenses by account category</span></span></li><li><span data-ttu-id="e8ba7-125">Spese - Effettivi rispetto al budget</span><span class="sxs-lookup"><span data-stu-id="e8ba7-125">Expenses - Actual vs budget</span></span></li><li><span data-ttu-id="e8ba7-126">Ricavi - Effettivi rispetto al budget</span><span class="sxs-lookup"><span data-stu-id="e8ba7-126">Revenue - Actual vs budget</span></span></li></ul> |
+| [<span data-ttu-id="e8ba7-127">Panoramica situazione di cassa</span><span class="sxs-lookup"><span data-stu-id="e8ba7-127">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li><span data-ttu-id="e8ba7-128">Previsione di cassa</span><span class="sxs-lookup"><span data-stu-id="e8ba7-128">Cash flow forecast</span></span></li><li><span data-ttu-id="e8ba7-129">Saldo conto bancario</span><span class="sxs-lookup"><span data-stu-id="e8ba7-129">Bank account balance</span></span></li><li><span data-ttu-id="e8ba7-130">Saldo per valuta</span><span class="sxs-lookup"><span data-stu-id="e8ba7-130">Balance by currency</span></span></li></ul> |
+| [<span data-ttu-id="e8ba7-131">Vendita e redditività</span><span class="sxs-lookup"><span data-stu-id="e8ba7-131">Sales and profitability</span></span>](sales-profitability-performance-content-pack.md) | <ul><li><span data-ttu-id="e8ba7-132">Ricavi per regione</span><span class="sxs-lookup"><span data-stu-id="e8ba7-132">Revenue by region</span></span></li><li><span data-ttu-id="e8ba7-133">Primi 10 clienti in base ai ricavi</span><span class="sxs-lookup"><span data-stu-id="e8ba7-133">Top 10 customers by revenue</span></span></li><li><span data-ttu-id="e8ba7-134">Primi 10 prodotti in base ai ricavi</span><span class="sxs-lookup"><span data-stu-id="e8ba7-134">Top 10 products by revenue</span></span></li></ul> |
+| [<span data-ttu-id="e8ba7-135">Gestione crediti e riscossioni</span><span class="sxs-lookup"><span data-stu-id="e8ba7-135">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="e8ba7-136">Attività clienti scadute</span><span class="sxs-lookup"><span data-stu-id="e8ba7-136">Customer past due</span></span></li><li><span data-ttu-id="e8ba7-137">Clienti con limite di credito superato</span><span class="sxs-lookup"><span data-stu-id="e8ba7-137">Customers over credit limit</span></span></li><li><span data-ttu-id="e8ba7-138">Saldi con aging</span><span class="sxs-lookup"><span data-stu-id="e8ba7-138">Aged balances</span></span></li></ul> |
+| [<span data-ttu-id="e8ba7-139">Analisi delle spese di acquisto</span><span class="sxs-lookup"><span data-stu-id="e8ba7-139">Purchase spend analysis</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li><span data-ttu-id="e8ba7-140">Acquisti per mese/giorno</span><span class="sxs-lookup"><span data-stu-id="e8ba7-140">Purchases by month/day</span></span></li><li><span data-ttu-id="e8ba7-141">Primi 10 fornitori per acquisti</span><span class="sxs-lookup"><span data-stu-id="e8ba7-141">Top 10 vendors by purchases</span></span></li><li><span data-ttu-id="e8ba7-142">Primi 10 prodotti per acquisti</span><span class="sxs-lookup"><span data-stu-id="e8ba7-142">Top 10 products by purchases</span></span></li></ul> |

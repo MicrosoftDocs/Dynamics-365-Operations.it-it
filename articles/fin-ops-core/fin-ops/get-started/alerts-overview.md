@@ -1,0 +1,95 @@
+---
+title: Panoramica degli avvisi
+description: In questo argomento vengono fornite informazioni generali sugli avvisi. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.
+author: tjvass
+manager: AnnBe
+ms.date: 09/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EventCreateRule
+audience: Application user
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2018-3-30
+ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: a42e836c0b72798de3375c169e45b121debd55ec
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2191272"
+---
+# <a name="alerts-overview"></a><span data-ttu-id="b047e-104">Panoramica degli avvisi</span><span class="sxs-lookup"><span data-stu-id="b047e-104">Alerts overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+## <a name="about-alerts"></a><span data-ttu-id="b047e-105">Informazioni sugli avvisi</span><span class="sxs-lookup"><span data-stu-id="b047e-105">About alerts</span></span>
+<span data-ttu-id="b047e-106">Gli avvisi formano un sistema di notifica per gli eventi critici nel sistema.</span><span class="sxs-lookup"><span data-stu-id="b047e-106">Alerts form a notification system for critical events in the system.</span></span> <span data-ttu-id="b047e-107">È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.</span><span class="sxs-lookup"><span data-stu-id="b047e-107">You can use alerts to stay informed about events that you want to track during the workday.</span></span> <span data-ttu-id="b047e-108">È possibile creare facilmente una serie di regole di avviso allo scopo di ricevere avvisi relativi a consegne scadute, ordini eliminati, prezzi modificati o altri eventi per i quali è necessario intraprendere un'azione.</span><span class="sxs-lookup"><span data-stu-id="b047e-108">You can easily create your own set of alert rules so that you're alerted about deliveries that are overdue, orders that are deleted, prices that change, or other events that you must respond to.</span></span>
+
+<span data-ttu-id="b047e-109">Nella pianificazione delle risorse aziendali (ERP, Enterprise Resource Planning), esistono diversi scenari tipici in cui la funzionalità Avvisi può essere utilizzata.</span><span class="sxs-lookup"><span data-stu-id="b047e-109">In enterprise resource planning (ERP), there are several typical scenarios where the alerts feature can be used.</span></span> <span data-ttu-id="b047e-110">Di seguito sono riportati alcuni esempi.</span><span class="sxs-lookup"><span data-stu-id="b047e-110">Here are some examples.</span></span>
+
+### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a><span data-ttu-id="b047e-111">Scenario 1: creare una regola di avviso per nuovi ordini cliente</span><span class="sxs-lookup"><span data-stu-id="b047e-111">Scenario 1: Create an alert rule for new sales orders</span></span>
+
+1. <span data-ttu-id="b047e-112">Aprire la pagina **Tutti gli ordini cliente**.</span><span class="sxs-lookup"><span data-stu-id="b047e-112">Open the **All sales orders** page.</span></span>
+2. <span data-ttu-id="b047e-113">Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea avviso personalizzato**.</span><span class="sxs-lookup"><span data-stu-id="b047e-113">On the Action Pane, on the **Options** tab, in the **Share** group, select **Create a custom alert**.</span></span>
+3. <span data-ttu-id="b047e-114">Nella finestra di dialogo **Crea regola di avviso**, nella Scheda dettaglio **Invia avviso quando**, nel campo **Evento**, selezionare **Record creato**.</span><span class="sxs-lookup"><span data-stu-id="b047e-114">In the **Create alert rule** dialog box, on the **Alert me when** FastTab, in the **Event** field, select **Record has been created**.</span></span>
+
+### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a><span data-ttu-id="b047e-115">Scenario 2: creare una regola di avviso per il posticipo di una data di consegna</span><span class="sxs-lookup"><span data-stu-id="b047e-115">Scenario 2: Create an alert rule for postponement of a delivery date</span></span>
+
+1. <span data-ttu-id="b047e-116">Aprire la pagina **Tutti gli ordini fornitore**.</span><span class="sxs-lookup"><span data-stu-id="b047e-116">Open the **All purchase orders** page.</span></span>
+2. <span data-ttu-id="b047e-117">Selezionare un ID di ordine fornitore per accedere ai dettagli dell'ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="b047e-117">Select a purchase order ID to access the purchase order details.</span></span>
+3. <span data-ttu-id="b047e-118">Espandere la Scheda dettaglio **Intestazione ordine fornitore**.</span><span class="sxs-lookup"><span data-stu-id="b047e-118">Expand the **Purchase order header** FastTab.</span></span>
+4. <span data-ttu-id="b047e-119">Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea avviso personalizzato**.</span><span class="sxs-lookup"><span data-stu-id="b047e-119">On the Action Pane, on the **Options** tab, in the **Share** group, select **Create a custom alert**.</span></span>
+5. <span data-ttu-id="b047e-120">Nella finestra di dialogo **Crea regola di avviso**, nella Scheda dettaglio **Invia avviso quando**, nel campo **Campo**, selezionare **Data di consegna**.</span><span class="sxs-lookup"><span data-stu-id="b047e-120">In the **Create alert rule** dialog box, on the **Alert me when** FastTab, in the **Field** field, select **Delivery date**.</span></span>
+6. <span data-ttu-id="b047e-121">Nel campo **Evento**, selezionare **è stato posticipato**.</span><span class="sxs-lookup"><span data-stu-id="b047e-121">In the **Event** field, select **has been postponed**.</span></span>
+    
+<span data-ttu-id="b047e-122">Dopo avere chiuso la finestra di dialogo **Crea regola di avviso**, la regola viene visualizzata nella pagina **Gestisci regole di avviso**.</span><span class="sxs-lookup"><span data-stu-id="b047e-122">After you close the **Create alert rule** dialog box, your rule appears on the **Manage alert rules** page.</span></span> <span data-ttu-id="b047e-123">È possibile utilizzare la pagina **Gestisci regole di avviso** per aggiornare le regole di avviso esistenti.</span><span class="sxs-lookup"><span data-stu-id="b047e-123">You can use the **Manage alert rules** page to update your existing alert rules.</span></span> <span data-ttu-id="b047e-124">Ad esempio, è possibile modificare i trigger di eventi, aggiornare le notifiche di evento e le date di scadenza.</span><span class="sxs-lookup"><span data-stu-id="b047e-124">For example, you can modify event triggers, update event notifications, and update expiration dates.</span></span> <span data-ttu-id="b047e-125">Per aprire la pagina **Gestisci regole di avviso**, utilizzare il pulsante **Invia avviso** nella scheda **Opzioni** del riquadro azioni.</span><span class="sxs-lookup"><span data-stu-id="b047e-125">To open the **Manage alert rules** page, use the **Alert me** button on the **Options** tab of the Action Pane.</span></span>
+
+## <a name="what-occurs-when-an-alert-rule-is-created"></a><span data-ttu-id="b047e-126">Risultato della creazione di una regola di avviso</span><span class="sxs-lookup"><span data-stu-id="b047e-126">What occurs when an alert rule is created?</span></span>
+
+<span data-ttu-id="b047e-127">Quando si creano regole di avviso, è possibile associare un evento predefinito a un campo specifico.</span><span class="sxs-lookup"><span data-stu-id="b047e-127">When you create alert rules, you can associate a predefined event with a specific field.</span></span> <span data-ttu-id="b047e-128">Ad esempio, l'arrivo della data specificata nel campo o la modifica dei contenuti del campo.</span><span class="sxs-lookup"><span data-stu-id="b047e-128">For example, the date that is specified in the field arrives, or the contents of the field change.</span></span> <span data-ttu-id="b047e-129">In alternativa, è possibile associare un evento ai record in una pagina specifica.</span><span class="sxs-lookup"><span data-stu-id="b047e-129">Alternatively, you can associate an event with the records on a specific page.</span></span> <span data-ttu-id="b047e-130">Ad esempio, viene creato un record oppure viene eliminato.</span><span class="sxs-lookup"><span data-stu-id="b047e-130">For example, a record is created, or a record is deleted.</span></span>
+
+<span data-ttu-id="b047e-131">Quando si verifica l'evento selezionato per il campo o per un record nella pagina, si riceve un avviso.</span><span class="sxs-lookup"><span data-stu-id="b047e-131">When the selected event occurs for the field or for a record on the page, an alert is sent to you.</span></span> <span data-ttu-id="b047e-132">Ad esempio, si crea una regola dove si associa il campo **Data di consegna** in una specifica riga di ordine fornitore all'evento **scaduto dal periodo di tempo indicato**.</span><span class="sxs-lookup"><span data-stu-id="b047e-132">For example, you create a rule where you associate the **Delivery date** field on a specific purchase order line with the **was due this amount of time ago** event.</span></span> <span data-ttu-id="b047e-133">Impostare l'intervallo di tempo a cinque giorni.</span><span class="sxs-lookup"><span data-stu-id="b047e-133">You set the time frame to five days.</span></span> <span data-ttu-id="b047e-134">In questo caso, un avviso viene inviato cinque giorni dopo la data di consegna di quella riga ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="b047e-134">In this case, an alert is sent five days after the delivery date of that purchase order line.</span></span>
+
+<span data-ttu-id="b047e-135">Inoltre, è possibile ottimizzare le regole di avviso impostando le condizioni.</span><span class="sxs-lookup"><span data-stu-id="b047e-135">Additionally, you can refine alert rules by setting conditions.</span></span> <span data-ttu-id="b047e-136">Ad esempio, è possibile ricevere un avviso sui nuovi ordini fornitore creati per i conti fornitore specifici.</span><span class="sxs-lookup"><span data-stu-id="b047e-136">For example, you can be alerted about new purchase orders that are created for specific vendor accounts.</span></span>
+
+## <a name="preparing-for-an-alert"></a><span data-ttu-id="b047e-137">Preparazione per un avviso</span><span class="sxs-lookup"><span data-stu-id="b047e-137">Preparing for an alert</span></span>
+
+<span data-ttu-id="b047e-138">Prima di impostare una regola di avviso, è necessario decidere quando o in quali situazioni si desidera ricevere avvisi.</span><span class="sxs-lookup"><span data-stu-id="b047e-138">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="b047e-139">Dopo avere individuato l'evento per il quale si desidera ricevere una notifica, trovare la pagina in cui vengono visualizzati i dati che causano l'evento.</span><span class="sxs-lookup"><span data-stu-id="b047e-139">When you know which event you want to be notified about, find the page where the data that causes that event appears.</span></span> <span data-ttu-id="b047e-140">L'evento può essere una data prossima o una specifica modifica che si verificherà.</span><span class="sxs-lookup"><span data-stu-id="b047e-140">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="b047e-141">Di conseguenza, è necessario individuare la pagina in cui è specificata la data o dove viene visualizzato il campo che cambia o il nuovo record creato.</span><span class="sxs-lookup"><span data-stu-id="b047e-141">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="b047e-142">Una volta ottenute queste informazioni, sarà possibile creare la regola di avviso.</span><span class="sxs-lookup"><span data-stu-id="b047e-142">After you have this information, you can create the alert rule.</span></span>
+
+## <a name="components-of-an-alert-rule"></a><span data-ttu-id="b047e-143">Componenti di una regola di avviso</span><span class="sxs-lookup"><span data-stu-id="b047e-143">Components of an alert rule</span></span>
+
+<span data-ttu-id="b047e-144">Una regola di avviso include cinque componenti:</span><span class="sxs-lookup"><span data-stu-id="b047e-144">An alert rule has five components:</span></span>
+
+- <span data-ttu-id="b047e-145">**Evento** - L'evento che attiva una regola di avviso può essere l'arrivo di una data o il verificarsi di una modifica specifica.</span><span class="sxs-lookup"><span data-stu-id="b047e-145">**Event** – The event that triggers an alert rule can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="b047e-146">Gli eventi vengono definiti nella Scheda dettaglio **Invia avviso tramite posta elettronica in caso di modifiche allo stato del processo** della finestra di dialogo **Crea regola di avviso**.</span><span class="sxs-lookup"><span data-stu-id="b047e-146">You define events on the **Send email alerts for job status changes** FastTab of the **Create alert rule** dialog box.</span></span>
+- <span data-ttu-id="b047e-147">**Condizione** - Nella Scheda dettaglio **Invia avviso per** della finestra di dialogo **Crea regola di avviso** è possibile selezionare l'ambito della condizione, per controllare quando si viene avvisati del verificarsi di eventi.</span><span class="sxs-lookup"><span data-stu-id="b047e-147">**Condition** – On the **Alert me for** FastTab of the **Create alert rule** dialog box, you can select the scope of the condition, to control when you're alerted about events.</span></span> <span data-ttu-id="b047e-148">È possibile applicare la regola solo al record corrente o a tutti i record visibili nella pagina.</span><span class="sxs-lookup"><span data-stu-id="b047e-148">You can apply the rule either to the current record only or to all visible records on the page.</span></span> <span data-ttu-id="b047e-149">Se la regola vale per tutte le persone giuridiche, è possibile impostare l'opzione **A livello di organizzazione** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="b047e-149">If the rule applies across legal entities, you can set the **Organization-wide** option to **Yes**.</span></span>
+- <span data-ttu-id="b047e-150">**Scadenza della regola** - Nella Scheda dettaglio **Invia avviso fino a** della finestra di dialogo **Crea regola di avviso** è possibile specificare per quanto tempo deve essere attiva la regola di avviso.</span><span class="sxs-lookup"><span data-stu-id="b047e-150">**Expiry of rule** – On the **Alert me until** FastTab of the **Create alert rule** dialog box, you can specify how long the alert rule should be active.</span></span>
+- <span data-ttu-id="b047e-151">**Contenuti** - Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea regola di avviso** è possibile specificare l'oggetto e il testo del messaggio utilizzati nei messaggi di avviso.</span><span class="sxs-lookup"><span data-stu-id="b047e-151">**Contents** – On the **Alert me with** FastTab of the **Create alert rule** dialog box, you can specify the subject text and message text that the alert messages should use.</span></span>
+- <span data-ttu-id="b047e-152">**Utente** - Nella Scheda dettaglio **Destinazione avviso** della finestra di dialogo **Crea regola di avviso** è possibile specificare l'utente destinatario dei messaggi di avviso.</span><span class="sxs-lookup"><span data-stu-id="b047e-152">**User** – On the **Alert who** FastTab of the **Create alert rule** dialog box, you can specify which user should receive the alert messages.</span></span> <span data-ttu-id="b047e-153">Per impostazione predefinita, è selezionato il proprio ID utente.</span><span class="sxs-lookup"><span data-stu-id="b047e-153">By default, your user ID is selected.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b047e-154">Questa opzione è limitata agli amministratori dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="b047e-154">This option is restricted to organization administrators.</span></span>
+
+## <a name="email-notifications-from-alerts"></a><span data-ttu-id="b047e-155">Notifiche e-mail da avvisi</span><span class="sxs-lookup"><span data-stu-id="b047e-155">Email notifications from alerts</span></span>
+
+<span data-ttu-id="b047e-156">Le notifiche e-mail da avvisi non sono ancora attivate.</span><span class="sxs-lookup"><span data-stu-id="b047e-156">Email notifications from alerts are not yet enabled.</span></span> <span data-ttu-id="b047e-157">Questa funzionalità verrà attivata in un aggiornamento futuro.</span><span class="sxs-lookup"><span data-stu-id="b047e-157">This will be enabled in a future update.</span></span>
+
+## <a name="videos"></a><span data-ttu-id="b047e-158">Video</span><span class="sxs-lookup"><span data-stu-id="b047e-158">Videos</span></span>
+
+### <a name="how-to-use-alerts-to-monitor-filtered-data"></a><span data-ttu-id="b047e-159">Come utilizzare gli avvisi per monitorare i dati filtrati</span><span class="sxs-lookup"><span data-stu-id="b047e-159">How to use alerts to monitor filtered data</span></span>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3DWZ3]
+
+<span data-ttu-id="b047e-160">Il video [Come utilizzare gli avvisi per monitorare i dati filtrati](https://youtu.be/ZYKMcv6kl9s) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.</span><span class="sxs-lookup"><span data-stu-id="b047e-160">The [How to use alerts to monitor filtered data](https://youtu.be/ZYKMcv6kl9s) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
+
+### <a name="alert-rule-options"></a><span data-ttu-id="b047e-161">Opzioni per le regole di avviso</span><span class="sxs-lookup"><span data-stu-id="b047e-161">Alert rule options</span></span>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E4PV]
+
+<span data-ttu-id="b047e-162">Il video [Opzioni per le regole di avviso](https://youtu.be/cpzimwOjicM) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.</span><span class="sxs-lookup"><span data-stu-id="b047e-162">The [Alert rule options](https://youtu.be/cpzimwOjicM) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
+
+
