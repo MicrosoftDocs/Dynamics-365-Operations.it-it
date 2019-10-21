@@ -1,6 +1,6 @@
 ---
 title: Gestione di Orario e presenze in Retail
-description: In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Microsoft Dynamics 365 for Retail.
+description: In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567955"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024985"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Gestione di Orario e presenze in Retail
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Microsoft Dynamics 365 for Retail.
+In questo argomento vengono descritti gli scenari supportati per la gestione di orario e presenze in Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Gestire l'impostazione e la programmazione dei lavoratori
 
@@ -125,7 +125,7 @@ Nel POS:
 
 ## <a name="process-and-manage-time-registrations"></a>Elaborare e gestire le registrazioni ore
 
-Un utente di Dynamics 365 for Retail segue il flusso di lavoro per calcolare, approvare e trasferire le registrazioni ore alle retribuzioni.
+Un utente di Retail segue il flusso di lavoro per calcolare, approvare e trasferire le registrazioni ore alle retribuzioni.
 
 ### <a name="primary-operations"></a>Operazioni primarie
 

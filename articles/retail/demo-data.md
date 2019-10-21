@@ -1,6 +1,6 @@
 ---
 title: Layout schermo con dati dimostrativi in Retail Modern POS (MPOS) e Cloud POS
-description: Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Microsoft Dynamics 365 for Retail.
+description: Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570646"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019326"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Layout schermo con dati dimostrativi in Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Microsoft Dynamics 365 for Retail.
+Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Retail.
 
 ## <a name="overview"></a>Panoramica
 
@@ -40,7 +40,7 @@ I layout schermo di esempio inclusi con i dati dimostrativi di Retail forniscono
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia di un ID layout schermo
 
-Per trovare i layout schermo in Retail, accedere a **Vendita al dettaglio** \> **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
+Per trovare i layout schermo, accedere a **Vendita al dettaglio** \> **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
 ![Pagina Layout schermo in Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Nella tabella seguente vengono illustrate le dimensioni di layout fornite per ri
 \* Queste dimensioni di layout aggiuntive sono disponibili solo nei layout di Fabrikam e Adventure Works.
 
 > [!TIP]
-> Il POS seleziona automaticamente le dimensioni di layout in base alla dimensione più vicina disponibile per la risoluzione schermo della finestra dell'app corrente. Per trovare l'ID layout schermo e la risoluzione di layout attualmente utilizzata, in Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), aprire la pagina **Impostazioni** ed esaminare la sezione **Informazioni sessione**. È inoltre possibile visualizzare la risoluzione effettiva della finestra per il frame del browser o dell'applicazione corrente. Dopo aver acquisito queste informazioni, è possibile trovare l'origine del contenuto del layout in Retail accedendo a **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
+> Il POS seleziona automaticamente le dimensioni di layout in base alla dimensione più vicina disponibile per la risoluzione schermo della finestra dell'app corrente. Per trovare l'ID layout schermo e la risoluzione di layout attualmente utilizzata, in Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), aprire la pagina **Impostazioni** ed esaminare la sezione **Informazioni sessione**. È inoltre possibile visualizzare la risoluzione effettiva della finestra per il frame del browser o dell'applicazione corrente. Dopo aver acquisito queste informazioni, è possibile trovare l'origine del contenuto del layout accedendo a **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
 ![I layout schermo e le risoluzioni/dimensioni di layout in Retail e nel POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 

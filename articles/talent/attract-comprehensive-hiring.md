@@ -1,6 +1,6 @@
 ---
-title: Quale versione di Microsoft Dynamics 365 for Talent - Attract
-description: In questo argomento vengono fornite informazioni sulle funzionalità disponibili nelle varie versioni di Microsoft Dynamics 365 for Talent - Attract.
+title: Quale versione di Microsoft Dynamics 365 Talent - Attract
+description: In questo argomento vengono fornite informazioni sulle funzionalità disponibili nelle varie versioni di Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739714"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009948"
 ---
 # <a name="which-version-of-attract"></a>Quale versione di Attract?
 
 [!include[banner](../includes/banner.md)]
 
-La versione di Microsoft Dynamics 365 for Talent: Attract appropriata dipende dalle dimensioni e dalle esigenze della propria organizzazione. La versione di base di Attract fornisce un sottoinsieme di funzionalità per team o organizzazioni di piccole dimensioni in cui il responsabile delle assunzioni è l'utente primario. È possibile iniziare a utilizzare la versione di base di Attract con una o più licenze.
+La versione di Microsoft Dynamics 365 Talent: Attract appropriata dipende dalle dimensioni e dalle esigenze della propria organizzazione. La versione di base di Attract fornisce un sottoinsieme di funzionalità per team o organizzazioni di piccole dimensioni in cui il responsabile delle assunzioni è l'utente primario. È possibile iniziare a utilizzare la versione di base di Attract con una o più licenze.
 
 Attract con il componente aggiuntivo per l'assunzione a livello globale è destinato ai team o alle organizzazioni di medie e grandi dimensioni dove il responsabile delle assunzioni o lo specialista di Talent è l'utente primario. Il componente aggiuntivo per l'assunzione a livello globale richiede l'acquisto delle licenze mediante un [partner di Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/).
 

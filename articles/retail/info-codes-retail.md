@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572129"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023366"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Codici informazioni e gruppi di codici informazioni
 
@@ -42,7 +42,7 @@ I codici di informazioni offrono all'utente una modalità di acquisizione dei da
 
 ## <a name="info-codes-group"></a>Gruppo di codici informativi
 
-In Dynamics 365 for Retail è possibile creare gruppi di codici informativi. I gruppi di codici informativi aggiungono flessibilità consentendo di definire meno codici informativi e quindi utilizzandoli modi più versatili. È possibile utilizzare i gruppi di codici informativi nei modi seguenti:
+In Retail è possibile creare gruppi di codici informativi. I gruppi di codici informativi aggiungono flessibilità consentendo di definire meno codici informativi e quindi utilizzandoli modi più versatili. È possibile utilizzare i gruppi di codici informativi nei modi seguenti:
 
 - Definire meno codici informativi e riutilizzarli facilmente. I codici di informazioni che vengono inclusi nei gruppi dei codici informativi non hanno dipendenze predefinite in altri codici informativi. È possibile includere lo stesso codice informativo in più gruppi di codici informativi e quindi utilizzare la priorità per presentare gli stessi codici informativi nell'ordine significativo in qualsiasi specifica situazione.
 - Collegare i codici informativi ad altri codici informativi o a gruppi di codici informativi per raccogliere informazioni su un prodotto o una transazione senza dover definire un codice informativo separato o un codice informativo collegato per ogni scenario.

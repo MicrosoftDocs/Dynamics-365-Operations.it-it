@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742472"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248959"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742472"
 
 In questo argomento viene descritto come è possibile richiedere il provisioning di nuovi utenti di collaborazione fornitore e come aggiungere nuovi contatti per la collaborazione fornitore. 
 
-L'interfaccia di collaborazione fornitore in Microsoft Dynamics 365 for Finance and Operations mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Finance and Operations. Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un fornitore esterno, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+L'interfaccia di collaborazione fornitore in Dynamics 365 Supply Chain Management mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Supply Chain Management. Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un fornitore esterno, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un responsabile approvvigioanmento, vedere [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
@@ -60,12 +60,12 @@ Quando una richiesta viene inviata viene aggiunta all'elenco **Richieste utente 
 Prima di poter richiedere il provisoning di un nuovo utente, tale persona deve essere impostata come contatto per uno o più conti fornitore. Per creare una richiesta per un nuovo utente di collaborazione fornitore:
 
 1. Nella pagina **Tutti i contatti**, fare clic su **Provisioning utente fornitore**.
-2. Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Finance and Operations. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (AAD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account AAD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente Finance and Operations.
+2. Immettere un indirizzo di posta elettronica per l'utente. Questo indirizzo verrà utilizzato dall'utente per accedere a Supply Chain Management. Se l'indirizzo di posta elettronica appartiene a un dominio registrato come tenant con Microsoft Azure, l'indirizzo di posta elettronica deve essere un account Azure Active Directory (AAD) esistente perché il processo di provisioning venga completato correttamente. Se l'indirizzo di posta elettronica non appartiene a un dominio registrato con Microsoft Azure, un account AAD verrà creato durante il processo di provisioning e il nuovo utente riceverà un invito per posta. Indirizzi di posta elettronica consumer con domini quali @hotmail.com @gmail.com o @comcast.net non possono essere utilizzati per registrare un utente.
 3. Impostare l'opzione **Accesso a collaborazione fornitore consentito** su **Sì** per tutte le persone giuridiche a cui l'utente deve accedere.
 4. Nella sezione **Assegna ruoli utente**, selezionare la casella di controllo **Assegna** per i ruoli di sicurezza che il nuovo utente deve avere.
 5. Fare clic su **Invia**.
 
-Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato in Finance and Operations e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Finance and Operations. Per ulteriori informazioni, vedere [Che cos'è la collaborazione B2B di Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Quando la richiesta di utente fornitore viene inviata, il campo **Accesso a collaborazione fornitore consentito** viene impostato su **Sì** per il conto fornitore selezionato e un flusso di lavoro di richiesta utente è avviato. Durante il flusso di lavoro, un nuovo utente viene creato e i ruoli di sicurezza vengono assegnati. Inoltre, un servizio Azure B2B viene attivato che avvia l'interazione con il portale di Azure e associa un account AAD nuovo o esistente con l'account utente Supply Chain Management. Per ulteriori informazioni, vedere [Che cos'è la collaborazione B2B di Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Disattivare un utente
 

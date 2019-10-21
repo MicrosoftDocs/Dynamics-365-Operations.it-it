@@ -1,6 +1,6 @@
 ---
 title: Articoli fittizi
-description: Questo argomento descrive in dettaglio in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula in Microsoft Dynamics 365 for Finance and Operations.
+description: Questo argomento descrive in dettaglio in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula in Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843891"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250013"
 ---
 # <a name="phantom-items"></a>Articoli fittizi
 
@@ -51,7 +51,7 @@ In questa struttura, si noterà che non sono presenti nozioni delle parti F e G 
 
 A differenza della DBA progettazione, che ha due prospetti operativi, la DBA di produzione ha un solo prospetto operativo. Anche l'operazione di imballaggio che è stata associata alla parte G è stata elevata e ora fa parte del prospetto operativo per il prodotto H. L'assemblaggio dell'unità elettrica è la prima operazione. Questo ordine è logico perché questa unità viene utilizzata nell'operazione successiva che è l'assemblaggio della macchina. L'ultima operazione è l'operazione di imballaggio, che utilizza due materiali di imballaggio (C e D).
 
-In Microsoft Dynamics 365 for Finance and Operations, la transizione tra la DBA progettazione e la DBA di produzione viene abilitata attraverso il tipo di riga di DBA fittizio. Come indica il termine" fittizio", le parti F e G sono scomparse durante la transizione tra i due tipi di DBA. In questo esempio, il tipo di riga fittizio viene applicato alle righe DBA per le parti F e G nella DBA progettazione. Quando viene creato un ordine batch o di produzione, la DBA progettazione viene copiata nell'ordine batch o di produzione. In seguito, quando l'ordine viene stimato, viene eseguita la transizione dalla DBA progettazione alla DBA di produzione, come mostrato nelle illustrazioni precedenti. Dal prospetto operativo nella seconda illustrazione, i materiali di imballaggio C e D sono input per l'operazione. 
+La transizione tra la DBA progettazione e la DBA di produzione viene abilitata attraverso il tipo di riga di DBA fittizio. Come indica il termine" fittizio", le parti F e G sono scomparse durante la transizione tra i due tipi di DBA. In questo esempio, il tipo di riga fittizio viene applicato alle righe DBA per le parti F e G nella DBA progettazione. Quando viene creato un ordine batch o di produzione, la DBA progettazione viene copiata nell'ordine batch o di produzione. In seguito, quando l'ordine viene stimato, viene eseguita la transizione dalla DBA progettazione alla DBA di produzione, come mostrato nelle illustrazioni precedenti. Dal prospetto operativo nella seconda illustrazione, i materiali di imballaggio C e D sono input per l'operazione. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Strutture DBA fittizie multilivello
 È possibile utilizzare il tipo di riga fittizio nelle strutture DBA multilivello, come mostrato nell'illustrazione seguente. In questa illustrazione, (a) è la DBA per il prodotto G e (b) è la scheda cicli di lavorazione per le parti E e F e il prodotto G. 

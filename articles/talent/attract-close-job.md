@@ -1,6 +1,6 @@
 ---
-title: Chiudere una posizione in Microsoft Dynamics for Talent - Attract
-description: In questo argomento viene illustrato come chiudere una posizione in Microsoft Dynamics 365 for Talent - Attract.
+title: Chiudere una posizione in Microsoft Dynamics Talent - Attract
+description: In questo argomento viene illustrato come chiudere una posizione in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/10/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: ec1b4d1fcd02bad329030b37a491b52a7c9c0a30
-ms.sourcegitcommit: 42589141431a5f357804b7e9ea9c781d594ef09d
+ms.openlocfilehash: 632db42b12d0a442b8e1f35dbc784d252ffde399
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773542"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008618"
 ---
 # <a name="close-a-job"></a>Chiudere una posizione
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Talent - Attract è possibile chiudere una posiziona come **Posizione annullata** o **Posizione chiusa**. È possibile annullare una posizione in qualsiasi momento.
+In Microsoft Dynamics 365 Talent: Attract, è possibile chiudere una posizione come **Posizione annullata** o **Posizione chiusa**. È possibile annullare una posizione in qualsiasi momento.
 
 Se si desidera indicare che la posizione è stata ricoperta, è necessario che un candidato abbia accettato un'offerta per la posizione.
 

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773260"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008457"
 ---
 # <a name="create-a-job"></a>Creare una posizione
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento sono descritti gli elementi di una mansione in Microsoft Dynamics 365 for Talent: Attract. Viene illustrato anche come creare una mansione.
+In questo argomento sono descritti gli elementi di una mansione in Microsoft Dynamics 365 Talent: Attract. Viene illustrato anche come creare una mansione.
 
 ## <a name="job-creation"></a>Creazione mansione
 
@@ -74,7 +74,7 @@ Per ulteriori informazioni sulle attività che possono essere aggiunti al proces
 
 ## <a name="postings"></a>Registrazioni
 
-Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Microsoft Dynamics 365 for Talent) o su LinkedIn. Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo. Quando un processo viene registrato solo come interno, i candidati hanno bisogno di un conto ADD per visualizzare e applicare il processo. Se il processo è elencato come pubblico, i candidati possono visualizzare e applicare i processi utilizzando tutte le opzioni di autenticazione. 
+Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Dynamics 365 Talent) o su LinkedIn. Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo. Quando un processo viene registrato solo come interno, i candidati hanno bisogno di un conto ADD per visualizzare e applicare il processo. Se il processo è elencato come pubblico, i candidati possono visualizzare e applicare i processi utilizzando tutte le opzioni di autenticazione. 
 
 Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](career-site.md).
 

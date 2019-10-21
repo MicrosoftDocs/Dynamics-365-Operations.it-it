@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916624"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250647"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificare una previsione della domanda manualmente
 
@@ -41,5 +41,5 @@ Questa procedura illustra come modificare la previsione per un articolo. La soci
 
 ## <a name="modify-the-forecast-in-excel"></a>Modificare la previsione in Excel
 1. Fare clic su **Apri** in Microsoft Office.
-2. Fare clic sull'opzione per **modificare una previsione della domanda** in Excel. In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere a Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise, con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
+2. Fare clic sull'opzione per **modificare una previsione della domanda** in Excel. In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
 

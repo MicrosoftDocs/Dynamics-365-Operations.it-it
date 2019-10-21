@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569778"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017876"
 ---
 # <a name="import-vendor-catalogs"></a>Importa cataloghi fornitore
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Importazione cataloghi fornitore
 
-In Microsoft Dynamics 365 for Finance and Operations, i professionisti degli acquisti possono creare e gestire cataloghi che i dipendenti possono utilizzare quando ordinano articoli e servizi per uso interno. Per creare un catalogo di approvvigionamento, è possibile aggiungere gli articoli e i servizi che si desidera rendere disponibili ai dipendenti, importando i dati del catalogo prodotti oppure aggiungendo manualmente i dati del catalogo prodotti alla rappresentazione generale prodotto. 
+In Dynamics 365 Supply Chain Management, i professionisti degli acquisti possono creare e gestire cataloghi che i dipendenti possono utilizzare quando ordinano articoli e servizi per uso interno. Per creare un catalogo di approvvigionamento, è possibile aggiungere gli articoli e i servizi che si desidera rendere disponibili ai dipendenti, importando i dati del catalogo prodotti oppure aggiungendo manualmente i dati del catalogo prodotti alla rappresentazione generale prodotto. 
 
 È possibile caricare i dati del catalogo inviati da un fornitore dal client di Microsoft Dynamics 365.
 
@@ -52,7 +52,7 @@ Per importare i dati del catalogo fornitore, è necessario completare le attivit
 
 6.  Caricare il file di richiesta di gestione catalogo.
 
-7.  Verificare, approvare o rifiutare i prodotti del catalogo fornitore. I prodotti vengono mappati automaticamente alle categorie di approvvigionamento in Dynamics 365 for Finance and Operations. 
+7.  Verificare, approvare o rifiutare i prodotti del catalogo fornitore. I prodotti vengono mappati automaticamente alle categorie di approvvigionamento. 
     
 I prodotti approvati vengono aggiunti alla rappresentazione generale prodotto e vengono rilasciati alle persone giuridiche selezionate. Solo i prodotti approvati possono essere aggiunti al catalogo di approvvigionamento.
 

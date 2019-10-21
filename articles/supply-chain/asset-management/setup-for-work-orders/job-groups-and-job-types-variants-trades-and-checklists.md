@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874764"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249611"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
 
@@ -225,7 +225,7 @@ I modelli di elenco di controllo di manutenzione possono essere utilizzati come 
 26. Per impostare gli allegati in una riga predefinita di tipo di processo di manutenzione selezionata, selezionare **Allega documenti**. Gli allegati impostati in una riga predefinita di tipo di processo di manutenzione sono automaticamente inclusi nelle righe di ordine di lavoro che utilizzano quella riga.
 27. Selezionare **Nuova** e quindi selezionare un tipo di documento.
 28. Caricare il documento o il file.
-29. Impostare i campi nella pagina **Allegati**. L'impostazione degli allegati utilizza la funzionalità di impostazione di documenti standard in Microsoft Dynamics 365 for Finance and Operations.
+29. Impostare i campi nella pagina **Allegati**. L'impostazione degli allegati utilizza la funzionalità di impostazione di documenti standard.
 30. Selezionare **Salva** per salvare l'allegato.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Dopo avere creato le combinazioni predefinite di tipo di processo di manutenzion
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Aggiornamento automatico delle previsioni di tipo di processo di manutenzione
 
-In Gestione cespiti, è possibile aggiornare automaticamente qualsiasi modifica alle previsioni di tipo di processo di manutenzione per costi orari, costi degli articoli e spese, che sono state aggiornati in altri moduli di Finance and Operations. In questo modo, si garantisce l'utilizzo dei prezzi di costo più recenti nelle previsioni del tipo di processo di manutenzione.
+In Gestione cespiti, è possibile aggiornare automaticamente qualsiasi modifica alle previsioni di tipo di processo di manutenzione per costi orari, costi degli articoli e spese, che sono state aggiornati in altri moduli. In questo modo, si garantisce l'utilizzo dei prezzi di costo più recenti nelle previsioni del tipo di processo di manutenzione.
 
 1. Selezionare **Gestione cespiti** \> **Periodico** \> **Previsione** \> **Aggiorna previsione tipo di processo di manutenzione**.
 2. Nella finestra di dialogo **Aggiorna previsione tipo di processo di manutenzione**, nella Scheda dettaglio **Record da includere**, è possibile aggiungere selezioni per determinati tipi di processo di manutenzione come necessario. Selezionare **Filtro** e quindi **Seleziona** per effettuare le selezioni.

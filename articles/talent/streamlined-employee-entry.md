@@ -1,6 +1,6 @@
 ---
 title: Inserimento e navigazione dei dipendenti semplificati
-description: L'immissione dei dati per i lavoratori in Dynamics 365 for Talent è stata migliorata per consentire l'immissione rapida per tutti i dipendenti, passati, attivi o futuri. Un modello semplificato/consolidato di navigazione è stato aggiornato per individuare rapidamente le informazioni e la visualizzazione correlate e creare tutti gli aggiornamenti necessari.
+description: L'immissione dei dati per i lavoratori in Dynamics 365 Talent è stata migliorata per consentire l'immissione rapida per tutti i dipendenti, passati, attivi o futuri. Un modello semplificato/consolidato di navigazione è stato aggiornato per individuare rapidamente le informazioni e la visualizzazione correlate e creare tutti gli aggiornamenti necessari.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918207"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009424"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Inserimento e navigazione dei dipendenti semplificati
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent consente l'immissione efficiente dei dati del dipendente e dell'impiego. È possibile aggiornare rapidamente le informazioni dello storico di lavoro dei dipendenti e dei terzisti passati, attivi e futuri.
+Dynamics 365 Talent consente l'immissione efficiente dei dati del dipendente e dell'impiego. È possibile aggiornare rapidamente le informazioni dello storico di lavoro dei dipendenti e dei terzisti passati, attivi e futuri.
 
 È inoltre possibile consentire un'esperienza semplificata di navigazione per individuare rapidamente le informazioni correlate e di apportare le modifiche necessarie. Questa funzionalità è ora disponibile negli ambienti sandbox. Per attivare questa funzionalità, passare ad **Amministrazione sistema > Collegamenti > Impostazioni > Parametri di sistema > Funzionalità di anteprima**. Selezionare **Navigazione e modulo lavoratore avanzati**. In questo modo le modifiche saranno valide per tutti gli utenti. È possibile disattivare questa opzione in qualsiasi momento.
 

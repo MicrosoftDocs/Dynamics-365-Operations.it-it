@@ -1,6 +1,6 @@
 ---
 title: Impostare canali di servizio clienti
-description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i servizi clienti utilizzando Microsoft Dynamics 365 for Retail.
+description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i servizi clienti utilizzando Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549361"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024823"
 ---
 # <a name="set-up-call-center-channels"></a>Impostare canali del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-Una società può definire più canali del servizio clienti in Microsoft Dynamics 365 for Retail. I canali del servizio clienti vengono configurati in **Retail** \> **Canali** \> **Servizi clienti** \> **Tutti i servizi clienti** e sono specifici di una persona giuridica.
+Una società può definire più canali del servizio clienti in Dynamics 365 Retail. I canali del servizio clienti vengono configurati in **Retail** \> **Canali** \> **Servizi clienti** \> **Tutti i servizi clienti** e sono specifici di una persona giuridica.
 
 Quando si crea un nuovo canale del servizio clienti, viene assegnato in modo sistematico un numero di unità operativa. Poiché i servizi clienti vengono creati come unità operative, gli utenti possono collegare il canale del servizio clienti a varie funzionalità di Retail, come assortimenti, cataloghi e modalità di consegna specifiche.
 
@@ -76,6 +76,8 @@ Quando si definisce il canale del servizio clienti, è necessario collegare gli 
 
 Per impostazione predefinita, il flag **Vendita al dettaglio** nell'intestazione ordine cliente è attivato per tutti gli ordini creati dagli utenti del servizio clienti. Gli ordini possono quindi sfruttare le funzionalità di prezzo e promozioni specifiche del sistema Retail.
 
-Gli utenti che non sono collegati a un canale del servizio clienti utilizzano le funzionalità di registrazione ordine standard di Microsoft Dynamics 365 for Finance and Operations. Gli ordini che questi utenti registrano attraverso il modulo di registrazione ordine cliente non verranno sistematicamente identificati come ordini Retail. Inoltre, questi ordini registrati da questi utenti non saranno soggetti a nessuna delle regole di elaborazione del completamento dell'ordine, della logica dei prezzi al dettaglio o di altre convalide degli ordini che possono essere definite nella configurazione del canale del servizio clienti o nei parametri del sistema del servizio clienti.
+
+Gli utenti che non sono collegati a un canale del servizio clienti utilizzano le funzionalità di registrazione ordine standard di Microsoft Dynamics 365 Finance. Gli ordini che questi utenti registrano attraverso il modulo di registrazione ordine cliente non verranno sistematicamente identificati come ordini Retail. Inoltre, questi ordini registrati da questi utenti non saranno soggetti a nessuna delle regole di elaborazione del completamento dell'ordine, della logica dei prezzi al dettaglio o di altre convalide degli ordini che possono essere definite nella configurazione del canale del servizio clienti o nei parametri del sistema del servizio clienti.
+
 
 Dopo aver completato la configurazione del canale del servizio clienti e la definizione degli utenti del canale, per garantire il comportamento del sistema desiderato, assicurarsi che tutti i parametri necessari del servizio clienti siano definiti in **Retail** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti**. Assicurarsi che anche le sequenze numeriche correlate vengano definite.

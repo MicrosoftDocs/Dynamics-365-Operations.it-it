@@ -3,7 +3,7 @@ title: Programma di manutenzione
 description: In questo argomento viene descritto il programma di manutenzione in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 780b633af04c38705f8321d19924f3802b2d5c67
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875735"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922139"
 ---
 # <a name="maintenance-schedule"></a>Programma di manutenzione
 
@@ -64,7 +64,7 @@ Per aprire un programma di manutenzione
 - Quando una riga di programma di manutenzione è associata a un ordine di lavoro, l'ID ordine di lavoro viene visualizzato nel campo **Ordine di lavoro**.  
 - Nella visualizzazione dettagli **Tutti i cespiti** > Scheda dettaglio **Piani di manutenzione cespiti**, è possibile selezionare piani di manutenzione per il cespite. Successivamente, se si elimina una riga di piano di manutenzione associata a un cespite in **Tutti i cespiti**, si eliminano automaticamente anche tutte le righe di programma di manutenzione con stato "Creata" che sono state create in base a quel piano di manutenzione. Vedere anche [Creare un cespite](../objects/create-an-object.md).
 
-Nella figura seguente è illustrata la pagina elenco **Tutti i programmi di manutenzione**.
+L'illustrazione seguente mostra la pagina di elenco **Tutti i programmi di manutenzione**.
 
 ![Figura 1](media/16-preventive-maintenance.png)
 

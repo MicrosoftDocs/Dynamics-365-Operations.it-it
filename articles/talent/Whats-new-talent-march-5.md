@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (5 marzo 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (5 marzo 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741892"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026672"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novità o modifiche in Dynamics 365 for Talent (5 marzo 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novità o modifiche in Dynamics 365 Talent (5 marzo 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate di Talent
+Questo argomento descrive le funzionalità nuove o modificate di Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
 
@@ -78,5 +78,5 @@ Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Protezione retribuzione avanzata (fissa e variabile)
 In molte organizzazioni, i responsabili retribuzione e benefit possono accedere solo a determinati record di retribuzione, ad esempio i record di dirigenti o di dipendenti in base all'area geografica. Con questa modifica, è possibile gestire i piani di retribuzione per differenti popolazioni di dipendenti nell'organizzazione. Ai piani fissi e variabili è possibile assegnare ruoli di sicurezza, che determineranno l'accesso ai piani e ai dati dei dipendenti correlati ai piani, ad esempio i record di stipendi o premi. Solo i ruoli con l'accesso potranno elaborare la retribuzione per quei dipendenti.
 
-###  <a name="platform-update-24"></a>Update 24 della piattaforma
-Per ulteriori informazioni sull'aggiornamento 24 della piattaforma, vedere [Novità o modifiche nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Aggiornamento 24 della piattaforma per Finance and Operations
+Per ulteriori informazioni sull'aggiornamento 24 della piattaforma per Finance and Operations, vedere [Novità o modifiche nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

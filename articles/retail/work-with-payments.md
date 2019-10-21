@@ -1,6 +1,6 @@
 ---
 title: Metodi di pagamento nei servizi clienti
-description: In questo argomento vengono descritti i diversi metodi di pagamento che è possibile utilizzare in un servizio clienti Microsoft Dynamics 365 for Retail.
+description: In questo argomento vengono descritti i diversi metodi di pagamento che è possibile utilizzare in un servizio clienti Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571521"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018230"
 ---
 # <a name="payment-methods-in-call-centers"></a>Metodi di pagamento nei servizi clienti
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Retail, la configurazione di un canale del servizio clienti include un'impostazione **Attiva completamento ordine**. Questa impostazione consente di garantire che tutti gli ordini creati dagli utenti del canale vengano rilasciati per l'elaborazione degli ordini solo se dispongono di un pagamento prepagato o pre-autorizzato che rientra nelle tolleranze approvate. Se l'impostazione **Attiva completamento ordine** è abilitata, gli utenti del servizio clienti possono inserire pagamenti per ordini cliente per i clienti utilizzando le funzionalità di elaborazione dei pagamenti del servizio clienti. Se l'impostazione è disattivata, gli utenti del servizio clienti non possono utilizzare le funzionalità di elaborazione dei pagamenti tramite il servizio clienti, ma possono comunque applicare i pagamenti anticipati agli ordini cliente utilizzando la funzionalità di contabilità clienti standard.
+In Dynamics 365 Retail, la configurazione di un canale del servizio clienti include un'impostazione **Attiva completamento ordine**. Questa impostazione consente di garantire che tutti gli ordini creati dagli utenti del canale vengano rilasciati per l'elaborazione degli ordini solo se dispongono di un pagamento prepagato o pre-autorizzato che rientra nelle tolleranze approvate. Se l'impostazione **Attiva completamento ordine** è abilitata, gli utenti del servizio clienti possono inserire pagamenti per ordini cliente per i clienti utilizzando le funzionalità di elaborazione dei pagamenti del servizio clienti. Se l'impostazione è disattivata, gli utenti del servizio clienti non possono utilizzare le funzionalità di elaborazione dei pagamenti tramite il servizio clienti, ma possono comunque applicare i pagamenti anticipati agli ordini cliente utilizzando la funzionalità di contabilità clienti standard.
 
 Durante la configurazione di un canale, una società può definire i metodi di pagamento consentiti per un canale del servizio clienti. Il canale del servizio clienti utilizza gli stessi metodi di pagamento definiti per i canali del punto vendita al dettaglio.
 

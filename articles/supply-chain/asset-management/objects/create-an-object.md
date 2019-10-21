@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783377"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250900"
 ---
 # <a name="create-an-asset"></a>Creare un cespite
 
@@ -63,12 +63,12 @@ I campi **Livello servizio** e **Criticità** sono relativi agli ordini di lavor
 
 ## <a name="asset"></a>Cespite
 
-È possibile selezionare una **Risorsa** per il cespite. La selezione della risorsa determina quale calendario utilizzare per la programmazione dell'ordine di lavoro. La selezione della risorsa viene utilizzata spesso per i cespiti. In Dynamics 365 for Finance and Operations, le risorse e i gruppi di risorse sono impostati in **Amministrazione organizzazione** > **Risorse** > **Gruppi di risorse** o **Risorse**.
+È possibile selezionare una **Risorsa** per il cespite. La selezione della risorsa determina quale calendario utilizzare per la programmazione dell'ordine di lavoro. La selezione della risorsa viene utilizzata spesso per i cespiti. Le risorse e i gruppi di risorse sono impostati in **Amministrazione organizzazione** > **Risorse** > **Gruppi di risorse** o **Risorse**.
 
 Nel campo **Numero di cespiti**, è possibile selezionare un cespite da correlare al cespite. Questo campo è rilevante se il cespite è correlato a un progetto di investimento.
 
 - Se il cespite è correlato a un cespite, è possibile creare un tipo di ordine di lavoro da utilizzare per gli ordini di lavoro correlati a un progetto di investimento. 
-- Le informazioni sui cespiti per un cespite sono correlate al modulo **Cespiti** in Dynamics 365 for Finance and Operations. Ciò significa che in **Cespiti** > **Cespiti** > **Cespiti**, è possibile ottenere una panoramica dei progetti di Gestione cespiti che possono essere correlati a un cespite selezionando il cespite negli elenchi e visualizzando il contenuto nel riquadro **Informazioni correlate** > sezione **Progetti associati**.
+- Le informazioni sui cespiti per un cespite sono correlate al modulo **Cespiti** in Dynamics 365 Supply Chain Management. Ciò significa che in **Cespiti** > **Cespiti** > **Cespiti**, è possibile ottenere una panoramica dei progetti di Gestione cespiti che possono essere correlati a un cespite selezionando il cespite negli elenchi e visualizzando il contenuto nel riquadro **Informazioni correlate** > sezione **Progetti associati**.
 
 
 ## <a name="details"></a>Dettagli

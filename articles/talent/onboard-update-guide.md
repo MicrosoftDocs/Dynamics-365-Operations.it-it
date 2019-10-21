@@ -1,6 +1,6 @@
 ---
-title: Aggiornare le guide per l'inserimento in Dynamics 365 for Talent - Onboard
-description: In questo argomento viene descritto come aggiornare le guide per l'inserimento di neoassunti in Microsoft Dynamics 365 for Talent - Onboard e come eseguire il push delle modifiche alle guide esistenti.
+title: Aggiornare le guide per l'inserimento in Dynamics 365 Talent - Onboard
+description: In questo argomento viene descritto come aggiornare le guide per l'inserimento di neoassunti in Microsoft Dynamics 365 Talent - Onboard e come eseguire il push delle modifiche alle guide esistenti.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731529"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010731"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Aggiornare le guide per l'inserimento in Dynamics 365 for Talent - Onboard
+# <a name="update-onboarding-guides"></a>Aggiornare le guide per l'inserimento
 
 [!include [banner](includes/banner.md)]
 
-Se occorre apportare modifiche alle guide per l'inserimento in Microsoft Dynamics 365 for Talent - Onboard, è possibile aggiornarle ed eseguire il push delle modifiche, anche se le guide sono già state inviate. Sono disponibili due opzioni per l'aggiornamento di una guida per l'inserimento:
+Se occorre apportare modifiche alle guide per l'inserimento in Microsoft Dynamics 365 Talent: Onboard, è possibile aggiornarle ed eseguire il push delle modifiche, anche se le guide sono già state inviate. Sono disponibili due opzioni per l'aggiornamento di una guida per l'inserimento:
 
 - Modificare la guida per l'inserimento direttamente e salvare le modifiche.
 - Modificare il modello per l'inserimento, eseguire il push delle modifiche in tutte le guide per l'inserimento che sono state create in base al modello.

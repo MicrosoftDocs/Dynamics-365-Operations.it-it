@@ -1,6 +1,6 @@
 ---
 title: Introduzione a Onboard
-description: In questo argomento vengono fornite le informazioni necessarie per iniziare con Microsoft Dynamics 365 for Talent - Onboard. Onboard aiuta i neoassunti ad ambientarsi rapidamente nel nuovo lavoro fornendo loro indicazioni per affrontare un processo di integrazione senza problemi.
+description: In questo argomento vengono fornite le informazioni necessarie per iniziare con Microsoft Dynamics 365 Talent - Onboard. Onboard aiuta i neoassunti ad ambientarsi rapidamente nel nuovo lavoro fornendo loro indicazioni per affrontare un processo di integrazione senza problemi.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731215"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008130"
 ---
 # <a name="get-started-with-onboard"></a>Introduzione a Onboard
 
 [!include [banner](includes/banner.md)]
 
-Con Microsoft Dynamics 365 for Talent - Onboard, è possibile aiutare i nuovi dipendenti a lavorare in modo più efficiente e ad acquisire un senso di appartenenza ai propri nuovi ruoli. Un processo di integrazione efficiente aiuta i neoassunti a capire i nuovi ruoli. Li aiuta inoltre a iniziare a stabilire relazioni preziose che contribuiranno al loro successo lavorativo.
+Con Microsoft Dynamics 365 Talent: Onboard, è possibile aiutare i nuovi dipendenti a lavorare in modo più efficiente e ad acquisire un senso di appartenenza ai propri nuovi ruoli. Un processo di integrazione efficiente aiuta i neoassunti a capire i nuovi ruoli. Li aiuta inoltre a iniziare a stabilire relazioni preziose che contribuiranno al loro successo lavorativo.
 
 Onboard consente di creare rapidamente una guida per l'inserimento dei neoassunti che li faccia sentire contenti di far parte dell'azienda.
 

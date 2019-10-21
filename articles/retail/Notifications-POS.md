@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577982"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023707"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Visualizzare le notifiche degli ordini nel POS
 
 [!include [banner](includes/banner.md)]
 
-Nel moderno ambiente di vendita al dettaglio, ai collaboratori del POS vengono assegnate varie attività, come aiutare i clienti, inserire transazioni, eseguire conteggi di inventario e ricevere ordini nel POS. Il client POS fornisce un'applicazione unica in cui i collaboratori possono eseguire tutte queste attività e molto altro. Poiché è necessario svolgere diversi compiti durante il giorno, potrebbe essere necessario che i collaboratori vengano avvisati quando qualcosa richiede la loro attenzione. Il framework di notifica nel POS agevola tale operazione consentendo ai rivenditori di configurare notifiche basate su ruoli. Nell'aggiornamento dell'applicazione 5 di Microsoft Dynamics 365 for Retail, le notifiche possono essere configurate solo per le operazioni di POS.
+Nel moderno ambiente di vendita al dettaglio, ai collaboratori del POS vengono assegnate varie attività, come aiutare i clienti, inserire transazioni, eseguire conteggi di inventario e ricevere ordini nel POS. Il client POS fornisce un'applicazione unica in cui i collaboratori possono eseguire tutte queste attività e molto altro. Poiché è necessario svolgere diversi compiti durante il giorno, potrebbe essere necessario che i collaboratori vengano avvisati quando qualcosa richiede la loro attenzione. Il framework di notifica nel POS agevola tale operazione consentendo ai rivenditori di configurare notifiche basate su ruoli. Nell'aggiornamento dell'applicazione 5 di Dynamics 365 for Retail, le notifiche possono essere configurate solo per le operazioni di POS.
+
 
 Attualmente, il sistema può visualizzare le notifiche solo per operazioni di evasione dell'ordine. Tuttavia, poiché il framework è progettato per essere estendibile, gli sviluppatori potranno finalmente scrivere un gestore di notifica per qualsiasi operazione e mostrare le notifiche per l'operazione specifica nel POS.
 
@@ -68,7 +69,8 @@ La seguente illustrazione mostra le impostazioni del contenuto in diretta nella 
 
 ![Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti](./media/ButtonGridDesigner.png "Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti")
 
-Per visualizzare il conteggio di notifica su un pulsante, è necessario assicurarsi che venga aggiornato il layout dello schermo corretto. Per determinare il layout dello schermo utilizzato dal POS, selezionare l'icona **Impostazioni** nell'angolo superiore destro e verificare i campi **ID layout schermo** e **Risoluzione layout**. Ora utilizzando il nuovo browser Edge, passare alla pagina **Layout schermo** di Dynamics 365 for Finance and Operations, cercare **ID layout schermo** e **Risoluzione layout** indicati sopra e selezionare la casella di controllo **Abilita contenuto in tempo reale**. Fare clic su **Retail \> IT vendita al dettaglio \> Programmazione della distribuzione** ed eseguire i processi 1090 (dei registratori di cassa) per sincronizzare le modifiche del layout.
+Per visualizzare il conteggio di notifica su un pulsante, è necessario assicurarsi che venga aggiornato il layout dello schermo corretto. Per determinare il layout dello schermo utilizzato dal POS, selezionare l'icona **Impostazioni** nell'angolo superiore destro e verificare i campi **ID layout schermo** e **Risoluzione layout**. Ora utilizzando il nuovo browser Edge, passare alla pagina **Layout schermo**, cercare **ID layout schermo** e **Risoluzione layout** indicati sopra e selezionare la casella di controllo **Abilita contenuto in tempo reale**. Fare clic su **Retail \> IT vendita al dettaglio \> Programmazione della distribuzione** ed eseguire i processi 1090 (dei registratori di cassa) per sincronizzare le modifiche del layout.
+
 
 ![Individuare il layout dello schermo utilizzato dal POS](./media/Choose_screen_layout.png "Individuare il layout dello schermo ")
 

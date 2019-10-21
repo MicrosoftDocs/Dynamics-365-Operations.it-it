@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560303"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250578"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
@@ -45,7 +45,7 @@ Il concetto di strategia risolutore ora include le seguenti strategie:
 
 Un modello di configurazione prodotto può essere formulato come un [problema di soddisfacimento di vincoli (Constraint Satisfaction Problem, CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) fornisce due tipi di strategia risolutore per risolvere i problemi CSP che possono essere utilizzati dai modelli di configurazione del prodotto. Queste strategie risolutore si basano sull'[euristica](https://techterms.com/definition/heuristic), utilizzata per determinare l'ordine in cui le variabili dei problemi CSP vengono prese in considerazione durante la risoluzione del problema. L'euristica può influire in modo significativo sulle prestazioni quando si risolve un problema o una classe di problemi.
 
-In Finance and Operations, la strategia del risolutore per i modelli di configurazione del prodotto determina quale risolutore viene utilizzato con l'euristica. Le strategie **Predefinita**, **Prima domini minimi** e **Dall'alto in basso** utilizzano i due risolutori di MSF, mentre la strategia **Z3** utilizza il risolutore Z3. 
+La strategia del risolutore per i modelli di configurazione del prodotto determina quale risolutore viene utilizzato con l'euristica. Le strategie **Predefinita**, **Prima domini minimi** e **Dall'alto in basso** utilizzano i due risolutori di MSF, mentre la strategia **Z3** utilizza il risolutore Z3. 
 
 Gli studi di implementazione dei clienti effettivi hanno dimostrato che una modifica della strategia del risolutore per un modello di configurazione del prodotto può ridurre il tempo di risposta da minuti a millisecondi. Pertanto, vale la pena provare diverse strategie del risolutore per trovare la strategia più efficiente per il modello di configurazione del prodotto.
 

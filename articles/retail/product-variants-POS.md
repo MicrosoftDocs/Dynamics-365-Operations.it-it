@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572051"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025151"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Ricerca di scorte nel POS
 
@@ -52,7 +52,7 @@ Le quantità **Ordinato** e**Prenotato** vengono visualizzate per ogni ubicazion
 L'elenco delle ubicazioni include due tipi di entità:
 
 - **Punti vendita al dettaglio**: l'elenco mostra i punti vendita configurati utilizzando il gruppo di ricerca punto vendita per il punto vendita corrente in Retail Headquarters.
-- **Centri di distribuzione**: diversi tipi di centri di distribuzione (ad esempio magazzini) possono essere configurati in Microsoft Dynamics 365 for Retail. Tuttavia, l'elenco mostra le informazioni sulla disponibilità delle scorte solo per i centri di distribuzione del tipo predefinito **Standard**.
+- **Centri di distribuzione**: diversi tipi di centri di distribuzione (ad esempio magazzini) possono essere configurati in Retail. Tuttavia, l'elenco mostra le informazioni sulla disponibilità delle scorte solo per i centri di distribuzione del tipo predefinito **Standard**.
 
     > [!NOTE]
     > Le informazioni di magazzino non vengono visualizzate per i tipi di magazzino **Transito**, **Quarantena** e **Articoli in lavorazione** per il POS.

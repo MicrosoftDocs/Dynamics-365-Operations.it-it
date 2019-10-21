@@ -1,6 +1,6 @@
 ---
 title: Analisi delle prestazioni del punto vendita
-description: In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dello spazio di archiviazione, in base ai dati di Microsoft Dynamics 365 for Retail.
+description: In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dello spazio di archiviazione, in base ai dati di Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569265"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017784"
 ---
 # <a name="analyze-store-performance"></a>Analizzare le prestazioni del punto vendita
 
 [!include [banner](includes/banner.md)]
 
-In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dello spazio di archiviazione, in base ai dati di Microsoft Dynamics 365 for Retail.
+In questo articolo viene illustrato come utilizzare l'analisi in memoria e in tempo reale per accedere, esplorare e ottenere informazioni dettagliate sulle prestazioni dello spazio di archiviazione, in base ai dati di Dynamics 365 Retail.
 
-Come parte di Dynamics 365 for Retail, gli utenti possono analizzare le prestazioni del punto vendita in tempo reale nei diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo il report **Riepilogo canale** da uno dei seguenti percorsi:
+Come parte di Retail, gli utenti possono analizzare le prestazioni del punto vendita in tempo reale nei diversi livelli della gerarchia organizzativa per un periodo selezionato aprendo il report **Riepilogo canale** da uno dei seguenti percorsi:
 
 - Area di lavoro **Gestione punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Gestione punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**
 - Area di lavoro **Dati finanziari punto vendita al dettaglio** &gt; **Vendita al dettaglio** &gt; **Canali** &gt; **Dati finanziari punto vendita al dettaglio** &gt; **Report** &gt; **Report di riepilogo canale**

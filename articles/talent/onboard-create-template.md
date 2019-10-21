@@ -1,6 +1,6 @@
 ---
-title: Creare un modello per l'inserimento utilizzando Dynamics 365 for Talent - Onboard
-description: In questo argomento viene illustrato come utilizzare l'app Dynamics 365 for Talent - Onboard per creare un modello per l'inserimento dei neoassunti. Questa attività è un primo passaggio fondamentale della strategia di gestione del capitale umano (HCM).
+title: Creare un modello per l'inserimento utilizzando Dynamics 365 Talent - Onboard
+description: In questo argomento viene illustrato come utilizzare l'app Dynamics 365 Talent - Onboard per creare un modello per l'inserimento dei neoassunti. Questa attività è un primo passaggio fondamentale della strategia di gestione del capitale umano (HCM).
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731530"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009879"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>Creare un modello per l'inserimento utilizzando Dynamics 365 for Talent - Onboard
+# <a name="create-an-onboarding-template"></a>Crea un modello di inserimento
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent - Onboard include vari modelli che consentono di creare rapidamente una guida per l'inserimento. È possibile utilizzare uno o più di questi modelli oppure creare i propri modelli. Onboard fornisce testo di esempio che è possibile utilizzare quando si creano i propri modelli. Di conseguenza, il processo è semplice anche se si inizia da zero.
+Microsoft Dynamics 365 Talent: Onboard include vari modelli che consentono di creare rapidamente una guida per l'inserimento. È possibile utilizzare uno o più di questi modelli oppure creare i propri modelli. Onboard fornisce testo di esempio che è possibile utilizzare quando si creano i propri modelli. Di conseguenza, il processo è semplice anche se si inizia da zero.
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>Creare un modello per l'inserimento da un modello esistente
 

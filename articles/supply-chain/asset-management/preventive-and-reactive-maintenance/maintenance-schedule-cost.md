@@ -3,7 +3,7 @@ title: Costo del programma di manutenzione
 description: In questo argomento viene descritto il costo del programma di manutenzione in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875725"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922070"
 ---
 # <a name="maintenance-schedule-cost"></a>Costo del programma di manutenzione
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 In Gestione cespiti, è possibile calcolare i costi in budget nelle righe di programma di manutenzione. Questa funzionalità è utile se si desidera ottenere una panoramica dei costi previsti, ad esempio, i costi relativi ai processi di manutenzione preventiva pianificati per l'anno successivo. I calcoli si basano sulle righe di programma di manutenzione esistenti di tipo "Piani di manutenzione ", "Cicli di manutenzione" e "Richiesta di intervento di manutenzione".
 
@@ -48,10 +46,11 @@ In Gestione cespiti, è possibile calcolare i costi in budget nelle righe di pro
 
 5. Scegliere **OK** per avviare il ricalcolo del costi.
 
-6. Nella scheda **Costo del programma di manutenzione** > nei gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario per il calcolo dei costi. I pulsanti selezionati nei gruppi di riquadri azioni sono evidenziati in blu. Fare clic su un pulsante per attivarlo o disattivarlo.
+6. Nella scheda **Costo del programma di manutenzione** > nei gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario per il calcolo dei costi. I pulsanti del gruppo di riquadri azioni selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
 7. Fare clic sul pulsante **Calcola costo** se si desidera eseguire un nuovo calcolo dei costi.
 
+Nella figura seguente vengono illustrati i risultati di un calcolo del costo del programma di manutenzione.
 
 ![Figura 1](media/17-preventive-maintenance.png)
 

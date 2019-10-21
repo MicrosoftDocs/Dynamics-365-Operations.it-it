@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526017"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025174"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità per il raggruppamento delle spese automatiche a livello di intestazione e la ripartizione proporzionale delle stesse nelle righe di vendita al dettaglio. Questa funzionalità è disponibile per le transazioni create nel POS in Microsoft Dynamics 365 for Retail versione 10.0.1 e le vendite create in una call center in Microsoft Dynamics 365 for Retail versione 10.0.2.
+In questo argomento vengono descritte le funzionalità per il raggruppamento delle spese automatiche a livello di intestazione e la ripartizione proporzionale delle stesse nelle righe di vendita al dettaglio. Questa funzionalità è disponibile per le transazioni create nel POS in Retail versione 10.0.1 e le vendite create in una call center in Retail versione 10.0.2.
 
 Questa funzionalità è disponibile solo se le funzionalità di [addebito automatico avanzato](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) sono abilitate utilizzando l'opzione nella pagina **Parametri di vendita al dettaglio**. Inoltre, il metodo di calcolo aggiornato per le spese automatiche può essere applicato solo agli ordini di vendita al dettaglio creati tramite i canali di vendita al dettaglio (il POS, un call center e la piattaforma e-commerce di Dynamics).
 
 Questa nuova funzionalità fornisce alle organizzazioni una maggiore flessibilità nel modo in cui le spese automatiche a livello di intestazione vengono calcolate e applicate per le transazioni di vendita al dettaglio.
 
-Nelle versioni di Microsoft Dynamics 365 for Retail antecedenti alla versione 10.0.1, le spese automatiche a livello di intestazione con una relazione tra modalità di consegna specifica vengono calcolate solo se è presente una corrispondenza con la modalità di consegna definita nell'intestazione dell'ordine cliente.
+Nelle versioni di Retail antecedenti alla versione 10.0.1, le spese automatiche a livello di intestazione con una relazione tra modalità di consegna specifica vengono calcolate solo se è presente una corrispondenza con la modalità di consegna definita nell'intestazione dell'ordine cliente.
 
 Ad esempio, le spese automatiche a livello di intestazione sono definite per la modalità di consegna **99** e la modalità di consegna **11**. Un ordine cliente viene creato e la modalità di consegna **99** viene definita nell'intestazione dell'ordine. Tuttavia, alcune delle righe di vendita vengono impostate in modo che siano spedite utilizzando la modalità di consegna **11**. In questo caso, solo le spese a livello di intestazione relative alla modalità di consegna **99** vengono considerate e applicate all'ordine cliente.
 
-In Dynamics 365 for Retail, le spese a livello di intestazione hanno una funzionalità che consente di definire una [configurazione di spese a livelli](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) basata sul valore dell'ordine. Ad esempio, se il valore dell'ordine è compreso tra $50,00 e $200,00, un'organizzazione potrebbe addebitare delle spese trasporto di $5,00. Tuttavia, se il valore dell'ordine è compreso tra $200,01 e $500,00, le spese di trasporto potrebbero essere di $4,00.
+In Retail, le spese a livello di intestazione hanno una funzionalità che consente di definire una [configurazione di spese a livelli](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) basata sul valore dell'ordine. Ad esempio, se il valore dell'ordine è compreso tra $50,00 e $200,00, un'organizzazione potrebbe addebitare delle spese trasporto di $5,00. Tuttavia, se il valore dell'ordine è compreso tra $200,01 e $500,00, le spese di trasporto potrebbero essere di $4,00.
 
 Alcune organizzazioni vogliono usufruire dei vantaggi derivanti dal calcolo delle spese a livelli fornito con le spese a livello di intestazione. Tuttavia, negli scenari che includono modalità di consegna miste, vogliono anche assicurarsi che le spese calcolate siano basate su una corrispondenza con la modalità di consegna definita in ciascuna riga di vendita.
 

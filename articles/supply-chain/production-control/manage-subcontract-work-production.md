@@ -1,6 +1,6 @@
 ---
 title: Gestire il lavoro in conto lavoro in produzione
-description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Finance and Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569755"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023543"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gestire il lavoro in conto lavoro in produzione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Microsoft Dynamics 365 for Finance and Operations. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 
 Nei [processi di produzione](production-process-overview.md), il lavoro può essere eseguito da risorse di proprietà o amministrate dai fornitori. In genere, le risorse fornitore vengono utilizzate per l'eccesso periodico di domanda che supera la capacità disponibile delle risorse proprie di una società. Il fornitore può inoltre essere in grado di offrire specifiche [capacità risorsa](resource-capabilities.md) o risorse a un prezzo più basso.  
 
@@ -40,7 +40,7 @@ Quando si usano operazioni o attività in conto lavoro, queste influiscono su tu
 
 Per le risorse interne, un tasso di costo fisso in genere è assegnato per un periodo. Di contro, il costo di risorse in conto lavoro è basato sul prezzo di acquisto del servizio correlato. Il servizio viene definito come un altro prodotto e viene utilizzato per determinare i processi di approvvigionamento e di acquisto per un'operazione in conto lavoro specificata.  
 
-Attualmente, non esiste un esplicito concetto di prodotti semilavorati in Microsoft Dynamics 365 for Finance and Operations. Per un ordine di produzione che richiede più operazioni per la trasformazione delle materie prime in prodotto finito, il prodotto finito viene registrato nuovamente nel magazzino solo nell'ultima operazione. I prodotti semilavorati prodotti da operazioni precedenti vengono considerati come WIP, ma non vengono registrati o tracciati in magazzino. Sebbene sia possibile dividere i cicli di lavorazione e le distinte base (DBA) in più unità inferiori, tale approccio aumenta il numero di prodotti, distinte base e cicli di lavorazione che devono essere gestiti.  
+Attualmente, non esiste un esplicito concetto di prodotti semilavorati in Supply Chain Management. Per un ordine di produzione che richiede più operazioni per la trasformazione delle materie prime in prodotto finito, il prodotto finito viene registrato nuovamente nel magazzino solo nell'ultima operazione. I prodotti semilavorati prodotti da operazioni precedenti vengono considerati come WIP, ma non vengono registrati o tracciati in magazzino. Sebbene sia possibile dividere i cicli di lavorazione e le distinte base (DBA) in più unità inferiori, tale approccio aumenta il numero di prodotti, distinte base e cicli di lavorazione che devono essere gestiti.  
 
 Sono disponibili due metodi per la modellazione del lavoro in conto lavoro per le operazioni di produzione. Questi metodi differiscono nel senso che il processo di conto lavoro può essere modellizzato, nel modo in cui i prodotti semilavorati vengono rappresentati nel processo e nel modo in cui il controllo costi viene gestito.
 

@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865114"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251410"
 ---
-# <a name="warehouse-work-policies-overview"></a>Panoramica dei criteri di lavoro del magazzino
+# <a name="warehouse-work-policies-overview"></a>Panoramica criteri di lavoro magazzino
 
 [!include [banner](../includes/banner.md)]
 
-I criteri di lavoro del magazzino in Microsoft Dynamics 365 for Finance and Operations controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
+i criteri di lavoro del magazzino controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
 
 Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione. È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**. Ad esempio, il prodotto L0101 viene dichiarato finito nell'ubicazione di uscita 001. Il prodotto finito viene successivamente consumato in un altro ordine di produzione all'ubicazione di uscita 001. In questo caso, è possibile impostare i criteri di lavoro per impedire che lavoro per lo stoccaggio di prodotti finiti venga creato quando si dichiara il prodotto L0101 finito nell'ubicazione di uscita 001. I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:
 

@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare informazioni sul livello delle scorte da Finance and Operations a Field Service
-description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
+title: Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service
+description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843435"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251203"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizzare le informazioni sul livello di scorte da Finance and Operations a Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
+Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
-[![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
-Il seguente modello e le attività sottostanti sono utilizzati per sincronizzare i livelli delle scorte disponibili da Microsoft Dynamics 365 for Finance and Operations in Microsoft Dynamics 365 for Field Service.
+Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i livelli delle scorte disponibili da Supply Chain Management a Field Service.
 
 **Modello in Integrazione dati**
-- Inventario prodotti (da Fin and Ops a Field Service)
+- Inventario prodotti (da Supply Chain Management a Field Service)
   
 **Attività nel progetto di Integrazione dati**
 - Inventario prodotti
 
 Le attività di sincronizzazione seguenti sono necessarie per la sincronizzazione dei livelli delle scorte:
-- Magazzini (da Fin and Ops a Field Service) 
-- Prodotti Field Service con unità di magazzino (da Fin and Ops a Sales) 
+- Magazzini (da Supply Chain Management a Field Service) 
+- Prodotti Field Service con l'unità di magazzino (Supply Chain Management a Sales) 
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Gestione della supply chain                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | Disponibilità scorte in base al magazzino CDS     |
 
@@ -61,17 +61,17 @@ Le informazioni sul livello delle scorte da Finance and Operations sono inviate 
 
 Queste informazioni vengono acquisite per prodotto rilasciato per ogni magazzino e sincronizzate in base al rilevamento delle modifiche, quando il livello delle scorte cambia.
 
-In Field Service, la soluzione di integrazione crea giornali di registrazione magazzino per il delta, di modo che i livelli in Field Service corrispondano a quelli in Finance and Operations.
+In Field Service, la soluzione di integrazione crea giornali di registrazione magazzino per il delta, di modo che i livelli in Field Service corrispondano a quelli in Supply Chain Management.
 
-Finance and Operations sarà il master per i livelli delle scorte. È quindi importante impostare l'integrazione per ordini di lavoro, trasferimenti e rettifiche da Field Service a Finance and Operations se questa funzionalità è utilizzata in Field Service, insieme alla sincronizzazione dei livelli delle scorte da Finance and Operations.
+Supply Chain Management sarà il master per i livelli delle scorte. È quindi importante impostare l'integrazione per ordini di lavoro, trasferimenti e rettifiche da Field Service a Supply Chain Management se questa funzionalità è utilizzata in Field Service, insieme alla sincronizzazione dei livelli delle scorte da Supply Chain Management.
 
-I prodotti e i magazzini in cui i livelli delle scorte sono gestiti da Finance and Operations possono essere controllati con Filtro e query avanzati (Power Query).
+I prodotti e i magazzini in cui i livelli delle scorte sono gestiti da Supply Chain Management possono essere controllati con Filtro e query avanzati (Power Query).
 
 > [!NOTE]
-> È possibile creare più magazzini in Field Service (con **Gestito esternamente = No**) e quindi mapparli a un singolo magazzino in Finance and Operations, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti solo a Finance and Operations. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Finance and Operations. Per ulteriori informazioni, vedere [Sincronizzare rettifiche di inventario da Field Service a Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> È possibile creare più magazzini in Field Service (con **Gestito esternamente = No**) e quindi mapparli a un singolo magazzino in Supply Chain Management, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti solo a Supply Chain Management. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Supply Chain Management. Per ulteriori informazioni, vedere [Sincronizzare rettifiche di inventario da Field Service a Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Soluzione CRM Field Service
-L'entità **Inventario prodotti esterno** è utilizzata solo per il backend nell'integrazione. Questa entità riceve i valori del livello delle scorte da Finance and Operations nell'integrazione, trasforma tali valori in giornali di registrazione manuali, quindi modifica i prodotti di magazzino nel magazzino.
+L'entità **Inventario prodotti esterno** è utilizzata solo per il backend nell'integrazione. Questa entità riceve i valori del livello delle scorte da Supply Chain Management nell'integrazione, trasforma tali valori in giornali di registrazione manuali, quindi modifica i prodotti di magazzino nel magazzino.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
 
@@ -84,10 +84,10 @@ Affinché il progetto funzioni, verificare che la chiave di integrazione sia agg
       - msdynce_warehouseid (ID magazzino)
       
 ### <a name="data-integration-project"></a>Progetto di Integrazione dati
-È possibile applicare filtri con Filtro e query avanzati di modo che solo certi prodotti e magazzini inviino informazioni sul livello delle scorte da Finance and Operations a Field Service.
+È possibile applicare filtri con Filtro e query avanzati di modo che solo certi prodotti e magazzini inviino informazioni sul livello delle scorte da Supply Chain Management a Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Inventario prodotti (da Fin and Ops a Field Service): Inventario prodotti
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Inventario prodotti (da Supply Chain Management a Field Service): Inventario prodotti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

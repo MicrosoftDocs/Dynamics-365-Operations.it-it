@@ -1,6 +1,6 @@
 ---
 title: Configurazione dei costi per la gestione ordini distribuiti
-description: In questo argomento viene descritta la configurazione dei costi per la gestione degli ordini distribuiti (DOM, Distributed Order Management) in Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene descritta la configurazione dei costi per la gestione degli ordini distribuiti (DOM, Distributed Order Management) in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606781"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019441"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Configurazione dei costi per la gestione ordini distribuiti
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606781"
 
 Per stabilire l'ubicazione ottimale da cui evadere un ordine, le organizzazioni prendono in considerazione più componenti di costo. Alcune componenti sono rappresentate dalla spedizione, il trasporto e l'imballaggio. Per determinare l'ubicazione di evasione, viene calcolata una combinazione di tali costi.
 
-Nell'ottimizzazione dell'assegnazione degli ordini nelle ubicazioni di evasione durante la prima iterazione di gestione degli ordini distribuiti (DOM) in Microsoft Dynamics 365 for Retail, si teneva conto solo della distanza. Sebbene la distanza possa essere correlata ai costi, non può essere considerati alla pari di un costo. Una spedizione effettuata durante la notte, ad esempio, costa più di una spedizione di tre giorni o di sette giorni sulla stessa distanza.
+Nell'ottimizzazione dell'assegnazione degli ordini nelle ubicazioni di evasione durante la prima iterazione di gestione degli ordini distribuiti (DOM) in Dynamics 365 Retail, si teneva conto solo della distanza. Sebbene la distanza possa essere correlata ai costi, non può essere considerati alla pari di un costo. Una spedizione effettuata durante la notte, ad esempio, costa più di una spedizione di tre giorni o di sette giorni sulla stessa distanza.
 
 La funzionalità di configurazione dei costi consente ai rivenditori di definire e configurare componenti di costo aggiuntivo che verranno calcolate e prese in considerazione per determinare l'ubicazione ottimale da cui evadere le righe ordine.
 

@@ -1,6 +1,6 @@
 ---
-title: Pubblicare posizioni in LinkedIn da Microsoft Dynamics 365 for Talent - Attract
-description: In questo argomento viene descritto come utilizzare Dynamics 365 for Talent - Attract per pubblicare posizioni su LinkedIn
+title: Pubblicare posizioni in LinkedIn da Microsoft Dynamics 365 Talent - Attract
+description: In questo argomento viene descritto come utilizzare Dynamics 365 Talent - Attract per pubblicare posizioni su LinkedIn
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756178"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008245"
 ---
 # <a name="post-jobs-to-linkedin"></a>Pubblicare posizioni in LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn è la più grande rete professionale online, che consente di contattare i migliori talenti al mondo. Microsoft Dynamics 365 for Talent - Attract aiuta a trovare i talenti necessari a un'azienda attraverso la pubblicazione di posizioni direttamente da Attract in LinkedIn.
+LinkedIn è la più grande rete professionale online, che consente di contattare i migliori talenti al mondo. Microsoft Dynamics 365 Talent: Attract aiuta a trovare i talenti necessari a un'azienda attraverso la pubblicazione di posizioni direttamente da Attract in LinkedIn.
 
 Attract consente di pubblicare inserzioni limitate su LinkedIn senza costi aggiuntivi. Queste inserzioni sono disponibili solo tra i partner software di LinkedIn come Attract. Non vengono visualizzate nel pannello **Carriere** della pagina di LinkedIn della società, perché in questo pannello appaiono solo le inserzioni a pagamento. Tuttavia, vengono visualizzate quando potenziali candidati visualizzano tutte le posizioni disponibili. Le inserzioni limitate vengono visualizzate anche nelle ricerche di lavoro di LinkedIn.
 

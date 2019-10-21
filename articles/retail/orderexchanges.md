@@ -1,6 +1,6 @@
 ---
 title: Configurare ed elaborare uno scambio in un ordine di reso
-description: In questo argomento viene descritto come configurare uno scambio su un reso in Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene descritto come configurare uno scambio su un reso in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561389"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025381"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurare ed elaborare uno scambio in un ordine di reso
 
 [!include [banner](includes/banner.md)]
 
-Nelle versioni precedenti di Microsoft Dynamics 365 for Retail, i resi a fronte degli ordini cliente venivano elaborati tramite il documento dell'ordine di reso in Retail Headquarters. Tuttavia, il documento dell'ordine di reso può essere utilizzato per elaborare solo i prodotti resi. I prodotti resi sono indicati da una quantità negativa nelle righe dell'ordine di reso. Di contro, le vendite vengono contrassegnate da una quantità positiva. Tuttavia, il documento dell'ordine di reso non supporta le quantità positive. A causa di questa limitazione, le versioni precedenti di Retail non supportavano scenari in cui gli scambi di prodotto sono effettuati utilizzando il documento dell'ordine di reso.
+Nelle versioni precedenti di Dynamics 365 Retail, i resi a fronte degli ordini cliente venivano elaborati tramite il documento dell'ordine di reso in Retail Headquarters. Tuttavia, il documento dell'ordine di reso può essere utilizzato per elaborare solo i prodotti resi. I prodotti resi sono indicati da una quantità negativa nelle righe dell'ordine di reso. Di contro, le vendite vengono contrassegnate da una quantità positiva. Tuttavia, il documento dell'ordine di reso non supporta le quantità positive. A causa di questa limitazione, le versioni precedenti di Retail non supportavano scenari in cui gli scambi di prodotto sono effettuati utilizzando il documento dell'ordine di reso.
 
 Tuttavia, è stata aggiunta una funzionalità per supportare gli scenari in cui gli scambi vengono effettuati sugli ordini di reso. Retail utilizza ora il documento dell'ordine cliente anziché il documento dell'ordine di reso per elaborare questi tipi di transazioni.
 

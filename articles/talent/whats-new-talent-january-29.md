@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (31 gennaio 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (31 gennaio 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/31/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4504cebb7702c7163c94badeeb06d9af0e5467e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6dcdb37ba7a423e54a641c1d123f563a59648d46
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518332"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010316"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-january-31-2019"></a>Novità o modifiche in Dynamics 365 for Talent (31 gennaio 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-january-31-2019"></a>Novità o modifiche in Dynamics 365 Talent (31 gennaio 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
 **Build 8.1.2128**
 

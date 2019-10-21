@@ -1,5 +1,5 @@
 ---
-title: Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
+title: Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Supply Chain Management
 description: Questo argomento fornisce una panoramica delle opzioni di migrazione della gestione di prodotti e magazzino.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554048"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251433"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce una panoramica del processo di aggiornamento da Microsoft Dynamics AX 2012 R3, che esegue il modulo WMSII, a Microsoft Dynamics 365 for Finance and Operations.
+Questo argomento fornisce una panoramica del processo di aggiornamento da Microsoft Dynamics AX 2012 R3, che esegue il modulo WMSII, a Supply Chain Management.
 
-Finance and Operations non supporta più il modulo legacy **WMSII** di Microsoft Dynamics AX 2012. In alternativa, è possibile utilizzare il modulo **Gestione magazzino**. Nel modulo WMSII, le dimensioni inventariali ID pallet e Ubicazione possono essere selezionate per l'inventario finanziario, tuttavia, la dimensione inventariale ID pallet non può essere utilizzata per l'inventario finanziario in Finance and Operations.
+Supply Chain Management non supporta più il modulo legacy **WMSII** di Microsoft Dynamics AX 2012. In alternativa, è possibile utilizzare il modulo **Gestione magazzino**. Nel modulo WMSII, le dimensioni inventariali ID pallet e Ubicazione possono essere selezionate per l'inventario finanziario, tuttavia, la dimensione inventariale ID pallet non può essere utilizzata per l'inventario finanziario in Supply Chain Management.
 
 Durante un aggiornamento, tutti i prodotti associati a un gruppo di dimensioni di immagazzinamento che utilizza la dimensione inventariale ID pallet vengono identificati, contrassegnati come bloccati e non elaborati per l'aggiornamento.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Aggiornamento a Finance and Operations, quando si utilizza il modulo WMSII di AX 2012 R3
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Aggiornamento a Supply Chain Management quando viene utilizzato AX 2012 R3 WMSII
 Dopo l'aggiornamento, è possibile utilizzare un set di opzioni di migrazione nel modulo **Modifica del gruppo di dimensioni di immagazzinamento per articoli** per sbloccare i prodotti bloccati durante l'aggiornamento e quindi elaborare le transazioni per quei prodotti.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Attivazione di articoli in Finance and Operations
-Questa modifica è necessaria poiché In Finance and Operations il tracciamento degli articoli fa parte dei processi di gestione del magazzino. Per questi processi, tutti i magazzini e le relative ubicazioni devono essere associati a un profilo di ubicazione. Se si desidera utilizzare i processi di gestione del magazzino, è necessario configurare quanto segue:
+### <a name="enabling-items-in-supply-chain-management"></a>Abilitazione degli articoli in Supply Chain Management 
+Questa modifica è necessaria poiché in Supply Chain Management il tracciamento degli articoli fa parte dei processi di gestione del magazzino. Per questi processi, tutti i magazzini e le relative ubicazioni devono essere associati a un profilo di ubicazione. Se si desidera utilizzare i processi di gestione del magazzino, è necessario configurare quanto segue:
 -   I magazzini esistenti devono essere abilitati per l'utilizzo dei processi di gestione del magazzino. 
 -   I prodotti rilasciati esistenti devono essere associati a un gruppo di dimensioni di immagazzinamento che utilizza processi di gestione del magazzino. 
 

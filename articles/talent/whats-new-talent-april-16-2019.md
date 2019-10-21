@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (16 aprile 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (16 aprile 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518345"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024139"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Novità o modifiche in Dynamics 365 for Talent (16 aprile 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novità o modifiche in Dynamics 365 Talent (16 aprile 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
 
@@ -47,11 +47,11 @@ Le modifiche descritte in questo sezione sono valide per la build numero 8.1.223
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Le entità di paese di retribuzione, livello retributivo, opzione di benefit e tipo di competenza di Common Data Service sono state aggiornate per includere il supporto del campo del cliente
 
-In questa versione, queste entità di Common Data Service sono state aggiornate con la possibilità di includere il campo personalizzato aggiunto tramite Talent (Core HR).
+In questa versione, queste entità di Common Data Service sono state aggiornate con la possibilità di includere il campo personalizzato aggiunto tramite Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nuovo supporto di entità Common Data Service : Regole di distribuzione incentivi retribuzione, Piano di retribuzione variabile, Retribuzione variabile
 
-In questa versione, le entità Regole di distribuzione incentivi retribuzione, Piano di retribuzione variabile, Retribuzione variabile sono state aggiunte a Common Data Service. Queste entità supportano anche i campi personalizzati aggiunti tramite Talent (Core HR).
+In questa versione, le entità Regole di distribuzione incentivi retribuzione, Piano di retribuzione variabile, Retribuzione variabile sono state aggiunte a Common Data Service. Queste entità supportano anche i campi personalizzati aggiunti tramite Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemi di aggiornamento di PowerBI (314342)
 
@@ -95,6 +95,6 @@ Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi
 
 ### <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
 
-Con l'aggiornamento 25 della piattaforma, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento.
+Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento.
 
 

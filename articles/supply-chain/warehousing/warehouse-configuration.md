@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866091"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026718"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -34,7 +34,7 @@ Questo articolo illustra come configurare un magazzino. Sono riportate le inform
 **Nota:** Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
 
 ## <a name="warehouse-layout"></a>Layout magazzino
-Il sistema di gestione magazzino in Microsoft Dynamics 365 for Finance and Operations offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
+Il sistema di gestione magazzino in Finance and Operations offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
 
 -   È possibile impostare aree di immagazzinamento ad alta priorità e a priorità bassa per un posizionamento ottimale delle merci.
 -   È possibile suddividere il magazzino in aree per soddisfare varie esigenze di immagazzinamento, ad esempio requisiti della temperatura, o vari tassi di fatturato per gli articoli.

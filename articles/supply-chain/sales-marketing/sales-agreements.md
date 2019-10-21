@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865971"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251295"
 ---
 # <a name="sales-agreements-overview"></a>Panoramica dei contratti di vendita
 
@@ -99,14 +99,14 @@ Se è stato creato (rilasciato) un ordine cliente a fronte di un contratto di ve
 | Quantità                                                          | Se si specifica una quantità che supera quella indicata in una riga del contratto di vendita in cui è selezionata la casella di controllo **Valore massimo applicato**, una finestra di messaggio richiede di salvare la quantità modificata. Fare clic su **Sì** per rimuovere il collegamento alla riga del contratto di vendita e ricalcolare il prezzo. Fare clic su **No** per rimuovere il collegamento alla riga del contratto di vendita senza ricalcolare il prezzo.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Restituzione di un articolo ordinato da un contratto di vendita
-Quando un cliente restituisce un prodotto ordinato da un contratto di vendita, Microsoft Dynamics 365 for Finance and Operations può trovare e aggiornare automaticamente l'impegno del contratto di vendita correlato per riflettere la modifica nella quantità o nell'importo. Creando un ordine di reso in base all'ordine cliente originario che è collegato a un contratto di vendita, si stabilisce una relazione tra l'impegno del contratto di vendita, la riga ordine cliente e la fattura di ordine di reso.  
+Quando un cliente restituisce un prodotto ordinato da un contratto di vendita, Supply Chain Management può trovare e aggiornare automaticamente l'impegno del contratto di vendita correlato per riflettere la modifica nella quantità o nell'importo. Creando un ordine di reso in base all'ordine cliente originario che è collegato a un contratto di vendita, si stabilisce una relazione tra l'impegno del contratto di vendita, la riga ordine cliente e la fattura di ordine di reso.  
 
 Se non si desidera detrarre la quantità di reso dall'impegno del contratto di vendita, è possibile utilizzare il controllo **Rimuovi collegamento** nella pagina **Ordine di reso** per rimuovere il collegamento tra l'ordine di reso e l'impegno del contratto di vendita. Se è necessario ristabilire successivamente il collegamento, fare clic su **Crea collegamento**.  
 
 **Nota:** Un ordine di reso può essere collegato a un solo contratto di vendita. Se il cliente restituisce più di un prodotto ordinato da più di un contratto di vendita, è necessario creare un nuovo ordine di reso per ogni prodotto e creare un collegamento al contratto di vendita corrispondente.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Ricerca automatica dei contratti di vendita
-In alcune situazioni in cui gli ordini cliente vengono creati indirettamente, ad esempio quando si crea una nota di accredito o ordini cliente interaziendali, è possibile definire se Microsoft Dynamics 365 for Finance and Operations deve cercare automaticamente i contratti di vendita applicabili.
+In alcune situazioni in cui gli ordini cliente vengono creati indirettamente, ad esempio quando si crea una nota di accredito o ordini cliente interaziendali, è possibile definire se il sistema deve cercare automaticamente i contratti di vendita applicabili.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensioni finanziarie nei contratti di vendita
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di vendita. È possibile modificare le dimensioni nell'intestazione o in una riga del contratto in qualsiasi momento. In questo caso, le dimensioni vengono automaticamente copiate nell'intestazione di rilascio o nella riga di rilascio degli ordini di rilascio.

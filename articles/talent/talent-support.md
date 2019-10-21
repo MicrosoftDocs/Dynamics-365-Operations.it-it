@@ -1,6 +1,6 @@
 ---
-title: Ottenere supporto per Talent
-description: In questo argomento viene descritto come ottenere assistenza per Microsoft Dynamics 365 for Talent.
+title: Ottenere supporto per Microsoft Dynamics 365 Talent
+description: In questo argomento viene descritto come ottenere assistenza per Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/07/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
-ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
+ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538775"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026096"
 ---
 # <a name="get-support-for-talent"></a>Ottenere supporto per Talent
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come ottenere supporto su Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract e Dynamics 365 Talent: Onboard.
+In questo argomento viene descritto come ottenere assistenza per Microsoft Dynamics 365 Talent: Core HR, Dynamics 365 Talent: Attract e Dynamics 365 Talent: Onboard.
 
 ## <a name="support-for-talent"></a>Supporto per Talent
 
@@ -34,11 +34,11 @@ Per ottenere supporto per Talent, usare le risorse indicate nella tabella seguen
 
 | Compito | Ulteriori informazioni |
 |------|------------------|
-| Chiedere alla community | Visitare la [community di Dynamics 365 for Talent](https://community.dynamics.com/365/talent) per ottenere informazioni relative alle domande. Per trovare le risposte, immettere una domanda nel campo di ricerca accanto a **Domande?**. Per porre una domanda, selezionare **Fai una domanda**. |
+| Chiedere alla community | Visitare la [community di Dynamics 365 Talent](https://community.dynamics.com/365/talent) per ottenere informazioni relative alle domande. Per trovare le risposte, immettere una domanda nel campo di ricerca accanto a **Domande?**. Per porre una domanda, selezionare **Fai una domanda**. |
 | Utilizzare lo strumento di supporto basato sul cloud. | In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), passare al progetto e selezionare il riquadro **Supporto**. È possibile inoltrare i problemi in due modi:<ul><li>Nella scheda **Problemi attivi**, selezionare il problema che si desidera inviare e quindi selezionare **Invia a Microsoft**.</li><li>Nella scheda **Inviato a Microsoft**, selezionare **Invia un nuovo evento imprevisto** per inviare un nuovo problema.</li></ul> |
 | Ottenere il supporto nell'app. | Selezionare il pulsante **Guida** (**?**) nell'angolo superiore destro della pagina Quindi, se ci si trova in Core HR, selezionare **Supporto**. Se ci si trova in Attract o Onboard, selezionare **Segnala un problema**. I problemi segnalati nella scheda **Problemi attivi** in LCS, in cui un amministratore può determinare se fornire supporto interno o inviare i problemi a Microsoft. (Se si dispone della versione autonoma di Onboard, i problemi vengono inviati direttamente a Microsoft.) |
 | Ottenere informazioni sulle licenze per Talent. | Contattare il rappresentante del partner o Microsoft. |
-| Richiedere nuove caratteristiche e funzionalità in Talent. | Nella pagina principale di Talent nell'applicazione, selezionare il pulsante **Guida** (**?**) e quindi selezionare **Idee**. È possibile visitare anche le [idee dell'applicazione Dynamics 365](https://experience.dynamics.com/ideas/) per visualizzare, cercare o votare le idee esistenti o per aggiungere nuove idee. |
+| Richiedere nuove caratteristiche e funzionalità in Talent. | Nella pagina principale di Talent, selezionare il pulsante **Guida** (**?**) e quindi selezionare **Idee**. È possibile visitare anche le [idee dell'applicazione Dynamics 365](https://experience.dynamics.com/ideas/) per visualizzare, cercare o votare le idee esistenti o per aggiungere nuove idee. |
 
 ## <a name="support-for-the-onboard-stand-alone-app"></a>Supporto per l'app autonoma Onboard
 
@@ -46,7 +46,7 @@ Per ottenere supporto per l'app autonoma Onboard, usare le risorse indicate nell
 
 | Compito | Ulteriori informazioni |
 |------|------------------|
-| Chiedere alla community | Visitare la [community di Dynamics 365 for Talent](https://community.dynamics.com/365/talent) per ottenere supporto. Per trovare le risposte, immettere una domanda nel campo di ricerca accanto a **Domande?**. Per porre una domanda, selezionare **Fai una domanda**. |
+| Chiedere alla community | Visitare la [community di Dynamics 365 Talent](https://community.dynamics.com/365/talent) per ottenere supporto. Per trovare le risposte, immettere una domanda nel campo di ricerca accanto a **Domande?**. Per porre una domanda, selezionare **Fai una domanda**. |
 | Segnalare un problema. | Fare clic sul pulsante **Guida** (**?**) nell'angolo superiore destro della pagina **Segnala un problema**. Immettere una descrizione del problema e includere un indirizzo di posta elettronica per il follow-up del problema se lo si desidera. |
 | Ottenere informazioni sulle licenze per Talent. | Contattare il rappresentante del partner o Microsoft. |
-| Richiedere nuove caratteristiche e funzionalità in Onboard. | Fare clic sul pulsante **Guida** (**?**) e quindi selezionare **Idee**. È possibile visitare anche le [idee dell'applicazione Dynamics 365 for Talent](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) per visualizzare, cercare o votare le idee esistenti o per aggiungere nuove idee. |
+| Richiedere nuove caratteristiche e funzionalità in Onboard. | Fare clic sul pulsante **Guida** (**?**) e quindi selezionare **Idee**. È possibile visitare anche le [idee di Dynamics 365 Talent: Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) per visualizzare, cercare o votare le idee esistenti o per aggiungere nuove idee. |

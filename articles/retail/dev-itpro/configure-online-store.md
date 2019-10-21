@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833177"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025747"
 ---
 # <a name="configure-online-stores"></a>Configura punti vendita online
 
@@ -53,7 +53,7 @@ Gli argomenti elencati nella tabella consentono di configurare i componenti Reta
 | Gestire le spese di spedizione.             | Impostare e gestire le spese di spedizione specifiche al negozio online.                                                                     | [Impostare le spese di spedizione per i negozi online](https://technet.microsoft.com/library/jj728714.aspx) (contenuto TechNet per AX 2012)                                                                                                                           |
 | Gestire le modalità di consegna.            | Gestire i metodi di consegna offerti dal negozio online.                                                                                        | [Impostare la modalità di consegna](https://technet.microsoft.com/library/jj728719.aspx) (contenuto TechNet per AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Impostare lo scambio di dati tra Microsoft Dynamics 365 for Retail e il negozio online
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>Impostare lo scambio di dati tra Microsoft Dynamics 365 Retail e il negozio online
 
 | Compito                                 | Dettagli                                                                                                                               | Argomenti                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

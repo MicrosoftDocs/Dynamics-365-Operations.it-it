@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare le fatture di contratto in Field Service con le fatture a testo libero in Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Microsoft Dynamics 365 for Field Service con le fatture a testo libero in Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Supply Chain Management
+description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le fatture di contratto in Dynamics 365 Field Service con le fatture a testo libero in Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560165"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249867"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Microsoft Dynamics 365 for Field Service con le fatture a testo libero in Microsoft Dynamics 365 for Finance and Operations.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Dynamics 365 Field Service con le fatture a testo libero in Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
-Il seguente modello e le attività sottostanti vengono utilizzati per eseguire la sincronizzazione delle fatture di contratto da Field Service con le fatture a testo libero in Finance and Operation.
+Il seguente modello e le attività sottostanti vengono utilizzati per eseguire la sincronizzazione delle fatture di contratto da Field Service con le fatture a testo libero in Supply Chain Management.
 
-**Nome del modello in Integrazione dati:**
+**Nome del modello in Integrazione dati**
 
-- Fatture di contratto (da Field Service a Finance and Operations)
+- Fatture di contratto (da Field Service a Supply Chain Management)
 
-**Nomi delle attività nel progetto di Integrazione dati:**
+**Nomi delle attività nel progetto di Integrazione dati**
 
 - Intestazioni fattura
-- Righe fattura
+- Righe di fattura
 
 La sincronizzazione seguente è necessaria prima di eseguire la sincronizzazione delle fatture di contratto:
 
-- Conti (da Sales a Fin and Ops) - Diretti
+- Conti (da Sales a Supply Chain Management) - Diretti
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Gestione della supply chain                 |
 |----------------|----------------------------------------|
 | fatture       | Intestazioni fattura a testo libero dei clienti CDS |
 | invoicedetails | Righe fattura a testo libero dei clienti CDS   |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Le fatture create da un contratto di Field Service possono essere sincronizzate in Finance and Operations tramite un progetto di integrazione dei dati CDS (Common Data Service). Gli aggiornamenti a queste fatture verranno sincronizzati con le fatture a testo libero in Finance and Operations se lo stato di contabilità delle fatture a testo libero è **In corso**. Dopo che le fatture a testo libero vengono registrate in Finance and Operations e lo stato di contabilità viene aggiornato a **Completato**, non è più possibile sincronizzare gli aggiornamenti da Field Service.
+Le fatture create da un contratto di Field Service possono essere sincronizzate in Supply Chain Management tramite un progetto di integrazione dei dati Common Data Service. Gli aggiornamenti a queste fatture verranno sincronizzati con le fatture a testo libero in Supply Chain Management se lo stato di contabilità delle fatture a testo libero è **In corso**. Dopo che le fatture a testo libero vengono registrate in Supply Chain Management e lo stato di contabilità viene aggiornato a **Completato**, non è più possibile sincronizzare gli aggiornamenti da Field Service.
 
 ## <a name="field-service-crm-solution"></a>Soluzione CRM Field Service
 
@@ -66,18 +66,18 @@ Il campo **Con righe con origine contratto** è stato aggiunto all'entità **Fat
 
 Il campo **Con origine contratto** è stato aggiunto all'entità **Riga fattura**. Questo campo assicura che solo le righe di fattura create da un contratto vengano sincronizzate. Il valore è **true** se la riga di fattura ha origine da un contratto.
 
-**Data fattura** è un campo obbligatorio in Finance and Operations. Di conseguenza, il campo deve avere un valore in Field Service prima della sincronizzazione. Per soddisfare questo requisito, viene aggiunta la logica seguente:
+**Data fattura** è un campo obbligatorio in Supply Chain Management. Di conseguenza, il campo deve avere un valore in Field Service prima della sincronizzazione. Per soddisfare questo requisito, viene aggiunta la logica seguente:
 
 - Se il campo **Data fattura** è vuoto nell'entità **Fattura** (vale a dire che non include alcun valore), viene impostato sulla data corrente quando si aggiunge una riga di fattura che ha origine da un contratto.
 - L'utente può modificare il campo **Data fattura**. Tuttavia, quando l'utente tenta di salvare una fattura derivante da un contratto, riceverà un errore di processo aziendale se nella fattura il campo **Data fattura** è vuoto.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
 
-### <a name="in-finance-and-operations"></a>In Finance and Operations
+### <a name="in-supply-chain-management"></a>In Supply Chain Management
 
-È necessario impostare un'origine di fattura per l'integrazione, per distinguere le fatture a testo libero di Finance and Operations che sono create da fatture di contratto in Field Service. Quando una fattura ha un'origine fattura di tipo **Integrazione fattura contratto**, viene visualizzato il campo **Numero fattura esterna** nell'intestazione **Fattura di vendita**.
+È necessario impostare un'origine di fattura per l'integrazione, per distinguere le fatture a testo libero di Supply Chain Management che sono create da fatture di contratto in Field Service. Quando una fattura ha un'origine fattura di tipo **Integrazione fattura contratto**, viene visualizzato il campo **Numero fattura esterna** nell'intestazione **Fattura di vendita**.
 
-Oltre a essere presente nell'intestazione della fattura, il **Numero di fattura esterno** può essere utilizzato per garantire che le fatture create da fatture di contratto in Field Service vengano filtrate durante la sincronizzazione delle fatture da Finance and Operations a Field Service.
+Oltre a essere presente nell'intestazione della fattura, il **Numero di fattura esterno** può essere utilizzato per garantire che le fatture create da fatture di contratto in Field Service vengano filtrate durante la sincronizzazione delle fatture da Supply Chain Management a Field Service.
 
 1. Passare a **Contabilità clienti** \> **Impostazioni** \> **Codici origine fattura**.
 2. Selezionare **Nuovo** per creare una nuova origine di fattura.
@@ -91,7 +91,7 @@ Oltre a essere presente nell'intestazione della fattura, il **Numero di fattura 
 
 Attività: **Righe fattura**  
 
-Assicurarsi che il valore predefinito per il campo **Valore di visualizzazione del conto principale** di Finance and Operations venga aggiornato in modo da corrispondere al valore desiderato.
+Assicurarsi che il valore predefinito per il campo **Valore di visualizzazione del conto principale** di Supply Chain Management venga aggiornato in modo da corrispondere al valore desiderato.
 
 Il valore del modello predefinito è **401100**.
 
@@ -99,10 +99,10 @@ Il valore del modello predefinito è **401100**.
 
 Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dati.
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Fatture di contratto (da Field Service a Finance and Operations): Intestazioni fattura
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Fatture di contratto (da Field Service a Supply Chain Management): Intestazioni fattura
 
 [![Mapping dei modelli in Integrazione dati](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Fatture di contratto (da Field Service a Finance and Operations): Righe fattura
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Fatture di contratto (da Field Service a Supply Chain Management): Righe fattura
 
 [![Mapping dei modelli in Integrazione dati](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

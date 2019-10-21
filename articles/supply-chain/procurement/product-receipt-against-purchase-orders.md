@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554346"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248917"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
@@ -52,7 +52,7 @@ Molto spesso, l'azione **Entrata prodotti** della pagina **Ordini fornitore** vi
 
 È possibile selezionare più ordini ed elaborare l'entrata per tutti gli ordini contemporaneamente. Questo approccio non viene utilizzato molto spesso, ma si consiglia di utilizzarlo se un fornitore ha consolidato le spedizioni in un singolo carico. Durante l'entrata prodotti sugli acquisti, vi è una funzione per eseguire gli aggiornamenti riepilogativi. Gli aggiornamenti riepilogativi consentono di registrare un singolo documento di trasporto del fornitore per più di un ordine fornitore.  
 
-I PO potrebbero essere creati da un ordine cliente dove l'opzione **Consegna diretta** è stata selezionata. Quando si utilizza la consegna diretta, i prodotti non arrivano in magazzino ma vengono spediti direttamente dal fornitore al cliente. In questo caso, l'entrata è in genere registrata direttamente nell'ordine fornitore. L'entrata può essere eseguita automaticamente, ad esempio mediante EDI (electronic data interchange) con il fornitore. In alternativa, se l'ordine fornitore è interaziendale, Microsoft Dynamics 365 for Finance and Operations consente di automatizzare l'entrata sull'ordine cliente interaziendale quando si verifica la spedizione. Quando si utilizza la consegna diretta, pi rodotti sono ancora contabilizzati come magazzino, anche se non arrivano fisicamente nel magazzino. Pertanto, quando l'entrata prodotti è registrata nell'ordine fornitore, l'ordine cliente viene automaticamente aggiornato con un documento di trasporto, in modo che la variazione generale nel magazzino è 0 (zero). In scenari di consegna diretta, è opportuno non utilizzare la preregistrazione. Se si utilizzano magazzini che sono abilitati per la gestione magazzino, è possibile evitare il requisito per la registrazione di targa specificando invece un magazzino virtuale. Specificare il magazzino nel campo **Magazzino consegna diretta** sul prodotto. 
+I PO potrebbero essere creati da un ordine cliente dove l'opzione **Consegna diretta** è stata selezionata. Quando si utilizza la consegna diretta, i prodotti non arrivano in magazzino ma vengono spediti direttamente dal fornitore al cliente. In questo caso, l'entrata è in genere registrata direttamente nell'ordine fornitore. L'entrata può essere eseguita automaticamente, ad esempio mediante EDI (electronic data interchange) con il fornitore. In alternativa, se l'ordine fornitore è interaziendale, Supply Chain Management consente di automatizzare l'entrata sull'ordine cliente interaziendale quando si verifica la spedizione. Quando si utilizza la consegna diretta, pi rodotti sono ancora contabilizzati come magazzino, anche se non arrivano fisicamente nel magazzino. Pertanto, quando l'entrata prodotti è registrata nell'ordine fornitore, l'ordine cliente viene automaticamente aggiornato con un documento di trasporto, in modo che la variazione generale nel magazzino è 0 (zero). In scenari di consegna diretta, è opportuno non utilizzare la preregistrazione. Se si utilizzano magazzini che sono abilitati per la gestione magazzino, è possibile evitare il requisito per la registrazione di targa specificando invece un magazzino virtuale. Specificare il magazzino nel campo **Magazzino consegna diretta** sul prodotto. 
 
 Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato dell'ordine è impostato su **Ricevuto** per indicare che la fattura può essere elaborata per l'ordine. È possibile esaminare i dettagli sui prodotti che sono già stati ricevuti utilizzando la pagina **Giornali di registrazione entrata prodotti**.  
 

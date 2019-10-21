@@ -1,6 +1,6 @@
 ---
-title: Pubblicazione di annunci di lavoro su siti di avanzamento professionale esterni da Attract
-description: In questo argomento viene descritto come utilizzare Dynamics 365 for Talent - Attract per pubblicare annunci di lavoro su siti di reclutamento esterni
+title: Pubblicare mansioni su siti di avanzamento professionale esterni da Attract
+description: In questo argomento viene descritto come utilizzare Dynamics 365 Talent - Attract per pubblicare annunci di lavoro su siti di reclutamento esterni
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739819"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008084"
 ---
 # <a name="post-jobs-to-broadbean"></a>Pubblicare posizioni in Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent - Attract aiuta a trovare i talenti necessari a un'azienda attraverso la pubblicazione di posizioni direttamente da Attract in Broadbean. Dopo la [creazione di una posizione](./creating-jobs-attract.md), è sufficiente selezionare un pulsante per presentarla a tutti i potenziali candidati su Broadbean.
+Microsoft Dynamics 365 Talent: Attract aiuta a trovare i talenti necessari a un'azienda attraverso la pubblicazione di posizioni direttamente da Attract in Broadbean. Dopo la [creazione di una posizione](./creating-jobs-attract.md), è sufficiente selezionare un pulsante per presentarla a tutti i potenziali candidati su Broadbean.
 
 Per pubblicare le posizioni su Broadbean è necessario disporre di una licenza Broadbean appropriata. Broadbean offre vari prodotti e piani. Per ulteriori informazioni sulle licenze e sui prezzi di Broadbean, [contattare Broadbean](https://www.broadbean.com/contact-us/).
 

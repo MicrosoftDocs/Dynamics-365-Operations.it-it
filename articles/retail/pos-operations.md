@@ -1,6 +1,6 @@
 ---
 title: Operazioni POS online e offline
-description: In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Microsoft Dynamics 365 for Retail. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
+description: In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Dynamics 365 Retail. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625667"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025312"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
 [!include [banner](includes/banner.md)]
 
-La maggior parte delle azioni che l'utente esegue nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Microsoft Dynamics 365 for Retail. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
+La maggior parte delle azioni che l'utente esegue nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Dynamics 365 Retail. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
 
-Nella seguente tabella vengono forniti i dettagli relativi alle operazioni disponibili in Retail Modern POS e POS cloud per Dynamics 365 for Retail. La tabella specifica anche dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili quando il POS è in modalità offline.
+Nella seguente tabella vengono forniti i dettagli relativi alle operazioni disponibili in Retail Modern POS e Cloud POS. La tabella specifica anche dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili quando il POS è in modalità offline.
 
-Alcune operazioni non sono attualmente disponibili in Retail Modern POS o POS cloud per Dynamics 365 for Retail. Alcune di queste operazioni sono specifiche dell'applicazione e richiedono ulteriori estensioni e una configurazione aggiuntiva. Altre sono funzionalità di Microsoft Dynamics AX 2012 attualmente non supportate.
+Alcune operazioni non sono attualmente disponibili in Retail Modern POS o Cloud POS. Alcune di queste operazioni sono specifiche dell'applicazione e richiedono ulteriori estensioni e una configurazione aggiuntiva. Altre sono funzionalità di Microsoft Dynamics AX 2012 attualmente non supportate.
 
 Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni:
 
@@ -42,7 +42,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 - **Schermata di benvenuto** - L'operazione può essere richiamata dalle griglie dei pulsanti POS configurate nella schermata di benvenuto POS.
 
 > [!NOTE]
-> Le operazioni elencate di seguito vengono applicate all'ultima versione di Dynamics 365 for Retail. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
+> Le operazioni elencate di seguito vengono applicate all'ultima versione di Retail. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
 
 | ID | Operazione | descrizione | Griglia dei pulsanti | Schermata transazione | Schermata di benvenuto | Disponibile offline | Specifica dell'applicazione |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

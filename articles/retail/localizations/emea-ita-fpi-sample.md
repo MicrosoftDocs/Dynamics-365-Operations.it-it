@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 38fc61bf65aec26317c09808d411d41639170013
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 71b9514d63668ed1ba0935f049ade48c99b211be
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595472"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023380"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -30,7 +30,7 @@ ms.locfileid: "1595472"
 
 ## <a name="introduction"></a>Introduzione
 
-La funzionalità di Microsoft Dynamics 365 for Retail per l'Italia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) di modo che sia utilizzabile con le stampanti [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) di Epson e abilita la comunicazione con una stampante fiscale in modalità server Web via il servizio Web EpsonFPMate utilizzando l'API Fiscal ePOS-Print. L'esempio supporta soltanto la modalità Registratore Telematico (RT). L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
+La funzionalità di Retail per l'Italia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) di modo che sia utilizzabile con le stampanti [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) di Epson e abilita la comunicazione con una stampante fiscale in modalità server Web via il servizio Web EpsonFPMate utilizzando l'API Fiscal ePOS-Print. L'esempio supporta soltanto la modalità Registratore Telematico (RT). L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 
 Microsoft non rilascia hardware, software o documentazione di Epson. Per informazioni su come ottenere la stampante fiscale e utilizzarla, contattare [Epson Italia S.p.A](https://www.epson.it).
 

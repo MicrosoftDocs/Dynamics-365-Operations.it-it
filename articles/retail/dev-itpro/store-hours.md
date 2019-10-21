@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917514"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023444"
 ---
 # <a name="create-and-update-store-hours"></a>Creare e aggiornare gli orari del punto vendita
 
@@ -36,7 +36,7 @@ Molteplici orari possono essere configurati in differenti canali. Questi canali 
 
 Se un cliente ha un ordine per un prelievo presso un altro punto vendita, il cassiere può selezionare le date in cui il prelievo sarà disponibile in quel punto vendita. La ricerca del punto vendita fornirà un riferimento alle date e agli orari del punto vendita. Il cassiere può selezionare una data e un ubicazione nonché stampare una ricevuta di prelievo che include gli orari del punto vendita.
 
-Questa funzionalità è disponibile in Microsoft Dynamics 365 for Retail versioni 8.1.2 e successive.
+Questa funzionalità è disponibile in Microsoft Dynamics 365 Retail versioni 8.1.2 e successive.
 
 ## <a name="configure-store-hours"></a>Configurare gli orari del punto vendita
 

@@ -1,6 +1,6 @@
 ---
 title: Funzionalità di vendita del servizio clienti
-description: Questo argomento fornisce una panoramica delle funzionalità di vendita del servizio clienti in Microsoft Dynamics 365 for Retail.
+description: Questo argomento fornisce una panoramica delle funzionalità di vendita del servizio clienti in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549482"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025773"
 ---
 # <a name="call-center-sales-functionality"></a>Funzionalità di vendita del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-In Dynamics 365 for Retail, un servizio clienti è un tipo di canale di vendita al dettaglio che può essere definito nell'applicazione. La definizione di uno specifico canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente creati da un utente del canale del servizio clienti.
+
+In Dynamics 365 Retail, un servizio clienti è un tipo di canale di vendita al dettaglio che può essere definito nell'applicazione. La definizione di uno specifico canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente creati da un utente del canale del servizio clienti.
 
 Le funzionalità del servizio clienti includono prezzi di vendita al dettaglio e promozioni, cataloghi, gift card e buoni sconto. Gli ordini del servizio clienti sono utilizzati dall'applicazione POS per supportare scenari di adempimento ordini multicanale.
 
-È importante notare che sebbene il modulo servizio clienti possa essere utilizzato da altri settori oltre a quello della vendita al dettaglio, la versione corrente dell'applicazione servizio clienti di Dynamics 365 for Retail non è stata ottimizzata per l'utilizzo in scenari di elaborazione ordini B2B o scenari in cui gli ordini hanno un gran numero di righe di vendita. Si consiglia agli utenti che desiderano utilizzare le funzionalità del servizio clienti per l'elaborazione di ordini al di fuori di una tipica elaborazione di transazioni direct-to-consumer di verificare attentamente che l'attivazione della funzionalità di servizio clienti soddisferà le esigenze prestazionali e funzionali.
+È importante notare che sebbene il modulo servizio clienti possa essere utilizzato da altri settori oltre a quello della vendita al dettaglio, la versione corrente dell'applicazione servizio clienti di Retail non è stata ottimizzata per l'utilizzo in scenari di elaborazione ordini B2B o scenari in cui gli ordini hanno un gran numero di righe di vendita. Si consiglia agli utenti che desiderano utilizzare le funzionalità del servizio clienti per l'elaborazione di ordini al di fuori di una tipica elaborazione di transazioni direct-to-consumer di verificare attentamente che l'attivazione della funzionalità di servizio clienti soddisferà le esigenze prestazionali e funzionali.
 
 Oltre a supportare la creazione di ordini, il modulo servizio clienti fornisce un'applicazione servizio clienti intuitiva che semplifica la ricerca di conti cliente e la verifica di tutti i dati e gli attributi di ordini cliente correlati. La schermata del servizio clienti è progettata per consentire a un utente di accedere rapidamente ai dati relativi agli ordini che gli consentiranno di rispondere alle domande sugli ordini più comuni ricevute dai clienti.
 
-In questa pagina vengono forniti collegamenti alla documentazione su impostazione, configurazione e utilizzo delle funzionalità di servizio clienti in Dynamics 365 for Retail.
+In questa pagina vengono forniti collegamenti alla documentazione su impostazione, configurazione e utilizzo delle funzionalità di servizio clienti in Retail.
+
 
 ## <a name="configure-the-call-center"></a>Configurazione del servizio clienti
 

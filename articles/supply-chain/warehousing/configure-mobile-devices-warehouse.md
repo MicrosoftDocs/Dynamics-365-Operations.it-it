@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536551"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251548"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -163,7 +163,7 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 </tr>
 <tr>
 <td>Movimento per modello</td>
-<td>Spostare gli articoli da un'ubicazione a un'altra in modo semiautomatico. Il lavoratore seleziona l'ubicazione da cui spostare gli articoli e Finance and Operations utilizza la direttiva di ubicazione per determinare l'ubicazione in cui spostarli.</td>
+<td>Spostare gli articoli da un'ubicazione a un'altra in modo semiautomatico. Il lavoratore seleziona l'ubicazione da cui spostare gli articoli e il sistema utilizza la direttiva di ubicazione per determinare l'ubicazione in cui spostarli.</td>
 </tr>
 <tr>
 <td>Trasferimento di magazzino</td>
@@ -207,12 +207,12 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nessuna priorità</td>
+<td>Nessuna</td>
 <td>Per impostazione predefinita il lavoro non viene elaborato.</td>
 </tr>
 <tr class="even">
 <td>Diretto dal sistema</td>
-<td>Microsoft Dynamics 365 for Finance and Operations controlla il tipo di lavoro che viene assegnato al lavoratore e l'ordine in cui il lavoratore esegue il lavoro. Quando si seleziona questa opzione, è possibile fare clic su <strong>Lavoro gestito dal sistema</strong> nel riquadro Azione per aprire la pagina <strong>Ordinamento gestito dal sistema</strong>, nella quale si possono impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento controllano l'ordine in cui il lavoratore esegue il lavoro. È possibile aggiungere tutti i criteri necessari.</td>
+<td>Supply Chain Management controlla il tipo di lavoro che viene assegnato al lavoratore e l'ordine in cui il lavoratore esegue il lavoro. Quando si seleziona questa opzione, è possibile fare clic su <strong>Lavoro gestito dal sistema</strong> nel riquadro Azione per aprire la pagina <strong>Ordinamento gestito dal sistema</strong>, nella quale si possono impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento controllano l'ordine in cui il lavoratore esegue il lavoro. È possibile aggiungere tutti i criteri necessari.</td>
 </tr>
 <tr class="odd">
 <td>Diretto dall'utente</td>
@@ -224,7 +224,7 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </tr>
 <tr class="odd">
 <td>Raggruppamento sistema</td>
-<td>Microsoft Dynamics 365 for Finance and Operations raggruppa il lavoro per il lavoratore in base al campo specificato. Ad esempio, il lavoro di prelievo è raggruppato quando un lavoratore esegue la scansione di un ID spedizione, di un ID carico o di qualsiasi valore che può collegare ogni unità di lavoro. Se si seleziona questa opzione, i seguenti campi sono obbligatori:
+<td>Supply Chain Management raggruppa il lavoro per il lavoratore in base al campo specificato. Ad esempio, il lavoro di prelievo è raggruppato quando un lavoratore esegue la scansione di un ID spedizione, di un ID carico o di qualsiasi valore che può collegare ogni unità di lavoro. Se si seleziona questa opzione, i seguenti campi sono obbligatori:
 <ul>
 <li><strong>Campo di raggruppamento sistema</strong>: selezionare il campo che verrà sottoposto a scansione dal lavoratore per raggruppare il lavoro.</li>
 <li><strong>Etichetta di raggruppamento sistema</strong>: immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione per raggruppare il lavoro.</li>
@@ -245,7 +245,7 @@ Questa opzione è utile, ad esempio, quando più pallet sono approntati per un c
 </tr>
 <tr class="even">
 <td>Raggruppamento conteggio ciclo</td>
-<td>Il lavoratore seleziona una zona, un pool di lavoro o un'ubicazione e Microsoft Dynamics 365 for Finance and Operations assegna il lavoro in base alla selezione. Se si seleziona questa opzione, è inoltre possibile fare clic su <strong>Conteggio ciclo</strong> nel riquadro azioni per specificare informazioni aggiuntive per visualizzare e specificare il numero di volte in cui il lavoratore deve ripetere il conteggio se viene rilevata una differenza.</td>
+<td>Il lavoratore seleziona una zona, un pool di lavoro o un'ubicazione e in Supply Chain Management il lavoro viene assegnato in base alla selezione. Se si seleziona questa opzione, è inoltre possibile fare clic su <strong>Conteggio ciclo</strong> nel riquadro azioni per specificare informazioni aggiuntive per visualizzare e specificare il numero di volte in cui il lavoratore deve ripetere il conteggio se viene rilevata una differenza.</td>
 </tr>
  <tr class="odd">
 <td>Caricamento di trasporto</td>
@@ -333,7 +333,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="odd">
 <td>Stoccaggio di gruppo</td>
-<td>Selezionare questa opzione di controllo per raggruppare il lavoro di stoccaggio. Questa opzione è disponibile quando il lavoro è stato raggruppato dal lavoratore o da Microsoft Dynamics 365 for Finance and Operations. Quando il lavoratore ha terminato il lavoro di prelievo nel gruppo, viene creato il lavoro di stoccaggio per lo stesso gruppo.</td>
+<td>Selezionare questa opzione di controllo per raggruppare il lavoro di stoccaggio. Questa opzione è disponibile quando il lavoro è stato raggruppato dal lavoratore o da Supply Chain Management. Quando il lavoratore ha terminato tutto il lavoro di prelievo nel gruppo, viene creato un lavoro di stoccaggio per lo stesso gruppo.</td>
 </tr>
 <tr class="even">
 <td>Tipi di correzione inventario</td>
@@ -366,11 +366,11 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="even">
 <td>Campo di raggruppamento sistema</td>
-<td>Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori utilizzata da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È necessario immettere inoltre testo nel campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da sottoporre a scansione.</td>
+<td>Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per il lavoratore utilizzata da Supply Chain Management. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È necessario immettere inoltre testo nel campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da sottoporre a scansione.</td>
 </tr>
 <tr class="odd">
 <td>Etichetta di raggruppamento sistema</td>
-<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Microsoft Dynamics 365 for Finance and Operations. Ad esempio, se si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
+<td>Immettere il testo per indicare al lavoratore gli elementi da sottoporre a scansione quando il lavoro di prelievo viene raggruppato da Supply Chain Management. Ad esempio, se si utilizza il campo <strong>ID spedizione</strong> per raggruppare il lavoro di prelievo in base alla spedizione, è possibile immettere l'<strong>ID spedizione</strong> nel campo. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. È inoltre necessario selezionare il campo in base a cui raggruppare tramite l'opzione <strong>Campo di raggruppamento sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Utilizza dati predefiniti</td>
@@ -386,13 +386,13 @@ Nella seguente tabella sono descritte queste opzioni.
 </tr>
 <tr class="odd">
 <td>Codice modello lavoro</td>
-<td>Selezionare il modello di lavoro che crea il lavoro per un processo. Ad esempio, se si riceve un articolo per un ordine fornitore, il lavoro di stoccaggio viene generato in base al modello di lavoro. Se non si seleziona un modello di lavoro, Microsoft Dynamics 365 for Finance and Operations assegna un modello, in base ai criteri di query. Per ulteriori informazioni sui modelli di lavoro, vedere <a href="control-warehouse-location-directives.md">Controllo del lavoro di magazzino con modelli di lavoro e direttive di ubicazione</a>.</td>
+<td>Selezionare il modello di lavoro che crea il lavoro per un processo. Ad esempio, se si riceve un articolo per un ordine fornitore, il lavoro di stoccaggio viene generato in base al modello di lavoro. Se non si seleziona un modello di lavoro, Supply Chain Management assegna un modello, in base ai criteri di query. Per ulteriori informazioni sui modelli di lavoro, vedere <a href="control-warehouse-location-directives.md">Controllo del lavoro di magazzino con modelli di lavoro e direttive di ubicazione</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Richiedere ai lavoratori di confermare il prodotto, l'ubicazione o la quantità quando prelevano gli articoli
-È possibile impostare le conferme di lavoro che richiedono a un lavoratore di utilizzare un dispositivo mobile per registrare l'ubicazione o la quantità quando esegue il lavoro nel magazzino. In questo modo è possibile garantire che il lavoratore sia nell'ubicazione corretta o stia gestendo la quantità corretta di articoli. È inoltre possibile consentire a Microsoft Dynamics 365 for Finance and Operations di confermare automaticamente la registrazione del lavoratore. Se si abilita la conferma automatica, non è possibile richiedere anche le conferme per l'ubicazione o la quantità. Le conferme di lavoro includono anche i prodotti e le varianti prodotto. Inoltre, è possibile registrare le conferme eseguendo la scansione di un codice a barre. Per confermare i prodotti e le varianti prodotto, è necessario immettere un ID per il prodotto o la variante prodotto. Può essere un ID prodotto, un ID ricerca prodotti, un ID esterno, un codice GTIN o un codice a barre. Dopo aver immesso l'ID o eseguito la scansione del codice a barre, le dimensioni della variante prodotto vengono visualizzate sul dispositivo mobile. 
+È possibile impostare le conferme di lavoro che richiedono a un lavoratore di utilizzare un dispositivo mobile per registrare l'ubicazione o la quantità quando esegue il lavoro nel magazzino. In questo modo è possibile garantire che il lavoratore sia nell'ubicazione corretta o stia gestendo la quantità corretta di articoli. È inoltre possibile consentire a Supply Chain Management di confermare automaticamente la registrazione del lavoratore. Se si abilita la conferma automatica, non è possibile richiedere anche le conferme per l'ubicazione o la quantità. Le conferme di lavoro includono anche i prodotti e le varianti prodotto. Inoltre, è possibile registrare le conferme eseguendo la scansione di un codice a barre. Per confermare i prodotti e le varianti prodotto, è necessario immettere un ID per il prodotto o la variante prodotto. Può essere un ID prodotto, un ID ricerca prodotti, un ID esterno, un codice GTIN o un codice a barre. Dopo aver immesso l'ID o eseguito la scansione del codice a barre, le dimensioni della variante prodotto vengono visualizzate sul dispositivo mobile. 
 
 Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possibile utilizzare le conferme di lavoro.
 

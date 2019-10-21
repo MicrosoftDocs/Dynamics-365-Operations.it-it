@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572836"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250992"
 ---
 # <a name="merge-inventory-batches"></a>Unisci batch di magazzino
 
@@ -89,7 +89,7 @@ No, è possibile unire solo i batch con le stesse dimensioni di immagazzinamento
 No, è possibile unire solo l'intera quantità di batch. La funzionalità di unione batch è una funzionalità di inventario, non di produzione.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Cosa accade se i batch hanno valori di attributo batch diversi?
-Quando vengono selezionati i batch di origine per combinarli nel batch unito, Finance and Operations verifica se tutti i batch hanno caratteristiche o valori di attributo. Quando un valore attributo è lo stesso, verrà suggerito un valore per il batch unito. È possibile modificare questo valore. I valori di attributo che non sono uguali vengono lasciati vuoti per il batch unito ed è possibile immettere tali valori manualmente. Se il tipo di attributo batch per il valore di attributo è un numero intero o una frazione e i valori non sono uguali per tutti i batch di origine, il valore verrà calcolato utilizzando un calcolo medio ponderato. Il valore calcolato viene arrotondato verso l'alto o verso il basso verso l'incremento più vicino. Se il valore è vuoto per un batch di origine, il batch e la relativa quantità non vengono inclusi nel calcolo. **Esempio** Nel seguente esempio viene illustrato un calcolo media ponderata per un batch unito. Due dei batch di origine hanno un valore vuoto per un tipo di attributo batch che è un numero intero. Il seguente attributo è assegnato ai batch di origine.
+Quando vengono selezionati i batch di origine per combinarli nel batch unito, Supply Chain Management verifica se tutti i batch hanno caratteristiche o valori di attributo. Quando un valore attributo è lo stesso, verrà suggerito un valore per il batch unito. È possibile modificare questo valore. I valori di attributo che non sono uguali vengono lasciati vuoti per il batch unito ed è possibile immettere tali valori manualmente. Se il tipo di attributo batch per il valore di attributo è un numero intero o una frazione e i valori non sono uguali per tutti i batch di origine, il valore verrà calcolato utilizzando un calcolo medio ponderato. Il valore calcolato viene arrotondato verso l'alto o verso il basso verso l'incremento più vicino. Se il valore è vuoto per un batch di origine, il batch e la relativa quantità non vengono inclusi nel calcolo. **Esempio** Nel seguente esempio viene illustrato un calcolo media ponderata per un batch unito. Due dei batch di origine hanno un valore vuoto per un tipo di attributo batch che è un numero intero. Il seguente attributo è assegnato ai batch di origine.
 
 | Attributo | Minimo | Incremento | Massimo |
 |-----------|---------|-----------|---------|

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a23176cefde1f4d119828c9b124750d6106a3bfa
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568070"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019349"
 ---
 # <a name="define-channel-specific-discounts"></a>Definire gli sconti specifici del canale
 
@@ -36,7 +36,7 @@ I rivenditori fissano spesso sconti diversi in canali diversi. In questo argomen
 
 I rivenditori offrono spesso sconti diversi in canali diversi. Questa strategia può servire per andare incontro alle condizioni di mercato locali o per gestire i rivenditori concorrenti.
 
-Microsoft Dynamics 365 for Retail utilizza i gruppi di prezzi per definire gli sconti specifici del canale. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
+Retail utilizza i gruppi di prezzi per definire gli sconti specifici del canale. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
 
 ## <a name="price-groups"></a>Gruppi prezzi
 

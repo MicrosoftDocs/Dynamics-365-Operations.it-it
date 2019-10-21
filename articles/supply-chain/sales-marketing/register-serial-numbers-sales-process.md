@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555040"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251318"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrare i numeri di serie nel processo di vendita
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555040"
 
 In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 
-Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, Microsoft Dynamics 365 for Finance and Operations consente di registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
+Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, è possibile registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
 
-È necessario abilitare i numeri di serie per il processo di vendita selezionando l'opzione **Attiva in processo di vendita** nella pagina **Gruppi di dimensioni di tracciabilità**. In Microsoft Dynamics 365 for Finance and Operations si verificano quindi gli eventi seguenti:
+È necessario abilitare i numeri di serie per il processo di vendita selezionando l'opzione **Attiva in processo di vendita** nella pagina **Gruppi di dimensioni di tracciabilità**. Gli eventi seguenti si verificano in Supply Chain Management:
 -   Nella scheda dettagli **Numeri di serie**, è selezionata l'opzione **Controllo numero di serie**. Se questa opzione è selezionata, è necessario registrare un numero di serie per ogni articolo sul documento di trasporto o sulla fattura.
 -   Tutte le selezioni nel gruppo di dimensioni di tracciabilità per i numeri di serie vengono deselezionate, tranne la casella di controllo **Uscita non specificata consentita**. È possibile selezionare la casella di controllo **Uscita non specificata consentita** per eseguire l'override del controllo del numero di serie e consentire l'imballaggio e la fatturazione dei prodotti senza registrare i numeri di serie.
 

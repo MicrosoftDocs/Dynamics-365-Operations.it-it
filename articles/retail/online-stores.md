@@ -1,6 +1,6 @@
 ---
 title: Impostare i punti vendita online
-description: Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Microsoft Dynamics 365 for Retail.
+description: Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543608"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017968"
 ---
 # <a name="set-up-online-stores"></a>Impostare i punti vendita online
 
 [!include [banner](includes/banner.md)]
 
-Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Microsoft Dynamics 365 for Retail.
+Questo articolo fornisce informazioni sui negozi al dettaglio online e su come impostarli in Dynamics 365 Retail.
 
-In Dynamics 365 for Retail sono supportati più canali di vendita al dettaglio. Questi canali di vendita al dettaglio includono negozi online, call center e punti vendita al dettaglio, definiti anche punti vendita fisici. I negozi online offrono a un rivenditore una presenza online in modo che i clienti possano acquistare i prodotti anche tramite il negozio online, oltre che nei punti vendita fisici. I clienti che acquistano prodotti dal negozio online possono farseli spedire o prelevarli da un punto vendita al dettaglio locale. È possibile creare un negozio online nel client Dynamics 365 for Retail. Il negozio online viene quindi pubblicato in un negozio online di terze parti che è integrato con Dynamics 365 for Retail. Il negozio online di terze parti serve come vetrina (interfaccia utente) per il negozio online e offre una scelta di funzionalità CMS (sistema di gestione clienti) e di interfaccia utente. Diverse integrazioni di questo tipo sono disponibili per Dynamics 365 for Retail. Le proprietà definite per il negozio online determinano il comportamento del negozio online. Ad esempio, è possibile definire la gerarchia di categorie di navigazione in Dynamics 365 for Retail e assegnarla al negozio online. Quando si pubblica il negozio online nel negozio online di terze parti, la gerarchia di categorie di navigazione viene visualizzata nella versione online del punto vendita. Gli acquirenti utilizzano la gerarchia di categorie di navigazione per esplorare il negozio online e per cercare i prodotti. Per creare un negozio online, è necessario impostare i componenti che consentono l'elaborazione delle transazioni per il punto vendita. Ad esempio, è necessario aggiungere assortimenti, applicare attributi e impostare metodi di pagamento e di spedizione. È inoltre possibile definire i prezzi, le promozioni, gli sconti, gli accordi commerciali e le condizioni di spedizione specifici del negozio online. Dopo aver pubblicato il negozio online nel negozio online di terze parti, è possibile creare cataloghi di prodotti al dettaglio per il negozio online. I prodotti del catalogo diventano elenchi di prodotti nel negozio online. Quando un acquirente acquista prodotti dal negozio online, le scorte disponibili vengono aggiornate e sincronizzate nel client. Inoltre, gli ordini cliente vengono generati per gli acquisti e inviati al client per l'esecuzione e l'elaborazione dell'ordine.
+Retail supporta più canali di vendita al dettaglio. Questi canali di vendita al dettaglio includono negozi online, call center e punti vendita al dettaglio, definiti anche punti vendita fisici. I negozi online offrono a un rivenditore una presenza online in modo che i clienti possano acquistare i prodotti anche tramite il negozio online, oltre che nei punti vendita fisici. I clienti che acquistano prodotti dal negozio online possono farseli spedire o prelevarli da un punto vendita al dettaglio locale. È possibile creare un negozio online nel client Retail. Il negozio online viene quindi pubblicato in un negozio online di terze parti che è integrato con Retail. Il negozio online di terze parti serve come vetrina (interfaccia utente) per il negozio online e offre una scelta di funzionalità CMS (sistema di gestione clienti) e di interfaccia utente. Diverse integrazioni di questo tipo sono disponibili. Le proprietà definite per il negozio online determinano il comportamento del negozio online. Ad esempio, è possibile definire la gerarchia di categorie di navigazione in Retail e assegnarla al negozio online. Quando si pubblica il negozio online nel negozio online di terze parti, la gerarchia di categorie di navigazione viene visualizzata nella versione online del punto vendita. Gli acquirenti utilizzano la gerarchia di categorie di navigazione per esplorare il negozio online e per cercare i prodotti. Per creare un negozio online, è necessario impostare i componenti che consentono l'elaborazione delle transazioni per il punto vendita. Ad esempio, è necessario aggiungere assortimenti, applicare attributi e impostare metodi di pagamento e di spedizione. È inoltre possibile definire i prezzi, le promozioni, gli sconti, gli accordi commerciali e le condizioni di spedizione specifici del negozio online. Dopo aver pubblicato il negozio online nel negozio online di terze parti, è possibile creare cataloghi di prodotti al dettaglio per il negozio online. I prodotti del catalogo diventano elenchi di prodotti nel negozio online. Quando un acquirente acquista prodotti dal negozio online, le scorte disponibili vengono aggiornate e sincronizzate nel client. Inoltre, gli ordini cliente vengono generati per gli acquisti e inviati al client per l'esecuzione e l'elaborazione dell'ordine.
 
 ## <a name="set-up-an-online-store"></a>Impostare un negozio online
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555158"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248982"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborazione con i fornitori tramite il portale fornitori
 
@@ -31,7 +31,7 @@ ms.locfileid: "1555158"
 
 In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 
-Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. La funzionalità portale fornitori è stata sostituita da funzionalità estese di collaborazione fornitore in Dynamics 365 for Operations versione 1611. Per ulteriori informazioni sulle nuove funzionalità di collaborazione fornitore, vedere [Utilizzo di collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).  
+Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. Per ulteriori informazioni sulle nuove funzionalità di collaborazione fornitore, vedere [Utilizzo di collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).  
 
 Il portale fornitori è destinato ai fornitori che non dispongono dell'integrazione EDI (Electronic Data Interchange) con Microsoft Dynamics AX per scambiare le informazioni sugli ordini fornitore. Il portale consente agli addetti agli acquisti di inviare un ordine al fornitore e di ricevere una risposta di conferma o rifiuto direttamente in Dynamics AX.  
 

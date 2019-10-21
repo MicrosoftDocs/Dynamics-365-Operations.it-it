@@ -1,6 +1,6 @@
 ---
-title: Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations
-description: In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations.
+title: Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
+description: In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,30 +19,29 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562720"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249826"
 ---
-# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations
+# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Microsoft Dynamics 365 for Field Service in Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Dynamics 365 Field Service in Dynamics 365 Supply Chain Management.
 
-[![Sincronizzazione dei processi aziendali tra Finance and Operations e Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
-In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
-I seguenti modelli e le attività sottostanti vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations.
+I seguenti modelli e le attività sottostanti vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management.
 
 ### <a name="names-of-the-templates-in-data-integration"></a>Nomi dei modelli in Integrazione dati
 
-Il modello **Ordini di lavoro a ordini cliente (da Field Service a Fin and Ops)** viene utilizzato per eseguire la sincronizzazione.
+Il modello **Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management)** viene utilizzato per eseguire la sincronizzazione.
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>Nomi delle attività nel progetto di Integrazione dati
 
@@ -54,12 +53,12 @@ Il modello **Ordini di lavoro a ordini cliente (da Field Service a Fin and Ops)*
 
 Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la sincronizzazione delle intestazioni e delle righe dell'ordine cliente:
 
-- Prodotti Field Service (da Fin and Ops a Field Service)
-- Conti (da Sales a Fin and Ops) - Diretti
+- Prodotti Field Service (da Supply Chain Management a Field Service)
+- Conti (da Sales a Supply Chain Management) - Diretti
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| **Field Service** | **Finance and Operations** |
+| **Field Service** | **Gestione della supply chain** |
 |-------------------------|-------------------------|
 | msdyn_workorders        | Intestazioni ordine cliente CDS |
 | msdyn_workorderservices | Righe ordine cliente CDS   |
@@ -67,13 +66,13 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Finance and Operations tramite un progetto di integrazione dati CDS. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Finance and Operations. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
+Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Supply Chain Management tramite un progetto di integrazione dati Common Data Service. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Supply Chain Management. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
 
 ## <a name="estimated-versus-used"></a>Stimato rispetto a Utilizzato
 
-In Field Service, i prodotti e i servizi negli ordini di lavoro hanno entrambi i valori **Stimato** e **Utilizzato** per le quantità e gli importi. Tuttavia, in Finance and Operations, negli ordini cliente i valori **Stimato** e **Utilizzato** non hanno lo stesso significato. Per supportare l'allocazione di prodotti che utilizza la quantità prevista nell'ordine cliente in Finance and Operations e per mantenere al contempo la quantità utilizzata che deve essere consumata e fatturata, due insiemi di attività sincronizzano i prodotti e i servizi nell'ordine di lavoro. Un insieme di attività è per i valori **Stimati** e l'altro insieme è per i valori **Utilizzati**.
+In Field Service, i prodotti e i servizi negli ordini di lavoro hanno entrambi i valori **Stimato** e **Utilizzato** per le quantità e gli importi. Tuttavia, in Supply Chain Management, negli ordini cliente i valori **Stimato** e **Utilizzato** non hanno lo stesso significato. Per supportare l'allocazione di prodotti che utilizza la quantità prevista nell'ordine cliente in Supply Chain Management e per mantenere al contempo la quantità utilizzata che deve essere consumata e fatturata, due insiemi di attività sincronizzano i prodotti e i servizi nell'ordine di lavoro. Un insieme di attività è per i valori **Stimati** e l'altro insieme è per i valori **Utilizzati**.
 
-Questo comportamento supporta scenari in cui i valori stimati vengono utilizzati per l'allocazione o la prenotazione in Finance and Operations, mentre i valori utilizzati vengono utilizzati per il consumo e la fatturazione.
+Questo comportamento supporta scenari in cui i valori stimati vengono utilizzati per l'allocazione o la prenotazione in Supply Chain Management, mentre i valori utilizzati vengono utilizzati per il consumo e la fatturazione.
 
 ### <a name="estimated"></a>Stimato
 
@@ -87,7 +86,7 @@ I valori **Utilizzato** vengono utilizzati per il consumo e la fatturazione. In 
 
 Nella seguente tabella viene fornita una panoramica delle diverse combinazioni per le righe di prodotti.
 
-| Stato sistema <br>(Field Service) | Stato riga <br>(Field Service) | Allocato <br>(Field Service) |Valore sincronizzato <br>(Finance and Operations) |
+| Stato sistema <br>(Field Service) | Stato riga <br>(Field Service) | Allocato <br>(Field Service) |Valore sincronizzato <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | Aperto - Programmato   | Stimato   | Sì       | Stimato                       |
 | Aperto - Programmato   | Stimato   | No        | Ratei utilizzati                            |
@@ -108,7 +107,7 @@ Nella seguente tabella viene fornita una panoramica delle diverse combinazioni p
 
 Nella seguente tabella viene fornita una panoramica delle diverse combinazioni per le righe di servizi.
 
-| Stato sistema <br>(Field Service) | Stato riga <br>(Field Service) | Valore sincronizzato <br>(Finance and Operations) |
+| Stato sistema <br>(Field Service) | Stato riga <br>(Field Service) | Valore sincronizzato <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|
 | Aperto - Programmato   | Stimato   | Stimato |
 | Aperto - Programmato   | Ratei utilizzati        | Ratei utilizzati      |
@@ -130,7 +129,7 @@ La sincronizzazione dei valori **Stimato** rispetto ai valori **Utilizzato** vie
     - **Riga prodotto:** Qtà stimata = 5ea, Qtà utilizzata = 0ea, Stato riga = Stimato, Allocato = No
     - **Riga servizio:** Qtà stimata = 2h, Qtà utilizzata = 0h, Stato riga = Stimato
 
-    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **0** (zero) e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Finance and Operations.
+    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **0** (zero) e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Supply Chain Management.
 
 2. I prodotti vengono allocati in Field Service.
 
@@ -139,7 +138,7 @@ La sincronizzazione dei valori **Stimato** rispetto ai valori **Utilizzato** vie
     - **Riga prodotto:** Qtà stimata = 5ea, Qtà utilizzata = 0ea, Stato riga = Stimato, Allocato = Yes
     - **Riga servizio:** Qtà stimata = 2h, Qtà utilizzata = 0h, Stato riga = Stimato
 
-    In questo esempio, il valore di **Qtà stimata** del prodotto pari a **5ea** e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Finance and Operations.
+    In questo esempio, il valore di **Qtà stimata** del prodotto pari a **5ea** e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Supply Chain Management.
 
 3. Il tecnico dell'assistenza inizia a lavorare all'ordine di lavoro e registra un utilizzo di materiali pari a 6.
 
@@ -148,7 +147,7 @@ La sincronizzazione dei valori **Stimato** rispetto ai valori **Utilizzato** vie
     - **Riga prodotto:** Qtà stimata = 5ea, Qtà utilizzata = 6ea, Stato riga = Utilizzato, Allocato = Yes
     - **Riga servizio:** Qtà stimata = 2h, Qtà utilizzata = 0h, Stato riga = Stimato
 
-    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **6** e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Finance and Operations.
+    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **6** e il valore di **Qtà stimata** del servizio pari a **2h** vengono sincronizzati in Supply Chain Management.
 
 4. Il tecnico dell'assistenza completa l'ordine di lavoro e registra il tempo impiegato pari a 1,5 ore.
 
@@ -157,21 +156,21 @@ La sincronizzazione dei valori **Stimato** rispetto ai valori **Utilizzato** vie
     - **Riga prodotto:** Qtà stimata = 5ea, Qtà utilizzata = 6ea, Stato riga = Utilizzato, Allocato = Yes
     - **Riga servizio:** Qtà stimata = 2h, Qtà utilizzata = 1,5h, Stato riga = Utilizzato
 
-    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **6** e il valore di **Qtà utilizzata** del servizio pari a **1,5h** vengono sincronizzati in Finance and Operations.
+    In questo esempio, il valore di **Qtà utilizzata** del prodotto pari a **6** e il valore di **Qtà utilizzata** del servizio pari a **1,5h** vengono sincronizzati in Supply Chain Management.
 
 ## <a name="sales-order-origin-and-status"></a>Origine dell'ordine cliente e stato
 
 ### <a name="sales-origin"></a>Origine vendite
 
-Per tenere traccia degli ordini cliente in Finance and Operations che hanno origine da ordini di lavoro, è possibile creare un'origine vendite dove l'opzione **Assegnazione tipo di origine** è impostata su **Sì** e il campo **Tipo di origine vendite** è impostato su **Tipo di origine vendite**.
+Per tenere traccia degli ordini cliente che hanno origine da ordini di lavoro, è possibile creare un'origine vendite dove l'opzione **Assegnazione tipo di origine** è impostata su **Sì** e il campo **Tipo di origine vendite** è impostato su **Tipo di origine vendite**.
 
-Per impostazione predefinita, il mapping seleziona l'origine vendite per il tipo di origine vendite **Integrazione ordine di lavoro** per tutti gli ordini cliente creati da ordini di lavoro. Questo comportamento può risultare utile quando si lavora a un ordine cliente in Finance and Operations. È necessario assicurarsi che gli ordini cliente che derivano da ordini di lavoro non vengano sincronizzati nuovamente in Field Service come ordini di lavoro.
+Per impostazione predefinita, il mapping seleziona l'origine vendite per il tipo di origine vendite **Integrazione ordine di lavoro** per tutti gli ordini cliente creati da ordini di lavoro. Questo comportamento può risultare utile quando si lavora a un ordine cliente in Supply Chain Management. È necessario assicurarsi che gli ordini cliente che derivano da ordini di lavoro non vengano sincronizzati nuovamente in Field Service come ordini di lavoro.
 
-Per ulteriori informazioni su come impostare correttamente l'origine vendite in Finance and Operations, vedere la sezione "Prerequisiti e impostazioni di mapping" in questo argomento.
+Per ulteriori informazioni su come impostare correttamente l'origine vendite in Supply Chain Management, vedere la sezione "Prerequisiti e impostazioni di mapping" in questo argomento.
 
 ### <a name="status"></a>Stato
 
-Quando l'ordine cliente ha origine da un ordine di lavoro, il campo **Stato ordine di lavoro esterno** viene visualizzato nella scheda **Impostazioni** nell'intestazione dell'ordine cliente. Questo campo mostra lo stato di sistema dall'ordine di lavoro in Field Service, per aiutare a tenere traccia dello stato dell'ordine di lavoro sincronizzato degli ordini cliente in Finance and Operations. Questo campo aiuta inoltre l'utente di Finance and Operations a determinare quando l'ordine cliente deve essere spedito o fatturato.
+Quando l'ordine cliente ha origine da un ordine di lavoro, il campo **Stato ordine di lavoro esterno** viene visualizzato nella scheda **Impostazioni** nell'intestazione dell'ordine cliente. Questo campo mostra lo stato di sistema dall'ordine di lavoro in Field Service, per aiutare a tenere traccia dello stato dell'ordine di lavoro sincronizzato degli ordini cliente in Supply Chain Management. Questo campo aiuta inoltre l'utente a determinare quando l'ordine cliente deve essere spedito o fatturato.
 
 Il campo **Stato ordine di lavoro esterno** può contenere i valori seguenti:
 
@@ -182,16 +181,16 @@ Il campo **Stato ordine di lavoro esterno** può contenere i valori seguenti:
 
 ## <a name="field-service-crm-solution"></a>Soluzione CRM Field Service
 
-Per supportare l'integrazione tra Field Service and Finance e Operations, sono richieste delle funzionalità aggiuntive nella soluzione CRM Field Service. La soluzione include le modifiche seguenti.
+Per supportare l'integrazione tra Field Service e Supply Chain Management, sono richieste delle funzionalità aggiuntive nella soluzione CRM Field Service. La soluzione include le modifiche seguenti.
 
 ### <a name="work-order-entity"></a>Entità ordine di lavoro
 
-Il campo ***Solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro** e appare nella pagina. Viene utilizzato per controllare in modo coerente se un ordine di lavoro è costituito interamente da prodotti gestiti esternamente. Un ordine di lavoro include solo prodotti gestiti esternamente quando tutti i prodotti correlati vengono gestiti in Finance and Operations. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro che hanno prodotti sconosciuti in Finance and Operations.
+Il campo ***Solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro** e appare nella pagina. Viene utilizzato per controllare in modo coerente se un ordine di lavoro è costituito interamente da prodotti gestiti esternamente. Un ordine di lavoro include solo prodotti gestiti esternamente quando tutti i prodotti correlati vengono gestiti in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro che hanno prodotti sconosciuti.
 
 ### <a name="work-order-product-entity"></a>Entità ordine di lavoro prodotto
 
-- Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro prodotto viene gestito in Finance and Operations. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro prodotto sconosciuti in Finance and Operations.
-- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando i prodotti ordine di lavoro vengono sincronizzati in Finance and Operations. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
+- Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro prodotto viene gestito in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro prodotto sconosciuti in Supply Chain Management.
+- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando i prodotti ordine di lavoro vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
 - Il campo **Importo unitario fatturato** mostra l'importo che viene fatturato in base all'unità effettiva utilizzata. Questo valore viene calcolato come il valore di **Importo totale** diviso per il valore di **Quantità effettiva**. Il campo viene utilizzato per l'integrazione con sistemi che non supportano valori diversi per la quantità utilizzata e la quantità fatturata. Questo campo non appare nell'interfaccia utente (UI). 
 - Il campo **Importo sconto fatturato** viene calcolato come il valore di **Importo sconto** più l'arrotondamento del calcolo del valore di **Importo sconto fatturato**. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Quantità decimale** memorizza il valore del campo **Quantità** come numero decimale. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente. 
@@ -199,8 +198,8 @@ Il campo ***Solo prodotti gestiti esternamente** è stato aggiunto all'entità *
 
 ### <a name="work-order-service-entity"></a>Entità ordine di lavoro assistenza
 
-- Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro assistenza viene gestito in Finance and Operations. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro assistenza sconosciuti in Finance and Operations.
-- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando gli ordini di lavoro assistenza vengono sincronizzati in Finance and Operations. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
+- Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro assistenza viene gestito in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro assistenza sconosciuti in Supply Chain Management.
+- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando gli ordini di lavoro assistenza vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
 - Il campo **Durata in ore** memorizza il valore del campo **Durata** dopo che il valore è stato convertito da minuti in ore. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Durata stimata in ore** memorizza il valore del campo **Durata stimata** dopo che il valore è stato convertito da minuti in ore. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Importo unitario fatturato** memorizza l'importo che viene fatturato in base all'unità effettiva utilizzata. Questo valore viene calcolato come il valore di **Importo totale** diviso per il valore di **Quantità effettiva**. Questo campo viene utilizzato per l'integrazione con sistemi che non supportano valori diversi per la quantità utilizzata e la quantità fatturata. Il campo non appare nell'interfaccia utente.
@@ -214,12 +213,12 @@ Prima di sincronizzare gli ordini di lavoro, è importante aggiornare le imposta
 
 ### <a name="setup-in-field-service"></a>Impostazione in Field Service
 
-- Verificare che la serie numerica utilizzata per gli ordini di lavoro in Field Service non si sovrapponga alla sequenza numerica che viene utilizzata per gli ordini cliente in Finance and Operations. In caso contrario, è possibile che gli ordini clienti esistenti vengano aggiornati in modo errato in Field Service o Finance and Operations.
-- Il campo **Creazione fattura ordine di lavoro** deve essere impostato su **Mai** in quanto la fattura sarà eseguita dall'interno di Finance and Operations. Passare a **Field Service** \> **Impostazioni** \> **Amministrazione** \> **Impostazioni di Field Service** e assicurarsi che il campo **Creazione fattura ordine di lavoro** sia impostata su **Mai**.
+- Verificare che la serie numerica utilizzata per gli ordini di lavoro in Field Service non si sovrapponga alla sequenza numerica che viene utilizzata per gli ordini cliente in Supply Chain Management. In caso contrario, è possibile che gli ordini clienti esistenti vengano aggiornati in modo errato in Field Service o Supply Chain Management.
+- Il campo **Creazione fattura ordine di lavoro** deve essere impostato su **Mai** in quanto la fattura sarà eseguita dall'interno di Supply Chain Management. Passare a **Field Service** \> **Impostazioni** \> **Amministrazione** \> **Impostazioni di Field Service** e assicurarsi che il campo **Creazione fattura ordine di lavoro** sia impostata su **Mai**.
 
-### <a name="setup-in-finance-and-operations"></a>Impostazione in Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Impostazione in Supply Chain Management
 
-L'integrazione dell'ordine di lavoro richiede l'impostazione dell'origine vendite. L'origine vendite viene utilizzata per distinguere gli ordini cliente in Finance and Operations che sono stati creati da ordini di lavoro in Field Service. Quando un ordine cliente ha un'origine vendite di tipo **Integrazione ordine di lavoro**, il campo **Stato ordine di lavoro esterno** viene visualizzato nell'intestazione dell'ordine cliente. L'origine vendite aiuta inoltre a garantire che gli ordini client che sono stati creati da ordini di lavoro in Field Service vengano filtrati durante la sincronizzazione degli ordini cliente da Finance and Operations verso Field Service.
+L'integrazione dell'ordine di lavoro richiede l'impostazione dell'origine vendite. L'origine vendite viene utilizzata per distinguere gli ordini cliente in Supply Chain Management che sono stati creati da ordini di lavoro in Field Service. Quando un ordine cliente ha un'origine vendite di tipo **Integrazione ordine di lavoro**, il campo **Stato ordine di lavoro esterno** viene visualizzato nell'intestazione dell'ordine cliente. L'origine vendite aiuta inoltre a garantire che gli ordini client che sono stati creati da ordini di lavoro in Field Service vengano filtrati durante la sincronizzazione degli ordini cliente da Supply Chain Management a Field Service.
 
 1. Passare a **Vendite e marketing** \> **Impostazioni** \> **Ordini cliente** \> **Origine vendite**.
 2. Selezionare **Nuovo** per creare una nuova origine vendite.
@@ -243,31 +242,31 @@ Assicurarsi che **Chiave di integrazione** esiste per **msdyn_workorders**
 
 Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dati.
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderHeader
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderheader"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderHeader
 
 Filtro: (msdyn_systemstatus ne 690970005) e (msdyn_systemstatus ne 690970000) e (msdynce_hasexternallymaintainedproductsonly eq true)
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderServiceLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004)
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderServiceLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderProductLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004) e (msdyn_allocated eq true)
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Finance and Operations): WorkOrderProductLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 

@@ -1,6 +1,6 @@
 ---
 title: Inizializzare i dati iniziali in nuovi ambienti Retail
-description: In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Retail.
+description: In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556900"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025518"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Inizializzare i dati iniziali nei nuovi ambienti Retail
 
 [!include [banner](includes/banner.md)]
 
-In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Microsoft Dynamics 365 for Retail.
+In questo articolo viene descritto i dati creati durante il processo di inizializzazione di Dynamics 365 Retail.
 
 Dopo la distribuzione della soluzione di vendita al dettaglio tramite Microsoft Dynamics Lifecycle Services (LCS), è necessario inizializzare la configurazione della soluzione per creare i dati di configurazione di base.
 
@@ -39,7 +39,7 @@ Dopo la distribuzione della soluzione di vendita al dettaglio tramite Microsoft 
 
 Per inizializzare la configurazione della funzionalità di vendita al dettaglio, effettuare le operazioni indicate di seguito.
 
-1. Avviare il client Dynamics 365 for Retail.
+1. Avviare il client Retail.
 2. Fare clic su **Vendita al dettaglio** &gt; **Impostazione sedi centrali** &gt; **Parametri** &gt; **Parametri di vendita al dettaglio**.
 3. Fare clic su **Inizializza**.
 
@@ -57,7 +57,7 @@ L'inizializzazione crea i seguenti dati di configurazione predefiniti:
 - Modelli di convalida entità
 - Processo batch per l'eliminazione dello storico della sessione di Commerce Data Exchange
 
-Inoltre, la registrazione correlata a PCI (Payment Cad Industry) è abilitata per il database di Dynamics 365 for Retail.
+Inoltre, la registrazione correlata a PCI (Payment Cad Industry) è abilitata per il database di Retail.
 
 > [!NOTE]
 > È disponibile un'opzione per configurare separatamente Retail scheduler. Questa opzione consente di reimpostare la configurazione il dettaglio dell'utilità di pianificazione con le relative impostazioni predefinite.

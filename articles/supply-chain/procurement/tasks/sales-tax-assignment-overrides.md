@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838000"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026603"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Assegnazione e sostituzioni IVA
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura dimostra come assegnare fasce IVA ai canali di vendita al dettaglio. Inoltre illustra il processo di creare una nuova forzatura IVA e assegnarla ad un gruppo di forzatura IVA esistente. Questa procedura
-
-utilizza la società di dati dimostrativi USRT.
+Questa procedura dimostra come assegnare fasce IVA ai canali di vendita al dettaglio. Inoltre illustra il processo di creare una nuova forzatura IVA e assegnarla ad un gruppo di forzatura IVA esistente. Questa procedura utilizza i dati dimostrativi della società USRT.
 
 1. Passare a Vendita al dettaglio e commercio > Canali > Punti vendita al dettaglio > Tutti i punti vendita al dettaglio.
 2. Nella lista, fare clic sul collegamento ID canale di vendita al dettaglio per "Houston".

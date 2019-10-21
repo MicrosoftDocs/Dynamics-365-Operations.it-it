@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556440"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017899"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestione turni e cassetto della cassa
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556440"
 
 In questo argomento viene descritto come impostare e utilizzare i turni in Retail POS (POS).
 
-In Microsoft Dynamics 365 for Retail, il termine *turno* descrive la raccolta di dati e attività transazionali di POS tra due unità temporali. Per ogni turno, la somma di denaro programmata è comparata con l'importo che è stato conteggiato e dichiarato.
+In Dynamics 365 Retail, il termine *turno* descrive la raccolta di dati e attività transazionali di POS tra due unità temporali. Per ogni turno, la somma di denaro programmata è comparata con l'importo che è stato conteggiato e dichiarato.
 
 In genere, i turni sono aperti all'inizio della giornata lavorativa. A questo punto, un utente indica l'importo iniziale del cassetto della cassa. Le transazioni di vendita vengono eseguite durante la giornata. Infine, al termine della giornata, il cassetto viene contato e gli importi di chiusura vengono dichiarati. Il turno verrà chiuso e un report Z viene generato. Il report Z indica se esistono importi eccedentari o mancanti.
 
@@ -69,7 +69,7 @@ Per utilizzare i turni condivisi in un negozio, il cassetto denaro deve essere c
 
 ## <a name="shift-and-drawer-operations"></a>Operazioni di turno e di cassetto
 
-È possibile eseguire varie operazioni per cambiare lo stato di un turno o per aumentare o ridurre la somma di denaro in cassa. La sezione seguente descrive queste operazioni per turni per Microsoft Dynamics 365 for Retail Modern POS e Cloud POS.
+È possibile eseguire varie operazioni per cambiare lo stato di un turno o per aumentare o ridurre la somma di denaro in cassa. La sezione seguente descrive queste operazioni per turni per Retail Modern POS e Cloud POS.
 
 ### <a name="open-shift"></a>Turno aperto
 

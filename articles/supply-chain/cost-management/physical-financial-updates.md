@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547888"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250870"
 ---
 # <a name="physical-and-financial-updates"></a>Aggiornamenti fisici e finanziari
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547888"
 
 In questo argomento viene fornita una panoramica dei tipi di transazioni che aumentano e riducono le quantità delle scorte. 
 
-In Microsoft Dynamics 365 for Finance and Operations le transazioni di magazzino possono essere aggiornate fisicamente e finanziariamente. Alcuni tipi di transazioni di magazzino e di transazioni finanziarie determinano un incremento delle quantità di scorte, altre una riduzione.
+In Dynamics 365 Supply Chain Management le transazioni di magazzino possono essere aggiornate fisicamente e finanziariamente. Alcuni tipi di transazioni di magazzino e di transazioni finanziarie determinano un incremento delle quantità di scorte, altre una riduzione.
 
 ## <a name="physical-increases"></a>Aumenti fisici
 Quando viene registrata una transazione fisica, lo stato del record di transazione è **Ricevuto**. Vengono considerate aumenti fisici le seguenti transazioni:
@@ -51,10 +51,13 @@ Quando viene registrata una transazione in entrata finanziaria, lo stato del rec
 -   Giornali di registrazione magazzino di quantità positive, ad esempio movimenti, profitti e perdite, conteggio, distinta base e trasferimento
 
 ## <a name="transactions-that-increase-quantity"></a>Transazioni che aumentano la quantità
-Le transazioni che aumentano la quantità vengono registrate al prezzo di costo medio corrente. Finance and Operations calcola un prezzo di costo medio corrente basato sul costo di ciascuna transazione per ogni dimensione inventariale tracciata finanziariamente. Per informazioni sul prezzo di costo medio corrente, vedere [Informazioni sul prezzo di costo medio corrente](running-average-cost-price.md).
+Le transazioni che aumentano la quantità vengono registrate al prezzo di costo medio corrente. Il prezzo di costo medio corrente calcolato si basa sul costo di ciascuna transazione per ogni dimensione inventariale tracciata finanziariamente. Per informazioni sul prezzo di costo medio corrente, vedere [Informazioni sul prezzo di costo medio corrente](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Transazioni che riducono la quantità
-In Finance and Operations viene utilizzato il prezzo di costo medio corrente calcolato quando viene registrata una transazione che riduce la quantità, indipendentemente dal modello inventariale associato a quelle scorte, purché la transazione che riduce la quantità non fosse precedentemente contrassegnata su un'altra transazione prima della registrazione. Se le scorte fisiche disponibili diventano negative, in Finance and Operations verrà utilizzato il costo di magazzino definito per l'articoloo nella pagina **Articolo**. **Nota**: se è attivata la funzionalità multisito, il costo sarà invece il costo di magazzino definito per un sito nella pagina **Impostazioni ordine predefinite**.
+Viene utilizzato il prezzo di costo medio corrente calcolato quando viene registrata una transazione che riduce la quantità, indipendentemente dal modello inventariale associato a quelle scorte, purché la transazione che riduce la quantità non fosse precedentemente contrassegnata su un'altra transazione prima della registrazione. Se le scorte fisiche disponibili diventano negative, verrà utilizzato il costo di magazzino definito per l'articolo nella pagina **Articolo**. 
+
+> [!NOTE]
+> Se è attivata la funzionalità multisito, il costo sarà invece il costo di magazzino definito per un sito nella pagina **Impostazioni ordine predefinite**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Uscite fisiche e finanziarie
 Quando viene registrata una transazione fisica in uscita, lo stato del record di transazione è **Detratto**. Vengono considerate uscite finanziarie le seguenti transazioni:
@@ -71,6 +74,3 @@ Quando viene registrata una transazione finanziaria, lo stato del record di tran
 -   Giornali di registrazione magazzino di quantità negative, ad esempio movimenti, profitti e perdite, conteggio, distinta base e trasferimento
 
 Le transazioni che riducono la quantità vengono registrate al prezzo di costo medio corrente. La procedura di chiusura dell'inventario, pertanto, è necessaria per liquidare le transazioni in uscita a fronte delle transazioni in entrata in base al modello inventariale assegnato a ciascun articolo.
-
-
-

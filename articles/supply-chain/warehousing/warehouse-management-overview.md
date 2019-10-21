@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865138"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251064"
 ---
-# <a name="warehouse-management-overview"></a>Panoramica della gestione magazzino
+# <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Il modulo Gestione magazzino per Dynamics 365 for Finance and Operations consente di gestire i processi di magazzino nella produzione, nella distribuzione e nelle società di vendita al dettaglio. Questo modulo include una vasta gamma di funzionalità per supportare il magazzino a livello ottimale in qualsiasi momento. Il modulo Gestione magazzino è completamente integrato con altri processi aziendali di Finance and Operations, come ad esempio trasporto, produzione, controllo qualità, acquisti, trasferimento, vendite e resi.
+Il modulo Gestione magazzino consente di gestire i processi di magazzino nella produzione, nella distribuzione e nelle società di vendita al dettaglio. Questo modulo include una vasta gamma di funzionalità per supportare il magazzino a livello ottimale in qualsiasi momento. Il modulo Gestione magazzino è completamente integrato con altri processi aziendali, come ad esempio trasporto, produzione, controllo qualità, acquisti, trasferimento, vendite e resi.
 
 ## <a name="get-started"></a>Per iniziare
 Per iniziare a utilizzare Gestione magazzino, è necessario completare l'impostazione dei parametri generali di magazzino per supportare i processi aziendali della società.

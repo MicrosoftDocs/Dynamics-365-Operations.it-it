@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836534"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017922"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinare la combinazione ottimale di sconti sovrapposti
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836534"
 
 Quando gli sconti si sovrappongono, è necessario determinare la combinazione di sconti sovrapposti che produrranno il totale transazione più basso o lo sconto totale più alto. Quando l'importo dello sconto dipende dal prezzo dei prodotti acquistati, come ad esempio nel comune sconto al dettaglio "Compri 1, prendi 1 con lo sconto dell'X percento", questo processo diventa una questione di ottimizzazione combinatoria.
 
-Questo articolo si applica a Microsoft Dynamics AX 2012 R3 con KB 3105973 (rilasciato il 2 novembre 2015) o versioni successive e a Microsoft Dynamics 365 for Retail. Per determinare la combinazione di sconti sovrapposti da applicare con puntualità, abbiamo introdotto un metodo per l'applicazione degli sconti sovrapposti. Chiamiamo il nuovo metodo **classificazione del valore marginale**. Classificazione del valore marginale viene utilizzata quando il tempo necessario per valutare le possibili combinazioni di sconti sovrapposti supera una soglia configurabile nella pagina **Parametri di vendita al dettaglio**. Nel metodo di classificazione del valore marginale, un valore viene calcolato per ciascuno sconto sovrapposto utilizzando il valore dello sconto sui prodotti condivisi. Gli sconti sovrapposti vengono quindi applicati dal valore relativo più alto al valore relativo più basso. Per informazioni dettagliate sul nuovo metodo, vedere la sezione "Valore marginale", più avanti in questo articolo. La classificazione del valore marginale non viene utilizzata quando gli importi di sconto per un prodotto non sono influenzati da un altro prodotto nella transazione. Ad esempio, questo metodo non viene utilizzato per due sconti semplici, o per uno sconto semplice e uno sconto quantità di un prodotto singolo.
+Questo articolo si applica a Microsoft Dynamics AX 2012 R3 con KB 3105973 (rilasciato il 2 novembre 2015) o versioni successive e a Dynamics 365 Retail. Per determinare la combinazione di sconti sovrapposti da applicare con puntualità, abbiamo introdotto un metodo per l'applicazione degli sconti sovrapposti. Chiamiamo il nuovo metodo **classificazione del valore marginale**. Classificazione del valore marginale viene utilizzata quando il tempo necessario per valutare le possibili combinazioni di sconti sovrapposti supera una soglia configurabile nella pagina **Parametri di vendita al dettaglio**. Nel metodo di classificazione del valore marginale, un valore viene calcolato per ciascuno sconto sovrapposto utilizzando il valore dello sconto sui prodotti condivisi. Gli sconti sovrapposti vengono quindi applicati dal valore relativo più alto al valore relativo più basso. Per informazioni dettagliate sul nuovo metodo, vedere la sezione "Valore marginale", più avanti in questo articolo. La classificazione del valore marginale non viene utilizzata quando gli importi di sconto per un prodotto non sono influenzati da un altro prodotto nella transazione. Ad esempio, questo metodo non viene utilizzato per due sconti semplici, o per uno sconto semplice e uno sconto quantità di un prodotto singolo.
 
 ## <a name="discount-examples"></a>Esempi di sconto
 

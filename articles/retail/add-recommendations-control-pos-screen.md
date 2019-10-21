@@ -1,9 +1,9 @@
 ---
 title: Aggiungere un controllo di suggerimenti alla schermata della transazione su dispositivi POS
 description: In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606851"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278131"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Aggiungere un controllo di suggerimenti alla schermata della transazione su dispositivi POS
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> Durante la nuova progettazione della funzionalità del servizio di suggerimenti prodotto con un algoritmo migliore e nuove funzionalità orientate alla vendita al dettaglio, verrà rimossa la versione corrente di tale servizio. Per ulteriori informazioni vedere [Funzionalità rimosse o deprecate](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 for Retail.
+In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 Retail. Per ulteriori informazioni sulle funzionalità di suggerimenti sul prodotto, leggere i [suggerimenti sul prodotto nella documentazione POS](product.md).
 
-È possibile visualizzare i suggerimenti di prodotti sul proprio dispositivo POS quando si utilizza Microsoft Dynamics 365 for Retail. *Suggerimenti* sono articoli a cui il cliente potrebbe essere interessato in base al relativo storico acquisti, articoli nell'elenco preferenze e che altri clienti hanno acquistato online e in punti vendita fisici. Per visualizzare i suggerimenti di prodotti, è necessario aggiungere un controllo alla schermata della transazione mediante la funzionalità di progettazione del layout dello schermo.
+
+È possibile visualizzare i suggerimenti sul prodotto sul proprio dispositivo POS quando si utilizza Microsoft Dynamics 365 Retail. Per visualizzare i suggerimenti di prodotti, è necessario aggiungere un controllo alla schermata della transazione mediante la funzionalità di progettazione del layout dello schermo. 
 
 ## <a name="open-layout-designer"></a>Aprire Progettazione layout
 
@@ -45,6 +44,7 @@ In questo argomento viene descritto come aggiungere un controllo di suggerimenti
 4. Fare clic su **Progettazione layout**.
 5. Seguire i prompt per avviare Progettazione layout. Quando vengono richieste le credenziali, immettere le stesse credenziali utilizzate quando la funzionalità Progettazione layout è stata avviata dalla pagina **Layout schermo**.
 6. Quando si effettua l'accesso, viene visualizzata una pagina simile a quella riportata di seguito. Il layout sarà diverso a seconda delle personalizzazioni effettuate per il punto vendita.
+
 
     [![Progettazione layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
@@ -57,7 +57,9 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 ### <a name="make-recommendations-always-visible"></a>Rendere i suggerimenti sempre visibili
 
+
 1. Ridurre l'altezza dell'area dei dettagli delle righe di transazione in modo che sia la stessa di quella del pannello del cliente alla sua sinistra.
+
 
     [![Altezza ridotta dell'area dei dettagli delle righe di transazione](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
@@ -65,15 +67,18 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
     [![Controllo per suggerimenti aggiunto al layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
 4. In Dynamics 365 for Retail, passare a **Vendita al dettaglio** &gt; **Vendita al dettaglio IT** &gt; **Programmazioni della distribuzione**.
-5. Nell'elenco, selezionare  **1090 Registri**.
+5. Nell'elenco, selezionare **1090 Registri**.
 6. Fare clic su **Esegui adesso**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Aggiunta di una scheda Suggerimenti alla griglia dei pulsanti sul lato destro della schermata
 
 1. Fare clic con il pulsante destro del mouse sullo spazio vuoto sotto l'ultima scheda nella griglia dei pulsanti presente sul lato destro della pagina.
-2. Fare clic su **Personalizza**.
+
+2. Fare clic su **Personalizza**.
 
     [![Finestra di dialogo Personalizzazione - Controllo scheda](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 6. Nel campo **Etichetta**, digitare un nome per la scheda dei suggerimenti. Ad esempio, digitare "Prodotti consigliati".
 7. Nel campo **Immagine**, selezionare l'immagine che verrà visualizzata sulla scheda.
-8. Fare clic su **OK**. La nuova scheda viene visualizzata nella griglia dei pulsanti.
+8. Fare clic su **OK**. La nuova scheda viene visualizzata nella griglia dei pulsanti.
 9. Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
 10. In Dynamics 365 for Retail, passare a **Vendita al dettaglio** &gt; **Vendita al dettaglio IT** &gt; **Programmazioni della distribuzione**.
-11. Nell'elenco, selezionare **1090 Registri**.
+11. Nell'elenco, selezionare **1090 Registri**.
 12. Fare clic su **Esegui adesso**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei suggerimenti sul prodotto personalizzati](personalized-product-recommendations.md)
+[Suggerimenti sul prodotto nel dispositivo POS](product.md)
+
+[Panoramica dei suggerimenti sul prodotto](../commerce/product-recommendations.md)

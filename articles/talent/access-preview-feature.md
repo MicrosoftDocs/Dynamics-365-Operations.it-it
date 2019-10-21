@@ -1,6 +1,6 @@
 ---
-title: Accedere alle funzionalità in anteprima in Microsoft Dynamics 365 for Talent
-description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima in Microsoft Dynamics 365 for Talent ed elenca le funzionalità attualmente attivate per l'anteprima.
+title: Accedere alle funzionalità in anteprima in Microsoft Dynamics 365 Talent
+description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima in Microsoft Dynamics 365 Talent ed elenca le funzionalità attualmente attivate per l'anteprima.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739589"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008704"
 ---
 # <a name="manage-preview-features"></a>Gestire le funzionalità di anteprima
 
 [!include[banner](../includes/banner.md)]
 
-Nell'ambito della continua implementazione di funzionalità di gestione risorse umane per Microsoft Dynamics 365 for Talent, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Gli amministratori possono visualizzare e utilizzare le funzionalità in anteprima nei loro ambienti. Queste funzionalità sono quasi pronte per la disponibilità generale e sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
+Nell'ambito della continua implementazione di funzionalità di gestione risorse umane per Microsoft Dynamics 365 Talent, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Gli amministratori possono visualizzare e utilizzare le funzionalità in anteprima nei loro ambienti. Queste funzionalità sono quasi pronte per la disponibilità generale e sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
-Questo argomento descrive come è possibile attivare le funzionalità in anteprima ed elenca le funzionalità attualmente disponibili per l'anteprima. L'elenco sarà aggiornato a mano a mano che vengono rilasciate nuove funzionalità in anteprima e le versioni di disponibilità generale delle funzionalità. Il rilascio di nuove funzionalità in anteprima non viene notificato. Gli utenti scopriranno tali funzionalità durante l'utilizzo del prodotto. Per ulteriori informazioni sulle nuove funzionalità, vedere [Novità o modifiche in Dynamics 365 for Talent](./whats-new.md) e [Note sulla versione di Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes).
+Questo argomento descrive come è possibile attivare le funzionalità in anteprima ed elenca le funzionalità attualmente disponibili per l'anteprima. L'elenco sarà aggiornato a mano a mano che vengono rilasciate nuove funzionalità in anteprima e le versioni di disponibilità generale delle funzionalità. Il rilascio di nuove funzionalità in anteprima non viene notificato. Gli utenti scopriranno tali funzionalità durante l'utilizzo del prodotto. Per ulteriori informazioni sulle nuove funzionalità, vedere [Novità o modifiche in Dynamics 365 Talent](./whats-new.md) e [Note sulla versione di Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Attivare o disattivare le funzionalità in anteprima
 
@@ -40,9 +40,9 @@ Per accedere alle funzionalità in anteprima, è necessario dapprima attivarle n
 > [!IMPORTANT]
 > Quando si attiva l'impostazione **Funzionalità in anteprima**, si attivano le funzionalità in anteprima per tutti gli utenti dell'organizzazione in quell'ambiente. Quando si disattiva l'impostazione, si disattivano le funzionalità in anteprima e le si rendono inaccessibili agli utenti. Il supporto delle funzionalità in anteprima in Talent è limitato. È possibile che utilizzino minori misure di privacy e di sicurezza e non sono incluse nel contratto di servizio di Talent. Si consiglia di non utilizzare le funzionalità in anteprima per elaborare dati personali (ovvero qualsiasi informazione che potrebbe consentire l'identificazione dell'utente) o per elaborare altri dati soggetti a requisiti di conformità legali o normativi.
 
-### <a name="attract"></a>Attrai
+### <a name="attract"></a>Attract
 
-1. Accedere a Microsoft Dynamics 365 for Talent: Attract.
+1. Accedere a Microsoft Dynamics 365 Talent: Attract.
 2. Nel menu **Impostazione** (il simbolo di ingranaggio) nell'angolo superiore destro, selezionare **Interfaccia di amministrazione**.
 3. Nella scheda **Gestione funzionalità**, selezionare l'opzione accanto a **Funzionalità in anteprima** di modo che diventi blu e sia impostata su **Attivata**.
 
@@ -69,11 +69,11 @@ Per accedere alle funzionalità in anteprima, è necessario dapprima attivarle n
 
 ### <a name="onboard"></a>Inserisci
 
-Non sono disponibili funzionalità in anteprima per Microsoft Dynamics 365 for Talent: Onboard.
+Non sono disponibili funzionalità in anteprima per Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Funzionalità attualmente in anteprima
 
-### <a name="attract"></a>Attrai
+### <a name="attract"></a>Attract
 
 - [Suggerimento candidato](./intelligent-recommendations.md#candidate-recommendations) - Se sono disponibili più di dieci candidati con curriculum o profili completi, i candidati che soddisfano maggiormente i requisiti di una posizione vengono visualizzati nella sezione **Candidati da considerare** della pagina di quella posizione.
 - [Suggerimento posizione](./intelligent-recommendations.md#job-recommendations) - Se più di dieci posizioni vengono pubblicate sul sito di avanzamento professionale, Attract fornisce suggerimenti sulle posizioni ai prospect.

@@ -1,6 +1,6 @@
 ---
 title: Configurare le modalità e le spese di consegna del servizio clienti
-description: In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553601"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019487"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Quando un ordine cliente viene inserito in Microsoft Dynamics 365 for Retail, se la persona che ha immesso l'ordine cliente è collegata a un canale di servizio clienti, la logica e le regole vengono utilizzate per convalidare la modalità di consegna e per calcolare le spese per l'ordine.
+Quando un ordine cliente viene inserito in Dynamics 365 Retail, se la persona che ha immesso l'ordine cliente è collegata a un canale di servizio clienti, la logica e le regole vengono utilizzate per convalidare la modalità di consegna e per calcolare le spese per l'ordine.
 
 Quando si crea un ordine cliente, è possibile selezionare una modalità di consegna nell'intestazione dell'ordine cliente e nelle righe dell'ordine cliente. Per impostazione predefinita, la modalità di consegna che si seleziona nell'intestazione viene utilizzata per tutte le righe di ordine cliente. Tuttavia, è possibile sostituire la modalità di consegna predefinita nelle singole righe di vendita in base alle esigenze. È inoltre possibile definire una modalità di consegna per un record cliente. Quando vengono creati ordini per il cliente, viene quindi utilizzata la modalità di consegna per impostazione predefinita nell'intestazione dell'ordine cliente.
 

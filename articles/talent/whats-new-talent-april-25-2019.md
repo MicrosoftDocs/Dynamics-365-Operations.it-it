@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent (23 aprile 2019)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent.
+title: Novità o modifiche in Dynamics 365 Talent (23 aprile 2019)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624583"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024116"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Novità o modifiche in Dynamics 365 for Talent (23 aprile 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Novità o modifiche in Dynamics 365 Talent (23 aprile 2019)
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 for Talent.
+Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Modifiche in Attract
-Questa versione include correzioni di bug minori per Dynamics 365 for Talent: Attract.
+Questa versione include correzioni di bug minori per Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Modifiche in Onboard
-Questa versione include correzioni di bug minori per Dynamics 365 for Talent: Onboard.
+Questa versione include correzioni di bug minori per Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Modifiche di Core HR
 Le modifiche descritte in questo sezione sono valide per la build numero 8.1.2253. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in Lifecycle Services (LCS).
@@ -79,4 +79,4 @@ Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi
 ## <a name="known-issues"></a>Problemi noti
 
 ### <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
-Con l'aggiornamento 26 della piattaforma, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento.
+Con l'aggiornamento 26 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento.

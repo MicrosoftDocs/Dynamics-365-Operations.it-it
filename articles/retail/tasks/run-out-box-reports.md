@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550072"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018437"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generare ed eseguire report predefiniti
 
@@ -43,7 +43,7 @@ La società di dati dimostrativi utilizzata per creare questa registrazione è U
 5. Nel campo Data finale immettere una data.
 6. Nel campo Canale fare clic sul pulsante a discesa per aprire la ricerca.
 7. Nella struttura, selezionare 'Contoso Retail\Contoso Retail USA\Central\Houston'.
-    * Viene visualizzata la gerarchia organizzativa vendita al dettaglio predefinita per lo scopo di report per vendita al dettaglio.   Passare ad Amministrazione organizzazione >Organizzazioni > Scopi gerarchia organizzativa e scegliere Report per vendita al dettaglio in Gerarchie assegnate, quindi controllare il nome della gerarchia per cui è selezionata la colonna predefinita.      Come parte dei dati dimostrativi (utilizzati per questa registrazione di attività) si noterà che Punti vendita al dettaglio per area è la gerarchia organizzativa predefinita per lo scopo di report per vendita al dettaglio.     
+    * Viene visualizzata la gerarchia organizzativa vendita al dettaglio predefinita per lo scopo di report per vendita al dettaglio.   Passare ad Amministrazione organizzazione > Organizzazioni > Scopi gerarchia organizzativa e scegliere Report per vendita al dettaglio in Gerarchie assegnate, quindi controllare il nome della gerarchia per cui è selezionata la colonna predefinita. Come parte dei dati dimostrativi (utilizzati per questa registrazione di attività) si noterà che Punti vendita al dettaglio per area è la gerarchia organizzativa predefinita per lo scopo di report per vendita al dettaglio.     
 8. Fare clic su OK.
 9. Selezionare un'opzione nel campo Visualizzazione.
 10. Selezionare un'opzione nel campo Per.
@@ -55,7 +55,7 @@ La società di dati dimostrativi utilizzata per creare questa registrazione è U
 3. Nel campo Data finale immettere una data.
 4. Nel campo Canale fare clic sul pulsante a discesa per aprire la ricerca.
 5. Nella struttura, selezionare 'Contoso Retail\Contoso Retail USA\West\Seattle'.
-    * Viene visualizzata la gerarchia organizzativa vendita al dettaglio predefinita per lo scopo di report per vendita al dettaglio.   Passare ad Amministrazione organizzazione >Organizzazioni > Scopi gerarchia organizzativa e scegliere Report per vendita al dettaglio in Gerarchie assegnate, quindi controllare il nome della gerarchia per cui è selezionata la colonna predefinita.      Come parte dei dati dimostrativi (utilizzati per questa registrazione di attività) si noterà che Punti vendita al dettaglio per area è la gerarchia organizzativa predefinita per lo scopo di report per vendita al dettaglio.     
+    * Viene visualizzata la gerarchia organizzativa vendita al dettaglio predefinita per lo scopo di report per vendita al dettaglio.   Passare ad Amministrazione organizzazione > Organizzazioni > Scopi gerarchia organizzativa e scegliere Report per vendita al dettaglio in Gerarchie assegnate, quindi controllare il nome della gerarchia per cui è selezionata la colonna predefinita. Come parte dei dati dimostrativi (utilizzati per questa registrazione di attività) si noterà che Punti vendita al dettaglio per area è la gerarchia organizzativa predefinita per lo scopo di report per vendita al dettaglio.     
 6. Fare clic su OK.
 7. Fare clic su OK.
 

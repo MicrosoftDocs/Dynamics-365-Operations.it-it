@@ -1,6 +1,6 @@
 ---
-title: Novità o modifiche in Dynamics 365 for Talent Core HR (14 dicembre 2018)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 for Talent Core HR.
+title: Novità o modifiche in Dynamics 365 Talent - Core HR (14 dicembre 2018)
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518347"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024024"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Novità o modifiche in Dynamics 365 for Talent Core HR (14 dicembre 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Novità o modifiche in Dynamics 365 Talent: Core HR (14 dicembre 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Al rilascio della funzionalità di previsione, il saldo visualizzato sarà il sa
 
 ## <a name="known-issue"></a>Problema noto
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Errori di mapping nell'integrazione con Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Errori di mapping nell'integrazione con Finance
 
-I seguenti problemi sono stati identificati nel modello corrente per l'integrazione di Talent con Dynamics 365 for Finance and Operations. Un nuovo modello verrà pubblicato a breve e applicato a tutti i nuovi progetti di integrazione creati. Per i progetti di integrazione esistenti, i mapping di attività possono essere aggiornati. Consultare la tabella seguente per i mapping aggiornati. 
+I seguenti problemi sono stati identificati nel modello corrente per l'integrazione di Talent con Dynamics 365 Finance. Un nuovo modello verrà pubblicato a breve e applicato a tutti i nuovi progetti di integrazione creati. Per i progetti di integrazione esistenti, i mapping di attività possono essere aggiornati. Consultare la tabella seguente per i mapping aggiornati. 
 
 >[!NOTE]
 > L'attività di assegnazione del processo padre Posizioni lavorative a Posizioni non integra dati. Questo problema è attualmente in fase di risoluzione. Non esiste alcuna soluzione alternativa nel mapping corrente. 

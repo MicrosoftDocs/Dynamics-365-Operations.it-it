@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560665"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251525"
 ---
 # <a name="cycle-counting"></a>Conteggio ciclo
 
@@ -34,7 +34,7 @@ Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di 
 Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per controllare gli articoli di magazzino disponibili. Il processo di conteggio ciclo può essere descritto in tre passaggi:
 
 1.  **Creare il lavoro di conteggio ciclo**: il lavoro di conteggio ciclo può essere creato automaticamente in base ai parametri di soglia per gli articoli o tramite un piano di conteggio ciclo. In alternativa, è possibile creare manualmente il lavoro di conteggio ciclo tramite l'articolo o i parametri di magazzino nella pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**.
-2.  **Elaborare il conteggio ciclo**: una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Microsoft Dynamics 365 for Finance and Operations. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
+2.  **Elaborare il conteggio ciclo**: una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Dynamics 365 Supply Chain Management. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
 3.  **Risolvere le differenze nel valore conteggiato**: dopo un conteggio ciclo, per tutti gli articoli con differenze nel valore conteggiato sarà impostato lo stato di lavoro **Revisione in sospeso** nel modulo **Tutto il lavoro**. È possibile risolvere le differenze nella pagina **Lavoro conteggio ciclo con revisione in sospeso**.
 
 Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ Il lavoro di conteggio ciclo può essere creato quando il numero di articoli sce
 Per creare il lavoro di conteggio ciclo manualmente, è possibile utilizzare la pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**. È possibile specificare il numero massimo di conteggi ciclo da creare. Ad esempio, se il responsabile del magazzino specifica un valore di **5**, il lavoro di conteggio ciclo viene creato per cinque ubicazioni anche se l'articolo è presente in 10 ubicazioni differenti. È anche possibile selezionare un ID di pool di lavoro a cui assegnare gli ID di lavoro di conteggio ciclo creati. Quando un ID di pool di lavoro viene elaborato per il conteggio ciclo, gli ID di lavoro di conteggio ciclo assegnati al pool di lavoro vengono elaborati in gruppo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Eseguire un conteggio ciclo tramite un dispositivo mobile
-Sono disponibili diversi metodi per elaborare il lavoro di conteggio ciclo utilizzando Finance and Operations in un dispositivo mobile:
+Sono disponibili diversi metodi per elaborare il lavoro di conteggio ciclo utilizzando Supply Chain Management in un dispositivo mobile:
 
 -   **Diretto dall'utente**: il lavoratore può specificare un ID di lavoro di conteggio ciclo che è nello stato **Aperto**.
--   **Diretto dal sistema**: al lavoratore viene assegnato un ID di lavoro di conteggio ciclo da Finance and Operations.
+-   **Diretto dal sistema**: al lavoratore viene assegnato un ID di lavoro di conteggio ciclo da Supply Chain Management.
 -   **Raggruppamento conteggio ciclo**: il lavoratore può raggruppare degli ID di lavoro di conteggio ciclo che sono specifici di un'ubicazione, una zona o un pool di lavoro.
 -   **Conteggio ciclo a campione**: il lavoratore può contare gli articoli in un'ubicazione magazzino in qualsiasi momento, senza creare un lavoro di conteggio ciclo. Per eseguire il conteggio ciclo a campione in un'ubicazione, il lavoratore immette l'ID ubicazione.
 

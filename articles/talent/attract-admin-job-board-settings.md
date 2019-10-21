@@ -1,6 +1,6 @@
 ---
-title: Abilitare l'integrazione di Broadbean in Microsoft Dynamics 365 for Talent - Attract
-description: In questo argomento viene descritto come configurare Microsoft Dynamics 365 for Talent - Attract per pubblicare le posizioni in bacheche mansioni esterne, ad esempio in Broadbean.
+title: Abilitare l'integrazione di Broadbean in Microsoft Dynamics 365 Talent - Attract
+description: In questo argomento viene descritto come configurare Microsoft Dynamics 365 Talent - Attract per pubblicare le posizioni in bacheche mansioni esterne, ad esempio in Broadbean.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739681"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008595"
 ---
 # <a name="enable-broadbean-integration"></a>Abilitare l'integrazione di Broadbean
 
 [!include[banner](../includes/banner.md)]
 
-Se si desidera rendere visibili le posizioni aperte nella propria azienda al maggior numero possibile di candidati, esistono siti di reclutamento come Broadbean che consentono di soddisfare tale esigenza. Microsoft Dynamics 365 for Talent - Attract consente ora di pubblicare posizioni in Broadbean e Microsoft pubblica costantemente nuove offerte in quest'area.
+Se si desidera rendere visibili le posizioni aperte nella propria azienda al maggior numero possibile di candidati, esistono siti di reclutamento come Broadbean che consentono di soddisfare tale esigenza. Microsoft Dynamics 365 Talent: Attract consente ora di pubblicare posizioni in Broadbean e Microsoft pubblica costantemente nuove offerte in quest'area.
 
 > [!NOTE]
 > - Per pubblicare annunci di lavoro su siti esterni, è necessario disporre del [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).

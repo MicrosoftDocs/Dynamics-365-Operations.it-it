@@ -1,6 +1,6 @@
 ---
 title: Panoramica sulla gestione trasporto
-description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Microsoft Dynamics 365 for Finance and Operations.
+description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561170"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027063"
 ---
-# <a name="transportation-management-overview"></a>Panoramica sulla gestione trasporto
+# <a name="transportation-management-overview"></a>Panoramica gestione trasporto
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Finance and Operations.
 
-Gestione trasporto consente di utilizzare il trasporto della società e di identificare soluzioni fornitori e percorsi di trasferimento per gli ordini in ingresso e in uscita. Ad esempio, è possibile identificare il ciclo di lavorazione più veloce o la tariffa più economica per una spedizione. Nella tabella seguente vengono descritti gli scenari principali per l'uso di Gestione trasporto in Microsoft Dynamics 365 for Finance and Operations.
+Gestione trasporto consente di utilizzare il trasporto della società e di identificare soluzioni fornitori e percorsi di trasferimento per gli ordini in ingresso e in uscita. Ad esempio, è possibile identificare il ciclo di lavorazione più veloce o la tariffa più economica per una spedizione. Nella tabella seguente vengono descritti gli scenari principali per l'uso di Gestione trasporto.
 
 <table>
 <colgroup>

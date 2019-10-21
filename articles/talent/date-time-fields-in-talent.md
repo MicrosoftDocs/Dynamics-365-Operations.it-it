@@ -1,6 +1,6 @@
 ---
-title: Utilizzare la data e l'ora in Microsoft Dynamics 365 for Talent
-description: Comprendere cosa aspettarsi quando si utilizzano i campi di data e ora in Microsoft Dynamics 365 for Talent. Chiarire cosa aspettarsi quando si interagisce con i dati di data e ora in un modulo in Dynamics 365 for Talent, un'origine esterna o in Common Data Service.
+title: Utilizzare la data e l'ora in Microsoft Dynamics 365 Talent
+description: Comprendere cosa aspettarsi quando si utilizzano i campi di data e ora in Microsoft Dynamics 365 Talent. Chiarire cosa aspettarsi quando si interagisce con i dati di data e ora in un modulo in Talent, un'origine esterna o in Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791216"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007969"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Campi di data e ora in Talent
 
 [!include [banner](includes/banner.md)]
 
-I campi **Data e ora** sono un concetto fondamentale in Dynamics 365 for Talent. È importante capire come utilizzare i dati di **Data e ora** in un modulo di Dynamics 365, Common Data Service e di origini esterne.
+I campi **Data e ora** sono un concetto fondamentale in Dynamics 365 Talent. È importante capire come utilizzare i dati di **Data e ora** in un modulo di Dynamics 365, Common Data Service e di origini esterne.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Differenza tra i tipi di dati dei campi Data e Data e ora
 

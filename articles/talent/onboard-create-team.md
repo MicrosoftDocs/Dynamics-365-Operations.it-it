@@ -1,6 +1,6 @@
 ---
-title: Creare un team di assunzione utilizzando Dynamics 365 for Talent - Onboard
-description: In questo argomento viene illustrato come utilizzare l'app Microsoft Dynamics 365 for Talent - Onboard per creare team per l'inserimento.
+title: Creare un team di assunzione utilizzando Dynamics 365 Talent - Onboard
+description: In questo argomento viene illustrato come utilizzare l'app Microsoft Dynamics 365 Talent - Onboard per creare team per l'inserimento.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 996fc42881ce708992614c58877927e03bbf78bf
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: b22bf5fb5b2a2756684304d1cb26c0f8a7419c00
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731525"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010823"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-for-talent-onboard"></a>Creare un team di assunzione utilizzando Dynamics 365 for Talent - Onboard
+# <a name="create-a-hiring-team-by-using-onboard"></a>Creare un team di assunzione utilizzando Onboard
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 for Talent - Onboard è possibile creare team di assunzione. È possibile quindi assegnare guide di inserimento e modelli a ciascun team.
+In Microsoft Dynamics 365 Talent: Onboard è possibile creare team di assunzione. È possibile quindi assegnare guide di inserimento e modelli a ciascun team.
 
 ## <a name="create-a-hiring-team"></a>Creare un team di assunzione
 

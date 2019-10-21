@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916555"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017760"
 ---
 # <a name="base-price-and-trade-agreements"></a>Prezzo di base e accordi commerciali
 
@@ -56,7 +56,7 @@ In questa procedura vengono descritti i passaggi per creare accordi commerciali 
 24. Fare clic su **Crea accordi commerciali**.
 25. Fare clic su **Nuovo**.
 26. Nel campo **Nome** fare clic sul pulsante a discesa per aprire la ricerca.
-27. Nell'elenco selezionare 'Vendita al dettaglio'. Nei dati dimostrativi, il nome del giornale di registrazione 'Vendita al dettaglio' dispone della relazione predefinita 'Prezzo (vend.)'. Questo significa che per tutte le nuove righe create verranno utilizzati per impostazione predefinita gli accordi commerciali sui prezzi di vendita.  
+27. Nell'elenco selezionare **Retail**. Nei dati dimostrativi, il nome del giornale di registrazione **Vendita al dettaglio** dispone della relazione predefinita di **Prezzo (vend.)**. Questo significa che per tutte le nuove righe create verranno utilizzati per impostazione predefinita gli accordi commerciali sui prezzi di vendita.  
 28. Nel **riquadro azioni** fare clic su **Righe**.
 29. Selezionare "Gruppo" nel campo **Codice conto**.
 30. Nel campo **Selezione del conto** fare clic sul pulsante a discesa per aprire la ricerca.

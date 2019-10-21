@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783370"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250946"
 ---
 # <a name="maintenance-attribute-types"></a>Tipi di attributo di manutenzione
 
@@ -42,10 +42,10 @@ Gli attributi impostabili variano in base all'elemento. Ad esempio, per una unit
 
 ## <a name="create-attribute-types"></a>Creare tipi di attributo
 
-È possibile creare propri tipi di attributo. Inoltre, è possibile trasferire le dimensioni prodotto da Microsoft Dynamics 365 for Finance and Operations alla pagina **Tipi di attributo**.
+È possibile creare propri tipi di attributo. Inoltre, è possibile trasferire le dimensioni prodotto alla pagina **Tipi di attributo**.
 
 1. Selezionare **Gestione cespiti** \> **Impostazione** \> **Tipi di attributo**.
-2. La prima volta che si impostano i tipi di attributo selezionare **Crea dimensioni prodotto** per trasferire automaticamente le dimensioni prodotto standard di Finance and Operations.
+2. La prima volta che si impostano i tipi di attributo selezionare **Crea dimensioni prodotto** per trasferire automaticamente le dimensioni prodotto standard.
 3. Selezionare **Nuovo** per creare un tipo di attibuto.
 4. Nel campo **Tipo di attributo** immettere un nome per il tipo di attributo.
 5. Nel campo **Descrizione** immettere una descrizione.

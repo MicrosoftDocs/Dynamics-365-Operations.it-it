@@ -1,6 +1,6 @@
 ---
 title: Elaborazione differita di lavoro di magazzino
-description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Microsoft Dynamics 365 for Finance and Operations.
+description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863588"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026927"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863588"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio per il lavoro di magazzino disponibili in Microsoft Dynamics 365 for Finance and Operations.
+In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio per il lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
+
 
 La funzionalità di elaborazione differita consente agli addetti al magazzino di continuare a fare altro lavoro mentre l'operazione di stoccaggio elaborata in background. L'Elaborazione differita è utile quando più righe di lavoro devono essere elaborate e il lavoratore può lasciare che il lavoro sia elaborato in modo asincrono. È inoltre utile quando il server può avere aumenti ad hoc o non pianificati nel tempo di elaborazione e il tempo di elaborazione aumentato può influire sulla produttività dell'utente.
 

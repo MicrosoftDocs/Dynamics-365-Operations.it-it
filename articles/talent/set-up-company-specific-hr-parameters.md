@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506105"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009447"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Impostare i parametri di Risorse umane specifici della società
 
@@ -34,7 +34,7 @@ Le impostazioni di alcuni parametri delle Risorse umane sono condivise tra socie
 Per l'impostazione dei parametri HR vengono utilizzate due pagine. Per i parametri che vengono condivisi tra le società, si utilizza la pagina **Parametri condivisi Risorse umane**. Per i parametri che sono specifici della società (vale a dire le impostazioni che si applicano a una singola società), si utilizza la pagina **Parametri Risorse umane**. Nella pagina **Parametri Risorse umane** le impostazioni sono suddivise in sei schede:
 
 -   Generali
--   Selezione del personale - Questa funzionalità non è inclusa in Dynamics 365 for Talent
+-   Selezione del personale - Questa funzionalità non è inclusa in Dynamics 365 Talent
 -   Retribuzione
 -   Sequenze numeriche
 -   Normativa per il congedo per motivi medici e familiari (FMLA)
@@ -49,7 +49,7 @@ Le impostazioni della scheda **Retribuzione** definiscono se gli utenti devono c
 ### <a name="previously-released-functionality"></a>Funzionalità già rilasciata
 Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che vengono utilizzate per assegnare automaticamente gli ID agli elementi in Risorse umane, ad esempio le domande di lavoro, le registrazioni delle assenze, i risultati del processo retributivo, i numeri dei casi, i corsi e le agende dei corsi. Per gestire i codici e riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numerich** e (fare clic su **Amministrazione organizzazione** &gt; **Sequenze numeriche** &gt; **Sequenze numeriche**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Se si utilizza Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>Se si utilizza Dynamics 365 Talent
 Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che vengono utilizzate per assegnare automaticamente gli ID agli elementi in Risorse umane, ad esempio le domande di lavoro, le registrazioni delle assenze, i risultati del processo retributivo, i numeri dei casi, i corsi e le agende dei corsi. Per gestire i codici e riferimenti delle sequenze numeriche, utilizzare la pagina elenco **Sequenze numeriche** (fare clic su **Amministrazione sistema** &gt; **scheda Collegamenti** &gt; **Sequenze numeriche** &gt; **Sequenze numeriche**). 
 
 Le impostazioni nella scheda **FMLA** definiscono la quantità di ore che un dipendente deve svolgere per ottenere l'idoneità ai vantaggi FMLA, la durata dell'impiego che è richiesta per l'idoneità e la data di inizio dell'impiego che viene utilizzata per determinare la durata dell'impiego. Le impostazioni definiscono inoltre il numero di ore FMLA a cui i dipendenti sono autorizzati e il calendario di congedo FMLA che viene utilizzato per calcolare il numero di ore FMLA utilizzato dai dipendenti. La scheda **FMLA** è disponibile solo per le società negli Stati Uniti. 

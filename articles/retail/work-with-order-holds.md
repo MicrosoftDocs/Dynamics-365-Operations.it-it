@@ -1,6 +1,6 @@
 ---
 title: Configurare e utilizzare le sospensioni ordine servizio clienti
-description: In questo argomento viene descritto come utilizzare le sospensioni sugli ordini utilizzando Microsoft Dynamics 365 for Retail.
+description: In questo argomento viene descritto come utilizzare le sospensioni sugli ordini utilizzando Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f20cd5266f2fec02d11c6ac5f0268765b3ad1ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564880"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018368"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurare e utilizzare le sospensioni degli ordini del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le caratteristiche di sospensione ordine che Microsoft Dynamics 365 for Retail ha per gli ordini dei servizi clienti.
+In questo argomento vengono descritte le caratteristiche di sospensione ordine che Dynamics 365 Retail ha per gli ordini dei servizi clienti.
 
 ## <a name="configuring-call-center-order-holds"></a>Configurazione di sospensioni ordine servizio clienti
 
