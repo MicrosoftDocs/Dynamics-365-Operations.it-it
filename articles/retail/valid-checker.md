@@ -3,7 +3,7 @@ title: Controllo di coerenza per le transazioni di vendita al dettaglio
 description: In questo argomento viene descritta la funzionalità di controllo di coerenza per le transazioni di vendita al dettaglio in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018417"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622599"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Controllo di coerenza per le transazioni di vendita al dettaglio
 
@@ -58,8 +58,11 @@ Il processo batch **Convalida transazioni punto vendita** controlla la coerenza 
 - **Sconto riga** - Verifica che lo sconto presente nella riga di transazione sia la somma di tutte le righe nella tabella sconti corrispondente alla riga di transazione.
 - **Articolo gift card** - In Retail la restituzione di articoli con gift card non è supportata. Il saldo di una gift card, tuttavia, può essere liquidato. Qualsiasi articolo con gift card elaborato come riga di reso anziché come riga di liquidazione provoca un errore nel processo di registrazione rendiconti. Il processo di convalida per gli articoli con gift card garantisce che solo le voci di reso relative alla gift card presenti nella tabella di transazioni di vendita al dettaglio siano righe di liquidazione gift card.
 - **Prezzo negativo** - Verifica che non sia presente alcuna riga di transazione prezzo negativo.
-- **Articolo e variante** - Verifica che gli articoli e le varianti sulle righe transazioni siano presenti nel file master relativo.
-- **Importo imposta** - Verifica che i record di imposta corrispondano agli importi sulle righe. 
+- **Articolo e variante** - Verifica che gli articoli e le varianti nelle righe di transazione siano presenti nel file master relativo.
+- **Importo imposta** - Verifica che i record di imposta corrispondano agli importi nelle righe.
+- **Numero di serie** - Verifica che il numero di serie sia presente nelle righe di transazione per gli articoli controllati dal numero di serie.
+- **Segno** - Verifica che il segno della quantità e dell'importo netto sia lo stesso in tutte le righe di transazione.
+- **Data attività** - Verifica che i periodi finanziari per tutte le date di attività delle transazioni di vendita al dettaglio siano aperti.
 
 ## <a name="set-up-the-consistency-checker"></a>Impostare il controllo di coerenza
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278326"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653696"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Risorse di guida per Supply Chain Management
 
@@ -39,7 +39,7 @@ Passare alla <a href="https://roadmap.dynamics.com/">roadmap di Dynamics 365</a>
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 
 - [Gestione cespiti](asset-management/index.md)
-- [Contabilità industriale](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Contabilità industriale](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestione costi](cost-management/cost-management-home-page.md)  
 - [Gestione scorte](inventory/inventory-home-page.md)
 - [Pianificazione generale](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Le registrazioni tecniche si riferisce alla funzionalità del prodotto della ver
 -  [Gestione trasporto (TMS) nel nuovo Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blog
-Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del team di ricerca e sviluppo per Dynamics AX - Produzione</a> e nel <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management </a>. La maggior parte dei post si riferisce alla versione precedente di Finance and Operations, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
+Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del team di ricerca e sviluppo per Dynamics AX - Produzione</a> e nel <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management</a>. La maggior parte dei post si riferisce alla versione precedente, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente. 
 
 ## <a name="white-papers"></a>White paper
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratori pratici per le funzionalità di contabilità industriale</a> 

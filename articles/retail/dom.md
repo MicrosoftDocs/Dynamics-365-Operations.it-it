@@ -3,7 +3,7 @@ title: Gestione ordini distribuiti (DOM - Distributed Order Management)
 description: In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023421"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578486"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -94,6 +94,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
         - **Evadere le righe parziali?** - Se l'opzione è impostata su **Sì**, la gestione degli ordini distribuiti può evadere una quantità parziale delle righe d'ordine. Questa evasione parziale viene ottenuta dividendo la riga ordine.
         - **Evadere ordine solo da un'ubicazione?**: se questa opzione è impostata su **Sì**, la gestione degli ordini distribuiti si assicura che tutte le righe di un ordine vengano evase da un'unica ubicazione.
 
+
         Nella tabella seguente viene illustrato il comportamento generato quando viene definita una combinazione di questi parametri.
 
         |      | Evasione ordini parziali | Evasione righe parziali | Evasione dell'ordine solo da un'ubicazione | Descrizione |
@@ -108,21 +109,24 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
         | 8    | Sì                    | No                    | No                                   | Alcune righe dell'ordine possono essere evase, ma righe singole non possono essere evase parzialmente e le diverse righe ordine possono essere evase da più ubicazioni in un'istanza dell'esecuzione DOM. |
         | 9\*  | No                     | Non applicabile        | Sì                                  | Tutte le righe ordine devono essere evase e tutte un'unica ubicazione. |
 
-        \* Se **Evadere gli ordini parziali?** è impostata su **No**, **Evadere le righe parziali?** viene considerata sempre come impostata su **No**, indipendentemente dall'impostazione effettiva.
+        \* Se l'opzione **Evadere gli ordini parziali** è impostata su **No**, **Evadere le righe parziali** viene considerata sempre come impostata su **No**, indipendentemente dall'impostazione effettiva.
 
-    - **Regola ubicazione di evasione offline**: questa regola consente alle organizzazioni di specificare un'ubicazione o gruppo di ubicazioni come offline o non disponibile per la gestione degli ordini distribuiti, in modo che non sia possibile assegnarvi ordini da evadere.
+> [!NOTE]
+> In Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Anziché consentire a un utente di specificare se gli ordini possono essere evasi da una sola ubicazione o da tutte le ubicazioni possibili, ora gli utenti potranno specificare se l'evasione può essere eseguita da un insieme di ubicazioni definito (fino a 5) o da tutte le ubicazioni possibili. Ciò assicura maggiore flessibilità riguardo al numero di ubicazioni da cui è possibile evadere l'ordine.
+
+   - **Regola ubicazione di evasione offline**: questa regola consente alle organizzazioni di specificare un'ubicazione o gruppo di ubicazioni come offline o non disponibile per la gestione degli ordini distribuiti, in modo che non sia possibile assegnare ordini da evadere a tali ubicazioni.
     - **Regola numero massimo di rifiuti**: questa regola consente alle organizzazioni di definire una soglia per i rifiuti. Quando la soglia viene raggiunta, il processore DOM contrassegna un ordine o una riga ordine come un'eccezione e li esclude da ulteriori elaborazioni.
 
         Una volta che le righe ordine sono assegnate a un'ubicazione, l'ubicazione può rifiutare una riga ordine assegnata, poiché per qualche motivo potrebbe non essere in grado di evadere tale riga. Le righe rifiutate vengono contrassegnate come un'eccezione e vengono inviate nuovamente nel pool per essere elaborate nell'esecuzione successiva. Durante l'esecuzione successiva, la gestione degli ordini distribuiti tenterà di assegnare la riga rifiutata a un'ubicazione diversa. Anche la nuova ubicazione può rifiutare la riga ordine assegnata. Il ciclo dell'assegnazione e del rifiuto può verificarsi più volte. Quando il numero di rifiuti raggiunge la soglia specificata, la gestione degli ordini distribuiti contrassegna la riga ordine come eccezione permanente e non selezionerà più tale riga per l'assegnazione. La riga ordine verrà presa in considerazione per una nuova assegnazione dalla gestione degli ordini distribuiti solo se un utente reimposta manualmente lo stato della riga ordine.
 
-    - **Regola distanza massima**: questa regola consente alle organizzazioni di definire la distanza massima che può avere un'ubicazione o un gruppo di ubicazioni per evadere l'ordine. Se vengono definite regole per la distanza massima sovrapposte per un'ubicazione, la gestione degli ordini distribuiti applicherà la distanza massima inferiore definita per tale ubicazione.
+   - **Regola distanza massima**: questa regola consente alle organizzazioni di definire la distanza massima che può avere un'ubicazione o un gruppo di ubicazioni per evadere l'ordine. Se vengono definite regole per la distanza massima sovrapposte per un'ubicazione, la gestione degli ordini distribuiti applicherà la distanza massima inferiore definita per tale ubicazione.
     - **Regola numero massimo di ordini**: questa regola consente alle organizzazioni di definire il numero massimo di ordini che un'ubicazione o gruppo di ubicazioni può elaborare durante un giorno di calendario. Se il numero massimo di ordini viene assegnato a un'ubicazione in un singolo giorno, la gestione degli ordini distribuiti non assegnerà altri ordini a tale ubicazione per il resto di tale giorno di calendario.
 
-    Di seguito vengono riportati alcuni attributi comuni che possono essere definiti per tutti i tipi di regola precedenti:
+   Di seguito vengono riportati alcuni attributi comuni che possono essere definiti per tutti i tipi di regola precedenti:
 
-    - **Data di inizio** e **Data di fine**: a ogni regola può essere assegnato un periodo di validità utilizzando questi campi.
-    - **Disabilitata**: solo le regole con valore **No** in questo campo vengono prese in considerazione durante un'esecuzione DOM.
-    - **Vincolo rigido**: una regola può essere definita come un vincolo rigido o meno. Ogni esecuzione DOM passa attraverso due iterazioni. Nella prima interazione, ogni regola viene trattata come una regola di vincolo rigido, indipendentemente dall'impostazione di questo campo. In altre parole, viene applicata ogni regola. La sola eccezione è rappresentata dalla regola **Priorità ubicazione**. Nella seconda iterazione, le regole che non sono state definite come regole di vincolo rigido vengono rimosse e l'ordine o le righe ordine che non erano assegnati a ubicazioni quando tutte le regole erano applicate vengono ora assegnati alle ubicazioni.
+   - **Data di inizio** e **Data di fine**: a ogni regola può essere assegnato un periodo di validità utilizzando questi campi.
+   - **Disabilitata**: solo le regole con valore **No** in questo campo vengono prese in considerazione durante un'esecuzione DOM.
+   - **Vincolo rigido**: una regola può essere definita come un vincolo rigido o meno. Ogni esecuzione DOM passa attraverso due iterazioni. Nella prima interazione, ogni regola viene trattata come una regola di vincolo rigido, indipendentemente dall'impostazione di questo campo. In altre parole, viene applicata ogni regola. La sola eccezione è rappresentata dalla regola **Priorità ubicazione**. Nella seconda iterazione, le regole che non sono state definite come regole di vincolo rigido vengono rimosse e l'ordine o le righe ordine che non erano assegnati a ubicazioni quando tutte le regole erano applicate vengono ora assegnati alle ubicazioni.
 
 10. I profili di evasione vengono utilizzati per raggruppare una raccolta di regole, persone giuridiche, origini di ordini cliente e modalità di consegna. Ogni esecuzione DOM è dedicata a un profilo di evasione specifico. In questo modo, le organizzazioni possono definire ed eseguire un set di regole per un set di persone giuridiche, sugli ordini che includono origini di ordini cliente e modalità di consegna specifiche. Pertanto, se set di regole diversi devono essere eseguiti per diversi set di origini di ordine cliente o modalità di consegna, i profili di evasione possono essere definiti di conseguenza. Per impostare i profili di evasione, effettuare le seguenti operazioni:  
 

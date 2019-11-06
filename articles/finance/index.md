@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175980"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570127"
 ---
 # <a name="financial-management-home-page"></a>Home page di Gestione finanziaria
 
@@ -68,5 +68,9 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 ### <a name="countryregion-functionality"></a>Funzionalità paese
 
-Le normative del paese incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione​](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese.
+Le normative del paese incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese.
+
+### <a name="additional-content"></a>Contenuti aggiuntivi
+
+Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione. Fare riferimento alla [!home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione. 
 

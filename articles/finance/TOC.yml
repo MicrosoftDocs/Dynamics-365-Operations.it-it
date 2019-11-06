@@ -38,10 +38,12 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
             - name: Distribuire un ambiente di dimostrazione
               href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/finance/toc.json
-            - name: Considerazioni distribuzione
+            - name: Considerazioni sulla distribuzione
               items:
                 - name: Opzioni di distribuzione
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/finance/toc.json
+                - name: Confronto tra funzionalità cloud e locali
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Distribuzione cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Requisiti di sistema per le distribuzioni cloud
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Novità o modifiche
               items:
-                - name: Home page novità o modifiche
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Funzionalità di anteprima nelle app Finance and Operations versione 10.0.6 (novembre 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/finance/toc.json
-                - name: App Finance and Operations versione 10.0.5 (ottobre 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations 10.0.4 (luglio 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                - name: Funzionalità di anteprima di Finance versione 10.0.7 (gennaio 2020)
+                  href: get-started/whats-new-changed-10-0-7.md
+                - name: Finance versione 10.0.6 (novembre 2019)
+                  href: get-started/whats-new-finance-10-0-6.md
+                - name: Novità o modifiche nelle versioni precedenti
+                  items:
+                    - name: Home page Novità o modifiche in Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                    - name: App Finance and Operations versione 10.0.5 (ottobre 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/finance/toc.json
+                    - name: Finance and Operations 10.0.4 (luglio 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
                 - name: Funzionalità rimosse o deprecate
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: Funzionalità di AX 2012 posticipate
@@ -306,9 +312,15 @@
               href: accounts-receivable/tasks/review-collections-information.md
             - name: Panoramica del riconoscimento ricavi
               href: accounts-receivable/revenue-recognition-overview.md
+            - name: Impostazione del riconoscimento ricavi
+              href: accounts-receivable/revenue-recognition-setup.md
+            - name: Riconoscimento dei ricavi differiti
+              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+            - name: Riconoscimento ricavi negli ordini cliente
+              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Impostare ed elaborare le fatture ricorrenti
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture a testo libero
+            - name: Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture a testo libero
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Profili di registrazione cliente
               href: accounts-receivable/customer-posting-profiles.md
@@ -736,6 +748,8 @@
                   href: general-ledger/posting-definitions.md
                 - name: Esempi di definizioni di registrazione
                   href: general-ledger/example-posting-definitions.md
+                - name: Impostare descrizioni predefinite per la registrazione automatica
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
                 - name: Saldi dei conti della contabilità generale
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Definire dimensioni finanziarie
@@ -794,7 +808,9 @@
                   href: general-ledger/general-journal-processing.md
                 - name: Registrare giornali di registrazione periodici
                   href: general-ledger/tasks/post-periodic-journals.md
-                - name: Elaborare giornale di registrazione allocazioni contabili
+                - name: Stornare la registrazione del giornale di registrazione
+                  href: general-ledger/reverse-journal-posting.md
+                - name: Elaborare il giornale di registrazione allocazioni contabili
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: Impostazione della contabilità interaziendale
                   href: general-ledger/intercompany-accounting-setup.md
@@ -856,11 +872,15 @@
                   href: general-ledger/sales-tax-calculation-methods-origin-field.md
                 - name: Opzioni Importo totale e Intervallo per i codici IVA
                   href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Calcolo dell'IVA nelle righe giornale di registrazione generale
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
                 - name: Calcolare e rettificare l'IVA in una fattura fornitore
                   href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Abilitare il calcolo delle imposte ritardato nel giornale di registrazione
+                  href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Creare un pagamento IVA
                   href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Creare transazioni IVA su documenti
+                - name: Creare transazioni IVA in documenti
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Impostare gruppi di registrazione contabile per l'IVA
                   href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
@@ -938,8 +958,12 @@
               href: public-sector/public-sector-functionality.md
             - name: Piano per la funzionalità Settore pubblico
               href: public-sector/plan-public-sector-functionality.md
-            - name: Creare le pagine di copertina e di firma per un report di pagamento per il settore pubblico
+            - name: Creare le pagine di copertina e di firma per un report pagamenti per il settore pubblico
               href: public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
+            - name: Distribuzione della posizione prevista
+              href: public-sector/forecast-positions.md
+            - name: Report su posizioni previste nel settore pubblico
+              href: public-sector/forecast-position-reports.md
             - name: Contabilità fornitori nel settore pubblico
               items:
                 - name: Panoramica contabilità fornitori nel settore pubblico
@@ -1016,6 +1040,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Creare una voce di contabilità generale avanzata nel settore pubblico
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Utilizzare i limiti di controllo di cassa
+                  href: public-sector/cash-control.md
                 - name: Elaborazione di fine anno nel settore pubblico
                   href: public-sector/year-end-processing-public-sector.md
                 - name: Gerarchie finanziarie derivate nel settore pubblico
@@ -1214,6 +1240,8 @@
                   href: localizations/latam-bra-sped-ecd.md
                 - name: Dichiarazione fiscale SPED-Reinf
                   href: localizations/latam-bra-sped-reinf.md
+                - name: Risoluzione fiscale SPED 13/2019 RJ
+                  href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: Parametri per le persone giuridiche
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Impostare i parametri della persona giuridica
@@ -1863,8 +1891,12 @@
                   href: localizations/emea-ita-packing-slip.md
                 - name: Libri IVA
                   href: localizations/emea-ita-fiscal-books.md
+                - name: Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)
+                  href: localizations/emea-ita-vat-management.md
                 - name: Pagamento diviso per le fatture emesse all'amministrazione pubblica
                   href: localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+                - name: Fatturazione note di accredito (Italia)
+                  href: localizations/emea-ita-credit-invoicing.md
                 - name: Ritenuta d'acconto
                   href: localizations/emea-ita-withholding-tax.md
             - name: Giappone
@@ -2221,6 +2253,8 @@
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Libri vendite, libri acquisti e giornali di registrazione fatture'
                       href: localizations/rus-sales-books-purchase-books.md
+                    - name: Gestione pagamenti anticipati
+                      href: localizations/rus-prepayments-management.md
                 - name: Cespiti
                   items:
                     - name: Gestione cespiti
@@ -2271,17 +2305,19 @@
                       href: localizations/rus-credit-note-correction.md
                     - name: Fatture per pagamento
                       href: localizations/rus-invoice-payment.md
-                    - name: Impostazione del controllo delle dimensioni per le liquidazioni
+                    - name: Impostare il controllo delle dimensioni per le liquidazioni
                       href: localizations/rus-transactions-settlement-date.md
-                    - name: Registrazione delle merci spedite ai clienti
+                    - name: Registrare le merci spedite ai clienti
                       href: ../supply-chain/localizations/rus-goods-transit-postponed.md
                     - name: Gestione dei flussi di cassa
                       href: localizations/rus-cash-flow.md
+                    - name: Allocazione delle spese varie rispetto a peso e volume
+                      href: localizations/rus-miscellaneous-charges.md
                 - name: Report
                   items:
                     - name: Creazione di report finanziari
                       href: localizations/rus-financial-reports.md
-                    - name: Configurazione di report finanziari in Excel
+                    - name: Configurare i report finanziari in Excel
                       href: localizations/rus-excel-financial-report.md
                     - name: Report di contabilità in formato elettronico
                       href: localizations/rus-accounting-reporting.md
