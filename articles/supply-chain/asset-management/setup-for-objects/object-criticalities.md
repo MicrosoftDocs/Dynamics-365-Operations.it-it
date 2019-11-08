@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783381"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571072"
 ---
-# <a name="asset-criticalities"></a>Criticità cespiti
+# <a name="asset-criticality-types"></a>Tipi di criticità dei cespiti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 L'argomento descrive i tipi di criticità dei cespiti in Gestione cespiti. La criticità dei cespiti è correlata ai cespiti e viene trasferita agli ordini di lavoro. Non può essere modificata in un ordine di lavoro. La criticità dei cespiti viene utilizzata per calcolare la criticità dell'ordine di lavoro durante la programmazione dell'ordine di lavoro. Ovvero, è utilizzata per calcolare la misura in cui un processo di manutenzione di un cespite influisce sulla programmazione di produzione e la produttività della società. Per ulteriori informazioni sull'impostazione relativa al calcolo dei punteggi di valutazione per la programmazione degli ordini di lavoro, vedere [Parametri di Gestione cespiti](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Per impostare la criticità, è necessario innanzitutto creare i tipi di critici
 4. Nel campo **Nome** immettere un nome per il tipo di criticità.
 5. Nel campo **Fattore** immettere un fattore. Il fattore viene utilizzato durante il calcolo della programmazione dell'ordine di lavoro per determinare il record di criticità da utilizzare. Il record con il più alto fattore viene utilizzato sempre. Questa impostazione è rilevante se, come illustrato nella figura seguente, righe di criticità vengono create con lo stesso valore di criticità.
 
-    ![Figura 1](media/23-setup-for-objects.png)
+    ![Pagina Tipi di criticità](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Impostare la criticità cespiti
 

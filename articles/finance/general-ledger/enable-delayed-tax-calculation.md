@@ -1,6 +1,6 @@
 ---
-title: Abilitare il calcolo IVA differito nel giornale di registrazione
-description: In questo argomento viene descritto come utilizzare la funzionalità **Abilita calcolo IVA differito nel giornale di registrazione** per migliorare le prestazioni di calcolo dell'IVA quando il volume delle righe del giornale di registrazione è enorme.
+title: Abilitare il calcolo IVA differito nei giornali di registrazione
+description: In questo argomento viene descritto come attivare la funzionalità del calcolo IVA differito per migliorare le prestazioni di calcolo dell'IVA quando il numero delle righe del giornale di registrazione è molto elevato.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178432"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623523"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Abilitare il calcolo IVA differito nel giornale di registrazione
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Abilitare il calcolo IVA differito nei giornali di registrazione
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento viene descritto come utilizzare la funzionalità **Abilita calcolo IVA differito nel giornale di registrazione** per migliorare le prestazioni di calcolo dell'IVA quando il volume delle righe del giornale di registrazione è enorme.
+In questo argomento viene descritto come è possibile effettuare il calcolo IVA dei giornali di registrazione. Questa funzionalità consente di migliorare le prestazioni dei calcoli IVA quando sono presenti molte righe del giornale di registrazione.
 
-Il comportamento corrente del calcolo dell'IVA nel giornale di registrazione è attivato in tempo reale quando l'utente aggiorna i campi relativi all'IVA, ad esempio Fascia IVA/Fascia IVA articoli. Qualsiasi aggiornamento a livello di riga del giornale di registrazione ricalcolerà l'importo IVA in tutte le righe del giornale di registrazione. Ciò consente all'utente di ottenere il calcolo dell'importo IVA in tempo reale ma può anche generare un problema di prestazioni se il volume delle righe del giornale di registrazione è enorme.
+Per impostazione predefinita, gli importi IVA nelle righe del giornale di registrazione vengono calcolati quando i campi relativi all'IVA vengono aggiornati. Tra questi campi sono inclusi i campi delle fasce IVA e delle fasce IVA articoli. Qualsiasi aggiornamento a una riga del giornale di registrazione comporta il ricalcolo degli importi IVA per tutte le righe del giornale di registrazione. Sebbene questo comportamento aiuti l'utente a visualizzare gli importi IVA calcolati in tempo reale, può anche influire sulle prestazioni se il numero di righe del giornale di registrazione è molto elevato.
 
-Questa funzionalità fornisce un'opzione per differire il calcolo dell'IVA e risolvere il problema di prestazioni. Se questa funzionalità è attivata, l'importo IVA verrà calcolato solo quando l'utente fa clic sul comando "IVA" o registra il giornale di registrazione.
+La funzionalità Calcolo IVA differito consente di posticipare il calcolo IVA nei giornali di registrazione e in modo da ovviare ai problemi relativi alle prestazioni. Quando questa funzionalità è attivata, gli importi IVA vengono calcolati solo quando un utente seleziona **IVA** o registra il giornale di registrazione.
 
-L'utente può attivare/disattivare il parametro a tre livelli:
-- In base all'entità giuridica
-- In base al nome del giornale di registrazione
-- In base all'intestazione del giornale di registrazione
+È possibile ritardare il calcolo dell'IVA a tre livelli:
 
-Il sistema considererà il valore del parametro nell'intestazione del giornale di registrazione come finale. Per impostazione predefinita, il valore del parametro nell'intestazione del giornale di registrazione è il nome del giornale di registrazione. Per impostazione predefinita, il valore del parametro nel nome del giornale di registrazione è il parametro di contabilità generale quando il nome del giornale di registrazione viene creato.
+- Persona giuridica
+- Nome giornale di registrazione
+- Intestazione giornale di registrazione
 
-I campi "Importo IVA effettiva" e "Importo IVA calcolato" nel giornale di registrazione non saranno visibili se questo parametro è abilitato. Lo scopo è di non confondere l'utente in quanto il valore di questi due campi sarà sempre pari a 0 prima che l'utente attivi il calcolo dell'IVA.
+Il sistema assegna la priorità all'impostazione dell'intestazione del giornale di registrazione. Per impostazione predefinita, questa impostazione viene ricavata dal nome del giornale di registrazione. Per impostazione predefinita, l'impostazione del nome del giornale di registrazione viene ricavata dall'impostazione della pagina **Parametri di contabilità generale** quando il nome del giornale di registrazione viene creato. Nelle seguenti sezioni viene descritto come abilitare il calcolo IVA differito per le persone giuridiche, i nomi dei giornali di registrazione e le intestazioni dei giornali di registrazione.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Abilitare il calcolo IVA differito in base alla persona giuridica
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Attivare il calcolo IVA differito a livello di persona giuridica
 
-1. Selezionare **Contabilità generale > Impostazione contabilità generale > Parametri di contabilità generale**.
-2. Fare clic sulla scheda **Fascia IVA**.
-3. Nella Scheda dettaglio **Generale**, individuare il parametro **Calcolo IVA differito** e attivarlo/disattivarlo
+1. Passare a **Contabilità generale \> Impostazione contabilità generale \> Parametri di contabilità generale**.
+2. Nella scheda **IVA**, nella scheda dettaglio **Generale**, impostare l'opzione **Calcolo IVA differito** su **Sì**.
 
-![](media/delayed-tax-calculation-gl.png)
+![Immagine dei parametri di contabilità generale](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Attivare il calcolo IVA differito a livello di nome del giornale di registrazione
 
+1. Passare a **Contabilità generale \> Impostazione giornale di registrazione \> Nomi giornale di registrazione**.
+2. Nella scheda dettaglio **Generale**, nella sezione **IVA**, impostare l'opzione **Calcolo IVA differito** su **Sì**.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Abilitare il calcolo IVA differito in base al nome del giornale di registrazione
+![Immagine dei nomi del giornale di registrazione](media/delayed-tax-calculation-journal-name.png)
 
-1. Selezionare **Contabilità generale > Impostazione giornale di registrazione > Nomi giornale di registrazione**.
-2. Nella Scheda dettaglio **Generale**, individuare il parametro **Calcolo IVA differito** e attivarlo/disattivarlo
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Attivare il calcolo IVA differito a livello di intestazione del giornale di registrazione
 
-![](media/delayed-tax-calculation-journal-name.png)
-
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Abilitare il calcolo IVA differito in base al giornale di registrazione
-
-1. Selezionare **Contabilità generale > Scritture contabili > Giornali di registrazione generali**.
-2. Fare clic su **Nuovo**.
+1. Fare clic su **Contabilità generale \> Inserimenti nel giornale di registrazione \> Giornali di registrazione generali**.
+2. Selezionare **Nuovo**.
 3. Selezionare un nome di giornale di registrazione.
-4. Fare clic su **Imposta**.
-5. Individuare il parametro **Calcolo IVA differito** e attivarlo/disattivarlo.
+4. Nella scheda **Impostazione**, impostare l'opzione **Calcolo IVA differito** **Sì**.
 
-![](media/delayed-tax-calculation-journal-header.png)
+![Immagine della pagina del giornale di registrazione generale](media/delayed-tax-calculation-journal-header.png)

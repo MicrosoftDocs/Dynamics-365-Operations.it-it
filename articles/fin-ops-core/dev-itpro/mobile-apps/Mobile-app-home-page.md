@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: a8183dd834b1f39773d25fa7c546d5db1c7b7749
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 219bb1b5ac8360acf267fb792b8e23f961096abc
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249028"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553070"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
@@ -90,12 +90,12 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <td>Per ulteriori informazioni, vedere i seguenti argomenti:
 <ul>
 
-<li><a href="../../financials/cost-accounting/cost-controlling-mobile-workspace.md">Aree di lavoro mobili di controllo costi</a></li>
-<li><a href="../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Area di lavoro mobile per scorte disponibili</a></li>
-<li><a href="../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Aree di lavoro mobili per ordini cliente</a></li>
-<li><a href="../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Area di lavoro mobile di collaborazione fornitore</a></li>
-<li><a href="../../financials/project-management/project-time-entry-mobile-workspace.md">Area di lavoro mobile per immissione ora progetto</a></li>
-<li><a href="../../financials/expense-management/expense-management-mobile-workspace.md">Area di lavoro mobile di gestione spese</a></li>
+<li><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Aree di lavoro mobili di controllo costi</a></li>
+<li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Area di lavoro mobile per scorte disponibili</a></li>
+<li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Aree di lavoro mobili per ordini cliente</a></li>
+<li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Area di lavoro mobile di collaborazione fornitore</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Area di lavoro mobile per immissione ora progetto</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Area di lavoro mobile di gestione spese</a></li>
 
 </ul></td>
 </tr>

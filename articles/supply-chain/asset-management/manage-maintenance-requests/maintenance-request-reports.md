@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847530"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571624"
 ---
 # <a name="maintenance-request-reports"></a>Report sulle richieste di intervento di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Gestione cespiti, è possibile generare due report correlati a richieste di intervento di manutenzione. Un report mostra i dettagli e l'altro report conterrà un elenco che può essere utilizzato per la pianificazione e il follow-up.
 
@@ -44,7 +44,7 @@ Nel report **Dettagli richieste di intervento di manutenzione** vengono visualiz
 
 Nella figura seguente è illustrato un esempio del report **Dettagli richieste di intervento di manutenzione**.
 
-![Figura 1](media/09-manage-maintenance-requests.png)
+![Report dettagli richieste di intervento di manutenzione](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Creare un report Elenco richieste di intervento di manutenzione
 
@@ -57,4 +57,4 @@ Nel report **Elenco richieste di intervento di manutenzione** viene visualizzato
 
 Nella figura seguente è illustrato un esempio del report **Elenco richieste di intervento di manutenzione** per tutte le richieste di intervento di manutenzione attive.
 
-![Figura 2](media/10-manage-maintenance-requests.png)
+![Report elenco delle richieste di intervento di manutenzione](media/10-manage-maintenance-requests.png)

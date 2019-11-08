@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248702"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553093"
 ---
 # <a name="backup-storage-of-er-templates"></a>Archiviazione di backup di modelli ER
 
@@ -33,7 +33,7 @@ Il [framework ER](general-electronic-reporting.md) consente agli utenti aziendal
 
 Ogni formato configurato può essere pubblicato come parte di una soluzione ER. Ogni soluzione ER può essere esportata da un'istanza di Finance and Operations e importata in un'altra istanza.
 
-Il framework ER utilizza il [framework di gestione documenti](../../fin-and-ops/organization-administration/configure-document-management.md) per gestire i modelli necessari per l'istanza corrente di Finance and Operations. A seconda delle impostazioni del framework ER, l'archiviazione Blob di Microsoft Azure o una cartella di Microsoft SharePoint può essere selezionata come percorso fisico di archiviazione principale per i modelli. Per ulteriori informazioni, vedere [Configurare il framework ER](electronic-reporting-er-configure-parameters.md). La tabella DocuValue contiene un singolo record per ogni modello. In ogni record, il campo **AccessInformation** memorizza il percorso di un file di modello che si trova nel percorso di archiviazione configurato.
+Il framework ER utilizza il [framework di gestione documenti](../../fin-ops/organization-administration/configure-document-management.md) per gestire i modelli necessari per l'istanza corrente di Finance and Operations. A seconda delle impostazioni del framework ER, l'archiviazione Blob di Microsoft Azure o una cartella di Microsoft SharePoint può essere selezionata come percorso fisico di archiviazione principale per i modelli. Per ulteriori informazioni, vedere [Configurare il framework ER](electronic-reporting-er-configure-parameters.md). La tabella DocuValue contiene un singolo record per ogni modello. In ogni record, il campo **AccessInformation** memorizza il percorso di un file di modello che si trova nel percorso di archiviazione configurato.
 
 Quando si gestiscono le istanze di Finance and Operations, è possibile che si decida di migrare l'istanza corrente a un'altra posizione. Ad esempio, si potrebbe migrare l'istanza di produzione a un nuovo ambiente sandbox. Se il framework ER è stato configurato per archiviare modelli nell'archiviazione Blob, la tabella DocuValue nel nuovo ambiente sandbox fa riferimento all'istanza dell'archiviazione Blob nell'ambiente di produzione. Tuttavia, non è possibile accedere a questa istanza dall'ambiente sandbox, in quanto il processo di migrazione non supporta la migrazione di elementi nell'archiviazione Blob. Di conseguenza, se si tenta di eseguire un formato ER che utilizza un modello per generare documenti aziendali, si verifica un'eccezione e si riceve una notifica relativa al modello mancante. Vengono inoltre fornite informazioni sull'utilizzo dello strumento di pulitura ER per eliminare e quindi reimportare la configurazione di formato ER che contiene il modello. Poiché è possibile che vi siano varie configurazioni di formato ER, questo processo può richiedere molto tempo.
 

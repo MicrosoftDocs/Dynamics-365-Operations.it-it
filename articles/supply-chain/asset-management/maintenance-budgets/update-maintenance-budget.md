@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874787"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571739"
 ---
 # <a name="update-maintenance-budgets"></a>Aggiornare un budget di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 La pagina **Righe budget di manutenzione** visualizza tutte le righe di budget create per il budget selezionato nella pagina **Budget di manutenzione**. Per ulteriori informazioni, vedere [Creare budget di manutenzione](create-maintenance-budget.md). È possibile ricalcolare e rettificare le righe del budget di manutenzione fino a che il budget di manutenzione non viene approvato. Una volta trascorso il periodo di budget e dopo aver registrato i costi in Gestione cespiti, è possibile aggiornare anche le righe di budget con i costi effettivi.
 

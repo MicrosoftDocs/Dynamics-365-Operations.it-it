@@ -3,7 +3,7 @@ title: Impostazione guidata della pianificazione generale
 description: In questo argomento vengono descritte varie strategie e parametri importanti utilizzati per impostare la pianificazione generale.
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999536"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635128"
 ---
 # <a name="master-planning-setup-wizard"></a>Impostazione guidata della pianificazione generale
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento fornisce una guida per la **Impostazione guidata della pianificazione generale**. Descrive come suggerimenti dei parametri vengono calcolati e fornisce inoltre alcuni esempi che mostrano come diverse società configurano la pianificazione generale, in base alle esigenze aziendali.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+Il video relativo all'[impostazione guidata della pianificazione generale in Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile in YouTube.
+
 
 ## <a name="specific-requirements-of-your-company"></a>Requisiti specifici della società
 

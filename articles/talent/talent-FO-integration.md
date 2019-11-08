@@ -3,7 +3,7 @@ title: Domande frequenti sull'integrazione di Dynamics 365 Talent con Dynamics 3
 description: In questo argomento vengono descritti i dati che sono sincronizzati nell'integrazione di Talent con Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251016"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622770"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Domande frequenti sull'integrazione di Dynamics 365 Talent con Dynamics 365 Finance
 
@@ -35,6 +35,10 @@ In questo argomento vengono fornite le risposte a domande comuni relative ai dat
 Per Core HR viene sincronizzato un sottoinsieme di dati. Per un elenco di tutte le entità, vedere [Integrazione di Dynamics 365 Talent con Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Per Attract e Onboard, tutti i dati sono nativi a Common Data Service.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Perché non vedo i dati sincronizzati in Common Data Service?
+
+Per impostazione predefinita, l'integrazione Common Data Service è disattivata nei nuovi ambienti che non includono i dati dimostrativi forniti. Per impostazione predefinita, è abilitata nei nuovi ambienti che contengono i dati dimostrativi e la sincronizzazione dei dati inizia quando l'ambiente viene sottoposto al provisioning. Una volta che l'ambiente è pronto per sincronizzare i dati è possibile attivare l'integrazione. Per ulteriori informazioni, vedere [Configurare l'integrazione di Common Data Service](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Posso creare un nuovo mapping senza utilizzare modelli?
 

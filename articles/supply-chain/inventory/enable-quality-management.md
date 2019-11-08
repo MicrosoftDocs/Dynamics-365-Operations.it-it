@@ -3,7 +3,7 @@ title: Panoramica sulla gestione della qualità
 description: In questo argomento viene descritto come utilizzare la gestione della qualità in Dynamics 365 Supply Chain Management per migliorare la qualità del prodotto all'interno della supply chain.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249584"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653558"
 ---
 # <a name="quality-management-overview"></a>Panoramica sulla gestione della qualità
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249584"
 
 In questo argomento viene descritto come utilizzare la gestione della qualità in Dynamics 365 Supply Chain Management per migliorare la qualità del prodotto all'interno della supply chain.
 
-La gestione della qualità può favorire la gestione dei tempi di completamento quando ci si occupa di prodotti non conformi, indipendentemente dal punto di origine dei prodotti. Poiché i tipi di diagnostica sono collegati alla dichiarazione di correzione, Finance and Operations consente di programmare le attività per correggere i problemi e impedire che si ripetano.
+La gestione della qualità può favorire la gestione dei tempi di completamento quando ci si occupa di prodotti non conformi, indipendentemente dal punto di origine dei prodotti. Poiché i tipi di diagnostica sono collegati alla dichiarazione di correzione, Supply Chain Management consente di programmare le attività per correggere i problemi e impedire che si ripetano.
 
 Oltre alla funzionalità per gestire la non conformità, la gestione della qualità include la funzionalità per tenere traccia dei problemi in base al tipo (anche i problemi interni) e per l'identificazione di soluzioni a breve termine o a lungo termine. Le statistiche relative agli indicatori di prestazioni chiave (KPI) forniscono un'analisi dei problemi di non conformità che si sono precedentemente verificati e le soluzioni applicate per correggerli. È possibile utilizzare i dati storici per analizzare l'efficienza delle misure di qualità che sono state adottate in precedenza e determinare le misure appropriate in futuro.
 
@@ -290,6 +290,256 @@ Nella tabella seguente vengono fornite ulteriori informazioni sulla modalità di
 <td></td>
 <td></td>
 <td>Un ordine di controllo qualità deve essere creato manualmente per la quantità in magazzino di un articolo. Scorte fisiche disponibili è un campo obbligatorio.</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="quality-order-auto-generation-examples"></a>Esempi di generazione automatica dell'ordine di controllo qualità
+
+### <a name="purchasing"></a>Acquisti
+
+Se durante l'acquisto, si imposta il campo **Tipo di evento** su **Entrata prodotti** e il campo **Esecuzione** su **Dopo** nella pagina **Associazioni di controllo qualità**, saranno disponibili i seguenti risultati: 
+
+- Se l'opzione **Per quantità aggiornata** è impostata su **Sì**, viene generato un ordine di controllo qualità per ogni entrata dell'ordine fornitore, in base alla quantità ricevuta e alle impostazioni nel campionamento articoli. Ogni volta che una quantità viene ricevuta per l'ordine fornitore, nuovi ordini di controllo qualità vengono generati in base alla quantità ricevuta.
+- Se l'opzione **Per quantità aggiornata** è impostata su **No**, viene generato un ordine di controllo qualità per la prima entrata dell'ordine fornitore, in base alla quantità ricevuta. Inoltre, uno o più ordini di controllo qualità vengono creati in base alla quantità rimanente e alle dimensioni di tracciabilità. Gli ordini di controllo qualità non vengono generati per le entrate successive dell'ordine fornitore.
+
+<table>
+<tbody>
+<tr>
+<th>Specifica qualità</th>
+<th>Per quantità aggiornata</th>
+<th>Per dimensione di tracciabilità</th>
+<th>Risultato</th>
+</tr>
+<tr>
+<td>Percentuale: 10%</td>
+<td>Sì</td>
+<td>
+<p>Numero batch: No</p>
+<p>Numero di serie: No</p>
+</td>
+<td>
+<p>Quantità ordine: 100</p>
+<ol>
+<li>Dichiarazione di finito per 30
+<ul>
+<li>Ordine di controllo qualità #1 per 3 (10% di 30)</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 70
+<ul>
+<li>Ordine di controllo qualità #2 per 7 (10% della quantità rimanente dell'ordine, che equivale a 70 in questo caso)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 1</td>
+<td>Nessuno</td>
+<td>
+<p>Numero batch: No</p>
+<p>Numero di serie: No</p>
+</td>
+<td>Quantità ordine: 100
+<ol>
+<li>Dichiarazione di finito per 30
+<ul>
+<li>L'ordine di controllo qualità #1 viene creato per 1 (per la prima quantità dichiarata finita, con un valore fisso di 1).</li>
+<li>Non vengono creati altri ordini di controllo qualità in base alla quantità rimanente.</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 10
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 60
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 1</td>
+<td>Sì</td>
+<td>
+<p>Numero batch: Sì</p>
+<p>Numero di serie: Sì</p>
+</td>
+<td>
+<p>Quantità ordine: 10</p>
+<ol>
+<li>Dichiarazione di finito per 3
+<ul>
+<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1</li>
+<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2</li>
+<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 2
+<ul>
+<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4</li>
+<li>Ordine di controllo qualità #5 per 1 del batch #b5, numero di serie #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Nota:</strong> il batch può essere riutilizzato.</p>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 2</td>
+<td>Nessuno</td>
+<td>
+<p>Numero batch: Sì</p>
+<p>Numero di serie: Sì</p>
+</td>
+<td>
+<p>Quantità ordine: 10</p>
+<ol>
+<li>Dichiarazione di finito per 4
+<ul>
+<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1.</li>
+<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2.</li>
+<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3.</li>
+<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4.</li>
+<li>Non vengono creati altri ordini di controllo qualità in base alla quantità rimanente.</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 6
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Produzione
+
+Se durante la produzione, si imposta il campo **Tipo di evento** su **Dichiarato finito** e il campo **Esecuzione** su **Dopo** nella pagina **Associazioni di controllo qualità**, saranno disponibili i seguenti risultati:
+
+- Se l'opzione **Per quantità aggiornata** è impostata su **Sì**, viene generato un ordine di controllo qualità in base a ogni quantità finita e alle impostazioni nel campionamento articoli. Ogni volta che una quantità viene dichiarata come finita per l'ordine di produzione, nuovi ordini di controllo qualità vengono generati in base alla quantità finita. La logica di generazione è coerente con l'acquisto.
+- Se l'opzione **Per quantità aggiornata** è impostata su **No**, viene generato un ordine di controllo qualità la prima volta che una quantità viene dichiarata come finita, in base alla quantità finita. Inoltre, uno o più ordini di controllo qualità vengono creati in base alla quantità rimanente e alle dimensioni di tracciabilità del campionamento articoli. Gli ordini di controllo qualità non vengono generati per le successive quantità finite.
+
+<table>
+<tbody>
+<tr>
+<th>Specifica qualità</th>
+<th>Per quantità aggiornata</th>
+<th>Per dimensione di tracciabilità</th>
+<th>Risultato</th>
+</tr>
+<tr>
+<td>Percentuale: 10%</td>
+<td>Sì</td>
+<td>
+<p>Numero batch: No</p>
+<p>Numero di serie: No</p>
+</td>
+<td>
+<p>Quantità ordine: 100</p>
+<ol>
+<li>Dichiarazione di finito per 30
+<ul>
+<li>Ordine di controllo qualità #1 per 3 (10% di 30)</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 70
+<ul>
+<li>Ordine di controllo qualità #2 per 7 (10% della quantità rimanente dell'ordine, che equivale a 70 in questo caso)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 1</td>
+<td>Nessuno</td>
+<td>
+<p>Numero batch: No</p>
+<p>Numero di serie: No</p>
+</td>
+<td>Quantità ordine: 100
+<ol>
+<li>Dichiarazione di finito per 30
+<ul>
+<li>L'ordine di controllo qualità #1 per 1 (per la prima quantità dichiarata finita, con un valore fisso di 1)</li>
+<li>L'ordine di controllo qualità #2 per 1 (per la quantità rimanente con un valore fisso di 1)</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 10
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+<li>Dichiarazione di finito per 60
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 1</td>
+<td>Sì</td>
+<td>
+<p>Numero batch: Sì</p>
+<p>Numero di serie: Sì</p>
+</td>
+<td>
+<p>Quantità ordine: 10</p>
+<ol>
+<li>Dichiarato finito per 3: 1 per #b1, #s1; 1 per #b2, #s2 e 1 per #b3, #s3
+<ul>
+<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1</li>
+<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2</li>
+<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3</li>
+</ul>
+</li>
+<li>Dichiarato finito per 2: 1 per #b4, #s4 e 1 per #b5, #s5
+<ul>
+<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4</li>
+<li>Ordine di controllo qualità #5 per 1 del batch #b5, numero di serie #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Nota:</strong> il batch può essere riutilizzato.</p>
+</td>
+</tr>
+<tr>
+<td>Quantità fissa: 2</td>
+<td>Nessuno</td>
+<td>
+<p>Numero batch: Sì</p>
+<p>Numero di serie: Sì</p>
+</td>
+<td>
+<p>Quantità ordine: 10</p>
+<ol>
+<li>Dichiarato finito per 4: 1 per #b1, #s1; 1 per #b2, #s2; 1 per #b3, #s3 e 1 per #b4, #s4
+<ul>
+<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1</li>
+<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2</li>
+<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3</li>
+<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4</li>
+</ul>
+<ul>
+<li>Ordine di controllo qualità #5 per 2, senza riferimento a un batch o un numero di serie</li>
+</ul>
+</li>
+<li>Dichiarato finito per 6: 1 per #b5, #s5; 1 per #b6, #s6; 1 per #b7, #s7; 1 per #b8, #s8; 1 per #b9, #s9 e 1 per #b10, #s10
+<ul>
+<li>Nessun ordine di controllo qualità viene creato.</li>
+</ul>
+</li>
+</ol>
+</td>
 </tr>
 </tbody>
 </table>

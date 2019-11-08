@@ -3,7 +3,7 @@ title: Impostare un processo di rifornimento minimo/massimo
 description: Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924449"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559191"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Impostare un processo di rifornimento minimo/massimo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima. Quando le scorte scendono sotto il livello minimo, il lavoro verrà creato per rifornire l'ubicazione. La procedura mostra anche come utilizzare le ubicazioni fisse di prelievo per consentire il ristoccaggio anche se le scorte scendono sotto il livello minimo e come consentire l'esecuzione regolare del processo di rifornimento utilizzando un processo batch. Queste attività verranno in genere svolte da un responsabile del magazzino. È possibile eseguire questa procedura nella società di dati dimostrativi USMF utilizzando i valori di esempio nelle note oppure è possibile eseguirla sui propri dati. Se si utilizzano i propri dati, assicurarsi che un magazzino sia abilitato per i processi di gestione magazzino.
+Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima. Quando le scorte scendono sotto il livello minimo, il lavoro verrà creato per rifornire l'ubicazione. La procedura mostra anche come utilizzare le ubicazioni fisse di prelievo per consentire il ristoccaggio anche se le scorte scendono sotto il livello minimo e come consentire l'esecuzione regolare del processo di rifornimento utilizzando un processo batch. Queste attività verranno in genere svolte da un responsabile del magazzino. È possibile eseguire questa procedura nella società di dati dimostrativi USMF utilizzando i valori di esempio di seguito oppure è possibile eseguirla sui propri dati. Se si utilizzano i propri dati, assicurarsi che un magazzino sia abilitato per i processi di gestione magazzino.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Creare un'ubicazioni fissa di prelievo

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026718"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653420"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -34,7 +34,7 @@ Questo articolo illustra come configurare un magazzino. Sono riportate le inform
 **Nota:** Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
 
 ## <a name="warehouse-layout"></a>Layout magazzino
-Il sistema di gestione magazzino in Finance and Operations offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
+Il sistema di gestione magazzino in Supply Chain Management offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
 
 -   È possibile impostare aree di immagazzinamento ad alta priorità e a priorità bassa per un posizionamento ottimale delle merci.
 -   È possibile suddividere il magazzino in aree per soddisfare varie esigenze di immagazzinamento, ad esempio requisiti della temperatura, o vari tassi di fatturato per gli articoli.
@@ -42,7 +42,7 @@ Il sistema di gestione magazzino in Finance and Operations offre modalità fless
 -   È possibile raggruppare le ubicazioni utilizzando le impostazioni del vincolo di capacità fisica.
 -   È possibile controllare come vengono immagazzinati e prelevati gli articoli, in base a regole definite su query.
 
-Per utilizzare la gestione magazzino in Finance and Operations, è necessario creare un magazzino e abilitarlo per l'uso di attività di gestione magazzino più avanzate o specializzate. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione magazzino**.
+Per utilizzare la gestione magazzino in Supply Chain Management, è necessario creare un magazzino e abilitarlo per l'uso di attività di gestione magazzino più avanzate o specializzate. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione magazzino**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Gruppi di zone, zone, tipi di ubicazione e ubicazioni
 
@@ -54,7 +54,7 @@ Durante il processo per abilitare un layout di magazzino, è necessario definire
 -   **Tipi di ubicazione**: Un raggruppamento logico o fisico di ubicazioni del magazzino. Ad esempio, è possibile creare un tipo di ubicazione per tutte le ubicazioni di gestione temporanea. Le impostazioni obbligatorie nella pagina **Parametri di gestione magazzino** determinano il processo di definizione dei tipi di ubicazione di gestione temporanea e del tipo di ubicazione di spedizione finale.
 -   **Ubicazioni** – Il livello più basso di informazioni sull'ubicazione. Le ubicazioni vengono utilizzate per tenere traccia di dove vengono immagazzinate e prelevate le scorte disponibili in un magazzino.
 
-Le entità create per definire il layout di magazzino vengono utilizzate nelle query impostate nei modelli di lavoro per determinare gli ordini di lavoro nel magazzino. Di conseguenza, quando si definiscono le zone, i tipi di ubicazione e così via, considerare come vengono utilizzate le diverse zone nel magazzino per i diversi processi. Inoltre, considerare fattori quali le caratteristiche fisiche di un'area specifica. Vi possono ad esempio essere aree in cui è possibile utilizzare solo un determinato tipo di carrello elevatore. Se invece l'azienda esegue la produzione nella stessa struttura in cui conserva i prodotti finiti, è possibile che si desideri creare un unico magazzino in Finance and Operations, per poi separare le due funzioni creando due gruppi di area. Assegnare alle entità nomi descrittivi, in modo che sia facile identificarle quando le si utilizza nelle query del modello.
+Le entità create per definire il layout di magazzino vengono utilizzate nelle query impostate nei modelli di lavoro per determinare gli ordini di lavoro nel magazzino. Di conseguenza, quando si definiscono le zone, i tipi di ubicazione e così via, considerare come vengono utilizzate le diverse zone nel magazzino per i diversi processi. Inoltre, considerare fattori quali le caratteristiche fisiche di un'area specifica. Vi possono ad esempio essere aree in cui è possibile utilizzare solo un determinato tipo di carrello elevatore. Se invece l'azienda esegue la produzione nella stessa struttura in cui conserva i prodotti finiti, è possibile che si desideri creare un unico magazzino in Supply Chain Management, per poi separare le due funzioni creando due gruppi di area. Assegnare alle entità nomi descrittivi, in modo che sia facile identificarle quando le si utilizza nelle query del modello.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limiti stoccaggio ubicazione, profili dell'ubicazione e ubicazione di prelievo fisse
 

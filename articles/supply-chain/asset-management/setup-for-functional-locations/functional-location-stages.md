@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f784e4c17ad5b764cadd914f4959f4be160913
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783371"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569940"
 ---
 # <a name="functional-location-lifecycle-states"></a>Stati del ciclo di vita delle unità funzionali
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In questo argomento viene descritto come impostare gli stati del ciclo di vita delle unità funzionali e i modelli del ciclo di vita Gestione cespiti. Gli stati funzionali del ciclo di vita delle unità funzionali definiscono gli stati che può avere una unità funzionale, ad esempio, creata, attiva e terminata. È possibile visualizzare tutte le unità funzionali, indipendentemente dallo stato del ciclo di vita, nella pagina elenco **Tutte le unità funzionali**. È possibile modificare lo stato di una unità funzionale selezionandola nella pagina elenco **Tutte le unità funzionali** e **Aggiorna stato dell'unità funzionale**.
 

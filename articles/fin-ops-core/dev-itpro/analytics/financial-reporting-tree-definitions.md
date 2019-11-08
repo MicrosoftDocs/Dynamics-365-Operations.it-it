@@ -3,7 +3,7 @@ title: Definizioni di albero gerarchico nei report finanziari
 description: In questo articolo vengono fornite informazioni sulle definizioni di albero gerarchico. Una definizione di albero gerarchico è un componente di report, o blocco predefinito, che consente di definire la struttura e la gerarchia dell'organizzazione.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181820"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564169"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
@@ -50,7 +50,7 @@ Una definizione di albero gerarchico contiene le colonne descritte nella seguent
 
 | Colonna dell'albero gerarchico | Descrizione |
 |-----------------------|-------------|
-| Società               | Nome della società dell'unità gerarchica. Il valore **@ANY**, in genere assegnato solo al livello di riepilogo, consente l'utilizzo dell'albero gerarchico per tutte le società. A tutti i rami figlio deve essere assegnata una società. |
+| Società               | Nome della società dell'unità gerarchica. Il valore **\@ANY**, in genere assegnato solo al livello di riepilogo, consente l'utilizzo dell'albero gerarchico per tutte le società. A tutti i rami figlio deve essere assegnata una società. |
 | Nome unità             | Il codice che identifica l'unità gerarchica nell'albero gerarchico grafico. Assicurarsi di definire un sistema di codifica univoco che sia coerente e facile da comprendere per gli utenti. |
 | Descrizione unità      | Il titolo dell'unità gerarchica viene visualizzato nell'intestazione o nel piè di pagina del report se si immette **UnitDesc** come codice nella scheda **Intestazioni e piè di pagina** della definizione di report. Il titolo viene visualizzato nella descrizione della riga del report se si immette **UnitDesc** nella cella **Descrizione** della definizione di riga. |
 | Dimensioni            | Un'unità gerarchica che attinge le informazioni direttamente dai dati finanziari. Definisce il posizionamento logico e le lunghezze per il conto e i segmenti correlati. Ogni riga di unità gerarchica deve avere una dimensione in questa colonna. È anche possibile inserire una dimensione in una riga di unità di riepilogo (ad esempio, per le spese che sono direttamente correlate a tale unità). Se si immette una dimensione in una riga di unità di riepilogo, i conti utilizzati nelle unità padre non devono essere utilizzati in unità figlio. In caso contrario, gli importi potrebbero essere duplicati. |

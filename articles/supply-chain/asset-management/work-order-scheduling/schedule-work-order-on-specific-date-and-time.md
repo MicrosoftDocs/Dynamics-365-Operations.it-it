@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f818c4c3b669cc94e37cba1e3571c57b5c0dd1b
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 634bbb4326d560848d36f579a1179187d8369087
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887367"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652036"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Programmare un ordine di lavoro a una data e un'ora specifiche
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Se un ordine di lavoro deve essere programmato a una data *e* un'ora specifiche, è possibile sostituire il processo di programmazione standard in Gestione cespiti e creare una programmazione specifica per un ordine di lavoro.
 
@@ -41,13 +41,13 @@ Se un ordine di lavoro deve essere programmato a una data *e* un'ora specifiche,
 
 4. Nella Scheda dettaglio **Intestazione ordine di lavoro**, inserire la data di inizio e di fine nei campi **Data di inizio prevista** e **Data di fine prevista**.
 
-![Figura 1](media/05-work-order-scheduling.png)
+    ![Figura 1](media/05-work-order-scheduling.png)
 
-5. Nella scheda **Generale**, fare clic su **Programma** per utilizzare il processo di programmazione standard o fare clic su **Spedisci** se si desidera programmare l'ordine di lavoro per un lavoratore specifico.
+5. Nella scheda **Generale**, fare clic su **Programma** per utilizzare il processo di programmazione standard o fare clic su **Spedisci** se si desidera assegnare l'ordine di lavoro a un lavoratore specifico.
 
 6. Per sostituire tutte le prenotazioni di capacità esistenti in modo da assicurarsi che l'ordine di lavoro sia programmato nel periodo previsto, effettuare le selezioni come illustrato nella figura sotto nella finestra di dialogo **Programma ordini di lavoro** > sezione **Capacità limitata**. Ciò significa che il processo di programmazione ignorerà le prenotazioni della capacità esistenti in quanto l'ordine di lavoro deve iniziare alla data e all'ora previste.
 
-![Figura 2](media/06-work-order-scheduling.png)
+    ![Figura 2](media/06-work-order-scheduling.png)
 
 7. Fare clic su **OK** per avviare la programmazione.
 

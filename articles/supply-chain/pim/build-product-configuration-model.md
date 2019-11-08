@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249496"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653650"
 ---
 # <a name="product-configuration-overview"></a>Panoramica configurazione prodotto
 
@@ -73,7 +73,7 @@ I vincoli di tabella possono essere definiti dall'utente o dal sistema.
 
 Un vincolo di tabella definito dall'utente è creato dall'utente. L'utente seleziona una combinazione di tipi di attributo per rappresentare le colonne della tabella e immette i valori dai domini dei tipi di attributo selezionati per creare le righe nel vincolo di tabella.  
 
-Un vincolo di tabella definito dal sistema viene definito selezionando la tabella da utilizzare come riferimento quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Finance and Operations che sono presenti al momento della configurazione.  
+Un vincolo di tabella definito dal sistema viene definito selezionando la tabella da utilizzare come riferimento quindi selezionando i campi dalla tabella per creare le colonne nel vincolo. Le righe del vincolo di tabella sono le righe della tabella di Supply Chain Management che sono presenti al momento della configurazione.  
 
 Un vincolo di tabella viene incluso in un modello di configurazione prodotto facendo riferimento alla definizione del vincolo di tabella ed eseguendo il mapping degli attributi appropriati nel modello alle colonne del vincolo di tabella.
 

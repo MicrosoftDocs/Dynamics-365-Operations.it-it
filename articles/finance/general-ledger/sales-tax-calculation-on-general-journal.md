@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 354076dbc14f34b83d1cd24f591874b9af856af1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186304"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570196"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcolo dell'IVA nelle righe giornale di registrazione generale
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come viene calcolata l'IVA per diversi tipi di conti (fornitore, cliente, contabilità generale e progetto) sulle righe del giornale di registrazione generale.
 

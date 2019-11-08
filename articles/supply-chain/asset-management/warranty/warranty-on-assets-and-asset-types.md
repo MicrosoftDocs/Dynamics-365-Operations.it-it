@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874603"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569710"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>Garanzia sui cespiti e sui tipi di cespite
+# <a name="warranties-on-assets-and-asset-types"></a>Garanzie sui cespiti e sui tipi di cespite
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 In questo argomento viene descritto come impostare le garanzie sui cespiti e sui tipi di cespite in Gestione cespiti.
@@ -50,7 +50,7 @@ In questo argomento viene descritto come impostare le garanzie sui cespiti e sui
     > [!IMPORTANT]
     > Se una data è selezionata nel campo **Data di inizio garanzia** in un ordine di lavoro, la garanzia diventa valida per l'ordine di lavoro in tale data. Quando si crea un ordine di lavoro, il campo **Data di inizio garanzia** viene impostato automaticamente alla data di creazione. Tuttavia, è possibile modificare la data di modo che corrisponda, ad esempio, alla data di inizio di un contratto di garanzia.
     >
-    > ![Figura 1](media/02-warranty.png)
+    > ![Pagina Ordine di lavoro](media/02-warranty.png)
 
 > [!NOTE]
 > Quando si crea un ordine di lavoro per un cespite coperto da una garanzia del fornitore, se l'ordine di lavoro ha una data di inizio prevista durante il periodo di garanzia, si riceve una notifica sul contratto di garanzia. È quindi possibile annullare l'ordine di lavoro, come necessario.

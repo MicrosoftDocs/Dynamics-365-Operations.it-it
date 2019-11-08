@@ -3,7 +3,7 @@ title: Aggiornamento manuale dei contatori di cespiti
 description: In questo argomento viene descritto l'aggiornamento manuale dei contatori di cespiti in Gestione cespiti
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875737"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626137"
 ---
 # <a name="manual-update-of-asset-counters"></a>Aggiornamento manuale dei contatori di cespiti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-I contatori sono utilizzati per creare registrazioni in un cespite in relazione, ad esempio, al numero di ore in esecuzione o al numero di quantità prodotte.
+I contatori vengono utilizzati per creare registrazioni su un cespite, ad esempio registrazioni sul numero di ore in cui il cespite è stato in funzione o sulla quantità che è stata prodotta.
 
-Se il tipo di contatore selezionato per un contatore è impostato per ereditare valori di contatore (**Gestione cespiti** > **Impostazione** > **Tipi di cespite** > **Contatori** >  Scheda dettaglio **Generale** > interruttore **Eredita valori contatore cespiti** impostato su "Sì"), quando si crea una nuova riga contatore di quel tipo, ogni cespite figlio che utilizza lo stesso tipo di contatore viene aggiornato automaticamente.
+Il tipo selezionato per un contatore può essere impostato per ereditare i valori del contatore. In altre parole, l'opzione **Eredita valori contatore cespiti** è impostata su **Sì** nella scheda dettaglio **Generale** della pagina **Contatori** (**Gestione cespiti** > **Impostazioni** > **Tipi del cespite** > **Contatori**). In questo caso, quando si crea una nuova riga per un contatore di quel tipo, ogni cespite figlio che utilizza lo stesso tipo di contatore viene automaticamente aggiornato.
 
-In **Tutti i cespiti** si creano registrazioni contatore di ore o quantità di un cespite, in base alle letture nel cespite.
+Nella pagina **Tutti i cespiti** si creano le registrazioni contatore di ore o quantità di un cespite, in base alle letture nel cespite.
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**.
+1. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**.
 
-2. Selezionare il cespite nell'elenco e fare clic su **Contatori**. Nel modulo **Contatori cespiti**, viene visualizzato un elenco di tutte le registrazioni contatore precedenti del cespite selezionato.
+2. Selezione il cespite e nel riquadro azioni, nella scheda **Cespite**, nel gruppo **Preventivo**, selezionare **Contatori**. Nella pagina **Contatori cespiti** viene visualizzato un elenco di tutte le registrazioni contatore precedenti effettuate per il cespite selezionato.
 
-3. Fare clic su **Nuovo** per creare una nuova registrazione. L'ID cespite viene immesso automaticamente.
+3. Selezionare **Nuovo** per creare una registrazione. L'ID cespite verrà immesso automaticamente nel campo **Cespite**.
 
-4. Nel campo **Contatore** selezionare il contatore pertinente. Solo i contatori relativi al tipo di cespite selezionato nel cespite sono disponibili. L'unità correlata viene immessa automaticamente nel campo **Unità**.
+4. Nel campo **Contatore** selezionare il contatore pertinente. Solo i contatori relativi al tipo di cespite selezionato nel cespite sono disponibili per la selezione. L'unità correlata viene immessa automaticamente nel campo **Unità**.
 
-5. Selezionare la data e l'ora per la registrazione contatore.
+5. Nel campo **Registrato**, selezionare la data e l'ora della registrazione del contatore.
 
-6. Nel campo **Valore**, immettere il numero dall'ultima registrazione contatore o, nel campo **Valore aggregato**, immettere il conteggio totale.
+6. Nel campo **Valore**, immettere il numero dell'ultima di registrazione. In alternativa, nel campo **Valore aggregato**, immettere il numero del conteggio totale.
 
-- Se si installa fisicamente un nuovo contatore in un cespite, è necessario registrare la modifica nel cespite in **Contatori cespiti**. Successivamente, è necessario creare due righe di registrazione con timbri data/ora identici e nella riga relativa al nuovo contatore, selezionare la casella di controllo **Reimposta contatore**. Quando si creano due righe di registrazione, la prima deve essere per il contatore che si sostituisce. Nel campo **Totali**, il conteggio totale è la somma di tutti i valori registrati del contatore in base a quel tipo di contatore.  
+Notare i punti seguenti:
+
+- Se si installa fisicamente un nuovo contatore in un cespite, è necessario registrare la modifica nel cespite nella pagina **Contatori cespiti**. A questo punto, è necessario creare due righe di registrazione con timbro data/ora identico. La prima riga deve essere per il contatore che si sostituisce. Nella riga relativa al nuovo contatore, selezionare la casella di controllo **Reimposta contatore**. Nel campo **Totali**, il conteggio totale è la somma di tutti i valori registrati del contatore in base a quel tipo di contatore.
+
 - Se la casella di controllo **Reimposta contatore** è selezionata in un cespite che utilizza un piano di manutenzione con un tipo di intervallo "Una volta da..." o "Quando...", il contatore è ancora attivo nella riga del nuovo contatore poiché si è creata un riga contatore distinta e si è iniziato con un nuovo contatore.
+
+Nella figura seguente è illustrato un esempio della pagina **Contatori cespiti**.
 
 ![Figura 1](media/11-work-orders.png)
 
-
-Se è necessario eseguire registrazioni contatore in più cespiti, è possibile farlo in **Gestione cespiti** > **Richieste di informazioni** > **Cespiti** > **Contatori cespiti**.
+Nella pagina **Contatori cespiti** (**Gestione cespiti** > **Richieste di informazioni** > **Cespiti** > **Contatori cespiti**), è possibile eseguire le registrazioni in più cespiti contemporaneamente, secondo le necessità.
 
 >[!NOTE]
->È possibile impostare un intervallo per definire gli scostamenti nelle registrazioni contatore manuali e il tipo di messaggio da visualizzare se le registrazioni non rientrano nell'intervallo definito. Leggere l'argomento [Contatori](../setup-for-objects/counters.md) relativo all'impostazione di contatori.
+>È possibile impostare un intervallo per definire gli scostamenti rispetto alle registrazioni manuali. È inoltre possibile specificare il tipo di messaggio che verrà visualizzato se le registrazioni non rientrano nell'intervallo definito. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](../setup-for-objects/counters.md).
+

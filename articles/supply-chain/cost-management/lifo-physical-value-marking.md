@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565698"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569273"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Informazioni su LIFO con valore fisico e contrassegno
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 LIFO (Last In, First Out) è un modello inventariale in cui le ultime entrate (le più recenti) sono le prime a uscire. Le uscite da magazzino vengono compensate a fronte delle ultime entrate in magazzino in base alla data dell'operazione di magazzino. 
 
@@ -56,7 +54,9 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 -   5b. Uscita finanziaria da magazzino per una quantità pari a 1 al prezzo di costo unitario di 20,00 EUR (media corrente delle transazioni aggiornate finanziariamente).
 -   6. Viene eseguita la chiusura inventario. In base al metodo LIFO, l'ultima uscita aggiornata finanziariamente verrà compensata a fronte dell'ultima entrata aggiornata finanziariamente. Per la transazione in uscita verrà effettuata una rettifica di 10,00 EUR.
 
-Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 15,00 EUR. La seguente figura mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. ![LIFO senza Includi valore fisico](./media/lifowithoutincludephysicalvalue.gif) 
+Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 15,00 EUR. La seguente figura mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. 
+
+![LIFO senza Includi valore fisico](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -90,7 +90,9 @@ La figura di seguito mostra le transazioni:
 
 La transazione 6a verrà rettificata secondo la transazione in entrata 4b. Il sistema non compenserà tali transazioni perché l'entrata viene aggiornata solo fisicamente e non finanziariamente. Verrà in realtà effettuata solo una rettifica di 8,75 EUR per la transazione in uscita fisica. La transazione 5b verrà rettificata secondo la transazione in entrata fisica 3a. Il sistema non compenserà tali transazioni perché non sono state entrambe aggiornate finanziariamente. Verrà in realtà effettuata solo una rettifica di -3,75 EUR per la transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 20,00 EUR. 
 
-La seguente illustrazione mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. ![LIFO con Includi valore fisico](./media/lifowithincludephysicalvalue.gif) 
+La seguente illustrazione mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. 
+
+![LIFO con Includi valore fisico](./media/lifowithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -132,7 +134,9 @@ La figura di seguito mostra le transazioni:
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. 
 
-Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale LIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. ![LIFO con Contrassegno](./media/lifowithmarking.gif) 
+Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale LIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. 
+
+![LIFO con Contrassegno](./media/lifowithmarking.gif) 
 
 **Informazioni sul diagramma**
 
@@ -146,7 +150,4 @@ Nella seguente illustrazione vengono mostrati gli effetti del modello inventaria
 - Ogni freccia verticale è contrassegnata con un identificatore sequenziale, ad esempio *1a*. Gli identificatori indicano l'ordine delle registrazioni relative alle transazioni di magazzino nella sequenza temporale.
 - Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 - Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
-
-
-
 

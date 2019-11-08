@@ -3,7 +3,7 @@ title: Stornare registrazione del giornale di registrazione
 description: Questo argomento descrive le funzionalità che consentono di stornare i voucher dall'elenco delle transazioni dei voucher o dai giornali finanziari.
 author: MikeFalkner
 manager: AnnBe
-ms.date: 08/01/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,51 +18,56 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a5456e60f1f3cee5f83ac7f725f7e01ba5bd7a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bc2ff30ef5d08759af700d683c207b0f5ed65d5b
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248587"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658977"
 ---
 # <a name="reverse-journal-posting"></a>Stornare registrazione del giornale di registrazione
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento vengono descritte le funzionalità di Microsoft Dynamics 365 Finance che consentono di stornare un intero giornale di registrazione o stornare uno o più giustificativi dell'elenco delle transazioni giustificativi indipendentemente dall'origine. 
 
 ## <a name="reversing-journals"></a>Storno dei giornali di registrazione
 
 È possibile stornare singolarmente le righe del giornale di registrazione. Con lo storno della registrazione del giornale di registrazione, è inoltre possibile stornare un intero giornale finanziario. Per stornare un giornale di registrazione: 
-- Aprire il giornale finanziario e filtrare i giornali di registrazione pubblicati
-- Fare clic su Storna nel menu sulla parte superiore della pagina
+
+- Aprire il giornale finanziario e filtrare i giornali di registrazione pubblicati.
+- Selezionare il menu **Storna** nella parte superiore della pagina.
 - Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate
-- Selezionare Sì per utilizzare le date di transazione esistenti o No per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso e si desidera inserire una nuova data di transazione per lo storno.
-- Se si seleziona No, immettere una data di transazione per lo storno. 
-- Immettere un commento che si desidera aggiungere alla transazione di storno
-- Fare clic sul pulsante Storna
+- Selezionare **Sì** per utilizzare le date di transazione esistenti o **No** per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso ed è necessario immettere una nuova data di transazione per lo storno.
+- Se si seleziona **No**, immettere una data di transazione per lo storno. 
+- Immettere un commento che si desidera aggiungere alla transazione di storno.
+- Selezionare il pulsante **Storna**.
 
 Le transazioni saranno stornate. 
 
-Se il numero di righe giustificativo supera le 100 righe, il processo di storno verrà eseguito utilizzando il processo batch. È possibile rivedere i risultati dello storno visualizzando i commenti nel processo batch che è stato eseguito. Tutti gli errori verranno annotati nella cronologia dei processi batch.
+Se il giustificativo contiene più di 100 righe, il processo di storno verrà eseguito utilizzando il processo batch. È possibile esaminare i risultati visualizzando i commenti nel processo batch. Tutte le transazioni che non vengono stornate sono elencate nello storico dei processi batch.
 
-Se il numero di righe giustificativo è pari o inferiore a 100 righe, il processo di storno verrà eseguito immediatamente. I risultati verranno visualizzati in una finestra di dialogo contenente tutti i giustificativi che non è possibile stornare e il motivo per cui non possono essere stornati. Fare clic su OK per chiudere la finestra di dialogo.
+Se il numero di righe giustificativo è pari o inferiore a 100 righe, il processo di storno verrà eseguito immediatamente. I risultati verranno visualizzati in una finestra di dialogo contenente tutti i giustificativi che non è possibile stornare con il motivo per cui non possono essere stornati. Selezionare **OK** per chiudere la finestra di dialogo.
 
 ## <a name="reversing-vouchers-from-the-voucher-transaction-list"></a>Storno di giustificativi dall'elenco delle transazioni giustificativi. 
 
 È inoltre possibile stornare i giustificativi dall'**elenco transazioni per giustificativo** in tutti i giornali di registrazione secondari . Inoltre, è possibile stornare più di un giustificativo per volta. 
 
 Per stornare uno o più giustificativi: 
-- Fare clic su Storna nel menu sulla parte superiore della pagina
-- Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate
-- Selezionare Sì per utilizzare le date di transazione esistenti o No per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso e si desidera inserire una nuova data di transazione per lo storno.
-- Se si seleziona No, immettere una data di transazione per lo storno. 
-- Immettere un commento che si desidera aggiungere alla transazione di storno
-- Fare clic sul pulsante Storna
+
+- Selezionare il menu **Storna** nella parte superiore della pagina
+- Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate.
+- Selezionare **Sì** per utilizzare le date di transazione esistenti o **No** per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso ed è necessario immettere una nuova data di transazione per lo storno.
+- Se si seleziona **No**, immettere una data di transazione per lo storno. 
+- Immettere un commento per descrivere la transazione di storno.
+- Selezionare il pulsante **Storna**.
 
 Le transazioni saranno stornate. 
 
-Se il numero di righe giustificativo supera le 100 righe, il processo di storno verrà eseguito utilizzando il processo batch. È possibile rivedere i risultati dello storno visualizzando i commenti nel processo batch che è stato eseguito. Tutti gli errori verranno annotati nella cronologia dei processi batch.
+Se il giustificativo include più di 100 righe, il processo di storno verrà eseguito utilizzando il processo batch. È possibile esaminare i risultati visualizzando i commenti nel processo batch. Tutte le transazioni che non vengono stornate sono riportate nello storico dei processi batch.
 
-Se il numero di righe giustificativo è pari o inferiore a 100 righe, il processo di storno verrà eseguito immediatamente. I risultati verranno visualizzati in una finestra di dialogo contenente tutti i giustificativi che non è possibile stornare e il motivo per cui non possono essere stornati. Fare clic su OK per chiudere la finestra di dialogo.
+Se il numero di righe giustificativo è pari o inferiore a 100 righe, il processo di storno verrà eseguito immediatamente. I risultati verranno visualizzati in una finestra di dialogo contenente tutti i giustificativi che non è possibile stornare insieme al motivo. Selezionare **OK** per chiudere la finestra di dialogo.
+
+Le transazioni possono essere stornate solo se soddisfano le regole business per lo storno. I pagamenti fornitore non possono essere stornati utilizzando la funzionalità descritta in questo argomento. I pagamenti fornitore devono essere stornati tramite i passaggi elencati in [Stornare un pagamento fornitore](https://docs.microsoft.com/en-us/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 

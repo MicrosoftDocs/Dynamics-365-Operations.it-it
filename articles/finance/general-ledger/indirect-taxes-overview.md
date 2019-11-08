@@ -3,7 +3,7 @@ title: Panoramica dell'IVA
 description: Questo argomento fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186465"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666832"
 ---
 # <a name="sales-tax-overview"></a>Panoramica dell'IVA
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Questo argomento fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 
@@ -94,5 +92,8 @@ In genere è necessario liquidare e pagare 2.500 all'ufficio tributario quando v
 
 Tuttavia, se si utilizza un'IVA condizionata, è possibile liquidare quando si riceve il pagamento dal cliente il 30 luglio.
 
+### <a name="postdated-check"></a>Assegno postdatato
+
+Se si utilizza un assegno postdatato come metodo di pagamento, quando viene creato il pagamento, il conto bancario non viene cancellato. In alcuni paesi, l'IVA diventa responsabilità "realizzata" quando il pagamento cancella la banca, il che significa che l'assegno postdatato è stato liquidato. È possibile abilitarlo selezionando l'opzione per **realizzare l'imposta condizionale quando vengono generati assegni postdatati** in **Gestione cassa e banche > Impostazioni > Parametri di gestione cassa e banche > Assegni postdatati**.
 
 Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](tasks/set-up-withholding-tax.md).

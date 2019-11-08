@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847553"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571670"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Se la società effettua i processi di riparazione o i processi di manutenzione sui cespiti ricevuti da altri ubicazioni o clienti, Gestione cespiti può tenere traccia sia dei cespiti in entrata che stanno per arrivare che dei cespiti in uscita che vengono restituiti.
 
@@ -45,7 +45,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Aggiorna stato della richiesta di intervento di manutenzione**.
 4. Selezionare **In entrata** (o un altro stato del ciclo di vita creato per i cespiti in entrata), quindi **OK**.
 
-![Figura 1](media/07-manage-maintenance-requests.png)
+![Registrare cespiti come in entrata](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registrare i cespiti in entrata come ricevuti
 
@@ -54,7 +54,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Ricevi cespiti**.
 4. Nel campo **Ricevuto** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in entrata**.
 
-![Figura 2](media/08-manage-maintenance-requests.png)
+![Registrare i cespiti in entrata come ricevuti](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registrare cespiti come in uscita
 

@@ -3,7 +3,7 @@ title: Approvvigionamento
 description: In questo argomento viene descritto l'approvvigionamento in Gestione cespiti.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875733"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626433"
 ---
 # <a name="procurement"></a>Approvvigionamento
 
-
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 In Gestione cespiti, è possibile ottenere una panoramica delle richieste di acquisto e degli ordini fornitore associati agli ordini di lavoro. È inoltre possibile creare un ordine fornitore o una richiesta di acquisto da un ordine di lavoro.
 
-L'elenco **Richiesta di acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Richiesta di acquisto ordine di lavoro**) contiene le richieste di acquisto correlate agli ordini di lavoro.
+La pagina elenco **Richiesta di acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Richiesta di acquisto ordine di lavoro**) contiene le richieste di acquisto correlate agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Richiesta di acquisto ordine di lavoro** per eseguire le varie operazioni:
 
-- Selezionare un processo di ordine di lavoro nell'elenco **Richiesta di acquisto ordine di lavoro** e fare clic sul pulsante **Richiesta di acquisto** per aprire la richiesta di acquisto correlata.  
-- Selezionare un processo di ordine di lavoro nell'elenco **Richiesta di acquisto ordine di lavoro** e fare clic sul pulsante **Ordine di lavoro** per aprire l'ordine di lavoro correlato.  
-- Selezionare un processo di ordine di lavoro nell'elenco **Richiesta di acquisto ordine di lavoro** e fare clic sul pulsante **Utilizzo dell'articolo** se si desidera ottenere una panoramica dell'utilizzo dell'articolo nella riga selezionata in Gestione cespiti in relazione a cespiti, valori predefiniti di tipo di processo di manutenzione, pezzi di ricambio e ordini di lavoro. 
+- Per aprire la richiesta di acquisto correlata, selezionare **Richiesta di acquisto**. 
+- Per aprire l'ordine di lavoro correlato, selezionare **Ordine di lavoro**.
+- Per ottenere una panoramica di dove l'articolo viene utilizzato nella riga selezionata in relazione ai cespiti, ai valori predefiniti di tipo di processo di manutenzione, pezzi di ricambio e ordini di lavoro, selezionare **Utilizzo dell'articolo**. Per ulteriori informazioni su questa panoramica, vedere [Utilizzo dell'articolo](../controlling-and-reporting/item-where-used.md).
+
+Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Richiesta di acquisto ordine di lavoro**.
 
 ![Figura 1](media/08-work-orders.png)
 
 
-L'elenco **Acquisto ordine di lavoro** (**Gestione cespiti aziendali** > **Comune** > **Approvvigionamento** > **Acquisto ordine di lavoro**) contiene gli ordini fornitore correlati agli ordini di lavoro.
+La pagina elenco **Acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Acquisto ordine di lavoro**) contiene l'elenco degli ordini fornitore correlati agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Acquisto ordine di lavoro** per eseguire le varie operazioni:
 
-- Selezionare un processo di ordine di lavoro nell'elenco **Acquisto ordine di lavoro** e fare clic sul pulsante **Ordine fornitore** per aprire l'ordine fornitore correlato.  
-- Selezionare un processo di ordine di lavoro nell'elenco **Acquisto ordine di lavoro** e fare clic sul pulsante **Ordine di lavoro** per aprire l'ordine di lavoro correlato.  
-- Selezionare un processo di ordine di lavoro nell'elenco **Richiesta di acquisto ordine di lavoro** e fare clic sul pulsante **Utilizzo dell'articolo** se si desidera ottenere una panoramica dell'utilizzo dell'articolo nella riga selezionata in Gestione cespiti in relazione a cespiti, valori predefiniti di tipo di processo di manutenzione, pezzi di ricambio e ordini di lavoro. 
+- Per aprire l'ordine fornitore correlato, selezionare **Ordine fornitore**. 
+- Per aprire l'ordine di lavoro correlato, selezionare **Ordine di lavoro**.
+- Per ottenere una panoramica di dove l'articolo viene utilizzato nella riga selezionata in relazione ai cespiti, ai valori predefiniti di tipo di processo di manutenzione, pezzi di ricambio e ordini di lavoro, selezionare **Utilizzo dell'articolo**. Per ulteriori informazioni su questa panoramica, vedere [Utilizzo dell'articolo](../controlling-and-reporting/item-where-used.md).
+
+Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Acquisto ordine di lavoro**.
 
 ![Figura 2](media/09-work-orders.png)
 
 
-Negli elenchi esposti sopra, a destra di ciascuna riga è visualizzata un'icona relativa al controllo della data di consegna. Se l'icona visualizza un punto esclamativo in un cerchio rosso, significa che la consegna per la richiesta di acquisto o l'ordine fornitore correlato può essere ritardata.
+Nella pagina elenco **Acquisto ordine di lavoro** e nella pagina elenco **Richiesta di acquisto ordine di lavoro**, un simbolo correlato al controllo della data di consegna viene visualizzato a destra di ciascuna riga. Se il simbolo è un punto esclamativo in un cerchio rosso, la consegna dell'ordine fornitore correlato o della richiesta di acquisto può essere ritardata.
 
-In una richiesta di acquisto, la data utilizzata per calcolare il possibile ritardo si trova nel modulo **Richieste di acquisto** > Scheda dettaglio **Richiesta di acquisto** > campo **Data richiesta**. Tale data viene confrontata alla data disponibile nell'ordine di lavoro o nel processo ordine di lavoro come avviene per la data dell'ordine fornitore.
+Per un ordine fornitore, la data correlata alla riga ordine fornitore viene utilizzata per calcolare un ritardo possibile. Per visualizzare la data, nella pagina **Ordine fornitore**, selezionare la riga ordine fornitore. La data viene visualizzata nel campo **Data di consegna confermata** della scheda **Impostazione** della scheda dettaglio **Dettagli riga**. Se il campo **Data di consegna confermata** non è impostato, la data nel campo **Data di consegna** della scheda dettaglio **Intestazione ordine fornitore** viene utilizzata per il calcolo. Una di quelle date viene confrontata alla data disponibile nell'ordine di lavoro o nel processo ordine di lavoro nell'ordine seguente:
 
-In un ordine fornitore, la data utilizzata per calcolare il ritardo possibile è la data relativa alla riga dell'ordine fornitore, visualizzata nel modulo **Ordine fornitore** > selezionare la riga dell'ordine fornitore > Scheda dettaglio **Dettagli riga** > scheda **Impostazione** > campo **Data di consegna confermata**. Se quel campo non è specificato, viene utilizzata la data nel campo **Data di consegna** della Scheda dettaglio **Intestazione ordine fornitore**. Una di quelle date viene confrontata alla data disponibile nell'ordine di lavoro o nel processo ordine di lavoro nell'ordine seguente:
+1. Data di inizio effettiva nell'ordine di lavoro  
 
-- Data di inizio effettiva nell'ordine di lavoro oppure  
+2. Data di inizio programmata nel processo di ordine di lavoro associato 
 
-- Data di inizio programmata nel processo di ordine di lavoro associato oppure  
+3. Data di inizio programmata nell'ordine di lavoro 
 
-- Data di inizio programmata nell'ordine di lavoro oppure  
+4. Data di inizio prevista nell'ordine di lavoro 
 
-- Data di inizio prevista nell'ordine di lavoro  
+Per una richiesta di acquisto, viene utilizzata la data nel campo **Data richiesta** della scheda dettaglio **Intestazione richiesta di acquisto** della pagina **Richieste di acquisto** per calcolare il possibile ritardo. Tale data nel campo viene confrontata con la data disponibile nell'ordine di lavoro o nel processo ordine di lavoro nello stesso ordine utilizzato per un ordine fornitore.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Creare un ordine fornitore da un ordine cliente
+## <a name="create-a-purchase-order-from-a-work-order"></a>Creare un ordine fornitore da un ordine cliente
 
-In **Tutti gli ordini di lavoro**, si seleziona un processo di ordine di lavoro e si crea un ordine fornitore o una richiesta di acquisto correlato. Ciò garantisce le relazioni di progetto tra l'ordine fornitore o la richiesta di acquisto e l'ordine di lavoro.
+Nella pagina elenco **Tutti gli ordini di lavoro**, è possibile selezionare un processo di ordine di lavoro e creare un ordine fornitore o una richiesta di acquisto correlata. In questo modo si garantisce la presenza delle relazioni di progetto tra l'ordine fornitore o la richiesta di acquisto e l'ordine di lavoro.
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
-2. Nell'elenco **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**, selezionare l'ordine di lavoro per il quale si desidera creare un ordine fornitore e fare clic su **Modifica**.
+2. Selezionare l'ordine di lavoro per creare un ordine fornitore, quindi selezionare **Modifica**.
 
-3. Nel modulo **Ordine di lavoro** > Scheda dettaglio **Processi di manutenzione ordine di lavoro**, selezionare il processo di ordine di lavoro per il quale si desidera creare l'ordine fornitore.
+3. Nella Scheda dettaglio **Processi di manutenzione ordine di lavoro**, selezionare il processo di ordine di lavoro per il quale si desidera creare l'ordine fornitore.
 
-4. Fare clic su **Attività articolo** > **Ordine fornitore da processo di ordine di lavoro**.
+4. Selezionare **Attività articolo** > **Ordine fornitore da processo di ordine di lavoro**.
 
 5. Nella pagina elenco **Ordini fornitore progetto**, fare clic su **Nuovo**.
 
 6. Crea l'ordine fornitore.
 
 >[!NOTE]
->La creazione di una richiesta di acquisto è quasi identica alla creazione di un ordine fornitore. L'unica differenza è che nella procedura esposta sopra, si fa clic su **Attività articolo** > **Richiesta di acquisto da processo di ordine di lavoro** nel passaggio 2.
+>Per creare una richiesta di acquisto correlata, seguire la stessa procedura. Tuttavia, selezionare **Attività articolo** > **Richiesta di acquisto da processo di ordine di lavoro** al passaggio 4.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Relazione progetti tra ordine di lavoro e ordine fornitore o richiesta di acquisto
 
-Una riga di ordine fornitore o di richiesta di acquisto è associata a un processo di ordine di lavoro tramite il progetto di ordine di lavoro e il numero di attività di progetto correlato. Quando si crea un ordine fornitore o una richiesta di acquisto da un processo di ordine di lavoro, il numero di attività di progetto correlato è obbligatorio. Il numero di attività di progetto viene automaticamente immesso in un ordine fornitore o una richiesta di acquisto se l'ordine di lavoro correlato contiene processi di ordine di lavoro che utilizzano tutti lo stesso tipo di processo di manutenzione. Se i processi di ordine di lavoro contengono tipi di processo di manutenzione differenti, il numero di attività di progetto deve essere immesso manualmente.
+Una riga di ordine fornitore o di richiesta di acquisto è associata a un processo di ordine di lavoro tramite il progetto di ordine di lavoro e il numero di attività di progetto correlato. Quando si crea un ordine fornitore o una richiesta di acquisto da un processo di ordine di lavoro, il numero di attività di progetto correlato è obbligatorio. Se tutti i processi ordine di lavoro presenti nell'ordine di lavoro correlato hanno lo stesso tipo di processo di manutenzione, il numero di attività di progetto viene automaticamente immesso nell'ordine fornitore o nella richiesta di acquisto. Se i processi ordine di lavoro hanno tipi di processo di manutenzione diversi, è necessario immettere manualmente il numero di attività di progetto nell'ordine fornitore o nella richiesta di acquisto.
 
-Per visualizzare o immettere il numero di attività relativo a una riga di ordine fornitore, aprire **Acquisto ordine di lavoro** > selezionare il record di ordine fornitore > fare clic sull'ordine fornitore nella colonna **Ordine fornitore** > Scheda dettaglio **Dettagli riga** > scheda **Progetto** > campo **Numero di attività**.
+Per visualizzare o inserire il numero di attività correlato a una riga ordine fornitore, nella pagina elenco **Acquisto ordine di lavoro**, selezionare il record dell'ordine fornitore e nella colonna **Ordine fornitore** selezionare il collegamento dell'ordine fornitore. Il campo **Numero attività** è disponibile nella scheda **Progetto** della scheda dettaglio **Dettagli riga**.
 
+Nella figura seguente è illustrato un esempio della pagina **Ordine fornitore** con lo stato attivo su **Numero attività**.
 
 ![Figura 3](media/10-work-orders.png)
 
-
-Analogamente, per visualizzare o immettere il numero di attività relativo a una riga di richiesta di acquisto di ordine fornitore, aprire **Acquisto ordine di lavoro** > selezionare il record di richiesta di acquisto > fare clic sulla richiesta di acquisto nella colonna **Richiesta di acquisto** > Scheda dettaglio **Dettagli riga** > scheda **Progetto** > campo **Numero di attività**.
+Analogamente, per visualizzare o inserire il numero di attività correlato a una richiesta di ordine fornitore, nella pagina elenco **Richiesta di acquisto ordine di lavoro**, selezionare il record della richiesta di acquisto e nella colonna **Richiesta di acquisto** selezionare il collegamento della richiesta di acquisto. Il campo **Numero attività** è disponibile nella scheda **Progetto** della scheda dettaglio **Dettagli riga**.
 

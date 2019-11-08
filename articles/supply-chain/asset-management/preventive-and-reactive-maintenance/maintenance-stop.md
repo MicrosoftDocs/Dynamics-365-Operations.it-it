@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4a7c57452b2f639b1f1b76bc79959c620c58ace1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922185"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571302"
 ---
 # <a name="maintenance-downtime"></a>Tempi di fermo per la manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 I tempi di fermo per la manutenzione sono utilizzati per ottenere una panoramica della capacità necessaria per eseguire processi di manutenzione di determinati cespiti durante un periodo specifico. Ad esempio, è possibile creare una registrazione di tempi di fermo per la manutenzione per la Linea di produzione 10 nel Reparto di produzione 29-A del sito di produzione 02. La registrazione di tempi di fermo per la manutenzione comporta una data di inizio e una di fine che indicano il periodo in cui i cespiti associati all'interruzione per manutenzione non sono disponibili per la produzione.
 

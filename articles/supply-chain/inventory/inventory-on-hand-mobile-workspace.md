@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249519"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574801"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Area di lavoro mobile per scorte disponibili
 
@@ -56,9 +56,9 @@ In particolare, l'area di lavoro mobile fornisce le seguenti funzionalità:
     -   Per scorte fisiche disponibili (questa visualizzazione rappresenta la quantità disponibile senza prenotazioni).
 
 ## <a name="prerequisites"></a>Prerequisiti
-I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
+I prerequisiti variano in base alla versione di Supply Chain Management che è stata installata nell'organizzazione.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Prerequisiti per l'utilizzo di Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Prerequisiti si utilizza Supply Chain Management
 Se Supply Chain Management è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Scorte disponibili**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Prerequisiti per l'utilizzo dell'Aggiornamento piattaforma 3 o versione successiva 

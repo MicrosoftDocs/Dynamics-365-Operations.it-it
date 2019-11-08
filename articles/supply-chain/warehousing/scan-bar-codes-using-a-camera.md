@@ -1,6 +1,6 @@
 ---
-title: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app Dynamics 365 Supply Chain Management - Magazzino
-description: In questo argomento viene descritto come installare l'app Dynamics 365 Supply Chain Management - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile.
+title: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app Dynamics 365 for Finance and Operations - Magazzino
+description: In questo argomento viene descritto come installare l'app Dynamics 365 for Finance and Operations - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251464"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578151"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app Dynamics 365 Supply Chain Management - Magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come installare l'app Dynamics 365 Supply Chain Management - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile. 
+In questo argomento viene descritto come installare l'app Dynamics 365 for Finance and Operations - Magazzino per eseguire la scansione dei codici a barre utilizzando una fotocamera su un dispositivo mobile. 
 
 ## <a name="prerequisites"></a>Prerequisiti
 Per utilizzare questa funzione, è necessario disporre della versione 1.2.0.0 dell'app Magazzino e il dispositivo deve disporre di una fotocamera. Quando si apre l'app dopo l'aggiornamento, verrà richiesto di consentire all'app di utilizzare la fotocamera. Se il dispositivo non dispone di una fotocamera, non verrà visualizzato alcun messaggio e non sarà possibile utilizzare una fotocamera come scanner. 
@@ -49,7 +49,7 @@ La pagina della fotocamera verrà avviata in ogni pagina in cui il campo di inpu
 
 | Pagina dei dettagli e delle attività | Pagina della fotocamera | 
 | :---------------------: | :--------------------: |
-| ![pagina dettagli attività di esempio scansione fotocamera](./media/camera-scanning-example-task-detail-page50.png)          | ![pagina fotocamera di esempio scansione fotocamera minori dimensioni](./media/camera-scanning-example-camera-page50.png)          |
+| ![Pagina dei dettagli dell'attività di esempio per la scansione fotocamera](./media/camera-scanning-example-task-detail-page50.png)          | ![Pagina fotocamera di esempio per la scansione fotocamera in dimensioni minori](./media/camera-scanning-example-camera-page50.png)          |
 
 Nella pagina della fotocamera, facendo clic sul pulsante Fotocamera, questo appare inattivo durante il tentativo di identificare un codice a barre. Se un codice a barre non viene identificato entro 5 secondi, il processo si interrompe e il pulsante Fotocamera diventa nuovamente disponibile. Sarà quindi possibile provare ad eseguire di nuovo la scansione di un codice a barre.
 

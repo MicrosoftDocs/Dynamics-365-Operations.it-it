@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874718"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569802"
 ---
 # <a name="work-order-lifecycle-states"></a>Stati del ciclo di vita di ordine di lavoro
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Gli stati del ciclo di vita di ordine di lavoro definiscono gli stati che può avere un ordine di lavoro. Ad esempio **Creato**, **Programmato**, **In corso** e **Finito**. Gli stati del ciclo di vita di ordine di lavoro possono essere aggiornati manualmente in un ordine di lavoro, oppure automaticamente (ad esempio, durante la programmazione degli ordini di lavoro).
 
@@ -38,7 +38,7 @@ Lo stato del ciclo di vita di ordine di lavoro necessari per gli ordini di lavor
 
 La tabella seguente descrive le opzioni nelle sezione **Ordine di lavoro** e **Programma** della Scheda dettaglio **Generale** nella pagina **Stato del ciclo di vita ordine di lavoro** (**Gestione cespiti** \> **Impostazione** \> **Ordini di lavoro** \> **Stati del ciclo di vita**).
 
-![Figura 1](media/09-setup-for-work-orders.png)
+![Pagina Stato del ciclo di vita ordine di lavoro](media/09-setup-for-work-orders.png)
 
 | Nome opzione                   | Descrizione |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ La tabella seguente descrive le opzioni nelle sezione **Ordine di lavoro** e **P
     - Se l'opzione **Tempi di fermo per la manutenzione** è impostata su **Sì** per lo stato del ciclo di vita a cui un ordine di lavoro viene aggiornato, la convalida dei tempi di fermo per la manutenzione viene eseguita nel cespite associato all'ordine di lavoro. Se è stata eseguita una registrazione di tempi di fermo per la manutenzione, ma non esiste alcuna registrazione **Finita**, viene visualizzato un messaggio quando l'ordine di lavoro viene aggiornato a questo stato del ciclo di vita.
     - Se l'impostazione di progetto standard non include tutte le fasi necessarie per la configurazione di Gestione cespiti, è possibile impostare fasi di progetto definite dall'utente nella scheda **Fase progetto** della pagina **Parametri Gestione progetti e contabilità**. Nella seguente figura è illustrata la scheda **Fase progetto** nella pagina **Parametri Gestione progetti e contabilità**.
 
-    ![Figura 2](media/10-setup-for-work-orders.png)
+    ![Pagina Impostare le fasi del progetto per diversi tipi di progetto](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Se lo stato del ciclo di vita a cui un ordine di lavoro viene aggiornato è inattivo, i giornali di registrazione associati all'ordine di lavoro che non sono stati ancora registrati verranno eliminati automaticamente. Questo comportamento garantisce l'eliminazione automatica dei dati non utilizzati Uno stato del ciclo di vita è inattivo se l'opzione **Attivo** è impostata su **No** nella Scheda dettaglio **Generale** della pagina **Stato del ciclo di vita ordine di lavoro**.
@@ -114,7 +114,7 @@ Il motivo di utilizzare i tipi di ordine di lavoro è dato dal fatto che quando 
 
 Nella figura seguente viene illustrata la relazione tra tipi di ordine di lavoro, modelli del ciclo di vita e stati del ciclo di vita.
 
-![Figura 3](media/11-setup-for-work-orders.png)
+![Pagina Tipo di ordine di lavoro rispetto alla pagina Modelli del ciclo di vita dell'ordine di lavoro](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Modelli del ciclo di vita dell'ordine di lavoro
 
@@ -138,4 +138,4 @@ Dopo aver creato gli stati del ciclo di vita necessari per gli ordini di lavoro,
 8. Nel campo **Stato del ciclo di vita non programmato**, selezionare lo stato del ciclo di vita che deve essere sempre selezionato per un ordine di lavoro se la programmazione dell'ordine di lavoro viene eliminata.
 9. Salvare il modello del ciclo di vita di ordine di lavoro.
 
-![Figura 4](media/15-setup-for-work-orders.png)
+![Pagina Modelli del ciclo di vita dell'ordine di lavoro](media/15-setup-for-work-orders.png)

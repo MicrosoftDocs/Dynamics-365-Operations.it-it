@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024846"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570658"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Impostare e gestire immagini per Retail Modern POS (MPOS)
 
@@ -83,9 +83,7 @@ Nelle procedure indicate di seguito, le immagini vengono impostate per l'entità
     [![Finestra di dialogo immagini](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> È possibile utilizzare la stessa procedura per tutte cinque le entità supportate: lavoratore, cliente, catalogo, categoria e prodotti. Le entità "prodotti di catalogo" (prodotti impostati a livello di catalogo) e "prodotti di canale" (prodotti impostati a livello di canale) utilizzano il modello media che è impostato per l'entità prodotti. Per il modello media prodotti, è possibile selezionare il numero delle immagini del prodotto da visualizzare per prodotto. È inoltre possibile impostare l'immagine predefinita per un prodotto specifico. In questo modo, è possibile impedire che vengano visualizzate immagini vuote in MPOS e controllare quale immagine viene utilizzata come predefinita per un articolo di tipo prodotto. Nel seguente esempio, ogni prodotto dispone di cinque immagini e la prima immagine viene impostata come immagine predefinita. Le varianti di prodotto vengono gestite nello stesso modo dei prodotti principali. Il nome file del file di immagine deve essere basato sul numero di prodotto. Alcuni caratteri vengono anche utilizzati come caratteri di escape nella generazione del nome file. Pertanto, è opportuno verificare il nome file tramite la sezione **Genera URL immagine per Excel**.
->
-> [![Finestra di dialogo Definisci modello media](./media/prods.png)](./media/prods.png)
+> È possibile utilizzare la stessa procedura per tutte cinque le entità supportate: lavoratore, cliente, catalogo, categoria e prodotti. Le entità "prodotti di catalogo" (prodotti impostati a livello di catalogo) e "prodotti di canale" (prodotti impostati a livello di canale) utilizzano il modello media che è impostato per l'entità prodotti. Per il modello media prodotti, è possibile selezionare il numero delle immagini del prodotto da visualizzare per prodotto. È inoltre possibile impostare l'immagine predefinita per un prodotto specifico. In questo modo, è possibile impedire che vengano visualizzate immagini vuote in MPOS e controllare quale immagine viene utilizzata come predefinita per un articolo di tipo prodotto. Nel seguente esempio, ogni prodotto dispone di cinque immagini e la prima immagine viene impostata come immagine predefinita. Le varianti di prodotto vengono gestite nello stesso modo dei prodotti principali. Il nome file del file di immagine deve essere basato sul numero di prodotto. Alcuni caratteri vengono anche utilizzati come caratteri di escape nella generazione del nome file. Pertanto, è opportuno verificare il nome file tramite la sezione **Genera URL immagine per Excel**. Vedere la sezione [Sovrascrivere utilizzando Modifica in Excel](#overwrite-by-using-edit-in-excel) più avanti in questo articolo.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Processi di sincronizzazione per l'invio di un modello media al canale
 
@@ -110,8 +108,6 @@ Come illustrato nella sezione precedente, il modello media per un'entità specif
 
     > [!IMPORTANT]
     > Ogni volta che il modello media viene modificato, necessario fare clic su **Genera** prima di poter utilizzare la funzione Modifica in Excel.
-
-    [![Scheda dettaglio Genera URL immagine per Excel](./media/excel1.jpg)](./media/excel1.jpg)
 
     Viene ora visualizzata un'anteprima degli URL di immagine che sono stati generati in base all'ultimo modello media salvato.
 
