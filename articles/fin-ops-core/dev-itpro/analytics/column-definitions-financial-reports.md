@@ -3,7 +3,7 @@ title: Definizioni di colonna nei report finanziari
 description: In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174307"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572643"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -170,7 +170,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="create-an-automatically-generated-header"></a>Creare un'intestazione generata automaticamente
 
-Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC** e **FD**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Ad esempio, in un anno di calendario standard, **@CalMonthLong** risolve il mese **7** in **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo @FiscalPeriod-@FiscalYear da @StartDate a @EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
+Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC** e **FD**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Se ad esempio in un anno di calendario standard viene utilizzato **\@CalMonthLong**, il **settimo** mese verrà risolto nel valore **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **\@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo \@FiscalPeriod-\@FiscalYear from \@StartDate to \@EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > Il formato di alcune parti del testo, ad esempio la data in formato lungo, dipende dalle impostazioni internazionali del server. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.

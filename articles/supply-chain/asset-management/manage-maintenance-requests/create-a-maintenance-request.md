@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024639"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571923"
 ---
 # <a name="create-maintenance-requests"></a>Creare richieste di intervento di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Le richieste di intervento di manutenzione può essere utilizzata se gli addetti alla manutenzione o i lavoratori del reparto produzione scoprono attrezzature che richiede la riparazione, ma il processo di riparazione non può essere eseguita immediatamente.
 
@@ -55,7 +55,7 @@ La sezione **Richieste di interventi di manutenzione attive** del riquadro **Inf
 11. Nel campo **Note**, immettere eventuali note aggiuntive necessarie.
 12. Selezionare **OK**.
 
-![Figura 1](media/03-manage-maintenance-requests.png)
+![Crea richiesta di intervento di manutenzione](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Elaborazione successiva delle richieste di intervento di manutenzione
 
@@ -70,7 +70,7 @@ Nella visualizzazione dettagli, è possibile aggiornare vari dati. Di seguito so
 - Selezionare un tipo di processo di manutenzione e, se queste informazioni sono rilevanti, una variante correlata del processo di manutenzione e una mansione qualificata per il processo.
 - Nei campi **Longitudine** e **Latitudine**, immettere le coordinate geografiche. Tutte le coordinate aggiunti alla richiesta di intervento di manutenzione verranno trasferite automaticamente a un ordine di lavoro correlato. 
 
-![Figura 2](media/04-manage-maintenance-requests.png)
+![Aggiornare la richiesta di intervento di manutenzione](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Se si seleziona un cespite quando si crea una richiesta di intervento di manutenzione, è possibile aggiungere un solo problema al cespite. Dopo che la richiesta di intervento di manutenzione è stata creata, è possibile aggiungere più problemi in base alle esigenze. Per aggiungere problemi, selezionare **Errore del cespite** nella pagina **Tutte le richieste di intervento di manutenzione**.
