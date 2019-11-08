@@ -18,27 +18,27 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250923"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571118"
 ---
-# <a name="maintenance-requests"></a><span data-ttu-id="4ced1-103">Richieste di intervento di manutenzione</span><span class="sxs-lookup"><span data-stu-id="4ced1-103">Maintenance requests</span></span>
+# <a name="maintenance-requests"></a><span data-ttu-id="2a18a-103">Richieste di intervento di manutenzione</span><span class="sxs-lookup"><span data-stu-id="2a18a-103">Maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="4ced1-104">È possibile impostare diversi tipi di richieste da utilizzare nella società.</span><span class="sxs-lookup"><span data-stu-id="4ced1-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="4ced1-105">Le richieste di intervento di manutenzione sono di un solo tipo.</span><span class="sxs-lookup"><span data-stu-id="4ced1-105">Maintenance requests are one type.</span></span> <span data-ttu-id="4ced1-106">Le richieste di intervento di manutenzione vengono utilizzate per chiedere che un ordine di lavoro venga richiesto per un processo specifico.</span><span class="sxs-lookup"><span data-stu-id="4ced1-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="4ced1-107">Una richiesta di intervento di manutenzione possono essere creati da qualsiasi utente che ha accesso alle funzionalità di Gestione cespiti.</span><span class="sxs-lookup"><span data-stu-id="4ced1-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="4ced1-108">Un responsabile o un responsabile della pianificazione potrà quindi stabilire se una richiesta di intervento di manutenzione deve essere convertita in un ordine di lavoro, oppure se deve completare il proprio ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="4ced1-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
+<span data-ttu-id="2a18a-104">È possibile impostare diversi tipi di richieste da utilizzare nella società.</span><span class="sxs-lookup"><span data-stu-id="2a18a-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="2a18a-105">Le richieste di intervento di manutenzione sono di un solo tipo.</span><span class="sxs-lookup"><span data-stu-id="2a18a-105">Maintenance requests are one type.</span></span> <span data-ttu-id="2a18a-106">Le richieste di intervento di manutenzione vengono utilizzate per chiedere che un ordine di lavoro venga richiesto per un processo specifico.</span><span class="sxs-lookup"><span data-stu-id="2a18a-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="2a18a-107">Una richiesta di intervento di manutenzione possono essere creati da qualsiasi utente che ha accesso alle funzionalità di Gestione cespiti.</span><span class="sxs-lookup"><span data-stu-id="2a18a-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="2a18a-108">Un responsabile o un responsabile della pianificazione potrà quindi stabilire se una richiesta di intervento di manutenzione deve essere convertita in un ordine di lavoro, oppure se deve completare il proprio ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="2a18a-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
 
-## <a name="view-maintenance-requests"></a><span data-ttu-id="4ced1-109">Visualizza richieste di intervento di manutenzione</span><span class="sxs-lookup"><span data-stu-id="4ced1-109">View maintenance requests</span></span>
+## <a name="view-maintenance-requests"></a><span data-ttu-id="2a18a-109">Visualizza richieste di intervento di manutenzione</span><span class="sxs-lookup"><span data-stu-id="2a18a-109">View maintenance requests</span></span>
 
-- <span data-ttu-id="4ced1-110">Selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \> **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.</span><span class="sxs-lookup"><span data-stu-id="4ced1-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
+- <span data-ttu-id="2a18a-110">Selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \> **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.</span><span class="sxs-lookup"><span data-stu-id="2a18a-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-    <span data-ttu-id="4ced1-111">Nella pagina elenco **Tutte le richieste di intervento di manutenzione**, vengono visualizzate tutte le richieste di intervento di manutenzione, indipendentemente dallo stato del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="4ced1-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="4ced1-112">La pagina elenco **Richieste di intervento di manutenzione attive** mostra solo le richieste in uno stato attivo.</span><span class="sxs-lookup"><span data-stu-id="4ced1-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
+    <span data-ttu-id="2a18a-111">Nella pagina elenco **Tutte le richieste di intervento di manutenzione**, vengono visualizzate tutte le richieste di intervento di manutenzione, indipendentemente dallo stato del ciclo di vita.</span><span class="sxs-lookup"><span data-stu-id="2a18a-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="2a18a-112">La pagina elenco **Richieste di intervento di manutenzione attive** mostra solo le richieste in uno stato attivo.</span><span class="sxs-lookup"><span data-stu-id="2a18a-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
 
-<span data-ttu-id="4ced1-113">Nella figura seguente è illustrato un esempio della pagina elenco **Tutte le richieste di intervento di manutenzione**.</span><span class="sxs-lookup"><span data-stu-id="4ced1-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
+<span data-ttu-id="2a18a-113">Nella figura seguente è illustrato un esempio della pagina elenco **Tutte le richieste di intervento di manutenzione**.</span><span class="sxs-lookup"><span data-stu-id="2a18a-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
 
-![Figura 1](media/01-setup-for-requests.png)
+![Pagina elenco Tutte le richieste di intervento di manutenzione](media/01-setup-for-requests.png)
