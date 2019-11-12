@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790510"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571164"
 ---
-# <a name="maintenance-request-states"></a>Stati delle richieste di intervento di manutenzione
+# <a name="maintenance-request-lifecycle-states"></a>Stati del ciclo di vita delle richieste di intervento di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Gli stato del ciclo di vita delle richieste di intervento di manutenzione definiscono le fasi in cui può trovarsi una richiesta. Esempi includono **Creato**, **Attivo** e **Finito**. Quando una richiesta di intervento di manutenzione viene convertita in ordine di lavoro, lo stato del ciclo di vita della richiesta deve essere aggiornato a **Finito** o **Chiuso** per indicare che la richiesta non è più attiva. Nella pagina elenco **Tutte le richieste di intervento di manutenzione**, vengono visualizzate tutte le richieste di intervento di manutenzione, indipendentemente dallo stato del ciclo di vita.
@@ -51,7 +51,7 @@ Gli stato del ciclo di vita delle richieste di intervento di manutenzione defini
 
 Nella figura seguente è illustrato un esempio della pagina **Stati del ciclo di vita delle richieste di intervento di manutenzione**.
 
-![Figura 1](media/02-setup-for-requests.png)
+![Pagina Stati del ciclo di vita delle richieste di intervento di manutenzione](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Gli stati del ciclo di vita , i gruppi di stati del ciclo di vita e i tipi delle richieste di intervento di manutenzione sono correlati a vengono utilizzati allo stesso modo degli stati del ciclo di vita , gruppi di stati del ciclo di vita e i tipi degli ordini di lavoro. 
@@ -80,4 +80,4 @@ Dopo aver creato gli stati del ciclo di vita necessari per le richieste di inter
 
 Nella figura seguente è illustrato un esempio della pagina **Modelli del ciclo di vita delle richieste di intervento di manutenzione**.
 
-![Figura 2](media/06-setup-for-requests.png)
+![Pagina Modelli del ciclo di vita delle richieste di intervento di manutenzione](media/06-setup-for-requests.png)

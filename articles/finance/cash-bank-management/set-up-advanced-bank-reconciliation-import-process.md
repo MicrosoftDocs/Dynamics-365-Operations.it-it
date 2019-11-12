@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188259"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578197"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Impostare il processo di importazione di riconciliazione bancaria avanzata
 
@@ -36,7 +36,7 @@ L'impostazione dell'importazione dei rendiconti bancari varia a seconda del form
 ## <a name="set-time-zone-preference"></a>Impostare la preferenza fuso orario
 Quando si configurano le impostazioni di importazione del rendiconto bancario, può essere importante considerare il fuso orario dei dati data-ora all'interno dei file del rendiconto bancario che verranno importati. L'impostazione predefinita è assumere che i valori di data e ora siano già in Coordinated Universal Time (UTC) e quindi non verrà applicata alcuna conversione di fuso orario quando si importano i dati. 
 
-È disponibile un'opzione per specificare un fuso orario da utilizzare per l'importazione dei dati. Questa opzione è disponibile nel campo **Preferenza fuso orario** in ogni pagina **Dettagli formato dati di origine** (Scheda dettaglio **Area di lavoro gestione dati > Configura origine dati > Seleziona formato dati > Impostazioni internazionali** ). Questa preferenza di fuso orario inserita verrà applicata a tutte le importazioni che utilizzano quel formato di dati di origine. È possibile creare tutti i formati di origine dati necessari per importare dati da più fusi orari. La preferenza del fuso orario deve essere il fuso orario locale dei dati di data e ora nel file di importazione. La preferenza del fuso orario deve essere il fuso orario locale dei dati di data e ora nel file di importazione. 
+È disponibile un'opzione per specificare un fuso orario da utilizzare per l'importazione dei dati. Questa opzione è disponibile nel campo **Preferenza fuso orario** in ogni pagina **Dettagli formato dati di origine** (Scheda dettaglio **Area di lavoro gestione dati > Configura origine dati > Seleziona formato dati > Impostazioni internazionali** ). Questa preferenza di fuso orario inserita verrà applicata a tutte le importazioni che utilizzano quel formato di dati di origine. È possibile creare tutti i formati di origine dati necessari per importare dati da più fusi orari.  
 
 Questo fuso orario può non essere uguale al fuso orario di un utente o di un'azienda, quindi assicurarsi di chiarire quale fuso orario stanno utilizzando i dati di data e ora. Si consiglia di considerare i seguenti punti quando si imposta una preferenza di fuso orario. 
 

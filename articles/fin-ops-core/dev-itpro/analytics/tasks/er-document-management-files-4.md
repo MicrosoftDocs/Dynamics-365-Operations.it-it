@@ -1,5 +1,5 @@
 ---
-title: Eseguire i formati per utilizzare i file di gestione documenti nell'output di ER
+title: ER Usare file di gestione documenti in output di formato (parte 4 - eseguire il formato)
 description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
 author: NickSelin
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8dc541af4d26b61ff9b90e08a8ca2c6a6bb8e70
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185016"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550811"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-4-run-format"></a>ER Usare file di gestione documenti in output di formato (parte 4: eseguire il formato)
+# <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER Usare file di gestione documenti in output di formato (parte 4 - eseguire il formato)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

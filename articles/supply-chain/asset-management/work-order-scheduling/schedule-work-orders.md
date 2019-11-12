@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887230"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652151"
 ---
 # <a name="schedule-work-orders"></a>Programmare ordini di lavoro
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-In questo argomento viene descritto come programmare ordini di lavoro in Gestione cespiti. Il numero di ore necessario per un ordine di lavoro viene definito dalla somma delle ore previste nei processi di ordine di lavoro meno le ore registrate. Se è necessario più tempo, la previsione nell'ordine di lavoro deve essere rettificata di conseguenza. In **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**, è possibile visualizzare o modificare previsioni in un ordine di lavoro selezionando l'ordine di lavoro e facendo clic su **Previsione** nella scheda **Ordine di lavoro**. Dopo la creazione e la stima degli ordini di lavoro, è necessario assegnare gli addetti alla manutenzione e gli strumenti necessari per completare gli ordini di lavoro.
+In questo argomento viene descritto come programmare ordini di lavoro in Gestione cespiti. 
+
+Il numero di ore necessario per un ordine di lavoro viene definito dalla somma delle ore previste meno le ore registrate. Se è necessario più tempo, la previsione deve essere rettificata di conseguenza. In **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**, è possibile visualizzare o modificare previsioni in un ordine di lavoro selezionando l'ordine di lavoro e facendo clic su **Previsione** nella scheda **Ordine di lavoro**. Dopo la creazione e la stima degli ordini di lavoro, è necessario assegnare gli addetti alla manutenzione e gli strumenti necessari per completare gli ordini di lavoro.
 
 Solo gli ordini di lavoro con un ciclo di vita che consente la programmazione possono essere programmati. Per consentire la programmazione, andare a **Gestione cespiti** > **Impostazione** > **Ordini di lavoro** > **Stati del ciclo di vita** >  Scheda dettaglio **Generale** > interruttore **Consenti programmazione**.
 
@@ -43,8 +45,8 @@ Solo gli ordini di lavoro con un ciclo di vita che consente la programmazione po
 
 4. Nella finestra di dialogo **Programma ordini di lavoro**, è possibile aggiungere selezioni relative alla data di inizio prevista e al livello di servizio, se necessario. Se il processo di programmazione deve rispettare i limiti di capacità in relazione alle risorse già programmate per altri processi, assicurarsi che gli interruttori **Cespite**, **Strumento** e **Lavoratore** siano impostati su "Sì".
 
->[!NOTE]
->Se si impostano gli interruttori **Cespite**, **Strumenti** e **Lavoratore** su "No", le prenotazioni esistenti verranno ignorate. Nel Registro informazioni, viene visualizzato un elenco di programmazioni di ordine di lavoro che si sovrappongono ed è possibile fare clic sui messaggi per aprire un ordine di lavoro e riprogrammare, se necessario.
+    [!NOTE]
+    Se si impostano gli interruttori **Cespite**, **Strumenti** e **Lavoratore** su "No", le prenotazioni esistenti verranno ignorate. Nel Registro informazioni, viene visualizzato un elenco di programmazioni di ordine di lavoro che si sovrappongono ed è possibile fare clic sui messaggi per aprire un ordine di lavoro e riprogrammare, se necessario.
 
 5. Per visualizzare informazioni dettagliate sul processo di programmazione, impostare l'interruttore **Dettagli** su "Sì". Ciò significa che le informazioni dettagliate sui punteggi calcolati per gli ordini di lavoro e gli addetti alla manutenzione saranno visualizzati nel Registro informazioni.
 
@@ -114,5 +116,7 @@ Tutti i punteggi di valutazione relativi al calcolo per determinare quali addett
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Competenze utilizzate nella programmazione degli ordini di lavoro
 
-Competenze e requisiti di certificato possono essere impostati nei tipi di processo di manutenzione (**Gestione cespiti** > **Impostazione** > **Processi** > **Tipi di processo di manutenzione**) e nei settori di processo di manutenzione (**Gestione cespiti** > **Impostazione** > **Processi** > **Settore processo di manutenzione**). I tipi di processo di manutenzione e i settori di processo di manutenzione sono selezionati nei processi di ordine di lavoro. Se competenze o certificati sono stati selezionati in un tipo di processo di manutenzione o settore di processo di manutenzione e questo tipo o settore è utilizzato in un processo di ordine di lavoro, solo gli addetti alla manutenzione con competenze e certificati corrispondenti sono programmati per lavorare sull'ordine di lavoro.
+Competenze e requisiti di certificato possono essere impostati nei tipi di processo di manutenzione (**Gestione cespiti** > **Impostazione** > **Processi** > **Tipi di processo di manutenzione**) e nei settori di processo di manutenzione (**Gestione cespiti** > **Impostazione** > **Processi** > **Settore processo di manutenzione**). 
+
+I tipi di processo di manutenzione e i settori di processo di manutenzione sono selezionati nei processi di ordine di lavoro. Se competenze o certificati sono stati selezionati in un tipo di processo di manutenzione o settore di processo di manutenzione e questo tipo o settore è utilizzato in un processo di ordine di lavoro, solo gli addetti alla manutenzione con competenze e certificati corrispondenti sono programmati per lavorare sull'ordine di lavoro.
 

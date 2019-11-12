@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 916e7b8d5d494dbae0659504957f7f0798a6834b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1a59b4bbf1a4612cea1ba3bd536ba4b018fc621f
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918374"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652335"
 ---
 # <a name="work-hour-control"></a>Controllo delle ore lavorative
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Gestione cespiti, è possibile calcolare le ore per ottenere una panoramica delle ore effettive comparate alle ore di budget in cespiti, unità funzionali o ordini di lavoro. Le ore effettive sono basate sulle transazioni registrate.
 
@@ -47,7 +47,11 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
 5. Impostare l'interruttore **Ignora lo zero** su "Sì" se non si desidera visualizzare i risultati contenenti zero ore.
 
-6. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe del controllo delle ore in relazione alle unità funzionali. Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo delle ore di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del controllo delle ore in tutti i livelli di unità funzionali a cui sono correlate.
+6. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe del controllo delle ore in relazione alle unità funzionali. 
+
+    Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo delle ore di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. 
+    
+    Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del controllo delle ore in tutti i livelli di unità funzionali a cui sono correlate.
 
 7. Impostare l'interruttore **Includere cespiti secondari** su "Sì" per visualizzare i costi correlati ai cespiti secondari come righe separate.
 
@@ -55,14 +59,18 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
 9. Fare clic su **OK** per avviare il calcolo.
 
-10. Nella pagina **Controllo ore cespiti**, nei gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario del calcolo. I pulsanti selezionati nei riquadri azioni sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
+10. Nella pagina **Controllo ore cespiti**, fare clic sul pulsante **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-Nella figura seguente viene illustrato un esempio di calcolo **Controllo ore cespiti**.
+## <a name="example"></a>Esempio
 
-![Figura 1](media/04-controlling-and-reporting.png)
+Nella schermata seguente viene illustrato un esempio di calcolo **Controllo ore cespiti**.
 
-Un altro metodo di eseguire un calcolo delle ore è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi, fare clic sul pulsante **Controllo ore** nella Scheda dettaglio **Generale**. I cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic su **OK** nella finestra di dialogo **Controllo ore cespiti** e viene visualizzato il calcolo dei cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+- Nel campo **Budget originale** sono visualizzate le ore di budget della previsione dell'ordine di lavoro. 
+- Nel campo **Ore effettive** sono visualizzate le ore registrate negli ordini di lavoro. 
+- Nel campo **Ore impegnate** sono visualizzate le ore totali della società in relazione agli ordini di lavoro.
 
->[!NOTE]
->Nel campo **Budget originale** sono visualizzate le ore di budget della previsione dell'ordine di lavoro. Nel campo **Ore effettive** sono visualizzate le ore registrate negli ordini di lavoro. Nel campo **Ore impegnate** sono visualizzate le ore totali della società in relazione agli ordini di lavoro.
+![Esempio di calcolo di controllo ore cespiti](media/04-controlling-and-reporting.png)
+
+Un altro metodo di eseguire un calcolo delle ore è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi fare clic sul pulsante **Controllo ore** nella Scheda dettaglio **Generale**. I cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic su **OK** nella finestra di dialogo **Controllo ore cespiti** e viene visualizzato il calcolo dei cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+
 

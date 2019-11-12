@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e645c25208f55b1032bc7f7c181c72db7a2f265
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 7dd577c930c6cc17da6baee30d3558656de01a09
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874649"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569825"
 ---
 # <a name="service-level-and-description"></a>Descrizione e livello del servizio
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Quando si crea un ordine di lavoro, è possibile che si voglia definire i relativi livelli del servizio e aggiungervi una descrizione generale. È possibile creare i livelli di servizio di ordine di lavoro nella pagina **Livelli di servizio ordine di lavoro** e le descrizioni nella pagina **Descrizione ordine di lavoro**.
 
@@ -48,7 +48,7 @@ Quando si crea un ordine di lavoro, è possibile che si voglia definire i relati
 8. Per impostare un'ora di fine per l'ordine di lavoro, oltre a una data di fine, impostare l'opzione **Imposta ora di fine** su **Sì**. Quindi immettere l'ora di fine nel campo **Ora di fine**. Se si imposta l'opzione su **No**, viene visualizzata l'ora del giorno corrente.
 9. Selezionare **Salva**.
 
-![Figura 1](media/19-setup-for-work-orders.png)
+![Pagina Livello del servizio di ordine di lavoro](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Creare una descrizione
 

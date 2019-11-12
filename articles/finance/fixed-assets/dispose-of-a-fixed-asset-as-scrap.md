@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: de105e061712540fc8e3d720a65c029f865b8948
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 42eaa3df5ab09278ed96506d17e1b42d4fc2a9e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187293"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570266"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Dismettere un cespito come scarto
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto. I tipi di transazioni che possono essere eliminati includono le transazioni di acquisizione e di ammortamento accumulato di un cespite e altre transazioni relativi ai cespiti. L'eliminazione di queste transazioni altera i conti dello stato patrimoniale, ad esempio conti di rettifica acquisizione, rettifica ammortamento, rivalutazione e svalutazione.
 
@@ -38,7 +37,7 @@ Questo argomento descrive il processo di eliminazione delle transazioni per un c
 | Profitti/perdite cespiti cr.                          |             | X            |
 | Profitti/perdite cespiti dr.                          | X           |              |
 | Conti di acquisizione cespiti cr.                 |             | X            |
-| Profitti/perdite cespiti dr. (valore contabile netto) | X           |              |
+| Profitti/perdite cespiti dr. (valore contabile netto\[\]) | X           |              |
 | Profitti/perdite cespiti cr. (valore contabile netto)                    |             | X            |
 
 > [!NOTE]

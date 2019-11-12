@@ -1,6 +1,6 @@
 ---
 title: Panoramica sulla gestione trasporto
-description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Finance and Operations.
+description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: fa59a8e6e4744c776ec0e1dc84b1f004dbd796f6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027063"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653581"
 ---
 # <a name="transportation-management-overview"></a>Panoramica gestione trasporto
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Finance and Operations.
+In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
 
 Gestione trasporto consente di utilizzare il trasporto della società e di identificare soluzioni fornitori e percorsi di trasferimento per gli ordini in ingresso e in uscita. Ad esempio, è possibile identificare il ciclo di lavorazione più veloce o la tariffa più economica per una spedizione. Nella tabella seguente vengono descritti gli scenari principali per l'uso di Gestione trasporto.
 
@@ -67,23 +67,23 @@ Gestione trasporto consente di utilizzare il trasporto della società e di ident
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Pianificazione del trasporto in Finance and Operations
+## <a name="planning-transportation-in-supply-chain-management"></a>Pianificazione del trasporto in Supply Chain Management
 In Gestione trasporto, la pianificazione del trasporto può essere basata sugli ordini o sulle spedizioni create in base a tali ordini. Le spedizioni sono sempre presenti in un determinato momento, ma non sono necessarie per la pianificazione del trasporto. Gli ordini di trasferimento fanno parte dello scenario in uscita e possono essere pianificati insieme agli ordini cliente. 
 
 ![Emissione del carico](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Trasporto in uscita
-Quando si ordinano gli articoli da un fornitore e gli articoli devono essere consegnati al proprio magazzino, è consigliabile organizzare il trasporto degli articoli personalmente. È possibile utilizzare Finance and Operations per pianificare il trasporto e la ricezione del carico in entrata. Nella seguente figura viene illustrato il flusso del processo aziendale per pianificare il trasporto per un carico in entrata. 
+Quando si ordinano gli articoli da un fornitore e gli articoli devono essere consegnati al proprio magazzino, è consigliabile organizzare il trasporto degli articoli personalmente. È possibile utilizzare Supply Chain Management per pianificare il trasporto e la ricezione del carico in entrata. Nella seguente figura viene illustrato il flusso del processo aziendale per pianificare il trasporto per un carico in entrata. 
 
 ![Flusso di processo aziendale per il trasporto del carico in ingresso](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Trasporto in uscita
-È possibile pianificare ed elaborare un carico in uscita per spedire articoli specifici dal magazzino di una società a un cliente. È possibile utilizzare Finance and Operations per pianificare il trasporto e la spedizione del carico in uscita. Nella seguente figura viene illustrato il flusso del processo aziendale per la pianificazione e l'elaborazione di carichi in uscita da spedire. 
+È possibile pianificare ed elaborare un carico in uscita per spedire articoli specifici dal magazzino di una società a un cliente. È possibile utilizzare Supply Chain Management per pianificare il trasporto e la spedizione di un carico in uscita. Nella seguente figura viene illustrato il flusso del processo aziendale per la pianificazione e l'elaborazione di carichi in uscita da spedire. 
 
 ![Pianificazione ed elaborazione dei carichi in uscita](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Allestimento del carico
-Finance and Operations offre una strategia di allestimento del carico denominata strategia di allestimento del carico basata sul volume. Questa strategia consente di utilizzare i valori massimi specificati per l'altezza e il peso nel modello di carico o di sostituire le impostazioni con nuovi valori. Per utilizzare questa strategia, selezionarla nel campo **Strategia di allestimento del carico** nella scheda dettaglio **Impostazioni** della pagina **Workbench di allestimento del carico**. Inoltre, è possibile aggiungere strategie di allestimento del carico personalizzate creando una nuova classe nella struttura a oggetti applicativi (AOT).
+Supply Chain Management offre una strategia di allestimento del carico denominata strategia di allestimento del carico basata sul volume. Questa strategia consente di utilizzare i valori massimi specificati per l'altezza e il peso nel modello di carico o di sostituire le impostazioni con nuovi valori. Per utilizzare questa strategia, selezionarla nel campo **Strategia di allestimento del carico** nella scheda dettaglio **Impostazioni** della pagina **Workbench di allestimento del carico**. Inoltre, è possibile aggiungere strategie di allestimento del carico personalizzate creando una nuova classe nella struttura a oggetti applicativi (AOT).
 
 
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f20df04d9625fdf0edfd312c097293f9be6d0f0
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: b4564fb2670f75d64b0c5214fb430e5e3fa4405c
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783374"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571463"
 ---
 # <a name="asset-attribute-overview"></a>Panoramica degli attributi dei cespiti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Questo argomento fornisce una panoramica degli attributi dei cespiti in Gestione cespiti. Gli attributi dei cespiti sono proprietà correlate a un tipo di cespite o a un cespite. Se sono stati impostati [tipi di attributo](../setup-for-functional-locations/specification-types.md) e utilizzati per i cespiti, è possibile ottenere una panoramica dei valori degli attributi impostati per i cespiti. Questa panoramica viene visualizzata in due pagine in Gestione cespiti: **Panoramica attributi cespiti** e **Attributo cespite**.
 

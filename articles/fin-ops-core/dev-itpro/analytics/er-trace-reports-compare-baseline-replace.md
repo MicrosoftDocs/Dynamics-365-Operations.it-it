@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181337"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578220"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
 
@@ -71,9 +71,6 @@ La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezi
 5. Nel campo **Immettere ID**, immettere **1**.
 6. Impostare l'opzione **Creare file di base** su **Sì**.
 7. Selezionare **OK**.
-
-    ![Pagina Parametri per la creazione di report elettronici](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Schermata della pagina Parametri per la creazione di report elettronici")
-
 8. Selezionare **Basi**.
 
     ![Pagina Basi del formato per la creazione di report elettronici](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
@@ -140,9 +137,6 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 
 1. Nella pagina **Configurazioni**, nella scheda dettaglio **Sostituzioni**, selezionare **Seleziona componenti**.
 2. Nella struttura dei componenti del formato, **Output**, espandere **Output\\Documento** e quindi selezionare la casella di controllo per **Output\\Documento\\DataOraElaborazione**.
-
-    ![Finestra di dialogo Seleziona componenti](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Schermata della finestra di dialogo Seleziona componenti")
-
 3. Selezionare **OK**.
 
 ![Pagina Basi del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline4.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
@@ -162,19 +156,14 @@ Impostando parametri ER specifici, è possibile sopprimere le notifiche che info
 1. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, selezionare **Parametri utente**.
 2. Impostare l'opzione **Sopprimi avvisi di base**su **Sì** e selezionare **OK**.
 
-![Finestra di dialogo Parametri utente](media/GER-BaselineSample-ERUserParameters1.png "Schermata della finestra di dialogo Parametri utente")
-
 ### <a name="review-the-generated-baseline-file"></a>Esaminare il file di base generato
 
 1. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
 2. Selezionare **Basi**.
 3. Selezionare **Allegati**.
-
-    ![Pagina Allegati](media/GER-BaselineSample-AttachedBaselineFile.PNG "Schermata della pagina Allegati").
-
     > [!NOTE]
     > Il file generato contiene il testo della data e dell'ora di elaborazione (**"#"**) dell'associazione configurata nella regola di base aggiunta e non dell'associazione del formato.
-
+    
 4. Chiudere la pagina **Allegati**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati

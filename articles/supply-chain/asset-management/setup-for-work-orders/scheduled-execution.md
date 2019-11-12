@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874672"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569848"
 ---
 # <a name="scheduled-execution"></a>Esecuzione programmata
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 È possibile utilizzare i livelli di servizio di ordine di lavoro per impostare l'esecuzione programmata (per ulteriori informazioni sui livelli di servizio di ordine di lavoro, vedere [Descrizione e livello del servizio](service-level-and-description.md)). L'esecuzione programmata fornisce flessibilità nella pianificazione del lavoro degli addetti della manutenzione, poiché è possibile impostare requisiti più dettagliati o meno dettagliati per l'intervallo durante il quale un ordine di lavoro deve essere completato. Ad esempio, un addetto alla manutenzione che completa un processo prima del previsto in un impianto di produzione potrebbe essere in grado di passare a un altro processo pianificato per la settimana corrente ma non necessariamente per il giorno corrente. Questo approccio consente l'ottimizzazione della pianificazione del lavoratore e del completamento del processo.
 
@@ -42,4 +42,4 @@ La configurazione dell'esecuzione programmata, correlata agli ordini di lavoro, 
 5. Nel campo **Esecuzione programmata**, selezionare l'intervallo di tempo.
 6. Selezionare **Salva**.
 
-![Figura 1](media/20-setup-for-work-orders.png)
+![Esecuzione programmata](media/20-setup-for-work-orders.png)

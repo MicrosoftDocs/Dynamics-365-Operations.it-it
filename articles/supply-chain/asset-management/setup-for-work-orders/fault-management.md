@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874741"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570957"
 ---
 # <a name="fault-management"></a>Gestione degli errori
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Gestione cespiti, è possibile utilizzare Designer errori per impostare sintomi di errore, aree di errore e tipi di errore nei tipi di cespite. In questo modo, è possibile gestire gli errori rilevati nei cespiti. Inoltre, le cause di errore e i suggerimenti per la correzione degli errori possono essere registrati in un ordine di lavoro.
 
@@ -109,7 +109,7 @@ In Designer errori, è possibile impostare i dati dell'errore nei tipi di cespit
 
 7. Selezionare **Salva** per salvare le modifiche.
 
-![Figura 1](media/21-setup-for-work-orders.png)
+![Pagina Designer errori](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Creare un elenco di cause di errore
 

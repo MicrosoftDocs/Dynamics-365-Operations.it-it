@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790508"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569917"
 ---
 # <a name="responsible-maintenance-workers"></a>Addetti alla manutenzione responsabili
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Gli addetti alla manutenzione responsabili possono essere correlati ai tipi di cespite, ai cespiti, unità funzionali, le categorie di tipi di processi di manutenzione, ai tipi di processi di manutenzione, varianti di tipi di processi di manutenzione e alle mansioni qualificate. Possono essere utilizzati negli ordini di lavoro e nelle richieste di intervento di manutenzione per indicare una preferenza relativa agli addetti alla manutenzione che devono essere responsabile di un ordine di lavoro. (Tuttavia, questi addetti alla manutenzione non sono necessariamente gli lavoratori che vengano programmati per eseguire l'ordine di lavoro.) L'utilizzo di questa funzionalità è facoltativo. Ad esempio, la si può utilizzare per selezionare i lavoratori o i gruppi di lavoratori responsabili per determinati tipi o aree di lavoro.
 
@@ -53,4 +53,4 @@ Prima di poter impostare gli addetti alla manutenzione responsabili, è necessar
 
 Nella figura seguente è illustrato un esempio della pagina **Addetti alla manutenzione responsabili**.
 
-![Figura 1](media/08-setup-for-requests.png)
+![Pagina Addetti alla manutenzione responsabili](media/08-setup-for-requests.png)

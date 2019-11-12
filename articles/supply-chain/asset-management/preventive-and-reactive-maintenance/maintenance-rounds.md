@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922024"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570032"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In **Gestione cespiti**, è possibile creare cicli di manutenzione per vari cespiti in cui è necessario eseguire un'attività simile a intervalli regolari. Ad esempio, le lubrificazioni o le ispezioni di sicurezza da eseguire su una serie di macchine entro gli stessi intervalli. Il primo passo è di creare un ciclo di manutenzione per i cespiti che richiedono lo stesso tipo di manutenzione. Successivamente, si programmano i cicli di manutenzione. Una volta completata la programmazione dei cicli di manutenzione, è possibile visualizzare tutti i record relativi al ciclo in **Tutti i programmi di manutenzione** e **Apri righe di programma di manutenzione**.
 

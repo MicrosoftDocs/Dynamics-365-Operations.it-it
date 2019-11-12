@@ -3,7 +3,7 @@ title: Fatturazione progetto
 description: Questo articolo fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178543"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658622"
 ---
 # <a name="project-invoicing"></a>Fatturazione progetto
 
@@ -55,6 +55,9 @@ Le proposte di fatturazione possono essere create per le seguenti transazioni:
 -   Importi trattenuti dai clienti nelle fatture di progetto precedenti.
 -   Note di accredito
 -   Importi pagati da un cliente prima dell'avvio di un progetto.
+
+> [!NOTE]
+> La funzionalità **Abilita l'ordinamento per risorsa durante la creazione della proposta di fattura del progetto** consente al contabile del progetto di ordinare le transazioni del progetto disponibili per la fatturazione dalla risorsa durante la creazione di una nuova proposta di fatturazione del progetto. La griglia che visualizza le transazioni di progetto disponibili avrà un campo separato per ID risorsa e Risorsa, che consente all'utente di filtrare e ordinare il nome della risorsa. Questa funzione è disabilitata per impostazione predefinita e può essere abilitata in **Aree di lavoro > Gestione funzionalità**. Contattare l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
 
 È possibile creare transazioni sbilanciate in una proposta di fatturazione. È inoltre possibile modificare il prezzo di vendita per le transazioni orarie, di spesa, articolo e per le transazioni sbilanciate. Quando si registra una proposta di fatturazione, i prezzi aggiornati e le transazioni vengono aggiunti ai report di progetto e allo storico delle transazioni. 
 

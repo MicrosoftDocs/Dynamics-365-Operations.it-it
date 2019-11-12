@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb758f9ef205c06cbb9d18b498a5cd7c36012714
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783386"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571256"
 ---
 # <a name="functional-location-types"></a>Tipi di unità funzionali
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In questo argomento viene illustrato come creare tipi di unità funzionale in Gestione cespiti. I tipi di unità funzionali vengono utilizzati per gestire i requisiti per le unità funzionali, incluse le procedure per installare i cespiti in una unità funzionale. È possibile impostare i tipi di cespite, i piani di manutenzione, gli attributi di unità funzionali e i requisiti di attributi cespiti da utilizzare in una unitù funzionale che utilizza il tipo di unità funzionale specifico. Quando si crea una unità funzionale, il tipo di unità funzionale è obbligatorio.
 

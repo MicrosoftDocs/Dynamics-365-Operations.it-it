@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6b4f0006e4cacc2897d2b6c9c9dde88d0aafa4ad
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251249"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653181"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
@@ -59,7 +59,7 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 ## <a name="entity-set"></a>Insieme di entità
 
-| Vendite        | Finance and Operations     |
+| Vendite        | Gestione della supply chain     |
 |--------------|----------------------------|
 | Citazioni       | Intestazione offerta di vendita CDS |
 | QuoteDetails | Righe di offerta di vendita CDS  |

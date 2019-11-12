@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7eed6ca8236afa0e28cc4945757424c995f053d7
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250624"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653627"
 ---
 # <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 
@@ -118,7 +118,7 @@ Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con
 </tr>
 </tbody>
 </table>
-Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di attributo e un campo in una tabella Finance and Operations. Un vincolo di tabella definito dal sistema collega dinamicamente il tipo di attributo al campo. Il collegamento consente all'attributo in un modello di configurazione prodotto di riflettere i dati del campo nella tabella di Supply Chain Management.</td>
+Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di attributo e un campo in una tabella Supply Chain Management. Un vincolo di tabella definito dal sistema collega dinamicamente il tipo di attributo al campo. Il collegamento consente all'attributo in un modello di configurazione prodotto di riflettere i dati del campo nella tabella di Supply Chain Management.</td>
 </tr>
 <tr class="odd">
 <td>Calcoli</td>

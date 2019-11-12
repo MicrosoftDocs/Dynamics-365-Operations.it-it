@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175985"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570358"
 ---
 # <a name="recognize-deferred-revenue"></a>Riconoscimento dei ricavi differiti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Il riconoscimento ricavi non può ancora essere attivato tramite la gestione delle funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
+> Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
 
 In questo argomento viene descritto il processo di riconoscimento ricavi nella programmazione per il riconoscimento ricavi. Dopo la registrazione di una fattura per un ordine cliente, viene creata una programmazione per il riconoscimento ricavi per ciascuna riga dell'ordine cliente in cui è presente una programmazione dei ricavi. La programmazione dei ricavi in una riga viene utilizzata per determinare se i ricavi della riga devono essere differiti.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874626"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569779"
 ---
 # <a name="work-order-project-setup"></a>Impostazione del progetto di ordine di lavoro
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Nel modulo **Gestione cespiti**, una relazione progetti è necessaria per ogni processo di ordine di lavoro. Il progetto associato a un processo di ordine di lavoro consente di tenere traccia dei costi in vari progetti correlati a Gestione cespiti, ad esempio progetti di manutenzione interni, progetti di manutenzione dei servizi e progetti di investimento. 
 
@@ -72,7 +72,7 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 
     Per impostazione predefinita, la data di inizio corrisponde alla data alla quale si aggiunge il progetto di ordine di lavoro alla pagina. Questa data determinata dal campo **Data di inizio validità**, che è nascosto per impostazione predefinita. Per visualizzare il campo **Data di inizio validità**, selezionare **Visualizza** \> **Tutto**. È quindi possibile utilizzare il campo **Data di inizio validità** insieme al campo **Data di fine** per impostare un periodo di validità limitato per il progetto di ordine di lavoro.
 
-    ![Figura 1](media/17-setup-for-work-orders.png)
+    ![Pagina Impostazione del progetto dell'ordine di lavoro](media/17-setup-for-work-orders.png)
 
 6. Nella scheda **Gruppo di progetti** selezionare **Aggiungi**.
 7. Nel campo **Tipo di ordine di lavoro** selezionare un tipo di ordine di lavoro.
@@ -80,7 +80,7 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 9. Nel campo **Gruppo di progetti**, selezionare il gruppo di progetti che deve essere correlato al tipo di ordine di lavoro. Ad esempio, un tipo di ordine di lavoro denominato **Manutenzione preventiva** può essere associato a un gruppo di progetti denominato **Manut prev** o **Interno**. In alternativa, un tipo di ordine di lavoro **Investimento** utilizzato per gli ordini di lavoro correlati agli investimenti e i cespiti possono essere associati a un gruppo di progetti denominato **Invest** o **Investimento**.
 10. Selezionare **Salva**.
 
-![Figura 2](media/18-setup-for-work-orders.png)
+![Pagina Impostazione del progetto dell'ordine di lavoro, Aggiungi ordine di lavoro](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ogni volta che si crea una riga di ordine di lavoro, Gestione cespiti ricerca un gruppo di progetti che deve essere correlato al progetto di processo di ordine di lavoro. La ricerca è basata sull'impostazione descritta in questo argomento. Ogni gruppo di progetti presenta un tipo di progetto correlato. I gruppi di progetti con il tipo di progetto **Tempistica e materiali** o **A prezzi fissi** sono validi solo per i cespiti associati a un conto cliente.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181521"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564939"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurare l'importazione di dati da SharePoint
 
@@ -62,9 +62,9 @@ Riprodurre le guide attività **ER Importare i data da un file di Microsoft Exce
 > Il formato per l'importazione delle transazioni fornitori è selezionato come mapping di modello predefinito. Se quindi si esegue un mapping di modello del **1099 modello pagamenti** e quel mapping di modello è di tipo **A destinazione**, il mapping di modello esegue questo formato per importare i dati da file esterni. Utilizza quindi i dati per aggiornare le tabelle dell'applicazione.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Configurare l'accesso a SharePoint per l'archiviazione dei file
-Per archiviare i file di report elettronici in un percorso di SharePoint, è necessario configurare l'accesso all'istanza di SharePoint Server che verrà utilizzato dalla società corrente. In questo esempio, la società è USMF. Per istruzioni, vedere [Configurazione dell'archiviazione di SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Per archiviare i file di report elettronici in un percorso di SharePoint, è necessario configurare l'accesso all'istanza di SharePoint Server che verrà utilizzato dalla società corrente. In questo esempio, la società è USMF. Per istruzioni, vedere [Configurazione dell'archiviazione di SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Completare i passaggi in [Configurazione dell'archiviazione di SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Completare i passaggi in [Configurazione dell'archiviazione di SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Aprire il sito di SharePoint configurato.
 3. Creare le seguenti cartelle dove è possibile archiviare i file di report elettronici in arrivo:
 
@@ -80,7 +80,7 @@ Per archiviare i file di report elettronici in un percorso di SharePoint, è nec
     - Cartella di errori dei file – Questa cartella è per i file la cui importazione non è riuscita.
 
 4. Selezionare **Amministrazione organizzazione > Gestione documenti > Tipi di documento**.
-5. Creare i tipi di documento seguenti che verranno utilizzati per accedere alle cartelle di SharePoint appena create. Per istruzioni, vedere [Configurare i tipi di documento](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Creare i tipi di documento seguenti che verranno utilizzati per accedere alle cartelle di SharePoint appena create. Per istruzioni, vedere [Configurare i tipi di documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Tipo di documento       | Raggruppa              | Posizione      | Cartella SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

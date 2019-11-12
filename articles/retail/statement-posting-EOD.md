@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606966"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653373"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
@@ -37,7 +37,7 @@ Per impostazione predefinita, durante la distribuzione di Finance and Operations
 
 Quando la nuova chiave di configurazione **Rendiconti di vendita al dettaglio** è attivata, è disponibile una nuova voce di menu denominata **Rendiconti di vendita al dettaglio**. Questa voce di menu consente di creare manualmente, calcolare e registrare rendiconti. Tutti i rendiconti che causano un errore durante l'utilizzo del processo di registrazione batch saranno disponibili anche mediante questa voce di menu. Quando la chiave di configurazione **Rendiconti di vendita al dettaglio (legacy)** viene attivata, la voce di menu è denominata **Rendiconti aperti**.
 
-Finance and Operations include le seguenti convalide correlate a queste chiavi di configurazione:
+Retail include le seguenti convalide correlate a queste chiavi di configurazione:
 
 - Le chiavi di configurazione non possono essere attivate contemporaneamente.
 - Le stesse chiavi di configurazione devono essere utilizzate per tutte le operazioni eseguite per un determinato rendiconto durante il relativo ciclo di vita (Crea, Calcola, Cancella, Registra e così via). Ad esempio, non è possibile creare e calcolare un rendiconto quando la chiave di configurazione **Rendiconti di vendita al dettaglio (legacy)** è attivata e quindi cercare di registrare lo stesso rendiconto mentre la chiave di configurazione **Rendiconti di vendita al dettaglio** è attivata .

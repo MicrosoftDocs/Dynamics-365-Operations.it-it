@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4193edf526c3c17be4706a4394956b9c3718068d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184188"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658738"
 ---
 # <a name="accounts-payable-home-page"></a>Home page di contabilità fornitori
 
@@ -31,11 +31,11 @@ ms.locfileid: "2184188"
 
 In questo argomento viene fornita una panoramica della contabilità fornitori. 
 
-È possibile immettere manualmente le fatture fornitore o riceverle elettronicamente tramite un'entità di dati. Dopo che le fatture sono state immesse o ricevute, è possibile esaminarle e approvarle utilizzando un giornale di approvazione fatture o la pagina **Fattura fornitore**. È possibile utilizzare l'abbinamento fatture, i criteri di fattura fornitore e il flusso di lavoro per automatizzare il processo di revisione, in modo che le fatture che soddisfano determinati criteri vengano approvate automaticamente e le rimanenti fatture vengano contrassegnate per la revisione da un utente autorizzato.
+È possibile immettere manualmente le fatture fornitore o riceverle elettronicamente tramite un'entità di dati. Dopo che le fatture sono state immesse o ricevute, è possibile esaminarle e approvarle utilizzando un giornale di approvazione fatture o la pagina **Fattura fornitore**. È possibile utilizzare l'abbinamento fatture, i criteri di fattura fornitore e il flusso di lavoro per automatizzare il processo di revisione, in modo che le fatture che soddisfano determinati criteri vengano approvate automaticamente e le rimanenti fatture vengano contrassegnate per essere riviste da un utente autorizzato.
 
 **Processi aziendali**
 
-[![Processo aziendale](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Diagramma di processi aziendali](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Impostare la contabilità fornitori
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188696"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667462"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
@@ -69,6 +69,12 @@ Creare *codici budget*che identificano il tipo di transazioni budget da registra
 I codici budget consentono di avere una audit trail di modifiche di budget approvate nel corso del ciclo del budget. Se un flusso di lavoro è associato a un codice budget, il flusso di lavoro verrà attivato per tutte le voci del registro di budget che utilizzano tale codice budget e i passaggi del flusso di lavoro dovranno essere completati prima che la voce del registro di budget possa raggiungere lo stadio **Completata**.  
 
 È inoltre possibile impostare delle *regole di trasferimento budget*. Per utilizzare le regole di trasferimento budget, selezionare **Usa regole per trasferimenti di budget** nella pagina **Parametri budget**. Quando si utilizzano le regole per trasferimenti di budget, se un utente crea un documento utilizzando un codice budget del tipo **Trasferimento**, i saldi budget non verranno aggiornati se tali regole vengono violate. Ad esempio, è possibile consentire documenti di trasferimento budget dove il budget di spesa viene trasferito tra i conti principali del reparto Vendite e marketing, ma è possibile impedire il trasferimento del budget da o verso quel reparto a meno che non sia stata concessa l'approvazione del flusso di lavoro per quel tipo di voce contabile del budget.
+
+La funzionalità che è stata introdotta in Microsoft Dynamics 365 Finance versione 10.0.7 (gennaio 2020) è stata integrata con la capacità e la flessibilità per le voci del registro di budget. Per consentire questi miglioramenti, passare all'area di lavoro **Gestione della funzionalità** e selezionare **Solo voci del registro di budget della quantità** e/o **Voci del registro di budget predefinite per tipo di importo**.
+
+La funzionalità **Solo voci del registro della quantità** consente di registrare una voce del registro di budget con gli importi solo per quantità. Ad esempio, è possibile registrare una voce del budget con una quantità pari a 32 e un prezzo pari a zero, che determina un importo pari a zero. È quindi possibile utilizzare la quantità nel contesto di un report finanziario per determinare il prezzo per quantità. Tenere presente che le richieste di informazioni o i report non sono stati aggiornati come parte di questa funzionalità; la funzionalità consente di registrare per un importo pari a zero.
+
+Con la funzionalità **Voci del registro di budget predefinite per tipo di importo**, il tipo predefinito dell'importo in una voce del registro di budget può essere un tipo di importo diverso spese. La riga della voce del registro di budget ora verrà automaticamente impostata come spesa quando il tipo di conto principale è spesa; verrà automaticamente impostata come ricavi quando il tipo di conto principale spesa; e verrà automaticamente impostata come spesa per tutti gli altri tipi di conto.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Utilizzo delle aree di lavoro e delle pagine di richiesta per tenere traccia del budget rispetto valori effettivi
 Il responsabile budget può verificare lo stato corrente di un budget nell'area di lavoro **Budget contabili e previsioni**. Le schede relative alle **spese sul budget** e ai **ricavi da budget** offrono una rapida panoramica delle combinazioni delle dimensioni finanziarie dove gli obiettivi del budget non sono stati rispettati o sono vicini alla soglia. È possibile personalizzare la percentuale della soglia del budget e i set di dimensioni finanziarie che sono utilizzati in queste schede facendo clic su **Configura area di lavoro personale**. È possibile fare clic su **Responsabili unità** per vedere i lavoratori che sono responsabili di specifiche combinazioni dimensioni finanziarie che sono selezionate in tali schede. Ad esempio, se si nota che il budget di spesa del reparto Operazioni sta per superare la soglia del budget, è possibile trovare e contattare il responsabile del reparto per discutere del problema. 

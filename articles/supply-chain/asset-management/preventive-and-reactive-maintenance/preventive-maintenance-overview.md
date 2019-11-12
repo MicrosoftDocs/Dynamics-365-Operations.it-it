@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922093"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569986"
 ---
 # <a name="preventive-maintenance-overview"></a>Panoramica della manutenzione preventiva
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In questo argomento viene descritta la manutenzione preventiva in Gestione cespiti. La manutenzione preventiva è una disciplina che comporta processi di manutenzione pianificati, ad esempio, assistenza, calibrazione e ispezioni regolari. In **Gestione cespiti**, è possibile creare piani di manutenzione e impostarli nei cespiti e nelle unità funzionali. È anche possibile impostare cicli di manutenzione in unità funzionali. I piani di manutenzione nei cespiti sono attivi indipendentemente da dove il cespite è installato. I piani di manutenzione e i cicli di manutenzione nell'unità funzionale sono attivi per i cespiti attualmente installati nell'unità. Anziché installare piani di manutenzione nei cespiti o cicli di manutenzione nelle unità funzionali, è possibile creare cicli di manutenzione che includono più cespiti in cui è necessario eseguire tipi di processo di manutenzione correlati nella stessa routine di lavoro. Creare cicli di manutenzione a partire da cespiti - anziché nelle unità funzionali - significa che è possibile selezionare una serie di cespiti per un ciclo di manutenzione, che non sono installati nella stessa unità funzionale.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847461"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571693"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Creare ordini di lavoro delle richieste di intervento di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Dopo aver creato le richieste di intervento di manutenzione, è possibile convertirli facilmente in ordini di lavoro. In questo argomento viene descritto il modo più veloce di lavorare con le richieste di intervento di manutenzione, aggiornare più richieste di intervento di manutenzione contemporaneamente e creare un ordine di lavoro per più richieste di intervento di manutenzione contemporaneamente. Nella pagina **Richieste di intervento di manutenzione attive** o **Richieste di intervento di manutenzione delle unità funzionali personali**, è possibile anche utilizzare una richiesta di intervento di manutenzione alla volta e convertire una richiesta di intervento di manutenzione in un ordine di lavoro.
@@ -53,5 +53,5 @@ Dopo aver creato le richieste di intervento di manutenzione, è possibile conver
 
 6. Selezionare **Gestione cespiti** \> **Comune** \> **Ordini di lavoro** \> **Tutti gli ordini di lavoro** e aprire il nuovo ordine di lavoro.
 
-    ![Figura 1](media/05-manage-maintenance-requests.png)
+    ![Aprire il nuovo ordine di lavoro](media/05-manage-maintenance-requests.png)
 

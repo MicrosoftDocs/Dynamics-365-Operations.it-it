@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918420"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652381"
 ---
 # <a name="asset-kpis"></a>KPI del cespite
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Gestione cespiti, è possibile calcolare vari indicatori di prestazioni chiave (KPI) per i cespiti e i tipi di cespite. I KPI consentono di ottenere una panoramica delle prestazioni sui cespiti in relazione a, ad esempio, attività, inattività, tempo di riparazione e tempo medio tra i guasti (MTBF).
 
@@ -85,7 +85,7 @@ Nella tabella seguente, è riportata una descrizione dei campi nella pagina **KP
 
 Nella figura seguente è illustrata una schermata di un calcolo KPI per quattro cespiti.
 
-![Figura 1](media/11-controlling-and-reporting.png)
+![Schermata di un calcolo KPI per quattro cespiti](media/11-controlling-and-reporting.png)
 
 - È possibile selezionare più cespiti in **Tutti i cespiti** e fare clic sul pulsante **KPI del cespite** nella scheda **Generale**. Quindi, fare clic su **OK** nella finestra di dialogo **Calcola KPI cespite** per calcolare i KPI per i cespiti selezionati.  
 - I risultati di un calcolo KPI possono o meno includere [registrazioni di tempi di fermo per la manutenzione](../work-orders/maintenance-downtime.md), in base all'impostazione e all'utilizzo dei codici motivo dei tempi di fermo per la manutenzione. 

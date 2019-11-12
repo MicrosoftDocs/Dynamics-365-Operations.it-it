@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249571"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653513"
 ---
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
@@ -72,7 +72,7 @@ Per generare la previsione, Supply Chain Management utilizza un servizio Web di 
 
 **Nota:** il nome account e la chiave di archiviazione Azure sono necessari solo se si utilizza un account di archiviazione personalizzato. Se si distribuisce la versione locale, è necessario disporre di un account di archiviazione personalizzato in Azure, in modo che il servizio Machine Learning possa accedere ai dati storici. 
 
-Per creare le previsioni della domanda, è possibile distribuire un servizio personalizzato tramite Machine Learning Studio o gli esperimenti di previsione della domanda di Supply Chain Management. Le istruzioni per la distribuzione degli esperimenti di previsione della domanda come servizio Web sono disponibili in Finance and Operations. Nella pagina **Parametri di previsione della domanda** fare clic sulla scheda **Azure Machine Learning**.
+Per creare le previsioni della domanda, è possibile distribuire un servizio personalizzato tramite Machine Learning Studio o gli esperimenti di previsione della domanda di Supply Chain Management. Le istruzioni per la distribuzione degli esperimenti di previsione della domanda come servizio Web sono disponibili in Supply Chain Management. Nella pagina **Parametri di previsione della domanda** fare clic sulla scheda **Azure Machine Learning**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Impostazioni per il servizio di Machine Learning della previsione della domanda
 Per visualizzare i parametri che possono essere configurati per il servizio di previsione della domanda, andare a **Pianificazione generale** &gt; **Impostazioni** &gt; **Previsione della domanda** &gt; **Previsione parametri di algoritmo**. La pagina **Previsione parametri di algoritmo** mostra i valori predefiniti dei parametri. È possibile sovrascrivere questi parametri nella pagina **Parametri di previsione della domanda**. Utilizzare la scheda **Generale** per sovrascrivere i parametri globalmente oppure utilizzare la scheda **Chiavi di allocazione articoli** per sovrascrivere la chiave di allocazione per chiave di allocazione articolo. I parametri che vengono sovrascritti per una chiave di allocazione articolo hanno effetto solo sulla previsione degli articoli associati alla chiave di allocazione articolo.

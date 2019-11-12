@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250923"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571118"
 ---
 # <a name="maintenance-requests"></a>Richieste di intervento di manutenzione
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 È possibile impostare diversi tipi di richieste da utilizzare nella società. Le richieste di intervento di manutenzione sono di un solo tipo. Le richieste di intervento di manutenzione vengono utilizzate per chiedere che un ordine di lavoro venga richiesto per un processo specifico. Una richiesta di intervento di manutenzione possono essere creati da qualsiasi utente che ha accesso alle funzionalità di Gestione cespiti. Un responsabile o un responsabile della pianificazione potrà quindi stabilire se una richiesta di intervento di manutenzione deve essere convertita in un ordine di lavoro, oppure se deve completare il proprio ciclo di vita.
 
@@ -41,4 +41,4 @@ ms.locfileid: "2250923"
 
 Nella figura seguente è illustrato un esempio della pagina elenco **Tutte le richieste di intervento di manutenzione**.
 
-![Figura 1](media/01-setup-for-requests.png)
+![Pagina elenco Tutte le richieste di intervento di manutenzione](media/01-setup-for-requests.png)

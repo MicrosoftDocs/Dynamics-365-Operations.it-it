@@ -3,7 +3,7 @@ title: Esempio di integrazione di stampante fiscale per l'Italia
 description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia.
 author: josaw
 manager: annbe
-ms.date: 01/23/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 71b9514d63668ed1ba0935f049ade48c99b211be
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1a0e2d7c242fbccada69f547ec43193de1df19c9
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023380"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622468"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -68,6 +68,7 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
         - Stampare una ricevuta fiscale per un ordine di reso.
 
     - Stampare un codice a barre per il numero di ricevuta su una ricevuta fiscale.
+    - Stampare le [informazioni del cliente](emea-ita-customer-information.md) specificate per una transazione di vendita in una ricevuta fiscale. Un esempio di queste informazioni è il codice fiscale del cliente. 
 
 - Rendiconti di riepilogo giornalieri (report X e Z fiscali).
 - Gestione degli errori, ad esempio le seguenti opzioni:
@@ -127,6 +128,7 @@ Completare la procedura di configurazione dell'integrazione fiscale come descrit
 - [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 - [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+- [Impostare la funzionalità per la gestione delle informazioni del cliente nel POS](emea-ita-customer-information.md#setup)
 
 ### <a name="enable-extensions"></a>Abilitare le estensioni
 

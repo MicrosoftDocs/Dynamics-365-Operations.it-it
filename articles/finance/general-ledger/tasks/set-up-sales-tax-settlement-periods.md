@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175488"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658931"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Impostare i periodi di liquidazione IVA
 
@@ -42,7 +42,7 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 9. Immettere il numero di unità dell'intervallo periodico per periodo. Ad esempio, un trimestre ha 3 mesi.
 10. Selezionare o deselezionare la casella di controllo **Utilizza elaborazione batch per liquidazione IVA**. Il processo di liquidazione per il periodo di liquidazione può essere elaborato come processo batch in background. Si consigliano tantissime transazioni IVA all'interno di un intervallo periodico.  
     > [!NOTE]
-    > Attualmente questo non è supportato in Austria, in Belgio, Spagna, in Italia, in Giappone e nei Paesi Bassi.
+    > Attualmente questo non è supportato in Spagna, in Giappone e nei Paesi Bassi.
 11. Selezionare o deselezionare la casella di controllo **Impedisci generazione transazioni contropartita fiscale**. Per impostazione predefinita, il sistema genera transazioni di contropartita fiscale durante il processo di liquidazione, la cui causa può creare problemi in caso di un numero elevato di transazioni fiscali in un determinato intervallo periodico. Selezionare questa casella di controllo per impedire la generazione di transazioni di contropartita fiscale.
 12. Espandere la scheda **Intervalli periodici**.
 13. Selezionare **Aggiungi**.

@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175986"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570312"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Riconoscimento ricavi negli ordini cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Il riconoscimento ricavi non può ancora essere attivato tramite la gestione delle funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
+> Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
 
 In questo argomento viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile in un ordine cliente e nella fattura corrispondente creata dall'ordine cliente. L'ordine cliente può anche essere creato con un progetto di tempistica e materiali.
 

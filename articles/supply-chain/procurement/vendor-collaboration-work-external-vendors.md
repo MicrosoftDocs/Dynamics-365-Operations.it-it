@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250205"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653604"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
@@ -190,7 +190,7 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 I fornitori non devono confermare un ordine fornitore tramite l'interfaccia di collaborazione fornitore. Possono anche inviare messaggi di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare manualmente l'ordine. In questo caso, viene visualizzato un avviso che informa che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma come ordine confermato aperto che non dispone di risposte. A questo punto, il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.
 
 > [!NOTE]
-> La versione dell'ordine fornitore disponibile ad altri processi in Finance and Operations è sempre la versione più recente, anche se tale versione non è ancora stata registrata nell'interfaccia di collaborazione fornitore.
+> La versione dell'ordine fornitore disponibile ad altri processi in Supply Chain Management è sempre la versione più recente, anche se tale versione non è ancora stata registrata nell'interfaccia di collaborazione fornitore.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versioni e stati se si utilizza la gestione modifiche
 

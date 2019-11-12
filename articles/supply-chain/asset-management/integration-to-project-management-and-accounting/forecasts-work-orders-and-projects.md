@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
-ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
+ms.openlocfilehash: e527a1ade9b050c0700ef42bbcac8da3f36160b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "2002386"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571785"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsioni, ordini di lavoro e progetti
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 In Gestione cespiti, l'integrazione con il modulo **Gestione progetti e contabilità** consente di ottimizzare il controllo dei costi di modo che gli utenti possano tenere traccia dei costi nelle previsioni del tipo di processo di manutenzione e nei processi di ordine di lavoro.
 

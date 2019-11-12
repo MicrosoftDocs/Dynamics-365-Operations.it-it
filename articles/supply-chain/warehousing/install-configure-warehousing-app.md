@@ -1,6 +1,6 @@
 ---
-title: Panoramica sull'installazione e sulla configurazione dell'app del magazzino
-description: In questo argomento viene descritto come installare e configurare l'app Dynamics 365 Supply Chain Management - Magazzino.
+title: Panoramica sull'installazione e sulla configurazione dell'app Magazzino
+description: In questo argomento viene descritto come installare e configurare l'app Dynamics 365 for Finance and Operations - Magazzino.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251502"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548970"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Panoramica sull'installazione e sulla configurazione dell'app del magazzino
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Panoramica sull'installazione e sulla configurazione dell'app Magazzino
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251502"
 > In questo argomento viene descritto come configurare il magazzino per le distribuzioni cloud. Se si stanno cercando informazioni su come configurare il magazzino per distribuzioni locali, vedere [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-In questo argomento viene descritto come installare e configurare l'app Dynamics 365 Supply Chain Management - Magazzino.
+In questo argomento viene descritto come installare e configurare l'app Dynamics 365 for Finance and Operations - Magazzino.
 
 L'app Magazzino è disponibile in Google Play Store e Windows Store. Per la versione corrente di Dynamics 365 Supply Chain Management, questa app viene fornita come componente autonomo, ovvero con auto-distribuzione sui dispositivi utilizzati per le attività di magazzino. Per utilizzare l'app, è necessario scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Supply Chain Management. In questo argomento viene descritto come installare l'app sui dispositivi. Viene inoltre illustrato come configurare l'app per connettersi all'ambiente Supply Chain Management.
 
