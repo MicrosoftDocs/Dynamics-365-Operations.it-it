@@ -3,7 +3,7 @@ title: Gestione migliorata degli articoli di cui viene tenuta traccia in batch
 description: In questo argomento vengono descritti i miglioramenti apportati alla gestione dei batch di articoli di cui viene tenuta traccia durante il processo di registrazione dei rendiconti di vendita al dettaglio.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,19 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: 5bbddf649f66ded9588cdb1e3f43c75630dc248a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622552"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770165"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Gestione migliorata degli articoli di cui viene tenuta traccia in batch
 
 
 [!include [banner](includes/banner.md)]
-
-[!include [banner](includes/preview-banner.md)]
 
 
 Nei Retail POS i numeri batch non possono essere acquisiti per gli articoli di cui viene tenuta traccia in batch al momento della vendita. Per configurazioni specifiche, tuttavia, quando le vendite vengono registrate nelle sedi tramite ordini cliente o registrazione rendiconti, il sistema Microsoft Dynamics prevede che i numeri batch validi per gli articoli di cui viene tenuta traccia in batch esistano e vengano utilizzati durante il processo di fatturazione.

@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174698"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770235"
 ---
 # <a name="public-sector-home-page"></a>Home page Settore pubblico
 
@@ -42,13 +42,13 @@ Utilizzare la funzionalità Settore pubblico per soddisfare le regole, le normat
 
   Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Pianificazione per la funzionalità Settore pubblico](plan-public-sector-functionality.md)
-- [Contabilità fornitori nel settore pubblico](accounts-payable-public-sector.md)
-- [Contabilità clienti nel settore pubblico](accounts-receivable-public-sector.md)
-- [Impostazione budget nel settore pubblico](budgeting-public-sector.md)
+- [Piano per la funzionalità Settore pubblico](plan-public-sector-functionality.md)
+- [Panoramica contabilità fornitori nel settore pubblico](accounts-payable-public-sector.md)
+- [Panoramica contabilità clienti nel settore pubblico](accounts-receivable-public-sector.md)
+- [Panoramica impostazione budget nel settore pubblico](budgeting-public-sector.md)
 - [Cespiti nel settore pubblico](fixed-asset-public-sector.md)
-- [Funzionalità per la normativa francese](../localizations/emea-fra-public-sector-accounting.md)
-- [Contabilità generale nel settore pubblico](general-ledger-public-sector.md)
+- [Contabilità nel settore pubblico in Francia](../localizations/emea-fra-public-sector-accounting.md)
+- [Panoramica contabilità generale nel settore pubblico](general-ledger-public-sector.md)
 - [Approvvigionamento nel settore pubblico](procurement-sourcing-public-sector.md)
 - [Ruoli di sicurezza nel settore pubblico](security-roles-public-sector.md)
 
@@ -70,7 +70,7 @@ Nella tabella seguente vengono fornite informazioni sul modo in cui questa chiav
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Pianificazione per la funzionalità Settore pubblico](plan-public-sector-functionality.md)
+[Piano per la funzionalità Settore pubblico](plan-public-sector-functionality.md)
 
 
 

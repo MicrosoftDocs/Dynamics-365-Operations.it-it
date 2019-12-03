@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278108"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811928"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Risorse di guida per Dynamics 365 Retail
 
@@ -81,7 +81,7 @@ Sono diversi i componenti che si impostano per definire le relazioni tra un punt
 
 Se si è ricevuta la richiesta di personalizzare l'ambiente o si è responsabili della distribuzione e della gestione del sistema, assicurarsi di fare riferimento al contenuto per amministratori del sistema e sviluppatori specifico di Retail, oltre al contenuto più generale.
 
-- [Dynamics 365 Retail per professionisti IT e sviluppatori](dev-itpro/dev-retail-home-page.md)
+- [Retail per professionisti IT e sviluppatori](dev-itpro/dev-retail-home-page.md)
 - [Sviluppo e amministrazione per Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

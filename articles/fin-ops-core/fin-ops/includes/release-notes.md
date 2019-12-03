@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **Annuncio delle note sulla versione di Dynamics 365**
+> **Annuncio dei piani di rilascio di Dynamics 365**
 >
-> Si desidera sapere quali sono le funzionalità imminenti e rilasciate di recente in una delle nostre app o piattaforme aziendali? 
+> Desideri sapere quali sono le funzionalità imminenti e rilasciate di recente nella nostra piattaforma o in una delle app aziendali? 
 > 
-> Consultare [Note sulla versione della piattaforma e delle applicazioni aziendali](https://go.microsoft.com/fwlink/?linkid=2010158). Tutti i dettagli, dall'inizio alla fine e da un lato all'altro, sono stati raccolti in un unico posto che è possibile utilizzare per la pianificazione. A seconda della versione delle note sulla versione, è possibile trovare informazioni su nuovi servizi e funzionalità nonché sulle nuove funzionalità rilasciate in futuro.
+> Consulta i [piani di rilascio della piattaforma e delle applicazioni aziendali](https://go.microsoft.com/fwlink/?linkid=2010158). Tutti i dettagli più completi sono stati raccolti in un'unica posizione utilizzabile per la pianificazione. A seconda della versione dei piani di rilascio, è possibile trovare informazioni sui nuovi servizi e funzioni, oltre che sulle nuove funzionalità che verranno rilasciate in futuro.
