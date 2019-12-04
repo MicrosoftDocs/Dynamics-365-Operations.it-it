@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653604"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815297"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
@@ -218,7 +218,7 @@ Se si utilizza l'inventario spedizione, i fornitori possono usare l'interfaccia
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Ricorrere alle RdO quando viene utilizzata la collaborazione fornitore
 
-In questa sezione vengono descritte le interazioni tra clienti e fornitori durante il processo RdO. Viene inoltre illustrato come le informazioni vengono comunicate ai fornitori. Per una panoramica di base del processo RdO, vedere [Richieste di offerta (RdO)](request-quotations.md).
+In questa sezione vengono descritte le interazioni tra clienti e fornitori durante il processo RdO. Viene inoltre illustrato come le informazioni vengono comunicate ai fornitori. Per una panoramica di base del processo RdO, vedere [Panoramica delle richieste di offerta (RdO)](request-quotations.md).
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Alternative, allegati, modifiche e resi
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a649fdbc355b3382bc6c80be03f8b37a06d5226
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178454"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769479"
 ---
 # <a name="derived-books"></a>Libri derivati
 
@@ -44,7 +44,7 @@ Quando la transazione viene registrata, una transazione di acquisizione viene ge
 > [!NOTE]                                                                                                                               
 > I libri impostati per la registrazione di transazioni a intervalli diversi da quelli del libro principale devono essere collegati al cespite come libri separati, non come libri derivati.  
 
-Per ulteriori informazioni, vedere [Registrazione con i libri derivati](post-derived-value-models.md).
+Per ulteriori informazioni, vedere [Registrare con i libri derivati](post-derived-value-models.md).
 
 
 

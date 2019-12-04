@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251087"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814975"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurare i nomi di campo app nell'app Magazzino
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251087"
 
 In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management. 
 
-**Nota:** questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Magazzino. Per informazioni dettagliate su come configurare la connessione in Magazzino, fare riferimento all'esercitazione [Installare e configurare Magazzino](install-configure-warehousing-app.md).
+> [!NOTE]
+> Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Magazzino. Per informazioni dettagliate su come configurare la connessione in Magazzino, fare riferimento all'esercitazione [Panoramica sull'installazione e sulla configurazione dell'app del magazzino](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 
@@ -142,4 +143,4 @@ I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella p
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Installare e configurare Microsoft Dynamics 365 for Finance and Operations – Magazzino](install-configure-warehousing-app.md)
+[Panoramica sull'installazione e sulla configurazione dell'app Magazzino](install-configure-warehousing-app.md)

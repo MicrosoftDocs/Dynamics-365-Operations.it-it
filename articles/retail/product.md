@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278384"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811119"
 ---
 # <a name="product-recommendations-on-pos"></a>Suggerimenti sul prodotto nel dispositivo POS
 
@@ -40,13 +40,13 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 
 1. Nella pagina **Dettagli prodotto**:
 
-    - • Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.
+    - Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.
 
     [![Suggerimenti sulla pagina Dettagli prodotto](./media/proddetails.png)](./media/proddetails.png)
 
 2. Nella pagina **Transazione**:
 
-    - • Il motore dei suggerimenti suggerisce gli articoli in base all'intero elenco di articoli nel carrello che vengono acquistati insieme di frequente.
+    - Il motore dei suggerimenti suggerisce gli articoli in base all'intero elenco di articoli nel carrello che vengono acquistati insieme di frequente.
 
     > [!NOTE]
     > Per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 for Retail. Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**.
@@ -69,10 +69,12 @@ Per impostare i suggerimenti sul prodotto, effettuare le seguenti operazioni:
 
 - Passare a **Parametri di vendita al dettaglio** \> **Elenchi di suggerimenti** \> **Disabilita suggerimenti sul prodotto** ed eseguire il **Processo di configurazione globale \[9999\]**. 
 - Se si è aggiunto il **Controllo per suggerimenti** alla schermata di transazione mediante la **Progettazione layout schermo**, rimuovere anche tale elemento.
-- Per eventuali domande aggiuntive, leggere le [domande frequenti sui suggerimenti](../commerce/faq-recommendations.md) per ulteriori informazioni.
+- Per eventuali domande aggiuntive, leggere le [domande frequenti su suggerimenti prodotto](../commerce/faq-recommendations.md) per ulteriori informazioni.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Aggiungere un controllo dei suggerimenti alla pagina delle transazioni in un dispositivo POS](add-recommendations-control-pos-screen.md)
-[Panoramica dei suggerimenti sul prodotto](../commerce/product-recommendations.md)
-[Abilitare i suggerimenti sul prodotto](../commerce/enable-product-recommendations.md) 
+[Aggiungere un controllo di suggerimenti alla schermata della transazione su dispositivi POS](add-recommendations-control-pos-screen.md)
+
+[Panoramica suggerimenti sul prodotto](../commerce/product-recommendations.md)
+
+[Abilitare suggerimenti sul prodotto](../commerce/enable-product-recommendations.md) 

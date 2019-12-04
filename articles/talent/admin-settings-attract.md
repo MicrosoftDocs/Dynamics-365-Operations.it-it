@@ -1,5 +1,5 @@
 ---
-title: Configurare le informazioni della società in Microsoft Dynamics 365 Talent - Attract
+title: Configurare le informazioni della società in Attract
 description: In questo argomento viene descritto come configurare le informazioni e il marchio della società per Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551599"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833256"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Configurare le informazioni della società in Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Configurare le informazioni della società in Attract
+
+[!include [banner](includes/banner.md)]
 
 L'interfaccia di amministrazione di Microsoft Dynamics 365 Talent: Attract contiene impostazioni di configurazione, opzioni di integrazione e opzioni di impostazione per l'applicazione Attract.
 
@@ -48,11 +49,11 @@ Quando nuove funzionalità vengono aggiunte, potrebbero essere rilasciate in una
 
 ## <a name="template-management"></a>Gestione modello
 
-Un modello di processo contiene tutte le attività che devono essere incluse durante il processo di assunzione per una posizione lavorativa. L'organizzazione può consentire a tutti i membri del team o solo agli amministratori di creare modelli di processo di assunzione. Per consentire ai membri del team di creare i propri modelli di processo di assunzione, attivare la funzionalità Gestione modello. Per ulteriori informazioni sui modelli di processo, vedere [Modelli di processo in Attract](./process-templates-attract.md).
+Un modello di processo contiene tutte le attività che devono essere incluse durante il processo di assunzione per una posizione lavorativa. L'organizzazione può consentire a tutti i membri del team o solo agli amministratori di creare modelli di processo di assunzione. Per consentire ai membri del team di creare i propri modelli di processo di assunzione, attivare la funzionalità Gestione modello. Per ulteriori informazioni sui modelli di processo, vedere [Creare un modello di processo in Attract](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>Impostazioni del modello di messaggio di posta elettronica
 
-Le organizzazioni possono creare modelli di messaggi di posta elettronica per diversi scenari. È possibile selezionare l'immagine di intestazione da includere nei modelli di messaggio di posta elettronica. L'intestazione selezionata verrà visualizzata in tutti i modelli di messaggio di posta elettronica. Nel piè di pagina del modello, è possibile aggiungere un collegamento alla Informativa sulla privacy dell'organizzazione e alle condizioni di utilizzo per le comunicazioni. Per ukteriori informazioni, vedere [Modelli di messaggio di posta elettronica in Attract](./email-templates.md).
+Le organizzazioni possono creare modelli di messaggi di posta elettronica per diversi scenari. È possibile selezionare l'immagine di intestazione da includere nei modelli di messaggio di posta elettronica. L'intestazione selezionata verrà visualizzata in tutti i modelli di messaggio di posta elettronica. Nel piè di pagina del modello, è possibile aggiungere un collegamento alla Informativa sulla privacy dell'organizzazione e alle condizioni di utilizzo per le comunicazioni. Per ulteriori informazioni, vedere [Modelli di messaggio di posta elettronica](./email-templates.md).
 
 ## <a name="offer-process"></a>Processo di offerta
 

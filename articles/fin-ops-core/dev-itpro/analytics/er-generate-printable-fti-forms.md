@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181429"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771285"
 ---
 # <a name="generate-printable-fti-forms"></a>Generare moduli FTI stampabili
 
@@ -41,7 +41,7 @@ Oltre alla possibilità esistente di generare i moduli stampabili FTI utilizzand
 Come parte della soluzione personalizzata per i moduli FTI stampabili, è necessario creare un gruppo di configurazioni di ER.
 
 ### <a name="configure-the-er-data-model"></a>Configurare il modello dati di ER
-L'applicazione deve includere la configurazione del modello dati di ER che contiene un modello dati che descrive il dominio aziendale della fatturazione dei clienti. Come requisito, il nome del modello dati deve essere **CustomersInvoicing**. Per informazioni su come progettare modelli dati di ER, vedere [Progettare un modello di dati specifico del dominio per la creazione di report elettronici](tasks/er-design-domain-specific-data-model-2016-11.md).
+L'applicazione deve includere la configurazione del modello dati di ER che contiene un modello dati che descrive il dominio aziendale della fatturazione dei clienti. Come requisito, il nome del modello dati deve essere **CustomersInvoicing**. Per informazioni su come progettare modelli dati di ER, vedere [RE Progettare il modello dati specifico di dominio](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Configurare il mapping del modello dati di ER
 L'applicazione deve includere il mapping del modello ER per il modello dati CustomersInvoicing. Il mapping del modello può essere nella configurazione del modello dati di ER o nella configurazione di mapping del modelli di ER. Tuttavia, il nome del descrittore radice del mapping del modello deve essere **FreeTextInvoice**.
@@ -62,7 +62,7 @@ Il mapping deve contenere le seguenti origini dati:
 
 I dettagli dell'integrazione dell'applicazioni con il framework di ER sono disponibili nella classe **ERPrintMgmtReportFormatSubscriber** (modello di integrazione della famiglia di prodotti ER) nel codice sorgente dell'applicazione.
 
-Per ulteriori informazioni sulla progettazione di mapping di modello di ER, vedere [Definire il mapping di modello e selezionare le origini dati per la creazione di report elettronici](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Per ulteriori informazioni sulla progettazione di mapping di modello di ER, vedere [Definire i mapping di modello ER e selezionare le relative origini dati](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>Configurare il formato di ER
 Nell'istanza dell'applicazione è necessario disporre della configurazione del formato di ER che sarà utilizzata per generare i moduli FTI. 
@@ -70,7 +70,7 @@ Nell'istanza dell'applicazione è necessario disporre della configurazione del f
 > [!NOTE]
 > Questa configurazione di formato deve essere creata per il modello dati CustomersInvoicing e deve utilizzare il mapping del modello con il descrittore radice **FreeTextInvoice**.
 
-Per informazioni su come configurare i formati di ER, vedere [Creare una configurazione di formato per la creazione di report elettronici](tasks/er-format-configuration-2016-11.md). Per informazioni su come progettare formati di ER per generare i report in formato OpenXML, vedere [Progettare una configurazione per la generazione di report in formato OpenXML per la creazione di report elettronici (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Per informazioni su come configurare i formati di ER, vedere [ER Creare una configurazione formato (novembre 2016)](tasks/er-format-configuration-2016-11.md). Per informazioni su come progettare formati di ER per generare i report in formato OpenXML, vedere [ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Configurare la gestione della stampa
 Per generare i moduli FTI utilizzando il framework di ER, è possibile assegnare formati di ER nello stesso modo in cui si assegnano i report SSRS. Per associare il formato di ER a tutte le FTI di contabilità clienti, passare a **Contabilità clienti** \> **Impostazione** \> **Moduli** \> **Impostazione moduli** \> **Generale** \> **Gestione stampa** \> **Fattura a testo libero** \> **Originale**. Per associare il formato di ER a un cliente specifico o a una fattura, seguire questi passaggi.
@@ -94,7 +94,7 @@ Per generare i moduli FTI, è possibile selezionare le fatture in base a un inte
 
 ![Anteprima della fattura](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Quando si utilizzando i formati di ER per stampare i moduli FTI in questo modo, vengono utilizzate le destinazioni di file di ER predefinite. La descrizione non può essere modificata. Per altre informazioni su come configurare le destinazioni di ER per i formati di ER, vedere [Destinazioni dei report elettronici](electronic-reporting-destinations.md).
+Quando si utilizzando i formati di ER per stampare i moduli FTI in questo modo, vengono utilizzate le destinazioni di file di ER predefinite. La descrizione non può essere modificata. Per altre informazioni su come configurare le destinazioni di ER per i formati di ER, vedere [Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md).
 
 È inoltre possibile generare moduli FTI durante la registrazione di un FTI, attivando **Stampa fattura** e disattivando **Utilizza destinazione gestione stampa**.
 
@@ -221,7 +221,7 @@ L'espressione **Emailing.TxtToUse.Body** del formato di esempio viene configurat
 - "%5" viene sostituito con il titolo del contatto della società.
 - "%6" viene sostituito con l'indirizzo email del contatto della società.
 
-![E-mail](media/FTIbyGER-Email.PNG)
+![Indirizzo di posta elettronica](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)

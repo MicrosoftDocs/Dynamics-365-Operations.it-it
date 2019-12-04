@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571256"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812216"
 ---
 # <a name="functional-location-types"></a>Tipi di unità funzionali
 
@@ -56,7 +56,7 @@ Ora il tipo di unità funzionale predefinito da utilizzare solo per una unità f
 3. Inserire un ID del tipo di unità funzionale nel campo **Tipo di unità funzionale** e un nome nel campo **Nome**.
 4. Selezionare un modello del ciclo di vita nel campo **Modello del ciclo di vita unità funzionale**. Per ulteriori informazioni sugli stati del ciclo di vita e sui modelli del ciclo di vita delle unità funzionali, vedere [Stati del ciclo di vita delle unità funzionali](../setup-for-functional-locations/functional-location-stages.md).
 5. Selezionare "Sì" sull'interruttore **Più cespiti** se deve essere possibile diversi cespiti siano installati su una unità funzionale utilizzando questo tipo di unità funzionale. Se si seleziona "No", è possibile installare *un solo* cespite in una unità funzionale utilizzando questo tipo di unità funzionale.
-6. Selezionare "Sì" sull'interruttore **Aggiorna dimensione cespiti** se si desidera che i cespiti installati su una unità funzionale di questo tipo utilizzino automaticamente le dimensioni finanziarie correlate alla unità funzionale. Ciò significa che si modificano le dimensioni nel modulo [Unità funzionale](../functional-locations/create-functional-locations.md) e l'unità funzionale usa un tipo con questo interruttore impostato su "Sì", le dimensioni finanziarie viene aggiornata automaticamente in tutti i cespiti installati in quella unità funzionale.
+6. Selezionare "Sì" sull'interruttore **Aggiorna dimensione cespiti** se si desidera che i cespiti installati su una unità funzionale di questo tipo utilizzino automaticamente le dimensioni finanziarie correlate alla unità funzionale. Ciò significa che si modificano le dimensioni nel modulo [Creare unità funzionali](../functional-locations/create-functional-locations.md) e l'unità funzionale usa un tipo con questo interruttore impostato su "Sì", le dimensioni finanziarie viene aggiornata automaticamente in tutti i cespiti installati in quella unità funzionale.
 7. Il campo **Tipo di cespite** viene utilizzato se si desidera creare automaticamente *un solo* cespite per l'unità funzionale con lo stesso ID e nome dell'unità funzionale che si sta creando. Ad esempio, questo può essere importante se si crea una unità funzionale statica, ad esempio edifici o una conduttura. In tal caso, selezionare il tipo di cespite si desidera utilizzare per il cespite creato automaticamente. Tenere presente che se si effettua una selezione in questo campo, l'interruttore **Più cespiti** deve essere impostato su "No".
 8. Nella Scheda dettaglio **Tipi di cespite**, selezionare i tipi di cespite per essere correlati al tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare i tipi di cespite. Se si aggiunge i tipi di cespite qui, solo i cespiti che usano quei tipi di cespite possono essere installati in una unità funzionale che usa questo tipo di unità funzionale. Se non si seleziona un tipo di cespite nella Scheda dettaglio **Tipi di cespite**, tutti i tipi di cespite possono essere installati.
 9. Nella Scheda dettaglio **Piani di manutenzione**, selezionare i piani di manutenzione che devono essere impostati automaticamente nelle nuove unità funzionali che usano questo tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare i piani di manutenzione. Se si aggiunge i piani di manutenzione di cespite qui, solo questi piani possono essere usati in una unità funzionale che usa questo tipo di unità funzionale.

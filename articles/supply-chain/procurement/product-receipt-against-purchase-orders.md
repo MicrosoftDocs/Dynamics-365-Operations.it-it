@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572269"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813411"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
@@ -59,11 +59,11 @@ Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato d
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Panoramica dell'ordine fornitore](purchase-order-overview.md)
+[Panoramica degli ordini fornitore](purchase-order-overview.md)
 
-[Creazione ordine fornitore](purchase-order-creation.md)
+[Creare gli ordini fornitore](purchase-order-creation.md)
 
-[Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
+[Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 
 [Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 53100a897dc71758b8920672fea1e684817cb4b7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571670"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812285"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571670"
 Se la società effettua i processi di riparazione o i processi di manutenzione sui cespiti ricevuti da altri ubicazioni o clienti, Gestione cespiti può tenere traccia sia dei cespiti in entrata che stanno per arrivare che dei cespiti in uscita che vengono restituiti.
 
 > [!NOTE]
-> Se si desidera utilizzare gli stati del ciclo di vita in entrata e in uscita per gestire i cespiti in arrivo e in restituzione, è necessario impostare gli stati del ciclo di vita delle richieste di intervento di manutenzione e i modelli del ciclo di vita per supportare tali azioni. Per ulteriori informazioni, vedere [Impostazione delle richieste di intervento di manutenzione](../setup-for-maintenance-requests/requests.md).
+> Se si desidera utilizzare gli stati del ciclo di vita in entrata e in uscita per gestire i cespiti in arrivo e in restituzione, è necessario impostare gli stati del ciclo di vita delle richieste di intervento di manutenzione e i modelli del ciclo di vita per supportare tali azioni. Per ulteriori informazioni, vedere [Richieste di intervento di manutenzione](../setup-for-maintenance-requests/requests.md).
 
 L'impostazione di Gestione cespiti determina se è possibile lavorare con i cespiti in entrata e in uscita.
 

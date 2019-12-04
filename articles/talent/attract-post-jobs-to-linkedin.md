@@ -1,5 +1,5 @@
 ---
-title: Pubblicare posizioni in LinkedIn da Microsoft Dynamics 365 Talent - Attract
+title: Pubblicare posizioni in LinkedIn da Attract
 description: In questo argomento viene descritto come utilizzare Dynamics 365 Talent - Attract per pubblicare posizioni su LinkedIn
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551497"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833004"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Pubblicare posizioni in LinkedIn da Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Pubblicare posizioni in LinkedIn da Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn è la più grande rete professionale online, che consente di contattare i migliori talenti al mondo. Microsoft Dynamics 365 Talent: Attract aiuta a trovare i talenti necessari a un'azienda attraverso la pubblicazione di posizioni direttamente da Attract in LinkedIn.
 
@@ -46,7 +46,7 @@ Nella seguente tabella vengono illustrate le azioni che è possibile eseguire su
 
 Per ulteriori informazioni sui ruoli utente in Attract, vedere [Gestione della sicurezza e dei ruoli in Attract](./security-attract.md).
 
-Se si è un amministratore e sono necessarie ulteriori informazioni su come configurare l'integrazione di LinkedIn con Attract, vedere [Impostare l'integrazione con LinkedIn](./attract-admin-linkedin.md).
+Se si è un amministratore e sono necessarie ulteriori informazioni su come configurare l'integrazione di LinkedIn con Attract, vedere [Impostare l'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 Le posizioni che vengono pubblicate in LinkedIn vengono visualizzate direttamente nel sito di LinkedIn. LinkedIn non dispone di un ambiente di test per la pubblicazione delle posizioni. Assicurarsi quindi di non pubblicare accidentalmente annunci di prova.
 
@@ -67,15 +67,15 @@ Quando i candidati interessati selezionano **Visualizza** accanto all'annuncio, 
 
 Tutte le pubblicazioni di posizioni eseguite attraverso Attract sono inserzioni limitate. Per ulteriori informazioni sulle inserzioni limitate su LinkedIn, vedere [Inserzioni limitate e slot di lavoro Premium per il wrapping di lavoro](https://www.linkedin.com/help/recruiter/answer/79049).
 
-In caso di problemi nella pubblicazione delle posizioni su LinkedIn, vedere [Risolvere i problemi relativi alla registrazione di posizioni in LinkedIn](./attract-troubleshoot-linkedin.md).
+Se si verificano problemi nell'accesso o nella pubblicazione di posizioni in LinkedIn da Attract, vedere [Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Vedere anche
 
-[Domande frequenti su LinkedIn](./attract-linkedin-faq.md)
+[Domande frequenti sull'integrazione di Attract con LinkedIn](./attract-linkedin-faq.md)
 
-[Impostare l'integrazione con LinkedIn](./attract-admin-linkedin.md)
+[Impostazione dell'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Creare posizioni](./creating-jobs-attract.md)
+[Creare, approvare e pubblicare annunci di mansioni in Attract](./creating-jobs-attract.md)
 
 [Selezionare i candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

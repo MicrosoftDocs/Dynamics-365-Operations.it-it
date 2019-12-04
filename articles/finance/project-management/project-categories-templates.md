@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 482febc91a04766216f9887ab59d30cc9aed5096
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7b0b3721c3b0755218c834d2bf77ec976be3bdcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250509"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770314"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizzare le categorie di spesa del progetto tra Finance and Operations and Project Service Automation
 
@@ -64,7 +64,7 @@ La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Projec
 
 ### <a name="template-and-task"></a>Modello e attività
 
-Per accedere al modello disponibile, nell'interfaccia di amministrazione di Microsoft PowerApps selezionare **Progetti** e quindi, nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare modelli pubblici.
+Per accedere al modello disponibile, nell'interfaccia di amministrazione di Microsoft Power Apps selezionare **Progetti** e quindi, nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare modelli pubblici.
 
 Il seguente modello e l'attività sottostante vengono utilizzati per sincronizzare le categorie delle spese da Finance a Project Service Automation:
 

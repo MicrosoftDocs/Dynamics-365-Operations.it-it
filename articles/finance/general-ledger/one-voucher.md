@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553189"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810701"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -83,6 +83,9 @@ In seguito ad alcune conversazioni con i clienti, Microsoft ha compilato il segu
 
 I seguenti scenari possono essere soddisfatti solo utilizzando la funzionalità Un giustificativo. Se l'organizzazione ha uno di questi scenari, è necessario consentire l'immissione di più transazioni in un giustificativo impostando il parametro **Consenti più transazioni in un giustificativo** nella pagina **Parametri di contabilità generale**. Tali gap funzionali verranno corretti con altre funzionalità nelle versioni successive.
 
+> [!Note]
+> [Per i seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrare i pagamenti cliente o fornitore in formato riepilogativo in un conto bancario
 
 **Scenario** Un'organizzazione comunica un elenco di fornitori e importi alla banca e quest'ultima utilizza questo elenco per pagare i fornitori per conto dell'organizzazione. La banca registra la somma dei pagamenti come singolo prelievo sul conto bancario.
@@ -120,6 +123,9 @@ Le seguenti transazioni cespiti creano anche più transazioni in un singolo gius
 - Un cespite viene diviso.
 - Viene abilitato un parametro per calcolare l'ammortamento su dismissione e quindi viene dismesso il cespite.
 - Una data di messa in servizio di un cespite è precedente alla data di acquisizione. Di conseguenza, una rettifica dell'ammortamento viene registrata.
+
+> [!Note]
+> Quando si immettono le transazioni, assicurarsi che tutte le transazioni si applicano allo stesso cespite. Il giustificativo non viene pubblicato se include più di un cespite, anche se il campo **Nuovo giustificativo** è impostato su Un solo numero di giustificativo nella pagina **Nomi giornale di registrazione** nella contabilità generale. Se si include più di un cespite nel giustificativo, verrà visualizzato il messaggio **Può essere presente una sola transazione cespiti per giustificativo** e non sarà possibile registrare il giustificativo.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Effetti attivi ed effetti passivi
 Gli effetti attivi ed effetti passivi richiedono l'utilizzo di Un giustificativo, poiché le transazioni spostano il saldo del cliente o del fornitore da un conto CoGe Contabilità fornitori o Contabilità clienti a un altro, in base allo stato del pagamento.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178508"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772032"
 ---
 # <a name="budget-planning-overview"></a>Panoramica sulla pianificazione del budget
 
@@ -155,7 +155,8 @@ Per lo schema di esempio, si potrebbero voler creare le colonne per gli scenari 
 
 Inoltre, è possibile definire se ogni elemento di layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di stima, le colonne di previsione sono modificabili, mentre le colonne di vendita e dei contratti dell'anno fiscale sono di sola lettura.
 
-[!Note] Per impostazione predefinita viene limitato a 36 colonne a meno che non si estenda la pianificazione di budget con i passaggi descritti in [Estendere il layout di pianificazione del budget](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Per impostazione predefinita viene limitato a 36 colonne a meno che non si estenda la pianificazione di budget con i passaggi descritti in [Estendere il layout di pianificazione del budget](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Modelli
 

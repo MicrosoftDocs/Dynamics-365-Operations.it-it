@@ -1,5 +1,5 @@
 ---
-title: Programmazione del colloquio e riscontro
+title: Programmare i colloqui in Attract
 description: In questo argomento vengono fornite informazioni sulla programmazione del colloquio e sulle attività di riscontro in Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518357"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832747"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Programmazione del colloquio e riscontro
+# <a name="schedule-interviews-in-attract"></a>Programmare i colloqui in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Attività programmazione
+## <a name="scheduler-activity"></a>Attività responsabile della programmazione
 
 L'attività programmazione è facoltativa e include due componenti: Richiesta disponibilità candidato e Programmazione. Componente Disponibilità candidato consente di utilizzare la posta elettronica per richiedere la disponibilità del candidato. Il componente Programmazione consente di programmare i colloqui con il candidato e il team di assunzione.
 

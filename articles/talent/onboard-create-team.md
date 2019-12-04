@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: efaa837ef39d8e0daf561fe385f22ed7b0acd305
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552037"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814837"
 ---
 # <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Creare un team di assunzione utilizzando Dynamics 365 Talent - Onboard
 
@@ -72,6 +72,6 @@ In Microsoft Dynamics 365 Talent: Onboard è possibile creare team di assunzione
 ### <a name="see-also"></a>Vedere anche
 
 - [Provare o acquistare l'app Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novità](./whats-new.md)
-- [Note sulla versione](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ottenere supporto](./talent-support.md)
+- [Novità o modifiche in Dynamics 365 Talent](./whats-new.md)
+- [Piani di rilascio](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ottenere supporto per Microsoft Dynamics 365 Talent](./talent-support.md)

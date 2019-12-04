@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536872"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771612"
 ---
 # <a name="analytical-workspaces"></a>Aree di lavoro analitiche
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536872"
 - [Contenuto Power BI per la gestione dei costi](cost-management-content-pack.md)
 - [Contenuto Power BI per crediti e riscossioni](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Contenuto Power BI per sviluppo dipendenti](employee-development-PBI.md) 
-- [Contenuto Power BI per Informazioni finanziarie dettagliate](financial-insights.md)
-- [Contenuto Power BI per prestazioni finanziarie](financial-performance-power-bi-content-pack.md)
-- [Contenuto Power BI per la gestione dei cespiti](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Informazioni finanziarie dettagliate](financial-insights.md)
+- [Soluzione PowerBI.com per prestazioni finanziarie](financial-performance-power-bi-content-pack.md)
+- [Area di lavoro gestione cespiti](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Contenuto Learning di Power BI](learning-power-bi.md)
 - [Contenuto di Power BI per responsabile procedura](practice-manager-power-bi.md)
 - [Contenuto Power BI per prestazioni di produttività](production-performance-power-bi.md)
 - [Contenuto Power BI sull'analisi delle spese di acquisto](purchase-content-pack-for-power-bi.md) 
 - [Contenuto Power BI sulla selezione del personale](recruiting-analysis-power-bi-content-pack.md) 
 - [Contenuto Power BI per prestazioni di vendita e profitto](sales-profitability-performance-content-pack.md)
-- [Contenuto Power BI per pagamenti fornitori](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Area di lavoro pagamenti fornitore](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Contenuto Power BI per prestazioni di magazzino](warehouse-power-bi-content.md)
 - [Contenuto Power BI sulle metriche della forza lavoro](workforce-analysis-power-bi-content-pack.md)

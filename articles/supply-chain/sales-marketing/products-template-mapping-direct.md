@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251387"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813249"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizzare prodotti direttamente da Supply Chain Management con prodotti in Sales
 
@@ -43,7 +43,7 @@ La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per si
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
-Per accedere ai modelli disponibili, aprire l'[Interfaccia di amministrazione di PowerApps](https://admin.powerapps.com/dataintegration). Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici.
+Per accedere ai modelli disponibili, aprire l'[Interfaccia di amministrazione di Power Apps](https://admin.powerapps.com/dataintegration). Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici.
 
 Il modello e le attività sottostanti seguenti vengono utilizzati per sincronizzare i prodotti da Supply Chain Management in Sales.
 
@@ -116,7 +116,7 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping in In
 
 [Sincronizzare contatti direttamente da Sales con contatti o clienti in Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Sincronizzare intestazioni e righe di ordini di vendita direttamente da Supply Chain Management in Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizzare intestazioni e righe di fatture di vendita direttamente da Supply Chain Management in Sales](sales-invoice-template-mapping-direct.md)
 

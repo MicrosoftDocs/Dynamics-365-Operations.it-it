@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653535"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815159"
 ---
 # <a name="demand-forecasting-overview"></a>Cenni preliminari sulla previsione della domanda
 
@@ -76,15 +76,15 @@ Le previsione della domanda è uno strumento che consente ai clienti del settore
 
 [Impostazione della previsione della domanda](demand-forecasting-setup.md)
 
-[Generazione di una previsione di base statistica](generate-statistical-baseline-forecast.md)
+[Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)
 
-[Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
+[Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
-[Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md)
+[Autorizzare una previsione corretta](authorize-adjusted-forecast.md)
 
-[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
+[Monitorare la precisione della previsione](monitor-forecast-accuracy.md)
 
-[Eliminare gli outlier dai dati di transazione storici quando si calcola una previsione della domanda](remove-historical-outliers-calculating-demand-forecast.md)
+[Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Estendere la funzionalità di previsione della domanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571601"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811851"
 ---
 # <a name="create-an-asset"></a>Creare un cespite
 
@@ -36,15 +36,15 @@ Viene descritta la procedura per la creazione di un cespite in Gestione cespiti.
 1. Fare clic su **Gestione cespiti** > **Comune** > **cespiti** > **Tutti i cespiti** o **Cespiti attivi**.
 2. Fare clic sul pulsante **Nuovo**.
 3. Nella finestra di dialogo **Crea cespiti**, inserire i dati relativi al **Cespite** (l'ID del cespite) e il nome del cespite. Selezionare la data e l'ora del cespite nel campo **Validità**. A partire da tale data, è possibile installare il cespite in una unità funzionale nonché spostare e sostituire il cespite in una struttura di cespiti.
-4. Nel campo **Tipo cespite**, selezionare il tipo per il cespite (campo obbligatorio). Se necessario, selezionare **Produttore cespite** e **Modello cespite** per il cespite. Se un solo prodotto è stato configurato, il prodotto è selezionato automaticamente nel campo **Produttore cespite**. Le opzioni disponibili nei campi **Produttore cespite** e **Modello cespite** dipendono dalla configurazione in [Produttore e modello cespite](../setup-for-objects/product-and-model.md).
+4. Nel campo **Tipo cespite**, selezionare il tipo per il cespite (campo obbligatorio). Se necessario, selezionare **Produttore cespite** e **Modello cespite** per il cespite. Se un solo prodotto è stato configurato, il prodotto è selezionato automaticamente nel campo **Produttore cespite**. Le opzioni disponibili nei campi **Produttore cespite** e **Modello cespite** dipendono dalla configurazione in [Produttori e modelli di cespiti](../setup-for-objects/product-and-model.md).
 5. Nel gruppo **Cespite padre**, il campo **Cespite** è vuoto per impostazione predefinita. Se necessario, è possibile selezionare un cespite padre e quindi tutti i campi del gruppo **Cespite padre** verranno compilati automaticamente.
 >[!NOTE]  
->Quando si seleziona un cespite padre, due o tre schede sono disponibili: La scheda **Cespiti personali** include i cespiti correlati alle unità funzionali a cui l'addetto alla manutenzione connesso al sistema può essere assegnato. Se non sono impostate unità funzionali per un addetto alla manutenzione nel modulo [Addetti alla manutenzione](../setup-for-objects/workers-and-worker-groups.md), la scheda **Cespiti personali** non sarà visibile. La scheda **Cespiti attivi** include un elenco di tutti i cespiti con stato del ciclo di vita del cespite "Attivo". La scheda **Visualizzazione cespiti** mostra una visualizzazione struttura delle unità funzionali e dei cespiti installati nelle unità.
+>Quando si seleziona un cespite padre, due o tre schede sono disponibili: La scheda **Cespiti personali** include i cespiti correlati alle unità funzionali a cui l'addetto alla manutenzione connesso al sistema può essere assegnato. Se non sono impostate unità funzionali per un addetto alla manutenzione nel modulo [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md), la scheda **Cespiti personali** non sarà visibile. La scheda **Cespiti attivi** include un elenco di tutti i cespiti con stato del ciclo di vita del cespite "Attivo". La scheda **Visualizzazione cespiti** mostra una visualizzazione struttura delle unità funzionali e dei cespiti installati nelle unità.
 
 6. L'unità funzionale predefinito impostata verrà suggerita per il cespite nel gruppo **Cespite** > campo **Unità funzionale**. Selezionare un'altra unità funzionale, se necessario.
 
 >[!NOTE]
->Dopo aver creato un cespite, è possibile installarlo in un'altra unità funzionale, se necessario. Solo i cespiti di primo livello (cespiti senza un cespite padre corrente) possono essere installati in una unità funzionale. Ciò significa che si imposta il primo livello nonché tutti i cespiti figlio nella unità funzionale selezionata. Ulteriori informazioni sull'installazione in unità funzionali in [Unità funzionali](../functional-locations/introduction-to-functional-locations.md).
+>Dopo aver creato un cespite, è possibile installarlo in un'altra unità funzionale, se necessario. Solo i cespiti di primo livello (cespiti senza un cespite padre corrente) possono essere installati in una unità funzionale. Ciò significa che si imposta il primo livello nonché tutti i cespiti figlio nella unità funzionale selezionata. Ulteriori informazioni sull'installazione in unità funzionali in [Introduzione alle unità funzionali](../functional-locations/introduction-to-functional-locations.md).
 
 7. Fare clic su **OK**.
 8. Selezionare il cespite nell'elenco **Tutti i cespiti** e fare clic sul pulsante **Modifica** per aggiungere ulteriori informazioni sul cespite.
@@ -53,13 +53,13 @@ Viene descritta la procedura per la creazione di un cespite in Gestione cespiti.
 
 Unità funzionale a cui il cespite è correlato viene visualizzata nel campo **Unità funzionale**. Se il cespite è un cespite padre, il numero degli eventuali figli correlati al cespite appare nel campo **Figli**. Se il cespite è un cespite secondario di un cespite esistente, l'ID del cespite padre appare nel campo **Padre**.
 
-È possibile modificare le informazioni **Modello cespite** e **Produttore cespite** del cespite, utilizzate per gestire i pezzi di ricambio, pezzi di ricambio alternativi e le impostazioni predefinite del tipo di processo. Fare riferimento a [Produttore e modello cespite](../setup-for-objects/product-and-model.md) per ulteriori informazioni. È inoltre possibile aggiungere le informazioni su **Anno modello** e **Numero di serie**, se necessario.
+È possibile modificare le informazioni **Modello cespite** e **Produttore cespite** del cespite, utilizzate per gestire i pezzi di ricambio, pezzi di ricambio alternativi e le impostazioni predefinite del tipo di processo. Fare riferimento a [Produttori e modelli di cespiti](../setup-for-objects/product-and-model.md) per ulteriori informazioni. È inoltre possibile aggiungere le informazioni su **Anno modello** e **Numero di serie**, se necessario.
 
 **Stato del ciclo di vita corrente** viene utilizzato per definire se il cespite è attivo o inattivo. Quando si crea un cespite, la fase è sempre impostata sulla prima fase del gruppo di fasi del cespite. Quando si è pronti per attivare un cespite, scegliere **Aggiorna stato del cespite** e selezionare lo stato del ciclo di vita definito come "cespite attivo" e clic **OK**.
 
 **Nota:** Quando un cespite viene impostato come "inattivo", non sarà più possibile creare ordini di lavoro per il cespite. Inoltre, non è possibile programmare i processi di manutenzione preventiva per un cespite inattivo.
 
-I campi **Livello servizio** e **Criticità** sono relativi agli ordini di lavoro creati per il cespite. I campi mostrano i numeri di **Criticità** e **Livello servizio** calcolati per l'impostazione corrente per il cespite. Fare riferimento a [Livelli di servizio dei cespiti](../setup-for-objects/object-priorities.md) e [Criticità dei cespiti](../setup-for-objects/object-criticalities.md) per l'impostazione di questi valori.
+I campi **Livello servizio** e **Criticità** sono relativi agli ordini di lavoro creati per il cespite. I campi mostrano i numeri di **Criticità** e **Livello servizio** calcolati per l'impostazione corrente per il cespite. Fare riferimento a [Livelli di servizio dei cespiti](../setup-for-objects/object-priorities.md) e [Tipi di criticità dei cespiti](../setup-for-objects/object-criticalities.md) per l'impostazione di questi valori.
 
 ## <a name="asset"></a>Cespite
 

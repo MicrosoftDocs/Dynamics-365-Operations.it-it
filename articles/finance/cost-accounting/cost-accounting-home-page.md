@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178479"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771963"
 ---
 # <a name="cost-accounting-home-page"></a>Home page della contabilità industriale
 
@@ -39,17 +39,17 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 
 |      |   |
 |------|---|
-|  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Crea dimensioni](cost-elements.md)  |
-|  [Creare una gerarchia di dimensioni](dimension-hierarchy.md)  |[Crea impostazione di base](./tasks/define-cost-control-units.md)| 
-| [Definire una base di allocazione](allocation-bases.md)|[Definire criteri](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Origine dati e provider di dati](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Origine dati e provider di dati](./tasks/process-trace-source-data.md)     | 
-|[Calcolo generale](overhead-calculation.md)  | [Analisi e creazione di report](cost-control-workspace.md)   |
+|  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Dimensioni elemento di costo](cost-elements.md)  |
+|  [Gerarchia dimensioni](dimension-hierarchy.md)  |[Definire unità di controllo costi](./tasks/define-cost-control-units.md)| 
+| [Basi di allocazione](allocation-bases.md)|[Creare e assegnare i criteri di allocazione costi a un'unità di controllo costi](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Gestire un'origine dati per un movimento CoGe di contabilità industriale](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Elaborare e tenere traccia dei dati di origine](./tasks/process-trace-source-data.md)     | 
+|[Calcolo generale](overhead-calculation.md)  | [Area di lavoro controllo costi](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Video introduttivi<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Introduzione alla contabilità industriale](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Area di lavoro mobile del modulo Contabilità industriale](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Utilizzo di Excel per l'analisi della contabilità industriale](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 
