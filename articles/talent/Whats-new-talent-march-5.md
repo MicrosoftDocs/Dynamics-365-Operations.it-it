@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 561b6fad0facad86e9a7bc8f36218ab98fcec73c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026672"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773267"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novità o modifiche in Dynamics 365 Talent (5 marzo 2019)
 
@@ -71,7 +71,7 @@ Con questa modifica, quando si richiedono modifiche alle posizioni esistenti, pe
 Altre correzioni di bug minori incluse in questa versione.
 
 ### <a name="upgrade-to-common-data-service"></a>Eseguire l'aggiornamento a Common Data Service
-Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione Power Apps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Presto disponibili
 

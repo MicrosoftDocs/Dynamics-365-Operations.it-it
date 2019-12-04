@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518388"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813916"
 ---
 # <a name="design-questionnaires"></a>Progettare questionari
 
@@ -110,7 +110,8 @@ I gruppi di risposte e le risposte sono componenti che costituiscono la parte pr
 
 Un gruppo di risposte può essere utilizzato per più domande dello stesso questionario e in più questionari. 
 
-**Nota:** Se si modifica il testo della risposta in gruppi di risposte già stati utilizzati in questionari completati, i dati possono diventare difficili da valutare e i risultati del questionario possono non essere più validi. Se è necessario modificare un gruppo di risposte, considerare la possibilità di creare un nuovo gruppo di risposte anziché modificarne uno esistente. Non è possibile eliminare i gruppi di risposte collegati a una domanda o una risposta o a cui è già stata fornita una risposta.
+> [!NOTE]
+> Se si modifica il testo della risposta in gruppi di risposte già stati utilizzati in questionari completati, i dati possono diventare difficili da valutare e i risultati del questionario possono non essere più validi. Se è necessario modificare un gruppo di risposte, considerare la possibilità di creare un nuovo gruppo di risposte anziché modificarne uno esistente. Non è possibile eliminare i gruppi di risposte collegati a una domanda o una risposta o a cui è già stata fornita una risposta.
 
 ### <a name="questions"></a>Domande
 
@@ -118,12 +119,16 @@ Un questionario deve contenere domande Le domande possono essere aperte o chiuse
 
 -   Le risposte alle domande libere non vengono verificate e gli intervistati possono immettere le relative risposte.
 -   Le domande chiuse richiedono un elenco di opzioni di risposta predefinite e le domande possono essere strutturate per consentire a un intervistato di selezionare più risposte. Le domande devono essere progettate per ottenere informazioni specifiche da un intervistato e devono essere collegate a un gruppo di risposte che fornisce le opzioni di risposta per ciascuna domanda chiusa. 
-     -  **Nota:** Prima di impostare le domande chiuse, è necessario creare i gruppi di risposte e le risposte..
+
+    > [!NOTE]
+    > Prima di impostare le domande chiuse, è necessario creare i gruppi di risposte e le risposte..
 
 Le domande possono essere disposte in una gerarchia di domande condizionali, in modo che le domande secondarie dipendono dalla risposta selezionata da un intervistato per la domanda precedente. È possibile scrivere prima le domande e disporle in una gerarchia in seguito.
 
 ## <a name="setting-up-questionnaires"></a>Impostazione dei questionari
-**Nota:** Prima di impostare un questionario, è necessario impostare le domande, le risposte e i prerequisiti. 
+
+> [!NOTE]
+> Prima di impostare un questionario, è necessario impostare le domande, le risposte e i prerequisiti. 
 
 Per ciascun questionario è possibile specificare le seguenti informazioni:
 
@@ -159,7 +164,8 @@ Nella pagina **Questionari** è possibile eseguire le attività indicate di segu
 -   Eliminare e aggiungere domande.
 -   Apportare modifiche nei gruppi di risultati e nel numero progressivo. 
 
-**Attenzione:** Prestare attenzione alla modifica dei questionari che sono già stati completati. Le modifiche possono ridurre l'accuratezza delle statistiche e renderle una base di valutazione inadeguata. Considerare la possibilità di creare una nuova domanda invece di modificarne una a cui si è già risposto.
+> [!CAUTION]
+> Prestare attenzione alla modifica dei questionari che sono già stati completati. Le modifiche possono ridurre l'accuratezza delle statistiche e renderle una base di valutazione inadeguata. Considerare la possibilità di creare una nuova domanda invece di modificarne una a cui si è già risposto.
 
 In un questionario, non è possibile eliminare i seguenti tipi di domande:
 
@@ -177,7 +183,8 @@ Un gruppo di risultati viene utilizzato per calcolare i punti e classificare i r
 -   Per un'analisi più precisa dei risultati, generare statistiche per ciascun gruppo di risultati.
 -   Stampare un report contenente i risultati per ciascun gruppo di risultati nonché i punti/testi facoltativi basati sui punti ottenuti in ciascun gruppo di risultati.
 
-**Nota:** Prima di poter impostare i gruppi di risultati, occorre completare le seguenti attività:
+> [!NOTE]
+> Prima di poter impostare i gruppi di risultati, occorre completare le seguenti attività:
 
 -   Impostare domande chiuse. Per una domanda chiusa, il tipo di input nella pagina **Domande** deve essere **Casella di controllo**, **Pulsante alternativo** o **Casella combinata**.
 -   Definire i punti per le risposte nei gruppi di risposte che sono assegnati a ciascuna domanda.
@@ -187,7 +194,8 @@ Per collegare delle domande a un questionario utilizzando i gruppi di risultati,
 
 È possibile impostare più gruppi di risultati per valutare i punti ottenuti da un intervistato in ciascuna categoria. Una volta completato il questionario, è possibile visualizzare i punti che sono stati ottenuti per ciascun gruppo di risultati. 
 
-**suggerimento:** Per valutare un questionario utilizzando i punti, ma non le categorie distinte, è possibile aggiungere tutte le domande a un singolo gruppo di risultati. 
+> [!TIP]
+> Per valutare un questionario utilizzando i punti, ma non le categorie distinte, è possibile aggiungere tutte le domande a un singolo gruppo di risultati. 
 
 Per ciascun gruppo di risultati, è possibile inoltre impostare uno o più messaggi basati su punti che gli intervistati visualizzano dopo il completamento di un questionario. Il testo visualizzato può variare in base al punteggio ottenuto da un intervistato in un gruppo di risultati. Per utilizzare i messaggi basati su punti, è necessario definire intervalli di punti e immettere una descrizione per ciascun intervallo. Quando un intervistato raggiunge un punteggio in un determinato intervallo, il testo relativo a tale intervallo verrà inserito nel report dei risultati. 
 
@@ -213,13 +221,15 @@ Nella seguente tabella vengono riportati i messaggi in base ai punti definiti pe
 
 È possibile impostare intervalli di punti e testi per ciascun gruppo di risultati nel questionario. I testi che corrispondono al punteggio di ogni intervistato sono visualizzati per ciascun gruppo di risultati. 
 
-**Nota:** È possibile modificare gli intervalli e i testi. Tuttavia, se il questionario è stato completato, eventuali modifiche potrebbero determinare delle differenze tra i report dei risultati nuovi e precedenti.
+> [!NOTE]
+> È possibile modificare gli intervalli e i testi. Tuttavia, se il questionario è stato completato, eventuali modifiche potrebbero determinare delle differenze tra i report dei risultati nuovi e precedenti.
 
 ### <a name="conditional-question-hierarchies"></a>Gerarchie di domande condizionali
 
 Le gerarchie di domande condizionali sono facoltative quando si imposta un questionario. 
 
-**Nota:** Prima che sia possibile impostare una gerarchia di domande condizionali, è necessario che le domande a cui sono assegnati i gruppi di risposte siano collegate al questionario. 
+> [!NOTE]
+> Prima che sia possibile impostare una gerarchia di domande condizionali, è necessario che le domande a cui sono assegnati i gruppi di risposte siano collegate al questionario. 
 
 Per utilizzare le domande condizionali per creare una gerarchia di domande in un questionario, è possibile fare in modo che la sequenza in cui sono presentate le domande dipenda dalla risposta selezionata da un intervistato per ciascuna domanda. Basando la sequenza delle domande sulle risposte dell'intervistato, è possibile modificare il questionario quando l'intervistato lo completa.
 
@@ -232,9 +242,9 @@ In alternativa, è possibile impostare un questionario in modo che se un intervi
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Utilizzo di questionari](questionnaires.md)
+[Questionari](questionnaires.md)
 
-[Distribuzione e completamento di questionari](distribute-questionnaires.md)
+[Distribuire e programmare questionari](distribute-questionnaires.md)
 
-[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+[Visualizzare e valutare i risultati dei questionari](evaluate-questionnaire-results.md)
 

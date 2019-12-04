@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190950"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811628"
 ---
 # <a name="new-task-guides-february-2016"></a>Nuove guide attività (febbraio 2016)
 
@@ -32,7 +32,7 @@ In questo argomento sono elencate le guide attività rilasciate nelle librerie d
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX
 
-La libreria unificata APQC (febbraio 2016) contiene le guide attività da utilizzare per ottenere assistenza per la versione di Dynamics AX 7.0.0. Se sono necessarie versioni localizzate di queste guide attività, sono disponibili nella libreria unificata APQC (maggio 2016) per Microsoft Dynamics AX. Per ulteriori informazioni su come connettere la Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
+La libreria unificata APQC (febbraio 2016) contiene le guide attività da utilizzare per ottenere assistenza per la versione di Dynamics AX 7.0.0. Se sono necessarie versioni localizzate di queste guide attività, sono disponibili nella libreria unificata APQC (maggio 2016) per Microsoft Dynamics AX. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Guida](help-overview.md).
 
 ### <a name="accounts-payable"></a>Contabilità fornitori
 

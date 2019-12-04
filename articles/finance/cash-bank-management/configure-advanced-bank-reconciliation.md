@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178499"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772630"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processo di impostazione per la riconciliazione bancaria avanzata
 
@@ -31,7 +31,7 @@ ms.locfileid: "2178499"
 
 La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione.  
 
-È necessario impostare una serie di componenti prima di utilizzare la funzionalità di riconciliazione bancaria avanzata. Per ulteriori informazioni sull'impostazione dell'importazione dei rendiconti bancari, vedere [Impostare il processo di importazione dei rendiconti bancari](set-up-advanced-bank-reconciliation-import-process.md).  Di seguito sono descritti i requisiti per l'impostazione del processo di riconciliazione.
+È necessario impostare una serie di componenti prima di utilizzare la funzionalità di riconciliazione bancaria avanzata. Per ulteriori informazioni sull'impostazione dell'importazione dei rendiconti bancari, vedere [Impostare il processo di importazione della riconciliazione estratti conto avanzata](set-up-advanced-bank-reconciliation-import-process.md).  Di seguito sono descritti i requisiti per l'impostazione del processo di riconciliazione.
 
 ## <a name="transaction-codes"></a>Codici transazioni
 I codici di transazione possono essere utilizzati come parte delle regole di abbinamento di riconciliazione bancaria. I codici di transazione consentono di abbinare solo gli stessi tipi di transazioni tra Finance e il rendiconto bancario. Per effettuare questo tipo di abbinamento, è innanzitutto necessario definire i tipi di transazione utilizzati per le transazioni bancarie da Finance, quindi mappare tali tipi ai codici di transazione di rendiconto utilizzati dalla banca. I tipi di transazione per le transazioni bancarie sono definiti nella pagina **Tipo di transazione bancaria**. In questa pagina è anche possibile definire il conto principale da utilizzare per le registrazioni associate a tale tipo di transazione. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571233"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812193"
 ---
 # <a name="maintenance-attribute-types"></a>Tipi di attributo di manutenzione
 
@@ -34,9 +34,9 @@ ms.locfileid: "2571233"
 Nell'argomento viene descritto come creare tipi di attributo in Gestione cespiti. Gli attributi consentono di descrivere le proprietà dei vari elementi. È possibile impostare attributi per i seguenti elementi:
 
 - [Tipi di unità funzionali](../setup-for-functional-locations/functional-location-types.md)
-- [Unità funzionali](../functional-locations/create-functional-locations.md)
+- [Creare unità funzionali](../functional-locations/create-functional-locations.md)
 - [Tipi di cespite](../setup-for-objects/object-types.md)
-- Risorse
+- Cespiti
 
 Gli attributi impostabili variano in base all'elemento. Ad esempio, per una unità funzionale, è possibile impostare gli attributi per la configurazione e le dimensioni fisiche della ubicazione. Per un tipo di cespite o un cespite, è possibile impostare gli attributi per il volume del motore, il consumo di energia e la massima capacità di carico in varie condizioni.
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250716"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815136"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Implementare correzioni manuali nella previsione di base
 
@@ -66,7 +66,7 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 -   I nuovi valori di previsione della domanda e gli importi manualmente corretti.
 -   L'intervallo di fiducia per i valori futuri.
 -   Il modello previsionale utilizzato per generare la previsione. Se si visualizzano i dati aggregati, è possibile ottenere l'elenco di tutti i metodi utilizzati per tutte le serie cronologiche aggregate.
--   La precisione del modello interno (Errore medio assoluto percentuale). Per ulteriori informazioni sulla precisione di previsione, vedere [Monitoraggio della precisione previsione](monitor-forecast-accuracy.md).
+-   La precisione del modello interno (Errore medio assoluto percentuale). Per ulteriori informazioni sulla precisione di previsione, vedere [Monitorare la precisione della previsione](monitor-forecast-accuracy.md).
 
 **Note:**
 
@@ -78,9 +78,9 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
+[Monitorare la precisione della previsione](monitor-forecast-accuracy.md)
 
-[Generazione di una previsione di base statistica](generate-statistical-baseline-forecast.md)
+[Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)
 
 
 

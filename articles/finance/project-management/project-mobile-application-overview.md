@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250440"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773624"
 ---
 # <a name="project-mobile-applications-overview"></a>Panoramica delle applicazioni per dispositivi mobili Project
 
@@ -45,4 +45,7 @@ Fogli presenze personali (ottimizzato per dispositivi mobili) e Fogli presenze p
 
 ## <a name="for-more-information"></a>Ulteriori informazioni
 
-Per ulteriori informazioni, vedere [Applicazione per dispositivi mobili Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Immissione ora progetto]( project-time-entry-mobile-workspace.md), [Fogli presenze di progetto in un dispositivo mobile](Mobile-timesheets.md) e [Implementare campi personalizzati per l'app per dispositivi mobili Project timesheet](custom-fields-mobile.md).
+- [App per dispositivi mobili Project timesheet](project-timesheet.md)
+- [Immissione ora progetto]( project-time-entry-mobile-workspace.md)
+- [Fogli presenze di progetto in un dispositivo mobile](Mobile-timesheets.md)
+- [Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet in iOS e Android](custom-fields-mobile.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569963"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812170"
 ---
 # <a name="asset-manufacturers-and-models"></a>Produttori e modelli di cespiti
 
@@ -45,7 +45,7 @@ In questo argomento viene descritto come impostare i produttori di cespiti e i r
 8. Nel campo **Tipo di cespite**, selezionare il tipo di cespite a cui il modello del produttore deve essere correlato.
 
     > [!NOTE]
-    > È inoltre possibile impostare le relazioni per i tipi, i produttori e modelli di cespite nella ricerca **Tipi di cespite**. Per ulteriori informazioni, vedere [Creare un tipo di cespite](../setup-for-objects/object-types.md).
+    > È inoltre possibile impostare le relazioni per i tipi, i produttori e modelli di cespite nella ricerca **Tipi di cespite**. Per ulteriori informazioni, vedere [Tipi di cespite](../setup-for-objects/object-types.md).
 
     Nella Scheda dettaglio **Dettagli**, il campo **Modelli** mostra il numero di modelli di cespite impostati per il produttore di cespiti selezionato. Nel campo **Cespiti** viene visualizzato il numero di cespiti che utilizzano il produttore selezionato.
     

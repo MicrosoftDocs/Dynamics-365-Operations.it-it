@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e74edfc5cf17499c080e825cf4b1fd39b6063e35
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7929aeed9a1f1e334d8c75ef941b601d8c6b664
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182763"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769926"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di vendite e redditività
 
@@ -77,7 +77,7 @@ Il contenuto di Power BI **Prestazioni di vendita e redditività** include un re
 \* Ricavi nell'anno corrente e nell'anno passato e crescita per categoria di vendita.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post del blog [Integrazione di  Power BI con l'Archivio entità in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 

@@ -3,7 +3,7 @@ title: Elaborazione differita di lavoro di magazzino
 description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026927"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815790"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026927"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio per il lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
-
 
 La funzionalità di elaborazione differita consente agli addetti al magazzino di continuare a fare altro lavoro mentre l'operazione di stoccaggio elaborata in background. L'Elaborazione differita è utile quando più righe di lavoro devono essere elaborate e il lavoratore può lasciare che il lavoro sia elaborato in modo asincrono. È inoltre utile quando il server può avere aumenti ad hoc o non pianificati nel tempo di elaborazione e il tempo di elaborazione aumentato può influire sulla produttività dell'utente.
 
@@ -50,6 +49,8 @@ I criteri sono configurati nella pagina **Criteri di elaborazione lavoro**. Nell
 | Metodo di elaborazione lavoro          | Metodo usato per elaborare la riga di lavoro. Se il metodo è impostato su **Immediato**, il comportamento è simile al comportamento quando nessun criterio di elaborazione del lavoro viene utilizzato per elaborare la riga. Se il metodo è impostato su **Differito**, l'elaborazione differita che utilizza il framework batch viene utilizzata. |
 | Soglia di elaborazione differita   | Il valore **0** (zero) indica che non esiste una soglia. In questo caso, l'elaborazione differita viene utilizzata se possibile. Se il calcolo specifico è inferiore alla soglia, il metodo immediato viene utilizzato. In caso contrario, verrà usato il metodo Differito se possibile. Per lavoro correlato a vendite e trasferimenti, la soglia viene calcolata come il numero di righe di carico di origine associate che vengono elaborate per il lavoro. Per il lavoro di rifornimento, la soglia viene calcolata come il numero di righe di lavoro rifornite dal lavoro. Impostando una soglia, ad esempio, **5** per le vendite, i lavori più piccoli con meno di cinque righe di carico di origine iniziali non useranno l'elaborazione differita, ma i lavori maggiori sì. La soglia ha effetto solo se il metodo di elaborazione di lavoro è **Differito**. |
 | Gruppo batch di elaborazione differita |Gruppo batch utilizzato per elaborazione. |
+
+Per l'elaborazione differita di stoccaggio, sono supportati i seguenti tipi di ordini di lavoro: ordine cliente, invio dell'ordine di trasferimento e rifornimento.
 
 ## <a name="assigning-the-work-creation-policy"></a>Assegnare i criteri di creazione del lavoro
 
@@ -99,7 +100,7 @@ Esistono vari scenari in cui l'elaborazione differita dello stoccaggio non viene
 - Il completamento manuale di lavoro verrà utilizzato.
 - Il lavoro viene completato utilizzando il completamento automatico.
 - I modelli di audit vengono utilizzati.
-- Il lavoro utilizza contenitori.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Monitoraggio delle attività di elaborazione differita dall'area di lavoro Monitoraggio lavoro in uscita
 

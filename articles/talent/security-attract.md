@@ -1,5 +1,5 @@
 ---
-title: Gestione della sicurezza e dei ruoli in Attract
+title: Impostare le autorizzazioni degli utenti in Attract
 description: In questo argomento vengono fornite informazioni sulla sicurezza dei ruoli in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551428"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832700"
 ---
-# <a name="security-and-role-management-in-attract"></a>Sicurezza e gestione dei ruoli in Attract
+# <a name="set-user-permissions-in-attract"></a>Impostare le autorizzazioni degli utenti in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract utilizza la sicurezza basata sui ruoli. Ovvero l'accesso non viene concesso ai singoli utenti, ma ai ruoli di sicurezza assegnati agli utenti. Un utente al quale viene assegnato un ruolo di sicurezza ha accesso all'insieme dei privilegi associato a tale ruolo.
 
@@ -52,7 +52,7 @@ Nelle seguenti sezioni viene fornita una descrizione di alto livello di ciascun 
 
 ## <a name="administrator"></a>Amministratore
 
-Gli utenti con il ruolo di amministratore possono accedere a tutti i dati in Attract e cambiarli. Gli amministratori possono creare, leggere, aggiornare ed eliminare dati. Possono anche accedere all'Interfaccia di amministrazione, dove possono configurare Attract e impostare le informazioni utente. Si consiglia di assegnare il ruolo di amministratore ad almeno un utente. Per impostazione predefinita, l'amministratore di ambiente in Microsoft PowerApps è impostato come amministratore in Attract. Se l'utente effettua la registrazione alla versione di valutazione di Attract, il ruolo di amministratore gli viene assegnato automaticamente. Attualmente, per creare posizioni lavorative, gli utenti con il ruolo di amministratore devono inoltre disporre del ruolo di selezionatore o del ruolo di responsabile assunzioni.
+Gli utenti con il ruolo di amministratore possono accedere a tutti i dati in Attract e cambiarli. Gli amministratori possono creare, leggere, aggiornare ed eliminare dati. Possono anche accedere all'Interfaccia di amministrazione, dove possono configurare Attract e impostare le informazioni utente. Si consiglia di assegnare il ruolo di amministratore ad almeno un utente. Per impostazione predefinita, l'amministratore di ambiente in Microsoft Power Apps è impostato come amministratore in Attract. Se l'utente effettua la registrazione alla versione di valutazione di Attract, il ruolo di amministratore gli viene assegnato automaticamente. Attualmente, per creare posizioni lavorative, gli utenti con il ruolo di amministratore devono inoltre disporre del ruolo di selezionatore o del ruolo di responsabile assunzioni.
 
 ## <a name="hiring-manager"></a>Responsabile assunzioni
 

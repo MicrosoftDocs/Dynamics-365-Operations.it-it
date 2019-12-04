@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026075"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773695"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novità o modifiche in Dynamics 365 Talent (2 aprile 2019)
 
@@ -63,7 +63,7 @@ Per ulteriori informazioni sull'aggiornamento 25 della piattaforma per Finance a
 In molte organizzazioni, i responsabili delle retribuzioni e dei benefit potrebbero avere accesso solo a determinati record di retribuzione. Questi potrebbero includere record per dirigenti o dipendenti regionali. Questa modifica consente alle Risorse umane di gestire i piani di retribuzione per differenti gruppi di dipendenti nell'organizzazione. È possibile assegnare ruoli di sicurezza a piani fissi e variabili. Questi ruoli di sicurezza determinano l'accesso a piani e ai dati dei dipendenti correlati, quali record di stipendi e premi, di modo che solo quei ruoli possano elaborare la retribuzione per i gruppi di dipendenti.
 
 ### <a name="upgrade-to-common-data-service"></a>Aggiornamento a Common Data Service
-Le scadenze per l'aggiornamento a Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Le scadenze per l'aggiornamento a Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione Microsoft Power Apps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>In anteprima
 

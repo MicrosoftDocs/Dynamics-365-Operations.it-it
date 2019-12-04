@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025276"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811782"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layout delle schermate per il POS
 
@@ -171,7 +171,7 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 
     - **Azione** - Nell'elenco delle operazioni POS applicabili, selezionare l'operazione che viene richiamata quando si fa clic sul pulsante nel POS.
 
-        Per l'elenco delle operazioni POS supportate, vedere [Operazioni POS, online e offline](pos-operations.md).
+        Per l'elenco delle operazioni POS supportate, vedere [Operazioni POS online e offline](pos-operations.md).
 
     - **Parametri di azione** - Alcune operazioni POS utilizzano parametri aggiuntivi quando vengono richiamate. Ad esempio, per l'operazione Aggiungi prodotto, gli utenti possono specificare il prodotto da aggiungere.
     - **Testo pulsante** – Specificare il testo che appare sul pulsante nel POS.
@@ -193,4 +193,4 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Installare lo strumento di progettazione layout Retail POS](install-pos-layout-designer.md)
+[Installare lo strumento di progettazione layout di POS di Retail](install-pos-layout-designer.md)

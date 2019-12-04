@@ -1,5 +1,5 @@
 ---
-title: Tenere traccia delle origini delle domande di lavoro e dei profili dei candidati
+title: Tenere traccia delle origini dei candidati in Attract
 description: In questo argomento vengono fornite informazioni sulla tracciabilità delle origini delle domande di lavoro e dei profili dei candidati.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551889"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832664"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Tenere traccia delle origini delle domande di lavoro e dei profili dei candidati
+# <a name="track-candidate-sources-in-attract"></a>Tenere traccia delle origini dei candidati in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > La funzionalità indicata in questo argomento è disponibile come parte di un rilascio di verifica di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per utilizzare questa funzionalità, chiedere a un amministratore di abilitarla utilizzando **Impostazioni di amministrazione** in Attract. Una versione futura fornirà report di tracciabilità delle origini. Per ulteriori informazioni, vedere [Accesso alle funzionalità di anteprima in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

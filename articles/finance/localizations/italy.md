@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e18fe96f6d3affef0b5be07602263251f277ddee
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 63992635445134ee0f93d383b5a5c8845cee3e0d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183709"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772859"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -29,15 +29,15 @@ ms.locfileid: "2183709"
 
 In questo argomento vengono forniti i collegamenti alle risorse della documentazione per l'Italia. 
 
-- [Dettagli della dichiarazione IVA](emea-ita-vat-statements-details.md)
+- [Dettagli delle dichiarazioni IVA](emea-ita-vat-statements-details.md)
 - [Report black list](emea-ita-black-list-report.md)
-- [Data competenza](emea-ita-competence-date.md)
-- [Ammortamento dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
-- [Modello 770](emea-ita-modello770.md)
+- [Data di competenza per le transazioni](emea-ita-competence-date.md)
+- [Ammortamento manuale dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
+- [Report Modello 770](emea-ita-modello770.md)
 - [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 - [Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto](emea-ita-packing-slip.md)
 - [Libri IVA](emea-ita-fiscal-books.md)
-- [Gestione e reporting IVA per data di emissione](emea-ita-vat-management.md)
+- [Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)](emea-ita-vat-management.md)
 - [Pagamento diviso per le fatture emesse all'amministrazione pubblica](emea-ita-split-payment-invoices-issued-public-administration.md)
 - [Fatturazione note di accredito (Italia)](emea-ita-credit-invoicing.md)
 - [Ritenuta d'acconto](emea-ita-withholding-tax.md)

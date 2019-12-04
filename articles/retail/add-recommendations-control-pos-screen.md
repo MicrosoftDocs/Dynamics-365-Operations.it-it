@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278131"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811218"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Aggiungere un controllo di suggerimenti alla schermata della transazione su dispositivi POS
 
@@ -98,6 +98,6 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Suggerimenti sul prodotto nel dispositivo POS](product.md)
+[Suggerimenti sul prodotto su POS](product.md)
 
-[Panoramica dei suggerimenti sul prodotto](../commerce/product-recommendations.md)
+[Panoramica suggerimenti sul prodotto](../commerce/product-recommendations.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537834"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811674"
 ---
 # <a name="help-system"></a>Guida
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni, fare riferimento alla [guida del collaboratore](http
 
 Una guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o di un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro Guida. Quando si fa clic per la prima volta su una guida attività, nel riquadro Guida vengono visualizzate le istruzioni dettagliate per l'attività. Sono disponibili guide attività localizzate.
 
-Microsoft ha fornito raccolte di guide attività per le versioni fino a dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro della Guida](help-overview.md#accessing-task-guides-from-the-help-pane) descrive come trovare le guide attività appropriate per il prodotto.
+Microsoft ha fornito raccolte di guide attività per le versioni fino a dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Guida](help-overview.md#accessing-task-guides-from-the-help-pane) descrive come trovare le guide attività appropriate per il prodotto.
 
 ![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Per avviare l'esperienza guidata e interattiva, fare clic su **Avvia guida attiv
 > [!IMPORTANT]
 > I dati immessi quando si riproduce una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
 
-È possibile utilizzare la Registrazione attività per creareguide attività personalizzate. Per ulteriori informazioni, vedere [Creare documentazione o formazione utilizzando le registrazioni attività](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+È possibile utilizzare la Registrazione attività per creareguide attività personalizzate. Per ulteriori informazioni, vedere [Creare la documentazione o la formazione con Registrazione attività](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Guida nel prodotto
 
@@ -144,13 +144,12 @@ Le guide attività tradotte vengono rilasciate nelle librerie con "tutte le ling
 
 È possibile creare una Guida per gli utenti creando guide attività personalizzate oppure collegare il proprio sito Web al riquadro della Guida. Per informazioni dettagliate, vedere:
 
-- [Come creare una registrazione attività da utilizzare per documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+- [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md).
 - [Creare la Guida personalizzata (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md)
-- [Creare documentazione o formazione utilizzando le registrazioni di attività](../../dev-itpro/user-interface/task-recorder.md)
+- [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md)
 
 Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con un asterisco (\*) accanto al nome richiedono che venga eseguito l'accesso mediante un account associato a un piano di servizio.
 

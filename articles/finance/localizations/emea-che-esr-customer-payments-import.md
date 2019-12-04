@@ -17,12 +17,12 @@ ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d9c13042738f62ba4d806d2dd4d8af7a8a2531dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dfcfb13391bccde43a5bd50965967fde1a8a432b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183721"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773409"
 ---
 # <a name="esr-customer-payments-import"></a>Importazione pagamenti cliente PVR
 
@@ -40,7 +40,7 @@ I riferimenti di pagamento devono essere stampati nella distinta di pagamento do
 3.  La sequenza numerica della fattura di vendita deve essere nel formato corretto (non deve includere simboli diversi dalle cifre e non deve contenere zeri iniziali).
 4.  È necessario specificare il formato **Orange** per il conto cliente nel campo **Su fattura cliente** nella scheda **Fattura e consegna**.
 
-Per ulteriori informazioni, vedere [Report distinta di pagamento (Giro)](emea-eur-payment-slip-report-giro.md).
+Per ulteriori informazioni, vedere [Report della distinta di pagamento per l'Europa](emea-eur-payment-slip-report-giro.md).
 
 ## <a name="import-a-payment-file"></a>Importare un file di pagamento
 1. Passare alla pagina **Giornale di registrazione pagamenti**
@@ -48,7 +48,7 @@ Per ulteriori informazioni, vedere [Report distinta di pagamento (Giro)](emea-eu
 3. Fare clic su **Funzioni** &gt; **Importa pagamenti**.
 4. Nella finestra di dialogo selezionare il metodo di pagamento e quindi selezionare il percorso del file da importare. 
    > [!NOTE]
-   >  Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR. Per ulteriori informazioni, vedere [Formati di file per metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).
+   >  Prima di completare questo passaggio, è necessario aver già importato le configurazioni **PVR (CH)** da Lifecycle Services (LCS) e aver impostato il metodo di pagamento PVR. Per ulteriori informazioni, vedere [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md).
 
 Dopo aver importato il file di pagamento, le righe del giornale di registrazione pagamenti vengono create e contrassegnate per la liquidazione con le fatture cliente in base al riferimento di pagamento. Se nel file sono presenti delle spese specificate per il conto bancario, ad esempio le transazioni tra il conto principale e il conto di addebito commissioni, queste spese verranno aggiunte al giornale di registrazione.
 

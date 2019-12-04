@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536826"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771589"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenuti Power BI di analisi contabilità industriale
 
@@ -40,7 +40,7 @@ Il contenuto **Analisi della contabilità industriale** consente ai contabili di
 
 Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di contabilità industriale](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI **Analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza del contenuto della contabilità industriale per Power BI](setup-security-cost-accounting-content-pack.md).
+Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI **Analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 È possibile trovare il contenuto Power BI **Analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ Il contenuto include un set di pagine di report. Ciascuna pagina è costituita d
 |                                  | Costo effettivo per nome membro dimensione oggetto di costo e nome membro dimensione elemento di costo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi della contabilità industriale**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Analisi della contabilità industriale**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 

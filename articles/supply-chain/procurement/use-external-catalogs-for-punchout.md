@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569824"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813341"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usare cataloghi esterni per PunchOut eProcurement
 
@@ -41,7 +41,7 @@ Utilizzare l'azione di riga **Cataloghi esterni** per aprire una pagina che incl
 
 In base alle autorizzazioni, modificare il richiedente, la persona giuridica acquirente e l'unità operativa ricevente. Una modifica a tali valori può modificare l'elenco dei cataloghi esterni disponibili a un richiedente. I cataloghi esterni che sono disponibili variano in base ai criteri di acquisto attivi correnti per la persona giuridica acquirente o l'unità operativa ricevente. Questi criteri possono consentire o impedire l'accesso a categorie di approvvigionamento specifiche. Di conseguenza, l'elenco dei cataloghi esterni che sono mappati a queste categorie di approvvigionamento può rimanerne influenzato.
 
-Per ulteriori informazioni sui criteri, vedere [Criteri di acquisto](../procurement/purchase-policies.md).
+Per ulteriori informazioni sui criteri, vedere [Panoramica dei criteri di acquisto](../procurement/purchase-policies.md).
 
 - Per individuare cataloghi esterni per categorie di approvvigionamento specifiche, immettere il testo nel campo di ricerca catalogo.
 - Per aggiungere i prodotti di un catalogo esterno disponibile nel sito Web del fornitore, fare clic sul catalogo esterno. Aggiungere quindi i prodotti al carrello ed effettuare il check out. Le righe del carrello verranno trasferite in Microsoft Dynamics 365.

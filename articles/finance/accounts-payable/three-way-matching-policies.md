@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189386"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772745"
 ---
 # <a name="three-way-matching-policies"></a>Criteri di abbinamento a tre elementi di verifica
 
@@ -141,7 +141,7 @@ Notare gli articoli seguenti:
 Se è necessaria l'approvazione per la registrazione delle fatture in presenza di discrepanze di abbinamento fatture, la casella di controllo Approva registrazione con discrepanze di abbinamento nella pagina Dettagli abbinamento fatture deve essere selezionata prima che la fattura possa essere registrata con errori di abbinamento prezzi ed errori di abbinamento quantità. Se l'approvazione non è richiesta, l'elaborazione della fattura può continuare se non sono presenti altri errori di registrazione.
 
 
-Per ulteriori informazioni, vedere [Abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md).
+Per ulteriori informazioni, vedere [Panoramica dell'abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md).
 
 
 

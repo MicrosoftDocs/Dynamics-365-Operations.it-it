@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178592"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811509"
 ---
 # <a name="view-and-export-field-descriptions"></a>Visualizzare ed esportare le descrizioni campi
 
@@ -35,7 +35,7 @@ Alcuni dei campi più complessi hanno le descrizioni. Queste descrizioni vengono
 
 Non tutte le pagine presentano descrizioni dei campi. Sono riportate solo le descrizioni dei campi più complessi, non di quelli il cui uso è ovvio. Pertanto, le descrizioni dei campi non sono presenti in alcune pagine, alcune pagine hanno alcune descrizioni e alcune delle pagine più complesse, ad esempio molte delle pagine di parametri, includono molte descrizioni.
 
-Se si ha accesso all'ambiente di sviluppo è possibile aggiungere nuove descrizioni dei campi e personalizzare quelle esistenti. Ad esempio, è possibile aggiungere informazioni specifiche della società per la descrizione di un campo. Per ulteriori informazioni, vedere [Personalizzare la Guida relativa ai campi](../../dev-itpro/user-interface/customize-field-help.md).
+Se si ha accesso all'ambiente di sviluppo è possibile aggiungere nuove descrizioni dei campi e personalizzare quelle esistenti. Ad esempio, è possibile aggiungere informazioni specifiche della società per la descrizione di un campo. Per ulteriori informazioni, vedere [Personalizzare le descrizioni dei campi](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Vedere le descrizioni dei campi nell'interfaccia utente.
 
@@ -107,4 +107,4 @@ Per informazioni sui vari modi per trovare le pagine, vedere la sezione "Ricerca
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Personalizzare la Guida relativa ai campi](../../dev-itpro/user-interface/customize-field-help.md)
+[Personalizzare le descrizioni dei campi](../../dev-itpro/user-interface/customize-field-help.md)

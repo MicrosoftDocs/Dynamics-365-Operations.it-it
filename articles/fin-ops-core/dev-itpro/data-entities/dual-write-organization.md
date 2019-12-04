@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572451"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769662"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Gerarchia organizzativa in Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Poiché Dynamics 365 Finance è un sistema finanziario, *organizzazione* è un concetto base e l'impostazione del sistema inizia con la configurazione di una gerarchia organizzativa. I dati finanziari aziendali possono quindi essere tracciati a livello di organizzazione e anche a qualsiasi livello della gerarchia organizzativa.
 
@@ -46,85 +44,35 @@ Un ecosistema aziendale composto dalle app Finance and Operations e Common Data 
 
 Le mappe delle entità della gerarchia organizzativa sono disponibili per la sincronizzazione unidirezionale dei dati dalle app Finance and Operations a Common Data Service.
 
+## <a name="templates"></a>Modelli
+
+Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe di entità viene creata per sincronizzare i prodotti e le informazioni correlate.
+
+Finance and Operations | Altre app Dynamics 365 | Descrizione
+-----------------------|--------------------------------|---
+Scopi gerarchia organizzativa | msdyn_internalorganizationhierarchypurposes | Questo modello consente la sincronizzazione unidirezionale di entità scopo gerarchia organizzativa.
+Tipo di gerarchia organizzativa | msdyn_internalorganizationhierarchytypes | Questo modello consente la sincronizzazione unidirezionale di entità tipo di gerarchia organizzativa.
+Gerarchia organizzativa - pubblicata | msdyn_internalorganizationhierarchies | Questo modello consente la sincronizzazione unidirezionale di entità gerarchia organizzativa pubblicata.
+Unità operativa | msdyn_internalorganizations | 
+Persone giuridiche | msdyn_internalorganizations | 
+Persone giuridiche | cdm_companies | Fornisce la sincronizzazione bidirezionale delle informazioni della persona giuridica (società).
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Scopo gerarchia organizzativa interna
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Questo modello consente la sincronizzazione unidirezionale dell'entità Scopo di gerarchia organizzativa da Finance and Operations a altre app Dynamics 365.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Tipo di gerarchia organizzativa interna
-
-Questo modello consente la sincronizzazione unidirezionale dell'entità Tipo di gerarchia organizzativa da Finance and Operations a altre app Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-NOME | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Gerarchia organizzativa interna
-
-Questo modello consente la sincronizzazione unidirezionale dell'entità Gerarchia organizzativa pubblicata da Finance and Operations a altre app Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Organizzazione interna
 
 Le informazioni sull'organizzazione interna in Common Data Service vengono recuperate da due entità, **unità operativa** e **persone giuridiche**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Unità operativa
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-NOME | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Persona giuridica
-
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-NOME | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-nessuno | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Società
-
-Fornisce la sincronizzazione bidirezionale delle informazioni sulla persona giuridica (società) tra Finance and Operations e altre app Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Campo di origine | Tipo di mappa | Campo di destinazione
----|---|---
-NOME | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

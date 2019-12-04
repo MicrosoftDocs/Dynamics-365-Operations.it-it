@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865330"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813548"
 ---
 # <a name="product-lifecycle-state-overview"></a>Panoramica dello stato del ciclo di vita del prodotto
 
@@ -107,9 +107,9 @@ Usare i seguenti criteri per selezionare e aggiornare i prodotti o le varianti d
 
 ## <a name="related-topics"></a>Argomenti correlati
 
--  [Creare uno stato del ciclo di vita di prodotto (guida attività)](tasks/new-product-lifecycle-state.md)
--  [Creare uno stato del ciclo di vita di prodotto predfinito (guida attività)](tasks/default-product-lifecycle-state.md)
--  [Assegnare uno stato del ciclo di vita di prodotto a una rappresentazione generale prodotto rilasciato (guida attività)](tasks/product-lifecycle-state-released-product-master.md)
--  [Assegnare uno stato del ciclo di vita di prodotto a un prodotto rilasciato (guida attività)](tasks/product-lifecycle-state-released-product.md)
--  [Trovare i prodotti o le varianti prodotto obsoleti e associare uno stato del ciclo di vita (guida attività)](tasks/obsolete-product-variants.md)
--  [Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale (guida attività)](tasks/exclude-products-master-planning.md)
+-  [Creare un nuovo stato del ciclo di vita del prodotto](tasks/new-product-lifecycle-state.md)
+-  [Creare uno stato predefinito del ciclo di vita del prodotto](tasks/default-product-lifecycle-state.md)
+-  [Assegnare uno stato del ciclo di vita di prodotto a una rappresentazione generale prodotto rilasciata](tasks/product-lifecycle-state-released-product-master.md)
+-  [Assegnare uno stato del ciclo di vita di prodotto a un prodotto rilasciato](tasks/product-lifecycle-state-released-product.md)
+-  [Trovare i prodotti o le varianti prodotto obsoleti e associare uno stato del ciclo di vita](tasks/obsolete-product-variants.md)
+-  [Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale](tasks/exclude-products-master-planning.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547103"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813595"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
@@ -37,7 +37,7 @@ I calcoli possono essere utilizzati per le operazioni aritmetiche o logiche e so
 ## <a name="what-is-a-calculation"></a>Cos'è un calcolo?
 Il calcolo è un elemento che è possibile utilizzare in un modello di configurazione prodotto. I calcoli completano i vincoli consentendo di calcolare i valori utilizzando numeri decimali quando si configura un prodotto. Inoltre, i calcoli dispongono di un set di operatori più ampio rispetto ai vincoli.  
 
-Analogamente a un vincolo, un calcolo è associato a un componente specifico nel modello di configurazione prodotto e non può essere riutilizzato da un altro componente o essere condiviso con un altro componente. Una differenza importante tra i calcoli e i vincoli è che i calcoli sono imperativi (unidirezionali), mentre i vincoli sono dichiarativi (bidirezionali). Per ulteriori informazioni sui vincoli, vedere [Vincoli di espressione e vincoli di tabella](expression-constraints-table-constraints-product-configuration-models.md).  
+Analogamente a un vincolo, un calcolo è associato a un componente specifico nel modello di configurazione prodotto e non può essere riutilizzato da un altro componente o essere condiviso con un altro componente. Una differenza importante tra i calcoli e i vincoli è che i calcoli sono imperativi (unidirezionali), mentre i vincoli sono dichiarativi (bidirezionali). Per ulteriori informazioni sui vincoli, vedere [Vincoli di espressione e vincoli di tabella nei modelli di configurazione del prodotto](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Un calcolo è costituito da un'espressione di calcolo e da un attributo di destinazione.
 
@@ -88,7 +88,7 @@ N. I valori impostati quando si configura un prodotto sono i valori che vengono 
 Se si rimuove un valore di input nel calcolo, anche il valore dell'attributo di destinazione verrà rimosso.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Perché viene visualizzato un messaggio di errore indicante che il modello è in conflitto?
-Questo messaggio viene visualizzato quando un calcolo include un errore o quando è presente un conflitto in uno o più vincoli. Per ulteriori informazioni sui conflitti nei vincoli, vedere [Vincoli di espressione e vincoli di tabella](expression-constraints-table-constraints-product-configuration-models.md). Di seguito sono elencate alcune situazioni in cui gli errori possono verificarsi nei calcoli:
+Questo messaggio viene visualizzato quando un calcolo include un errore o quando è presente un conflitto in uno o più vincoli. Per ulteriori informazioni sui conflitti nei vincoli, vedere [Vincoli di espressione e vincoli di tabella nei modelli di configurazione del prodotto](expression-constraints-table-constraints-product-configuration-models.md). Di seguito sono elencate alcune situazioni in cui gli errori possono verificarsi nei calcoli:
 
 -   Un valore viene suddiviso per 0 (zero.
 -   È presente un conflitto tra i due seguenti elementi:

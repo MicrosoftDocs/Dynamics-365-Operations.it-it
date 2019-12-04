@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32c9c17d8b63e4c0806559c2dcc2e11ae9825a53
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55d548a97a2f93bffeb5aa4b0ce6b0c4ca5f8819
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184625"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769834"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Importare configurazioni da RCS
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-I passaggi seguenti illustrano come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può importare una nuova configurazione per la creazione di report elettronici (ER) da Microsoft Regulatory Configuration Service (RCS). In questo esempio si selezionerà la versione della configurazione ER configurata in un'istanza di RCS e la si importerà nell'istanza corrente per la società di esempio, Litware, Inc. Questi passaggi possono essere eseguiti in qualsiasi società in quanto le configurazioni ER sono condivise tra tutte le società. Per completare questi passaggi, è necessario dapprima completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](er-configuration-provider-mark-it-active-2016-11.md). Per effettuare questi passaggi, è inoltre necessario accedere a un'istanza di RCS che contiene almeno una configurazione ER il cui stato è **Completato** o **Condiviso**.
+I passaggi seguenti illustrano come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può importare una nuova configurazione per la creazione di report elettronici (ER) da Microsoft Regulatory Configuration Service (RCS). In questo esempio si selezionerà la versione della configurazione ER configurata in un'istanza di RCS e la si importerà nell'istanza corrente per la società di esempio, Litware, Inc. Questi passaggi possono essere eseguiti in qualsiasi società in quanto le configurazioni ER sono condivise tra tutte le società. Per completare questi passaggi, è necessario dapprima completare i passaggi nell'argomento [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). Per effettuare questi passaggi, è inoltre necessario accedere a un'istanza di RCS che contiene almeno una configurazione ER il cui stato è **Completato** o **Condiviso**.
 
 1. Andare a **Amministrazione organizzazione** > **Aree di lavoro** > **Creazione di report elettronici**. 
-2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se il provider di configurazione non è visualizzato, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se questo provider di configurazione non è visualizzato, completare i passaggi nell'argomento [Creare provider di configurazioni e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). 
 3. Se si dispone di un ambiente RCS di cui è stato effettuato il provisioning per la società, fare clic sul collegamento esterno **Regulatory services - Configurazione** e seguire le istruzioni per il provisioning di un ambiente RCS. 
 4. Fare clic su **Parametri per la creazione di report elettronici**. 
 5. Fare clic sulla scheda **RCS**. 

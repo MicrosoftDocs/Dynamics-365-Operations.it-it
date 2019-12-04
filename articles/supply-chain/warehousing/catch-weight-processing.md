@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887137"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696641"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -181,7 +181,7 @@ Attualmente, la funzionalità per i tag a peso variabile è supportata solo nei 
 - Quando si elabora uno stato delle scorte modificato utilizzando l'app magazzino.
 - Quando un trasferimento tra magazzini viene eseguito mediante l'app magazzino.
 - Quando si elabora la rettifica in entrata e in uscita via l'app magazzino.
-- Quando il lavoro di prelievo viene elaborato per ordini cliente e di trasferimento (da notare che i tag a peso variabile non possono essere registrati per il prelievo di componenti di produzione).
+- Quando il lavoro di prelievo viene elaborato per righe di vendita, trasferimento e produzione.
 - Quando le quantità prelevate sono ridotte dalle righe di carico, indipendentemente dall'uso o meno di contenitori.
 - Quando i prodotti sono imballati in contenitori presso un centro d'imballaggio.
 - Quando i contenitori vengono riaperti.

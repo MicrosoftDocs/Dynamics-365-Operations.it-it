@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f61c142fff73fdeeca573cca3f54e654511af1e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 132817fefb9592764d1adaf9f714c27108ce88ae
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556414"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815113"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Pianificazione generale per copertura a livello di sito, magazzino obbligatorio
 
@@ -51,15 +51,15 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+[Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
 
-[Pianificazione generale: copertura a livello di sito magazzino, magazzino obbligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Pianificazione generale a livello di sito e magazzino, magazzino obbligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Pianificazione generale: copertura a livello di sito, magazzino obbligatorio](master-plan-site-coverage-warehouse-mandatory.md)
+[Pianificazione generale per copertura a livello di sito, magazzino obbligatorio](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Pianificazione generale: copertura a livello di sito magazzino, magazzino non obbligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Pianificazione generale a livello di sito e magazzino, magazzino non obbligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Pianificazione generale - Come determinare la versione DBA](master-plan-bom-version-determined.md)
+[Determinare la versione DBA](master-plan-bom-version-determined.md)
 
 
 

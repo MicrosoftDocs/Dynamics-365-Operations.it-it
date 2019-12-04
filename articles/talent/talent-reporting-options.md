@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ecbeb03b535f19131ddc6649d005702876bab65c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009354"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772967"
 ---
 # <a name="reporting-options-in-talent"></a>Opzioni di creazione dei report in Talent
 
@@ -42,7 +42,7 @@ L'utente non può personalizzare i report di Microsoft Power BI integrati.
 
 **Soluzione**
 
-- I dati di Core HR trasmessi a Common Data Service possono essere dichiarati tramite il connettore PowerApps Common Data Service in Power BI Desktop. Si noti che Common Data Service contiene un sottoinsieme dei dati di Core HR. Per ulteriori informazioni su Power BI e i dashboard, vedere [Creare report e dashboard Power BI con PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- I dati di Core HR trasmessi a Common Data Service possono essere dichiarati tramite il connettore Power Apps Common Data Service in Power BI Desktop. Si noti che Common Data Service contiene un sottoinsieme dei dati di Core HR. Per ulteriori informazioni su Power BI e i dashboard, vedere [Creare report e dashboard Power BI con Power Apps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - La creazione di report elettronici (ER) è disponibile per alcuni report in Talent. Le personalizzazioni eseguite dai clienti possono essere eseguite tramite le opzioni della configurazione ER.
 - I dati possono essere esportati in Microsoft Excel o Microsoft Word utilizzando varie entità di dati che Talent fornisce mediante l'integrazione di Microsoft Office.
 

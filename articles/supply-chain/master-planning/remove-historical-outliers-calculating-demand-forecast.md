@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce8ebaf32b30c57b307f0d8799660ba6b42365a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0373448cba908c1ba3889c3e533c205e0410bab8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543516"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813618"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
 
@@ -45,9 +45,9 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Introduzione alla previsione della domanda](introduction-demand-forecasting.md)
+[Panoramica previsioni della domanda](introduction-demand-forecasting.md)
 
-[Monitoraggio della precisione previsione](monitor-forecast-accuracy.md)
+[Monitorare la precisione della previsione](monitor-forecast-accuracy.md)
 
 
 

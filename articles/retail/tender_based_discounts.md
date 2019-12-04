@@ -3,7 +3,7 @@ title: Sconti basati sul metodo di pagamento
 description: In questo argomento viene fornita una panoramica della funzionalità che consente ai rivenditori al dettaglio di configurare gli sconti per tipi di metodi di pagamento specifici.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673567"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692225"
 ---
 # <a name="tender-based-discounts"></a>Sconti basati sul metodo di pagamento
 
@@ -40,6 +40,7 @@ In Microsoft Dynamics 365 Retail, i rivenditori al dettaglio possono configurare
 Gli sconti basati sul metodo di pagamento non competono con sconti basati sugli articoli, come gli sconti periodici o manuali. Sono sempre applicati sugli sconti per gli articoli. Pertanto, anche se uno sconto periodico esclusivo viene applicato a un articolo, lo sconto basato sul metodo di pagamento viene comunque applicato allo sconto periodico esclusivo. Analogamente, se uno sconto di soglia viene applicato alla transazione e lo sconto basato sul metodo di pagamento riduce il totale al di sotto della soglia, lo sconto di soglia viene comunque applicato alla transazione.
 
 Anche se gli sconti basati sul metodo di pagamento riducono il totale parziale della transazione, gli addebiti automatici applicati alla transazione non sono interessati. Ad esempio, se le spese di consegna sono calcolate per 5 USD perché il subtotale era superiore a 100 USD e lo sconto basato sul metodo di pagamento riduce l'importo a un valore inferiore a 100 USD, le spese di consegna per l'ordine sono sempre 5 USD.
+
 
 > [!NOTE]
 > Gli sconti basati sul metodo di pagamento sono distribuiti proporzionalmente alle righe di vendita idonee e riducono l'importo al lordo di imposte delle singole righe. Se sono configurati più sconti basati sul metodo di pagamento per un tipo di metodo di pagamento (ad esempio, contanti), viene applicato solo lo sconto basato sul metodo di pagamento migliore.
@@ -57,6 +58,7 @@ Per i pagamenti con carta, i rivenditori al dettaglio possono impostare lo scont
 
 Per prevenire questa situazione, se un cliente paga con una carta di credito, viene visualizzata una finestra di dialogo per il cassiere che elenca le carte di credito che porteranno al cliente maggiori risparmi. Il cassiere può quindi chiedere se il cliente desidera utilizzare una delle carte preferite per ottenere uno sconto aggiuntivo. Se il cassiere utilizza una carta preferita, lo sconto basato sul metodo di pagamento viene applicato alla transazione e l'importo ridotto viene visualizzato nella schermata di pagamento. L'autorizzazione sarà per l'importo ridotto. Se il cliente usa una carta diversa dalla carta selezionata dal cassiere, viene visualizzato un messaggio di errore e l'autorizzazione viene annullata.
 
+
 ## <a name="call-center-user-experience"></a>Esperienza utente per il servizio clienti
 
 Quando l'utente seleziona **Completa** nell'ordine del servizio clienti, viene visualizzata la schermata **Totali**. Inizialmente, i totali in questa schermata non includono gli sconti basati sul metodo di pagamento perché il metodo di pagamento non è stato ancora selezionato. Nella schermata **Aggiungi pagamento**, se l'utente seleziona il metodo di pagamento per cui è configurato lo sconto basato sul metodo di pagamento, l'importo del pagamento viene automaticamente modificato in modo da riflettere l'importo scontato. Come per il cliente presso il POS, il cliente del servizio clienti può decidere se pagare l'importo completo o parziale. Lo sconto basato sul metodo di pagamento viene applicato all'ordine cliente in base all'importo pagato.
@@ -66,7 +68,7 @@ Quando l'utente seleziona **Completa** nell'ordine del servizio clienti, viene v
 
 ## <a name="exclude-items-from-discounts"></a>Escludere gli articoli dagli sconti
 
-I rivenditori al dettaglio spesso scelgono di escludere dagli sconti alcuni prodotti, come gli articoli nuovi o più richiesti. Tuttavia, potrebbero comunque voler applicare sconti basati sul metodo di pagamento. Ad esempio, un rivenditore configura Retail in modo da non consentire sconti basati su articoli o sconti manuali. Tuttavia, se il cliente paga utilizzando il metodo di pagamento preferito, Retail applica comunque lo sconto basato sul metodo di pagamento. Per configurare Retail in questo modo, i rivenditori al dettaglio devono disattivare le opzioni **Impedisci tutti gli sconti** e **Impedisci sconti basati sul metodo di pagamento** e attivare le opzioni **Impedisci sconti vendita al dettaglio** e **Impedisci sconti manuali**. Le opzioni sono nella pagina **Prodotti rilasciati**, nella scheda **Vendita al dettaglio**.
+I rivenditori al dettaglio spesso scelgono di escludere dagli sconti alcuni prodotti, come gli articoli nuovi o più richiesti. Tuttavia, potrebbero comunque voler applicare sconti basati sul metodo di pagamento. Ad esempio, un rivenditore configura Retail in modo da non consentire sconti basati su articoli o sconti manuali. Tuttavia, se il cliente paga utilizzando il metodo di pagamento preferito, Retail applica comunque lo sconto basato sul metodo di pagamento. Per impostare Retail in questo modo, i rivenditori devono andare a **Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**, selezionare l'articolo desiderato, quindi nella scheda dettaglio **Vendita al dettaglio**, impostare le opzioni **Impedisci tutti gli sconti** e **Impedisci sconti basati sul metodo di pagamento** su **No** e le opzioni **Impedisci sconti vendita al dettaglio** e **Impedisci sconti manuali** su **Sì**.
 
 > [!NOTE]
-> Quando la configurazione **Impedisci tutti gli sconti** è abilitata, nessuno sconto verrà applicato al prodotto. Non verranno applicati nemmeno gli sconti basati sul metodo di pagamento.
+> Quando la configurazione **Impedisci tutti gli sconti** è impostata su **Sì**, nessuno sconto verrà applicato al prodotto. Non verranno applicati nemmeno gli sconti basati sul metodo di pagamento.

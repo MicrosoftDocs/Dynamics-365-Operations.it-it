@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181291"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771098"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gestire il ciclo di vita della configurazione per la creazione di report elettronici (ER)
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come gestire il ciclo di vita delle configur
 
 ## <a name="overview"></a>Panoramica
 
-Creazione di report elettronici (ER, Electronic Reporting) è un motore che supporta i documenti elettronici specifici dei paesi e quelli richiesti dalla legge. In generale, ER presuppone la capacità di eseguire le seguenti attività per un singolo documento elettronico. Per ulteriori informazioni, vedere [Panoramica sui report elettronici](general-electronic-reporting.md).
+Creazione di report elettronici (ER, Electronic Reporting) è un motore che supporta i documenti elettronici specifici dei paesi e quelli richiesti dalla legge. In generale, ER presuppone la capacità di eseguire le seguenti attività per un singolo documento elettronico. Per ulteriori informazioni, vedere [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md).
 
 - Progettare un modello per un documento elettronico:
 
@@ -87,4 +87,4 @@ Le configurazioni ER progettate nell'ambiente di sviluppo possono essere caricat
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)

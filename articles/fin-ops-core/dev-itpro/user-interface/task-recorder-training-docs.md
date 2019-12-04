@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658812"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812651"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Creare la documentazione o la formazione con Registrazione attività
 
@@ -84,7 +84,7 @@ Così apparirà l'annotazione per le note nella "bolla" della guida attività.
 
 [![Aspetto dell'annotazione delle note nella guida attività](./media/screen4.png)](./media/screen4.png)
 
--   **Passaggio informativo**: Queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o su un punto qualsiasi in un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo**. I passaggi informativi vengono visualizzati come passaggio numerato in qualsiasi punto lo si inserisca, anche se nessuna azione è stata registrata nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori dell'applicazione o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
+-   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un controllo o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo.** I passaggi informativi verranno visualizzati come passaggi numerati in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori dell'applicazione o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
 
 **Determinare la lunghezza della registrazione**
 
@@ -97,7 +97,7 @@ Così apparirà l'annotazione per le note nella "bolla" della guida attività.
 **Decidere dove, nell'interfaccia utente, avviare una registrazione** La pagina in cui ci si trova quando si avvia la registrazione di un file di Registrazione attività influisce sulla pagina per cui è visualizzata la guida attività. Ad esempio, se si desidera che il file di Registrazione attività venga elencato nel riquadro della Guida quando un utente fa clic sulla Guida nella pagina Parametri di contabilità generale, è necessario avviare la registrazione nella pagina Parametri di contabilità generale. **Salvare le registrazioni come file axtr** Quando si finisce di creare o modificare una registrazione attività, vengono visualizzate diverse opzioni per scaricare o salvare la registrazione. È possibile scaricare il file come pacchetto di registrazione attività (axtr), scaricarlo come file di registrazione non elaborato (XML), scaricarlo come documento di Word o salvare il file come una libreria LCS. È buona idea salvare sempre la registrazione attività come file di pacchetto di registrazione attività (axtr). Che contribuirà a rendere la gestione del file più semplice se è necessario cambiare le procedure o le annotazioni in un secondo momento. Se si desidera scaricare il file come documento di Word, salvarlo anche come file di pacchetto di registrazione attività.
 
 ## <a name="create-your-task-recording"></a>Creare la registrazione attività
-Per i passaggi dettagliati della procedura, vedere [Come creare un file di Registrazione attività](task-recorder.md).
+Per i passaggi dettagliati della procedura, vedere [Risorse registrazione attività](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiare e personalizzare le registrazioni attività di Microsoft
 È possibile scaricare e modificare i file di Registrazione attività di Microsoft per utilizzarli per la documentazione della Guida o i materiali di formazione. Per scaricare una registrazione attività di Microsoft, effettuare i passaggi seguenti:
@@ -120,9 +120,9 @@ Per visualizzare i file di Registrazione attività personalizzati nel riquadro d
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Panoramica della Guida](../../fin-ops/get-started/help-overview.md)
+[Guida](../../fin-ops/get-started/help-overview.md)
 
-[Collegarsi alla Guida](../../fin-ops/get-started/help-connect.md)
+[Connettere la Guida](../../fin-ops/get-started/help-connect.md)
 
 [Registrazione attività](task-recorder.md)
 

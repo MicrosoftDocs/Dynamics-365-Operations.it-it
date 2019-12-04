@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f3c800d96805df38a2e31018f2d6c305e3ed7da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dbdfc169365cb73e13383b11efcd8983aef4bbca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564580"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815320"
 ---
 # <a name="explosion-of-a-bom-version"></a>Esplosione di una versione DBA
 
@@ -42,9 +42,9 @@ Nella figura riportata di seguito è illustrato il processo di esplosione della 
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Pianificazione generale - Come determinare la versione DBA](master-plan-bom-version-determined.md)
+[Determinare la versione DBA](master-plan-bom-version-determined.md)
 
-[Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+[Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
 
 
 

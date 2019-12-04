@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04b3fb3038a1373e203ec240a0163cf67de655cc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550006"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813852"
 ---
 # <a name="set-up-consignment"></a>Impostare la spedizione
 
@@ -31,7 +31,7 @@ ms.locfileid: "1550006"
 
 In questo argomento viene illustrato come configurare le operazioni di inventario spedizione in entrata.
 
-L'inventario spedizione è l'inventario che appartiene a un fornitore ma immagazzinato presso il sito del cliente. Quando si è pronti per consumare o utilizzare l'inventario, si assume la proprietà dell'inventario. In questo argomento viene descritta l'impostazione necessaria per abilitare i processi di spedizione. Per ulteriori informazioni sui processi di spedizione, vedere [Spedizione](consignment.md).
+L'inventario spedizione è l'inventario che appartiene a un fornitore ma immagazzinato presso il sito del cliente. Quando si è pronti per consumare o utilizzare l'inventario, si assume la proprietà dell'inventario. In questo argomento viene descritta l'impostazione necessaria per abilitare i processi di spedizione. Per ulteriori informazioni sui processi di spedizione, vedere [Impostare la spedizione](consignment.md).
 
 ## <a name="inventory-owners"></a>Proprietari inventario
 Per registrare l'inventario spedizione in entrata fisico, è necessario definire un proprietario fornitore. Questo viene effettuato nella pagina **Proprietario inventario**. Quando si seleziona un **Conto fornitore**, vengono generati i valori predefiniti per i campi **Nome** e **Proprietario**. Il valore nel campo **Proprietario** sarà visibile al fornitore, pertanto è possibile modificarlo se i nomi di conto fornitore non sono facili da riconoscere per le persone esterne. È possibile modificare il campo **Proprietario**, ma solo fino al passaggio quando si salva il record **Proprietario inventario**. Il campo **Nome** viene popolato automaticamente con il nome della parte a cui il conto fornitore è associato e non può essere modificato.
@@ -49,4 +49,4 @@ Il giornale di registrazione **Modifica proprietà inventario**viene utilizzato 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Collaborazione fornitore nei processi di spedizione
-Se i fornitori utilizzano l'interfaccia di collaborazione fornitore, possono utilizzare questa per monitorare il consumo dell'inventario nel sito. Per ulteriori informazioni su come impostare i fornitori per utilizzare la collaborazione fornitore, vedere [Configurazione della sicurezza per gli utenti di collaborazione fornitore](../procurement/configure-security-vendor-portal-users.md).
+Se i fornitori utilizzano l'interfaccia di collaborazione fornitore, possono utilizzare questa per monitorare il consumo dell'inventario nel sito. Per ulteriori informazioni su come impostare i fornitori per utilizzare la collaborazione fornitore, vedere [Sicurezza degli utenti del portale fornitori](../procurement/configure-security-vendor-portal-users.md).

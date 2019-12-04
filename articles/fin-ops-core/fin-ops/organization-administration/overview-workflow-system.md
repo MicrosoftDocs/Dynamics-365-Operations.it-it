@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190007"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812365"
 ---
 # <a name="workflow-system-overview"></a>Panoramica del sistema del flusso di lavoro
 
@@ -57,18 +57,18 @@ Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basat
 
 ## <a name="workflow-content"></a>Contenuto del flusso di lavoro
 
-+ [Architettura del flusso di lavoro](workflow-system-architecture.md)
-+ [Elementi flusso di lavoro](workflow-elements.md)
-+ [Azioni flusso di lavoro](workflow-actions.md)
-+ [Creare un flusso di lavoro](create-workflow.md)
++ [Architettura del sistema del flusso di lavoro](workflow-system-architecture.md)
++ [Elementi del flusso di lavoro](workflow-elements.md)
++ [Azioni dei processi di approvazione in un flusso di lavoro](workflow-actions.md)
++ [Creare panoramica flussi di lavoro](create-workflow.md)
 + [Configurare le proprietà del flusso di lavoro](configure-workflow-properties.md)
-+ [Configurare un'attività manuale in un flusso di lavoro](configure-manual-task-workflow.md)
-+ [Configurare un'attività automatica in un flusso di lavoro](configure-automated-task-workflow.md)
-+ [Configurare un processo di approvazione in un flusso di lavoro](configure-approval-process-workflow.md)
-+ [Configurare un passaggio di approvazione in un flusso di lavoro](configure-approval-step-workflow.md)
-+ [Configurare una decisione manuale in un flusso di lavoro](configure-manual-decision-workflow.md)
-+ [Configurare una decisione condizionale in un flusso di lavoro](configure-conditional-decision-workflow.md)
-+ [Configurare un'attività parallela in un flusso di lavoro](configure-parallel-activity-workflow.md)
-+ [Configurare un ramo parallelo in un flusso di lavoro](configure-parallel-branch-workflow.md)
-+ [Configurare un flusso di lavoro voci](configure-line-item-workflow.md)
-+ [Domande frequenti sui flussi di lavoro](workflow-FAQ.md)
++ [Configurare le attività manuali in un flusso di lavoro](configure-manual-task-workflow.md)
++ [Configurare le attività automatiche in un flusso di lavoro](configure-automated-task-workflow.md)
++ [Configurare i processi di approvazione in un flusso di lavoro](configure-approval-process-workflow.md)
++ [Configurare i passaggi di approvazione in un flusso di lavoro](configure-approval-step-workflow.md)
++ [Configurare le decisioni manuali in un flusso di lavoro](configure-manual-decision-workflow.md)
++ [Configurare le decisioni condizionali in un flusso di lavoro](configure-conditional-decision-workflow.md)
++ [Configurare le attività parallele in un flusso di lavoro](configure-parallel-activity-workflow.md)
++ [Configurare i rami paralleli in un flusso di lavoro](configure-parallel-branch-workflow.md)
++ [Configurare flussi di lavoro voci](configure-line-item-workflow.md)
++ [Domande frequenti sul flusso di lavoro](workflow-FAQ.md)

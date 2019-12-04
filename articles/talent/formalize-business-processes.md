@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008378"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832817"
 ---
 # <a name="formalize-business-processes"></a>Formalizzare i processi aziendali
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La funzionalità Processo aziendale consente di creare un modello di processi aziendali per processi che devono essere completati nell'organizzazione. Ad esempio, la società completa un controllo di Risorse umane (HR) ogni anno. In questo caso, è possibile creare un modello che segue tutte le attività che il processo di controllo comprende. Questo modello può quindi consentire di assicurarsi che tutte le attività vengono effettuate tutte le volte che il controllo viene eseguito. Inoltre, se le attività devono essere completate in un ordine specifico, il modello consente di garantire che sono state effettuate nell'ordine corretto.
 

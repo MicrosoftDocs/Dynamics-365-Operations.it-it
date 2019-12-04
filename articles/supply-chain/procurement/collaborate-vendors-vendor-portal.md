@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248982"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813525"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborazione con i fornitori tramite il portale fornitori
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248982"
 
 In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
 
-Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. Per ulteriori informazioni sulle nuove funzionalità di collaborazione fornitore, vedere [Utilizzo di collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).  
+Le informazioni in questo argomento si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX. Per ulteriori informazioni sulle nuove funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).  
 
 Il portale fornitori è destinato ai fornitori che non dispongono dell'integrazione EDI (Electronic Data Interchange) con Microsoft Dynamics AX per scambiare le informazioni sugli ordini fornitore. Il portale consente agli addetti agli acquisti di inviare un ordine al fornitore e di ricevere una risposta di conferma o rifiuto direttamente in Dynamics AX.  
 
@@ -98,7 +98,7 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Configurazione della sicurezza per gli utenti di collaborazione fornitore](configure-security-vendor-portal-users.md)
+[Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md)
 
 [Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

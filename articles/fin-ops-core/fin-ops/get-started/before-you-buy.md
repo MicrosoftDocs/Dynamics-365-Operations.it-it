@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191249"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812628"
 ---
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
@@ -41,8 +41,8 @@ Quando si sceglie un'opzione di distribuzione locale, è opportuno effettuare le
 
 - Requisiti di conformità alle normative che non sono disponibili nelle certificazioni cloud
 - Per l'accesso a Microsoft Dynamics Lifecycle Services (LCS) al fine della gestione del ciclo di vita dell'applicazione, è richiesto un processo aziendale senza connessione con connettività Internet intermittente
-- [Funzionalità attualmente non implementate nelle distribuzioni locali](features-not-implemented-on-prem.md)
-- [Requisiti minimi dell'infrastruttura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Funzionalità non implementate nelle distribuzioni locali](features-not-implemented-on-prem.md)
+- [Requisiti di sistema per le distribuzioni locali](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Le distribuzioni locali di Microsoft Dynamics 365 for Finance and Operations non sono supportate in nessuna infrastruttura di cloud pubblico, incluso Azure.
@@ -78,7 +78,7 @@ Un provider della soluzione cloud Microsoft può offrire la propria collaborazio
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Acquisto tramite un partner Dynamics (locale)
 
-È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Dynamics 365 for Finance and Operations (locale)](purchase-on-premises.md).
+È necessario collaborare con un partner per acquistare Finance and Operations (locale). Per ulteriori informazioni, vedere [Acquistare Finance + Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Scegliere l'opzione di supporto
 
@@ -91,7 +91,7 @@ Ulteriori informazioni:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Passaggio quattro: informazioni su FastTrack e pianificazione della distribuzione
 
-Microsoft FastTrack for Dynamics 365 è il servizio per il successo dei clienti progettato per consentire il passaggio a Dynamics 365 senza problemi e in sicurezza, in modo da poter realizzare più velocemente il valore aziendale. Quando si partecipa al programma FastTrack, verranno visualizzate istruzioni sulle procedure consigliate e su come pianificare i rollout. Si apprenderà inoltre ad abilitare nuovi utenti e ad ampliare le capacità: il tutto secondo le proprie possibilità. Inoltre, sarà possibile accedere alle risorse di progettazione di Microsoft allocate per rendere la propria esperienza con Dynamics 365 un successo. Altre informazioni: [Panoramica di Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 è il servizio per il successo dei clienti progettato per consentire il passaggio a Dynamics 365 senza problemi e in sicurezza, in modo da poter realizzare più velocemente il valore aziendale. Quando si partecipa al programma FastTrack, verranno visualizzate istruzioni sulle procedure consigliate e su come pianificare i rollout. Si apprenderà inoltre ad abilitare nuovi utenti e ad ampliare le capacità: il tutto secondo le proprie possibilità. Inoltre, sarà possibile accedere alle risorse di progettazione di Microsoft allocate per rendere la propria esperienza con Dynamics 365 un successo. Ulteriori informazioni: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Se si esegue l'aggiornamento da Dynamics AX 2012 o la migrazione da AX 2009
 

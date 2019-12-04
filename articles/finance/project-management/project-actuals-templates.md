@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0aeaa1ee4c35ca42a5382b3c7ff3519cba52996c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 302ac0f456dd8a24dc02948ee657e359f5a9c844
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250532"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770337"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
 
@@ -50,7 +50,7 @@ La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Projec
 
 ### <a name="template-and-tasks"></a>Modello e attività
 
-Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft PowerApps selezionare **Progetti** e quindi, nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare modelli pubblici.
+Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft Power Apps selezionare **Progetti** e quindi, nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare modelli pubblici.
 
 Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i numeri effettivi di progetto da Project Service Automation a Finance:
 

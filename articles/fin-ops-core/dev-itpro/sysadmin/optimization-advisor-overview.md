@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191410"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811972"
 ---
 # <a name="optimization-advisor-overview"></a>Panoramica consulente dell'ottimizzazione
 
@@ -38,7 +38,7 @@ La configurazione e l'impostazione non corrette di un modulo possono influire ne
 
 L'area di lavoro **Consulente di ottimizzazione** è uno strumento che consente a power user, business analyst, consulenti funzionali e funzioni di supporto IT di identificare i problemi nella configurazione dei moduli e nei dati aziendali. Il consulente dell'ottimizzazione suggerisce le procedure consigliate per la configurazione del modulo e identifica i dati business che sono errati oppure obsoleti.
 
-Il consulente dell'ottimizzazione esegue periodicamente un set di regole delle procedure consigliate. È disponibile un set di regole predefinito, tuttavia gli utenti possono anche creare regole specifiche alle personalizzazioni, alle soluzioni di fornitori software indipendenti (ISV) e ai dati aziendali. Per ulteriori informazioni sulla creazione di regole, vedere [Creare nuove regole](./create-rules-optimization-advisor.md).
+Il consulente dell'ottimizzazione esegue periodicamente un set di regole delle procedure consigliate. È disponibile un set di regole predefinito, tuttavia gli utenti possono anche creare regole specifiche alle personalizzazioni, alle soluzioni di fornitori software indipendenti (ISV) e ai dati aziendali. Per ulteriori informazioni sulla creazione di regole, vedere [Creare regole per il consulente dell'ottimizzazione](./create-rules-optimization-advisor.md).
 
 Quando viene rilevata la violazione di una regola, un'opportunità di ottimizzazione viene generata e visualizzata nell'area di lavoro **Consulente di ottimizzazione**. Un utente può eseguire l'azione correttiva appropriata direttamente dall'area di lavoro **Consulente di ottimizzazione**.
 
@@ -92,6 +92,6 @@ Per disattivare la valutazione di regole specifiche, selezionare l'opportunità 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Creare nuove regole](./create-rules-optimization-advisor.md)
+[Creare regole per il consulente dell'ottimizzazione](./create-rules-optimization-advisor.md)
 
 [Consulente dell'ottimizzazione in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

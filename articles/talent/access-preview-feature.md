@@ -1,5 +1,5 @@
 ---
-title: Accedere alle funzionalità in anteprima in Microsoft Dynamics 365 Talent
+title: Gestire le funzionalità
 description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima in Microsoft Dynamics 365 Talent ed elenca le funzionalità attualmente attivate per l'anteprima.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551604"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833302"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Accedere alle funzionalità in anteprima in Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Gestire le funzionalità
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Nell'ambito della continua implementazione di funzionalità di gestione risorse umane per Microsoft Dynamics 365 Talent, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Gli amministratori possono visualizzare e utilizzare le funzionalità in anteprima nei loro ambienti. Queste funzionalità sono quasi pronte per la disponibilità generale e sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
@@ -117,6 +117,6 @@ Assicurarsi di non includere dati personali (qualsiasi informazione che possa co
 ## <a name="see-also"></a>Vedere anche
 
 - [Provare o acquistare app Talent](https://dynamics.microsoft.com/talent/overview/)
-- [Novità](./whats-new.md)
-- [Note sulla versione](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ottenere supporto per Talent](./talent-support.md)
+- [Novità o modifiche in Dynamics 365 Talent](./whats-new.md)
+- [Piani di rilascio](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ottenere supporto per Microsoft Dynamics 365 Talent](./talent-support.md)

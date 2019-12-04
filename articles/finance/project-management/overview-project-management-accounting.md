@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185637"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770361"
 ---
 # <a name="project-management-and-accounting-overview"></a>Panoramica della gestione progetti e contabilità
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni sui contratti di progetto, vedere [Contratti di proge
 
 Il grado di dettaglio in una struttura di suddivisione del lavoro dipende dal livello di accuratezza necessario nelle stime e dal livello di tracciabilità necessario per tali stime. I progetti con tolleranza molto bassa per gli slittamenti nella programmazione o nei costi richiedono in genere una struttura di suddivisione del lavoro più dettagliata e anche una tracciabilità diligente dello stato di avanzamento e dei costi del lavoro rispetto alla struttura di suddivisione del lavoro. 
 
-Per ulteriori informazioni, vedere [Strutture di suddivisione del lavoro](work-breakdown-structures.md).
+Per ulteriori informazioni, vedere [Panoramica delle strutture di suddivisione del lavoro](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Creazione di previsioni di progetto e budget
 
@@ -134,7 +134,7 @@ Durante l'esecuzione del progetto i membri del team o i manager registrano il 
 
 Una struttura di suddivisione del lavoro è una descrizione del lavoro che verrà completato per un progetto. Una struttura di suddivisione del lavoro è una gerarchia di attività. Rappresenta non solo il lavoro per ogni attività, ma anche la portata, il costo e la durata dell'attività. 
 
-Per ulteriori informazioni, vedere [Strutture di suddivisione del lavoro](work-breakdown-structures.md).
+Per ulteriori informazioni, vedere [Panoramica delle strutture di suddivisione del lavoro](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Gestione delle previsioni e dei budget di progetto
 

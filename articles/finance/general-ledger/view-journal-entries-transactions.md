@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07774e607abc90951c27100e749645d8a476b6a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175483"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771707"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Visualizzare inserimenti nel giornale di registrazione e transazioni
 
@@ -56,7 +56,7 @@ Oltre ai report finanziari, è possibile utilizzare i seguenti report di contabi
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Saldi dei conti della contabilità generale](general-ledger-account-balances.md) 
 - [Esplora origine contabilità](../accounts-payable/accounting-source-explorer.md)
-- [Creazione di report finanziari](financial-reporting-getting-started.md)
+- [Panoramica sulla creazione di report finanziari](financial-reporting-getting-started.md)
 - [Visualizzare le scritture contabili o le transazioni](tasks/view-journal-entries-or-transactions.md)
 
 

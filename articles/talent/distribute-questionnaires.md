@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026258"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814745"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuire e programmare questionari
 
@@ -54,7 +54,8 @@ Per assegnare un gruppo di questionari a un questionario, nella pagina **Questio
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessioni di risposte pianificate in un questionario
 Le sessioni di risposte pianificate sono questionari progettati e selezionati per gli intervistati. 
 
-> **Nota** Prima di impostare le sessioni di risposte pianificate, è necessario progettare un questionario. 
+> [!NOTE]
+>   Prima di impostare le sessioni di risposte pianificate, è necessario progettare un questionario. 
 
 Nella pagina **Sessione di risposte pianificata** è possibile creare una sessione di risposte pianificata per un singolo dipendente. Nell'elenco della pagina sono visualizzati tutti i questionari pianificati. 
 
@@ -108,12 +109,14 @@ Se si utilizza una sessione di risposte pianificata, è necessario informare dir
 
 Utilizzare la pagina **Programmazioni questionari** per preparare e inviare un messaggio di posta elettronica a tutti gli intervistati a cui è stato assegnato il questionario. Immettere il testo del messaggio di posta elettronica nella scheda **Posta elettronica per dipendente self-service**. Dopo che la programmazione è stata avviata, fare clic su **Funzioni** &gt; **Invia posta elettronica** per generare e inviare il messaggio di posta elettronica agli intervistati. Gli intervistati possono quindi accedere al sito Web e completare il questionario. 
 
-> **Nota** Affinché si possa utilizzare la funzionalità di posta elettronica, è necessario che l'amministratore IT immetta le impostazioni di posta elettronica nella pagina **Parametri posta elettronica**.
+> [!NOTE]
+>   Affinché si possa utilizzare la funzionalità di posta elettronica, è necessario che l'amministratore IT immetta le impostazioni di posta elettronica nella pagina **Parametri posta elettronica**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Completamento di un questionario programmato
 È possibile concludere un questionario programmato dopo che tutti gli intervistati hanno completato le sessioni di risposte assegnate. In seguito al completamento di un questionario programmato, non è possibile copiarne le impostazioni in una nuova programmazione. 
 
-> **Nota** Se uno o più intervistati non hanno completato il questionario, ma si desidera comunque completare la programmazione, è necessario innanzitutto eliminare gli intervistati in questione dall'elenco presente nella pagina **Sessione di risposte pianificata**. Sarà quindi possibile completare la programmazione.
+> [!NOTE]
+>   Se uno o più intervistati non hanno completato il questionario, ma si desidera comunque completare la programmazione, è necessario innanzitutto eliminare gli intervistati in questione dall'elenco presente nella pagina **Sessione di risposte pianificata**. Sarà quindi possibile completare la programmazione.
 
 ## <a name="completing-questionnaires"></a>Completamento di questionari
 Dopo che è stato progettato e distribuito, un questionario può essere completato dagli intervistati selezionati. È possibile completare i questionari disponibili da due posizioni:
@@ -126,10 +129,10 @@ I questionari possono essere messi a disposizione di utenti o gruppi di utenti s
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Progettazione di questionari](design-questionnaires.md)
+[Progettare questionari](design-questionnaires.md)
 
-[Utilizzo di questionari](questionnaires.md)
+[Questionari](questionnaires.md)
 
-[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+[Visualizzare e valutare i risultati dei questionari](evaluate-questionnaire-results.md)
 
 

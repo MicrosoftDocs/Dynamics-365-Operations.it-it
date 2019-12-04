@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178561"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811318"
 ---
 # <a name="electronic-signatures-overview"></a>Panoramica firme elettroniche
 
@@ -44,7 +44,7 @@ Le firme elettroniche rappresentano un requisito di legge per diversi settori re
 
 È possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database.
 
-Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. Le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da fornire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche (guida attività)](tasks/set-up-electronic-signatures.md).
+Nelle firme elettroniche è incorporata la funzionalità di firma digitale. Ogni utente che firma documenti deve ottenere un certificato di crittografia valido. Al momento della firma di un documento, la chiave privata associata al certificato viene convalidata. Le informazioni relative alle firme elettroniche vengono memorizzate in un registro in modo da fornire un audit trail. Per impostare le firme elettroniche, vedere [Impostare le firme elettroniche](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Utenti che richiedono l'accesso alle firme elettroniche
 

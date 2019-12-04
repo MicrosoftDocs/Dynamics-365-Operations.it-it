@@ -1,5 +1,5 @@
 ---
-title: Impostazione dell'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract
+title: Impostare l'integrazione di LinkedIn con Attract
 description: In questo argomento viene descritto come configurare l'integrazione di LinkedIn per Microsoft Dynamics 365 Talent - Attract in modo da poter pubblicare facilmente posizioni su LinkedIn da Attract, affinché i selezionatori possano sincronizzare le informazioni sull'assunzione con il profilo LinkedIn di un candidato.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552119"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833186"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Impostazione dell'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-linkedin-integration-with-attract"></a>Impostare l'integrazione di LinkedIn con Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 La configurazione dell'integrazione di LinkedIn con Microsoft Dynamics 365 Talent: Attract aiuta i selezionatori e i responsabili assunzioni a trovare i migliori talenti. Attract consente di pubblicare le posizioni direttamente in LinkedIn, che è la più grande rete professionale online.
 
@@ -41,11 +41,11 @@ Attract include due metodi per integrare LinkedIn e aiutare a selezionare candid
 Entrambe le opzioni devono essere configurate nella scheda **Integrazione di LinkedIn** dell'interfaccia di amministrazione. Per aprire l'interfaccia di amministrazione, accedere a <https://attract.talent.dynamics.com/adminsettings>.
 
 > [!NOTE]
-> Per utilizzare l'integrazione di LinkedIn Recruiter con Attract, è necessario disporre del [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) e di [licenze per LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Per ulteriori informazioni, vedere [Quale versione di Attract?](./attract-comprehensive-hiring.md).
+> Per utilizzare l'integrazione di LinkedIn Recruiter con Attract, è necessario disporre del [componente aggiuntivo per l'assunzione a livello globale](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) e di [licenze per LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Per ulteriori informazioni, vedere [Quale versione di Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
-In caso di problemi nella pubblicazione delle posizioni su LinkedIn, vedere [Risoluzione dei problemi di integrazione con LinkedIn](./attract-troubleshoot-linkedin.md).
+Se si verificano problemi nell'accesso o nella pubblicazione di posizioni in LinkedIn da Attract, vedere [Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
-Per informazioni su altri modi di pubblicare posizioni su LinkedIn, vedere [Domande frequenti su LinkedIn](./attract-linkedin-faq.md).
+Per informazioni su altri modi di pubblicare posizioni su LinkedIn, vedere [Domande frequenti sull'integrazione di Attract con LinkedIn](./attract-linkedin-faq.md).
 
 ## <a name="configure-job-posting-to-linkedin"></a>Configurare la pubblicazione di posizioni su LinkedIn
 
@@ -98,7 +98,7 @@ Per consentire ai selezionatori di offrire posizioni attraverso LinkedIn Recruit
 
 È possibile consentire ai candidati di presentare domanda per le posizioni utilizzando i propri profili di LinkedIn. Per ulteriori informazioni sulla presentazione di domande con LinkedIn, vedere [La potenza di LinkedIn: presentare domanda di lavoro con LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
-Questa funzionalità è attualmente in anteprima. Prima di seguire questi passaggi, assicurarsi che l'opzione Fai domanda con LinkedIn sia attivata. Per ulteriori informazioni su come abilitare le funzionalità di anteprima, vedere [Accesso alle funzionalità di anteprima in Talent](./access-preview-feature.md).
+Questa funzionalità è attualmente in anteprima. Prima di seguire questi passaggi, assicurarsi che l'opzione Fai domanda con LinkedIn sia attivata. Per ulteriori informazioni su come abilitare le funzionalità di anteprima, vedere [Accesso alle funzionalità di anteprima in Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 1. Nel menu **Impostazione** (il simbolo di ingranaggio) nell'angolo superiore destro, selezionare **Interfaccia di amministrazione**. In alternativa, accedere a <https://attract.talent.dynamics.com/adminsettings>.
 2. Selezionare la scheda **Integrazione di LinkedIn**.
@@ -109,12 +109,12 @@ Questa funzionalità è attualmente in anteprima. Prima di seguire questi passag
 
 ## <a name="see-also"></a>Vedere anche
 
-[Domande frequenti su LinkedIn](./attract-linkedin-faq.md)
+[Domande frequenti sull'integrazione di Attract con LinkedIn](./attract-linkedin-faq.md)
 
-[Pubblicare mansioni su siti esterni da Attract](./posting-jobs-external.md)
+[Pubblicare mansioni su siti di avanzamento professionale esterni da Attract](./posting-jobs-external.md)
 
-[Selezionare i candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Selezionare i candidati con LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Creare posizioni](./creating-jobs-attract.md)
+[Creare, approvare e pubblicare annunci di mansioni in Attract](./creating-jobs-attract.md)
 
-[Risoluzione dei problemi di integrazione con LinkedIn](./attract-troubleshoot-linkedin.md)
+[Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

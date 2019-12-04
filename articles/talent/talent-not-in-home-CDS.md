@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009378"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772990"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent non appare tra le app Microsoft Dynamics 365 (Common Data Service 1.0)
 
@@ -34,9 +34,9 @@ Microsoft Dynamics 365 Talent non è visualizzato tra le app di Microsoft Dynami
 
 **Risoluzione**
 
-L'utente deve essere aggiunto al ruolo Creatore dell'utente per l'ambiente in Microsoft PowerApps.
+L'utente deve essere aggiunto al ruolo Creatore dell'utente per l'ambiente in Microsoft Power Apps.
 
-1. L'utente amministratore che dispone di una licenza di PowerApps Piano 2 deve aprire il [Portale di amministrazione di PowerApps](https://preview.admin.powerapps.com/).
+1. L'utente amministratore che dispone di una licenza di Power Apps Piano 2 deve aprire il [Portale di amministrazione di Power Apps](https://preview.admin.powerapps.com/).
 2. Selezionare **Ambienti** e scegliere l'ambiente corretto per Talent.
 3. Nella scheda **Ruoli ambiente** della scheda **Sicurezza**, selezionare **Creatore dell'ambiente**.
 

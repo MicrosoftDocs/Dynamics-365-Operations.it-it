@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184579"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769763"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di magazzino
 
@@ -78,7 +78,7 @@ Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il repo
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | Percentuale delle righe di spedizione che vengono spedite in anticipo, puntualmente o in ritardo per sito o magazzino. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Informazioni su modelli di dati e calcoli
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di magazzino**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Prestazioni di magazzino**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 

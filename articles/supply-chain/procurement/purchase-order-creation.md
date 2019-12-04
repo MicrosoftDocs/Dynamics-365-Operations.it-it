@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572215"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815390"
 ---
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
@@ -86,9 +86,9 @@ Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Panoramica dell'ordine fornitore](purchase-order-overview.md)
+[Panoramica degli ordini fornitore](purchase-order-overview.md)
 
-[Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
+[Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 

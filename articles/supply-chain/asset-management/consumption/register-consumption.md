@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653325"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812262"
 ---
 # <a name="register-consumption"></a>Registrare il consumo
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653325"
 
 Dopo il completamento di un ordine di lavoro, è necessario eseguire le registrazioni del consumo e registrare i giornali di registrazione. È possibile effettuare registrazioni per i seguenti tipi di consumo: ore, articoli e spese. I differenti tipi di consumo vengono registrati nella pagina **Giornali di registrazione ordine di lavoro**. La configurazione dei giornali di registrazione in **Gestione cespiti** viene utilizzata per creare e registrare giornali di registrazione distinti per ore, articoli e spese nel modulo **Gestione progetti e contabilità**.
 
-In alcuni casi, esiste la possibilità di aggiungere o eliminare righe di previsione, ma ciò dipende dall'impostazione dello stato del ciclo di vita di ordine di lavoro, dal tipo di progetto correlato e dalla regole di fase associate. Per ulteriori informazioni sugli stati del ciclo di vita di ordine di lavoro e le relative fasi di progetto, vedere [Integrazione a gestione progetti e contabilità](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+In alcuni casi, esiste la possibilità di aggiungere o eliminare righe di previsione, ma ciò dipende dall'impostazione dello stato del ciclo di vita di ordine di lavoro, dal tipo di progetto correlato e dalla regole di fase associate. Per ulteriori informazioni sugli stati del ciclo di vita di ordine di lavoro e sulle fasi di progetto correlate, vedere [Previsioni, ordini di lavoro e progetti](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >È possibile impostare la registrazione automatica dei giornali di registrazione in uno stato del ciclo di vita di ordine di lavoro. Per ulteriori informazioni, fare riferimento a [Stati del ciclo di vita ordine di lavoro](../setup-for-work-orders/work-order-lifecycle-states.md).

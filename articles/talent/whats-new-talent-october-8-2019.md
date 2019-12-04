@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626064"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694408"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Novità o modifiche in Dynamics 365 Talent (8 ottobre 2019)
 
@@ -57,15 +57,15 @@ La funzionalità per l'inserimento e la navigazione dei dipendenti è ora dispon
 
 Per ulteriori informazioni, vedere [Inserimento dati dei dipendenti semplificati](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) nel piano della seconda ondata di rilascio di Dynamics 365: 2019.
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Problema: Attract e Onboard creano lavoratori inattivi in Core HR (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Attract e Onboard creano lavoratori inattivi in Core HR (380517)
 
 La versione di questa settimana risolve un problema per cui Attract e Onboard creano lavoratori inattivi in Core HR.
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Problema: il flusso di lavoro ha esito negativo quando il responsabile ha effettuato l'accesso a un'altra società durante il licenziamento di un dipendente (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Il flusso di lavoro ha esito negativo quando il responsabile ha effettuato l'accesso a un'altra società durante il licenziamento di un dipendente (346852)
 
 Il flusso di lavoro non restituisce più l'esito negativo in base alla persona giuridica a cui il responsabile ha effettuato l'accesso.
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Problema: Informazioni mancanti in HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Informazioni mancanti in HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 La versione include informazioni aggiuntive su **HcmOnboardingWorkerChecklistTaskEntity**. Di seguito sono riportati alcuni esempi.
 
@@ -73,35 +73,35 @@ La versione include informazioni aggiuntive su **HcmOnboardingWorkerChecklistTas
 - **Nome dipendente** quando il tipo assegnato è **dipendente**
 - **Nome responsabile** quando il tipo assegnato è **responsabile**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Problema: Le entità non sono elencate in ordine alfabetico in amministrazione di Common Data Service (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Le entità non sono elencate in ordine alfabetico in amministrazione di Common Data Service (377414)
 
 Le entità ora sono elencate in ordine alfabetico nella pagina **Amministrazione di CDS**.
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Problema: La modifica del tipo di lavoro con una data futura non consente l'assegnazione di una posizione (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>La modifica del tipo di lavoro con una data futura non consente l'assegnazione di una posizione (339958)
 
 Questa modifica consente di assegnare posizioni in caso di modifica dei tipi di lavoratore (ad esempio, da dipendente a terzista).
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Problema: L'aggiornamento dell'entità per la transazione bancaria di congedo di Common Data Service crea un nuovo record in Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>L'aggiornamento dell'entità per la transazione bancaria di congedo di Common Data Service crea un nuovo record in Talent (352938)
 
 La transazione di congedo è ora aggiornata durante un aggiornamento a Common Data Service per le transazioni bancarie di congedo.
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Problema: il titolo degli allegati per gli elementi di feedback mostra la descrizione del feedback (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Il titolo degli allegati per gli elementi di feedback mostra la descrizione del feedback (343765)
 
 La descrizione del feedback non appare più nel titolo dell'allegato.
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Problema: il campo Commenti sul flusso di lavoro di compensazione mostra contenuto errato (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Il campo Commenti sul flusso di lavoro di compensazione mostra contenuto errato (339297)
 
 Questa modifica mostra il contenuto del campo **%HcmActionState.HcmWorkerActionComment.Comments%**.
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>Problema: WorkCalendarEntity e WorkCalendarDayEntity non sono esposti tramite OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity e WorkCalendarDayEntity non sono esposti tramite OData (376329)
 
 In questa versione, **WorkCalendarEntity** e **WorkCalendarDayEntity** sono ora disponibili tramite Open Data Protocol (OData).
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>Problema: HCMWorkerEntity è lento quando si utilizza OData (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity è lento quando si utilizza OData (375221)
 
 Le modifiche migliorano le prestazioni di **HCMWorkerEntity** quando la progettazione cartella di lavoro di Microsoft Excel viene utilizzata.
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Problema: la voce del giornale di registrazione prestazioni del responsabile mostra un errore dopo aver eliminato un giornale di registrazione prestazioni e averne creato uno nuovo (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>La voce del giornale di registrazione prestazioni del responsabile mostra un errore dopo aver eliminato un giornale di registrazione prestazioni e averne creato uno nuovo (336061)
 
 Questa versione corregge un problema che si verifica dopo l'eliminazione di un giornale di registrazione prestazioni e la creazione di uno nuovo immediatamente dopo. La correzione modifica il comportamento nella funzionalità responsabile self-service.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023886"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812743"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novità o modifiche in Dynamics 365 Talent (26 marzo 2019)
 
@@ -75,11 +75,11 @@ In questa versione, i piani di retribuzione fissa ora sono visualizzati quando s
 Con questa versione, è ora possibile rimuovere i record relativi alle mansioni utilizzando l'opzione **Apri in Excel** di Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Eseguire l'aggiornamento a Common Data Service
-Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione PowerApps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Le scadenze per l'aggiornamento di Common Data Service sono imminenti. Accedere all'interfaccia di amministrazione Power Apps per determinare se il database deve essere aggiornato. Per ulteriori informazioni sulle scadenze e sui passaggi necessari per eseguire l'aggiornamento, vedere [Aggiornamento di Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>In anteprima
 
-Per informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Accesso alle funzionalità di anteprima in Talent](./access-preview-feature.md).
+Per informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Accedere alle funzionalità in anteprima in Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Consentire la specifica dei codici motivo nei tipi di congedo
 Le organizzazioni potrebbero necessitare di informazioni aggiuntive sulle richieste di permesso. Per ottenere queste informazioni, i dipendenti devono includere un codice motivo nelle relative richieste di permesso. In questa versione, è ora possibile specificare i codici motivo associati a un determinato tipo di congedo e consentire ai dipendenti di selezionare un codice motivo nelle relative richieste di permesso.

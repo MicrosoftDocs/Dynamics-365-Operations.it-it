@@ -19,20 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c16268338085d414468f17362294fb7e933d1b57
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35c0a1e6342008bc2ee6ff25a1663e199c8cb985
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249111"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771027"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Guida alla risoluzione dei problemi di integrazione dei dati
 
 ## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Abilitare i registri di traccia plug-in in Common Data Service ed analizzare i dettagli degli errori del plug-in di doppia scrittura.
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Se si verifica un problema o un errore durante la sincronizzazione della doppia scrittura, seguire i passaggi seguenti per analizzare gli errori nel registro di traccia:
 

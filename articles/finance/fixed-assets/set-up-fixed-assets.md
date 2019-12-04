@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178448"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771922"
 ---
 # <a name="set-up-fixed-assets"></a>Impostare i cespiti
 
@@ -51,7 +51,7 @@ Dopo aver impostato i profili di ammortamento, è necessario creare i libri nece
 
 Un profilo di ammortamento primario viene assegnato a ciascun libro. I libri hanno anche un profilo di ammortamento alternativo, se questo tipo di profilo è applicabile. Per includere automaticamente il libro cespiti nelle esecuzioni di ammortamento, è necessario abilitare l'opzione **Calcola ammortamento**. Se l'opzione non è abilitata per un cespite, la proposta di ammortamento salta il cespite.
 
-È inoltre possibile impostare libri derivati. Le transazioni derivate specificate vengono registrate rispetto ai libri derivati come copia esatta della transazione primaria. Di conseguenza, le transazioni derivate sono impostate in genere per le acquisizioni e le dismissioni, non per le transazioni di ammortamento. Per ulteriori informazioni, vedere [Impostare libri](tasks/set-up-value-models.md).
+È inoltre possibile impostare libri derivati. Le transazioni derivate specificate vengono registrate rispetto ai libri derivati come copia esatta della transazione primaria. Di conseguenza, le transazioni derivate sono impostate in genere per le acquisizioni e le dismissioni, non per le transazioni di ammortamento. Per ulteriori informazioni, vedere [Impostare i modelli di valore](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Profili registrazione cespiti
 

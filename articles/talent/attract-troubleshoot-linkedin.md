@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551474"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832979"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Risolvere i problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Utilizzare le seguenti informazioni per risolvere i problemi relativi alla pubblicazione di posizioni in LinkedIn da Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ Se non si riesce ad accedere a LinkedIn da Attract, provare i passaggi seguenti:
 
 Se la posizione non viene visualizzata su LinkedIn dopo 24 ore, provare i passaggi seguenti:
 
-1. Verificare che il proprio ID società di LinkedIn sia mappato alla pagina della società su LinkedIn e che sia immesso in modo corretto nell'interfaccia di amministrazione di Attract. Per ulteriori informazioni sulla modifica delle impostazioni di LinkedIn nell'interfaccia di amministrazione, vedere [Impostare l'integrazione con LinkedIn](attract-admin-linkedin.md). Per ulteriori informazioni sugli ID società LinkedIn, vedere [Associazione dell'ID società di LinkedIn alla bacheca di lavoro di LinkedIn - domande frequenti](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Verificare che il proprio ID società di LinkedIn sia mappato alla pagina della società su LinkedIn e che sia immesso in modo corretto nell'interfaccia di amministrazione di Attract. Per ulteriori informazioni sulla modifica delle impostazioni di LinkedIn nell'interfaccia di amministrazione, vedere [Impostare l'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). Per ulteriori informazioni sugli ID società LinkedIn, vedere [Associazione dell'ID società di LinkedIn alla bacheca di lavoro di LinkedIn - domande frequenti](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Verificare i dettagli della posizione su LinkedIn per assicurarsi che l'indirizzo sia completo. Affinché la pubblicazione della posizione sia completata correttamente, è necessario specificare in LinkedIn almeno la città e il paese della posizione.
 3. Assicurarsi che la posizione non sia un duplicato di un'altra posizione già pubblicata su LinkedIn. LinkedIn non pubblica posizioni che sono già pubblicate negli slot di lavoro Premium o nelle inserzioni limitate di LinkedIn da un'altra fonte. Verificare che un altro utente della stessa azienda non abbia già pubblicato la posizione manualmente.
 
 ## <a name="see-also"></a>Vedere anche
 
-[Domande frequenti su LinkedIn](./attract-linkedin-faq.md)
+[Domande frequenti sull'integrazione di Attract con LinkedIn](./attract-linkedin-faq.md)
 
-[Pubblicare posizioni in LinkedIn da Attract](./attract-post-jobs-to-linkedin.md)
+[Pubblicare posizioni in LinkedIn da Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Selezionare i candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Selezionare i candidati con LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Creare posizioni](./creating-jobs-attract.md)
+[Creare, approvare e pubblicare annunci di mansioni in Attract](./creating-jobs-attract.md)
 
-[Risoluzione dei problemi di integrazione con LinkedIn](./attract-troubleshoot-linkedin.md)
+[Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

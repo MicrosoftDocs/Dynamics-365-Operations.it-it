@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184533"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772439"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Concetto di società in Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 In Finance and Operations, il concetto di *società* è un costrutto sia legale che commerciale. È inoltre un limite di visibilità e di sicurezza per i dati. Gli utenti lavorano sempre nel contesto di una singola società e la maggior parte dei dati è oggetto dello striping della società.
 
@@ -60,12 +58,14 @@ Come mostra la figura precedente, questo mapping 1:1 tra Business Unit, società
 
 Argomento finale da discutere è come la doppia scrittura determina a quale team proprietario assegnare i record. Questo funzionamento dipende dal campo **Team proprietario predefinito** nel record cdm\_Company. Quando un record cdm\_Company è abilitato per la doppia scrittura, un plugin crea automaticamente la Business Unit e il team proprietario (se non esiste già) associati e imposta il campo **Team proprietario predefinito**. Il amministratore può modificare questo campo su un valore diverso. Tuttavia, l'amministratore non può cancellare il campo finché l'entità è abilitata per la doppia scrittura.
 
+> [!div class="mx-imgBorder"]
 ![Campo Team proprietario predefinito](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Striping e bootstrap della società
 
 L'integrazione con Common Data Service porta la parità della società utilizzando un identificatore della società per lo striping dei dati. Come nella seguente figura viene illustrato, tutte le entità specifiche della società vengono estese in modo che abbiano una relazione molti-a-uno (N:1) con l'entità cdm'\_Company.
 
+> [!div class="mx-imgBorder"]
 ![La relazione N:1 tra un'entità specifica della società e l'entità cdm_Company](media/dual-write-bootstrapping.png)
 
 + Per i record, dopo che una società viene aggiunta e salvata, il valore diventa di sola lettura. Di conseguenza, gli utenti devono assicurarsi di scegliere la società corretta.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187914"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770852"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Creare dimensioni e importare i membri di dimensione
 
@@ -44,11 +44,10 @@ Nel seguente diagramma sono illustrate le dimensioni utilizzate nella contabilit
 Dopo l'importazione dei dati nella contabilità industriale, è possibile utilizzarli per creare diverse prospettive che forniscono indicazioni utili ai responsabili a tutti i livelli dell'organizzazione. Negli argomenti riportati di seguito vengono fornite informazioni sulla creazione di dimensioni e sull'importazione dei membri di dimensione. 
 
 -  [Dimensioni elemento di costo](cost-elements.md)
--  [Creare elementi di costo (guida attività)](./tasks/create-cost-elements.md)
+-  [Creare elementi di costo](./tasks/create-cost-elements.md)
 -  [Dimensioni oggetto di costo](cost-objects.md)
--  [Creare elementi di costo (guida attività)](./tasks/create-cost-objects.md)
 -  [Eseguire il mapping dei membri di dimensione elemento di costo a un set comune di membri di dimensione](map-cost-elements-dimension-members.md)
--  [Eseguire il mapping di una dimensione elemento di costo (guida attività)](./tasks/map-cost-element-dimension.md)
+-  [Mappare una dimensione elemento di costo](./tasks/map-cost-element-dimension.md)
 -  [Membri di dimensione statistica e modelli provider misure statistiche](statistical-measure-provider-template.md)
 
 

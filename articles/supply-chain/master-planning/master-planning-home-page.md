@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250693"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814263"
 ---
 # <a name="master-planning-home-page"></a>Home page di pianificazione generale
 
@@ -39,9 +39,9 @@ La pianificazione generale utilizza le informazioni per calcolare i requisiti e 
 
 I tre principali processi di progettazione sono:
 
--  **Pianificazione generale** - Il piano generale calcola i fabbisogni netti. Si basa sugli ordini correnti effettivi e consente alle società di controllare il rifornimento delle scorte a breve termine, su base quotidiana. Un altro termine per descriverlo è *Piano dei fabbisogni netti*. Per ulteriori informazioni, vedere [Pianificazione generale](master-plans.md). 
+-  **Pianificazione generale** - Il piano generale calcola i fabbisogni netti. Si basa sugli ordini correnti effettivi e consente alle società di controllare il rifornimento delle scorte a breve termine, su base quotidiana. Un altro termine per descriverlo è *Piano dei fabbisogni netti*. Per ulteriori informazioni, vedere [Panoramica dei piani generali](master-plans.md). 
 
--  **Pianificazione previsionale** - La programmazione delle previsioni calcola i fabbisogni lordi. Si basa su proiezioni future (o previsioni) e consente alle società di condurre pianificazioni di materie prime e di capacità a lungo termine. Per ulteriori informazioni, vedere [Pianificazione previsionale](introduction-demand-forecasting.md). 
+-  **Pianificazione previsionale** - La programmazione delle previsioni calcola i fabbisogni lordi. Si basa su proiezioni future (o previsioni) e consente alle società di condurre pianificazioni di materie prime e di capacità a lungo termine. Per ulteriori informazioni, vedere [Cenni preliminari sulla previsione della domanda](introduction-demand-forecasting.md). 
 
 -  **Pianificazione generale interaziendale** - Il piano generale interaziendale calcola i fabbisogni netti tra le persone giuridiche. Collega la domanda e l'offerta tra società non solo per la domanda e l'offerta a breve termine e costanti ma anche per la domanda e l'offerta pianificate (non ancora consolidate) a lungo termine. Per ulteriori informazioni, vedere [Pianificazione generale interaziendale](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (richiede l'account CustomerSource). 
 
@@ -57,13 +57,13 @@ Nella mappa di apprendimento seguente vengono visualizzati i concetti e le attiv
 
 ## <a name="quick-links"></a>Collegamenti rapidi
 
-- [Piani generali](master-plans.md)  
+- [Panoramica piani generali](master-plans.md)  
 - [Generare un piano con vincoli](./tasks/constrained-plan.md)
 - [Creare un piano materiali per co-prodotti](./tasks/create-material-plan-co-products.md)
-- [Pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+- [Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
 - [Creare un piano interaziendale](./tasks/create-intercompany-plan.md)
-- [Cenni preliminari sulla previsione della domanda](introduction-demand-forecasting.md)
-- [Chiavi di riduzione](reduction-keys.md)
+- [Panoramica previsioni della domanda](introduction-demand-forecasting.md)
+- [Chiavi di riduzione previsionali](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
