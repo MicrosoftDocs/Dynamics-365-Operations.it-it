@@ -258,7 +258,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/retail/toc.json
                 - name: Selezione del personale
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/retail/toc.json
-                - name: 'Prestazioni canale di vendita al dettaglio '
+                - name: Prestazioni canale di vendita al dettaglio
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/retail/toc.json
                 - name: Prestazioni di vendita e redditività
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/retail/toc.json
@@ -850,6 +850,8 @@
           items:
             - name: Panoramica fedeltà
               href: set-up-customer-loyalty-program.md
+            - name: Panoramica della fidelizzazione dei clienti
+              href: clienteling-overview.md
         - name: Pagamenti
           items:
             - name: Metodi di pagamento
@@ -884,7 +886,7 @@
               href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/retail/toc.json
             - name: Metodi di calcolo IVA nel campo Origine
               href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/retail/toc.json
-            - name: ' Assegnazione e sostituzioni IVA'
+            - name: Assegnazione e sostituzioni IVA
               href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/retail/toc.json
             - name: Opzioni importo totale e intervallo per i codici IVA
               href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/retail/toc.json
@@ -1174,9 +1176,9 @@
               href: tasks/define-continuity-schedules.md
             - name: Definire programmi fedeltà
               href: tasks/define-loyalty-programs.md
-            - name: ' Definire punti premio fedeltà'
+            - name: Definire punti premio fedeltà
               href: tasks/define-loyalty-reward-points.md
-            - name: ' Definire schemi di programma fedeltà'
+            - name: Definire schemi di programma fedeltà
               href: tasks/define-loyalty-schemes.md
             - name: Definire le relazioni tra le unità organizzative
               href: tasks/design-relationships-between-organizational-units.md
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: Installare lo strumento di progettazione layout POS
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS in modalità offline
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Estendere la visualizzazione schermo POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Estendibilità dell'attivazione di Retail Modern POS e Cloud POS
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Implementare criteri di reso utilizzando i trigger
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Registrare eventi di estensione in Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Estendibilità di e-Commerce
               items:
                 - name: Configurare punti vendita online

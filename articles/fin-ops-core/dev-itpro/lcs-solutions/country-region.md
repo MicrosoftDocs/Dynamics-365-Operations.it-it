@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537026"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812090"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
@@ -45,10 +45,10 @@ In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare 
 
 ### <a name="developing-localized-solutions"></a>Sviluppo di soluzioni localizzate
 Nelle risorse seguenti sono riportate istruzioni e informazioni che possono essere utili per gli sviluppatori e i fornitori di software indipendente (ISV, Independent Software Vendor) che creano personalizzazioni specifiche di un paese/un'area geografica o una soluzione per un paese non supportato da Microsoft.
--   [Modelli di localizzazione separati](separate-localization-models.md)
+-   [Separazione dei modelli di localizzazione](separate-localization-models.md)
 -   [Applicare il contesto del paese](apply-country-context.md)
--   [Certificazioni della normativa](regulatory-certifications.md)
--   [Classificare le funzionalità di localizzazione](classify-localization-features.md)
+-   [Informazioni sulla certificazione normativa nei titoli delle funzionalità](regulatory-certifications.md)
+-   [Classificazione delle funzionalità di localizzazione](classify-localization-features.md)
 -   [Codici paese - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Aggiornamenti della normativa e comunicazione
@@ -57,36 +57,36 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 #### <a name="regulatory-updates"></a>Aggiornamenti normativi
 -   [Aggiornamenti normativi](../../../finance/localizations/regulatory-updates.md)
 -   [Portale di localizzazione](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (aggiornamenti settimanali)
--   [Ricerca argomento relativo a LCS](../lifecycle-services/issue-search-lcs.md) (aggiornamenti giornalieri)
+-   [Ricerca argomento in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)
 
 #### <a name="communication-and-alerts"></a>Comunicazione e avvisi
--   [Comunicazione di aggiornamento normativo e monitoraggio normativo](regulatory-watch-communication.md)
--   [Informare Microsoft sugli avvisi normativi di un paese e tenere traccia dello stato delle funzionalità per la normativa](submit-localization-alerts.md)
+-   [Comunicazione di aggiornamenti normativi e monitoraggio normativo](regulatory-watch-communication.md)
+-   [Inviare gli avvisi relativi alle funzionalità per la normativa specifiche del paese](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Dynamics 365 note sulla versione
-Le [note sulla versione di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
+#### <a name="dynamics-365-release-plans"></a>Piani di rilascio di Dynamics 365
+I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app Finance and Operations
-Le [Novità](../../fin-ops/get-started/whats-new-changed.md) descrivono le funzionalità incluse in versioni specifiche delle app Finance and Operations.
+La [Home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse in versioni specifiche delle app Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Creare una configurazione per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)
+-   [Creare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)
 -   [Estendere l'elenco delle funzioni di creazione di report elettronici](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinazioni dei report elettronici](../analytics/electronic-reporting-destinations.md)
 -   [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Importare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Configurare la creazione di report elettronici per eseguire il pull dei dati in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Generare documenti elettronici e aggiornare i dati dell'applicazione mediante lo strumento di creazione di report elettronici](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Generare documenti elettronici e aggiornare i dati dell'applicazione con la creazione di report elettronici](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Guide attività
 Le guide attività sono disponibili nel riquadro della Guida del prodotto e forniscono una procedura dettagliata dei processi aziendali principali. È possibile aprire una guida attività per leggere i passaggi di un processo aziendale oppure è possibile riprodurre una guida attività per esaminare un processo aziendale e immettere dati.
 
 Per trovare le guide attività, fare clic su Guida in una pagina dell'applicazione. Le guide attività che utilizzano la pagina sono elencate nel riquadro della Guida. È possibile utilizzare il riquadro della Guida anche per cercare le guide attività in base al titolo.
 
-Per ulteriori informazioni, vedere [Guide attività](../../fin-ops/get-started/help-overview.md#task-guides).
+Per ulteriori informazioni, vedere la [Guida](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Contenuti della Guida specifici del paese/dell'area geografica

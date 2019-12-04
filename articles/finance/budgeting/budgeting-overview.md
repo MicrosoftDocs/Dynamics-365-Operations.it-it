@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184073"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772653"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -42,12 +42,12 @@ I processi per la pianificazione strategica a lungo termine e per la pianificazi
 
 Infine, le organizzazioni con un alto livello di maturità potrebbero definire una cultura aziendale in cui i dipendenti vengono istruiti sugli obiettivi organizzativi e seguono tali obiettivi attraverso criteri quali "Considerare una riunione online anziché un viaggio". L'applicazione include un framework di controllo del budget che consente alla gestione aziendale di selezionare un controllo di tipo rigido (che impedisce le registrazioni superiori al budget) o flessibile (dove gli utenti vengono avvertiti del fatto che supereranno i fondi di budget disponibili ma possono decidere autonomamente come procedere). Infine, è possibile utilizzare le previsioni di rolling. Una previsione rolling è un confronto regolare del budget rispetto ai valori effettivi e viene utilizzata per valutare come la società utilizza il budget. Una previsione rolling viene utilizzata anche per identificare le tendenze. In Finance and Operations, le previsioni rolling sono supportate, tramite un documento del piano di budget, come attività di pianificazione iniziale. Le previsioni di rolling possono essere eseguite in parallelo con la pianificazione del successivo ciclo di budget.
 
--   [Impostazione del budget di base: panoramica e configurazione](basic-budgeting-overview-configuration.md)
--   [Controllo del budget: panoramica e configurazione](budget-control-overview-configuration.md)
--   [Impostazione del budget: panoramica e configurazione](budget-planning-overview-configuration.md)
+-   [Panoramica dell'impostazione budget](basic-budgeting-overview-configuration.md)
+-   [Panoramica del controllo del budget](budget-control-overview-configuration.md)
+-   [Panoramica della pianificazione del budget](budget-planning-overview-configuration.md)
 -   [Previsione delle posizioni](position-forecasting.md)
 -   [Documenti di motivazione per pianificazione del budget](budget-planning-justification-docs.md)
--   [Modelli di Microsoft Excel per la pianificazione del budget](budget-planning-excel-templates.md)
+-   [Modelli di pianificazione del budget per Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Strumenti di impostazione del budget
 [![Strumenti di impostazione del budget](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

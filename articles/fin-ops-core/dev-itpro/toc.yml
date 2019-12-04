@@ -2,6 +2,8 @@
   items:
     - name: Sviluppo e amministrazione delle app Finance and Operations
       items:
+        - name: Documentazione delle applicazioni Finance and Operations
+          href: ../fin-ops/index.md
         - name: Sviluppo e amministrazione delle app Finance and Operations
           href: index.md
         - name: Novità o modifiche
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Gerarchia organizzativa in Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Concetto di società in Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: Integrazione della società
+                          items:
+                            - name: Concetto di società in Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: Avvio automatico con i dati della società
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Dati master clienti integrati
                           href: data-entities/dual-write-customer.md
+                        - name: Contabilità integrata
+                          href: data-entities/dual-write-ledger.md
                         - name: Esperienza prodotto unificata
                           href: data-entities/dual-write-product.md
-                        - name: Dati master fornitori integrati
-                          href: data-entities/dual-write-vendor.md
+                        - name: Integrazione fornitore
+                          items:
+                            - name: Dati master fornitori integrati
+                              href: data-entities/dual-write-vendor.md
+                            - name: Passa tra strutture fornitore
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Siti e magazzini integrati
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Anagrafica fiscale integrata
+                          href: data-entities/dual-write-tax.md
                         - name: Sincronizzazione iniziale
                           href: data-entities/dual-write-initial.md
                         - name: Risoluzione dei problemi relativi all'integrazione dati
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Risolvere i problemi relativi alle distribuzioni locali
                   href: deployment/troubleshoot-on-prem.md
+                - name: Script relativi alla risoluzione dei problemi negli ambienti locali
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Rotazione certificati
                   href: deployment/certificate-rotation-on-prem.md
             - name: Distribuire codice personalizzato

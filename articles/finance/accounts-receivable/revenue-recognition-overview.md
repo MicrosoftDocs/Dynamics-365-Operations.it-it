@@ -3,7 +3,7 @@ title: Panoramica del riconoscimento ricavi
 description: In questo argomento vengono fornite informazioni sulla funzionalità di riconoscimento dei ricavi. Questa funzionalità fornisce un framework flessibile che consente di definire regole specifiche della società per riconoscere sia il prezzo che la programmazione dei ricavi per ordini con più elementi.
 author: kweekley
 manager: aolson
-ms.date: 08/24/2018
+ms.date: 11/11/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 0681636853b38895e4b8875150ea42baadd7b951
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570381"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781898"
 ---
 # <a name="revenue-recognition-overview"></a>Panoramica del riconoscimento ricavi
 
@@ -36,6 +36,10 @@ In generale, il processo di riconoscimento ricavi può essere utilizzato in gene
 
 * Allocare i ricavi per garantire che il prezzo dei ricavi venga riconosciuto correttamente in base al valore dei componenti presenti negli ordini con più elementi.
 * Differire i ricavi in base a una programmazione che rappresenta l'intervallo di tempo contrattuale e le percentuali per riconoscere i ricavi nel tempo.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+
+Il video su [come usare il riconoscimento ricavi in Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (mostrato in precedenza) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 La funzionalità di riconoscimento ricavi fornisce un framework flessibile che consente di definire regole specifiche della società per riconoscere sia il prezzo che la programmazione dei ricavi.
 

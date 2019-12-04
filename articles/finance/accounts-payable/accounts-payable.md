@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658738"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772239"
 ---
 # <a name="accounts-payable-home-page"></a>Home page di contabilità fornitori
 
@@ -41,9 +41,9 @@ In questo argomento viene fornita una panoramica della contabilità fornitori.
 
 Impostare gruppi di fornitori, fornitori, profili di registrazione, varie opzioni di pagamento e parametri relativi a fornitori, spese, consegne, destinazioni, effetti passivi e altri tipi di informazioni sulla contabilità fornitori. 
 
-[Configurare la contabilità fornitori](accounts-payable-overview.md)
+[Configurare la panoramica contabilità fornitori](accounts-payable-overview.md)
 
-[Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture fornitore](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
 [Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
@@ -51,17 +51,17 @@ Impostare gruppi di fornitori, fornitori, profili di registrazione, varie opzion
 
 Utilizzare la contabilità fornitori per tenere traccia delle fatture e delle spese in uscita riguardanti i fornitori.
 
-[Abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md)
+[Panoramica abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md)
 
 [Profili registrazione fornitori](vendor-posting-profiles.md)
 
-[Impostare la convalida dell'abbinamento fatture della contabilità fornitori](tasks/set-up-accounts-payable-invoice-matching-validation.md).
+[Impostare la convalida dell'abbinamento fatture della contabilità fornitori](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
 [Criteri di abbinamento a tre elementi di verifica](three-way-matching-policies.md)
 
 [Abbinamento fatture e ordini fornitore interaziendali](invoice-matching-intercompany-purchase-orders.md)
 
-[Risolvere le discrepanze durante l'abbinamento dei totali fatture](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Panoramica della risoluzione delle discrepanze durante l'abbinamento dei totali fatture](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Conti di contropartita predefiniti per i giornali di registrazione fatture fornitore e i giornali di registrazione approvazione fatture](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Assegnare un tipo di pagamento definito dal sistema, ad esempio assegno, pagamen
 
 [Applicare uno sconto di cassa fuori dal periodo di sconto di cassa](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Creazione di report elettronici per assegni fornitore](electronic-reporting-sample-vendor-checks.md)
+[Creazione di report elettronici per assegni fornitore di esempio](electronic-reporting-sample-vendor-checks.md)
 
 [Stornare un pagamento fornitore](reverse-vendor-payment.md)
 
-[Panoramica delle fatture di pagamento anticipato e dei pagamenti anticipati](prepayments-invoices-vs-prepayments.md)
+[Fatture di pagamento anticipato e pagamenti anticipati a confronto](prepayments-invoices-vs-prepayments.md)
 
 [Pagamenti centralizzati per la contabilità fornitori](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ Negli argomenti riportati di seguito vengono fornite informazioni sulle liquidaz
 
 [Configurare la liquidazione](../cash-bank-management/configure-settlement.md)
 
-[Liquidare un pagamento fornitore parziale prima della data dello sconto](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Liquidare un pagamento fornitore parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Liquidare un pagamento fornitore parziale con più periodi di sconto](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Liquidare un pagamento fornitore parziale o un pagamento finale prima dello sconto](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Liquidare un pagamento fornitore parziale e liquidare completamente il pagamento finale prima della data dello sconto](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Giustificativo singolo con più record cliente o fornitore](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Negli argomenti riportati di seguito vengono fornite informazioni sulle liquidaz
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alle [note sulla versione di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità pianificate. 
+Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità pianificate. 
 
 #### <a name="blogs"></a>Blog
 

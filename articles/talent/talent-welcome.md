@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Talent
+title: Benvenuti in Dynamics 365 Talent
 description: Talent consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Questi processi includono la fidelizzazione dei dipendenti, l'amministrazione dei benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552952"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812766"
 ---
-# <a name="welcome-to-dynamics-365-talent"></a>Dynamics 365 Talent
+# <a name="welcome-to-dynamics-365-talent"></a>Benvenuti in Dynamics 365 Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -53,10 +53,10 @@ Esplorare Dynamics 365 Talent guardando il video [Come iniziare con Dynamics 365
 Con l'utilizzo di Talent è necessario decidere come strutturare l'organizzazione utilizzando elementi quali reparti, mansioni e posizioni. Questi sono tra gli elementi fondamentali da configurare. I singoli dipendenti vengono assegnati alle posizioni che sono associate alle mansioni.
 
 -   [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](departments-jobs-positions.md)
--   [Impostare i parametri di Risorse umane specifici della società](set-up-company-specific-hr-parameters.md)
--   [Impostare i parametri di Risorse umane per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md) 
+-   [Impostare i parametri di Risorse umane (HR) specifici della società](set-up-company-specific-hr-parameters.md)
+-   [Impostare i parametri di Risorse umane (HR) per le persone giuridiche](set-up-hr-parameters-across-legal-entities.md) 
 -   [Domande frequenti sulle azioni del personale](personnel-actions-faq.md)
--   [Panoramica di congedo e assenza](leave-absence-overview.md)
+-   [Gestione di congedo e assenza](leave-absence-overview.md)
 -   [Come utilizzare Dynamics 365 Talent: congedo e assenza (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Come gestire il personale in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Con l'utilizzo di Talent è necessario decidere come strutturare l'organizzazion
 
 Talent include Attract, che consente di identificare, esaminare e assumere candidati con le competenze necessarie all'organizzazione. Nel passaggio dalla fase di selezione del personale a quella di assunzione, l'app Onboard consente di inserire nuovi dipendenti nell'organizzazione con la definizione di aspettative accurate, la specifica delle informazioni necessarie per iniziare a lavorare, la presentazione ai colleghi e la configurazione per riuscire nel nuovo ruolo.  
 
-- [Panoramica di Attract](attract-overview.md)
-- [Panoramica di Onboard](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent - Funzionalità e capacità di Attract](attract-overview.md)
+- [Introduzione a Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Fidelizzare e motivare i dipendenti
 
@@ -82,17 +82,17 @@ Talent include Attract, che consente di identificare, esaminare e assumere candi
 Per consentire ai dipendenti di raggiungere gli obiettivi di avanzamento professionale mentre soddisfano le esigenze aziendali critiche, è possibile impostare gli obiettivi, creare le revisioni delle prestazioni e tenere traccia del riscontro. Per permettere ai dipendenti di sviluppare le competenze necessarie è inoltre possibile impostare gli istruttori, i tipi di corso, i corsi, le descrizioni dei corsi, le agende, le tracce e le sessioni prima di assegnare un istruttore a un corso o iscrivere qualcuno a un corso. I docenti, come i lavoratori, i candidati o i contatti, devono già essere presenti.
 
 -   [Gestione delle prestazioni](performance-management-overview.md)
--   [Allineare le competenze della forza lavoro e le esigenze aziendali](skills.md)
--   [Amministrare la formazione tramite i corsi](courses.md)
+-   [Allineare le competenze della forza lavoro alle esigenze aziendali](skills.md)
+-   [Impostare i corsi di formazione](courses.md)
 -   [Come gestire lo sviluppo dei dipendenti in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Creare e gestire benefit
 
 Oltre a remunerare il personale con salari, stipendi e premi, è possibile sviluppare programmi di benefit, ad esempio piani pensionistici e di assicurazione sanitaria. È inoltre possibile gestire i benefit come programmi di prestito, in cui la società presta elementi, quali computer o cellulari, ai propri dipendenti.
 
--   [Gestire un programma di benefit](manage-benefit-program.md)
+-   [Definire e gestire un programma di benefit](manage-benefit-program.md)
 -   [Criteri di idoneità benefit](benefit-eligibility-policies.md)
--   [Gestire gli articoli prestati ai lavoratori](loan-items.md)
+-   [Gestire gli articoli affidati ai lavoratori](loan-items.md)
 -   [Come gestire i benefit dei dipendenti in Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantenere la conformità e la sicurezza sul posto di lavoro
@@ -107,6 +107,6 @@ Talent consente di mantenere un ambiente di lavoro sicuro e conforme alle leggi 
 È possibile progettare e amministrare questionari per raccogliere le informazioni utilizzate per vari scopi. La funzionalità Gestione questionari consente di progettare e creare questionari. Quando un questionario è pronto, lo si distribuisce su larga scala o a un gruppo specifico di intervistati per il completamento. Dopo che gli intervistati forniscono le risposte, è possibile rivedere e analizzare i risultati.
 
 -   [Questionari](questionnaires.md)
--   [Progettare un questionario](design-questionnaires.md)
--   [Distribuire e completare un questionario](distribute-questionnaires.md)
--   [Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+-   [Progettare questionari](design-questionnaires.md)
+-   [Distribuire e programmare questionari](distribute-questionnaires.md)
+-   [Visualizzare e valutare i risultati dei questionari](evaluate-questionnaire-results.md)

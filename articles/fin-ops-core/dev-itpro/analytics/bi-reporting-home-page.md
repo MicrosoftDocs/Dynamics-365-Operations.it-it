@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536849"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771566"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page di business intelligence (BI) e creazione di report
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 - [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
 - [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
-- [Contenuto di Power BI per Finance and Operations](power-bi-home-page.md)
+- [Home page contenuto Power BI](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documenti aziendali e stampa
 Le soluzioni di creazione report vengono spesso utilizzate per acquisire e comunicare i dettagli di transazioni aziendali. Di conseguenza, una soluzione di creazione report deve essere in grado di produrre manifestazioni fisiche di dati aziendali utilizzando dispositivi esistenti, ad esempio stampanti di rete. Esempi di documenti aziendali includono fatture di vendita, rendiconti cliente e assegni.
@@ -57,9 +57,9 @@ Le soluzioni di creazione report vengono spesso utilizzate per acquisire e comun
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Panoramica di Document Reporting Services](document-reporting-services.md)
-- [Stampa nelle applicazioni Finance and Operations](print-documents.md)
-- [Installazione dell'agente di distribuzione documenti per abilitare le stampanti di rete](install-document-routing-agent.md)
+- [Reporting Services per documenti](document-reporting-services.md)
+- [Panoramica stampa del documento](print-documents.md)
+- [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici conformi ai requisiti legali di vari paesi. Le applicazioni di creazione di report elettronici includono i controlli finanziari, le dichiarazioni fiscali e la fatturazione elettronica.
@@ -70,7 +70,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Creare una configurazione per la creazione di report elettronici ](electronic-reporting-configuration.md)
+- [Creare configurazioni per la creazione di report elettronici](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Creazione di report finanziari
 I report finanziari standard sono forniti per utilizzare le categorie di conti principali predefiniti. È possibile utilizzare la finestra di progettazione report per creare o modificare i rendiconti finanziari tradizionali, ad esempio conti economici e stati patrimoniali. È possibile quindi condividere i risultati con altri membri dell'organizzazione. Esempi di report finanziari includono gli stati patrimoniali, il flusso di cassa e il bilancio di verifica riepilogativo annuale.
@@ -79,14 +79,14 @@ I report finanziari standard sono forniti per utilizzare le categorie di conti p
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Creazione di report finanziari per Finance and Operations](financial-reporting-intro.md)
-- [Generare un report finanziario](generate-financial-report.md)
+- [Creazione di report finanziari](financial-reporting-intro.md)
+- [Generare report finanziari](generate-financial-report.md)
 - [Componenti del report finanziario](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Report tecnici di riferimento
 I seguenti report forniscono informazioni di riferimento sugli oggetti:
 
-- [Report entità di dati](../data-entities/data-entities-report.md)
+- [Trovare le informazioni sulle entità di dati standard](../data-entities/data-entities-report.md)
 - [Report su codici di licenza e chiavi di configurazione](../sysadmin/license-codes-configuration-keys-report.md)
-- [Report di SQL Server Reporting Services](SSRS-report.md)
-- [Report per tipi di flussi di lavoro](../../fin-ops/organization-administration/workflow-types-report.md)
+- [Report di SQL Server Reporting Services (SSRS) disponibili](SSRS-report.md)
+- [Report per i tipi di flussi di lavoro](../../fin-ops/organization-administration/workflow-types-report.md)
