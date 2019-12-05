@@ -3,7 +3,7 @@ title: Assegnare gli utenti ai ruoli di sicurezza
 description: Per accedere alle app Finance and Operations, è necessario assegnare utenti a ruoli di sicurezza.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180969"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807998"
 ---
 # <a name="assign-users-to-security-roles"></a>Assegnare gli utenti ai ruoli di sicurezza
 
@@ -37,6 +37,9 @@ Per utilizzare altri elementi oltre alle capacità comuni, è necessario assegna
 5. Nell'elenco **Nome regola di appartenenza**, fare clic sul collegamento nella riga selezionata.
 6. Fare clic su **Modifica query**. Modificare la query, se necessario.  
 7. Fare clic su **OK**.
+8. Fare clic su **Esegui assegnazione automatica ruoli**.
+9. Passare a **Pannello di navigazione > Moduli > Amministrazione sistema > Utenti > Utenti** (idealmente in una scheda separata del browser).
+10. Esaminare i ruoli assegnati ai vari utenti per confermare che la query di assegnazione ruolo è corretta. Modificare e rieseguire se necessario.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Escludere gli utenti dall'assegnazione automatica dei ruoli
 1. Chiudere la pagina.

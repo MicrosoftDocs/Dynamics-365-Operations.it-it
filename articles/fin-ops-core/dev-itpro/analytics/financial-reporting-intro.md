@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181797"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771144"
 ---
 # <a name="financial-reporting"></a>Creazione di report finanziari
 
@@ -47,14 +47,14 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 | Componente        | Funzioni | Ulteriori informazioni |
 |------------------|-----------|------------------------|
 | Progettazione report  | Creare blocchi predefiniti di report che possono essere combinati per definire e generare un report. La creazione guidata report guida gli utenti con meno esperienza nel processo di pianificazione. Gli utenti esperti possono creare nuovi blocchi predefiniti del report o modificare i blocchi predefiniti esistenti per soddisfare le proprie esigenze. | |
-| Programmazioni del report | Programmare un unico report o un gruppo di report in modo che viene generato a intervalli regolari. | [Generare un report finanziario](generate-financial-report.md) |
+| Programmazioni del report | Programmare un unico report o un gruppo di report in modo che viene generato a intervalli regolari. | [Generare report finanziari](generate-financial-report.md) |
 
 ## <a name="features"></a>Funzionalità
 <table>
 <thead>
 <tr>
 <th>Funzionalità</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -96,4 +96,4 @@ I seguenti componenti dei report finanziari rendono facile creare, visualizzare 
 </table>
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Generare un report finanziario](generate-financial-report.md)
+[Generare report finanziari](generate-financial-report.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185246"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769999"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
@@ -58,7 +58,7 @@ I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al d
 
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 
-I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Responsabile procedura**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Panoramica dell'integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
+I seguenti dati vengono utilizzati per compilare le pagine di report nel contenuto Power BI **Responsabile procedura**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
 Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in ciascuna entità.
 

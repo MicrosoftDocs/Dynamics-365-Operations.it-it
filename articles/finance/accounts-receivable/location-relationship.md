@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550511"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770898"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Aggiungere tipi di relazione tra ruolo ubicazione e parte 
 
@@ -41,7 +41,7 @@ Sono disponibili due modi per aggiungere nuovi ruoli ubicazione per le informazi
 
     1.  Creare un'estensione all'enumerazione **LogisticsLocationRoleType** e aggiungere il nuovo ruolo nell'estensione. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Estensione dell'enumerazione LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Creare un nuovo file di risorse per il nuovo ruolo e quindi assegnare un valore per le relative proprietà.
      
@@ -69,7 +69,7 @@ Sono disponibili due modi per aggiungere un nuovo tipo di relazione:
 
     2. Creare un inizializzatore per questo nuovo tipo. È possibile trovare molti esempi nel codice di base, uno di questi è **DirRelationshipTypeChildInitialize**. Si tratta di una classe di inizializzatore per il tipo di relazione della parte "figlio". È possibile iniziare con l'inizializzatore copiando e incollando questo codice e quindi aggiornare le aree evidenziate.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![Inizializzatore DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Per testare il popolamento del nuovo tipo di relazione, è possibile creare una classe eseguibile e richiamare DirDataPopulation::insertDirRelationshipTypes() in Main(). Si dovrebbe visualizzare il nuovo tipo di relazione in **DirRelationshipTypeTable** e il nuovo tipo di relazione sarà disponibile nella pagina **Tipi di relazione**.
 

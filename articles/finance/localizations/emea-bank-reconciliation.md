@@ -17,12 +17,12 @@ ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2ad9c8daf40750839ed7b16fb529e0de35d19a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fbdefce85fbd7aee228cdcb58f29007478c1485
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175790"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772875"
 ---
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rendiconto bancario e riconciliazione dei pagamenti dell'UE
 
@@ -46,14 +46,14 @@ Oltre a un rendiconto bancario, le banche possono generare messaggi specifici, c
 
 ### <a name="import-formats"></a>Formato di importazione
 
--   Messaggio di notifica della banca ISO 20022 [camt.054](emea-ISO20022-file-formats.md)
+-   Messaggio di notifica della banca [ISO 20022 camt.054](emea-ISO20022-file-formats.md)
 -   [Formato di importazione Nets](emea-nor-nets-import-format.md) - Complessa funzionalità per i formati di pagamento norvegesi
--   [Importazione pagamenti clienti ESR](emea-che-esr-customer-payments-import.md)
+-   [Importazione pagamenti cliente PVR](emea-che-esr-customer-payments-import.md) 
 -   formati di importazione pagamenti per la Svezia - formati BankGirot Max e BankGirot OCR
 
 ### <a name="return-formats"></a>Formati di risposta
 
--   Report sullo stato dei pagamenti ISO 20022 [pain.002](emea-ISO20022-file-formats.md)
+-   Report sullo stato dei pagamenti [ISO 20022 pain.002](emea-ISO20022-file-formats.md)
 -   (DNK) BetalingsserviceBasis-returformat - Formato di risposta per il formato di esportazione clienti Betalingsservice
 -   [Formati di importazione pagamenti per la Svezia](emea-swe-payment-formats-import.md) - Risposte Bankgirot Autogiro
 -   Risposta (SWE) BankGirot - Formato di risposta pagamenti fornitori che corrisponde al formato di esportazione Bankgirot

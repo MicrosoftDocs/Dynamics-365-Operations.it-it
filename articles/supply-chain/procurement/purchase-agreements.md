@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248934"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813364"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali. 
 
@@ -80,6 +81,9 @@ Quando si crea un ORDINE FORNITORE, è possibile applicarvi un contratto di acqu
 È possibile selezionare un contratto di acquisto solo quando si crea un ORDINE FORNITORE. Non è possibile selezionare un contratto di acquisto dopo che il PO è stato creato.  
 In alcune situazioni in cui gli ordini acquisto vengono creati indirettamente, è possibile stabilire se in Supply Chain Management deve essere eseguita la ricerca automatica dei contratti di acquisto applicabili, ad esempio è possibile effettuare questa operazione quando si esegue la stabilizzazione automatica degli ordini fornitore pianificati o si creano ordini fornitore basati su ordini cliente.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Criteri di abbinamento dei contratti di acquisto
+È possibile definire i criteri di abbinamento riga nell'intestazione del contratto di acquisto. Questi criteri di abbinamento riga rispettano i parametri della contabilità fornitori quando il campo **Consenti di ignorare i criteri di abbinamento** della pagina **Parametri contabilità fornitori** (scheda dettaglio **Abbinamento prezzo e quantità** ) è impostato **Superiore ai criteri società**. I documenti che fanno riferimento al contratto di acquisto utilizzano i criteri di abbinamento riga definiti nell'intestazione del contratto di acquisto a meno che altrimenti definito nei corrispondenti criteri di acquisto per l'articolo, l'articolo e il fornitore o la categoria.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratti di acquisto e commercio interaziendale
 Le relazioni commerciali interaziendali possono essere create tra conti fornitore e conti cliente in persone giuridiche diverse. Quando un ordine cliente o un ordine fornitore viene creato per una delle parti, viene creata una catena di ordini interaziendali. Nella catena di ordini, l'ordine cliente e l'ordine fornitore vengono creati nelle persone giuridiche competenti.  
 
@@ -93,9 +97,9 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Creare un contratto di acquisto (Guida attività)](tasks/create-purchase-agreement.md)
+[Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
 
-[Creare un ordine fornitore di rilascio da un contratto di acquisto (Guida attività)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Creare un ordine fornitore di rilascio da un contratto di acquisto](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571003"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812239"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571003"
 
 Un tipo cespite è associato a ogni cespite. I tipi di cespite definiscono i tipi di processo di manutenzione (e di conseguenza i processi di manutenzione) che possono essere eseguiti nei cespiti. Quando si crea un ordine di lavoro, è necessario selezionare un tipo di processo di manutenzione. È possibile selezionare solo i tipi di processo di manutenzione correlati all'impostazione del tipo di cespite utilizzato per il cespite.
 
-Per una panoramica grafica dei cespiti e dei tipi di processo di manutenzione e la connessione degli stessi agli ordini di lavoro, vedere [Cespiti e ordini di lavoro](../overview/functional-locations-and-objects.md).
+Per una panoramica grafica dei cespiti e dei tipi di processo di manutenzione e la connessione degli stessi agli ordini di lavoro, vedere [Unità funzionali e cespiti](../overview/functional-locations-and-objects.md).
 
 Le varianti di tipi di processo di manutenzione possono essere impostate in un tipo di processo di manutenzione. Le varianti di tipi di processo di manutenzione definiscono le variazioni di un tipo di processo, ad esempio dimensioni (piccole, medie o grandi), periodi (settimanale, bisettimanale, un mese o tre mesi) e configurazioni (prestazioni ridotte, standard, flessibili o alte).
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ecba97014d77c32855b5614c1feae8cbfab4cd5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 083b6cb604115c3f2a72a5ba23199e1517fc1ea1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178478"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771902"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -299,5 +299,5 @@ La netta separazione tra **Allocazione costi** e **Criteri rollup costi** fornis
 ## <a name="additional-resources"></a>Risorse aggiuntive
 -  [Dimensioni oggetto di costo](cost-objects.md)
 -  [Dimensioni elemento di costo](cost-elements.md)
--  [Gerarchie di dimensioni](dimension-hierarchy.md)
+-  [Gerarchia dimensioni](dimension-hierarchy.md)
 -  [Calcolo generale](overhead-calculation.md)

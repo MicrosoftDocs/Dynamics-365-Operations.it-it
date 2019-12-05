@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666832"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770668"
 ---
 # <a name="sales-tax-overview"></a>Panoramica dell'IVA
 
@@ -38,7 +38,7 @@ Il framework dell'IVA supporta numerosi tipi di imposte indirette, ad esempio im
 
 Nel seguente diagramma vengono mostrate le entità di impostazione imposte e viene indicato come sono correlate.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagramma che mostra una panoramica delle entità di impostazione imposte](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Per ogni importo IVA che una società deve contabilizzare, un codice IVA deve essere definito. In un codice VAT sono archiviate le aliquote di imposta e le regole di calcolo dell'IVA. 
 

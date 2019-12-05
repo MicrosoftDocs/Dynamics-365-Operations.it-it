@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518402"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813985"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Visualizzare e valutare i risultati dei questionari
 
@@ -57,7 +57,8 @@ Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, 
 -   **Report risposte**: il report mostra le risposte che l'intervistato ha selezionato per ciascuna domanda del questionario.
 -   **Risposte errate**: questo report mostra le informazioni correlate alle risposte errate selezionate dall'intervistato.
 
-**Nota:** il report **Risultati** è disponibile solo se si utilizzano i gruppi di risultati del questionario e se è stato selezionato **Pagina risultati** nella pagina **Questionari**. Il report **Risposta** e il report **Risposte errate** sono disponibili solo se **Report risposte** è stato selezionato nella pagina **Questionari**.
+> [!NOTE]
+> Il report **Risultati** è disponibile solo se si utilizzano i gruppi di risultati del questionario e se è stato selezionato **Pagina risultati** nella pagina **Questionari**. Il report **Risposta** e il report **Risposte errate** sono disponibili solo se **Report risposte** è stato selezionato nella pagina **Questionari**.
 
 ## <a name="questionnaire-statistics"></a>Statistiche questionario
 È possibile utilizzare le statistiche del questionario per analizzare i risultati di un questionario completato, basato sui calcoli definiti. Per definire i calcoli, è necessario completare le seguenti attività:
@@ -75,9 +76,9 @@ Le impostazioni definite vengono salvate e possono essere utilizzate per ricalco
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Progettazione di questionari](design-questionnaires.md)
+[Progettare questionari](design-questionnaires.md)
 
-[Utilizzo di questionari](questionnaires.md)
+[Questionari](questionnaires.md)
 
-[Distribuzione e completamento di questionari](distribute-questionnaires.md)
+[Distribuire e programmare questionari](distribute-questionnaires.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537857"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812582"
 ---
 # <a name="connect-the-help-system"></a>Connettere la Guida
 
@@ -80,7 +80,7 @@ Le guide attività tradotte sono state fornite per la prima volta nella libreria
 
 È possibile creare la Guida personalizzata per Finance, Supply Chain Management e Retail per creare registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali LCS. Non è possibile creare Guide attività personalizzate per Talent.
 
-Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. È inoltre possibile effettuare una copia della libreria globale unificata APQC e quindi aprire la copia, aprire le registrazioni attività dalla copia, modificarle e salvare le registrazioni con le modifiche. Per ulteriori informazioni, vedere [Come creare una registrazione attività da utilizzare come documentazione o formazione](../../dev-itpro/user-interface/task-recorder.md).
+Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. È inoltre possibile effettuare una copia della libreria globale unificata APQC e quindi aprire la copia, aprire le registrazioni attività dalla copia, modificarle e salvare le registrazioni con le modifiche. Per ulteriori informazioni, vedere [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Collegare un sito personalizzato
 
@@ -91,8 +91,8 @@ Microsoft ha fornito un white paper e codice di esempio che descrivono come crea
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica della Guida](help-overview.md)
+[Guida](help-overview.md)
 
-[Panoramica sulla registrazione attività](../../dev-itpro/user-interface/task-recorder.md)
+[Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md)
 
-[Come creare una registrazione di attività da utilizzare per documentazione o formazione](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Creare la documentazione o la formazione con Registrazione attività](../../dev-itpro/user-interface/task-recorder-training-docs.md)

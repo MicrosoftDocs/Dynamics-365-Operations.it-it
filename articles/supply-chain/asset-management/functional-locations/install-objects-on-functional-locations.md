@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571808"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811828"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installare cespiti nelle unità funzionali
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571808"
 
  
 
-Dopo aver creato le strutture di unità funzionali, sarà necessario installare i cespiti nelle unità funzionali pertinenti. In questo argomento viene illustrato come installare cespiti in tali unità funzionali in Gestione cespiti. Per informazioni sulla modalità di creazione dei cespiti, vedere [Cespiti](../objects/introduction-to-objects.md).
+Dopo aver creato le strutture di unità funzionali, sarà necessario installare i cespiti nelle unità funzionali pertinenti. In questo argomento viene illustrato come installare cespiti in tali unità funzionali in Gestione cespiti. Per informazioni sulla modalità di creazione dei cespiti, vedere [Introduzione ai cespiti](../objects/introduction-to-objects.md).
 
 Se è stata creata una struttura di cespiti, l'intera struttura di cespiti deve essere installata in un'unità funzionale. Di conseguenza, solo i cespiti padre (cespiti di primo livello che non hanno cespite padre) possono essere selezionati in un'unità funzionale. Tutti i cespiti correlati figlio (cespiti secondati) verranno anche installati nell'unità funzionale. Quando si installano i cespiti in un'unità funzionale, le dimensioni finanziarie dell'unità funzionale possono essere trasferite automaticamente a essi, in base alle impostazioni del tipo di unità funzionale selezionato per l'unità funzionale. Per ulteriori informazioni su come impostare i tipi di unità funzionale, vedere [Tipi di unità funzionali](../setup-for-functional-locations/functional-location-types.md).
 

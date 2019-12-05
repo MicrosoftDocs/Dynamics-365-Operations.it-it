@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181912"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770025"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
 
@@ -184,7 +184,7 @@ Fare clic sul pulsante **Impostazioni** per il nuovo record di destinazione. Qui
     [![Mappa aggiornata](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Accedere al report di Power BI in Finance
-Impostare l'integrazione con Power BI. Per ulteriori informazioni, vedere [Configurazione dell'integrazione di Power BI per le aree di lavoro](configure-power-bi-integration.md).
+Impostare l'integrazione con Power BI. Per ulteriori informazioni, vedere [Configurare l'integrazione di Power BI per le aree di lavoro](configure-power-bi-integration.md).
 
 1. Nella pagina dell'area di lavoro **Creazione di report elettronici** che supporta l'integrazione di Power BI(**Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Area di lavoro creazione di report elettronici**), fare clic su **Opzioni** &gt; **Apri catalogo di report**.
 2. Selezionare il report di Power BI **Dettagli di esportazione e importazione** creato, per visualizzare il report come elemento di azione nella pagina selezionata.
@@ -194,6 +194,6 @@ Impostare l'integrazione con Power BI. Per ulteriori informazioni, vedere [Confi
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+[Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md)
 
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)

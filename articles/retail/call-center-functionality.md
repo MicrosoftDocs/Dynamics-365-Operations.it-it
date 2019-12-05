@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025773"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812341"
 ---
 # <a name="call-center-sales-functionality"></a>Funzionalità di vendita del servizio clienti
 
@@ -44,17 +44,17 @@ In questa pagina vengono forniti collegamenti alla documentazione su impostazion
 
 ## <a name="configure-the-call-center"></a>Configurazione del servizio clienti
 
-[Impostare le opzioni di elaborazione dell'ordine](set-up-order-processing-options.md)
+[Impostare canali del servizio clienti](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurazione dell'elaborazione degli ordini
 
-[Impostare avvisi antifrode](set-up-fraud-alerts.md)
+[Impostazione e utilizzo degli avvisi di frode del servizio clienti](set-up-fraud-alerts.md)
 
-[Sospensioni ordine manuali](work-with-order-holds.md)
+[Configurare e utilizzare le sospensioni degli ordini del servizio clienti](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurazione dell'elaborazione dei pagamenti
 
-[Metodi di pagamento in un servizio clienti](work-with-payments.md)
+[Metodi di pagamento nei servizi clienti](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurare le modalità di consegna
 
@@ -64,8 +64,8 @@ In questa pagina vengono forniti collegamenti alla documentazione su impostazion
 
 [Cataloghi del servizio clienti](call-center-catalogs.md)
 
-[Impostare l'analisi RFM](set-up-rfm-analysis.md)
+[Impostare l'analisi Recency, Frequency and Monetary (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurazione di programmi di continuità
 
-[Impostare un programma di continuità per un servizio clienti](set-up-continuity-program.md)
+[Impostare programmi di continuità per i servizi clienti](set-up-continuity-program.md)

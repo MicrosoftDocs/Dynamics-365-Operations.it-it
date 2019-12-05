@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025055"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811195"
 ---
 # <a name="retail-peripherals"></a>Periferiche di vendita al dettaglio
 
@@ -35,11 +35,17 @@ In questo argomento vengono descritti i concetti correlati alle periferiche di v
 
 ### <a name="pos-registers"></a>Registratori di cassa POS
 
-Navigazione: Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. Il registratore di cassa POS rappresenta un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche di vendita al dettaglio che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato e l'esperienza visiva dell'utente che accede a tale registratore.
+Navigazione: Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. 
+
+Il registratore di cassa POS rappresenta un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche di vendita al dettaglio che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato e l'esperienza visiva dell'utente che accede a tale registratore.
 
 ### <a name="devices"></a>Periferiche
 
-Navigazione: Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Dispositivi**. Un dispositivo è un'entità che rappresenta un'istanza fisica di un dispositivo che viene mappato a un registratore di cassa POS. Quando viene creato un dispositivo, viene mappato a un registratore di cassa POS. L'entità dispositivo tiene traccia delle informazioni sull'attivazione di un registratore di cassa POS, il tipo di client in uso e il pacchetto dell'applicazione che è stato distribuito in un dispositivo specifico. I dispositivi possono essere mappati ai seguenti tipi di applicazione: Retail Modern POS, POS cloud vendita al dettaglio, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.
+Navigazione: Fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Dispositivi**. 
+
+Un dispositivo è un'entità che rappresenta un'istanza fisica di un dispositivo che viene mappato a un registratore di cassa POS. Quando viene creato un dispositivo, viene mappato a un registratore di cassa POS. L'entità dispositivo tiene traccia delle informazioni sull'attivazione di un registratore di cassa POS, il tipo di client in uso e il pacchetto dell'applicazione che è stato distribuito in un dispositivo specifico. 
+
+I dispositivi possono essere mappati ai seguenti tipi di applicazione: Retail Modern POS, POS cloud vendita al dettaglio, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ Le periferiche POS sono dispositivi supportati in modo esplicito per le funzioni
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigazione: fare clic su **Vendita al dettaglio** &gt; **Canali** &gt; **Punti vendita al dettaglio** &gt; **Tutti i punti vendita al dettaglio**. Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**. L'impostazione **Stazione hardware** è un'impostazione a livello di canale utilizzata per definire le istanze in cui la logica della periferica di vendita al dettaglio viene distribuita. Questa impostazione a livello di canale viene utilizzata per determinare le caratteristiche della stazione hardware. Sarà inoltre utilizzata per elencare le stazioni hardware disponibili per un'istanza Modern POS in un punto vendita specifico. La stazione hardware è integrata nel programma Modern POS per Windows. La stazione hardware può essere anche distribuita in modo indipendente come programma Microsoft Internet Information Services (IIS) autonomo. In questo caso, vi si può accedere tramite una rete.
+Navigazione: fare clic su **Vendita al dettaglio** &gt; **Canali** &gt; **Punti vendita al dettaglio** &gt; **Tutti i punti vendita al dettaglio**. 
+
+Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**. L'impostazione **Stazione hardware** è un'impostazione a livello di canale utilizzata per definire le istanze in cui la logica della periferica di vendita al dettaglio viene distribuita. Questa impostazione a livello di canale viene utilizzata per determinare le caratteristiche della stazione hardware. Sarà inoltre utilizzata per elencare le stazioni hardware disponibili per un'istanza Modern POS in un punto vendita specifico. La stazione hardware è integrata nel programma Modern POS per Windows. La stazione hardware può essere anche distribuita in modo indipendente come programma Microsoft Internet Information Services (IIS) autonomo. In questo caso, vi si può accedere tramite una rete.
 
 ### <a name="hardware-profile"></a>Profilo hardware
 
-Navigazione: fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili hardware**. Il profilo hardware è un elenco di dispositivi configurati per un registratore di cassa POS o una stazione hardware. Il profilo hardware può essere mappato direttamente a un registratore di cassa POS o a una stazione hardware.
+Navigazione: fare clic su **Vendita al dettaglio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili hardware**. 
+
+Il profilo hardware è un elenco di dispositivi configurati per un registratore di cassa POS o una stazione hardware. Il profilo hardware può essere mappato direttamente a un registratore di cassa POS o a una stazione hardware.
 
 ## <a name="devices-classes"></a>Classi di dispositivi
 Le periferiche POS vengono suddivise in genere in classi. Questa sezione descrive e offre una panoramica dei dispositivi supportati da Modern POS.
@@ -202,11 +212,11 @@ La logica che controlla le periferiche rete connesse fisicamente e indirizzabili
 
 ### <a name="hardware-station-installation"></a>Installazione della stazione hardware
 
-Per informazioni, vedere [Configurazione e installazione di una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).
+Per informazioni, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Installazione e configurazione di Modern POS per Windows
 
-Per informazioni, vedere [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
+Per informazioni, vedere [Configurare, installare e attivare Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Installazione e configurazione di dispositivi OPOS
 
@@ -523,7 +533,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 
 ## <a name="configuration-for-supported-scenarios"></a>Configurazione per scenari supportati
 
-Per ulteriori informazioni sulla creazione di profili hardware, vedere [Definire e gestire i client di canale, inclusi i registratori di cassa e le stazioni hardware](define-maintain-channel-clients-registers-hw-stations.md).
+Per ulteriori informazioni sulla creazione di profili hardware, vedere [Connettere periferiche al POS](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Per Retail versione 1611, il profilo della stazione hardware non è più usato. Gli attributi precedentemente impostati nel profilo della stazione hardware ora fanno parte della stazione hardware stessa.
@@ -566,8 +576,8 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS con l
 4. Fare clic su **Vendita al dettaglio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
 5. Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 6. Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
-7. Installare la stazione hardware. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurazione e installazione di una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).
-8. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
+7. Installare la stazione hardware. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md).
+8. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurare, installare e attivare Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9. Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 10. Avviare l'operazione **Gestisci stazioni hardware**
 11. Fare clic su **Gestisci**.
@@ -595,8 +605,8 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS che c
 5. Fare clic su **Vendita al dettaglio** &gt; **IT vendita al dettaglio** &gt; **Programmazione della distribuzione**.
 6. Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
 7. Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
-8. Installare la stazione hardware in ogni computer host impostato nel passaggio 2 e 3. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurazione e installazione di una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).
-9. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurazione e installazione di Retail Modern POS](retail-modern-pos-device-activation.md).
+8. Installare la stazione hardware in ogni computer host impostato nel passaggio 2 e 3. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md).
+9. Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurare, installare e attivare Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 11. Avviare l'operazione **Gestisci stazioni hardware**
 12. Fare clic su **Gestisci**.
@@ -655,7 +665,7 @@ A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono 
 
 ## <a name="peripheral-simulator"></a>Simulatore periferica
 
-Per ulteriori informazioni, vedere [Simulatore periferica di vendita al dettaglio](dev-itpro/retail-peripheral-simulator.md).
+Per ulteriori informazioni, vedere [Simulatore di periferica per vendita al dettaglio](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Periferiche testate da Microsoft
 
@@ -896,4 +906,4 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Simulatore di periferica Retail](dev-itpro/retail-peripheral-simulator.md)
+[Simulatore di periferica per vendita al dettaglio](dev-itpro/retail-peripheral-simulator.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186603"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771847"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -91,7 +91,7 @@ La terza opzione consiste nell'utilizzare i gruppi di conti di consolidamento. �
 ![Mapping nella pagina dei conti di consolidamento aggiuntivi](./media/additional-consolidation-accounts.png "Mapping nella pagina dei conti di consolidamento aggiuntivi")
 
 ## <a name="consolidating-online"></a>Consolidamento online
-Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidare online](./consolidate-online.md).
+Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Gestione delle transazioni di consolidamento
 Per visualizzare i risultati del consolidamento, sono disponibili più opzioni:
@@ -128,7 +128,7 @@ Selezionare i conti di origine. È possibile utilizzare un asterisco (\*) come c
 
 Dopo aver selezionato i conti di origine, utilizzare il campo **Specifica conto** per specificare il conto che viene utilizzato dalla società di destinazione. Selezionare **Origine** per utilizzare lo stesso conto principale che viene definito nel conto principale. Se si seleziona **Definito dall'utente**, è necessario specificare un conto di destinazione.
 
-![Pagina di riga della regola di eliminazione contabile](./media/ledger-elimination-rule-line.png "Pagina di riga della regola di eliminazione contabile")
+![Pagina Riga regola di eliminazione contabile](./media/ledger-elimination-rule-line.png "Pagina Riga regola di eliminazione contabile")
 
 Il campo **Specifica dimensioni** funziona come il campo **Specifica conto**. Selezionare **Origine** per utilizzare le stesse dimensioni nella società di origine e in quella di destinazione. Se si seleziona **Definito dall'utente**, è necessario specificare le dimensioni nella società di destinazione selezionando **Dimensioni di destinazione**. Selezionare quindi le dimensioni di origine e i valori e le dimensioni finanziarie utilizzati come origine dell'eliminazione.
 

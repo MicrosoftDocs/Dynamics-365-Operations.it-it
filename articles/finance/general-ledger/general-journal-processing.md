@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570242"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771824"
 ---
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
@@ -84,8 +84,8 @@ L'impostazione del conto principale offre numerose opzioni per l'elaborazione de
 
 Le strutture di contabilità e delle regole avanzate sono estremamente importanti per garantire che i dati necessari per i report finanziari e il monitoraggio delle prestazioni vengano acquisiti durante l'elaborazione del giornale di registrazione generale e in qualsiasi documentazione. Le strutture di contabilità e delle regole avanzate consentono di personalizzare l'esperienza dell'immissione dati. È possibile consentire l'immissione di dati solo per le dimensioni finanziarie pertinenti in ogni situazione ed è inoltre possibile applicare la condizione che vengano sempre acquisiti i dati richiesti e precisi.
 
-Per ulteriori informazioni, vedere i seguenti argomenti:
-- [Pianificazione: piano dei conti](plan-chart-of-accounts.md). 
+Per ulteriori informazioni, vedere gli argomenti seguenti:
+- [Definire il piano dei conti](plan-chart-of-accounts.md) 
 - [Creare regole avanzate per giornali di registrazione](tasks/create-advanced-rules-journals.md)
 - [Creare una scrittura contabile utilizzando un modello](tasks/create-journal-entry-template.md)
 - [Creare e convalidare giornali di registrazione](tasks/create-validate-journals.md)

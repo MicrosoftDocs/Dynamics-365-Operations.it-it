@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652619"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824522"
 ---
-# <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
+# <a name="business-document-management-overview"></a>Panoramica di gestione dei documenti aziendali
 
-Gli utenti aziendali utilizzano il [framework ER](general-electronic-reporting.md) per configurare i formati per documenti in uscita in base ai requisiti legali dei vari paesi. Gli utenti possono inoltre definire il flusso di dati per specificare i dati dell'applicazione da inserire nei documenti generati. Il framework ER genera documenti in uscita nei formati di Microsoft Office (cartelle di lavoro di Excel o documenti di Word) utilizzando modelli predefiniti. Nei modelli vengono inseriti i dati necessari in base al flusso di dati configurato durante la generazione dei documenti richiesti. Ogni formato configurato può essere pubblicato come parte di una soluzione ER per generare specifici documenti in uscita. Ciò è rappresentato da una configurazione di formato ER che può contenere modelli utilizzabili per generare differenti documenti in uscita. Gli utenti aziendali possono utilizzare questo framework per gestire i documenti aziendali necessari.
+Gli utenti aziendali utilizzano la [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md) per configurare i formati per documenti in uscita in base ai requisiti legali dei vari paesi. Gli utenti possono inoltre definire il flusso di dati per specificare i dati dell'applicazione da inserire nei documenti generati. Il framework ER genera documenti in uscita nei formati di Microsoft Office (cartelle di lavoro di Excel o documenti di Word) utilizzando modelli predefiniti. Nei modelli vengono inseriti i dati necessari in base al flusso di dati configurato durante la generazione dei documenti richiesti. Ogni formato configurato può essere pubblicato come parte di una soluzione ER per generare specifici documenti in uscita. Ciò è rappresentato da una configurazione di formato ER che può contenere modelli utilizzabili per generare differenti documenti in uscita. Gli utenti aziendali possono utilizzare questo framework per gestire i documenti aziendali necessari.
 
 La funzionalità **Gestione documenti aziendali** si basa sul framework ER e consente agli utenti aziendali di modificare i modelli di documenti aziendali tramite il servizio Microsoft Office 365 o l'applicazione desktop Microsoft Office appropriata. Le modifiche ai documenti possono includere le modifiche alle strutture di documenti aziendali e l'aggiunta di segnaposto per dati aggiuntivi senza alterazione del codice sorgente e nuove distribuzioni. Non è richiesta alcuna conoscenza del framework ER per aggiornare i modelli di documenti aziendali.
 
@@ -58,21 +59,17 @@ I seguenti report, con modelli basati su Excel, saranno disponibili con la versi
 
 Altri report saranno presto disponibili. Notifiche speciali sui report aggiuntivi saranno inviate separatamente. 
 
-Un elenco completo di tutti i report pianificati per la versione di ottobre 2019 sono disponibili in [Report dei documenti aziendali configurabili in Word e Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>Esempio: attivare, configurare e utilizzare Gestione documenti aziendali
-
-Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
+Un elenco completo di tutti i report pianificati per la versione di ottobre 2019 sono disponibili in [Report dei documenti aziendali configurabili in Word e Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
 
 ## <a name="configure-er-parameters"></a>Configurare i parametri ER
 
-Poiché la funzionalità Gestione documenti aziendali si basa sul framework ER, è necessario configurare i parametri ER per iniziare a utilizzarla. A questo scopo, è necessario impostare i parametri ER come descritto in [Configurare il framework ER](electronic-reporting-er-configure-parameters.md). È inoltre necessario aggiungere un nuovo provider di configurazione come descritto in [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Poiché la funzionalità Gestione documenti aziendali si basa sul framework ER, è necessario configurare i parametri ER per iniziare a utilizzarla. A questo scopo, è necessario impostare i parametri ER come descritto in [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md). È inoltre necessario aggiungere un nuovo provider di configurazione come descritto in [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Area di lavoro ER](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Importare soluzioni ER
 
-È necessario importare configurazioni ER contenenti modelli di documenti aziendali nell'istanza corrente. Scaricare e archiviare localmente i seguenti file per completare questa procedura.
+Le configurazioni di ER di esempio vengono utilizzate nell'esempio di questa procedura. È necessario importare nell'istanza corrente di Dynamics 365 Finance le configurazioni di ER contenenti i modelli di documento aziendale che possono essere modificati utilizzando la gestione dei documenti aziendali. Scaricare e archiviare localmente i seguenti file per completare questa procedura.
 
 **Esempio di soluzione di fatturazione di clienti ER**
 
@@ -105,7 +102,13 @@ Per importare ogni file attenersi alla seguente procedura. Importare la configur
 
 ![Pagina delle configurazioni ER](./media/BDM-Overview-ERSolutions.png)
 
+
+In alternativa, è possibile importare le configurazioni di formato ER ufficialmente pubblicate da Microsoft Dynamics Lifecycle Service (LCS). Ad esempio, per completare questa procedura è possibile importare l'ultima versione della configurazione del formato ER **Fattura a testo libero (Excel)**. Il corrispondente modello di dati ER e le configurazioni di mapping di modello ER verranno importati automaticamente.
+
+![Pagina del contenuto della libreria delle risorse condivise in LCS](./media/BDM-Overview-SharedAssetLibrary.png)
+
 Per ulteriori informazioni sull'importazione delle configurazioni ER, vedere [Gestire il ciclo di vita della configurazione ER](general-electronic-reporting-manage-configuration-lifecycle.md).
+
 
 ## <a name="enable-business-document-management"></a>Abilitare Gestione documenti aziendali
 
@@ -118,9 +121,12 @@ Utilizzare la procedura seguente per abilitare la funzionalità Gestione documen
 3. Selezionare **Abilita ora** per attivare la funzionalità selezionata.
 4. Aggiorna la pagina per accedere alla nuova funzionalità.
 
+>[!NOTE]
+> È inoltre necessario abilitare l'**esperienza di interfaccia utente simile a Office per la gestione dei documenti aziendali** per utilizzare la nuova interfaccia di gestione dei documenti aziendali
+
 ![Area di lavoro Gestione funzionalità](./media/BDM-Overview-FMEnabling.png)
 
-Per ulteriori informazioni sull'attivazione di nuove funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Per ulteriori informazioni sull'attivazione di nuove funzionalità, vedere [Panoramica della gestione funzionalità](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="configure-parameters"></a>Configurare i parametri
 
@@ -137,7 +143,7 @@ Per questo tipo di documento, i seguenti valori di attributi devono essere selez
 | Raggruppa               | File                  |
 | Ubicazione            | SharePoint            |
 
-Per informazioni su come impostare i parametri di gestione dei documenti e i tipi di documento necessari, vedere [Configurare la gestione dei documenti](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
+Per informazioni su come impostare i parametri di gestione dei documenti e i tipi di documento necessari, vedere [Configurare la gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Impostare il tipo di documento in Gestione documenti](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ Utilizzare la procedura seguente per impostare le autorizzazioni di Gestione doc
 1. Accedere come utente con accesso alla pagina **Configurazione delle autorizzazioni di accesso**.
 2. Accedere a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Gestione documenti aziendali** \> **Gestisci autorizzazioni di accesso**.
 
-Prestare attenzione alla notifica che informa che l'utilizzo delle autorizzazioni di accesso per Gestione documenti aziendali non è attualmente abilitata.
+    Prestare attenzione alla notifica che informa che l'utilizzo delle autorizzazioni di accesso per Gestione documenti aziendali non è attualmente abilitata.
 
-![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess1.png)
 
-Con questa impostazione, ogni utente assegnato a un qualsiasi ruolo di sicurezza configurato per eseguire l'operazione **Modelli per la gestione di documenti aziendali** (nome AOT **ERBDManageTemplates**) e in grado di aprire l'area di lavoro di Gestione documenti aziendali e può modificare qualsiasi modello disponibile.
+    Con questa impostazione, ogni utente assegnato a un qualsiasi ruolo di sicurezza configurato per eseguire l'operazione **Modelli per la gestione di documenti aziendali** (nome AOT **ERBDManageTemplates**) e in grado di aprire l'area di lavoro di Gestione documenti aziendali e può modificare qualsiasi modello disponibile.
 
-Nella figura seguente viene illustrato ciò che è disponibile nell'area di lavoro di Gestione documenti aziendali per gli utenti assegnati al ruolo **Impiegato contabilità clienti**. Con l'impostazione corrente delle autorizzazioni di accesso, l'utente può modificare i modelli di documenti aziendale da diverse aree funzionali tra cui fatturazione, dichiarazioni normative e pagamenti.
+    Nella figura seguente viene illustrato ciò che è disponibile nell'area di lavoro di Gestione documenti aziendali per gli utenti assegnati al ruolo **Impiegato contabilità clienti**. Con l'impostazione corrente delle autorizzazioni di accesso, l'utente può modificare i modelli di documenti aziendale da diverse aree funzionali tra cui fatturazione, dichiarazioni normative e pagamenti.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Nella pagina **Configurazione delle autorizzazioni di accesso**, selezionare **Impostazione delle autorizzazioni di accesso**.
 4. Nella finestra di dialogo **Impostazioni di autorizzazioni di accesso per modificare i modelli**, attivare l'opzione **Applica autorizzazioni di accesso configurate**.
 5. Selezionare **OK** per confermare che le autorizzazioni di accesso di Gestione documenti aziendali sono state abilitate.
 
-![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Selezionare **Aggiungi** per immettere un nuovo ruolo per il quale configurare autorizzazioni di accesso ai modelli di Gestione documenti aziendali.
 7. Nella finestra di dialogo **Ruoli di sicurezza**, selezionare il ruolo **Impiegato contabilità clienti** e **OK** per confermare la selezione del ruolo.
@@ -201,11 +207,11 @@ Nella figura seguente viene illustrato ciò che è disponibile nell'area di lavo
 9. Nel campo **Tipo di tag**, selezionare **Area funzionale** e nel campo **ID**, selezionare **Fatturazione**.
 10. Selezionare **Salva** per memorizzare le autorizzazioni di accesso configurati per il ruolo selezionato.
 
-  L'impostazione corrente significa che per qualsiasi utente a cui è assegnato il ruolo **Impiegato contabilità clienti** e che esegue l'operazione **Modelli di Gestione documenti aziendali** (nome AOT **ERBDManageTemplates**), i modelli di configurazione in formato ER il cui valore del tag **Area funzionale** è **Fatturazione** saranno disponibili per la modifica dell'area di lavoro di Gestione documenti aziendali.
+    L'impostazione corrente significa che per qualsiasi utente a cui è assegnato il ruolo **Impiegato contabilità clienti** e che esegue l'operazione **Modelli di Gestione documenti aziendali** (nome AOT **ERBDManageTemplates**), i modelli di configurazione in formato ER il cui valore del tag **Area funzionale** è **Fatturazione** saranno disponibili per la modifica dell'area di lavoro di Gestione documenti aziendali.
 
 11. Passare al riquadro **Informazioni correlate** dal lato destro della pagina corrente. Nel riquadro **Informazioni correlate** viene illustrato come le autorizzazioni di accesso configurate verranno applicate, inclusi i modelli di configurazione ER che saranno disponibili per gli utenti assegnati al ruolo **Impiegato contabilità clienti**.
 
-![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Configurazione della pagina delle autorizzazioni di accesso di Gestione documenti aziendali](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Nella scheda **Autorizzazioni di accesso per configurazioni**, selezionare l'opzione **Aggiungi**.
 13. Nella finestra di dialogo **Seleziona configurazione**, contrassegnare la configurazione in formato ER **Report Intrastat**.
@@ -252,21 +258,31 @@ L'opzione **Modifica modello** è disponibile per il modello selezionato. Questa
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Iniziare la modifica di modelli di proprietà di altri provider
 
-1. Nell'area di lavoro di Gestione documenti aziendali, selezionare il modello **Customer FTI report (GER)** nell'elenco.
-2. Selezionare la scheda **Dettagli**.
+1. Nell'area di lavoro di gestione dei documenti aziendali, selezionare **Nuovo documento**.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate3.png)
+![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template1.png)
 
-L'opzione **Nuovo documento** è disponibile per il modello selezionato. Questa opzione è sempre disponibile per un modello in una configurazione in formato ER fornito da un altro provider (**Microsoft** in questo esempio). Quando **Nuovo documento** è selezionato, un nuovo modello sarà disponibile per la modifica. Il modello modificato verrà archiviato in una nuova configurazione in formato ER generato automaticamente.
+2. Selezionare il documento che si desidera utilizzare come modello.
+
+![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template2.png)
+
+3. Fare clic su **Crea documento**
+4. Nel campo **Titolo**, modificare il titolo del modello modificabile se necessario. Il testo verrà utilizzato per assegnare un nome alla configurazione in formato ER creata automaticamente. Da notare che la versione bozza di questa configurazione (**Copia di Customer FTI report (GER)**) che conterrà il modello modificata verrà automaticamente contrassegnata per eseguire questo formato ER per l'utente corrente. Contemporaneamente, il modello originale della configurazione in formato ER di base sara utilizzato per eseguire questo formato ER per qualsiasi altro utente.
+5. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
+6. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
+7. Selezionare **OK** per confermare l'avvio del processo di modifica
+
+![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template3.png)
+
+L'opzione **Nuovo documento** è sempre disponibile per un modello in una configurazione in formato ER fornito da un altro provider (Microsoft in questo esempio). Quando si fa clic su **Nuovo documento** vengono visualizzati tutti i modelli di proprietà del provider corrente e di altri provider. Dopo averlo selezionato, il modello viene aperto per la modifica. Il modello modificato verrà archiviato in una nuova configurazione in formato ER generato automaticamente.
 
 ### <a name="start-editing-a-template"></a>Iniziare a modificare un modello
 
-1. Nel modello selezionato, selezionare **Nuovo documento**.
-2. Nel campo **Titolo**, modificare il titolo del modello modificabile se necessario. Il testo verrà utilizzato per assegnare un nome alla configurazione in formato ER creata automaticamente. Da notare che la versione bozza di questa configurazione (**Copia di Customer FTI report (GER)**) che conterrà il modello modificata verrà automaticamente contrassegnata per eseguire questo formato ER per l'utente corrente. Contemporaneamente, il modello originale della configurazione in formato ER di base sara utilizzato per eseguire questo formato ER per qualsiasi altro utente.
-3. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
-4. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
+1. Nel modello selezionato, selezionare **Modifica documento**.
+2. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
+3. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate4.png)
+    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template4.png)
 
 5. Selezionare **OK** per confermare l'avvio del processo di modifica.
 
@@ -285,15 +301,15 @@ Modificare il modello utilizzando la funzionalità di Office 365. Ad esempio, in
 1. Selezionare **Apri nell'app desktop** per modificare il modello utilizzando la funzionalità dell'applicazione desktop di Office (Excel in questo esempio). Il modello modificabile viene copiato dall'archiviazione permanente a quella temporanea configurata nei parametri di Gestione documenti aziendali come cartella SharePoint.
 2. Confermare che si desidera aprire il modello dall'archiviazione di file temporanea nell'applicazione Excel desktop di Office.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout3.png)
+    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modificare il modello. Ad esempio, modificare il carattere dei prompt dei campi nell'intestazione del modello modificando il colore da **Nero** a **Blu**.
 
-![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout4.png)
+    ![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout4.png)
 
 4. Selezionare **Salva** nell'applicazione desktop Excel per salvare le modifiche al modello nell'archiviazione temporanea.
 
-![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout5.png)
+    ![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout5.png)
 
 5. Chiudere l'applicazione desktop Excel.
 6. Selezionare **Sincronizza copia archiviata** per sincronizzare l'archiviazione temporanea del modello nell'archiviazione permanente.
@@ -307,7 +323,7 @@ Modificare il modello utilizzando la funzionalità di Office 365. Ad esempio, in
 2. Selezionare **Mostra formato** per visualizzare la struttura corrente del formato dalla configurazione in formato ER di base che deve essere allineata al modello modificabile. 
 3. Selezionare **Nascondi formato** per chiudere il riquadro.
 
-![Pagina dell'editor di modelli BDM](./media/BDM-Overview-EditingTemplate6.png)
+    ![Pagina dell'editor di modelli BDM](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Chiudere la pagina **Editor di modelli BDM**.
 
@@ -323,7 +339,7 @@ Il modello aggiornato è visualizzato nella scheda **Modello**. Si noti che lo s
 4. Selezionare il livello **Modulo - Contabilità clienti** \> **Documenti** \> **Fattura a testo libero** \> **Documento originale** per specificare l'ambito delle fatture per l'elaborazione.
 5. Nel campo **Formato report**, selezionare il formato ER **Customer FTI report (GER) Copy** per il livello di documento specificato.
 
-![Pagina Impostazione Gestione stampa](./media/BDM-Overview-TestRun1.png)
+    ![Pagina Impostazione Gestione stampa](./media/BDM-Overview-TestRun1.png)
 
 6. Premere **ESC** per chiudere la pagina corrente.
 7. Selezionare **Stampa** quindi fare clic su **Selezionato**.
@@ -340,9 +356,9 @@ Il modello modificato viene utilizzato per generare il report delle fatture a te
 3. Se necessario, nel campo **Nome**, modificare il nome della seconda revisione e basarlo sulla prima revisione correntemente attiva.
 4. Se necessario nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-AddRevision.png)
+    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-AddRevision.png)
 
-Una nuova revisione del modello è stata memorizzata nell'archiviazione del modello permanente. A questo punto è possibile continuare a modificare il modello della seconda revisione attualmente selezionata come attiva.
+    Una nuova revisione del modello è stata memorizzata nell'archiviazione del modello permanente. A questo punto è possibile continuare a modificare il modello della seconda revisione attualmente selezionata come attiva.
 
 5. Selezionare la prima revisione e quindi **Imposta come attivo**. È possibile selezionare un'altra revisione come attiva se in qualsiasi momento si desidera tornare a quella revisione del modello.
 6. Selezionare la seconda revisione e quindi **Elimina**.
@@ -370,7 +386,7 @@ Quando si modifica il modello da un formato ER di proprietà del provider corren
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ho selezionato **Nuovo documento**, ma anziché la pagina **Editor di modelli BDM** in Finance and Operations viene visualizzata la pagina Web Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ho selezionato **Modifica documento**, ma anziché la pagina **Editor di modelli BDM** in Finance and Operations viene visualizzata la pagina Web Office 365.
 Si tratta di un problema noto con il reindirizzamento di Office 365. Questo problema si verifica quando si accede a Office 365 per la prima volta. Per risolverlo, selezionare il pulsante **Indietro** del browser per tornare alla pagina precedente.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>So come modificare un modello utilizzando Office 365 nella prima sessione dell'applicazione e come utilizzare il modello nella seconda sessione dell'applicazione modificando il modello per determinare come le modifiche alterano il documento aziendale generato. Posso farlo utilizzando l'applicazione desktop di Office?
@@ -386,12 +402,12 @@ Molto probabilmente è stato eseguito l'accesso all'istanza corrente dell'app de
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
 
-[Progettare una configurazione per la creazione di report nel formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+[ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
 
 [Progettare le configurazioni di ER per generare report in formato di Word](tasks/er-design-configuration-word-2016-11.md)
 
 [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md)
 
-[Configurare la creazione di report elettronici per eseguire il pull dei dati in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

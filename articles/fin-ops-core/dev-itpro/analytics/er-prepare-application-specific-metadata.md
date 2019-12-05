@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550109"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771262"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Preparare metadati specifici dell'applicazione per RCS e ER
 
@@ -43,7 +43,7 @@ Per questo esempio, si desidera utilizzare RCS per progettare una soluzione ER p
 > In questo esempio verrà creata una configurazione per la società di esempio Litware, Inc. Queste operazioni possono essere eseguite in qualsiasi società.
 
 1. Andare a **Amministrazione organizzazione \> Aree di lavoro \> Creazione di report elettronici**.
-2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se il provider di configurazione non è visualizzato, completare i passaggi della procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se il provider di configurazione non è visualizzato, completare i passaggi della procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Selezionare **Configurazioni dei metadati**.
 4. Selezionare **Crea configurazione**.
 5. Nella finestra di dialogo a discesa, nel campo **Nome**, immettere un nome. Per questo esempio, immettere **Metadati del commercio estero**.
@@ -54,14 +54,14 @@ Per questo esempio, si desidera utilizzare RCS per progettare una soluzione ER p
     > [!NOTE]
     > È possibile selezionare tutti i metadati per l'intera applicazione o per i modelli o moduli selezionati. In entrambi i casi, tenere presente che i seguenti metadati verranno aggiunti automaticamente: tabelle di record, enumerazioni e tipi di dati estesi. Se sono necessari ulteriori tipi di metadati, devono essere aggiunti manualmente.
 
-È necessario aggiungere alcuni metadati correlati alle transazioni del commercio estero e selezionare manualmente elementi di metadati.
+    È necessario aggiungere alcuni metadati correlati alle transazioni del commercio estero e selezionare manualmente elementi di metadati.
 
 9. Selezionare **Aggiungi origine dati \> Record di tabella**.
 10. Filtrare in base al valore **Intrastat** nel campo **Nome**.
 11. Selezionare il record di tabella **Intrastat**.
 12. Selezionare **OK**.
 
-È necessario aggiungere informazioni sui metadati relative alla tabella di record Intrastat.
+    È necessario aggiungere informazioni sui metadati relative alla tabella di record Intrastat.
 
 13. Nella struttura, selezionare **Record di tabella Intrastat \> \>Relazioni \> IntrastatCommodity (Record tabella EcoResCategory)**.
 14. Selezionare **Aggiungi metadati**.
@@ -95,11 +95,11 @@ La seguente procedura illustra come un utente RCS con ruolo **Amministratore di 
 
 Prima di poter completare questa procedura, è necessario dapprima svolgere le seguenti procedure:
 
-- [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Preparare i metadati dell'applicazione da utilizzare in RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Andare a **Tutte le aree di lavoro \> Creazione di report elettronici**.
-2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se il provider di configurazione non è visualizzato, completare i passaggi della procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se il provider di configurazione non è visualizzato, completare i passaggi della procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importare la configurazione dei metadati ER che contiene i metadati per l'applicazione e che è configurata per generare documenti elettronici per il dominio aziendale per il commercio estero. Questa configurazione dei metadati ER è stata creata ed esportata come file XML nella procedura [Preparare i metadati dell'applicazione da utilizzare in RCS](#prepare-application-metadata-that-can-be-used-in-rcs) vista in precedenza in questo argomento.
 
     1. Selezionare **Configurazioni dei metadati**.
@@ -201,7 +201,7 @@ Quando necessario, è possibile estendere il set di metadati esistente nell'appl
 
 La seguente procedura illustra come un utente RCS con ruolo **Amministratore di sistema** o **Sviluppatore per la creazione di report elettronici** può progettare un nuovo mapping di modello ER utilizzando i metadati dell'applicazione. Per accedere ai metadati dell'applicazione online si utilizzerà l'applicazione connessa RCS. Un mapping di modello ER di esempio verrà configurato per accedere alle transazioni del commercio estero.
 
-Per completare questa procedura, completare dapprima la procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS. Se i passaggi nella procedura [Accedere ai metadati dell'applicazione utilizzando una configurazione ER](#access-application-metadata-by-using-an-er-configuration) vista precedentemente in questo argomento non sono stati ancora completati, accedere alla pagina [Guide attività per la creazione di report elettronici per Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) per scaricare i seguenti file di configurazioni ER e salvarli localmente: **Metadati del commercio estero.xml**, **Modello del commercio estero.xml** e **Mapping del commercio estero.xml**.
+Per completare questa procedura, completare dapprima la procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS. Se i passaggi nella procedura [Accedere ai metadati dell'applicazione utilizzando una configurazione ER](#access-application-metadata-by-using-an-er-configuration) vista precedentemente in questo argomento non sono stati ancora completati, accedere alla pagina [Guide attività per la creazione di report elettronici per Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) per scaricare i seguenti file di configurazioni ER e salvarli localmente: **Metadati del commercio estero.xml**, **Modello del commercio estero.xml** e **Mapping del commercio estero.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Ottenere le configurazioni ER necessarie

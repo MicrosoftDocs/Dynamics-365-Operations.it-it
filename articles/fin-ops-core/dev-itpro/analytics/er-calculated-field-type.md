@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550086"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771331"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -55,7 +55,7 @@ Dall'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684), 
 | Configurazione di formato ER di esempio        | Format to learn parameterized calls.version.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Accedere all'istanza RCS
-In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Innanzitutto, in RCS, completare i passaggi nella procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Innanzitutto, in RCS, completare i passaggi nella procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Nel dashboard predefinito, selezionare **Creazione di report elettronici**.
 2. Selezionare **Configurazioni report**.
@@ -75,21 +75,21 @@ In questo esempio si creerà una configurazione per la società di esempio Litwa
 3. Selezionare **Progettazione**.
 4. Selezionare **Progettazione**.  
    
-Questo mapping di modello ER esegue le operazioni seguenti:
+    Questo mapping di modello ER esegue le operazioni seguenti:
 
-- Recuperare l'elenco di codici imposta (origine dati **Imposta**) presenti nella tabella **TaxTable**.
-- Recuperare l'elenco di transazioni fiscali (origine dati **Trans**) presenti nella tabella **TaxTrans**.
+    - Recuperare l'elenco di codici imposta (origine dati **Imposta**) presenti nella tabella **TaxTable**.
+    - Recuperare l'elenco di transazioni fiscali (origine dati **Trans**) presenti nella tabella **TaxTrans**.
     
-    - Raggruppare l'elenco di transazioni recuperate (origine dati **Gr**) per codice imposta.
-    - Calcolare le transazioni raggruppate in base ai valori aggregati per codice imposta:
+        - Raggruppare l'elenco di transazioni recuperate (origine dati **Gr**) per codice imposta.
+        - Calcolare le transazioni raggruppate in base ai valori aggregati per codice imposta:
 
-        - Somma dei valori di imposta di base.
-        - Somma dei valori di imposta.
-        - Valore minimo dell'aliquota fiscale applicata.
+            - Somma dei valori di imposta di base.
+            - Somma dei valori di imposta.
+            - Valore minimo dell'aliquota fiscale applicata.
 
-Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finance and Operations. Di conseguenza, il contenuto delle origini dati **Imposta** e **Gr** viene esposto per i formati ER, ad esempio origini dati astratte.
+    Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finance and Operations. Di conseguenza, il contenuto delle origini dati **Imposta** e **Gr** viene esposto per i formati ER, ad esempio origini dati astratte.
 
-  ![Pagina Progettazione mapping modello con le origini dati Imposta e Gr](media/er-calculated-field-type-01.png)
+    ![Pagina Progettazione mapping modello con le origini dati Imposta e Gr](media/er-calculated-field-type-01.png)
 
 5.  Chiudere la pagina **Progettazione mapping modello**.
 6.  Chiudere la pagina **Mapping modello**.
@@ -100,25 +100,25 @@ Il mapping di modello in questa configurazione implementa il modello di dati di 
 2. Selezionare **Formato per ottenere chiamate parametrizzate**.
 3. Selezionare **Progettazione**. Questo formato ER esegue le operazioni seguenti:
 
-  - Generare una dichiarazione fiscale in formato XML.
-  - Presentare i seguenti livelli di tassazione nella dichiarazione fiscale: Normale, Ridotto e Nessuno.
-  - Presentare molteplici dettagli a ogni livello di tassazione, avendo un numero differente di dettagli in ogni livello.
+    - Generare una dichiarazione fiscale in formato XML.
+    - Presentare i seguenti livelli di tassazione nella dichiarazione fiscale: Normale, Ridotto e Nessuno.
+    - Presentare molteplici dettagli a ogni livello di tassazione, avendo un numero differente di dettagli in ogni livello.
 
-  ![Pagina Progettazione formati](media/er-calculated-field-type-02.png)
+    ![Pagina Progettazione formati](media/er-calculated-field-type-02.png)
 
 4. Selezionare **Mapping**.
 5. Espandere gli elementi **Modello**, **Dati** e **Riepilogo**. 
 
-   Il campo calcolato **Model.Data.Summary.Level** contiene l'espressione che restituisce il codice del livello di tassazione (**Normale**, **Ridotto**, **Nessuno** o **Altro**) come valore di testo per qualsiasi codice imposta che è possibile recuperare dall'origine dati **Model.Data.Summary** in fase di esecuzione.
+    Il campo calcolato **Model.Data.Summary.Level** contiene l'espressione che restituisce il codice del livello di tassazione (**Normale**, **Ridotto**, **Nessuno** o **Altro**) come valore di testo per qualsiasi codice imposta che è possibile recuperare dall'origine dati **Model.Data.Summary** in fase di esecuzione.
 
-  ![Pagina Progettazione formati con dettagli del modello di dati Modello per ottenere chiamate parametrizzate](media/er-calculated-field-type-03.png)
+    ![Pagina Progettazione formati con dettagli del modello di dati Modello per ottenere chiamate parametrizzate](media/er-calculated-field-type-03.png)
 
 6. Espandere l'elemento **Model**.**Data2**.
 7. Espandere l'elemento **Model**.**Data2Data2.Summary2**.
    
-   L'origine dati **Model**.**Data2.Summary2** è configurata per raggruppare i dettagli delle transazioni dell'origine dati **Model.Data.Summary** per livello di tassazione (restituito dal campo calcolato **Model.Data.Summary.Level** ) e calcolare le aggregazioni.
+    L'origine dati **Model**.**Data2.Summary2** è configurata per raggruppare i dettagli delle transazioni dell'origine dati **Model.Data.Summary** per livello di tassazione (restituito dal campo calcolato **Model.Data.Summary.Level** ) e calcolare le aggregazioni.
 
-  ![Pagina Progettazione formati con i dettagli dell'origine dati Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Pagina Progettazione formati con i dettagli dell'origine dati Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Esaminare i campi calcolati. **Model**.**Data2.Level1**, **Model**.**Data2.Level2** e **Model**.**Data2.Level3**. Questi campi calcolati sono utilizzati per filtrare l'elenco di record **Model**.**Data2.Summary2** e restituire solo i record che rappresentano un particolare livello di tassazione.
 9. Chiudere la pagina **Progettazione formati**.
@@ -339,4 +339,4 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 8. Confrontare il contenuto degli output generati.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
+[Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)

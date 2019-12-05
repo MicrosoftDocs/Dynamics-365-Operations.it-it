@@ -1,5 +1,5 @@
 ---
-title: Funzionalità e capacità di Microsoft Dynamics 365 Talent - Attract
+title: Funzionalità e capacità di Attract
 description: In questo argomento vengono descritte le funzionalità fornite da Microsoft Dynamics 365 Talent - Attract per gestire il processo di assunzione di nuovi talenti.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552073"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833071"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Funzionalità e capacità di Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>Funzionalità e capacità di Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract fornisce un processo di assunzione predefinito che contiene quattro fasi
 Nel momento in cui i candidati vengono aggiunti a una posizione aperta, ricevono un messaggio di posta elettronica con un collegamento per acquisire l'app Web. L'app fornisce dettagli relativi alla posizione ed è usata per comunicare con il team di assunzione. I candidati possono usarla anche per indicare la loro disponibilità per i colloqui.
 
 ## <a name="analytic-reports"></a>Report analitici
-I team di assunzione possono utilizzare le metriche del processo di assunzione delle chiavi di visualizzazione per un singolo lavoro o aggregate in tutti i lavori con [report analitici di Attract](analytic-reports.md). Questa funzionalità è attualmente disponibile in versione di [anteprima](access-preview-feature.md) per i clienti che dispongono del [componente aggiuntivo per l'assunzione a livello globale](attract-comprehensive-hiring.md).
+I team di assunzione possono utilizzare le metriche del processo di assunzione delle chiavi di visualizzazione per un singolo lavoro o aggregate in tutti i lavori con [report analitici di Attract](analytic-reports.md). Questa funzionalità è attualmente in [anteprima](access-preview-feature.md) per i clienti con la [versione di Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

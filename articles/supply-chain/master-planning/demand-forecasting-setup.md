@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653513"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813801"
 ---
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
@@ -70,7 +70,8 @@ Per generare la previsione, Supply Chain Management utilizza un servizio Web di 
 -   Nome account di archiviazione Azure
 -   Chiave account di archiviazione Azure
 
-**Nota:** il nome account e la chiave di archiviazione Azure sono necessari solo se si utilizza un account di archiviazione personalizzato. Se si distribuisce la versione locale, è necessario disporre di un account di archiviazione personalizzato in Azure, in modo che il servizio Machine Learning possa accedere ai dati storici. 
+> [!NOTE]
+> Il nome account e la chiave di archiviazione Azure sono necessari solo se si utilizza un account di archiviazione personalizzato. Se si distribuisce la versione locale, è necessario disporre di un account di archiviazione personalizzato in Azure, in modo che il servizio Machine Learning possa accedere ai dati storici. 
 
 Per creare le previsioni della domanda, è possibile distribuire un servizio personalizzato tramite Machine Learning Studio o gli esperimenti di previsione della domanda di Supply Chain Management. Le istruzioni per la distribuzione degli esperimenti di previsione della domanda come servizio Web sono disponibili in Supply Chain Management. Nella pagina **Parametri di previsione della domanda** fare clic sulla scheda **Azure Machine Learning**.
 
@@ -93,11 +94,11 @@ Nella scheda **Chiavi di allocazione** è possibile impostare **Parametri dell'a
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Introduzione alla previsione della domanda](introduction-demand-forecasting.md)
+[Panoramica previsioni della domanda](introduction-demand-forecasting.md)
 
-[Generazione di una previsione di base statistica](generate-statistical-baseline-forecast.md)
+[Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)
 
-[Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
+[Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
 
 

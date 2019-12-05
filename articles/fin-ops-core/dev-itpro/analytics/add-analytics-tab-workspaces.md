@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174353"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771635"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -102,7 +102,7 @@ Dopo aver aggiunto i controlli del modulo che verranno utilizzati per includere 
 > [!NOTE]
 > Per le aree di lavoro incluse, si consiglia di utilizzare le estensioni per nascondere sia la pagina **Scheda** che la pagina **Riquadro filtri**, per coerenza.
 
-L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni su come utilizzare le estensioni per effettuare personalizzazioni, vedere [Personalizzazione: overlayering ed estensioni](../extensibility/customization-overlayering-extensions.md).
+L'attività di estensione della definizione di modulo dell'applicazione è stata completata. Per ulteriori informazioni su come utilizzare le estensioni per effettuare personalizzazioni, vedere [Personalizzare tramite estensioni e overlayering](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Aggiungere la regola business X++ per importare un controllo del visualizzatore
 Seguire questi passaggi per aggiungere la regola business che inizializza il controllo del visualizzatore di report incluso nell'area di lavoro **Gestione prenotazione**.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251064"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813019"
 ---
 # <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
@@ -36,7 +36,7 @@ Per iniziare a utilizzare Gestione magazzino, è necessario completare l'imposta
 
 È necessario configurare i componenti per i flussi di lavoro in entrata e in uscita dei processi di magazzino in base ai requisiti aziendali. I componenti più importanti che è necessario configurare sono i modelli di ondata, i modelli di lavoro, i pool di lavoro e le direttive ubicazione.
 
-- [Configurazione del magazzino](warehouse-configuration.md)
+- [Panoramica configurazione del magazzino](warehouse-configuration.md)
 - [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
 - [Impostare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
 - [Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

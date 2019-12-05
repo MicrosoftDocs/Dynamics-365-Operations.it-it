@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024070"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814492"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Novità e modifiche in Dynamics 365 Talent (20 agosto 2019)
 
@@ -35,7 +35,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Ta
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Esperienza di presentazione delle domande semplificata per i candidati 
 
-Nell'anteprima pubblica è ora disponibile un'esperienza di presentazione delle domande semplificata per i candidati. Una volta abilitati, candidati possono inviare una candidatura utilizzando il proprio curriculum, utilizzando **Fai domanda con LinkedIn** (se attivato) o il modulo di richiesta esistente. Con queste modifiche, i candidati possono inviare rapidamente la domanda di lavoro con il numero minimo di campi completati. Per informazioni su come attivare questa funzionalità, vedere [Abilitare o disabilitare le funzionalità di anteprima](./access-preview-feature.md#enable-or-disable-preview-features).
+Nell'anteprima pubblica è ora disponibile un'esperienza di presentazione delle domande semplificata per i candidati. Una volta abilitati, candidati possono inviare una candidatura utilizzando il proprio curriculum, utilizzando **Fai domanda con LinkedIn** (se attivato) o il modulo di richiesta esistente. Con queste modifiche, i candidati possono inviare rapidamente la domanda di lavoro con il numero minimo di campi completati. Per ulteriori informazioni su come abilitare questa funzionalità, vedere [Accesso alle funzionalità di anteprima in Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Visualizzare commenti di rifiuto come parte dell'attività della domanda di lavoro
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181452"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771308"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Progettare le configurazioni ER per completare i modelli PDF
 
@@ -46,7 +46,7 @@ Prima di iniziare, è necessario assegnare uno dei seguenti tipi di accessi, a s
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-È inoltre necessario completare la procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+È inoltre necessario completare la procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 Infine, è necessario scaricare i seguenti file da [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ L'illustrazione seguente mostra un esempio di un'altra prima pagina del report g
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [ER progetta una configurazione per la creazione di report nel formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [Progettare le configurazioni di ER per generare report in formato di Microsoft WORD](tasks/er-design-configuration-word-2016-11.md)
+- [ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [Progettare le configurazioni di ER per generare report in formato di Word](tasks/er-design-configuration-word-2016-11.md)

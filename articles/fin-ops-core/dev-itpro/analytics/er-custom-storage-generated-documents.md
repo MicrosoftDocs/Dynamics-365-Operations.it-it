@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569086"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771400"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Specificare un percorso di archiviazione personalizzato per i documenti generati
 
@@ -54,7 +54,7 @@ Nella topologia corrente, [creare un nuovo formato ER](tasks/er-format-configura
 
 ## <a name="create-a-new-document-type"></a>Creare un nuovo tipo di documento
 
-Per specificare il modo in cui vengono instradati i documenti generati con formati ER, è necessario configurare le [destinazioni ER](electronic-reporting-destinations.md). In ogni destinazione ER configurata per archiviare i documenti generati come file, è necessario specificare un tipo di documento del framework di gestione di documenti. È possibile utilizzare differenti tipi di documento per instradare documenti generati da diversi formati ER.
+Per specificare il modo in cui vengono instradati i documenti generati con formati ER, è necessario configurare le [destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md). In ogni destinazione ER configurata per archiviare i documenti generati come file, è necessario specificare un tipo di documento del framework di gestione di documenti. È possibile utilizzare differenti tipi di documento per instradare documenti generati da diversi formati ER.
 
 1. Aggiungere un nuovo [tipo di documento](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) per il formato ER creato o importato in precedenza. Nell'illustrazione seguente, il tipo di documento è **FileX**.
 2. Per differenziare questo tipo di documento da altri tipi di documento, includere una parola chiave specifica nel relativo nome. Ad esempio, nell'illustrazione seguente, il nome è **(LOCAL) folder**.
@@ -173,5 +173,5 @@ L'evento **AttachingFile ()** viene generato quando le seguenti destinazioni ER 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+- [Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md)
 - [Estendibilità home page](../extensibility/extensibility-home-page.md)

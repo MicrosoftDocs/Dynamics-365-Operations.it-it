@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178560"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811330"
 ---
 # <a name="organization-administration-home-page"></a>Home page amministrazione organizzazione
 
@@ -46,7 +46,7 @@ Un'organizzazione è un gruppo di persone che collaborano per svolgere un proces
 
 Prima di impostare le organizzazioni e le gerarchie organizzative, assicurarsi di pianificare come l'azienda verrà modellata. Il modello di organizzazione ha un effetto significativo sull'implementazione e sui processi aziendali.
 
-- [Organizzazioni e gerarchie organizzative](organizations-organizational-hierarchies.md)
+- [Panoramica organizzazioni e gerarchie organizzative](organizations-organizational-hierarchies.md)
 - [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md)
 - [Creare una gerarchia organizzativa](tasks/create-organization-hierarchy.md) (guida attività)
 - [Creare una persona giuridica](tasks/create-legal-entity.md) (guida attività)
@@ -58,8 +58,8 @@ La rubrica globale è un archivio centralizzato per dati master che devono esser
 
 Dopo aver creato la Rubrica globale, è possibile creare Rubriche aggiuntive in base alle esigenze, ad esempio una Rubrica separata per ogni società nell'organizzazione o per ogni linea di business.
 
-- [Rubrica globale](overview-global-address-book.md)
-- [Pianificare la modalità di configurazione della rubrica globale e di rubriche aggiuntive](plan-configuration-global-address-book-additional-address-books.md)
+- [Panoramica della rubrica globale](overview-global-address-book.md)
+- [Piano per la rubrica globale e altre rubriche](plan-configuration-global-address-book-additional-address-books.md)
 - [Configurare la rubrica globale](tasks/configure-global-address-book.md)
 - [Domande frequenti sulle rubriche](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Dopo aver creato la Rubrica globale, è possibile creare Rubriche aggiuntive in 
 
 Il flusso di lavoro è un sistema che consente di creare singoli flussi di lavoro o processi aziendali. Quando si crea un flusso di lavoro, si definisce il modo in cui un documento attraversa il sistema, o si sposta allinterno dello stesso, identificando chi deve completare un'attività, prendere una decisione o approvare un documento.
 
-- [Panoramica del flusso di lavoro](overview-workflow-system.md)
+- [Panoramica del sistema del flusso di lavoro](overview-workflow-system.md)
 - [Elementi del flusso di lavoro](workflow-elements.md)
-- [Azioni flusso di lavoro](workflow-actions.md)
-- [Creare un flusso di lavoro](create-workflow.md)
+- [Azioni dei processi di approvazione in un flusso di lavoro](workflow-actions.md)
+- [Creare panoramica flussi di lavoro](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Firme elettroniche
 
@@ -78,21 +78,21 @@ Una firma elettronica consente di confermare l'identità di una persona che sta 
 
 È possibile utilizzare le firme elettroniche per i processi aziendali critici. In alcuni processi sono disponibili funzionalità di firma elettronica incorporate. È inoltre possibile creare requisiti di firma personalizzati per qualsiasi tabella o campo di database.
 
-- [Panoramica delle firme elettroniche](electronic-signature-overview.md)
+- [Panoramica firme elettroniche](electronic-signature-overview.md)
 - [Impostare firme elettroniche](tasks/set-up-electronic-signatures.md) (guida attività)
 
-## <a name="case-management"></a>Gestione casi
+## <a name="case-management"></a>Gestione dei casi
 
 Grazie alla pianificazione, alla tracciabilità e all'analisi dei casi è possibile sviluppare soluzioni efficienti da poter utilizzare per problemi simili. Quando ad esempio i rappresentanti dell'assistenza clienti o gli specialisti delle risorse umane creano un caso, possono trovare nei file di caratteristiche del caso informazioni utili per gestire e risolvere il caso in modo più efficiente.
 
 - [Panoramica della gestione casi](cases.md)
-- [Configurare la sicurezza, i processi e le categorie dei casi](plan-case-management.md)
+- [Pianificare la sicurezza categoria caso, le elaborazioni caso e le categorie casi](plan-case-management.md)
 
-## <a name="record-templates"></a>Modelli di record
+## <a name="record-templates"></a>Modelli record
 
 I modelli di record possono risultare utili per creare più rapidamente i record. È possibile creare un modello di record in modo che non sia necessario inserire in modo esplicito per ogni nuovo record i valori dei campi che vengono utilizzati più spesso.
 
-- [Modelli record](record-templates.md)
+- [Panoramica modelli record](record-templates.md)
 - [Creare un modello di record per facilitare l'immissione dei dati](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (Guida attività)
 - [Utilizzare un modello di record per creare un nuovo record](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (guida attività)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249936"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815251"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249936"
 In questo argomento viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
 
 - Se il materiale è disponibile nell'ubicazione di produzione, viene prelevato da quell'ubicazione immediatamente dopo il segnale per il rilascio del materiale nel magazzino.
-- Se il materiale non è disponibile nell'ubicazione di produzione, il rilascio del materiale indica che il materiale deve essere spostato dalle ubicazioni nel magazzino all'ubicazione di input di produzione. Il materiale viene spostato tramite il lavoro magazzino per il prelievo di materie prime. Di conseguenza, i processi di magazzino per il prelievo di materie prime devono essere configurati. Per ulteriori informazioni, vedere [Rifornimento](../warehousing/replenishment.md) e [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](../warehousing/control-warehouse-location-directives.md).
+- Se il materiale non è disponibile nell'ubicazione di produzione, il rilascio del materiale indica che il materiale deve essere spostato dalle ubicazioni nel magazzino all'ubicazione di input di produzione. Il materiale viene spostato tramite il lavoro magazzino per il prelievo di materie prime. Di conseguenza, i processi di magazzino per il prelievo di materie prime devono essere configurati. Per ulteriori informazioni, vedere [Panoramica del rifornimento](../warehousing/replenishment.md) e [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Metodi per il rilascio di DBA e righe formula
 

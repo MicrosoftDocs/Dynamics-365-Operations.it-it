@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024235"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814607"
 ---
 # <a name="questionnaires"></a>Questionari
 
@@ -44,7 +44,7 @@ Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle at
 | Argomento| descrizione|
 |------|------------|
 | [Progettare un questionario](design-questionnaires.md)  | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
-| [Distribuire e completare un questionario](distribute-questionnaires.md)  | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari.                                                                       |
+| [Distribuire e programmare questionari](distribute-questionnaires.md)  | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari.                                                                       |
 | [Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md) | In questo articolo vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati.                                                                                        |
 
 
@@ -52,9 +52,9 @@ Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle at
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Progettazione di questionari](design-questionnaires.md)
+[Progettare questionari](design-questionnaires.md)
 
-[Distribuzione e completamento di questionari](distribute-questionnaires.md)
+[Distribuire e programmare questionari](distribute-questionnaires.md)
 
-[Visualizzare e valutare i risultati di un questionario](evaluate-questionnaire-results.md)
+[Visualizzare e valutare i risultati dei questionari](evaluate-questionnaire-results.md)
 

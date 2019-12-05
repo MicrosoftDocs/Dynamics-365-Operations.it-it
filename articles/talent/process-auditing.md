@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742674"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832642"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Utilizzare le modifiche ai dati del personale
+
+[!include [banner](includes/banner.md)]
 
 È possibile tenere traccia delle modifiche apportate ai candidati, alle posizioni di lavoro o alle domande di lavoro utilizzando l'elaborazione di controllo. Questa opzione è utile per motivi di conformità o report.
 
@@ -31,7 +33,7 @@ ms.locfileid: "1742674"
 ## <a name="track-changes"></a>Tieni traccia delle modifiche
 Per impostare le modifiche di tenere traccia dei dati del personale, effettuare le seguenti operazioni:
 
-1. In [PowerApps](https://web.powerapps.com) selezionare l'ambiente appropriato.
+1. In [Power Apps](https://web.powerapps.com), selezionare l'ambiente appropriato.
 
 2. Selezionare **Impostazioni** (icona a forma di ingranaggio), scegliere **Personalizzazioni avanzate** e quindi selezionare **Risorse** in **Risorse per sviluppatori**. 
 

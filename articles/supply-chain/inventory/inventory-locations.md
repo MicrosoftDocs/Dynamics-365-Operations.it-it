@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 789272e1ee02c7f5dbab4e325cefe56425a3d1a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ce1e33fab6704dd3387f0c2034a8a950a858b2e0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549957"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814308"
 ---
 # <a name="inventory-locations"></a>Ubicazioni di magazzino
 
@@ -65,4 +65,4 @@ Nella pagina delle ubicazioni di magazzino è possibile visualizzare il layout d
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Creare un nuovo layout di magazzino (guida attività)](tasks/create-new-warehouse-layout.md)
+[Creare un nuovo layout di magazzino](tasks/create-new-warehouse-layout.md)

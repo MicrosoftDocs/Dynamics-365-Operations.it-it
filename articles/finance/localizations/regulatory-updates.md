@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653206"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770386"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -82,11 +82,11 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      2019 aprile          |   10.0.1      | Ungheria      |  Ungheria: fatturazione in linea v.1.1 2019  |
 |      2019 aprile          |   10.0.1      | Giappone      |  Modifica era calendario giapponese 2019  |
 |      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione dell'imposta fondiaria dal 2018 |
-|      2019 aprile          |   10.0.1      |    Russia     |[Modifiche alla dichiarazione fiscale della proprietà dal 2019](rus-assessed-tax-declaration.md)|
+|      2019 aprile          |   10.0.1      |    Russia     |[Dichiarazione fiscale accertata](rus-assessed-tax-declaration.md)|
 |      2019 aprile          |   10.0.1      |    Russia     |Modifiche alla dichiarazione fiscale per imposte di trasporto dal 2019  |
-|      2019 aprile          |   10.0.1      |    Russia     |[Il formato della dichiarazione IVA cambia a partire dal 2019](rus-VAT-declaration.md) |
+|      2019 aprile          |   10.0.1      |    Russia     |[Dichiarazione IVA](rus-VAT-declaration.md) |
 |      2019 aprile          |   10.0.1      |    Russia     |Il formato della dichiarazione IVA cambia a partire dal 2019 (libri acquisti e vendite) |
-|      2019 aprile          |   10.0.1      |    Regno Unito     |[Modifiche all'invio della dichiarazione VAT (digitalizzazione delle imposte)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 aprile          |   10.0.1      |    Regno Unito     |[Preparare Finance and Operations per l'integrazione con MTD per l'IVA](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 marzo          |   10.0.0      |    Austria   |   Modifiche in Kammerumlage 2019 (imposta sugli acquisti)    |
 |      2019 marzo          |   10.0.0      |    Brasile    |     Contributi SPED EFD - Layout 004 e 005  |
 |      2019 marzo          |   10.0.0      |    Malaysia     |La Malesia sostituisce l'imposta GST con l'imposta sui servizi e sulle vendite SST        |

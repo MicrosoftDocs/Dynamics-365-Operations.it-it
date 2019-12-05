@@ -17,12 +17,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 96569f52a7d6f8f207446db7ed58f718e40c250b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f2194b8457c55f16bd972ab44e338da26cbe274a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183715"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773461"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
@@ -60,7 +60,7 @@ Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo d
 | Ritenuta minima | Immettere l'importo minimo della ritenuta d'acconto che è possibile registrare per qualsiasi transazione per il codice ritenuta d'acconto selezionato. |
 | Ritenuta massima | Immettere l'importo massimo della ritenuta d'acconto che è possibile registrare per qualsiasi transazione per il codice ritenuta d'acconto selezionato. |
 
-Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Ulteriori informazioni, vedere [Impostare la ritenuta d'acconto (guida attività)](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
+Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
 
 
 |         Scheda dettaglio         |              Campo               |                                descrizione                                |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653420"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814906"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653420"
 
 Questo articolo illustra come configurare un magazzino. Sono riportate le informazioni su come abilitare un layout e i processi di magazzino.
 
-**Nota:** Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
+> [!NOTE]
+> Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
 
 ## <a name="warehouse-layout"></a>Layout magazzino
 Il sistema di gestione magazzino in Supply Chain Management offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
@@ -114,7 +115,7 @@ Per rendere più semplice e più rapido definire le azioni associate a ogni riga
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Configurare le ubicazioni in un magazzino abilitato WMS (Guida attività)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Configurare le ubicazioni in un magazzino abilitato WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

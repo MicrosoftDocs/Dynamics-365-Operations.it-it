@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026235"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832863"
 ---
 # <a name="extensibility-in-attract"></a>Estendibilità in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent si basa su Common Data Service e può essere esteso in vari modi utilizzando la piattaforma Microsoft Power Platform e le funzionalità di Common Data Service. Di conseguenza, è possibile configurare e personalizzare il sistema mediante Microsoft PowerApps e Microsoft Flow. È inoltre possibile ottenere l'analisi aggiuntive sulle persone utilizzando Microsoft Power BI. Inoltre, le nuove attività personalizzate, ad esempio le attività PowerApps e di contenuto Web (iframe), rendono il processo di assunzione più adattabile che mai. Con queste attività, è possibile personalizzare il processo di assunzione in base alle esigenze e processi aziendali e assicurarsi che sia il team di assunzione che i candidati fruiscano di un'esperienza personalizzata e priva di problemi.
+Microsoft Dynamics 365 Talent si basa su Common Data Service e può essere esteso in vari modi utilizzando la piattaforma Microsoft Power Platform e le funzionalità di Common Data Service. Di conseguenza, è possibile configurare e personalizzare il sistema mediante Microsoft Power Apps e Microsoft Power Automate. È inoltre possibile ottenere l'analisi aggiuntive sulle persone utilizzando Microsoft Power BI. Inoltre, le nuove attività personalizzate, ad esempio le attività Power Apps e di contenuto Web (iframe), rendono il processo di assunzione più adattabile che mai. Con queste attività, è possibile personalizzare il processo di assunzione in base alle esigenze e processi aziendali e assicurarsi che sia il team di assunzione che i candidati fruiscano di un'esperienza personalizzata e priva di problemi.
 
 ## <a name="extending-option-sets-in-attract"></a>Estensione di set di opzioni in Attract
 
@@ -40,7 +40,7 @@ Un **set di opzioni** (elenco a discesa) è un tipo di campo che può essere inc
 
 Sono elencate di seguito le procedure per aggiornare il campo **Motivo del rifiuto** con i valori specifici dell'azienda.  
 
-1. Per estendere il set di opzioni **Motivo del rifiuto**, accedere al [sito Web di amministrazione di PowerApps](https://admin.powerapps.com).
+1. Per estendere il set di opzioni **Motivo del rifiuto**, accedere al [sito Web di amministrazione di Power Apps](https://admin.powerapps.com).
 2. È possibile che venga richiesto di accedere al proprio account. Immettere la password e l'ID utente utilizzati per accedere a Dynamics365 e/o Office365 quindi fare clic su **Avanti**.
 3. Nella scheda **Ambienti**, selezionare l'ambiente che si desidera gestire e fare doppio clic per visualizzare la scheda **Dettagli**.
 4. Nella scheda **Dettagli**, selezionare **Centro amministrativo di Dynamics 365**.
@@ -58,15 +58,15 @@ Sono elencate di seguito le procedure per aggiornare il campo **Motivo del rifiu
 
 Poiché tutti i dati di Attract risiedono in Common Data Service, è possibile utilizzare gli strumenti di Microsoft Power Platform per includere specifiche esigenze aziendali in Attract.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>Power Apps
 
-È possibile utilizzare PowerApps per creare facilmente app di collegamento ai dati Attract e che utilizzano espressioni come lle espressioni in Microsoft Excel per aggiungere la logica. Le app create con PowerApps possono essere eseguite sul Web e su dispositivi Apple iOS e Google Android.
+È possibile utilizzare Power Apps per creare facilmente app di collegamento ai dati Attract e che utilizzano espressioni come lle espressioni in Microsoft Excel per aggiungere la logica. Le app create con Power Apps possono essere eseguite sul Web e su dispositivi Apple iOS e Google Android.
 
-Ad esempio, è possibile facilitare le attività di selezione in occasione delle fiere di orientamento professionale sviluppando un'app leggera che consenta di analizzare i curriculum e inserire i candidati per una posizione in Attract. In alternativa, è possibile creare un'app che soddisfi i requisiti di conformità dell'organizzazione. Per ulteriori informazioni su PowerApps e su come utilizzarlo per creare app, vedere [Integrare i dati in Common Data Service](https://docs.microsoft.com/powerapps).
+Ad esempio, è possibile facilitare le attività di selezione in occasione delle fiere di orientamento professionale sviluppando un'app leggera che consenta di analizzare i curriculum e inserire i candidati per una posizione in Attract. In alternativa, è possibile creare un'app che soddisfi i requisiti di conformità dell'organizzazione. Per ulteriori informazioni su Power Apps e su come utilizzarlo per creare app, vedere [Integrare i dati in Common Data Service](https://docs.microsoft.com/powerapps).
 
-### <a name="microsoft-flow"></a>Microsoft Flow 
+### <a name="microsoft-power-automate"></a>Microsoft Power Automate 
 
-È possibile utilizzare Microsoft Flow per creare flussi di lavoro automatici da eseguire sui dati Attract. È possibile connettersi facilmente a centinaia di app e servizi popolari senza dover scrivere un codice. Creando flussi che interagiscono con le entità Mansione, Candidato e Domanda di lavoro di Attract in Common Data Service, è possibile automatizzare varie azioni. Ad esempio, quando accetta un candidato un'offerta, una notifica può essere inviata a un team di inserimento o la notizia può essere annunciata su Twitter. Per ulteriori informazioni sui flussi, vedere la [documentazione di Microsoft Flow](https://docs.microsoft.com/flow/).
+È possibile utilizzare Microsoft Power Automate per creare flussi di lavoro automatici da eseguire sui dati Attract. È possibile connettersi facilmente a centinaia di app e servizi popolari senza dover scrivere un codice. Creando flussi che interagiscono con le entità Mansione, Candidato e Domanda di lavoro di Attract in Common Data Service, è possibile automatizzare varie azioni. Ad esempio, quando accetta un candidato un'offerta, una notifica può essere inviata a un team di inserimento o la notizia può essere annunciata su Twitter. Per ulteriori informazioni sui flussi, vedere la [documentazione di Microsoft Power Automate](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
@@ -74,18 +74,18 @@ Power BI consente di creare e visualizzare report e dashboard personalizzati che
 
 ### <a name="custom-activities"></a>Attività personalizzate 
 
-È possibile aggiungere attività personalizzate, ad esempio le attività di app PowerApps e di contenuto Web (iframe), a livello del modello di processo della mansione o mentre si crea una nuova mansione. Queste attività consentono di personalizzare il processo di assunzione e introdurre la logica di business specifica dell'organizzazione in Attract.
+È possibile aggiungere attività personalizzate, ad esempio le attività di app Power Apps e di contenuto Web (iframe), a livello del modello di processo della mansione o mentre si crea una nuova mansione. Queste attività consentono di personalizzare il processo di assunzione e introdurre la logica di business specifica dell'organizzazione in Attract.
 
-#### <a name="powerapps-activity"></a>Attività PowerApps 
+#### <a name="power-apps-activity"></a>Attività Power Apps 
 
-L'attività PowerApps consente al creatore di una mansione di un modello di processo della mansione di incorporare un'app di PowerApps nel flusso di assunzione. Dopo aver creato e pubblicato il app, è possibile immettere il relativo ID nelle configurazioni delle attività. Utilizzando un app di PowerApps, è possibile leggere e scrivere dati in Common Data Service. È anche possibile collegare l'app a un flusso. Ad esempio, è possibile avere un app che utilizzano i selezionatori per compilare un modulo mentre svolgono colloqui telefonici. In questo caso, è possibile collegare l'app a un flusso che valuta se un candidato può essere passare alla fase successiva nel processo della domanda di lavoro per una mansione. Questo tipo di attività può essere visualizzato solo dai membri del team di assunzione. Per ulteriori informazioni su come configurare l'attività PowerApps, vedere [Attività in Attract](./activities-attract.md).
+L'attività Power Apps consente al creatore di una mansione di un modello di processo della mansione di incorporare un'app di Power Apps nel flusso di assunzione. Dopo aver creato e pubblicato il app, è possibile immettere il relativo ID nelle configurazioni delle attività. Utilizzando un app di Power Apps, è possibile leggere e scrivere dati in Common Data Service. È anche possibile collegare l'app a un flusso. Ad esempio, è possibile avere un app che utilizzano i selezionatori per compilare un modulo mentre svolgono colloqui telefonici. In questo caso, è possibile collegare l'app a un flusso che valuta se un candidato può essere passare alla fase successiva nel processo della domanda di lavoro per una mansione. Questo tipo di attività può essere visualizzato solo dai membri del team di assunzione. Per ulteriori informazioni su come configurare l'attività Power Apps, vedere [Attività nei processi di assunzione](./activities-attract.md).
 
 > [!NOTE]
-> L'attività PowerApps è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.
+> L'attività Power Apps è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.
 
 #### <a name="web-content-iframe-activity"></a>Attività contenuto Web (iframe)
 
-L'attività contenuto Web (iframe) consente di incorporare una soluzione Web personalizzata che è stato sviluppata nel processo di assunzione o nel portale del candidato. È possibile leggere e scrivere i dati direttamente da Common Data Service. È inoltre possibile personalizzare la soluzione in modo che attivi flussi o sfrutti le funzionalità di Microsoft Azure. Per ulteriori informazioni su come configurare l'attività contenuto Web, vedere [Attività in Attract](./activities-attract.md)..
+L'attività contenuto Web (iframe) consente di incorporare una soluzione Web personalizzata che è stato sviluppata nel processo di assunzione o nel portale del candidato. È possibile leggere e scrivere i dati direttamente da Common Data Service. È inoltre possibile personalizzare la soluzione in modo che attivi flussi o sfrutti le funzionalità di Microsoft Azure. Per ulteriori informazioni su come configurare l'attività contenuto Web, vedere [Attività nei processi di assunzione](./activities-attract.md)..
 
 > [!NOTE]
 > L'attività contenuto Web è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.

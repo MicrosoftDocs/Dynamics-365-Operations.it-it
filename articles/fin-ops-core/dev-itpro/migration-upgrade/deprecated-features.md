@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658692"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811995"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Funzionalità rimosse o deprecate per Finance and Operations
 
@@ -474,7 +474,7 @@ Il Portale dei dispositivi mobili del magazzino è un componente autonomo proget
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Funzionalità duplicata.       |
-| **Sostituita da un'altra funzionalità?**   | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Installare e configurare Microsoft Dynamics 365 for Finance and Operations - Magazzino](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Sostituita da un'altra funzionalità?**   | Sì. Questa funzionalità è stata sostituita da Finance and Operations - Magazzino. Per ulteriori informazioni sull'impostazione e sui prerequisiti, vedere [Panoramica sull'installazione e sulla configurazione dell'app del magazzino](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Aree del prodotto interessate**         | Gestione magazzino, Gestione trasporto     |
 | **Opzione di distribuzione**              | Il Portale dei dispositivi mobili del magazzino è un componente autonomo progettato per la distribuzione automatica locale.               |
 | **Stato**                         | Deprecato: il calendario di destinazione per la funzionalità verrà rimosso nel quarto trimestre 2019.   |
@@ -1244,7 +1244,7 @@ Configuratore prodotti è stato utilizzato per configurare dinamicamente gli art
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Il Configuratore prodotti ha esposto il codice X++ agli utenti finali e non è supportato la versione corrente di Dynamics AX. È stato rimosso per evitare gli sforzi duplicati in codebase sovrapposti e di grandi dimensioni.  |
-| **Sostituita da un'altra funzionalità?**   | Sì. La configurazione basata su vincoli era stata introdotta in Dynamics AX 2012 in cui il deprecamento del Configuratore prodotti in versioni future era già stata annunciata. La tecnologia basata su vincoli di configurazione è selezionata nelle rappresentazioni generali prodotto per consentire la configurazione. Per ulteriori informazioni, vedere [Creare un modello di configurazione prodotto](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Sostituita da un'altra funzionalità?**   | Sì. La configurazione basata su vincoli era stata introdotta in Dynamics AX 2012 in cui il deprecamento del Configuratore prodotti in versioni future era già stata annunciata. La tecnologia basata su vincoli di configurazione è selezionata nelle rappresentazioni generali prodotto per consentire la configurazione. Per ulteriori informazioni, vedere [Panoramica della configurazione dei prodotti](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Aree del prodotto interessate**         | Gestione delle informazioni sul prodotto, vendite e marketing  |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0.      |
 

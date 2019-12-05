@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572210"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815367"
 ---
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
@@ -41,8 +41,8 @@ Le aree di lavoro **Preparazione ordini acquisto** e **Ricevimento e follow-up o
 
 I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un ordine fornitore:
 
--   [Creazione ordine fornitore](purchase-order-creation.md)
--   [Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
+-   [Creare gli ordini fornitore](purchase-order-creation.md)
+-   [Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 -   [Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Creazione ordine fornitore](purchase-order-creation.md)
+[Creare gli ordini fornitore](purchase-order-creation.md)
 
-[Approvazione e conferma di un ordine fornitore](purchase-order-approval-confirmation.md)
+[Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 

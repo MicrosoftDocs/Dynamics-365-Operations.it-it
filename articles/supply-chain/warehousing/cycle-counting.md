@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251525"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813065"
 ---
 # <a name="cycle-counting"></a>Conteggio ciclo
 
@@ -136,7 +136,7 @@ Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzion
 È possibile rettificare le differenze nel valore conteggiato e quindi accettare il valore conteggiato nella pagina **Conteggio ciclo con revisione in sospeso**. È possibile verificare il conteggio modificato della quantità dell'articolo nella pagina **Disponibili per ubicazione**. Il valore conteggiato viene rifiutato se la differenza non può essere approvata.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
+[Impostare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md)
 
 
 

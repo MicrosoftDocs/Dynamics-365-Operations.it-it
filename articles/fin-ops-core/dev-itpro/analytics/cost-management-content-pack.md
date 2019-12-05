@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174192"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771519"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenuto Power BI per la gestione dei costi
 
@@ -37,7 +37,7 @@ Il contenuto Microsoft Power BI **Gestione costi** è destinato ai contabili di 
 > [!NOTE]
 > Il contenuto Power BI **Gestione costi** descritto in questo argomento si applica a Dynamics 365 Finance and Operations 8.0.
 > 
-> Il pacchetto di contenuti Power BI **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulle funzionalità deprecate, vedere [Pacchetti di contenuti Power BI disponibili in AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Il pacchetto di contenuti Power BI **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulla deprecazione, vedere [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Il contenuto Power BI si presenta in un formato strutturato in categorie che aiuta a monitorare le prestazioni degli inventari e a visualizzare il flusso dei costi. È possibile estrapolare informazioni approfondite manageriali, ad esempio l'indice di rotazione, il numero di giorni in cui l'inventario è a disposizione, la precisione e la "classificazione ABC" al livello di aggregazione preferito (società, articolo, gruppo di articoli o sito). Le informazioni disponibili possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551659"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770737"
 ---
 # <a name="online-financial-consolidations"></a>Consolidamenti finanziari online
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i consolidamenti finanziari online nella contabilità generale. Prima di leggere questo argomento, leggere l'argomento [Consolidamenti e finanziari e conversione valuta](financial-consolidations-currency-translation.md).
+In questo argomento vengono descritti i consolidamenti finanziari online nella contabilità generale. Prima di leggere questo argomento, leggere l'argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](financial-consolidations-currency-translation.md).
 
 Dopo aver completato la configurazione, immettere i dettagli del consolidamento nella pagina **Consolidato [online]**. Al termine, è possibile fare clic su **OK** o **Batch** per elaborare il consolidamento.
 
@@ -93,6 +93,6 @@ Nella scheda **Conversione valuta** si definiscono la persona giuridica, il cont
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Consolidamenti finanziari e conversione valuta](./financial-consolidations-currency-translation.md).
+Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).

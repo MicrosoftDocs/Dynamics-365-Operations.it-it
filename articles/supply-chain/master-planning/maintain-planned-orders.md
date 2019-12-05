@@ -3,7 +3,7 @@ title: Gestisci ordini pianificati
 description: Questo argomento fornisce informazioni sulla modalità di gestione degli ordini pianificati. Viene descritto come aggiornare lo stato degli ordini pianificati, stabilizzarli e filtrare gli ordini pianificati con lo stesso stato dell'ordine pianificato selezionato.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993442"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813778"
 ---
 # <a name="maintain-planned-orders"></a>Gestisci ordini pianificati
 
@@ -39,7 +39,7 @@ Questo argomento fornisce informazioni sulla modalità di gestione degli ordini 
 
 -   Agli ordini pianificati generati mediante la pianificazione generale viene assegnato uno stato di **Inevaso**.
 -   A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Completato**.
--   Se si desidera stabilizzare un ordine pianificato, è possibile modificare lo stato su **Approvato**. Gli ordini pianificati con stato **Approvato** vengono rispettati dalla pianificazione generale, non vengono modificati né eliminati. 
+-   Se si desidera stabilizzare un ordine pianificato, è possibile modificare lo stato su **Approvato**. Gli ordini pianificati con stato **Approvato** vengono rispettati dalla pianificazione generale, non vengono modificati né eliminati durante un'esecuzione di pianificazione generale successiva. 
 
 ## <a name="firming-planned-orders"></a>Stabilizzazione degli ordini pianificati 
 La stabilizzazione degli ordini pianificati consente di creare gli ordini effettivi. Sono inoltre note come *ordini rilasciati* o *aperti*. Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione relativa agli ordini del modulo rilevante.
@@ -62,7 +62,7 @@ Se si prevede di stabilizzare più ordini contemporaneamente, parallelizzare l'e
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Piani generali](master-plans.md)
+[Panoramica piani generali](master-plans.md)
 
 
 

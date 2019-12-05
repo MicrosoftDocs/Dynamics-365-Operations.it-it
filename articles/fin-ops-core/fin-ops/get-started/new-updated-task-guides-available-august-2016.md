@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178597"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812534"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guide attività nuove o aggiornate (agosto 2016)
 
@@ -32,7 +32,7 @@ In questo argomento vengono elencate le guide attività nuove o aggiornate che s
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX
 
-La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento 2 della piattaforma Microsoft Dynamics AX (agosto 2016), l'aggiornamento di maggio 2016 dell'applicazione Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Introduzione alla Guida in linea](help-overview.md).
+La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per l'aggiornamento 2 della piattaforma Microsoft Dynamics AX (agosto 2016), l'aggiornamento di maggio 2016 dell'applicazione Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Home page Novità o modifiche in Finance and Operations](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Guida](help-overview.md).
 
 ### <a name="data-access"></a>Accesso ai dati
 
@@ -95,7 +95,7 @@ La libreria unificata APQC (agosto 2016 -- tutte le lingue) contiene le guide at
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Nuove Guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
+[Nuove guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 

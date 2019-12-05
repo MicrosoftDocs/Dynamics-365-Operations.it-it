@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b0397b7120769969c4c7aae16dd2a2b3ec97371
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 03e7fcc2041363f9ddee8fdda9c4ea30bf89a9cb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627590"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812476"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -945,4 +945,4 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Novità o modifiche](whats-new-changed.md)
+[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026006"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812697"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novità o modifiche in Dynamics 365 Talent (20 marzo 2019)
 
@@ -43,7 +43,7 @@ Questa funzionalità consente ai crawler dei motori di ricerca di trovare e indi
 Se un candidato dimentica le credenziali utilizzate per candidarsi a una mansione durante l'apertura di un collegamento salvato o che ha ricevuto tramite posta elettronica, ora vedranno un suggerimento con il nome del provider e il nome utente (offuscati). Ciò consente ai candidati di utilizzare le credenziali corrette per accedere alle domande di lavoro.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Consentire ai candidati interni di esaminare mansioni interne
-È stato risolto il problema in cui i candidati esterni potevano visualizzare il nome del selezionatore o del responsabile delle assunzioni di una mansione. Ora solo i candidati interni possono visualizzare i membri del team di assunzione di una mansione. È inoltre più semplice per i candidati interni visualizzare solo le mansioni interne e candidarsi alle stesse. Quando un candidato tenta di accedere al collegamento per visualizzare una mansione interna o candidarsi alla stessa, è obbligato a eseguire l'autenticazione con le credenziali di Azure Active Directory. I candidati interni hanno inoltre la possibilità di contattare il membro del team di assunzione per esprimere il proprio interesse alla mansione o per ottenere ulteriori informazioni sulla stessa. Questa funzionalità è disponibile per tutte le mansioni solo per i candidati interni. Per ulteriori informazioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](./career-site.md).
+È stato risolto il problema in cui i candidati esterni potevano visualizzare il nome del selezionatore o del responsabile delle assunzioni di una mansione. Ora solo i candidati interni possono visualizzare i membri del team di assunzione di una mansione. È inoltre più semplice per i candidati interni visualizzare solo le mansioni interne e candidarsi alle stesse. Quando un candidato tenta di accedere al collegamento per visualizzare una mansione interna o candidarsi alla stessa, è obbligato a eseguire l'autenticazione con le credenziali di Azure Active Directory. I candidati interni hanno inoltre la possibilità di contattare il membro del team di assunzione per esprimere il proprio interesse alla mansione o per ottenere ulteriori informazioni sulla stessa. Questa funzionalità è disponibile per tutte le mansioni solo per i candidati interni. Per ulteriori informazioni, vedere [Configurare il sito per le possibilità di carriera in Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Designare le medaglie d'argento per assegnare candidati di qualità alle posizioni future
 I selezionatori e i responsabili delle assunzioni spesso gestiscono un elenco di candidati che erano un'ottima soluzione per una posizione ma ai quali non è stata formulata un'offerta in quanto la posizione era già stata coperta. Tali candidati, definiti medaglie d'argento, sono preziosi in quanto possono ridurre i tempi di assunzione nel caso sia necessario coprire una posizione simile in futuro. Attract ora consente ai selezionatori e ai responsabili delle assunzioni di designare le medaglie d'argento nell'elenco di candidati se i candidati arrivano fino alla fase Offerta. La designazione delle medaglie d'argento sarà visualizzata nell'elenco dei candidati per la mansione, ma anche nella visualizzazione del pool di talenti quando tali candidati sono membri di un qualsiasi pool del selezionatore o del responsabile delle assunzioni. Inoltre, la designazione sarà visualizzata nello storico delle mansioni come parte del profilo del pool di talenti di un candidato. È possibile visualizzare in anteprima questa funzionalità se un amministratore la attiva utilizzando [Gestione funzionalità nell'interfaccia di amministrazione ](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

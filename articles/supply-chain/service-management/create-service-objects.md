@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4675ad83d5e569f2286ce667acd59ed294dc5d82
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bd60f5ca469fcf7184a5f8d2dc68629640709f51
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552255"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813134"
 ---
 # <a name="create-service-objects"></a>Creare oggetti assistenza  
 
@@ -39,7 +39,7 @@ Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possib
 
 ## <a name="related-topics"></a>Argomenti correlati
 
-[Oggetti assistenza](service-objects.md)
+[Panoramica oggetti di servizio](service-objects.md)
 
 
 

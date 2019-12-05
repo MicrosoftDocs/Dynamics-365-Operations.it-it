@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181613"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771446"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizzare il test con la creazione di report elettronici
 
@@ -44,8 +44,8 @@ Per ulteriori informazioni sulla creazione di una versione personalizzata di un 
 I power user funzionali possono creare test di accettazione e integrazione utente senza dover scrivere codice sorgente.
 
 - Utilizzare la funzionalità di base ER per confrontare i documenti generati alle copie master. Per ulteriori informazioni, vedere [Generare la traccia dei risultati dei report generati e paragonarli ai valori di base](er-trace-reports-compare-baseline.md).
-- Utilizzare Registrazione attività per registrare test case e includere la valutazione di base. Per ulteriori informazioni, vedere [Registrazione attività](../user-interface/task-recorder.md).
-- Raggruppare test case per gli scenari di test necessari. Per ulteriori informazioni, vedere [Creare librerie di test di accettazione utente utilizzando guide attività e BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Utilizzare Registrazione attività per registrare test case e includere la valutazione di base. Per ulteriori informazioni, vedere [Risorse registrazione attività](../user-interface/task-recorder.md).
+- Raggruppare test case per gli scenari di test necessari. Per ulteriori informazioni, vedere [Creare e automatizzare i test di accettazione utenti](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Utilizzare Modellatore di processi aziendali (BPM) in LCS per creare librerie per test di accettazione utente.
     - Utilizzare librerie di test BPM per creare un piano di test e gruppi di test in Microsoft Azure DevOps Services (Azure DevOps).
@@ -59,7 +59,7 @@ I power user funzionali possono eseguire test di accettazione e integrazione ute
 
 Prima di poter completare le attività in questo argomento, è necessario soddisfare i seguenti prerequisiti:
 
-- Distribuire una topologia che supporta l'automazione dei test. È necessario avere accesso all'istanza di questa topologia per il ruolo **Amministratore di sistema**. Questa topologia deve contenere i dati dimostrativi che verranno utilizzati in questo esempio. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md).
+- Distribuire una topologia che supporta l'automazione dei test. È necessario avere accesso all'istanza di questa topologia per il ruolo **Amministratore di sistema**. Questa topologia deve contenere i dati dimostrativi che verranno utilizzati in questo esempio. Per ulteriori informazioni, vedere [Distribuire ambienti che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md).
 - Per eseguire automaticamente i test di accettazione e integrazione utente, è necessario installare RSAT nella topologia in uso e configurarlo nel modo appropriato. Per informazioni su come installare e configurare RSAT per l'uso con le app Finance and Operations e Azure DevOps, vedere [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prestare attenzione ai prerequisiti per l'utilizzo dello strumento. Di seguito viene illustrato un esempio delle impostazioni RSAT. Il rettangolo blu racchiude i parametri che specificano l'accesso a Azure DevOps. Il rettangolo verde racchiude i parametri che specificano l'accesso all'istanza.
 
     ![Impostazioni RSAT](media/GER-Configure.png "Schermata della finestra di dialogo Impostazioni RSAT")
@@ -237,7 +237,7 @@ Questa registrazione attività esegue le seguenti operazioni:
 
 3. Pulire il registro di debug ER contenente i risultati del confronto tra i file generati e le basi.
 
-    ![Passaggi da 13 a 15 della registrazione attività](media/GER-Recording1Review3.png "Schermata dei passaggi da 13 a 15 della registrazione attività")
+    ![Passaggi 13 e 15 della registrazione attività](media/GER-Recording1Review3.png "Schermata dei passaggi 13 e 15 della registrazione attività")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Registrare i passaggi per testare l'elaborazione dei pagamenti fornitore
 
@@ -256,7 +256,7 @@ Questa registrazione attività esegue le seguenti operazioni:
 1. Avviare l'elaborazione dei pagamenti fornitore.
 2. Selezionare i parametri di runtime corretti e attivare la generazione di un report controllo.
 
-    ![Passaggi da 3 a 8 della registrazione attività](media/GER-Recording2Review1.png "Schermata dei passaggi da 3 a 8 della registrazione attività")
+    ![Passaggi 3 e 8 della registrazione attività](media/GER-Recording2Review1.png "Schermata dei passaggi 3 e 8 della registrazione attività")
 
 3. Accedere al registro di debug ER per registrare i risultati del confronto tra gli output generati e le basi corrispondenti.
 
@@ -270,7 +270,7 @@ Questa registrazione attività esegue le seguenti operazioni:
 
     L'illustrazione seguente mostra i passaggi di convalida registrati nella registrazione attività.
 
-    ![Passaggi da 13 a 15 della registrazione attività](media/GER-Recording2Review2.png "Schermata dei passaggi da 13 a 15 della registrazione attività")
+    ![Passaggi 13 e 15 della registrazione attività](media/GER-Recording2Review2.png "Schermata dei passaggi 13 e 15 della registrazione attività")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Aggiungere i test registrati a Azure DevOps
 
@@ -318,7 +318,7 @@ Questa registrazione attività esegue le seguenti operazioni:
 6. Nella cartella di lavoro di Excel che viene aperta, nel foglio di lavoro **Generale**, impostare il codice della società su **GBSI**.
 7. Nel foglio di lavoro **ERFormatMappingRunLogTable**, notare che le celle A:3 e C:3 contengono il testo dei campi nella tabella del registro di debug ER utilizzati per convalidare i risultati del confronto tra l'output e la base. Questi testi verranno utilizzati per valutare i record del registro di debug ER creati durante l'esecuzione dei test.
 
-    ![Foglio di lavoro ERFormatMappingRunLogTable worksheet](media/GER-RSAT-RSAT-ExcelParameters.png "Schermata del foglio di lavoro ERFormatMappingRunLogTable")
+    ![Foglio di lavoro ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Schermata del foglio di lavoro ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Eseguire i test e analizzare i risultati
 
@@ -374,10 +374,10 @@ Di conseguenza, come visto, il funzionamento di qualsiasi formato ER può essere
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Registrazione attività](../user-interface/task-recorder.md)
+- [Risorse registrazione attività](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Creare librerie di test di accettazione utente utilizzando registrazioni attività e BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md)
-- [Generare la traccia dei risultati dei report generati e paragonarli ai valori di base ER](er-trace-reports-compare-baseline.md)
-- [Aggiornare il formato ER adottando una nuova versione di base di quel formato](tasks/er-upgrade-format.md)
-- [Importare una configurazione ER da Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Creare e automatizzare i test di accettazione utenti](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Distribuire ambienti che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md)
+- [Tracciare i risultati del report generato e paragonarli ai valori di base](er-trace-reports-compare-baseline.md)
+- [ER Aggiornare il formato adottandone una nuova versione di base](tasks/er-upgrade-format.md)
+- [ER importa una configurazione da Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)

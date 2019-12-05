@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182901"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772560"
 ---
 # <a name="document-printing-overview"></a>Panoramica stampa del documento
 
@@ -58,7 +58,7 @@ Poiché la soluzione varia a seconda dello scenario, le applicazioni forniscono 
 Oltre alla piattaforma distribuita nella sottoscrizione di Azure, le applicazioni di Finance and Operations forniscono ai clienti un'applicazione integrata di Azure che consente di utilizzare più facilmente dispositivi ospitati nel dominio per stampare documenti.
 
 ## <a name="service-overview"></a>Panoramica del servizio
-Mentre i documenti prodotti dalle applicazioni ospitate sono in attesa di essere stampati su un dispositivo connesso in rete, vengono memorizzati nell'archiviazione BLOB di Azure. L'[agente di distribuzione documenti](install-document-routing-agent.md) utilizza l'autenticazione Azure per stabilire un canale sicuro per i servizi Azure.
+Mentre i documenti prodotti dalle applicazioni ospitate sono in attesa di essere stampati su un dispositivo connesso in rete, vengono memorizzati nell'archiviazione BLOB di Azure. L'opzione [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](install-document-routing-agent.md) utilizza l'autenticazione Azure per stabilire un canale sicuro per i servizi Azure.
 
 **Sequenza esecuzione**
 

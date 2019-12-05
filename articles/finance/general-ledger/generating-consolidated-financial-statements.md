@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178426"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770691"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
@@ -171,7 +171,7 @@ Nel conto principale, è necessario impostare i campi **Tipo di tasso di cambio 
 - Nel campo **Tipo di tasso di cambio report finanziari** selezionare il tipo di tasso di cambio che contiene le valute e i tassi di cambio da applicare al conto. Questa tabella di valute e tassi di cambio verrà applicata ai dati effettivi nella creazione di report finanziari.
 - Nel campo **Tipo di conversione valuta** selezionare il metodo che viene utilizzato per calcolare il tasso di cambio per il conto. Questo metodo di valuta viene utilizzato sia per i dati effettivi che per i dati di budget nella creazione di report finanziari.
 
-![Conti principali nella creazione di report finanziari](./media/Financial-reporting-main-accounts.png "Conti principali nella creazione di report finanziari")
+![Conti principali per la creazione di report finanziari](./media/Financial-reporting-main-accounts.png "Conti principali per la creazione di report finanziari")
 
 Per i dati di budget, di controllo del budget e di pianificazione del budget, il tipo di tasso di cambio viene definito nella pagina **Contabilità generale**. La tabella verrà utilizzata per estrarre i tassi di cambio e verrà utilizzato il tipo di conversione di valuta assegnato al conto.
 
@@ -221,6 +221,6 @@ Per ottenere la conversione corretta degli importi quando si utilizzano le valut
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Consolidamenti finanziari e conversione valuta](./financial-consolidations-currency-translation.md).
+Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
-Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidare online](./consolidate-online.md).
+Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).

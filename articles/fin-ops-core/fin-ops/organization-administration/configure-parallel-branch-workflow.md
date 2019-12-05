@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190145"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811359"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Configurare i rami paralleli in un flusso di lavoro
 
@@ -46,8 +46,8 @@ Per immettere un nome per un ramo parallelo, effettuare le operazioni indicate d
 Per progettare e configurare gli elementi del ramo parallelo, effettuare le operazioni indicate di seguito.
 
 1. Fare doppio clic ramo parallelo.
-2. Trascinare gli elementi del flusso di lavoro nella canvas, quindi configurarli come per creare un flusso di lavoro qualsiasi. Per ulteriori informazioni, vedere [Creare un flusso di lavoro](create-workflow.md).
+2. Trascinare gli elementi del flusso di lavoro nella canvas, quindi configurarli come per creare un flusso di lavoro qualsiasi. Per ulteriori informazioni, vedere [Panoramica della creazione di flussi di lavoro](create-workflow.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Creare un flusso di lavoro](create-workflow.md)
+[Creare panoramica flussi di lavoro](create-workflow.md)

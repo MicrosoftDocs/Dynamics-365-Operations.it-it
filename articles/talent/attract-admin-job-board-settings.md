@@ -1,5 +1,5 @@
 ---
-title: Abilitare l'integrazione di Broadbean in Microsoft Dynamics 365 Talent - Attract
+title: Abilitare l'integrazione di Broadbean in Attract
 description: In questo argomento viene descritto come configurare Microsoft Dynamics 365 Talent - Attract per pubblicare le posizioni in bacheche mansioni esterne, ad esempio in Broadbean.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552142"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833210"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>Abilitare l'integrazione di Broadbean in Microsoft Dynamics 365 Talent - Attract
+# <a name="enable-broadbean-integration-in-attract"></a>Abilitare l'integrazione di Broadbean in Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Se si desidera rendere visibili le posizioni aperte nella propria azienda al maggior numero possibile di candidati, esistono siti di reclutamento come Broadbean che consentono di soddisfare tale esigenza. Microsoft Dynamics 365 Talent: Attract consente ora di pubblicare posizioni in Broadbean e Microsoft pubblica costantemente nuove offerte in quest'area.
 

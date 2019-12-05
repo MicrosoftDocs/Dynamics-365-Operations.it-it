@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019395"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811242"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019395"
 Questo argomento illustra come connettere periferiche a Retail POS.
 
 > [!NOTE]
-> Per le istruzioni di installazione specifiche, vedere [Installazione e configurazione di una stazione hardware Retail](retail-hardware-station-configuration-installation.md) e [Download/installazione self-service di Retail Modern POS e attivazione dispositivi di Modern POS e POS cloud](retail-modern-pos-device-activation.md).
+> Per istruzioni di installazione specifiche, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md) e [Configurare, installare e attivare Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componenti principali
 
@@ -139,7 +139,7 @@ Il profilo funzionalità è impostato a livello di punto vendita. Viene utilizza
 
 - Scheda dettaglio **Codici informativi**:
 
-    - Tutti gli aspetti dell'impostazione dei codici di informazioni vengono gestiti nel POS. Per informazioni dettagliate, vedere [Codici di informazioni](info-codes-retail.md).
+    - Tutti gli aspetti dell'impostazione dei codici di informazioni vengono gestiti nel POS. Per ulteriori informazioni, vedere [Codici informativi e gruppi di codici informativi](info-codes-retail.md).
 
 - Scheda dettaglio **Numerazione ricevute**:
 

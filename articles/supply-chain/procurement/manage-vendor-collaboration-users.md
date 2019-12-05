@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248959"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813502"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come è possibile richiedere il provisioning
 
 L'interfaccia di collaborazione fornitore in Dynamics 365 Supply Chain Management mostra informazioni sugli ordini fornitore, fatture e scorte di spedizione ai fornitori esterni. È possibile creare nuovi contatti per la collaborazione fornitore e richiedere il provisioning di nuovi  utenti se si lavora come fornitore esterno con il ruolo di sicurezza **Amministratore fornitore (esterno)** o simili autorizzazioni. È inoltre possibile eseguire queste attività se si lavora come responsabile di approvvigionamento. In questo argomento, questo ruolo si riferisce a un responsabile di approvvigionamento che lavora all'interno della società a cui appartiene l'istanza di Supply Chain Management. Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un fornitore esterno, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un responsabile approvvigioanmento, vedere [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
+Per ulteriori informazioni sull'utilizzo della collaborazione fornitore se si è un responsabile approvvigionamento, vedere [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Aggiungere nuovi contatti per la collaborazione fornitore
 Se si desidera che un utente possa accedere alla collaborazione fornitore, questo deve innanzitutto essere aggiunto come contatto per la collaborazione fornitore. È inoltre possibile voler aggiungere contatti per i dipendenti della società che non utilizzeranno la collaborazione fornitore. Ad esempio, potrebbero essere il punto di contatto per altri tipi di informazioni di approvvigionamento. I nuovi contatti vengono aggiunti nella pagina **Tutti i contatti** a cui si accede dal menu **Collaborazione fornitore** &gt; **Contatti**. Per aggiungere un nuovo contatto:

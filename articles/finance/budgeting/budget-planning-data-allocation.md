@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08141615e36c7bfe8b8a7984322dbb985568ee51
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178509"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772078"
 ---
 # <a name="budget-planning-data-allocation"></a>Allocazione dei dati della pianificazione del budget
 
@@ -36,28 +36,28 @@ Questo articolo descrive i metodi di allocazione disponibili in Microsoft Dynami
 ## <a name="allocation-methods"></a>Metodi di allocazione
 Tre metodi di allocazione (Alloca nei periodi, Alloca a dimensioni e Utilizza regole di allocazione contabilità generale) possono creare le righe del piano di budget in base alle righe dello stesso piano di budget. Altri metodi tre (Aggrega, Distribuisci e Copia da piano di budget) possono creare le righe del piano di budget in altri piani di budget. Per tutti e sei i metodi di allocazione, specificare lo scenario di destinazione. Lo scenario di destinazione può essere uguale o diverso dallo scenario di origine. Inoltre, è possibile specificare se le nuove righe vengono aggiunte al piano di budget o sostituiscono le righe correnti del piano di budget.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![Metodo di allocazione Alloca nei periodi](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Alloca nei periodi**: una categoria di allocazione per periodo viene utilizzata per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. L'importo di origine viene assegnato a più righe nello scenario di destinazione, in base alla percentuale e alla data definite nella categoria di allocazione per periodo.         
 
-[![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![Metodo di allocazione Alloca a dimensioni](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Alloca a dimensioni**: le righe del piano di budget vengono allocate dallo scenario di origine di pianificazione del budget a una o più righe dello scenario descritto di destinazione, in base alle percentuali e alle dimensioni finanziarie definite in un termine di allocazione budget selezionato.           
 
 ![AggregateChart](./media/aggregatechart-300x230.png)
-**Aggrega**: le righe del piano di budget sono aggregate dallo scenario del piano di budget di origine nei piani di budget associati (figlio) allo scenario di destinazione nel piano di budget padre. Questo metodo abilita il consolidamento degli importi di budget preparati a un livello più basso nell'organizzazione a un livello superiore.          
+**Aggrega grafico**: le righe del piano di budget sono aggregate dallo scenario del piano di budget di origine nei piani di budget associati (figlio) allo scenario di destinazione nel piano di budget padre. Questo metodo abilita il consolidamento degli importi di budget preparati a un livello più basso nell'organizzazione a un livello superiore.          
 
-[![DistributeChart](./media/distributechart-300x230.png)](./media/distributechart.png)
+[![Distribuisci grafico](./media/distributechart-300x230.png)](./media/distributechart.png)
 **Distribuisci**: le righe del piano di budget vengono distribuite dallo scenario di origine di pianificazione del budget del piano di budget padre nello scenario di destinazione dei piani di budget associati (figlio), in base alle dimensioni finanziarie delle unità organizzative dei piani associati. Questo metodo abilita la ripartizione degli importi di budget preparati a un livello più alto nell'organizzazione per più revisioni localizzate.           
 
-[![LedgerAllocationRules](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+[![Regole di allocazione contabilità generale](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
 **Utilizza regole di allocazione contabilità generale**: le righe del piano di budget sono distribuite dallo scenario di origine di pianificazione del budget nello scenario di destinazione, in base alla regola di allocazione di contabilità generale selezionata. 
 
-[![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![Copia da piano di budget](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Copia da piano di budget**: come nel metodo di allocazione distribuzione, le righe del piano di budget vengono create nella destinazione, in base alle righe di un piano di budget correlato. Tuttavia, per questo metodo, il piano di budget di origine non deve essere padre ma può essere a un livello superiore nella gerarchia del piano di budget. Questo metodo di allocazione è utile se gli importi consolidati sono originariamente inseriti nel budget a un livello molto superiore e devono essere trasferiti a un livello più basso dell'organizzazione per la revisione e la rettifica dettagliata prima di poter ricevere l'approvazione del livello superiore.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Utilizzo dei metodi di allocazione in un piano di budget
 Per eseguire le allocazioni nella pagina del piano del budget, selezionare le righe da allocare quindi fare clic su **Alloca budget**.
 
-[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![Pulsante Alloca budget](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 A questo punto, selezionare un metodo di allocazione. I campi rimanenti vengono quindi impostati, in base al metodo selezionato. Questi campi includono l'origine e la destinazione dei dati del piano del budget e un'opzione che consente di moltiplicare l'origine per un fattore specificato quando gli importi di destinazione vengono creati, per semplificare la rettifica in blocco. È inoltre possibile impostare l'opzione **Aggiungi a piano**. Selezionare **No** per sostituire le righe esistenti del piano del budget o selezionare **Sì** per mantenere le righe esistenti del piano di budget e aggiungere nuove righe per gli importi allocati.
 
@@ -70,7 +70,7 @@ Quindi, creare un'allocazione della fase nella pagina **Configurazione di pianif
 
 Infine, aggiungere un'attività automatizzata per l'allocazione della fase di pianificazione del budget nella fase desiderata del flusso di lavoro. Nel seguente esempio, due allocazioni di fase di pianificazione del budget (evidenziate in rosso) sono state inserite nel flusso di lavoro.
 
-[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![Allocazioni di fasi di pianificazione del budget](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 

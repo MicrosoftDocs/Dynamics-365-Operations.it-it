@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181682"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771239"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Tenere traccia dei risultati dei report generati e confrontarli con i valori di base
 
@@ -44,10 +44,10 @@ Per ulteriori informazioni su questa funzionalità, riprodurre le guide attivit�
 
 Questa procedura descrive il modo in cui configurare il framework ER per raccogliere informazioni sulle esecuzioni del formato ER e valutare i risultati di tali esecuzioni. Nell'ambito di tale valutazione, i documenti generati vengono confrontati ai file di base. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici. Tali passaggi possono essere completati utilizzando qualsiasi set di dati.
 
-Per completare i passaggi in questo esempio, è necessario dapprima completare i passaggi in [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Per completare i passaggi in questo esempio, è necessario dapprima completare i passaggi in [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il provider di configurazione per la società di esempio Litware, Inc. sia elencato e contrassegnato come **Attivo**. Se il provider di configurazione non è visualizzato, seguire i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il provider di configurazione per la società di esempio Litware, Inc. sia elencato e contrassegnato come **Attivo**. Se il provider di configurazione non è visualizzato, seguire i passaggi dell'argomento [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Configurare i parametri di gestione documenti
 
@@ -64,7 +64,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 
 1. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Collegamenti correlati**, selezionare **Parametri per la creazione di report elettronici**.
 
-    ![Area di lavoro Creazione di report elettronic](media/GER-BaselineSample-ERWorkspace.PNG "Schermata dell'area di lavoro Creazione di report elettronici")
+    ![Area di lavoro Creazione di report elettronici](media/GER-BaselineSample-ERWorkspace.PNG "Schermata dell'area di lavoro Creazione di report elettronici")
 
 2. Nella scheda **Allegati**, nel campo **Base**, immettere o selezionare il tipo di documento appena creato.
 
@@ -154,7 +154,7 @@ In base alla struttura progettata, il formato configurato genererà un file XML.
 2. Nel campo **Immetti ID**, immettere **1**.
 3. Selezionare **OK**.
 
-    ![Pagina Parametri per la creazione di report elettronici](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermata della pagina Parametri per la creazione di report elettronici")
+    ![Finestra di dialogo Parametri per la creazione di report elettronici](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermata della finestra di dialogo Parametri per la creazione di report elettronici")
 
 4. Salvare una copia locale del file **out.Admin.xml** generato, di modo che sia possibile utilizzarla successivamente come base per questo formato ER.
 
@@ -166,7 +166,7 @@ In base alla struttura progettata, il formato configurato genererà un file XML.
 2. Impostare l'opzione **Esegui in modalità di debug** su **Sì**.
 3. Selezionare **OK**.
 
-![Finestra di dialogo Parametri utente](media/GER-BaselineSample-ERUserParameters.PNG "Schermata della finestra di dialogo Parametri utente")
+![Finestra di dialogo Parametri dell'utente](media/GER-BaselineSample-ERUserParameters.PNG "Schermata della finestra di dialogo Parametri dell'utente")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Aggiungere una nuova base per il formato ER progettato
 
@@ -179,7 +179,7 @@ In base alla struttura progettata, il formato configurato genererà un file XML.
 4. Selezionare il formato ER **Formato per ottenere basi ER** progettato in precedenza.
 5. Selezionare **Salva**.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline.PNG "Schermata della pagina Base del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 
@@ -189,7 +189,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 2. Nel riquadro azioni selezionare **Nuovo** \> **File**. Nei parametri ER, il tipo di documento **File** deve essere già stato selezionato come tipo di documento utilizzato per archiviare file di base.
 3. Selezionare **Sfoglia** e selezionare il file **out.Admin.xml** generato quando si è eseguito il formato ER configurato in precedenza.
 
-    ![Pagina Allegati](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermata della pagina Allegati").
+    ![Pagina Allegati](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermata della pagina Allegati")
 
 4. Chiudere la pagina **Allegati**.
 5. Nella scheda dettaglio **Basi**, selezionare **Nuovo**.
@@ -204,7 +204,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 10. Nel campo **Base**, immettere o selezionare l'allegato **out.Admin**.
 11. Selezionare **Salva**.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Base del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati
 
@@ -243,4 +243,4 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Configurare il framework ER](electronic-reporting-er-configure-parameters.md)
+- [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570811"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813884"
 ---
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
@@ -55,7 +55,7 @@ La sezione **Criteri di inventario** contiene i criteri di prenotazione seguenti
 | Controllo in base a data FIFO    | Se si seleziona l'opzione **Controllo in base a data FIFO**, la prenotazione delle scorte viene controllata in base alla data di ordinamento secondo il principio FIFO (First In, First Out). I batch sono prenotati in base alla prima data di entrata degli articoli secondo il principio FIFO (First In, First Out).                                                                                                                                                                                                                                                                       |
 | Indietro da data di spedizione | Questa opzione diventa disponibile se è stata selezionata l'opzione **Controllo in base a data FIFO**. Se si seleziona **Indietro da data di spedizione**, la prenotazione delle scorte verrà effettuata a ritroso dalla data di spedizione desiderata secondo il principio LIFO (Last In, First Out). Se non sono disponibili entrate prima della data di spedizione, verrà utilizzata una prenotazione FIFO.                                                                                                                                                                                                           |
 | Prenotazione vendite articolo  | Determina se la prenotazione dell'articolo viene eseguita manualmente o automaticamente. Se la prenotazione è automatica, le scorte sono prenotate alla creazione delle righe ordine. È possibile effettuare prenotazioni a livello del numero di articolo per DBA (opzione **Automatico**), o per i singoli elementi di una DBA (opzione **Esplosione**). Il valore predefinito per **Prenotazione vendite articolo** può essere ereditato da **Parametri contabilità clienti**. In questa pagina, il valore viene impostato nel campo Prenotazione della **sezione** **Valori predefiniti vendite** della scheda **Generale**. |
-| Selezione stesso batch    | La prenotazione dello stesso batch consente di prenotare le scorte per una riga di ordine cliente da un unico lotto di magazzino. Se si desidera utilizzare questa opzione, è inoltre necessario impostare l'opzione **Fabbisogno consolidato** su **Sì**. Esistono alcune impostazioni aggiuntive necessarie per il gruppo di dimensioni di tracciabilità e il gruppo di dimensioni di immagazzinamento. Per ulteriori informazioni, vedere [Prenotazione dello stesso batch per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| Selezione stesso batch    | La prenotazione dello stesso batch consente di prenotare le scorte per una riga di ordine cliente da un unico lotto di magazzino. Se si desidera utilizzare questa opzione, è inoltre necessario impostare l'opzione **Fabbisogno consolidato** su **Sì**. Esistono alcune impostazioni aggiuntive necessarie per il gruppo di dimensioni di tracciabilità e il gruppo di dimensioni di immagazzinamento. Per ulteriori informazioni, vedere [Prenotare lo stesso batch per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Fabbisogno consolidato | Questa opzione è simile all'opzione **Selezione stesso batch** e consolida le scorte prenotate per le righe di ordine cliente in un unico fabbisogno.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Controllo in base a data FEFO    | Questa opzione consente di prenotare batch vicini alla data di scadenza o data di consumo consigliata. È inoltre necessario impostare il campo **Criteri di prelievo** per selezionare **Data di scadenza** o**Data di consumo consigliata**.                                                                                                                                                                                                                                                                                                                              |
 

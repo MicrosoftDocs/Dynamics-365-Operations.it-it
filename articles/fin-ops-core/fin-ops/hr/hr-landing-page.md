@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553165"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812438"
 ---
 # <a name="human-resources-overview"></a>Panoramica delle risorse umane
 
@@ -53,7 +53,7 @@ Quando si utilizza Risorse umane, è necessario strutturare l'organizzazione uti
 
 I progetti di selezione consentono di gestire il contenuto degli annunci di offerte di lavoro e le domande di lavoro per le posizioni aperte. È possibile utilizzarli per tenere traccia delle risposte agli annunci di lavoro per un progetto di selezione specifico, o candidati specifici, e aggiornare lo stato delle posizioni aperte. È possibile anche assumere singoli candidati o gestire "progetti di assunzione collettiva" che facilitano l'assunzione di più lavoratori, ad esempio, per soddisfare le esigenze aziendali stagionali.
 
-- [Gestire un processo di selezione](manage-recruiting-process.md)
+- [Gestire processi di selezione](manage-recruiting-process.md)
 - [Progetti di assunzione collettiva](mass-hire-projects.md) 
 
 Una volta assunto il personale, è possibile impostare i piani per gestire in modo efficace ed equo le retribuzioni, nonché gestire gli elementi quali computer o cellulari che l'organizzazione affida ai propri dipendenti. È possibile creare piani di retribuzione fissa e variabile, nonché definire regole da applicare al piano di retribuzione per soddisfare i criteri del piano.
@@ -67,14 +67,14 @@ Una volta assunto il personale, è possibile impostare i piani per gestire in mo
 Per consentire ai dipendenti di raggiungere gli obiettivi di avanzamento professionale mentre soddisfano le esigenze aziendali critiche è possibile impostare gli obiettivi, creare le revisioni delle prestazioni e tenere traccia del riscontro Per permettere ai dipendenti di sviluppare le competenze necessarie è inoltre possibile impostare gli istruttori, i tipi di corso, i corsi, le descrizioni dei corsi, le agende, le tracce e le sessioni prima di assegnare un istruttore a un corso o iscrivere qualcuno a un corso. I docenti, come i lavoratori, i candidati o i contatti, devono già essere presenti.
 
 - [Gestione delle prestazioni](../../../talent/performance-management-overview.md)
-- [Allineare le competenze della forza lavoro e le esigenze aziendali](../../../talent/skills.md)
-- [Amministrare la formazione tramite i corsi](../../../talent/courses.md)
+- [Allineare le competenze della forza lavoro alle esigenze aziendali](../../../talent/skills.md)
+- [Impostare i corsi di formazione](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Creare e gestire benefit
 
 Oltre a remunerare il personale con salari, stipendi e premi, è possibile sviluppare programmi di benefit, ad esempio piani pensionistici e di assicurazione sanitaria. È inoltre possibile gestire i benefit come programmi di prestito, in cui la società presta elementi, quali computer o cellulari, ai propri dipendenti.
 
-- [Gestire un programma di benefit](../../../talent/manage-benefit-program.md)
+- [Definire e gestire un programma di benefit](../../../talent/manage-benefit-program.md)
 - [Criteri di idoneità benefit](../../../talent/benefit-eligibility-policies.md)
 - [Gestire gli articoli affidati ai lavoratori](../../../talent/loan-items.md)
 
@@ -82,15 +82,15 @@ Oltre a remunerare il personale con salari, stipendi e premi, è possibile svilu
 
 Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro e conforme alle leggi applicabili, comprese le disposizioni statunitensi dell'Americans with Disabilities Act e le leggi sull'immigrazione e sulla naturalizzazione, a titolo esemplificativo. Ad esempio, è possibile gestire i requisiti fisici per mansioni specifiche nonché tenere traccia di richieste di facilitazioni che possono agevolare l'organizzazione nell'ottimizzare le competenze della forza lavoro.
 
-- [Verifica di impiego del modulo I-9](localizations/noam-usa-form-i-9-verification.md)
-- [Conformità all'Americans with Disabilities Act](localizations/noam-usa-comply-ada.md)
-- [Tenere traccia delle ore lavorate per FMLA](localizations/noam-usa-track-time-for-fmla.md)
+- [Verifica modulo I-9](localizations/noam-usa-form-i-9-verification.md)
+- [Conformità all'Americans with Disabilities Act (ADA)](localizations/noam-usa-comply-ada.md)
+- [Tenere traccia dei permessi per la normativa per il congedo per motivi medici e familiari (FMLA)](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Raccogliere informazioni tramite questionari
 
 È possibile progettare e amministrare questionari per raccogliere le informazioni utilizzate per vari scopi. La funzionalità Gestione questionari consente di progettare e creare questionari. Quando un questionario è pronto, lo si distribuisce su larga scala o a un gruppo specifico di intervistati per il completamento. Dopo che gli intervistati forniscono le risposte, è possibile rivedere e analizzare i risultati.
 
 - [Questionari](../../../talent/questionnaires.md)
-- [Progettare un questionario](../../../talent/design-questionnaires.md)
-- [Distribuire e completare un questionario](../../../talent/distribute-questionnaires.md)
-- [Visualizzare e valutare i risultati di un questionario](../../../talent/evaluate-questionnaire-results.md)
+- [Progettare questionari](../../../talent/design-questionnaires.md)
+- [Distribuire e programmare questionari](../../../talent/distribute-questionnaires.md)
+- [Visualizzare e valutare i risultati dei questionari](../../../talent/evaluate-questionnaire-results.md)

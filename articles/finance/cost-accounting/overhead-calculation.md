@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178484"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770806"
 ---
 # <a name="overhead-calculation"></a>Calcolo generale
 
@@ -1411,7 +1411,7 @@ Nella contabilità finanziaria, il costo di 10.000,00 dell'elettricità viene re
 </table>
 
 > [!NOTE]
-> In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Rollup costi](cost-rollup.md).
+> In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Criteri rollup costi e calcolo dei costi generali](cost-rollup.md).
 
 
 

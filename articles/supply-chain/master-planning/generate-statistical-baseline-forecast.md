@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250739"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815182"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generare una previsione di base statistica
 
@@ -56,7 +56,7 @@ Il campo **Data di inizio previsione di base** - **Dal** deve essere impostato a
 
 Il campo **Data di inizio previsione di base** - **Dal** può essere impostato su una data nel passato. Ovvero è possibile generare una previsione della domanda nel passato. Questa opzione è utile, poiché consente agli utenti di modificare i parametri del servizio di previsione in modo che la previsione statistica generata nel passato corrisponda alla richiesta storica effettiva. Gli utenti possono quindi continuare a utilizzare le impostazioni dei parametri per generare una previsione di base statistica per il futuro. 
 
-Le rettifiche manuali effettuate nelle iterazioni precedenti di previsione della domanda possono essere applicati automaticamente alla nuova previsione di base se è selezionata la casella di controllo **Trasferisci correzioni manuali alla previsione della domanda**. Se la casella di controllo è deselezionata, le correzioni manuali non vengono aggiunte alla previsione di base, ma non verranno eliminate. Le correzioni manuali effettuate in una previsione possono essere eliminate solo durante l'importazione della previsione, deselezionando la casella di controllo **Salva le rettifiche manuali apportate alla previsione della domanda di base**. Le correzioni manuali vengono salvate nella fase di autorizzazione. Di conseguenza, se un utente apporta rettifiche manuali alla previsione, ma non autorizza la previsione in Supply Chain Management, le modifiche vanno perse. Per ulteriori informazioni sulle rettifiche manuali e sul loro utilizzo, vedere [Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md). 
+Le rettifiche manuali effettuate nelle iterazioni precedenti di previsione della domanda possono essere applicati automaticamente alla nuova previsione di base se è selezionata la casella di controllo **Trasferisci correzioni manuali alla previsione della domanda**. Se la casella di controllo è deselezionata, le correzioni manuali non vengono aggiunte alla previsione di base, ma non verranno eliminate. Le correzioni manuali effettuate in una previsione possono essere eliminate solo durante l'importazione della previsione, deselezionando la casella di controllo **Salva le rettifiche manuali apportate alla previsione della domanda di base**. Le correzioni manuali vengono salvate nella fase di autorizzazione. Di conseguenza, se un utente apporta rettifiche manuali alla previsione, ma non autorizza la previsione in Supply Chain Management, le modifiche vanno perse. Per ulteriori informazioni sulle rettifiche manuali e sul loro utilizzo, vedere [Autorizzare una previsione rettificata](authorize-adjusted-forecast.md). 
 
 Una creazione di una previsione della domanda può avere un nome e dei commenti per facilitare gli utenti a identificare la previsione generata. Questi valori sono visibili nello storico della generazione di previsione nella pagina **Storico generazione previsione di base statistica**. 
 
@@ -75,6 +75,6 @@ Se la previsione non viene generata per un grande set di articoli, ma ad esempio
 
 - [Impostazione della previsione della domanda](demand-forecasting-setup.md)
 
-- [Implementazione di correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
+- [Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
-- [Autorizzazione della previsione rettificata](authorize-adjusted-forecast.md)
+- [Autorizzare una previsione corretta](authorize-adjusted-forecast.md)

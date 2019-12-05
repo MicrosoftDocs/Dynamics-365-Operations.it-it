@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626249"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811747"
 ---
 # <a name="manually-created-work-orders"></a>Ordini di lavoro creati manualmente
 
@@ -70,7 +70,7 @@ Notare i punti seguenti:
 
 - Nella visualizzazione dettagli della pagina elenco **Tutti gli ordini di lavoro**, è possibile aggiungere vari cespiti a un ordine di lavoro aggiungendo righe nella Scheda dettaglio **Processi di manutenzione ordine di lavoro**. In un cespite, è possibile selezionare solo i tipi di processo di manutenzione definiti nel tipo di cespite selezionato per il cespite.  
 
-- Se si modifica un livello di servizio cespiti o una criticità cespiti dopo che è stato già utilizzato il cespite in un ordine di lavoro, il livello di servizio o la criticità nell'ordine di lavoro non viene aggiornato di conseguenza. Per ulteriori informazioni sui livelli di servizio e le criticità, vedere [Livello del servizio cespiti](../setup-for-objects/object-priorities.md) e [Criticità cespiti](../setup-for-objects/object-criticalities.md).
+- Se si modifica un livello di servizio cespiti o una criticità cespiti dopo che è stato già utilizzato il cespite in un ordine di lavoro, il livello di servizio o la criticità nell'ordine di lavoro non viene aggiornato di conseguenza. Per ulteriori informazioni sui livelli di servizio e le criticità, vedere [Livello del servizio cespiti](../setup-for-objects/object-priorities.md) e [Tipi di criticità dei cespiti](../setup-for-objects/object-criticalities.md).
 
 - La criticità in un ordine di lavoro viene ricalcolata ogni volta in cui un processo ordine di lavoro viene aggiunto o eliminato dall'ordine di lavoro.
 

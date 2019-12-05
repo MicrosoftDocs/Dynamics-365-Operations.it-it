@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181268"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771471"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici (ER)
 
@@ -122,7 +122,7 @@ Se si imposta **Abilitato** su **Sì**, viene creata un'anteprima dell'output. �
 
 ### <a name="power-bi-destination"></a>Destinazione Power BI
 
-Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza ai servizi Microsoft Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Utilizzare la configurazione di creazione report elettronici per fornire a Power BI i dati da Finance](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per definire il trasferimento di dati dall'istanza ai servizi Microsoft Power BI. I file trasferiti sono archiviati in un'istanza di Microsoft SharePoint Server che deve essere configurata a tale scopo. Per ulteriori informazioni, vedere [Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Per ignorare il comportamento predefinito (ovvero, la finestra di dialogo per una configurazione), è possibile creare un riferimento di destinazione e una destinazione di file per il componente di output principale e quindi disattivare tutte le destinazioni.
@@ -163,4 +163,4 @@ Il prerequisito è che il formato deve essere disponibile nelle configurazioni E
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)

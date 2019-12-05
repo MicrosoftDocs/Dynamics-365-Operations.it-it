@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551451"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812835"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Condividere il contenuto con altri collaboratori in Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard consente di condividere guide e modelli p
 
 3. In **Destinatario**, se i destinatari devono essere in grado di rivedere e correggere il modello, impostare l'opzione **Queste persone possono apportare modifiche?** su **Attivato**. Se ai destinatari deve essere notificata via e-mail la condivisione del modello, impostare l'opzione **Invia notifica tramite posta elettronica ai destinatari** su **Attivato**.
 
-    [!Impostazione delle preferenze di accesso e di e-mail per un modello](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Impostazione delle preferenze di accesso e di e-mail per un modello](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Immettere un nome o un indirizzo di posta elettronica e selezionare il destinatario desiderato nell'elenco a discesa.
 5. Nella scheda **Gestisci accesso** è possibile esaminare o modificare ciò che i destinatari possono fare nel modello. Per modificare l'accesso di un destinatario, nell'elenco a discesa accanto al nome del destinatario, selezionare **Visualizzazione possibile**, **Modifica possibile** o **Rimuovi**, in base alle proprie esigenze.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard consente di condividere guide e modelli p
 ### <a name="see-also"></a>Vedere anche
 
 - [Provare o acquistare l'app Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novità](./whats-new.md)
-- [Note sulla versione](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Ottenere supporto](./talent-support.md)
+- [Novità o modifiche in Dynamics 365 Talent](./whats-new.md)
+- [Piani di rilascio](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Ottenere supporto per Microsoft Dynamics 365 Talent](./talent-support.md)

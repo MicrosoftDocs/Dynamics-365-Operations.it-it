@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550859"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772389"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Integrazione dati quasi in tempo reale con Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Nel mondo digitale corrente, gli ecosistemi aziendali utilizzano le applicazioni Microsoft Dynamics 365 nel loro insieme. Poiché i dati di persone, clienti, operazioni e dai dispositivi IoT (Internet of Things, Internet delle Cose) fluiscono in una sola origine, c'è un'opportunità di cicli di feedback digitali. Per ottenere questa esperienza, l'integrazione tra le app Finance and Operations e le applicazioni Dynamics 365 è essenziale. Alcune applicazioni si basano su Common Data Service. L'integrazione tra i dati delle app Finance and Operations e Common Data Service consente ad altre applicazioni di comunicare coerentemente e in modo fluente con Finance and Operations.
 
@@ -38,13 +36,16 @@ Le app Finance and Operations e Common Data Service forniscono la sincronizzazio
 
 ![Diagramma di panoramica dell'architettura](media/dual-write-overview.jpg)
 
-Le seguenti proposte di valore sono disponibili per i clienti:
+Le seguenti proposte di valore sono disponibili:
 
 + [Gerarchia organizzativa in Common Data Service](dual-write-organization.md)
 + [Concetto di società in Common Data Service](dual-write-company.md)
 + [Gestione integrata dei dati dei clienti](dual-write-customer.md)
++ [Contabilità generale integrata](dual-write-ledger.md)
++ [Esperienza prodotto unificata](dual-write-product.md)
 + [Gestione integrata dei dati dei fornitori](dual-write-vendor.md)
-+ Rappresentazione generale prodotto unificata
++ [Siti e magazzini integrati](dual-write-sites-and-warehouses.md)
++ [Anagrafica fiscale integrata](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 

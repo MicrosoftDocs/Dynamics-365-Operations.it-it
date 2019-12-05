@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ef97d30ca2d8a9c27ce656c82d2a415682ce075
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551224"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773432"
 ---
 # <a name="import-iso20022-files"></a>Importare file ISO20022
 
@@ -49,7 +49,7 @@ ms.locfileid: "2551224"
 
     - Nel campo **Pagamenti clienti, lunghezza conto** immettere la lunghezza del codice cliente utilizzato nei riferimenti ISR o per l'identificazione automatica del cliente.
     - Verificare che il numero di fattura e il numero cliente (sequenze numeriche) contengano solo cifre. Non devono contenere altri caratteri. Il numero di fattura non deve avere zeri iniziali.
-    - Immettere i numeri ESR, BESR e di registrazione del conto bancario della persona giuridica. Per ulteriori informazioni, vedere [funzionalità PVR precedenti](emea-che-esr-customer-payments-import.md), poiché impostazioni simili sono necessarie.
+    - Immettere i numeri ESR, BESR e di registrazione del conto bancario della persona giuridica. Per ulteriori informazioni, vedere [Importazione pagamenti cliente PVR](emea-che-esr-customer-payments-import.md), poiché impostazioni simili sono necessarie.
     
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Importare il file di avviso di accredito camt.054 nel giornale di registrazione pagamenti cliente
 1. Nella pagina **Righe giornale di registrazione pagamenti cliente** fare clic su **Funzioni** > **Importa pagamenti**.

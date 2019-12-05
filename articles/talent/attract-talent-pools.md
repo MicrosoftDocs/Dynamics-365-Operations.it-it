@@ -1,5 +1,5 @@
 ---
-title: Selezionare candidati con pool di talenti in Microsoft Dynamics 365 Talent - Attract
+title: Selezionare i candidati utilizzando i pool di talenti in Attract
 description: In questo argomento viene descritto come creare e configurare pool di talenti in Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551120"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833025"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Selezionare candidati con pool di talenti in Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Selezionare i candidati utilizzando i pool di talenti in Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 I selezionatori e responsabili delle assunzioni possono organizzare i candidati utilizzando la funzionalità Pool di talenti in Attract. I pool di talenti consentono di tenere traccia e stabilire un contatto con tutti i candidati che fanno domanda per mansioni nella società.
 
@@ -116,7 +115,7 @@ Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei can
 
     Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft Office 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
 
-- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Cercare candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Selezionare i candidati con LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Solo i candidati possono aggiornare le competenze, lo storico del percorso formativo e le esperienze di lavoro ad essi relativi.

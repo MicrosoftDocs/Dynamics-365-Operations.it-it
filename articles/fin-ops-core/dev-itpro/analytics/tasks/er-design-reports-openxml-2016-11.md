@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182579"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769857"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
 
@@ -36,7 +36,7 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Caricare la configurazione del modello dati Pagamenti
 1. Nel pannello di navigazione andare a **Moduli > Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici**.
-2. Nell'elenco, contrassegnare il provider di configurazione per la società di esempio Litware, Inc. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura [Creare un provider di configurazione e contrassegnarlo come attivo](er-configuration-provider-mark-it-active-2016-11.md).
+2. Nell'elenco, contrassegnare il provider di configurazione per la società di esempio Litware, Inc. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selezionare **Imposta come attivo**.
 4. Selezionare **Archivi**. Selezionare un archivio per il tipo Risorse Operations, se disponibile. Se è disponibile, ignorare i passaggi seguenti che riguardano la creazione di un nuovo archivio.  
 5. Fare clic su **Aggiungi** per aprire la finestra di dialogo a discesa.

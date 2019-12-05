@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c29adc87b9ef435b714a46ba1a96ef8226759b6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8fac49cde1a6098b99e6373bf9221d3357a053a2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550686"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814515"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Vincoli di tabella definiti dall'utente e dal sistema
 
@@ -63,7 +63,7 @@ Prima che un vincolo di tabella possa essere reso effettivo in un modello di con
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Concetti chiave nei modelli configurazione prodotto](product-configuration-models.md)
+[Panoramica sui modelli di configurazione prodotto](product-configuration-models.md)
 
 
 

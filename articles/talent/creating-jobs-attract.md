@@ -1,5 +1,5 @@
 ---
-title: Creazione, approvazione e pubblicazione di annunci di mansioni in Attract
+title: Creare una posizione in Attract
 description: In questo argomento sono descritti gli elementi di una mansione in Attract. Viene illustrato anche come creare una mansione.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551074"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832933"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Creare, approvare e pubblicare annunci di mansioni in Attract
+# <a name="create-a-job-in-attract"></a>Creare una posizione in Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Se la gestione della posizione è stata abilitata nell'Interfaccia di amministra
 > [!NOTE]
 > La gestione delle posizioni è disponibile con il componente aggiuntivo per l'assunzione a livello globale.
 
-A seconda delle impostazioni nell'attività di offerta del processo di assunzione, un numero di posizione può essere utilizzato due volte in un'offerta. Per ulteriori informazioni, vedere [Processo di assunzione](./activities-attract.md).
+A seconda delle impostazioni nell'attività di offerta del processo di assunzione, un numero di posizione può essere utilizzato due volte in un'offerta. Per ulteriori informazioni, vedere [Attività nei processi di assunzione](./activities-attract.md).
 
 Attract include un set predefinito di **Competenze**. Queste competenze verranno visualizzate come suggerimenti mentre si digita. È possibile aggiungere più competenze digitando un nuovo testo relativo alle competenze nel campo e quindi premendo INVIO.
 
@@ -67,7 +67,7 @@ Il team di assunzione può essere aggiornato dopo che la mansione viene attivata
 
 Le informazioni predefinite relative al processo di assunzione si basano sul modello di processo selezionato durante la creazione della mansione. Se un modello specifico non è stato selezionato a questo punto, il modello predefinito viene utilizzato. Quando si definisce il processo di assunzione, è possibile aggiungere o rimuovere varie fasi, tranne Candidato, Domanda di lavoro e Offerta. Sebbene la fase Candidato non può essere rimossa, può essere disattivata. All'interno di ciascuna fase, è possibile aggiungere o rimuovere una o più attività predefinite.
 
-Per ulteriori informazioni sulle attività che possono essere aggiunti al processo di assunzione, vedere [Attività del processo di assunzione in Attract](./activities-attract.md).
+Per ulteriori informazioni sulle attività che possono essere aggiunti al processo di assunzione, vedere [Attività nei processi di assunzione](./activities-attract.md).
 
 > [!NOTE]
 > Il processo di assunzione non può essere aggiornato dopo che la mansione viene attivata.
@@ -76,7 +76,7 @@ Per ulteriori informazioni sulle attività che possono essere aggiunti al proces
 
 Dopo che una mansione viene attivata, può essere pubblicata. Solo i selezionatori e gli amministratori possono pubblicare annunci di mansioni. La mansione può essere pubblicata in Talent - Avanzamento professionale (un sito di avanzamento professionale di Dynamics 365 Talent) o su LinkedIn. Il team di Attract opera continuamente per collaborare con aggregatori di bacheche di annunci lavorativi. Questo elenco si espanderà nel tempo. Quando un processo viene registrato solo come interno, i candidati hanno bisogno di un conto ADD per visualizzare e applicare il processo. Se il processo è elencato come pubblico, i candidati possono visualizzare e applicare i processi utilizzando tutte le opzioni di autenticazione. 
 
-Per ulteriori informazioni sulla pubblicazione di annunci di mansioni, vedere [Funzionalità del sito di avanzamento professionale in Attract](career-site.md).
+Per ulteriori informazioni sugli annunci di lavoro, vedere [Configurare il sito per le possibilità di carriera in Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > La funzionalità di pubblicazione di annunci di mansioni è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale di Attract.
@@ -90,7 +90,7 @@ Dopo che una mansione è attivata, può essere pubblicata e i prospect e i candi
 
 ## <a name="prospects-and-applicants"></a>Prospect e candidati
 
-L'opzione per aggiungere prospect a una mansione viene impostata nell'[attività di prospect](./activities-attract.md#prospect-activity) nel processo di assunzione. Questa opzione deve essere impostata prima di attivare la mansione. Dopo che una mansione è attivata, i prospect e i candidati vi possono essere aggiunti.
+L'opzione per aggiungere prospect a una mansione viene impostata in [Attività nei processi di assunzione](./activities-attract.md#prospect-activity) nel processo di assunzione. Questa opzione deve essere impostata prima di attivare la mansione. Dopo che una mansione è attivata, i prospect e i candidati vi possono essere aggiunti.
 
 ## <a name="approvals"></a>Approvazioni
 
