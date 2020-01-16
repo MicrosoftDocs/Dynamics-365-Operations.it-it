@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novità o modifiche
               items:
-                - name: Funzionalità di anteprima di Supply Chain Management versione 10.0.7 (dicembre 2019)
+                - name: Supply Chain Management versione 10.0.7 (dicembre 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (novembre 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Home page Novità o modifiche in Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: App Finance and Operations versione 10.0.5 (ottobre 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (luglio 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funzionalità rimosse o deprecate
@@ -264,7 +260,7 @@
                 - name: Creare cespiti in base agli ordini fornitore
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: DBA cespiti
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Storico degli eventi relativi ai cespiti
                   href: asset-management/objects/object-timeline.md
                 - name: Visualizzazione cespiti
@@ -592,7 +588,7 @@
                 - name: Analisi dei costi degli ordini di produzione
                   href: cost-management/production-order-cost-analysis.md
                 - name: Stima dei costi degli ordini di produzione
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Visualizzare lo stato WIP corrente su un ordine di produzione
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Confrontare costi attivi, stimati e realizzati su un ordine di produzione'
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Ritardi
                   href: master-planning/delays.md
+                - name: Annullare un processo di pianificazione principale
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Utilizzare la tracciatura per l'esplosione
                   href: master-planning/trace-explosion.md
                 - name: Messaggi d'azione
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Creare un prodotto rilasciato per una singola società
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Utilizzare entità di dati
+                  href: pim/data-entities.md
                 - name: Stato del ciclo di vita del prodotto
                   items:
                     - name: Panoramica dello stato del ciclo di vita del prodotto
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Annullare il lavoro di magazzino per la gestione delle eccezioni
                   href: warehousing/cancel-warehouse-work.md
+                - name: Prelievo cluster diretto dal sistema
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Raggruppamento righe prelievo
+                  href: warehousing/pick-line-grouping.md
             - name: Conteggio delle scorte
               items:
                 - name: Codici motivo per il conteggio scorte
