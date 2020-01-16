@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Distribuzione cloud
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Requisiti di sistema per le distribuzioni cloud
+                - name: Requisiti di sistema per i componenti client di Retail
                   href: get-started/system-requirements.md
                 - name: Distribuzione locale
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Novità o modifiche
               items:
-                - name: Funzionalità di anteprima in Retail versione 10.0.7
+                - name: Retail versione 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retail versione 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail versione 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Novità o modifiche nelle versioni precedenti
                   items:
                     - name: Home page Novità o modifiche in Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: App Finance and Operations versione 10.0.5 (ottobre 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (luglio 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Funzionalità rimosse o deprecate
@@ -786,12 +780,10 @@
           items:
             - name: Panoramica delle informazioni sul prodotto
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
-            - name: Gerarchie di vendita al dettaglio
+            - name: Gerarchie di punti vendita al dettaglio
               href: retail-hierarchies.md
-            - name: Attributi e gruppi di attributi
+            - name: Gestire attributi e gruppi di attributi
               href: attribute-attributegroups-lifecycle.md
-            - name: Creare e gestire gli attributi
-              href: create-manage-attributes.md
             - name: Configurare prodotti di vendita al dettaglio
               href: set-up-retail-products.md
             - name: Creare un prodotto
@@ -1146,7 +1138,9 @@
               items:
                 - name: Funzionalità registratore di cassa
                   href: localizations/emea-swe-cash-registers.md
-                - name: Esempio di integrazione Retail POS con unità di controllo
+                - name: Esempio di integrazione di un'unità di controllo per la Svezia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Esempio di integrazione Retail POS con unità di controllo (legacy)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Attività Retail
           items:
@@ -1248,7 +1242,7 @@
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installazione, configurazione e passaggio dell''implementazione per fasi (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
-                - name: Aggiornamento dell'estensione del canale Retail all'ultimo Retail SDK
+                - name: Aggiornamento dell'estensione del canale di vendita al dettaglio all'ultimo Retail SDK
                   href: dev-itpro/retailSDK-update.md
             - name: Linee guida per l'implementazione
               items:

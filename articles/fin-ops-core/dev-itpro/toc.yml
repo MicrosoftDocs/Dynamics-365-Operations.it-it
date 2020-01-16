@@ -8,7 +8,9 @@
           href: index.md
         - name: Novità o modifiche
           items:
-            - name: Funzionalità di anteprima in Platform update 31 (gennaio 2020)
+            - name: Funzionalità di anteprima in Platform update 32 (febbraio 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (gennaio 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (novembre 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (marzo 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Novità o modifiche nelle versioni precedenti
+              items:
+                - name: Home page Novità o modifiche in Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Eventi aziendali
           items:
             - name: Panoramica eventi aziendali
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Integrazione di PowerBI.com con gli ambienti locali
                   href: analytics/entity-store-on-prem.md
-                - name: Configurare proxy inversi per ambienti locali
+                - name: Configurare proxy per ambienti locali
                   href: deployment/onprem-reverseproxy.md
                 - name: Applicare aggiornamenti a una distribuzione locale
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problemi noti
                   href: lifecycle-services/known-issues.md
+                - name: Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Manuale dell'utente di Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Strumento di stima delle sottoscrizioni

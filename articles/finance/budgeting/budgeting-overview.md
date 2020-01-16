@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772653"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935444"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -57,7 +57,7 @@ Sono disponibili ulteriori funzionalità di pianificazione e impostazione del bu
 -   **Budget della forza lavoro**: l'impostazione del budget della forza lavoro include la pianificazione dettagliata dei componenti del costo di budget per posizioni, gruppi di retribuzione e così via.
 -   **Budget di cespiti**: sulla base delle informazioni dei cespiti, è possibile calcolare l'ammortamento pianificato e registrare altre transazioni pianificate relative ai cespiti.
 -   **Budget di progetto**: nel modulo del progetto è possibile creare previsioni dettagliate per il progetto. Le previsioni dei progetti includono i dettagli sulle ore, sulle spese, sulle commissioni e sugli articoli pianificati.
--   **Previsione della domanda**: Sulla base dei dati storici delle transazioni, è possibile stimare la domanda di articoli futura e creare previsioni della domanda.
+-   **Previsione della domanda**: sulla base dei dati storici delle transazioni, è possibile stimare la domanda di articoli futura e creare previsioni della domanda.
 
 Per informazioni su come utilizzare i dati di pianificazione di altri moduli nei piani di budget, vedere [Integrazione della pianificazione del budget con altri moduli](budget-planning-integration-other-modules.md).
 

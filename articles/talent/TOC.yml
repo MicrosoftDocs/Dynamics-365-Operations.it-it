@@ -8,6 +8,12 @@
         - name: Novità o modifiche in Talent
           href: whats-new.md
           items:
+            - name: 17 dicembre 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 dicembre 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 dicembre 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 novembre 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 novembre 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 settembre 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 agosto 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 agosto 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 agosto 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 agosto 2019
-              href: whats-new-talent-august-7-2019.md
             - name: Archivi delle novità 2019
               items:
+                - name: 27 agosto 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 agosto 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 agosto 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 agosto 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 luglio 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 luglio 2019
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: Rimuovere ambienti Talent
           href: remove-talent-environment.md
-        - name: Provisioning per l'app Onboard
+        - name: Gestire le funzionalità
+          href: access-preview-feature.md
+        - name: Provisioning di Onboard
           href: modular-app-tech-faq.md
-        - name: Incorporare app PowerApps
+        - name: Incorporare app Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR e Common Data Service
+        - name: Entità Core HR in Common Data Service
           href: CoreHREntities.md
         - name: Ottenere supporto per Talent
           href: talent-support.md
     - name: Assumere personale per l'organizzazione con Attract
       items:
-        - name: Quale versione di Attract?
+        - name: Scegliere una versione di Attract
           href: attract-comprehensive-hiring.md
         - name: Funzionalità e capacità di Attract
           href: attract-overview.md
-        - name: Domande frequenti
-          items:
-            - name: Domande frequenti sull'integrazione di LinkedIn
-              href: attract-linkedin-faq.md
         - name: Configurare impostazioni di sistema
           items:
             - name: Configurare informazioni sulla società
               href: admin-settings-attract.md
             - name: Impostare le autorizzazioni utente
               href: security-attract.md
-            - name: Gestire le funzionalità
-              href: access-preview-feature.md
             - name: Configurare il sito per le possibilità di carriera
               href: career-site.md
             - name: Abilitare l'integrazione di Broadbean
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: Configurare l'integrazione di LinkedIn
               href: attract-admin-linkedin.md
+            - name: Domande frequenti sull'integrazione di LinkedIn
+              href: attract-linkedin-faq.md
         - name: Creare un processo di assunzione
           items:
-            - name: Creare un modello di processo
+            - name: Creare un modello di processo di assunzione
               href: process-templates-attract.md
-            - name: Attività nei processi di assunzione
+            - name: Aggiungere attività a un processo di assunzione
               href: activities-attract.md
-            - name: Modelli di messaggio di posta elettronica
+            - name: Creare modelli di messaggio di posta elettronica
               href: email-templates.md
             - name: Utilizzare report analitici
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: Tenere traccia delle origini dei candidati
               href: source-tracking.md
             - name: Suggerimenti intelligenti
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Configurare i colloqui
           items:
-            - name: Programmazione del colloquio e riscontro
+            - name: Programmare i colloqui
               href: interview-scheduling-feedback.md
         - name: Creare un'offerta
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Power BI incorporato in aree di lavoro
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Estendere Talent utilizzando PowerApps e Microsoft Flow - Scenari di esempio
+        - name: Estendere Talent con Power Apps e Power Automate
           href: extensibility-examples.md
         - name: App per dispositivi mobili
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Area di lavoro mobile Team personale
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Pubblicare aree di lavoro mobili
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Utilizzare le modifiche ai dati del personale
           href: process-auditing.md
         - name: Estendibilità in Attract
