@@ -3,7 +3,7 @@ title: Gestisci ordini pianificati
 description: Questo argomento fornisce informazioni sulla modalità di gestione degli ordini pianificati. Viene descritto come aggiornare lo stato degli ordini pianificati, stabilizzarli e filtrare gli ordini pianificati con lo stesso stato dell'ordine pianificato selezionato.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813778"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904038"
 ---
 # <a name="maintain-planned-orders"></a>Gestisci ordini pianificati
 
@@ -39,10 +39,10 @@ Questo argomento fornisce informazioni sulla modalità di gestione degli ordini 
 
 -   Agli ordini pianificati generati mediante la pianificazione generale viene assegnato uno stato di **Inevaso**.
 -   A un ordine pianificato che si sceglie di non stabilizzare è possibile assegnare uno stato di **Completato**.
--   Se si desidera stabilizzare un ordine pianificato, è possibile modificare lo stato su **Approvato**. Gli ordini pianificati con stato **Approvato** vengono rispettati dalla pianificazione generale, non vengono modificati né eliminati durante un'esecuzione di pianificazione generale successiva. 
+-   Se si desidera stabilizzare un ordine pianificato, è possibile modificare lo stato su **Approvato**. Gli ordini pianificati con stato **Approvato** vengono rispettati dalla pianificazione generale, non vengono modificati né eliminati durante un'esecuzione di pianificazione generale successiva. Per raggiungere questo obiettivo, la logica di pianificazione copia gli ordini pianificati con stato **Approvato** dalla vecchia versione del piano alla nuova versione del piano durante la pianificazione generale.
 
 ## <a name="firming-planned-orders"></a>Stabilizzazione degli ordini pianificati 
-La stabilizzazione degli ordini pianificati consente di creare gli ordini effettivi. Sono inoltre note come *ordini rilasciati* o *aperti*. Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione relativa agli ordini del modulo rilevante.
+La stabilizzazione degli ordini pianificati consente di creare gli ordini effettivi. Sono inoltre noti come *ordini rilasciati* o *aperti*. Quando un ordine pianificato viene stabilizzato, viene spostato nella sezione relativa agli ordini del modulo rilevante.
 
 È possibile selezionare due opzioni di stabilizzazione dalla pagina **Ordini pianificati**:
 
@@ -58,6 +58,8 @@ Se si prevede di stabilizzare più ordini contemporaneamente, parallelizzare l'e
 -   **Stabilizzazione parallela** – Se **Sì**, il processo di stabilizzazione sarà parallelizzato con il numero di thread definiti in **Numero di thread**.
 -   **Numero di thread** – Consente di controllare il numero di thread utilizzati per mettere in parallelo il processo di stabilizzazione. Questo parametro viene visualizzato solo se **Stabilizzazione parallela** è impostato su **Sì**.
 
+> [!NOTE]
+> L'opzione per **Stabilizzazione parallela** viene visualizzata solo quando sono stati selezionati più ordini pianificati per la stabilizzazione.
 
 <a name="additional-resources"></a>Risorse aggiuntive
 --------

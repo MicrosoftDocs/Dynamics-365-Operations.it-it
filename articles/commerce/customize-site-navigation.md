@@ -3,7 +3,7 @@ title: Personalizzare la navigazione del sito
 description: In questo argomento viene descritto come creare una gerarchia di navigazione online personalizzate allo scopo di organizzare i prodotti per l'esplorazione nel sito di Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1efb4a7484bd4626886c0f9aa40c3e4dfe304a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697476"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914912"
 ---
 # <a name="customize-site-navigation"></a>Personalizzare la navigazione del sito
 
@@ -107,4 +107,6 @@ Per aggiungere opzioni di navigazione personalizzate al menu di navigazione, eff
 
 [Utilizzare i moduli](work-with-modules.md)
 
-[Creare un URL di pagina](create-page-url.md)
+[Creare una pagina URL](create-page-url.md)
+
+[Utilizzare i gruppi di pubblicazione](publish-groups.md)

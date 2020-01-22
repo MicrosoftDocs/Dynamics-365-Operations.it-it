@@ -3,7 +3,7 @@ title: Sintassi di filtro e query avanzata
 description: Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore corrisponde a nel riquadro Filtro o nei filtri di intestazione di colonna.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180831"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931290"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di query e filtro avanzata
 
@@ -114,6 +114,12 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td>Corrisponde ai valori separati da virgole</td>
 <td>Digitare tutti i criteri e separarli con virgole.</td>
 <td>Digitando <strong>A, D, F, G</strong> si troveranno esattamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot; e &quot;G&quot;. Digitando <strong>10, 20, 30, 100</strong> si troveranno esattamente &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (due virgolette doppie)</td>
+<td>Corrispondenza di un valore vuoto</td>
+<td>Digitare due virgolette doppie consecutive per filtrare i valori vuoti in quel campo.</td>
+<td>Due doppie virgolette consecutive ( <strong> "" </strong>) trova le righe senza valore per la colonna corrente.</td>
 </tr>
 <tr>
 <td>(<span class="code">Istruzione SQL</span>) (istruzione SQL tra parentesi)</td>

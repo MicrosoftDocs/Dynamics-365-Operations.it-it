@@ -3,7 +3,7 @@ title: Incorporare Power Apps
 description: In questo argomento viene descritto come incorporare Power Apps nel client per aumentare la funzionalità del prodotto.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824495"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870243"
 ---
 # <a name="embed-microsoft-power-apps"></a>Incorporare Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Le istruzioni seguenti mostrano come incorporare una Power App Web nel client We
 
     - Il campo **Nome** indica il testo visualizzato per il pulsante o la scheda che conterrà la Power App incorporata. È spesso possibile che si intenda ripetere il nome della Power App in questo campo.
     - **ID app** è il GUID per la Power App che si desidera incorporare. Per ripristinare questo valore, trovare la Power App in [web.Power Apps.com](https://web.powerapps.com) e quindi individuare il campo **ID app** sotto **Dettagli**.
-    - Per **Dati di input per la Power App**, si può scegliere di selezionare il campo che contiene i dati da passare alla Power App come input. Vedere la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) più avanti in questo argomento per dettagli su come la Power App può accedere ai dati inviati dalle app Finance and Operations.
+    - Per **Dati di input per la Power App**, si può scegliere di selezionare il campo che contiene i dati da passare alla Power App come input. Vedere la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) più avanti in questo argomento per dettagli su come la Power App può accedere ai dati inviati dalle app Finance and Operations.
     - Scegliere la **Dimensione dell'applicazione** che corrisponde al tipo di Power App che si intende incorporare. Selezionare **Ridotte** per le Power Apps create per dispositivi mobili e **Ampie** per le Power Apps create per tablet. Ciò garantisce l'assegnazione di una quantità di spazio sufficiente per la Power App incorporata.
     - La Scheda dettaglio **Persone giuridiche** consente di scegliere le persone giuridiche per le quali la Power App è disponibile. Il valore predefinito comporta la visualizzazione della Power App in tutte le persone giuridiche.
 
@@ -101,7 +101,7 @@ Per modificare la configurazione di una Power App incorporata, seguire questi pa
 
 Dopo che una Power App è stata incorporata in una pagina, esistono due modi per rimuoverla se necessario:
 
-- Passare al riquadro **Modifica Power App** attenendosi alle istruzioni indicate nella precedente sezione [Modifica di una Power App incorporata](#editing-an-embedded-powerapp) in questo argomento. Verificare che il riquadro visualizzi le informazioni per la Power App incorporata che si desidera rimuovere, quindi fare clic sul pulsante **Elimina**.
+- Passare al riquadro **Modifica Power App** attenendosi alle istruzioni indicate nella precedente sezione [Modifica di una Power App incorporata](#editing-an-embedded-power-app) in questo argomento. Verificare che il riquadro visualizzi le informazioni per la Power App incorporata che si desidera rimuovere, quindi fare clic sul pulsante **Elimina**.
 - Poiché una Power App incorporata viene salvata come dati di personalizzazione, la cancellazione della personalizzazione della pagina determinerà anche la rimozione di tutte le Power Apps incorporate nella pagina. Tenere presente che la cancellazione della personalizzazione della pagina è permanente e non può essere annullata. Per rimuovere le personalizzazioni in una pagina, selezionare **Opzioni** e fare clic su **Personalizza modulo**. Sotto il menu **Gestisci**, selezionare il pulsante **Cancella**. Dopo avere aggiornato la pagina del browser, tutte le precedenti personalizzazioni della pagina saranno rimosse. Per ulteriori informazioni su come ottimizzare le pagine utilizzando la personalizzazione, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Appendice

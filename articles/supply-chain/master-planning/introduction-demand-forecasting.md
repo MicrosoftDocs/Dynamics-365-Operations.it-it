@@ -3,7 +3,7 @@ title: Cenni preliminari sulla previsione della domanda
 description: La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione della previsione della domanda forniscono una soluzione ideale per la personalizzazione in massa.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815159"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935516"
 ---
 # <a name="demand-forecasting-overview"></a>Cenni preliminari sulla previsione della domanda
 
@@ -32,7 +32,7 @@ ms.locfileid: "2815159"
 
 La previsione della domanda viene utilizzata per prevedere la domanda indipendente da ordini cliente e la domanda dipendente in qualsiasi punto di disaccoppiamento per gli ordini cliente. Le regole avanzate di riduzione della previsione della domanda forniscono una soluzione ideale per la personalizzazione in massa.
 
-Per generare la previsione di base, viene trasmesso un riepilogo delle transazioni storiche a un servizio Microsoft Azure Machine Learning ospitato in Azure. Poiché il servizio non è condiviso tra gli utenti, può essere facilmente personalizzato per soddisfare i requisiti di settore specifici. È possibile utilizzare Supply Chain Management per visualizzare la previsione, modificarla e per visualizzare gli indicatori di prestazione chiave (KPI) relativi all'accuratezza di previsione.
+Per generare la previsione di base, viene trasmesso un riepilogo delle transazioni storiche a Microsoft Azure Machine Learning ospitato in Azure. Poiché il servizio non è condiviso tra gli utenti, può essere facilmente personalizzato per soddisfare i requisiti di settore specifici. È possibile utilizzare Supply Chain Management per visualizzare la previsione, modificarla e per visualizzare gli indicatori di prestazione chiave (KPI) relativi all'accuratezza di previsione.
 
 ## <a name="key-features-of-demand-forecasting"></a>Funzionalità principali della previsione della domanda
 Di seguito vengono descritte alcune delle funzionalità principali della previsione della domanda:
@@ -51,7 +51,7 @@ Nella previsione della domanda sono implementati tre temi principali:
 -   **Riutilizzo dello stack Microsoft**: nel febbraio 2015 Microsoft ha lanciato la piattaforma Machine Learning. Machine Learning, che ora fa parte di Analytics Suite di Microsoft Cortana, consente di creare in modo facile e rapido esperimenti di analisi predittive, ad esempio esperimenti di stima della domanda, tramite l'uso di algoritmi R o linguaggi di programmazione Python e una semplice interfaccia basata sul trascinamento della selezione.
     -   È possibile scaricare gli esperimenti di previsione della domanda, modificarli per soddisfare i requisiti aziendali, pubblicarli come servizio Web in Azure e utilizzarli per generare previsioni della domanda. Gli esperimenti sono disponibili per il download se si dispone di una sottoscrizione di Supply Chain Management destinata a un responsabile di pianificazione come utente di livello di aziendale.
     -   È possibile scaricare uno degli esperimenti di previsione della domanda attualmente disponibili dalla [raccolta di analisi dei dati Cortana](https://gallery.cortanaanalytics.com/). Mentre gli esperimenti di previsione della domanda vengono automaticamente integrati in Supply Chain Management, l'integrazione degli esperimenti scaricati dalla [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) deve essere gestita dai clienti e dai partner. Di conseguenza, gli esperimenti della [raccolta di analisi dei dati di Cortana](https://gallery.cortanaanalytics.com/) non risultano immediati da utilizzare come gli esperimenti di previsione della domanda di Finance and Operations. È necessario modificare il codice degli esperimenti in modo che utilizzino l'API di Finance and Operations.
-    -   È possibile creare esperimenti personalizzati Microsoft Azure Machine Learning Studio, pubblicarli come servizi in Azure e utilizzarli per generare le previsioni della domanda.
+    -   È possibile creare esperimenti personalizzati in Microsoft Azure Machine Learning Studio (classico), pubblicarli come servizi in Azure e utilizzarli per generare le previsioni della domanda.
     -   Se non sono richieste prestazioni elevate, o l'elaborazione di una grade quantità di dati, è possibile utilizzare la versione di prova gratuita di Machine Learning. Si consiglia di iniziare sempre da questo livello, in particolare durante le fasi di test e implementazione. Se sono richieste prestazioni elevate e spazio di archiviazione aggiuntivo, è possibile utilizzare il livello standard di Machine Learning. Questo livello richiede una sottoscrizione di Azure e comporta costi aggiuntivi. Per dettagli sui prezzi di Machine Learning, vedere [Prezzi di Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 -   **Riduzione della previsione in qualsiasi punto di disaccoppiamento**: la previsione della domanda è basata su questa funzionalità, che consente di prevedere la domanda dipendente e indipendente da qualsiasi punto di disaccoppiamento.
 

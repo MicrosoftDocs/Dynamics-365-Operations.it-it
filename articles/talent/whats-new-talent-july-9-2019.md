@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023955"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897628"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Novità e modifiche in Dynamics 365 Talent (9 luglio 2019)
-
-[!include [banner](includes/banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
@@ -36,6 +34,7 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Ta
 Questa versione include correzioni di bug minori per Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Funzionalità presto disponibili in Attract
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Approvazioni delle mansioni visualizzate nella home page
 
 Le approvazioni sono visualizzate nella sezione **Approvazioni** del dashboard. Gli approvatori possono esaminare le relative approvazioni in **Assegnate all'utente**, in cui è visualizzato l'ID mansione, il titolo della mansione, altri approvatori e la data in cui la mansione è stata assegnata. Gli utenti che inviano una mansione per l'approvazione possono esaminare le mansioni in **Richieste dall'utente** in cui sono visualizzati gli approvatori che devono ancora approvare la mansione inviata.
@@ -50,7 +49,7 @@ Le modifiche descritte in questo sezione sono valide per la build numero 8.1.237
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Aggiornamento 28 della piattaforma per Finance and Operations
 
-Per ulteriori dettagli sull'aggiornamento 28 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 28 della piattaforma Dynamics 365 Finance and Operations (luglio 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Per ulteriori dettagli sull'aggiornamento 28 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 28 della piattaforma Dynamics 365 Finance and Operations (luglio 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Supporto entità per i campi personalizzati in Common Data Service 
 

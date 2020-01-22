@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 91b154a2379d6f0bdf8bea322c99be9e1c1925c9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b0bcef9673970ad921f6ca5c6715b7086bcd8c4b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518374"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898158"
 ---
 # <a name="personnel-actions-faq"></a>Domande frequenti sulle azioni dipendente
-
-[!include [banner](includes/banner.md)]
 
 In questo argomento vi sono risposte alle domande che potrebbe essere poste se l'organizzazione utilizza le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale. Esempi di attività che potrebbero richiedere azioni dipendente quando si creano nuove posizioni, si modificano valori di posizione esistenti, si assumono nuovi lavoratori, si trasferiscono lavoratori, si modifica la retribuzione lavoratore, si modificano assegnazioni di posizione o si termina un rapporto con i lavoratori.
 

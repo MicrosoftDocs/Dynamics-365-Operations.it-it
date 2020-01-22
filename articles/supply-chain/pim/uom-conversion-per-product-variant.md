@@ -3,12 +3,12 @@ title: Conversione di unità per varianti prodotto
 description: In questo argomento viene descritto come impostare conversioni di unità per varianti prodotto.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249450"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935101"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversione di unità per varianti prodotto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 In questo argomento viene descritto come impostare conversioni di unità per varianti prodotto. Include un esempio dell'impostazione.
 
 Questa funzionalità consente alle società di definire differenti conversioni di unità tra le varianti dello stesso prodotto. In questo argomento viene utilizzato l'esempio seguente. Una società vende magliette nelle taglie S, M, L e XL. La maglietta è definita come prodotto e le diverse taglie sono definite come varianti del prodotto. Le magliette sono imballate in scatole e ogni scatola può contenere cinque magliette S, M o L e quattro magliette XL. La società desidera tenere traccia delle differenti varianti di magliette nell'unità **Pezzi** ma vende le magliette nell'unità **Scatole**. La conversione tra l'unità di magazzino e l'unità di vendita è 1 scatola = 5 pezzi, ad eccezione della variante XL, dove la conversione è 1 scatola = 4 pezzi.
-
-## <a name="setup"></a>Impostazioni
-
-È possibile configurare i parametri per l'utilizzo della funzionalità con prodotti abilitati per **Tutti i processi** o solo con il prodotto abilitato per **Processi di magazzino** utilizzando l'opzione **Abilita conversioni di unità di misura** nella pagina **Parametri informazioni sul prodotto**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurare un prodotto per la conversione di unità per variante
 
 Le varianti prodotto possono essere create solo per prodotti di **Sottotipo di prodotto**: **Rappresentazione generale prodotto**. Per ulteriori informazioni, vedere [Creare una rappresentazione generale prodotto](tasks/create-product-master.md).
 
 La funzionalità non è attivata per i prodotti configurati per i processi a peso variabile. 
-
-Durante la creazione di una rappresentazione generale prodotto abilitare la conversione di unità utilizzando l'opzione **Abilita conversioni di unità di misura** nella pagina **Dettagli prodotto**.
 
 Quando viene creata la rappresentazione generale prodotto con varianti prodotto rilasciato, è possibile impostare conversioni di unità per varianti. È possibile trovare la voce di menu per l'apertura della pagina delle conversione di unità nel contesto di un prodotto o di una variante prodotto nelle pagine seguenti.
 

@@ -3,7 +3,7 @@ title: Dichiarare finito a un'ubicazione controllata da targa dal dispositivo sc
 description: In questo argomento viene descritto il processo per il completamento dei prodotti finiti in un ordine di produzione per il magazzino quando una targa controlla l'ubicazione.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572131"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935124"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572131"
 
 Il processo denominato Dichiarato finito completa i prodotti finiti in un ordine di produzione nel magazzino. Se il prodotto finito viene abilitato per i processi avanzati del magazzino, i prodotti vengono dichiarati finiti in un'ubicazione denominata unicazione di output di produzione. Per informazioni sull'impostazione dell'ubicazione di output di produzione, vedere [Ubicazione di output di produzione](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
 
-È necessario selezionare un numero di identificazione esistente per completare l'attività. Se l'ubicazione di output di produzione è impostata per essere tracciata dalla targa, un numero di identificazione deve essere incluso quando si dichiara l'ubicazione di output di produzione come finita. Il campo **Targa** è visualizzato nella richiesta **Segnala stato** nella pagina **Dispositivo schede processo**. Il campo è visibile solo nella richiesta **Segnala stato** per il reporting dell'ultima operazione dell'ordine di produzione. Il campo viene visualizzato solo se l'articolo per l'ordine di produzione è abilitato per i processi di gestione magazzino. 
+Se la posizione dell'output di produzione è controllata dalla targa, è necessario fornire una targa al momento della segnalazione come terminata. Il campo **Targa** è visualizzato nella richiesta **Segnala stato** nella pagina **Dispositivo schede processo**. Il campo è visibile solo sul Prompt **Segnala stato** quando viene visualizzato il report sull'ultima operazione dell'ordine di produzione e l'articolo per l'ordine di produzione è abilitato per i processi di gestione del magazzino. 
+
+Esistono due opzioni per fornire la targa
+- L'utente seleziona una targa esistente nel campo targa.
+- La targa viene generata automaticamente da una sequenza numerica e predefinita nel campo targa.
+
+L'opzione per generare automaticamente la targa viene configurata selezionando l'opzione **Genera targa** della pagina **Configura scheda processo per dispositivi**.

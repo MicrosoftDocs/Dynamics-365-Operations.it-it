@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772170"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890329"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
@@ -76,7 +76,7 @@ Quando viene registrata la fattura, la quantità **Rimanente fattura** relativa 
 
 In questa opzione si presuppone che per l'ordine fornitore sia stata registrata almeno un'entrata prodotti. La fattura fornitore si basa sulle entrate prodotti e riflette le quantità in esse contenute. Le informazioni finanziarie per la fattura si basano sulle informazioni immesse al momento della registrazione della fattura stessa.
 
-Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla alla quantità ricevuta](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla alla quantità ricevuta](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
 ## <a name="working-with-multiple-invoices"></a>Utilizzo con più fatture
 

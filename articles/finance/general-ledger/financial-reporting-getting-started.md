@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178429"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915179"
 ---
 # <a name="financial-reporting-overview"></a>Panoramica sulla creazione di report finanziari
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 In questo argomento viene descritto dove accedere ai report finanziari e come utilizzare le funzionalità dei report finanziari. Include anche una descrizione dei report finanziari predefiniti forniti.
 
@@ -79,6 +81,18 @@ Le funzioni di report finanziari disponibili per gli utenti con i privilegi e i 
 | Visualizza report finanziari                | Esamina prestazioni finanziarie          | Nessuno assegnato                                                                   |
 
 Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve poter accedere ai report finanziari in alcuni minuti. **Nota:** il ruolo sysadmin viene aggiunto a tutti i ruoli nella creazione di report finanziari.
+
+## <a name="report-deletions-and-expirations"></a>Report di eliminazioni e scadenze
+Gli utenti che generano un report possono eliminare i propri report. Gli utenti con i diritti **Gestisci sicurezza dei report finanziari** possono eliminare i report di altri. 
+
+A partire dalla versione 10.0.7 è stato introdotto il concetto di date di scadenza. Una nuova funzionalità obbligatoria verrà abilitata nell'area di lavoro di gestione delle funzionalità. Questa funzionalità contiene le seguenti modifiche:
+* I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati
+* A tutti i report esistenti precedenti all'installazione della funzione verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
+* Gli utenti con **Gestisci sicurezza dei report finanziari** hanno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di conservazione: 
+  * Una scadenza di 90 giorni
+  * Un'opzione per impostare il report in modo che non scada mai
+
+Quando viene selezionata una scadenza come 90 giorni vengono concessi 90 giorni a partire da oggi, che è un comportamento diverso rispetto ai 90 giorni dalla data di generazione originale impostati durante la generazione del report. 
 
 ## <a name="default-reports"></a>Report predefiniti
 Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizza le categorie di conti principali predefinite. È possibile utilizzare questi report come sono o come punto di partenza per i report finanziari necessari. Oltre ai rendiconti finanziari tradizionali, ad esempio il conto economico e lo stato patrimoniale, questi report predefiniti includono report che illustrano i diversi tipi di report finanziari che è possibile creare. 

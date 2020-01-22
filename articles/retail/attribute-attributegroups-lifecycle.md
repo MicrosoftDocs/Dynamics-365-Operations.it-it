@@ -1,5 +1,5 @@
 ---
-title: Attributi e gruppi di attributi
+title: Gestire attributi e gruppi di attributi
 description: In questo argomento viene illustrato come utilizzare gli attributi per fornire un modo per descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 author: ashishmsft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5ba273265b677f71762c8beae3561712efb92645
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023638"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915274"
 ---
-# <a name="attributes-and-attribute-groups"></a>Attributi e gruppi di attributi
+# <a name="manage-attributes-and-attribute-groups"></a>Gestire attributi e gruppi di attributi
 
 [!include [banner](includes/banner.md)]
 
@@ -61,7 +61,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
 - **Decimale** - Questo tipo supporta un valore numerico che include posizioni decimali. Supporta anche un'unità di misura. Può essere limitato o lasciato aperto.
 - **Intero** - Questo tipo supporta un valore numerico. Supporta anche un'unità di misura. Può essere limitato o lasciato aperto.
 - **Testo** - Questo tipo supporta un valore di testo. Supporta anche un set predefinito di valori possibili, ovvero una *enumerazione*.
-- **Booleano** - Questo tipo supporta un valore binario (**vero** o **falso**).
+- **Booleano** - Questo tipo supporta un valore binario (**true** o **false**).
 - **Riferimento** - Questo tipo fa riferimento ad altri attributi.
 
 ### <a name="set-up-attribute-types"></a>Imposta i tipi di attributi

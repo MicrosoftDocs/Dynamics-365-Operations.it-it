@@ -3,7 +3,7 @@ title: Selezionare un tema per il sito
 description: In questo argomento viene descritto come impostare o modificare il tema del sito in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ee56f1b135c71194f5e7c4b2a8f47a82294ea81
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: bcee3a3f29df316dff04cf22acbda7f968778c93
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698121"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914750"
 ---
 # <a name="select-a-site-theme"></a>Selezionare un tema per il sito
 
@@ -52,6 +52,8 @@ Per selezionare il tema che viene applicato al sito, procedere come segue.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Aggiungere un logo](add-logo.md)
+
+[Utilizzare i file di sostituzione CSS](css-override-files.md)
 
 [Aggiungere una favicon](add-favicon.md)
 

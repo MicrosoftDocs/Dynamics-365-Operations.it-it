@@ -3,7 +3,7 @@ title: Impostare la gestione offerta in Attract
 description: In questo argomento viene descritto come impostare le offerte in Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832724"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890557"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Impostare la gestione offerta in Attract
 
@@ -45,9 +45,11 @@ I dati dell'offerta sono la più piccola unità nel modello di pacchetto di offe
 
     >[!NOTE]
     > Nella pagina **Dati dell'offerta** si trovano le sezioni **Dettagli candidato** e **Dettagli mansione**. Attract fornisce alcuni segnaposto predefiniti per i dati di offerta.
-    
+    > 
     > Sono disponibili sezioni nella pagina per organizzare i diversi segnaposto di dati di offerta in gruppi logici. Queste sezioni possono facilitare la manutenzione dei dati di offerta e l'inserimento dei dati durante il processo di creazione di offerta.
-
+    > 
+    > Per creare un elenco di valori per un segnaposto, caricare un foglio di calcolo Excel con una colonna con il segnaposto come titolo della colonna e l'elenco delle opzioni nelle righe sottostanti. Se si fa riferimento allo stesso segnaposto in un altro set di regole dei dati, assicurarsi che abbiano un set comune di valori.
+    
 1.  Per creare una nuova sezione di dati dell'offerta, fare clic su **Aggiungere una sezione** e immettere un nome univoco per la sezione.
 
 1.  Per aggiungere segnaposto di dati di offerta in una sezione, fare clic su **Aggiungi dati dell'offerta** e immettere un nome univoco per il segnaposto.
@@ -92,12 +94,12 @@ Per caricare il file di regole dei dati di offerta, effettuare la procedura segu
 
 1.  Espandere la sezione **Raccolta** nel pannello di navigazione sinistro, quindi passare a **Regole dati offerta**.
 
-1.  Fare clic su **Nuovo set di dati** per visualizzare la finestra  dialogo **Carica**.
+1.  Fare clic su **Nuovo set di dati** per visualizzare la finestra di dialogo **Carica**.
 
 1.  Specificare un nome univoco per il set di regole quindi caricare il file salvato CSV.
 
 1.  Fare clic su **Aggiungi**.
-    Il set di regole verrà elaborato in background e si riceverà una notifica nell'app  e tramite posta elettronica una volta completata.
+    Il set di regole verrà elaborato in background e si riceverà una notifica nell'app e tramite posta elettronica una volta completata.
 
     Verrà notificato se sono presenti errori durante l'elaborazione del caricamento. È possibile scaricare il registro errori, correggere il file e caricarlo ancora.
 
@@ -134,7 +136,7 @@ Per creare un modello di documento di offerta, effettuare la procedura seguente.
 
     - Trascinando la selezione dal riquadro a destra.
 
-    - Posizionando direttamente l'hashtag del segnaposto di dati di offerta. Digitando **\#** quindi iniziare a immettere il nome del segnaposto di dati di offerta. Le opzioni appariranno nell'elenco a discesa. Fare clic o premere  **INVIO** per inserire il segnaposto di dati di offerta.
+    - Posizionando direttamente l'hashtag del segnaposto di dati di offerta. Digitando **\#** quindi iniziare a immettere il nome del segnaposto di dati di offerta. Le opzioni appariranno nell'elenco a discesa. Fare clic o premere **INVIO** per inserire il segnaposto di dati di offerta.
 
     >[!NOTE]
     > - Per associare un segnaposto al modello di documento di offerta senza esporre il relativo valore al candidato, passare il mouse sul segnaposto di dati di offerta e fare clic sull'icona **Blocca**. Questo sposterà il segnaposto nella sezione **Dati dell'offerta aggiunti** del modello di documento di offerta. Per sbloccare, seguire la stessa procedura ma fare clic su **Sblocca** nell'elenco dei segnaposto di dati di offerta.

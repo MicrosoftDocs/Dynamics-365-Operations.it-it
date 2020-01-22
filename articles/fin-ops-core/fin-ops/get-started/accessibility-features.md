@@ -3,7 +3,7 @@ title: Funzionalità di accessibilità
 description: In questo argomento vengono descritte le funzionalità progettate per aiutare gli utenti con varie disabilità.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180854"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872444"
 ---
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
@@ -40,7 +40,7 @@ Per la maggior parte degli utenti, l'utilizzo quotidiano del sistema implica l'i
 
 Qualsiasi pagina a cui è possibile accedere utilizzando il menu Pannello di navigazione, nel riquadro a sinistra, è disponibile anche tramite la casella **Cerca**. Premere ALT+G per spostare lo stato attivo nella casella **Cerca** e quindi digitare il nome o la descrizione della pagina.
 
-!["Conti bancari" immessi nella casella Cerca](media/6d08b0be32808221023e2aa92d69fd70.png "'conti bancari' immessi nella casella Cerca")
+!["Conti bancari" immesso nella casella Cerca](media/6d08b0be32808221023e2aa92d69fd70.png "'Conti bancari' immesso nella casella Cerca")
 
 Per ulteriori informazioni, vedere [Ricerca per navigazione](navigation-search.md).
 
@@ -55,7 +55,7 @@ Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tram
 
 Si desidera eseguire l'azione **Registro notifiche tramite posta elettronica** che appare nel gruppo **Notifica tramite posta elettronica** della scheda **Ordine cliente** nel riquadro azioni.
 
-![Azione Registro notifiche tramite posta elettronica nel riquadro azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro azioni")
+![Azione Registro notifiche tramite posta elettronica nel riquadro Azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro Azioni")
 
 Un'opzione consiste nell'utilizzare la tastiera. Premere CTRL+F6 per spostare lo stato attivo nel riquadro azioni, quindi premere TAB ripetutamente per spostarsi tra tutte le tabulazioni e le azioni fino a raggiungere l'azione **Registro notifiche tramite posta elettronica**.
 
@@ -65,11 +65,11 @@ Tuttavia, è possibile eseguire l'azione più direttamente. Da un punto qualsias
 
 Nella casella di ricerca, digitare parole che descrivono l'azione. L'azione viene resa disponibile e l'utente può eseguirla direttamente. Ad esempio, digitando **registro**, **notific** (parola parziale) o **posta elettronica**, è possibile passare alla funzionalità Registro notifiche tramite posta elettronica.
 
-!["Posta elettronica" immessa nella casella Cerca](media/image4.png "'posta elettronica' immessa nella casella Cerca")
+!["Posta elettronica" immessa nella casella Cerca](media/image4.png "'Posta elettronica' immessa nella casella Cerca")
 
-!["Notifica" immessa nella casella Cerca](media/image5.png "'notifica' immessa nella casella Cerca")
+!["Notifica" immessa nella casella Cerca](media/image5.png "'Notifica' immessa nella casella Cerca")
 
-!["Registro" immesso nella casella Cerca](media/image6.png "'registro' immessa nella casella Cerca")
+!["Registro" immesso nella casella Cerca](media/image6.png "'Registro' immesso nella casella Cerca")
 
 Al termine, è possibile premere di nuovo CTRL+Apostrofo per riportare lo stato attivo sul campo che si stava utilizzando prima di eseguire la ricerca dell'azione.
 
@@ -81,7 +81,7 @@ Nell'utilizzo quotidiano del sistema, non tutti i campi sono obbligatori per l'e
 
 Tuttavia, è possibile che alcuni campi che si utilizzano spesso per eseguire attività non siano inclusi nella sequenza di tabulazione predefinita. In questo caso, se si utilizza Windows Narrator, è possibile utilizzare le azioni della tastiera di Windows Narrator per accedere a questi campi e ispezionarne il contenuto. In alternativa, è possibile attivare l'opzione **Sequenza di schede migliorata** nella pagina **Opzioni**. Questa opzione integra nella sequenza di tabulazione tutti i campi modificabili e di sola lettura. È possibile utilizzare la personalizzazione della pagina per creare una sequenza di tabulazione personalizzata e omettere i campi che non devono fare parte della sequenza di tabulazione. Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-![Opzione "Sequenza di schede migliorata"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "opzione 'Sequenza di schede migliorata'")
+![Opzione "Sequenza di schede migliorata"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Opzione 'Sequenza di schede migliorata'")
 
 ## <a name="form-patterns"></a>Schemi di modulo
 
@@ -92,6 +92,8 @@ Per ulteriori informazioni sugli schemi di modulo, vedere [Stili e schemi di mod
 ## <a name="responsive-layout"></a>Layout responsivo
 
 Il prodotto è progettato per funzionare in vari dispositivi e fattori di forma, dagli schermi più piccoli agli schermi di grandi dimensioni che hanno la risoluzione massima. Il motore del layout responsivo consente agli utenti di ingrandire del 200 percento (o, in alcuni scenari, più del 200 percento).
+
+Sugli smartphone e altri piccoli schermi, i controlli e il layout del modulo si adatteranno in modo reattivo per garantire la preferenza dei dati di base. Questi comportamenti reattivi possono anche includere la riduzione del numero di colonne in gruppi e schede in una singola colonna, nascondendo elementi shell e comprimendo il riquadro Azioni.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Istruzioni per aiutare gli sviluppatori e i clienti a incorporare i concetti di accessibilità nelle proprie personalizzazioni
 

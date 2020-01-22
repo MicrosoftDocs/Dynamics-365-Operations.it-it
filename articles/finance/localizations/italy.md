@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63992635445134ee0f93d383b5a5c8845cee3e0d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 420845dba181a5ca0d048632ae98c5cf18ee6b0f
+ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772859"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2944998"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -41,3 +41,11 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Pagamento diviso per le fatture emesse all'amministrazione pubblica](emea-ita-split-payment-invoices-issued-public-administration.md)
 - [Fatturazione note di accredito (Italia)](emea-ita-credit-invoicing.md)
 - [Ritenuta d'acconto](emea-ita-withholding-tax.md)
+- [Conti separati per note di credito](emea-ita-exil-separate-account-credit.md)
+- [Ordinare le righe fattura fornitore per documento di trasporto](emea-ita-exil-invoicing-packing-slips.md)
+- [Registrare le fatture con importo pari a zero](emea-ita-exil-zero-invoice-posting.md)
+- [Miglioramento dell'usabilità dei dati bancari](emea-ita-exil-bank-accounts-setup.md)
+- [Spese varie per chilogrammo in una dichiarazione Intrastat](emea-ita-exil-misc-charges-intrastat.md)
+- [Gestione note avanzate](emea-ita-exil-structured-notes.md)
+- [Fattura fiscale per le merci consegnate gratuitamente](emea-ita-exil-goods-for-free.md)
+- [Miglioramento della richiesta informazioni sulle liquidazioni a debito o credito](emea-ita-exil-improved-inquiry-settlement.md)

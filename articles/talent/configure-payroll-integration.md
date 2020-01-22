@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251041"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898537"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurare l'integrazione retribuzioni tra Talent e Dayforce
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>Configurare l'integrazione retribuzioni tra Talent e Dayforce
 
 L'integrazione tra Microsoft Dynamics 365 Talent e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo argomento. È necessario configurare l'integrazione sia in Talent che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 

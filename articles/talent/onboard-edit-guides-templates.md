@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812881"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897122"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Modificare guide e modelli per l'inserimento in Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Modificare guide e modelli per l'inserimento
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ Per distribuire le modifiche:
 1. Nella scheda **Attività**, trascinare gli elementi da destra nell'area di modifica.
 2. Per organizzare la guida in sezioni, trascinare l'elemento **Nuova sezione** nell'area di modifica e immettere un nome e una descrizione facoltativa per la sezione.
 
-    ![[Aggiunta di una nuova sezione a una guida o a un modello per l'inserimento](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Aggiunta di una nuova sezione a una guida o modello per l'inserimento](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Per aggiungere attività che il nuovo assunto deve completare, trascinare l'elemento **Nuova attività** nell'area di modifica, quindi immettere un nome e una descrizione per l'attività.
 
-    ![[Aggiunta di una nuova attività a una guida o a un modello per l'inserimento](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Aggiunta di una nuova attività a una guida o modello per l'inserimento](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Aggiungere contenuto dettagliato alla guida per l'inserimento:
 
@@ -129,7 +129,7 @@ Per distribuire le modifiche:
     - Per aggiungere un modulo di Microsoft Forms, trascinare l'elemento **Microsoft Forms** nell'area di modifica, immettere un nome e una descrizione per l'attività, immettere l'URL del modulo di Microsoft Forms e specificare le dimensioni dell'area della schermata.
     - Per aggiungere un iframe con contenuto Web, trascinare l'elemento **Contenuto Web (iframe)** nell'area di modifica, immettere un nome e una descrizione per l'attività, immettere l'URL del contenuto Web e specificare le dimensioni dell'area della schermata.
 
-    ![[Aggiunta di contenuto dettagliato a una guida o a un modello per l'inserimento](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Aggiunta di contenuto dettagliato a una guida o modello per l'inserimento](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Facoltativo: nell'area a destra di ogni attività, assegnare l'attività a una persona o a un ruolo specifico, aggiungere una data di scadenza e un contatto e assegnare un colore per la categoria. Quando si assegna un'attività a una persona o a un ruolo, viene creata un'attività per ciascun individuo. Questa attività appare nel menu **Attività** in Onboard.
 
@@ -148,7 +148,7 @@ Per ridisporre le attività e le sezioni, trascinarle in una nuova posizione.
 1. Nella scheda **Contatti**, selezionare **Nuovo contatto**.
 2. Nella finestra di dialogo **Aggiungi membro del team**, immettere il nome della persona o l'indirizzo e-mail, immettere una breve descrizione che indichi in che modo il contatto può aiutare il nuovo assunto, quindi selezionare **Aggiungi**. 
 
-    ![[Aggiunta di contatti a una guida o a un modello per l'inserimento](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Aggiunta di contatti a una guida o modello per l'inserimento](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     In alternativa, è possibile selezionare uno o più contatti in **Suggerimenti**.
 
@@ -169,7 +169,7 @@ Per modificare un contatto, fare clic su **Modifica** (il simbolo della matita) 
     - Per aggiungere un collegamento, selezionare la scheda **Collegamento**, immettere un nome e un indirizzo per il collegamento, quindi selezionare **Aggiungi**.
     - Per aggiungere una mappa, selezionare la scheda **Mappa**, immettere un nome e un indirizzo per la mappa, quindi selezionare **Aggiungi**. Onboard includerà una mappa dell'indirizzo specificato.
 
-    ![[Aggiunta di una risorsa a una guida o a un modello per l'inserimento](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Aggiunta di una risorsa a una guida o modello per l'inserimento](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. Selezionare **Salva** per salvare il lavoro.
 

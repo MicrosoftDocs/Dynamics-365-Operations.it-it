@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697131"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945837"
 ---
 # <a name="create-an-e-commerce-site"></a>Creare un sito di e-Commerce
 
@@ -59,20 +59,16 @@ Dopo la creazione del sito, è possibile verificare che sia associato al punto v
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei negozi online](online-store-overview.md)
+[Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-Commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
 
 [Associare un sito online a un canale](associate-site-online-store.md)
 
-[Configurare il proprio nome di dominio](configure-your-domain-name.md)
+[Gestire i file robots.txt](manage-robots-txt-files.md)
+
+[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
 
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
-
-[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
-
-[Panoramica della home page di creazione](authoring-home-overview.md)
-
-[Aggiungere una nuova pagina del sito](add-new-page.md)

@@ -3,7 +3,7 @@ title: Impostazione della previsione della domanda
 description: In questo argomento vengono descritte le attività di impostazione che è necessario eseguire per la preparazione delle previsioni della domanda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813801"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935493"
 ---
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
@@ -63,7 +63,7 @@ In qualsiasi punto, è possibile aggiungere le dimensioni di previsione all'elen
 
 Non tutti gli articoli si comportano nello stesso modo da un punto di vista della previsione della domanda. Gli articoli simili possono essere raggruppati in una chiave di allocazione articolo e i parametri come tipi di transazione e impostazioni del metodo di previsione possono essere impostati per chiave di allocazione articolo. Fare clic su **Chiavi di allocazione articolo** nella pagina **Parametri di previsione della domanda** . 
 
-Per generare la previsione, Supply Chain Management utilizza un servizio Web di Machine Learning. Per connettersi al servizio, è necessario immettere le informazioni seguenti, se si accede a Microsoft Azure Machine Learning Studio:
+Per generare la previsione, Supply Chain Management utilizza un servizio Web di Machine Learning. Per connettersi al servizio, è necessario immettere le informazioni seguenti, se si accede a Microsoft Azure Machine Learning Studio (classico):
 
 -   Chiave dell'API del servizio Web
 -   URL dell'endpoint del servizio Web

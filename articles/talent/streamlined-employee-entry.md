@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009424"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915203"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Inserimento e navigazione dei dipendenti semplificati
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent consente l'immissione efficiente dei dati del dipendente e dell'impiego. È possibile aggiornare rapidamente le informazioni dello storico di lavoro dei dipendenti e dei terzisti passati, attivi e futuri.
 
-È inoltre possibile consentire un'esperienza semplificata di navigazione per individuare rapidamente le informazioni correlate e di apportare le modifiche necessarie. Questa funzionalità è ora disponibile negli ambienti sandbox. Per attivare questa funzionalità, passare ad **Amministrazione sistema > Collegamenti > Impostazioni > Parametri di sistema > Funzionalità di anteprima**. Selezionare **Navigazione e modulo lavoratore avanzati**. In questo modo le modifiche saranno valide per tutti gli utenti. È possibile disattivare questa opzione in qualsiasi momento.
+È inoltre possibile consentire un'esperienza semplificata di navigazione per individuare rapidamente le informazioni correlate e di apportare le modifiche necessarie. Questa funzionalità è ora disponibile in tutti gli ambienti. Per attivare questa funzionalità, vai a **Amministrazione sistema > Gestione funzionalità > Nuovo > Inserimento dipendenti semplificato > Abilita**. In questo modo le modifiche saranno valide per tutti gli utenti. È possibile disattivare questa opzione in qualsiasi momento.
 
 ## <a name="view-options"></a>Opzioni di visualizzazione
 

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c1d1ec695626404389dec2b07dd6e34358cd2d5a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2fb188498705dcbad841645ced43e6a1715cbbd0
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175780"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915164"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
@@ -37,13 +37,15 @@ L'implementazione e l'adozione della fatturazione elettronica in scala comunitar
 Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun paese:
 
 -   OIOUBL v.2.02 per la Danimarca
--   EHF v.2.0.8 per la Norvegia
+-   EHF v.3.0 per la Norvegia
 -   PEPPOL BIS v.2 per Austria, Francia e Belgio
 -   UBL-OHNL 1.9 per i Paesi Bassi
 -   FacturaE v.3.2.1 per la Spagna
 -   FatturaPA v.1.2 per l'Italia
+-   xRechnung v.1.2 per la Germania
+-   Aprire PEPPOL BIS Billing v.3.0 per Unione Europea
 
-La fatturazione elettronica è basata su [report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura cliente** e una serie di configurazioni di formati di report elettronici specifici di ciascun paese create per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL).
+La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura cliente** e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese creati per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL), Germania (DE) e Unione Europea (UE)
 
 -   Fattura vendite OIOUBL - per AT, DK e NO
 -   Nota di accredito OIOUBL - per AT, DK e NO
@@ -65,6 +67,12 @@ La fatturazione elettronica è basata su [report elettronici](../../dev-itpro/an
 -   Fattura di vendita (IT)
 -   Fattura di progetto (ES)
 -   Fattura di progetto (IT)
+-   Fattura di vendita DE
+-   Fattura progetto DE
+-   Fattura di vendita Peppol - per l'UE
+-   Nota di credito vendita Peppol - per l'UE
+-   Fattura progetto Peppol - per l'UE
+-   Nota di credito progetto Peppol - per l'UE
 
 Le fatture e le note di accredito elettroniche che vengono generate includono informazioni obbligatorie, ad esempio un numero EAN (European Article Numbering), il contatto, il numero del conto dimensione e l'indirizzo dei cliente. Le regole di convalida vengono applicate quando le fatture vengono generate in modo che sia possibile verificare la correttezza delle informazioni immesse. Il set di dati necessari può essere diverso da paese a paese. Poiché i requisiti, così come i paesi e i formati supporti, sono soggetti a modifica, è necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**.
 

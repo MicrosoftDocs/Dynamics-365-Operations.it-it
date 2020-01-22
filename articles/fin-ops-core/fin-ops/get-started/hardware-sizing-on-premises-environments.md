@@ -1,9 +1,9 @@
 ---
 title: Requisiti di dimensionamento hardware per ambienti locali
 description: Questo argomento elenca i requisiti di dimensionamento hardware per un ambiente locale.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812559"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870266"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -137,7 +137,7 @@ Per la versione di disponibilità generale è possibile distribuire un solo nodo
 
 ## <a name="environment-orchestrator"></a>Agente di orchestrazione dell'ambiente
 
-L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per altre informazioni, vedere [Considerazioni sulla pianificazione della capacità del cluster Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per ulteriori informazioni, vedere [Pianificare e preparare la distribuzione del cluster Service Fabric autonomo](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizzazione e oversubscription
 

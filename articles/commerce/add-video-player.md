@@ -3,7 +3,7 @@ title: Modulo Lettore video
 description: In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785331"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885903"
 ---
 # <a name="video-player-module"></a>Modulo Lettore video
 
@@ -57,6 +57,8 @@ Il modulo Lettore video ambiente supporta video informativi brevi. Deve essere u
 ## <a name="video-player-module"></a>Modulo Lettore video
 
 Il modulo Lettore video può essere utilizzato per presentare video in un sito di e-Commerce. Supporta tutte le funzionalità di riproduzione, ad esempio riproduci, pausa, modalità a schermo intero e sottotitoli. Il modulo Lettore video supporta anche la personalizzazione dei sottotitoli per soddisfare gli standard di accessibilità di Microsoft. Ad esempio, è possibile personalizzare la dimensione dei caratteri e il colore di sfondo.
+
+Il modulo del lettore video supporta anche tracce audio secondarie. Quando viene caricato un video, è anche possibile caricare una traccia audio secondaria. Il modulo del lettore video può quindi riprodurre la traccia audio secondaria se un utente la seleziona.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Esempi di moduli Lettore video in e-Commerce
 
