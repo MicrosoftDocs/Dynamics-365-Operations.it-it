@@ -3,7 +3,7 @@ title: Aggiungere informazioni sul copyright
 description: In questo argomento viene descritto come aggiungere informazioni sul copyright nel sito di e-Commerce.
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696947"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914575"
 ---
 # <a name="add-a-copyright-notice"></a>Aggiungere informazioni sul copyright
 
@@ -65,6 +65,8 @@ Il piè di pagina contenente le informazioni sul copyright viene automaticamente
 [Aggiungere un logo](add-logo.md)
 
 [Selezionare un tema per il sito](select-site-theme.md)
+
+[Utilizzare i file di sostituzione CSS](css-override-files.md)
 
 [Aggiungere una favicon](add-favicon.md)
 

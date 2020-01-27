@@ -3,7 +3,7 @@ title: Impostare canali di servizio clienti
 description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i servizi clienti utilizzando Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024823"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934702"
 ---
 # <a name="set-up-call-center-channels"></a>Impostare canali del servizio clienti
 
@@ -81,3 +81,6 @@ Gli utenti che non sono collegati a un canale del servizio clienti utilizzano le
 
 
 Dopo aver completato la configurazione del canale del servizio clienti e la definizione degli utenti del canale, per garantire il comportamento del sistema desiderato, assicurarsi che tutti i parametri necessari del servizio clienti siano definiti in **Retail** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti**. Assicurarsi che anche le sequenze numeriche correlate vengano definite.
+
+> [!NOTE]
+> Per utilizzare la funzionalità di servizio clienti, la chiave di configurazione per **Indirizzi di spedizione multipli**deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\>**Impostazioni**\>**Configurazione licenza**. Ciò è necessario a causa della funzionalità di servizio clienti che esegue varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente. 

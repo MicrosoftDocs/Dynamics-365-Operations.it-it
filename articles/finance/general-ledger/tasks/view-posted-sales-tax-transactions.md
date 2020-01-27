@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175486"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888611"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Visualizzare transazioni IVA registrate
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175486"
 
 In questo argomento vengono descritti alcuni metodi di visualizzare transazioni IVA registrate. È possibile visualizzare transazioni IVA registrate da diverse pagine a seconda di cosa è necessario visualizzare. In questa attività viene utilizzata la società dimostrativa USMF.
 
-# <a name="posted-sales-tax-page"></a>Pagina IVA registrata
+## <a name="posted-sales-tax-page"></a>Pagina IVA registrata
 
 1. Nel pannello di navigazione andare a **Moduli > Imposta > Richieste di informazioni e report > Richieste di informazioni su IVA > IVA registrata**.
 2. Selezionare **Mostra filtri** per limitare la visualizzazione a transazioni specifiche.
 3. Chiudere la pagina.
 
-# <a name="sales-tax-settlement-periods-page"></a>Pagina Periodi liquidazione IVA
+## <a name="sales-tax-settlement-periods-page"></a>Pagina Periodi liquidazione IVA
 
 1. Nel pannello di navigazione andare a **Moduli > Imposta > Imposte indirette > IVA > Periodi liquidazione IVA**.
 2. Espandere la sezione **Intervalli periodici**.
@@ -43,7 +43,7 @@ In questo argomento vengono descritti alcuni metodi di visualizzare transazioni 
 4. È possibile filtrare ulteriormente l'elenco delle transazioni IVA registrate.
 5. Chiudere la pagina.
 
-# <a name="sales-tax-codes-page"></a>Pagina Codici IVA
+## <a name="sales-tax-codes-page"></a>Pagina Codici IVA
 
 1. Nel pannello di navigazione andare a **Moduli > Imposta > Imposte indirette > IVA > Codici IVA**.
 2. Nel riquadro azioni, selezionare **Codice IVA**.

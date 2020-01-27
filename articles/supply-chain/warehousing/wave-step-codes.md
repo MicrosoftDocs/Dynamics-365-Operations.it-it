@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992359"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946192"
 ---
 # <a name="wave-step-codes"></a>Codici del passaggio ondata
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>Informazioni sui codici passaggio ondata
 
 I codici passaggio ondata sono codici che gli utenti possono impostare e utilizzare per collegare istanze specifiche di metodi ondata a un modello corrispondente. I modelli includono modelli per rifornimento, containerizzazione, stampa di etichette, creazione di carichi e ordinamento.
 
@@ -39,7 +37,7 @@ Quando non vengono utilizzati i codici passaggio ondata, gli utenti devono inser
 I codici passaggio ondata per uno specifico tipo di passaggio ondata vengono impostati in una pagina separata. Per ogni istanza del metodo del passaggio ondata in un modello di ondata che richiede un codice passaggio ondata, il codice passaggio ondata deve essere selezionato in un elenco a discesa. La selezione in un elenco a discesa sostituisce l'immissione di testo libero e aiuta a ridurre il rischio e l'impatto dell'errore umano. I codici di impostazione vengono utilizzati per collegare un metodo del passaggio ondata in un modello ondata a un modello di destinazione per il metodo.
 
 > [!NOTE]
-> L'uso della funzione dei codici passaggio ondata è facoltativo e l'utilizzo è per entità legale. Pertanto, se una specifica entità legale utilizza la funzione, tutti i codici passaggio ondata esistenti in tale entità legale vengono aggiornati alla nuova struttura.
+> L'uso della funzionalità dei codici del passaggio di ondata è facoltativo. È abilitato a livello di organizzazione per tutte le persone giuridiche.
 
 ## <a name="setup-demo"></a>Demo di impostazione 
 
@@ -49,20 +47,20 @@ Per questa demo, i dati dimostrativi devono essere installati ed è necessario u
 
 Seguire questi passaggi per attivare la funzionalità di codici passaggio ondata.
 
-1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-2. Nella scheda **Generale**, nella Scheda dettaglio **Elaborazione ondata**, impostare l'opzione **Abilita codici passaggio ondata** su **Sì**.
+1. Accedere a **Gestione funzionalità**.
+2. Selezionare per abilitare la funzionalità chiamata **Codice di passaggio di ondata a livello di organizzazione**.
 
-Tutti i testi liberi del passaggio ondata esistenti vengono aggiornati alla nuova struttura. Dopo che questo aggiornamento è stato completato per una persona giuridica, l'opzione **Abilita codici passaggio ondata** non è più disponibile nella pagina **Parametri di gestione magazzino**.
+Tutti i testi liberi del passaggio ondata esistenti in tutte le persone giuridiche vengono aggiornati alla nuova struttura. Dopo aver completato questo aggiornamento per tutte le persone giuridiche, la funzionalità è abilitata. Se la funzionalità non può essere abilitata per una o più persone giuridiche, non è abilitata per nessuna persona giuridica.
 
-Le convalide vengono eseguite durante l'aggiornamento e, se l'aggiornamento ha esito negativo, viene visualizzato un messaggio di errore. Un aggiornamento potrebbe non riuscire a causa dei seguenti conflitti:
+Durante l'abilitazione, le convalide vengono eseguite durante l'aggiornamento dei dati. Se l'aggiornamento non riesce, viene visualizzato un messaggio di errore. Un aggiornamento potrebbe non riuscire a causa dei seguenti conflitti:
 
 - Esistono testi liberi con passaggi ondata duplicati.
 - Esistono personalizzazioni.
 - Un testo libero del passaggio ondata associato a un'istanza del metodo del passaggio ondata non corrisponde al tipo di modello previsto.
 
-Dopo aver risolto eventuali conflitti identificati durante le convalide, è possibile rieseguire il processo di aggiornamento.
+Dopo aver risolto eventuali conflitti identificati durante le convalide, è possibile riprovare ad abilitare la funzionalità.
 
-Quando l'aggiornamento viene completato, la pagina **Codici passaggio ondata** (**Gestione magazzino \> Impostazione \> Ondate \> Codici passaggio ondata**) diventa disponibile. Questa pagina elenca i codici dei passaggi ondata che sono stati aggiornati quando è stata attivata la funzione Codici passaggi ondata.
+Quando la funzionalità è stata abilitata , la pagina **Codici passaggio ondata** (**Gestione magazzino \> Impostazione \> Ondate \> Codici passaggio ondata**) diventa disponibile. Questa pagina elenca i codici dei passaggi ondata che sono stati aggiornati quando è stata attivata la funzionalità Codici passaggi ondata a livello di organizzazione.
 
 ### <a name="create-new-wave-step-codes"></a>Creare nuovi codici passaggio ondata
 
@@ -94,3 +92,5 @@ Le seguenti procedura consente di garantire che il modello di rifornimento creat
 4. Passare a **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata** e selezionare il modello ondata che si intende utilizzare.
 5. Nel modello, nella Scheda dettaglio **Metodi**, selezionare il metodo **Rifornimento**.
 6. Nel campo **Codice passaggio ondata**, selezionare il codice passaggio ondata selezionato nel modello rifornimento.
+
+Eseguire questi passaggi per ciascuna persona giuridica.

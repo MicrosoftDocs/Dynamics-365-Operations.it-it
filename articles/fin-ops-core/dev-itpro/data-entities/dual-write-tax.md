@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772412"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853861"
 ---
-## <a name="integrated-tax"></a>Imposta integrata
+# <a name="integrated-tax"></a>Imposta integrata
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ I dati di impostazione fiscale definiscono la configurazione delle imposte indir
 
 I dati fiscali includono una raccolta di mappe di entità che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-Finance and Operations   | Applicazione Customer Engagement
+Finance and Operations   | Altre app Dynamics 365
 -------------------------|---------------------------------
 Codici imposta                  | msdyn\_taxcodes.md
 Gruppi di imposta               | msdyn\_taxgroups.md

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812309"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915249"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Panoramica dell'integrazione fiscale per i canali di vendita al dettaglio
 
@@ -138,9 +138,14 @@ I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retai
 - [Esempio di integrazione di stampante fiscale per la Polonia](emea-pol-fpi-sample.md)
 - [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md)
 - [Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca](emea-cze-fi-sample.md)
+- [Esempio di integrazione di un'unità di controllo per la Svezia](./emea-swe-fi-sample.md)
 
 La seguente funzionalità di integrazione fiscale è disponibile anche in Retail SDK ma attualmente non utilizza il framework di integrazione fiscale. La migrazione di questa funzionalità al framework di integrazione fiscale è prevista negli aggiornamenti successivi.
 
-- [Funzionalità registratore di cassa per la Francia](emea-fra-cash-registers.md)
-- [Funzionalità registratore di cassa per la Norvegia](emea-nor-cash-registers.md)
-- [Esempio di integrazione Retail POS con unità di controllo per la Svezia](./retail-sdk-control-unit-sample.md)
+
+- [Firma digitale per la Francia](emea-fra-cash-registers.md)
+- [Firma digitale per la Norvegia](emea-nor-cash-registers.md)
+
+La seguente funzionalità di integrazione fiscale legacy disponibile in Retail SDK non utilizza il framework di integrazione fiscale e sarà deprecata negli aggiornamenti successivi:
+
+- [Esempio di integrazione di un'unità di controllo per la Svezia (legacy)](./retail-sdk-control-unit-sample.md)

@@ -3,7 +3,7 @@ title: Impostare pagine personalizzate per l'accesso degli utenti
 description: In questo argomento viene descritto come creare pagine personalizzate in Microsoft Dynamics 365 Commerce che consentono di gestire accessi personalizzati per gli utenti di tenant business-to-consumer (B2C) di Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697568"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945561"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -136,11 +136,11 @@ Aggiornare il criterio "Iscrizione e accesso" con informazioni sulle pagine pers
 1. Nel criterio **Iscrizione e accesso** configurato in precedenza, nel pannello di navigazione, selezionare **Layout di pagina**.
 1. Selezionare il layout **Pagina unificata per l'iscrizione o l'accesso**.
 1. Impostare l'opzione **Usa contenuto di pagina personalizzato** su **Sì**.
-1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Nel campo **Versione del layout di pagina (anteprima)** selezionare **1.2.0**.
 1. Selezionare il layout **Pagina di iscrizione dell'account locale**.
 1. Impostare l'opzione **Usa contenuto di pagina personalizzato** su **Sì**.
-1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Nel campo **URI della pagina personalizzata**, immettere l'URL di iscrizione completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Nel campo **Versione del layout di pagina (anteprima)** selezionare **1.2.0**.
 1. Nella sezione **Attributi utente**, effettuare le operazioni seguenti:
 
@@ -156,7 +156,7 @@ Per aggiornare il criterio "Modifica profilo" con informazioni sulle pagine pers
 1. Nel criterio **Modifica profilo** configurato in precedenza, nel pannello di navigazione, selezionare **Layout di pagina**.
 1. Selezionare il layout **Pagina di modifica del profilo**.
 1. Impostare l'opzione **Usa contenuto di pagina personalizzato** su **Sì**.
-1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Nel campo **URI della pagina personalizzata**, immettere l'URL di modifica profilo completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Nel campo **Versione del layout di pagina (anteprima)** selezionare **1.2.0**.
 1. Nella sezione **Attributi utente**, effettuare le operazioni seguenti:
 
@@ -170,12 +170,14 @@ Per aggiornare il criterio "Reimposta password" con informazioni sulle pagine pe
 1. Nel criterio **Reimposta password** configurato in precedenza, nel pannello di navigazione, selezionare **Layout di pagina**.
 1. Selezionare il layout **Pagina nuova password**.
 1. Impostare l'opzione **Usa contenuto di pagina personalizzato** su **Sì**.
-1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Nel campo **URI della pagina personalizzata**, immettere l'URL di reimpostazione della password completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Nel campo **Versione del layout di pagina (anteprima)** selezionare **1.2.0**.
 1. Selezionare il layout **Pagina Verifica dell'account**.
 1. Impostare l'opzione **Usa contenuto di pagina personalizzato** su **Sì**.
-1. Nel campo **URI della pagina personalizzata**, immettere l'URL di accesso completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Nel campo **URI della pagina personalizzata**, immettere l'URL di verifica della reimpostazione della password completo. Includere il suffisso **?preloadscripts=true**. Ad esempio, immettere ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Nel campo **Versione del layout di pagina (anteprima)** selezionare **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizzazione stringhe di testo predefinite per etichette e descrizioni
 
@@ -193,15 +195,15 @@ Una volta aggiornato il file global.json e pubblicato le modifiche, il nuovo tes
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei negozi online](online-store-overview.md)
+[Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Creare un sito di e-Commerce](create-ecommerce-site.md)
+[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
 
-[Distribuire un nuovo sito di e-Commerce](deploy-ecommerce-site.md)
+[Creare un sito di e-commerce](create-ecommerce-site.md)
 
 [Associare un sito online a un canale](associate-site-online-store.md)
 
-[Configurare il proprio nome di dominio](configure-your-domain-name.md)
+[Gestire i file robots.txt](manage-robots-txt-files.md)
 
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 

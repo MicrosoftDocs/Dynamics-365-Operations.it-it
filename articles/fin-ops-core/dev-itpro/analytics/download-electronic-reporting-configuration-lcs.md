@@ -3,7 +3,7 @@ title: Scaricare le configurazioni per la creazione di report elettronici da Lif
 description: Questo argomento illustra come scaricare le configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 49785835ee2da911d7b8d1360e1c42f850f1153f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771495"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934656"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
 
@@ -39,7 +39,7 @@ Questa esercitazione guida l'utente nel processo di download della versione più
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-2. Andare ad **Amministrazione organizzazione** &gt; **Creazione di report elettronici**.
+2. Andare a **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici**.
 3. Nella sezione **Provider di configurazione** selezionare il riquadro **Microsoft**.
 4. Nel riquadro **Microsoft** fare clic su **Archivi**.
 

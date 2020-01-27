@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697365"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945584"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Associare un sito di e-Commerce a un canale online
 
@@ -40,16 +40,16 @@ Dopo la creazione del sito, è possibile verificare che sia associato al punto v
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei negozi online](online-store-overview.md)
-
-[Creare un sito di e-Commerce](create-ecommerce-site.md)
-
-[Distribuire un nuovo sito di e-Commerce](deploy-ecommerce-site.md)
-
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
+
+[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+
+[Creare un sito di e-commerce](create-ecommerce-site.md)
+
+[Gestire i file robots.txt](manage-robots-txt-files.md)
+
+[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
 
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
-
-[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)

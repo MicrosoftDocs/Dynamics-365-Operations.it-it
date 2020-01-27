@@ -3,7 +3,7 @@ title: Esperienza prodotto unificata
 description: In questo argomento viene descritta l'integrazione dei dati del prodotto tra le app Finance and Operations e Common Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769731"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914773"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -52,7 +52,7 @@ Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sull
 
 Finance and Operations | Altre app Dynamics 365 | Descrizione
 -----------------------|--------------------------------|---
-Prodotti rilasciati V2 | msdyn\_sharedproductdetails | L'entità **msdyn\_sharedproductdetails** contiene i campi delle app Finance and Operations che definiscono il prodotto e che contengono le informazioni finanziarie e di gestione del prodotto. Nella seguente tabella sono riportati i mapping.
+Prodotti rilasciati V2 | msdyn\_sharedproductdetails | L'entità **msdyn\_sharedproductdetails** contiene i campi delle app Finance and Operations che definiscono il prodotto e che contengono le informazioni finanziarie e di gestione del prodotto. 
 Prodotti specifici Common Data Service rilasciati | Prodotto | L'entità **Prodotto** contiene i campi che definiscono il prodotto. Include singoli prodotti (prodotti con prodotto di sottotipo) e varianti prodotto. Nella seguente tabella sono riportati i mapping.
 Codice a barre identificatore di numeri prodotto | msdyn\_productbarcodes | I codici a barre sono utilizzati per identificare in modo univoco i prodotti.
 Impostazioni ordine predefinite | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Conversioni unità | msdyn_ unitofmeasureconversions
 Conversione di unità di misura specifiche del prodotto | msdyn_productspecificunitofmeasureconversion
 Categorie prodotti | msdyn_productcategories | Le categorie di prodotti e le informazioni sulla struttura e sulle caratteristiche sono contenute nell'entità categoria di prodotti. 
 Gerarchie di categorie prodotto | msdyn_productcategoryhierarhies | Le gerarchie di prodotti vengono utilizzate per classificare o raggruppare i prodotti. Le gerarchie di categorie sono disponibili in Common Data Service utilizzando l'entità gerarchia di categorie di prodotti. 
-Ruoli gerarchia di categorie prodotto | msdyn_productcategoryhierarchies | Le gerarchie di prodotti possono essere utilizzate per ruoli diversi in D365 Finance and Operations. Specificano quale categoria viene utilizzata in ciascun ruolo utilizzato dall'entità ruolo della categoria di prodotti con i seguenti mapping. 
+Ruoli gerarchia di categorie prodotto | msdyn_productcategoryhierarchies | Le gerarchie di prodotti possono essere utilizzate per ruoli diversi in D365 Finance and Operations. Specificano quale categoria viene utilizzata in ciascun ruolo utilizzato dall'entità ruolo della categoria di prodotti. 
 Assegnazioni categoria prodotto | msdyn_productcategoryassignments | Per assegnare un prodotto a una categoria è possibile utilizzare l'entità assegnazioni di categoria di prodotto.
 
 ## <a name="integration-of-products"></a>Integrazione di prodotti

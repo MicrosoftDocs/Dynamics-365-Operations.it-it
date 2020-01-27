@@ -3,7 +3,7 @@ title: Dati dimostrativi dei consigli sui prodotti omnicanale
 description: Questo documento ha lo scopo di fornire una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2226093"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872328"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Dati dimostrativi dei consigli sui prodotti omnicanale
 
 Questo documento ha lo scopo di fornire una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 
-I suggerimenti sul prodotto omnicanale forniscono un set di elenchi di prodotti ordinati curati in modo editoriale o generati a livello di programmazione. Gli elenchi possono essere utilizzati in vari scenari, in base alle esigenze aziendali. Per ulteriori informazioni sugli elenchi di suggerimenti sul prodotto, vedere [Panoramica dei suggerimenti sul prodotto.](product-recommendaitons-overview.md)
+I suggerimenti sul prodotto omnicanale forniscono un set di elenchi di prodotti ordinati curati in modo editoriale o generati a livello di programmazione. Gli elenchi possono essere utilizzati in vari scenari, in base alle esigenze aziendali. Per ulteriori informazioni sugli elenchi di suggerimenti sul prodotto, vedere [Panoramica dei suggerimenti sul prodotto.](../commerce/product-recommendations.md)
 
 Per gli ambienti Dynamics di livello 2 e superiore, i suggerimenti sui prodotti vengono calcolati automaticamente in base ai dati dei clienti.
 L'uso dei dati dimostrativi dei suggerimenti sui prodotti non disabilita alcuna soluzione di suggerimenti sui prodotti già predisposta nell'ambiente e i costi associati al suo utilizzo.
@@ -68,6 +68,6 @@ L'estensione contiene un file di dati chiamato RecoMockDataset.csv che consente 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei suggerimenti sul prodotto](product-recommendations-overview.md)
+[Panoramica dei suggerimenti sul prodotto](../commerce/product-recommendations.md)
 
-[Pianificazione ambiente](environment-planning.md)
+[Pianificazione ambiente](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

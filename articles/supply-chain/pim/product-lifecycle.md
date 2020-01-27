@@ -3,7 +3,7 @@ title: Panoramica dello stato del ciclo di vita del prodotto
 description: Uno stato del ciclo di vita del prodotto documenta lo stato del ciclo di vita di un prodotto rilasciato o di una variante di prodotto.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813548"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934842"
 ---
 # <a name="product-lifecycle-state-overview"></a>Panoramica dello stato del ciclo di vita del prodotto
 
@@ -74,11 +74,7 @@ Per informazioni dettagliate su come utilizzare lo stato del ciclo di vita del p
 
 ## <a name="default-migration-import-and-export"></a>Migrazione, importazione ed esportazione predefinite 
 
-Gli stati del ciclo di vita del prodotto non sono supportati da entità di dati e lo stato del ciclo di vita non può essere impostato su uno stato variabile tramite le entità di dati del prodotto rilasciato.
-
--  Nella migrazione dalle versioni precedenti, lo stato del ciclo di vita di tutti i prodotti e le varianti prodotto risulterà vuoto.  
--  Quando si importano prodotti rilasciati attraverso un'entità di dati, lo stato del ciclo di vita predefinito verrà applicato alla creazione.  
--  Quando si importano varianti di prodotto rilasciate tramite un'entità di dati, viene importato lo stato del ciclo di vita del prodotto della rappresentazione generale prodotto rilasciato.   
+Gli stati del ciclo di vita del prodotto sono supportati da entità di dati e lo stato del ciclo di vita può essere impostato su uno stato variabile tramite l'entità di dati del prodotto rilasciato o l'entità di dati variante rilasciata.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Trovare prodotti e varianti prodotto obsoleti 
 

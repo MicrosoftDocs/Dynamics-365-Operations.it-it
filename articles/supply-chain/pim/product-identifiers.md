@@ -3,12 +3,12 @@ title: Identificatori di prodotto
 description: Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250601"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934888"
 ---
 # <a name="product-identifiers"></a>Identificatori di prodotto 
 
@@ -43,6 +43,9 @@ In molti casi, il numero di prodotto non viene originariamente creato in Dynamic
 Dopo l'implementazione di Supply Chain Management, è necessario prestare speciale attenzione alla strategia per i numeri di prodotto. Un buon sistema di numerazione migliora i flussi logici e aiuta a prevenire gli errori. Un buon identificatore di prodotto contiene un massimo di 15 caratteri. Idealmente, contiene meno di 10 caratteri e non include più di cinque caratteri di classificazione. È anche possibile utilizzare nomi di ricerca per abilitare ricerche rapide. Il nome di ricerca è un nome aggiuntivo che rappresenta le classificazioni di un prodotto.
 
 Quando si utilizza Common Data Service, il numero prodotto in Supply Chain Management è anche il numero prodotto in Common Data Service. Le varianti prodotto vengono sincronizzate con il Common Data Service come prodotti specifici.
+
+> [!NOTE]
+> Il numero di prodotto non può iniziare con "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Numero di articolo e dimensioni prodotto
 

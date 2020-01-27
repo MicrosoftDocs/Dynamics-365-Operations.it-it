@@ -3,7 +3,7 @@ title: Gestione delle prestazioni
 description: Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590507"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921152"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
-
-[!include [banner](includes/banner.md)]
 
 Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.  
 
@@ -91,6 +89,8 @@ Per revisioni più dettagliate, è possibile effettuare il pull degli obiettivi 
 È inoltre possibile utilizzare la sezione **Competenze** per discutere, rivedere e valutare le competenze dei dipendenti. È possibile aggiungere un numero illimitato di competenze secondo le necessità ed è possibile scegliere se la competenza deve essere valutata. 
 
 È possibile creare nuove revisioni basate sui modelli creati. Ad esempio, è possibile avere un modello per le riunioni a due, i piani di sviluppo o le revisioni periodiche. È possibile selezionare il modello quando si crea una nuova revisione.
+
+Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il pulsante non è visualizzato nella pagina **Revisione**, assicurarsi di aver abilitato la funzionalità nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componenti che è possibile includere nelle revisioni delle prestazioni
 È possibile includere una serie di tipi di informazioni nelle revisioni delle prestazioni. Comprendono i dettagli, le misure, le attività, le valutazioni, le conferme e gli allegati della revisione.

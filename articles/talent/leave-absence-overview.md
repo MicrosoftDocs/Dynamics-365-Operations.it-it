@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518350"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898296"
 ---
 # <a name="leave-and-absence-management"></a>Gestione di congedo e assenza
-
-[!include [banner](includes/banner.md)]
 
 Il modulo di **gestione di congedi e assenze** offre un framework flessibile per la definizione del processo di gestione delle assenze. È possibile creare piani di congedo e assenza per determinare come i dipendenti accumulano o usano i permessi. Dopo l'iscrizione a un piano, i dipendenti possono presentare le richieste di permesso ai responsabili per l'approvazione. Il rilevamento di congedi consente ai responsabili di primo livello e ai responsabili di Risorse umane di vedere il dipendente in permesso e le ore di assenza residue.  
 

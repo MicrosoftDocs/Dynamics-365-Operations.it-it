@@ -3,7 +3,7 @@ title: Domande frequenti sui flussi di lavoro
 description: In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772699"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934911"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -37,7 +37,7 @@ Ogni notifica è per un articolo di lavoro differente, ma le analogie possono cr
 Attualmente, esiste una limitazione nella funzionalità di esportazione del flusso di lavoro che impedisce ai nomi del flusso di lavoro di superare i 48 caratteri. L'utilizzo di un nome superiore ai 48 caratteri può comportare l'errore di autenticazione del server e/o impedire l'esportazione di un file senza un tipo di file. Il seguente post di blog sulla [risoluzione dei problemi di esportazione del flusso di lavoro](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting) fornisce ulteriori dettagli.
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>L'autore dell'invio di un flusso di lavoro può anche approvare il flusso di lavoro?
-Sì, l'autore dell'invio di un flusso di lavoro può anche approvare il flusso di lavoro se è configurato in tal modo. Per evitare questo comportamento, impostare **Parametri del flusso di lavoro > Generale > Approvatore > Non consentire l'approvazione da parte dell'autore dell'invio** su **Sì**.
+Sì, l'autore dell'invio di un flusso di lavoro può anche approvare il flusso di lavoro se è configurato in tal modo. Per evitare questo comportamento, impostare **Amministrazione sistema > Flusso di lavoro > Parametri del flusso di lavoro > Generale > Approvatore > Non consentire l'approvazione da parte dell'autore dell'invio** su **Sì**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>È possibile aggiungere avvisi ai flussi di lavoro per fornire notifiche agli utenti?
 Di seguito sono descritte alcune aree chiave da prendere in considerazione in relazione all'aggiunta di avvisi ai flussi di lavoro per fornire notifiche:
@@ -51,3 +51,6 @@ Di seguito sono descritte alcune aree chiave da prendere in considerazione in re
     - [I flussi di lavoro dispongono di eventi aziendali](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) che il cliente può utilizzare affinché i flussi di lavoro abbiano le notifiche di cui necessitano.   
 
 Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate per fornire notifiche aggiuntive o differenti.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>L'editor del flusso di lavoro ha difficoltà ad avviarsi in ADFS 
+Durante l'esecuzione in Active Directory Federation Services (ADFS) in un ambiente aggiornato, l'editor del flusso di lavoro potrebbe avere problemi ad avviarsi. In tal caso, assicurarsi che l'URL "https://dynamicsaxworkfloweditor/" venga aggiunto alla proprietà **Microsoft Dynamics 365 for Operations locale - Flusso di lavoro - Applicazione nativa** nelle impostazioni ADFS.

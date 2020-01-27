@@ -3,7 +3,7 @@ title: Pianificare la rubrica globale e altre rubriche
 description: Questo argomento descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di impostare e configurare la Rubrica globale ed eventuali rubriche aggiuntive.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190030"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883413"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Piano per la rubrica globale e altre rubriche
 
@@ -35,7 +35,7 @@ Questo argomento descrive le considerazioni e le decisioni che è necessario pre
 
 Prima di iniziare a utilizzare la Rubrica globale, è necessario determinarne i valori predefiniti. Questi valori predefiniti vengono utilizzati per tutte le Rubriche aggiuntive create.
 
-**Decisioni:**
+**Decisioni**
 
 - Qual è la sequenza di visualizzazione desiderata per i record di parti di tipo **Persona**? Ad esempio, una sequenza è nome, secondo nome e cognome.
 - I record di parti devono essere eliminati dalla Rubrica quando il record di ruolo viene eliminato? Ad esempio, se un record cliente viene eliminato, anche il record parte deve essere eliminato?
@@ -58,11 +58,3 @@ Dopo aver creato la Rubrica globale, è possibile creare Rubriche aggiuntive in 
 **Decisione:**
 
 - Quante Rubriche aggiuntive verranno create?
-
-### <a name="address-book-security"></a>Sicurezza delle rubriche
-
-In qualsiasi momento è possibile creare rubriche e impostare parametri di sicurezza per le rubriche. Non è necessario impostare i privilegi di sicurezza per una rubrica, me se non si fa, tutti i lavoratori all'interno dell'organizzazione potranno visualizzare tutti i record di parti nella rubrica. È possibile impostare privilegi di sicurezza per record di parti nelle rubriche. I privilegi di sicurezza sono basati sui team. Questo approccio garantisce che solo i lavoratori assegnati a un team con l'autorizzazione ad accedere a una rubrica possono visualizzare i record di parti nella rubrica. È necessario selezionare i team che hanno accesso a ogni rubrica. Per ogni rubrica è possibile impostare privilegi di sicurezza che consentono o negano l'accesso a specifici team. Se a un team vengono concessi privilegi per una rubrica, tutti i membri del team potranno visualizzare i record nella rubrica. Se a un team non viene concesso l'accesso a una rubrica, i membri del team non potranno visualizzare la rubrica o i suoi contenuti.
-
-**Decisione:**
-
-- Quali team devo avere accesso a ogni nuova rubrica creata?

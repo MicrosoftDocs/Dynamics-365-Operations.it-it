@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771075"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933934"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dello strumento di creazione di report elettronici
 
@@ -51,12 +51,12 @@ Il motore ER presenta le seguenti funzionalità:
 
 ER supporta due tipi di componenti: **Modello dati** e **Formato**.
 
-#### <a name="data-model-components"></a>Componenti modello dati
+#### <a name="data-model-and-model-mapping-components"></a>Componenti di mapping di modelli e modelli dati
 
 Il componente modello dati è una rappresentazione astratta di una struttura dati. È utilizzata per descrivere un'area specifica del dominio aziendale con sufficienti dettagli per soddisfare le esigenze di reporting del dominio. Un componente modello dati è costituito dalle seguenti parti:
 
-- Un modello dati come set di entità aziendali specifiche del dominio e una definizione con struttura gerarchica delle relazioni tra tali entità.
-- Un mapping di modello che collega determinate origini dati dell'applicazione a singoli elementi di un modello dati che specifica in fase di esecuzione il flusso di dati e le regole di inserimento dei dati aziendali in un componente modello dati.
+- <a name="DataModelComponent"></a>Un modello dati come set di entità aziendali specifiche del dominio e una definizione con struttura gerarchica delle relazioni tra tali entità.
+- <a name="ModelMappingComponent"></a>Un mapping di modello che collega determinate origini dati dell'applicazione a singoli elementi di un modello dati che specifica in fase di esecuzione il flusso di dati e le regole di inserimento dei dati aziendali in un componente modello dati.
 
 Un'entità aziendale di un modello dati è rappresentata come contenitore (record). Le proprietà dell'entità aziendale sono rappresentate come elementi dati (campi). Ciascun elemento di dati dispone di un nome, un'etichetta, una descrizione e un valore univoci. Il valore di ogni elemento di dati può essere progettato in modo che venga riconosciuto come stringa, intero, reale, data, enumerazione, booleano e così via. Inoltre, può essere un altro record o elenco di record.
 
@@ -81,7 +81,7 @@ Un mapping di modello che supporta documenti elettronici in entrata ha le seguen
 
 Un componente del modello dati è progettato per ciascun dominio aziendale da utilizzare come origine dati unificata per la creazione di report che isola la creazione di report dall'implementazione fisica delle origini dati. Rappresenta i concetti e le funzionalità aziendali specifici del dominio in una forma che rende più efficiente la progettazione iniziale dei formati di report e la successiva manutenzione.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Componenti di formato per i documenti elettronici in uscita
+#### <a name="FormatComponentOutbound"></a>Componenti di formato per i documenti elettronici in uscita
 
 Un componente formato è lo schema dell'output della creazione di report che sarà generato in fase di esecuzione. Uno schema comprende i seguenti elementi:
 
@@ -107,7 +107,7 @@ Nella figura seguente viene illustrato il flusso dei dati per questi formati.
 
 Per eseguire una singola configurazione di formato ER e generare un documento elettronico in uscita, è necessario identificare il mapping della configurazione di formato.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Componenti di formato per i documenti elettronici in entrata
+#### <a name="FormatComponentInbound"></a>Componenti di formato per i documenti elettronici in entrata
 Un componente di formato è lo schema del documento in entrata importato in fase di esecuzione. Uno schema comprende i seguenti elementi:
 
 - Un formato che definisce la struttura e il contenuto del documento elettronico in entrata contenente i dati importati in fase di esecuzione. Un componente di formato viene utilizzato per analizzare un documento in entrata in vari formati, ad esempio testo e XML.
@@ -144,7 +144,7 @@ L'accesso ai componenti di formato ER dipende dall'impostazione dei codici di pa
 
 Versioni differenti di un componente formato dati possono avere impostazioni differenti per i codici di paese ISO.
 
-#### <a name="configuration"></a>Configurazione
+#### <a name="Configuration"></a>Configurazione
 
 Una configurazione ER corrisponde al wrapper di un componente ER specifico. Tale componente può essere un componente del modello dati o un componente di formato. Una configurazione può includere versioni diverse di un componente ER. Ciascuna configurazione viene contrassegnata come di proprietà di un provider di una specifica configurazione. La versione **Bozza** di un componente di una configurazione può essere modificata quando il proprietario della configurazione è stato selezionato come provider attivo nelle impostazioni ER dell'applicazione.
 
@@ -154,13 +154,13 @@ La configurazione formato creata contiene un componente formato. Il componente m
 
 Una configurazione ER è condivisa per le società dell'applicazione.
 
-#### <a name="provider"></a>Provider
+#### <a name="Provider"></a>Provider
 
 Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
 
 Per informazioni sulla modalità di registrazione di un nuovo provider ER, riprodurre la Guida attività, **Creazione di report elettronici: creare e attivare un provider di configurazione** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** ).
 
-#### <a name="repository"></a>Archivio
+#### <a name="Repository"></a>Archivio
 
 In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio di ER: 
 

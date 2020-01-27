@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 7f05e119f02d2d5e7c76c554d6a8b3db97c86ab0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653650"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934865"
 ---
 # <a name="product-configuration-overview"></a>Panoramica configurazione prodotto
 
@@ -61,7 +61,7 @@ Un modello di configurazione prodotto è costituito da uno o più componenti che
 Ciascun componente dispone di uno o più attributi che ne identificano le proprietà. Gli attributi sono gli elementi che gli utenti sceglieranno durante il processo di configurazione. Gli attributi controllano sia le relazioni sia all'interno di un componente che tra componenti attraverso l'inclusione in vincoli o calcoli. Tramite le condizioni applicate alle righe DBA, gli attributi possono essere utilizzati per determinare le parti fisiche di cui sarà composto il prodotto configurato. Inoltre, un attributo può anche controllare la proprietà di una riga DBA tramite un meccanismo di mapping. Una funzionalità simile è presente per le operazioni del ciclo di lavorazione in relazione alle impostazioni dell'inclusione e delle proprietà.
 
 >[!NOTE]
-> Quando si creano tipi di attributo, evitare di creare un numero elevato di valori per il dominio del tipo di attributo in quanto questa operazione potrebbe rallentare la configurazione del prodotto. 
+> Quando si creano tipi di attributo, evitare di creare un numero elevato di valori per il dominio del tipo di attributo. in quanto questa operazione potrebbe rallentare la configurazione del prodotto. 
 
 ### <a name="expression-constraints"></a>Vincoli di espressione
 

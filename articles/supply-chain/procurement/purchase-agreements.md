@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813364"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902434"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -36,7 +36,14 @@ I contratti di acquisto possono essere applicati a una specifica quantità di un
 
 Nella pagina **Contratti di acquisto** è possibile creare, applicare e controllare i contratti di acquisto esistenti tra l'organizzazione e i relativi fornitori. Ad esempio, una volta creato un contratto di acquisto, è possibile effettuare un ordine direttamente da tale contratto. Ogni contratto di acquisto ha un periodo di validità definito dalla persona che crea il contratto. La data di consegna di un acquisto deve essere compresa nelle date effettive del periodo di validità.  
 
-Dopo avere creato un contratto di acquisto, è necessario attivarlo prima che entri in vigore. Per attivare un contratto di acquisto, impostare l'opzione **Contrassegna contratto come valido** su **Sì**.
+Dopo avere creato un contratto di acquisto, è necessario attivarlo prima che entri in vigore. Per attivare un contratto di acquisto, impostare l'opzione **Contrassegna contratto come valido** su **Sì**. 
+
+Per impedire che il contratto di acquisto venga utilizzato e confermato, contrassegnare lo stato del contratto come **Chiuso**. È comunque possibile aggiornare lo stato a **Valido** in qualsiasi momento dopo aver apportato questa modifica.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Lavoratori responsabili dei contratti di acquisto
+
+È possibile identificare un lavoratore responsabile principale e un lavoratore responsabile secondario nella classificazione del contratto di acquisto. Questi valori saranno ereditati dal contratto di acquisto risultante. Non è obbligatorio aggiungere lavoratori responsabili al contratto di acquisto e possono essere modificati direttamente caso per caso sul contratto di acquisto stesso. Non è possibile specificare un lavoratore responsabile secondario senza un lavoratore responsabile primario, sebbene non sia necessario disporre di un lavoratore responsabile secondario. Non è possibile specificare lo stesso lavoratore come lavoratore responsabile principale e secondario. 
+
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di acquisto è un impegno di acquisto di un prodotto. È possibile utilizzare righe di più ordini fornitore (PO) per evadere l'impegno. Sono disponibili quattro tipi di impegni:

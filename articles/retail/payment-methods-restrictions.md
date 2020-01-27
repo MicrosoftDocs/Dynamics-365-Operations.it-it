@@ -3,7 +3,7 @@ title: Limitare i metodi di pagamento per i resi senza una ricevuta
 description: In questo argomento viene descritto come determinati tipi di pagamento possono essere limitati per il rimborso se i resi vengono eseguiti senza una ricevuta.
 author: rapraj
 manager: AnnBe
-ms.date: 013/05/2019
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22e675fd9b7ee33c89f52ac4c8c15807580b86a7
+ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564351"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935854"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Limitare i metodi di pagamento per i resi senza una ricevuta
 
@@ -41,7 +41,7 @@ Per impostare i metodi di pagamento, è necessario completare le attività indic
 3. Impostare metodi di pagamento per punti vendita. Associare i metodi di pagamento a ogni punto vendita, quindi immettere le impostazioni specifiche del punto vendita per ogni metodo di pagamento.
 4. Impostare metodi di pagamento con carta per punti vendita. Per qualsiasi metodo di pagamento con carta accettato dal punto vendita, è necessario completare l'impostazione della carta.
 
-![impostazione punto vendita al dettaglio](media/NoReceiptReturns1.png "Impostazione punto vendita al dettaglio") 
+![Impostazione punto vendita al dettaglio](media/NoReceiptReturns1.png "Impostazione punto vendita al dettaglio") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Limitare i metodi di pagamento per i resi senza una ricevuta
@@ -52,7 +52,7 @@ Il valore predefinito è **No**, a indicare che il metodo di pagamento è consen
 
 Quando l'opzione **Limitare per i rimborsi senza ricevuta** è impostata su **Sì**, il metodo di pagamento selezionato non sarà consentito per i rimborsi. 
 
-![Metodo di pagamento per punto vendita al dettaglio](media/NoReceiptReturns3.png "Metodo di pagamento per punto vendita al dettaglio") 
+![Metodo di pagamento punto vendita al dettaglio](media/NoReceiptReturns3.png "Metodo di pagamento punto vendita al dettaglio") 
 
 > [!NOTE]
 > Quando un cassiere seleziona un metodo di pagamento che è limitato per il rimborso senza ricevuta, viene visualizzato un messaggio per verificare i metodi di pagamento accettabili.

@@ -1,6 +1,6 @@
 ---
-title: Passare da una struttura fornitori all'altra
-description: ''
+title: Passa tra strutture fornitore
+description: In questo argomento viene descritto come passare tra l'integrazione dei dati dei fornitori tra le app Finance and Operations e Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772366"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902727"
 ---
-# <a name="switch-between-vendor-designs"></a>Passare da una struttura fornitori all'altra
+# <a name="switch-between-vendor-designs"></a>Passa tra strutture fornitore
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772366"
 
 Se si utilizzano altre app di Dynamics 365 per la gestione dei fornitori e si desidera isolare le informazioni sui fornitore quelle sui clienti, utilizzare questa struttura fornitori di base.  
 
-![Flusso di base del fornitore](media/dual-write-switch-1.png)
+![Flusso di base del fornitore](media/dual-write-vendor-data-flow.png)
  
 Se si utilizzano altre app Dynamics 365 per la gestione dei fornitori e si desidera continuare a usare l'entità **Conto** per archiviare le informazioni sui fornitori, utilizzare la nuova struttura fornitori estesa. In questa struttura, le informazioni estese dei fornitori come lo stato in sospeso e il profilo fornitore vengono archiviate nell'entità **fornitori** in Common Data Service. 
 
-![Flusso esteso fornitore](media/dual-write-switch-2.png)
+![Flusso esteso fornitore](media/dual-write-vendor-detail.jpg)
  
 Completare i passaggi di seguito per utilizzare la struttura estesa fornitore: 
  
@@ -60,5 +60,5 @@ Completare i passaggi di seguito per utilizzare la struttura estesa fornitore:
     4. È possibile configurare i flussi di lavoro come flussi di lavoro in tempo reale o in background in base ai requisiti. 
         > [!div class="mx-imgBorder"]
         > ![Conversione a un flusso di lavoro in background](media/dual-write-switch-8.png)
-    5. Attivare i flussi di lavoro creati sulle entità **Fornitore** e **Conto** per iniziare a utilizzare l'entità **Conto** di Customer Engagement per archiviare le informazioni sul fornitore. 
+    5. Attivare i flussi di lavoro creati sulle entità **Fornitore** e **Account** per iniziare a utilizzare l'entità **Account** per archiviare le informazioni sul fornitore. 
  

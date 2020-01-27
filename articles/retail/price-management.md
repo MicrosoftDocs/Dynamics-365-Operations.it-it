@@ -3,7 +3,7 @@ title: Gestione dei prezzi di vendita al dettaglio in Retail
 description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025220"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934773"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -221,11 +221,11 @@ Un unico motore di determinazione del prezzo viene utilizzato per calcolare i pr
 
 La determinazione dei prezzi di vendita al dettaglio è progettata per funzionare con entità di vendita al dettaglio anziché con entità di vendita non al dettaglio. In particolare, è progettata per impostare i prezzi per punto vendita, non per magazzino.
 
-Il motore di determinazione del prezzo di vendita al dettaglio non supporta le seguenti funzionalità dei prezzi:
+Il motore di determinazione del prezzo di vendita al dettaglio **non supporta** le seguenti funzionalità dei prezzi:
 
-- Impostazione del prezzo utilizzando le dimensioni di immagazzinamento del sito e del magazzino
-- Determinazione prezzo basata su attributi
-- Pass-through per lo sconto del fornitore
+- L'impostazione dei prezzi in base alle dimensioni di immagazzinamento del sito o del sito e del magazzino non è supportata. Se si specifica solo la dimensione del sito negli accordi commerciali, i prezzi al dettaglio ignoreranno il sito e applicheranno l'accordo commerciale a tutti i siti. Se si specificano sia il sito sia il magazzino, il comportamento è indefinito/non testato perché è previsto che i rivenditori utilizzino i gruppi di prezzi del negozio per controllare i prezzi per ciascun negozio/magazzino.
+- I prezzi basati sugli attributi non sono supportati.
+- Il pass-through dello sconto fornitore non è supportato.
 
 Inoltre, **solo** il motore di determinazione del prezzo di vendita al dettaglio supporta le seguenti funzionalità dei prezzi:
 

@@ -3,7 +3,7 @@ title: Aggiungere codice script nelle pagine del sito per supportare la telemetr
 description: In questo argomento viene descritto come aggiungere il codice script sul lato client alle pagine del sito per supportare la raccolta di telemetria sul lato client.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a5f82426d87cd2e0faa0195a841899bb03f9df08
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 79d0e11946f3c6f4704d3a726d33de0378eb53bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697338"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914541"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Aggiungere codice script nelle pagine del sito per supportare la telemetria
 
@@ -63,6 +63,8 @@ Dopo aver creato un frammento per il codice script, può essere riutilizzato in 
 [Aggiungere un logo](add-logo.md)
 
 [Selezionare un tema per il sito](select-site-theme.md)
+
+[Utilizzare i file di sostituzione CSS](css-override-files.md)
 
 [Aggiungere una favicon](add-favicon.md)
 

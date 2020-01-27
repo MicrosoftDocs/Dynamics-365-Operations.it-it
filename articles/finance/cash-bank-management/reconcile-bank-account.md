@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188282"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888657"
 ---
 # <a name="reconcile-a-bank-account"></a>Riconciliare un conto bancario
 
@@ -64,7 +64,7 @@ Se un assegno o una distinta di deposito bancario qualsiasi elencati sul rendico
 
 8.  Per visualizzare le transazioni bancarie non ancora riconciliate, utilizzare il report **Transazioni bancarie non riconciliate**. Per visualizzare il rendiconto bancario per un conto bancario, utilizzare il report **Rendiconto bancario**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Annulla riconciliazione rendiconti bancari 
+## <a name="cancel-bank-statement-reconciliation"></a>Annulla riconciliazione rendiconti bancari 
 
 La funzionalità Annulla riconciliazione rendiconti bancari consente di annullare la riconciliazione dei rendiconti bancari. Per utilizzare questa funzionalità, abilitare la funzionalità **Annulla riconciliazione rendiconti bancari** nell'area di lavoro **Gestione funzionalità**. È inoltre necessario abilitare il parametro **Consenti modifica rendiconto bancario**. A tale scopo, andare a **Gestione cassa e banche > Impostazioni >Parametri di gestione cassa e banche > Riconciliazione bancaria**.
  
