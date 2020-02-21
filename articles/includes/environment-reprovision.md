@@ -1,7 +1,7 @@
-Quando si copia un database tra due ambient, è necessario eseguire lo strumento di provisioning dell'ambiente prima che il database copiato sia completamente operativo per verificare che tutti i componenti Retail siano aggiornati.
+Quando si copia un database tra due ambienti, è necessario eseguire lo strumento di provisioning dell'ambiente prima che il database copiato sia completamente operativo per verificare che tutti i componenti Commerce siano aggiornati.
 
 > [!IMPORTANT]
-> Si consiglia di eseguire questa procedura indipendentemente dal fatto che si stiano utilizzando componenti Retail o meno, poiché la funzionalità Retail è inclusa in tutti gli ambienti. 
+> Si consiglia di eseguire questa procedura indipendentemente dal fatto che si stiano utilizzando componenti Commerce o meno, poiché la funzionalità Commerce è inclusa in tutti gli ambienti. 
 
 Prima di continuare, assicurarsi di soddisfare i seguenti prerequisiti:
 1. Se si esegue l'aggiornamento alla versione 7.2.11792.56024 di luglio 2017 (anche nota come 7.2), applicare i seguenti aggiornamenti rapidi per l'applicazione X++ nell'ambiente di destinazione prima di eseguire un aggiornamento dei dati in tale ambiente. Quanto indicato di seguito eviterà che si verifichino diversi errori durante l'aggiornamento dei dati.

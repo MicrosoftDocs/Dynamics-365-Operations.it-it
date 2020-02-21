@@ -64,16 +64,18 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Novità o modifiche
               items:
-                - name: Finance versione 10.0.7 (gennaio 2020)
-                  href: get-started/whats-new-changed-10-0-7.md
-                - name: Finance versione 10.0.6 (novembre 2019)
-                  href: get-started/whats-new-finance-10-0-6.md
-                - name: Novità o modifiche nelle versioni precedenti
+                - name: Novità o modifiche nelle app Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Novità o modifiche in Finance
                   items:
-                    - name: Home page Novità o modifiche in Finance and Operations
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Finance and Operations, Enterprise edition 7.3'
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                    - name: Home page novità o modifiche in Finance
+                      href: get-started/whats-new-home-page.md
+                    - name: Finance versione 10.0.9 (aprile 2020)
+                      href: get-started/whats-new-changed-10-0-9.md
+                    - name: Finance versione 10.0.8 (febbraio 2020)
+                      href: get-started/whats-new-changed-10-0-8.md
+                    - name: Finance versione 10.0.7 (gennaio 2020)
+                      href: get-started/whats-new-changed-10-0-7.md
                 - name: Funzionalità rimosse o deprecate
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: Funzionalità di AX 2012 posticipate
@@ -204,6 +206,8 @@
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
+                - name: Copiare i fornitori mediante sequenze numeriche condivise
+                  href: accounts-payable/vendor-copy.md
                 - name: Registrare una fattura fornitore nel giornale di registrazione fatture
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: Verificare le fatture e i dati principali nella contabilità fornitori
@@ -264,7 +268,7 @@
                   href: cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Area di lavoro pagamenti fornitore
                   href: accounts-payable/vendor-payments-workspace.md
-                - name: Specificare un tasso di cambio incrociato
+                - name: Specificare il tasso di cambio incrociato
                   href: accounts-payable/specify-cross-rate.md
                 - name: Definire commissioni di pagamento fornitore
                   href: accounts-payable/tasks/define-vendor-payment-fees.md
@@ -274,7 +278,7 @@
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
                 - name: Stornare un pagamento fornitore
                   href: accounts-payable/reverse-vendor-payment.md
-                - name: Creazione di report elettronici per assegni fornitore
+                - name: Creazione di report elettronici per assegni fornitore di esempio
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
                 - name: Panoramica delle fatture di pagamento anticipato e dei pagamenti anticipati
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -300,6 +304,18 @@
           items:
             - name: Home page contabilità clienti
               href: accounts-receivable/accounts-receivable.md
+            - name: Definire condizioni di pagamento cliente
+              href: general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Definire il metodo di pagamento del cliente
+              href: accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Definire le commissioni di pagamento cliente
+              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Profili di registrazione cliente
+              href: accounts-receivable/customer-posting-profiles.md
+            - name: Copiare i clienti mediante sequenze numeriche condivise
+              href: accounts-receivable/copy-customer.md
+            - name: Flusso di lavoro cliente
+              href: accounts-receivable/customer-workflow.md
             - name: Crediti e riscossioni in contabilità clienti
               href: accounts-receivable/collections-credit-accounts-receivable.md
             - name: 'Configurare la contabilità clienti, i crediti e le riscossioni'
@@ -318,72 +334,58 @@
               href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Impostare ed elaborare le fatture ricorrenti
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture a testo libero
+            - name: Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture a testo libero
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Profili di registrazione cliente
               href: accounts-receivable/customer-posting-profiles.md
             - name: Panoramica degli addebiti diretti SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: Mandato per addebito diretto SEPA
+            - name: Impostazione del mandato di addebito diretto SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Impostazione, autorizzazione e acquisizione della carta di credito'
               href: accounts-receivable/credit-card-authorizations.md
             - name: Creare una fattura a testo libero
               href: accounts-receivable/create-free-text-invoice-new.md
+            - name: Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture a testo libero
+              href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Creare un modello di fattura a testo libero
               href: accounts-receivable/create-free-text-invoice-template-new.md
             - name: Correggere una fattura a testo libero
               href: accounts-receivable/correct-free-text-invoice.md
             - name: Assegnare al cliente un modello di fattura a testo libero
               href: accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Impostare ed elaborare le fatture ricorrenti
+              href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Generare e registrare fatture a testo libero ricorrenti
               href: accounts-receivable/tasks/post-recurring-free-text-invoices.md
             - name: Creare fatture di ordine cliente
               href: accounts-receivable/tasks/create-sales-order-invoices.md
-            - name: Impostare tassi d'interesse per un codice interessi
-              href: accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Rinunciare all''addebito di interessi, ripristinarli o stornarli'
-              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
-            - name: Elaborare interessi
-              href: accounts-receivable/tasks/process-interest.md
             - name: Creare una fattura cliente
               href: accounts-receivable/configure-customer-invoices.md
-            - name: Depositare pagamenti cliente
-              href: accounts-receivable/tasks/deposit-customer-payments.md
-            - name: Definire condizioni di pagamento cliente
-              href: general-ledger/tasks/establish-customer-payment-terms.md
-            - name: Definire il metodo di pagamento del cliente
-              href: accounts-receivable/tasks/establish-customer-method-payment.md
-            - name: Definire le commissioni di pagamento cliente
-              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Pagina elenco di transazioni cliente
+              href: accounts-receivable/customer-transactions-list-page.md
             - name: Impostare gli effetti attivi
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Chiudere contabilità clienti
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Creare una sequenza di lettere di sollecito
-              href: accounts-receivable/tasks/create-collection-letter-sequence.md
-            - name: Elaborare lettere di sollecito
-              href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Creare un nuovo mandato di addebito diretto per un cliente
-              href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-            - name: Creare un codice interessi con un intervallo
-              href: accounts-receivable/tasks/create-interest-code-range.md
-            - name: Creare un giornale di registrazione annullamento per un cliente
-              href: accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Impostare e generare le informazioni di aging della contabilità clienti
-              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Copiare i clienti mediante sequenze numeriche condivise
-              href: accounts-receivable/copy-customer.md
-            - name: Flusso di lavoro cliente
-              href: accounts-receivable/customer-workflow.md
             - name: Pagamenti e liquidazioni
               items:
+                - name: Panoramica del riconoscimento ricavi
+                  href: accounts-receivable/revenue-recognition-overview.md
                 - name: Panoramica pagamenti cliente
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi di sconto
-                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Pagamenti centralizzati per la contabilità clienti
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
+                - name: Depositare pagamenti cliente
+                  href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: Panoramica degli addebiti diretti SEPA
+                  href: accounts-receivable/sepa-direct-debit-overview.md
+                - name: Mandato per addebito diretto SEPA
+                  href: accounts-receivable/sepa-direct-debit-mandate.md
+                - name: Creare un nuovo mandato di addebito diretto per un cliente
+                  href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+                - name: Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi di sconto
+                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Liquidare un pagamento cliente parziale o un pagamento finale prima dello sconto
                   href: accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md
                 - name: Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
@@ -396,9 +398,49 @@
                   href: accounts-receivable/reimburse-customers.md
                 - name: Pagamenti cliente per un importo parziale
                   href: accounts-receivable/customer-payments-partial-amount.md
-                - name: Pagina elenco di transazioni cliente
-                  href: accounts-receivable/customer-transactions-list-page.md
-        - name: Impostazione del budget
+            - name: Credito e riscossioni
+              items:
+                - name: Panoramica di credito e riscossioni
+                  href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Impostazione gestione crediti
+                  href: accounts-receivable/cm-credit-mgmt-setup.md
+                - name: Informazioni di impostazione gestione crediti
+                  href: accounts-receivable/cm-setup-information.md
+                - name: Aggiungere informazioni di gestione crediti per un cliente
+                  href: accounts-receivable/cm-add-credit-mgmt-information-customer.md
+                - name: Gruppi di crediti cliente
+                  href: accounts-receivable/cm-customer-credit-groups.md
+                - name: Correzioni limite di credito
+                  href: accounts-receivable/cm-credit-limit-adjustments.md
+                - name: Sospensioni credito per ordini cliente
+                  href: accounts-receivable/cm-sales-order-credit-holds.md
+                - name: Attività periodiche di gestione crediti
+                  href: accounts-receivable/cm-periodic-tasks.md
+                - name: Concetti chiave di gestione riscossioni
+                  href: accounts-receivable/cm-collections-concepts.md
+                - name: 'Configurare la contabilità clienti, i crediti e le riscossioni'
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Impostare i crediti e le riscossioni
+                  href: accounts-receivable/set-up-collections.md
+            - name: Impostare tassi d'interesse per un codice interessi
+              href: accounts-receivable/set-up-interest-rates-interest-code.md
+            - name: Creare un codice interessi con un intervallo
+              href: accounts-receivable/tasks/create-interest-code-range.md
+            - name: 'Rinunciare all''addebito di interessi, ripristinarli o stornarli'
+              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Elaborare interessi
+              href: accounts-receivable/tasks/process-interest.md
+            - name: Esaminare le informazioni sulla riscossione
+              href: accounts-receivable/tasks/review-collections-information.md
+            - name: Creare una sequenza di lettere di sollecito
+              href: accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Elaborare lettere di sollecito
+              href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Impostare e generare le informazioni di aging della contabilità clienti
+              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Creare un giornale di registrazione annullamento per un cliente
+              href: accounts-receivable/tasks/create-write-off-journal-customer.md
+        - name: Impostazione budget
           items:
             - name: Home page di impostazione del budget
               href: budgeting/budgeting-overview.md
@@ -416,6 +458,8 @@
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
             - name: Modelli di pianificazione del budget per Excel
               href: budgeting/budget-planning-excel-templates.md
+            - name: Estendere il layout di pianificazione del budget
+              href: budgeting/extending-budget-planning-layout.md
             - name: Risoluzione dei problemi di impostazione budget per la posizione
               href: budgeting/position-budgeting-set-up-issues.md
             - name: Pianificazione del budget
@@ -486,11 +530,11 @@
               href: cash-bank-management/set-up-centralized-payments.md
             - name: Liquidazione automatica e priorità
               href: accounts-receivable/automatic-settlement-prioritization.md
-            - name: Riconciliazione estratti conto semplice
+            - name: Riconciliare un conto bancario
               href: cash-bank-management/reconcile-bank-account.md
             - name: Riconciliazione estratti conto avanzata
               items:
-                - name: Attività di impostazione riconciliazione estratti conto avanzata
+                - name: Processo di impostazione riconciliazione estratti conto avanzata
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Impostare il processo di importazione della riconciliazione estratti conto avanzata
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
@@ -562,7 +606,7 @@
               href: cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
             - name: Creare criteri di rollup costi
               href: cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Gestire l'origine dati per il movimento CoGe di contabilità industriale
+            - name: Gestire un'origine dati per un movimento CoGe di contabilità industriale
               href: cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
             - name: Elaborare e tenere traccia dei dati di origine
               href: cost-accounting/tasks/process-trace-source-data.md
@@ -598,6 +642,10 @@
               href: expense-management/expense-workflows.md
             - name: Flusso di lavoro di Gestione spese
               href: expense-management/expense-workflow.md
+            - name: Gestire la delega delle spese
+              href: expense-management/manage-expense-delegation.md
+            - name: Elaborazione ricevuta spese
+              href: expense-management/expense-receipt-processing.md
             - name: Importare e gestire transazioni con carta di credito
               href: expense-management/import-credit-card.md
             - name: Distribuzioni su una nota spese
@@ -790,7 +838,7 @@
                   href: general-ledger/process-allocations.md
                 - name: Dimensioni finanziarie
                   href: general-ledger/financial-dimensions.md
-                - name: Gruppi di conti di consolidamento e conti
+                - name: Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
                   href: budgeting/consolidation-account-groups-consolidation-accounts.md
                 - name: Panoramica dell'eliminazione e del consolidamento
                   href: budgeting/consolidation-elimination-overview.md
@@ -830,6 +878,8 @@
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: Creare transazioni di attribuzione per competenza in contabilità generale
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Trasferimento del giornale di registrazione secondario alla contabilità generale
+                  href: general-ledger/subledger-transfer.md
                 - name: Pubblicare le righe giornale di registrazione e i documenti da Excel
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Visualizzare le scritture contabili e le transazioni
@@ -962,6 +1012,8 @@
               href: public-sector/forecast-positions.md
             - name: Report su posizioni previste nel settore pubblico
               href: public-sector/forecast-position-reports.md
+            - name: Impostare ed eseguire la richiesta di posizione cassa
+              href: public-sector/cash-position-inquiry-setup.md
             - name: Contabilità fornitori nel settore pubblico
               items:
                 - name: Panoramica contabilità fornitori nel settore pubblico
@@ -1068,6 +1120,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Componenti del report finanziario
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Funzionalità di valuta nei report finanziari
+              href: general-ledger/financial-reporting-currency-capability.md
             - name: Report finanziari dello stato patrimoniale
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Generare report finanziari
@@ -1242,6 +1296,8 @@
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED fiscale 2020 - Informazioni complementari a ICMS-ST per il layout fiscale SPED 014
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
+                - name: SPED fiscale - Layout 014
+                  href: localizations/latam-bra-sped-fiscal-layout-014.md
                 - name: Parametri per le persone giuridiche
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Impostare i parametri della persona giuridica
@@ -1554,6 +1610,8 @@
                   href: localizations/emea-tax-directives.md
                 - name: Aggiornare la modalità di visualizzazione degli importi nei report e nei documenti
                   href: localizations/emea-amount-printing-forms.md
+                - name: Usare i dati fiscali di un conto fatture
+                  href: localizations/use-fiscal-data-from-invoice-account.md
                 - name: Imposta sul valore aggiunto (IVA)
                   items:
                     - name: Impostare l'ID IVA
@@ -1911,10 +1969,16 @@
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Gestione note avanzate
                   href: localizations/emea-ita-exil-structured-notes.md
+                - name: Lettere di intento - Fatturazione dei soliti esportatori
+                  href: localizations/emea-ita-exil-intent-letter.md
                 - name: Fattura fiscale per le merci consegnate gratuitamente
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Miglioramento della richiesta informazioni sulle liquidazioni a debito o credito
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Simulazioni di contabilità generale (Italia)
+                  href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Certificazione univoca
+                  href: localizations/emea-ita-exil-unique-certification.md
             - name: Giappone
               items:
                 - name: Panoramica Giappone
@@ -2099,9 +2163,11 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: Dettagli della dichiarazione IVA
                   href: localizations/emea-ltu-vat-statement-details.md
-            - name: Malesia
+                - name: Report i.SAF per la Lituania
+                  href: localizations/emea-ltu-isaf.md
+            - name: Malaysia
               items:
-                - name: Panoramica Malesia
+                - name: Panoramica Malaysia
                   href: localizations/malaysia.md
                 - name: Generare credito cliente per le vendite progetto
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -2231,6 +2297,10 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Traduzione contabilità generale
                       href: localizations/rus-ledger-translation-procedure.md
+                    - name: Report di rendiconto saldo fatturato
+                      href: localizations/rus-turnover-balance-statement-reports.md
+                    - name: Report di attività di conto
+                      href: localizations/rus-account-activity-reports.md
                 - name: Titolari di anticipi
                   items:
                     - name: Panoramica titolari di anticipi Russia
@@ -2339,12 +2409,26 @@
                       href: localizations/rus-miscellaneous-charges.md
                     - name: Spese varie di terze parti
                       href: localizations/rus-third-party-misc-charges.md
+                    - name: Contratti
+                      items:
+                        - name: Panoramica contratti
+                          href: localizations/rus-agreements.md
+                        - name: Impostare e creare contratti
+                          href: localizations/rus-set-up-and-create-agreements.md
+                        - name: Registrare le transazioni con riferimento ai contratti
+                          href: localizations/rus-register-transactions-with-reference-to-agreements.md
+                        - name: Richieste e report con contratti
+                          href: localizations/rus-inquiries-reports-agreements.md
                 - name: Scorte
                   items:
                     - name: Merci in transito dal fornitore
                       href: localizations/rus-goods-transit-vendor.md
                     - name: Numeri della dichiarazione doganale
                       href: localizations/rus-custom-declaration-number.md
+                    - name: Struttura costo di magazzino
+                      href: localizations/rus-inventory-cost-structure.md
+                    - name: Rettifica guidata magazzino
+                      href: localizations/rus-inventory-adjustment-wizard.md
                 - name: Report
                   items:
                     - name: Creazione di report finanziari
@@ -2359,6 +2443,8 @@
                       href: localizations/rus-transport-tax-declaration.md
                     - name: Dichiarazione fiscale per imposte fondiarie
                       href: localizations/rus-land-tax-declaration.md
+                    - name: Dichiarazione IVA profitto
+                      href: localizations/rus-profit-tax-declaration.md
                 - name: Amministrazione organizzazione
                   items:
                     - name: Registrazione delle informazioni fiscali relative all'indirizzo
@@ -2457,6 +2543,10 @@
                   href: localizations/apac-tha-unrealized-vat.md
                 - name: Ritenuta d'acconto
                   href: localizations/apac-tha-withholding-tax.md
+            - name: Emirati Arabi Uniti (UAE)
+              items:
+                - name: Impostare e dichiarare l'imposta sul valore aggiunto (IVA)
+                  href: localizations/uae-vat-setup-reporting.md
             - name: Regno Unito
               items:
                 - name: Panoramica Regno Unito
@@ -2489,51 +2579,59 @@
           items:
             - name: Panoramica risorse umane
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Sviluppare una strategia delle risorse umane
+            - name: Impostare le risorse umane
               items:
-                - name: Creare obiettivi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-goal.md
-                - name: 'Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni'
-                  href: ../talent/departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Impostare i componenti di processo
-                  href: ../talent/create-job.md?toc=/dynamics365/finance/toc.json
-                - name: Definire nuovi reparti
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-departments.md
-                - name: Definire nuovi processi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-jobs.md
-                - name: Creare un reparto e associarlo alla gerarchia reparti
-                  href: ../talent/create-department-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Creare calendari e generare orari di lavoro
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-calendar-working-times.md
-                - name: Impostare i parametri di Risorse umane per le persone giuridiche
-                  href: ../talent/set-up-hr-parameters-across-legal-entities.md?toc=/dynamics365/finance/toc.json
-                - name: Impostare i parametri di Risorse umane specifici della società
-                  href: ../talent/set-up-company-specific-hr-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Configurare i parametri risorse umane
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Configurare i parametri condivisi risorse umane
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Impostare i flussi di lavoro risorse umane
+                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                - name: Informazioni sui campi di data e ora
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Gestire il personale
+              items:
+                - name: Organizzare la forza lavoro
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Impostare i componenti di una mansione
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Definire i reparti
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Aggiungere un reparto a una gerarchia
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: Definire i processi
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Creare un calendario orari di lavoro
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Domande frequenti sulle azioni del personale
-                  href: ../talent/personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Utilizzare il flusso di lavoro per gestire le informazioni del dipendente
-                  href: ../talent/workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Modificare le relazioni gerarchiche per posizioni
-                  href: ../fin-ops-core/fin-ops/hr/tasks/modify-reporting-relationships-position.md
-                - name: Approvare record di Posta in arrivo di domande di lavoro
-                  href: ../fin-ops-core/fin-ops/hr/tasks/approve-application-inbox-records.md
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: Utilizzare flussi di lavoro per gestire le informazioni del dipendente
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Modificare le relazioni gerarchiche per una posizione
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
                 - name: Immettere informazioni su lavoratore
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-worker-information.md
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
                 - name: Prestare articoli ai lavoratori
-                  href: ../fin-ops-core/fin-ops/hr/tasks/loan-item-worker.md
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
                 - name: Creare articoli prestito
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-loan-items.md
-                - name: Gestire gli articoli prestati ai lavoratori
-                  href: ../talent/loan-items.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Gestire articoli prestito
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Sviluppare un piano di successione
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-succession-plan.md
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Immettere fogli presenze di progetto
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-project-timesheets.md
-                - name: Gestire modelli di messaggi di posta elettronica
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-email-templates.md
-                - name: Gestire i congedi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-leave-absence.md
-            - name: Selezione del personale
+                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                - name: Progetti di assunzione collettiva
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Creare un progetto di assunzione collettiva
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Impostare le posizioni
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Impostare le informazioni su infortunio e malattia
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Gestire le informazioni sull'infortunio e la malattia del dipendente
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Selezione dei candidati
               items:
                 - name: Gestire processi di selezione
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
@@ -2553,76 +2651,80 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                 - name: Identificare e distribuire strumenti per la selezione dei candidati
                   href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Motivare i dipendenti
+            - name: Configurare piani di retribuzione
               items:
-                - name: Piani di retribuzione
-                  href: ../talent/compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Creare piani di retribuzione fissa
-                  href: ../talent/create-fixed-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Creare piani di retribuzione variabile
-                  href: ../talent/create-variable-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Definire processi retributivi e calcolare i risultati
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-compensation-process-calculate-results.md
-                - name: Elaborare la retribuzione
-                  href: ../talent/process-compensation.md?toc=/dynamics365/finance/toc.json
+                - name: Panoramica dei piani di retribuzione
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Impostare le griglie retributive
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-compensation-grids.md
-                - name: Sviluppare strutture e piani di stipendi/retribuzioni
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-salary-compensation-structure-plan.md
-                - name: Aggiungere informazioni al giornale di registrazione delle prestazioni e inviare complimenti
-                  href: ../fin-ops-core/fin-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Sviluppare una struttura e un piano di retribuzione
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Creare piani di retribuzione fissa
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Creare piani di retribuzione variabile
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
                 - name: Iscrivere i dipendenti a un piano di retribuzione fissa
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-fixed-compensation-plan.md
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
                 - name: Iscrivere i dipendenti a un piano di retribuzione variabile
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-variable-compensation-plan.md
-                - name: Creare revisioni delle prestazioni
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-performance-review.md
-            - name: Gestire lo sviluppo e la formazione dei dipendenti
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Definire il processo retributivo e calcolare i risultati
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Elaborare i piani di retribuzione
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Gestione dei benefit
+              items:
+                - name: Definire e gestire un programma di benefit
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Criteri di idoneità benefit
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Processo di idoneità al benefit
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Definire regole e criteri di idoneità ai benefit
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Realizzare un programma di benefit per i dipendenti
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Creare nuovi benefit
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Iscrivere i lavoratori ai benefit
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Gestire date di scadenza benefit
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: Generare report ACA
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Sviluppare i dipendenti
               items:
                 - name: Panoramica della gestione delle prestazioni
-                  href: ../talent/performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Allineare le competenze della forza lavoro alle esigenze aziendali
-                  href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Allineare le competenze della forza lavoro
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Aggiungere una voce al giornale di registrazione delle prestazioni
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Creare un obiettivo
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Creare una revisione delle prestazioni
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Creare corsi
+              items:
                 - name: Impostare i corsi di formazione
-                  href: ../talent/courses.md?toc=/dynamics365/finance/toc.json
-            - name: Creare e gestire benefit
-              items:
-                - name: Gestire un programma di benefit
-                  href: ../talent/manage-benefit-program.md?toc=/dynamics365/finance/toc.json
-                - name: Criteri di idoneità benefit
-                  href: ../talent/benefit-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Processo di idoneità al benefit
-                  href: ../fin-ops-core/fin-ops/hr/tasks/benefit-eligibility-process.md
-                - name: Definire regole e criteri di idoneità ai benefit
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-benefit-eligibility-rules-policies.md
-                - name: Realizzare un programma di benefit per i dipendenti
-                  href: ../fin-ops-core/fin-ops/hr/tasks/deliver-employee-benefits-program.md
-                - name: Creare nuovi benefit
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-new-benefit.md
-                - name: Iscrivere i lavoratori a benefit e rimuovere benefit dai lavoratori
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-remove-benefits-workers.md
-                - name: Gestire date di scadenza benefit
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-benefit-expiration-dates.md
-            - name: Raccogliere informazioni tramite questionari
-              items:
-                - name: Questionari
-                  href: ../talent/questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Progettare un questionario
-                  href: ../talent/design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Distribuire e completare un questionario
-                  href: ../talent/distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Panoramica dei questionari
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Progettare questionari
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Distribuire e programmare questionari
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
                 - name: Distribuire questionari mediante programmazione
-                  href: ../fin-ops-core/fin-ops/hr/tasks/distribute-questionnaires-scheduling.md
-                - name: Valutare i risultati di un questionario
-                  href: ../talent/evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Visualizzare i risultati del questionario
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
                 - name: Analizzare i risultati del questionario
-                  href: ../fin-ops-core/fin-ops/hr/tasks/analyze-questionnaire-results.md
-                - name: Creare domande aperte
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-open-ended-question.md
-                - name: Creare domande chiuse
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-closed-ended-question.md
-                - name: Fare domande in base alla risposta della domanda precedente
-                  href: ../fin-ops-core/fin-ops/hr/tasks/make-question-dependent-answer-previous-question.md
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Creare una domanda aperta
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Creare una domanda chiusa
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Creare una domanda dipendente
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
             - name: Conformità e sicurezza sul posto di lavoro (Stati Uniti)
               items:
                 - name: Verifica modulo I-9
@@ -2635,10 +2737,6 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
                 - name: Gestire le facilitazioni lavoratore
                   href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-                - name: Impostare le informazioni su infortunio e malattia
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-injury-illness-information.md
-                - name: Gestire le informazioni sull'infortunio e la malattia del dipendente
-                  href: ../fin-ops-core/fin-ops/hr/tasks/maintain-employee-injury-illness-information.md
         - name: Intelligence
           items:
             - name: Home page intelligence
@@ -2653,7 +2751,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Benefit
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Panoramica situazione di cassa
+                - name: Contenuto di Power BI della panoramica situazione di cassa
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
                 - name: Panoramica responsabile finanziario
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -2780,7 +2878,11 @@
                     - name: Aggiornare il formato adottandone una nuova versione di base
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
                 - name: Designer formula nella creazione di report elettronici
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Designer formula
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                    - name: Designer formula avanzato
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
                 - name: Funzioni e linguaggio della formula
                   items:
                     - name: Linguaggio delle formula
@@ -2895,10 +2997,10 @@
                           items:
                             - name: Funzioni di record
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                             - name: EmptyRecord
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                         - name: Text
                           items:
                             - name: Funzioni di testo
@@ -2973,8 +3075,6 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Balance
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Sum
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
                             - name: GetCurrentCompany
@@ -2995,37 +3095,37 @@
                           items:
                             - name: Funzioni di conversione di tipo
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
-                            - name: Int64Value
+                            - name: 'Tipo: Int64Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
-                            - name: IntValue
+                            - name: 'Tipo: IntValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: NumberValue
+                            - name: 'Tipo: NumberValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                            - name: Value
+                            - name: 'Tipo: Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categoria data e ora: DateTimeValue'
+                            - name: 'Data e ora: DateTimeValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categoria data e ora: DateToDateTime'
+                            - name: 'Data e ora: DateToDateTime'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categoria data e ora: DateValue'
+                            - name: 'Data e ora: DateValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie elenco: List'
+                            - name: 'Elenco: List'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie elenco: ListOfFields'
+                            - name: 'Elenco: ListOfFields'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie elenco: Split'
+                            - name: 'Elenco: Split'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie elenco: StringJoin'
+                            - name: 'Elenco: StringJoin'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie testo: Char'
+                            - name: 'Testo: Char'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie testo: GuidValue'
+                            - name: 'Testo: GuidValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie testo: NumberFormat'
+                            - name: 'Testo: NumberFormat'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie testo: QrCode'
+                            - name: 'Testo: QrCode'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Categorie testo: Text'
+                            - name: 'Testo: Text'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: Gestire il mapping dei modelli ER in configurazioni ER separate
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -3151,7 +3251,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
                 - name: Esercitazioni
                   items:
-                    - name: Utilizzare le origini dati JOIN per ottenere i dati da più tabelle dell'applicazione nei mapping del modello di report elettronici (ER)
+                    - name: Utilizzare le origini dati JOIN per ottenere dati da più tabelle dell'applicazione
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
@@ -3159,6 +3259,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
                     - name: Impostare i parametri di un formato ER per la persona giuridica
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                    - name: Rinviare l'esecuzione di elementi in formato ER
+                      items:
+                        - name: Rinviare l'esecuzione di un elemento sequenza
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                        - name: Rinviare l'esecuzione di un elemento XML
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
                 - name: Utilizzare soluzioni di creazione di report elettronici in Finance and Operations
                   items:
                     - name: Configurare il framework
@@ -3173,8 +3279,24 @@
                       items:
                         - name: Panoramica delle destinazioni
                           href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
+                        - name: Tipi di destinazione
+                          items:
+                            - name: Destinazione archivio
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                            - name: Destinazione posta elettronica
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                            - name: Destinazione file
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                            - name: Destinazione Power BI
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                            - name: Destinazione stampante
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                            - name: Destinazione schermata
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                         - name: Configurare destinazioni
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Impostare un riferimento su un formato ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Verificare automaticamente i report generati
                       items:
                         - name: Tracciare i risultati del report generato e paragonarli ai valori di base
@@ -3195,6 +3317,8 @@
                       items:
                         - name: Panoramica di gestione dei documenti aziendali
                           href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: Nuova interfaccia utente del documento in Gestione documenti aziendali
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                         - name: Aggiungere nuovi campi a un modello di documento aziendale in Microsoft Excel
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API framework report elettronici
@@ -3553,7 +3677,7 @@
               items:
                 - name: Creare provider di tassi di cambio
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: Creare fornitori di tassi di cambio in Finance and Operations versione 8.0
+                - name: Creare provider di tassi di cambio in Finance and Operations versione 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Liquidare transazioni con CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
@@ -3561,5 +3685,7 @@
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
+    - name: Dynamics 365 Commerce
+      href: ../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../retail/index.md
+      href: ../commerce/index.md

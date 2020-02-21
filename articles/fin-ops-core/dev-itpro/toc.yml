@@ -2,44 +2,56 @@
   items:
     - name: Sviluppo e amministrazione delle app Finance and Operations
       items:
-        - name: Documentazione delle applicazioni Finance and Operations
+        - name: Documentazione per l'applicazione Finance and Operations
           href: ../fin-ops/index.md
         - name: Sviluppo e amministrazione delle app Finance and Operations
           href: index.md
         - name: Novità o modifiche
           items:
-            - name: Funzionalità di anteprima in Platform update 32 (febbraio 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (gennaio 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (novembre 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (ottobre 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (luglio 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (giugno 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (maggio 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (aprile 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (marzo 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (gennaio 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (dicembre 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (novembre 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (settembre 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (marzo 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Novità o modifiche nelle versioni precedenti
+            - name: Novità o modifiche nelle app Finance and Operations
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Novità o modifiche negli aggiornamenti della piattaforma
               items:
-                - name: Home page Novità o modifiche in Finance and Operations
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (aprile 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (febbraio 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (gennaio 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30 (novembre 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (ottobre 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (luglio 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (giugno 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (maggio 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (aprile 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (marzo 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (gennaio 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (dicembre 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (novembre 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (settembre 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (marzo 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Funzionalità rimosse o deprecate
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Funzionalità di AX 2012 posticipate
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Funzionalità non implementate nelle distribuzioni locali
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Fine del supporto standard per Microsoft Dynamics AX 2009 e 2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventi aziendali
           items:
             - name: Panoramica eventi aziendali
@@ -133,35 +145,35 @@
                     - name: Integrazione bidirezionale sincrona
                       items:
                         - name: Integrazione dati quasi in tempo reale
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Gerarchia organizzativa in Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Integrazione della società
                           items:
-                            - name: Concetto di società in Common Data Service
-                              href: data-entities/dual-write-company.md
+                            - name: Concetto di società in Common Data Services
+                              href: data-entities/dual-write/company-data.md
                             - name: Avvio automatico con i dati della società
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Dati master clienti integrati
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Contabilità integrata
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Esperienza prodotto unificata
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Integrazione fornitore
                           items:
                             - name: Dati master fornitori integrati
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Passa tra strutture fornitore
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Siti e magazzini integrati
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Anagrafica fiscale integrata
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Sincronizzazione iniziale
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Risoluzione dei problemi relativi all'integrazione dati
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: Integrazione unidirezionale asincrona
                       items:
                         - name: Configurare un prospect per uno scenario di liquidazione
@@ -522,7 +534,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modelli e pacchetti
                   href: dev-tools/models.md
-                - name: Tipo di progetto Finance and Operations
+                - name: Tipo progetto Finance and Operations
                   href: dev-tools/projects.md
                 - name: Componenti aggiuntivi degli strumenti per Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Gestire l'accesso a dati riservati
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Rispondere a richieste di dati personali tramite Talent
+                - name: Rispondere a richieste di dati personali tramite Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Rispondere a richieste di dati personali in AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1272,7 +1284,7 @@
               href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Operazioni e assistenza cloud
               href: lifecycle-services/cloud-operations-servicing.md
-            - name: Gestire le esperienze di supporto per Finance and Operations
+            - name: Gestire le esperienze di supporto per  Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Amministrazione sistema
           items:
@@ -1390,7 +1402,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Migrazione dei dati da AX 2009
               items:
-                - name: Migrare i dati da AX 2009 a Finance and Operations
+                - name: Migrazione dei dati da AX 2009 a Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: Migrazione AX 2009 - Installare lo strumento di migrazione dei dati
                   href: migration-upgrade/install-dmt.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

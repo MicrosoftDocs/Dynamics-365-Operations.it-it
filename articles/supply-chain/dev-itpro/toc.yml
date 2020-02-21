@@ -76,11 +76,11 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: API di integrazione dati
       items:
-        - name: REST API di gestione dei pacchetti dei dati
+        - name: API REST di pacchetti di gestione dei dati
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Endpoint servizio
+        - name: Endpoint del servizio
           items:
-            - name: Panoramica endpoint servizio
+            - name: Panoramica degli endpoint del servizio
               href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Risoluzione dei problemi di autenticazione del servizio
               href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -120,7 +120,7 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Gerarchia organizzativa in Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Concetto di società in Common Data Service
+                - name: Concetto di società in Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Dati master clienti integrati
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -472,7 +472,7 @@
           href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Modelli e pacchetti
           href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Tipo di progetto Finance and Operations
+        - name: Tipo progetto Finance and Operations
           href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Componenti aggiuntivi degli strumenti per Visual Studio
           href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Gestire l'accesso a dati riservati
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Rispondere a richieste di dati personali tramite Talent
+        - name: Rispondere a richieste di dati personali tramite Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Rispondere a richieste di dati personali in AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1222,7 +1222,7 @@
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Operazioni e assistenza cloud
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Gestire le esperienze di supporto per Finance and Operations
+    - name: Gestire le esperienze di supporto per  Finance and Operations
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Amministrazione sistema
   items:
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Migrazione dei dati da AX 2009
       items:
-        - name: Migrare i dati da AX 2009 a Finance and Operations
+        - name: Migrazione dei dati da AX 2009 a Finance and Operations
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Migrazione AX 2009 - Installare lo strumento di migrazione dei dati
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

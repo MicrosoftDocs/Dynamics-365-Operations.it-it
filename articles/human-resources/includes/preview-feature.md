@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> La funzionalità indicata in questo articolo è disponibile come anteprima pubblica in qualsiasi ambiente sandbox o di valutazione. Non è disponibile negli ambienti di produzione. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle funzionalità di anteprima, vedere [Gestire le funzionalità](../hr-admin-manage-features.md).
