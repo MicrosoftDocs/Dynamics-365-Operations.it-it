@@ -1,5 +1,5 @@
 ---
-title: Home page di Gestione finanziaria
+title: Home page di Finance
 description: In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770576"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000327"
 ---
-# <a name="financial-management-home-page"></a><span data-ttu-id="cc875-103">Home page di Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="cc875-103">Financial management home page</span></span>
+# <a name="finance-home-page"></a><span data-ttu-id="eb111-103">Home page di Finance</span><span class="sxs-lookup"><span data-stu-id="eb111-103">Finance home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="cc875-104">In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="cc875-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
+<span data-ttu-id="eb111-104">In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="eb111-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 Finance.</span></span> 
 
-<span data-ttu-id="cc875-105">Selezionare l'area di una funzionalità per ulteriori informazioni.</span><span class="sxs-lookup"><span data-stu-id="cc875-105">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="eb111-105">Selezionare l'area di una funzionalità per ulteriori informazioni.</span><span class="sxs-lookup"><span data-stu-id="eb111-105">Select a feature area to learn more about it.</span></span>
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="cc875-106">Contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="cc875-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
-        - [<span data-ttu-id="cc875-107">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="cc875-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
-        - [<span data-ttu-id="cc875-108">Impostazione budget</span><span class="sxs-lookup"><span data-stu-id="cc875-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
-        - [<span data-ttu-id="cc875-109">Gestione cassa e banche</span><span class="sxs-lookup"><span data-stu-id="cc875-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
-        - [<span data-ttu-id="cc875-110">Contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="cc875-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+        - [<span data-ttu-id="eb111-106">Contabilità fornitori</span><span class="sxs-lookup"><span data-stu-id="eb111-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+        - [<span data-ttu-id="eb111-107">Contabilità clienti</span><span class="sxs-lookup"><span data-stu-id="eb111-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md)
+        - [<span data-ttu-id="eb111-108">Impostazione budget</span><span class="sxs-lookup"><span data-stu-id="eb111-108">Budgeting</span></span>](budgeting/budgeting-overview.md) 
+        - [<span data-ttu-id="eb111-109">Gestione cassa e banche</span><span class="sxs-lookup"><span data-stu-id="eb111-109">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+        - [<span data-ttu-id="eb111-110">Contabilità industriale</span><span class="sxs-lookup"><span data-stu-id="eb111-110">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="cc875-111">Gestione spese</span><span class="sxs-lookup"><span data-stu-id="cc875-111">Expense management</span></span>](expense-management/expense-management.md)
-        - [<span data-ttu-id="cc875-112">Creazione di report finanziari</span><span class="sxs-lookup"><span data-stu-id="cc875-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
-        - [<span data-ttu-id="cc875-113">Cespiti</span><span class="sxs-lookup"><span data-stu-id="cc875-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
-        - [<span data-ttu-id="cc875-114">Creazione di report finanziari e contabilità generale</span><span class="sxs-lookup"><span data-stu-id="cc875-114">General ledger and Financial reporting</span></span>](general-ledger/general-ledger.md) 
-        - [<span data-ttu-id="cc875-115">Gestione progetti e contabilità</span><span class="sxs-lookup"><span data-stu-id="cc875-115">Project management and accounting</span></span>](project-management/overview-project-management-accounting.md)
-        - [<span data-ttu-id="cc875-116">Settore pubblico</span><span class="sxs-lookup"><span data-stu-id="cc875-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+        - [<span data-ttu-id="eb111-111">Gestione spese</span><span class="sxs-lookup"><span data-stu-id="eb111-111">Expense management</span></span>](expense-management/expense-management.md)
+        - [<span data-ttu-id="eb111-112">Creazione di report finanziari</span><span class="sxs-lookup"><span data-stu-id="eb111-112">Financial reporting</span></span>](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [<span data-ttu-id="eb111-113">Cespiti</span><span class="sxs-lookup"><span data-stu-id="eb111-113">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+        - [<span data-ttu-id="eb111-114">Creazione di report finanziari e contabilità generale</span><span class="sxs-lookup"><span data-stu-id="eb111-114">General ledger and Financial reporting</span></span>](general-ledger/general-ledger.md) 
+        - [<span data-ttu-id="eb111-115">Gestione progetti e contabilità</span><span class="sxs-lookup"><span data-stu-id="eb111-115">Project management and accounting</span></span>](project-management/overview-project-management-accounting.md)
+        - [<span data-ttu-id="eb111-116">Settore pubblico</span><span class="sxs-lookup"><span data-stu-id="eb111-116">Public sector</span></span>](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
 
 
-## <a name="additional-resources"></a><span data-ttu-id="cc875-117">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="cc875-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="eb111-117">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="eb111-117">Additional resources</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="cc875-118">Blog</span><span class="sxs-lookup"><span data-stu-id="cc875-118">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="eb111-118">Blog</span><span class="sxs-lookup"><span data-stu-id="eb111-118">Blogs</span></span>
 
-- [<span data-ttu-id="cc875-119">Blog di Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="cc875-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
-- [<span data-ttu-id="cc875-120">Blog di Financials</span><span class="sxs-lookup"><span data-stu-id="cc875-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
-- [<span data-ttu-id="cc875-121">Blog della community di partner di Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="cc875-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+- [<span data-ttu-id="eb111-119">Blog di Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="eb111-119">Microsoft Dynamics 365 blog</span></span>](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [<span data-ttu-id="eb111-120">Blog di Financials</span><span class="sxs-lookup"><span data-stu-id="eb111-120">Financials blog</span></span>](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [<span data-ttu-id="eb111-121">Blog della community di partner di Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="eb111-121">Microsoft Dynamics Operations Partner Community Blog</span></span>](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a><span data-ttu-id="cc875-122">Guide attività</span><span class="sxs-lookup"><span data-stu-id="cc875-122">Task guides</span></span>
-<span data-ttu-id="cc875-123">Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="cc875-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="cc875-124">Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.</span><span class="sxs-lookup"><span data-stu-id="cc875-124">To access task guides, click the Help button on any page.</span></span>
+### <a name="task-guides"></a><span data-ttu-id="eb111-122">Guide attività</span><span class="sxs-lookup"><span data-stu-id="eb111-122">Task guides</span></span>
+<span data-ttu-id="eb111-123">Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="eb111-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="eb111-124">Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.</span><span class="sxs-lookup"><span data-stu-id="eb111-124">To access task guides, click the Help button on any page.</span></span>
 
-### <a name="videos"></a><span data-ttu-id="cc875-125">Video</span><span class="sxs-lookup"><span data-stu-id="cc875-125">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="eb111-125">Video</span><span class="sxs-lookup"><span data-stu-id="eb111-125">Videos</span></span>
 
-<span data-ttu-id="cc875-126">Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="cc875-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="eb111-126">Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="eb111-126">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
-### <a name="countryregion-functionality"></a><span data-ttu-id="cc875-127">Funzionalità paese</span><span class="sxs-lookup"><span data-stu-id="cc875-127">Country/region functionality</span></span>
+### <a name="countryregion-functionality"></a><span data-ttu-id="eb111-127">Funzionalità paese</span><span class="sxs-lookup"><span data-stu-id="eb111-127">Country/region functionality</span></span>
 
-<span data-ttu-id="cc875-128">Le normative del paese incidono sull'impostazione fiscale e su altre aree della gestione finanziaria.</span><span class="sxs-lookup"><span data-stu-id="cc875-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="cc875-129">Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese.</span><span class="sxs-lookup"><span data-stu-id="cc875-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
+<span data-ttu-id="eb111-128">Le normative del paese incidono sull'impostazione fiscale e su altre aree della gestione finanziaria.</span><span class="sxs-lookup"><span data-stu-id="eb111-128">Country/region regulations affect tax setup and other areas of financial management.</span></span> <span data-ttu-id="eb111-129">Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese.</span><span class="sxs-lookup"><span data-stu-id="eb111-129">Refer to the [Localization and regulatory features](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) section of our help content to learn about country/region-specific functionality.</span></span>
 
-### <a name="additional-content"></a><span data-ttu-id="cc875-130">Contenuti aggiuntivi</span><span class="sxs-lookup"><span data-stu-id="cc875-130">Additional content</span></span>
+### <a name="additional-content"></a><span data-ttu-id="eb111-130">Contenuti aggiuntivi</span><span class="sxs-lookup"><span data-stu-id="eb111-130">Additional content</span></span>
 
-<span data-ttu-id="cc875-131">Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="cc875-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organization purchases.</span></span> <span data-ttu-id="cc875-132">Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione.</span><span class="sxs-lookup"><span data-stu-id="cc875-132">Refer to the [Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capabilities for managing purchases, inventory, and manufacturing.</span></span> 
+<span data-ttu-id="eb111-131">Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="eb111-131">Supply chain management functionality covers parts of the procure-to-pay process that includes requisitioning, ordering, receiving, invoicing and paying for the goods and services your organization purchases.</span></span> <span data-ttu-id="eb111-132">Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione.</span><span class="sxs-lookup"><span data-stu-id="eb111-132">Refer to the [Supply Chain Management home page](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) for information about the capabilities for managing purchases, inventory, and manufacturing.</span></span> 
 

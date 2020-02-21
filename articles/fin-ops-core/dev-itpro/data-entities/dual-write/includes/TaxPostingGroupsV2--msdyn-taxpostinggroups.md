@@ -1,0 +1,8 @@
+## <a name="sales-tax-ledger-posting-groups-v2-to-msdyn_taxpostinggroups"></a><span data-ttu-id="f5157-101">Gruppi registrazione contabile IVA V2 per msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="f5157-101">Sales tax ledger posting groups V2 to msdyn_taxpostinggroups</span></span>
+
+<span data-ttu-id="f5157-102">Questo modello sincronizza i dati tra le app Finance and Operations e Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="f5157-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="f5157-103">Campo di Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="f5157-103">Finance and Operations field</span></span> | <span data-ttu-id="f5157-104">Tipo di mappa</span><span class="sxs-lookup"><span data-stu-id="f5157-104">Map type</span></span> | <span data-ttu-id="f5157-105">Altro campo di Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="f5157-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="f5157-106">Valore predefinito</span><span class="sxs-lookup"><span data-stu-id="f5157-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="f5157-107">TAXPOSTINGGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="f5157-107">TAXPOSTINGGROUPCODE</span></span> | = | <span data-ttu-id="f5157-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="f5157-108">msdyn_name</span></span> | 
+<span data-ttu-id="f5157-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="f5157-109">DESCRIPTION</span></span> | = | <span data-ttu-id="f5157-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="f5157-110">msdyn_description</span></span> | 

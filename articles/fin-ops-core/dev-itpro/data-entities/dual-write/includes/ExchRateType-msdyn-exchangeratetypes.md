@@ -1,0 +1,8 @@
+## <a name="exchange-rate-type-to-msdyn_exchangeratetypes"></a><span data-ttu-id="f9fbe-101">Tipo di tasso di cambio per msdyn_exchangeratetypes</span><span class="sxs-lookup"><span data-stu-id="f9fbe-101">Exchange rate type to msdyn_exchangeratetypes</span></span>
+
+<span data-ttu-id="f9fbe-102">Questo modello sincronizza i dati tra le app Finance and Operations e Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="f9fbe-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="f9fbe-103">Campo di Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="f9fbe-103">Finance and Operations field</span></span> | <span data-ttu-id="f9fbe-104">Tipo di mappa</span><span class="sxs-lookup"><span data-stu-id="f9fbe-104">Map type</span></span> | <span data-ttu-id="f9fbe-105">Altro campo di Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="f9fbe-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="f9fbe-106">Valore predefinito</span><span class="sxs-lookup"><span data-stu-id="f9fbe-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="f9fbe-107">NAME</span><span class="sxs-lookup"><span data-stu-id="f9fbe-107">NAME</span></span> | = | <span data-ttu-id="f9fbe-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="f9fbe-108">msdyn_name</span></span> | 
+<span data-ttu-id="f9fbe-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="f9fbe-109">DESCRIPTION</span></span> | = | <span data-ttu-id="f9fbe-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="f9fbe-110">msdyn_description</span></span> | 
