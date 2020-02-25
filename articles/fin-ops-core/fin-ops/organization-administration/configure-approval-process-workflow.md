@@ -3,7 +3,7 @@ title: Configurare i processi di approvazione in un flusso di lavoro
 description: Per configurare le proprietà del processo di approvazione, attenersi alla procedura indicata di seguito.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811383"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983766"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurare i processi di approvazione in un flusso di lavoro
 
@@ -138,11 +138,12 @@ Per immettere un nome per il processo di approvazione, effettuare le operazioni 
 
 ## <a name="specify-a-final-approver"></a>Specificare un approvatore finale
 
-È consigliabile designare un approvatore finale per gli scenari in cui l'approvatore è la persona che ha inviato il documento per l'approvazione. Per specificare un approvatore finale, effettuare le operazioni indicate di seguito.
+È possibile designare un approvatore finale per gli scenari in cui l'approvatore è la persona che ha inviato il documento per l'approvazione e si utilizza "Non consentire l'approvazione da parte dell'autore dell'invio". Per specificare un approvatore finale, effettuare le operazioni indicate di seguito.
 
-1. Nel riquadro sinistro, fare clic sull'icona **Impostazioni avanzate**.
-2. Selezionare la casella di controllo **Usa approvatore finale**.
-3. Selezionare nell'elenco l'utente che si desidera impostare come approvatore finale.
+1. Nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'elemento di approvazione e selezionare **Proprietà** per aprire il modulo **Proprietà**.
+2. Nel riquadro sinistro, fare clic sull'icona **Impostazioni avanzate**.
+3. Selezionare la casella di controllo **Usa approvatore finale**.
+4. Selezionare nell'elenco un utente che si desidera impostare come approvatore finale.
 
 ## <a name="set-a-time-limit"></a>Impostare un limite di tempo
 

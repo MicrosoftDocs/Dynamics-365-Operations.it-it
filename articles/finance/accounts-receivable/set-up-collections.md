@@ -1,5 +1,5 @@
 ---
-title: Configurare crediti e riscossioni
+title: Impostare la riscossione
 description: In questo articolo viene descritto come impostare le funzionalità di riscossione.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178517"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013165"
 ---
-# <a name="set-up-credit-and-collections"></a>Configurare crediti e riscossioni
+# <a name="set-up-collections"></a>Impostare la riscossione
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto come impostare le funzionalità di riscossione.
+In questo articolo viene descritto come impostare le funzionalità di riscossione. È necessario completare alcuni passaggi di configurazione quando si utilizza la funzionalità Riscossioni. Sono disponibili anche alcune funzionalità facoltative, tra cui pool di clienti e team di riscossioni. 
+
+- Definizioni periodo di aging
+- Snapshot di aging
+- Nomi giornale di registrazione
+- Codici causale per transazioni di annullamento
+- Agenti di riscossione
+- Conto di annullamento
+- Informazioni NSF (senza copertura)
+- Impostazioni di Outlook per gli utenti che utilizzano la pagina **Riscossioni**
+- Indirizzi di posta elettronica
+
+Questi punti sono discussi in maggior dettaglio nel resto di questo argomento. 
 
 <a name="set-up-aging-period-definitions"></a>Imposta le definizioni di periodi di aging
 -------------------------------
@@ -46,12 +58,12 @@ Creare record snapshot di aging per tutti i clienti o per i clienti di un pool d
 Se nell'organizzazione le attività di riscossione vengono svolte da più persone, è possibile impostare un team di riscossione. È possibile selezionare il team nella pagina **Parametri di contabilità clienti**. Se non si crea un team di riscossione, quando si impostano gli agenti di riscossione nela pagina **Agente di recupero crediti** verrà creato automaticamente un team.
 
 ## <a name="set-up-a-collections-case-category"></a>Impostare una categoria di casi di riscossione
-Se le riscossioni vengono organizzate tramite i casi, impostare una categoria di casi con tipo di categoria **Riscossioni**. L'impostazione è necessaria solo se si desidera utilizzare la funzione caso nella pagina **Riscossioni**.
+Per organizzare le riscossioni tramite i casi, impostare una categoria di casi con il tipo di categoria **Riscossioni**. Ciò è necessario solo se si desidera utilizzare la funzionalità caso nella pagina **Riscossioni**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Impostare i nomi di giornali di registrazione: liquidazione, annullamento e NSF, Non Sufficient Funds (senza copertura)
-Impostare i nomi di giornale di registrazione utilizzati quando le transazioni vengono elaborate nella pagina **Riscossioni**. Sono incluse le operazioni di liquidazione e annullamento di transazioni nonché l'elaborazione di pagamenti senza copertura (NSF).
+Impostare i nomi di giornale di registrazione utilizzati quando le transazioni vengono elaborate nella pagina **Riscossioni**. Questa elaborazione include la liquidazione e l'annullamento di transazioni nonché l'elaborazione di pagamenti senza copertura (NSF).
 
-| Descrizione | Tipo di giornale di registrazione     |
+| Descrizione | Tipo giornale di registrazione     |
 |-------------|------------------|
 | Insediamento  | Pagamento cliente |
 | Eliminazione   | Giornaliera            |
@@ -78,16 +90,19 @@ Aggiornare i conti bancari in modo che abbiano il giornale di registrazione corr
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Configurare le impostazioni di Outlook per gli utenti della pagina Riscossioni
 Prima che i lavoratori possano creare attività o inviare messaggi di posta elettronica tramite la pagina **Riscossioni**, è necessario verificare che la chiave di configurazione **Sincronizzazione di Microsoft Outlook** sia selezionata e che per i lavoratori sia impostata la sincronizzazione di Outlook.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Configurare le impostazioni di posta elettronica e gli indirizzi per i contatti per la riscossione del cliente
-Se si desidera inviare messaggi di posta elettronica ai contatti tramite la pagina **Riscossioni**, impostare gli indirizzi di posta elettronica per i contatti del cliente. Il contatto per la riscossione viene utilizzato come contatto predefinito nella pagina **Riscossioni**. Se sui rendiconti deve essere indicato un indirizzo diverso da quello principale, è possibile impostare un indirizzo del rendiconto per il cliente. 
+## <a name="set-up-email-and-addresses"></a>Impostare messaggi e indirizzi di posta elettronica
+È possibile utilizzare la posta elettronica per comunicare con clienti e venditori su problemi di riscossione e per inviare messaggi di posta elettronica dalla pagina **Riscossioni**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Configurare le impostazioni di posta elettronica e gli indirizzi per i contatti per la riscossione del cliente
+Per inviare messaggi di posta elettronica ai contatti tramite la pagina **Riscossioni**, impostare gli indirizzi di posta elettronica per i contatti del cliente. Il contatto per la riscossione viene utilizzato come contatto predefinito nella pagina **Riscossioni**. Se sui rendiconti deve essere indicato un indirizzo diverso da quello principale, è possibile impostare un indirizzo del rendiconto per il cliente. 
 
 Nella scheda dettaglio **Crediti e riscossioni** per un cliente, nel campo **Contatto riscossioni**, selezionare la persona dell'organizzazione del cliente che lavora con l'agente di riscossione. Questa persona verrà utilizzata come contatto predefinito nella pagina **Riscossioni** e corrisponderà al destinatario dei messaggi di posta elettronica inviati. 
 
 > [!NOTE] 
 > Se per un cliente non è stato specificato un contatto per la riscossione, verrà utilizzato il contatto principale per il cliente. Se non è stato specificato un contatto principale, i messaggi di posta elettronica verranno inviati al primo indirizzo elencato nella pagina **Contatti**.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Configurare le impostazioni di posta elettronica per i venditori
-Se si desidera inviare messaggi di posta elettronica ai venditori tramite la pagina **Riscossioni**, impostare gli indirizzi di posta elettronica per i venditori. Impostare un indirizzo di posta elettronica per ogni rappresentante in ogni gruppo vendite con provvigione. Il rappresentante per il quale è selezionata l'opzione **Contatto** corrisponde al venditore predefinito destinatario dei messaggi di posta elettronica inviati. 
+### <a name="set-up-email-settings-for-salespeople"></a>Configurare le impostazioni di posta elettronica per i venditori
+Per inviare messaggi di posta elettronica ai venditori tramite la pagina **Riscossioni**, impostare gli indirizzi di posta elettronica per i venditori. Impostare un indirizzo di posta elettronica per ogni rappresentante in ogni gruppo vendite con provvigione. Il rappresentante per il quale è selezionata l'opzione **Contatto** corrisponde al venditore predefinito destinatario dei messaggi di posta elettronica inviati. 
 
 Se non è stato specificato un rappresentante, verrà utilizzato il venditore principale per l'organizzazione del cliente. Se non è stato specificato un venditore principale, i messaggi di posta elettronica verranno inviati al primo venditore elencato nel modulo.
 

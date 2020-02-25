@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897789"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006496"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Novità e modifiche in Dynamics 365 Talent (6 agosto 2019)
 
@@ -57,6 +57,6 @@ Una nuova opzione consentirà ai responsabili di visualizzare le prestazioni dei
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="platform-update-29-for-finance-and-operations"></a>Aggiornamento 29 della piattaforma per Finance and Operations
+### <a name="platform-update-29-for-finance-and-operations"></a>Update 29 della piattaforma per Finance and Operations
 
-Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 Finance and Operations (ottobre 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 Finance and Operations (ottobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

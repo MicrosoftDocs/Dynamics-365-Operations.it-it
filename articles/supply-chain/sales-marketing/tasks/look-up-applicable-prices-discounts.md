@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835586"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025830"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Cercare i prezzi e gli sconti applicabili
 
@@ -49,7 +49,7 @@ Questa procedura illustra come trovare il prezzo e/o lo sconto per un prodotto c
 10. Chiudere la pagina.
 
 ## <a name="find-the-applicable-discount"></a>Individuare lo sconto applicabile
-    * Verificare che il campo del conto cliente contenga il numero cliente US-001    
+Verificare che il campo del conto cliente contenga il numero cliente US-001    
 1. Nel campo Numero articolo digitare "T0012".
     * Assicurarsi che il campo Quantità sia impostato su 1.  
     * I seguenti dettagli di prezzo visualizzati per il prodotto T0012 derivano da uno o più accordi commerciali. Il prezzo unitario è di 1.000 EUR e la percentuale di sconto è 5.  

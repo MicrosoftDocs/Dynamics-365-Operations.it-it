@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811674"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005705"
 ---
 # <a name="help-system"></a>Guida
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811674"
 Questo argomento fornisce una panoramica dei componenti della Guida. La Guida è condivisa dai seguenti prodotti:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 È possibile accedere alla Guida dal riquadro della Guida in qualsiasi prodotto che si sta utilizzando. 
 
@@ -73,7 +73,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 Il video [Come contribuire alla documentazione di Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrato sopra) è incluso nel canale Microsoft Dynamics 365 di YouTube.
 
-Per ulteriori informazioni, fare riferimento alla [guida del collaboratore](https://docs.microsoft.com/en-us/contribute).
+Per ulteriori informazioni, fare riferimento alla [guida del collaboratore](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Al momento accettiamo solo contributi al nostro contenuto in inglese.
@@ -106,12 +106,12 @@ Per accedere al contenuto della Guida, fare clic sull'icona **Guida** (**?**) op
 Dal riquadro della Guida è possibile accedere agli articoli applicabili al client. Quando si apre il riquadro della Guida e si fa clic sulla scheda **Guida**, vengono visualizzati gli articoli applicabili alla pagina attualmente aperta. Se non viene trovato alcun articolo, è possibile immettere le parole chiave per ridefinire la ricerca. Quando si fa clic su un articolo nel riquadro Guida, una nuova scheda viene visualizzata nel browser e viene visualizzato l'articolo.
 
 > [!IMPORTANT]
-> Questa sezione non si applica a Dynamics 365 Talent. La Guida per Talent è automaticamente connessa alle guide attività per il prodotto. Inoltre, non è possibile creare Guide attività personalizzate per Talent.
+> Questa sezione non si applica a Dynamics 365 Human Resources. La Guida per Human Resources è automaticamente connessa alle guide attività per il prodotto. Inoltre, non è possibile creare Guide attività personalizzate per Human Resources.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Accesso alle guide attività dal riquadro Guida
 
-Affinché si possa accedere alle guide attività dal riquadro Guida, è necessario che un amministratore di sistema acceda alla pagina **Parametri di sistema** in Finance, Supply Chain Managment e Retail e configuri alcune impostazioni.
+Affinché si possa accedere alle guide attività dal riquadro Guida, è necessario che un amministratore di sistema acceda alla pagina **Parametri di sistema** in Finance, Supply Chain Managment e Commerce e configuri alcune impostazioni.
 
 > [!NOTE]
 > - Per configurare la Guida, è necessario essere connessi con un account nello stesso tenant di distribuzione dell'app.

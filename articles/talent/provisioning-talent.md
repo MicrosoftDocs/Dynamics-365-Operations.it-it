@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: b705304788f47e4a5d2a9f1b2bf42a065428ea0f
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: d06c0d14fb99e5544a5da05078f5b3a559f9e806
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898135"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025511"
 ---
 # <a name="provision-talent"></a>Eseguire il provisioning di Talent
 
@@ -46,6 +46,10 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Tale
 
 1. Nel progetto LCS selezionare il riquadro **Gestione app Talent**.
 2. Indicare se si tratta di un'istanza sandbox o di produzione di Talent. Le funzionalità in anteprima anticipata possono essere disponibili nelle istanze sandbox per consentire feedback e test. 
+
+    > [!NOTE]
+    > Il tipo di istanza Talent non può essere modificato una volta impostato. Verificare che sia selezionato il tipo di istanza corretto prima di continuare.
+
     > [!NOTE]
     > Il tipo di istanza di Talent è distinto dal tipo di istanza dell'ambiente Microsoft Power Apps, impostato nell'interfaccia di amministrazione di Power Apps.
 3. Selezionare **Includi dati dimostrativi** se si desidera che l'ambiente includa lo stesso set di dati dimostrativi utilizzato in passato nell'esperienza dei test drive di Talent. Questa opzione è utile negli ambienti di formazione o dimostrativi a lungo termine e non deve mai essere utilizzata per gli ambienti di produzione.  Tenere presente che è necessario scegliere questa opzione per la distribuzione di apertura. Non è possibile aggiornare una distribuzione esistente in seguito.
@@ -64,7 +68,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Tale
     > [!NOTE]
     > Se non sono ancora stati completati i requisiti finali, è possibile distribuire un'istanza di prova di Talent nel progetto. È quindi possibile utilizzare l'istanza per testare la soluzione finché non si esegue la conferma. Se si utilizza il nuovo ambiente per i test, è necessario ripetere questa procedura per creare un ambiente di produzione.
 
-    > Poiché solo due ambienti LCS sono consentiti con la sottoscrizione Talent, si potrebbe prendere in considerazione l'utilizzo di un [ambiente di valutazione Talent](https://dynamics.microsoft.com/talent/overview/) gratuito di 60 giorni. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Core HR. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Tali ambienti non sono destinati all'utilizzo come ambienti di produzione. Si noti che quando un ambiente di prova scade dopo 60 giorni, tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
+    > Poiché solo due ambienti LCS sono consentiti con la sottoscrizione Talent, si potrebbe prendere in considerazione l'utilizzo di un [ambiente di valutazione Talent](https://dynamics.microsoft.com/talent/overview/) gratuito di 60 giorni. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Tali ambienti non sono destinati all'utilizzo come ambienti di produzione. Si noti che quando un ambiente di prova scade dopo 60 giorni, tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 ## <a name="select-a-power-apps-environment"></a>Selezionare un ambiente Power Apps
 
@@ -87,4 +91,4 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente Power App
 6. Dopo aver determinato l'ambiente corretto da utilizzare, è possibile continuare il processo di approvvigionamento. 
  
 ## <a name="grant-access-to-the-environment"></a>Concedere l'accesso all'ambiente
-Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. Tuttavia, è necessario concedere l'accesso in modo esplicito ad altri utenti dell'applicazione. Per concedere l'accesso, è necessario aggiungere utenti e assegnare i ruoli appropriati agli stessi nell'ambiente Core HR. L'amministratore globale che ha distribuito Talent deve inoltre avviare Attract e Onboard per completare l'inizializzazione e abilitare l'accesso per altri utenti del tenant.  Se questa operazione non viene eseguita, gli altri utenti non potranno accedere ad Attract e Onboard e riceveranno errori di violazione dell'accesso. Per ulteriori informazioni, vedere [Creare nuovi utenti](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. Tuttavia, è necessario concedere l'accesso in modo esplicito ad altri utenti dell'applicazione. Per concedere l'accesso, è necessario aggiungere utenti e assegnare i ruoli appropriati agli stessi nell'ambiente Human Resources. L'amministratore globale che ha distribuito Talent deve inoltre avviare Attract e Onboard per completare l'inizializzazione e abilitare l'accesso per altri utenti del tenant.  Se questa operazione non viene eseguita, gli altri utenti non potranno accedere ad Attract e Onboard e riceveranno errori di violazione dell'accesso. Per ulteriori informazioni, vedere [Creare nuovi utenti](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

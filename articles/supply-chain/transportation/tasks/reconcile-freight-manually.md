@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843243"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026316"
 ---
 # <a name="reconcile-freight-manually"></a>Riconciliare il trasporto manualmente
 
@@ -37,7 +37,7 @@ In questa procedura viene illustrato come riconciliare manualmente il trasporto.
 3. Nell'elenco, selezionare il carico con l'ID 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Creare una fattura vettore
-    * Se si riconcilia manualmente il trasporto e non si ricevono le fatture vettore automaticamente, è possibile creare una fattura basata sulla fattura di trasporto.  
+Se si riconcilia manualmente il trasporto e non si ricevono le fatture vettore automaticamente, è possibile creare una fattura basata sulla fattura di trasporto.  
 1. Fare clic su Informazioni correlate.
 2. Fare clic su Dettagli fattura trasporto.
 3. Fare clic su Genera fattura di trasporto.
@@ -45,7 +45,7 @@ In questa procedura viene illustrato come riconciliare manualmente il trasporto.
 5. Fare clic su OK.
 
 ## <a name="reconcile-the-invoice"></a>Riconciliare la fattura
-    * Quando si esegue la riconciliazione di una fattura vettore e una fattura di trasporto, avviene riga per riga.  
+Quando si esegue la riconciliazione di una fattura vettore e una fattura di trasporto, avviene riga per riga.  
 1. Fare clic su Associa fatture di trasporto e fatture.
 2. Espandere la sezione Dettagli fattura.
 3. Espandere la sezione Dettagli fattura trasporto non corrispondenti.

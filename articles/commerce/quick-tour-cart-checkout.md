@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697844"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002937"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Panoramica delle pagine checkout e carrello
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ La parte principale della pagina checkout è l'area in cui vengono raccolte tutt
 
 ### <a name="shipping-address"></a>Indirizzo di spedizione
 
-Un indirizzo di spedizione è necessario se gli articoli devono essere spediti. Il formato degli indirizzi di spedizione può essere configurato in Dynamics 365 Retail. Ad esempio, se gli articoli sono spediti negli Stati Uniti, l'indirizzo di spedizione deve includere un indirizzo di recapito e il codice postale. I campi dell'indirizzo di spedizione richiedono una convalida input di base, ad esempio la convalida di caratteri alfanumerici, lunghezza massima e numeri. Sebbene la validità dell'indirizzo non venga verificata, questa verifica può essere effettuata utilizzando servizi di terze parti personalizzati.
+Un indirizzo di spedizione è necessario se gli articoli devono essere spediti. Il formato degli indirizzi di spedizione può essere configurato in Dynamics 365 Commerce. Ad esempio, se gli articoli sono spediti negli Stati Uniti, l'indirizzo di spedizione deve includere un indirizzo di recapito e il codice postale. I campi dell'indirizzo di spedizione richiedono una convalida input di base, ad esempio la convalida di caratteri alfanumerici, lunghezza massima e numeri. Sebbene la validità dell'indirizzo non venga verificata, questa verifica può essere effettuata utilizzando servizi di terze parti personalizzati.
 
 L'indirizzo di spedizione si applica a tutti gli articoli nel carrello per i quali l'opzione "spedizione" è selezionata. Se si utilizza il flusso di checkout fornito nello starter kit online, i singoli articoli del carrello non possono essere spediti a indirizzi diversi. Se si richiede questa funzionalità, può essere implementata mediante la personalizzazione dei moduli Checkout.
 
-Dopo aver immesso l'indirizzo di spedizione, vengono visualizzati i metodi di spedizione disponibili nel punto vendita online in Dynamics 365 Commerce. I metodi di spedizione e gli indirizzi che supportano possono essere configurati in Retail.
+Dopo aver immesso l'indirizzo di spedizione, vengono visualizzati i metodi di spedizione disponibili nel punto vendita online in Dynamics 365 Commerce. I metodi di spedizione e gli indirizzi che supportano possono essere configurati in Commerce.
 
 ### <a name="payment"></a>Pagamento
 

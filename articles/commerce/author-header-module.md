@@ -1,9 +1,9 @@
 ---
 title: Modulo Intestazione
-description: In questo argomento vengono descritti i moduli Intestazione e la procedura per crearli in Microsoft Dynamics 365 Commerce.
+description: In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
-ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
+ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885480"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025669"
 ---
 # <a name="header-module"></a>Modulo intestazione
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Intestazione e la procedura per crearli in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Un modulo Intestazione è un contenitore speciale utilizzato per l'hosting di tutti i moduli che verranno visualizzati nell'intestazione di una pagina. Ad esempio, può includere il logo del sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito e la barra di ricerca.
+In Dynamics 365 Commerce, un'intestazione di pagina comprende più moduli, come i moduli intestazione, menu di navigazione, ricerca, banner promozionale e consenso per i cookie. 
 
-Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (ovvero un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger*).
+Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito, il simbolo del carrello, il simbolo dell'elenco preferenze, opzioni di accesso e la barra di ricerca. Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (in altre parole un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger*).
 
-## <a name="properties-of-a-header"></a>Proprietà di un'intestazione
+## <a name="properties-of-a-header-module"></a>Proprietà di un modulo intestazione
 
-Come i contenitori generici, un modulo Intestazione supporta le proprietà **intestazione** e **larghezza**.
+Un modulo intestazione supporta le proprietà **Immagine logo**, **Collegamento logo** e **Collegamenti account personale**. 
 
-Un modulo Intestazione ha molteplici slot. Ad esempio, sono presenti slot per un messaggio informativo, un menu di navigazione, il logo, una barra di ricerca, l'icona del carrello, l'icona dell'elenco preferenze e informazioni sull'account. Ogni slot supporta uno specifico set di moduli.
+Le proprietà **Immagine logo** e **Collegamento logo** vengono utilizzate per definire un logo nella pagina. Per ulteriori informazioni, vedere [Aggiungere un logo](add-logo.md). 
+
+La proprietà **Collegamenti account personale** può essere utilizzata per definire pagine dell'account per le quali il proprietario del sito desidera visualizzare collegamenti rapidi nell'intestazione.
 
 ## <a name="modules-that-are-available-in-a-header-module"></a>Moduli disponibili in un modulo Intestazione
 
 Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Intestazione:
 
-- **Menu di navigazione** - Il menu di navigazione rappresenta la gerarchia di navigazione del canale e altri collegamenti di navigazione statici. La gerarchia di navigazione del canale può essere configurata in Dynamics 365 Retail. Gli elementi configurati vengono quindi visualizzati come navigazione intestazione. Inoltre, è possibile configurare i collegamenti di navigazione statici e possono essere forniti i collegamenti ad altre pagine nel sito di e-Commerce. L'intestazione stessa può essere allineata a sinistra, a destra o al centro.
-- **Icona del carrello** - L'icona del carrello è un'icona speciale che rappresenta il carrello. È visualizzata nell'intestazione e indica il numero di articoli nel carrello. Un collegamento alla pagina carrello deve accompagnare l'icona del carrello, di modo che i clienti possano essere reindirizzati alla pagina carrello quando interagiscono con l'icona.
-- **Icona dell'elenco preferenze** - L'icona dell'elenco preferenze è visualizzata nell'intestazione e indica il numero di articoli aggiunti all'elenco preferenze del cliente. Un collegamento alla pagina dell'elenco preferenze deve accompagnare questa icona, di modo che i clienti possano essere reindirizzati alla pagina dell'elenco preferenze quando interagiscono con l'icona.
-- **Modulo Accesso** - Il modulo Accesso è visualizzato nell'intestazione. Consente ai clienti di accedere al proprio account o di registrarsi per averne uno. Se il cliente è già registrato, il modulo può essere configurato per visualizzare collegamenti alla pagina dell'account, alla pagina dello storico ordini o a un'altra pagina.
-- **Modulo Logo** - Questo modulo mostra il logo che rappresenta il rivenditore e il marchio. È un'immagine con un collegamento. Il collegamento è in genere configurato di modo che reindirizzi alla home page. Di conseguenza, i clienti possono tornare rapidamente alla home page da qualsiasi pagina del sito.
-- **Avviso** - Un avviso viene visualizzato nell'intestazione ed è utilizzato per visualizzare un messaggio inline valido per tutte le pagine del sito. Ad esempio, un avviso può visualizzare un messaggio come "La vendita annuale termina tra 2 giorni".
-- **Barra di ricerca** - La barra di ricerca consente agli utenti di immettere i termini di ricerca per cercare i prodotti. Il modulo deve essere configurato con l'URL della pagina dei risultati della ricerca. Il parametro della stringa di query può essere configurato (il valore predefinito è **"q"**). La barra di ricerca ha uno slot di suggerimento automatico in cui deve essere aggiunto il modulo Suggerimento automatico.
-- **Suggerimento automatico** - Il modulo Suggerimento automatico visualizza i risultati suggeriti automaticamente. Questi risultati possono essere parole chiave, prodotti o categorie in cui viene trovato il termine di ricerca.
+- **Menu di navigazione** - Il menu di navigazione rappresenta la gerarchia di navigazione del canale e altri collegamenti di navigazione statici. La gerarchia di navigazione del canale può essere configurata in Dynamics 365 Commerce. Il menu di navigazione presenta una proprietà **Origine navigazione** utilizzata per specificare le voci di menu di navigazione di Retail Server e le voci di menu statico come origine. Se le voci di menu statico vengono specificate come origine, è possibile fornire collegamenti relativi ad altre pagine del sito. Gli elementi configurati vengono quindi visualizzati come navigazione intestazione. 
+- **Cerca** - Il modulo Ricerca consente agli utenti di immettere termini di ricerca per cercare prodotti. L'URL della pagina di ricerca predefinita e i parametri della query di ricerca devono essere specificati in **Impostazioni sito \> Estensioni**. Il modulo Ricerca ha proprietà che consentono di sopprimere il pulsante o l'etichetta di ricerca. Il modulo Ricerca supporta anche opzioni di suggerimento automatico, come risultati di ricerca di prodotti, parola chiave e categorie.
 
-## <a name="create-a-header-module"></a>Creare un modulo Intestazione
+## <a name="create-a-header-module-for-a-page"></a>Creare un modulo intestazione per una pagina
 
 Per creare un modulo Intestazione, procedere come segue.
 
-1. Creare un frammento pagina che include un modulo Intestazione.
-1. Aggiungere moduli agli slot nel modulo Intestazione.
-1. Aggiornare le impostazioni di ciascun modulo.
-1. Salvare il frammento pagina. 
-1. Archiviare la pagina e pubblicarla.
+1. Creare un frammento denominato **Frammento intestazione** e aggiungervi un modulo contenitore.
+1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Larghezza** su **Riempi contenitore**.
+1. Aggiungere i moduli banner e consenso per i cookie al modulo contenitore.
+1. Aggiungere un altro modulo contenitore al frammento e impostare la proprietà **Larghezza** su **Riempi contenitore**.
+1. Aggiungere un modulo intestazione al secondo modulo contenitore.
+1. Nello slot **Menu di navigazione** del modulo intestazione, aggiungere un modulo menu di navigazione. 
+1. Nel riquadro delle proprietà per il modulo menu di navigazione, configurare le proprietà del modulo menu di navigazione.
+1. Nello slot **Cerca** del modulo intestazione, aggiungere un modulo ricerca. 
+1. Nel riquadro delle proprietà per il modulo ricerca, configurare le proprietà del modulo ricerca. 
+1. Salvare il frammento di pagina, finalizzare la modifica e pubblicarlo. 
 
 Per garantire che un'intestazione sia visualizzata in ogni pagina, effettuare le seguenti operazioni in ogni modello di pagina creato per il sito.
 
-1. Nella pagina predefinita, aggiungere il frammento pagina contenente il modulo Intestazione all'intestazione nello slot principale.
-1. Salvare il modello. 
-1. Archiviare il modello e pubblicarlo.
+1. Nello slot **Principale** della pagina predefinita, aggiungere il frammento di pagina intestazione contenente il modulo Intestazione all'intestazione.
+1. Salvare il modello, finalizzare la modifica e pubblicarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

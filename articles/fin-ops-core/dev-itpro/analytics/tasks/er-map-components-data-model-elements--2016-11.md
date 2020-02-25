@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184740"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026242"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapping dei componenti del formato creato agli elementi del modello dati (novembre 2016)
 
@@ -98,7 +98,7 @@ Nella seguente procedura viene illustrato come un utente con il ruolo di amminis
 2. Chiudere la pagina.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Modifica lo stato della versione corrente della configurazione del formato
-    * Nei passaggi seguenti verrà modificato lo stato della configurazione del formato da Bozza a Completato per renderlo disponibile per la generazione di documenti.  
+Nei passaggi seguenti verrà modificato lo stato della configurazione del formato da Bozza a Completato per renderlo disponibile per la generazione di documenti.  
 1. Fare clic su Cambia stato.
 2. Fare clic su Completa.
 3. Nel campo Descrizione digitare un valore.
@@ -108,7 +108,7 @@ Nella seguente procedura viene illustrato come un utente con il ruolo di amminis
     * Si noti che la configurazione viene salvata come versione completata 1.1: versione 1 del formato in base alla versione 1 del modello dati.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Definisce la data di validità della versione del formato completata
-    * Ciascuna versione del formato può essere configurata come disponibile per l'utilizzo a partire da una determinata data. Quando più versioni di formato sono attive in una determinata data, il formato più recente (in base al numero di versione) verrà selezionato per l'utilizzo. Il valore della data della sessione viene utilizzato per la selezione della versione appropriata.  
+Ciascuna versione del formato può essere configurata come disponibile per l'utilizzo a partire da una determinata data. Quando più versioni di formato sono attive in una determinata data, il formato più recente (in base al numero di versione) verrà selezionato per l'utilizzo. Il valore della data della sessione viene utilizzato per la selezione della versione appropriata.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Limitare l'accesso al formato creato da società
 1. Espandere la sezione Codici paese ISO.

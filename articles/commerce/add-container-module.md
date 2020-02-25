@@ -3,7 +3,7 @@ title: Modulo contenitore
 description: In questo argomento vengono descritti i moduli contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697062"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025530"
 ---
 # <a name="container-module"></a>Modulo contenitore
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Un modulo contenitore è un modulo che include altri moduli. Si tratta del contenitore più generico utilizzato in Dynamics 365 Commerce. Lo scopo principale di un modulo contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo contenitore.
+Un modulo contenitore è un modulo che include altri moduli. Lo scopo principale di un modulo contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo contenitore.
 
-Sono disponibili tre tipi standard di moduli contenitore: contenitore, contenitore con 2 slot e contenitore con 3 slot. Questi contenitori possono includere moduli di qualsiasi tipo. Vi sono inoltre tipi speciali di moduli contenitore, ad esempio Sequenza, Blocco ricco di contenuti, Posizionamento contenuti, Carrello, Checkout, Casella acquisti, Intestazione e Piè di pagina. Questi contenitori hanno scopi specifici e possono includere solo specifici tipi di moduli supportati.
+Sono supportati tre moduli contenitore: contenitore, contenitore con 2 slot e contenitore con 3 slot. Questi contenitori possono includere moduli di qualsiasi tipo. 
 
-Si consiglia di includere moduli in un contenitore, di modo che possano essere limitati alla larghezza del contenitore.
+> [!NOTE] 
+> Si consiglia di includere sempre moduli in un modulo contenitore, di modo che possano essere limitati alla larghezza del contenitore.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Esempi di moduli contenitore in e-Commerce
 
@@ -98,20 +99,19 @@ Ulteriori proprietà possono essere utilizzate per ottimizzare il layout per dif
 
 Per aggiungere un modulo contenitore a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello pagina denominato **Modello contenitore**.
-1. Nello slot **Principale** della pagina predefinita, aggiungere un modulo contenitore.
-1. Aggiungere un modulo Funzionalità al modulo contenitore.
-1. Archiviare il modello e pubblicarlo.
+1. Creare un modello pagina denominato **Modello contenitore**. 
+1. Nello slot **Corpo**, aggiungi un modulo **Pagina predefinita**.
+1. Completare la modifica del modello e pubblicarlo.
 1. Utilizzare il modello contenitore appena creato per creare una pagina denominata **Pagina contenitore**.
 1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore.
-1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Numero di colonne** su **1** e la proprietà **Larghezza** su **Adatta a contenitore**.
-1. Aggiungere un modulo Funzionalità al modulo contenitore.
-1. Nel riquadro delle proprietà del modulo Funzionalità, configurare un'intestazione.
+1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Numero di colonne** su **1** e la proprietà **Larghezza** su **Riempi contenitore**.
+1. Aggiungere un modulo blocco di contenuto al modulo contenitore.
+1. Nel riquadro delle proprietà per il modulo blocco di contenuto, configurare l'intestazione, l'immagine e il layout.
 1. Salvare la pagina e visualizzarne l'anteprima. Dovrebbe essere visualizzato un modulo Funzionalità adattato alla larghezza del modulo contenitore.
 1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Numero di colonne** su **3**.
-1. Aggiungere due o più moduli Funzionalità al modulo contenitore.
-1. Salvare la pagina e visualizzarne l'anteprima. Ora dovrebbero essere visualizzati tre moduli Funzionalità affiancati.
-1. Dopo aver ottenuto il layout desiderato, archiviare la pagina e pubblicarla.
+1. Aggiungere due o più modulo blocco di contenuto al modulo contenitore.
+1. Salvare la pagina e visualizzarne l'anteprima. Ora dovrebbero essere visualizzati tre modulo blocco di contenuto affiancati.
+1. Dopo aver ottenuto il layout desiderato, completare la modifica della pagina e pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -119,16 +119,14 @@ Per aggiungere un modulo contenitore a una nuova pagina e impostare le propriet�
 
 [Modulo Sequenza](add-carousel.md)
 
-[Modulo Blocco ricco di contenuti](add-content-rich-block.md)
+[Modulo blocco di testo](add-content-rich-block.md)
 
-[Modulo Posizionamento contenuti](add-content-placement-modules.md)
+[Modulo casella acquisti](add-buy-box.md)
 
-[Modulo Casella acquisti](add-buy-box.md)
+[Modulo carrello](add-cart-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
-
-[Modulo Intestazione](author-header-module.md)
+[Modulo intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)

@@ -1,5 +1,5 @@
 ---
-title: Domande frequenti sull'ambiente di anteprima di Commerce
+title: Domande frequenti sull'ambiente di anteprima Dynamics 365 Commerce
 description: Questo argomento fornisce risposte alle domande frequenti sull'ambiente di anteprima di Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906095"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024754"
 ---
-# <a name="commerce-preview-environment-faq"></a>Domande frequenti sull'ambiente di anteprima di Commerce
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Domande frequenti sull'ambiente di anteprima Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce risposte alle domande frequenti sull'ambiente di anteprima di Microsoft Dynamics 365 Commerce.
@@ -83,10 +82,10 @@ Se si verificano problemi quando si tenta di accedere al gruppo Yammer, è possi
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ambiente di anteprima di Commerce](cpe-overview.md)
+[Panoramica dell'ambiente di anteprima Dynamics 365 Commerce](cpe-overview.md)
 
-[Provisioning di un ambiente di anteprima Commerce](provisioning-guide.md)
+[Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurare un ambiente di anteprima Commerce](cpe-post-provisioning.md)
+[Configurare un ambiente di anteprima Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurare le funzioni facoltative per un ambiente di anteprima Commerce](cpe-optional-features.md)
+[Configurare le funzionalità facoltative per un ambiente di anteprima Dynamics 365 Commerce](cpe-optional-features.md)

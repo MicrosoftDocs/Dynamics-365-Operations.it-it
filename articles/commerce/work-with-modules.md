@@ -3,7 +3,7 @@ title: Utilizzare i moduli
 description: In questo argomento viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914796"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025881"
 ---
 # <a name="work-with-modules"></a>Utilizzare i moduli
 
 In questo argomento viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Panoramica
@@ -99,12 +99,10 @@ Nelle procedure riportate di seguito viene descritto come configurare moduli con
 
 Per configurare un modulo contenuto in una pagina, effettuare le seguenti operazioni.
 
-1. Nella riquadro a sinistra, selezionare un tipo di modulo contenuto (ad esempio **Funzionalità**, **Hero** o **Banner**).
-1. Nel riquadro delle proprietà a destra, espandere i controlli nidificati selezionando le intestazioni e impostare tutti i valori di controllo necessari.
-1. Se il riquadro delle proprietà include una sezione **Configurazione dati**, selezionarla per espanderla. Altrimenti, andare al passaggio 5.
-1. Se è presente un pulsante **Aggiungi origine dati**, selezionarlo e quindi selezionare gli elementi contenuto da aggiungere.
-1. Immettere le impostazioni per qualsiasi controllo di modulo necessario o desiderato.
-1. Selezionare **Salva**.
+1. Nella riquadro a sinistra, espandere la struttura e selezionare qualsiasi modulo contenuto (ad esempio **Funzionalità**, **Hero** o **Banner**).
+1. Nel riquadro delle proprietà a destra, trovare i controlli del contenuto e delle impostazioni del modulo.
+1. Immettere le proprietà per qualsiasi controllo di modulo desiderato.
+1. Selezionare **Salva** nella barra dei comandi. Ciò aggiornerà anche la canvas di anteprima.
 
 ### <a name="configure-a-container-module"></a>Configurare un modulo contenitore
 
@@ -112,7 +110,7 @@ Per configurare un modulo contenitore in una pagina, effettuare le seguenti oper
 
 1. Selezionare un modulo contenitore nella pagina (ad esempio un modulo contenitore fluido o Sequenza).
 1. Nel riquadro delle proprietà a destra, espandere i controlli nidificati selezionando le intestazioni e impostare tutti i valori di controllo necessari.
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione accanto al nome del contenitore o di qualsiasi slot nel contenitore e quindi selezionare **Aggiungi modulo**. Aggiungere quindi i moduli figlio al contenitore selezionato. Per ulteriori informazioni, vedere la procedura [Aggiungere un modulo](#add-a-module) descritta precedentemente in questo argomento.
+1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione accanto al nome del contenitore o di qualsiasi slot nel contenitore e quindi selezionare **Aggiungi modulo**. Aggiungere quindi i moduli figlio al contenitore selezionato. Per ulteriori informazioni, vedere la sezione [Utilizzare i moduli](#add-a-module) descritta precedentemente in questo argomento.
 1. Se molteplici moduli figlio esistono come elementi di pari livello in un contenitore padre, è possibile modificarne l'ordine di visualizzazione nel contenitore padre. Selezionare il pulsante con i puntini di sospensione per un modulo e quindi utilizzare i tasti freccia GIÙ o SU.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
@@ -126,8 +124,6 @@ Per configurare un modulo contenitore in una pagina, effettuare le seguenti oper
 [Utilizzare i frammenti](work-with-fragments.md)
 
 [Aggiungere un modulo contenitore a una pagina](add-container-module.md)
-
-[Aggiungere moduli Posizionamento contenuti a una pagina](add-content-placement-modules.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
 

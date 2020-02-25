@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568652"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003952"
 ---
 # <a name="configure-linked-products"></a>Configurare i prodotti collegati
 
@@ -30,7 +30,7 @@ In questa procedura vengono descritti i passaggi per configurare i prodotti coll
 
 1. Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.
 2. Nell'elenco trovare e selezionare il record desiderato.
-3. Nel riquadro azioni, fare clic su Vendita al dettaglio.
+3. Nel riquadro azioni fare clic su Retail e Commerce.
 4. Fare clic su Prodotti collegati.
 5. Fare clic su Modifica.
 6. Nel campo Numero prodotto collegato fare clic sul pulsante a discesa per aprire la ricerca.

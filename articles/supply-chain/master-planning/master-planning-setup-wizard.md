@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635128"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031069"
 ---
 # <a name="master-planning-setup-wizard"></a>Impostazione guidata della pianificazione generale
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635128"
 
 Questo argomento fornisce una guida per la **Impostazione guidata della pianificazione generale**. Descrive come suggerimenti dei parametri vengono calcolati e fornisce inoltre alcuni esempi che mostrano come diverse società configurano la pianificazione generale, in base alle esigenze aziendali.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-Il video relativo all'[impostazione guidata della pianificazione generale in Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile in YouTube.
+Il video relativo all'[impostazione guidata della pianificazione generale in Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrato sopra) è incluso nella playlist di [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile in YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Requisiti specifici della società
@@ -184,7 +184,7 @@ Nella procedura guidata, i seguenti valori vengono immessi per Contoso Manufactu
 Contoso Retailer è una società di distribuzione nel settore della moda. Utilizza la pianificazione generale per calcolare quando gli ordini fornitore devono essere effettuati, in base alle vendite previste. Ecco alcune delle sue caratteristiche:
 
 - Contoso Retailer utilizza una previsione della domanda per prevedere le vendite. Gli ordini fornitore verranno pianificati in base alla previsione.
-- I punti vendita al dettaglio usano le richieste per il rifornimento.
+- I punti vendita usano richieste di rifornimento.
 - Il lead time dal magazzino principale a ogni punto vendita è di due settimane circa per tutti gli articoli.
 
 Nella procedura guidata, i seguenti valori vengono immessi per Contoso Retailer:
@@ -208,4 +208,4 @@ Nella procedura guidata, i seguenti valori vengono immessi per Contoso Retailer:
     - **Domanda:** "Si desidera includere la domanda dalle richieste approvate per rifornire i punti vendita al dettaglio"?
     - **Risposta:** "Sì, come definito nel piano generale". **1 giorno** viene immesso.
 
-    Contoso utilizza le richieste approvate dei punti vendita al dettaglio per creare ordini fornitore pianificati per rifornire questi punti vendita. Poiché la pianificazione generale viene eseguita ogni giorno, le richieste dall'ultimo giorno verranno incluse nella programmazione.
+    Contoso utilizza le richieste approvate dei punti vendita per creare ordini fornitore pianificati per rifornire questi punti vendita. Poiché la pianificazione generale viene eseguita ogni giorno, le richieste dall'ultimo giorno verranno incluse nella programmazione.

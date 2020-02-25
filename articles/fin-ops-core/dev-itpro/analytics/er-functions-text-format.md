@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915719"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974294"
 ---
 # <a name="FORMAT">Funzione ER FORMAT</a>
 
@@ -96,7 +96,7 @@ Se lo stesso viene elaborato per il cliente **Litware Retail** il 17 dicembre 2
 >[!NOTE]
 > La seguente sintassi si applica nelle formule ER per le etichette:
 >
-> - **Per le etichette di risorse nell'app Microsoft Dynamics 365 Finance:** **@X**, dove **X** è l'ID etichetta nell' Application Object Tree (AOT)
+> - **Per le etichette di risorse nell'app Microsoft Dynamics 365 Finance:** **\@X**, dove **X** è l'ID etichetta nell' Application Object Tree (AOT)
 > - **Per le etichette che si trovano in configurazioni ER:** **@"GER_LABEL:X"**, dove **X** è l'ID etichetta nella configurazione ER
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

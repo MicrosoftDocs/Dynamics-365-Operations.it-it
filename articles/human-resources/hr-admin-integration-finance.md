@@ -1,0 +1,254 @@
+---
+title: Configurare l'integrazione con Finance
+description: Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3009515"
+---
+# <a name="configure-integration-with-finance"></a>Configurare l'integrazione con Finance
+
+Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance. Il modello di integrazione di Human Resources con Finance, disponibile con il [servizio di integrazione di dati](https://docs.microsoft.com/powerapps/administrator/data-integrator), abilita il flusso di dati per posizioni lavorative, posizioni e lavoratori. I dati passano da Human Resources a Finance. Il modello non consente il flusso di dati da Finance a Human Resources. 
+
+![Flusso di integrazione da Human Resources a Finance](./media/TalentFinOpsFlow.png)
+
+La soluzione di integrazione di Human Resources con Finance fornisce i seguenti tipi di sincronizzazione dei dati. 
+
+- Gestire posizioni lavorative in Human Resources e sincronizzarle da Human Resources a Finance.
+- Gestire posizioni e assegnazioni di posizioni in Human Resources e sincronizzarle da Human Resources a Finance.
+- Gestire impieghi in Human Resources e sincronizzarli da Human Resources a Finance.
+- Gestire lavoratori e indirizzi di lavoratori in Human Resources e sincronizzarli da Human Resources a Finance.
+
+## <a name="system-requirements-for-human-resources"></a>Requisiti di sistema per Human Resources
+La soluzione di integrazione richiede le seguenti versioni di Human Resources e Finance: 
+- Dynamics 365 Human Resources in Common Data Service.
+- Dynamics 365 Finance versione 7.2 e successive.
+
+## <a name="template-and-tasks"></a>Modello e attività
+
+Per accedere al modello, procedere come segue.
+1. Aprire l'[interfaccia di amministrazione di Power Apps](https://admin.powerapps.com/). 
+1. Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici. Un nuovo progetto dovrà essere creato per ogni persona giuridica che si desidera integrare in Finance.
+
+Il seguente modello viene utilizzato per sincronizzare i record da Human Resources a Finance.
+
+- **Nome del modello in Integrazione dati:** Human Resources (Human Resources Common Data Service a Finance)
+
+  > [!NOTE]
+  > Il nome dell'attività contiene le entità utilizzate in ogni applicazione. L'origine (Human Resources) è a sinistra e la destinazione ( Finance and Operations) è a destra.
+
+Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da Human Resources a Finance.
+- Funzioni lavorative a Funzione lavorativa retribuzione
+- Reparti a Unità operativa
+- Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione
+- Posizioni lavorative a Posizioni lavorative
+- Posizioni lavorative a Dettagli posizione lavorativa
+- Tipi di posizione a Tipo di posizione
+- Posizioni a Posizione di base
+- Posizioni a Dettagli posizione
+- Posizioni a Durate posizione
+- Posizioni a Gerarchie posizioni
+- Lavoratori a Lavoratore
+- Impieghi a Impiego
+- Impieghi a Dettaglio impiego
+- Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni
+- Indirizzi lavoratore a Indirizzo postale lavoratore V2
+
+## <a name="template-mappings"></a>Mapping del modello
+
+### <a name="job-functions-to-compensation-job-function"></a>Funzioni lavorative a Funzione lavorativa retribuzione
+
+| Entità di Common Data Service (origine)                 | Entità di Finance and Operations (destinazione) |
+|-------------------------------------|---------------------------------------------|
+| cdm_name (cdm_Job   Nome funzione)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
+| cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
+
+### <a name="departments-to-operating-unit"></a>Reparti a Unità operativa
+
+| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione) |
+|-----------------------------------------------|---------------------------------------------|
+| cdm_name (cdm_name)                           | NAME (NAME)                                 |
+| cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
+|                                               | OPERATINGUNITTYPE   (OPERATINGUNITTYPE)     |
+| cdm_description   (cdm_description)           | NAMEALIAS   (NAMEALIAS)                     |
+
+### <a name="job-types-to-compensation-job-type"></a>Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione
+
+| Entità di Common Data Service (origine)                   | Entità di Finance and Operations (destinazione) |
+|---------------------------------------|---------------------------------------------|
+| cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
+| cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
+| cdm_exemptstatus   (cdm_exemptstatus) | EXEMPTSTATUS   (EXEMPTSTATUS)               |
+
+### <a name="jobs-to-jobs"></a>Posizioni lavorative a Posizioni lavorative
+
+| Entità di Common Data Service (origine)                                           | Entità di Finance and Operations (destinazione)           |
+|---------------------------------------------------------------|-------------------------------------------------------|
+| cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
+| cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
+| cdm_allowedunlimitedpositions   (cdm_allowunlimitedpositions) | ALLOWUNLIMITEDPOSITIONS   (ALLOWUNLIMITEDPOSITIONS)   |
+| cdm_description   (cdm_description)                           | DESCRIPTION   (DESCRIPTION)                           |
+| cdm_jobdescription   (cdm_jobdescription)                     | JOBDESCRIPTION   (JOBDESCRIPTIONS)                    |
+
+### <a name="jobs-to-job-detail"></a>Posizioni lavorative a Dettagli posizione lavorativa
+
+| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione) |
+|-----------------------------------------------------------------|---------------------------------------------|
+| cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
+| cdm_jobtypeid.cdm_name   (Tipo di posizione lavorativa (Nome tipo di posizione lavorativa))             | JOBTYPEID   (JOBTYPEID)                     |
+| cdm_jobfunctionid.cdm_name   (Funzione lavorativa (Nome funzione lavorativa)) | FUNCTIONID   (FUCNTIONID)                   |
+| cdm_validfrom   (Data di inizio validità)                                    | VALIDFROM   (VALIDFROM)                     |
+| cdm_validto (Data di fine validità)                                        | VALIDTO (VALIDTO)                           |
+| cdm_defaultfulltimeequivalent   (Equivalente a tempo pieno predefinito)   | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)   |
+
+### <a name="position-types-to-position-type"></a>Tipi di posizione a Tipo di posizione
+
+| Entità di Common Data Service (origine)                       | Entità di Finance and Operations (destinazione) |
+|-------------------------------------------|---------------------------------------------|
+| cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
+| cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
+| cdm_classification   (cdm_classification) | CLASSIFICATION   (CLASSIFICATION)           |
+
+### <a name="job-positions-to-base-position"></a>Posizioni a Posizione di base
+
+| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione) |
+|-----------------------------------------------|---------------------------------------------|
+| cdm_jobpositionnumber   (Numero posizione) | POSITIONID (POSITIONID)                      |
+
+### <a name="job-positions-to-position-details"></a>Posizioni a Dettagli posizione
+
+| Entità di Common Data Service (origine)                                                      | Entità di Finance and Operations (destinazione)       |
+|--------------------------------------------------------------------------|---------------------------------------------------|
+| cdm_jobpositionnumber  (Numero posizione)                            | POSITIONID (POSITIONID)                             |
+| cdm_jobid.cdm_name   (Posizione lavorativa (Nome))                                        | JOBID (JOBID)                                    |
+| cdm_description   (cdm_description)                                        | DESCRIPTION   (DESCRIPTION)                       |
+| cdm_departmentid.cdm_departmentnumber   (Reparto (Numero reparto)) | DEPARTMENTNUMBER   (DEPARTMENTNUMBER)             |
+| cdm_positiontypeid.cdm_name   (Tipo di posizione (Nome))                     | POSITIONTYPEID   (POSITIONTYPEID)                 |
+| cdm_avaialableforassignment   (Disponibile per l'assegnazione)                 | AVAILABLEFORASSIGNMENT   (AVAILABLEFORASSIGNMENT) |
+| cdm_validfrom   (Data di inizio validità)                                            | VALIDFROM   (VALIDFROM)                           |
+| cdm_validto (Data di fine validità)                                                 | VALIDTO (VALIDTO)                               |
+| cdm_fulltimeequivalent   (Equivalente a tempo pieno)                           | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)         |
+
+### <a name="job-positions-to-position-durations"></a>Posizioni a Durate posizione
+
+| Entità di Common Data Service (origine)                             | Entità di Finance and Operations (destinazione) |
+|-------------------------------------------------|---------------------------------------------|
+| cdm_jobpositionnumber   (Numero posizione)   | POSITIONID (POSITIONID)                      |
+| Attivazione   calcolata (Attivazione calcolata) | VALIDFROM (VALIDFROM)                        |
+| Pensione   calcolata (Pensione calcolata) | VALIDTO (VALIDTO)                         |
+
+### <a name="job-positions-to-position-hiearchies"></a>Posizioni a Gerarchie posizioni
+
+| Entità di Common Data Service (origine)                                                                           | Entità di Finance and Operations (destinazione) |
+|-----------------------------------------------------------------------------------------------|---------------------------------------------|
+| cdm_jobpositionnumber   (Numero posizione)                                                 | POSITIONID(POSITIONID)                      |
+| cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
+| cdm_validfrom   (Data di inizio validità)                                                                  | VALIDFROM   (VALIDFROM)                     |
+| cdm_validto (Data di fine validità)                                                                      | VALIDTO (VALIDTO)                           |
+| HIERARCHYTYPENAME   (HIERARCHYTYPENAME)                                                       | HIERARCHYTYPENAME   (HIERARCHYTYPENAME)     |
+
+
+### <a name="workers-to-worker"></a>Lavoratori a Lavoratore
+| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione)       |
+|-----------------------------------------------|---------------------------------------------------|
+| cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
+| cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
+| cdm_primaryaddress   (cdm_primaryaddress)     | PRIMARYCONTACTEMAIL   (PRIMARYCONTACTEMAIL )      |
+| cdm_primarytelephone   (cdm_primarytelephone) | PRIMARYCONTACTPHONE   (PRIMARYCONTACTPHONE)       |
+| cdm_facebookidentity   (cdm_facebookidentity) | PRIMARYCONTACTFACEBOOK   (PRIMARYCONTACTFACEBOOK) |
+| cdm_twitteridentity   (cdm_twitteridentity)   | PRIMARYCONTACTTWITTER   (PRIMARYCONTACTTWITTER)   |
+| cdm_linkedinIdentity   (cdm_linkedinIdentity) | PRIMARYCONTACTLINKEDIN   (PRIMARYCONTACTLINKEDIN) |
+| cdm_websiteurl   (cdm_websiteurl)             | PRIMARYCONTACTURL   (PRIMARYCONTACTURL)           |
+| cdm_firstname   (cdm_firstname)               | FIRSTNAME   (FIRSTNAME)                           |
+| cdm_middlename   (cdm_middlename)             | MIDDLENAME   (MIDDLENAME)                         |
+| cdm_lastname   (cdm_lastname)                 | LASTNAME (LASTNAME)                               |
+| cdm_workernumber   (cdm_workernumber)         | PERSONNELNUMBER   (PERSONNELNUMBER)               |
+| cdm_type (cdm_type)                           | WORKERTYPE   (WORKERTYPE)                         |
+| cdm_state   (cdm_state)                       | WORKSTATUS   (WORKERSTATUS)                       |
+
+### <a name="employments-to-employment"></a>Impieghi a Impiego
+
+| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione) |
+|-----------------------------------------------------------------|---------------------------------------------|
+| cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
+| cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
+| cdm_workertype   (cdm_workertype)                               | WORKERTYPE   (WORKERTYPE)                   |
+| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)         |
+| cdm_companyid.cdm_companycode   (cdm_companyid.cdm_companycode) | LEGALENTITYID   (LEGALENTITYID)             |
+
+### <a name="employments-to-employment-detail"></a>Impieghi a Dettaglio impiego
+
+| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+|-----------------------------------------------------------------|-----------------------------------------------|
+| cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
+| cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
+| cdm_validfrom   (Data di inizio validità)                                    | VALIDFROM   (VALIDFROM)                       |
+| cdm_validto (Data di fine validità)                                        | VALIDTO (VALIDTO)                             |
+| cdm_workerstartdate   (cdm_workerstartdate)                     | WORKERSTARTDATE   (WORKERSTARTDATE)           |
+| cdm_lastdateworked   (cdm_lastdateworked)                       | LASTDATEWORKED   (LASTDATEWORKED)             |
+| cdm_transitiondate   (cdm_transitiondate)                       | TRANSITIONDATE   (TRANSITIONDATE)             |
+| cdm_employerunitofnotice   (cdm_employerunitofnotice)           | EMPLOYERUNITOFNOTICE   (EMPLOYERUNITOFNOTICE) |
+| cdm_workerunitofnotice   (cdm_workerunitofnotice)               | WORKERUNITOFNOTICE   (WORKERUNITOFNOTICE)     |
+| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
+| cdm_companyid.cdm_companycode   (cdm_companyid.cdm_companycode) | LEGALENTITYID   (LEGALENTITYID)               |
+| cdm_employernoticeamount   (cdm_employernoticeamount)           | EMPLOYERNOTICEAMOUNT   (EMPLOYERNOTICEAMOUNT) |
+| cdm_workernoticeamount   (cdm_workernoticeamount )              | WORKERNOTICEAMOUNT   (WORKERNOTICEAMOUNT)     |
+
+### <a name="position-worker-assignment-to-position-worker-assignments"></a>Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni
+
+| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+|-----------------------------------------------------------------|-----------------------------------------------|
+| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
+| cdm_jobpositionnumber   (Numero posizione)                   | POSITIONID(POSITIONID)                        |
+| cdm_validfrom   (Data di inizio validità)                                    | VALIDFROM   (VALIDFROM)                       |
+| cdm_validto (Data di fine validità)                                        | VALIDTO (VALIDTO)                             |
+
+### <a name="worker-addresses-to-worker-postal-address-v2"></a>Indirizzi lavoratore a Indirizzo postale lavoratore V2
+
+| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+|-----------------------------------------------------------------|-----------------------------------------------|
+| cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
+| cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
+| cdm_line1   (cdm_line1)                                         | ADDRESSSTREET   (ADDRESSSTREET)               |
+| cdm_city (cdm_city)                                             | ADDRESSCITY   (ADDRESSCITY)                   |
+| cdm_stateorprovince   (cdm_stateorprovince)                     | ADDRESSSTATE   (ADDRESSSTATE)                 |
+| cdm_postalcode   (cdm_postalcode)                               | ADDRESSZIPCODE(ADDRESSZIPCODE)                |
+| cdm_countryregion   (cdm_countryregion)                         | ADDRESSCOUNTRYREGION(ADDRESSCOUNTRYREGION)    |
+| cdm_addressnumber   (cdm_addressnumber)                         | ADDRESSLOCATIONID(ADDRESSLOCATIONID)          |
+| cdm_ispreferred   (cdm_ispreferred)                             | ISPRIMARY   (ISPRIMARY)                       |
+| cdm_county   (cdm_county)                                       | ADDRESSCOUNTYID(ADDRESSCOUNTYID)              |
+| cdm_addresstype   (cdm_addresstype)                             | ADDRESSDESCRIPTION(ADDRESSDESCRIPTION)        |
+
+## <a name="integration-considerations"></a>Considerazioni sull'integrazione
+Quando si integrano i dati da Human Resources a Finance, l'integrazione tenterà di abbinare i record in base all'ID. In caso di corrispondenza, i dati in Finance verranno sovrascritti con i valori in Human Resources. Tuttavia, può verificarsi un problema se logicamente si tratta di record differenti e lo stesso ID è stato generato in Human Resources o Finance in base alla rispettiva sequenza numerica.
+
+Le aree in cui ciò può accadere sono Lavoratore, che utilizza Numero dipendente per creare la corrispondenza e Posizioni. Le posizioni lavorative non utilizzano sequenze numeriche. Di conseguenza, se lo stesso ID posizione lavorativa è presente in Human Resources e Finance, le informazioni di Human Resources sovrascriveranno quelle di Dynamics 365 Finance. 
+
+Per evitare problemi con ID duplicati, è possibile aggiungere un prefisso nella [sequenza numerica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) oppure impostare un numero iniziale nella sequenza numerica che non rientra nell'intervallo dell'altro sistema. 
+
+L'ID ubicazione utilizzato per l'indirizzo del lavoratore non fa parte di una sequenza numerica. Quando si integra un indirizzo di lavoratore da Human Resources a Finance, se l'indirizzo esiste già in Finance, è possibile che venga creato un record di indirizzo duplicato. 
+
+Nelle figura seguenti viene illustrato un esempio di mapping di modello nel servizio di integrazione di dati. 
+
+![Mapping del modello](./media/IntegrationMapping.png)
+
+

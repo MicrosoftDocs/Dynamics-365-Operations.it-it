@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935467"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029364"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -59,7 +59,8 @@ Quando si utilizza l'app, molte delle selezioni dell'utente vengono archiviate, 
 
 Le personalizzazioni implicite sono personalizzazioni che vengono applicate semplicemente interagendo con i controlli che memorizzano il relativo stato visibile corrente.
 
-- **Colonne della griglia** - È possibile regolare la larghezza di una colonna in una griglia selezionando la barra di ridimensionamento a sinistra o a destra dell'intestazione di colonna e facendola scorrere verso sinistra o verso destra fino a raggiungere la larghezza desiderata. L'app memorizza la larghezza che si imposta per una colonna. Quindi, alla successiva apertura della pagina che include quella griglia, la colonna verrà ridimensionata a quella larghezza.
+- **Larghezza colonne griglia** - È possibile regolare la larghezza di una colonna in una griglia selezionando la barra di ridimensionamento a sinistra o a destra dell'intestazione di colonna e facendola scorrere verso sinistra o verso destra fino a raggiungere la larghezza desiderata. L'app memorizza la larghezza che si imposta per una colonna. Quindi, alla successiva apertura della pagina che include quella griglia, la colonna verrà ridimensionata a quella larghezza.
+- **Totali colonne griglia** - (Disponibile solo con il nuovo controllo griglia abilitato) È possibile decidere se visualizzare o meno un totale nella parte inferiore di qualsiasi colonna numerica in una griglia e se il piè di pagina della griglia è visibile. L'app memorizza questi dati in modo tale che queste preferenze vengano ricordate alla successiva apertura della pagina. Vedere l'argomento [Funzionalità di griglia](grid-capabilities.md) per ulteriori informazioni. 
 - **Schede dettaglio** - Alcune pagine hanno sezioni espandibili denominate *Schede dettaglio*. L'app memorizza le informazioni sulle Schede dettaglio che sono state espanse e compresse. Quindi, la volta successiva che si apre la pagina, le stesse Schede dettaglio saranno compresse o espanse, a seconda dell'ultima interazione con la pagina. In alcuni casi, comprimere una scheda dettaglio può migliorare le prestazioni del sistema poiché l'app non dovrà recuperare le informazioni relative alle Schede dettaglio finché non vengono espanse. Come descritto più avanti in questo argomento, è possibile modificare anche l'ordine delle Schede dettaglio in una pagina.
 - **Riquadri dettagli** – Alcune pagine includono un riquadro **Informazioni correlate** che mostra informazioni di sola lettura correlate all'argomento corrente della pagina. Ciascuna sezione del riquadro **Informazioni correlate** è chiamata *riquadro dettagli*. È possibile espandere o comprimere il riquadro **Informazioni correlate** ed è possibile espandere o comprimere i singoli riquadri dettagli. L'app memorizza queste preferenze. Quindi, la volta successiva che si apre la pagina, il riquadro **Informazioni correlate** e i singoli riquadri dettagli saranno espansi o compressi, in base all'ultima interazione con la pagina. In alcuni casi, comprimere un riquadro dettaglio può migliorare le prestazioni del sistema poiché l'app non dovrà recuperare le informazioni relative ai riquadri dettaglio finché non vengono espansi.
 - **Riquadri azioni** - Un *riquadro azioni* appare accanto alla parte superiore della maggior parte delle pagine. Il riquadro azioni contiene pulsanti per molte delle azioni che è possibile eseguire nella pagina corrente. Questi pulsanti sono spesso organizzati in schede. È possibile aggiungere l'intero riquadro azioni aperto oppure fare in modo che venga compresso per impostazione predefinita. Quindi, la volta successiva che si apre la pagina, il riquadro azioni saranno aperto o compresso, a seconda dell'ultima interazione con la pagina. Se è stato aggiunto il riquadro azioni aperto, verrà visualizzata l'ultima scheda utilizzata.
@@ -95,7 +96,7 @@ La finestra delle proprietà potrebbe includere altre funzionalità di personali
 
 Se si desidera apportare più modifiche a una pagina o apportare modifiche che non sono disponibili attraverso altri meccanismi (ad esempio se si desidera riordinare gli elementi), è possibile utilizzare la barra degli strumenti **Personalizzazione**. Per aprire la barra degli strumenti **Personalizzazione**, effettuare una delle seguenti operazioni:
 
-- Selezionare **Personalizza modulo** nella finestra di proprietà dell'elemento.
+- Selezionare **Personalizza questa pagina** nella finestra di proprietà dell'elemento.
 - Selezionare **Personalizza questa pagina** nel gruppo **Personalizza** della scheda **Opzioni** del riquadro azioni di qualsiasi pagina.
 - Selezionare il pulsante **Impostazioni** (il simbolo di ingranaggio) sulla barra di navigazione, quindi **Personalizza**.
 
@@ -116,7 +117,8 @@ Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti
 - Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona il pulsante **Ignora** sulla barra degli strumenti, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere o rimuovere i campi in modo interattivo nella sequenza della scheda.
 - Utilizzare lo strumento **Mostra su intestazione** quando si desidera che un campo venga visualizzato nella sezione di riepilogo della Scheda dettaglio. Quando si seleziona il pulsante **Mostra su intestazione** sulla barra degli strumenti, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
 - Utilizzare lo strumento **Blocca** per contrassegnare un elemento come modificabile o non modificabile. Quando si seleziona il pulsante **Blocca** sulla barra degli strumenti, tutti gli elementi correntemente non modificabili vengono visualizzati in un contenitore ombreggiato. È quindi possibile renderli nuovamente modificabili. Alcuni campi sono obbligatori e non possono essere resi non modificabili. Accanto a questi campi è presente un simbolo di lucchetto.
-- Utilizzare il pulsante **Aggiungi una PowerApp** per incorporare un'app creata con Microsoft PowerApps nella pagina. Per informazioni dettagliate su come incorporare un'app PowerApps in una pagina, vedere [Incorporare le app PowerApps](embed-power-apps.md).
+- Utilizzare il pulsante **Aggiungi un'app da Power Apps** per incorporare un'app creata con Microsoft Power Apps nella pagina. Per informazioni dettagliate su come incorporare un'app da Power Apps in una pagina, vedere [Incorporare le app da Power Apps](embed-power-apps.md). Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è disabilitata.  
+- Utilizzare il pulsante **Aggiungi un'app** per incorporare un'app creata in Microsoft Power Apps o da una terza parte nella pagina. Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è abilitata. 
 - Utilizzare lo strumento **Cancella** per reimpostare lo stato di installazione predefinito della pagina. Tutte le personalizzazioni della pagina corrente saranno cancellate. L'azione di annullamento non è disponibile. Di conseguenza, utilizzare questo strumento solo se si è certi di voler reimpostare la pagina.
 - Utilizzare lo strumento **Importa** per caricare una personalizzazione da un file precedentemente creato. Quando si importano le personalizzazione per una pagina, è possibile scegliere se devono essere aggiunte o sostituire tutte le personalizzazione esistenti della pagina. L'azione di annullamento non è disponibile. Di conseguenza, una volta importate le personalizzazione, è necessario cancellare manualmente o annullare tutte le modifiche non desiderate.
 - Utilizzare lo strumento **Esporta** per salvare le impostazioni per la pagina in un file. È possibile quindi condividere le personalizzazioni con altri utenti. Tali utenti devono semplicemente importare il file contenente le personalizzazioni per la pagina.
@@ -152,7 +154,7 @@ Il dashboard è spesso la prima pagina che si visualizza quando si apre l'app. �
 Per personalizzare il dashboard, fare clic con il pulsante destro del mouse su un qualsiasi riquadro e quindi selezionare **Personalizza** per aprire la finestra delle proprietà del riquadro.
 
 - Se si desidera nascondere o rinominare il riquadro selezionato, è possibile apportare la modifica direttamente nella finestra delle proprietà.
-- Per riordinare i riquadri dell'area di lavoro, nella finestra delle proprietà selezionare **Personalizza modulo** per aprire la barra degli strumenti **Personalizzazione**. È quindi possibile utilizzare lo strumento **Sposta** per riordinare i riquadri nel modo desiderato.
+- Per riordinare i riquadri dell'area di lavoro, nella finestra delle proprietà selezionare **Personalizza questa pagina** per aprire la barra degli strumenti **Personalizzazione**. È quindi possibile utilizzare lo strumento **Sposta** per riordinare i riquadri nel modo desiderato.
 - Per aggiungere un nuovo riquadro dell'area di lavoro, nella finestra delle proprietà selezionare **Aggiungi area di lavoro**. Il nuovo riquadro dell'area di lavoro viene creato nella parte inferiore del dashboard. È possibile rinominare questo nuovo riquadro dell'area di lavoro come si preferisce. È inoltre possibile aggiungere elenchi, riquadri e collegamenti nell'area di lavoro come descritto nella sezione [Aggiunta di elenchi, riquadri o collegamenti nelle aree di lavoro](#adding-a-tile-list-or-link-to-a-workspace) di questo argomento.
 
 ## <a name="administration-of-personalizations"></a>Amministrazione delle personalizzazioni

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812651"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006197"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Creare la documentazione o la formazione con Registrazione attività
 
@@ -32,7 +32,7 @@ ms.locfileid: "2812651"
 In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
 
 > [!IMPORTANT]
-> È possibile registrare le proprie guide attività per Dynamics 365 Talent ma non sarà possibile salvarle in una libreria del Modellatore di processi aziendali o aprirle dal riquadro della Guida in questo momento. È possibile salvarle in locale o in un percorso di rete, quindi aprirle e riprodurle utilizzando Registrazione attività. 
+> È possibile registrare le proprie guide attività per Dynamics 365 Human Resources ma non sarà possibile salvarle in una libreria del Modellatore di processi aziendali o aprirle dal riquadro della Guida in questo momento. È possibile salvarle in locale o in un percorso di rete, quindi aprirle e riprodurle utilizzando Registrazione attività. 
 
 <a name="learn-about-task-recorder"></a>Informazioni su Registrazione attività
 -------------------------

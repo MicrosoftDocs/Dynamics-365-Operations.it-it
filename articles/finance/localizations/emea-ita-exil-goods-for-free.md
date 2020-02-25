@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 709e429e05b987639b15a2c3650d5c14065a113f
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: 4d8f9901a33cecfa0617bcaaa92738c0f527971e
+ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945028"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "2982294"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento descrive come gestire le merci che sono state consegnate gratuitamente. La funzionalità disponibile tramite **Fattura fiscale per le merci consegnate gratuitamente** consente di generare fatture che includono le parole "Fattura gratuita". Il totale di queste fatture equivale solo all'importo delle imposte.
 

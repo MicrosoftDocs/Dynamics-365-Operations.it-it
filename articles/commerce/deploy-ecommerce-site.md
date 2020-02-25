@@ -3,7 +3,7 @@ title: Distribuire un nuovo tenant di e-Commerce
 description: In questo argomento viene descritto come distribuire un nuovo tenant di e-Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945515"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001785"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come distribuire un nuovo sito di e-Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 
 ## <a name="overview"></a>Panoramica
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) è un'area di lavoro collaborativa basata su cloud che i partner e i clienti possono utilizzare per gestire progetti e ambienti, visualizzare le informazioni più recenti su prodotti e funzionalità di Microsoft Dynamics nonché per creare, tenere traccia ed esaminare richieste di supporto. Le funzionalità di gestione di e-Commerce sono integrate in LCS.
 
 Per ulteriori informazioni su LCS, vedere [Manuale dell'utente di Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Dopo aver raccolto le informazioni necessarie, attenersi alla procedura seguente
 1. Nella pagina successiva, immettere le informazioni necessarie e inviare il modulo. Viene visualizzata di nuovo la scheda **e-Commerce**, che dovrebbe indicare l'avvio dell'inizializzazione.
 1. Per visualizzare lo stato dell'inizializzazione, selezionare **Aggiorna** o ritornare in seguito alla scheda **e-Commerce**.
     
-Quando e-Commerce viene inizializzato da LCs, il sistema esegue il provisioning di vari componenti necessari per e-Commerce e li associa all'ambiente. Al termine del provisioning, la scheda **e-Commerce** nella pagina **Gestione vendita al dettaglio** viene aggiornata in base al provisioning. Nella pagina sono indicate le distribuzioni di personalizzazioni più recenti e lo stato di qualsiasi altra distribuzione in corso. Include inoltre collegamenti al sito di e-Commerce e lo strumento di gestione del sito di e-Commerce (strumento di creazione).
+Quando e-Commerce viene inizializzato da LCs, il sistema esegue il provisioning di vari componenti necessari per e-Commerce e li associa all'ambiente. Al termine del provisioning, la scheda **e-Commerce** nella pagina **Gestione vendita al dettaglio** viene aggiornata in base al provisioning. Nella pagina sono indicate le distribuzioni di personalizzazioni più recenti e lo stato di qualsiasi altra distribuzione in corso. Include inoltre collegamenti al sito di e-Commerce e a Creazione di siti di e-Commerce dove i siti vengono creati.
 
-## <a name="access-the-authoring-environment"></a>Accedere all'ambiente di creazione
+## <a name="access-site-builder"></a>Accedere a Creazione di siti Web
 
-Per accedere all'ambiente di creazione, passare alla scheda **e-Commerce** nella pagina **Gestione vendita al dettaglio**. La scheda include i collegamenti al sito di e-Commerce e lo strumento di gestione del sito.
+Per accedere a Creazione di siti Web, selezionare la scheda **e-Commerce** nella pagina **Gestione vendita al dettaglio** in LCS e selezionare il collegamento **Strumento di gestione del sito e-Commerce**. La pagina di destinazione di Creazione di siti Web visualizza una vista a livello di tenant. In questa pagina è possibile:
+
+- Modificare le impostazioni a livello di tenant.
+- Accedere a qualsiasi sito creato e disporre dell'autorizzazione per visualizzare. 
+- Accedere alle funzionalità di verifica come Moderazione e Report.
+- Creare un nuovo sito. Per ulteriori informazioni su come creare un nuovo sito, vedere [Creare un sito di e-commerce](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

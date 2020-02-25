@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812388"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003681"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Panoramica delle organizzazioni e delle gerarchie organizzative
 
@@ -47,7 +47,7 @@ Una società è un tipo di persona giuridica. Attualmente, le società sono l'un
 
 Un'unità operativa è un'organizzazione utilizzata per dividere il controllo delle risorse economiche e dei processi operativi in un'azienda. Le persone in un'unità operativa hanno il compito di ottimizzare l'utilizzo delle risorse meno efficienti, di migliorare i processi e di rendere conto delle loro prestazioni.
 
-I tipi di unità operative includono centri di costo, business unit, flussi del valore, reparti e canali di vendita al dettaglio. Nella tabella riportata di seguito vengono fornite ulteriori informazioni su ciascun tipo di unità operativa.
+I tipi di unità operative includono centri di costo, business unit, flussi del valore, reparti e canali di commercio. Nella tabella riportata di seguito vengono fornite ulteriori informazioni su ciascun tipo di unità operativa.
 
 | Tipo di unità operativa | Descrizione | Scopo |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ I tipi di unità operative includono centri di costo, business unit, flussi del 
 | Business Unit       | Unità operativa semi-autonoma creata per conseguire gli obiettivi aziendali strategici. | Viene utilizzata per il reporting finanziario basato su settori o linee di prodotti che l'organizzazione serve indipendentemente dalle persone giuridiche. |
 | Flusso del valore        | Unità operativa che controlla uno o più flussi di produzione. | Viene usato solitamente nella produzione snella per controllare le attività e i flussi necessari per la fornitura di un prodotto o di un servizio ai clienti. |
 | Reparto          | Unità operativa che rappresenta una categoria o parte funzionale di un'organizzazione che svolge attività specifiche, ad esempio la vendita o la contabilità. | Serve per il reporting sulle aree funzionali. Un reparto può avere responsabilità di profitti e perdite e può comprendere un gruppo di centri di costo. |
-| Canale di vendita al dettaglio      | Un'unità operativa rappresenta un punto vendita fisico, un punto vendita online o un marketplace online. | Utilizzato per il controllo di gestione e operativo di uno o più punti vendita tra le persone giuridiche. |
+| Canale di Commerce      | Un'unità operativa rappresenta un punto vendita fisico, un punto vendita online o un marketplace online. | Utilizzato per il controllo di gestione e operativo di uno o più punti vendita tra le persone giuridiche. |
 
 ### <a name="teams"></a>Team
 

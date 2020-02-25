@@ -1,9 +1,9 @@
 ---
 title: Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885457"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027982"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ Questo elenco viene fornito per aiutare a tenere in considerazione queste rimozi
 </tr>
 <tr>
 <td><strong>Stato</strong></td>
-<td>Deprecato: il componente diagrammi di flusso in BPM dovrebbe essere rimosso all'inizio di febbraio 2020. Le seguenti funzionalità verranno rimosse:
+<td>Deprecato: il componente diagrammi di flusso in BPM dovrebbe essere rimosso nel 2020. Le seguenti funzionalità verranno rimosse:
 <ul>
 <li>I diagrammi di flusso esistenti non saranno disponibili per la visualizzazione o la modifica. Anche le proprietà della forma associate alle attività del diagramma di flusso non saranno disponibili, poiché l'intera scheda <strong>Diagramma di flusso</strong> verrà rimossa. Questi diagrammi di flusso includono sia diagrammi di flusso predefiniti che vengono generati automaticamente sia diagrammi di flusso personalizzati che vengono modificati in base a tali diagrammi di flusso predefiniti.</li>
 <li>La funzionalità di analisi degli scostamenti/adeguatezza non sarà disponibile. Pertanto, nessun elenco di scostamenti verrà automaticamente creato o sarà disponibile per l'esportazione.

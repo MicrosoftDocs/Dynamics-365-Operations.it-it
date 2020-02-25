@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914820"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002522"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -51,7 +51,7 @@ La pagina **Designer formula** può essere aperta quando si esegue una delle seg
 - Definizione delle condizioni per le convalide di controllo dei processi.
 - Definizione del testo del messaggio per le convalide di controllo dei processi.
 
-## <a name="Binding">Associazione dati</a>
+## <a name="Binding"></a>Associazione dati
 
 Il Designer formula ER può essere utilizzato per definire un'espressione che trasforma i dati ricevuti da origini dati, in modo che i dati possono essere inseriti nel consumer di dati nei seguenti modi in fase di runtime:
 
@@ -69,7 +69,7 @@ La figura seguente mostra come è possibile utilizzare un'espressione di questo 
 
 In fase di esecuzione, la formula progettata, `ROUND (Intrastat.AmountMST, 2)`, arrotonda a due posizioni decimali il valore del campo **AmountMST** per ogni record della tabella Intrastat. Quindi immette il valore arrotondato nel componente **Transaction.InvoicedAmount** del modello dati **Dichiarazione imposte**.
 
-## <a name="Transformation">Formattazione di dati</a>
+## <a name="Transformation"></a>Formattazione di dati
 
 Il Designer formula ER può essere utilizzato per definire un'espressione che formatta i dati ricevuti da origini dati, in modo che i dati possono essere inviati come parte del documento elettronico generato. Potrebbe essere presente una formattazione che deve essere applicata come regola standard da riutilizzare per un formato. In questo caso, è possibile introdurla una volta nella configurazione del formato come trasformazione denominata con espressione di formattazione. Successivamente questa trasformazione denominata può essere collegata a molti componenti di formato in cui l'output deve essere formattato in base all'espressione di formattazione creata.
 
@@ -87,7 +87,7 @@ Se una formattazione deve essere applicata singolarmente, può essere introdotta
 
 [![Applicazione della formattazione a un singolo componente](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Controllo del flusso del processo</a>
+## <a name="Validation"></a>Controllo del flusso del processo
 
 Designer formula ER può essere utilizzato per definire le espressioni che controllano il flusso del processo di generazione dei documenti elettronici. È possibile effettuare le attività seguenti:
 
@@ -112,7 +112,7 @@ Designer formula ER può essere utilizzato anche per generare un nome file per l
 
 [![Controllo del flusso del processo](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Controllo del contenuto dei documenti</a>
+## <a name="Enabled"></a>Controllo del contenuto dei documenti
 
 Il designer formula ER può essere utilizzato per configurare espressioni che determinano i dati che verranno inseriti nei documenti elettronici generati in fase di esecuzione. Le espressioni possono abilitare o disabilitare l'output di elementi specifici del formato, in base ai dati di elaborazione e alla logica configurata. Queste espressioni possono essere immesse per un singolo elemento di formato nel campo **Abilitato** della scheda **Mapping** della pagina **Designer operazioni**. È possibile inserire le espressioni come condizione logica che restituisce un valore *Booleano*:
 
@@ -139,7 +139,7 @@ La figura seguente mostra espressioni di questo tipo. (La versione 11.12.11 dell
 > 
 > In base a questa impostazione, il messaggio che viene generato per ogni pagamento debitore, l'elemento XML **Ustrd**, conterrà il testo delle note di pagamento o, quando questo testo è vuoto, l'elenco separato con virgole dei numeri di fattura utilizzati per liquidare il pagamento.
 
-## <a name="TestFormula">Convalida delle formule configurate</a>
+## <a name="TestFormula"></a>Convalida delle formule configurate
 
 Nella pagina **Designer formula**, selezionare **Test** per convalidare il funzionamento della formula configurata.
 

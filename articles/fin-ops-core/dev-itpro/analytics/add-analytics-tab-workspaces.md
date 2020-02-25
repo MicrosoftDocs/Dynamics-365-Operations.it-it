@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771635"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025856"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -111,7 +111,7 @@ Seguire questi passaggi per aggiungere la regola business che inizializza il con
 2. Premere F7 per accedere al codice che sta dietro la definizione del codice.
 3. Aggiungere il seguente codice X++.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ L'attività di aggiunta della regola business per inizializzare il controllo del
 In questa sezione vengono fornite informazioni sulla classe degli helper utilizzata per importare un report di Power BI (risorsa .pbix) in un controllo del gruppo di moduli.
 
 #### <a name="syntax"></a>Sintassi
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

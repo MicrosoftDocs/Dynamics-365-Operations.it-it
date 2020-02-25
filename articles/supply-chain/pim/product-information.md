@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570750"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003998"
 ---
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570750"
 
 Vengono fornite le informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali. 
 
-Le informazioni sul prodotto rappresentano la struttura di base della supply chain e delle applicazioni di vendita dettaglio per tutti i settori. Fa riferimento ai processi e alle tecnologie incentrati sulla gestione centralizzata delle informazioni sui prodotti (ad esempio, nelle supply chain). È essenziale che le definizioni dei prodotti, la documentazione, gli attributi e gli identificatori comuni vengano utilizzati. Nei vari moduli di una soluzione aziendali, le informazioni specifiche del prodotto e la configurazione sono necessarie per gestire i processi aziendali correlati a prodotti, famiglie di prodotti o categorie di prodotti specifici.
+Le informazioni sul prodotto rappresentano la struttura di base della supply chain e delle applicazioni di commercio per tutti i settori. Fa riferimento ai processi e alle tecnologie incentrati sulla gestione centralizzata delle informazioni sui prodotti (ad esempio, nelle supply chain). È essenziale che le definizioni dei prodotti, la documentazione, gli attributi e gli identificatori comuni vengano utilizzati. Nei vari moduli di una soluzione aziendali, le informazioni specifiche del prodotto e la configurazione sono necessarie per gestire i processi aziendali correlati a prodotti, famiglie di prodotti o categorie di prodotti specifici.
 
 ## <a name="product-definition"></a>Definizione di prodotto
 

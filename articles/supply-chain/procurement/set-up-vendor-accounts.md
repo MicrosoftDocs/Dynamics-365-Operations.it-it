@@ -3,7 +3,7 @@ title: Impostare conti fornitore
 description: In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249396"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012447"
 ---
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
@@ -88,7 +88,7 @@ Per impostare un conto fornitore, è inoltre essere necessario registrare gli ac
 -   **Fattura**: per questo fornitore non è possibile registrare fatture.
 -   **Tutto**: il fornitore è sospeso per tutti i tipi di transazione. Questi tipi di transazione includono richieste di acquisto, fatture e pagamenti.
 -   **Pagamento**: non è possibile generare pagamenti per il fornitore.
--   **Richiesta**: è possibile creare solo una richiesta di acquisto per volta. Non è possibile creare altre transazioni.
+-   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine di acquisto. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini di acquisto.
 -   **Mai**: il fornitore non viene mai messo in attesa per inattività.
 
 Quando si mette un fornitore in attesa, è possibile specificare un motivo e una data in cui lo stato di attesa verrà terminato. Se non si immette una data di fine, lo stato di attesa del fornitore avrà durata illimitata.

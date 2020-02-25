@@ -1,6 +1,6 @@
 ---
-title: L'utente può accedere a Core HR ma non a Onboard o Attract
-description: In questo argomento viene descritto come risolvere il problema in cui un utente può accedere a Microsoft Dynamics 365 Talent - Core HR ma non ad Attract o Onboard.
+title: L'utente può accedere a Human Resources ma non a Onboard o Attract
+description: In questo argomento viene descritto come risolvere il problema in cui un utente può accedere a Microsoft Dynamics 365 Talent - Human Resources ma non ad Attract o Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772921"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006312"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>L'utente può accedere a Core HR ma non a Onboard o Attract
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>L'utente può accedere a Human Resources ma non a Onboard o Attract
 
 [!include [banner](includes/banner.md)]
 
 **Dettagli ambiente**
 
 - La distribuzione di Microsoft Dynamics Lifecycle Services (LCS) è stata effettuata dall'utente A.
-- L'utente A ha aggiunto l'utente B come utente a Microsoft Dynamics 365 Talent: Core HR.
+- L'utente A ha aggiunto l'utente B come utente a Microsoft Dynamics 365 Human Resources.
 
 **Problema**
 
-L'utente B può accedere a Core HR, ma non può accedere all'app Talent: Attract o Talent: Onboard. Quando l'utente tenta di accedere a **App esperienza**, viene invece visualizzato un ambiente di test.
+L'utente B può accedere a Human Resources, ma non può accedere all'app Talent: Attract o Talent: Onboard. Quando l'utente tenta di accedere a **App esperienza**, viene invece visualizzato un ambiente di test.
 
 **Soluzione**
 
@@ -45,4 +45,4 @@ Per informazioni, vedere la sezione "Concedere l'accesso all'ambiente" in [Esegu
 
 **Soluzione a lungo termine**
 
-Microsoft sta considerando l'assegnazione automatica dei diritti appropriati a Onboard e Attract quando un utente viene aggiunto a Core HR.
+Microsoft sta considerando l'assegnazione automatica dei diritti appropriati a Onboard e Attract quando un utente viene aggiunto a Human Resources.

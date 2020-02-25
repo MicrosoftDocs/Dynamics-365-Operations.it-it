@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d314875287b0d69909c91450cd67c628d708cd3a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b1a094402f4ed81de2f9b10f3c40557bc103eb65
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174261"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005827"
 ---
 # <a name="compensation-power-bi-content"></a>Contenuto Power BI Retribuzione
 
@@ -32,8 +32,8 @@ Questo argomento descrive il contenuto **Retribuzione** di Microsoft Power BI. D
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto **Retribuzione** di Power BI viene visualizzato nell'area di lavoro **Gestione retribuzioni** se si utilizza uno dei seguenti prodotti:
 
-- App Finance and Operations
-- Microsoft Dynamics 365 Talent
+- App di Finance and Operations
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
 I report inclusi nel contenuto **Retribuzione** di Power BI dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.

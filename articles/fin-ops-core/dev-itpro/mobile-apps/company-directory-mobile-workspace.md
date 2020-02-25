@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a96955b72fcc5b0e2975f4bb1e619062be33e20
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 445a2872dcd0e4d3aca9a50c7539fdabb0ed7818
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248759"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005588"
 ---
 # <a name="company-directory-mobile-workspace"></a>Area di lavoro mobile della directory aziendale
 
@@ -52,12 +52,12 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tbody>
 <tr class="odd">
 <td>Uno dei seguenti prodotti deve essere distribuito nell'organizzazione:
-<ul><li>App Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<ul><li>Un'app Finance and Operations</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Amministratore di sistema</td>
-<td>Se l'app Finance and Operations non è stato ancora distribuito nell&#39;organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Talent non è stato ancora distribuito nell&#39;'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione nella pagina <a href="https://www.microsoft.com/dynamics365/talent">Web di Talent</a>.
+<td>Se l'app Finance and Operations non è stata ancora distribuito nell'organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Human Resources non è stata ancora distribuita nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione dalla <a href="https://dynamics.microsoft.com/human-resources/overview/">pagina Web di Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

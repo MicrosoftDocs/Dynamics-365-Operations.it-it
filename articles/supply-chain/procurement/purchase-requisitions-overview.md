@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815344"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003655"
 ---
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 
@@ -81,7 +81,7 @@ Lo stato generale della richiesta di acquisto viene determinato dallo stato dell
 <li><strong>In revisione</strong>: le righe della richiesta di acquisto sono state inviate in revisione. Quando il processo del flusso di lavoro è completo per una riga della richiesta di acquisto, questa resta nello stato <strong>In revisione</strong> finché non vengono riviste tutte le righe della richiesta di acquisto.</li>
 <li><strong>Rifiutata</strong>: una riga della richiesta di acquisto è stata rifiutata. Le righe della richiesta di acquisto rifiutate possono essere modificate e inviate nuovamente.</li>
 </ul>
-Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiutata, il processo di revisione ricomincia per tutte le righe della richiesta di acquisto ancora in revisione. <strong>Nota:</strong> è possibile richiamare una richiesta di acquisto che è già stata inviata. Quando si richiama una richiesta di acquisto, vengono richiamate anche tutte le altre righe della richiesta di acquisto. Le righe della richiesta di acquisto richiamate possono essere eliminate.</td>
+Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiutata, il processo di revisione ricomincia per tutte le righe della richiesta di acquisto ancora in revisione. </br><strong>Nota:</strong> è possibile richiamare una richiesta di acquisto che è già stata inviata. Quando si richiama una richiesta di acquisto, vengono richiamate anche tutte le altre righe della richiesta di acquisto. Le righe della richiesta di acquisto richiamate possono essere eliminate.</td>
 </tr>
 <tr class="odd">
 <td>Rifiutati</td>
@@ -109,7 +109,7 @@ Se si invia nuovamente una riga della richiesta di acquisto che è stata rifiuta
 <tr class="odd">
 <td>Annullato</td>
 <td>Annullato</td>
-<td>La richiesta di acquisto e tutte le righe della richiesta di acquisto sono state annullate. <strong>Note:</strong> se non è più richiesto un articolo indicato in una riga della richiesta di acquisto, è necessario annullare la riga della richiesta di acquisto se è già stata approvata. È possibile annullare solo le righe della richiesta di acquisto approvate. Se righe della richiesta di acquisto sono in revisione, anche la richiesta avrà lo stato <strong>In revisione</strong>. In questo caso, è possibile richiamare la richiesta di acquisto ed eliminare la riga della richiesta di acquisto appropriata.</td>
+<td>La richiesta di acquisto e tutte le righe della richiesta di acquisto sono state annullate.</br> <strong>Note:</strong> se non è più richiesto un articolo indicato in una riga della richiesta di acquisto, è necessario annullare la riga della richiesta di acquisto se è già stata approvata. È possibile annullare solo le righe della richiesta di acquisto approvate. Se righe della richiesta di acquisto sono in revisione, anche la richiesta avrà lo stato <strong>In revisione</strong>. In questo caso, è possibile richiamare la richiesta di acquisto ed eliminare la riga della richiesta di acquisto appropriata.</td>
 </tr>
 <tr class="even">
 <td>Chiuso</td>
@@ -156,7 +156,8 @@ In alcuni casi, è necessario avviare un processo di richiesta di offerta (RdO) 
 
 È possibile mettere una richiesta di acquisto in attesa selezionando la casella di controllo **In attesa** nella pagina **Dettagli richiesta di acquisto** . L'elaborazione della richiesta di acquisto può continuare solo dopo che si rimuove la sospensione deselezionando la casella di controllo.  
 
-**Nota:** in eProcurement, la richiesta di offerta per la richiesta di acquisto può consentire ai fornitori di aggiungere righe alternative. In questo caso le alternative approvate sono riflesse nella richiesta di acquisto.
+> [!NOTE]
+> In eProcurement, la richiesta di offerta per la richiesta di acquisto può consentire ai fornitori di aggiungere righe alternative. In questo caso le alternative approvate sono riflesse nella richiesta di acquisto.
 
 ## <a name="demand-consolidation"></a>Consolidamento domanda
 Consolidando le righe della richiesta di acquisto da più richieste di acquisto, è possibile aumentare la capacità di negoziazione con i fornitori per ottenere prezzi migliori, diminuire i costi di spedizione e di gestione e ridurre i costi generali.  
@@ -172,7 +173,8 @@ Un'opportunità di consolidamento è un set di righe della richiesta di acquisto
 
 Dopo avere aggiunto le righe della richiesta di acquisto a un'opportunità di consolidamento e avere apportato eventuali modifiche, è possibile creare un ordine fornitore per le righe della richiesta di acquisto consolidate.  
 
-**Nota:** Le modifiche apportate a una riga della richiesta di acquisto nella pagina **Consolidamento richiesta di acquisto** vengono riflesse nell'ordine fornitore creato. Nella richiesta di acquisto la riga tuttavia rimarrà invariata in modo da conservare lo storico.  
+> [!NOTE]
+> Le modifiche apportate a una riga della richiesta di acquisto nella pagina **Consolidamento richiesta di acquisto** vengono riflesse nell'ordine fornitore creato. Nella richiesta di acquisto la riga tuttavia rimarrà invariata in modo da conservare lo storico.  
 
 Per creare un ordine fornitore per le righe della richiesta di acquisto non idonee per il consolidamento della domanda o non selezionate per un'opportunità di consolidamento, è necessario elaborare le righe manualmente.
 

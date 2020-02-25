@@ -3,7 +3,7 @@ title: Utilizzare i frammenti
 description: In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914702"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026042"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
@@ -57,25 +57,34 @@ Nella figura seguente viene illustrato come è possibile utilizzare i frammenti 
 
 È possibile creare un nuovo frammento o salvare una configurazione di modulo esistente come frammento.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Salvare una configurazione di modulo esistente come frammento
+
+Per convertire un modulo configurato precedentemente in un frammento riutilizzabile, effettuare le seguenti operazioni.
+
+1. Aprire una pagina o un modello che contiene il modulo da convertire in frammento.
+1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del modulo. 
+1. Selezionare **Condividi come frammento**. 
+1. Viene visualizzata una finestra di dialogo. Immettere un nome e i metadati per il frammento.
+1. Selezionare **OK** per salvare la configurazione di modulo come frammento che è possibile aggiungere ad altre pagine.
+
+L'immagine seguente mostra come salvare una configurazione di modulo come frammento.
+
+![Schermata di come salvare una configurazione di modulo come frammento](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Creare un nuovo frammento
 
 Per creare un nuovo frammento, completare i passaggi seguenti.
 
 1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
 1. Selezionare **Nuovo frammento pagina**. Viene visualizzata una finestra di dialogo contenente tutti i tipi di modulo disponibili. Come indicato in precedenza, i frammenti possono essere creati da qualsiasi tipo di modulo.
-1. Selezionare un tipo di modulo per il frammento e quindi **OK**.
+1. Selezionare un tipo di modulo per il frammento.
 
-    > [!TIP]
-    > Se si seleziona un tipo di modulo contenitore generico, si avrà a disposizione la massima flessibilità quando si dovrà aggiornare e configurare il frammento in seguito.
+L'immagine seguente mostra dove creare un nuovo frammento.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Salvare una configurazione di modulo esistente come frammento
+![Una schermata di dove creare un nuovo frammento](./media/fragment-nav-menu.png)
 
-Per convertire un modulo configurato precedentemente in un frammento riutilizzabile, effettuare le seguenti operazioni.
-
-1. Aprire una pagina o un modello che contiene il modulo da convertire in frammento.
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del modulo e quindi selezionare **Salva come frammento**. Viene visualizzata una finestra di dialogo.
-1. Immettere un nome e i metadati per il frammento.
-1. Selezionare **OK** per salvare la configurazione di modulo come frammento che è possibile aggiungere ad altre pagine.
+> [!TIP]
+> Se si seleziona un tipo di modulo contenitore generico, si avrà a disposizione la massima flessibilità quando si dovrà aggiornare e configurare il frammento in seguito.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Aggiungere, rimuovere o modificare frammenti in una pagina
 
@@ -88,11 +97,15 @@ Per aggiungere un frammento a una pagina, effettuare le operazioni indicate di s
 1. Nella riquadro a sinistra, selezionare un contenitore o uno slot a cui è possibile aggiungere moduli figlio.
 1. Selezionare il pulsante con i puntini di sospensione al nome del contenitore o dello slot, quindi selezionare **Aggiungi frammento**. Viene visualizzata una finestra di dialogo.
 
+    ![Una schermata di come aggiungere un frammento esistente a uno slot o contenitore](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Se il contenitore o lo slot non supporta nuovi moduli figlio, l'opzione **Aggiungi frammento** non è disponibile.
-
+    
 1. Nella finestra di dialogo, cercare e selezionare un frammento da aggiungere. Se non sono elencati frammenti disponibili, è necessario dapprima creare un frammento da un tipo di modulo che lo slot o il contenitore supporta.
-1. Selezionare **OK** per aggiungere il frammento selezionato al contenitore o allo slot selezionato nella pagina.
+1. Selezionare il frammento desiderato per aggiungerlo al contenitore o allo slot nella pagina.
+
+    ![Schermata della finestra modale del selettore di frammenti](./media/fragment-picker.png)
 
 > [!NOTE]
 > I moduli consentiti in un contenitore o in uno slot sono definiti in base al modello della pagina o alle definizioni dei moduli.

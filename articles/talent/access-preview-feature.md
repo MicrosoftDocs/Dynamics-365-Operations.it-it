@@ -1,12 +1,12 @@
 ---
 title: Gestire le funzionalità
 description: Questo argomento descrive come un amministratore può attivare le funzionalità in anteprima in Microsoft Dynamics 365 Talent ed elenca le funzionalità attualmente attivate per l'anteprima.
-author: tracykeya
+author: andreabichsel
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,21 +15,21 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: trkeya
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: AX 7.1.0, Talent
+ms.openlocfilehash: d818e9e04ce88e5ab285ef8176334809447fb477
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833302"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006431"
 ---
 # <a name="manage-features"></a>Gestire le funzionalità
 
 [!include [banner](includes/banner.md)]
 
-Nell'ambito della continua implementazione di funzionalità di gestione risorse umane per Microsoft Dynamics 365 Talent, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Gli amministratori possono visualizzare e utilizzare le funzionalità in anteprima nei loro ambienti. Queste funzionalità sono quasi pronte per la disponibilità generale e sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
+Nell'ambito della continua implementazione di funzionalità di gestione risorse umane per Microsoft Dynamics 365 Human Resources, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Gli amministratori possono visualizzare e utilizzare le funzionalità in anteprima nei loro ambienti. Queste funzionalità sono quasi pronte per la disponibilità generale e sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
 Questo argomento descrive come è possibile attivare le funzionalità in anteprima ed elenca le funzionalità attualmente disponibili per l'anteprima. L'elenco sarà aggiornato a mano a mano che vengono rilasciate nuove funzionalità in anteprima e le versioni di disponibilità generale delle funzionalità. Il rilascio di nuove funzionalità in anteprima non viene notificato. Gli utenti scopriranno tali funzionalità durante l'utilizzo del prodotto. Per ulteriori informazioni sulle nuove funzionalità, vedere [Novità o modifiche in Dynamics 365 Talent](./whats-new.md) e [Note sulla versione di Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes).
 
@@ -54,50 +54,6 @@ Per accedere alle funzionalità in anteprima, è necessario dapprima attivarle n
 > [!NOTE]
 > Alcune funzionalità in anteprima potrebbero richiedere una configurazione aggiuntiva. Utilizzare i collegamenti accanto alla funzionalità in anteprima per completarne la configurazione.
 
-### <a name="core-hr"></a>Core HR
-
-1. Accedere a Talent.
-2. Selezionare **Amministrazione sistema** e quindi la scheda **Collegamenti**.
-3. Nella pagina **Amministrazione sistema**, in **Impostazione**, selezionare **Parametri di sistema**.
-4. Nella pagina **Parametri di sistema**, selezionare la scheda **Funzionalità in anteprima**.
-5. Impostare l'opzione **Abilitare la modalità in anteprima per tutti gli utenti** su **Sì** per rendere disponibili le funzionalità in anteprima.
-
-    ![Abilitare le funzionalità in anteprima in Core HR](./media/corehr-enable-preview-features.png)
-
-> [!NOTE]
-> Per disattivare le funzionalità in anteprima, utilizzare la stessa procedura, ma impostare **Abilitare la modalità in anteprima per tutti gli utenti** su **No**. Quando si disattivano le funzionalità in anteprima, diventano inaccessibili agli utenti e potrebbero verificarsi degli errori nei processi associati alle funzionalità.
-
-### <a name="onboard"></a>Inserisci
-
-Non sono disponibili funzionalità in anteprima per Microsoft Dynamics 365 Talent: Onboard.
-
-## <a name="features-that-are-currently-in-preview"></a>Funzionalità attualmente in anteprima
-
-### <a name="attract"></a>Attract
-
-- [Suggerimento candidato](./intelligent-recommendations.md#candidate-recommendations) - Se sono disponibili più di dieci candidati con curriculum o profili completi, i candidati che soddisfano maggiormente i requisiti di una posizione vengono visualizzati nella sezione **Candidati da considerare** della pagina di quella posizione.
-- [Suggerimento posizione](./intelligent-recommendations.md#job-recommendations) - Se più di dieci posizioni vengono pubblicate sul sito di avanzamento professionale, Attract fornisce suggerimenti sulle posizioni ai prospect.
-- [Integrazione di Broadbean](./posting-jobs-external.md#post-jobs-to-broadbean) - È possibile pubblicare annunci di lavoro da Attract a Broadbean, un sito di pubblicazione di annunci di lavoro esterno. Dopo l'attivazione di questa funzionalità in anteprima, è necessario completare l'impostazione immettendo il nome utente, l'ID client e il token di crittografia Broadbean.
-- [Analisi](./analytic-reports.md) - In Hub analisi, i team di assunzione possono visualizzare le metriche chiave per una singola posizione, nonché metriche aggregate per tutte le posizioni.
-- [Pari opportunità di impiego](./activities-attract.md) - Nuovi tipi di attività consentono l'utilizzo di un modulo predefinito per la raccolta dei dati per le pari opportunità di impiego e OFCCP (Office of Federal Contract Compliance Program) di un candidato. Il modulo predefinito non può essere modificato.
-- [Suggerimento prospect](./intelligent-recommendations.md#prospect-recommendations) - Attract esamina i candidati passati e quelli correnti per fornire un elenco di prospect appropriati per la posizione.
-- [Ricerca per pertinenza](./attract-talent-pools.md#search-and-view-candidate-profiles) - È possibile cercare competenze specifiche, nomi o percorsi formativi nell'intero database del candidato. Attract esegue la ricerca nell'intero profilo ed evidenzia tutte le corrispondenze trovate. Attract esegue la ricerca anche in tutti i documenti disponibili di un candidato e classifica i risultati della ricerca in modo intelligente.
-- [Destinatari delle attività](./whats-new-talent-march-20.md#setting-the-audience-on-activities)  – È possibile impostare i destinatari delle attività (ad esempio Colloquio, Programmazione o Feedback) su **Tutti i candidati**, **Candidati interni** o **Candidati esterni**. È possibile inviare attività ai clienti, ad esempio Microsoft Forms, video YouTube e contenuto Web, a tutti i candidati, solo ai candidati interni, solo ai candidati esterni o al team di assunzione.
-- [Domanda con LinkedIn](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles) - È possibile impostare un'opzione nel sito di avanzamento professionale di Attract per consentire ai candidati di fare domanda utilizzando LinkedIn. Questa funzionalità migliora il processo di candidatura consentendo ai candidati di utilizzare il relativo profilo LinkedIn per completare automaticamente le candidature sul sito di avanzamento professionale.
-- [Tracciabilità origine](./source-tracking.md) - Attract tiene traccia dell'origine delle domande di lavoro dei candidati per fornire informazioni utili che consentono di migliorare il processo di selezione. È inoltre possibile selezionare l'origine di una domanda di lavoro quando si aggiunge un candidato a una posizione o a un pool di talenti.
-- [Medaglia d'argento](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) Se dei candidati sono un'ottima soluzione per la posizione corrente nell'organizzazione, ma a questi non è stata fatta un'offerta, è possibile designarli come medaglie d'argento. Questa funzionalità consente di ridurre la durata del processo di assunzione quando sarà necessario coprire una posizione simile in futuro.
-
-### <a name="core-hr"></a>Core HR
-
-- [Convalidare i dati della gerarchia delle posizioni](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) - È possibile convalidare la gerarchia manageriale per tutti i riferimenti circolari che sono stati importati inavvertitamente.
-- [Specificare i codici motivo per i tipi di congedo](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) - È possibile specificare i codici motivo per i tipi di congedo.
-- [Richiedere codici motivo per richieste di permesso](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests) - Oltre alla definizione dei codici motivo per i tipi di congedo, è possibile richiedere codici motivo per le richieste di permesso.
-- [Fornire un elenco di transazioni assenze e congedo per le Risorse umane](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr) - È possibile visualizzare un elenco di transazioni assenze e congedi per fornire informazioni sui saldi permesso.
-
-### <a name="onboard"></a>Inserisci
-
-Non sono attualmente disponibili funzionalità in anteprima per Onboard.
-
 ## <a name="feedback"></a>Commenti e suggerimenti
 
 Vogliamo ricevere commenti degli utenti riguardo l'utilizzo di una o più di queste funzionalità in anteprima. Invitiamo gli utenti a pubblicare regolarmente i loro commenti relativi all'utilizzo di queste o altre funzionalità sui siti elencati di seguito:
@@ -106,7 +62,6 @@ Vogliamo ricevere commenti degli utenti riguardo l'utilizzo di una o più di que
 - Invitiamo gli utenti a indicare le funzionalità che vorrebbero fossero integrate nel prodotto o le modifiche che dovrebbero essere apportate alle funzionalità esistenti. È possibile suggerire idee sul prodotto su tali siti:
 
     - [Idee per Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [Idee per Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
     - [Idee per Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)
 
 Assicurarsi di non includere dati personali (qualsiasi informazione che possa consentire l'identificazione dell'utente) nel riscontro o nei commenti sul prodotto inviati. Le informazioni raccolte potrebbero essere analizzate ulteriormente e non vengono utilizzate per soddisfare richieste in base alle normative sulla privacy applicabili. I dati personali raccolti separatamente in questi programmi sono soggetti all'[Informativa sulla privacy di Microsoft](https://privacy.microsoft.com/privacystatement).

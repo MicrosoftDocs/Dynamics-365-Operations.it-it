@@ -3,7 +3,7 @@ title: Panoramica di Gestione documenti aziendali
 description: In questo argomento vengono fornite informazioni sull'utilizzo della funzionalità Gestione documenti aziendali del framework ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933910"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957369"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
 
@@ -122,7 +122,7 @@ Utilizzare la procedura seguente per abilitare la funzionalità Gestione documen
 4. Aggiorna la pagina per accedere alla nuova funzionalità.
 
 >[!NOTE]
-> È inoltre necessario abilitare l'**esperienza di interfaccia utente simile a Office per la gestione dei documenti aziendali** per utilizzare la nuova interfaccia di gestione dei documenti aziendali
+> Per ulteriori informazioni sull'uso della nuova interfaccia utente per documenti in Gestione documenti aziendali, vedere [Nuova interfaccia utente per documenti in Gestione documenti aziendali](er-business-document-management-new-template-ui.md).
 
 ![Area di lavoro Gestione funzionalità](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Per informazioni su come impostare i parametri di gestione dei documenti e i tip
 
 ![Impostare il tipo di documento in Gestione documenti](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Impostare i parametri
+### <a name="SetupBdmParameters">Impostare i parametri</a>
 
 I parametri di base di Gestione documenti aziendali possono essere impostati nella pagina **Parametri di documenti aziendali**. Solo determinati utenti possono accedere alla pagina, ovvero:
 
@@ -166,6 +166,9 @@ Utilizzare la seguente procedura per impostare i parametri di base per tutte le 
 ![Impostazione dei parametri di Gestione documenti aziendali](./media/BDM-Overview-BDMSetting.png)
 
 Il tipo di documento selezionato è specifico alla società e verrà utilizzato quando l'utente utilizza Gestione documenti aziendali nella società per la quale il tipo di documento selezionato è configurato. Quando l'utente utilizza Gestione documenti aziendali in un'altra società, lo stesso tipo di documento selezionato sarà utilizzato se un tipo non è stato configurato per tale società. Dopo che un tipo di documento è stato configurato, verrà utilizzato al posto di quello selezionato nel campo **Tipo di documento SharePoint**.
+
+> [!NOTE]
+> Il parametro **Tipo di documento SharePoint** definisce una cartella SharePoint come memoria temporanea per modelli modificabili utilizzando Microsoft Excel o Word. È necessario impostare questo parametro se si prevede di utilizzare applicazioni desktop di Office per la modifica dei modelli. Per ulteriori informazioni, vedere [Modificare un modello nell'applicazione desktop di Office](#EditInOfficeDesktopApp). È possibile mantenere vuoto questo parametro se si prevede di modificare il modello utilizzando solo la funzionalità in Office 365. Per ulteriori informazioni, vedere [Modificare un modello in Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurare le autorizzazioni di accesso
 
@@ -258,23 +261,18 @@ L'opzione **Modifica modello** è disponibile per il modello selezionato. Questa
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Iniziare la modifica di modelli di proprietà di altri provider
 
-1. Nell'area di lavoro di gestione dei documenti aziendali, selezionare **Nuovo documento**.
+1. Nell'area di lavoro Gestione documenti aziendali, selezionare il documento che si desidera utilizzare come modello.
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template1.png)
+![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Selezionare il documento che si desidera utilizzare come modello.
+3. Selezionare **Nuovo documento** e nel campo **Titolo**, modificare il titolo del modello modificabile se necessario. Il testo verrà utilizzato per assegnare un nome alla configurazione in formato ER creata automaticamente. Da notare che la versione bozza di questa configurazione (**Copia di Customer FTI report (GER)**) che conterrà il modello modificata verrà automaticamente contrassegnata per eseguire questo formato ER per l'utente corrente. Contemporaneamente, il modello originale della configurazione in formato ER di base sara utilizzato per eseguire questo formato ER per qualsiasi altro utente.
+4. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
+5. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
+6. Selezionare **OK** per confermare l'avvio del processo di modifica
 
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template2.png)
+![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Fare clic su **Crea documento**
-4. Nel campo **Titolo**, modificare il titolo del modello modificabile se necessario. Il testo verrà utilizzato per assegnare un nome alla configurazione in formato ER creata automaticamente. Da notare che la versione bozza di questa configurazione (**Copia di Customer FTI report (GER)**) che conterrà il modello modificata verrà automaticamente contrassegnata per eseguire questo formato ER per l'utente corrente. Contemporaneamente, il modello originale della configurazione in formato ER di base sara utilizzato per eseguire questo formato ER per qualsiasi altro utente.
-5. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
-6. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
-7. Selezionare **OK** per confermare l'avvio del processo di modifica
-
-![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template3.png)
-
-L'opzione **Nuovo documento** è sempre disponibile per un modello in una configurazione in formato ER fornito da un altro provider (Microsoft in questo esempio). Quando si fa clic su **Nuovo documento** vengono visualizzati tutti i modelli di proprietà del provider corrente e di altri provider. Dopo averlo selezionato, il modello viene aperto per la modifica. Il modello modificato verrà archiviato in una nuova configurazione in formato ER generato automaticamente.
+L'opzione **Nuovo documento** è sempre disponibile per un modello in una configurazione in formato ER fornito da un altro provider (Microsoft in questo esempio) che non dispone di alcuna revisione. Il modello modificato verrà archiviato in una nuova configurazione in formato ER generato automaticamente.
 
 ### <a name="start-editing-a-template"></a>Iniziare a modificare un modello
 
@@ -282,7 +280,7 @@ L'opzione **Nuovo documento** è sempre disponibile per un modello in una config
 2. Nel campo **Nome**, modificare il nome della prima revisione del modello modificabile che verrà creato automaticamente.
 3. Nel campo **Commento**, modificare il commento per la revisione del modello modificabile creata automaticamente.
 
-    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM_overview_new_template4.png)
+    ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Selezionare **OK** per confermare l'avvio del processo di modifica.
 
@@ -290,13 +288,16 @@ Viene visualizzata la pagina **Editor di modelli BDM**. Il modello selezionato s
 
 ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Modificare un modello in Office 365
+### <a name="EditInOffice365">Modificare un modello in Office 365</a>
 
-Modificare il modello utilizzando la funzionalità di Office 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente per il modello modificabile che si trova nell'archiviazone del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure) configurata per il framework ER.
+È possibile modificare il modello utilizzando Office 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente nel modello modificabile che si trova nell'archiviazone del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure). Questa è configurata per il framework ER.
 
 ![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Modificare un modello nell'applicazione desktop di Office
+### <a name="EditInOfficeDesktopApp">Modificare un modello nell'applicazione desktop di Office</a>
+
+> [!NOTE]
+> Questa funzione è disponibile solo quando il parametro **Tipo di documento SharePoint** è configurato correttamente. Per ulteriori informazioni, vedere [Configurare parametri](#SetupBdmParameters).
 
 1. Selezionare **Apri nell'app desktop** per modificare il modello utilizzando la funzionalità dell'applicazione desktop di Office (Excel in questo esempio). Il modello modificabile viene copiato dall'archiviazione permanente a quella temporanea configurata nei parametri di Gestione documenti aziendali come cartella SharePoint.
 2. Confermare che si desidera aprire il modello dall'archiviazione di file temporanea nell'applicazione Excel desktop di Office.
@@ -411,3 +412,4 @@ Molto probabilmente è stato eseguito l'accesso all'istanza corrente dell'app de
 [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md)
 
 [Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

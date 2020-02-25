@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943265"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025950"
 ---
 # <a name="product-collection-modules"></a>Moduli Raccolta prodotti
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
@@ -39,7 +39,7 @@ I moduli Raccolta prodotti rappresentano servizi e prodotti fisici nel sito Web.
 
 Le origini delle raccolte di prodotti possono essere elenchi dei seguenti tre tipi:
 
-- Elenchi editoriali di prodotti che sono definiti manualmente in Dynamics 365 Retail come prodotti correlati per un prodotto o elenchi di prodotti
+- Elenchi editoriali di prodotti che sono definiti manualmente in Dynamics 365 Commerce come prodotti correlati per un prodotto o elenchi di prodotti
 - Elenchi algoritmici, ad esempio elenchi di prodotti nuovi, più venduti o di tendenza
 - Elenchi di suggerimenti basati sul machine learning
 - Elenchi di personalizzazione che supportano risultati personalizzati per un cliente. I clienti devono aver effettuato l'accesso al sito di e-Commerce per visualizzare risultati personalizzati. Gli utenti guest non visualizzano i risultati personalizzati. I clienti possono rifiutare esplicitamente la personalizzazione dalla [pagina di gestione account](account-management.md).
@@ -57,9 +57,10 @@ Nella tabella seguente vengono descritti i vari tipi di moduli Raccolta prodotti
 
 | Modulo Raccolta prodotti  | Tipo | Descrizione |
 |----------------------------|------|-------------|
-| Categoria                   | Categoria | Questo modulo mostra un elenco di prodotti in una categoria, come definito dalla gerarchia di categorie di navigazione creata dal rivenditore per un canale di vendita al dettaglio. |
-| Prodotti correlati           | Editoriale | Questo presenta un elenco di prodotti che un responsabile merchandising ha configurato come prodotti correlati in Retail, per il tipo di relazione selezionato dall'autore. |
-| Elenchi di prodotti curati      | Editoriale | Questo modulo mostra elenchi personalizzati che i merchandiser e gli editori hanno creato in Retail. |
+| Categoria                   | Categoria | Questo modulo mostra un elenco di prodotti in una categoria, come definito dalla gerarchia di categorie di navigazione creata dal rivenditore per un canale. |
+| Prodotti correlati           | Editoriale | Questo presenta un elenco di prodotti che un responsabile merchandising ha configurato come prodotti correlati in Commerce, per il tipo di relazione selezionato dall'autore. |
+| Risultati della ricerca             | Query di ricerca | Questo tipo di modulo Raccolta prodotti presenta un elenco di prodotti che meglio corrispondono alla query di ricerca immessa dal cliente. |
+| Elenchi di prodotti curati      | Editoriale | Questo modulo mostra elenchi personalizzati che i merchandiser e gli editori hanno creato in Commerce. |
 | Nuove                        | Algoritmico | Questo modulo mostra un elenco dei prodotti più recenti che sono stati assortiti in canali e cataloghi. Questo elenco può mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione. |
 | Più venduti               | Algoritmico | Questo modulo mostra un elenco di prodotti classificati in base al più alto numero di vendite. Questo elenco può mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione. |
 | Di tendenza                   | Algoritmico | Questo modulo mostra un elenco dei prodotti di maggior successo in un determinato periodo. Questo elenco può mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione. |
@@ -76,7 +77,6 @@ Per aggiungere un modulo Raccolta prodotti a una pagina categoria, procedere com
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Contenitore** e quindi **OK**.
 1. Nel modulo contenitore, selezionare il pulsante con i puntini di sospensione e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Raccolta prodotti** e quindi **OK**.  
-![Esempio di flusso della procedura guidata del modulo di raccolta prodotti](./media/productCollectionModule.png)
 1. Configurare le impostazioni selezionando un'origine dati appropriata e gli input per la raccolta di prodotti.
 1. Nel riquadro delle proprietà del modulo Raccolta prodotti, selezionare **Aggiungi un elenco di prodotti**.
 1. Nella finestra di dialogo **Seleziona configurazione elenco di prodotti**, selezionare il tipo di elenco, immettere il numero di articoli e selezionare qualsiasi altra opzione disponibile per il tipo di elenco. Per ulteriori informazioni sui tipi di elenchi, vedere la tabella seguente. 
@@ -88,8 +88,8 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 | Tipo                       | Descrizione | Uso | Contesto della pagina | Contesto specifico | Personalizzazione |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Prodotti per categoria       | Un elenco di prodotti appartenenti a una specifica categoria. Questa categoria viene determinata dal contesto della pagina o dal contesto fornito dell'autore. | Questo tipo di elenco può essere utilizzato su qualsiasi pagina (ad esempio, una home page, una pagina di categoria, una pagina di marketing o una pagina dei dettagli del prodotto \[PDP \]) per promuovere una specifica categoria di prodotti. | Categoria dal contesto della pagina, ove disponibile (ad esempio, una pagina di categoria) | L'autore può fornire una categoria specifica come contesto per l'elenco. | Non applicabile |
-| Prodotti correlati           | Un elenco di prodotti che un responsabile merchandising ha configurato come prodotti correlati in Retail per il tipo di relazione. | Questo tipo di elenco viene utilizzato principalmente sui PDP, ma può essere utilizzato su qualsiasi pagina se viene fornito un prodotto principale. | Prodotto dalla pagina, tipo di relazione (obbligatorio) | Il prodotto può essere selezionato nel selettore e viene utilizzato il tipo di relazione. | Non applicabile |
-| Curato                    | Un elenco personalizzato che i merchandiser e gli editori hanno creato in Retail. | Migliorare la pagina categoria, l'home page, le pagine carrello e checkout e le pagine prodotto | Non applicabile | Non applicabile | Non applicabile |
+| Prodotti correlati           | Un elenco di prodotti che un responsabile merchandising ha configurato come prodotti correlati in Commerce per il tipo di relazione. | Questo tipo di elenco viene utilizzato principalmente sui PDP, ma può essere utilizzato su qualsiasi pagina se viene fornito un prodotto principale. | Prodotto dalla pagina, tipo di relazione (obbligatorio) | Il prodotto può essere selezionato nel selettore e viene utilizzato il tipo di relazione. | Non applicabile |
+| Curato                    | Un elenco personalizzato che i merchandiser e gli editori hanno creato in Commerce. | Migliorare la pagina categoria, l'home page, le pagine carrello e checkout e le pagine prodotto | Non applicabile | Non applicabile | Non applicabile |
 | Algoritmico                | <ul><li>**Novità** - Un elenco dei prodotti più recenti che sono stati assortiti in canali e cataloghi.</li><li>**Più venduti** - Un elenco di prodotti classificati in base al più alto numero di vendite.</li><li>**Di tendenza** - Un elenco dei prodotti di maggior successo in un determinato periodo.</li></ul> | Home page, miglioramento della pagina categoria e pagine checkout e carrello | Categoria dal contesto della pagina (ad esempio, una pagina di categoria) | La categoria determinata dall'autore del sito | Supportata |
 | Spesso acquistati insieme | Un elenco che utilizza il machine learning per analizzare i criteri di acquisto dei consumatori e suggerisce articoli correlati che vengono acquistati spesso insieme a un determinato prodotto. | Questo tipo di elenco è applicabile solo alla pagina del carrello. | Carrello | Non applicabile | Supportata |
 | Alle persone piace anche           | Un elenco che utilizza il machine learning per analizzare i criteri di acquisto dei consumatori e suggerisce articoli correlati a un determinato prodotto. | Questo tipo di elenco viene utilizzato sui PDP per mostrare i prodotti acquistati da altri clienti. | Contesto del prodotto dalla pagina | Il prodotto fornito dall'autore del sito | Supportata |
@@ -99,11 +99,9 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo sequenza](add-carousel.md)
+[Modulo Sequenza](add-carousel.md)
 
 [Modulo blocco contenuto formattato](add-content-rich-block.md)
-
-[Modulo posizionamento contenuti](add-content-placement-modules.md)
 
 [Modulo contenitore](add-container-module.md)
 
