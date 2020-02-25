@@ -1,0 +1,117 @@
+---
+title: Ricerca di scorte nel POS
+description: In questo argomento vengono descritte le opzioni disponibili per esaminare le informazioni sulle scorte nel POS.
+author: ashishmsft
+manager: AnnBe
+ms.date: 03/12/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2018-03-30
+ms.dyn365.ops.version: Application update 5, AX 8.0
+ms.openlocfilehash: 1d6133d80d7674a1d896bc19a743a6bd4d0fb40f
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3023084"
+---
+# <a name="inventory-lookup-in-the-point-of-sale-pos"></a><span data-ttu-id="44f5d-103">Ricerca di scorte nel POS</span><span class="sxs-lookup"><span data-stu-id="44f5d-103">Inventory lookup in the point of sale (POS)</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="44f5d-104">La ricerca di scorte nel POS aiuta i rivenditori a raggiungere l'eccellenza operativa in tempo reale e a ottenere informazioni dettagliate collegando punti vendita, POS e back office.</span><span class="sxs-lookup"><span data-stu-id="44f5d-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="44f5d-105">Questa funzionalità fornisce una visione accurata in tempo reale dell'inventario dei prodotti nei punti vendita e centri di distribuzione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="44f5d-106">Consente inoltre ai rivenditori a incrementare l'efficienza e ridurre i costi migliorando la pianificazione delle scorte in tempo reale.</span><span class="sxs-lookup"><span data-stu-id="44f5d-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
+
+<span data-ttu-id="44f5d-107">Un'accurata visualizzazione in tempo reale dell'inventario in un'organizzazione consente alle filiali di fornire un servizio clienti tempestivo e di qualità superiore.</span><span class="sxs-lookup"><span data-stu-id="44f5d-107">An accurate real-time view of inventory across an organization helps store associates provide timely, superior customer service.</span></span> <span data-ttu-id="44f5d-108">Il momento che conta di più è il momento in cui il cliente è pronto a prendere una decisione d'acquisto.</span><span class="sxs-lookup"><span data-stu-id="44f5d-108">The moment that matters most is the moment when the customer is ready to make a purchase decision.</span></span> <span data-ttu-id="44f5d-109">È importante che i cassieri del punto vendita abbiano a portata di mano informazioni sulle scorte in tempo reale, in modo che possano promettere in modo preciso la consegna e il ritiro dei prodotti.</span><span class="sxs-lookup"><span data-stu-id="44f5d-109">It's important that cashiers in the store have real-time inventory information at their fingertips, so that they can accurately promise product delivery and pickup.</span></span>
+
+<span data-ttu-id="44f5d-110">È possibile aprire la pagina **Ricerca in magazzino** dall'area di lavoro **Retail Modern POS** o dall'area di lavoro **Retail Cloud POS**.</span><span class="sxs-lookup"><span data-stu-id="44f5d-110">You can open the **Inventory lookup** page from the **Retail Modern POS** workspace or the **Retail Cloud POS** workspace.</span></span>
+
+![Riquadro Ricerca in magazzino nella home page del POS](media/POSHomepage.png)
+
+<span data-ttu-id="44f5d-112">Nella pagina **Ricerca in magazzino**, è possibile utilizzare la tastiera numerica per immettere un numero prodotto.</span><span class="sxs-lookup"><span data-stu-id="44f5d-112">On the **Inventory lookup** page, you can use the numeric keyboard to enter a product number.</span></span> <span data-ttu-id="44f5d-113">È quindi possibile visualizzare la quantità disponibile per più punti vendita e magazzini.</span><span class="sxs-lookup"><span data-stu-id="44f5d-113">You can then view the on-hand quantity for multiple stores and warehouses.</span></span>
+
+![Pagina standard di Ricerca in magazzino](media/InventoryLookUp.png)
+
+<span data-ttu-id="44f5d-115">Le quantità **Ordinato** e**Prenotato** vengono visualizzate per ogni ubicazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-115">**Reserved** and **Ordered** quantities are also shown for each location.</span></span>
+
+- <span data-ttu-id="44f5d-116">**Prenotato**: questa quantità si riferisce al valore **Fisico prenotato** dal back office per il numero di prodotto specificato nell'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-116">**Reserved** – This quantity refers to the **Physical reserved** value from the back office for the specified product number at the location.</span></span>
+- <span data-ttu-id="44f5d-117">**Ordinato**: questa quantità si riferisce al valore **Ordinato in totale** dal back office per il numero di prodotto specificato nell'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-117">**Ordered** – This quantity refers to the **Ordered in total** value from the back office for the specified product number at the location.</span></span>
+
+## <a name="locations-that-inventory-availability-information-is-shown-for"></a><span data-ttu-id="44f5d-118">Ubicazioni per cui vengono visualizzate le informazioni sulla disponibilità delle scorte</span><span class="sxs-lookup"><span data-stu-id="44f5d-118">Locations that inventory availability information is shown for</span></span>
+
+<span data-ttu-id="44f5d-119">L'elenco delle ubicazioni include due tipi di entità:</span><span class="sxs-lookup"><span data-stu-id="44f5d-119">The list of locations includes two types of entities:</span></span>
+
+- <span data-ttu-id="44f5d-120">**Punti vendita**: l'elenco mostra i punti vendita configurati utilizzando il gruppo di ricerca punto vendita per il punto vendita corrente in Headquarters.</span><span class="sxs-lookup"><span data-stu-id="44f5d-120">**Stores** – The list shows stores that are configured by using the store locator group for the current store in the Headquarters.</span></span>
+- <span data-ttu-id="44f5d-121">**Centri di distribuzione**: diversi tipi di centri di distribuzione (ad esempio magazzini) possono essere configurati in Commerce.</span><span class="sxs-lookup"><span data-stu-id="44f5d-121">**Distribution centers** – Various types of distribution centers (such as warehouses) can be configured in Commerce.</span></span> <span data-ttu-id="44f5d-122">Tuttavia, l'elenco mostra le informazioni sulla disponibilità delle scorte solo per i centri di distribuzione del tipo predefinito **Standard**.</span><span class="sxs-lookup"><span data-stu-id="44f5d-122">However, the list shows inventory availability information only for distribution centers of the **Standard** default type.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="44f5d-123">Le informazioni di magazzino non vengono visualizzate per i tipi di magazzino **Transito**, **Quarantena** e **Articoli in lavorazione** per il POS.</span><span class="sxs-lookup"><span data-stu-id="44f5d-123">Inventory availability information isn't shown for warehouses of the **Transit**, **Quarantine**, and **Goods in Route** types for the POS.</span></span>
+
+<span data-ttu-id="44f5d-124">Nella pagina **Ricerca in magazzino**, è possibile visualizzare le quantità available-to-promise (ATP) per ogni punto vendita, oltre alle quantità scorte disponibili correnti, alle quantità prenotate e alle quantità ordinate.</span><span class="sxs-lookup"><span data-stu-id="44f5d-124">On the **Inventory lookup** page, you can view available to promise (ATP) quantities for each store, in addition to the current on-hand quantities, reserved quantities, and ordered quantities.</span></span> <span data-ttu-id="44f5d-125">Selezionare il punto vendita per cui visualizzare le informazioni ATP e quindi selezionare **Mostra disponibilità punto vendita**.</span><span class="sxs-lookup"><span data-stu-id="44f5d-125">Select the store to view the ATP information for, and then select **Show store availability**.</span></span>
+
+![Quantità ATP](media/ATP.png)
+
+## <a name="opening-the-dimension-based-matrix-view-to-show-all-variants"></a><span data-ttu-id="44f5d-127">Apertura della visualizzazione matrice basata su dimensione per mostrare tutte le varianti</span><span class="sxs-lookup"><span data-stu-id="44f5d-127">Opening the Dimension based matrix view to show all variants</span></span>
+
+<span data-ttu-id="44f5d-128">Nella pagina **Dettagli prodotto** di una rappresentazione generale prodotto oppure nella pagina **Ricerca in magazzino** selezionare **Visualizza tutte le varianti** dalla barra delle applicazioni nella parte inferiore della pagina.</span><span class="sxs-lookup"><span data-stu-id="44f5d-128">On the **Product details** page of a product master, or on the **Inventory lookup** page, select **View all variants** from the app-bar at bottom of the page.</span></span> <span data-ttu-id="44f5d-129">La visualizzazione **Matrice basata su dimensione** per l'avvio iniziale da queste pagine mostra le informazioni sulla disponibilità delle scorte per tutte le varianti di un prodotto per il punto vendita corrente.</span><span class="sxs-lookup"><span data-stu-id="44f5d-129">The **Dimension based matrix** view for the initial launch from these pages shows the inventory availability information for all variants of a product for the current store.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="44f5d-130">Il pulsante **Visualizza tutte le varianti** è disponibile solo per le rappresentazioni generali prodotto di articoli con varianti prodotto.</span><span class="sxs-lookup"><span data-stu-id="44f5d-130">The **View all variants** button is available only for item product masters that have product variants.</span></span> <span data-ttu-id="44f5d-131">Non è disponibile per i prodotti autonomi o per i kit.</span><span class="sxs-lookup"><span data-stu-id="44f5d-131">It isn't available for standalone products or kits.</span></span>
+
+![Pulsante Visualizza tutte le varianti nella pagina di ricerca in magazzino](media/StandardToMatrix.png)
+
+<span data-ttu-id="44f5d-133">Selezionare **Visualizza tutte le varianti** nella pagina **Dettagli prodotto** di una rappresentazione generale prodotto oppure nella pagina **Ricerca in magazzino** senza selezionare un'ubicazione, passare alla visualizzazione **Matrice basata su dimensione** per visualizzare le informazioni sulla disponibilità delle scorte per tutte le varianti di un prodotto per il punto vendita corrente.</span><span class="sxs-lookup"><span data-stu-id="44f5d-133">Select **View all variants** on the **Product details** page of a product master, or on the **Inventory lookup** page, without selecting a location, to go to the **Dimension based matrix** view to view the inventory availability information for all variants of a product for the current store.</span></span>
+
+![Visualizzazione Matrice basata su dimensione per la pagina Ricerca in magazzino](media/Matrix.png)
+
+> [!NOTE]
+> <span data-ttu-id="44f5d-135">Nell'illustrazione precedente, l'ordine di visualizzazione delle dimensioni è alfabetico, poiché l'ordine di visualizzazione delle dimensioni non è stato configurato per il prodotto selezionato.</span><span class="sxs-lookup"><span data-stu-id="44f5d-135">In the preceding illustration, the display order of the dimensions is alphabetic, because the display order of dimensions wasn't configured for the selected product.</span></span>
+
+<span data-ttu-id="44f5d-136">Nella visualizzazione **Matrice basata su dimensione**, le celle per le varianti del prodotto includono un valore delle scorte disponibili nell'angolo in basso a destra.</span><span class="sxs-lookup"><span data-stu-id="44f5d-136">In the **Dimension based matrix** view, the cells for the product variants include an on-hand value in the lower-right corner.</span></span> <span data-ttu-id="44f5d-137">Nella tabella seguente viene illustrato il significato dei diversi valori.</span><span class="sxs-lookup"><span data-stu-id="44f5d-137">The following table explains the meaning of the various values.</span></span>
+
+| <span data-ttu-id="44f5d-138">Valore disponibilità</span><span class="sxs-lookup"><span data-stu-id="44f5d-138">On-hand value</span></span>                            | <span data-ttu-id="44f5d-139">descrizione</span><span class="sxs-lookup"><span data-stu-id="44f5d-139">Description</span></span> |
+|------------------------------------------|-------------|
+| <span data-ttu-id="44f5d-140">Valore numerico maggiore di 0 (zero)</span><span class="sxs-lookup"><span data-stu-id="44f5d-140">Numeric value that is more than 0 (zero)</span></span> | <span data-ttu-id="44f5d-141">Una variante è stata rilasciata nell'ubicazione selezionata ed è possibile eseguire ulteriori azioni nella cella.</span><span class="sxs-lookup"><span data-stu-id="44f5d-141">A variant has been released to the selected location, and you can perform additional actions in the cell.</span></span> <span data-ttu-id="44f5d-142">Queste azioni verranno descritte in modo più dettagliato nelle sezioni successive dell'argomento.</span><span class="sxs-lookup"><span data-stu-id="44f5d-142">(These actions are described in more detail later in this topic.)</span></span> |
+| <span data-ttu-id="44f5d-143">**0** (zero)</span><span class="sxs-lookup"><span data-stu-id="44f5d-143">**0** (zero)</span></span>                             | <span data-ttu-id="44f5d-144">Una variante è stata rilasciata nell'ubicazione selezionata, ma l'articolo non è disponibile nell'ubicazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="44f5d-144">A variant has been released to the selected location, but the item isn't available in selected location.</span></span> <span data-ttu-id="44f5d-145">Tuttavia, è possibile eseguire operazioni aggiuntive nella cella.</span><span class="sxs-lookup"><span data-stu-id="44f5d-145">However, you can perform additional actions in the cell.</span></span> <span data-ttu-id="44f5d-146">Queste azioni verranno descritte in modo più dettagliato nelle sezioni successive dell'argomento.</span><span class="sxs-lookup"><span data-stu-id="44f5d-146">(These actions are described in more detail later in this topic.)</span></span> |
+| <span data-ttu-id="44f5d-147">**n/a** o cella non attiva</span><span class="sxs-lookup"><span data-stu-id="44f5d-147">**n/a** or an inactive cell</span></span>              | <span data-ttu-id="44f5d-148">Una variante non è stata rilasciata nell'ubicazione selezionata e non è possibile eseguire ulteriori azioni nella cella.</span><span class="sxs-lookup"><span data-stu-id="44f5d-148">A variant hasn't been released to the selected location, and you can't perform additional actions in the cell.</span></span> |
+
+<span data-ttu-id="44f5d-149">È inoltre possibile modificare il pivot per le dimensioni selezionando la nuova dimensione da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="44f5d-149">You can also change the pivot for dimensions by selecting the new dimension to use.</span></span>
+
+![Cambiamento del pivot](media/ChangePivot.png)
+
+![Pivot modificato](media/PivotChanged.png)
+
+> [!NOTE]
+> <span data-ttu-id="44f5d-152">Nelle illustrazioni precedenti, l'ordine di visualizzazione delle dimensioni per il prodotto selezionato è personalizzato (non alfabetico).</span><span class="sxs-lookup"><span data-stu-id="44f5d-152">In the preceding illustrations, the display order of the dimensions for the selected product is custom (non-alphabetic).</span></span> <span data-ttu-id="44f5d-153">Si basa sull'ordine di visualizzazione delle dimensioni impostato nel back office.</span><span class="sxs-lookup"><span data-stu-id="44f5d-153">It's based on the dimension display order that is set in the back office.</span></span>
+
+<span data-ttu-id="44f5d-154">Inoltre, nella visualizzazione **Matrice basata su dimensione** è possibile eseguire più azioni per aumentare la produttività di una filiale del punto vendita.</span><span class="sxs-lookup"><span data-stu-id="44f5d-154">Additionally, in the **Dimension based matrix** view, more actions can be performed to help boost a store associate's productivity.</span></span> <span data-ttu-id="44f5d-155">Di seguito sono riportati alcuni esempi.</span><span class="sxs-lookup"><span data-stu-id="44f5d-155">Here are some examples:</span></span>
+
+- <span data-ttu-id="44f5d-156">Modificare l'ubicazione del punto vendita per eseguire una ricerca della disponibilità di scorte di tutte le varianti del prodotto in altre ubicazioni.</span><span class="sxs-lookup"><span data-stu-id="44f5d-156">Change the store location to look up the inventory availability of all product variants at other locations.</span></span> <span data-ttu-id="44f5d-157">Queste ubicazioni includono altri punti vendita nel gruppo di localizzatore punto vendita e nei centri di distribuzione del tipo predefinito **Standard**.</span><span class="sxs-lookup"><span data-stu-id="44f5d-157">These locations include other stores in the store locator group and distribution centers of the **Standard** default type.</span></span>
+- <span data-ttu-id="44f5d-158">Vendere una singola variante prodotto a un cliente utilizzando la modalità cash-and-carry, ritiro presso un punto vendita o spedizione a un indirizzo.</span><span class="sxs-lookup"><span data-stu-id="44f5d-158">Sell an individual product variant to a customer by using cash and carry, in-store pickup, or shipment to an address.</span></span>
+- <span data-ttu-id="44f5d-159">Fornire al cliente informazioni ATP per una singola variante prodotto in un'ubicazione specifica.</span><span class="sxs-lookup"><span data-stu-id="44f5d-159">Provide the customer with ATP information for an individual product variant at a specific location.</span></span>
+
+![Azioni aggiuntive per i riquadri delle variabili](media/VariantActions.png)
+
+> [!NOTE]
+> <span data-ttu-id="44f5d-161">Nell'illustrazione precedente, l'ordine di visualizzazione delle dimensioni è alfabetico, poiché l'ordine di visualizzazione delle dimensioni non è stato configurato per il prodotto selezionato.</span><span class="sxs-lookup"><span data-stu-id="44f5d-161">In the preceding illustration, the display order of the dimensions is alphabetic, because the display order of dimensions wasn't configured for the selected product.</span></span>
+
+<span data-ttu-id="44f5d-162">Nella tabella seguente vengono fornite ulteriori informazioni sulle azioni aggiuntive disponibili.</span><span class="sxs-lookup"><span data-stu-id="44f5d-162">The following table provides more information about the additional actions that are available.</span></span>
+
+| <span data-ttu-id="44f5d-163">Azione</span><span class="sxs-lookup"><span data-stu-id="44f5d-163">Action</span></span>               | <span data-ttu-id="44f5d-164">descrizione</span><span class="sxs-lookup"><span data-stu-id="44f5d-164">Description</span></span> |
+|----------------------|-------------|
+| <span data-ttu-id="44f5d-165">Vendi adesso</span><span class="sxs-lookup"><span data-stu-id="44f5d-165">Sell now</span></span>             | <span data-ttu-id="44f5d-166">Aggiunge la variante dell'articolo selezionata alla transazione e reindirizza l'utente alla schermata della transazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-166">Add the selected item variant to the transaction, and redirect the user to the transaction screen.</span></span> <span data-ttu-id="44f5d-167">Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-167">(This action isn't available when the selected location is a distribution center.)</span></span> |
+| <span data-ttu-id="44f5d-168">Preleva al punto vendita</span><span class="sxs-lookup"><span data-stu-id="44f5d-168">Pick up in store</span></span>     | <span data-ttu-id="44f5d-169">Crea un ordine cliente per la variante prodotto che verrà prelevata dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-169">Create a customer order for the product variant that will be picked up from the selected location, and redirect the user to the transaction screen.</span></span> <span data-ttu-id="44f5d-170">Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-170">(This action isn't available when the selected location is a distribution center.)</span></span> |
+| <span data-ttu-id="44f5d-171">Spedizione prodotto</span><span class="sxs-lookup"><span data-stu-id="44f5d-171">Ship product</span></span>         | <span data-ttu-id="44f5d-172">Crea un ordine cliente per la variante prodotto che verrà spedita dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione.</span><span class="sxs-lookup"><span data-stu-id="44f5d-172">Create a customer order for the product variant that will be shipped from the selected location, and redirect the user to the transaction screen.</span></span> |
+| <span data-ttu-id="44f5d-173">Disponibilità</span><span class="sxs-lookup"><span data-stu-id="44f5d-173">Availability</span></span>         | <span data-ttu-id="44f5d-174">Visualizza informazioni ATP per la combinazione di varianti selezionata per l'ubicazione selezionata.</span><span class="sxs-lookup"><span data-stu-id="44f5d-174">Show the ATP information for the selected variant combination for the selected location.</span></span> |
+| <span data-ttu-id="44f5d-175">Mostra tutte le ubicazioni</span><span class="sxs-lookup"><span data-stu-id="44f5d-175">Show all locations</span></span>   | <span data-ttu-id="44f5d-176">Passa alla visualizzazione della ricerca in magazzino standard ed evidenzia le informazioni sulla disponibilità delle scorte per la variante articolo in tutti i punti vendita nel gruppo di localizzatore punto vendita e anche nei centri di distribuzione di tipo **Standard/Predefinito**.</span><span class="sxs-lookup"><span data-stu-id="44f5d-176">Switch to the standard inventory lookup view, and highlight inventory availability information for the item variant across all stores in the store locator group, and also in distribution centers of the **Standard/Default** type.</span></span> |
+| <span data-ttu-id="44f5d-177">Visualizza dettagli prodotto</span><span class="sxs-lookup"><span data-stu-id="44f5d-177">View product details</span></span> | <span data-ttu-id="44f5d-178">Reindirizza l'utente alla pagina **Dettagli prodotto** della rappresentazione generale prodotto associata.</span><span class="sxs-lookup"><span data-stu-id="44f5d-178">Redirect the user to the **Product details** page of the associated product master.</span></span> |

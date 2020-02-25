@@ -1,0 +1,81 @@
+---
+title: Panoramica
+description: ''
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3009584"
+---
+# <a name="overview"></a><span data-ttu-id="effd6-102">Panoramica</span><span class="sxs-lookup"><span data-stu-id="effd6-102">Overview</span></span>
+
+<span data-ttu-id="effd6-103">Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori.</span><span class="sxs-lookup"><span data-stu-id="effd6-103">Dynamics 365 Human Resources helps you provide great leave benefits to your workers.</span></span> <span data-ttu-id="effd6-104">L'area di lavoro **Congedo e assenza** fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi.</span><span class="sxs-lookup"><span data-stu-id="effd6-104">The **Leave and absence** workspace provides a flexible framework for creating new leave plans, workflows for managing requests, and an intuitive self service page for employees to request time off.</span></span> <span data-ttu-id="effd6-105">Le funzionalità di analisi consentono all'organizzazione di misurare e monitorare i saldi di congedo e l'utilizzo per i piani di congedo.</span><span class="sxs-lookup"><span data-stu-id="effd6-105">Analytics help your organization measure and monitor leave balances and usage for your leave plans.</span></span>
+
+## <a name="set-up-leave-and-absence"></a><span data-ttu-id="effd6-106">Configurare Congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-106">Set up Leave and absence</span></span>
+
+<span data-ttu-id="effd6-107">Prima di poter creare piani di congedo per i dipendenti, è necessario eseguire alcuni passaggi:</span><span class="sxs-lookup"><span data-stu-id="effd6-107">Before you can create leave plans for your employees, you need to do a few setup steps:</span></span>
+
+- [<span data-ttu-id="effd6-108">Configurare i parametri di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-108">Configure leave and absence parameters</span></span>](hr-leave-and-absence-parameters.md)
+- [<span data-ttu-id="effd6-109">Creare un calendario orario di lavoro</span><span class="sxs-lookup"><span data-stu-id="effd6-109">Create a working time calendar</span></span>](hr-leave-and-absence-working-time-calendar.md)
+- [<span data-ttu-id="effd6-110">Creare un flusso di lavoro di richieste di congedo</span><span class="sxs-lookup"><span data-stu-id="effd6-110">Create a leave request workflow</span></span>](hr-leave-and-absence-workflow.md)
+
+## <a name="create-and-manage-leave-plans"></a><span data-ttu-id="effd6-111">Creare e gestire piani di congedo</span><span class="sxs-lookup"><span data-stu-id="effd6-111">Create and manage leave plans</span></span>
+
+<span data-ttu-id="effd6-112">Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di congedo e assenza.</span><span class="sxs-lookup"><span data-stu-id="effd6-112">Before creating leave plans for your workers, you need to create leave and absence types.</span></span> <span data-ttu-id="effd6-113">Dopo aver creato un piano di congedo, è possibile iscrivere i lavoratori al piano.</span><span class="sxs-lookup"><span data-stu-id="effd6-113">After you create a leave plan, you can then enroll workers into the plan.</span></span> <span data-ttu-id="effd6-114">È anche possibile eseguire il processo di accumulo, creare avvisi e visualizzare dati analitici per i piani.</span><span class="sxs-lookup"><span data-stu-id="effd6-114">You can also run the accrue process, create alerts, and view analytics for your plans.</span></span>
+
+- [<span data-ttu-id="effd6-115">Configurare tipi di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-115">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+- [<span data-ttu-id="effd6-116">Creare un piano di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-116">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+- [<span data-ttu-id="effd6-117">Assegnare lavoratori a un piano di congedo</span><span class="sxs-lookup"><span data-stu-id="effd6-117">Assign workers to a leave plan</span></span>](hr-leave-and-absence-enroll.md)
+- [<span data-ttu-id="effd6-118">Accumulare piani di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-118">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)
+- [<span data-ttu-id="effd6-119">Visualizzare analisi per congedi e assenze</span><span class="sxs-lookup"><span data-stu-id="effd6-119">View analytics for leave and absence</span></span>](hr-leave-and-absence-analytics.md)
+
+## <a name="request-time-off-and-manage-requests"></a><span data-ttu-id="effd6-120">Richiedere permessi e gestire le richieste</span><span class="sxs-lookup"><span data-stu-id="effd6-120">Request time off and manage requests</span></span>
+
+<span data-ttu-id="effd6-121">Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Dipendente self-service**.</span><span class="sxs-lookup"><span data-stu-id="effd6-121">Your employees can submit time off requests, and you can manage them, in the **Employee self service** workspace.</span></span>
+
+- [<span data-ttu-id="effd6-122">Richiedere permessi</span><span class="sxs-lookup"><span data-stu-id="effd6-122">Request time off</span></span>](hr-employee-self-service-request-time-off.md)
+- [<span data-ttu-id="effd6-123">Gestire richieste di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-123">Manage leave and absence requests</span></span>](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-preview-features"></a><span data-ttu-id="effd6-124">Funzionalità di anteprima di Congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="effd6-124">Leave and absence preview features</span></span>
+
+<span data-ttu-id="effd6-125">È possibile provare le nuove funzionalità di anteprima di Congedo e assenza in un ambiente **Sandbox**.</span><span class="sxs-lookup"><span data-stu-id="effd6-125">You can try out new Leave and absence preview features in a **Sandbox** environment.</span></span> <span data-ttu-id="effd6-126">Per informazioni su come attivare le funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="effd6-126">For informationa bout turning on preview features, see [Manage features](hr-admin-manage-features.md).</span></span> <span data-ttu-id="effd6-127">Le funzionalità di anteprima includono:</span><span class="sxs-lookup"><span data-stu-id="effd6-127">The preview features include:</span></span>
+
+- <span data-ttu-id="effd6-128">**Calendario congedo e assenza** - I parametri di Congedo e assenza verranno spostati da **Parametri Risorse umane** a una nuova schermata chiamata **Parametri di congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-128">**Leave and absence calendar** - Leave and absence parameters will move from **Human resources parameters** to a new screen called **Leave and absence parameters**.</span></span> <span data-ttu-id="effd6-129">La nuova schermata include una nuova scheda **Calendario**. Questa anteprima abilita solo un sottoinsieme dei parametri.</span><span class="sxs-lookup"><span data-stu-id="effd6-129">The new screen includes a new **Calendar** tab. This preview only enables a subset of the parameters.</span></span> <span data-ttu-id="effd6-130">È possibile accedere alla nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-130">You can access the new screen from the **Links** tab of the **Leave and absence** workspace.</span></span> <span data-ttu-id="effd6-131">I calendari includono:</span><span class="sxs-lookup"><span data-stu-id="effd6-131">The calendars include:</span></span>
+  - <span data-ttu-id="effd6-132">**Calendario aziendale** - Mostra tutte le richieste di permesso dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="effd6-132">**Company calendar** - shows all employee time-off requests.</span></span> <span data-ttu-id="effd6-133">Le persone con il ruolo **Risorse umane** possono accedere a questo calendario dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-133">People with the **Human resources** role can access this calendar from the **Links** tab of the **Leave and absence** workspace.</span></span>
+  - <span data-ttu-id="effd6-134">**Calendario team responsabile** - Mostra tutte le richieste di permesso dei diretti subalterni.</span><span class="sxs-lookup"><span data-stu-id="effd6-134">**Manager team calendar** - shows all direct reports' time-off requests.</span></span> <span data-ttu-id="effd6-135">I responsabili possono accedere al calendario dalla scheda **Team personale** in Dipendente self-service sotto **Congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-135">Managers can access the calendar from the **My team** tab in Employee self service under **Leave and absence**.</span></span> 
+
+- <span data-ttu-id="effd6-136">**Calendario festività congedo e assenza** - I tipi di congedo includono una nuova opzione **Giorni festivi**, utilizzata insieme al calendario orario di lavoro.</span><span class="sxs-lookup"><span data-stu-id="effd6-136">**Leave and absence holiday calendars** - Leave types include a new **Holiday** option, used in conjunction with the working time calendar.</span></span> <span data-ttu-id="effd6-137">I giorni definiti come festività e chiusure sono ora designati **Giorni festivi** quando vengono generati giorni lavorativi.</span><span class="sxs-lookup"><span data-stu-id="effd6-137">Days defined by holidays and closures are now designated as **Holiday** when working days are generated.</span></span> <span data-ttu-id="effd6-138">Quando vengono elaborati gli accumuli, vengono apportate correzioni ai dipendenti assegnati al calendario per tenere conto delle festività che cadono in un giorno lavorativo.</span><span class="sxs-lookup"><span data-stu-id="effd6-138">When accruals are processed, adjustments are made to employees assigned to the calendar to account for holidays falling on a working day.</span></span>
+
+- <span data-ttu-id="effd6-139">**Controllo accumuli congedi** - Una nuova schermata consente di verificare quando gli accumuli sono stati elaborati ed eliminati, da tutti i dipendenti e dai singoli dipendenti.</span><span class="sxs-lookup"><span data-stu-id="effd6-139">**Leave accrual auditing** - A new screen lets you review when accruals have been processed and deleted, both by all employees and individual employees.</span></span> <span data-ttu-id="effd6-140">È possibile accedere a questa nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-140">You can access this new screen from the **Links** tab of the **Leave and absence** workspace.</span></span>
+
+- <span data-ttu-id="effd6-141">**Eliminazione accumuli congedi** - Ora è possibile eliminare i record di accumuli per specifici piani di congedo.</span><span class="sxs-lookup"><span data-stu-id="effd6-141">**Leave accrual deletion** - You can now delete accrual records for specific leave plans.</span></span> <span data-ttu-id="effd6-142">È possibile accedere a questa nuova opzione dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="effd6-142">You can access this new option from the **Links** tab of the **Leave and absence** workspace.</span></span> <span data-ttu-id="effd6-143">Per i singoli dipendenti, questa opzione appare in **Congedo e assenza** nel profilo del dipendente.</span><span class="sxs-lookup"><span data-stu-id="effd6-143">For individual employees, this option appears in the **Leave and absence** grouping in the employee profile.</span></span> 
+
+- <span data-ttu-id="effd6-144">**Arrotondamento accumulo congedo** - Nuove opzioni di **Tipo di congedo** definiscono quale tipo di arrotondamento deve essere utilizzato per l'accumulo nonché la precisione decimale dell'arrotondamento durante il processo di accumulo.</span><span class="sxs-lookup"><span data-stu-id="effd6-144">**Leave accrual rounding** - New options for **Leave type** define what type of rounding accrual should use, plus the decimal precision of the rounding during the accrual process.</span></span> <span data-ttu-id="effd6-145">Quando gli accumuli vengono elaborati, l'arrotondamento e la precisione vengono applicati ai record degli accumuli.</span><span class="sxs-lookup"><span data-stu-id="effd6-145">When accruals are processed, the rounding and precision are applied to the accrual records.</span></span> 
+
+- <span data-ttu-id="effd6-146">**configurare più tipi di congedo per un singolo piano di congedo** - Una nuova colonna nella programmazione degli accumuli di congedi per i tipi di congedi consente di definire più tipi di congedi in un piano di congedo e assenza con diverse programmazioni degli accumuli.</span><span class="sxs-lookup"><span data-stu-id="effd6-146">**Configure multiple leave types on a single leave plan** - A new column in the leave accrual schedule for leave types lets you define multiple leave types on a leave and absence plan with different accrual schedules.</span></span> <span data-ttu-id="effd6-147">Il campo **Tipo di congedo** precedente è stato rimosso.</span><span class="sxs-lookup"><span data-stu-id="effd6-147">The previous **Leave type** field is removed.</span></span> <span data-ttu-id="effd6-148">Al momento dell'iscrizione dei dipendenti, i saldi per i tipi di congedo ora vengono visualizzati in una tabella anziché nella parte superiore dello schermo.</span><span class="sxs-lookup"><span data-stu-id="effd6-148">On the employee enrollment, the balances for the leave types now display in a table instead of at the top of the screen.</span></span>
+
+  > [!IMPORTANT]
+  > <span data-ttu-id="effd6-149">Dopo aver abilitato questa funzionalità, non è possibile disattivarla.</span><span class="sxs-lookup"><span data-stu-id="effd6-149">You can't turn this feature off after you enable it.</span></span>
+
+- <span data-ttu-id="effd6-150">**Utilizza equivalenza a tempo pieno di un dipendente** - Una nuova colonna nella programmazioni degli accumuli di congedi consente di utilizzare l'equivalenza a tempo pieno.</span><span class="sxs-lookup"><span data-stu-id="effd6-150">**Use an employee's full-time equivalency (FTE) for accrual** - a new column on the leave accrual schedule allows using FTE for accrual.</span></span> <span data-ttu-id="effd6-151">Quando gli accumuli vengono elaborati, l'applicazione utilizza la posizione primaria del dipendente e l'equivalenza a tempo pieno per determinare l'importo dell'accumulo ripartito proporzionalmente.</span><span class="sxs-lookup"><span data-stu-id="effd6-151">When accruals are processed, the application uses the employee’s primary position and the FTE defined to determine the prorated accrual amount.</span></span>
+
+  > [!NOTE]
+  > <span data-ttu-id="effd6-152">Questa funzionalità è disponibile solo se si abilita **Configura più tipi di congedo per un singolo piano di congedo**.</span><span class="sxs-lookup"><span data-stu-id="effd6-152">This feature is only available if you enable **Configure multiple leave types per leave plan**.</span></span> 
