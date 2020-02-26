@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 44e489659fa03b14b5835a959928d0725bc6cf49
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: 56bdb80612473b9fbbe8a76936860a6de33c3200
+ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945023"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "2982348"
 ---
 # <a name="separate-accounts-for-credit-notes"></a>Conti separati per note di credito
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In Italia, una società può definire i criteri contabili in modo che gli importi delle note di credito vengano registrati nei conti CoGe che differiscono dai conti ricavi. Questo approccio viene utilizzato per tenere traccia dell'importo emesso sulle note di credito.
 

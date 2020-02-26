@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658669"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017706"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -37,7 +37,7 @@ Con la personalizzazione tradizionale, gli utenti possono avere soltanto un sing
 
 -    Le visualizzazioni create per specifici tipi di pagina possono anche includere filtri o ordinamenti aggiunti dagli utenti, che consentono agli stessi di ritornare rapidamente a set di dati filtrati comunemente. Vedere la sezione [Quali pagine supportano le visualizzazioni](saved-views.md#what-pages-support-views) per ulteriori informazioni. 
 
--    Le visualizzazioni possono essere pubblicate per gli utenti con ruoli di sicurezza specifici e persone giuridiche specifiche. Pertanto, qualsiasi utente che ha un ruolo specifico in una determinata persona giuridica può accedere a tale visualizzazione e utilizzarla, anche se tale utente potrebbe non essere in grado di personalizzarla. Questa capacità di pubblicazione consente alle organizzazioni di definire visualizzazioni standard aziendali ottimizzate per le relative esigenze. Per ulteriori informazioni, vedere la sezione [Gestione delle personalizzazioni a livello organizzativo con visualizzazioni](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+-    Le visualizzazioni possono essere pubblicate per gli utenti con ruoli di sicurezza specifici e persone giuridiche specifiche. Pertanto, qualsiasi utente che ha un ruolo specifico e accesso a una determinata persona giuridica può accedere a tale visualizzazione e utilizzarla, anche se tale utente potrebbe non essere in grado di personalizzarla. Questa capacità di pubblicazione consente alle organizzazioni di definire visualizzazioni standard aziendali ottimizzate per le relative esigenze. Per ulteriori informazioni, vedere la sezione [Gestione delle personalizzazioni a livello organizzativo con visualizzazioni](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    Diversamente dalla personalizzazione tradizionale, le visualizzazioni non vengono salvate automaticamente quando un utente esegue personalizzazioni esplicite o filtra un elenco. Salvataggi espliciti sono necessari per fornire flessibilità nella creazione di una visualizzazione prima o dopo le modifiche associate a quella visualizzazione e per assicurarsi che le definizioni delle visualizzazioni non vengano modificate inavvertitamente da filtri o personalizzazioni non progettate per l'utilizzo a lungo termine.  
 
@@ -83,7 +83,7 @@ Per cambiare la visualizzazione predefinita di una pagina, seguire questi passag
 2.  Selezionare il nome della visualizzazione per aprire il selettore di visualizzazioni. 
 3.  Selezionare **Altro** e **Aggiungi come predefinita**.  
 
-In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Salva con nome** ), è possibile impostare quella nuova visualizzazione come visualizzazione predefinita impostando l'opzione **Aggiungi come predefinita** prima di salvare la visualizzazione.
+In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Salva con nome...**), è possibile impostare quella nuova visualizzazione come visualizzazione predefinita impostando l'opzione **Aggiungi come predefinita** prima di salvare la visualizzazione.
 
 In alcuni casi, la query associata alla visualizzazione predefinita non viene eseguita quando si accede per la prima volta a una pagina. Ad esempio, se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Inoltre, se si accede a una pagina dove la visualizzazione classica ha già una query definita, la query originale verrà eseguita al posto della query della visualizzazione predefinita. In questo caso, un messaggio informativo verrà visualizzato durante il caricamento della visualizzazione. Il passaggio da una visualizzazione all'altra dopo il caricamento della pagina dovrebbe consentire l'esecuzione della query della visualizzazione nel modo previsto.
 
@@ -99,11 +99,11 @@ Per un elenco delle visualizzazioni disponibili per quella pagina, si ha a dispo
 Qualsiasi modifica apportata in questa finestra di dialogo diventerà effettiva dopo la selezione del pulsante **Salva**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Gestione di personalizzazioni a livello organizzativo con visualizzazioni
-Per informazioni su come le visualizzazione salvate aiutano a migliorare la gestione delle personalizzazioni a livello organizzativo, questa sezione descrive come funzionava la gestione della personalizzazione prima che le visualizzazioni fossero disponibili.
+Per informazioni su come le visualizzazioni salvate aiutano a migliorare la gestione delle personalizzazioni a livello organizzativo, questa sezione descrive alcune differenze nella gestione della personalizzazione con e senza la funzionalità Visualizzazioni salvate.
 
 Senza le visualizzazioni, gli amministratori applicavano un insieme di personalizzazioni di una pagina a un utente, a un gruppo utenti o a utenti tramite la pagina Personalizzazione. Se tali utenti disponevano di diritti di personalizzazione, le personalizzazioni erano applicate a tale pagina. Tuttavia, non si aveva la possibilità di impedire agli utenti di personalizzare ulteriormente la pagina, di conseguenza l'organizzazione non era in grado di assicurare un'interfaccia utente coerente per gli utenti. Se uno di questi utenti non disponeva di diritti di personalizzazione, le personalizzazioni ad essi assegnate da un amministratore non venivano caricate. Inoltre, se un nuovo utente veniva assunto in un'organizzazione, gli amministratori dovevano caricare manualmente un insieme di personalizzazioni per l'utente. Non esisteva un meccanismo automatico per definire che un determinato set di personalizzazioni doveva essere disponibile in quel ruolo.
 
-Con la funzionalità Visualizzazioni salvate, la gestione delle personalizzazioni a livello di organizzazione è molto più semplice, principalmente perché le visualizzazioni possono essere pubblicate nei gruppi di utenti. Dopo che una visualizzazione è stata pubblicata, qualsiasi utente che ha uno dei ruoli di sicurezza definiti ed è nelle persone giuridiche specificate sarà in grado di accedere e utilizzare la visualizzazione, anche se l'utente potrebbe non essere in grado di personalizzarla. Sebbene ogni utente disponga di una copia della visualizzazione pubblicata in cui le personalizzazioni implicite vengono applicate, nessun utente può salvare personalizzazioni esplicite o aggiornamenti della query in una visualizzazione pubblicata. In altre parole, le visualizzazioni pubblicate sono bloccate. Inoltre, se ai nuovi utenti vengono assegnati ruoli in persone giuridiche in cui sono state pubblicate le visualizzazioni, vedranno automaticamente le visualizzazioni associate ai loro ruoli e alle persone giuridiche. Nessuna azione aggiuntiva è richiesta dall'amministratore. Allo stesso modo, se gli utenti cambiano ruolo in un'organizzazione o ottengono l'accesso a diverse persone giuridiche, potrebbero non essere più in grado di accedere alle visualizzazioni precedentemente pubblicate per loro. Anche in questo caso, nessuna azione aggiuntiva è richiesta dall'amministratore.
+Con la funzionalità Visualizzazioni salvate, la gestione delle personalizzazioni a livello di organizzazione è molto più semplice, principalmente perché le visualizzazioni possono essere pubblicate nei gruppi di utenti. Dopo che una visualizzazione è stata pubblicata, qualsiasi utente che ha uno dei ruoli di sicurezza definiti e ha accesso a una delle persone giuridiche specificate sarà in grado di vedere e utilizzare la visualizzazione, anche se l'utente potrebbe non essere in grado di personalizzarla. Sebbene ogni utente disponga di una copia della visualizzazione pubblicata in cui le personalizzazioni implicite vengono applicate, nessun utente può salvare personalizzazioni esplicite o aggiornamenti della query in una visualizzazione pubblicata. In altre parole, le visualizzazioni pubblicate sono bloccate. Inoltre, se ai nuovi utenti vengono assegnati ruoli in persone giuridiche in cui sono state pubblicate le visualizzazioni, vedranno automaticamente le visualizzazioni associate ai loro ruoli e alle persone giuridiche. Nessuna azione aggiuntiva è richiesta dall'amministratore. Allo stesso modo, se gli utenti cambiano ruolo in un'organizzazione o ottengono l'accesso a diverse persone giuridiche, potrebbero non essere più in grado di accedere alle visualizzazioni precedentemente pubblicate per loro. Anche in questo caso, nessuna azione aggiuntiva è richiesta dall'amministratore.
 
 Gli aggiornamenti a una visualizzazione pubblicata possono essere distribuiti facilmente agli utenti pubblicando di nuovo la visualizzazione su ruoli di sicurezza e persone giuridiche appropriati.
 
@@ -119,7 +119,8 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
 4.  Immettere un nome di visualizzazione ed eventualmente una descrizione della visualizzazione. Questo è il nome che gli utenti che ricevono la visualizzazione vedranno nei relativi selettori di visualizzazioni. I nomi delle visualizzazioni pubblicate per una pagina devono essere univoci. Non sono consentiti nomi duplicati, anche se l'elenco dei ruoli o delle persone giuridiche a cui le visualizzazioni sono applicate differisce.
 5.  Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione.
 6. Aggiungere le persone giuridiche per cui la visualizzazione deve essere disponibile. 
-7.  Selezionare **Pubblica**
+7. [10.0.9/Update 33 o successivi della piattaforma] Determinare se la visualizzazione deve essere pubblicata come visualizzazione predefinita per gli utenti selezionati. Impostare una visualizzazione come predefinita significa che è la visualizzazione che gli utenti vedranno la prossima volta che apriranno la pagina di destinazione. Ciò modificherà la visualizzazione predefinita per tali utenti; tuttavia, gli utenti possono comunque modificare la visualizzazione predefinita dopo la pubblicazione.    
+8.  Selezionare **Pubblica**
 
 Da notare che in alcuni ambienti la visualizzazione pubblicata sarà visibile solo dopo un certo tempo (fino a un'ora).
 
@@ -132,7 +133,8 @@ Se le modifiche che si desidera apportare a una visualizzazione pubblicata sono 
 3.  Selezionare **Sì** se si desidera aggiornare la visualizzazione corrente (o **No** se si desidera pubblicarla con un nome diverso).
 4.  Aggiornare il nome, la descrizione e/o i ruoli di sicurezza della visualizzazione. 
 5.  Selezionare **Pubblica** 
-6.  Se si aggiorna il nome della visualizzazione pubblicata, è inoltre necessario eliminare la visualizzazione pubblicata con il nome precedente (vedere la sezione **Gestione di visualizzazioni pubblicate** per ulteriori dettagli). 
+6.  [10.0.8/Update 32 o precedenti della piattaforma] Se si aggiorna il nome della visualizzazione pubblicata, è inoltre necessario eliminare la visualizzazione pubblicata con il nome precedente (vedere la sezione **Gestione di visualizzazioni pubblicate** per ulteriori dettagli). 
+7. [10.0.9/Update 33 o successivi della piattaforma] Se in origine questa visualizzazione pubblicata è stata scelta come visualizzazione predefinita, dopo la ripubblicazione sarà nuovamente la visualizzazione predefinita per tali utenti.  
 
 Se le modifiche apportate alla visualizzazione pubblicata comportano la modifica delle personalizzazioni o dei filtri associati alla visualizzazione, procedere come segue: 
 1.  Passare alla visualizzazione pubblicata che si desidera modificare. 
@@ -148,13 +150,15 @@ Tutti gli utenti dispongono di una scheda **Visualizzazioni personali** che elen
 Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a disposizione il set di azioni seguente. 
 
 -    **Pubblicare**: utilizzare l'azione **Pubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
--    **Rimuovere**: utilizzare l'azione **Rimuovi** per eliminare definitivamente una visualizzazione pubblicata. Questa azione rimuove la visualizzazione per tutti gli utenti del sistema.  
- 
-Qualsiasi modifica apportata in questa finestra di dialogo diventerà effettiva dopo la selezione del pulsante **Salva**.
+-    **Rimuovere**: utilizzare l'azione **Rimuovi** per eliminare definitivamente una visualizzazione pubblicata. Questa azione rimuove la visualizzazione per tutti gli utenti del sistema. La rimozione delle visualizzazione pubblicate avrà effetto dopo la selzione del pulsante **Salva**.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Come si abilitano le visualizzazioni salvate nel proprio ambiente? 
-Per abilitare le visualizzazioni salvate mentre la funzionalità è in anteprima, utilizzare la procedura riportata di seguito: 
+Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finance and Operations per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
+
+**10.0.9/Update 33 e successivi della piattaforma** La funzionalità **Visualizzazioni salvate** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Update 32 e precedenti della piattaforma** La funzionalità **Visualizzazioni salvate** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
 
 1.  **Abilitare l'anteprima**: Eseguire la seguente istruzione SQL: 
 
@@ -168,15 +172,12 @@ Per abilitare le visualizzazioni salvate mentre la funzionalità è in anteprima
 
 Tutte le sessioni utente successive verranno avviate con le visualizzazioni salvate abilitate.
 
-Visualizzazioni salvate può essere utilizzato solo in ambienti di livello 1 (sviluppo/test) e di livello 2 (sandbox) per fornire ulteriori modifiche di progettazione e test. L'anteprima di Visualizzazioni salvate sarà disponibile negli ambienti di produzione in una versione successiva.
-
-Da notare che se la personalizzazione è disabilitata per l'ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura precedente. Questo perché la funzionalità relativa alle visualizzazioni si basa sul sottosistema di personalizzazione.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Cosa succede alle personalizzazioni esistenti quando le visualizzazioni vengono abilitate? 
 Quando le visualizzazioni vengono abilitate, tutte le personalizzazioni esistenti per un utente e un modulo vengono salvate in una nuova visualizzazione denominata **Visualizzazione personale** che viene impostata automaticamente come visualizzazione predefinita. Ciò garantisce la coerenza dell'esperienza utente prima e dopo l'abilitazione delle visualizzazioni, salvo per il selettore di visualizzazioni visualizzato nei moduli.  
 
 ### <a name="what-pages-support-views"></a>Quali pagine supportano le visualizzazioni? 
-Le visualizzazioni sono disponibili nella maggior parte delle pagine. In particolare, le visualizzazioni sono attualmente disponibili per tutte le pagine a schermo intero ad eccezione dei dashboard e delle aree di lavoro. Inoltre, le pagine non a schermo intero, tra cui finestre di dialogo, finestre di dialogo a discesa, ricerche, anteprime avanzate, non supportano le visualizzazioni. È possibile che il supporto delle visualizzazioni per ulteriori tipi di pagine, ad esempio aree di lavoro e finestre di dialogo, sia preso in considerazione per un aggiornamento futuro.   
+Le visualizzazioni sono disponibili nella maggior parte delle pagine. In particolare, le visualizzazioni sono attualmente disponibili per tutte le pagine a schermo intero ad eccezione dei dashboard e delle aree di lavoro. Inoltre, le pagine non a schermo intero, tra cui finestre di dialogo, finestre di dialogo a discesa, ricerche, anteprime avanzate, non supportano attualmente le visualizzazioni. È possibile che il supporto delle visualizzazioni per ulteriori tipi di pagine, ad esempio aree di lavoro e finestre di dialogo, sia preso in considerazione per un aggiornamento futuro.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>A chi è consentito pubblicare visualizzazioni?
 Solo gli amministratori di sistema e gli utenti assegnati al ruolo **Amministratore di visualizzazioni salvate** hanno le autorizzazioni per pubblicare le visualizzazioni. 
@@ -184,12 +185,14 @@ Solo gli amministratori di sistema e gli utenti assegnati al ruolo **Amministrat
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Perché non è possibile salvare filtri con una visualizzazione? 
 Non è possibile salvare filtri con una visualizzazione per vari motivi: 
 
-- La pagina può non supportare il salvataggio di filtri nella definizione della visualizzazione. Da notare che solo le pagine con grandi selettori di visualizzazioni consentono il salvataggio di personalizzazioni e modifiche di query come visualizzazioni. Per ulteriori informazioni, vedere la sezione "Passaggio da una visualizzazione all'altra". 
-
-- Se la visualizzazione è quella predefinita e il percorso di navigazione alla pagina include una query, la query della visualizzazione potrebbe non essere applicata inizialmente. I due scenari principali sono: 
-     - Se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. 
-     - Se si accede a una pagina e quel punto di ingresso include una query, la query originale verrà eseguita al posto della query della visualizzazione predefinita. 
-     
-  In questo caso, un messaggio informativo verrà visualizzato durante il caricamento della visualizzazione. È inoltre possibile confermare passando a questa visualizzazione dopo il caricamento della pagina, in quanto la visualizzazione della query dovrebbe essere eseguita.  
+- La pagina può non supportare il salvataggio di filtri nella definizione della visualizzazione. Da notare che solo le pagine con grandi selettori di visualizzazioni consentono il salvataggio di personalizzazioni e modifiche di query come visualizzazioni. Per ulteriori informazioni, vedere la sezione **Passaggio da una visualizzazione all'altra**. 
 
 - La pagina in questione potrebbe non supportare correttamente le visualizzazioni, perché potrebbe ignorare la query di visualizzazione completamente o utilizzare una tabella temporanea con dati non persistenti. 
+
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Quali dati saranno visibili quando si visita una pagina? 
+Per le pagine con selettori di visualizzazione piccoli (solo le personalizzazioni possono essere salvate nella visualizzazione), saranno visibili gli stessi dati che sono sempre visibili quando si visita la pagina. 
+
+Per le pagine con grandi selettori di visualizzazione (personalizzazioni e query possono essere salvate nella visualizzazione), saranno visibili principalmente i dati collegati alla query associata alla visualizzazione predefinita. Vi sono due eccezioni principali - Se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Se quel riquadro è stato creato dopo aver abilitato le visualizzazioni, la selezione di un riquadro aprirà la pagina con la visualizzazione associata a quel riquadro.   
+     - Se si accede a una pagina e quel punto di ingresso include una query, la query originale verrà eseguita al posto della query della visualizzazione predefinita. Quando ciò avviene, si verrà avvisati mediante un messaggio informativo durante il caricamento della visualizzazione. È inoltre possibile confermare passando a questa visualizzazione dopo il caricamento della pagina, in quanto la visualizzazione della query dovrebbe essere eseguita.  
+
+

@@ -3,7 +3,7 @@ title: Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le d
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove effettuare il lavoro nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026947"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028030"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione
 
@@ -152,7 +152,7 @@ Selezionare questa casella di controllo per utilizzare le strategie batch per gl
 ### <a name="strategy"></a>Strategia
 
 -   **Consolidato** - Questa strategia viene utilizzata per consolidare gli articoli in un'ubicazione specifica quando articoli simili sono già disponibili. Questo sistema funziona solo con le direttive ubicazione di tipo inserimento. L'impostazione comune per l'inserimento sarà di consolidare la prima riga di azione, quindi nel secondo tentativo di inserire senza consolidamento. Il consolidamento delle merci rende più efficiente il prelievo in un secondo momento.
--   **Corrispondenza quantità imballaggio** - Questa strategia viene utilizzata per verificare se un'ubicazione di prelievo dispone della quantità di imballaggio specificata. Questo sistema funziona solo con le direttive ubicazione di tipo prelievo. 
+-   **Corrispondenza quantità imballaggio** - Questa strategia troverà un'ubicazione che contiene una targa con l'esatta quantità. Non può essere utilizzata con le ubicazioni che non sono controllate con una targa. Questa strategia funziona solo con le direttive ubicazione di tipo prelievo.
 -   **Prenotazione batch FEFO** - Questa strategia viene utilizzata quando il magazzino viene individuato utilizzando una data di scadenza batch e viene allocato per la prenotazione batch. È possibile utilizzare questa strategia solo per gli articoli abilitati per il batch. Questo sistema funziona solo con le direttive ubicazione di tipo prelievo. 
 -   **Arrotonda per eccesso alla targa completa** - Questa strategia viene utilizzata per arrotondare la quantità di scorte da abbinare alla quantità di targa assegnata agli articoli da prelevare. È possibile utilizzare questa strategia solo per il tipo di rifornimento della direttiva ubicazione di tipo prelievo. 
 -   **Ubicazione vuota senza alcun lavoro in entrata** - Questa strategia viene utilizzata per individuare le ubicazioni vuote. L'ubicazione viene considerata vuota se non è presente un inventario fisico e non è previsto lavoro in entrata. Questa strategia viene utilizzata solo per direttiva ubicazione di tipo inserimento. 

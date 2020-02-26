@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562532"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004067"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 
@@ -44,7 +44,7 @@ La tracciabilità articolo è uno strumento di business intelligence (BI) che fo
 -   Esaminare dove sono stati utilizzati gli articoli o le materie prime nella produzione di un altro articolo.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Esistono delle limitazioni alla tracciabilità?
-È possibile tracciare le operazioni di magazzino storiche per gli articoli e le materie prime in base a un numero di articolo e a una dimensione di tracciabilità, ad esempio il numero di serie, il numero batch o il numero batch del fornitore. È possibile tracciare un articolo o una materia prima solo se ha una dimensione di tracciabilità assegnata. Poiché la tracciabilità si basa sulle operazioni di magazzino, ci sono alcune limitazioni alla tracciabilità degli articoli. Ad esempio, sono previste limitazioni relative alle transazioni per i progetti, i cespiti e la vendita al dettaglio. Inoltre, i coprodotti sono visualizzati nel dettaglio traccia, ma i sottoprodotti non sono inclusi. La traccia include tutte le transazioni di magazzino da un'ubicazione a un'altra. Di conseguenza, gli utenti possono ritenere eccessiva la quantità di informazioni. La traccia viene visualizzata per una persona giuridica per volta. Non sono disponibili funzionalità interaziendali in un contesto interaziendale. È necessario avviare una nuova traccia per ogni società in cui un articolo viene ricevuto o rilasciato.
+È possibile tracciare le operazioni di magazzino storiche per gli articoli e le materie prime in base a un numero di articolo e a una dimensione di tracciabilità, ad esempio il numero di serie, il numero batch o il numero batch del fornitore. È possibile tracciare un articolo o una materia prima solo se ha una dimensione di tracciabilità assegnata. Poiché la tracciabilità si basa sulle operazioni di magazzino, ci sono alcune limitazioni alla tracciabilità degli articoli. Ad esempio, sono previste limitazioni relative alle transazioni per progetti, cespiti e commercio. Inoltre, i coprodotti sono visualizzati nel dettaglio traccia, ma i sottoprodotti non sono inclusi. La traccia include tutte le transazioni di magazzino da un'ubicazione a un'altra. Di conseguenza, gli utenti possono ritenere eccessiva la quantità di informazioni. La traccia viene visualizzata per una persona giuridica per volta. Non sono disponibili funzionalità interaziendali in un contesto interaziendale. È necessario avviare una nuova traccia per ogni società in cui un articolo viene ricevuto o rilasciato.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Quali criteri è possibile specificare per una traccia articolo?
 I criteri necessari per una traccia articolo sono il numero articolo, una dimensione di tracciabilità, ad esempio un numero batch o un numero di serie, e la direzione. Nella seguente tabella sono descritti i criteri che è possibile utilizzare in una traccia articolo.

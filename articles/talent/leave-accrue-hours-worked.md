@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898621"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006080"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Attribuire permessi in base alle ore lavorate
 
 ## <a name="overview"></a>Panoramica
 
-Le organizzazioni con dipendenti a ora possono assegnare i permessi in base alle ore di lavorate anziché in base alla durata del rapporto con l'organizzazione. I dati sulle ore lavorate vengono in genere archiviati in un sistema di gestione dell'orario e delle presenze. In Talent: Core HR, le ore regolari e di straordinario lavorate possono essere importate e usate come base per un riconoscimento al dipendente.
+Le organizzazioni con dipendenti a ora possono assegnare i permessi in base alle ore di lavorate anziché in base alla durata del rapporto con l'organizzazione. I dati sulle ore lavorate vengono in genere archiviati in un sistema di gestione dell'orario e delle presenze. 
 
 ## <a name="leave-plans"></a>Piani di congedo
 
@@ -83,7 +83,7 @@ Nei piani di congedo assegnati del dipendente la base del livello e il tipo di o
 
 ## <a name="loading-data"></a>Caricamento dati in corso
 
-Le ore effettive possono essere importate utilizzando l'entità Ore di assenza e di congedo lavorate nella gestione dei dati. Se si utilizzano i calendari lavorativi, l'importazione convaliderà che le ore di lavoro normali non superano le ore previste in un giorno definito dal calendario. L'importazione convalida anche che le ore lavorate in un determinato giorno non superino le 24 ore. 
+Le ore effettive possono essere importate utilizzando l'entità Ore di assenza e di congedo lavorate nella gestione dei dati. Se si utilizzano i calendari orario di lavoro, l'importazione convaliderà che le ore di lavoro normali non superano le ore previste in un giorno definito dal calendario. L'importazione convalida anche che le ore lavorate in un determinato giorno non superino le 24 ore. 
 
 Le seguenti informazioni sono necessarie per importare le ore effettive da utilizzare nel processo di attribuzione per il congedo:
 

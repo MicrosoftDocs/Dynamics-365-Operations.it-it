@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914620"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001417"
 ---
 # <a name="add-languages-to-your-site"></a>Aggiungere lingue al sito
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere supporto per ulteriori lingue a un sito di Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-È possibile localizzare il proprio sito Web in qualsiasi lingua che Dynamics 365 Commerce supporta (l'elenco delle lingue supportate è esposto più avanti in questo argomento). Per aggiungere una lingua nel sito Web, è necessario dapprima aggiungerla a un punto vendita online associato al sito.
+È possibile localizzare il proprio sito Web in qualsiasi lingua che Commerce supporta. (l'elenco delle lingue supportate è esposto più avanti in questo argomento). Per aggiungere una lingua nel sito Web, è necessario dapprima aggiungerla a un punto vendita online associato al sito.
 
 ## <a name="add-a-language-to-an-online-store"></a>Aggiungere una lingua a un punto vendita online
 
 Per aggiungere una lingua a un punto vendita online, effettuare le operazioni seguenti.
 
-1. Aprire l'ambiente di Dynamics 365 Retail per il sito.
-1. Selezionare **Vendita al dettaglio \> Canali \> Punti vendita online** per accedere all'elenco di punti vendita online configurati per l'ambiente. In alternativa, immettere **Punti vendita online** come termine di ricerca.
+1. Aprire l'ambiente di Dynamics 365 Commerce per il sito.
+1. Selezionare **Retail e Commerce \> Canali \> Punti vendita online** per accedere all'elenco di punti vendita online configurati per l'ambiente. In alternativa, immettere **Punti vendita online** come termine di ricerca.
 1. Selezionare il punto vendita online per il quale aggiungere una lingua.
 1. Nella Scheda dettaglio **Lingue** selezionare **Aggiungi**.
 1. Nel campo **Lingua**, selezionare la lingua da aggiungere.

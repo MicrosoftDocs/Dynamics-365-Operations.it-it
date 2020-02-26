@@ -3,7 +3,7 @@ title: Panoramica starter kit
 description: Questo argomento fornisce una panoramica dello starter kit di Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73af7fc8845fe08bc4aa014abe4d8c6dcf7ccb7d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785262"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025904"
 ---
 # <a name="starter-kit-overview"></a>Panoramica starter kit
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica dello starter kit di Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ Ai moduli nello starter kit è possibile applicare dei temi per modificarne l'as
 I seguenti tipi di moduli sono disponibili nello starter kit:
 
 - **Modulo contenitore** - Un modulo contenitore è un modulo semplice che funge da host per altri moduli. Controlla il layout dei moduli che contiene.
-- **Moduli Marketing** - I moduli Marketing includono moduli Hero, Funzionalità, Posizionamento contenuti, Blocco ricco di contenuti, Lettore video e Sequenza. Tutti questi moduli possono essere utilizzati per presentare il contenuto. Sono utilizzabili in qualsiasi pagina e sono basati sui dati del sistema di gestione dei contenuti.
+- **Moduli Marketing** - I moduli Marketing includono moduli blocco di contenuto, blocchi di testo, lettore video e sequenza. Tutti questi moduli possono essere utilizzati per presentare il contenuto. Sono utilizzabili in qualsiasi pagina e sono basati sui dati del sistema di gestione dei contenuti.
 - **Moduli Intestazione e Piè di pagina** - I moduli Intestazione e Piè di pagina sono visualizzati nell'intestazione e nel piè di pagina di tutte le pagine del sito. Questi moduli possono essere configurati come necessario mediante le proprietà.
 - **Moduli Ricerca** - I prodotti possono essere individuati utilizzando il modulo Ricerca nell'intestazione. I risultati della ricerca sono visualizzati nella pagina dei risultati della ricerca. I prodotti possono anche essere individuati nelle pagine delle categorie, ovvero pagine dedicate a ogni categoria supportata nella gerarchia di navigazione del canale. Inoltre, i moduli Criterio di affinamento possono essere utilizzati per filtrare ulteriormente i risultati nelle ricerche e nelle pagine delle categorie.
 - **Moduli Pagina dettagli prodotto** - Le pagine dettagli prodotto utilizzano vari moduli per visualizzare le informazioni sul prodotto. Il modulo Casella acquisti consente ai clienti di visualizzare i prodotti e aggiungerli al carrello. Altri moduli, come ad esempio il modulo Specifiche tecniche, visualizzano i dettagli del prodotto. Il modulo Valutazioni e recensioni può essere utilizzato per visualizzare e fornire recensioni.

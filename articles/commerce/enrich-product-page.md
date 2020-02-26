@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945745"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003075"
 ---
 # <a name="enrich-a-product-page"></a>Migliorare una pagina prodotto
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come migliorare una pagina prodotto in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Per impostazione predefinita, il sito utilizza una pagina generica per visualizzare i dati del prodotto. Questa pagina include le informazioni di base sul prodotto e i controlli necessari per venderlo. Tuttavia, è possibile aggiungere ulteriori immagini o testo per un prodotto specifico alle informazioni del Server Retail. Questo processo è noto come miglioramento della pagina prodotto.
+Per impostazione predefinita, il sito utilizza una pagina generica per visualizzare i dati del prodotto. Questa pagina include le informazioni di base sul prodotto e i controlli necessari per venderlo. Tuttavia, è possibile aggiungere ulteriori immagini o testo per un prodotto specifico alle informazioni di Commerce Scale Unit. Questo processo è noto come miglioramento della pagina prodotto.
 
-In molti casi, si intende utilizzare ulteriore contenuto specifico per i prodotti. Quando si accede a **Vendita al dettaglio** nello strumento di creazione, è visibile un elenco di prodotti del canale assegnato al sito. Nell'elenco, la colonna **Migliorata** indica se la pagina prodotto di un prodotto è stata migliorata. Se un segno di spunta è visualizzato nella colonna, una pagina prodotto migliorata esiste per il prodotto. Se nessun segno di spunta è visualizzato, il contenuto e la pagina prodotto predefiniti vengono utilizzati per il prodotto. È possibile visualizzare l'anteprima delle pagine prodotto migliorate e non migliorate selezionando un nome di prodotto nell'elenco.
+In molti casi, si intende utilizzare ulteriore contenuto specifico per i prodotti. Quando si accede a **Retail e Commerce** nello strumento di creazione, è visibile un elenco di prodotti del canale assegnato al sito. Nell'elenco, la colonna **Migliorata** indica se la pagina prodotto di un prodotto è stata migliorata. Se un segno di spunta è visualizzato nella colonna, una pagina prodotto migliorata esiste per il prodotto. Se nessun segno di spunta è visualizzato, il contenuto e la pagina prodotto predefiniti vengono utilizzati per il prodotto. È possibile visualizzare l'anteprima delle pagine prodotto migliorate e non migliorate selezionando un nome di prodotto nell'elenco.
 
 ## <a name="enrich-a-product-page"></a>Migliorare una pagina prodotto
 

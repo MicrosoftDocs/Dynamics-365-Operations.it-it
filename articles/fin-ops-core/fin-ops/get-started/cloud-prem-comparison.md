@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935389"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005728"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -32,8 +32,8 @@ In questo argomento viene illustrato un confronto delle funzionalità disponibil
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 Sono incluse anche informazioni sulle [funzionalità di amministrazione e sviluppo](cloud-prem-comparison.md#development-and-administration-features).
 
@@ -45,8 +45,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformità e certificazioni        |                                                                                           | Sì       | Sì             |
 |                                      | Certificazione SOC 1 tipo 1                                                                | Sì       | Nessuno              |
-| Gestione dati e integrazione      |                                                                                           | Sì       | Sì             |
-|                                      | Estensione basata sulla configurazione                                                            | Sì       | No              |
+| Gestione dati e integrazione      |                                                                                           | Sì       | Sì             
 |                                      | Esportazione di dati nel proprio magazzino dati                                                    | Sì       | Sì             |
 |                                      | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati                                 | Sì       | Sì              |
 |                                      | Integrazioni di dati                                                                         | Sì       | Sì             |
@@ -146,15 +145,15 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 | Supporto                              |                                                                                           | Sì       | Sì             |
 |                                      | Accesso al supporto tramite il menu Guida e supporto                                             | Sì       | Nessuno              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Per visualizzare un elenco delle capacità di vendita al dettaglio disponibili nelle distribuzioni locali, vedere [Capacità vendita al dettaglio disponibili in distribuzioni locali](../../../retail/retail-onprem.md).
+Per visualizzare un elenco delle capacità disponibili nelle distribuzioni locali, vedere [Capacità vendita al dettaglio disponibili in distribuzioni locali](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Area**         | **Funzionalità**         | **Cloud** | **On-premises** |
 |------------------|---------------------|-----------|-----------------|
-| Tutte le aree di Talent | Tutte le funzionalità di Talent | Sì       | Nessuno              |
+| Tutte le aree di Human Resources | Tutte le funzionalità di Human Resources | Sì       | Nessuno              |
 
 ## <a name="development-and-administration-features"></a>Funzionalità di amministrazione e sviluppo
 

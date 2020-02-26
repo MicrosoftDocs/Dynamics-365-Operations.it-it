@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899036"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006289"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Novità e modifiche in Dynamics 365 Talent (30 luglio 2019)
 
@@ -41,7 +41,7 @@ Le modifiche descritte in questo sezione sono valide per la build numero 8.1.240
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Supporto regionale per Canata e Asia sudorientale
 
-Siamo lieti di annunciare che le regioni Canada e Asia sudorientale sono disponibili per Talent dal 1° agosto 2019. Con questa modifica, è possibile creare ambienti nelle regioni del Canada e asiatiche e tutti i dati in Talent verranno conservati solo all'interno di tali regioni. È possibile creare un ambiente in queste nuove regioni selezionando la posizione nella nuova finestra di dialogo Nuovo ambiente e utilizzare l'ambiente per eseguire il provisioning di Talent in LCS come descritto in [Eseguire il provisioning di Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Siamo lieti di annunciare che le regioni Canada e Asia sudorientale sono disponibili per Talent dal 1° agosto 2019. Con questa modifica, è possibile creare ambienti nelle regioni del Canada e asiatiche e tutti i dati in Talent verranno conservati solo all'interno di tali regioni. È possibile creare un ambiente in queste nuove regioni selezionando la posizione nella nuova finestra di dialogo Nuovo ambiente e utilizzare l'ambiente per eseguire il provisioning di Talent in LCS come descritto in [Eseguire il provisioning di Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migrazione dei dati dei progetti esistenti da altre regioni verso le regioni del Canada e asiatiche non è supportata. È possibile eseguire il provisioning solo di nuovi progetti alle nuove regioni supportate.
 

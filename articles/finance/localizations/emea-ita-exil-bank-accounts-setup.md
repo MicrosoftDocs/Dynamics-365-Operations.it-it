@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 570434f22727f117c040931db78b6396820f91e6
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: 086b3054e53a2c71c0d9e4a788d987fcc7c6183b
+ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945027"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "2982297"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Le aziende spesso devono inserire e conservare una grande quantità di informazioni bancarie. Il costo dell'inserimento di informazioni bancarie errate può essere molto elevato. Per risparmiare tempo e semplificare la registrazione dei dati bancari, è possibile importare informazioni bancarie italiane da fonti affidabili. In questo modo, contribuisci a ridurre il rischio di errori quando vengono utilizzati i dati bancari per clienti e fornitori.
 

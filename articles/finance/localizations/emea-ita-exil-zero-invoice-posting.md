@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 73e5bcdc87a321b651aaee6455a278ff1d7e890a
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: feb01e1eb34631fa0f94283d7b88ba4155928883
+ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945025"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "2982324"
 ---
 # <a name="posting-invoices-with-zero-amount"></a>Registrazione fatture con importo zero
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In Italia, devono essere registrate transazioni finanziarie per fatture che hanno un importo totale pari a 0 (zero).
 

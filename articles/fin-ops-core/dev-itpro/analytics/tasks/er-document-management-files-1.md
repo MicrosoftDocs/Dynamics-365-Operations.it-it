@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550835"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026136"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Usare file di gestione documenti in output di formato (Parte 1: Preparare il modello dati)
 
@@ -61,7 +61,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 11. Nella struttura selezionare 'Modello fattura cliente'.
 
 ## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>Creare il modello derivato per supportare l'accesso ai file di gestione documenti.
-    * Si creerà una propria configurazione del modello fattura cliente derivandola dalla configurazione fornita da Microsoft. Si userà questa configurazione per implementare l'accesso ai file di gestione documenti e renderli disponibili per i documenti elettronici che verranno creati in base a tale modello.  
+Si creerà una propria configurazione del modello fattura cliente derivandola dalla configurazione fornita da Microsoft. Si userà questa configurazione per implementare l'accesso ai file di gestione documenti e renderli disponibili per i documenti elettronici che verranno creati in base a tale modello.  
 1. Fare clic su Crea configurazione per aprire la finestra di dialogo a discesa .
 2. Nel campo Nuovo, immettere 'Deriva da nome: Modello fattura cliente, Microsoft'.
 3. Nel campo Nome digitare 'Modello fattura cliente (personalizzato)'.

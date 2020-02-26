@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812582"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006174"
 ---
 # <a name="connect-the-help-system"></a>Connettere la Guida
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i componenti della Guida per le app Finance and Operations, ad esempio Dynamics 365 Finance, Supply Chain Management, Retail e Talent. Viene fornita una panoramica della procedura per connettere questi componenti e un riepilogo della creazione della Guida personalizzata.
+In questo argomento vengono descritti i componenti della Guida per le app Finance and Operations, ad esempio Dynamics 365 Finance, Supply Chain Management, Commerce e Human Resources. Viene fornita una panoramica della procedura per connettere questi componenti e un riepilogo della creazione della Guida personalizzata.
 
 ## <a name="help-architecture"></a>Architettura della Guida
 
@@ -43,7 +43,7 @@ La figura seguente mostra le parti della Guida. Nella Guida interna al prodotto 
 ## <a name="connecting-the-help-system"></a>Connessione della Guida
 
 > [!NOTE]
-> La scheda **Guide attività** non è attualmente disponibile in Dynamics 365 Talent o Retail. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Talent rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito docs.microsoft.com per Retail e Talent.
+> La scheda **Guide attività** non è attualmente disponibile in Dynamics 365 Human Resources o Commerce. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Human Resources rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito docs.microsoft.com per Human Resources e Commerce.
 
 Utilizzando la pagina **Parametri di sistema**, gli amministratori di sistema collegano le parti della Guida per un'implementazione.
 
@@ -78,7 +78,7 @@ Le guide attività tradotte sono state fornite per la prima volta nella libreria
 
 ### <a name="create-custom-help-with-task-guides"></a>Creare una Guida personalizzata con guide attività
 
-È possibile creare la Guida personalizzata per Finance, Supply Chain Management e Retail per creare registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali LCS. Non è possibile creare Guide attività personalizzate per Talent.
+È possibile creare la Guida personalizzata per Finance, Supply Chain Management e Commerce per creare registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali LCS. Non è possibile creare Guide attività personalizzate per Human Resources.
 
 Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. È inoltre possibile effettuare una copia della libreria globale unificata APQC e quindi aprire la copia, aprire le registrazioni attività dalla copia, modificarle e salvare le registrazioni con le modifiche. Per ulteriori informazioni, vedere [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md).
 

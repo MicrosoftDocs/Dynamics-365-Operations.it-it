@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c0b5241a70e73024f5600f2ccd77ec61f7438896
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: 5874608284ab7c010aa34d37f3f76d9eedf08764
+ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945022"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "2982349"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Intrastat è il sistema utilizzato per la raccolta di informazioni e la generazione di statistiche sugli scambi commerciali tra paesi dell'Unione Europea (UE). Per ulteriori informazioni, vedere [Panoramica Intrastat](emea-intrastat.md).
 

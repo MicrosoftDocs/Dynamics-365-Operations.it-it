@@ -3,7 +3,7 @@ title: Aggiungere un logo
 description: In questo argomento viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914624"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025705"
 ---
 # <a name="add-a-logo"></a>Aggiungere un logo
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ Quando crei il sito, una delle prime cose che probabilmente farai è aggiungere 
 
 Prima di poter aggiungere un logo a tutte le pagine del tuo sito, è necessario completare queste attività.
 
-1. Carica il logo in Gestione risorse digitali, a cui puoi accedere dalla pagina **Risorse**.
+1. Caricare il logo nella libreria multimediale.
 1. Creare un frammento di intestazione Per ulteriori informazioni su come creare e utilizzare i frammenti, vedere [Utilizzare i frammenti ](work-with-fragments.md).
 1. Includi il frammento di intestazione nel modello utilizzato dalle pagine del tuo sito per le opzioni di layout e di modulo. Per ulteriori informazioni sui modelli, vedere [Utilizzare i modelli](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Prima di poter aggiungere un logo a tutte le pagine del tuo sito, è necessario 
 
 Per aggiungere un logo al frammento di intestazione del tuo sito, effettuare le seguenti operazioni.
 
-1. Nel riquadro di navigazione a sinistra, selezionare **Frammenti**, quindi selezionare il frammento di intestazione creato.
-2. Selezionare **Estrai**.
-3. Espandere lo slot **Intestazione** e lo slot **Logo**.
-4. Selezionare il pulsante con i puntini di sospensione (**...**) per lo slot **Logo** e quindi selezionare **Aggiungi modulo**.
-5. Selezionare il modulo del logo.
-6. Nel riquadro delle proprietà a destra, configurare il modulo del logo in modo che mostri il logo.
-7. Salvare il frammento intestazione, verificarlo e pubblicarlo.
+1. Selezionare **Frammenti pagina** nel pannello di navigazione a sinistra.
+1. Selezionare il frammento intestazione creato e selezionare **Modifica**.
+1. Espandere il modulo di intestazione.
+1. Nel riquadro delle proprietà per il modulo di intestazione, fornire un'immagine e un collegamento per il logo. 
+1. Salvare il frammento intestazione, finalizzare la modifica e pubblicarlo.
 
 Dopo aver pubblicato il frammento di intestazione aggiornato, tutte le pagine del sito che utilizzano il modello che contiene il frammento di intestazione mostreranno il logo.
 

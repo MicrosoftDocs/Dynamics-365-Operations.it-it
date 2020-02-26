@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d66cc69da08478ceb931fab594da51bafcacc38
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fe08b30977b8515ffd8d0acc1fd8f4b3085de93
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185085"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026088"
 ---
 # <a name="er-design-domain-specific-data-model"></a>RE Progettare il modello dati specifico di dominio
 
@@ -48,7 +48,7 @@ In questo esempio verrà creata una configurazione per la società di esempio Li
 4. Fare clic sul pulsante "Crea configurazione" per completare l'attività di creazione della configurazione
 
 ## <a name="create-a-data-model"></a>Creare un modello dati
-    * Si sta creando un nuovo modello dati per la configurazione selezionata. Questa versione di configurazione avrà lo stato di bozza.  
+Si sta creando un nuovo modello dati per la configurazione selezionata. Questa versione di configurazione avrà lo stato di bozza.  
 1. Fare clic su Progettazione.
 
 ## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Definire la struttura di una parte che partecipa a un processo di pagamento

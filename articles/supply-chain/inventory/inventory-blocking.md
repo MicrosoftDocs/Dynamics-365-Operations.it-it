@@ -3,7 +3,7 @@ title: Blocco scorte
 description: Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Supply Chain Management. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814377"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971489"
 ---
 # <a name="inventory-blocking"></a>Blocco scorte
 
@@ -43,6 +43,9 @@ Questo articolo fornisce una panoramica del blocco scorte, che fa parte del proc
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Blocco degli articoli tramite un ordine di controllo qualità
 È possibile specificare gli articoli che devono essere controllati tramite un ordine di controllo qualità nella pagina **Ordini di controllo qualità**. Quando si crea un ordine di controllo qualità, viene bloccata la quantità specificata per un articolo. il piano di campionamento associato all'ordine di controllo qualità controlla solo la quantità di articoli che devono essere sottoposti a ispezione, non quelli bloccati. La quantità immessa nell'ordine di controllo qualità è quella bloccata, indipendentemente dalla quantità da sottoporre a ispezione in base a quanto specificato dal piano di campionamento.
+
+> [!NOTE]
+> L'uso contemporaneo delle funzionalità Data di scadenza batch e Bloccaggio stato di magazzino non è supportato dalla pianificazione generale. Ciò potrebbe comportare una doppia esclusione delle scorte disponibili, che può verificarsi durante la pianificazione generale. Si consiglia di utilizzare codici smaltimento a batch, anziché lo stato dell'inventario, per bloccare batch scaduti.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Blocco degli articoli mediante un processo che genera un ordine di controllo qualità
 Se un processo di controllo qualità indica che un articolo deve essere sottoposto a ispezione, una quantità di tale articolo viene bloccata automaticamente. Pertanto, quando viene generato automaticamente un ordine di controllo qualità, il piano di campionamento articoli associato all'ordine di controllo qualità controlla sia la quantità di articoli bloccata che quella sottoposta a ispezione. Se l'opzione **Bloccaggio totale** nella pagina **Campionamento articoli** è selezionata, durante l'ispezione viene bloccata, ad esempio, l'intera quantità di una riga dell'ordine fornitore indipendentemente dalla quantità di campionamento articoli.

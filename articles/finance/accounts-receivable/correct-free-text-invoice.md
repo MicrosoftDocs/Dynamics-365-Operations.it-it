@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178523"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030994"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correzione di una fattura a testo libero
 
@@ -47,7 +47,7 @@ Dopo la registrazione della fattura corretta, si avranno tre fatture:
 -   Nell'intestazione della fattura a testo libero viene visualizzato uno stato **Fattura di annullamento '\[numero fattura\]'** o **Fattura corretta '\[numero fattura\]'**.
 
 > [!NOTE]
-> Questa funzionalità è disponibile solo se è selezionata la chiave di configurazione **Correzione fattura a testo libero.** Per ulteriori informazioni su come abilitare le chiavi di configurazione, vedere la sezione relativa all'abilitazione (o disabilitazione) delle chiavi di configurazione nell'argomento [Modalità manutenzione](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode). 
+> Questa funzionalità è disponibile solo se è selezionata la chiave di configurazione **Correzione fattura a testo libero.** Per ulteriori informazioni su come abilitare le chiavi di configurazione, vedere la sezione relativa all'abilitazione (o disabilitazione) delle chiavi di configurazione nell'argomento [Modalità manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

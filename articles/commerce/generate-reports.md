@@ -1,6 +1,6 @@
 ---
 title: Generare report del canale online
-description: In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Retail.
+description: In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698052"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003006"
 ---
 # <a name="generate-online-channel-reports"></a>Generare report del canale online
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Retail.
+In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-È possibile generare e visualizzare vari report in Retail per verificare le prestazioni del canale online.
+È possibile generare e visualizzare vari report in Commerce per verificare le prestazioni del canale online.
 
 ## <a name="channel-summary-report"></a>Report di riepilogo canale
 
@@ -46,7 +46,7 @@ Nel report **Riepilogo canale** è visualizzato un riepilogo delle seguenti tran
 
 Per generare un report **Riepilogo canale**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report di riepilogo canale**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report di riepilogo canale**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -58,7 +58,7 @@ Nel report **Vendite canale per anno** viene visualizzato un confronto delle ven
 
 Per generare un report **Vendite canale per anno**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per anno**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per anno**.
 1. Nel campo **Dall'anno di calendario**, immettere un anno.
 1. Nel campo **All'anno di calendario**, immettere un anno.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -70,7 +70,7 @@ Nel report **Vendite canale per ora** sono visualizzate le metriche di vendita p
 
 Per generare un report **Vendite canale per ora**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per ora**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per ora**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -82,7 +82,7 @@ Nel report **Primi clienti** sono visualizzate le metriche di vendita per i prim
 
 Per generare un report **Primi clienti**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report primi clienti**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report primi clienti**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -94,7 +94,7 @@ Nel report **Sconti principali** sono visualizzate le metriche di vendita per i 
 
 Per generare un report **Sconti principali**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report sconti principali**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report sconti principali**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -106,7 +106,7 @@ Nel report **Prodotti principali** sono visualizzate le metriche di vendita per 
 
 Per generare un report **Prodotti principali**, effettuare le seguenti operazioni.
 
-1. Andare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report prodotti principali**.
+1. Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report prodotti principali**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -118,7 +118,7 @@ Nel report **Vendite di categoria** sono visualizzate le metriche di vendita in 
 
 Per generare un report **Vendite di categoria**, effettuare le seguenti operazioni.
 
-1. Passare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report vendite di categoria**.
+1. Passare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite di categoria**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Nel campo **Canale**, selezionare il canale online.
@@ -126,11 +126,11 @@ Per generare un report **Vendite di categoria**, effettuare le seguenti operazio
 
 ## <a name="organization-sales-report"></a>Report vendite organizzazione
 
-Nel report **Vendite organizzazione** sono visualizzate le prestazioni dei punti vendita al dettaglio per unità organizzativa. Questo report include la quantità e l'importo delle vendite per punto vendita e il margine di profitto di ogni punto vendita. L'unità organizzativa è basata sulla gerarchia di report predefinita.
+Nel report **Vendite organizzazione** sono visualizzate le prestazioni dei punti vendita per unità organizzativa. Questo report include la quantità e l'importo delle vendite per punto vendita e il margine di profitto di ogni punto vendita. L'unità organizzativa è basata sulla gerarchia di report predefinita.
 
 Per generare un report **Vendite organizzazione**, effettuare le seguenti operazioni.
 
-1. Passare a **Vendita al dettaglio \> Richieste di informazioni e report \> Report vendite \> Report vendite organizzazione**.
+1. Passare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite organizzazione**.
 1. Immettere una data nel campo **Dal**.
 1. Nel campo **Al** immettere una data.
 1. Selezionare **OK**.

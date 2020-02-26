@@ -1,9 +1,9 @@
 ---
-title: Creare un sito di e-Commerce
-description: In questo argomento vengono descritte le attività associate alla creazione di un nuovo sito di e-Commerce in Dynamics 365 Commerce.
+title: Creare un sito di e-commerce
+description: Questo argomento descrive i passaggi e le informazioni richiesti per creare un nuovo sito di e-commerce in Creazione di siti Web di Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945837"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002015"
 ---
-# <a name="create-an-e-commerce-site"></a>Creare un sito di e-Commerce
+# <a name="create-an-e-commerce-site"></a>Creare un sito di e-commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le attività associate alla creazione di un nuovo sito di e-Commerce in Dynamics 365 Commerce.
+Questo argomento descrive i passaggi e le informazioni richiesti per creare un nuovo sito di e-commerce in Creazione di siti Web di Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
+Prima di iniziare a sviluppare il sito di e-Commerce, è innanzitutto necessario configurare un nuovo sito in Creazione di siti Web. 
 
-Per iniziare a sviluppare il sito di e-Commerce, è innanzitutto necessario configurare un nuovo sito nell'ambiente di creazione di siti. Prima di poter creare un nuovo sito, almeno un punto vendita online deve essere creato in Dynamics 365 Retail. 
+
+Per iniziare a sviluppare il sito di e-Commerce, è innanzitutto necessario configurare un nuovo sito nell'ambiente di creazione di siti. Prima di poter creare un nuovo sito, almeno un punto vendita online deve essere creato in Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Configurare il sito
 
 Per configurare il sito, effettuare la procedura seguente.
 
-1. In Microsoft Lifecycle Services (LCS), selezionare il collegamento per l'ambiente di creazione di siti. 
+1. Aprire l'ambiente di Creazione di siti Web. È possibile trovare un collegamento a Creazione di siti Web in Microsoft Lifecycle Services (LCS) nella pagina Funzionalità ambiente per Commerce.
 1. Nella home page dell'ambiente di creazione di siti, selezionare **Nuovo sito**.
 1. Nella finestra di dialogo **Nuovo sito** immettere le informazioni seguenti.
 

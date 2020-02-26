@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cfb122cd01fcaae331f61327966916388d70e923
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897835"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006011"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Novità e modifiche in Dynamics 365 Talent (13 agosto 2019)
 
@@ -52,9 +52,9 @@ Una nuova opzione consentirà ai responsabili di visualizzare le prestazioni dei
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="platform-update-29-for-finance-and-operations"></a>Aggiornamento 29 della piattaforma per Finance and Operations
+### <a name="platform-update-29-for-finance-and-operations"></a>Update 29 della piattaforma per Finance and Operations
 
-Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 Finance and Operations (ottobre 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 Finance and Operations (ottobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Inserimento e navigazione dei dipendenti semplificati
 

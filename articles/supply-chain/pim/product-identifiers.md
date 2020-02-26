@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934888"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004021"
 ---
 # <a name="product-identifiers"></a>Identificatori di prodotto 
 
@@ -88,7 +88,7 @@ Nella pagina **Descrizioni esterne articolo**, è possibile associare il numero 
 | descrizione | Il nome del cliente associato all'articolo | Il nome del fornitore associato all'articolo |
 | Testo esterno articolo | La descrizione dell'articolo del cliente | La descrizione dell'articolo del fornitore |
 
-Se molti clienti o fornitori utilizzano gli stessi numeri articolo (come ad esempio nel caso di un'associazione di acquisti o di un gruppo al dettaglio), è possibile creare gruppi di clienti o di fornitori per semplificare la gestione delle informazioni esterne di prodotto.
+Se molti clienti o fornitori utilizzano gli stessi numeri articolo (come ad esempio nel caso di un'associazione di acquisti o di un gruppo commercio), è possibile creare gruppi di clienti o di fornitori per semplificare la gestione delle informazioni esterne di prodotto.
 
 - Per i gruppi di clienti, passare a **Vendite** &gt; **Impostazioni** &gt; **Articoli** &gt; **Descrizione esterna articolo** per creare e gestire i gruppi e i numeri articolo correlati. Per associare clienti a un gruppo, accedere a **Contabilità clienti** &gt; **Clienti** &gt; **Tutti i clienti**, quindi nella Scheda dettaglio **Impostazioni predefinite ordine cliente**, specificare un valore nel campo **Articolo - Gruppo di clienti**.
 - Per i gruppi di fornitori, passare ad **Approvvigionamento** &gt; **Impostazioni** &gt; **Gruppo descrizioni esterne articolo** per creare e gestire i gruppi e i numeri articolo correlati. Per associare fornitori a un gruppo, accedere a **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**, quindi nella Scheda dettaglio **Impostazioni predefinite ordine fornitore**, specificare un valore nel campo **Articolo - Gruppo di fornitori**.

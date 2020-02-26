@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563391"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004090"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Cross-docking di prodotti da magazzino ricevente a punti vendita
 
@@ -31,7 +31,7 @@ In questa procedura vengono descritti i passaggi per creare ed elaborare un cros
 
 1. Fare clic su Tutti gli ordini fornitore.
 2. Selezionare l'ordine fornitore nell'elenco e fare clic sul collegamento per aprire l'ordine.
-3. Nel riquadro azioni, fare clic su Vendita al dettaglio.
+3. Nel riquadro azioni fare clic su Retail e Commerce.
 4. Fare clic su Cross-docking.
 5. Fare clic su Modifica.
     * La categoria può essere utilizzata per filtrare gli articoli nella sezione Righe.  

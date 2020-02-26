@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024253"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006519"
 ---
 # <a name="get-started-with-talent"></a>Introduzione a Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024253"
 In Microsoft Dynamics 365 Talent è facile modificare l'interfaccia utente ed impostare le opzioni che rendono il software più intuitivo per le proprie esigenze. In questo argomento sono inclusi i collegamenti agli argomenti che forniscono informazioni su come adattare l'interfaccia utente alle proprie preferenze. L'argomento include inoltre collegamenti alle risorse che consentono di trovare in modo efficace e accurato le informazioni nel sistema. 
 
 > [!NOTE] 
-> I tre prodotti seguenti sono strettamente correlati: Dynamics 365 Finance, Dynamics 365 Retail e Dynamics 365 Talent La stessa funzionalità può essere presente in tutti i tre prodotti. Di conseguenza, negli argomenti correlati principalmente a Retail, il nome del prodotto sarà Dynamics 365 Retail; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 Talent; negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 Finance. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
+> I tre prodotti seguenti sono strettamente correlati: Dynamics 365 Finance, Dynamics 365 Commerce e Dynamics 365 Talent La stessa funzionalità può essere presente in tutti i tre prodotti. Di conseguenza, negli argomenti correlati principalmente a Commerce, il nome del prodotto sarà Dynamics 365 Commerce; negli argomenti correlati principalmente a Talent, il nome del prodotto sarà Dynamics 365 Talent; negli argomenti relativi al prodotto di base, il nome del prodotto sarà Dynamics 365 Finance. Gli argomenti redatti per un prodotto possono essere applicati alla stessa funzionalità di un prodotto correlato.
 
 ## <a name="personalizing-talent"></a>Personalizzazione di Talent 
 Nei seguenti argomenti viene illustrato come impostare molte funzionalità di Talent che rendono l'esecuzione delle attività più semplice ed efficace. 

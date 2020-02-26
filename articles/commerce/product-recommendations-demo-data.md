@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697936"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003236"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Ottenere suggerimenti sul prodotto utilizzando i dati dimostrativi
 Questo documento fornisce una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
@@ -39,7 +39,7 @@ Per gli ambienti di livello 1, i suggerimenti sui prodotti si basano solo sui da
 Per abilitare i dati dimostrativi dei suggerimenti sui prodotti, è necessario distribuire l'Estensione dimostrativa dell'anteprima di Dynamics 365 Commerce al rispettivo ambiente. In questo modo, si abilitano i dati dimostrativi dei suggerimenti sui prodotti.
 
 ## <a name="default-demo-data"></a>Dati dimostrativi predefiniti
-Ogni ambiente di tipo Onebox viene fornito con un set precaricato di dati dimostrativi di suggerimenti sui prodotti memorizzati nel file 'reco_demo_data.csv', situato nel Server Retail.
+Ogni ambiente di tipo Onebox viene fornito con un set precaricato di dati dimostrativi di suggerimenti sui prodotti memorizzati nel file "reco_demo_data.csv", situato in Commerce Scale Unit.
 
 I dati sono strutturati nelle seguenti colonne.
 

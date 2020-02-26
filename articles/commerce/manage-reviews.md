@@ -3,7 +3,7 @@ title: Gestire valutazioni e recensioni
 description: In questo argomento viene descritto come gestire valutazioni e recensioni utilizzando lo strumento di moderazione di valutazioni e recensioni di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698028"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027244"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestire valutazioni e recensioni
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come gestire valutazioni e recensioni utilizzando lo strumento di moderazione di valutazioni e recensioni di Microsoft Dynamics 365 Commerce.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce utilizza il servizio cognitivo di Microsoft Azure per mode
 - Moderare le recensioni rispondendo alle stesse o rimuovendole.
 - Eliminare le recensioni di un cliente su richiesta del cliente.
 - Importare in blocco i dati di valutazioni e recensioni per tutti i prodotti in un modello di Microsoft Power BI, di modo che i trend di valutazioni e recensioni possano essere analizzati.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Accedere alle funzionalità di moderazione di valutazioni e recensioni
+
+Per accedere alle funzionalità di moderazione di valutazioni e recensioni nello strumento di gestione del sito di e-commerce, attenersi alla seguente procedura.
+
+1. Accedere a [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Aprire il progetto contenente l'ambiente in cui si desidera inizializzare e-Commerce.
+1. Nella sezione **Ambienti**, selezionare l'ambiente.
+1. In **Funzionalità ambiente**, selezionare **Gestione vendita al dettaglio**.
+1. Nella scheda **e-Commerce** sotto **Collegamenti**, selezionare **Strumento di gestione del sito di e-Commerce**.
 
 ## <a name="read-a-review"></a>Leggere una recensione 
 

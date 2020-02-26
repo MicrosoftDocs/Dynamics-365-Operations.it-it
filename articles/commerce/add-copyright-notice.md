@@ -3,7 +3,7 @@ title: Aggiungere informazioni sul copyright
 description: In questo argomento viene descritto come aggiungere informazioni sul copyright nel sito di e-Commerce.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914575"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025484"
 ---
 # <a name="add-a-copyright-notice"></a>Aggiungere informazioni sul copyright
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere informazioni sul copyright nel sito di e-Commerce.
@@ -48,8 +48,8 @@ Per aggiungere informazioni sul copyright nella parte inferiore di ogni pagina c
 1. Nel pannello di navigazione, selezionare il pulsante con i puntini di sospensione (**...**) accanto a **Piè di pagina** e selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo, selezionare **Categoria piè di pagina** e quindi **OK**.
 1. Nel pannello di navigazione, selezionare il pulsante con i puntini di sospensione accanto a **Piè di pagina** e selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo, selezionare **Elemento blocco ricco di contenuti** e quindi **OK**.
-1. Nel pannello di navigazione, selezionare **Elemento blocco ricco di contenuti**.
+1. Nella finestra di dialogo, selezionare **Blocco di testo** e quindi **OK**.
+1. Nel pannello di navigazione, selezionare **Blocco di testo**.
 1. Nel riquadro delle proprietà a destra, nel campo **Paragrafo**, aggiungere le informazioni sul copyright. Ad esempio, immettere **(C) Fabrikam 2019**.
 1. Selezionare **Salva**, **Archivia** e quindi **Pubblica**.
 1. In **Modelli**, selezionare il modello e quindi **Estrai**.
