@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Visualizzazioni salvate
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Funzionalità di griglia
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Incorporare app PowerApps
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Impostare i codici reporting IVA
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Supporto doppia valuta per l'IVA
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Specifica IVA per report di transazione della contabilità generale
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Impostare i periodi di liquidazione IVA
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Approvvigionamento nel settore pubblico
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Calcolare la data di consegna per una riga, in base al lead time'
+              href: public-sector/po-delivery-date.md
             - name: Ruoli di sicurezza nel settore pubblico
               href: public-sector/security-roles-public-sector.md
             - name: Fondi nel settore pubblico
@@ -1298,6 +1304,8 @@
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED fiscale - Layout 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Impostare contributi SPED EFD
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Parametri per le persone giuridiche
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Impostare i parametri della persona giuridica
@@ -2807,6 +2815,8 @@
               items:
                 - name: Panoramica di Reporting Services per documenti
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Caratteri supportati
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare SSRS per distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Stampa
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

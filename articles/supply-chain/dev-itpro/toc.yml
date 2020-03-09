@@ -456,8 +456,6 @@
           items:
             - name: Panoramica della creazione di modelli ed elementi del modello dati
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Linee guida sulla denominazione per estensioni
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Disattivare la personalizzazione del modello e la funzionalità deprecata
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Report di Analisi personalizzazione
@@ -1222,7 +1220,7 @@
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Operazioni e assistenza cloud
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Gestire le esperienze di supporto per  Finance and Operations
+    - name: Gestire le esperienze di supporto per Finance and Operations
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Amministrazione sistema
   items:
