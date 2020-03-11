@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 160dd81baa43702b2deea1e3eea20080fca122ca
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c90772ca1e93500ac45cc52ba92d4169c4d29bad
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917628"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042621"
 ---
 # <a name="VALUE">Funzione ER VALUE</a>
 
@@ -33,7 +33,7 @@ La funzione `VALUE` restituisce un valore *Reale* che viene convertito dalla str
 
 ## <a name="syntax"></a>Sintassi
 
-```
+```vb
 VALUE (text)
 ```
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771543"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070762"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -120,11 +120,11 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 | ADJ                     | Limita gli importi nella colonna agli importi di rettifica di periodo, se questi importi sono disponibili. |
 | XAD                     | Limita gli importi nella colonna in modo da escludere gli importi di rettifica di periodo. |
 | TP                      | Limita gli importi nella colonna, in modo che solo le transazioni registrate vengono incluse, se le transazioni sono disponibili. |
-| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<p><strong>Nota:</strong> Non tutti i provider di dati supportano le transazioni non registrate. Per ulteriori informazioni, vedere la <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guida di integrazione dei dati</a> per il sistema Microsoft Dynamics ERP.</p> |
+| UPT                     | Limita gli importi nella colonna, in modo che solo le transazioni non registrate vengono incluse, se le transazioni sono disponibili.<p><strong>Nota:</strong> Non tutti i provider di dati supportano le transazioni non registrate. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Limitare una colonna a un'unità gerarchica
 
-1. In Progettazione report aprire la definizione di colonna da modificare.
+1. In Progettazione report, aprire la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Unità gerarchica** per la colonna da limitare.
 3. Nella finestra di dialogo **Selezione unità gerarchica**, elenco **Albero gerarchico**, selezionare un albero.
 4. Espandere o comprimere l'elenco delle unità, selezionare un'unità gerarchica quindi fare clic su **OK**.
@@ -435,7 +435,7 @@ La cella **Periodo** identifica i periodi fiscali che la colonna deve includere.
 | BASE-\#:BASE+\# | Utilizza più periodi, da diversi periodi prima del periodo base fino a diversi periodi dopo il periodo base. Ad esempio, per utilizzare i tre periodi precedenti, il periodo base e i due periodi successivi, immettere **BASE-3:BASE+2**. |
 | 1:BASE          | Utilizza più periodi, dal primo periodo fino al periodo base. |
 | \#              | Utilizza sempre un numero specifico di periodi. Non è consigliabile scegliere questa opzione, poiché riduce la flessibilità della definizione di colonna. |
-| \#                                      : \#           | Utilizza sempre uno specifico intervallo di periodi. Non è consigliabile scegliere questa opzione, poiché riduce la flessibilità della definizione di colonna. |
+| \#:\#           | Utilizza sempre uno specifico intervallo di periodi. Non è consigliabile scegliere questa opzione, poiché riduce la flessibilità della definizione di colonna. |
 
 È possibile andare oltre i limiti dell'anno fiscale in qualsiasi specifica di periodi ed è possibile combinare gli anni in un intervallo di periodi. Ad esempio, si specificano i periodi come **BASE-5** (per rappresentare gli ultimi sei periodi) e si esegue un report con un periodo di base di 2. In questo caso, nel report vengono visualizzati i dati dei primi due periodi dell'anno fiscale specificato e degli ultimi quattro periodi dell'anno fiscale precedente.
 

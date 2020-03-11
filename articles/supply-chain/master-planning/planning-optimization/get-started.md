@@ -3,7 +3,7 @@ title: Introduzione all'ottimizzazione di pianificazione
 description: Questo argomento illustra come iniziare a utilizzare la funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971466"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076134"
 ---
+# <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione di pianificazione
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione di pianificazione
 
 La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Microsoft Dynamics 365 Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. Per impostazione predefinita, la funzionalità di ottimizzazione di pianificazione non è abilitata in Dynamics Lifecycle Services (LCS). Pertanto, è possibile effettuare la valutazione prima che venga attivata.
 
@@ -44,6 +44,9 @@ Se è possibile eseguire la pianificazione generale utilizzando la licenza corre
 ### <a name="install-the-add-in"></a>Installare il componente aggiuntivo
 
 Per utilizzare l'ottimizzazione di pianificazione, installare il componente aggiuntivo Ottimizzazione di pianificazione per Dynamics 365 Supply Chain Management. È possibile accedere al componente aggiuntivo dal progetto LCS e attivare la funzionalità di ottimizzazione di pianificazione dall'interfaccia utente (UI) di Supply Chain Management.
+
+> [!NOTE]
+> Il requisito per l'ottimizzazione della pianificazione è un ambiente ad alta disponibilità abilitato per LCS (non un ambiente OneBox), con Dynamics 365 Supply Chain Management versione 10.0.7 o successiva.
 
 1. Accedere a LCS e aprire l'ambiente desiderato.
 1. Andare a **Dettagli completi**.

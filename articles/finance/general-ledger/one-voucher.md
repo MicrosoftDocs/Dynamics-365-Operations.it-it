@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810701"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058019"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -156,7 +156,7 @@ Le organizzazioni spesso desiderano registrare nella contabilità generale in fo
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Liquidare più pagamenti non registrati con la stessa fattura
 
-Questo scenario è tipico soprattutto delle organizzazioni di vendita al dettaglio in cui i clienti possono utilizzare molteplici metodi di pagamento per pagare gli acquisti. In questo scenario, l'organizzazione deve poter registrare i molteplici pagamenti non registrati e liquidarli a fronte della fattura cliente.
+Questo scenario è tipico soprattutto delle organizzazioni in cui i clienti possono utilizzare molteplici metodi di pagamento per pagare gli acquisti. In questo scenario, l'organizzazione deve poter registrare i molteplici pagamenti non registrati e liquidarli a fronte della fattura cliente.
 
 Una nuova funzionalità aggiunta in Microsoft Dynamics 365 for Operations versione 1611 (novembre 2016) consente di liquidare un'unica fattura con più pagamenti non registrati. I pagamenti cliente multipli non devono più essere immessi in un singolo giustificativo.
 

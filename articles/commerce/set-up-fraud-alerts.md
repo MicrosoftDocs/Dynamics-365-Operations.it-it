@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023057"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057211"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Impostazione e utilizzo degli avvisi di frode del servizio clienti
 
@@ -54,6 +54,7 @@ Infine utilizzare il campo **Tipo di commento frode** per specificare il tipo di
 Il sistema fa riferimento a due tipi di criteri di frode per determinare se un ordine deve essere messo in attesa per l'esame antifrode:
 
 - **Dati fraudolenti statici** utilizza un valore specifico, ad esempio un numero di telefono che è stato inserito in un elenco di numeri bloccati o un indirizzo e-mail che è stato contrassegnato perché notoriamente utilizzato per transazioni fraudolente. Per impostare i dati fraudolenti statici, passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Frode** \> **Dati fraudolenti statici**. Nella pagina **Dati fraudolenti statici** è possibile aggiungere criteri di frode manualmente o tramite importazione di dati. I punteggi vengono collegati alle informazioni fraudolente. Se la funzionalità di verifica frodi è attivata, ogni ordine cliente che viene immesso viene confrontato con i dati statici. Se i dati si trovano nell'indirizzo di fatturazione del cliente o nell'indirizzo di consegna che è collegato all'intestazione dell'ordine o se i dati si trovano negli indirizzi di consegna che sono collegati a una o più righe qualsiasi dell'ordine cliente, i punteggi di tutte le corrispondenze univoche vengono aggiunti insieme e confrontati con i valori di **Punteggio minimo** per determinare se l'ordine deve essere messo in attesa.
+
 - Le **regole su frode** consistono in variabili definite dall'utente e in condizioni definite per tali variabili. Per creare le regole, passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Frode** \> **Regole**. Le regole su frode consentono a una società di configurare una regola più complessa che può includere istruzioni **AND** o **OR** per valutare più condizioni. Ad esempio, un utente vuole che tutti gli ordini per i clienti che appartengono a uno specifico gruppo di clienti e che hanno ordinato un prodotto specifico vengano messi in attesa di esame antifrode. In questo caso, le condizioni per convalidare il cliente e i prodotti vengono definite nella pagina **Regole** e viene utilizzare la condizione AND. Un ordine viene quindi messo in attesa solo se entrambe le condizioni sono vere se il valore del punteggio che viene assegnato a questa regole, più il valore di punteggio di qualsiasi altra regola con cui l'ordine trova corrispondenza, il punteggio totale per frode dell'ordine supera il valore di **Punteggio minimo** che è definito nella pagina **Parametri servizio clienti**.
 
 > [!NOTE]

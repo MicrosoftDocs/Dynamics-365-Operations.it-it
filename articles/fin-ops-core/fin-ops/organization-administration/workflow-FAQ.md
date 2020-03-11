@@ -3,7 +3,7 @@ title: Domande frequenti sui flussi di lavoro
 description: In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934911"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076088"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -52,5 +52,9 @@ Di seguito sono descritte alcune aree chiave da prendere in considerazione in re
 
 Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate per fornire notifiche aggiuntive o differenti.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>L'editor del flusso di lavoro ha difficoltà ad avviarsi in ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Perché l'editor flusso di lavoro non è in grado di avviarsi in ADFS?
 Durante l'esecuzione in Active Directory Federation Services (ADFS) in un ambiente aggiornato, l'editor del flusso di lavoro potrebbe avere problemi ad avviarsi. In tal caso, assicurarsi che l'URL "https://dynamicsaxworkfloweditor/" venga aggiunto alla proprietà **Microsoft Dynamics 365 for Operations locale - Flusso di lavoro - Applicazione nativa** nelle impostazioni ADFS.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Perché si ricevono blocchi critici SQL per l'elaborazione del flusso di lavoro? 
+Il valore predefinito per **Numero di elementi del flusso di lavoro per batch** nella pagina **Parametri del flusso di lavoro** è 0. Un valore pari a 0 fa sì che il valore predefinito cambi in 20 elementi per batch. Prestare attenzione quando si regola questo valore perché un numero elevato di elementi per batch (> 40) può causare blocchi critici SQL.
+

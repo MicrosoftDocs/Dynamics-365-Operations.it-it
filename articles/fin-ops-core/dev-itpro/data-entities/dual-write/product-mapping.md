@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019857"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081153"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -109,7 +109,7 @@ Si noti che la sincronizzazione dei prodotti avviene dalle app Finance and Opera
 
 Le dimensioni prodotto sono caratteristiche che identificano una variante prodotto. Le quattro dimensioni prodotto (colore, dimensione, stile e configurazione) vengono inoltre mappati a Common Data Service per definire le varianti prodotto. Nella figura seguente è illustrato il modello di dati per la dimensione prodotto Colore. Lo stesso modello viene applicato a Dimensioni, Stili e Configurazioni. 
 
-![Modello di dati per prodotti](media/dual-write-product-2.PNG)
+![Modello di dati per prodotti](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli
 
 Le unità di misura e le relative conversioni sono disponibili in Common Data Service mediante il modello di dati visualizzato nel diagramma.
 
-![Modello di dati per prodotti](media/dual-write-product-3.PNG)
+![Modello di dati per prodotti](media/dual-write-product-three.png)
 
 Il concetto di unità di misura è integrato tra le app Finance and Operations e altre app Dynamics 365. Per ogni classe di unità di misura in un'app Finance and Operations, viene creato un gruppo di unità in un'app Dynamics 365, che contiene le unità appartenenti alla classe di unità di misura. Un'unità di base predefinita viene inoltre creata per ogni gruppo di unità. 
 
@@ -205,13 +205,13 @@ Per identificare in modo univoco i prodotti tra Dynamics 365 for Finance and Ope
 
 Per un altro utente di app Dynamics 365, il prodotto viene identificato nell'interfaccia utente con **msdyn_productnumber** (notare che l'etichetta del campo è **Numero prodotto**). Nel modulo del prodotto sono mostrati sia l'azienda che il msydn_productnumber. Tuttavia, il campo (productnumber), la chiave univoca per un prodotto, non viene visualizzato. 
 
-Tenere presente che se le app sono concepite su Common Data Service, è necessario prestare particolare attenzione all'utilizzo di (productnumber), ovvero l'ID prodotto univoco, come chiave di integrazione, e non msdyn_productnumber, poiché l'ultimo è non unico. 
+Se si creano app in Common Data Service, è necessario prestare attenzione all'utilizzo di **productnumber** (l'ID univoco del prodotto) come chiave di integrazione. Non usare **msdyn_productnumber** perché non è univoco. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sincronizzazione iniziale dei prodotti e migrazione dei dati da Common Data Service a Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Sincronizzazione iniziale dei prodotti 
 
-Quando la doppia scrittura è abilitata, i prodotti Dynamics 365 Finance and Operations sono sincronizzati con Common Data Service e altre app Dynamics 365. Si noti che i prodotti creati in Common Data Service e nelle altre app Dynamics 365 prima della scrittura doppia non verranno aggiornati o abbinati ai dati del prodotto da Finance and Operations.
+Quando la doppia scrittura è abilitata, i prodotti delle app Finance and Operations sono sincronizzati con Common Data Service e altre app basate su modello in Dynamics 365. I prodotti creati in Common Data Service e nelle altre app Dynamics 365 prima del rilascio della doppia scrittura non verranno aggiornati o abbinati ai dati del prodotto da Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Corrispondenza dei dati di prodotto da Finance and Operations e altre app di Dynamics 365
 

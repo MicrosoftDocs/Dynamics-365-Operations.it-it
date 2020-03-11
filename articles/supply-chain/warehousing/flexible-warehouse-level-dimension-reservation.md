@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031045"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036931"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -46,7 +46,7 @@ In questi scenari, la difficoltà risiede nel fatto che una sola gerarchia di pr
 
 ### <a name="business-scenario"></a>Scenario aziendale
 
-In questo scenario, una società utilizza una strategia di inventario in cui i prodotti finiti vengono tracciati mediante numeri di batch. Questa società utilizza anche il carico di lavoro WHS. Poiché questo carico di lavoro ha una logica adeguata per la pianificazione e l'esecuzione delle operazioni di prelievo e spedizione in magazzino per articoli abilitati per batch, la maggior parte degli articoli finiti è associata a una gerarchia di prenotazioni di inventario "Batch-below\[location\]". Il vantaggio di questo tipo di impostazione operativa è che le decisioni (che sono in realtà decisioni di prenotazione) relative a quali batch prelevare e dove stoccarli nel magazzino vengono rinviate fino all'inizio delle operazioni di prelievo in magazzino. Non vengono effettuate quando l'ordine del cliente viene eseguito.
+In questo scenario, una società utilizza una strategia di inventario in cui i prodotti finiti vengono tracciati mediante numeri di batch. Questa società utilizza anche il carico di lavoro WMS. Poiché questo carico di lavoro ha una logica adeguata per la pianificazione e l'esecuzione delle operazioni di prelievo e spedizione in magazzino per articoli abilitati per batch, la maggior parte degli articoli finiti è associata a una gerarchia di prenotazioni di inventario "Batch-below\[location\]". Il vantaggio di questo tipo di impostazione operativa è che le decisioni (che sono in realtà decisioni di prenotazione) relative a quali batch prelevare e dove stoccarli nel magazzino vengono rinviate fino all'inizio delle operazioni di prelievo in magazzino. Non vengono effettuate quando l'ordine del cliente viene eseguito.
 
 Sebbene la gerarchia di prenotazioni "Batch-below\[location\]" soddisfi pienamente gli obiettivi di business della società, molti dei clienti usuali dell'azienda richiedono lo stesso batch che avevano acquistato in precedenza quando riordinano i prodotti. Pertanto, la società necessita di flessibilità nel modo in cui vengono gestite le regole di prenotazione di batch, di modo che, a seconda della domanda dei clienti per lo stesso articolo, si verifichino i seguenti comportamenti:
 

@@ -3,7 +3,7 @@ title: Confronto tra funzionalità cloud e locali
 description: Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005728"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081972"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -81,6 +81,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 |                                      | Registrazione attività - Salvataggio o caricamento di registrazioni attività dalla libreria BPM                         | Sì       | No              |
 | Supporto                              |                                                                                           | Sì       | Sì             |
 |                                      | Accesso al supporto tramite il menu Guida e supporto                                             | Sì       | Nessuno              |
+|                                      | Eventi aziendali                                                                           | Sì       | Sì (è necessaria la connessione Internet o è necessario implementare endpoint personalizzati per inviare/ricevere eventi aziendali nella rete Intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Per visualizzare un elenco delle capacità disponibili nelle distribuzioni locali, vedere [Capacità vendita al dettaglio disponibili in distribuzioni locali](../../../retail/retail-onprem.md).
+Per visualizzare un elenco delle capacità disponibili nelle distribuzioni locali, vedere [Funzionalità di commercio disponibili in distribuzioni locali](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

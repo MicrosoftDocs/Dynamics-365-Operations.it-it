@@ -1,9 +1,9 @@
 ---
 title: Home page delle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770948"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090591"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -51,18 +51,18 @@ ms.locfileid: "2770948"
 - [Importare configurazioni per la creazione di report elettronici (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generazione, pubblicazione e stampa di documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Configurare proxy per ambienti locali](onprem-reverseproxy.md)
-- [Impostare il supporto tecnico per app Finance and Operations](../lifecycle-services/support-experience.md)
+- [Impostare il supporto tecnico per le app Finance and Operations](../lifecycle-services/support-experience.md)
 - [Connettività Internet client](../user-interface/client-disconnected.md)
 - [Applicare aggiornamenti a distribuzioni locali](apply-updates-on-premises.md)
 - [Ridistribuire ambienti locali](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Capacità vendita al dettaglio disponibili in distribuzioni locali](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Funzionalità di Commerce disponibili nelle distribuzioni locali](../../../retail/retail-onprem.md)
 - [Passaggi di installazione per i componenti del canale di vendita al dettaglio in un ambiente locale](deploy-retail-onprem.md)
-- [Configurare, installare e attivare Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Configurare e installare Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurare, installare e attivare Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Configurare e installare Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-## <a name="upgrade"></a>Aggiorna
+## <a name="upgrade"></a>Aggiornamento
 - [Processo di aggiornamento sul posto per ambienti locali](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Altre risorse

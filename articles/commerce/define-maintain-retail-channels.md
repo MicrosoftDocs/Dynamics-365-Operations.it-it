@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022996"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057916"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definire e gestire canali di vendita al dettaglio
 
@@ -47,9 +47,9 @@ Prima di impostare un punto vendita, è necessario completare le seguenti attivi
 3. Impostare le sequenze numeriche per i punti vendita, i rendiconti per il punto vendita e i giustificativi dei rendiconti.
 4. Configurare i parametri per Commerce.
 5. Impostare i metodi di pagamento accettati dal punto vendita.
-6. Per elaborare le transazioni con carta di credito nei registratori di cassa Retail POS, è possibile impostare i servizi di pagamento.
+6. Per elaborare le transazioni con carta di credito nei registratori di cassa POS, è possibile impostare i servizi di pagamento.
 7. Impostare le fasce IVA.
-8. Impostare i prodotti di vendita al dettaglio. Come parte dell'attività, si impostano anche le gerarchie di prodotti, le varianti prodotto e gli assortimenti prodotto.
+8. Impostare i prodotti. Come parte dell'attività, si impostano anche le gerarchie di prodotti, le varianti prodotto e gli assortimenti prodotto.
 9. Impostare i gruppi di prezzo dei prodotti.
 10. Impostare i prezzi dei prodotti. Come parte dell'attività, si impostano anche le rettifiche prezzo, gli sconti e i periodi di sconto.
 11. Impostare i membri del personale.
@@ -87,5 +87,5 @@ Dopo aver immesso i dettagli relativi al punto vendita, completare queste attivi
 Commerce utilizza gerarchie organizzative per strutturare canali. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. Quando si impostano gli archivi, è possibile aggiungerli a una gerarchia organizzativa. I punti vendita, quindi, condividono i dati utilizzati per assortimenti, rifornimento e reporting.
 
 > [!NOTE]
-> Per utilizzare la funzionalità di vendita al dettaglio, la chiave di configurazione per **Indirizzi di spedizione multipli**deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\>**Impostazioni**\>**Configurazione licenza**. Ciò è necessario a causa della funzionalità Retail che esegue varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente.
+> Per utilizzare la funzionalità di Commerce, la chiave di configurazione per **Indirizzi di spedizione multipli** deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\> **Impostazioni** \> **Configurazione licenza**. Ciò è necessario a causa delle varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente.
 

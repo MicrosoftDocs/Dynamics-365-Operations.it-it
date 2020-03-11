@@ -3,7 +3,7 @@ title: Creare regole di avviso
 description: In questo argomento vengono fornite informazioni sugli avvisi e viene descritto come creare una regola di avviso in modo da essere informati sugli eventi come una data in arrivo o una specifica modifica.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180716"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075926"
 ---
 # <a name="create-alert-rules"></a>Creare regole di avviso
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180716"
 
 Prima di impostare una regola di avviso, è necessario decidere quando o in quali situazioni si desidera ricevere avvisi. Dopo avere individuato l'evento per il quale si desidera ricevere una notifica, trovare la pagina in cui vengono visualizzati i dati che causano l'evento. L'evento può essere una data prossima o una specifica modifica che si verificherà. Di conseguenza, è necessario individuare la pagina in cui è specificata la data o dove viene visualizzato il campo che cambia o il nuovo record creato. Una volta ottenute queste informazioni, sarà possibile creare la regola di avviso.
 
-Quando si crea una regola di avviso, si definiscono i criteri che devono essere soddisfatti prima dell'attivazione di un avviso. È possibile considerare i criteri come una corrispondenza tra il verificarsi di un evento e la soddisfazione di specifiche condizioni. Quando si verifica un evento, il sistema inizia a effettuare una verifica in base alle condizioni impostate.
+Quando si crea una regola di avviso, si definiscono i criteri che devono essere soddisfatti prima dell'attivazione di un avviso. I criteri sono fondamentalmente la corrispondenza tra il verificarsi di un evento e la soddisfazione di specifiche condizioni. Quando si verifica un evento, il sistema inizia a effettuare una verifica in base alle condizioni impostate.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Assicurarsi che i processi batch di avviso siano in esecuzione
+
+I processi batch per la modifica dei dati e gli avvisi di scadenza devono essere in esecuzione per l'elaborazione delle condizioni di avviso e l'invio delle notifiche. Per eseguire i processi batch, andare ad **Amministrazione sistema** > **Attività periodiche** > **Avvisi** e aggiungere un nuovo processo batch per **Avvisi basati su modifica** e/o **Avvisi data di scadenza**. Se è necessario un processo batch lungo e spesso in esecuzione, selezionare **Ricorrenza** e impostare **Nessuna data di fine** con un **Modello di ricorrenza** di **Minuti** e un **Conteggio** di **1**.
 
 ## <a name="events"></a>Eventi
 
@@ -70,16 +74,21 @@ Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea reg
 
 ## <a name="user-id"></a>ID utente
 
-Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea regola di avviso**, è possibile specificare l'utente destinatario dei messaggi di avviso. Per impostazione predefinita, è selezionato il proprio ID utente. Questa opzione è limitata agli amministratori dell'organizzazione.
+Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea regola di avviso**, è possibile specificare l'utente destinatario dei messaggi di avviso. Per impostazione predefinita, è selezionato il proprio ID utente. La possibilità di modificare l'utente che riceve l'avviso è limitata agli amministratori dell'organizzazione.
+
+## <a name="alerts-as-business-events"></a>Avvisi come eventi aziendali
+
+Gli avvisi possono essere inviati esternamente utilizzando il framework degli eventi aziendali. Quando si crea un avviso, impostare **A livello di organizzazione** su **No** e impostare **Invia esternamente** su **Sì**. Dopo aver ricevuto l'avviso che attiva l'evento aziendale, è possibile attivare un flusso integrato in Power Automate usando il trigger **Quando si verifica un evento aziendale** sul connettore Finance and Operations o inviare esplicitamente l'evento a un endpoint di eventi aziendali tramite il **Catalogo degli eventi aziendali**.
 
 ## <a name="create-an-alert-rule"></a>Crea una regola di avviso
 
+0. Assicurarsi che i processi batch di avviso siano in esecuzione (vedere sopra).
 1. Aprire la pagina contenente i dati da monitorare.
 2. Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea regola di avviso**.
 3. Nella finestra di dialogo **Crea regola di avviso**, nel campo **Campo**, selezionare il campo da monitorare.
 4. Nel campo **Evento**, selezionare il tipo di evento.
-5. Nella Scheda dettaglio **Invia avviso per**, selezionare un'opzione.
+5. Nella Scheda dettaglio **Invia avviso per**, selezionare l'opzione desiderata. Se si desidera inviare l'avviso come evento aziendale, assicurarsi che **A livello di organizzazione** sia impostato su **No**.
 6. Se si desidera che la regola di avviso diventi inattiva in corrispondenza di una data specifica, selezionare una data di fine nella Scheda dettaglio **Invia avviso fino a**.
-7. Nella Scheda dettaglio **Invia avviso con**, nel campo **Oggetto**, accettare la voce indice predefinita per il messaggio di posta elettronica o immettere un nuovo oggetto. Il testo è utilizzato come voce indice del messaggio di posta elettronica che si riceve quando viene attivato un avviso.
+7. Nella Scheda dettaglio **Invia avviso con**, nel campo **Oggetto**, accettare la voce indice predefinita per il messaggio di posta elettronica o immettere un nuovo oggetto. Il testo è utilizzato come voce indice del messaggio di posta elettronica che si riceve quando viene attivato un avviso. Se si desidera inviare l'avviso come evento aziendale, impostare **Invia esternamente** su **Sì**.
 8. Nel campo **Messaggio**, immettere un messaggio facoltativo. Il testo viene utilizzato come il messaggio ricevuto quando un avviso viene attivato.
 9. Selezionare **OK** per salvare le impostazioni e creare la regola di avviso.

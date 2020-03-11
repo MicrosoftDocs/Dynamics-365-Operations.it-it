@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024731"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057742"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurare le funzionalità facoltative per un ambiente di anteprima Dynamics 365 Commerce
 
@@ -45,9 +45,9 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 ### <a name="find-your-media-base-url"></a>Individuare l'URL di base multimediale
 
 > [!NOTE]
-> Prima di poter completare questa procedura, è necessario completare i passaggi in [Configura il tuo sito in Commerce ](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Prima di poter completare questa procedura, è necessario completare i passaggi in [Configura il tuo sito in Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Accedi allo strumento di gestione del sito Commerce utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedi [Inizializzare l'e-Commerce ](provisioning-guide.md#initialize-e-commerce)).
+1. Accedi allo strumento di gestione del sito Commerce utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedere [Inizializzare l'e-Commerce](provisioning-guide.md#initialize-e-commerce)).
 1. Aprire il sito **Fabrikam**.
 1. Nel menu a sinistra scegliere **Risorse**.
 1. Selezionare qualsiasi singolo asset di immagine.
@@ -63,13 +63,13 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 
 ### <a name="update-the-media-base-url"></a>Aggiornare l'URL di base multimediale
 
-1. Accedere a Dynamics 365 Retail.
-1. Utilizzando il menu a sinistra, selezionare **Moduli \> Vendita al dettaglio \> Impostazione canale \> Profili canale**.
+1. Accedere a Dynamics 365 Commerce.
+1. Utilizzando il menu a sinistra, selezionare **Moduli \> Vendita al dettaglio e commercio \> Impostazione canale \> Profili canale**.
 1. Selezionare **Modifica**.
 1. In **Proprietà profilo**, sostituire il valore della proprietà **URL di base server multimediale** con l'URL di base multimediale creato in precedenza.
 1. Nell'elenco a sinistra, nel canale **Predefinito** selezionare l'altro canale.
 1. In **Proprietà profilo**, selezionare **Aggiungi**.
-1. Per la proprietà che è stata aggiunta, selezionare **URL di base server multimediale**come chiave proprietà. Come valore della proprietà, inserisci l'URL di base multimediale che hai creato in precedenza.
+1. Per la proprietà che è stata aggiunta, selezionare **URL di base server multimediale** come chiave proprietà. Come valore della proprietà, inserisci l'URL di base multimediale che hai creato in precedenza.
 1. Selezionare **Salva**.
 
 ## <a name="configure-the-email-server"></a>Configurare il server di posta elettronica
@@ -77,10 +77,10 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 > [!NOTE]
 > il server SMTP o il servizio di posta elettronica specificato qui deve essere accessibile dalla sottoscrizione di Azure utilizzata per l'ambiente.
 
-1. Accedere a Retail.
+1. Accedere a Commerce.
 1. Utilizzando il menu a sinistra, selezionare **Moduli \> Amministrazione sistema \> Impostazioni \> Posta elettronica \> Parametri posta elettronica**.
 1. Nella scheda **Impostazioni SMTP**, nel campo **Server di posta in uscita**, immettere il nome FQDN o l'indirizzo IP del server SMTP o del servizio di posta elettronica.
-1. Nel campo **Numero porta SMTP** immettere il numero di porta. (Se non si utilizza Secure Sockets Layer \[SSL \], il numero di porta predefinito è **25** .)
+1. Nel campo **Numero porta SMTP** immettere il numero di porta. (Se non si utilizza Secure Sockets Layer \[SSL\], il numero di porta predefinito è **25** .)
 1. Se è richiesta l'autenticazione, immettere i valori nei campi **Nome utente**e **Password**.
 1. Selezionare **Salva**.
 1. Selezionare **Aggiorna**.
@@ -92,7 +92,7 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 
 Per ciascun evento transazionale per il quale si desidera inviare messaggi di posta elettronica, è necessario aggiornare il modello di messaggio di posta elettronica con un indirizzo di posta elettronica del mittente valido.
 
-1. Accedere a Retail.
+1. Accedere a Commerce.
 1. Utilizzare il menu a sinistra per selezionare **Moduli \> Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
 1. Selezionare **Mostra elenco**.
 1. Per ogni modello dell'elenco, effettuare le operazioni indicate di seguito.
@@ -115,7 +115,7 @@ Potresti voler personalizzare i modelli di messaggio di posta elettronica in mod
     - Modello Preleva ordine
 
 1. Personalizzare i modelli utilizzando un editor di testo o HTML. Vedere l'elenco dei [token supportati](#supported-tokens-in-the-email-template) più avanti in questo argomento.
-1. Accedere a Retail.
+1. Accedere a Commerce.
 1. Utilizzare il menu a sinistra per selezionare **Moduli \> Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
 1. Espandere l'elenco a sinistra per visualizzare tutti i modelli.
 1. Per ogni modello che si desidera personalizzare, attenersi alla seguente procedura:

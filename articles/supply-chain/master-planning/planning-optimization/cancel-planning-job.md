@@ -3,7 +3,7 @@ title: Annullare un processo di pianificazione
 description: In questo argomento viene descritto come annullare un processo attivo di pianificazione che utilizza la funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773992"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076349"
 ---
+# <a name="cancel-a-planning-job"></a>Annullare un processo di pianificazione
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Annullare un processo di pianificazione
+In Microsoft Dynamics 365 Supply Chain Management è possibile annullare un processo attivo di pianificazione che utilizza la funzionalità di ottimizzazione di pianificazione. Quando si seleziona **Annulla** nella finestra di dialogo e un processo di ottimizzazione di pianificazione viene attivato direttamente dall'interfaccia utente (non in background), il processo di ottimizzazione di pianificazione non verrà annullato. Anche se si riceve un avviso come "Operazione annullata", sarà comunque necessario utilizzare i seguenti passaggi per annullare un processo di pianificazione con l'ottimizzazione della pianificazione.
 
-In Microsoft Dynamics 365 Supply Chain Management è possibile annullare un processo attivo di pianificazione che utilizza la funzionalità di ottimizzazione di pianificazione.
 
-Per annullare un processo attivo di pianificazione, effettuare le seguenti operazioni.
+Per annullare un processo attivo di pianificazione, effettuare le seguenti operazioni. 
 
 > [!NOTE]
 > Solo i processi attivo possono essere annullati.
@@ -49,11 +50,11 @@ Lo stato del processo sarà **Annullamento in corso** finché il servizio di ott
 > [!NOTE]
 > Per visualizzare le modifiche di stato, è necessario aggiornare la pagina facendo clic sul pulsante **Aggiorna**.
 
-## <a name="related-resources"></a>Risorse correlate
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ottimizzazione di pianificazione](planning-optimization-overview.md)
+[Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
 
-[Introduzione all'ottimizzazione di pianificazione](get-started.md)
+[Introduzione all'ottimizzazione della pianificazione](get-started.md)
 
 [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
 

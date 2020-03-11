@@ -1,6 +1,6 @@
 ---
-title: Creare un profilo funzionalità per vendità al dettaglio
-description: In questo argomento viene descritto come creare un profilo funzionalità per vendita al dettaglio in Microsoft Dynamics 365 Commerce.
+title: Creare un profilo funzionalità di vendita al dettaglio
+description: In questo argomento viene descritto come creare un profilo funzionalità in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002845"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057350"
 ---
-# <a name="create-a-retail-functionality-profile"></a>Creare un profilo funzionalità per vendità al dettaglio
+# <a name="create-a-retail-functionality-profile"></a>Creare un profilo funzionalità di vendita al dettaglio
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come creare un profilo funzionalità per vendita al dettaglio in Microsoft Dynamics 365 Commerce.
+In questo argomento viene descritto come creare un profilo funzionalità in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Il profilo funzionalità per vendita al dettaglio fornisce varie impostazioni utilizzate per canali online. Ogni canale di vendita al dettaglio deve specificare un profilo funzionalità per vendita al dettaglio.
+Il profilo funzionalità per commercio fornisce varie impostazioni utilizzate per canali online. Ogni canale deve specificare un profilo funzionalità.
 
-## <a name="create-a-retail-functionality-profile"></a>Creare un profilo funzionalità per vendità al dettaglio
+## <a name="create-a-functionality-profile"></a>Crea un profilo funzionalità
 
-Per creare un nuovo profilo funzionalità per vendita al dettaglio, completare i passaggi seguenti:
+Per creare un nuovo profilo funzionalità, completare i passaggi seguenti:
 
 1. Nel pannello di navigazione, andare a **Moduli \> Impostazione canale \> Profili POS \> Profili funzionalità**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
@@ -51,9 +51,9 @@ Per creare un nuovo profilo funzionalità per vendita al dettaglio, completare i
 1. Nella sezione **Codici informativi**, modificare le impostazioni come necessario.
 1. Nella sezione **Numerazione ricevute**, modificare altre impostazioni come necessario. 
   
-L'immagine seguente mostra un esempio di profilo funzionalità per vendita al dettaglio.
+L'immagine seguente mostra un esempio di profilo funzionalità.
   
-![Esempio di profilo funzionalità per vendita al dettaglio](media/retail-functionality-profile.png)
+![Esempio di profilo funzionalità](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

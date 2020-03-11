@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015285"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057672"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Sospensioni credito per ordini cliente
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Gli ordini cliente la cui messa in attesa è stata forzata non possono essere el
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Rilascio di ordini aggiunti all'elenco di sospensioni di gestione crediti con una sospensione forzata del credito
 Gli ordini cliente con un motivo di sospensione forzata non possono essere rilasciati automaticamente. Se la sospensione dell'ordine cliente è stata forzata e si è utilizzato un processo che rilascia automaticamente gli ordini cliente, l'ordine cliente verrà visualizzato come **Pronto per il rilascio** e rimane nell'elenco delle sospensioni. È necessario usare il menu **Rilascio** per rilasciare l'ordine.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Fatture a testo libero, ordini al dettaglio e supporto per fatture di progetto in Gestione crediti 
-Attualmente Gestione crediti può essere utilizzato solo per gli ordini cliente. Le fatture a testo libero, gli ordini cliente POS e gli ordini servizio clienti utilizzeranno i limiti di credito temporanei e le assicurazioni/garanzie aggiunte per adeguare il limite di credito. Non utilizzeranno le regole di blocco e non verranno inseriti nell'elenco di sospensioni in caso di problemi con il limite di credito.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Fatture a testo libero, ordini e supporto per fatture di progetto in Gestione crediti 
+Attualmente Gestione crediti può essere utilizzato solo per gli ordini cliente. Le fatture a testo libero, gli ordini POS e gli ordini servizio clienti utilizzeranno i limiti di credito temporanei e le assicurazioni/garanzie aggiunte per adeguare il limite di credito. Non utilizzeranno le regole di blocco e non verranno inseriti nell'elenco di sospensioni in caso di problemi con il limite di credito.
 
 Non esiste supporto per le fatture di progetto in Gestione crediti.
