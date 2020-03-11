@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f8c12a22f7654285d5598064473bf86689ed207
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 62e34628712066d92a244676123ce928a468ea9e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916294"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042391"
 ---
-# <span data-ttu-id="db786-103"><a name="DAYS">Funzione ER DAYS</a></span><span class="sxs-lookup"><span data-stu-id="db786-103"><a name="DAYS">DAYS ER function</a></span></span>
+# <span data-ttu-id="2b30f-103"><a name="DAYS">Funzione ER DAYS</a></span><span class="sxs-lookup"><span data-stu-id="2b30f-103"><a name="DAYS">DAYS ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="db786-104">La funzione `DAYS` restituisce un valore *Intero* che è la rappresentazione del numero di giorni tra una data specificata e una seconda data specificata.</span><span class="sxs-lookup"><span data-stu-id="db786-104">The `DAYS` function returns an *Integer* value that represents the number of days between one specified date and a second specified date.</span></span>
+<span data-ttu-id="2b30f-104">La funzione `DAYS` restituisce un valore *Intero* che è la rappresentazione del numero di giorni tra una data specificata e una seconda data specificata.</span><span class="sxs-lookup"><span data-stu-id="2b30f-104">The `DAYS` function returns an *Integer* value that represents the number of days between one specified date and a second specified date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="db786-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="db786-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2b30f-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="2b30f-105">Syntax</span></span>
 
-```
+```vb
 DAYS (date 1, date 2) as Integer
 ```
 
-## <a name="arguments"></a><span data-ttu-id="db786-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="db786-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2b30f-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="2b30f-106">Arguments</span></span>
 
-<span data-ttu-id="db786-107">`date 1`: *Data*</span><span class="sxs-lookup"><span data-stu-id="db786-107">`date 1`: *Date*</span></span>
+<span data-ttu-id="2b30f-107">`date 1`: *Data*</span><span class="sxs-lookup"><span data-stu-id="2b30f-107">`date 1`: *Date*</span></span>
 
-<span data-ttu-id="db786-108">Un valore di data che rappresenta la data di inizio per il calcolo del numero di giorni.</span><span class="sxs-lookup"><span data-stu-id="db786-108">A date value that represents the start date for the calculation of the number of days.</span></span>
+<span data-ttu-id="2b30f-108">Un valore di data che rappresenta la data di inizio per il calcolo del numero di giorni.</span><span class="sxs-lookup"><span data-stu-id="2b30f-108">A date value that represents the start date for the calculation of the number of days.</span></span>
 
-<span data-ttu-id="db786-109">`date 2`: *Data*</span><span class="sxs-lookup"><span data-stu-id="db786-109">`date 2`: *Date*</span></span>
+<span data-ttu-id="2b30f-109">`date 2`: *Data*</span><span class="sxs-lookup"><span data-stu-id="2b30f-109">`date 2`: *Date*</span></span>
 
-<span data-ttu-id="db786-110">Un valore di data che rappresenta la data di fine per il calcolo del numero di giorni.</span><span class="sxs-lookup"><span data-stu-id="db786-110">A date value that represents the end date for the calculation of the number of days.</span></span>
+<span data-ttu-id="2b30f-110">Un valore di data che rappresenta la data di fine per il calcolo del numero di giorni.</span><span class="sxs-lookup"><span data-stu-id="2b30f-110">A date value that represents the end date for the calculation of the number of days.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="db786-111">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="db786-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2b30f-111">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="2b30f-111">Return values</span></span>
 
-<span data-ttu-id="db786-112">*Intero*</span><span class="sxs-lookup"><span data-stu-id="db786-112">*Integer*</span></span>
+<span data-ttu-id="2b30f-112">*Intero*</span><span class="sxs-lookup"><span data-stu-id="2b30f-112">*Integer*</span></span>
 
-<span data-ttu-id="db786-113">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="db786-113">The resulting numeric value.</span></span>
+<span data-ttu-id="2b30f-113">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="2b30f-113">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="db786-114">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="db786-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="2b30f-114">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="2b30f-114">Usage notes</span></span>
 
-<span data-ttu-id="db786-115">La funzione `DAYS` restituisce un valore positivo quando la prima data è successiva alla seconda data, restituisce **0** (zero) quando la prima data corrisponde alla seconda data o restituisce un valore negativo quando la prima data è antecedente alla seconda data.</span><span class="sxs-lookup"><span data-stu-id="db786-115">The `DAYS` function returns a positive value when the first date is later than the second date, it returns **0** (zero) when the first date equals the second date, and it returns a negative value when the first date is earlier than the second date.</span></span>
+<span data-ttu-id="2b30f-115">La funzione `DAYS` restituisce un valore positivo quando la prima data è successiva alla seconda data, restituisce **0** (zero) quando la prima data corrisponde alla seconda data o restituisce un valore negativo quando la prima data è antecedente alla seconda data.</span><span class="sxs-lookup"><span data-stu-id="2b30f-115">The `DAYS` function returns a positive value when the first date is later than the second date, it returns **0** (zero) when the first date equals the second date, and it returns a negative value when the first date is earlier than the second date.</span></span>
 
-## <a name="example"></a><span data-ttu-id="db786-116">Esempio</span><span class="sxs-lookup"><span data-stu-id="db786-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2b30f-116">Esempio</span><span class="sxs-lookup"><span data-stu-id="2b30f-116">Example</span></span>
 
-<span data-ttu-id="db786-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` restituisce **-1**.</span><span class="sxs-lookup"><span data-stu-id="db786-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` returns **-1**.</span></span>
+<span data-ttu-id="2b30f-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` restituisce **-1**.</span><span class="sxs-lookup"><span data-stu-id="2b30f-117">`DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS ( NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))` returns **-1**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="db786-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="db786-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2b30f-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="2b30f-118">Additional resources</span></span>
 
-[<span data-ttu-id="db786-119">Funzioni di data e ora</span><span class="sxs-lookup"><span data-stu-id="db786-119">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="2b30f-119">Funzioni di data e ora</span><span class="sxs-lookup"><span data-stu-id="2b30f-119">Date and time functions</span></span>](er-functions-category-datetime.md)
