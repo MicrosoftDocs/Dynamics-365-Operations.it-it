@@ -1,12 +1,12 @@
 ---
-title: Sviluppare una struttura e un piano di stipendi/retribuzioni
-description: In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità.
+title: Sviluppare una struttura di retribuzione
+description: In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
@@ -16,62 +16,100 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5711dc8a7fbd44ea9c27e1d57b936765808d199e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: de715b7fda2f1548f2f443b9e0f6d09f5b881d61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009594"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "3034265"
 ---
-# <a name="develop-salarycompensation-structure-and-plan"></a>Sviluppare una struttura e un piano di stipendi/retribuzioni
+# <a name="develop-a-compensation-structure"></a>Sviluppare una struttura di retribuzione
 
+In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo articolo utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
 
+## <a name="create-a-fixed-compensation-plan"></a>Creare un piano di retribuzione fissa
 
-In questa guida attività viene illustrato il processo di creazione di un piano di retribuzione fissa e di abilitazione dei dipendenti a iscriversi al piano in base alle regole di idoneità. La società di dati dimostrativi utilizzata per creare questa attività è USMF e l'attività è destinata ai responsabili retribuzione e benefit.
+1. Selezionare **Gestione retribuzioni**.
 
+2. Selezionare **Piani di retribuzione fissa**.
 
-## <a name="create-fixed-compensation-plan"></a>Consente di creare un piano di retribuzione fissa
-1. Fare clic su Gestione retribuzioni.
-2. Care clic su Piani di retribuzione fissa.
-3. Fare clic su Nuovo.
-4. Digitare un valore nel campo Piano.
-5. Nel campo Descrizione digitare un valore.
-6. Nel campo Data di validità, immettere una data.
-7. Nel campo Tipo, selezionare se il piano di retribuzione fissa è un piano di tipo Fascia, Scala o Fase.
-8. La casella di controllo Suggerimento consentito funge da valore predefinito per tutte le azioni aggiunte al piano in un evento di processo.  L'autorizzazione di consigli consente di ignorare l'importo di riferimento calcolato quando si elabora la retribuzione.
-9. La tolleranza non compresa nell'intervallo consente di specificare la modalità di gestione degli importi di retribuzione che non rientrano nell'intervallo specificato nella struttura retributiva per il livello specificato.  Una tolleranza non compresa nell'intervallo impostata su Nessuno consentirà l'utilizzo di qualsiasi importo di retribuzione.  Una tolleranza flessibile consentirà di avvisare l'utente se l'importo di retribuzione è inferiore all'importo del punto di riferimento minimo per il livello o superiore all'importo massimo per tale livello. L'utente può ignorare l'avviso e continuare.  Nella tolleranza rigida verrà generato un errore se la retribuzione di un dipendente viene stabilita all'esterno dei punti di riferimento minimo e massimo per il livello e la retribuzione del dipendente verrà automaticamente modificata perché rientri nell'intervallo.
-10. Il campo Regola di assunzione viene utilizzato quando viene eseguito un evento processo di retribuzione per calcolare la retribuzione di un dipendente.  Una regola di assunzione Percentuale consentirà di calcolare un aumento che viene ripartito per la la durata dell'intervallo di tempo in cui il lavoratore è stato assunto nel ciclo di lavorazione.
-11. Digitare un valore nel campo Valuta.
-12. Nel campo Conversione retribuzione immettere o selezionare un valore.
-13. Espandere la sezione Matrice utilizzo range retributivo.
-    * Facoltativamente, aggiungere i record di utilizzo del range retributivo per velocizzare il raggiungimento da parte dei dipendenti del punto intermedio e per rallentare il raggiungimento da parte loro del massimo del range.  
-14. In questa fase, è necessario salvare il piano di retribuzione fissa per attivare il pulsante Imposta retribuzione e continuare a definire la struttura di retribuzione per il piano.  Fare clic su Salva.
-15. Fare clic su Imposta retribuzione.
-    * Esistono tre modi per creare una struttura retributiva. 1: Creare una struttura completamente nuova selezionando un set di punti di riferimento e aggiungendo i livelli per creare una struttura personalizzata. 2: Copiare una struttura retributiva da un piano esistente come un punto di inizio e modificarlo per il nuovo piano. 3: Selezionare una griglia retributiva esistente. Se la griglia retributiva è già utilizzata da un altro piano, tutte le modifiche apportate alla griglia verranno riflesse anche nell'altro piano.  
-16. Selezionare l'opzione Crea nuova matrice da matrice di incremento retributivo esistente.
-17. Nel campo Copia da griglia immettere o selezionare un valore.
-    * Facoltativamente è possibile modificare il nome della nuova griglia retributiva che verrà creata come copia della griglia selezionata.  
-18. Fare clic su OK.
-19. Fare clic su Modifica in massa.
-    * La modifica in massa consente di gestire gli importi della matrice di incremento retributivo applicando una percentuale o un aumento dell'importo fisso a uno o più livelli e/o punti di riferimento.  
-20. Nel campo Importo di rettifica immettere un numero.
+3. Selezionare **Nuovo**.
+
+4. Nel campo **Piano** immettere un valore.
+
+5. Nel campo **Descrizione** immettere un valore.
+
+6. Nel campo **Data di validità**, immettere una data.
+
+7. Nel campo **Tipo**, selezionare se il piano di retribuzione fissa è un piano di tipo **Fascia**, **Scala** o **Fase**.
+
+8. La casella di controllo **Suggerimento consentito** funge da valore predefinito per tutte le azioni aggiunte al piano in un evento di processo. L'autorizzazione di consigli consente di ignorare l'importo di riferimento calcolato quando si elabora la retribuzione.
+
+9. Il campo **Tolleranza non compresa nell'intervallo** consente di specificare la modalità di gestione degli importi di retribuzione che non rientrano nell'intervallo specificato nella struttura retributiva per il livello specificato. L'impostazione del campo **Tolleranza non compresa nell'intervallo** su **Nessuno** consente di utilizzare qualsiasi importo di retribuzione. Una **tolleranza flessibile** consentirà di avvisare l'utente se l'importo di retribuzione è inferiore all'importo del punto di riferimento minimo per il livello o superiore all'importo massimo per tale livello. Gli utenti possono ignorare l'avviso e continuare. Nella **tolleranza rigida** viene generato un errore se la retribuzione di un dipendente viene stabilita all'esterno dei punti di riferimento minimo e massimo per il livello e la retribuzione del dipendente verrà automaticamente modificata perché rientri nell'intervallo.
+
+10. Il campo **Regola di assunzione** calcola la retribuzione di un dipendente durante un evento di processo. Una **regola di assunzione** **Percentuale** consente di calcolare un aumento che viene ripartito per la la durata dell'intervallo di tempo in cui il lavoratore è stato assunto nel ciclo di lavorazione.
+
+11. Digitare un valore nel campo **Valuta**.
+
+12. Nel campo **Conversione retribuzione** immettere o selezionare un valore.
+
+13. Espandere la sezione **Matrice utilizzo range retributivo**. Facoltativamente, aggiungere i record di utilizzo del range retributivo per velocizzare il raggiungimento da parte dei dipendenti del punto intermedio e per rallentare il raggiungimento da parte loro del massimo del range.
+
+14. Selezionare **Salva**. Questo abilita il pulsante **Imposta retribuzione** per continuare a definire la struttura di retribuzione per il piano.
+
+15. Selezionare **Imposta retribuzione**. È possibile creare una struttura di retribuzione utilizzando uno dei tre metodi seguenti:
+
+    - Creare una struttura completamente nuova selezionando un set di punti di riferimento e aggiungendo i livelli per creare una struttura personalizzata.
+    - Copiare una struttura retributiva da un piano esistente come un punto di inizio e modificarlo per il nuovo piano.
+    - Selezionare una griglia retributiva esistente. Se la griglia retributiva è già utilizzata per un altro piano, tutte le modifiche apportate alla griglia vengono riflesse anche nell'altro piano.
+
+16. Selezionare **Crea nuova matrice da matrice di incremento retributivo esistente**.
+
+17. Nel campo **Copia da griglia** immettere o selezionare un valore. Facoltativamente è possibile modificare il nome della nuova griglia retributiva che viene creata come copia della griglia selezionata.
+
+18. Selezionare **OK**.
+
+19. Selezionare **Modifica in massa**. La **modifica in massa** consente di gestire gli importi della matrice di incremento retributivo applicando una percentuale o un aumento dell'importo fisso a uno o più livelli o punti di riferimento.
+
+20. Nel campo **Importo di rettifica** immettere un numero.
+
 21. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
-22. Fare clic su Applica alla griglia.
-23. Chiudere la pagina.
-    * Una volta che una struttura retributiva è stata creata o selezionata, è possibile selezionare i punti di riferimento da utilizzare come punto di controllo per il piano di retribuzione fissa.  Il punto di controllo viene utilizzato per calcolare il Rapporto di comparazione di un dipendente.  
-24. Nel campo Punto di controllo immettere o selezionare un valore.
+
+22. Fare clic su **Applica alla griglia**.
+
+23. Chiudere la pagina. Una volta creata la struttura retributiva, è possibile selezionare i punti di riferimento da utilizzare come punto di controllo per il piano di retribuzione fissa. Il punto di controllo viene utilizzato per calcolare il Rapporto di comparazione di un dipendente.
+
+24. Nel campo **Punto di controllo** immettere o selezionare un valore.
+
 25. Chiudere la pagina.
 
-## <a name="create-an-eligibility-rule-for-the-new-fixed-compensation-plan"></a>Crea una regola di idoneità per il nuovo piano di retribuzione fissa.
-    * Il nuovo piano di retribuzione fissa non può essere assegnato a un dipendente fino a quando non sono state definite le regole di idoneità per il piano.  
-1. Fare clic su Regole di idoneità.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Idoneità.
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Data di validità, immettere una data.
-    * Le regole di idoneità vengono utilizzate sia per i piani di retribuzione fissa che variabile.  Nel campo Tipo, selezionare il tipo di piano relativo a tale set di regole.  
-6. Nel campo Piano immettere o selezionare un valore.
-    * Selezionare i criteri che un dipendente deve soddisfare per essere idoneo per il piano di retribuzione. I criteri possono includere un reparto, un sindacato, una località (paese di retribuzione), una mansione, una funzione, un tipo di mansione o un livello retributivo. Il dipendente deve soddisfare tutti i criteri specificati per essere idoneo per il piano di retribuzione. Se non viene specificato alcun criterio, tutti i dipendenti sono idonei per il piano di retribuzione. Se un dipendente non soddisfa i criteri specificati nella regola di idoneità o non è stata specificata una regola di idoneità per un piano di retribuzione, il piano di retribuzione non verrà visualizzato nella ricerca quando viene creato un record di retribuzione fissa per un dipendente.  
+## <a name="create-an-eligibility-rule-for-the-fixed-compensation-plan"></a>Creare una regola di idoneità per il piano di retribuzione fissa
+
+Un piano di retribuzione fissa non può essere assegnato a un dipendente fino a quando non sono state definite le regole di idoneità per il piano.  
+
+1. Selezionare **Regole di idoneità**.
+
+2. Selezionare **Nuovo**.
+
+3. Nel campo **Idoneità** immettere un valore.
+
+4. Nel campo **Descrizione** immettere un valore.
+
+5. Nel campo **Data di validità**, immettere una data. Le regole di idoneità vengono utilizzate per i piani di retribuzione fissa e variabile. Nel campo **Tipo** selezionare il tipo di piano.
+
+6. Nel campo **Piano** immettere o selezionare un valore. Selezionare i criteri che un dipendente deve soddisfare per essere idoneo per il piano di retribuzione. I criteri possono includere:
+
+    - **Reparto**
+    - **Sindacato**
+    - **Ubicazione** (**Paese di retribuzione**)
+    - **Mansione**
+    - **Funzione**
+    - **Tipo di posizione**
+    - **Livello retributivo**
+    
+    Il dipendente deve soddisfare tutti i criteri specificati per essere idoneo per il piano di retribuzione. Se non viene specificato alcun criterio, tutti i dipendenti sono idonei per il piano di retribuzione. Se un dipendente non soddisfa i criteri specificati nella regola di idoneità o non è stata specificata una regola di idoneità per un piano di retribuzione, il piano di retribuzione non viene visualizzato nella ricerca quando viene creato un record di retribuzione fissa per un dipendente.
+
 7. Chiudere la pagina.
+
 8. Chiudere la pagina.
 

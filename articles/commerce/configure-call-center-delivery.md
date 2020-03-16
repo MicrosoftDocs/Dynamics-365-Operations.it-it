@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023001"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057812"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
@@ -66,7 +66,7 @@ Le spese possono essere configurate in modo che vengano applicate a un modo di c
 
 Nella sezione **Righe**, è possibile definire una o più spese per valuta, in base alle esigenze. Le spese devono essere collegate a un codice spese che definisce le regole di registrazione finanziarie per le spese. Il campo **Categoria** viene utilizzato per definire la modalità di calcolo delle spese. Ad esempio, se ai clienti viene addebitata un'aliquota forfettaria di $9,95 per un ordine da spedire con un modo di consegna specifico, utilizzare la categoria **Fisso**. Se l'azienda decide di addebitare ai clienti una percentuale del totale dell'ordine per coprire le spese di consegna, utilizzare la categoria **Percentuale**. Le spese effettive ai clienti vengono definite nel campo **Valore spese**.
 
-Le società di vendita al dettaglio spesso configurano le spese a livelli. In questo caso, l'importo che i clienti pagano per la consegna è basato sul valore dell'ordine. Per configurare le spese a livelli, immettere i valori nei campi **Da importo** e **A importo** oltre a definire le spese stesse nel campo **Valore spese**. Ad esempio, per gli ordini con un valore inferiore a $50, un rivenditore addebita $5,95 per una via terra. Per ordini con un valore uguale o maggiore di $50, ma inferiore a $100 il rivenditore addebita $7,95. Infine, per ordini con un valore uguale o maggiore di $100, il rivenditore offre la spedizione gratuita. Nella seguente figura viene illustrata la configurazione di queste spese.
+Le società spesso configurano le spese a livelli. In questo caso, l'importo che i clienti pagano per la consegna è basato sul valore dell'ordine. Per configurare le spese a livelli, immettere i valori nei campi **Da importo** e **A importo** oltre a definire le spese stesse nel campo **Valore spese**. Ad esempio, per gli ordini con un valore inferiore a $50, un rivenditore addebita $5,95 per una via terra. Per ordini con un valore uguale o maggiore di $50, ma inferiore a $100 il rivenditore addebita $7,95. Infine, per ordini con un valore uguale o maggiore di $100, il rivenditore offre la spedizione gratuita. Nella seguente figura viene illustrata la configurazione di queste spese.
 
 ![Esempio di spese a livelli fisse](media/fixedtieredcharges.png)
 

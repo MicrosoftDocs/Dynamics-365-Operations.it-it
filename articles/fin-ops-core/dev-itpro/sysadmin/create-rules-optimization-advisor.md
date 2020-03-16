@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180992"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081998"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Creare regole per il consulente dell'ottimizzazione
 
@@ -36,7 +36,7 @@ Una *regola* è un controllo sui dati dell'applicazione. Se la condizione che la
 
 Per creare una nuova regola per il **Consulente dell'ottimizzazione**, aggiungere una nuova classe che estende la classe astratta **SelfHealingRule**, implementa l'interfaccia **IDiagnosticsRule** e viene decorata con l'attributo **DiagnosticRule**. La classe deve avere anche un metodo decorato con l'attributo **DiagnosticsRuleSubscription**. Per convenzione, questo viene effettuato sul metodo **opportunityTitle**, che verrà descritto in un secondo momento. Questa nuova classe può essere aggiunta a un modello personalizzato con una dipendenza dal modello **SelfHealingRules**. Nell'esempio seguente, la regola implementata è denominata **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 La classe astratta **SelfHealingRule** include metodi astratti che devono essere implementati nelle classi che ereditano. Il centro è il metodo **evaluate**, che restituisce un elenco delle opportunità identificate dalla regola. Le opportunità possono essere per persona giuridica o possono essere applicate all'intero sistema.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Le opportunità possono inoltre essere interaziendali. In questo caso, il ciclo 
 
 Il seguente codice mostra il metodo **findRFQCasesWithEmptyTitle**, che restituisce gli ID dei casi RdO con titoli vuoti.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Il titolo restituito per **opportunityTitle** sarà disponibile nella colonna **
 
 Di seguito è riportato un esempio di implementazione: Le stringhe non elaborate vengono utilizzate per semplicità, ma una corretta implementazione richiede etichette. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 La descrizione restituita da **opportunityDetails** viene visualizzata nel riquadro laterale contenente ulteriori informazioni sull'opportunità. Questo richiede l'argomento **SelfHealingOpportunity**, ovvero il campo **Dati** che può essere utilizzato per fornire ulteriori dettagli sull'opportunità. Nell'esempio, il metodo restituisce gli ID dei casi di RdO con un titolo vuoto. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ I due restanti metodi astratti da implementare sono **provideHealingAction** e *
 
 **provideHealingAction** restituisce true se viene fornita un'azione di correzione, altrimenti restituisce false. Se viene restituito true, il metodo **performAction** deve essere implementato o verrà generato un errore. Il metodo **performAction** accetta un argomento **SelfHealingOpportunity**, in cui i dati possono essere utilizzati per l'azione. In questo esempio, l'azione apre **PurchRFQCaseTableListPage** per la correzione manuale. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ A seconda delle specifiche della regola, potrebbe essere possibile intraprendere
 > [!NOTE]
 > La voce di menu deve essere una voce di menu azione per il corretto funzionamento di sicurezza. Altri tipi di voci di menu, ad esempio **Voci di menu Visualizza** non funzioneranno correttamente.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Dopo aver compilato la regola, eseguire il seguente processo per visualizzarlo nell'interfaccia utente.
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ La regola viene visualizzata nel modulo **Regola di convalida diagnostica**, dis
 
 L'esempio seguente è un frammento di codice con lo scheletro di una regola che include tutti i metodi e gli attributi richiesti. Consente di iniziare la scrittura di nuove regole. Le etichette e le voci di menu azione utilizzate nell'esempio sono utilizzate solo a scopo dimostrativo.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

@@ -3,7 +3,7 @@ title: Panoramica del rifornimento
 description: In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251472"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076363"
 ---
 # <a name="replenishment-overview"></a>Panoramica del rifornimento
 
@@ -49,6 +49,8 @@ Direttive di ubicazione vengono utilizzate per determinare l'ubicazione da rifor
 Oltre a creare un modello, è necessario specificare alcune impostazioni di rifornimento nel modello di ondata. Il modello di ondata deve contenere un passaggio di ondata di rifornimento che viene eseguito solo se l'allocazione di un articolo non riesce. Questo passaggio di ondata di rifornimento utilizza un codice di passaggio ondata per determinare quale modello di rifornimento deve essere utilizzato. Oltre a disporre di un passaggio di ondata per il rifornimento, è necessario assicurarsi che **rifornisci** sia selezionato nella sezione **Metodi** del modello di ondata. 
 
 La pagina **Modello rifornimento** include una casella di controllo **Consenti domanda ondata per utilizzare le quantità non prenotate**. Selezionare questa casella di controllo se il rifornimento basato sulla domanda deve consentire la deduzione delle quantità non prenotate dal lavoro generato dal modello di rifornimento selezionato. Questa casella di controllo deve essere impostata per ogni modello di rifornimento esistente per consentire ai modelli di rifornimento basato sulla domanda di utilizzare questa logica. Quando il rifornimento basato sulla domanda è attivato nel magazzino, dedurrà la domanda dal lavoro di rifornimento esistente che ha quantità non prenotate, se il lavoro deriva dai modelli di rifornimento in cui la casella di controllo **Consenti domanda ondata per utilizzare le quantità non prenotate** è selezionata.
+
+**Unità di rifornimento** è l'unità minima da rifornire. Deve essere un numero intero multiplo dell'unità. Il sistema arrotonda all'unità massima possibile durante la creazione del lavoro.
 
 Il rifornimento della domanda è supportato per ordini cliente, ordini di trasferimento, ordini di produzione e kanban. 
 

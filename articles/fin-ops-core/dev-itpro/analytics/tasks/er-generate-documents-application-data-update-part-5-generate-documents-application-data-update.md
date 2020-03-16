@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026065"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042852"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Generare documenti che contengono dati dell'applicazione
 
@@ -40,10 +40,14 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 ## <a name="set-up-foreign-trade-parameters"></a>Imposta parametri per il commercio estero
 1. Passare a Imposta > Impostazione > Commercio estero > Parametri per il commercio estero.
 2. Fare clic sulla scheda Sequenze numeriche.
-    * Archiviando i dettagli del processo di dichiarazione Intrastat, dobbiamo identificare i record di ogni archivio creato. A tale scopo è necessario configurare una sequenza numerica speciale.  
+
+    Archiviando i dettagli del processo di dichiarazione Intrastat, dobbiamo identificare i record di ogni archivio creato. A tale scopo è necessario configurare una sequenza numerica speciale.  
+
 3. Selezionare il riferimento 'ID archivio Intrastat'.
 4. Nel campo Codice sequenza numerica selezionare un valore.
-    * Nel campo 'Codice sequenza numerica' immettere o selezionare il valore 'Fore_2'.  
+
+    Nel campo 'Codice sequenza numerica' immettere o selezionare il valore 'Fore_2'.  
+
 5. Risolvere le modifiche al codice della sequenza numerica.
 6. Fare clic su Salva.
 7. Chiudere la pagina.
@@ -54,18 +58,23 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 3. Nella struttura selezionare "Intrastat (model)\Intrastat (format)".
 4. Fare clic su Esegui.
 5. Nel campo per immettere il nome del file digitare "intrastat2.xml".
-    * intrastat2.xml  
 6. Fare clic su OK.
 
 ## <a name="review-er-format-executions-results"></a>Esaminare i risultati dell'esecuzione del formato ER
 Esaminare il file XML generato.  
 1. Chiudere la pagina.
 2. Passare a Imposta > Dichiarazioni > Commercio estero > Intrastat.
-    * Aprire il modulo contenente le transazioni Intrastat incluse nel documento elettronico generato.  
+
+    Aprire il modulo contenente le transazioni Intrastat incluse nel documento elettronico generato.  
+
 3. Fare clic su archivio Intrastat.
-    * Poiché il formato ER eseguito contiene ora impostazioni per l'aggiornamento dei dati dell'applicazione, i dettagli della dichiarazione Intrastat completata sono stati archiviati. In questo modulo, è possibile visualizzare il record di intestazione dell'archivio creato.  
+
+    Poiché il formato ER eseguito contiene ora impostazioni per l'aggiornamento dei dati dell'applicazione, i dettagli della dichiarazione Intrastat completata sono stati archiviati. In questo modulo, è possibile visualizzare il record di intestazione dell'archivio creato.  
+
 4. Fare clic su Dettagli.
-    * In questo modulo, è possibile visualizzare i dettagli dell'archivio creato.  
+
+    In questo modulo, è possibile visualizzare i dettagli dell'archivio creato.  
+
 5. Chiudere la pagina.
 6. Chiudere la pagina.
 7. Chiudere la pagina.

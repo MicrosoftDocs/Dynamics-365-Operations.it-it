@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022997"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057939"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -43,7 +43,7 @@ Diversi componenti vengono utilizzati per definire le relazioni tra un punto ven
 
 Navigazione: fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **POS** &gt; **Registratori di cassa**.
 
-Il registratore di cassa POS è un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche di vendita al dettaglio che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è associato e l'esperienza visiva dell'utente che accede a tale registratore.
+Il registratore di cassa POS è un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato e l'esperienza visiva dell'utente che accede a tale registratore.
 
 ### <a name="devices"></a>Periferiche
 
@@ -67,7 +67,7 @@ Un profilo hardware identifica l'hardware connesso a un registratore di cassa PO
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navigazione: fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita al dettaglio** &gt; **Tutti i punti vendita al dettaglio**. Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**.
+Navigazione: fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**. Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**.
 
 Una stazione di hardware è un'istanza della logica di business che guida le periferiche POS. Una stazione hardware viene automaticamente installata con MPOS. In alternativa, la stazione hardware può essere installata come componente autonomo e quindi accessibile a MPOS o POS cloud tramite un servizio Web. La stazione hardware deve essere definita a livello di canale.
 
@@ -87,7 +87,7 @@ Per connettere MPOS a periferiche POS in uno scenario POS fisso tradizionale, pa
 
 Dopo aver assegnato il profilo hardware, sincronizzare le modifiche al database di canale utilizzando la programmazione della distribuzione **Registratori di cassa**. È possibile trovare le programmazioni di distribuzione in **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**. 
 
-Successivamente, impostazione una stazione "locale" sul canale. Fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita al dettaglio** &gt; **Tutti i punti vendita al dettaglio** e selezionare un punto vendita. 
+Successivamente, impostazione una stazione "locale" sul canale. Fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita** e selezionare un punto vendita. 
 
 Quindi, nella scheda dettaglio **Stazioni hardware**, fare clic su **Aggiungi** per aggiungere una stazione hardware. Immettere una descrizione, immettere **localhost** come nome host e quindi sincronizzare le modifiche al canale utilizzando la programmazione di distribuzione **Configurazione canale**. È possibile trovare le programmazioni di distribuzione in **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**. 
 
@@ -104,7 +104,7 @@ Infine, in MPOS, utilizzare l'operazione **Seleziona stazione hardware** per sel
 
 In questo scenario, una stazione hardware autonoma viene condivisa con i client MPOS e POS cloud. Per questo scenario è necessario creare un profilo di stazione hardware per specificare il pacchetto di download, la porta e il profilo hardware che utilizza la stazione hardware. Il profilo stazione hardware è disponibile in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili stazione hardware**. 
 
-Dopo aver creato il profilo stazione hardware, passare al canale di vendita al dettaglio specifico (**Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**) e aggiungere una nuova stazione hardware. Mappare la nuova stazione hardware al profilo stazione hardware creato in precedenza. 
+Dopo aver creato il profilo stazione hardware, passare al canale specifico (**Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**) e aggiungere una nuova stazione hardware. Mappare la nuova stazione hardware al profilo stazione hardware creato in precedenza. 
 
 A questo punto, fornire una descrizione che consenta al cassiere di identificare la stazione hardware. Nel campo **Nome host** immettere l'URL del computer host nel seguente formato: `https://<MachineName:Port>/HardwareStation`. Sostituire **&lt;NomeComputer:Porta&gt;** con il nome effettivo del computer della stazione hardware e con la porta che è specificata nel profilo della stazione hardware. Per una stazione hardware autonoma occorre specificare anche l'ID terminale bonifici (EFT). Questo valore identifica il terminale EFT connesso alla stazione hardware quando il connettore pagamenti comunica con il provider di pagamenti. 
 

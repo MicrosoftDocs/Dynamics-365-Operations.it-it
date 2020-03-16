@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181222"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071592"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
@@ -216,7 +216,7 @@ In questo esempio, la formula di calcolo **@100+@330** indica che l'importo nell
 Quando la riga in una definizione di riga ha un codice formato **CAL** e si immette un calcolo matematico nella cella **Unità/righe/formule correlate**, è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere **A.120** per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere **@120** per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale.
 
 > [!NOTE]
-> Se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio **A.GROSS\_MARGIN/A.SALES**). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, **@GROSS\_MARGIN/@SALES**).
+> Se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio **A.GROSS\_MARGIN/A.SALES**). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Esempio di una formula di calcolo per una colonna specifica
 

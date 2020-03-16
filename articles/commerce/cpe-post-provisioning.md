@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024708"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057719"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurare un ambiente di anteprima Dynamics 365 Commerce
 
@@ -35,7 +35,7 @@ Questo argomento illustra come configurare un ambiente di anteprima di Microsoft
 
 Completare le procedure in questo argomento solo dopo aver effettuato il provisioning dell'ambiente di anteprima di Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente di anteprima di Commerce, consultare [Provisioning di un ambiente di anteprima Commerce ](provisioning-guide.md).
 
-Una volta eseguito il provisioning completo dell'ambiente di anteprima di Commerce, è necessario completare ulteriori passaggi di configurazione post-provisioning prima di poter iniziare a valutare l'ambiente. Per completare questi passaggi, è necessario utilizzare Lifecycle Services (LCS) di Microsoft Dynamics, Dynamics 365 Commerce e Dynamics 365 Retail.
+Una volta eseguito il provisioning completo dell'ambiente di anteprima di Commerce, è necessario completare ulteriori passaggi di configurazione post-provisioning prima di poter iniziare a valutare l'ambiente. Per completare questi passaggi, è necessario utilizzare Microsoft Dynamics Lifecycle Services (LCS) e Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Prima di iniziare
 
@@ -53,7 +53,7 @@ Una volta eseguito il provisioning completo dell'ambiente di anteprima di Commer
 
 Per associare un lavoratore all'identità in LCS, effettuare le seguenti operazioni.
 
-1. Utilizzare il menu a sinistra e scegliere **Moduli \> Vendita al dettaglio \> Dipendenti \> Lavoratori**.
+1. Utilizzare il menu a sinistra e scegliere **Moduli \> Vendita al dettaglio e commercio \> Dipendenti \> Lavoratori**.
 1. Nell'elenco trovare e selezionare il seguente record **000713 - Andrew Collette**.
 1. Nel riquadro azioni fare clic su **Vendita al dettaglio**.
 1. Selezionare **Associa identità esistente**.
@@ -91,12 +91,12 @@ Per iniziare a configurare il sito di anteprima in Commerce, attenersi alla segu
 1. Lascia invariato valore del campo **Percorso**.
 1. Selezionare **OK**. Viene visualizzato l'elenco delle pagine del sito.
 
-## <a name="enable-jobs-in-retail"></a>Abilitare i processi in Retail
+## <a name="enable-jobs"></a>Abilitare i processi
 
-Per abilitare i processi in Retail, effettuare le operazioni seguenti.
+Per abilitare i processi in Commerce, effettuare le operazioni seguenti.
 
 1. Accedere all'ambiente (HQ).
-1. Utilizzare il menu a sinistra per andare a**Retail \> Richieste di informazioni e report \> Processi batch**.
+1. Utilizzare il menu a sinistra per andare a **Vendita al dettaglio e commercio \> Richieste di informazioni e report \> Processi batch**.
 
     Le fasi restanti di questa procedura devono essere completate per ciascuno dei seguenti processi:
 
@@ -112,11 +112,11 @@ Per abilitare i processi in Retail, effettuare le operazioni seguenti.
     1. Nel riquadro azioni, sulla scheda **Processo batch** selezionare **Cambia stato**.
     1. Selezionare **In attesa** e quindi **OK**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Eseguire la sincronizzazione completa dei dati in Retail
+### <a name="run-full-data-synchronization"></a>Eseguire la sincronizzazione dati completa
 
-Per eseguire la sincronizzazione completa dei dati in Retail, attenersi alla seguente procedura.
+Per eseguire la sincronizzazione completa dei dati in Commerce, attenersi alla seguente procedura.
 
-1. Utilizzare il menu a sinistra per andare a **Moduli \> Retail \> Impostazione sedi centrali \> Retail Scheduler \> Database canale**.
+1. Utilizzare il menu a sinistra per andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Retail Scheduler \> Database canale**.
 1. Il canale**Predefinito** è selezionato nell'elenco a sinistra. Selezionare l'altro canale disponibile. Questo canale è denominato **scXXXXXXXXX**.
 1. Selezionare **Sincronizzazione dati completa** nel riquadro azioni.
 1. Immettere **9999** come programmazione della distribuzione.

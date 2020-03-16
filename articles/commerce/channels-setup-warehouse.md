@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002314"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057858"
 ---
 # <a name="warehouse-set-up"></a>impostare un magazzino
 
@@ -59,7 +59,7 @@ Per impostare un magazzino, seguire questi passaggi.
 
 1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione canale \> Magazzini**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nel campo **Magazzino** immettere un valore.  Se si tratta di una mappatura 1:1 a un punto vendita al dettaglio, considerare l'utilizzo di un nome di punto vendita o di un nome di centro di distribuzione regionale.
+1. Nel campo **Magazzino** immettere un valore.  Se si tratta di una mappatura 1:1 a un punto vendita, considerare l'utilizzo di un nome di punto vendita o di un nome di centro di distribuzione regionale.
 1. Nel campo **Nome** immettere un valore.
 1. Nell'elenco a discesa **Sito**, selezionare il sito di magazzino creato in precedenza.
 1. Nel campo **Tipo** selezionare **Predefinito**.

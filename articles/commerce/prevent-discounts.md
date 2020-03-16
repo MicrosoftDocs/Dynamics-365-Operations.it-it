@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023089"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057466"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opzioni per impedire sconti sui prodotti al dettaglio
 
@@ -32,7 +32,7 @@ ms.locfileid: "3023089"
 
 Esistono vari motivi per cui i rivenditori intendono non applicare sconti ad alcuni prodotti durante una promozione o la vendita al POS.
 
-Le opzioni seguenti, disponibili nella scheda **Commerce** dei prodotti rilasciati, consentono di configurare il prodotto per impedire l'applicazione di tutti gli sconti o di quelli manuali. Le impostazioni possono anche essere specificate a livello di categoria nella gerarchia di categorie di vendite al dettaglio.
+Le opzioni seguenti, disponibili nella scheda **Commerce** dei prodotti rilasciati, consentono di configurare il prodotto per impedire l'applicazione di tutti gli sconti o di quelli manuali. Le impostazioni possono anche essere specificate a livello di categoria nella gerarchia di categorie.
 
 - **Impedisci tutti gli sconti**: selezionare questa opzione per impedire l'applicazione di tutti i tipi di sconti al prodotto. Sono inclusi gli sconti gamma articoli, quantità e di soglia, nonché gli sconti riga manuali e transazione applicati durante una vendita da un utente POS.
 - **Impedisci sconti manuali**: selezionare questa opzione per impedire gli sconti riga manuali o transazione applicati durante una vendita da un utente POS. Ai prodotti con questa opzione selezionata è sempre possibile applicare le promozioni, ad esempio sconti gamma articoli, quantità e di soglia.

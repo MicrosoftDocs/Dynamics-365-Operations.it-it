@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2018-22-15
+ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
+ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833025"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3078045"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Selezionare i candidati utilizzando i pool di talenti in Attract
 
@@ -49,7 +49,7 @@ Utilizzare la procedura riportata di seguito per creare e condividere un pool di
 1. Selezionare **Aggiungi** per creare il pool di talenti.
      > [!NOTE]
      > In alternativa, è possibile aggiungere contributori in un pool di talenti dopo averlo creato. È inoltre possibile gestire l'accesso a un pool di talenti. Ad esempio, è possibile revocare l'accesso di un utente al pool di talenti.
-     > - Per aggiungere i contributori in un pool di talenti esistente di tua proprietà, nella scheda **Pool di talenti personali**, in alto a destra della scheda del pool di talenti, selezionare il pulsante con i puntini di sospensione  (**…**) e quindi **Modifica**. Individuare le persone utilizzando lo strumento di selezione persone e aggiungerle all'elenco. 
+     > - Per aggiungere i contributori in un pool di talenti esistente di tua proprietà, nella scheda **Pool di talenti personali**, in alto a destra della scheda del pool di talenti, selezionare il pulsante con i puntini di sospensione (**…**) e quindi **Modifica**. Individuare le persone utilizzando lo strumento di selezione persone e aggiungerle all'elenco. 
      > - Per revocare l'accesso di un utente al pool di talenti, in alto a destra della scheda del pool di talenti, selezionare il pulsante con i puntini di sospensione (**…**) e quindi **Modifica**. Nella scheda **Gestisci accesso**, selezionare il pulsante del cestino accanto all'utente.
 
 6. Selezionare **Aggiorna** per completare e salvare l'operazione.

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023087"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057489"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -43,23 +43,23 @@ In questo argomento vengono utilizzati i seguenti termini:
 
 ## <a name="price-groups"></a>Gruppi prezzi
 
-I gruppi di prezzi sono al centro della gestione dei prezzi e degli sconti in Commerce. I gruppi di prezzi vengono utilizzati per assegnare prezzi e sconti a entità di vendita al dettaglio (ovvero canali, cataloghi, affiliazioni e programmi fedeltà). Poiché i gruppi di prezzi vengono utilizzati per tutti i prezzi e gli sconti, è molto importante pianificare in che modo si prevede di utilizzarli prima di iniziare.
+I gruppi di prezzi sono al centro della gestione dei prezzi e degli sconti in Commerce. I gruppi di prezzi vengono utilizzati per assegnare prezzi e sconti a entità commerciali (ovvero canali, cataloghi, affiliazioni e programmi fedeltà). Poiché i gruppi di prezzi vengono utilizzati per tutti i prezzi e gli sconti, è molto importante pianificare in che modo si prevede di utilizzarli prima di iniziare.
 
-Di per sé, un gruppo di prezzi è solo un nome, una descrizione e, facoltativamente, una priorità di determinazione prezzo. L'aspetto principale da ricordare sui gruppi di prezzi è che sono utilizzati per gestire le relazioni molti-a-molti che sconti e prezzi hanno con le entità di vendita al dettaglio.
+Di per sé, un gruppo di prezzi è solo un nome, una descrizione e, facoltativamente, una priorità di determinazione prezzo. L'aspetto principale da ricordare sui gruppi di prezzi è che sono utilizzati per gestire le relazioni molti-a-molti che sconti e prezzi hanno con le entità commerciali.
 
-La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In questa illustrazione, si noti che "Gruppo di prezzi" è letteralmente al centro della gestione dei prezzi e degli sconti. Le entità di vendita al dettaglio che è possibile utilizzare per gestire prezzi e sconti differenziali si trovano sulla sinistra e i record di prezzo e sconto effettivi sono sulla destra.
+La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In questa illustrazione, si noti che "Gruppo di prezzi" è letteralmente al centro della gestione dei prezzi e degli sconti. Le entità commerciali che è possibile utilizzare per gestire prezzi e sconti differenziali si trovano sulla sinistra e i record di prezzo e sconto effettivi sono sulla destra.
 
 ![Gruppi di prezzi](./media/PriceGroups.png "Gruppi di prezzi")
 
-Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità di vendita al dettaglio. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
+Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità commerciali. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
 
 Come mostra la linea tratteggiata rossa nell'illustrazione, Commerce supporta la funzionalità principale di Microsoft Dynamics 365 di un gruppo di prezzi che viene impostato direttamente su un cliente. Tuttavia, in questo caso, si ottengono solo accordi commerciali sui prezzi di vendita. Se si desidera applicare prezzi specifici del cliente, si consiglia di non impostare i gruppi di prezzi direttamente sul cliente. Utilizzare invece le affiliazioni.
 
-Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle entità di vendita che è possibile utilizzare per impostare prezzi distinti quando vengono utilizzati i gruppi di prezzi. La configurazione dei prezzi e degli sconti per tutte queste entità è un processo in due fasi. Questi passaggi possono essere eseguiti in qualsiasi ordine. Tuttavia, l'ordine logico è di impostare prima i gruppi di prezzi sulle entità, poiché è probabile che questo passaggio sia una configurazione unica eseguita durante l'implementazione. Quindi, quando vengono creati i prezzi e gli sconti, è possibile impostare i gruppi di prezzi su tali prezzi e sconti singolarmente.
+Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle entità commerciali che è possibile utilizzare per impostare prezzi distinti quando vengono utilizzati i gruppi di prezzi. La configurazione dei prezzi e degli sconti per tutte queste entità è un processo in due fasi. Questi passaggi possono essere eseguiti in qualsiasi ordine. Tuttavia, l'ordine logico è di impostare prima i gruppi di prezzi sulle entità, poiché è probabile che questo passaggio sia una configurazione unica eseguita durante l'implementazione. Quindi, quando vengono creati i prezzi e gli sconti, è possibile impostare i gruppi di prezzi su tali prezzi e sconti singolarmente.
 
 ### <a name="channels"></a>Canali
 
-Nel settore della vendita al dettaglio, è molto diffusa l'uso di prezzi diversi su canali diversi. I due fattori principali che influenzano i prezzi specifici del canale sono i costi e le condizioni del mercato locale.
+Nel settore del commercio, è molto diffuso l'uso di prezzi diversi su canali diversi. I due fattori principali che influenzano i prezzi specifici del canale sono i costi e le condizioni del mercato locale.
 
 - **Costi**: più il canale è lontano dall'origine del prodotto, più costa immagazzinare scorte di un prodotto. Ad esempio, i prodotti freschi hanno una durata a scaffale limitata e requisiti di produzione specifici (ad esempio, una stagione di crescita). Durante l'inverno, la lattuga fresca probabilmente costa di più nei climi nordici rispetto ai climi meridionali. Se vengono impostati i prezzi per i canali su una vasta area geografica, probabilmente si vorranno impostare prezzi diversi in canali diversi.
 - **Condizioni del mercato locale**: un punto vendita che ha un concorrente diretto dall'altra parte della strada sarà molto più sensibile al prezzo di un punto vendita che non ha un concorrente diretto nelle vicinanze.
@@ -84,7 +84,7 @@ Alcuni rivenditori utilizzano cataloghi fisici o virtuali per commercializzare p
 
 ### <a name="best-practices-for-price-groups"></a>Procedure consigliate per i gruppi di prezzi
 
-Non utilizzare un gruppo di prezzi per i tipi di entità Retail. Utilizzare invece un gruppo di gruppi di prezzi per i canali, un diverso set di gruppi di prezzi per affiliazioni o programmi fedeltà e così via. È possibile utilizzare un prefisso o un suffisso nel nome del gruppo di prezzi per raggruppare visivamente i vari tipi di gruppi di prezzi in uso.
+Non utilizzare un gruppo di prezzi per più tipi di entità. Utilizzare invece un gruppo di gruppi di prezzi per i canali, un diverso set di gruppi di prezzi per affiliazioni o programmi fedeltà e così via. È possibile utilizzare un prefisso o un suffisso nel nome del gruppo di prezzi per raggruppare visivamente i vari tipi di gruppi di prezzi in uso.
 
 Evitare di impostare i gruppi di prezzi direttamente per un cliente. Usare invece un'affiliazione. In questo modo, è possibile assegnare tutti i tipi di prezzi e sconti ai clienti, non solo gli accordi commerciali sui prezzi di vendita.
 
@@ -98,7 +98,7 @@ Per utilizzare la priorità di prezzo per i prezzi, è necessario assegnare una 
 
 La funzionalità di priorità dei prezzi è stata introdotta per supportare lo scenario in cui un rivenditore desidera applicare prezzi più elevati in uno specifico gruppo di punti vendita. Ad esempio, un rivenditore ha definito i prezzi regionali per la costa orientale degli Stati Uniti, ma desidera prezzi più elevati per alcuni prodotti nei punti vendita di New York, poiché il costo di vendita di alcuni prodotti è superiore in città e/o perché il mercato locale supporta un prezzo più alto.
 
-Come descritto nella sezione "Miglior prezzo" di questo argomento, il motore dei prezzi Retail seleziona in genere valore minimo tra due prezzi. Di conseguenza, al rivenditore di solito viene impedito di utilizzare il prezzo più alto di due prezzi in un punto vendita che ha sia i gruppi di prezzi della costa orientale sia quelli di New York. Per risolvere questo problema, prima che fosse introdotta la funzionalità di priorità dei prezzi, il rivenditore doveva definire i prezzi per ogni prodotto due volte e non assegnare entrambi i gruppi di prezzi. In alternativa, il rivenditore ha dovuto creare gruppi di prezzi extra per isolare i prodotti che hanno prezzi più alti da quelli che hanno i prezzi abituali più bassi.
+Come descritto nella sezione "Miglior prezzo" di questo argomento, il motore dei prezzi seleziona in genere valore minimo tra due prezzi. Di conseguenza, al rivenditore di solito viene impedito di utilizzare il prezzo più alto di due prezzi in un punto vendita che ha sia i gruppi di prezzi della costa orientale sia quelli di New York. Per risolvere questo problema, prima che fosse introdotta la funzionalità di priorità dei prezzi, il rivenditore doveva definire i prezzi per ogni prodotto due volte e non assegnare entrambi i gruppi di prezzi. In alternativa, il rivenditore ha dovuto creare gruppi di prezzi extra per isolare i prodotti che hanno prezzi più alti da quelli che hanno i prezzi abituali più bassi.
 
 Tuttavia, la funzionalità di priorità dei prezzi consente al rivenditore di creare una priorità di prezzo per i prezzi dei punti vendita superiore alla priorità dei prezzi per i prezzi regionali. In alternativa, il rivenditore può creare una priorità di prezzo solo per i prezzi dei punti vendita e lasciare i prezzi regionali con la priorità di prezzo predefinita, che è 0 (zero). Entrambe le configurazioni consentono di garantire che i prezzi dei punti vendita vengano sempre utilizzati prima dei prezzi regionali.
 
@@ -142,7 +142,7 @@ Il punto più semplice per impostare il prezzo di un prodotto è direttamente ne
 
 Se un prodotto è associato un prezzo uguale per tutti, il prezzo base rappresenta il modo più efficiente per gestire il prezzo di tale prodotto. Anche se si utilizzano gli accordi commerciali per definire i prezzi, è possibile impostare il prezzo base in un prodotto. In questo modo,, se non si utilizza un accordo commerciale **Tutto**, si ha un prezzo di fallback che viene utilizzato quando non si applica un accordo commerciale.
 
-Se la valuta di un canale di vendita al dettaglio differisce dalla valuta della società, il prezzo di base in quel canale viene determinato utilizzando la conversione di valuta del prezzo impostato nel prodotto.
+Se la valuta di un canale differisce dalla valuta della società, il prezzo di base in quel canale viene determinato utilizzando la conversione di valuta del prezzo impostato nel prodotto.
 
 Sebbene l'unità di prezzo non sia uno scenario comune, il motore di determinazione dei prezzi lo supporta. Se l'unità di prezzo viene impostata su un valore diverso da **0** (zero), il prezzo unitario è uguale a Prezzo ÷ Unità di prezzo. Ad esempio, se il prezzo di un prodotto è $ 10,00 e l'unità di prezzo è 50, il prezzo per una quantità di 1 è $ 0,20 (= $ 10,00 ÷ 50).
 
@@ -152,7 +152,7 @@ Utilizzando il giornale di registrazione accordi commerciali, è possibile crear
 
 Un accordo commerciale sui prezzi di vendita **Tabella** è per un singolo cliente che viene impostato direttamente sull'accordo commerciale. Questo scenario non è uno scenario tipico business-to-consumer (B2C). Tuttavia, se si verifica, il motore dei prezzi utilizza gli accordi commerciali **Tabella** quando determina il prezzo.
 
-Un accordo commerciale sui prezzi di vendita **Gruppo** è il tipo più utilizzato con la funzionalità di vendita al dettaglio. Al di fuori di Commerce, gli accordi commerciali sui prezzi di vendita **Gruppo** si riferiscono a un gruppo di clienti semplice. Tuttavia, in Commerce, il concetto di gruppo di clienti è stato esteso in modo tale che si tratti di un gruppo di prezzi più generico. Un gruppo di prezzi può essere collegato a un canale, un'affiliazione, un programma fedeltà o a un catalogo. Per informazioni dettagliate sui gruppi di prezzi, vedere la sezione "Gruppi di prezzi" in precedenza in questo argomento.
+Un accordo commerciale sui prezzi di vendita **Gruppo** è il tipo più utilizzato. Al di fuori di Commerce, gli accordi commerciali sui prezzi di vendita **Gruppo** si riferiscono a un gruppo di clienti semplice. Tuttavia, in Commerce, il concetto di gruppo di clienti è stato esteso in modo tale che si tratti di un gruppo di prezzi più generico. Un gruppo di prezzi può essere collegato a un canale, un'affiliazione, un programma fedeltà o a un catalogo. Per informazioni dettagliate sui gruppi di prezzi, vedere la sezione "Gruppi di prezzi" in precedenza in questo argomento.
 
 > [!NOTE]
 > Il prezzo dell'accordo commerciale viene sempre utilizzato prima del prezzo di base.
@@ -211,7 +211,7 @@ Microsoft SQL Server Express viene spesso utilizzato per i database dei canali a
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Prezzi comprensivi di imposte e prezzi senza imposte
 
-Quando si impostano i prezzi di vendita in Dynamics 365, non si specifica se il valore del prezzo è comprensivo o meno di imposte. Il valore è solo il prezzo. Tuttavia, l'impostazione **Prezzo comprensivo di IVA** nei canali di vendita al dettaglio consente di configurare i canali in modo che i prezzi siano o meno comprensivi di IVA. Questa impostazione viene configurata nel canale e può essere modificata anche in una singola società.
+Quando si impostano i prezzi di vendita in Dynamics 365, non si specifica se il valore del prezzo è comprensivo o meno di imposte. Il valore è solo il prezzo. Tuttavia, l'impostazione **Prezzo comprensivo di IVA** nei canali consente di configurare i canali in modo che i prezzi siano o meno comprensivi di IVA. Questa impostazione viene configurata nel canale e può essere modificata anche in una singola società.
 
 Se si utilizzano sia tipi di prezzi comprensivi di imposte che non comprensivi di imposte, è molto importante configurare i prezzi correttamente, poiché l'importo totale che il cliente paga cambierà se il campo **Prezzo comprensivo di IVA** del canale è stato modificato.
 
@@ -219,15 +219,15 @@ Se si utilizzano sia tipi di prezzi comprensivi di imposte che non comprensivi d
 
 Un unico motore di determinazione del prezzo viene utilizzato per calcolare i prezzi in tutti i canali: Servizio clienti, Punto vendita al dettaglio e Punto vendita online. In questo modo è possibile consentire scenari commerciali unificati.
 
-La determinazione dei prezzi di vendita al dettaglio è progettata per funzionare con entità di vendita al dettaglio anziché con entità di vendita non al dettaglio. In particolare, è progettata per impostare i prezzi per punto vendita, non per magazzino.
+La determinazione dei prezzi è progettata per funzionare con entità di vendita al dettaglio anziché con entità di vendita non al dettaglio. In particolare, è progettata per impostare i prezzi per punto vendita, non per magazzino.
 
-Il motore di determinazione del prezzo di vendita al dettaglio **non supporta** le seguenti funzionalità dei prezzi:
+Il motore di determinazione del prezzo **non supporta** le seguenti funzionalità dei prezzi:
 
-- L'impostazione dei prezzi in base alle dimensioni di immagazzinamento del sito o del sito e del magazzino non è supportata. Se si specifica solo la dimensione del sito negli accordi commerciali, i prezzi al dettaglio ignoreranno il sito e applicheranno l'accordo commerciale a tutti i siti. Se si specificano sia il sito sia il magazzino, il comportamento è indefinito/non testato perché è previsto che i rivenditori utilizzino i gruppi di prezzi del negozio per controllare i prezzi per ciascun negozio/magazzino.
+- L'impostazione dei prezzi in base alle dimensioni di immagazzinamento del sito o del sito e del magazzino non è supportata. Se si specifica solo la dimensione del sito negli accordi commerciali, il motore dei prezzi ignora il sito e applica l'accordo commerciale a tutti i siti. Se si specificano sia il sito sia il magazzino, il comportamento è indefinito/non testato perché è previsto che i rivenditori utilizzino i gruppi di prezzi del negozio per controllare i prezzi per ciascun negozio/magazzino.
 - I prezzi basati sugli attributi non sono supportati.
 - Il pass-through dello sconto fornitore non è supportato.
 
-Inoltre, **solo** il motore di determinazione del prezzo di vendita al dettaglio supporta le seguenti funzionalità dei prezzi:
+Inoltre, **solo** il motore di determinazione del prezzo supporta le seguenti funzionalità dei prezzi:
 
 - Il prezzo si basa sulle dimensioni prodotto, in ordine dal prezzo variante più specifico al prezzo variante meno specifico alla rappresentazione generale prodotto. Un prezzo impostato utilizzando due dimensioni prodotto (ad esempio Colore e Dimensione) viene utilizzato prima di un prezzo impostato utilizzando una sola dimensione prodotto (ad esempio, Dimensione).
 - Lo stesso gruppo di prezzi può essere utilizzato per controllare i prezzi e gli sconti.

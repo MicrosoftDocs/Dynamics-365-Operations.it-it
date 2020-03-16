@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ec42ab920868f541eeac54556f4f24cb1efaa3a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002452"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057881"
 ---
 # <a name="set-up-a-call-center-channel"></a>Impostare un canale servizio clienti
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come creare un nuovo canale servizio clienti
 
 ## <a name="overview"></a>Panoramica
 
-In Dynamics 365 Commerce, un servizio clienti è un tipo di canale che può essere definito nell'applicazione. La definizione di un canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente. Una società può definire più canali servizio clienti in Commerce. 
+In Dynamics 365 Commerce, un servizio clienti è un tipo di canale di commercio che può essere definito nell'applicazione. La definizione di un canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente. Una società può definire più canali servizio clienti in Commerce. 
 
 Prima di creare un nuovo canale servizio clienti, assicurarsi di aver completato i [prerequisiti di impostazione dei canali](channels-prerequisites.md).
 

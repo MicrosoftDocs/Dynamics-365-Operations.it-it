@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009583"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087302"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Creare un piano di congedo e assenza
 
@@ -61,8 +61,8 @@ Ad esempio, con un piano a più livelli, si potrebbe concedere un benefit di 80 
 
       | Base del periodo di accumulo | Descrizione |
       | --- | --- |
-      | Data di inizio piano | La data di inizio del periodo di accumulo è la data in cui il piano è disponibile. |
-      | Data specifica del dipendente | La data di inizio del periodo di accumulo dipende da un evento del dipendente:</br><ul><li>Personalizzato (è necessario specificare una base per la data di accumulo per ogni singola iscrizione)</li><li>Data di ricorrenza annuale</li><li>Data di assunzione originale</li><li>Data di anzianità</li><li>Data di inizio rettificata del lavoratore</li><li>Data di inizio del lavoratore</li></ul> |
+      | **Data di inizio piano** | La data di inizio del periodo di accumulo è la data in cui il piano è disponibile. |
+      | **Data specifica del dipendente** | La data di inizio del periodo di accumulo dipende da un evento del dipendente:</br><ul><li>Personalizzato (è necessario specificare una base per la data di accumulo per ogni singola iscrizione)</li><li>Data di ricorrenza annuale</li><li>Data di assunzione originale</li><li>Data di anzianità</li><li>Data di inizio rettificata del lavoratore</li><li>Data di inizio del lavoratore</li></ul> |
 
    3. Selezionare un'opzione dalla casella a discesa **Data concessione accumulo**:
 

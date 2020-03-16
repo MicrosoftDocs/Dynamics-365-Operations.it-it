@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773647"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080774"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet in IOS e Android
 
@@ -183,7 +183,7 @@ L'esempio seguente illustra un campo string nelle voci relative alle ore. Questo
 
 Da notare l'utilizzo del metodo **TSTimesheetCustomField::newFromMetatdata()** per semplificare l'inizializzazione delle proprietà dei campi personalizzati: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** e **numberOfDecimals**. È anche possibile impostare tali parametri manualmente.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Il metodo **buildCustomFieldListForEntry** viene utilizzato per immettere valori nelle righe del foglio presenze salvato nell'app per dispositivi mobili. Utilizza il record TSTimesheetTrans come parametro. I campi di quel record possono essere utilizzati per immettere il valore dei campi personalizzati nell'app.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Per salvare di nuovo un campo personalizzato in un utilizzo tipico, è necessari
 > [!NOTE]
 > L'esempio seguente salva il valore **secondOption** o **firstOption** che l'utente seleziona per il database come valore string non elaborato. Se il campo del database è un campo di tipo **Enum**, questi valori possono essere mappati manualmente a un valore enum e quindi salvati in un campo enum nella tabella di database.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Questo codice controlla le impostazioni di visualizzazione del campo nell'app. A
 
 Nel seguente esempio viene illustrato un valore calcolato nella sezione dell'intestazione nell'app.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Il metodo **buildCustomFieldListForHeader** viene utilizzato per immettere dettagli dell'intestazione del foglio presenze nell'app per dispositivi mobili. Utilizza il record TSTimesheetTable come parametro. I campi di quel record possono essere utilizzati per immettere il valore dei campi personalizzati nell'app. Nel seguente esempio nessun valore viene letto dal database. Viene invece utilizzata la logica X++ per generare un valore calcolato che viene visualizzato nell'app.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

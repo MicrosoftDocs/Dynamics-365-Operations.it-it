@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251157"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057781"
 ---
 # <a name="trade-allowance-management"></a>Gestione sconto commerciale
 
 [!include [banner](../includes/banner.md)]
 
-La gestione dello sconto commerciale aiuta le società a gestire i programmi di promozione delle vendite che offrono premi monetari basati sulla produttività al dettaglio ai clienti che raggiungono obiettivi comportamentali o di volume. Le funzionalità di questa caratteristica sono progettate per le società che si concentrano sui processi da promozione a profitto completi, dalla creazione del budget e l'allocazione del fondo per la promozione, all'impostazione del contratto di abbuoni, alla creazione e all'elaborazione dei reclami, all'elaborazione dei pagamenti, all'analisi dell'efficacia della promozione.
+La gestione dello sconto commerciale aiuta le società a gestire i programmi di promozione delle vendite che offrono premi monetari basati sulla produttività ai clienti che raggiungono obiettivi comportamentali o di volume. Le funzionalità di questa caratteristica sono progettate per le società che si concentrano sui processi da promozione a profitto completi, dalla creazione del budget e l'allocazione del fondo per la promozione, all'impostazione del contratto di abbuoni, alla creazione e all'elaborazione dei reclami, all'elaborazione dei pagamenti, all'analisi dell'efficacia della promozione.
 
 
 L'articolo offre una vasta panoramica della funzionalità di gestione dello sconto commerciale e consente di familiarizzare con il set tipico di attività previste nella gestione del programma di promozione delle vendite. Diversi tipi di utenti con responsabilità operative e decisionali utilizzano questa funzionalità per ottenere i rispettivi obiettivi:
@@ -61,7 +61,7 @@ Un accordo con sconto commerciale è un programma di incentivi in cui vengono of
 
 I fondi che vengono allocati agli accordi con sconto commerciale vengono registrati nella pagina **Fondi**. Per aprire la pagina **Fondi**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Fondi** \> **Fondi**.
 
-![Pagina Fondi](./media/trade-allowance-management-funds-page.png "Pagina Fondi")
+![Pagina dei fondi](./media/trade-allowance-management-funds-page.png "Pagina dei fondi")
 
 Nella pagina **Fondi** è possibile visualizzare i dettagli dei fondi promozionali.
 
@@ -77,7 +77,7 @@ Dopo avere definito il fondo, il passaggio successivo nella pianificazione della
 
 Gli accordi con sconto promozionale vengono registrati nella pagina **Accordi con sconto commerciale**. Per aprire la pagina **Accordi con sconto commerciale**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**.
 
-![Pagina Accordi con sconto commerciale](./media/trade-allowance-management-agreements-page.png "Pagina Accordi con sconto commerciale")
+![Pagina degli accordi con sconto commerciale](./media/trade-allowance-management-agreements-page.png "Pagina degli accordi con sconto commerciale")
 
 #### <a name="header"></a>Intestazione
 
@@ -105,7 +105,7 @@ Nella scheda **Eventi merchandising** vengono visualizzati i tipi di eventi cope
 
 Quando si seleziona un evento di merchandising e quindi si seleziona la scheda **Importi**, i dettagli dell'evento vengono rilevati.
 
-![Righe di accordo con sconto commerciale](./media/trade-allowance-management-agreements-lines.png "Righe di accordo con sconto commerciale")
+![Righe accordo con sconto commerciale](./media/trade-allowance-management-agreements-lines.png "Righe accordo con sconto commerciale")
 
 Nella sezione **Righe sconto commerciale** si specificano gli intervalli di quantità o importi che il cliente deve raggiungere per definizioni per ottenere gli sconti.
 
@@ -125,7 +125,7 @@ Per applicare l'accordo agli ordini cliente che soddisfano le condizioni, lo sta
 
 Quando si crea un ordine cliente con righe che soddisfano i requisiti dell'accordo, è possibile visualizzare le informazioni correlati nella pagina **Ordine cliente** selezionando **Riga ordine cliente** \> **Visualizza** \> **Dettagli prezzo**.
 
-Nella pagina **Dettagli prezzo**, nella Scheda dettagli **Sconti** l'addetto vendite può vedere una nota di accredito di un accordo con sconto commerciale valido (l'ID del programma di sconti è visibile) e l'importo totale che viene applicato alla riga. Questo importo viene mostrato nel campo **Importo sconto** nella sezione **Stima margine** della pagina **Dettagli prezzo**.
+Nella pagina **Dettagli prezzo**, nella scheda dettaglio **Sconti** l'addetto vendite può vedere una nota di accredito di un accordo con sconto commerciale valido (l'ID del programma di sconti è visibile) e l'importo totale che viene applicato alla riga. Questo importo viene mostrato nel campo **Importo sconto** nella sezione **Stima margine** della pagina **Dettagli prezzo**.
 
 Quando la fattura di vendita viene registrata, viene generata una nota di accredito corrispondente per ogni riga di fattura.
 

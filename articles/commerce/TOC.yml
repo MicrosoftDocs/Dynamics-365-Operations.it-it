@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Visualizzazioni salvate
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Funzionalità di griglia
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Incorporare app PowerApps
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Impostare e utilizzare gli avvisi di frode
                   href: set-up-fraud-alerts.md
-                - name: Impostare programmi di continuità per i servizi clienti
-                  href: set-up-continuity-program.md
             - name: Configurazione del canale aggiuntivo
               items:
                 - name: Aggiungere un canale a una gerarchia organizzativa
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
                       href: pro-rate-charges-matching-lines.md
+                - name: Gestire programmi di continuità
+                  items:
+                    - name: Impostare programmi di continuità per i servizi clienti
+                      href: set-up-continuity-program.md
+                    - name: Definire programmazioni di continuità
+                      href: tasks/define-continuity-schedules.md
                 - name: Gestione punto vendita al dettaglio
                   items:
                     - name: Creare e modificare gli orari del punto vendita
@@ -460,8 +466,6 @@
                   items:
                     - name: Configurare e utilizzare le sospensioni degli ordini del servizio clienti
                       href: work-with-order-holds.md
-                    - name: Definire programmazioni di continuità
-                      href: tasks/define-continuity-schedules.md
                 - name: Pagamenti
                   items:
                     - name: Metodi di pagamento
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Salvare gli strumenti di pagamento online con il connettore Adyen
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Passare offline con semplicità per le operazioni gift card e nota credito
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurare scenari di pagamento delle fatture
                       href: payinvoice.md
                     - name: Duplicare la prevenzione pagamenti
@@ -492,11 +498,11 @@
               items:
                 - name: Panoramica delle informazioni sul prodotto
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
-                - name: Impostare prodotti di vendita al dettaglio
+                - name: Configurare prodotti di vendita al dettaglio
                   href: set-up-retail-products.md
-                - name: Gerarchia di prodotti al dettaglio
+                - name: Gerarchia di prodotti
                   items:
-                    - name: Gerarchie di punti vendita al dettaglio
+                    - name: Gerarchie Commerce
                       href: retail-hierarchies.md
                     - name: Creare una nuova gerarchia prodotti
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Impostare regole e parametri per cross-docking e distribuzione push
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Operazione di magazzino in ingresso in POS
+                      href: pos-inbound-inventory-operation.md
+                    - name: Operazione di magazzino in uscita in POS
+                      href: pos-outbound-inventory-operation.md
+                    - name: Calcolare la disponibilità scorte per i canali di vendita al dettaglio
+                      href: calculated-inventory-retail-channels.md
                 - name: Ordini fornitore
                   items:
                     - name: Panoramica degli ordini fornitore
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Registrazione di vendite e pagamenti online
               href: tasks/posting-online-sales-payments.md
+        - name: Gestire le attività lavoratore
+          items:
+            - name: Panoramica della gestione attività
+              href: task-mgmt-overview.md
+            - name: Configurare la gestione delle attività
+              href: task-mgmt-configure.md
+            - name: Creare elenchi di attività e aggiungere attività
+              href: task-mgmt-create-lists.md
+            - name: Assegnare elenchi di attività a punti vendita o dipendenti
+              href: task-mgmt-assign-lists.md
+            - name: Gestione delle attività in POS
+              href: task-mgmt-pos.md
         - name: Gestire il sito e-commerce
           items:
             - name: Panoramica dei negozi online
@@ -880,6 +904,8 @@
                   items:
                     - name: Modulo casella acquisti
                       href: add-buy-box.md
+                    - name: Moduli Valutazioni e recensioni
+                      href: ratings-reviews-modules.md
                 - name: Moduli acquisti
                   items:
                     - name: Modulo carrello
@@ -1056,6 +1082,8 @@
               items:
                 - name: Panoramica di Reporting Services per documenti
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Caratteri supportati
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurare SSRS per distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Stampa
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Visualizzare in anteprima i moduli ed eseguire il debug
                       href: e-commerce-extensibility/test-module.md
-                    - name: Eseguire il debug dei moduli
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Testare i moduli utilizzando simulazioni
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Testare i moduli utilizzando simulazioni di pagine
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Linee guida per l'implementazione di gestione dei dispositivi
                   href: implementation-considerations-devices.md
+                - name: Visualizzazione di eventi e gestori nel carrello POS
+                  href: dev-itpro/cart-view-handlers.md
             - name: Estendibilità dell'Hardware Station
               items:
                 - name: Hardware Station ed estendibilità
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Registrare eventi di estensione in Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Creare API asincrone Commerce (CRT) nella logica aziendale
+                  href: dev-itpro/async-commerce-extension.md
             - name: Estendibilità connettore pagamenti
               items:
                 - name: Creare un'integrazione di pagamento per un terminale di pagamento
@@ -2048,7 +2078,9 @@
                   href: payment-connector-data-fields.md
                 - name: Attivare la protezione dei pagamenti duplicati per il connettore pagamenti
                   href: dev-itpro/duplicate-payment-protection.md
-            - name: Estendibilità di e-Commerce di terze parti
+                - name: Creare pacchetti di pagamento per Application Explorer nelle distribuzioni di Service Fabric
+                  href: dev-itpro/payment-connector-package.md
+            - name: Estendibilità di e-commerce di terze parti
               items:
                 - name: Configurare punti vendita online
                   href: dev-itpro/configure-online-store.md
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Sviluppo e amministrazione delle app Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

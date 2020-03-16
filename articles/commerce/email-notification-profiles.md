@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003144"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057616"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Impostare un profilo di notifica tramite posta elettronica
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni di configurazione della posta elettronica, vedere [Co
 
 Per creare un profilo di notifica tramite posta elettronica, attenersi alla seguente procedura.
 
-1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Profilo di notifica tramite posta elettronica per Retail**.
+1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Profilo di notifica tramite posta elettronica per Commerce**.
 1. Fare clic su **Nuovo** nel riquadro azioni.
 1. Nel campo **Profilo di notifica tramite posta elettronica**, immettere un nome per identificare il profilo.
 1. Nel campo **Descrizione** immettere una descrizione pertinente.
@@ -71,16 +71,16 @@ L'immagine seguente mostra alcune impostazioni di esempio del modello e-mail.
 
 Per creare un evento e-mail attenersi alla procedura seguente.
 
-1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Profilo di notifica tramite posta elettronica per Retail**.
+1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Profilo di notifica tramite posta elettronica per Commerce**.
 1. Nell'elenco trovare e selezionare il record desiderato. 
 1. Selezionare il modello e-mail dall'elenco a discesa **ID posta elettronica**.
 1. Selezionare il **Tipo di notifica tramite posta elettronica** appropriato dall'elenco a discesa.
 1. Selezionare la casella di controllo **Attiva**.
 1. Nel riquadro azioni selezionare **Salva**.
 
-L'immagine seguente mostra alcune impostazioni di esempio della notifica di evento di vendita al dettaglio.
+L'immagine seguente mostra alcune impostazioni di esempio della notifica di evento.
 
-![Impostazioni notifica di eventi di vendita al dettaglio](media/email-notification-profile.png)
+![Impostazioni notifica di eventi](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

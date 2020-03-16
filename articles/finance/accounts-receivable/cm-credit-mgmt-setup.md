@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015282"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071662"
 ---
 # <a name="credit-management-parameters-setup"></a>Impostazione dei parametri di Gestione crediti
 
@@ -38,8 +38,8 @@ Sono disponibili quattro schede dettaglio in cui è possibile modificare i param
 - Impostare l'opzione **Consenti modifica del valore ordine cliente dopo il rilascio della sospensione dell'ordine** su **Sì** per richiedere che le regole di registrazione vengano nuovamente controllate se il valore dell'ordine cliente (prezzo esteso) è stato modificato dal momento in cui l'ordine cliente è stato rilasciato dall'elenco di sospensioni. .
 - Nel campo **Motivi per ordini annullati**, selezionare il motivo del rilascio che verrà utilizzato per impostazione predefinita quando un ordine cliente in attesa della gestione del credito viene annullato.
 - Impostare l'opzione **Verifica limite di credito di gruppi di crediti cliente** su **Sì** per controllare il limite di credito di un gruppo di crediti cliente quando il cliente in un ordine cliente appartiene a un gruppo di crediti cliente. Il limite di credito per il gruppo verrà verificato e quindi, se è sufficiente, verrà verificato il limite di credito per il cliente.
-- Impostare l'opzione **Verifica limite di credito quando vengono aumentati i termini di pagamento** su **Sì** per controllare la classificazione dei termini di pagamento e determinare se i termini di pagamento nell'ordine cliente differiscono dai termini di pagamento originali. Se i nuovi termini di pagamento hanno una classificazione superiore rispetto ai termini di pagamento originali, l'ordine viene messo in attesa per la gestione del credito.
-- Impostare l'opzione **Verifica limite di credito quando viene aumentato uno sconto per liquidazione** su **Sì** per controllare la classificazione dello sconto per classificazione e determinare se lo sconto di cassa nell'ordine cliente differisce dallo sconto di cassa originale. Se il nuovo sconto di cassa ha una classificazione superiore rispetto allo sconto di cassa originale, l'ordine viene messo in attesa per la gestione del credito.
+- Impostare l'opzione **Verifica limite di credito quando vengono aumentati i termini di pagamento** su **Sì** per controllare la classificazione dei termini di pagamento e determinare se i termini di pagamento nell'ordine cliente differiscono dai termini di pagamento predefiniti per il cliente. Se i nuovi termini di pagamento hanno una classificazione superiore rispetto ai termini di pagamento originali, l'ordine viene messo in attesa per la gestione del credito.
+- Impostare l'opzione **Verifica limite di credito quando viene aumentato uno sconto per liquidazione** su **Sì** per controllare la classificazione dello sconto per classificazione e determinare se lo sconto di cassa nell'ordine cliente differisce dallo sconto di cassa predefinito per il cliente. Se il nuovo sconto di cassa ha una classificazione superiore rispetto allo sconto di cassa originale, l'ordine viene messo in attesa per la gestione del credito.
 - Nel campo **Motivo del rilascio di ordini modificati**, selezionare il motivo di rilascio che verrà utilizzato per impostazione predefinita quando gli ordini modificati vengono automaticamente rilasciati dalla sospensione per la gestione del credito.
 - Impostare l'opzione **Ignora regola di blocco limite di credito scaduto quando la data di scadenza è vuota** su **Sì** per controllare il comportamento della regola **Limite di credito scaduto**. Impostare l'opzione su **No** per bloccare un ordine quando la data di scadenza è vuota.
 - In Gestione magazzino, i carichi possono essere creati al momento della registrazione dell'ordine cliente. Impostare l'opzione **Rimuovi righe di carico bloccate** su **No** per mantenere le righe dell'ordine cliente sul carico quando un ordine cliente è in attesa del credito. Il carico non può essere elaborato quando l'ordine cliente è in attesa. Impostare l'opzione su **Sì** per rimuovere le righe dell'ordine cliente dal carico quando un ordine cliente è in attesa del credito. Il carico può quindi essere elaborato.

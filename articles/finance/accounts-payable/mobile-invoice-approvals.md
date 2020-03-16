@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658646"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059430"
 ---
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
@@ -54,8 +54,8 @@ Ogni organizzazione orchestra e definisce il proprio processo aziendale per le f
     -   Quante distribuzioni contabili (prezzo esteso, IVA, spese, suddivisioni e così via) esistono per una riga della fattura? Anche in questo caso, applicare la regola 80-20.
     -   Le fatture hanno distribuzioni contabili anche nell'intestazione? In tal caso, queste distribuzioni contabili devono essere disponibili sul dispositivo?
 
-> [!NOTE]
-> In questo argomento non viene illustrato come modificare le distribuzioni contabili, poiché questa funzionalità non è attualmente supportata per scenari mobili.
+    > [!NOTE]
+    > In questo argomento non viene illustrato come modificare le distribuzioni contabili, poiché questa funzionalità non è attualmente supportata per scenari mobili.
 
 -   Gli utenti vorranno visualizzare gli allegati della fattura sul dispositivo?
 
@@ -158,9 +158,9 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
     - Numero fattura
     - Data fattura
 
-  Dopo che i campi vengono aggiunti, la pagina mobile deve somigliare alla figura seguente. 
+    Dopo che i campi vengono aggiunti, la pagina mobile deve somigliare alla figura seguente. 
     
-   [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  È inoltre necessario aggiungere le seguenti colonne ora, in modo da abilitare le azioni del flusso di lavoro successivamente.
     - Mostra attività completare
@@ -247,9 +247,10 @@ Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobile
     - Nasconde le colonne extra correlate ai flussi di lavoro che abbiamo aggiunto in precedenza nella pagina elenco in versione mobile. Abbiamo aggiunto le colonne in modo che l'app abbia quelle informazioni nel contesto e possa eseguire il passaggio successivo.
     - In base al passaggio del flusso di lavoro attivo, viene applicata la logica per visualizzare solo queste azioni.
 
-> [!NOTE]
-> Il nome delle pagine e altri controlli nel codice devono essere gli stessi dell'area di lavoro.
+    > [!NOTE]
+    > Il nome delle pagine e altri controlli nel codice devono essere gli stessi dell'area di lavoro.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobile
                  },
            };
         }
+    ```
 
 2.  Caricare il file del codice nell'area di lavoro selezionando la scheda **Logica**
 3.  Fare clic su **Fine** per uscire dalla modalità di modifica.
@@ -341,7 +343,7 @@ I requisiti di questo scenario confermano che ci saranno solo distribuzioni a li
 
 1.  Nell'URL, sostituire il nome della voce di menu, come fatto in precedenza. Verrà visualizzata una che deve essere simile alla figura seguente.
 
-[![Pagina Tutte le distribuzioni](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Pagina Tutte le distribuzioni](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
 
@@ -367,16 +369,18 @@ I requisiti di questo scenario confermano che ci saranno solo distribuzioni a li
 
 10. Fare clic su **Pubblica area di lavoro** per salvare il lavoro.
 
-> [!NOTE] 
-> La pagina in versione mobile **Visualizza contabilità** non è attualmente collegata a nessuna delle pagine mobili disponibili progettate fino a questo momento. Poiché l'utente deve poter accedere alla pagina **Visualizza contabilità** dalla pagina **Dettagli fattura** sul dispositivo mobile, dobbiamo specificare lo spostamento dalla pagina **Dettagli fattura** alla pagina **Visualizza contabilità** . Stabiliamo questo spostamento utilizzando la logica aggiuntiva tramite JavaScript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Aggiunto lo spostamento alla pagina "Visualizza contabilità"
+
+La pagina in versione mobile **Visualizza contabilità** non è attualmente collegata a nessuna delle pagine mobili disponibili progettate fino a questo momento. Poiché l'utente deve poter accedere alla pagina **Visualizza contabilità** dalla pagina **Dettagli fattura** sul dispositivo mobile, dobbiamo specificare lo spostamento dalla pagina **Dettagli fattura** alla pagina **Visualizza contabilità** . Stabiliamo questo spostamento utilizzando la logica aggiuntiva tramite JavaScript.
 
 1.  Apre il file .js creato in precedenza e aggiungere le righe che vengono evidenziate nel codice riportato di seguito. Questo codice fa due cose:
     1.  Aiuta a garantire che gli utenti non possono accedere direttamente dall'area di lavoro alla pagina **Visualizza contabilità**.
     2.  Stabilisce un controllo di spostamento dalla pagina **Invoice details** alla pagina **View accounting**.
 
-> [!NOTE] 
-> Il nome delle pagine e altri controlli nel codice devono essere gli stessi dell'area di lavoro.
+    > [!NOTE] 
+    > Il nome delle pagine e altri controlli nel codice devono essere gli stessi dell'area di lavoro.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ I requisiti di questo scenario confermano che ci saranno solo distribuzioni a li
                  },
            };
         }
-
+    ```
+    
 2.  Caricare il file del codice nell'area di lavoro selezionando la scheda **Logica** per sovrascrivere il codice precedente
 3.  Fare clic su **Fine** per uscire dalla modalità di modifica.
 4.  Fare clic su **Indietro** e quindi su **Fine** per uscire dall'area di lavoro

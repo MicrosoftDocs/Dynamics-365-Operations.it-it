@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026136"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042829"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Usare file di gestione documenti in output di formato (Parte 1: Preparare il modello dati)
 
@@ -36,10 +36,14 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Ottenere l'accesso all'elenco delle configurazioni fornite da Microsoft
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
-    * Assicurarsi che il provider Litware, Inc. sia disponibile e contrassegnato come attivo.  
+
+    Assicurarsi che il provider Litware, Inc. sia disponibile e contrassegnato come attivo.  
+
 2. Selezionare il provider Litware, Inc .
 3. Fare clic su Archivi.
-    * Se un archivio di tipo 'Risorse operative' esiste già, ignorare i passaggi restanti della sottoattività corrente.  
+
+    Se un archivio di tipo 'Risorse operative' esiste già, ignorare i passaggi restanti della sottoattività corrente.  
+
 4. Fare clic su Aggiungi per aprire la finestra di dialogo a discesa.
 5. Nel campo Tipo di archivio di configurazioni immettere 'Risorse operative'.
 6. Fare clic su Crea archivio.
@@ -51,9 +55,13 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 3. Fare clic su Mostra filtri.
 4. Fare clic su Apri.
 5. Nella struttura selezionare 'Modello fattura cliente'.
-    * Selezionare la configurazione modello 'Modello fattura cliente' per importarla.  
+
+    Selezionare la configurazione modello 'Modello fattura cliente' per importarla.  
+
 6. Fare clic su Importa.
-    * Fare clic su Importa per la versione 1 della configurazione selezionata.  
+
+    Fare clic su Importa per la versione 1 della configurazione selezionata.  
+
 7. Fare clic su Sì.
 8. Chiudere la pagina.
 9. Chiudere la pagina.
@@ -65,6 +73,5 @@ Si creerà una propria configurazione del modello fattura cliente derivandola da
 1. Fare clic su Crea configurazione per aprire la finestra di dialogo a discesa .
 2. Nel campo Nuovo, immettere 'Deriva da nome: Modello fattura cliente, Microsoft'.
 3. Nel campo Nome digitare 'Modello fattura cliente (personalizzato)'.
-    * Modello fattura cliente (personalizzato)  
 4. Fare clic su Crea configurazione.
 

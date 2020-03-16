@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002245"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057835"
 ---
 # <a name="cloud-powered-search-overview"></a>Panoramica della ricerca basata su cloud
 
@@ -33,7 +33,7 @@ In questo argomento viene fornita una panoramica della ricerca basata su cloud i
 
 ## <a name="overview"></a>Panoramica
 
-L'individuazione dei prodotti garantisce ai clienti di trovare in modo semplice e rapido i prodotti esplorando le categorie, eseguendo ricerche e applicando filtri. Per i rivenditori, l'individuazione dei prodotti è uno strumento principale per l'interazione dei clienti in tutti i canali di vendita al dettaglio.
+L'individuazione dei prodotti garantisce ai clienti di trovare in modo semplice e rapido i prodotti esplorando le categorie, eseguendo ricerche e applicando filtri. Per i rivenditori, l'individuazione dei prodotti è uno strumento principale per l'interazione dei clienti in tutti i canali.
 
 I clienti sono abituati ai tempi di risposta quasi istantanei dei motori di ricerca Web, ai siti Web di e-Commerce sofisticati, alle app social, ai suggerimenti automatici visualizzati quando digitano i termini di ricerca, all'esplorazione in base a facet e alla messa in risalto dei prodotti. Se i clienti non possono trovare il prodotto che stanno cercando in tempi brevi in un punto vendita di e-Commerce, non esiteranno a visitare un altro punto vendita di e-Commerce.
 
