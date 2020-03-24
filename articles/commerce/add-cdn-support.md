@@ -3,7 +3,7 @@ title: Aggiungere il supporto per una rete per la distribuzione di contenuti (CD
 description: In questo argomento viene descritto come aggiungere una rete per la distribuzione di contenuti (CDN) all'ambiente di Microsoft Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001624"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096727"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)
 
@@ -144,12 +144,20 @@ A questo punto, la rete CDN deve essere configurata correttamente di modo che po
 
 [Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
 
+[Impostare un canale punto vendita online](online-stores.md)
+
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
 [Associare un sito online a un canale](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
+[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+
+[Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
+
 [Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
+
+[Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)

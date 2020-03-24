@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957369"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117339"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
+
+[!include [banner](../includes/banner.md)]
 
 Gli utenti aziendali utilizzano il framework [Creazione di report elettronici ER](general-electronic-reporting.md) per configurare i formati per documenti in uscita in base ai requisiti legali dei vari paesi. Gli utenti possono inoltre definire il flusso di dati per specificare i dati dell'applicazione da inserire nei documenti generati. Il framework ER genera documenti in uscita nei formati di Microsoft Office (cartelle di lavoro di Excel o documenti di Word) utilizzando modelli predefiniti. Nei modelli vengono inseriti i dati necessari in base al flusso di dati configurato durante la generazione dei documenti richiesti. Ogni formato configurato può essere pubblicato come parte di una soluzione ER per generare specifici documenti in uscita. Ciò è rappresentato da una configurazione di formato ER che può contenere modelli utilizzabili per generare differenti documenti in uscita. Gli utenti aziendali possono utilizzare questo framework per gestire i documenti aziendali necessari.
 
@@ -147,7 +149,7 @@ Per informazioni su come impostare i parametri di gestione dei documenti e i tip
 
 ![Impostare il tipo di documento in Gestione documenti](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Impostare i parametri</a>
+### <a name=""></a><a name="SetupBdmParameters">Impostare i parametri</a>
 
 I parametri di base di Gestione documenti aziendali possono essere impostati nella pagina **Parametri di documenti aziendali**. Solo determinati utenti possono accedere alla pagina, ovvero:
 
@@ -158,7 +160,7 @@ Utilizzare la seguente procedura per impostare i parametri di base per tutte le 
 
 1. Accedere come utente con accesso alla pagina **Parametri di documenti aziendali**.
 2. Accedere a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Gestione documenti aziendali** \> **Parametri di documenti aziendali**.
-3.  Nella pagina **Parametri di documenti aziendali**, nella scheda **Allegati**, nel campo **Tipo di documento SharePoint**, definire il tipo di documento che deve essere utilizzato per archiviare temporaneamente i modelli in formati di Office quando vengono modificati utilizzando applicazioni desktop di Office. 
+3.    Nella pagina **Parametri di documenti aziendali**, nella scheda **Allegati**, nel campo **Tipo di documento SharePoint**, definire il tipo di documento che deve essere utilizzato per archiviare temporaneamente i modelli in formati di Office quando vengono modificati utilizzando applicazioni desktop di Office. 
 
 > [!NOTE]
 > Solo i tipi di documento configurati utilizzando un percorso SharePoint sono disponibili per questo parametro.
@@ -288,13 +290,13 @@ Viene visualizzata la pagina **Editor di modelli BDM**. Il modello selezionato s
 
 ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Modificare un modello in Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Modificare un modello in Office 365</a>
 
-È possibile modificare il modello utilizzando Office 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente nel modello modificabile che si trova nell'archiviazone del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure). Questa è configurata per il framework ER.
+È possibile modificare il modello utilizzando Office 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente nel modello modificabile che si trova nell'archiviazione del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure). Questa è configurata per il framework ER.
 
 ![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Modificare un modello nell'applicazione desktop di Office</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Modificare un modello nell'applicazione desktop di Office</a>
 
 > [!NOTE]
 > Questa funzione è disponibile solo quando il parametro **Tipo di documento SharePoint** è configurato correttamente. Per ulteriori informazioni, vedere [Configurare parametri](#SetupBdmParameters).
@@ -398,7 +400,7 @@ Sì, è possibile. Nella prima sessione dell'applicazione, selezionare **Apri ne
 3. Nella pagina **Editor di modelli BDM** della prima sessione dell'applicazione, selezionare **Sincronizza copia archiviata**.
 4. Eseguire questo formato ER di modello nella seconda sessione dell'applicazione.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Viene visualizzato il messaggio di errore "Il valore non può essere null. Nome parametro: externalId quando seleziono **Apri nell'app desktop**. Come posso risolvere questo problema? 
+#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Viene visualizzato il messaggio di errore "Il valore non può essere null. Nome parametro: externalId" quando seleziono **Apri nell'app desktop**. Come posso risolvere questo problema? 
 Molto probabilmente è stato eseguito l'accesso all'istanza corrente dell'app del dominio Azure AD che differisce dal dominio Azure AD utilizzato per distribuire questa istanza. Poiché il servizio SharePoint, utilizzato per archiviare i modelli e renderli disponibili per la modifica utilizzando le applicazioni desktop di Office, appartiene allo stesso dominio, non disponiamo delle autorizzazioni per accedere al servizio SharePoint. Per risolvere questo problema, accedere all'istanza corrente utilizzando le credenziali di un utente con il dominio Azure AD corretto.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

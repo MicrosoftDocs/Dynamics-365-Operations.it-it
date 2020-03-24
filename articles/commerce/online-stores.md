@@ -3,7 +3,7 @@ title: Impostare un canale punto vendita online
 description: Questo articolo fornisce informazioni sui canali di punti vendita online e su come impostarli in Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023101"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096896"
 ---
 # <a name="set-up-an-online-store-channel"></a>Impostare un canale punto vendita online
 
@@ -71,3 +71,27 @@ Le gerarchie organizzative sono utilizzate per strutturare canali di commercio e
 Quando si crea una gerarchia organizzativa, è necessario assegnarle uno scopo. Lo scopo indica la modalità con cui viene utilizzata la gerarchia nella struttura aziendale. È possibile creare una gerarchia organizzativa per le operazioni del punto vendita e utilizzare tale gerarchia per assortimenti, rifornimento e reporting. 
 
 In alternativa, è possibile creare una gerarchia organizzativa separata per ogni scopo. È inoltre possibile creare più gerarchie con lo stesso scopo e assegnare un canale separato a ognuna di esse. Se si intende pubblicare cataloghi di prodotti nel punto vendita online, è necessario almeno aggiungere il punto vendita online a una gerarchia organizzativa per gli assortimenti. I prodotti di un catalogo vengono selezionati dagli assortimenti assegnati al punto vendita online. Quando il catalogo viene pubblicato, il processo di pubblicazione confronta le date di validità per l'assortimento assegnato al punto vendita online ai prodotti inclusi nel catalogo per determinare i prodotti da rendere disponibili nel punto vendita online.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Configurare il proprio nome di dominio](configure-your-domain-name.md)
+
+[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+
+[Creare un sito di e-commerce](create-ecommerce-site.md)
+
+[Associare un sito online a un canale](associate-site-online-store.md)
+
+[Gestire i file robots.txt](manage-robots-txt-files.md)
+
+[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+
+[Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
+
+[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
+
+[Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
+
+[Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
+
+[Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)

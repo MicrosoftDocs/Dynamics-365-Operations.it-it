@@ -1,9 +1,9 @@
 ---
 title: Creare e utilizzare campi personalizzati
-description: In questo argomento viene illustrato come creare i campi personalizzati per adattare l'applicazione in base alle esigenze aziendali.
+description: In questo argomento viene illustrato come creare i campi personalizzati tramite l'interfaccia utente per adattare l'applicazione alle esigenze aziendali.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812507"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112338"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Creare e utilizzare campi personalizzati
 
 [!include [banner](../includes/banner.md)]
 
-Sebbene sia fornito un ampio set di campi pronti all'uso per la gestione di un'ampia gamma di processi aziendali, a volte è necessario che un'azienda tenga traccia di ulteriori informazioni nel sistema. Per soddisfare questa esigenza, è possibile creare campi personalizzati per personalizzare l'applicazione in base alle esigenze aziendali, a condizione di disporre delle autorizzazioni per la funzionalità.
+Sebbene sia fornito un ampio set di campi pronti all'uso per la gestione di un'ampia gamma di processi aziendali, a volte è necessario che un'azienda tenga traccia di ulteriori informazioni nel sistema. Mentre i programmatori possono essere utilizzati per aggiungere quei campi come estensioni negli strumenti di sviluppo, la funzione dei campi personalizzati consente di aggiungere campi direttamente dall'interfaccia utente, permettendo in tal modo di adattare l'applicazione in modo alla propria azienda utilizzando il browser Web.
 
-La possibilità di aggiungere campi personalizzati è disponibile nell'aggiornamento piattaforma 13 e successivi.
+La possibilità di aggiungere campi personalizzati è disponibile nell'aggiornamento piattaforma 13 e successivi. Solo gli utenti con autorizzazioni speciali hanno accesso a questa funzione.
 
 Questo video spiega quanto sia semplice aggiungere un campo personalizzato a una pagina: [Aggiunta di campi personalizzati](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Per motivi tecnici e di prestazioni, solo le tabelle che soddisfano le seguenti 
 - La tabella non può estendere un'altra tabella.
 - La tabella non può essere contrassegnata come tabella di sistema.
 - La tabella non può essere una tabella temporanea.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>È possibile fare riferimento a campi personalizzati dagli strumenti di sviluppo?  
+
+I campi personalizzati possono essere gestiti solo attraverso l'interfaccia utente e non è possibile farvi riferimento dal codice. 

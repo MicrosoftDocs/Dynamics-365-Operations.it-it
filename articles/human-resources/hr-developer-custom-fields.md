@@ -1,9 +1,9 @@
 ---
 title: Campi personalizzati
-description: ''
+description: È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009537"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3116001"
 ---
 # <a name="custom-fields"></a>Campi personalizzati
 
-È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources. Per ulteriori informazioni sulla creazione di campi personalizzati in una pagina, vedere [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources. Per ulteriori informazioni sulla creazione di campi personalizzati, vedere [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-Le seguenti entità di Common Data Service supportano i campi personalizzati creati in Human Resources:
-
-- Lavoro
-- Origine etnica
-- Stato veterano
-- Codice lingua
-- Posizione
-- Tipo di posizione
-- Funzione lavorativa
-- Posizione
-- Tipo di posizione
+La maggior parte delle entità Common Data Service supporta i campi personalizzati. Per un elenco completo di entità Common Data Service, vedere [Entità Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
 
 Assicurarsi di abilitare tutti i campi personalizzati creati in modo da poterli utilizzare in Common Data Service. Per ulteriori informazioni, vedere [Esposizione di campi personalizzati in entità di dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+
+## <a name="see-also"></a>Vedere anche
+
+[Entità Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[Esposizione di campi personalizzati in entità di dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)

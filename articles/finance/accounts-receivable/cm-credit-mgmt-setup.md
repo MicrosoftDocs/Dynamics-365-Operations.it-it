@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071662"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124187"
 ---
 # <a name="credit-management-parameters-setup"></a>Impostazione dei parametri di Gestione crediti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento descrive le opzioni che è possibile utilizzare per configurare Gestione crediti e soddisfare i requisiti della propria azienda. Per iniziare a utilizzare le funzionalità Gestione crediti, impostare i parametri nella pagina **Parametri di Gestione crediti** (**Gestione crediti \> Impostazione \> Parametri di Gestione crediti**).
 

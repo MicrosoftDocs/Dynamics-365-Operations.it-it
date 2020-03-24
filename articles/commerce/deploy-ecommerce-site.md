@@ -3,7 +3,7 @@ title: Distribuire un nuovo tenant di e-Commerce
 description: In questo argomento viene descritto come distribuire un nuovo tenant di e-Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001785"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096680"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-Commerce
 
@@ -97,11 +97,19 @@ Per accedere a Creazione di siti Web, selezionare la scheda **e-Commerce** nella
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
+[Impostare un canale punto vendita online](online-stores.md)
+
 [Associare un sito online a un canale](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
+[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+
+[Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
+
 [Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
+
+[Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
 
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 

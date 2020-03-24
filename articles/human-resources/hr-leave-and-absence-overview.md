@@ -1,6 +1,6 @@
 ---
 title: Panoramica
-description: ''
+description: L'area di lavoro **Congedo e assenza** in Dynamics 365 Human Resources fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009584"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091750"
 ---
 # <a name="overview"></a>Panoramica
 
@@ -43,7 +43,7 @@ Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di c
 
 - [Configurare tipi di congedo e assenza](hr-leave-and-absence-types.md)
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
-- [Assegnare lavoratori a un piano di congedo](hr-leave-and-absence-enroll.md)
+- [Assegnare i lavoratori a un piano di congedo](hr-leave-and-absence-enroll.md)
 - [Accumulare piani di congedo e assenza](hr-leave-and-absence-accrue.md)
 - [Visualizzare analisi per congedi e assenze](hr-leave-and-absence-analytics.md)
 

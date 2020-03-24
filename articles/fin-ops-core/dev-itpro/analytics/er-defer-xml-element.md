@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015275"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120880"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Differire l'esecuzione di elementi XML in formati ER
 
@@ -47,7 +47,7 @@ L'opzione **Esecuzione differita** è supportata solo per gli elementi XML che r
 
 L'opzione **Esecuzione differita** non è supportata per elementi XML che si trovano nell'elemento di formato **Common\\File** quando l'opzione **Dividi file** è impostata su **Sì**. Per ulteriori informazioni su come dividere file XML, vedere [Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto](er-split-files.md).
 
-## <a name="Example"></a>Esempio: Differire l'esecuzione di un elemento XML in un formato ER
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Esempio: Differire l'esecuzione di un elemento XML in un formato ER
 
 I seguenti passaggi spiegano come un utente con [ruolo ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) di amministratore di sistema o consulente funzionale per la creazione di report elettronici può configurare un formato ER che contiene un elemento XML in cui l'ordine di esecuzione differisce dall'ordine nella gerarchia dei formati.
 

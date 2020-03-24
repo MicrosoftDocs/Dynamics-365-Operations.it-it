@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890329"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133898"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 
@@ -66,6 +67,16 @@ Se la persona giuridica utilizza l'abbinamento fatture, è possibile visualizzar
 
 L'organizzazione può utilizzare flussi di lavoro per gestire il processo di revisione per le fatture fornitore. La revisione del flusso di lavoro può essere necessaria per l'intestazione della fattura, per la riga di fattura o per entrambe. I controlli del flusso di lavoro vengono applicati all'intestazione o alla riga, a seconda della posizione dello stato attivo quando si seleziona il controllo. Anziché il pulsante **Registra**, verrà visualizzato il pulsante **Invia** che può essere utilizzato per inviare la fattura fornitore tramite il processo di revisione.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Impedire che la fattura venga inviata al flusso di lavoro 
+
+Di seguito sono riportati diversi modi per impedire che una fattura venga inviata a un flusso di lavoro.
+
+- **Il totale della fattura e il totale registrato non sono uguali.** La persona che ha inviato la fattura riceverà un avviso che i totali non sono uguali in modo da poter correggere i saldi prima di inviare nuovamente la fattura al flusso di lavoro. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il totale della fattura e il totale della fattura registrata non sono uguali** nella pagina **Gestione funzionalità** è attivato. 
+
+- **La fattura contiene addebiti non allocati.** La persona che ha inviato la fattura riceverà un avviso che la fattura contiene addebiti non allocati in modo da poter correggere la fattura prima di inviarla nuovamente al flusso di lavoro. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando sono presenti addebiti non allocati in una fattura fornitore** nella pagina **Gestione funzionalità** è attivato.
+
+- **La fattura contiene lo stesso numero di fattura di un'altra fattura registrata.** La persona che ha inviato la fattura riceverà un avviso che è stata trovata una fattura con un numero duplicato in modo da poterla correggere prima di inviarla nuovamente al flusso di lavoro. Questo avviso viene visualizzato quando il parametro Contabilità fornitori etichettato **Verifica il numero di fattura utilizzato** è impostato su **Rifiuta duplicati**. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il numero di fattura esiste già in una fattura registrata e il sistema non è impostato per accettare numeri di fattura duplicati** nella pagina **Gestione funzionalità** è attivato.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Abbinamento delle fatture fornitore con le entrate prodotti
 
 È possibile immettere e salvare le informazioni relative alle fatture fornitore e abbinare le righe di fattura alle righe dell'entrata prodotti. È inoltre possibile abbinare quantità parziali per una riga
@@ -77,6 +88,16 @@ Quando viene registrata la fattura, la quantità **Rimanente fattura** relativa 
 In questa opzione si presuppone che per l'ordine fornitore sia stata registrata almeno un'entrata prodotti. La fattura fornitore si basa sulle entrate prodotti e riflette le quantità in esse contenute. Le informazioni finanziarie per la fattura si basano sulle informazioni immesse al momento della registrazione della fattura stessa.
 
 Per ulteriori informazioni, vedere [Registrare la fattura fornitore e associarla alla quantità ricevuta](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Configurare un'attività automatizzata per il flusso di lavoro della fattura fornitore per registrare la fattura fornitore utilizzando un processo batch
+
+È possibile aggiungere un'attività di registrazione automatica al flusso di lavoro della fattura fornitore in modo che le fatture vengano elaborate in un batch. La registrazione delle fatture in un batch consente al processo di flusso di lavoro di continuare senza dover attendere il completamento della registrazione, migliorando le prestazioni complessive di tutte le attività inviate al flusso di lavoro.
+
+Per registrare una fattura fornitore in un batch, nella pagina **Gestione funzionalità**, attivare il parametro **Registrazione batch fatture fornitore**. I flussi di lavoro della fattura fornitore vengono configurati accedendo a **Contabilità fornitor i> Impostazione > Flussi di lavoro contabilità fornitori**.
+
+È possibile vedere l'attività **Registra la fattura fornitore utilizzando un batch** nell'editor del flusso di lavoro, indipendentemente se il parametro della funzione, **Registrazione batch fatture fornitore**, è abilitato. Quando il parametro della funzione non è abilitato, una fattura che contiene **Registra la fattura fornitore tramite un'attività batch** non verrà elaborata nel flusso di lavoro fino a quando il parametro non viene abilitato. L'attività **Registra la fattura fornitore utilizzando un batch** non deve essere utilizzata nello stesso flusso di lavoro dell'attività automatizzata **Registra fatture fornitore**. Inoltre, l'attività **Registra la fattura fornitore utilizzando un batch** deve essere l'ultimo elemento nella configurazione del flusso di lavoro.
+
+È possibile specificare il numero di fatture da includere nel batch e il numero di ore di attesa prima di riprogrammare un batch, andando a **Contabilità fornitori > Impostazione > Parametri contabilità fornitori > Fattura > Flusso di lavoro fattura**. 
 
 ## <a name="working-with-multiple-invoices"></a>Utilizzo con più fatture
 

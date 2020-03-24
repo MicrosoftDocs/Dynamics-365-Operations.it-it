@@ -3,7 +3,7 @@ title: Allocazione dei dati della pianificazione del budget
 description: Questo argomento descrive i metodi di allocazione disponibili in Microsoft Dynamics 365 Finance e come possono essere utilizzati.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772078"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106884"
 ---
 # <a name="budget-planning-data-allocation"></a>Allocazione dei dati della pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive i metodi di allocazione disponibili in Microsoft Dynamics 365 Finance e come possono essere utilizzati.  
+Questo argomento descrive i metodi di allocazione disponibili in Microsoft Dynamics 365 Finance e come possono essere utilizzati.  
 
 È possibile distribuire i dati in un piano di budget in vari modi per illustrare in modo preciso gli importi previsti.
 
 ## <a name="allocation-methods"></a>Metodi di allocazione
 Tre metodi di allocazione (Alloca nei periodi, Alloca a dimensioni e Utilizza regole di allocazione contabilità generale) possono creare le righe del piano di budget in base alle righe dello stesso piano di budget. Altri metodi tre (Aggrega, Distribuisci e Copia da piano di budget) possono creare le righe del piano di budget in altri piani di budget. Per tutti e sei i metodi di allocazione, specificare lo scenario di destinazione. Lo scenario di destinazione può essere uguale o diverso dallo scenario di origine. Inoltre, è possibile specificare se le nuove righe vengono aggiunte al piano di budget o sostituiscono le righe correnti del piano di budget.
+
+> [!NOTE] 
+> Per l'aggregazione è necessario utilizzare uno scenario univoco diverso dallo scenario utilizzato per la distribuzione o altre modifiche precedentemente eseguite nel piano padre.  
 
 [![Metodo di allocazione Alloca nei periodi](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Alloca nei periodi**: una categoria di allocazione per periodo viene utilizzata per allocare le righe del piano di budget dallo scenario del piano di budget di origine tra i periodi dello scenario di destinazione. L'importo di origine viene assegnato a più righe nello scenario di destinazione, in base alla percentuale e alla data definite nella categoria di allocazione per periodo.         

@@ -1,7 +1,7 @@
 ---
 title: Gestione delle informazioni del cliente per l'Italia
 description: In questo argomento viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
-author: ''
+author: sepism
 manager: annbe
 ms.date: 01/14/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b3df47a9ec5f03e110d817bc4d8f221f804fe74d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 49824d8618aedf4e6685daf2bed752e75d3fd34f
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004706"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091810"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 

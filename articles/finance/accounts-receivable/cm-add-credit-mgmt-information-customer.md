@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7ad1b8ff9f00dba41c02e6426662a03c6c6211b
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 872d129494b815d6dbf88cc9f84b4e80723a8d6d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015279"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124325"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Aggiungere informazioni sulla gestione dei crediti per i clienti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Dopo aver impostato i parametri che controllano la gestione dei crediti, è possibile aggiungere ulteriori dettagli per ciascun cliente. Questi dettagli controllano i processi di gestione dei crediti e forniscono inoltre informazioni aggiuntive che assistono i membri del team riscossioni nel gestire i clienti.
 
