@@ -1,9 +1,9 @@
 ---
-title: Ottenere suggerimenti sul prodotto utilizzando i dati dimostrativi
+title: Crea suggerimenti con dati dimostrativi
 description: Questo documento fornisce una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042782"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127838"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Ottenere suggerimenti sul prodotto utilizzando i dati dimostrativi
+# <a name="create-recommendations-with-demo-data"></a>Crea suggerimenti con dati dimostrativi
+
+[!include [banner](includes/banner.md)]
+
 Questo documento fornisce una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 
 I suggerimenti sul prodotto omnicanale forniscono un set di elenchi di prodotti curati in modo editoriale o generati a livello di programmazione. Gli elenchi possono essere utilizzati in vari scenari, in base alle esigenze aziendali. Per ulteriori informazioni sugli elenchi di suggerimenti sul prodotto, vedere [Panoramica dei suggerimenti sul prodotto](product-recommendations.md).
@@ -67,4 +70,22 @@ L'estensione contiene un file di dati chiamato RecoMockDataset.csv che consente 
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Pianificazione ambiente](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
+
+[Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
+
+[Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
+
+[Aggiungere elenchi di suggerimenti a un sito di e-commerce](add-reco-list-to-page.md)
+
+[Aggiungere suggerimenti sul prodotto su POS](product.md)
+
+[Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
+
+[Regolare i risultati dei suggerimenti AI-ML](modify-product-recommendation-results.md)
+
+[Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
+
+[Domande frequenti su suggerimenti prodotto](faq-recommendations.md)

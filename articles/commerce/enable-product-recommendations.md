@@ -3,7 +3,7 @@ title: Abilitare suggerimenti sul prodotto
 description: In questo argomento viene descritto come abilitare i suggerimenti sul prodotto basati su intelligenza artificiale-machine learning (AI-ML) disponibili per i clienti di Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024958"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127884"
 ---
 # <a name="enable-product-recommendations"></a>Abilitare suggerimenti sul prodotto
 
@@ -38,7 +38,7 @@ Prima di abilitare i suggerimenti sul prodotto, è necessario notare che questi 
 
 Per i passaggi sull'abilitazione di ADLS, vedere [Come abilitare ADLS in un ambiente Dynamics 365](enable-ADLS-environment.md).
 
-Assicurarsi inoltre che le misurazioni RetailSale siano state abilitate. Per ulteriori informazioni su questo processo di impostazione, vedere [qui.](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+Assicurarsi inoltre che le misurazioni RetailSale siano state abilitate. Per ulteriori informazioni su questo processo di impostazione, vedere [qui.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>Attivare i suggerimenti
@@ -70,13 +70,23 @@ Per ulteriori informazioni su come ricevere suggerimenti personalizzati, vedere 
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare suggerimenti personalizzati](personalized-recommendations.md)
+[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Aggiungere elenchi di suggerimenti sul prodotto alle pagine](add-reco-list-to-page.md)
+[Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
 
-[Aggiungere il pannello dei suggerimenti a dispositivi POS](add-recommendations-control-pos-screen.md)
+[Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 
-[Panoramica del modulo di raccolta prodotti](product-collection-module-overview.md)
+[Aggiungere elenchi di suggerimenti a un sito di e-commerce](add-reco-list-to-page.md)
 
-[Abilitare ADLS nell'ambiente Dynamics 365](enable-ADLS-environment.md)
+[Aggiungere suggerimenti sul prodotto su POS](product.md)
+
+[Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
+
+[Regolare i risultati dei suggerimenti AI-ML](modify-product-recommendation-results.md)
+
+[Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
+
+[Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
+
+[Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
 

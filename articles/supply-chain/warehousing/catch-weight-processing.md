@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004113"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095799"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004113"
 
 ## <a name="feature-exposure"></a>Esposizione della funzionalità
 
-Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario utilizzare una chiave di configurazione di licenza per attivare la funzionalità. Accedere a **Amministrazione sistema \> Impostazioni \> Configurazione licenza**. Quindi, nella scheda **Chiavi di configurazione**, espandere **Commercio \> Gestione magazzino e trasporto** e selezionare la casella di controllo **Peso variabile per il magazzino**.
+Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario utilizzare una chiave di configurazione di licenza per attivare la funzionalità. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**. Quindi, nella scheda **Chiavi di configurazione**, espandere **Commercio \> Gestione magazzino e trasporto** e selezionare la casella di controllo **Peso variabile per il magazzino**.
 
 > [!NOTE]
-> Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Distribuzione processo \> Peso variabile** devono essere attivate. Per impostare le chiavi di configurazione per il peso variabile, è anche necessario attivare la funzionalità utilizzando l'area di lavoro **Gestione funzionalità**. La funzionalità principale che deve essere attivata è **Elaborazione di prodotti a peso variabile con la gestione magazzino**. Un'altra funzionalità correlata ma facoltativa che si potrebbe attivare è **Lo stato delle scorte cambia per i prodotti a peso variabile**. Questa funzionalità aggiunge supporto per le modifiche allo stato delle scorte per i prodotti abilitati per il peso variabile.
+> Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Distribuzione processo \> Peso variabile** devono essere attivate. Per impostare le chiavi di configurazione per il peso variabile, è anche necessario attivare la funzionalità utilizzando l'area di lavoro **Gestione funzionalità**. La funzionalità principale che deve essere attivata è **Elaborazione di prodotti a peso variabile con la gestione magazzino**. Sono due le funzionalità correlate ma facoltative che si potrebbe voler attivare **Lo stato delle scorte cambia per i prodotti a peso variabile** e **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti**.
 
 Dopo l'attivazione della chiave di configurazione di licenza, quando si crea un prodotto rilasciato, è possibile selezionare **Peso variabile**. È inoltre possibile associare il prodotto rilasciato a un gruppo di dimensioni di immagazzinamento per il quale il parametro **Usa processi di gestione magazzino** è selezionato.
 
@@ -107,6 +107,7 @@ Inoltre, quando un articolo viene tracciato con tag, è disponibile un parametro
 **Quando si utilizza la tracciabilità dei tag a peso variabile**, un tag deve essere sempre creato per ogni unità di peso variabile ricevuta e ogni tag deve sempre essere associato a un peso.
 
 Ad esempio, **Scatola** è l'unità a peso variabile e si riceve un pallet di otto scatole. In questo caso, otto tag a peso variabile univoci devono essere creati e un peso deve essere associato a ogni tag. A seconda del tag a peso variabile in entrata, è possibile acquisire il peso di tutte e otto le scatole, e il peso medio può quindi essere distribuito a ciascuna scatola, oppure un peso univoco per ogni scatola.
+Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app Magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
 
 **Quando la tracciabilità dei tag a peso variabile non viene utilizzata**, il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
 

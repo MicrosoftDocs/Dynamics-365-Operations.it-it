@@ -3,7 +3,7 @@ title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124614"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -191,8 +191,11 @@ Quando si esegue la programmazione del processo di pulizia, i seguenti parametri
 
 -   **Numero di giorni di mantenimento storico** - Questa impostazione viene utilizzata per stabilire la quantità dello storico di esecuzione da conservare. Specificato in numero di giorni. Quando il processo di pulizia viene programmato come processo batch ricorrente, questa impostazione agirà come una finestra in continuo spostamento, sempre lasciando lo storico intatto per il numero di giorni specificato ed eliminando il resto. Il valore predefinito è 7 giorni.
 
--   **Numero di ore per eseguire il processo** - Seconda della quantità dello storico da pulire, il tempo di esecuzione totale per il processo di pulizia può variare da alcuni minuti a qualche ora. Poiché la pulizia delle tabelle citate deve essere eseguita quando non sono presenti altre attività di gestione dei dati nel sistema, è importante che il processo di pulizia sia eseguito e completato prima dell'inizio dell'attività aziendale.
+-   **Numero di ore per eseguire il processo** - Seconda della quantità dello storico da pulire, il tempo di esecuzione totale per il processo di pulizia può variare da alcuni minuti a qualche ora. Questo parametro deve essere impostato sul numero di ore di esecuzione del processo. Dopo che il processo di pulizia è stato eseguito per il numero di ore specificato, il processo verrà terminato e riprenderà la pulizia alla successiva esecuzione in base alla pianificazione della ricorrenza.
 
     Un tempo di esecuzione massimo può essere specificato impostando un limite massimo sul numero di ore in cui il processo deve essere eseguito mediante questa impostazione. La logica di pulizia gestisce un ID di esecuzione processo alla volta in una sequenza cronologica, con il più vecchio come primo della pulizia dello storico di esecuzione correlato. Smetterà di prendere nuovi ID di esecuzione per la pulizia quando la durata rimanente di esecuzione rientra nell'ultimo 10% della durata specificata. In alcuni casi, verrà previsto che il processo di pulizia continua oltre il tempo massimo specificato. Ciò dipende in gran parte dal numero di record da eliminare per l'ID di esecuzione corrente che è stato avviata prima della soglia di 10% venga raggiunta. La pulizia iniziata deve essere completata per assicurarla l'integrità dei dati, pertanto la pulizia continuare nonostante il superamento del limite specificato. Al termine, i nuovi ID di esecuzione non vengono prelevate e il processo di pulizia termina. Lo storico di esecuzione rimanente che non è stato pulito per mancanza di tempo di esecuzione, verrà selezionato nella successiva programmazione del processo di pulizia. Il valore predefinito e minimo per questa impostazione è impostato su 2 ore.
 
 -   **Batch ricorrente** - Il processo di pulizia può essere eseguito come esecuzione manuale occasionale, oppure può essere programmata per l'esecuzione ricorrente in batch. Il batch può essere programmato utilizzando le impostazioni **Esecuzione in background**, che è l'impostazione batch standard.
+
+> [!NOTE]
+> Se i record nelle tabelle di gestione temporanea non vengono ripuliti completamente, assicurarsi che il processo di pulizia sia pianificato per essere ripetuto. Come spiegato sopra, in qualsiasi esecuzione di pulizia il processo pulirà il maggior numero di ID di esecuzione possibile entro le ore massime previste. Per continuare la pulizia di tutti i record di gestione temporanea rimanenti, è necessario pianificare l'esecuzione periodica del processo.

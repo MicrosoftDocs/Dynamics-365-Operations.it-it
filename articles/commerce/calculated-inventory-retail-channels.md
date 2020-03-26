@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083020"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113922"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
@@ -41,7 +41,7 @@ Questo argomento spiega i processi di sincronizzazione dei dati che possono esse
 È possibile utilizzare le seguenti API per mostrare la disponibilità scorte per un prodotto quando i clienti effettuano acquisti su un sito di e-commerce.
 
 - **GetEstimatedAvailability** - Utilizzare questa API per ottenere la disponibilità scorte per l'articolo nel magazzino del canale e-Commerce o in tutti i magazzini collegati alla configurazione del gruppo di evasione ordini per il canale e-Commerce. Questa API può essere utilizzata anche per i magazzini in un'area o un raggio di ricerca specifici, in base ai dati di longitudine e latitudine.
-- **ProductWarehouseInventoryAvailabilities** - Utilizzare questa API per richiedere le scorte per un articolo di un magazzino specifico. Ad esempio, è possibile utilizzarla per mostrare la disponibilità scorte in scenari che prevedono il prelievo ordine.
+- **GetEstimatedProductWarehouseAvailability** - Utilizzare questa API per richiedere le scorte per un articolo di un magazzino specifico. Ad esempio, è possibile utilizzarla per mostrare la disponibilità scorte in scenari che prevedono il prelievo ordine.
 
 > [!NOTE]
 > Queste API sostituiscono le API **GetProductAvailabilities** e **GetAvailableInventoryNearby** in Dynamics 365 Retail versione 10.0.7 e precedenti.

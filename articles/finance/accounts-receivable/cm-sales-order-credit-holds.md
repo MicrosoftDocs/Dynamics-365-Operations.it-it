@@ -1,6 +1,6 @@
 ---
 title: Sospensioni credito per ordini cliente
-description: ''
+description: Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057672"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124256"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Sospensioni credito per ordini cliente
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito. Le regole di blocco della gestione dei crediti possono essere applicate a un singolo cliente o a un gruppo di clienti.  Le regole di blocco definiscono le risposte alle seguenti circostanze:
+Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito. Le regole di blocco della gestione dei crediti possono essere applicate a un singolo cliente o a un gruppo di clienti. Le regole di blocco definiscono le risposte alle seguenti circostanze:
 
 1. Numero di giorni in ritardo
 2. Stato dei conti
@@ -87,9 +85,9 @@ Aprire la scheda **Limite di credito scaduto** se la regola di blocco si applica
    - Selezionare **Tutti** se la regola si applica a tutti i clienti. 
 3. Selezionare un **Gruppo di rischio** per limitare ulteriormente l'elenco dei clienti che verranno messi in attesa della gestione del credito. 
 4. Selezionare il tipo di regola che si sta impostando. 
-  - Selezionare **Blocco** per creare una regola che blocca un ordine. 
-  - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
-6. Immettere il valore **Giorni limite di credito scaduto** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito. Il numero di giorni scaduti rappresenta i giorni di tolleranza aggiuntivi che vengono aggiunti al numero di giorni in cui il limite di credito è scaduto.
+   - Selezionare **Blocco** per creare una regola che blocca un ordine. 
+   - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
+5. Immettere il valore **Giorni limite di credito scaduto** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito. Il numero di giorni scaduti rappresenta i giorni di tolleranza aggiuntivi che vengono aggiunti al numero di giorni in cui il limite di credito è scaduto.
 
 ### <a name="overdue-amount"></a>Importo scaduto
 
@@ -104,11 +102,10 @@ Aprire la scheda **Importo scaduto** se la regola di blocco si applica ai client
    - Selezionare **Tutti** se la regola si applica a tutti i clienti. 
 3. Selezionare un **Gruppo di rischio** per limitare ulteriormente l'elenco dei clienti che verranno messi in attesa della gestione del credito. 
 4. Selezionare il tipo di regola che si sta impostando. 
-  - Selezionare **Blocco** per creare una regola che blocca un ordine. 
-  - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
+   - Selezionare **Blocco** per creare una regola che blocca un ordine. 
+   - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
 5. Immettere il valore di **Importo scaduto** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito per verifica. 
-6. Selezionare l'opzione **Tipo di valore** che definisce il tipo di valore che verrà utilizzato per verificare anche la quantità di limite di credito utilizzata. Le regole di blocco richiedono una percentuale ma un'esclusione può avere una soglia di importo o percentuale
-fissa. La soglia si riferisce al limite di credito.
+6. Selezionare l'opzione **Tipo di valore** che definisce il tipo di valore che verrà utilizzato per verificare anche la quantità di limite di credito utilizzata. Le regole di blocco richiedono una percentuale ma un'esclusione può avere una soglia di importo o percentuale La soglia si riferisce al limite di credito.
 7. Immettere il valore **Soglia limite di credito** per la regola selezionata prima che un cliente venga messo in attesa della gestione del credito. Questo valore può essere un importo o una percentuale in base al tipo di valore selezionato in Tipo di valore.
 8. La regola controlla se i valori **Importo scaduto** e **Soglia limite di credito** vengono superati. 
 
@@ -125,9 +122,9 @@ Selezionare **Ordine cliente** se la regola di blocco si applica al valore dell'
    - Selezionare **Tutti** se la regola si applica a tutti i clienti. 
 3. Selezionare un **Gruppo di rischio** per limitare ulteriormente l'elenco dei clienti che verranno messi in attesa della gestione del credito. 
 4. Selezionare il tipo di regola che si sta impostando.  
-  - Selezionare **Blocco** per creare una regola che blocca un ordine. 
-  - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
-6. Immettere il valore **Importo ordine cliente** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito. 
+   - Selezionare **Blocco** per creare una regola che blocca un ordine. 
+   - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
+5. Immettere il valore **Importo ordine cliente** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito. 
 
 La regola dell'ordine cliente include un'impostazione aggiuntiva che sostituisce tutte le altre regole. Per creare un'esclusione che rilascerà l'ordine cliente senza applicare altre regole, selezionare la casella di controllo **Rilascia ordine cliente** nella riga di esclusione.
 
@@ -216,8 +213,8 @@ Dopo aver ricercato i motivi della sospensione e averli attenuati, è possibile 
 2) Selezionare un **Motivo di rilascio** per l'ordine selezionato per il rilascio.  
 3) Immettere una data in **Data revisione** per ogni ordine selezionato per il rilascio.  
 4) Selezionare il menu **Rilascio** nel riquadro azioni per rilasciare un ordine. Questo menu sarà disponibile solo dopo aver selezionato le transazioni. L'utente ha a disposizione due opzioni:
- - Selezionare **Con registrazione** per rimuovere la sospensione e registrare il documento utilizzando lo stesso processo di registrazione utilizzato quando è stato messo in attesa. Ad esempio, se la conferma dell'ordine cliente è stata messa in attesa, la conferma dell'ordine cliente verrà completata dopo il rilascio. Verrà visualizzato il modulo di registrazione dell'ordine cliente che consente all'utente di registrare la conferma.
- - Selezionare **Senza registrazione** per rimuovere la sospensione senza eseguire ulteriori elaborazioni. L'ordine cliente può ora registrato manualmente.
+   - Selezionare **Con registrazione** per rimuovere la sospensione e registrare il documento utilizzando lo stesso processo di registrazione utilizzato quando è stato messo in attesa. Ad esempio, se la conferma dell'ordine cliente è stata messa in attesa, la conferma dell'ordine cliente verrà completata dopo il rilascio. Verrà visualizzato il modulo di registrazione dell'ordine cliente che consente all'utente di registrare la conferma.
+   - Selezionare **Senza registrazione** per rimuovere la sospensione senza eseguire ulteriori elaborazioni. L'ordine cliente può ora registrato manualmente.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Rifiutare ordini nell'elenco di sospensioni
 È possibile utilizzare il menu **Rifiuta** nel riquadro azioni per rifiutare un ordine cliente.

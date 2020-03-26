@@ -1,9 +1,9 @@
 ---
-title: Sintassi di filtro e query avanzata
-description: Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore corrisponde a nel riquadro Filtro o nei filtri di intestazione di colonna.
+title: Sintassi di query e filtro avanzata
+description: Questo argomento descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore corrisponde a nel riquadro Filtro o nei filtri di intestazione di colonna.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931290"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112193"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di query e filtro avanzata
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore **corrisponde a** nel riquadro Filtro o nei filtri di intestazione di colonna.
+Questo argomento descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore **corrisponde** a nel riquadro Filtro o nei filtri di intestazione di colonna.
 
 ## <a name="advanced-query-syntax"></a>Sintassi di query avanzata
 
@@ -122,10 +122,11 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td>Due doppie virgolette consecutive ( <strong> "" </strong>) trova le righe senza valore per la colonna corrente.</td>
 </tr>
 <tr>
-<td>(<span class="code">Istruzione SQL</span>) (istruzione SQL tra parentesi)</td>
+<td>(<span class="code">Query Finance and Operations</span>) (Query Finance and Operations tra parentesi)</td>
 <td>Corrisponde a una query definita.</td>
-<td>Digitare una query sotto forma di istruzione SQL racchiusa tra parentesi.</td>
-<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
+<td>Digitare una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finance and Operations.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       come esempio di sintassi per una condizione di filtro su un campo dall'origine dati radice e un campo da un'origine dati diversa (per la pagina Tutti i clienti)</td>
 </tr>
 <tr>
 <td>M</td>

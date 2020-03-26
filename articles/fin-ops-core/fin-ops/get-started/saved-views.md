@@ -3,7 +3,7 @@ title: Visualizzazioni salvate
 description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017706"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100310"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -83,9 +83,9 @@ Per cambiare la visualizzazione predefinita di una pagina, seguire questi passag
 2.  Selezionare il nome della visualizzazione per aprire il selettore di visualizzazioni. 
 3.  Selezionare **Altro** e **Aggiungi come predefinita**.  
 
-In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Salva con nome...**), è possibile impostare quella nuova visualizzazione come visualizzazione predefinita impostando l'opzione **Aggiungi come predefinita** prima di salvare la visualizzazione.
+In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Salva con nome** ), è possibile impostare quella nuova visualizzazione come visualizzazione predefinita impostando l'opzione **Aggiungi come predefinita** prima di salvare la visualizzazione.
 
-In alcuni casi, la query associata alla visualizzazione predefinita non viene eseguita quando si accede per la prima volta a una pagina. Ad esempio, se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Inoltre, se si accede a una pagina dove la visualizzazione classica ha già una query definita, la query originale verrà eseguita al posto della query della visualizzazione predefinita. In questo caso, un messaggio informativo verrà visualizzato durante il caricamento della visualizzazione. Il passaggio da una visualizzazione all'altra dopo il caricamento della pagina dovrebbe consentire l'esecuzione della query della visualizzazione nel modo previsto.
+In alcuni casi, la query associata alla visualizzazione predefinita non viene eseguita quando si accede per la prima volta a una pagina. Ad esempio, se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Inoltre, se si accede a una pagina con una visualizzazione standard che ha già una query definita, la query originale verrà eseguita al posto della query della visualizzazione predefinita. In questo caso, un messaggio informativo verrà visualizzato durante il caricamento della visualizzazione. Il passaggio da una visualizzazione all'altra dopo il caricamento della pagina dovrebbe consentire l'esecuzione della query della visualizzazione nel modo previsto. A partire dalla versione 10.0.10 dell'aggiornamento 34 della piattaforma, il messaggio informativo avrà un'azione incorporata che consente di caricare direttamente la query della visualizzazione predefinita.
 
 ## <a name="managing-personal-views"></a>Gestione delle visualizzazioni personali 
 La finestra dialogo **Gestisci le mie visualizzazioni** fornisce funzionalità di gestione di base delle visualizzazioni personali e dell'ordine delle visualizzazioni nel selettore di visualizzazioni. Per aprire questa pagina, fare clic sul nome della visualizzazione per aprire il menu a discesa del selettore di visualizzazioni, selezionare **Altro**, quindi selezionare **Gestisci le mie visualizzazioni**.  

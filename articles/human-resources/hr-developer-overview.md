@@ -1,6 +1,6 @@
 ---
 title: Panoramica
-description: ''
+description: Questa Guida per gli sviluppatori fornisce un'API e riferimenti ai campi personalizzati. Fornisce inoltre informazioni sull'integrazione con altre app.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009538"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091993"
 ---
 # <a name="overview"></a>Panoramica
 

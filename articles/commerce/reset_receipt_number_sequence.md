@@ -3,7 +3,7 @@ title: Reimpostare numeri di ricevuta
 description: Questo argomento descrive come reimpostare i numeri di ricevuta utilizzati per varie azioni a una determinata data (ad esempio, l'anno fiscale o l'anno di calendario).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020080"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123948"
 ---
 # <a name="reset-receipt-numbers"></a>Reimpostare numeri di ricevuta 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 I rivenditori generano numeri di ricevuta per varie azioni nel punto vendita, come ad esempio transazioni cash-and-carry, transazioni di reso, ordini cliente, offerte e pagamenti. Sebbene i rivenditori definiscano i propri formati di ricevuta, alcuni paesi o aree geografiche hanno normative che impongono restrizioni a questi formati di ricevute. Ad esempio, queste normative potrebbero limitare il numero di caratteri sulla ricevuta, richiedere numeri di ricevuta consecutivi, limitare alcuni caratteri speciali o richiedere un azzeramento dei numeri di ricevuta all'inizio dell'anno. Microsoft Dynamics 365 Commerce rende estremamente flessibile il processo di gestione dei numeri di ricevuta, per aiutare i rivenditori a soddisfare i requisiti normativi. Questo argomento descrive come utilizzare la funzionalità di reimpostazioni dei numeri di ricevuta.
 

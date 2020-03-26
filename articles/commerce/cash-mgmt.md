@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023004"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127700"
 ---
 # <a name="cash-management-improvements"></a>Miglioramenti della gestione di cassa
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 La gestione di cassa è una funzione chiave per i rivenditori nei punti vendita fisici. I rivenditori desiderano disporre di sistemi che consentono di fornire tracciabilità e rendicontazione complete della cassa e dei relativi movimenti nei vari registratori di cassa di un punto vendita. Essi devono essere in grado di riconciliare tutte le differenze e determinare la rendicontazione.
 

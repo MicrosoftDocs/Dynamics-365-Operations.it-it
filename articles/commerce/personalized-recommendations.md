@@ -3,7 +3,7 @@ title: Abilitare suggerimenti personalizzati sui prodotti
 description: Questo argomento descrive come rendere disponibili suggerimenti personalizzati sui prodotti per i clienti in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b3c6140b8bd3ea15458223c0f61810421d0b2bc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: bdb56a1f45cdea1832bd269502e534efdb207b03
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025259"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127907"
 ---
 # <a name="enable-personalized-recommendations"></a>Abilitare suggerimenti personalizzati
 
@@ -110,12 +110,22 @@ Per applicare la personalizzazione a un elenco di suggerimenti esistente in Crea
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare suggerimenti sul prodotto](enable-product-recommendations.md)
+[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
-[GDPR e suggerimenti sui prodotti](personalization-gdpr.md)
+[Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
 
-[Aggiungere elenchi di suggerimenti sul prodotto alle pagine](add-reco-list-to-page.md)
+[Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 
-[Aggiungere il pannello dei suggerimenti a dispositivi POS](add-recommendations-control-pos-screen.md)
+[Aggiungere elenchi di suggerimenti a un sito di e-commerce](add-reco-list-to-page.md)
 
-[Panoramica del modulo di raccolta prodotti](product-collection-module-overview.md)
+[Aggiungere suggerimenti sul prodotto su POS](product.md)
+
+[Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
+
+[Regolare i risultati dei suggerimenti AI-ML](modify-product-recommendation-results.md)
+
+[Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
+
+[Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
+
+[Domande frequenti su suggerimenti prodotto](faq-recommendations.md)

@@ -3,7 +3,7 @@ title: Domande frequenti sui suggerimenti sul prodotto
 description: In questo argomento vengono fornite informazioni sui processi e sugli strumenti che è possibile utilizzare per risolvere i problemi che riguardano i suggerimenti sul prodotto o i relativi risultati.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003029"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127792"
 ---
 # <a name="product-recommendations-faq"></a>Domande frequenti sui suggerimenti sul prodotto
 
@@ -75,12 +75,28 @@ Per informazioni su come aggiungere le pagine di suggerimenti sul prodotto al si
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Come si abilitano i suggerimenti nel POS?
 
-Dopo avere abilitato i suggerimenti sul prodotto, sarà necessario aggiungere il pannello dei suggerimenti alla schermata POS di controllo. Per ulteriori informazioni sull'aggiunta del pannello dei suggerimenti al layout del dispositivo POS, vedere [questa documentazione](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen).
+Dopo avere abilitato i suggerimenti sul prodotto, sarà necessario aggiungere il pannello dei suggerimenti alla schermata POS di controllo. Per ulteriori informazioni, vedere [Aggiungere un controllo di suggerimenti alla schermata della transazione su dispositivi POS](add-recommendations-control-pos-screen.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare suggerimenti sul prodotto](enable-product-recommendations.md)
+[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Gestire i risultati dei suggerimenti sul prodotto basati su AI-ML](modify-product-recommendation-results.md)
+[Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
+
+[Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
+
+[Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
+
+[Aggiungere elenchi di suggerimenti a un sito di e-commerce](add-reco-list-to-page.md)
+
+[Aggiungere suggerimenti sul prodotto su POS](product.md)
+
+[Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
+
+[Regolare i risultati dei suggerimenti AI-ML](modify-product-recommendation-results.md)
+
+[Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
+
+[Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)

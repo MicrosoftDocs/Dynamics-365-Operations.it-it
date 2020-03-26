@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015280"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124210"
 ---
 # <a name="credit-limit-adjustments"></a>Correzioni limite di credito 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Le correzioni dei limiti di credito consentono ai gestori dei crediti di aggiornare i limiti di credito e le date di scadenza di un singolo cliente, un gruppo di clienti o di tutti i clienti mediante un processo di registrazione. È possibile aggiungere voci di correzione del limite di credito per aggiornare i clienti e i gruppi di crediti cliente, oppure è possibile utilizzarli per calcolare limiti di credito automatici. Le voci possono quindi essere esaminate, inviate per l'approvazione attraverso un flusso di lavoro e registrate negli account dei clienti.
 
