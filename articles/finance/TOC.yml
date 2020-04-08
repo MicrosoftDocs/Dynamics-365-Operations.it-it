@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Spese interaziendali
               href: expense-management/intercompany-expense.md
-            - name: Criteri di spesa
+            - name: Definire i criteri di spesa
               href: expense-management/travel-expense-policies.md
             - name: Visualizzare una nota spese
               href: expense-management/view-expense-report.md
@@ -984,7 +984,9 @@
               href: project-management/project-contracts.md
             - name: Previsioni e budget di progetto
               href: project-management/project-forecasts-budgets.md
-            - name: Ordini cliente per un progetto
+            - name: Trasferire i budget di progetto a fine anno fiscale
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
+            - name: Ordini cliente di progetto
               href: project-management/project-sales-orders.md
             - name: Ordini fornitore per un progetto
               href: project-management/project-purchase-orders.md
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Visualizzare le transazioni in liquidazione
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Finlandia
+              items:
+                - name: Panoramica Finlandia
+                  href: localizations/finland.md
+                - name: Report di pagamento IVA per la Finlandia
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Francia
               items:
                 - name: Panoramica Francia
@@ -1692,10 +1700,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: Ammortamento RB/SL
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Impostare il metodo di pagamento
+                - name: Impostare un metodo di pagamento
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Aggiornare il metodo di pagamento del cliente
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Report DAS-2
+                  href: localizations/emea-fra-das2-report.md
             - name: Germania
               items:
                 - name: Panoramica Germania
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Miglioramento della richiesta informazioni sulle liquidazioni a debito o credito
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Liquidazione provvigione su pagamento
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Simulazioni di contabilità generale (Italia)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Profili registrazione configurabili per banche e tipi di rimessa
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Certificazione univoca
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Importazione protesto di effetti attivi
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Giappone
               items:
                 - name: Panoramica Giappone
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Rettifica guidata magazzino
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Report relativi alle scorte
+                      href: localizations/rus-inventory-reports.md
                 - name: Report
                   items:
                     - name: Creazione di report finanziari

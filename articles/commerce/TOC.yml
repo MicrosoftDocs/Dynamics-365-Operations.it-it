@@ -450,10 +450,12 @@
               items:
                 - name: Aggiungere un canale a una gerarchia organizzativa
                   href: channel-add-to-org-hierarchy.md
-                - name: Spese automatiche avanzate
+                - name: Addebiti automatici avanzati
                   items:
                     - name: Configurare e utilizzare addebiti automatici avanzati
                       href: omni-auto-charges.md
+                    - name: Abilitare e configurare addebiti automatici per canale
+                      href: auto-charges-by-channel.md
                     - name: Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
                       href: pro-rate-charges-matching-lines.md
                 - name: Gestire programmi di continuità
@@ -525,7 +527,7 @@
                 - name: Creare un nuovo prodotto
                   items:
                     - name: Creare un nuovo prodotto in Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Gestire le categorie di prodotti e i prodotti
                       href: category-management-product-creation.md
                 - name: Attributi del prodotto
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Rifiuto esplicito dei suggerimenti personalizzati
                       href: personalization-gdpr.md
-                - name: Aggiungere elenchi di suggerimenti a un sito e-Commerce
-                  href: add-reco-list-to-page.md
                 - name: Esperienze POS
                   items:
                     - name: Aggiungere suggerimenti sul prodotto nel POS
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Modulo conferma ordine
                       href: order-confirmation-module.md
+                    - name: Memorizzare il modulo di selezione
+                      href: store-selector.md
                 - name: Moduli gestione conti
                   items:
                     - name: Moduli e pagine gestione conti
@@ -2115,7 +2117,7 @@
                 - name: Uso dei dati di pagamento
                   href: payment-connector-data-fields.md
                 - name: Attivare la protezione dei pagamenti duplicati per il connettore pagamenti
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Creare pacchetti di pagamento per Application Explorer nelle distribuzioni di Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Estendibilità di e-commerce di terze parti
