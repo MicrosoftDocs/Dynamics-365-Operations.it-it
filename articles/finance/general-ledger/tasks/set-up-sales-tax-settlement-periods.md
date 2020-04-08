@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 5972c44261a6ebd49df0fcbcef9a8c60aaa487e2
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658931"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144722"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Impostare i periodi di liquidazione IVA
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare periodi di liquidazione IVA. I periodi di liquidazione IVA contengono informazioni sugli intervalli periodici in cui l'IVA deve essere dichiarata e pagata. Un processo di liquidazione può essere eseguito per un periodo di liquidazione per un intervallo di date specifico. Tutti i codici IVA associati al periodo di liquidazione verranno liquidati. A seconda dell'impostazione dell'ufficio IVA correlato, la soggettività tributaria viene registrata in un conto fornitore o CoGe.
 

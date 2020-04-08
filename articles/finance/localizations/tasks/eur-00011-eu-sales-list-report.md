@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7038af3977797a0be2523f2414800400757b7007
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183707"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144380"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 - Generare la dichiarazione Elenco vendite UE
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura vengono descritti i passaggi per generare il report elenco vendite UE. È incluso il trasferimento delle transazioni commerciali intracomunitarie nell'elenco vendite UE e l'esecuzione del report. Questa procedura include inoltre la creazione di una transazione commerciale intracomunitaria per fini dimostrativi. Per ulteriori informazioni sulla dichiarazione elenco vendite UE, inclusi i prerequisiti necessari, consultare la Guida.
 
@@ -96,7 +96,7 @@ Questa procedura è destinata ai contabili.
 3. Nell'elenco, contrassegnare la riga per il campo Data fattura.
 4. Nel campo Criteri, immettere '01/01/2016..01/31/2016'.
 5. Nell'elenco, contrassegnare la riga per il campo Stato relazione.
-6. Nel campo Criteri, selezionare 'Dichiarato'.
+6. Nel campo Criteri, selezionare "Dichiarato".
     * È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da contrassegnare come chiuse.  
 7. Fare clic su OK.
 8. Selezionare 'Chiuso' nel campo Selezione.

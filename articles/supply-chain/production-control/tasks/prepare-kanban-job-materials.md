@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 011c542d360309fdeb539c85a68f2a5691022e37
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cf163968474e91da7e3d47fd638a857a76179645
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836157"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148977"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparare un processo kanban quando sono disponibili materiali per la cella di lavoro
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa attività riguarda la preparazione di un processo kanban di lavorazione quando tutti i materiali sono disponibili per la cella di lavoro. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata all'operatore.
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559191"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145964"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Impostare un processo di rifornimento minimo/massimo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come impostare un nuovo processo di rifornimento che utilizza la strategia di rifornimento minima/massima. Quando le scorte scendono sotto il livello minimo, il lavoro verrà creato per rifornire l'ubicazione. La procedura mostra anche come utilizzare le ubicazioni fisse di prelievo per consentire il ristoccaggio anche se le scorte scendono sotto il livello minimo e come consentire l'esecuzione regolare del processo di rifornimento utilizzando un processo batch. Queste attività verranno in genere svolte da un responsabile del magazzino. È possibile eseguire questa procedura nella società di dati dimostrativi USMF utilizzando i valori di esempio di seguito oppure è possibile eseguirla sui propri dati. Se si utilizzano i propri dati, assicurarsi che un magazzino sia abilitato per i processi di gestione magazzino.
 

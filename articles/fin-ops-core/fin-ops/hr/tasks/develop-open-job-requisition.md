@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190467"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144043"
 ---
 # <a name="develop-and-open-job-requisition"></a>Sviluppare e aprire richieste relative alla mansione lavorativa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I progetti di selezione consentono di gestire il processo di selezione. Per ciascun progetto di selezione, è possibile impostare informazioni, ad esempio la mansione per cui si effettua la selezione, il nome del responsabile della selezione, lo stato del progetto e il reparto che in cui la mansione verrà svolta. Dopo avere creato un progetto di selezione, è possibile preparare un annuncio di lavoro per il progetto, pubblicare l'annuncio di lavoro nelle pagine Self Service, associare le domande di lavoro per l'impiego al progetto e tenere traccia delle attività del progetto. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per avviare la procedura, fare clic su Risorse umane > Selezione del personale > Progetti di selezione > Progetti di selezione
 

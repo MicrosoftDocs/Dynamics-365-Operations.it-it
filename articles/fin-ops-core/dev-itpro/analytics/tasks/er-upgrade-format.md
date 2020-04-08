@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042806"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143277"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Aggiornare il formato adottandone una nuova versione di base
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire una configurazione di formato per la creazione di report elettronici (ER). Questa procedura illustra come sia possibile creare una versione personalizzata di un formato in base al formato ricevuto da un provider di configurazione (CP). Illustra anche come adottare una nuova versione di base di quel formato.
 

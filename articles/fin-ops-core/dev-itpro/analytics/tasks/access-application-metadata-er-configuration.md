@@ -1,6 +1,6 @@
 ---
 title: Accedere ai metadati dell'applicazione utilizzando una configurazione ER
-description: I passaggi in questo argomento descrivono come un utente di Regulatory Configuration Service (RCS) può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati in Finance and Operations.
+description: I passaggi in questo argomento spiegano come un utente Regulatory Configuration Service (RCS) può progettare un nuovo mapping del modello di report elettronici (ER) utilizzando i metadati in Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a4c7341941df3ba7bf0a0dfeef8cb3009726838e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772465"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142710"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accedere ai metadati dell'applicazione utilizzando una configurazione ER
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti illustrano come un utente di Regulatory Configuration Service (RCS) con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati dell'applicazione. Sarà possibile accedere ai metadati dell'applicazione utilizzando la configurazione dei metadati ER contenente un set di metadati di esempio per accedere alle transazioni del commercio estero. Per completare questi passaggi, in RCS è necessario dapprima completare i passaggi dell'argomento [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). Quindi, completare i passaggi nell'argomento [Preparare i metadati dell'applicazione da utilizzare in RCS](prepare-application-metadata-rcs.md).
 
@@ -52,28 +52,28 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 7. Digitare "Radice" nel campo **Nome**. 
 8. Scegliere **Aggiungi**. 
 9. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
-10. Nel campo **Nome** digitare "Transazione". 
-11. Nel campo **Tipo di articolo** selezionare **Elenco di record**. 
-12. Scegliere **Aggiungi**. 
-13. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
-14. Nel campo **Nome** digitare "Codice voce doganale". 
-15. Nel campo **Tipo di articolo** selezionare **Stringa**. 
-16. Scegliere **Aggiungi**. 
-17. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
-18. Nel campo **Nome** digitare "Importo fatturato". 
-19. Nel campo **Tipo di articolo** selezionare **Reale**. 
-20. Scegliere **Aggiungi**. 
-21. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
-22. Digitare "Data" nel campo **Nome**. 
-23. Nel campo **Tipo di articolo** selezionare **Data**. 
-24. Scegliere **Aggiungi**. 
-25. Fare clic su **Riferimento radice**. 
-26. Fare clic su **OK**. 
-27. Fare clic su **Salva**. 
-28. Chiudere la pagina. 
-29. Fare clic su **Cambia stato**. 
-30. Fare clic su **Completa**. 
-31. Fare clic su **OK**. 
+10.    Nel campo **Nome** digitare "Transazione". 
+11.    Nel campo **Tipo di articolo** selezionare **Elenco di record**. 
+12.    Scegliere **Aggiungi**. 
+13.    Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
+14.    Nel campo **Nome** digitare "Codice voce doganale". 
+15.    Nel campo **Tipo di articolo** selezionare **Stringa**. 
+16.    Scegliere **Aggiungi**. 
+17.    Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
+18.    Nel campo **Nome** digitare "Importo fatturato". 
+19.    Nel campo **Tipo di articolo** selezionare **Reale**. 
+20.    Scegliere **Aggiungi**. 
+21.    Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa. 
+22.    Digitare "Data" nel campo **Nome**. 
+23.    Nel campo **Tipo di articolo** selezionare **Data**. 
+24.    Scegliere **Aggiungi**. 
+25.    Fare clic su **Riferimento radice**. 
+26.    Fare clic su **OK**. 
+27.    Fare clic su **Salva**. 
+28.    Chiudere la pagina. 
+29.    Fare clic su **Cambia stato**. 
+30.    Fare clic su **Completa**. 
+31.    Fare clic su **OK**. 
 
 ## <a name="create-model-mapping-configuration"></a>Creare una configurazione del mapping di modello 
 1. Fare clic su **Crea configurazione** per aprire la finestra di dialogo a discesa. 
@@ -85,43 +85,43 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 7. Fare clic su **Nuovo**. 
 8. Nell'elenco contrassegnare la riga selezionata. 
 9. Nel campo **Tipo di componente prerequisito**, selezionare **Configurazione**. 
-10. Selezionare la configurazione **Metadati del commercio estero**. 
-11. Fare clic su **Salva**. 
-12. Abbiamo aggiunto il riferimento alla versione 1 della configurazione "Metadati del commercio estero". I metadati dell'applicazione di questa configurazione saranno disponibili durante la progettazione di questo mapping di modello. 
-13. Chiudere la pagina. 
-14. Fare clic su **Progettazione**. 
-15. Fare clic su **Progettazione**. 
-16. Nella struttura selezionare **Dynamics 365 for Operations'\Record di tabella**. 
-17. Fare clic su **Aggiungi radice**. 
-18. Digitare "Intrastat" nel campo **Nome**. 
-19. Selezionare i record di tabella **Intrastat**. 
-20. Fare clic su **OK**. 
+10.    Selezionare la configurazione **Metadati del commercio estero**. 
+11.    Fare clic su **Salva**. 
+12.    Abbiamo aggiunto il riferimento alla versione 1 della configurazione "Metadati del commercio estero". I metadati dell'applicazione di questa configurazione saranno disponibili durante la progettazione di questo mapping di modello. 
+13.    Chiudere la pagina. 
+14.    Fare clic su **Progettazione**. 
+15.    Fare clic su **Progettazione**. 
+16.    Nella struttura selezionare **Dynamics 365 for Operations'\Record di tabella**. 
+17.    Fare clic su **Aggiungi radice**. 
+18.    Digitare "Intrastat" nel campo **Nome**. 
+19.    Selezionare i record di tabella **Intrastat**. 
+20.    Fare clic su **OK**. 
 
 > [!NOTE]
 > Solo 2 tabelle erano disponibili poiché solo 2 tabelle sono state aggiunte al set di metadati attualmente utilizzati. 
 
-21. Fare clic su **Associa**. 
-22. Nella struttura espandere **Intrastat**. 
-23. Nella struttura selezionare **Intrastat\AmountMST**. 
-24. Nella struttura espandere **Transazione = Intrastat**. 
-25. Nella struttura selezionare **Transazione = Intrastat\Importo fatturato**. 
-26. Fare clic su **Associa**. 
-27. Nella struttura selezionare **Intrastat\TransDate**. 
-28. Nella struttura selezionare **Transazione = Intrastat\Data**. 
-29. Fare clic su **Associa**. 
-30. Nella struttura espandere **Intrastat\>Relazioni**. 
-31. Nella struttura espandere **Intrastat\>Relazioni\IntrastatCommodity**. 
-32. Nella struttura selezionare **Intrastat\>Relazioni\IntrastatCommodity\Codice**. 
-33. Nella struttura selezionare **Transazione = Intrastat\Codice voce doganale**. 
-34. Fare clic su **Associa**. 
-35. Fare clic su **Convalida**. 
+21.    Fare clic su **Associa**. 
+22.    Nella struttura espandere **Intrastat**. 
+23.    Nella struttura selezionare **Intrastat\AmountMST**. 
+24.    Nella struttura espandere **Transazione = Intrastat**. 
+25.    Nella struttura selezionare **Transazione = Intrastat\Importo fatturato**. 
+26.    Fare clic su **Associa**. 
+27.    Nella struttura selezionare **Intrastat\TransDate**. 
+28.    Nella struttura selezionare **Transazione = Intrastat\Data**. 
+29.    Fare clic su **Associa**. 
+30.    Nella struttura espandere **Intrastat\>Relazioni**. 
+31.    Nella struttura espandere **Intrastat\>Relazioni\IntrastatCommodity**. 
+32.    Nella struttura selezionare **Intrastat\>Relazioni\IntrastatCommodity\Codice**. 
+33.    Nella struttura selezionare **Transazione = Intrastat\Codice voce doganale**. 
+34.    Fare clic su **Associa**. 
+35.    Fare clic su **Convalida**. 
 
 > [!NOTE]
 > Abbiamo associato gli elementi del modello di dati ad articoli delle origini dati descritte utilizzando i dettagli dei metadati dell'applicazione nella configurazione dei metadati ER a cui si fa riferimento. 
-36. Fare clic su **Salva**. 
-37. Chiudere la pagina. 
-38. Chiudere la pagina. 
-39. Se necessario, è possibile estendere il set esistente di metadati e quindi esportare la nuova versione completata della configurazione dei metadati di ER. È quindi possibile importarla in RCS e aggiornare i prerequisiti della configurazione del mapping di modello configurato che fa riferimento a una nuova versione della configurazione dei metadati importata. 
+36.    Fare clic su **Salva**. 
+37.    Chiudere la pagina. 
+38.    Chiudere la pagina. 
+39.    Se necessario, è possibile estendere il set esistente di metadati e quindi esportare la nuova versione completata della configurazione dei metadati di ER. È quindi possibile importarla in RCS e aggiornare i prerequisiti della configurazione del mapping di modello configurato che fa riferimento a una nuova versione della configurazione dei metadati importata. 
 
 > [!NOTE]
 > Questo modo di ottenere informazioni sui metadati dell'applicazione è l'unico disponibile per le applicazioni distribuite localmente (quando un modello di distribuzione di dati aziendali locali o on-premises è utilizzato).

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e7e637157ee06a3d07a1a9c5da71295eb75b424
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 796ed31ea045ab969c0afd8a4cf9036e05b6b168
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564180"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150001"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Creare uno stato predefinito del ciclo di vita del prodotto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura viene illustrato come creare uno stato del ciclo di vita del prodotto predefinito nonché come associare lo stato predefinito con i prodotti rilasciati.
 

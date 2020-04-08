@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4da59781f3357a6713eebba03d87c5127b8cd3b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174920"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143411"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Generare un documento di trasferimento per un trasferimento scorte interno
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-In questa procedura viene illustrato come creare documenti di trasferimento per il movimento di merci in una società. Questa procedura è disponibile solo per le persone giuridiche con un indirizzo principale in Lituania. La procedura è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Lituania. Prima di poter eseguire la procedura, è necessario completare la procedura 'Impostare documenti di trasferimento per il movimento di merci in una società'. Questa procedura è destinata ai contabili di inventario. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
+In questa procedura viene illustrato come creare documenti di trasferimento per il movimento di merci in una società. Questa procedura è disponibile solo per le persone giuridiche con un indirizzo principale in Lituania. La procedura è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Lituania. Prima di poter eseguire la procedura, è necessario completare la procedura "Impostare documenti di trasferimento per il movimento di merci in una società". Questa procedura è destinata ai contabili di inventario. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 
 
 ## <a name="create-a-transfer-order"></a>Creare un ordine di trasferimento

@@ -3,7 +3,7 @@ title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025461"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154065"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
@@ -58,7 +58,7 @@ I temi possono essere utilizzati per rimuovere o modificare l'ordine delle propr
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduli che è possibile utilizzare in un modulo Casella acquisti
 
 - **Galleria multimediale** - Questo modulo viene utilizzato per visualizzare immagini di un prodotto in una pagina dettagli prodotto. Può supportare numerose immagini nonché immagini di anteprima. Le immagini di anteprima possono essere disposte orizzontalmente (come riga sotto l'immagine) o verticalmente (come colonna accanto all'immagine). Il modulo Galleria multimediale può essere aggiunto allo slot **Multimedia** nel modulo Casella acquisti. Attualmente supporta solo immagini. 
-- **Selettore punto vendita** - Questo modulo visualizza un elenco dei punti vendita vicini in cui un articolo è disponibile per il ritiro. Consente agli utenti di immettere un'ubicazione per trovare punti vendita nelle vicinanze. Il modulo Selettore punto vendita è integrato nell'API di geocodifica di Bing Maps per convertire l'ubicazione in una latitudine e una longitudine. È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di vendita al dettaglio in Dynamics 365 Retail. Questo modulo supporta due proprietà, **Raggio di ricerca** e **Collegamento Condizioni d'utilizzo**. La proprietà **Raggio di ricerca** definisce il raggio di ricerca dei punti vendita in miglia. Se non viene specificato alcun valore, viene utilizzato il raggio di ricerca predefinito, ovvero 50 miglia. Se si utilizzano Bings Maps o qualsiasi altro servizio esterno, il **Collegamento Condizioni d'utilizzo** può essere utilizzato per fornire un collegamento alle condizioni d'utilizzo. Un collegamento alle condizioni d'utilizzo è necessario per il servizio Bing Maps. 
+- **Selettore punto vendita** - Questo modulo visualizza un elenco dei punti vendita vicini in cui un articolo è disponibile per il ritiro. Consente agli utenti di immettere un'ubicazione per trovare punti vendita nelle vicinanze. Per ulteriori informazioni su questo modulo, vedere [Modulo Selettore punto vendita](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Impostazioni del modulo Casella acquisti
 
@@ -93,13 +93,15 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 [Panoramica starter kit](starter-kit-overview.md)
 
+[Modulo Selettore punto vendita](store-selector.md)
+
 [Modulo contenitore](add-container-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo carrello](add-cart-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Conferma ordine](order-confirmation-module.md)
+[Modulo conferma ordine](order-confirmation-module.md)
 
 [Modulo Intestazione](author-header-module.md)
 

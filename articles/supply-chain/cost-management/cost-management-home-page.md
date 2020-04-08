@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249634"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144113"
 ---
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249634"
 
 La [gestione dei costi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) consente di utilizzare la valutazione e la contabilità per materie prime, prodotti semilavorati, prodotti finiti e cespiti semilavorati. Si tratta del processo di definizione, gestione e creazione report di [contabilità inventario](cost-object.md) e [contabilità di produzione](bom-calculations.md).
 
-È possibile definire i criteri dei costi nelle seguenti aree: 
--  [Costo predeterminato](costing-versions.md)
--  [Contabilità inventario](cost-object.md)
--  [Contabilità produzione](bom-calculations.md)
--  [Contabilità costi indiretti](costing-sheets.md)
--  [Integrazione contabile](production-order-cost-analysis.md)
+È possibile definire i criteri dei costi nelle seguenti aree:
+
+- [Costo predeterminato](costing-versions.md)
+- [Contabilità inventario](cost-object.md)
+- [Contabilità produzione](bom-calculations.md)
+- [Contabilità costi indiretti](costing-sheets.md)
+- [Integrazione contabile](production-order-cost-analysis.md)
 
 Ad esempio, è possibile definire i metodi di valutazione per le scorte, come [FIFO](fifo-physical-value-marking.md), [Media ponderata](weighted-average-physical-value-marking.md), [Costo standard](prerequisites-standard-costs.md) o [Media mobile](moving-average.md) da applicare ai prodotti del [Gruppo di modelli di articoli](../inventory/reserve-inventory-quantities.md) in Contabilità inventario.
 
@@ -51,23 +52,16 @@ Il [contenuto Power BI per la gestione dei costi](../../dev-itpro/analytics/cost
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo. 
+Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo.
 
 #### <a name="white-paper"></a>White paper
-Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) viene descritto come impostare una scheda di determinazione costi contenente il materiale e la produzione e come l'impostazione influisce sui risultati del calcolo DBA. Per spiegare meglio gli argomenti, vengono forniti scenari concreti e dati che dimostrano l'effetto delle varie impostazioni e configurazioni. Non è previsto che vengano seguiti tutti gli scenari, perché questo documento non fornisce dettagli sufficienti per configurarli. Tuttavia, se si dispone delle conoscenze di base, è possibile provare a riprodurre le guide delle attività elencate di seguito nell'ordine in cui vengono visualizzate. Utilizzare la conoscenza acquisita tramite la lettura del documento per eseguire l'analisi di calcolo DBA. 
 
--  [Creare un prodotto finito](tasks/create-finished-product-2016-02.md)
--  [Creare un prodotto semilavorato](tasks/create-semi-finished-product-2016-02.md)
--  [Creare materie prime](tasks/create-raw-materials-2016-02.md)
--  [Creare DBA](tasks/create-boms-2016-02.md)
--  [Crea cicli di lavorazione](tasks/create-routes-2016-02.md)
--  [Calcolare una DBA utilizzando una struttura a livello singolo](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Calcolare una DBA utilizzando una struttura a più livelli](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) viene descritto come impostare una scheda di determinazione costi contenente il materiale e la produzione e come l'impostazione influisce sui risultati del calcolo DBA. Per spiegare meglio gli argomenti, vengono forniti scenari concreti e dati che dimostrano l'effetto delle varie impostazioni e configurazioni.
 
 #### <a name="blogs"></a>Blog
+
 Opinioni, notizie e altre informazioni sulla gestione costi sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm). Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione costi, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 #### <a name="task-guides"></a>Guide attività
-Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
 
+Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.

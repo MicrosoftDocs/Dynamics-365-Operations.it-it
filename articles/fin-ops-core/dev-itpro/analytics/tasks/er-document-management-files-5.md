@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de075899547d194fb9eb0e68947efd005c101851
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 1a52a7dd3b31c0189577422a79d47b318aae4a05
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550696"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142004"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Usare file di gestione documenti in output di formato (Parte 5: modificare ed eseguire il formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici. Queste operazioni possono essere eseguite nella società DEMF.
 
@@ -91,7 +91,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 2. Espandere la sezione Record da includere ().
 3. Fare clic su Filtro.
 4. Selezionare la riga del giornale di registrazione fatture cliente e il campo Ordine cliente.
-5. Nel campo Criterim nel campo "Ordine cliente" di criteri, digitare il numero di ordine 000148.
+5. Nel campo Criteri nel campo "Ordine cliente" di criteri, digitare il numero di ordine 000148.
     * 000148  
 6. Fare clic su OK.
 7. Fare clic su OK.

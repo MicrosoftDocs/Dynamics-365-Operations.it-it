@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087348"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166500"
 ---
 # <a name="common-data-service-entities"></a>Entità di Common Data Service
 
@@ -87,14 +87,19 @@ Le seguenti entità di Human Resources sono disponibili in Common Data Service.
 | Posizione lavorativa | cdm_jobposition |
 | Tipo di posizione | cdm_positiontype |
 | Assegnazione lavoratore posizione | cdm_positionworkerassignmentmap |
-| Tipo di mansione | cdm_jobtype |
+| Dimensione posizione lavorativa | cdm_jobpositiondimension|
+| Tipo di posizione | cdm_jobtype |
 | Lingua | cdm_language |
+| Funzione | cdm_title |
+
+> [!NOTE]
+> Le dimensioni finanziarie per **Tipo di posizione**, **Assegnazione lavoratore posizione** e **Impiego** forniscono l'integrazione in una direzione per Common Data Service. Gli aggiornamenti sulle dimensioni finanziarie al momento non vengono sincronizzati da Common Data Service a Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>Entità Congedo e assenza
 
 | Nome | Entità |
 | --- | --- |
-| Transazione bancaria di congedo | cdm_leavebanktransaction |
+| Transazione bancaria per congedo | cdm_leavebanktransaction |
 | Iscrizione congedo | cdm_leaveenrollment |
 | Piano di congedo | cdm_leaveplan |
 | Richiesta di congedo | cdm_leaverequest |

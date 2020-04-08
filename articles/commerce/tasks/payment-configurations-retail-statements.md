@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72425526a4425eeb5cb7539f9633bda5657ca99e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023025"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140809"
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Configurazioni dei pagamenti per rendiconti di vendita al dettaglio
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questa procedura sono illustrate le configurazioni per i metodi di pagamento di punto vendita di commercio che interessano la modalità di creazione e registrazione dei rendiconti.
 

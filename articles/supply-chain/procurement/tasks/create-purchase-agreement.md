@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866852"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147459"
 ---
 # <a name="create-a-purchase-agreement"></a>Creare un contratto di acquisto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritta la creazione di un contratto di acquisto e viene in genere effettuata da un responsabile acquisti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare. Una volta creato un contratto, è possibile utilizzarlo quando si crea un ordine fornitore. In questo modo le condizioni del contratto di acquisto verranno copiate nell'intestazione e in tutte le righe nell'ordine in cui sono interessate dal contratto.
 

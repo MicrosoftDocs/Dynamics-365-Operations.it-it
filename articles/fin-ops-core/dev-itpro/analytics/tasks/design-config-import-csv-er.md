@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185154"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142252"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Progettare configurazioni di ER per importare dati da file CSV esterni
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Utilizzare questa procedura per progettare le configurazioni di creazione di report elettronici (ER) per importare i dati nell'applicazione da un file esterno in formato CSV. In questa procedura verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella procedura, "ER Creare un provider di configurazione e contrassegnarlo come attivo". 
+Utilizzare questa procedura per progettare le configurazioni di creazione di report elettronici (ER) per importare i dati nell'applicazione da un file esterno in formato CSV. In questa procedura verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo". 
 
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Tali passaggi possono essere completati mediante il set di dati USMF. 
 
@@ -101,8 +101,8 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 11. Nella struttura selezionare 'format\Incoming: File(Incoming)\Root: Sequence(Root)\Line: Sequence 1..* (Line)\Types: Case(Types)\Record: Sequence 1..1 (,)(Record)\Data\TransactionDate: DateTime(TransactionDate)'.
     * Tenere presente che gli elementi obbligatori e facoltativi del formato, ad esempio TransactionDate e CountryCode, sono diversi nel componente origine dati "formato" predefinito.   
 12. Nella struttura espandere 'Transactions = '$both''.
-    * Tenere presente che gli elementi del formato che definisce la struttura del file importato sono associati agli elementi del modello dati. In base a queste associazioni, il contenuto del file CSV importato verrà archiviato in fase di esecuzione nel modello dati esistente. Si consiglia di prestare attenzione all'associazione dell'elemento CountryRegion. Per qualsiasi elemento di transazione nel file in entrata che non dispone di un valore codice paese speccificato, il codice paese predefinito 'USA' verrà inserito nel modello dati.   
-13. Attivare 'Mostra dettagli'.
+    * Tenere presente che gli elementi del formato che definisce la struttura del file importato sono associati agli elementi del modello dati. In base a queste associazioni, il contenuto del file CSV importato verrà archiviato in fase di esecuzione nel modello dati esistente. Si consiglia di prestare attenzione all'associazione dell'elemento CountryRegion. Per qualsiasi elemento di transazione nel file in entrata che non dispone di un valore codice paese specificato, il codice paese predefinito "USA" verrà inserito nel modello dati.   
+13. Attivare "Mostra dettagli".
 14. Fare clic sulla scheda Convalide.
 15. Fare clic su Cerca.
 16. Digitare 'vend' nel campo Trova.

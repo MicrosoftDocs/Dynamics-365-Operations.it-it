@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a681a369a55a45692979e8e6f24f9c4018e00677
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023030"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141291"
 ---
 # <a name="define-loyalty-schemes"></a> Definire schemi di programma fedeltà
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questa procedura vengono descritti i passaggi per definire uno schema del programma fedeltà. Gli schemi del programma fedeltà sono regole di acquisizione e riscatto premi di un programma di fedeltà. Questa procedura utilizza la società di dati dimostrativi USRT.
 

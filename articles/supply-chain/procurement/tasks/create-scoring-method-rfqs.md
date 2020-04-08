@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838072"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147344"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Creare un metodo di assegnazione punteggi per RdO
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura indica come creare un metodo di assegnazione del punteggio. Un metodo di assegnazione del punteggio è un insieme dei criteri che possono essere usati per confrontare le offerte che sono inviate in risposta ad una richiesta di offerta (RdO). Ad esempio, potrebbe essere utile valutare le prestazioni passate di un fornitore o valutare se la società rispetta le esigenze dell'ambiente o se è un buon collaboratore, oppure confrontare le offerte in base al prezzo. Il metodo di assegnazione del punteggio può essere associato a un tipo di sollecito come metodo predefinito per le RdO di quel tipo. Queste attività verranno in genere svolte da un responsabile degli acquisti. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare.
 

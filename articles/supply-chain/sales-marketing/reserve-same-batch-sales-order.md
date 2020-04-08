@@ -3,14 +3,14 @@ title: Prenotare lo stesso batch per un ordine cliente
 description: Questo articolo illustra come impostare un prodotto per consentire la prenotazione di scorte rispetto un unico batch di magazzino.
 author: omulvad
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 067dd6d3c337378a610ee1fcf6a7812716813bab
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 9d90105b4713041b0c1efdc8a2e0cdf50e7dedc7
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251732"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154622"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Prenotare lo stesso batch per un ordine cliente
 
@@ -34,16 +34,14 @@ Questo articolo illustra come impostare un prodotto per consentire la prenotazio
 
 La prenotazione dello stesso batch consente di prenotare le scorte per una riga di ordine cliente da un unico lotto di magazzino. Ad esempio, un cliente che ordina carta da parati può richiedere che l'intero ordine venga coperto dallo stesso batch o lotto per evitare di ricevere rotoli non omogenei tra loro. Per impostare un prodotto per l'utilizzo della prenotazione dello stesso batch, è necessario che siano attive le seguenti impostazioni nei gruppi di modelli di articoli, nel gruppo di dimensioni di tracciabilità e nel gruppo di dimensioni di immagazzinamento:
 
--   **Gruppi di modelli di articoli**: il gruppo di modelli di articoli deve avere i campi **Selezione stesso batch** e **Fabbisogno consolidato** selezionati nel gruppo di campi **Prenotazione** dei criteri di inventario.
--   **Gruppi di dimensioni di tracciabilità**: il gruppo di dimensioni di tracciabilità deve avere il campo **Piano di copertura per dimensione** selezionato per numero batch.
--   **Gruppi di dimensioni di immagazzinamento**: il gruppo di dimensioni di immagazzinamento deve avere il campo **Piano di copertura per dimensione** selezionato per **Sito** e **Magazzino**.
+- **Gruppi di modelli di articoli**: il gruppo di modelli di articoli deve avere i campi **Selezione stesso batch** e **Fabbisogno consolidato** selezionati nel gruppo di campi **Prenotazione** dei criteri di inventario.
+- **Gruppi di dimensioni di tracciabilità**: il gruppo di dimensioni di tracciabilità deve avere il campo **Piano di copertura per dimensione** selezionato per numero batch.
+- **Gruppi di dimensioni di immagazzinamento**: il gruppo di dimensioni di immagazzinamento deve avere il campo **Piano di copertura per dimensione** selezionato per **Sito** e **Magazzino**.
 
 Quando si prenotano scorte di un prodotto in una riga ordine cliente impostata per la selezione stesso batch, il sistema tenta la prenotazione della quantità ordinata da un unico batch di magazzino. Vengono inoltre considerati eventuali requisiti specifici di attributi batch. Se la quantità non può essere coperta da un unico batch, viene visualizzata la pagina **Conflitto di stessa prenotazione batch**. In questa pagina vengono descritte le problematiche e anche le azioni che è possibile intraprendere per continuare con la prenotazione. Le seguenti condizioni possono impedire la prenotazione del batch:
 
--   Il codice smaltimento batch presenta la voce **Blocca prenotazione** per le vendite contrassegnata come **Bloccata**.
--   Il batch è scaduto in base alla data di scadenza e ai giorni di vendita del cliente eventualmente applicabili. L'articolo può comunque essere idoneo alla prenotazione se il gruppo di modelli di articoli per l'articolo è controllato in base alla data FEFO (First Expired, First Out) e se il campo della data di consumo consigliata è selezionato come criterio di prelievo.
--   I giorni di durata a scaffale rimanenti per il batch sono insufficienti in base alla data di scadenza e alla data di consumo consigliata, più gli eventuali giorni di vendita del cliente.
+- Il codice smaltimento batch presenta la voce **Blocca prenotazione** per le vendite contrassegnata come **Bloccata**.
+- Il batch è scaduto in base alla data di scadenza e ai giorni di vendita del cliente eventualmente applicabili. L'articolo può comunque essere idoneo alla prenotazione se il gruppo di modelli di articoli per l'articolo è controllato in base alla data FEFO (First Expired, First Out) e se il campo della data di consumo consigliata è selezionato come criterio di prelievo.
+- I giorni di durata a scaffale rimanenti per il batch sono insufficienti in base alla data di scadenza e alla data di consumo consigliata, più gli eventuali giorni di vendita del cliente.
 
-
-
-
+Per gli articoli associati a un gruppo di dimensioni di immagazzinamento con **Usa processi di gestione magazzino** abilitato, è possibile prenotare specifici numeri di lotto utilizzando una gerarchia di prenotazione con la dimensione di inventario del numero di lotto definita sopra la dimensione della posizione. La pagina **Prenotazione batch** per le righe ordine di vendita e trasferimento consente inoltre di selezionare e prenotare più righe in base ai numeri di batch disponibili. Per ulteriori informazioni sulle operazioni da eseguire se si utilizza una gerarchia di prenotazione con la dimensione del numero di batch al di sotto della posizione, vedere [Criteri flessibili di prenotazione delle dimensioni a livello di magazzino](../warehousing/flexible-warehouse-level-dimension-reservation.md).

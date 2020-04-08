@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185062"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142641"
 ---
 # <a name="er-configure-destinations"></a>ER configura le destinazioni
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come impostare e utilizzare destinazioni diverse per i componenti di output per la creazione di report elettronici (ER), ad esempio una cartella o un file. La società di dati dimostrativi utilizzata per creare questa procedura è DEMF. La Germania è il paese dell'indirizzo principale della persona giuridica, comunque è possibile utilizzare qualsiasi persona giuridica per questa procedura. 
 

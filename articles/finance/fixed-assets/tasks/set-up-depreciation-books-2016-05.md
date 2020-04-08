@@ -1,6 +1,6 @@
 ---
-title: Impostare i registri beni ammortizzabili (maggio 2016)
-description: Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assocerà a un gruppo cespite.
+title: Impostare i registri di beni ammortizzabili
+description: Questa procedura illustra il processo di creazione di un nuovo registro beni ammortizzabili e di associazione a un gruppo di cespiti.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186902"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154603"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Impostare i registri beni ammortizzabili (maggio 2016)
+# <a name="set-up-depreciation-books"></a>Impostare i registri di beni ammortizzabili 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Questa guida attività creerà un nuovo registro beni ammortizzabili e lo assocerà a un gruppo cespite.  Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.
-
+Questa procedura illustra il processo di creazione di un nuovo registro beni ammortizzabili e di associazione a un gruppo di cespiti. 
 
 ## <a name="create-a-depreciation-book"></a>Creare un registro beni ammortizzabili
 1. Andare a Cespiti > Impostazioni > Registri beni ammortizzabili.

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 766f29f7511c16eccd37e93f2de366ac23c35545
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914781"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145803"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Creare nuovo ordine di rifornimento spedizione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come creare un ordine di rifornimento spedizione in cui è possibile tracciare la consegna prevista da un fornitore nell'inventario di spedizione. Viene inoltre illustrato come registrare un'entrata prodotti in modo da registrare l'inventario di spedizione come scorte disponibili di proprietà del fornitore. Questa procedura viene in genere eseguita da un responsabile approvvigionamenti. È possibile utilizzare questa guida nella società di dati dimostrativi USMF. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 
@@ -53,7 +53,7 @@ In questo argomento viene illustrato come creare un ordine di rifornimento spedi
 ## <a name="receive-items"></a>Ricevi articoli
 1. Selezionare **Entrata prodotti**.
 2. Digitare un valore nel campo **Entrata prodotti esterna**.
-3. Nel campo **Quantità**, immettere un numero minore del numero riportato lì. 
+3. Nel campo **Quantità**, immettere un numero minore del numero riportato. 
 4. Selezionare **OK**.
 
 ## <a name="check-the-on-hand-inventory"></a>Controllare le scorte disponibili.

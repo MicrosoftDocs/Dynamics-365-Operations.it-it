@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f56769abb4da0068d6e2916df8dc782e662a2d56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190398"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143629"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Assunzione del candidato tramite la selezione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura consente a un responsabile della selezione di assumere un candidato che ha inviato una domanda di lavoro per un progetto di selezione specifico. Quando si assume un candidato tramite un progetto di selezione, un nuovo record lavoratore verrà creato e al record del candidato sarà associato lo stato Assunto. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per completare questa procedura, andare a Risorse umane > Selezione del personale > Domande di lavoro > Domande di lavoro 
 

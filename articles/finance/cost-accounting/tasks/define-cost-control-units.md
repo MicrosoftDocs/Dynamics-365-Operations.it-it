@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77583232ee69819ea9ba28dd101326341d61c42d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a19d5b364305b817e3fd8e5e9001ed52db80c508
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178474"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137893"
 ---
 # <a name="define-cost-control-units"></a>Definire unità di controllo costi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura viene illustrato come definire le unità di controllo costi nei movimento CoGe di contabilità industriale. Viene selezionata la dimensione oggetto di costo per cui si desidera eseguire il controllo dei costi nella contabilità generale. I membri di dimensione oggetto di costo verranno trasformati in oggetti di costo nelle unità del controllo costi. La società di dati dimostrativi utilizzata per creare questa procedura è USP2.
 

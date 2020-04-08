@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182694"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142168"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Creare configurazioni di mapping modello per la creazione di report elettronici
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilizzare questa procedura per progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti. In questa procedura verrà creata una configurazione per la società di esempio Litware, Inc. 
 
@@ -33,7 +33,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 Tali passaggi possono essere completati mediante un set di dati. Per completare questi passaggi, è necessario completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
-    * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".  
+    * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".  
 2. Fare clic su Configurazioni report.
 3. Fare clic su Mostra filtri.
 4. Immettere il valore di filtro "Intrastat" nel campo "Nome" e utilizzare l'operatore di filtro "inizia con".

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ad4ef067841511e235dcf538c720b72283d31c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0b8b248481f04856fe15dadbc245caae5330ef8f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178554"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140538"
 ---
 # <a name="set-up-electronic-signatures"></a>Impostare le firme elettroniche
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilizzare questa procedure per configurare le firme elettroniche. Una firma elettronica consente di confermare l'identità di una persona che sta per avviare o approvare un processo di elaborazione. La società di dati dimostrativi utilizzata per creare questa procedura è DAT.
 

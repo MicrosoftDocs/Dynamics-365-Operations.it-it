@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba435ee145a8516391d7864bdfe338b0f3862f49
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9dbf62e1c518b0cd77da693127588a04f17d622
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847209"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148264"
 ---
 # <a name="set-up-containerization"></a>Impostare containerizzazione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa argomento descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino. La containerizzazione automatica crea contenitori e il lavoro di prelievo per le spedizioni quando un'ondata viene elaborata e le righe di lavoro possono essere divise in quantità adatte ai contenitori. In questo modo i magazzinieri possono prelevare gli articoli direttamente dal contenitore specificato. Rispetto al processo manuale di imballaggio, attività quali la creazione di contenitori, l'assegnazione di articoli e la chiusura di contenitori vengono automatizzate dal sistema. Questa procedura utilizza per la società dimostrativa USMF e viene eseguita da un responsabile magazzino.
 

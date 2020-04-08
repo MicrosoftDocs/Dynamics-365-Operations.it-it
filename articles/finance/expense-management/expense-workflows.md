@@ -1,5 +1,5 @@
 ---
-title: Impostare flussi di lavoro per le spese
+title: Impostare flussi di lavoro per la gestione spese
 description: È possibile impostare un processo del flusso di lavoro utilizzato per rivedere e approvare i documenti viaggi e spese.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178466"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153996"
 ---
-# <a name="set-up-workflows-for-expense"></a>Impostare flussi di lavoro per le spese
+# <a name="set-up-workflows-for-expense-management"></a>Impostare flussi di lavoro per la gestione spese
 
 [!include [banner](../includes/banner.md)]
 
- È possibile impostare un processo del flusso di lavoro utilizzato per rivedere e approvare i documenti viaggi e spese. I documenti per cui è possibile definire flussi di lavoro includono note spese, richieste di viaggio e richieste di anticipo contanti.
+È possibile impostare un processo del flusso di lavoro utilizzato per rivedere e approvare i documenti viaggi e spese. I documenti per cui è possibile definire flussi di lavoro includono note spese, richieste di viaggio e richieste di anticipo contanti.
 
 Un flusso di lavoro rappresenta un processo aziendale. Definisce il modo in cui un documento attraversa il sistema e stabilisce chi deve completare un'attività o approvare un documento. Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basato su flusso di lavoro all'interno dell'organizzazione:
 

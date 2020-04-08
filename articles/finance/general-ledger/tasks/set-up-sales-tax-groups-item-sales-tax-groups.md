@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12bbeaa4e0e2f6ee4874cf72863624a871ba87ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5b539129e62b9b0b10df1f505cbfec5c1143138
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175489"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141628"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Impostare fasce IVA e fasce IVA articoli
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa registrazione attività verrà illustrata l'impostazione dell'IVA e delle fasce IVA articoli. Le fasce IVA sono gruppi di codici IVA allegati a clienti e fornitori. Vengono anche allegati ai conti CoGe per le transazioni che non vengono registrate per uno specifico fornitore o cliente.  Le fasce IVA articoli sono gruppi di codici IVA collegati alle risorse come i prodotti.  Le fasce IVA applicabili a una transazione specifica sono determinate dai codici IVA inclusi nella fascia IVA e nella fascia IVA articoli della transazione.  L'IVA può essere calcolata solo se vengono selezionate una fascia IVA e una fascia IVA articoli per ciascuna transazione per la quale è necessario calcolare o registrare l'IVA.  
 

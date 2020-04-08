@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550534"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142365"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (Parte 1: progettare il formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la generazione di report come file di fogli di lavoro (Excel) OPENXML in cui le colonne richieste possono essere create in modo dinamico come intervalli espandibili orizzontalmente. Questi passaggi possono essere eseguiti in qualsiasi società.
 
@@ -33,9 +33,9 @@ Per effettuare queste operazioni, è necessario completare queste tre guide atti
 
 "ER Creare un provider di configurazione e contrassegnarlo come attivo"
 
-"ER Utilizzare le dimensioni finanziarie come origine dati (parte 1: progettare il modello dati)"
+"ER Utilizzare le dimensioni finanziarie come origine dati (Parte 1: progettare il modello dati)"
 
-"ER Utilizzare le dimensioni finanziarie come origine dati (parte 2: mapping del modello)"
+"ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)"
 
 È inoltre necessario scaricare e salvare una copia locale del modello con un report di esempio disponibile qui, [Report servizio Web dimensioni finanziarie di esempio](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,7 +57,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 
 ## <a name="design-the-report-format"></a>Progettare il formato del report
 1. Fare clic su Progettazione.
-2. Attivare l'interruttore 'Mostra dettagli'.
+2. Attivare l'interruttore "Mostra dettagli".
 3. Nel Riquadro azioni fare clic su Importa.
 4. Fare clic su Importa da Excel.
 5. Fare clic su Allegati.

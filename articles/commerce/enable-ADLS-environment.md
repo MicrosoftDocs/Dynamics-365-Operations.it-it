@@ -3,7 +3,7 @@ title: Abilitare ADLS in un ambiente di Dynamics 365 Commerce
 description: Questo argomento spiega come abilitare e testare Azure Data Lake Storage (ADLS) per un ambiente di Dynamics 365 Commerce, che è un prerequisito per abilitare i suggerimenti sui prodotti.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127769"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154438"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Abilitare ADLS in un ambiente di Dynamics 365 Commerce
 
@@ -98,8 +98,6 @@ Se non è già stato fatto, seguire la procedura per [abilitare la personalizzaz
 [Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
 
 [Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
-
-[Aggiungere elenchi di suggerimenti a un sito di e-commerce](add-reco-list-to-page.md)
 
 [Aggiungere suggerimenti sul prodotto su POS](product.md)
 

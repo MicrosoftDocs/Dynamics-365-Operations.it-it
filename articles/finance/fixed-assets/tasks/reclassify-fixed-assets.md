@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186925"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138279"
 ---
 # <a name="reclassify-fixed-assets"></a>Riclassifica i cespiti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Per riclassificare un cespite, è necessario trasferirlo in un nuovo gruppo cespite o assegnare al cespite un nuovo numero nello stesso gruppo. 
 
 Quando un cespite viene riclassificato:
 
-• Per il nuovo cespite vengono creati tutti i libri del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei libri del cespite originario è Chiuso. 
+* Per il nuovo cespite vengono creati tutti i libri del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei libri del cespite originario è Chiuso. 
 
-• Nei nuovi libri del nuovo cespite è contenuta la data di riclassificazione presente nel campo **Data di acquisizione**. La data nel campo **Data esecuzione ammortamento** viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo **Data ultimo ammortamento** viene visualizzata la data di riclassificazione. 
+* Nei nuovi libri del nuovo cespite è contenuta la data di riclassificazione presente nel campo **Data di acquisizione**. La data nel campo **Data esecuzione ammortamento** viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo **Data ultimo ammortamento** viene visualizzata la data di riclassificazione. 
 
-• Le transazioni cespiti esistenti per il cespite originario vengono annullate e rigenerate per il nuovo cespite.
+* Le transazioni cespiti esistenti per il cespite originario vengono annullate e rigenerate per il nuovo cespite.
 
 Seguire questi passaggi per riclassificare un cespite:
 

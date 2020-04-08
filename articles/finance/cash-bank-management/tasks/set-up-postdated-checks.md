@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 035f6e3b0268f8ee4c9006ca5f0527133cf2771c
-ms.sourcegitcommit: 69f8233e86b32347474a25d83b4ac5920f60407d
+ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2538480"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141110"
 ---
 # <a name="set-up-postdated-checks"></a>Impostare gli assegni postdatati
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come specificare se registrare gli inserimenti nel giornale per gli assegni postdatati e quali giornali di registrazione utilizzare per cancellare le voci e i pagamenti fornitore. È inoltre possibile specificare i conti di compensazione per gli assegni emessi, gli assegni ricevuti e la ritenuta d'acconto. Gli assegni postdatati che sono emessi per effettuare e ricevere pagamenti in una data futura. È possibile specificare se l'assegno deve essere riportato nei libri contabili prima della relativa data di scadenza.
 

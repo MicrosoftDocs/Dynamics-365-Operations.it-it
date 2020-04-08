@@ -3,7 +3,7 @@ title: Simulazioni di contabilità generale (Italia)
 description: Questo argomento fornisce informazioni sulla registrazione delle transazioni di contabilità generale come simulazioni del giornale di registrazione generale e quindi sulla verifica dei report che includono le transazioni simulate.
 author: anasyash
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 899a96069f9b9097ae32f2d92408e9b019d86c88
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b03e75d72d1d0b45e53141f08a8bbb47c6b24334
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015438"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138374"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Le simulazioni di contabilità generale consentono di registrare transazioni di contabilità generale simulate del giornale di registrazione generale e quindi di esaminare i report che includono le transazioni simulate.
 

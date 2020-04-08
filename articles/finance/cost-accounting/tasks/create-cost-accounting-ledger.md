@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49ad1b2478516392d80720c24803024d9f5d00a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7ac02bfc0e9981e3dff6bba350b0748946862b4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187753"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142342"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Creare un movimento CoGe di contabilità industriale
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Un movimento CoGe di contabilità industriale rappresenta l'unità gerarchica complessiva. È definito da una dimensione dell'elemento di costo, da una dimensione statistica, dal calendario fiscale e dalla valuta ed è indipendente rispetto al concetto di persone giuridiche. Una persona giuridica e i relativi dati possono essere associati a più movimenti CoGe di contabilità industriale. Questa registrazione utilizza i dati dimostrativi della società USP2.
 

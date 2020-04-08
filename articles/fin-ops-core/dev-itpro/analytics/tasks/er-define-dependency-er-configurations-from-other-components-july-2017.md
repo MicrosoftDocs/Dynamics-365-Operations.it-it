@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042921"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142249"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER da altri componenti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -33,23 +33,23 @@ Questa procedura descrive come progettare una configurazione ER e come specifica
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Queste operazioni possono essere eseguite in qualsiasi società perché le configurazioni ER sono condivise tra tutte le società. 
 
 1. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
-    * Verificare che la struttura delle configurazioni contenga la configurazione 'Modello dati di esempio' e gli elementi secondari. In caso contrario, completare i passaggi nella guida attività descritti in ER Gestire configurazioni di mapping di modelli, quindi avviare nuovamente la guida.   
+    * Verificare che la struttura delle configurazioni contenga la configurazione "Modello dati di esempio" e gli elementi secondari. In caso contrario, completare i passaggi nella guida attività descritti in ER Gestire configurazioni di mapping di modelli, quindi avviare nuovamente la guida.   
 
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>Definire la dipendenza delle configurazioni ER da altri componenti
 1. Nella struttura espandere "Sample data model".
 2. Nella struttura selezionare "Sample data model\Sample mapping".
-    * È stata selezionata la versione bozza della configurazione di mapping del modello 'Mapping di esempio'. Verrà ora definita la dipendenza relativa da altri componenti software. Questo passaggio è considerato un prerequisito per il controllo del download di questa versione della configurazione da un archivio ER e di altri ulteriori usi della versione.   
+    * È stata selezionata la versione bozza della configurazione di mapping del modello "Mapping di esempio". Verrà ora definita la dipendenza relativa da altri componenti software. Questo passaggio è considerato un prerequisito per il controllo del download di questa versione della configurazione da un archivio ER e di altri ulteriori usi della versione.   
 3. Espandere la sezione Prerequisiti.
-    * Si noti che il gruppo di prerequisiti "Implementazioni" è stato aggiunto automaticamente in questa fase. Questo gruppo include il componente di prerequisiti che fa riferimento alla configurazione del modello dati con il flag di implementazione attivato. Il flag indica che la configurazione di mapping 'Mapping di esempio' viene considerata l'implementazione del modello dati 'Modello dati di esempio'. Questo componente comporterà il download da parte di ER della configurazione di mapping di esempio da un archivio ER tutte le volte che viene scaricata la configurazione del modello dati di esempio.   
+    * Si noti che il gruppo di prerequisiti "Implementazioni" è stato aggiunto automaticamente in questa fase. Questo gruppo include il componente di prerequisiti che fa riferimento alla configurazione del modello dati con il flag di implementazione attivato. Il flag indica che la configurazione di mapping "Mapping di esempio" viene considerata l'implementazione del modello dati "Modello dati di esempio". Questo componente comporterà il download da parte di ER della configurazione di mapping di esempio da un archivio ER tutte le volte che viene scaricata la configurazione del modello dati di esempio.   
 4. Fare clic su Modifica.
     * È possibile specificare una singola dipendenza della versione corrente di una configurazione da un componente software tramite la definizione del tipo di componente e della versione o di un intervallo di versioni del componente.  
-    * Le dipendenze desiderate possono essere raggruppate tra loro. Quando si seleziona il tipo di raggruppamento 'Tutti', la condizione di dipendenza del gruppo viene considerato soddisfatta quando ogni condizione di dipendenza dal gruppo o dal gruppo secondario è soddisfatta. Quando si seleziona il tipo di raggruppamento 'Uno di', la condizione di dipendenza del gruppo viene considerato soddisfatta quando almeno una condizione di dipendenza dal gruppo è soddisfatta.   
+    * Le dipendenze desiderate possono essere raggruppate tra loro. Quando si seleziona il tipo di raggruppamento "Tutti", la condizione di dipendenza del gruppo viene considerato soddisfatta quando ogni condizione di dipendenza dal gruppo o dal gruppo secondario è soddisfatta. Quando si seleziona il tipo di raggruppamento "Uno di", la condizione di dipendenza del gruppo viene considerato soddisfatta quando almeno una condizione di dipendenza dal gruppo è soddisfatta.   
 5. Fare clic su Nuovo.
 6. Selezionare il componente prerequisito del prodotto.
 7. Selezionare Microsoft Dynamics 365 for Operations (1611).
 8. Nel campo Versione digitare "[7.1.1541.3036,8]".
     * [7.1.1541.3036,8]  
-    * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione 'Modello dati di esempio' è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
+    * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
 9. Fare clic su Salva.
 10. Chiudere la pagina.
 11. Fare clic su Cambia stato.
@@ -62,7 +62,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 18. Selezionare Microsoft Dynamics AX 7.0 RTW.
 19. Nel campo Versione digitare "[7.0.1265.3015,7.1]".
     * [7.0.1265.3015,7.1]  
-    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione 'Modello dati di esempio' è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, edizione Enterprise, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
+    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
 20. Fare clic su Salva.
 21. Chiudere la pagina.
 22. Fare clic su Cambia stato.
@@ -82,7 +82,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 8. Nel campo Tipo di archivio di configurazioni immettere "LCS".
 9. Fare clic su Crea archivio.
 10. Nel campo Progetto immettere o selezionare un valore.
-    * Selezionare il progetto LCS desiderato nell'area di ricerca del campo 'Progetto'.  
+    * Selezionare il progetto LCS desiderato nell'area di ricerca del campo "Progetto".  
 11. Fare clic su OK.
 12. Chiudere la pagina.
 
@@ -138,5 +138,5 @@ Le configurazioni create dal sistema verranno eliminate e scaricate nuovamente d
 24. Chiudere la pagina.
 25. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
 26. Nella struttura espandere "Sample data model".
-    * Si noti che la configurazione di mapping "Mapping di esempio " del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
+    * Si noti che la configurazione di mapping "Mapping di esempio" del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
     * Se si accede a Finance and Operations, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  

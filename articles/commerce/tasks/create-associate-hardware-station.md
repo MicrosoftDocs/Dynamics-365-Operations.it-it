@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 772ccc44c01d97a07796bd1ee443012448955f49
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023044"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141039"
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Creare e associare una postazione hardware
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare una nuova stazione hardware. Un nuovo profilo hardware verrà creato e utilizzato per aggiungere le nuove stazioni hardware a un punto vendita predefinito (canale). Questa procedura utilizza i dati dimostrativi della società USRT.
 

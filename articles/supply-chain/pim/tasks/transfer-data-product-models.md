@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d1c14009cf4bbb16d21566e2aae56689f6c0791
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cd2ac37fd1885a199e1af2ea74748650c2589b25
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844260"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147529"
 ---
 # <a name="transfer-data-for-product-models"></a>Trasferire i dati per i modelli prodotto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 L'esportazione dei dati per un modello di configurazione prodotto richiede almeno un modello prodotto disponibile. Questa procedura utilizza il modello High end speaker della società di dati dimostrativi USMF per mostrare come si esportano i dati per questo modello.
 

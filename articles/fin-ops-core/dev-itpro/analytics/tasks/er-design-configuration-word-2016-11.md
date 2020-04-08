@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182602"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142088"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Progettare le configurazioni di ER per generare report in formato di Word
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici (ER) può configurare formati per la creazione di report elettronici per generare i report elettronici come file di Microsoft Word. Queste operazioni possono essere eseguite nella società GBSI.
 
@@ -39,7 +39,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Microsoft Dyn
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selezionare la configurazione esistente del report ER
-1. Nel **pannello di navigazione andare a Moduli > Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici**. Assicurarsi che il provider di configurazione 'Litware, Inc.' sia selezionato come attivo.  
+1. Nel **pannello di navigazione andare a Moduli > Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici**. Assicurarsi che il provider di configurazione "Litware, Inc." sia selezionato come attivo.  
 2. Fare clic su **Configurazioni report**. Verrà riutilizzata la configurazione ER esistente originariamente progettata per generare l'output del report in formato OPENXML.  
 3. Nella struttura espandere "Modello di pagamento".
 4. Nella struttura selezionare "Modello di pagamento\Report foglio di lavoro di esempio".
@@ -58,9 +58,9 @@ Attualmente, il documento di Excel viene utilizzato come modello per generare l'
 7. Nel campo **Modello** immettere o selezionare un valore.
 
 ## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>Estendere il modello di Word aggiungendo una parte XML personalizzata
-1. Fare clic su **Salva**. Oltre ad archiviare le modifiche apportate alla configurazione, l'azione Salva aggiorna anche il modello di Word associato. La struttura del formato previsto viene trasferita al documento Word associato come nuova parte XML personalizzata con il nome 'Report'. Si noti che il modello di Word associato non contiene solo il layout di documento da generare come output ER, ma anche la struttura dei dati che ER inserisce nel modello in fase di esecuzione.  
+1. Fare clic su **Salva**. Oltre ad archiviare le modifiche apportate alla configurazione, l'azione Salva aggiorna anche il modello di Word associato. La struttura del formato previsto viene trasferita al documento Word associato come nuova parte XML personalizzata con il nome "Report". Si noti che il modello di Word associato non contiene solo il layout di documento da generare come output ER, ma anche la struttura dei dati che ER inserisce nel modello in fase di esecuzione.  
 2. Fare clic su **Allegati**.
-    + Successivamente è necessario associare gli elementi alla parte XML personalizzata 'Report' alle parti del documento di Word.  
+    + Successivamente è necessario associare gli elementi alla parte XML personalizzata "Report" alle parti del documento di Word.  
     + Se si ha dimestichezza con i documenti Word che possono essere gestiti come moduli contenenti controlli di contenuto associati agli elementi delle parti XML personalizzate, eseguire tutti i passaggi della sottoattività successiva per creare un tipo di documento. Per ulteriori informazioni, vedere [Creare moduli che gli utenti completano o stampano in Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US). In caso contrario, ignorare tutti i passaggi della sottoattività successiva.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Utilizzare Word con la parte XML personalizzata per effettuare le associazioni di dati
@@ -68,7 +68,7 @@ Attualmente, il documento di Excel viene utilizzato come modello per generare l'
 Aprire il documento in Word ed effettuare le seguenti operazioni:  
 1. Aprire la scheda Sviluppatore di Word (personalizzare la barra multifunzione se non è ancora attivata).
 2. Selezionare il riquadro di mapping XML.
-3. Selezionare la parte XML personalizzata ‘Report’ nella ricerca.
+3. Selezionare la parte XML personalizzata "Report" nella ricerca.
 4. Eseguire il mapping degli elementi della parte XML personalizzata selezionata e dei controlli di contenuto del documento Word.  5 Salvare il documento Word aggiornato in un'unità locale.  
 
 ## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>Caricare il modello di Word con la parte XML personalizzata associata ai controlli di contenuto

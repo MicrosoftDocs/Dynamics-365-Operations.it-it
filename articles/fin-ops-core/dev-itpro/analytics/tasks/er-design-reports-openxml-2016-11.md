@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769857"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142134"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene un modello per la generazione di documenti elettronici in formato OPENXML. La configurazione verrà utilizzata per elaborare i pagamenti fornitore.
 
@@ -55,7 +55,7 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 3. Selezionare **Crea configurazione** per aprire la finestra di dialogo a discesa.
 4. Nel campo **Nuovo** immettere `Format based on data model PaymentModel`. Creare un formato basato sul modello dati PaymentModel.
 5. Nel campo **Nome**, digitare `Sample worksheet report`. Report foglio di lavoro di esempio  
-6. Nel campo **Descrizione**, digitare `Sample worksheet report for vendors’ payments`. Report foglio di lavoro per i pagamenti dei fornitori.  
+6. Nel campo **Descrizione**, digitare `Sample worksheet report for vendors' payments`. Report foglio di lavoro per i pagamenti dei fornitori.  
 7. Nel campo **Definizione modello dati** immettere o selezionare un valore. Selezionare la definizione **CustomerCreditTransferInitiation**.  
 8. Selezionare **Crea configurazione**.
 

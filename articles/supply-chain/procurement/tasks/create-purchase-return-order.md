@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d586f4cc92e7533cabb8810ce5a42a37e6ba9ff1
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995192"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147367"
 ---
 # <a name="create-a-purchase-return-order"></a>Creare un ordine di reso acquisti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azione Nota di accredito per copiare le righe da un documento di fattura fornitore ad un nuovo PO. Mostra inoltre come confermare l'ordine ed elaborare la spedizione di restituzione delle merci al fornitore. L'esempio indicato in questa procedura può essere utilizzato nella società di dati dimostrativi USMF. In genere questa attività viene svolta da un addetto acquisti.
 
@@ -35,7 +35,7 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 3. Digitare "US-102" nel campo **Conto fornitore**.
 4. Fare clic su **OK**.
 5. Nel **riquadro azioni** fare clic su **Acquisto**.
-6. Fare clic su **Nota di accredito**. Questa è la pagina da cui potete copiare da una fattura fornitore esistente al vostro ordine di reso. Questa è la stessa pagina che è usata per altre azioni di copia. Ma perché la abbiamo aperta dall'azione Nota di accredito, la pagina è configurata per supportare la creazione di un ordine di reso per la contropartita delle fatture fornitore.  
+6. Fare clic su **Nota di accredito**. Questa è la pagina da cui potete copiare da una fattura fornitore esistente al vostro ordine di reso. Questa è la stessa pagina che è usata per altre azioni di copia. Ma poiché l'abbiamo aperta dall'azione Nota di accredito, la pagina è configurata per supportare la creazione di un ordine di reso per la contropartita delle fatture fornitore.  
 7. Espandere la sezione **Parametri**.
     - L'opzione **Inverti segno** è selezionata automaticamente e non può essere cambiata. Ciò assicura che il segno sia cambiato per le quantità e che le righe di ordine che si aggiungono faranno da contropartita alla fattura fornitore.  
     - L'opzione **Copia spese** è selezionata automaticamente e non può essere cambiata. Ciò significa che le spese dalla fattura fornitore si aggiungono all'ordine di reso acquisti come contropartita della spesa originale. È possibile modificare le spese nell'intestazione e nelle righe ordine successivamente.  
@@ -43,9 +43,9 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
     - L'opzione **Elimina righe acquisti** elimina tutte le righe dell'ordine fornitore che già esistono nell'ordine fornitore prima di aggiungere le nuove righe. In questo esempio ancora non abbiamo aggiunto righe all'ordine reso acquisti, così non ci sarebbe alcun effetto. Usare con prudenza questa opzione, perché elimina tutte le linee righe esistenti senza ulteriore avvertimento.  
     * L'opzione **Copia intestazione ordine** è selezionata automaticamente e non può essere cambiata. Ciò assicura che le informazioni siano copiate dalla fattura fornitore e applicate all'intestazione di ordine di reso acquisti. Ciò è utile perché contribuisce ad assicurare che l'ordine di reso acquisti funga da contropartita della fattura usando simili termini.  
 8. Comprimere la sezione **Parametri**.
-9. Espandere la sezione **Fatture**. La pagina è stata aperta dall'azione Nota di accredito, quindi la sola opzione disponibile è copiare le informazioni dalle fatture fornitore. Questa scheda mostra tutte le fatture disponibili per il conto fornitore specificato sull'ordine di reso acquisti che avete creato prima.   Le fatture sono identificate tramite il giustificativo della fattura o gli ID ordine fornitore.
+9. Espandere la sezione **Fatture**. La pagina è stata aperta dall'azione Nota di accredito, quindi la sola opzione disponibile è copiare le informazioni dalle fatture fornitore. Questa scheda mostra tutte le fatture disponibili per il conto fornitore specificato sull'ordine di reso acquisti creato prima.   Le fatture sono identificate tramite il giustificativo della fattura o gli ID ordine fornitore.
 10. Individuare la fattura fornitore identificata dal numero di fattura AP-0006 ed evidenziare quella riga facendo clic su qualsiasi campo in quella riga.
-11. Selezionare la riga facendo clic sulla relativa casella di controllo. Notare che le righe disponibili sulla fattura fornitore sono selezionate automaticamente insieme all'ordine. Questa fattura fornitore particolare ha 2 righe di ordine. Per questo esempio, restituiremo parte della quantità dalla seconda riga.
+11. Selezionare la riga facendo clic sulla relativa casella di controllo. Notare che le righe disponibili sulla fattura fornitore sono selezionate automaticamente insieme all'ordine. Questa fattura fornitore particolare ha 2 righe di ordine. Per questo esempio, si restituisce parte della quantità dalla seconda riga.
 12. Evidenziare la seconda riga (quella con l'articolo M0006) facendo clic su qualsiasi campo in quella riga.
 13. Nel campo **Quantità** modificare la quantità in 10. Questa è la quantità che restituiremo al fornitore. 
 14. Evidenziare la prima riga (quella con l'articolo M0005) facendo clic su qualsiasi campo in quella riga.

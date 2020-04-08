@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870918"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146217"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare una direttiva di ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli. Questa procedura è destinata al responsabile del magazzino.
 

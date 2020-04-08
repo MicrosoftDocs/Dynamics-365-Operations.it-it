@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0427b6e961173543f860ef6e098fc6248afd3aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 401971b6f146f1df028291ba0f691ccac5f1966d
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183705"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139000"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Ricerca della parte utilizzando l'ID IVA
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura verrà descritto come eseguire una ricerca di parti tramite un ID registrazione. Prima di poter eseguire la procedura, è necessario impostare gli ID IVA e immettere tutti gli ID IVA per i fornitori, clienti, o persone giuridiche.
 

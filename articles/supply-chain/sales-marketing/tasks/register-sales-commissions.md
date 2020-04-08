@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 8f9cb895f733442e95cd7008c63942463bbd2cba
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867055"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148519"
 ---
 # <a name="register-sales-commissions"></a>Registrare le provvigioni di vendita
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come vengono calcolate e registrate le provvigioni di vendita. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Prima di iniziare questa guida, eseguire la guida chiamata “Impostare regole per la provvigione vendite" per assicurarsi che tutto il necessario per il calcolo della provvigione sia impostato.
 

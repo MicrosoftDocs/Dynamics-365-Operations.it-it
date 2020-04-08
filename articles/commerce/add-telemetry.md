@@ -3,7 +3,7 @@ title: Aggiungere codice script nelle pagine del sito per supportare la telemetr
 description: In questo argomento viene descritto come aggiungere il codice script sul lato client alle pagine del sito per supportare la raccolta di telemetria sul lato client.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001279"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154088"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Aggiungere codice script nelle pagine del sito per supportare la telemetria
-
 
 [!include [banner](includes/banner.md)]
 
@@ -38,25 +37,72 @@ L'analisi dei dati Web è uno strumento essenziale se si desidera comprendere co
 > [!NOTE]
 > Le istruzioni fornite in questo argomento si applicano anche all'altra funzionalità personalizzata sul lato client che Microsoft Dynamics 365 Commerce non offre in modalità nativa.
 
-## <a name="create-a-reusable-fragment-for-your-script-code"></a>Creare un frammento riutilizzabile per il codice script
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Creare un frammento pagina riutilizzabile per il codice script
 
-Dopo aver creato un frammento per il codice script, può essere riutilizzato in tutte le pagine del sito.
+Un frammento pagina consente di riutilizzare il codice script incorporato o esterno in tutte le pagine del sito, indipendentemente dal modello che utilizzano.
 
-1. Andare a **Frammenti \> Nuovo frammento pagina**.
-2. Selezionare **Script esterno**, immettere un nome per il frammento e selezionare **OK**.
-3. Nella gerarchia di frammenti, selezionare l'elemento figlio del modulo **Injector script** del frammento appena creato.
-4. Nel riquadro delle proprietà a destra, aggiungere lo script sul lato client e impostare altre opzioni di configurazione come necessario.
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Creare un frammento pagina riutilizzabile per il codice script inline
 
-## <a name="add-the-fragment-to-templates"></a>Aggiungere il frammento ai modelli
+Per creare un frammento di pagina riutilizzabile per il codice di script inline in Creazione di siti Web, attenersi alla seguente procedura.
+
+1. Andare a **Frammenti pagina** e quindi selezionare **Nuovo**.
+1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Script inline**.
+1. Sotto **Nome frammento pagina**, inserire un nome per il frammento, quindi selezionare **OK**.
+1. Sotto il frammento di pagina creato, selezionare il modulo **Script inline predefinito**.
+1. Nel riquadro delle proprietà sulla destra, sotto **Script inline**, inserire lo script lato client. Quindi configurare altre opzioni come richiesto.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Selezionare **Pubblica**
+
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Creare un frammento pagina riutilizzabile per il codice script esterno
+
+Per creare un frammento di pagina riutilizzabile per il codice di script esterno in Creazione di siti Web, attenersi alla seguente procedura.
+
+1. Andare a **Frammenti pagina** e quindi selezionare **Nuovo**.
+1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Script esterno**.
+1. Sotto **Nome frammento pagina**, inserire un nome per il frammento, quindi selezionare **OK**.
+1. Sotto il frammento di pagina creato, selezionare il modulo **Script esterno predefinito**.
+1. Nel riquadro delle proprietà sulla destra, sotto **Origine script**, aggiungere un URL esterno o relativo per l'origine dello script esterno. Quindi configurare altre opzioni come richiesto.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Selezionare **Pubblica**
+
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Aggiungere un frammento di pagina che includa il codice dello script in un modello
+
+Per aggiungere un frammento di pagina che includa codice di script in un modello in Creazione di siti Web, attenersi alla seguente procedura.
 
 1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
-2. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
-3. Selezionare il pulsante con i puntini di sospensione (**...**) per lo slot **Intestazione HTML** e quindi selezionare **Aggiungi frammento**.
-4. Selezionare il frammento creato per il codice script.
-5. Salvare il modello e verificarlo.
+1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi frammento pagina**.
+1. Selezionare il frammento creato per il codice script.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Selezionare **Pubblica**
 
-> [!NOTE]
-> Al termine, è necessario pubblicare il frammento e il modello generale. 
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Aggiungere uno script esterno o uno script inline direttamente a un modello
+
+Se si desidera inserire uno script inline o esterno direttamente in un set di pagine controllate da un singolo modello, non è necessario creare prima un frammento di pagina.
+
+### <a name="add-an-inline-script-directly-to-a-template"></a>Aggiungere uno script inline direttamente a un modello
+
+Per aggiungere uno script inline direttamente a un modello in Creazione di siti Web, attenersi alla seguente procedura.
+
+1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
+1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Script inline**.
+1. Nel riquadro delle proprietà sulla destra, sotto **Script inline**, inserire lo script lato client. Quindi configurare altre opzioni come richiesto.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Selezionare **Pubblica**
+
+### <a name="add-an-external-script-directly-to-a-template"></a>Aggiungere uno script esterno direttamente a un modello
+
+Per aggiungere uno script esterno direttamente a un modello in Creazione di siti Web, attenersi alla seguente procedura.
+
+1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
+1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Script esterno**.
+1. Nel riquadro delle proprietà sulla destra, sotto **Origine script**, aggiungere un URL esterno o relativo per l'origine dello script esterno. Quindi configurare altre opzioni come richiesto.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Selezionare **Pubblica**
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -73,4 +119,3 @@ Dopo aver creato un frammento per il codice script, può essere riutilizzato in 
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
-

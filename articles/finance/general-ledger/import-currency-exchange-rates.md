@@ -3,7 +3,7 @@ title: Importare tassi di cambio valutari
 description: In questo argomento vengono fornite informazioni sui requisiti per l'importazione di tassi di cambio estero di riferimento pubblicati dai fornitori di tassi di cambio.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6684a1ef041d624d6bfe80337c4db0913f0ca066
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3013142"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138072"
 ---
 # <a name="import-currency-exchange-rates"></a>Importare tassi di cambio valutari
-
-[!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/banner.md)]
 

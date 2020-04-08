@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e81bb3fe95326636c28885d4decad69f841e3db
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 31690d58d32a93d4cba873e951c26856d3f9cc09
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844011"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147321"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrare l'entrata di merci sull'ordine fornitore
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa argomento descrive come registrare l'entrata delle merci direttamente su un ordine fornitore. È inoltre possibile registrare l'entrata prodotti nel magazzino e poi registrarla successivamente sull'ordine fornitore. Quest'attività viene eseguita tipicamente da un addetto acquisti o un coordinatore contabilità fornitori. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. L'esempio comprende i passaggi per creare un ordine fornitore semplice in modo da poter eseguire la procedura come guida attività. Se si seguisse la procedura utilizzando i propri dati, si dovrebbe iniziare con la sottoattività **Registrare l'entrata dei prodotti**.
 

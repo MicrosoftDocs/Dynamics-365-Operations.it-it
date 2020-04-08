@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40a0638662cbace147aeb24bd20d3ae34a0c1670
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 01b797aa97e73cbe112c37a1efcd1e759730bc24
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837668"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149115"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Definire il gruppo di risorse di produzione discreta
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Un gruppo di risorse è un set di risorse operative che in genere corrisponde all'organizzazione fisica delle celle di lavoro, definito dalle righe gialle nello shop floor di produzione. In questa procedura viene illustrato come definire un gruppo di risorse da utilizzare nella produzione discreta. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzare i propri dati.
 

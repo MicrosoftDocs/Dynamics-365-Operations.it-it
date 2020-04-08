@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f719d5990a4331559cab34412bf82f15eca735
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568260"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148356"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definire il processo di conteggio ciclo parziale di ubicazione  
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Quando si utilizzano i piani di conteggio ciclo per creare il lavoro di conteggio, è possibile definire le operazioni di conteggio effettive richiedendo che vengano conteggiati solo i prodotti specifici e le varianti prodotto anziché tutti le scorte disponibili nell'ubicazione. Applicando un filtro per prodotti specifici, il responsabile del magazzino può ridurre i costi generali di revisione, evitare errori di consolidamento e risparmiare tempo. In genere, un responsabile del magazzino esegue le attività di impostazione. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure con dati propri.
 

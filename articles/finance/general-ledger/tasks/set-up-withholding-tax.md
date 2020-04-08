@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 135cca434a1689bf22ee468894dcf8746071e7ca
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185959"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144699"
 ---
 # <a name="set-up-withholding-tax"></a>Impostare i codici di ritenuta d'acconto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come impostare la ritenuta d'acconto. La *ritenuta d'acconto* è un'imposta sui fornitori che non dà origine a transazioni IVA. La ritenuta d'acconto calcolata sui pagamenti fornitore è considerata una passività e può pertanto essere registrata solo nei conti dello stato patrimoniale o nei conti passivi. Questa guida attività dimostra l'impostazione della ritenuta d'acconto.
 

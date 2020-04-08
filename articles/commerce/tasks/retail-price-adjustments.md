@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd6459416ca42530401aa439b1b8511657bd9b36
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 83498fa0a0432cb182106d6d273cb6117ed0b094
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023020"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141248"
 ---
 # <a name="retail-price-adjustments"></a> Rettifiche prezzi di vendita al dettaglio
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In questa procedura vengono descritti i passaggi per creare una rettifica prezzo di commercio. Con una rettifica prezzo si può impostare direttamente il prezzo di vendita di un articolo o modificare il prezzo di vendita di base o il prezzo di vendita dell'accordo commerciale. Questa procedura utilizza la società di dati dimostrativi USRT.
 

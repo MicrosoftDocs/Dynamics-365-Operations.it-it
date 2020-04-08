@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185108"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142171"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definire i mapping di modello ER e selezionare le relative origini dati
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può selezionare origini dati per un modello dati per la creazione di report elettronici. Le origini dati verranno associate ai singoli componenti del modello dati selezionato in fase di progettazione e popolare i dati aziendali nel modello dati in fase di esecuzione. In questo esempio vengono selezionate le origini dati per un modello dati esistente creato per la società di esempio Litware, Inc. Per completare questi passaggi, è necessario aver completato prima i passaggi della procedura "Creare un nuovo modello dati".
 
@@ -78,7 +78,7 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 17. Nella struttura espandere "Transazioni\Giustificativo".
 18. Fare clic su Aggiungi origine dati.
 19. Nel campo Formula immettere 'CONCATENATE(Transactions.Voucher, "-", '.
-    * Digitare [ , “-“, ] alla fine della formula.  
+    * Digitare [ , "-", ] alla fine della formula.  
 20. Nella struttura selezionare "Stringa\TEXT".
 21. Fare clic su Aggiungi funzione.
 22. Nella struttura selezionare "Transazioni\ID record(RecId)".

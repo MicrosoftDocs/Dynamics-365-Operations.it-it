@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182349"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141904"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importare le configurazioni per generare documenti che contengono dati dell'applicazione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo".
 
@@ -45,7 +45,7 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 6. Fare clic su Progettazione.
 7. Nella struttura espandere "For outgoing document".
 8. Nella struttura espandere "For outgoing document\Transactions".
-    * Verificare la struttura del modello dati importato. Si noti che l'elemento radice relativo al documento in uscita è definito per specificare il flusso di dati per ottenere i dati dall'applicazione e viene utilizzato come origine dati per generare il report Intrastat. L'elemento "Transazioni (elenco record)" consente di rappresentare l'elenco delle transazioni Intrastat che devono essere dichiarate. Poiché verranno archiviati i codici di voce doganale, nel flusso di dati è necessario l'identificatore univoco di un unico codice di voce doganale "ID record voce doganale (Int64)".   
+    * Verificare la struttura del modello dati importato. Si noti che l'elemento radice relativo al "documento in uscita" è definito per specificare il flusso di dati per ottenere i dati dall'applicazione e viene utilizzato come origine dati per generare il report Intrastat. L'elemento "Transazioni (elenco record)" consente di rappresentare l'elenco delle transazioni Intrastat che devono essere dichiarate. Poiché verranno archiviati i codici di voce doganale, nel flusso di dati è necessario l'identificatore univoco di un unico codice di voce doganale "ID record voce doganale (Int64)".   
 9. Chiudere la pagina.
 10. Fare clic su Scambia.
 11. Fare clic su Carica da file XML.
@@ -59,7 +59,7 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 16. Fare clic su Progettazione.
 17. Nella struttura espandere "List".
 18. Nella struttura espandere "Transactions= List".
-    * Verificare la struttura del mapping di modello che utilizza il modello dati che viene filtrato in base all'elemento radice relativo al documento in uscita. Si noti che l'origine dati aggiunta "Elenco" consente di accedere ai dati dell'applicazione richiesti, ovvero all'elenco dei record della tabella Intrastat.  
+    * Verificare la struttura del mapping di modello che utilizza il modello dati che viene filtrato in base all'elemento radice relativo al "documento in uscita". Si noti che l'origine dati aggiunta "Elenco" consente di accedere ai dati dell'applicazione richiesti, ovvero all'elenco dei record della tabella Intrastat.  
 19. Chiudere la pagina.
 20. Chiudere la pagina.
 21. Fare clic su Scambia.
@@ -73,6 +73,6 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 27. Nella struttura selezionare "File\Declaration".
 28. Fare clic sulla scheda Mapping.
 29. Nella struttura selezionare "File".
-    * Verificare la struttura del formato utilizzato per generare il report Intrastat. Si noti che è progettata per generare un file XML popolando i dati dal modello dati, basato sull'elemento radice relativo al documento in uscita. Verificare che il nome del file generato sia definito nel modulo di dialogo utente (viene utilizzata l'origine dati "fn").   
+    * Verificare la struttura del formato utilizzato per generare il report Intrastat. Si noti che è progettata per generare un file XML popolando i dati dal modello dati, basato sull'elemento radice relativo al "documento in uscita". Verificare che il nome del file generato sia definito nel modulo di dialogo utente (viene utilizzata l'origine dati "fn").   
 30. Chiudere la pagina.
 

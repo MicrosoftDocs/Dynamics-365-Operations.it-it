@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249229"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142687"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo manuale sono disponibili informazioni su come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici (ER) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER. I valori degli argomenti per la chiamata delle classi possono essere definiti in modo dinamico in fase di esecuzione: ad esempio, in base alle informazioni nel documento di analisi per garantirne la correttezza. In questa guida verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. 
 
@@ -69,7 +69,7 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 4. Digitare 'Nodo principale' nel campo Nome.
     * Nodo principale  
 5. Nel campo Caratteri speciali, selezionare 'Nuova riga - Windows (CR LF)'.
-    * Nel campo "Caratteri speciali" è stata selezionata l'opzione 'Nuova riga - Windows (CR LF)'. In base a questa impostazione, ogni riga del file di analisi viene considerata come record separato.  
+    * Nel campo "Caratteri speciali" è stata selezionata l'opzione "Nuova riga - Windows (CR LF)". In base a questa impostazione, ogni riga del file di analisi viene considerata come record separato.  
 6. Fare clic su OK.
 7. Fare clic su Aggiungi per aprire la finestra di dialogo a discesa.
 8. Nella struttura selezionare 'Testo\Sequenza'.
@@ -142,7 +142,7 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
     * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
 39. Fare clic su Salva.
 40. Chiudere la pagina.
-    * La condizione di convalida è stata configurata per restituire FALSE per qualsiasi codice IBAN non valido chiamando il metodo esistente 'verifyMOD1271_36' della classe di applicazione 'ISO7064'. Si noti che il valore del codice IBAN è definito in modo dinamico in fase di esecuzione come argomento del metodo di chiamata in base al contenuto del file TXT di analisi.   
+    * La condizione di convalida è stata configurata per restituire FALSE per qualsiasi codice IBAN non valido chiamando il metodo esistente "verifyMOD1271_36" della classe di applicazione "ISO7064". Si noti che il valore del codice IBAN è definito in modo dinamico in fase di esecuzione come argomento del metodo di chiamata in base al contenuto del file TXT di analisi.   
 41. Fare clic su Modifica messaggio.
 42. Nel campo Formula immettere 'CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)'.
     * CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)  

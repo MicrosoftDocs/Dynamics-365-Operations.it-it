@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68694e08550083c38feb4389f82d83c535e978c3
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 995d68f6224b6dfbb1928c907ad991b86fc47668
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000227"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140354"
 ---
 # <a name="research-or-resolve-exceptions"></a>Cercare o risolvere eccezioni
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I criteri fattura fornitore vengono eseguiti quando si registra una fattura fornitore tramite la pagina Fattura fornitore e quando si apre la pagina violazioni dei criteri per fatture fornitore. È inoltre possibile configurare il flusso di lavoro delle fatture fornitore affinché i criteri fatture fornitore vengano eseguiti ogni volta che si invia una fattura al flusso di lavoro. 
 

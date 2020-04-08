@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914956"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149629"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Creare una richiesta che usa una RdO
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF e dovete essere collegati come Amministratore per completare tutti i passaggi. Le attività in questa guida sarebbero svolte tipicamente da professionisti dell'approvvigionamento.
 
@@ -68,7 +68,7 @@ L'attività seguente è creare una RdO per ottenere le offerte dai fornitori per
 
 1. Aggiorna la pagina.
 2. Selezionare **Richiesta di offerta**.
-3. Nel campo **Persona giuridica acquirente**, selezionare **USMF**. Dovete selezionare la stessa persona giuridica che è sulla riga di richiesta.  
+3. Nel campo **Persona giuridica acquirente**, selezionare **USMF**. È necessario selezionare la stessa persona giuridica presente sulla riga di richiesta.  
 4. Nell'elenco contrassegnare la riga selezionata. Se aveste più righe nella richiesta di acquisto, selezionare tutte le righe che volete aggiungere al RdO.  
 5. Selezionare **OK**.
 6. Aggiorna la pagina.
@@ -84,7 +84,7 @@ L'attività seguente è creare una RdO per ottenere le offerte dai fornitori per
 16. Selezionare **Inserisci risposta**.
 17. Nel Riquadro azioni fare clic su **Rispondi**.
 18. Selezionare **Copia dati nella risposta**. Ciò copia i dati, quali la quantità e le date, dalla RdO alla risposta.  
-19. Immettere un numero nel campo **Prezzo unitario**. Questo è il prezzo che avete ricevuto dal fornitore. Potreste anche volere immettere ulteriori informazioni dal fornitore.  
+19. Immettere un numero nel campo **Prezzo unitario**. Questo è il prezzo ricevuto dal fornitore. Potreste anche volere immettere ulteriori informazioni dal fornitore.  
 20. Selezionare **Accetta**.
 21. Selezionare **OK**.
 

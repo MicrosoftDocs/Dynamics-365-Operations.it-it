@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550627"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142549"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un modello per la creazione di report elettronici in modo che utilizzi dimensioni finanziarie come origine dati per i report elettronici. Questi passaggi possono essere eseguiti in qualsiasi società.
 
-Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi nella procedura "ER Usare dimensioni finanziarie come origine dati (parte 1: progettare il modello dati".
+Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi nella procedura "ER Usare dimensioni finanziarie come origine dati parte 1: progettare il modello dati".
 
 
 ## <a name="add-required-data-sources-to-model-mapping"></a>Aggiungere le origini dati richieste al mapping del modello
@@ -57,7 +57,7 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 20. Selezionare 'Persona giuridica' nel campo Selezione dimensioni finanziarie.
     * Selezionare Tutte per consentire all'utente di selezionare le dimensioni desiderate per l'istanza corrente nel campo di ricerca.  Selezionare Persona giuridica per consentire all'utente di selezionare le dimensioni per la società nel campo di ricerca.  Selezionare Dimensione per consentire all'utente di selezionare le dimensioni utilizzando un unico set di dimensioni.  
 21. Selezionare Sì nel campo Chiedi conto principale.
-    * Impostare 'Chiedi conto principale' su Sì per consentire agli utenti di selezionare il conto principale come parte dell'elenco delle dimensioni.   Se l'opzione impostata su No, il conto principale non verrà incluso nell'elenco delle dimensioni e l'opzione 'Conto principale obbligatorio' è abilitata. Se 'Conto principale obbligatorio' è impostato su Sì, include il conto principale nell'elenco delle dimensioni indipendentemente dalla selezione dell'utente.  
+    * Impostare "Chiedi conto principale" su Sì per consentire agli utenti di selezionare il conto principale come parte dell'elenco delle dimensioni.   Se l'opzione impostata su No, il conto principale non verrà incluso nell'elenco delle dimensioni e l'opzione "Conto principale obbligatorio" è abilitata. Se "Conto principale obbligatorio" è impostato su Sì, include il conto principale nell'elenco delle dimensioni indipendentemente dalla selezione dell'utente.  
 22. Fare clic su OK.
 23. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 24. Fare clic su Aggiungi radice.

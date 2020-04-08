@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1c922d16b46e26031e5f80886e4e4e8f08bcdaf
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 71353e961c54f4d56b6ecdb1075c8c74edfe220f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916871"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145941"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato mostra come impostare una voce di menu Dispositivo mobile. In questo esempio, la voce di menu è utilizzata per eseguire lavori di tipo ordine fornitore. Il lavoro valido è determinato dalla classe di lavoro associata alla voce di menu. È possibile utilizzare questa guida nella società di dati dimostrativi USMF. In genere, questa procedura viene eseguita da un responsabile del magazzino.
 

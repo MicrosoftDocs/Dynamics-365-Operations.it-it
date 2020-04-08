@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124141"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151299"
 ---
 # <a name="credit-management-setup"></a>Impostazione di Gestione crediti 
 
@@ -40,13 +40,17 @@ Andare **Credito e riscossioni \> Impostazione \> Flussi di lavoro di gestione c
 
 È possibile mettere in attesa un ordine cliente se i termini di pagamento nell'ordine non corrispondono ai termini di pagamento predefiniti per il cliente. A volte, tuttavia, i termini di pagamento differiscono ma sono abbastanza simili, a tal punto che non si intende mettere in attesa l'ordine. È possibile classificare i termini di pagamento di modo che alcuni abbiano la stessa classificazione, mentre per altri la classificazione sia superiore o inferiore.
 
-Se le classificazioni per i termini di pagamento sono attive, gli ordini cliente verranno messi in attesa se i termini di pagamento nell'ordine hanno una classificazione superiore rispetto ai termini di pagamento predefiniti per il cliente.
+Se le classificazioni per i termini di pagamento sono attive e se i termini di pagamento nell'ordine hanno una classificazione superiore rispetto ai termini di pagamento predefiniti per il cliente, l'ordine cliente viene messo in attesa.
+
+Per impostare la classificazione dei termini di pagamento andare a **Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \>Classifica termini di pagamento**  
 
 ### <a name="ranking-settlement-discounts"></a>Classificazione degli sconti di liquidazione
 
 È possibile mettere in attesa un ordine cliente se lo sconto di cassa nell'ordine non corrisponde a quello per il cliente. A volte, tuttavia, gli sconti di cassa differiscono ma sono abbastanza simili, a tal punto che non si intende mettere in attesa l'ordine. È possibile classificare gli sconti di cassa di modo che alcuni abbiano la stessa classificazione, mentre per altri la classificazione sia superiore o inferiore.
 
-Se le classificazioni per gli sconti di liquidazione sono attive, gli ordini cliente verranno messi in attesa se lo sconto di cassa nell'ordine ha una classificazione superiore rispetto allo sconto di cassa predefinito per il cliente.
+Se le classificazioni per gli sconti di liquidazione sono attive e se lo sconto di cassa nell'ordine ha una classificazione superiore rispetto allo sconto di cassa predefinito per il cliente, l'ordine cliente verrà messo in attesa.
+
+Per impostare la classificazione dei termini di pagamento andare a **Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \>Classifica sconti liquidazione**  
 
 ## <a name="reasons"></a>Motivi
 
@@ -56,7 +60,7 @@ Diversi tipi di motivi sono utilizzati in Gestione crediti:
 - I motivi di rilascio vengono assegnati a un ordine quando viene rilasciato dalla sospensione.
 - I motivi di stato indicano perché uno stato dell'account è stato assegnato a un cliente.
 
-È possibile impostare i motivi nella pagina **Motivi gestione crediti** (**Gestione crediti \> Impostazione \> Gestione crediti \> Motivi gestione crediti**).
+È possibile impostare i motivi nella pagina **Motivi gestione crediti** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Motivi gestione crediti**).
 
 1. Nel campo **Tipo di motivo**, selezionare il tipo di motivo: **Sospensione**, **Rilascio** o **Stato**.
 2. Nel campo **Motivo** immettere un nome per il motivo.
@@ -66,7 +70,7 @@ Diversi tipi di motivi sono utilizzati in Gestione crediti:
 
 I gruppi di gestione crediti sono utilizzati per identificare clienti o gruppi di clienti che hanno le stesse proprietà di gestione crediti. Ad esempio, i gruppi di gestione crediti possono essere utilizzati per determinare le regole di blocco ed esclusione di gestione crediti per i clienti.
 
-È possibile creare gruppi di gestione crediti nella pagina **Gruppi di gestione crediti** (**Gestione crediti \> Impostazione > Impostazione gruppi \> Gruppi di gestione crediti**).
+È possibile creare gruppi di gestione crediti nella pagina **Gruppi di gestione crediti** (**Credito e riscossioni \> Impostazione > Impostazione gestione crediti \> Gruppi di gestione crediti**).
 
 1. Selezionare **Nuovo** per creare una riga.
 2. Immettere l'ID per il gruppo. L'ID può avere fino a 10 caratteri.
@@ -78,7 +82,7 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 
 È possibile creare stati di conto per identificare la solvibilità di un conto cliente. È possibile definire uno stato e il relativo effetto sui processi di fatturazione e consegna sospesa. Gli stati di conto possono anche essere utilizzati per determinare le regole di blocco per un cliente.
 
-È possibile creare stati di conto nella pagina **Stati conto** (**Gestione crediti \> Impostazione > Impostazione gruppi \>Stati conto**).
+È possibile creare stati di conto nella pagina **Stati conto** (**Credito e riscossioni \> Impostazione > Impostazione gestione crediti \> Stati conto**).
 
 1. Aggiungere uno stato di conto e inserire una descrizione che rappresenti la solvibilità di un cliente. Ad esempio, utilizzare **Normale** per indicare che la solvibilità di un cliente è buona e che gli ordini aperti sono soggetti a un'elaborazione standard della gestione dei crediti.
 2. Nei campi **Fatturazione**e **Consegna sospesa**, selezionare il tipo di sospensione che dovrebbe verificarsi per i clienti con questo stato di conto. È possibile sospendere tutta l'elaborazione, solo l'elaborazione delle fatture o nessuna elaborazione quando vengono applicate le regole del limite di credito.
@@ -87,7 +91,7 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 
 È possibile impostare gruppi di punteggio per definire i fattori di rischio e i criteri utilizzati per misurarli. Quando le informazioni su un cliente vengono applicate a un gruppo di punteggio, viene calcolato un punteggio per ciascun fattore di rischio e utilizzato per inserire il cliente in un gruppo di rischio. Il gruppo di rischio può essere utilizzato per identificare l'affidabilità creditizia e calcolare limiti di credito automatici.
 
-È possibile creare gruppi di punteggio nella pagina **Gruppi di punteggio** (**Gestione crediti \> Impostazione \> Impostazione rischio \> Gruppi di punteggio**).
+È possibile creare gruppi di punteggio nella pagina **Gruppi di punteggio** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Rischio \> Gruppi di punteggio**).
 
 1. Creare un gruppo di punteggio e assegnargli un nome.
 2. Immettere una descrizione per descrivere ulteriormente il gruppo di punteggio.
@@ -108,11 +112,11 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
     1. Nel campo **Valore**, immettere il valore definito dall'utente che deve essere fornito dalle informazioni sul cliente.
     2. Nel campo **Punteggio**, immettere il punteggio che deve essere assegnato quando il valore fornito è compreso nell'intervallo "da"/"a".
 
-## <a name="risk-assessments"></a>Valutazioni del rischio
+## <a name="risk-classification"></a>Classificazione rischio
 
 È possibile definire le valutazioni del rischio che possono essere assegnate ai clienti, in base al relativo punteggio di rischio. Un punteggio di rischio viene calcolato confrontando le informazioni sui clienti a ciascun gruppo di punteggio. I punteggi vengono sommati e il punteggio totale viene confrontato ai valori nell'impostazione dei gruppi di rischio per identificare il gruppo di rischio a cui appartiene il cliente. Il punteggio del gruppo di rischio viene quindi utilizzato per definire le regole di blocco ed esclusione della gestione dei crediti per il cliente.
 
-È possibile impostare gruppi di rischio nella pagina **Valutazioni del rischio** (**Gestione crediti \> Impostazione \> Impostazione rischio \> Valutazioni del rischio**).
+È possibile impostare gruppi di rischio nella pagina **Valutazioni del rischio** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Rischio \> Classificazione rischio**).
 
 1. Immettere un ID gruppo di rischio.
 2. Immettere una descrizione per descrivere ulteriormente il gruppo di rischio.
@@ -121,7 +125,7 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 
 ## <a name="guaranteeinsurance-types"></a>Tipi di garanzie/assicurazioni
 
-È possibile impostare i tipi di garanzie/assicurazioni nella pagina **Tipi di garanzie/assicurazioni** (**Gestione crediti \> Impostazione \>Impostazione garanzia/assicurazione \> Tipi di garanzie/ assicurazioni**).
+È possibile impostare i tipi di garanzie/assicurazioni nella pagina **Tipi di garanzie/assicurazioni** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Assicurazione e garanzie \> Tipi di garanzie e assicurazioni**).
 
 1. Immettere un tipo di garanzia o assicurazione che identifichi il nome del garante o del broker assicurativo.
 2. Immettere una descrizione per descrivere il garante/broker assicurativo.
@@ -130,14 +134,14 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 
 I tipi di copertura possono essere utilizzati per classificare ulteriormente le polizze assicurative. Non possono essere utilizzati con le garanzie.
 
-È possibile aggiungere tipi di copertura nella pagina **Tipi di copertura** (**Gestione crediti \> Impostazione \> Impostazione garanzia/assicurazione \> Tipi di copertura**).
+È possibile aggiungere tipi di copertura nella pagina **Tipi di copertura** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Assicurazione e garanzie \> Tipi di copertura**).
 
 1. Immettere un tipo di copertura per identificare il tipo di copertura da aggiungere come assicurazione o garanzia.
 2. Immettere una descrizione del tipo di copertura.
 
 ## <a name="automatic-credit-limits"></a>Limiti di credito automatici
 
-È possibile creare criteri per limiti di credito automatici nella pagina **Limiti di credito automatici** (**Gestione crediti \> Impostazione \> Impostazione rischio \> Limiti di credito automatici**).
+È possibile creare criteri per limiti di credito automatici nella pagina **Limiti di credito automatici** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Rischio \> Limiti di credito automatici**).
 
 1. Selezionare un gruppo di rischio a cui assegnare il limite di credito automatico.
 2. Seleziona la valuta per il limite di credito automatico. È possibile creare più limiti di credito automatici in valute diverse per lo stesso gruppo di rischio.

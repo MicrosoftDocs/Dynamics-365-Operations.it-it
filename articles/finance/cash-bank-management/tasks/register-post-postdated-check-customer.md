@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188098"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141743"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrare un assegno postdatato per un cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-È possibile registrare i dettagli di un assegno postdatato ricevuto da un cliente. È inoltre possibile registrare l'assegno postdatato e generare transazioni finanziarie.   Completare le seguenti attività prima di registrare un assegno postdatato ricevuto da un cliente: • Impostare gli assegni postdatati nella pagina Gestione cassa e banche • Impostare un metodo di pagamento per gli assegni postdatati. Il ruolo per questa procedura è tesoriere. Questa procedura utilizza la società dimostrativa USMF.
+È possibile registrare i dettagli di un assegno postdatato ricevuto da un cliente. È inoltre possibile registrare l'assegno postdatato e generare transazioni finanziarie.   Completare le seguenti attività prima di registrare un assegno postdatato ricevuto da un cliente: * Impostare gli assegni postdatati nella pagina Gestione cassa e banche * Impostare un metodo di pagamento per gli assegni postdatati. Il ruolo per questa procedura è tesoriere. Questa procedura utilizza la società dimostrativa USMF.
 
 1. Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.
 2. Fare clic su Nuovo.

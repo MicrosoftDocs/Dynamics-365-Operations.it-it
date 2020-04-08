@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 9bd90767af741760b1fbd3fd5c2b4cbbae95a477
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914932"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146401"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Spedire gli ordini cliente senza immagazzinaggio
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come aggiornare un ordine cliente quando i prodotti vengono spediti al cliente. La guida è applicabile al flusso di evasione non impostato per gestione magazzino (né immagazzinaggio di base né avanzato) e pertanto non richiede la registrazione del prelievo prodotto prima della spedizione. È possibile eseguire questa procedura sui propri dati o nella società di dati dimostrativi USMF. In entrambi i casi, prima di iniziare questa attività, creare un ordine cliente per un prodotto inventariato con una quantità maggiore di 1. Per evitare un errore di registrazione, è necessario verificare che la quantità disponibile del prodotto nel sito e nel magazzino selezionato nell'ordine copra la quantità dell'ordine.
 

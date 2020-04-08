@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3aef2725152d39e49070f33d0c56089200c94353
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0bc65dd80221cedd25890037afcb3d2617f22793
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837808"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149204"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Crea una nuova regola kanban duplicando una regola esistente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura è incentrata sulla creazione di un duplicato di una regola kanban esistente. Questa funzionalità è utile se si desidera creare nuove regole kanban in base alle regole kanban esistenti. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa procedura è destinata all'addetto procedure tecniche o al responsabile flusso del valore che prepara la produzione di un flusso di produzione modificato o una nuova regola di rifornimento.
 

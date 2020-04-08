@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738906"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147390"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creare una richiesta per il consumo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto il processo per creare una richiesta. Vengono visualizzati i diversi modi di individuare i prodotti nel catalogo di approvvigionamento e come aggiungere un prodotto non in catalogo. Prima di iniziare questa procedura, è necessario disporre di criteri di acquisto configurati con Consumo come tipo predefinito di richiesta. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. La procedura può essere eseguita solo da un profilo utente impostato come lavoratore. Questa attività in genere sarà svolta da un dipendente. Il **Dipendente** impiega il ruolo di sicurezza che permetterà di svolgere le attività, o se si utilizza USMF, è possibile aprire la sessione come **Alicia**.
 

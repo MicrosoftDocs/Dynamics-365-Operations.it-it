@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124591"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172833"
 ---
 # <a name="integrated-customer-master"></a>Dati master clienti integrati
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Tipicamente i record cliente sono gestiti in più applicazioni. Ad esempio, l'attività di vendita può usare record cliente commerciali tramite un'applicazione Sales e attività di e-Commerce o vendita al dettaglio possono usare i record cliente tramite un'applicazione di Finance and Operations. Indipendentemente dall'origine dei record cliente, questi vengono integrati in background tra applicazioni e nonostante le differenze dell'infrastruttura. La gestione integrata dei dati cliente consente di gestire scenari complessi e offre una visione completa del cliente nella suite applicativa di Dynamics 365.
+I dati dei clienti possono essere masterizzati in più di un'applicazione Dynamics 365. Ad esempio, un record del cliente può avere origine dall'attività di vendita in Dynamics 365 Sales (un'app basata su modello in Dynamics 365) o un record può avere origine dall'attività di vendita al dettaglio in Dynamics 365 Commerce (un'app Finance and Operations). Indipendentemente da dove provengano i dati dei clienti, questi vengono integrati in background. Dati master clienti integrati ti offre la flessibilità di gestire i dati dei clienti in qualsiasi applicazione Dynamics 365 e offre una visione completa del cliente con la suite di applicazioni Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flusso dei dati dei clienti
 
@@ -59,7 +58,6 @@ Gruppi di clienti             | msdyn_customergroups            | Questo modello
 Metodo di pagamento clienti     | msdyn_customerpaymentmethods    | Questo modello sincronizza le informazioni del metodo di pagamento dei clienti.
 Clienti V3                | conti                        | Questo modello sincronizza le informazioni sui dati master i clienti commerciali e aziendali.
 Clienti V3                | contatti                        | Questo modello sincronizza i dati master per i clienti e gli utenti finali.
-Carta fedeltà                | msdyn_loyaltycards              | Questo modello sincronizza le informazioni della carta fedeltà.
 Affissi nome                | msdyn_nameaffixes               | Questo modello sincronizza i dati di riferimento degli affissi nome per clienti e fornitori.
 Righe giorno di pagamento - CDS V2    | msdyn_paymentdaylines           | Questo modello sincronizza i dati di riferimento delle righe giorni di pagamento per clienti e fornitori.
 Giorni di pagamento - CDS            | msdyn_paymentdays               | Questo modello sincronizza i dati di riferimento dei giorni di pagamento per clienti e fornitori.
@@ -78,8 +76,6 @@ Termini di pagamento            | msdyn_paymentterms              | Questo model
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 
