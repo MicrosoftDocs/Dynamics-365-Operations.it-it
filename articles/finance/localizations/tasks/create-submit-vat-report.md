@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba5e66b8c4b9ee991b2889eecf4dcec174b31ef2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185775"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141556"
 ---
-# <a name="create-and-submit-vat-report"></a><span data-ttu-id="997fd-103">Creare e inviare report IVA</span><span class="sxs-lookup"><span data-stu-id="997fd-103">Create and submit VAT report</span></span>
+# <a name="create-and-submit-vat-report"></a><span data-ttu-id="5a842-103">Creare e inviare report IVA</span><span class="sxs-lookup"><span data-stu-id="5a842-103">Create and submit VAT report</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="997fd-104">In questa procedura viene illustrato come creare e inviare il report IVA all'ufficio tributario tedesco.</span><span class="sxs-lookup"><span data-stu-id="997fd-104">This procedure walks you through creating and submitting the VAT report to German authority.</span></span> <span data-ttu-id="997fd-105">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</span><span class="sxs-lookup"><span data-stu-id="997fd-105">This procedure was created using the demo data company DEMF.</span></span> <span data-ttu-id="997fd-106">Questa funzionalità è disponibile per le persone giuridiche il cui indirizzo principale è in Germania.</span><span class="sxs-lookup"><span data-stu-id="997fd-106">This functionality is available for legal entities whose primary address is in Germany.</span></span>
+<span data-ttu-id="5a842-104">In questa procedura viene illustrato come creare e inviare il report IVA all'ufficio tributario tedesco.</span><span class="sxs-lookup"><span data-stu-id="5a842-104">This procedure walks you through creating and submitting the VAT report to German authority.</span></span> <span data-ttu-id="5a842-105">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</span><span class="sxs-lookup"><span data-stu-id="5a842-105">This procedure was created using the demo data company DEMF.</span></span> <span data-ttu-id="5a842-106">Questa funzionalità è disponibile per le persone giuridiche il cui indirizzo principale è in Germania.</span><span class="sxs-lookup"><span data-stu-id="5a842-106">This functionality is available for legal entities whose primary address is in Germany.</span></span>
 
-1. <span data-ttu-id="997fd-107">Passare a Imposta > Dichiarazioni > IVA > Report IVA per periodo liquidazione.</span><span class="sxs-lookup"><span data-stu-id="997fd-107">Go to Tax > Declarations > Sales tax > Report sales tax for settlement period.</span></span>
-2. <span data-ttu-id="997fd-108">Nel campo Periodo di liquidazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="997fd-108">In the Settlement period field, enter or select a value.</span></span>
-3. <span data-ttu-id="997fd-109">Immettere una data nel campo Dal.</span><span class="sxs-lookup"><span data-stu-id="997fd-109">In the From date field, enter a date.</span></span>
-4. <span data-ttu-id="997fd-110">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="997fd-110">Click OK.</span></span>
-5. <span data-ttu-id="997fd-111">Selezionare Sì nel campo Crea documento fiscale elettronico.</span><span class="sxs-lookup"><span data-stu-id="997fd-111">Select Yes in the Create electronic tax document field.</span></span>
-6. <span data-ttu-id="997fd-112">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="997fd-112">Click OK.</span></span>
+1. <span data-ttu-id="5a842-107">Passare a Imposta > Dichiarazioni > IVA > Report IVA per periodo liquidazione.</span><span class="sxs-lookup"><span data-stu-id="5a842-107">Go to Tax > Declarations > Sales tax > Report sales tax for settlement period.</span></span>
+2. <span data-ttu-id="5a842-108">Nel campo Periodo di liquidazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="5a842-108">In the Settlement period field, enter or select a value.</span></span>
+3. <span data-ttu-id="5a842-109">Immettere una data nel campo Dal.</span><span class="sxs-lookup"><span data-stu-id="5a842-109">In the From date field, enter a date.</span></span>
+4. <span data-ttu-id="5a842-110">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="5a842-110">Click OK.</span></span>
+5. <span data-ttu-id="5a842-111">Selezionare Sì nel campo Crea documento fiscale elettronico.</span><span class="sxs-lookup"><span data-stu-id="5a842-111">Select Yes in the Create electronic tax document field.</span></span>
+6. <span data-ttu-id="5a842-112">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="5a842-112">Click OK.</span></span>
 

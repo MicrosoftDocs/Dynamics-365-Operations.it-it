@@ -15,28 +15,28 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba200337d04c0200ad409d0cb2c5ce538318868e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003952"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147922"
 ---
-# <a name="configure-linked-products"></a><span data-ttu-id="09ef7-103">Configurare i prodotti collegati</span><span class="sxs-lookup"><span data-stu-id="09ef7-103">Configure linked products</span></span>
+# <a name="configure-linked-products"></a><span data-ttu-id="63d55-103">Configurare i prodotti collegati</span><span class="sxs-lookup"><span data-stu-id="63d55-103">Configure linked products</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="09ef7-104">In questa procedura vengono descritti i passaggi per configurare i prodotti collegati.</span><span class="sxs-lookup"><span data-stu-id="09ef7-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="09ef7-105">Questa procedura per i dati dimostrativi USRT e presuppone che entrambi i prodotti siano già stata creati e rilasciati.</span><span class="sxs-lookup"><span data-stu-id="09ef7-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
+<span data-ttu-id="63d55-104">In questa procedura vengono descritti i passaggi per configurare i prodotti collegati.</span><span class="sxs-lookup"><span data-stu-id="63d55-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="63d55-105">Questa procedura per i dati dimostrativi USRT e presuppone che entrambi i prodotti siano già stata creati e rilasciati.</span><span class="sxs-lookup"><span data-stu-id="63d55-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
 
-1. <span data-ttu-id="09ef7-106">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="09ef7-106">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="09ef7-107">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="09ef7-107">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="09ef7-108">Nel riquadro azioni fare clic su Retail e Commerce.</span><span class="sxs-lookup"><span data-stu-id="09ef7-108">On the Action Pane, click Retail and Commerce.</span></span>
-4. <span data-ttu-id="09ef7-109">Fare clic su Prodotti collegati.</span><span class="sxs-lookup"><span data-stu-id="09ef7-109">Click Linked products.</span></span>
-5. <span data-ttu-id="09ef7-110">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="09ef7-110">Click Edit.</span></span>
-6. <span data-ttu-id="09ef7-111">Nel campo Numero prodotto collegato fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="09ef7-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="09ef7-112">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="09ef7-112">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="09ef7-113">Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="09ef7-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="09ef7-114">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="09ef7-114">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="09ef7-115">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="09ef7-115">In the Quantity field, enter a number.</span></span>
-11. <span data-ttu-id="09ef7-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="09ef7-116">Click Save.</span></span>
+1. <span data-ttu-id="63d55-106">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="63d55-106">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="63d55-107">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="63d55-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="63d55-108">Nel riquadro azioni fare clic su Retail e Commerce.</span><span class="sxs-lookup"><span data-stu-id="63d55-108">On the Action Pane, click Retail and Commerce.</span></span>
+4. <span data-ttu-id="63d55-109">Fare clic su Prodotti collegati.</span><span class="sxs-lookup"><span data-stu-id="63d55-109">Click Linked products.</span></span>
+5. <span data-ttu-id="63d55-110">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="63d55-110">Click Edit.</span></span>
+6. <span data-ttu-id="63d55-111">Nel campo Numero prodotto collegato fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="63d55-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="63d55-112">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="63d55-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="63d55-113">Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="63d55-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="63d55-114">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="63d55-114">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="63d55-115">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="63d55-115">In the Quantity field, enter a number.</span></span>
+11. <span data-ttu-id="63d55-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="63d55-116">Click Save.</span></span>
 
