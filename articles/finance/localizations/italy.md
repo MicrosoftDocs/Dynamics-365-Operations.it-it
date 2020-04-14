@@ -1,9 +1,9 @@
 ---
 title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 420845dba181a5ca0d048632ae98c5cf18ee6b0f
-ms.sourcegitcommit: 1f119d8bb80a69a363c124ece43d7e6ae94bc5de
+ms.openlocfilehash: aa24c29eba0b6e26cae5bf59d5d1e575f23d0e60
+ms.sourcegitcommit: 2ea5ff784500d5be9203e9a1560eabd4fea46f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2944998"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172295"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -47,5 +47,11 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Miglioramento dell'usabilità dei dati bancari](emea-ita-exil-bank-accounts-setup.md)
 - [Spese varie per chilogrammo in una dichiarazione Intrastat](emea-ita-exil-misc-charges-intrastat.md)
 - [Gestione note avanzate](emea-ita-exil-structured-notes.md)
+- [Lettere di intento - Fatturazione di esportatori abituali](emea-ita-exil-intent-letter.md)
 - [Fattura fiscale per le merci consegnate gratuitamente](emea-ita-exil-goods-for-free.md)
 - [Miglioramento della richiesta informazioni sulle liquidazioni a debito o credito](emea-ita-exil-improved-inquiry-settlement.md)
+- [Liquidazione provvigione su pagamento](emea-ita-exil-commission-settlement.md)
+- [Simulazioni di contabilità generale (Italia)](emea-ita-exil-general-ledger-simulations.md)
+- [Profili registrazione configurabili per banche e tipi di rimessa](emea-ita-exil-bank-remittance.md)
+- [Certificazione univoca](emea-ita-exil-unique-certification.md)
+- [Importazione di protesti effetti attivi](emea-ita-exil-protest-boe.md)

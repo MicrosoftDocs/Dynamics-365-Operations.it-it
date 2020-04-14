@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042875"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143317"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Creare le configurazioni richieste per importare dati da un file esterno
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare configurazioni per la creazione di report elettronici per importare dati nell'applicazione da un file esterno. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività, "ER Creare un provider di configurazione e contrassegnarlo come attivo". Tali passaggi possono essere completati mediante il set di dati USMF. È inoltre necessario scaricare e salvare i seguenti file in locale utilizzando i collegamenti dall'argomento Panoramica sui report elettronici (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
@@ -36,7 +36,7 @@ Il seguente scenario illustra le capacità dell'importazione di dati ER. Sono in
 ## <a name="add-a-new-er-model-configuration"></a>Aggiungere una nuova configurazione del modello ER
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
 
-    Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".   
+    Verificare che il provider di configurazione per la società di esempio "Litware, Inc." sia disponibile e contrassegnato come attivo. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".   
 
 2. Fare clic su Configurazioni report.
 
@@ -84,12 +84,12 @@ I passaggi in questa sottoattività indicano come una nuova configurazione di fo
 3. Fare clic su Espandi/Comprimi.
 4. Fare clic su Espandi/Comprimi.
 
-    Il formato progettato rappresenta la struttura prevista del file esterno. Questo file deve essere in formato XML e disporre dell'elemento radice della liquidazione. Ogni transazione fornitore è rappresentata dall'elemento transazione definito in base alla molteplicità zero a molti. Ciò significa che il file in entrata può contenere da zero a più transazioni. Gli elementi nidificati dell'elemento 'transazione' rappresentano gli attributi di una singola transazione. Tenere presente che tutti gli attributi, ad eccezione del paese, sono contrassegnati come obbligatori, ovvero è necessaria la loro presenza nel file di importazione.   
+    Il formato progettato rappresenta la struttura prevista del file esterno. Questo file deve essere in formato XML e disporre dell'elemento radice della liquidazione. Ogni transazione fornitore è rappresentata dall'elemento transazione definito in base alla molteplicità zero a molti. Ciò significa che il file in entrata può contenere da zero a più transazioni. Gli elementi nidificati dell'elemento "transazione" rappresentano gli attributi di una singola transazione. Tenere presente che tutti gli attributi, ad eccezione del paese, sono contrassegnati come obbligatori, ovvero è necessaria la loro presenza nel file di importazione.   
 
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Esaminare le impostazioni del mapping di formato al modello dati
 1. Fare clic su Mapping formato a modello.
 
-    Il mapping ‘For importing vendors' transactions’ contiene le regole di trasferimento di dati dal file XML in entrata nella parte selezionata del modello dati personalizzati, definita selezionando la definizione 1099-MISC.  
+    Il mapping "Formato per importazione transazioni fornitori" contiene le regole di trasferimento di dati dal file XML in entrata nella parte selezionata del modello dati personalizzati, definita selezionando la definizione 1099-MISC.  
 
 2. Fare clic su Progettazione.
 3. Attivare 'Mostra dettagli'.
@@ -104,10 +104,10 @@ I passaggi in questa sottoattività indicano come una nuova configurazione di fo
 9. Nella struttura, espandere 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record\paese: Elemento XML 0..1 (country): Record'.
 10. Nella struttura, selezionare 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record\*fornitore: Elemento XML 1..1 (fornitore): Record'.
 
-    Si noti che la presentazione di elementi di formato obbligatori e facoltativi è diversa nel componente predefinito origine dati 'formato'.  
+    Si noti che la presentazione di elementi di formato obbligatori e facoltativi è diversa nel componente predefinito origine dati "formato".  
 11. Nella struttura, espandere 'Transazioni: Elenco di record= format.settlement.'$enumerated''.
 
-    Tenere presente che gli elementi del formato che definisce la struttura del file importato sono associati agli elementi del modello dati personalizzati. In base a queste associazioni, il contenuto del file XML importato verrà archiviato in fase di esecuzione nel modello dati esistente. Si consiglia di prestare attenzione all'associazione dell'elemento paese. Per qualsiasi elemento di transazione nel file in entrata che non ha tale elemento, il codice paese predefinito 'USA' verrà inserito nel modello dati.  
+    Tenere presente che gli elementi del formato che definisce la struttura del file importato sono associati agli elementi del modello dati personalizzati. In base a queste associazioni, il contenuto del file XML importato verrà archiviato in fase di esecuzione nel modello dati esistente. Si consiglia di prestare attenzione all'associazione dell'elemento paese. Per qualsiasi elemento di transazione nel file in entrata che non ha tale elemento, il codice paese predefinito "USA" verrà inserito nel modello dati.  
 
 12. Fare clic sulla scheda Convalide.
 
@@ -148,7 +148,7 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 8. Fare clic su Modifica.
 9. Fare clic su Modifica formula.
 
-    Quando almeno una convalida ha esito negativo per una singola transazione importata, la transazione verrà contrassegnata come errata dall'attributo di origine dati ‘$failed’.  
+    Quando almeno una convalida ha esito negativo per una singola transazione importata, la transazione verrà contrassegnata come errata dall'attributo di origine dati "$failed".  
 
 10. Chiudere la pagina.
 11. Scegliere Annulla.
@@ -237,7 +237,7 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 19. Chiudere la pagina.
 20. Fare clic su Modifica.
 
-    Se è stato installato l'hotfix "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), eseguire il passaggio successivo "Attivare il flag 'Impostazione predefinita per mapping di modello'" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
+    Se è stato installato l'hotfix "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), eseguire il passaggio successivo "Attivare il flag Impostazione predefinita per mapping di modello" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
 
 21. Selezionare Sì nel campo Impostazione predefinita per mapping di modello.
 22. Nella struttura selezionare '1099 Modello pagamenti'.

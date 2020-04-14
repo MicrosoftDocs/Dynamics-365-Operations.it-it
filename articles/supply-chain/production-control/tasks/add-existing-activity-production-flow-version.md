@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 315a82ce3502164fcf7813e866fb3dc1806d03d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c01d988469ead4ab09d69b1cb6e2f9b417080c69
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843963"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149414"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Aggiungere un'attività esistente a una versione del flusso di produzione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Durante la creazione di nuove versioni dei flussi di produzione, è possibile scegliere di aggiungere attività create per le versioni precedenti, nella nuova versione. In questa procedura viene illustrato come viene creata una nuova versione di un flusso di produzione esistente, senza copiare le attività. Nel passaggio successivo, un'attività esistente viene aggiunta alla nuova versione. 
 

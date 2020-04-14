@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844179"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149506"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Impostare criteri per le gerarchie di categorie di approvvigionamento
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Utilizzare questa procedura per impostare le regole per ordinare prodotti in una categoria. Le regole vengono definite per criteri di acquisto specifici. La regola di accesso alle categorie determina le categorie di approvvigionamento a cui i dipendenti hanno accesso quando creano una richiesta. Quando viene creata una richiesta, i criteri di acquisto e la regola di accesso alle categorie da applicare vengono determinati dalla persona giuridica e dall'unità operativa a cui il dipendente appartiene. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. In genere questa attività sarà svolta da un responsabile acquisti.
 

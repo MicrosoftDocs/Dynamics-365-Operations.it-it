@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769880"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142203"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti illustrano come un utente di Regulatory Configuration Service (RCS) con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati in Finance and Operations. Per accedere ai metadati dell'applicazione online si utilizza l'applicazione connessa RCS. Il mapping di modello ER di esempio verrà configurato per accedere alle transazioni del commercio estero. Per completare questi passaggi, in RCS è necessario dapprima completare i passaggi nell'argomento [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). Se i passaggi nell'argomento [Accedere ai metadati dell'applicazione utilizzando una configurazione ER](access-application-metadata-er-configuration.md) non sono stati completati, accedere alla [pagina degli esempi di creazione di report elettronici](https://go.microsoft.com/fwlink/?linkid=862266) per scaricare e salvare le seguenti configurazioni ER: Metadati del commercio estero.xml; Modello del commercio estero.xml; Mapping del commercio estero.xml. Completare quindi i passaggi della procedura.
 
@@ -54,7 +54,7 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 2. Chiudere la pagina. 
 3. Andare a **Tutte le aree di lavoro** > **Creazione di report elettronici**. 
 4. Fare clic su **Applicazioni connesse**. 
-5. Assicurarsi che l'applicazione configurata sia basata su Azura e accessibile all'utente RCS corrente. È inoltre necessario che l'utente RCS corrente abbia accesso all'applicazione selezionata, sia stato registrato come utente di questa applicazione e disponga di un ruolo con privilegi di accesso ai metadati dell'applicazione. 
+5. Assicurarsi che l'applicazione configurata sia basata su Azure e accessibile all'utente RCS corrente. È inoltre necessario che l'utente RCS corrente abbia accesso all'applicazione selezionata, sia stato registrato come utente di questa applicazione e disponga di un ruolo con privilegi di accesso ai metadati dell'applicazione. 
 6. Fare clic su **Nuovo**. 
 7. Nel campo **Nome** digitare "MiaAppConnessa". 
 8. Nel campo **Applicazione**, immettere "https:// miasocietà.operations.dynamics.com". 

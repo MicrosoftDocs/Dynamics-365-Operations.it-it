@@ -3,7 +3,7 @@ title: Impostazione dei parametri di Gestione crediti
 description: Questo argomento descrive le opzioni che è possibile utilizzare per configurare Gestione crediti e soddisfare i requisiti della propria azienda.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124187"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154530"
 ---
 # <a name="credit-management-parameters-setup"></a>Impostazione dei parametri di Gestione crediti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le opzioni che è possibile utilizzare per configurare Gestione crediti e soddisfare i requisiti della propria azienda. Per iniziare a utilizzare le funzionalità Gestione crediti, impostare i parametri nella pagina **Parametri di Gestione crediti** (**Gestione crediti \> Impostazione \> Parametri di Gestione crediti**).
+Questo argomento descrive le opzioni che è possibile utilizzare per configurare Gestione crediti e soddisfare i requisiti della propria azienda. Per iniziare a utilizzare le funzionalità Gestione crediti, impostare i parametri nella pagina **Parametri credito e riscossioni** (**Credito e riscossioni \> Impostazione \> Parametri credito e riscossioni**).
 
 ## <a name="credit-parameters"></a>Parametri per crediti
 
-Sono disponibili quattro schede dettaglio in cui è possibile modificare i parametri di Gestione crediti: **Sospensioni credito**, **Checkpoint gestione crediti**, **Statistiche gestione crediti** e **Limiti di credito**. Le seguenti sezioni descrivono le impostazioni disponibili in ogni scheda dettaglio.
+Sono disponibili quattro schede dettaglio nella sezione **Credito** in cui è possibile modificare i parametri di Gestione crediti: **Sospensioni credito**, **Checkpoint gestione crediti**, **Statistiche gestione crediti** e **Limiti di credito**. Le seguenti sezioni descrivono le impostazioni disponibili in ogni scheda dettaglio.
 
 ### <a name="credit-holds"></a>Blocchi credito
 

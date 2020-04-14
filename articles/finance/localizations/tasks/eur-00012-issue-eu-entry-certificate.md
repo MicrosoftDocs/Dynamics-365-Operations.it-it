@@ -16,17 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 735331fd399ba9501031084e236b88c0e11bb179
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0091af30b917aab3b8c4572a72a20d8d2d5d52e2
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183706"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144385"
 ---
 # <a name="eur-00012-issue-an-eu-entry-certificate"></a>EUR-00012 - Emettere un certificato di entrata UE
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
+[!include [banner](../../includes/banner.md)]
 Questa procedura consente di abilitare un certificato di entrata UE, configurando un conto cliente per utilizzare i certificati di entrata e rilasciare un certificato. Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.
 
 

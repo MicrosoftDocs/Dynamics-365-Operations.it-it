@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092248"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138361"
 ---
 # <a name="provision-human-resources"></a>Provisioning di Human Resources
 
@@ -56,7 +56,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
 2. Indicare se si tratta di un'istanza sandbox o di produzione di Human Resources. Le funzionalità in anteprima anticipata possono essere disponibili nelle istanze sandbox per consentire feedback e test.
    
     > [!NOTE]
-    > Il tipo di istanza Talent non può essere modificato una volta impostato. Verificare che sia selezionato il tipo di istanza corretto prima di continuare.</br></br>
+    > Il tipo di istanza Human Resources non può essere modificato una volta impostato. Verificare che sia selezionato il tipo di istanza corretto prima di continuare.</br></br>
     > Il tipo di istanza di Human Resources è distinto dal tipo di istanza dell'ambiente Microsoft Power Apps, impostato nell'interfaccia di amministrazione di Power Apps.
     
 3. Selezionare **Includi dati dimostrativi** se si desidera che l'ambiente includa lo stesso set di dati dimostrativi utilizzato nell'esperienza dei test drive di Human Resources. Questa opzione è utile negli ambienti di formazione o dimostrativi a lungo termine e non deve mai essere utilizzata per gli ambienti di produzione.  Tenere presente che è necessario scegliere questa opzione per la distribuzione di apertura. Non è possibile aggiornare una distribuzione esistente in seguito.
@@ -74,7 +74,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
     > [!NOTE]
     > Se non sono ancora stati completati i requisiti finali, è possibile distribuire un'istanza di prova di Human Resources nel progetto. È quindi possibile utilizzare l'istanza per testare la soluzione finché non si esegue la conferma. Se si utilizza il nuovo ambiente per i test, è necessario ripetere questa procedura per creare un ambiente di produzione.
 
-    > Poiché solo due ambienti LCS sono consentiti con la sottoscrizione Human Resources, si potrebbe prendere in considerazione l'utilizzo di un [ambiente di valutazione Human Resources](https://dynamics.microsoft.com/talent/overview/) gratuito di 60 giorni. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Tali ambienti non sono destinati all'utilizzo come ambienti di produzione. Si noti che quando un ambiente di prova scade dopo 60 giorni, tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
+    > Considerare la possibilità di un periodo di 60 giorni gratuito per un [ambiente di prova di Human Resources](https://dynamics.microsoft.com/talent/overview/). Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Tali ambienti non sono destinati all'utilizzo come ambienti di produzione. Si noti che quando un ambiente di prova scade dopo 60 giorni, tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 ## <a name="select-a-power-apps-environment"></a>Selezionare un ambiente Power Apps
 
@@ -97,7 +97,10 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente Power App
     - **Ambienti di valutazione** - Questi ambienti vengono creati con una data di scadenza e scadono dopo tale data, comportando la rimozione automatica dell'ambiente e di tutte le istanze di Human Resources in esso contenute.
    
     - **Regioni non supportate** - Attualmente Human Resources è supportato solo nelle regioni seguenti: Stati Uniti, Europa, Regno Unito, Australia, Canada e Asia.
-  
+
+    > [!NOTE]
+    > L'ambiente Human Resources viene fornito nella stessa regione in cui viene eseguito il provisioning dell'ambiente Power Apps. La migrazione di un ambiente Human Resources in un'altra regione non è supportata.
+
 6. Dopo aver determinato l'ambiente corretto da utilizzare, è possibile continuare il processo di approvvigionamento. 
  
 ## <a name="grant-access-to-the-environment"></a>Concedere l'accesso all'ambiente

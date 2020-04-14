@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184763"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143101"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generare report in formato di Office con immagini incorporate
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore di report elettronici può progettare configurazioni ER per generare documenti elettronici in formato MS Office (Excel e Word) contenenti immagini incorporate.
 
-In questo esempio verranno create configurazioni ER per la società di esempio Litware, Inc.  Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di MS Office con immagini incluse (Parte 2: Esaminare le configurazioni)". Queste operazioni possono essere eseguite nella società "USMF".
+In questo esempio verranno create configurazioni ER per la società di esempio "Litware, Inc.".  Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di MS Office con immagini incluse (Parte 2: Esaminare le configurazioni)". Queste operazioni possono essere eseguite nella società "USMF".
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Eseguire il formato con il mapping di modello iniziale

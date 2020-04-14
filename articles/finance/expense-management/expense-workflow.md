@@ -1,5 +1,5 @@
 ---
-title: Flusso di lavoro delle spese
+title: Flusso di lavoro di Gestione spese
 description: Questo argomento descrive come è possibile utilizzare il sistema del flusso di lavoro in Microsoft Dynamics 365 Finance per impostare un processo di verifica delle note spese in Gestione spese.
 author: ShylaThompson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c52915860709e38013ec06204c52bb06de417eb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187592"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153974"
 ---
-# <a name="expense-workflow"></a>Flusso di lavoro delle spese
+# <a name="expense-management-workflow"></a>Flusso di lavoro di Gestione spese
 
 [!include [banner](../includes/banner.md)]
 

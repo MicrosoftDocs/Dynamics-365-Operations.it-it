@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae0aa90cfd673704bcd8e19f795499283ff01d44
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbd58fb6b03f3c6eb5e54f811d98ad636e65a94
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560957"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146378"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associare un indice carburante a un vettore come spesa accessoria
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa guida illustra creare un'assegnazione di spese accessorie, di spese accessorie per il vettore spedizione e di spese accessorie principali per il supplemento carburante e come associare un indice carburante a un vettore. Prima di eseguire questa guida. è necessario aver impostato un indice carburante vettore. A tale scopo, è possibile utilizzare la guida "Impostare un indice carburante vettore". Queste attività di impostazione in genere vengono effettuate da un responsabile della logistica. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

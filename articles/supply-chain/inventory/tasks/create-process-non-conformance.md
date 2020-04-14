@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 1d012af1924e9eedee41f46de6c253d009cb52d2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916647"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145711"
 ---
 # <a name="create-and-process-a-conformance"></a>Creare ed elaborare una conformità
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente. È possibile eseguire questa registrazione nella società dimostrativa USMF e utilizzare i valori suggeriti. In genere, questa procedura viene eseguita da un addetto al controllo qualità.  Come prerequisito, completare le istruzioni in [Verificare la qualità delle merci](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Per elaborare l'approvazione di una non conformità, l'utente che esegue la registrazione attività deve avere un valore "Nome" assegnato alla pagina Utenti. Per utilizzare le note del documento, l'utente deve inoltre avere Gestione documenti attivata nelle opzioni utente.
+In questo argomento viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente. È possibile eseguire questa registrazione nella società dimostrativa USMF e utilizzare i valori suggeriti. In genere, questa procedura viene eseguita da un addetto al controllo qualità.  Come prerequisito, completare le istruzioni in [Verificare la qualità delle merci](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Per elaborare l'approvazione di una non conformità, l'utente che esegue la registrazione attività deve avere un valore "Nome" assegnato nella pagina Utenti. Per utilizzare le note del documento, l'utente deve inoltre avere Gestione documenti attivata nelle opzioni utente.
 
 
 ## <a name="select-a-quality-order"></a>Selezionare un ordine di controllo qualità.

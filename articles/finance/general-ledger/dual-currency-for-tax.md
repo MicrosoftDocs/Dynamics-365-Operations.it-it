@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124095"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161594"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Supporto a doppia valuta per l'IVA
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ La funzione di doppia valuta per Dynamics 365 Finance è stata introdotta nella 
 
 Nelle versioni precedenti, le transazioni venivano convertite nella valuta di dichiarazione nella seguente sequenza: 
 
-Il totale della transazione è stato calcolato nella valuta della transazione > L'importo della transazione è stato convertito nella valuta contabile > L'importo della valuta contabile è stato convertito nella valuta di dichiarazione
+- Il totale della transazione è stato calcolato nella valuta della transazione > L'importo della transazione è stato convertito nella valuta contabile > L'importo della valuta contabile è stato convertito nella valuta di dichiarazione
 
 Dopo aver abilitato la funzione di doppia valuta, le transazioni sono state convertite nella valuta di dichiarazione nella seguente sequenza:
 
@@ -48,8 +48,6 @@ Come conseguenza del supporto per la doppia valuta, sono disponibili due nuove f
 - Saldo automatico della liquidazione imposte nella valuta di dichiarazione (rilascio nella versione 10.0.11)
 
 Il supporto per doppia valuta per l'IVA garantisce che le imposte vengano calcolate accuratamente nella valuta fiscale e che il saldo della liquidazione IVA sia calcolato con precisione sia nella valuta contabile che nella valuta di dichiarazione. 
-
-Le nuove funzionalità sono attualmente abilitate per i clienti dell'anteprima privata. Per abilitare le funzionalità, inoltrare a Microsoft una richiesta di assistenza tramite i canali corrispondenti.
 
 ## <a name="sales-tax-conversion"></a>Conversione IVA
 

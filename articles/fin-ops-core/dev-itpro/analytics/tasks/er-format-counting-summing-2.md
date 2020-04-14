@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550604"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142480"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 2: configurare i calcoli)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che esegua calcoli e somme in base ai dati dell'output di testo già generato. Questi passaggi possono essere eseguiti in qualsiasi società.
 
-Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella procedura  'ER Configurare il formato per eseguire conteggi e somme (parte 1: creare il formato)'.
+Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella procedura "ER Configurare il formato per eseguire conteggi e somme (parte 1: creare il formato)".
 
 Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 
@@ -82,7 +82,7 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 31. Chiudere la pagina.
 32. Fare clic su OK.
 33. Nella struttura selezionare 'Intrastat\Dati'.
-34. Fare clic sul pulsante Modifica per il campo 'Nome chiave dati raccolti'
+34. Fare clic sul pulsante Modifica per il campo "Nome chiave dati raccolti"
 35. Fare clic su Aggiungi origine dati.
     * $BlockName  
 36. Fare clic su Salva.
@@ -92,27 +92,27 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
     * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
 40. Fare clic su Salva.
 41. Chiudere la pagina.
-    * Contare le righe della sequenza. I risultati verranno utilizzati con il nome 'block' separatamente per le diverse direzioni. Il valore 'Import' verrà utilizzato per tutte le transazioni Intrastat di arrivi. Il valore 'Export' verrà utilizzato per tutte le transazioni Intrastat di spedizioni. Considerare questo come un foglio di calcolo di Excel virtuale. Per ciascuna transazione una riga in cui la prima colonna 'block' viene compilata, di conseguenza, con i valori 'Import' ed 'Export'.  
+    * Contare le righe della sequenza. I risultati verranno utilizzati con il nome "block" separatamente per le diverse direzioni. Il valore "Import" verrà utilizzato per tutte le transazioni Intrastat di arrivi. Il valore "Export" verrà utilizzato per tutte le transazioni Intrastat di spedizioni. Considerare questo come un foglio di calcolo di Excel virtuale. Per ciascuna transazione una riga in cui la prima colonna "block" viene compilata, di conseguenza, con i valori "Import" ed "Export".  
 42. Nella struttura espandere 'Intrastat\Dati: Sequenza'.
 43. Nella struttura selezionare 'Intrastat\Dati: Sequenza\Arrivi?'.
-44. Fare clic sul pulsante Modifica per il campo 'Nome chiave dati raccolti'.
-    * Contare le righe della sequenza. I risultati verranno memorizzati utilizzando il nome 'record'.  
+44. Fare clic sul pulsante Modifica per il campo "Nome chiave dati raccolti".
+    * Contare le righe della sequenza. I risultati verranno memorizzati utilizzando il nome "record".  
 45. Nella struttura selezionare '$RecName'.
 46. Fare clic su Aggiungi origine dati.
 47. Fare clic su Salva.
 48. Chiudere la pagina.
-49. Fare clic sul pulsante Modifica per il campo Valore chiave dati raccolti.
+49. Fare clic sul pulsante Modifica per il campo "Valore chiave dati raccolti"
 50. Nel campo Formula, immettere  'Intrastat.CommodityRecord.CommodityCode'.
 51. Fare clic su Salva.
 52. Chiudere la pagina.
-    * Contare le righe della sequenza. I risultati verranno utilizzati con il nome 'record' separatamente per i diversi codici voce doganale. Considerare questo come un foglio di calcolo di Excel virtuale. Per ciascuna transazione una riga in cui la prima colonna 'block' viene compilata, di conseguenza, con i valori 'Import' ed 'Export' e il secondo blocco 'record' è compilato con il valore del codice di voce doganale.  
+    * Contare le righe della sequenza. I risultati verranno utilizzati con il nome "record" separatamente per i diversi codici voce doganale. Considerare questo come un foglio di calcolo di Excel virtuale. Per ciascuna transazione una riga in cui la prima colonna "block" viene compilata, di conseguenza, con i valori "Import" ed "Export" e il secondo blocco "record" è compilato con il valore del codice di voce doganale.  
 53. Nella struttura espandere 'Intrastat\Dati: Sequenza\Spedizioni?'.
-54. Fare clic sul pulsante Modifica per il campo 'Nome chiave dati raccolti'
+54. Fare clic sul pulsante Modifica per il campo "Nome chiave dati raccolti"
 55. Nella struttura selezionare '$RecName'.
 56. Fare clic su Aggiungi origine dati.
 57. Fare clic su Salva.
 58. Chiudere la pagina.
-59. Fare clic sul pulsante Modifica per il campo Valore chiave dati raccolti.
+59. Fare clic sul pulsante Modifica per il campo "Valore chiave dati raccolti".
 60. Nel campo Formula, immettere  'Intrastat.CommodityRecord.CommodityCode'.
 61. Fare clic su Salva.
 62. Chiudere la pagina.
@@ -121,18 +121,18 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 65. Fare clic sulla scheda Formato.
 66. Nella struttura selezionare 'Intrastat\Dati\Spedizioni\Record\Importo fattura EUR'.
 67. Fare clic sulla scheda Mapping.
-68. Fare clic sul pulsante Modifica per il campo 'Nome chiave dati raccolti'.
+68. Fare clic sul pulsante Modifica per il campo "Nome chiave dati raccolti".
 69. Nella struttura selezionare '$InvName'.
 70. Fare clic su Aggiungi origine dati.
 71. Fare clic su Salva.
 72. Chiudere la pagina.
-    * Riepilogare i valori dell'importo fatturato per le righe della sequenza. I risultati verranno utilizzati con il nome 'InvoicedAmountEUR' separatamente per le diverse direzioni e i diversi codici voce doganale Intrastat. Considerare questa come una creazione virtuale nel foglio di calcolo di Excel. Per ciascuna transazione una riga in cui la prima colonna 'block' viene compilata, di conseguenza, con i valori 'Import' ed 'Export'. Il secondo blocco 'record' viene compilato con il valore del codice voce doganale e la terza colonna 'InvoicedAmountEUR' viene compilata con il valore dell'importo della fattura.  
+    * Riepilogare i valori dell'importo fatturato per le righe della sequenza. I risultati verranno utilizzati con il nome "InvoicedAmountEUR" separatamente per le diverse direzioni e i diversi codici voce doganale Intrastat. Considerare questa come una creazione virtuale nel foglio di calcolo di Excel. Per ciascuna transazione una riga in cui la prima colonna "block" viene compilata, di conseguenza, con i valori "Import" ed "Export". Il secondo blocco "record" viene compilato con il valore del codice voce doganale e la terza colonna "InvoicedAmountEUR" viene compilata con il valore dell'importo della fattura.  
 73. Nella struttura espandere 'Intrastat\Dati\Arrivi?'.
 74. Nella struttura espandere 'Intrastat\Dati\Arrivi?\Record =  Intrastat.CommodityRecord'.
 75. Fare clic sulla scheda Formato.
 76. Nella struttura selezionare 'Intrastat\Dati\Arrivi\Record\Importo fattura EUR'.
 77. Fare clic sulla scheda Mapping.
-78. Fare clic sul pulsante Modifica per il campo 'Nome chiave dati raccolti'.
+78. Fare clic sul pulsante Modifica per il campo "Nome chiave dati raccolti".
 79. Nella struttura selezionare '$InvName'.
 80. Fare clic su Aggiungi origine dati.
 81. Fare clic su Salva.

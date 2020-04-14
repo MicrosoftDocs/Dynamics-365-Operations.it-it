@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182234"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142994"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>RE Mappar ei modello dati alle origini dati selezionate
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati selezionate. Il mapping di modello verrà utilizzato in seguito come origine dati in un formato di configurazione da utilizzare per gestire i documenti di pagamento elettronico. In questo esempio si esegue il mapping di modello dati per la società di esempio, Litware, Inc. alle origini dati. Per completare questi passaggi, è necessario aver completato prima i passaggi della procedura "Selezionare le origini dati per il mapping di modello".
 
@@ -36,7 +36,7 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 
 ## <a name="select-created-model-mapping"></a>Selezionare il mapping del modello creato
 1. Nella struttura selezionare "Pagamenti (modello semplificato)".
-    * Verificare che la configurazione del modello "Pagamenti (modello semplificato)" sia stata creata in anticipo. In caso contrario, arrestare ora e tornare al termine della guida attività 'Creare una nuova configurazione con il modello dati del dominio selezionato'.  
+    * Verificare che la configurazione del modello "Pagamenti (modello semplificato)" sia stata creata in anticipo. In caso contrario, arrestare ora e tornare al termine della guida attività "Creare una nuova configurazione con il modello dati del dominio selezionato".  
 2. Fare clic su Progettazione modello.
 3. Fare clic su Mappa modello a origine dati.
 4. Selezionare il record "Mapping bonifico".

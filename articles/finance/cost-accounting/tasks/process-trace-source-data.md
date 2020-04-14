@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187684"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142296"
 ---
 # <a name="process-and-trace-source-data"></a>Elaborare e tenere traccia dei dati di origine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Tutte le elaborazione dei dati vengono eseguite da processi. Per ogni processo e provider di dati, viene creato un giornale di registrazione per documentare che il processo è stato eseguito e che le voci sono state elaborate nel processo corrente. Utilizzare questa procedura per impostare un'origine dati e per tenere traccia di una voce di costo specifica. Questa registrazione utilizza i dati dimostrativi della società USP2. Prima di completare questa attività, verificare di aver eseguito le guide attività "Creare un movimento CoGe di contabilità industriale", "Definire unità di controllo costi" e "Gestire l'origine dati per il movimento CoGe di contabilità industriale".
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58846f896d60610d0e90f8d04fda3101def53511
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250647"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148103"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificare una previsione della domanda manualmente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura illustra come modificare la previsione per un articolo. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. La procedura è destinata al responsabile di pianificazione della produzione. 
 

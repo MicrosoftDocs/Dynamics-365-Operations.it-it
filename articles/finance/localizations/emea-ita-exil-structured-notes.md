@@ -3,7 +3,7 @@ title: Gestione note avanzate
 description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
 manager: AnnBe
-ms.date: 12/18/2019
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 767330d85242012640d7bd4a3c088c132b234fbe
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.openlocfilehash: 90a7c5b76e5f2a9106b82d44714e1399000358ec
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982295"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164781"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -78,6 +78,13 @@ Andare a **Amministrazione organizzazione**\>**Gestione documenti**\>**Tipi di d
 Andare a **Contabilità clienti**\>**Impostazioni**\>**Moduli**\>**Impostazione moduli** per impostare i riferimenti ai tipi di documenti per i documenti correlati. Inoltre, è possibile definire se le note sono applicabili all'intestazione, alle righe o a entrambe le cose di un documento.
 
 ![Impostazione dei moduli](media/emea-ita-exil-notes-setup-forms.jpg)
+
+### <a name="direct-attachment-to-documents"></a>Allegato diretto ai documenti
+Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini di vendita, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini di vendita. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
+1. Passare a **Contabilità clienti** \> **Impostazioni** \> **Moduli** \> **Impostazione moduli**.
+2. Nella scheda dettaglio **Generale**, nella sezione **Note avanzate** abilitare il parametro **Allegato diretto ai documenti**.
+
+  ![Pagina di configurazione dei moduli, evidenziazione del parametro Allegato diretto ai documenti](media/attach-documents.jpg)
 
 ## <a name="advanced-notes-processing"></a>Elaborazione delle note avanzate
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: be06343aba974ff23a7f328d2175f00768a76465
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916831"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149575"
 ---
 # <a name="create-a-vendor-bank-account"></a>Creare un nuovo conto bancario fornitore
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come creare un conto bancario per un fornitore. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 
@@ -55,6 +55,6 @@ Questa procedura mostra come creare un conto bancario per un fornitore. È possi
 22. Chiudere la pagina.
 23. Fare clic su **Modifica**.
 24. Espandere la sezione **Pagamento**.
-25. Nel campo **Conto bancario**, selezionare il conto che avete creato appena.
+25. Nel campo **Conto bancario**, selezionare il conto che avete appena creato.
 26. Fare clic su **Salva**. L'indirizzo può essere ereditato dal gruppo di banche, se è specificato, o potete aggiungerlo qui.  
 

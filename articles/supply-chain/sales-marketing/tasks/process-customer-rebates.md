@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994936"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148586"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti. Utilizza un esempio specifico per spiegare come le diverse condizioni nelle righe dello sconto influiscono sugli importi finali che verranno accreditati al cliente. È necessario utilizzare la società di dati demo USMF e svolgere le seguenti attività prima di iniziare la guida: (1) andare alla pagina dei parametri Contabilità clienti ed espandere la scheda Prezzi, quindi la scheda Dettagli prezzo e controllare che l'opzione Abilita dettagli prezzo sia impostata su Sì. (2) Andate alla pagina Accordi sugli sconti e selezionare l'accordo sugli sconti del cliente: USMF-000001. Se il campo Stato di approvazione flusso di lavoro non è impostato su Approvato, è necessario fare clic su Convalida nel riquadro Azione per approvarlo.
 
@@ -36,7 +36,7 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
     - L'accordo è per un singolo cliente, in questo esempio il cliente US-009.  
     - Gli sconti vengono forniti al cliente quando acquista un prodotto specifico. In questo caso, il prodotto ha il numero di articolo T0020.   
     - Le prestazioni di vendita del cliente, a fronte delle quali viene calcolato lo sconto totale, devono essere accumulate su base settimanale.  
-    - L'impostazione del “Prezzo ricavato da” è Lordo, pertanto non viene applicata la riduzione dello sconto riga all'importo vendite della riga in base al quale viene stimata la richiesta.  
+    - L'impostazione del "Prezzo ricavato da" è Lordo, pertanto non viene applicata la riduzione dello sconto riga all'importo vendite della riga in base al quale viene stimata la richiesta.  
     - Nel campo Tipo di interruzione riga sconto viene visualizzato il metodo per il calcolo degli sconti. In questo caso, l'obiettivo di vendita in base al quale devono essere stimati gli sconti è impostato su Quantità.   
     - Le righe del contratto specificano il tipo di importo dello sconto, il valore effettivo dello sconto e le soglie. In questo esempio, il cliente si qualificherà per uno sconto di 20 EUR per unità venduta, se gli acquisti settimanali del prodotto rientrano in 1 - 50 unità e uno sconto di 40 EUR per unità venduta, se acquista più di 50 unità.  
 2. Chiudere la pagina.
@@ -68,7 +68,7 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
     - La pagina degli sconti funge da workbench in cui è possibile esaminare, approvare ed elaborare richieste di sconto. Ora verranno elaborate le richieste create in seguito alla fatturazione dell'ordine cliente US-009, che è l'oggetto dell'accordo sugli sconti USMF-000001.   
     - La prima riga rappresenta una richiesta di sconto per 800 EUR, basata sulla vendita di 40 unità di prodotto T0020, calcolate a 20 EUR per unità. Questo corrisponde alle condizioni del primo intervallo di quantità nell'accordo sugli sconti.  
     - La seconda richiesta è di 2.400 EUR, a fronte delle vendite di 60 unità di prodotto T0020, calcolate a 40 EUR per unità, in base alla seconda interruzione di quantità dell'accordo.  
-    - Entrambe le richieste sono nello stato “da calcolare”. Ciò significa che sono associate a un accordo che tiene traccia delle prestazioni di vendita del cliente su base periodica e che devono essere ricalcolate per rappresentare il volume di vendita totale nel rispettivo periodo.   
+    - Entrambe le richieste sono nello stato "da calcolare". Ciò significa che sono associate a un accordo che tiene traccia delle prestazioni di vendita del cliente su base periodica e che devono essere ricalcolate per rappresentare il volume di vendita totale nel rispettivo periodo.   
 2. Fare clic su **Cumula**.
 3. Nel campo **Cliente** immettere o selezionare un valore.
 4. Nel campo **Data di inizio** selezionare la data odierna.

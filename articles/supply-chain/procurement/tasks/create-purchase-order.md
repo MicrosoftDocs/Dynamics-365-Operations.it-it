@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54f7a9800bb0fcfb23f0c6c4d16f48bee8c28d
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: c391a29e72b004cf4f7f998de5a74cf5ec1ac520
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867127"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149736"
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come creare un ordine fornitore manualmente. È più normale che gli ordini fornitori vengano creati automaticamente come risultato di una pianificazione generale, della consegna diretta e di altri processi. Gli ordini acquisti sono in genere creati da un addetto agli acquisti. L'esempio riportato in questo campo può essere utilizzato nella società di dati dimostrativi USMF usando i valori che verranno suggeriti nelle note per i vari passaggi.
 

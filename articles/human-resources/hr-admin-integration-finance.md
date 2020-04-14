@@ -3,7 +3,7 @@ title: Configurare l'integrazione con Finance
 description: Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,73 +18,75 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
+ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009515"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3169279"
 ---
 # <a name="configure-integration-with-finance"></a>Configurare l'integrazione con Finance
 
-Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance. Il modello di integrazione di Human Resources con Finance, disponibile con il [servizio di integrazione di dati](https://docs.microsoft.com/powerapps/administrator/data-integrator), abilita il flusso di dati per posizioni lavorative, posizioni e lavoratori. I dati passano da Human Resources a Finance. Il modello non consente il flusso di dati da Finance a Human Resources. 
+Per integrare Dynamics 365 Human Resources con Dynamics 365 Finance, è possibile utilizzare il modello da Human Resources a Finance in [Integratore di dati](https://docs.microsoft.com/powerapps/administrator/data-integrator). Il modello da Human Resources a Finance consente il flusso di dati per lavori, posizioni e lavoratori. Il modello consente ai dati di passare da Human Resources a Finance, ma non consente ai dati di passare da Finance a Human Resources.
 
-![Flusso di integrazione da Human Resources a Finance](./media/TalentFinOpsFlow.png)
+![Flusso di integrazione da Human Resources a Finance](./media/hr-admin-integration-finance-flow.png)
 
-La soluzione di integrazione di Human Resources con Finance fornisce i seguenti tipi di sincronizzazione dei dati. 
+La soluzione da Human Resources a Finance fornisce i seguenti tipi di sincronizzazione dei dati:
 
-- Gestire posizioni lavorative in Human Resources e sincronizzarle da Human Resources a Finance.
-- Gestire posizioni e assegnazioni di posizioni in Human Resources e sincronizzarle da Human Resources a Finance.
-- Gestire impieghi in Human Resources e sincronizzarli da Human Resources a Finance.
-- Gestire lavoratori e indirizzi di lavoratori in Human Resources e sincronizzarli da Human Resources a Finance.
+- Gestire posizioni lavorative in Human Resources e sincronizzarle da Human Resources a Finance
+- Gestire posizioni e assegnazioni di posizioni in Human Resources e sincronizzarle da Human Resources a Finance
+- Gestire impieghi in Human Resources e sincronizzarli da Human Resources a Finance
+- Gestire lavoratori e indirizzi di lavoratori in Human Resources e sincronizzarli da Human Resources a Finance
 
 ## <a name="system-requirements-for-human-resources"></a>Requisiti di sistema per Human Resources
+
 La soluzione di integrazione richiede le seguenti versioni di Human Resources e Finance: 
-- Dynamics 365 Human Resources in Common Data Service.
-- Dynamics 365 Finance versione 7.2 e successive.
+
+- Dynamics 365 Human Resources su Common Data Service
+- Dynamics 365 Finance versione 7.2 e successive
 
 ## <a name="template-and-tasks"></a>Modello e attività
 
-Per accedere al modello, procedere come segue.
+Per accedere al modello da Human Resources a Finance.
+
 1. Aprire l'[interfaccia di amministrazione di Power Apps](https://admin.powerapps.com/). 
-1. Selezionare **Progetti**, quindi nell'angolo superiore destro, selezionare **Nuovo progetto** per selezionare i modelli pubblici. Un nuovo progetto dovrà essere creato per ogni persona giuridica che si desidera integrare in Finance.
 
-Il seguente modello viene utilizzato per sincronizzare i record da Human Resources a Finance.
+2. Selezionare **Progetti**, quindi selezionare **Nuovo progetto** nell'angolo in alto a destra. Creare un nuovo progetto per ogni persona giuridica che si desidera integrare in Finance.
 
-- **Nome del modello in Integrazione dati:** Human Resources (Human Resources Common Data Service a Finance)
+3. Selezionare **Human Resources (da Human Resources Common Data Service a Finance)** per sincronizzare i record da Human Resources a Finance.
 
-  > [!NOTE]
-  > Il nome dell'attività contiene le entità utilizzate in ogni applicazione. L'origine (Human Resources) è a sinistra e la destinazione ( Finance and Operations) è a destra.
+Il modello utilizza le seguenti attività sottostanti per sincronizzare i record da Human Resources a Finance:
 
-Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da Human Resources a Finance.
-- Funzioni lavorative a Funzione lavorativa retribuzione
-- Reparti a Unità operativa
-- Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione
-- Posizioni lavorative a Posizioni lavorative
-- Posizioni lavorative a Dettagli posizione lavorativa
-- Tipi di posizione a Tipo di posizione
-- Posizioni a Posizione di base
-- Posizioni a Dettagli posizione
-- Posizioni a Durate posizione
-- Posizioni a Gerarchie posizioni
-- Lavoratori a Lavoratore
-- Impieghi a Impiego
-- Impieghi a Dettaglio impiego
-- Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni
-- Indirizzi lavoratore a Indirizzo postale lavoratore V2
+- **Funzioni lavorative a Funzione lavorativa retribuzione**
+- **Reparti a Unità operativa**
+- **Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione**
+- **Posizioni lavorative a Posizioni lavorative**
+- **Posizioni lavorative a Dettagli posizione lavorativa**
+- **Tipi di posizione a Tipo di posizione**
+- **Posizioni a Posizione di base**
+- **Posizioni a Dettagli posizione**
+- **Posizioni a Durate posizione**
+- **Posizioni a Gerarchie posizioni**
+- **Lavoratori a Lavoratore**
+- **Impieghi a Impiego**
+- **Impieghi a Dettaglio impiego**
+- **Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni**
+- **Indirizzi lavoratore a Indirizzo postale lavoratore V2**
 
 ## <a name="template-mappings"></a>Mapping del modello
 
+Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene le entità utilizzate in ciascuna applicazione. L'origine (Human Resources) è a sinistra e la destinazione (Finance) è a destra.
+
 ### <a name="job-functions-to-compensation-job-function"></a>Funzioni lavorative a Funzione lavorativa retribuzione
 
-| Entità di Common Data Service (origine)                 | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine) | Entità di Finance (destinazione) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Nome funzione)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Reparti a Unità operativa
 
-| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)           | Entità di Finance (destinazione) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -93,7 +95,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="job-types-to-compensation-job-type"></a>Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione
 
-| Entità di Common Data Service (origine)                   | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)   | Entità di Finance (destinazione) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -101,7 +103,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="jobs-to-jobs"></a>Posizioni lavorative a Posizioni lavorative
 
-| Entità di Common Data Service (origine)                                           | Entità di Finance and Operations (destinazione)           |
+| Entità di Common Data Service (origine)                           | Entità di Finance (destinazione)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -111,7 +113,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="jobs-to-job-detail"></a>Posizioni lavorative a Dettagli posizione lavorativa
 
-| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Tipo di posizione lavorativa (Nome tipo di posizione lavorativa))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -122,7 +124,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="position-types-to-position-type"></a>Tipi di posizione a Tipo di posizione
 
-| Entità di Common Data Service (origine)                       | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)       | Entità di Finance (destinazione) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -130,13 +132,13 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="job-positions-to-base-position"></a>Posizioni a Posizione di base
 
-| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)           | Entità di Finance (destinazione) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Posizioni a Dettagli posizione
 
-| Entità di Common Data Service (origine)                                                      | Entità di Finance and Operations (destinazione)       |
+| Entità di Common Data Service (origine)              | Entità di Finance (destinazione)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Numero posizione)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Posizione lavorativa (Nome))                                        | JOBID (JOBID)                                    |
@@ -150,15 +152,15 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="job-positions-to-position-durations"></a>Posizioni a Durate posizione
 
-| Entità di Common Data Service (origine)                             | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)             | Entità di Finance (destinazione) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione)   | POSITIONID (POSITIONID)                      |
 | Attivazione   calcolata (Attivazione calcolata) | VALIDFROM (VALIDFROM)                        |
 | Pensione   calcolata (Pensione calcolata) | VALIDTO (VALIDTO)                         |
 
-### <a name="job-positions-to-position-hiearchies"></a>Posizioni a Gerarchie posizioni
+### <a name="job-positions-to-position-hierarchies"></a>Posizioni a Gerarchie posizioni
 
-| Entità di Common Data Service (origine)                                                                           | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)        | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -168,7 +170,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 
 ### <a name="workers-to-worker"></a>Lavoratori a Lavoratore
-| Entità di Common Data Service (origine)                           | Entità di Finance and Operations (destinazione)       |
+| Entità di Common Data Service (origine)           | Entità di Finance (destinazione)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -187,7 +189,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="employments-to-employment"></a>Impieghi a Impiego
 
-| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione) |
+| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -197,7 +199,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="employments-to-employment-detail"></a>Impieghi a Dettaglio impiego
 
-| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -215,7 +217,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni
 
-| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Numero posizione)                   | POSITIONID(POSITIONID)                        |
@@ -224,7 +226,7 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Indirizzi lavoratore a Indirizzo postale lavoratore V2
 
-| Entità di Common Data Service (origine)                                             | Entità di Finance and Operations (destinazione)   |
+| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -239,9 +241,10 @@ Le seguenti attività sottostanti sono utilizzate per sincronizzare i record da 
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSDESCRIPTION(ADDRESSDESCRIPTION)        |
 
 ## <a name="integration-considerations"></a>Considerazioni sull'integrazione
-Quando si integrano i dati da Human Resources a Finance, l'integrazione tenterà di abbinare i record in base all'ID. In caso di corrispondenza, i dati in Finance verranno sovrascritti con i valori in Human Resources. Tuttavia, può verificarsi un problema se logicamente si tratta di record differenti e lo stesso ID è stato generato in Human Resources o Finance in base alla rispettiva sequenza numerica.
 
-Le aree in cui ciò può accadere sono Lavoratore, che utilizza Numero dipendente per creare la corrispondenza e Posizioni. Le posizioni lavorative non utilizzano sequenze numeriche. Di conseguenza, se lo stesso ID posizione lavorativa è presente in Human Resources e Finance, le informazioni di Human Resources sovrascriveranno quelle di Dynamics 365 Finance. 
+L'integrazione da Human Resources a Finance tenta di abbinare i record in base all'ID. Se i record corrispondono, l'integrazione dei dati sovrascrive i dati in Finance con i valori in Human Resources. Tuttavia, può verificarsi un problema se logicamente si tratta di record differenti e lo stesso ID è stato generato in Human Resources o Finance in base alla rispettiva sequenza numerica.
+
+Questo problema si può verificare con **Lavoratore**, che utilizza **Numero dipendente** per creare la corrispondenza e **Posizioni**. Le posizioni lavorative non utilizzano sequenze numeriche. Di conseguenza, se lo stesso ID posizione lavorativa è presente in Human Resources e Finance, le informazioni di Human Resources sovrascrivono quelle di Dynamics 365 Finance. 
 
 Per evitare problemi con ID duplicati, è possibile aggiungere un prefisso nella [sequenza numerica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) oppure impostare un numero iniziale nella sequenza numerica che non rientra nell'intervallo dell'altro sistema. 
 
@@ -250,5 +253,3 @@ L'ID ubicazione utilizzato per l'indirizzo del lavoratore non fa parte di una se
 Nelle figura seguenti viene illustrato un esempio di mapping di modello nel servizio di integrazione di dati. 
 
 ![Mapping del modello](./media/IntegrationMapping.png)
-
-

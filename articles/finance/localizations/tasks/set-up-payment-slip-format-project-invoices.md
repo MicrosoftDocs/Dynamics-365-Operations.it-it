@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4671e1df3bc86361736b5882d67e6b160b4c5644
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174923"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143460"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Impostare un formato per la distinta di pagamento per le fatture di progetto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Le aziende generalmente allegano le distinte di pagamento stampate alle fatture per comodità dei clienti e per fornire un riferimento di pagamento per la registrazione e la liquidazione. La distinta di pagamento può essere utilizzata per fatture di progetti o servizi, lettere di sollecito, note d'interesse ed estratti conto, oltre che per fatture di vendita e fatture a testo libero. Per elaborare le distinte di pagamento, impostare innanzitutto il numero di identificazione creditore e i formati degli allegati delle distinte di pagamento.
 

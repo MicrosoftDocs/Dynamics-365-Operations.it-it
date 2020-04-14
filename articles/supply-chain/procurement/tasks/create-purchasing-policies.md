@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856474"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149713"
 ---
 # <a name="create-purchasing-policies"></a>Creare criteri di acquisto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa argomento vi mostra come creare criteri acquisto da allineare con i vostri processi aziendali per acquistare. Prima di creare criteri di acquisto, è necessario impostare i parametri dei criteri di acquisto. È possibile creare, modificare e ritirare criteri di acquisto, ma non eliminarli. In genere questa procedura sarà svolta da un responsabile acquisti. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare.
 
@@ -37,21 +37,21 @@ Questa argomento vi mostra come creare criteri acquisto da allineare con i vostr
 3. Fare clic sulla scheda **Parametri tipo di regola dei criteri**.
 4. Nella struttura, selezionare **Criteri di acquisto > Regola di controllo richiesta di acquisto**.
 - L'ordine di precedenza per la risoluzione dei criteri viene definito a livello dei criteri. Tuttavia, per alcuni tipi di criteri è possibile sostituire l'ordine di precedenza per singoli tipi di regole dei criteri. Per esempio, potreste definire l'ordine di precedenza affinchè i criteri di acquisto siano: centro di costo, reparto, società. Per la regola dei criteri di catalogo l'ordine di precedenza potrebbe essere il seguente: reparto, centro di costo, società. È possibile modificare l'ordine di precedenza per la regola dei criteri di catalogo. Quando un lavoratore crea una richiesta, il catalogo che viene visualizzato varia in base ai criteri associati al reparto del lavoratore, al centro di costo e infine alla società.  
-- Se c'è più di un livello organizzativo elencato, potete usare le frecce su/giù per impostare l'ordine di precedenza per la regola di controllo di richiesta di acquisto.  
+- Se c'è più di un livello organizzativo elencato, si possono usare le frecce su/giù per impostare l'ordine di precedenza per la regola di controllo di richiesta di acquisto.  
 5. Chiudere la pagina.
 
 ## <a name="create-a-new-policy"></a>Crea nuovi criteri
 1. Selezionare **Nuovo**.
 2. Digitare un valore nel campo **Nome**.
 3. Digitare un valore nel campo **Descrizione**
-- I singoli criteri di acquisto possono solo essere applicati a una gerarchia organizzativa. Per esempio, potreste avere una gerarchia chiamata "Geografica" e una "Reparto" e avere criteri di acquisto diversi per ciascuna.  
+- I singoli criteri di acquisto possono solo essere applicati a una gerarchia organizzativa. Per esempio, si può avere una gerarchia chiamata "Geografica" e una "Reparto" e avere criteri di acquisto diversi per ciascuna.  
 - Selezionare un'organizzazione a cui il criterio dovrebbe applicarsi.  
 4. Fare clic sulla freccia per aggiungere l'organizzazione selezionata.
 - Potete ripetere questo processo per aggiungere più organizzazioni.  
 
 ## <a name="add-a-policy-rule"></a>Aggiungere una regola dei criteri
 1. Nell'elenco **Tipo di regola dei criteri**, selezionare **Regola scopo richiesta**.
-- Creerete una regola che fissa lo scopo richiesta predefinito sul tipo Consumo ma che permette che il tipo Rifornimento sia selezionato invece.  
+- Verrà creata una regola che fissa lo scopo richiesta predefinito sul tipo Consumo ma che permette che il tipo Rifornimento sia selezionato.  
 2. Selezionare **Crea regola dei criteri**.
 3. Selezionare **Sì** nel campo **Consenti forzatura manuale**.
 4. Selezionare **Chiudi**.

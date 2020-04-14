@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 450e95d8a4d5a216b84a3c944c6c63b4a8ad10c5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c617517109146b96075d03b6f3549639a99d7d1c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838825"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146079"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Rettificare i livelli di scorte in magazzino (immagazzinaggio base)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura viene descritto dettagliatamente il processo per creare e registrare un giornale di registrazione di rettifica magazzino in modo da rettificare i livelli di scorte dei prodotti in magazzino. È necessario disporre di un nome del giornale di registrazione magazzino configurato per le rettifiche dell'inventario prima di iniziare la procedura. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. Queste attività verranno in genere svolte da un dipendente del magazzino.
 

@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6eea2a905a59842b6f39c5b1e1c78ae6801b28e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174644"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144517"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario. Ad esempio, una società in Germania ordina articoli da un fornitore con un indirizzo commerciale tedesco. Tale fornitore ha un magazzino in Italia e spedisce gli articoli da lì. Questa consegna deve essere dichiarata in Intrastat. Lo stesso comportamento è valido per i resi dei clienti.
 Questa procedura si applica a tutti i paesi europei. L'attività è stata creata utilizzando la società di dati dimostrativi DEMF con un indirizzo principale in Germania. Prima di poter completare questa procedura, è necessario configurare la dichiarazione Intrastat. Questa procedura è destinata ai contabili. Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.

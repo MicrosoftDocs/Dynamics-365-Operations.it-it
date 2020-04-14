@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 016447bca53bbc7b2eb3d7ea0790837fa8035dc6
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b4f83ae0e33520f1777cea31e2f986af1691bfa1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145569"
 ---
 # <a name="define-inventory-counting-processes"></a>Definire i processi di conteggio scorte
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritta la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio. Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino. Queste attività verranno in genere eseguite da un supervisore del magazzino. È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.
 

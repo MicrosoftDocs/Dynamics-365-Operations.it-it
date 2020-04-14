@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178568"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143698"
 ---
 # <a name="manage-email-templates"></a>Gestire modelli di messaggi di posta elettronica
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 È possibile trasferire le informazioni del database dell'organizzazione ai segnalibri in un nuovo documento e utilizzarlo nei modelli per comunicare efficientemente con i candidati. A tale scopo, è necessario creare un modello contenente testo standard e alcuni segnalibri in cui devono essere inseriti i dati. Ad esempio, è possibile inserire l'indirizzo e le informazioni sul contatto per un candidato in un documento di Microsoft Word da utilizzare quando si comunica con il candidato. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

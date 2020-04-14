@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057169"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141455"
 ---
 # <a name="create-and-associate-registers"></a> Creare e associare registri di cassa
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Questa procedura dimostra come creare un registratore di cassa POS. Questa procedura utilizza la società di dati dimostrativi USRT.
 
@@ -41,6 +41,6 @@ Questa procedura dimostra come creare un registratore di cassa POS. Questa proce
 7. Nel campo Profilo visivo immettere o selezionare un valore.
     * I profili visivi sono usati per specificare le immagini utilizzate nello sfondo POS e nella pagina di accesso come pure i temi per il POS.  
 8. Nel campo Numero di registratore di cassa POS EFT, digitare un valore.
-    * Il numero di registratore di cassa POS EFT è usato per indicare all'unità di elaborazione di pagamento quale terminale di pagamento sta inviando le richieste di autorizzazione. Questo valore spesso è chiamato "ID terminale" o “TID”. Il TID può essere trovato generalmente su un autoadesivo sul dispositivo di pagamento.  
+    * Il numero di registratore di cassa POS EFT è usato per indicare all'unità di elaborazione di pagamento quale terminale di pagamento sta inviando le richieste di autorizzazione. Questo valore spesso è chiamato "ID terminale" o "TID". Il TID può essere trovato generalmente su un autoadesivo sul dispositivo di pagamento.  
 9. Fare clic su Salva.
 

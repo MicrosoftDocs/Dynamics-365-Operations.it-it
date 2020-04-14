@@ -3,7 +3,7 @@ title: Identificatori di prodotto
 description: Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095619"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172027"
 ---
-# <a name="product-identifiers"></a>Identificatori di prodotto 
+# <a name="product-identifiers"></a>Identificatori di prodotto
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Quando si utilizzano prodotti nello shop floor o in un magazzino in Microsoft Dy
 
 ## <a name="unique-product-numberproduct-id"></a>ID prodotto/numero di prodotto univoco
 
-In Dynamics 365 Supply Chain Management, l'identificatore principale di un prodotto è il numero prodotto, vale a dire l'ID prodotto univoco. Questo numero può essere generato automaticamente da una sequenza numerica oppure essere associato manualmente a un prodotto. Per le varianti prodotto, i numeri possono essere definiti tramite il modello di nomenclatura di prodotto.
+In Dynamics 365 Supply Chain Management, l'identificatore principale di un prodotto è il numero prodotto, vale a dire l'ID prodotto univoco. Questo numero può essere generato automaticamente da una sequenza numerica oppure associato manualmente a un prodotto. Per le varianti prodotto, i numeri possono essere definiti tramite il modello di nomenclatura di prodotto.
 
 In molti casi, il numero di prodotto non viene originariamente creato in Dynamics 365 Supply Chain Management. È invece associato a un prodotto in un sistema PLM (Product Lifecycle Management) o in un sistema PDM (Product Data Management). In questo caso, si utilizzano le entità di dati per importare i prodotti e le varianti prodotto. Supply Chain Management quindi utilizza i numeri in tutte le operazioni.
 
@@ -53,6 +53,9 @@ Inoltre, una variante prodotto non può essere identificata in modo univoco da u
 Molte pagine hanno ancora il numero di articolo e le dimensioni prodotto degli identificatori principali. I numeri prodotto possono tuttavia essere utilizzati per le ricerche. In **Vendite e marketing** &gt; **Impostazioni** &gt; **Ricerca** &gt; **Parametri ricerca** è possibile modificare la ricerca in modo da utilizzare i numeri prodotto invece dei numeri articolo come principale strategia di ricerca. Se si imposta l'opzione **Abilita ricerca prodotto** su **Sì**, la ricerca non mostrerà solo le rappresentazioni generali prodotto ma anche le varianti prodotto. Per ulteriori informazioni, vedere [Ricerca di prodotti e varianti prodotto durante la registrazione ordine](search-products-product-variants.md).
 
 Inoltre, sarà possibile cercare e applicare un filtro al numero prodotto, al nome prodotto e alla descrizione e agli ID di dimensione prodotto della variante prodotto. Quando si seleziona una variante, verranno selezionati il numero di articolo correlato e tutti gli ID di dimensioni prodotto. Di conseguenza, è possibile individuare e selezionare con maggiore facilità la variante corretta. Questa impostazione è vivamente consigliata se si utilizzano le varianti prodotto e il numero di prodotto univoco come identificatori principali dei prodotti. La sola eccezione potrebbe essere il settore della moda, dove i processi aziendali spesso richiedono la selezione della rappresentazione generale del prodotto prima della selezione di una variante. È necessario valutare attentamente questa opzione prima dell'implementazione del sistema di numerazione.
+
+> [!NOTE]
+> Il numero articolo per un prodotto non può essere modificato una volta che esistono una o più transazioni per quel prodotto.
 
 ## <a name="product-name-and-description"></a>Nome e descrizione del prodotto
 
@@ -123,7 +126,7 @@ Purtroppo, non esiste alcuna funzionalità standard che consente di cercare prod
 | Prodotti V2 | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | A seconda delle impostazioni dell'entità e della sequenza numerica del numero prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. |
 | Varianti prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | A seconda del modello di nomenclatura di prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. È tuttavia possibile importare qualsiasi numero prodotto univoco e tale numero prodotto non deve necessariamente seguire la struttura dei modelli di nomenclatura di prodotto. |
 | Traduzioni prodotto | Nome di prodotto, descrizione prodotto | Nome di prodotto, descrizione prodotto | Questa entità sovrascrive qualsiasi lingua. Da notare che quando il nome o la descrizione della lingua madre di una persona giuridica viene sovrascritto, il nome e la descrizione del prodotto vengono modificati. |
-| Prodotti rilasciati V2 | Numero di articolo, numero di prodotto, nome di ricerca articolo| Numero di articolo, numero di prodotto, nome di ricerca articolo, nome di ricerca prodotto, nome di prodotto | L'uso di questa entità può essere problematico quando le sequenze numeriche sono utilizzate durante la creazione di nuovi prodotti rilasciati. Sia la sequenza numerica **Numero articolo** che la sequenza numerica **Numero prodotto** hanno un impatto. Tuttavia, la sequenza numerica **Numero articolo** è per persona giuridica, mentre la sequenza numerica **Numero prodotto** è globale. Pertanto, non si consiglia di utilizzare la sequenza numerica **Numero articolo** nella distribuzione di nuovi prodotti rilasciati. Ovviamente, quando l'entità è utilizzata per rilasciare un prodotto esistente, il numero di prodotto deve essere indicato nell'entità. Per ulteriori informazioni, vedere la sezione relativa alle sequenze numeriche dell'articolo e del prodotto in questo argomento. |
+| Creazione prodotti rilasciati V2 | Numero di articolo, numero di prodotto, nome di ricerca articolo| Numero di articolo, numero di prodotto, nome di ricerca articolo, nome di ricerca prodotto, nome di prodotto | L'uso di questa entità può essere problematico quando le sequenze numeriche sono utilizzate durante la creazione di nuovi prodotti rilasciati. Sia la sequenza numerica **Numero articolo** che la sequenza numerica **Numero prodotto** hanno un impatto. Tuttavia, la sequenza numerica **Numero articolo** è per persona giuridica, mentre la sequenza numerica **Numero prodotto** è globale. Pertanto, non si consiglia di utilizzare la sequenza numerica **Numero articolo** nella distribuzione di nuovi prodotti rilasciati. Ovviamente, quando l'entità è utilizzata per rilasciare un prodotto esistente, il numero di prodotto deve essere indicato nell'entità. Per ulteriori informazioni, vedere la sezione relativa alle sequenze numeriche dell'articolo e del prodotto in questo argomento. |
 | Varianti prodotti rilasciati | Numero di articolo, dimensioni prodotto, numero di prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto, dimensioni prodotto | Come l'entità **Varianti prodotto**, questa entità può essere utilizzata per creare nuovi prodotti che seguono il modello di nomenclatura dei prodotti o utilizzano i propri numeri di prodotto per la variante. |
 | Descrizione esterna dell'articolo per i clienti | Numero articolo cliente, nome articolo cliente, descrizione cliente, conto cliente | Numero articolo cliente, nome articolo cliente, descrizione cliente, conto cliente | È possibile aggregare un gruppo di clienti (ad esempio un'associazione di acquirenti) in un unico gruppo utilizzando l'entità **Gruppo di clienti per le descrizioni esterne dell'articolo**. |
 | Descrizione esterna dell'articolo per i fornitori | Numero di articolo del fornitore, nome di articolo del fornitore, descrizione fornitore, conto fornitore | Numero di articolo del fornitore, nome di articolo del fornitore, descrizione fornitore, conto fornitore | È possibile aggregare un gruppo di fornitori (ad esempio un'associazione di vendita o un'organizzazione di settore) in un unico gruppo utilizzando l'entità **Gruppi di fornitori per le descrizioni esterne dell'articolo**. |
@@ -144,7 +147,7 @@ Purtroppo, non esiste alcuna funzionalità standard che consente di cercare prod
 > [!NOTE]
 > È necessario utilizzare il numero di articolo come identificatore distinto solo quando si esegue la migrazione di differenti persone giuridiche da origini diverse che hanno sistemi di numerazione differenti. È necessario tentare sempre di utilizzare un identificatore di prodotto univoco tra tutte le persone giuridiche. Di conseguenza, è necessario impostare l'opzione **Manuale** su **Sì** per la sequenza numerica **Numero articolo**. In questo modo, il numero di articolo seguirà il numero di prodotto alla creazione. Se Supply Chain Management non è il sistema principale per i nuovi numeri prodotto, è consigliabile impostare l'opzione **Manuale** su **Sì** per entrambe le sequenze numeriche **Numero articolo** e **Numero prodotto**.
 
-Quando si utilizza l'entità **Prodotti rilasciati V2** per creare prodotti, molteplici impostazioni possono influire sulla modalità di utilizzo delle sequenze numeriche per creare il numero di prodotto e il numero di articolo:
+Quando si utilizza l'entità **Creazione prodotti rilasciati V2** per creare prodotti, molteplici impostazioni possono influire sulla modalità di utilizzo delle sequenze numeriche per creare il numero di prodotto e il numero di articolo:
 
 - Impostazioni della sequenza numerica **Numero prodotto**
 - Impostazioni della sequenza numerica **Numero articolo**
@@ -155,9 +158,9 @@ Nella seguente tabella viene fornita una panoramica dei risultati di importazion
 
 | Sequenza numerica Numero prodotto | Sequenza numerica del numero di articolo | Mappatura di un numero articolo | Mappatura di un numero di prodotto | Risultato dell'importazione dell'entità | Risultato della creazione manuale | Conclusioni |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Manuale = No | Manuale = No | Nessun mapping | Nessun mapping | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | Queste impostazioni possono essere utilizzate se si richiede un numero differente per prodotti e articoli. Tuttavia, non è consigliabile utilizzare numeri diversi per gli articoli e i prodotti. |
-| Manuale = No | Manuale = Sì | Generazione automatica | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero articolo**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Queste impostazioni non sono consigliate. L'importazione e la creazione manuale funzionano in modo diverso. |
-| Manuale = No | Manuale = Sì | Nessun mapping | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Queste impostazioni sono consigliate se i prodotti devono avere una numerazione automatica coerente, indipendentemente dall'utilizzo dell'importazione o della creazione manuale. |
+| Manuale = No | Manuale = No | Nessun mapping | Nessun mapping | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | Con questa configurazione, i numeri dei prodotti seguiranno la sequenza dei numeri dei prodotti e i numeri degli articoli seguiranno la sequenza dei numeri degli articoli. Tuttavia, questa configurazione non funzionerà se è necessario importare più di un articolo (riga). |
+| Manuale = No | Manuale = Sì | Generazione automatica | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero articolo**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo seguono la sequenza numerica del prodotto. Questo è l'approccio consigliato per importare prodotti in blocco con l'entità di dati Creazione prodotti rilasciati V2. |
+| Manuale = No | Manuale = Sì | Nessun mapping | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo usano la sequenza numerica del prodotto. Tuttavia, questa configurazione non funzionerà se è necessario importare più di un articolo (riga). |
 | Manuale = Sì | Non applicabile | Non applicabile | Generazione automatica | Viene visualizzato il seguente messaggio di errore: "Impossibile rilevare la sequenza numerica.". | A seconda della sequenza numerica di **Numero articolo** | Questa impostazione non è supportata per l'importazione. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificatore entità prodotto (Esportare tutti gli identificatori di prodotto)

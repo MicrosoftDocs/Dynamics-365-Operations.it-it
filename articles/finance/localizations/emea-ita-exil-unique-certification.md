@@ -3,7 +3,7 @@ title: Certificazione unica
 description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
 manager: AnnBe
-ms.date: 02/06/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3b13e6196afeb757d6130e431011593129d9a61d
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 1c7511527d4a7082571f67da933a3872a7866b7b
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029523"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138372"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In Italia, gli addetti alla ritenuta d'acconto devono comunicare elettronicamente la certificazione unica all'agenzia delle entrate per certificare le seguenti informazioni:
 

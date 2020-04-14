@@ -19,52 +19,53 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 2442a6869daac22a435c1a7504b93ea4b5c14747
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019854"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173110"
 ---
 # <a name="integrated-vendor-master"></a>Dati master fornitori integrati
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Il termine *fornitore* si riferisce a un'organizzazione fornitrice o a un titolare unico che fa parte del processo della supply chain e che fornisce merci per l'azienda. Sebbene *fornitore* sia un concetto cardine nelle app Finance and Operations, un concetto di fornitore non è presente in altre app Dynamics 365. Invece, alcune aziende sovraccaricano l'entità Conto per archiviare sia le informazioni relative ai clienti che ai fornitori. Altre aziende utilizzano un concetto personalizzato di fornitore. L'integrazione con Common Data Service supporta entrambi gli approcci. Di conseguenza, è possibile abilitare l'uno o l'altro, a seconda del scenario aziendali.
 
-L'integrazione di dati fornitore tra le app Finance and Operations e altre app Dynamics 365 consente la gestione complessa di tutti i dati. Indipendentemente dall'origine dei dati fornitore, questi vengono integrati in background tra applicazioni e nonostante le differenze dell'infrastruttura. 
+Il termine *fornitore* si riferisce a un'organizzazione fornitore o a un unico proprietario che fornisce beni o servizi a un'azienda. Sebbene *fornitore* sia un concetto cardine in Microsoft Dynamics 365 Supply Chain Management, non esiste un concetto di fornitore nelle app basate su modello in Dynamics 365. Tuttavia, è possibile sovraccaricare l'entità **Account/Contatto** per memorizzare le informazioni sul fornitore. Il master fornitore integrato introduce un concetto di fornitore esplicito nelle app basate su modello in Dynamics 365. È possibile utilizzare il nuovo progetto del fornitore o archiviare i dati del fornitore nell'entità **Account/Contatto**. La doppia scrittura supporta entrambi gli approcci.
 
-### <a name="vendor-data-flow"></a>Flusso di dati fornitore
+In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service e nei portali Power Apps. In Supply Chain Management, i dati sono disponibili per flussi di lavoro come richieste di acquisto e ordini di acquisto.
 
-Se si desidera utilizzare altre app Dynamics 365 per la gestione dei fornitori e si desidera isolare le informazioni sui fornitori da quelle sui cliente, è possibile utilizzare la nuova struttura fornitori.
+## <a name="vendor-data-flow"></a>Flusso di dati fornitore
+
+È possibile utilizzare il nuovo progetto del fornitore se non si desidera archiviare i dati del fornitore nell'entità **Account/Contatto** in Common Data Service.
 
 ![Flusso di dati fornitore](media/dual-write-vendor-data-flow.png)
 
-Se si desidera utilizzare altre app Dynamics 365 per la gestione dei fornitori e si desidera continuare a usare l'entità Conto per archiviare le informazioni sui fornitori, è possibile utilizzare la nuova struttura fornitori estesa. In questa struttura, le informazioni estese del fornitore, ad esempio il gruppo di fornitori e il profilo di registrazione fornitore, vengono archiviate nei dettagli del fornitore.
+È possibile utilizzare il progetto del fornitore esteso se si desidera continuare ad archiviare i dati del fornitore nell'entità **Account/Contatto**. Per utilizzare il progetto esteso del fornitore, è necessario configurare i flussi di lavoro del fornitore nel pacchetto della soluzione di doppia scrittura. Per ulteriori informazioni, vedere [Passare da un progetto del fornitore all'altro](vendor-switch.md).
 
 ![Flusso di dati esteso fornitore](media/dual-write-vendor-detail.jpg)
 
-Le informazioni di contatto del fornitore somigliano alle informazioni di contatto del cliente. In background, le informazioni del contatto vengono archiviate e recuperate dalle stesse entità.
+> [!TIP]
+> Se si usano i portali Power Apps per i fornitori self-service, le informazioni sui fornitori possono essere inviate direttamente alle app Finance and Operations.
 
 ## <a name="templates"></a>Modelli
 
 I dati dei fornitori includono tutte le informazioni sul fornitore, ad esempio il gruppo di fornitori, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura. Una raccolta di mappe di entità funziona in combinazione durante l'interazione con i dati dei fornitori, come illustrato nella seguente tabella.
 
-App di Finance and Operations | Altre app Dynamics 365         | Descrizione
-----------------------------|---------------------------------|------------
-Fornitore V2               | Account | Le società che utilizzano l'entità Conto per archiviare le informazioni sui fornitori possono continuare a usarlo nello stesso modo. Possono inoltre sfruttare la funzionalità fornitore esplicita imminente con l'integrazione delle app Finance and Operations.
-Fornitore V2               | Msdyn\_vendors | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Common Data Service a causa dell'integrazione con le app Finance and Operations. 
-Gruppi di fornitori | msdyn_vendorgroups | Questo modello sincronizza le informazioni del gruppo di fornitori.
-Metodo di pagamento fornitore | msdyn_vendorpaymentmethods | Questo modello sincronizza le informazioni del metodo di pagamento dei fornitori.
-Contatti CDS V2             | contatti                        | Il modello [contatti](customer-mapping.md#cds-contacts-v2-to-contacts) sincronizza tutte le informazioni di contatto primarie, secondarie e terziarie, sia per i clienti che per i fornitori.
-Righe scadenzario pagamenti      | msdyn_paymentschedulelines      | Il modello [righe scadenzario pagamenti](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) sincronizza i dati di riferimento per clienti e fornitori.
-Scadenzario pagamenti            | msdyn_paymentschedules          | Il modello [scadenziari pagamenti](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) sincronizza i dati di riferimento degli scadenziari pagamenti per clienti e fornitori.
-Righe giorno di pagamento - CDS V2    | msdyn_paymentdaylines           | Il modello [righe giorno di pagamento](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) sincronizza i dati di riferimento delle righe giorno di pagamento per clienti e fornitori.
-Giorni di pagamento - CDS            | msdyn_paymentdays               | Il modello [giorni di pagamento](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) sincronizza i dati di riferimento dei giorni di pagamento per clienti e fornitori.
-Termini di pagamento            | msdyn_paymentterms              | Il modello [termini di pagamento](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) sincronizza i dati di riferimento dei termini di pagamento per clienti e fornitori.
-Affissi nome                | msdyn_nameaffixes               | Il modello [affissi nome](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) sincronizza i dati di riferimento degli affissi nome per clienti e fornitori.
+App di Finance and Operations | Altre app Dynamics 365     | Descrizione
+----------------------------|-----------------------------|------------
+Fornitore V2                   | Account                     | Le società che utilizzano l'entità Conto per archiviare le informazioni sui fornitori possono continuare a usarlo nello stesso modo. Possono inoltre sfruttare la funzionalità fornitore esplicita imminente con l'integrazione delle app Finance and Operations.
+Fornitore V2                   | Msdyn\_vendors              | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Common Data Service a causa dell'integrazione con le app Finance and Operations. 
+Gruppi di fornitori               | msdyn\_vendorgroups         | Questo modello sincronizza le informazioni del gruppo di fornitori.
+Metodo di pagamento fornitore       | msdyn\_vendorpaymentmethods | Questo modello sincronizza le informazioni del metodo di pagamento dei fornitori.
+Contatti CDS V2             | contatti                    | Il modello [contatti](customer-mapping.md#cds-contacts-v2-to-contacts) sincronizza tutte le informazioni di contatto primarie, secondarie e terziarie, sia per i clienti che per i fornitori.
+Righe scadenzario pagamenti      | msdyn\_paymentschedulelines | Il modello [righe scadenzario pagamenti](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) sincronizza i dati di riferimento per clienti e fornitori.
+Scadenzario pagamenti            | msdyn\_paymentschedules     | Il modello [scadenziari pagamenti](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) sincronizza i dati di riferimento degli scadenziari pagamenti per clienti e fornitori.
+Righe giorno di pagamento - CDS V2    | msdyn\_paymentdaylines      | Il modello [righe giorno di pagamento](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) sincronizza i dati di riferimento delle righe giorno di pagamento per clienti e fornitori.
+Giorni di pagamento - CDS            | msdyn\_paymentdays          | Il modello [giorni di pagamento](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) sincronizza i dati di riferimento dei giorni di pagamento per clienti e fornitori.
+Termini di pagamento            | msdyn\_paymentterms         | Il modello [termini di pagamento](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) sincronizza i dati di riferimento dei termini di pagamento per clienti e fornitori.
+Affissi nome                | msdyn\_nameaffixes          | Il modello [affissi nome](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) sincronizza i dati di riferimento degli affissi nome per clienti e fornitori.
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b35b13dc266fd5bccde437526400832d394b9aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e08177aad2db2438c2d5d4ddd294c1056b88167c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178444"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142733"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proporre acquisizioni di cespiti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa argomento descrive come acquisire un cespite utilizzando la proposta di acquisizione nel giornale di registrazione cespiti. Utilizza il ruolo Ragioniere e i dati dimostrativi della persona giuridica USMF.
 

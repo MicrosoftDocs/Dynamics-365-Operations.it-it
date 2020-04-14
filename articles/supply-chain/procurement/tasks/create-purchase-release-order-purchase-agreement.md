@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: da25486207319879a9acc8376f3f2c78f9b8d939
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916862"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149690"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Creare un ordine fornitore di rilascio da un contratto di acquisto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore. Il contratto di acquisto deve essere applicato quando si crea l'ordine fornitore perché sono termini generali che devono essere copiati nell'intestazione dell'ordine fornitore. In genere questa attività sarà svolta da un addetto acquisti. Come prerequisito per la guida, è necessario disporre di un contratto di acquisto valido con un impegno quantità di prodotto per un fornitore e gli articoli. La stessa procedura può essere utilizzata se si dispone di un contratto di acquisto con altri tipi di impegni. È possibile eseguire questa guida nella società di dati dimostrativi USMF. Se si utilizza USMF, è possibile “Creare un contratto di acquisto” innanzitutto per impostare i presupposti necessari per la guida.
+Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore. Il contratto di acquisto deve essere applicato quando si crea l'ordine fornitore perché sono termini generali che devono essere copiati nell'intestazione dell'ordine fornitore. In genere questa attività sarà svolta da un addetto acquisti. Come prerequisito per la guida, è necessario disporre di un contratto di acquisto valido con un impegno quantità di prodotto per un fornitore e gli articoli. La stessa procedura può essere utilizzata se si dispone di un contratto di acquisto con altri tipi di impegni. È possibile eseguire questa guida nella società di dati dimostrativi USMF. Se si utilizza USMF, è possibile "Creare un contratto di acquisto" innanzitutto per impostare i presupposti necessari per la guida.
 
 
 ## <a name="create-a-purchase-order"></a>Creare un ordine fornitore

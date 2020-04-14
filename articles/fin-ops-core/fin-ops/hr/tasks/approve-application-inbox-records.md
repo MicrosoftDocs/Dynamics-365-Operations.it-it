@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28a82ea8747fcbbceb835291ad5cd3d87091a736
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a087fa63bfdf4c2340f0fe9a8bdbd9195a7b90b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190697"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144066"
 ---
 # <a name="approve-application-inbox-records"></a>Approvare record di Posta in arrivo di domande di lavoro
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura illustra come esaminare le domande di lavoro ricevute tramite le pagine del portale Self Service dipendenti. Oltre a esaminare le domande di lavoro, è possibile approvare la domanda di lavoro in record di Posta in arrivo selezionati. I record di Posta in arrivo rappresentano domande di lavoro inviate alla società per essere valutate. Dopo l'approvazione di un record, verrà creato un record candidato per la persona che ha inviato la domanda. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 

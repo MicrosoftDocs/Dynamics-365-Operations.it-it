@@ -3,7 +3,7 @@ title: Lettere di intento - Fatturazione di esportatori abituali
 description: Questo argomento fornisce informazioni su come impostare lettere di intento e su come utilizzarle quando si emettono fatture.
 author: ilkond
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 41d56ad83163817746584910d2c3f9960f27cd05
-ms.sourcegitcommit: 7826df6c1d3d350c80cb6bca882b26828e8b854a
+ms.openlocfilehash: 921041e142e2e3d5aceb1832c9189fc72a9238ab
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3032546"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138373"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Per ricevere una fornitura di beni o servizi esente da IVA in Italia, le società classificate come esportatori abituali devono inviare una dichiarazione di intento (una lettera numerata e datata) agli uffici tributari italiani e agli agenti doganali delle società.
  

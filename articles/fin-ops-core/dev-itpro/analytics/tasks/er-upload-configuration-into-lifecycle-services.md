@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182211"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143290"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER carica una configurazione in Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) e caricarla in Microsoft Lifecycle Services (LCS).
 
@@ -35,7 +35,7 @@ In questo esempio verrà creata una configurazione che sarà caricata in LCS per
 2. Selezionare "Litware, Inc." e impostarlo come attivo.
 3. Fare clic Configurazioni:
 
-## <a name="create-a-new-data-model-configuration"></a>Crea una nuova configurazione di modello dati
+## <a name="create-a-new-data-model-configuration"></a>Creare una nuova configurazione del modello di dati
 1. Fare clic su Crea configurazione per aprire la finestra di dialogo a discesa .
     * Verrà creata una configurazione che contiene un modello dati di esempio per i documenti elettronici. Questa configurazione del modello dati verrà caricata successivamente in LCS.  
 2. Nel campo Nome digitare "Configurazione del modello di esempio".

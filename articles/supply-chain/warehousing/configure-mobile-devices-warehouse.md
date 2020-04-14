@@ -3,7 +3,7 @@ title: Impostare i dispositivi mobili per il lavoro di magazzino
 description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813043"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161830"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -95,11 +95,11 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 </tr>
 <tr>
 <td>Ricevimento targa</td>
-<td>Ricevere un carico in entrata utilizzando l'ID targa.</td>
+<td>Ricevere un Advance Shipping Notice (ASN) in entrata utilizzando l'ID targa.</td>
 </tr>
 <tr>
 <td>Ricevimento e stoccaggio targa</td>
-<td>Ricevere e stoccare un carico in entrata utilizzando l'ID targa.</td>
+<td>Ricevere e stoccare un Advance Shipping Notice (ASN) in entrata utilizzando l'ID targa.</td>
 </tr>
 <tr>
 <td>Ricezione articoli di carico</td>
@@ -119,7 +119,7 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 <td>Registrare l'entrata della quantità di un articolo registrando il codice NAR e stoccare gli articoli. Lo stesso lavoratore esegue entrambe le azioni.</td>
 </tr>
 <tr>
-<td rowspan="4">Ordine di trasferimento</td>
+<td rowspan="6">Ordine di trasferimento</td>
 <td>Ricevimento articolo ordine di trasferimento</td>
 <td>Registrare l'entrata della quantità di un articolo e creare il lavoro di stoccaggio per un altro lavoratore.
 
@@ -140,8 +140,16 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 <td>Registrare l'entrata della quantità di un articolo e stoccare gli articoli. Lo stesso lavoratore esegue entrambe le azioni.</td>
 </tr>
 <tr>
+<td>Ricevimento targa</td>
+<td>Ricevere un Advance Shipping Notice (ASN) in entrata utilizzando l'ID targa.</td>
+</tr>
+<tr>
+<td>Ricevimento e stoccaggio targa</td>
+<td>Ricevere e stoccare un Advance Shipping Notice (ASN) in entrata utilizzando l'ID targa.</td>
+</tr>
+<tr>
 <td rowspan="4">Produzione</td>
-<td>Dichiarato finito</td>
+<td>Dichiarazione di finito</td>
 <td>Registrare la quantità di un articolo finito che è stato completato per una produzione e creare lavoro di stoccaggio per un altro lavoratore. La quantità può essere parte della quantità o tutta la quantità pianificata per la produzione.</td>
 </tr>
 <tr>

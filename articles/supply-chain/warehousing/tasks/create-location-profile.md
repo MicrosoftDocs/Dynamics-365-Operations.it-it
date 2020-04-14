@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 764d1dc1d7fb54e0fa14a681d6d3cdb1d829aa57
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026787"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146125"
 ---
 # <a name="create-a-location-profile"></a>Creare un profilo di ubicazione
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come creare un profilo di ubicazione in Dynamics 365 Supply Chain Management. Ogni ubicazione del magazzino deve disporre di un profilo che descrive le proprietà dell'ubicazione, ad esempio, se l'ubicazione consente articoli combinati. In questa procedura creeremo il profilo per una ubicazione non richiede il controllo targa. Permetteremo articoli misti e stati inventario combinati e permettiamo il conteggio ciclo. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844491"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147689"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Creare criteri di selezione di prezzo di vendita
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questa procedura viene illustrato come creare un criterio di selezione del prezzo di vendita per i modelli basati sugli attributi. L'esecuzione di questa procedura richiede almeno un modello di prezzo di vendita disponibile. In questo esempio viene utilizzato il modello di prezzo di vendita della soluzione Speaker nella società di dati dimostrativi USMF. In genere, un responsabile di prodotto usa questa procedura.
 
@@ -37,7 +37,7 @@ In questa procedura viene illustrato come creare un criterio di selezione del pr
 4. Nel riquadro azioni, fare clic su Modello.
 5. Fare clic su Criteri modello di prezzo.
 6. Fare clic su Nuovo.
-7. Nel campo Nome digitare ‘Gruppo clienti 10’.
+7. Nel campo Nome digitare "Gruppo clienti 10".
     * Il nome del criterio per il modello del prezzo viene utilizzato per identificare i criteri di selezione sottostanti.  
 8. Nel campo Modello di prezzo immettere o selezionare un valore.
 9. Nel campo Tipo di ordine selezionare Ordine cliente.

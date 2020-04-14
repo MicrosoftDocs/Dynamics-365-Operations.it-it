@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182671"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142251"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Progettare le configurazioni di ER per analizzare i documenti in entrata
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Questa procedura indica come progettare le configurazioni ER per analizzare un documento elettronico in entrata. In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per analizzare documenti elettronici in entrata. Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".
+Questa procedura indica come progettare le configurazioni ER per analizzare un documento elettronico in entrata. In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per analizzare documenti elettronici in entrata. Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo".
 
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. 
 
-Tali passaggi possono essere completati mediante un set di dati. Prima di iniziare, scaricare e salvare i file elencati nell'argomento, "Analizzare i documenti in entrata per aggiornare i dati dell'applicazione" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). I file sono i seguenti: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Tali passaggi possono essere completati mediante un set di dati. Prima di iniziare, scaricare e salvare i file elencati nell'argomento "Analizzare i documenti in entrata per aggiornare i dati dell'applicazione" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). I file sono i seguenti: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
-    * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creazione di report elettronici: creare e attivare un provider di configurazione".  
+    * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".  
 2. Fare clic su Configurazioni report.
     * Il seguente scenario verrà utilizzato per visualizzare le capacità dell'analisi dei documenti elettronici in arrivo in formato XML: l'applicazione ERP richiede i dati dal servizio Web (ad esempio http://efsta.org/ EFSTA fiscal service) e analizza le risposte ricevute per aggiornare i dati dell'applicazione di conseguenza. Per analizzare nel modo più efficiente, viene utilizzato un solo formato ER nonostante la struttura diversa dei documenti in entrata previsti nel formato XML.   
 
@@ -47,7 +47,7 @@ Importare la configurazione del modello ER contenente il modello dati di esempio
 5. Fare clic su Progettazione.
     * Verificare la struttura del modello dati importato. Tenere presente che è definita l'enumerazione enumType per riconoscere i seguenti tipi di risposte del servizio: per ottenere conferma sull'invio della transazione, per ottenere informazioni sull'ultima transazione inviata e per riconoscere i tipi di risposte non supportati.   
 6. Nella struttura espandere 'Response'.
-    * Tenere presente che l'elemento radice "Risposta" è definito per specificare il tipo di dati che deve essere prelevato da una risposta del servizio supporto per aggionare di conseguenza i dati dell'applicazione.   
+    * Tenere presente che l'elemento radice "Risposta" è definito per specificare il tipo di dati che deve essere prelevato da una risposta del servizio supporto per aggiornare di conseguenza i dati dell'applicazione.   
 7. Chiudere la pagina.
     * Verrà importata la configurazione del formato ER che specifica la modalità di analisi dei documenti in entrata per archiviare i dati nel modello dati ER.   
 8. Fare clic su Scambia.
@@ -72,7 +72,7 @@ Importare la configurazione del modello ER contenente il modello dati di esempio
 21. Nella struttura selezionare 'format\Responses: Case(Responses)'.
     * Verificare la struttura dell'origine dati "formato". Tenere presente che tutti e tre i tipi di risposta sono offerti separatamente.   
 22. Nella struttura selezionare 'format\Responses: Case(Responses)\aType'.
-    * L'elemento dell'origine dati 'aType' è stato aggiunto per indicare il tipo di risposta ed è associato all'elemento del modello dati 'Type'.  
+    * L'elemento dell'origine dati "aType" è stato aggiunto per indicare il tipo di risposta ed è associato all'elemento del modello dati "Type".  
 23. Fare clic sulla scheda Convalide.
 24. Nella struttura, selezionare 'Type = format.Responses.aType'.
     * Si noti che la convalida ER è stata configurata per informare l'utente sulla situazione quando la struttura di risposta non corrisponde alla conferma relativa all'invio della transazione o alle informazioni sull'ultima transazione inviata (caso di risposta non supportato).   
@@ -95,7 +95,7 @@ Verrà eseguito il mapping di modello creato a scopo di verifica per vedere come
     * Fare clic su Sfoglia e selezionare il file Response3.xml.  
 7. Fare clic su OK.
     * Esaminare l'output generato. Si noti che il tipo di risposta è stato riconosciuto come non supportato (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). Il messaggio corrispondente viene inserito nel Registro informazioni in base alle impostazioni di convalida ER e la maggior parte del modello dati non è stato compilato.   
-    * Aprire il file Response4.xml in un lettore XML. Si noti che la struttura del file è quasi la stessa del file Response1.xml correttamente analizzato, ad eccezione della sequenza degli elementi annidati dell'elemento radice 'TraC'.   
+    * Aprire il file Response4.xml in un lettore XML. Si noti che la struttura del file è quasi la stessa del file Response1.xml correttamente analizzato, ad eccezione della sequenza degli elementi annidati dell'elemento radice "TraC".   
 8. Fare clic su Esegui.
     * Fare clic su Sfoglia e selezionare il file Response4.xml.  
 9. Fare clic su OK.
@@ -103,7 +103,7 @@ Verrà eseguito il mapping di modello creato a scopo di verifica per vedere come
 10. Chiudere la pagina.
 11. Nella struttura selezionare 'Responses\Transaction completion\TraC'.
 12. Nel campo Analisi ordine di elementi nidificati, selezionare "Qualsiasi".
-    * Selezionare Qualsiasi nel campo 'Analisi ordine di elementi nidificati' per consentire qualsiasi sequenza di elementi nidificati per l'elemento XML radice.  
+    * Selezionare Qualsiasi nel campo "Analisi ordine di elementi nidificati" per consentire qualsiasi sequenza di elementi nidificati per l'elemento XML radice.  
 13. Fare clic su Salva.
 14. Fare clic su Mapping formato a modello.
 15. Fare clic su Esegui.
