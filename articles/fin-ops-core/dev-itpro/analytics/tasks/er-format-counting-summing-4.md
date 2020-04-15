@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550558"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142411"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 4: eseguire il formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che esegua calcoli e somme in base ai dati dell'output di testo già generato. Queste operazioni possono essere eseguite nella società DEMF.
 
-Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella procedura 'ER Configurare il formato per eseguire conteggi e somme (parte 3: usare i calcoli per creare l'output)'.
+Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella "procedura ER Configurare il formato per eseguire conteggi e somme (parte 3: usare i calcoli per creare l'output)".
 
 Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 

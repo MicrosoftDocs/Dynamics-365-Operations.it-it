@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 06d251992c7facca471ac893e5a0fee333e0cbed
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871031"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148655"
 ---
 # <a name="enter-sales-agreements"></a>Immettere contratti di vendita
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come creare un contratto di vendita con cui un cliente si impegna ad acquistare un prodotto per un importo concordato in cambio di sconti speciali. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati.
 
@@ -43,7 +43,7 @@ In questo argomento viene descritto come creare un contratto di vendita con cui 
 
 ## <a name="set-up-product-value-commitment-lines"></a>Impostare le righe di impegno valore prodotto
 1. Selezionare **Aggiungi riga**.
-2. Nel campo **Numero articolo** fare clic sul record desiderato del menu a discesa. Il tipo di impegno scelto per il contratto influisce sul tipo di informazioni che è possibile immettere per le righe del contratto. Ad esempio, per un contratto in base al valore è necessario specificare l'importo netto totale (nella valuta concordata) per il quale il cliente si impegna ad acquistare beni dall'utente. In questo esempio i campi **Unità** e **Quantità** nella riga non sono disponibili perché si sta creando un contratto per cui il cliente compra un valore specifico di un prodotto.   
+2. Nel campo **Numero articolo** fare clic sul record desiderato del menu a discesa. Il tipo di impegno scelto per il contratto influisce sul tipo di informazioni che è possibile immettere per le righe del contratto. Ad esempio, per un contratto in base al valore è necessario specificare l'importo netto totale (nella valuta concordata) per il quale il cliente si impegna ad acquistare beni dall'utente. In questo esempio i campi **Quantità** e **Unità** nella riga non sono disponibili perché si sta creando un contratto per cui il cliente compra un valore specifico di un prodotto.   
 3. Nel campo **Importo netto**, immettere l'importo monetario che il cliente si è impegnato ad acquistare.
 4. Nel campo **Percentuale sconto**, immettere un valore in percentuale da applicare alle righe dell'ordine cliente collegate a questo contratto.
 5. Espandere la sezione **Dettagli riga**.

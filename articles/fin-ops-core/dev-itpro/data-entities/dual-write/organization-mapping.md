@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fbf7cc33d12fb54d2ff02acc46ba2e284b2a2b3f
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019858"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173156"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Gerarchia organizzativa in Common Data Service
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Poiché Dynamics 365 Finance è un sistema finanziario, *organizzazione* è un concetto base e l'impostazione del sistema inizia con la configurazione di una gerarchia organizzativa. I dati finanziari aziendali possono quindi essere tracciati a livello di organizzazione e anche a qualsiasi livello della gerarchia organizzativa.
 
@@ -50,7 +50,7 @@ Le mappe delle entità della gerarchia organizzativa sono disponibili per la sin
 
 Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe di entità viene creata per sincronizzare i prodotti e le informazioni correlate.
 
-Finance and Operations | Altre app Dynamics 365 | Descrizione
+App di Finance and Operations | Altre app Dynamics 365 | descrizione
 -----------------------|--------------------------------|---
 Scopi gerarchia organizzativa | msdyn_internalorganizationhierarchypurposes | Questo modello consente la sincronizzazione unidirezionale di entità scopo gerarchia organizzativa.
 Tipo di gerarchia organizzativa | msdyn_internalorganizationhierarchytypes | Questo modello consente la sincronizzazione unidirezionale di entità tipo di gerarchia organizzativa.
