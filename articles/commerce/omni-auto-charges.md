@@ -3,7 +3,7 @@ title: Addebiti automatici avanzati omnicanale
 description: In questo argomento vengono descritte le funzionalità per la gestione delle spese ordine aggiuntive relative agli ordini dei canali di commercio utilizzando funzionalità di addebiti automatici avanzati.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023103"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175156"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -77,7 +77,7 @@ In questa sezione vengono presentati casi di utilizzo di esempio allo scopo di f
 
 #### <a name="use-case-scenario"></a>Scenario del caso di utilizzo
 
-Un rivenditore desidera aggiungere automaticamente le spese di spedizione quando si creano transazioni in qualsiasi canale di commercio che richiedono la spedizione dei prodotti al cliente. Il rivenditore offre 2 metodi di consegna: Su strada e Via aerea. Se un cliente sceglie la consegna Su strada e il valore dell'ordine è inferiore a $100, il rivenditore vuole addebitare al cliente una spesa di trasporto di $10. Se il valore dell'ordine è superiore a $100 e il cliente sceglie la spedizione via terra, al cliente non saranno addebitate ulteriori spese di spedizione. Se il cliente sceglie la spedizione Via aerea per tutti gli ordini, indipendentemente dal valore totale degli stessi, gli verranno addebitate delle spese di spedizione di $20.
+Un rivenditore desidera aggiungere automaticamente le spese di spedizione quando si creano transazioni in qualsiasi canale di commercio che richiedono la spedizione dei prodotti al cliente. Il rivenditore offre due metodi di consegna: Su strada e Via aerea. Se un cliente sceglie la consegna Su strada e il valore dell'ordine è inferiore a $100, il rivenditore vuole addebitare al cliente una spesa di trasporto di $10. Se il valore dell'ordine è superiore a $100 e il cliente sceglie la spedizione via terra, al cliente non saranno addebitate ulteriori spese di spedizione. Se il cliente sceglie la spedizione Via aerea per tutti gli ordini, indipendentemente dal valore totale degli stessi, gli verranno addebitate delle spese di spedizione di $20.
 
 #### <a name="setup-and-configuration"></a>Impostazione e configurazione
 
@@ -133,7 +133,7 @@ A questo punto, le spese verranno applicate a qualsiasi riga di vendita che corr
 
 #### <a name="use-case-scenario-description"></a>Descrizione dello scenario del caso di utilizzo
 
-Un rivenditore fa un'eccezione ai processi tipici fornendo una speciale consegna a domicilio dei prodotti ai clienti che ordinano prodotti nel punto vendita. Il rivenditore e il cliente hanno concordato che il cliente pagherà una spesa di movimentazione aggiuntiva di $25 per tale servizio. L'incaricato dell'ordine deve aggiungere questa commissione aggiuntiva alla transazione. Poiché la commissione è una commissione di copertura non correlata a un qualsiasi singolo prodotto nell'ordine, verrà utilizzata una spesa intestazione.
+Un rivenditore sta facendo un'eccezione ai processi tipici fornendo una speciale consegna a domicilio dei prodotti ai clienti che ordinano prodotti nel punto vendita. Il rivenditore e il cliente hanno concordato che il cliente pagherà una spesa di movimentazione aggiuntiva di $25 per tale servizio. L'incaricato dell'ordine deve aggiungere questa commissione aggiuntiva alla transazione. Poiché la commissione è una commissione di copertura non correlata a un qualsiasi singolo prodotto nell'ordine, verrà utilizzata una spesa intestazione.
 
 #### <a name="setup-and-configuration"></a>Impostazione e configurazione
 
@@ -157,7 +157,7 @@ Questo processo può essere applicato al servizio clienti utilizzando le funzion
 
 #### <a name="use-case-scenario"></a>Scenario del caso di utilizzo
 
-Un cliente ha richiesto una confezione regalo per 2 dei 5 articoli nell'ordine cliente. Il rivenditore fornisce questo servizio opzionale per una spesa di $2 per articolo. L'incaricato dell'ordine dovrà aggiungere queste spese agli articoli per i quali è stata richiesta la confezione regalo.
+Un cliente ha richiesto una confezione regalo per due dei cinque articoli nell'ordine cliente. Il rivenditore fornisce questo servizio opzionale per una spesa di $2 per articolo. L'incaricato dell'ordine dovrà aggiungere queste spese agli articoli per i quali è stata richiesta la confezione regalo.
 
 #### <a name="setup-and-configuration"></a>Impostazione e configurazione
 
@@ -173,7 +173,7 @@ L'operazione **Aggiungi spese riga** deve essere configurata nel [layout dello s
 
 Per eseguire lo scenario nell'applicazione POS, l'utente POS creerà la transazione di vendita come al solito, aggiungendo i prodotti e qualsiasi altra configurazione alla vendita. Prima della riscossione del pagamento, l'utente deve selezionare la riga specifica in cui la spesa verrà applicata dal display dell'elenco di articoli POS ed eseguire l'operazione **Aggiungere spese riga**. All'utente verrà richiesto di selezionare un codice spese e immettere il valore delle spese. Dopo che l'utente ha completato il processo, la spesa viene collegata alla riga e aggiunta al totale dell'ordine come spesa a livello di riga. L'utente può ripetere il processo per aggiungere ulteriori spese riga ad altre righe di articoli nella transazione se necessario.
 
-Lo stesso processo può essere applicato nel call center mediante la funzionalità di "gestione delle spese" nel menu a discesa **Dati finanziari** della sezione **Righe ordine cliente** nella pagina **Ordine cliente**. Questa operazione visualizzerà la pagina **Gestisci spese** dove l'utente può aggiungere una nuova spesa riga alla transazione.
+Lo stesso processo può essere applicato nel call center mediante la funzionalità di "gestione delle spese" nel menu a discesa **Dati finanziari** della sezione **Righe ordine cliente** nella pagina **Ordine cliente**. Verrà aperta la pagina **Gestisci spese** nella quale l'utente può aggiungere una nuova riga spesa alla transazione.
 
 ## <a name="additional-features"></a>Funzionalità aggiuntive
 
@@ -215,3 +215,10 @@ Alcune organizzazioni possono preferire di attendere che l'utente abbia finito d
 ### <a name="charges-override-reports"></a>Report di sostituzione delle spese
 
 Se gli utenti sostituiscono manualmente le spese calcolate o aggiungono una spesa manuale alla transazione, questi dati saranno disponibili per il controllo nel report **Storico sostituzione spese**. Il report è accessibile da **Retail e Commerce \> Richieste di informazioni e report \> Storico sostituzione spese**. È importante notare che i dati necessari per questo report vengono importati dal database del canale in HQ mediante processi di programmazione della distribuzione "P". Di conseguenza, le informazioni sulle sostituzioni appena eseguite nel POS possono non essere immediatamente disponibili in questo report fino a che il processo non ha caricato i dati della transazione del punto vendita in HQ.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Abilitare e configurare addebiti automatici per canale](auto-charges-by-channel.md)
+
+[Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti](pro-rate-charges-matching-lines.md)
+

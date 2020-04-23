@@ -2,7 +2,7 @@
 title: Panoramica sulla gestione della qualità
 description: In questo argomento viene descritto come utilizzare la gestione della qualità in Dynamics 365 Supply Chain Management per migliorare la qualità del prodotto all'interno della supply chain.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814400"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224911"
 ---
 # <a name="quality-management-overview"></a>Panoramica sulla gestione della qualità
 
@@ -302,122 +302,6 @@ Se durante l'acquisto, si imposta il campo **Tipo di evento** su **Entrata prodo
 
 - Se l'opzione **Per quantità aggiornata** è impostata su **Sì**, viene generato un ordine di controllo qualità per ogni entrata dell'ordine fornitore, in base alla quantità ricevuta e alle impostazioni nel campionamento articoli. Ogni volta che una quantità viene ricevuta per l'ordine fornitore, nuovi ordini di controllo qualità vengono generati in base alla quantità ricevuta.
 - Se l'opzione **Per quantità aggiornata** è impostata su **No**, viene generato un ordine di controllo qualità per la prima entrata dell'ordine fornitore, in base alla quantità ricevuta. Inoltre, uno o più ordini di controllo qualità vengono creati in base alla quantità rimanente e alle dimensioni di tracciabilità. Gli ordini di controllo qualità non vengono generati per le entrate successive dell'ordine fornitore.
-
-<table>
-<tbody>
-<tr>
-<th>Specifica qualità</th>
-<th>Per quantità aggiornata</th>
-<th>Per dimensione di tracciabilità</th>
-<th>Risultato</th>
-</tr>
-<tr>
-<td>Percentuale: 10%</td>
-<td>Sì</td>
-<td>
-<p>Numero batch: No</p>
-<p>Numero di serie: No</p>
-</td>
-<td>
-<p>Quantità ordine: 100</p>
-<ol>
-<li>Dichiarazione di finito per 30
-<ul>
-<li>Ordine di controllo qualità #1 per 3 (10% di 30)</li>
-</ul>
-</li>
-<li>Dichiarazione di finito per 70
-<ul>
-<li>Ordine di controllo qualità #2 per 7 (10% della quantità rimanente dell'ordine, che equivale a 70 in questo caso)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Quantità fissa: 1</td>
-<td>Nessuno</td>
-<td>
-<p>Numero batch: No</p>
-<p>Numero di serie: No</p>
-</td>
-<td>Quantità ordine: 100
-<ol>
-<li>Dichiarazione di finito per 30
-<ul>
-<li>L'ordine di controllo qualità #1 viene creato per 1 (per la prima quantità dichiarata finita, con un valore fisso di 1).</li>
-<li>Non vengono creati altri ordini di controllo qualità in base alla quantità rimanente.</li>
-</ul>
-</li>
-<li>Dichiarazione di finito per 10
-<ul>
-<li>Nessun ordine di controllo qualità viene creato.</li>
-</ul>
-</li>
-<li>Dichiarazione di finito per 60
-<ul>
-<li>Nessun ordine di controllo qualità viene creato.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Quantità fissa: 1</td>
-<td>Sì</td>
-<td>
-<p>Numero batch: Sì</p>
-<p>Numero di serie: Sì</p>
-</td>
-<td>
-<p>Quantità ordine: 10</p>
-<ol>
-<li>Dichiarazione di finito per 3
-<ul>
-<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1</li>
-<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2</li>
-<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3</li>
-</ul>
-</li>
-<li>Dichiarazione di finito per 2
-<ul>
-<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4</li>
-<li>Ordine di controllo qualità #5 per 1 del batch #b5, numero di serie #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Nota:</strong> il batch può essere riutilizzato.</p>
-</td>
-</tr>
-<tr>
-<td>Quantità fissa: 2</td>
-<td>Nessuno</td>
-<td>
-<p>Numero batch: Sì</p>
-<p>Numero di serie: Sì</p>
-</td>
-<td>
-<p>Quantità ordine: 10</p>
-<ol>
-<li>Dichiarazione di finito per 4
-<ul>
-<li>Ordine di controllo qualità #1 per 1 del batch #b1, numero di serie #s1.</li>
-<li>Ordine di controllo qualità #2 per 1 del batch #b2, numero di serie #s2.</li>
-<li>Ordine di controllo qualità #3 per 1 del batch #b3, numero di serie #s3.</li>
-<li>Ordine di controllo qualità #4 per 1 del batch #b4, numero di serie #s4.</li>
-<li>Non vengono creati altri ordini di controllo qualità in base alla quantità rimanente.</li>
-</ul>
-</li>
-<li>Dichiarazione di finito per 6
-<ul>
-<li>Nessun ordine di controllo qualità viene creato.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Produzione
 

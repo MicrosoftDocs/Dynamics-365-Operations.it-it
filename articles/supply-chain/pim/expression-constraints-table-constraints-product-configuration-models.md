@@ -2,7 +2,7 @@
 title: Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 description: In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91eb5f166633f5be0ad68c039d3e538e4060ea0b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 3d85d10113e7cc4e95a25efe7fee6d1f23990694
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815067"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208474"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 
@@ -63,7 +63,7 @@ Nella tabella seguente vengono illustrate le combinazioni definite dal vincolo d
 È possibile creare vincoli di tabella definiti dal sistema e vincoli di tabella definiti dall'utente. Per ulteriori informazioni, vedere [Vincoli di tabella definiti dall'utente e dal sistema](system-defined-user-defined-table-constraints.md).
 
 ## <a name="what-syntax-should-be-used-to-write-constraints"></a>Quale sintassi deve essere utilizzata per scrivere i vincoli?
-Per scrivere i vincoli, è necessario utilizzare la sintassi OML (Optimization Modeling Language). Il sistema utilizza il risolutore di vincoli Microsoft Solver Foundation per risolvere i vincoli.
+Per scrivere i vincoli, è necessario utilizzare la sintassi OML (Optimization Modeling Language). Il sistema utilizza il risolutore dei vincoli Microsoft Solver Foundation.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>È meglio utilizzare i vincoli di tabella o i vincoli di espressione?
 È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli. Si sviluppa un vincolo di tabella come matrice, mentre un vincolo di espressione è una singola istruzione. Quando si configura un prodotto, non importa il tipo di vincolo utilizzato. Nel seguente esempio è mostrato in che modo i due metodi differiscono.  

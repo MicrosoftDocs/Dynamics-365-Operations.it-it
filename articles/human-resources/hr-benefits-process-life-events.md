@@ -3,7 +3,7 @@ title: Elaborare eventi reali
 description: Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009554"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229933"
 ---
 # <a name="process-life-events"></a>Elaborare eventi reali
-
-[!include [banner](includes/preview-feature.md)]
 
 Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali. Ad esempio, un matrimonio, un cambio di lavoro o un modifica relativa a una persona a carico/beneficiario. Per utilizzare gli eventi reali, è necessario abilitarli nel modulo dei parametri dei benefit, impostare i tipi di eventi reali nonché le opzioni degli eventi reali per i tipi di piano.
 
@@ -43,10 +41,10 @@ Ad esempio, se oggi è il 1° febbraio e il 14 febbraio il lavoratore Joe Smith 
 
    | Campo | Descrizione |
    | --- | --- |
-   | Periodo di iscrizione | Il periodo di iscrizione per il quale elaborare gli eventi reali. |
-   | Persona giuridica | La persona giuridica per la quale elaborare gli eventi reali. |
-   | Data evento reale | Il sistema elabora tutti gli eventi durante il periodo di iscrizione che si verificano fino a questa data. |
-   | Lavoro | Il lavoratore per il quale elaborare gli eventi reali. Se questo campo viene lasciato vuoto, gli eventi reali saranno elaborati per tutti i lavoratori. |
+   | **Periodo di iscrizione** | Il periodo di iscrizione per il quale elaborare gli eventi reali. |
+   | **Persona giuridica** | La persona giuridica per la quale elaborare gli eventi reali. |
+   | **Data evento reale** | Il sistema elabora tutti gli eventi durante il periodo di iscrizione che si verificano fino a questa data. |
+   | **Lavoro** | Il lavoratore per il quale elaborare gli eventi reali. Se questo campo viene lasciato vuoto, gli eventi reali saranno elaborati per tutti i lavoratori. |
 
 3. Se si desidera eseguire l'elaborazione in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 

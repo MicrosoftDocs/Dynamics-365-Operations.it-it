@@ -1,7 +1,7 @@
 ---
 title: Esercitazione sull'utilizzo di Regression Suite Automation Tool
 description: In questo argomento viene illustrato come utilizzare lo strumento Regression Suite Automation Tool (RSAT). Vengono descritte varie funzionalità e forniti esempi che utilizzano lo script avanzato.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070822"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248738"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Esercitazione sull'utilizzo di Regression Suite Automation Tool
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070822"
 > [!NOTE]
 > Utilizzare gli strumenti del browser Internet per scaricare e salvare questa pagina in formato PDF. 
 
-Questa esercitazione descrive alcune delle funzionalità avanzate di Regression Suite Automation Tool (RSAT), include un'assegnazione demo e fornisce suggerimenti chiave e la strategia da adottare.
+Questa esercitazione descrive alcune delle funzionalità avanzate di Regression Suite Automation Tool (RSAT), include un'assegnazione demo e fornisce suggerimenti chiave e la strategia da adottare. 
 
-## <a name="features-of-rsattask-recorder"></a>Funzionalità di RSAT/Registrazione attività
+## <a name="notable-features-of-rsat-and-task-recorder"></a>Caratteristiche importanti di RSAT e Registrazione attività
 
 ### <a name="validate-a-field-value"></a>Convalidare un valore di campo
 
-Per informazioni su questa funzionalità, vedere [Creare una nuova registrazione attività che dispone di una funzione Convalida](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Variabile salvata
-
-Per informazioni su queste funzionalità, vedere [Modificare una registrazione attività esistente per creare una variabile salvata](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Test case derivato
-
-1. Aprire Regression Suite Automation Tool (RSAT) e selezionare entrambi i test case creati in [Esercitazione sull'impostazione e l'installazione di Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
-2. Selezionare **Nuovo \> Crea test case derivato**.
-
-    ![Comando Crea test case derivato nel menu Nuovo](./media/use_rsa_tool_01.png)
-
-3. Viene visualizzato un messaggio indicante che un test case derivato verrà creato per ogni test case selezionato nel gruppo di test corrente e che ogni test case derivato disporrà di una propria copia del file di parametri di Excel. Selezionare **OK**.
-
-    > [!NOTE]
-    > Quando si esegue un test case derivato, questo utilizza la registrazione attività del relativo test case padre e la propria copia del file di parametri di Excel. In questo modo, è possibile eseguire lo stesso test con parametri differenti, senza dover avere più di una registrazione attività. Un test case derivato non deve far parte dello stesso gruppo di test come test case padre.
-
-    ![Finestra di messaggio](./media/use_rsa_tool_02.png)
-
-    Vengono creati due ulteriori test case derivati e la relativa casella di controllo **Derivato?** è selezionata.
-
-    ![Test case derivati creati](./media/use_rsa_tool_03.png)
-
-    Un test case derivato viene automaticamente creato in Azure DevOps. È un elemento secondario del test case **Creare un nuovo prodotto** e viene contrassegnato con una parola chiave speciale: **RSAT: DerivedTestSteps**. Questi test case vengono inoltre aggiunti automaticamente al piano di test in Azure DevOps.
-
-    ![Parola chiave RSAT:DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Se, per un qualsiasi motivo, i test case derivati creati non sono nell'ordine corretto, accedere a Azure DevOps e riordinare i test case nel gruppo di test, di modo che RSAT possa eseguirli nell'ordine corretto.
-
-4. Selezionare i test case derivati, quindi selezionare **Modifica** per aprire i file di parametri di Excel corrispondenti.
-5. Modificare questi file di parametri di Excel esattamente come i file padre. In altre parole, assicurarsi che l'ID prodotto sia impostato di modo che venga generato automaticamente. Verificare inoltre che la variabile salvata venga copiata nei campi appropriati.
-6. Nella scheda **Generale** di entrambi i file di parametri di Excel, impostare il valore del campo **Società** su **USSI**, di modo che i test case derivati siano eseguiti per una persona giuridica differente rispetto al test case padre. Per eseguire i test case per un utente specifico (o per il ruolo associato a un utente specifico), è possibile aggiornare il valore del campo **Verifica utente**.
-7. Selezionare **Esegui** e verificare che il prodotto venga creato nelle persone giuridiche USMF e USSI.
-
-### <a name="validate-notifications"></a>Convalidare le notifiche
-
-Questa funzionalità può essere utilizzata per convalidare un'azione avvenuta. Ad esempio, quando un ordine di produzione viene creato, valutato e quindi avviato, l'app visualizza un messaggio "Produzione - Avvio" per notificare all'utente che l'ordine di produzione è stato avviato.
-
-![Notifica Produzione - Avvio](./media/use_rsa_tool_05.png)
-
-È possibile convalidare questo messaggio mediante RSAT digitando il testo del messaggio nella scheda **MessageValidation** del file di parametri di Excel per la registrazione appropriata.
-
-![Scheda Convalida messaggio](./media/use_rsa_tool_06.png)
-
-Dopo l'esecuzione del test case, il messaggio nel file di parametri di Excel viene confrontato al messaggio visualizzato. Se i messaggi non corrispondono, il test case non avrà esito positivo.
-
-> [!NOTE]
-> È possibile immettere più di un messaggio nella scheda **Convalida messaggio** del file di parametri di Excel. I messaggi possono anche essere messaggi di errore o di avviso anziché messaggi informativi.
-
-### <a name="validate-values-by-using-operators"></a>Convalidare i valori utilizzando operatori
-
-Nelle versioni precedenti di RSAT, è possibile convalidare i valori solo se un valore di controllo è uguale a un valore previsto. La nuova funzionalità consente di verificare se una variabile non è uguale a, è minore di o è maggiore di un valore specificato.
-
-- Per utilizzare questa funzionalità, aprire il file **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** nella cartella di installazione di RSAT (ad esempio **C:\\Programmi (x86)\\Regression Suite Automation Tool**) e modificare il valore dell'elemento seguente da **false** a **true**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Nel file di parametri di Excel, viene visualizzato un nuovo campo **Operatore**.
-
-    > [!NOTE]
-    > Se si utilizza una versione precedente di RSAT, è necessario generare nuovi file di parametri di Excel.
-
-    ![Campo Operatore](./media/use_rsa_tool_07.png)
+RSAT consente di includere passaggi di convalida nel caso di test per convalidare i valori previsti. Per informazioni su questa funzione, consultare l'articolo [Convalidare i valori previsti](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 Nell'esempio seguente viene illustrato come utilizzare questa funzionalità per verificare se le scorte disponibili sono maggiori di 0 (zero).
 
@@ -115,7 +49,7 @@ Nell'esempio seguente viene illustrato come utilizzare questa funzionalità per 
     5. Nell'elenco contrassegnare la riga selezionata.
     6. Verificare che il valore del campo **Totale disponibile** sia **411,0000000000000000**.
 
-2. Salvare la registrazione attività nella libreria BPM in LCS e sincronizzarla con Azure DevOps.
+2. Salvare la registrazione attività e collegarla al caso di test in Azure Devops.
 3. Aggiungere il test case al piano di test e caricare il test case in RSAT.
 4. Apre il file di parametri di Excel. Nella scheda **InventOnhandItem** verrà visualizzata una sezione **Convalida InventOnhandItem** che include un campo **Operatore**.
 
@@ -130,28 +64,32 @@ Nell'esempio seguente viene illustrato come utilizzare questa funzionalità per 
 
 A questo punto, se il valore del campo **Totale disponibile** per l'articolo specificato nelle scorte è maggiore di 0 (zero), i test avranno esito positivo, indipendentemente dal valore delle scorte disponibili effettivo.
 
-### <a name="generator-logs"></a>Registri di generatori
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Variabili salvate e concatenamento di casi di test
 
-Questa funzionalità crea una cartella contenente i registri dei test case eseguiti.
+Una delle funzionalità importanti di RSAT è il concatenamento dei test case, ovvero la capacità di un test di passare variabili ad altri test. Per ulteriori informazioni, consultare l'articolo [Copiare le variabili in casi di test concatenati](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Per utilizzare questa funzionalità, aprire il file **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** nella cartella di installazione di RSAT (ad esempio **C:\\Programmi (x86)\\Regression Suite Automation Tool**) e modificare il valore dell'elemento seguente da **false** a **true**.
+### <a name="derived-test-case"></a>Test case derivato
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT consente di utilizzare la stessa registrazione di attività con più casi di test, permettendo l'esecuzione di un'attività con diverse configurazioni di dati. Vedere l'articolo [Casi di test derivati](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md) per ulteriori informazioni.
 
-Dopo l'esecuzione dei test case, è possibile trovare i file di registro in **C:\\Utenti\\\<Nome utente\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Convalidare notifiche e messaggi
 
-![Cartella GeneratorLogs](./media/use_rsa_tool_10.png)
+Questa funzionalità può essere utilizzata per convalidare un'azione avvenuta. Ad esempio, quando un ordine di produzione viene creato, valutato e quindi avviato, l'app visualizza un messaggio "Produzione - Avvio" per notificare all'utente che l'ordine di produzione è stato avviato.
+
+![Notifica Produzione - Avvio](./media/use_rsa_tool_05.png)
+
+È possibile convalidare questo messaggio mediante RSAT digitando il testo del messaggio nella scheda **MessageValidation** del file di parametri di Excel per la registrazione appropriata.
+
+![Scheda Convalida messaggio](./media/use_rsa_tool_06.png)
+
+Dopo l'esecuzione del test case, il messaggio nel file di parametri di Excel viene confrontato al messaggio visualizzato. Se i messaggi non corrispondono, il test case non avrà esito positivo.
 
 > [!NOTE]
-> Se dei test case erano presenti prima di modificare il valore nel file .config, i registri non verranno generati per quei test case fino a che non si generano nuovi file di esecuzione di test.
-> 
-> ![Comando Genera solo file di esecuzione test nel menu Nuovo](./media/use_rsa_tool_11.png)
+> È possibile immettere più di un messaggio nella scheda **Convalida messaggio** del file di parametri di Excel. I messaggi possono anche essere messaggi di errore o di avviso anziché messaggi informativi.
 
 ### <a name="snapshot"></a>Snapshot
 
-Questa funzionalità consente di acquisire schermate dei passaggi eseguiti durante la registrazione attività.
+Questa funzionalità consente di acquisire schermate dei passaggi eseguiti durante la registrazione attività. È utile per scopi di controllo o debug.
 
 - Per utilizzare questa funzionalità, aprire il file **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** nella cartella di installazione di RSAT (ad esempio **C:\\Programmi (x86)\\Regression Suite Automation Tool**) e modificare il valore dell'elemento seguente da **false** a **true**.
 
@@ -159,13 +97,7 @@ Questa funzionalità consente di acquisire schermate dei passaggi eseguiti duran
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-In **C:\\Utenti\\\<Nome utente\>\\AppData\\Roaming\\regressionTool\\playback** viene creata una cartella distinta per ogni test case eseguito.
-
-![Cartella degli snapshot per un test case](./media/use_rsa_tool_12.png)
-
-In ognuna di queste cartelle, è possibile trovare gli snapshot dei passaggi eseguiti durante l'esecuzione di test case.
-
-![File di snapshot](./media/use_rsa_tool_13.png)
+Quando si esegue il caso di test, RSAT genera snapshot (immagini) dei passaggi nella cartella di riproduzione dei casi di test nella directory di lavoro. Se si utilizza una versione precedente di RSAT, le immagini vengono salvate in **C:\\Utenti\\\<nome utente\>\\AppData\\Roaming\\regressionTool\\playback**, viene creata una cartella separata per ogni caso di test che viene eseguito.
 
 ## <a name="assignment"></a>Assegnazione
 
@@ -183,7 +115,7 @@ Nella figura seguente è illustrato il flusso di questo scenario.
 
 ![Flusso dello scenario demo](./media/use_rsa_tool_14.png)
 
-Nella figura seguente sono illustrati i processi aziendali di questo scenario in RSAT.
+La seguente illustrazione mostra la gerarchia dei processi aziendali per questo scenario in Modellatore di processi aziendali LCS.
 
 ![Processi aziendali per lo scenario demo](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Genera tutti i test case per la suite specificata nella directory di output.
 
 
 #### <a name="help"></a>guida
-Identico a [?](####?) comando
+Identico a [?](#section) comando
 
 
 #### <a name="list"></a>elenco
@@ -512,6 +444,8 @@ Mostra due modi per invocare questa applicazione: uno che utilizza un file di im
 
 ### <a name="windows-powershell-examples"></a>Esempi di Windows PowerShell
 
+[!IMPORTANT] Gli script di esempio seguenti sono forniti COSÌ COME SONO a scopo illustrativo e non sono supportati da Microsoft.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Eseguire un test case in un ciclo
 
 Si ha uno script di test che crea un nuovo cliente. Tramite lo script, questo test case può essere eseguito in un ciclo randomizzando i seguenti dati prima dell'esecuzione di ogni iterazione:
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

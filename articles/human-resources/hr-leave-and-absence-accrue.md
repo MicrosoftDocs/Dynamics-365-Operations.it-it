@@ -3,7 +3,7 @@ title: Accumula piani di congedo e assenza
 description: È possibile accumulare congedi e assenze in Dynamics 365 Human Resources per uno o più dipendenti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092340"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197315"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Accumula piani di congedo e assenza
 
@@ -35,7 +35,7 @@ ms.locfileid: "3092340"
 
 2. Sotto **Gestisci congedo**, selezionare **Accumula piani di congedo e assenza**.
 
-3. Nella finestra di dialogo **Accumula piani di congedo e assenza**, in **Accumula a partire da**, selezionare **Data odierna** o **Data personalizzata** e immettere una data personalizzata.
+3. Viene visualizzata la finestra di dialogo **Accumula piani di congedo e assenza**. In **Accumula a partire da** selezionare **Data odierna** o selezionare **Data personalizzata** e inserire una data personalizzata.
 
 4. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 
@@ -53,7 +53,7 @@ ms.locfileid: "3092340"
 
 2. Selezionare **Accumula congedi e assenze**.
 
-3. Nella finestra di dialogo **Accumula piani di congedo e assenza**, in **Accumula a partire da**, selezionare **Data odierna** o **Data personalizzata** e immettere una data personalizzata.
+3. Viene visualizzata la finestra di dialogo **Accumula piani di congedo e assenza**. In **Accumula a partire da** selezionare **Data odierna** o selezionare **Data personalizzata** e inserire una data personalizzata.
 
 4. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 
@@ -65,15 +65,43 @@ ms.locfileid: "3092340"
 
    4. Selezionare **OK**. Il processo di accumulo verrà eseguito con i parametri impostati.
 
-## <a name="preview-features-for-leave-and-absence"></a>Funzionalità di anteprima di Congedo e assenza
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Eliminare gli accumuli di congedi e assenze per più dipendenti
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Consente di eliminare i record di accumuli per un piano e un intervallo di date specifici. Le date di accumulo devono essere quelle odierne o nel futuro.
 
-È possibile abilitare le seguenti funzionalità di anteprima per Congedo e assenza:
+1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
 
-- **Elimina accumuli congedi e assenze**. Consente di eliminare i record di accumuli per un piano e un intervallo di date specifici. Le date di accumulo devono essere quelle odierne o nel futuro.
+2. Sotto **Gestisci congedo**, selezionare **Elimina accumuli piani di congedo e assenza**.
 
-- **Controllo accumuli congedi**. Viene visualizzata ogni volta che qualcuno esegue o elimina un accumulo per uno o tutti i dipendenti, insieme alla data e a chi ha eseguito l'azione.
+3. Nella finestra di dialogo **Elimina accumuli piani di congedo e assenza** selezionare **Piano di congedo**. 
+
+4. Se applicabile, selezionare **Elimina rettifiche saldo**.
+
+5. Immettere o selezionare una **data accumulo congedo**. Questa data deve essere la data odierna o una futura. 
+
+6. Selezionare **OK**. Il processo di accumulo elimina gli accumuli con i parametri impostati. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Eliminare gli accumuli di congedi e assenze per un singolo dipendente
+
+1. Nel record del dipendente, selezionare **Congedo**.
+
+2. Selezionare **Elimina accumuli piani di congedo e assenza**.
+
+3. Nella finestra di dialogo **Elimina accumuli piani di congedo e assenza** selezionare **Piano di congedo**. 
+
+4. Se applicabile, selezionare **Elimina rettifiche saldo**.
+
+5. Immettere o selezionare una **data accumulo congedo**. Questa data deve essere la data odierna o una futura. 
+
+6. Selezionare **OK**. Il processo di accumulo elimina gli accumuli con i parametri impostati. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Revisionare i processi di accumulo ed eliminazione dei congedi
+
+**Controllo accumuli congedi** viene visualizzato ogni volta che si esegue o si elimina un accumulo per uno o tutti i dipendenti. Vengono visualizzate anche la data e la persona che ha eseguito l'azione.
+
+1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
+
+2. Sotto **Gestisci congedo**, selezionare **Elimina controllo accumuli congedi**.
 
 ## <a name="see-also"></a>Vedere anche
 

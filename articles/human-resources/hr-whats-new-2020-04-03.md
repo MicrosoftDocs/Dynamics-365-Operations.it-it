@@ -1,0 +1,130 @@
+---
+title: Novità o modifiche in Dynamics 365 Human Resources (3 aprile 2020)
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+author: Darinkramer
+manager: AnnBe
+ms.date: 04/03/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2020-04-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225153"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (3 aprile 2020)
+
+Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3111. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in Lifecycle Services (LCS) per riferimento.
+
+## <a name="features-that-are-generally-available-the-week-of-april-6"></a>Funzionalità generalmente disponibili nella settimana del 6 aprile
+
+- **Funzionalità di congedo e assenza** - Per ulteriori informazioni, vedere [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md).
+
+- **Funzionalità di gestione dei benefit** - Per ulteriori informazioni, vedere [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
+
+## <a name="human-resources-environment-limits-are-now-based-on-updated-licensing-394595"></a>I limiti di ambiente di Human Resources sono ora basati sulla licenza aggiornata (394595)
+
+Il limite del numero di ambienti per progetto in LCS è cambiato. Il limite precedente era di due ambienti. Il limite del numero di ambienti di produzione e sandbox che è possibile creare per le risorse umane in LCS è ora basato sulla licenza aggiornata. Ora è possible creare tutti gli ambienti necessari per ogni progetto LCS, a seconda del numero di licenze acquistate. La nuova licenza, aggiornata il 1° febbraio 2020, consente ai clienti di acquistare ambienti aggiuntivi. Per ulteriori informazioni sui requisiti di licenza per ambienti aggiuntivi, consultare [Guida alle licenze di Dynamics 365](https://dynamics.microsoft.com/pricing/#HumanResources).
+ 
+## <a name="error-when-trying-to-delete-a-questionnaire-428603"></a>Errore durante il tentativo di eliminare un questionario (428603)
+
+L'aggiornamento di questa settimana risolve un problema a causa del quale viene visualizzato il seguente errore quando si tenta di eliminare un questionario:
+
+È stata rilevata una coppia sbilanciata di X++ TTSBEGIN/TTSCOMMIT.
+
+## <a name="performance-journal-and-professional-certificates-security-issue-428499"></a>Giornale di registrazione prestazioni e problema di sicurezza dei certificati professionali (428499)
+
+Questa modifica limita la visibilità dei giornali di registrazione delle prestazioni e dei certificati professionali in base alle società a cui hanno accesso. 
+
+## <a name="the-abbreviation-for-quebec-and-manitoba-387510"></a>L'abbreviazione di Quebec e Manitoba (387510)
+
+I dati iniziali sono stati aggiornati per riflettere la corretta abbreviazione di Manitoba e Quebec.
+
+## <a name="new-entities-available-in-data-management-framework"></a>Nuove entità disponibili nel framework di gestione dati
+
+Ora sono disponibili le seguenti entità. Se queste entità non sono elencate nell'elenco delle entità, usare l'opzione **Aggiorna entità** in **Parametri framework > Impostazioni entità > Aggiorna elenco entità**.
+
+ - Transazione bancaria per congedo e assenza V2
+ - Iscrizione per congedo e assenza V2
+ - Livello del piano di congedo e assenza V2
+ - Piano di congedo e assenza V2
+
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La soluzione Common Data Service è ora disponibile con le seguenti modifiche:
+
+| descrizione | Resto |
+| --- | --- |
+| Modifiche all'entità **Posizione lavorativa** | <ul><li>Aggiunta di **Paese di retribuzione**</li>|
+| Entità **Dimensioni posizione lavorativa** aggiunta | <ul><li>Aggiunta di **Dimensioni finanziarie**</li>
+| Modifiche all'entità **Lavoratore** | <ul><li>Aggiunta di **Sequenza nome**</li><li>Aggiunta di **Lavora da casa**</li><li>Aggiunta di **Lingua**</li><li>Aggiunta di **Data di anzianità**</li><li>Aggiunta di **Data di ricorrenza annuale**</li><li>Aggiunta di **Data di assunzione originale**</li></ul> |
+| Modifiche all'entità **Impiego** | <ul><li>Aggiunta di **Dimensioni finanziarie**</li><li>Aggiunta di **Motivo fine rapporto**</li><li>**Data di transizione** rinominata in **Data fine rapporto**</li><li>Aggiunta di **Date periodo di prova**</li></ul> |
+| Modifiche all'entità **Indirizzo lavoratore** | <ul><li>Aggiunta di **Nome della via**</li><li>**Riga indirizzo 1**, **Riga indirizzo 2** e **Riga indirizzo 3** contrassegnate per deprecamento</li></ul> |
+| Nuove entità di impostazione della retribuzione variabile | <ul><li>**Tipo di piano di retribuzione variabile**</li><li>**Piano di retribuzione variabile**</li><li>**Regole distribuzione incentivi**</li><li>**Livello del piano di retribuzione variabile**</li></ul> |
+| Nuova entità **Impiego calendario lavoratore** | <ul><li>Aggiunta di **Entità calendario lavoro**</li></ul> |
+| Nuova entità **Dettagli posizione di retribuzione** | <ul><li>Aggiunta di **Dettagli posizione di retribuzione**</li></ul> |
+| Nuova entità **Titolo** | <ul><li>**Titolo** è stato aggiunto</li></ul>La nuova entità **Titolo** è inclusa in Common Data Service ma non è referenziata dalle entità **Posizione lavorativa** o **Lavoro** in questo momento. |
+
+> [!NOTE]
+> Le dimensioni finanziarie per le posizioni e per l'occupazione forniscono l'integrazione in una direzione per gli aggiornamenti da Human Resources a Common Data Service. Gli aggiornamenti sulle dimensioni finanziarie al momento non vengono sincronizzati da Common Data Service a Human Resources.
+
+Nelle prossime settimane, questi cambiamenti di entità saranno disponibili in tutti gli ambienti. Per installare manualmente l'ultima soluzione Common Data Service per Human Resources:
+
+1.  Accedere all'[Interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com).
+
+2.  Selezionare **Ambienti**.
+
+3.  Trovare l'ambiente da aggiornare. L'ambiente deve corrispondere al **nome dell'ambiente** nella sezione **informazioni Common Data Service** del modulo **Informazioni su** in Human Resources.
+
+4.  Selezionare l'ambiente per visualizzare i dettagli dell'ambiente.
+
+5.  Selezionare **Gestisci soluzioni** nella barra di azione superiore. Una nuova finestra del browser viene visualizzata con l'**interfaccia di amministrazione di Dynamics 365** nel contesto dell'ambiente.
+
+6.  Nell'elenco **Soluzione** selezionare **Ancora Dynamics 365 Human Resources**.
+
+7.  Selezionare **Aggiorna** per applicare l'ultima soluzione.
+
+## <a name="in-preview"></a>In anteprima
+
+## <a name="leave-suspension"></a>Sospensione del congedo
+
+È possibile sospendere le ferie e le assenze nelle risorse umane per un dipendente. La sospensione del congedo e interrompe la maturazione delle ferie per i tipi di congedi selezionati. Se la sospensione si verifica dopo l'elaborazione della maturazione, la sospensione delle ferie crea una rettifica proporzionale del saldo delle ferie del dipendente. Per ulteriori informazioni, vedere [Sospendere il congedo](hr-leave-and-absence-suspend-leave.md).
+
+## <a name="carry-forward-rules"></a>Regole di riporto
+
+È possibile specificare un tipo di congedo riporto per i saldi del riporto in cui vengono trasferiti le rettifiche di riporto. Ad esempio, se un dipendente riporta 10 giorni, è possibile scegliere un tipo di congedo diverso per quei 10 giorni. Per ulteriori informazioni, vedere [Configurare i tipi di congedo e assenza](hr-leave-and-absence-types.md).
+
+## <a name="coming-soon"></a>Presto disponibili
+
+## <a name="new-production-release-cadence"></a>Nuova cadenza di rilascio di produzione
+
+A partire da aprile, la cadenza di rilascio di Human Resources passerà da un aggiornamento settimanale a un aggiornamento bisettimanale. Per garantire l'allineamento con procedure di distribuzione sicure e mantenere elevati gli standard di stabilità e affidabilità nel servizio, il processo di distribuzione degli aggiornamenti del servizio in tutte le regioni sarà un'implementazione ogni due settimane. Ulteriori test e controlli vengono applicati per verificare la corretta implementazione in ogni fase del processo. Per ulteriori informazioni sulla cadenza di rilascio, consultare [Processo di aggiornamento](hr-admin-setup-update-process.md).
+
+## <a name="known-issues"></a>Problemi noti
+
+## <a name="employment-detail-entity"></a>Entità Dettaglio impiego
+
+L'entità **Dettagli impiego** è stata aggiornata con i seguenti campi: **PayFrequency**, **ID categoria impiego**, **Tipo di impiego**, **ID EmploymentType** e **Stato impiego benefit**. I dati di configurazione per questi campi si basano sulla gestione dei benefit abilitata in Gestione funzionalità. Questi campi non devono essere compilati o aggiornati nell'entità **Dettagli impiego** perché vengono restituiti errori durante l'importazione.
+
+## <a name="sharepoint-preview-doesnt-work-in-some-environments"></a>L'anteprima di SharePoint non funziona in alcuni ambienti
+
+Se l'anteprima del documento per i documenti memorizzati in SharePoint non funziona, provare la seguente procedura:
+
+1. Verificare che l'account utente amministratore abbia un'e-mail associata al record utente. È possibile visualizzare tali informazioni nella pagina **Utente**. Se l'e-mail non è impostata, è necessario aggiungere l'e-mail e il provider con il componente aggiuntivo OData Excel. Per impostazione predefinita, l'indirizzo e-mail non è presente nella progettazione di Excel. È necessario modificare la progettazione di Excel, aggiungere tutti i campi, applicare e aggiornare. Dopo aver completato questi passaggi, è possibile aggiornare l'account amministratore.
+
+2. Una volta che l'account amministratore ha un account e-mail associato, accedere a Human Resources con le credenziali di amministratore.
+
+3. Accedere a un allegato in SharePoint per avviare l'anteprima del documento.
+
+4. Accedere con un altro account utente che ha accesso agli allegati e verificare che l'anteprima funzioni come previsto.

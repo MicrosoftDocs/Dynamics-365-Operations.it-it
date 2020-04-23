@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915179"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249062"
 ---
 # <a name="financial-reporting-overview"></a>Panoramica sulla creazione di report finanziari
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 In questo argomento viene descritto dove accedere ai report finanziari e come utilizzare le funzionalità dei report finanziari. Include anche una descrizione dei report finanziari predefiniti forniti.
 

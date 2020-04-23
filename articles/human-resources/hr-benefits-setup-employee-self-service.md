@@ -3,7 +3,7 @@ title: Configurare il dipendente self-service
 description: In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,40 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17918fc7b894929c92c54b59b7440ab8aef980bd
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: dbbcb10f1d14088435248c3354ac153b23e5f8d7
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092662"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229811"
 ---
 # <a name="configure-employee-self-service"></a>Configurare il dipendente self-service
 
-[!include [banner](includes/preview-feature.md)]
-
-In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit ai quali hanno diritto a iscriversi.
-
-## <a name="set-up-a-role-center-tile"></a>Impostare un riquadro Centro gestione ruolo
-
-1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri di Dipendente self-service**.
-
-2. Selezionare la scheda **Impostazione riquadro Centro gestione ruoli**, quindi selezionare **Nuovo**.
-
-3. Specificare i valori per i seguenti campi:
-
-   | Campo | Descrizione |
-   | --- | --- |
-   | ID riquadro | L'identificatore univoco per il riquadro. |
-   | Testo etichetta riquadro | Il testo che verrà visualizzato per il riquadro Self service. |
-   | Descrizione | Una descrizione del riquadro. |
-   | Indirizzo Internet | Immettere l'URL alla pagina Dipendente self-service. |
-   | Dimensioni riquadro | La dimensione del riquadro: Piccolo, Medio o Grande. |
-   | Destinatario | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
-   | Immagine di sfondo riquadro | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | Avvio | La data e l'ora di inizio della disponibilità del riquadro. |
-   | Fine periodo | La data e l'ora di fine della disponibilità del riquadro. |
-
-4. Selezionare **Salva**.
+In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Impostare un riquadro Piani di benefit
 
@@ -63,15 +39,15 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
 
    | Campo | Descrizione |
    | --- | --- |
-   | ID riquadro | L'identificatore univoco per il riquadro. |
-   | Testo etichetta riquadro | Il testo che verrà visualizzato per il riquadro Self service. |
-   | Descrizione | Una descrizione del riquadro. |
-   | Indirizzo Internet | Immettere l'URL alla pagina Dipendente self-service. |
-   | Dimensioni riquadro | La dimensione del riquadro: Piccolo, Medio o Grande. |
-   | Destinatario | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
-   | Immagine di sfondo riquadro | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | Avvio | La data e l'ora di inizio della disponibilità del riquadro. |
-   | Fine periodo | La data e l'ora di fine della disponibilità del riquadro. |
+   | **ID riquadro** | L'identificatore univoco per il riquadro. |
+   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Descrizione** | Una descrizione del riquadro. |
+   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
+   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
+   | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
+   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
+   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
 
 4. Selezionare **Salva**.
 
@@ -85,14 +61,14 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
 
    | Campo | Descrizione |
    | --- | --- |
-   | ID riquadro | L'identificatore univoco per il riquadro. |
-   | Testo etichetta riquadro | Il testo che verrà visualizzato per il riquadro Self service. |
-   | Descrizione | Una descrizione del riquadro. |
-   | Indirizzo Internet | Immettere l'URL alla pagina Dipendente self-service. |
-   | Dimensioni riquadro | La dimensione del riquadro: Piccolo, Medio o Grande. |
-   | Destinatario | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
-   | Immagine di sfondo riquadro | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | Avvio | La data e l'ora di inizio della disponibilità del riquadro. |
-   | Fine periodo | La data e l'ora di fine della disponibilità del riquadro. |
+   | **ID riquadro** | L'identificatore univoco per il riquadro. |
+   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Descrizione** | Una descrizione del riquadro. |
+   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
+   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
+   | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
+   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
+   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
 
 4. Selezionare **Salva**.

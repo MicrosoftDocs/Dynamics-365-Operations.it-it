@@ -3,7 +3,7 @@ title: Configurare i parametri di congedo e assenza
 description: Definire i parametri delle risorse umane per congedo e assenza in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009525"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197983"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurare i parametri di congedo e assenza
 
@@ -50,18 +50,25 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 
 7. Selezionare **Salva**.
 
-## <a name="configure-calendar-parameters"></a>Configurare i parametri del calendario
-
-Se è stata abilitata la funzione di anteprima Calendario congedo e assenza, è necessario configurare parametri aggiuntivi. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Per la versione di anteprima del 3 febbraio 2020, solo le **Richieste di congedo in sospeso** sono abilitate.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Visualizzare e modificare i parametri di congedo e assenza
 
 1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
 
-2. Sotto **Impostazione**, selezionare **Parametri Risorse umane**.
+2. Sotto **Impostazione**, selezionare **Parametri di congedo e assenza**.
+
+3. Nella scheda **Generale**, impostare i seguenti parametri:
+ 
+    - Impostare **Unità per ferie e assenze** su ore o giorni. Se in giorni, è possibile selezionare **Abilita la definizione di mezza giornata** per consentire ai dipendenti di scegliere la prima o la seconda metà del giorno nelle richieste di permesso. 
+
+    - Selezionare **Mesi della data di entrata in servizio** per stabilire quando il coefficiente di accumulo diventa effettivo per i piani di congedo che utilizzano mesi di servizio.
+
+    - Selezionare **Calcolo del saldo** per visualizzare i saldi visualizzati a partire dalla data odierna o dal periodo di competenza. Se viene selezionato **Saldo dalla data odierna**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste all data odierna. Se viene selezionato **Saldo dal periodo di competenza**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste dal periodo di competenza definito dalla frequenza nel piano di ferie. 
+
+## <a name="configure-calendar-parameters"></a>Configurare i parametri del calendario
+
+1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
+
+2. Sotto **Impostazione**, selezionare **Parametri di congedo e assenza**.
 
 3. Nella scheda **Calendario**, modificare le impostazioni del calendario come necessario.
 

@@ -3,7 +3,7 @@ title: Configurare le detrazioni
 description: L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente di determinare quanto eventualmente detrarre dalla busta paga di un dipendente per ogni benefit.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5287161f352b386ae4e13067f40228d7c1bce62
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5e645c3f098163626cb686aba347897781d7ebc0
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092731"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230064"
 ---
 # <a name="configure-deductions"></a>Configurare le detrazioni
-
-[!include [banner](includes/preview-feature.md)]
 
 L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente di determinare quanto eventualmente detrarre dalla busta paga di un dipendente per ogni benefit. Le detrazioni hanno una data di validità, pertanto è possibile tenere un record cronologico delle informazioni sulla detrazione. 
 
@@ -39,17 +37,17 @@ L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente d
 
    | Campo | Descrizione |
    | --- | --- |
-   | Detrazione | Un ID univoco utilizzato per identificare la detrazione per benefit. |
-   | Descrizione | Una descrizione della detrazione. |
-   | Valido | La data di inizio. Il valore predefinito è la data di sistema corrente. |
-   | Scadenza | La data di fine. 31/12/2154 (che significa mai) è il valore predefinito. |
-   | Intestazione | Il codice di intestazione del sistema di gestione delle retribuzioni che la detrazione utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
-   | Riferimento detrazioni sulle retribuzioni del dipendente | Codice di detrazione del sistema di gestione delle retribuzioni utilizzato dalla detrazione per la parte relativa al dipendente della detrazione durante l'elaborazione dei benefit per le retribuzioni. |
-   | Intestazione importo | Il codice di intestazione del sistema di gestione delle retribuzioni che questo importo di detrazioni utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene normalmente utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
-   | Eliminazione possibile | Specifica se un valore esportato da Dynamics 365 for Finance and Operations può causare l'eliminazione del valore nel sistema di gestione delle retribuzioni. |
-   | Colonne associate | Specifica se esportare l'intestazione e l'importo delle detrazioni in colonne adiacenti accoppiate nel sistema di gestione delle retribuzioni. |
-   | Data di validità modifica | La data in cui la modifica alle detrazioni per benefit diventa effettiva. In questa data il sistema modificherà automaticamente la detrazione per benefit e aggiornerà tutti i piani di benefit associati a tale detrazione, purché si esegua l'elaborazione dell'aggiornamento delle modifiche alle detrazioni. |
-   | Modifica detrazione completata | La casella di controllo Modifica detrazione completata verrà selezionata automaticamente una volta completate le modifiche alla detrazioni per benefit mediante l'elaborazione dell'aggiornamento delle modifiche alle detrazioni. |
+   | **Detrazione** | Un ID univoco utilizzato per identificare la detrazione per benefit. |
+   | **Descrizione** | Una descrizione della detrazione. |
+   | **Valido** | La data di inizio. Il valore predefinito è la data di sistema corrente. |
+   | **Scadenza** | La data di fine. 31/12/2154 (che significa mai) è il valore predefinito. |
+   | **Intestazione** | Il codice di intestazione del sistema di gestione delle retribuzioni che la detrazione utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
+   | **Riferimento detrazioni sulle retribuzioni del dipendente** | Codice di detrazione del sistema di gestione delle retribuzioni utilizzato dalla detrazione per la parte relativa al dipendente della detrazione durante l'elaborazione dei benefit per le retribuzioni. |
+   | **Intestazione importo** | Il codice di intestazione del sistema di gestione delle retribuzioni che questo importo di detrazioni utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene normalmente utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
+   | **Eliminazione possibile** | Specifica se un valore esportato da Dynamics 365 for Finance and Operations può causare l'eliminazione del valore nel sistema di gestione delle retribuzioni. |
+   | **Colonne associate** | Specifica se esportare l'intestazione e l'importo delle detrazioni in colonne adiacenti accoppiate nel sistema di gestione delle retribuzioni. |
+   | **Data di validità modifica** | La data in cui la modifica alle detrazioni per benefit diventa effettiva. In questa data il sistema modifica automaticamente la detrazione per benefit e aggiorna tutti i piani di benefit associati a tale detrazione, purché si esegua l'elaborazione dell'**aggiornamento delle modifiche alle detrazioni**. |
+   | **Modifica detrazione completata** | La casella di controllo **Modifica detrazione completata** verrà selezionata automaticamente una volta completate le modifiche alla detrazioni per benefit mediante l'elaborazione dell'aggiornamento delle modifiche alle detrazioni. |
    
 4. Per tenere traccia e gestire le modifiche all'impostazione del tasso di benefit, selezionare **Azioni**, quindi selezionare **Gestisci versioni**.
 

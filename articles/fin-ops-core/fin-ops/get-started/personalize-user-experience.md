@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029364"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260508"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -80,15 +80,16 @@ Alcune delle modifiche più tipiche e più importanti che possono essere apporta
 
 Inoltre, i tipi più fondamentali di personalizzazione esplicita sono disponibili facendo clic con il pulsante destro del mouse su un elemento e quindi selezionando **Personalizza**. Tenere presente che non tutti gli elementi nella pagina possono essere personalizzati. Quando si utilizza questo metodo di personalizzazione, viene visualizzata la finestra delle proprietà dell'elemento.
 
-![Personalizzazione delle proprietà di un elemento](./media/personalization-element-properties.png)
+![Personalizzazione delle proprietà di un elemento](./media/cli-element-property-window.png)
 
 È possibile utilizzare la finestra delle proprietà per personalizzare un elemento nei seguenti modi:
 
 - Modificare l'etichetta dell'elemento.
 - Nascondere l'elemento in modo che non venga mostrato nella pagina. I dati del campo non vengono eliminati o modificati. Le informazioni semplicemente non vengono più visualizzate nella pagina.
 - Includere le informazioni nella sezione di riepilogo della Scheda dettaglio (se l'elemento è in una Scheda dettaglio).
-- Ignorare il campo, in modo che non diventi mai in stato attivo mentre si scorre la pagina.
+- Ignorare il campo in modo che non diventi mai in stato attivo mentre si scorre la pagina.
 - Impedire la modifica dei dati nel campo (per qualsiasi record).
+- Designare un campo come obbligatorio per l'inserimento dei dati. Se non è stato inserito alcun valore in questo campo, verrà visualizzato con un bordo rosso e un asterisco per indicare questo stato. Questa opzione è disponibile solo a partire dalla versione 10.0.11 quando le funzionalità [Visualizzazioni salvate](saved-views.md) e **Designa i campi come richiesto utilizzando la personalizzazione** sono abilitate.
 
 La finestra delle proprietà potrebbe includere altre funzionalità di personalizzazione, a seconda dell'elemento. Ad esempio, la finestra delle proprietà di un riquadro potrebbe consentire di promuovere il riquadro in un dashboard e la finestra delle proprietà di un dashboard potrebbe consentire di creare una nuova area di lavoro in quel dashboard.
 
@@ -116,6 +117,7 @@ Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti
 - Utilizzare lo strumento **Sposta** se si desidera spostare un elemento in un punto diverso nel gruppo corrente di elementi. Si noti che non è possibile spostare un elemento al di fuori del gruppo padre. Per utilizzare questo strumento, selezionare il pulsante **Sposta** sulla barra degli strumenti quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, l'app determina le posizioni in cui l'elemento può essere spostato. Queste posizioni sono note come *aree di rilascio*. Man mano che si trascina l'elemento nel gruppo corrente, ogni zona di rilascio viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
 - Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona il pulsante **Ignora** sulla barra degli strumenti, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere o rimuovere i campi in modo interattivo nella sequenza della scheda.
 - Utilizzare lo strumento **Mostra su intestazione** quando si desidera che un campo venga visualizzato nella sezione di riepilogo della Scheda dettaglio. Quando si seleziona il pulsante **Mostra su intestazione** sulla barra degli strumenti, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
+- Utilizzare lo strumento **Richiedi** per designare un elemento come richiesto per l'immissione dei dati. Quando si seleziona il pulsante **Richiedi** sulla barra degli strumenti, tutti gli elementi che sono stati personalizzati per essere richiesti sono mostrati in un contenitore ombreggiato. È quindi possibile renderli nuovamente non necessari. Questa opzione è disponibile solo in una futura versione quando le [Visualizzazioni salvate](saved-views.md) e le funzionalità **Designa i campi come richiesto utilizzando la personalizzazione** sono abilitate.
 - Utilizzare lo strumento **Blocca** per contrassegnare un elemento come modificabile o non modificabile. Quando si seleziona il pulsante **Blocca** sulla barra degli strumenti, tutti gli elementi correntemente non modificabili vengono visualizzati in un contenitore ombreggiato. È quindi possibile renderli nuovamente modificabili. Alcuni campi sono obbligatori e non possono essere resi non modificabili. Accanto a questi campi è presente un simbolo di lucchetto.
 - Utilizzare il pulsante **Aggiungi un'app da Power Apps** per incorporare un'app creata con Microsoft Power Apps nella pagina. Per informazioni dettagliate su come incorporare un'app da Power Apps in una pagina, vedere [Incorporare le app da Power Apps](embed-power-apps.md). Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è disabilitata.  
 - Utilizzare il pulsante **Aggiungi un'app** per incorporare un'app creata in Microsoft Power Apps o da una terza parte nella pagina. Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è abilitata. 

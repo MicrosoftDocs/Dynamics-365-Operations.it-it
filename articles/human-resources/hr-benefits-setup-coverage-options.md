@@ -1,9 +1,9 @@
 ---
 title: Creare opzioni di copertura
-description: Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono livelli di copertura per un partecipante a un piano o programma di benefit, come ad esempio Solo dipendente per un piano sanitario oppure 2x stipendio per un piano di assicurazione sulla vita.
+description: Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono i livelli di copertura per l'idoneità di un partecipante in un piano o programma di benefit.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092708"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230179"
 ---
 # <a name="create-coverage-options"></a>Creare opzioni di copertura
 
-[!include [banner](includes/preview-feature.md)]
+Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono i livelli di copertura per l'idoneità di un partecipante in un piano o programma di benefit. Ad esempio, le opzioni di copertura possono includere **Solo dipendente** per un piano sanitario o **2x stipendio** per un piano di assicurazione sulla vita. Una volta definite, è possibile riutilizzare le opzioni di copertura dei benefit. È possibile associare un'opzione a uno o più piani.
 
-Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono livelli di copertura per un partecipante a un piano o programma di benefit, come ad esempio Solo dipendente per un piano sanitario oppure 2x stipendio per un piano di assicurazione sulla vita. Una volta definite, le opzioni di copertura di benefit sono riutilizzabili e ogni opzione può essere associata a uno o più piani.
-
-Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di benefit. Il tipo di piano viene quindi associato a un piano o programma di benefit. Le opzioni di copertura associate a un tipo di piano saranno disponibili per tutti i piani creati con quel tipo di piano. 
+Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di benefit. Il tipo di piano viene quindi associato a un piano o programma di benefit. Le opzioni di copertura associate a un tipo di piano sono disponibili per tutti i piani creati con quel tipo di piano. 
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Opzioni di copertura**.
 

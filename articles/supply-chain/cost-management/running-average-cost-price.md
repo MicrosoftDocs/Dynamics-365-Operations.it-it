@@ -2,7 +2,7 @@
 title: Prezzo di costo medio corrente
 description: Il processo di chiusura dell'inventario  consente di compensare le transazioni in uscita a fronte delle transazioni in entrata in base al metodo di valutazione del magazzino selezionato nel gruppo di modelli di articoli dell'articolo. Prima di eseguire la chiusura dell'inventario, tuttavia, il sistema calcola un prezzo di costo medio corrente che viene in genere utilizzato per la registrazione delle transazioni in uscita.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 79003
 ms.assetid: adc3f245-dc9d-4327-88fb-6a579194a5fe
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7957b2a9cb24dcc61e3113bfd3cc3b1fa1e6d0a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 73cdede298375bf61899babb41b1444afe3f20ff
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569250"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214414"
 ---
 # <a name="running-average-cost-price"></a>Prezzo di costo medio corrente
 
@@ -56,7 +56,7 @@ In rare occasioni, il sistema determina il prezzo di diverse uscite prima di dis
 2.  Si rilascia finanziariamente una quantità pari a 200.
 3.  Si riceve fisicamente una quantità pari a 101 a 202,00 EUR.
 
-Quando viene esaminato il prezzo di costo medio corrente stimato dell'articolo, si prevede un prezzo di costo di 1,51 EUR, Invece si scopre una media corrente stimata di 102,00 EUR basata sulla seguente formula: Prezzo stimato = \[202 + (-100)\] ÷ \[101 + (-100))\] = 102 ÷ 1 = 102. Questa amplificazione dei prezzi si verifica perché quando nel passaggio 2 si registra l'uscita finanziaria di 200 articoli, il sistema deve determinare il prezzo di 100 di questi articoli prima di disporre delle entrate corrispondenti. Questa situazione causa le scorte negative. Il sistema quindi stima un prezzo unitario di 1,00 EUR, come si potrebbe prevedere. Quando, tuttavia, arrivano le 100 entrate corrispondenti, il loro prezzo unitario è di 2,00 EUR. 
+Quando viene esaminato il prezzo di costo medio corrente stimato dell'articolo, si prevede un prezzo di costo di 1,51 EUR, Invece si scopre una media corrente stimata di 102,00 EUR basata sulla seguente formula: Prezzo stimato = \[202 + (-100)\] ÷ \[101 + (-100)\] = 102 ÷ 1 = 102. Questa amplificazione dei prezzi si verifica perché quando nel passaggio 2 si registra l'uscita finanziaria di 200 articoli, il sistema deve determinare il prezzo di 100 di questi articoli prima di disporre delle entrate corrispondenti. Questa situazione causa le scorte negative. Il sistema quindi stima un prezzo unitario di 1,00 EUR, come si potrebbe prevedere. Quando, tuttavia, arrivano le 100 entrate corrispondenti, il loro prezzo unitario è di 2,00 EUR. 
 
 **Nota:** anche se le uscite determinano una situazione di scorte negative, queste sono comunque positive nel momento in cui viene calcolato il prezzo di uscita. Per questo motivo viene utilizzato il prezzo di costo medio corrente anziché il prezzo del record generale dell'articolo. A questo punto, è presente un offset del valore di magazzino pari a 100,00 EUR. Nonostante tale valore sia stato generato da 100 pezzi, con un offset pari a 1,00 EUR ciascuno, in magazzino è attualmente disponibile un solo pezzo, al quale viene allocato l'intero offset di 100,00 EUR. Questa situazione determina un prezzo di costo stimato eccessivamente gonfiato. 
 

@@ -3,7 +3,7 @@ title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154065"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261400"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
@@ -46,7 +46,7 @@ In una pagina dettagli prodotto, una casella acquisti è suddivisa in due aree: 
 Un modulo Casella acquisti esegue il rendering di titolo, descrizione, prezzo e valutazioni di un prodotto. Consente inoltre ai clienti di selezionare varianti di prodotto con attributi di prodotto diversi, come dimensioni, stile e colore. Quando si seleziona una variante prodotto, altre proprietà nella casella acquisti (ad esempio la descrizione e le immagini del prodotto) vengono aggiornate per riflettere le informazioni relative alla variante. 
 
 Viene fornito un selettore della quantità, di modo che i clienti possano specificare la quantità di articoli da acquistare. La quantità massima che può essere acquistata può essere definita nelle impostazioni del sito.
- 
+
 Dalla casella acquisti, i clienti possono anche eseguire azioni come aggiungere un prodotto al carrello, aggiungere un prodotto all'elenco preferenze e selezionare un luogo di ritiro. Queste azioni possono essere eseguite per un prodotto o una variante di prodotto. Per aggiungere un prodotto a un elenco preferenze, il cliente deve aver effettuato l'accesso.
 
 I temi possono essere utilizzati per rimuovere o modificare l'ordine delle proprietà della casella acquisti e i controlli delle azioni. 
@@ -65,7 +65,8 @@ I temi possono essere utilizzati per rimuovere o modificare l'ordine delle propr
 I moduli Casella acquisti hanno tre impostazioni che è possibile configurare in **Impostazioni sito \> Estensioni**:
 
 - **Quantità massima** - Questa proprietà viene utilizzata per specificare il numero massimo di pezzi di ogni articolo che possono essere aggiunti al carrello. Ad esempio, un rivenditore potrebbe decidere che solo 10 pezzi di ogni prodotto possono essere venduti in una singola transazione.
-- **Verifica scorte** - Quando il valore è impostato su **True**, un articolo viene aggiunto al carrello solo dopo che il modulo Casella acquisti verifica che è disponibile. La verifica delle scorte viene effettuata per gli scenari in cui l'articolo verrà spedito e per quelli in cui verrà prelevato presso il punto vendita. Se il valore è impostato su **False**, non viene eseguita alcuna verifica delle scorte prima di aggiungere un articolo al carrello e di effettuare l'ordine.
+- **Verifica scorte** - Quando il valore è impostato su **True**, un articolo viene aggiunto al carrello solo dopo che il modulo Casella acquisti verifica che è disponibile. La verifica delle scorte viene effettuata per gli scenari in cui l'articolo verrà spedito e per quelli in cui verrà prelevato presso il punto vendita. Se il valore è impostato su **False**, non viene eseguita alcuna verifica delle scorte prima di aggiungere un articolo al carrello e di effettuare l'ordine. Per informazioni su come configurare le impostazioni di inventario nel back office, vedere [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md).
+
 - **Buffer scorte** - Questa proprietà viene utilizzata per specificare un numero di buffer per le scorte. Le scorte sono gestite in tempo reale e quando molti clienti effettuano ordini, può essere difficile mantenere un conteggio accurato delle stesse. Quando viene eseguita una verifica delle scorte, se queste sono inferiori alla quantità buffer, il prodotto viene considerato come non disponibile. Pertanto, quando si verificano rapidamente delle vendite tramite vari canali e il conteggio delle scorte non è completamente sincronizzato, il rischio che un articolo non disponibile venga venduto è minore.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
@@ -93,16 +94,20 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo Selettore punto vendita](store-selector.md)
+[Memorizzare il modulo di selezione](store-selector.md)
 
 [Modulo contenitore](add-container-module.md)
 
 [Modulo carrello](add-cart-module.md)
 
+[Modulo icona carrello](cart-icon-module.md)
+
 [Modulo checkout](add-checkout-module.md)
 
 [Modulo conferma ordine](order-confirmation-module.md)
 
-[Modulo Intestazione](author-header-module.md)
+[Modulo intestazione](author-header-module.md)
 
-[Modulo Piè di pagina](author-footer-module.md)
+[Modulo piè di pagina](author-footer-module.md)
+
+[Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)

@@ -3,7 +3,7 @@ title: Gestire le funzionalità
 description: Informazioni su come attivare o disattivare nuove funzionalità in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84ff11e8237ce0669f7f6ac70c5b4411c5d4b466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009513"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230202"
 ---
 # <a name="manage-features"></a>Gestire le funzionalità
 
@@ -50,9 +50,14 @@ Per accedere alle funzionalità in anteprima, è necessario dapprima attivarle n
 
 3. Per abilitare una funzionalità di anteprima, selezionarla dall'elenco, quindi selezionare **Abilita**. Per disabilitare una funzionalità di anteprima, selezionarla dall'elenco, quindi selezionare **Disabilita**.
 
-## <a name="preview-feature-benefits-management"></a>Funzionalità di anteprima: Gestione benefit
+## <a name="enable-or-disable-benefits-management"></a>Abilitare o disabilitare Gestione benefit
 
-Gestione benefit fornisce una soluzione flessibile che supporta una vasta gamma di opzioni di benefit nonché un'esperienza per i dipendenti di facile utilizzo che evidenzia le offerte proposte. Per ulteriori informazioni sulla configurazione e l'utilizzo di Gestione benefit, consultare [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
+Per abilitare Gestione benefit utilizzare la stessa procedura descritta in [Abilitare o disabilitare le funzionalità di anteprima](hr-admin-manage-features.md?enable-or-disable-preview-features).
+
+> [!IMPORTANT]
+> Non è possibile disabilitare Gestione benefit in un ambiente di **Produzione** dopo averlo abilitato. È tuttavia possibile disabilitare Gestione benefit in ambienti **Sandbox**.
+
+Per ulteriori informazioni sulla configurazione e l'utilizzo di Gestione benefit, consultare [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
 
 Gestione benefit sostituisce la funzionalità nell'area di lavoro **Benefit**. Quando si abilita la funzione di anteprima Gestione benefit, non è più possibile accedere ai seguenti moduli nell'area di lavoro **Benefit**:
 
@@ -65,62 +70,23 @@ Gestione benefit sostituisce la funzionalità nell'area di lavoro **Benefit**. Q
 - **Criteri di idoneità benefit**
 - **Eventi di idoneità**
 
-È possibile visualizzare le informazioni in questi moduli in modalità di sola lettura. Se si desidera modificare le informazioni, è necessario dapprima disabilitare la funzionalità di anteprima Gestione benefit.
+È possibile visualizzare le informazioni in questi moduli in modalità di sola lettura. Se si desidera modificare le informazioni, è necessario dapprima disabilitare Gestione benefit (applicabile solo per gli ambienti **Sandbox**).
 
-### <a name="benefits-management-known-issues"></a>Problemi noti di Gestione benefit
+## <a name="enable-or-disable-leave-and-absence"></a>Abilitare o disabilitare congedo e assenza
 
-#### <a name="life-events"></a>Eventi reali
+Per abilitare Congedo e assenza utilizzare la stessa procedura descritta in [Abilitare o disabilitare le funzionalità di anteprima](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
-Durante l'elaborazione di eventi reali, l'utente riceve un messaggio di errore:
+> [!IMPORTANT]
+> Non è possibile disabilitare la funzionalità **Più tipi di congedo** in Congedo e assenza dopo averla abilitata. Questo vale per entrambi gli ambienti **sandbox** e di **produzione**.
 
-La data di inizio della copertura deve essere compresa tra *inizio del periodo del piano* e *fine del periodo del piano*. 
+Per ulteriori informazioni sulle funzionalità di anteprima in Congedo e assenza, vedere [Funzionalità di anteprima di Congedo e assenza](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-L'evento reale continuerà a essere elaborato come previsto.
-
-#### <a name="eligibility-processing"></a>Elaborazione dell'idoneità
-
-Quando si esegue l'idoneità per benefit che utilizzano un importo di copertura 1-5X stipendio, % di stipendio e Importo forfettario, è necessario impostare la data di Dettagli del benefit su Data di inizio del dipendente in **Storico esperienze lavorative**, con le ore lavorate, la frequenza di pagamento e l'importo di retribuzione benefit annuale. Se esiste una retribuzione fissa per il lavoratore, immettere le ore lavorate insieme alla frequenza di pagamento e l'importo di retribuzione annuale verrà calcolato. Se il dipendente è stipendiato, non è necessario specificare le ore lavorate. Quando si creano nuovi lavoratori, si consiglia di immettere prima la retribuzione fissa. Per aggiornare il record Dettagli del benefit, selezionare **Lavoratore > Storico lavoratore > Dettagli impiego**. Modificare la data in base alla data di inizio del lavoratore.
-
-#### <a name="employee-self-service"></a>Dipendente self-service
-
-I dipendenti possono selezionare un piano per il quale non sono qualificati. Ad esempio, un lavoratore non ha persone a carico, ma è autorizzato a selezionare un piano sanitario con un'opzione di copertura familiare.
-
-L'importo del dipendente non viene calcolato durante l'aggiornamento dell'importo della copertura per l'assicurazione sulla vita. Ad esempio, quando a un dipendente viene offerto un piano di assicurazione sulla vita, può selezionare fino a $50.000 in copertura al costo di $ 0,36 per $1.000 di copertura.  Quando il dipendente aggiorna l'importo della copertura, il costo associato del dipendente rimane a zero.
-
-Per un piano di benefit che consente una sola selezione di quel tipo di piano, l'utente riceverà un errore se tenta di rinunciare a un piano dopo aver selezionato un piano. Ad esempio, un utente seleziona un piano sanitario e lo inserisce nel carrello. L'utente quindi seleziona **Rinuncia** per un altro piano sanitario. L'utente riceverà un messaggio di errore.
-
-## <a name="preview-features-in-leave-and-absence"></a>Funzionalità di anteprima in Congedo e assenza
-
-Le funzionalità di anteprima in Congedo e assenza includono:
-
-- **Calendario congedo e assenza** - I parametri di Congedo e assenza verranno spostati da **Parametri Risorse umane** a una nuova schermata chiamata **Parametri di congedo e assenza**. La nuova schermata include una nuova scheda **Calendario**. Questa anteprima abilita solo un sottoinsieme dei parametri. È possibile accedere alla nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**. I calendari includono:
-  - **Calendario aziendale** - Mostra tutte le richieste di permesso dei dipendenti. Le persone con il ruolo **Risorse umane** possono accedere a questo calendario dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.
-  - **Calendario team responsabile** - Mostra tutte le richieste di permesso dei diretti subalterni. I responsabili possono accedere al calendario dalla scheda **Team personale** in Dipendente self-service sotto **Congedo e assenza**. 
-
-- **Calendario festività congedo e assenza** - I tipi di congedo includono una nuova opzione **Giorni festivi**, utilizzata insieme al calendario orario di lavoro. I giorni definiti come festività e chiusure sono ora designati **Giorni festivi** quando vengono generati giorni lavorativi. Quando vengono elaborati gli accumuli, vengono apportate correzioni ai dipendenti assegnati al calendario per tenere conto delle festività che cadono in un giorno lavorativo.
-
-- **Controllo accumuli congedi** - Una nuova schermata consente di verificare quando gli accumuli sono stati elaborati ed eliminati, da tutti i dipendenti e dai singoli dipendenti. È possibile accedere a questa nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.
-
-- **Eliminazione accumuli congedi** - Ora è possibile eliminare i record di accumuli per specifici piani di congedo. È possibile accedere a questa nuova opzione dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**. Per i singoli dipendenti, questa opzione appare in **Congedo e assenza** nel profilo del dipendente. 
-
-- **Arrotondamento accumulo congedo** - Nuove opzioni di **Tipo di congedo** definiscono quale tipo di arrotondamento deve essere utilizzato per l'accumulo nonché la precisione decimale dell'arrotondamento durante il processo di accumulo. Quando gli accumuli vengono elaborati, l'arrotondamento e la precisione vengono applicati ai record degli accumuli. 
-
-- **configurare più tipi di congedo per un singolo piano di congedo** - Una nuova colonna nella programmazione degli accumuli di congedi per i tipi di congedi consente di definire più tipi di congedi in un piano di congedo e assenza con diverse programmazioni degli accumuli. Il campo **Tipo di congedo** precedente è stato rimosso. Al momento dell'iscrizione dei dipendenti, i saldi per i tipi di congedo ora vengono visualizzati in una tabella anziché nella parte superiore dello schermo.
-
-  > [!IMPORTANT]
-  > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.
-
-- **Utilizza equivalenza a tempo pieno di un dipendente** - Una nuova colonna nella programmazioni degli accumuli di congedi consente di utilizzare l'equivalenza a tempo pieno. Quando gli accumuli vengono elaborati, l'applicazione utilizza la posizione primaria del dipendente e l'equivalenza a tempo pieno per determinare l'importo dell'accumulo ripartito proporzionalmente.
-
-  > [!NOTE]
-  > Questa funzionalità è disponibile solo se si abilita **Configura più tipi di congedo per un singolo piano di congedo**. 
-
-## <a name="feedback"></a>Commenti e suggerimenti
+## <a name="send-us-feedback"></a>Invia commenti e suggerimenti
 
 Vogliamo ricevere commenti degli utenti riguardo l'utilizzo delle funzionalità di anteprima. Invitiamo gli utenti a pubblicare regolarmente i loro commenti relativi all'utilizzo di queste o altre funzionalità sui siti elencati di seguito:
 
 - [Community](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) - Questo sito è una risorsa eccellente dove gli utenti possono discutere casi d'uso, porre domande e ottenere informazioni dalla community.
-- Invitiamo gli utenti a indicare le funzionalità che vorrebbero fossero integrate nel prodotto o le modifiche che dovrebbero essere apportate alle funzionalità esistenti. Suggerire idee sui prodotti in [Idee per Human Resources](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+- Invitiamo gli utenti a indicare le funzionalità che vorrebbero fossero integrate nel prodotto o le modifiche che dovrebbero essere apportate alle funzionalità esistenti. Suggerire idee sui prodotti in [Idee per Human Resources](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).
     
 Si raccomanda di non includere dati personali (qualsiasi informazione che possa consentire l'identificazione dell'utente) nel riscontro o nei commenti sul prodotto inviati. Le informazioni raccolte potrebbero essere analizzate ulteriormente e non vengono utilizzate per soddisfare richieste in base alle normative sulla privacy applicabili. I dati personali raccolti separatamente in questi programmi sono soggetti all'[Informativa sulla privacy di Microsoft](https://privacy.microsoft.com/privacystatement).
 

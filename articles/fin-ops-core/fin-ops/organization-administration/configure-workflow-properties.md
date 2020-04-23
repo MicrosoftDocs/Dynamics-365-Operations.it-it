@@ -3,7 +3,7 @@ title: Configurare le proprietà del flusso di lavoro
 description: In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199438"
 ---
 # <a name="configure-workflow-properties"></a>Configurare le proprietà del flusso di lavoro
 
@@ -75,9 +75,11 @@ Per selezionare il modello di messaggio di posta elettronica che verrà utilizza
     5. Per personalizzare il testo, è possibile inserire segnaposto. Per istruzioni su come immettere un segnaposto, vedere il passaggio 3.
     6. Fare clic su **Chiudi**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Specificare quando verrà utilizzato il flusso di lavoro
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Specificare quando questo flusso di lavoro viene utilizzato con le condizioni di attivazione
 
-È possibile creare più flussi di lavoro basati sullo stesso tipo. Una società può creare ad esempio flussi di lavoro relativi alle richieste di acquisto per ciascun paese in cui opera, ad esempio Richieste di acquisto Danimarca e Richieste di acquisto Spagna. Se sono presenti più flussi di lavoro basati sullo stesso tipo, è necessario specificare quando verrà utilizzato ciascun flusso. In base all'esempio precedente, è necessario specificare le condizioni seguenti:
+È possibile creare più flussi di lavoro basati sullo stesso tipo di flusso di lavoro. Se sono presenti più flussi di lavoro basati sullo stesso tipo, è necessario specificare quando verrà utilizzato ciascun flusso utilizzando le condizioni di attivazione. Se le condizioni di attivazione non vengono soddisfatte, viene utilizzato il flusso di lavoro predefinito. Allo stesso modo, se esiste una sola configurazione del flusso di lavoro definita per un tipo di flusso di lavoro, tale configurazione del flusso di lavoro verrà utilizzata indipendentemente dalle condizioni di attivazione.
+
+Una società può creare ad esempio flussi di lavoro relativi alle richieste di acquisto per ciascun paese in cui opera, ad esempio Richieste di acquisto Danimarca e Richieste di acquisto Spagna con le seguenti condizioni:
 
 - Richieste di acquisto Danimarca: questo flusso di lavoro viene utilizzato quando sussiste la condizione paese = DK.
 - Richieste di acquisto Spagna: questo flusso di lavoro viene utilizzato quando sussiste la condizione paese = ES.
