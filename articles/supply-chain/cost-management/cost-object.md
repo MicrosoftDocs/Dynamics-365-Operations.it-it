@@ -2,7 +2,7 @@
 title: Oggetti di costo
 description: Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati. Un oggetto di costo è un'entità per cui costi e quantità sono accumulati. Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
@@ -19,66 +19,66 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6501e8d809d12df421ad081662d23a6b5005f39c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 50849a173e74ad88dd10c6a30ea66c91b936e165
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742139"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201780"
 ---
-# <a name="cost-objects"></a><span data-ttu-id="7af83-105">Oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="7af83-105">Cost objects</span></span>
+# <a name="cost-objects"></a><span data-ttu-id="f0184-105">Oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="f0184-105">Cost objects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7af83-106">Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati.</span><span class="sxs-lookup"><span data-stu-id="7af83-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="7af83-107">Un oggetto di costo è un'entità per cui costi e quantità sono accumulati.</span><span class="sxs-lookup"><span data-stu-id="7af83-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="7af83-108">Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore.</span><span class="sxs-lookup"><span data-stu-id="7af83-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
+<span data-ttu-id="f0184-106">Questo articolo fornisce le informazioni sugli oggetti di costo e illustra come i costi e le quantità sono accumulati.</span><span class="sxs-lookup"><span data-stu-id="f0184-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="f0184-107">Un oggetto di costo è un'entità per cui costi e quantità sono accumulati.</span><span class="sxs-lookup"><span data-stu-id="f0184-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="f0184-108">Un'entità oggetto di costo può essere un prodotto o varianti prodotto, ad esempio varianti per stile e colore.</span><span class="sxs-lookup"><span data-stu-id="f0184-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
 
-## <a name="cost-objects"></a><span data-ttu-id="7af83-109">Oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="7af83-109">Cost objects</span></span>
+## <a name="cost-objects"></a><span data-ttu-id="f0184-109">Oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="f0184-109">Cost objects</span></span>
 
-<span data-ttu-id="7af83-110">Nella pagina **Oggetti di costo** sono elencati tutti gli oggetti di costo registrati in un prodotto.</span><span class="sxs-lookup"><span data-stu-id="7af83-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="7af83-111">Gli oggetti di costo vengono definiti dai dati delle seguenti origini:</span><span class="sxs-lookup"><span data-stu-id="7af83-111">The cost objects are defined by data from the following sources:</span></span>
+<span data-ttu-id="f0184-110">Nella pagina **Oggetti di costo** sono elencati tutti gli oggetti di costo registrati in un prodotto.</span><span class="sxs-lookup"><span data-stu-id="f0184-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="f0184-111">Gli oggetti di costo vengono definiti dai dati delle seguenti origini:</span><span class="sxs-lookup"><span data-stu-id="f0184-111">The cost objects are defined by data from the following sources:</span></span>
 
--   <span data-ttu-id="7af83-112">Prodotto</span><span class="sxs-lookup"><span data-stu-id="7af83-112">Product</span></span>
--   <span data-ttu-id="7af83-113">Gruppo di dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="7af83-113">Product dimension group</span></span>
--   <span data-ttu-id="7af83-114">Gruppo di dimensioni di immagazzinamento</span><span class="sxs-lookup"><span data-stu-id="7af83-114">Storage dimension group</span></span>
--   <span data-ttu-id="7af83-115">Gruppo di dimensioni di tracciabilità</span><span class="sxs-lookup"><span data-stu-id="7af83-115">Tracking dimension group</span></span>
+-   <span data-ttu-id="f0184-112">Prodotto</span><span class="sxs-lookup"><span data-stu-id="f0184-112">Product</span></span>
+-   <span data-ttu-id="f0184-113">Gruppo di dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="f0184-113">Product dimension group</span></span>
+-   <span data-ttu-id="f0184-114">Gruppo di dimensioni di immagazzinamento</span><span class="sxs-lookup"><span data-stu-id="f0184-114">Storage dimension group</span></span>
+-   <span data-ttu-id="f0184-115">Gruppo di dimensioni di tracciabilità</span><span class="sxs-lookup"><span data-stu-id="f0184-115">Tracking dimension group</span></span>
 
-<span data-ttu-id="7af83-116">**Nota:** un oggetto di costo rappresenta un elemento di costo solo di tipo **Materiale diretto**.</span><span class="sxs-lookup"><span data-stu-id="7af83-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="7af83-117">Un oggetto di costo e un oggetto di magazzino differiscono nel modo in cui un oggetto di costo è definito dalle dimensioni inventariali selezionate per il rendiconto finanziario.</span><span class="sxs-lookup"><span data-stu-id="7af83-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="7af83-118">Ad esempio, un articolo ha la configurazione indicata di seguito:</span><span class="sxs-lookup"><span data-stu-id="7af83-118">For example, an item has the following configuration:</span></span>
+<span data-ttu-id="f0184-116">**Nota:** un oggetto di costo rappresenta un elemento di costo solo di tipo **Materiale diretto**.</span><span class="sxs-lookup"><span data-stu-id="f0184-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="f0184-117">Un oggetto di costo e un oggetto di magazzino differiscono nel modo in cui un oggetto di costo è definito dalle dimensioni inventariali selezionate per il rendiconto finanziario.</span><span class="sxs-lookup"><span data-stu-id="f0184-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="f0184-118">Ad esempio, un articolo ha la configurazione indicata di seguito:</span><span class="sxs-lookup"><span data-stu-id="f0184-118">For example, an item has the following configuration:</span></span>
 
--   <span data-ttu-id="7af83-119">**Sito:** Inventario fisico = Sì, Inventario finanziario = Sì</span><span class="sxs-lookup"><span data-stu-id="7af83-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
--   <span data-ttu-id="7af83-120">**Magazzino:** Inventario fisico = Sì, Inventario finanziario = No</span><span class="sxs-lookup"><span data-stu-id="7af83-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
--   <span data-ttu-id="7af83-121">**Batch n.:** Inventario fisico = Sì, Inventario finanziario = No</span><span class="sxs-lookup"><span data-stu-id="7af83-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="f0184-119">**Sito:** Inventario fisico = Sì, Inventario finanziario = Sì</span><span class="sxs-lookup"><span data-stu-id="f0184-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
+-   <span data-ttu-id="f0184-120">**Magazzino:** Inventario fisico = Sì, Inventario finanziario = No</span><span class="sxs-lookup"><span data-stu-id="f0184-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="f0184-121">**Batch n.:** Inventario fisico = Sì, Inventario finanziario = No</span><span class="sxs-lookup"><span data-stu-id="f0184-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
 
-<span data-ttu-id="7af83-122">Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e di oggetto di magazzino.</span><span class="sxs-lookup"><span data-stu-id="7af83-122">The following table shows what is a cost object and what is an inventory object.</span></span>
+<span data-ttu-id="f0184-122">Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e di oggetto di magazzino.</span><span class="sxs-lookup"><span data-stu-id="f0184-122">The following table shows what is a cost object and what is an inventory object.</span></span>
 
-| <span data-ttu-id="7af83-123">Tipo oggetto</span><span class="sxs-lookup"><span data-stu-id="7af83-123">Object type</span></span>      | <span data-ttu-id="7af83-124">Numero articolo</span><span class="sxs-lookup"><span data-stu-id="7af83-124">Item number</span></span> | <span data-ttu-id="7af83-125">Sito</span><span class="sxs-lookup"><span data-stu-id="7af83-125">Site</span></span> | <span data-ttu-id="7af83-126">Magazzino</span><span class="sxs-lookup"><span data-stu-id="7af83-126">Warehouse</span></span> | <span data-ttu-id="7af83-127">Batch n.</span><span class="sxs-lookup"><span data-stu-id="7af83-127">Batch No.</span></span> |
+| <span data-ttu-id="f0184-123">Tipo oggetto</span><span class="sxs-lookup"><span data-stu-id="f0184-123">Object type</span></span>      | <span data-ttu-id="f0184-124">Numero articolo</span><span class="sxs-lookup"><span data-stu-id="f0184-124">Item number</span></span> | <span data-ttu-id="f0184-125">Sito</span><span class="sxs-lookup"><span data-stu-id="f0184-125">Site</span></span> | <span data-ttu-id="f0184-126">Magazzino</span><span class="sxs-lookup"><span data-stu-id="f0184-126">Warehouse</span></span> | <span data-ttu-id="f0184-127">Batch n.</span><span class="sxs-lookup"><span data-stu-id="f0184-127">Batch No.</span></span> |
 |------------------|-------------|------|-----------|-----------|
-| <span data-ttu-id="7af83-128">Oggetto di costo</span><span class="sxs-lookup"><span data-stu-id="7af83-128">Cost object</span></span>      | <span data-ttu-id="7af83-129"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-129">x</span></span>           | <span data-ttu-id="7af83-130"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-130">x</span></span>    |           |           |
-| <span data-ttu-id="7af83-131">Oggetto di magazzino</span><span class="sxs-lookup"><span data-stu-id="7af83-131">Inventory object</span></span> | <span data-ttu-id="7af83-132"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-132">x</span></span>           | <span data-ttu-id="7af83-133"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-133">x</span></span>    |  <span data-ttu-id="7af83-134"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-134">x</span></span>        | <span data-ttu-id="7af83-135"> interno </span><span class="sxs-lookup"><span data-stu-id="7af83-135">x</span></span>         |
+| <span data-ttu-id="f0184-128">Oggetto di costo</span><span class="sxs-lookup"><span data-stu-id="f0184-128">Cost object</span></span>      | <span data-ttu-id="f0184-129"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-129">x</span></span>           | <span data-ttu-id="f0184-130"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-130">x</span></span>    |           |           |
+| <span data-ttu-id="f0184-131">Oggetto di magazzino</span><span class="sxs-lookup"><span data-stu-id="f0184-131">Inventory object</span></span> | <span data-ttu-id="f0184-132"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-132">x</span></span>           | <span data-ttu-id="f0184-133"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-133">x</span></span>    |  <span data-ttu-id="f0184-134"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-134">x</span></span>        | <span data-ttu-id="f0184-135"> interno </span><span class="sxs-lookup"><span data-stu-id="f0184-135">x</span></span>         |
 
-## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="7af83-136">Accumulo di costi e quantità</span><span class="sxs-lookup"><span data-stu-id="7af83-136">Accumulation of costs and quantities</span></span>
--   <span data-ttu-id="7af83-137">Il valore nel campo **Valore** è una somma dei valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="7af83-137">The value in the **Value** fieldis a sum of the following values:</span></span>
-    -   <span data-ttu-id="7af83-138">Importo costi fisico</span><span class="sxs-lookup"><span data-stu-id="7af83-138">Physical cost amount</span></span>
-    -   <span data-ttu-id="7af83-139">Importo costi finanziario</span><span class="sxs-lookup"><span data-stu-id="7af83-139">Financial cost amount</span></span>
-    -   <span data-ttu-id="7af83-140">Rettifiche</span><span class="sxs-lookup"><span data-stu-id="7af83-140">Adjustments</span></span>
--   <span data-ttu-id="7af83-141">Il valore nel campo **Quantità** è una somma dei valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="7af83-141">The value in the **Quantity** field is a sum of the following values:</span></span>
-    -   <span data-ttu-id="7af83-142">Ricevuto</span><span class="sxs-lookup"><span data-stu-id="7af83-142">Received</span></span>
-    -   <span data-ttu-id="7af83-143">Detratto</span><span class="sxs-lookup"><span data-stu-id="7af83-143">Deducted</span></span>
-    -   <span data-ttu-id="7af83-144">Quantità registrata</span><span class="sxs-lookup"><span data-stu-id="7af83-144">Posted quantity</span></span>
--   <span data-ttu-id="7af83-145">Il campo **Costo unitario medio** è un campo calcolato.</span><span class="sxs-lookup"><span data-stu-id="7af83-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="7af83-146">Il valore viene calcolato dividendo il valore di **Valore** per il valore di **Quantità**.</span><span class="sxs-lookup"><span data-stu-id="7af83-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
+## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="f0184-136">Accumulo di costi e quantità</span><span class="sxs-lookup"><span data-stu-id="f0184-136">Accumulation of costs and quantities</span></span>
+-   <span data-ttu-id="f0184-137">Il valore nel campo **Valore** è una somma dei valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="f0184-137">The value in the **Value** fieldis a sum of the following values:</span></span>
+    -   <span data-ttu-id="f0184-138">Importo costi fisico</span><span class="sxs-lookup"><span data-stu-id="f0184-138">Physical cost amount</span></span>
+    -   <span data-ttu-id="f0184-139">Importo costi finanziario</span><span class="sxs-lookup"><span data-stu-id="f0184-139">Financial cost amount</span></span>
+    -   <span data-ttu-id="f0184-140">Rettifiche</span><span class="sxs-lookup"><span data-stu-id="f0184-140">Adjustments</span></span>
+-   <span data-ttu-id="f0184-141">Il valore nel campo **Quantità** è una somma dei valori seguenti:</span><span class="sxs-lookup"><span data-stu-id="f0184-141">The value in the **Quantity** field is a sum of the following values:</span></span>
+    -   <span data-ttu-id="f0184-142">Ricevuto</span><span class="sxs-lookup"><span data-stu-id="f0184-142">Received</span></span>
+    -   <span data-ttu-id="f0184-143">Detratto</span><span class="sxs-lookup"><span data-stu-id="f0184-143">Deducted</span></span>
+    -   <span data-ttu-id="f0184-144">Quantità registrata</span><span class="sxs-lookup"><span data-stu-id="f0184-144">Posted quantity</span></span>
+-   <span data-ttu-id="f0184-145">Il campo **Costo unitario medio** è un campo calcolato.</span><span class="sxs-lookup"><span data-stu-id="f0184-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="f0184-146">Il valore viene calcolato dividendo il valore di **Valore** per il valore di **Quantità**.</span><span class="sxs-lookup"><span data-stu-id="f0184-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
 
-<span data-ttu-id="7af83-147">**Nota:** Il parametro **Includi valore fisico** non ha alcun effetto sui calcoli precedenti.</span><span class="sxs-lookup"><span data-stu-id="7af83-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
+<span data-ttu-id="f0184-147">**Nota:** Il parametro **Includi valore fisico** non ha alcun effetto sui calcoli precedenti.</span><span class="sxs-lookup"><span data-stu-id="f0184-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="7af83-148">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="7af83-148">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="f0184-148">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="f0184-148">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="7af83-149">Gruppo di dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="7af83-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
+[<span data-ttu-id="f0184-149">Gruppo di dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="f0184-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
 
-[<span data-ttu-id="7af83-150">Gruppo di dimensioni di immagazzinamento</span><span class="sxs-lookup"><span data-stu-id="7af83-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
+[<span data-ttu-id="f0184-150">Gruppo di dimensioni di immagazzinamento</span><span class="sxs-lookup"><span data-stu-id="f0184-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
 
-[<span data-ttu-id="7af83-151">Gruppo di dimensioni di tracciabilità</span><span class="sxs-lookup"><span data-stu-id="7af83-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
+[<span data-ttu-id="f0184-151">Gruppo di dimensioni di tracciabilità</span><span class="sxs-lookup"><span data-stu-id="f0184-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
 
-[<span data-ttu-id="7af83-152">Novità o modifiche</span><span class="sxs-lookup"><span data-stu-id="7af83-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="f0184-152">Novità o modifiche</span><span class="sxs-lookup"><span data-stu-id="f0184-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
-[<span data-ttu-id="7af83-153">Voci di costo</span><span class="sxs-lookup"><span data-stu-id="7af83-153">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="f0184-153">Voci di costo</span><span class="sxs-lookup"><span data-stu-id="f0184-153">Cost entries</span></span>](cost-entries.md)
 
 
 
