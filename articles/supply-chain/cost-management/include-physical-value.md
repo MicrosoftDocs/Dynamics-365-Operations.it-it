@@ -2,7 +2,7 @@
 title: Includi valore fisico
 description: Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
@@ -19,44 +19,44 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 834438f8389e295bbb992f0b8397ff45559690c3
-ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
+ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692999"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201734"
 ---
-# <a name="include-physical-value"></a><span data-ttu-id="78513-103">Includi valore fisico</span><span class="sxs-lookup"><span data-stu-id="78513-103">Include physical value</span></span>
+# <a name="include-physical-value"></a><span data-ttu-id="747ca-103">Includi valore fisico</span><span class="sxs-lookup"><span data-stu-id="747ca-103">Include physical value</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="78513-104">Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="78513-104">You use the Include physical value check box on the Inventory model FastTab of the Item model groups page to specify whether physically updated transactions are considered when the running average cost price is calculated for an item.</span></span>
+<span data-ttu-id="747ca-104">Si utilizza la casella di controllo Includi valore fisico nella scheda dettaglio Modello inventariale della pagina Gruppi di modelli di articolo per specificare se nel calcolo del prezzo di costo medio corrente dell'articolo vengono considerate le transazioni aggiornate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-104">You use the Include physical value check box on the Inventory model FastTab of the Item model groups page to specify whether physically updated transactions are considered when the running average cost price is calculated for an item.</span></span>
 
-<span data-ttu-id="78513-105">La casella di controllo **Includi valore fisico** ha i seguenti valori.</span><span class="sxs-lookup"><span data-stu-id="78513-105">The **Include physical value** check box has the following values.</span></span>
+<span data-ttu-id="747ca-105">La casella di controllo **Includi valore fisico** ha i seguenti valori.</span><span class="sxs-lookup"><span data-stu-id="747ca-105">The **Include physical value** check box has the following values.</span></span>
 
-| <span data-ttu-id="78513-106">Valore</span><span class="sxs-lookup"><span data-stu-id="78513-106">Value</span></span>    | <span data-ttu-id="78513-107">Risultato</span><span class="sxs-lookup"><span data-stu-id="78513-107">Result</span></span>                                                                                                                          |
+| <span data-ttu-id="747ca-106">Valore</span><span class="sxs-lookup"><span data-stu-id="747ca-106">Value</span></span>    | <span data-ttu-id="747ca-107">Risultato</span><span class="sxs-lookup"><span data-stu-id="747ca-107">Result</span></span>                                                                                                                          |
 |----------|---------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="78513-108">Selezionata</span><span class="sxs-lookup"><span data-stu-id="78513-108">Selected</span></span> | <span data-ttu-id="78513-109">Per calcolare il prezzo di costo medio corrente verranno utilizzate sia le transazioni aggiornate fisicamente sia le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="78513-109">Both physically updated transactions and financially updated transactions are used to calculate the running average cost price.</span></span> |
-| <span data-ttu-id="78513-110">Deselezionata</span><span class="sxs-lookup"><span data-stu-id="78513-110">Cleared</span></span>  | <span data-ttu-id="78513-111">Per calcolare il prezzo di costo medio corrente verranno utilizzate solo le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="78513-111">Only financially updated transactions are used to calculate the running average cost price.</span></span>                                     |
+| <span data-ttu-id="747ca-108">Selezionata</span><span class="sxs-lookup"><span data-stu-id="747ca-108">Selected</span></span> | <span data-ttu-id="747ca-109">Per calcolare il prezzo di costo medio corrente verranno utilizzate sia le transazioni aggiornate fisicamente sia le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-109">Both physically updated transactions and financially updated transactions are used to calculate the running average cost price.</span></span> |
+| <span data-ttu-id="747ca-110">Deselezionata</span><span class="sxs-lookup"><span data-stu-id="747ca-110">Cleared</span></span>  | <span data-ttu-id="747ca-111">Per calcolare il prezzo di costo medio corrente verranno utilizzate solo le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-111">Only financially updated transactions are used to calculate the running average cost price.</span></span>                                     |
 
-<span data-ttu-id="78513-112">La casella di controllo ha effetti leggermente diversi a seconda del modello inventariale in uso.</span><span class="sxs-lookup"><span data-stu-id="78513-112">The check box has slightly different effects, depending on the inventory model that you use.</span></span>
+<span data-ttu-id="747ca-112">La casella di controllo ha effetti leggermente diversi a seconda del modello inventariale in uso.</span><span class="sxs-lookup"><span data-stu-id="747ca-112">The check box has slightly different effects, depending on the inventory model that you use.</span></span>
 
--   <span data-ttu-id="78513-113">Se si seleziona la casella di controllo **Includi valore fisico** quando si utilizza il modello inventariale FIFO (First in, first out), LIFO (Last in, first out) o Data LIFO, con la chiusura dell'inventario verranno apportate rettifiche anche alle transazioni aggiornate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="78513-113">If you select the **Include physical value** check box when you use the FIFO (First in, first out), LIFO (Last in, first out), or LIFO date inventory model, inventory close also makes adjustments to physically updated transactions.</span></span>
--   <span data-ttu-id="78513-114">Se non si seleziona la casella di controllo **Includi valore fisico** con questi modelli inventariali, con la chiusura dell'inventario verranno eseguite compensazioni solo per le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="78513-114">If you don't select the **Include physical value** check box when you use these inventory models, inventory close makes settlements only to financially updated transactions.</span></span>
--   <span data-ttu-id="78513-115">Se si utilizzano i modelli inventariali media ponderata o data media ponderata, la chiusura inventario determinerà la compensazione solo delle transazioni aggiornate finanziariamente, indipendentemente dalla selezione della casella di controllo **Includi valore fisico**.</span><span class="sxs-lookup"><span data-stu-id="78513-115">When you use the weighted average or weighted average date inventory model, inventory close settles only financially updated transactions, regardless of whether you select the **Include physical value** check box.</span></span>
+-   <span data-ttu-id="747ca-113">Se si seleziona la casella di controllo **Includi valore fisico** quando si utilizza il modello inventariale FIFO (First in, first out), LIFO (Last in, first out) o Data LIFO, con la chiusura dell'inventario verranno apportate rettifiche anche alle transazioni aggiornate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-113">If you select the **Include physical value** check box when you use the FIFO (First in, first out), LIFO (Last in, first out), or LIFO date inventory model, inventory close also makes adjustments to physically updated transactions.</span></span>
+-   <span data-ttu-id="747ca-114">Se non si seleziona la casella di controllo **Includi valore fisico** con questi modelli inventariali, con la chiusura dell'inventario verranno eseguite compensazioni solo per le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-114">If you don't select the **Include physical value** check box when you use these inventory models, inventory close makes settlements only to financially updated transactions.</span></span>
+-   <span data-ttu-id="747ca-115">Se si utilizzano i modelli inventariali media ponderata o data media ponderata, la chiusura inventario determinerà la compensazione solo delle transazioni aggiornate finanziariamente, indipendentemente dalla selezione della casella di controllo **Includi valore fisico**.</span><span class="sxs-lookup"><span data-stu-id="747ca-115">When you use the weighted average or weighted average date inventory model, inventory close settles only financially updated transactions, regardless of whether you select the **Include physical value** check box.</span></span>
 
-<span data-ttu-id="78513-116">**Esempio 1** È stata selezionata la casella di controllo**Includi valore fisico** e sono stati ricevuti i seguenti ordini fornitore:</span><span class="sxs-lookup"><span data-stu-id="78513-116">**Example 1** You've selected the **Include physical value** check box and receive the following purchase orders:</span></span>
+<span data-ttu-id="747ca-116">**Esempio 1** È stata selezionata la casella di controllo**Includi valore fisico** e sono stati ricevuti i seguenti ordini fornitore:</span><span class="sxs-lookup"><span data-stu-id="747ca-116">**Example 1** You've selected the **Include physical value** check box and receive the following purchase orders:</span></span>
 
--   <span data-ttu-id="78513-117">È stato fatturato un ordine acquisto per una quantità 2 a un prezzo di costo di 10,00 EUR aggiornato nel documento di trasporto.</span><span class="sxs-lookup"><span data-stu-id="78513-117">A purchase order for a quantity of 2 and a cost price of USD 10.00 that has been packing slip–updated.</span></span>
--   <span data-ttu-id="78513-118">Un ordine acquisto per una quantità 3 a un prezzo di costo di 12,00 EUR aggiornato nella fattura.</span><span class="sxs-lookup"><span data-stu-id="78513-118">A purchase order for a quantity of 3 and a cost price of USD 12.00 that has been invoice-updated.</span></span>
+-   <span data-ttu-id="747ca-117">È stato fatturato un ordine acquisto per una quantità 2 a un prezzo di costo di 10,00 EUR aggiornato nel documento di trasporto.</span><span class="sxs-lookup"><span data-stu-id="747ca-117">A purchase order for a quantity of 2 and a cost price of USD 10.00 that has been packing slip–updated.</span></span>
+-   <span data-ttu-id="747ca-118">Un ordine acquisto per una quantità 3 a un prezzo di costo di 12,00 EUR aggiornato nella fattura.</span><span class="sxs-lookup"><span data-stu-id="747ca-118">A purchase order for a quantity of 3 and a cost price of USD 12.00 that has been invoice-updated.</span></span>
 
-<span data-ttu-id="78513-119">In questo caso il prezzo di costo medio corrente sarà di 11,20 EUR = (2x10+3x12)/(2+3), poiché per calcolare il prezzo di costo verranno utilizzate sia le transazioni aggiornate fisicamente sia le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="78513-119">In this case, the running average cost price will be USD 11.20 = (2x10+3x12)/(2+3), because both physically updated transactions and financially updated transactions are used to calculate the cost price.</span></span> 
+<span data-ttu-id="747ca-119">In questo caso il prezzo di costo medio corrente sarà di 11,20 EUR = (2x10+3x12)/(2+3), poiché per calcolare il prezzo di costo verranno utilizzate sia le transazioni aggiornate fisicamente sia le transazioni aggiornate finanziariamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-119">In this case, the running average cost price will be USD 11.20 = (2x10+3x12)/(2+3), because both physically updated transactions and financially updated transactions are used to calculate the cost price.</span></span> 
 
-<span data-ttu-id="78513-120">**Esempio 2** Non è stata selezionata la casella di controllo **Includi valore fisico** e il prezzo di costo nell'impostazione dell'articolo è di 10,00 EUR.</span><span class="sxs-lookup"><span data-stu-id="78513-120">**Example 2** You haven't selected the **Include physical value** check box, and the cost price on the item setup is USD 10.00.</span></span> 
+<span data-ttu-id="747ca-120">**Esempio 2** Non è stata selezionata la casella di controllo **Includi valore fisico** e il prezzo di costo nell'impostazione dell'articolo è di 10,00 EUR.</span><span class="sxs-lookup"><span data-stu-id="747ca-120">**Example 2** You haven't selected the **Include physical value** check box, and the cost price on the item setup is USD 10.00.</span></span> 
 
--   <span data-ttu-id="78513-121">È stato ricevuto un ordine acquisto per una quantità 20 a un prezzo di costo di 12,00 EUR aggiornato nel documento di trasporto.</span><span class="sxs-lookup"><span data-stu-id="78513-121">You receive a purchase order for a quantity of 20 and a cost price of USD 12.00 that has been packing slip–updated.</span></span>
+-   <span data-ttu-id="747ca-121">È stato ricevuto un ordine acquisto per una quantità 20 a un prezzo di costo di 12,00 EUR aggiornato nel documento di trasporto.</span><span class="sxs-lookup"><span data-stu-id="747ca-121">You receive a purchase order for a quantity of 20 and a cost price of USD 12.00 that has been packing slip–updated.</span></span>
 
-<span data-ttu-id="78513-122">Quando viene registrato un ordine cliente, viene registrato automaticamente un importo costi di 10,00 EUR, poiché il prezzo di costo medio corrente non includerà transazioni registrate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="78513-122">When a sales order is posted, the posted cost amount is USD 10.00, because the running average cost price won't include physically posted transactions.</span></span> 
+<span data-ttu-id="747ca-122">Quando viene registrato un ordine cliente, viene registrato automaticamente un importo costi di 10,00 EUR, poiché il prezzo di costo medio corrente non includerà transazioni registrate fisicamente.</span><span class="sxs-lookup"><span data-stu-id="747ca-122">When a sales order is posted, the posted cost amount is USD 10.00, because the running average cost price won't include physically posted transactions.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="78513-123">A fini di confronto, se si seleziona la casella di controllo **Includi valore fisico** per questo articolo, quando si registra un ordine cliente, l'importo costi registrato sarà 12,00 EUR.</span><span class="sxs-lookup"><span data-stu-id="78513-123">For comparison, if you select the **Include physical value** check box for this item, when a sales order is posted, the posted cost amount will be USD 12.00.</span></span>
+> <span data-ttu-id="747ca-123">A fini di confronto, se si seleziona la casella di controllo **Includi valore fisico** per questo articolo, quando si registra un ordine cliente, l'importo costi registrato sarà 12,00 EUR.</span><span class="sxs-lookup"><span data-stu-id="747ca-123">For comparison, if you select the **Include physical value** check box for this item, when a sales order is posted, the posted cost amount will be USD 12.00.</span></span>

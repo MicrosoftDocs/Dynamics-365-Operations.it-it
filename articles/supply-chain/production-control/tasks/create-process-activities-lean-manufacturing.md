@@ -2,7 +2,7 @@
 title: Creare le attività di processo per la lean manufacturing
 description: Creare un'attività di processo per lean manufacturing.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,87 +10,87 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 767d63327da0c9d4666bd3ef869417e809c81779
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: dc93f3f696f470d7e2f174bd3342f0877e0b4e74
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149217"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212160"
 ---
-# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="49b3a-103">Creare le attività di processo per la lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="49b3a-103">Create process activities for lean manufacturing</span></span>
+# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="e7d62-103">Creare le attività di processo per la lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="e7d62-103">Create process activities for lean manufacturing</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="49b3a-104">Creare un'attività di processo per lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="49b3a-104">Create a process activity for lean manufacturing.</span></span> 
+<span data-ttu-id="e7d62-104">Creare un'attività di processo per lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="e7d62-104">Create a process activity for lean manufacturing.</span></span> 
 
-<span data-ttu-id="49b3a-105">Prerequisiti:</span><span class="sxs-lookup"><span data-stu-id="49b3a-105">Prerequisites:</span></span> 
+<span data-ttu-id="e7d62-105">Prerequisiti:</span><span class="sxs-lookup"><span data-stu-id="e7d62-105">Prerequisites:</span></span> 
 
-1. <span data-ttu-id="49b3a-106">Un flusso di produzione e una versione non attiva devono essere creati.</span><span class="sxs-lookup"><span data-stu-id="49b3a-106">A production flow and version that is not active must be created.</span></span>
+1. <span data-ttu-id="e7d62-106">Un flusso di produzione e una versione non attiva devono essere creati.</span><span class="sxs-lookup"><span data-stu-id="e7d62-106">A production flow and version that is not active must be created.</span></span>
 
-2. <span data-ttu-id="49b3a-107">Una cella di lavoro deve essere creata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-107">A work cell must be created.</span></span>
+2. <span data-ttu-id="e7d62-107">Una cella di lavoro deve essere creata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-107">A work cell must be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="49b3a-108">Trovare la versione del flusso di produzione</span><span class="sxs-lookup"><span data-stu-id="49b3a-108">Find the production flow version</span></span>
-1. <span data-ttu-id="49b3a-109">Andare a Controllo produzione > Impostazioni > Flusso di produzione snella > Flussi di produzione.</span><span class="sxs-lookup"><span data-stu-id="49b3a-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="49b3a-110">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="49b3a-111">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-111">In the list, click the link in the selected row.</span></span>
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="e7d62-108">Trovare la versione del flusso di produzione</span><span class="sxs-lookup"><span data-stu-id="e7d62-108">Find the production flow version</span></span>
+1. <span data-ttu-id="e7d62-109">Andare a Controllo produzione > Impostazioni > Flusso di produzione snella > Flussi di produzione.</span><span class="sxs-lookup"><span data-stu-id="e7d62-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="e7d62-110">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e7d62-111">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-111">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a><span data-ttu-id="49b3a-112">Creare una nuova attività</span><span class="sxs-lookup"><span data-stu-id="49b3a-112">Create a new activity</span></span>
-1. <span data-ttu-id="49b3a-113">Fare clic su Attività.</span><span class="sxs-lookup"><span data-stu-id="49b3a-113">Click Activities.</span></span>
-    * <span data-ttu-id="49b3a-114">Verificare che il flusso di produzione selezionato abbia una versione in bozza e selezionare tale versione.</span><span class="sxs-lookup"><span data-stu-id="49b3a-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
-2. <span data-ttu-id="49b3a-115">Fare clic su Crea nuova attività piano.</span><span class="sxs-lookup"><span data-stu-id="49b3a-115">Click Create new plan activity.</span></span>
-3. <span data-ttu-id="49b3a-116">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-116">Click Next.</span></span>
-4. <span data-ttu-id="49b3a-117">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="49b3a-117">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="49b3a-118">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="49b3a-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="49b3a-119">Si noti che il nome deve essere univoco per un flusso di produzione specificato per tutte le versioni.</span><span class="sxs-lookup"><span data-stu-id="49b3a-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
-6. <span data-ttu-id="49b3a-120">Nel campo Quantità di lavorazione immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="49b3a-120">In the Process quantity field, enter a number.</span></span>
-    * <span data-ttu-id="49b3a-121">Si noti che qualsiasi quantità di processo venga elaborata, questa è la quantità minima per processo per calcolare il costo della manodopera.</span><span class="sxs-lookup"><span data-stu-id="49b3a-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="49b3a-122">Se le quantità di processo deviano da questa quantità, uno scostamento costo della manodopera verrà creato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
-7. <span data-ttu-id="49b3a-123">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-123">Click Next.</span></span>
+## <a name="create-a-new-activity"></a><span data-ttu-id="e7d62-112">Creare una nuova attività</span><span class="sxs-lookup"><span data-stu-id="e7d62-112">Create a new activity</span></span>
+1. <span data-ttu-id="e7d62-113">Fare clic su Attività.</span><span class="sxs-lookup"><span data-stu-id="e7d62-113">Click Activities.</span></span>
+    * <span data-ttu-id="e7d62-114">Verificare che il flusso di produzione selezionato abbia una versione in bozza e selezionare tale versione.</span><span class="sxs-lookup"><span data-stu-id="e7d62-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="e7d62-115">Fare clic su Crea nuova attività piano.</span><span class="sxs-lookup"><span data-stu-id="e7d62-115">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="e7d62-116">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-116">Click Next.</span></span>
+4. <span data-ttu-id="e7d62-117">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="e7d62-117">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="e7d62-118">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="e7d62-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="e7d62-119">Si noti che il nome deve essere univoco per un flusso di produzione specificato per tutte le versioni.</span><span class="sxs-lookup"><span data-stu-id="e7d62-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
+6. <span data-ttu-id="e7d62-120">Nel campo Quantità di lavorazione immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="e7d62-120">In the Process quantity field, enter a number.</span></span>
+    * <span data-ttu-id="e7d62-121">Si noti che qualsiasi quantità di processo venga elaborata, questa è la quantità minima per processo per calcolare il costo della manodopera.</span><span class="sxs-lookup"><span data-stu-id="e7d62-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="e7d62-122">Se le quantità di processo deviano da questa quantità, uno scostamento costo della manodopera verrà creato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
+7. <span data-ttu-id="e7d62-123">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-123">Click Next.</span></span>
 
-## <a name="select-the-work-cell"></a><span data-ttu-id="49b3a-124">Selezionare la cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="49b3a-124">Select the work cell</span></span>
-1. <span data-ttu-id="49b3a-125">Nel campo Cella di lavoro fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="49b3a-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="49b3a-126">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-126">In the list, click the link in the selected row.</span></span>
+## <a name="select-the-work-cell"></a><span data-ttu-id="e7d62-124">Selezionare la cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="e7d62-124">Select the work cell</span></span>
+1. <span data-ttu-id="e7d62-125">Nel campo Cella di lavoro fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="e7d62-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="e7d62-126">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-126">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a><span data-ttu-id="49b3a-127">Definire gli aggiornamenti di inventario</span><span class="sxs-lookup"><span data-stu-id="49b3a-127">Define the inventory updates</span></span>
-1. <span data-ttu-id="49b3a-128">Selezionare o deselezionare la casella di controllo Aggiorna entrata disponibile.</span><span class="sxs-lookup"><span data-stu-id="49b3a-128">Select or clear the Update on hand receipt check box.</span></span>
-    * <span data-ttu-id="49b3a-129">Se Aggiorna disponibilità = No, è possibile definire l'attività in modo da ricevere un prodotto semilavorato (l'attività non raggiunge il livello DBA successivo).</span><span class="sxs-lookup"><span data-stu-id="49b3a-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="49b3a-130">È inoltre possibile scegliere di utilizzare prodotti semilavorati.</span><span class="sxs-lookup"><span data-stu-id="49b3a-130">You can also select to consume semi-finished products.</span></span>  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="e7d62-127">Definire gli aggiornamenti di inventario</span><span class="sxs-lookup"><span data-stu-id="e7d62-127">Define the inventory updates</span></span>
+1. <span data-ttu-id="e7d62-128">Selezionare o deselezionare la casella di controllo Aggiorna entrata disponibile.</span><span class="sxs-lookup"><span data-stu-id="e7d62-128">Select or clear the Update on hand receipt check box.</span></span>
+    * <span data-ttu-id="e7d62-129">Se Aggiorna disponibilità = No, è possibile definire l'attività in modo da ricevere un prodotto semilavorato (l'attività non raggiunge il livello DBA successivo).</span><span class="sxs-lookup"><span data-stu-id="e7d62-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="e7d62-130">È inoltre possibile scegliere di utilizzare prodotti semilavorati.</span><span class="sxs-lookup"><span data-stu-id="e7d62-130">You can also select to consume semi-finished products.</span></span>  
 
-## <a name="define-the-picking-activities"></a><span data-ttu-id="49b3a-131">Definire le attività di prelievo</span><span class="sxs-lookup"><span data-stu-id="49b3a-131">Define the picking activities</span></span>
-1. <span data-ttu-id="49b3a-132">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-132">Click Next.</span></span>
-2. <span data-ttu-id="49b3a-133">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-133">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="49b3a-134">Un'attività di prelievo predefinita viene creata per l'ubicazione di entrata della cella di lavoro selezionata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
-3. <span data-ttu-id="49b3a-135">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="49b3a-135">Click Add.</span></span>
-    * <span data-ttu-id="49b3a-136">È possibile creare attività di prelievo aggiuntive per prodotti specifici che non sono approntate nell'attività di entrata della cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="49b3a-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
-4. <span data-ttu-id="49b3a-137">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-137">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="49b3a-138">Nel campo Numero articolo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="49b3a-138">In the Item number field, type a value.</span></span>
-6. <span data-ttu-id="49b3a-139">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="49b3a-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="49b3a-140">Con questa definizione, tutti i materiali utilizzati nell'attività vengono prelevati dal magazzino e dall'ubicazione di entrata predefiniti ad eccezione dell'articolo definito nella seconda attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="49b3a-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="49b3a-141">Questo articolo verrà prelevato da un magazzino e da un'ubicazione diversi.</span><span class="sxs-lookup"><span data-stu-id="49b3a-141">This item will be picked from a different warehouse and location.</span></span>  
-7. <span data-ttu-id="49b3a-142">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-142">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="49b3a-143">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="49b3a-143">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="49b3a-144">Selezionare o deselezionare la casella di controllo Registra scarti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-144">Select or clear the Register scrap check box.</span></span>
-10. <span data-ttu-id="49b3a-145">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-145">Click Next.</span></span>
+## <a name="define-the-picking-activities"></a><span data-ttu-id="e7d62-131">Definire le attività di prelievo</span><span class="sxs-lookup"><span data-stu-id="e7d62-131">Define the picking activities</span></span>
+1. <span data-ttu-id="e7d62-132">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-132">Click Next.</span></span>
+2. <span data-ttu-id="e7d62-133">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-133">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="e7d62-134">Un'attività di prelievo predefinita viene creata per l'ubicazione di entrata della cella di lavoro selezionata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
+3. <span data-ttu-id="e7d62-135">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="e7d62-135">Click Add.</span></span>
+    * <span data-ttu-id="e7d62-136">È possibile creare attività di prelievo aggiuntive per prodotti specifici che non sono approntate nell'attività di entrata della cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e7d62-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
+4. <span data-ttu-id="e7d62-137">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e7d62-138">Nel campo Numero articolo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="e7d62-138">In the Item number field, type a value.</span></span>
+6. <span data-ttu-id="e7d62-139">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="e7d62-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e7d62-140">Con questa definizione, tutti i materiali utilizzati nell'attività vengono prelevati dal magazzino e dall'ubicazione di entrata predefiniti ad eccezione dell'articolo definito nella seconda attività di prelievo.</span><span class="sxs-lookup"><span data-stu-id="e7d62-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="e7d62-141">Questo articolo verrà prelevato da un magazzino e da un'ubicazione diversi.</span><span class="sxs-lookup"><span data-stu-id="e7d62-141">This item will be picked from a different warehouse and location.</span></span>  
+7. <span data-ttu-id="e7d62-142">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-142">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="e7d62-143">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e7d62-143">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="e7d62-144">Selezionare o deselezionare la casella di controllo Registra scarti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-144">Select or clear the Register scrap check box.</span></span>
+10. <span data-ttu-id="e7d62-145">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-145">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a><span data-ttu-id="49b3a-146">Definire gli orari per le attività</span><span class="sxs-lookup"><span data-stu-id="49b3a-146">Define the activity times</span></span>
-1. <span data-ttu-id="49b3a-147">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-147">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="49b3a-148">La definizione di un runtime è richiesta.</span><span class="sxs-lookup"><span data-stu-id="49b3a-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="49b3a-149">Il runtime viene utilizzato per calcolare i costi e i tempi di lavorazione dei processi kanban.</span><span class="sxs-lookup"><span data-stu-id="49b3a-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="49b3a-150">I runtime non vengono utilizzati per calcolare il carico di capacità e il consumo, questo viene calcolato in base alla durata ciclo, derivata dall'attività della versione del flusso di produzione.</span><span class="sxs-lookup"><span data-stu-id="49b3a-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
-2. <span data-ttu-id="49b3a-151">Immettere un numero nel campo Tempo.</span><span class="sxs-lookup"><span data-stu-id="49b3a-151">In the Time field, enter a number.</span></span>
-3. <span data-ttu-id="49b3a-152">Digitare un valore nel campo Unità.</span><span class="sxs-lookup"><span data-stu-id="49b3a-152">In the Unit field, type a value.</span></span>
-4. <span data-ttu-id="49b3a-153">Selezionare l'unità di tempo.</span><span class="sxs-lookup"><span data-stu-id="49b3a-153">Select the Time unit.</span></span>
-5. <span data-ttu-id="49b3a-154">Nel campo Per quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="49b3a-154">In the Per quantity field, enter a number.</span></span>
-6. <span data-ttu-id="49b3a-155">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="49b3a-155">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="49b3a-156">I tempi di attesa sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="49b3a-156">Queue times are optional.</span></span>  
-7. <span data-ttu-id="49b3a-157">Immettere un numero nel campo Tempo.</span><span class="sxs-lookup"><span data-stu-id="49b3a-157">In the Time field, enter a number.</span></span>
-8. <span data-ttu-id="49b3a-158">Digitare un valore nel campo Unità.</span><span class="sxs-lookup"><span data-stu-id="49b3a-158">In the Unit field, type a value.</span></span>
-9. <span data-ttu-id="49b3a-159">Selezionare l'unità di tempo.</span><span class="sxs-lookup"><span data-stu-id="49b3a-159">Select the Time unit.</span></span>
-10. <span data-ttu-id="49b3a-160">Nel campo Per quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="49b3a-160">In the Per quantity field, enter a number.</span></span>
-11. <span data-ttu-id="49b3a-161">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="49b3a-161">Click Next.</span></span>
-12. <span data-ttu-id="49b3a-162">Scegliere Fine.</span><span class="sxs-lookup"><span data-stu-id="49b3a-162">Click Finish.</span></span>
-13. <span data-ttu-id="49b3a-163">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="49b3a-163">Close the page.</span></span>
+## <a name="define-the-activity-times"></a><span data-ttu-id="e7d62-146">Definire gli orari per le attività</span><span class="sxs-lookup"><span data-stu-id="e7d62-146">Define the activity times</span></span>
+1. <span data-ttu-id="e7d62-147">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-147">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e7d62-148">La definizione di un runtime è richiesta.</span><span class="sxs-lookup"><span data-stu-id="e7d62-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="e7d62-149">Il runtime viene utilizzato per calcolare i costi e i tempi di lavorazione dei processi kanban.</span><span class="sxs-lookup"><span data-stu-id="e7d62-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="e7d62-150">I runtime non vengono utilizzati per calcolare il carico di capacità e il consumo, questo viene calcolato in base alla durata ciclo, derivata dall'attività della versione del flusso di produzione.</span><span class="sxs-lookup"><span data-stu-id="e7d62-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="e7d62-151">Immettere un numero nel campo Tempo.</span><span class="sxs-lookup"><span data-stu-id="e7d62-151">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="e7d62-152">Digitare un valore nel campo Unità.</span><span class="sxs-lookup"><span data-stu-id="e7d62-152">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="e7d62-153">Selezionare l'unità di tempo.</span><span class="sxs-lookup"><span data-stu-id="e7d62-153">Select the Time unit.</span></span>
+5. <span data-ttu-id="e7d62-154">Nel campo Per quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="e7d62-154">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="e7d62-155">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e7d62-155">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e7d62-156">I tempi di attesa sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="e7d62-156">Queue times are optional.</span></span>  
+7. <span data-ttu-id="e7d62-157">Immettere un numero nel campo Tempo.</span><span class="sxs-lookup"><span data-stu-id="e7d62-157">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="e7d62-158">Digitare un valore nel campo Unità.</span><span class="sxs-lookup"><span data-stu-id="e7d62-158">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="e7d62-159">Selezionare l'unità di tempo.</span><span class="sxs-lookup"><span data-stu-id="e7d62-159">Select the Time unit.</span></span>
+10. <span data-ttu-id="e7d62-160">Nel campo Per quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="e7d62-160">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="e7d62-161">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="e7d62-161">Click Next.</span></span>
+12. <span data-ttu-id="e7d62-162">Scegliere Fine.</span><span class="sxs-lookup"><span data-stu-id="e7d62-162">Click Finish.</span></span>
+13. <span data-ttu-id="e7d62-163">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="e7d62-163">Close the page.</span></span>
 
