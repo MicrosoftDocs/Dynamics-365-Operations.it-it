@@ -1,30 +1,30 @@
 ---
 title: Approvare e confermare gli ordini fornitore
-description: In questo argomento vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l'effetto dell'attivazione di gestione delle modifiche sui PO.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: Questo argomento descrive gli stati di un ordine fornitore dopo che è stato creato e l'effetto dell'abilitazione della gestione delle modifiche sul POS.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813433"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207996"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare gli ordini fornitore
 
@@ -69,9 +69,10 @@ In alcuni casi, potrebbe essere necessario modificare un ordine fornitore dopo i
 
 Se l'ordine fornitore è stato creato utilizzando un processo di gestione delle modifiche, è possibile apportare modifiche richiamando l'ordine oppure, se l'ordine è già stato approvato, utilizzando l'azione **Richiedi modifica**. In questo caso, lo stato di approvazione viene nuovamente modificato in **Bozza**, ed è quindi possibile modificare l'ordine. Dopo avere apportato le modifiche, potrebbe essere necessario inviare di nuovo il PO per la riapprovazione. È possibile configurare i tipi di modifiche che richiedono la riapprovazione utilizzando una regola dei criteri **Regola di riapprovazione per gli ordini fornitore** nella pagina **Criteri acquisto**.
 
-Se parte della quantità ordinata per una riga dell'ordine fornitore è stata consegnata, non è possibile modificare la quantità ordinata. Tuttavia, è possibile modificare la quantità **Rimanente consegna** nella riga. È quindi possibile utilizzare l'azione **Finalizza** per annullare le righe e impedire l'ulteriore elaborazione. 
+Se parte della quantità ordinata per una riga dell'ordine fornitore è stata consegnata, non è possibile modificare la quantità ordinata quando l'ordine fornitore si trova in **Bozze**. Tuttavia, è possibile modificare la quantità **Rimanente consegna** nella riga per l'ordine fornitore che si trova in **Bozze**.
 
-Dopo che un ordine è stato confermato non è possibile eliminarlo. Tuttavia, è possibile annullare la quantità totale o la quantità rimanente in un ordine, purché la quantità non sia stata ricevuta o fatturata.
+Dopo che un ordine è stato confermato non è possibile eliminarlo. Tuttavia, è possibile annullare la quantità totale o la quantità rimanente in un ordine, purché la quantità non sia stata ricevuta o fatturata. È quindi possibile utilizzare l'azione **Finalizza** per prevenire l'ulteriore elaborazione. 
+
 
 ## <a name="canceling-purchase-orders"></a>Annullamento di ordini fornitore
 

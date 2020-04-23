@@ -3,7 +3,7 @@ title: Elaborare l'idoneità di iscrizione
 description: In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0344c48460a7d1540481e09ba106526e119de72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009489"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230018"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
-
-[!include [banner](includes/preview-feature.md)]
 
 In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 
@@ -37,10 +35,10 @@ In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità d
 
    | Campo | Descrizione |
    | --- | --- |
-   | Periodo di iscrizione | Il periodo di iscrizione per il quale elaborare l'idoneità di iscrizione. |
-   | Persona giuridica | La persona giuridica per la quale elaborare l'idoneità di iscrizione. |
-   | Lavoro | Il lavoratore per il quale elaborare l'idoneità di iscrizione. Se questo campo viene lasciato vuoto, l'idoneità di iscrizione verrà elaborata per tutti i lavoratori. |
-   | Piano di benefit | Il piano di benefit per il quale elaborare l'idoneità di iscrizione.
+   | **Periodo di iscrizione** | Il periodo di iscrizione per il quale elaborare l'idoneità di iscrizione. |
+   | **Persona giuridica** | La persona giuridica per la quale elaborare l'idoneità di iscrizione. |
+   | **Lavoro** | Il lavoratore per il quale elaborare l'idoneità di iscrizione. Se questo campo viene lasciato vuoto, l'idoneità di iscrizione verrà elaborata per tutti i lavoratori. |
+   | **Piano benefit** | Il piano di benefit per il quale elaborare l'idoneità di iscrizione.
 
 3. Se si desidera eseguire l'elaborazione in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 
@@ -53,3 +51,24 @@ In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità d
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
+
+## <a name="view-process-results"></a>Visualizzare i risultati del processo
+
+In questo articolo viene descritto come visualizzare i risultati del processo di idoneità.
+
+1.  Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Risultati processo**.
+
+2.  Nel modulo **Risultati processo** sono specificati i seguenti campi:
+
+   | Campo | descrizione |
+   | --- | --- |
+   | **ID processo** | L'ID univoco per la combinazione di lavoratore, persona giuridica ed esecuzione del processo. |
+   | **Tipo di processo** | Identifica il processo che è stato eseguito. Ad esempio: Iscrizione. |
+   | **Timbro data/ora** | L'ora in cui è stato eseguito il processo di idoneità. |
+   | **Persona giuridica** | La persona giuridica specificata durante il processo di iscrizione. |
+   | **Lavoro** | Lavoratore elaborato. |
+   | **Piano | Il piano di benefit per cui è stata tentata l'iscrizione. |
+   | **Regola di idoneità** | La regola di idoneità che è stata elaborata. Se si è verificato un errore prima dell'esecuzione dell'idoneità, questo campo sarà vuoto. Ad esempio: se non è stato definito un compenso per un lavoratore, il processo di idoneità non verrà eseguito e questo campo verrà lasciato vuoto. |
+   | **Stato risultati** | Questo sarà Idoneo o Non idoneo. Lo stato del risultato sarà Non idoneo se il lavoratore non ha soddisfatto i criteri della regola di idoneità, se al lavoratore mancano informazioni richieste come una frequenza di retribuzione o un compenso fisso o se nel piano di benefit mancano informazioni che impediscono ai lavoratori di essere iscritti. |
+   | **Messaggio risultati** | Indica perché un lavoratore non è idoneo per un piano di benefit o se è stata approvata la regola di idoneità. |
+

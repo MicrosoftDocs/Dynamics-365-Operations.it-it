@@ -3,7 +3,7 @@ title: Abilitare ADLS in un ambiente di Dynamics 365 Commerce
 description: Questo argomento spiega come abilitare e testare Azure Data Lake Storage (ADLS) per un ambiente di Dynamics 365 Commerce, che è un prerequisito per abilitare i suggerimenti sui prodotti.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154438"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259750"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Abilitare ADLS in un ambiente di Dynamics 365 Commerce
 
@@ -48,7 +48,8 @@ Per ulteriori informazioni su ADLS, vedere la [documentazione ufficiale di ADLS]
   
 ## <a name="configuration-steps"></a>Passaggi di configurazione
 
-Questa sezione illustra i passaggi di configurazione necessari per abilitare ADLS in un ambiente.
+Questa sezione illustra le fasi di configurazione necessarie per abilitare ADLS in un ambiente in relazione ai consigli sul prodotto.
+Per una panoramica più approfondita dei passaggi necessari per abilitare ADLS, vedere [Rendere disponibile l'archivio entità come Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>Abilitare ADLS nell'ambiente
 
@@ -91,6 +92,8 @@ Se non è già stato fatto, seguire la procedura per [abilitare la personalizzaz
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
+[Rendere disponibile l'archivio entità come Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
 [Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Se non è già stato fatto, seguire la procedura per [abilitare la personalizzaz
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
-
-

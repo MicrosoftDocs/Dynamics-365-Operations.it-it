@@ -2,7 +2,7 @@
 title: Strategia risolutore per la configurazione prodotto
 description: In questo argomento viene descritto come utilizzare la strategia risolutore per ottimizzare le prestazioni della configurazione prodotto.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 241e1ae9bfd347695d7a2dbb7b3e71a7d49c2b93
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5ec7e81c3a0135b075ecb88ab5fc9e7c8b30588a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814538"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209354"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
@@ -43,7 +43,7 @@ Il concetto di strategia risolutore ora include le seguenti strategie:
 
 ## <a name="solver-strategy"></a>Strategia risolutore 
 
-Un modello di configurazione prodotto può essere formulato come un [problema di soddisfacimento di vincoli (Constraint Satisfaction Problem, CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) fornisce due tipi di strategia risolutore per risolvere i problemi CSP che possono essere utilizzati dai modelli di configurazione del prodotto. Queste strategie risolutore si basano sull'[euristica](https://techterms.com/definition/heuristic), utilizzata per determinare l'ordine in cui le variabili dei problemi CSP vengono prese in considerazione durante la risoluzione del problema. L'euristica può influire in modo significativo sulle prestazioni quando si risolve un problema o una classe di problemi.
+Un modello di configurazione prodotto può essere formulato come un [problema di soddisfacimento di vincoli (Constraint Satisfaction Problem, CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation Microsoft Solver Foundation (MSF) fornisce due tipi di strategia risolutore per risolvere i problemi CSP che possono essere utilizzati dai modelli di configurazione del prodotto. Queste strategie risolutore si basano sull'[euristica](https://techterms.com/definition/heuristic), utilizzata per determinare l'ordine in cui le variabili dei problemi CSP vengono prese in considerazione durante la risoluzione del problema. L'euristica può influire in modo significativo sulle prestazioni quando si risolve un problema o una classe di problemi.
 
 La strategia del risolutore per i modelli di configurazione del prodotto determina quale risolutore viene utilizzato con l'euristica. Le strategie **Predefinita**, **Prima domini minimi** e **Dall'alto in basso** utilizzano i due risolutori di MSF, mentre la strategia **Z3** utilizza il risolutore Z3. 
 

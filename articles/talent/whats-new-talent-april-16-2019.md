@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897927"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197269"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novità o modifiche in Dynamics 365 Talent (16 aprile 2019)
 
@@ -46,10 +46,6 @@ Le modifiche descritte in questo sezione sono valide per la build numero 8.1.223
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Le entità di paese di retribuzione, livello retributivo, opzione di benefit e tipo di competenza di Common Data Service sono state aggiornate per includere il supporto del campo del cliente
 
 In questa versione, queste entità di Common Data Service sono state aggiornate con la possibilità di includere il campo personalizzato aggiunto tramite Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nuovo supporto di entità Common Data Service : Regole di distribuzione incentivi retribuzione, Piano di retribuzione variabile, Retribuzione variabile
-
-In questa versione, le entità Regole di distribuzione incentivi retribuzione, Piano di retribuzione variabile, Retribuzione variabile sono state aggiunte a Common Data Service. Queste entità supportano anche i campi personalizzati aggiunti tramite Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemi di aggiornamento di PowerBI (314342)
 
@@ -93,6 +89,6 @@ Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi
 
 ### <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
 
-Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento.
+Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento.
 
 

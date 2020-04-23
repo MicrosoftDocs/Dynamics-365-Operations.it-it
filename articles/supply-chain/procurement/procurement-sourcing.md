@@ -2,14 +2,14 @@
 title: Home page di approvvigionamento
 description: Sono elencati gli argomenti della Guida e altre risorse disponibili per l'approvvigionamento.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813388"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209216"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
@@ -58,7 +58,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [Verificare l'inventario spedizione tramite la collaborazione fornitore](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Collaborare con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md) (versioni di febbraio 2016 e maggio 2016 di Dynamics AX solo)
--   [Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Finance and Operations)
+-   [Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Finance and Operations )
 -   [Area di lavoro mobile di collaborazione fornitore](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestione dei prodotti di approvvigionamento

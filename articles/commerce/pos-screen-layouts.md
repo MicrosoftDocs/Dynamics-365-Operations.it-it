@@ -1,9 +1,9 @@
 ---
-title: Layout delle schermate per il POS
+title: Configurazioni visive dell'interfaccia utente POS
 description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023090"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261469"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layout delle schermate per il POS
+# <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
-
-L'interfaccia utente POS può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a punti vendita, registratori di cassa e/o agli utenti.
+L'interfaccia utente (UI) del punto vendita (POS) di Microsoft Dynamics 365 Commerce può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a negozi, registratori di cassa e/o utenti. Questo argomento fornisce informazioni su tali opzioni di configurazione.
 
 La figura di seguito mostra le relazioni tra le varie entità che costituiscono gli aspetti configurabili dell'interfaccia utente POS.
 
@@ -40,7 +39,7 @@ La figura di seguito mostra le relazioni tra le varie entità che costituiscono 
 
 ## <a name="visual-profile"></a>Profilo visivo
 
-I profili visivi vengono assegnati ai registratori di cassa e specificano gli elementi visivi specifici del registratore e condivisi tra gli utenti. Qualsiasi utente che accede al registratore di cassa visualizza gli stessi contenuti, colori e immagini.
+I profili visivi vengono assegnati ai registratori di cassa e specificano gli elementi visivi specifici del registratore e condivisi tra gli utenti. Ogni utente che accede al registro vede lo stesso tema, layout, colori e immagini.
 
 ![Schermo di benvenuto di POS con tema chiaro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 
 - **Numero di profilo**: il numero di profilo costituisce l'identificatore univoco per il profilo visivo.
 - **Descrizione**: è possibile specificare un nome significativo che contribuirà a identificare il profilo corretto per la specifica situazione.
-- **Tema**: gli utenti possono scegliere tra i temi chiari o scuri dell'applicazione. Il tema ha effetto sui colori di sfondo sul carattere e dell'applicazione.
+- **Tema** – È possibile scegliere tra temi **Chiari** e **Scuri** dell'applicazione. Il tema ha effetto sui colori di sfondo sul carattere e dell'applicazione.
 - **Colore accento**: il colore accento viene utilizzato nel POS per distinguere o evidenziare specifici elementi visivi ad esempio riquadri, pulsanti di comando e collegamenti ipertestuali. Questi elementi sono in genere elementi su cui è possibile eseguire azioni.
-- **Colore dell'intestazione** - Consente di configurare il colore dell'intestazione di pagina per soddisfare i requisiti di branding del rivenditore. Questa funzionalità è disponibile solo nella versione 1611 di Retail.
-- **Mostra data/ora** - Quando abilitate, la data e l'ora corrente saranno visualizzate nell'intestazione POS.
-- **Sfondi di accesso**: è possibile specificare un'immagine di sfondo per la schermata di accesso. Le dimensioni dei file di immagine di sfondo devono essere mantenute il più ridotte possibile in quanto la memorizzazione e il caricamento di file di grandi dimensioni può avere un impatto sul comportamento e sulle prestazioni dell'applicazione.
-- **Sfondo dell'applicazione**: è possibile specificare un'immagine di sfondo da utilizzare al posto del colore solido del tema in tutta l'applicazione. Per quanto riguarda gli sfondi dell'accesso, la dimensione del file deve essere tenuta il più piccola possibile.
+- **Colore dell'intestazione** - Consente di configurare il colore dell'intestazione di pagina per soddisfare i requisiti di branding del rivenditore.
+- **Combinazione di tipi di carattere** - È possibile selezionare tra combinazioni di caratteri **Standard** e **Grande**. La combinazione di tipi di carattere, influisce sulla dimensione del carattere in tutta l'applicazione. La selezione predefinita è **Standard**.
+- **Mostra sempre le etichette della barra dell'applicazione** - Quando questa opzione è attivata, il testo dell'etichetta è sempre visibile sotto i pulsanti della barra dell'applicazione.
+- **Layout** - È possibile selezionare tra i layout **Centrato** e **Destra**. Il layout influenza l'allineamento della casella di accesso nella schermata di accesso. La selezione predefinita è **Centrato**.
+- **Mostra data/ora** - Quando questa opzione è attivata, la data e l'ora correnti vengono visualizzate nell'intestazione POS e nella schermata di accesso.
+- **Tastiera** - È possibile selezionare tra **Valore predefinito impostato su tastiera del sistema operativo**e **Mostra tastierino numerico** per specificare la tastiera predefinita utilizzata per l'input nella schermata di accesso. Il tastierino numerico è una tastiera virtuale utilizzata principalmente per i dispositivi basati sul tocco. La selezione predefinita è **Valore predefinito impostato su tastiera del sistema operativo**.
+- **Immagine di logo** - È possibile specificare un'immagine del logo che viene visualizzata nella schermata di accesso. Si consiglia di utilizzare un'immagine con uno sfondo trasparente. La dimensione del file deve essere ridotta al minimo, poiché il comportamento e le prestazioni dell'applicazione possono essere influenzati quando i file di grandi dimensioni vengono archiviati e caricati.
+- **Sfondo di accesso**: è possibile specificare un'immagine di sfondo per la schermata di accesso. La dimensione del file delle immagini di sfondo deve essere ridotta al minimo.
+- **Sfondo**: è possibile specificare un'immagine di sfondo da utilizzare al posto del colore del tema in tutta l'applicazione. Per quanto riguarda le immagini di sfondo per la schermata di accesso, la dimensione del file deve essere ridotta al minimo.
+
+> [!NOTE]
+> Il layout di **Destra** e la visualizzazione data/ora non si applicano alla schermata di accesso in visualizzazione compatta.
 
 ## <a name="screen-layouts"></a>Layout schermo
 
-La configurazione del layout dello schermo determina le azioni, il contenuto e la posizione dei controlli dell'interfaccia utente nella schermata di benvenuto del POS e nella schermata della **transazione**.
+Le configurazioni del layout dello schermo determinano le azioni, il contenuto e il posizionamento dei controlli dell'interfaccia utente sulla schermata POS **Benvenuti** e **Transazione** .
 
 ![Vista layout schermo POS](../commerce/media/POS-Screen-Layout-View.png)
 
