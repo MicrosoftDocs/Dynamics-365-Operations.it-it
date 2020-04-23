@@ -3,7 +3,7 @@ title: Funzione ER TRANSLATE
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione TRANSLATE della creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040919"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201114"
 ---
-# <a name="TRANSLATE">Funzione ER TRANSLATE</a>
+# <a name=""></a><a name="TRANSLATE">Funzione ER TRANSLATE</a>
 
 [!include [banner](../includes/banner.md)]
 
-La funzione `TRANSLATE` restituisce la stringa di testo specificata come un valore *Stringa* dopo che tutta o parte di essa è stata sostituita con un'altra stringa.
+La funzione `TRANSLATE` restituisce un valore *Stringa* che contiene il risultato della sostituzione del carattere del testo specificato in caratteri di un altro set fornito.
 
 ## <a name="syntax"></a>Sintassi
 
@@ -53,13 +53,27 @@ Il testo da utilizzare in sostituzione.
 
 ## <a name="return-values"></a>Valori restituiti
 
-*Stringa*
+*String*
 
 Il valore di testo risultante.
 
-## <a name="example"></a>Esempio
+## <a name="usage-notes"></a>Note sull'utilizzo
 
-`TRANSLATE ("abcdef", "cd", "GH")` sostituisce il modello **"cd"** con la stringa **"GH"** e restituisce **"abGHef"**.
+La funzione `TRANSLATE` sostituisce un carattere alla volta. La funzione sostituisce il primo carattere dell'argomento `text` con il primo carattere dell'argomento `pattern`, quindi il secondo carattere e lo stesso flusso viene seguito fino al termine. Quando un carattere dagli argomenti `text` e `pattern` corrisponde, viene sostituito da un carattere dell'argomento `replacement` che si trova nella stessa posizione del carattere dell'argomento `pattern`. Se un carattere appare più volte nell'argomento `pattern`, viene utilizzata la mappatura dell'argomento `replacement` che corrisponde alla prima occorrenza di questo carattere.
+
+## <a name="example-1"></a>Esempio 1
+
+`TRANSLATE ("abcdef", "cd", "GH")` sostituisce il carattere **"c"** del testo **"abcdef"** specificato con il carattere **"G"** del testo `replacement` dovuto a quanto segue:
+-   Il carattere **"C"** è presentato nel testo `pattern` in prima posizione.
+-   La prima posizione del testo `replacement` contiene il carattere **"G"**.
+
+## <a name="example-2"></a>Esempio 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` restituisce **"abGdef"**.
+
+## <a name="example-3"></a>Esempio 3
+
+`TRANSLATE ("abccba", "abc", "123")` restituisce **"123321"**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

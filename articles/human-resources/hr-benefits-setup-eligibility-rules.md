@@ -3,7 +3,7 @@ title: Configurare le regole e le opzioni di idoneità
 description: Impostare le regole e le opzioni di idoneità in Gestione vantaggi in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009605"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229903"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurare le regole e le opzioni di idoneità
-
-[!include [banner](includes/preview-feature.md)]
 
 Dopo aver configurato i parametri necessari per Gestione benefit in Microsoft Dynamics 365 Human Resources, è possibile creare regole di idoneità, pacchetti, periodi e programmi da associare ai piani di benefit.
 
@@ -57,6 +55,7 @@ Durante l'iscrizione aperta, i dipendenti possono selezionare piani di benefit. 
    | **Categoria impiego** | La categoria di impiego del dipendente se **Usa categoria di impiego** è impostato su **Sì**. |
    | **Usa regola nuova assunzione** | Specifica se utilizzare il valore del periodo di nuova assunzione come parte della regola di idoneità ai benefit. |
    | **Periodo di iscrizione** | Il periodo di tempo in cui è consentita l'iscrizione di un nuovo assunto. Se si imposta anche questa opzione in Parametri, l'impostazione in Parametri è prioritaria. |
+   | **Usa lo stato di impiego precedente** | Specifica se utilizzare lo stato di impiego precedente del dipendente come parte della regola di idoneità ai benefit. Ad esempio, è possibile specificare una regola di idoneità che revoca un periodo di attesa di copertura per tutti i dipendenti che sono passati dallo stato **Licenziato** a **Occupato** entro 90 giorni dalla loro precedente occupazione. |
 
 4. Sotto **Criteri aggiuntivi**, selezionare le seguenti opzioni e aggiungere informazioni come necessario:
 

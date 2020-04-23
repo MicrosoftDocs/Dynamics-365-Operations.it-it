@@ -3,7 +3,7 @@ title: Creare un calendario orario di lavoro
 description: Definire un calendario orario di lavoro, festività e orari non lavorativi in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009581"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198029"
 ---
 # <a name="create-a-working-time-calendar"></a>Creare un calendario orario di lavoro
 
@@ -68,10 +68,6 @@ Impostare almeno un calendario orario di lavoro che mostri i giorni e le ore di 
 1. Nella pagina **Amministrazione organizzazione** selezionare **Orario non lavorativo**.
 
 2. Selezionare **Nuovo** e immettere un nome e la fascia oraria per l'orario non lavorativo.
-
-## <a name="leave-and-absence-preview-feature"></a>Funzionalità di anteprima Congedo e assenza
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 Se la funzionalità di anteprima per la correzione di giorni festivi di Congedo e assenza è stata abilitata, Human Resources utilizza le date di festività e chiusura per determinare il numero di giorni da rettificare per i dipendenti iscritti al calendario.
 
