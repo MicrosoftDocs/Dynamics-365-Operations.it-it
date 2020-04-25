@@ -2,7 +2,7 @@
 title: Garanzie sui cespiti e sui tipi di cespite
 description: In questo argomento viene descritto come impostare le garanzie sui cespiti e sui tipi di cespite in Gestione cespiti.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 75de9a51560dcd8fea7998425fee14a27e891972
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569710"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215403"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garanzie sui cespiti e sui tipi di cespite
 

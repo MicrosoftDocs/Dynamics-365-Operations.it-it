@@ -3,7 +3,7 @@ title: Area di lavoro pagamenti fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro Pagamenti fornitore. Nell'area di lavoro Pagamenti fornitore vengono visualizzate le informazioni correlate all'elaborazione dei pagamenti fornitore.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178548"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225015"
 ---
 # <a name="vendor-payments-workspace"></a>Area di lavoro pagamenti fornitore
 
@@ -36,7 +36,7 @@ La seguente impostazione deve essere completata per visualizzare i dati nelle ra
 1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
 2. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**. 
 2. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
-3. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **VendPaymentBIMeasure**. 
+3. Passare in **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **VendPaymentBIMeasureV2**. 
 
 ## <a name="my-work-view"></a>Visualizzazione Lavoro personale
 

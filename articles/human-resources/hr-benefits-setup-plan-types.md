@@ -3,7 +3,7 @@ title: Creare i tipi di piano
 description: Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 06a36f9f3fef54e7e06d616c9179374db4ce7115
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092369"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229696"
 ---
 # <a name="create-plan-types"></a>Creare i tipi di piano
-
-[!include [banner](includes/preview-feature.md)]
 
 Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano. Ad esempio, il tipo di piano Vita base avrebbe il codice di tipo di piano Vita perché è un tipo di piano di assicurazione sulla vita e deve essere conforme alle regole stabilite per il codice Vita. Un altro tipo di piano potrebbe essere Vita supplementare, anch'esso con il codice di tipo di piano Vita.
 
@@ -45,23 +43,23 @@ Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura son
 
    | Campo | Descrizione |
    | --- | --- |
-   | Tipo di piano | Nome univoco che identifica il tipo di piano. |
-   | Descrizione | Descrizione del tipo di piano. |
-   | Codice di tipo di piano | Selezionare un codice di tipo di piano dall'elenco a discesa di valori. L'elenco di codici di tipo di piano contiene tutti i tipi di piano supportati nella versione corrente. |
-   | Iscrizione simultanea | Specifica se un dipendente può iscriversi a più piani di benefit dello stesso tipo di piano o a un solo piano di benefit per tipo di piano. |
-   | Tipo di contatto | Specifica il ruolo del contatto personale. I valori sono vuoto, Persona a carico e Beneficiario. È possibile lasciare vuoto il campo Tipo di contatto se il tipo di piano non richiede una persona a carico o un beneficiario in funzione dell'opzione di copertura. |
+   | **Tipo di piano** | Nome univoco che identifica il tipo di piano. |
+   | **Descrizione** | Descrizione del tipo di piano. |
+   | **Codice tipo di piano** | Selezionare un codice di tipo di piano dall'elenco a discesa di valori. L'elenco di codici di tipo di piano contiene tutti i tipi di piano supportati nella versione corrente. |
+   | **Iscrizione simultanea** | Specifica se un dipendente può iscriversi a più piani di benefit dello stesso tipo di piano o a un solo piano di benefit per tipo di piano. |
+   | **Tipo di contatto** | Specifica il ruolo del contatto personale. I valori sono vuoto, Persona a carico e Beneficiario. È possibile lasciare vuoto il campo **Tipo di contatto** se il tipo di piano non richiede una persona a carico o un beneficiario in funzione dell'opzione di copertura. |
 
 4. Per configurare opzioni di eventi reali, selezionare **Azioni**, quindi selezionare **Opzioni di eventi reali**. Specificare i valori per i seguenti campi:
 
    | Campo | Descrizione |
    | --- | --- |
-   | Tipo di piano | Il tipo di piano per il quale configurare le opzioni di eventi reali. |
-   | ID tipo di evento reale | L'ID del tipo di evento reale. |
-   | Consenti annullamento | Specifica se un dipendente può annullare un piano di benefit durante l'evento reale. |
-   |Modifica opzione di copertura | Specifica se un dipendente può modificare le opzioni di copertura durante l'evento reale. |
-   | Modifica in un nuovo piano | Specifica se un dipendente può modificare i piani durante l'evento reale. |
-   | Annulla piano automaticamente |Specifica se annullare automaticamente un piano durante l'evento reale. |
-   | Riapri automaticamente il controllo di idoneità | Specifica se riaprire automaticamente il controllo di idoneità di iscrizione di benefit durante l'evento reale. |
-   | Periodo di reporting | Specifica il periodo di reporting dell'evento reale, in giorni. **Nota**: se non si immette un importo, il sistema presuppone che la finestra di reporting sia zero e non elaborerà l'evento reale. |
+   | **Tipo di piano** | Il tipo di piano per il quale configurare le opzioni di eventi reali. |
+   | **ID tipo di evento reale** | L'ID del tipo di evento reale. |
+   | **Consenti annullamento** | Specifica se un dipendente può annullare un piano di benefit durante l'evento reale. |
+   | **Modifica opzione di copertura** | Specifica se un dipendente può modificare le opzioni di copertura durante l'evento reale. |
+   | **Modifica in un nuovo piano** | Specifica se un dipendente può modificare i piani durante l'evento reale. |
+   | **Annulla piano automaticamente** | Specifica se annullare automaticamente un piano durante l'evento reale. |
+   | **Riapri automaticamente il controllo di idoneità** | Specifica se riaprire automaticamente il controllo di idoneità di iscrizione di benefit durante l'evento reale. |
+   | **Periodo di reporting** | Specifica il periodo di reporting dell'evento reale, in giorni. **Nota**: se non si immette un importo, il sistema presuppone che la finestra di reporting sia zero e non elaborerà l'evento reale. |
 
 5. Selezionare **Salva**. 

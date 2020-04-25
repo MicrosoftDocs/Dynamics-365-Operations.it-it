@@ -1,9 +1,9 @@
 ---
 title: Crea suggerimenti con dati dimostrativi
-description: Questo documento fornisce una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
+description: Questo argomento fornisce una guida su come utilizzare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154251"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175551"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crea suggerimenti con dati dimostrativi
 
 [!include [banner](includes/banner.md)]
 
-Questo documento fornisce una guida su come sfruttare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
+Questo argomento fornisce una guida su come utilizzare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 
 I suggerimenti sul prodotto omnicanale forniscono un set di elenchi di prodotti curati in modo editoriale o generati a livello di programmazione. Gli elenchi possono essere utilizzati in vari scenari, in base alle esigenze aziendali. Per ulteriori informazioni sugli elenchi di suggerimenti sul prodotto, vedere [Panoramica dei suggerimenti sul prodotto](product-recommendations.md).
 
@@ -46,18 +46,19 @@ Ogni ambiente di tipo Onebox viene fornito con un set precaricato di dati dimost
 
 I dati sono strutturati nelle seguenti colonne.
 
-| Nome colonna         | Obbligatorio          | Descrizione                                                                                                                                 | Valori possibili                                                              |
+| Nome colonna         | Obbligatorio          | descrizione                                                                                                                                 | Possibili valori                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Il tipo di elenco di suggerimenti sul prodotto specifico che deve essere generato dal punto dei dati dimostrativi.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Il numero specifico dell'unità operativa in cui sono previsti i suggerimenti sui prodotti.                                        |                                                                              |
 | Categoria            |                    |    La categoria per cui deve essere restituito l'elenco specifico. Se non viene specificata alcuna categoria, l'elenco è solo per la parte superiore della gerarchia di navigazione.    |                                                                              |
 | SeedItemId          |                    |    Per gli elenchi che richiedono seed (RecoPeopleAlsoBuy e RecoCart) il prodotto per cui tali elenchi devono mostrare prodotti aggiuntivi.            |                                                                              |
+| Cliente           |                    |    Per gli elenchi che richiedono un identificativo cliente (RecoPicks).  Il valore predefinito "0" si applica a tutti i clienti.          |                                                                              |
 | ItemIds             | :heavy_check_mark: | Uno o più prodotti da restituire come risultato, separati da ";".                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Personalizzare i dati dimostrativi
-Puoi modificare i dati dimostrativi predefiniti con qualsiasi informazione su prodotto e categoria configurata nella sede centrale. Una volta aggiornato il file CSV, i suggerimenti sul prodotto restituiti ai clienti rifletteranno immediatamente le modifiche.
+Puoi modificare i dati dimostrativi predefiniti con qualsiasi informazione su prodotto e categoria configurata nella sede centrale. Dopo aver aggiornato il file CSV, i suggerimenti sul prodotto restituiti ai clienti rifletteranno immediatamente le modifiche.
 
-L'estensione contiene un file di dati chiamato RecoMockDataset.csv che consente di controllare il set di dati utilizzato per potenziare i risultati dei suggerimenti simulati. Il nome del file può essere controllato tramite la configurazione dell'estensione usando l'impostazione **ext.Recommendations.DemoFilePath**. In tal modo è possibile disporre di più set di dati che possono essere commutati facilmente attraverso la configurazione.
+L'estensione contiene un file di dati chiamato RecoMockDataset.csv, che consente di controllare il set di dati utilizzato per potenziare i risultati dei suggerimenti simulati. Il nome del file può essere controllato tramite la configurazione dell'estensione usando l'impostazione **ext.Recommendations.DemoFilePath**. In tal modo è possibile disporre di più set di dati che possono essere commutati facilmente attraverso la configurazione.
 
 
 ```xml

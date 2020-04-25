@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 580f0c885373006cb9cd955a61c41704a2ac9a94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186695"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249013"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La funzionalità che è stata introdotta in Microsoft Dynamics 365 for Finance and Operations versione 8.1 (ottobre 2018) consente di ridestinare e utilizzare la valuta di dichiarazione come seconda valuta di contabilizzazione. Questa funzionalità viene talvolta definita *valuta doppia*. Le modifiche per valuta doppia non possono essere disabilitate tramite una chiave di configurazione o un parametro. Poiché la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione, la modalità in cui la valuta di dichiarazione viene calcolata nella logica di registrazione è cambiata.
 

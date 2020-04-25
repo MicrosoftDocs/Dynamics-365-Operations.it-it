@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127979"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175110"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -47,6 +47,18 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Aree del prodotto interessate**         | Richiesta |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: entro il 1° luglio 2021 non verranno più supportati i report SSRS: **Registro IVA vendite, Registro IVA acquisti, Registro IVA riepilogativo UE - Riferimento funzione PL-00014**. Verrà introdotto un esempio di formato Excel per il file di audit standard con dichiarazione IVA (JPK_VDEK). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.11
+
+### <a name="norwegian-standard-main-accounts"></a>Conti principali standard per la Norvegia
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Riprogettazione  |
+| **Sostituita da un'altra funzionalità?**   | Sì (sostituito con parametri specifici dell'applicazione in formato ER) |
+| **Aree del prodotto interessate**         | Richiesta |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: entro il 1° aprile 2021, prevediamo di non supportare più la funzionalità relativa ai conti principali standard: campo di riferimento, tabella correlata, entità dei dati. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.7
 

@@ -3,7 +3,7 @@ title: Creare un piano di benefit
 description: Impostare piani di benefit in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009558"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230110"
 ---
 # <a name="create-a-benefits-plan"></a>Creare un piano di benefit
-
-[!include [banner](includes/preview-feature.md)]
 
 Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
    | Campo | Descrizione |
    | --- | --- |
-   | Pianifica | Identificatore univoco per il piano. |
-   | Descrizione | Descrizione del piano. |
-   | Tipo di piano | Quando si crea un nuovo piano, è necessario specificare il tipo di piano. Un tipo di piano è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano specifica se un dipendente può iscriversi a più piani di quel tipo, se i contatti sono beneficiari o persone a carico e definisce le opzioni di copertura. È possibile creare nuovi tipi di piano personalizzati per soddisfare le esigenze delle offerte di benefit. I principali tipi di piano di benefit sono: <ul><li>401.000</li><li>ADD</li><li>Dentale</li><li>Fitness</li><li>FSA</li><li>Reale</li><li>LTD</li><li>Medico</li><li>PTO</li><li>STD</li><li>Visione</li></ul> |
-   | Codice tipo di piano | Codice del tipo di piano. |
-   | Programma | Specifica un programma a cui assegnare facoltativamente il piano. |
-   | Pacchetto | Specifica un pacchetto a cui assegnare facoltativamente il piano. |
-   | Generale | Specifica se il piano è il piano generale dell'aggregazione a cui è assegnato. |
-   | Stato | Indica lo stato corrente del piano di benefit. Il valore predefinito è Attivo. Se si modifica lo stato in Inattivo, il piano non sarà disponibile come selezione durante l'iscrizione. |
-   | Ora e data di inizio validità | Data e ora di inizio validità del piano. Il valore predefinito è la data di sistema corrente. |
-   | Ora e data di fine validità | Data e ora di fine validità del piano (lo stato è Inattivo). 31/12/2154 (che significa mai) è il valore predefinito. |
+   | **Pianifica** | Identificatore univoco per il piano. |
+   | **Descrizione** | Descrizione del piano. |
+   | **Tipo di piano** | Quando si crea un nuovo piano, è necessario specificare il tipo di piano. Un tipo di piano è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano specifica se un dipendente può iscriversi a più piani di quel tipo, se i contatti sono beneficiari o persone a carico e definisce le opzioni di copertura. È possibile creare nuovi tipi di piano personalizzati per soddisfare le esigenze delle offerte di benefit. I principali tipi di piano di benefit sono: <ul><li>401.000</li><li>ADD</li><li>Dentale</li><li>Fitness</li><li>FSA</li><li>Reale</li><li>LTD</li><li>Medico</li><li>PTO</li><li>STD</li><li>Visione</li></ul> |
+   | **Codice tipo di piano** | Codice del tipo di piano. |
+   | **Programma** | Specifica un programma a cui assegnare facoltativamente il piano. |
+   | **Pacchetto** | Specifica un pacchetto a cui assegnare facoltativamente il piano. |
+   | **Generale** | Specifica se il piano è il piano generale dell'aggregazione a cui è assegnato. |
+   | **Stato** | Indica lo stato corrente del piano di benefit. Il valore predefinito è Attivo. Se si modifica lo stato in Inattivo, il piano non sarà disponibile come selezione durante l'iscrizione. |
+   | **Ora e data di inizio validità** | Data e ora di inizio validità del piano. Il valore predefinito è la data di sistema corrente. |
+   | **Ora e data di fine validità** | Data e ora di fine validità del piano (lo stato è Inattivo). 31/12/2154 (che significa mai) è il valore predefinito. |
 
 4. Nella scheda **Configurazione**, specificare i valori per i seguenti campi, a seconda del tipo di piano che si sta creando:
 
@@ -77,42 +75,42 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
    | Campo | Descrizione |
    | --- | --- |
-   | Consenti/continua iscrizione | Specifica se i dipendenti possono iscriversi al piano se soddisfano i requisiti di idoneità.</br></br>Se impostato su No, il piano non sarà disponibile per i dipendenti durante l'elaborazione dell'idoneità. |
-   | Iscrizione automatica dall'anno precedente | Specifica se iscrivere automaticamente nel piano un dipendente idoneo iscritto durante l'anno precedente. |
-   | Iscrizione automatica per impostazione predefinita | Specifica se selezionare il piano per l'iscrizione per impostazione predefinita. Il piano non è obbligatorio, quindi il dipendente può modificare la selezione predefinita. |
-   | Chiuso per nuove iscrizioni | Specifica se limitare il piano solo ai dipendenti idonei iscritti al piano l'anno precedente. |
-   | Piano obbligatorio | Specifica se iscrivere automaticamente i dipendenti al piano. I dipendenti non possono modificare la selezione. |
-   | Data di inizio validità | La data in cui il piano è stato creato nella società. |
-   | Conto fornitore (fornitore benefit) | Il fornitore a cui l'azienda paga i premi per il piano. |
-   | Nome (fornitore benefit) | Nome del fornitore. |
-   | Riferimento fornitore (fornitore benefit) | Il riferimento del fornitore per il piano. Ad esempio, il numero del piano di gruppo dell'azienda. |
-   | Altro riferimento (fornitore benefit) | Un altro riferimento del fornitore per il piano. Ad esempio, il numero di conto dell'azienda. |
-   | Valuta (fornitore benefit) | La valuta utilizzata per pagare i premi al fornitore. |
-   | Conto spese (fornitore benefit) | Il conto di contabilità generale utilizzato come conto spese per i premi del piano. |
-   | Conto fornitore (amministratore benefit) | Il fornitore retribuito dall'azienda per amministrare il piano. Se il piano è auto-amministrato, lasciare vuoto il campo. |
-   | Nome (amministratore benefit) | Nome del fornitore amministratore dei benefit. |
-   | Riferimento fornitore (amministratore benefit) | Il riferimento del fornitore amministratore per il piano. |
-   | Altro riferimento (amministratore benefit) | Un altro riferimento del fornitore amministratore per il piano. |
-   | Valuta (amministratore benefit) | La valuta utilizzata per pagare l'amministratore dei benefit. |
-   | Conto spese (amministratore benefit) | Il conto di contabilità generale utilizzato come conto spese per i costi associati all'amministrazione del piano. |
+   | **Consenti/continua iscrizione** | Specifica se i dipendenti possono iscriversi al piano se soddisfano i requisiti di idoneità.</br></br>Se impostato su No, il piano non sarà disponibile per i dipendenti durante l'elaborazione dell'idoneità. |
+   | **Iscrizione automatica dall'anno precedente** | Specifica se iscrivere automaticamente nel piano un dipendente idoneo iscritto durante l'anno precedente. |
+   | **Iscrizione automatica per impostazione predefinita** | Specifica se selezionare il piano per l'iscrizione per impostazione predefinita. Il piano non è obbligatorio, quindi il dipendente può modificare la selezione predefinita. |
+   | **Chiuso per nuove iscrizioni** | Specifica se limitare il piano solo ai dipendenti idonei iscritti al piano l'anno precedente. |
+   | **Piano obbligatorio** | Specifica se iscrivere automaticamente i dipendenti al piano. I dipendenti non possono modificare la selezione. |
+   | **Data di inizio validità** | La data in cui il piano è stato creato nella società. |
+   | **Conto fornitore** (fornitore benefit) | Il fornitore a cui l'azienda paga i premi per il piano. |
+   | **Nome** (fornitore benefit) | Nome del fornitore. |
+   | **Riferimento fornitore** (fornitore benefit) | Il riferimento del fornitore per il piano. Ad esempio, il numero del piano di gruppo dell'azienda. |
+   | **Altro riferimento** (fornitore benefit) | Un altro riferimento del fornitore per il piano. Ad esempio, il numero di conto dell'azienda. |
+   | **Valuta** (fornitore benefit) | La valuta utilizzata per pagare i premi al fornitore. |
+   | **Conto spese** (fornitore benefit) | Il conto di contabilità generale utilizzato come conto spese per i premi del piano. |
+   | **Conto fornitore** (amministratore benefit) | Il fornitore retribuito dall'azienda per amministrare il piano. Se il piano è auto-amministrato, lasciare vuoto il campo. |
+   | **Nome** (amministratore benefit) | Nome del fornitore amministratore dei benefit. |
+   | **Riferimento fornitore** (amministratore benefit) | Il riferimento del fornitore amministratore per il piano. |
+   | **Altro riferimento** (amministratore benefit) | Un altro riferimento del fornitore amministratore per il piano. |
+   | **Valuta** (amministratore benefit) | La valuta utilizzata per pagare l'amministratore dei benefit. |
+   | **Conto spese** (amministratore benefit) | Il conto di contabilità generale utilizzato come conto spese per i costi associati all'amministrazione del piano. |
 
 6. Nella scheda **Filtri**, filtrare come necessario. È possibile filtrare in base ai seguenti campi:
 
-   - Business Unit
-   - Reparto
-   - Persona giuridica
-   - Ubicazione
-   - Posizione
+   - **Business Unit**
+   - **Reparto**
+   - **Persona giuridica**
+   - **Ubicazione**
+   - **Posizione**
 
 7. Nella scheda **Regole di idoneità** specificare i valori per i seguenti campi:
 
    | Campo | Descrizione |
    | --- | --- |
-   | Numero riga | Numero di riga della regola di idoneità. |
-   | Regola di idoneità | Una regola di idoneità da applicare al piano di benefit. Questa regola di idoneità verrà applicata al tipo di azione corrispondente e associata al periodo di attesa e alle detrazioni specificati per la copertura. |
-   | Tipo di azione | L'azione per applicare la regola di idoneità a: iscrizione a benefit o scadenza dei benefit. |
-   | Periodo di attesa copertura | Un valore dal modulo Periodi di attesa. Il periodo di attesa della copertura determina il numero di giorni o mesi di attesa di un dipendente per la copertura o la scadenza dei benefit in base ai criteri della regola di idoneità e al tipo di azione. |
-   | Periodo di attesa detrazione | Un valore dal modulo Periodi di attesa. Il periodo di attesa della detrazione determina il numero di giorni o mesi di attesa di un dipendente per le detrazioni dei benefit dalla busta paga in base ai criteri della regola di idoneità e al tipo di azione. |
+   | **Numero riga** | Numero di riga della regola di idoneità. |
+   | **Regola di idoneità** | Una regola di idoneità da applicare al piano di benefit. Questa regola di idoneità verrà applicata al tipo di azione corrispondente e associata al periodo di attesa e alle detrazioni specificati per la copertura. |
+   | **Tipo di azione** | L'azione per applicare la regola di idoneità a: iscrizione a benefit o scadenza dei benefit. |
+   | **Periodo di attesa copertura** | Un valore dal modulo Periodi di attesa. Il periodo di attesa della copertura determina il numero di giorni o mesi di attesa di un dipendente per la copertura o la scadenza dei benefit in base ai criteri della regola di idoneità e al tipo di azione. |
+   | **Periodo di attesa detrazione** | Un valore dal modulo Periodi di attesa. Il periodo di attesa della detrazione determina il numero di giorni o mesi di attesa di un dipendente per le detrazioni dei benefit dalla busta paga in base ai criteri della regola di idoneità e al tipo di azione. |
 
 8. Selezionare **Salva**.
 

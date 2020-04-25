@@ -3,7 +3,7 @@ title: Impostare i tipi di impiego
 description: I tipi di impieghi possono essere impostati in Dynamics 365 Human Resources per essere abbinati ai lavoratori.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89a6045bebbb67251ee4a65dab71ce5771acc2af
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: dc9e9c2c948d654904041faa72110cc245308e64
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092616"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229719"
 ---
 # <a name="set-up-employment-types"></a>Impostare i tipi di impiego
 
-[!include [banner](includes/preview-feature.md)]
-
 Impostare tipi di impieghi in Dynamics 365 Human Resources da abbinare ai lavoratori.
 
-1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Tipi di impieghi**.
+1. Nell'area di lavoro **Gestione dipendente**, sotto **Impostazione**, selezionare **Tipi di impieghi**.
 
 2. Selezionare **Nuovo**.
 
@@ -39,7 +37,7 @@ Impostare tipi di impieghi in Dynamics 365 Human Resources da abbinare ai lavora
 
    | Campo | Descrizione |
    | --- | --- |
-   | Tipo di impiego | Identificazione univoca del tipo di impiego. |
-   | Descrizione | Descrizione del tipo di impiego. |
+   | **Tipo di impiego** | Identificazione univoca del tipo di impiego. |
+   | **Descrizione** | Descrizione del tipo di impiego. |
 
 4. Selezionare **Salva**. 

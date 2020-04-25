@@ -3,7 +3,7 @@ title: Panoramica di Gestione documenti aziendali
 description: In questo argomento vengono fornite informazioni sull'utilizzo della funzionalità Gestione documenti aziendali del framework ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117339"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258559"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
 
@@ -46,7 +46,7 @@ Per modificare i modelli in formati di Excel o Word con Gestione documenti azien
 
 ## <a name="business-document-availability"></a>Disponibilità dei documenti aziendali
 
-I seguenti report, con modelli basati su Excel, saranno disponibili con la versione dell'anteprima pubblica:
+I seguenti report, con modelli basati su Excel, saranno disponibili con il rilascio dell'anteprima pubblica:
 
 **Contabilità clienti** (agosto 2019)
 
@@ -248,9 +248,18 @@ Utilizzare la seguente procedura per modificare modelli di fattura a testo liber
 1. Accedere come utente con accesso all'area di lavoro di Gestione documenti aziendali.
 2. Aprire l'area di lavoro di Gestione documenti aziendali
 
+Quando la funzionalità **Esperienza di interfaccia utente simile a Office per Gestione documenti aziendali** è disattivata nell'area di lavoro **Gestione delle funzionalità**, la griglia principale nell'area di lavoro **Gestione documenti aziendali** mostra i seguenti modelli:
+
+- Modelli di proprietà del provider di configurazione ER (ovvero il provider attualmente contrassegnato come attivo nell'area di lavoro **Creazione di report elettronici**). Dopo aver selezionato uno di questi modelli, è possibile selezionare **Modifica modello** per iniziare o continuare a modificarlo.
+- Modelli di proprietà di altri provider di configurazione ER. Dopo aver selezionato uno di questi modelli, è possibile selezionare **Nuovo documento** per crearne una copia di proprietà del provider di configurazione ER, quindi è possibile iniziare a modificare la copia.
+
 ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingTemplate1.png)
 
 La scheda **Modello** presenta il contenuto del modello selezionato. Selezionare la scheda **Dettagli** per esaminare i dettagli del modello selezionato nonché quelli di una configurazione in cui tale modello si trova. Da notare che lo stato di tutti i modelli è **Pubblicato** e che questi non presentano dettagli nella colonna **Revisione**. Ciò significa che tali modelli non vengono attualmente modificati.
+
+Quando la funzione **Esperienza di interfaccia utente simile a Office per la gestione dei documenti aziendali** è attivata nell'area di lavoro **Gestione funzionalità**, la griglia principale nell'area di lavoro **Gestione dei documenti aziendali** mostra i modelli di proprietà del tuo provider di configurazione ER (ovvero il provider attualmente contrassegnato come attivo nello spazio di lavoro **Creazione di report elettronici**) . Dopo aver selezionato uno di questi modelli, è possibile selezionare **Modifica modello** per iniziare o continuare a modificarlo.
+
+Per lavorare con modelli di proprietà di altri provider di configurazione ER, selezionare **Nuovo documento** per creare una copia del modello di proprietà del tuo fornitore ER. È quindi possibile iniziare a modificare la copia. Per ulteriori informazioni, vedere [Nuova interfaccia utente per documenti in Gestione documenti aziendali](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Iniziare la modifica di modelli di proprietà del provider di configurazione
 

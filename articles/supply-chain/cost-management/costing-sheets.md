@@ -2,7 +2,7 @@
 title: Schede di determinazione costi
 description: L'impostazione della scheda di determinazione costi prevede due obiettivi. Come primo obiettivo viene definito il formato di visualizzazione delle informazioni sul costo del venduto per un articolo prodotto o un ordine di produzione. La visualizzazione formattata è denominata scheda di determinazione costi. Come secondo obiettivo viene definita la base per il calcolo dei costi indiretti. L'impostazione della scheda di determinazione costi si basa sulla funzionalità gruppo di costi per visualizzare le informazioni e per le formule di calcolo dei costi indiretti. I due obiettivi dell'impostazione della scheda di determinazione costi sono descritti in questo articolo.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53201
 ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eded428d24b6ade35eb5606535fdedc0e3be0e39
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550723"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201826"
 ---
 # <a name="costing-sheets"></a>Schede di determinazione costi
 

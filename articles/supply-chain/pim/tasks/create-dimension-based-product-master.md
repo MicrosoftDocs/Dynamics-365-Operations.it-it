@@ -2,7 +2,7 @@
 title: Creare una rappresentazione generale prodotto basata su dimensioni
 description: Questa procedura mostra come creare una nuova rappresentazione generale prodotto con la tecnologia di configurazione basata su dimensioni.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 363c79696d697e923a340c84807d3a46740ee30d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 09994bf6a6a4a1789c0a0fcd3cf5f95b5c93caa4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844858"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203804"
 ---
 # <a name="create-a-dimension-based-product-master"></a>Creare una rappresentazione generale prodotto basata su dimensioni
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come creare una nuova rappresentazione generale prodotto con la tecnologia di configurazione basata su dimensioni. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Questa è la prima procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.
 

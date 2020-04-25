@@ -2,8 +2,8 @@
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.10 (maggio 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.10.
 author: kamaybac
-manager: AnnBe
-ms.date: 03/21/2020
+manager: tfehr
+ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: afab27ef8a60e9d7e8749e94d3738ee7e6d53d12
-ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
+ms.openlocfilehash: 8297daa0d802b0b821b43aebe7a841011c70fd55
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3164795"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261190"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.10 (maggio 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.10. Questa versione ha il numero di build 10.0.420 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.10. Questa versione ha il numero di build 10.0.420 ed è disponibile come segue:
 
 - **Versione di anteprima:** marzo 2020
 - **Disponibilità generale (aggiornamento automatico):** aprile 2020
@@ -40,20 +39,21 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Miglioramento dell'utilizzo dei tag esistenti per il peso variabile con la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Miglioramenti della gestione del carico in entrata per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)
+- [Miglioramenti della gestione dei carichi in entrata per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
+- [Miglioramenti della stampa di etichette per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - Per ulteriori informazioni, vedere [Layout della distribuzione documenti per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
 - [La pianificazione generale include articoli con scorte disponibili quando sono abilitati i filtri di preelaborazione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nuove entità di dati per l'area di produzione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Gestione qualità per i processi di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-update-34"></a>Update 34 della piattaforma
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.10 include l'aggiornamento della piattaforma 34. Per ulteriori informazioni, vedere [Funzionalità di anteprima nell'aggiornamento della piattaforma 34](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md)
+Dynamics 365 Supply Chain Management 10.0.10 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.10 delle app Finance and Operations](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
-Per informazioni sulle correzioni di bug incluse in ciascuno degli aggiornamenti che fanno parte di 10.0.10, accedere a Lifecycle Services (LCS) e visualizzare l'[articolo KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=424137&dbType=3&qc=bf63d49dcc96e51eb42ac1dd66c6c5e5d7548f1e176f729e324ea3353b9860cb).
+Per informazioni sulle correzioni di bug incluse in questo aggiornamento, accedere a Lifecycle Services (LCS) e visualizzare l'[articolo KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=424137&dbType=3&qc=bf63d49dcc96e51eb42ac1dd66c6c5e5d7548f1e176f729e324ea3353b9860cb).
 
 ### <a name="dynamics-365-2020-release-wave-1-plan"></a>Piano di rilascio della prima ondata 2020 di Dynamics 365
 

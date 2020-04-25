@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025856"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259634"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -84,7 +84,7 @@ Seguire questi passaggi per estendere la definizione di modulo per l'area di lav
 8. Fare clic con il pulsante destro del mouse e scegliere **Nuova scheda**.
 9. Assegnare alla scheda un nome significativo, ad esempio **Analisi**.
 10. Nello strumento di progettazione del modulo selezionare **Analisi (scheda)**.
-11. Impostare la proprietà **Titolo** su **Analisi**.
+11. Impostare la proprietà **Didascalia** su **Analisi** e impostare la proprietà **Dichiarazione automatica** su **Sì**.
 12. Fare clic con il pulsante destro del mouse sul controllo e quindi selezionare **Nuovo** \> **Gruppo** per aggiungere un nuovo controllo gruppo di moduli.
 13. Assegnare al gruppo di moduli un nome significativo, ad esempio **powerBIReportGroup**.
 14. Nello strumento di progettazione del modulo selezionare **PanoramaBody (scheda)**, quindi trascinare il controllo sulla scheda **Area di lavoro**.

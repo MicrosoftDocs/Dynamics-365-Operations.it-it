@@ -5,6 +5,12 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 aprile 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 aprile 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 marzo 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 marzo 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 marzo 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Gestione dei benefit
           items:
-            - name: 'Funzionalità di anteprima: gestione dei benefit'
+            - name: Gestione benefit
               items:
                 - name: Panoramica di gestione dei benefit
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Impostare i piani di benefit
                       href: hr-benefits-plans-setup.md
-                    - name: Creare i piani di benefit lavoratore
-                      href: hr-benefits-plans-worker.md
                     - name: Impostare i programmi di credito flessibile
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Configurare eventi reali futuri
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Elaborare i piani di benefit
                   items:
                     - name: Elaborare l'idoneità di iscrizione
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Assegnare i lavoratori a un piano di congedo
               href: hr-leave-and-absence-enroll.md
-            - name: Piani di congedo e assenza di accumulo
+            - name: Accumulare piani di congedo e assenza
               href: hr-leave-and-absence-accrue.md
+            - name: Sospendere il congedo
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Visualizzare analisi per congedo e assenza
               href: hr-leave-and-absence-analytics.md
             - name: Gestire le richieste di congedo e assenza

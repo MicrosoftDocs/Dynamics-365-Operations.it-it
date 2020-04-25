@@ -2,7 +2,7 @@
 title: Importa cataloghi fornitore
 description: In questo argomento viene descritto il processo di importazione dei dati del catalogo fornitore.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017876"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207377"
 ---
 # <a name="import-vendor-catalogs"></a>Importa cataloghi fornitore
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ In Dynamics 365 Supply Chain Management, i professionisti degli acquisti possono
 È possibile caricare i dati del catalogo inviati da un fornitore dal client di Microsoft Dynamics 365.
 
 I dati dei prodotti che un fornitore invia all'utente sotto forma di un file di richiesta di gestione catalogo devono essere in formato XML. Il file di richiesta di gestione catalogo deve contenere i dettagli dei prodotti che il fornitore fornisce alla società.
-
+""
 ## <a name="import-vendor-catalog-data"></a>Importare i dati del catalogo fornitore
-
-Per importare i dati del catalogo fornitore, è necessario completare le attività seguenti:
+" Per importare i dati del catalogo fornitore, è necessario completare le attività seguenti:
 
 1.  Impostare un progetto nell'area di lavoro Gestione dati in cui sono state definite le regole di mapping dei dati. Selezionare **Gestione dati** e quindi **Imposta ruoli per progetti dati**. 
-
+    "
 2.  Impostare una gerarchia di categorie di approvvigionamento e assegnare i fornitori alle categorie di approvvigionamento. Se si utilizzano codici di voce doganale, aggiungere i codici alle categorie di approvvigionamento. Per informazioni su come impostare una gerarchia di categorie di approvvigionamento, vedere [Impostare una gerarchia di categorie di approvvigionamento](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    "
 3.  Configurare il fornitore per l'importazione del catalogo. Selezionare un fornitore e quindi **Approvvigionamento** > **Impostazione** > **Configura fornitore per importazione catalogo**.
-
+""
 4.  Configurare il flusso di lavoro per l'importazione del catalogo. Creare un modello di file di richiesta di gestione catalogo e condividerlo con il fornitore.
 
 5.  Selezionare **Approvvigionamento** \> **Comune** \> **Cataloghi** \> **Cataloghi fornitore** per creare un catalogo fornitore. I file di richiesta di gestione catalogo ricevuti dal fornitore vengono raggruppati in questo catalogo. 

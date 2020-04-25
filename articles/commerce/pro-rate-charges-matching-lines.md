@@ -3,7 +3,7 @@ title: Spese intestazione con ripartizione proporzionale in righe di vendita cor
 description: In questo argomento vengono descritte le funzionalità aggiuntive per calcolare e applicare le spese automatiche per gli ordini dei canali di commercio utilizzando le funzionalità di addebito automatico avanzato.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023085"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175133"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
 
@@ -37,7 +37,7 @@ Questa funzionalità è disponibile solo se le funzionalità di [addebito automa
 
 Questa nuova funzionalità fornisce alle organizzazioni una maggiore flessibilità nel modo in cui le spese automatiche a livello di intestazione vengono calcolate e applicate per le transazioni di vendita.
 
-Nelle versioni dell'app antecedenti alla versione 10.0.1, le spese automatiche a livello di intestazione con una relazione tra modalità di consegna specifica vengono calcolate solo se è presente una corrispondenza con la modalità di consegna definita nell'intestazione dell'ordine cliente.
+Nelle versioni dell'app precedenti alla versione 10.0.1, gli addebiti automatici a livello di intestazione con una modalità di relazione di consegna specifica vengono calcolati solo quando esiste una corrispondenza con la modalità di consegna definita nell'intestazione dell'ordini cliente.
 
 Ad esempio, le spese automatiche a livello di intestazione sono definite per la modalità di consegna **99** e la modalità di consegna **11**. Un ordine cliente viene creato e la modalità di consegna **99** viene definita nell'intestazione dell'ordine. Tuttavia, alcune delle righe di vendita vengono impostate in modo che siano spedite utilizzando la modalità di consegna **11**. In questo caso, solo le spese a livello di intestazione relative alla modalità di consegna **99** vengono considerate e applicate all'ordine cliente.
 
@@ -169,3 +169,9 @@ Pertanto, per questo esempio, all'articolo 81334 verranno assegnate delle spese 
 ![Spese ripartite proporzionalmente nella riga di vendita per l'articolo 81334](media/proratedlinecharge.png)
 
 Quando questo metodo di calcolo viene utilizzato in uno scenario di reso parziale, se il codice spese è rimborsabile, solo la parte delle spese assegnata a tale riga verrà rimborsata quando l'articolo viene restituito.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Addebiti automatici avanzati omnicanale](omni-auto-charges.md)
+
+[Abilitare e configurare addebiti automatici per canale](auto-charges-by-channel.md)

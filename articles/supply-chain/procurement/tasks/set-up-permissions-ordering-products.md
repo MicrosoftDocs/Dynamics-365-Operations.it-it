@@ -2,7 +2,7 @@
 title: Impostare le autorizzazioni per ordinare prodotti per conto di altri
 description: In questo argomento viene illustrato come concedere ai lavoratori l'autorizzazione a preparare richieste di acquisto per conto di altri lavoratori.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914806"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207556"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Impostare le autorizzazioni per ordinare prodotti per conto di altri
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come concedere ai lavoratori l'autorizzazione a preparare richieste di acquisto per conto di altri lavoratori. In altre parole, un "preparatore" di richieste di acquisto può creare una richiesta per un altro "richiedente". La procedura inoltre mostra come concedere a un lavoratore l'autorizzazione a ordinare articoli e servizi in persone giuridiche o unità operative differenti. Queste attività vengono in genere svolte da un responsabile degli acquisti. È possibile utilizzare questa procedura sui dati della società di dati dimostrativi USMF oppure sui propri dati.
 

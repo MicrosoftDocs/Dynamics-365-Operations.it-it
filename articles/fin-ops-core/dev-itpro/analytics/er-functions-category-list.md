@@ -3,7 +3,7 @@ title: Elenco delle funzioni ER nella categoria elenco
 description: Questo argomento fornisce informazioni sulle funzioni di elenco supportate nella creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917766"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201045"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Elenco delle funzioni ER nella categoria elenco
 
@@ -46,6 +46,7 @@ Le funzioni dell'elenco della creazione di report elettronici (ER) possono esser
 | [Indice](er-functions-list-index.md)                       | Questa funzione restituisce un valore *Contenitore (record)* selezionato utilizzando l'indice numerico specificato nell'elenco specificato. Se l'indice non rientra nell'intervallo dei record nell'elenco specificato, questa funzione genera un'eccezione. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Questa funzione restituisce un valore *Booleano* **TRUE** se l'elenco specificato non contiene record. In caso contrario, restituisce il valore *Booleano* **FALSE**. |
 | [Elenco](er-functions-list-list.md)                         | Questa funzione restituisce un valore *Elenco di record* costituito da un nuovo elenco creato dagli argomenti specificati.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Questa funzione restituisce un valore *Elenco di record* che rappresenta un nuovo elenco unito creato dagli argomenti specificati.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Questa funzione restituisce un valore *Elenco di record* creato in base alla struttura dell'argomento specificato del tipo *Enumerazione* o *Contenitore (record)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Questa funzione restituisce un nuovo valore *Elenco di record* costituito solo dal primo record dell'elenco specificato.|
 | [OrderBy](er-functions-list-orderby.md)                   | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* dopo che è stato ordinato in base agli argomenti specificati. Questi argomenti possono essere definiti come espressioni. |

@@ -3,7 +3,7 @@ title: Editor di formule avanzato per report elettronici
 description: In questo argomento viene descritto come utilizzare l'editor di formule avanzato per configurare espressioni nei componenti di formato e nel mapping di modelli per report elettronici (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138900"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257063"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor di formule avanzato per report elettronici
 
@@ -156,6 +156,16 @@ Attualmente, vengono utilizzati differenti colori per evidenziare le seguenti pa
 - Il testo tra parentesi quadre doppie che può rappresentare un ID etichetta di una costante di testo.
 
 [![Editor di formule ER](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>Limiti
+
+L'editor è attualmente supportato nei seguenti browser Web:
+
+- Chrome
+- Bordo
+- FireFox 2.0
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

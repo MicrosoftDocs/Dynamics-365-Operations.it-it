@@ -1,9 +1,9 @@
 ---
 title: Panoramica
-description: L'area di lavoro **Congedo e assenza** in Dynamics 365 Human Resources fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi.
+description: In Dynamics 365 Human Resources, l'area di lavoro congedo e assenza fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere i permessi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091750"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226232"
 ---
 # <a name="overview"></a>Panoramica
 
-Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori. L'area di lavoro **Congedo e assenza** fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi. Le funzionalità di analisi consentono all'organizzazione di misurare e monitorare i saldi di congedo e l'utilizzo per i piani di congedo.
+Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori. L'area di lavoro **Congedo e assenza** fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi. Analytics aiuta l'organizzazione a misurare e monitorare i saldi delle ferie e l'utilizzo dei piani ferie.
 
 ## <a name="set-up-leave-and-absence"></a>Configurare Congedo e assenza
 
@@ -51,31 +51,35 @@ Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di c
 
 Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Dipendente self-service**.
 
-- [Richiedere permessi](hr-employee-self-service-request-time-off.md)
-- [Gestire richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
+- [Richiedere un permesso](hr-employee-self-service-request-time-off.md)
+- [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-known-issues"></a>Problemi noti di congedo e assenza
+
+### <a name="rounding-precision"></a>Precisione di arrotondamento
+
+Non è possibile impostare la **Precisione di arrotondamento** quando si imposta **Tipo di arrotondamento**. È possibile impostare la **Precisione di arrotondamento** usando l'entità **Tipi di congedo e assenza**. 
+
+1. Da **Tipi di congedo e assenze**, selezionare **Apri in Excel** per aprire l'entità **Congedo e tipo di assenza**.
+
+2. Dopo l'apertura e l'attivazione del file, selezionare **Progetta**.
+
+3. Sulla tabella **Tipo di congedo e assenza**, selezionare l'opzione con la matita per modificare.
+
+4. Selezionare **RoundingPrecision** e **RoundingType**, quindi selezionare **Inserisci** per aggiungere all'elenco dei campi.
+
+5. Selezionare **Aggiorna** e quindi **Fatto**.
+
+6. Immettere o selezionare il **Tipo di arrotondamento** per ogni tipo di congedo se non è già stato impostato. 
+
+7. Inserire la **Precisione di arrotondamento** per i tipi appropriati.
+
+8. Selezionare **Pubblica** per inviare le modifiche in Human Resources.
 
 ## <a name="leave-and-absence-preview-features"></a>Funzionalità di anteprima di Congedo e assenza
 
 È possibile provare le nuove funzionalità di anteprima di Congedo e assenza in un ambiente **Sandbox**. Per informazioni su come attivare le funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md). Le funzionalità di anteprima includono:
 
-- **Calendario congedo e assenza** - I parametri di Congedo e assenza verranno spostati da **Parametri Risorse umane** a una nuova schermata chiamata **Parametri di congedo e assenza**. La nuova schermata include una nuova scheda **Calendario**. Questa anteprima abilita solo un sottoinsieme dei parametri. È possibile accedere alla nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**. I calendari includono:
-  - **Calendario aziendale** - Mostra tutte le richieste di permesso dei dipendenti. Le persone con il ruolo **Risorse umane** possono accedere a questo calendario dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.
-  - **Calendario team responsabile** - Mostra tutte le richieste di permesso dei diretti subalterni. I responsabili possono accedere al calendario dalla scheda **Team personale** in Dipendente self-service sotto **Congedo e assenza**. 
+- **Sospensione del congedo** - È possibile sospendere le ferie e le assenze in Human Resources per un dipendente. La sospensione del congedo e interrompe la maturazione delle ferie per i tipi di congedi selezionati. Se la sospensione si verifica dopo un processo di maturazione, la sospensione delle ferie crea una rettifica proporzionale del saldo delle ferie del dipendente. 
 
-- **Calendario festività congedo e assenza** - I tipi di congedo includono una nuova opzione **Giorni festivi**, utilizzata insieme al calendario orario di lavoro. I giorni definiti come festività e chiusure sono ora designati **Giorni festivi** quando vengono generati giorni lavorativi. Quando vengono elaborati gli accumuli, vengono apportate correzioni ai dipendenti assegnati al calendario per tenere conto delle festività che cadono in un giorno lavorativo.
-
-- **Controllo accumuli congedi** - Una nuova schermata consente di verificare quando gli accumuli sono stati elaborati ed eliminati, da tutti i dipendenti e dai singoli dipendenti. È possibile accedere a questa nuova schermata dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**.
-
-- **Eliminazione accumuli congedi** - Ora è possibile eliminare i record di accumuli per specifici piani di congedo. È possibile accedere a questa nuova opzione dalla scheda **Collegamenti** dell'area di lavoro **Congedo e assenza**. Per i singoli dipendenti, questa opzione appare in **Congedo e assenza** nel profilo del dipendente. 
-
-- **Arrotondamento accumulo congedo** - Nuove opzioni di **Tipo di congedo** definiscono quale tipo di arrotondamento deve essere utilizzato per l'accumulo nonché la precisione decimale dell'arrotondamento durante il processo di accumulo. Quando gli accumuli vengono elaborati, l'arrotondamento e la precisione vengono applicati ai record degli accumuli. 
-
-- **configurare più tipi di congedo per un singolo piano di congedo** - Una nuova colonna nella programmazione degli accumuli di congedi per i tipi di congedi consente di definire più tipi di congedi in un piano di congedo e assenza con diverse programmazioni degli accumuli. Il campo **Tipo di congedo** precedente è stato rimosso. Al momento dell'iscrizione dei dipendenti, i saldi per i tipi di congedo ora vengono visualizzati in una tabella anziché nella parte superiore dello schermo.
-
-  > [!IMPORTANT]
-  > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.
-
-- **Utilizza equivalenza a tempo pieno di un dipendente** - Una nuova colonna nella programmazioni degli accumuli di congedi consente di utilizzare l'equivalenza a tempo pieno. Quando gli accumuli vengono elaborati, l'applicazione utilizza la posizione primaria del dipendente e l'equivalenza a tempo pieno per determinare l'importo dell'accumulo ripartito proporzionalmente.
-
-  > [!NOTE]
-  > Questa funzionalità è disponibile solo se si abilita **Configura più tipi di congedo per un singolo piano di congedo**. 
+- **Regole di riporto** - È possibile specificare un tipo di congedo riporto per i saldi del riporto in cui vengono trasferiti le rettifiche di riporto. Ad esempio, se un dipendente riporta 10 giorni, è possibile scegliere un tipo di congedo diverso per quei 10 giorni. 

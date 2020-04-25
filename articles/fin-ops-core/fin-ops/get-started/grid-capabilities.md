@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036267"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260462"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
@@ -90,4 +90,23 @@ Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro
 ## <a name="evaluating-math-expressions"></a>Valutare espressioni matematiche
 Come booster di produttività, gli utenti possono inserire formule matematiche nelle celle numeriche di una griglia. Non devono eseguire il calcolo in un'app esterna al sistema. Ad esempio, se si immette **=15\*4** e quindi si preme il tasto **TAB** per uscire dal campo, il sistema valuterà l'espressione e salverà un valore di **60** per il campo.
 
-Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per maggiori dettagli sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per ulteriori informazioni sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Domande frequenti
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 
+
+**10.0.9/Platform update 33 e successivi** La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform update 32 e 10.0.7/Platform update 31** La funzionalità **Nuovo controllo griglia** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
+
+1.  **Abilitare l'anteprima**: Eseguire la seguente istruzione SQL: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Reimpostare IIS** per liberare la cache statica delle versioni di anteprima. 
+
+3.  **Individuare la funzionalità**: spostarsi nell'area di lavoro **Gestione funzionalità**. Se **Nuovo controllo griglia** non appare nell'elenco delle funzioni, selezionare **Controlla aggiornamenti**.   
+
+4.  **Abilitare la funzionalità**: Individuare la funzionalità **Nuovo controllo griglia** nell'elenco delle funzionalità e selezionare **Abilita ora** nel riquadro dei dettagli. Si noti che è richiesto un aggiornamento del browser. 
+
+Tutte le sessioni utente successive verranno avviate con il nuovo controllo griglia abilitato.

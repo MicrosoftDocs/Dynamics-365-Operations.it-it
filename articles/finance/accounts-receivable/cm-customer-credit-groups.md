@@ -3,7 +3,7 @@ title: Gruppi di crediti cliente
 description: In questo argomento vengono fornite informazioni su gruppi di crediti cliente.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7121b78f3318bae9f82b2f0f951bc7bfe6c4358
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 90d75493b928bfa4edafeef7730bc272c9146192
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015281"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261259"
 ---
 # <a name="customer-credit-groups"></a>Gruppi di crediti cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-È possibile definire gruppi di clienti che hanno lo stesso limite di credito. Viene inoltre considerato il limite di credito individuale definito nel conto delle fatture cliente.
+È possibile definire gruppi di clienti che hanno un limite di credito condiviso. Viene inoltre considerato il limite di credito individuale definito nel conto delle fatture cliente.
 
 I membri di un gruppo di crediti cliente possono essere selezionati tra diverse persone giuridiche. Quando si aggiunge un cliente all'elenco di clienti nel gruppo di crediti cliente, la data di scadenza del limite di credito per ciascun cliente viene modificata nella data di scadenza assegnata al gruppo.
 

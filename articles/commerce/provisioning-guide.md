@@ -3,7 +3,7 @@ title: Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Comme
 description: Questo argomento illustra come eseguire il provisioning di un ambiente di anteprima di Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024638"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254750"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Commerce
 
@@ -234,8 +234,6 @@ Per inizializzare e-Commerce, procedere come segue.
 ## <a name="commerce-preview-environment-support"></a>Supporto dell'ambiente di anteprima Commerce
 
 In caso di problemi durante l'esecuzione dei passaggi per il provisioning, visitare il [gruppo Yammer per l'anteprima di Microsoft Dynamics 365 Commerce](https://aka.ms/Dynamics365CommercePreviewYammer) per assistenza.
-
-Se si verificano problemi quando si tenta di accedere al gruppo Yammer, è possibile contattare Microsoft tramite e-mail all'indirizzo <Dynamics365Commerce@microsoft.com>. Questo indirizzo email non è monitorato attivamente. Pertanto, aspettarsi un ritardo nella risposta.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

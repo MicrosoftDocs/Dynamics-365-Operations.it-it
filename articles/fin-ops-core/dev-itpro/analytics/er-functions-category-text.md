@@ -3,7 +3,7 @@ title: Elenco delle funzioni ER della categoria testo
 description: Questo argomento fornisce informazioni sulle funzioni di testo supportate nella creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916616"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201091"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Elenco delle funzioni ER della categoria testo
 
@@ -52,7 +52,7 @@ Le funzioni di testo della creazione di report elettronici (ER) possono essere u
 | [Sostituisci](er-functions-text-replace.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che tutta o parte di essa è stata sostituita con un'altra stringa. |
 | [Destra](er-functions-text-right.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato di caratteri alla fine della stringa specificata. |
 | [Testo](er-functions-text-text.md) | Questa funzione restituisce il numero specificato come un valore *Stringa* dopo che è stato convertito in stringa di testo formattata in base alle impostazioni locali del server dell'istanza corrente dell'applicazione. |
-| [Traduci](er-functions-text-translate.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che tutta o parte di essa è stata sostituita con un'altra stringa. |
+| [Traduci](er-functions-text-translate.md) | Questa funzione restituisce un valore *Stringa* che contiene il risultato della sostituzione del testo specificato in caratteri per un altro set di caratteri fornito. |
 | [Trim](er-functions-text-trim.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo il troncamento degli spazi iniziali e finali e la rimozione di più spazi tra le parole. |
 | [Upper](er-functions-text-upper.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che è stato convertito in lettere maiuscole. |
 

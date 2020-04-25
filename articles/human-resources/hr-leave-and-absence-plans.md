@@ -3,7 +3,7 @@ title: Creare un piano di congedo e assenza
 description: Crea piani di congedo in Dynamics 365 Human Resources per diversi tipi di congedo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087302"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197361"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Creare un piano di congedo e assenza
 
@@ -42,6 +42,11 @@ Ad esempio, con un piano a più livelli, si potrebbe concedere un benefit di 80 
 1. Nella pagina **Piani di congedo e assenza** selezionare **Crea nuovo piano**.
 
 2. Sotto **Dettagli**, immettere **Nome**, **Data d'inizio**, **Descrizione** e **Tipo di congedo** per il piano.
+
+Se la funzionalità per **configurare più tipi di congedo per un singolo piano di congedo e assenza** è abilitata, i tipi di congedo sono configurati in **Programmazione dell'accumulo** anziché in **Dettagli**. Per ogni record nella tabella della programmazione dell'accumulo, è possibile definire un tipo di congedo.
+
+ > [!IMPORTANT]
+   > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.
 
 3. Definire gli accumuli nella scheda **Accumuli**. Gli accumuli determinano quando e con quale frequenza viene concesso un permesso a un dipendente. In questa fase, si definiscono le politiche su quando gli accumuli devono essere assegnati e le politiche sulla ripartizione dei benefit di congedo.
 
@@ -95,8 +100,8 @@ Ad esempio, con un piano a più livelli, si potrebbe concedere un benefit di 80 
    È possibile creare livelli per concedere permessi in base a livelli differenti.
 
    Le organizzazioni con dipendenti a ora possono assegnare permessi in base alle ore lavorate anziché in base alla durata del rapporto con l'organizzazione. I dati sulle ore lavorate vengono in genere archiviati in un sistema di gestione dell'orario e delle presenze. È possibile importare le ore regolari e di straordinario lavorate dal sistema di gestione dell'orario e delle presenze e utilizzarle come base per un premio al dipendente.
-
-   1. Selezionare un'opzione dalla casella a discesa **Tipo di accumulo**:
+   
+    1. Selezionare un'opzione dalla casella a discesa **Tipo di accumulo**:
 
       - **Mesi di servizio** - La programmazione dell'accumulo è basata sui mesi di servizio.
 
@@ -117,6 +122,13 @@ Ad esempio, con un piano a più livelli, si potrebbe concedere un benefit di 80 
       - **Riporto massimo** - Il processo di accumulo rettificherà i saldi congedo che superano il saldo riporto massimo alla ricorrenza della data di inizio.
 
       - **Importo concesso** - Il numero iniziale di ore o giorni concessi ai dipendenti quando si iscrivono per la prima volta al piano di congedo. Non si ha accumulo dell'importo per ogni periodo di accumulo.
+      
+Se la funzionalità per **configurare più tipi di congedo per un singolo piano di congedo e assenza** è abilitata, selezionare un'opzione dal **Tipo di congedo**. 
+
+   > [!IMPORTANT]
+   > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.
+
+Se la funzionalità per **utilizzare l'equivalenza a tempo pieno** è abilitata, Human Resources utilizza l'equivalenza a tempo pieno (FTE) definita per la posizione per ripartire l'accumulo di un dipendente. Ad esempio, se FTE è pari a 0,5 e l'importo dell'accumulo è 10, l'impiegato accumulerà 5. È possibile utilizzare questa funzionalità solo se si abilitano più tipi di congedo.  
 
 5. Selezionare **Salva**.
 
@@ -358,21 +370,8 @@ Saldo previsto (30) = Saldo accumulo (10 × 1) + Saldo corrente (40) – Rettifi
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
 
-## <a name="configure-preview-features"></a>Configurare le funzionalità di anteprima
-
-Se le funzionalità di anteprima per Congedo e assenza sono state abilitate, è necessario configurare le impostazioni anche per tali funzionalità.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Funzionalità di anteprima: configurare più tipi di congedo per un singolo piano di congedo e assenza**. Per ogni record nella tabella della programmazione dell'accumulo, è possibile definire un tipo di congedo.
-
-   > [!IMPORTANT]
-   > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.
-
-2. **Funzionalità di anteprima: utilizzare l'equivalenza a tempo pieno**. Se si abilita questa funzionalità di anteprima, Human Resources utilizza l'equivalenza a tempo pieno (FTE) definita per la posizione per ripartire l'accumulo di un dipendente. Ad esempio, se FTE è pari a 0,5 e l'importo dell'accumulo è 10, l'impiegato accumulerà 5. È possibile utilizzare questa funzionalità solo se si abilitano più tipi di congedo.
-
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
-- [Configurare tipi di congedo e assenza](hr-leave-and-absence-types.md)
+- [Configurare i tipi di congedo e assenza](hr-leave-and-absence-types.md)
 - [Accumulare piani di congedo e assenza](hr-leave-and-absence-accrue.md)

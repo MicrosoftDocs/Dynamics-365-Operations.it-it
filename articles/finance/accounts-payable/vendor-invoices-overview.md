@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133898"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249120"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento dei prodotti e dei servizi ricevuti. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 
