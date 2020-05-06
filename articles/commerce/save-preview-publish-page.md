@@ -3,7 +3,7 @@ title: Salvare, visualizzare in anteprima e pubblicare una pagina
 description: In questo argomento viene descritto come salvare, visualizzare in anteprima e pubblicare una pagina in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002817"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269983"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Salvare, visualizzare in anteprima e pubblicare una pagina
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ In questo argomento viene descritto come salvare, visualizzare in anteprima e pu
 
 ## <a name="save-a-page"></a>Salvare una pagina
 
-Per salvare una pagina, è necessario che questa sia estratta e aperta nell'editor di pagine. Una pagina deve essere salvata subito dopo averla modificata, per garantire l'archiviazione delle modifiche.
+Per salvare una pagina, è necessario che questa sia estratta e aperta nell'editor di pagine. Per estrarre una pagina, selezionare **Modifica** sulla barra comandi. Dopo aver terminato la modifica di una pagina, è necessario salvarla immediatamente per assicurarsi che le modifiche siano memorizzate.
 
 Quando si salva una pagina, le modifiche sono visibili solo all'utente corrente. Lo scopo principale dell'operazione di salvataggio è l'archiviazione delle modifiche quando la pagina non è ancora pronta per essere archiviata. Al termine della modifica della pagina, si consiglia di archiviarla, di modo che le modifiche siano visibili anche agli altri utenti. La pagina può quindi essere estratta anche da altri utenti che devono modificarla.
 
@@ -50,7 +49,7 @@ Al termine della modifica della pagina, è possibile visualizzarne l'anteprima p
 
 ## <a name="publish-a-page"></a>Pubblicare una pagina
 
-Una volta che la pagina è pronta, è necessario pubblicarla, di modo che gli utenti esterni possano visualizzare il contenuto. Prima di poter pubblicare una pagina, è necessario archiviarla.
+Una volta che la pagina è pronta, è necessario pubblicarla, di modo che gli utenti esterni possano visualizzare il contenuto. Prima di poter pubblicare una pagina, è necessario archiviarla selezionando **Fine modifica** sulla barra dei comandi.
 
 È possibile pubblicare le pagine e annullarne la pubblicazione mediante il controllo pagina o l'editor di pagine. Il controllo pagina visualizza un elenco di pagine e consente operazioni in blocco. L'editor di pagine può essere utilizzato per pubblicare o annullare la pubblicazione della pagina he visualizza.
 
@@ -70,9 +69,9 @@ Per salvare, visualizzare in anteprima e pubblicare una home page, effettuare le
 1. In **Siti**, selezionare **Fabrikam** (o il nome del proprio sito).
 1. Nel pannello di navigazione a sinistra, selezionare **Pagine**.
 1. Trovare e selezionare la home page per aprirla nell'editor di pagine.
-1. Selezionare **Estrai**.
+1. Selezionare **Modifica**.
 1. Modificare la pagina come necessario.
-1. Selezionare **Salva** e quindi selezionare **Archivia**.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Nel campo **Commenti**, immettere una nota sulle modifiche apportate e selezionare **OK**.
 1. Selezionare **Anteprima** per visualizzare l'anteprima della pagina. Al termine, chiudere la scheda Anteprima per tornare allo strumento di creazione.
 1. Selezionare **Pubblica**

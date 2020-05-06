@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172810"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270290"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -66,6 +66,14 @@ Le offerte di vendita possono essere create in Sales o in Supply Chain Managemen
 + È possibile aggiungere uno sconto al prodotto sull'offerta. In questo caso, lo sconto verrà sincronizzato con Supply Chain Management. I campi **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione non supporta il mapping di integrazione. I campi relativi a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti e mantenuti in Supply Chain Management.
 + I campi **% sconto**, **Sconto** e **Importo trasporto** nell'intestazione dell'offerta di vendita sono di sola lettura.
 + I campi **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
+
+Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il parametro della **riga di richiesta di offerta della creazione rapida**. La riattivazione del parametro consente di continuare a creare le righe di richiesta di offerta utilizzando la funzione di creazione rapida.
+1. Passare all'applicazione Dynamics 365 Sales.
+2. Seleziona l'icona delle impostazioni nella barra di navigazione in alto.
+3. Selezionare **Impostazioni avanzate**.
+4. Scegliere l'opzione **Personalizza il sistema**.
+5. Selezionare la voce di menu **Riga richiesta di offerta**.
+6. Andare alla sezione **Servizi dati** e selezionare la casella di controllo **Consenti creazione rapida**.
 
 ## <a name="sales-orders"></a>Gestione ordini cliente
 

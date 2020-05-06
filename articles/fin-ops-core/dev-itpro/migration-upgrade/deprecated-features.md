@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate nelle versioni precedenti
 description: Questo argomento descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti del prodotto.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225130"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284016"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -230,7 +230,7 @@ Il supporto per la creazione di ordini cliente basati su progetti in cui il cont
 | **Sostituita da un'altra funzionalità?**   | N. |
 | **Aree del prodotto interessate**         | Gestione informazioni sul prodotto |
 | **Opzione di distribuzione**              | Tutti  |
-| **Stato**                         | Rimossa da Finance and Operations 10.0.0 con aggiornamento 24 della piattaforma. (Se e solo se è necessario riparare il danneggiamento dei dati causato da una precedente ridenominazione della chiave primaria di un prodotto rilasciato, contattare il servizio di supporto tecnico Microsoft per richiedere la rimozione temporanea di questa restrizione). |
+| **Stato**                         | Rimossa da Finance and Operations 10.0.0 con aggiornamento 24 della piattaforma.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 con aggiornamento 23 della piattaforma
@@ -267,7 +267,7 @@ Gli indicatori di prestazioni chiave (KPI) incorporati potrebbero essere modella
 | **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione in futuro. |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato - L'avviso diventerà un errore di compilazione in futuro, Questa modifica è applicata agli aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations. |
+| **Stato**                         | Deprecato: L'avviso è un errore dell'ora del compilatore con gli aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations. |
 
 #### <a name="complete-list"></a>Elenco completo
 Per accedere all'elenco completo delle API che verranno deprecate, vedere [Deprecazione di metodi e di elementi di metadati](deprecation-deletion-apis.md).

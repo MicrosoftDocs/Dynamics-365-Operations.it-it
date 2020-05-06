@@ -3,7 +3,7 @@ title: Chiusura inventario
 description: Durante il processo per liquidare le transazioni in uscita con le transazioni in entrata, è possibile scegliere di aggiornare la contabilità generale in base alle rettifiche effettuate.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201642"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283992"
 ---
 # <a name="inventory-close"></a>Chiusura inventario
 
@@ -59,11 +59,10 @@ Alcune delle attività che possono essere eseguite nella pagina **Chiusura e ret
 
 Queste attività influiscono sui conti CoGe collegati all'operazione di magazzino originale. Se ad esempio un ordine cliente viene compensato con un ordine fornitore, i conti CoGe utilizzati per l'ordine cliente originale vengono rettificati. Ciò si verifica anche qualora i conti CoGe per il gruppo di articoli assegnato all'articolo sono stati modificati in seguito alla registrazione dell'ordine cliente. Dopo la creazione di un importo di compensazione da parte di una chiusura dell'inventario, tale importo verrà comunque registrato nei conti CoGe originali e non nei nuovi conti CoGe assegnati all'articolo. La contabilità generale può inoltre essere aggiornata se si storna una chiusura dell'inventario. 
 
-**Note:**
-
--   La chiusura dell'inventario non è necessaria se si utilizza il metodo di valutazione Costo standard.
--   Prima di eseguire la procedura di chiusura, è possibile visualizzare un elenco di articoli che non possono essere liquidati durante l'aggiornamento.
--   È consigliabile eseguire la chiusura dell'inventario in fasce orarie non di punta, per distribuire più equamente le risorse di elaborazione.
+> [!NOTE] 
+> - La chiusura dell'inventario è un passaggio obbligatorio nella procedura di chiusura di fine mese per tutti i modelli inventariali. Ciò include il costo medio, standard e un costo basato su media mobile. Non sarà possibile chiudere il periodo finanziario fino a quando non è stata eseguita una chiusura dell'inventario alla data di fine del periodo.
+> - Prima di eseguire la procedura di chiusura, è possibile visualizzare un elenco di articoli che non possono essere liquidati durante l'aggiornamento.
+> - È consigliabile eseguire la chiusura dell'inventario in fasce orarie non di punta, per distribuire più equamente le risorse di elaborazione.
 
 ## <a name="the-inventory-close-log"></a>Registro di chiusura inventario
 Al termine del processo di chiusura dell'inventario, è possibile che un messaggio nel centro messaggi indichi che un prezzo di costo unitario potrebbe essere errato perché non è stato possibile liquidare completamente una transazione. 
@@ -85,7 +84,6 @@ In alcune circostanze, non è possibile risolvere in alcun modo i problemi segna
 ## <a name="reversing-a-completed-inventory-close"></a>Annullamento di una chiusura dell'inventario completata
 Talvolta potrebbe essere necessario stornare una chiusura dell'inventario completata per riportare le liquidazioni allo stato in cui erano prima che venissero effettuate le rettifiche. Quando si storna una chiusura inventario completata, l'inventario viene riaperto per consentire la registrazione nel periodo coperto dalla chiusura inventario. È inoltre possibile apportare modifiche correlate nella contabilità generale. Una volta terminate le rettifiche, è possibile eseguire nuovamente la chiusura inventario per il periodo che si sta utilizzando. 
 
-**Nota:** è possibile riaprire solo l'ultimo periodo di magazzino che è stato chiuso. Per stornare una chiusura dell'inventario precedente, è necessario stornare singolarmente ogni successiva chiusura dell'inventario, a partire dalla chiusura più recente.
-
-
+> [!NOTE] 
+> È possibile riaprire solo l'ultimo inventario. Per stornare una chiusura dell'inventario precedente, è necessario stornare singolarmente ogni successiva chiusura dell'inventario, a partire dalla chiusura più recente.
 

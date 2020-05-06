@@ -3,7 +3,7 @@ title: Migliorare una pagina di destinazione di categoria
 description: In questo argomento viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003052"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269845"
 ---
 # <a name="enrich-a-category-landing-page"></a>Migliorare una pagina di destinazione di categoria
 
@@ -39,7 +39,7 @@ Tuttavia, anziché utilizzare la pagina categoria predefinita, è possibile util
 
 ![Pagina di destinazione di categoria migliorata](./media/CategoryLandingPages.png)
 
-Nello strumento di creazione, la pagina **Prodotto** include un elenco di categorie del canale che sono assegnate al sito. Se lo stato **Migliorata** è selezionato per una pagina categoria, quella pagina è stata migliorata. In caso contrario, la pagina categoria predefinita e il contenuto vengono utilizzati per la categoria. È possibile visualizzare l'anteprima delle pagine categoria migliorate e non migliorate selezionando il nome della categoria.
+In Creazione di siti Web di Commerce, la pagina **Prodotti** include un elenco di categorie del canale assegnate al sito. Se lo stato **Migliorata** è selezionato per una pagina categoria, quella pagina è stata migliorata. In caso contrario, la pagina categoria predefinita e il contenuto vengono utilizzati per la categoria. È possibile visualizzare l'anteprima delle pagine categoria migliorate e non migliorate selezionando il nome della categoria.
 
 Per migliorare una pagina categoria, effettuare le seguenti operazioni.
 
@@ -48,9 +48,7 @@ Per migliorare una pagina categoria, effettuare le seguenti operazioni.
 3. Selezionare un modello per la pagina categoria migliorata. Se si apportano solo modifiche minori, è possibile selezionare la pagina categoria predefinita. In alternativa, è possibile selezionare uno specifico modello di pagina categoria. Quando si seleziona il modello, l'editor di pagine viene aperto e il modello selezionato viene utilizzato per creare una nuova pagina categoria per la categoria selezionata. La pagina viene estratta ed è possibile apportare le modifiche desiderate.
 
 > [!NOTE]
-> I moduli che utilizzano i dati di categoria utilizzano i dati dalla categoria selezionata.
->
-> Le impostazioni del modello selezionato determinano le modifiche che è possibile apportare.
+> I moduli che utilizzano i dati di categoria utilizzano i dati dalla categoria selezionata. Le impostazioni del modello selezionato determinano le modifiche che è possibile apportare.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

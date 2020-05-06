@@ -3,7 +3,7 @@ title: Modificare una pagina di sito esistente
 description: In questo argomento viene descritto come modificare una pagina di sito esistente in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c393fc143214c2c7c7ddad9a77e273e1e53e34ac
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003443"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270006"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificare una pagina di sito esistente
 
@@ -36,11 +36,11 @@ In questo argomento viene descritto come modificare una pagina di sito esistente
 Quando si deve modificare una pagina, è necessario innanzi tutto aprirla nell'editor di pagine. Accedere al sito che contiene la pagina, quindi nell'elenco delle pagine, trovare la pagina desiderata. Se non è possibile trovare la pagina, utilizzare la funzionalità di ricerca avanzata dello strumento di creazione. Digitare il nome esatto della pagina oppure le prime lettere dello stesso e quindi un asterisco (\*). Viene visualizzato un elenco filtrato delle pagine. È possibile utilizzare questo elenco per trovare la pagina desiderata. Una volta trovata la pagina corretta, selezionare il nome della pagina per aprirla nell'editor di pagine.
 
 > [!TIP]
-> Se la pagina è visibile nel controllo pagina, è possibile selezionarla ed estrarla prima di aprirla nell'editor di pagine. In questo modo, è possibile estrarre più pagine contemporaneamente.
+> Se la pagina è visibile nel controllo pagina, è possibile selezionare **Modifica** e controllare la pagina prima di aprirla nell'editor delle pagine. In questo modo, è possibile estrarre più pagine contemporaneamente.
 
-Dopo l'apertura della pagina nell'editor di pagine, è necessario verificare che sia stata estratta. La barra dei comandi nello strumento di creazione è dinamica, sensibile al contesto e allo stato. Di conseguenza, mostra solo le azioni che è possibile eseguire correntemente nella pagina. Ad esempio, se la pagina non è stata estratta, i pulsanti **Archivia** e **Salva** non sono visualizzati nella barra dei comandi. Lo stato della pagina è inoltre visualizzato sul lato destro della pagina.
+Dopo l'apertura della pagina nell'editor di pagine, è necessario verificare che sia stata estratta. La barra dei comandi nello strumento di creazione è dinamica, sensibile al contesto e allo stato. Di conseguenza, mostra solo le azioni che è possibile eseguire attualmente nella pagina. Ad esempio, se la pagina non è stata estratta da te, i pulsanti **Salvare** e **Fine modifica** non verranno visualizzati nella barra dei comandi. Lo stato della pagina è inoltre visualizzato sul lato destro della pagina.
 
-Se la pagina non è ancora stata estratta, selezionare **Estrai** nella barra dei comandi. La barra dei comandi cambia per riflettere il nuovo stato della pagina. Viene inoltre visualizzata una notifica indicante che la pagina è stata estratta.
+Se la pagina non è ancora stata estratta, selezionare **Modificare** nella barra dei comandi. La barra dei comandi cambia per riflettere il nuovo stato della pagina. Viene inoltre visualizzata una notifica indicante che la pagina è stata estratta.
 
 L'operazione successiva consiste nell'apportare le modifiche effettive. In genere, si utilizza l'albero delle pagine a sinistra per trovare e selezionare il modulo che si desidera modificare e quindi si apportano le modifiche nel riquadro delle proprietà a destra. 
 
@@ -49,7 +49,7 @@ Tuttavia, la modifica può talvolta comportare l'aggiunta o la rimozione di mode
 > [!TIP]
 > È anche possibile visualizzare e modificare le proprietà di qualsiasi modulo visibile nell'anteprima WYSIWYG selezionando il modulo direttamente.
 
-Dopo aver apportato e visualizzato in anteprima le modifiche, è consigliabile archiviare la pagina selezionando **Archivia** nella barra dei comandi. 
+Dopo aver finito di apportare le modifiche e visualizzare in anteprima il loro effetto, è consigliabile archiviare la pagina selezionando **Fine modifica** nella barra dei comandi. 
 
 Per pubblicare immediatamente le modifiche, selezionare **Pubblica** nella barra dei comandi. L'ultima versione archiviata della pagina modificata viene pubblicata e diventa disponibile per gli utenti esterni che visualizzano il sito. 
 
@@ -60,14 +60,14 @@ Nell'esempio seguente viene descritto come modificare la home page cambiando il 
 1. In **Siti**, selezionare **Fabrikam** (o il nome del proprio sito).
 1. Nel pannello di navigazione a sinistra, selezionare **Pagine**.
 1. Trovare e selezionare la home page per aprirla nell'editor di pagine.
-1. Nella barra dei comandi, selezionare **Estrai**.
+1. Nella barra dei comandi, selezionare **Modifica**.
 1. Nella struttura delle pagine, selezionare lo slot **Principale**.
 1. Sotto lo slot **Principale**, espandere tutti i moduli contenitore fluidi.
 1. Trovare e selezionare il modulo Lettore video.
 1. Nel riquadro delle proprietà a destra, selezionare la proprietà **Video**. Viene visualizzato lo strumento di selezione di asset.
 1. Nello strumento, selezionare un asset video disponibile oppure selezionare **Carica nuovo asset** per caricare un nuovo asset video.
 1. Selezionare **OK**.
-1. Selezionare **Salva** e quindi selezionare **Archivia**.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Nel campo **Commenti**, immettere **Modificato il video** e selezionare **OK**.
 1. Selezionare **Anteprima** per visualizzare l'anteprima della pagina caricata. Al termine, chiudere la scheda Anteprima per tornare allo strumento di creazione.
 1. Selezionare **Pubblica**

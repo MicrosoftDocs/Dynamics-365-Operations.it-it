@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172879"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275466"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
 
@@ -85,9 +85,8 @@ Se il problema persiste, attenersi alla seguente procedura.
 > Questi passaggi guidano l'utente attraverso il processo di eliminazione di un'entità e quindi l'aggiunta di una nuova. Per evitare problemi, assicurarsi di seguire esattamente i passaggi.
 
 1. Nell'app Finance and Operations, andare a **Aree di lavoro \> Gestione dei dati** e selezionare il riquadro **Entità di dati**.
-2. Trovare l'entità in cui manca il campo. Annotare l'entità di destinazione, la tabella di gestione temporanea, il nome dell'entità e altri valori di colonna.
-3. Se uno dei gruppi di elaborazione dipende da questa entità, intraprendere le azioni appropriate per i gruppi di elaborazione prima di eliminare l'entità.
-4. Eliminare l'entità in cui manca il campo.
-5. Selezionare **Nuovo** e aggiungere nuovamente l'entità. Specificare i valori annotati nel passaggio 2.
-6. Aprire la pagina **Mapping di entità** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
-7. Selezionare **Aggiorna elenco entità** per completare automaticamente i campi nei mapping delle entità.
+2. Trovare l'entità in cui manca l'attributo. Fare clic su **Modifica mapping di destinazione** nella barra degli strumenti.
+3. Nel riquadro **Mappa gestione temporanea a destinazione**, fare clic si **Genera mapping**.
+4. Aprire la pagina **Mapping di entità** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
+5. Se l'attributo non viene popolato automaticamente sulla mappa, aggiungerlo manualmente facendo clic sul pulsante **Aggiungi attributo** e quindi su **Salva**. 
+6. Selezionare la mappa e fare clic su **Esegui**.

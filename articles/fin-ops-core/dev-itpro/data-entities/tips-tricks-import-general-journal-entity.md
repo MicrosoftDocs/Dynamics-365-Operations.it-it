@@ -1,9 +1,9 @@
 ---
 title: Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
 description: In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769612"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281488"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
 
@@ -30,9 +30,9 @@ ms.locfileid: "2769612"
 
 In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
 
-È possibile utilizzare l'entità giornale di registrazione generale per importare i giustificativi che dispongono di un tipo di conto o di conto di contropartita **Contabilità generale, Cliente, Fornitore o Bancario**. Il giustificativo può essere immesso come riga unica, usando sia il campo **Conto** che il campo **Conto di contropartita** , o come giustificativo con più righe. In questo caso viene utilizzato solo il campo **Conto** e il campo **Conto di contropartita** viene lasciato vuoto su ogni riga. L'entità giornale di registrazione generale non supporta tutti i tipi di conto. Invece, altre entità esistono per gli scenari in cui sono necessarie diverse combinazioni di tipi di conto. Ad esempio, per importare una transazione di progetto, utilizzare l'entità giornale di registrazione spese di progetto. Ogni entità è progettata per supportare scenari specifici. Questo significa che campi aggiuntivi potrebbero essere disponibili in entità per questi scenari ma non in entità di uno scenario diverso.
+È possibile utilizzare l'entità journal generale per importare buoni con un account o un tipo di conto offset di **Contabilità generale**, **Cliente**, **Fornitore**, or **Banca**. Il giustificativo può essere immesso come riga unica, usando sia il campo **Conto** che il campo **Conto di contropartita** , o come giustificativo con più righe. In questo caso viene utilizzato solo il campo **Conto** e il campo **Conto di contropartita** viene lasciato vuoto su ogni riga. L'entità giornale di registrazione generale non supporta tutti i tipi di conto. Invece, altre entità esistono per gli scenari in cui sono necessarie diverse combinazioni di tipi di conto. Ad esempio, per importare una transazione di progetto, utilizzare l'entità giornale di registrazione spese di progetto. Ogni entità è progettata per supportare scenari specifici. Ciò significa che potrebbero essere disponibili campi aggiuntivi nelle entità per tali scenari. Tuttavia, i campi aggiuntivi potrebbero non essere disponibili nelle entità per diversi scenari.
 
-## <a name="setup"></a>Imposta
+## <a name="setup"></a>Attrezzaggio
 Prima di importare utilizzando l'entità giornale di registrazione generale, convalidare l'impostazione seguente:
 
 - **Impostazione di sequenza numerica per il numero di batch del giornale di registrazione** – per impostazione predefinita, quando si importa utilizzando l'entità giornale di registrazione generale, il numero batch del giornale di registrazione utilizza la sequenza numerica definita nei parametri di contabilità generale. Se si imposta la sequenza numerica per il numero di batch del giornale di registrazione su **Manuale**, un numero predefinito non viene applicato. Questa impostazione non è supportata.
@@ -44,7 +44,7 @@ Due impostazioni nella gestione dei dati influiscono sulla modalità di applicaz
 - **Elaborazione basata su set** (nell'entità di dati)
 - **Generata automaticamente** (per il mapping dei campi)
 
-Nelle sezioni seguenti viene descritto l'effetto di queste impostazioni e anche spiegato come vengono generati i numeri batch del giornale di registrazione e i numeri di giustificativo.
+Le seguenti sezioni descrivono l'effetto di queste impostazioni. Spiegano inoltre come il sistema genera numeri di batch per giornali di registrazione e numeri di giustificativi.
 
 ### <a name="journal-batch-number"></a>Numero batch giornale di registrazione
 
@@ -57,10 +57,10 @@ Nelle sezioni seguenti viene descritto l'effetto di queste impostazioni e anche 
 
 ### <a name="voucher-number"></a>Numero del giustificativo
 
-- Quando si utilizza l'impostazione **Elaborazione basata su set** nell'entità giornale di registrazione generale, il numero di giustificativo deve essere fornito nel file importato. A tutte le transazioni nel giornale di registrazione generale viene assegnato il numero di giustificativo che viene fornito nel file importato, anche se il giustificativo non è bilanciato. Se si desidera utilizzare l'elaborazione basata su set, ma si desidera anche utilizzare la sequenza numerica definita per i numeri di giustificativo, è disponibile un aggiornamento rapido per la versione di febbraio 2016. Il numero di aggiornamento rapido è 3170316 ed è disponibile per il download da Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Scaricare gli aggiornamenti da Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
+- Quando si utilizza l'impostazione **Elaborazione basata su set** nell'entità giornale di registrazione generale, il numero di giustificativo deve essere fornito nel file importato. A tutte le transazioni nel giornale di registrazione generale viene assegnato il numero di giustificativo che viene fornito nel file importato, anche se il giustificativo non è bilanciato. Tenere presente quanto segue se si desidera utilizzare l'elaborazione basata su set, ma si desidera utilizzare anche la sequenza numerica definita per i numeri di giustificativo.
 
     - Per abilitare questa funzionalità, nel nome del giornale di registrazione utilizzato per le importazioni impostare **Assegnazione numero in fase di registrazione** su **Sì**.
-    - Un numero di giustificativo deve comunque essere definito nel file importato. Tuttavia, questo numero è temporaneo e viene sovrascritto dal numero di giustificativo quando il giornale di registrazione viene registrato. È necessario assicurarsi che le righe del giornale di registrazione sono raggruppate correttamente per numero di giustificativo temporaneo. Ad esempio, durante la registrazione, vengono trovate tre righe a cui è associato un numero di giustificativo temporaneo pari a 1. Il numero del giustificativo temporaneo di tutte le tre righe viene sovrascritto con il numero successivo della sequenza numerica. Se le tre righe non sono una voce bilanciata, non viene registrato il giustificativo. Successivamente, se vengono trovate righe che hanno un numero di giustificativo temporaneo di 2, questo numero viene sovrascritto dal numero di giustificativo successivo nella sequenza numerica e così via.
+    - Un numero di giustificativo deve comunque essere definito nel file importato. Tuttavia, questo numero è temporaneo e verrà sovrascritto dal numero di giustificativo quando il giornale di registrazione viene registrato. Assicurarsi che le righe del giornale di registrazione siano raggruppate correttamente per numero di giustificativo temporaneo. Ad esempio, durante la registrazione, vengono trovate tre righe a cui è associato un numero di giustificativo temporaneo pari a 1. Il numero del giustificativo temporaneo di tutte le tre righe viene sovrascritto con il numero successivo della sequenza numerica. Se le tre righe non sono una voce bilanciata, il giustificativo non viene pubblicato. Quindi, se vengono rilevate righe con un numero di voucher temporaneo pari a 2, questo numero viene sovrascritto dal numero di voucher successivo nella sequenza e così via.
 
 - Quando non si utilizza l'impostazione **Elaborazione basata su set** non è necessario fornire un numero di giustificativo nel file importato. I numeri di giustificativo vengono creati durante l'importazione, in base all'impostazione del nome del giornale di registrazione (**Un solo numero di giustificativo**, **In relazione al saldo** e così via). Ad esempio, se il nome di giornale di registrazione viene definito come **In relazione al saldo**, la prima riga riceve un nuovo numero giustificativo predefinito. Il sistema valuta quindi la riga per determinare se i debiti sono pari ai crediti. Se esiste un conto di contropartita nella riga, la riga successiva che viene importata riceve un nuovo numero di giustificativo. Se non esiste alcun conto di contropartita, il sistema valuta se i debiti sono pari ai crediti per ogni nuova riga che viene importata.
 - Se il campo **Numero del giustificativo** è impostato su **Generato automaticamente**, l'importazione non riuscirà. L'impostazione **Generato automaticamente** per il campo **Numero del giustificativo** non è supportata.

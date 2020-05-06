@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 24132e5c43948232bb8ae3c08577d7505b5df3e4
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: c9965d72474e5fa39fbc0a43753f7645df6881a5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261213"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275699"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.9 (aprile 2020)
 
@@ -46,7 +46,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 - [Consolidare i miglioramenti delle spedizioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
 - [Cross-docking](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - Per ulteriori informazioni, vedere il video [Cross-docking pianificato](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - Ulteriore integrazione del peso variabile [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - Per ulteriori informazioni, vedere [Elaborazione del prodotto a peso variabile con la gestione del magazzino](../warehousing/catch-weight-processing.md) e anche il video [Miglioramenti del prodotto a peso variabile](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
-- [Integrazione dei cespiti con il ciclo di vita della Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)
+- [Integrazione dei cespiti con il ciclo di vita della Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle) - Per ulteriori informazioni, vedere [Integrare la gestione cespiti con i cespiti](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md)
 - [Prenotazione flessibile delle dimensioni a livello di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - Per ulteriori informazioni, vedere [Criteri di prenotazione flessibile delle dimensioni a livello di magazzino](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 - [Dispositivo scheda di processo migliorato](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - Per ulteriori informazioni, vedere [Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile](../production-control/tasks/report-progress-mobile-job-device.md) e [Dichiarare finito a un'ubicazione controllata da targa dal dispositivo scheda processo](../production-control/report-finished-job-device.md)
 - [Controllo qualità in entrata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
@@ -64,7 +64,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 - [Ordinamento ricezione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Spedizione pacchi di piccole dimensioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Offerta del fornitore: domande dei fornitori e risposte riepilogative](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
-- [Pianificazione visiva per gli ordini di lavoro in Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)
+- [Pianificazione visiva per gli ordini di lavoro in Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management) - Per ulteriori informazioni, vedere [Utilizzare ordini di lavoro pianificati con un diagramma di Gantt](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt)
 - [Assegnazione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Miglioramenti della stampa di etichette ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Codice del passaggio ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)

@@ -1,9 +1,9 @@
 ---
-title: Filtro avanzato nel repository globale RCS
+title: Filtro avanzato RCS nel repository globale/RCS
 description: Questo argomento descrive le funzionalità di filtro avanzate per il repository globale RCS, che sono state migliorate per includere i filtri aggiuntivi.
 author: JaneA07
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,35 +18,31 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249167"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3287941"
 ---
-# <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>Opzioni di filtro avanzate per la ricerca di configurazioni nel repository globale
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>RCS ha migliorato le opzioni del filtro per trovare le configurazioni nel repository globale/RCS
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le funzionalità di filtro avanzate per il repository globale Regulatory Configuration Services (RCS), che sono state migliorate per includere i filtri seguenti: 
-- **Paese/Area geografica** - basato sui codici ISO del paese  
-- **Tag** - per area funzionale/caratteristica, settore, tipo di documento aziendale 
+Questo argomento descrive le funzionalità di filtro avanzate per il repository globale Regulatory Configuration Services (RCS), le quali sono state migliorate per includere la possibilità di filtrare con i seguenti criteri: 
+- **Paese/regione** - Basato sui codici ISO del paese  
+- Tipi di **tag** per:
+  - Area funzionale
+  - Area funzionale
+  - Settore 
+  - Documento aziendale 
 
-È possibile applicare filtri, individualmente o in gruppi, per trovare configurazioni specifiche o correlate. Ad esempio, per trovare tutti i documenti aziendali configurabili relativi alle fatture del fornitore, è possibile applicare il filtro **Tipo di documento aziendale**. 
-
-È possibile affinare ulteriormente una ricerca selezionando il codice paese e facendo clic su **Applica filtro**.  
+Per facilitare l'individuazione di configurazioni specifiche o correlate, è possibile applicare filtri, singolarmente o in gruppo. Ad esempio, per trovare un singolo tipo di documenti aziendali configurabili correlati alle fatture del fornitore, è possibile fare riferimento al filtro **Tipo di documento aziendale** per cercare il tipo di documento. 
 
 [![Sezione del filtro per il repository globale](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
-L'esempio seguente mostra i risultati quando il filtro è attivo in **Tipo di documento aziendale**. 
+È possibile affinare ulteriormente la ricerca selezionando il tipo di documento, ad esempio "fattura fornitore" e facendo clic sul tasto **Applica filtro**. L'esempio seguente mostra i risultati quando il filtro è attivo in **Tipo di documento aziendale** con il tipo di documento aggiunto. 
 
 [![Filtro applicato e importazione per tipo di documento aziendale](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-I risultati filtrati possono essere importati negli ambienti RCS o Dynamics 365 Finance degli utenti, individualmente o come set (selezionando il gruppo di configurazioni) e facendo clic su **Importa**.
-
-
-
-
-
-
+I risultati filtrati possono essere importati in un repository RCS dell'utente o in un ambiente Dynamics 365 Finance, singolarmente o come set. A questo scopo, selezionare il gruppo di configurazioni e fare clic su **Importa**.

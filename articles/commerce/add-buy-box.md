@@ -3,7 +3,7 @@ title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261400"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269753"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
@@ -80,15 +80,15 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 1. Creare un frammento denominato **Frammento casella acquisti** e aggiungervi un modulo Casella acquisti.
 1. Aggiungere un modulo Galleria multimediale allo slot **Multimedia** del modulo Casella acquisti.
 1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, aggiungere un modulo Selettore punto vendita.
-1. Archiviare la pagina e pubblicarla.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Creare un modello per una pagina dettagli prodotto (PDP) e denominarlo **Modello PDP**.
 1. Aggiungere una pagina predefinita.
 1. Nello slot **Principale** della pagina predefinita, aggiungere un frammento casella acquisti.
-1. Salvare il modello, finalizzare la modifica e pubblicarlo.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Utilizzare il modello appena creato per creare una pagina denominata **Pagina PDP**.
 1. Nello slot **Principale** della nuova pagina, aggiungere un frammento casella acquisti.
 1. Salvare la pagina e visualizzarne l'anteprima. Aggiungere il parametro della stringa di query **?productid=&lt;product id&gt;** all'URL della pagina di anteprima. In tal modo, il contesto del prodotto è utilizzato per caricare ed eseguire il rendering della pagina di anteprima.
-1. Salvare la pagina, finalizzare la modifica e pubblicarla. Una casella acquisti deve essere visualizzata nella pagina dettagli prodotto.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. Una casella acquisti deve essere visualizzata nella pagina dettagli prodotto.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

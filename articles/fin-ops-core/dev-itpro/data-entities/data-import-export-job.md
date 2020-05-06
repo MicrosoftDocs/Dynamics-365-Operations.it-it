@@ -3,7 +3,7 @@ title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124614"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278900"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -151,6 +151,18 @@ I dettagli relativi all'esecuzione indicano lo stato di ciascuna entità di dati
 È possibile scaricare i dati di gestione temporanea in un file per i processi di esportazione, oppure scaricarlo come pacchetto per i processi di esportazione e importazione.
 
 Dai dettagli di esecuzione è anche possibile aprire il registro di esecuzione.
+
+## <a name="parallel-imports"></a>Importazioni parallele
+Per accelerare l'importazione di dati, è possibile abilitare l'elaborazione parallela dell'importazione di un file se l'entità supporta le importazioni parallele. Per configurare l'importazione parallela per un'entità, è necessario seguire i seguenti passaggi.
+
+1. Passare all'**Amministrazione sistema \> Aree di lavoro \> Gestione dati**.
+2. Nella sezione **Importa/Esporta**, selezionare il riquadro **Parametri framework** per aprire la pagina **Parametri framework di importazione/esportazione dei dati**.
+3. Nella scheda **Impostazioni entità**, selezionare **Configura parametri di esecuzione entità** per aprire la pagina **Parametri di esecuzione importazione entità**.
+4. Impostare i seguenti campi per configurare l'importazione parallela per un'entità:
+
+    - Nel campo **Entità**, selezionare l'entità.
+    - Nel campo **Conteggio dei record di soglia importazione** immettere il conteggio dei record di soglia per l'importazione. Ciò determina il conteggio dei record che deve essere elaborato da un thread. Se un file ha 10.000 record, un conteggio di record di 2500 con un conteggio di attività 4 significa che ogni thread elaborerà 2500 record.
+    - Nel campo **Conteggio attività importazione** inserire il conteggio delle attività di importazione. Questo valore non deve superare il numero massimo di thread in batch assegnati per l'elaborazione batch in **Amministrazione di sistema \>Configurazione del server**.
 
 ## <a name="clean-up-the-staging-tables"></a>Pulire le tabelle di gestione temporanea
 Introduzione all'aggiornamento della piattaforma 29, questa funzionalità è stata rimossa. Questo viene sostituita da una nuova versione di funzionalità di pulizia di storico processi illustrato sotto.

@@ -3,7 +3,7 @@ title: Panoramica della gestione magazzino
 description: Utilizzare la gestione magazzino per monitorare e automatizzare i processi di magazzino.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e4429dbf3f7e5d6c737c365f0351d5c588fcd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bed896245b777ca195f7d03a9fdb697cad360ee7
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204587"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275396"
 ---
 # <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
@@ -30,7 +30,7 @@ ms.locfileid: "3204587"
 Il modulo Gestione magazzino consente di gestire i processi di magazzino nella produzione, nella distribuzione e nelle società di vendita al dettaglio. Questo modulo include una vasta gamma di funzionalità per supportare il magazzino a livello ottimale in qualsiasi momento. Il modulo Gestione magazzino è completamente integrato con altri processi aziendali, come ad esempio trasporto, produzione, controllo qualità, acquisti, trasferimento, vendite e resi.
 
 ## <a name="get-started"></a>Per iniziare
-Per iniziare a utilizzare Gestione magazzino, è necessario completare l'impostazione dei parametri generali di magazzino per supportare i processi aziendali della società.
+Per iniziare a lavorare con la gestione del magazzino, è necessario completare l'impostazione dei parametri generali del magazzino per supportare i processi della propria azienda.
 
 - Andare alla pagina **Parametri di gestione magazzino** in **Gestione magazzino** > **Impostazione** per impostare i parametri generali di magazzino.
 

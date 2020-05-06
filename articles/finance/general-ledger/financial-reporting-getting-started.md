@@ -3,7 +3,7 @@ title: Panoramica sulla creazione di report finanziari
 description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249062"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262651"
 ---
 # <a name="financial-reporting-overview"></a>Panoramica sulla creazione di report finanziari
 
@@ -83,13 +83,15 @@ Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve pot
 ## <a name="report-deletions-and-expirations"></a>Report di eliminazioni e scadenze
 Gli utenti che generano un report possono eliminare i propri report. Gli utenti con i diritti **Gestisci sicurezza dei report finanziari** possono eliminare i report di altri. 
 
-A partire dalla versione 10.0.7 è stato introdotto il concetto di date di scadenza. Una nuova funzionalità obbligatoria verrà abilitata nell'area di lavoro di gestione delle funzionalità. Questa funzionalità contiene le seguenti modifiche:
+Nella versione 10.0.8 è stato introdotto il concetto di date di scadenza. Una nuova funzione richiesta sarà abilitata nella pagina **Tutti** all'interno dell'area di lavoro gestione funzionalità. La funzionalità **Criteri di conservazione dei report finanziari** contiene le seguenti modifiche:
 * I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati
-* A tutti i report esistenti precedenti all'installazione della funzione verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
-* Gli utenti con **Gestisci sicurezza dei report finanziari** hanno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di conservazione: 
-  * Una scadenza di 90 giorni
-  * Un'opzione per impostare il report in modo che non scada mai
-
+* In tutti i report esistenti precedenti all'installazione della funzionalità verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
+* Gli utenti con **Gestisci sicurezza dei report finanziari** avranno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di ritenuta. 
+  * Una scadenza di 90 giorni.
+  * Un'opzione per impostare il report in modo che non scada mai.
+  
+Ulteriori opzioni saranno prese in considerazione in future funzionalità. La scadenza di 90 giorni sarà quella predefinita e gli utenti con appropriate autorizzazioni potranno sovrascrivere il valore predefinito sulla pagina elenco **Report finanziari**.    
+  
 Quando viene selezionata una scadenza come 90 giorni vengono concessi 90 giorni a partire da oggi, che è un comportamento diverso rispetto ai 90 giorni dalla data di generazione originale impostati durante la generazione del report. 
 
 ## <a name="default-reports"></a>Report predefiniti

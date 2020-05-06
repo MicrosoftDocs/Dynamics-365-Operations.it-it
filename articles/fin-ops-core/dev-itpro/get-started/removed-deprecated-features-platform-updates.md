@@ -3,7 +3,7 @@ title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260531"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268749"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -46,7 +46,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Sostituita da un'altra funzionalità?**   | Questo errore del compilatore sostituisce in modo permanente l'avviso del compilatore.  |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | **Deprecato:** L'avviso del compilatore è ora un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations. |
+| **Stato**                         | **Deprecato:** L'avviso del compilatore è un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenze ISV create utilizzando l'algoritmo di hashing SHA1
 

@@ -3,7 +3,7 @@ title: Chiavi di riduzione previsionali
 description: Questo argomento fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225107"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262698"
 ---
 # <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsionali
 
@@ -222,7 +222,7 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Ridurre una previsione mediante transazioni
 
-Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Prodotti rilasciati**, nel campo **Riduci previsione per** della Scheda dettaglio **Altro**, selezionare **Tutte le transazioni** se tutte le transazioni riducono la previsione o **Ordini** se solo gli ordini cliente devono ridurre la previsione.
+Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Gruppi di copertura** , nella scheda dettaglio **Altro**, nel campo **Riduci previsione per** , selezionare **Tutte le transizioni** se tutte le transazioni devono ridurre la previsione oppure **Ordini** se solo gli ordini cliente devono ridurre la previsione.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

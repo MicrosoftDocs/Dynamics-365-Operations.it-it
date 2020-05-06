@@ -3,7 +3,7 @@ title: Aggiungere un messaggio di benvenuto
 description: In questo argomento viene descritto come aggiungere un messaggio di benvenuto al sito Web di Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001256"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269615"
 ---
 # <a name="add-a-welcome-message"></a>Aggiungere un messaggio di benvenuto
 
@@ -41,17 +41,14 @@ Quando un messaggio di benvenuto viene aggiunto a un frammento intestazione cond
 
 Per aggiungere un messaggio di benvenuto al sito, effettuare le seguenti operazioni.
 
-1. In Dynamics 365 Commerce, accedere al sito.
+1. In Creazione di siti Web di Commerce, accedere al sito.
 1. Selezionare **Frammenti**.
 1. Selezionare il frammento intestazione a cui aggiungere il messaggio.
 1. Nell'albero, espandere **Messaggi informativi/di errore**.
-1. Selezionare il modulo Avviso.
-
-    Se un modulo Avviso non esiste, selezionare il pulsante con i puntini di sospensione (**...**) accanto a **Messaggi informativi/di errore** e selezionare **Aggiungi modulo**. Selezionare il modulo Avviso e quindi **OK**.
-
+1. Selezionare il modulo Avviso e quindi **OK**. Se un modulo Avviso non esiste, selezionare prima il pulsante con i puntini di sospensione (**...**) accanto a **Messaggi informativi/di errore** e quindi selezionare **Aggiungi modulo**.
 1. Nel riquadro delle proprietà a destra, nella scheda **Dati** selezionare **Aggiungi origine dati** e quindi **Contenuto**.
 1. Nel campo **Inserisci testo**, immettere il testo del messaggio di benvenuto.
-1. Salvare il frammento intestazione, verificarlo e pubblicarlo.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento di intestazione, quindi selezionare **Pubblica** per pubblicarlo. 
 
 Il messaggio di benvenuto viene visualizzato nella parte superiore di ogni pagina del sito che utilizza il frammento intestazione selezionato.
 
