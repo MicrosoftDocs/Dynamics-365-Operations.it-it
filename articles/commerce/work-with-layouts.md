@@ -3,7 +3,7 @@ title: Utilizzare i layout preimpostati
 description: In questo argomento viene descritto come utilizzare i layout preimpostati in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002638"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269891"
 ---
 # <a name="work-with-preset-layouts"></a>Utilizzare i layout preimpostati
 
@@ -44,7 +44,7 @@ Un layout preimpostato può essere creato in due modi. È possibile salvare un l
 Per creare un layout preimpostato da un layout personalizzato esistente, procedere come segue.
 
 1. Aprire una pagina esistente che attualmente non utilizza un layout preimpostato e che ha una struttura di modulo che si intende riutilizzare per altre pagine del sito.
-1. Selezionare **Estrai**.
+1. Selezionare **Modifica** per estrarre la pagina.
 1. Selezionare **Salva come nuovo layout**. Viene visualizzata la finestra di dialogo **Salva come nuovo layout** .
 1. Immettere un nome e una descrizione per il layout preimpostato. I valori immessi sono visibili ad altri autori quando questi creano nuove pagine a partire dal layout o passano a tale layout. Di conseguenza, immettere valori che saranno utili ad altri autori di pagine.
 1. Selezionare **OK**.
@@ -91,14 +91,14 @@ Per impostare o modificare il tema di tutte le pagine figlio che utilizzano il l
 Per salvare e archiviare il layout preimpostato, effettuare le seguenti operazioni.
 
 1. Selezionare **Salva** nella parte superiore dell'editor di layout. Le modifiche salvate non influiscono sulle pagine downstream fino a che non vengono archiviate.
-1. Selezionare **Archivia**. Le modifiche sono ora individuabili per i flussi di lavoro downstream.
+1. Selezionare **Fine modifica**. Le modifiche sono ora individuabili per i flussi di lavoro downstream.
 
 Per visualizzare l'anteprima delle modifiche, aprire una pagina esistente che utilizza il layout preimpostato o creare una nuova pagina a partire dal layout.
 
 Dopo avere visualizzato un'anteprima delle modifiche al layout preimpostato, eseguire una di queste operazioni per pubblicare il layout sul sito live:
 
 * Andare a **Layout**, selezionare il layout e quindi **Pubblica**.
-* Nell'editor di layout, selezionare **Pubblica**.
+* Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
 * Pubblicare una pagina che fa riferimento al layout non pubblicato. Il layout viene pubblicato automaticamente.
 
 > [!WARNING]

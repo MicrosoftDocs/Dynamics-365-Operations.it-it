@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173133"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275489"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Catena delle dipendenze delle entità (ordine di sincronizzazione)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Nelle seguenti tabelle le entità sono elencate nell'ordine in cui è necessario abilitarle. Quando si abilita una mappa per la sincronizzazione iniziale, la doppia scrittura rileva automaticamente altre mappe che devono essere abilitate. Puoi usare la pagina **Doppia scrittura** nelle app Finance and Operations per selezionare o annullare la selezione di entità durante la sincronizzazione iniziale.
-
-Nell'ultima versione della doppia scrittura, è possibile abilitare solo alcune entità e le dipendenze vengono gestite automaticamente.
+Questo argomento specifica l'ordine di sincronizzazione che è necessario seguire per creare i dati iniziali se non si utilizzano le dipendenze dell'entità fornite dalla funzionalità **Sincronizzazione iniziale**. Se non si sta utilizzando la **sincronizzazione iniziale**, è necessario eseguire ciascuna mappa di entità singolarmente.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Entità Dynamics 365 Supply Chain Management
 

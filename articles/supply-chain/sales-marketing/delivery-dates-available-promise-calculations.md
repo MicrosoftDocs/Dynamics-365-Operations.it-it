@@ -1,9 +1,9 @@
 ---
 title: Promesse ordine
-description: Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
+description: Questo argomento fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210058"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270029"
 ---
 # <a name="order-promising"></a>Promesse ordine
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
+Questo argomento fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 
 Le promesse di ordine calcolano la prima data di spedizione e di entrate e si basa sul metodo di controllo data di consegna e sui giorni di consegna. È possibile scegliere tra quattro metodi di controllo della data di consegna:
 
@@ -47,11 +47,13 @@ La quantità ATP viene calcolata utilizzando la seguente formula:
 
 ATP = ATP del periodo precedente + entrate del periodo corrente - uscite del periodo corrente - quantità di uscita netta di ciascun periodo futuro fino al periodo in cui la somma delle entrate di tutti i periodi futuri (periodo futuro incluso) non supera la somma delle uscite (periodo futuro incluso).  
 
+Si noti che il calcolo ATP non include le informazioni sulla data di scadenza e oltre all'intervallo temporale dell'ATP che il sistema prevede quando sarà possibile promettere una quantità.
+
 Una volta considerate tutte le uscite o le entrate, la quantità ATP delle date successive corrisponderà all'ultima quantità ATP calcolata.  
 
 Se non vengono fornite tutte le dimensioni utilizzate per un articolo quando viene completato il controllo ATP, è comunque possibile specificarle nelle uscite e nelle entrate. In questo caso nel calcolo ATP le entrate e le uscite devono essere aggregate alle dimensioni esistenti per ridurre il numero di righe di entrate e di uscite utilizzate nel calcolo ATP.  
 
-La quantità ATP indicata è sempre maggiore o uguale a 0 (zero). Se il calcolo restituisce una quantità ATP negativa, ad esempio se la quantità promessa in precedenza supera la quantità disponibile, la quantità ATP verrà impostata automaticamente su **0**.
+La quantità ATP indicata è sempre maggiore o uguale a 0 (zero). Se il calcolo restituisce una quantità ATP negativa, ad esempio se la quantità promessa in precedenza supera la quantità disponibile, la quantità è impostata automaticamente su 0.
 
 ### <a name="example"></a>Esempio
 
