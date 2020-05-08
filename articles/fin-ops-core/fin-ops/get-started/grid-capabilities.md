@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260462"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284406"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
@@ -86,6 +86,23 @@ Se si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, 
 
 Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro del mouse sulla colonna di raggruppamento e selezionare **Separa**.  
 
+## <a name="typing-ahead-of-the-system"></a>Digitare prima del sistema
+In molti scenari aziendali, la capacità di inserire rapidamente i dati nel sistema è molto importante. Prima dell'introduzione del nuovo controllo della griglia, gli utenti potevano modificare i dati solo nella riga corrente. Prima di poter creare una nuova riga o passare a una riga diversa, erano costretti ad attendere che il sistema convalidasse correttamente eventuali modifiche. Nel tentativo di ridurre il tempo di attesa degli utenti per il completamento di queste convalide e di migliorare la produttività degli stessi, la nuova griglia regola tali convalide in modo che siano asincrone. Pertanto, l'utente può spostarsi su altre righe per apportare modifiche mentre sono in corso le convalide delle righe precedenti. 
+
+Per supportare questo nuovo comportamento, una nuova colonna per lo stato della riga è stata aggiunta nella parte superiore della griglia quando la griglia è in modalità di modifica. Questa colonna indica uno dei seguenti stati:
+
+- **Vuoto** - Nessuna immagine di stato indica che la riga è stata salvata correttamente dal sistema.
+- **Elaborazione in sospeso** - Questo stato indica che le modifiche nella riga non sono state ancora salvate dal server ma si trovano in una coda di modifiche che devono essere elaborate. Prima di agire all'esterno della griglia, è necessario attendere l'elaborazione di tutte le modifiche in sospeso. Inoltre, il testo in queste righe è in corsivo per indicare lo stato non salvato delle righe. 
+- **Avviso di convalida** - Questo stato indica che il sistema non è in grado di salvare le modifiche nella riga a causa di alcuni problemi di convalida. Nella griglia precedente, si era costretti a tornare alla riga per risolvere immediatamente il problema. Nella nuova griglia, viene notificato che si è verificato un problema di convalida, ma è possibile decidere quando si desidera risolvere gli eventuali problemi nella riga. Quando si è pronti per risolvere il problema, è possibile spostare manualmente lo stato attivo sulla riga. In alternativa, è possibile selezionare l'azione **Risolvi questo problema**. Questa azione riporta immediatamente lo stato attivo sulla riga che presenta il problema e consente di apportare modifiche all'interno o all'esterno della griglia. Si noti che l'elaborazione delle successive righe in sospeso viene interrotta fino alla risoluzione di questo avviso di convalida. 
+- **In sospeso** - Questo stato indica che l'elaborazione da parte del server è in sospeso perché la convalida della riga ha attivato una finestra di dialogo pop-up che richiede l'input dell'utente. Poiché l'utente potrebbe inserire i dati in un'altra riga, la finestra di dialogo pop-up non viene immediatamente presentata all'utente. Verrà invece visualizzata quando l'utente sceglie di riprendere l'elaborazione. Questo stato è accompagnato da una notifica che informa l'utente della situazione. La notifica include l'azione **Riprendere l'elaborazione** che attiverà la finestra di dialogo pop-up.  
+    
+Quando gli utenti inseriscono dei dati prima della posizione in cui il server sta elaborando, possono prevedere qualche degrado nell'esperienza di immissione dei dati, come la mancanza di ricerche, la convalida a livello di controllo e l'inserimento di valori predefiniti. Gli utenti che necessitano di un elenco a discesa per trovare un valore sono invitati ad attendere che il server raggiunga la riga corrente. La convalida a livello di controllo e l'inserimento dei valori predefiniti si verificheranno quando il server elabora quella riga.   
+
+### <a name="pasting-from-excel"></a>Incollare da Excel
+Gli utenti sono sempre stati in grado di esportare i dati dalle griglie nelle app Finance and Operations in Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app Finance and Operations. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
+
+- Se il numero di colonne nella tabella copiata supera il numero di colonne che rimangono nella griglia, a partire dalla posizione incolla, l'utente viene avvisato che le colonne extra sono state ignorate. 
+- Se il numero di righe nella tabella copiata supera il numero di righe nella griglia, a partire dalla posizione incolla, le celle esistenti vengono sovrascritte dal contenuto incollato e tutte le righe aggiuntive dalla tabella copiata vengono inserite come nuove righe nella parte inferiore della griglia. 
 
 ## <a name="evaluating-math-expressions"></a>Valutare espressioni matematiche
 Come booster di produttività, gli utenti possono inserire formule matematiche nelle celle numeriche di una griglia. Non devono eseguire il calcolo in un'app esterna al sistema. Ad esempio, se si immette **=15\*4** e quindi si preme il tasto **TAB** per uscire dal campo, il sistema valuterà l'espressione e salverà un valore di **60** per il campo.
@@ -110,3 +127,64 @@ Per fare in modo che il sistema riconosca un valore come espressione, iniziare i
 4.  **Abilitare la funzionalità**: Individuare la funzionalità **Nuovo controllo griglia** nell'elenco delle funzionalità e selezionare **Abilita ora** nel riquadro dei dettagli. Si noti che è richiesto un aggiornamento del browser. 
 
 Tutte le sessioni utente successive verranno avviate con il nuovo controllo griglia abilitato.
+
+## <a name="known-issues"></a>Problemi noti
+Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della griglia mentre la funzionalità si trova in uno stato di anteprima.  
+
+### <a name="open-issues"></a>Problemi aperti
+
+- Gli elenchi di schede sono stati rappresentati come più colonne e sono ora resi come una singola colonna.
+- Gli elenchi raggruppati non vengono visualizzati come gruppi o in colonne separate.
+- Le descrizioni dei comandi non vengono visualizzate per le immagini.
+- La visualizzazione delle righe della griglia non funziona per tutti i tipi di campo.
+- A intermittenza, non è possibile fare clic al di fuori della griglia dopo aver selezionato più righe.
+- Le opzioni della registrazione attività **Convalida** e **Copia** non sono disponibili per i controlli di data/numero.
+
+### <a name="fixed-as-part-of-10012"></a>Cespiti come parte del 10.0.12
+
+> [!Note]
+> Le seguenti informazioni vengono fornite in modo da poter pianificare di conseguenza. Per ulteriori informazioni sul programma di rilascio mirato della versione 10.0.12, vedere [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
+
+- [Problema 429126] I controlli all'esterno della griglia non sono aggiornati dopo l'eliminazione dell'ultimo record.
+- [Problema 430575] I controlli della tabella non aggiornano il contenuto degli elementi visualizzati.
+- [KB 4558570] Gli elementi saranno visualizzati nella pagina anche dopo l'eliminazione del record.
+- [KB 4558584] I numeri negativi non verranno visualizzati correttamente.
+- [KB 4558575] I campi non verranno aggiornati dopo una modifica alla riga / l'elaborazione della griglia si bloccherà dopo l'eliminazione della riga.
+- [Problema 436980] Lo stile associato al pannello Elenco **ExtendedStyle** non verrà applicato.
+- [KB 4558573] Gli errori di convalida non possono essere corretti quando la modifica richiesta è esterna alla griglia.
+    
+### <a name="quality-update-for-10011"></a>Aggiornamento di qualità per 10.0.11
+
+- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
+
+### <a name="fixed-as-part-of-10011"></a>Cespiti come parte del 10.0.11
+
+- [KB 4558374] Non è possibile creare record che richiedono una finestra di dialogo del selettore polimorfico.
+- [KB 4558382] Si verificano errori del client imprevisti.
+- [KB 4558375] Il testo della guida non viene visualizzato nelle colonne della nuova griglia.
+- [KB 4558376] Le griglie del pannello elenco non vengono visualizzate all'altezza corretta in Internet Explorer.
+- [KB 4558377] Le colonne della casella combinata con larghezza **SizeToAvailable** non vengono visualizzate in alcune pagine.
+- [KB 4549711] Le righe in una proposta di pagamento non possono essere rimosse correttamente dopo l'attivazione del nuovo controllo griglia.
+- [KB 4558378] Il drill-through a volte apre il record errato.
+- [KB 4558379] Si verifica un errore quando vengono aperte le ricerche in cui **ReplaceOnLookup**=**No**.
+- [KB 4558380] Lo spazio disponibile nella griglia non viene riempito immediatamente dopo la compressione di una parte della pagina.
+- [Problema 432458] Le righe vuote o duplicate sono mostrate all'inizio di alcune raccolte secondarie.
+- [KB 4558587] I gruppi di riferimento con caselle combinate per i campi di sostituzione non mostrano i valori.
+
+### <a name="fixed-as-part-of-10010"></a>Cespiti come parte del 10.0.10
+
+- [Problema 414301] Alcuni dati delle righe precedenti scompaiono quando vengono create nuove righe.
+- [KB 4550367] L'ora non è formattata correttamente.
+- [KB 4549734] Le righe attive non vengono trattate come contrassegnate se la colonna di marcatura è nascosta.
+- [Bug 417044] Non esiste un messaggio di griglia vuoto per le griglie in stile elenco.
+- [KB 4558367] La selezione del testo non è coerente quando le righe vengono modificate.
+- [KB 4558372] La nuova griglia si blocca nella modalità di elaborazione se il numero di colonne nel contenuto incollato supera il numero di colonne rimanenti nella griglia.
+- [KB 4558368] La selezione multipla tramite tastiera è consentita in scenari a selezione singola.
+- [KB 4539058] Alcune griglie (in genere nelle schede dettaglio) a volte non vengono visualizzate (ma verranno visualizzate se si esegue lo zoom indietro).
+- [KB 4558369] Le immagini di stato scompaiono nella griglia gerarchica.
+- [KB 4558370] Scorrendo, una nuova riga non verrà visualizzata.
+- [KB 4549796] I valori non possono essere modificati in una griglia quando è in modalità visualizzazione.
+
+### <a name="quality-update-for-1009platform-update-33"></a>Aggiornamento di qualità per 10.0.9/Aggiornamento della piattaforma 33
+
+- [KB 4550367] L'ora non è formattata correttamente.

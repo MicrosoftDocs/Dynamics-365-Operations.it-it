@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207835"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281511"
 ---
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 
@@ -85,6 +85,9 @@ In questo esempio il processo del flusso di lavoro per le righe della richiesta 
 3.  Il superiore del richiedente rivede e approva le righe della richiesta di acquisto. L'approvazione potrebbe essere inviata al superiore del richiedente se, ad esempio, l'importo in una riga della richiesta di acquisto supera il limite di spesa per le righe delle richieste di acquisto. Il superiore può approvare o rifiutare una o entrambe le righe della richiesta di acquisto.
 4.  Il responsabile del reparto marketing rivede le righe della richiesta di acquisto per i poster e le T-shirt. Il responsabile del reparto vendite rivede la riga della richiesta di acquisto solo per i poster, essendo questo il solo costo addebitato al reparto vendite.
 5.  Il responsabile del gruppo rivede e approva la riga della richiesta di acquisto per le T-shirt solo se l'approvazione del responsabile del gruppo è necessaria perché, ad esempio, l'importo della riga della richiesta di acquisto supera il limite di approvazione del responsabile reparto. Non è necessario che il responsabile del gruppo approvi la riga della richiesta di acquisto per i poster.
+
+> [!NOTE]
+> La valuta di sistema deve essere impostata se il flusso di lavoro dell'intestazione per una richiesta di acquisto richiede le approvazioni relative ai limiti di firma.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configurazione di un flusso di lavoro per le richieste di acquisto
 Per inviare una richiesta di acquisto per la revisione, è necessario configurare i processi del flusso di lavoro della richiesta di acquisto. Il processo del flusso di lavoro definito consente di controllare l'interazione tra l'utente che ha richiesto gli articoli (il richiedente) e il revisore e l'approvatore nel flusso di lavoro. L'invio della richiesta di acquisto dipende dalle condizioni specificate nella configurazione del flusso di lavoro. Ad esempio, queste condizioni determinano il momento in cui la richiesta di acquisto deve essere inviata, l'utente o il ruolo a cui deve essere indirizzata e le azioni che gli utenti possono eseguire.  

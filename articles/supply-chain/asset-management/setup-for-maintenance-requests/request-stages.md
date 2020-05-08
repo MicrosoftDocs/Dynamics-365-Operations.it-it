@@ -3,7 +3,7 @@ title: Stati del ciclo di vita delle richieste di intervento di manutenzione
 description: In questo argomento viene descritto come impostare gli stati del ciclo di vita delle richieste di intervento di manutenzione in Gestione cespiti.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209009"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275628"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Stati del ciclo di vita delle richieste di intervento di manutenzione
 
@@ -47,7 +47,7 @@ Gli stato del ciclo di vita delle richieste di intervento di manutenzione defini
 6. Impostare **Imposta fine effettiva** su **Sì** se la data e ora di fine effettive devono essere immesse automaticamente in una richiesta di intervento di manutenzione che si trova in questo stato del ciclo di vita.
 7. Impostare **Crea ordine di lavoro** su **Sì** se un ordine di lavoro può essere creato da una richiesta di intervento di manutenzione che si trova in questo stato del ciclo di vita.
 8. Impostare **Elimina** su **Sì** se la richiesta di intervento di manutenzione può essere eliminata mentre si trova in questo stato del ciclo di vita.
-9. Nella Scheda dettaglio **Aggiorna**, le opzioni **In entrata** e **In uscita** nella sezione **Cespite** sono pertinenti se si utilizza la riparazione in deposito. Impostare l'opzione appropriata su **Sì** se lo stato del ciclo di vita dei cespiti selezionati in una richiesta di intervento di manutenzione deve essere aggiornato automaticamente su **In entrata** o **In uscita** quando lo stato del ciclo di vita di quella richiesta di intervento di manutenzione è impostato su **In entrata** o **In uscita**.
+9. Nella scheda dettaglio **Aggiorna**, le opzioni **In entrata** e **In uscita** nella sezione **Cespiti** sono rilevanti se si utilizza la riparazione in deposito. Impostare l'opzione appropriata su **Sì** se lo stato del ciclo di vita dei cespiti selezionati in una richiesta di manutenzione deve essere aggiornato automaticamente **In entrata** o **In uscita** quando lo stato del ciclo di vita della richiesta di manutenzione è impostato su **In entrata** o **In uscita**.
 
 Nella figura seguente è illustrato un esempio della pagina **Stati del ciclo di vita delle richieste di intervento di manutenzione**.
 

@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116558"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265586"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Le promozioni svolgono un ruolo importante nel motivare i clienti che stanno prendendo decisioni di acquisto. Ad esempio, le vacanze possono produrre il maggior numero di vendite per i rivenditori, perché l'intero mercato al dettaglio è invaso da promozioni e sconti allettanti. Se i collaboratori del negozio conoscono e comprendono le promozioni disponibili, possono facilmente trarre vantaggio da tali promozioni per il cross-sell e l'upsell degli articoli. Questo argomento spiega come Microsoft Dynamics 365 Commerce aiuta gli addetti alle vendite a conoscere le promozioni e come possono essere utilizzate per i movimenti di cross-sell e upsell.
 

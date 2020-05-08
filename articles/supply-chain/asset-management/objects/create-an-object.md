@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209906"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274167"
 ---
 # <a name="create-an-asset"></a>Creare un cespite
 
@@ -38,13 +38,13 @@ Viene descritta la procedura per la creazione di un cespite in Gestione cespiti.
 3. Nella finestra di dialogo **Crea cespiti**, inserire i dati relativi al **Cespite** (l'ID del cespite) e il nome del cespite. Selezionare la data e l'ora del cespite nel campo **Validità**. A partire da tale data, è possibile installare il cespite in una unità funzionale nonché spostare e sostituire il cespite in una struttura di cespiti.
 4. Nel campo **Tipo cespite**, selezionare il tipo per il cespite (campo obbligatorio). Se necessario, selezionare **Produttore cespite** e **Modello cespite** per il cespite. Se un solo prodotto è stato configurato, il prodotto è selezionato automaticamente nel campo **Produttore cespite**. Le opzioni disponibili nei campi **Produttore cespite** e **Modello cespite** dipendono dalla configurazione in [Produttori e modelli di cespiti](../setup-for-objects/product-and-model.md).
 5. Nel gruppo **Cespite padre**, il campo **Cespite** è vuoto per impostazione predefinita. Se necessario, è possibile selezionare un cespite padre e quindi tutti i campi del gruppo **Cespite padre** verranno compilati automaticamente.
->[!NOTE]  
->Quando si seleziona un cespite padre, due o tre schede sono disponibili: La scheda **Cespiti personali** include i cespiti correlati alle unità funzionali a cui l'addetto alla manutenzione connesso al sistema può essere assegnato. Se non sono impostate unità funzionali per un addetto alla manutenzione nel modulo [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md), la scheda **Cespiti personali** non sarà visibile. La scheda **Cespiti attivi** include un elenco di tutti i cespiti con stato del ciclo di vita del cespite "Attivo". La scheda **Visualizzazione cespiti** mostra una visualizzazione struttura delle unità funzionali e dei cespiti installati nelle unità.
+    >[!NOTE]  
+    >Quando si seleziona un cespite padre, due o tre schede sono disponibili: La scheda **Cespiti personali** include i cespiti correlati alle unità funzionali a cui l'addetto alla manutenzione connesso al sistema può essere assegnato. Se non sono impostate unità funzionali per un addetto alla manutenzione nel modulo [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md), la scheda **Cespiti personali** non sarà visibile. La scheda **Cespiti attivi** include un elenco di tutti i cespiti con stato del ciclo di vita del cespite "Attivo". La scheda **Visualizzazione cespiti** mostra una visualizzazione struttura delle unità funzionali e dei cespiti installati nelle unità.
 
 6. L'unità funzionale predefinito impostata verrà suggerita per il cespite nel gruppo **Cespite** > campo **Unità funzionale**. Selezionare un'altra unità funzionale, se necessario.
 
->[!NOTE]
->Dopo aver creato un cespite, è possibile installarlo in un'altra unità funzionale, se necessario. Solo i cespiti di primo livello (cespiti senza un cespite padre corrente) possono essere installati in una unità funzionale. Ciò significa che si imposta il primo livello nonché tutti i cespiti figlio nella unità funzionale selezionata. Ulteriori informazioni sull'installazione in unità funzionali in [Introduzione alle unità funzionali](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Dopo aver creato un cespite, è possibile installarlo in un'altra unità funzionale, se necessario. Solo i cespiti di primo livello (cespiti senza un cespite padre corrente) possono essere installati in una unità funzionale. Ciò significa che si imposta il primo livello nonché tutti i cespiti figlio nella unità funzionale selezionata. Ulteriori informazioni sull'installazione in unità funzionali in [Introduzione alle unità funzionali](../functional-locations/introduction-to-functional-locations.md).
 
 7. Fare clic su **OK**.
 8. Selezionare il cespite nell'elenco **Tutti i cespiti** e fare clic sul pulsante **Modifica** per aggiungere ulteriori informazioni sul cespite.

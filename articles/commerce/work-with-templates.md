@@ -3,7 +3,7 @@ title: Utilizzare i modelli
 description: In questo argomento viene descritto come utilizzare i modelli in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002569"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269868"
 ---
 # <a name="work-with-templates"></a>Utilizzare i modelli
 
@@ -132,14 +132,14 @@ Per aggiungere uno script a un modello, effettuare le operazioni seguenti.
 Per salvare e archiviare un modello, effettuare le operazioni indicate di seguito.
 
 1. Selezionare **Salva** nella parte superiore dell'editor di modelli. Le modifiche salvate non influiscono sulle pagine downstream fino a che non vengono archiviate.
-1. Selezionare **Archivia**. Le modifiche sono ora individuabili per i flussi di lavoro downstream.
+1. Selezionare **Fine modifica**. Le modifiche sono ora individuabili per i flussi di lavoro downstream.
 
 Per visualizzare un'anteprima delle modifiche, aprire una pagina esistente che utilizza il modello o creare una nuova pagina a partire dal modello.
 
 Dopo avere visualizzato un'anteprima delle modifiche al modello, eseguire una di queste operazioni per pubblicare il modello sul sito live:
 
 * Andare a **Modelli**, selezionare il modello e quindi **Pubblica**.
-* Nell'editor di modelli, selezionare **Pubblica**.
+* Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
 * Pubblicare una pagina che fa riferimento al modello non pubblicato. Il modello viene pubblicato automaticamente.
 
 > [!WARNING]

@@ -3,7 +3,7 @@ title: Modulo Sequenza
 description: In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025783"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269730"
 ---
 # <a name="carousel-module"></a>Modulo Sequenza
 
@@ -58,9 +58,10 @@ Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozional
 
 Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello di pagina denominato **Modello sequenza**.
+1. Selezionare **Nuovo** per creare un modello di pagina.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello sequenza**, quindi selezionare **OK**.
 1. Nello slot **Corpo**, aggiungi un modulo **Pagina predefinita**.
-1. Archiviare il modello e pubblicarlo. 
+1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.  
 1. Utilizzare il modello sequenza appena creato per creare una pagina denominata **Pagina sequenza**.
 1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore. 
 1. Nel riquadro a destra, impostare il **Larghezza** su **Riempi schermo**.
@@ -68,8 +69,8 @@ Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà n
 1. Aggiungere un modulo blocco di contenuto al modulo Sequenza. Impostare le proprietà del modulo blocco di contenuto fornendo **Intestazione**, **Collegamento**, **Layout** e altre proprietà.
 1. Aggiungere e configurare un altro modulo blocco di contenuto.
 1. Impostare proprietà aggiuntive per il modulo Sequenza come necessario.
-1. Salvare la pagina e visualizzarne l'anteprima. La pagina dovrebbe visualizzare una sequenza con due moduli (un modulo Hero e un modulo Funzionalità). È possibile modificare ulteriori proprietà dei moduli Sequenza, Hero e Funzionalità per ottenere l'effetto desiderato.
-1. Completare la modifica della pagina e pubblicarla.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. La pagina dovrebbe visualizzare una sequenza con due moduli (un modulo Hero e un modulo Funzionalità). È possibile modificare ulteriori proprietà dei moduli Sequenza, Hero e Funzionalità per ottenere l'effetto desiderato.
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

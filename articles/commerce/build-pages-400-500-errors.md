@@ -3,7 +3,7 @@ title: Creare pagine di risposta personalizzate per gli errori di codice stato 4
 description: In questo argomento viene descritto come creare pagine di risposta personalizzate per errori di codice stato 4xx e 5xx utilizzando gli strumenti di creazione in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001134"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269546"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Creare pagine di risposta personalizzate per gli errori di codice stato 4xx/5xx
 
@@ -46,19 +46,21 @@ Per iniziare a creare una pagina di risposte per errori di codice stato, effettu
 
 Per creare il modello per la pagina di risposte per errori di codice stato, effettuare le seguenti operazioni.
 
-1. Andare a **Modelli \> Nuovo modello**.
-1. Assegnare un nome al nuovo modello.
+1. Andare a **Modelli**.
+1. Selezionare **Nuovo** per creare un modello di pagina.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere un nome per il nuovo modello e selezionare **OK**.
 1. Creare il modello in base alla struttura che la pagina di risposte per errori di codice stato deve avere.
-1. Archiviare il modello e pubblicarlo.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Creare la pagina di risposte per errori di codice stato
 
 Per creare la pagina di risposte per errori di codice stato, effettuare le seguenti operazioni.
 
-1. Andare a **Pagine \> Nuova pagina**.
-1. Assegnare un nome alla pagina di risposte per errori di codice stato, ma **non** impostare il campo **URL**.
+1. Andare a **Pagine**.
+1. Selezionare **Nuovo** per creare una pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare un modello, quindi in **Nome pagina**, inserire un nome per la pagina di risposta dell'errore del codice di stato. Lasciare vuoto il campo **URL pagina**.
 1. Creare la pagina.
-1. Archiviare la pagina e pubblicarla.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 > [!NOTE]
 > È possibile creare pagine di risposte per errori di codice stato 4xx e 5xx. In alternativa, è possibile utilizzare la stessa pagina di risposte per errori di codice stato per entrambe le categorie di errore.

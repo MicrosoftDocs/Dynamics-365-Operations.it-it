@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172670"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275443"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Risoluzione dei problemi durante l'impostazione iniziale
 
@@ -39,7 +39,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Non è possibile collegare un'app Finance and Operations a Common Data Service
 
-**Credenziali richieste per impostare la doppia scrittura:** amministratore del tenant Azure AD
+**Ruolo richiesto per impostare la doppia scrittura:** Amministratore di sistema nelle app Finance and Operations e Common Data Service.
 
 Gli errori nella pagina **Impostazione del collegamento a Common Data Service** sono generalmente causati da problemi di configurazione o permessi incompleti. Assicurarsi che l'intero controllo dello stato passi nella pagina **Impostazione del collegamento a Common Data Service**, come mostrato nella figura seguente. Non è possibile collegare la doppia scrittura a meno che non venga superato l'intero controllo dello stato.
 

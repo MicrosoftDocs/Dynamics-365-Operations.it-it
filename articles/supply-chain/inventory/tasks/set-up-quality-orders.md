@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204035"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268795"
 ---
 # <a name="set-up-quality-orders"></a>Impostare ordini di controllo qualità
 
@@ -78,6 +78,9 @@ In questa procedura viene illustrato come abilitare il processo di gestione dell
 8. Fare clic su **Salva**.
 9. Chiudere la pagina.
 
+> [!NOTE]
+> La funzionalità *Gestione della qualità per i processi di magazzino* fornisce ulteriori funzionalità di campionamento degli articoli. Aggiunge un concetto di *ambito di campionamento dell'articolo* e la capacità di definire una targa completa come specifica della quantità. Se è stata abilitata questa funzione, vedere [Gestione della qualità per i processi di magazzino](../quality-management-for-warehouses-processes.md) per dettagli.
+
 ## <a name="create-a-quality-group"></a>Creare un gruppo di controllo qualità
 1. Andare a **Gestione articoli > Impostazioni > Controllo qualità > Gruppi di controllo qualità**.
 2. Fare clic su **Nuovo**.
@@ -127,7 +130,9 @@ In questa procedura viene illustrato come abilitare il processo di gestione dell
 12. Nell'elenco fare clic sul collegamento nella riga selezionata. Tale opzione dipenderà dai valori selezionati precedenti. Selezionare se i seguenti processi devono essere bloccati mentre si hanno ordini di controllo qualità aperti collegati a una riga documento di origine.  
 13. Espandere o comprimere la sezione **Specifiche**.
 14. Nel campo **Gruppo di test** selezionare il gruppo di test creato in precedenza.
-15. Trovare e selezionare il record desiderato nell'elenco.
+15. Nell'elenco trovare e selezionare il record desiderato.
 16. Fare clic su **Salva**.
 17. Chiudere la pagina.
 
+> [!NOTE]
+> La funzione *Gestione della qualità per i processi di magazzino* fornisce opzioni aggiuntive per l'impostazione di associazioni di qualità. Aggiunge una nuova condizione (**Tipo di magazzino applicabile**) e una nuova impostazione (**Criteri di elaborazione della qualità**). Se è stata abilitata questa funzione, vedere [Gestione della qualità per i processi di magazzino](../quality-management-for-warehouses-processes.md) per dettagli.

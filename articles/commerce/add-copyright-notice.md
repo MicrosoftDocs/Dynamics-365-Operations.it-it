@@ -3,7 +3,7 @@ title: Aggiungere informazioni sul copyright
 description: In questo argomento viene descritto come aggiungere informazioni sul copyright nel sito di e-Commerce.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025484"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269592"
 ---
 # <a name="add-a-copyright-notice"></a>Aggiungere informazioni sul copyright
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Per aggiungere informazioni sul copyright nella parte inferiore di ogni pagina c
 1. Nella finestra di dialogo, selezionare **Blocco di testo** e quindi **OK**.
 1. Nel pannello di navigazione, selezionare **Blocco di testo**.
 1. Nel riquadro delle proprietà a destra, nel campo **Paragrafo**, aggiungere le informazioni sul copyright. Ad esempio, immettere **(C) Fabrikam 2019**.
-1. Selezionare **Salva**, **Archivia** e quindi **Pubblica**.
-1. In **Modelli**, selezionare il modello e quindi **Estrai**.
+1. Selezionare **Salva**, **Fine modifica** e quindi **Pubblica**.
+1. Andare a **Modelli**, selezionare il modello e quindi **Modifica**.
 1. Sotto **Struttura pagina** espandere **Corpo** e quindi **Pagina predefinita**.
 1. Selezionare il pulsante con i puntini di sospensione accanto a **Slot piè di pagina** e quindi selezionare **Aggiungi frammento**.
 1. Selezionare il frammento creato in precedenza e quindi **Seleziona**.
-1. Archiviare il modello e pubblicarlo.
+1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 
 Il piè di pagina contenente le informazioni sul copyright viene automaticamente visualizzato nella parte inferiore di tutte le pagine che utilizzano il modello selezionato.
 

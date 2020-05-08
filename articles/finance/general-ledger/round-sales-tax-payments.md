@@ -3,7 +3,7 @@ title: Pagamenti IVA e regole di arrotondamento
 description: Questo articolo illustra il funzionamento dell'impostazione della regola di arrotondamento in Uffici IVA e l'arrotondamento del saldo dell'IVA durante il processo Liquida e registra IVA.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771754"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275676"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamenti IVA e regole di arrotondamento
 
@@ -43,26 +43,26 @@ L'IVA totale per un periodo mostra un saldo in avere di -98.765,43. La persona g
 
 La persona giuridica desidera utilizzare un metodo che consenta di arrotondare il saldo all'unità più vicina. L'utente responsabile della contabilità IVA esegue le seguenti operazioni.
 
-1.  Fare clic su Imposta &gt; Imposte indirette &gt; IVA &gt; Uffici IVA.
-2.  Nella scheda dettaglio Generale selezionare Normale nel campo Tipo di arrotondamento.
-3.  Nel campo Arrotondamento immettere 1.
-4.  Al momento del pagamento dell'IVA all'ufficio tributario, aprire la pagina Liquida e registra IVA. Fare clic su Imposta &gt; Dichiarazioni &gt; IVA &gt; Liquida e registra IVA.
-5.  Nel conti di liquidazione IVA l'importo di soggettività tributaria di 98.765,43 viene arrotondato a 98.765.
+1. Fare click su **Imposte** > **Imposte indirette** > **IVA** > **Uffici IVA**.
+2. Nella scheda dettaglio **Generale**, nel campo **Tipo di arrotondamento** selezionare **Normale**.
+3. Nel campo **Arrotondamento**, immettere 1,00.
+4. Quando è il momento di pagare le imposte sulle vendite all'autorità fiscale, andare a **Tasse** > **Dichiarazioni** > **IVA** > **Liquida e registra IVA**. Nel conti di liquidazione IVA, è possibile notare che l'importo di soggettività tributaria di **98.765,43** viene arrotondato a **98.765**.
 
-Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni metodo di arrotondamento disponibile nel campo Tipo di arrotondamento del modulo Uffici IVA.
+Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni metodo di arrotondamento disponibile nel campo **Tipo di arrotondamento** nella pagina **Uffici IVA**.
 
-| Opzione Tipo di arrotondamento                | Valore arrotondamento = 0,01 | Valore arrotondamento = 0,10 | Valore arrotondamento = 1,00 | Valore arrotondamento = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Normale                              | 98.765,43              | 98.765,40              | 98.765,00              | 98.800,00                |
-| Arrotondamento per difetto                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Arrotondamento per eccesso                         | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
-| A proprio vantaggio, per un saldo in avere | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| A proprio vantaggio, per un saldo in dare  | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
+> [!NOTE]                                                                                  
+> Se il valore di arrotondamento è impostato su 0,00:
+>
+> - Per l'arrotondamento normale, il comportamento dell'arrotondamento è lo stesso di **Arrotondamento = 0,01**.
+> - Per **Opzioni Tipo di arrotondamento**, **Arrotondamento per difetto**, **Arrotondamento per eccesso** e **A proprio vantaggio**, il comportamento è lo stesso di **Arrotondamento = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Nessun arrotondamento, poiché è 0,00
-
-round(1,0151, 0,00) = 1,0151 round(1,0149, 0,00) = 1,0149
+| Opzione Tipo di arrotondamento                | Valore arrotondamento = 0,01 | Valore arrotondamento = 0,10 | Valore arrotondamento = 1,00 | Valore arrotondamento = 100,00 | Valore arrotondamento = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normale                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Arrotondamento per difetto                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Arrotondamento per eccesso                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| A proprio vantaggio, per un saldo in avere | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| A proprio vantaggio, per un saldo in dare  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Arrotondamento normale e la precisione dell'arrotondamento è 0.01
 

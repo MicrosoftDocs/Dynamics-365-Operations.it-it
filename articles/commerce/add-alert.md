@@ -3,7 +3,7 @@ title: Modulo banner promozionale
 description: In questo argomento vengono descritti i moduli banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025622"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269776"
 ---
 # <a name="promo-banner-module"></a>Modulo banner promozionale
 
@@ -64,16 +64,17 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 Per aggiungere un modulo banner promozionale a una pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello pagina denominato **Modello banner promozionale**.
+1. Selezionare **Nuovo** per creare un modello di pagina.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello banner promozionale**, quindi selezionare **OK**.
 1. Sotto **Struttura pagina** , aggiungere un modulo **Pagina predefinita** allo slot **Corpo**. 
-1. Archiviare il modello e pubblicarlo. 
+1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo. 
 1. Utilizzare il modello appena creato per creare una pagina denominata **Pagina banner promozionale**. 
 1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore. 
 1. Nel riquadro a destra, impostare il valore **Larghezza** su **Riempi contenitore**.
 1. Sotto **Struttura pagina**, aggiungere un modulo banner promozionale al modulo contenitore.
 1. Nelle impostazioni per il modulo banner, aggiungere uno o più messaggi banner. Ogni messaggio può avere del testo e un collegamento. È possibile modificare le altre proprietà per personalizzare ulteriormente il modulo.
-1. Salvare la pagina e visualizzarne l'anteprima. Nella parte superiore della pagina, dovrebbe essere visualizzato un avviso che mostra il testo aggiunto.
-1. Completare la modifica della pagina e pubblicarla. 
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Nella parte superiore della pagina, dovrebbe essere visualizzato un avviso che mostra il testo aggiunto.
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. 
 
 > [!NOTE]
 > Un banner promozionale viene in genere utilizzato nello slot dell'intestazione di pagina o in uno slot del sottotitolo.

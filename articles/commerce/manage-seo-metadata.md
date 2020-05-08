@@ -3,7 +3,7 @@ title: Gestire i metadati SEO
 description: In questo argomento viene descritto come gestire i metadati per l'ottimizzazione del motore di ricerca (SEO) in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003466"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270052"
 ---
 # <a name="manage-seo-metadata"></a>Gestire i metadati SEO
 
@@ -72,13 +72,10 @@ Per modificare i metadati della pagina, effettuare le operazioni seguenti.
 1. In **Siti**, selezionare **Fabrikam** (o il nome del proprio sito).
 1. Nel pannello di navigazione a sinistra, selezionare **Pagine**.
 1. Selezionare la home page per aprirla nell'editor di pagine.
-1. Nel riquadro azioni selezionare **Estrai**.
+1. Nella barra dei comandi, selezionare **Modifica**.
 1. Nel riquadro delle proprietà a destra, espandere **Metatag predefiniti**.
-1. Per aggiungere un nuovo metatag, selezionare **Aggiungi** e immettere il tag nel campo.
-
-    Per rimuovere un metatag esistente, selezionare il cestino a destra dello stesso.
-
-1. Selezionare **Salva** e quindi selezionare **Archivia**.
+1. Per aggiungere un nuovo metatag, selezionare **Aggiungi** e immettere il tag nel campo. Per rimuovere un metatag esistente, selezionare il cestino a destra dello stesso.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Nel campo **Commenti**, immettere **Metatag aggiornati** e selezionare **OK**.
 1. Selezionare **Anteprima** per visualizzare l'anteprima della pagina. Al termine, chiudere la scheda Anteprima per tornare allo strumento di creazione.
 1. Selezionare **Pubblica**

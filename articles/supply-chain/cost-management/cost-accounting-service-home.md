@@ -1,0 +1,39 @@
+---
+title: Home page del servizio contabilità industriale
+description: Questo argomento è la home page per il servizio di contabilità industriale.
+author: AndersGirke
+manager: tfehr
+ms.date: 04/17/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: aevengir
+ms.search.validFrom: 2020-04-17
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: bdfdad92ddaf4f352e3807dbe72a8d42d46be2ef
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3276931"
+---
+# <a name="cost-accounting-service-home-page"></a>Home page del servizio contabilità industriale
+
+[!INCLUDE [banner](../includes/banner.md)]
+
+Le organizzazioni internazionali sono sempre più sotto pressione per conformarsi alle normative locali (principi contabili generalmente accettati a livello locale \[GAAP\]) e principi contabili condivisi (come US-GAAP, International Financial Reporting Standards \[IFRS\] e principi contabili internazionali \[IAS\]), anche in situazioni in cui i diversi standard e regolamenti potrebbero essere in conflitto.
+
+Alle organizzazioni internazionali che hanno filiali in paesi o regioni in cui esiste una valuta locale iperfluttuante potrebbe essere richiesto dal governo locale di contabilizzare e gestire l'inventario in quella valuta. Tuttavia, per ottemperare a US-GAAP, la società controllata deve anche contabilizzare e gestire l'inventario in una valuta stabile, come i dollari USA (USD).
+
+Le organizzazioni potrebbero preferire di contabilizzare l'inventario in base al costo standard come parte della propria configurazione contabile di gestione. Tuttavia, gli IFRS, i governi locali e le autorità fiscali locali non riconoscono sempre i costi standard come metodo accettato. Spesso richiedono l'identificazione media, first in first out (FIFO) o specifica.
+
+Il componente aggiuntivo del servizio di contabilità dei costi per Microsoft Dynamics 365 Supply Chain Management consente l'inventario degli account in più contabilità. Pertanto, supporta più valute e più valutazioni.
+
+## <a name="related-resources"></a>Risorse correlate
+
+[Introduzione al servizio di contabilità industriale](cost-accounting-service-get-started.md)

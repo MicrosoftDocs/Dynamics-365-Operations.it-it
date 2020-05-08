@@ -3,7 +3,7 @@ title: Funzionalità e capacità di accessibilità
 description: In questo argomento vengono fornite informazioni sulle funzionalità e capacità di accessibilità in Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001762"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274190"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Funzionalità e capacità di accessibilità
 
@@ -49,7 +49,7 @@ Il sistema di gestione delle risorse digitali Dynamics 365 Commerce supporta div
 
 | Funzionalità video               | Descrizione |
 |-----------------------------|-------------|
-| Sottotitoli (CC)      | Testo che può essere mostrato per gli elementi audio descrittivi e l'audio di un video, per aiutare gli utenti con problemi di udito |
+| Sottotitoli (CC)      | Testo che può essere mostrato per gli elementi audio descrittivi e l'audio di un video, per aiutare gli utenti sordi o con problemi di udito |
 | Sottotitoli                   | File di sottotitoli che mostrano il testo di indizi dal contesto o della finestra di dialogo sullo schermo |
 | Trascrizioni audio           | Una trascrizione testuale di parole pronunciate che viene generata dall'audio di una risorsa video |
 | Audio descrittivo           | Un canale audio non primario che descrive il contenuto o il contesto che appare sullo schermo |
@@ -57,7 +57,7 @@ Il sistema di gestione delle risorse digitali Dynamics 365 Commerce supporta div
 
 ### <a name="configure-video-accessibility-elements"></a>Configurare elementi di accessibilità video
 
-In Dynamics 365 Commerce, nella sezione **Risorse** del sito, puoi caricare risorse video che hanno file separati per sottotitoli, audio normale e audio descrittivo. I sottotitoli possono anche essere generati automaticamente quando viene caricata una risorsa video.
+In Commerce, nella sezione **Libreria multimediale**, puoi caricare risorse video che hanno file separati per sottotitoli, audio normale e audio descrittivo. I sottotitoli possono anche essere generati automaticamente quando viene caricata una risorsa video.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Generare o caricare file di sottotitoli codificati durante il caricamento delle risorse video
 
@@ -72,7 +72,7 @@ Per caricare manualmente un file di sottotitoli quando carichi un video, segui q
 Per caricare normali file audio o file audio descrittivi per il video, utilizzare il selettore file nella finestra di dialogo **Carica risorsa**.
 
 > [!NOTE]
-> È inoltre possibile aggiungere sottotitoli, audio normale e risorse audio descrittive dopo aver caricato una risorsa video. Andare a **Risorse**, selezionare la risorsa video e verificarla, quindi, nel riquadro delle proprietà per la risorsa video, caricare le risorse aggiuntive.
+> È inoltre possibile aggiungere sottotitoli, audio normale e risorse audio descrittive dopo aver caricato una risorsa video. Andare a **Libreria multimediale**, selezionare la risorsa video e selezionare **Modifica** per verificarla. Quindi, nel riquadro delle proprietà per la risorsa video, caricare le risorse aggiuntive.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Modificare i file di trascrizione audio e CC
 
@@ -80,10 +80,10 @@ I file di trascrizione audio e CC possono essere modificati direttamente nello s
 
 Per modificare i file di trascrizione audio e CC, attenersi alla seguente procedura.
 
-1. Andare a **Risorse**, selezionare la risorsa video, quindi selezionare **Modifica CC/Trascrizione**. Viene visualizzato l'editor dei contenuti dei sottotitoli codificati e delle trascrizioni.
-1. Selezionare **Estrai**.
+1. Andare a **Libreria multimediale** e selezionare il nome del file della risorsa video. Viene visualizzato l'editor dei contenuti dei sottotitoli codificati e delle trascrizioni.
+1. Selezionare **Modifica**.
 1. Modificare il testo dei sottotitoli o della trascrizione.
-1. Al termine, selezionare **Salva**, quindi selezionare **Archivia**.
+1. Al termine, selezionare **Salva**, quindi selezionare **Fine modifica**.
 1. Quando sei pronto per la pubblicazione, seleziona **Pubblica**.
 
 #### <a name="set-the-minimum-age-attribute"></a>Imposta l'attributo Età minima
@@ -92,8 +92,8 @@ Un attributo dei metadati **Età minima** può essere associato alle risorse vid
 
 Per impostare l'attributo **Età minima** per una risorsa video, attenersi alla seguente procedura.
 
-1. Vai a **Risorse**e seleziona la risorsa video.
-1. Selezionare **Estrai**.
+1. Andare a **Libreria multimediale** e selezionare la risorsa video.
+1. Selezionare **Modifica**.
 1. Nel riquadro delle proprietà della risorsa video, impostare l'attributo **Età minima**.
 
 > [!NOTE]
@@ -109,6 +109,8 @@ Per impostare l'attributo **Età minima** per una risorsa video, attenersi alla 
 
 [Panoramica sulla conformità](compliance-overview.md)
 
-[Conformità cookie](cookie-compliance.md)
+[Conformità dei cookie](cookie-compliance.md)
 
 [Aggiungere una pagina dell'Informativa sulla privacy](add-privacy-page.md)
+
+[Sostituire gli ID utente associati alle modifiche al contenuto monitorato](replace-IDs-tracked-changes.md)

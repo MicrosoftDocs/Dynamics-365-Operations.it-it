@@ -3,7 +3,7 @@ title: Aggiungere una nuova pagina di sito
 description: In questo argomento viene descritto come aggiungere una nuova pagina di sito in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68461f1f0be46f979a67e1806e03c02200cf61db
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001348"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269960"
 ---
 # <a name="add-a-new-site-page"></a>Aggiungere una nuova pagina di sito
 
@@ -67,7 +67,7 @@ Per aggiungere un nuova pagina, effettuare le seguenti operazioni.
 1. Selezionare **Blocco ricco di contenuti**, il pulsante con i puntini di sospensione e quindi **Aggiungi modulo**.
 1. Selezionare **Elemento blocco ricco di contenuti** e quindi **OK**.
 1. Nel riquadro delle proprietà a destra, selezionare **Paragrafo**, quindi nel campo immettere **Testo di prova**.
-1. Selezionare **Salva** e quindi selezionare **Archivia**.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Nel campo **Commenti**, immettere **Aggiunta nuova pagina** e selezionare **OK**.
 1. Selezionare **Anteprima** per visualizzare l'anteprima della pagina. Al termine, chiudere la scheda Anteprima per tornare allo strumento di creazione.
 1. Selezionare **Pubblica**

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224911"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268818"
 ---
 # <a name="quality-management-overview"></a>Panoramica sulla gestione della qualità
 
@@ -43,7 +43,11 @@ La gestione della qualità è flessibile e può essere implementata in vari modi
 
 -   Consente di avviare un processo di controllo qualità in base a criteri predefiniti (al momento della registrazione in magazzino di un ordine acquisto di un fornitore specifico).
 -   Consente di bloccare l'inventario durante l'ispezione per impedire che venga utilizzato un magazzino non approvato (blocco completo di quantità degli ordini acquisto).
--   Utilizzare il campionamento articoli come parte di un'associazione di qualità per definire l'importo di inventario fisico corrente che deve essere controllato. Il campionamento può basarsi su quantità fisse o una percentuale.
+-   Utilizzare il campionamento articoli come parte di un'associazione di qualità per definire l'importo di inventario fisico corrente che deve essere controllato. Il campionamento può essere basato su quantità fisse, una percentuale o una targa completa.
+
+> [!NOTE]
+> La funzionalità _Gestione della qualità per i processi di magazzino_ estende le capacità di gestione della qualità. Se si utilizza questa funzione, vedere [Gestione della qualità per i processi di magazzino](quality-management-for-warehouses-processes.md) per esempi su come funziona la gestione della qualità quando è abilitata.
+
 -   Creare ordini di controllo qualità per le entrate parziali. Per creare un ordine di controllo qualità basato sulla quantità che viene fisicamente ricevuta con un ordine, è necessario selezionare la casella di controllo **Per quantità aggiornata** nel modulo **Campionamento articoli**.
 -   Consente di creare i tipi di test che includono i valori di test minimi, massimi e di destinazione e di eseguire il test qualitativo-contro-quantitativo con i risultati di convalida predefiniti.
 -   Specificare un livello di qualità accettabile (AQL) per controllare le tolleranze di misura di qualità.
@@ -428,6 +432,9 @@ Se durante la produzione, si imposta il campo **Tipo di evento** su **Dichiarato
 </tbody>
 </table>
 
+> [!NOTE]
+> La funzionalità *Gestione della qualità per i processi di magazzino* aggiunge funzionalità per l'elaborazione degli ordini di qualità per la produzione con **Tipo di evento** impostato su *Dichiarato finito* e **Esecuzione** impostato su *Dopo* e per acquisti con **Tipo di evento** impostato su *Registrazione*. Per informazioni dettagliate, vedere [Gestione qualità per i processi di magazzino](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Pagine sulla gestione qualità
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Se durante la produzione, si imposta il campo **Tipo di evento** su **Dichiarato
 <thead>
 <tr class="header">
 <th>Pagina</th>
-<th>Descrizione</th>
+<th>descrizione</th>
 <th>Esempio</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 [Processi di gestione qualità](quality-management-processes.md)
 
 [Gestione della non conformità](enable-nonconformance-management.md)
+
+[Gestione qualità per i processi di magazzino](quality-management-for-warehouses-processes.md)

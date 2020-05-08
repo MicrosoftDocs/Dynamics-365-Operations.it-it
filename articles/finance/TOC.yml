@@ -70,12 +70,12 @@
                   items:
                     - name: Home page novità o modifiche in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11 (luglio 2020)
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (maggio 2020)
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9 (aprile 2020)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8 (febbraio 2020)
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità rimosse o deprecate in Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Configurare i costi standard di manodopera e spese
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Configurare e utilizzare i pagamenti fornitore con pagamento in base alla retribuzione
+              href: project-management/setup-manage-vendor-payments.md
             - name: Entrate acquisti per attribuzione per competenza dei costi di progetto
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Fatturazione progetto
               href: accounts-payable/project-invoicing.md
             - name: Contratti di progetto
               href: project-management/project-contracts.md
+            - name: Creare contratti avanzati per la fatturazione in base allo stato di avanzamento
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Previsioni e budget di progetto
               href: project-management/project-forecasts-budgets.md
             - name: Trasferire i budget di progetto a fine anno fiscale
@@ -1012,8 +1016,10 @@
                   href: project-management/project-timesheet.md
                 - name: Fogli presenze di progetto in un dispositivo mobile
                   href: project-management/mobile-timesheets.md
-                - name: Implementare campi personalizzati per l'app per dispositivi mobili Project Timesheet
+                - name: Implementare campi personalizzati per l'app per dispositivi mobili Foglio presenze progetto
                   href: project-management/custom-fields-mobile.md
+            - name: Sovvenzioni progetto
+              href: project-management/project-grants.md
         - name: Settore pubblico
           items:
             - name: Home page Settore pubblico
@@ -2012,10 +2018,12 @@
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
                 - name: Profili registrazione configurabili per banche e tipi di rimessa
                   href: localizations/emea-ita-exil-bank-remittance.md
-                - name: Certificazione univoca
+                - name: Certificazione unica
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Importazione protesto di effetti attivi
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Plafond fiscale
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Giappone
               items:
                 - name: Panoramica Giappone
