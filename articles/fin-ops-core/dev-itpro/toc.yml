@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (aprile 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (febbraio 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità di Platform rimosse o deprecate
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Configurazione a doppia scrittura da Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Sincronizzazione iniziale
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
                               items:
                                 - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Controllo della versione, ricerca metadati e navigazione'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Sviluppare l'automazione tramite Azure
+              items:
+                - name: Sviluppare l'automazione tramite agenti ospitati da Microsoft e Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: Aggiungere i file di licenza a un pacchetto distribuibile in Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Creare pacchetti distribuibili in Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Controllo delle versioni del modello X++ in Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Applicazione di esempio di gestione flotta
               items:
                 - name: Scenario completo per l'applicazione di esempio di gestione flotta
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Assegnare gli utenti ai ruoli di sicurezza
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Diagnostica di sicurezza per file di Registrazione attività
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Elaborazione batch
               items:
                 - name: Panoramica elaborazione batch
