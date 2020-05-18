@@ -419,12 +419,14 @@
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
                 - name: Analisi degli errori dei cespiti
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
-                - name: KPI del cespite
+                - name: Indicatori di prestazioni chiave del cespite
                   href: asset-management/controlling-and-reporting/asset-kpis.md
                 - name: Utilizzo dell'articolo
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Stato della manutenzione
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Integrare la gestione cespiti con Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Area di lavoro mobile di gestione cespiti
               href: asset-management/asset-management-mobile-workspace.md
         - name: Gestione dati
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aggiungere dimensioni finanziarie alle misure di aggregazione
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Creazione di report analitici con Power BI Desktop
+                - name: Creare report analitici utilizzando Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1041,7 +1043,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Definire la dipendenza delle configurazioni dei report elettronici in altri componenti
+            - name: Definire la dipendenza delle configurazioni ER in altri componenti
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: Pianificare una soluzione ER per utilizzare le dimensioni finanziarie
               items:
@@ -1139,7 +1141,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
+                - name: Configurare i formati ER per utilizzare i parametri specifici per la persona giuridica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Impostare i parametri di un formato ER per la persona giuridica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Panoramica sull'ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Le scorte disponibili negative vengono trattate come zero scorte disponibili
+                - name: Pianificazione con quantità disponibili negative
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introduzione all'ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Impostare un processo di rifornimento minimo/massimo
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Impostare un modello di lavoro per gli ordini fornitore
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Installare e configurare l'app del magazzino
               items:
                 - name: Panoramica configurare e installare
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Impostare i dispositivi mobili per il lavoro di magazzino
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Ricezione della targa con Warehouse Mobile App
+                - name: Ricezione della targa con l'app del magazzino
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
                   href: warehousing/tasks/set-up-mobile-device-menu.md
