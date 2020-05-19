@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
+ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275652"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340932"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -62,14 +62,14 @@ Dopo aver installato lo strumento di distribuzione pacchetti, installare il pacc
 
 Per attivare il log di traccia, effettuare le seguenti operazioni.
 
-1. Accedere all'app Finance and Operations, aprire la pagina **Impostazioni** e quindi sotto **Sistema**, selezionare **Amministrazione**.
+1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Sistema** selezionare **Amministrazione**.
 2. Nella pagina **Amministrazione** selezionare **Impostazioni di sistema**.
 3. Nella scheda **Personalizzazione**, nel campo **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
 
 
 Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
-1. Accedere all'app Finance and Operations, aprire la pagina **Impostazioni** e quindi sotto **Personalizzazione**, selezionare **Registro di traccia plug-in**.
+1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Personalizzazione** selezionare **Registro di traccia plug-in**.
 2. Trovare i log di traccia dove il campo **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione**, esaminare il testo **Blocco messaggio**.
 

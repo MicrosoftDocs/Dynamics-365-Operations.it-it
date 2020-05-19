@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205669"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346470"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -233,7 +233,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app Warehouse Mobile (WMA) quando si inizia il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app del magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Selezionare <strong>Suggerisci</strong>.</li>
 <li>Confermare la nuova ubicazione suggerita in base alla disponibilità della quantità batch.</li>
 </ol>
@@ -247,10 +247,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app WMA quando si inizia il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app del magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Immettere un'ubicazione manualmente.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Completo</strong> nell'app WMA quando si elabora il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Completo</strong> nell'app del magazzino quando si elabora il lavoro di prelievo.</li>
 <li>Nel campo <strong>Qtà prelievo</strong>, immettere una quantità parziale del prelievo necessario per indicare la piena capacità.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Iniziare un movimento sull'app WMA.</li>
+<li>Avviare un movimento sull'app del magazzino.</li>
 <li>Immettere le ubicazioni "da" e "a".</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -545,10 +545,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>No</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>Nessuno</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>Sì</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>Nessuno</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -585,7 +585,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app WMA quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione automatica</strong>.</li>
 </ol>

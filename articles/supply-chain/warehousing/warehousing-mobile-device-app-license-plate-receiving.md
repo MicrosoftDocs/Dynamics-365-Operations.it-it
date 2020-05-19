@@ -1,6 +1,6 @@
 ---
-title: Ricezione della targa tramite Warehouse Mobile App
-description: Questo argomento spiega come configurare Warehouse Mobile App per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
+title: Ricezione della targa tramite l'app del magazzino
+description: Questo argomento spiega come configurare l'app del magazzino per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261346"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346378"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Ricezione della targa tramite Warehouse Mobile App
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Ricezione della targa tramite l'app del magazzino
 
-Questo argomento spiega come configurare Warehouse Mobile App in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
+Questo argomento spiega come configurare l'app del magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 
 È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Visualizzare o ignorare la pagina di riepilogo di ricezione
 
-È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricezione su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app Magazzino come parte del processo di ricezione della targa.
+È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricezione su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app di magazzino come parte del processo di ricezione della targa.
 
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, questa funzione è elencata nel modo seguente:
 

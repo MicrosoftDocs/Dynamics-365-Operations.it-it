@@ -3,7 +3,7 @@ title: Introduzione all'ottimizzazione di pianificazione
 description: Questo argomento illustra come iniziare a utilizzare la funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213517"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339880"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione di pianificazione
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Microsoft Dynamics 365 Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. Per impostazione predefinita, la funzionalità di ottimizzazione di pianificazione non è abilitata in Dynamics Lifecycle Services (LCS). Pertanto, è possibile effettuare la valutazione prima che venga attivata.
@@ -36,6 +35,11 @@ La funzionalità di ottimizzazione di pianificazione non supporta attualmente tu
 Alla fine, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione integrato Supply Chain Management.
 
 Prima di attivare l'ottimizzazione di pianificazione, si consiglia vivamente di valutare i risultati dell'analisi di adeguatezza dell'ottimizzazione di pianificazione. Per ulteriori informazioni, vedere [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md).
+
+### <a name="availability"></a>Disponibilità
+L'ottimizzazione di pianificazione è attualmente disponibile nelle seguenti aree geografiche di Azure: Stati Uniti, Canada, Europa, Regno Unito e Australia. Se si tenta di installare il componente aggiuntivo da un'altra area geografica, LCS mostrerà un messaggio che indica che l'area geografica non è supportata.
+
+L'ottimizzazione di pianificazione non supporta le distribuzioni locali Dynamics 365 Supply Chain Management.
 
 ### <a name="licensing"></a>Licenze
 
@@ -46,7 +50,7 @@ Se è possibile eseguire la pianificazione generale utilizzando la licenza corre
 Per utilizzare l'ottimizzazione di pianificazione, installare il componente aggiuntivo Ottimizzazione di pianificazione per Dynamics 365 Supply Chain Management. È possibile accedere al componente aggiuntivo dal progetto LCS e attivare la funzionalità di ottimizzazione di pianificazione dall'interfaccia utente (UI) di Supply Chain Management.
 
 > [!NOTE]
-> Il requisito per l'ottimizzazione della pianificazione è un ambiente ad alta disponibilità abilitato per LCS (non un ambiente OneBox), con Dynamics 365 Supply Chain Management versione 10.0.7 o successiva.
+> Il requisito per l'ottimizzazione di pianificazione è un ambiente ad alta disponibilità abilitato per LCS, di livello 2 o maggiore (non un ambiente OneBox), con Dynamics 365 Supply Chain Management versione 10.0.7 o successiva. Se si tenta di installare il componente aggiuntivo in un ambiente OneBox, l'installazione non verrà completata e sarà necessario annullare l'installazione.
 
 1. Accedere a LCS e aprire l'ambiente desiderato.
 1. Andare a **Dettagli completi**.
@@ -88,11 +92,11 @@ L'impostazione dell'opzione **Usa ottimizzazione di pianificazione** determina i
 
 Se l'anteprima di ottimizzazione di pianificazione è attivata, la pianificazione generale viene eseguita utilizzando il componente aggiuntivo ottimizzazione di pianificazione. In questo caso, i risultati e le funzionalità della pianificazione generale sono interessati.
 
-## <a name="related-resources"></a>Risorse correlate
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Condizioni per l'anteprima](https://go.microsoft.com/fwlink/?linkid=2015274)
 
-[Panoramica dell'ottimizzazione di pianificazione](planning-optimization-overview.md)
+[Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
 
 [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
 

@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275581"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323625"
 ---
 # <a name="inventory-aging-report-storage"></a>Archiviazione report di aging delle scorte
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 In Microsoft Dynamics 365 Supply Chain Management, è possibile eseguire un report **Archiviazione report di aging delle scorte** e rendere l'output disponibile come modulo e grafico. Nel modulo, le colonne e i saldi aggregati vengono modificati in modo dinamico, a seconda del layout configurato. Il grafico offre una panoramica visiva che supporta il filtro e consente di approfondire i dettagli. Inoltre, un'entità dati denominata **Report aging delle scorte** consente di esportare i risultati di un report **Archiviazione report di aging delle scorte** eseguito in un formato file Microsoft Excel o un file PDF.
 

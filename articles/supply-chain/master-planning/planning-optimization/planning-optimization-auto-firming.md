@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209745"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323533"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Stabilizzazione automatica con l'ottimizzazione di pianificazione
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 La stabilizzazione automatica consente di stabilizzare ovvero rilasciare gli ordini pianificati nel processo di pianificazione generale. Quando gli ordini pianificati vengono stabilizzati, vengono trasformati negli ordini fornitore, di trasferimento o di produzione effettivi. Quando l'ottimizzazione di progettazione viene utilizzata, gli ordini pianificati vengono stabilizzati durante l'esecuzione di una pianificazione generale quando la data dell'ordine ovvero la data di inizio rientra nell'intervallo temporale specificato per la stabilizzazione.

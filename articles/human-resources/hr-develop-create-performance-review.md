@@ -1,9 +1,9 @@
 ---
 title: Creare revisioni delle prestazioni
-description: In questo articolo viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
+description: In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009542"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334685"
 ---
 # <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
 
 
-
-In questo articolo viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.
+In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.
 
 1. Nella home page, selezionare l'area di lavoro **Dipendente self-service**.
 2. Selezionare **Nuova revisione** per creare una nuova revisione.
@@ -37,7 +36,7 @@ In questo articolo viene illustrato come creare una revisione delle prestazioni 
 6. Selezionare **OK**. È inoltre possibile creare una revisione a partire da un modello. Si tratta del modo migliore per creare una revisione perché ogni sezione conterrà le informazioni necessarie per avviare una revisione.  
 7. È possibile visualizzare o nascondere le schede come la scheda Allegati:
 
-    1. Nel riquadro azioni, selezionare **Mostra sezioni** per aprire la finestra di dialogo a discesa.
+    1. Nel riquadro azioni selezionare **Mostra sezioni** per aprire il menu della finestra di dialogo.
     1. Selezionare **Sì** o **No** nel campo **Mostra allegati** per visualizzare o nascondere la scheda Allegati.
     1. Selezionare **Salva**.
 
@@ -51,7 +50,7 @@ In questo articolo viene illustrato come creare una revisione delle prestazioni 
 15. Selezionare **Aggiungi commento**.
 16. Selezionare **Registra**.
 17. Selezionare la scheda **Misurazioni**.
-18. Selezionare **Aggiungi misura** per aprire la finestra di dialogo a discesa.
+18. Selezionare **Aggiungi misura** per aprire il menu della finestra di dialogo.
 19. Nel campo **Misura** immettere o selezionare un valore.
 26. Nel campo **Importo di destinazione** immettere un numero.
 20. Selezionare **OK**.
@@ -73,7 +72,7 @@ In questo articolo viene illustrato come creare una revisione delle prestazioni 
 32. Selezionare la scheda **Generale**.
 
     - Il periodo di prestazioni crea le date di inizio e fine predefinite. Quelle date sono modificabili.  
-    - Gli stati consentono di controllare l'accesso alla revisione. Lo stato **Non avviato** consente a ognuno di modificare la revisione. Lo stato **In corso** consente solo al dipendente di visualizzare e modificare la revisione. Pronto per revisione consente solo al responsabile di visualizzare e modificare la revisione. Stato Revisione finale consente sia al dipendente che al responsabile di visualizzare e anche modificare la revisione se impostato nel tipo di revisione. Gli stati **Completato**, **Rifiutato** e **Annullato** rendono la revisione di sola lettura.  
+    - Gli stati consentono di controllare l'accesso alla revisione. Lo stato **Non avviato** consente a ognuno di modificare la revisione. Lo stato **In corso** consente solo al dipendente di visualizzare e modificare la revisione. **Pronto per revisione** consente solo al responsabile di visualizzare e modificare la revisione. Lo stato **Revisione finale** consente sia al dipendente sia al responsabile di visualizzare la revisione e anche di modificarla, in caso di impostazione nel tipo di revisione. Gli stati **Completato** e **Annullato** rendono la revisione di sola lettura. Se una revisione ha stato **Rifiutata** e viene reinviata al dipendente, sia il dipendente sia il responsabile possono apportare le modifiche necessarie affinché il dipendente possa eseguire di nuovo l'invio.
 
 33. Nel campo **Panoramica** digitare un valore.
 34. Selezionare la scheda **Revisione**. Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  

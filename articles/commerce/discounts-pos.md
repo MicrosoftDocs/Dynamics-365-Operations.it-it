@@ -3,7 +3,7 @@ title: Mostrare gli sconti nel POS
 description: Questo argomento spiega come Microsoft Dynamics 365 Commerce aiuta gli addetti alle vendite a conoscere le promozioni e come possono essere utilizzate per i movimenti di cross-sell e upsell.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265586"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334710"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 
@@ -54,9 +54,9 @@ Nella pagina **Tutti gli sconti**, gli addetti alle vendite possono anche cercar
 
 Gli sconti multilinea, come gli sconti sulle quantità, gli sconti gamma e gli sconti soglia, sono un ottimo modo per motivare i clienti ad acquistare più prodotti per ottenere sconti maggiori. Pertanto, aiutano anche ad aumentare le dimensioni del carrello di un cliente e le entrate del rivenditore. Questi sconti possono essere pubblicizzati sui siti Web di e-commerce, sui social media e sui banner nel negozio.
 
-Tuttavia, anche quando vengono utilizzati tutti questi metodi di pubblicità, i clienti potrebbero perdere l'opportunità di usufruire delle promozioni. Per facilitare agli addetti alle vendite l'apprendimento delle promozioni applicabili a una linea selezionata o persino all'intero carrello, i rivenditori possono aggiungere il pulsante per l'operazione "Visualizza tutti gli sconti" a qualsiasi griglia di pulsanti in POS. Si consiglia di aggiungere il pulsante alla griglia dei pulsanti per la pagina della **transazione**. In tal modo, un addetto alle vendite può selezionare una riga di transazione e quindi selezionare il pulsante per mostrare tutti gli sconti disponibili per la riga selezionata. L'addetto alle vendite può anche selezionare un'altra scheda per mostrare gli sconti applicabili all'intera transazione.
+Tuttavia, anche quando vengono utilizzati tutti questi metodi di pubblicità, i clienti potrebbero perdere l'opportunità di usufruire delle promozioni. Per facilitare agli addetti alle vendite l'apprendimento delle promozioni applicabili a una linea selezionata o persino all'intero carrello, i rivenditori possono aggiungere il pulsante per l'operazione "Visualizza sconti disponibili" alla griglia dei pulsanti nella pagina **Transazione**. In questo modo, un addetto alle vendite può selezionare una riga di transazione e quindi selezionare il pulsante per mostrare tutti gli sconti disponibili per la riga selezionata. L'addetto alle vendite può anche selezionare un'altra scheda per mostrare gli sconti applicabili all'intera transazione.
 
-La pagina **Tutti gli sconti** menzionata in precedenza mostra solo gli sconti che non competono con nessuno degli sconti applicati. Questo comportamento aiuta a garantire che, se un addetto alle vendite informa un cliente di uno sconto e il cliente intraprende l'azione richiesta (ad esempio, il cliente acquista un altro articolo per ottenere uno sconto del 10%), lo sconto viene applicato alla transazione. Come indicato in precedenza, gli sconti basati su buono sconto vengono visualizzati solo quando l'opzione **Applica senza buono sconto** è attivata.
+La pagina **Tutti gli sconti** mostra solo gli sconti che non competono con nessuno degli sconti applicati. Questo comportamento aiuta a garantire che, se un addetto alle vendite informa un cliente di uno sconto e il cliente intraprende l'azione richiesta (ad esempio, il cliente acquista un altro articolo per ottenere uno sconto del 10%), lo sconto viene applicato alla transazione. Gli sconti basati su buono sconto vengono visualizzati solo quando l'opzione **Applica senza buono sconto** è attivata.
 
 In un semplice scenario in cui tutti gli sconti hanno la stessa priorità, la modalità di concorrenza degli sconti è **Composti** e il controllo della concorrenza dello sconto è impostato su **Il miglior prezzo e composto in base alla priorità, mai composto tra le priorità**, la pagina **Tutti gli sconti** mostra tutti gli sconti disponibili per un prodotto, perché tutti gli sconti sono composti e non competono tra loro.
 

@@ -19,17 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: f88ee8067fdd816ba6890ee28bafe8fa4d3b3ac5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208733"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323395"
 ---
 # <a name="planning-optimization-overview"></a>Panoramica dell'ottimizzazione di pianificazione
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Il componente aggiuntivo di ottimizzazione della pianificazione per Microsoft Dynamics 365 Supply Chain Management consente il calcolo della pianificazione principale al di fuori di Dynamics 365 Supply Chain Management e del relativo database SQL. I vantaggi associati alla funzionalità di ottimizzazione di pianificazione includono prestazioni migliorate e un impatto minimo sul database SQL durante le esecuzioni della pianificazione generale. Le esecuzioni di pianificazione rapide possono essere eseguite anche durante le ore d'ufficio, in modo che i pianificatori possano reagire immediatamente alla modifica della domanda o dei parametri.
 
