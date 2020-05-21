@@ -3,7 +3,7 @@ title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici (ER), i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150817"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323694"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici (ER)
 
@@ -52,7 +52,36 @@ In alternativa, è possibile installare uno dei seguenti prerequisiti. Tuttavia,
 
 ## <a name="overview"></a>Panoramica
 
-È possibile impostare le destinazioni solo per le configurazioni ER che sono state [importate](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nell'istanza corrente di Finance e per i formati disponibili nella pagina **Configurazioni creazione di report elettronici**. La funzionalità per la gestione di destinazioni ER è disponibile in **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Destinazione report elettronici**. Nella pagina **Destinazione report elettronici**, è possibile ignorare il comportamento predefinito per una configurazione. Le configurazioni importate non sono visualizzate in questa pagina fino a quando non si seleziona **Nuovo** e, quindi, nel campo **Riferimento** si seleziona una configurazione per cui creare le impostazioni di destinazione.
+È possibile impostare le destinazioni solo per le configurazioni ER che sono state [importate](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nell'istanza corrente di Finance e per i formati disponibili nella pagina **Configurazioni creazione di report elettronici**. La funzionalità per la gestione di destinazioni ER è disponibile in **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Destinazione report elettronici**.
+
+### <a name="default-behavior"></a>Comportamento predefinito
+
+Il comportamento predefinito per una configurazione di formato ER dipende dal tipo di esecuzione specificato all'avvio di un formato ER.
+
+Nella finestra di dialogo **Report Intrastat**, nella Scheda dettaglio **Esecuzione in background**, se si imposta l'opzione **Elaborazione batch** su **No**, un formato ER viene eseguito immediatamente in modalità interattiva. Quando questa esecuzione viene completata correttamente, un documento in uscita generato viene reso disponibile per il download.
+
+Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene eseguito in modalità [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Il processo batch appropriato viene creato in base ai parametri specificati nella scheda **Esecuzione in background** della finestra di dialogo **Parametri ER**.
+
+> [!NOTE]
+> La descrizione mansione viene avviata per informare l'utente dell'esecuzione di un mapping di formato ER. Include inoltre il nome del componente ER eseguito.
+
+[![Esecuzione di un formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+È possibile trovare informazioni su questo processo in diversi luoghi:
+
+- Andare a **Comune** \> **Informazioni** \> **Processi batch** \> **Processi batch dell'utente** per verificare lo stato del processo programmato.
+- Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Processi di creazione report elettronici** per verificare lo stato del processo programmato e i risultati dell'esecuzione del processo completato. Al termine dell'esecuzione del processo, selezionare **Mostra file** nella pagina **Processi di creazione report elettronici** per ottenere un documento in uscita generato.
+
+    > [!NOTE]
+    > Questo documento è archiviato come allegato del record del processo corrente ed è controllato dal framework [Gestione documenti](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Il [tipo di documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) che viene utilizzato per memorizzare gli elementi ER di questo tipo è configurato in [Parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Nella pagina **Processi di creazione report elettronici** selezionare **Mostra file** per visualizzare l'elenco di eventuali errori e avvisi generati durante l'esecuzione del lavoro.
+
+    [![Revisione dell'elenco dei processi ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Comportamento configurato dall'utente
+
+Nella pagina **Destinazione report elettronici**, è possibile ignorare il comportamento predefinito per una configurazione. Le configurazioni importate non sono visualizzate in questa pagina fino a quando non si seleziona **Nuovo** e, quindi, nel campo **Riferimento** si seleziona una configurazione per cui creare le impostazioni di destinazione.
 
 [![Selezione di una configurazione nel campo Riferimento](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ L'opzione di conversione PDF può essere attivata solo per i componenti di file 
 >
 > Il PDF generato è limitato a un numero massimo di 300 pagine.
 >
-> Al momento, nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina.
+> In Microsoft Dynamics 365 Finance versione 10.0.9 (aprile 2020) nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina. Con il rilascio di Dynamics 365 Finance versione 10.0.10 (maggio 2020), è possibile [specificare l'orientamento della pagina](#SelectPdfPageOrientation) nel documento PDF prodotto da un output di Excel mentre si configura una destinazione ER.
 >
 > Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizzati per la conversione di un output che non contiene caratteri incorporati.
 

@@ -1,6 +1,6 @@
 ---
 title: Configurare i nomi di campo app nell'app Magazzino
-description: In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management.
+description: In questo argomento viene descritto come definire e configurare le priorità e i nomi di campo nell'app del magazzino in Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0390900d97e74bb9fd8deac913b1606cb775aa7c
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205761"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346401"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurare i nomi di campo app nell'app Magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management. 
+In questo argomento viene descritto come definire e configurare le priorità e i nomi di campo nell'app del magazzino in Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
 > Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Magazzino. Per informazioni dettagliate su come configurare la connessione in Magazzino, fare riferimento all'esercitazione [Panoramica sull'installazione e sulla configurazione dell'app del magazzino](install-configure-warehousing-app.md).
 
-## <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
+## <a name="configure-warehousing-app-field-names"></a>Configurare i nomi di campo nell'app del magazzino
 
 Quando si utilizza Magazzino sul dispositivo mobile, è possibile configurare la modalità di visualizzazione dei metadati sul dispositivo nella pagina **Nomi campo per app magazzino**. In una nuova società, selezionare **Crea impostazione predefinita** per generare tutti i nomi di campo che verranno utilizzati nei flussi di lavoro del dispositivo mobile di magazzino, quindi assegnare loro una modalità e un tipo di input preferiti. Dopo aver generato tutti i nomi di campo, è possibile selezionare le seguenti opzioni di input.
 
@@ -68,7 +68,7 @@ Quando si utilizza Magazzino sul dispositivo mobile, è possibile configurare la
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a>Configurare la priorità di campo nell'app Magazzino
+## <a name="configure-warehousing-app-field-priority"></a>Configurare le priorità di campo nell'app del magazzino
 
 Nella pagina **Priorità campo per app magazzino**, è possibile inserire i nomi di campo in gruppi di priorità diversi. Ciò consente di scegliere le informazioni da visualizzare nella pagina dell'attività principale quando i lavoratori di magazzino eseguono attività mediante l'app. Se si fa clic su **Crea impostazione predefinita**, verrà generato un set predefinito di gruppi di priorità. È possibile creare un numero illimitato di gruppi di priorità, se necessario, ma solo tre gruppi di priorità verranno visualizzati nella pagina dell'attività. Quando il sistema invia metadati all'app, a ogni campo verrà assegnata una priorità relativa a seconda del rispettivo gruppo di priorità e l'app visualizzerà i primi tre gruppi di priorità contenuti nei metadati nella pagina dell'attività. Il resto dei metadati aggiuntivi verranno visualizzati in una pagina dei dettagli secondaria. Nella tabella seguente viene illustrato un esempio di cinque gruppi di priorità.
 
@@ -132,7 +132,7 @@ Ad esempio, quando un lavoratore di magazzino esegue un'attività su un disposit
 -   Descrizione articolo
 -   Dimensione e ubicazione
 
-In base alla priorità di campo dell'app Magazzino impostata nella tabella precedente, le seguenti 3 righe di informazioni verranno visualizzate nella pagina dell'attività:
+In base alla priorità di campo dell'app del magazzino impostata nella tabella precedente, le seguenti 3 righe di informazioni verranno visualizzate nella pagina dell'attività:
 
 -   Riga 1: Articolo, Quantità, Unità di misura
 -   Riga 2: Descrizione dell'articolo

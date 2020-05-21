@@ -3,7 +3,7 @@ title: Analisi di adeguatezza dell'ottimizzazione di pianificazione
 description: Questo argomento spiega come verificare la configurazione e i dati correnti rispetto alle funzionalità della funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277800"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346655"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Per visualizzare la compatibilità dell'impostazione e dei dati correnti rispetto alla funzionalità di ottimizzazione di pianificazione, passare a **Pianificazione generale** \> **Impostazione** \> **Analisi di adeguatezza dell'ottimizzazione di pianificazione** e selezionare **Esegui analisi**. Se l'analisi rileva delle incoerenze, vengono elencate nella stessa pagina. L'esecuzione dell'analisi può richiedere alcuni minuti.
@@ -73,6 +72,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Interaziendale | Piani generali che includono la domanda downstream pianificata: _\#_ | Questa funzione è in sospeso. Attualmente, la pianificazione generale non include la domanda pianificata downstream quando l'ottimizzazione della pianificazione è abilitata, indipendentemente da questa impostazione. Si noti che gli ordini rilasciati/stabilizzati funzionano con la normale funzionalità interaziendale e coprono la maggior parte degli scenari. |
 | Kanban | Record di copertura articoli con kanban di tipo di ordine pianificato: _\#_ | Questa funzione è in sospeso. Attualmente, la copertura degli articoli impostata su kanban verrà ignorata quando è abilitata l'ottimizzazione della pianificazione. Il tipo di ordine pianificato kanban creerà un avviso durante la pianificazione generale e verranno creati ordini fornitore pianificati per coprire la domanda relativa. |
 | Kanban | Articoli con ordine di tipo kanban predefinito: _\#_ | Attualmente, un tipo di ordine predefinito impostato su kanban verrà ignorato quando è abilitata l'ottimizzazione della pianificazione. Il tipo di ordine predefinito kanban creerà un avviso durante la pianificazione generale e verranno creati ordini fornitore pianificati per coprire la domanda relativa. |
+| Stato del ciclo di vita prodotto   | Stati del ciclo di vita del prodotto non attivi per la pianificazione: _\#_ | Questa è una funzione in sospeso. Lo stato del ciclo di vita del prodotto viene attualmente ignorato con l'ottimizzazione di pianificazione abilitata. È possibile regolare il filtro del prodotto a livello di piano per evitare di includere prodotti in cui il relativo stato del ciclo di vita è disabilitato per la pianificazione. |
 | Produzione | Righe DBA con arrotondamento o impostazione multipla _\#_ | Questa funzione è in sospeso. Attualmente, l'arrotondamento e le impostazioni multiple vengono ignorate sulle righe DBA quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. |
 | Produzione | Righe DBA/formula con misura formula: _\#_ | Questa funzione è in sospeso. Attualmente, la misurazione della formula viene ignorata in DBA e nelle righe della formula quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. |
 | Produzione | Righe DBA / formula con sostituzione articolo (gruppi di piani): _\#_ | Questa funzione è in sospeso. Attualmente, la sostituzione degli articoli (gruppi di pianificazione) viene ignorata in DBA e nelle righe formula quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. |
@@ -99,7 +99,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Offerte di vendita | Piani generali con offerte di vendita abilitate: _\#_ | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. |
 | Durata a scaffale | Piani generali con durata a scaffale abilitata: _\#_ | Questa funzione è in sospeso. Attualmente, la durata a scaffale non viene considerata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. |
 
-## <a name="related-resources"></a>Risorse correlate
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
 

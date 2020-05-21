@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 1 maggio 2020
+          href: hr-whats-new-2020-05-01.md
         - name: 13 aprile 2020
           href: hr-whats-new-2020-04-13.md
         - name: 3 aprile 2020
@@ -501,8 +503,10 @@
               href: hr-leave-and-absence-enroll.md
             - name: Accumulare piani di congedo e assenza
               href: hr-leave-and-absence-accrue.md
-            - name: Sospendere il congedo
+            - name: Congedo sospeso
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Gestire il congedo dei dipendenti
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: Visualizzare analisi per congedo e assenza
               href: hr-leave-and-absence-analytics.md
             - name: Gestire le richieste di congedo e assenza

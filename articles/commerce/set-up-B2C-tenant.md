@@ -3,7 +3,7 @@ title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270212"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295271"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -87,7 +87,7 @@ Per creare l'applicazione B2C, attenersi alla procedura seguente.
 
 ### <a name="reply-urls"></a>URL di risposta
 
-Gli URL di risposta sono importanti in quanto consentono una whitelist dei domini di ritorno quando il sito chiama Azure AD B2C per autenticare un utente. Ciò consente il ritorno dell'utente autenticato al dominio dal quale sta accedendo (dominio del sito). 
+Gli URL di risposta sono importanti in quanto forniscono un elenco dei domini di ritorno consentiti quando il sito chiama Azure AD B2C per autenticare un utente. Ciò consente il ritorno dell'utente autenticato al dominio dal quale sta accedendo (dominio del sito). 
 
 Nella casella **URL di risposta** nella schermata **Azure AD B2c - Applicazioni \> Nuova applicazione**, è necessario aggiungere righe separate per il dominio del sito e (una volta effettuato il provisioning dell'ambiente) per l'URL generato da Commerce. Questi URL devono sempre utilizzare un formato URL valido e devono essere solo URL di base (nessuna barra o percorso). La stringa ``/_msdyn365/authresp`` quindi deve essere aggiunta agli URL di base, come nei seguenti esempi.
 
@@ -121,7 +121,7 @@ Per creare i criteri di accesso e iscrizione nel flusso utente, effettuare le se
 
     | **Raccogli attributo** | **Restituisci attestazione** |
     | ---------------------- | ----------------- |
-    |                        | Indirizzi di posta elettronica   |
+    | Indirizzo di posta elettronica          | Indirizzi di posta elettronica   |
     | Nome specificato             | Nome specificato        |
     |                        | Provider di identità |
     | Cognome                | Cognome           |
@@ -246,10 +246,6 @@ Per aggiornare headquarters con le nuove informazioni Azure AD B2C, attenersi al
     1. Nella casella **Tipo**, immettere **Pubblico**.
     1. Nella casella **Tipo utente**, immettere **Cliente**.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella casella di ricerca di Commerce, cercare **Sequenze numeriche** (Amministrazione organizzazione> Sequenze numeriche).
-1. Nel riquadro azioni, selezionare **Modifica** sotto **Gestisci**.
-1. Nella scheda dettaglio **Generale**, selezionare **No** per **Manuale**.
-1. Nel riquadro azioni selezionare **Salva**. 
 1. Nella casella di ricerca Commerce, cercare **Programmazione di distribuzione**
 1. Nel menu di navigazione a sinistra della pagina **Programmazioni di distribuzione**, selezionare il processo **1110 Configurazione globale**.
 1. Nel riquadro azioni selezionare **Esegui adesso**.
@@ -304,13 +300,14 @@ Per aggiungere le informazioni dell'applicazione tenant AAD B2C a Commerce, atte
 1. Immettere i seguenti elementi richiesti nel modulo visualizzato, utilizzando i valori del tenant e dell'applicazione B2C. I campi non obbligatori (quelli senza asterisco) possono essere lasciati vuoti.
 
     - **Nome applicazione**: il nome dell'applicazione B2C, ad esempio "Fabrikam B2C".
-    - **Nome tenant**: il nome del tenant B2C, ad esempio "Fabrikam".
+    - **Nome tenant**: il nome del tenant B2C, ad esempio utilizzare "fabrikam" se il dominio è "fabrikam.onmicrosoft.com" per il tenant B2C. 
     - **ID criteri password dimenticata**: l'ID criteri flusso utente password dimenticata, ad esempio "B2C_1_PasswordReset".
     - **ID criteri di iscrizione e accesso**: l'ID dei criteri del flusso utente di iscrizione e accesso, ad esempio "B2C_1_signup_signin".
     - **GUID client**: l'ID applicazione B2C, ad esempio "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **ID criteri modifica del profilo**: l'ID criteri flusso utente di modifica del profilo, ad esempio "B2C_1A_ProfileEdit".
 
 1. Selezionare **OK**. Ora il nome dell'applicazione B2C appare nell'elenco.
+1. Selezionare **Salva** per salvare le modifiche.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Associare l'applicazione B2C al sito e al canale
 

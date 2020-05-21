@@ -3,7 +3,7 @@ title: Aggiungere una favicon
 description: In questo argomento viene descritto come aggiungere un favicon al sito.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001541"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295082"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,23 +40,48 @@ Sebbene sia possibile aggiungere più favicon di varie dimensioni e tipi di file
 
 Per caricare un favicon nella raccolta di asset del sito, procedere come segue.
 
-1. Scegliere **Asset \> Carica \> Carica asset**.
-1. Trovare e selezionare il favicon nel file system locale.
-1. Immettere un titolo e selezionare **OK**. 
-1. Nel riquadro delle proprietà a destra, copiare l'URL pubblico del favicon.
+1. Nel riquadro di spostamento sinistro, selezionare **Libreria multimediale**.
+1. Sulla barra dei comandi, selezionare **Carica \> Carica elementi multimediali**.
+1. Nella finestra Esplora file andare al file di immagine del favicon da caricare, selezionarlo, quindi selezionare **Apri**.
+1. Nella finestra di dialogo **Carica elemento multimediale**, immettere il titolo e il testo alternativo richiesti.
+1. Per pubblicare l'immagine subito dopo il caricamento, selezionare la casella di controllo **Pubblica elementi multimediali dopo il caricamento**.
 
-> [!NOTE]
-> Se non si seleziona l'opzione **Pubblica asset dopo caricamento**, è necessario tornare alla pagina **Cespiti** e pubblicare manualmente il favicon in un momento successivo.
+    > [!NOTE]
+    > Se non si seleziona la casella di controllo **Pubblica elementi multimediali dopo il caricamento**, è necessario tornare alla pagina **Elementi multimediali** e pubblicare manualmente il favicon in un secondo momento.
 
-## <a name="create-the-html-for-the-favicon"></a>Creare il codice HTML per il favicon
+1. Selezionare **OK**.
+1. Nel riquadro delle proprietà a destra, copiare l'URL pubblico del favicon. L'URL verrà utilizzato in seguito.
 
-Per creare il codice HTML per il favicon, utilizzare il seguente frammento HTML. Per l'attributo **href**, sostituire **"URL\_pubblico\_per\_il\_favicon"** con l'URL pubblico copiato in precedenza.
+## <a name="create-the-html-for-your-favicon"></a>Creare l'HTML per il favicon
+
+Per creare l'HTML per il favicon, usare la stringa HTML seguente. Per l'attributo **href**, sostituire **Public\_URL\_for\_your\_favicon** con l'URL pubblico copiato in precedenza.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>Aggiungere il codice HTML per il favicon all'elemento \<intestazione\> delle pagine
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Creare un frammento di pagina contenente un metatag per il favicon
 
-Per aggiungere un favicon al sito, utilizzare la stessa procedura utilizzata per aggiungere qualsiasi tipo di codice HTML o script all'elemento **\<intestazione\>** delle pagine del sito.
+Per creare un frammento di pagina contenente un metatag per il favicon, effettuare le seguenti operazioni.
+
+1. Andare a **Frammenti pagina** e selezionare **Nuovo**.
+1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Metatag** come modulo su cui basare il frammento di pagina.
+1. Immettere un nome per il frammento di pagina, quindi selezionare **OK**.
+1. Nell'albero della gerarchia di frammenti, selezionare l'elemento figlio **Metatag predefiniti**.
+1. Nel riquadro destro, sotto **Metatag**, selezionare **Aggiungi**, quindi immettere la stringa HTML creata in precedenza per il favicon. 
+1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il frammento di pagina.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Aggiungere il frammento di pagina dei metatag alla sezione di intestazione HTML delle pagine
+
+Per aggiungere il frammento di pagina dei metatag alla sezione **head** di intestazione HTML delle pagine, effettuare le seguenti operazioni:
+
+1. Andare a **Modelli**, aprire il modello per le pagine a cui aggiungere il favicon, quindi selezionare **Modifica**.
+1. Nell'albero della gerarchia dei modelli, selezionare i puntini di sospensione (**...**) a destra del contenitore **Intestazione HTML**, quindi selezionare **Aggiungi frammento pagina**.
+1. Nella finestra di dialogo **Seleziona frammento pagina**, selezionare il frammento di pagina dei metatag creato in precedenza, quindi selezionare **OK**.
+1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il modello.
+
+> [!NOTE]
+> Se il tuo sito utilizza più di un modello, è necessario aggiungere il frammento di pagina dei metatag a ognuno di essi.
+
+Quando si visualizzano in anteprima le pagine basate sul modello a cui è stato aggiunto il frammento di pagina dei metatag, si dovrebbe ora vedere il favicon nella scheda del browser.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

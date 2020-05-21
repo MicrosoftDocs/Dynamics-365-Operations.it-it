@@ -3,7 +3,7 @@ title: Utilizzare le origini dati JOIN nei mapping del modello ER per ottenere i
 description: In questo argomento viene descritto come utilizzare le origini dati di tipo JOIN nella creazione di report elettronici (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667956"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332324"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilizzare le origini dati JOIN per ottenere i dati da più tabelle dell'applicazione nei mapping del modello di report elettronici (ER)
 
@@ -140,7 +140,7 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
 7.  Chiudere la pagina.
 
-### <a name="review"></a> Esaminare il mapping del modello ER (parte 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Esaminare il mapping del modello ER (parte 2)
 
 Esaminare le impostazioni del componente di mapping del modello ER. Il componente è configurato per accedere alle informazioni sulle versioni delle configurazioni ER, i dettagli delle configurazioni e dei provider di configurazione utilizzando un'origine dati di tipo **Join**.
 
@@ -185,7 +185,7 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 9.  Chiudere la pagina.
 10. Selezionare **Annulla**.
 
-### <a name="executeERformat"></a> Eseguire il formato ER
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Eseguire il formato ER
 
 1.  Accedere a Finance o RCS nella seconda sessione del browser Web utilizzando le stesse credenziali e società della prima sessione.
 2.  Andare a **Amministrazione organizzazione\> Creazione di report elettronici \> Configurazioni**.
@@ -240,7 +240,7 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
     ![Finestra di dialogo utente ER](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Analizzare la traccia dell'esecuzione ER
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizzare la traccia dell'esecuzione ER
 
 1.  Nella prima sessione di Finance o RCS, selezionare **Progettazione**.
 2.  Selezionare **Traccia delle prestazioni**.
@@ -256,6 +256,33 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
     - Il database dell'applicazione è stato chiamato una volta per calcolare il numero di versioni di configurazione utilizzando i join configurati nell'origine dati **Details**.
 
     ![Pagina della progettazione mapping modello di ER](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Limiti
+
+Come illustrato nell'esempio di questo argomento, l'origine dati **JOIN** può essere creata da diverse origini dati che descrivono i singoli set di dati dei record che devono essere uniti. È possibile configurare tali origini dati utilizzando la funzione [FILTER](er-functions-list-filter.md) ER integrata. Quando si configura l'origine dati in modo che venga chiamata all'esterno dell'origine dati **JOIN**, è possibile utilizzare intervalli di società come parte della condizione per la selezione dei dati. L'implementazione iniziale dell'origine dati **JOIN** non supporta origini dati di questo tipo. Ad esempio, quando si chiama un'origine dati basata su [FILTER](er-functions-list-filter.md) nell'ambito di esecuzione di un'origine dati **JOIN**, se l'origine dati chiamata contiene intervalli di società come parte della condizione per la selezione dati, si verifica un'eccezione.
+
+In Microsoft Dynamics 365 Finance versione 10.0.12 (agosto 2020) è possibile utilizzare gli intervalli di società come parte della condizione per la selezione dei dati nelle origini dati basate su [FILTER](er-functions-list-filter.md) chiamate nell'ambito di esecuzione di un'origine dati **JOIN**. A causa delle limitazioni del configuratore di [query](../dev-ref/xpp-library-objects.md#query-object-model) dell'applicazione, gli intervalli di società sono supportati solo per la prima origine dati di un'origine dati **JOIN**.
+
+### <a name="example"></a>Esempio
+
+È ad esempio necessario effettuare una singola chiamata al database dell'applicazione per ottenere l'elenco delle transazioni commerciali estere di più società e i dettagli dell'articolo di magazzino a cui si fa riferimento in tali transazioni.
+
+In questo caso, configurare i seguenti elementi nel mapping di modello ER:
+
+- Origine dati radice **Intrastat** che rappresenta la tabella **Intrastat**.
+- Origine dati radice **ARticoli** che rappresenta la tabella **InventTable**.
+- Origine dati radice **Società** che restituisce l'elenco delle società (in questo esempio **DEMF** e **GBSI**) in cui è necessario accedere alle transazioni. Il codice società è disponibile nel campo **Companies.Code**.
+- Origine dati radice **X1** che ha l'espressione `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Come parte della condizione per la selezione dei dati, questa espressione contiene la definizione di intervalli di società `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- Origine dati radice **X2** come articolo annidato dell'origine dati radice **X1**. Include l'espressione `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+È infine possibile configurare un'origine dati **JOIN** dove **X1** è la prima origine dati e **X2** è la seconda origine dati. È possibile specificare **Query** come opzione **Esegui** per forzare ER a eseguire questa origine dati a livello di database come una chiamata SQL diretta.
+
+Quando l'origine dati configurata viene eseguita mentre l'esecuzione ER è [tracciata](trace-execution-er-troubleshoot-perf.md), la seguente istruzione viene mostrata nella pagina della progettazione mapping modello ER come parte della traccia delle prestazioni ER.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Si verifica un errore se si esegue un'origine dati **JOIN** che è stata configurata in modo da contenere le condizioni di selezione dei dati con intervalli di società per ulteriori origini dati dell'origine dati **JOIN** eseguita.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

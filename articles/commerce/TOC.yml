@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (aprile 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (febbraio 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Funzionalità rimosse o deprecate in Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: Funzionalità di AX 2012 posticipate
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Funzionalità non implementate nelle distribuzioni locali
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Utilizzo degli articoli serializzati
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Utilizzare gli articoli serializzati in POS
+                      href: pos-serialized-items.md
                     - name: Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Impostare regole e parametri per cross-docking e distribuzione push
@@ -1000,13 +1002,13 @@
               href: assess-customer-product-profitability.md
             - name: Analizzare le prestazioni del punto vendita
               href: store-performance-information.md
-            - name: 'Impostare l''analisi Recency, Frequency and Monetary (RFM)'
+            - name: 'Impostare l''analisi Recency, Frequency e Monetary (RFM)'
               href: set-up-rfm-analysis.md
-        - name: Funzionalità per la normativa e la localizzazione
+        - name: Globalizzazione
           items:
-            - name: Panoramica dell'integrazione fiscale per i canali di commercio
+            - name: Panoramica dell'integrazione fiscale per il canale Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: Impostare l'integrazione fiscale per i canali di commercio
+            - name: Impostare l'integrazione fiscale per il canale Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Austria
               items:
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Europa orientale
               items:
-                - name: Fatture anticipo per Commerce in Europa orientale
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Gestione di piccola cassa per Commerce in Europa orientale
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Fatture cliente e ordini di reso cliente nei paesi dell'Europa orientale
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Linee guida di distribuzione per i registratori di cassa per la Repubblica Ceca, l''Ungheria e la Polonia'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Esempio di integrazione di stampante fiscale per la Polonia
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Comune
+                  items:
+                    - name: Fatture anticipo per Commerce in Europa orientale
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Gestione di piccola cassa per Commerce in Europa orientale
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Fatture cliente e ordini di reso cliente nei paesi dell'Europa orientale
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Linee guida di distribuzione per i registratori di cassa per la Repubblica Ceca, l''Ungheria e la Polonia'
+                      href: localizations/emea-eeu-deployment.md
+                - name: Repubblica Ceca
+                  items:
+                    - name: Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polonia
+                  items:
+                    - name: Esempio di integrazione di stampante fiscale per la Polonia
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Gestione delle informazioni cliente per la Polonia
+                      href: localizations/emea-pol-customer-information.md
             - name: Francia
               items:
                 - name: Funzionalità registratore di cassa
@@ -1044,6 +1054,8 @@
               items:
                 - name: Esempio di integrazione di stampante fiscale per l'Italia
                   href: localizations/emea-ita-fpi-sample.md
+                - name: Gestione delle informazioni cliente per l'Italia
+                  href: localizations/emea-ita-customer-information.md
             - name: Messico
               items:
                 - name: Fatture elettroniche CFDI globali per il Messico
@@ -1058,7 +1070,9 @@
               items:
                 - name: Funzionalità registratore di cassa
                   href: localizations/emea-swe-cash-registers.md
-                - name: Esempio di integrazione POS con unità di controllo
+                - name: Esempio di integrazione di un'unità di controllo per la Svezia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Esempio di integrazione Retail POS con unità di controllo (legacy)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Integrazioni di creazione di report e Power BI
           items:
@@ -1138,7 +1152,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Aggiungere dimensioni finanziarie alle misure di aggregazione
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Creazione di report analitici con Power BI Desktop
+                - name: Creare report analitici utilizzando Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1476,7 +1490,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
             - name: Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-            - name: Definire la dipendenza delle configurazioni dei report elettronici in altri componenti
+            - name: Definire la dipendenza delle configurazioni ER in altri componenti
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: Pianificare una soluzione ER per utilizzare le dimensioni finanziarie
               items:
@@ -1574,7 +1588,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
+                - name: Configurare i formati ER per utilizzare i parametri specifici per la persona giuridica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
                 - name: Impostare i parametri di un formato ER per la persona giuridica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658622"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331374"
 ---
 # <a name="project-invoicing"></a>Fatturazione progetto
 
@@ -112,6 +112,9 @@ Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la p
 
 -   Fatturale l'articolo al cliente del progetto: Impostare la proprietà riga per l'articolo su un valore addebitabile nell'ordine fornitore e quindi fatturare al cliente mediante il metodo di fatturazione corretto per il progetto.
 -   Non fatturare l'articolo al cliente del progetto: non selezionare la proprietà riga **Addebitabile** nella riga ordine fornitore per l'articolo. È quindi possibile fatturare l'ordine fornitore e non saranno necessarie ulteriori operazioni.
+
+> [!NOTE] 
+> Le righe della ritenuta rilasciata non sono addebitabili per impostazione predefinita. Non è pertanto possibile creare una proposta di fatturazione per la ritenuta rilasciata.
 
 ## <a name="credit-notes"></a>Note di accredito
 Quando un importo in una fattura cliente ha un valore negativo, la fattura viene classificata Quando il documento viene stampato presenta il titolo "Nota di accredito". 
