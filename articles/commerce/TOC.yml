@@ -2,9 +2,9 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Home page di Dynamics 365 Commerce
           href: index.md
-        - name: Per iniziare
+        - name: Introduzione
           items:
             - name: Prima di effettuare l'acquisto
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 'Installazione, configurazione e passaggio dell''implementazione per fasi (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Aggiornamento dell'estensione del canale di vendita al dettaglio all'ultimo Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Novità o modifiche
               items:
                 - name: Novità o modifiche nelle app Finance and Operations
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Connettere la Guida
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Collegare un sito della Guida personalizzato
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Panoramica della Guida personalizzata
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Visualizzare ed esportare le descrizioni campi
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Registrazione attività
@@ -499,7 +499,9 @@
                     - name: Connettore pagamenti Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: Salvare gli strumenti di pagamento online con il connettore Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Autenticazione avanzata del cliente (SCA) tramite il connettore Adyen
+                      href: adyen_redirect.md
                     - name: Passare offline con semplicità per le operazioni gift card e nota credito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurare scenari di pagamento delle fatture
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Domande frequenti sui pagamenti
                       href: dev-itpro/payments-retail.md
+                - name: Gestire Bing Mappe per la tua organizzazione
+                  href: dev-itpro/manage-bing-maps.md
         - name: Merchandising di prodotti e servizi
           items:
             - name: 'Categorie, prodotti e assortimenti'
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: Gestire i criteri di sicurezza del contenuto (CSP)
                   href: manage-csp.md
+                - name: Rifiutare esplicitamente la raccolta eventi di attività Web
+                  href: web-activity-opt-out.md
             - name: Gestire il contenuto del sito
               items:
                 - name: Modalità di aggiungere contenuti
@@ -1186,7 +1192,7 @@
                       items:
                         - name: (ER) Preparare i metadati dell'applicazione da utilizzare in RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                        - name: (RCS) Accedere ai metadati dell'applicazione utilizzando configurazione della creazione di report elettronici
+                        - name: (RCS) Accedere ai metadati dell'applicazione utilizzando una configurazione ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
                         - name: (RCS) Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Configurare e inviare messaggi di posta elettronica
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Creare modelli e-mail per eventi transazionali
+              href: email-templates-transactions.md
             - name: Sviluppare esperienze di posta elettronica
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Risolvere i problemi relativi all'integrazione di Office
@@ -1862,7 +1870,7 @@
               items:
                 - name: Panoramica dell'estendibilità del canale online
                   href: e-commerce-extensibility/overview.md
-                - name: Per iniziare
+                - name: Introduzione
                   items:
                     - name: Requisiti di sistema
                       href: e-commerce-extensibility/system-requirements.md
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Colonne pre-estese nel database canale
                   href: dev-itpro/extended-columns.md
+                - name: Estendere Commerce Data Exchange - Servizio in tempo reale
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Estendibilità connettore pagamenti
               items:
                 - name: Creare un'integrazione di pagamento per un terminale di pagamento

@@ -2,9 +2,9 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management Home page
           href: index.md
-        - name: Per iniziare
+        - name: Introduzione
           items:
             - name: Prima di effettuare l'acquisto
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Connettere la Guida
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Collegare un sito della Guida personalizzato
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Panoramica della Guida personalizzata
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Visualizzare ed esportare le descrizioni campi
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Registrazione attività
@@ -739,7 +739,7 @@
                       items:
                         - name: (ER) Preparare i metadati dell'applicazione da utilizzare in RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) Accedere ai metadati dell'applicazione utilizzando configurazione della creazione di report elettronici
+                        - name: (RCS) Accedere ai metadati dell'applicazione utilizzando una configurazione ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Traccia del costo medio corrente per dimensione inventariale
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: Intelligence IoT
+          items:
+            - name: Home page intelligence IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: Impostare le risorse di Azure
+              href: iot/iot-azure-setup.md
+            - name: Formati dello schema dei messaggi per l'hub IoT
+              href: iot/iot-schema-format.md
+            - name: Installare il componente aggiuntivo in LCS
+              href: iot/iot-lcs-setup.md
+            - name: Impostare le metriche
+              href: iot/iot-metrics-setup.md
+            - name: Impostazione dello scenario
+              href: iot/iot-scenario-setup.md
+            - name: Monitorare e gestire
+              href: iot/iot-management.md
         - name: Pianificazione generale
           items:
             - name: Home page pianificazione generale
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Annullare un processo di pianificazione
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Risolvere i problemi di ottimizzazione della pianificazione
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Piani generali
               items:
                 - name: Panoramica piani generali
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Installare e configurare l'app del magazzino
               items:
-                - name: Panoramica configurare e installare
+                - name: Installare e connettere l'app del magazzino
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Configurare i nomi dei campi nell'app del magazzino
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Impostare un modello di lavoro per gli ordini fornitore
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Criteri consolidamento spedizione
+              items:
+                - name: Criteri consolidamento spedizione
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Configurare i criteri di consolidamento della spedizione
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: Scenario 1 - Consolidare le spedizioni quando vengono rilasciate nel magazzino utilizzando il rilascio automatico degli ordini cliente
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: Scenario 2 - Consolidare le spedizioni quando i criteri di consolidamento delle spedizioni vengono sostituiti dalla pagina di rilascio in magazzino
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: Scenario 3 - Consolidare le spedizioni utilizzando il rilascio in magazzino dal workbench di pianificazione del carico
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: Scenario 4 - Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: Scenario 5 - Consolidare le spedizioni manualmente utilizzando la pagina di consolidamento delle spedizioni
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Sviluppo di Supply Chain Management
           items:
             - name: Guida per lo sviluppo del controllo Gantt
