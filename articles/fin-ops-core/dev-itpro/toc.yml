@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Risolvere i problemi relativi alle applicazioni del pacchetto
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Distribuire la Guida personalizzata
+              items:
+                - name: Panoramica della Guida personalizzata
+                  href: help/custom-help-overview.md
+                - name: Preparazione del contenuto da utilizzare con il riquadro della Guida
+                  href: help/preparing-content.md
+                - name: Distribuire la Guida personalizzata in Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Collegare la Guida personalizzata al riquadro della Guida
+                  href: help/connect-help-pane.md
+                - name: Toolkit della Guida personalizzata
+                  items:
+                    - name: Panoramica
+                      href: help/custom-help-toolkit.md
+                    - name: Strumento HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Strumento Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Strumento HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Convertire la Guida personalizzata di Dynamics AX per l'utilizzo in Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Descrittori di lingua e di impostazioni locali nel prodotto e nella Guida
+                  href: help/language-locale.md
+                - name: 'Estendere, personalizzare e collaborare alla Guida'
+                  href: help/contributor-guide.md
         - name: Sviluppo e personalizzazione
           items:
             - name: Home page sviluppo e personalizzazione
@@ -835,7 +861,7 @@
                     - name: Modifiche all'estendibilità versione 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Modifiche all'estendibilità nella versione 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Modifiche all'estendibilità nella versione 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Modifiche all'estendibilità (luglio 2017)
@@ -1096,7 +1122,7 @@
           items:
             - name: Risorse piattaforma mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Per iniziare
+            - name: Introduzione
               items:
                 - name: Introduzione con la piattaforma mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
