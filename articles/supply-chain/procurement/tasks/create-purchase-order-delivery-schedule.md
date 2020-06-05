@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e16c9adf592282a941b1112e197ea1ce9bdd34f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207717"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383253"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Creare un ordine fornitore con una programmazione consegna
 
@@ -62,7 +62,7 @@ Questa argomento dimostra come creare una programmazione consegna per un ordine 
 
 ## <a name="process-product-receipt-using-delivery-schedules"></a>Elaborare l'entrata prodotti facendo uso delle programmazioni consegna
 L'ordine fornitore deve essere confermato prima che l'entrata prodotti possa essere elaborata. In questo esempio, l'entrata è registrata direttamente nell'ordine fornitore. L'entrata potrebbe anche essere stata registrata quando le merci sono arrivate nel magazzino.  
-1. Nel riquadro azioni fare clic su **Acquisto**.
+1. Nel riquadro azioni fare clic su **Acquisti**.
 2. Selezionare **Conferma**.
 3. Nel riquadro azioni fare clic su **Ricevimento**.
 4. Selezionare **Entrata prodotti**. Digitare un valore nel campo **Entrata prodotti**.

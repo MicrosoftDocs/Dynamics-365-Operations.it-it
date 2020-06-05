@@ -3,7 +3,7 @@ title: Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 description: In questo argomento vengono descritte le opzioni disponibili per mostrare le scorte disponibili per il punto vendita e i canali online.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113922"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379238"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
@@ -50,12 +50,7 @@ Entrambe le API recuperano i dati dal server Commerce e forniscono una stima del
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Introduzione alla disponibilità scorte calcolata di e-Commerce
 
-Prima di utilizzare le due API menzionate in precedenza, è necessario apportare una modifica a un parametro in Commerce Headquarters per assicurarsi che lo snapshot dei valori delle scorte calcolato da Commerce Headquarters utilizzando il processo **Disponibilità prodotto** inserisca i dati nelle tabelle corrette.
-
-Seguire questi passaggi per impostare il parametro.
-
-1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**.
-1. Nella scheda **Inventario** nella sezione **Processo disponibilità prodotto**, selezionare **Utilizza processo ottimizzato per processo disponibilità prodotto**. Questa impostazione garantisce che venga utilizzato il set di funzionalità ottimale per calcolare le scorte disponibili del canale tramite il server Commerce.
+Prima di utilizzare le due API menzionate in precedenza, devi abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato** attraverso l'area di lavoro **Gestione funzionalità** in Commerce Headquarters.
 
 Prima che le API possano calcolare la migliore stima della disponibilità scorte per un articolo, è necessario elaborare uno snapshot periodico della disponibilità scorte da Commerce Headquarters e inviarla al database del canale utilizzato da e-Commerce Commerce Scale Unit. Lo snapshot rappresenta le informazioni presenti in Commerce Headquarters in merito alla disponibilità scorte per una combinazione specifica di prodotto o variante di prodotto e magazzino. Può includere rettifiche o movimenti di inventario causati dalle entrate in magazzino, spedizioni o altri processi eseguiti in Commerce Headquarters e di cui il canale e-commerce ha informazioni solo a causa del processo di sincronizzazione.
 
@@ -85,20 +80,15 @@ Quando il calcolo sul lato canale è configurato e gestito correttamente, può f
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Introduzione alla disponibilità scorte calcolata lato canale POS
 
-Per utilizzare la logica di calcolo sul lato canale e disattivare le chiamate di servizio in tempo reale per le ricerche di magazzino dall'applicazione POS, è necessario innanzitutto apportare due modifiche ai parametri. È quindi necessario sincronizzare le modifiche al canale attraverso il processo di pianificazione della distribuzione.
+Per utilizzare la logica di calcolo sul lato canale e disattivare le chiamate di servizio in tempo reale per le ricerche di inventario dall'applicazione POS, devi prima abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato** attraverso l'area di lavoro **Gestione funzionalità** in Commerce Headquarters. Oltre ad abilitare la funzione, devi apportare modifiche al **profilo Funzionalità**.
 
-Seguire questi passaggi per impostare il primo parametro.
-
-1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**.
-1. Nella scheda **Inventario** nella sezione **Processo disponibilità prodotto**, selezionare **Utilizza processo ottimizzato per processo disponibilità prodotto**. Questa impostazione garantisce che venga utilizzato il set di funzionalità ottimale per calcolare le scorte disponibili del canale tramite il server Commerce.
-
-Seguire questi passaggi per impostare il secondo parametro.
+Per modificare il **profilo Funzionalità**, segui la procedura seguente:
 
 1. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**.
 1. Selezionare un profilo funzionalità.
 1. Nella scheda dettaglio **Funzioni**, nella sezione **Calcolo disponibilità scorte**, cambiare il valore del campo **Modalità di calcolo disponibilità scorte** da **Servizio in tempo reale** a **Canale**. Per impostazione predefinita, tutti i profili di funzionalità utilizzano chiamate di servizio in tempo reale. Pertanto, è necessario modificare il valore di questo campo se si desidera utilizzare la logica di calcolo sul lato canale. Ogni punto vendita al dettaglio collegato al profilo di funzionalità selezionato sarà interessato da questa modifica.
 
-Seguire questi passaggi per aggiornare i server.
+Devi quindi sincronizzare le modifiche al canale attraverso il processo di pianificazione della distribuzione procedendo come segue:
 
 1. Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
 1. Eseguire il processo **1070** (**Configurazione canale**).

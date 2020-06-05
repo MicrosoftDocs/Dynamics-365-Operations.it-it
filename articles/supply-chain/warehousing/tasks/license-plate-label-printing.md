@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 484a1465dd41429fe201de18aac55f118a483cab
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 43dc913e84fa53179855d7ab8dbbf4d179e2cc63
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217013"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383046"
 ---
 # <a name="enable-license-plate-label-printing"></a>Abilitare la stampa di etichette targa
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite. È possibile eseguire questa procedura nella società di dati dimostrativi USMF. Se tale procedura è stata eseguita utilizzando i propri dati, è necessario disporre di una sequenza numerica impostata per le targhe. È necessario impostare una stampante di etichette prima di iniziare questa attività. Fare clic su Amministrazione organizzazione > Impostazioni > Stampanti di rete. Nel riquadro azioni fare clic su Opzioni, quindi sul pulsante Scarica programma di installazione agente di distribuzione documenti. Eseguire il programma di installazione e assicurarsi di disporre di una stampante di rete operativa impostata su Attiva prima di continuare con la procedura.
+In questo argomento viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite. È possibile eseguire questa procedura nella società di dati dimostrativi USMF. Se tale procedura è stata eseguita utilizzando i propri dati, è necessario disporre di una sequenza numerica impostata per le targhe. È necessario impostare una stampante di etichette prima di iniziare questa attività. Fare clic su Amministrazione organizzazione > Impostazioni > Stampanti di rete. Nel riquadro azioni, fai clic su Opzioni, quindi sul pulsante del programma di installazione dell'agente di distribuzione Scarica documento. Eseguire il programma di installazione e assicurarsi di disporre di una stampante di rete operativa impostata su Attiva prima di continuare con la procedura.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Imposta il prefisso della società GS1

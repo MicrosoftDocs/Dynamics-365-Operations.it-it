@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203545"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383667"
 ---
 # <a name="manage-unit-of-measure"></a>Gestire unità di misura
 
@@ -41,13 +41,13 @@ Questa procedura illustra come definire un'unità di misura, come fornire conver
 6. Fare clic su **Salva**.
 
 ## <a name="define-unit-translations"></a>Definire conversioni unità
-1. Nel **riquadro azioni** fare clic su **Testi unità**.
+1. Nel **riquadro azioni** fai clic su **Testi unità**.
 2. Fare clic su **Nuovo**. Utilizzare il testo unità per creare una traduzione dell'ID o di un simbolo che rappresenta l'unità di misura per l'utilizzo in documenti esterni in lingue specifiche del fornitore o del cliente.  
 3. Nel campo **Lingua** immettere o selezionare un valore.
 4. Digitare un valore nel campo **Testo**.
 5. Fare clic su **Salva**.
 6. Chiudere la pagina.
-7. Nel **riquadro azioni** fare clic su **Descrizioni unità convertite**.
+7. Nel **riquadro azioni** fai clic su **Descrizioni unità convertite**.
 8. Fare clic su **Nuovo**. Definire descrizioni specifiche di una lingua per l'unità di misura.  
 9. Nel campo **Lingua** immettere o selezionare un valore.
 10. Digitare un valore nel campo **Descrizione**
@@ -55,7 +55,7 @@ Questa procedura illustra come definire un'unità di misura, come fornire conver
 12. Chiudere la pagina.
 
 ## <a name="define-unit-conversion-rules"></a>Definire regole di conversione unità
-1. Nel **riquadro azioni** fare clic su **Conversioni unità**. Definire le regole per la conversione dell'unità di misura verso e da altre unità di misura incluse nella classe di unità di misura selezionata.  
+1. Nel **riquadro azioni** fai clic su **Conversioni unità**. Definire le regole per la conversione dell'unità di misura verso e da altre unità di misura incluse nella classe di unità di misura selezionata.  
 2. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa.
 3. Nel campo **Fattore** immettere un numero. Fattore di conversione tra Dall'unità e All'unità. Il fattore di conversione, ad esempio, da centimetro a metro è 100 perché in un metro sono presenti 100 centimetri.  
 4. Nel campo **All'unità** immettere o selezionare un valore.

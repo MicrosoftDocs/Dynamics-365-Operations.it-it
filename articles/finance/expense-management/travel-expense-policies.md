@@ -1,9 +1,9 @@
 ---
 title: Definire i criteri di spesa
 description: In Microsoft Dynamics 365 Finance è possibile definire criteri di spesa che devono essere seguiti dai lavoratori per l'inserimento e l'invio di note spese e richieste di viaggio.
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187454"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389717"
 ---
 # <a name="define-expense-policies"></a>Definire i criteri di spesa
 
@@ -48,6 +48,7 @@ si definiscono i criteri.
 Di seguito sono riportati alcuni suggerimenti per semplificare la creazione di nuovi criteri per la gestione delle spese. 
 * I criteri sono sensibili alla data e non avranno effetto se vengono creati con una data successiva alla data in cui si è verificata la spesa. Ad esempio, se oggi si stanno creando nuovi criteri per applicare una spesa massima per il pasto di 50 EUR, le eventuali spese esistenti inserite ieri non verranno verificate rispetto a questo criterio.
 * Durante la creazione dei criteri per una categoria di spesa che può essere dettagliata, è opportuno considerare l'aggiunta di una condizione per il tipo di riga spese. Alcuni criteri come la richiesta di una ricevuta potrebbero non avere senso per le righe dettagliate e dovrebbero essere applicate solo alla riga dell'intestazione o a una riga non dettagliata. 
+* I criteri di gestione delle spese vengono valutati in base all'entità di origine per impostazione predefinita. Per gli scenari interaziendali, puoi invece impostare i criteri da valutare rispetto all'entità di destinazione (entità mutuataria). Per eseguire i criteri sull'entità di destinazione, attiva la funzione "Valuta i criteri di spesa contro l'entità giuridica richiedente" nell'area di lavoro **Gestione funzionalità**.
 
 ## <a name="when-to-evaluate-policies"></a>Quando effettuare la valutazione dei criteri
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
-ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
+ms.openlocfilehash: c985a0cb242fb6696b55a2514bd788ff4269f8ca
+ms.sourcegitcommit: def66a9dc7feadd33411248af2545ee4a9e27c4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "3353690"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3385550"
 ---
 # <a name="create-a-leave-request-workflow"></a>Creare un flusso di lavoro di richieste di congedo
 
@@ -49,6 +49,7 @@ ms.locfileid: "3353690"
 
 È possibile utilizzare i seguenti elementi dati per creare approvazioni condizionali o automatiche nei flussi di lavoro per le richieste di congedo e assenza:
 
+- **Importo**
 - **Commento**
 - **Società**
 - **Autore**

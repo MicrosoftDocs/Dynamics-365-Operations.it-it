@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214864"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383529"
 ---
 # <a name="maintenance-downtime"></a>Tempi di fermo per la manutenzione
 
@@ -75,7 +75,7 @@ Nella figura seguente è illustrato un esempio della visualizzazione dettagliata
 
 9. Nella finestra di dialogo **Calcolare carico di capacità**, modificare la data di inizio e di fine se necessario e scegliere se includere o meno gli ordini di lavoro e i programmi di manutenzione nel calcolo. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli del calcolo del carico di capacità in relazione alle unità funzionali. Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutti i cespiti di un'unità funzionale, selezionati nell'attività dei tempi di fermo per la manutenzione verranno visualizzati nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del carico di capacità in tutti i livelli di unità funzionali a cui sono correlate.
 
-10. Fare clic su **OK** per avviare il calcolo. Il numero totale di ore viene visualizzato nella panoramica. **Carico di capacità**. Nella scheda **Carico di capacità** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione delle ore previste. Nella figura seguente vengono illustrati i risultati di un calcolo **Carico di capacità**.
+10. Fare clic su **OK** per avviare il calcolo. Il numero totale di ore viene visualizzato nella panoramica. **Carico di capacità**. Nella scheda **Carico di capacità** > gruppi di riquadri azioni **Raggruppa per**, fai clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione delle ore previste. Nella figura seguente vengono illustrati i risultati di un calcolo **Carico di capacità**.
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ Nella figura seguente è illustrato un esempio della visualizzazione dettagliata
 
 15. Nella finestra di dialogo **Calcolare previsioni articolo**, modificare la data di inizio e di fine se necessario e scegliere se includere o meno gli ordini di lavoro e i programmi di manutenzione nel calcolo. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli del calcolo del carico di capacità in relazione alle unità funzionali. Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutti i cespiti di un'unità funzionale, selezionati nell'attività dei tempi di fermo per la manutenzione verranno visualizzati nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del carico di capacità in tutti i livelli di unità funzionali a cui sono correlate.
 
-16. Fare clic su **OK** per avviare il calcolo. Il numero totale di previsioni articolo è visualizzato nella panoramica **Previsione articolo**. Nella scheda **Previsione articolo** > gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione degli articoli previsti. Nella figura seguente vengono illustrati i risultati di un calcolo **Previsione articolo**.
+16. Fare clic su **OK** per avviare il calcolo. Il numero totale di previsioni articolo è visualizzato nella panoramica **Previsione articolo**. Nella scheda **Previsione articolo** > gruppi di riquadri azioni **Raggruppa per**, fai clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione degli articoli previsti. Nella figura seguente vengono illustrati i risultati di un calcolo **Previsione articolo**.
 
 ![Figura 4](media/22-preventive-maintenance.png)
 

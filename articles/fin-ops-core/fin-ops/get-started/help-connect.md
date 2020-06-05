@@ -1,9 +1,9 @@
 ---
-title: Connettere la Guida
-description: In questo argomento vengono descritti i componenti della Guida per le app Finance and Operations e vengono forniti una panoramica della connessione e un riepilogo della creazione della guida personalizzata.
+title: Configurare l'esperienza della Guida per le app Finance and Operations
+description: Questo argomento fornisce informazioni sui componenti del sistema della Guida per alcune app Microsoft Dynamics 365. Spiega inoltre come collegare tali app e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
 author: margoc
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,81 +18,85 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 827d4cd14f497b79c85fb084a6295af13c5eb0c7
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006174"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367386"
 ---
-# <a name="connect-the-help-system"></a>Connettere la Guida
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i componenti della Guida per le app Finance and Operations, ad esempio Dynamics 365 Finance, Supply Chain Management, Commerce e Human Resources. Viene fornita una panoramica della procedura per connettere questi componenti e un riepilogo della creazione della Guida personalizzata.
+In questo argomento, troverai una panoramica dei componenti del sistema della Guida per le app Finance and Operations, come Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. L'argomento spiega inoltre come collegare tali componenti e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
 
 ## <a name="help-architecture"></a>Architettura della Guida
 
-La figura seguente mostra le parti della Guida. Nella Guida interna al prodotto vengono visualizzati articoli dal sito all'indirizzo https://docs.microsoft.com e le guide attività archiviate nel Modellatore di processi aziendali in Lifecycle Services (LCS).
-
-> [!NOTE]
-> Le funzionalità elencate nel diagramma con un asterisco (\*) sono pianificate, ma non sono ancora disponibili.
+Le app Finance and Operations includono panoramiche concettuali e altri argomenti pubblicati sul sito [https://docs.microsoft.com/dynamics365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
 
 [![Architettura della Guida](./media/help-architecture.png)](./media/help-architecture.png)
 
-## <a name="connecting-the-help-system"></a>Connessione della Guida
+Il sistema della Guida interno al prodotto estrae articoli da docs.microsoft.com e altri siti Web collegati. Inserisce anche le guide attività archiviate in Business process modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
+
+## <a name="adding-task-guides"></a>Aggiunta di guide per le attività
 
 > [!NOTE]
-> La scheda **Guide attività** non è attualmente disponibile in Dynamics 365 Human Resources o Commerce. Attualmente si lavora per abilitare questa funzionalità in una versione successiva. Le Guide attività nell'esperienza Attività iniziali in Human Resources rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito docs.microsoft.com per Human Resources e Commerce.
+> La scheda **Guide attività** non è attualmente disponibile in Human Resources o Commerce. <!--We are currently working to enable this functionality in a future release.--> Tuttavia, le guide attività nell'esperienza Attività iniziali in Human Resources rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito [https://docs.microsoft.com/dynamics365](/dynamics365/) per Human Resources e Commerce.
 
-Utilizzando la pagina **Parametri di sistema**, gli amministratori di sistema collegano le parti della Guida per un'implementazione.
+Nella pagina **Parametri di sistema**, gli amministratori di sistema possono configurare l'accesso alle librerie della guida attività pertinenti per un'implementazione.
+
+> [!NOTE]
+> - Per configurare la Guida, devi eseguire l'accesso utilizzando con un account nello stesso tenant di distribuzione dell'app.
+> - Non è possibile connettere una libreria LCS da un'istanza dell'app in esecuzione su un'unità disco rigido virtuale (VHD) locale.
 
 [![Modulo Parametri di sistema con impostazioni per la Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
-Nella pagina **Parametri di sistema** effettuare i seguenti passaggi:
+Per configurare le guide attività per una soluzione, attieniti alla seguente procedura nella pagina **Parametri di sistema**.
 
 > [!IMPORTANT]
-> La prima volta che si apre la scheda della **Guida**, è necessario connettersi a Lifecycle Services. Assicurarsi di fare clic sul collegamento al centro del modulo, attendere la connessione, chiudere la finestra di dialogo quindi scegliere **OK** per accedere alla pagina **Parametri di sistema**.
+> La prima volta che si apre la scheda della **Guida**, è necessario connettersi a Lifecycle Services. Assicurati di selezionare il collegamento al centro del modulo, attendi la connessione, chiudi la finestra di dialogo quindi seleziona **OK** per accedere alla pagina **Parametri di sistema**.
 >
 > [![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png "Connetti a LCS")](./media/connect-to-lcs-crop.png)
 
 1. Selezionare il progetto Lifecycle Services a cui connettersi.
 2. Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.
-3. Impostare l'ordine di visualizzazione delle librerie BPM. Ciò determina l'ordine in cui le registrazioni attività delle librerie verranno visualizzate nel riquadro**Guida**.
+3. Impostare l'ordine di visualizzazione delle librerie BPM. L'ordine di visualizzazione definisce l'ordine in cui le registrazioni attività delle librerie verranno visualizzate nel riquadro **Guida**.
 
-Dopo aver completato questi passaggi, è possibile aprire il riquadro **Guida** e fare clic sulla scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta nelle app Finance and Operations. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca.
+Dopo aver completato questi passaggi, puoi aprire il riquadro **Guida** e selezionare la scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta nelle app Finance and Operations. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca.
 
 ### <a name="showing-translated-task-guides"></a>Visualizzazione delle guide attività tradotte
 
-Le guide attività tradotte sono state fornite per la prima volta nella libreria unificata APQC di maggio 2016 e nella libreria di introduzione. Nelle app Finance and Operations, per visualizzare la Guida attività localizzata, assicurarsi di essere connessi alla libreria di maggio. La lingua in cui viene visualizzata una guida attività è determinata per ogni utente dalle impostazioni di lingua in **Opzioni** &gt; **Preferenze**.
+Le guide attività tradotte sono state rilasciate per la prima volta nella libreria unificata APQC di maggio 2016 e nella libreria di introduzione. Per visualizzare la Guida della guida attività localizzata, assicurati che la tua soluzione Dynamics 365 sia connessa alla libreria di maggio 2016. Gli utenti possono modificare la lingua in cui viene visualizzata una guida attività modificando le impostazioni relative alla lingua in **Opzioni** &gt; **Preferenze**.
 
 > [!NOTE]
-> Anche se molte guide attività sono state tradotte, al momento il client non visualizza i nomi delle guide attività tradotte. Inoltre, solo le guide di attività che sono state rilasciate nel mese di febbraio 2016 sono disponibili in versione tradotta nella libreria di maggio. Si rilascerà una libreria aggiornata con traduzioni aggiuntive.
+> Sebbene molte guide attività sono state tradotte, al momento il client non visualizza i nomi delle guide attività tradotte. Inoltre, solo le guide di attività che sono state rilasciate nel mese di febbraio 2016 sono disponibili in versione tradotta nella libreria di maggio 2016. Microsoft rilascerà una libreria aggiornata con traduzioni aggiuntive.
 >
 > - Se è stata tradotta una Guida attività, quando si apre la Guida attività tutto il testo apparirà nella lingua selezionata.
 > - Se una Guida attività non è stata ancora tradotta, quando si apre solo parte del testo (quello dei controlli) apparirà nella lingua selezionata.
 
-## <a name="creating-custom-help"></a>Creazione di una Guida personalizzata
+## <a name="adding-custom-help"></a>Aggiunta della Guida personalizzata
 
-È possibile utilizzare guide attività per creare una Guida personalizzata oppure collegare un sito Web al riquadro della Guida.
+Puoi utilizzare guide attività per creare una Guida personalizzata oppure puoi collegare un sito Web della Guida personalizzata al riquadro **Guida**.
 
-### <a name="create-custom-help-with-task-guides"></a>Creare una Guida personalizzata con guide attività
+### <a name="create-custom-help-by-using-task-guides"></a>Creare una Guida personalizzata con guide attività
 
-È possibile creare la Guida personalizzata per Finance, Supply Chain Management e Commerce per creare registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali LCS. Non è possibile creare Guide attività personalizzate per Human Resources.
+Puoi creare la Guida personalizzata per le app supportate creando registrazioni attività che riflettono l'implementazione e salvarle in una libreria di processi aziendali in LCS successivamente. Non è possibile creare guide attività personalizzate per Human Resources.
 
-Per i partner, se si promuove una libreria a libreria aziendale e si include in una soluzione, sarà disponibile per i clienti. È inoltre possibile effettuare una copia della libreria globale unificata APQC e quindi aprire la copia, aprire le registrazioni attività dalla copia, modificarle e salvare le registrazioni con le modifiche. Per ulteriori informazioni, vedere [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md).
+Per i partner, se promuovi una libreria a libreria aziendale e la includi in una soluzione, sarà disponibile per i clienti. Puoi inoltre effettuare una copia della libreria globale unificata APQC e quindi aprire i file di Registrazione attività nella copia, modificarli e salvare le modifiche. Per ulteriori informazioni, vedere [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md).
 
-### <a name="connect-a-custom-site"></a>Collegare un sito personalizzato
+### <a name="connect-a-custom-help-site"></a>Collega un sito della Guida personalizzato
 
-Microsoft ha fornito un white paper e codice di esempio che descrivono come creare e collegare un sito della Guida al riquadro della Guida. Per ulteriori informazioni, vedere:
+Le app Finance and Operations vengono utilizzate raramente nella loro forma predefinita. Invece, la soluzione è personalizzata ed estesa per soddisfare le esigenze dell'organizzazione. È inoltre possibile personalizzare ed estendere l'esperienza della Guida. Ad esempio, puoi aggiungere una Guida personalizzata al riquadro interno **Guida** del prodotto.
 
-- [Creazione di una Guida personalizzata per le app Finance and Operations (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
-- [Archivio GitHub per una Guida personalizzata](https://github.com/microsoft/dynamics356f-o-custom-help)
+Microsoft ha fornito un toolkit per aiutarti a distribuire e connettere la Guida personalizzata al riquadro **Guida**. Per informazioni su come impostare una soluzione della Guida personalizzata connessa al riquadro **Guida**, vedi [Panoramica della Guida personalizzata](../../dev-itpro/help/custom-help-overview.md).
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+Se desideri collaborare con Microsoft su strumenti e processi per la personalizzazione della Guida, compila il modulo all'indirizzo [https://aka.ms/customhelpfeedback](https://aka.ms/customhelpfeedback).
 
-[Guida](help-overview.md)
+## <a name="see-also"></a>Vedere anche
 
-[Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md)
-
-[Creare la documentazione o la formazione con Registrazione attività](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Guida](help-overview.md)  
+[Panoramica della Guida personalizzata](../../dev-itpro/help/custom-help-overview.md)  
+[Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md)  
+[Creare la documentazione o la formazione con Registrazione attività](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
+[Archivio GitHub per una Guida personalizzata](https://github.com/microsoft/dynamics356f-o-custom-help)  

@@ -3,7 +3,7 @@ title: Automazione fattura fornitore
 description: In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178530"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396011"
 ---
 # <a name="vendor-invoice-automation"></a>Automazione fattura fornitore
 
@@ -61,7 +61,7 @@ Un pacchetto dati è l'unità di lavoro che deve essere inviata, in modo che le 
 
 L'allegato documento della fattura fornitore è una nuova entità dati che è introdotta come parte di questa funzionalità. L'entità intestazione della fattura fornitore è stata modificata in modo che supporti gli allegati. L'entità riga fattura fornitore non è stata modificata per questa funzionalità.
 
-Questo argomento non contiene una definizione dettagliata di un pacchetto dati. Inoltre non spiega come creare i pacchetti dati. Per queste informazioni, vedere [Framework pacchetti ed entità di dati](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Per informazioni dettagliate sui pacchetti di dati, vedi [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Per informazioni su come creare pacchetti di dati utilizzando l'area di lavoro di gestione dei dati, vedi [Elaborare e consumare pacchetti di dati nella soluzione per app Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Per generare rapidamente i dati di test che includono fatture e allegati, effettuare le seguenti operazioni.
 

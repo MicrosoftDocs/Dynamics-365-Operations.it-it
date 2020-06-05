@@ -1,9 +1,9 @@
 ---
 title: Video
-description: In questa pagina sono elencati i video illustrativi e quelli tecnologici relativi alle app Finance and Operations disponibili su YouTube e altri siti.
+description: In questa pagina sono elencati i video illustrativi di Microsoft e quelli tecnologici relativi alle app Finance and Operations disponibili su YouTube e altri siti.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781852"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367131"
 ---
 # <a name="videos"></a>Video 
 
@@ -33,12 +33,12 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 > [!Note]
 > Alcuni dei video elencati sono stati pubblicati con un nome di prodotto precedente, ma sono ancora applicabili.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video per Sviluppo e amministrazione per Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video per l'amministrazione e lo sviluppo di Finance and Operations
 
 ### <a name="data-integration"></a>Integrazione dati
 
 - [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg)
-- [Sincronizzare un ordine di lavoro tra Dynamics 365 for Field Service e le app Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizzare un ordine di lavoro tra le app Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gestione dati
 
@@ -55,8 +55,8 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 ### <a name="intelligence"></a>Intelligence
 
 - [Come modificare un report incorporato in un'area di lavoro analitica](https://youtu.be/_8WlwmSggcQ)
-- [Come incorporare i report PowerBI.com nelle app Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Portare il database (BYOD) nelle app Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Come incorporare report di PowerBI.com nelle app Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Portare il proprio database (BYOD) nelle app Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Come utilizzare il contenuto di Power BI per la gestione dei costi in Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -76,6 +76,12 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 - [Aggiornare i dati in un ambiente di produzione](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [Utilizzare una nuova versione piattaforma dopo l'update 3 della piattaforma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Utilizzare la telemetria per monitorare i contatori delle prestazioni chiave in Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression suite automation tool (RSAT)
+
+- [Come utilizzare la registrazione di attività per creare un caso di test per Regression suite automation tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
+- [Come utilizzare un piano di test in Azure DevOps da utilizzare con Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [Come utilizzare Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Video per Dynamics 365 Finance

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e13a9a594e8c4041a586734df53321d57b43586
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d4ba2a23f84972391283eaf01cef70a161c75226
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204797"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383173"
 ---
 # <a name="create-purchasing-policies"></a>Creare criteri di acquisto
 
@@ -32,7 +32,7 @@ Questa argomento vi mostra come creare criteri acquisto da allineare con i vostr
 
 ## <a name="set-up-policy-parameters"></a>Impostazione dei parametri di criteri
 1. Andare a **pannello di navigazione > Moduli > Approvvigionamento > Impostazioni > Criteri > Criteri di acquisto**.
-2. Nel riquadro azioni selezionare **Parametri**.
+2. Nel riquadro azioni, seleziona **Parametri**.
 - Le regole di precedenza dei criteri si applicano ai livelli differenti nella vostra organizzazione. Le unità organizzative visualizzate dipendono dalla vostra gerarchia organizzativa e da a quali livelli nella gerarchia è stato assegnato lo scopo di controllo interno di approvvigionamento. Per esempio, la vostra organizzazione potrebbe avere persone giuridiche, centri di costo, regioni e reparti, ma può essere che soltanto alcuni di questi abbiano uno scopo di gerarchia di controllo interno di approvvigionamento. Come impostazione predefinita, l'organizzazione di tipo Società è disponibile.  
 3. Fare clic sulla scheda **Parametri tipo di regola dei criteri**.
 4. Nella struttura, selezionare **Criteri di acquisto > Regola di controllo richiesta di acquisto**.

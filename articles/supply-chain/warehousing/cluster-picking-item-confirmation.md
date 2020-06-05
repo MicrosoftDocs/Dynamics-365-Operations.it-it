@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205784"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367294"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
 Il prelievo cluster consente di selezionare gli articoli per più ordini contemporaneamente. Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenziale per verificare che gli articoli vengano aggiunti ai cluster. È possibile verificare gli articoli nel prelievo cluster durante il processo di prelievo cluster.
 
 ## <a name="where-it-applies"></a>Dove si applica
+
 La verifica dell'articolo per il prelievo cluster funziona nello stesso modo della verifica degli articoli nei processi di prelievo non cluster. L'impostazione dipende dall'impostazione dei codici a barre del prodotto.
 
 ## <a name="set-up-item-verification-with-cluster-picking"></a>Impostare la verifica dell'articolo con prelievo cluster
-1.  Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
-2.  Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
+
+1. Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
+1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
 
 |        Opzione        |                                    descrizione                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione. |
-

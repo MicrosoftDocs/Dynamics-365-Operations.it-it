@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205715"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383092"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -224,7 +224,7 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 </tr>
 <tr class="even">
 <td>Diretto dal sistema</td>
-<td>Supply Chain Management controlla il tipo di lavoro che viene assegnato al lavoratore e l'ordine in cui il lavoratore esegue il lavoro. Quando si seleziona questa opzione, è possibile fare clic su <strong>Lavoro gestito dal sistema</strong> nel riquadro Azione per aprire la pagina <strong>Ordinamento gestito dal sistema</strong>, nella quale si possono impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento controllano l'ordine in cui il lavoratore esegue il lavoro. È possibile aggiungere tutti i criteri necessari.</td>
+<td>Supply Chain Management controlla il tipo di lavoro che viene assegnato al lavoratore e l'ordine in cui il lavoratore esegue il lavoro. Quando selezioni questa opzione, puoi fare clic su <strong>Lavoro gestito dal sistema</strong> nel riquadro azioni per aprire la pagina <strong>Ordinamento gestito dal sistema</strong>, nella quale si possono impostare i criteri di ordinamento per il lavoro. I criteri di ordinamento controllano l'ordine in cui il lavoratore esegue il lavoro. È possibile aggiungere tutti i criteri necessari.</td>
 </tr>
 <tr class="odd">
 <td>Diretto dall'utente</td>

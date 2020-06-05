@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204833"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383207"
 ---
 # <a name="create-a-purchase-return-order"></a>Creare un ordine di reso acquisti
 
@@ -34,7 +34,7 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 2. Fare clic su **Nuovo**.
 3. Digitare "US-102" nel campo **Conto fornitore**.
 4. Fare clic su **OK**.
-5. Nel **riquadro azioni** fare clic su **Acquisto**.
+5. Nel **Riquadro azioni**, fare clic su **Acquisti**.
 6. Fare clic su **Nota di accredito**. Questa è la pagina da cui potete copiare da una fattura fornitore esistente al vostro ordine di reso. Questa è la stessa pagina che è usata per altre azioni di copia. Ma poiché l'abbiamo aperta dall'azione Nota di accredito, la pagina è configurata per supportare la creazione di un ordine di reso per la contropartita delle fatture fornitore.  
 7. Espandere la sezione **Parametri**.
     - L'opzione **Inverti segno** è selezionata automaticamente e non può essere cambiata. Ciò assicura che il segno sia cambiato per le quantità e che le righe di ordine che si aggiungono faranno da contropartita alla fattura fornitore.  

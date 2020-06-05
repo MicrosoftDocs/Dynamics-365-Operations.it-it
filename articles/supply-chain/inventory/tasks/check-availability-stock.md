@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204219"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383503"
 ---
 # <a name="check-the-availability-of-stock"></a>Controllare la disponibilità scorte
 
@@ -35,9 +35,9 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 2. Selezionare la riga **Numero articolo**. Per eseguire query sulle scorte disponibili per numero articolo, selezionare la riga in cui la Tabella è impostata su **Scorte disponibili** e il campo è impostato su **Numero articolo**.
 3. Nel campo **Criteri** selezionare l'articolo su cui si desidera eseguire una query. Se si utilizza la società di dati dimostrativi USMF, è possibile selezionare 'M9201'.  
 4. Fare clic su **OK**.
-5. Nel **riquadro azioni** fare clic su **Dimensioni**. La scheda **Dimensioni** consente di selezionare la quantità di dettagli che si desidera visualizzare sulle scorte disponibili. Se sono necessari dei dati relativi alla prenotazione, è necessario visualizzare tutte le dimensioni inventariali per gli articoli che utilizzano i processi avanzati di magazzino (WHS).
+5. Nel **riquadro azioni**, fai clic su **Dimensioni**. La scheda **Dimensioni** consente di selezionare la quantità di dettagli che si desidera visualizzare sulle scorte disponibili. Se sono necessari dei dati relativi alla prenotazione, è necessario visualizzare tutte le dimensioni inventariali per gli articoli che utilizzano i processi avanzati di magazzino (WMS).
 6. Fare clic su **OK**.
-7. Nel **riquadro azioni**, fare clic su **Informazioni correlate**. Se questa opzione non è visibile, può essere necessario fare clic sul pulsante con i puntini di sospensione (…) per visualizzare le opzioni aggiuntive del riquadro azioni.
+7. Nel **riquadro azioni**, fare clic su **Informazioni correlate**. Se questa opzione non è visibile, potresti dover fare clic sul pulsante con i puntini di sospensione (…) per visualizzare le opzioni aggiuntive del riquadro azioni.
 8. Fare clic su **Panoramica fornitura**. La scheda **Panoramica della fornitura** fornisce informazioni sulla fornitura di un articolo specifico, ad esempio la quantità disponibile, il lead time e informazioni sul fornitore.  
 9. Espandere la sezione **Disponibilità**.
 10. Espandere la sezione **Fornitori**.
@@ -48,7 +48,7 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Richieste di informazioni e report > Scorte fisiche disponibili**.
 2. Nel campo **Numero articolo**, digitare un valore. È possibile utilizzare i campi Sito e Magazzino per filtrare l'elenco di articoli. 
 3. Aggiorna la pagina.
-4. Nel **riquadro azioni**, fare clic su **Visualizza dimensioni**. La scheda Visualizzazione consente di selezionare la quantità di dettagli che si desidera visualizzare sulle scorte disponibili.
+4. Nel **riquadro azioni**, fai clic su **Visualizza dimensioni**. La scheda Visualizzazione consente di selezionare la quantità di dettagli che si desidera visualizzare sulle scorte disponibili.
 5. Fare clic su **OK**.
 6. Chiudere la pagina.
 

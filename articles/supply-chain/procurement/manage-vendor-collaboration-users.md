@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8491fd7c5af015989d409391e3ac143d88b6ad92
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207165"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383069"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestire gli utenti di collaborazione fornitore
 
@@ -49,7 +49,7 @@ Se si desidera eliminare un contatto, è solo possibile eliminare quelli che son
 Le richieste di utente di collaborazione fornitore possono essere generate da un responsabile di approvvigionamento o da un amministratore del fornitore esterno.
 
 -   Se si è un fornitore esterno, le richieste si inviano dalla pagina **Tutti i contatt** i  nel modulo **Collaborazione fornitore**.
--   Se si è un responsabile di approvvigionamento, le richieste si inviano dalla pagina **Visualizza contatto**. A tale scopo, nel record fornitore, nella sezione **Impostazione** del riquadro azioni, selezionare **Contatt** i&gt;  **Visualizza contatti**.
+-   Se si è un responsabile di approvvigionamento, le richieste si inviano dalla pagina **Visualizza contatto**. A tale scopo, nel record fornitore, nella sezione **Impostazione** del riquadro azioni, seleziona **Contatti** &gt; **Visualizza contatti**.
 
 È possibile effettuare una richiesta di provisioning di un utente, di disattivazione di un utente o di modifica di ruoli di sicurezza. Se si è un amministratore di un fornitore esterno, è necessario essere registrati come contatto per i conti fornitore per cui si desidera effettuare richieste utente e si deve poter accedere all'interfaccia di collaborazione fornitore per tali conti fornitore.  
 
