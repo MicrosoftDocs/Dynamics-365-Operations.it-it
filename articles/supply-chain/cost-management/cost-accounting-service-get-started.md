@@ -1,5 +1,5 @@
 ---
-title: Introduzione al servizio di contabilità industriale
+title: Introduzione al servizio di contabilità industriale (anteprima privata)
 description: Questo argomento fornisce dettagli sulla licenza e istruzioni di installazione per il servizio di contabilità industriale.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276932"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372738"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Introduzione al servizio di contabilità industriale
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Introduzione al servizio di contabilità industriale (anteprima privata)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Il servizio di contabilità industriale è un componente aggiuntivo. Per rendere
 
 Il servizio di contabilità industriale non supporta attualmente tutte le funzionalità di gestione dei costi integrate in Dynamics 365 Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile soddisfa i requisiti.
 
-## <a name="licensing"></a>Licenze
-
-Il servizio di contabilità industriale è concesso in licenza insieme alle funzionalità standard della contabilità di magazzino disponibili per Supply Chain Management. Non è necessario acquistare una licenza aggiuntiva per utilizzare il servizio di contabilità industriale.
-
-## <a name="install-the-add-in"></a>Installare il componente aggiuntivo
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Come ottenere il servizio di contabilità industriale (anteprima privata)
 
 > [!IMPORTANT]
 > Per utilizzare il servizio di contabilità industriale, è necessario disporre di un ambiente ad alta disponibilità abilitato per LCS (non un ambiente OneBox) e deve essere in esecuzione Dynamics 365 Supply Chain Management versione 10.0.11 o successiva.
 
+Per iscriversi all'anteprima privata del servizio di contabilità dei costi, invia l'ID dell'ambiente LCS via e-mail a [Servizio di contabilità industriale (anteprima privata)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Dopo aver approvato il programma, ti invieremo un'email di follow-up che contiene una chiave beta del servizio di contabilità industriale. Alla ricezione della chiave beta, puoi procedere all'[installazione del componente aggiuntivo](#install).
+
+## <a name="licensing"></a>Licenze
+
+Il servizio di contabilità industriale è concesso in licenza insieme alle funzionalità standard della contabilità di magazzino disponibili per Supply Chain Management. Non è necessario acquistare una licenza aggiuntiva per utilizzare il servizio di contabilità industriale.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Installare il componente aggiuntivo
+
 Per utilizzare il servizio di contabilità industriale, installare il componente aggiuntivo del servizio di contabilità industriale per Supply Chain Management come descritto nella seguente procedura.
+
+1. [Iscriviti](#sign-up) al servizio di contabilità industriale (anteprima privata).
 
 1. Accedere a LCS.
 

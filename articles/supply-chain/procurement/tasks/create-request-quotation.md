@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204748"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383174"
 ---
 # <a name="create-a-request-for-quotation"></a>Creare una richiesta di offerta
 
@@ -67,7 +67,7 @@ Dopo avere specificato informazioni di base sulla richiesta di offerta, specific
 7. Nel campo **Conto fornitore**, immettere o selezionare un valore. Una volta selezionato un fornitore, lo stato diventa Creata. In questo modo è possibile salvare le informazioni relative al fornitore nella richiesta di offerta senza tuttavia inviare la richiesta al fornitore. È possibile aggiungere un fornitore a una richiesta di offerta indipendentemente dallo stato del fornitore.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Inviare le RdO ai fornitori
-1. Nel **riquadro azioni** fare clic su **Invia**. Nella pagina Invio richiesta di offerta verificare che i fornitori nell'elenco siano quelli che si desidera ricevano la RdO.  
+1. Nel **riquadro azioni** fai clic su **Invia**. Nella pagina Invio richiesta di offerta verificare che i fornitori nell'elenco siano quelli che si desidera ricevano la RdO.  
 2. Fare clic su **Stampa**. Questa finestra di dialogo consente di stampare la RdO. Se si sceglie di stampare un foglio di risposta, il relativo contenuto è definito nei parametri Approvvigionamento. Per scegliere come stampare fogli di risposta, una volta aperta la finestra di dialogo Stampa, fare clic su Opzioni di stampa avanzate. Per ciascun fornitore verrà stampata una RdO contenente le righe con stato Creata o Inviata. Le righe annullate e le righe con risposte registrate non verranno stampate.   
 3. Fare clic su **Annulla**.
 4. Fare clic su **OK**.

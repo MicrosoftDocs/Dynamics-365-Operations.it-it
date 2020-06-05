@@ -3,7 +3,7 @@ title: Home page delle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099732"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367060"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -41,7 +41,6 @@ ms.locfileid: "3099732"
 ## <a name="onboard"></a>Inserisci
 - [Impostare progetti locali in Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Impostare e distribuire ambienti locali (aggiornamento piattaforma 12 e successive)](setup-deploy-on-premises-pu12.md)
-- [Impostare e distribuire in ambienti locali (aggiornamenti della piattaforma 8 e 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Installare le stampanti di rete in ambienti locali](../analytics/install-network-printer-onprem.md)
 - [Configurare SQL Server Reporting Services per le distribuzioni locali](../analytics/configure-ssrs-on-premises.md)
 - [Sviluppare e distribuire modelli personalizzati in ambienti locali](develop-deploy-custom-models-on-premises.md)

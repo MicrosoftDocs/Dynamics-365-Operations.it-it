@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87ddaddb00da50ef9e9e1e7ecf7c3620dabb5a17
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c77129abc5c93d7b11445bdaa2c4851d73bb0b62
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209952"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383598"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti. Utilizza un esempio specifico per spiegare come le diverse condizioni nelle righe dello sconto influiscono sugli importi finali che verranno accreditati al cliente. È necessario utilizzare la società di dati demo USMF e svolgere le seguenti attività prima di iniziare la guida: (1) andare alla pagina dei parametri Contabilità clienti ed espandere la scheda Prezzi, quindi la scheda Dettagli prezzo e controllare che l'opzione Abilita dettagli prezzo sia impostata su Sì. (2) Andate alla pagina Accordi sugli sconti e selezionare l'accordo sugli sconti del cliente: USMF-000001. Se il campo Stato di approvazione flusso di lavoro non è impostato su Approvato, è necessario fare clic su Convalida nel riquadro Azione per approvarlo.
+Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti. Utilizza un esempio specifico per spiegare come le diverse condizioni nelle righe dello sconto influiscono sugli importi finali che verranno accreditati al cliente. È necessario utilizzare la società di dati demo USMF e svolgere le seguenti attività prima di iniziare la guida: (1) andare alla pagina dei parametri Contabilità clienti ed espandere la scheda Prezzi, quindi la scheda Dettagli prezzo e controllare che l'opzione Abilita dettagli prezzo sia impostata su Sì. (2) Andate alla pagina Accordi sugli sconti e selezionare l'accordo sugli sconti del cliente: USMF-000001. Se il campo Stato di approvazione flusso di lavoro non è impostato su Approvato, devi fare clic su Convalida nel riquadro azioni per approvarlo.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Rivedere un accordo sugli sconti cliente

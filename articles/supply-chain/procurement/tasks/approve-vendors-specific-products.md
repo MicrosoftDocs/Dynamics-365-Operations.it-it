@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207786"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383276"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Approvare fornitori per prodotti specifici
 
@@ -42,10 +42,10 @@ Questa procedura mostra come approvare i fornitori per prodotti specifici. Ciò 
 11. Nel campo **Fornitore** immettere o selezionare un valore.
 12. Nel campo **Scadenza** immettere una data. Selezionare una data diversa dalla data di scadenza precedente.  
 13. Chiudere la pagina.
-14. Nel riquadro azioni fare clic su **Fornitori approvati**.
+14. Nel riquadro azioni, fai clic su **Fornitori approvati**.
 15. Nel campo **Scadenza** immettere una data. Questa data funge da filtro, pertanto è possibile visualizzare chi sono i fornitori approvati, fino a una determinata data.  
 16. Chiudere la pagina.
-17. Nel riquadro azioni fare clic su **Periodo di validità**.
+17. Nel riquadro azioni, fai clic su **Periodo di validità**.
 18. Nel campo **Mostra fornitori con scadenza entro** immettere una data. È possibile utilizzare questa pagina per identificare i fornitori il cui stato di approvazione scadrà dopo una determinata data.  
 19. Chiudere la pagina.
 20. Fare clic su **Modifica**.
@@ -57,7 +57,7 @@ Questa procedura mostra come approvare i fornitori per prodotti specifici. Ciò 
 26. Chiudere la pagina.
 27. Nel pannello di navigazione andare a **Moduli > Approvvigionamento > Fornitori > Tutti i fornitori**. È inoltre possibile iniziare da un fornitore e quindi accedere all'elenco dei prodotti approvati per quel conto fornitore.  
 28. Nell'elenco trovare e selezionare il record desiderato.
-29. Nel Riquadro azioni fare clic su **Approvvigionamento**.
+29. Nel riquadro azioni, fai clic su **Approvvigionamento**.
 30. Fare clic su **Elenco fornitori approvati per fornitore**.
 31. Chiudere la pagina.
 32. Chiudere la pagina.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208204"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382977"
 ---
 # <a name="maintenance-schedule-cost"></a>Costo del programma di manutenzione
 
@@ -46,7 +46,7 @@ In Gestione cespiti, è possibile calcolare i costi in budget nelle righe di pro
 
 5. Scegliere **OK** per avviare il ricalcolo del costi.
 
-6. Nella scheda **Costo del programma di manutenzione** > nei gruppi di riquadri azioni **Raggruppa per**, fare clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario per il calcolo dei costi. I pulsanti del gruppo di riquadri azioni selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
+6. Nella scheda **Costo del programma di manutenzione** > nei gruppi di riquadri azioni **Raggruppa per**, fai clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario per il calcolo dei costi. I pulsanti del gruppo di riquadri azioni selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
 7. Fare clic sul pulsante **Calcola costo** se si desidera eseguire un nuovo calcolo dei costi.
 

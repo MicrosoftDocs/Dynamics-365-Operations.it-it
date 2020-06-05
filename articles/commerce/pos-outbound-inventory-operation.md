@@ -3,7 +3,7 @@ title: Operazione di magazzino in uscita in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123924"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384131"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -117,6 +117,18 @@ Nella pagina **Elenco completo ordini**, è possibile selezionare manualmente un
 ### <a name="over-delivery-shipping-validations"></a>Convalide della spedizione per consegna in eccesso
 
 Le convalide si verificano durante il processo di ricezione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di ricevere più scorte di quelle ordinate in un ordine fornitore ma la consegna in eccesso non è configurata o la quantità ricevuta supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine fornitore, l'utente riceve un errore e non è consentito ricevere la quantità in eccesso.
+
+### <a name="underdelivery-close-lines"></a>Riga chiusura limite minimo di fornitura
+
+In Commerce versione 10.0.12, è stata aggiunta la funzionalità che consente agli utenti POS di chiudere o annullare le quantità rimanenti durante la spedizione dell'ordine in uscita se il magazzino in uscita determina che non può spedire l'intera quantità richiesta. Le quantità possono anche essere chiuse o cancellate in seguito. Per utilizzare questa funzionalità, la società deve essere configurata per consentire il limite minimo di fornitura degli ordini di trasferimento. Inoltre, una percentuale del limite minimo di fornitura deve essere definita per la riga dell'ordine di trasferimento.
+
+Per configurare la società in modo da consentire il limite minimo di fornitura degli ordini di trasferimento, in Commerce Headquarters, visita **Gestione inventario \> Impostazione \> Parametri di gestione articoli e magazzino**. Nella pagina **Parametri di gestione articoli e magazzino**, nella scheda **Ordini di trasferimento**, attiva il parametro **Accetta limite minimo di fornitura**. Quindi esegui il processo Retail Scheduler **1070** di distribuzione per sincronizzare le modifiche ai parametri al canale del negozio.
+
+Le percentuali di limite minimo di fornitura per una riga di ordine di trasferimento possono essere predefinite sui prodotti come parte della configurazione del prodotto in Commerce Headquarters. In alternativa, possono essere impostate o sovrascritte su una specifica riga dell'ordine di trasferimento tramite Commerce Headquarters.
+
+Dopo che un'organizzazione ha terminato la configurazione del limite minimo di fornitura dell'ordine di trasferimento, gli utenti vedranno una nuova opzione **Chiudi quantità rimanente** nel pannello **Dettagli** quando selezionano una riga ordine di trasferimento in uscita tramite l'operazione **Operazione in uscita** in POS. Quindi quando gli utenti completano la spedizione utilizzando l'operazione **Termina evasione**, possono inviare una richiesta a Commerce Headquarters per annullare la quantità non spedita rimanente. Se un utente sceglie di chiudere la quantità rimanente, Commerce effettua una convalida per verificare che la quantità annullata rientri nella tolleranza della percentuale del limite minimo di fornitura definita nella riga dell'ordine di trasferimento. Se viene superata la tolleranza del limite minimo di fornitura, l'utente riceve un messaggio di errore e non può chiudere la quantità rimanente fino a quando la quantità precedentemente spedita e la quantità "da spedire ora" soddisfa o supera la tolleranza del limite minimo di fornitura.
+
+Dopo che la spedizione è stata sincronizzata con Commerce Headquarters, le quantità definite nel campo **Spedisci ora** per la riga dell'ordine di trasferimento in POS vengono aggiornate allo stato spedito in Commerce Headquarters. Le quantità non spedite che in precedenza sarebbero state considerate quantità "rimanenza spedizione" (ovvero quantità che verranno spedite in un secondo momento) sono invece considerate quantità annullate. La quantità "rimanenza spedizione" per la riga dell'ordine di trasferimento è impostata su **0** (zero) e la riga è considerata completamente spedita.
 
 ### <a name="shipping-location-controlled-items"></a>Spedizione di articoli controllati in base alla posizione
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551151"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367317"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>Assegni fornitore di esempio per la creazione di report elettronici 
+
+[!include [banner](../includes/banner.md)]
 
 È possibile utilizzare la creazione report elettronici per formattare gli assegni fornitore. Molti formati di assegni specifici della banca e del fornitore sono disponibili sul mercato. I formati di assegni di esempio sono stati inclusi nel modello di assegno di pagamento nell'archivio degli strumenti della creazione di report elettronici. Questi assegni di esempio sono denominati **Assegno in mezzo (US)** e **Assegno nella prima matrice sotto (US)**.
 

@@ -3,7 +3,7 @@ title: Annullare un processo di pianificazione generale
 description: In questo argomento viene descritto come annullare un processo di pianificazione attivo che utilizza la funzionalità di pianificazione incorporata.
 author: ChristianRytt
 manager: tfehr
-ms.date: 01/10/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 08dd612d9fb01ba2db6d4fcc7db9507a41a4b29f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
+ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203919"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3374798"
 ---
 # <a name="cancel-a-master-planning-job"></a>Annullare un processo di pianificazione generale
 
 [!include [banner](../includes/banner.md)]
 
-In Microsoft Dynamics 365 Supply Chain Management, ci sono più opzioni per annullare un processo di pianificazione generale. Ad esempio, è possibile che si desideri annullare un processo di pianificazione generale se è stato avviato per errore o è in esecuzione più a lungo del previsto e si desidera terminarlo. Il modo migliore per annullare un processo di pianificazione è dalla pagina **Processi di pianificazione non completati**. Le opzioni alternative dalle pagine **Processi batch**e **Processi batch avanzati** devono essere utilizzate solo se l'annullamento del processo di pianificazione generale dalla pagina **Processi di pianificazione non completati** non viene completato in pochi minuti.
+In Microsoft Dynamics 365 Supply Chain Management, ci sono più opzioni per annullare un processo di pianificazione generale. Ad esempio, è possibile che si desideri annullare un processo di pianificazione generale se è stato avviato per errore o è in esecuzione più a lungo del previsto e si desidera terminarlo. Il modo migliore per annullare un processo di pianificazione è dalla pagina **Processi di pianificazione non completati**. Le opzioni alternative dalle pagine **Processi batch** e **Processi batch avanzati** devono essere utilizzate solo se l'annullamento del processo di pianificazione generale dalla pagina **Processi di pianificazione non completati** non viene completato in pochi minuti.
 
 ## <a name="preferred-cancel-option"></a>Opzione di annullamento preferita
 ### <a name="cancel-master-planning-job-from-unfinished-planning-processes-page"></a>Annullare il processo di pianificazione generale dalla pagina **Processi di pianificazione non completati**
@@ -51,4 +51,5 @@ Queste devono essere utilizzate solo se l'annullamento del processo di pianifica
 2. Se l'ID processo non è visualizzato nell'elenco, fare clic su **Passa al modulo avanzato**, altrimenti procedere con il passaggio successivo.
 3. Aprire il processo batch Fare clic su **ID processo** del processo batch con le attività che si desidera terminare.
 4. In **Attività batch**, selezionare le attività da terminare.
-5. Nella scheda dettaglio **Attività batch**, fare clic su **Interrompi**.
+5. Fai clic su **Cambia stato**, scegli **Annullamento** e fai clic su **OK**.
+6. Nella scheda dettaglio **Attività batch**, fare clic su **Interrompi**.

@@ -3,7 +3,7 @@ title: Gestione ordini distribuiti (DOM - Distributed Order Management)
 description: In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004322"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396034"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -37,12 +37,12 @@ La gestione degli ordini distribuiti ottimizza l'evasione degli ordini attravers
 
 Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un sistema di gestione degli ordini distribuiti.
 
-![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")
+![![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>Impostare la gestione degli ordini distribuiti
 
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
-2. Nella scheda **Chiavi di configurazione**, espandere il nodo **Commercio**, quindi selezionare la casella di controllo **Gestione ordini distribuiti**.
+2. Nella scheda **Chiavi di configurazione**, espandere il nodo **Commerce**, quindi selezionare la casella di controllo **Gestione ordini distribuiti**.
 3. Accedere a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Parametri DOM**.
 4. Nella scheda **Generale**, impostare i seguenti valori:
 
@@ -50,7 +50,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     - **Confermare l'utilizzo di Bing Mappe per DOM**: impostare questa opzione su **Sì**.
 
         > [!NOTE]
-        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di commercio** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
+        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di Commerce** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
 
     - **Periodo di ritenuta in giorni**: specificare per quanto tempo i piani di evasione generati dalle esecuzioni DOM vengono conservati nel sistema. Il processo batch **Impostazione processo di eliminazione dati di evasione DOM** eliminerà qualsiasi piano di evasione precedente al numero di giorni specificato qui.
     - **Periodo di rifiuto (in giorni)**: specificare il tempo che deve trascorrere prima che una riga di ordine rifiutata possa essere assegnata alla stessa ubicazione.
@@ -83,6 +83,15 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     2. Selezionare **Nuovo** e immettere un nome e una descrizione per il nuovo gruppo.
     3. Selezionare **Salva**.
     4. Selezionare **Aggiungi riga** per aggiungere una singola ubicazione al gruppo. In alternativa, selezionare **Aggiungi righe** per aggiungere più ubicazioni.
+    
+    > [!NOTE]
+    > In Commerce, versione 10.0.12 e successive, l'opzione **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione** deve essere abilitata nell'area di lavoro **Gestione funzionalità**.
+    >
+    > Questa funzionalità aggiunge nuove configurazioni nella pagina **Gruppo di evasione** in modo che sia possibile definire se il magazzino può essere utilizzato per la spedizione o se la combinazione magazzino/archivio può essere utilizzata per la spedizione, il ritiro o per entrambi. 
+    >
+    > Se si abilita la funzionalità, le opzioni disponibili per la selezione delle ubicazioni quando si creano gli ordini di spedizione o ritiro nel POS verranno aggiornate.
+    >
+    > L'abilitazione della funzionalità determina anche l'aggiornamento delle pagine nel POS quando sono selezionate le operazioni "spedisci tutto" o "spedisci selezionati".
 
 9. Per definire le regole, accedere a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Gestisci regole**. Attualmente sono supportate le seguenti regole DOM:
 
@@ -109,7 +118,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
         | 8    | Sì                    | No                    | No                                   | Alcune righe dell'ordine possono essere evase, ma righe singole non possono essere evase parzialmente e le diverse righe ordine possono essere evase da più ubicazioni in un'istanza dell'esecuzione DOM. |
         | 9\*  | No                     | Non applicabile        | Sì                                  | Tutte le righe ordine devono essere evase e tutte un'unica ubicazione. |
 
-        \* Se l'opzione **Evadere gli ordini parziali** è impostata su **No**, **Evadere le righe parziali** viene considerata sempre come impostata su **No**, indipendentemente dall'impostazione effettiva.
+        \* Se l'opzione **Evadere gli ordini parziali** è impostata su **No**, il valore dell'opzione **Evadere le righe parziali** è sempre considerato **No**, indipendentemente dall'impostazione effettiva.
 
         > [!NOTE]
         > In Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Anziché consentire a un utente di specificare se gli ordini possono essere evasi da una sola ubicazione o da tutte le ubicazioni possibili, ora gli utenti potranno specificare se l'evasione può essere eseguita da un insieme di ubicazioni definito (fino a 5) o da tutte le ubicazioni possibili. Ciò assicura maggiore flessibilità riguardo al numero di ubicazioni da cui è possibile evadere l'ordine.
@@ -134,7 +143,17 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     2. Selezionare **Nuovo**.
     3. Immettere valori nei campi **Profilo** e **Descrizione**.
     4. Impostare l'opzione **Applica automaticamente il risultato**. Se si imposta questa opzione su **Sì**, i risultati dell'esecuzione DOM per il profilo verranno automaticamente applicati alle righe di ordine cliente. Se viene impostata su **No**, i risultati possono essere visualizzati solo nel piano di evasione. Non verranno applicati alle righe di ordine cliente.
-    5. Se si desidera che il profilo DOM venga eseguito per gli ordini che includono ogni origine di ordine cliente, anche gli ordini in cui l'origine dell'ordine cliente non è definita, impostare l'opzione **Elabora ordini con origine vendite vuota** su **Sì**. Per eseguire il profilo solo per alcune origini di ordini cliente, è possibile definirle nella pagina **Origini di vendita**, come descritto più avanti.
+    5. Se si desidera che il profilo DOM venga eseguito per gli ordini che includono ogni origine di ordine cliente, ad esempio quelli in cui l'origine dell'ordine cliente non è definita, impostare l'opzione **Elabora ordini con origine vendite vuota** su **Sì**. Per eseguire il profilo solo per alcune origini di ordini cliente, è possibile definirle nella pagina **Origini di vendita**, come descritto più avanti.
+
+    > [!NOTE]
+    > In Commerce versione 10.0.12 e successive, l'opzione **Possibilità di assegnare un gruppo di evasione a un profilo di evasione** deve essere impostata nell'area di lavoro **Gestione funzionalità**. 
+    >
+    > Questa funzionalità aggiunge una nuova configurazione nella pagina **Profilo di evasione** che può essere associata a un singolo gruppo di evasione. 
+    >
+    > Se si seleziona il gruppo di evasione, le regole DOM per il profilo di evasione corrispondente verranno applicate in modo efficiente rispetto ai magazzini di spedizione inclusi nel gruppo di evasione. 
+    > 
+    > Per utilizzare in modo efficace questa funzionalità, verificare che esista un gruppo di evasione che contenga tutti i magazzini di spedizione, quindi associare tale gruppo al profilo di evasione.
+    
     6. Nella Scheda dettaglio **Persone giuridiche**, selezionare **Aggiungi**, quindi selezionare una persona giuridica.
     7. Nella Scheda dettaglio **Regole**, selezionare **Aggiungi**, quindi selezionare la regola da collegare al profilo.
     8. Ripetere i due passaggi precedenti fino a che tutte le regole obbligatorie non vengono associate al profilo.
@@ -179,7 +198,7 @@ Al momento dell'elaborazione, la gestione degli ordini distribuiti prenderà in 
 
 Dopo aver applicano le regole, i vincoli delle scorte e l'ottimizzazione, la gestione degli ordini distribuiti seleziona l'ubicazione più vicina all'indirizzo di consegna del cliente.
 
-![Criteri dell'ordine cliente](./media/ordercriteria.png "Criteri dell'ordine cliente")
+![![Criteri dell'ordine cliente](./media/ordercriteria.png "Criteri dell'ordine cliente")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>Risultati delle esecuzioni DOM
 
@@ -230,6 +249,6 @@ Durante l'elaborazione DOM vengono creati piani di evasione. Il sistema conserva
 
 Di seguito vengono illustrati alcuni aspetti da considerare quando si utilizza la funzionalità DOM:
 
-- Attualmente, la gestione degli ordini distribuiti cerca solo gli ordini creati dai canali di commercio. Gli ordini cliente vengono identificati come ordini cliente se l'opzione **Vendita commerciale** è impostata su **Sì**.
+- Attualmente, la gestione degli ordini distribuiti cerca solo gli ordini creati dai canali di commercio. Gli ordini cliente vengono identificati come ordini cliente se l'opzione **Vendita Commerce** è impostata su **Sì**.
 - Microsoft non ha testato la gestione degli ordini distribuiti con funzionalità avanzate di gestione del magazzino. I clienti e partner devono prestare attenzione a determinare se la gestione degli ordini distribuiti è compatibile con le funzionalità avanzate di gestione del magazzino e i processi ad esse pertinenti.
 - La gestione degli ordini distribuiti sarà disponibile solo nella versione cloud di Commerce. Non è supportata nelle distribuzioni locali.

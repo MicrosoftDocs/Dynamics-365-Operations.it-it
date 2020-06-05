@@ -1,5 +1,5 @@
 ---
-title: Risorse di guida per Supply Chain Management
+title: Home page di Supply Chain Management
 description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di Supply Chain Management.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201527"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386389"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Risorse di guida per Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
@@ -41,7 +41,8 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestione cespiti](asset-management/index.md)
 - [Contabilità industriale](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestione costi](cost-management/cost-management-home-page.md)  
-- [Gestione scorte](inventory/inventory-home-page.md)
+- [Gestione inventario](inventory/inventory-home-page.md)
+- [Intelligence IoT](iot/iot-intelligence-home-page.md)
 - [Pianificazione generale](master-planning/master-planning-home-page.md)
 - [Approvvigionamento](procurement/procurement-sourcing-overview.md)
 - [Gestione informazioni sul prodotto](pim/product-information.md)

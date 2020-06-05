@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207510"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383115"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Impostare una gerarchia di categorie di approvvigionamento
 
@@ -31,8 +31,8 @@ Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie d
 
 ## <a name="add-a-new-procurement-category"></a>Aggiungere una categoria di approvvigionamento
 1. Andare a **Pannello di navigazione >Moduli > Approvvigionamento > Spedizione > Categorie di approvvigionamento**.
-2. Nel riquadro Azioni selezionare **Modifica gerarchia di categorie**. La gerarchia di categorie di approvvigionamento corrente viene visualizzata nella parte sinistra della pagina. Si sta per modificare la gerarchia.  
-3. Nel riquadro Azioni selezionare **Nuovo nodo di categoria**. Il sistema selezionare il nodo di primo livello per impostazione predefinita. Se si esegue la procedura come guida attività, è possibile fare clic sul pulsante Sblocca e selezionare un altro nodo padre per inserire il nuovo nodo. Una volta eseguita l'operazione, bloccare ancora la guida attività e quindi fare clic sul nodo Nuova categoria.  
+2. Nel riquadro azioni seleziona **Modifica gerarchia di categorie**. La gerarchia di categorie di approvvigionamento corrente viene visualizzata nella parte sinistra della pagina. Si sta per modificare la gerarchia.  
+3. Nel riquadro azioni seleziona **Nuovo nodo di categoria**. Il sistema selezionare il nodo di primo livello per impostazione predefinita. Se si esegue la procedura come guida attività, è possibile fare clic sul pulsante Sblocca e selezionare un altro nodo padre per inserire il nuovo nodo. Una volta eseguita l'operazione, bloccare ancora la guida attività e quindi fare clic sul nodo Nuova categoria.  
 4. Digitare un valore nel campo **Nome**.
 5. Digitare un valore nel campo **Descrizione**
 6. Digitare un valore nel campo **Nome descrittivo**. Il nome descrittivo è facoltativo. Verrà visualizzato le ricerche di categoria insieme al nome della categoria.  

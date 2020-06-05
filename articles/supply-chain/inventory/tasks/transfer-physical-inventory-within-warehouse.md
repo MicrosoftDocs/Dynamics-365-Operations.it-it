@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdb66620d5d57a42ce6a2dc443a9276a2e3ca0ae
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203988"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383428"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Trasferire l'inventario fisico all'interno del magazzino
 
@@ -52,7 +52,7 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 12. Fare clic su **Salva**.
 
 ## <a name="post-the-inventory-transfer-journal"></a>Registrare il giornale di registrazione trasferimento scorte
-1. Nel **riquadro azioni** fare clic su **Registra**.
+1. Nel **riquadro azioni** fai clic su **Registra**.
 2. Fare clic su **OK**.
 
 ## <a name="view-inventory-transactions"></a>Visualizza operazioni di magazzino

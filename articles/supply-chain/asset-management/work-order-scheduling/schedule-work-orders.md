@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e98a30a03856f5532d420e516cb35d66acffb278
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275604"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383488"
 ---
 # <a name="schedule-work-orders"></a>Programmare ordini di lavoro
 
@@ -74,9 +74,9 @@ Il calcolo dei punteggi per un processo di ordine di lavoro è basato sulla data
 
 Calcolo della **Data di inizio**: per ogni data futura calcolata a partire dalla data di inizio prevista, il punteggio della data di inizio viene sottratto e moltiplicato per il punteggio, ovvero "10" negli esempi seguenti.
 
-Calcolo della **Criticità** : Il punteggio della criticità moltiplicato per la criticità nell'ordine di lavoro.
+Calcolo della **Criticità**: Il punteggio della criticità moltiplicato per la criticità nell'ordine di lavoro.
 
-Calcolo del **Livello di servizio** : il punteggio del livello di servizio diviso per il livello di servizio nell'ordine di lavoro.
+Calcolo del **Livello di servizio**: il punteggio del livello di servizio diviso per il livello di servizio nell'ordine di lavoro.
 
 Negli esempi seguenti, il punteggio di criticità è "2 "e i punteggi del livello di servizio sono "5" e "100".
 
@@ -137,4 +137,4 @@ Per visualizzare e lavorare con il diagramma di Gantt:
     - Il diagramma di Gantt si aggiorna per mostrare gli ordini di lavoro pianificati che corrispondono alle impostazioni. Ogni ordine di lavoro è rappresentato da un rettangolo blu.
     - Per riprogrammare un ordine di lavoro visualizzato, selezionarlo e quindi trascinarlo nella nuova data e ora appropriate.
 
-1. Se sono state apportate modifiche, selezionare **Salva** nel riquadro azioni per salvarle.
+1. Se sono state apportate modifiche, seleziona **Salva** nel riquadro azioni per salvarle.

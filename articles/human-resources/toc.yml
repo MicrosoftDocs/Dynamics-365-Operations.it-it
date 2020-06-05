@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 14 maggio 2020
+          href: hr-whats-new-2020-05-14.md
         - name: 1 maggio 2020
           href: hr-whats-new-2020-05-01.md
         - name: 13 aprile 2020
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Esaminare Lifecycle Services
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: App Human Resources in Teams
+          href: hr-admin-teams-leave-app.md
         - name: Risorse di documentazione
           items:
             - name: Guida
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Connettere la Guida
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Collegare un sito della Guida personalizzato
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Panoramica della Guida personalizzata
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Visualizzare ed esportare le descrizioni campi
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Registrazione attività
@@ -515,6 +519,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Visualizzare i calendari per team e società
               href: hr-employee-self-service-calendar.md
+        - name: Gestire le richieste di congedo in Teams
+          href: hr-teams-leave-app.md
         - name: Sviluppare i dipendenti
           items:
             - name: Panoramica della gestione delle prestazioni

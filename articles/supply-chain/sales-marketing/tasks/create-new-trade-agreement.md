@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211953"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383425"
 ---
 # <a name="create-a-new-trade-agreement"></a>Creare un nuovo accordo commerciale
 
@@ -34,7 +34,7 @@ Questa procedura illustra come creare un accordo commerciale in cui si registra 
 2. Fare clic su **Nuovo**.
 3. Nel campo **Nome** fare clic sul pulsante a discesa per aprire la ricerca.
 4. Nell'elenco trovare e selezionare il record desiderato.
-5. Nel **riquadro azioni** fare clic su **Righe**.
+5. In **Riquadro azioni** fai clic su **Righe**.
 6. Nel campo **Codice conto** selezionare "Tabella".
     
     In questo esempio viene aggiornato il prezzo per un cliente specifico ed è pertanto necessario scegliere Tabella. Se si aggiorna il prezzo di listino del prodotto, è necessario selezionare "Tutti", in modo che il nuovo prezzo sia valido per tutti i clienti. Se si differenziano i prezzi per segmenti di clienti diversi, è necessario selezionare Gruppo. Per selezionare Gruppo, è necessario impostare i gruppi di prezzi del cliente.  

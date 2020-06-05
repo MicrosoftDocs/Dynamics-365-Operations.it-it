@@ -3,7 +3,7 @@ title: Elaborazione delle ricevute spese
 description: Questo argomento fornisce informazioni sull'elaborazione OCR (riconoscimento ottico dei caratteri) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza utente quando vengono create note spese in Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248965"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378233"
 ---
 # <a name="expense-receipt-processing"></a>Elaborazione ricevuta spese
 
@@ -36,24 +36,24 @@ L'inserimento delle spese è stata migliorato con l'introduzione dell'elaborazio
 
 ## <a name="usage-examples"></a>Esempi di utilizzo
 
-- **Collegare automaticamente le ricevute che includono transazioni con carta di credito quando viene creata una nota spese.**
+Per collegare automaticamente le ricevute che includono transazioni con carta di credito quando viene creata una nota spese, eseguire le seguenti operazioni:
 
-    1. Aprire l'area di lavoro **Gestione spese**.
-    2. Nella scheda **Ricevute**, verificare l'esistenza di ricevute non collegate. È anche possibile caricare ricevute nella scheda **Ricevute**.
-    3. Nella scheda **Spese**, verificare l'esistenza di spese non collegate. In genere, l'amministratore spese importa queste spese dal fornitore della carta di credito.
-    4. Selezionare **Nuova nota spese**. Si noti che ora è possibile includere spese e ricevute quando si crea una nota spese. Se si aggiungono le spese e ricevute, viene attivata l'associazione automatica delle ricevute con le spese.
+  1. Aprire l'area di lavoro **Gestione spese**.
+  2. Nella scheda **Ricevute**, verificare l'esistenza di ricevute non collegate. È anche possibile caricare ricevute nella scheda **Ricevute**.
+  3. Nella scheda **Spese**, verificare l'esistenza di spese non collegate. In genere, l'amministratore spese importa queste spese dal fornitore della carta di credito.
+  4. Selezionare **Nuova nota spese**. Si noti che ora è possibile includere spese e ricevute quando si crea una nota spese. Se si aggiungono le spese e ricevute, viene attivata l'associazione automatica delle ricevute con le spese.
 
-- **Creare una spesa o associare una spesa di una ricevuta.**
+Per creare una spesa o associare una spesa di una ricevuta, eseguire le seguenti operazioni:
 
-    1. In una nota spese, nella scheda **Ricevute**, collegare una ricevuta selezionando **Aggiungi ricevute**.
-    2. Sotto l'immagine della ricevuta caricata, notare le opzioni **Crea** e **Associa**.
+  1. In una nota spese, nella scheda **Ricevute**, collegare una ricevuta selezionando **Aggiungi ricevute**.
+  2. Sotto l'immagine della ricevuta caricata, notare le opzioni **Crea** e **Associa**.
 
-        - Selezionare **Crea** per creare una transazione di spesa immessa manualmente e immettere i valori estratti dalla ricevuta.
-        - Se si seleziona **Associa**, il sistema tenta di associare una spesa esistente alla ricevuta.
+      - Selezionare **Crea** per creare una transazione di spesa immessa manualmente e immettere i valori estratti dalla ricevuta.
+      - Se si seleziona **Associa**, il sistema tenta di associare una spesa esistente alla ricevuta.
 
 ## <a name="installation"></a>Installazione
 
-Questa funzionalità viene utilizzata con la funzionalità **Note spese rinnovate** per semplificare l'esperienza di spesa.
+Questa funzionalità viene utilizzata con la funzionalità **Note spese rinnovate** per semplificare l'esperienza di spesa. Questa funzionalità è disponibile solo per ambienti di livello 2+, che sono Sandbox e Production.
 
 Per utilizzare queste funzionalità di spesa avanzate, installare il componente aggiuntivo Servizio gestione spese per Microsoft Dynamics 365 Finance e attivare le funzionalità nella propria istanza. È possibile accedere al componente aggiuntivo dal progetto in Microsoft Dynamics Lifecycle Services (LCS).
 

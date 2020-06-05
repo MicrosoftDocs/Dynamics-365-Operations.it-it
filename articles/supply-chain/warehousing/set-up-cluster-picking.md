@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204288"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367409"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
+
+[!include[banner](../includes/banner.md)]
 
 In questo argomento viene descritto come abilitare i lavoratori a utilizzare i propri dispositivi mobili per raggruppare il lavoro di prelievo nei cluster, in modo che possano prelevare gli articoli da un unica ubicazione per più ordini di lavoro contemporaneamente. Questo tipo di azione viene denominato *prelievo del cluster*.
 
@@ -36,35 +36,35 @@ Dopo aver emesso gli ordini di lavoro al magazzino, il lavoratore può utilizzar
 
 Se necessario, un lavoratore può passare un cluster a un altro lavoratore. Tale operazione modifica lo stato in Superato. Quando il lavoratore utilizza un dispositivo mobile per indicare il completamento del prelievo e dello stoccaggio, è necessario confermare la spedizione o il carico nel client.
 
-## <a name="set-up-cluster-picking"></a>Impostare prelievo del cluster
+## <a name="enable-cluster-picking"></a>Abilita prelievo del cluster
 
 Per abilitare il prelievo del cluster, è necessario impostare quanto segue:
 
--   **Profili cluster**: consente di specificare se generare automaticamente gli ID del cluster, il numero di posizioni da utilizzare, quando interrompere i cluster e come ordinare in sequenza e verificare il lavoro di prelievo.
+- **Profili cluster**: consente di specificare se generare automaticamente gli ID del cluster, il numero di posizioni da utilizzare, quando interrompere i cluster e come ordinare in sequenza e verificare il lavoro di prelievo.
 
--   **Modelli di lavoro**: consente di definire la modalità di creazione del lavoro di prelievo per il prelievo del cluster.
+- **Modelli di lavoro**: consente di definire la modalità di creazione del lavoro di prelievo per il prelievo del cluster.
 
--   **Direttive ubicazione**: consente di specificare dove prelevare gli articoli e dove inserirli.
+- **Direttive ubicazione**: consente di specificare dove prelevare gli articoli e dove inserirli.
 
--   **Voci di menu del dispositivo mobile**: consente di configurare una voce di menu del dispositivo mobile per utilizzare il lavoro esistente che è diretto dal prelievo del cluster. È quindi necessario aggiungere la voce di menu a un menu del dispositivo mobile in modo che sia visualizzato sui dispositivi mobili.
+- **Voci di menu del dispositivo mobile**: consente di configurare una voce di menu del dispositivo mobile per utilizzare il lavoro esistente che è diretto dal prelievo del cluster. È quindi necessario aggiungere la voce di menu a un menu del dispositivo mobile in modo che sia visualizzato sui dispositivi mobili.
 
--   **Parametri di gestione magazzino**: consente di specificare la sequenza numerica da utilizzare se si desidera generare gli identificatori per i cluster.
+- **Parametri di gestione magazzino**: consente di specificare la sequenza numerica da utilizzare se si desidera generare gli identificatori per i cluster.
 
 ## <a name="set-up-a-cluster-profile"></a>Impostare un profilo del cluster
 
 Per impostare un profilo del cluster, effettuare le seguenti operazioni:
 
-1.  Fare clic su **Gestione magazzino** \> **Impostazione** \> **Dispositivo mobile** \> **Profili cluster**.
+1. Fai clic su **Gestione magazzino** \> **Impostazioni** \> **Dispositivo mobile** \>  **Profili cluster**.
 
-2.  Fare clic su **Nuovo** per creare un nuovo profilo.
+1. Fare clic su **Nuovo** per creare un nuovo profilo.
 
-3.  Fare clic su **Crea cluster** e in **Ordinamento cluster** fare su **Nuovo** per impostare i criteri di ordinamento per il cluster. I criteri di ordinamento controllano l'ordine in cui il lavoratore eseguirà il lavoro di prelievo. È possibile aggiungere un numero illimitato di criteri.
+1. Fare clic su **Crea cluster** e in **Ordinamento cluster** fare su **Nuovo** per impostare i criteri di ordinamento per il cluster. I criteri di ordinamento controllano l'ordine in cui il lavoratore eseguirà il lavoro di prelievo. È possibile aggiungere un numero illimitato di criteri.
 
-4.  Nel campo **Numero progressivo** immettere un numero per definire l'ordine in cui verranno elaborati i criteri di ordinamento.
+1. Nel campo **Numero progressivo** immetti un numero per definire l'ordine in cui verranno elaborati i criteri di ordinamento.
 
-5.  Nel campo **Nome campo** selezionare il campo che determinerà l'ordinamento. Ad esempio, se si seleziona il campo **WMSLocationId** il lavoro verrà ordinato per posizione.
+1. Nel campo **Nome campo** selezionare il campo che determinerà l'ordinamento. Ad esempio, se si seleziona il campo **WMSLocationId** il lavoro verrà ordinato per posizione.
 
-6.  Nel campo **Ordinamento** selezionare una delle seguenti opzioni.
+1. Nel campo **Ordinamento** selezionare una delle seguenti opzioni.
 
 | **Opzione**     | **Descrizione**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenzi
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Impostare la verifica dell'articolo con prelievo cluster
 
-1.  Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** \> **Gestione magazzino** \> **Impostazione** \> **Dispositivo mobile** \> **Voci di menu del dispositivo mobile**.
+1. Su una voce di menu del dispositivo mobile, apri il modulo di configurazione per la conferma del lavoro:  **Gestione magazzino** \> **Gestione magazzino** \> **Configurazione** \>  **Dispositivo mobile** \> **Voci di menu del dispositivo mobile**.
 
-2.  Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**. L'opzione **Conferma prodotto** consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.
+1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**. L'opzione **Conferma prodotto** consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201596"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383000"
 ---
 # <a name="set-up-shipping-carriers"></a>Impostare vettori di spedizione
 
@@ -32,7 +32,7 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 
 ## <a name="create-a-new-shipping-carrier"></a>Creare un nuovo vettore di spedizione
 1. Andare a **Pannello di navigazione > Moduli > Gestione trasporto > Impostazioni > Vettori > Vettori spedizione**.
-2. Nel riquadro azioni selezionare **Nuovo**.
+2. Nel Riquadro azioni seleziona **Nuovo**.
 3. Nel campo **Vettore spedizione** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
 5. Nel campo **Modo**, selezionare un'opzione dal menu a discesa.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204886"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383230"
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
@@ -68,7 +68,7 @@ In questo argomento viene descritto come creare un ordine fornitore manualmente.
 ## <a name="review-order-totals"></a>Rivedere i totali ordini
 1. Selezionare **Totali**.
 
-    - Se non si nota l'azione **Totali**, selezionare la scheda **Ordine fornitore** nella barra di azione.  
+    - Se non noti l'azione **Totali**, seleziona la scheda **Ordine fornitore** nel riquadro azioni.  
     - Questa finestra di dialogo mostra i totali dell'intero ordine.  
     - Il campo **Selezione** consente di modificare la base di come vengono calcolati i totali. Ad esempio, è possibile scegliere **Quantità entrata prodotti** per visualizzare i totali correlati all'importo dei prodotti ricevuti o **Quantità ordinata** per visualizzare l'importo del prodotto ordinato.  
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97f796a17498fbfe85a0fa19d7e52aefd61fd9e9
-ms.sourcegitcommit: cc5dc0bd90277f1ba684dd310da3274886ce573c
+ms.openlocfilehash: f14056735b927d9b14f686f43bd9be121808ba23
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3320851"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379285"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novità o modifiche in Human Resources
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni sulle funzionalità imminenti o sul processo di aggio
 
 Per visualizzare novità o modifiche in ogni versione bisettimanale di Human Resources, vedere i seguenti articoli:
 
-[1 maggio 2020](hr-whats-new-2020-05-01.md)</br>
+[14 maggio 2020](hr-whats-new-2020-05-14.md)</br>[1 maggio 2020](hr-whats-new-2020-05-01.md)</br>
 [13 aprile 2020](hr-whats-new-2020-04-13.md)</br>
 [3 aprile 2020](hr-whats-new-2020-04-03.md)</br>
 [24 marzo 2020](hr-whats-new-2020-03-24.md)</br>
