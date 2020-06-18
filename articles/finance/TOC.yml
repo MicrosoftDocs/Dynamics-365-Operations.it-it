@@ -70,12 +70,12 @@
                   items:
                     - name: Home page novità o modifiche in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12 (agosto 2020)
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (luglio 2020)
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (maggio 2020)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9 (aprile 2020)
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità rimosse o deprecate in Dynamics 365 Finance
@@ -232,6 +232,8 @@
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: Impostare criteri di fatture fornitore
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Automatizzare le proposte di pagamento del fornitore
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: Registrare la fattura fornitore e associarla alla quantità ricevuta
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Panoramica dei pagamenti sicuri
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Flusso di lavoro cliente
               href: accounts-receivable/customer-workflow.md
-            - name: Crediti e riscossioni in contabilità clienti
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: 'Configurare la contabilità clienti, i crediti e le riscossioni'
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: Impostare i crediti e le riscossioni
-              href: accounts-receivable/set-up-collections.md
-            - name: Esaminare le informazioni sulla riscossione
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: Panoramica del riconoscimento ricavi
               href: accounts-receivable/revenue-recognition-overview.md
             - name: Impostazione del riconoscimento ricavi
@@ -410,6 +404,14 @@
               items:
                 - name: Panoramica di credito e riscossioni
                   href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Riscossioni in contabilità clienti
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: 'Configurare la contabilità clienti, i crediti e le riscossioni'
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Impostare i crediti e le riscossioni
+                  href: accounts-receivable/set-up-collections.md
+                - name: Esaminare le informazioni sulla riscossione
+                  href: accounts-receivable/tasks/review-collections-information.md
                 - name: Impostazione gestione crediti
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informazioni di impostazione gestione crediti
@@ -448,7 +450,9 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Creare un giornale di registrazione annullamento per un cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
-        - name: Impostazione budget
+            - name: Gestione note avanzate
+              href: localizations/emea-ita-exil-structured-notes.md
+        - name: Impostazione del budget
           items:
             - name: Home page di impostazione del budget
               href: budgeting/budgeting-overview.md
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Configurare i costi standard di manodopera e spese
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Creare e applicare i termini di ritenuta pagamento del fornitore
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: Configurare e utilizzare i pagamenti fornitore con pagamento in base alla retribuzione
               href: project-management/setup-manage-vendor-payments.md
             - name: Entrate acquisti per attribuzione per competenza dei costi di progetto
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: Offerte di progetto
               href: project-management/project-quotations.md
+            - name: 'Confermare, aggiornare e inviare un''offerta di progetto'
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: Trasferire un'offerta a un progetto
+              href: project-management/transfer-quote-new-existing-project.md
             - name: Risorse di progetto
               href: project-management/project-resourcing.md
             - name: Ricevere articoli in un ordine fornitore da una richiesta articolo
@@ -1022,6 +1032,8 @@
                   href: project-management/custom-fields-mobile.md
             - name: Sovvenzioni progetto
               href: project-management/project-grants.md
+            - name: Eliminare una stima del progetto
+              href: project-management/eliminate-project-estimate.md
         - name: Settore pubblico
           items:
             - name: Home page Settore pubblico
@@ -1752,12 +1764,14 @@
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
                 - name: Cespiti fissi a basso costo
                   href: localizations/emea-hun-low-cost-fixed-assets.md
-                - name: Spostare un cespite nel magazzino
+                - name: Spostare un cespite nell'inventario
                   href: localizations/emea-hun-fixed-asset-to-inventory.md
                 - name: Documenti di rimborso fiscale
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: Chiusura di fine anno
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Sistema di fatturazione online
+                  href: localizations/emea-hun-online-invoicing.md
             - name: Islanda
               items:
                 - name: Panoramica Islanda
@@ -2008,8 +2022,6 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: Spese varie per chilogrammo in una dichiarazione Intrastat
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: Gestione note avanzate
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: Lettere di intento - Fatturazione dei soliti esportatori
                   href: localizations/emea-ita-exil-intent-letter.md
                 - name: Fattura fiscale per le merci consegnate gratuitamente
@@ -2288,8 +2300,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Integrazione di Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'File di controllo - (XML Auditfile Financieel, XAF)'
-                  hred: localizations/emea-nl-audit-file.md
+                - name: File di controllo (XML Auditfile Financieel XAF)
+                  href: localizations/emea-nl-audit-file.md
             - name: Norvegia
               items:
                 - name: Panoramica Norvegia
@@ -2359,7 +2371,7 @@
                     - name: Panoramica titolari di anticipi Russia
                       href: localizations/rus-advance-holders.md
                     - name: Creare un titolare di anticipi
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Operazioni giornaliere per titolari di anticipi
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Report sugli anticipi con il controllo del budget
@@ -2970,6 +2982,8 @@
               items:
                 - name: Creare configurazioni
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: Definire la dipendenza delle configurazioni ER in altri componenti
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Preparare i componenti della soluzione di creazione di report elettronici
                   items:
                     - name: Progettare un modello di dati specifici del dominio
@@ -3252,10 +3266,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Testo: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Gestire il mapping dei modelli ER in configurazioni ER separate
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Selezionare le definizioni del modello dati quando si creano i formati
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Pianificare i formati ER per generare documenti elettronici in uscita in diversi formati
               items:
                 - name: Progettare configurazioni per generare documenti in uscita in formato Excel
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: Definire la dipendenza delle configurazioni ER in altri componenti
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Aggiornare i dati dell'applicazione utilizzando la creazione di report elettronici
               items:
                 - name: Generare documenti elettronici e aggiornare i dati dell'applicazione
@@ -3321,31 +3329,41 @@
                     - name: Importare file in formato XML con attributi facoltativi
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: Configurare formati ER per importare file XML con attributi facoltativi
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: Ciclo di vita delle configurazioni
               items:
                 - name: Gestire il ciclo di vita delle configurazioni
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Caricare configurazioni in Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Importare configurazioni da Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Scaricare configurazioni da Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: Importare configurazioni
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Opzioni di filtro avanzate per trovare configurazioni nell'archivio globale
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: Scaricare le configurazioni ER dall'archivio RCS
+                - name: ' Lifecycle Services (LCS)'
                   items:
-                    - name: Scaricare le configurazioni dall'archivio ER di tipo RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Importare configurazioni da RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: Creare configurazioni ER in RCS e caricarle nel repository globale
-                  href: localizations/rcs-global-repo-upload.md
-                - name: Condividere le configurazioni ER in RCS con organizzazioni esterne
-                  href: localizations/rcs-global-repo-share-configuration.md
+                    - name: Caricare configurazioni in LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Importare configurazioni da LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Scaricare configurazioni da LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Importare configurazioni (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services (RCS)
+                  items:
+                    - name: Regulatory Configuration Services (RCS) - Funzionalità di globalizzazione
+                      href: localizations/rcs-globalization-feature.md
+                    - name: Scaricare le configurazioni di report elettronici in Finance
+                      items:
+                        - name: Scaricare configurazioni da RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Importare configurazioni da RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Repository globale (GR)
+                      items:
+                        - name: Importare configurazioni da GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Filtro avanzato per trovare configurazioni in GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Caricare configurazioni in GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Condividere configurazioni in GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: Esercitazioni
               items:
                 - name: Come utilizzare le origini dati
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: Debug delle origini dati
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: Configurare i formati ER per utilizzare i parametri specifici per la persona giuridica
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: Impostare i parametri di un formato ER per la persona giuridica
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: Rinviare l'esecuzione di elementi in formato ER
+                - name: Configurare i mapping dei modelli
                   items:
-                    - name: Rinviare l'esecuzione di un elemento sequenza
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: Rinviare l'esecuzione di un elemento XML
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: Gestire il mapping dei modelli ER in configurazioni ER separate
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Configurare i formati
+                  items:
+                    - name: Configurare i formati ER per utilizzare i parametri specifici per la persona giuridica
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: Impostare i parametri di un formato ER per la persona giuridica
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: Selezionare le definizioni del modello quando si creano i formati
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Rinviare l'esecuzione di elementi in formato ER
+                      items:
+                        - name: Rinviare l'esecuzione di un elemento sequenza
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: Rinviare l'esecuzione di un elemento XML
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: Percorso relativo nelle associazioni di dati
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Utilizzare soluzioni di creazione di report elettronici in Finance and Operations

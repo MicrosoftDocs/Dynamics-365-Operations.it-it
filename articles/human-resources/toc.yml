@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 maggio 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 maggio 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 maggio 2020
@@ -203,7 +205,7 @@
       items:
         - name: Panoramica
           href: hr-hrpro-overview.md
-        - name: Impostare le risorse umane
+        - name: Impostare Human Resources
           items:
             - name: Configurare i parametri risorse umane
               href: hr-setup-parameters.md
@@ -507,8 +509,10 @@
               href: hr-leave-and-absence-enroll.md
             - name: Accumulare piani di congedo e assenza
               href: hr-leave-and-absence-accrue.md
-            - name: Congedo sospeso
+            - name: Sospendere il congedo
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Richiesta di congedo
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Gestire il congedo dei dipendenti
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Visualizzare analisi per congedo e assenza
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Visualizzare i calendari per team e società
               href: hr-employee-self-service-calendar.md
+            - name: Gestire i criteri di acquisto e vendita congedo
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Acquista e vendi congedo
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Gestire le richieste di congedo in Teams
           href: hr-teams-leave-app.md
         - name: Sviluppare i dipendenti
