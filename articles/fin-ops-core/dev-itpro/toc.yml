@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.12 (agosto 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform update 10.0.11 (luglio 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform update 10.0.10 (maggio 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Lavoratore, mansione e posizione integrati'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Disponibilità scorte
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Supporto per scrittura doppia
                           items:
                             - name: Supporto per soluzioni Field Service e Project Service Automation
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Applicare aggiornamenti ad ambienti cloud
                   href: deployment/apply-deployable-package-system.md
-                - name: Applicare aggiornamenti ed estensioni a componenti del canale Retail ospitato nel cloud
+                - name: Applicare aggiornamenti ed estensioni a Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
-                - name: Inizializzare Retail Cloud Scale Unit
+                - name: Inizializzare Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Residenza dei dati Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Connettività Internet del client
                       href: user-interface/client-disconnected.md
+                    - name: Configurare nodi AOS solo batch e solo interattivi nelle distribuzioni locali
+                      href: deployment/onprem-batchonly.md
                     - name: Configurare proxy per ambienti locali
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnostica locale
@@ -646,11 +652,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: Classi EventHandlerResult in scenari di risposta o richiesta
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Scrivere logica di business mediante codice sorgente X++ e C#'
+                - name: Scrivere logica di business mediante codice sorgente X++ e C#
                   href: dev-tools/write-business-logic.md
                 - name: Modifiche al linguaggio X++ e al compilatore X++
                   href: dev-tools/programming-language-support.md
-                - name: 'Provider LINQ per C#'
+                - name: Provider LINQ per C#
                   href: dev-tools/linq-provider-c.md
                 - name: Scrivere le regole delle procedure consigliate
                   href: dev-tools/author-best-practice-rules.md
@@ -710,7 +716,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: Classi di attributi X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Confronto tra X++ e C#'
+                    - name: Confronto tra X++ e C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Sintassi X++
                       href: dev-ref/xpp-syntax.md
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Manuale dell'utente di Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Integrazione progetto
+              href: lifecycle-services/project-onboarding.md
             - name: Strumento di stima delle sottoscrizioni
               href: lifecycle-services/subscription-estimator.md
             - name: Configurare la sicurezza
@@ -1118,13 +1126,27 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: File della memoria di traduzione
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Integrazione di Microsoft Power Platform
+          items:
+            - name: Integrazione di Microsoft Power Platform con Finance and Operations
+              href: power-platform/overview.md
+            - name: Modellazione di entità
+              href: power-platform/entity-modeling.md
+            - name: Gestione del ciclo di vita dell'applicazione
+              href: power-platform/application-lifecycle-management.md
+            - name: Riferimento amministratore Finance and Operations e Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Portali Power Apps con Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Domande frequenti sulle entità virtuali di Finance and Operations
+              href: power-platform/faq.md
         - name: Piattaforma mobile
           items:
             - name: Risorse piattaforma mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: Introduzione
               items:
-                - name: Introduzione con la piattaforma mobile
+                - name: Introduzione alla piattaforma mobile
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Considerazioni sulla progettazione e sull'architettura
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Installazione e configurazione
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Test di diagnostica dei dati utilizzando Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Eseguire casi test
+            - name: Utilizzo di Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: Convalidare i valori previsti
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casi test derivati
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Esercitazione sull'utilizzo di Regression Suite Automation Tool
+            - name: Esercitazione sull'utilizzo di Regression Suite Automation Tool e altre funzionalità
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Procedure consigliate
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Test di diagnostica dei dati utilizzando Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Risoluzione dei problemi
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Rilasciare soluzioni mediante Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Periodi batch attivi
                   href: sysadmin/activeperiod.md
+                - name: Supporto per l'ora legale per periodi batch attivi
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Ruolo di sicurezza Gestore batch
                   href: sysadmin/runby.md
                 - name: Processo batch per la gestione della deframmentazione dell'indice SQL

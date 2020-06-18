@@ -88,6 +88,8 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (agosto 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (luglio 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maggio 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: Sincronizzare i programmi di installazione self-service in Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (indipendente)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Configurare e installare Commerce Scale Unit
+                - name: Configurare e installare Commerce Scale Unit (indipendente)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Installazione e configurazione di Modern POS
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Panoramica suggerimenti sul prodotto
                   href: product-recommendations.md
-                - name: Abilitare ADLS in un ambiente Dynamics 365 Commerce
+                - name: Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
                 - name: Abilitare suggerimenti sul prodotto
                   href: enable-product-recommendations.md
@@ -640,14 +642,14 @@
                   href: configure-ratings-reviews.md
                 - name: Sincronizzare valutazioni sul prodotto
                   href: sync-product-ratings.md
-            - name: Gestione degli articoli
+            - name: Gestione scorte
               items:
                 - name: Scorte
                   items:
                     - name: Gestione scorte di magazzino
                       href: work-with-store-inventory.md
-                    - name: Utilizzo degli articoli serializzati
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Configurare buffer scorte e livelli scorte
+                      href: inventory-buffers-levels.md
                     - name: Utilizzare gli articoli serializzati in POS
                       href: pos-serialized-items.md
                     - name: Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Gestire utenti e ruoli
                   href: manage-ecommerce-users-roles.md
+                - name: Applicare le impostazioni delle scorte
+                  href: inventory-settings.md
                 - name: Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
                   href: search-engine-optimization-considerations.md
                 - name: Gestire i criteri di sicurezza del contenuto (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Utilizzare i file di sostituzione CSS
                       href: css-override-files.md
+                    - name: Utilizzare le impostazioni predefinite degli stili
+                      href: style-presets.md
                     - name: Aggiungere una favicon
                       href: add-favicon.md
                     - name: Aggiungere un messaggio di benvenuto
@@ -932,6 +938,10 @@
                   items:
                     - name: Modulo contenitore
                       href: add-container-module.md
+                    - name: Modulo Accordion
+                      href: add-accordion.md
+                    - name: Modulo scheda
+                      href: add-tab.md
                 - name: Moduli marketing
                   items:
                     - name: Modulo banner promozionale
@@ -978,6 +988,10 @@
                   items:
                     - name: Moduli raccolta prodotti
                       href: product-collection-module-overview.md
+                - name: Moduli di spostamento
+                  items:
+                    - name: Modulo percorso di navigazione
+                      href: add-breadcrumb.md
             - name: Cerca
               items:
                 - name: Pagina di destinazione di categoria e pagina dei risultati della ricerca predefinite
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Linee guida per la distribuzione dei registratori di cassa
                   href: localizations/emea-fra-deployment.md
+            - name: Germania
+              items:
+                - name: Esempio di integrazione del servizio di registrazione fiscale per la Germania
+                  href: localizations/emea-deu-fi-sample.md
             - name: India
               items:
                 - name: Integrazione del'Imposta sui Beni e Servizi (GST) per i registratori di cassa
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurare le impostazioni del tema
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Estendere un tema
+                    - name: Estendere un tema per aggiungere estensioni del modulo
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Estendere un tema da un tema di base
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Inserire script
                   items:
@@ -2072,17 +2092,17 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Estendibilità Retail Server
               items:
-                - name: Estendere un controller Retail Server OData
+                - name: Estendere un controller OData di Commerce Scale Unit
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: API utente e clienti Retail Server
+                - name: API per clienti e consumatori di Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Estendere il controller dei metadati di Retail Server predefinito
+                - name: Estendere il controller dei metadati di Commerce Scale Unit predefinito
                   href: dev-itpro/extend-metadata.md
                 - name: Chiamare il servizio CRT in modalità offline
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Creare una nuova estensione di Retail Server
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Proxy C# e TypeScript Retail'
+                - name: Proxy C# e TypeScript Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Estendibilità di Commerce Runtime (CRT)
               items:
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Gestire segreti per i canali di vendita al dettaglio
                   href: dev-itpro/manage-secrets.md
-                - name: Aggiungere proprietà a ordini cliente
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: Estendibilità e attivazioni CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Bloccare le transazioni utilizzando i trigger
