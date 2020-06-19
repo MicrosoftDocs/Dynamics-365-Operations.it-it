@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248738"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410152"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Esercitazione sull'utilizzo di Regression Suite Automation Tool
+# <a name="regression-suite-automation-tool-tutorial"></a>Esercitazione Regression Suite Automation Tool
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ Questa funzionalità consente di acquisire schermate dei passaggi eseguiti duran
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Quando si esegue il caso di test, RSAT genera snapshot (immagini) dei passaggi nella cartella di riproduzione dei casi di test nella directory di lavoro. Se si utilizza una versione precedente di RSAT, le immagini vengono salvate in **C:\\Utenti\\\<nome utente\>\\AppData\\Roaming\\regressionTool\\playback**, viene creata una cartella separata per ogni caso di test che viene eseguito.
+Quando si esegue il caso di test, RSAT genera snapshot (immagini) dei passaggi nella cartella di riproduzione dei casi di test nella directory di lavoro. Se si utilizza una versione precedente di RSAT, le immagini vengono salvate in **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, viene creata una cartella separata per ogni caso di test che viene eseguito.
 
 ## <a name="assignment"></a>Assegnazione
 
@@ -454,7 +454,7 @@ Si ha uno script di test che crea un nuovo cliente. Tramite lo script, questo te
 - Nome cliente
 - Indirizzo cliente
 
-L'ID cliente sarà in formato *ATCUS\<numero\>*, dove \<numero\> è un valore compreso tra **000000001** e **999999999**.
+L'ID cliente sarà in formato *ATCUS\<number\>*, dove \<number\> è un valore compreso tra **000000001** e **999999999**.
 
 Nel seguente esempio viene utilizzato un parametro **start** per definire il primo numero utilizzato. Un secondo parametro, **nr**, viene utilizzato per definire il numero di clienti che devono essere creati. Per ogni iterazione, i parametri nel file di parametri di Excel vengono modificati utilizzando una funzione UpdateCustomer. La riga di comando di RSAT viene quindi richiamata in una funzione RunTestCase.
 

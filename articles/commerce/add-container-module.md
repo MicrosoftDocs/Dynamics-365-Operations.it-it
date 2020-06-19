@@ -1,9 +1,9 @@
 ---
-title: Modulo contenitore
-description: In questo argomento vengono descritti i moduli contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+title: Modulo Contenitore
+description: In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,38 +17,41 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025530"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417348"
 ---
-# <a name="container-module"></a>Modulo contenitore
-
+# <a name="container-module"></a>Modulo Contenitore
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Un modulo contenitore è un modulo che include altri moduli. Lo scopo principale di un modulo contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo contenitore.
+Un modulo Contenitore è un modulo che include altri moduli. Lo scopo principale di un modulo Contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo Contenitore.
 
-Sono supportati tre moduli contenitore: contenitore, contenitore con 2 slot e contenitore con 3 slot. Questi contenitori possono includere moduli di qualsiasi tipo. 
+Sono supportati tre moduli Contenitore: contenitore, contenitore con 2 slot e contenitore con 3 slot. Questi contenitori possono includere moduli di qualsiasi tipo. 
 
 > [!NOTE] 
-> Si consiglia di includere sempre moduli in un modulo contenitore, di modo che possano essere limitati alla larghezza del contenitore.
+> Si consiglia di includere sempre moduli in un modulo Contenitore, di modo che possano essere limitati alla larghezza del contenitore.
 
-## <a name="examples-of-container-modules-in-e-commerce"></a>Esempi di moduli contenitore in e-Commerce
+## <a name="examples-of-container-modules-in-e-commerce"></a>Esempi di moduli Contenitore in e-Commerce
 
-- Un autore di siti desidera un layout a tre colonne, in cui tre moduli appaiono affiancati. Di conseguenza, l'autore utilizza un modulo contenitore del contenitore con un tipo a 3 slot.
+- Un autore di siti desidera un layout a tre colonne, in cui tre moduli appaiono affiancati. Di conseguenza, l'autore utilizza un modulo Contenitore del contenitore con un tipo a 3 slot.
 - Un autore di siti desidera un layout a sei colonne, in cui sei moduli appaiono affiancati. Di conseguenza, l'autore utilizza un contenitore del tipo con sei colonne.
-- Un autore di siti desidera includere un modulo in una pagina che non deve essere visualizzato a schermo intero. Di conseguenza, l'autore aggiunge il modulo a un modulo contenitore e imposta la proprietà **Larghezza** del contenitore su **Adatta a contenitore**.
+- Un autore di siti desidera includere un modulo in una pagina che non deve essere visualizzato a schermo intero. Di conseguenza, l'autore aggiunge il modulo a un modulo Contenitore e imposta la proprietà **Larghezza** del contenitore su **Adatta a contenitore**.
 
-## <a name="container-module-properties"></a>Proprietà del modulo contenitore
+L'immagine seguente mostra un esempio di un modulo Contenitore che contiene un modulo Sequenza in Creazione di siti Web Commerce. In questo esempio, la proprietà **Larghezza** del modulo Contenitore è impostata su **Riempi schermo**.
 
-| Nome proprietà     | Valori | Descrizione |
+![Esempio di modulo Contenitore](./media/ecommerce-container.PNG)
+
+## <a name="container-module-properties"></a>Proprietà del modulo Contenitore
+
+| Nome proprietà     | Valori | descrizione |
 |-------------------|--------|-------------|
 | Intestazione           | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**), | Un'intestazione facoltativa può essere fornita per il contenitore. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Larghezza             | **Adatta a contenitore** o **Riempi schermo** | Se il valore è **Adatta a contenitore** (il valore predefinito), i moduli nel contenitore sono limitati alla larghezza del contenitore. Se il valore impostato è **Riempi schermo**, i moduli non sono limitati alla larghezza del contenitore ma possono essere visualizzati in modalità a schermo intero. |
@@ -95,38 +98,47 @@ Ulteriori proprietà possono essere utilizzate per ottimizzare il layout per dif
 | Configurazione per porte di visualizzazione medie  | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** o **67%/16%/16%** | Questa proprietà definisce il layout per le porte di visualizzazione medie come i tablet. |
 | Configurazione per porte di visualizzazione grandi   | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** o **67%/16%/16%** | Questa proprietà definisce il layout per le porte di visualizzazione grandi come i computer. |
 
-## <a name="add-a-container-module-to-a-page"></a>Aggiungere un modulo contenitore a una pagina
+## <a name="add-a-container-module-to-a-page"></a>Aggiungere un modulo Contenitore a una pagina
 
-Per aggiungere un modulo contenitore a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
+Per aggiungere un modulo Contenitore a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello pagina denominato **Modello contenitore**. 
-1. Nello slot **Corpo**, aggiungi un modulo **Pagina predefinita**.
-1. Completare la modifica del modello e pubblicarlo.
-1. Utilizzare il modello contenitore appena creato per creare una pagina denominata **Pagina contenitore**.
-1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore.
-1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Numero di colonne** su **1** e la proprietà **Larghezza** su **Riempi contenitore**.
-1. Aggiungere un modulo blocco di contenuto al modulo contenitore.
-1. Nel riquadro delle proprietà per il modulo blocco di contenuto, configurare l'intestazione, l'immagine e il layout.
-1. Salvare la pagina e visualizzarne l'anteprima. Dovrebbe essere visualizzato un modulo Funzionalità adattato alla larghezza del modulo contenitore.
-1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Numero di colonne** su **3**.
-1. Aggiungere due o più modulo blocco di contenuto al modulo contenitore.
-1. Salvare la pagina e visualizzarne l'anteprima. Ora dovrebbero essere visualizzati tre modulo blocco di contenuto affiancati.
-1. Dopo aver ottenuto il layout desiderato, completare la modifica della pagina e pubblicarla.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello contenitore**, quindi selezionare **OK**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo. 
+1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello di lettore video creato. Sotto **Nome pagina**, Immettere **Pagina contenitore** e selezionare **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nel riquadro delle proprietà del modulo Contenitore, impostare la proprietà **Numero di colonne** su **1** e la proprietà **Larghezza** su **Riempi contenitore**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Blocco di contenuto** e quindi selezionare **OK**.
+1. Nel riquadro delle proprietà per il modulo Blocco di contenuto, configurare l'intestazione, l'immagine e il layout.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Dovrebbe essere visualizzato un modulo Funzionalità adattato alla larghezza del modulo Contenitore.
+1. Nel riquadro delle proprietà del modulo Contenitore, impostare la proprietà **Numero di colonne** su **3**.
+1. Aggiungere altri due moduli Blocco di contenuto al modulo Contenitore e configurarli.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Ora dovrebbero essere visualizzati tre moduli Blocco di contenuto affiancati.
+1. Dopo aver ottenuto il layout desiderato, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica starter kit](starter-kit-overview.md)
 
+[Modulo Accordion](add-accordion.md)
+
+[Modulo Scheda](add-tab.md)
+
 [Modulo Sequenza](add-carousel.md)
 
-[Modulo blocco di testo](add-content-rich-block.md)
+[Modulo Blocco di testo](add-content-rich-block.md)
 
-[Modulo casella acquisti](add-buy-box.md)
+[Modulo Casella acquisti](add-buy-box.md)
 
-[Modulo carrello](add-cart-module.md)
+[Modulo Carrello](add-cart-module.md)
 
-[Modulo checkout](add-checkout-module.md)
+[Modulo Checkout](add-checkout-module.md)
 
-[Modulo intestazione](author-header-module.md)
+[Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)

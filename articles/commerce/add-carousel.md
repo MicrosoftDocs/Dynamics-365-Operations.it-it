@@ -3,7 +3,7 @@ title: Modulo Sequenza
 description: In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269730"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411298"
 ---
 # <a name="carousel-module"></a>Modulo Sequenza
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
@@ -36,7 +36,7 @@ In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiu
 
 Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozionali (incluse immagini) in un banner sequenza rotante al quale i clienti possono accedere. Ad esempio, un rivenditore può utilizzare un modulo Sequenza in una home page per presentare molteplici nuovi prodotti o promozioni.
 
-È possibile aggiungere modulo blocco di contenuto in un modulo Sequenza. Le proprietà del modulo Sequenza definiscono quindi il modo in cui viene eseguito il rendering di tali moduli.
+È possibile aggiungere moduli Blocco di contenuto a un modulo Sequenza. Le proprietà del modulo Sequenza definiscono quindi il modo in cui viene eseguito il rendering di tali moduli.
 
 ## <a name="examples-of-carousel-modules-in-e-commerce"></a>Esempi di moduli Sequenza in e-Commerce
 
@@ -44,9 +44,13 @@ Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozional
 - Una sequenza con più moduli promozionali può essere utilizzata in una pagina dettagli prodotto.
 - Una sequenza può essere utilizzata in qualsiasi pagina marketing per promuovere molteplici promozioni o prodotti.
 
+L'immagine seguente mostra un esempio di modulo Sequenza utilizzato in una home page. Questo modulo Sequenza contiene molteplici elementi del blocco di contenuto.
+
+![Esempio di modulo Sequenza](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Proprietà del modulo Sequenza
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Riproduzione automatica                  | **True** o **False** | Se il valore è impostato su **True**, la transizione tra gli articoli nella sequenza viene eseguita automaticamente. Se il valore è impostato su **False**, non viene eseguita alcuna transizione a meno che il cliente non utilizzi la tastiera o il mouse per passare da un articolo all'articolo successivo. |
 | Intervallo di transizione diapositiva | Un valore in secondi    | L'intervallo delle transizioni tra gli articoli. |
@@ -58,16 +62,16 @@ Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozional
 
 Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Selezionare **Nuovo** per creare un modello di pagina.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello sequenza**, quindi selezionare **OK**.
 1. Nello slot **Corpo**, aggiungi un modulo **Pagina predefinita**.
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.  
 1. Utilizzare il modello sequenza appena creato per creare una pagina denominata **Pagina sequenza**.
-1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore. 
+1. Nello slot **Principale** della nuova pagina, aggiungere un modulo Contenitore. 
 1. Nel riquadro a destra, impostare il **Larghezza** su **Riempi schermo**.
-1. Sotto **Struttura pagina**, aggiungere un modulo Sequenza al modulo contenitore.
-1. Aggiungere un modulo blocco di contenuto al modulo Sequenza. Impostare le proprietà del modulo blocco di contenuto fornendo **Intestazione**, **Collegamento**, **Layout** e altre proprietà.
-1. Aggiungere e configurare un altro modulo blocco di contenuto.
+1. Sotto **Struttura pagina**, aggiungere un modulo Sequenza al modulo Contenitore.
+1. Aggiungere un modulo Blocco di contenuto al modulo Sequenza. Impostare le proprietà del modulo Blocco di contenuto fornendo **Intestazione**, **Collegamento**, **Layout** e altre proprietà.
+1. Aggiungere e configurare un altro modulo Blocco di contenuto.
 1. Impostare proprietà aggiuntive per il modulo Sequenza come necessario.
 1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. La pagina dovrebbe visualizzare una sequenza con due moduli (un modulo Hero e un modulo Funzionalità). È possibile modificare ulteriori proprietà dei moduli Sequenza, Hero e Funzionalità per ottenere l'effetto desiderato.
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
@@ -76,10 +80,10 @@ Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà n
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo banner promozionale](add-alert.md)
+[Modulo Banner promozionale](add-alert.md)
 
-[Modulo blocco di testo](add-content-rich-block.md)
+[Modulo Blocco di testo](add-content-rich-block.md)
 
-[modulo blocco di contenuto](add-hero-module.md)
+[modulo Blocco di contenuto](add-hero-module.md)
 
-[Modulo lettore video](add-video-player.md)
+[Modulo Lettore video](add-video-player.md)

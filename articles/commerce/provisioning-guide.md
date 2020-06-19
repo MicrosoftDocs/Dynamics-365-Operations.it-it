@@ -3,7 +3,7 @@ title: Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Comme
 description: Questo argomento illustra come eseguire il provisioning di un ambiente di anteprima di Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254750"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426467"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Commerce
 
@@ -193,7 +193,7 @@ Per distribuire l'ambiente, attenersi a questa procedura.
 
 1. Prima di procedere, assicurarsi che lo stato dell'ambiente sia **Distribuito**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Inizializzare Commerce Scale Unit (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inizializzare Commerce Scale Unit (cloud)
 
 Per inizializzare CSU, procedere come segue.
 
@@ -251,7 +251,7 @@ Per proseguire il processo di provisioning e configurazione dell'ambiente di ant
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (cloud)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 

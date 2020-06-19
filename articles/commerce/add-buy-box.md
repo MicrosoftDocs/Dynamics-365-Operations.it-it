@@ -3,7 +3,7 @@ title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269753"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411344"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ Il termine *casella acquisti* si riferisce in genere all'area di una pagina dett
 Un modulo Casella acquisti è un contenitore speciale utilizzato per l'hosting di tutti i moduli visualizzati nell'area Casella acquisti di una pagina dettagli prodotto.
 
 L'URL di una pagina dettagli prodotto include l'ID prodotto. Tutte le informazioni necessarie per eseguire il rendering di un modulo Casella acquisti derivano da questo ID prodotto. Se un ID prodotto non viene fornito, il rendering del modulo Casella acquisti non verrà eseguito correttamente in una pagina. Pertanto, un modulo Casella acquisti può essere utilizzato solo in pagine con contesto del prodotto. Per utilizzarlo in una pagina senza contesto del prodotto (ad esempio, una home page o una pagina di marketing), è necessario eseguire ulteriori personalizzazioni.
+
+L'immagine seguente mostra un esempio di modulo Casella acquisti in una pagina dettagli prodotto.
+
+![Esempio di modulo Casella acquisti](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Proprietà e slot del modulo Casella acquisti 
 
@@ -62,12 +66,15 @@ I temi possono essere utilizzati per rimuovere o modificare l'ordine delle propr
 
 ## <a name="buy-box-module-settings"></a>Impostazioni del modulo Casella acquisti
 
-I moduli Casella acquisti hanno tre impostazioni che è possibile configurare in **Impostazioni sito \> Estensioni**:
+Le seguenti impostazioni relative al modulo Casella acquisti possono essere configurate in **Impostazioni sito \> Estensioni**:
 
-- **Quantità massima** - Questa proprietà viene utilizzata per specificare il numero massimo di pezzi di ogni articolo che possono essere aggiunti al carrello. Ad esempio, un rivenditore potrebbe decidere che solo 10 pezzi di ogni prodotto possono essere venduti in una singola transazione.
-- **Verifica scorte** - Quando il valore è impostato su **True**, un articolo viene aggiunto al carrello solo dopo che il modulo Casella acquisti verifica che è disponibile. La verifica delle scorte viene effettuata per gli scenari in cui l'articolo verrà spedito e per quelli in cui verrà prelevato presso il punto vendita. Se il valore è impostato su **False**, non viene eseguita alcuna verifica delle scorte prima di aggiungere un articolo al carrello e di effettuare l'ordine. Per informazioni su come configurare le impostazioni di inventario nel back office, vedere [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md).
+- **Limite quantità voci carrello** - Questa proprietà viene utilizzata per specificare il numero massimo di pezzi di ogni articolo che possono essere aggiunti al carrello. Ad esempio, un rivenditore potrebbe decidere che solo 10 pezzi di ogni prodotto possono essere venduti in una singola transazione.
+- **Scorte** - Per informazioni su come applicare le impostazioni relative alle scorte, vedere [Applicare le impostazioni relative alle scorte](inventory-settings.md).
+- **Aggiungi al carrello** - Questa proprietà viene utilizzata per specificare il comportamento dopo l'aggiunta di un articolo al carrello. I valori possibili sono **Vai al carrello**, **Non andare al carrello** e **Mostra notifiche**. Quando il valore è impostato su **Vai al carrello**, gli utenti accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Non andare al carrello**, gli utenti non accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Mostra notifiche**, agli utenti viene mostrata una notifica di conferma e possono continuare a navigare nella pagina dettagli prodotto. 
 
-- **Buffer scorte** - Questa proprietà viene utilizzata per specificare un numero di buffer per le scorte. Le scorte sono gestite in tempo reale e quando molti clienti effettuano ordini, può essere difficile mantenere un conteggio accurato delle stesse. Quando viene eseguita una verifica delle scorte, se queste sono inferiori alla quantità buffer, il prodotto viene considerato come non disponibile. Pertanto, quando si verificano rapidamente delle vendite tramite vari canali e il conteggio delle scorte non è completamente sincronizzato, il rischio che un articolo non disponibile venga venduto è minore.
+    L'immagine seguente mostra un esempio di notifica di conferma "aggiunto al carrello" sul sito di Fabrikam.
+
+    ![Esempio di modulo Notifica](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 
@@ -77,16 +84,25 @@ Il modulo Casella acquisti recupera le informazioni sul prodotto utilizzando le 
 
 Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un frammento denominato **Frammento casella acquisti** e aggiungervi un modulo Casella acquisti.
-1. Aggiungere un modulo Galleria multimediale allo slot **Multimedia** del modulo Casella acquisti.
-1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, aggiungere un modulo Selettore punto vendita.
+1. Andare a **Frammenti pagina** e selezionare **Nuovo** per creare un nuovo frammento.
+1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Casella acquisti**.
+1. Sotto **Nome frammento pagina**, inserire il nome **Frammento casella acquisti**, quindi selezionare **OK**.
+1. Nello slot **Galleria multimediale** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Galleria multimediale** e quindi selezionare **OK**.
+1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Selettore punto vendita** e quindi selezionare **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
-1. Creare un modello per una pagina dettagli prodotto (PDP) e denominarlo **Modello PDP**.
-1. Aggiungere una pagina predefinita.
-1. Nello slot **Principale** della pagina predefinita, aggiungere un frammento casella acquisti.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello PDP**, quindi selezionare **OK**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Nello slot **Principale** della pagina predefinita, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento pagina**.
+1. Nella finestra di dialogo **Seleziona frammento pagina**, selezionare il frammento **Frammento casella acquisti** creato in precedenza, quindi selezionare **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
-1. Utilizzare il modello appena creato per creare una pagina denominata **Pagina PDP**.
-1. Nello slot **Principale** della nuova pagina, aggiungere un frammento casella acquisti.
+1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello **Modello PDP**. Sotto **Nome pagina**, Immettere **Pagina PDP** e selezionare **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento pagina**.
+1. Nella finestra di dialogo **Seleziona frammento pagina**, selezionare il frammento **Frammento casella acquisti** creato in precedenza, quindi selezionare **OK**.
 1. Salvare la pagina e visualizzarne l'anteprima. Aggiungere il parametro della stringa di query **?productid=&lt;product id&gt;** all'URL della pagina di anteprima. In tal modo, il contesto del prodotto è utilizzato per caricare ed eseguire il rendering della pagina di anteprima.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. Una casella acquisti deve essere visualizzata nella pagina dettagli prodotto.
 
@@ -94,20 +110,20 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Memorizzare il modulo di selezione](store-selector.md)
+[Modulo Selettore punto vendita](store-selector.md)
 
-[Modulo contenitore](add-container-module.md)
+[Modulo Contenitore](add-container-module.md)
 
-[Modulo carrello](add-cart-module.md)
+[Modulo Carrello](add-cart-module.md)
 
-[Modulo icona carrello](cart-icon-module.md)
+[Modulo Icona carrello](cart-icon-module.md)
 
-[Modulo checkout](add-checkout-module.md)
+[Modulo Checkout](add-checkout-module.md)
 
-[Modulo conferma ordine](order-confirmation-module.md)
+[Modulo Conferma ordine](order-confirmation-module.md)
 
-[Modulo intestazione](author-header-module.md)
+[Modulo Intestazione](author-header-module.md)
 
-[Modulo piè di pagina](author-footer-module.md)
+[Modulo Piè di pagina](author-footer-module.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)

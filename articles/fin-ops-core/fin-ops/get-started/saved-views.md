@@ -3,7 +3,7 @@ title: Visualizzazioni salvate
 description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260485"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412333"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -137,7 +137,7 @@ Se le modifiche che si desidera apportare a una visualizzazione pubblicata sono 
 7. [10.0.9/Update 33 o successivi della piattaforma] Se in origine questa visualizzazione pubblicata è stata scelta come visualizzazione predefinita, dopo la ripubblicazione sarà nuovamente la visualizzazione predefinita per tali utenti.  
 
 Se le modifiche apportate alla visualizzazione pubblicata comportano la modifica delle personalizzazioni o dei filtri associati alla visualizzazione, procedere come segue: 
-1.  Passare alla visualizzazione pubblicata che si desidera modificare. 
+1.  Caricare la visualizzazione pubblicata che si desidera modificare. 
 2.  Salvare una copia della visualizzazione pubblicata per crearne una bozza locale. 
 3.  Modificare la bozza locale con le modifiche necessarie.
 4.  Pubblicare la visualizzazione con il nome originale. 
@@ -149,14 +149,27 @@ Tutti gli utenti dispongono di una scheda **Visualizzazioni personali** che elen
 
 Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a disposizione il set di azioni seguente. 
 
--    **Pubblicare**: utilizzare l'azione **Pubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
--    **Rimuovere**: utilizzare l'azione **Rimuovi** per eliminare definitivamente una visualizzazione pubblicata. Questa azione rimuove la visualizzazione per tutti gli utenti del sistema. La rimozione delle visualizzazione pubblicate avrà effetto dopo la selzione del pulsante **Salva**.
+-    **Pubblica**: utilizzare l'azione **Pubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
+-    **Salva come personale**: utilizzare l'azione **Salva come personale** per creare una bozza personale della visualizzazione pubblicata. Questa funzionalità consente di comprendere i contenuti di una visualizzazione non pubblicata o che non è stata ancora pubblicata. È possibile usarla per modificare e quindi ripubblicare una visualizzazione. Questa funzionalità è stata introdotta nella versione 10.0.12.  
+-    **Rimuovi**: utilizzare l'azione **Rimuovi** per eliminare definitivamente una visualizzazione pubblicata. Questa azione rimuove la visualizzazione per tutti gli utenti del sistema. La rimozione delle visualizzazione pubblicate avrà effetto dopo la selzione del pulsante **Salva**.
+
+## <a name="managing-views-globally"></a>Gestire globalmente le visualizzazioni
+Sebbene alcune funzionalità di gestione siano presenti in ogni pagina, come indicato in questo argomento, gli **amministratori di sistema** e gli **amministratori di visualizzazioni salvate** possono gestire le visualizzazioni in modo più olistico per il sistema tramite la pagina **Personalizzazione**. In particolare, questa pagina presenta le seguenti sezioni e funzionalità: 
+
+- **Visualizzazioni pubblicate** - Questa sezione elenca tutte le visualizzazioni che sono state pubblicate per l'organizzazione. Da qui, è possibile ripubblicare una visualizzazione dopo aver modificato i ruoli di sicurezza o le persone giuridiche a cui è destinata la visualizzazione. È inoltre possibile esportare o eliminare una o più visualizzazioni pubblicate. Nella versione 10.0.12 e successive, è possibile utilizzare l'azione **Salva come personale** per creare una copia personale della visualizzazione, in modo da poter aggiornare la visualizzazione o ottenere una migliore comprensione del relativo contenuto. 
+- **Visualizzazioni non pubblicate** - Questa sezione elenca tutte le visualizzazioni importate nel sistema ma non ancora pubblicate. È possibile pubblicare, esportare o eliminare queste visualizzazioni. L'azione **Pubblicazione rapida** aggiunta nella versione 10.0.12 consente di pubblicare più visualizzazioni da questa sezione in un'unica azione, utilizzando il ruolo di sicurezza esistente e le configurazioni della persona giuridica. Nella versione 10.0.12 e successive, è possibile utilizzare l'azione **Salva come personale** per creare copie personali di queste visualizzazioni, in modo da ottenere una migliore comprensione del relativo contenuto.   
+- **Visualizzazioni personali** - Questa sezione elenca tutte le visualizzazioni che sono state create dagli utenti nel sistema. Da qui, è possibile pubblicare una visualizzazione personale nell'organizzazione o copiare una o più visualizzazioni per altri utenti. È anche possibile esportare o eliminare queste visualizzazioni, secondo le necessità.
+- **Utenti** - Selezionare un utente per visualizzare l'elenco delle pagine che l'utente ha visitato. È quindi possibile modificare la capacità dell'utente di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente. Inoltre, è possibile reimpostare i callout delle funzionalità per l'utente. Quindi, se l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
+- **Sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, tutte le personalizzazione vengono eliminate per tutti gli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
+
+Gli utenti che hanno accesso alla pagina **Personalizzazione** possono anche importare le visualizzazioni modello o personali tramite il pulsante **Importa visualizzazioni** nel riquadro azioni. Nella versione 10.0.12 e successive, è stato aggiunto un meccanismo per pubblicare immediatamente le visualizzazioni quando vengono importate.  
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Come si abilitano le visualizzazioni salvate nel proprio ambiente? 
-Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finance and Operations per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
+> [!NOTE]
+> Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finance and Operations per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
 
-**10.0.9/Update 33 e successivi della piattaforma** La funzionalità **Visualizzazioni salvate** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Update 33 e successivi della piattaforma** La funzionalità **Visualizzazioni salvate** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come per altre funzionalità di anteprima, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8/Update 32 e precedenti della piattaforma** La funzionalità **Visualizzazioni salvate** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
 

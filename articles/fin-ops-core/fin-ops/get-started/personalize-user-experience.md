@@ -3,7 +3,7 @@ title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260508"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412356"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -117,7 +117,11 @@ Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti
 - Utilizzare lo strumento **Sposta** se si desidera spostare un elemento in un punto diverso nel gruppo corrente di elementi. Si noti che non è possibile spostare un elemento al di fuori del gruppo padre. Per utilizzare questo strumento, selezionare il pulsante **Sposta** sulla barra degli strumenti quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, l'app determina le posizioni in cui l'elemento può essere spostato. Queste posizioni sono note come *aree di rilascio*. Man mano che si trascina l'elemento nel gruppo corrente, ogni zona di rilascio viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
 - Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona il pulsante **Ignora** sulla barra degli strumenti, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere o rimuovere i campi in modo interattivo nella sequenza della scheda.
 - Utilizzare lo strumento **Mostra su intestazione** quando si desidera che un campo venga visualizzato nella sezione di riepilogo della Scheda dettaglio. Quando si seleziona il pulsante **Mostra su intestazione** sulla barra degli strumenti, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
-- Utilizzare lo strumento **Richiedi** per designare un elemento come richiesto per l'immissione dei dati. Quando si seleziona il pulsante **Richiedi** sulla barra degli strumenti, tutti gli elementi che sono stati personalizzati per essere richiesti sono mostrati in un contenitore ombreggiato. È quindi possibile renderli nuovamente non necessari. Questa opzione è disponibile solo in una futura versione quando le [Visualizzazioni salvate](saved-views.md) e le funzionalità **Designa i campi come richiesto utilizzando la personalizzazione** sono abilitate.
+- Utilizzare lo strumento **Richiedi** per designare un elemento come richiesto per l'immissione dei dati. Quando si seleziona il pulsante **Richiedi** sulla barra degli strumenti, tutti gli elementi che sono stati personalizzati per essere richiesti sono mostrati in un contenitore ombreggiato. È quindi possibile renderli nuovamente non necessari. Questa opzione è disponibile nella versione 10.0.12 e successive quando la funzionalità **Designa i campi come richiesto utilizzando la personalizzazione** è abilitata.
+
+    > [!IMPORTANT]
+    > La versione 10.0.12 è una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Utilizzare lo strumento **Blocca** per contrassegnare un elemento come modificabile o non modificabile. Quando si seleziona il pulsante **Blocca** sulla barra degli strumenti, tutti gli elementi correntemente non modificabili vengono visualizzati in un contenitore ombreggiato. È quindi possibile renderli nuovamente modificabili. Alcuni campi sono obbligatori e non possono essere resi non modificabili. Accanto a questi campi è presente un simbolo di lucchetto.
 - Utilizzare il pulsante **Aggiungi un'app da Power Apps** per incorporare un'app creata con Microsoft Power Apps nella pagina. Per informazioni dettagliate su come incorporare un'app da Power Apps in una pagina, vedere [Incorporare le app da Power Apps](embed-power-apps.md). Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è disabilitata.  
 - Utilizzare il pulsante **Aggiungi un'app** per incorporare un'app creata in Microsoft Power Apps o da una terza parte nella pagina. Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è abilitata. 
@@ -159,28 +163,21 @@ Per personalizzare il dashboard, fare clic con il pulsante destro del mouse su u
 - Per riordinare i riquadri dell'area di lavoro, nella finestra delle proprietà selezionare **Personalizza questa pagina** per aprire la barra degli strumenti **Personalizzazione**. È quindi possibile utilizzare lo strumento **Sposta** per riordinare i riquadri nel modo desiderato.
 - Per aggiungere un nuovo riquadro dell'area di lavoro, nella finestra delle proprietà selezionare **Aggiungi area di lavoro**. Il nuovo riquadro dell'area di lavoro viene creato nella parte inferiore del dashboard. È possibile rinominare questo nuovo riquadro dell'area di lavoro come si preferisce. È inoltre possibile aggiungere elenchi, riquadri e collegamenti nell'area di lavoro come descritto nella sezione [Aggiunta di elenchi, riquadri o collegamenti nelle aree di lavoro](#adding-a-tile-list-or-link-to-a-workspace) di questo argomento.
 
+
+## <a name="sharing-personalizations"></a>Condividere le personalizzazioni
+Dopo avere personalizzato una pagina, è possibile condividere le personalizzazioni con altri utenti esportando la pagina personalizzata. È possibile richiedere agli altri utenti di aprire la pagina personalizzata e di importare il file di personalizzazione creato. In alternativa, è possibile assegnare le personalizzazioni a un utente con privilegi di amministratore. Tale utente può quindi applicare il file di personalizzazione a molti utenti contemporaneamente utilizzando la pagina di amministrazione **Personalizzazione**.
+
 ## <a name="administration-of-personalizations"></a>Amministrazione delle personalizzazioni
+La pagina **Personalizzazione** è l'hub centrale per la gestione delle personalizzazioni a livello organizzativo. Il contenuto e le funzionalità in questa pagina dipendono dall'abilitazione o meno della funzionalità **Visualizzazioni salvate**.  
 
-Dopo avere personalizzato una pagina, è possibile condividere le personalizzazioni con altri utenti esportando la pagina personalizzata. È possibile richiedere agli altri utenti di aprire la pagina personalizzata e di importare il file di personalizzazione creato. In alternativa, è possibile assegnare le personalizzazioni a un utente con privilegi di amministratore. Tale utente può quindi applicare il file di personalizzazione a più utenti contemporaneamente.
+Per i clienti che hanno abilitato la funzionalità **Visualizzazioni salvate** vedere la sezione "Gestione delle visualizzazioni a livello globale" nell'argomento [Visualizzazioni salvate](saved-views.md).  
 
-Gli utenti con privilegi di amministratore possono anche gestire le personalizzazioni per altri utenti nella pagina **Personalizzazione**.
-
-Per i clienti che non hanno attivato la funzionalità [Visualizzazioni salvate](saved-views.md), questa pagina include quattro schede:
+Per i clienti che non hanno ancora attivato la funzionalità [Visualizzazioni salvate](saved-views.md), questa pagina include quattro schede:
 
 - **Applica** - È possibile importare o selezionare una personalizzazione per uno o più utenti. Per applicare una personalizzazione a uno o più utenti, selezionare innanzitutto un ruolo e gli utenti con quel ruolo. Selezionare quindi una personalizzazione esistente da applicare agli utenti selezionati o importare un file di personalizzazione. La personalizzazione viene convalidata e applicata a tutti gli utenti selezionati alla successiva apertura della pagina selezionata.
 - **Cancella** - È possibile cancellare tutte le personalizzazioni di una pagina o un'area di lavoro per uno o più utenti. Selezionare prima di tutto una pagina o un'area di lavoro per vedere l'elenco degli utenti che l'hanno personalizzata. Selezionare quindi gli utenti per i quali occorre cancellare le personalizzazioni della pagina o dell'area di lavoro e selezionare **Cancella**. Tutte le personalizzazione che gli utenti selezionati hanno applicato alla pagina o all'area di lavoro selezionata vengono cancellate. Non è possibile annullare questa azione. Se tuttavia una personalizzazione della pagina o dell'area di lavoro viene salvata, tale personalizzazione può essere reimportata.
 - **Utenti** - Selezionare un utente per visualizzare l'elenco delle pagine che l'utente ha personalizzato. È quindi possibile attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente. Inoltre, è possibile reimpostare i callout delle funzionalità per l'utente. In questo caso, se l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
 - **Sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, tutte le personalizzazione vengono eliminate per tutti gli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
-
-Per i clienti che hanno attivato la funzionalità [Visualizzazioni salvate](saved-views.md), la pagina **Personalizzazione** include cinque schede:
-
-- **Visualizzazioni pubblicate** - Queste visualizzazioni sono state pubblicate nell'organizzazione. Per modificare gli utenti che sono interessati da queste visualizzazioni, è possibile modificare i ruoli di sicurezza o le persone giuridiche associate a ciascuna visualizzazione. È inoltre possibile esportare o eliminare una o più visualizzazioni pubblicate.
-- **Visualizzazioni non pubblicate** - Queste visualizzazioni rappresentano le visualizzazioni modello importate nel sistema ma non ancora pubblicate. È possibile pubblicare, esportare o eliminare queste visualizzazioni.
-- **Visualizzazioni personali** - Queste visualizzazioni sono state create dagli utenti nel sistema. È possibile pubblicare una visualizzazione personale nell'organizzazione o copiare una o più visualizzazioni in altri utenti. È anche possibile esportare o eliminare queste visualizzazioni, secondo le necessità.
-- **Utenti** - Selezionare un utente per visualizzare l'elenco delle pagine che l'utente ha personalizzato. È quindi possibile attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente. Inoltre, è possibile reimpostare i callout delle funzionalità per l'utente. In questo caso, se l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
-- **Sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, tutte le personalizzazione vengono eliminate per tutti gli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
-
-Gli utenti che hanno accesso alla pagina **Personalizzazione** possono anche importare le visualizzazioni modello o personali tramite il pulsante **Importa visualizzazioni** nel riquadro azioni.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizzazione delle dimensioni inventariali
 

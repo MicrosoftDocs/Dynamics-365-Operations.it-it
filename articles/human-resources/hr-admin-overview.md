@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009497"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410060"
 ---
 # <a name="overview"></a>Panoramica
 
@@ -35,9 +35,9 @@ Questa Guida per l'amministratore consente di configurare, gestire e risolvere i
   - [Eseguire il provisioning di Human Resources](hr-admin-setup-provision.md)
   - [Copiare un'istanza](hr-admin-setup-copy-instance.md)
   - [Rimuovere un'istanza](hr-admin-setup-remove-instance.md)
-  - [Processo di aggiornamento](hr-admin-setup-update-process.md)
+  - [Aggiornare un processo](hr-admin-setup-update-process.md)
 
-- Impostare l'integrazione di dati
+- Impostare l'integrazione dei dati
   - [Scegliere una tecnologia di integrazione dei dati](hr-admin-integration-choose-technology.md)
   - [Configurare l'integrazione di Common Data Service](hr-admin-integration-common-data-service.md)
   - [Configurare l'integrazione con Finance](hr-admin-integration-finance.md)
@@ -75,12 +75,11 @@ Questa Guida per l'amministratore consente di configurare, gestire e risolvere i
 - Risorse di documentazione
   - [Guida](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Connettere la Guida](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Collegare un sito della Guida personalizzato](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Visualizzare ed esportare le descrizioni campi](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Registrazione attività](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Creare la documentazione o la formazione con Registrazione attività](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Risolvere problemi relativi a Human Resources
+- Risolvere i problemi relativi a Human Resources
   - [Ottenere supporto](hr-admin-troubleshooting-support.md)
   - [Ottimizzare le prestazioni con attività di pulizia automatica](hr-admin-troubleshooting-batch-history.md)
   - [I report analitici non sono aggiornati](hr-admin-troubleshooting-analytic-reports.md)
