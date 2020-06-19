@@ -3,7 +3,7 @@ title: Gestione note avanzate
 description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
 manager: AnnBe
-ms.date: 03/24/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 90a7c5b76e5f2a9106b82d44714e1399000358ec
-ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
+ms.openlocfilehash: 9c52bb2ee553f0b15f1f41e68eeae7a4aea65205
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3164781"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428933"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -33,36 +33,48 @@ La funzione di gestione avanzata delle note ti consente di impostare note predef
 
 Prima di iniziare la configurazione, è necessario soddisfare i seguenti prerequisiti:
 
-- L'indirizzo principale della persona giuridica deve essere in Italia.
 - La funzionalità **Gestione avanzata delle note** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="advanced-notes-setup"></a>Impostazioni note libere
 
-### <a name="set-up-customer-and-vendor-groups-for-advanced-notes"></a>Impostare gruppi di clienti e fornitori per le note avanzate
+Se è necessario stampare note simili su documenti per gruppi di clienti, è possibile definire nuovi gruppi appositamente per le note avanzate. 
 
-Se è necessario stampare note simili su documenti per gruppi di clienti, è possibile definire nuovi gruppi appositamente per le note avanzate. Per definire codici e descrizioni di gruppo, andare a **Contabilità clienti**\>**Impostazioni**\>**Note avanzate**\>**Gruppi note avanzate clienti**.
+### <a name="define-group-codes-and-descriptions"></a>Definire codici e descrizioni di gruppi
+
+1. Andare a **Contabilità clienti** \> **Impostazioni** \> **Note avanzate** \> **Gruppi note avanzate clienti**.
 
 ![Configurazione di gruppi di note avanzate dei clienti](media/emea-ita-exil-notes-groups.jpg)
 
-Dopo aver creato i gruppi, andare a **Contabilità clienti**\>**Clienti**\>**Tutti i clienti**. Quindi, sulla Scheda dettaglio **Impostazioni predefinite ordine cliente**, nella sezione **Note avanzate** assegnare i riferimenti per i clienti richiesti ai nuovi gruppi.
+2. Dopo aver creato i gruppi, andare a **Contabilità clienti**\>**Clienti**\>**Tutti i clienti**. 
+3. Nella Scheda dettaglio **Impostazioni predefinite ordine cliente**, nella sezione **Note avanzate** assegnare i riferimenti per i clienti richiesti ai nuovi gruppi.
 
 ![Assegnazione del gruppo clienti](media/emea-ita-exil-notes-cust-groups.jpg)
 
-Per impostare gruppi di note avanzate per i fornitori, andare a **Contabilità fornitori**\>**Impostazioni**\>**Note avanzate**\>**Gruppi note avanzate fornitori**.
+### <a name="set-up-advanced-notes-groups-for-vendors"></a>Impostare gruppi di note avanzate per fornitori
+
+1. Andare a **Contabilità fornitori** \> **Impostazioni** \> **Note avanzate** \> **Gruppi note avanzate fornitori**.
+2. Dopo aver creato i gruppi per i fornitori, andare a **Contabilità fornitori** \> **Fornitori** \> **Tutti i fornitori**. 
+3. Nella Scheda dettaglio **Impostazioni predefinite ordine fornitore**, nella sezione **Note avanzate** assegnare i riferimenti per i fornitori richiesti ai nuovi gruppi.
+
+### <a name="set-up-advanced-notes-groups-for-products"></a>Impostare gruppi di note avanzate per prodotti 
+
+1. Andare a **Gestione informazioni sul prodotto** \> **Impostazioni** \> **Note avanzate** \> **Gruppi note avanzate prodotti**.
+2. Dopo aver creato i gruppi per i prodotti, andare a **Gestione informazioni sul prodotto** \> **Prodotti** \> **Prodotti rilasciati**. 
+3. Nella Scheda dettaglio **Generale**, nella sezione **Amministrazione** assegnare i riferimenti per i prodotti richiesti ai nuovi gruppi.
 
 ### <a name="set-up-advanced-notes-for-customers-and-vendors"></a>Impostare note avanzate per clienti e fornitori
 
-Per inserire il testo delle note avanzate per i clienti e impostare l'applicabilità delle note, andare a **Contabilità clienti**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate clienti**.
+1. Per inserire il testo delle note avanzate per i clienti e impostare l'applicabilità delle note, andare a **Contabilità clienti**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate clienti**.
 
 ![Configurazione di note avanzate dei clienti](media/emea-ita-exil-notes-setup.jpg)
 
-Nella parte inferiore della pagina è possibile inserire il testo della nota nella lingua predefinita dell'utente. Per inserire il testo della nota in altre lingue, selezionare **Traduzioni**.
+2. Nella parte inferiore della pagina è possibile inserire il testo della nota nella lingua predefinita dell'utente. Per inserire il testo della nota in altre lingue, selezionare **Traduzioni**.
 
-Nella parte superiore della pagina **Impostazione note avanzate**, è possibile impostare l'applicabilità alle note avanzate. Selezionare le caselle di controllo appropriate per attivare le note per i vari documenti disponibili. Sulla scheda **Intestazione**, è possibile definire note per tutti i clienti, i singoli clienti o i gruppi di clienti. Sulla scheda **Righe**, è possibile definire le note per tutti gli elementi o per singoli elementi.
+3. Nella parte superiore della pagina **Impostazione note avanzate**, è possibile impostare l'applicabilità alle note avanzate. Selezionare le caselle di controllo appropriate per attivare le note per i vari documenti disponibili. Sulla scheda **Intestazione**, è possibile definire note per tutti i clienti, i singoli clienti o i gruppi di clienti. Sulla scheda **Righe**, è possibile definire le note per tutti gli elementi o per singoli elementi.
 
 ![Configurazione di righe di note avanzate dei clienti](media/emea-ita-exil-notes-setup-item.jpg)
 
-Per impostare le note avanzate per i fornitori, andare a **Contabilità fornitori**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate fornitori**.
+4. Per impostare le note avanzate per i fornitori, andare a **Contabilità fornitori**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate fornitori**.
 
 > [!NOTE]
 > Per le note avanzate dei fornitori, **Ordine fornitore**è l'unico documento disponibile.

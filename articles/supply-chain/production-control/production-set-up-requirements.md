@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212505"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428402"
 ---
 # <a name="production-setup-requirements"></a>Requisiti di impostazione della produzione
 
@@ -71,7 +71,7 @@ Se si utilizzano i cicli di lavorazione, è necessario definire le operazioni pe
 2.  **Gruppi di costi**: impostare gruppi di costi per creare e gestire tipi diversi di determinazione dei costi.
 3.  **Gruppi di cicli di lavorazione**: consente di impostare i gruppi di cicli di lavorazione per definire i parametri relativi ai gruppi di cicli di lavorazione. È necessario impostare i gruppi di cicli di lavorazione prima di creare i singoli cicli.
 4.  **Cicli di lavorazione**: impostare cicli di lavorazione produzione e definirne le impostazioni predefinite per controllare la programmazione e la determinazione dei costi e dei prezzi delle operazioni dei cicli, nonché le relazioni sullo stato di avanzamento del processo.
-5.  **Cicli di lavorazione**: consente di impostare le versioni del ciclo di lavorazione per consentire variazioni dell'articolo nella produzione.
+5.  **Versione del ciclo di lavorazione**: consente di impostare le versioni del ciclo di lavorazione per consentire variazioni dell'articolo nella produzione.
 
 ## <a name="optional-advanced-settings"></a>Impostazioni avanzate facoltative
 1.  **Gruppi di produzione**: consente di impostare gruppi di produzione per stabilire delle relazioni tra l'ordine di produzione e i conti CoGe. I conti CoGe sono utilizzati per registrare o raggruppare gli ordini da dichiarare.

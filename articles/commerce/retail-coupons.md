@@ -3,7 +3,7 @@ title: Impostare buoni sconto per le vendite al dettaglio
 description: In questo argomento viene fornita una panoramica dei buoni sconto e illustra come configurarli.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057373"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431980"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -48,8 +48,10 @@ I buoni sconto possono essere configurati come a utilizzo limitato. Il limite di
 
 Il limite viene applicato per codice buono sconto su un buono sconto. Ad esempio, un singolo buono sconto che contiene due codici buono sconto può essere utilizzato due volte: una volta per ogni codice del buono sconto. Ogni codice su un buono sconto può essere impostato indipendentemente su Attivo.
 
+I buoni sconto non possono essere utilizzati in qualsiasi canale di vendita, tuttavia, per gli ordini servizio clienti, i coupon a utilizzo limitato possono essere utilizzati solo per gli ordini per i quali l'impostazione **Completamento ordine** è abilitata. Se questa opzione non è abilitata, è possibile utilizzare solo i buoni sconto di utilizzo non limitato negli ordini servizio clienti.
+
 > [!NOTE]
-> Dopo che un numero di buono sconto ha raggiunto il limite di utilizzo, il sistema *non* modifica automaticamente lo stato del codice del buono sconto utilizzato a "Utilizzato". Il sistema, tuttavia, non consente l'ulteriore utilizzo di un numero di buono sconto che ha raggiunto il limite di utilizzo. Se lo stato di un numero di buono sconto viene impostato manualmente su un valore diverso da "Attivo", il codice di buono sconto non può essere utilizzato in nessun canale.
+> Dopo che un numero di buono sconto ha raggiunto il limite di utilizzo, il sistema *non* modifica automaticamente lo stato del codice del buono sconto a "Utilizzato". Tuttavia, quel numero di buono sconto ha raggiunto il limite di utilizzo e non può essere utilizzato. Se lo stato di un numero di buono sconto viene impostato manualmente su un valore diverso da **Attivo**, il codice di buono sconto non può essere utilizzato in nessun canale.  
 
 ## <a name="managing-coupons"></a>Gestione dei buoni sconto
 

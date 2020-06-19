@@ -3,7 +3,7 @@ title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
+ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268749"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "3433924"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -36,7 +36,39 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Estensioni di moduli di controllo di griglie o gruppi contenenti riferimenti di campo non validi
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | La proprietà del gruppo di dati nei controlli di griglie o gruppi viene utilizzata per mostrare automaticamente tutti i campi di un gruppo di campi. Un controllo di griglie o gruppi aggiunto dall'estensione potrebbe contenere campi che non sono più definiti nel gruppo di campi oppure potrebbe non avere campi definiti nel gruppo di campi. Ciò può causare un comportamento non coerente in fase di esecuzione. Gli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations ora classificano questo problema come *avviso* del compilatore. Per risolvere questo problema, aprire l'estensione di moduli e salvarla.
+| **Sostituita da un'altra funzionalità?**   | Questo avviso del compilatore verrà sostituito con un errore del compilatore in un aggiornamento futuro. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Un avviso del compilatore è introdotto negli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations
+
+### <a name="explicit-whitelisting-for-self-service-environments"></a>Whitelist esplicita per ambienti self-service
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il processo per la whitelist degli IP è cambiato. Il self-service non supporta più la whitelist degli IP. |
+| **Sostituita da un'altra funzionalità?**   | Per ulteriori informazioni, vedere [Configurazione dell'accesso condizionale di Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Aree del prodotto interessate**         | Sicurezza |
+| **Opzione di distribuzione**              | Cloud |
+| **Stato**                         | **Deprecato:** questa funzionalità è completamente deprecata per le distribuzioni self-service. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Per supportare le ultime versioni di Visual Studio, è necessario apportare alcune modifiche alle estensioni X++ per Visual Studio. Queste modifiche sono incompatibili con Visual Studio 2015. |
+| **Sostituita da un'altra funzionalità?**   | Visual Studio 2017 sostituirà Visual Studio 2015 come versione distribuita e richiesta. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Una volta annunciata la disponibilità di nuove macchine virtuali (VM) con Visual Studio 2017, le VM esistenti con soltanto Visual Studio 2015 dovranno essere ridistribuite mediante la prima ondata di rilascio 2021. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Gruppi di campi contenenti riferimenti di campo non validi
 

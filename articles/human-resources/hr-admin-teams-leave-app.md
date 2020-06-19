@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388118"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431132"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
@@ -45,6 +45,7 @@ Per informazioni sulla gestione delle autorizzazioni delle app in Teams, vedi [G
 
 | Uscita | Stato |
 | --- | --- |
+| Errore: si è verificato un problema durante la ricerca di un ambiente a cui connettersi. | Questo errore potrebbe essere visualizzato anche se hai verificato che l'utente può accedere a uno o più ambienti di Human Resources. Inoltre, potresti non vedere tutti gli ambienti previsti. Fino a quando questo problema non vine risolto, elimina l'utente e quindi importalo di nuovo per risolvere il problema. |
 | Il saldo non è corretto quando richiedi permessi per una data futura. | Le previsioni non sono ancora disponibili. Il saldo visualizza la data corrente. |
 | Quando si riduce il numero di ore impiegate in una richiesta esistente, il **Saldo restante** scende invece di salire. | Affronteremo questo problema noto in futuro. La visualizzazione non è corretta, ma gli importi corretti vengono adeguati al momento dell'invio. |
 | Vengono visualizzate due schede **Tempo libero imminente** per le stesse date. | Le schede rappresentano singoli invii. Continueremo a ricevere feedback e ad apportare modifiche. |
