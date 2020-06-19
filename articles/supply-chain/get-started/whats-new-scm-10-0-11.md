@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: e396d2f2731d3600ee9e83e419d1038571e7bd85
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346355"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413032"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.11 (luglio 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.11. Questa versione ha il numero di build 10.0.464 ed è disponibile come segue:
 
@@ -40,11 +39,11 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Archiviazione report scorte disponibili](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Miglioramenti della ricezione della targa per l'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Per ulteriori informazioni, vedere [Ricezione della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Miglioramenti del ricevimento della targa per l'app Warehousing](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Per ulteriori informazioni, vedere [Ricezione della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [Miglioramenti della prenotazione della riga per il modulo di prenotazione del numero di batch](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Per ulteriori informazioni, vedere [Prenotare lo stesso batch per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Nuove entità di dati per l'area di produzione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Entrata eccessiva delle quantità di carico](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
-- [Dichiarazione di finito per i numeri di batch dal dispositivo scheda di processo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)
+- [Dichiarazione di finito per i numeri di batch dal dispositivo scheda di processo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - Per ulteriori informazioni, vedere [Dichiarare finito dal dispositivo scheda processo](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

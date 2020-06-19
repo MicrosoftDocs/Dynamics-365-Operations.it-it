@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131733"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410415"
 ---
 # <a name="set-up-a-call-center-channel"></a>Impostare un canale servizio clienti
 
@@ -34,7 +34,7 @@ In questo argomento viene descritto come creare un nuovo canale servizio clienti
 ## <a name="overview"></a>Panoramica
 
 
-In Dynamics 365 Commerce, un servizio clienti è un tipo di canale che può essere definito nell'applicazione. La definizione di un canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente. Mentre un'azienda può definire più canali di call center in Commerce, è importante notare che un singolo utente può essere collegato a un solo canale di servizio clienti. 
+In Dynamics 365 Commerce, un servizio clienti è un tipo di canale di Commerce che può essere definito nell'applicazione. La definizione di un canale per le entità del servizio clienti consente al sistema di associare specifici valori predefiniti di dati e di elaborazione di ordini a ordini cliente. Mentre un'azienda può definire più canali di call center in Commerce, è importante notare che un singolo utente può essere collegato a un solo canale di servizio clienti. 
 
 Prima di creare un nuovo canale servizio clienti, assicurarsi di aver completato i [prerequisiti di impostazione dei canali](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-retail-5.png)
+![Esempio di metodi di pagamento](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
 

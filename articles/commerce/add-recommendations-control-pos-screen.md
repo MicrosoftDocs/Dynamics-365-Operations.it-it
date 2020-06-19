@@ -3,7 +3,7 @@ title: Aggiungere suggerimenti alla schermata della transazione
 description: In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 05/26/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 77870cd19ebf15a72f323f116579f7769a766995
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154134"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404235"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Aggiungere suggerimenti alla schermata della transazione
 
@@ -100,7 +100,7 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+[Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
 

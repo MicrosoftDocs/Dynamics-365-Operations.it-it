@@ -3,7 +3,7 @@ title: Panoramica dei piani generali
 description: Utilizzare vari piani generali per supportare le attività lavorative giornaliere della società, simulare diverse strategie di pianificazione da sottoporre a monitoraggio e implementare i criteri aziendali, ad esempio i criteri relativi alle prestazioni interne o alla soddisfazione dei clienti.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213540"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409524"
 ---
 # <a name="master-plans-overview"></a>Panoramica dei piani generali
 
@@ -35,7 +35,7 @@ Utilizzare vari piani generali per supportare le attività lavorative giornalier
 È possibile configurare i piani generali nella pagina **Piani generali**.
 
 Sono disponibili due tipi di piano:
--   **Piano statico**: per il calcolo della pianificazione generale vengono utilizzati i dati correnti per generare un piano del fabbisogno netto. Questo piano rimane invariato fino alla successiva esecuzione della pianificazione generale. Si tratta di un piano operativo che può essere utilizzato dal personale della società a vari livelli, ad esempio un acquirente o un addetto alla pianificazione della produzione, come base per le decisioni e per lo svolgimento dei compiti e delle attività giornalieri.
+-   **Piano statico**: per il calcolo della pianificazione generale vengono utilizzati i dati correnti per generare un piano del fabbisogno netto. Questo piano rimane invariato fino alla successiva esecuzione della pianificazione generale o alla successiva modifica manuale del piano. Questo è un piano operativo che può essere utilizzato dal personale della società a vari livelli, ad esempio un acquirente o un addetto alla pianificazione della produzione, come base per le decisioni e per lo svolgimento delle attività giornaliere.
 -   **Piano dinamico**: questo piano viene avviato con lo stesso piano del fabbisogno netto generato dalla pianificazione generale. È tuttavia possibile aggiornare il piano dinamico ogni volta che i dati master vengono modificati. È tuttavia possibile aggiornare il piano dinamico ogni volta che vengono modificati i dati generali, ad esempio quando si crea un nuovo ordine cliente. In questo modo è possibile monitorare la rete di ordini e la disponibilità di articoli senza interferire con il piano statico utilizzato da altri dipendenti per i processi lavorativi.
 
 Una società può scegliere di utilizzare semplicemente un piano dinamico o il piano statico e il piano dinamico. È inoltre possibile configurare qualsiasi piano generale per riflettere una particolare strategia o risolvere un problema. Di seguito sono elencati gli esempi disponibili:

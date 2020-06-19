@@ -3,7 +3,7 @@ title: Gestione dei prezzi di vendita al dettaglio in Retail
 description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057489"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432003"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -53,7 +53,9 @@ La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In 
 
 Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità commerciali. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
 
-Come mostra la linea tratteggiata rossa nell'illustrazione, Commerce supporta la funzionalità principale di Microsoft Dynamics 365 di un gruppo di prezzi che viene impostato direttamente su un cliente. Tuttavia, in questo caso, si ottengono solo accordi commerciali sui prezzi di vendita. Se si desidera applicare prezzi specifici del cliente, si consiglia di non impostare i gruppi di prezzi direttamente sul cliente. Utilizzare invece le affiliazioni.
+Come mostra la linea tratteggiata rossa nell'illustrazione, Commerce supporta la funzionalità principale di Microsoft Dynamics 365 di un gruppo di prezzi che viene impostato direttamente su un cliente. Tuttavia, in questo caso, si ottengono solo accordi commerciali sui prezzi di vendita. Se si desidera applicare prezzi specifici del cliente, si consiglia di non impostare i gruppi di prezzi direttamente sul cliente. Utilizzare invece le affiliazioni. 
+
+Da notare che se il gruppo di prezzi è impostato sul cliente, questo gruppo di prezzi viene associato all'intestazione di ordine di vendita degli ordini creati per questo cliente. Se l'utente modifica il gruppo di prezzi nell'intestazione dell'ordine, il vecchio gruppo di prezzi viene sostituito con quello nuovo solo per l'ordine corrente. Ad esempio, il vecchio gruppo di prezzi non influirà sull'ordine corrente, ma rimarrà associato al cliente per ordini futuri.
 
 Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle entità commerciali che è possibile utilizzare per impostare prezzi distinti quando vengono utilizzati i gruppi di prezzi. La configurazione dei prezzi e degli sconti per tutte queste entità è un processo in due fasi. Questi passaggi possono essere eseguiti in qualsiasi ordine. Tuttavia, l'ordine logico è di impostare prima i gruppi di prezzi sulle entità, poiché è probabile che questo passaggio sia una configurazione unica eseguita durante l'implementazione. Quindi, quando vengono creati i prezzi e gli sconti, è possibile impostare i gruppi di prezzi su tali prezzi e sconti singolarmente.
 
@@ -226,6 +228,7 @@ Il motore di determinazione del prezzo **non supporta** le seguenti funzionalit�
 - L'impostazione dei prezzi in base alle dimensioni di immagazzinamento del sito o del sito e del magazzino non è supportata. Se si specifica solo la dimensione del sito negli accordi commerciali, il motore dei prezzi ignora il sito e applica l'accordo commerciale a tutti i siti. Se si specificano sia il sito sia il magazzino, il comportamento è indefinito/non testato perché è previsto che i rivenditori utilizzino i gruppi di prezzi del negozio per controllare i prezzi per ciascun negozio/magazzino.
 - I prezzi basati sugli attributi non sono supportati.
 - Il pass-through dello sconto fornitore non è supportato.
+- Il motore di determinazione dei prezzi standard di Supply Chain Management supporta il calcolo dei prezzi in base alla "Data di spedizione richiesta" e alla "Data di ricevimento richiesta" insieme alla data corrente. Tuttavia, i prezzi al dettaglio attualmente non supportano questi valori. Il motivo è che per gli scenari B2C i clienti non si aspettano che la data di consegna richiesta influisca sul prezzo dell'articolo. In alcuni casi, i rivenditori hanno entrambe le operazioni B2B e B2C. Per le operazioni B2B è comune modificare i prezzi in base alle date di consegna. Questi rivenditori possono utilizzare i prezzi di Supply Chain Management per le operazioni B2B e i prezzi di vendita al dettaglio per le operazioni B2C. I prezzi di vendita al dettaglio sono utilizzati solo se l'utente dell'applicazione viene aggiunto come utente di servizio clienti, quindi i rivenditori possono assegnare determinati utenti che utilizzeranno i prezzi di Supply Chain Management e assegnarne alcuni che utilizzeranno i prezzi di vendita al dettaglio, ovvero questi utenti devono essere aggiunti come utenti di servizio clienti. Inoltre, la proprietà **Usa data odierna per calcolare i prezzi** nella sezione **Parametri di commercio > Prezzi e sconti > Varie** deve essere attivata. In questo modo possono continuare a utilizzare il valore del parametro di contabilità clienti di Data di spedizione richiesta o Data di ricezione richiesta per i prezzi di Supply Chain Management, ma i prezzi al dettaglio continueranno a utilizzare la data odierna per il calcolo dei prezzi.
 
 Inoltre, **solo** il motore di determinazione del prezzo supporta le seguenti funzionalità dei prezzi:
 

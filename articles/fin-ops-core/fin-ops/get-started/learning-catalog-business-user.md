@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6f2a51191d8c299ffed30c02f51bd8ca5464732
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 01596dd7dbc268c529720b531d4aeea8ccdd666f
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279023"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418543"
 ---
 # <a name="business-users-learning-catalog"></a>Catalogo di apprendimento per utenti aziendali
 
@@ -31,7 +31,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda.  | Percorso di apprendimento online gratuito autonomo   | 8 ore   |
 | [Dynamics 365 e Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)    | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365.  | Percorso di apprendimento online gratuito autonomo   | 5.5 ore |
 | [Introduzione alle app Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Informazioni su come le applicazioni Finance and Operations supportano le aziende nella gestione dei loro sistemi finanziari globali, dei processi aziendali operativi e delle catene di fornitura semplificate per consentire alle persone di prendere decisioni informate e rapidamente. Come primo passo nella carriera di collaboratore in Finance and Operations, è necessario familiarizzare con le caratteristiche e le funzionalità, indipendentemente dal ruolo desiderato. | Percorso di apprendimento online gratuito autonomo  | 2 ore   |
-| [Corso MB-900T01-A: Dynamics 365 fundamentals](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Questo corso familiarizzerà lo studente con le funzionalità e il valore aziendale di Dynamics 365. Il corso coprirà le applicazioni di Dynamics 365, Power Platform, concetti cloud, modello di sicurezza e considerazioni sulle licenze.  | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno     |
+
 
 ## <a name="core-platform-knowledge"></a>Conoscenza della piattaforma principale<a name="core-platform-knowledge"></a>
 | Contenuto | descrizione  | Formatta   | Durata    |
@@ -46,7 +46,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Configurare e gestire approvvigionamento e fornitori in Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/)    | Il processo di ricerca e collaborazione con i fornitori, l'acquisto di prodotti e la garanzia della qualità di beni e servizi sono tutti fattori importanti che incidono sulla reputazione e sul successo di un'azienda.  | Percorso di apprendimento online gratuito autonomo | 14 ore   |
 | [Configurare e gestire gli ordini clienti in Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/)  | Il processo di collaborazione con i clienti, la comprensione del ciclo del processo di vendita e l'impostazione di accordi di vendita sono tutti fattori importanti che hanno un impatto sul successo di un'azienda.  | Percorso di apprendimento online gratuito autonomo | 7 ore    |
 | [Configurare e utilizzare la gestione del magazzino in Dynamics 365 for Finance and Operations](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/)  | La gestione del magazzino in Dynamics 365 Supply Chain Management aiuta a ottimizzare e razionalizzare i processi di magazzino in base alle esigenze individuali e fornisce informazioni sull'inventario e sugli strumenti per aumentare la soddisfazione del cliente e ridurre i costi. | Percorso di apprendimento online gratuito autonomo | 8.5 ore  |
-| [Configurare e utilizzare la gestione del trasporto in Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Il modulo gestione trasporti in Dynamics 365 Supply Chain Management consente di trovare il modo ideale per consegnare le merci ai clienti. La gestione trasporto calcola il modo meno costoso e più veloce di consegnare le merci e consente di identificare le soluzioni fornitori e i percorsi di trasferimento per gli ordini in ingresso e in uscita.  | Percorso di apprendimento online gratuito autonomo | 3 ore    |
+| [Configurare e utilizzare la gestione del trasporto in Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Il modulo Gestione trasporti in Dynamics 365 Supply Chain Management consente di trovare il modo ideale per consegnare le merci ai clienti. La gestione trasporto calcola il modo meno costoso e più veloce di consegnare le merci e consente di identificare le soluzioni fornitori e i percorsi di trasferimento per gli ordini in ingresso e in uscita.  | Percorso di apprendimento online gratuito autonomo | 3 ore    |
 | [Utilizzare la gestione cespiti per Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/)  | La gestione cespiti è un componente aggiuntivo di Dynamics 365 Supply Chain Management utilizzato per gestire i cespiti nelle operazioni aziendali giornaliere. Alcuni esempi di questi tipi di cespiti sono macchinari, attrezzature di produzione e carrelli elevatori.  | Percorso di apprendimento online gratuito autonomo | 12.5 ore |
 
 ## <a name="manufacturing"></a>Produzione<a name="manufacturing"></a>

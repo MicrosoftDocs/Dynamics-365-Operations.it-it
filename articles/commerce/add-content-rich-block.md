@@ -1,9 +1,9 @@
 ---
-title: Modulo blocco di testo
-description: In questo argomento vengono descritti i moduli blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+title: Modulo Blocco di testo
+description: In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,66 +17,76 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fc5b2fa35633b1ce7f7ffefacec318e14fa8db3f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025599"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411137"
 ---
-# <a name="text-block-module"></a>Modulo blocco di testo
+# <a name="text-block-module"></a>Modulo Blocco di testo
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Un modulo blocco di testo è un modulo utilizzato per aggiungere contenuto testuale. Questo contenuto può essere informativo o promozionale.
+Un modulo Blocco di testo è un modulo utilizzato per aggiungere contenuto testuale. Questo contenuto può essere informativo o promozionale.
 
-I moduli blocco di testo sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina. Sono moduli autonomi che non dipendono dal contesto della pagina o da qualsiasi altro modulo.
+I moduli Blocco di testo sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina. Sono moduli autonomi che non dipendono dal contesto della pagina o da qualsiasi altro modulo.
 
-## <a name="examples-of-text-block-modules-in-e-commerce"></a>Esempi di moduli blocco di testo in e-Commerce
+## <a name="examples-of-text-block-modules-in-e-commerce"></a>Esempi di moduli Blocco di testo in e-Commerce
 
-I moduli blocco di testo possono essere utilizzati nei seguenti modi:
+I moduli Blocco di testo possono essere utilizzati nei seguenti modi:
 
 * Per visualizzare caratteristiche dei prodotti in una pagina dettagli prodotto.
 * Per scopi informativi in qualsiasi pagina. Ad esempio, possono spiegare i vantaggi dei programmi fedeltà, descrivere le condizioni di spedizione e reso, rispondere alle domande frequenti oppure fornire contenuto "chi siamo".
 * Per aggiungere messaggi personalizzati in una pagina dettagli prodotto (ad esempio, "Spedizione gratuita per ordini superiori a 50 €").
 * Per le dichiarazioni di non responsabilità e le informazioni di contatto nelle pagine dettagli prodotto, carrello, checkout e altre pagine (ad esempio "Spedizioni e resi sono soggetti alle politiche del punto vendita").
 
-## <a name="text-block-module-properties"></a>Proprietà dei moduli blocco di testo
+L'immagine seguente mostra un esempio di modulo Blocco di testo utilizzato in una home page.
 
-| Nome proprietà     | Value                                            | Descrizione |
+![Esempio di un modulo Blocco di testo](./media/ecommerce-textblock.PNG)
+
+## <a name="text-block-module-properties"></a>Proprietà dei moduli Blocco di testo
+
+| Nome proprietà     | Valore                                            | descrizione |
 |-------------------|--------------------------------------------------|-------------|
 | RTF         | RTF                                        | Testo di paragrafo. Alcune funzionalità RTF di base sono supportate, ad esempio testo in grassetto, sottolineato e in corsivo. |
 | Nome classe personalizzato | Il nome di una classe Cascading Style Sheets (CSS)        | Il nome di una classe CSS personalizzata fornita da uno sviluppatore per formattare questo modulo. Il nome della classe deve essere definito nel pacchetto di temi. |
 | Dimensione carattere         | **Piccolo**, **Medio**, **Grande** o **Grandissimo** | La dimensione del carattere del contenuto. |
 
-## <a name="add-a-text-block-module-to-a-page"></a>Aggiungere un modulo blocco di testo a una pagina
+## <a name="add-a-text-block-module-to-a-page"></a>Aggiungere un modulo Blocco di testo a una pagina
 
-Per aggiungere un modulo blocco di testo a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
+Per aggiungere un modulo Blocco di testo a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello di pagina denominato **Modello contenuto**. 
-1. Nello slot **Corpo**, aggiungi un modulo **Pagina predefinita**.
-1. Completare la modifica del modello e pubblicarlo.
-1. Utilizzare il modello di contenuto appena creato per creare una pagina denominata **Pagina contenuto**.
-1. Nello slot **Principale** della nuova pagina, aggiungere un modulo contenitore.
-1. Nel riquadro delle proprietà del modulo contenitore, impostare la proprietà **Larghezza** su **Riempi contenitore**.
-1. Aggiungere un modulo blocco di testo al modulo contenitore. 
-1. Nel riquadro delle proprietà del modulo blocco di testo, aggiungere testo al campo **RTF**.
-1. Completare la modifica della pagina e pubblicarla.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello contenuto**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
+1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare **Modello contenuto**. Sotto **Nome pagina**, Immettere **Pagina contenuto** e selezionare **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nel riquadro delle proprietà del modulo Contenitore, impostare la proprietà **Larghezza** su **Riempi contenitore**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Blocco di testo** e quindi selezionare **OK**. 
+1. Nel riquadro delle proprietà del modulo Blocco di testo, aggiungere testo al campo **RTF**.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo banner promozionale](add-alert.md)
+[Modulo Banner promozionale](add-alert.md)
 
 [Modulo Sequenza](add-carousel.md)
 
-[modulo blocco di contenuto](add-hero-module.md)
+[Modulo Blocco di contenuto](add-hero-module.md)
 
-[Modulo lettore video](add-video-player.md)
+[Modulo Lettore video](add-video-player.md)
 

@@ -3,12 +3,12 @@ title: Panoramica
 description: In Dynamics 365 Human Resources, l'area di lavoro congedo e assenza fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere i permessi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325767"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428969"
 ---
 # <a name="overview"></a>Panoramica
 
@@ -84,10 +84,9 @@ Non è possibile impostare la **Precisione di arrotondamento** quando si imposta
 
 Le funzionalità di anteprima includono:
 
-- **Sospensione del congedo** - È possibile sospendere le ferie e le assenze in Human Resources per un dipendente. La sospensione del congedo e interrompe la maturazione delle ferie per i tipi di congedi selezionati. Se la sospensione si verifica dopo un processo di maturazione, la sospensione delle ferie crea una rettifica proporzionale del saldo delle ferie del dipendente. È inoltre possibile includere codici motivo quando si sospende il congedo di un dipendente. L'esperienza utente è stata aggiornata per indicare la sospensione. 
+- **Accumulo di congedi per società o piano** - È possibile eseguire il processo di accumulo per tutte le società o per una singola società. È inoltre possibile eseguire il processo di accumulo per un piano di congedo e assenza specifico per una società specifica. 
 
-- **Regole di riporto** - È possibile specificare un tipo di congedo riporto per i saldi del riporto in cui vengono trasferiti le rettifiche di riporto. Ad esempio, se un dipendente riporta 10 giorni, è possibile scegliere un tipo di congedo diverso per quei 10 giorni. 
+- **Acquista congedi** - È possibile abilitare e creare criteri di acquisto di congedi per dipendenti per inviare richieste di acquisto. I dipendenti possono inviare richieste di acquisto e aggiornare automaticamente i saldi per riflettere la richiesta.  
 
-- **Inclusione di codice motivo e commenti per le rettifiche** - È possibile includere un codice motivo e un commento quando si effettua una rettifica al saldo dei congedi di un dipendente. 
+- **Aggiungi allegati a richieste di congedo approvate** - È possibile aggiungere un allegato a una richiesta di congedo già approvata. 
 
-- **Transizione ai parametri di congedo e assenza** - È ora possibile utilizzare solo i parametri di congedo e assenza anziché utilizzare i parametri delle risorse umane. 
