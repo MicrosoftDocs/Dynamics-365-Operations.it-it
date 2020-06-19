@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: b12c845b92b29063f3b0b2f6a9d98143b7f10eff
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3229944"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429199"
 ---
-# <a name="process-rate-changes"></a><span data-ttu-id="f65dd-103">Elaborare modifiche ai tassi</span><span class="sxs-lookup"><span data-stu-id="f65dd-103">Process rate changes</span></span>
+# <a name="process-rate-changes"></a><span data-ttu-id="935b6-103">Elaborare modifiche ai tassi</span><span class="sxs-lookup"><span data-stu-id="935b6-103">Process rate changes</span></span>
 
-<span data-ttu-id="f65dd-104">Elaborare modifiche ai tassi di benefit in Microsoft Dynamics 365 Human Resources quando un piano di benefit nuovo o esistente presenta una modifica nelle impostazioni della regola di idoneità.</span><span class="sxs-lookup"><span data-stu-id="f65dd-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="f65dd-105">Se una nuova regola di idoneità viene creata e assegnata al piano, al sistema viene richiesto di eseguire di nuovo l'idoneità dei lavoratori per verificare se questi ora hanno diritto al piano in base alle nuove opzioni di idoneità.</span><span class="sxs-lookup"><span data-stu-id="f65dd-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
+<span data-ttu-id="935b6-104">Elaborare modifiche ai tassi di benefit in Microsoft Dynamics 365 Human Resources quando un piano di benefit nuovo o esistente presenta una modifica nelle impostazioni della regola di idoneità.</span><span class="sxs-lookup"><span data-stu-id="935b6-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="935b6-105">Se una nuova regola di idoneità viene creata e assegnata al piano, al sistema viene richiesto di eseguire di nuovo l'idoneità dei lavoratori per verificare se questi ora hanno diritto al piano in base alle nuove opzioni di idoneità.</span><span class="sxs-lookup"><span data-stu-id="935b6-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
 
-1. <span data-ttu-id="f65dd-106">Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione aggiornamento modifica tasso**.</span><span class="sxs-lookup"><span data-stu-id="f65dd-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
+1. <span data-ttu-id="935b6-106">Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione aggiornamento modifica tasso**.</span><span class="sxs-lookup"><span data-stu-id="935b6-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
 
-2. <span data-ttu-id="f65dd-107">Nella finestra di dialogo **Esegui elaborazione aggiornamento tasso benefit**, specificare i valori per i seguenti campi:</span><span class="sxs-lookup"><span data-stu-id="f65dd-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
+2. <span data-ttu-id="935b6-107">Nella finestra di dialogo **Esegui elaborazione aggiornamento tasso benefit**, specificare i valori per i seguenti campi:</span><span class="sxs-lookup"><span data-stu-id="935b6-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="f65dd-108">Campo</span><span class="sxs-lookup"><span data-stu-id="f65dd-108">Field</span></span> | <span data-ttu-id="f65dd-109">Descrizione</span><span class="sxs-lookup"><span data-stu-id="f65dd-109">Description</span></span> |
+   | <span data-ttu-id="935b6-108">Campo</span><span class="sxs-lookup"><span data-stu-id="935b6-108">Field</span></span> | <span data-ttu-id="935b6-109">Descrizione</span><span class="sxs-lookup"><span data-stu-id="935b6-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="f65dd-110">**Periodo di iscrizione**</span><span class="sxs-lookup"><span data-stu-id="f65dd-110">**Enrollment period**</span></span> | <span data-ttu-id="f65dd-111">Il periodo di iscrizione per il quale elaborare le modifiche al tasso.</span><span class="sxs-lookup"><span data-stu-id="f65dd-111">The enrollment period to process rate changes for.</span></span> |
+   | <span data-ttu-id="935b6-110">**Periodo di iscrizione**</span><span class="sxs-lookup"><span data-stu-id="935b6-110">**Enrollment period**</span></span> | <span data-ttu-id="935b6-111">Il periodo di iscrizione per il quale elaborare le modifiche al tasso.</span><span class="sxs-lookup"><span data-stu-id="935b6-111">The enrollment period to process rate changes for.</span></span> |
 
-3. <span data-ttu-id="f65dd-112">Se si desidera eseguire l'elaborazione in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:</span><span class="sxs-lookup"><span data-stu-id="f65dd-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="935b6-112">Se si desidera eseguire l'elaborazione in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:</span><span class="sxs-lookup"><span data-stu-id="935b6-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="f65dd-113">Immettere le informazioni per l'elaborazione.</span><span class="sxs-lookup"><span data-stu-id="f65dd-113">Enter information for the process.</span></span>
+   1. <span data-ttu-id="935b6-113">Immettere le informazioni per l'elaborazione.</span><span class="sxs-lookup"><span data-stu-id="935b6-113">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="f65dd-114">Per impostare un processo ricorrente, selezionare **Ricorrenza**, immettere le informazioni sulla ricorrenza e selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="f65dd-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="935b6-114">Per impostare un processo ricorrente, selezionare **Ricorrenza**, immettere le informazioni sulla ricorrenza e selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="935b6-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="f65dd-115">Per impostare un avviso di processo, selezionare **Avvisi**, selezionare gli avvisi da ricevere, quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="f65dd-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="935b6-115">Per impostare un avviso di processo, selezionare **Avvisi**, selezionare gli avvisi da ricevere, quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="935b6-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="f65dd-116">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="f65dd-116">Select **OK**.</span></span> <span data-ttu-id="f65dd-117">l'elaborazione verrà eseguita con i parametri impostati.</span><span class="sxs-lookup"><span data-stu-id="f65dd-117">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="935b6-116">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="935b6-116">Select **OK**.</span></span> <span data-ttu-id="935b6-117">l'elaborazione verrà eseguita con i parametri impostati.</span><span class="sxs-lookup"><span data-stu-id="935b6-117">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="f65dd-118">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="f65dd-118">Select **OK**.</span></span>
+4. <span data-ttu-id="935b6-118">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="935b6-118">Select **OK**.</span></span>
