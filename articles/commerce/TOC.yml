@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Aggiornamento e supporto N-1
               items:
-                - name: Aggiornamento e supporto N-1 per Retail
+                - name: Aggiornamento e supporto N-1 per Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installazione, configurazione e passaggio dell''implementazione per fasi (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maggio 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (aprile 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Autenticazione avanzata del cliente (SCA) tramite il connettore Adyen
                       href: adyen_redirect.md
+                    - name: Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
+                      href: pos-multi-hws.md
                     - name: Passare offline con semplicità per le operazioni gift card e nota credito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurare scenari di pagamento delle fatture
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Impostare maschere codici a barre
                       href: set-up-bar-code-masks.md
+                - name: Garanzie
+                  items:
+                    - name: Creare e configurare garanzie estese
+                      href: extended-warranty.md
             - name: Prezzi e sconti
               items:
                 - name: Sconti
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Modulo checkout
                       href: add-checkout-module.md
-                    - name: Modulo conferma ordine
+                    - name: Modulo Dettagli ordini
                       href: order-confirmation-module.md
                     - name: Memorizzare il modulo di selezione
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurare un file di ambiente di sviluppo (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Debug di un ambiente di sviluppo commerciale di livello 1
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Configurare la condivisione codice Azure DevOps e creare una pipeline di build
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Panoramica della piattaforma
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Sviluppo in ambienti di sviluppo ospitati su cloud senza accesso come amministratore
                   href: dev-itpro/cloud-dev-box.md
+                - name: Impostare la pipeline di build Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Estendibilità POS
               items:
                 - name: Layout schermo POS
