@@ -589,11 +589,13 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Archiviazione report di aging delle scorte
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Esempi e logica di report di aging delle scorte
+                  href: cost-management/inventory-aging-report.md
             - name: Contabilità produzione
               items:
                 - name: Calcoli DBA
                   href: cost-management/bom-calculations.md
-                - name: Gruppi di calcolo DBA
+                - name: Gruppi di calcoli DBA
                   href: cost-management/bom-calculation-groups.md
                 - name: Livello di calcolo costi
                   href: cost-management/cost-calculation-level.md
