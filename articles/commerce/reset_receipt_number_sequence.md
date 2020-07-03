@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123948"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456575"
 ---
-# <a name="reset-receipt-numbers"></a>Reimpostare numeri di ricevuta 
+# <a name="reset-receipt-numbers"></a>Reimpostare i numeri di ricevuta 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Ti chiediamo di selezionare la proprietà **Sequenza indipendente** per tutti i tipi di ricevuta nel profilo di funzionalità prima di utilizzare questa funzione. Inoltre, il fuso orario di sistema del dispositivo, in cui viene utilizzato il POS, deve corrispondere al fuso orario del negozio corrispondente. Stiamo lavorando per eliminare queste limitazioni in una versione futura. Contatta il supporto tecnico Microsoft prima di utilizzare questa funzione in Produzione.
 
 I rivenditori generano numeri di ricevuta per varie azioni nel punto vendita, come ad esempio transazioni cash-and-carry, transazioni di reso, ordini cliente, offerte e pagamenti. Sebbene i rivenditori definiscano i propri formati di ricevuta, alcuni paesi o aree geografiche hanno normative che impongono restrizioni a questi formati di ricevute. Ad esempio, queste normative potrebbero limitare il numero di caratteri sulla ricevuta, richiedere numeri di ricevuta consecutivi, limitare alcuni caratteri speciali o richiedere un azzeramento dei numeri di ricevuta all'inizio dell'anno. Microsoft Dynamics 365 Commerce rende estremamente flessibile il processo di gestione dei numeri di ricevuta, per aiutare i rivenditori a soddisfare i requisiti normativi. Questo argomento descrive come utilizzare la funzionalità di reimpostazioni dei numeri di ricevuta.
 

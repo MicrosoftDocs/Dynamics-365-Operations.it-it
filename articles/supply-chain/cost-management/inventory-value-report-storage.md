@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276930"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413101"
 ---
 # <a name="inventory-value-storage-report"></a>Report di archiviazione valori di magazzino
 
@@ -50,7 +50,7 @@ Seguire questi passaggi per generare e archiviare un report per l' **Archiviazio
 1. Selezionare **Nuovo**.
 1. Nella finestra di dialogo **Valore di inventario**, impostare i seguenti valori per definire quali record sono inclusi nel report:
 
-    - Nella scheda dettaglio **Parametri**, immettere un nome univoco per il report e utilizzare i campi contenuti nella sezione **Intervallo date** per definire quali record sono inclusi nel report. Per definire l'intervallo di date, è possibile selezionare un intervallo predefinito (relativo alla data di generazione del report) nel campo **Codice intervallo di date** oppure selezionando date specifiche nei campi **Data iniziale** e **Data finale**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Nella scheda dettaglio **Parametri**, immettere un nome univoco per il report e utilizzare i campi contenuti nella sezione **Intervallo date** per definire quali record sono inclusi nel report. Per definire l'intervallo di date, è possibile selezionare un intervallo predefinito (relativo alla data di generazione del report) nel campo **Codice intervallo di date** oppure selezionando date specifiche nei campi **Data iniziale** e **Data finale**.
     - Sulla scheda dettaglio **Record da includere**, impostare filtri e vincoli per definire quali dati sono inclusi nel report.
     - Nella scheda dettaglio **Esegui in background**, specificare come, quando e con quale frequenza viene generato il report.
 

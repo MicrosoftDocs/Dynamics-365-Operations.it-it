@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform update 10.0.10 (maggio 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (aprile 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità di Platform rimosse o deprecate
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Abilitazione della mappa entità per la doppia scrittura
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Migrazione del tipo di dati valuta per la doppia scrittura
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Gestione della doppia scrittura
                           items:
                             - name: Personalizzazione di mapping di entità e campo
@@ -364,6 +364,8 @@
           items:
             - name: Panoramica di Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Configurare l'esportazione in Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: App Finance and Operations in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Rendere disponibile l'archivio entità come Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnostica locale
                       href: deployment/on-premises-diagnostics.md
+                    - name: Configurazione del ripristino di emergenza locale
+                      href: deployment/onprem-dr.md
                     - name: Integrazione di PowerBI.com con gli ambienti locali
                       href: analytics/entity-store-on-prem.md
                     - name: Riconfigurare ambienti
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Architettura di sicurezza
                   href: sysadmin/security-architecture.md
+                - name: Crittografia nelle app Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: Impostare l'intervallo di inattività di una sessione
                   href: sysadmin/session-idle-timeout.md
                 - name: Report di sicurezza predefiniti

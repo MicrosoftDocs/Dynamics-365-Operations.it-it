@@ -3,7 +3,7 @@ title: Impostare containerizzazione
 description: Questa argomento descrive come automatizzare la containerizzazione dei carichi in Gestione magazzino.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/22/19
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: d08b89ac32b8ec40ae9dff15dbbd3264800cfb1a
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383299"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454720"
 ---
 # <a name="set-up-containerization"></a>Impostare containerizzazione
 
@@ -75,7 +75,7 @@ Questa argomento descrive come automatizzare la containerizzazione dei carichi i
 5. Digitare un valore nel campo **Codice passaggio ondata**.
 6. Selezionare la casella di controllo **Consenti prelievi condivisi**.
 7. Selezionare **Salva**.
-8. Fare clic su **Vincoli combinazione contenitore**. L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori. Ad esempio, se si aggiunge il campo **Numero articolo**, quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo. Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.  
+8. Seleziona **Vincoli combinazione contenitore**. L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori. Ad esempio, se si aggiunge il campo **Numero articolo**, quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo. Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.  
 9. Selezionare **Nuovo**.
 10. Selezionare un'opzione nel campo **Tabella**.
 11. Nel campo **Selezione campi** immettere o selezionare un valore.

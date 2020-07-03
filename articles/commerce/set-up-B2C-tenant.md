@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
-ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
+ms.openlocfilehash: 9339b584c2d78e59f1a6b79d1610eef1581722c7
+ms.sourcegitcommit: 717346fb00c68a64ed58c846e89f41b80c7de9dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295271"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3488764"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -91,7 +91,7 @@ Gli URL di risposta sono importanti in quanto forniscono un elenco dei domini di
 
 Nella casella **URL di risposta** nella schermata **Azure AD B2c - Applicazioni \> Nuova applicazione**, è necessario aggiungere righe separate per il dominio del sito e (una volta effettuato il provisioning dell'ambiente) per l'URL generato da Commerce. Questi URL devono sempre utilizzare un formato URL valido e devono essere solo URL di base (nessuna barra o percorso). La stringa ``/_msdyn365/authresp`` quindi deve essere aggiunta agli URL di base, come nei seguenti esempi.
 
-- ``https://fabrikam.com/_msdyn365/authresp``
+- ``https://www.fabrikam.com/_msdyn365/authresp``
 - ``https://fabrikam-prod.commerce.dynamics.com/_msdyn365/authresp``
 
 ## <a name="create-user-flow-policies"></a>Creare criteri di flusso utente

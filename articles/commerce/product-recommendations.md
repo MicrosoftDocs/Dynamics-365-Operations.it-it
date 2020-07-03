@@ -3,7 +3,7 @@ title: Panoramica suggerimenti sul prodotto
 description: Questo argomento fornisce informazioni generali sui suggerimenti sul prodotto. I suggerimenti sul prodotto consentono ai clienti di individuare facilmente e rapidamente i prodotti desiderati e persino i prodotti che originariamente non intendevano acquistare.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154228"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404350"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -40,7 +40,7 @@ In e-Commerce, i suggerimenti sul prodotto sono generati mediante tecnologie di 
 
 Il servizio di suggerimenti sui prodotti utilizza le tecnologie di intelligenza artificiale e machine learning (AI-ML) nel modo seguente:
 
-- I dati nel formato richiesto dal servizio Suggerimenti vengono estratti dal database operativo di Commerce e sono inviati ad Azure data lake storage (ADLS) o all'Archivio entità.
+- I dati nel formato richiesto dal servizio Suggerimenti vengono estratti dal database operativo di Commerce e sono inviati a Azure Data Lake Storage o all'Archivio entità.
 - Il servizio Suggerimenti utilizza i dati memorizzati per preparare i modelli di suggerimenti per gli elenchi **Alle persone piace anche**, **Spesso acquistati insieme**, **Novità**, **Più venduti** e **Di tendenza**.
 
 ## <a name="scenarios"></a>Scenari
@@ -54,7 +54,7 @@ I suggerimenti sul prodotto sono disponibili per i seguenti scenari:
 
 ### <a name="types-of-product-recommendations"></a>Tipi di suggerimenti sul prodotto
 
-La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzati disponibili per i rivenditori da implementare nella soluzione Dynamics 365 Commerce tramite il [modulo di raccolta del prodotto](product-collection-module-overview.md). I rivenditori possono anche mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione.
+La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzati disponibili per i rivenditori da implementare nella soluzione Dynamics 365 Commerce tramite il [modulo Raccolta prodotti](product-collection-module-overview.md). I rivenditori possono anche mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione.
 
 | Modulo Raccolta prodotti  | Tipo | descrizione |
 |----------------------------|------|-------------|
@@ -67,7 +67,7 @@ La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzat
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+[Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
 

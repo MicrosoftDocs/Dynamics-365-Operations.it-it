@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383800"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403337"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurazione dei criteri di consolidamento delle spedizioni
 
@@ -270,7 +270,7 @@ In questo esempio, creerai un criterio *Clienti che consentono il consolidamento
 
 - Il criterio richiederà uno specifico pool di ordini per identificare i clienti che accettano spedizioni consolidate.
 - Il consolidamento con spedizioni aperte è disattivato.
-- Il consolidamento viene effettuato tra gli ordini utilizzando i campi selezionati dai criteri CrossOrder predefiniti (per replicare la casella di controllo **Magazzino**).
+- Il consolidamento viene effettuato tra gli ordini utilizzando i campi selezionati dai criteri CrossOrder predefiniti (per replicare la casella di controllo **Consolida spedizione al rilascio al magazzino** precedente).
 
 - Puoi sovrascrivere la regola su un ordine cliente selezionando un pool di ordini diverso.
 
@@ -306,7 +306,7 @@ In questo esempio, creerai un criterio *Magazzini che consentono il consolidamen
 
 - Il criterio richiederà uno specifico pool di ordini per identificare i magazzini che possono consolidare spedizioni.
 - Il consolidamento con spedizioni aperte è disattivato.
-- Il consolidamento viene effettuato tra gli ordini utilizzando i campi selezionati dai criteri CrossOrder predefiniti (per replicare la casella di controllo **Magazzino**).
+- Il consolidamento viene effettuato tra gli ordini utilizzando i campi selezionati dai criteri CrossOrder predefiniti (per replicare la casella di controllo **Consolida spedizione al rilascio al magazzino** precedente).
 
 In genere, questo caso aziendale può essere risolto utilizzando i criteri predefiniti in cui è stato creato nello [scenario 1](#scenario-1). Tuttavia, è anche possibile creare manualmente criteri simili seguendo questi passaggi.
 

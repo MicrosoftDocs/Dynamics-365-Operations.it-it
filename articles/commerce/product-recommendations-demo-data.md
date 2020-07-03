@@ -3,7 +3,7 @@ title: Crea suggerimenti con dati dimostrativi
 description: Questo argomento fornisce una guida su come utilizzare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175551"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454558"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crea suggerimenti con dati dimostrativi
 
@@ -71,7 +71,7 @@ L'estensione contiene un file di dati chiamato RecoMockDataset.csv, che consente
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+[Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
 

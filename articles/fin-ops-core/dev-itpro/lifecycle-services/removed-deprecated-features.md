@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e571cc26f55e0bd7a1eef301e193921e0b3f8e31
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367270"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454697"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
 
@@ -56,6 +56,7 @@ Questo elenco viene fornito per aiutare a tenere in considerazione queste rimozi
 <td>Deprecato: il componente diagrammi di flusso in BPM dovrebbe essere rimosso nel 2020. La seguente funzionalità diventerà non disponibile:
 <ul>
 <li>Tutti i diagrammi di flusso saranno di sola lettura e non disponibili per la modifica. Anche le proprietà della forma associate alle attività del diagramma di flusso non saranno disponibili. Questi diagrammi di flusso includono sia diagrammi di flusso predefiniti che vengono generati automaticamente sia diagrammi di flusso personalizzati che vengono modificati in base a tali diagrammi di flusso predefiniti.</li>
+<li>I passaggi della procedura saranno di sola lettura e non disponibili per la modifica.</li>     
 <li>La funzionalità di analisi degli scostamenti/adeguatezza non sarà disponibile. Pertanto, nessun elenco di scostamenti verrà automaticamente creato o sarà disponibile per l'esportazione.
 <p><strong>Nota:</strong> questa funzionalità era stata precedentemente deprecata e sostituita dalle integrazioni di  Microsoft Azure DevOps.</p>
 </li>

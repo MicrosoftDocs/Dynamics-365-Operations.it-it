@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933934"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421657"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dello strumento di creazione di report elettronici
 
@@ -81,7 +81,7 @@ Un mapping di modello che supporta documenti elettronici in entrata ha le seguen
 
 Un componente del modello dati è progettato per ciascun dominio aziendale da utilizzare come origine dati unificata per la creazione di report che isola la creazione di report dall'implementazione fisica delle origini dati. Rappresenta i concetti e le funzionalità aziendali specifici del dominio in una forma che rende più efficiente la progettazione iniziale dei formati di report e la successiva manutenzione.
 
-#### <a name="FormatComponentOutbound"></a>Componenti di formato per i documenti elettronici in uscita
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componenti di formato per i documenti elettronici in uscita
 
 Un componente formato è lo schema dell'output della creazione di report che sarà generato in fase di esecuzione. Uno schema comprende i seguenti elementi:
 
@@ -107,7 +107,7 @@ Nella figura seguente viene illustrato il flusso dei dati per questi formati.
 
 Per eseguire una singola configurazione di formato ER e generare un documento elettronico in uscita, è necessario identificare il mapping della configurazione di formato.
 
-#### <a name="FormatComponentInbound"></a>Componenti di formato per i documenti elettronici in entrata
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componenti di formato per i documenti elettronici in entrata
 Un componente di formato è lo schema del documento in entrata importato in fase di esecuzione. Uno schema comprende i seguenti elementi:
 
 - Un formato che definisce la struttura e il contenuto del documento elettronico in entrata contenente i dati importati in fase di esecuzione. Un componente di formato viene utilizzato per analizzare un documento in entrata in vari formati, ad esempio testo e XML.
@@ -144,7 +144,7 @@ L'accesso ai componenti di formato ER dipende dall'impostazione dei codici di pa
 
 Versioni differenti di un componente formato dati possono avere impostazioni differenti per i codici di paese ISO.
 
-#### <a name="Configuration"></a>Configurazione
+#### <a name="configuration"></a><a name="Configuration"></a>Configurazione
 
 Una configurazione ER corrisponde al wrapper di un componente ER specifico. Tale componente può essere un componente del modello dati o un componente di formato. Una configurazione può includere versioni diverse di un componente ER. Ciascuna configurazione viene contrassegnata come di proprietà di un provider di una specifica configurazione. La versione **Bozza** di un componente di una configurazione può essere modificata quando il proprietario della configurazione è stato selezionato come provider attivo nelle impostazioni ER dell'applicazione.
 
@@ -154,26 +154,26 @@ La configurazione formato creata contiene un componente formato. Il componente m
 
 Una configurazione ER è condivisa per le società dell'applicazione.
 
-#### <a name="Provider"></a>Provider
+#### <a name="provider"></a><a name="Provider"></a>Provider
 
-Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
+Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
 
 Per informazioni sulla modalità di registrazione di un nuovo provider ER, riprodurre la Guida attività, **Creazione di report elettronici: creare e attivare un provider di configurazione** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** ).
 
-#### <a name="Repository"></a>Archivio
+#### <a name="repository"></a><a name="Repository"></a>Archivio
 
 In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio di ER: 
 
 - Libreria condivisa LCS
 - Progetto LCS
 - File system
-- Regulatory Configuration Services (RCS)
-- Risorse operative
-
+- RCS
+- Risorse Operations
+- Archivio globale
 
 Un archivio **Libreria condivisa LCS** consente di accedere all'elenco di configurazioni nella libreria di risorse condivise in Lifecycle Services. Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nella libreria di risorse condivise LCS è possibile importare le ultime versioni delle configurazioni ER nell'istanza corrente.
 
-L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato alla fase di registrazione archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente di Finance and Operations.
+L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato durante la registrazione dell'archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente delle app Finance and Operations.
 
 Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file xml nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente. 
 
@@ -184,13 +184,17 @@ Da notare che questo tipo di archivio è accessibile negli ambienti seguenti:
 
 Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici](./electronic-reporting-import-ger-configurations.md).
 
-L'archivio **Istanza LCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza RCS selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza corrente in modo da poterle utilizzare per la creazione di report elettronici.
+L'archivio **RCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza di [Regulatory Configuration Services (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza corrente in modo da poterle utilizzare per la creazione di report elettronici.
 
-Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](./rcs-download-configurations.md).
+Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici da RCS](./rcs-download-configurations.md).
+
+Un archivio **Archivio globale** fornisce l'accesso all'elenco di configurazioni all'interno dell'archivio globale in [Regulatory Configuration Service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nell'archivio globale, è possibile importare le ultime versioni delle configurazioni ER nell'istanza corrente.
+
+Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici dall'archivio globale di Regulatory Configuration Service (RCS)](./er-download-configurations-global-repo.md).
 
 Un archivio **Risorse operative** consente di accedere all'elenco di configurazioni che Microsoft rilascia inizialmente come parte della soluzione dell'applicazione in qualità di provider di configurazioni ER. Queste configurazioni possono essere importate nell'istanza corrente e utilizzate per la creazione di report elettronici o la riproduzione di guide attività di esempio. Possono inoltre essere utilizzate per altre localizzazioni e personalizzazioni. Tenere presente che le ultime versioni fornite dalle configurazioni ER di Microsoft devono essere importate dalla libreria di risorse condivise LCS utilizzando l'archivio ER corrispondente.
 
-È possibile registrare individualmente gli archivi **Progetto LCS**, **File system** e **Servizi di configurazione normativa (RCS)** richiesti per ciascun provider di configurazioni dell'istanza corrente. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
+È possibile registrare individualmente gli archivi **Progetto LCS**, **File system** e **Regulatory Configuration Service** richiesti per ciascun provider di configurazioni dell'istanza corrente. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
 
 ## <a name="supported-scenarios"></a>Scenari supportati
 ### <a name="building-a-data-model"></a>Generazione di un modello dati

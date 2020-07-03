@@ -3,7 +3,7 @@ title: Modulo Lettore video
 description: In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025653"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411161"
 ---
 # <a name="video-player-module"></a>Modulo Lettore video
 
@@ -35,11 +35,11 @@ In questo argomento vengono descritti i moduli Lettore video e la procedura per 
 
 Il modulo Lettore video è utilizzato per supportare la riproduzione di video. Può essere aggiunto a qualsiasi pagina, a condizione che il contenuto del video sia caricato e disponibile nel sistema di gestione dei contenuti (CMS). Il modulo Lettore video supporta il tipo di file multimediale .mp4.
 
-## <a name="video-player-module"></a>Modulo lettore video
+## <a name="video-player-module"></a>Modulo Lettore video
 
 Il modulo Lettore video può essere utilizzato per presentare video in un sito di e-Commerce. Supporta tutte le funzionalità di riproduzione, ad esempio riproduci, pausa, modalità a schermo intero, descrizioni audio e sottotitoli. Il modulo Lettore video supporta anche la personalizzazione dei sottotitoli per soddisfare gli standard di accessibilità di Microsoft. Ad esempio, è possibile personalizzare la dimensione dei caratteri e il colore di sfondo.
 
-Il modulo del lettore video supporta anche tracce audio secondarie. Quando un video viene caricato in CMS, è anche possibile caricare una traccia audio secondaria. Il modulo del lettore video può quindi riprodurre la traccia audio secondaria se un utente la seleziona.
+Il modulo Lettore video supporta anche tracce audio secondarie. Quando un video viene caricato in CMS, è anche possibile caricare una traccia audio secondaria. Il modulo Lettore video può quindi riprodurre la traccia audio secondaria se un utente la seleziona.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Esempi di moduli Lettore video in e-Commerce
 
@@ -47,9 +47,13 @@ Il modulo del lettore video supporta anche tracce audio secondarie. Quando un vi
 - Video promozionali o video su policy in qualsiasi pagina marketing
 - Video marketing che presentano le caratteristiche dei prodotti nelle pagine dettagli prodotto o nelle pagine marketing
 
+L'immagine seguente mostra un esempio di modulo Lettore video in una home page.
+
+![Esempio di modulo Lettore video](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Proprietà del modulo Lettore video
 
-| Nome proprietà         | Valore                               | Descrizione |
+| Nome proprietà         | Valore                               | descrizione |
 |-----------------------|-------------------------------------|-------------|
 | Riproduzione automatica             | **True** o **False**               | Se il valore è impostato su **True**, il video viene automaticamente riprodotto. |
 | Disattiva audio                  | **True** o **False**               | Se il valore è impostato su **True**, l'audio è disattivato. Per questo lettore, il valore predefinito è **False**. Nel browser Chrome, l'audio dei video riprodotti automaticamente è disattivato per impostazione predefinita e viene attivato solo se l'utente riproduce manualmente il video. |
@@ -68,25 +72,37 @@ Il modulo del lettore video supporta anche tracce audio secondarie. Quando un vi
 
 Per aggiungere un modulo Lettore video a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Creare un modello di pagina denominato **Modello lettore video**.
-1. Nello slot **Principale** della pagina predefinita, aggiungere un modulo contenitore.
-1. Nel modulo contenitore, aggiungere i moduli Lettore video e Lettore video ambiente.
-1. Completare la modifica del modello e pubblicarlo.
-1. Utilizzare il modello lettore video creato per creare una pagina denominata **Pagina lettore video**.
-1. Nello slot **Principale** della nuova pagina, aggiungere un modulo Lettore video.
-1. Nel riquadro delle proprietà per il modulo Lettore video, selezionare **Aggiungi un video**.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello lettore video**, quindi selezionare **OK**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Lettore video** e quindi selezionare **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo. 
+1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello di lettore video creato. Sotto **Nome pagina**, Immettere **Pagina lettore video** e selezionare **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Lettore video** e quindi selezionare **OK**.
+1. Nel riquadro delle proprietà del modulo Lettore video, selezionare **Aggiungi un video**.
 1. Nella finestra di dialogo **Selettore multimediale**, selezionare un video e quindi **Carica nuovo elemento multimediale**.
-1. Salvare la pagina e visualizzarne l'anteprima. Il modulo video dovrebbe essere visualizzato nella pagina. È possibile modificare ulteriori impostazioni per personalizzare il comportamento del modulo.
-1. Completare la modifica della pagina e pubblicarla.
+1. In Esplora file, selezionare un file video, quindi selezionare **Apri**.
+1. Nella finestra di dialogo **Carica elemento multimediale**, immettere un titolo e altre informazioni come necessario e quindi selezionare **OK**.
+1. Nella finestra di dialogo **Selettore multimediale** selezionare **Chiudi**.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il modulo Video dovrebbe essere visualizzato nella pagina. È possibile modificare ulteriori impostazioni per personalizzare il comportamento del modulo.
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo banner promozionale](add-alert.md)
+[Modulo Banner promozionale](add-alert.md)
 
 [Modulo Sequenza](add-carousel.md)
 
-[Modulo blocco di testo](add-content-rich-block.md)
+[Modulo Blocco di testo](add-content-rich-block.md)
 
-[Modulo blocco di contenuto](add-hero-module.md)
+[Modulo Blocco di contenuto](add-hero-module.md)

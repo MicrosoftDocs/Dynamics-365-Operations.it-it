@@ -3,7 +3,7 @@ title: Moduli Raccolta prodotti
 description: Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025950"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464955"
 ---
 # <a name="product-collection-modules"></a>Moduli Raccolta prodotti
 
@@ -72,22 +72,23 @@ Nella tabella seguente vengono descritti i vari tipi di moduli Raccolta prodotti
 
 Per aggiungere un modulo Raccolta prodotti a una pagina categoria, procedere come segue.
 
-1. In Dynamics 365 Commerce, accedere al sito e creare una pagina che utilizza lo stesso modello della pagina categoria predefinita.
-1. Nella struttura delle pagine, selezionare lo slot **Piè di pagina secondario**, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Contenitore** e quindi **OK**.
-1. Nel modulo contenitore, selezionare il pulsante con i puntini di sospensione e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Raccolta prodotti** e quindi **OK**.  
-1. Configurare le impostazioni selezionando un'origine dati appropriata e gli input per la raccolta di prodotti.
+1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, seleziona lo stesso modello utilizzato dalla pagina della categoria predefinita. In **Nome pagina**, immetti un nome appropriato quindi seleziona **OK**.
+1. Nello slot **Piè di pagina secondario** seleziona i puntini di sospensione (**...**), quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, seleziona il modulo **Raccolta prodotti** e quindi **OK**.  
 1. Nel riquadro delle proprietà del modulo Raccolta prodotti, selezionare **Aggiungi un elenco di prodotti**.
-1. Nella finestra di dialogo **Seleziona configurazione elenco di prodotti**, selezionare il tipo di elenco, immettere il numero di articoli e selezionare qualsiasi altra opzione disponibile per il tipo di elenco. Per ulteriori informazioni sui tipi di elenchi, vedere la tabella seguente. 
+1. Nella finestra di dialogo **Seleziona configurazione elenco di prodotti**, seleziona il tipo di elenco, l'origine dell'elenco quindi immetti il numero di articoli. Configura eventuali altre opzioni disponibili per il tipo di elenco. Per ulteriori informazioni sui tipi di elenchi, vedere la tabella seguente. 
 1. Selezionare **OK**.
-1. Salvare la pagina e archiviarla.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finestra di dialogo **Seleziona configurazione elenco di prodotti**.
 
 | Tipo                       | Descrizione | Uso | Contesto della pagina | Contesto specifico | Personalizzazione |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
-| Prodotti per categoria       | Un elenco di prodotti appartenenti a una specifica categoria. Questa categoria viene determinata dal contesto della pagina o dal contesto fornito dell'autore. | Questo tipo di elenco può essere utilizzato su qualsiasi pagina (ad esempio, una home page, una pagina di categoria, una pagina di marketing o una pagina dei dettagli del prodotto \[PDP \]) per promuovere una specifica categoria di prodotti. | Categoria dal contesto della pagina, ove disponibile (ad esempio, una pagina di categoria) | L'autore può fornire una categoria specifica come contesto per l'elenco. | Non applicabile |
+| Prodotti per categoria       | Un elenco di prodotti appartenenti a una specifica categoria. Questa categoria viene determinata dal contesto della pagina o dal contesto fornito dell'autore. | Questo tipo di elenco può essere utilizzato su qualsiasi pagina (ad esempio, una home page, una pagina di categoria, una pagina di marketing o una pagina dei dettagli del prodotto \[PDP\]) per promuovere una specifica categoria di prodotti. | Categoria dal contesto della pagina, ove disponibile (ad esempio, una pagina di categoria) | L'autore può fornire una categoria specifica come contesto per l'elenco. | Non applicabile |
 | Prodotti correlati           | Un elenco di prodotti che un responsabile merchandising ha configurato come prodotti correlati in Commerce per il tipo di relazione. | Questo tipo di elenco viene utilizzato principalmente sui PDP, ma può essere utilizzato su qualsiasi pagina se viene fornito un prodotto principale. | Prodotto dalla pagina, tipo di relazione (obbligatorio) | Il prodotto può essere selezionato nel selettore e viene utilizzato il tipo di relazione. | Non applicabile |
 | Curato                    | Un elenco personalizzato che i merchandiser e gli editori hanno creato in Commerce. | Migliorare la pagina categoria, l'home page, le pagine carrello e checkout e le pagine prodotto | Non applicabile | Non applicabile | Non applicabile |
 | Algoritmico                | <ul><li>**Novità** - Un elenco dei prodotti più recenti che sono stati assortiti in canali e cataloghi.</li><li>**Più venduti** - Un elenco di prodotti classificati in base al più alto numero di vendite.</li><li>**Di tendenza** - Un elenco dei prodotti di maggior successo in un determinato periodo.</li></ul> | Home page, miglioramento della pagina categoria e pagine checkout e carrello | Categoria dal contesto della pagina (ad esempio, una pagina di categoria) | La categoria determinata dall'autore del sito | Supportata |

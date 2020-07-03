@@ -3,7 +3,7 @@ title: Configurare le decisioni manuali in un flusso di lavoro
 description: In questo argomento viene descritto come configurare le proprietà per una decisione manuale.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178563"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455035"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurare le decisioni manuali in un flusso di lavoro
 
@@ -239,26 +239,6 @@ Per specificare gli utenti a cui assegnare una decisione manuale, effettuare le 
     <li>Dopo aver selezionato <strong>Utente</strong>, fare clic sulla scheda <strong>Utente</strong>.</li>
     <li>Nell'elenco <strong>Utenti disponibili</strong> sono inclusi tutti gli utenti. Selezionare gli utenti a cui assegnare la decisione, quindi spostarli nell'elenco <strong>Utenti selezionati</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Coda</td>
-    <td>Coda di elementi di lavoro</td>
-    <td>
-    <ol>
-    <li>Dopo aver selezionato <strong>Coda</strong> fare clic sulla scheda <strong>Basato su coda</strong>.</li>
-    <li>Per assegnare la decisione a una specifica coda, effettuare le operazioni seguenti: <ol>
-    <li>Nell'elenco <strong>Tipo coda</strong> selezionare <strong>Coda di elementi di lavoro</strong>.</li>
-    <li>Nell'elenco <strong>Nome coda</strong> selezionare la coda.</li>
-    </ol>
-    </li>
-    <li>Se una specifica condizione deve determinare la coda a cui è assegnata la decisione, effettuare le operazioni seguenti: <ol>
-    <li>Nell'elenco <strong>Tipo coda</strong> selezionare <strong>Code di elementi di lavoro condizionali</strong>.</li>
-    <li>Nell'elenco <strong>Nome coda</strong> selezionare <strong>Coda condizionale</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Questa opzione viene utilizzata solo per alcuni flussi di lavoro, ad esempio la gestione dei casi.</blockquote>
     </td>
     </tr>
     </tbody>

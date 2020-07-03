@@ -1,9 +1,9 @@
 ---
-title: Modulo banner promozionale
-description: In questo argomento vengono descritti i moduli banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+title: Modulo Banner promozionale
+description: In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,27 +18,26 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269776"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411367"
 ---
-# <a name="promo-banner-module"></a>Modulo banner promozionale
-
+# <a name="promo-banner-module"></a>Modulo Banner promozionale
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-I moduli banner promozionale sono utilizzati per visualizzare messaggi informativi incorporati in una pagina. Possono essere utilizzati per visualizzare promozioni in tutto le pagine di un sito di e-Commerce. 
+I moduli Banner promozionale sono utilizzati per visualizzare messaggi informativi incorporati in una pagina. Possono essere utilizzati per visualizzare promozioni in tutto le pagine di un sito di e-Commerce. 
 
-I moduli banner promozionale supportano un messaggio di testo e un collegamento. Se vengono aggiunti più messaggi a un modulo banner promozionale, questo diventa un banner sequenza rotante che consente ai clienti di scorrere tutti i messaggi. 
+I moduli Banner promozionale supportano un messaggio di testo e un collegamento. Se vengono aggiunti più messaggi a un modulo banner promozionale, questo diventa un banner sequenza rotante che consente ai clienti di scorrere tutti i messaggi. 
 
-I moduli banner promozionale sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina.
+I moduli Banner promozionale sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina.
 
 ## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-Commerce
 
@@ -48,9 +47,15 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 "Grandi risparmi con la vendita di articoli scolastici. Acquista ora".
 
-## <a name="promo-banner-module-properties"></a>Proprietà dei moduli banner promozionale
+"SALDI del Giorno del ringraziamento" 
 
-| Nome proprietà             | Value                              | Descrizione |
+L'immagine seguente mostra un esempio di banner promozionale.
+
+![Esempio di modulo banner promozionale](./media/ecommerce-Promobanner.PNG)
+
+## <a name="promo-banner-module-properties"></a>Proprietà dei moduli Banner promozionale
+
+| Nome proprietà             | Valore                              | descrizione |
 |---------------------------|------------------------------------|-------------|
 | Messaggi banner           | Testo e collegamenti                     | Una matrice di testo e collegamenti. |
 | Riproduzione automatica                  | **True** o **False**              | Un valore che indica se i messaggi vengono automaticamente passati in rassegna, se sono configurati più messaggi. |
@@ -64,7 +69,7 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 Per aggiungere un modulo banner promozionale a una pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Selezionare **Nuovo** per creare un modello di pagina.
+1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello banner promozionale**, quindi selezionare **OK**.
 1. Sotto **Struttura pagina** , aggiungere un modulo **Pagina predefinita** allo slot **Corpo**. 
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo. 
@@ -74,7 +79,7 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 1. Sotto **Struttura pagina**, aggiungere un modulo banner promozionale al modulo contenitore.
 1. Nelle impostazioni per il modulo banner, aggiungere uno o più messaggi banner. Ogni messaggio può avere del testo e un collegamento. È possibile modificare le altre proprietà per personalizzare ulteriormente il modulo.
 1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Nella parte superiore della pagina, dovrebbe essere visualizzato un avviso che mostra il testo aggiunto.
-1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. 
+1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 > [!NOTE]
 > Un banner promozionale viene in genere utilizzato nello slot dell'intestazione di pagina o in uno slot del sottotitolo.
@@ -86,8 +91,8 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 
 [Modulo Sequenza](add-carousel.md)
 
-[Modulo blocco di testo](add-content-rich-block.md)
+[Modulo Blocco di testo](add-content-rich-block.md)
 
 [modulo blocco di contenuto](add-hero-module.md)
 
-[Modulo lettore video](add-video-player.md)
+[Modulo Lettore video](add-video-player.md)

@@ -3,7 +3,7 @@ title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268749"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457568"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -36,7 +36,55 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.13 delle app Finance and Operations
+
+> [!NOTE]
+> La versione 10.0.13 non è stata ancora rilasciata. Queste informazioni vengono fornite solo per scopi di pianificazione. Il contenuto e la funzionalità della versione 10.0.13 sono soggetti a modifiche. Per ulteriori informazioni sulle versioni, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Aggiornamento di tre librerie dei componenti jQuery 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Tre librerie dei componenti jQuery sono in fase di aggiornamento per le correzioni di sicurezza e per mantenere la valuta.   
+| **Sostituita da un'altra funzionalità?**   | Sono interessate le seguenti librerie: jQuery (alla versione 3.5.0 dalla versione 2.1.4), interfaccia utente jQuery (alla versione 1.12.1 dalla versione 1.11.4), jQuery qTip (alla versione 3.0.3 da 2.2.1). La guida alla migrazione è stata fornita online da jQuery.  |
+| **Aree del prodotto interessate**         | Controlli estensibili, in particolare codice JavaScript personalizzato che utilizza API obsolete o rimosse |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Con la versione 10.0.13/Aggiornamento della piattaforma 37, i clienti possono facoltativamente passare alle librerie più recenti abilitando la funzione "Aggiorna tre librerie dei componenti jQuery". Il passaggio alle nuove librerie sarà obbligatorio con la versione di aprile 2021 per consentire il tempo necessario per la migrazione delle API interessate.   |
+
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Estensioni di moduli di controllo di griglie o gruppi contenenti riferimenti di campo non validi
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | La proprietà del gruppo di dati nei controlli di griglie o gruppi viene utilizzata per mostrare automaticamente tutti i campi di un gruppo di campi. Un controllo di griglie o gruppi aggiunto dall'estensione potrebbe contenere campi che non sono più definiti nel gruppo di campi oppure potrebbe non avere campi definiti nel gruppo di campi. Ciò può causare un comportamento non coerente in fase di esecuzione. Gli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations ora classificano questo problema come *avviso* del compilatore. Per risolvere questo problema, aprire l'estensione di moduli e salvarla.
+| **Sostituita da un'altra funzionalità?**   | Questo avviso del compilatore verrà sostituito con un errore del compilatore in un aggiornamento futuro. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Un avviso del compilatore è introdotto negli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations
+
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Elenchi sicuri espliciti per ambienti self-service
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il processo per spostare l'IP in elenchi sicuri è cambiato. Il self-service non supporta più gli elenchi sicuri IP. |
+| **Sostituita da un'altra funzionalità?**   | Per ulteriori informazioni, vedere [Configurazione dell'accesso condizionale di Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Aree del prodotto interessate**         | Sicurezza |
+| **Opzione di distribuzione**              | Cloud |
+| **Stato**                         | **Deprecato:** questa funzionalità è completamente deprecata per le distribuzioni self-service. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Per supportare le ultime versioni di Visual Studio, è necessario apportare alcune modifiche alle estensioni X++ per Visual Studio. Queste modifiche sono incompatibili con Visual Studio 2015. |
+| **Sostituita da un'altra funzionalità?**   | Visual Studio 2017 sostituirà Visual Studio 2015 come versione distribuita e richiesta. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Una volta annunciata la disponibilità di nuove macchine virtuali (VM) con Visual Studio 2017, le VM esistenti con soltanto Visual Studio 2015 dovranno essere ridistribuite mediante la prima ondata di rilascio 2021. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Gruppi di campi contenenti riferimenti di campo non validi
 

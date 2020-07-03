@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 04/23/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284406"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431362"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
@@ -89,11 +89,11 @@ Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro
 ## <a name="typing-ahead-of-the-system"></a>Digitare prima del sistema
 In molti scenari aziendali, la capacità di inserire rapidamente i dati nel sistema è molto importante. Prima dell'introduzione del nuovo controllo della griglia, gli utenti potevano modificare i dati solo nella riga corrente. Prima di poter creare una nuova riga o passare a una riga diversa, erano costretti ad attendere che il sistema convalidasse correttamente eventuali modifiche. Nel tentativo di ridurre il tempo di attesa degli utenti per il completamento di queste convalide e di migliorare la produttività degli stessi, la nuova griglia regola tali convalide in modo che siano asincrone. Pertanto, l'utente può spostarsi su altre righe per apportare modifiche mentre sono in corso le convalide delle righe precedenti. 
 
-Per supportare questo nuovo comportamento, una nuova colonna per lo stato della riga è stata aggiunta nella parte superiore della griglia quando la griglia è in modalità di modifica. Questa colonna indica uno dei seguenti stati:
+Per supportare questo nuovo comportamento, una nuova colonna per lo stato della riga è stata aggiunta a destra della colonna di selezione della riga quando la griglia è in modalità di modifica. Questa colonna indica uno dei seguenti stati:
 
 - **Vuoto** - Nessuna immagine di stato indica che la riga è stata salvata correttamente dal sistema.
 - **Elaborazione in sospeso** - Questo stato indica che le modifiche nella riga non sono state ancora salvate dal server ma si trovano in una coda di modifiche che devono essere elaborate. Prima di agire all'esterno della griglia, è necessario attendere l'elaborazione di tutte le modifiche in sospeso. Inoltre, il testo in queste righe è in corsivo per indicare lo stato non salvato delle righe. 
-- **Avviso di convalida** - Questo stato indica che il sistema non è in grado di salvare le modifiche nella riga a causa di alcuni problemi di convalida. Nella griglia precedente, si era costretti a tornare alla riga per risolvere immediatamente il problema. Nella nuova griglia, viene notificato che si è verificato un problema di convalida, ma è possibile decidere quando si desidera risolvere gli eventuali problemi nella riga. Quando si è pronti per risolvere il problema, è possibile spostare manualmente lo stato attivo sulla riga. In alternativa, è possibile selezionare l'azione **Risolvi questo problema**. Questa azione riporta immediatamente lo stato attivo sulla riga che presenta il problema e consente di apportare modifiche all'interno o all'esterno della griglia. Si noti che l'elaborazione delle successive righe in sospeso viene interrotta fino alla risoluzione di questo avviso di convalida. 
+- **Stato non valido** - Questo stato indica che durante l'elaborazione della riga è stato attivato un avviso o un messaggio e potrebbe aver impedito al sistema di salvare le modifiche in quella riga. Nella griglia precedente, se l'operazione di salvataggio non riusciva, si era costretti a tornare alla riga per risolvere immediatamente il problema. Nella nuova griglia, viene notificato che si è verificato un problema di convalida, ma è possibile decidere quando si desidera risolvere gli eventuali problemi nella riga. Quando si è pronti per risolvere un problema, è possibile spostare manualmente lo stato attivo sulla riga. In alternativa, è possibile selezionare l'azione **Risolvi questo problema**. Questa azione riporta immediatamente lo stato attivo sulla riga che presenta il problema e consente di apportare modifiche all'interno o all'esterno della griglia. Si noti che l'elaborazione delle successive righe in sospeso viene interrotta fino alla risoluzione di questo avviso di convalida. 
 - **In sospeso** - Questo stato indica che l'elaborazione da parte del server è in sospeso perché la convalida della riga ha attivato una finestra di dialogo pop-up che richiede l'input dell'utente. Poiché l'utente potrebbe inserire i dati in un'altra riga, la finestra di dialogo pop-up non viene immediatamente presentata all'utente. Verrà invece visualizzata quando l'utente sceglie di riprendere l'elaborazione. Questo stato è accompagnato da una notifica che informa l'utente della situazione. La notifica include l'azione **Riprendere l'elaborazione** che attiverà la finestra di dialogo pop-up.  
     
 Quando gli utenti inseriscono dei dati prima della posizione in cui il server sta elaborando, possono prevedere qualche degrado nell'esperienza di immissione dei dati, come la mancanza di ricerche, la convalida a livello di controllo e l'inserimento di valori predefiniti. Gli utenti che necessitano di un elenco a discesa per trovare un valore sono invitati ad attendere che il server raggiunga la riga corrente. La convalida a livello di controllo e l'inserimento dei valori predefiniti si verificheranno quando il server elabora quella riga.   
@@ -135,55 +135,62 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 
 - Gli elenchi di schede sono stati rappresentati come più colonne e sono ora resi come una singola colonna.
 - Gli elenchi raggruppati non vengono visualizzati come gruppi o in colonne separate.
-- Le descrizioni dei comandi non vengono visualizzate per le immagini.
-- La visualizzazione delle righe della griglia non funziona per tutti i tipi di campo.
-- A intermittenza, non è possibile fare clic al di fuori della griglia dopo aver selezionato più righe.
-- Le opzioni della registrazione attività **Convalida** e **Copia** non sono disponibili per i controlli di data/numero.
+
+### <a name="fixed-as-part-of-10013"></a>Cespiti come parte del 10.0.13
+
+> [!NOTE]
+> Le seguenti informazioni vengono fornite in modo da poter pianificare di conseguenza. Per ulteriori informazioni sul programma di rilascio mirato della versione 10.0.13, vedere [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
+
+- [KB 4563317] Le descrizioni dei comandi non vengono visualizzate per le immagini.
 
 ### <a name="fixed-as-part-of-10012"></a>Cespiti come parte del 10.0.12
 
-> [!Note]
-> Le seguenti informazioni vengono fornite in modo da poter pianificare di conseguenza. Per ulteriori informazioni sul programma di rilascio mirato della versione 10.0.12, vedere [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
-
-- [Problema 429126] I controlli all'esterno della griglia non sono aggiornati dopo l'eliminazione dell'ultimo record.
-- [Problema 430575] I controlli della tabella non aggiornano il contenuto degli elementi visualizzati.
+- [KB 4558545] I controlli della tabella non aggiornano il contenuto degli elementi visualizzati.
 - [KB 4558570] Gli elementi saranno visualizzati nella pagina anche dopo l'eliminazione del record.
-- [KB 4558584] I numeri negativi non verranno visualizzati correttamente.
-- [KB 4558575] I campi non verranno aggiornati dopo una modifica alla riga / l'elaborazione della griglia si bloccherà dopo l'eliminazione della riga.
-- [Problema 436980] Lo stile associato al pannello Elenco **ExtendedStyle** non verrà applicato.
+- [KB 4558572] Lo stile associato al pannello Elenco **ExtendedStyle** non verrà applicato.
 - [KB 4558573] Gli errori di convalida non possono essere corretti quando la modifica richiesta è esterna alla griglia.
-    
-### <a name="quality-update-for-10011"></a>Aggiornamento di qualità per 10.0.11
-
-- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
+- [KB 4558584] I numeri negativi non verranno visualizzati correttamente.
+- [KB 4560726] Si verifica un "errore client imprevisto" dopo lo scambio tra gli elenchi mediante un controllo Visualizza elenco.
+- [KB 4562141] Gli indici di griglia vengono disattivati dopo l'aggiunta di un nuovo record.
+- [KB 4562151] Le opzioni della registrazione attività **Convalida** e **Copia** non sono disponibili per i controlli di data/numero. 
+- [KB 4562153] Le caselle di controllo di selezione multipla non sono visibili nelle griglie elenco/scheda.
+- [KB 4562646] A volte non è possibile fare clic al di fuori della griglia dopo aver selezionato più righe nella griglia.
+- [KB 4562647] Lo stato attivo viene ripristinato sul primo controllo nella finestra di dialogo **Pubblica** dopo l'aggiunta di una nuova riga nella griglia dei ruoli di sicurezza.
+- [KB 4563310] L'anteprima avanzata non viene chiusa dopo la modifica di una riga.
+- [KB 4563313] Si verifica un "errore client imprevisto" in Internet Explorer quando un valore è selezionato in una ricerca.
+- [KB 4563324] La navigazione non funziona dopo l'apertura dell'area di lavoro **Gestione dipendente**.
 
 ### <a name="fixed-as-part-of-10011"></a>Cespiti come parte del 10.0.11
 
+- [Problema 432458] Le righe vuote o duplicate sono mostrate all'inizio di alcune raccolte secondarie.
+- [KB 4549711] Le righe in una proposta di pagamento non possono essere rimosse correttamente dopo l'attivazione del nuovo controllo griglia.
 - [KB 4558374] Non è possibile creare record che richiedono una finestra di dialogo del selettore polimorfico.
-- [KB 4558382] Si verificano errori del client imprevisti.
 - [KB 4558375] Il testo della guida non viene visualizzato nelle colonne della nuova griglia.
 - [KB 4558376] Le griglie del pannello elenco non vengono visualizzate all'altezza corretta in Internet Explorer.
 - [KB 4558377] Le colonne della casella combinata con larghezza **SizeToAvailable** non vengono visualizzate in alcune pagine.
-- [KB 4549711] Le righe in una proposta di pagamento non possono essere rimosse correttamente dopo l'attivazione del nuovo controllo griglia.
 - [KB 4558378] Il drill-through a volte apre il record errato.
 - [KB 4558379] Si verifica un errore quando vengono aperte le ricerche in cui **ReplaceOnLookup**=**No**.
 - [KB 4558380] Lo spazio disponibile nella griglia non viene riempito immediatamente dopo la compressione di una parte della pagina.
-- [Problema 432458] Le righe vuote o duplicate sono mostrate all'inizio di alcune raccolte secondarie.
+- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
+- [KB 4558382] Si verificano errori del client imprevisti.
+- [KB 4558383] I controlli all'esterno della griglia non sono aggiornati dopo l'eliminazione dell'ultimo record.
 - [KB 4558587] I gruppi di riferimento con caselle combinate per i campi di sostituzione non mostrano i valori.
+- [KB 4562143] I campi non verranno aggiornati dopo una modifica alla riga / l'elaborazione della griglia si bloccherà dopo l'eliminazione della riga.
+- [KB 4562645] Si verifica un'eccezione quando viene aperta una ricerca durante l'esecuzione dei test RSAT (Remote Server Administration Tools).
 
 ### <a name="fixed-as-part-of-10010"></a>Cespiti come parte del 10.0.10
 
 - [Problema 414301] Alcuni dati delle righe precedenti scompaiono quando vengono create nuove righe.
-- [KB 4550367] L'ora non è formattata correttamente.
-- [KB 4549734] Le righe attive non vengono trattate come contrassegnate se la colonna di marcatura è nascosta.
 - [Bug 417044] Non esiste un messaggio di griglia vuoto per le griglie in stile elenco.
-- [KB 4558367] La selezione del testo non è coerente quando le righe vengono modificate.
-- [KB 4558372] La nuova griglia si blocca nella modalità di elaborazione se il numero di colonne nel contenuto incollato supera il numero di colonne rimanenti nella griglia.
-- [KB 4558368] La selezione multipla tramite tastiera è consentita in scenari a selezione singola.
 - [KB 4539058] Alcune griglie (in genere nelle schede dettaglio) a volte non vengono visualizzate (ma verranno visualizzate se si esegue lo zoom indietro).
+- [KB 4549734] Le righe attive non vengono trattate come contrassegnate se la colonna di marcatura è nascosta.
+- [KB 4549796] I valori non possono essere modificati in una griglia quando è in modalità visualizzazione.
+- [KB 4558367] La selezione del testo non è coerente quando le righe vengono modificate.
+- [KB 4558368] La selezione multipla tramite tastiera è consentita in scenari a selezione singola.
 - [KB 4558369] Le immagini di stato scompaiono nella griglia gerarchica.
 - [KB 4558370] Scorrendo, una nuova riga non verrà visualizzata.
-- [KB 4549796] I valori non possono essere modificati in una griglia quando è in modalità visualizzazione.
+- [KB 4558372] La nuova griglia si blocca nella modalità di elaborazione se il numero di colonne nel contenuto incollato supera il numero di colonne rimanenti nella griglia.
+- [KB 4562631] L'ora non è formattata correttamente.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>Aggiornamento di qualità per 10.0.9/Aggiornamento della piattaforma 33
 

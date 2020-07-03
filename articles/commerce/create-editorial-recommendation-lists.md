@@ -3,7 +3,7 @@ title: Creare manualmente suggerimenti mirati
 description: In questo argomento viene illustrato come i merchandiser possono creare e gestire manualmente elenchi di prodotti per i clienti di Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b00c83355850f6249068749096b011f805b37e3c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154320"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404118"
 ---
 # <a name="manually-create-curated-recommendations"></a>Creare manualmente suggerimenti mirati
 
@@ -56,7 +56,7 @@ Per creare un elenco curato di suggerimenti sul prodotto, effettuare le operazio
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
-[Abilitare ADLS in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+[Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Abilita suggerimenti sul prodotto](enable-product-recommendations.md)
 

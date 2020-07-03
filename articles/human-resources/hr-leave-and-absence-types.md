@@ -3,12 +3,12 @@ title: Configurare tipi di congedo e assenza
 description: Impostare i tipi di congedo che i dipendenti possono prendere in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198052"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428595"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
 
@@ -56,7 +56,9 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
 8. Sotto **Limitare l'accesso a ruoli selezionati**, scegliere se limitare l'accesso. Quindi selezionare i ruoli di sicurezza sotto **Ruoli di sicurezza per questo tipo di congedo**. I ruoli di sicurezza sono definiti nel flusso di lavoro selezionato sotto **ID flusso di lavoro** precedentemente in questa procedura.
 
-9. Selezionare **Salva**.
+9. Sotto **Relazioni di sospensione**, scegli se questo tipo di congedo deve sospendere questo tipo di congedo o deve essere sospeso da un altro tipo di congedo. Quando una richiesta di congedo viene inviata per il tipo di congedo che provoca la sospensione, verrà automaticamente creata una sospensione del congedo per il tipo di congedo sospeso. 
+
+10. Selezionare **Salva**.
 
 ## <a name="configure-leave-type-rules"></a>Configurare le regole del tipo di congedo
 
@@ -66,16 +68,15 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
    i giorni festivi sono impostati nel calendario orario lavorativo. Per ulteriori informazioni, vedere [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md).
    
-## <a name="configure-preview-features"></a>Configurare funzionalità di anteprima
-
-Se le funzionalità di anteprima per Congedo e assenza sono state abilitate, è necessario configurare le impostazioni anche per tali funzionalità.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Scegliere il tipo di congedo per i saldi del riporto in cui vengono trasferiti. È anche possibile creare un nuovo tipo di congedo per il riporto. 
-
+ 3. Impostare **Tipo di congedo riportabile** per il tipo di congedo. Quando si seleziona questa opzione, tutti i saldi riportabili verranno trasferiti al tipo di congedo specificato. Anche il tipo di congedo riportabile deve essere incluso nel piano di congedo e assenza. 
+ 
+ 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. È inoltre possibile impostare la data di validità della regola di scadenza. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi. 
+ 
+ 
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
+- [Congedo sospeso](hr-leave-and-absence-suspend-leave.md)
+

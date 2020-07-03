@@ -3,7 +3,7 @@ title: Informazioni su FIFO con valore fisico e contrassegno
 description: FIFO (First In, First Out) è un modello inventariale secondo il quale gli articoli acquistati per primi sono i primi a uscire dal magazzino. Le uscite da magazzino aggiornate finanziariamente vengono compensate a fronte delle prime entrate in magazzino aggiornate finanziariamente in base alla data finanziaria della transazione di magazzino.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201757"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454628"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Informazioni su FIFO con valore fisico e contrassegno
 
@@ -49,8 +49,8 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 -   4a. Entrata fisica in magazzino per una quantità pari a 1 al costo unitario di 30,00 EUR.
 -   4b. Entrata finanziaria in magazzino per una quantità pari a 1 al costo unitario di 30,00 EUR.
 -   5a. Uscita fisica da magazzino per una quantità pari a 1 al prezzo di costo unitario di 20,00 EUR (media corrente delle transazioni aggiornate finanziariamente).
--   5b. Uscita finanziaria da magazzino per una quantità pari a 1 al prezzo di costo unitario di 20,00 EUR (media corrente delle transazioni aggiornate finanziariamente).
--   6. Viene eseguita la chiusura inventario. In base al metodo FIFO, la prima uscita aggiornata finanziariamente verrà compensata con la prima entrata aggiornata finanziariamente. Per la transazione in uscita verrà effettuata una rettifica di 10,00 EUR.
+-   5b. Uscita finanziaria da magazzino per una quantità pari a 1 al prezzo di costo unitario di 15,00 EUR (media corrente delle transazioni aggiornate finanziariamente).
+-   6. Viene eseguita la chiusura inventario. In base al metodo FIFO, la prima uscita aggiornata finanziariamente verrà compensata con la prima entrata aggiornata finanziariamente. Per la transazione in uscita verrà effettuata una rettifica di 5,00 EUR.
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente. Le seguenti illustrazioni mostrano gli effetti del modello inventariale FIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. 
 
