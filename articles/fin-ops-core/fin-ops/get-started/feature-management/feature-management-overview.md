@@ -1,9 +1,9 @@
 ---
 title: Panoramica della gestione funzionalità
 description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778707"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456599"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -144,3 +144,34 @@ La gestione delle funzionalità consente di controllare le funzionalità fornite
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilizzo della gestione delle funzionalità per abilitare funzionalità ISV o funzionalità personalizzate
 
 La gestione della funzionalità non è attualmente disponibile per le funzionalità ISV (Independent Software Vendor) e personalizzate. Tuttavia, Microsoft aggiunge ulteriori funzionalità per migliorare la gestione della funzionalità. Dopo il completamento di tali miglioramenti, Microsoft renderà la gestione della funzionalità disponibile per tutte le funzionalità e fornirà istruzioni per l'aggiornamento delle funzionalità.
+
+## <a name="frequently-asked-questions-faq"></a>Domande frequenti
+
+### <a name="when-are-features-added-removed-or-changed"></a>Quando sono state aggiunte, rimosse o modificate le funzionalità? 
+Le funzionalità vengono aggiunte, rimosse e modificate mediante modifiche al codice. Gli ambienti devono essere aggiornati per ricevere tali modifiche.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Una funzionalità diventa automaticamente obbligatoria? 
+No, una funzione che diventa obbligatoria non è un'azione automatica. I team del prodotto devono apportare una modifica del codice.
+
+### <a name="when-do-features-become-mandatory"></a>Quando le funzionalità diventano obbligatorie? 
+I criteri prevedono che tutte le nuove funzionalità saranno attivate per un periodo di 12 mesi e non richiederanno alcuna gestione delle modifiche fino a quando non verrà abilitata la funzionalità. I team del prodotto possono scegliere se rendere obbligatoria una funzione dopo la fine di tale periodo. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Perché non esiste una "data di abilitazione obbligatoria" specifica? 
+I tempi di rilascio degli aggiornamenti sono variabili, i tempi di aggiornamento dell'ambiente sono variabili e i clienti possono scegliere di saltare alcuni aggiornamenti. Di conseguenza, le date specifiche sono difficili da determinare. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Dov'è la documentazione per le funzionalità rese obbligatorie? 
+Questa documentazione proviene dai team delle applicazioni. Spesso, questi verranno menzionati in [Funzionalità rimosse o deprecate](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Esiste una notifica all'interno del prodotto o un segnale che indica che la funzionalità sta per essere abilitata obbligatoriamente? 
+Oggi non esiste un meccanismo di notifica correlato a rendere obbligatoria una funzione.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Le funzionalità vengono sempre abilitate senza che il cliente lo sappia? 
+Sì, se le funzionalità non hanno un impatto funzionale, possono essere abilitate per impostazione predefinita.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Che cos'è la versione di anteprima delle funzionalità e in che modo è correlata alla gestione delle funzionalità? 
+Le versioni di anteprima sono interruttori attivati/disabilitati in tempo reale controllate da Microsoft. Sono diverse dal controllo del cliente fornito da Gestione funzionalità. 
+- Le funzionalità di anteprima private non verranno elencate in Gestione funzionalità fino a quando non vengono visualizzate in anteprima. Nella produzione, il cliente deve accettare di far parte di un programma speciale affinché ciò avvenga.
+- Le funzionalità di anteprima pubblica e rilasciate (generalmente disponibili) verranno elencate in Gestione funzionalità a meno che non vengano disattivate. La versione di anteprima di una funzionalità è considerata l'ultima opzione di ultima istanza per i team del prodotto se viene riscontrato un problema critico e di solito potrebbe essere un'operazione per cliente.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Le funzionalità vengono sempre visualizzate in anteprima senza che il cliente lo sappia? 
+Sì, se una funzionalità influisce sul funzionamento di un ambiente che non ha un impatto funzionale, puoi abilitarla per impostazione predefinita.

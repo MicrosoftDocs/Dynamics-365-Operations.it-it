@@ -3,7 +3,7 @@ title: Metodi di pagamento
 description: Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023097"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463162"
 ---
 # <a name="payment-methods"></a>Metodi di pagamento
 
@@ -39,7 +39,7 @@ I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti
 - **Valuta**: mezzo prevalente di pagamento diverso dalla valuta predefinita della società. Monete e banconote sono entrambe formati di valuta. Il metodo di pagamento in valuta rappresenta tutte le valute utilizzate. Prima di poter utilizzare questo metodo di pagamento, è necessario impostare le valute e specificare le informazioni relative al cambio delle valute.
 - **Carta**: tutti i tipi di carte utilizzate, ad esempio carte di debito o di credito. È opportuno impostare un solo metodo di pagamento con carta a livello dell'organizzazione che rappresenti tutti i tipi di carte. A livello di punto vendita quindi, impostare un metodo di pagamento per ogni carta o set di carte da elaborare utilizzando le stesse impostazioni. Prima di poter accettare le carte come metodo di pagamento in un punto vendita, è necessario impostare le carte dei gestori disponibili sul mercato, ad esempio carte di debito o di credito.
 - **Nota di credito**: note di credito emesse o rimborsate nel POS. Le note di credito possono essere relative a un credito o a un reso emesso per un reso. Se le note di credito vengono rimborsate solo parzialmente, per il nuovo saldo verrà emessa automaticamente una nuova nota di credito con un nuovo numero. È possibile utilizzare una nota di credito una sola volta, nel sistema viene mantenuto un record di tutti i numeri utilizzati. Il record può essere visualizzato nella pagina **Tabella note credito**. Un cliente non può ottenere un rimborso di valore superiore a quello della nota di credito.
-- **Gift card**: rappresenta le gift card emesse o rimborsate presso il POS. L'eccedenza di pagamento non è consentita per le gift card.
+- **Gift card**: rappresenta le gift card emesse o rimborsate presso il POS. L'eccedenza di pagamento non è consentita per le gift card. Tutte le carte regalo devono avere mappature dei numeri di carta. 
 - **Conto cliente**: pagamenti che possono essere addebitati su un conto cliente al momento della vendita al registratore di cassa. È inoltre possibile utilizzare questo metodo di pagamento per acquisire informazioni di vendita o sconti specifici del cliente quando il pagamento viene effettuato tramite un metodo di pagamento diverso. In tal caso, è necessario impostare informazioni specifiche del cliente.
 - **Punti programma fedeltà** - i punti che i clienti accumulano tramite i programmi fedeltà. Se si creano i programmi fedeltà, i clienti possono guadagnare punti e quindi riscattarli in vari modi. Ad esempio, in alcuni programmi fedeltà, i clienti possono riscattare i punti fedeltà sotto forma di sconto o persino utilizzarli come mezzo di pagamento.
 

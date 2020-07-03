@@ -3,7 +3,7 @@ title: Installare, configurare e aggiornare il portale clienti
 description: Questo argomento fornisce dettagli sulle licenze e istruzioni per la configurazione del portale clienti.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413978"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435610"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installare, configurare e aggiornare il portale clienti
 
@@ -35,7 +35,7 @@ Per implementare il portale clienti, è necessario disporre delle seguenti licen
 
 Il portale clienti dipende dai portali Power Apps e dalla doppia scrittura, come mostrato nella figura seguente.
 
-![![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
 A differenza di altre funzionalità di Supply Chain Management, il modello di portale clienti risiede nei portali Power Apps. Pertanto, il portale clienti è limitato dalle funzionalità fornite dai portali  Power Apps e dalle entità in doppia scrittura.
 
@@ -59,7 +59,7 @@ Prima di iniziare, assicurarsi di aver già completato la [configurazione richie
 
 1. Andare a [make.powerapps.com](https://make.powerapps.com/).
 2. Assicurarsi di utilizzare l'ambiente in cui la doppia scrittura è stata abilitata.
-3. Nella scheda **Crea**, scorrere verso il basso fino alla sezione **Inizia da modello** e selezionare il modello denominato **Cliente Supply Chain Management**.
+3. Nella scheda **Crea**, scorrere verso il basso fino alla sezione **Inizia da modello** e selezionare il modello denominato **Portale clienti**.
 4. Seguire le istruzioni visualizzate.
 
 Una volta completato il provisioning, è possibile accedere al portale clienti nella sezione **App personali** della **Home page**.
@@ -71,7 +71,7 @@ Una volta completato il provisioning, è possibile accedere al portale clienti n
 
 Ulteriori funzionalità potrebbero essere aggiunte al portale clienti in seguito. Qualsiasi modifica apportata da Microsoft ai componenti della soluzione sottostante apparirà automaticamente nell'ambiente corrente. Tuttavia, il sito Web di cui viene eseguito il provisioning nell'ambiente non rifletterà automaticamente le modifiche apportate ai dati di configurazione. Sarà necessario applicare manualmente tali modifiche ottenendo il codice dal nuovo modello ed eseguendone il merging con il sito Web di cui è stato eseguito il provisioning.
 
-## <a name="resources"></a>Risorse
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 Per informazioni su come configurare e personalizzare il portale clienti, è necessario consultare la seguente documentazione per le tecnologie sottostanti:
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 10065039fce441d7f96f700ff826d959e96f2479
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410083"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443851"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Risoluzione dei problemi durante la sincronizzazione iniziale
 
@@ -39,7 +39,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In esecuzione**. Se lo stato è **Non in esecuzione**, si sono verificati errori durante la sincronizzazione iniziale. Per visualizzare gli errori, selezionare la scheda **Dettagli sulla sincronizzazione iniziale** nella pagina **Doppia scrittura**.
 
-![Scheda dei dettagli della sincronizzazione iniziale](media/initial_sync_status.png)
+![Errore nella scheda dei dettagli della sincronizzazione iniziale](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Impossibile completare la sincronizzazione iniziale: 400 Richiesta non valida
 
@@ -47,7 +47,7 @@ Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In 
 
 È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di eseguire il mapping e la sincronizzazione iniziale:
 
-*Il server remoto ha restituito un errore: (400) Richiesta non valida. Si è verificato un errore nell'esportazione AX*
+*(\[Richiesta non valida\]. Il server remoto ha restituito un errore: (400) Richiesta non valida). Si è verificato un errore nell'esportazione AX*
 
 Di seguito è riportato un esempio del messaggio di errore completo.
 
@@ -86,130 +86,127 @@ Per risolvere il problema, procedere come segue.
 1. Accedere all'app Finance and Operations.
 2. Nella pagina **Applicazioni Azure Active Directory**, eliminare il client **DtAppID**, quindi aggiungerlo di nuovo.
 
-![Elenco di applicazioni Azure AD](media/aad_applications.png)
+![Client DtAppID nell'elenco di applicazioni Azure AD](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Errori di riferimento automatico o di riferimento circolare durante la sincronizzazione iniziale
 
 È possibile ricevere un messaggio di errore se uno dei mapping include riferimenti automatici o circulari. Gli errori rientrano in queste categorie:
 
-- [Mapping dell'entità Fornitori V2 all'entità msdyn_vendors](#error-vendor-map)
-- [Mapping dell'entità Clienti V3 all'entità Account](#error-customer-map)
+- [Errori nel mapping dell'entità Fornitori V2 per msdyn_vendors](#error-vendor-map)
+- [Errori nel mapping dell'entità Clienti V3 per Account](#error-customer-map)
 
-## <a name="resolve-an-error-in-vendors-v2-to-msdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Risolvere un errore nel mapping dell'entità Fornitori V2 all'entità msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Risolvere gli errori nel mapping dell'entità Fornitori V2 per msdyn_vendors
 
-È possibile che si verifichino i seguenti errori di sincronizzazione iniziale nel mapping dell'entità **Fornitori V2** all'entità **msdyn_vendors** se le entità hanno record esistenti con valori nei campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Questo perché **InvoiceVendorAccountNumber** è un campo di riferimento automatico e **PrimaryContactPersonId** è un riferimento circolare nel mapping del fornitore.
+È possibile che si verifichino errori di sincronizzazione iniziale per il mapping dell'entità **Fornitori V2** all'entità **msdyn\_vendors** se le entità hanno record esistenti con valori nei campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Questi errori si verificano perché **InvoiceVendorAccountNumber** è un campo di riferimento automatico e **PrimaryContactPersonId** è un riferimento circolare nel mapping del fornitore.
 
-*Impossibile risolvere il guid per il campo: <field>. La ricerca non è stata trovata: <value>. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+I messaggi di errore che si ricevono avranno il seguente formato.
 
-Qui di seguito sono riportati alcuni esempi:
+*Impossibile risolvere il guid per il campo: \<field\>. La ricerca non è stata trovata: \<value\>. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Impossibile risolvere il guid per il campo: msdyn_vendorprimarycontactperson.msdyn_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Impossibile risolvere il guid per il campo: msdyn_invoicevendoraccountnumber.msdyn_vendoraccountnumber. La ricerca non è stata trovata: V24-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'*
+Di seguito sono riportati alcuni esempi.
 
-Se si hanno record con valori in questi campi nell'entità fornitore, seguire i passaggi nella sezione seguente per completare correttamente la sincronizzazione iniziale.
+- *Impossibile risolvere il guid per il campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Impossibile risolvere il guid per il campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. La ricerca non è stata trovata: V24-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-1. Nell'app Finance and Operations, eliminare i campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** dal mapping e salvare le modifiche.
+Se i record nell'entità fornitore hanno valori nei campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, seguire questi passaggi per completare la sincronizzazione iniziale.
 
-    1. Passare alla pagina del mapping in doppia scrittura per **Fornitori V2 (msdyn_vendors)** e selezionare la scheda **Mapping entità**. Nel filtro a sinistra, selezionare **App Finance and Operations.Fornitori V2**. Nel filtro di destra, selezionare **Vendite.Fornitore**.
+1. Nell'app Finance and Operations, eliminare i campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** dal mapping e salvare il mapping.
 
-    2. Cercare **primarycontactperson** per trovare il campo sorgente **PrimaryContactPersonId**.
-    
-    3. Fare clic sul pulsante **Azioni**, quindi selezionare **Elimina**.
-    
-        ![Riferimento automatico o circolare 3](media/vend_selfref3.png)
-    
-    4. Ripetere l'operazione per eliminare il campo **InvoiceVendorAccountNumber**.
-    
-        ![Riferimento automatico o circolare 4](media/vend-selfref4.png)
-    
-    5. Salvare le modifiche al mapping.
+    1. Nella pagina del mapping in doppia scrittura per **Fornitori V2 (msdyn\_vendors)** e selezionare la scheda **Mapping entità**. Nel filtro a sinistra, selezionare **Finance and Operations apps.Vendors V2**. Nel filtro di destra, selezionare **Vendite.Fornitore**.
+    2. Cercare **primarycontactperson** per trovare il campo di origine **PrimaryContactPersonId**.
+    3. Selezionare **Azioni**, quindi selezionare **Elimina**.
 
-2. Disabilitare il rilevamento delle modifiche per l'entità **Fornitori V2**.
+        ![Eliminazione del campo PrimaryContactPersonId](media/vend_selfref3.png)
 
-    1. Accedere a **Gestione dati \> Entità dati**.
-    
+    4. Ripetere questi passaggi per eliminare il campo **InvoiceVendorAccountNumber**.
+
+        ![Eliminazione del campo InvoiceVendorAccountNumber](media/vend-selfref4.png)
+
+    5. Salvare le modifiche nel mapping.
+
+2. Disattivare il rilevamento delle modifiche per l'entità **Fornitori V2**.
+
+    1. Nell'area di lavoro **Gestione dati** selezionare la scheda **Entità di dati**.
     2. Selezionare l'entità **Fornitori V2**.
-    
-    3. Fare clic su **Opzioni** nella barra dei menu, quindi selezionare **Rilevamento modifiche**.
-    
-        ![Riferimento automatico o circolare 5](media/selfref_options.png)
-    
-    4. Fare clic su **Disabilita rilevamento modifiche**.
-    
-        ![Riferimento automatico o circolare 6](media/selfref_tracking.png)
+    3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
 
-3. Eseguire la sincronizzazione iniziale del mapping **Fornitori V2 (msdyn_vendors)**. La sincronizzazione iniziale deve essere eseguita correttamente senza errori.
+        ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
 
-4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**. È necessario sincronizzare questo mapping se si desidera sincronizzare il campo di contatto primario nell'entità fornitori poiché anche i record di contatti devono essere sincronizzati inizialmente.
+    4. Selezionare **Disabilita rilevamento modifiche**.
 
-5. Aggiungere di nuovo i campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** al mapping **Fornitori V2 (msdyn_vendors)** e salvare il mapping.
+        ![Selezione di Disabilita rilevamento modifiche](media/selfref_tracking.png)
 
-6. Eseguire di nuovo la sincronizzazione iniziale per il mapping **Fornitori V2 (msdyn_vendors)**. Tutti i record verranno sincronizzati poiché il rilevamento delle modifiche è disabilitato.
+3. Eseguire la sincronizzazione iniziale per il mapping **Fornitori V2 (msdyn\_vendors)**. La sincronizzazione iniziale deve essere eseguita correttamente senza errori.
+4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**. È necessario sincronizzare questo mapping se si desidera sincronizzare il campo di contatto primario nell'entità fornitori perché la sincronizzazione deve essere eseguita anche per i record di contatti.
+5. Aggiungere di nuovo i campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** al mapping **Fornitori V2 (msdyn\_vendors)** e salvare il mapping.
+6. Eseguire di nuovo la sincronizzazione iniziale per il mapping **Fornitori V2 (msdyn\_vendors)**. Tutti i record verranno sincronizzati perché il rilevamento delle modifiche è disabilitato.
+7. Attivare di nuovo il rilevamento delle modifiche per l'entità **Fornitori V2**.
 
-7. Abilitare il rilevamento delle modifiche per l'entità **Fornitori V2**.
+## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Risolvere gli errori nel mapping dell'entità Clienti V3 all'entità Account
 
-## <a name="resolve-an-error-in-customers-v3-to-accounts-entity-mapping"></a><a id="error-customer-map"></a>Risolvere un errore nel mapping dell'entità Clienti V3 all'entità Account
+È possibile che si verifichino errori di sincronizzazione iniziale per il mapping dell'entità **Clienti V3** all'entità **Account** se le entità hanno record esistenti con valori nei campi **ContactPersonID** e **InvoiceAccount**. Questi errori si verificano perché **InvoiceAccount** è un campo di riferimento automatico e **ContactPersonID** è un riferimento circolare nel mapping del fornitore.
 
-È possibile che si verifichino i seguenti errori di sincronizzazione iniziali nel mapping di **Clienti V3** a **Account** se le entità hanno record esistenti con valori nei campi **ContactPersonID** e **InvoiceAccount**. Questo perché **InvoiceAccount** è un campo di riferimento automatico e **ContactPersonID** è un riferimento circolare nel mapping del fornitore.
+I messaggi di errore che si ricevono avranno il seguente formato.
 
-*Impossibile risolvere il guid per il campo: <field>. La ricerca non è stata trovata: <value>. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+*Impossibile risolvere il guid per il campo: \<field\>. La ricerca non è stata trovata: \<value\>. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Impossibile risolvere il guid per il campo: primarycontactid.msdyn_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Impossibile risolvere il guid per il campo: msdyn_billingaccount.accountnumber. La ricerca non è stata trovata: 1206-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'*
+Di seguito sono riportati alcuni esempi.
 
-Se si hanno record con valori in questi campi nell'entità cliente, seguire i passaggi nella sezione seguente per completare correttamente la sincronizzazione iniziale. È possibile utilizzare questo approccio per tutte le entità predefinite come Account e Contatti.
+- *Impossibile risolvere il guid per il campo: primarycontactid.msdyn\_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Impossibile risolvere il guid per il campo: msdyn\_billingaccount.accountnumber. La ricerca non è stata trovata: 1206-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-1. Nell'app Finance and Operations, eliminare i campi **ContactPersonID** e **InvoiceAccount** dal mapping **Clienti V3 (account)** e salvare il mapping.
+Se i record nell'entità cliente hanno valori nei campi **ContactPersonID** e **InvoiceAccount**, seguire questi passaggi per completare la sincronizzazione iniziale. È possibile utilizzare questo approccio per tutte le entità predefinite come **Account** e **Contatti**.
 
-    1. Passare alla pagina del mapping in doppia scrittura per **Clienti V3 (account)** e selezionare la scheda **Mapping entità**. Nel filtro a sinistra, selezionare **App Finance and Operations.Clienti V3**. Nel filtro a destra, selezionare **Common Data Service.Account**.
+1. Nell'app Finance and Operations, eliminare i campi **ContactPersonID** e **InvoiceAccount** dal mapping **Clienti V3 (account)** e quindi salvare il mapping.
 
-    2. Cercare **contactperson** per trovare il campo sorgente **ContactPersonID**.
-    
-    3. Fare clic sul pulsante **Azioni**, quindi selezionare **Elimina**.
-    
-        ![Riferimento automatico o circolare 3](media/cust_selfref3.png)
-    
-    4. Ripetere l'operazione per eliminare il campo **InvoiceAccount**.
-    
-        ![Riferimento automatico o circolare](media/cust_selfref4.png)
-    
-    5. Salvare le modifiche al mapping.
+    1. Nella pagina del mapping in doppia scrittura per **Clienti V3 (account)**, selezionare la scheda **Mapping entità** e nel filtro a sinistra, selezionare **App Finance and Operations.Clienti V3**. Nel filtro a destra, selezionare **Common Data Service.Account**.
+    2. Cercare **contactperson** per trovare il campo di origine **ContactPersonID**.
+    3. Selezionare **Azioni**, quindi selezionare **Elimina**.
 
-2. Disabilitare il rilevamento delle modifiche per l'entità **Clienti V3**.
+        ![Eliminazione del campo ContactPersonID](media/cust_selfref3.png)
 
-    1. Accedere a **Gestione dati \> Entità dati**.
-    
+    4. Ripetere questi passaggi per eliminare il campo **InvoiceAccount**.
+
+        ![Eliminazione del campo InvoiceAccount](media/cust_selfref4.png)
+
+    5. Salvare le modifiche nel mapping.
+
+2. Disattivare il rilevamento delle modifiche per l'entità **Clienti V3**.
+
+    1. Nell'area di lavoro **Gestione dati** selezionare la scheda **Entità di dati**.
     2. Selezionare l'entità **Clienti V3**.
-    
-    3. Fare clic su **Opzioni** nella barra dei menu, quindi selezionare **Rilevamento modifiche**.
-    
-        ![Riferimento automatico o circolare 5](media/selfref_options.png)
-    
-    4. Fare clic su **Disabilita rilevamento modifiche**.
-    
-        ![Riferimento automatico o circolare 6](media/selfref_tracking.png)
+    3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
+
+        ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
+
+    4. Selezionare **Disabilita rilevamento modifiche**.
+
+        ![Selezione di Disabilita rilevamento modifiche](media/selfref_tracking.png)
 
 3. Eseguire la sincronizzazione iniziale per il mapping **Clienti V3 (account)**. La sincronizzazione iniziale deve essere eseguita correttamente senza errori.
+4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**.
 
-4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**. Ci sono 2 mappe con lo stesso nome. Selezionare quella con la descrizione **Modello in doppia scrittura per la sincronizzazione tra Contatti fornitore FO.CDS V2 e CDS.Contatti. Necessita un nuovo pacchetto \[Dynamics365SupplyChainExtended\].** nella scheda **Dettagli** della mappa.
+    > [!NOTE]
+    > Sono presenti due mappe con lo stesso nome. Assicurarsi di selezionare la mappa con la descrizione **Modello in doppia scrittura per la sincronizzazione tra Contatti fornitore FO.CDS V2 e CDS.Contatti. Necessita un nuovo pacchetto \[Dynamics365SupplyChainExtended\] nella scheda** **Dettagli**.
 
-5. Aggiungere di nuovo i campi **ContactPersonID** e **InvoiceAccount** al mapping **Clienti V3 (account)** e salvare il mapping. Adesso i campi **InvoiceAccount** e **ContactPersonId** fanno di nuovo parte della modalità di sincronizzazione in tempo reale. Nel passaggio successivo, completare la sincronizzazione iniziale per questi campi.
+5. Aggiungere di nuovo i campi **ContactPersonID** e **InvoiceAccount** al mapping **Clienti V3 (account)** e quindi salvare il mapping. I campi **InvoiceAccount** e **ContactPersonId** fanno di nuovo parte della modalità di sincronizzazione in tempo reale. Nel passaggio successivo, eseguire la sincronizzazione iniziale per questi campi.
+6. Eseguire di nuovo la sincronizzazione iniziale per il mapping **Clienti V3 (account)**. Poiché il rilevamento delle modifiche è disattivato, i dati per **InvoiceAccount** e **ContactPersonId** vengono sincronizzati dall'app Finance and Operations a Common Data Service.
+7. Per sincronizzare i dati per **InvoiceAccount** e **ContactPersonId** da Common Data Service all'app Finance and Operations, è necessario utilizzare un progetto di integrazione dei dati.
 
-6. Eseguire di nuovo la sincronizzazione iniziale per il mapping **Clienti V3 (account)**. Poiché il rilevamento delle modifiche è disabilitato, l'esecuzione della sincronizzazione sincronizzerà i dati per **InvoiceAccount** e **ContactPersonId** dall'app Finance and Operations a Common Data Service.
+    1. In Power Apps, creare un progetto di integrazione dei dati tra le entità **Vendite.Account** e **Finance and Operations apps.Customers V3**. La direzione dei dati deve essere da Common Data Service all'app Finance and Operations. Poiché **InvoiceAccount** è un nuovo attributo in doppia scrittura, è possibile che si voglia ignorare la sincronizzazione iniziale. Per ulteriori informazioni, vedere [Integrare dati in Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
-7. Per sincronizzare i dati per **InvoiceAccount** e **ContactPersonId** da Common Data Service a Finance and Operations, si utilizza un progetto di integrazione dei dati.
+        La figura seguente mostra un progetto che aggiorna **CustomerAccount** e **ContactPersonId**.
 
-    1. In Power Apps, creare un progetto di integrazione dei dati tra le entità **Vendite.Account** e **App Finance and Operations.Clienti V3**. La direzione dei dati deve essere da Common Data Service all'app Finance and Operations.  Poiché **InvoiceAccount** è un nuovo attributo in doppia scrittura, è possibile che si voglia ignorare la sincronizzazione iniziale per questo attributo. Per ulteriori informazioni, vedere [Integrare dati in Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+        ![Progetto di integrazione dei dati per aggiornare CustomerAccount e ContactPersonId](media/cust_selfref6.png)
 
-        L'immagine seguente mostra un progetto che aggiorna **CustomerAccount** e **ContactPersonId**.
+    2. Aggiungere i criteri dell'azienda nel filtro sul lato Common Data Service in modo che solo i record che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**. 
 
-        ![Riferimento automatico o circolare](media/cust_selfref6.png)
+        > [NOTA] Se il pulsante del filtro non è presente, creare un ticket di supporto per chiedere al team di integrazione dei dati di abilitare la funzionalità sul tenant.
 
-    2. Aggiungere i criteri dell'azienda nel filtro sul lato Common Data Service, poiché solo i record che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, fare clic sull'icona filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **_msdyn_company_value eq '\<guid\>'**. Se l'icona filtro non è presente, creare un ticket di supporto per chiedere al team di integrazione dei dati di abilitare la funzionalità sul tenant. Se non si immette una query filtro per **_msdyn_company_value**, tutti i record vengono sincronizzati.
+        Se non si immette una query filtro per **\_msdyn\_company\_value**, tutti i record vengono sincronizzati.
 
-        ![Riferimento automatico o circolare](media/cust_selfref7.png)
+        ![Aggiunta di una query filtro](media/cust_selfref7.png)
 
-        La sincronizzazione iniziale dei record risulta completata.
+    La sincronizzazione iniziale dei record è ora completata.
 
-8. Abilitare il rilevamento delle modifiche per l'entità **Clienti V3** nell'app Finance and Operations.
-
+8. Abilitare di nuovo il rilevamento delle modifiche nell'app Finance and Operations per l'entità **Clienti V3**.
