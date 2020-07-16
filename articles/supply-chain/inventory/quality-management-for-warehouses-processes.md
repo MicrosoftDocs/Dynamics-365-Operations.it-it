@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 481f7787e21cd9a00ed1798d4d2588e93ca73b56
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346539"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530123"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
@@ -46,7 +46,7 @@ La funzione _Gestione qualità per i processi di magazzino_ genera automaticamen
 
 Quando la funzione _Gestione qualità per i processi di magazzino_ è attivata, modifica l'impostazione delle principali entità di gestione del magazzino e di gestione della qualità. La seguente illustrazione fornisce una panoramica delle entità che abilitano gli ordini di controllo qualità per i processi di magazzino. Il testo tra parentesi indica le azioni suggerite quando è stata applicata la gestione della qualità prima che la funzione _Gestione qualità per i processi di gestione magazzino_ sia stata attivata.
 
-![![Processi di gestione qualità](media/quality-management-entity-diagram.png "Entità di gestione qualità")](media/quality-management-entity-diagram.png "Quality management entities")
+![Processi di gestione qualità](media/quality-management-entity-diagram.png "Entità di gestione qualità")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Addetti all'abilitazione: tipi ordine di lavoro dell'ordine di controllo qualità e campionamento di articoli di qualità
 

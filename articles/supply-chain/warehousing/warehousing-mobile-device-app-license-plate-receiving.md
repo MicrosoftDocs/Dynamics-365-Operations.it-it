@@ -1,6 +1,6 @@
 ---
-title: Ricevimento della targa tramite l'app Warehousing
-description: Questo argomento spiega come configurare l'app Warehousing per supportare l'utilizzo di un processo di ricevimento della targa per ricevere l'inventario fisico.
+title: Ricevimento della targa tramite l'app di magazzino
+description: Questo argomento spiega come configurare l'app di magazzino per supportare l'utilizzo di un processo di ricevimento della targa per ricevere l'inventario fisico.
 author: perlynne
 manager: tfehr
 ms.date: 04/29/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410887"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530192"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>Ricevimento della targa tramite l'app Warehousing
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ricevimento della targa tramite l'app di magazzino
 
-Questo argomento spiega come configurare l'app Warehousing in modo che supporti l'utilizzo di un processo di Ricevimento della targa per ricevere l'inventario fisico.
+Questo argomento spiega come configurare l'app di magazzino in modo che supporti l'utilizzo di un processo di Ricevimento della targa per ricevere l'inventario fisico.
 
 È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 

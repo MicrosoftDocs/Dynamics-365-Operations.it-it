@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346470"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530307"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -186,7 +186,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
     La quantità **10** per il numero di batch **B11** viene ora prelevata per la riga ordine cliente e inserita nell'ubicazione **Baydoor**. A questo punto, è pronta per essere caricata sul camion e spedita all'indirizzo del cliente.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Gestione delle eccezioni per lavoro di magazzino che ha numeri batch impegnati nell'ordine
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Gestione delle eccezioni per lavoro di magazzino che ha numeri batch impegnati nell'ordine
 
 Il lavoro di magazzino per il prelievo di numeri batch impegnati nell'ordine è soggetto alle stesse azioni e gestione standard delle eccezioni di magazzino del lavoro normale. In generale, il lavoro o la riga lavoro aperto può essere annullato, interrotto perché l'ubicazione di un utente è piena, prelevato in modo insufficiente e aggiornato a causa di un movimento. Allo stesso modo, la quantità di lavoro prelevata che è già stata completata può essere ridotta oppure il lavoro può essere stornato.
 

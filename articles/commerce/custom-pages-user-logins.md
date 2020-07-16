@@ -3,7 +3,7 @@ title: Impostare pagine personalizzate per l'accesso degli utenti
 description: In questo argomento viene descritto come creare pagine personalizzate in Microsoft Dynamics 365 Commerce che consentono di gestire accessi personalizzati per gli utenti di tenant business-to-consumer (B2C) di Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456974"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533461"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -198,8 +198,6 @@ Una volta aggiornato il file global.json e pubblicato le modifiche, il nuovo tes
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
 [Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
-
-[Impostare un canale punto vendita online](online-stores.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 

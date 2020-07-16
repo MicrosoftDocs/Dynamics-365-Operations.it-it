@@ -3,7 +3,7 @@ title: Panoramica della gestione funzionalità
 description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456599"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499621"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -140,6 +140,10 @@ Gli esempi riportati di seguito descrivono cosa accade quando si utilizza l'enti
 ## <a name="feature-management-and-flighting"></a>Gestione delle funzionalità e versione di anteprima
 
 La gestione delle funzionalità consente di controllare le funzionalità fornite in ogni versione. La versione di anteprima consente ai team Microsoft di rilasciare funzionalità per un numero limitato di clienti, in modo che tali funzionalità possano essere testate e convalidate senza influire su tutti i clienti. La gestione delle funzionalità non controlla la versione di anteprima di alcuna funzionalità.
+
+## <a name="new-features-are-optional-for-12-months"></a>Le nuove funzionalità sono facoltative per 12 mesi
+
+Quando viene installata una nuova funzionalità non critica, sarà facoltativa per un periodo di 12 mesi. Ciò consente a te e alla tua organizzazione di pianificare in anticipo quando utilizzare una funzionalità e verificarla rispetto alle operazioni quotidiane. Per ulteriori informazioni, vedi [Domande frequenti aggiornamenti del servizio versione uno](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilizzo della gestione delle funzionalità per abilitare funzionalità ISV o funzionalità personalizzate
 

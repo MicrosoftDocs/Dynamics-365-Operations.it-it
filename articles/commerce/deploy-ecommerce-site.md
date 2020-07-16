@@ -3,7 +3,7 @@ title: Distribuire un nuovo tenant di e-Commerce
 description: In questo argomento viene descritto come distribuire un nuovo tenant di e-Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 author: psimolin
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269937"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533277"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-Commerce
 
@@ -96,8 +96,6 @@ Per accedere a Creazione di siti Web, selezionare la scheda **e-Commerce** nella
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
-
-[Impostare un canale punto vendita online](online-stores.md)
 
 [Associare un sito online a un canale](associate-site-online-store.md)
 

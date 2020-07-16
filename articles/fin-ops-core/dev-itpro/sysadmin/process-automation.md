@@ -1,0 +1,45 @@
+---
+title: Automazione del processo
+description: Questo argomento fornisce dettagli su come l'automazione dei processi consente una semplice pianificazione dei processi che verranno eseguiti dal server batch.
+author: RyanCCarlson2
+manager: tonyafehr
+ms.date: 06/24/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProcessScheduleSeries
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: rcarlson
+ms.search.validFrom: 2020-06-30
+ms.dyn365.ops.version: AX 10.0.11
+ms.openlocfilehash: 2ab4e7510ff98b9fbf0223096b905e9de47f52e1
+ms.sourcegitcommit: 1833c1e07a32c8ad41e4a1516e78100ae04a2156
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3508187"
+---
+# <a name="process-automation"></a>Automazione del processo
+
+[!include[banner](../includes/banner.md)]
+
+L'automazione dei processi consente una semplice pianificazione dei processi che verranno eseguiti dal server batch. La visualizzazione calendario aggiornata del lavoro pianificato consente agli utenti finali di visualizzare e agire sul lavoro programmato e completato.
+
+## <a name="administration"></a>Amministrazione sistema
+
+La pagina di amministrazione centrale per tutte le automazioni di processo si trova nel modulo Amministrazione di sistema nel menu **Impostazione**. Questa pagina elencherà tutti i processi automatizzati (serie) impostati nel sistema. Consentirà anche di aggiungere nuove automazioni di processo direttamente da questa pagina. Dopo aver impostato una serie, è possibile gestire ogni serie da questo elenco. È possibile scegliere di modificare l'intera serie, eliminarla, visualizzare tutte le occorrenze in una vista elenco o disabilitare la serie se si desidera sospendere il lavoro pianificato per un periodo di tempo. 
+
+## <a name="calendar-view"></a>Visualizzazione calendario 
+Uno dei principali vantaggi dell'automazione di processo è la capacità di vedere il lavoro pianificato in una semplice vista del calendario.  Questa vista ti consente di vedere il lavoro per una settimana alla volta. Vedrai questa vista sul lato destro della pagina **Automazione processo**. Verrà popolata con il lavoro pianificato per le serie selezionate. 
+
+[![Calendario di automazione del processo](./media/CalendarView2.png)](./media/CalendarView2.png)
+
+## <a name="occurrence-changes"></a>Modifiche alle occorrenze
+Ogni occorrenza può essere modificata senza influire su altre occorrenze definite dalle serie che le hanno originate. Le occorrenze di lavoro pianificato possono essere modificate dalla vista del calendario selezionando il pulsante **Visualizza/Modifica** e selezionando **Occorrenza**. Ciò consente di accedere a tutte le impostazioni originariamente mostrate nella procedura guidata di configurazione della serie e offre la possibilità di apportare una modifica una tantum per l'occorrenza selezionata. Un'occorrenza di lavoro pianificato può anche essere disattivata selezionando il pulsante **Disabilita** dalla vista del calendario. 
+
+## <a name="developer-documentation"></a>Documentazione sviluppatori 
+La documentazione per gli sviluppatori è attualmente in fase di scrittura per consentire agli sviluppatori di estendere il framework di automazione dei processi. Questa documentazione fornirà informazioni su come è possibile creare processi personalizzati che devono essere eseguiti dal server batch pianificato con la procedura guidata di automazione dei processi e visualizzati automaticamente nella vista del calendario.

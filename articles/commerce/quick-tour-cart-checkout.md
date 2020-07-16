@@ -1,9 +1,9 @@
 ---
-title: Panoramica delle pagine checkout e carrello
+title: Panoramica delle pagine del checkout e del carrello
 description: Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002937"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527565"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Panoramica delle pagine checkout e carrello
-
+# <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine del checkout e del carrello
 
 [!include [banner](includes/banner.md)]
 
@@ -105,8 +104,6 @@ Per ulteriori informazioni su come creare una pagina checkout, vedere [Aggiunger
 
 [Panoramica della home page](quick-tour-home-page.md)
 
-[Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
+[Panoramica delle pagine dei dettagli del prodotto](quick-tour-pdp.md)
 
-[Panoramica delle pagine dettagli prodotto](quick-tour-pdp.md)
-
-[Panoramica delle pagine di gestione account](quick-tour-account-management.md)
+[Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261344"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530583"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -66,7 +66,7 @@ Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti 
 
 - **Un menu del dispositivo mobile configurato per supportare la ricezione del carico**
 
-    L'[app Dynamics 365 for Finance and Operations - Magazzino](install-configure-warehousing-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
+    L'[app di magazzino](install-configure-warehousing-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
 
     - Ricezione articoli di carico
     - Ricevimento e stoccaggio articoli di carico
@@ -285,7 +285,7 @@ Per elaborare questi scenari utilizzando i record e i valori di esempio specific
 
 Prima che gli addetti al ricevimento del magazzino possano utilizzare un dispositivo mobile per registrare l'inventario in entrata collegato a un carico, è necessario creare una voce di menu del dispositivo mobile a tale scopo.
 
-In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app Magazzino.
+In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app di magazzino.
 
 1. Andare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile** e verificare che il menu del dispositivo mobile includa una voce di menu con le seguenti impostazioni:
 

@@ -1,9 +1,9 @@
 ---
 title: Delegare elementi di lavoro in un flusso di lavoro
 description: Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140584"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515766"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegare elementi di lavoro in un flusso di lavoro
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140584"
 ## <a name="manually-delegate-a-work-item"></a>Delegare manualmente un elemento di lavoro
 
 Per delegare un singolo elemento di lavoro, selezionare l'opzione **Delega** nel menu **Flusso di lavoro** e immettere il nome dell'utente da delegare con un commento. In questo modo si riassegnerà l'elemento di lavoro a tale utente di modo che possa completarlo.
+
+## <a name="manually-delegate-multiple-work-items"></a>Delega manuale di più elementi di lavoro
+
+Più elementi di lavoro possono essere delegati insieme dalla pagina **Elementi di lavoro assegnati a me**. I seguenti tipi di flusso di lavoro sono idonei per la delega di massa: flusso di lavoro di approvazione del contratto di acquisto, flusso di lavoro dell'ordine di acquisto, revisione della richiesta di acquisto e flusso di lavoro della fattura fornitore. La funzionalità **Delega più elementi di lavoro** è disabilitata per impostazione predefinita e può essere abilitata in **Aree di lavoro > Gestione funzionalità**. Contatta l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
+1.  Vai a **Comune> Comune> Elementi di lavoro> Elementi di lavoro assegnati a me**.
+2.  Seleziona gli elementi di lavoro che verranno delegati.
+3.  Fai clic sul menu **Delegare elementi di lavoro**.
+4.  Nel campo **Utente** seleziona l'utente a cui vuoi delegare gli elementi di lavoro.
+5.  Nel campo **Commento** immettere un commento che spiega il motivo della delega degli elementi di lavoro.
+6.  Fai clic sul pulsante **Delega elementi di lavoro** per completare la delega degli elementi di lavoro.
 
 ## <a name="automatically-delegate-work-items"></a>Delegare automaticamente elementi di lavoro
 

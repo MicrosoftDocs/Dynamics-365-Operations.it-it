@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201481"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530238"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 
@@ -164,7 +164,7 @@ Per eseguire il cross-dock della quantità di prodotti finiti nell'ubicazione in
 8. Nella pagina **Ordine di produzione**, nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Stima** e quindi **OK**. L'ordine viene stimato e la quantità di materie prime viene prenotata per la produzione.
 9. Nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Rilascio** e quindi **OK**. Il lavoro di prelievo di magazzino viene creato per le materie prime.
 10. Aprire ed esaminare il lavoro. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale**, selezionare **Dettagli lavoro**. Prendere nota dell'ID lavoro.
-11. Aprire e accedere all'app Dynamics 365 for Finance and Operations – Magazzino per eseguire il lavoro nel magazzino 51.
+11. Accedi all'app di magazzino per eseguire il lavoro nel magazzino 51.
 12. Andare a **Produzione** \> **Prelievo di produzione**.
 13. Immettere l'ID lavoro per avviare e completare il prelievo delle materie prime. 
 

@@ -3,7 +3,7 @@ title: Impostare un canale online
 description: In questo argomento viene descritto come creare un nuovo canale in Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002429"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533323"
 ---
 # <a name="set-up-an-online-channel"></a>Impostare un canale online
 
@@ -35,9 +35,9 @@ In questo argomento viene descritto come creare un nuovo canale in Microsoft Dyn
 
 In Dynamics 365 Commerce sono supportati più canali di vendita al dettaglio. Questi canali di vendita al dettaglio includono punti vendita online, call center e punti vendita al dettaglio, noti anche come punti vendita fisici. I punti vendita online offrono ai clienti la possibilità di acquistare prodotti presso il punto vendita online del fornitore oltre che nei punti vendita al dettaglio.
 
-Per creare un negozio online in Commerce, devi prima creare un canale online. 
+Per creare un negozio online in Commerce, devi prima creare un canale online. Prima di creare un nuovo canale online, assicurarsi di aver completato i [prerequisiti di impostazione dei canali](channels-prerequisites.md).
 
-Prima di creare un nuovo canale online, assicurarsi di aver completato i [prerequisiti di impostazione dei canali](channels-prerequisites.md).
+Prima di poter creare un nuovo sito, almeno un punto vendita online deve essere creato in Commerce. Per ulteriori informazioni, vedi [Creare un sito di e-commerce](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Creare e configurare un nuovo canale online
 

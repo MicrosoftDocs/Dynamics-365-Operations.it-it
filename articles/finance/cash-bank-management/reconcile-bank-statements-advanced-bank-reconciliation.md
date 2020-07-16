@@ -3,7 +3,7 @@ title: Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria a
 description: La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo argomento viene descritto il processo di riconciliazione.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178493"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497147"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
 
@@ -41,9 +41,9 @@ Si importano i rendiconti bancari utilizzando l'azione **Importa rendiconto** ne
 -   Per importare un singolo file di rendiconto bancario per un singolo conto, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **No** e selezionare il conto bancario associato con il rendiconto. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 -   Per importare un singolo file di rendiconto bancario per più conti, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 
-Se alcuni rendiconti nel file elettronico non possono essere associati a un conto bancario tramite i campi di identificazione, non verranno importati. Tuttavia, altri rendiconti nel file possono comunque essere importati. L'utente riceve un messaggio indicante che l'importazione dei rendiconti bancari non è riuscita per specifici conti bancari. Tenere presente che l'utente che importa il file di rendiconto bancario deve avere accesso a una persona giuridica per importare i rendiconti per i conti bancari di tale persona giuridica. 
+Se alcuni rendiconti nel file elettronico non possono essere associati a un conto bancario o se sono associati a più conti bancari tramite i campi di identificazione, non verranno importati. Tuttavia, altri rendiconti nel file possono comunque essere importati. L'utente riceve un messaggio indicante che l'importazione dei rendiconti bancari non è riuscita per specifici conti bancari. Tenere presente che l'utente che importa il file di rendiconto bancario deve avere accesso a una persona giuridica per importare i rendiconti per i conti bancari di tale persona giuridica. 
 
-È possibile usare un file ZIP per caricare più file di rendiconto in Finance in un unico processo. Per importare più file di rendiconto bancario per più conti, combinare tutti i file di rendiconto bancario in un unico file zip. Nella finestra di dialogo **Importa rendiconti bancari**, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file zip che contiene i file di rendiconto bancario, quindi fare clic su **Carica**. Il processo di importazione riconoscerà il file ZIP e caricherà ciascun rendiconto incluso in esso, indipendentemente dalla persona giuridica del conto bancario. 
+È possibile usare un file ZIP per caricare più file di rendiconto in Finance in un unico processo. Per importare più file di rendiconto bancario per più conti, combinare tutti i file di rendiconto bancario in un unico file zip. Nella finestra di dialogo **Importa rendiconti bancari**, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file zip che contiene i file di rendiconto bancario, quindi fare clic su **Carica**. Il processo di importazione riconoscerà il file ZIP e caricherà ciascun rendiconto incluso in esso, indipendentemente dalla persona giuridica del conto bancario.
 
 Un'opzione **Riconcilia dopo l'importazione** è disponibile. Quando questa opzione è impostata su **Sì**, il sistema automaticamente convalida il rendiconto bancario, crea una nuova riconciliazione e un foglio di lavoro estratti conto ed esegue il set di regole di abbinamento predefinite quando viene caricato il rendiconto bancario. Questa funzionalità consente di automatizzare il processo fino al punto in cui le transazioni devono essere abbinate manualmente.
 

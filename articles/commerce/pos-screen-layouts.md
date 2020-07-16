@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261469"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505636"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
@@ -101,7 +101,7 @@ All'avvio, l'applicazione POS sceglierà automaticamente la dimensione del layou
 > [!TIP]
 > È possibile ottenere la dimensione del layout necessaria per uno schermo di Retail POS vedendo la risoluzione nell'app. Avviare il POS e passare a **Impostazioni \> Informazioni sulla sessione**. In POS verrà visualizzato il layout dello schermo attualmente caricato, la dimensione del layout e la risoluzione della finestra nell'app.
 
-![Dimensioni layout POS](../commerce/media/POS-Session-Information.png)
+![Pagina delle informazioni della sessione POS che visualizza il layout dello schermo attualmente caricato, la dimensione del layout e la risoluzione della finestra nell'app](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Griglie dei pulsanti
 

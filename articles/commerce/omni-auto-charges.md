@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175156"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505613"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -40,7 +40,7 @@ Quando si utilizzano le versioni precedenti alla versione 10.0, a un utente POS 
 
 L'utilizzo di richieste manuali per l'aggiunta di spese di spedizione è ancora disponibile nelle versioni 10.0 e successive. Se un'organizzazione non abilita il parametro **Spese automatiche avanzate**, le richieste POS per l'immissione manuale delle spese rimarranno invariate.
 
-Con le funzionalità di addebiti automatici avanzati, gli utenti POS possono avere calcoli sistematici per qualsiasi spese varie definite basate sulle tabelle di impostazione degli addebiti automatici. Inoltre, gli utenti avranno la possibilità di aggiungere o modificare un importo illimitato di spese e commissioni aggiuntive a una transazione di vendita POS a livello di riga o intestazione (per un ordine cliente o cash and carry).
+Con le funzionalità di addebiti automatici avanzati, gli utenti POS possono avere calcoli sistematici per qualsiasi spese varie definite basate sulle tabelle di impostazione degli addebiti automatici. Inoltre, gli utenti avranno la possibilità di aggiungere o modificare un numero illimitato di spese e commissioni aggiuntive a una transazione di vendita POS a livello di riga o intestazione (per un ordine cliente o cash and carry).
 
 ## <a name="enabling-advanced-auto-charges"></a>Abilitazione degli addebiti automatici avanzati
 
@@ -52,7 +52,7 @@ Quando gli addebiti automatici avanzati sono abilitati, agli utenti non viene pi
 
 Quando gli addebiti automatici avanzati sono abilitati, i **parametri di commercio** esistenti per **Codice spese di spedizione** e **Rimborso spese di spedizione** non sono più utilizzati. Questi parametri sono applicabili solo se il parametro **Utilizza addebiti automatici avanzati** è impostato su **No**.
 
-Prima di abilitare questa funzionalità, assicurarsi di formare i dipendenti, in quanto modifica il flusso di processo aziendale relativo al modo in cui le spese di spedizione o altre spese sono calcolate e aggiunte agli ordini cliente POS. Assicurarsi di comprendere l'impatto del flusso di processo sulla creazione delle transazioni dal POS. Per gli ordini e-Commerce e del servizio clienti, l'impatto dell'abilitazione degli addebiti automatici avanzati è minimo. Le applicazioni e-Commerce e del servizio clienti continueranno ad avere lo stesso comportamento in relazione alle tabelle di addebiti automatici per calcolare ulteriori spese di ordine. Gli utenti dei canali servizio utenti continueranno ad avere la possibilità di modificare manualmente gli addebiti automatici calcolati dal sistema a livello di riga o intestazione o di aggiungere manualmente ulteriori spese varie a livello di riga o di intestazione.
+Prima di abilitare questa funzionalità, assicurarsi di formare i dipendenti, in quanto la funzionalità abilitata modifica il flusso di processo aziendale relativo al modo in cui le spese di spedizione o altre spese sono calcolate e aggiunte agli ordini cliente POS. Assicurarsi di comprendere l'impatto del flusso di processo sulla creazione delle transazioni dal POS. Per gli ordini e-Commerce e del servizio clienti, l'impatto dell'abilitazione degli addebiti automatici avanzati è minimo. Le applicazioni e-Commerce e del servizio clienti continueranno ad avere lo stesso comportamento in relazione alle tabelle di addebiti automatici per calcolare ulteriori spese di ordine. Gli utenti dei canali servizio utenti continueranno ad avere la possibilità di modificare manualmente gli addebiti automatici calcolati dal sistema a livello di riga o intestazione o di aggiungere manualmente ulteriori spese varie a livello di riga o di intestazione.
 
 ## <a name="additional-pos-operations"></a>Ulteriori operazioni POS
 
@@ -89,7 +89,7 @@ Configurare due differenti addebiti automatici a livello di intestazione. Config
 
 Per le spese di consegna su strada, nella sezione delle righe della pagina **Spese automatiche**, definire un addebito di $10 che verrà applicato per gli ordini tra $0,01 e $100. Creare un'altra riga spese per indicare che gli ordini superiori a $100,01 non comporteranno spese.
 
-![Esempio di addebiti automatici](media/headerchargesexample.png)
+![Esempio di due tabelle di addebiti automatici](media/headerchargesexample.png)
 
 Per le spese di consegna via aerea, nella sezione delle righe del modulo degli addebiti automatici, definire un addebito di $20 che verrà applicata a tutti gli ordini (per un valore tra $0,01 e $9.999.999).
 
@@ -119,7 +119,7 @@ Accedere a **Contabilità clienti \> Impostazione spese \> Spese automatiche**.
 
 Impostare il menu a discesa **Livello** su **Riga** e creare un nuovo record di addebiti automatici per tutti i clienti e per lo specifico prodotto o gruppo di prodotti a cui le commissioni di impostazione verranno addebitate.
 
-![Esempio di addebiti automatici](media/linechargesexample.png)
+![Esempio di tabella di addebiti automatici a livello di riga](media/linechargesexample.png)
 
 Inviare le spese a Commerce Scale Unit/database canale di modo che il POS possa utilizzarle eseguendo il processo **1040 - Programmazione della distribuzione**.
 
@@ -173,7 +173,7 @@ L'operazione **Aggiungi spese riga** deve essere configurata nel [layout dello s
 
 Per eseguire lo scenario nell'applicazione POS, l'utente POS creerà la transazione di vendita come al solito, aggiungendo i prodotti e qualsiasi altra configurazione alla vendita. Prima della riscossione del pagamento, l'utente deve selezionare la riga specifica in cui la spesa verrà applicata dal display dell'elenco di articoli POS ed eseguire l'operazione **Aggiungere spese riga**. All'utente verrà richiesto di selezionare un codice spese e immettere il valore delle spese. Dopo che l'utente ha completato il processo, la spesa viene collegata alla riga e aggiunta al totale dell'ordine come spesa a livello di riga. L'utente può ripetere il processo per aggiungere ulteriori spese riga ad altre righe di articoli nella transazione se necessario.
 
-Lo stesso processo può essere applicato nel call center mediante la funzionalità di "gestione delle spese" nel menu a discesa **Dati finanziari** della sezione **Righe ordine cliente** nella pagina **Ordine cliente**. Verrà aperta la pagina **Gestisci spese** nella quale l'utente può aggiungere una nuova riga spesa alla transazione.
+Lo stesso processo può essere applicato nel call center mediante la funzionalità di "gestione delle spese" nel menu a discesa **Dati finanziari** della sezione **Righe ordine cliente** nella pagina **Ordine cliente**. La selezione di questa opzione aprirà la pagina **Gestisci spese** nella quale l'utente può aggiungere una nuova riga spesa alla transazione.
 
 ## <a name="additional-features"></a>Funzionalità aggiuntive
 

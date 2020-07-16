@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211976"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530537"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -107,7 +107,7 @@ Inoltre, quando un articolo viene tracciato con tag, è disponibile un parametro
 **Quando si utilizza la tracciabilità dei tag a peso variabile**, un tag deve essere sempre creato per ogni unità di peso variabile ricevuta e ogni tag deve sempre essere associato a un peso.
 
 Ad esempio, **Scatola** è l'unità a peso variabile e si riceve un pallet di otto scatole. In questo caso, otto tag a peso variabile univoci devono essere creati e un peso deve essere associato a ogni tag. A seconda del tag a peso variabile in entrata, è possibile acquisire il peso di tutte e otto le scatole, e il peso medio può quindi essere distribuito a ciascuna scatola, oppure un peso univoco per ogni scatola.
-Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app Magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
+Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app di magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
 
 **Quando la tracciabilità dei tag a peso variabile non viene utilizzata**, il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
 
