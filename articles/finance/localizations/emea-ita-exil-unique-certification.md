@@ -3,7 +3,7 @@ title: Certificazione unica
 description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1c7511527d4a7082571f67da933a3872a7866b7b
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 30c6f3e3ef973b211ef6564a4d68aa391a61d66e
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138372"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527622"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 
@@ -48,20 +48,39 @@ Per poter utilizzare questa funzionalità è necessario soddisfare i seguenti pr
 1. Selezionare **Contabilità generale** \> **Impostazione contabilità generale** \> **Parametri di contabilità generale**.
 2. Nella scheda **Sequenze numeriche** nella scheda **ID certificazione unica**, definire una sequenza numerica.
 
-### <a name="set-up-a-revenue-typology-for-the-unique-certification"></a>Impostare una tipologia di entrate per la certificazione unica
+### <a name="set-up-the-unique-certification-values"></a>Impostare i valori della certificazione unica
 
-È necessario impostare una tipologia di entrate nel campo **Tipologia di entrate** nella sezione **Fattura e consegna** della pagina **Fornitori**.
+1. Vai a **Imposta** \> **Impostazione** \> **Ritenuta d'acconto** \> **Imposta valori di certificazione univoci**
+2. Specifica i valori per la funzionalità **Certificazione unica**.
 
-È possibile importare l'elenco dei possibili valori di tipologia di entrate utilizzando l'entità **Impostazione valori certificazione unica** (UniqueCertificationValueEntity) e il framework di gestione dei dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../dev-itpro/data-entities/data-import-export-job.md).
+La pagina **Imposta valori di certificazione univoca** consente di configurare i valori disponibili per diversi campi:
 
-I dati di origine utilizzati per importare i valori di tipologia di entrate possono essere presentati come file di Microsoft Excel con i seguenti nomi di colonna:
+- **Record B**: Eventi eccezionali
+- **record D** : eventi eccezionali, categorie speciali e province unificate
+- **Record H**: motivo e codice
+
+Il formato del modello telematico della certificazione unica è stato aggiornato secondo le nuove specifiche nell'aggiornamento normativo della certificazione unica, valido dal 7 marzo 2018:
+
+- **Record A**: codice di fornitura CUR18
+- **Record B**: nuovi valori per eventi eccezionali
+- **Record D**: nuovi valori per eventi eccezionali e categorie speciali e introduzione di campi di province unificate
+- **Record H**: nuovi valori per i campi motivo e codice
+- **Record Z**: conteggio di record L su 0
+
+I valori specificati sulla pagina **Imposta valori di certificazione unica** e contrassegnati con **Sì** nella colonna **Attivo**, saranno disponibili nei relativi campi di ricerca nella pagina **Certificazione unica**. Utilizza questa pagina per futuri aggiornamenti normativi della certificazione unica per aggiungere o eliminare valori.
+
+È possibile importare il set iniziale di valori per **Impostazione valori di certificazione unica** utilizzando l'entità **Impostazione valori certificazione unica** (UniqueCertificationValueEntity) e il framework di gestione dei dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../dev-itpro/data-entities/data-import-export-job.md). È possibile scaricare il set iniziale di valori per **Imposta valori di certificazione unica** dal file **IT SetupUniqueCertificationValues** nella sezione del tipo di dati risorsa **Pacchetto dati** della **Libreria di risorse condivisa** nel [Portale LCS](https://lcs.dynamics.com/v2) e quindi importarlo nel framework di gestione dei dati.
+
+I dati di origine utilizzati per l'importazione possono essere presentati come un file di Microsoft Excel con i seguenti nomi di colonna:
 
 - FIELD
-- VALUE
+- VALORE
 - ACTIVE
 - VALUEDESCRIPTION
 
-È possibile modificare manualmente i valori di tipologia di entrate selezionando **Imposta**\> **Impostazione** \> **Ritenuta d'acconto** \> **Impostazione valori certificazione unica**.
+### <a name="set-up-a-revenue-typology-for-the-unique-certification"></a>Impostare una tipologia di entrate per la certificazione unica
+
+È necessario impostare una tipologia di entrate nel campo **Tipologia di entrate** nella sezione **Fattura e consegna** della pagina **Fornitori**.
 
 ### <a name="set-up-a-format-for-the-unique-certification"></a>Impostare un formato per la certificazione unica
 

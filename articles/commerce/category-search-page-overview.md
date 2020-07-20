@@ -1,9 +1,9 @@
 ---
-title: Panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca
+title: Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 description: In questo argomento viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002498"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527470"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 - La **paginazione** consente ai visitatori del sito Web di passare da una pagina di risultati di prodotti categorizzati a un'altra pagina.
 - Il **conteggio totale** fornisce il numero totale di prodotti definiti in una categoria e corrispondenti ai criteri di ricerca.
 
+>[!NOTE]
+>Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
+![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Panoramica della ricerca basata su cloud](cloud-powered-search-overview.md)
 
 [Panoramica della home page](quick-tour-home-page.md)
 
-[Panoramica delle pagine dettagli prodotto](quick-tour-pdp.md)
+[Panoramica delle pagine dei dettagli del prodotto](quick-tour-pdp.md)
 
-[Panoramica delle pagine carrello e checkout](quick-tour-cart-checkout.md)
+[Panoramica delle pagine del checkout e del carrello](quick-tour-cart-checkout.md)
 
-[Panoramica delle pagine di gestione account](quick-tour-account-management.md)
+[Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 

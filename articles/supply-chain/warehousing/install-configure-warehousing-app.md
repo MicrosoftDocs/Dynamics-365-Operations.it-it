@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367084"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530077"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Installare e connettere l'app del magazzino
+# <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app del magazzino
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ L'app del magazzino è disponibile per i sistemi operativi Android e Windows. Pe
 > [!NOTE]
 > Se devi supportare dispositivi Windows meno recenti che non possono eseguire l'ultima versione di Windows, puoi comunque scaricare la versione 1.6.3.0 dell'app del magazzino da Microsoft Store. Tale versione verrà eseguita su Windows 10 (UWP) Aggiornamento 1511 di novembre (build 10.0.10586) o versione successiva. Tuttavia, tieni presente che questa versione dell'app del magazzino non supporta la distribuzione di massa delle impostazioni di connessione. Pertanto, devi [configurare manualmente la connessione](#config-manually) su ogni dispositivo che esegue questa versione dell'app.
 
-## <a name="get-the-warehousing-app"></a>Ottieni l'app del magazzino
+## <a name="get-the-warehouse-app"></a>Ottenere l'app Onboard
 
 Usa uno dei seguenti collegamenti per scaricare l'app:
 

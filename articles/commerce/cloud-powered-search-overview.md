@@ -1,9 +1,9 @@
 ---
 title: Panoramica della ricerca basata su cloud
 description: In questo argomento viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057835"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527445"
 ---
 # <a name="cloud-powered-search-overview"></a>Panoramica della ricerca basata su cloud
 
@@ -73,8 +73,12 @@ Nella figura seguente è illustrato un esempio di utilizzo della funzionalità d
 
 L'ordinamento migliorato in Dynamics 365 Commerce consente ai clienti di ordinare, cercare ed esaminare i risultati della ricerca e di affinarli tramite criteri quali prezzo, nome del prodotto e numero del prodotto. I clienti possono inoltre ordinare i risultati a seconda se un prodotto è nuovo, tra i più venduti o aggiunto di recente.
 
+>[!NOTE]
+>Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
+![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Pagina di destinazione di categoria e pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
+[Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
 
 [Gestire i metadati SEO](manage-seo-metadata.md)

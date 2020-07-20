@@ -3,7 +3,7 @@ title: Libri IVA italiani
 description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1523cddb84ae31f76adc8da5995eddbfc3b93ea1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96231c13f7274ff4ce4a92cc7230bf2e6bdfcb3f
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175784"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527623"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
@@ -232,5 +232,25 @@ Quando l'impostazione viene completata, i sezionali IVA vengono visualizzati nel
 
 I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza in base alla data di registrazione e le transazioni IVA con lo stesso codice di sequenza numerica devono essere registrate in ordine. Se i numeri di giustificativo non vengono ordinati in sequenza, viene visualizzato un messaggio di errore. Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta. Ogni volta che un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA. Fare clic su  **Imposta** &gt; **Richieste di informazioni su IVA** &gt; **IVA registrata**, quindi fare clic sulla scheda **Registrazione**. Questi dati possono quindi essere utilizzati durante il reporting IVA. I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare il report accessibile in **Imposta** &gt; **Dichiarazioni** &gt; **IVA** &gt; **IVA (Italia)**.
 
+## <a name="additional-information"></a>Informazioni aggiuntive
+A causa dei requisiti fiscali della numerazione sequenziale dei documenti e del modo in cui queste informazioni vengono utilizzate nei libri delle imposte sulle vendite, gli utenti in Italia non dovrebbero avere accesso alle seguenti funzioni:
 
+ - Storna la transazione cliente (pagina **Tutti i clienti**, seleziona **Transazioni** > **Storna**) 
+ - Storna la transazione fornitore (pagina **Tutti i fornitori**, seleziona **Transazioni** > **Storna**). 
+ 
+Queste funzioni devono essere nascoste utilizzando la funzionalità Privilegi. Per ulteriori informazioni, vedere [Privilegi di sicurezza basati sul ruolo](../../fin-ops-core/dev-itpro/sysadmin/role-based-security.md#privileges) 
 
+Per nascondere queste funzioni dall'interfaccia utente per tutti i ruoli di sicurezza, attenersi alla seguente procedura:
+
+1.  Vai ad **Amministrazione sistema** > **Sicurezza** > **Configurazione sicurezza**.
+2.  Nella scheda **Privilegi**, seleziona **Storna transazioni clienti**.
+3.  Seleziona **Voci del menu azioni** > **TransactionReversal_Cust**. 
+4.  Seleziona **Nega** per **Leggi**, **Aggiorna**, **Crea**, **Elimina**.
+
+![Configurazione sicurezza](./media/security-configuration.png)
+
+5.  Nella scheda **Oggetti non pubblicati**, seleziona **Pubblica tutto**.
+
+![Oggetti non pubblicati](./media/unpublished-objects.png)
+
+7.  Ripeti questi passaggi per il privilegio, **Storna transazioni fornitore**.

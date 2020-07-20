@@ -3,7 +3,7 @@ title: Configurare le tariffe
 description: I tassi in Microsoft Dynamics 365 Human Resources definiscono la quantità di datori di lavoro e dipendenti che versano contributi per un benefit.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429913"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497358"
 ---
 # <a name="configure-rates"></a>Configurare le tariffe
 
@@ -75,15 +75,15 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
 
 3. Specificare i valori per i seguenti campi:
 
-   | Campo | Descrizione |
+   | Campo | descrizione |
    | --- | --- | 
-   | **Descrizione** | Il valore del campo Descrizione verrà applicato dalla descrizione nel record Impostazione tasso. Ciò consente di identificare a quale impostazione sono collegati i tassi a livello. |
+   | **Descrizione** | Il valore del campo **Descrizione** verrà applicato dalla descrizione nel record Impostazione tasso. Ciò consente di identificare a quale impostazione sono collegati i tassi a livello. |
    | **Codice livello** | Selezionare un codice di livello. I codici di livello sono definiti nel modulo Codici di livello. Il sistema visualizzerà automaticamente la descrizione del codice di livello nella griglia a sinistra. |
-   | **Tipo di livello** | Specifica quale campo deve essere utilizzato come criterio di selezione per il processo di calcolo del tasso a livelli. Ad esempio:</br></br><ul><li>Se si utilizza Età, il sistema utilizzerà la data di nascita del dipendente nel processo di calcolo del tasso di benefit.</li><li>Se si utilizza Retribuzione, il sistema utilizzerà la retribuzione benefit del dipendente nel processo di calcolo del tasso di benefit.</li><li>Se si utilizza Tipo di mansione, il sistema utilizzerà il record della posizione attiva corrente del dipendente per determinare il tipo di mansione in base al record di mansione collegato alla posizione.</li></ul></br></br>I tipi di livelli sono Età, Retribuzione, Fisico, Sesso, Equivalente a tempo pieno, Tipo di mansione, Paese di retribuzione e Livello. | 
-   | **Livello** | Il valore da utilizzare con il tipo di livello durante il processo di calcolo del tasso di benefit. Ad esempio:</br></br><ul><li>Se il tipo di livello è Età, sarebbe il valore dell'età.</li><li>Se il tipo di livello è Retribuzione, sarebbe l'importo della retribuzione.</li><li> Se il tipo di livello è Tipo di mansione, sarebbe il tipo di mansione.</li></ul></br></br>Con un tipo di livello Età o Retribuzione, il sistema utilizza un approccio crescente durante la selezione del tasso a livelli, il che significa che il valore nel campo Livello rappresenta il limite inferiore del livello. Con il tipo di livello Tipo di lavoro, il sistema utilizza un approccio di corrispondenza esatta durante la selezione del tasso a livelli. |
+   | **Tipo di livello** | Specifica quale campo deve essere utilizzato come criterio di selezione per il processo di calcolo del tasso a livelli. Ad esempio:</br></br><ul><li>Se si utilizza **Età**, il sistema utilizzerà la data di nascita del dipendente nel processo di calcolo del tasso di benefit.</li><li>Se si utilizza **Retribuzione**, il sistema utilizzerà la retribuzione benefit del dipendente nel processo di calcolo del tasso di benefit.</li><li>Se si utilizza **Tipo di mansione**, il sistema utilizzerà il record della posizione attiva corrente del dipendente per determinare il tipo di mansione in base al record di mansione collegato alla posizione.</li></ul></br></br>I tipi di livelli sono **Età**, **Retribuzione**, **Fisico**, **Sesso**, **Equivalente a tempo pieno**, **Tipo di mansione**, **Paese di retribuzione** e **Livello**. | 
+   | **Livello** | Il valore da utilizzare con il tipo di livello durante il processo di calcolo del tasso di benefit. Ad esempio:</br></br><ul><li>Se il tipo di livello è **Età**, sarebbe il valore dell'età.</li><li>Se il tipo di livello è **Retribuzione**, sarebbe l'importo della retribuzione.</li><li> Se il tipo di livello è **Tipo di mansione**, sarebbe il tipo di mansione.</li></ul></br></br>Con un tipo di livello di **Età** o **Retribuzione**, il valore nel campo **Livello** rappresenta il limite superiore del livello. Con il tipo di livello **Tipo di mansione**, il sistema utilizza un approccio di corrispondenza esatta durante la selezione del tasso a livelli. |
    | **Tipo di calcolo** | Specifica come utilizzare l'importo nel campo Importo di calcolo e quale calcolo matematico eseguire se necessario. Se il tipo di calcolo è un importo fisso, il sistema utilizza i campi Importo così come sono. Se il tipo di calcolo è per importo della retribuzione o della copertura in $, il sistema utilizza l'importo di calcolo e la direzione di calcolo nel calcolo matematico.</br></br>Se il tipo di calcolo è per importo della retribuzione in $, il sistema utilizzerà la seguente equazione matematica:</br></br>Retribuzione benefit annua divisa per l'importo di calcolo (arrotondato per eccesso o per difetto) moltiplicata per gli importi per fumatore o non fumatore per dipendente o datore di lavoro.</br></br>Se il tipo di calcolo è per importo della copertura in $, il sistema utilizzerà la seguente equazione matematica:</br></br>Importo della copertura diviso per l'importo di calcolo (arrotondato per eccesso o per difetto) moltiplicato per gli importi per fumatore o non fumatore per dipendente o datore di lavoro.</br></br>In entrambi i calcoli, la direzione di calcolo viene utilizzata per determinare se arrotondare per eccesso o per difetto la retribuzione benefit annua o l'importo della copertura diviso per l'importo di calcolo. |
    | **Importo di calcolo** | L'importo da utilizzare durante il processo di calcolo del tasso di benefit. Questo importo sarà il divisore durante il calcolo matematico del tasso a livelli. |
-   | **Direzione di calcolo** | La direzione (Aumenta o Diminuisci) in base alla quale l'importo del risultato calcolato deve essere arrotondato. Il sistema supporta tre direzioni di calcolo: Vuoto (metodo esatto), Aumenta e Diminuisci.</br></br><ul><li>Se vuoto, il sistema utilizzerà il calcolo esatto dell'importo della retribuzione/copertura diviso per l'importo di calcolo. Se questo valore ha una frazione, il sistema lo utilizzerà nel calcolo.</li><li>Se la direzione è Aumenta, il sistema aumenterà il calcolo matematico dell'importo della retribuzione/copertura diviso per l'importo di calcolo all'intero successivo, il che significa che 12,25 aumenterà a 13.</li><li>Se la direzione è Diminuisci, il sistema diminuirà il calcolo matematico dell'importo della retribuzione/copertura diviso per l'importo di calcolo all'intero corrente, il che significa che 12,25 diminuirà a 12.</li></ul> |
+   | **Direzione di calcolo** | La direzione in base alla quale l'importo del risultato calcolato deve essere arrotondato. Il sistema supporta tre direzioni di calcolo: Vuoto (metodo esatto), **Aumenta** e **Diminuisci**.</br></br><ul><li>Se vuoto, il sistema utilizzerà il calcolo esatto dell'importo della retribuzione/copertura diviso per l'importo di calcolo. Se questo valore ha una frazione, il sistema lo utilizzerà nel calcolo.</li><li>Se la direzione è **Aumenta**, il sistema aumenterà il calcolo matematico dell'importo della retribuzione/copertura diviso per l'importo di calcolo all'intero successivo, il che significa che 12,25 aumenterà a 13.</li><li>Se la direzione è **Diminuisci**, il sistema diminuirà il calcolo matematico dell'importo della retribuzione/copertura diviso per l'importo di calcolo all'intero corrente, il che significa che 12,25 diminuirà a 12.</li></ul> |
    | **Importo dipendente non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo datore di lavoro non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo dipendente fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |

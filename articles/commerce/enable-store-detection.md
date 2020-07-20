@@ -3,7 +3,7 @@ title: Abilitare il rilevamento del punto vendita basato sull'ubicazione
 description: In questo argomento viene descritto come attivare il rilevamento del punto vendita basato sull'ubicazione per il sito Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096871"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533392"
 ---
 # <a name="enable-location-based-store-detection"></a>Abilitare il rilevamento del punto vendita basato sull'ubicazione
 
@@ -53,8 +53,6 @@ Per attivare il rilevamento del punto vendita basato sull'ubicazione in Commerce
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
 [Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
-
-[Impostare un canale punto vendita online](online-stores.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
