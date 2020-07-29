@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (luglio 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (maggio 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Annullare un processo di pianificazione
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Estensibilità dell'ottimizzazione della pianificazione
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Risolvere i problemi di ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Piani generali
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Impostazione guidata sequenze numeriche
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurare sequenze numeriche per i flussi di magazzino
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Organizzazioni e gerarchie organizzative
               items:
                 - name: Panoramica organizzazioni e gerarchie organizzative
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Escludere i prodotti dalla pianificazione generale
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Beni a doppio utilizzo
+                  href: pim/dual-use.md
+                - name: Paese di origine
+                  href: pim/country-of-origin.md
                 - name: Creare un codice a barre per un prodotto
                   href: pim/tasks/create-bar-code-product.md
                 - name: Immettere il codice GTIN per un prodotto
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Operazioni di magazzino in ingresso
               items:
-                - name: Ricevute per la registrazione e stoccaggio
-                  items:
-                    - name: Gestione magazzino dei carichi in entrata per gli ordini fornitore
-                      href: warehousing/inbound-load-handling.md
-                    - name: Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Registrare articoli per un articolo abilitato a immagazzinaggio di base tramite un giornale di registrazione arrivi
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Cross-docking di prodotti da magazzino ricevente a punti vendita
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Impostare un modello di lavoro per gli ordini fornitore
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Combinazione dimensioni prodotto ubicazione
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Gestione magazzino dei carichi in entrata per gli ordini fornitore
+                  href: warehousing/inbound-load-handling.md
+                - name: Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Registrare articoli per un articolo abilitato a immagazzinaggio di base tramite un giornale di registrazione arrivi
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Cross-docking di prodotti da magazzino ricevente a punti vendita
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Impostare un modello di lavoro per gli ordini fornitore
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Combinazione dimensioni prodotto ubicazione
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Operazioni di magazzino in uscita
               items:
                 - name: Prenotazioni in Gestione magazzino
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Impostare prelievo del cluster
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Prelievo cluster diretto dal sistema
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Impostare containerizzazione
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Conferma batch e targa
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Abilitare la stampa di etichette targa
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Conferma di prelievo pezzi
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiali di imballaggio e addebiti
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Annullare il lavoro di magazzino per la gestione delle eccezioni
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Prelievo cluster diretto dal sistema
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Sequenza lavori gestiti dal sistema
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Raggruppamento righe prelievo
                       href: warehousing/pick-line-grouping.md
                     - name: Assegnazione magazzino
                       href: warehousing/warehouse-slotting.md
+                    - name: Aging prelievo scorte per direttiva ubicazione
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Ordinamento in uscita
+                      href: warehousing/outbound-sorting.md
+                    - name: Stoccaggio a parete - Stoccaggio in magazzino
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Rifornimento
                   items:
                     - name: Panoramica rifornimento
@@ -2643,8 +2655,10 @@
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Rilascio alla regola del magazzino
                       href: warehousing/release-to-warehouse-rule.md
-                    - name: Raggruppamenti di modelli di ondata
+                    - name: Gruppi del modello di ondata
                       href: warehousing/wave-template-grouping.md
+                    - name: Ristampare e annullare le etichette delle ondate
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Criteri consolidamento spedizione
                   items:
                     - name: Criteri consolidamento spedizione
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Posizionamento targa ubicazione
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Modifica pool di lavoro nel lavoro
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Utilizzo ubicazione - Consolidamento articolo
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Impostazione magazzino
               items:
                 - name: Configurazione del magazzino
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: Configurare l'elaborazione di ondate
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Configurare e utilizzare la stampa di etichette di ondata
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Aggiornare automaticamente spedizioni
                       href: warehousing/auto-update-shipment.md
                     - name: Creare un profilo di ubicazione
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Layout di distribuzione del documento per le etichette della targa
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera in Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Supporto codici a barre per dispositivi mobili
                       href: warehousing/mobile-barcode-support.md
                     - name: Impostare un magazzino per gli ordini di trasferimento
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Impostare i dispositivi mobili per il lavoro di magazzino
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app di magazzino
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Ricezione della targa con l'app di magazzino
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
