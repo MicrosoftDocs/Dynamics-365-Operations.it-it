@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 7664afbd0b1fd4e2c9686053fa102d85809c0411
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443466"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555317"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (28 maggio 2020)
 
@@ -53,7 +53,7 @@ Questa modifica disabilita le opzioni di retribuzione per impedire l'immissione 
 
 I messaggi di errore durante il trasferimento di un dipendente in questo scenario sono stati aggiornati per descrivere meglio le modifiche necessarie per correggere il problema.
 
-## <a name="attachments-capabilities-in-employee-self-service-benefits-enrollment"></a>Funzionalità relative agli allegati nell'iscrizione ai benefit in Dipendente self service
+## <a name="attachments-capabilities-in-employee-self-service-benefits-enrollment"></a>Funzionalità relative agli allegati nell'iscrizione ai benefit in Dipendente self-service
  
 Ora è possibile aggiungere allegati durante il processo di iscrizione ai benefit per ciascun piano a cui si iscrive il dipendente. È quindi possibile visualizzare gli allegati nel modulo **Benefit a cui è iscritto il lavoratore**.
 
@@ -103,3 +103,10 @@ In questa versione le risorse umane possono creare una regola per sospendere gli
 ## <a name="dmf-entity-available-for-accrual-suspensions-june-1"></a>Entità DMF disponibile per le sospensioni degli accumuli (1 giugno)
 
 Un'entità DMF è ora disponibile per le sospensioni degli accumuli.
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

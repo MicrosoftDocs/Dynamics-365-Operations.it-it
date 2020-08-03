@@ -2,7 +2,7 @@
 title: Conferma e trasferimento
 description: Questo argomento spiega come utilizzare la funzione di conferma e trasferimento, che consente agli utenti di spedire carichi dal magazzino prima di completare tutto il lavoro associato a tali carichi.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 488eed23972022f9437e62a462ae5f70d6833a67
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc5dcec7e50f43d3c17feef55967b32b8a261cdd
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530560"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597362"
 ---
 # <a name="confirm-and-transfer"></a>Conferma e trasferimento
 
@@ -125,7 +125,7 @@ Per creare un carico idoneo, crea innanzitutto tre ordini cliente seguendo quest
 
     - **Numero articolo:** *M9200*
     - **Quantità:** *40*
-    - **Unità:** *ea*
+    - **Unità:** *unità*
 
 1. Nel menu **Scorte** sopra la griglia, seleziona **Prenotazione**.
 1. Nel riquadro azioni, seleziona **Prenota lotto** per aprire la pagina **Prenotazione**.
@@ -133,14 +133,14 @@ Per creare un carico idoneo, crea innanzitutto tre ordini cliente seguendo quest
 1. Ripeti i passaggi da 1 a 4 per aggiungere un secondo ordine cliente per lo stesso cliente e magazzino.
 1. Aggiungi due righe di vendita con i seguenti valori. Dopo aver aggiunto ciascuna riga, prenota le scorte per la stessa come descritto nei passaggi da 6 a 8.
 
-    - **Riga 1:** imposta il campo **Numero articolo** su *M9200*, il campo **Quantità** su *30* e il campo **Unità** su *ea*.
-    - **Riga 2:** imposta il campo **Numero articolo** su *M9201*, il campo **Quantità** su *20* e il campo **Unità** su *ea*.
+    - **Riga 1:** imposta il campo **Numero articolo** su *M9200*, il campo **Quantità** su *30* e il campo **Unità** su *unità*.
+    - **Riga 2:** imposta il campo **Numero articolo** su *M9201*, il campo **Quantità** su *20* e il campo **Unità** su *unità*.
 
 1. Ripeti i passaggi da 1 a 4 per aggiungere un terzo ordine cliente per lo stesso cliente e magazzino.
 1. Aggiungi due righe di vendita con i seguenti valori. Dopo aver aggiunto ciascuna riga, prenota le scorte per la stessa come descritto nei passaggi da 6 a 8.
 
-    - **Riga 1:** imposta il campo **Numero articolo** su *M9201*, il campo **Quantità** su *20* e il campo **Unità** su *ea*.
-    - **Riga 2:** imposta il campo **Numero articolo** su *M9202*, il campo **Quantità** su *60* e il campo **Unità** su *ea*.
+    - **Riga 1:** imposta il campo **Numero articolo** su *M9201*, il campo **Quantità** su *20* e il campo **Unità** su *unità*.
+    - **Riga 2:** imposta il campo **Numero articolo** su *M9202*, il campo **Quantità** su *60* e il campo **Unità** su *unità*.
 
 #### <a name="load-planning-workbench"></a>Workbench pianificazione carico
 
@@ -192,7 +192,7 @@ Il prossimo passaggio consiste nel caricare le due targhe prelevate sul camion.
 1. Seleziona **In uscita**.
 1. Seleziona **Caricamento vendite**.
 1. Immettere l'ID targa di destinazione definito dall'utente creato per il primo ID di lavoro nella procedura precedente. Quindi seleziona **Immetti** per posizionare la targa di destinazione nell'ubicazione **STAGE**.
-1. Immetti nuovamente l'ID targa di destinazione, quindi seleziona **Immetti** per mettere la targa nell'ubicazione **BAYDOOR**.
+1. Immetti nuovamente l'ID targa di destinazione, quindi seleziona **Immetti** per mettere la targa nell'ubicazione **PORTELLONE**.
 1. Ripeti i passaggi da 4 a 5 per l'ID targa di destinazione creato per il secondo ID lavoro.
 
 I due ID di lavoro verranno ora chiusi (caricati).

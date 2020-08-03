@@ -3,7 +3,7 @@ title: Contenuto Power BI per crediti e riscossioni
 description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278876"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598060"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenuto Power BI per crediti e riscossioni
 
@@ -47,9 +47,10 @@ Per impostazione predefinita, vengono visualizzati i dati di crediti e riscossio
 La seguente impostazione deve essere completata per visualizzare i dati nelle rappresentazioni **Crediti e riscossioni cliente** di Power BI.
 
 1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
-2. Andare a **Contabilità generale > Impostazioni > Contabilità generale** e impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
-3. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
-4. Andare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **CustCollectionsBIMeasurementsV2**.
+2. Vai a **Contabilità generale> Calendari > Calendari fiscali** per convalidare le date del calendario fiscale assegnate al periodo di tempo attivo.
+3. Andare a **Contabilità generale > Impostazioni > Contabilità generale** e impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
+4. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
+5. Andare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 

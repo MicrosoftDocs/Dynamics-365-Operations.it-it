@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6988bb95cf2ffe8146434f4b194d97491952915
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157392"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555257"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (19 marzo 2020)
 
@@ -37,7 +37,7 @@ Il limite del numero di ambienti per progetto in Lifecycle Services (LCS) è cam
 
 Attivare questa funzionalità nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sulle funzionalità di anteprima, vedere [Attivare o disattivare le funzionalità in anteprima](hr-admin-manage-features.md#enable-or-disable-preview-features).
 
-Quando si abilita questa funzione, i manager possono vedere la retribuzione dei diretti subalterni e dei subalterni estesi senza dover accedere all'azienda di impiego. La cronologia completa delle retribuzioni è disponibile per qualsiasi società a cui il manager può accedere. Per ulteriori informazioni, vedere [Panoramica del self service dipendente e manager](hr-employee-manager-self-service-overview.md).
+Quando si abilita questa funzione, i manager possono vedere la retribuzione dei diretti subalterni e dei subalterni estesi senza dover accedere all'azienda di impiego. La cronologia completa delle retribuzioni è disponibile per qualsiasi società a cui il manager può accedere. Per ulteriori informazioni, vedere [Panoramica di Dipendente self-service e Responsabile self-service](hr-employee-manager-self-service-overview.md).
 
 ## <a name="enable-global-address-book-merge-functionality-427189"></a>Abilitare funzionalità di unione della rubrica globale (427189)
 
@@ -122,3 +122,9 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 
 - **Funzionalità di anteprima di Gestione benefit** - Per ulteriori informazioni, inclusi problemi noti, vedere [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
 
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

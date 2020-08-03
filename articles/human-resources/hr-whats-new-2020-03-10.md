@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124018"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555258"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (10 marzo 2020)
 
@@ -97,3 +97,10 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 - Campi consigliati: gli utenti devono spesso aggiungere campi a una griglia o a una pagina. Questo può essere difficile con così tanti campi disponibili. Invece di dover cercare in un ampio elenco, questa funzione consente al sistema di far emergere un set di campi consigliati in base a ciò che gli altri utenti aggiungono più spesso in scenari simili.
 
 - Azioni predefinite permanenti nelle griglie: questa funzione garantisce che l'azione predefinita in una griglia sia collegata a una colonna specifica in una griglia, indipendentemente dal fatto che tale colonna venga spostata o nascosta.
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: Impostare i parametri di Gestione benefit
 description: Configurare i parametri di Gestione benefit in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3e001c08751ea9c8bcab0e11a04b6cf639e51d1d
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429990"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599358"
 ---
 # <a name="set-benefits-management-parameters"></a>Impostare i parametri di gestione dei benefit
 
@@ -31,7 +31,7 @@ Prima di poter impostare piani di congedo in Microsoft Dynamics 365 Human Resour
 
 ## <a name="configure-general-parameters"></a>Configurare i parametri generali
 
-1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri**.
+1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri condividi Risorse umane**.
 
 2. Nella scheda **Generale** specificare i valori per i seguenti campi:
 
@@ -43,8 +43,10 @@ Prima di poter impostare piani di congedo in Microsoft Dynamics 365 Human Resour
    | **Codice motivo riapertura** | Il codice motivo da utilizzare quando un piano benefit per i dipendenti viene riaperto. Viene visualizzato in una finestra di dialogo durante il processo di annullamento. Gli utenti possono modificare il **Codice motivo riapertura** se necessario. | 
    | **Codice motivo evento reale** | Il codice motivo da utilizzare quando si verifica un evento reale. |
    | **Codice motivo modifica tassi** | Il codice motivo da utilizzare si annulla e si riapre un piano di benefit per i dipendenti durante il processo di aggiornamento delle modifiche ai tassi. Indica quali record sono stati modificati dal processo di aggiornamento delle modifiche ai tassi. |
+   | **Retribuzione annuale benefit** | Consente di impostare un importo **Retribuzione annuale benefit** per un dipendente. Le risorse umane useranno l'importo **Retribuzione annuale benefit** nel determinare gli importi di copertura, anziché l'importo annuale di retribuzione fissa. |
    | **Nuova assunzione idonea** | Specifica se le nuove assunzioni sono idonee. |
-   | **Periodo di iscrizione nuova assunzione** | Il periodo di tempo in cui è consentita l'iscrizione di un nuova assunzione.</br></br>**Nota**: questa impostazione sostituisce qualsiasi periodo di iscrizione di nuove assunzioni impostato nella regola di idoneità del piano. | 
+   | **Periodo di iscrizione nuova assunzione** | Il periodo di tempo in cui è consentita l'iscrizione di un nuova assunzione.</br></br>**Nota**: questa impostazione sostituisce qualsiasi periodo di iscrizione di nuove assunzioni impostato nella regola di idoneità del piano. |
+   | **Frequenza pagamenti predefinita** | La frequenza di retribuzione predefinita da utilizzare quando vengono aggiunti nuovi lavoratori. |
    | **Eventi reali abilitati** | Abilita gli eventi reali. |
    | **Nascondi moduli di benefit legacy** | Consente di nascondere i moduli di benefit legacy. |
 
@@ -52,7 +54,7 @@ Prima di poter impostare piani di congedo in Microsoft Dynamics 365 Human Resour
 
 ## <a name="configure-employee-self-service-parameters"></a>Configurare i parametri di Dipendente self-service
 
-1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri**.
+1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri Risorse umane**.
 
 2. Nella scheda **Dipendente self-service** specificare i valori per i seguenti campi:
 

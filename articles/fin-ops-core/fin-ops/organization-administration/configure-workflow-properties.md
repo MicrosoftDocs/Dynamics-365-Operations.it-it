@@ -3,7 +3,7 @@ title: Configurare le proprietà del flusso di lavoro
 description: In questo argomento viene descritto come configurare le proprietà per un flusso di lavoro.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199438"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541111"
 ---
 # <a name="configure-workflow-properties"></a>Configurare le proprietà del flusso di lavoro
 
@@ -91,14 +91,9 @@ Per specificare quando verrà utilizzato il flusso di lavoro che si sta configur
 3. Fare clic su **Aggiungi condizione**.
 4. Immettere una condizione.
 5. Immettere altre condizioni, se necessario.
-6. Per verificare la correttezza della configurazione delle condizioni immesse, eseguire i passaggi seguenti:
+6. Eseguire il flusso di lavoro con alcuni record di destinazione per verificare che la condizione includa ed escluda correttamente i record.
 
-    1. Fare clic su **Test**.
-    2. Nella pagina **Test condizione flusso di lavoro**, nell'area **Convalida condizione**, selezionare un record.
-    3. Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni specificate. Se ad esempio si crea un flusso di lavoro relativo alle richieste di acquisto per la Spagna, nell'area della pagina **Convalida condizione** viene visualizzato un elenco delle richieste di acquisto. Se si fa clic su **Test**, la richiesta di acquisto selezionata verrà automaticamente valutata per determinare se sussiste la condizione paese = ES.
-    4. Fare clic su **OK** o su **Annulla** per tornare alla pagina **Proprietà**.
-
-## <a name="specify-when-notifications-are-sent"></a>Specificare quando verranno inviate le notifiche
+## <a name="specify-when-notifications-are-sent"></a>Specificare quando verranno inviare le notifiche
 
 Quando si invia un documento per l'elaborazione, viene creata un'istanza del flusso di lavoro. È possibile inviare notifiche agli utenti quando le istanze basate sul flusso di lavoro corrente vengono avviate, completate, terminate o arrestate a causa di un errore. Per specificare quando verranno inviate le notifiche, effettuare le operazioni indicate di seguito.
 

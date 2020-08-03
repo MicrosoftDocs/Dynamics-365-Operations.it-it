@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456622"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555197"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (11 giugno 2020)
 
@@ -94,4 +94,11 @@ Sarai in grado di rendere i campi obbligatori utilizzando la personalizzazione. 
 
 ## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome del dipendente self-service
 
-Una nuova opzione sarà disponibile nei parametri Risorse umane per aggiornare il nome dell'area di lavoro self service Dipendente in Self service. 
+Una nuova opzione sarà disponibile nei parametri Risorse umane per aggiornare il nome dell'area di lavoro Dipendente self-service in Self-service. 
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

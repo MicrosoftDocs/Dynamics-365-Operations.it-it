@@ -2,7 +2,7 @@
 title: Dettagli riga di lavoro
 description: Questo argomento fornisce informazioni sulla pagina Dettagli riga di lavoro, che mostra un elenco completo, ordinabile e filtrabile delle singole righe di lavoro nel sistema.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0bd2133afb21524efd5988892c32705b5f5b27e2
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 4f0952cc8778ffc509bed80b3a5038dbf4fb76c2
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530399"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597194"
 ---
 # <a name="work-line-details"></a>Dettagli riga di lavoro
 
@@ -62,8 +62,8 @@ Per utilizzate questa demo utilizzando i record e i valori di esempio specificat
 
 Se stai lavorando con dati dimostrativi **USMF**, è consigliabile prima assicurarti che il tuo sistema sia configurato in modo che ci siano scorte sufficienti in ogni ubicazione di prelievo. Per questa demo, ci si aspetta che le seguenti scorte siano disponibili:
 
-- **Articolo M9200:** 45 ea. (o più)
-- **Articolo M9202:** 10 ea. (o più)
+- **Articolo M9200:** 45 unità. (o più)
+- **Articolo M9202:** 10 unità. (o più)
 
 Attieniti alla seguente procedura per verificare che siano disponibili scorte sufficienti e per apportare le modifiche necessarie.
 

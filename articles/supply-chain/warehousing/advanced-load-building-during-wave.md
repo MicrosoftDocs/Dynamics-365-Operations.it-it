@@ -2,7 +2,7 @@
 title: Allestimento del carico avanzato durante un'ondata
 description: Questo argomento fornisce informazioni sull'allestimento del carico avanzato durante un'ondata, che assegna automaticamente le spedizioni alle ondate esistenti durante l'esecuzione dell'ondata. Pertanto, è possibile creare carichi significativi che rappresentano i camion senza dover utilizzare il workbench di pianificazione del carico.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a4d331e08af75347ed2dbc3dd777c79961de48a4
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 3ad24c2f59b8d698f0ef34b83f333c75b79a8516
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530514"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597314"
 ---
 # <a name="advanced-load-building-during-wave"></a>Allestimento del carico avanzato durante un'ondata
 
@@ -62,7 +62,7 @@ Se stai lavorando con dati dimostrativi **USMF**, devi prima assicurarti che il 
 
 - **Articolo A0001:** 10 pezzi
 - **Articolo A0002:** 10 pezzi
-- **Articolo M9200:** 10 ea
+- **Articolo M9200:** 10 unità
 
 L'articolo **M9200** deve essere aggiunto al magazzino. Completa le procedure nelle seguenti sottosezioni per aggiungere le scorte degli articoli.
 
@@ -194,7 +194,7 @@ Se stai lavorando con dati dimostrativi **USMF**, ora hai terminato questa confi
     | Campo | descrizione | Valore nei dati dimostrativi USMF |
     |---|---|---|
     | Numero progressivo | L'ordine in cui verrà valutato il modello. | *1* |
-    | Nome modello di allestimento del carico | Immetti l'identificatore univoco del modello di allestimento del carico. È consigliabile immettere il nome del modello creato o aggiornato in precedenza in questa configurazione. | *Spedizione predefinita 62* |
+    | Nome modello di allestimento del carico | Immetti l'identificatore univoco del modello di allestimento del carico. È consigliabile immettere il nome del modello creato o aggiornato in precedenza in questa configurazione. | *62 Spedizione predefinita* |
     | Codice del passaggio ondata | Immetti il codice di passaggio ondata da utilizzare per collegare il modello a un metodo di ondata. È consiglibile immettere il codice selezionato per il metodo **buildLoads** quando imposti il modello di ondata in precedenza in questa configurazione. | *WSC2112* |
     | ID modello carico | Seleziona il modello di carico da utilizzare quando si creano nuovi carichi e da confrontare quando si esegue l'assegnazione a carichi esistenti. Il modello di carico definisce il peso e il volume massimi consentiti per l'intero carico. | *Modello di caricamento stnd* |
     | Attrezzature | L'attrezzatura da confrontare quando si esegue l'assegnazione a carichi esistenti e da immettere su nuovi carichi creati. | Lascia vuoto il campo. |

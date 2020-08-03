@@ -3,7 +3,7 @@ title: Panoramica di gestione dei benefit
 description: Panoramica della funzionalità di Gestione benefit in Dynamics 365 Human Resources. Offrire opzioni di benefit estese ai propri dipendenti con un'esperienza online di facile utilizzo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429267"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599382"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
 
@@ -59,6 +59,8 @@ In questo articolo viene descritto come attivare le funzionalità in Human Resou
 ## <a name="configure-employee-information"></a>Configurare le informazioni sui dipendenti
 
 Prima di poter iscrivere dipendenti nei benefit, è necessario fornire le informazioni richieste. È necessario iscrivere un dipendente al **Piano di retribuzione fissa** alla data di inizio ed è necessario selezionare una **frequenza di pagamento dei benefit** nel campo **Dettagli impiego** del modulo **Lavoratore**.
+
+Se un dipendente riceve un compenso supplementare come le commissioni, è possibile aggiungere un importo **Retribuzione annuale benefit** dal record dipendente. Le risorse umane useranno l'importo **Retribuzione annuale benefit** nel determinare gli importi di copertura, anziché l'importo annuale di retribuzione fissa. La **Retribuzione annuale benefit** deve essere valida a partire dalla data di inizio dell'impiegato o di quella del periodo di benefit, a seconda di quale è più recente. Se per un dipendente viene registrato sia una retribuzione fissa sia un importo di retribuzione annuale benefit, la retribuzione annuale benefit sarà utilizzata per determinare gli importi della copertura.
 
 Quando si crea un piano di benefit che utilizza tariffe basate sul genere o sull'età, è necessario immettere una data di nascita e un genere affinché il dipendente possa calcolare il costo del benefit.
 

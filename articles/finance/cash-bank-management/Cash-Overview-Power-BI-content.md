@@ -3,7 +3,7 @@ title: Contenuto di Power BI della panoramica situazione di cassa
 description: Questo argomento descrive il contenuto Panoramica situazione di cassa di Power BI. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553142"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598135"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenuto di Power BI della panoramica situazione di cassa
 
@@ -38,10 +38,11 @@ Il contenuto **Panoramica situazione di cassa** di Power BI è stato creato per 
 La seguente impostazione deve essere completata per visualizzare i dati nelle rappresentazioni **Panoramica situazione di cassa** e **Gestione banche** di Power BI.
 
 1. Andare a **Amministrazione sistema > Impostazioni > Parametri di sistema** per impostare **Valuta di sistema** e **Tipo di tasso di cambio del sistema**.
-2. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
-2. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema, la valuta di contabilizzazione e le valute delle banche. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
-3. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere [Previsione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
-4. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **LedgerCovLiquidityMeasurement**.
+2. Vai a **Contabilità generale> Calendari > Calendari fiscali** per convalidare le date del calendario fiscale assegnate al periodo di tempo attivo.
+3. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
+4. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema, la valuta di contabilizzazione e le valute delle banche. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
+5. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere [Previsione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 
