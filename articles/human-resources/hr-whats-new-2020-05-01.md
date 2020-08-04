@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a0cfd1c1b0dcc9defaad7e4cce22ebe1e91fae
-ms.sourcegitcommit: cc5dc0bd90277f1ba684dd310da3274886ce573c
+ms.openlocfilehash: e4da626ce3412fba6f90dd7f953c1cbc79ab60c3
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3320921"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (1 maggio 2020)
 
@@ -65,7 +65,7 @@ Questa modifica corregge l'arresto anomalo dell'API. Un nome duplicato ha genera
 
 È possibile sospendere le ferie e le assenze nelle risorse umane per un dipendente. La sospensione del congedo e interrompe la maturazione delle ferie per i tipi di congedi selezionati. Se la sospensione si verifica dopo l'elaborazione della maturazione, la sospensione delle ferie crea una rettifica proporzionale del saldo delle ferie del dipendente. Per ulteriori informazioni, vedere [Sospendere il congedo](hr-leave-and-absence-suspend-leave.md).
 
-## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>Aggiornare l'esperienza utente per indicare che l'accumulo è sospeso (429550)
+## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>Aggiornamento dell'esperienza utente per indicare che l'accumulo è sospeso (429550)
 
 L'esperienza utente ora indica che l'accumulo è stato sospeso per un piano.
 
@@ -102,3 +102,10 @@ Se l'anteprima del documento per i documenti memorizzati in SharePoint non funzi
 3. Accedere a un allegato in SharePoint per avviare l'anteprima del documento.
 
 4. Accedere con un altro account utente che ha accesso agli allegati e verificare che l'anteprima funzioni come previsto.
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

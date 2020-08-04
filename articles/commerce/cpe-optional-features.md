@@ -1,9 +1,9 @@
 ---
-title: Configurare le funzionalità facoltative per un ambiente di anteprima Dynamics 365 Commerce
-description: Questo argomento spiega come configurare funzionalità facoltative per un ambiente di anteprima di Microsoft Dynamics 365 Commerce.
+title: Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
+description: Questo argomento spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057742"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599822"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurare le funzionalità facoltative per un ambiente di anteprima Dynamics 365 Commerce
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento spiega come configurare funzionalità facoltative per un ambiente di anteprima di Microsoft Dynamics 365 Commerce.
+Questo argomento spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 Se si desidera valutare le funzionalità di posta elettronica transazionali, è necessario soddisfare i prerequisiti seguenti:
 
-- Si dispone di un server di posta elettronica disponibile (Serve Simple Mail Transfer Protocol \[SMTP\]), che può essere utilizzato dalla sottoscrizione Microsoft Azure in cui si effettua il provisioning dell'ambiente di anteprima.
+- Si dispone di un server di posta elettronica disponibile (Serve Simple Mail Transfer Protocol \[SMTP\]), che può essere utilizzato dalla sottoscrizione Microsoft Azure in cui si effettua il provisioning dell'ambiente di valutazione.
 - Si dispone del nome di dominio completo (FQDN)/indirizzo IP, numero della porta SMTP e dei dettagli di autenticazione del server.
-
-Se si desidera valutare le funzionalità di Gestione delle risorse digitali inserendo nuove immagini multicanale, è necessario disporre del nome del tenant del sistema di gestione dei contenuti (CMS). Le istruzioni per trovare questo nome sono fornite più avanti in questo argomento. >>> (D: dove sono le istruzioni?)
 
 ## <a name="configure-the-image-back-end"></a>Configurare il back-end dell'immagine
 
@@ -47,9 +44,9 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 > [!NOTE]
 > Prima di poter completare questa procedura, è necessario completare i passaggi in [Configura il tuo sito in Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Accedi allo strumento di gestione del sito Commerce utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedere [Inizializzare l'e-Commerce](provisioning-guide.md#initialize-e-commerce)).
+1. Accedi alla Creazione di siti Web di Commerce utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedere [Inizializzare l'e-Commerce](provisioning-guide.md#initialize-e-commerce)).
 1. Aprire il sito **Fabrikam**.
-1. Nel menu a sinistra scegliere **Risorse**.
+1. Nel menu a sinistra scegliere **Libreria multimediale**.
 1. Selezionare qualsiasi singolo asset di immagine.
 1. Nel controllo proprietà a destra, individuare la proprietà **URL pubblico**. Il valore è un URL. Ecco un esempio:
 
@@ -63,22 +60,22 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 
 ### <a name="update-the-media-base-url"></a>Aggiornare l'URL di base multimediale
 
-1. Accedere a Dynamics 365 Commerce.
+1. Accedere a Commerce headquarters.
 1. Utilizzando il menu a sinistra, selezionare **Moduli \> Vendita al dettaglio e commercio \> Impostazione canale \> Profili canale**.
 1. Selezionare **Modifica**.
 1. In **Proprietà profilo**, sostituire il valore della proprietà **URL di base server multimediale** con l'URL di base multimediale creato in precedenza.
-1. Nell'elenco a sinistra, nel canale **Predefinito** selezionare l'altro canale.
+1. Selezionare il canale denominato **scXXXXXXXXX**.
 1. In **Proprietà profilo**, selezionare **Aggiungi**.
 1. Per la proprietà che è stata aggiunta, selezionare **URL di base server multimediale** come chiave proprietà. Come valore della proprietà, inserisci l'URL di base multimediale che hai creato in precedenza.
 1. Selezionare **Salva**.
 
-## <a name="configure-the-email-server"></a>Configurare il server di posta elettronica
+## <a name="configure-and-test-the-email-server"></a>Configurare e testare il server di posta elettronica
 
 > [!NOTE]
 > il server SMTP o il servizio di posta elettronica specificato qui deve essere accessibile dalla sottoscrizione di Azure utilizzata per l'ambiente.
 
-1. Accedere a Commerce.
-1. Utilizzando il menu a sinistra, selezionare **Moduli \> Amministrazione sistema \> Impostazioni \> Posta elettronica \> Parametri posta elettronica**.
+1. Accedere a Commerce headquarters.
+1. Utilizzare il menu a sinistra per selezionare **Moduli \> Retail e Commerce \>  Impostazione sedi centrali \> Parametri \> Parametri posta elettronica**.
 1. Nella scheda **Impostazioni SMTP**, nel campo **Server di posta in uscita**, immettere il nome FQDN o l'indirizzo IP del server SMTP o del servizio di posta elettronica.
 1. Nel campo **Numero porta SMTP** immettere il numero di porta. (Se non si utilizza Secure Sockets Layer \[SSL\], il numero di porta predefinito è **25** .)
 1. Se è richiesta l'autenticazione, immettere i valori nei campi **Nome utente**e **Password**.
@@ -92,8 +89,8 @@ Se si desidera valutare le funzionalità di Gestione delle risorse digitali inse
 
 Per ciascun evento transazionale per il quale si desidera inviare messaggi di posta elettronica, è necessario aggiornare il modello di messaggio di posta elettronica con un indirizzo di posta elettronica del mittente valido.
 
-1. Accedere a Commerce.
-1. Utilizzare il menu a sinistra per selezionare **Moduli \> Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
+1. Accedere a Commerce headquarters.
+1. Utilizzare il menu a sinistra per selezionare **Moduli \> Retail e Commerce \>  Impostazione sedi centrali \> Parametri \> Modelli di posta elettronica a livello di organizzazione**.
 1. Selezionare **Mostra elenco**.
 1. Per ogni modello dell'elenco, effettuare le operazioni indicate di seguito.
 
@@ -104,9 +101,9 @@ Per ciascun evento transazionale per il quale si desidera inviare messaggi di po
 
 ## <a name="customize-email-templates"></a>Personalizzare i modelli di messaggio di posta elettronica
 
-Potresti voler personalizzare i modelli di messaggio di posta elettronica in modo che utilizzino immagini diverse. Oppure potresti voler aggiornare i collegamenti nei modelli in modo che vadano nell'ambiente di anteprima. Questa procedura illustra come scaricare i modelli predefiniti, personalizzarli e aggiornarli nel sistema.
+Potresti voler personalizzare i modelli di messaggio di posta elettronica in modo che utilizzino immagini diverse. Oppure potresti voler aggiornare i collegamenti nei modelli in modo che vadano nell'ambiente di valutazione. Questa procedura illustra come scaricare i modelli predefiniti, personalizzarli e aggiornarli nel sistema.
 
-1. In un browser Web, scaricare il [file ZIP dei modelli di messaggio di posta elettronica predefiniti dell'anteprima di Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) nel computer locale. Questo file contiene i seguenti documenti HTML:
+1. In un browser Web, scaricare il [file ZIP dei modelli di messaggio di posta elettronica predefiniti della valutazione di Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) nel computer locale. Questo file contiene i seguenti documenti HTML:
 
     - Modello Conferma ordine
     - Modello Emetti gift card
@@ -156,12 +153,12 @@ I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 > [!NOTE]
 > Inserire il token **Elenco prodotti - Inizio** all'inizio del blocco HTML che si ripete per ogni prodotto e inserire il token **Elenco prodotti - Fine** alla fine del blocco.
 
-| Nome del token      | Token  |
+| Nome del token      | Token |
 |------------------------|-------|
 | Elenco prodotti - Inizio   | \<!--%tablebegin.salesline% --\> |
 | Elenco prodotti - Fine     | \<!--%tableend.salesline%--\> |
 | Nome prodotto           | %lineproductname% |
-| Descrizione            | %lineproductdescription% |
+| descrizione            | %lineproductdescription% |
 | Quantità               | %linequantity% |
 | Riga prezzo unitario        | %lineprice% (verify) |
 | Totale voci        | %linenetamount% |
@@ -173,13 +170,15 @@ I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ambiente di anteprima Dynamics 365 Commerce](cpe-overview.md)
+[Panoramica dell'ambiente di valutazione Dynamics 365 Commerce](cpe-overview.md)
 
-[Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Commerce](provisioning-guide.md)
+[Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurare un ambiente di anteprima Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurare un ambiente di valutazione Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Domande frequenti sull'ambiente di anteprima Dynamics 365 Commerce](cpe-faq.md)
+[Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](cpe-bopis.md)
+
+[Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

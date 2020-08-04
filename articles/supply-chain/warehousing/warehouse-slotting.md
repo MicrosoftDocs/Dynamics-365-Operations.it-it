@@ -2,7 +2,7 @@
 title: Assegnazione magazzino
 description: Questo argomento fornisce informazioni sull'assegnazione magazzino. L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato Ordinato, Prenotato o Rilasciato. Aiuta i responsabili del magazzino a pianificare in modo intelligente le ubicazioni di prelievo prima di rilasciare ordini al magazzino e creare attività di prelievo.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d9080f192db0c59b4b4bc74468491e86ba0b7471
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530353"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597460"
 ---
 # <a name="warehouse-slotting"></a>Assegnazione magazzino
 
@@ -63,14 +63,14 @@ I livelli di unità di misura consentono di raggruppare più unità di misura ai
 1. Seleziona **Nuova** per aggiungere una seconda riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
-    - **Unità:** *ea*
+    - **Unità:** *unità*
     - **Descrizione:** lasciare vuoto questo campo. Verrà compilato automaticamente quando salvi le modifiche.
     - **Classe di unità:** *Quantità*
 
 1. Seleziona **Nuova** per aggiungere una terza riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
-    - **Unità:** *PL*
+    - **Unità:** *PALLET*
     - **Descrizione:** lasciare vuoto questo campo. Verrà compilato automaticamente quando salvi le modifiche.
     - **Classe di unità:** *Quantità*
 

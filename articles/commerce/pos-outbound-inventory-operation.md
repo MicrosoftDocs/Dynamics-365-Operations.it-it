@@ -3,7 +3,7 @@ title: Operazione di magazzino in uscita in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384131"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551627"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -58,6 +58,9 @@ Per configurare un framework di documenti asincrono, completare le seguenti proc
 7. Nella scheda dettaglio **Generale** nella sezione **Impostazione**, impostare l'opzione **Continuo** su **No** per garantire che non vi siano problemi di prestazioni.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Creare e pianificare due lavori batch per le attività di elaborazione e monitoraggio dei documenti
+
+> [!NOTE]
+> In Commerce versione 10.0.13 e successive, non è necessario configurare i processi batch tramite il framework dei processi batch. I processi batch possono essere configurati dal menu **Retail e Commerce > Vendita al dettaglio e commercio IT**. Utilizzare le opzioni di menu **Monitoraggio operazione documento vendita al dettaglio** e **Elaborazione operazione documento vendita al dettaglio** per configurare i processi batch
 
 I lavori batch creati vengono utilizzati per elaborare i documenti che hanno restituito un errore o un timeout. Saranno inoltre utilizzati quando il numero di documenti di magazzino attivi elaborati dal POS supera un valore configurato dal sistema.
 

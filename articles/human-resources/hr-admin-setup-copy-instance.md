@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431247"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554327"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
@@ -108,6 +108,6 @@ Inoltre, i seguenti stati cambiano quando si copia un'istanza:
 
 ## <a name="environment-admin"></a>Amministratore di ambiente
 
-Tutti gli utenti nell'ambiente sandbox di destinazione, inclusi gli amministratori, vengono sostituiti dagli utenti dell'ambiente di origine. Prima di copiare un'istanza, assicurarsi di essere un amministratore nell'ambiente di destinazione. In caso contrario, non sarà possibile accedere all'ambiente sandbox di destinazione al termine della copia.
+Tutti gli utenti nell'ambiente sandbox di destinazione, inclusi gli amministratori, vengono sostituiti dagli utenti dell'ambiente di origine. Prima di copiare un'istanza, assicurarsi di essere un amministratore nell'ambiente di origine. In caso contrario, non sarà possibile accedere all'ambiente sandbox di destinazione al termine della copia.
 
 Tutti gli utenti non amministratori nell'ambiente sandbox di destinazione sono disabilitati per impedire accessi indesiderati nell'ambiente sandbox. Gli amministratori possono riabilitare gli utenti se necessario.

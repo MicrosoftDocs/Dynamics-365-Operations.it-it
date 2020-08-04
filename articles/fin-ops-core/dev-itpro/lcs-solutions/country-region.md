@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812090"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598183"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
 ## <a name="local-and-regional-deployments"></a>Distribuzioni locali e regionali
 Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
 
-[App Microsoft Dynamics 365 Finance and Operations gestite de 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[App Finance and Operations gestite de 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
 [!include [banner](../includes/banner.md)]
 
-Nelle app Dynamics 365 Finance and Operations sono presenti funzionalità per i paesi documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
+Nelle app Finance and Operations sono presenti funzionalità per i paesi documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
 In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
 - Ottenere ulteriori informazioni su come sviluppare soluzioni specifiche per paese/area geografica.
@@ -67,7 +67,7 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app Finance and Operations
-La [Home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse in versioni specifiche delle app Finance and Operations.
+La [home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse nelle versioni specifiche delle app Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:

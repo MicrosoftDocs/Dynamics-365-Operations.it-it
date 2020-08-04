@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 3485e4f284218924cee01e45d5248f5af1a64010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 62ed33d101f7d7e47b560c417dc05e5aecc83478
+ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215955"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3546340"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sincronizzare i prodotti con l'unità di magazzino da Supply Chain Management a Field Service
 
@@ -52,7 +52,7 @@ In questo argomento vengono descritte le differenze tra i due modelli:
 
 Il modello **Prodotti Field Service con unità di magazzino (da Supply Chain Management a Field Service)** include un mapping che non è previsto nel modello **Prodotti Field Service (da Supply Chain Management a Field Service)**. Questo mapping assicura l'inclusione dell'unità di magazzino necessaria per la sincronizzazione del livello delle scorte.
 
-```Text
+```plaintext
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
 ```
 

@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443920"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539881"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 
@@ -41,8 +41,35 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | La funzione hook di azione dati è stata deprecata a causa di problemi di prestazioni. |
-| **Sostituita da un'altra funzionalità?**   | Ti consigliamo invece di utilizzare [sostituzioni di azioni sui dai](../e-commerce-extensibility/data-action-overrides.md) per modificare la logica aziendale nel livello di azione dati.|
+| **Sostituita da un'altra funzionalità?**   | È consigliabile utilizzare [sostituzioni di azioni sui dai](../e-commerce-extensibility/data-action-overrides.md) per modificare la logica aziendale nel livello di azione dati.|
 | **Aree del prodotto interessate**         | Azioni dati per l'estendibilità dell'e-commerce |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: dalla versione 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Supporto Retail SDK per Visual Studio 2015, msbuild 14.0 e Retail SDK\Librerie e strumenti di riferimento
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il supporto di Retail SDK per Visual Studio 2015 è stato deprecato e aggiornato per supportare VS 2017, msbuild 15.0 e tutte le librerie di riferimento e gli strumenti del generatore di proxy commerciali nella cartella RetailSDK\References spostati in pacchetti NuGet per semplificare il modello di estensione e il processo di aggiornamento SDK.|
+| **Sostituita da un'altra funzionalità?**   | È consigliabile seguire le informazioni in [Migrare Retail SDK da Visual Studio 2015 a Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) per aggiornare il sistema. |
+| **Aree del prodotto interessate**         | Estensioni di Retail SDK |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: dalla versione 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Estensione di Retail Server mediante IEdmModelExtender e CommerceController
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | L'estensione di Retail server mediante IEdmModelExtender e CommerceController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe controller senza alcuna implementazione aggiuntiva della classe IEdmModelExtender. Ciò evita anche la dipendenza con una particolare versione di OData (se la versione di OData viene aggiornata potrebbe rompere le estensioni). |
+| **Sostituita da un'altra funzionalità?**   |  Si consiglia di utilizzare il modello di estensione della classe IController importando il pacchetto NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Aree del prodotto interessate**         | Estensioni di Retail Server |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: dalla versione 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Estensione della stazione hardware mediante IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | L'estensione della stazione hardware mediante IHardwareStationController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe IController senza alcuna implementazione di classe aggiuntiva e per evitare la dipendenza con le librerie delle stazioni hardware core, in precedenza l'estensione deve fare riferimento a più librerie. |
+| **Sostituita da un'altra funzionalità?**   | Si consiglia di utilizzare il modello di estensione della classe IController importando il pacchetto NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Aree del prodotto interessate**         | Estensioni della stazione hardware |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: dalla versione 10.0.11 |
 

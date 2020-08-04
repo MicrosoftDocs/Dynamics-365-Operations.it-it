@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386109"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555173"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (14 maggio 2020)
 
@@ -87,7 +87,7 @@ Con la versione di questa settimana, puoi aggiungere allegati alle richieste di 
 
 È possibile sospendere le ferie e le assenze nelle risorse umane per un dipendente. La sospensione del congedo e interrompe la maturazione delle ferie per i tipi di congedi selezionati. Se la sospensione si verifica dopo l'elaborazione della maturazione, la sospensione delle ferie crea una rettifica proporzionale del saldo delle ferie del dipendente. Per ulteriori informazioni, vedere [Sospendere il congedo](hr-leave-and-absence-suspend-leave.md).
 
-## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>Aggiornare l'esperienza utente per indicare che l'accumulo è sospeso (429550)
+## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>Aggiornamento dell'esperienza utente per indicare che l'accumulo è sospeso (429550)
 
 L'esperienza utente ora indica che l'accumulo è stato sospeso per un piano.
 
@@ -110,3 +110,10 @@ Questa versione inizia a combinare i parametri delle risorse umane con i paramet
 ## <a name="carry-forward-rules"></a>Regole di riporto
 
 È possibile specificare un tipo di congedo riporto per i saldi del riporto in cui vengono trasferiti le rettifiche di riporto. Ad esempio, se un dipendente riporta 10 giorni, è possibile scegliere un tipo di congedo diverso per quei 10 giorni. Per ulteriori informazioni, vedere [Configurare i tipi di congedo e assenza](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

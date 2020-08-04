@@ -1,9 +1,9 @@
 ---
-title: Configurare BOPIS in un ambiente Dynamics 365 Commerce
-description: Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (BOPIS) in un ambiente Microsoft Dynamics 365 Commerce dopo il provisioning.
+title: Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce
+description: Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (BOPIS) in un ambiente di valutazione Microsoft Dynamics 365 Commerce dopo il provisioning.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282798"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599798"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>Configurare BOPIS in un ambiente Dynamics 365 Commerce
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (BOPIS) in un ambiente Microsoft Dynamics 365 Commerce dopo il provisioning dell'ambiente.
+Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (BOPIS) in un ambiente di valutazione Microsoft Dynamics 365 Commerce dopo il provisioning dell'ambiente.
 
 ## <a name="prerequisite"></a>Prerequisito
 
-Completare le procedure in questo argomento solo dopo aver effettuato il provisioning e la configurazione dell'ambiente di anteprima di Commerce. Per informazioni relative a come effettuare il provisioning e la configurazione dell'ambiente, consultare [Provisioning di un ambiente di anteprima Dynamics 365 Commerce](provisioning-guide.md) e [Configurare un ambiente di anteprima Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Completare le procedure in questo argomento solo dopo aver effettuato il provisioning e la configurazione dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning e la configurazione dell'ambiente, consultare [Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md) e [Configurare un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Dopo aver eseguito il provisioning e la configurazione dell'ambiente Commerce end-to-end, è possibile utilizzare questo argomento per abilitare gli scenari BOPIS.
 
@@ -71,7 +70,7 @@ Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una
 5. Viene visualizzata una finestra di dialogo di autenticazione. Selezionare l'account che utilizza l'indirizzo di posta elettronica precedentemente associato al lavoratore **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Se non hai ancora associato un lavoratore all'identità, l'attivazione avrà esito negativo. In questo caso, seguire i passaggi nella sezione "Associare un lavoratore all'identità" nell'argomento [Configurare un ambiente di anteprima Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Se non hai ancora associato un lavoratore all'identità, l'attivazione avrà esito negativo. In questo caso, seguire i passaggi nella sezione "Associare un lavoratore all'identità" nell'argomento [Configurare un ambiente di valutazione Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Quando viene richiesto di consentire all'organizzazione di gestire il dispositivo, selezionare **Solo questa app**.
 7. Al termine dell'attivazione, selezionare **Inizia**.
@@ -144,13 +143,13 @@ Per tutti i problemi generali, consultare sempre i log degli eventi Modern POS o
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ambiente di anteprima Dynamics 365 Commerce](cpe-overview.md)
+[Panoramica dell'ambiente di valutazione Dynamics 365 Commerce](cpe-overview.md)
 
-[Eseguire il provisioning dell'ambiente di anteprima di Dynamics 365 Commerce](provisioning-guide.md)
+[Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurare le funzionalità facoltative per un ambiente di anteprima Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Domande frequenti sull'ambiente di anteprima Dynamics 365 Commerce](cpe-faq.md)
+[Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

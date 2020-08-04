@@ -3,7 +3,7 @@ title: Operazione di magazzino in ingresso in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123901"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551603"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -57,6 +57,9 @@ Per configurare un framework di documenti asincrono, completare le seguenti proc
 5. Nella scheda dettaglio **Generale** nella sezione **Impostazione**, impostare l'opzione **Continuo** su **No** per garantire che non vi siano problemi di prestazioni.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Creare e pianificare due lavori batch per le attività di elaborazione e monitoraggio dei documenti
+
+> [!NOTE]
+> In Commerce versione 10.0.13 e successive, non è necessario configurare questi processi batch tramite il framework dei processi batch. I processi batch possono essere configurati dal menu **Retail e Commerce > Vendita al dettaglio e commercio IT**. Utilizzare le opzioni di menu **Monitoraggio operazione documento vendita al dettaglio** e **Elaborazione operazione documento vendita al dettaglio** per configurare i processi batch.
 
 I lavori batch creati vengono utilizzati per elaborare i documenti che hanno restituito un errore o un timeout. Saranno inoltre utilizzati quando il numero di documenti di magazzino attivi elaborati dal POS supera un valore configurato dal sistema.
 

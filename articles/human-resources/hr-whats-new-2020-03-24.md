@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177939"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555101"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (24 marzo 2020)
 
@@ -113,3 +113,10 @@ A partire da aprile, la cadenza di rilascio di Human Resources passerà da un ag
 ## <a name="employment-detail-entity"></a>Entità Dettaglio impiego
 
 L'entità **Dettagli impiego** è stata aggiornata con i seguenti campi: **PayFrequency**, **ID categoria impiego**, **Tipo di impiego**, **ID EmploymentType** e **Stato impiego benefit**. I dati di configurazione per questi campi si basano sulla gestione dei benefit abilitata in Gestione funzionalità. Questi campi non devono essere compilati o aggiornati nell'entità **Dettagli impiego** perché vengono restituiti errori durante l'importazione.
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

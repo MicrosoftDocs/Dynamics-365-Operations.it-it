@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500439"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555029"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (23 giugno 2020)
 
@@ -114,8 +114,15 @@ Un'entità DMF è ora disponibile per le sospensioni degli accumuli.
 
 ## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome del dipendente self-service
 
-Una nuova opzione sarà disponibile nei **parametri Risorse umane** per aggiornare il nome dell'area di lavoro self service Dipendente in Self service.
+Una nuova opzione sarà disponibile nei **parametri Risorse umane** per aggiornare il nome dell'area di lavoro Dipendente self-service in Self-service.
 
 ## <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
 
 Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
+
+## <a name="see-also"></a>Vedere anche
+
+[Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Aggiornare un processo](hr-admin-setup-update-process.md)</br>
+[Gestire le funzionalità](hr-admin-manage-features.md)

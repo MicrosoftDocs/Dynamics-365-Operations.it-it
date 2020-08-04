@@ -2,7 +2,7 @@
 title: Stato ubicazione magazzino
 description: Questo argomento fornisce una panoramica della funzionalità di stato dell'ubicazione di magazzino.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d107f7b35376e840f7e73e569a7bd53279554c4d
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530215"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597508"
 ---
 # <a name="warehouse-location-status"></a>Stato ubicazione magazzino
 
@@ -120,9 +120,9 @@ Lo scenario di esempio richiede la preparazione di due profili di ubicazione.
     - La colonna **Data e ora dell'ultima attività** mostra il timestamp per la data e l'ora in cui il lavoro è stato completato nell'ubicazione.
 
 1. Sul dispositivo mobile, vai a **Qualità \> Movimento**.
-1. Seleziona il campo **LOC/LP** e immetti l'ubicazione di cui hai preso nota nei passaggi precedenti.
+1. Seleziona il campo **UBICAZIONE/TARGA** e immetti l'ubicazione di cui hai preso nota nei passaggi precedenti.
 1. Conferma le informazioni visualizzate. Prendi nota del numero di targa che viene generato.
-1. Nella schermata **Informazioni di destinazione**, seleziona il campo **LOC/LP** e immetti *06A07R2S1B* come ubicazione in cui spostare l'articolo.
+1. Nella schermata **Informazioni di destinazione**, seleziona il campo **UBICAZIONE/TARGA** e immetti *06A07R2S1B* come ubicazione in cui spostare l'articolo.
 1. Nella schermata **Informazioni di destinazione**, conferma il valore **Targa** (ID targa di destinazione), che viene generato automaticamente. Viene visualizzato un messaggio "Lavoro completato" nella parte inferiore della pagina.
 1. Seleziona il pulsante Menu nell'angolo in alto a destra, quindi seleziona **Annulla** per chiudere **Movimento** e tornare al menu **Gestione qualità**.
 1. Seleziona **Indietro** per tornare al menu principale.
@@ -146,8 +146,8 @@ Lo scenario di esempio richiede la preparazione di due profili di ubicazione.
 1. Copia il valore **ID lavoro** che è stato creato.
 1. Sul dispositivo mobile, vai a **In uscita \> Prelievo vendite**.
 1. Seleziona il campo **ID**, inserisci l'ID lavoro copiato in precedenza e conferma.
-1. Nella pagina **Ordini cliente: Prelievo** il campo **LOC** campo suggerisce l'ubicazione di prelievo come l'ubicazione di stoccaggio creata in precedenza. Prendi nota dell'ubicazione.
-1. Seleziona il campo **LOC**, inserisci l'ubicazione e conferma.
+1. Nella pagina **Ordini cliente: Prelievo** il campo **UBICAZIONE** suggerisce l'ubicazione di prelievo come l'ubicazione di stoccaggio creata in precedenza. Prendi nota dell'ubicazione.
+1. Seleziona il campo **UBICAZIONE**, inserisci l'ubicazione e conferma.
 1. Seleziona il **Targa**, inserisci il numero di targa di cui hai preso nota durante l'attività di movimento e conferma.
 1. Seleziona il campo **Articolo**, quindi inserisci *A0002* come numero articolo e conferma.
 1. Nella pagina **Qtà**, inserisci *1* come quantità e conferma.
