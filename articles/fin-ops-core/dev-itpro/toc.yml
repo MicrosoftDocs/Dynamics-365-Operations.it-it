@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.13 (ottobre 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform update 10.0.12 (agosto 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform update 10.0.11 (luglio 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Scegliere una strategia di integrazione dei dati (importazione o esportazione)
               href: data-entities/integration-overview.md
+            - name: Limitazione basata su priorità
+              hreF: data-entities/priority-based-throttling.md
             - name: API di integrazione dati
               items:
                 - name: API REST di pacchetti di gestione dei dati
@@ -152,6 +156,8 @@
                           items:
                             - name: Personalizzazione di mapping di entità e campo
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Modificare una persona giuridica dopo l'impostazione della doppia scrittura
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gestione degli errori e notifiche di avviso
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Gestione del ciclo di vita dell'applicazione
