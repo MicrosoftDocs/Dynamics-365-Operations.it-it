@@ -70,12 +70,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (ottobre 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (luglio 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (maggio 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: Catalogo di apprendimento
               items:
                 - name: Home page catalogo di apprendimento
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Responsabili delle decisioni aziendali
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Utenti aziendali
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Responsabili dei progetti di implementazione
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Amministratori
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Sviluppatori
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Vendite e marketing partner
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Consulenti funzionali
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Architetti di soluzioni
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Esplorare l'interfaccia utente
               items:
                 - name: Elementi dell'interfaccia utente
@@ -1257,6 +1257,8 @@
               items:
                 - name: Giornali di registrazione magazzino
                   href: inventory/inventory-journals.md
+                - name: Flussi di lavoro di approvazione del giornale di registrazione magazzino
+                  href: inventory/inventory-journal-workflow.md
                 - name: Ubicazioni di magazzino
                   href: inventory/inventory-locations.md
                 - name: Stati inventario
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Controllare la disponibilità scorte
                   href: inventory/tasks/check-availability-stock.md
+                - name: Elenco scorte disponibili
+                  href: inventory/inventory-on-hand-list.md
                 - name: Inizializzare i livelli di scorte in magazzino
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Trasferire l'inventario fisico all'interno del magazzino
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Cicli di lavorazione e operazioni
                       href: production-control/routes-operations.md
-                    - name: Criteri di lavoro magazzino
+                    - name: Criteri di lavoro
                       href: warehousing/warehouse-work-policies.md
                     - name: Creare proprietà di programmazione orari di lavoro
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Combinazione dimensioni prodotto ubicazione
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Controllo qualità
+                  href: warehousing/quality-check.md
             - name: Operazioni di magazzino in uscita
               items:
                 - name: Prenotazioni in Gestione magazzino
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Rifornimento soglia di zona
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Rifornimento superiore alla capacità dell'ubicazione
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Allestimento del carico e spedizioni
                   items:
                     - name: Conferma e trasferimento
                       href: warehousing/confirm-and-transfer.md
+                    - name: Conferma spedizioni in uscita da processi batch
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Allestimento del carico avanzato durante un'ondata
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Rilascio alla regola del magazzino
@@ -2675,14 +2685,12 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: Scenario 5 - Consolidare le spedizioni manualmente utilizzando la pagina di consolidamento delle spedizioni
                       href: warehousing/consolidate-shipments-manual-form.md
-            - name: Operazioni di magazzino
+            - name: Operazioni in magazzino
               items:
                 - name: Criteri di lavoro magazzino
                   items:
-                    - name: Panoramica criteri di lavoro magazzino
+                    - name: Criteri di lavoro
                       href: warehousing/warehouse-work-policies.md
-                    - name: Impostare i criteri di lavoro magazzino
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Movimento di magazzino con lavoro associato nella gestione magazzino
                       href: warehousing/move-inventory-associated-work.md
                     - name: Creare una classe di lavoro
@@ -2715,11 +2723,11 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Processo di pulizia delle voci disponibili per la gestione del magazzino
                       href: warehousing/onhand-cleanup.md
-                    - name: Giornale di registrazione magazzino
+                    - name: Giornali di registrazione magazzino
                       href: inventory/inventory-journals.md
                     - name: Ubicazione di magazzino
                       href: inventory/inventory-locations.md
-                    - name: Stato inventario
+                    - name: Stato scorte
                       href: inventory/inventory-statuses.md
                     - name: Conteggio tag scorte
                       href: inventory/inventory-tag-counting.md
