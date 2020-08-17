@@ -3,7 +3,7 @@ title: Abilitare l'autenticazione Azure Active Directory per l'accesso POS
 description: Questo argomento spiega come configurare l'esperienza di accesso per il punto vendita (POS) di Microsoft Dynamics 365 Commerce in modo che utilizzi l'autenticazione Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410037"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641035"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Abilitare l'autenticazione Azure Active Directory per l'accesso POS
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Per associare un account Azure AD a un lavoratore, attenersi alla seguente proce
 1. Selezionare l'account Azure AD che viene restituito, quindi selezionare **OK**.
 
 I campi **Alias**, **UPN** e **Identificatore secondario esterno** nella scheda **Commerce** della pagina dei dettagli del lavoratore verranno compilati.
+
+> [!NOTE]
+> Dopo l'aggiornamento di un record lavoratore, ad esempio se viene associato un nuovo account Azure AD, la password viene modificata o la rubrica di un dipendente viene aggiornata, si consiglia di eseguire la pianificazione di distribuzione **1060** (**Personale**) per sincronizzare le informazioni più recenti sul personale con il canale. In questo modo, l'applicazione POS può recuperare i dati corretti per l'autenticazione dell'utente e il controllo delle autorizzazioni.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -3,7 +3,7 @@ title: Novità o modifiche in Human Resources
 description: Ogni settimana, forniamo una nuova versione per Microsoft Dynamics 365 Human Resources. Gli articoli elencati in questa sezione descrivono in dettaglio le modifiche apportate ogni settimana.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/01/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 418ac9cf680f3a3f6316888c62f02b4dc86030c9
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555365"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614314"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novità o modifiche in Human Resources
 
@@ -41,6 +41,7 @@ Per ulteriori informazioni sulle funzionalità imminenti o sul processo di aggio
 
 Per visualizzare novità o modifiche in ogni versione bisettimanale di Human Resources, vedere i seguenti articoli:
 
+[23 luglio 2020](hr-whats-new-2020-07-23.md)</br>
 [8 luglio 2020](hr-whats-new-2020-07-08.md)</br>
 [23 giugno 2020](hr-whats-new-2020-06-23.md)</br>
 [11 giugno 2020](hr-whats-new-2020-06-11.md)</br>

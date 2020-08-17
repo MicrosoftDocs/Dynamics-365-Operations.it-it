@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268772"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652109"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.10 (maggio 2020)
 
@@ -39,11 +39,11 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Miglioramento dell'utilizzo dei tag esistenti per il peso variabile con la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Miglioramenti della gestione dei carichi in entrata per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
-- [Miglioramenti della stampa di etichette per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - Per ulteriori informazioni, vedere [Layout della distribuzione documenti per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
+- [Miglioramenti della gestione del carico in entrata per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
+- [Miglioramenti alla stampa di etichette per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Per ulteriori informazioni, vedere [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
 - [La pianificazione generale include articoli con scorte disponibili quando sono abilitati i filtri di preelaborazione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nuove entità di dati per l'area di produzione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Gestione della qualità per i processi di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - Per ulteriori informazioni, vedere [Gestione della qualità per i processi di magazzino](../inventory/quality-management-for-warehouses-processes.md).
+- [Gestione qualità per i processi di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Per ulteriori informazioni, vedere [Gestione qualità per i processi di magazzino](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -3,7 +3,7 @@ title: Rimuovere un'istanza
 description: In questo argomento viene descritto il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431201"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621382"
 ---
 # <a name="remove-an-instance"></a>Rimuovere un'istanza
 
@@ -67,8 +67,21 @@ Per rimuovere un ambiente Human Resources da un ambiente Power Apps esistente, c
 1. Contattare il Supporto per avviare una richiesta di rimozione.
 2. Il team di supporto avvierà una richiesta di rimozione con il team Human Resources DevOps. 
 3. Continuare dopo aver ricevuto conferma che l'ambiente è stato rimosso.
-4.  Accedere a LCS utilizzando l'account usato per iscriversi a Human Resources. 
+4. Accedere a LCS utilizzando l'account usato per iscriversi a Human Resources. 
 5. Selezionare il progetto Human Resources contenente l'ambiente. 
 6. Nel progetto LCS selezionare il riquadro **Gestione app Human Resources**. 
 7. Selezionare l'istanza che si desidera rimuovere, che deve essere contrassegnata con lo stato di distribuzione **Non riuscita**.
 8. Selezionare **Rimuovere istanza** e confermare la decisione. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Ripristinare un ambiente eliminato temporaneamente
+
+Se si elimina l'ambiente Power Apps a cui è connesso l'ambiente Human Resources, lo stato dell'ambiente Human Resources in Lifecycle Services sarà **Eliminato temporaneamente**. In questo caso, gli utenti non possono connettersi a Human Resources.
+
+Per ripristinare l'ambiente:
+
+1. Seguire le istruzioni in [Ripristinare l'ambiente Power Apps](/power-platform/admin/recover-environment.md).
+
+2. Contattare il supporto per ripristinare l'ambiente Human Resources. Per ulteriori informazioni, vedere [Ottenere supporto](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Gli ambienti Power Apps vengono salvati solo per sette giorni dopo l'eliminazione. È necessario ripristinare l'ambiente entro il periodo di sette giorni.

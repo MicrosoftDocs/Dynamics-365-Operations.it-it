@@ -1,9 +1,9 @@
 ---
 title: Impostazioni ordine predefinite per le dimensioni e varianti prodotto
 description: Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine.
-author: roxanadiaconu
+author: t-benebo
 manager: tfehr
-ms.date: 11/03/2017
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,15 +16,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46b1efb274c9f54f27c26884dc18fc4a317786be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
+ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211578"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3637758"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per dimensioni e varianti prodotto
 
@@ -32,55 +32,58 @@ ms.locfileid: "3211578"
 
 Le impostazioni ordine predefinite in Dynamics 365 Supply Chain Management definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verranno utilizzate per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Le impostazioni ordine predefinite vengono utilizzate durante la creazione di ordini fornitore, ordini cliente, ordini di trasferimento, giornali di registrazione magazzino e durante la pianificazione generale per la generazione degli ordini pianificati. Le impostazioni ordine predefinite possono essere specifiche dell'articolo, del sito, della variante prodotto o della dimensioni prodotto.
 
-È possibile definire le impostazioni ordine predefinite nella pagina **Impostazioni ordine predefinite**. Per visualizzare questa pagina, andare a **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Prodotti rilasciati** &gt; **selezionare un prodotto rilasciato** &gt; nel riquadro azioni **Piano** o **Gestione articoli** &gt; **Impostazioni ordine** &gt; **Impostazioni ordine predefinite**.
+È possibile definire le impostazioni ordine predefinite nella pagina **Impostazioni ordine predefinite**. Per aprire questa pagina, vai a **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Prodotti rilasciati** &gt; **Seleziona un prodotto rilasciato** &gt; sul **Piano**. È possibile anche andare a **Gestione articoli** &gt; **Impostazioni ordine** &gt; **Impostazioni ordine predefinite**.
 
 ## <a name="default-order-settings"></a>Impostazioni ordine predefinite
+
 Sono disponibili tre tipi di impostazioni ordine predefinite per acquisti, vendite e scorte. Le impostazioni ordine predefinite per gli acquisti vengono utilizzate durante la creazione di:
 
--   Righe ordine fornitore
--   Righe contratto di acquisto
--   Righe richiesta di offerta
--   Righe richiesta di acquisto
--   Righe di rifornimento spedizione
--   Ordini fornitore pianificati
+- Righe ordine fornitore
+- Righe contratto di acquisto
+- Righe richiesta di offerta
+- Righe richiesta di acquisto
+- Righe di rifornimento spedizione
+- Ordini fornitore pianificati
 
 Le impostazioni ordine predefinite per le vendite vengono utilizzate durante la creazione di:
 
--   Righe ordine cliente
--   Righe contratto di vendita
--   Righe di offerta di vendita
--   Righe di ordine di reso e righe di sostituzione articolo
--   Righe di previsione della domanda
+- Righe ordine cliente
+- Righe contratto di vendita
+- Righe di offerta di vendita
+- Righe di ordine di reso e righe di sostituzione articolo
+- Righe di previsione della domanda
 
 Le impostazioni ordine di vendita predefinite vengono utilizzate anche durante la creazione di:
 
--   Richieste articoli nel progetto
--   Richieste articoli degli ordini di assistenza
+- Richieste articoli nel progetto
+- Richieste articoli degli ordini di assistenza
 
 Le impostazioni ordine predefinite per le scorte vengono utilizzate durante la creazione di:
 
--   Giornali di registrazione magazzino
--   Ordini di trasferimento
--   Ordini trasferimento pianificati
+- Giornali di registrazione magazzino
+- Ordini di trasferimento
+- Ordini trasferimento pianificati
 
 Le impostazioni ordine di magazzino predefinite vengono utilizzate anche durante la creazione di:
 
--   Ordini di quarantena
--   Ordini di controllo qualità
--   Ordini di produzione
--   Righe DBA
--   Ordini di produzione pianificati
+- Ordini di quarantena
+- Ordini di controllo qualità
+- Ordini di produzione
+- Righe DBA
+- Ordini di produzione pianificati
 
 ## <a name="full-definition-of-a-released-product"></a>Definizione completa di un prodotto rilasciato
+
 Quando si crea una transazione, è necessario specificare la definizione completa di un prodotto rilasciato nella riga affinché Supply Chain Management tenti di identificare le impostazioni ordine predefinite. La definizione completa del prodotto rilasciato significa che il numero di articolo e tutte le dimensioni prodotto attive, ad esempio configurazione, dimensione, stile e colore, vengono specificati per la transazione. Ad esempio, se si crea manualmente una riga di ordine di acquisto per una variante prodotto rilasciato, è necessario specificare tutte le dimensioni prodotto richieste prima che il sito, il magazzino, le quantità e il lead time vengano visualizzati per impostazione predefinita nella riga ordine. 
 
-Non tutti i parametri delle impostazioni ordine predefinite vengono applicati quando si creano le righe giornale di registrazione o ordine. Le quantità e i lead time vengono visualizzati per impostazione predefinita solo al momento opportuno. Ad esempio quando si conteggia una riga giornale di registrazione, solo il sito e il magazzino vengono visualizzati per impostazione predefinita quando la riga viene creata. Ovviamente non viene eseguita nessuna impostazione predefinita di quantità né vengono eseguiti i controlli su multipli e minimi durante la creazione della riga o la registrazione del giornale. 
+Non tutti i parametri delle impostazioni ordine predefinite vengono applicati quando si creano le righe giornale di registrazione o ordine. Le quantità e i lead time vengono visualizzati per impostazione predefinita solo al momento opportuno. Ad esempio quando si conteggia una riga giornale di registrazione, solo il sito e il magazzino vengono visualizzati per impostazione predefinita quando la riga viene creata. Per questo motivo nessuna quantità predefinita o controlli vengono eseguiti su multipli e minimi durante la creazione della riga o la registrazione del giornale. 
 
 Il sistema tenta sempre di individuare un sito e un magazzino predefiniti quando viene creata una riga giornale di registrazione o ordine. Il sito non viene sempre visualizzato per impostazione predefinita dalle impostazioni ordine. Se ad esempio si crea un ordine cliente o un ordine fornitore, il sito indicato nell'intestazione dell'ordine viene utilizzato automaticamente nelle righe ordine. Quando si crea una riga DBA, viene utilizzato il sito indicato nell'intestazione della DBA. Dopo avere determinato il sito, questo verrà utilizzato per trovare le impostazioni ordine specifiche del sito che potranno essere utilizzate come impostazioni predefinite per il magazzino. 
 
-Il tipo di ordine predefinito, i lead time di acquisto e di magazzino possono essere ignorati dalle regole di copertura articoli nella pagina **Copertura articoli**. Mentre le impostazioni ordine predefinite non consentono la distinzione tra il lead time di produzione e di trasferimento, le regole di copertura articoli la consentono. Tuttavia, l'impostazione della copertura articoli verrà utilizzata solo da MRP per la creazione di ordini di trasferimento pianificati e di produzione pianificati e non si applica al momento della creazione manuale degli ordini di trasferimento e di produzione. 
+Il tipo di ordine predefinito, i lead time di acquisto e di magazzino possono essere ignorati dalle regole di copertura articoli nella pagina **Copertura articoli**. Mentre le impostazioni ordine predefinite non consentono la distinzione tra il lead time di produzione e di trasferimento, le regole di copertura articoli la consentono. Tuttavia, l'impostazione della copertura articoli verrà utilizzata solo da Pianificazione generale per la creazione di ordini di trasferimento pianificati e di produzione pianificati e non si applica al momento della creazione manuale degli ordini di trasferimento e di produzione. 
 
 ## <a name="default-order-settings-rules"></a>Regole delle impostazioni ordine predefinite
+
 È possibile definire le impostazioni ordine predefinite generali e qualsiasi numero di regole delle impostazioni ordine predefinite valide solo per determinati contesti, ad esempio un sito o una specifica dimensione prodotto o una combinazione di dimensioni prodotto. Non è possibile definire le impostazioni ordine specifiche del magazzino.
 
 ### <a name="rank-in-default-order-settings"></a>Classificazione delle impostazioni ordine predefinite
@@ -91,15 +94,15 @@ Le regole delle impostazioni ordine predefinite vengono classificate. Più alta 
 
 Per prodotti rilasciati specifici, è possibile definire le impostazioni ordine generali o le impostazioni ordine specifiche del sito. Le impostazioni ordine generale hanno sempre la classificazione zero. Se si impostano nuove impostazioni ordine di vendita, acquisto e magazzino insieme contemporaneamente, si consiglia di utilizzare **Visualizzazione dettagli** nella pagina **Impostazioni ordine predefinite**. Per passare alla visualizzazione dettagli, passare al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione dettagli**.
 
-### <a name="site-specific-order-settings"></a>Impostazioni ordine specifiche del sito
+### <a name="site-specific-order-settings"></a>Impostazioni di ordine specifiche del sito
 
-Per creare impostazioni ordine specifiche del sito, fare clic su **Nuovo**. In **Visualizzazione dettagli** specificare il sito nel campo **Impostazioni applicabili per** &gt; **Sito**. In **Visualizzazione griglia**, inserire il sito nella colonna **Sito**. La nuova regola ottiene automaticamente un nuovo valore di classificazione maggiore di zero. È possibile creare tutte le regole specifiche del sito necessarie ed è possibile assegnare tutte le regole specifiche del sito alla stessa classificazione per modellarle su un'uguale importanza. 
+Per creare impostazioni ordine specifiche del sito, seleziona **Nuovo**. In **Visualizzazione dettagli** specificare il sito nel campo **Impostazioni applicabili per** &gt; **Sito**. In **Visualizzazione griglia**, inserire il sito nella colonna **Sito**. La nuova regola ottiene automaticamente un nuovo valore di classificazione maggiore di zero. È possibile creare tutte le regole specifiche del sito necessarie ed è possibile assegnare tutte le regole specifiche del sito alla stessa classificazione per modellarle su un'uguale importanza. 
 
-Nella **Visualizzazione dettagli** non è possibile ottenere la panoramica delle regole create per l'articolo. Attivare il pulsante **Mostra/nascondi elenco** per visualizzare le informazioni generali. Quando una riga di ordine di qualsiasi tipo viene creata e non viene fornito alcun sito, Supply Chain Management cerca una regola senza sito specificato. Questa azione potrebbe aiutare a determinare un sito predefinito nella riga ordine. Questo sito verrà utilizzato per cercare una regola specifica del sito in cui un magazzino predefinito potrebbe essere stato impostato. Il magazzino viene applicato alla riga ordine.
+Nella **Visualizzazione dettagli** non è possibile ottenere la panoramica delle regole create per l'articolo. Utilizza il pulsante **Mostra/nascondi elenco** per visualizzare le informazioni generali. Quando una riga di ordine di qualsiasi tipo viene creata e non viene fornito alcun sito, Supply Chain Management cerca una regola senza sito specificato. Questa azione potrebbe aiutare a determinare un sito predefinito nella riga ordine. Questo sito verrà utilizzato per cercare una regola specifica del sito in cui un magazzino predefinito potrebbe essere stato impostato. Il magazzino viene applicato alla riga ordine.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Impostazioni ordine specifiche per la dimensione prodotto
 
-È possibile definire le regole delle impostazioni ordine per qualsiasi dimensione prodotto attiva o combinazione di dimensioni prodotto attive. Se un campo di dimensione prodotto viene lasciato vuoto, la regola viene applicata a tutti i valori della dimensione prodotto. 
+È possibile definire le regole delle impostazioni ordine per qualsiasi dimensione prodotto attiva o combinazione di dimensioni prodotto attive. Se un campo di dimensione prodotto è vuoto, la regola viene applicata a tutti i valori della dimensione prodotto. 
 
 Considerare il prodotto di esempio riportato di seguito.
 
@@ -142,7 +145,7 @@ Si considerino le seguenti regole delle impostazioni ordine predefinite.
 | 10   |      | S1            |  R2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Il sistema attraversa il set di regole due volte per determinare il sito e il magazzino. Quando una riga di ordine fornitore viene creata per la configurazione C1, lo stile R2, il sito viene determinato in base alla regola con il livello 10. Il sistema quindi cerca una regola per il sito 2 per determinare un magazzino. La regola 20 viene rilevata e poiché ha una classificazione più alta, il magazzino nella riga ordine fornitore sarà 22 anziché 21. 
+Il sistema attraversa il set di regole due volte per determinare il sito e il magazzino. Quando una riga di ordine fornitore viene creata per la configurazione C1, lo stile R2, il sito viene determinato in base alla regola con il livello 10. Il sistema quindi cerca una regola per il sito 2 per determinare un magazzino. La regola 20 viene rilevata e poiché ha una classificazione più alta, il magazzino nella riga ordine fornitore sarà 22 anziché 21.
 
 Come indicazione generale, le regole specifiche e le regole per le dimensioni più importanti di altre dimensioni ottengono classificazioni più alte, mentre le regole più generiche ottengono classificazioni inferiori. 
 
@@ -150,11 +153,11 @@ La regola con classificazione zero serve da regola di sicurezza. Se non vengono 
 
 Poiché il numero di classificazione è così importante, nel riquadro azioni **Impostazioni ordine predefinite**, sono presenti le funzioni per spostare in una regola verso l'alto o verso il basso e per rinumerare le regole, in modo che siano sempre in incrementi di 10. 
 
-Il numero di regole create per un prodotto rilasciato può essere notevole. Per ottenere un giovamento da ciò che ogni regola ignora e dal perché è necessaria, è consigliabile utilizzare la **Visualizzazione griglia** nella pagina **Impostazioni ordine predefinite**. È possibile abilitare la visualizzazione griglia passando al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione griglia**. Il numero di colonne nella griglia potrebbe essere significativo, soprattutto per le schede vendite e magazzino. Per limitare il numero di colonne visualizzate nella griglia, i gruppi di colonne possono essere nascosti o visualizzati utilizzando i pulsanti del menu **Impostazioni ordine predefinite** &gt; **Visualizzazione di colonna**.
+Il numero di regole create per un prodotto rilasciato può essere notevole. Per ottenere un giovamento da ciò che ogni regola ignora e dal perché è necessaria, è consigliabile utilizzare la **Visualizzazione griglia** nella pagina **Impostazioni ordine predefinite**. È possibile abilitare la visualizzazione griglia passando a **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione griglia**. Il numero di colonne nella griglia potrebbe essere significativo, soprattutto per le schede vendite e magazzino. Per limitare il numero di colonne visualizzate nella griglia, i gruppi di colonne possono essere nascosti o visualizzati utilizzando i pulsanti del menu **Impostazioni ordine predefinite** &gt; **Visualizzazione di colonna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Impostazioni ordine specifiche per la variante prodotto rilasciato
 
-Se il sistema della regola per le impostazioni ordine predefinite è troppo complicato, è possibile scegliere semplicemente di definire le impostazioni ordine predefinite per ogni variante prodotto. Negli esempi riportati di seguito viene illustrato come verrà cercato il prodotto e i casi descritti in precedenza.
+Se il sistema della regola per le impostazioni ordine predefinite è troppo complicato, è possibile scegliere di definire le impostazioni ordine predefinite per ogni variante prodotto. Nell'esempio riportato di seguito viene illustrato come verrà cercato il prodotto e i casi descritti in precedenza.
 
 | Classificazione | Sito | Configurazione | Stile | Acquisto - Ignora impostazioni predefinite | Lead time acquisto | Acquisto - Interrotto | Vendita - Ignora impostazioni predefinite | Vendita - Interrotta |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
@@ -168,5 +171,24 @@ Se il sistema della regola per le impostazioni ordine predefinite è troppo comp
 
 La classificazione in questo caso non ha grande importanza pertanto è possibile scegliere di nasconderla. Questa soluzione potenzialmente introduce un problema di gestione. Tuttavia, è possibile considerare di utilizzare questa impostazione se si pensa all'integrazione con sistemi di gestione del ciclo di vita del prodotto.
 
+## <a name="use-strict-or-standard-validation-of-default-order-quantities"></a>Utilizzare una convalida rigorosa o standard delle quantità di ordini predefinite
 
+È possibile scegliere la rigidità del sistema durante la convalida delle quantità immesse in **Impostazioni ordine predefinite** per un prodotto. Quando si utilizza la nuova opzione rigorosa, **Quantità ordine standard** deve essere sempre un multiplo del valore specificato **Multiplo** per ordini di acquisto, inventario e ordini di vendita. Se si utilizza una convalida rigorosa, non sarà possibile salvare le impostazioni dell'ordine predefinite che non soddisfano questo requisito (e viene visualizzato un errore nella barra dei messaggi). 
 
+Si applica una rigorosa convalida ai valori di **Quantità ordine standard** specificati sulle Schede dettaglio **Ordine fornitore**, **Inventario** e **Ordine cliente** della pagina **Impostazioni ordine predefinite**. Ogni Scheda dettaglio ha la propria impostazione di **Multiplo** che viene utilizzata per convalidare il valore **Quantità ordine standard** specificato per quella Scheda dettaglio.
+
+### <a name="enable-the-strict-validation-option"></a>Abilitare l'opzione di convalida rigorosa
+
+Prima di poter utilizzare questa opzione di convalida rigorisa, è necessario attivarla nel sistema. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario. La funzione viene elencata come:
+
+- **Modulo** - *Gestione informazioni sul prodotto*
+- **Nome funzionalità** - *Cnvalida rigorosa delle quantità di ordini predefinite*
+
+### <a name="set-the-validation-option"></a>Impostare l'opzione di convalida
+
+per impostare l'opzione di convalida:
+
+1. Andare a **Gestione informazioni sul prodotto \> Imposta \>Parametri di gestione informazioni sul prodotto**.
+1. Nella scheda **Generale**, imposta **Convalida delle quantità ordine predefinite** su uno dei seguenti valori:
+    - **Rigoroso**: selezionare questa opzione per fare in modo che tutti i valori di **Quantità ordine standard** saranno un multiplo del valore **Multiplo** per ciascuna Scheda dettaglio ( **Ordine fornitore**, **Inventario** e **Ordine cliente**).
+    - **Standard**: Seleziona questa opzione per usare la convalida standard (che funziona come quando questa funzionalità non è abilitata).

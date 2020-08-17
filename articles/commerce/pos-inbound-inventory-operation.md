@@ -3,7 +3,7 @@ title: Operazione di magazzino in ingresso in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551603"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627540"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551603"
 In Microsoft Dynamics 365 Commerce versione 10.0.10 e successive, le operazioni in entrata e in uscita del punto vendita (POS) sostituiscono l'operazione di prelievo e ricezione.
 
 > [!NOTE]
-> Nella versione 10.0.10 e successive, eventuali nuove funzionalità dell'applicazione POS correlate all'inventario del negozio in entrata rispetto agli ordini fornitore e agli ordini di trasferimento verranno aggiunte alle **operazioni in entrata** del POS. Se al momento si sta utilizzando l'operazione di prelievo e ricezione nel POS, consigliamo di sviluppare una strategia per passare alle nuove operazioni in entrata e in uscita. Sebbene l'operazione di prelievo e ricezione non verrà rimossa dal prodotto, non vi saranno ulteriori investimenti dal punto di vista funzionale o prestazionale, dopo la versione 10.0.9.
+> Nella versione di Commerce 10.0.10 e successive, eventuali nuove funzionalità dell'applicazione POS correlate all'inventario del negozio in entrata rispetto agli ordini fornitore e agli ordini di trasferimento verranno aggiunte alle **operazioni in entrata** del POS. Se al momento si sta utilizzando l'operazione di prelievo e ricezione nel POS, consigliamo di sviluppare una strategia per passare alle nuove operazioni in entrata e in uscita. Sebbene l'operazione di prelievo e ricezione non verrà rimossa dal prodotto, non vi saranno ulteriori investimenti dal punto di vista funzionale o prestazionale, dopo la versione 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Prerequisito: configurare un framework di documenti asincrono
 
@@ -153,6 +153,20 @@ Quando necessario, è possibile selezionare **Ricevi tutto** sulla barra dell'ap
 Se si ricevono le scorte, è possibile utilizzare la funzione **Sospendi ricezione** se si desidera sospendere il processo di ricezione. Ad esempio, è possibile eseguire un'altra operazione dal POS, ad esempio telefonare all'addetto alle vendite di un cliente o ritardare la registrazione della ricezione.
 
 Quando si seleziona **Sospendi ricezione**, lo stato del documento diventa **In sospeso**. Pertanto, gli utenti sapranno che sono stati immessi dei dati per il documento, ma il documento non è stato ancora stato sottoposto al commit. Quando si è pronti per riprendere il processo di ricezione, selezionare il documento in sospeso, quindi selezionare **Dettagli ordine**. Qualunque quantità **In ricevimento ora** precedentemente salvata viene conservata e può essere visualizzata dalla visualizzazione **Elenco completo ordini**.
+
+### <a name="review"></a>Rivedi
+
+Prima dell'impegno finale della ricevuta per Commerce Headquarters (HQ), è possibile utilizzare la funzionalità di revisione per convalidare il documento in entrata. La revisione avviserà di eventuali dati mancanti o errati che potrebbero causare errori di elaborazione e darà l'opportunità di correggere i problemi prima di inviare la richiesta di ricevuta. Per abilitare la funzione **Revisione** sulla barra delle applicazioni, abilitare la funzionalità **Abilita convalida nelle operazioni di magazzino POS in entrata e in uscita** tramite l'area di lavoro **Gestione funzionalità** in Commerce Headquarters (HQ).
+
+La funzione **Revisione** convalida i seguenti problemi in un documento in entrata:
+
+- **Entrate eccessive**: la quantità ricevuta ora è maggiore della quantità ordinata. La gravità di questo problema è determinata dalla configurazione di consegna in eccesso in Commerce Headquarters (HQ).
+- **Entrate in difetto**: la quantità ricevuta ora è minore della quantità ordinata. La gravità di questo problema è determinata dalla configurazione di consegna in difetto in Commerce Headquarters (HQ).
+- **Numero di serie**: il numero seriale non viene fornito o convalidato per un articolo serializzato che richiede la registrazione del numero di serie nell'inventario.
+- **Ubicazione non impostata**: l'ubicazione non è specificata per un elemento controllato in base all'ubicazione in cui non è consentita l'ubicazione vuota.
+- **Righe eliminate**: l'ordine include righe eliminate da un utente Commerce Headquarters (HQ) che non è noto all'applicazione POS.
+
+Impostare il parametro **Abilita convalida automatica** su **Sì** in **Parametri di Commerce** > **Inventario** > **Scorte di magazzino** per fare eseguire automaticamente la convalida quando **Termina la ricezione** è selezionata.
 
 ### <a name="finish-receiving"></a>Termina ricezione
 

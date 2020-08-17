@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173202"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621330"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -86,7 +86,7 @@ In questo modello, il prodotto è rappresentato dalla combinazione di due entit�
 Poiché il prodotto è rappresentato come unità di stockkeeping, i concetti di prodotti specifici, rappresentazioni generali prodotto e varianti prodotto possono essere acquisiti in Common Data Service nel seguente modo:
 
 - I **prodotti con prodotto di sottotipo** sono prodotti auto-definiti. Nessuna dimensione deve essere definita. Un esempio è un registro specifico. Per tali prodotti, viene creato un record nell'entità **Prodotto** e un record nell'entità **msdyn\_sharedproductdetails**. Non viene creato nessun record di famiglia di prodotti.
-- Le **rappresentazioni generali prodotto** sono utilizzate come prodotti generici che contengono la definizione e le regole che determinano il comportamento nei processi aziendali. In base a queste definizioni, è possibile generare i prodotti specifici noti come varianti prodotto. Ad esempio, Maglietta è la rappresentazione generale prodotto e può avere le dimensioni Colore e Dimensione. È possibile rilasciare varianti che hanno differenti combinazioni di queste dimensioni, come una maglietta blu di taglia S o una maglietta verde di taglia M. Nell'integrazione, un record per variante viene creato nella tabella dei prodotti. Tale record contiene informazioni specifiche della variante, come le differenti dimensioni. Le informazioni generiche per il prodotto sono archiviate nell'entità **msdyn\_sharedproductdetails** (queste informazioni generiche si trovano nella rappresentazione generale prodotto). Inoltre, un record di famiglia di prodotti viene creato per rappresentazione generale prodotto. Le informazioni relative alla rappresentazione generale prodotto vengono sincronizzate con Common Data Service non appena viene creata la rappresentazione generale prodotto rilasciata (ma prima del rilascio delle varianti).
+- Le **rappresentazioni generali prodotto** sono utilizzate come prodotti generici che contengono la definizione e le regole che determinano il comportamento nei processi aziendali. In base a queste definizioni, è possibile generare i prodotti specifici noti come varianti prodotto. Ad esempio, Maglietta è la rappresentazione generale prodotto e può avere le dimensioni Colore e Dimensione. È possibile rilasciare varianti che hanno differenti combinazioni di queste dimensioni, come una maglietta blu di taglia S o una maglietta verde di taglia M. Nell'integrazione, un record per variante viene creato nella tabella dei prodotti. Tale record contiene informazioni specifiche della variante, come le differenti dimensioni. Le informazioni generiche per il prodotto sono archiviate nell'entità **msdyn\_sharedproductdetails** (queste informazioni generiche si trovano nella rappresentazione generale prodotto). Le informazioni relative alla rappresentazione generale prodotto vengono sincronizzate con Common Data Service non appena viene creata la rappresentazione generale prodotto rilasciata (ma prima del rilascio delle varianti).
 - I **prodotti specifici** fanno riferimento a tutti i prodotti di sottotipo e a tutte le varianti prodotto. 
 
 ![Modello di dati per prodotti](media/dual-write-product.png)

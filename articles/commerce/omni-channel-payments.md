@@ -3,7 +3,7 @@ title: Panoramica sui pagamenti omnicanale
 description: In questo argomento viene fornita una panoramica dei pagamenti omnicanale in Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023102"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613179"
 ---
 # <a name="omni-channel-payments-overview"></a>Panoramica sui pagamenti omnicanale
 
@@ -68,11 +68,13 @@ I seguenti componenti e passaggi di impostazione sono necessari:
 
 - **integrazione e-commerce :** un'integrazione con Commerce è necessaria per supportare gli scenari in cui un ordine ha origine da una vetrina virtuale online. Per ulteriori informazioni sul kit SDK Retail e-commerce, vedere [Kit SDK della piattaforma e-commerce](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). In un ambiente dimostrativo, la vetrina virtuale di riferimento supporta scenari di pagamento omnicanale. 
 - **Configurazione pagamenti online:** l'impostazione del canale online deve includere un connettore pagamenti che è stato aggiornato per supportare i pagamenti omnicanale. In alternativa, è possibile utilizzare il connettore pagamenti predefinito. Per informazioni su come configurare il connettore pagamenti Adyen per punti vendita online, vedere [Connector pagamenti Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Oltre alla procedura di impostazione e-commerce descritta in quell'argomento, il parametro **Consenti salvataggio informazioni di pagamento in e-commerce** deve essere impostato su **True** nelle impostazioni per il connettore Adyen. 
-- **Configurazione pagamenti omnicanale:** nel back office, andare a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**. Quindi, nella scheda **Pagamenti omnicanale**, impostare l'opzione **Usa pagamenti omnicanale** su **Sì**.
+- **Configurazione pagamenti omnicanale:** nel back office, andare a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**. Quindi, nella scheda **Pagamenti omnicanale**, impostare l'opzione **Usa pagamenti omnicanale** su **Sì**. Nelle versioni Commerce 10.0.12 e successive, questa impostazione si trova nell'area di lavoro **Gestione funzionalità**. Selezionare la funzionalità **Pagamenti omnicanale** e fare clic su **Abilita ora**. 
 - **Servizi di pagamento:** il servizio clienti utilizza il connettore pagamenti predefinito nella pagina **Servizi di pagamento** per elaborare i pagamenti. Per supportare gli scenari, ad esempio "Acquista nel servizio clienti, preleva nel punto vendita", questo connettore pagamenti predefinito deve essere un connettore pagamenti Adyen o un connettore pagamenti che soddisfa i requisiti di implementazione dei pagamenti omnicanale.
 - **Servizio EFT:** i pagamenti mediante un terminale di pagamento devono essere impostati nella Scheda dettaglio **Servizio EFT** del profilo hardware. Il connettore Adyen supporta gli scenari di pagamenti omnicanale. Anche altri connettori pagamenti che supportano l'interfaccia **iNamedRequestHandler** possono essere utilizzati se supportano i pagamenti omnicanale.
 - **Disponibilità connettori pagamenti:** quando un ordine viene richiamato, le righe del metodo di pagamento richiamate insieme all'ordine includono il nome del connettore pagamenti utilizzato per creare le autorizzazioni associate a tale ordine. Quando l'ordine viene evaso, il kit SDK di pagamenti tenta di utilizzare lo stesso connettore utilizzato per creare l'autorizzazione originale. Di conseguenza, un connettore pagamenti con le stesse proprietà esercente deve essere disponibile per l'acquisizione. 
 - **Tipi di carta:** per un corretto funzionamento degli scenari omnicanale, ogni canale deve avere la stessa impostazione per i tipi di metodi di pagamento utilizzabile per l'omnicanale. Questa impostazione include gli ID metodo di pagamento e gli ID tipo di carta. Ad esempio, se l'ID del tipo di metodo di pagamento **Carte** è **2** nell'impostazione del punto vendita online, deve avere lo stesso ID nell'impostazione del punto vendita al dettaglio. Lo stesso requisito si applica agli ID tipi di carta. Se il numero di carta **12** è impostato su **VISA** nel punto vendita online, lo stesso ID deve essere impostato per il punto vendita al dettaglio. 
+- Retail Modern POS per Windows o Android con una stazione hardware integrata oppure
+- Modern POS per iOS o Cloud POS con stazione hardware condivisa collegata. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Principio di base per il supporto di pagamenti omnicanale
 
@@ -100,8 +102,10 @@ Nelle sezioni seguenti vengono descritte le procedure per ogni scenario e viene 
 Prima di iniziare, assicurarsi che i seguenti prerequisiti siano soddisfatti:
 
 - Si dispone di una vetrina virtuale di riferimento in cui il connettore pagamenti Adyen viene configurato.
-- L'opzione **Pagamenti omnicanale** nella pagina **Parametri condivisi di commercio** è impostata su **True**.
+- L'opzione **Pagamenti omnicanale** nella pagina **Parametri condivisi di commercio** è impostata su **True**. Nelle versioni successive questa impostazione è stata spostata nell'area di lavoro **Gestione funzionalità** in cui è possibile selezionare la funzionalità **Pagamenti multicanale** e fare clic su **Abilita ora**. 
 - Il connettore pagamenti Adyen è configurato per il registratore di cassa POS di Houston.
+- Retail Modern POS per Windows o Android con una stazione hardware integrata oppure
+- Modern POS per iOS o Cloud POS con stazione hardware condivisa collegata. 
 
 Attenersi alla seguente procedura per eseguire lo scenario.
 
@@ -229,3 +233,5 @@ Quando viene prelevato un ordine con più metodi di pagamento e più righe, il c
 
 - [Domande frequenti sui pagamenti](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

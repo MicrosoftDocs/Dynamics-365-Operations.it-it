@@ -1,9 +1,9 @@
 ---
 title: Fatturazione progetto
-description: Questo articolo fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
-author: ShylaThompson
+description: Questo argomento fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
+author: TaylorVH
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
-ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
+ms.search.validFrom: 2020-07-06
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: eab7523296996709dfe7407c582e61e28b7d4f23
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331374"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651594"
 ---
 # <a name="project-invoicing"></a>Fatturazione progetto
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
+Questo argomento fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
 
 La procedura di fatturazione da applicare è determinata dal tipo di progetto. È possibile fatturare solo i due tipi di progetto esterni, ovvero i progetti di tempistica e materiali e quelli a prezzo fisso. I progetti di tempistica e materiali e quelli a prezzo fisso sono sempre collegati a un contratto di progetto.
 
@@ -47,7 +47,7 @@ Prima di creare una fattura cliente per un progetto, è possibile creare una fat
 
 ### <a name="creating-invoice-proposals"></a>Creazione di proposte di fatturazione
 
-È possibile creare proposte di fatturazione selezionando manualmente da un elenco di transazioni per un progetto specificato. È inoltre possibile impostare le regole di fatturazione che specificano quando creare automaticamente una proposta di fatturazione. È ad esempio possibile creare una regola di fatturazione per creare una proposta di fatturazione quando il lavoro su un progetto è stato completato per il 25%, il 50%, il 75% e il 100%. 
+È possibile creare proposte di fatturazione selezionando manualmente una transazione da un elenco di transazioni disponibili per un progetto specificato. È inoltre possibile impostare le regole di fatturazione che specificano quando creare automaticamente una proposta di fatturazione. È ad esempio possibile creare una regola di fatturazione per creare una proposta di fatturazione quando il lavoro su un progetto è stato completato per il 25%, il 50%, il 75% e il 100%. 
 
 Le proposte di fatturazione possono essere create per le seguenti transazioni:
 
@@ -57,7 +57,7 @@ Le proposte di fatturazione possono essere create per le seguenti transazioni:
 -   Importi pagati da un cliente prima dell'avvio di un progetto.
 
 > [!NOTE]
-> La funzionalità **Abilita l'ordinamento per risorsa durante la creazione della proposta di fattura del progetto** consente al contabile del progetto di ordinare le transazioni del progetto disponibili per la fatturazione dalla risorsa durante la creazione di una nuova proposta di fatturazione del progetto. La griglia che visualizza le transazioni di progetto disponibili avrà un campo separato per ID risorsa e Risorsa, che consente all'utente di filtrare e ordinare il nome della risorsa. Questa funzione è disabilitata per impostazione predefinita e può essere abilitata in **Aree di lavoro > Gestione funzionalità**. Contattare l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
+> La funzionalità **Abilita l'ordinamento per risorsa durante la creazione della proposta di fattura del progetto** consente al contabile del progetto di ordinare le transazioni del progetto disponibili per la fatturazione dalla risorsa durante la creazione di una nuova proposta di fatturazione del progetto. La griglia che visualizza le transazioni di progetto disponibili avrà campi separati per **ID risorsa** e **Risorsa**. Questi campi consentono di filtrare e ordinare il nome della risorsa. Per impostazione predefinita, questa funzionalità è disattivata. Può essere abilitato usando la pagina **Gestione funzionalità** (**Aree di lavoro> Gestione funzionalità**). Contatta l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
 
 È possibile creare transazioni sbilanciate in una proposta di fatturazione. È inoltre possibile modificare il prezzo di vendita per le transazioni orarie, di spesa, articolo e per le transazioni sbilanciate. Quando si registra una proposta di fatturazione, i prezzi aggiornati e le transazioni vengono aggiunti ai report di progetto e allo storico delle transazioni. 
 
@@ -71,20 +71,23 @@ Dopo aver creato e registrato una proposta di fatturazione, viene automaticament
 
 Prima di registrare una proposta di fatturazione è possibile aggiungervi o eliminare transazioni. È ad esempio possibile rimuovere le transazioni di spesa registrate in un progetto ma non addebitabili al cliente. 
 
-Se l'organizzazione richiede che le proposte di fatturazione vengano riviste prima della registrazione, potrebbe essere necessario approvare la proposta di fatturazione tramite il flusso di lavoro "Rivedi proposte di fatturazione progetto" prima che venga registrata.
+Se l'organizzazione richiede che le proposte di fatturazione vengano riviste prima della registrazione, è consigliabile approvare la proposta di fatturazione tramite il flusso di lavoro "Rivedi proposte di fatturazione progetto" prima che venga registrata.
+
+### <a name="view-grant-information-on-project-invoice-list-pages"></a>Visualizzare le informazioni sulla concessione nelle pagine dell'elenco delle fatture del progetto
+
+Gli utenti del settore pubblico possono aggiungere i valori di **ID concessione** e **Nome concessione** alle pagine elenco **Proposte di fatturazione del progetto** e **Fatture del progetto**. Queste colonne sono abilitate usando la funzionalità **Aggiungi informazioni sulla concessione alle pagine elenco delle fatture del progetto**. Questa funzionalità è disattivata per impostazione predefinita e può essere abilitata in  **Aree di lavoro > Gestione funzionalità**. Contatta l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
 
 ## <a name="on-account-invoicing"></a>Fatturazione acconti
 L'importo immesso per un progetto in una fattura di acconto è basato sulla tempistica, la percentuale di completamento e altre condizioni di fatturazione specificate nel contratto di progetto correlato. L'importo non viene calcolato in base alle ore, agli articoli, alle spese o alle commissioni registrate nel progetto. 
 
-È innanzitutto necessario creare una transazione di acconto per un progetto di tempistica e materiali o un progetto a prezzo fisso prima di poter aggiungere la transazione di acconto in una fattura progetto. Nella transazione di acconto, immettere l'importo da fatturare a un cliente. Per creare una fattura di progetto per l'importo, creare una fattura preliminare (proposta di fatturazione). In una proposta di fatturazione selezionare la transazione di acconto. È possibile esaminare le informazioni di acconto nella proposta di fatturazione prima di creare una fattura progetto.
+È innanzitutto necessario creare una transazione di acconto per un progetto di tempistica e materiali o un progetto a prezzo fisso prima di poter aggiungere la transazione di acconto in una fattura progetto. Nella transazione di acconto, immettere l'importo da fatturare a un cliente. Per creare una fattura di progetto per l'importo, creare una fattura preliminare (proposta di fatturazione). In una proposta di fatturazione selezionare la transazione di acconto. È possibile esaminare le informazioni di acconto nella proposta di fatturazione prima di creare una fattura progetto. 
 
 ### <a name="fixed-price-projects"></a>Progetti a prezzo fisso
-
 Per i progetti a prezzo fisso, le transazioni di acconto si basano su una disposizione di fatturazione a fasi stabilita, per unità di consegna o progressiva specificata in un contratto di progetto. Una riga viene creata per ciascun pagamento che deve essere ricevuto dal cliente del progetto. Non è richiesta alcuna detrazione.
 
 ### <a name="time-and-material-projects"></a>Progetti di tempistica e materiali
 
-Per i progetti di tempistica e materiali, è possibile fatturare un cliente o un'altra fonte di finanziamento per un importo di pagamento anticipato utilizzando una proposta di fatturazione di acconto. Immettere le transazioni di acconto come una riga. Facoltativamente, è possibile immettere ulteriori righe come detrazioni per compensare tutti i pagamenti anticipati già effettuati dal cliente. Per creare le righe di detrazione, far precedere l'importo da un segno meno.
+Per i progetti di tempistica e materiali, è possibile fatturare un cliente o un'altra fonte di finanziamento per un importo di pagamento anticipato utilizzando una proposta di fatturazione di acconto. Immettere le transazioni di acconto come una riga. Facoltativamente, è possibile immettere ulteriori righe come detrazioni per compensare tutti i pagamenti anticipati già effettuati dal cliente. Per creare le righe di detrazione, immettere un segno meno prima dell'importo.
 
 ## <a name="invoice-control"></a>Controllo fatture
 È possibile utilizzare il controllo fatture per tenere traccia delle transazioni fatturate e non fatturate e per analizzare le transazioni rispetto alle offerte e ottenere una visualizzazione completa dei progetti dalla fase dell'offerta alla conclusione. È possibile visualizzare quali transazioni sono state addebitate a un progetto specifico e quali righe sono state fatturate. È inoltre possibile visualizzare le singole transazioni in modo da poterle rettificare dopo la registrazione.
@@ -108,10 +111,10 @@ Per fatturare un progetto a prezzo fisso è necessario definire un programma di 
 Quando i pagamenti cardine sono pronti per essere fatturati, utilizzare la procedura relativa alla fatturazione degli importi di acconto.
 
 ## <a name="vendor-invoicing"></a>Fatturazione fornitore
-Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la proprietà riga che si seleziona per la riga ordine fornitore per l'articolo determina se l'articolo acquistato viene fatturato a un cliente. Se si impostano proprietà riga predefinite, tali proprietà vengono visualizzate per l'articolo nella riga ordine fornitore (Dettagli riga &gt; Progetto &gt; Proprietà riga). Sono disponibili due metodi per modificare la proprietà riga:
+Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la proprietà riga che si seleziona per la riga ordine fornitore per l'articolo determina se l'articolo acquistato viene fatturato a un cliente. Se si impostano proprietà riga predefinite, tali proprietà vengono visualizzate per l'articolo nella riga ordine fornitore (**Dettagli riga > Progetto > Proprietà riga**). Sono disponibili due metodi per modificare la proprietà riga:
 
--   Fatturale l'articolo al cliente del progetto: Impostare la proprietà riga per l'articolo su un valore addebitabile nell'ordine fornitore e quindi fatturare al cliente mediante il metodo di fatturazione corretto per il progetto.
--   Non fatturare l'articolo al cliente del progetto: non selezionare la proprietà riga **Addebitabile** nella riga ordine fornitore per l'articolo. È quindi possibile fatturare l'ordine fornitore e non saranno necessarie ulteriori operazioni.
+-   Fatturare al cliente del progetto l'articolo. Per fare ciò, impostare la proprietà riga per l'articolo su un valore addebitabile nell'ordine fornitore e quindi fatturare al cliente mediante il metodo di fatturazione corretto per il progetto.
+-   Non fatturare al cliente del progetto l'articolo. Per fare ciò, non selezionare la proprietà della riga **Addebitabile** nella riga ordine fornitore per l'articolo. È quindi possibile fatturare l'ordine fornitore e non saranno necessarie ulteriori operazioni.
 
 > [!NOTE] 
 > Le righe della ritenuta rilasciata non sono addebitabili per impostazione predefinita. Non è pertanto possibile creare una proposta di fatturazione per la ritenuta rilasciata.
@@ -119,7 +122,7 @@ Quando si ordina un articolo da un fornitore e lo si assegna a un progetto, la p
 ## <a name="credit-notes"></a>Note di accredito
 Quando un importo in una fattura cliente ha un valore negativo, la fattura viene classificata Quando il documento viene stampato presenta il titolo "Nota di accredito". 
 
-Quando si crea una nota di accredito per accreditare un importo precedentemente fatturato, è necessario selezionare prima l'importo fatturato per l'accredito. Si crea quindi una nota di accredito effettuando la stessa procedura utilizzata per creare una fattura cliente ordinaria. In altra parole, si selezionano le transazioni precedentemente registrate in una fattura cliente, quindi si crea e registra una proposta di nota di accredito. 
+Quando si crea una nota di accredito per accreditare un importo precedentemente fatturato, è necessario selezionare prima l'importo fatturato per l'accredito. Successivamente sarà necessario creare una nota di accredito effettuando la stessa procedura utilizzata per creare una fattura cliente ordinaria, Si selezionano le transazioni precedentemente registrate in una fattura cliente, quindi si crea e registra una proposta di nota di accredito. 
 
 Lo stesso documento può includere transazioni selezionate per l'accredito, transazioni di accredito e transazioni che sono state registrate. A seconda che l'importo totale sia positivo o negativo, il documento verrà classificato come fattura o come nota di accredito. 
 

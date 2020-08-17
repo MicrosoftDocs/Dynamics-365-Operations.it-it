@@ -3,7 +3,7 @@ title: Utilizzare i frammenti
 description: In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124361"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645993"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ Nella figura seguente viene illustrato come è possibile utilizzare i frammenti 
 Per convertire un modulo configurato precedentemente in un frammento riutilizzabile, effettuare le seguenti operazioni.
 
 1. Aprire una pagina o un modello che contiene il modulo da convertire in frammento.
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del modulo. 
-1. Selezionare **Condividi come frammento**. 
-1. Viene visualizzata una finestra di dialogo. Immettere un nome e i metadati per il frammento.
+1. Nel riquadro struttura a sinistra o direttamente nel canvas principale, selezionare il modulo precedentemente configurato.
+1. Selezionare i puntini di sospensione (**...**) accanto al nome del modulo nel riquadro struttura o nella barra degli strumenti del modulo nel canvas. 
+1. Selezionare **Condividi come frammento di pagina**. 
+1. Nella finestra di dialogo **Salva come frammento di pagina** immetti un nome per il frammento.
 1. Selezionare **OK** per salvare la configurazione di modulo come frammento che è possibile aggiungere ad altre pagine.
 
 L'immagine seguente mostra come salvare una configurazione di modulo come frammento.
@@ -94,15 +95,16 @@ Nelle procedure riportate di seguito viene descritto come aggiungere, rimuovere 
 
 Per aggiungere un frammento a una pagina, effettuare le operazioni indicate di seguito.
 
-1. Nella riquadro a sinistra, selezionare un contenitore o uno slot a cui è possibile aggiungere moduli figlio.
-1. Selezionare il pulsante con i puntini di sospensione al nome del contenitore o dello slot, quindi selezionare **Aggiungi frammento**. Viene visualizzata una finestra di dialogo.
+1. Nel riquadro a sinistra o direttamente nel canvas principale, selezionare un contenitore o uno slot a cui i moduli figlio possono essere aggiunti.
+1. Nel riquadro online, selezionare i puntini di sospensione (**...**) accanto al nome del contenitore o dello slot.  In alternativa, se si utilizza il canvas principale, selezionare il simbolo più (**+**).  
+1. Selezionare **Aggiungi frammento**.
 
     ![Una schermata di come aggiungere un frammento esistente a uno slot o contenitore](./media/add-fragment.png)
  
     > [!NOTE]
     > Se il contenitore o lo slot non supporta nuovi moduli figlio, l'opzione **Aggiungi frammento** non è disponibile.
     
-1. Nella finestra di dialogo, cercare e selezionare un frammento da aggiungere. Se non sono elencati frammenti disponibili, è necessario dapprima creare un frammento da un tipo di modulo che lo slot o il contenitore supporta.
+1. Nella finestra di dialogo **Aggiungi frammento**, cercare e selezionare un frammento da aggiungere. Se non sono elencati frammenti disponibili, è necessario dapprima creare un frammento da un tipo di modulo che lo slot o il contenitore supporta.
 1. Selezionare il frammento desiderato per aggiungerlo al contenitore o allo slot nella pagina.
 
     ![Schermata della finestra modale del selettore di frammenti](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Per aggiungere un frammento a una pagina, effettuare le operazioni indicate di s
 
 Per rimuovere un frammento da uno slot o un contenitore in una pagina, effettuare le seguenti operazioni.
 
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione accanto al nome del frammento da rimuovere e quindi selezionare il pulsante Cestino.
+1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del frammento da rimuovere e quindi selezionare il simbolo del cestino.  In alternativa, è possibile selezionare il frammento nel canvas e selezionare il simbolo del cestino nella barra degli strumenti del frammento.
 1. Quando viene richiesto di confermare la rimozione del frammento, selezionare **OK**.
 
 > [!NOTE]

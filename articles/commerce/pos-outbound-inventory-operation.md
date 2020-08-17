@@ -3,7 +3,7 @@ title: Operazione di magazzino in uscita in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551627"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646161"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -129,7 +129,7 @@ Per configurare la società in modo da consentire il limite minimo di fornitura 
 
 Le percentuali di limite minimo di fornitura per una riga di ordine di trasferimento possono essere predefinite sui prodotti come parte della configurazione del prodotto in Commerce Headquarters. In alternativa, possono essere impostate o sovrascritte su una specifica riga dell'ordine di trasferimento tramite Commerce Headquarters.
 
-Dopo che un'organizzazione ha terminato la configurazione del limite minimo di fornitura dell'ordine di trasferimento, gli utenti vedranno una nuova opzione **Chiudi quantità rimanente** nel pannello **Dettagli** quando selezionano una riga ordine di trasferimento in uscita tramite l'operazione **Operazione in uscita** in POS. Quindi quando gli utenti completano la spedizione utilizzando l'operazione **Termina evasione**, possono inviare una richiesta a Commerce Headquarters per annullare la quantità non spedita rimanente. Se un utente sceglie di chiudere la quantità rimanente, Commerce effettua una convalida per verificare che la quantità annullata rientri nella tolleranza della percentuale del limite minimo di fornitura definita nella riga dell'ordine di trasferimento. Se viene superata la tolleranza del limite minimo di fornitura, l'utente riceve un messaggio di errore e non può chiudere la quantità rimanente fino a quando la quantità precedentemente spedita e la quantità "da spedire ora" soddisfa o supera la tolleranza del limite minimo di fornitura.
+Dopo che un'organizzazione completa la configurazione del limite minimo di fornitura dell'ordine di trasferimento, gli utenti POS vedranno una nuova opzione **Chiudi quantità rimanente** nel pannello **Dettagli** quando selezionano una riga ordine di trasferimento in uscita tramite la funzione **Operazione in uscita**. Quando l'utente completa la spedizione utilizzando l'operazione **Termina evasione**, possono inviare una richiesta a Commerce Headquarters per annullare la quantità non spedita rimanente. Se l'utente chiude la quantità rimanente, Commerce effettua una convalida per verificare che la quantità annullata rientri nella tolleranza della percentuale del limite minimo di fornitura definita nella riga dell'ordine di trasferimento. Se viene superata la tolleranza del limite minimo di fornitura, viene visualizzato un messaggio di errore e l'utente non sarà in grado di chiudere la quantità rimanente fino a quando la quantità precedentemente spedita e la quantità "da spedire ora" soddisfa o supera la tolleranza del limite minimo di fornitura.
 
 Dopo che la spedizione è stata sincronizzata con Commerce Headquarters, le quantità definite nel campo **Spedisci ora** per la riga dell'ordine di trasferimento in POS vengono aggiornate allo stato spedito in Commerce Headquarters. Le quantità non spedite che in precedenza sarebbero state considerate quantità "rimanenza spedizione" (ovvero quantità che verranno spedite in un secondo momento) sono invece considerate quantità annullate. La quantità "rimanenza spedizione" per la riga dell'ordine di trasferimento è impostata su **0** (zero) e la riga è considerata completamente spedita.
 
@@ -145,13 +145,26 @@ Quando necessario, è possibile selezionare **Spedisci tutto** sulla barra dell'
 
 ### <a name="cancel-fulfillment"></a>Annulla evasione
 
-È necessario usare la funzione **Annulla evasione** sulla barra dell'app solo se si desidera uscire dal documento e non si desidera salvare alcuna modifica. Ad esempio, inizialmente è stato selezionato il documento errato e non si desidera salvare nessuno dei dati di spedizione precedenti.
+Utilizzare la funzione **Annulla evasione** sulla barra dell'app solo se si desidera uscire dal documento e non si desidera salvare alcuna modifica. Ad esempio, inizialmente è stato selezionato il documento errato e non si desidera salvare nessuno dei dati di spedizione precedenti.
 
 ### <a name="pause-fulfillment"></a>Metti in pausa evasione
 
 Se si evade l'ordine di trasferimento, è possibile utilizzare la funzione **Sospendi evasione** se si desidera sospendere il processo di evasione. Ad esempio, è possibile eseguire un'altra operazione dal POS, ad esempio telefonare all'addetto alle vendite di un cliente o ritardare la registrazione della spedizione in Commerce Headquarters.
 
 Quando si seleziona **Sospendi evasione**, lo stato del documento diventa **In sospeso**. Pertanto, gli utenti sapranno che sono stati immessi dei dati nel documento, ma il documento non è stato ancora stato sottoposto al commit. Quando si è pronti per riprendere il processo di evasione, selezionare il documento in sospeso, quindi selezionare **Dettagli ordine**. Qualunque quantità **In spedizione ora** precedentemente salvata viene conservata e può essere visualizzata dalla visualizzazione **Elenco completo ordini**.
+
+### <a name="review"></a>Rivedi
+
+Prima dell'impegno finale dell'evasione per Commerce Headquarters (HQ), è possibile utilizzare la funzione **Revisione** per convalidare il documento in uscita. Questa funzione avviserà di eventuali dati mancanti o errati che potrebbero causare errori di elaborazione e darà l'opportunità di correggere i problemi prima di inviare la richiesta di evasione. Per abilitare la funzione **Revisione** sulla barra delle applicazioni, abilitare la funzionalità **Abilita convalida nelle operazioni di magazzino POS in entrata e in uscita** tramite l'area di lavoro Gestione funzionalità in Commerce Headquarters (HQ).
+
+La funzione **Revisione** convalida i seguenti problemi in un documento in uscita:
+- **Spedizione in eccesso**: la quantità spedita ora è maggiore della quantità ordinata. La gravità di questo problema è determinata dalla configurazione di consegna in eccesso in Commerce Headquarters (HQ).
+- **Spedizione in difetto**: la quantità spedita ora è minore della quantità ordinata. La gravità di questo problema è determinata dalla configurazione di consegna in difetto in Commerce Headquarters (HQ).
+- **Numero di serie**: il numero seriale non viene fornito o non è disponibile per un articolo serializzato che richiede la registrazione del numero di serie nell'inventario.
+- **Ubicazione non impostata**: l'ubicazione non è specificata per un elemento controllato in base all'ubicazione in cui non è consentita l'ubicazione vuota.
+- **Righe eliminate**: l'ordine include righe eliminate da un utente Commerce Headquarters (HQ) che non è noto all'applicazione POS.
+
+Se si imposta il parametro **Abilita convalida automatica** su **Sì** in **Parametri di Commerce** > **Inventario** > **Scorte di magazzino** per fare eseguire automaticamente la convalida quando si seleziona la funzione **Termina la ricezione** .
 
 ### <a name="finish-fulfillment"></a>Termina evasione
 
