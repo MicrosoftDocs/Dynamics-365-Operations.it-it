@@ -1,252 +1,302 @@
 ---
-title: Panoramica dei criteri di lavoro del magazzino
-description: i criteri di lavoro del magazzino controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.
-author: johanhoffmann
+title: Criteri di lavoro
+description: In questo argomento viene spiegato come configurare i criteri di lavoro.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204564"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652007"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="882e8-103">Panoramica criteri di lavoro magazzino</span><span class="sxs-lookup"><span data-stu-id="882e8-103">Warehouse work policies overview</span></span>
+# <a name="work-policies"></a><span data-ttu-id="89668-103">Criteri di lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-103">Work policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="882e8-104">i criteri di lavoro del magazzino controllano se il lavoro del magazzino viene creato da processi di magazzino durante la produzione, in base al tipo di ordine di lavoro, all'ubicazione del magazzino e al prodotto.</span><span class="sxs-lookup"><span data-stu-id="882e8-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="89668-104">Questo argomento spiega come configurare il sistema e l'app del magazzino in modo che supportino i criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-104">This topic explains how to set up the system and the warehouse app so that they support work policies.</span></span> <span data-ttu-id="89668-105">È possibile utilizzare questa funzionalità per registrare rapidamente l'inventario senza creare lavori di stoccaggio quando si ricevono ordini fornitore o di trasferimento o quando si completano i processi di produzione.</span><span class="sxs-lookup"><span data-stu-id="89668-105">You can use this functionality to quickly register inventory without creating putaway work when you receive purchase or transfer orders, or when you complete manufacturing processes.</span></span> <span data-ttu-id="89668-106">In questo argomento vengono fornite informazioni generali.</span><span class="sxs-lookup"><span data-stu-id="89668-106">This topic provides general information.</span></span> <span data-ttu-id="89668-107">Per informazioni dettagliate relative alla ricezione della targa, vedere [Ricezione della targa tramite l'app di magazzino](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="89668-107">For detailed information that is related to license plate receiving, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
 
-<span data-ttu-id="882e8-105">Questi criteri di lavoro controllano se il lavoro del magazzino è stato creato per i processi di magazzino in fase di produzione.</span><span class="sxs-lookup"><span data-stu-id="882e8-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="882e8-106">È possibile impostare i criteri di lavoro mediante una combinazione di **tipi di ordine di lavoro**, una **ubicazione di magazzino** e un **prodotto**.</span><span class="sxs-lookup"><span data-stu-id="882e8-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="882e8-107">Ad esempio, il prodotto L0101 viene dichiarato finito nell'ubicazione di uscita 001.</span><span class="sxs-lookup"><span data-stu-id="882e8-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="882e8-108">Il prodotto finito viene successivamente consumato in un altro ordine di produzione all'ubicazione di uscita 001.</span><span class="sxs-lookup"><span data-stu-id="882e8-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="882e8-109">In questo caso, è possibile impostare i criteri di lavoro per impedire che lavoro per lo stoccaggio di prodotti finiti venga creato quando si dichiara il prodotto L0101 finito nell'ubicazione di uscita 001.</span><span class="sxs-lookup"><span data-stu-id="882e8-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="882e8-110">I criteri di lavoro sono una singola entità che può essere descritta con le seguenti informazioni:</span><span class="sxs-lookup"><span data-stu-id="882e8-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="89668-108">Un criterio di lavoro controlla se il lavoro di magazzino viene creato quando un articolo prodotto viene segnalato come finito o quando le merci vengono ricevute utilizzando l'app di magazzino.</span><span class="sxs-lookup"><span data-stu-id="89668-108">A work policy controls whether warehouse work is created when a manufactured item is reported as finished, or when goods are received by using the warehouse app.</span></span> <span data-ttu-id="89668-109">È possibile impostare ogni criterio di lavoro definendo le condizioni in cui si applica: i tipi e i processi dell'ordine di lavoro, l'ubicazione dell'inventario e (facoltativamente) i prodotti.</span><span class="sxs-lookup"><span data-stu-id="89668-109">You set up each work policy by defining the conditions where it applies: the work order types and processes, the inventory location, and (optionally) the products.</span></span> <span data-ttu-id="89668-110">Ad esempio, un ordine fornitore per il prodotto *A0001* deve essere ricevuto nell'ubicazione *RECV* del magazzino *24*.</span><span class="sxs-lookup"><span data-stu-id="89668-110">For example, a purchase order for product *A0001* must be received in location *RECV* in warehouse *24*.</span></span> <span data-ttu-id="89668-111">Successivamente, il prodotto viene utilizzato in un altro processo presso l'ubicazione *RECV*.</span><span class="sxs-lookup"><span data-stu-id="89668-111">Later, the product is consumed in another process at location *RECV*.</span></span> <span data-ttu-id="89668-112">In questo caso, è possibile configurare un criterio di lavoro per impedire la creazione di lavori di stoccaggio quando un lavoratore segnala un prodotto *A0001* come ricevuto nell'ubicazione *RECV*.</span><span class="sxs-lookup"><span data-stu-id="89668-112">In this case, you can set up a work policy to prevent putaway work from being created when a worker reports product *A0001* as received in location *RECV*.</span></span>
 
--   <span data-ttu-id="882e8-111">**Nome dei criteri di lavoro**(identificatore univoco dei criteri di lavoro)</span><span class="sxs-lookup"><span data-stu-id="882e8-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="882e8-112">**Tipi di ordine di lavoro** e **Metodo di creazione lavoro**</span><span class="sxs-lookup"><span data-stu-id="882e8-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="882e8-113">**Ubicazioni di magazzino**</span><span class="sxs-lookup"><span data-stu-id="882e8-113">**Inventory locations**</span></span>
--   <span data-ttu-id="882e8-114">**Prodotti**</span><span class="sxs-lookup"><span data-stu-id="882e8-114">**Products**</span></span>
+> [!NOTE]
+> - <span data-ttu-id="89668-113">Affinché un criterio di lavoro sia attivo, è necessario definire almeno un'ubicazione per esso nella Scheda dettaglio **Ubicazioni di magazzino** della pagina **Criteri di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="89668-113">For a work policy to be active, you must define at least one location for it on the **Inventory locations** FastTab of the **Work policies** page.</span></span> 
+> - <span data-ttu-id="89668-114">Non è possibile specificare la stessa ubicazione per molteplici criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-114">You can't specify the same location for multiple work policies.</span></span>
+> - <span data-ttu-id="89668-115">L'opzione **Stampa etichetta** per le voci di menu di dispositivi mobili non stampa un'etichetta di targa senza creazione di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-115">The **Print label** option for mobile device menu items won't print a license plate label unless work was created.</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="882e8-115">Tipi di ordine di lavoro</span><span class="sxs-lookup"><span data-stu-id="882e8-115">Work order types</span></span>
-<span data-ttu-id="882e8-116">È possibile scegliere i seguenti tipi di ordine di lavoro:</span><span class="sxs-lookup"><span data-stu-id="882e8-116">You can select the following work order types:</span></span>
+## <a name="activate-the-features-in-your-system"></a><span data-ttu-id="89668-116">Attivare le funzionalità nel sistema</span><span class="sxs-lookup"><span data-stu-id="89668-116">Activate the features in your system</span></span>
 
--   <span data-ttu-id="882e8-117">Stoccaggio prodotti finiti</span><span class="sxs-lookup"><span data-stu-id="882e8-117">Finished goods put away</span></span>
--   <span data-ttu-id="882e8-118">Stoccaggio co-prodotti e sottoprodotti</span><span class="sxs-lookup"><span data-stu-id="882e8-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="882e8-119">Prelievo materie prime</span><span class="sxs-lookup"><span data-stu-id="882e8-119">Raw material picking</span></span>
+<span data-ttu-id="89668-117">Per rendere disponibili nel sistema tutte le funzionalità descritte in questo argomento, attivare le seguenti due funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span><span class="sxs-lookup"><span data-stu-id="89668-117">To make all the functionality that is described in this topic available in your system, turn on the following two features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span></span>
 
-<span data-ttu-id="882e8-120">Il campo **Metodo di creazione lavoro** ha il valore **Mai**.</span><span class="sxs-lookup"><span data-stu-id="882e8-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="882e8-121">Questo valore indica che i criteri di lavoro impediranno la creazione di lavoro di magazzino per il tipo di ordine di lavoro selezionato.</span><span class="sxs-lookup"><span data-stu-id="882e8-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+- <span data-ttu-id="89668-118">Miglioramenti ricevimento targa</span><span class="sxs-lookup"><span data-stu-id="89668-118">License plate receiving enhancements</span></span>
+- <span data-ttu-id="89668-119">Miglioramenti dei criteri di lavoro per il lavoro in entrata</span><span class="sxs-lookup"><span data-stu-id="89668-119">Work policy enhancements for inbound work</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="882e8-122">Ubicazioni di magazzino</span><span class="sxs-lookup"><span data-stu-id="882e8-122">Inventory locations</span></span>
-<span data-ttu-id="882e8-123">È possibile selezionare un'ubicazione a cui i criteri di lavoro vengono applicati.</span><span class="sxs-lookup"><span data-stu-id="882e8-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="882e8-124">Se non si specifica una ubicazione associata ai criteri di lavoro, i criteri di lavoro non sono applicabili ad alcun processo.</span><span class="sxs-lookup"><span data-stu-id="882e8-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="882e8-125">Nella pagina **Ubicazioni**, è inoltre possibile selezionare o annullare la selezione dei criteri di lavoro per una determinata ubicazione.</span><span class="sxs-lookup"><span data-stu-id="882e8-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="the-work-policies-page"></a><span data-ttu-id="89668-120">Pagina Criteri di lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-120">The Work policies page</span></span>
 
-## <a name="products"></a><span data-ttu-id="882e8-126">Prodotti</span><span class="sxs-lookup"><span data-stu-id="882e8-126">Products</span></span>
-<span data-ttu-id="882e8-127">È possibile selezionare un prodotto a cui i criteri di lavoro vengono applicati.</span><span class="sxs-lookup"><span data-stu-id="882e8-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="882e8-128">È possibile applicare i criteri di lavoro a tutti i prodotti o a prodotti selezionati.</span><span class="sxs-lookup"><span data-stu-id="882e8-128">You can apply the work policy to either all products or selected products.</span></span>
+<span data-ttu-id="89668-121">Per configurare i criteri di lavoro, passare a **Gestione magazzino \> Imposta \> Lavoro \> Criteri di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="89668-121">To set up work policies, go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span> <span data-ttu-id="89668-122">Quindi, su ogni Scheda dettaglio, impostare i campi come descritto nelle sottosezioni seguenti.</span><span class="sxs-lookup"><span data-stu-id="89668-122">Then, on each FastTab, set the fields as described in the following subsections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="882e8-129">Esempio</span><span class="sxs-lookup"><span data-stu-id="882e8-129">Example</span></span>
-<span data-ttu-id="882e8-130">Nel seguente esempio, sono presenti due ordini di produzione, PRD-001 e PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="882e8-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="882e8-131">L'ordine di produzione PRD-001 ha un'operazione denominata **Assemblaggio**, in cui il prodotto SC1 viene dichiarato finito nell'ubicazione O1.</span><span class="sxs-lookup"><span data-stu-id="882e8-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="882e8-132">L'ordine di produzione PRD-002 ha un'operazione denominata **Verniciatura** e utilizza il prodotto SC1 dall'ubicazione O1.</span><span class="sxs-lookup"><span data-stu-id="882e8-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="882e8-133">L'ordine di produzione PRD-002 utilizza anche le materie prime RM1 dall'ubicazione O1.</span><span class="sxs-lookup"><span data-stu-id="882e8-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="882e8-134">RM1 sono immagazzinate nell'ubicazione BULK-001 e verranno prelevate nell'ubicazione O1 dal lavoro di magazzino per il prelievo di materie prime.</span><span class="sxs-lookup"><span data-stu-id="882e8-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="882e8-135">Il lavoro di prelievo viene generato quando l'ordine di produzione PRD-002 viene rilasciato.</span><span class="sxs-lookup"><span data-stu-id="882e8-135">The picking work is generated when production PRD-002 is released.</span></span> 
+### <a name="the-work-order-types-fasttab"></a><span data-ttu-id="89668-123">Scheda dettaglio Tipi di ordine di lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-123">The Work order types FastTab</span></span>
 
-<span data-ttu-id="882e8-136">[![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="882e8-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="89668-124">Nella Scheda dettaglio **Tipi di ordine di lavoro**, aggiungere tutti i tipi di ordini di lavoro e i relativi processi di lavoro a cui si applica il criterio di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-124">On the **Work order types** FastTab, add all the work order types, and the related work processes, that the work policy applies to.</span></span> <span data-ttu-id="89668-125">I seguenti tipi di ordini di lavoro e i relativi processi di lavoro sono supportati per i criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-125">The following work order types and related work processes are supported for work policies.</span></span>
 
-<span data-ttu-id="882e8-137">Quando si pianifica di configurazione dei criteri di lavoro di magazzino per questo scenario, valutare le seguenti informazioni:</span><span class="sxs-lookup"><span data-stu-id="882e8-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+| <span data-ttu-id="89668-126">Tipo ordine di lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-126">Work order type</span></span> | <span data-ttu-id="89668-127">Processo di lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-127">Work process</span></span> |
+|---|---|
+| <span data-ttu-id="89668-128">Prelievo materie prime</span><span class="sxs-lookup"><span data-stu-id="89668-128">Raw material picking</span></span>| <span data-ttu-id="89668-129">Tutti i processi correlati</span><span class="sxs-lookup"><span data-stu-id="89668-129">All related processes</span></span> |
+| <span data-ttu-id="89668-130">Stoccaggio co-prodotti e sottoprodotti</span><span class="sxs-lookup"><span data-stu-id="89668-130">Co-product and by-product put away</span></span> | <span data-ttu-id="89668-131">Tutti i processi correlati</span><span class="sxs-lookup"><span data-stu-id="89668-131">All related processes</span></span> |
+| <span data-ttu-id="89668-132">Stoccaggio prodotti finiti</span><span class="sxs-lookup"><span data-stu-id="89668-132">Finished goods putaway</span></span> | <span data-ttu-id="89668-133">Tutti i processi correlati</span><span class="sxs-lookup"><span data-stu-id="89668-133">All related processes</span></span> |
+| <span data-ttu-id="89668-134">Entrata trasferimento</span><span class="sxs-lookup"><span data-stu-id="89668-134">Transfer receipt</span></span> | <span data-ttu-id="89668-135">Ricevimento (e stoccaggio) targa</span><span class="sxs-lookup"><span data-stu-id="89668-135">License plate receiving (and putaway)</span></span> |
+| <span data-ttu-id="89668-136">Ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="89668-136">Purchase orders</span></span> | <ul><li><span data-ttu-id="89668-137">Ricevimento (e stoccaggio) targa</span><span class="sxs-lookup"><span data-stu-id="89668-137">License plate receiving (and putaway)</span></span></li><li><span data-ttu-id="89668-138">Ricevimento (e stoccaggio) articoli di carico</span><span class="sxs-lookup"><span data-stu-id="89668-138">Load item receiving (and putaway)</span></span></li><li><span data-ttu-id="89668-139">Ricevimento (e stoccaggio) riga ordine acquisto</span><span class="sxs-lookup"><span data-stu-id="89668-139">Purchase order line receiving (and putaway)</span></span></li><li><span data-ttu-id="89668-140">Ricevimento (e stoccaggio) articolo ordine acquisto</span><span class="sxs-lookup"><span data-stu-id="89668-140">Purchase order item receiving (and putaway)</span></span></li></ul> |
 
--   <span data-ttu-id="882e8-138">Il lavoro di magazzino per lo stoccaggio di articoli finiti non è richiesto quando si dichiara SC1 come finito dall'ordine di produzione PRD-001 nell'ubicazione O1.</span><span class="sxs-lookup"><span data-stu-id="882e8-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="882e8-139">Questo perché l'operazione **Verniciatura** per l'ordine di produzione PRD-002 utilizza SC1 nella stessa ubicazione.</span><span class="sxs-lookup"><span data-stu-id="882e8-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="882e8-140">Il lavoro di magazzino per il prelievo di materie prime è necessario per spostare le materie prime RM1 dall'ubicazione di magazzino BULK-001 all'ubicazione O1.</span><span class="sxs-lookup"><span data-stu-id="882e8-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+<span data-ttu-id="89668-141">Per configurare un criterio di lavoro in modo che si applichi a più processi di lavoro dello stesso tipo di ordine di lavoro, aggiungere una riga separata per ciascun processo di lavoro sulla griglia.</span><span class="sxs-lookup"><span data-stu-id="89668-141">To set up a work policy so that it applies to several work processes of the same work order type, add a separate line for each work process to the grid.</span></span>
 
-<span data-ttu-id="882e8-141">Di seguito è riportato un esempio dei criteri di lavoro che è possibile impostare, in base a queste considerazioni.</span><span class="sxs-lookup"><span data-stu-id="882e8-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="89668-142">Per ogni riga della griglia, impostare il campo **Metodo di creazione lavoro** su uno dei seguenti valori:</span><span class="sxs-lookup"><span data-stu-id="89668-142">For each line in the grid, set the **Work creation method** field to one of the following values:</span></span>
 
+- <span data-ttu-id="89668-143">**Mai**: i criteri di lavoro impediranno la creazione di lavoro di magazzino per il tipo di ordine di lavoro selezionato e il relativo processo di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-143">**Never** – The work policy will prevent warehouse work from being created for the selected work order type and related work process.</span></span>
+- <span data-ttu-id="89668-144">**Cross-docking**: i criteri di lacoro creeranno lavoro di cross-docking utilizzando i criteri selezionati nel campo **Nome criteri di cross-docking**.</span><span class="sxs-lookup"><span data-stu-id="89668-144">**Cross docking** – The work policy will create cross-docking work by using the policy that you select in the **Cross docking policy name** field.</span></span>
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <span data-ttu-id="882e8-142"><strong>Nome criteri di lavoro</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="882e8-143"><strong>Tipi di ordine di lavoro</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="882e8-144">Nessuno stoccaggio 01     \`</span><span class="sxs-lookup"><span data-stu-id="882e8-144">No put away 01     \`</span></span>          |     <span data-ttu-id="882e8-145">- Stoccaggio prodotto finito</span><span class="sxs-lookup"><span data-stu-id="882e8-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="882e8-146"><strong>Ubicazioni</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="882e8-147">- O1</span><span class="sxs-lookup"><span data-stu-id="882e8-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="882e8-148"><strong>Prodotti</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="882e8-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="882e8-149">- SC1</span></span>                 |
+### <a name="the-inventory-locations-fasttab"></a><span data-ttu-id="89668-145">Scheda dettaglio Ubicazioni di magazzino</span><span class="sxs-lookup"><span data-stu-id="89668-145">The Inventory locations FastTab</span></span>
 
-<span data-ttu-id="882e8-150">Nelle procedure riportate di seguito vengono fornite istruzioni dettagliate sull'impostazione dei criteri di lavoro di magazzino per questo scenario.</span><span class="sxs-lookup"><span data-stu-id="882e8-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="882e8-151">Una impostazione di esempio che mostra come dichiarare finito un ordine di produzione  in un'ubicazione non controllata da targhe viene anche descritta.</span><span class="sxs-lookup"><span data-stu-id="882e8-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="89668-146">Nella Scheda dettaglio **Ubicazioni di magazzino**, aggiungere tutte le ubicazioni in cui applicare questi criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-146">On the **Inventory locations** FastTab, add all the locations where this work policy should be applied.</span></span> <span data-ttu-id="89668-147">Se non si specifica una ubicazione associata ai criteri di lavoro, i criteri di lavoro non verranno applicati ad alcun processo.</span><span class="sxs-lookup"><span data-stu-id="89668-147">If no location is associated with a work policy, the work policy won't be applied to any process.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="882e8-152">Impostare criteri di lavoro magazzino</span><span class="sxs-lookup"><span data-stu-id="882e8-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="882e8-153">I processi del magazzino non includono sempre il lavoro in magazzino.</span><span class="sxs-lookup"><span data-stu-id="882e8-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="882e8-154">Definendo i criteri di lavoro, è possibile impedire la creazione di lavoro per il prelievo delle materie prime e lo stoccaggio di prodotti finiti per un set di prodotti in ubicazioni specifiche.</span><span class="sxs-lookup"><span data-stu-id="882e8-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="882e8-155">La società di dati dimostrativi USMF è stata utilizzata per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="882e8-155">The USMF demo data company was used to create this procedure.</span></span> 
+<span data-ttu-id="89668-148">Non è possibile specificare la stessa ubicazione per molteplici criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-148">You can't specify the same location for multiple work policies.</span></span>
 
-<span data-ttu-id="882e8-156">PASSAGGI (21)</span><span class="sxs-lookup"><span data-stu-id="882e8-156">STEPS (21)</span></span>
+<span data-ttu-id="89668-149">È possibile utilizzare un'ubicazione di magazzino assegnata a un profilo di ubicazione in cui l'opzione **Usa rilevamento targa** non è attivata.</span><span class="sxs-lookup"><span data-stu-id="89668-149">You can use a warehouse location that is assigned to a location profile where the **Use license plate tracking** option is turned off.</span></span> <span data-ttu-id="89668-150">In questo caso, gli addetti registreranno direttamente le scorte disponibili.</span><span class="sxs-lookup"><span data-stu-id="89668-150">In this case, workers will directly register the on-hand inventory.</span></span>
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="882e8-157">1</span><span class="sxs-lookup"><span data-stu-id="882e8-157">1.</span></span>  | <span data-ttu-id="882e8-158">Andare a Gestione magazzino &gt; Impostazioni &gt; Lavoro &gt; Criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="882e8-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="882e8-159">2</span><span class="sxs-lookup"><span data-stu-id="882e8-159">2.</span></span>  | <span data-ttu-id="882e8-160">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="882e8-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="882e8-161">3</span><span class="sxs-lookup"><span data-stu-id="882e8-161">3.</span></span>  | <span data-ttu-id="882e8-162">Nel campo Nome criteri di lavoro digitare “No lavoro di stoccaggio".</span><span class="sxs-lookup"><span data-stu-id="882e8-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="882e8-163">4</span><span class="sxs-lookup"><span data-stu-id="882e8-163">4.</span></span>  | <span data-ttu-id="882e8-164">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="882e8-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="882e8-165">5</span><span class="sxs-lookup"><span data-stu-id="882e8-165">5.</span></span>  | <span data-ttu-id="882e8-166">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="882e8-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="882e8-167">6</span><span class="sxs-lookup"><span data-stu-id="882e8-167">6.</span></span>  | <span data-ttu-id="882e8-168">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="882e8-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="882e8-169">7</span><span class="sxs-lookup"><span data-stu-id="882e8-169">7.</span></span>  | <span data-ttu-id="882e8-170">Nel campo Tipo ordine di lavoro selezionare "Stoccaggio prodotti finiti".</span><span class="sxs-lookup"><span data-stu-id="882e8-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="882e8-171">8</span><span class="sxs-lookup"><span data-stu-id="882e8-171">8.</span></span>  | <span data-ttu-id="882e8-172">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="882e8-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="882e8-173">9</span><span class="sxs-lookup"><span data-stu-id="882e8-173">9.</span></span>  | <span data-ttu-id="882e8-174">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="882e8-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="882e8-175">10.</span><span class="sxs-lookup"><span data-stu-id="882e8-175">10.</span></span> | <span data-ttu-id="882e8-176">Nel campo Tipo ordine di lavoro selezionare "Stoccaggio co-prodotti e sottoprodotti".</span><span class="sxs-lookup"><span data-stu-id="882e8-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="882e8-177">11.</span><span class="sxs-lookup"><span data-stu-id="882e8-177">11.</span></span> | <span data-ttu-id="882e8-178">Espandere la sezione Ubicazioni di magazzino.</span><span class="sxs-lookup"><span data-stu-id="882e8-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="882e8-179">12.</span><span class="sxs-lookup"><span data-stu-id="882e8-179">12.</span></span> | <span data-ttu-id="882e8-180">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="882e8-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="882e8-181">13</span><span class="sxs-lookup"><span data-stu-id="882e8-181">13.</span></span> | <span data-ttu-id="882e8-182">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="882e8-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="882e8-183">14.</span><span class="sxs-lookup"><span data-stu-id="882e8-183">14.</span></span> | <span data-ttu-id="882e8-184">Nell'elenco di magazzino immettere "51".</span><span class="sxs-lookup"><span data-stu-id="882e8-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="882e8-185">15.</span><span class="sxs-lookup"><span data-stu-id="882e8-185">15.</span></span> | <span data-ttu-id="882e8-186">Nel campo Ubicazione immettere o selezionare "001".</span><span class="sxs-lookup"><span data-stu-id="882e8-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="882e8-187">16.</span><span class="sxs-lookup"><span data-stu-id="882e8-187">16.</span></span> | <span data-ttu-id="882e8-188">Espandere la sezione Prodotti.</span><span class="sxs-lookup"><span data-stu-id="882e8-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="882e8-189">17.</span><span class="sxs-lookup"><span data-stu-id="882e8-189">17.</span></span> | <span data-ttu-id="882e8-190">Nel campo Selezione prodotto selezionare "Selezionato".</span><span class="sxs-lookup"><span data-stu-id="882e8-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="882e8-191">18.</span><span class="sxs-lookup"><span data-stu-id="882e8-191">18.</span></span> | <span data-ttu-id="882e8-192">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="882e8-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="882e8-193">19.</span><span class="sxs-lookup"><span data-stu-id="882e8-193">19.</span></span> | <span data-ttu-id="882e8-194">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="882e8-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="882e8-195">20.</span><span class="sxs-lookup"><span data-stu-id="882e8-195">20.</span></span> | <span data-ttu-id="882e8-196">Nel campo Numero articolo immettere o selezionare "L0101".</span><span class="sxs-lookup"><span data-stu-id="882e8-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="882e8-197">21.</span><span class="sxs-lookup"><span data-stu-id="882e8-197">21.</span></span> | <span data-ttu-id="882e8-198">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="882e8-198">Click Save.</span></span>                                                                |
+### <a name="the-products-fasttab"></a><span data-ttu-id="89668-151">Scheda dettaglio Prodotti</span><span class="sxs-lookup"><span data-stu-id="89668-151">The Products FastTab</span></span>
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="882e8-199">Dichiarare un ordine di produzione finito in un'ubicazione non controllata da targhe</span><span class="sxs-lookup"><span data-stu-id="882e8-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="882e8-200">In questa procedura è riportato un esempio di dichiarazione di finito a un'ubicazione che non controllata da targhe.</span><span class="sxs-lookup"><span data-stu-id="882e8-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="882e8-201">I criteri di lavoro applicabili sono il prerequisito per questa attività.</span><span class="sxs-lookup"><span data-stu-id="882e8-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="882e8-202">La procedura precedente mostra l'impostazione dei criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="882e8-202">The previous procedure shows the setup of the work policy.</span></span> 
+<span data-ttu-id="89668-152">Nella scheda **Prodotti**, impostare il campo **Selezione prodotto** per controllare a quali prodotti i criteri devono applicarsi:</span><span class="sxs-lookup"><span data-stu-id="89668-152">On the **Products** tab, set the **Product selection** field to control which products the policy should apply to:</span></span>
 
-<span data-ttu-id="882e8-203">PASSAGGI (25)</span><span class="sxs-lookup"><span data-stu-id="882e8-203">STEPS (25)</span></span>
+- <span data-ttu-id="89668-153">**Tutti**: i criteri dovrebbero applicarsi a tutti i prodotti.</span><span class="sxs-lookup"><span data-stu-id="89668-153">**All** – The policy should apply to all products.</span></span>
+- <span data-ttu-id="89668-154">**Selezionati**: i crtieri dovrebbero applicarsi solo ai prodotti elencati nella griglia.</span><span class="sxs-lookup"><span data-stu-id="89668-154">**Selected** – The policy should apply only to products that are listed in the grid.</span></span> <span data-ttu-id="89668-155">Utilizzare la barra degli strumenti nella Scheda dettaglio **Prodotti** per aggiungere prodotti alla griglia o rimuoverli dalla griglia.</span><span class="sxs-lookup"><span data-stu-id="89668-155">Use the toolbar on the **Products** FastTab to add products to the grid or remove them from the grid.</span></span>
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><span data-ttu-id="882e8-204"><strong>Sottoattività: Impostare un'ubicazione di output.</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="882e8-205">Passare a Amministrazione organizzazione &gt; Risorse &gt; Gruppi di risorse.</span><span class="sxs-lookup"><span data-stu-id="882e8-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="882e8-206">Nell'elenco selezionare il gruppo di risorse &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="882e8-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="882e8-207">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="882e8-207">Click Edit.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="882e8-208">Nel campo Magazzino di output immettere &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="882e8-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="882e8-209">Nel campo Ubicazione di output immettere &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="882e8-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="882e8-210">L'ubicazione 001 non è un'ubicazione controllata da targa.</span><span class="sxs-lookup"><span data-stu-id="882e8-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="882e8-211">È possibile impostare un'ubicazione di output senza targa solo se i criteri di lavoro applicabili sono disponibili per l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="882e8-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
-</tr>
-<tr>
-<td colspan="3"><span data-ttu-id="882e8-212"><strong>Sottoattività: Creare un ordine di produzione e segnalarlo come finito.</strong></span><span class="sxs-lookup"><span data-stu-id="882e8-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="882e8-213">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="882e8-213">Close the page.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="882e8-214">Fare clic su Controllo produzione &gt; Ordini di produzione &gt; Tutti gli ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="882e8-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="882e8-215">Fare clic su Nuovo ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="882e8-215">Click New production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="882e8-216">Nel campo Numero articolo immettere &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="882e8-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="882e8-217">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="882e8-217">Click Create.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="882e8-218">Nel riquadro azioni fare clic su Ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="882e8-218">On the Action Pane, click Production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td><span data-ttu-id="882e8-219">Fare clic su Stima.</span><span class="sxs-lookup"><span data-stu-id="882e8-219">Click Estimate.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td><span data-ttu-id="882e8-220">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="882e8-220">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td><span data-ttu-id="882e8-221">Fare clic su Inizia.</span><span class="sxs-lookup"><span data-stu-id="882e8-221">Click Start.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td><span data-ttu-id="882e8-222">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="882e8-222">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td><span data-ttu-id="882e8-223">Nel campo Consumo DBA automatico selezionare &#39;Mai&#39;.</span><span class="sxs-lookup"><span data-stu-id="882e8-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td><span data-ttu-id="882e8-224">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="882e8-224">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td><span data-ttu-id="882e8-225">Fare clic su Dichiarazione di finito.</span><span class="sxs-lookup"><span data-stu-id="882e8-225">Click Report as finished.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td><span data-ttu-id="882e8-226">Fare clic sulla scheda Generale.</span><span class="sxs-lookup"><span data-stu-id="882e8-226">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td><span data-ttu-id="882e8-227">Selezionare Sì nel campo Accetta errore.</span><span class="sxs-lookup"><span data-stu-id="882e8-227">Select Yes in the Accept error field.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td><span data-ttu-id="882e8-228">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="882e8-228">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td><span data-ttu-id="882e8-229">Nel riquadro azioni fare clic su Magazzino.</span><span class="sxs-lookup"><span data-stu-id="882e8-229">On the Action Pane, click Warehouse.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td><span data-ttu-id="882e8-230">Fare clic su Dettagli lavoro.</span><span class="sxs-lookup"><span data-stu-id="882e8-230">Click Work details.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td><span data-ttu-id="882e8-231">Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato generato per lo stoccaggio.</span><span class="sxs-lookup"><span data-stu-id="882e8-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="882e8-232">Questa situazione si verifica perché vengono definiti criteri di lavoro che impediscono la generazione del lavoro quando il prodotto L0101 viene dichiarato finito all'ubicazione 001.</span><span class="sxs-lookup"><span data-stu-id="882e8-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a><span data-ttu-id="89668-156">Ubicazioni di destinazione predefinite e personalizzate</span><span class="sxs-lookup"><span data-stu-id="89668-156">Default and custom "to" locations</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="89668-157">Per rendere disponibili nel sistema le funzionalità descritte in questa sezione, è necessario attivare le funzionalità *Miglioramenti del ricevimento della targa* e *Miglioramenti dei criteri di lavoro per il lavoro in ingresso* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="89668-157">To make the functionality that is described in this section available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
+<span data-ttu-id="89668-158">In precedenza, il sistema supportava il ricevimento solo nell'ubicazione predefinita definita per ciascun magazzino.</span><span class="sxs-lookup"><span data-stu-id="89668-158">Previously, the system supported receiving only at the default location that is defined for each warehouse.</span></span> <span data-ttu-id="89668-159">Tuttavia, le voci di menu dei dispositivi mobili che utilizzano i seguenti processi di creazione del lavoro ora forniscono l'opzione **Utilizza dati predefiniti**.</span><span class="sxs-lookup"><span data-stu-id="89668-159">However, mobile device menu items that use the following work creation processes now provide the **Use default data** option.</span></span> <span data-ttu-id="89668-160">Questa opzione consente di assegnare un'ubicazione di destinazione personalizzata a una o più voci di menu.</span><span class="sxs-lookup"><span data-stu-id="89668-160">This option lets you assign a custom "to" location to one or more menu items.</span></span> <span data-ttu-id="89668-161">Questa opzione era già disponibile per alcuni altri tipi di voci di menu.</span><span class="sxs-lookup"><span data-stu-id="89668-161">(This option was already available for some other types of menu items.)</span></span>
 
+- <span data-ttu-id="89668-162">Ricevimento (e stoccaggio) targa</span><span class="sxs-lookup"><span data-stu-id="89668-162">License plate receiving (and putaway)</span></span>
+- <span data-ttu-id="89668-163">Ricevimento (e stoccaggio) articoli di carico</span><span class="sxs-lookup"><span data-stu-id="89668-163">Load item receiving (and putaway)</span></span>
+- <span data-ttu-id="89668-164">Ricevimento (e stoccaggio) riga ordine acquisto</span><span class="sxs-lookup"><span data-stu-id="89668-164">Purchase order line receiving (and putaway)</span></span>
+- <span data-ttu-id="89668-165">Ricevimento (e stoccaggio) articolo ordine acquisto</span><span class="sxs-lookup"><span data-stu-id="89668-165">Purchase order item receiving (and putaway)</span></span>
+
+<span data-ttu-id="89668-166">L'impostazione **Ubicazione destinazione** per una voce di menu sostituisce l'ubicazione di ricezione predefinita per il magazzino, per tutti gli ordini elaborati utilizzando quella voce di menu.</span><span class="sxs-lookup"><span data-stu-id="89668-166">The **To location** setting for a menu item overrides the default receiving location for the warehouse, for all orders that are processed by using that menu item.</span></span>
+
+<span data-ttu-id="89668-167">Per configurare una voce di menu del dispositivo mobile in modo da supportare la ricezione in un'ubicazione personalizzata, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="89668-167">To set up a mobile device menu item to support receiving at a custom location, follow these steps.</span></span>
+
+1. <span data-ttu-id="89668-168">Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.</span><span class="sxs-lookup"><span data-stu-id="89668-168">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="89668-169">Selezionare o creare una voce di menu che utilizza uno dei processi di creazione del lavoro elencati in precedenza in questa sezione.</span><span class="sxs-lookup"><span data-stu-id="89668-169">Select or create a menu item that uses one of the work creation processes that are listed earlier in this section.</span></span>
+1. <span data-ttu-id="89668-170">Nella Scheda dettaglio **Generale**, impostare l'opzione **Utilizza dati predefiniti** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="89668-170">On the **General** FastTab, set the **Use default data** option to **Yes**.</span></span>
+1. <span data-ttu-id="89668-171">Nel riquadro azioni selezionare **Dati predefiniti**.</span><span class="sxs-lookup"><span data-stu-id="89668-171">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="89668-172">Nella pagina **Dati predefiniti**, impostare i seguenti valori:</span><span class="sxs-lookup"><span data-stu-id="89668-172">On the **Default data** page, set the following values:</span></span>
+
+    - <span data-ttu-id="89668-173">**Campo Dati predefiniti:** impostare questo campo su *Ubicazione destinazione*.</span><span class="sxs-lookup"><span data-stu-id="89668-173">**Default data field:** Set this field to *To location*.</span></span>
+    - <span data-ttu-id="89668-174">**Magazzino:** selezionare il magazzino di destinazione da utilizzare con questa voce di menu.</span><span class="sxs-lookup"><span data-stu-id="89668-174">**Warehouse:** Select the destination warehouse to use with this menu item.</span></span>
+    - <span data-ttu-id="89668-175">**Ubicazione:** questo campo elenca tutti gli ID ubicazione disponibili per il magazzino selezionato.</span><span class="sxs-lookup"><span data-stu-id="89668-175">**Location:** This field lists all the location IDs that are available for the selected warehouse.</span></span> <span data-ttu-id="89668-176">Tuttavia, l'impostazione di questo campo non ha alcun effetto.</span><span class="sxs-lookup"><span data-stu-id="89668-176">However, the setting of this field doesn't actually have any effect.</span></span> <span data-ttu-id="89668-177">Pertanto, non è possibile non specificare tale valore.</span><span class="sxs-lookup"><span data-stu-id="89668-177">Therefore, you can leave it blank.</span></span> <span data-ttu-id="89668-178">Tuttavia, è possibile utilizzare l'elenco per confermare l'ID che è necessario immettere nel campo **Valore codificato**.</span><span class="sxs-lookup"><span data-stu-id="89668-178">Nevertheless, you can use the list to confirm the ID that you must enter in the **Hardcoded value** field.</span></span>
+    - <span data-ttu-id="89668-179">**Valore codificato:** immettere l'ID ubicazione per l'ubicazione di ricezione applicabile a questa voce di menu.</span><span class="sxs-lookup"><span data-stu-id="89668-179">**Hardcoded value:** Enter the location ID for the receiving location that applies to this menu item.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="89668-180">Un criterio di lavoro può essere applicato solo se tutte le ubicazioni di ricezione sono elencate nella relativa configurazione dei criteri di lavoro.</span><span class="sxs-lookup"><span data-stu-id="89668-180">A work policy can be applied only if all the receiving locations are listed in the relevant work policy setup.</span></span> <span data-ttu-id="89668-181">Questo requisito si applica indipendentemente dal fatto che si stia utilizzando l'ubicazione di ricezione del magazzino predefinita o un'ubicazione destinazione personalizzata.</span><span class="sxs-lookup"><span data-stu-id="89668-181">This requirement applies regardless of whether you're using the default warehouse receiving location or a custom "to" location.</span></span>
+
+## <a name="example-scenario-warehouse-receiving"></a><span data-ttu-id="89668-182">Scenario di esempio: ricezione magazzino</span><span class="sxs-lookup"><span data-stu-id="89668-182">Example scenario: Warehouse receiving</span></span>
+
+<span data-ttu-id="89668-183">Tutti i prodotti che vengono ricevuti dal processo *Ricevimento (e stoccaggio) articolo ordine acquisto* devono essere registrato nell'ubicazione *FL-001* e devono essere disponibili nel magazzino *24*.</span><span class="sxs-lookup"><span data-stu-id="89668-183">All products that are received by the *Purchase order item receiving (and putaway)* process must be registered in location *FL-001*, and they must be available in warehouse *24*.</span></span> <span data-ttu-id="89668-184">Tuttavia, il lavoro non dovrebbe essere creato.</span><span class="sxs-lookup"><span data-stu-id="89668-184">However, work should not be created.</span></span> <span data-ttu-id="89668-185">I prodotti che vengono ricevuti da qualsiasi altro processo (ovvero utilizzando altre voci di menu del dispositivo mobile) devono essere registrati nell'ubicazione di ricezione del magazzino predefinita (*RECV*) e il lavoro dovrebbe essere creato come al solito.</span><span class="sxs-lookup"><span data-stu-id="89668-185">Products that are received by any other process (that is, by using other mobile device menu items) should be registered at the default warehouse receiving location (*RECV*), and work should be created as usual.</span></span> <span data-ttu-id="89668-186">(Questo scenario non mostra la configurazione di ricezione predefinita).</span><span class="sxs-lookup"><span data-stu-id="89668-186">(This scenario doesn't show the default receiving setup.)</span></span>
+
+<span data-ttu-id="89668-187">Questo scenario richiede i seguenti elementi:</span><span class="sxs-lookup"><span data-stu-id="89668-187">This scenario requires the following elements:</span></span>
+
+- <span data-ttu-id="89668-188">Un criterio di lavoro per il processo *Ricevimento (e stoccaggio) articolo ordine acquisto* nell'ubicazione *FL-001*, per tutti i prodotti</span><span class="sxs-lookup"><span data-stu-id="89668-188">A work policy for the *Purchase order item receiving (and putaway)* process in location *FL-001*, for all products</span></span>
+- <span data-ttu-id="89668-189">Una voce di menu del dispositivo mobile con dati predefiniti e che imposta il campo **Ubicazione destinazione** su *FL-001*</span><span class="sxs-lookup"><span data-stu-id="89668-189">A mobile device menu item that has default data, and that sets the **To location** field to *FL-001*</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="89668-190">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="89668-190">Prerequisites</span></span>
+
+<span data-ttu-id="89668-191">Per rendere disponibili nel sistema le funzionalità descritte in questo scenario, è necessario attivare le funzionalità *Miglioramenti del ricevimento della targa* e *Miglioramenti dei criteri di lavoro per il lavoro in ingresso* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="89668-191">To make the functionality that is described in this scenario available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+
+<span data-ttu-id="89668-192">Questo scenario utilizza i dati dimostrativi standard.</span><span class="sxs-lookup"><span data-stu-id="89668-192">This scenario uses the standard demo data.</span></span> <span data-ttu-id="89668-193">Pertanto, se si desidera elaborarlo utilizzando i valori specificati qui, è necessario utilizzare un sistema in cui sono installati i dati dimostrativi standard.</span><span class="sxs-lookup"><span data-stu-id="89668-193">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="89668-194">Inoltre, è necessario selezionare la persona giuridica **USMF**.</span><span class="sxs-lookup"><span data-stu-id="89668-194">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-work-policy"></a><span data-ttu-id="89668-195">Impostare un criterio di magazzino</span><span class="sxs-lookup"><span data-stu-id="89668-195">Set up a work policy</span></span>
+
+1. <span data-ttu-id="89668-196">Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Criteri di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="89668-196">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="89668-197">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="89668-197">Select **New**.</span></span>
+1. <span data-ttu-id="89668-198">Nel campo**Nome criteri di lavoro**, immetti *Nessun lavoro di stoccaggio per l'articolo d'acquisto*.</span><span class="sxs-lookup"><span data-stu-id="89668-198">In the **Work policy name** field, enter *No purchase item putaway work*.</span></span>
+1. <span data-ttu-id="89668-199">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-199">Select **Save**.</span></span>
+1. <span data-ttu-id="89668-200">Nella scheda dettaglio **Tipi di ordine di lavoro**, selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-200">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-201">**Tipo di ordine di lavoro:** *Ordini fornitore*</span><span class="sxs-lookup"><span data-stu-id="89668-201">**Work order type:** *Purchase orders*</span></span>
+    - <span data-ttu-id="89668-202">**Processo di lavoro:** *Ricevimento (e stoccaggio) articolo ordine acquisto*</span><span class="sxs-lookup"><span data-stu-id="89668-202">**Work process:** *Purchase order item receiving (and putaway)*</span></span>
+    - <span data-ttu-id="89668-203">**Metodo di creazione del lavoro:** *Mai*</span><span class="sxs-lookup"><span data-stu-id="89668-203">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="89668-204">**Nome criteri di cross-docking:** Lasciare vuoto questo campo.</span><span class="sxs-lookup"><span data-stu-id="89668-204">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="89668-205">Nella scheda dettaglio **Ubicazioni di magazzino**, selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-205">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-206">**Magazzino:** *24*</span><span class="sxs-lookup"><span data-stu-id="89668-206">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="89668-207">**Ubicazione:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="89668-207">**Location:** *FL-001*</span></span>
+
+1. <span data-ttu-id="89668-208">Nella Scheda dettaglio **Prodotti**, impostare il campo **Selezione prodotto** su *Tutti*.</span><span class="sxs-lookup"><span data-stu-id="89668-208">On the **Products** FastTab, set the **Product selection** field to *All*.</span></span>
+1. <span data-ttu-id="89668-209">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-209">Select **Save**.</span></span>
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a><span data-ttu-id="89668-210">Impostare una voce di menu del dispositivo mobile in modo da modificare l'ubicazione di ricezione</span><span class="sxs-lookup"><span data-stu-id="89668-210">Set up a mobile device menu item to change the receiving location</span></span>
+
+1. <span data-ttu-id="89668-211">Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.</span><span class="sxs-lookup"><span data-stu-id="89668-211">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="89668-212">Nel riquadro sinistro, selezionare la voce di menu **Entrata acquisto** esistente.</span><span class="sxs-lookup"><span data-stu-id="89668-212">In the left pane, select the existing **Purchase receive** menu item.</span></span>
+1. <span data-ttu-id="89668-213">Nella Scheda dettaglio **Generale**, impostare l'opzione **Utilizza dati predefiniti** su *Sì*.</span><span class="sxs-lookup"><span data-stu-id="89668-213">On the **General** FastTab, set the **Use default data** option to *Yes*.</span></span>
+1. <span data-ttu-id="89668-214">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-214">Select **Save**.</span></span>
+1. <span data-ttu-id="89668-215">Nel riquadro azioni selezionare **Dati predefiniti**.</span><span class="sxs-lookup"><span data-stu-id="89668-215">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="89668-216">Nella riquadro azioni della pagina **Dati predefiniti**, selezionare **Nuovo** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-216">On the **Default data** page, on the Action Pane, select **New** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-217">**Campo Dati predefiniti:** *Ubicazione destinazione*</span><span class="sxs-lookup"><span data-stu-id="89668-217">**Default data field:** *To location*</span></span>
+    - <span data-ttu-id="89668-218">**Magazzino:** *24*</span><span class="sxs-lookup"><span data-stu-id="89668-218">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="89668-219">**Ubicazione:** lasciare vuoto questo campo.</span><span class="sxs-lookup"><span data-stu-id="89668-219">**Location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="89668-220">**Valore codificato:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="89668-220">**Hardcoded value:** *FL-001*</span></span>
+
+1. <span data-ttu-id="89668-221">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-221">Select **Save**.</span></span>
+
+### <a name="receive-a-purchase-order-without-creating-work"></a><span data-ttu-id="89668-222">Ricevere un ordine fornitore senza creare lavoro</span><span class="sxs-lookup"><span data-stu-id="89668-222">Receive a purchase order without creating work</span></span>
+
+<span data-ttu-id="89668-223">L'esempio in questa sezione mostra come ricevere un articolo dell'ordine fornitore, ma senza creare lavoro, in una ubicazione diversa dall'ubicazione di ricezione predefinita configurata per il magazzino.</span><span class="sxs-lookup"><span data-stu-id="89668-223">The example in this section shows how to receive a purchase order item, but without creating work, at a location that differs from the default receiving location that is set up for the warehouse.</span></span> <span data-ttu-id="89668-224">In questo esempio vengono utilizzati i criteri di lavoro e la voce del dispositivo mobile creati in precedenza in questo scenario.</span><span class="sxs-lookup"><span data-stu-id="89668-224">This example uses the work policy and mobile device item that you created earlier in this scenario.</span></span>
+
+#### <a name="create-a-purchase-order"></a><span data-ttu-id="89668-225">Creare un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="89668-225">Create a purchase order</span></span>
+
+1. <span data-ttu-id="89668-226">Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.</span><span class="sxs-lookup"><span data-stu-id="89668-226">Go to **Procurement and sourcing \> Purchase orders \> All purchase orders**.</span></span>
+1. <span data-ttu-id="89668-227">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="89668-227">Select **New**.</span></span>
+1. <span data-ttu-id="89668-228">Nella finestra di dialogo **Crea ordine fornitore**, imposta i seguenti valori:</span><span class="sxs-lookup"><span data-stu-id="89668-228">In the **Create purchase order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="89668-229">**Conto fornitore:** *US-101*</span><span class="sxs-lookup"><span data-stu-id="89668-229">**Vendor account:** *US-101*</span></span>
+    - <span data-ttu-id="89668-230">**Sito:** *2*</span><span class="sxs-lookup"><span data-stu-id="89668-230">**Site:** *2*</span></span>
+    - <span data-ttu-id="89668-231">**Magazzino:** *24*</span><span class="sxs-lookup"><span data-stu-id="89668-231">**Warehouse:** *24*</span></span>
+
+1. <span data-ttu-id="89668-232">Scegliere **OK** per chiudere la finestra di dialogo e aprire il nuovo ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="89668-232">Select **OK** to close the dialog box and open the new purchase order.</span></span>
+1. <span data-ttu-id="89668-233">Nella Scheda dettaglio **Righe ordine fornitore**, imposta i seguenti valori per la riga vuota:</span><span class="sxs-lookup"><span data-stu-id="89668-233">On the **Purchase order lines** FastTab, set the following values for the empty row:</span></span>
+
+    - <span data-ttu-id="89668-234">**Numero articolo:** *A0001*</span><span class="sxs-lookup"><span data-stu-id="89668-234">**Item number:** *A0001*</span></span>
+    - <span data-ttu-id="89668-235">**Quantità:** *1*</span><span class="sxs-lookup"><span data-stu-id="89668-235">**Quantity:** *1*</span></span>
+
+1. <span data-ttu-id="89668-236">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-236">Select **Save**.</span></span>
+1. <span data-ttu-id="89668-237">Prendere nota del numero di ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="89668-237">Make a note of the purchase order number.</span></span>
+
+#### <a name="receive-a-purchase-order"></a><span data-ttu-id="89668-238">Ricevere un ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="89668-238">Receive a purchase order</span></span>
+
+1. <span data-ttu-id="89668-239">Sul dispositivo mobile, accedere al magazzino *24* utilizzando *24* come ID utente e *1* come password.</span><span class="sxs-lookup"><span data-stu-id="89668-239">On the mobile device, sign in to warehouse *24* by using *24* as the user ID and *1* as the password.</span></span>
+1. <span data-ttu-id="89668-240">Selezionare **In ingresso**.</span><span class="sxs-lookup"><span data-stu-id="89668-240">Select **Inbound**.</span></span>
+1. <span data-ttu-id="89668-241">Selezionare **Entrata acquisto**.</span><span class="sxs-lookup"><span data-stu-id="89668-241">Select **Purchase receive**.</span></span> <span data-ttu-id="89668-242">Il campo **Ubicazione** deve essere impostato su *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="89668-242">The **Location** field should be set to *FL-001*.</span></span>
+1. <span data-ttu-id="89668-243">Immettere il numero dell'ordine fornitore per l'ordine fornitore creato nella procedura precedente.</span><span class="sxs-lookup"><span data-stu-id="89668-243">Enter the purchase order number for the purchase order that you created in the previous procedure.</span></span>
+1. <span data-ttu-id="89668-244">Nel campo **Numero articolo** immettere *A0001*.</span><span class="sxs-lookup"><span data-stu-id="89668-244">In the **Item number** field, enter *A0001*.</span></span>
+1. <span data-ttu-id="89668-245">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="89668-245">Select **OK**.</span></span>
+1. <span data-ttu-id="89668-246">Nel campo **Quantità** immettere *1*</span><span class="sxs-lookup"><span data-stu-id="89668-246">In the **Quantity** field, enter *1*.</span></span>
+1. <span data-ttu-id="89668-247">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="89668-247">Select **OK**.</span></span>
+
+<span data-ttu-id="89668-248">L'ordine fornitore è ora ricevuto, ma nessun lavoro è associato ad esso.</span><span class="sxs-lookup"><span data-stu-id="89668-248">The purchase order is now received, but no work is associated with it.</span></span> <span data-ttu-id="89668-249">Le scorte disponibili sono state aggiornate e una quantità di *1* dell'articolo *A0001* è ora disponibile nell'ubicazione *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="89668-249">The on-hand inventory has been updated, and a quantity of *1* of item *A0001* is now available at location *FL-001*.</span></span>
+
+## <a name="example-scenario-manufacturing"></a><span data-ttu-id="89668-250">Scenario di esempio: produzione</span><span class="sxs-lookup"><span data-stu-id="89668-250">Example scenario: Manufacturing</span></span>
+
+<span data-ttu-id="89668-251">Nel seguente esempio, sono presenti due ordini di produzione, *PRD-001* e *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="89668-251">In the following example, there are two production orders, *PRD-001* and *PRD-002*.</span></span> <span data-ttu-id="89668-252">L'ordine di produzione *PRD-001* ha un'operazione denominata *Assemblaggio*, in cui il prodotto *SC1* viene dichiarato finito nell'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-252">Production order *PRD-001* has an operation that is named *Assembly*, where product *SC1* is being reported as finished to location *001*.</span></span> <span data-ttu-id="89668-253">L'ordine di produzione *PRD-002* ha un'operazione denominata *Verniciatura* e utilizza il prodotto *SC1* dall'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-253">Production order *PRD-002* has an operation that is named *Painting* and consumes product *SC1* from location *001*.</span></span> <span data-ttu-id="89668-254">L'ordine di produzione *PRD-002* utilizza anche le materie prime *RM1* dall'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-254">Production order *PRD-002* also consumes raw material *RM1* from location *001*.</span></span> <span data-ttu-id="89668-255">Le materie prime *RM1* sono immagazzinate nell'ubicazione *BULK-001* e verranno prelevate nell'ubicazione *001* dal lavoro di magazzino per il prelievo di materie prime.</span><span class="sxs-lookup"><span data-stu-id="89668-255">Raw material *RM1* is stored in warehouse location *BULK-001* and will be picked to location *001* by warehouse work for raw material picking.</span></span> <span data-ttu-id="89668-256">Il lavoro di prelievo viene generato quando l'ordine di produzione *PRD-002* viene rilasciato.</span><span class="sxs-lookup"><span data-stu-id="89668-256">The picking work is generated when production *PRD-002* is released.</span></span>
+
+<span data-ttu-id="89668-257">[![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="89668-257">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span>
+
+<span data-ttu-id="89668-258">Quando si pianifica di configurazione dei criteri di lavoro di magazzino per questo scenario, valutare i seguenti punti:</span><span class="sxs-lookup"><span data-stu-id="89668-258">When you're planning to configure a warehouse work policy for this scenario, you should consider the following points:</span></span>
+
+- <span data-ttu-id="89668-259">Il lavoro di magazzino per lo stoccaggio di articoli finiti non è richiesto quando si dichiara *SC1* come finito dall'ordine di produzione *PRD-001* nell'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-259">Warehouse work for putaway of finished goods isn't required when you report product *SC1* as finished from production order *PRD-001* to location *001*.</span></span> <span data-ttu-id="89668-260">Questo perché l'operazione *Verniciatura* per l'ordine di produzione *PRD-002* utilizza il prodotto *SC1* nella stessa ubicazione.</span><span class="sxs-lookup"><span data-stu-id="89668-260">The reason is that the *Painting* operation for production order *PRD-002* consumes product *SC1* at the same location.</span></span>
+- <span data-ttu-id="89668-261">Il lavoro di magazzino per il prelievo di materie prime è necessario per spostare le materie prime *RM1* dall'ubicazione di magazzino *BULK-001* all'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-261">Warehouse work for raw material picking is required to move raw material *RM1* from warehouse location *BULK-001* to location *001*.</span></span>
+
+<span data-ttu-id="89668-262">Di seguito è riportato un esempio dei criteri di lavoro che è possibile impostare, in base a queste considerazioni:</span><span class="sxs-lookup"><span data-stu-id="89668-262">Here is an example of a work policy that you can set up, based on these considerations:</span></span>
+
+- <span data-ttu-id="89668-263">**Nome criteri di lavoro:** *Nessun lavoro di stoccaggio*</span><span class="sxs-lookup"><span data-stu-id="89668-263">**Work policy name:** *No putaway work*</span></span>
+- <span data-ttu-id="89668-264">**Tipi di ordini di lavoro:** *Stoccaggio prodotti finiti* e *Stoccaggio co-prodotti e sottoprodotti*</span><span class="sxs-lookup"><span data-stu-id="89668-264">**Work order types:** *Finished goods put away* and *Co-product and by-product put away*</span></span>
+- <span data-ttu-id="89668-265">**Ubicazioni di magazzino:** magazzino *51* e ubicazione *001*</span><span class="sxs-lookup"><span data-stu-id="89668-265">**Inventory locations:** Warehouse *51* and location *001*</span></span>
+- <span data-ttu-id="89668-266">**Prodotti:** *SC1*</span><span class="sxs-lookup"><span data-stu-id="89668-266">**Products:** *SC1*</span></span>
+
+<span data-ttu-id="89668-267">Nello scenario di esempio riportato di seguito vengono fornite istruzioni dettagliate sull'impostazione dei criteri di lavoro di magazzino per questo scenario.</span><span class="sxs-lookup"><span data-stu-id="89668-267">The following example scenario provides step-by-step instructions for setting up the warehouse work policy for this scenario.</span></span>
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="89668-268">Scenario di esempio: dichiarare un ordine di produzione finito in un'ubicazione non controllata da targhe</span><span class="sxs-lookup"><span data-stu-id="89668-268">Example scenario: Report as finished to a location that isn't license plate–controlled</span></span>
+
+<span data-ttu-id="89668-269">Questo scenario mostra un esempio di dichiarazione come finito di un ordine di produzione in un'ubicazione non controllata da targhe viene anche descritta.</span><span class="sxs-lookup"><span data-stu-id="89668-269">This scenario shows an example where a production order is reported as finished to a location that isn't license plate–controlled.</span></span>
+
+<span data-ttu-id="89668-270">Questo scenario utilizza i dati dimostrativi standard.</span><span class="sxs-lookup"><span data-stu-id="89668-270">This scenario uses the standard demo data.</span></span> <span data-ttu-id="89668-271">Pertanto, se si desidera elaborarlo utilizzando i valori specificati qui, è necessario utilizzare un sistema in cui sono installati i dati dimostrativi standard.</span><span class="sxs-lookup"><span data-stu-id="89668-271">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="89668-272">Inoltre, è necessario selezionare la persona giuridica **USMF**.</span><span class="sxs-lookup"><span data-stu-id="89668-272">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="89668-273">Impostare criteri di lavoro magazzino</span><span class="sxs-lookup"><span data-stu-id="89668-273">Set up a warehouse work policy</span></span>
+
+<span data-ttu-id="89668-274">I processi del magazzino non includono sempre il lavoro in magazzino.</span><span class="sxs-lookup"><span data-stu-id="89668-274">Warehouse processes don't always include warehouse work.</span></span> <span data-ttu-id="89668-275">Definendo i criteri di lavoro, è possibile impedire la creazione di lavoro per il prelievo delle materie prime e lo stoccaggio di prodotti finiti per un set di prodotti in ubicazioni specifiche.</span><span class="sxs-lookup"><span data-stu-id="89668-275">By defining a work policy, you can prevent the creation of work for raw material picking and putaway of finished goods for a set of products at specific locations.</span></span>
+
+1. <span data-ttu-id="89668-276">Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Criteri di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="89668-276">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="89668-277">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="89668-277">Select **New**.</span></span>
+1. <span data-ttu-id="89668-278">Nel campo**Nome criteri di lavoro**, immetti *Nessun lavoro di stoccaggio*.</span><span class="sxs-lookup"><span data-stu-id="89668-278">In the **Work policy name** field, enter *No putaway work*.</span></span>
+1. <span data-ttu-id="89668-279">Nel riquadro azioni selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-279">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="89668-280">Nella scheda dettaglio **Tipi di ordine di lavoro**, selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-280">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-281">**Tipo di ordine di lavoro:** *Stoccaggio dei prodotti finiti*</span><span class="sxs-lookup"><span data-stu-id="89668-281">**Work order type:** *Finished goods put away*</span></span>
+    - <span data-ttu-id="89668-282">**Processo di lavoro:** *Tutti i processi di lavoro correlati*</span><span class="sxs-lookup"><span data-stu-id="89668-282">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="89668-283">**Metodo di creazione del lavoro:** *Mai*</span><span class="sxs-lookup"><span data-stu-id="89668-283">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="89668-284">**Nome criteri di cross-docking:** Lasciare vuoto questo campo.</span><span class="sxs-lookup"><span data-stu-id="89668-284">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="89668-285">Selezionare **Aggiungi** nuovamente per aggiungere una seconda riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-285">Select **Add** again to add a second row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-286">**Tipo di ordine di lavoro:** *Stoccaggio co-prodotti e sottoprodotti*</span><span class="sxs-lookup"><span data-stu-id="89668-286">**Work order type:** *Co-product and by-product put away*</span></span>
+    - <span data-ttu-id="89668-287">**Processo di lavoro:** *Tutti i processi di lavoro correlati*</span><span class="sxs-lookup"><span data-stu-id="89668-287">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="89668-288">**Metodo di creazione del lavoro:** *Mai*</span><span class="sxs-lookup"><span data-stu-id="89668-288">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="89668-289">**Nome criteri di cross-docking:** Lasciare vuoto questo campo.</span><span class="sxs-lookup"><span data-stu-id="89668-289">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="89668-290">Nella scheda dettaglio **Ubicazioni di magazzino**, selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:</span><span class="sxs-lookup"><span data-stu-id="89668-290">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="89668-291">**Magazzino:** *51*</span><span class="sxs-lookup"><span data-stu-id="89668-291">**Warehouse:** *51*</span></span>
+    - <span data-ttu-id="89668-292">**Ubicazione:** *001*</span><span class="sxs-lookup"><span data-stu-id="89668-292">**Location:** *001*</span></span>
+
+1. <span data-ttu-id="89668-293">Nella Scheda dettaglio **Prodotti**, impostare il campo **Selezione prodotto** su *Selezionati*.</span><span class="sxs-lookup"><span data-stu-id="89668-293">On the **Products** FastTab, set the **Product selection** field to *Selected*.</span></span>
+1. <span data-ttu-id="89668-294">Nella Scheda dettaglio **Prodotti**, selezionare **Aggiungi** per aggiungere una riga alla griglia.</span><span class="sxs-lookup"><span data-stu-id="89668-294">On the **Products** FastTab, select **Add** to add a row to the grid.</span></span>
+1. <span data-ttu-id="89668-295">Nella nuova riga, impostare il campo **Numero articolo** su *L0101*.</span><span class="sxs-lookup"><span data-stu-id="89668-295">In the new row, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="89668-296">Nel riquadro azioni selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-296">On the Action Pane, select **Save**.</span></span>
+
+### <a name="set-up-an-output-location"></a><span data-ttu-id="89668-297">Impostare un'ubicazione di output</span><span class="sxs-lookup"><span data-stu-id="89668-297">Set up an output location</span></span>
+
+1. <span data-ttu-id="89668-298">Passare a **Amministrazione organizzazione \> Risorse \> Gruppi di risorse**.</span><span class="sxs-lookup"><span data-stu-id="89668-298">Go to **Organization administration \> Resources \> Resource groups**.</span></span>
+1. <span data-ttu-id="89668-299">Nel riquadro sinistro, selezionare il gruppo di risorse **5102**.</span><span class="sxs-lookup"><span data-stu-id="89668-299">In the left pane, select resource group **5102**.</span></span>
+1. <span data-ttu-id="89668-300">Nella Scheda dettaglio **Generale**, imposta i seguenti valori:</span><span class="sxs-lookup"><span data-stu-id="89668-300">On the **General** FastTab, set the following values:</span></span>
+
+    - <span data-ttu-id="89668-301">**Magazzino di output:** *51*</span><span class="sxs-lookup"><span data-stu-id="89668-301">**Output warehouse:** *51*</span></span>
+    - <span data-ttu-id="89668-302">**Ubicazione di output:** *001*</span><span class="sxs-lookup"><span data-stu-id="89668-302">**Output location:** *001*</span></span>
+
+1. <span data-ttu-id="89668-303">Nel riquadro azioni selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="89668-303">On the Action Pane, select **Save**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="89668-304">L'ubicazione *001* non è un'ubicazione controllata da targa.</span><span class="sxs-lookup"><span data-stu-id="89668-304">Location *001* isn't a license plate–controlled location.</span></span> <span data-ttu-id="89668-305">È possibile configurare un'ubicazione di output senza targa solo se i criteri di lavoro applicabili sono disponibili per l'ubicazione.</span><span class="sxs-lookup"><span data-stu-id="89668-305">You can set up an output location that isn't license plate–controlled only if an applicable work policy exists for the location.</span></span>
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="89668-306">Creare un ordine di produzione e segnalarlo come finito</span><span class="sxs-lookup"><span data-stu-id="89668-306">Create a production order and report it as finished</span></span>
+
+1. <span data-ttu-id="89668-307">Fare clic su **Controllo produzione \> Ordini di produzione \> Tutti gli ordini di produzione**.</span><span class="sxs-lookup"><span data-stu-id="89668-307">Go to **Production control \> Production orders \> All production orders**.</span></span>
+1. <span data-ttu-id="89668-308">Nel riquadro azioni, selezionare **Nuovo ordine di produzione**.</span><span class="sxs-lookup"><span data-stu-id="89668-308">On the Action Pane, select **New production order**.</span></span>
+1. <span data-ttu-id="89668-309">Nella finestra di dialogo **Crea ordine di produzione**, impostare il campo **Numero articolo** su *L0101*.</span><span class="sxs-lookup"><span data-stu-id="89668-309">In the **Create production order** dialog box, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="89668-310">Selezionare **Crea** per creare l'ordine e chiudere la finestra di dialogo.</span><span class="sxs-lookup"><span data-stu-id="89668-310">Select **Create** to create the order and close the dialog box.</span></span>
+
+    <span data-ttu-id="89668-311">Un nuovo ordine di produzione viene aggiunto alla griglia nella pagina **Tutti gli ordini di produzione**.</span><span class="sxs-lookup"><span data-stu-id="89668-311">A new production order is added to the grid on the **All production orders** page.</span></span>
+
+    <span data-ttu-id="89668-312">Mantieni selezionato il nuovo ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="89668-312">Keep the new production order selected.</span></span>
+
+1. <span data-ttu-id="89668-313">Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Stima**.</span><span class="sxs-lookup"><span data-stu-id="89668-313">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Estimate**.</span></span>
+1. <span data-ttu-id="89668-314">Nella finestra di dialogo **Stima**, leggere la stima, quindi selezionare **OK** per chiudere la finestra di dialogo.</span><span class="sxs-lookup"><span data-stu-id="89668-314">In the **Estimate** dialog box, read the estimate, and then select **OK** to close the dialog box.</span></span>
+1. <span data-ttu-id="89668-315">Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Avvia**.</span><span class="sxs-lookup"><span data-stu-id="89668-315">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Start**.</span></span>
+1. <span data-ttu-id="89668-316">Nella finestra di dialogo **Avvia**, nella scheda **Generale**, impostare il campo **Consumo DBA automatico** su *Mai*.</span><span class="sxs-lookup"><span data-stu-id="89668-316">In the **Start** dialog box, on the **General** tab, set the **Automatic BOM consumption** field to *Never*.</span></span>
+1. <span data-ttu-id="89668-317">Selezionare **OK** per salvare l'impostazione e chiudere la finestra di dialogo.</span><span class="sxs-lookup"><span data-stu-id="89668-317">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="89668-318">Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Dichiarazione di finito**.</span><span class="sxs-lookup"><span data-stu-id="89668-318">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Report as finished**.</span></span>
+1. <span data-ttu-id="89668-319">Nella finestra di dialogo **Dichiarazione di finito**, sulla scheda **Generale**, impostare l'opzione **Accetta errore** su *Sì*.</span><span class="sxs-lookup"><span data-stu-id="89668-319">In the **Report as finished** dialog box, on the **General** tab, set the **Accept error** option to *Yes*.</span></span>
+1. <span data-ttu-id="89668-320">Selezionare **OK** per salvare l'impostazione e chiudere la finestra di dialogo.</span><span class="sxs-lookup"><span data-stu-id="89668-320">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="89668-321">Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale**, selezionare **Dettagli lavoro**.</span><span class="sxs-lookup"><span data-stu-id="89668-321">On the Action Pane, on the **Warehouse** tab, in the **General** group, select **Work details**.</span></span>
+
+<span data-ttu-id="89668-322">Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato generato per lo stoccaggio.</span><span class="sxs-lookup"><span data-stu-id="89668-322">When the production order is reported as finished, no work is generated for putaway.</span></span> <span data-ttu-id="89668-323">Questo comportamento si verifica perché vengono definiti criteri di lavoro che impediscono la generazione del lavoro quando il prodotto *L0101* viene dichiarato finito all'ubicazione *001*.</span><span class="sxs-lookup"><span data-stu-id="89668-323">This behavior occurs because a work policy is defined that prevents work from being generated when product *L0101* is reported as finished to location *001*.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="89668-324">Ulteriori informazioni</span><span class="sxs-lookup"><span data-stu-id="89668-324">More information</span></span>
+
+<span data-ttu-id="89668-325">Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="89668-325">For more information about mobile device menu items, see [Set up mobile devices for warehouse work](configure-mobile-devices-warehouse.md).</span></span>
+
+<span data-ttu-id="89668-326">Per altre informazioni relative alla ricezione della targa e ai criteri di lavoro, vedere [Ricezione della targa tramite l'app di magazzino](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="89668-326">For more information about license plate receiving and work policies, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+<span data-ttu-id="89668-327">Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).</span><span class="sxs-lookup"><span data-stu-id="89668-327">For more information about inbound load management, see [Warehouse handling of inbound loads for purchase orders](inbound-load-handling.md).</span></span>
