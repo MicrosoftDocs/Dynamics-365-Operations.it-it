@@ -3,7 +3,7 @@ title: Mostrare gli sconti nel POS
 description: Questo argomento spiega come Microsoft Dynamics 365 Commerce aiuta gli addetti alle vendite a conoscere le promozioni e come possono essere utilizzate per i movimenti di cross-sell e upsell.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334710"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638184"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 
@@ -54,7 +54,7 @@ Nella pagina **Tutti gli sconti**, gli addetti alle vendite possono anche cercar
 
 Gli sconti multilinea, come gli sconti sulle quantità, gli sconti gamma e gli sconti soglia, sono un ottimo modo per motivare i clienti ad acquistare più prodotti per ottenere sconti maggiori. Pertanto, aiutano anche ad aumentare le dimensioni del carrello di un cliente e le entrate del rivenditore. Questi sconti possono essere pubblicizzati sui siti Web di e-commerce, sui social media e sui banner nel negozio.
 
-Tuttavia, anche quando vengono utilizzati tutti questi metodi di pubblicità, i clienti potrebbero perdere l'opportunità di usufruire delle promozioni. Per facilitare agli addetti alle vendite l'apprendimento delle promozioni applicabili a una linea selezionata o persino all'intero carrello, i rivenditori possono aggiungere il pulsante per l'operazione "Visualizza sconti disponibili" alla griglia dei pulsanti nella pagina **Transazione**. In questo modo, un addetto alle vendite può selezionare una riga di transazione e quindi selezionare il pulsante per mostrare tutti gli sconti disponibili per la riga selezionata. L'addetto alle vendite può anche selezionare un'altra scheda per mostrare gli sconti applicabili all'intera transazione.
+Tuttavia, anche quando vengono utilizzati tutti questi metodi di pubblicità, i clienti potrebbero perdere l'opportunità di usufruire delle promozioni. Per facilitare agli addetti alle vendite l'apprendimento delle promozioni applicabili a una linea selezionata o persino all'intero carrello, i rivenditori possono aggiungere il pulsante per l'operazione **Visualizza sconti disponibili** alla griglia dei pulsanti nella pagina **Transazione**. In questo modo, un addetto alle vendite può selezionare una riga di transazione e quindi selezionare il pulsante per mostrare tutti gli sconti disponibili per la riga selezionata. L'addetto alle vendite può anche selezionare un'altra scheda per mostrare gli sconti applicabili all'intera transazione. È importante notare che **Visualizza sconti disponibili** non mostra gli sconti che sono già applicati sulla riga di vendita perché le informazioni sullo sconto sono già visualizzate sulla riga di vendita. Lo scopo di questo scenario è mostrare solo gli sconti non ancora applicati. L'eccezione è costituita dagli sconti applicati in base a un buono sconto contrassegnato come "Applica senza un codice buono sconto". In questo modo l'addetto alle vendite può rimuovere facilmente il buono sconto applicato.
 
 La pagina **Tutti gli sconti** mostra solo gli sconti che non competono con nessuno degli sconti applicati. Questo comportamento aiuta a garantire che, se un addetto alle vendite informa un cliente di uno sconto e il cliente intraprende l'azione richiesta (ad esempio, il cliente acquista un altro articolo per ottenere uno sconto del 10%), lo sconto viene applicato alla transazione. Gli sconti basati su buono sconto vengono visualizzati solo quando l'opzione **Applica senza buono sconto** è attivata.
 

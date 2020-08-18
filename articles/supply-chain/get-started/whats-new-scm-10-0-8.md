@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83a27620a7bdd8624770442aa271a6dac6b5b04e
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530376"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651959"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.8 (febbraio 2020)
 
@@ -39,23 +39,23 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. Alcune di queste funzionalità potrebbero anche essere state incluse in una versione incrementale precedente, ma non sono state annunciate in precedenza nell'argomento *Novità*, quindi vengono aggiunte qui. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Zona ubicazione aggiuntiva](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
-- [Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Per ulteriori informazioni, vedere [Panoramica della gestione cespiti](../asset-management/index.md).
-- [Annullare lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) - Per ulteriori informazioni, vedere [Annullare il lavoro di magazzino per la gestione delle eccezioni](../warehousing/cancel-warehouse-work.md).
+- [Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Per ulteriori informazioni, vedere [Panoramica della gestione cespiti](../asset-management/index.md).
+- [Annulla lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Per ulteriori informazioni, vedere [Annullare il lavoro di magazzino per la gestione delle eccezioni](../warehousing/cancel-warehouse-work.md).
 - [Modifica pool di lavoro nel lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Posizione cluster piena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
 - [Conferma e trasferimento](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
 - [Aging prelievo scorte per direttiva ubicazione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
 - [Stato ubicazione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [Raggruppamento delle righe prelievo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping) - Per ulteriori informazioni, vedere [Raggruppamento delle righe prelievo](../warehousing/pick-line-grouping.md).
-- [Aggiornamento automatico della spedizione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update) - Per ulteriori informazioni, vedere [Aggiornamenti automatici della spedizione](../warehousing/auto-update-shipment.md).
+- [Raggruppamento righe prelievo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Per ulteriori informazioni, vedere [Raggruppamento righe prelievo](../warehousing/pick-line-grouping.md).
+- [Aggiornamento automatico delle spedizioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Per ulteriori informazioni, vedere [Aggiornamenti automatici delle spedizioni](../warehousing/auto-update-shipment.md).
 - [Dividere il lavoro di rifornimento della domanda dalla fase di creazione del prelievo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Suddivisione lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [Prelievo cluster diretto dal sistema](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking) - Per ulteriori informazioni, vedere [Prelievo dei cluster diretto dal sistema](../warehousing/system-directed-cluster-pick.md).
+- [Prelievo cluster diretto dal sistema](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Per ulteriori informazioni, vedere [Prelievo cluster diretto dal sistema](../warehousing/system-directed-cluster-pick.md).
 - [Convalida dell'attività app di magazzino con RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Regola Rilascia in magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Visualizzazione dello stato dell'ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Gruppi del modello di ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Dettagli della riga di lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details) - Per ulteriori informazioni, guardare il video [Dettagli della riga di lavoro](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [Dettagli riga di lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Per ulteriori informazioni, guardare il video [Dettagli della riga di lavoro](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
 - [Rifornimento soglia di zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

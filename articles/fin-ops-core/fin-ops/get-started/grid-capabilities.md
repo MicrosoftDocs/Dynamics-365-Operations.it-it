@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431362"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651692"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
@@ -128,20 +128,47 @@ Per fare in modo che il sistema riconosca un valore come espressione, iniziare i
 
 Tutte le sessioni utente successive verranno avviate con il nuovo controllo griglia abilitato.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
+Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
+
+        this.forceLegacyGrid();
+
+Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Si prega di segnalare a Microsoft eventuali problemi che richiedono l'utilizzo di questa API. 
+
 ## <a name="known-issues"></a>Problemi noti
 Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della griglia mentre la funzionalità si trova in uno stato di anteprima.  
 
 ### <a name="open-issues"></a>Problemi aperti
+-  Dopo aver abilitato la funzionalità **Nuovo controllo griglia**, alcune pagine continueranno a utilizzare il controllo griglia esistente. Questo avverrà nelle seguenti situazioni:  
+    -  È presente un elenco di schede nella pagina che viene visualizzata in più colonne.
+    -  È presente un elenco di schede raggruppate sulla pagina.
+    -  Una colonna della griglia con un controllo estendibile non reattivo.
 
-- Gli elenchi di schede sono stati rappresentati come più colonne e sono ora resi come una singola colonna.
-- Gli elenchi raggruppati non vengono visualizzati come gruppi o in colonne separate.
+    Quando un utente incontra per la prima volta una di queste situazioni, verrà visualizzato un messaggio sull'aggiornamento della pagina. Una volta visualizzato questo messaggio, la pagina continuerà a utilizzare la griglia esistente per tutti gli utenti fino al prossimo aggiornamento della versione del prodotto. Una migliore gestione di questi scenari, in modo che la nuova griglia possa essere utilizzata, verrà presa in considerazione per un aggiornamento futuro.     
 
 ### <a name="fixed-as-part-of-10013"></a>Cespiti come parte del 10.0.13
 
-> [!NOTE]
-> Le seguenti informazioni vengono fornite in modo da poter pianificare di conseguenza. Per ulteriori informazioni sul programma di rilascio mirato della versione 10.0.13, vedere [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Le descrizioni dei comandi non vengono visualizzate per le immagini.
+-  [Bug 470173] Le caselle di controllo nelle righe inattive si attivano e disattivano quando si fa clic sullo spazio bianco nella cella
+-  [Bug 474848] Le anteprime avanzate con griglie non vengono visualizzate
+-  [Bug 474851] I collegamenti ipertestuali nei controlli del gruppo di riferimento non funzionano 
+-  [Bug 471777] Impossibile selezionare i campi in una griglia per modificare o creare un'app per dispositivi mobili
+-  [KB 4569441] Problemi con il rendering di elenchi di schede a più colonne, descrizioni comandi sulle immagini e opzioni di visualizzazione in alcuni campi
+-  [KB 4575279] Non tutte le righe contrassegnate vengono eliminate nel giornale di registrazione generale
+-  [KB 4575233] Le opzioni di visualizzazione non vengono ripristinate dopo lo spostamento in un'altra riga
+-  [KB 4571095] La registrazione della ricevuta del prodotto si verifica quando si preme accidentalmente INVIO (gestione corretta dell'azione predefinita di una pagina)
+-  [KB 4575437] Le ricerche con controlli modificabili si chiudono inaspettatamente
+-  [KB 4569418] Riga duplicata creata nel modulo di programmazione consegna
+-  [KB 4575435] L'anteprima avanzata a volte persiste anche quando il puntatore del mouse non è vicino al campo
+-  [KB 4575434] La ricerca non filtra quando il campo è stato modificato
+-  [KB 4575430] I valori nei campi di password non sono mascherati nella griglia
+-  [KB 4569438] Il messaggio "Elaborazione interrotta a causa di un problema di convalida" viene visualizzato dopo aver contrassegnato le righe durante la liquidazione delle transazioni dei fornitori
+-  [KB 4569434] L'aggiornamento del modulo Persone giuridiche genera un numero inferiore di record
+-  [KB 4575297] Lo stato attivo continua a spostarsi nel riquadro di registrazione attività durante la modifica e la tabulazione in una griglia
+-  [KB 4566773] Transazioni di correzione non visualizzate come negative nella richiesta di informazioni su transazioni giustificativo 
+-  [KB 4575288] Lo stato attivo viene ripristinato sulla riga attiva quando si seleziona il bordo tra le righe in un elenco semplice
+-  [KB 4575287] Lo stato attivo non torna alla prima colonna quando si utilizza la freccia GIÙ per creare una nuova riga nei giornali di registrazione
+-  [KB 4564819] Impossibile eliminare le righe in una fattura a testo libero (perché l'origine dati ChangeGroupMode = ImplicitInnerOuter)
+-  [KB 4563317] Le descrizioni dei comandi/anteprime avanzate non vengono visualizzate per le immagini.
 
 ### <a name="fixed-as-part-of-10012"></a>Cespiti come parte del 10.0.12
 
@@ -158,6 +185,7 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 - [KB 4562647] Lo stato attivo viene ripristinato sul primo controllo nella finestra di dialogo **Pubblica** dopo l'aggiunta di una nuova riga nella griglia dei ruoli di sicurezza.
 - [KB 4563310] L'anteprima avanzata non viene chiusa dopo la modifica di una riga.
 - [KB 4563313] Si verifica un "errore client imprevisto" in Internet Explorer quando un valore è selezionato in una ricerca.
+- [KB 4564557] Le ricerche e i menu a discesa non si aprono in Internet Explorer
 - [KB 4563324] La navigazione non funziona dopo l'apertura dell'area di lavoro **Gestione dipendente**.
 
 ### <a name="fixed-as-part-of-10011"></a>Cespiti come parte del 10.0.11

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770622"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612664"
 ---
 # <a name="process-allocations"></a>Elaborare le allocazioni
 
@@ -34,8 +34,8 @@ Questo articolo fornisce informazioni sulle allocazioni, le opzioni per elaborar
 Le seguenti funzionalità supportano questo processo:
 
 -   Allocare manualmente gli importi delle transazioni utilizzando l'operazione Dividi nelle distribuzioni contabili o applicando i modelli predefiniti di dimensioni finanziarie a un documento. Per ulteriori informazioni, vedere [Distribuzioni contabili](../accounts-payable/accounting-distributions.md).
--   Allocare automaticamente gli importi delle transazioni in base ai termini di allocazione definite in un conto principale. Le voci del conto di allocazione verranno generate per ciascun giornale di registrazione in base alla percentuale e al conto CoGe di destinazione ogni volta che una voce contabile soddisfa i criteri definiti come conto CoGe originale.
--   Allocare automaticamente i saldi contabili o gli importi fissi in base alle regole di allocazione contabile. Le regole di allocazione contabile vengono elaborate su base periodica utilizzando i giornali di registrazione allocazione. 
+-   Allocare automaticamente gli importi delle transazioni in base ai termini di allocazione definite in un conto principale. Le voci del conto di allocazione verranno generate per ciascun giornale di registrazione in base alla percentuale e al conto CoGe di destinazione ogni volta che una voce contabile soddisfa i criteri definiti come conto CoGe originale. Per ulteriori informazioni, vedere [Condizioni di allocazione del conto principale](../general-ledger/main-account-allocation-terms.md).
+-   Allocare automaticamente i saldi contabili o gli importi fissi in base alle regole di allocazione contabile. Le regole di allocazione contabile vengono elaborate su base periodica utilizzando i giornali di registrazione allocazione. Per ulteriori informazioni, vedere [Regole di allocazione](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Allocazioni in fase di pianificazione del budget
 
@@ -43,8 +43,4 @@ Le regole di allocazione contabile possono essere utilizzate per il piano di bud
 
 > [!NOTE]
 > Non è possibile utilizzare le regole di allocazione contabile interaziendali per la pianificazione del budget.
-
-
-
-
 

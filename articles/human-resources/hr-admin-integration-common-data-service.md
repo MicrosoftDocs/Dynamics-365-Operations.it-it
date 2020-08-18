@@ -3,7 +3,7 @@ title: Configurare l'integrazione di Common Data Service
 description: È possibile attivare o disattivare l'integrazione tra Common Data Service e Dynamics 365 Human Resources. È inoltre possibile visualizzare i dettagli di sincronizzazione, cancellare i dati di tracciabilità e sincronizzare di nuovo un'entità per risolvere problemi relativi ai dati tra i due ambienti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431316"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621306"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurare l'integrazione di Common Data Service
 
@@ -66,6 +66,9 @@ In tali casi è possibile che si voglia disattivare l'integrazione:
 - Per disattivare l'integrazione, impostare l'opzione su **No**.
 
 [![Attivare o disattivare l'integrazione con Common Data Service](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Si consiglia vivamente di disattivare l'integrazione Common Data Service durante l'esecuzione di attività di migrazione dei dati. Caricamenti di dati di grandi dimensioni possono influire in modo significativo sulle prestazioni. Ad esempio, il caricamento di 2000 lavoratori può richiedere diverse ore quando l'integrazione è abilitata e meno di un'ora quando è disabilitata. I numeri forniti in questo esempio sono a puro scopo dimostrativo. Il tempo esatto necessario per importare i record può variare notevolmente in base a molti fattori.
 
 ## <a name="view-data-integration-details"></a>Visualizzare i dettagli dell'integrazione dei dati
 

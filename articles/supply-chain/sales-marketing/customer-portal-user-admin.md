@@ -3,7 +3,7 @@ title: Creare e gestire utenti del portale clienti
 description: Questo argomento spiega come creare account utente del portale clienti e impostare le relative autorizzazioni.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413979"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645315"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Creare e gestire utenti del portale clienti
 
@@ -30,11 +30,16 @@ Affinché un utente possa utilizzare un sito Web, è necessario creare un record
 
 Quando gli utenti si autoregistrano, i relativi record di contatto vengono creati automaticamente. Pertanto, non è possibile garantire che un utente selezioni l'account cliente e la persona giuridica corretti. D'altra parte, il processo di invito consente a un amministratore di assegnare l'account cliente e la persona giuridica corretti al record di contatto prima di inviare un invito. Se si intende personalizzare la soluzione di modo che gli utenti possano autoregistrarsi, considerare le possibili conseguenze.
 
+## <a name="video"></a>Video 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+Il video su come [invitare i clienti a registrarsi e utilizzare il portale per i clienti](https://youtu.be/drGUYHX9QIQ) (mostrato in precedenza) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+
 ## <a name="prerequisite-setup"></a>Configurazione dei prerequisiti
 
 I contatti nei portali Power Apps sono memorizzati come record nell'entità **Contatti** in Common Data Service. La doppia scrittura quindi sincronizza questi record con Microsoft Dynamics 365 Supply Chain Management come necessario.
 
-![![Diagramma di sistema per i contatti del portale clienti](media/customer-portal-contacts.png "Diagramma di sistema per i contatti del portale clienti")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Diagramma di sistema per i contatti del portale clienti](media/customer-portal-contacts.png "Diagramma di sistema per i contatti del portale clienti")
 
 Prima di iniziare a invitare nuovi clienti, assicurarsi di aver abilitato il mapping dell'entità **Contatto** in doppia scrittura.
 

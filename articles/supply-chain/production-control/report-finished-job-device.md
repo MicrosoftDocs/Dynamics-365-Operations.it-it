@@ -3,7 +3,7 @@ title: Dichiarazione di finito dal dispositivo scheda processo
 description: In questo argomento viene descritto come configurare il sistema di modo che gli utenti di un dispositivo scheda processo possano dichiarare finiti i prodotti da un ordine di produzione all'inventario.
 author: johanhoffmann
 manager: tfehr
-ms.date: 05/18/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,19 +15,24 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f5d34893ddc8adc3785ec50dbd72438cf8f68c5d
-ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 6ba5d8bc0c22f97e6d2ce61c636090e04fae5abd
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3403264"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651618"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Dichiarazione di finito dal dispositivo scheda processo
 
 [!include [banner](../includes/banner.md)]
 
-I lavoratori usano la pagina **Segnala stato** nel dispositivo scheda processo per dichiarare le quantità che sono state completate per un processo di produzione.
+I lavoratori usano la pagina **Segnala stato** nel dispositivo scheda processo per dichiarare le quantità che sono state completate per un processo di produzione. Questo argomento descrive come configurare varie opzioni che stabiliscono in che modo i lavoratori possono dichiarare come finito utilizzando questa pagina e cosa succede dopo. Di seguito sono elencate le opzioni disponibili:
+
+- Controllare se e come le quantità dichiarate finite vengono aggiunte all'inventario.
+- Controllare se e come i numeri di batch vengono generati e applicati al momento della dichiarazione come finito.
+- Controllare se e come i numeri di serie vengono generati e applicati al momento della dichiarazione come finito.
+- Controllare se e come dichiarare come finito su una targa.
 
 ## <a name="control-whether-quantities-that-are-reported-as-finished-are-added-to-inventory"></a>Controllare se le quantità dichiarate finite vengono aggiunte all'inventario
 
@@ -54,7 +59,17 @@ Il dispositivo scheda processo supporta tre scenari per la dichiarazione di arti
 - **Numeri di batch predefiniti:** i lavoratori selezionano un numero di batch in un elenco di numeri di batch che il sistema genera automaticamente prima che l'ordine di produzione venga rilasciato al dispositivo scheda processo.
 - **Numeri di batch fissi:** i lavoratori non inseriscono o selezionano un numero di batch. Il sistema assegna automaticamente un numero di batch all'ordine di produzione prima che venga rilasciato.
 
-Per abilitare ogni scenario, attenersi alla procedura seguente.
+
+### <a name="enable-the-feature-on-your-system"></a>Abilitare la funzionalità nel sistema
+
+Per consentire ai dispositivi scheda processo di accettare un numero di batch durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
+
+1. Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo
+1. Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo (anteprima)
+
+### <a name="configure-products-that-require-batch-number-reporting"></a>Configurare i prodotti che richiedono la segnalazione del numero di batch
+
+Per consentire a un prodotto di supportare uno qualsiasi degli scenari disponibili controllati in batch, attenersi alla seguente procedura:
 
 1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
 1. Selezionare il prodotto da configurare.
@@ -63,14 +78,7 @@ Per abilitare ogni scenario, attenersi alla procedura seguente.
 > [!NOTE]
 > Per impostazione predefinita, se nessun gruppo di numeri di batch è assegnato a un prodotto controllato in batch, il dispositivo scheda processo fornisce l'inserimento manuale del numero di batch durante la dichiarazione di finito.
 
-Le seguenti sottosezioni descrivono come impostare gruppi di numeri di tracciamento per supportare ciascuno dei tre scenari per la dichiarazione di articoli batch.
-
-### <a name="enable-batch-number-reporting-on-the-job-card-device"></a>Abilitare la dichiarazione di numeri di batch nel dispositivo scheda processo
-
-Per consentire ai dispositivi scheda processo di accettare un numero di batch durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
-
-1. Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo
-1. Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo (anteprima)
+Le seguenti sezioni descrivono come impostare gruppi di numeri di tracciamento per supportare ciascuno dei tre scenari per la dichiarazione di articoli batch.
 
 ### <a name="set-up-a-tracking-number-group-that-lets-workers-manually-assign-a-batch-number"></a>Configurare un gruppo di numeri di tracciamento che consente ai lavoratori di assegnare manualmente un numero di batch
 
@@ -80,7 +88,7 @@ Per consentire numeri di batch assegnati manualmente, seguire questi passaggi pe
 1. Creare o selezionare il gruppo di numeri di tracciamento da configurare.
 1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Manuale** su **Sì**.
 
-    ![Pagina Gruppi di numeri di tracciamento](media/tracking-number-group-manual.png "Pagina Gruppi di numeri di tracciamento")
+    ![Un gruppo di numeri di tracciamento per numeri di batch manuali](media/tracking-number-group-manual.png "Un gruppo di numeri di tracciamento per numeri di batch manuali")
 
 1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di batch per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
 
@@ -97,7 +105,7 @@ Per fornire un elenco di numeri di batch predefiniti, seguire questi passaggi pe
 1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Solo per operazioni di magazzino** su **Sì**.
 1. Utilizzare il campo **Per qtà** per dividere i numeri di batch per quantità, in base al valore inserito. Ad esempio, si ha un ordine di produzione per dieci pezzi e il campo **Per qtà** è impostato su *2*. In questo caso, cinque numeri di batch verranno assegnati all'ordine di produzione quando questo viene creato.
 
-    ![Pagina Gruppi di numeri di tracciamento](media/tracking-number-group-predefined.png "Pagina Gruppi di numeri di tracciamento")
+    ![Un gruppo di numeri di tracciamento per numeri di batch predefiniti](media/tracking-number-group-predefined.png "Un gruppo di numeri di tracciamento per numeri di batch predefiniti")
 
 1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di batch per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
 
@@ -114,13 +122,96 @@ Se i numeri di batch devono essere assegnati automaticamente, senza input del la
 1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Solo per operazioni di magazzino** su **No**.
 1. Impostare l'opzione **Manuale** su **No**.
 
-    ![Pagina Gruppi di numeri di tracciamento](media/tracking-number-group-fixed.png "Pagina Gruppi di numeri di tracciamento")
+    ![Un gruppo di numeri di tracciamento per numeri di batch fissi](media/tracking-number-group-fixed.png "Un gruppo di numeri di tracciamento per numeri di batch fissi")
 
 1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di batch per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
 
 Quando si utilizza questo scenario, il campo **Numero batch** nella pagina **Segnala stato** nel dispositivo scheda processo mostra un valore che i lavoratori non possono modificare.
 
 ![Pagina Segnala stato con un numero di batch fisso](media/job-card-device-batch-fixed.png "Pagina Segnala stato con un numero di batch fisso")
+
+## <a name="report-serial-controlled-items-as-finished"></a>Dichiarare finiti articoli controllati in serie
+
+Il dispositivo scheda processo supporta tre scenari per la dichiarazione di articoli controllati in serie. Questi scenari si applicano sia agli articoli abilitati per processi di magazzino avanzati sia agli articoli non abilitati per processi di magazzino avanzati.
+
+- **Numeri di serie assegnati manualmente:** i lavoratori inseriscono un numero di serie personalizzato. Questo numero di serie potrebbe provenire da una fonte esterna non nota al sistema.
+- **Numeri di serie predefiniti:** i lavoratori selezionano un numero di serie in un elenco di numeri di serie che il sistema genera automaticamente prima che l'ordine di produzione venga rilasciato al dispositivo scheda processo.
+- **Numeri di serie fissi:** i lavoratori non inseriscono o selezionano un numero di serie. Il sistema assegna automaticamente un numero di serie all'ordine di produzione prima che venga rilasciato.
+
+### <a name="enable-the-feature-on-your-system"></a>Abilitare la funzionalità nel sistema
+
+Per consentire ai dispositivi scheda processo di accettare un numero di serie durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
+
+1. Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo
+1. Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo (anteprima)
+
+### <a name="configure-products-that-require-serial-number-reporting"></a>Configurare i prodotti che richiedono la segnalazione del numero di serie
+
+Per consentire a un prodotto di supportare uno qualsiasi degli scenari disponibili controllati in serie, attenersi alla seguente procedura:
+
+Per abilitare ogni scenario, attenersi alla procedura seguente.
+
+1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Selezionare il prodotto da configurare.
+1. Nella Scheda dettaglio **Gestione articoli**, nel campo **Gruppo numeri di serie**, selezionare il gruppo di numeri di tracciamento impostato per supportare lo scenario.
+
+> [!NOTE]
+> Per impostazione predefinita, se nessun gruppo di numeri di serie è assegnato a un prodotto controllato in serie, il dispositivo scheda processo fornisce l'inserimento manuale del numero di serie durante la dichiarazione di finito.
+
+Le seguenti sezioni descrivono come impostare gruppi di numeri di tracciamento per supportare ciascuno dei tre scenari per la dichiarazione di articoli controllati in serie.
+
+### <a name="set-up-a-tracking-number-group-that-lets-workers-manually-assign-a-serial-number"></a>Configurare un gruppo di numeri di tracciamento che consente ai lavoratori di assegnare manualmente un numero di serie
+
+Per consentire numeri di serie assegnati manualmente, seguire questi passaggi per impostare un gruppo di numeri di tracciamento:
+
+1. Andare a **Gestione articoli \> Impostazioni \> Dimensioni \> Gruppi di numeri di tracciamento**.
+1. Creare o selezionare il gruppo di numeri di tracciamento da configurare.
+1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Manuale** su **Sì**.
+
+    ![Pagina dei gruppi di numeri di tracciamento, numeri di serie](media/tracking-number-group-manual-serial.png "Pagina dei gruppi di numeri di tracciamento, numeri di serie")
+
+1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di serie per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
+
+Quando si utilizza questo scenario, il campo **Numero di serie** nella pagina **Segnala stato** nel dispositivo scheda processo è una casella di testo in cui i lavoratori possono immettere qualsiasi valore per il numero di serie. Inserendo un valore, questo viene aggiunto all'elenco dei numeri di serie. In questo elenco, i lavoratori possono effettuare le seguenti operazioni:
+
+- Per contrassegnare un numero di serie come scartato, selezionare il pulsante **Scarti** per la riga appropriata. Al lavoratore verrà richiesto di fornire una **Causa dell'errore**.
+- Per eliminare un numero di serie, selezionare il pulsante **Elimina** per la riga appropriata.
+
+![Pagina Segnala stato con un campo per i numeri di serie manuali](media/job-card-device-serial-manual.png "Pagina Segnala stato con un campo per i numeri di serie manuali")
+
+### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Configurare un gruppo di numeri di tracciamento che fornisce un elenco di numeri di serie predefiniti
+
+Per fornire un elenco di numeri di serie predefiniti, seguire questi passaggi per configurare un gruppo di numeri di tracciamento.
+
+1. Andare a **Gestione articoli \> Impostazioni \> Dimensioni \> Gruppi di numeri di tracciamento**.
+1. Creare o selezionare il gruppo di numeri di tracciamento da configurare.
+1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Solo per operazioni di magazzino** su **Sì**.
+1. Utilizzare il campo **Per qtà** per dividere i numeri di serie per quantità di uno.
+
+    ![Un gruppo di numeri di tracciamento per numeri di serie predefiniti](media/tracking-number-group-predefined-sn.png "Un gruppo di numeri di tracciamento per numeri di serie predefiniti")
+
+1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di serie per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
+
+Quando si utilizza questo scenario, il campo **Numero di serie** nella pagina **Segnala stato** nel dispositivo scheda processo è un elenco a discesa in cui i lavoratori possono selezionare un valore predefinito.
+
+![Pagina Segnala stato con un elenco di numeri di serie predefiniti](media/job-card-device-serial-predefined.png "Pagina Segnala stato con un elenco di numeri di serie predefiniti")
+
+### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Configurare un gruppo di numeri di tracciamento che assegna automaticamente numeri di serie
+
+Se un numero di serie deve essere assegnati automaticamente, senza input del lavoratore, seguire questi passaggi per configurare un gruppo di numeri di tracciamento.
+
+1. Andare a **Gestione articoli \> Impostazioni \> Dimensioni \> Gruppi di numeri di tracciamento**.
+1. Creare o selezionare il gruppo di numeri di tracciamento da configurare.
+1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Solo per operazioni di magazzino** su **No**.
+1. Impostare l'opzione **Manuale** su **No**.
+
+    ![Un gruppo di numeri di tracciamento per numeri di serie fissi](media/tracking-number-group-fixed-sn.png "Un gruppo di numeri di tracciamento per numeri di serie fissi")
+
+1. Impostare altri valori come necessario, quindi selezionare questo gruppo di numeri di tracciamento come gruppo di numeri di serie per i prodotti rilasciati per i quali si desidera utilizzare questo scenario.
+
+Quando si utilizza questo scenario, il campo **Numero di serie** nella pagina **Segnala stato** nel dispositivo scheda processo mostra un valore che i lavoratori non possono modificare. Questo scenario è rilevante solo quando viene creato un ordine di produzione per una quantità di un pezzo di un articolo controllato in serie.
+
+![Pagina Segnala stato con un numero di serie fisso](media/job-card-device-serial-fixed.png "Pagina Segnala stato con un numero di serie fisso")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Dichiarazione di finito per una targa
 

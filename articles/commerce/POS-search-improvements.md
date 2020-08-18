@@ -3,7 +3,7 @@ title: Ricerca di prodotti e di clienti nel POS
 description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022986"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628911"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -95,6 +95,9 @@ In una ricerca cliente remota, l'ID cliente non è visualizzato per i clienti di
 
 Sono state semplificate le ricerche che si basano sul numero di telefono. Queste ricerche ignorano ora i caratteri speciali, ad esempio spazi, trattini e parentesi, che potrebbero essere stati aggiunti al momento della creazione del cliente. Di conseguenza, i cassieri non devono preoccuparsi del formato del numero di telefono durante la ricerca. Possono inoltre cercare i clienti digitando parte del numero di telefono. Se un numero di telefono include caratteri speciali, può essere trovato anche cercando nei numeri che vengono visualizzati dopo i caratteri speciali. Ad esempio, se il numero di telefono di un cliente è stato immesso come **123-456-7890**, un cassiere può cercare il cliente digitando **123**, **456**, **7890** o **1234567890** oppure digitando le prime cifre del numero di telefono.
 
+> [!NOTE]
+> Un cliente può avere più numeri di telefono e più indirizzi e-mail. L'algoritmo di ricerca del cliente cerca anche attraverso questi indirizzi e-mail e numeri di telefono secondari, ma la pagina dei risultati di ricerca del cliente mostra solo l'indirizzo e-mail e il numero di telefono principali. Ciò può causare confusione poiché i risultati dei clienti restituiti non mostrerebbero l'indirizzo e-mail o il numero di telefono cercato. In una versione futura intendiamo migliorare la schermata dei risultati di ricerca dei clienti per mostrare queste informazioni.
+
 La ricerca tradizionale dei clienti può richiedere molto tempo, poiché esegue la ricerca in più campi. I cassieri possono ora effettuare una ricerca in una singola proprietà del cliente, ad esempio il nome, l'indirizzo di posta elettronica o il numero di telefono. Le proprietà dell'algoritmo di ricerca del cliente sono collettivamente note come *criteri di ricerca del cliente*. L'amministratore di sistema può facilmente configurare uno o più criteri come collegamenti da visualizzare nel POS. Poiché la ricerca è limitata a un unico criterio, vengono visualizzati solo i risultati della ricerca pertinenti, pertanto le prestazioni sono molto superiori rispetto a quelle di una ricerca standard del cliente. La figura riportata di seguito mostra i collegamenti di ricerca del cliente nel POS.
 
 ![Collegamenti di ricerca del cliente](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
@@ -114,3 +117,4 @@ Il campo **Ordine di visualizzazione** determina l'ordine in cui i collegamenti 
 In una versione futura di Commerce, i rivenditori potranno impostare la modalità di ricerca clienti predefinita in POS su **Cerca in tutti i punti vendita**. Questa configurazione può risultare utile in scenari in cui la ricerca di clienti creati al di fuori di POS deve essere eseguita immediatamente (ad esempio anche prima del processo di distribuzione). Una nuova opzione **Modalità di ricerca di clienti predefinita** sarà disponibile nel profilo funzionalità POS. Impostarla su **On** per impostare la modalità di ricerca predefinita su **Cerca in tutti i punti vendita**. Ogni tentativo di ricerca di clienti eseguirà quindi una chiamata in tempo reale alla sede centrale.
 
 Per impedire problemi imprevisti relativi alle prestazioni, questa configurazione è nascosta dietro a un flighting flag denominato **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Pertanto, per visualizzare l'impostazione **Modalità di ricerca di clienti predefinita** nell'interfaccia utente, il rivenditore deve creare una richiesta di supporto per il relativo test di accettazione utente (UAT) e gli ambienti di produzione. Dopo il ricevimento della richiesta, il team di progettazione collaborerà con il rivenditore per assicurare che questi esegua il test nei relativi ambienti non di produzione per valutare le prestazioni e implementare le eventuali ottimizzazioni necessarie.
+

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546440"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640401"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurare sequenze numeriche per flussi di magazzino
 
@@ -36,7 +36,7 @@ Questa soluzione aggiunge le seguenti funzionalità:
 - Gli ID polizza di carico possono essere generati in anticipo.
 - È possibile generare una sequenza numerica univoca per i numeri SSCC.
 - È possibile creare sequenze numeriche conformi a GS1 per numeri di polizza di carico e SSCC. La funzionalità aggiunge supporto predefinito per ID targa, ID contenitore, ID etichetta ondata e ID polizza di carico.
-- La configurazione dei numeri ID targa è flessibile. Ad esempio, è possibile includere o escludere l'intelligenza artificiale (IA), come gli zeri iniziali (00).
+- La configurazione dei numeri ID targa è flessibile. Ad esempio, è possibile includere o escludere gli identificatori dell'applicazione, come gli zeri iniziali (00).
 
 Questa funzionalità rende più efficiente il supporto dell'etichettatura di cartoni e la regolazione di nuovi numeri generati dal sistema.
 

@@ -3,7 +3,7 @@ title: Previsione di cassa
 description: In questo argomento viene fornita una panoramica del processo di previsione di cassa. E viene illustrato come la previsione di cassa è integrata con altri moduli nel sistema.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188420"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653778"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
@@ -104,7 +104,14 @@ Calcolare la previsione di cassa utilizzando la pagina **Calcola previsioni di c
 
 È inoltre possibile utilizzare l'elaborazione batch per le previsioni di cassa. Per contribuire a garantire che l'analisi dei dati di previsione sia aggiornata regolarmente, impostare un processo batch ricorrente per il calcolo delle previsioni di cassa.
 
-### <a name="reporting"></a>Report
+Nella versione 10.0.13, è stato rilasciato un miglioramento del processo di calcolo che utilizza il framework di automazione del processo per pianificare il processo di calcolo del flusso di cassa. Questo viene abilitato utilizzando la funzionalità **Automazione della previsione del flusso di cassa** nell'area di lavoro **Gestione funzionalità**. Una volta abilitato, selezionare il collegamento **Automazione della previsione del flusso di cassa** per visualizzare la nuova pagina di automazione in cui è possibile pianificare il processo di calcolo del flusso di cassa. Per creare un nuovo programma di previsione del flusso di cassa, selezionare **Crea nuova automazione di processo** e quindi selezionare **Automazione della previsione del flusso di cassa** nel menu a discesa **Tipo di pianificazione**. È necessario impostare una pianificazione per ciascuna società per la quale si stanno aggiornando i dati di previsione del flusso di cassa.  Questa pagina mostra anche quali processi di automazione della previsione del flusso di cassa sono in sospeso e quando è stato completato l'ultimo processo.  
+
+> [!NOTE] 
+> Se i processi batch esistenti sono già pianificati per le previsioni del flusso di cassa, riceverai un messaggio di errore e non potrai abilitare questa funzionalità. I processi batch esistenti dovranno essere cancellati prima di poter abilitare questa funzionalità. 
+
+Per ulteriori informazioni, vedere [Automazione dei processi](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+
+### <a name="reporting"></a>Reporting
 
 Dopo che la previsione di cassa viene calcolata, è necessario aggiornare le informazioni di entità associate per il reporting analitico. Nella pagina **Archivio entità**, selezionare la misura di aggregazione **LedgerCovLiquidityMeasurement** e fare clic su **Aggiorna**.
 
@@ -128,7 +135,7 @@ L'area di lavoro **Panoramica situazione di cassa - tutte le società** mostra l
 
 L'area di lavoro **Panoramica situazione di cassa - società corrente** mostra l'analisi di previsione di cassa nella valuta di contabilizzazione definita della società. La valuta di contabilizzazione utilizzata per l'analisi è definita nella pagina **Contabilità generale**. Questa area di lavoro visualizza una panoramica dei saldi del conto bancario e delle previsioni di cassa per la società corrente. Un grafico delle entrate e delle uscite di cassa fornisce una panoramica dei saldi e dei movimenti di cassa futuri nella valuta di contabilizzazione, insieme a informazioni dettagliate sulle transazioni previsionali. È inoltre possibile vedere i saldi previsti in valuta.
 
-Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento del contenuto di Power BI della panoramica situazione di cassa.
+Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento [Contenuto di Power BI della panoramica situazione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordini e articoli specifici nelle pagine seguenti:
 

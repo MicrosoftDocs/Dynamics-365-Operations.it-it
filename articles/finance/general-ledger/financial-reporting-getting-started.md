@@ -3,7 +3,7 @@ title: Panoramica sulla creazione di report finanziari
 description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609591"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618040"
 ---
 # <a name="financial-reporting-overview"></a>Panoramica sulla creazione di report finanziari
 
@@ -87,24 +87,16 @@ Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve pot
 ## <a name="report-deletions-and-expirations"></a>Report di eliminazioni e scadenze
 Gli utenti che generano un report possono eliminare i propri report. Gli utenti con i diritti **Gestisci sicurezza dei report finanziari** possono eliminare i report di altri. 
 
-A partire dalla versione 10.0.7 è stato introdotto il concetto di date di scadenza. Una nuova funzionalità necessaria verrà abilitata nell'area di lavoro di gestione delle funzionalità. Questa funzionalità contiene le seguenti modifiche:
-
-* I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati.
-* In tutti i report esistenti precedenti all'installazione della funzionalità verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
-* Gli utenti con **Gestisci sicurezza dei report finanziari** hanno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di ritenuta:
-   * Una scadenza di 90 giorni
-   * Un'opzione per impostare il report in modo che non scada mai
-
-Quando viene selezionata una scadenza come 90 giorni, vengono applicati 90 giorni a partire da oggi, che è un comportamento diverso rispetto ai 90 giorni dalla data di generazione originale impostati durante la generazione del report. Nella versione 10.0.8 è stato introdotto il concetto di date di scadenza. Una nuova funzione richiesta è abilitata nella pagina **Tutti** all'interno dell'area di lavoro Gestione funzionalità. La funzionalità **Criteri di conservazione dei report finanziari** contiene le seguenti modifiche:
+Nella versione 10.0.8 è stato introdotto il concetto di date di scadenza. Una nuova funzione richiesta è abilitata nella pagina **Tutti** all'interno dell'area di lavoro Gestione funzionalità. La funzionalità **Criteri di conservazione dei report finanziari** contiene le seguenti modifiche:
 * I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati
 * In tutti i report esistenti precedenti all'installazione della funzionalità verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
 * Gli utenti con **Gestisci sicurezza dei report finanziari** avranno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di ritenuta: 
   * Una scadenza di 90 giorni.
   * Un'opzione per impostare il report in modo che non scada mai.
   
-Ulteriori opzioni saranno prese in considerazione in future funzionalità. La scadenza di 90 giorni sarà quella predefinita e gli utenti con appropriate autorizzazioni potranno sovrascrivere il valore predefinito sulla pagina elenco **Report finanziari**.    
+Quando viene selezionata una scadenza, ad esempio 90 giorni, viene applicata tra 90 giorni a partire da oggi. Si tratta di un comportamento diverso rispetto ai 90 giorni dalla data di generazione originale impostata al momento della generazione del report. 
   
-Quando viene selezionata una scadenza come 90 giorni vengono concessi 90 giorni a partire da oggi, che è un comportamento diverso rispetto ai 90 giorni dalla data di generazione originale impostati durante la generazione del report. 
+Ulteriori opzioni saranno prese in considerazione in future funzionalità. La scadenza di 90 giorni sarà quella predefinita e gli utenti con appropriate autorizzazioni potranno sovrascrivere il valore predefinito sulla pagina elenco **Report finanziari**.    
 
 ## <a name="default-reports"></a>Report predefiniti
 Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizza le categorie di conti principali predefinite. È possibile utilizzare questi report come sono o come punto di partenza per i report finanziari necessari. Oltre ai rendiconti finanziari tradizionali, ad esempio il conto economico e lo stato patrimoniale, questi report predefiniti includono report che illustrano i diversi tipi di report finanziari che è possibile creare. 

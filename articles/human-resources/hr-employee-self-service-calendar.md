@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429660"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628431"
 ---
 # <a name="view-team-and-company-calendars"></a>Visualizzare i calendari per team e società
 
@@ -33,15 +33,13 @@ ms.locfileid: "3429660"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Visualizzare il calendario del team come dipendente
 
-1. Nell'area di lavoro **Dipendente self-service**, selezionare **Team personale**.
-
-2. Selezionare **Congedo e assenza**, quindi selezionare **Visualizza calendario di team**.
+1. Nell'area di lavoro **Dipendente self-service**, selezionare **Calendario assenze team** in **Riepilogo**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Visualizzare il calendario del team come responsabile
 
 1. Nell'area di lavoro **Dipendente self-service**, selezionare **Team personale**.
 
-2. Selezionare **Congedo e assenza**, quindi selezionare **Visualizza calendario di team**.
+2. Selezionare **Congedo e assenza**, quindi selezionare **Visualizza calendario assenze responsabile**.
 
 I responsabili possono accedere al calendario del team anche da **Richieste di permesso in sospeso per il team**, **Permesso approvato** e **Richieste di permesso**. 
 

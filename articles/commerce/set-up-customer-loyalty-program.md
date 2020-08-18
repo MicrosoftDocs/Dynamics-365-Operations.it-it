@@ -3,7 +3,7 @@ title: Panoramica fedeltà
 description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Dynamics 365 Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023078"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613205"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
@@ -55,7 +55,7 @@ Nella seguente tabella viene descritto ciascun componente e viene indicato dove 
 | Impostare gli sconti (prerequisito)                  | Impostare gli sconti offerti ai clienti del programma fedeltà. Ad esempio, il 5 percento di sconto su tutti i prodotti di abbigliamento. | È necessario aggiungere gli sconti ai gruppi di prezzi per poterli includere in un programma fedeltà. I gruppi di prezzi vengono assegnati ai programmi fedeltà e ai livelli di fedeltà. |
 | Impostare i gruppi di prezzi (prerequisito)               | I gruppi di prezzi sono utilizzati per creare e gestire i prezzi e gli sconti per i prodotti. Impostare i gruppi di prezzi che includono gli sconti applicabili ai programmi fedeltà. | I gruppi di prezzi vengono assegnati ai programmi fedeltà e ai relativi livelli. |
 | Impostare i canali (prerequisito)                   | I canali di commercio sono i punti vendita che partecipano ai programmi fedeltà, ad esempio un punto vendita fisico, un negozio online o un servizio clienti. È necessario impostare i canali prima di poter assegnare i relativi programmi fedeltà. | Assegnare i canali a un programma fedeltà se il canale partecipa al programma fedeltà. |
-| Impostare il metodo di pagamento del programma fedeltà (prerequisito) | È necessario impostare un metodo di pagamento prima di poter utilizzare una carta fedeltà nel registratore di cassa e di poter riscattare i punti fedeltà come parte di un programma fedeltà. È inoltre necessario aggiungere il metodo di pagamento del programma fedeltà al canale prima che i clienti possano riscattare i propri punti del programma fedeltà per pagare i prodotti. | Impostare un metodo di pagamento del tipo carta fedeltà, quindi assegnare il metodo di pagamento del programma fedeltà ai canali che partecipano al programma fedeltà. |
+| Impostare il metodo di pagamento del programma fedeltà (prerequisito) | Per garantire che i punti fedeltà possano essere riscattati in qualsiasi canale, come punti vendita fisici, punti vendita online o call center, è necessario configurare l'intervallo di contenito per le carte fedeltà nella pagina **Numeri di carta**. | Impostare un metodo di pagamento del tipo carta fedeltà, quindi assegnare il metodo di pagamento del programma fedeltà ai canali che partecipano al programma fedeltà. |
 | Impostare gli intervalli di date                            | Gli intervalli di date forniscono un metodo flessibile di impostazione dell'intervallo di tempo che si applica ai livelli di fedeltà. Utilizzare gli intervalli di date per specificare il tempo di permanenza di un cliente in un livello o il tempo previsto per il completamento di un'attività e passare al livello successivo. | Gli intervalli di date sono applicabili solo se si utilizzano i livelli nei programmi fedeltà. Selezionare l'intervallo di date applicabile ai livelli di programma e anche gli intervalli di date che si applicano alle regole del livello programma. |
 | Impostare i punti premio                             | I punti premio sono i tipi di premio che si offrono ai clienti. I punti premio possono essere riscattabili o non riscattabili. I punti premio riscattabili possono essere scambiati con i prodotti. I punti premio non riscattabili vengono utilizzati a scopo di tracciabilità o per far passare un cliente al livello successivo in un programma fedeltà. | Ci si riferisce ai punti premio nelle regole di livello e vengono utilizzati per qualificare un cliente per un livello specifico. Ci si riferisce ai punti premio anche negli schemi del programma fedeltà nelle regole di acquisizione e di rimborso. Nelle regole di acquisizione, vengono specificati i premi che un cliente può ottenere per un'attività specifica. Nelle regole di rimborso, specificare il premio che il cliente può riscattare. |
 | Impostare programmi fedeltà                          | I programmi fedeltà sono l'entità principale del programma fedeltà offerto. Ogni programma fedeltà può anche avere livelli di fedeltà assegnati. Gli sconti e i gruppi di prezzi vengono assegnati ai programmi fedeltà in base al programma o al livello. | Creare gli schemi di fedeltà per i programmi fedeltà. Assegnare le carte fedeltà ai programmi fedeltà, sarà quindi possibile assegnarle a un cliente. I canali partecipano ai programmi fedeltà assegnati agli schemi del programma fedeltà. Tutti i clienti che possiedono una carta fedeltà possono partecipare ai programmi fedeltà assegnati alla carta. |

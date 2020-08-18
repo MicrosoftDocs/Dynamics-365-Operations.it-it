@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606824"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651668"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -38,8 +38,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.13 delle app Finance and Operations
 
 > [!NOTE]
-> La versione 10.0.13 non è stata ancora rilasciata. Queste informazioni vengono fornite solo per scopi di pianificazione. Il contenuto e la funzionalità della versione 10.0.13 sono soggetti a modifiche. Per ulteriori informazioni sulle versioni, vedi [Disponibilità degli aggiornamenti del servizio](../../fin-ops/get-started/public-preview-releases.md).
-
+> La versione 10.0.13 è una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Aggiornamento di tre librerie dei componenti jQuery 
 
@@ -50,6 +49,27 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Aree del prodotto interessate**         | Controlli estensibili, in particolare codice JavaScript personalizzato che utilizza API obsolete o rimosse |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Con la versione 10.0.13/Aggiornamento della piattaforma 37, i clienti possono facoltativamente passare alle librerie più recenti abilitando la funzione "Aggiorna tre librerie dei componenti jQuery". Il passaggio alle nuove librerie sarà obbligatorio con la versione di aprile 2021 per consentire il tempo necessario per la migrazione delle API interessate.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>API controllo griglia/forceLegacyGrid() esistente
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il controllo griglia esistente viene sostituito dal nuovo controllo griglia. |
+| **Sostituita da un'altra funzionalità?**   | Il [nuovo controllo della griglia](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Nella versione 10.0.13, il nuovo controllo della griglia è generalmente disponibile e i clienti possono facoltativamente attivare questa funzione. Il nuovo controllo della griglia diventerà obbligatorio nella versione di ottobre 2021. Quando il nuovo controllo della griglia diventa obbligatorio, l'API **forceLegacyGrid()** non sarà più rispettata. |
+
+### <a name="personalization-without-saved-views"></a>Personalizzazione senza visualizzazioni salvate 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Il sottosistema di personalizzazione è stato revisionato con la funzione di visualizzazioni salvate, in modo che abbia prestazioni migliori e offra funzionalità aggiuntive. |
+| **Sostituita da un'altra funzionalità?**   | Visualizzazioni salvate |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Nella versione 10.0.13/Platform update 37, la funzione delle visualizzazioni salvate è generalmente disponibile e i clienti possono facoltativamente attivare questa funzione. La funzionalità delle visualizzazioni salvate diventerà obbligatoria nella versione di ottobre 2021. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations
 

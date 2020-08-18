@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542126"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652061"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.12. Questa versione ha il numero di build 10.0.507 ed è disponibile come segue:
 
@@ -39,15 +38,15 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
-- [Consentire il blocco del touchscreen della scheda processo per la purificazione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - Per ulteriori informazioni, vedere [Configurare la scheda processo per dispositivi](../production-control/config-job-card-device.md).
-- [Acquisire varianti di prodotto e dimensioni di tracciabilità nell'app di magazzino durante il ricevimento degli articoli caricati](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - Per ulteriori informazioni, vedere [Impostare i dispositivi mobili per il lavoro di magazzino](../warehousing/configure-mobile-devices-warehouse.md).
-- Livello di calcolo dei costi (nuovo livello DBA) - Per ulteriori informazioni, consultare [Livello di calcolo dei costi](../cost-management/cost-calculation-level.md).
-- [Portale clienti per Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - Per ulteriori informazioni, vedere [Panoramica del portale clienti per Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [Informazioni dettagliate su Intelligence IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - Per ulteriori informazioni, vedere [Home page di IoT Intelligence](../iot/iot-intelligence-home-page.md).
-- [Miglioramenti del ricevimento della targa per l'app di magazzino (continua)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - Per ulteriori informazioni, vedere [Ricevimento della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Distribuzione di massa per Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - Per ulteriori informazioni, vedere [Panoramica sull'installazione e la configurazione dell'app di magazzino](../warehousing/install-configure-warehousing-app.md).
-- [Tempo massimo di esecuzione per il processo di pulizia delle voci disponibili per la gestione del magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
-- [Supporto per l'ottimizzazione della pianificazione per gli accordi commerciali di acquisto](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - Per ulteriori informazioni, vedere [Pianificazione generale con accordi commerciali di acquisto](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Consentire il blocco del touchscreen della scheda processo per la disinfettazione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Per ulteriori informazioni, vedere [Configurare la scheda processo per dispositivi](../production-control/config-job-card-device.md).
+- [Acquisire varianti di prodotto e dimensioni di tracciabilità nell'app di magazzino durante la ricezione degli articoli caricati](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Per ulteriori informazioni, vedere [Impostare i dispositivi mobili per il lavoro di magazzino](../warehousing/configure-mobile-devices-warehouse.md).
+- Livello di calcolo costi (nuovo livello DBA)<br> - Per ulteriori informazioni, vedere [Livello di calcolo costi](../cost-management/cost-calculation-level.md).
+- [Portale clienti per Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Per ulteriori informazioni, vedere [Panoramica del portale clienti per Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Informazioni dettagliate di base di intelligenza IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Per ulteriori informazioni, vedere [Home page intelligence IoT](../iot/iot-intelligence-home-page.md).
+- [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedere [Ricevimento della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Distribuzione di massa dell'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedere [Panoramica sull'installazione e sulla configurazione dell'app di magazzino](../warehousing/install-configure-warehousing-app.md).
+- [Tempo di esecuzione massimo per il processo di pulizia voci disponibili di gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
+- [Supporto di Ottimizzazione pianificazione per i contratti di acquisto commerciali](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Per ulteriori informazioni, vedere [Pianificazione generale con accordi commerciali di acquisto](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
