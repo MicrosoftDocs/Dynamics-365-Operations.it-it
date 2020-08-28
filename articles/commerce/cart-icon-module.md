@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411091"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661149"
 ---
 # <a name="cart-icon-module"></a>Modulo Icona carrello
 
@@ -42,22 +42,22 @@ L'immagine seguente mostra un esempio di un modulo Icona carrello che visualizza
 
 - **Mostra mini carrello** - Se impostata su vero, questa proprietà consente di visualizzare un riepilogo del carrello (mini carrello) quando si passa con il mouse sull'icona del carrello. Questa funzionalità è supportata solo per le porte di visualizzazione desktop.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Aggiungere un modulo Icona carrello a una pagina
 
 Per aggiungere un modulo Icona carrello, vedere [Modulo Intestazione](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Modulo Casella acquisti](add-buy-box.md)
+[Modulo carrello](add-cart-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
+[Modulo Pagamento](payment-module.md)
 
-[Modulo Conferma ordine](order-confirmation-module.md)
+[Modulo Indirizzo di spedizione](ship-address-module.md)
 
-[Modulo Intestazione](author-header-module.md)
+[Modulo Opzioni di consegna](delivery-options-module.md)
 
-[Modulo Piè di pagina](author-footer-module.md)
+[Modulo Dettagli ordini](order-confirmation-module.md)
+
+[Modulo gift card](add-giftcard.md)

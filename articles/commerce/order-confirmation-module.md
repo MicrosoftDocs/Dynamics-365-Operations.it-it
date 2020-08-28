@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464932"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661174"
 ---
 # <a name="order-details-module"></a>Modulo Dettagli ordini
-
 
 [!include [banner](includes/banner.md)]
 
@@ -39,7 +38,7 @@ Il modulo Dettagli ordine viene utilizzato per visualizzare i dettagli di confer
 
 | Nome proprietà  | Valori | descrizione |
 |----------------|--------|-------------|
-| Intestazione        | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**), | Il modulo Dettagli ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
+| Intestazione        | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Il modulo Dettagli ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Numero contatto | Text | È possibile fornire un numero di contatto per domande relative all'ordine. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduli che possono essere utilizzati in una pagina Dettagli ordine
@@ -55,7 +54,7 @@ Per aggiungere un modulo Dettagli ordine a una nuova pagina e impostare le propr
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immetti un nome per **Modello Dettagli ordine**, quindi seleziona **OK**.
-1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
 1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, seleziona il modulo **Dettagli ordine** quindi **OK**.
@@ -72,16 +71,16 @@ Per aggiungere un modulo Dettagli ordine a una nuova pagina e impostare le propr
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Modulo carrello](add-cart-module.md)
 
-[Modulo contenitore](add-container-module.md)
+[Modulo icona carrello](cart-icon-module.md)
 
-[Modulo Casella acquisti](add-buy-box.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo pagamento](payment-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
+[Modulo indirizzo di spedizione](ship-address-module.md)
 
-[Modulo Intestazione](author-header-module.md)
+[Modulo opzioni di consegna](delivery-options-module.md)
 
-[Modulo Piè di pagina](author-footer-module.md)
+[Modulo gift card](add-giftcard.md)

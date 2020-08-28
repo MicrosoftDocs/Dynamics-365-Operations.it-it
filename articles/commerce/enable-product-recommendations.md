@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404211"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665028"
 ---
 # <a name="enable-product-recommendations"></a>Abilitare suggerimenti sul prodotto
 
@@ -46,7 +46,7 @@ Assicurarsi inoltre che le misurazioni RetailSale siano state abilitate. Per ult
 
 ## <a name="azure-ad-identity-configuration"></a>Configurazione dell'identità di Azure AD
 
-Questo passaggio è necessario per tutti i clienti che eseguono una configurazione di infrastruttura distribuita come servizio (IaaS). Per i clienti che eseguono Service Fabric (SF), questo passaggio dovrebbe essere automatico e consigliamo di verificare che l'impostazione sia configurata come previsto.
+Questo passaggio è necessario per tutti i clienti che eseguono una configurazione di infrastruttura distribuita come servizio (IaaS). Per i clienti che eseguono Service Fabric (SF) questo passaggio dovrebbe essere automatico e consigliamo di verificare che l'impostazione sia configurata come previsto.
 
 ### <a name="setup"></a>Attrezzaggio
 
@@ -95,6 +95,8 @@ Per ulteriori informazioni su suggerimenti personalizzati, vedere [Abilitare sug
 [Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
+
+[Abilitare gli elementi consigliati "acquista prodotti simili"](shop-similar-looks.md)
 
 [Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 

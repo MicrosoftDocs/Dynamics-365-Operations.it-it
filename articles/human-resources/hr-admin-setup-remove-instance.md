@@ -3,7 +3,7 @@ title: Rimuovere un'istanza
 description: In questo argomento viene descritto il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621382"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668327"
 ---
 # <a name="remove-an-instance"></a>Rimuovere un'istanza
 
@@ -70,7 +70,7 @@ Per rimuovere un ambiente Human Resources da un ambiente Power Apps esistente, c
 4. Accedere a LCS utilizzando l'account usato per iscriversi a Human Resources. 
 5. Selezionare il progetto Human Resources contenente l'ambiente. 
 6. Nel progetto LCS selezionare il riquadro **Gestione app Human Resources**. 
-7. Selezionare l'istanza che si desidera rimuovere, che deve essere contrassegnata con lo stato di distribuzione **Non riuscita**.
+7. Selezionare l'istanza che si desidera rimuovere, che deve essere contrassegnata con lo stato di distribuzione **Eliminata**.
 8. Selezionare **Rimuovere istanza** e confermare la decisione. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Ripristinare un ambiente eliminato temporaneamente

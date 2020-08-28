@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025705"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686648"
 ---
 # <a name="add-a-logo"></a>Aggiungere un logo
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Prima di poter aggiungere un logo a tutte le pagine del tuo sito, è necessario 
 
 Per aggiungere un logo al frammento di intestazione del tuo sito, effettuare le seguenti operazioni.
 
-1. Selezionare **Frammenti pagina** nel pannello di navigazione a sinistra.
+1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
 1. Selezionare il frammento intestazione creato e selezionare **Modifica**.
 1. Espandere il modulo di intestazione.
 1. Nel riquadro delle proprietà per il modulo di intestazione, fornire un'immagine e un collegamento per il logo. 

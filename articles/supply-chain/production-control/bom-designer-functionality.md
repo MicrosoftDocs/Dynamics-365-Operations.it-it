@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMDesigner
+ms.search.form: BOMDesigner, BOMDesignerSetup, BOMDesignerFilterDialog, BOMDesignerBOMVersion, BOMChangeLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef37073a718bc82440e7c15c782ceb53bfaa9eb4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c97e58f6f608efd3b964e7fad229a00e1ae603a
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211677"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677833"
 ---
 # <a name="bom-designer-functionality"></a>Funzionalità Designer DBA
 
@@ -96,7 +96,7 @@ Il filtro applicabile per la DBA e il ciclo di lavorazione viene visualizzato ne
 Quando si utilizza Designer DBA per rivedere o modificare le DBA che sono costituite da uno o più livelli di voci fittizie, il ciclo di lavorazione associato all'articolo di livello superiore in genere estende la gerarchia completa DBA. Per semplificare la panoramica, è possibile bloccare il ciclo di livello superiore nella visualizzazione facendo clic su **Visualizza** &gt; **Blocca ciclo di lavorazione**. Per sbloccare il ciclo di lavorazione, fare clic su **Visualizza** &gt; **Sblocca ciclo di lavorazione**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Aggiunta e modifica di DBA e di righe DBA
-Utilizzare le funzioni **Righe DBA**o **DBA** per modificare le righe DBA o la DBA. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
+Utilizzare le funzioni **Righe DBA** o **DBA** per modificare le righe DBA o la DBA. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
 
 | Funzione                            | descrizione                                                                                               | Tipo di nodo e condizioni                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

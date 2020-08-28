@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411214"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686624"
 ---
 # <a name="header-module"></a>Modulo Intestazione
 
@@ -62,15 +62,15 @@ Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Int
 
 Per creare un modulo Intestazione, procedere come segue.
 
-1. Andare a **Frammenti pagina** e selezionare **Nuovo** per creare un nuovo frammento.
+1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
 1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
 1. Selezionare lo slot **Contenitore predefinito** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi contenitore**.
-1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare i moduli **Banner promozionale** e **Consenso per i cookie**, quindi selezionare **OK**.
-1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
 1. Selezionare lo slot **Contenitore** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi contenitore**.
-1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Intestazione** e quindi **OK**.
 1. Nello slot **Menu di navigazione** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Menu di navigazione** e quindi **OK**.

@@ -3,7 +3,7 @@ title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651668"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678224"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -40,12 +40,22 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 > [!NOTE]
 > La versione 10.0.13 è una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sulle versioni di anteprima, vedi [Disponibilità degli aggiornamenti del servizio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>Codice personalizzato definito nelle proprietà del report SSRS 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | In generale, il codice personalizzato offre vantaggi limitati e, allo stesso tempo, richiede risorse significative ed elaborazione per il supporto. Il codice personalizzato viene utilizzato principalmente dagli autori di report per chiamare metodi pubblici da un assembly di codice personalizzato. Tuttavia, il servizio ospitato nel cloud non supporta i riferimenti ad assembly personalizzati per i report SSRS. |
+| **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Aree del prodotto interessate**         | Sottoinsieme di progetti di report dell'applicazione definiti in RDL che contengono codice personalizzato. |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Con la versione 10.0.13, il compilatore inizierà a emettere un avviso per le istanze in cui viene rilevato codice personalizzato in una definizione di report SSRS. Per risolvere il problema, aprire la definizione di progettazione del report e rimuovere tutti gli elementi di codice personalizzati. Questo avviso verrà sostituito con un errore del compilatore in un aggiornamento futuro.   |
+
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Aggiornamento di tre librerie dei componenti jQuery 
 
 |   |  |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Tre librerie dei componenti jQuery sono in fase di aggiornamento per le correzioni di sicurezza e per mantenere la valuta.   
-| **Sostituita da un'altra funzionalità?**   | Sono interessate le seguenti librerie: jQuery (alla versione 3.5.0 dalla versione 2.1.4), interfaccia utente jQuery (alla versione 1.12.1 dalla versione 1.11.4), jQuery qTip (alla versione 3.0.3 da 2.2.1). La guida alla migrazione è stata fornita online da jQuery.  |
+| **Sostituita da un'altra funzionalità?**   | Sono interessate le seguenti librerie: jQuery (alla versione 3.5.0 dalla versione 2.1.4) interfaccia utente jQuery (alla versione 1.12.1 dalla versione 1.11.4) jQuery qTip (alla versione 3.0.3 da 2.2.1). La guida alla migrazione è stata fornita online da jQuery.  |
 | **Aree del prodotto interessate**         | Controlli estensibili, in particolare codice JavaScript personalizzato che utilizza API obsolete o rimosse |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Con la versione 10.0.13/Aggiornamento della piattaforma 37, i clienti possono facoltativamente passare alle librerie più recenti abilitando la funzione "Aggiorna tre librerie dei componenti jQuery". Il passaggio alle nuove librerie sarà obbligatorio con la versione di aprile 2021 per consentire il tempo necessario per la migrazione delle API interessate.   |

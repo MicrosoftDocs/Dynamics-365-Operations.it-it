@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154088"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686816"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Aggiungere codice script nelle pagine del sito per supportare la telemetria
 
@@ -32,7 +32,7 @@ In questo argomento viene descritto come aggiungere il codice script sul lato cl
 
 ## <a name="overview"></a>Panoramica
 
-L'analisi dei dati Web è uno strumento essenziale se si desidera comprendere come i clienti interagiscono con il sito e prendono decisioni che consentono di ottimizzare l'esperienza per la massima conversione. Molti pacchetti di analisi dei dati Web sono disponibili per consentire il raggiungimento di questi obiettivi, ad esempio Google Analytics, Clicky, Moz Analytics e KISSMetrics. La maggior parte dei pacchetti di analisi dei dati Web richiede l'aggiunta di codice script sul lato client nell'elemento **\<intestazione\>** del codice HTML per tutte le pagine del sito.
+L'analisi dei dati Web è uno strumento essenziale se si desidera comprendere come i clienti interagiscono con il sito e prendono decisioni che consentono di ottimizzare l'esperienza per la massima conversione. Molti pacchetti di analisi dei dati Web sono disponibili per consentire il raggiungimento di questi obiettivi, ad esempio Google Analytics, Clicky, Moz Analytics e KISSMetrics. La maggior parte dei pacchetti di analisi dei dati Web richiede l'aggiunta di codice script sul lato client nell'elemento **\<head\>** del codice HTML per tutte le pagine del sito.
 
 > [!NOTE]
 > Le istruzioni fornite in questo argomento si applicano anche all'altra funzionalità personalizzata sul lato client che Microsoft Dynamics 365 Commerce non offre in modalità nativa.
@@ -45,7 +45,7 @@ Un frammento pagina consente di riutilizzare il codice script incorporato o este
 
 Per creare un frammento di pagina riutilizzabile per il codice di script inline in Creazione di siti Web, attenersi alla seguente procedura.
 
-1. Andare a **Frammenti pagina** e quindi selezionare **Nuovo**.
+1. Andare a **Frammenti** quindi selezionare **Nuovo**.
 1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Script inline**.
 1. Sotto **Nome frammento pagina**, inserire un nome per il frammento, quindi selezionare **OK**.
 1. Sotto il frammento di pagina creato, selezionare il modulo **Script inline predefinito**.
@@ -57,7 +57,7 @@ Per creare un frammento di pagina riutilizzabile per il codice di script inline 
 
 Per creare un frammento di pagina riutilizzabile per il codice di script esterno in Creazione di siti Web, attenersi alla seguente procedura.
 
-1. Andare a **Frammenti pagina** e quindi selezionare **Nuovo**.
+1. Andare a **Frammenti** quindi selezionare **Nuovo**.
 1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Script esterno**.
 1. Sotto **Nome frammento pagina**, inserire un nome per il frammento, quindi selezionare **OK**.
 1. Sotto il frammento di pagina creato, selezionare il modulo **Script esterno predefinito**.
@@ -71,7 +71,7 @@ Per aggiungere un frammento di pagina che includa codice di script in un modello
 
 1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
 1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
-1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi frammento pagina**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**) quindi selezionare **Aggiungi frammento pagina**.
 1. Selezionare il frammento creato per il codice script.
 1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Selezionare **Pubblica**
@@ -86,7 +86,7 @@ Per aggiungere uno script inline direttamente a un modello in Creazione di siti 
 
 1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
 1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
-1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Script inline**.
 1. Nel riquadro delle proprietà sulla destra, sotto **Script inline**, inserire lo script lato client. Quindi configurare altre opzioni come richiesto.
 1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
@@ -98,7 +98,7 @@ Per aggiungere uno script esterno direttamente a un modello in Creazione di siti
 
 1. Passare a **Modelli** e aprire il modello per le pagine che si desidera aggiungere al codice script.
 1. Nel riquadro sinistro, espandere la gerarchia dei modelli per visualizzare lo slot **Intestazione HTML**.
-1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Intestazione HTML** selezionare il pulsante con i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Script esterno**.
 1. Nel riquadro delle proprietà sulla destra, sotto **Origine script**, aggiungere un URL esterno o relativo per l'origine dello script esterno. Quindi configurare altre opzioni come richiesto.
 1. Selezionare **Salva** e quindi selezionare **Fine modifica**.

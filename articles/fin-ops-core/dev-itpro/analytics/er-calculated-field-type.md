@@ -3,7 +3,7 @@ title: Supporto per le chiamate parametrizzate delle origini dati ER di tipo Cam
 description: In questo argomento vengono fornite informazioni su come utilizzare il tipo Campo calcolato per le origini dati ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771331"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665612"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -39,20 +39,20 @@ Per completare gli esempi in questo argomento, è necessario disporre del seguen
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-- Accesso ai servizi RCS (Regulatory Configuration Service) di cui è stato eseguito il provisioning per lo stesso tenant di Finance and Operations per uno dei seguenti ruoli:
+- Accesso ai servizi RCS (Regulatory Configuration Services) di cui è stato eseguito il provisioning per lo stesso tenant di Finance and Operations per uno dei seguenti ruoli:
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-Dall'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684), scaricare il file compresso **Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato**. Questo file contiene le seguenti configurazioni ER che devono essere estratte e archiviate localmente.
+È inoltre necessario scaricare e archiviare localmente i file seguenti.
 
 | **Contenuto**                           | **Nome file**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configurazione del modello di dati ER di esempio    | Model to learn parameterized calls.version.1.xml     |
-| Configurazione dei metadati ER di esempio      | Metadata to learn parameterized calls.version.1.xml  |
-| Configurazione del mapping di modello ER di esempio | Mapping to learn parameterized calls.version.1.1.xml |
-| Configurazione di formato ER di esempio        | Format to learn parameterized calls.version.1.1.xml  |
+| Configurazione del modello di dati ER di esempio    | [Model to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Configurazione dei metadati ER di esempio      | [Metadata to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configurazione del mapping di modello ER di esempio | [Mapping to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configurazione di formato ER di esempio        | [Format to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Accedere all'istanza RCS
 In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Innanzitutto, in RCS, completare i passaggi nella procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -217,7 +217,7 @@ Nella pagina **Progettazione formati**, il campo calcolato parametrizzato config
 9. Selezionare **Associa**.
 10. Selezionare **Sì** per confermare la sostituzione dell'origine dati attualmente utilizzata, **Level3**, con la nuova origine dati, **Livelli**, in tutti gli elementi di formato nidificati sotto l'elemento di formato selezionato.
 
-   Quando si specifica l'argomento del campo calcolato parametrizzato per l'elemento XML che rappresenta il livello di tassazione (ad esempio **Model.Data2.Levels("Ridotto")** come valore di testo), non è necessario effettuare la stessa operazione per gli attributi XML nidificati: le relative associazioni erediteranno automaticamente il valore dell'argomento definito nel livello principale (**Model.Data2.Levels.aggregated.Base**, non **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Quando si specifica l'argomento del campo calcolato parametrizzato per l'elemento XML che rappresenta il livello di tassazione (ad esempio **Model.Data2.Levels("Ridotto")** come valore di testo) non è necessario effettuare la stessa operazione per gli attributi XML nidificati: le relative associazioni erediteranno automaticamente il valore dell'argomento definito nel livello principale (**Model.Data2.Levels.aggregated.Base**, non **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Le chiamate ricorrenti di qualsiasi campo calcolato parametrizzato non sono supportate.
 

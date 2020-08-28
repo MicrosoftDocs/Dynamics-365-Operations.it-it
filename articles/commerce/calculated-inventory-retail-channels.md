@@ -3,7 +3,7 @@ title: Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 description: In questo argomento vengono descritte le opzioni disponibili per mostrare le scorte disponibili per il punto vendita e i canali online.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379238"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694924"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
@@ -32,7 +32,7 @@ Questo argomento descrive come un'azienda può utilizzare Microsoft Dynamics 365
 
 ## <a name="accuracy-of-calculation"></a>Precisione del calcolo
 
-Commerce utilizza più server e database per garantire scalabilità e prestazioni. Pertanto, è importante comprendere che i valori delle scorte disponibili forniti tramite l'applicazione del punto vendita (POS), le API per la disponibilità delle scorte e-commerce e le pagine di scorte disponibili nella sede centrale di Commerce potrebbero non essere accurati al 100% in tempo reale. Se le transazioni create per i prodotti nel canale online o del punto vendita non sono ancora state sincronizzate con il server e il database di Commerce Headquarters, le pagine delle scorte disponibili in Commerce Headquarters potrebbero non mostrare un valore di scorte in tempo reale accurato per tali prodotti. Al contrario, se l'azienda è stata configurata in modo che gli utenti di Commerce Headquarters o di altre applicazioni integrate possano vendere, ricevere, restituire o altrimenti modificare le scorte da un punto vendita o un magazzino online, il POS o il canale online potrebbero non avere tutte le informazioni richieste per mostrare un valore accurato per le scorte disponibili in tempo reale.
+Commerce utilizza più server e database per garantire scalabilità e prestazioni. Pertanto, è importante comprendere che i valori delle scorte disponibili forniti tramite l'applicazione del punto vendita (POS) le API per la disponibilità delle scorte e-commerce e le pagine di scorte disponibili nella sede centrale di Commerce potrebbero non essere accurati al 100% in tempo reale. Se le transazioni create per i prodotti nel canale online o del punto vendita non sono ancora state sincronizzate con il server e il database di Commerce Headquarters, le pagine delle scorte disponibili in Commerce Headquarters potrebbero non mostrare un valore di scorte in tempo reale accurato per tali prodotti. Al contrario, se l'azienda è stata configurata in modo che gli utenti di Commerce Headquarters o di altre applicazioni integrate possano vendere, ricevere, restituire o altrimenti modificare le scorte da un punto vendita o un magazzino online, il POS o il canale online potrebbero non avere tutte le informazioni richieste per mostrare un valore accurato per le scorte disponibili in tempo reale.
 
 Questo argomento spiega i processi di sincronizzazione dei dati che possono essere eseguiti frequentemente per aiutare a limitare la latenza dei dati tra applicazioni o canali. Tuttavia, è fondamentale comprendere che tutti i dati sulle scorte disponibili forniti durante la giornata operativa sono considerati un valore stimato. Pertanto, se si tenta di confrontare le informazioni delle scorte disponibili fornite dall'applicazione con l'inventario fisico effettivo sugli scaffali o se si tenta di confrontare i valori delle scorte disponibili mostrati in POS con i dati delle scorte disponibili che si trovano nello stesso magazzino di Commerce Headquarters, i valori potrebbero differire. Questa differenza durante la giornata operativa è prevista e non deve essere considerata un problema. Se si desidera controllare i dati e assicurarsi che i valori forniti nelle API di disponibilità scorte e in Commerce Headquarters corrispondano alle unità fisiche effettive che trovi sugli scaffali del tuo punto vendita o magazzino, il momento migliore per farlo è dopo che le operazioni del canale sono state arrestate per quel giorno e tutte le transazioni sono state correttamente sincronizzate tra Commerce Headquarters e il canale.
 
@@ -66,7 +66,7 @@ Una volta terminata l'esecuzione del processo **Disponibilità prodotto**, i dat
 1. Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
 1. Eseguire il processo **1130** (**Disponibilità prodotto**) per sincronizzare i dati dello snapshot che il processo **Disponibilità prodotto** ha creato da Commerce Headquarters ai database del canale.
 
-Quando la disponibilità delle scorte è richiesta dalle API **GetEstimatedAvailability** o **ProductWarehouseInventoryAvailabilities** viene eseguito un calcolo per cercare di ottenere la migliore stima possibile dell'inventario per il prodotto. Il calcolo fa riferimento a tutti gli ordini dei clienti e-Commerce presenti nel database del canale che non erano inclusi nei dati dello snapshot forniti dal processo 1130. Questa logica viene eseguita monitorando l'ultima transazione di inventario elaborata da Commerce Headquarters e confrontandola con le transazioni nel database del canale. Fornisce una base per la logica di calcolo sul lato canale, in modo che i movimenti di magazzino aggiuntivi che si sono verificati per le transazioni di vendita degli ordini dei clienti nel database del canale e-Commerce possano essere presi in considerazione nel valore di inventario stimato fornito dall'API.
+Quando la disponibilità delle scorte è richiesta dalle API **GetEstimatedAvailability** o **GetEstimatedProductWarehouseAvailability** viene eseguito un calcolo per cercare di ottenere la migliore stima possibile dell'inventario per il prodotto. Il calcolo fa riferimento a tutti gli ordini dei clienti e-Commerce presenti nel database del canale che non erano inclusi nei dati dello snapshot forniti dal processo 1130. Questa logica viene eseguita monitorando l'ultima transazione di inventario elaborata da Commerce Headquarters e confrontandola con le transazioni nel database del canale. Fornisce una base per la logica di calcolo sul lato canale, in modo che i movimenti di magazzino aggiuntivi che si sono verificati per le transazioni di vendita degli ordini dei clienti nel database del canale e-Commerce possano essere presi in considerazione nel valore di inventario stimato fornito dall'API.
 
 La logica di calcolo sul lato canale restituisce un valore fisicamente disponibile stimato e un valore disponibile totale per il prodotto e il magazzino richiesti. Se desiderato, i valori possono essere visualizzati sul sito e-Commerce oppure possono essere utilizzati per attivare altre logiche aziendali sul sito e-Commerce. Ad esempio, è possibile mostrare un messaggio "esaurito" invece della quantità effettiva disponibile che l'API ha passato.
 
@@ -108,7 +108,9 @@ Per garantire la migliore stima possibile dell'inventario, è fondamentale utili
 - **Disponibilità prodotto** - Questo processo crea lo snapshot dell'inventario da Commerce Headquarters.
 - **1130 (disponibilità prodotto)** - Questo processo si trova nella pagina **Programmazioni della distribuzione** e deve essere eseguito immediatamente dopo il processo **Disponibilità prodotto**. Questo processo trasporta i dati dello snapshot dell'inventario da Commerce Headquarters ai database del canale.
 
+Si consiglia di non eseguire questi processi batch troppo frequentemente (ogni pochi minuti). Esecuzioni frequenti sovraccaricano Commerce headquarters (HQ) e possono potenzialmente influire sulle prestazioni. In generale, è buona norma eseguire la disponibilità del prodotto e 1.130 lavori su base oraria e pianificare il processo P, sincronizzare gli ordini e gestire i processi relativi alla registrazione dei feed con la stessa frequenza o una frequenza maggiore.
+
 > [!NOTE]
-> Per motivi di prestazioni, quando vengono utilizzati i calcoli delle scorte disponibili sul lato canale per effettuare una richiesta di disponibilità scorte utilizzando l'API e-Commerce o la nuova logica di inventario sul canale POS, il calcolo utilizza una cache per determinare se è trascorso abbastanza tempo per giustificare la nuova esecuzione della logica di calcolo. La cache predefinita è impostata su 60 secondi. Ad esempio, hai attivato il calcolo lato canale per il tuo negozio e hai visualizzato le scorte disponibili per un prodotto nella pagina **Ricerca in magazzino**. Se viene venduta un'unità del prodotto, la pagina **Ricerca in magazzino** non mostrerà l'inventario ridotto fino a quando la cache non sarà stata cancellata. Dopo che gli utenti registrano le transazioni nel POS, devono attendere 60 secondi prima di verificare che l'inventario disponibile sia stato ridotto.
+> Per motivi di prestazioni, quando vengono utilizzati i calcoli delle scorte disponibili sul lato canale per effettuare una richiesta di disponibilità scorte utilizzando l'API e-Commerce o la nuova logica di inventario sul canale POS, il calcolo utilizza una cache per determinare se è trascorso abbastanza tempo per giustificare la nuova esecuzione della logica di calcolo. La cache predefinita è impostata su 60 secondi. Ad esempio, hai attivato il calcolo lato canale per il tuo negozio e hai visualizzato le scorte disponibili per un prodotto nella pagina **Ricerca in magazzino**. Se viene venduta un'unità del prodotto, la pagina **Ricerca in magazzino** non mostrerà l'inventario ridotto fino a quando la cache non sarà stata canCellaata. Dopo che gli utenti registrano le transazioni nel POS, devono attendere 60 secondi prima di verificare che l'inventario disponibile sia stato ridotto.
 
 Se lo scenario aziendale richiede un tempo di cache inferiore, contattare il rappresentante dell'assistenza tecnica per assistenza.
