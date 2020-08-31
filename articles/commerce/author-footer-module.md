@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411209"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686720"
 ---
 # <a name="footer-module"></a>Modulo Piè di pagina  
 
@@ -48,13 +48,13 @@ Come la maggior parte dei contenitori, un modulo Piè di pagina supporta le prop
 
 **Torna all'inizio** - Un modulo Torna all'inizio fornisce un collegamento per spostarsi rapidamente all'inizio della pagina. È necessaria una destinazione. Il valore di destinazione predefinito è \#, che porta l'utente all'inizio della pagina.
 
-## <a name="create-a-footer-module"></a>Creare un modulo Piè di pagina
+## <a name="create-a-footer-module"></a>Creare modulo piè di pagina
 
-1. Andare a **Frammenti pagina** e selezionare **Nuovo** per creare un nuovo frammento.
+1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
 1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
-1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Categoria piè di pagina** e quindi **OK**.
-1. Nello slot **Categoria piè di pagina** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Categoria piè di pagina** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Elemento piè di pagina** e quindi **OK**.
 1. Selezionare lo slot **Elemento piè di pagina**e nel riquadro delle proprietà a destra, configurare l'intestazione, il collegamento, il testo del collegamento e l'immagine come necessario.
 1. Per aggiungere ulteriori elementi piè di pagina, ripetere i passaggi da 5 a 7 per ognuno.

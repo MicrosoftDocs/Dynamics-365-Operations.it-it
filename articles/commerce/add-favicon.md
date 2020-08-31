@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295082"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686792"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
 
@@ -62,7 +62,7 @@ Per creare l'HTML per il favicon, usare la stringa HTML seguente. Per l'attribut
 
 Per creare un frammento di pagina contenente un metatag per il favicon, effettuare le seguenti operazioni.
 
-1. Andare a **Frammenti pagina** e selezionare **Nuovo**.
+1. Andare a **Frammenti** e selezionare **Nuovo**.
 1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Metatag** come modulo su cui basare il frammento di pagina.
 1. Immettere un nome per il frammento di pagina, quindi selezionare **OK**.
 1. Nell'albero della gerarchia di frammenti, selezionare l'elemento figlio **Metatag predefiniti**.

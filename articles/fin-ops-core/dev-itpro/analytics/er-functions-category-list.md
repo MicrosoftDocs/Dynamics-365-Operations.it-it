@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201045"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687960"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Elenco delle funzioni ER nella categoria elenco
 
@@ -46,13 +46,14 @@ Le funzioni dell'elenco della creazione di report elettronici (ER) possono esser
 | [Indice](er-functions-list-index.md)                       | Questa funzione restituisce un valore *Contenitore (record)* selezionato utilizzando l'indice numerico specificato nell'elenco specificato. Se l'indice non rientra nell'intervallo dei record nell'elenco specificato, questa funzione genera un'eccezione. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Questa funzione restituisce un valore *Booleano* **TRUE** se l'elenco specificato non contiene record. In caso contrario, restituisce il valore *Booleano* **FALSE**. |
 | [Elenco](er-functions-list-list.md)                         | Questa funzione restituisce un valore *Elenco di record* costituito da un nuovo elenco creato dagli argomenti specificati.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | Questa funzione calcola l'espressione specificata come selettore per ogni record dell'elenco specificato. Restituisce un nuovo valore *Elenco di record* che contiene un singolo record per ogni valore del selettore univoco.|
 | [ListJoin](er-functions-list-listjoin.md)                 | Questa funzione restituisce un valore *Elenco di record* che rappresenta un nuovo elenco unito creato dagli argomenti specificati.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Questa funzione restituisce un valore *Elenco di record* creato in base alla struttura dell'argomento specificato del tipo *Enumerazione* o *Contenitore (record)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Questa funzione restituisce un nuovo valore *Elenco di record* costituito solo dal primo record dell'elenco specificato.|
 | [OrderBy](er-functions-list-orderby.md)                   | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* dopo che è stato ordinato in base agli argomenti specificati. Questi argomenti possono essere definiti come espressioni. |
 | [Storna](er-functions-list-reverse.md)                   | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* in ordine inverso. |
 | [Dividi](er-functions-list-split.md)                       | Questa funzione divide la stringa di input specificata in sottostringhe e restituisce il risultato come nuovo valore *Elenco di record*. |
-| [SplitList](er-functions-list-splitlist.md)               | Questa funzione divide l'elenco specificato in elenchi secondari (o batch), ciascuno dei quali contiene il numero specificato di record. Quindi restituisce il risultato come nuovo valore *Elenco di record* costituito dai batch. |
+| [SplitList](er-functions-list-splitlist.md)               | Questa funzione divide l'elenco specificato in elenchi secondari (o batch) ciascuno dei quali contiene il numero specificato di record. Quindi restituisce il risultato come nuovo valore *Elenco di record* costituito dai batch. |
 | [SplitListByLimit](er-functions-list-splitlistbylimit.md) | Questa funzione divide l'elenco specificato in un nuovo elenco di elenchi secondari (batch). Il numero di record in ciascun batch viene calcolato dinamicamente. La funzione restituisce quindi il risultato come nuovo valore *Elenco di record* costituito dai batch. |
 | [StringJoin](er-functions-list-stringjoin.md)             | Restituisce un valore *Stringa* costituito da valori concatenati del campo specificato dell'elenco specificato. I valori possono essere separati dal delimitatore specificato. |
 | [Percorso](er-functions-list-where.md)                       | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* dopo che è stato filtrato in base alla condizione specificata. |

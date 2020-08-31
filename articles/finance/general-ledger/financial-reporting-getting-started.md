@@ -1,9 +1,9 @@
 ---
 title: Panoramica sulla creazione di report finanziari
-description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari. Include una descrizione dei report finanziari predefiniti forniti.
+description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618040"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696690"
 ---
-# <a name="financial-reporting-overview"></a>Panoramica sulla creazione di report finanziari
+# <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve pot
 Gli utenti che generano un report possono eliminare i propri report. Gli utenti con i diritti **Gestisci sicurezza dei report finanziari** possono eliminare i report di altri. 
 
 Nella versione 10.0.8 è stato introdotto il concetto di date di scadenza. Una nuova funzione richiesta è abilitata nella pagina **Tutti** all'interno dell'area di lavoro Gestione funzionalità. La funzionalità **Criteri di conservazione dei report finanziari** contiene le seguenti modifiche:
-* I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati
+* I report appena generati verranno automaticamente contrassegnati come aventi una data di scadenza di 90 giorni da quando sono stati generati.
 * In tutti i report esistenti precedenti all'installazione della funzionalità verrà assegnato un periodo di scadenza di 90 giorni. La data può apparire vuota per un breve periodo di tempo fino a quando il servizio di Financial Reporting è in esecuzione, viene generato un report e il servizio esegue l'aggiornamento ai report esistenti con una data di scadenza vuota. 
 * Gli utenti con **Gestisci sicurezza dei report finanziari** avranno accesso a questa funzionalità. Tutti gli utenti nei diritti **Gestisci report finanziari** a cui è concesso il privilegio **Gestisci scadenza dei report finanziari** avranno anche la possibilità di modificare il periodo di scadenza. Attualmente sono disponibili due opzioni di ritenuta: 
   * Una scadenza di 90 giorni.
@@ -134,12 +134,18 @@ Quando si seleziona il menu **Report finanziari**, l'elenco dei report finanziar
 ## <a name="creating-and-modifying-financial-reports"></a>Creazione e modifica di report finanziari
 Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario selezionando **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società utilizzata in Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Definizioni di albero gerarchico 
+Uno dei componenti utilizzati per creare report finanziari è una definizione dell'albero dei report. Una definizione di albero gerarchico consente di definire la struttura e la gerarchia dell'organizzazione. Si tratta di una struttura gerarchica interdimensionale basata sulle relazioni dimensionali nei dati finanziari. Fornisce informazioni a livello di unità gerarchica e a livello di riepilogo per tutte le unità dell'albero.
+
+È possibile creare un numero illimitato di alberi gerarchici per visualizzare i dati dell'organizzazione in vari modi. Ogni albero di reporting può contenere qualsiasi combinazione di reparti e unità di riepilogo, ma una definizione di report può collegarsi a un solo albero di reporting alla volta. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Risoluzione dei problemi di apertura di Progettazione report
 Esistono alcuni problemi comuni che possono causare problemi quando si apre Progettazione report. Tali problemi e i passaggi per risolverli sono riportati di seguito.
 
 Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **Modifica**.
 
-* In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona**, immettere "\*\.dynamics.com" (senza virgolette), quindi selezionare **Aggiungi**. 
+* In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona**, immettere "\*\.dynamics.com" (senza virgolette) quindi selezionare **Aggiungi**. 
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
 * Le workstation sono necessarie per l'installazione di Visual Studio .NET 4.6.2 o versione successiva.
@@ -162,3 +168,4 @@ Problema 3: è possibile procedere oltre la pagina di accesso di Progettazione r
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Visualizza report finanziari](view-financial-reports.md)
+- [Definizioni di albero gerarchico nei report finanziari](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

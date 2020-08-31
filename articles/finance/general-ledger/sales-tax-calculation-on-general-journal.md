@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570196"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665844"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcolo dell'IVA nelle righe giornale di registrazione generale
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
 Se un giustificativo ha riga giornale di registrazione in cui il tipo di conto è **Fornitore**, tutte le righe giornale di registrazione del giustificativo applicano la stessa direzione dell'IVA. I punti seguenti indicano le possibili direzioni dell'IVA per i conti di fornitore. 
 
-•   Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Acquisto esentasse.
-
-•   Se il codice IVA è l'IVA intracomunitaria, la direzione dell'IVA è IVA a credito.
-
-•   Se il codice IVA è il reverse charge, la direzione dell'IVA è IVA a credito.
-
-
-Negli altri casi la direzione dell'IVA è IVA a debito.
-
-Nel diagramma riportato di seguito viene illustrata graficamente la regola.
-
-![Possibilità di direzione dell'IVA per i conti di fornitore](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Il tipo di conto è Cliente
-
-Se un giustificativo ha riga giornale di registrazione in cui il tipo di conto è **Cliente**, tutte le righe giornale di registrazione del giustificativo applicano la stessa direzione dell'IVA. I punti seguenti indicano le possibili direzioni dell'IVA per i conti di cliente.
-
 •   Se il codice IVA è l'imposta di utilizzo, la direzione dell'IVA è Imposta di utilizzo.
 
 •   Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Acquisto esentasse.
@@ -90,6 +73,22 @@ Se un giustificativo ha riga giornale di registrazione in cui il tipo di conto �
 •   Se il codice IVA è il reverse charge, la direzione dell'IVA è IVA a debito.
 
 Negli altri casi la direzione dell'IVA è IVA a credito.
+
+Nel diagramma riportato di seguito viene illustrata graficamente la regola.
+
+![Possibilità di direzione dell'IVA per i conti di fornitore](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Il tipo di conto è Cliente
+
+Se un giustificativo ha riga giornale di registrazione in cui il tipo di conto è **Cliente**, tutte le righe giornale di registrazione del giustificativo applicano la stessa direzione dell'IVA. I punti seguenti indicano le possibili direzioni dell'IVA per i conti di cliente.
+
+•   Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Acquisto esentasse.
+
+•   Se il codice IVA è l'IVA intracomunitaria, la direzione dell'IVA è IVA a credito.
+
+•   Se il codice IVA è il reverse charge, la direzione dell'IVA è IVA a credito.
+
+Negli altri casi la direzione dell'IVA è IVA a debito.
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
@@ -103,7 +102,7 @@ Nella seguente figura è illustrata la regola che si applica quando in un giusti
 
 •   Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Acquisto esentasse.
 
-Altrimenti, se l'importo giornale di registrazione è un addebito (positivo), la direzione è IVA a credito, se l'importo giornale di registrazione è un credito (negativo), la direzione è IVA a debito.
+Altrimenti, se l'importo giornale di registrazione è un addebito (positivo) la direzione è IVA a credito, se l'importo giornale di registrazione è un credito (negativo) la direzione è IVA a debito.
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 

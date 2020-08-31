@@ -3,7 +3,7 @@ title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530537"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693281"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -168,7 +168,7 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 
 - La funzionalità per il prelievo del cluster non è supportata per i prodotti a peso variabile.
 - L'elaborazione di magazzino per prelievo e imballaggio non è supportata per i prodotti a peso variabile.
-- Per i prodotti a peso variabile, il lavoro definito in un modello di lavoro può essere eseguito automaticamente.
+- Per i prodotti a peso variabile, il lavoro definito in un modello di lavoro non può essere eseguito automaticamente.
 - Per i prodotti a peso variabile, il sistema non supporta l'elaborazione manuale presso il centro d'imballaggio in cui il lavoro di prelievo dei contenitori imballati viene creato dopo la chiusura dei contenitori.
 - La funzionalità per la scansione pezzo per pezzo non è supportata per i prodotti a peso variabile.
 
@@ -189,7 +189,7 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 
 - Durante i processi di prelievo in cui all'utente non viene richiesto di identificare le dimensioni di tracciabilità, l'assegnazione del peso viene effettuata in base al peso medio. Questo comportamento si verifica quando, ad esempio, una combinazione di dimensioni di tracciabilità viene utilizzata nella stessa ubicazione e, dopo che un utente elabora il prelievo, solo un valore di dimensione di tracciabilità rimane nell'ubicazione.
 - Quando le scorte sono prenotate per un prodotto a peso variabile configurato per processi di gestione magazzino, la prenotazione viene eseguita in base al peso minimo definito, anche se questa quantità è l'ultima quantità movimentazioni disponibile. Questo comportamento differisce da quello degli articoli che non sono configurati per i processi di gestione magazzino. C'è un'eccezione a questa limitazione. Per il prelievo produzione, quando viene prelevata l'ultima quantità di movimentazione di un prodotto a peso variabile controllato in base al numero di serie, viene utilizzato il peso effettivo.
-- I processi che utilizzano il peso per i calcoli di capacità (soglie ondata, interruzioni lavoro massime, numero massimo di contenitori, capacità del carico ubicazione e così via), non utilizzano il peso effettivo delle scorte. I processi sono invece basati sul peso di gestione fisica definito per il prodotto.
+- I processi che utilizzano il peso per i calcoli di capacità (soglie ondata, interruzioni lavoro massime, numero massimo di contenitori, capacità del carico ubicazione e così via) non utilizzano il peso effettivo delle scorte. I processi sono invece basati sul peso di gestione fisica definito per il prodotto.
 - In generale, la funzionalità Commerce non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, non è possibile aggiornare lo stato delle scorte in **Modifica stato magazzino**.
 

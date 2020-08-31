@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6215bc21bd3ee377274556f09ba29231118e5002
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
+ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201366"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677340"
 ---
 # <a name="shipment-auto-updates"></a>Aggiornamenti automatici delle spedizioni
 
@@ -39,7 +39,7 @@ La funzionalità di aggiornamento automatico delle spedizioni si applica alle ri
 
 La funzionalità di aggiornamento automatico delle spedizioni si basa principalmente sullo stato della spedizione per determinare se la quantità in una riga di carico deve essere modificata in caso di modifica di una riga ordine cliente o ordine di trasferimento. Si basa sullo stato della spedizione anche per determinare quando una nuova riga di carico deve essere aggiunta automaticamente a un carico esistente. Quando lo stato della spedizione è **In ondata** o superiore, non si ha alcun aggiornamento automatico.
 
-Anche lo stato dell'ondata viene preso in considerazione per gli aggiornamenti automatici. Quando lo stato dell'ondata correlata alla riga di carico è **Tenuta**, **In esecuzione**, **Rilasciata**, **Prelevata** o **Spedita**, se un utente tenta di ridurre la quantità in una riga di carico (tramite una diminuzione della quantità nella riga ordine cliente o ordine di trasferimento), viene visualizzato il messaggio di errore "Impossibile rimuovere le prenotazioni perché è presente lavoro creato che si basa sulle prenotazioni". Inoltre, quando lo stato dell'ondata è uno degli stati menzionati precedentemente, se un utente tenta di aumentare indirettamente la quantità nella riga di carico riducendo la quantità nella riga ordine cliente o ordine di trasferimento, la quantità nella riga di carico non viene aumentata automaticamente. In tal caso, la riga di carico deve essere aggiornata manualmente.
+Anche lo stato dell'ondata viene preso in considerazione per gli aggiornamenti automatici. Quando lo stato dell'ondata correlata alla riga di carico è **Tenuta**, **In esecuzione**, **Rilasciata**, **Prelevata** o **Spedita**, se un utente tenta di ridurre la quantità in una riga di carico (tramite una diminuzione della quantità nella riga ordine cliente o ordine di trasferimento) viene visualizzato il messaggio di errore "Impossibile rimuovere le prenotazioni perché è presente lavoro creato che si basa sulle prenotazioni". Inoltre, quando lo stato dell'ondata è uno degli stati menzionati precedentemente, se un utente tenta di aumentare indirettamente la quantità nella riga di carico riducendo la quantità nella riga ordine cliente o ordine di trasferimento, la quantità nella riga di carico non viene aumentata automaticamente. In tal caso, la riga di carico deve essere aggiornata manualmente.
 
 ## <a name="scenarios"></a>Scenari
 

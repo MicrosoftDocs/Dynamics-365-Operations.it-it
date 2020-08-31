@@ -3,7 +3,7 @@ title: App Human Resources in Teams
 description: Questo argomento introduce l'app Microsoft Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431132"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666362"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
@@ -45,10 +45,10 @@ Per informazioni sulla gestione delle autorizzazioni delle app in Teams, vedi [G
 
 | Uscita | Stato |
 | --- | --- |
+| Lo scorrimento orizzontale non funziona su telefoni Android | Lo scorrimento orizzontale non è un problema su iOS o su dispositivi desktop. Stiamo lavorando a una correzione per Android. |
 | Errore: si è verificato un problema durante la ricerca di un ambiente a cui connettersi. | Questo errore potrebbe essere visualizzato anche se hai verificato che l'utente può accedere a uno o più ambienti di Human Resources. Inoltre, potresti non vedere tutti gli ambienti previsti. Fino a quando questo problema non vine risolto, elimina l'utente e quindi importalo di nuovo per risolvere il problema. |
 | Il saldo non è corretto quando richiedi permessi per una data futura. | Le previsioni non sono ancora disponibili. Il saldo visualizza la data corrente. |
 | Quando si riduce il numero di ore impiegate in una richiesta esistente, il **Saldo restante** scende invece di salire. | Affronteremo questo problema noto in futuro. La visualizzazione non è corretta, ma gli importi corretti vengono adeguati al momento dell'invio. |
-| Vengono visualizzate due schede **Tempo libero imminente** per le stesse date. | Le schede rappresentano singoli invii. Continueremo a ricevere feedback e ad apportare modifiche. |
 | Impossibile annullare una richiesta **In revisione**. | Questa funzionalità non è attualmente supportata e verrà aggiunta in una versione futura. |
 | Le informazioni sul saldo sono calcolate a partire da oggi. | Il sistema al momento non visualizza i saldi al momento del periodo di competenza, anche se configurato nei parametri congedo e assenza. |
 

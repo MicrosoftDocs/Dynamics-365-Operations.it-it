@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645341"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686672"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
@@ -37,7 +37,7 @@ Il termine *casella acquisti* si riferisce in genere all'area di una pagina dett
 
 Un modulo Casella acquisti è un contenitore speciale utilizzato per l'hosting di tutti i moduli visualizzati nell'area Casella acquisti di una pagina dettagli prodotto.
 
-L'URL di una pagina dettagli prodotto include l'ID prodotto. Tutte le informazioni necessarie per eseguire il rendering di un modulo Casella acquisti derivano da questo ID prodotto. Se un ID prodotto non viene fornito, il rendering del modulo Casella acquisti non verrà eseguito correttamente in una pagina. Pertanto, un modulo Casella acquisti può essere utilizzato solo in pagine con contesto del prodotto. Per utilizzarlo in una pagina senza contesto del prodotto (ad esempio, una home page o una pagina di marketing), è necessario eseguire ulteriori personalizzazioni.
+L'URL di una pagina dettagli prodotto include l'ID prodotto. Tutte le informazioni necessarie per eseguire il rendering di un modulo Casella acquisti derivano da questo ID prodotto. Se un ID prodotto non viene fornito, il rendering del modulo Casella acquisti non verrà eseguito correttamente in una pagina. Pertanto, un modulo Casella acquisti può essere utilizzato solo in pagine con contesto del prodotto. Per utilizzarlo in una pagina senza contesto del prodotto (ad esempio, una home page o una pagina di marketing) è necessario eseguire ulteriori personalizzazioni.
 
 L'immagine seguente mostra un esempio di modulo Casella acquisti in una pagina dettagli prodotto.
 
@@ -61,7 +61,7 @@ I temi possono essere utilizzati per rimuovere o modificare l'ordine delle propr
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduli che è possibile utilizzare in un modulo Casella acquisti
 
-- **Galleria multimediale** - Questo modulo viene utilizzato per visualizzare immagini di un prodotto in una pagina dettagli prodotto. Per ulteriori informazioni su questo modulo, vedere [Modulo Galleria multimediale](mediagallery-module.md).
+- **Galleria multimediale** - Questo modulo viene utilizzato per visualizzare immagini di un prodotto in una pagina dettagli prodotto. Per ulteriori informazioni su questo modulo, vedere [Modulo Galleria multimediale](media-gallery-module.md).
 - **Selettore punto vendita** - Questo modulo visualizza un elenco dei punti vendita vicini in cui un articolo è disponibile per il ritiro. Consente agli utenti di immettere un'ubicazione per trovare punti vendita nelle vicinanze. Per ulteriori informazioni su questo modulo, vedere [Modulo Selettore punto vendita](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Impostazioni del modulo Casella acquisti
@@ -84,9 +84,9 @@ Il modulo Casella acquisti recupera le informazioni sul prodotto utilizzando le 
 
 Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Andare a **Frammenti pagina** e selezionare **Nuovo** per creare un nuovo frammento.
+1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
 1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Casella acquisti**.
-1. Sotto **Nome frammento pagina**, inserire il nome **Frammento casella acquisti**, quindi selezionare **OK**.
+1. In **Nome frammento pagina**, inserire il nome **Frammento casella acquisti**, quindi selezionare **OK**.
 1. Nello slot **Galleria multimediale** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Galleria multimediale** e quindi selezionare **OK**.
 1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
@@ -94,7 +94,7 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello PDP**, quindi selezionare **OK**.
-1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
 1. Nello slot **Principale** della pagina predefinita, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento pagina**.
 1. Nella finestra di dialogo **Seleziona frammento pagina**, selezionare il frammento **Frammento casella acquisti** creato in precedenza, quindi selezionare **OK**.

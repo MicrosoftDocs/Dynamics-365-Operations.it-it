@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404350"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664884"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -75,7 +75,9 @@ La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzat
 
 [Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 
-[Aggiungere suggerimenti sul prodotto su POS](product.md)
+[Abilitare gli elementi consigliati "acquista prodotti simili"](shop-similar-looks.md)
+
+[Aggiungere suggerimenti sul prodotto nel POS](product.md)
 
 [Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
 

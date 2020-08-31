@@ -3,7 +3,7 @@ title: Modulo Carrello
 description: In questo argomento vengono descritti i moduli Carrello e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621038"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686768"
 ---
 # <a name="cart-module"></a>Modulo Carrello
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Carrello e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
@@ -42,9 +43,17 @@ L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrik
 
 ![Esempio di modulo Carrello](./media/cart2.PNG)
 
+L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrikam. In questo esempio, è prevista una commissione di gestione per una voce.
+
+![Esempio di modulo Carrello](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Proprietà e slot del modulo Carrello
 
-Il modulo Carrello ha una proprietà **Intestazione** che può essere impostata su valori come **Carrello della spesa** e **Articoli nel carrello**. 
+| Proprietà | Valori | descrizione |
+|----------------|--------|-------------|
+| Intestazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione per il carrello, ad esempio "Carrello della spesa" o "Articoli nel carrello". |
+| Mostra errori scorte esaurite | **True** o **False** | Se questa proprietà è impostata su **True**, la pagina del carrello mostrerà errori relativi alle scorte. Ti consigliamo di impostare questa proprietà su **True** se le verifiche delle scorte disponibili vengono applicate sul sito. |
+| Mostra spese di spedizione per voci | **True** o **False** | Se questa proprietà è impostata su **True**, le voci del carrello mostreranno le spese di spedizione, se queste informazioni sono disponibili. Questa funzione non è supportata nel tema Fabrikam, perché gli utenti selezionano la spedizione solo nel flusso di checkout. Tuttavia, questa funzione può essere abililtata in altri flussi di lavoro, se applicabile. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduli che è possibile utilizzare in un modulo Carrello
 
@@ -67,17 +76,17 @@ Il modulo Carrello recupera le informazioni sul prodotto utilizzando le API di C
 
 Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Andare a **Frammenti pagina** e selezionare **Nuovo** per creare un nuovo frammento.
+1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
 1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Carrello**.
-1. Sotto **Nome frammento pagina**, inserire il nome **Frammento carrello**, quindi selezionare **OK**.
+1. In **Nome frammento pagina**, inserire il nome **Frammento carrello**, quindi selezionare **OK**.
 1. Selezionare lo slot **Carrello**.
 1. Nel riquadro delle proprietà a destra, selezionare il simbolo della matita, immettere il testo dell'intestazione nel campo, quindi selezionare il simbolo del segno di spunta.
-1. Nello slot **Carrello** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
+1. Nello slot **Carrello** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Selettore punto vendita** e quindi selezionare **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere un nome per il modello.
-1. Nell'albero, selezionare lo slot **Corpo**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nell'albero, selezionare lo slot **Corpo**, i puntini di sospensione (**...**) e quindi **Aggiungi frammento pagina**.
 1. Nella finestra di dialogo **Seleziona frammento pagina** selezionare il frammento **Frammento carrello** e quindi selezionare **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
@@ -87,22 +96,18 @@ Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà n
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Modulo icona carrello](cart-icon-module.md)
 
-[Modulo Contenitore](add-container-module.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Selettore punto vendita](store-selector.md)
+[Modulo Pagamento](payment-module.md)
 
-[Modulo Casella acquisti](add-buy-box.md)
+[Modulo Indirizzo di spedizione](ship-address-module.md)
 
-[Modulo Icona carrello](cart-icon-module.md)
+[Modulo Opzioni di consegna](delivery-options-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
+[Modulo Dettagli ordini](order-confirmation-module.md)
 
-[Modulo Conferma ordine](order-confirmation-module.md)
-
-[Modulo Intestazione](author-header-module.md)
-
-[Modulo Piè di pagina](author-footer-module.md)
+[Modulo gift card](add-giftcard.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)

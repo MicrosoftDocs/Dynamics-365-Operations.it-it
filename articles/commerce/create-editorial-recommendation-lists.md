@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404118"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665059"
 ---
 # <a name="manually-create-curated-recommendations"></a>Creare manualmente suggerimenti mirati
 
@@ -64,7 +64,9 @@ Per creare un elenco curato di suggerimenti sul prodotto, effettuare le operazio
 
 [Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 
-[Aggiungere suggerimenti sul prodotto su POS](product.md)
+[Abilitare gli elementi consigliati "acquista prodotti simili"](shop-similar-looks.md)
+
+[Aggiungere suggerimenti sul prodotto nel POS](product.md)
 
 [Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md)
 

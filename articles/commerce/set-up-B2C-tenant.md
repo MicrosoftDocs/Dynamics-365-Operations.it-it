@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497170"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677906"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -60,7 +60,7 @@ Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'u
 
     ![Collegare un tenant Azure AD B2C esistente alla sottoscrizione di Azure](./media/B2CImage_3.png)
 
-1. Una volta creata la nuova directory Azure AD B2C (l'operazione potrebbe richiedere alcuni istanti), sul dashboard verrà visualizzato un collegamento alla nuova directory. Questo collegamento indirizzerà alla pagina di "Benvenuto in Azure Active Directory B2C".
+1. Una volta creata la nuova directory Azure AD B2C (l'operazione potrebbe richiedere alcuni istanti) sul dashboard verrà visualizzato un collegamento alla nuova directory. Questo collegamento indirizzerà alla pagina di "Benvenuto in Azure Active Directory B2C".
 
     ![Collegare alla nuova directory AAD](./media/B2CImage_4.png)
 
@@ -77,7 +77,7 @@ Una volta creato il tenant B2C, all'interno del tenant verrà creata un'applicaz
 
 Per creare l'applicazione B2C, attenersi alla procedura seguente.
 
-1. Nel portale di Azure selezionare **Applicazioni** e quindi selezionare **Aggiungi**.
+1. Nel portale di Azure selezionare **Applicazioni (Legacy)** e quindi selezionare **Aggiungi**.
 1. In **Nome**, immettere il nome dell'applicazione AAD B2C desiderata.
 1. In **App Web/API Web**, per **Includi app Web/API Web**, selezionare **Sì**.
 1. Per **Consenti flusso implicito**, selezionare **Sì** (valore predefinito).

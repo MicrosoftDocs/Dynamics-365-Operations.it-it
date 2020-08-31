@@ -3,7 +3,7 @@ title: Automazione del processo
 description: Questo argomento fornisce dettagli su come l'automazione dei processi consente una semplice pianificazione dei processi che verranno eseguiti dal server batch.
 author: RyanCCarlson2
 manager: tonyafehr
-ms.date: 06/24/2020
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 2ab4e7510ff98b9fbf0223096b905e9de47f52e1
-ms.sourcegitcommit: 1833c1e07a32c8ad41e4a1516e78100ae04a2156
+ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
+ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3508187"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3690048"
 ---
 # <a name="process-automation"></a>Automazione del processo
 
@@ -32,6 +32,8 @@ L'automazione dei processi consente una semplice pianificazione dei processi che
 ## <a name="administration"></a>Amministrazione sistema
 
 La pagina di amministrazione centrale per tutte le automazioni di processo si trova nel modulo Amministrazione di sistema nel menu **Impostazione**. Questa pagina elencherà tutti i processi automatizzati (serie) impostati nel sistema. Consentirà anche di aggiungere nuove automazioni di processo direttamente da questa pagina. Dopo aver impostato una serie, è possibile gestire ogni serie da questo elenco. È possibile scegliere di modificare l'intera serie, eliminarla, visualizzare tutte le occorrenze in una vista elenco o disabilitare la serie se si desidera sospendere il lavoro pianificato per un periodo di tempo. 
+
+Tutti i processi disabilitati nella gestione delle funzionalità non verranno visualizzati quando la funzionalità è disabilitata. Inoltre, il motore di pianificazione dell'automazione dei processi non pianificherà alcuna occorrenza o processo in background per una funzione disabilitata. La riattivazione della funzione provocherà l'esecuzione immediata di eventuali ricorrenze pianificate o processi in background precedenti.
 
 ## <a name="calendar-view"></a>Visualizzazione calendario 
 Uno dei principali vantaggi dell'automazione di processo è la capacità di vedere il lavoro pianificato in una semplice vista del calendario.  Questa vista ti consente di vedere il lavoro per una settimana alla volta. Vedrai questa vista sul lato destro della pagina **Automazione processo**. Verrà popolata con il lavoro pianificato per le serie selezionate. 

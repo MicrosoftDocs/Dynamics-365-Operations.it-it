@@ -156,6 +156,8 @@
                           items:
                             - name: Personalizzazione di mapping di entità e campo
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Gestione di più mappe di entità
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Modificare una persona giuridica dopo l'impostazione della doppia scrittura
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gestione degli errori e notifiche di avviso
