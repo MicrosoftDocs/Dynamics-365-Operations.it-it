@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Incorporare app PowerApps
+                - name: Incorporare Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Accesso alle informazioni e creazione di report
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Opzioni di personalizzazione con PowerBI.com
+            - name: Opzioni di personalizzazione con Power BI
               items:
-                - name: Funzionalità disponibili tramite l'integrazione con PowerBI.com
+                - name: Funzionalità disponibili tramite l'integrazione con Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Aggiungere contenuto PowerBI.com
+                - name: Aggiungere contenuto Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Selezionare le aree di lavoro analitiche in PowerBI.com
+                - name: Selezionare le aree di lavoro analitiche in Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Contenuto Power BI
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Escludere i prodotti dalla pianificazione generale
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Beni a doppio utilizzo
-                  href: pim/dual-use.md
-                - name: Paese di origine
-                  href: pim/country-of-origin.md
                 - name: Creare un codice a barre per un prodotto
                   href: pim/tasks/create-bar-code-product.md
                 - name: Immettere il codice GTIN per un prodotto
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Aggiungere un'immagine a un prodotto
                   href: pim/tasks/add-image-product.md
+                - name: Paese di origine
+                  href: pim/country-of-origin.md
+                - name: Beni a doppio utilizzo
+                  href: pim/dual-use.md
+                - name: Materiali pericolosi
+                  items:
+                    - name: Panoramica dei materiali pericolosi
+                      href: pim/hazmat-overview.md
+                    - name: Impostare i materiali pericolosi
+                      href: pim/hazmat-setup.md
+                    - name: 'Materiali pericolosi in prodotti, ordini, spedizioni e carichi'
+                      href: pim/hazmat-items.md
+                    - name: Richieste di informazioni e report su materiali pericolosi
+                      href: pim/hazmat-reports.md
                 - name: Domande frequenti sulla traduzione delle informazioni sul prodotto
                   href: pim/translations-product-related-information.md
                 - name: Ricerca del prodotto durante la registrazione ordine

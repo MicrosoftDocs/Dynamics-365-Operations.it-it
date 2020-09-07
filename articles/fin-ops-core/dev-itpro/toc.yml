@@ -130,6 +130,8 @@
                       items:
                         - name: Home page doppia scrittura
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Novità o modifiche nella doppia scrittura
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Panoramica della doppia scrittura
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Configurazione a doppia scrittura
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Creare criteri di sicurezza
                   href: sysadmin/create-simple-security-policy.md
+            - name: Conformità con i requisiti di licenza utente
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Automazione del processo
               href: sysadmin/process-automation.md
             - name: Elaborazione batch

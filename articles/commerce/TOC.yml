@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Acquistare Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Linee guida per l'implementazione di Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: App Finance and Operations gestite da 21Vianet in Cina
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: App Finance and Operations in Francia
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Incorporare app PowerApps
+                - name: Incorporare Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selezionare una topologia in punto vendita
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange e comunicazioni dei canali di commercio
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Procedura consigliate di Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange e comunicazioni dei canali di commercio
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Risoluzione dei problemi di Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: Architettura Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Architettura di pubblicazione del punto vendita online
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: Panoramica dei pagamenti omnicanale
                       href: omni-channel-payments.md
+                    - name: Pagamenti ordini Commerce omnicanale
+                      href: dev-itpro/commerce-payments.md
                     - name: Domande frequenti sui pagamenti
                       href: dev-itpro/payments-retail.md
                 - name: Gestire Bing Mappe per la tua organizzazione
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Modificare e controllare transazioni punto vendita al dettaglio
               href: edit-audit-retail-transactions.md
-            - name: 'Creare, calcolare e registrare rendiconti per un punto vendita al dettaglio'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Creazione di ordini basata su inserimento continuo per le transazioni punto vendita al dettaglio
               href: trickle-feed.md
             - name: 'Creare, calcolare e registrare rendiconti per un punto vendita al dettaglio'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Accesso alle informazioni e creazione di report
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Opzioni di personalizzazione con PowerBI.com
+            - name: Opzioni di personalizzazione con Power BI
               items:
-                - name: Funzionalità disponibili tramite l'integrazione con PowerBI.com
+                - name: Funzionalità disponibili tramite l'integrazione con Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Aggiungere contenuto PowerBI.com
+                - name: Aggiungere contenuto Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Selezionare le aree di lavoro analitiche in PowerBI.com
+                - name: Selezionare le aree di lavoro analitiche in Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Contenuto Power BI
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Risolvere i problemi dopo la gestione dell'archivio entità
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Configurare l'integrazione PowerBI.com
+                - name: Configurare l'integrazione di Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Portare il proprio database
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: Creare un pacchetto di configurazioni e distribuirle in un ambiente online
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK e aggiornamenti libreria di base
+                    - name: Aggiornamenti SDK e starter kit del punto vendita
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Distribuire connettori di pagamento
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Acquisizione incrementale per fatturazione back-office
+                  href: dev-itpro/incremental-capture.md
                 - name: Creare messaggi di errore localizzati personalizzati per le estensioni terminali di pagamento
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Creare programmi di installazione di Windows per connettori pagamenti
