@@ -3,7 +3,7 @@ title: Contratti di garanzia
 description: In questo argomento vengono descritti i contratti di garanzia in Gestione cespiti.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215380"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719240"
 ---
 # <a name="warranty-agreements"></a>Contratti di garanzia
 
@@ -42,12 +42,12 @@ Un contratto di garanzia può includere varie righe del contratto per coprire la
 
 1. Selezionare **Gestione cespiti** \> **Impostazione** \> **Cespiti** \>**Garanzia**.
 2. Selezionare **Nuovo** per creare un prodotto.
-3. Nel campo **Garanzia**, immettere un ID garanzia.
+3. Nel campo **Garanzia**, immettere un ID garanzia. 
 4. Nel campo **Nome** immettere una descrizione.
 
     Nella Scheda dettaglio **Dettagli**, il campo **Cespiti** visualizza il numero di cespiti attivi che utilizzano il contratto di garanzia.
 
-5. Nelle Schede dettaglio **Garanzia ore** e **Garanzia articoli**, seguire questi passaggi per aggiungere righe che devono essere incluse in un contratto di garanzia relativo a ore o articoli:
+5. Nella scheda dettaglio **Righe garanzia** attenersi alla seguente procedura per aggiungere righe da includere in un contratto di garanzia:
 
     1. Selezionare **Aggiungi riga** per aggiungere una nuova condizione alla garanzia. Un numero di riga sequenziale viene immesso automaticamente nel campo **Riga**.
     2. Nel campo **Periodo** selezionare il tipo di periodo di garanzia.

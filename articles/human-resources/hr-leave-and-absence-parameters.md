@@ -3,7 +3,7 @@ title: Configurare i parametri di congedo e assenza
 description: Definire i parametri delle risorse umane per congedo e assenza in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428946"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712378"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurare i parametri di congedo e assenza
 
@@ -31,7 +31,7 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 
 - La sequenza numerica per richieste di congedo
 - Impostazioni relative alla normativa per il congedo per motivi medici e familiari (FMLA)
-- Impostazioni di Dipendente self-service per richieste di congedo e assenza
+- Impostazioni di Self-service dipendenti per richieste di congedo e assenza
 - Parametri di congedi e assenze
 
 ## <a name="view-and-change-human-resources-parameters"></a>Visualizzare e modificare parametri delle risorse umane
@@ -44,9 +44,7 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 
 4. Nella scheda **FMLA**, verificare le impostazioni FMLA e modificare come necessario.
 
-5. Nella scheda **Dipendente self-service**, indicare se i manager possono immettere richieste di congedo e assenza per conto dei propri dipendenti.
-
-6. Nella scheda **Congedo e assenza**, verificare le impostazioni e modificare come necessario.
+5. Nella scheda **Self-service dipendenti**, indicare se i manager possono immettere richieste di congedo e assenza per conto dei propri dipendenti.
 
 7. Selezionare **Salva**.
 
@@ -62,7 +60,11 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 
     - Selezionare **Mesi della data di entrata in servizio** per stabilire quando il coefficiente di accumulo diventa effettivo per i piani di congedo che utilizzano mesi di servizio.
 
-    - Selezionare **Calcolo del saldo** per visualizzare i saldi visualizzati a partire dalla data odierna o dal periodo di competenza. Se viene selezionato **Saldo dalla data odierna**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste all data odierna. Se viene selezionato **Saldo dal periodo di competenza**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste dal periodo di competenza definito dalla frequenza nel piano di ferie. 
+    - Selezionare **Calcolo del saldo** per visualizzare i saldi a partire dalla data odierna o dal periodo di competenza. Se viene selezionato **Saldo dalla data odierna**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste all data odierna. Se viene selezionato **Saldo dal periodo di competenza**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste dal periodo di competenza definito dalla frequenza nel piano di ferie. 
+
+    - Impostare l'ora di inizio per il processo batch con scadenza di riporto.  
+    
+    - Selezionare **Sì** per **Consenti a dipendenti di acquistare congedi** e **Consenti a dipendenti di vendere congedi**. Se si seleziona **Sì** per queste opzioni, è possibile creare criteri di acquisto e vendita di congedi e consentire ai dipendenti di inviare richieste di acquisto e vendita di congedi.
 
 ## <a name="configure-calendar-parameters"></a>Configurare i parametri del calendario
 

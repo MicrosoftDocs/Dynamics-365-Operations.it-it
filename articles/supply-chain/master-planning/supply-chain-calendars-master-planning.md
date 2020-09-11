@@ -3,7 +3,7 @@ title: Calendari e pianificazione generale
 description: In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213494"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710335"
 ---
 # <a name="calendars-and-master-planning"></a>Calendari e pianificazione generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.  Vengono descritti i differenti calendari utilizzati nel motore di pianificazione generale, incluso il modo in cui influiscono le date di spedizione e ricezione negli ordini pianificati. Vengono inoltre forniti suggerimenti relativi all'assegnazione, all'utilizzo e all'aggiornamento dei calendari.
+In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.  Vengono descritti i differenti calendari utilizzati nel motore di pianificazione generale, incluso il modo in cui influiscono le date di spedizione e ricevimento negli ordini pianificati. Vengono inoltre forniti suggerimenti relativi all'assegnazione, all'utilizzo e all'aggiornamento dei calendari.
 
 ## <a name="definition-of-a-calendar"></a>Definizione di un calendario
 
@@ -105,28 +105,28 @@ La data ordine in un ordine fornitore pianificato indica la data in cui l'ordine
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Data di consegna di un ordine fornitore pianificato
 La data di ricevimento di un acquisto indica la data in cui si riceveranno le merci. Sarà una data aperta nel calendario. Il calendario che verrà preso in considerazione per indicare in quali giorni è possibile ricevere degli ordini fornitore possono essere ricevuti è uno dei calendari elencati di seguito, a partire da quello con la priorità più alta: 
-    1. Calendario del fornitore
-    2. Calendario del gruppo di copertura
-    3. Calendario di magazzino per il magazzino ricevente
+1. Calendario del fornitore
+1. Calendario del gruppo di copertura
+1. Calendario di magazzino per il magazzino ricevente
 
 Si noti che il calendario del gruppo di copertura può essere impostato in pagine differenti e arà la priorità nel seguente ordine:
-    1. Gruppo di copertura articoli nella pagina **Dettagli prodotti rilasciati**
-    2. Gruppo di copertura articoli nella pagina **Copertura articoli**
-    3. Gruppo di copertura articoli predefinito in **Parametri di pianificazione generale**
+1. Gruppo di copertura articoli nella pagina **Copertura articoli**
+1. Gruppo di copertura articoli nella pagina **Dettagli prodotti rilasciati**
+1. Gruppo di copertura articoli predefinito in **Parametri di pianificazione generale**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Data di spedizione di un ordine di trasferimento pianificato
 Quando si crea un ordine di trasferimento tra due magazzini, la data di spedizione e la data di ricevimento sono incluse nell'intestazione dell'ordine di trasferimento, insieme al magazzino "Da" e il magazzino "A". La differenza tra queste due date è il tempo di trasporto previsto (in giorni) tra i magazzini.
 
 La data di spedizione di un ordine di trasferimento pianificato indica la data in cui le merci sono spedite dal magazzino "Da". I calendari utilizzati per specificare la data di spedizione disponibile sono elencati per priorità: 
-    1. Calendario di magazzino del magazzino "Da"
-    2. Calendario del gruppo di copertura (vedere l'ordine fallback per questo calendario sopra) Se è presente un calendario di magazzino impostato, la data di spedizione sarà una data aperta nel calendario. Se non è disponibile un calendario di magazzino impostato, verrà utilizzato il calendario del gruppo di copertura. 
+1. Calendario di magazzino del magazzino "Da"
+1. Calendario del gruppo di copertura (vedere l'ordine fallback per questo calendario sopra) Se è presente un calendario di magazzino impostato, la data di spedizione sarà una data aperta nel calendario. Se non è disponibile un calendario di magazzino impostato, verrà utilizzato il calendario del gruppo di copertura. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Data di ricevimento di un ordine di trasferimento pianificato
 La data di ricevimento di un ordine di trasferimento indica la data in cui le merci vengono ricevute nel magazzino "A".
 
 I calendari utilizzati per specificare la data di ricevimento sono quelli elencati per priorità: 
-    1. Calendario del gruppo di copertura 
-    2. Calendario di magazzino del magazzino "A" Se è presente un calendario di copertura impostato, la data di ricezione sarà una data aperta nel calendario. Se non è disponibile un calendario del gruppo di copertura impostato, verrà utilizzato il calendario di magazzino. 
+1. Calendario del gruppo di copertura 
+1. Calendario di magazzino del magazzino "A" Se è presente un calendario di copertura impostato, la data di ricezione sarà una data aperta nel calendario. Se non è disponibile un calendario del gruppo di copertura impostato, verrà utilizzato il calendario di magazzino. 
 
 Quando si trovano le date di spedizione e ricevimento per il trasferimento pianificato, anche i margini stabiliti dall'utente per la spedizione e il ricevimento verranno presi in considerazione. 
 

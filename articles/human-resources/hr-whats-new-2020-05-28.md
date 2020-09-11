@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (28 maggio 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 28 maggio 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/28/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7664afbd0b1fd4e2c9686053fa102d85809c0411
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 00a5881ea88749c8553e4c810fb57070f217b01c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555317"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712014"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (28 maggio 2020)
 
@@ -53,7 +53,7 @@ Questa modifica disabilita le opzioni di retribuzione per impedire l'immissione 
 
 I messaggi di errore durante il trasferimento di un dipendente in questo scenario sono stati aggiornati per descrivere meglio le modifiche necessarie per correggere il problema.
 
-## <a name="attachments-capabilities-in-employee-self-service-benefits-enrollment"></a>Funzionalità relative agli allegati nell'iscrizione ai benefit in Dipendente self-service
+## <a name="attachments-capabilities-in-employee-self-service-benefits-enrollment"></a>Funzionalità relative agli allegati nell'iscrizione ai benefit in Self-service dipendenti
  
 Ora è possibile aggiungere allegati durante il processo di iscrizione ai benefit per ciascun piano a cui si iscrive il dipendente. È quindi possibile visualizzare gli allegati nel modulo **Benefit a cui è iscritto il lavoratore**.
 

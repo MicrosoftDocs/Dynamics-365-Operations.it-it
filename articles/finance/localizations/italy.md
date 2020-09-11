@@ -3,7 +3,7 @@ title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55eef2a8a0c0335bb213c7818368f682722f41f4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1667dbb1d77975473b187e1a9f9271706e9e91f4
+ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429302"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "3734867"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -46,11 +46,13 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Registrare le fatture con importo pari a zero](emea-ita-exil-zero-invoice-posting.md)
 - [Miglioramento dell'usabilità dei dati bancari](emea-ita-exil-bank-accounts-setup.md)
 - [Spese varie per chilogrammo in una dichiarazione Intrastat](emea-ita-exil-misc-charges-intrastat.md)
+- [Gestione note avanzate](emea-ita-exil-structured-notes.md)
 - [Lettere di intento - Fatturazione di esportatori abituali](emea-ita-exil-intent-letter.md)
 - [Fattura fiscale per le merci consegnate gratuitamente](emea-ita-exil-goods-for-free.md)
 - [Miglioramento della richiesta informazioni sulle liquidazioni a debito o credito](emea-ita-exil-improved-inquiry-settlement.md)
 - [Liquidazione provvigione su pagamento](emea-ita-exil-commission-settlement.md)
 - [Simulazioni di contabilità generale (Italia)](emea-ita-exil-general-ledger-simulations.md)
 - [Profili registrazione configurabili per banche e tipi di rimessa](emea-ita-exil-bank-remittance.md)
-- [Certificazione univoca](emea-ita-exil-unique-certification.md)
-- [Importazione di protesti effetti attivi](emea-ita-exil-protest-boe.md)
+- [Certificazione unica](emea-ita-exil-unique-certification.md)
+- [Importazione protesto di effetti attivi](emea-ita-exil-protest-boe.md)
+- [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)

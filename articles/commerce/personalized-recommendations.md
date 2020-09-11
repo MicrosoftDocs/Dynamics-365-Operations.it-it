@@ -3,7 +3,7 @@ title: Abilitare suggerimenti personalizzati sui prodotti
 description: Questo argomento descrive come rendere disponibili suggerimenti personalizzati sui prodotti per i clienti in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664860"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700868"
 ---
 # <a name="enable-personalized-recommendations"></a>Abilitare suggerimenti personalizzati
 
@@ -49,11 +49,13 @@ Per ulteriori informazioni relative ai suggerimenti sui prodotti, vedere [Panora
 
 Per attivare la personalizzazione, effettuare le seguenti operazioni.
 
-1. Andare a **Retail e Commerce \> Suggerimenti sul prodotto \> Parametri suggerimenti**.
-1. Nell'elenco Parametri condivisi di vendita al dettaglio, selezionare **Elenchi di suggerimenti**.
-1. Impostare l'opzione **Abilita personalizzazione** su **Sì**.
+1. In Commerce headquarters cercare **Gestione funzionalità**.
+1. Selezionare **Tutto** per visualizzare un elenco delle funzionalità disponibili. 
+1. Nella casella di ricerca, immettere **Elementi consigliati**.
+1. Selezionare la funzionalità **Suggerimenti sul prodotto personalizzato**.
+1. Nel riquadro delle proprietà **Suggerimenti sul prodotto personalizzato**, selezionare **Abilita ora**.
 
-![Attivare la personalizzazione](./media/enablepersonalization.png)
+![Attivare la personalizzazione](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Quando si attiva la personalizzazione, viene avviato il processo di generazione di elenchi di suggerimento personalizzati sui prodotti. Potrebbe essere necessario fino a un giorno prima che questi elenchi siano disponibili e visibili online nel POS.

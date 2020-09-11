@@ -3,7 +3,7 @@ title: Creazione di ordini basata su inserimento continuo per le transazioni pun
 description: In questo argomento viene descritta la creazione di ordini basata su inserimento continuo per le transazioni punto vendita in Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 06/08/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057163"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710285"
 ---
-# <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Creazione di ordini basata su inserimento continuo per le transazioni punto vendita al dettaglio (anteprima pubblica)
+# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Creazione di ordini basata su inserimento continuo per le transazioni punto vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
 
 In Dynamics 365 Retail versione 10.0.4 e precedenti, la registrazione dei rendiconti è un'operazione di fine giornata e tutte le transazioni vengono registrate al termine della giornata. Le transazioni di grandi dimensioni devono quindi essere elaborate in un intervallo di tempo limitato, talvolta creando problemi di carico e blocco ed errori di registrazione dei rendiconti. Inoltre, i rivenditori non possono riconoscere ricavi e pagamenti nei registri durante la giornata.
 
-Con l'anteprima pubblica della creazione di ordini basata su inserimento continuo introdotta in Retail versione 10.0.5, le transazioni vengono elaborate durante la giornata, mentre solo la riconciliazione finanziaria dei metodi di pagamento e di altre transazioni di gestione di cassa viene elaborata al termine della giornata. Questa funzionalità suddivide il carico della creazione di ordini cliente, fatture e pagamenti lungo l'arco della giornata, offrendo prestazioni percepite migliori e la capacità riconoscere i ricavi e i pagamenti nei registri in tempo quasi reale. 
+Con la creazione di ordini basata su inserimento continuo introdotta in Retail versione 10.0.5, le transazioni vengono elaborate durante la giornata, mentre solo la riconciliazione finanziaria dei metodi di pagamento e di altre transazioni di gestione di cassa viene elaborata al termine della giornata. Questa funzionalità suddivide il carico della creazione di ordini cliente, fatture e pagamenti lungo l'arco della giornata, offrendo prestazioni percepite migliori e la capacità riconoscere i ricavi e i pagamenti nei registri in tempo quasi reale. 
 
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Come utilizzare la registrazione basata su inserimento continuo

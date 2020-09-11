@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 49824d8618aedf4e6685daf2bed752e75d3fd34f
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: b6ddd2177c46dcf19bf42eeadf3c7f835fa3e72f
+ms.sourcegitcommit: fa8bc4c6fcaba870aead619f80091fb65a28d982
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091810"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711176"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -36,9 +36,9 @@ In questo argomento viene descritto come è possibile gestire le informazioni re
 È possibile specificare informazioni sul cliente, come il codice fiscale o il codice lotteria, quando si crea o si modifica un record di dati master del cliente nel POS. È inoltre possibile specificare il codice lotteria per una transazione di vendita copiandolo dal cliente della transazione o immettendolo manualmente. Il codice lotteria può quindi essere stampato sia sulle ricevute fiscali e su quelle normali ed essere utilizzato per la lotteria nazionale. I codici fiscali personali possono inoltre essere utilizzati per individuare un cliente in POS.
 
 > [!NOTE]
-> Questa funzionalità è disponibile nella versione 10.0.8 e successive.
+> Questa funzionalità è disponibile nella versione 10.0.7 e successive.
 
-## <a name="setup"></a>Impostazione
+## <a name="setup"></a>Attrezzaggio
 
 È necessario completare la seguente configurazione per utilizzare questa funzionalità:
 
@@ -54,7 +54,7 @@ In questo argomento viene descritto come è possibile gestire le informazioni re
 Prima di poter specificare i codici lotteria nel POS, è necessario creare un tipo di registrazione appropriato per il codice lotteria e collegarlo alla categoria di registrazione **Codice lotteria**. Per ulteriori informazioni su come utilizzare i tipi di registrazione e gli ID registrazione, vedere [ID registrazione](../../finance/localizations/emea-registration-ids.md).
 
 > [!WARNING]
-> Se un tipo di registrazione non viene creato o non è collegato alla categoria di registrazione **Codice lotteria**, viene generato un errore nel POS quando il codice lotteria viene immesso per un indirizzo cliente. 
+> Se un tipo di registrazione non viene creato o non è collegato alla categoria di registrazione **Codice lotteria**, viene generato un errore nel POS quando il codice lotteria viene immesso per un indirizzo cliente.
 
 ### <a name="add-the-add-customer-information-operation-to-screen-layouts"></a>Aggiungere l'operazione Aggiungi informazioni cliente ai layout dello schermo
 
@@ -155,22 +155,41 @@ In questa sezione vengono fornite le linee guida per la distribuzione per consen
 
 ### <a name="update-customizations"></a>Aggiornare le personalizzazioni
 
-Seguire questi passaggi se una qualsiasi delle personalizzazioni include gestori di richieste per la richiesta SaveCartRequest o CreateSalesOrderServiceRequest.
+Seguire i passaggi seguenti per aggiornare le personalizzazioni.
 
-1. Individuare il gestore per la richiesta **SaveCartRequest**.
-1. Individuare la riga di codice che esegue il gestore originale.
-1. Sostituire la classe del gestore originale con **TaxRegistrationIdFiscalCustomerService**.
+# <a name="retail-1007-and-later"></a>[Retail 10.0.7 e versioni successive](#tab/retail-10-0-7)
+
+Se una qualsiasi delle personalizzazioni include gestori di richieste per le richieste `SaveCartRequest` o `CreateSalesOrderServiceRequest`:
+
+1. Trovare il gestore delle richieste per `SaveCartRequest`.
+1. Individuare la riga di codice che esegue il gestore delle richieste originale.
+1. Aggiungere le seguenti righe prima di chiamare il gestore delle richieste originale:
 
     ```cs
     using Microsoft.Dynamics.Commerce.Runtime.TaxRegistrationIdItaly.Services;
 
     ...
 
-    var requestHandler = new TaxRegistrationIdFiscalCustomerService();
-    var response = request.RequestContext.Runtime.Execute<SaveCartResponse>(request, request.RequestContext, requestHandler, skipRequestTriggers: false);
+    new TaxRegistrationIdFiscalCustomerService().Execute(request);
     ```
 
-1. Ripetere i passaggi da 1 a 3 per la richiesta **CreateSalesOrderServiceRequest**.
+1. Trovare il gestore delle richieste per `CreateSalesOrderServiceRequest`.
+1. Individuare la riga di codice che esegue il gestore delle richieste originale.
+1. Sostituirlo con il codice seguente:
+
+    ```cs
+    using Microsoft.Dynamics.Commerce.Runtime.TaxRegistrationIdItaly.Services;
+
+    ...
+
+    return new TaxRegistrationIdFiscalCustomerService().Execute(request);
+    ```
+
+# <a name="retail-10012-and-later"></a>[Retail 10.0.12 e versioni successive](#tab/retail-10-0-12)
+
+Se le personalizzazioni includono riferimenti al servizio `TaxRegistrationIdFiscalCustomerService`, questi devono essere rimossi.
+
+---
 
 ### <a name="update-a-development-environment"></a>Aggiornare un ambiente di sviluppo
 

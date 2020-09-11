@@ -1,6 +1,6 @@
 ---
-title: Panoramica
-description: In Dynamics 365 Human Resources, l'area di lavoro congedo e assenza fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere i permessi.
+title: Panoramica di congedo e assenza
+description: In Dynamics 365 Human Resources, l'area di lavoro Congedo e assenza fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428969"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712402"
 ---
-# <a name="overview"></a>Panoramica
+# <a name="leave-and-absence-overview"></a>Panoramica di congedo e assenza
 
-Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori. L'area di lavoro **Congedo e assenza** fornisce un framework flessibile per la creazione di nuovi piani di congedo, flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per consentire ai dipendenti di richiedere permessi. Analytics aiuta l'organizzazione a misurare e monitorare i saldi delle ferie e l'utilizzo dei piani ferie.
+Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori. L'area di lavoro **Congedo e assenza** fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso. Le funzionalità di analisi consentono all'organizzazione di misurare e monitorare i saldi di congedo e l'utilizzo per i piani di congedo.
 
 ## <a name="set-up-leave-and-absence"></a>Configurare Congedo e assenza
 
@@ -49,44 +49,8 @@ Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di c
 
 ## <a name="request-time-off-and-manage-requests"></a>Richiedere permessi e gestire le richieste
 
-Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Dipendente self-service**.
+Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Self-service dipendenti**.
 
-- [Richiedere un permesso](hr-employee-self-service-request-time-off.md)
-- [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
-
-## <a name="leave-and-absence-known-issues"></a>Problemi noti di congedo e assenza
-
-### <a name="rounding-precision"></a>Precisione di arrotondamento
-
-Non è possibile impostare la **Precisione di arrotondamento** quando si imposta **Tipo di arrotondamento**. È possibile impostare la **Precisione di arrotondamento** usando l'entità **Tipi di congedo e assenza**. 
-
-1. Da **Tipi di congedo e assenze**, selezionare **Apri in Excel** per aprire l'entità **Congedo e tipo di assenza**.
-
-2. Dopo l'apertura e l'attivazione del file, selezionare **Progetta**.
-
-3. Sulla tabella **Tipo di congedo e assenza**, selezionare l'opzione con la matita per modificare.
-
-4. Selezionare **RoundingPrecision** e **RoundingType**, quindi selezionare **Inserisci** per aggiungere all'elenco dei campi.
-
-5. Selezionare **Aggiorna** e quindi **Fatto**.
-
-6. Immettere o selezionare il **Tipo di arrotondamento** per ogni tipo di congedo se non è già stato impostato. 
-
-7. Inserire la **Precisione di arrotondamento** per i tipi appropriati.
-
-8. Selezionare **Pubblica** per inviare le modifiche in Human Resources.
-
-## <a name="leave-and-absence-preview-features"></a>Funzionalità di anteprima di Congedo e assenza
-
-È possibile provare le nuove funzionalità di anteprima di Congedo e assenza in un ambiente **Sandbox**. Per informazioni su come attivare le funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md). 
-
-[!include [banner](includes/preview-feature.md)]
-
-Le funzionalità di anteprima includono:
-
-- **Accumulo di congedi per società o piano** - È possibile eseguire il processo di accumulo per tutte le società o per una singola società. È inoltre possibile eseguire il processo di accumulo per un piano di congedo e assenza specifico per una società specifica. 
-
-- **Acquista congedi** - È possibile abilitare e creare criteri di acquisto di congedi per dipendenti per inviare richieste di acquisto. I dipendenti possono inviare richieste di acquisto e aggiornare automaticamente i saldi per riflettere la richiesta.  
-
-- **Aggiungi allegati a richieste di congedo approvate** - È possibile aggiungere un allegato a una richiesta di congedo già approvata. 
+[Richiedere permessi](hr-employee-self-service-request-time-off.md)
+[Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
 

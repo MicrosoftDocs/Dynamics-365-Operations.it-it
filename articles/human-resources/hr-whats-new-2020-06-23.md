@@ -1,6 +1,6 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (25 giugno 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 23 giugno 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa02cf10b2b4fe08440d3641472e83dfe58169c9
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614388"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711942"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (23 giugno 2020)
 
@@ -88,7 +88,7 @@ Alcune organizzazioni offrono un benefit che consente ai dipendenti di acquistar
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Lascia l'attribuzione per una singola azienda o un singolo piano
 
-I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza nel processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza nel processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Aggiungi allegati alle richieste di ferie
 
@@ -112,9 +112,9 @@ Un'entità DMF è ora disponibile per le sospensioni degli accumuli.
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome del dipendente self-service
+## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome del self-service dipendenti
 
-Una nuova opzione sarà disponibile nei **parametri Risorse umane** per aggiornare il nome dell'area di lavoro Dipendente self-service in Self-service.
+Una nuova opzione sarà disponibile nei **parametri Risorse umane** per aggiornare il nome dell'area di lavoro Self-service dipendenti in Self-service.
 
 ## <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
 

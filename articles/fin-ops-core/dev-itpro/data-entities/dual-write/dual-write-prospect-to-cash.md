@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443897"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719266"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -79,7 +79,7 @@ Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il pa
 
 Gli ordini cliente possono essere creati in Sales o in Supply Chain Management. Se si crea un ordine cliente in Sales, viene sincronizzato con Supply Chain Management in tempo reale. Analogamente se si crea un ordine cliente in Supply Chain Management, viene sincronizzato con Sales in tempo reale. Notare i punti seguenti:
 
-+ È possibile attivare e sincronizzare gli ordini da Sales solo se tutti i prodotti dell'ordine provengono da app Finance and Operations. Di conseguenza, non possono includere prodotti fuori catalogo.
++ I prodotti per scrittura in Dynamics 365 Sales verranno visualizzati come categorie di prodotti in Dynamics 365 Supply Chain Management.
 + Calcolo e arrotondamento dello sconto:
 
     - Il modello di calcolo dello sconto in Sales differisce da quello in Supply Chain Management. In Supply Chain Management, l'importo di sconto finale in una riga di vendita può derivare da una combinazione di importi e percentuali di sconto. Se questo importo di sconto finale viene diviso per la quantità nella riga, è possibile che venga applicato l'arrotondamento. Tuttavia, questo arrotondamento non viene considerato se un importo di sconto per unità arrotondato viene sincronizzato in Sales. Per garantire la corretta sincronizzazione in Sales dell'intero importo di sconto da una riga di vendita in Supply Chain Management, l'intero importo deve essere sincronizzato senza essere diviso per la quantità della riga. Di conseguenza, è necessario definire il metodo di calcolo sconto come **Voce** in Sales.

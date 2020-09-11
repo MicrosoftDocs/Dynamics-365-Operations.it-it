@@ -3,12 +3,12 @@ title: Libri IVA italiani
 description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/29/2020
+ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters
+ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters, LedgerParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 96231c13f7274ff4ce4a92cc7230bf2e6bdfcb3f
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 9dd03d5fb9faeaf4ae160fa6cf55998ff3be72d7
+ms.sourcegitcommit: 045be8c2cb065497f3b58c50dff16d7a71aaa876
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527623"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "3722236"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
@@ -74,7 +74,11 @@ In alcuni casi, il campo <strong>Libro IVA italiano</strong> viene impostato aut
 <li>Parametri contabilità fornitori</li>
 <li>Parametri Gestione progetti e contabilità</li>
 </ul>
-Ad esempio, nella pagina <strong>Parametri contabilità clienti</strong>, scheda <strong>Sequenze numeriche</strong>, selezionare la casella di controllo <strong>Riutilizza numeri</strong> per <strong>Giustificativo di fattura a testo libero</strong> per sincronizzare l'allocazione dei numeri per i giustificativi fattura a testo libero e fatture a testo libero.</td>
+Ad esempio, nella pagina <strong>Parametri contabilità clienti</strong>, scheda <strong>Sequenze numeriche</strong>, selezionare la casella di controllo <strong>Riutilizza numeri</strong> per <strong>Giustificativo di fattura a testo libero</strong> per sincronizzare l'allocazione dei numeri per i giustificativi fattura a testo libero e fatture a testo libero.
+
+
+Nella localizzazione italiana, le correzioni al report di pagamento IVA italiano per un periodo IVA già regolato non sono supportate. Quindi nella pagina <strong>Parametri di contabilità generale</strong>, nella scheda <strong>IVA</strong>, impostare l'opzione **Includi correzioni** del report speciale su **NO**.
+</td>
 </tr>
 </tbody>
 </table>

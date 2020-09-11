@@ -3,7 +3,7 @@ title: Elenco delle funzioni ER nella categoria logica
 description: Questo argomento fornisce informazioni sulle funzioni logiche supportate nella creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916639"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705097"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Elenco delle funzioni ER nella categoria logica
 
@@ -41,6 +41,8 @@ Le funzioni logiche della creazione di report elettronici (ER) possono essere ut
 | [Non](er-functions-logical-not.md)                       | Questa funzione restituisce il valore logico inverso della condizione specificata come valore *Booleano*. |
 | [Or](er-functions-logical-or.md)                         | Questa funzione restituisce un valore *Booleano* **FALSE** se tutte le condizioni specificate sono false. Se una condizione specificata è vera, la funzione restituisce un valore *Booleano* **TRUE**. |
 | [ValueIn](er-functions-logical-valuein.md)               | Questa funzione determina se l'input specificato corrisponde a qualsiasi valore di una voce specificata nell'elenco specificato. Restituisce un valore *Booleano* **TRUE** se l'input specificato corrisponde al risultato dell'esecuzione dell'espressione specificata per almeno un record dell'elenco specificato. In caso contrario, restituisce il valore *Booleano* **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Questa funzione determina se l'input specificato di tipo *Int64* o *Intero* corrisponde a qualsiasi valore di una voce specificata nell'elenco specificato. Restituisce un valore *Booleano* **TRUE** se l'input specificato corrisponde al risultato dell'esecuzione dell'espressione specificata per almeno un record dell'elenco specificato. In caso contrario, restituisce il valore *Booleano* **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

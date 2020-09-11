@@ -3,7 +3,7 @@ title: Funzione ER VALUEIN
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione VALUEIN della creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041701"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705121"
 ---
-# <a name="VALUEIN">Funzione ER VALUEIN</a>
+# <a name=""></a><a name="VALUEIN">Funzione ER VALUEIN</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Il valore *Booleano* risultante.
 
 ## <a name="usage-notes"></a>Note sull'utilizzo
 
-In generale la funzione `VALUEIN` viene convertita in un set di condizioni **OR** .
+In generale la funzione `VALUEIN` viene convertita in un set di condizioni **OR** . Se l'elenco di condizioni **OR** è grande e la lunghezza totale massima di un'istruzione SQL potrebbe essere superata, prendere in considerazione l'utilizzo della funzione [`VALUEINLARGE`](er-functions-logical-valueinlarge.md).
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Quando viene chiamata un'origine dati, se è stata configurata come espressione 
 
 Il limite massimo per il numero di caratteri nel testo di tale condizione è di 32.768 caratteri. Di conseguenza, evitare di creare origini dati che potrebbero superare il limite in fase di esecuzione. Se il limite viene superato, l'applicazione smette di funzionare e viene generata un'eccezione. Ad esempio, questa situazione può verificarsi se l'origine dati viene configurata come `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` e gli elenchi **List1** e **List2** contengono un ampio volume di record.
 
-In alcuni casi, la funzione `VALUEIN` viene convertita in un'istruzione di database utilizzando l'operatore `EXISTS JOIN`. Questo comportamento avviene quando la funzione [FILTER](er-functions-list-filter.md) viene utilizzata e vengono soddisfatte le seguenti condizioni:
+In alcuni casi, la funzione `VALUEIN` viene convertita in un'istruzione di database utilizzando l'operatore `EXISTS JOIN`. Questo comportamento avviene quando la funzione [`FILTER`](er-functions-list-filter.md) viene utilizzata e vengono soddisfatte le seguenti condizioni:
 
 - L'opzione **Chiedi query** è disattivata per l'origine dati della funzione `VALUEIN` che fa riferimento all'elenco di record. Nessuna condizione aggiuntiva verrà applicata a questa origine dati in fase di esecuzione.
 - Nessuna espressione nidificata è configurata per l'origine dati della funzione `VALUEIN` che fa riferimento all'elenco di record.
 - Una voce dell'elenco della funzione `VALUEIN` si riferisce a un campo dell'origine dati specificata, non a un'espressione o un metodo di quell'origine dati.
 
-Può essere opportuno di utilizzare questa opzione anziché la funzione [WHERE](er-functions-list-where.md) descritta in precedenza in questo esempio.
+Può essere opportuno di utilizzare questa opzione anziché la funzione [`WHERE`](er-functions-list-where.md) descritta in precedenza in questo esempio.
 
 ## <a name="example-2"></a>Esempio 2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni logiche](er-functions-category-logical.md)
+
+[Funzioni VALUEINLARGE](er-functions-logical-valueinlarge.md)

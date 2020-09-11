@@ -1,6 +1,6 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (08 luglio 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources all'8 luglio 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/08/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c4382aa7473e2b67201ac00753ac9abe11b3c646
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d2f542195693e825391b85efc4a7e91fdfea3944
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614364"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (8 luglio 2020)
 
@@ -33,13 +33,13 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Hu
 
 La registrazione del database consente di determinare quali tabelle e quali campi monitorare. Inoltre, consente di determinare gli eventi che dovrebbero attivare il rilevamento delle modifiche. Usare le funzionalità di registrazione del database per visualizzare tali modifiche nel tempo. Per ulteriori informazioni, vedi [Configurare e gestire la registrazione del database](hr-admin-database-logging.md).
 
-## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome dell'area di lavoro Dipendente self-service
+## <a name="configure-the-name-of-employee-self-service"></a>Configurare il nome dell'area di lavoro Self-service dipendenti
 
-In **Parametri Risorse umane**, è ora possibile cambiare il nome dell'area di lavoro **Dipendente self-service** in **Self-service**. Per ulteriori informazioni, vedere [Cambiare il nome dell'area di lavoro Dipendente self-service](hr-employee-self-service-workspace-name.md)
+In **Parametri Risorse umane**, è ora possibile cambiare il nome dell'area di lavoro **Self-service dipendenti** in **Self-service**. Per ulteriori informazioni, vedere [Cambiare il nome dell'area di lavoro Self-service dipendenti](hr-employee-self-service-workspace-name.md)
 
 ## <a name="benefits-management-open-enrollment-access-outside-of-period"></a>Accesso all'iscrizione aperta in Gestione benefit al di fuori del periodo di iscrizione
 
-Questa versione corregge un bug che consentiva ai dipendenti di accedere all'iscrizione aperta dei benefit al di fuori del periodo di iscrizione o senza un evento reale. Di conseguenza, se è necessario eseguire una demo dell'iscrizione aperta in Dipendente self-service, è necessario impostare le date di iscrizione aperta sulla data odierna o una data precedente per renderla accessibile. È possibile modificare questa impostazione in **Gestione benefit > Periodi di regole e opzioni**.
+Questa versione corregge un bug che consentiva ai dipendenti di accedere all'iscrizione aperta dei benefit al di fuori del periodo di iscrizione o senza un evento reale. Di conseguenza, se è necessario eseguire una demo dell'iscrizione aperta in Self-service dipendenti, è necessario impostare le date di iscrizione aperta sulla data odierna o una data precedente per renderla accessibile. È possibile modificare questa impostazione in **Gestione benefit > Periodi di regole e opzioni**.
 
 ## <a name="email-employee-enrollment-confirmation"></a>Email di conferma dell'iscrizione dei dipendenti
 
@@ -57,7 +57,7 @@ Ora è possibile aggiungere un reparto senza creare una relazione duplicata.
 
 Quando si esporta l'entità **PayrollWorkerEnrolledBenefitDetailEntity**, l'esportazione determina se deve utilizzare un campo calcolato in base a una tabella di tariffe o utilizzare il campo **ContributionAmountCur** nella tabella di supporto. La logica utilizzata dall'entità data utilizza la tabella delle tariffe in situazioni in cui l'applicazione normalmente non l'utilizza. Questa logica fa sì che le esportazioni delle entità restituiscano un valore zero per questa colonna, poiché non esiste una tabella delle tariffe di calcolo e il prodotto non consente al cliente di specificarne una.
  
-## <a name="confusing-translations-in-czech-language-in-personnel-management-and-employee-self-service-400276"></a>Traduzioni confuse in lingua ceca in Gestione dipendente e Dipendente self-service (400276)
+## <a name="confusing-translations-in-czech-language-in-personnel-management-and-employee-self-service-400276"></a>Traduzioni confuse in lingua ceca in Gestione dipendente e Self-service dipendenti (400276)
 
 Questa versione corregge le traduzioni di **Directory società**, **Prossimo corso registrato**, **Processo** e **Posizione**.
  
@@ -105,7 +105,7 @@ Alcune organizzazioni offrono un benefit che consente ai dipendenti di acquistar
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Lascia l'attribuzione per una singola azienda o un singolo piano
 
-I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza per il processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza per il processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Aggiungi allegati alle richieste di ferie
 

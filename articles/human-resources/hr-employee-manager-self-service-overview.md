@@ -3,7 +3,7 @@ title: Panoramica self-service per dipendenti e manager
 description: Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429798"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712234"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Panoramica self-service per dipendenti e manager
 
@@ -33,7 +33,26 @@ Questo articolo fornisce una panoramica dell'area di lavoro self-service per dip
 
 Se è necessario aggiungere o modificare informazioni personali, vedere [Modificare le informazioni personali](hr-employee-manager-self-service-edit-personal-information.md).
 
-## <a name="employee-self-service"></a>Dipendente self-service
+## <a name="user-not-assigned-to-a-worker-record"></a>Utente non assegnato a un record lavoratore
+
+Se non l'utente non è stato collegato a un record **Lavoratore** nella pagina **Utenti**, verrà visualizzato il seguente messaggio:
+
+**ID utente non associato ad alcun record dipendente nel sistema. Non sarà possibile visualizzare né aggiornare le informazioni fino a quando non viene eseguita un'associazione. Per assistenza, contattare il responsabile o il team di supporto.**
+
+Per associare un utente a un record **Lavoratore** passare a **Utenti** e selezionare l'utente. Selezionare **Modifica**, aggiungere il lavoratore corrispondente nel campo **Persona** nel modulo e selezionare **Salva**. Ora è possibile accedere al self-service dei dipendenti.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisiti di sicurezza per il self-service dipendenti e responsabili
+
+Il self-service dipendenti e responsabili richiede due ruoli di sicurezza:
+
+- I dipendenti richiedono il ruolo dipendente.
+- I responsabili richiedono i ruoli dipendente e responsabile.
+
+>[!NOTE]
+>È inoltre possibile utilizzare ruoli personalizzati per accedere al self-service dipendenti e responsabili purché sia stato concesso loro l'accesso alle aree di lavoro dipendente e responsabile.<br>
+>L'accesso del responsabile alle informazioni sui dipendenti si basa sulla gerarchia della riga di posizione corrente definita in Human Resources.
+
+## <a name="employee-self-service"></a>Self-service dipendenti
 
 La scheda **Informazioni personali** visualizza le seguenti informazioni per il self service dipendente.  
 

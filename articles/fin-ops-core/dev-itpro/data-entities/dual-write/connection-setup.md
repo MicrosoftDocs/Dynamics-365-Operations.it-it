@@ -3,7 +3,7 @@ title: Scenari supportati per l'impostazione della doppia scrittura
 description: Questo argomento descrive gli scenari supportati per l'impostazione della doppia scrittura.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172856"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706254"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Scenari supportati per l'impostazione della doppia scrittura
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172856"
 
 È possibile impostare una connessione di doppia scrittura tra un ambiente Finance and Operations e un ambiente Common Data Service.
 
-+ Un **ambiente Finance and Operations** fornisce la piattaforma sottostante per le **app Finance and Operations** (ad esempio, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Retail e Dynamics 365 Human Resources).
++ Un **ambiente Finance and Operations** fornisce la piattaforma sottostante per le **app Finance and Operations** (ad esempio Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management e Dynamics 365 Retail).
 + Un **ambiente Common Data Service** fornisce la piattaforma sottostante per le **app basate su modello in Dynamics 365** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing e Dynamics 365 Project Service Automation).
+
+>[!IMPORTANT]
+>Human Resources in Finance and Operations supporta le connessioni a doppia scrittura, al contrario dell'app Dynamics 365 Human Resources.
 
 Il meccanismo di impostazione varia in base alla sottoscrizione e all'ambiente.
 
