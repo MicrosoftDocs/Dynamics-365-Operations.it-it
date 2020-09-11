@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (19 marzo 2020)
-description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 19 marzo 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/19/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: f0b961de23a76947440f6616176874dc6a86cc4c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555257"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712522"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (19 marzo 2020)
 
@@ -37,7 +37,7 @@ Il limite del numero di ambienti per progetto in Lifecycle Services (LCS) è cam
 
 Attivare questa funzionalità nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sulle funzionalità di anteprima, vedere [Attivare o disattivare le funzionalità in anteprima](hr-admin-manage-features.md#enable-or-disable-preview-features).
 
-Quando si abilita questa funzione, i manager possono vedere la retribuzione dei diretti subalterni e dei subalterni estesi senza dover accedere all'azienda di impiego. La cronologia completa delle retribuzioni è disponibile per qualsiasi società a cui il manager può accedere. Per ulteriori informazioni, vedere [Panoramica di Dipendente self-service e Responsabile self-service](hr-employee-manager-self-service-overview.md).
+Quando si abilita questa funzione, i manager possono vedere la retribuzione dei diretti subalterni e dei subalterni estesi senza dover accedere all'azienda di impiego. La cronologia completa delle retribuzioni è disponibile per qualsiasi società a cui il manager può accedere. Per ulteriori informazioni, vedere [Panoramica di Self-service dipendenti e Responsabile self-service](hr-employee-manager-self-service-overview.md).
 
 ## <a name="enable-global-address-book-merge-functionality-427189"></a>Abilitare funzionalità di unione della rubrica globale (427189)
 

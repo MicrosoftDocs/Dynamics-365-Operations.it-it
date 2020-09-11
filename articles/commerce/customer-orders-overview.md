@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699371"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710261"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Ordini cliente in Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Di seguito sono riportati alcuni dei parametri che è possibile impostare nella 
     - Le spese vengono applicate a livello di intestazione ordine cliente e quando una certa quantità di una riga prodotto viene restituita, il rimborso massimo delle spese di spedizione consentito per i prodotti e la quantità non può essere determinato in un modo che funziona per tutti i clienti.
     - Le spese di spedizione vengono sostenute per ciascuna istanza di spedizione. Se un cliente restituisce più volte dei prodotti e i criteri del rivenditore indicano che il rivenditore sopporterà il costo delle spese di spedizione reso, le spese di spedizione reso saranno superiori alle spese di spedizione effettive.
     
-- **Comportamento calcolo delle imposte** - **Ricalcola** è l'impostazione predefinita e tradizionale per la modalità di ricalcolo delle imposte quando l'ordine viene importato nel back office. **Non ricalcolare** disabilita il ricalcolo delle imposte fino a quando o a meno che l'ordine non venga modificato nel back office, quando viene attivato il ricalcolo. 
+
+## <a name="disable-option-to-pay-later"></a>Disabilitare l'opzione per pagare in seguito
+
+Nella versione Commerce 10.0.12 e successive, i commercianti possono rimuovere l'opzione di pagamento in un secondo momento quando viene creato un ordine cliente presso il POS. Per disabilitare l'opzione, aprire il **Profilo di funzionalità** per il canale in cui non è consentito pagare in seguito, quindi selezionare **Modifica**. Nella scheda **Generale** selezionare nel menu a discesa **Richiedi pagamento per evasione**. Se il pagamento in un secondo momento non deve essere consentito nel POS, selezionare **Carta richiesta** e selezionare **Salva**. Eseguire la programmazione di distribuzione **1070** per sincronizzare la modifica nel canale. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Flusso della transazione per gli ordini cliente
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658360"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719216"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
 
@@ -78,8 +78,8 @@ Per configurare il profilo hardware assegnato al registratore di cassa, atteners
 
     | Dispositivo | Tipo | Nome periferica | Dettagli aggiuntivi |
     |---|---|---|---|
-    | Stampante | Fallback | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato alla stazione hardware a livello di canale. |
-    | Cassetto di cassa | Fallback | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
+    | Stampante | Fallback | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato alla stazione hardware a livello di canale. |
+    | Cassetto di cassa | Fallback | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
     | Servizio EFT | Adyen | Non applicabile | Per informazioni su come configurare il connettore Adyen predefinito, vedere [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Altri connettori pagamenti possono essere supportati tramite il [kit SDK di Commerce per pagamenti](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | Tastierino PIN | Rete | **MicrosoftAdyenDeviceV001** | Nessuna. |
 
@@ -103,7 +103,7 @@ Per configurare il profilo hardware utilizzato per raggruppare la stampante di r
     | Dispositivo | Tipo | descrizione | Dettagli aggiuntivi |
     |---|---|---|---|
     | Stampante | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato al registratore di cassa. |
-    | Cassetto di cassa | Fallback | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
+    | Cassetto di cassa | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
 
 5. Selezionare **Salva**.
 

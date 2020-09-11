@@ -3,7 +3,7 @@ title: Operazione di magazzino in ingresso in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627540"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710311"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -143,6 +143,20 @@ L'operazione rispetta la configurazione **Entrata non specificata consentita** n
 ### <a name="receive-all"></a>Ricevi tutto
 
 Quando necessario, è possibile selezionare **Ricevi tutto** sulla barra dell'app per aggiornare rapidamente la quantità **In ricevimento ora** per tutte le righe del documento fino al valore massimo disponibile per l'entrata di quelle righe.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Ricevimento di articoli non pianificati in ordini di acquisto
+
+In Commerce versione 10.0.14 e successive, gli utenti possono ricevere un prodotto che non era originariamente nell'ordine di acquisto. Per abilitare questa funzionalità, attivare **Aggiungi righe all'ordine di acquisto durante il ricevimento punto vendita**.  
+
+Questa funzione funziona solo per il ricevimento dell'ordine di acquisto. Non è possibile ricevere articoli a fronte di ordini di trasferimento se gli articoli non erano stati precedentemente ordinati e spediti dal magazzino in uscita.
+
+Gli utenti non possono aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento POS se il [flusso di lavoro di gestione delle modifiche](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) dell'ordine di acquisto è abilitato in Commerce headquarters (HQ). Per abilitare la gestione delle modifiche, tutte le modifiche di un ordine di acquisto devono essere approvate prima che sia consentita il ricevimento. Poiché questo processo consente a un destinatario di aggiungere nuove righe all'ordine di acquisto, il ricevimento non riesce se il flusso di lavoro di gestione delle modifiche è abilitato. Se la gestione delle modifiche è abilitata per tutti gli ordini di acquisto o per il fornitore collegato all'ordine di acquisto attivamente ricevuto in POS, l'utente non può aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento in POS.
+
+La funzionalità che consente l'aggiunta di righe non può essere utilizzata come soluzione alternativa per ricevere quantità aggiuntive di prodotti già presenti nell'ordine di acquisto. Il ricevimento in eccesso viene gestito tramite le impostazioni standard di [ricevimento eccessivo](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) per la riga di prodotto nell'ordine di acquisto.
+
+Se **Aggiungi righe all'ordine di acquisto durante il ricevimento punto vendita** è abilitato e un utente sta ricevendo con  l'**operazione in entrata** in POS, se l'utente scansiona o digita un codice a barre del prodotto o un numero di prodotto che non è riconosciuto come articolo nell'ordine di acquisto corrente, ma viene riconosciuto come un articolo valido, l'utente riceve un messaggio sull'aggiunta dell'articolo all'ordine di acquisto. Se l'utente aggiunge l'articolo all'ordine di acquisto, la quantità immessa in **In ricevimento ora** è considerata la quantità ordinata per la riga dell'ordine di acquisto.
+
+Quando la ricevuta dell'ordine di acquisto è completa e inviata a HQ per l'elaborazione, le righe aggiunte vengono create nel documento principale dell'ordine di acquisto. Nella riga dell'ordine di acquisto in HQ, sarà presente un flag **Aggiunto da POS** nella scheda **Generale** della riga dell'ordine di acquisto. Il flag **Aggiunto da POS** indica che la riga dell'ordine di acquisto è stata aggiunta dal processo di ricevimento POS e non era una riga che si trovava nell'ordine di acquisto prima del ricevimento.
 
 ### <a name="cancel-receiving"></a>Annulla ricezione
 

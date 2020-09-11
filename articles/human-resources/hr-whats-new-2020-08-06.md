@@ -1,6 +1,6 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (06 agosto 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 agosto 2020.
 author: darinkramer
 manager: AnnBe
 ms.date: 8/06/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
-ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698580"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711844"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (06 agosto 2020)
 
@@ -64,7 +64,7 @@ Le entità del framework di gestione dei dati sono ora disponibili per l'acquist
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Durante la visualizzazione delle informazioni sui record e l'utilizzo di filtri avanzati, un utente potrebbe ottenere l'accesso ai record di altri dipendenti (472490)
 
-Con questa modifica, gli utenti di Dipendente self-service possono accedere ai propri record solo durante l'utilizzo di un dipendente self service. La visualizzazione delle informazioni sui record durante la modifica dell'opzione di filtro non espone più dati aggiuntivi.
+Con questa modifica, gli utenti di Self-service dipendenti possono accedere ai propri record solo durante l'utilizzo di un dipendente self service. La visualizzazione delle informazioni sui record durante la modifica dell'opzione di filtro non espone più dati aggiuntivi.
 
 ## <a name="personnel-management-analytics-include-exited-worker-records-382893"></a>L'analisi della gestione del personale include i record dei lavoratori che hanno lasciato la società (382893)
 
@@ -100,7 +100,7 @@ Alcune organizzazioni offrono un benefit che consente ai dipendenti di acquistar
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Lascia l'attribuzione per una singola azienda o un singolo piano
 
-I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza per il processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+I clienti possono elaborare attribuzioni per una singola azienda o un singolo piano di ferie e assenze. Questa capacità fornisce chiarezza per il processo di maturazione per i clienti con diversi anni di ferie o politiche di maturazione delle ferie. Per ulteriori informazioni, vedi [Accumulare congedi per società o per piano di congedo](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Aggiungi allegati alle richieste di ferie
 

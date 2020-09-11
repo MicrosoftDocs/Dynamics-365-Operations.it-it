@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208466"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699538"
 ---
 # <a name="hazardous-materials"></a>Materiali pericolosi
 
@@ -35,7 +35,7 @@ Le informazioni sui materiali pericolosi sono incluse in Gestione informazioni s
 Quando si spediscono materiali classificati come merci pericolose, è necessario includere ulteriori documenti con le spedizioni. La funzionalità Materiale pericoloso consente ai clienti di archiviare informazioni di classificazione e applicarle agli articoli rilasciati. Queste informazioni possono quindi essere utilizzate per preparare la documentazione di spedizione.
 
 > [!IMPORTANT]
-> Per facilitare la gestione delle spedizioni di merci pericolose, Microsoft Dynamics 365 Supply Chain Management consente di impostare ulteriori informazioni di riferimento relative ai prodotti. È inoltre possibile impostare documenti di spedizione aggiuntivi. Tuttavia, il sistema non è automaticamente conforme alle normative del proprio paese o area geografica. È comunque uno strumento che può rivelarsi utile per il programma globale.
+> Le funzioni relative ai materiali pericolosi in Microsoft Dynamics 365 Supply Chain Management forniscono una raccolta di campi di informazioni sul prodotto utili e funzionalità correlate che possono aiutare a registrare e consultare le informazioni relative ai prodotti pericolosi. Queste funzionalità possono anche aiutarti a progettare e stampare documenti di spedizione che includono le stesse informazioni sui materiali pericolosi che stai spedendo. Tuttavia, il sistema non è automaticamente conforme alle normative applicabili del proprio paese o area geografica. Sebbene questi strumenti abbiano lo scopo di aiutarti a rispettare le normative comuni, non sono sufficienti di per sé né sono garantiti a esserlo. La tua organizzazione è responsabile di conoscere tutte le normative applicabili e di adottare tutte le misure necessarie per rispettarle.
 
 Per poter utilizzare questa funzionalità è necessario eseguire la configurazione seguente:
 

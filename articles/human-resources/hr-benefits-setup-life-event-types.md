@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
+ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2633e3ee7f785e3b32489f10d52c965d0c8930
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
+ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430005"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3741488"
 ---
 # <a name="configure-life-event-types"></a>Configurare i tipi di eventi reali
 
@@ -69,8 +69,8 @@ Dopo aver creato tipi di eventi reali, è necessario associarli ai tipi di piano
 | **Modifica stato civile** | Lavoratore> Profilo> Informazioni personali> Stato civile| Modifica dello stato civile |
 | **Modifica stato impiego** | <ul><li>Lavoratore > Impiego</li><li>Pagina Storico esperienze lavorative</li></ul> | Modifica della posizione lavorativa |
 | **Modifica indirizzo dipendente** | <ul><li>Lavoratore > Profilo> Indirizzi </li><li>Lavoratore > Informazioni personali > Contatti personali > Indirizzo</li></ul> Indirizzo aggiunto, modificato o eliminato |
-| **Modifica persona a carico** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Aggiungi o elimina persona a carico</li><li>Dipendente self-service</li></ul> | Persona a carico aggiunta o eliminata. La relazione del contatto personale deve essere figlio, coniuge, convivente o ex coniuge. L'aggiornamento del valore **Data di inizio validità** attiva l'evento reale. Se non si aggiorna quella data, non viene attivato alcun evento reale. |
-| **Nascita o adozione (persona a carico)** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico</li><li>Dipendente self-service</li></ul> | Campo **Data adozione** riempito. È richiesta la data di nascita del bambino. |
+| **Modifica persona a carico** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Aggiungi o elimina persona a carico</li><li>Self-service dipendenti</li></ul> | Persona a carico aggiunta o eliminata. La relazione del contatto personale deve essere figlio, coniuge, convivente o ex coniuge. L'aggiornamento del valore **Data di inizio validità** attiva l'evento reale. Se non si aggiorna quella data, non viene attivato alcun evento reale. |
+| **Nascita o adozione (persona a carico)** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico</li><li>Self-service dipendenti</li></ul> | Campo **Data adozione** riempito. È richiesta la data di nascita del bambino. |
 | **Perdita di copertura (coniuge/convivente)** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Perdita copertura | **Perdita copertura** selezionato per un contatto personale, insieme a **Data di validità** |
 | Modifica impiego convivente | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Impiegato. | <ul><li>Record Dettagli persona a carico creato e casella **Contatto personale impiegato** = Sì</li><li>Casella **Contatto personale impiegato** modificata (Sì o No)</li></ul> |
 | **Congedo (coniuge/convivente)** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Congedo | <ul><li>Record Dettagli persona a carico creato e **EhrLOAEffectiveDate** riempito</li><li>**personPrivateDetails.EhrIsLOA** modificato (Sì o No)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** modificato</li></ul> |

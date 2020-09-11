@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249037"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740665"
 ---
 # <a name=""></a><a name="LISTJOIN">Funzione LISTJOIN ER</a>
 
@@ -69,8 +69,18 @@ Inserire quindi l'origine dati **Record 2** del tipo `Container` . Questa origin
 - **Importo**: Questo campo contiene un'espressione che restituisce un valore del tipo`Real` .
 - **Funzione**: Questo campo contiene un'espressione che restituisce un valore del tipo`Boolean` .
 
-In questo caso, l'espressione `LISTJOIN(LIST('Record 1'), LIST('Record 2'))`restituisce un nuovo elenco che contiene due record. La struttura di questo elenco è costituita da un singolo campo**Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
+![Pagina della progettazione mapping modello di ER](./media/er-functions-list-listjoin-image1.gif)
+
+In questo caso, l'espressione `LISTJOIN(LIST('Record 1'), LIST('Record 2'))`restituisce un nuovo elenco che contiene due record.
+
+![Pagina della progettazione mapping modello di ER](./media/er-functions-list-listjoin-image2.gif)
+
+La struttura di questo elenco è costituita da un singolo campo**Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
+
+![Pagina della progettazione mapping modello di ER](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di elenco](er-functions-category-list.md)
+
+[Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati](er-debug-data-sources.md)

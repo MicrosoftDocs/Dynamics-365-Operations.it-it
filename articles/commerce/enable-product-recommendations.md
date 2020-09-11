@@ -3,7 +3,7 @@ title: Abilitare suggerimenti sul prodotto
 description: In questo argomento viene descritto come abilitare i suggerimenti sul prodotto basati su intelligenza artificiale-machine learning (AI-ML) disponibili per i clienti di Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665028"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700844"
 ---
 # <a name="enable-product-recommendations"></a>Abilitare suggerimenti sul prodotto
 
@@ -65,11 +65,13 @@ Salvare e chiudere la pagina.
 
 Per attivare i suggerimenti sul prodotto, effettuare le seguenti operazioni.
 
-1. Andare a **Retail e Commerce &gt; Suggerimenti sul prodotto &gt; Parametri suggerimenti**.
-1. Nell'elenco dei parametri condivisi, selezionare **Elenchi suggerimenti**.
-1. Impostare l'opzione **Abilita suggerimenti** su **Sì**.
+1. In Commerce headquarters cercare **Gestione funzionalità**.
+1. Selezionare **Tutto** per visualizzare un elenco delle funzionalità disponibili. 
+1. Nella casella di ricerca, immettere **Elementi consigliati**.
+1. Selezionare la funzionalità **Suggerimenti sul prodotto**.
+1. Nel riquadro delle proprietà **Suggerimenti sul prodotto**, selezionare **Abilita ora**.
 
-![Attivazione dei suggerimenti](./media/enablepersonalization.png)
+![Attivazione dei suggerimenti](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Questa procedura avvia il processo di generazione di elenchi di suggerimenti sul prodotto. Potrebbero essere necessarie diverse ore prima che gli elenchi siano disponibili e possano essere visualizzati nel punto vendita (POS) o in Dynamics 365 Commerce.

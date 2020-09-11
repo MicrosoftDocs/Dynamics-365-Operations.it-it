@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (3 marzo 2020)
-description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 3 marzo 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d85ce8ccfcd7f1b975244cc2f65535101013ac89
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 4bf5b5ce9efbd2014164db213ff20d28d20ecf3e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555293"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (3 marzo 2020)
 
@@ -74,7 +74,7 @@ Quando si cerca un dipendente, non viene più visualizzato il messaggio indicant
 
 ## <a name="note-field-value-doesnt-render-on-the-add-more-skills-form-380134"></a>Il valore del campo Nota non viene visualizzato nel modulo Aggiungi altre competenze (380134)
 
-Questa modifica risolve un problema durante la personalizzazione del modulo **Aggiungi altre competenze** in Dipendente self-service.
+Questa modifica risolve un problema durante la personalizzazione del modulo **Aggiungi altre competenze** in Self-service dipendenti.
 
 ## <a name="multiple-fixed-compensation-plans-dont-expire-when-transferring-employees-389466"></a>Più piani di retribuzione fissa non scadono quando si trasferiscono i dipendenti (389466)
 

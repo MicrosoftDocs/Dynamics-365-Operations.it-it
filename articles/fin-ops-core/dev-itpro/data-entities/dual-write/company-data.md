@@ -3,7 +3,7 @@ title: Concetto di società in Common Data Service
 description: In questo argomento viene descritta l'integrazione dei dati aziendali tra Finance and Operations e Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172902"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728415"
 ---
 # <a name="company-concept-in-common-data-service"></a>Concetto di società in Common Data Service
 
@@ -72,3 +72,32 @@ L'integrazione con Common Data Service porta la parità della società utilizzan
 + Per i record, dopo che una società viene aggiunta e salvata, il valore diventa di sola lettura. Di conseguenza, gli utenti devono assicurarsi di scegliere la società corretta.
 + Solo i record con dati della società sono idonei alla doppia scrittura tra l'applicazione e Common Data Service.
 + Per i dati di Common Data Service esistenti, sarà presto disponibile un'esperienza di bootstrap gestita da amministratore.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Compilare automaticamente il nome dell'azienda nelle app di interazione con i clienti
+
+Esistono diversi modi per compilare automaticamente il nome dell'azienda nelle app di interazione con i clienti.
+
++ Se si è un amministratore di sistema, è possibile impostare la società predefinita accedendo a **Impostazioni avanzate > Sistema > Sicurezza > Utenti**. Aprire il modulo **Utente** e nella sezione **Informazioni sull'organizzazione** impostare il valore **Società predefinita nei moduli**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Impostare l'azienda predefinita nella sezione Informazioni sull'organizzazione.":::
+
++ Se si dispone dell'accesso in **scrittura** all'entità **SystemUser** per il livello **Business Unit** è possibile modificare la società predefinita in qualsiasi modulo selezionando una società dal menu a discesa **Società**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Modifica del nome della società in un nuovo account.":::
+
++ Se si dispone dell'accesso in **scrittura** ai dati in più di una società, è possibile modificare la società predefinita scegliendo un record che appartiene a una società diversa.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Scelta di un record per cambiare la società predefinita.":::
+
++ Se si è un configuratore o un amministratore di sistema e si desidera compilare automaticamente i dati aziendali in un modulo personalizzato, è possibile utilizzare gli [eventi di modulo](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Aggiungere un riferimento JavaScript a **msdyn_/DefaultCompany.js** e utilizzare i seguenti eventi. È possibile utilizzare qualsiasi modulo predefinito, ad esempio il modulo **Account**.
+
+    + L'evento **OnLoad** per il modulo: impostare il campo **defaultCompany**.
+    + L'evento **OnChange** per il campo **Società**: impostare il campo **updateDefaultCompany**.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Applicare filtri in base al contesto della società
+
+Per applicare il filtro in base al contesto della società ai moduli personalizzati o ai campi di ricerca personalizzati aggiunti ai moduli standard, aprire il modulo e utilizzare la sezione **Filtro record correlati** per applicare il filtro della società. È necessario impostarlo per ogni campo di ricerca che richiede il filtro in base alla società sottostante in un dato record. L'impostazione è mostrata per **Account** nell'illustrazione seguente.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Applicare il contesto della società":::
+

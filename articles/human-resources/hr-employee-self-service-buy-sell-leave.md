@@ -1,9 +1,9 @@
 ---
-title: Acquistare e vendere congedi
-description: Puoi inviare richieste di acquisto e vendita di congedi.
+title: Acquista e vendi congedo
+description: In Dynamics 365 Human Resources, è possibile inviare richieste di acquisto e vendita di congedi in base ai criteri di acquisto e vendita stabiliti dalla società.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,30 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429683"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711820"
 ---
-# <a name="buy-and-sell-leave"></a>Acquistare e vendere congedi
+# <a name="buy-and-sell-leave"></a>Acquista e vendi congedo
 
-[!include [banner](includes/preview-feature.md)]
-
-Puoi inviare richieste di acquisto di congedi.  
+In Dynamics 365 Human Resources, è possibile inviare richieste di acquisto e vendita di congedi in base ai criteri di acquisto e vendita stabiliti dalla società.  
 
 ## <a name="request-to-buy-leave"></a>Richiesta di acquisto di congedi
 
-1. Nell'area di lavoro **Dipendente self-service**, seleziona **Richiesta di acquisto di congedi** nel riquadro **Saldi permessi**. 
+1. Nell'area di lavoro **Self-service dipendenti**, seleziona **Richiesta di acquisto di congedi** nel riquadro **Saldi permessi**. 
 
-2. Aggiungi un **Tipo di congedo** e immettere una **Quantità** per la quantità di congedi che desideri acquistare. 
+2. Aggiungere un **Tipo di congedo** e immettere una **Quantità** per la quantità di congedi che si desidera acquistare. 
 
 3. Selezionare **Invia** quando si è pronti per inviare la richiesta. 
 
-Una volta inviata la richiesta, i saldi verranno automaticamente aggiornati con la quantità di congedi che intendi acquistare. 
+I saldi verranno aggiornati automaticamente o verranno sottoposti a un processo di approvazione prima dell'aggiornamento. Dipende da come sono stati configurati i criteri di acquisto.
+
+## <a name="request-to-sell-leave"></a>Richiesta di vendita di congedi
+
+1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Richiesta di vendita di congedi** nel riquadro **Saldi permessi**. 
+
+2. Aggiungere un **Tipo di congedo** e immettere una **Quantità** per la quantità di congedi che si desidera vendere. 
+
+3. Selezionare **Invia** quando si è pronti per inviare la richiesta.
+
+I saldi verranno aggiornati automaticamente o verranno sottoposti a un processo di approvazione prima dell'aggiornamento. Dipende da come sono stati configurati i criteri di acquisto.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)</br>
-[Gestire criteri di acquisto e vendita di congedi](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Gestire i criteri di acquisto e vendita congedo](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)

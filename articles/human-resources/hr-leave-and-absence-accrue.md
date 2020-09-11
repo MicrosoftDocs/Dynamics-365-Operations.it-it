@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429061"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712168"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Accumula piani di congedo e assenza
 
@@ -37,7 +37,9 @@ ms.locfileid: "3429061"
 
 3. Viene visualizzata la finestra di dialogo **Accumula piani di congedo e assenza**. In **Accumula a partire da** selezionare **Data odierna** o selezionare **Data personalizzata** e inserire una data personalizzata.
 
-4. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
+4. Per eseguire gli accumuli per tutte le società, selezionare **Tutte le società**. Per elaborare gli accumuli per un unico piano di ferie, selezionare **No** per **Tutti i piani**, quindi selezionare un **Piano di congedo**. Se si selezionano tutte le società, non è possibile selezionare un singolo piano di congedo. 
+
+5. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 
    1. Immettere informazioni per il processo di accumulo.
 
@@ -55,7 +57,9 @@ ms.locfileid: "3429061"
 
 3. Viene visualizzata la finestra di dialogo **Accumula piani di congedo e assenza**. In **Accumula a partire da** selezionare **Data odierna** o selezionare **Data personalizzata** e inserire una data personalizzata.
 
-4. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
+4. Per eseguire gli accumuli per tutte le società, selezionare **Tutte le società**. Per elaborare gli accumuli per un unico piano di ferie, selezionare **No** per **Tutti i piani**, quindi selezionare un **Piano di congedo**. Se si selezionano tutte le società, non è possibile selezionare un singolo piano di congedo. 
+
+5. Se si desidera eseguire il processo di accumulo in background, selezionare **Esecuzione in background** e svolgere le seguenti attività:
 
    1. Immettere informazioni per il processo di accumulo.
 
@@ -102,18 +106,6 @@ Consente di eliminare i record di accumuli per un piano e un intervallo di date 
 1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
 
 2. Sotto **Gestisci congedo**, selezionare **Elimina controllo accumuli congedi**.
-
-## <a name="configure-preview-features"></a>Configurare funzionalità di anteprima
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Se le funzionalità di anteprima per Congedo e assenza sono state abilitate, è necessario configurare le impostazioni anche per tali funzionalità.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Accumulare congedi per società o per piano di congedo
-
-Quando accumuli piani di congedo e assenza, puoi scegliere di accumulare per tutte le società. Se scegli tutte le società, non puoi selezionare singoli piani di congedo. Se scegli di non accumulare per tutte le società, puoi accumulare per un piano di congedo specifico. 
-
-Queste opzioni sono disponibili quando si accumula per tutti i dipendenti o per singoli dipendenti. 
 
 ## <a name="see-also"></a>Vedere anche
 
