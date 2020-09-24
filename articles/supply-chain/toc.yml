@@ -70,12 +70,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (novembre 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (ottobre 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (luglio 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Elenchi di controllo di manutenzione
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Tempi di fermo per la manutenzione
+                - name: Tempi di fermo per la manutenzione per ordini di lavoro
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Aggiungere errore all'ordine di lavoro
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: Pool di ordini di lavoro
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Processi di manutenzione ordine di lavoro attivi
+                - name: Processi di manutenzione degli ordini di lavoro attivi
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Cespiti e ordini di lavoro
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,13 +367,13 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Creare ordini di lavoro
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Tempi di fermo per la manutenzione
+                - name: Attività dei tempi di fermo per la manutenzione
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Pianificazione capacità
               items:
-                - name: Calcolare carico di capacità
+                - name: Calcolare il carico di capacità
                   href: asset-management/capacity-planning/calculate-capacity-load.md
-                - name: Calcolare previsioni articolo
+                - name: Calcolare le previsioni articolo
                   href: asset-management/capacity-planning/calculate-item-forecast.md
             - name: Programmazione dell'ordine di lavoro
               items:
@@ -1345,8 +1345,6 @@
               items:
                 - name: Panoramica sull'ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Pianificazione con quantità disponibili negative
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introduzione all'ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/get-started.md
                 - name: Analisi corrispondenza Ottimizzazione pianificazione
@@ -1355,16 +1353,22 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Pianificazione generale con accordi commerciali di acquisto
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Visualizzare i registri di pianificazione e dello storico del piano
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Margini di sicurezza
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Approva ordini pianificati
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Stabilizzazione automatica con l'ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Pianificazione con quantità disponibili negative
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Visualizzare i registri di pianificazione e dello storico del piano
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Annullare un processo di pianificazione
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Estensibilità dell'ottimizzazione della pianificazione
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Risolvere i problemi di ottimizzazione della pianificazione
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Estensibilità dell'ottimizzazione della pianificazione
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Piani generali
               items:
                 - name: Panoramica piani generali
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Impostare prelievo del cluster
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Posizione cluster piena
+                      href: warehousing/cluster-position-full.md
                     - name: Prelievo cluster diretto dal sistema
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Impostare containerizzazione

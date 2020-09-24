@@ -92,6 +92,8 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (novembre 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (ottobre 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (agosto 2020)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Distribuzione di massa dei componenti self-service
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Eventi dei componenti Retail per la diagnostica e la risoluzione dei problemi
+                - name: Eventi dei componenti Commerce per la diagnostica e la risoluzione dei problemi
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Applicare un pacchetto distribuibile
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: Pagamenti ordini Commerce omnicanale
                       href: dev-itpro/commerce-payments.md
+                    - name: Elaborare carte di credito senza una postazione hardware
+                      href: dev-itpro/cnp-pos.md
                     - name: Domande frequenti sui pagamenti
                       href: dev-itpro/payments-retail.md
                 - name: Gestire Bing Mappe per la tua organizzazione
@@ -700,7 +704,7 @@
           items:
             - name: Ordini cliente
               items:
-                - name: Ordini cliente in MPOS
+                - name: Ordini cliente nel POS
                   href: customer-orders-overview.md
                 - name: Ordini cliente ibridi
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: Configurare più tenant B2C in un ambiente Commerce
                   href: configure-multi-B2C-tenants.md
+                - name: Domini in Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)
                   href: add-cdn-support.md
                 - name: Abilitare il rilevamento del punto vendita basato sull'ubicazione
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Moduli Valutazioni e recensioni
                       href: ratings-reviews-modules.md
+                    - name: Modulo di condivisione social
+                      href: social-share-module.md
                 - name: Moduli acquisti
                   items:
                     - name: Modulo carrello
@@ -1026,7 +1034,13 @@
                   items:
                     - name: Modulo percorso di navigazione
                       href: add-breadcrumb.md
-            - name: Ricerca
+                    - name: Modulo menu di spostamento
+                      href: nav-menu-module.md
+                - name: Moduli di conformità
+                  items:
+                    - name: Modulo di consenso sui cookie
+                      href: cookie-consent-module.md
+            - name: Cerca
               items:
                 - name: Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite
                   href: category-search-page-overview.md
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: Rinviare l'esecuzione di elementi in formato ER
                   items:
-                    - name: Rinviare l'esecuzione di un elemento sequenza
+                    - name: Differire l'esecuzione di elementi di sequenza in formati ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: Rinviare l'esecuzione di un elemento XML
+                    - name: Differire l'esecuzione di elementi XML in formati ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Utilizzare soluzioni di creazione di report elettronici in Finance and Operations
               items:

@@ -3,7 +3,7 @@ title: Articoli di reso per più fatture e ordini cliente
 description: In questo argomento viene descritta la funzionalità che consente di eseguire resi per più fatture e ordini cliente in Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 08/27/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,27 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5f17424f0837344030f9ce2d2d037cde08c4e49
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e95f06ffaaf2d250b02a8458faa2d9e0b5ef5631
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004460"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760252"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Articoli di reso per più fatture e ordini cliente
 
 [!include [banner](includes/banner.md)]
 
 
-I resi possono essere effettuati per più fatture e ordini cliente. 
+Questo articolo descrive due funzionalità che ottimizzano i resi degli ordini cliente su più fatture. 
 
-## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Configurare Commerce per supportare i resi per più fatture e ordini cliente
+## <a name="enable-refunds-over-multiple-captures"></a>Abilita rimborsi per più acquisizioni
 
-1. Andare a **Parametri di commercio \> Ordini cliente**.
-1. Attivare il parametro **Consenti resi per più ordini**. 
+Questa funzione consente più rimborsi collegati sullo stesso ordine cliente. 
+
+1. Accedere all'area di lavoro **Gestione funzionalità** e cercare **Abilita rimborsi su più acquisizioni**.
+2. Selezionare **Abilita rimborsi su più ordini** e quindi fare clic su **Abilita**. 
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Abilita il calcolo delle imposte corretto per i resi con quantità parziale
+
+Questa funzione garantisce che quando un ordine viene restituito utilizzando più fatture, le imposte saranno pari all'importo delle imposte addebitato in origine. 
+
+1. Accedere all'area di lavoro **Gestione funzionalità** e cercare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale**.
+2. Selezionare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale** e quindi fare clic su **Abilita**. 
+
 
 ## <a name="process-returns"></a>Elaborare i resi
 
-Dopo che il parametro è attivato e le modifiche vengono sincronizzate nei punti vendita, il cassiere nel punto vendita può selezionare più ordini cliente relativi a un cliente per il reso.
+Dopo che queste funzionalità sono attivate e le modifiche vengono sincronizzate nei punti vendita, il cassiere nel punto vendita può selezionare più ordini cliente relativi a un cliente per il reso.
 
 Quando gli ordini sono selezionati, verrà visualizzato un elenco di tutti i prodotti restituibili in tutte le fatture per gli ordini. A questo punto il cassiere può selezionare i prodotti da restituire. Un unico ordine di reso verrà creato per tutti i prodotti selezionati.
+
+Se l'ordine viene reso integralmente, l'importo delle imposte restituite al cliente sarà pari all'importo delle imposte addebitare in origine.
+
