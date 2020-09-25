@@ -3,7 +3,7 @@ title: Scaricare le configurazioni per la creazione di report elettronici da Lif
 description: Questo argomento illustra come scaricare le configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 8a18427114bddb7c72024a8d96d33f3fbf8dbe17
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934656"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810621"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra come scaricare le configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
-
-Questa esercitazione guida l'utente nel processo di download della versione più recente delle configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
+Questo argomento spiega come scaricare la versione più recente di [Configurazioni per la creazione di report elettronici](general-electronic-reporting.md#Configuration) dalla [libreria di risorse condivise](../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Accedere all'applicazione utilizzando uno dei seguenti ruoli:
 
@@ -41,36 +39,41 @@ Questa esercitazione guida l'utente nel processo di download della versione più
 
 2. Andare a **Amministrazione organizzazione** &gt; **Aree di lavoro** &gt; **Creazione di report elettronici**.
 3. Nella sezione **Provider di configurazione** selezionare il riquadro **Microsoft**.
-4. Nel riquadro **Microsoft** fare clic su **Archivi**.
+4. Nel riquadro **Microsoft** selezionare **Archivi**.
 
-    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Riquadro Microsoft nella pagina delle configurazioni di localizzazione](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Nella pagina **Archivi di configurazioni** selezionare nella griglia l'archivio esistente di tipo **LCS**. Se questo archivio non viene visualizzato nella griglia, effettuare le seguenti operazioni:
 
-    1. Fare clic su **Aggiungi** per aggiungere un nuovo archivio.
+    1. Selezionare **Aggiungi** per aggiungere un archivio.
     2. Selezionare **LCS** come tipo di archivio.
-    3. Fare clic su **Crea archivio**.
-    4. Se richiesto, seguire le istruzioni di autorizzazione.
+    3. Selezionare **Crea archivio**.
+    4. Se viene richiesta l'autorizzazione, seguire le istruzioni sullo schermo.
     5. Immettere un nome e una descrizione per l'archivio.
-    6. Fare clic su **OK** per confermare la nuova voce di archivio.
+    6. Selezionare **OK** per confermare la nuova voce di archivio.
     7. Nella griglia, selezionare il nuovo archivio di tipo **LCS**.
 
-6. Fare clic su **Apri** per visualizzare l'elenco delle configurazioni di ER per l'archivio selezionato.
+6. Selezionare **Apri** per visualizzare l'elenco delle configurazioni ER per l'archivio selezionato.
 
-    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Pagina Archivi di configurazione](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+
+    > [!TIP]
+    > Se si verificano problemi con l'accesso all'archivio LCS per scaricare le configurazioni dalla libreria di risorse condivise in LCS, è possibile scaricare le configurazioni dal [repository globale](er-download-configurations-global-repo.md).
 
 7. Nella struttura di configurazioni nel riquadro sinistro, selezionare la configurazione per la creazione di report elettronici desiderata.
-8. Nella scheda dettaglio **Versioni** selezionare la versione richiesta della configurazione per la creazione di report elettronici.
-9. Fare clic su **Importa** per scaricare la versione selezionata da LCS nell'istanza corrente.
+8. Nella scheda dettaglio **Versioni** selezionare la versione richiesta della configurazione ER.
+9. Selezionare **Importa** per scaricare la versione selezionata da LCS nell'istanza corrente.
 
     > [!NOTE]
     > Il pulsante **Importa** non è disponibile per le versioni di configurazione di creazione di report elettronici già presenti nell'istanza corrente.
 
-    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Configurazione della pagina dell'archivio](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> A seconda delle impostazioni della creazione di report elettronici, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Risolvere i problemi prima di utilizzare la versione di configurazione importata. Per ulteriori informazioni, vedere l'elenco di articoli correlati per questo argomento.
+> A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Risolvere i problemi prima di utilizzare la versione di configurazione importata. Per ulteriori informazioni, vedere l'elenco di argomenti correlati per questo argomento.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+[Panoramica dei report elettronici](general-electronic-reporting.md)
+
+[Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](er-download-configurations-global-repo.md)
