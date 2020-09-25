@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628911"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759937"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -93,7 +93,7 @@ In una ricerca cliente remota, l'ID cliente non è visualizzato per i clienti di
 
 ### <a name="enhancements-to-local-customer-search"></a>Miglioramenti alla ricerca cliente locale
 
-Sono state semplificate le ricerche che si basano sul numero di telefono. Queste ricerche ignorano ora i caratteri speciali, ad esempio spazi, trattini e parentesi, che potrebbero essere stati aggiunti al momento della creazione del cliente. Di conseguenza, i cassieri non devono preoccuparsi del formato del numero di telefono durante la ricerca. Possono inoltre cercare i clienti digitando parte del numero di telefono. Se un numero di telefono include caratteri speciali, può essere trovato anche cercando nei numeri che vengono visualizzati dopo i caratteri speciali. Ad esempio, se il numero di telefono di un cliente è stato immesso come **123-456-7890**, un cassiere può cercare il cliente digitando **123**, **456**, **7890** o **1234567890** oppure digitando le prime cifre del numero di telefono.
+Sono state semplificate le ricerche che si basano sul numero di telefono. Queste ricerche ignorano ora i caratteri speciali, ad esempio spazi, trattini e parentesi, che potrebbero essere stati aggiunti al momento della creazione del cliente. Di conseguenza, i cassieri non devono preoccuparsi del formato del numero di telefono durante la ricerca. Ad esempio, se il numero di telefono di un cliente è stato immesso come **123-456-7890**, un cassiere può cercare il cliente digitando **1234567890** oppure digitando le prime cifre del numero di telefono.
 
 > [!NOTE]
 > Un cliente può avere più numeri di telefono e più indirizzi e-mail. L'algoritmo di ricerca del cliente cerca anche attraverso questi indirizzi e-mail e numeri di telefono secondari, ma la pagina dei risultati di ricerca del cliente mostra solo l'indirizzo e-mail e il numero di telefono principali. Ciò può causare confusione poiché i risultati dei clienti restituiti non mostrerebbero l'indirizzo e-mail o il numero di telefono cercato. In una versione futura intendiamo migliorare la schermata dei risultati di ricerca dei clienti per mostrare queste informazioni.

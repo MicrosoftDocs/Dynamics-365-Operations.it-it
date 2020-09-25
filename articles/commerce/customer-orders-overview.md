@@ -1,12 +1,12 @@
 ---
-title: Ordini cliente in Modern POS (MPOS)
-description: In questo argomento vengono fornite informazioni sugli ordini cliente in Modern POS (MPOS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
+title: Ordini cliente in Point of Sale (POS)
+description: In questo argomento vengono fornite informazioni sugli ordini cliente in Point of Sale (POS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,90 +18,154 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
+ms.sourcegitcommit: 30e4dc0a45f7de5f0a7178b1e88f7c3d61a7395e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710261"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763703"
 ---
-# <a name="customer-orders-in-modern-pos-mpos"></a>Ordini cliente in Modern POS (MPOS)
+# <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sugli ordini cliente in Modern POS (MPOS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
+In questo argomento vengono fornite informazioni su come creare e gestire gli ordini cliente in Point of Sale (POS). Gli ordini cliente possono essere utilizzati per acquisire le vendite in cui gli acquirenti desiderano ritirare i prodotti in un secondo momento, ritirare i prodotti in una posizione diversa o ricevere gli articoli spediti. 
 
 In un mondo commerciale omni-canale, molti rivenditori offrono l'opzione degli ordini cliente, o ordini speciali, per soddisfare vari requisiti di prodotti ed evasione. Di seguito sono riportati alcuni scenari comuni:
 
 - Un cliente desidera che i prodotti siano consegnati a un indirizzo specifico in una data specifica.
 - Un cliente desidera prelevare i prodotti da un punto vendita o da una posizione diversa dal punto vendita o posizione in cui il cliente ha acquisito i prodotti.
-- Un cliente desidera che qualcun altro prelevi i prodotti che il cliente ha acquistato.
+- Un cliente all'interno di un punto vendita desidera ordinare i prodotti oggi e ritirarli nello stesso punto vendita in un secondo momento.
 
-I rivenditori utilizzano gli ordini cliente anche per ridurre al minimo le vendite perse che l'esaurimento delle scorte potrebbero causare altrimenti, poiché la merce può essere consegnata o prelevata in una data o in una località diversa.
+I rivenditori possono utilizzare gli ordini cliente anche per ridurre al minimo le vendite perse che l'esaurimento delle scorte potrebbero causare altrimenti, poiché la merce può essere consegnata o prelevata in una data o in una località diversa.
 
 ## <a name="set-up-customer-orders"></a>Impostare gli ordini cliente
+Prima di provare a utilizzare la funzionalità di ordine cliente in POS, assicurarsi di completare tutte le configurazioni richieste in Commerce headquarters.
 
-Di seguito sono riportati alcuni dei parametri che è possibile impostare nella pagina **Parametri di commercio** per definire la modalità di evasione degli ordini cliente:
+### <a name="configure-modes-of-delivery"></a>Configurare le modalità di consegna
 
-- **Percentuale di deposito predefinita** - consente di specificare l'importo che il cliente deve pagare come deposito prima che un ordine possa essere confermato. L'importo del deposito predefinito viene calcolato come percentuale del valore dell'ordine. A seconda dei privilegi, un associato del punto vendita può ignorare l'importo utilizzando **Sostituzione deposito**.
-- **Percentuale spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
-- **Codice spese di annullamento** - se un addebito verrà applicato quando un ordine cliente viene annullato, l'addebito verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per definire il codice spese di annullamento.
-- **Codice spese di spedizione** - rivenditori possono addebitare una commissione supplementare per la spedizione della merce a un cliente. L'importo delle spese di spedizione verrà visualizzato con un codice spese nell'ordine cliente. Utilizzare questo parametro per mappare il codice spese di spedizione alle spese di spedizione nell'ordine cliente.
-- **Rimborso spese di spedizione** - consente di specificare se le spese di spedizione associate a un ordine cliente sono rimborsabili.
-- **Importo massimo senza approvazione** - se le spese di spedizione sono rimborsabili, specificare l'importo massimo di rimborsi di spese di spedizione negli ordini di reso. Se questo importo viene superato, la sostituzione del responsabile è necessaria per proseguire con il rimborso. Per soddisfare i seguenti scenari, un rimborso delle spese di spedizione può superare l'importo originariamente pagato:
+Per utilizzare gli ordini cliente è necessario configurare le modalità di consegna che il canale del punto vendita può utilizzare. È necessario definire almeno una modalità di consegna che può essere utilizzata quando le righe ordine vengono spedite a un cliente da un punto vendita. È necessario anche definire almeno una modalità di prelievo di consegna che può essere utilizzata quando le righe ordine vengono prelevate dal punto vendita. Le modalità di consegna sono definite nella pagina **Modalità di consegna** in Commerce headquarters. Per altre informazioni su come configurare le modalità di consegna per i canali Commerce, vedere [Definire le modalità di consegna](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
 
-    - Le spese vengono applicate a livello di intestazione ordine cliente e quando una certa quantità di una riga prodotto viene restituita, il rimborso massimo delle spese di spedizione consentito per i prodotti e la quantità non può essere determinato in un modo che funziona per tutti i clienti.
-    - Le spese di spedizione vengono sostenute per ciascuna istanza di spedizione. Se un cliente restituisce più volte dei prodotti e i criteri del rivenditore indicano che il rivenditore sopporterà il costo delle spese di spedizione reso, le spese di spedizione reso saranno superiori alle spese di spedizione effettive.
-    
+![Pagina Modalità di consegna](media/customer-order-modes-of-delivery.png)
 
-## <a name="disable-option-to-pay-later"></a>Disabilitare l'opzione per pagare in seguito
 
-Nella versione Commerce 10.0.12 e successive, i commercianti possono rimuovere l'opzione di pagamento in un secondo momento quando viene creato un ordine cliente presso il POS. Per disabilitare l'opzione, aprire il **Profilo di funzionalità** per il canale in cui non è consentito pagare in seguito, quindi selezionare **Modifica**. Nella scheda **Generale** selezionare nel menu a discesa **Richiedi pagamento per evasione**. Se il pagamento in un secondo momento non deve essere consentito nel POS, selezionare **Carta richiesta** e selezionare **Salva**. Eseguire la programmazione di distribuzione **1070** per sincronizzare la modifica nel canale. 
+### <a name="set-up-fulfillment-groups"></a>Impostare gruppi di evasione
 
-## <a name="transaction-flow-for-customer-orders"></a>Flusso della transazione per gli ordini cliente
+Alcuni punti vendita o ubicazioni di magazzino potrebbero non essere in grado di evadere gli ordini cliente. Configurando i gruppi di evasione, un'organizzazione può specificare quali negozi e ubicazioni di magazzino vengono mostrati come opzioni agli utenti che creano ordini cliente in POS. I gruppi di evasione sono configurati nella pagina **Gruppi di evasione**. Le organizzazioni possono creare tutti i gruppi di evasione di cui hanno bisogno. Una volta definito, un gruppo di evasione ordini viene collegato a un punto vendita utilizzando un pulsante della scheda **Impostazione** nel riquadro azioni della pagina **Punti vendita**.
 
-### <a name="create-a-customer-order-in-modern-pos"></a>Creare un ordine cliente in Modern POS
+In Commerce versione 10.0.12 e successive, le organizzazioni possono definire se le combinazioni magazzino o magazzino/punto vendita definite nei gruppi di evasione ordini possono essere utilizzate per la spedizione, per il prelievo o sia per la spedizione che per il prelievo. Pertanto, il punto vendita dispone di ulteriore flessibilità per gestire le opzioni di magazzino e punto vendita che vengono mostrate agli utenti che creano un ordine per il prelievo rispetto a un ordine per la spedizione. Per sfruttare queste opzioni di configurazione, è necessario attivare la funzionalità **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione**. Se un magazzino collegato a un gruppo di evasione ordini non è un punto vendita, può essere configurato solo come ubicazione di spedizione. Non può essere utilizzato quando gli ordini per il ritiro sono configurati in POS.
 
-1. Aggiungere un cliente alla transazione.
+![Pagina Gruppi di evasione](media/customer-order-fulfillment-group.png)
+
+### <a name="configure-channel-settings"></a>Configurare impostazioni di canale
+
+Quando si lavora con gli ordini clienti in POS, è necessario considerare alcune delle impostazioni del canale del punto vendita. Queste impostazioni si trovano nella pagina **Punti vendita** in Commerce headquarters.
+
+- **Magazzino** - Questo campo indica il magazzino utilizzato per evadere gli ordini configurati per la spedizione dal punto vendita.
+- **Assegnazione del gruppo di evasione** - Selezionare questo pulsante (nella scheda **Impostazione** del riquadro azioni) per collegare i gruppi di evasione ordini a cui si fa riferimento e mostrare le opzioni per le ubicazioni di prelievo o le origini della spedizione quando gli ordini dei clienti vengono creati in POS.
+- **Utilizza imposta basata su destinazione** - Questa opzione indica se l'indirizzo di spedizione viene utilizzato per determinare il gruppo imposte applicato alle righe ordine spedite all'indirizzo del cliente.
+- **Utilizza imposta basata su cliente** - Questa opzione indica se il gruppo imposte definito per l'indirizzo di consegna del cliente viene utilizzato per tassare gli ordini dei clienti creati in POS per la spedizione all'indirizzo del cliente.
+
+![Impostazione del canale del punto vendita nella pagina Punti vendita](media/customer-order-all-stores.png)
+
+### <a name="set-up-customer-order-parameters"></a>Impostare i parametri degli ordini cliente
+
+Prima di provare a creare ordini cliente in POS, è necessario configurare i parametri appropriati in Commerce headquarters. Questi parametri possono essere trovati nella scheda **Ordini cliente** della pagina **Parametri di commercio**.
+
+- **Tipo di ordine predefinito** - È possibile specificare il tipo di ordine assegnato per impostazione predefinita agli ordini cliente creati in POS. Questi ordini cliente possono essere ordini di vendita o ordini di offerta. Indipendentemente dal tipo di ordine predefinito, gli utenti possono comunque creare ordini di vendita e ordini cliente in POS.
+- **Percentuale di deposito predefinita** - Specificare la percentuale dell'importo totale dell'ordine che il cliente deve pagare come deposito prima che un ordine possa essere confermato. A seconda dei privilegi, le filiali del punto vendita potrebbero essere in grado di sostituire l'importo utilizzando l'operazione **Sostituzione deposito** in POS, se tale operazione è configurata per il layout della schermata della transazione.
+- **Modalità di prelievo per consegna** - Specificare la modalità di consegna da applicare alle righe dell'ordine di vendita configurate per il ritiro in POS.
+- **Esegui modalità di consegna** - Specificare la modalità di consegna da applicare alle righe ordine di vendita che sono considerate righe ordine di esecuzione quando viene creato un carrello misto, in cui alcune righe verranno prelevate o spedite e altre righe verranno eseguite immediatamente dal cliente.
+- **Percentuale spese di annullamento** - se un addebito viene applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
+- **Codice spese di annullamento** - Specificare il codice spese della contabilità clienti da utilizzare quando viene applicato una spesa di annullamento agli ordini cliente annullati tramite POS. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di annullamento.
+- **Codice spese di spedizione** - Se l'opzione **Utilizza addebiti automatici avanzati** è impostata su **Sì**, questa impostazione del parametro non ha effetto. Se questa opzione è impostata su **No**, agli utenti verrà richiesto di inserire manualmente una spesa di spedizione quando creano gli ordini cliente in POS. Utilizzare questo parametro per mappare un codice di addebito della contabilità clienti che verrà applicato agli ordini quando gli utenti inseriscono una spesa di spedizione. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di spedizione.
+- **Utilizza addebiti automatici avanzati** - Impostare questa opzione su **Sì** per utilizzare gli addebiti automatici calcolati dal sistema quando gli ordini cliente vengono creati in POS. Questi addebiti automatici possono essere utilizzati per calcolare le spese di spedizione o altre spese specifiche per ordine o articolo. Per ulteriori informazioni su come impostare e usare le spese automatiche avanzate, vedere [Spese automatiche avanzate omnicanale](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+
+![Scheda Ordini cliente nella pagina Parametri di commercio](media/customer-order-parameters.png)
+
+### <a name="update-transaction-screen-layouts-in-pos"></a>Aggiornare i layout delle schermate delle transazioni in POS
+
+Assicurarsi che il [layout dello schermo](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) in POS sia configurato per supportare la creazione e la gestione degli ordini cliente e che tutte le operazioni POS richieste siano configurate. Ecco alcune delle operazioni POS consigliate per supportare correttamente la creazione e la gestione degli ordini cliente:
+- **Spedisci tutti i prodotti** - Questa operazione viene utilizzata per specificare che tutte le righe nel carrello delle transazioni verranno spedite a una destinazione.
+- **Spedisci prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni verranno spedite a una destinazione.
+- **Preleva tutti i prodotti** - Questa operazione viene utilizzata per specificare che tutte le righe nel carrello delle transazioni verranno prelevate da un'ubicazione selezionata del punto vendita.
+- **Preleva prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni verranno prelevate da un'ubicazione selezionata del punto vendita.
+- **Esegui tutti i prodotti** - Questa operazione viene utilizzata per specificare che verranno eseguite tutte le righe nel carrello delle transazioni. Se questa operazione viene utilizzata in POS, l'ordine cliente verrà convertito in una transazione cash and carry.
+- **Esegui prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni vengono eseguite dal cliente al momento dell'acquisto. Questa operazione è utile solo in uno scenario di [ordine ibrido](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Richiama ordine** - Questa operazione viene utilizzata per cercare e recuperare gli ordini cliente in modo che gli utenti POS possano modificare, annullare o eseguire operazioni relative all'evasione degli ordini come richiesto.
+- **Modifica modalità di consegna** - Questa operazione può essere utilizzata per modificare rapidamente la modalità di consegna per le righe già configurate per la spedizione, senza richiedere che gli utenti eseguano nuovamente il flusso "Spedisci tutti i prodotti" o "Spedisci prodotti selezionati".
+- **Sostituzione deposito** - Questa operazione può essere utilizzata per modificare l'importo del deposito che il cliente pagherà per l'ordine cliente selezionato.
+
+![Operazioni nella schermata delle transazioni POS](media/customer-order-screen-layout.png)
+
+## <a name="working-with-customer-orders-in-pos"></a>Utilizzo degli ordini cliente in POS
+
+### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Creare un ordine cliente per i prodotti che verranno spediti al cliente
+
+1. Nella schermata della transazione POS, aggiungere un cliente alla transazione.
 2. Aggiungere prodotti al carrello.
-3. Fare clic su **Crea ordine cliente** quindi selezionare il tipo di ordine. Tipo di ordine può essere **Ordine cliente** o **Offerta**.
-4. Fare clic su **Spedizione selezionata** o **Spedisci tutto** per spedire i prodotti a un indirizzo nel conto cliente, specificare la data di spedizione richiesta e specificare le spese di spedizione.
-5. Fare clic su **Prelievo selezionato** o **Preleva tutto** per selezionare i prodotti che saranno prelevati dal punto vendita corrente o da un punto vendita diverso in una data specifica.
-6. Incassare l'importo del deposito, se un deposito è obbligatorio.
+3. Selezionare **Spedizione selezionata** o **Spedisci tutto** per spedire i prodotti a un indirizzo sul conto cliente.
+4. Selezionare l'opzione per creare un ordine cliente.
+5. Confermare o modificare l'ubicazione in "Spedisci da", confermare o modificare l'indirizzo di spedizione e selezionare un metodo di spedizione.
+6. Immettere la data di spedizione dell'ordine desiderata dal cliente.
+7. Utilizzare le funzioni di pagamento per pagare gli importi calcolati dovuti oppure utilizzare l'operazione **Sostituzione deposito** per modificare gli importi dovuti e quindi applicare il pagamento.
+8. Se il totale dell'ordine non è stato pagato, inserire una carta di credito che verrà acquisita per il saldo dovuto sull'ordine quando verrà fatturato.
+
+### <a name="create-a-customer-order-for-products-that-the-customer-will-pick-up"></a>Creare un ordine cliente per i prodotti che verranno prelevati dal cliente
+
+1. Nella schermata della transazione POS, aggiungere un cliente alla transazione.
+2. Aggiungere prodotti al carrello.
+3. Selezionare **Prelievo selezionato** o **Preleva tutto** per avviare la configurazione del prelievo dell'ordine.
+4. Selezionare l'ubicazione del punto vendita dal quale il cliente preleverà i prodotti selezionati.
+5. Selezionare una data di prelievo.
+6. Utilizzare le funzioni di pagamento per pagare gli importi calcolati dovuti oppure utilizzare l'operazione **Sostituzione deposito** per modificare gli importi dovuti e quindi applicare il pagamento.
+7. Se il totale dell'ordine non è stato pagato per intero, selezionare se il cliente fornirà il pagamento in un secondo momento (al ritiro) o se una carta di credito verrà inserita ora, quindi utilizzata e acquisita al momento del ritiro.
 
 ### <a name="edit-an-existing-customer-order"></a>Modificare un ordine cliente esistente
 
-1. Nella home page, fare clic su **Trova ordine**.
-2. Trovare e selezionare l'ordine da modificare. In fondo alla pagina fare clic su **Modifica**.
+Gli ordini al dettaglio creati nel canale online o in negozio possono essere richiamati e modificati tramite POS secondo necessità.
 
-### <a name="pick-up-an-order"></a>Prelevare un ordine
+> [!IMPORTANT]
+> Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
 
-1. Nella home page, fare clic su **Trova ordine**.
-2. Selezionare l'ordine da prelevare. In fondo alla pagina fare clic su **Prelievo e imballaggio**.
-3. Fare clic su **Preleva**.
+In Commerce versione 10.0.13 e precedenti, gli utenti possono modificare gli ordini cliente supportati tramite POS solo se gli ordini sono completamente aperti. Se alcune righe di un ordine sono già state elaborate per l'evasione (prelievo, imballaggio e così via), l'ordine è bloccato per la modifica in POS.
 
-### <a name="cancel-an-order"></a>Annullare un ordine
+> [!NOTE]
+> In Commerce versione 10.0.14, una funzionalità che è stata rilasciata in [anteprima pubblica](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) consente agli utenti POS di modificare gli ordini cliente tramite POS, anche se una parte dell'ordine è già stata evasa. Tuttavia, gli ordini completamente fatturati non possono ancora essere modificati tramite POS. Per testare questa funzione di anteprima e fornire feedback aggiuntivo, attivare la funzionalità **(Anteprima) Modificare gli ordini parzialmente evasi nel punto vendita** nell'area di lavoro **Gestione funzionalità**. Gli ordini cliente che hanno avuto origine in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine non possono essere modificati anche dopo che questa funzione è stata abilitata.
 
-1. Nella home page, fare clic su **Trova ordine**.
-2. Selezionare l'ordine cliente da annullare. In fondo alla pagina fare clic su **Annulla**.
+1. Selezionare **Richiama ordine**.
+2. Usare **Cerca** per inserire filtri per trovare l'ordine, quindi selezionare **Applica**.
+3. Selezionare l'ordine nell'elenco dei risultati, quindi selezionare **Modifica**. Se il pulsante **Modifica** non è disponibile, l'ordine è in uno stato in cui non può essere modificato.
+4. Dal carrello delle transazioni, apportare le modifiche necessarie all'ordine cliente. Alcuni cambiamenti potrebbero non essere consentiti durante la modifica.
+5. Completare il processo di modifica selezionando un'operazione di pagamento.
+6. Per uscire dal processo di modifica senza salvare le modifiche, puoi utilizzare l'operazione **Annulla transazione**.
 
-### <a name="create-a-return-order"></a>Creare un ordine di reso
 
-1. Nella home page, fare clic su **Trova ordine**.
-2. Selezionare l'ordine da restituire, selezionare la fattura per l'ordine quindi selezionare la riga prodotto della merce da restituire.
-3. In fondo alla pagina fare clic su **Ordine di reso**.
+
+### <a name="cancel-a-customer-order"></a>Annullare un ordine cliente
+
+1. Selezionare **Richiama ordine**.
+2. Usare **Cerca** per inserire filtri per trovare l'ordine, quindi selezionare **Applica**.
+3. Selezionare l'ordine nell'elenco dei risultati, quindi selezionare **Annulla**. Se il pulsante **Annulla** non è disponibile, l'ordine è in uno stato in cui non può essere più annullato.
+4. Se sono configurate spese di annullamento, confermarle. È possibile modificare le spese di annullamento prima di confermarle, come necessario. 
+5. Dal carrello delle transazioni, completare il processo di annullamento selezionando un'operazione di pagamento. Se i depositi pagati superano la spesa di annullamento, potrebbe essere dovuto il rimborso.
+6. Per uscire dal processo di annullamento senza salvare le modifiche, puoi utilizzare l'operazione **Annulla transazione**.
+
+## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Finalizzare la spedizione dell'ordine cliente o il ritiro dal POS
+
+Dopo aver creato un ordine, gli articoli verranno ritirati dal cliente in un punto vendita o spediti, a seconda della configurazione dell'ordine. Per ulteriori informazioni su questo processo, vedere la documentazione sull'[evasione degli ordini del punto vendita](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flusso asincrono della transazione per gli ordini cliente
 
-Gli ordini cliente possono essere creati dal client POS in modalità sincrona o in modalità asincrona.
+Gli ordini cliente possono essere creati in POS in modalità sincrona o in modalità asincrona. Se si notano problemi di prestazioni o ritardi degli utenti quando si creano gli ordini cliente in POS, valutare la possibilità di attivare la creazione di ordini asincroni.
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Abilitare la creazione degli ordini cliente in modalità asincrona
 
-1. Fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili funzionalità**.
+1. In Commerce headquarters, nella pagina **Profili funzionalità** selezionare il profilo funzionalità che corrisponde al punto vendita che si desidera configurare.
 2. Nella Scheda dettaglio **Generale** , impostare l'opzione **Crea ordine cliente in modalità asincrona** su **Sì**.
 
-Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su **Sì**, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione su **No**, ordini cliente vengono creati sempre in modalità sincrona utilizzando RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e immessi in Commerce tramite i processi Pull (P). Gli ordini cliente corrispondenti vengono creati in Commerce quando **Sincronizza ordini** viene eseguito manualmente o tramite un processo batch.
+Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su **Sì**, ordini cliente vengono creati sempre in modalità asincrona, anche se Retail Transaction Service (RTS) è disponibile. Se si imposta questa opzione su **No**, ordini cliente vengono creati sempre in modalità sincrona utilizzando RTS. Quando gli ordini cliente vengono creati in modalità asincrona, vengono estratti e creati come transazioni di vendita al dettaglio in Commerce headquarters dai processi Pull (P) di Commerce. Gli ordini cliente corrispondenti per le transazioni di vendita al dettaglio vengono creati quando **Sincronizza ordini** viene eseguito manualmente o tramite un processo batch.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

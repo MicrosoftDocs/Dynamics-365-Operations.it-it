@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,26 +16,25 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651692"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760401"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che possono essere utilizzate per migliorare la produttività degli utenti, creare viste più interessanti dei dati e ottenere informazioni dettagliate significative sui dati. In questo articolo vengono illustrate le seguenti funzionalità: 
 
--  Calcolare i totali
--  Raggruppare i dati
+-  Calcolo totali in corso
 -  Digitare prima del sistema
 -  Valutare espressioni matematiche 
+-  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **(Anteprima) Raggruppamento in griglie**)
 
-## <a name="calculating-totals"></a>Calcolare i totali
+## <a name="calculating-totals"></a>Calcolo totali in corso
 Nelle app Finance and Operations, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
 
 ### <a name="showing-the-grid-footer"></a>Visualizzare il piè di pagina della griglia
@@ -71,21 +70,6 @@ Se il calcolo richiede troppo tempo, è possibile annullare l'operazione selezio
 
 I totali verranno aggiornati automaticamente a mano a mano che si aggiornano, eliminano o si creano righe nel set di dati.  
 
-## <a name="grouping-data"></a>Raggruppare i dati
-Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento** nelle griglie tabulari consente agli utenti di organizzare i dati in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente inoltre di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
-
-Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge un nuovo gruppo all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo: 
--  Valore dei dati per il gruppo 
--  Etichetta della colonna (Queste informazioni saranno particolarmente utili dopo il supporto di più livelli di raggruppamento).
--  Numero di righe di dati in questo gruppo
--  Subtotali per qualsiasi colonna configurata per mostrare i totali
-
-Con la funzionalità [Visualizzazioni salvate](saved-views.md) abilitata, questo raggruppamento può essere salvato mediante personalizzazione come parte di una visualizzazione per un accesso rapido alla successiva visita della pagina.  
-
-Se si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, il raggruppamento originale viene sostituito, poiché un solo livello di raggruppamento è supportato nella versione 10.0.9 con l'update 33 della piattaforma.
-
-Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro del mouse sulla colonna di raggruppamento e selezionare **Separa**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Digitare prima del sistema
 In molti scenari aziendali, la capacità di inserire rapidamente i dati nel sistema è molto importante. Prima dell'introduzione del nuovo controllo della griglia, gli utenti potevano modificare i dati solo nella riga corrente. Prima di poter creare una nuova riga o passare a una riga diversa, erano costretti ad attendere che il sistema convalidasse correttamente eventuali modifiche. Nel tentativo di ridurre il tempo di attesa degli utenti per il completamento di queste convalide e di migliorare la produttività degli stessi, la nuova griglia regola tali convalide in modo che siano asincrone. Pertanto, l'utente può spostarsi su altre righe per apportare modifiche mentre sono in corso le convalide delle righe precedenti. 
 
@@ -109,6 +93,32 @@ Come booster di produttività, gli utenti possono inserire formule matematiche n
 
 Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per ulteriori informazioni sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Raggruppamento di dati tabulari
+[!include [preview banner](../includes/preview-banner.md)]
+
+Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **(Anteprima) Raggruppamento in griglie** che dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
+
+Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge un nuovo **gruppo** all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo: 
+-  Valore dei dati per il gruppo 
+-  Nome della colonna (Queste informazioni saranno particolarmente utili dopo il supporto di più livelli di raggruppamento).  
+-  Numero di righe di dati in questo gruppo
+-  Subtotali per qualsiasi colonna configurata per mostrare i totali
+
+Con la funzionalità [Visualizzazioni salvate](saved-views.md) abilitata, questo raggruppamento può essere salvato mediante personalizzazione come parte di una visualizzazione per un accesso rapido alla successiva visita della pagina.  
+
+Se si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, il raggruppamento originale viene sostituito, poiché un solo livello di raggruppamento è supportato a partire dalla versione 10.0.9 con l'update 33 della piattaforma.
+
+Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro del mouse sulla colonna di raggruppamento e selezionare **Separa**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Espansione e compressione di gruppi
+Il raggruppamento iniziale di dati avrà tutti i gruppi espansi. È possibile creare visualizzazioni riepilogative dei dati comprimendo i singoli gruppi oppure è possibile utilizzare l'espansione e la compressione del gruppo per facilitare lo spostamento tra i dati. Per espandere o comprimere un gruppo, selezionare il pulsante con la freccia (>) nella riga dell'intestazione del gruppo corrispondente. Tenere presente che lo stato di espansione/compressione dei singoli gruppi **non** è salvato nella personalizzazione.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Selezionare e deselezionare le righe a livello di gruppo
+Come è possibile selezionare (o deselezionare) tutte le righe nella griglia selezionando la casella di controllo nella parte superiore della prima colonna nella griglia, è possibile anche selezionare rapidamente (o deselezionare) tutte le righe in un gruppo selezionando la casella di controllo nella riga dell'intestazione del gruppo corrispondente. La casella di controllo nella riga di intestazione del gruppo rifletterà sempre lo stato di selezione corrente delle righe di quel gruppo, indipendentemente dal fatto che tutte le righe siano selezionate, non sia selezionata alcuna riga o solo alcune righe siano selezionate.
+
+### <a name="hiding-column-names"></a>Nascondere i nomi delle colonne
+Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. A partire dalla versione 10.0.14/aggiornamento della piattaforma 38, è possibile scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
+
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 
 
@@ -131,7 +141,7 @@ Tutte le sessioni utente successive verranno avviate con il nuovo controllo grig
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
 Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Si prega di segnalare a Microsoft eventuali problemi che richiedono l'utilizzo di questa API. 
 

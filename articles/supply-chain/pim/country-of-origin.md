@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596246"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802799"
 ---
 # <a name="country-of-origin"></a>Paese di origine
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Molte organizzazioni rilasciano certificati ai propri fornitori per garantire che i prodotti soddisfino specifici standard di certificazione. Questi certificati dipendono spesso dal paese di origine. La funzionalità del paese di origine consente di collegare un prodotto al relativo paese di origine e di tenere traccia delle certificazioni del prodotto.
+
+## <a name="turn-on-the-country-of-origin-feature"></a>Attivare la funzionalità del paese di origine
+
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione informazioni sul prodotto*
+- **Nome funzionalità:** *Funzionalità di gestione del paese di origine*
 
 ## <a name="configure-source-and-destination-countries"></a>Configura i paesi di origine e di destinazione
 

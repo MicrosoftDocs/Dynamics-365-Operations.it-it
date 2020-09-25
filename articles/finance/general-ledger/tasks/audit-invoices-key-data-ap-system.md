@@ -1,6 +1,6 @@
 ---
-title: Verificare le fatture e i dati principali nel sistema di contabilità fornitori
-description: Quando si riceve una fattura da un fornitore per merci o servizi di un ordine fornitore, è possibile che per i processi aziendali sia necessario ricevere le merci o i servizi prima dell'approvazione della fattura per il pagamento.
+title: Verificare le fatture e i dati principali nella contabilità fornitori
+description: Questo argomento mostra come verificare le fatture e i dati principali nella contabilità fornitori.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139946"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761551"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a>Verificare le fatture e i dati principali nel sistema di contabilità fornitori
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Verificare le fatture e i dati principali nella contabilità fornitori
 
 [!include [banner](../../includes/banner.md)]
 
 Quando si riceve una fattura da un fornitore per merci o servizi di un ordine fornitore, è possibile che per i processi aziendali sia necessario ricevere le merci o i servizi prima dell'approvazione della fattura per il pagamento. Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione Abbinamento fatture. 
 
-Nella pagina Parametri di contabilità fornitori, assicurarsi che l'opzione Abilita convalida abbinamento fatture sia selezionata,che il campo Registra fatture con discrepanze sia impostato su Richiedi approvazione e che il campo Criteri di abbinamento riga sia impostato su Criteri di abbinamento a tre elementi di verifica.
+Nella pagina **Parametri di contabilità fornitori**, assicurarsi che l'opzione Abilita convalida abbinamento fatture sia selezionata,che il campo **Registra fatture con discrepanze** sia impostato su **Richiedi approvazione** e che il campo **Criteri di abbinamento riga** sia impostato su **Criteri di abbinamento a tre elementi di verifica**.
 
 Questa procedura utilizza la società dimostrativa USMF. Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni.
 

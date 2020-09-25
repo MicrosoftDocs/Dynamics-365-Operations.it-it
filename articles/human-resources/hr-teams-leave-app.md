@@ -3,7 +3,7 @@ title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b3daa76385518ad4c7150fa93ce33be0351bfd57
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428830"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766762"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -82,11 +82,11 @@ Puoi chiedere al bot di:
 
    ![Richiesta permesso dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-request.png)
  
-Dopo aver avviato una richiesta di ferie, è possibile modificare i giorni direttamente all'interno della carta oppure selezionare **Modifica dettagli** per aggiungere ulteriori informazioni alla tua richiesta.
+Dopo aver avviato una richiesta di congedo, è possibile modificare i giorni direttamente nella scheda.
 
 ![Modifica richiesta dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-edit.png)
  
-Al termine dell'immissione delle informazioni, digita **Invia** per inviarle per l'approvazione. Puoi anche digitare **Salva come bozza** per tornare più tardi.
+Al termine dell'immissione delle informazioni, selezionare **Invia** per inviarle per l'approvazione. Puoi anche selezionare **Salva come bozza** per tornare più tardi.
 
 ![Invio richiesta nell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-submit.png)
 
@@ -130,15 +130,43 @@ La scheda **Tempo libero** ti consente di visualizzare:
 
    ![Modifica bozza dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
+### <a name="teams-notifications"></a>Notifiche di Teams
+
+Quando l'utente o un lavoratore per cui l'utente è un approvatore invia una richiesta di congedo, viene ricevuta una notifica nell'app Human Resources in Teams. È possibile selezionare la notifica per visualizzarla. Le notifiche vengono visualizzate anche nell'area **Chat**.
+
+Se l'utente è un approvatore, è possibile selezionare **Approva** o **Rifiuta** nella notifica. È anche possibile fornire un messaggio opzionale.
+
+![Notifica della richiesta di congedo nell'app Human Resources in Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="view-your-teams-leave-calendar"></a>Visualizzare un calendario di congedo del team
+
+Se l'utente è un responsabile con diretti subalterni può visualizzare i congedi approvati e in sospeso del team.
+
+1. Nell'app Human Resources in Teams selezionare **Permesso**.
+
+2. Selezionare **Calendario del team**.
+
+   ![Visualizzare il calendario nell'app Human Resources in Teams](./media/hr-teams-leave-app-view-calendar.png)
+
+Il calendario mostra i permessi approvati e in attesa di approvazione dei diretti subalterni.
+
+![Calendario dei permessi nell'app Human Resources in Teams](./media/hr-teams-leave-app-calendar.png)
+
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 
-Con il bot Dynamics 365 Human Resources in Microsoft Teams, gli input di testo dell'utente vengono analizzati per comprendere la query/l'intento sottostanti. L'input dell'utente, ad esempio "Cerca account Contoso", viene indirizzato a uno dei servizi cognitivi di Microsoft chiamato Language Understanding Intelligent Service (LUIS). Ulteriori informazioni su LUIS [qui](https://www.luis.ai/). Il servizio LUIS disambigua o comprende l'intento dell'input dell'utente (in questo caso, l'intento è quello di trovare informazioni) e l'entità di destinazione (in questo caso, l'entità desiderata è un account chiamato Contoso). Queste informazioni vengono quindi trasmesse al [Framework bot di Azure](https://azure.microsoft.com/services/bot-service/) di Microsoft che interagisce con i dati da Dynamics 365 Human Resources e recupera le informazioni desiderate per la query dell'utente. 
+### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
+
+Con il bot Dynamics 365 Human Resources in Microsoft Teams, gli input di testo dell'utente vengono analizzati per comprendere la query/l'intento sottostanti. L'input dell'utente, ad esempio "Cerca account Contoso", viene indirizzato a uno dei servizi cognitivi di Microsoft chiamato Language Understanding Intelligent Service (LUIS). Ulteriori informazioni su LUIS [qui](https://www.luis.ai/). Il servizio LUIS disambigua o comprende l'intento dell'input dell'utente (in questo caso, l'intento è quello di trovare informazioni) e l'entità di destinazione (in questo caso, l'entità desiderata è un account chiamato Contoso). Queste informazioni vengono quindi trasmesse al  [Bot Framework di Azure](https://azure.microsoft.com/services/bot-service/) di Microsoft che interagisce con i dati da Dynamics 365 Human Resources e recupera le informazioni desiderate per la query dell'utente. 
 
 Installando e consentendo l'accesso all'uso del bot, l'utente accetta di consentire al servizio LUIS e al framework del bot di Azure di elaborare l'intento dietro l'input, il che si traduce in un'esperienza utente conversazionale migliorata. Il servizio LUIS e il framework dei bot di Azure possono presentare livelli di conformità diversi rispetto a Dynamics 365 Human Resources. Mentre il servizio LUIS ha accesso solo alle query dell'utente e non è progettato per essere collegato ai dati o all'account Dynamics 365 Human Resources dell'utente, un utente del bot Dynamics 365 Human Resources potrebbe inserire volontariamente una query contenente dati del cliente, dati personali o altri dati e tale contenuto della query potrebbe essere inviato al servizio LUIS e al framework del bot di Azure. 
 
 Il contenuto delle query e dei messaggi dell'utente viene conservato nel sistema LUIS per un massimo di 30 giorni, viene crittografato a riposo e non viene utilizzato per migliorare la formazione o il servizio. Ulteriori informazioni sui servizi cognitivi [qui](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-Per gestire le impostazioni di amministrazione per le app in Microsoft Teams, vai all'[interfaccia di amministrazione di Microsoft Teams](https://admin.teams.microsoft.com/). 
+Per gestire le impostazioni di amministrazione per le app in Microsoft Teams, vai all'[interfaccia di amministrazione di Microsoft Teams](https://admin.teams.microsoft.com/).
+
+### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Griglia di eventi Microsoft Azure e Microsoft Teams
+
+Quando si utilizza la funzione di notifica per l'app Dynamics 365 Human Resources in Teams, alcuni dati dei clienti passeranno al di fuori dell'area geografica in cui è distribuito il servizio Human Resources del tenant. Dynamics 365 Human Resources trasmette la richiesta di congedo del dipendente e i dettagli dell'attività del flusso di lavoro alla Griglia di eventi di Microsoft Azure e Microsoft Teams. Questi dati possono essere archiviati per un massimo di 24 ore ed elaborati negli Stati Uniti, vengono crittografati i dati in transito e inattivi e non vengono utilizzati da Microsoft o dai collaboratori di elaborazione per la formazione o il miglioramento del servizio.
 
 ## <a name="see-also"></a>Vedere anche
 

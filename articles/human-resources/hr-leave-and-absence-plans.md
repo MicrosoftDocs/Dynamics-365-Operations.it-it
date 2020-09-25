@@ -3,7 +3,7 @@ title: Creare un piano di congedo e assenza
 description: Crea piani di congedo in Dynamics 365 Human Resources per diversi tipi di congedo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428711"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796499"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Creare un piano di congedo e assenza
 
@@ -43,7 +43,15 @@ Ad esempio, con un piano a più livelli, si potrebbe concedere un benefit di 80 
 
 2. Sotto **Dettagli**, immettere **Nome**, **Data d'inizio**, **Descrizione** e **Tipo di congedo** per il piano.
 
-Se la funzionalità per **configurare più tipi di congedo per un singolo piano di congedo e assenza** è abilitata, i tipi di congedo sono configurati in **Programmazione dell'accumulo** anziché in **Dettagli**. Per ogni record nella tabella della programmazione dell'accumulo, è possibile definire un tipo di congedo.
+Se la funzionalità per **configurare più tipi di congedo per un singolo piano di congedo e assenza** è abilitata, i tipi di congedo sono configurati in **Programmazione dell'accumulo** anziché in **Dettagli**. Per ogni record nella tabella della programmazione dell'accumulo, è possibile definire un tipo di congedo. Inoltre, quando questa funzione è abilitata, è necessario usare nuove entità di dati per integrazioni o altri scenari in cui occorre usare le entità. 
+
+Le nuove entità sono:
+
+- Transazione bancaria per congedo e assenza V2
+- Iscrizione per congedo e assenza V2
+- Livello del piano di congedo e assenza V2
+- Piano di congedo e assenza V2
+- Richiesta di permesso di congedo V2
 
  > [!IMPORTANT]
    > Dopo aver abilitato questa funzionalità, non è possibile disattivarla.

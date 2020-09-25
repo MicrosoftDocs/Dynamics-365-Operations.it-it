@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5643be99ac2c58f4da1a2a068e84bf526f8575cb
+ms.sourcegitcommit: 164de749f394a133f223c526aa0c46bf922d1ea8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172833"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3770014"
 ---
 # <a name="integrated-customer-master"></a>Dati master clienti integrati
 
@@ -41,7 +41,7 @@ I dati dei clienti possono essere masterizzati in più di un'applicazione Dynami
 
 I clienti possono essere classificati largamente in due tipi: clienti commerciali/aziendali e consumatori/utenti finali. Questi due tipi di clienti vengono archiviati e gestiti in modo diverso in Finance and Operations e Common Data Service.
 
-In Finance and Operations, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustomerCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione**, il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona**, il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite l'entità SMMContactPersonEntity.
+In Finance and Operations, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione**, il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona**, il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite l'entità SMMContactPersonEntity.
 
 In Common Data Service, i clienti commerciali/aziendali sono gestiti nell'entità Conto e vengono identificati come clienti quando l'attributo **RelationshipType** è impostato su **Cliente**. Sia i consumatori/utenti finali che il contatto sono rappresentati dall'entità Contatto. Per fornire una netta separazione tra un consumatore/utente finale e un contatto, l'entità **Contatto** include un flag booleano **Di vendita**. Se **Di vendita** è **True**, il contatto è un consumatore/utente finale e offerte e gli ordini possono essere creati per quel contatto. Se **Di vendita** è **False**, il contatto è solo un contatto principale di un cliente.
 

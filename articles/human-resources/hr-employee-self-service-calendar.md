@@ -3,7 +3,7 @@ title: Creare un calendario di team
 description: Visualizzare e creare calendari di team in Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712210"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796471"
 ---
 # <a name="view-team-and-company-calendars"></a>Visualizzare i calendari per team e società
 
@@ -50,6 +50,22 @@ Le persone che ricoprono ruoli nelle risorse umane possono visualizzare calendar
 2. Selezionare **Calendario congedo e assenza**.
 
 I ruoli di Human resources possono anche accedere al calendario aziendale da **Richieste di congedo e assenza**, **Permesso approvato** e **Richieste di permesso**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+I calendari ora contengono filtri e opzioni aggiuntive. Tutti i calendari includono opzioni di visualizzazione per:
+
+- Richieste approvate
+- Richieste in sospeso
+- Dipendenti con richieste di congedo
+- Dipendenti senza richieste di congedo
+- Compleanni dei dipendenti
+- Richieste di tempo libero 
+- Richieste di congedo
+
+La configurazione del calendario nei parametri di congedo e assenza determina le opzioni di visualizzazione disponibili.
+
+È anche possibile filtrare i calendari per responsabile o reparto. L'assegnazione della posizione principale determina i dipendenti visualizzati quando vengono impostati questi filtri. 
 
 Per informazioni sulle impostazioni del calendario, vedere [Configurare i parametri del calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

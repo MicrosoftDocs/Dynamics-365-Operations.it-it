@@ -3,7 +3,7 @@ title: Modulo Gift card
 description: Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,24 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661244"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761083"
 ---
 # <a name="gift-card-module"></a>Modulo Gift card
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Le gift card sono una forma di pagamento comune e il moduli Gift card può essere utilizzato in un modulo di pagamento per accettare gift card. Il moduli Gift card supporta gift card Dynamics 365, SVS e Givex. Le gift card SVS e Givex vengono riscattate tramite il fornitore di pagamenti Adyen.
+I moduli di gift card possono essere utilizzati nei moduli di pagamento per accettare gift card, una forma di pagamento comune utilizzata per le transazioni di e-commerce. Il moduli Gift card supporta gift card Dynamics 365, SVS e Givex. Le gift card SVS e Givex vengono riscattate tramite il fornitore di pagamenti Adyen. Per ulteriori informazioni sul supporto per gift card esterne come SVS e Givex, vedere [Supporto per gift card esterne](./dev-itpro/gift-card.md).
 
-Per ulteriori informazioni sul supporto per gift card esterne come SVS e Givex, vedere [Supporto per gift card esterne](./dev-itpro/gift-card.md)
+Sono disponibili due moduli di gift card:
+
+- **Gift card** - Questo modulo può essere utilizzato in una pagina di checkout per riscattare una gift card come offerta. 
+- **Controllo del saldo della gift card** - Questo modulo può essere utilizzato in qualsiasi pagina per controllare il saldo di una gift card. Questo modulo è disponibile in Commerce versione 10.0.14 e successive.
 
 L'immagine seguente mostra un esempio di un moduli Gift card in una pagina checkout.
 

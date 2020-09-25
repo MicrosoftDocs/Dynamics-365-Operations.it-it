@@ -3,7 +3,7 @@ title: Modulo Intestazione
 description: In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,24 +17,25 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: eb440a8fb67888c9411ad5998fead4d00982b436
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686624"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761226"
 ---
 # <a name="header-module"></a>Modulo Intestazione
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-In Dynamics 365 Commerce, un'intestazione di pagina comprende più moduli, come i moduli Intestazione, Menu di navigazione, Ricerca, Banner promozionale e Consenso per i cookie. 
+In Dynamics 365 Commerce, un'intestazione di pagina è configurata come un frammento di pagina che include l'intestazione, il banner promozionale e i moduli di consenso dei cookie. 
 
-Il modulo Intestazione include il logo di un sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito, il simbolo del carrello, il simbolo dell'elenco preferenze, opzioni di accesso e la barra di ricerca. Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (in altre parole un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger*).
+Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito, il modulo dell'icona del carrello, il simbolo dell'elenco preferenze, opzioni di accesso e la barra di ricerca. Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (in altre parole un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger*).
 
 L'immagine seguente mostra un esempio di modulo Intestazione in una home page.
 
@@ -48,33 +49,36 @@ Le proprietà **Immagine logo** e **Collegamento logo** vengono utilizzate per d
 
 La proprietà **Collegamenti account personale** può essere utilizzata per definire pagine dell'account per le quali il proprietario del sito desidera visualizzare collegamenti rapidi nell'intestazione.
 
-## <a name="modules-that-are-available-in-a-header-module"></a>Moduli disponibili in un modulo Intestazione
+## <a name="modules-that-are-available-within-a-header-module"></a>Moduli disponibili in un modulo intestazione
 
 Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Intestazione:
 
-- **Menu di navigazione** - Il menu di navigazione rappresenta la gerarchia di navigazione del canale e altri collegamenti di navigazione statici. La gerarchia di navigazione del canale può essere configurata in Dynamics 365 Commerce. Il menu di navigazione presenta una proprietà **Origine navigazione** utilizzata per specificare le voci di menu di navigazione di Retail Server e le voci di menu statico come origine. Se le voci di menu statico vengono specificate come origine, è possibile fornire collegamenti relativi ad altre pagine del sito. Gli elementi configurati vengono quindi visualizzati come navigazione intestazione. 
+- **Menu di navigazione** - Il menu di navigazione rappresenta la gerarchia di navigazione del canale e altri collegamenti di navigazione statici. Per ulteriori informazioni, vedere [Modulo menu di spostamento](nav-menu-module.md).
 
 - **Ricerca** - Il modulo Ricerca consente agli utenti di immettere termini di ricerca per cercare prodotti. L'URL della pagina di ricerca predefinita e i parametri della query di ricerca devono essere specificati in **Impostazioni sito \> Estensioni**. Il modulo Ricerca ha proprietà che consentono di sopprimere il pulsante o l'etichetta di ricerca. Il modulo Ricerca supporta anche opzioni di suggerimento automatico, come risultati di ricerca di prodotti, parola chiave e categorie.
 
 - **Icona del carrello** - Il modulo Icona carrello rappresenta l'icona del carrello, che mostra in qualsiasi momento il numero di articoli presenti nel carrello. Per ulteriori informazioni, vedere [Modulo Icona carrello](cart-icon-module.md).
 
-## <a name="create-a-header-module-for-a-page"></a>Creare un modulo Intestazione per una pagina
+## <a name="create-a-header-fragment-for-a-page"></a>Creare un frammento Intestazione per una pagina
 
-Per creare un modulo Intestazione, procedere come segue.
+Per creare un frammento Intestazione, procedere come segue.
 
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
-1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
-1. Selezionare lo slot **Contenitore predefinito** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi contenitore**.
+1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
+1. Selezionare lo slot **Contenitore predefinito** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi schermo**.
 1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare i moduli **Banner promozionale** e **Consenso per i cookie**, quindi selezionare **OK**.
-1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
-1. Selezionare lo slot **Contenitore** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi contenitore**.
-1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Intestazione** e quindi **OK**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare i moduli **Consenso per i cookie**, **Intestazione** e **Banner promozionale**, quindi selezionare **OK**.
+1. Nel riquadro delle proprietà del modulo **Banner promozionale** selezionare **Aggiungi messaggio** e quindi **Messaggio** .
+1. Nella finestra di dialogo **Messaggio**, aggiungere il testo e i collegamenti per il contenuto promozionale e selezionare **OK**.
+1. Nel riquadro delle proprietà del modulo **Consenso per i cookie** aggiungere e configurare il testo e un collegamento alla pagina della privacy del sito.
 1. Nello slot **Menu di navigazione** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Menu di navigazione** e quindi **OK**.
-1. Nel riquadro delle proprietà per il modulo Menu di navigazione, configurare le proprietà come necessario.
+1. Nel riquadro delle proprietà per il modulo del menu di spostamento, sotto **Origine menu di spostamento**, selezionare **Retail Server** .
+1. Nel riquadro delle proprietà per il modulo del menu di spostamento, sotto **Voci di menu statiche** selezionare **Aggiungi voce di menu** e quindi selezionare **Voce di menu** . 
+1. Nella finestra di dialogo **Voce di menu**, sotto **Testo voce di menu** inserire "Contatto".
+1. Nella finestra di dialogo **Voce di menu**, sotto **Destinazione collegamento voce di menu** selezionare **Aggiungi un collegamento** .
+1. Nella finestra di dialogo **Aggiungi un collegamento**, selezionare l'URL per la pagina "Contatti" del sito, quindi selezionare **OK**.  
+1. Nella finestra di dialogo **Voce di menu** selezionare **OK**.
 1. Nello slot **Ricerca** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Ricerca** e quindi **OK**.
 1. Nel riquadro delle proprietà per il modulo Ricerca, configurare le proprietà come necessario.
@@ -83,7 +87,7 @@ Per creare un modulo Intestazione, procedere come segue.
 1. Nel riquadro delle proprietà per il modulo Icona carrello, configurare le proprietà come necessario. Se l'icona del carrello deve visualizzare un riepilogo del carrello (noto anche come mini carrello) quando il puntatore del mouse si trova sull'icona, selezionare **Mostra mini carrello**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 
-Per garantire che un'intestazione sia visualizzata in ogni pagina, effettuare le seguenti operazioni in ogni modello di pagina creato per il sito.
+Per assicurare che un'intestazione sia visualizzata in ogni pagina, effettuare le seguenti operazioni in ogni modello di pagina creato per il sito.
 
 1. Nello slot **Intestazione** del modulo **Pagina predefinita**, aggiungere il frammento piè di pagina creato.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
@@ -92,18 +96,14 @@ Per garantire che un'intestazione sia visualizzata in ogni pagina, effettuare le
 
 [Panoramica starter kit](starter-kit-overview.md)
 
-[Modulo Contenitore](add-container-module.md)
+[Modulo contenitore](add-container-module.md)
 
-[Modulo Casella acquisti](add-buy-box.md)
+[Modulo icona carrello](cart-icon-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo banner promozionale](add-alert.md)
 
-[Modulo Icona carrello](cart-icon-module.md)
+[Modulo menu di spostamento](nav-menu-module.md) 
 
-[Modulo Checkout](add-checkout-module.md)
+[Consenso cookie](cookie-consent-module.md)
 
-[Modulo Conferma ordine](order-confirmation-module.md)
-
-[Modulo Intestazione](author-header-module.md)
-
-[Modulo Piè di pagina](author-footer-module.md)
+[Modulo piè di pagina](author-footer-module.md)
