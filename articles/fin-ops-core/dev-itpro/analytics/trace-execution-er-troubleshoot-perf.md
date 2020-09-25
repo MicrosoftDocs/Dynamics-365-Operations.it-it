@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550650"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760033"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -101,7 +101,7 @@ Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un
 
 Presupponiamo di aver completato la progettazione della prima versione della soluzione ER. Ora si desidera testarla nell'istanza e analizzare le prestazioni di esecuzione.
 
-### <a id='import-configuration'></a>Importare una configurazione ER da RCS in Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importare una configurazione ER da RCS in Finance and Operations
 
 1. Accedere all'istanza dell'applicazione.
 2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
 
     ![Finestra di dialogo Parametri dell'utente](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>Eseguire il formato ER
+### <a name="run-the-er-format"></a><a id='run-format'></a>Eseguire il formato ER
 
 1. Selezionare la società **DEMF**.
 2. Andare a **Amministrazione organizzazione\> Creazione di report elettronici \> Configurazioni**.
@@ -157,7 +157,7 @@ Da notare che il file generato presenta informazioni su 265 transazioni per sei 
 
 ## <a name="review-the-execution-trace"></a>Esaminare la traccia dell'esecuzione
 
-### <a id='export-trace'></a>Esportare la traccia generata dall'applicazione
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Esportare la traccia generata dall'applicazione
 
 Le tracce delle prestazioni sono disaccoppiate dal formato ER di origine e possono essere serializzate in un file zip esterno.
 
@@ -176,7 +176,7 @@ Le tracce delle prestazioni sono disaccoppiate dal formato ER di origine e posso
 
 Si noti che l'associazione tra la traccia delle prestazioni generata per il formato ER eseguito e il mapping di modello ER è basata sul descrittore radice utilizzato e il modello dati comune. Il numero di versione del formato e il mapping di modello non vengono considerati. Anche l'impostazione del flag **Impostazione predefinita per mapping di modello** per il mapping di modello non è considerata.
 
-### <a id='import-trace'></a>Importare la traccia generata in RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Importare la traccia generata in RCS
 
 1. In RCS, nell'area di lavoro **Creazione di report elettronici**, selezionare il riquadro **Configurazioni report**.
 2. Nella pagina **Configurazioni**, nella struttura di configurazione, espandere **Modello traccia delle prestazioni** e selezionare **Formato traccia delle prestazioni**.
@@ -201,7 +201,7 @@ Si noti che l'associazione tra la traccia delle prestazioni generata per il form
 
 2. Chiudere la pagina **Progettazione formati**.
 
-### <a id='use-trace'></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello
 
 1. In RCS, nella pagina **Configurazioni**, nella struttura della configurazione, selezionare **Mapping traccia delle prestazioni**.
 2. Nel riquadro azioni selezionare **Progettazione**.
@@ -301,7 +301,7 @@ Ripetere la procedura nella sezione [Importare una configurazione ER da RCS in F
 
 Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
 
-## <a name="review-the-execution-trace"></a>Esaminare la traccia dell'esecuzione
+## <a name="work-with-the-execution-trace"></a>Utilizzare la traccia dell'esecuzione
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Esportare la traccia generata dall'applicazione
 
@@ -347,7 +347,7 @@ Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER.
 
-![Informazioni sulla traccia per il formato ER eseguito in PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Informazioni sulla traccia delle prestazioni in formato PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilizzare strumenti esterni per esaminare una traccia dell'esecuzione che include le query di database
 
@@ -363,7 +363,7 @@ In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazi
     - Impostare l'opzione **Raccogli statistiche di query** su **Sì**.
     - Impostare l'opzione **Traccia query** su **Sì**.
 
-    ![Finestra di dialogo Parametri dell'utente](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Sezione Traccia esecuzione, finestra di dialogo Parametri utente](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Eseguire il formato ER
 
@@ -372,3 +372,8 @@ Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER. Questa traccia ora include i dettagli di accesso al database SQL durante l'esecuzione del formato ER.
 
 ![Informazioni sulla traccia per il formato ER eseguito in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Panoramica sui report elettronici](general-electronic-reporting.md)
+- [Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate](er-calculated-field-ds-performance.md)

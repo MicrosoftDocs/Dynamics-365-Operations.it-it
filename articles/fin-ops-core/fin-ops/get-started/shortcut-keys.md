@@ -1,6 +1,6 @@
 ---
 title: Tasti di scelta rapida
-description: I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati.
+description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811557"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761623"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
 
-I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati.
+I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app Finance and Operations.
 
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
@@ -236,6 +236,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi su/giù di una riga nella ricerca                                                                                        | Freccia SU/Freccia GIÙ            |
 | Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

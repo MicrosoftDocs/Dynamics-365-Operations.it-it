@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665612"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759913"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -339,4 +339,7 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 8. Confrontare il contenuto degli output generati.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
+
+- [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
+- [Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate](er-calculated-field-ds-performance.md)
+

@@ -3,7 +3,7 @@ title: Conteggio ciclo ubicazioni parziale
 description: I piani di conteggio ciclo definiscono le operazioni di conteggio effettivo. È possibile fare in modo che solo prodotti specifici e varianti di prodotto vengano conteggiati anziché tutte le scorte disponibili in un'ubicazione.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215679"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760009"
 ---
 # <a name="partial-location-cycle-counting"></a>Conteggio ciclo ubicazioni parziale
 
@@ -45,7 +45,7 @@ Se si associano i piani di conteggio ciclo ai modelli di lavoro mediante l'opzio
 
 Prima che il lavoro di conteggio ciclo parziale possa essere elaborato, è necessario, come minimo, selezionare **Visualizza numero articolo** per la voce di menu del dispositivo mobile come parte della configurazione del conteggio ciclo. All'operatore di magazzino verrà chiesto di registrare solo le informazioni di conteggio correlate alle righe di conteggio (numeri articolo e dimensioni prodotto). Tutte le altre scorte disponibili verranno ignorate in questo processo di conteggio. 
 
-Per il processo di conteggio ciclo parziale, la data/ora **Ultimo conteggio ciclo** non verranno aggiornate per l'ubicazione.
+Per il processo di conteggio parziale dei cicli, la data/ora **Ultimo conteggio ciclo** non viene aggiornata per la posizione, anche se vengono conteggiati tutti gli articoli disponibili in una determinata posizione. Il conteggio parziale dei cicli non considera il parametro **Giorni tra conteggio ciclo** della pagina **Piani di conteggio ciclo**. Il conteggio del ciclo parziale non supporta il conteggio simultaneo di più articoli nella stessa posizione. La funzionalità di conteggio del ciclo parziale può comportare il conteggio della stessa posizione più volte per un articolo quando **Elabora piano di conteggio ciclo** è eseguito. Per evitare questo scenario, specificare i filtri nel campo **Seleziona ubicazioni**.
 
 ## <a name="example"></a>Esempio
 Per questo esempio, solo il numero di articolo A0001 deve essere conteggiato nel magazzino 61.

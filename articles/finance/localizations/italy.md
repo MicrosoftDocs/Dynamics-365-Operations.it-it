@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1667dbb1d77975473b187e1a9f9271706e9e91f4
-ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
+ms.openlocfilehash: 8891be0e4fb2cf2bd8d491c06aae675550fa1c4c
+ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "3734867"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763679"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -53,6 +53,7 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Liquidazione provvigione su pagamento](emea-ita-exil-commission-settlement.md)
 - [Simulazioni di contabilità generale (Italia)](emea-ita-exil-general-ledger-simulations.md)
 - [Profili registrazione configurabili per banche e tipi di rimessa](emea-ita-exil-bank-remittance.md)
-- [Certificazione unica](emea-ita-exil-unique-certification.md)
+- [Certificazione Unica](emea-ita-exil-unique-certification.md)
 - [Importazione protesto di effetti attivi](emea-ita-exil-protest-boe.md)
+- [Plafond fiscale](emea-ita-exil-tax-plafond.md)
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)

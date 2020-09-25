@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597508"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775176"
 ---
 # <a name="warehouse-location-status"></a>Stato ubicazione magazzino
 
@@ -76,6 +76,9 @@ Lo scenario di esempio richiede la preparazione di due profili di ubicazione.
     Queste opzioni controllano se i campi di riferimento sull'ubicazione sono attivi.
 
 1. Ripeti i passaggi da 3 a 4 per il profilo **PICK-06**.
+
+> [!NOTE]
+> Quando i parametri sul profilo di ubicazione (**Abilita articolo nell'ubicazione**, **Abilita attività ubicazione**, **Abilita stato ubicazione**) sono impostati su *Sì*, il sistema aggiorna immediatamente le ubicazioni rilevanti eseguendo il processo *Verifica di coerenza stato ubicazione magazzino*.
 
 ### <a name="scenario"></a>Scenario
 
