@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d11e2d8b46614085156228ab1001d1f9340a05b0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 3f8a8e2006fe279b25bbf154c6e1802babf51117
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040965"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744361"
 ---
-# <span data-ttu-id="dfd53-103"><a name="PADLEFT">Funzione ER PADLEFT</a></span><span class="sxs-lookup"><span data-stu-id="dfd53-103"><a name="PADLEFT">PADLEFT ER function</a></span></span>
+# <a name="padleft-er-function"></a><span data-ttu-id="ea8e8-103">Funzione ER PADLEFT</span><span class="sxs-lookup"><span data-stu-id="ea8e8-103">PADLEFT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dfd53-104">La funzione `PADLEFT` restituisce un valore *Stringa* della lunghezza specificata in cui l'inizio della stringa specificata viene riempita con i caratteri specificati.</span><span class="sxs-lookup"><span data-stu-id="dfd53-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
+<span data-ttu-id="ea8e8-104">La funzione `PADLEFT` restituisce un valore *Stringa* della lunghezza specificata in cui l'inizio della stringa specificata viene riempita con i caratteri specificati.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dfd53-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="dfd53-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea8e8-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="ea8e8-105">Syntax</span></span>
 
 ```vb
 PADLEFT (text, length, padding chars)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="dfd53-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="dfd53-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ea8e8-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="ea8e8-106">Arguments</span></span>
 
-<span data-ttu-id="dfd53-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="dfd53-107">`text`: *String*</span></span>
+<span data-ttu-id="ea8e8-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="ea8e8-107">`text`: *String*</span></span>
 
-<span data-ttu-id="dfd53-108">Un valore *Stringa* che rappresenta il testo originale.</span><span class="sxs-lookup"><span data-stu-id="dfd53-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="ea8e8-108">Un valore *Stringa* che rappresenta il testo originale.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-108">A *String* value that represents the original text.</span></span>
 
-<span data-ttu-id="dfd53-109">`length`: *Intero*</span><span class="sxs-lookup"><span data-stu-id="dfd53-109">`length`: *Integer*</span></span>
+<span data-ttu-id="ea8e8-109">`length`: *Intero*</span><span class="sxs-lookup"><span data-stu-id="ea8e8-109">`length`: *Integer*</span></span>
 
-<span data-ttu-id="dfd53-110">Un valore *Intero* che rappresenta il numero finale di caratteri nella stringa riempita.</span><span class="sxs-lookup"><span data-stu-id="dfd53-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
+<span data-ttu-id="ea8e8-110">Un valore *Intero* che rappresenta il numero finale di caratteri nella stringa riempita.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
 
-<span data-ttu-id="dfd53-111">`padding chars`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="dfd53-111">`padding chars`: *String*</span></span>
+<span data-ttu-id="ea8e8-111">`padding chars`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="ea8e8-111">`padding chars`: *String*</span></span>
 
-<span data-ttu-id="dfd53-112">I caratteri da usare per il riempimento.</span><span class="sxs-lookup"><span data-stu-id="dfd53-112">The characters to use for padding.</span></span>
+<span data-ttu-id="ea8e8-112">I caratteri da usare per il riempimento.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-112">The characters to use for padding.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="dfd53-113">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="dfd53-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ea8e8-113">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="ea8e8-113">Return values</span></span>
 
-<span data-ttu-id="dfd53-114">*Stringa*</span><span class="sxs-lookup"><span data-stu-id="dfd53-114">*String*</span></span>
+<span data-ttu-id="ea8e8-114">*Stringa*</span><span class="sxs-lookup"><span data-stu-id="ea8e8-114">*String*</span></span>
 
-<span data-ttu-id="dfd53-115">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="dfd53-115">The resulting text value.</span></span>
+<span data-ttu-id="ea8e8-115">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="dfd53-116">Esempio</span><span class="sxs-lookup"><span data-stu-id="dfd53-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ea8e8-116">Esempio</span><span class="sxs-lookup"><span data-stu-id="ea8e8-116">Example</span></span>
 
-<span data-ttu-id="dfd53-117">`PADLEFT ("1234", 10, "`&nbsp;`")` restituisce la stringa di testo **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="dfd53-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
+<span data-ttu-id="ea8e8-117">`PADLEFT ("1234", 10, "`&nbsp;`")` restituisce la stringa di testo **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="ea8e8-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="dfd53-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="dfd53-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ea8e8-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="ea8e8-118">Additional resources</span></span>
 
-[<span data-ttu-id="dfd53-119">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="dfd53-119">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="ea8e8-119">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="ea8e8-119">Text functions</span></span>](er-functions-category-text.md)

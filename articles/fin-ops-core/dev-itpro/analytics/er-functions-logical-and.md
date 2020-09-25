@@ -18,51 +18,51 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1836d25ad07ad1ce735fda5e008a3315626b62bb
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 4a246496eca0d5a8538ac7f1577957e6b9eae4e3
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041816"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743473"
 ---
-# <span data-ttu-id="777d6-103"><a name="AND">Funzione ER AND</a></span><span class="sxs-lookup"><span data-stu-id="777d6-103"><a name="AND">AND ER function</a></span></span>
+# <a name="and-er-function"></a><span data-ttu-id="d7161-103">Funzione ER AND</span><span class="sxs-lookup"><span data-stu-id="d7161-103">AND ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="777d6-104">La funzione `AND` restituisce un valore *Booleano* **TRUE** se tutte le condizioni specificate sono vere.</span><span class="sxs-lookup"><span data-stu-id="777d6-104">The `AND` function returns a *Boolean* value of **TRUE** if all the specified conditions are true.</span></span> <span data-ttu-id="777d6-105">In caso contrario, restituisce il valore *Booleano* **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="777d6-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="d7161-104">La funzione `AND` restituisce un valore *Booleano* **TRUE** se tutte le condizioni specificate sono vere.</span><span class="sxs-lookup"><span data-stu-id="d7161-104">The `AND` function returns a *Boolean* value of **TRUE** if all the specified conditions are true.</span></span> <span data-ttu-id="d7161-105">In caso contrario, restituisce il valore *Booleano* **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="d7161-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="777d6-106">Sintassi</span><span class="sxs-lookup"><span data-stu-id="777d6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d7161-106">Sintassi</span><span class="sxs-lookup"><span data-stu-id="d7161-106">Syntax</span></span>
 
 ```vb
 AND (condition 1[, condition 2, …, condition N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="777d6-107">Argomenti</span><span class="sxs-lookup"><span data-stu-id="777d6-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d7161-107">Argomenti</span><span class="sxs-lookup"><span data-stu-id="d7161-107">Arguments</span></span>
 
-<span data-ttu-id="777d6-108">`condition 1`: *Booleano*</span><span class="sxs-lookup"><span data-stu-id="777d6-108">`condition 1`: *Boolean*</span></span>
+<span data-ttu-id="d7161-108">`condition 1`: *Booleano*</span><span class="sxs-lookup"><span data-stu-id="d7161-108">`condition 1`: *Boolean*</span></span>
 
-<span data-ttu-id="777d6-109">Un'espressione condizionale valida che deve essere testata.</span><span class="sxs-lookup"><span data-stu-id="777d6-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="777d6-110">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="777d6-110">This argument is required.</span></span>
+<span data-ttu-id="d7161-109">Un'espressione condizionale valida che deve essere testata.</span><span class="sxs-lookup"><span data-stu-id="d7161-109">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="d7161-110">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="d7161-110">This argument is required.</span></span>
 
-<span data-ttu-id="777d6-111">`condition N`: *Booleano*</span><span class="sxs-lookup"><span data-stu-id="777d6-111">`condition N`: *Boolean*</span></span>
+<span data-ttu-id="d7161-111">`condition N`: *Booleano*</span><span class="sxs-lookup"><span data-stu-id="d7161-111">`condition N`: *Boolean*</span></span>
 
-<span data-ttu-id="777d6-112">Un'espressione condizionale valida che deve essere testata.</span><span class="sxs-lookup"><span data-stu-id="777d6-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="777d6-113">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="777d6-113">These additional arguments are optional.</span></span>
+<span data-ttu-id="d7161-112">Un'espressione condizionale valida che deve essere testata.</span><span class="sxs-lookup"><span data-stu-id="d7161-112">A valid conditional expression that must be tested.</span></span> <span data-ttu-id="d7161-113">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="d7161-113">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="777d6-114">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="777d6-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d7161-114">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="d7161-114">Return values</span></span>
 
-<span data-ttu-id="777d6-115">*Booleano*</span><span class="sxs-lookup"><span data-stu-id="777d6-115">*Boolean*</span></span>
+<span data-ttu-id="d7161-115">*Booleano*</span><span class="sxs-lookup"><span data-stu-id="d7161-115">*Boolean*</span></span>
 
-<span data-ttu-id="777d6-116">Il valore *Booleano* risultante.</span><span class="sxs-lookup"><span data-stu-id="777d6-116">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="d7161-116">Il valore *Booleano* risultante.</span><span class="sxs-lookup"><span data-stu-id="d7161-116">The resulting *Boolean* value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="777d6-117">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="777d6-117">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="d7161-117">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="d7161-117">Usage notes</span></span>
 
-<span data-ttu-id="777d6-118">Negli argomenti delle funzioni logiche, è possibile utilizzare riferimenti a origini dati, valori numerici e di testo, valori booleani, operatori di confronto e altre funzioni della creazione di report elettronici (ER).</span><span class="sxs-lookup"><span data-stu-id="777d6-118">In the arguments of logical functions, you can use data source references, numeric and text values, Boolean values, comparison operators, and other Electronic reporting (ER) functions.</span></span> <span data-ttu-id="777d6-119">Tuttavia, tutti gli argomenti devono essere valutati in base a un valore *Booleano* **TRUE** o **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="777d6-119">However, all the arguments must be evaluated to a *Boolean* value of **TRUE** or **FALSE**.</span></span>
+<span data-ttu-id="d7161-118">Negli argomenti delle funzioni logiche, è possibile utilizzare riferimenti a origini dati, valori numerici e di testo, valori booleani, operatori di confronto e altre funzioni della creazione di report elettronici (ER).</span><span class="sxs-lookup"><span data-stu-id="d7161-118">In the arguments of logical functions, you can use data source references, numeric and text values, Boolean values, comparison operators, and other Electronic reporting (ER) functions.</span></span> <span data-ttu-id="d7161-119">Tuttavia, tutti gli argomenti devono essere valutati in base a un valore *Booleano* **TRUE** o **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="d7161-119">However, all the arguments must be evaluated to a *Boolean* value of **TRUE** or **FALSE**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="777d6-120">Esempio</span><span class="sxs-lookup"><span data-stu-id="777d6-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d7161-120">Esempio</span><span class="sxs-lookup"><span data-stu-id="d7161-120">Example</span></span>
 
-<span data-ttu-id="777d6-121">`AND (1=1, "a"="a")` restituisce **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="777d6-121">`AND (1=1, "a"="a")` returns **TRUE**.</span></span>
+<span data-ttu-id="d7161-121">`AND (1=1, "a"="a")` restituisce **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="d7161-121">`AND (1=1, "a"="a")` returns **TRUE**.</span></span>
 
-<span data-ttu-id="777d6-122">`AND (1=2, "a"="a")` restituisce **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="777d6-122">`AND (1=2, "a"="a")` returns **FALSE**.</span></span>
+<span data-ttu-id="d7161-122">`AND (1=2, "a"="a")` restituisce **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="d7161-122">`AND (1=2, "a"="a")` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="777d6-123">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="777d6-123">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d7161-123">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="d7161-123">Additional resources</span></span>
 
-[<span data-ttu-id="777d6-124">Funzioni logiche</span><span class="sxs-lookup"><span data-stu-id="777d6-124">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="d7161-124">Funzioni logiche</span><span class="sxs-lookup"><span data-stu-id="d7161-124">Logical functions</span></span>](er-functions-category-logical.md)

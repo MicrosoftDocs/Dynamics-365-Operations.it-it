@@ -18,63 +18,63 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 51b9a2e25a9f1dfc08e9e0f7fc3ad84b359a6d1b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201114"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744241"
 ---
-# <a name=""></a><span data-ttu-id="f8464-103"><a name="TRANSLATE">Funzione ER TRANSLATE</a></span><span class="sxs-lookup"><span data-stu-id="f8464-103"><a name="TRANSLATE">TRANSLATE ER function</a></span></span>
+# <a name="translate-er-function"></a><span data-ttu-id="6b8de-103">Funzione ER TRANSLATE</span><span class="sxs-lookup"><span data-stu-id="6b8de-103">TRANSLATE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f8464-104">La funzione `TRANSLATE` restituisce un valore *Stringa* che contiene il risultato della sostituzione del carattere del testo specificato in caratteri di un altro set fornito.</span><span class="sxs-lookup"><span data-stu-id="f8464-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
+<span data-ttu-id="6b8de-104">La funzione `TRANSLATE` restituisce un valore *Stringa* che contiene il risultato della sostituzione del carattere del testo specificato in caratteri di un altro set fornito.</span><span class="sxs-lookup"><span data-stu-id="6b8de-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f8464-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="f8464-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6b8de-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="6b8de-105">Syntax</span></span>
 
 ```vb
 TRANSLATE (text , pattern, replacement)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f8464-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="f8464-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="6b8de-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="6b8de-106">Arguments</span></span>
 
-<span data-ttu-id="f8464-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="f8464-107">`text`: *String*</span></span>
+<span data-ttu-id="6b8de-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="6b8de-107">`text`: *String*</span></span>
 
-<span data-ttu-id="f8464-108">Il percorso valido di un'origine dati del tipo *Stringa*.</span><span class="sxs-lookup"><span data-stu-id="f8464-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="6b8de-108">Il percorso valido di un'origine dati del tipo *Stringa*.</span><span class="sxs-lookup"><span data-stu-id="6b8de-108">The valid path of a data source of the *String* type.</span></span>
 
-<span data-ttu-id="f8464-109">`pattern`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="f8464-109">`pattern`: *String*</span></span>
+<span data-ttu-id="6b8de-109">`pattern`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="6b8de-109">`pattern`: *String*</span></span>
 
-<span data-ttu-id="f8464-110">Il testo che deve essere sostituito.</span><span class="sxs-lookup"><span data-stu-id="f8464-110">The text that must be replaced.</span></span>
+<span data-ttu-id="6b8de-110">Il testo che deve essere sostituito.</span><span class="sxs-lookup"><span data-stu-id="6b8de-110">The text that must be replaced.</span></span>
 
-<span data-ttu-id="f8464-111">`replacement`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="f8464-111">`replacement`: *String*</span></span>
+<span data-ttu-id="6b8de-111">`replacement`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="6b8de-111">`replacement`: *String*</span></span>
 
-<span data-ttu-id="f8464-112">Il testo da utilizzare in sostituzione.</span><span class="sxs-lookup"><span data-stu-id="f8464-112">The text to use as a replacement.</span></span>
+<span data-ttu-id="6b8de-112">Il testo da utilizzare in sostituzione.</span><span class="sxs-lookup"><span data-stu-id="6b8de-112">The text to use as a replacement.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f8464-113">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="f8464-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="6b8de-113">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="6b8de-113">Return values</span></span>
 
-<span data-ttu-id="f8464-114">*String*</span><span class="sxs-lookup"><span data-stu-id="f8464-114">*String*</span></span>
+<span data-ttu-id="6b8de-114">*String*</span><span class="sxs-lookup"><span data-stu-id="6b8de-114">*String*</span></span>
 
-<span data-ttu-id="f8464-115">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="f8464-115">The resulting text value.</span></span>
+<span data-ttu-id="6b8de-115">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="6b8de-115">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f8464-116">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="f8464-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="6b8de-116">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="6b8de-116">Usage notes</span></span>
 
-<span data-ttu-id="f8464-117">La funzione `TRANSLATE` sostituisce un carattere alla volta.</span><span class="sxs-lookup"><span data-stu-id="f8464-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="f8464-118">La funzione sostituisce il primo carattere dell'argomento `text` con il primo carattere dell'argomento `pattern`, quindi il secondo carattere e lo stesso flusso viene seguito fino al termine.</span><span class="sxs-lookup"><span data-stu-id="f8464-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="f8464-119">Quando un carattere dagli argomenti `text` e `pattern` corrisponde, viene sostituito da un carattere dell'argomento `replacement` che si trova nella stessa posizione del carattere dell'argomento `pattern`.</span><span class="sxs-lookup"><span data-stu-id="f8464-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="f8464-120">Se un carattere appare più volte nell'argomento `pattern`, viene utilizzata la mappatura dell'argomento `replacement` che corrisponde alla prima occorrenza di questo carattere.</span><span class="sxs-lookup"><span data-stu-id="f8464-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
+<span data-ttu-id="6b8de-117">La funzione `TRANSLATE` sostituisce un carattere alla volta.</span><span class="sxs-lookup"><span data-stu-id="6b8de-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="6b8de-118">La funzione sostituisce il primo carattere dell'argomento `text` con il primo carattere dell'argomento `pattern`, quindi il secondo carattere e lo stesso flusso viene seguito fino al termine.</span><span class="sxs-lookup"><span data-stu-id="6b8de-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="6b8de-119">Quando un carattere dagli argomenti `text` e `pattern` corrisponde, viene sostituito da un carattere dell'argomento `replacement` che si trova nella stessa posizione del carattere dell'argomento `pattern`.</span><span class="sxs-lookup"><span data-stu-id="6b8de-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="6b8de-120">Se un carattere appare più volte nell'argomento `pattern`, viene utilizzata la mappatura dell'argomento `replacement` che corrisponde alla prima occorrenza di questo carattere.</span><span class="sxs-lookup"><span data-stu-id="6b8de-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="f8464-121">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="f8464-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="6b8de-121">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="6b8de-121">Example 1</span></span>
 
-<span data-ttu-id="f8464-122">`TRANSLATE ("abcdef", "cd", "GH")` sostituisce il carattere **"c"** del testo **"abcdef"** specificato con il carattere **"G"** del testo `replacement` dovuto a quanto segue:</span><span class="sxs-lookup"><span data-stu-id="f8464-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
--   <span data-ttu-id="f8464-123">Il carattere **"C"** è presentato nel testo `pattern` in prima posizione.</span><span class="sxs-lookup"><span data-stu-id="f8464-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
--   <span data-ttu-id="f8464-124">La prima posizione del testo `replacement` contiene il carattere **"G"**.</span><span class="sxs-lookup"><span data-stu-id="f8464-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
+<span data-ttu-id="6b8de-122">`TRANSLATE ("abcdef", "cd", "GH")` sostituisce il carattere **"c"** del testo **"abcdef"** specificato con il carattere **"G"** del testo `replacement` dovuto a quanto segue:</span><span class="sxs-lookup"><span data-stu-id="6b8de-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
+-   <span data-ttu-id="6b8de-123">Il carattere **"C"** è presentato nel testo `pattern` in prima posizione.</span><span class="sxs-lookup"><span data-stu-id="6b8de-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
+-   <span data-ttu-id="6b8de-124">La prima posizione del testo `replacement` contiene il carattere **"G"**.</span><span class="sxs-lookup"><span data-stu-id="6b8de-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="f8464-125">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="f8464-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="6b8de-125">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="6b8de-125">Example 2</span></span>
 
-<span data-ttu-id="f8464-126">`TRANSLATE ("abcdef", "ccd", "GH")` restituisce **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="f8464-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
+<span data-ttu-id="6b8de-126">`TRANSLATE ("abcdef", "ccd", "GH")` restituisce **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="6b8de-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="f8464-127">Esempio 3</span><span class="sxs-lookup"><span data-stu-id="f8464-127">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="6b8de-127">Esempio 3</span><span class="sxs-lookup"><span data-stu-id="6b8de-127">Example 3</span></span>
 
-<span data-ttu-id="f8464-128">`TRANSLATE ("abccba", "abc", "123")` restituisce **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="f8464-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
+<span data-ttu-id="6b8de-128">`TRANSLATE ("abccba", "abc", "123")` restituisce **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="6b8de-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f8464-129">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="f8464-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6b8de-129">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="6b8de-129">Additional resources</span></span>
 
-[<span data-ttu-id="f8464-130">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="f8464-130">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="6b8de-130">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="6b8de-130">Text functions</span></span>](er-functions-category-text.md)
