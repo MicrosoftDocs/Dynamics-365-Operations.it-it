@@ -14,12 +14,12 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.14 (novembre 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform update 10.0.13 (ottobre 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform update 10.0.12 (agosto 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platform update 10.0.11 (luglio 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità di Platform rimosse o deprecate
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Controllo delle versioni del modello X++ in Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Scaricare cespiti tramite Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Caricare cespiti tramite Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Distribuire cespiti tramite Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Creare una connessione a Lifecycle Services (LCS) in Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Applicazione di esempio di gestione flotta
               items:
                 - name: Scenario completo per l'applicazione di esempio di gestione flotta

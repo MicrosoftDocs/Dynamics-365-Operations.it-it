@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209216"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813836"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
@@ -55,7 +55,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md)
 -   [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md)
--   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
+-   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)
 -   [Verificare l'inventario spedizione tramite la collaborazione fornitore](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Collaborare con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md) (versioni di febbraio 2016 e maggio 2016 di Dynamics AX solo)
 -   [Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md) (solo versioni 2016 e maggio 2016 di Finance and Operations )
@@ -98,7 +98,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Flussi di lavoro di approvvigionamento](procurement-sourcing-workflows.md)
 -   [Registrare l'entrata di merci sull'ordine fornitore](tasks/record-receipt-goods-purchase-order.md)
 -   [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
--   [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (white paper)
+-   [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://www.microsoft.com/download/details.aspx?id=101821) (white paper)
 -   [Panoramica criteri di acquisto](purchase-policies.md)
 -   [Creare criteri di acquisto](tasks/create-purchasing-policies.md)
 

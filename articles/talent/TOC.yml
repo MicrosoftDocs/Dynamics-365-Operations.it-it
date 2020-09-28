@@ -1,13 +1,15 @@
 - name: Dynamics 365 for Talent
   href: talent-welcome.md
   items:
-    - name: Per iniziare
+    - name: Introduzione
       items:
         - name: Introduzione a Talent
           href: talent-get-started.md
         - name: Novità o modifiche in Talent
           href: whats-new.md
           items:
+            - name: 1 settembre 2020
+              href: whats-new-talent-september-01-2020.md
             - name: 21 gennaio 2020
               href: whats-new-talent-january-21-2020.md
             - name: 14 gennaio 2020

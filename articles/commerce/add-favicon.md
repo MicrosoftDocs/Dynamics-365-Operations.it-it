@@ -3,7 +3,7 @@ title: Aggiungere una favicon
 description: In questo argomento viene descritto come aggiungere un favicon al sito.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686792"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761155"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
 
@@ -58,30 +58,30 @@ Per creare l'HTML per il favicon, usare la stringa HTML seguente. Per l'attribut
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Creare un frammento di pagina contenente un metatag per il favicon
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Creare un frammento contenente un metatag per il favicon
 
-Per creare un frammento di pagina contenente un metatag per il favicon, effettuare le seguenti operazioni.
+Per creare un frammento contenente un metatag per il favicon, effettuare le seguenti operazioni.
 
 1. Andare a **Frammenti** e selezionare **Nuovo**.
-1. Nella finestra di dialogo **Nuovo frammento pagina** selezionare **Metatag** come modulo su cui basare il frammento di pagina.
-1. Immettere un nome per il frammento di pagina, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento** selezionare **Metatag** come modulo su cui basare il frammento.
+1. Immettere un nome per il frammento, quindi selezionare **OK**.
 1. Nell'albero della gerarchia di frammenti, selezionare l'elemento figlio **Metatag predefiniti**.
 1. Nel riquadro destro, sotto **Metatag**, selezionare **Aggiungi**, quindi immettere la stringa HTML creata in precedenza per il favicon. 
-1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il frammento di pagina.
+1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il frammento.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Aggiungere il frammento di pagina dei metatag alla sezione di intestazione HTML delle pagine
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Aggiungere il frammento dei metatag alla sezione di intestazione HTML delle pagine
 
-Per aggiungere il frammento di pagina dei metatag alla sezione **head** di intestazione HTML delle pagine, effettuare le seguenti operazioni:
+Per aggiungere il frammento dei metatag alla sezione **head** di intestazione HTML delle pagine, effettuare le seguenti operazioni:
 
 1. Andare a **Modelli**, aprire il modello per le pagine a cui aggiungere il favicon, quindi selezionare **Modifica**.
-1. Nell'albero della gerarchia dei modelli, selezionare i puntini di sospensione (**...**) a destra del contenitore **Intestazione HTML**, quindi selezionare **Aggiungi frammento pagina**.
-1. Nella finestra di dialogo **Seleziona frammento pagina**, selezionare il frammento di pagina dei metatag creato in precedenza, quindi selezionare **OK**.
+1. Nell'albero della gerarchia dei modelli, selezionare i puntini di sospensione (**...**) a destra del contenitore **Intestazione HTML**, quindi selezionare **Aggiungi frammento**.
+1. Nella finestra di dialogo **Seleziona frammento**, selezionare il frammento dei metatag creato in precedenza, quindi selezionare **OK**.
 1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il modello.
 
 > [!NOTE]
-> Se il tuo sito utilizza più di un modello, è necessario aggiungere il frammento di pagina dei metatag a ognuno di essi.
+> Se il tuo sito utilizza più di un modello, è necessario aggiungere il frammento dei metatag a ognuno di essi.
 
-Quando si visualizzano in anteprima le pagine basate sul modello a cui è stato aggiunto il frammento di pagina dei metatag, si dovrebbe ora vedere il favicon nella scheda del browser.
+Quando si visualizzano in anteprima le pagine basate sul modello a cui è stato aggiunto il frammento dei metatag, si dovrebbe ora vedere il favicon nella scheda del browser.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

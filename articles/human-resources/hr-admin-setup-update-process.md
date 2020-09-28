@@ -3,7 +3,7 @@ title: Aggiornare un processo
 description: Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless per modifiche di applicazioni o piattaforme.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431178"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759961"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources è un vero software come un servizio (Saa
 
 Gli aggiornamenti vengono rilasciati a cadenza regolare per tutti gli ambienti. Human Resources è supportato secondo i [criteri relativi al ciclo di vita di Microsoft](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), i quali offrono linee guida coerenti e prevedibili per la disponibilità del supporto.
 
-## <a name="release-cadence"></a>Cadenza di rilascio
+## <a name="release-cadence"></a>Cadenza di rilascio 
 
 Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti gli ambienti. Human Resources fornisce due tipi di rilasci:
 
@@ -56,14 +56,12 @@ I rilasci sono verificati, testati e convalidati in un ambiente interno. Dopo es
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Eccezioni di cadenza di rilascio nel 2020
 
-Le seguenti date sono eccezioni al normale programma di rilascio:
+Per tenere conto delle festività, il programma di rilascio per novembre e dicembre 2020 è il seguente:
 
-| Data | descrizione |
-| --- | --- |
-| Settimana del 23 novembre | Nessun aggiornamento |
-| Settimana del 14 novembre | Solo aggiornamenti minori |
-| Settimana del 21 novembre | Nessun aggiornamento |
-| Settimana del 28 novembre | Nessun aggiornamento |
+- Versione di novembre: 2 novembre - 13 novembre
+- Versione di dicembre: 30 dicembre - 11 dicembre
+ 
+La cadenza di rilascio bisettimanale riprenderà come al solito l'11 gennaio 2021.
 
 ## <a name="communications"></a>Comunicazioni
 

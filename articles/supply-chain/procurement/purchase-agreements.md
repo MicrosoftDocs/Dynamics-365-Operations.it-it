@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208019"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803165"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali. 
 
@@ -42,8 +41,13 @@ Per impedire che il contratto di acquisto venga utilizzato e confermato, contras
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Lavoratori responsabili dei contratti di acquisto
 
-È possibile identificare un lavoratore responsabile principale e un lavoratore responsabile secondario nella classificazione del contratto di acquisto. Questi valori saranno ereditati dal contratto di acquisto risultante. Non è obbligatorio aggiungere lavoratori responsabili al contratto di acquisto e possono essere modificati direttamente caso per caso sul contratto di acquisto stesso. Non è possibile specificare un lavoratore responsabile secondario senza un lavoratore responsabile primario, sebbene non sia necessario disporre di un lavoratore responsabile secondario. Non è possibile specificare lo stesso lavoratore come lavoratore responsabile principale e secondario. 
+È possibile identificare un lavoratore responsabile principale e un lavoratore responsabile secondario nella classificazione del contratto di acquisto. Questi valori saranno ereditati dal contratto di acquisto risultante. Non è obbligatorio aggiungere lavoratori responsabili al contratto di acquisto e possono essere modificati direttamente caso per caso sul contratto di acquisto stesso. Non è possibile specificare un lavoratore responsabile secondario senza un lavoratore responsabile primario, sebbene non sia necessario disporre di un lavoratore responsabile secondario. Non è possibile specificare lo stesso lavoratore come lavoratore responsabile principale e secondario.
 
+> [!IMPORTANT]
+> Prima di poter utilizzare la funzionalità della parte responsabile, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+> 
+> - **Modulo:** *Attività di approvvigionamento*
+> - **Nome funzionalità:** *Parte responsabile del contratto di acquisto*
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di acquisto è un impegno di acquisto di un prodotto. È possibile utilizzare righe di più ordini fornitore (PO) per evadere l'impegno. Sono disponibili quattro tipi di impegni:

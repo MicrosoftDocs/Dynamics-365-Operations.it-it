@@ -3,7 +3,7 @@ title: Reverse charge
 description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei, l'Arabia Saudita e Singapore.
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183712"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760234"
 ---
 # <a name="reverse-charge-vat"></a>Reverse charge
 
-
 [!include [banner](../includes/banner.md)]
 
+In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e GCC e Singapore.
 
-In questo argomento viene descritto un approccio generico per l'impostazione dell'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei e l'Arabia Saudita e Singapore.
+> [!NOTE]                                                                                  
+> Per Bahrain, Kuwait, Oman e Qatar, la funzionalità **Disponibilità di reverse charge per altri paesi** deve essere abilitata nell'area di lavoro **Gestione funzionalità**. 
 
 Reverse charge è uno schema di imposta che sposta la responsabilità per la contabilità e la dichiarazione dell'IVA dal venditore all'acquirente delle merci e/o dei servizi. Di conseguenza, i destinatari delle merci e/o dei servizi dichiarano sia l'IVA in uscita (nel ruolo del venditore) che l'IVA in entrata (nel ruolo dell'acquirente) nella dichiarazione IVA.
 
@@ -85,8 +86,8 @@ Nella pagina **Gruppi di articoli reverse charge** (**Imposta** &gt; **Impostazi
 Nella pagina **Regole reverse charge** (**Imposta** &gt; **Impostazioni** &gt; **IVA** &gt; **Regole reverse charge**), è possibile definire le regole di applicabilità per gli acquisti e le vendite. È possibile configurare un set di regole di applicabilità reverse charge. Per ciascuna regola, impostare i seguenti campi:
 
 - **Tipo di documento** - Selezionare **Ordine fornitore**, **Giornale di registrazione fatture fornitore**, **Ordine cliente**, **Fattura a testo libero**, **Giornale di registrazione fatture cliente** e/o **Fattura fornitore**.
-- **Tipo di paese partner** - Selezionare **Nazionale**, **UE** o **Straniero**. In alternativa, se la regola può essere applicata a tutti i partner commerciali, indipendentemente dal paese o dall'area dell'indirizzo, selezionare **Tutti**.
-- **Indirizzo di consegna nazionale** - Selezionare questa casella di controllo per applicare la regola alle consegne all'interno dello stesso paese. Questa casella di controllo non può essere selezionata per i tipi  documento **Giornale di registrazione fatture cliente** e **Giornale di registrazione fatture fornitore**.
+- **Tipo di paese/area geografica partner** – Selezionare **Nazionale**, **UE**, **GCC** o **Straniero**. In alternativa, se la regola può essere applicata a tutti i partner commerciali, indipendentemente dal paese o dall'area dell'indirizzo, selezionare **Tutti**.
+- **Indirizzo di consegna nazionale** - Selezionare questa casella di controllo per applicare la regola alle consegne all'interno dello stesso paese. Questa casella di controllo non può essere selezionata per i tipi documento **Giornale di registrazione fatture cliente** e **Giornale di registrazione fatture fornitore**.
 - **Gruppo di articoli reverse charge** - Selezionare il gruppo a cui può essere applicata la regola.
 - **Importo soglia** - Lo schema reverse charge viene applicato a una fattura solo se il valore degli articoli e/o dei servizi inclusi nel gruppo di articoli soggetti a reverse charge supera il limite specificato in questo campo.
 
@@ -98,13 +99,16 @@ Inoltre, è possibile specificare se una notifica viene visualizzata e la riga d
 - **Richiesta** - Una notifica viene visualizzata per confermare che l'IVA reverse charge può essere applicata.
 - **Imposta** - La riga del documento viene aggiornata senza ulteriore notifica.
 
+## <a name="set-up-countryregion-properties"></a>Impostare le proprietà del paese/area geografica
+Nella pagina **Parametri per il commercio estero** ( **Imposta** &gt; **Impostazione** &gt; **Imposta sulle vendite** &gt; **Commercio estero** &gt; **Parametri per il commercio estero**), nella scheda **Proprietà paese/area geografica** impostare il paese o l'area geografica della persona giuridica corrente su *Nazionale*. Impostare il **tipo di paese/area geografica** dei paesi/aree geografiche UE che partecipano al commercio UE con la persona giuridica corrente su *UE*. Impostare il **tipo di paese/area geografica** dei paesi/aree geografiche GCC che partecipano al commercio GCC con la persona giuridica corrente su *GCC*.
+
 ## <a name="set-up-default-parameters"></a>Impostazione dei parametri predefiniti
 Per attivare la funzionalità per l'IVA in reverse charge, nella pagina **Parametri di contabilità generale**, nella scheda **Reverse charge**, impostare l'opzione **Abilita reverse charge** su **Sì**. Nei campi **Fascia IVA ordine fornitore** e **Fascia IVA ordine cliente**, selezionare le fasce IVA predefinite. Quando una condizione di applicabilità del reverse charge viene soddisfatta, la riga ordine cliente o ordine fornitore viene aggiornata con queste fasce IVA.
 
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Reverse charge su una fattura di vendita
 Per le vendite effettuate con lo schema reverse charge, il venditore non addebita l'IVA. La fattura indica gli articoli soggetti a IVA reverse charge e l'importo totale dell'IVA reverse charge.
 
-Quando una fattura di vendita viene registrata con la reverse charge, le transazioni IVA hanno il tipo di IVA **IVA a debito** e l'IVA pari a zero e la casella di controllo **Reverse charge** è selezionata.
+Quando una fattura di vendita viene registrata con la reverse charge, le transazioni IVA hanno il tipo di IVA **IVA a debito** e l'IVA pari a zero e le caselle di controllo **Reverse charge** e **Esente** sono selezionate.
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Reverse charge su una fattura di acquisto
 Per gli acquisti nello schema reverse charge, l'acquirente che riceve la fattura con l'IVA reverse charge funge da acquirente e venditore per la contabilità dell'IVA.

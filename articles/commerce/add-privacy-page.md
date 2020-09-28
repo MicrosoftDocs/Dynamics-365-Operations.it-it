@@ -3,7 +3,7 @@ title: Aggiungere una pagina dell'Informativa sulla privacy
 description: In questo argomento viene descritto come aggiungere al sito una pagina dell'Informativa sulla privacy in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686697"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761275"
 ---
 # <a name="add-a-privacy-policy-page"></a>Aggiungere una pagina dell'Informativa sulla privacy
 
@@ -89,8 +89,8 @@ Per pubblicare l'URL per la pagina dell'informativa sulla privacy, procedere com
 Per aggiungere un collegamento a un frammento di piè di pagina, effettuare le operazioni indicate di seguito.
 
 1. Andare a **Frammenti**, quindi selezionare **Nuovo** per creare un nuovo frammento di pagina.
-1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Piè di pagina**.
-1. Sotto **Nome frammento pagina**, inserire un nome per il frammento, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Piè di pagina**.
+1. Sotto **Nome frammento**, inserire un nome per il frammento, quindi selezionare **OK**.
 1. Nello slot **Categoria piè di pagina**, aggiungere un modulo **Elemento piè di pagina**.
 1. Nel riquadro delle proprietà a destra, selezionare **Testo collegamento**.
 1. Nella finestra di dialogo **Testo collegamento**, immettere il testo del collegamento e la destinazione del collegamento della pagina dell'informativa sulla privacy, quindi fare clic su **OK**.

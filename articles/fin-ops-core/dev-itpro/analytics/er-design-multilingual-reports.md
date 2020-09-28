@@ -3,7 +3,7 @@ title: Progettare report multilingue nella creazione di report elettronici
 description: Questo argomento spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444623"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810669"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444623"
 
 In qualità di utente aziendale, è possibile utilizzare il framework [Creazione di report elettronici ER](general-electronic-reporting.md) per configurare i formati per documenti in uscita che devono essere generati in base ai requisiti legali dei vari paesi o aree geografiche. Quando questi requisiti richiedono che i documenti in uscita vengano generati in lingue diverse per paesi o aree geografiche diversi, è possibile configurare un singolo [formato](general-electronic-reporting.md#FormatComponentOutbound) ER che contiene le risorse dipendenti dalla lingua. In questo modo, è possibile riutilizzare il formato per generare documenti in uscita per vari paesi o aree geografiche. È possibile anche utilizzare un unico formato ER per generare un documento in uscita in diverse lingue per i clienti, i fornitori, le filiali o altre parti corrispondenti.
 
-È possibile configurare i modelli di dati ER e i mapping del modello come origini dati dei formati ER configurati per definire il flusso di dati che specifica quali dati dell'applicazione vengono inseriti nei documenti generati. In qualità di [provider](general-electronic-reporting.md#Provider) di configurazione ER, è possibile [pubblicare](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs) [modelli di dati](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formati](general-electronic-reporting.md#FormatComponentOutbound) configurati come componenti di una soluzione ER per generare documenti in uscita specifici. È inoltre possibile consentire ai clienti di [caricare](general-electronic-reporting-manage-configuration-lifecycle.md) la soluzione ER pubblicata in modo che possa essere utilizzata e personalizzata. Se si prevede che i clienti possano parlare altre lingue, è possibile configurare i componenti ER in modo che contengano risorse dipendenti dalla lingua. In questo modo, il contenuto di un componente ER modificabile può essere presentato nella lingua preferita dall'utente in fase di progettazione.
+È possibile configurare i modelli di dati ER e i mapping del modello come origini dati dei formati ER configurati per definire il flusso di dati che specifica quali dati dell'applicazione vengono inseriti nei documenti generati. In qualità di [provider](general-electronic-reporting.md#Provider) di configurazione ER, è possibile [pubblicare](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) [modelli di dati](general-electronic-reporting.md#data-model-and-model-mapping-components), [mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formati](general-electronic-reporting.md#FormatComponentOutbound) configurati come componenti di una soluzione ER per generare documenti in uscita specifici. È inoltre possibile consentire ai clienti di [caricare](general-electronic-reporting-manage-configuration-lifecycle.md) la soluzione ER pubblicata in modo che possa essere utilizzata e personalizzata. Se si prevede che i clienti possano parlare altre lingue, è possibile configurare i componenti ER in modo che contengano risorse dipendenti dalla lingua. In questo modo, il contenuto di un componente ER modificabile può essere presentato nella lingua preferita dall'utente in fase di progettazione.
 
 È possibile configurare le risorse dipendenti dalla lingua come etichette ER. È quindi possibile utilizzare tali etichette per configurare i componenti ER per i seguenti scopi:
 

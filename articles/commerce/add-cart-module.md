@@ -3,7 +3,7 @@ title: Modulo Carrello
 description: In questo argomento vengono descritti i moduli Carrello e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686768"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761131"
 ---
 # <a name="cart-module"></a>Modulo Carrello
 
@@ -77,8 +77,8 @@ Il modulo Carrello recupera le informazioni sul prodotto utilizzando le API di C
 Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
-1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Carrello**.
-1. In **Nome frammento pagina**, inserire il nome **Frammento carrello**, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Carrello**.
+1. In **Nome frammento**, inserire il nome **Frammento carrello**, quindi selezionare **OK**.
 1. Selezionare lo slot **Carrello**.
 1. Nel riquadro delle proprietà a destra, selezionare il simbolo della matita, immettere il testo dell'intestazione nel campo, quindi selezionare il simbolo del segno di spunta.
 1. Nello slot **Carrello** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
@@ -86,8 +86,8 @@ Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà n
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere un nome per il modello.
-1. Nell'albero, selezionare lo slot **Corpo**, i puntini di sospensione (**...**) e quindi **Aggiungi frammento pagina**.
-1. Nella finestra di dialogo **Seleziona frammento pagina** selezionare il frammento **Frammento carrello** e quindi selezionare **OK**.
+1. Nell'albero, selezionare lo slot **Corpo**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi frammento**.
+1. Nella finestra di dialogo **Seleziona frammento** selezionare il frammento **Frammento carrello** e quindi selezionare **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
 1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello creato, quindi immettere un nome di pagina e selezionare **OK**.

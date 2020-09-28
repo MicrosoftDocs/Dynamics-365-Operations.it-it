@@ -3,7 +3,7 @@ title: Standard supportati per la fatturazione elettronica in Europa
 description: In questo argomento viene descritto il livello di copertura della fatturazione elettronica per l'Europa.
 author: mrolecki
 manager: AnnBe
-ms.date: 07/11/2017
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2fb188498705dcbad841645ced43e6a1715cbbd0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c86cc90e5f441641bc14d20898e65325d7c7d716
+ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915164"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763684"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
@@ -32,7 +32,7 @@ In questo argomento viene descritto il livello di copertura della fatturazione e
 
 L'implementazione e l'adozione della fatturazione elettronica in scala comunitaria europea è disciplinata da [Direttiva del Consiglio 2010/45/UE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), che interessa tutti gli stati membri UE. Le società che desiderano beneficiare della fatturazione elettronica devono inviare fatture di ordini cliente, fatture a testo libero, fatture di progetto, note di accredito ordini cliente e note di accredito delle fatture di progetto come file XML al governo o ad altre parti del settore che richiedono l'utilizzo della fatturazione elettronica. Questi file XML devono rispondere a determinate regole. I requisiti specifici di un paese e la relativa implementazione possono differire tra gli stati membri UE, ma normalmente utilizzano sia Universal Business Language ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) nelle versioni diverse con personalizzazioni che le specifiche e i punti di accesso [PEPPOL](https://www.peppol.eu) per la convalida e il trasporto. Il vantaggio principale dell'UBL è che i documenti aziendali possono essere standardizzati per diversi scopi. Poiché l'UBL è uno standard internazionale flessibile che supporta numerosi requisiti aziendali, questi documenti aziendali possono essere scambiati tra paesi diversi.
 
-## <a name="what-electronic-invoice-formats-are-currently-available-in-dynamics-365-finance"></a>Quali formati di fattura elettronica sono attualmente disponibili in Dynamics 365 Finance?
+## <a name="electronic-invoice-formats-currently-available-in-dynamics-365-finance"></a>Formati di fattura elettronica sono attualmente disponibili in Dynamics 365 Finance
 
 Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun paese:
 
@@ -44,8 +44,10 @@ Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun
 -   FatturaPA v.1.2 per l'Italia
 -   xRechnung v.1.2 per la Germania
 -   Aprire PEPPOL BIS Billing v.3.0 per Unione Europea
+-   Formato specifico estone versione 1.2
+-   Finvoice 3.0 per la Finlandia
 
-La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura cliente** e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese creati per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL), Germania (DE) e Unione Europea (UE)
+La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura**, mapping di modello fattura e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese creati per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL), Germania (DE) e Unione Europea (UE).
 
 -   Fattura vendite OIOUBL - per AT, DK e NO
 -   Nota di accredito OIOUBL - per AT, DK e NO
@@ -73,10 +75,14 @@ La fatturazione elettronica è basata sulla [creazione di report elettronici (ER
 -   Nota di credito vendita Peppol - per l'UE
 -   Fattura progetto Peppol - per l'UE
 -   Nota di credito progetto Peppol - per l'UE
+-   Fattura di vendita (EE)
+-   Fattura di progetto (EE)
+-   Fattura di vendita (FI)
+-   Fattura di progetto (FI)
 
 Le fatture e le note di accredito elettroniche che vengono generate includono informazioni obbligatorie, ad esempio un numero EAN (European Article Numbering), il contatto, il numero del conto dimensione e l'indirizzo dei cliente. Le regole di convalida vengono applicate quando le fatture vengono generate in modo che sia possibile verificare la correttezza delle informazioni immesse. Il set di dati necessari può essere diverso da paese a paese. Poiché i requisiti, così come i paesi e i formati supporti, sono soggetti a modifica, è necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**.
 
-## <a name="additional-information"></a>Informazioni aggiuntive
+## <a name="additional-resources"></a>Risorse aggiuntive
 Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](../../fin-and-ops/get-started/help-overview.md#task-guides) nel riquadro della Guida:
 
  - Impostare la fatturazione elettronica OIOUBL

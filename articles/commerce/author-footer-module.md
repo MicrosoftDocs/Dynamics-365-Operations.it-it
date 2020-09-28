@@ -3,7 +3,7 @@ title: Modulo Piè di pagina
 description: In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686720"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761203"
 ---
 # <a name="footer-module"></a>Modulo Piè di pagina  
 
@@ -51,7 +51,7 @@ Come la maggior parte dei contenitori, un modulo Piè di pagina supporta le prop
 ## <a name="create-a-footer-module"></a>Creare modulo piè di pagina
 
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
-1. Nella finestra di dialogo **Nuovo frammento pagina**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
 1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Categoria piè di pagina** e quindi **OK**.
 1. Nello slot **Categoria piè di pagina** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
@@ -68,7 +68,7 @@ Per garantire che un'intestazione sia visualizzata in ogni pagina, effettuare le
 1. Nello slot **Piè di pagina** del modulo **Pagina predefinita**, aggiungere il frammento piè di pagina creato.
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 
-Aggiungendo il frammento pagina ai modelli di pagina, si assicura il rendering del piè di pagina in ogni pagina.
+Aggiungendo il frammento ai modelli di pagina, si assicura il rendering del piè di pagina in ogni pagina.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

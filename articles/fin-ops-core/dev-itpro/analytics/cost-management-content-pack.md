@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771519"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759258"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenuto Power BI per la gestione dei costi
 
@@ -193,10 +193,10 @@ Nella tabella seguente vengono illustrate le misure chiave calcolate nel contenu
 | Qtà saldo finale                | Qtà saldo finale = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Modifica netto                         | Modifica netto = SUM(\[AMOUNT\]) |
 | Qtà modifica netto                    | Qtà modifica netto = SUM(\[QTY\]) |
-| Indice di rotazione scorte per importo | Indice di rotazione scorte per importo = if(OR(\[Saldo medio inventario\] \<= 0, \[Inventario venduto o uscite consumate\] \>= 0), 0, ABS(\[Inventario venduto o uscite consumate\])/\[Saldo medio inventario\]) |
+| Indice di rotazione scorte per importo | Indice di rotazione scorte per importo = if(OR(\[Saldo medio inventario\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Inventario venduto o uscite consumate\])/\[Inventario venduto o uscite consumate\]) |
 | Saldo medio inventario          | Saldo medio inventario = ((\[Saldo finale\] + \[Saldo iniziale\]) / 2) |
 | Scorte disponibili giornaliere             | Scorte disponibili giornaliere = 365 / CostObjectStatementEntries\[Indice di rotazione scorte per importo\] |
-| Precisione inventario                 | Precisione inventario per importo = IF(\[Saldo finale\] \<= 0, IF(OR(\[Importo conteggiato inventario\] \<\> 0, \[Saldo finale\] \< 0), 0, 1), MAX(0, (\[Saldo finale\] - ABS(\[Importo conteggiato inventario\]))/\[Saldo finale\])) |
+| Precisione inventario                 | Precisione inventario per importo = IF(\[Saldo finale\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Saldo finale\] \< 0), 0, 1), MAX(0, (\[Saldo finale\] - ABS(\[Importo conteggiato inventario\]))/\[Saldo finale\])) |
 
 La seguenti dimensioni chiave vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e informazioni analitiche più approfondite.
 
