@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 16 settembre 2020
+          href: hr-whats-new-2020-09-16.md
         - name: 3 settembre 2020
           href: hr-whats-new-2020-09-03.md
         - name: 20 agosto 2020
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Creare e utilizzare campi personalizzati
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Incorporare app PowerApps
+            - name: Incorporare app canvas da Power Apps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Trovare informazioni utilizzando le ricerche
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
