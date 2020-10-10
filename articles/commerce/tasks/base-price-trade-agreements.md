@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141524"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899351"
 ---
 # <a name="base-price-and-trade-agreements"></a>Prezzo di base e accordi commerciali
 
@@ -58,7 +58,7 @@ In questa procedura vengono descritti i passaggi per creare accordi commerciali 
 26. Nel campo **Nome** fare clic sul pulsante a discesa per aprire la ricerca.
 27. Nell'elenco selezionare **Commercio**. Nei dati dimostrativi, il nome del giornale di registrazione **Commercio** dispone della relazione predefinita di **Prezzo (vend.)**. Questo significa che per tutte le nuove righe create verranno utilizzati per impostazione predefinita gli accordi commerciali sui prezzi di vendita.  
 28. Nel **riquadro azioni** fare clic su **Righe**.
-29. Selezionare "Gruppo" nel campo **Codice conto**.
+29. Nel campo **Tipo di codice parte**, seleziona 'Gruppo'.
 30. Nel campo **Selezione del conto** fare clic sul pulsante a discesa per aprire la ricerca.
 31. Nell'elenco trovare e selezionare il record desiderato. In tal modo viene completato il collegamento dal canale al gruppo di prezzi all'accordo commerciale.  
 32. Nel campo **Relazione articolo**, digitare un valore.

@@ -3,7 +3,7 @@ title: Direttive fiscali per l'Europa
 description: È possibile specificare di includere una descrizione dei codici IVA nelle fatture di vendita e nelle fatture di progetto. È possibile stampare i numeri di riferimento nelle fatture di vendita, le fatture a testo libero e le fatture di progetto.
 author: epodkolz
 manager: AnnBe
-ms.date: 06/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
+ms.sourcegitcommit: 814476906187480262b390ca49e487eb91738deb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3422994"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819106"
 ---
 # <a name="tax-directives-for-europe"></a>Direttive fiscali per l'Europa
 
@@ -32,4 +32,4 @@ La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle 
 - Per le note di credito, il numero e la data della fattura originale vengono stampati con il motivo della correzione.
 
 > [!NOTE]
-> Verifica nella pagina **Impostazione moduli** (**Contabilità clienti** > **Impostazioni** > **Moduli** > **Impostazione moduli** nella scheda **Generale**), che il campo **Specifica IVA** sia impostato su **Valuta di registrazione** o **Valuta di registrazione e valuta società**.
+> Verifica che il campo **Specifica IVA** sia impostato su **Valuta di registrazione** o **Valuta di registrazione e valuta società** nella pagina **Impostazione moduli** nella scheda **Generale** (**Contabilità clienti > Impostazioni > Moduli >Impostazione moduli** o **Gestione progetti e contabilità > Impostazione > Moduli > Configurazione moduli**).

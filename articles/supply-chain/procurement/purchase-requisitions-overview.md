@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207858"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826902"
 ---
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 
@@ -157,7 +157,7 @@ In alcuni casi, è necessario avviare un processo di richiesta di offerta (RdO) 
 È possibile mettere una richiesta di acquisto in attesa selezionando la casella di controllo **In attesa** nella pagina **Dettagli richiesta di acquisto** . L'elaborazione della richiesta di acquisto può continuare solo dopo che si rimuove la sospensione deselezionando la casella di controllo.  
 
 > [!NOTE]
-> In eProcurement, la richiesta di offerta per la richiesta di acquisto può consentire ai fornitori di aggiungere righe alternative. In questo caso le alternative approvate sono riflesse nella richiesta di acquisto.
+> In e-Procurement, la richiesta di offerta per la richiesta di acquisto può consentire ai fornitori di aggiungere righe alternative. In questo caso le alternative approvate sono riflesse nella richiesta di acquisto.
 
 ## <a name="demand-consolidation"></a>Consolidamento domanda
 Consolidando le righe della richiesta di acquisto da più richieste di acquisto, è possibile aumentare la capacità di negoziazione con i fornitori per ottenere prezzi migliori, diminuire i costi di spedizione e di gestione e ridurre i costi generali.  

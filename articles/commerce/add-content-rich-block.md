@@ -3,7 +3,7 @@ title: Modulo Blocco di testo
 description: In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411137"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817380"
 ---
 # <a name="text-block-module"></a>Modulo Blocco di testo
-
 
 [!include [banner](includes/banner.md)]
 
@@ -80,13 +79,13 @@ Per aggiungere un modulo Blocco di testo a una nuova pagina e impostare le propr
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Banner promozionale](add-alert.md)
+[Modulo banner promozionale](add-alert.md)
 
-[Modulo Sequenza](add-carousel.md)
+[Modulo sequenza](add-carousel.md)
 
-[Modulo Blocco di contenuto](add-hero-module.md)
+[Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)
 

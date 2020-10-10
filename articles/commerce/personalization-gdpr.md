@@ -3,7 +3,7 @@ title: Rifiuto esplicito dei suggerimenti personalizzati
 description: Questo argomento descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664932"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817525"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Rifiuto esplicito dei suggerimenti personalizzati
 
@@ -74,7 +74,7 @@ L'esempio seguente mostra come un rivenditore può eseguire questa attività.
 1. Il rivenditore crea un'estensione personalizzata per estrarre i dati dei suggerimenti personali per conto dell'utente. Per informazioni su come creare moduli, clonare moduli esistenti, chiamare le API Retail Server e chiamare azioni sui dati, vedere [Estendibilità del canale online](e-commerce-extensibility/overview.md).
 2. L'estensione personalizzata chiama l'azione **get-recommendations** sui dati core e passa le informazioni richieste alla stessa, in base ai requisiti dell'elenco. Nel caso dell'elenco **Selezioni personalizzate**, l'estensione deve passare il nome di elenco e l'ID cliente corretti all'azione dati.
 
-    Un modo per creare l'estensione personalizzata è clonare il modulo di raccolta prodotti esistente utilizzato per restituire i risultati dei suggerimenti. Clonando questo modulo esistente, un rivenditore può modificare il codice esistente e aggiungere un nuovo pulsante che esporta i risultati dei suggerimenti in un file CSV. Per ulteriori informazioni, vedere [Clonare un modulo di starter kit](e-commerce-extensibility/clone-starter-module.md)e [Moduli Raccolta prodotti](product-collection-module-overview.md).
+    Un modo per creare l'estensione personalizzata è clonare il modulo di raccolta prodotti esistente utilizzato per restituire i risultati dei suggerimenti. Clonando questo modulo esistente, un rivenditore può modificare il codice esistente e aggiungere un nuovo pulsante che esporta i risultati dei suggerimenti in un file CSV. Per ulteriori informazioni, vedere [Clonare un modulo libreria di moduli](e-commerce-extensibility/clone-starter-module.md)e [Moduli Raccolta prodotti](product-collection-module-overview.md).
 
     Per una visualizzazione completa della libreria API Retail Server, vedere [API utente e clienti Retail Server](dev-itpro/retail-server-customer-consumer-api.md).
 

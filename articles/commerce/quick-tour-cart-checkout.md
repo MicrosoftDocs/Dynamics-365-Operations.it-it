@@ -3,7 +3,7 @@ title: Panoramica delle pagine del checkout e del carrello
 description: Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527565"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817780"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine del checkout e del carrello
 
@@ -40,7 +40,7 @@ La pagina checkout di un sito Web di e-Commerce presenta un flusso dettagliato c
 
 La pagina carrello funge da carrello della spesa e include tutti gli articoli aggiunti al carrello.
 
-Nella figura seguente è illustrato un esempio di pagina carrello creata utilizzando lo starter kit online e il tema "Fabrikam".
+Nella figura seguente è illustrato un esempio di pagina carrello creata utilizzando la libreria di moduli e il tema "Fabrikam".
 
 ![Esempio di pagina carrello](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Per informazioni su come creare una pagina carrello, vedere [Aggiungere un modul
 
 La pagina checkout consente ai clienti di immettere le informazioni necessarie per effettuare un ordine.
 
-Nella figura seguente è illustrato un esempio di pagina checkout creata utilizzando lo starter kit online.
+Nella figura seguente è illustrato un esempio di pagina checkout creata utilizzando la libreria di moduli.
 
 ![Esempio di pagina checkout](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ La parte principale della pagina checkout è l'area in cui vengono raccolte tutt
 
 Un indirizzo di spedizione è necessario se gli articoli devono essere spediti. Il formato degli indirizzi di spedizione può essere configurato in Dynamics 365 Commerce. Ad esempio, se gli articoli sono spediti negli Stati Uniti, l'indirizzo di spedizione deve includere un indirizzo di recapito e il codice postale. I campi dell'indirizzo di spedizione richiedono una convalida input di base, ad esempio la convalida di caratteri alfanumerici, lunghezza massima e numeri. Sebbene la validità dell'indirizzo non venga verificata, questa verifica può essere effettuata utilizzando servizi di terze parti personalizzati.
 
-L'indirizzo di spedizione si applica a tutti gli articoli nel carrello per i quali l'opzione "spedizione" è selezionata. Se si utilizza il flusso di checkout fornito nello starter kit online, i singoli articoli del carrello non possono essere spediti a indirizzi diversi. Se si richiede questa funzionalità, può essere implementata mediante la personalizzazione dei moduli Checkout.
+L'indirizzo di spedizione si applica a tutti gli articoli nel carrello per i quali l'opzione "spedizione" è selezionata. Se si utilizza il flusso di checkout fornito nella libreria di moduli, i singoli articoli del carrello non possono essere spediti a indirizzi diversi. Se si richiede questa funzionalità, può essere implementata mediante la personalizzazione dei moduli Checkout.
 
 Dopo aver immesso l'indirizzo di spedizione, vengono visualizzati i metodi di spedizione disponibili nel punto vendita online in Dynamics 365 Commerce. I metodi di spedizione e gli indirizzi che supportano possono essere configurati in Commerce.
 
@@ -80,7 +80,7 @@ Durante il flusso di checkout, un cliente che è membro di un programma fedeltà
 
 #### <a name="gift-cards"></a>Gift card
 
-Lo starter kit online consente l'utilizzo di gift card interne per un ordine. Per applicare una gift card interna, il cliente deve essere connesso. Per un'ulteriore sicurezza, si consiglia di personalizzare il flusso utilizzando un codice PIN (numero di identificazione personale) per le gift card interne.
+La libreria di moduli consente l'utilizzo di gift card interne per un ordine. Per applicare una gift card interna, il cliente deve essere connesso. Per un'ulteriore sicurezza, si consiglia di personalizzare il flusso utilizzando un codice PIN (numero di identificazione personale) per le gift card interne.
 
 ### <a name="signed-in-and-guest-users"></a>Utenti connessi e utenti guest
 

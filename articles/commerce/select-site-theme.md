@@ -3,7 +3,7 @@ title: Selezionare un tema per il sito
 description: In questo argomento viene descritto come impostare o modificare il tema del sito in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002753"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817708"
 ---
 # <a name="select-a-site-theme"></a>Selezionare un tema per il sito
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ In questo argomento viene descritto come impostare o modificare il tema del sito
 
 Il layout e lo stile di un sito (ad esempio caratteri, dimensioni e colori) vengono definiti mediante il tema selezionato e applicato al sito. Un tema viene creato e distribuito da uno sviluppatore nella società. Per una panoramica dei temi, vedere [Panoramica dello sviluppo di temi](http://). Per ulteriori informazioni su come creare e distribuire temi, vedere [Creare un nuovo tema](http://).
 
-Per impostazione predefinita, quando si crea un sito per la prima volta, questo utilizza un tema denominato **Fabrikam**. Questo tema predefinito viene fornito con lo starter kit. Dopo aver sviluppato temi aggiuntivi per il sito, è possibile configurare il sito di modo che utilizzi uno di questi temi.
+Per impostazione predefinita, quando si crea un sito per la prima volta, questo utilizza un tema denominato **Fabrikam**. Questo tema predefinito viene fornito con la libreria di moduli di Commerce. Dopo aver sviluppato temi aggiuntivi per il sito, è possibile configurare il sito di modo che utilizzi uno di questi temi.
 
 ## <a name="select-the-site-theme"></a>Selezionare il tema del sito
 

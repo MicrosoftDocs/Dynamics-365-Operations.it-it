@@ -1,6 +1,6 @@
 ---
 title: Catalogo di apprendimento per amministratori di Dynamics 365 Commerce
-description: Informazioni su tutte le opzioni di apprendimento per Dynamics 365 Commerce.
+description: Trova tutte le opzioni di training per il ruolo amministratore in Dynamics 365 Commerce.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793395"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821206"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catalogo di apprendimento per amministratori di Dynamics 365 Commerce
 
@@ -37,9 +37,9 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Contenuto  | descrizione  | Formatta  | Durata    |
+| Contenuto  | descrizione  | Formattazione  | Durata    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Distribuire Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | Questo percorso di apprendimento descrive come distribuire gli ambienti Dynamics 365 Commerce ed eseguire operazioni di post-provisioning per implementazioni di successo di Commerce usando la topologia corretta per le esigenze aziendali di ciascun rivenditore.                               | Percorso di apprendimento online gratuito autonomo | 5 ore   |
+| [Distribuire ed estendere Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Questo percorso di apprendimento descrive come distribuire gli ambienti Dynamics 365 Commerce ed eseguire operazioni di post-provisioning per implementazioni di successo di Commerce usando la topologia corretta per le esigenze aziendali di ciascun rivenditore. | Percorso di apprendimento online gratuito autonomo | 5 ore   |
 | [Configurare e utilizzare il POS in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | I dati transazionali vengono creati nel POS e quindi caricati in Dynamics 365 Commerce Headquarters per l'elaborazione. Questo percorso di apprendimento descrive come installare e attivare POS, nonché come creare transazioni giornaliere in POS. | Percorso di apprendimento online gratuito autonomo | 4.5 ore |
 | [Configurare e utilizzare i servizi clienti in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce è una soluzione multicanale che fornisce un canale di servizio clienti con funzionalità per impostare in modo predefinito impostazioni specifiche di elaborazione degli ordini e impostazioni predefinite dei dati per gli ordini di vendita creati dagli utenti del servizio clienti.                                  | Percorso di apprendimento online gratuito autonomo | 2 ore   |
 
