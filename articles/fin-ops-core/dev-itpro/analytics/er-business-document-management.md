@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258559"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893137"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258559"
 
 Gli utenti aziendali utilizzano il framework [Creazione di report elettronici ER](general-electronic-reporting.md) per configurare i formati per documenti in uscita in base ai requisiti legali dei vari paesi. Gli utenti possono inoltre definire il flusso di dati per specificare i dati dell'applicazione da inserire nei documenti generati. Il framework ER genera documenti in uscita nei formati di Microsoft Office (cartelle di lavoro di Excel o documenti di Word) utilizzando modelli predefiniti. Nei modelli vengono inseriti i dati necessari in base al flusso di dati configurato durante la generazione dei documenti richiesti. Ogni formato configurato può essere pubblicato come parte di una soluzione ER per generare specifici documenti in uscita. Ciò è rappresentato da una configurazione di formato ER che può contenere modelli utilizzabili per generare differenti documenti in uscita. Gli utenti aziendali possono utilizzare questo framework per gestire i documenti aziendali necessari.
 
-La funzionalità **Gestione documenti aziendali** si basa sul framework ER e consente agli utenti aziendali di modificare i modelli di documenti aziendali tramite il servizio Microsoft Office 365 o l'applicazione desktop Microsoft Office appropriata. Le modifiche ai documenti possono includere le modifiche alle strutture di documenti aziendali e l'aggiunta di segnaposto per dati aggiuntivi senza alterazione del codice sorgente e nuove distribuzioni. Non è richiesta alcuna conoscenza del framework ER per aggiornare i modelli di documenti aziendali.
+La funzionalità **Gestione documenti aziendali** si basa sul framework ER e consente agli utenti aziendali di modificare i modelli di documenti aziendali tramite il servizio Microsoft 365 o l'applicazione desktop Microsoft Office appropriata. Le modifiche ai documenti possono includere le modifiche alle strutture di documenti aziendali e l'aggiunta di segnaposto per dati aggiuntivi senza alterazione del codice sorgente e nuove distribuzioni. Non è richiesta alcuna conoscenza del framework ER per aggiornare i modelli di documenti aziendali.
 
 > [!NOTE]
 > Da notare che Gestione documenti aziendali consente di modificare i modelli utilizzati per generare documenti aziendali quali ordini, fatture e così via. Anche se un modello è stato modificato e una nuova versione dello stesso è stata pubblicata, questa versione viene utilizzata per generare i documenti aziendali richiesti. La funzionalità Gestione documenti aziendali non può essere utilizzata per modificare documenti aziendali già generati.
@@ -170,7 +170,7 @@ Utilizzare la seguente procedura per impostare i parametri di base per tutte le 
 Il tipo di documento selezionato è specifico alla società e verrà utilizzato quando l'utente utilizza Gestione documenti aziendali nella società per la quale il tipo di documento selezionato è configurato. Quando l'utente utilizza Gestione documenti aziendali in un'altra società, lo stesso tipo di documento selezionato sarà utilizzato se un tipo non è stato configurato per tale società. Dopo che un tipo di documento è stato configurato, verrà utilizzato al posto di quello selezionato nel campo **Tipo di documento SharePoint**.
 
 > [!NOTE]
-> Il parametro **Tipo di documento SharePoint** definisce una cartella SharePoint come memoria temporanea per modelli modificabili utilizzando Microsoft Excel o Word. È necessario impostare questo parametro se si prevede di utilizzare applicazioni desktop di Office per la modifica dei modelli. Per ulteriori informazioni, vedere [Modificare un modello nell'applicazione desktop di Office](#EditInOfficeDesktopApp). È possibile mantenere vuoto questo parametro se si prevede di modificare il modello utilizzando solo la funzionalità in Office 365. Per ulteriori informazioni, vedere [Modificare un modello in Office 365](#EditInOffice365).
+> Il parametro **Tipo di documento SharePoint** definisce una cartella SharePoint come memoria temporanea per modelli modificabili utilizzando Microsoft Excel o Word. È necessario impostare questo parametro se si prevede di utilizzare applicazioni desktop di Office per la modifica dei modelli. Per ulteriori informazioni, vedere [Modificare un modello nell'applicazione desktop di Office](#EditInOfficeDesktopApp). È possibile mantenere vuoto questo parametro se si prevede di modificare il modello utilizzando solo la funzionalità in Microsoft 365. Per ulteriori informazioni, vedi [Modificare un modello in Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurare le autorizzazioni di accesso
 
@@ -295,13 +295,13 @@ L'opzione **Nuovo documento** è sempre disponibile per un modello in una config
 
 5. Selezionare **OK** per confermare l'avvio del processo di modifica.
 
-Viene visualizzata la pagina **Editor di modelli BDM**. Il modello selezionato sarà disponibile per la modifica online mediante Office 365.
+Viene visualizzata la pagina **Editor di modelli BDM**. Il modello selezionato sarà disponibile per la modifica online mediante Microsoft 365.
 
 ![Pagina dell'area di lavoro di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Modificare un modello in Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Modificare un modello in Microsoft 365</a>
 
-È possibile modificare il modello utilizzando Office 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente nel modello modificabile che si trova nell'archiviazione del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure). Questa è configurata per il framework ER.
+È possibile modificare il modello utilizzando Microsoft 365. Ad esempio, in Office Online, modificare il carattere dei prompt dei campi nell'intestazione del modello da **Normale** a **Grassetto**. Queste modifiche vengono salvate automaticamente nel modello modificabile che si trova nell'archiviazione del modello principale (per impostazione predefinita, l'archiviazione BLOB di Azure). Questa è configurata per il framework ER.
 
 ![Pagina dell'editor di modelli di Gestione documenti aziendali](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Quando si modifica il modello da un formato ER di proprietà del provider corren
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ho selezionato **Modifica documento**, ma anziché la pagina **Editor di modelli BDM** in Finance and Operations viene visualizzata la pagina Web Office 365.
-Si tratta di un problema noto con il reindirizzamento di Office 365. Questo problema si verifica quando si accede a Office 365 per la prima volta. Per risolverlo, selezionare il pulsante **Indietro** del browser per tornare alla pagina precedente.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>Ho selezionato **Modifica documento**, ma anziché la pagina **Editor di modelli BDM** in Finance and Operations viene visualizzata la pagina Web Microsoft 365.
+Si tratta di un problema noto con il reindirizzamento di Microsoft 365. Questo problema si verifica quando si accede a Microsoft 365 per la prima volta. Per risolverlo, selezionare il pulsante **Indietro** del browser per tornare alla pagina precedente.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>So come modificare un modello utilizzando Office 365 nella prima sessione dell'applicazione e come utilizzare il modello nella seconda sessione dell'applicazione modificando il modello per determinare come le modifiche alterano il documento aziendale generato. Posso farlo utilizzando l'applicazione desktop di Office?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>So come modificare un modello utilizzando Microsoft 365 nella prima sessione dell'applicazione e come utilizzare il modello nella seconda sessione dell'applicazione modificando il modello per determinare come le modifiche alterano il documento aziendale generato. Posso farlo utilizzando l'applicazione desktop di Office?
 Sì, è possibile. Nella prima sessione dell'applicazione, selezionare **Apri nell'app desktop**. Il modello verrà memorizzato nell'archiviazione di file temporanea e aperto nell'applicazione desktop di Office. Successivamente, completare la procedura per visualizzare l'anteprima delle modifiche nel documento aziendale generato:
 
 1. Apportare le modifiche nel modello utilizzando l'applicazione desktop di Office.

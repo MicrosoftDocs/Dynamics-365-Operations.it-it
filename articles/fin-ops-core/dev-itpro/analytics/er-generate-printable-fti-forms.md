@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771285"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893365"
 ---
 # <a name="generate-printable-fti-forms"></a>Generare moduli FTI stampabili
 
@@ -111,7 +111,7 @@ Quando si utilizzando i formati di ER per stampare i moduli FTI in questo modo, 
 Il framework di ER attualmente supporta le seguenti destinazioni per i documenti generati:
 
 - **File scaricato** - I moduli generati vengono offerti come download che è possibile salvare utilizzando il browser.
-- **Schermo** - Excel di Microsoft Office 365 viene utilizzato per visualizzare l'anteprima dei moduli FTI in formato di Excel.
+- **Schermo** - Excel di Microsoft 365 viene utilizzato per visualizzare l'anteprima dei moduli FTI in formato di Excel.
 - **Cartella di SharePoint** - I moduli generati vengono archiviati in base alle impostazioni del framework di gestione documenti.
 - **Archivio dell'applicazione** - I moduli generati vengono archiviati come allegati dei record del registro di esecuzione in Archiviazione di Microsoft Azure.
 - **Posta elettronica** - I moduli generati vengono inviati come allegati di posta elettronica.

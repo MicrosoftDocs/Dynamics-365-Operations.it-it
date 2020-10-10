@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05ac817081689f27cdf55cb86a3235d7707a737b
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803423"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814902"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -162,13 +162,13 @@ Le seguenti regole vengono applicate per determinare se il motore di pianificazi
 
 #### <a name="calendar-setup-overview-matrix"></a>Matrice della panoramica dell'impostazione del calendario
 
-La figura seguente presenta una matrice che riepiloga i calendari applicabili quando vengono calcolati i margini di sicurezza. Le seguenti abbreviazioni e colori vengono utilizzati per indicare dove viene specificato ciascun tipo di calendario:
+La figura seguente presenta una matrice che riepiloga i calendari applicabili quando vengono calcolati i margini di sicurezza. (Seleziona l'immagine per aprirne una versione ad alta risoluzione.) Le seguenti abbreviazioni e colori vengono utilizzati per indicare dove è specificato ogni tipo di calendario:
 
 - **Gruppo di copertura (CG):** verde
 - **Magazzino (WH):** giallo
 - **Fornitore (V):** blu
 
-![Matrice della panoramica dell'impostazione del calendario](media/safety-margins-calendar-matrix.png)
+[![Matrice della panoramica dell'impostazione del calendario](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calcolo dei ritardi
 

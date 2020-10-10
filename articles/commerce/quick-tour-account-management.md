@@ -3,7 +3,7 @@ title: Panoramica delle pagine della gestione del conto
 description: Questo argomento fornisce una panoramica delle pagine di gestione account in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527610"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817804"
 ---
 # <a name="account-management-pages-overview"></a>Panoramica delle pagine della gestione del conto
 
@@ -46,7 +46,7 @@ Nella figura seguente è illustrato un esempio della pagina di destinazione di g
 
 La pagina **Profilo** visualizza informazioni sull'account del cliente, come il nome e il numero di telefono. Il cliente può aggiornare le informazioni del suo profilo in questa pagina. Questa pagina può essere personalizzata in modo da includere ulteriori preferenze sull'account del cliente, ad esempio un'opzione per acconsentire i messaggii e-mail di marketing.
 
-Nella figura seguente è illustrato un esempio di pagina **Profilo** creata utilizzando lo starter kit.
+Nella figura seguente è illustrato un esempio di pagina **Profilo** creata utilizzando la libreria di moduli.
 
 ![Esempio di pagina Profilo](./media/Account-Management-MyProfile.PNG)
 

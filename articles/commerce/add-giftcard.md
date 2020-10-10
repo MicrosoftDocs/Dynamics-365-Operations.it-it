@@ -3,7 +3,7 @@ title: Modulo Gift card
 description: Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: fc47d590789c79c08af7555222aa7cc9409da23c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761083"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817428"
 ---
 # <a name="gift-card-module"></a>Modulo Gift card
 
@@ -35,10 +35,16 @@ Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagi
 
 I moduli di gift card possono essere utilizzati nei moduli di pagamento per accettare gift card, una forma di pagamento comune utilizzata per le transazioni di e-commerce. Il moduli Gift card supporta gift card Dynamics 365, SVS e Givex. Le gift card SVS e Givex vengono riscattate tramite il fornitore di pagamenti Adyen. Per ulteriori informazioni sul supporto per gift card esterne come SVS e Givex, vedere [Supporto per gift card esterne](./dev-itpro/gift-card.md).
 
+> [!NOTE]
+> Il supporto per il riscatto di gift card SVS e Givex durante il flusso di completamento della transazione è disponibile in Dynamics 365 Commerce versione 10.0.11. 
+
 Sono disponibili due moduli di gift card:
 
 - **Gift card** - Questo modulo può essere utilizzato in una pagina di checkout per riscattare una gift card come offerta. 
 - **Controllo del saldo della gift card** - Questo modulo può essere utilizzato in qualsiasi pagina per controllare il saldo di una gift card. Questo modulo è disponibile in Commerce versione 10.0.14 e successive.
+
+> [!NOTE]
+> Il supporto per il modulo di controllo del saldo della gift card regalo è disponibile in Dynamics 365 Commerce versione 10.0.14.
 
 L'immagine seguente mostra un esempio di un moduli Gift card in una pagina checkout.
 
@@ -61,6 +67,9 @@ In Creazione di siti Web di Commerce sotto **Impostazioni del sito \> Estensioni
 - **Gift card SVS e gift card Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Givex e SVS. Questa impostazione è supportata per gli utenti anonimi che hanno effettuato l'accesso al sito di e-Commerce.
 - **Gift card Dynamics 365, SVS e Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Dynamics 365, SVS e Givex. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
 
+> [!IMPORTANT]
+> Queste impostazioni sono disponibili in Dynamics 365 Commerce versione 10.0.11 e sono richiesti solo se è necessario il supporto per le gift card SVS o Givex. Se stai aggiornando da una versione precedente di Dynamics 365 Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni sull'aggiornamento del file appsettings.json, vedi [Aggiornamenti dell'SDK e della libreria dei moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
 ## <a name="add-a-gift-card-module-to-a-page"></a>Aggiungere un moduli Gift card a una pagina
 
 Per istruzioni su come aggiungere un moduli Gift card a una pagina checkout e impostare le proprietà richieste, vedere [Modulo Checkout](add-checkout-module.md).
@@ -77,8 +86,10 @@ Per istruzioni su come aggiungere un moduli Gift card a una pagina checkout e im
 
 [Modulo Indirizzo di spedizione](ship-address-module.md)
 
-[Modulo Opzioni di consegna](delivery-options-module.md)
+[Modulo opzioni di consegna](delivery-options-module.md)
 
 [Modulo Dettagli ordini](order-confirmation-module.md)
 
 [Supporto per gift card esterne](./dev-itpro/gift-card.md)
+
+[SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)

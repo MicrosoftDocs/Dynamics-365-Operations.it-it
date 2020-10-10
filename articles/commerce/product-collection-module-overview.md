@@ -3,7 +3,7 @@ title: Moduli Raccolta prodotti
 description: Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464955"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817575"
 ---
 # <a name="product-collection-modules"></a>Moduli Raccolta prodotti
 
@@ -98,9 +98,9 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Sequenza](add-carousel.md)
+[Modulo sequenza](add-carousel.md)
 
 [Modulo blocco contenuto formattato](add-content-rich-block.md)
 

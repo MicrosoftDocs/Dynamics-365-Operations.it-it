@@ -1,9 +1,9 @@
 ---
-title: Incorporare Power Apps
-description: In questo argomento viene descritto come incorporare Power Apps nel client per aumentare la funzionalità del prodotto.
+title: Incorporare app canvas da Power Apps
+description: In questo argomento viene spiegato come incorporare app canvas da Microsoft Power Apps nel client per aumentare la funzionalità del prodotto.
 author: jasongre
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,36 +16,39 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042944"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893109"
 ---
-# <a name="embed-microsoft-power-apps"></a>Incorporare Microsoft Power Apps
+# <a name="embed-canvas-apps-from-power-apps"></a>Incorporare app canvas da Power Apps
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations supporta l'integrazione con Microsoft Power Apps, un servizio rivolto a utenti non tecnici e sviluppatori che consente di creare app aziendali per dispositivi mobili, tablet e Web senza scrivere codice. Le app Power Apps sviluppate dall'utente, dall'organizzazione o dall'ecosistema più ampio potranno quindi essere incluse nelle app Finance and Operations per aumentare la funzionalità del prodotto. Ad esempio, è possibile creare un'app da Power Apps che completi l'app Finance and Operations con informazioni recuperate da un altro sistema.
+Microsoft Power Apps è un servizio che consente agli sviluppatori che agli utenti non tecnici di creare app aziendali personalizzate per dispositivi mobili, tablet e il Web senza dover scrivere codice. Le app Finance and Operations supportano l'integrazione con Power Apps. Le app canvas sviluppate da te, dall'organizzazione o dall'ecosistema più ampio possono essere incorporate nelle app Finance and Operations per aumentare la funzionalità del prodotto. Ad esempio, è possibile creare un'app canvas da Power Apps che completi l'app Finance and Operations con informazioni recuperate da un altro sistema.
 
 Per ulteriori informazioni sull'integrazione di Power Apps, guardare il breve video [Come integrare Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Aggiunta di un'app da Power Apps a una pagina
+## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Aggiunta di un'app canvas da Power Apps a una pagina
 
 ### <a name="overview"></a>Panoramica
 
-Prima di incorporare un'app da Power Apps nel client, è necessario dapprima trovare o creare un'app con gli oggetti visivi e/o le funzionalità desiderati. Il processo dettagliato per la creazione di app non viene descritto in questo argomento. L'argomento che [introduce le Power Apps](https://docs.microsoft.com/powerapps/getting-started) è un'ottima risorsa per acquisire familiarità con le Power Apps.
+Prima di incorporare un'app canvas da Power Apps nel client, è necessario dapprima trovare o creare un'app con gli oggetti visivi e/o le funzionalità desiderati. Questo argomento non include una descrizione dettagliata del processo per la creazione di app. Se non conosci Power Apps, vedi la [documentazione di Power Apps](https://docs.microsoft.com/powerapps/).
 
-Quando si è pronti a incorporare una specifica app, è possibile scegliere tra uno dei due modi di accesso all'app in una pagina, a seconda di quale è più appropriato per lo scenario corrente. Il primo modo è tramite il pulsante Power Apps aggiunto al riquadro azioni standard. Le app aggiunte tramite questo meccanismo saranno visualizzate come voci di menu nel pulsante di menu Power Apps. Se una di queste voci di menu viene selezionata, aprirà un riquadro laterale contenente l'app incorporata. In alternativa, è possibile scegliere di incorporare un'app direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro.
+Esistono due modi per accedere a un'app canvas specifica su una pagina quando sei pronto per incorporare l'app. Puoi scegliere quale approccio si adatta meglio al tuo scenario. Il primo approccio utilizza il pulsante **Power Apps** aggiunto al riquadro azioni standard. Le app che aggiungi utilizzando questo approccio vengono visualizzate come elementi nel pulsante Menu di **Power Apps**. Quando selezioni una di queste voci di menu, viene visualizzato un riquadro laterale contenente l'app incorporata. In alternativa, puoi incorporare un'app direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro.
 
-Durante la configurazione dell'app incorporata, è possibile selezionare un singolo campo che si desidera inviare come contesto all'app. Ciò consente all'app di essere reattiva in base ai dati correntemente visualizzati.
+Durante la configurazione dell'app canvas incorporata, è possibile selezionare un singolo campo che si desidera inviare come contesto all'app. Questo passaggio consente all'app di essere reattiva in base ai dati correntemente visualizzati.
+
+> [!NOTE]
+> Al momento non puoi utilizzare questo meccanismo per incorporare app modellate.  
 
 ### <a name="details"></a>Dettagli
 
-Le istruzioni seguenti mostrano come incorporare un'app da Power Apps nel client Web.
+La procedura seguente mostra come incorporare un'app canvas da Power Apps nel client Web.
 
-1. Passare alla pagina in cui si desidera incorporare l'app. Sarà la stessa pagina contenente tutti i dati che devono essere passati all'app come input.
+1. Passa alla pagina in cui vuoi incorporare l'app canvas. Sarà la stessa pagina contenente tutti i dati che devono essere passati all'app come input.
 2. Aprire il riquadro **Aggiungi un'app da Power Apps**:
 
     - Fare clic su **Opzioni**, quindi selezionare **Personalizza questa pagina**. Sotto il menu **Inserisci**, scegliere **Power Apps**. Infine, selezionare la regione in cui si desidera aggiungere l'app. Se si desidera incorporare l'app sotto il pulsante di menu Power Apps, scegliere il riquadro azioni. Se si desidera incorporare l'app direttamente nella pagina, scegliere la scheda, la Scheda dettaglio, il pannello o la sezione (se in un'area di lavoro) appropriata.
@@ -54,8 +57,8 @@ Le istruzioni seguenti mostrano come incorporare un'app da Power Apps nel client
 3. Configurare l'app incorporata:
 
     - Il campo **Nome** indica il testo visualizzato per il pulsante o la scheda che conterrà l'app incorporata. È spesso possibile che si intenda ripetere il nome dell'app in questo campo.
-    - **ID app** è il GUID per l'app che si desidera incorporare. Per ripristinare questo valore, trovare l'app in [web.powerapps.com](https://web.powerapps.com) e quindi individuare il campo **ID app** sotto **Dettagli**.
-    - Per **Contesto di input per l'app**, si può scegliere di selezionare il campo che contiene i dati da passare all'app come input. Vedere la sezione [Creazione di un'app che sfrutta i dati inviati dalle app Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) più avanti in questo argomento per dettagli su come l'app può accedere ai dati inviati dalle app Finance and Operations.
+    - Il campo **ID app** indica l'identificatore univoco globale (GUID) per l'app canvas che desideri incorporare. Per ripristinare questo valore, trovare l'app in [web.powerapps.com](https://web.powerapps.com) e quindi individua il campo **ID app** sotto **Dettagli**.
+    - Per **Contesto di input per l'app**, si può scegliere di selezionare il campo che contiene i dati da passare all'app come input. Vedere la sezione [Creazione di un'app che sfrutta i dati inviati dalle app Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) più avanti in questo argomento per dettagli su come l'app può accedere ai dati inviati dalle app Finance and Operations.
     - Scegliere la **Dimensione dell'applicazione** che corrisponde al tipo di app che si intende incorporare. Selezionare **Ridotte** per le app create per dispositivi mobili e **Ampie** per le app create per tablet. Ciò garantisce l'assegnazione di una quantità di spazio sufficiente per l'app incorporata.
     - La Scheda dettaglio **Persone giuridiche** consente di scegliere le persone giuridiche per le quali l'app è disponibile. Il valore predefinito rende l'app accessibile a tutte le persone giuridiche. Questa opzione è disponibile solo quando la funzionalità [Visualizzazioni salvate](saved-views.md) è disabilitata. 
 
@@ -63,16 +66,23 @@ Le istruzioni seguenti mostrano come incorporare un'app da Power Apps nel client
 
 ## <a name="sharing-an-embedded-app"></a>Condivisione di un'app incorporata
 
-Dopo avere incorporato un'app in un pagina e averne verificato il corretto funzionamento con il contesto di dati, è possibile che si desideri condividerla con altri utenti del sistema. Questo può essere realizzato in due modi diversi utilizzando le capacità di personalizzazione del prodotto:
+Dopo avere incorporato un'app in un pagina e averne verificato il corretto funzionamento con il contesto di dati, è possibile che si desideri condividerla con altri utenti del sistema. Per condividere un'app canvas incorporata, segui questi passaggi.
 
-- Lo scenario consigliato è attraverso l'amministratore di sistema, che può inviare una personalizzazione a tutti gli utenti o a un sottoinsieme di utenti.
-- In alternativa, è possibile esportare le personalizzazioni della pagina, inviarle a uno o più utenti e chiedere a ciascuno di questi utenti di importarle. La barra degli strumenti di personalizzazione include azioni che consentono di esportare e importare le personalizzazioni.
+1. [Condividi l'app canvas](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) con gli utenti appropriati, in modo che possano accedere all'app in Power Apps. 
+
+2. Assicurati che gli utenti di destinazione abbiano le personalizzazioni appropriate, in modo che l'app incorporata venga visualizzata quando quegli utenti visualizzano la pagina. Puoi utilizzare uno dei seguenti approcci:
+
+    - Consigliato: utilizza la funzionalità [Visualizzazioni salvate](saved-views.md) per creare e pubblicare una visualizzazione che includa l'app incorporata. Questo approccio garantisce che tutti gli utenti che dispongono dei ruoli di sicurezza individuati dalla visualizzazione pubblicata vedranno l'app tra le app Finance and Operations. 
+    - Se non hai attivato la funzione Visualizzazioni salvate, puoi fare in modo che l'amministratore di sistema invii una personalizzazione che includa l'app incorporata a tutti gli utenti o a un sottoinsieme di utenti. In alternativa, puoi esportare le personalizzazioni della tua pagina e inviarle a uno o più utenti. Ciascuno di questi utenti può quindi importare le personalizzazioni. La barra degli strumenti di personalizzazione consente di esportare e importare le personalizzazioni. 
+    
+> [!NOTE]
+> Se l'app canvas è stata condivisa con utenti esterni, tali utenti non possono utilizzare l'app incorporata all'interno delle app Finance and Operations. Tuttavia, possono accedere all'app direttamente all'interno di Power Apps. Gli utenti esterni includono guest e utenti che non appartengono alla directory di Microsoft 365 Azure in cui l'app Finance and Operations viene distribuita.
 
 Per ulteriori informazioni sulle funzionalità di personalizzazione nel prodotto e su come utilizzarle, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Creazione di un'app che sfrutta i dati inviati dalle app Finance and Operations
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creazione di un'app canvas che utilizza i dati inviati dalle app Finance and Operations
 
-Una parte importante della creazione di un'app da Power Apps che verrà incorporata in un'app Finance and Operations sta utilizzando i dati di input di quell'applicazione. Nell'esperienza di sviluppo di Power Apps, è possibile accedere ai dati di input passati da un'app Finance and Operations utilizzando la variabile Param ("EntityId").
+Quando crei un'app canvas che verrà incorporata in un'app Finance and Operations, una parte importante del processo consiste nell'utilizzare i dati di input dall'app Finance and Operations. Nell'esperienza di sviluppo di Power Apps, è possibile accedere ai dati di input passati da un'app Finance and Operations utilizzando la variabile **Param ("EntityId")**.
 
 Ad esempio, nella funzione OnStart dell'app, è possibile impostare i dati di input dalle app Finance and Operations su una variabile come la seguente:
 
@@ -80,9 +90,9 @@ Ad esempio, nella funzione OnStart dell'app, è possibile impostare i dati di in
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-app"></a>Visualizzazione di un'app
+## <a name="viewing-a-canvas-app"></a>Visualizzazione di un'app canvas
 
-Per visualizzare un'app incorporata in una pagina nelle app Finance and Operations, accedere a una pagina con un'app incorporata. Da notare che alle app è possibile accedere tramite il pulsante Power Apps nel riquadro azioni standard, oppure che possono essere visualizzate direttamente nella pagina come nuova scheda, Scheda dettaglio, pannello o come nuova sezione in un'area di lavoro. Quando un utente tenta per la prima volta di caricare un'app in una pagina, gli viene richiesto di eseguire l'accesso per assicurarsi di disporre delle autorizzazioni necessarie per utilizzare l'app.
+Per visualizzare un'app canvas in una pagina nelle app Finance and Operations, è sufficiente accedere a una pagina che include un'app incorporata. Ricorda che è possibile accedere alle app utilizzando il pulsante **Power Apps** nel riquadro azioni standard. In alternativa, possono apparire direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro. Quando gli utenti tentano per la prima volta di caricare un'app in una pagina, verrà richiesto di accedere. Questo passaggio garantisce che gli utenti dispongano delle autorizzazioni appropriate per utilizzare l'app.
 
 ## <a name="editing-an-embedded-app"></a>Modifica di un'app incorporata
 
@@ -106,7 +116,7 @@ Dopo che un'app è stata incorporata in una pagina, esistono due modi per rimuov
 
 ## <a name="appendix"></a>Appendice
 
-### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Controllo dello sviluppatore sulla posizione in cui può essere incorporata un'app
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Sviluppatore] Specifica dove può essere incorporata un'app
 
 Per impostazione predefinita, gli utenti possono incorporare app in qualsiasi pagina, sotto il pulsante di menu Power Apps o direttamente come scheda, Scheda dettaglio, pannello o come nuova sezione in un'area di lavoro. Tuttavia, se necessario, gli sviluppatori possono anche configurare questa funzionalità per consentire solo l'incorporamento delle app in determinate pagine tramite l'implementazione dei seguenti metodi:
 
