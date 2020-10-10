@@ -3,7 +3,7 @@ title: Panoramica sui pagamenti omnicanale
 description: In questo argomento viene fornita una panoramica dei pagamenti omnicanale in Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613179"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819815"
 ---
 # <a name="omni-channel-payments-overview"></a>Panoramica sui pagamenti omnicanale
 
@@ -92,6 +92,9 @@ I seguenti scenari di pagamento omnicanale sono supportati:
 - Acquista nel servizio clienti, preleva nel punto vendita
 - Acquista nel punto vendita A, preleva nel punto vendita B
 - Acquista nel punto vendita A, spedisci a cliente
+
+    > [!NOTE]
+    > I pagamenti effettuati nel call center che effettuano il mapping alla funzione di pagamento "Normale" devono essere contrassegnati come **Pagamento anticipato** = **Sì** in modo da riflettersi nell'importo dovuto al momento del richiamo dell'ordine nel POS. I pagamenti senza pagamento anticipato di tipo "Normale" non vengono riconosciuti quando l'ordine viene richiamato in POS. 
 
 Sono supportate anche variazioni di questi scenari. Ad esempio, un ordine online può includere le righe che verranno spedite al cliente e quelle che saranno prelevate in un punto vendita. Tutte le opzioni di evasione degli ordini sono supportate tramite pagamenti omnicanale. 
 
@@ -190,8 +193,8 @@ Attenersi alla seguente procedura per eseguire lo scenario.
 2. Nella pagina **Transazione**, aggiungere Karen Berg alla transazione mediante il tastierino numerico per immettere **2001**.
 3. Aggiungere una o più righe alla transazione.
 4. Selezionare **Ordini** per visualizzare le opzioni relative agli ordini.
-5. Selezionare **Preleva tutto**, quindi quando verrà richiesto, selezionare **Ordine cliente**.
-6. Nella barra di ricerca, immettere **Seattle**quindi selezionare il punto vendita **Seattle** per il prelievo. 
+5. Selezionare **Spedisci tutto**, quindi quando verrà richiesto, selezionare **Ordine cliente**.
+6. Nella pagina del metodo di spedizione, seleziona **Standard durante la notte** e quindi seleziona **OK** per accettare la data odierna come data di spedizione. 
 7. Selezionare **OK** per accettare la data corrente come data di prelievo.
 8. Selezionare **Pagamento con carta** per avviare il pagamento.
 9. Scegliere il pagamento con carta per l'importo dovuto per il deposito. 
@@ -233,5 +236,5 @@ Quando viene prelevato un ordine con più metodi di pagamento e più righe, il c
 
 - [Domande frequenti sui pagamenti](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

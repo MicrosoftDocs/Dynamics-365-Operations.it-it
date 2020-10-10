@@ -3,7 +3,7 @@ title: Domande frequenti sui flussi di lavoro
 description: In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076088"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826192"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -58,3 +58,5 @@ Durante l'esecuzione in Active Directory Federation Services (ADFS) in un ambien
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Perché si ricevono blocchi critici SQL per l'elaborazione del flusso di lavoro? 
 Il valore predefinito per **Numero di elementi del flusso di lavoro per batch** nella pagina **Parametri del flusso di lavoro** è 0. Un valore pari a 0 fa sì che il valore predefinito cambi in 20 elementi per batch. Prestare attenzione quando si regola questo valore perché un numero elevato di elementi per batch (> 40) può causare blocchi critici SQL.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Che cos'è la funzionalità di errore avanzato del flusso di lavoro?
+La funzionalità di errore avanzato del flusso di lavoro nella versione 10.0.13 aggiunge codici di errore per differenziare classi diverse di errori del flusso di lavoro. I messaggi di errore riportati saranno per lo più simili con piccole differenze per renderli più chiari.

@@ -3,7 +3,7 @@ title: Modulo Contenitore
 description: In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417348"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817404"
 ---
 # <a name="container-module"></a>Modulo Contenitore
 
@@ -123,15 +123,15 @@ Per aggiungere un modulo Contenitore a una nuova pagina e impostare le propriet√
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Modulo Accordion](add-accordion.md)
 
-[Modulo Scheda](add-tab.md)
+[Modulo scheda](add-tab.md)
 
-[Modulo Sequenza](add-carousel.md)
+[Modulo sequenza](add-carousel.md)
 
-[Modulo Blocco di testo](add-content-rich-block.md)
+[Modulo blocco testo](add-content-rich-block.md)
 
 [Modulo Casella acquisti](add-buy-box.md)
 

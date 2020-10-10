@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719266"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829214"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -99,29 +99,7 @@ Se si esegue la sincronizzazione da Supply Chain Management a Sales, si ottiene 
 
 ## <a name="dual-write-solution-for-sales"></a>Soluzione di doppia scrittura per Sales
 
-Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagina. La maggior parte di questi campi appare nella scheda **Integrazione** in Sales. Ci sono alcuni campi speciali:
-
-+ Il campo **Stato elaborazione** mostra lo stato di elaborazione dell'ordine in Supply Chain Management. Questo campo è bloccato e mostra solo lo stato dell'ordine da Supply Chain Management. Sono disponibili i valori seguenti:
-
-    + **Attivo** - Lo stato dopo che l'ordine viene attivato in Sales utilizzando il pulsante **Attiva**.
-    + **Confermata**
-    + **Consegnata**
-    + **Fatturate**
-    + **Consegnato in parte**
-    + **Parzialmente fatturato**
-    + **Prelevato**
-    + **Annullata**
-
-    La tabella seguente mostra come lo stato di elaborazione è mappato sul valore **Codice di stato CRM**.
-
-    | Stato elaborazione           | Codice di stato CRM    |
-    |-----------------------------|--------------------|
-    | Attive                      | Nuovo/In sospeso/In attesa |
-    | Confermato/Prelevato            | In corso        |
-    | Consegnato in parte         | Parziale            |
-    | Consegnata                   | Completati           |
-    | Fatturato/Parzialmente fatturato | Fatturate           |
-    | Annullata                    | Senza denaro           |
+Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagina. La maggior parte di questi campi appare nella scheda **Integrazione** in Sales. Per ulteriori informazioni su come vengono mappati i campi di stato, fai riferimento all'argomento della documentazione per [Configurare il mapping per i campi di stato dell'ordine cliente](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + I pulsanti **Crea fattura** e **Annulla ordine** nella pagina **Ordine cliente** sono nascosti in Sales.
 + Il valore dello **stato dell'ordine cliente** rimarrà **attivo** per garantire che le modifiche da Supply Chain Management possano essere applicate all'ordine cliente in Sales. Per controllare questo comportamento, impostare il valore **Codice stato \[Stato\]** su **Attivo**.

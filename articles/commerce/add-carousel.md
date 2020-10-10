@@ -3,7 +3,7 @@ title: Modulo Sequenza
 description: In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10ff0cd566a1a8d89ccadce9571dafc5a592520b
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3620988"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816988"
 ---
 # <a name="carousel-module"></a>Modulo Sequenza
 
@@ -77,12 +77,12 @@ Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà n
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Banner promozionale](add-alert.md)
+[Modulo banner promozionale](add-alert.md)
 
-[Modulo Blocco di testo](add-content-rich-block.md)
+[Modulo blocco testo](add-content-rich-block.md)
 
-[modulo Blocco di contenuto](add-hero-module.md)
+[Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)

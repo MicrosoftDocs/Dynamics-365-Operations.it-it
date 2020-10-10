@@ -3,7 +3,7 @@ title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646137"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818252"
 ---
 # <a name="store-selector-module"></a>Modulo Selettore punto vendita
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Affinché lo scenario funzioni, i prodotti devono essere configurati in modo da 
 
 L'immagine seguente mostra un esempio di un modulo selettore punto vendita utilizzato su un PDP.
 
-![Esempio di un modulo selettore punto vendita](./media/BOPIS.PNG)
+![Esempio di un modulo selettore punto vendita utilizzato su un PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Modalità Trova punti vendita
 
@@ -73,7 +72,7 @@ Il modulo di selezione del punto vendita supporta anche una modalità **Trova pu
 
 La seguente illustrazione mostra un esempio di un modulo di selezione del punto vendita utilizzato insieme a un modulo mappa in una pagina con le posizioni dei punti vendita.
 
-![Esempio di un modulo selettore punto vendita](./media/ecommerce-Storelocator.PNG)
+![Esempio di un modulo di selezione del punto vendita e un modulo di mapping su una pagina delle posizioni dei punti vendita](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Eseguire il rendering di una mappa
 
@@ -127,7 +126,7 @@ Per configurare il modulo di selezione del punto vendita in modo da mostrare i p
  
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Modulo casella acquisti](add-buy-box.md)
 

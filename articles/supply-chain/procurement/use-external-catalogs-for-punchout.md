@@ -1,5 +1,5 @@
 ---
-title: Usare cataloghi esterni per PunchOut eProcurement
+title: Usare cataloghi esterni per PunchOut e-procurement
 description: In questo argomento viene descritto come utilizzare i cataloghi esterni per creare e inviare richieste.
 author: mkirknel
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f7a784e6a66c0c2df9043468e9878de161c3be0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207418"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826806"
 ---
-# <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usare cataloghi esterni per PunchOut eProcurement
+# <a name="use-external-catalogs-for-punchout-e-procurement"></a>Usare cataloghi esterni per PunchOut e-procurement
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +50,8 @@ Se sono disponibili più opzioni per le categorie di approvvigionamento, selezio
 Dopo che le righe sono state aggiunte a una richiesta, è possibile aggiungere altre righe senza utilizzare i cataloghi esterni. In alternativa, è possibile continuare a utilizzare i cataloghi esterni per aggiungere le righe.
 
 Quando la richiesta è pronta, utilizzare l'azione **Flusso di lavoro** > **Invia** per inoltrare la richiesta per l'approvazione.
+
+### <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
+- [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
