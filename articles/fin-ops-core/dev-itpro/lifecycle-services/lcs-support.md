@@ -1,12 +1,12 @@
 ---
 title: Ottenere supporto per le app Finance and Operations o Lifecycle Services (LCS)
 description: In questo argomento viene descritto come ottenere supporto per le app Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS).
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,79 +17,55 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005518"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817900"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="31ecf-103">Ottenere supporto per le app Finance and Operations o Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="31ecf-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="3639a-103">Ottenere supporto per le app Finance and Operations o Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="3639a-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="31ecf-104">In questo argomento viene descritto come ottenere supporto per le app Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="31ecf-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
-
-## <a name="contact-support"></a><span data-ttu-id="31ecf-105">Contatta il supporto</span><span class="sxs-lookup"><span data-stu-id="31ecf-105">Contact support</span></span>
-
-<span data-ttu-id="31ecf-106">Utilizzare le informazioni in questo articolo per contattare Microsoft in caso di quesiti tecnici o se si necessita di assistenza per accedere a Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="31ecf-106">Use the information in this article to contact Microsoft if you have technical questions, or if you need help accessing Microsoft Dynamics Lifecycle Services (LCS).</span></span>
-
-### <a name="finance-and-operations-apps-support"></a><span data-ttu-id="31ecf-107">Supporto per le app Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="31ecf-107">Finance and Operations apps support</span></span>
-
-<span data-ttu-id="31ecf-108">Per ottenere supporto, usare le risorse indicate nella tabella seguente.</span><span class="sxs-lookup"><span data-stu-id="31ecf-108">To obtain support, use the resources in the following table.</span></span> <span data-ttu-id="31ecf-109">Tali risorse sono elencate nell'ordine in cui devono essere seguite durante la risoluzione di problemi.</span><span class="sxs-lookup"><span data-stu-id="31ecf-109">These resources are listed in the order that we recommend that you follow when you're troubleshooting.</span></span>
+<span data-ttu-id="3639a-104">In questo argomento viene descritto come ottenere supporto per le app Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="3639a-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="31ecf-110">Compito</span><span class="sxs-lookup"><span data-stu-id="31ecf-110">Task</span></span></th>
-<th><span data-ttu-id="31ecf-111">Ulteriori informazioni</span><span class="sxs-lookup"><span data-stu-id="31ecf-111">More information</span></span></th>
+<tr>
+<th><span data-ttu-id="3639a-105">Compito</span><span class="sxs-lookup"><span data-stu-id="3639a-105">Task</span></span></th>
+<th><span data-ttu-id="3639a-106">Ulteriori informazioni</span><span class="sxs-lookup"><span data-stu-id="3639a-106">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="31ecf-112">Chiedere alla community</span><span class="sxs-lookup"><span data-stu-id="31ecf-112">Ask the community.</span></span></td>
-<td><span data-ttu-id="31ecf-113">Accedere alla <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">pagina della community</span></a> per ottenere risposte alle domande dalla community di Dynamics.</span><span class="sxs-lookup"><span data-stu-id="31ecf-113">Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Community page</span></a> to find help with your questions from the Dynamics community.</span></span></td>
+<tr>
+<td><span data-ttu-id="3639a-107">Chiedere alla community</span><span class="sxs-lookup"><span data-stu-id="3639a-107">Ask the community.</span></span></td>
+<td><span data-ttu-id="3639a-108">Accedi alla pagina <a href="https://community.dynamics.com/">Community di Dynamics 365</a> per ottenere risposte alle domande dalla community di Microsoft Dynamics.</span><span class="sxs-lookup"><span data-stu-id="3639a-108">Go to the <a href="https://community.dynamics.com/">Dynamics 365 Community</a> page to get help with your questions from the Microsoft Dynamics community.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="31ecf-114">Utilizzare lo strumento Ricerca argomento</span><span class="sxs-lookup"><span data-stu-id="31ecf-114">Use the Issue search tool.</span></span></td>
-<td><span data-ttu-id="31ecf-115">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, utilizzare Ricerca argomento per cercare rapidamente aggiornamenti rapidi, soluzioni alternative e articoli della Knowledge Base di Microsoft relativi a problemi noti di Retail.</span><span class="sxs-lookup"><span data-stu-id="31ecf-115">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, use Issue search to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="31ecf-116">È possibile vedere quali problemi segnalati sono in fase di risoluzione o sono già stati corretti per una determinata area funzionale.</span><span class="sxs-lookup"><span data-stu-id="31ecf-116">You can see which reported issues are in the process of being fixed or have already been fixed for a specific functional area .</span></span> <span data-ttu-id="31ecf-117">Per ulteriori informazioni, vedere <a href="issue-search-lcs.md"><span style="color: #0066cc;">Ricerca argomento (Lifecycle Services, LCS)</span></a>.</span><span class="sxs-lookup"><span data-stu-id="31ecf-117">For more information, see <a href="issue-search-lcs.md"><span style="color: #0066cc;">Issue search (Lifecycle Services, LCS)</span></a>.</span></span></td>
+<tr>
+<td><span data-ttu-id="3639a-109">Ottenere informazioni con le domande sulle licenze.</span><span class="sxs-lookup"><span data-stu-id="3639a-109">Get help with questions about licensing.</span></span></td>
+<td><span data-ttu-id="3639a-110">Contatta il tuo partner o un rappresentante Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3639a-110">Contact your partner or a Microsoft sales representative.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="31ecf-118">Utilizzare lo strumento di supporto basato sul cloud</span><span class="sxs-lookup"><span data-stu-id="31ecf-118">Use the Cloud-powered support tool.</span></span></td>
-<td><span data-ttu-id="31ecf-119">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, il riquadro <strong>Supporto</strong> è uno strumento che consente di gestire gli eventi imprevisti.</span><span class="sxs-lookup"><span data-stu-id="31ecf-119">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, the <strong>Support</strong> tile is a tool that helps you manage support incidents.</span></span> <span data-ttu-id="31ecf-120">Per inviare i problemi direttamente a Microsoft, accedere al riquadro <strong>Supporto</strong> nel progetto LCS.</span><span class="sxs-lookup"><span data-stu-id="31ecf-120">To submit issues directly to Microsoft, go to the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="31ecf-121">È possibile inoltrare i problemi in due modi:</span><span class="sxs-lookup"><span data-stu-id="31ecf-121">From there, you can submit issues in two ways:</span></span>
+<tr>
+<td><span data-ttu-id="3639a-111">Utilizzare lo strumento <strong>Ricerca argomento</strong>.</span><span class="sxs-lookup"><span data-stu-id="3639a-111">Use the <strong>Issue search</strong> tool.</span></span></td>
+<td><span data-ttu-id="3639a-112">In <a href="https://lcs.dynamics.com/">LCS</a>, utilizza lo strumento <strong>Ricerca argomento</strong> per cercare rapidamente aggiornamenti rapidi, soluzioni alternative e articoli della Knowledge Base di Microsoft relativi a problemi noti.</span><span class="sxs-lookup"><span data-stu-id="3639a-112">In <a href="https://lcs.dynamics.com/">LCS</a>, use the <strong>Issue search</strong> tool to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="3639a-113">È possibile vedere quali problemi segnalati sono in fase di risoluzione per una determinata area funzionale e quali sono stati già risolti.</span><span class="sxs-lookup"><span data-stu-id="3639a-113">You can see which reported issues are in the process of being fixed for a specific functional area, and which issues have already been fixed.</span></span> <span data-ttu-id="3639a-114">Per ulteriori informazioni, vedere <a href="issue-search-lcs.md">Ricerca argomento (Lifecycle Services, LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="3639a-114">For more information, see <a href="issue-search-lcs.md">Issue search (Lifecycle Services, LCS)</a>.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="3639a-115">Ottenere il supporto nell'app.</span><span class="sxs-lookup"><span data-stu-id="3639a-115">Get in-app support.</span></span></td>
+<td><span data-ttu-id="3639a-116">Fare clic sul pulsante <strong>Guida</strong> (<strong>?</strong>) nell'angolo superiore destro dell'app, quindi seleziona <strong>Supporto</strong>.</span><span class="sxs-lookup"><span data-stu-id="3639a-116">Select the <strong>Help</strong> button (<strong>?</strong>) in the upper-right corner of the app, and then select <strong>Support</strong>.</span></span> <span data-ttu-id="3639a-117">I problemi vengono segnalati nella scheda <strong>Problemi attivi</strong> in LCS.</span><span class="sxs-lookup"><span data-stu-id="3639a-117">Issues are reported on the <strong>Active issues</strong> tab in LCS.</span></span> <span data-ttu-id="3639a-118">In questa posizione, gli amministratori possono determinare se devono fornire supporto interno o inviare i problemi a Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3639a-118">There, admins can determine whether they should provide in-house support or submit the issues to Microsoft.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="3639a-119">Apri un ticket di supporto con il team del supporto tecnico Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3639a-119">Open a support ticket with the Microsoft Support team.</span></span></td>
+<td><span data-ttu-id="3639a-120">In <a href="https://lcs.dynamics.com/">LCS</a>, il riquadro <strong>Supporto</strong> apre uno strumento che consente di gestire gli eventi imprevisti.</span><span class="sxs-lookup"><span data-stu-id="3639a-120">In <a href="https://lcs.dynamics.com/">LCS</a>, the <strong>Support</strong> tile opens a tool that helps you manage support incidents.</span></span> <span data-ttu-id="3639a-121">Per inviare i problemi direttamente a Microsoft, seleziona al riquadro <strong>Supporto</strong> nel progetto LCS.</span><span class="sxs-lookup"><span data-stu-id="3639a-121">To submit issues directly to Microsoft, select the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="3639a-122">Puoi quindi inviare i problemi in due modi:</span><span class="sxs-lookup"><span data-stu-id="3639a-122">You can then submit issues in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="31ecf-122">Nella scheda <strong>Problema attivo</strong>, selezionare il problema e fare clic su <strong>Invia a Microsoft</strong>.</span><span class="sxs-lookup"><span data-stu-id="31ecf-122">On the <strong>Active issue</strong> tab, select your issue, and then click <strong>Submit to Microsoft</strong>.</span></span></li>
-<li><span data-ttu-id="31ecf-123">Nella scheda <strong>Inviato a Microsoft</strong>, fare clic su <strong>Invia un nuovo evento imprevisto</strong> per inviare il problema.</span><span class="sxs-lookup"><span data-stu-id="31ecf-123">On the <strong>Submitted to Microsoft</strong> tab, click <strong>Submit a new Incident</strong> to submit the issue.</span></span></li>
+<li><span data-ttu-id="3639a-123">Nella scheda <strong>Problema attivo</strong>, selezionare il problema e seleziona <strong>Invia a Microsoft</strong>.</span><span class="sxs-lookup"><span data-stu-id="3639a-123">On the <strong>Active issue</strong> tab, select your issue, and then select <strong>Submit to Microsoft</strong>.</span></span></li>
+<li><span data-ttu-id="3639a-124">Nella scheda <strong>Inviato a Microsoft</strong>, seleziona <strong>Invia un incidente</strong>, quindi segui le istruzioni sullo schermo per inviare l'incidente.</span><span class="sxs-lookup"><span data-stu-id="3639a-124">On the <strong>Submitted to Microsoft</strong> tab, select <strong>Submit an incident</strong>, and then follow the on-screen instructions to submit the incident.</span></span> <span data-ttu-id="3639a-125">Dopo aver inviato un incidente, riceverai un messaggio e-mail dal tecnico del supporto Microsoft assegnato al tuo caso.</span><span class="sxs-lookup"><span data-stu-id="3639a-125">After you submit an incident, you will receive an email message from the Microsoft Support engineer who is assigned to your case.</span></span></li>
 </ul>
-<span data-ttu-id="31ecf-124">Nota: i partner e i clienti di Microsoft Premier possono inviare ticket di supporto Premier utilizzando i passaggi precedenti.</span><span class="sxs-lookup"><span data-stu-id="31ecf-124">Note: Microsoft Premier Customers and Partners can also submit premier support tickets using the steps above.</span></span></td>
+</td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="31ecf-125">Aprire un ticket di supporto per il team di supporto.</span><span class="sxs-lookup"><span data-stu-id="31ecf-125">Open a support ticket with the support team.</span></span></td>
-<td><span data-ttu-id="31ecf-126">In caso di problemi nell'invio di un ticket a Microsoft dal riquadro <strong>Supporto</strong> di LCS, vedere <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contattare il supporto di Microsoft Business Solutions</span></a> per informazioni su come contattare i Centri operativi regionali di Microsoft Dynamics.</span><span class="sxs-lookup"><span data-stu-id="31ecf-126">If you have issues when you try to submit a ticket to Microsoft from the <strong>Support</strong> tile in LCS, see <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contact Microsoft Business Solutions Support</span></a> for information about to contact a Microsoft Dynamics Regional Operations Center.</span></span> <span data-ttu-id="31ecf-127">Il team di supporto può fornire assistenza nella risoluzione dei seguenti tipi di problemi tecnici:</span><span class="sxs-lookup"><span data-stu-id="31ecf-127">The support team can help you resolve the following types of technical issues:</span></span>
-<ul>
-<li><span data-ttu-id="31ecf-128">Errori che si verificano durante l'utilizzo o l'accesso a LCS.</span><span class="sxs-lookup"><span data-stu-id="31ecf-128">Errors that occur when you use LCS or issues that occur when you try to access LCS.</span></span></li>
-<li><span data-ttu-id="31ecf-129">Errori che si verificano quando si utilizzano le app Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="31ecf-129">Errors that occur when you use Finance and Operations apps.</span></span></li>
-</ul>
-<span data-ttu-id="31ecf-130">Per quesiti tecnici relative all'accesso a CustomerSource, e-learning, ricerca, Knowledge Base, download di file e errori di sistema, andare a <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Supporto sito Web</span></a>.</span><span class="sxs-lookup"><span data-stu-id="31ecf-130">For technical questions that are related to signing in to and accessing CustomerSource, e-learning, Search, Knowledge Base, file download, and page or system errors, go to <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Website Support</span></a>.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="31ecf-131">Ottenere informazioni sulle licenze per le app Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="31ecf-131">Get help with questions about Finance and Operations apps licensing.</span></span></td>
-<td><span data-ttu-id="31ecf-132">Contattare il partner, il Large Account Reseller o il rivenditore Microsoft di riferimento.</span><span class="sxs-lookup"><span data-stu-id="31ecf-132">Contact your partner, large account reseller (LAR), or Microsoft sales representative.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="31ecf-133">Utilizzare il dashboard di monitoraggio di eventi LCS</span><span class="sxs-lookup"><span data-stu-id="31ecf-133">Use the LCS Event monitoring dashboard.</span></span></td>
-<td><span data-ttu-id="31ecf-134">Per visualizzare lo stato corrente della piattaforma e dei servizi, accedere alla sezione <strong>Ambienti</strong> del progetto LCS.</span><span class="sxs-lookup"><span data-stu-id="31ecf-134">To see the current health status of the platform and services, go to the <strong>Environments</strong> section of your LCS project.</span></span></td>
+<tr>
+<td><span data-ttu-id="3639a-126">Richiedi nuove caratteristiche e funzionalità.</span><span class="sxs-lookup"><span data-stu-id="3639a-126">Request new features and functionality.</span></span></td>
+<td><span data-ttu-id="3639a-127">Visita le <a href="https://experience.dynamics.com/ideas/">idee dell'applicazione Dynamics 365</a> per visualizzare, cercare o votare le idee esistenti o per aggiungere nuove idee.</span><span class="sxs-lookup"><span data-stu-id="3639a-127">Visit <a href="https://experience.dynamics.com/ideas/">Dynamics 365 Application Ideas</a> to view, search, or vote for existing ideas, or to add new ideas.</span></span></td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a><span data-ttu-id="31ecf-135">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="31ecf-135">Additional resources</span></span>
-- [<span data-ttu-id="31ecf-136">Ottenere supporto per Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="31ecf-136">Get support for Dynamics 365 Retail</span></span>](../../../retail/retail-support.md)
-- [<span data-ttu-id="31ecf-137">Ottenere supporto per Microsoft Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="31ecf-137">Get support for Microsoft Dynamics 365 Human Resources</span></span>](../../../human-resources/hr-admin-troubleshooting-support.md)
-- <span data-ttu-id="31ecf-138">Per ulteriori informazioni sui piani di supporto di Microsoft Dynamics, vedere [Gestire le esperienze di supporto per le app Finance and Operations](cloud-powered-support-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="31ecf-138">For more information about Microsoft Dynamics support offerings, see [Manage the support experiences for Finance and Operations apps](cloud-powered-support-lcs.md).</span></span>
-
