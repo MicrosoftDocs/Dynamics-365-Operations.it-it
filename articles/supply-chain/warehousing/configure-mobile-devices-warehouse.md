@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383092"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837265"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -399,6 +399,9 @@ Nella seguente tabella sono descritte queste opzioni.
 <tr class="odd">
 <td>Codice modello lavoro</td>
 <td>Selezionare il modello di lavoro che crea il lavoro per un processo. Ad esempio, se si riceve un articolo per un ordine fornitore, il lavoro di stoccaggio viene generato in base al modello di lavoro. Se non si seleziona un modello di lavoro, Supply Chain Management assegna un modello, in base ai criteri di query. Per ulteriori informazioni sui modelli di lavoro, vedere <a href="control-warehouse-location-directives.md">Controllo del lavoro di magazzino con modelli di lavoro e direttive di ubicazione</a>.</td>
+<tr class="even">
+<td>Mostra elenco righe di lavoro</td>
+<td>Seleziona un'opzione per il modo in cui i lavoratori potranno visualizzare e interagire con le righe per il lavoro di prelievo attualmente selezionato. Per altre informazioni su questa opzione, vedi <a href="pick-line-overview.md">Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo</a>.</td>
 </tr>
 </tbody>
 </table>

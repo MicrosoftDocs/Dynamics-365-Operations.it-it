@@ -3,7 +3,7 @@ title: Modulo Lettore video
 description: In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411161"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817063"
 ---
 # <a name="video-player-module"></a>Modulo Lettore video
 
@@ -97,12 +97,12 @@ Per aggiungere un modulo Lettore video a una nuova pagina e impostare le proprie
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Banner promozionale](add-alert.md)
+[Modulo banner promozionale](add-alert.md)
 
-[Modulo Sequenza](add-carousel.md)
+[Modulo sequenza](add-carousel.md)
 
-[Modulo Blocco di testo](add-content-rich-block.md)
+[Modulo blocco testo](add-content-rich-block.md)
 
 [Modulo Blocco di contenuto](add-hero-module.md)

@@ -3,7 +3,7 @@ title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761299"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817087"
 ---
 # <a name="buy-box-module"></a>Modulo Casella acquisti
 
@@ -75,9 +75,12 @@ Le seguenti impostazioni relative al modulo Casella acquisti possono essere conf
 - **Scorte** - Per informazioni su come applicare le impostazioni relative alle scorte, vedere [Applicare le impostazioni relative alle scorte](inventory-settings.md).
 - **Aggiungi al carrello** - Questa proprietà viene utilizzata per specificare il comportamento dopo l'aggiunta di un articolo al carrello. I valori possibili sono **Vai al carrello**, **Non andare al carrello** e **Mostra notifiche**. Quando il valore è impostato su **Vai al carrello**, gli utenti accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Non andare al carrello**, gli utenti non accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Mostra notifiche**, agli utenti viene mostrata una notifica di conferma e possono continuare a navigare nella pagina dettagli prodotto. 
 
-    L'immagine seguente mostra un esempio di notifica di conferma "aggiunto al carrello" sul sito di Fabrikam.
+> [!IMPORTANT]
+> Le impostazioni del sito **Aggiungi a carrello** sono disponibili in Dynamics 365 Commerce versione 10.0.11. Se stai aggiornando da una versione precedente di Dynamics 365 Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni sull'aggiornamento del file appsettings.json, vedi [Aggiornamenti dell'SDK e della libreria dei moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Esempio di modulo Notifica](./media/ecommerce-addtocart-notifications.PNG)
+L'immagine seguente mostra un esempio di notifica di conferma "aggiunto al carrello" sul sito di Fabrikam.
+
+![Esempio di modulo Notifica](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 
@@ -111,7 +114,7 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Memorizzare il modulo di selezione](store-selector.md)
 
@@ -129,6 +132,8 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 [Modulo piè di pagina](author-footer-module.md)
 
-[Modulo Condivisione social](social-share-module.md)
+[Modulo di condivisione social](social-share-module.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
+
+[SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)

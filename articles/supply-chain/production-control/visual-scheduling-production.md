@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210159"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887242"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramma di Gantt per la programmazione dei processi
 
@@ -38,7 +38,7 @@ Un diagramma di Gantt è la rappresentazione grafica delle attività previste in
 -   Processi derivati da ordini di produzione pianificati.
 -   Attività di progetto programmate come processi del tipo Previsioni ore.
 
-Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visualizzazione ordini** e **Visualizzazione risorse**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). In **Visualizzazione ordini**, le attività vengono raggruppate negli ordini di produzione. Ciò può essere utile, ad esempio, se si desidera mantenere una panoramica di tutti i processi appartenenti agli stessi ordini. In **Visualizzazione risorse** tutti i processi vengono raggruppati in singole risorse. Questa visualizzazione risulta utile quando si ottimizza il piano a livello di risorsa, ad esempio, di computer o di gruppo di computer. I diagrammi di Gantt visualizzati nelle illustrazioni che seguono mostrano **Visualizzazione ordini** e **Visualizzazione risorse** con questi elementi principali:
+Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visualizzazione ordini** e **Visualizzazione risorse**. In **Visualizzazione ordini**, le attività vengono raggruppate negli ordini di produzione. Ciò può essere utile, ad esempio, se si desidera mantenere una panoramica di tutti i processi appartenenti agli stessi ordini. In **Visualizzazione risorse** tutti i processi vengono raggruppati in singole risorse. Questa visualizzazione risulta utile quando si ottimizza il piano a livello di risorsa, ad esempio, di computer o di gruppo di computer. I diagrammi di Gantt visualizzati nelle illustrazioni che seguono mostrano **Visualizzazione ordini** e **Visualizzazione risorse** con questi elementi principali:
 
 1.  Attività del diagramma di Gantt
 2.  Icona Carenza di materiale

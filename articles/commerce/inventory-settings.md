@@ -3,7 +3,7 @@ title: Applicare impostazioni relative alle scorte
 description: In questo argomento vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621223"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817611"
 ---
 # <a name="apply-inventory-settings"></a>Applicare impostazioni relative alle scorte
 
@@ -38,6 +38,9 @@ Le impostazioni relative alle scorte specificano se le scorte devono essere veri
 Dynamics 365 Commerce fornisce stime della disponibilità dei prodotti. Per informazioni su come viene calcolata la disponibilità stimata, vedere [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md).
 
 In Creazione di siti Web di Commerce, è possibile definire soglie e intervalli di scorte per un prodotto o una categoria. Queste determinano se le scorte possono essere classificate come in stock, ridotte o esaurite. Per dettagli, vedere [Configurare buffer e livelli di scorte](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Il supporto per le soglie e gli intervalli di inventario è disponibile in Dynamics 365 Commerce versione 10.0.12.
 
 ## <a name="inventory-settings"></a>Impostazioni relative alle scorte
 
@@ -55,6 +58,9 @@ In Commerce, è possibile definire le impostazioni relative alle scorte selezion
     - Quando è selezionato **Esaurito**, verrà visualizzato solo il messaggio "Esaurito".
 
 - **Soglia esaurito** - Questa vecchia impostazione numerica avrà effetto solo se il valore **Soglia esaurito** è selezionato per l'impostazione **Livello di scorte basato su**.
+
+> [!IMPORTANT] 
+> Queste impostazioni sono disponibili in Dynamics 365 Commerce versione 10.0.12. Se stai aggiornando da una versione precedente di Dynamics 365 Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni sull'aggiornamento del file appsettings.json, vedi [Aggiornamenti dell'SDK e della libreria dei moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Moduli che utilizzano le impostazioni relative alle scorte
 
@@ -74,9 +80,9 @@ L'immagine seguente mostra un esempio di carrello che mostra un messaggio In sto
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Configurare buffer e livelli di scorte](inventory-buffers-levels.md)
+[Configurare buffer scorte e livelli scorte](inventory-buffers-levels.md)
 
 [Modulo Carrello](add-cart-module.md)
 
@@ -84,4 +90,6 @@ L'immagine seguente mostra un esempio di carrello che mostra un messaggio In sto
 
 [Moduli e pagine gestione conti](account-management.md)
 
-[Modulo Selettore punto vendita](store-selector.md)
+[Memorizzare il modulo di selezione](store-selector.md)
+
+[SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)

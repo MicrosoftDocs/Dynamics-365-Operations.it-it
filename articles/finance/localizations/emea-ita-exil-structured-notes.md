@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: MCROrderNotes
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9c52bb2ee553f0b15f1f41e68eeae7a4aea65205
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 5a7bd58f66c4ff8df59ca6027861d235c36c2ace
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428933"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830321"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 

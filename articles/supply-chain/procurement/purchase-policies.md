@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207904"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830751"
 ---
 # <a name="purchasing-policies-overview"></a>Panoramica dei criteri di acquisto
 
@@ -102,9 +102,9 @@ La regola RdO richiesta di acquisto definisce i criteri per la richiesta di una 
 
 ### <a name="purchase-requisition-control-rule"></a>Regola di controllo richiesta di acquisto
 
-La regola di controllo richiesta di acquisto è una regola facoltativa. Quando si creano regole di questo tipo, è possibile impostare delle opzioni nelle varie schede:
+La regola di controllo della richiesta di acquisto per le richieste di tipo **consumo** è una regola facoltativa. Quando si creano regole di questo tipo, è possibile impostare delle opzioni nelle varie schede:
 
--   Nella scheda **Invio flusso di lavoro**, è possibile configurare i campi che devono essere immessi nella riga di richiesta affinché la richiesta venga inviata per l'approvazione quando lo scopo richiesta è **Consumo**.
+-   Nella scheda **Invio flusso di lavoro**, è possibile configurare i campi che devono essere immessi nella riga di richiesta affinché la richiesta venga inviata per l'approvazione.
 -   Nella scheda **Quantità ordine** è possibile configurare i campi che sono obbligatori nella richiesta di acquisto in determinate situazioni. È inoltre possibile imporre le quantità ordine.
 -   Nella scheda **Date** è possibile configurare se la data di registrazione è uguale alla data richiesta.
 -   Nella scheda **Indirizzo** è possibile definire se all'utente è permesso creare nuovi indirizzi nel sistema da applicare alla richiesta di acquisto.

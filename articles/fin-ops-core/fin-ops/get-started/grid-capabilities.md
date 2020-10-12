@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760401"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835088"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
@@ -33,6 +33,7 @@ Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che 
 -  Digitare prima del sistema
 -  Valutare espressioni matematiche 
 -  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **(Anteprima) Raggruppamento in griglie**)
+-  Colonne di sistema aggiunte
 
 ## <a name="calculating-totals"></a>Calcolo totali in corso
 Nelle app Finance and Operations, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
@@ -119,12 +120,19 @@ Come è possibile selezionare (o deselezionare) tutte le righe nella griglia sel
 ### <a name="hiding-column-names"></a>Nascondere i nomi delle colonne
 Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. A partire dalla versione 10.0.14/aggiornamento della piattaforma 38, è possibile scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
 
+## <a name="pinned-system-columns"></a>Colonne di sistema aggiunte
+La colonna di selezione della riga e la colonna dello stato della riga nella nuova griglia sono aggiunte o bloccate nella parte più a sinistra della griglia. Pertanto, quando queste colonne sono incluse in una griglia, saranno sempre visibili all'utente, indipendentemente dalla posizione di scorrimento orizzontale nella griglia.   
+
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 
 
-**10.0.9/Platform update 33 e successivi** La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Platform update 33 e successive**
 
-**10.0.8/Platform update 32 e 10.0.7/Platform update 31** La funzionalità **Nuovo controllo griglia** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
+La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Platform update 32 e 10.0.7 / Platform update 31**
+
+La funzionalità **Nuovo controllo griglia** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
 
 1.  **Abilitare l'anteprima**: Eseguire la seguente istruzione SQL: 
 
@@ -139,11 +147,14 @@ Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome d
 Tutte le sessioni utente successive verranno avviate con il nuovo controllo griglia abilitato.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
-Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
+Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API a partire dalla versione 10.0.13/Platform update 37 per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
 
  ```this.forceLegacyGrid();```
 
-Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Si prega di segnalare a Microsoft eventuali problemi che richiedono l'utilizzo di questa API. 
+Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Se qualsiasi problema richiede l'utilizzo di questa API, segnalalo a Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Sviluppatore] Colonne dalla dimensione alla larghezza disponibile
+Se uno sviluppatore imposta la proprietà **WidthMode** su **SizeToAvailable** per le colonne all'interno della nuova griglia, tali colonne hanno inizialmente la stessa larghezza che avrebbero se la proprietà fosse impostata su **SizeToContent**. Tuttavia, si allungano per utilizzare qualsiasi larghezza extra disponibile all'interno della griglia. Se la proprietà è impostata su **SizeToAvailable** per più colonne, tutte queste colonne condividono qualsiasi larghezza extra disponibile all'interno della griglia. Tuttavia, se un utente ridimensiona manualmente una di queste colonne, la colonna diventa statica. Rimarrà a quella larghezza e non si allungherà più per occupare la larghezza della griglia disponibile in più.  
 
 ## <a name="known-issues"></a>Problemi noti
 Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della griglia mentre la funzionalità si trova in uno stato di anteprima.  

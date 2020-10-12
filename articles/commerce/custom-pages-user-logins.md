@@ -3,7 +3,7 @@ title: Impostare pagine personalizzate per l'accesso degli utenti
 description: In questo argomento viene descritto come creare pagine personalizzate in Microsoft Dynamics 365 Commerce che consentono di gestire accessi personalizzati per gli utenti di tenant business-to-consumer (B2C) di Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533461"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817308"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -181,13 +181,13 @@ Per aggiornare il criterio "Reimposta password" con informazioni sulle pagine pe
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizzazione stringhe di testo predefinite per etichette e descrizioni
 
-Nello starter kit, i moduli Accesso sono precompilati con stringhe di testo predefinite per etichette e descrizioni. È possibile personalizzare queste stringhe nel kit SDK aggiornando i valori nel file global.json per il modulo Accesso.
+Nella libreria di moduli, i moduli Accesso sono precompilati con stringhe di testo predefinite per etichette e descrizioni. È possibile personalizzare queste stringhe nel kit SDK aggiornando i valori nel file global.json per il modulo Accesso.
 
 Ad esempio, il testo predefinito per il collegamento per la password dimenticata è **Password dimenticata?**. Quanto seguente mostra questo testo predefinito nella pagina di accesso.
 
 ![Testo predefinito per il collegamento per la password dimenticata nella pagina di accesso](./media/B2C_SignUp_ModuleFace.png)
 
-Tuttavia, nel file global.json per il modulo Accesso dello starter kit, è possibile modificare il testo in **Hai dimenticato la password?**, come illustrato nella figura seguente.
+Tuttavia, nel file global.json per il modulo Accesso della libreria di moduli, è possibile modificare il testo in **Hai dimenticato la password?**, come illustrato nella figura seguente.
 
 ![Testo del collegamento aggiornato nel file global.json del modulo Accesso](./media/B2C_CustomizingStringsForModule.png)
 

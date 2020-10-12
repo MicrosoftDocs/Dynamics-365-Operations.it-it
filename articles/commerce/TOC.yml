@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (agosto 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (luglio 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Finance and Operations
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Incorporare Microsoft Power Apps
+                - name: Incorporare app canvas da Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: Sostituire gli ID utente associati alle modifiche al contenuto monitorato
                   href: replace-IDs-tracked-changes.md
-            - name: Starter kit
+            - name: Libreria moduli
               items:
-                - name: Panoramica starter kit
+                - name: Panoramica della libreria moduli
                   href: starter-kit-overview.md
                 - name: Moduli contenitore
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: Creare nuovo modulo
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Clonare un modulo di starter kit
+                    - name: Clonare un modulo della libreria moduli
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Aggiungere i campi di configurazione del modulo
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: Creare un pacchetto di configurazioni e distribuirle in un ambiente online
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Aggiornamenti SDK e starter kit del punto vendita
+                    - name: SDK e aggiornamenti della libreria moduli
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: Visualizzazione di eventi e gestori nel carrello POS
                   href: dev-itpro/cart-view-handlers.md
+                - name: Aggiungere pulsanti personalizzati alla barra di intestazione del POS
+                  href: dev-itpro/pos-header-bar.md
             - name: Estendibilità dell'Hardware Station
               items:
                 - name: Hardware Station ed estendibilità

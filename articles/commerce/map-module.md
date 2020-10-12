@@ -3,7 +3,7 @@ title: Modulo mappa
 description: In questo argomento vengono descritti i moduli mappa e la procedura per configurarli in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811186"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817208"
 ---
 # <a name="map-module"></a>Modulo mappa
 
@@ -38,7 +38,8 @@ Un modulo mappa mostra le posizioni dei punti vendita su una mappa interattiva i
 
 Un modulo mappa interagisce con il modulo selettore punto vendita per determinare le posizioni geografiche dei punti vendita che devono essere visualizzati su una mappa. I moduli mappa e selettore punto vendita interagiscono quando un utente seleziona un punto vendita in uno di questi moduli in una pagina del sito. I moduli mappa possono essere estesi per altri scenari, oltre all'interazione con i moduli selettore punto vendita. Tuttavia, è richiesta la personalizzazione del modulo.
 
-Il modulo mappa è stato introdotto in Commerce versione 10.0.13.
+> [!NOTE]
+> Il modulo di mapping è disponibile in Dynamics 365 Commerce versione 10.0.13.
 
 L'immagine seguente mostra un esempio di modulo mappa utilizzato in una pagina delle posizioni dei punti vendita.
 
@@ -70,7 +71,7 @@ Per informazioni dettagliate su come configurare un modulo mappa in una pagina, 
  
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Modulo casella acquisti](add-buy-box.md)
 

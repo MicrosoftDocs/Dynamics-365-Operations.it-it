@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203455"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834262"
 ---
 # <a name="vendor-rebates"></a>Sconti fornitore
+
 [!include [banner](../includes/banner.md)]
 
 Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
@@ -50,6 +51,7 @@ Le persone che svolgono queste mansioni sono alla ricerca di metodi per consegui
 - Disporre di una base quantificata per le negoziazioni correnti e future con i fornitori sugli sconti.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Esaminare i dettagli di un accordo sugli sconti fornitore
+
 Un accordo sugli sconti fornitore è un record di un contratto con un fornitore che specifica i termini e le condizioni negoziati in base ai quali la società ha diritto a un premio monetario in cambio del raggiungimento di obiettivi d'acquisto prestabiliti. Gli accordi sugli sconti fornitore sono registrati nella pagina **Accordi sugli sconti**.
 
 Per aprire la pagina **Accordi sconto fornitore**, selezionare **Approvvigionamento** &gt; **Sconti fornitore** &gt; **Accordi sugli sconti**.
@@ -60,7 +62,9 @@ Nella pagina **Accordi sconto fornitore**, è possibile visualizzare dettagli re
 
 L'intestazione del contratto specifica le condizioni generali secondo cui una società ha diritto agli sconti. In pratica, le informazioni nell'intestazione indicano che un fornitore concede uno sconto quando uno specifico prodotto viene acquistato in una specifica quantità. Nell'intestazione, è necessario specificare anche i campi Opzione sconto unità di misura e Tipo data di calcolo.
 
-- Nella scheda **Generale**, nel campo **Opzione sconto unità di misura**, è possibile definire se un'unità di misura deve essere una condizione per stabilire se uno sconto è applicabile alla riga dell'ordine fornitore. 
+- Nella scheda **Panoramica**, se hai righe con **Codice articolo** impostato su *tabella* per specificare l'elemento, l'accordo è per quell'elemento specifico. Se hai righe con **Codice articolo** impostato su *Gruppo* o *Tutti* per specificare gli articoli, il contratto di sconto fornitore verrà elaborato individualmente per articolo idoneo per il codice articolo, non per tutti gli articoli idonei per il codice articolo.
+
+- Nella scheda **Generale**, nel campo **Opzione sconto unità di misura**, è possibile definire se un'unità di misura deve essere una condizione per stabilire se uno sconto è applicabile alla riga dell'ordine fornitore.
 
     - **Converti**: uno sconto fornitore è applicabile a una riga dell'ordine fornitore secondo l'accordo sugli sconti. Si otterrà uno sconto indipendentemente dall'unità di misura applicata alla riga.
     - **Corrispondenza esatta**: per beneficiare di uno sconto, una riga acquisto deve avere la stessa unità di misura specificata nell'accordo.
@@ -97,6 +101,7 @@ Nelle righe del contratto, è possibile specificare l'accordo sugli sconti forni
 Quando gli ordini fornitore vengono piazzati con un fornitore con il quale la società ha un accordo sugli sconti, il programma identifica eventuali pagamenti a credito futuri del fornitore. Se gli ordini fornitore beneficiano di uno sconto, un'attestazione di sconto viene generata per ogni riga dell'ordine non appena una fattura di acquisto viene registrata. Questo processo è automatico. Successivamente, è possibile esaminare gli sconti previsti e verificare l'impatto degli stessi sul costo e il margine di profitto del prodotto.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Visualizzare i dettagli degli sconti applicati a una riga dell'ordine fornitore in base all'accordo sugli sconti fornitore
+
 1. Nella pagina **Ordine fornitore**, selezionare una riga dell'ordine e selezionare **Riga ordine fornitore** &gt; **Visualizza** &gt; **Dettagli prezzi**.
 2. Nella pagina **Dettagli prezzo**, selezionare la scheda dettaglio **Sconti**.
 
@@ -106,15 +111,18 @@ Le informazioni sugli sconti sono visualizzate anche nel campo **Sconto fornitor
 > Nella pagina **Parametri di approvvigionamento**, nella scheda **Prezzi**, verificare che l'opzione **Attivare dettagli prezzo** è impostata su **Sì**. Se è impostata su **No**, non sarà possibile visualizzare gli sconti.
 
 ## <a name="review-and-approve-claims"></a>Esaminare ed approvare le attestazioni
+
 Le attastazioni di sconto generate rappresentano i pagamenti futuri previsti da parte del fornitore. Prima di emettere una nota di accredito al fornitore, il titolare dell'accordo in genere desidera esaminare le attestazioni e approvarle. È tuttavia necessario notare che lo stato di un'attestazione determina se la stessa può essere sottoposta al processo di approvazione.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Stato delle attestazioni ed effetto sul processo di approvazione
+
 Quando un'attestazione viene generata, il relativo stato è impostato su **Da calcolare** se lo sconto viene concesso su base cumulativa o **Calcolato** se lo sconto viene concesso per fattura. Se lo stato di un'attestazione è **Da calcolare**, l'attestazione deve essere sottoposta a un processo di calcolo che viene gestito mediante la funzione Cumula. Solo le attestazioni con stato **Calcolato** possono essere incluse nel processo di approvazione.
 
 > [!NOTE]
 > Se l'opzione **Approvazione richiesta** in un accordo sugli sconti fornitore è impostata su **No**, tutte le attestazioni generate avranno lo stato **Approvato**. L'approvazione è obbligatoria per le attestazioni concesse su base cumulativa.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Approvare le attestazioni e visualizzare registrazioni e dettagli delle fatture
+
 Le assegnazioni approvate possono essere elaborate dalla contabilità fornitori. Un nota di credito (fattura fornitore) per l'importo dell'attestazione di sconto viene generata automaticamente. Il credito può quindi essere aggiunto al saldo fornitore e il team di contabilità fornitori può includerlo nel normale processo di liquidazione.
 
 1. Selezionare &gt; **Approvvigionamento** **Sconti fornitore** &gt; **Attestazioni sconto** per aprire un'attestazione di sconto.
@@ -153,6 +161,7 @@ Le assegnazioni approvate possono essere elaborate dalla contabilità fornitori.
 9. Nella pagina **Tutti i fornitori**, selezionare il fornitore da cui si riceve uno sconto, quindi nel riquadro azioni selezionare **Transazioni**. Trovare la riga per la fattura. L'importo dello sconto viene ora aggiunto al saldo fornitore.
 
 ## <a name="summary"></a>Riepilogo
+
 Il processo di gestione degli sconti fornitore include molteplici attività di tracciabilità manuali che risultano spesso noiose. Automatizzando queste attività, la funzionalità di gestione degli sconti fornitore può consentire l'esecuzione dei seguenti processi:
 
 - Generazione di attestazioni di sconto accurate

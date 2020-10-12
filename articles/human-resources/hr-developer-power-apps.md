@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: b28480ff584870e931fdc288a2652a5649268576
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793613"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893079"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Estendere con Power Apps e Power Automate
 
@@ -37,13 +37,13 @@ In questo articolo vengono descritti alcuni esempi di scenari di estendibilità 
 - Per importare pacchetti, gli utenti devono disporre dell'autorizzazione **Creazione ambiente**.
 - Per esportare o importare app, gli utenti devono disporre di una licenza di Power Apps Piano 2 o una licenza di valutazione di Power Apps Piano 2.
 
-## <a name="integration-with-office-365-power-automate"></a>Integrazione con Office 365, Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>Integrazione con Microsoft 365, Power Automate
 
-L'app **Integration with Office 365** può essere utilizzata per estrarre informazioni sui team per gli utenti registrati da Microsoft Office 365. Fa riferimento ai lavoratori in Human Resources per estrarre i tipi di identificazione dei dipendenti. I manager possono controllare le date di scadenza dei tipi di ID dipendente. Possono anche inviare un promemoria via e-mail se il tipo di ID dipendente è in scadenza. Power Automate si integra con Power Apps per inviare questo promemoria. La conferma verrà rispedita a Power Apps da Power Automate quando viene inviato il promemoria. I tipi di identificazione includono la patente di guida, il passaporto e altre forme di identità accettabili.
+L'app **Integrazione con Microsoft 365** può essere utilizzata per estrarre informazioni sui team per gli utenti registrati da Microsoft 365. Fa riferimento ai lavoratori in Human Resources per estrarre i tipi di identificazione dei dipendenti. I manager possono controllare le date di scadenza dei tipi di ID dipendente. Possono anche inviare un promemoria via e-mail se il tipo di ID dipendente è in scadenza. Power Automate si integra con Power Apps per inviare questo promemoria. La conferma verrà rispedita a Power Apps da Power Automate quando viene inviato il promemoria. I tipi di identificazione includono la patente di guida, il passaporto e altre forme di identità accettabili.
 
 È possibile estendere questa app per altri scenari. Ad esempio, è possibile utilizzarla per visualizzare informazioni sulle ferie del team, eventi di calendario e qualsiasi evento specifico del team.
 
-Per scaricare l'app **Integrazione con Office 365, Power Automate**, andare a [Integrazione con Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) nell'Area download Microsoft.
+Per scaricare l'app **Integrazione con Microsoft 365, Power Automate**, passa a [Integrazione con Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) nell'Area download Microsoft.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – Connessione a SQL ed esecuzione
 

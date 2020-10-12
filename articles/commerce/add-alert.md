@@ -3,7 +3,7 @@ title: Modulo Banner promozionale
 description: In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411367"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817256"
 ---
 # <a name="promo-banner-module"></a>Modulo Banner promozionale
 
@@ -87,12 +87,12 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Sequenza](add-carousel.md)
+[Modulo sequenza](add-carousel.md)
 
-[Modulo Blocco di testo](add-content-rich-block.md)
+[Modulo blocco testo](add-content-rich-block.md)
 
-[modulo blocco di contenuto](add-hero-module.md)
+[Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)

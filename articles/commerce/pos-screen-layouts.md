@@ -3,7 +3,7 @@ title: Configurazioni visive dell'interfaccia utente POS
 description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505636"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834211"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
@@ -62,6 +62,8 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 > [!NOTE]
 > Il layout di **Destra** e la visualizzazione data/ora non si applicano alla schermata di accesso in visualizzazione compatta.
 
+Devi eseguire il processo di pianificazione distribuzione **1090** (**Registri**) per sincronizzare le ultime configurazioni del profilo visivo con il database del canale.
+
 ## <a name="screen-layouts"></a>Layout schermo
 
 Le configurazioni del layout dello schermo determinano le azioni, il contenuto e il posizionamento dei controlli dell'interfaccia utente sulla schermata POS **Benvenuti** e **Transazione** .
@@ -81,6 +83,8 @@ Le configurazioni del layout dello schermo determinano le azioni, il contenuto e
 ### <a name="assignment"></a>Assegnazione
 
 I layout dello schermo possono essere assegnati a livello di punto vendita, registratore di cassa o utente. L'assegnazione dell'utente ha la priorità sulle assegnazioni dei punti vendita e del registratore di cassa e l'assegnazione del registratore ha la priorità sull'assegnazione del punto vendita. In uno scenario semplice in cui tutti gli utenti utilizzano lo stesso layout indipendentemente dal registratore o dal ruolo, il layout dello schermo può essere impostato solo al livello di punto vendita. Negli scenari in cui specifici registratori di cassa o utenti specifici richiedono i layout specializzati, questi possono essere assegnati.
+
+A seconda del livello assegnato ai layout dello schermo, è necessario eseguire i processi di pianificazione distribuzione **1070** (**Configurazione del canale**), **1090** (**Registri**) e/o **1060** (**Personale**) per sincronizzare le ultime configurazioni del layout dello schermo con il database del canale.
 
 ### <a name="layout-sizes"></a>Dimensioni layout
 

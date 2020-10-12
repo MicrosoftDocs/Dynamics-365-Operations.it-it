@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d210e234e9004422913ac76bf4c9b720806cbece
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 00af26a9f41a6908fd0010ec9eac37e41ad9c2b6
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175988"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888110"
 ---
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
@@ -102,7 +102,7 @@ Passare alla [roadmap di Microsoft Dynamics 365](https://go.microsoft.com/fwlink
 
 Per opinioni, notizie e altre informazioni sulla contabilità clienti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
+Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 
 #### <a name="task-guides"></a>Guide attività
 Informazioni aggiuntive sono disponibili come guide attività nell'applicazione. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.

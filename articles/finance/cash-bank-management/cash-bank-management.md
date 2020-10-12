@@ -1,7 +1,7 @@
 ---
 title: Home page di Gestione cassa e banche
 description: È possibile utilizzare Gestione cassa e banche per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: shylaw
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026293"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899620"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Home page di Gestione cassa e banche
 
@@ -92,7 +92,7 @@ Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.co
 
 Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
+Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 
 #### <a name="task-guides"></a>Guide attività
 Informazioni aggiuntive sono disponibili come guide attività in Finance. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.

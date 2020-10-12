@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770760"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888086"
 ---
 # <a name="fixed-assets-home-page"></a>Home page di cespiti
 
@@ -31,7 +31,7 @@ ms.locfileid: "2770760"
 
 I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature. 
 
-È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento. È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti. Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese. I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti. Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.
+È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento. È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti. Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese/area geografica. I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti. Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.
 
 [![Processo aziendale](./media/FA-process.PNG)](./media/FA-process.PNG)
 
@@ -47,7 +47,7 @@ Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.co
 
 Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di MBS Operations.
+Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 
 #### <a name="task-guides"></a>Guide attività
 Informazioni aggiuntive sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.

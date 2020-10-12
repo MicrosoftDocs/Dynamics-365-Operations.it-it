@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771847"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823457"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -103,6 +103,7 @@ Per visualizzare i risultati del consolidamento, sono disponibili più opzioni:
     ![Transazioni di consolidamento nella pagina Consolidamenti](./media/managing-consolidation-transactions.png "Transazioni di consolidamento nella pagina Consolidamenti")
 
 Per eseguire nuovamente il consolidamento, è possibile elaborare semplicemente il consolidamento. In alternativa, è possibile prima selezionare **Rimuovi transazioni** nella pagina **Consolidamenti**.
+Nel caso in cui i saldi sul tuo conto consolidato non siano accurati, questi saldi possono essere corretti utilizzando la pagina **Rettifiche periodo di chiusura**.
 
 ## <a name="consolidate-with-import"></a>Consolida con importazione
 Il consolidamento con funzionalità di importazione funge dalla funzionalità di consolidamento in linea. Quando si selezionano le persone giuridiche, verrà visualizzato il percorso al fine di origine che contiene i dati.
@@ -156,6 +157,7 @@ Per ulteriori informazioni sul funzionamento della rivalutazione della valuta ne
 - I giornali di registrazione eliminazioni possono essere registrati solo al livello corrente.
 - Solo i saldi operativi vengono consolidati. Pertanto, per visualizzare i saldi iniziali, è necessario eseguire una chiusura di fine anno nella società di consolidamento.
 - È possibile registrare un giornale di registrazione giornaliero in una società di eliminazione, ma non in una società di eliminazione.
+- Le rettifiche ai saldi in una società di consolidamento possono essere effettuate solo utilizzando la pagina **Rettifiche periodo di chiusura**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Vantaggi dell'utilizzo della funzionalità di creazione di report finanziari per i consolidamenti finanziari e la conversione delle valute o per completare il consolidamento online per la creazione di report consolidati
 I clienti che utilizzano la funzionalità di creazione di report finanziari per i consolidamenti finanziari e la conversione delle valute o per completare il consolidamento online per la creazione di report consolidati usufruiranno di vari vantaggi:

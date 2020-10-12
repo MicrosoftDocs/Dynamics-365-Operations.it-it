@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621330"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835856"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -91,7 +91,7 @@ Poiché il prodotto è rappresentato come unità di stockkeeping, i concetti di 
 
 ![Modello di dati per prodotti](media/dual-write-product.png)
 
-Con la funzionalità di doppia scrittura attivata, le app Finance and Operations sono sincronizzate in altre app Dynamics 365 nello stato **Bozza**. Queste vengono aggiunte al primo listino prezzi con la stessa valuta. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. 
+Con la funzionalità di doppia scrittura attivata, i prodotti Finance and Operations sono sincronizzate in altri prodotti Dynamics 365 nello stato **Bozza**. Queste vengono aggiunte al primo listino prezzi con la stessa valuta. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. 
 
 Per impostazione predefinita, i prodotti delle app Finance and Operations sono sincronizzati con altre app Dynamics 365 nello stato di **Bozza**. Per sincronizzare il prodotto con stato **Attivo** di modo che sia possibile utilizzarlo direttamente, ad esempio, nelle offerte di ordine cliente, è necessario selezionare **Creare prodotti in stato attivo = Sì** in **Sistema > Amministrazione > Amministrazione sistema > Impostazioni di sistema > Vendite**. 
 

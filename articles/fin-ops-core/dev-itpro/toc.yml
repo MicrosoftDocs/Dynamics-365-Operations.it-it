@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Limitazione basata su priorità
               hreF: data-entities/priority-based-throttling.md
+            - name: Domande frequenti sulla limitazione basata su priorità
+              href: data-entities/throttling-faq.md
             - name: API di integrazione dati
               items:
                 - name: API REST di pacchetti di gestione dei dati
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Migrazione del tipo di dati valuta per la doppia scrittura
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Configurare il mapping per i campi dello stato dell'ordine cliente
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Gestione della doppia scrittura
                           items:
                             - name: Personalizzazione di mapping di entità e campo
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Agente locale
                   items:
-                    - name: Compatibilità AD FS Office 365
+                    - name: Compatibilità AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: Script agente locale pre-distribuzione e post-distribuzione
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,10 +631,8 @@
                 - name: Esercitazione con gli strumenti di sviluppo
                   href: dev-tools/introduction-visual-studio.md
                 - name: Verifica applicazione
-                  items:
-                    - name: Installare BaseX per la verifica dell'applicazione
-                      href: dev-tools/install-basex.md
-                - name: Application Explorer
+                  href: dev-tools/application-checker.md
+                - name: Esplora applicazioni
                   href: dev-tools/application-explorer.md
                 - name: Sviluppare ed eseguire il debug di progetti
                   href: dev-tools/build-debug-project.md
@@ -1360,14 +1362,32 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
                     - name: Tipo PartMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-                    - name: Tipo Row
+                    - name: Tipo di riga
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-                    - name: Tipo Value
+                    - name: Tipo di valore
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
                     - name: Tipo ValueDesign
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: Tipo ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Framework di automazione dei processi
+          items:
+            - name: Sviluppo del framework di automazione dei processi
+              href: process-automation/process-automation-framework.md
+            - name: Registrazione tipo
+              href: process-automation/type-registration.md
+            - name: Registrazione serie
+              href: process-automation/series-registration.md
+            - name: Parametri processo
+              href: process-automation/process-parameters.md
+            - name: Query configurabili dall'utente
+              href: process-automation/user-queries.md
+            - name: Eseguire il processo
+              href: process-automation/run-process.md
+            - name: Registrare risultati e messaggi
+              href: process-automation/log-results.md
+            - name: Personalizzare l'interfaccia utente
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Panoramica Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: Sviluppare e rilasciare
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Eseguire un'installazione di appoggio e pubblicare
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Aggiungere metodologie
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Impostare le librerie di Modellatore di processi aziendali

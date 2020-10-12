@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 1eb5e4ea8d086baeee686ccb3d044b3ef9d2a4fa
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775149"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818574"
 ---
 # <a name="dual-write-overview"></a>Panoramica della doppia scrittura
 
@@ -86,7 +86,7 @@ La doppia scrittura crea una mappatura tra i concetti nelle app Finance and Oper
 La doppia scrittura fornisce l'integrazione dei dati tra le applicazioni Microsoft Dynamics 365. Questa solido framework collega gli ambienti e consente a diverse applicazioni aziendali di lavorare insieme. Ecco i motivi principali per cui usare la doppia scrittura:
 
 + La doppia scrittura fornisce un'integrazione strettamente collegata, quasi in tempo reale e bidirezionale tra le app Finance and Operations e le app basate su modello in Dynamics 365. Questa integrazione rende Microsoft Dynamics 365 il punto principale per tutte le soluzioni aziendali. I clienti che usano Dynamics 365 Finance e Dynamics 365 Supply Chain Management, ma che utilizzano soluzioni non Microsoft per la gestione delle relazioni con i clienti (CRM), si stanno muovendo verso Dynamics 365 per il supporto della doppia scrittura.
-+ I dati provenienti da clienti, prodotti, operazioni, progetti e Internet of Things (IoT) passano automaticamente a Common Data Service attraverso la doppia scrittura. Questa connessione è utile per le aziende interessate alle espansioni Microsoft Power Platform.
++ I dati provenienti da clienti, prodotti, operazioni, progetti e Internet of Things (IoT) passano automaticamente a Common Data Service attraverso la doppia scrittura. Questa connessione è utile per le aziende interessate alle espansioni Power Platform.
 + L'infrastruttura a doppia scrittura segue il principio senza codice/poco codice. È necessario un minimo sforzo di progettazione per estendere le mappe da tabella a tabella standard e per includere mappe personalizzate.
 + La doppia scrittura supporta sia la modalità online che la modalità offline. Microsoft è l'unica azienda che offre supporto per le modalità online e offline.
 

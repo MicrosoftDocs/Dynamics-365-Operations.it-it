@@ -3,7 +3,7 @@ title: Panoramica sulla creazione di report finanziari
 description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696690"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835112"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -148,9 +148,7 @@ Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona**, immettere "\*\.dynamics.com" (senza virgolette) quindi selezionare **Aggiungi**. 
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
-* Le workstation sono necessarie per l'installazione di Visual Studio .NET 4.6.2 o versione successiva.
-
-È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.6.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
 * Se si utilizza il browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. Se non si è grado di accedere con Chrome, provare a seguire la procedura di installazione descritta in Problema 1 utilizzando Internet Explorer o Edge. 
 
 Problema 2: all'utente non sono state assegnate le autorizzazioni necessarie per utilizzare Financial Reporting. 

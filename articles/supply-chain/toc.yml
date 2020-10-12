@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Creare e utilizzare campi personalizzati
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Incorporare Microsoft Power Apps
+                - name: Incorporare app canvas da Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Flusso di lavoro di approvvigionamento
               href: procurement/procurement-sourcing-workflows.md
+            - name: Risolvere problemi relativi ai flussi di lavoro di Approvvigionamento
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Cataloghi di approvvigionamento
               items:
                 - name: Panoramica cataloghi di approvvigionamento
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Registrare l'entrata di merci sull'ordine fornitore
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Risolvere i problemi relativi agli ordini fornitore
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Creazione ordine fornitore
               items:
                 - name: Creare manualmente ordini fornitore
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Sconti fornitore
                   href: procurement/vendor-rebates.md
+                - name: 'Risolvere i problemi relativi a prezzi, sconti, accordi e ribassi'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Criteri di acquisto
               items:
                 - name: Panoramica criteri di acquisto
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Panoramica delle fatture fornitore
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Risolvere problemi relativi a entrate prodotti e fatturazione
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Gestione e collaborazione fornitore
               items:
                 - name: Impostare e gestire la collaborazione fornitore
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Importare cataloghi fornitore
                   href: procurement/vendor-catalogs-import.md
-                - name: Impostare un catalogo esterno per PunchOut eProcurement
+                - name: Impostare un catalogo esterno per eProcurement PunchOut
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: Usare cataloghi esterni per PunchOut eProcurement
+                - name: Miglioramenti cXML per gli acquisti
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: Usare cataloghi esterni per eProcurement PunchOut
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Area di lavoro mobile di collaborazione fornitore
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Confermare ordini cliente
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Risolvere problemi relativi agli ordini cliente
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Contratti di vendita
               items:
                 - name: Panoramica contratti di vendita
@@ -2279,10 +2291,12 @@
               items:
                 - name: Simulazione prezzo
                   href: sales-marketing/price-simulation.md
-                - name: Creazione di massa di offerte di vendita
+                - name: Creazione di massa offerte di vendita
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Creare e modificare offerte di vendita
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Risolvere problemi relativi alle offerte di vendita
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Resi
               items:
                 - name: Resi su vendite
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Installare e connettere l'app di magazzino
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app di magazzino
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Configurare i nomi dei campi nell'app di magazzino
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Impostare i dispositivi mobili per il lavoro di magazzino
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app di magazzino
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Ricezione della targa con l'app di magazzino
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
+                      href: warehousing/pick-line-overview.md
                     - name: Creare un menu di articoli per dispositivi mobili per il consolidamento delle targhe
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Targa mista in ricezione su un dispositivo mobile

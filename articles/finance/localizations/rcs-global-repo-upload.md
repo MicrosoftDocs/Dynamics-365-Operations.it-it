@@ -3,7 +3,7 @@ title: Creare configurazioni ER in RCS e caricarle nel repository globale
 description: Questo argomento spiega come creare una configurazione di report elettronico (ER) in Microsoft Regulatory Configuration Services (RCS) e caricarla nel repository globale.
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371253"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834235"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Creare configurazioni ER in Regulatory Configuration Services (RCS) e caricarle nel repository globale
 
@@ -54,7 +54,7 @@ Se è già stato eseguito il provisioning di un ambiente RCS per la tua azienda,
 5. Immetti un nome e una descrizione, quindi seleziona **Crea configurazione** per creare una nuova versione derivata.
 6. Seleziona la configurazione appena derivata, aggiungi una descrizione della versione, quindi seleziona **OK**. Lo stato della configurazione viene modificato in **Completato**.
 
-![Nuova versione di configurazione in RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![Nuova versione di configurazione in RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Quando lo stato della configurazione viene modificato, è possibile che venga visualizzato un messaggio di errore di convalida correlato alle applicazioni connesse. Per disattivare la convalida, nel riquadro azioni della scheda **Configurazioni**, seleziona **Parametri utente**, quindi imposta l'opzione **Ignora convalida alla riassegnazione e alla modifica dello stato della configurazione** su **Sì** 
@@ -66,7 +66,7 @@ Per condividere una configurazione nuova o derivata con la tua organizzazione, p
 1. Seleziona la versione completa della configurazione, quindi **Carica nel repository**.
 2. Seleziona l'opzione **Globale (Microsoft)**, quindi **Carica**.
 
-    ![Carica nelle opzioni del repository](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Carica nelle opzioni del repository](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Nella finestra del messaggio di conferma, seleziona **Sì**. 
 4. Aggiorna la descrizione della versione come richiesto, quindi seleziona **OK**. 
@@ -74,6 +74,27 @@ Per condividere una configurazione nuova o derivata con la tua organizzazione, p
 Lo stato della configurazione viene aggiornato su **Condividi**e la configurazione viene caricata nel repository globale. Da qui, puoi utilizzarla nei seguenti modi:
 
 - Importala nell'istanza di Dynamics 365. Per ulteriori informazioni, vedi [(ER) Importare le configurazioni da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
-- Condividila con una terza parte o un'organizzazione esterna, vedi [Configurazioni RCS per la condivisione di report elettronici (ER) con organizzazioni esterne](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- Condividila con una terza parte o un'organizzazione esterna, vedi [Configurazioni RCS per la condivisione di report elettronici (ER) con organizzazioni esterne](rcs-global-repo-share-configuration.md)
 
-![Versione di configurazione Contoso Intrastat derivata nel repository globale](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Versione di configurazione Contoso Intrastat derivata nel repository globale](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>Eliminare una configurazione dal repository globale
+Completa i seguenti passaggi per eliminare una configurazione creata dalla tua organizzazione.
+
+1. Nell'area di lavoro **Creazione di report elettronici**, verifica che il tuo provider di configurazioni sia **Attivo**. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Sul tuo provider di configurazione attivo, seleziona **repository**.
+3. Seleziona il tipo di repository **Globale** e seleziona **Aperto**.
+4. Nella Scheda dettaglio **Filtro**, trova la configurazione che vuoi eliminare utilizzando la funzionalità **Filtro**.
+5. Nella Scheda dettaglio **Versione**, seleziona la versione della configurazione che desideri eliminare, quindi seleziona **Elimina**:
+
+    ![Eliminare la configurazione dal repository globale](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. Nella finestra del messaggio di conferma, seleziona **Sì**.
+
+    ![Messaggio di conferma di eliminazione della versione di configurazione](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+La versione della configurazione viene eliminata e viene visualizzato un messaggio di conferma. 
+
+> [!NOTE]
+> Le configurazioni possono essere eliminate solo dal provider di configurazioni che le ha create. Se la configurazione è stata condivisa con un'altra organizzazione, sarà necessario annullare la condivisione prima di eliminarla.
+ 

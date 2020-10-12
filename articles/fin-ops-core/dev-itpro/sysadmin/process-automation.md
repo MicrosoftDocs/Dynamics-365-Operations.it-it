@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
-ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
+ms.openlocfilehash: afbef26cb7b37bafb34f12cc20a88fb4aea9f343
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "3690048"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885253"
 ---
 # <a name="process-automation"></a>Automazione del processo
 
@@ -35,13 +35,16 @@ La pagina di amministrazione centrale per tutte le automazioni di processo si tr
 
 Tutti i processi disabilitati nella gestione delle funzionalità non verranno visualizzati quando la funzionalità è disabilitata. Inoltre, il motore di pianificazione dell'automazione dei processi non pianificherà alcuna occorrenza o processo in background per una funzione disabilitata. La riattivazione della funzione provocherà l'esecuzione immediata di eventuali ricorrenze pianificate o processi in background precedenti.
 
-## <a name="calendar-view"></a>Visualizzazione calendario 
+## <a name="calendar-view"></a>Visualizzazione calendario
+
 Uno dei principali vantaggi dell'automazione di processo è la capacità di vedere il lavoro pianificato in una semplice vista del calendario.  Questa vista ti consente di vedere il lavoro per una settimana alla volta. Vedrai questa vista sul lato destro della pagina **Automazione processo**. Verrà popolata con il lavoro pianificato per le serie selezionate. 
 
 [![Calendario di automazione del processo](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Modifiche alle occorrenze
-Ogni occorrenza può essere modificata senza influire su altre occorrenze definite dalle serie che le hanno originate. Le occorrenze di lavoro pianificato possono essere modificate dalla vista del calendario selezionando il pulsante **Visualizza/Modifica** e selezionando **Occorrenza**. Ciò consente di accedere a tutte le impostazioni originariamente mostrate nella procedura guidata di configurazione della serie e offre la possibilità di apportare una modifica una tantum per l'occorrenza selezionata. Un'occorrenza di lavoro pianificato può anche essere disattivata selezionando il pulsante **Disabilita** dalla vista del calendario. 
 
-## <a name="developer-documentation"></a>Documentazione sviluppatori 
-La documentazione per gli sviluppatori è attualmente in fase di scrittura per consentire agli sviluppatori di estendere il framework di automazione dei processi. Questa documentazione fornirà informazioni su come è possibile creare processi personalizzati che devono essere eseguiti dal server batch pianificato con la procedura guidata di automazione dei processi e visualizzati automaticamente nella vista del calendario.
+Ogni occorrenza può essere modificata senza influire su altre occorrenze definite dalle serie che le hanno originate. Le occorrenze di lavoro pianificato possono essere modificate dalla vista del calendario selezionando il pulsante **Visualizza/Modifica** e selezionando **Occorrenza**. Questa pagina consente di accedere a tutte le impostazioni originariamente mostrate nella procedura guidata di configurazione della serie e offre la possibilità di apportare una modifica una tantum per l'occorrenza selezionata. Un'occorrenza di lavoro pianificato può anche essere disattivata selezionando il pulsante **Disabilita** dalla vista del calendario.
+
+## <a name="developer-documentation"></a>Documentazione sviluppatori
+
+Il framework di automazione dei processi consente agli sviluppatori di estendere il framework di automazione dei processi. La documentazione relativa al [framework di automazione dei processi](../process-automation/process-automation-framework.md) fornisce informazioni su come è possibile creare processi personalizzati che devono essere eseguiti dal server batch pianificato con la procedura guidata di automazione dei processi e visualizzati automaticamente nella vista del calendario.

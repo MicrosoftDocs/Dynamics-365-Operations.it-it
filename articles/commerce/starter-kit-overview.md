@@ -1,9 +1,9 @@
 ---
-title: Panoramica starter kit
-description: Questo argomento fornisce una panoramica dello starter kit di Microsoft Dynamics 365 Commerce.
+title: Panoramica della libreria dei moduli
+description: Questo argomento fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025904"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817828"
 ---
-# <a name="starter-kit-overview"></a>Panoramica starter kit
-
+# <a name="module-library-overview"></a>Panoramica della libreria dei moduli
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica dello starter kit di Microsoft Dynamics 365 Commerce.
+Questo argomento fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Lo starter kit di Dynamics 365 Commerce è una raccolta di moduli che possono essere utilizzati per creare un sito Web di e-Commerce. I moduli hanno aspetti di interfaccia utente e di comportamento funzionale.
+La libreria di moduli di Dynamics 365 Commerce è una raccolta di moduli che possono essere utilizzati per creare un sito Web di e-Commerce. I moduli hanno aspetti di interfaccia utente e di comportamento funzionale.
 
-Ai moduli nello starter kit è possibile applicare dei temi per modificarne l'aspetto. I temi utilizzano Cascading Style Sheets (CSS). Un tema per un sito di e-Commerce fittizio denominato "Fabrikam" è incluso nello starter kit e può essere utilizzato come riferimento.
+Ai moduli nella libreria di moduli è possibile applicare dei temi per modificarne l'aspetto. I temi utilizzano Cascading Style Sheets (CSS). Un tema per un sito di e-Commerce fittizio denominato "Fabrikam" è incluso nella libreria di moduli e può essere utilizzato come riferimento.
 
-## <a name="starter-kit-modules"></a>Moduli dello starter kit
+## <a name="module-library-modules"></a>Moduli della libreria di moduli
 
-I seguenti tipi di moduli sono disponibili nello starter kit:
+I seguenti tipi di moduli sono disponibili nella libreria di moduli:
 
 - **Modulo contenitore** - Un modulo contenitore è un modulo semplice che funge da host per altri moduli. Controlla il layout dei moduli che contiene.
 - **Moduli Marketing** - I moduli Marketing includono moduli blocco di contenuto, blocchi di testo, lettore video e sequenza. Tutti questi moduli possono essere utilizzati per presentare il contenuto. Sono utilizzabili in qualsiasi pagina e sono basati sui dati del sistema di gestione dei contenuti.

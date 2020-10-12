@@ -3,7 +3,7 @@ title: Panoramica di gestione dei benefit
 description: Panoramica della funzionalità di Gestione benefit in Dynamics 365 Human Resources. Offrire opzioni di benefit estese ai propri dipendenti con un'esperienza online di facile utilizzo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599382"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819767"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
 
@@ -41,15 +41,9 @@ Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per a
 
 Se si desidera accedere ai dati dimostrativi, sarà necessario ridistribuire l'ambiente sandbox.
 
-## <a name="benefits-management-known-issues"></a>Problemi noti di Gestione benefit
-
-### <a name="flex-credit-programs"></a>Programmi di crediti flessibili
-
-Il valore di credito totale definito per un programma di credito flessibile non viene visualizzato nel modulo **Piani di benefit lavoratori**. Inoltre, se si imposta un programma di credito flessibile con la regola di proroga impostata su **Nessuna**, viene visualizzato un errore nel modulo **Piano di benefit lavoratori** durante la selezione e la conferma dei piani.
-
 ## <a name="enable-benefits-management"></a>Abilitare Gestione benefit
 
-In questo articolo viene descritto come attivare le funzionalità in Human Resources. Indica anche quali funzionalità esistenti in Human Resources sono sostituite da Gestione benefit o vengono disattivate in seguito all'attivazione di Gestione benefit.
+In questo argomento viene descritto come attivare le funzionalità in Human Resources. Indica anche quali funzionalità esistenti in Human Resources sono sostituite da Gestione benefit o vengono disattivate in seguito all'attivazione di Gestione benefit.
 
 > [!IMPORTANT]
 > Dopo aver abilitato Gestione benefit in un ambiente di **Produzione** non è possibile disabilitarlo. Si consiglia di abilitare e testare Gestione benefit in un ambiente **sandbox** prima di abilitarlo in un ambiente di **Produzione**. Sono presenti differenze significative tra la funzionalità dei benefit legacy e la nuova funzionalità di Gestione benefit che richiedono una configurazione aggiuntiva e devono essere testati prima di essere messi in produzione.

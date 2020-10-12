@@ -3,7 +3,7 @@ title: Moduli Valutazioni e recensioni
 description: Questo argomento tratta i moduli di valutazione e recensione utilizzati nelle pagine dei dettagli del prodotto in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 02/17/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: ee2a2a781537b592fb5f80ce424a7331c4e21d41
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071872"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817732"
 ---
 # <a name="ratings-and-reviews-modules"></a>Moduli Valutazioni e recensioni
 
@@ -87,15 +87,15 @@ Il modulo Elenco recensioni prodotti include uno slot in cui è possibile aggiun
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Modulo contenitore](add-container-module.md)
 
-[Modulo Carrello](add-cart-module.md)
+[Modulo carrello](add-cart-module.md)
 
-[Modulo Checkout](add-checkout-module.md)
+[Modulo checkout](add-checkout-module.md)
 
-[Modulo Conferma ordine](order-confirmation-module.md)
+[Modulo conferma ordine](order-confirmation-module.md)
 
 [Modulo Intestazione](author-header-module.md)
 

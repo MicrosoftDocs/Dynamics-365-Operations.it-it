@@ -3,7 +3,7 @@ title: Modulo Scheda
 description: In questo argomento vengono descritti i moduli Scheda e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4187dfd704c78d506d7840b04c986687fe807a3
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621015"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817036"
 ---
 # <a name="tab-module"></a>Modulo Scheda
 
@@ -77,10 +77,10 @@ Per aggiungere un modulo Scheda a una pagina e impostare le proprietà, effettua
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica starter kit](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
-[Modulo Contenitore](add-container-module.md)
+[Modulo contenitore](add-container-module.md)
 
 [Modulo Accordion](add-accordion.md)
 
-[Modulo Blocco testo](add-content-rich-block.md)
+[Modulo blocco testo](add-content-rich-block.md)
