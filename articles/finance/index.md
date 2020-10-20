@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000327"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987516"
 ---
 # <a name="finance-home-page"></a>Home page di Finance
 
@@ -66,9 +66,9 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance and Ope
 
 Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
-### <a name="countryregion-functionality"></a>Funzionalità paese
+### <a name="countryregion-functionality"></a>Funzionalità paese/area geografica
 
-Le normative del paese incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese.
+Le normative del paese/area geografica incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese/area geografica.
 
 ### <a name="additional-content"></a>Contenuti aggiuntivi
 

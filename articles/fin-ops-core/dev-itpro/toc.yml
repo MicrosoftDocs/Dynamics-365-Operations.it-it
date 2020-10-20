@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.15 (gennaio 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform update 10.0.14 (novembre 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform update 10.0.13 (ottobre 2020)
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Risoluzione dei problemi generali
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Domande frequenti sulla scrittura doppia
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integrazione con Power Platform
                       items:
                         - name: Configurare un prospect per uno scenario di liquidazione
@@ -386,9 +390,11 @@
           items:
             - name: Panoramica
               href: database/dbmovement-operations.md
+            - name: Toolkit di spostamento del database
+              href: database/database-movement-toolkit.md
             - name: Guide introduttive
               items:
-                - name: Aggiornamento del database
+                - name: Aggiornare un database
                   href: database/database-refresh.md
                 - name: Esportare un database
                   href: database/export-database.md
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: 'Aggiornamento AX 2012: elenco di controllo di pre-aggiornamento per aggiornamento dati'
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: 'Aggiornamento di AX 2012: aggiornamento dei dati in ambienti sandbox utilizzando il processo del pacchetto di applicazione livello dati'
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: 'Aggiornamento AX 2012: aggiornare i dati in ambienti sandbox'
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: 'Aggiornamento AX 2012: ambienti locali'
