@@ -70,12 +70,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (dicembre 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (novembre 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (ottobre 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (agosto 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
@@ -192,8 +192,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Spostare le licenze tra i tipi di contratto
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Spostare i progetti di implementazione LCS su tenant di Azure AD diversi
+                - name: Spostare i progetti di implementazione LCS su tenant Azure AD diversi
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Spostare progetti di implementazione LCS da locali a cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Più progetti LCS e ambienti di produzione su un tenant di Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalizzazione
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Aggiornamenti normativi
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: India
+              items:
+                - name: Ordini di trasferimento scorte
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Russia
               items:
                 - name: Panoramica Russia
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Migliorare le prestazioni di pianificazione generale
                   href: master-planning/master-planning-performance.md
+                - name: Migliorare le prestazioni del motore di pianificazione
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Piani generali e funzionalità multisito
                   items:
                     - name: Panoramica pianificazione generale e funzionalità multisito
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Gestire un ciclo di lavorazione per un modello di prodotto
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Prezzi di vendita basati sugli attributi per la configurazione del prodotto basata su vincoli
+                      href: pim/attribute-based-product-configurator.md
                     - name: Approvare un modello di configurazione prodotto
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Trasferire i dati per i modelli prodotto
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Dichiarazione di finito dal dispositivo scheda di processo
                       href: production-control/report-finished-job-device.md
+                    - name: Fornire guide alla realtà mista per i lavoratori nella produzione
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Invertire lo stato degli ordini di produzione
                       href: production-control/reverse-production-order-status.md
                     - name: Visibilità nelle eccezioni materiali
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Abilitare la stampa di etichette targa
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Creare ordini di trasferimento dall'app di magazzino
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Elaborazione degli eventi dell'app di magazzino
+                      href: warehousing/warehouse-app-events.md
                     - name: Conferma di prelievo pezzi
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiali di imballaggio e addebiti
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Elaborare il framework della guida
                       href: warehousing/process-guide-framework.md
+                    - name: Risolvere i problemi di connessione dell'app di magazzino
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Aggiornamento e migrazione
                   items:
                     - name: Aggiornare i processi di gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
