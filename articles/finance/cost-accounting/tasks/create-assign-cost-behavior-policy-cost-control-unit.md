@@ -13,76 +13,76 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f52133df2d374d6dc0f1efb33ffc85eb7d11fa9
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759234"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976237"
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="ede2a-103">Creare e assegnare i criteri di comportamento costi a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="ede2a-103">Create and assign a cost behavior policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="d146f-103">Creare e assegnare i criteri di comportamento costi a un'unità di controllo costi</span><span class="sxs-lookup"><span data-stu-id="d146f-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ede2a-104">Il comportamento costo è la classificazione del costo come fisso o variabile.</span><span class="sxs-lookup"><span data-stu-id="ede2a-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="ede2a-105">Affinché i criteri diventino effettivi, i criteri e le regole corrispondenti devono essere assegnati a un'unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="ede2a-106">Utilizzare questa procedura per creare i criteri e quindi per assegnarli a un'unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
+<span data-ttu-id="d146f-104">Il comportamento costo è la classificazione del costo come fisso o variabile.</span><span class="sxs-lookup"><span data-stu-id="d146f-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="d146f-105">Affinché i criteri diventino effettivi, i criteri e le regole corrispondenti devono essere assegnati a un'unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="d146f-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="d146f-106">Utilizzare questa procedura per creare i criteri e quindi per assegnarli a un'unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="d146f-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="ede2a-107">Creare una gerarchia di comportamento costo</span><span class="sxs-lookup"><span data-stu-id="ede2a-107">Create a cost behavior hierarchy</span></span>
-1. <span data-ttu-id="ede2a-108">Andare a Contabilità industriale > Dimensioni > Gerarchie di dimensioni.</span><span class="sxs-lookup"><span data-stu-id="ede2a-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="ede2a-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-109">Click New.</span></span>
-3. <span data-ttu-id="ede2a-110">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="ede2a-110">Click Create.</span></span>
-4. <span data-ttu-id="ede2a-111">Nel campo Nome gerarchia dimensioni digitare "Gerarchia di comportamenti costo".</span><span class="sxs-lookup"><span data-stu-id="ede2a-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
-5. <span data-ttu-id="ede2a-112">Nel campo Dimensione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-112">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-113">Selezionare Elementi di costo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-113">Select Cost elements.</span></span>  
-6. <span data-ttu-id="ede2a-114">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ede2a-114">Click Save.</span></span>
-7. <span data-ttu-id="ede2a-115">Fare clic su Visualizza gerarchia.</span><span class="sxs-lookup"><span data-stu-id="ede2a-115">Click View hierarchy.</span></span>
-8. <span data-ttu-id="ede2a-116">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-116">Click New.</span></span>
-9. <span data-ttu-id="ede2a-117">Digitare un valore nel campo Nome nodo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-117">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="ede2a-118">Immettere il costo fisso.</span><span class="sxs-lookup"><span data-stu-id="ede2a-118">Enter Fixed cost.</span></span>  
-10. <span data-ttu-id="ede2a-119">Nella struttura selezionare "Cost behavior hierarchy".</span><span class="sxs-lookup"><span data-stu-id="ede2a-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
-11. <span data-ttu-id="ede2a-120">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-120">Click New.</span></span>
-12. <span data-ttu-id="ede2a-121">Digitare un valore nel campo Nome nodo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-121">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="ede2a-122">Immettere il costo variabile.</span><span class="sxs-lookup"><span data-stu-id="ede2a-122">Enter Variable cost.</span></span>  
-13. <span data-ttu-id="ede2a-123">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ede2a-123">Click Save.</span></span>
-14. <span data-ttu-id="ede2a-124">Nella struttura selezionare "Gerarchia di comportamenti costo\Costo fisso".</span><span class="sxs-lookup"><span data-stu-id="ede2a-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
-15. <span data-ttu-id="ede2a-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-125">Click New.</span></span>
-16. <span data-ttu-id="ede2a-126">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ede2a-126">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="ede2a-127">Nel campo Membro di dimensione di inizio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-127">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-128">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-18. <span data-ttu-id="ede2a-129">Nel campo Membro di dimensione di fine immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-129">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-130">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-19. <span data-ttu-id="ede2a-131">Nella struttura selezionare "Gerarchia di comportamenti costo\Costo variabile".</span><span class="sxs-lookup"><span data-stu-id="ede2a-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
-20. <span data-ttu-id="ede2a-132">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-132">Click New.</span></span>
-21. <span data-ttu-id="ede2a-133">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ede2a-133">In the list, mark the selected row.</span></span>
-22. <span data-ttu-id="ede2a-134">Nel campo Membro di dimensione di inizio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-134">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-135">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-23. <span data-ttu-id="ede2a-136">Nel campo Membro di dimensione di fine immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-136">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-137">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-24. <span data-ttu-id="ede2a-138">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ede2a-138">Click Save.</span></span>
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="d146f-107">Creare una gerarchia di comportamento costo</span><span class="sxs-lookup"><span data-stu-id="d146f-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="d146f-108">Andare a Contabilità industriale > Dimensioni > Gerarchie di dimensioni.</span><span class="sxs-lookup"><span data-stu-id="d146f-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="d146f-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-109">Click New.</span></span>
+3. <span data-ttu-id="d146f-110">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="d146f-110">Click Create.</span></span>
+4. <span data-ttu-id="d146f-111">Nel campo Nome gerarchia dimensioni digitare "Gerarchia di comportamenti costo".</span><span class="sxs-lookup"><span data-stu-id="d146f-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="d146f-112">Nel campo Dimensione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-113">Selezionare Elementi di costo.</span><span class="sxs-lookup"><span data-stu-id="d146f-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="d146f-114">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="d146f-114">Click Save.</span></span>
+7. <span data-ttu-id="d146f-115">Fare clic su Visualizza gerarchia.</span><span class="sxs-lookup"><span data-stu-id="d146f-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="d146f-116">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-116">Click New.</span></span>
+9. <span data-ttu-id="d146f-117">Digitare un valore nel campo Nome nodo.</span><span class="sxs-lookup"><span data-stu-id="d146f-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="d146f-118">Immettere il costo fisso.</span><span class="sxs-lookup"><span data-stu-id="d146f-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="d146f-119">Nella struttura selezionare "Cost behavior hierarchy".</span><span class="sxs-lookup"><span data-stu-id="d146f-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="d146f-120">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-120">Click New.</span></span>
+12. <span data-ttu-id="d146f-121">Digitare un valore nel campo Nome nodo.</span><span class="sxs-lookup"><span data-stu-id="d146f-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="d146f-122">Immettere il costo variabile.</span><span class="sxs-lookup"><span data-stu-id="d146f-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="d146f-123">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="d146f-123">Click Save.</span></span>
+14. <span data-ttu-id="d146f-124">Nella struttura selezionare "Gerarchia di comportamenti costo\Costo fisso".</span><span class="sxs-lookup"><span data-stu-id="d146f-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="d146f-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-125">Click New.</span></span>
+16. <span data-ttu-id="d146f-126">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="d146f-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="d146f-127">Nel campo Membro di dimensione di inizio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-128">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="d146f-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="d146f-129">Nel campo Membro di dimensione di fine immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-130">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="d146f-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="d146f-131">Nella struttura selezionare "Gerarchia di comportamenti costo\Costo variabile".</span><span class="sxs-lookup"><span data-stu-id="d146f-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="d146f-132">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-132">Click New.</span></span>
+21. <span data-ttu-id="d146f-133">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="d146f-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="d146f-134">Nel campo Membro di dimensione di inizio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-135">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="d146f-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="d146f-136">Nel campo Membro di dimensione di fine immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-137">L'intervallo dei membri di dimensione può non essere continuo, ma i membri non possono sovrapporsi.</span><span class="sxs-lookup"><span data-stu-id="d146f-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="d146f-138">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="d146f-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a><span data-ttu-id="ede2a-139">Creare i criteri e le regole.</span><span class="sxs-lookup"><span data-stu-id="ede2a-139">Create the policy and rules</span></span>
-1. <span data-ttu-id="ede2a-140">Andare a Contabilità industriale > Criteri > Criteri di comportamento costo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
-2. <span data-ttu-id="ede2a-141">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-141">Click New.</span></span>
-3. <span data-ttu-id="ede2a-142">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="ede2a-142">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="ede2a-143">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-144">Selezionare la gerarchia di criteri creata.</span><span class="sxs-lookup"><span data-stu-id="ede2a-144">Select the policy hierarchy that you just created.</span></span>  
-5. <span data-ttu-id="ede2a-145">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-146">Selezionare Organizzazione.</span><span class="sxs-lookup"><span data-stu-id="ede2a-146">Select Organization.</span></span>  
-6. <span data-ttu-id="ede2a-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ede2a-147">Click Save.</span></span>
-7. <span data-ttu-id="ede2a-148">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-148">Click New.</span></span>
-8. <span data-ttu-id="ede2a-149">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ede2a-149">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="ede2a-150">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-151">Espande la gerarchia per selezionare il costo variabile.</span><span class="sxs-lookup"><span data-stu-id="ede2a-151">Expand the hierarchy to select Variable cost.</span></span>  
-10. <span data-ttu-id="ede2a-152">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="ede2a-153">Per impostazione predefinita, la percentuale variabile è pari al 100%.</span><span class="sxs-lookup"><span data-stu-id="ede2a-153">By default, the variable percentage is 100 percent.</span></span>  
-11. <span data-ttu-id="ede2a-154">Fare clic su Assegnazioni criteri per unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="ede2a-154">Click Policy assignments for cost control unit.</span></span>
-12. <span data-ttu-id="ede2a-155">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ede2a-155">Click New.</span></span>
-13. <span data-ttu-id="ede2a-156">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ede2a-156">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="ede2a-157">Immettere una data nel campo Valido dalla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="ede2a-157">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="ede2a-158">Le regole hanno una data di validità e un utente o il sistema può farle scadere se ne viene creata una nuova versione.</span><span class="sxs-lookup"><span data-stu-id="ede2a-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
-15. <span data-ttu-id="ede2a-159">Nel campo Unità di controllo costi immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ede2a-159">In the Cost control unit field, enter or select a value.</span></span>
-16. <span data-ttu-id="ede2a-160">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ede2a-160">Click Save.</span></span>
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="d146f-139">Creare i criteri e le regole.</span><span class="sxs-lookup"><span data-stu-id="d146f-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="d146f-140">Andare a Contabilità industriale > Criteri > Criteri di comportamento costo.</span><span class="sxs-lookup"><span data-stu-id="d146f-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="d146f-141">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-141">Click New.</span></span>
+3. <span data-ttu-id="d146f-142">Digitare un valore nel campo Nome criteri.</span><span class="sxs-lookup"><span data-stu-id="d146f-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="d146f-143">Nel campo Gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-144">Selezionare la gerarchia di criteri creata.</span><span class="sxs-lookup"><span data-stu-id="d146f-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="d146f-145">Nel campo Gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-146">Selezionare Organizzazione.</span><span class="sxs-lookup"><span data-stu-id="d146f-146">Select Organization.</span></span>  
+6. <span data-ttu-id="d146f-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="d146f-147">Click Save.</span></span>
+7. <span data-ttu-id="d146f-148">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-148">Click New.</span></span>
+8. <span data-ttu-id="d146f-149">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="d146f-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="d146f-150">Nel campo Nodo gerarchia dimensioni di elemento di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-151">Espande la gerarchia per selezionare il costo variabile.</span><span class="sxs-lookup"><span data-stu-id="d146f-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="d146f-152">Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="d146f-153">Per impostazione predefinita, la percentuale variabile è pari al 100%.</span><span class="sxs-lookup"><span data-stu-id="d146f-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="d146f-154">Fare clic su Assegnazioni criteri per unità di controllo costi.</span><span class="sxs-lookup"><span data-stu-id="d146f-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="d146f-155">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="d146f-155">Click New.</span></span>
+13. <span data-ttu-id="d146f-156">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="d146f-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="d146f-157">Immettere una data nel campo Valido dalla data di registrazione.</span><span class="sxs-lookup"><span data-stu-id="d146f-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="d146f-158">Le regole hanno una data di validità e un utente o il sistema può farle scadere se ne viene creata una nuova versione.</span><span class="sxs-lookup"><span data-stu-id="d146f-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="d146f-159">Nel campo Unità di controllo costi immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="d146f-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="d146f-160">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="d146f-160">Click Save.</span></span>
 

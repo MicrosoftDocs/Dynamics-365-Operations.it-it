@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413aedfe4288d4630886430957a50900c5100689
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e79526dd43f516f2f4abf31276f314cb2498458e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203045"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978799"
 ---
-# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="2ebdf-103">Collegare modelli a oggetti assistenza</span><span class="sxs-lookup"><span data-stu-id="2ebdf-103">Attach templates to service objects</span></span>    
+# <a name="attach-templates-to-service-objects"></a><span data-ttu-id="10c9d-103">Collegare modelli a oggetti assistenza</span><span class="sxs-lookup"><span data-stu-id="10c9d-103">Attach templates to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2ebdf-104">Una distinta base (DBA) modello può essere collegata a una relazione tra oggetti assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="2ebdf-105">Quest'ultima potrà quindi essere associata a ordini di assistenza o a contratti di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
+<span data-ttu-id="10c9d-104">Una distinta base (DBA) modello può essere collegata a una relazione tra oggetti assistenza.</span><span class="sxs-lookup"><span data-stu-id="10c9d-104">A template bill of materials (BOM) can be attached to a service object relation.</span></span> <span data-ttu-id="10c9d-105">Quest'ultima potrà quindi essere associata a ordini di assistenza o a contratti di assistenza.</span><span class="sxs-lookup"><span data-stu-id="10c9d-105">The service object relation can then be associated with either service orders or service agreements.</span></span>
 
-1.  <span data-ttu-id="2ebdf-106">Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **Oggetti assistenza**.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="10c9d-106">Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **Oggetti assistenza**.</span><span class="sxs-lookup"><span data-stu-id="10c9d-106">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="2ebdf-107">Selezionare un oggetto assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-107">Select a service object.</span></span>
+2.  <span data-ttu-id="10c9d-107">Selezionare un oggetto assistenza.</span><span class="sxs-lookup"><span data-stu-id="10c9d-107">Select a service object.</span></span>
 
-3.  <span data-ttu-id="2ebdf-108">Fare clic su **Contratti di assistenza** o su **Ordini di assistenza** per visualizzare i contratti di assistenza o gli ordini di assistenza a cui è stato associato l'oggetto assistenza.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
+3.  <span data-ttu-id="10c9d-108">Fare clic su **Contratti di assistenza** o su **Ordini di assistenza** per visualizzare i contratti di assistenza o gli ordini di assistenza a cui è stato associato l'oggetto assistenza.</span><span class="sxs-lookup"><span data-stu-id="10c9d-108">Click **Service agreements** or **Service orders** to display the service agreements or service orders that the service object has been associated with.</span></span>
 
-4.  <span data-ttu-id="2ebdf-109">Selezionare un contratto o un ordine di assistenza, fare clic su **Funzioni** e quindi su **Collega DBA modello**.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
+4.  <span data-ttu-id="10c9d-109">Selezionare un contratto o un ordine di assistenza, fare clic su **Funzioni** e quindi su **Collega DBA modello**.</span><span class="sxs-lookup"><span data-stu-id="10c9d-109">Select a service agreement or a service order, click **Functions**, and then click **Attach template BOM**.</span></span>
 
-5.  <span data-ttu-id="2ebdf-110">Selezionare la DBA modello da collegare all'oggetto.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-110">Select the template BOM to attach to the object.</span></span>
+5.  <span data-ttu-id="10c9d-110">Selezionare la DBA modello da collegare all'oggetto.</span><span class="sxs-lookup"><span data-stu-id="10c9d-110">Select the template BOM to attach to the object.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="2ebdf-111">Per eliminare una DBA collegata o spostarla in un altro oggetto assistenza, fare clic su <STRONG>Funzioni</STRONG> nel modulo <STRONG>Oggetti assistenza</STRONG>, quindi scegliere <STRONG>Sposta DBA assistenza</STRONG> o <STRONG>Elimina DBA assistenza</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="2ebdf-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
+> <P><span data-ttu-id="10c9d-111">Per eliminare una DBA collegata o spostarla in un altro oggetto assistenza, fare clic su <STRONG>Funzioni</STRONG> nel modulo <STRONG>Oggetti assistenza</STRONG>, quindi scegliere <STRONG>Sposta DBA assistenza</STRONG> o <STRONG>Elimina DBA assistenza</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="10c9d-111">To move an attached BOM to another service object or to delete an attached BOM, in the <STRONG>Service objects</STRONG> form, click <STRONG>Functions</STRONG>, and then click <STRONG>Move service BOM</STRONG> or <STRONG>Delete service BOM</STRONG>.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2ebdf-112">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="2ebdf-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10c9d-112">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="10c9d-112">See also</span></span>
 
-[<span data-ttu-id="2ebdf-113">Creare oggetti assistenza</span><span class="sxs-lookup"><span data-stu-id="2ebdf-113">Create service objects</span></span>](create-service-objects.md)
+[<span data-ttu-id="10c9d-113">Creare oggetti assistenza</span><span class="sxs-lookup"><span data-stu-id="10c9d-113">Create service objects</span></span>](create-service-objects.md)
 
   
 

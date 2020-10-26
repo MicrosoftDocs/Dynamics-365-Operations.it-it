@@ -15,40 +15,40 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560e7e521bb09fbfae99572fafffe62b1f337060
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b0b24d6932715956be19bb74bbc161160ed5f532
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206797"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984921"
 ---
-# <a name="set-up-service-activity-types"></a><span data-ttu-id="5b34e-103">Impostare tipi di attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="5b34e-103">Set up service activity types</span></span> 
+# <a name="set-up-service-activity-types"></a><span data-ttu-id="02461-103">Impostare tipi di attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="02461-103">Set up service activity types</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="5b34e-104">Fare clic su **Vendite e marketing** \> **Impostazioni** \> **Attività** \> **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="5b34e-104">Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.</span></span>
+1.  <span data-ttu-id="02461-104">Fare clic su **Vendite e marketing** \> **Impostazioni** \> **Attività** \> **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="02461-104">Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.</span></span>
     
-    <span data-ttu-id="5b34e-105">oppure</span><span class="sxs-lookup"><span data-stu-id="5b34e-105">–or–</span></span>
+    <span data-ttu-id="02461-105">oppure</span><span class="sxs-lookup"><span data-stu-id="02461-105">–or–</span></span>
     
-    <span data-ttu-id="5b34e-106">Fare clic su **Amministrazione organizzazione** \> **Impostazioni** \> **Attività** \> **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="5b34e-106">Click **Organization administration** \> **Setup** \> **Activities** \> **Activity types**.</span></span>
+    <span data-ttu-id="02461-106">Fare clic su **Amministrazione organizzazione** \> **Impostazioni** \> **Attività** \> **Tipi di attività**.</span><span class="sxs-lookup"><span data-stu-id="02461-106">Click **Organization administration** \> **Setup** \> **Activities** \> **Activity types**.</span></span>
 
-2.  <span data-ttu-id="5b34e-107">Nel modulo **Tipi di attività** premere CTRL+N per aggiungere una nuova riga di tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="5b34e-107">In the **Activity types** form, press CTRL + N to add a new activity type line.</span></span>
+2.  <span data-ttu-id="02461-107">Nel modulo **Tipi di attività** premere CTRL+N per aggiungere una nuova riga di tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="02461-107">In the **Activity types** form, press CTRL + N to add a new activity type line.</span></span>
 
-3.  <span data-ttu-id="5b34e-108">Nel campo **Tipo** immettere un nome per il tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="5b34e-108">In the **Type** field, enter a name for the activity type.</span></span>
+3.  <span data-ttu-id="02461-108">Nel campo **Tipo** immettere un nome per il tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="02461-108">In the **Type** field, enter a name for the activity type.</span></span>
 
-4.  <span data-ttu-id="5b34e-109">Nel campo **Descrizione** immettere il testo descrittivo del tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="5b34e-109">In the **Description** field, enter text to describe this activity type.</span></span>
+4.  <span data-ttu-id="02461-109">Nel campo **Descrizione** immettere il testo descrittivo del tipo di attività.</span><span class="sxs-lookup"><span data-stu-id="02461-109">In the **Description** field, enter text to describe this activity type.</span></span>
 
-5.  <span data-ttu-id="5b34e-110">Chiudere il modulo per salvare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="5b34e-110">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="02461-110">Chiudere il modulo per salvare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="02461-110">Close the form to save your changes.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5b34e-111">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="5b34e-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02461-111">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="02461-111">See also</span></span>
 
-<span data-ttu-id="5b34e-112">[Tipi di attività (modulo)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="5b34e-112">[Activity types (form)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))</span></span>
+<span data-ttu-id="02461-112">[Tipi di attività (modulo)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="02461-112">[Activity types (form)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="5b34e-113">Prospetto interventi</span><span class="sxs-lookup"><span data-stu-id="5b34e-113">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="02461-113">Prospetto interventi</span><span class="sxs-lookup"><span data-stu-id="02461-113">Dispatch board</span></span>](dispatch-board.md)
 
   
 
