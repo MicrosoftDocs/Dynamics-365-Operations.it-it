@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f9132479bac8a6bfd632a91e0acb94b9bde4e5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5d81b33a9f30143891da6c7f21dc728e6e4fe7b8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206360"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983773"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="2945b-103">Visualizzare lo stato degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="2945b-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="3585b-103">Visualizzare lo stato degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="3585b-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2945b-104">È possibile utilizzare il modulo **Prospetto interventi** per visualizzare lo stato delle attività di assistenza negli ordini di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2945b-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="3585b-104">È possibile utilizzare il modulo **Prospetto interventi** per visualizzare lo stato delle attività di assistenza negli ordini di assistenza.</span><span class="sxs-lookup"><span data-stu-id="3585b-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="2945b-105">Ulteriori informazioni sugli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="2945b-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="3585b-105">Ulteriori informazioni sugli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="3585b-105">More information about service orders</span></span>
 
-<span data-ttu-id="2945b-106">Nel modulo sono presenti strumenti che permettono di tenere traccia del flusso degli ordini di assistenza e sono inclusi ulteriori dettagli che contribuiscono a valutare l'urgenza di un ordine di assistenza, ad esempio il contratto di assistenza e l'accordo sui livelli di servizio a cui è associato.</span><span class="sxs-lookup"><span data-stu-id="2945b-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="3585b-106">Nel modulo sono presenti strumenti che permettono di tenere traccia del flusso degli ordini di assistenza e sono inclusi ulteriori dettagli che contribuiscono a valutare l'urgenza di un ordine di assistenza, ad esempio il contratto di assistenza e l'accordo sui livelli di servizio a cui è associato.</span><span class="sxs-lookup"><span data-stu-id="3585b-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="2945b-107">Per valutare rapidamente l'urgenza di un ordine di assistenza, il diagramma di Gantt supporta l'utilizzo dei colori,</span><span class="sxs-lookup"><span data-stu-id="2945b-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="2945b-108">che vengono utilizzati per distinguere la priorità di una chiamata di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2945b-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="2945b-109">Per impostazione predefinita, il rosso indica una priorità alta, il giallo una priorità normale e il verde una priorità bassa.</span><span class="sxs-lookup"><span data-stu-id="2945b-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="3585b-107">Per valutare rapidamente l'urgenza di un ordine di assistenza, il diagramma di Gantt supporta l'utilizzo dei colori,</span><span class="sxs-lookup"><span data-stu-id="3585b-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="3585b-108">che vengono utilizzati per distinguere la priorità di una chiamata di assistenza.</span><span class="sxs-lookup"><span data-stu-id="3585b-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="3585b-109">Per impostazione predefinita, il rosso indica una priorità alta, il giallo una priorità normale e il verde una priorità bassa.</span><span class="sxs-lookup"><span data-stu-id="3585b-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="2945b-110">È possibile cambiare i colori tramite la scheda <STRONG>Approntamento</STRONG> nel modulo <STRONG>Parametri di gestione assistenza</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="2945b-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="3585b-110">È possibile cambiare i colori tramite la scheda <STRONG>Approntamento</STRONG> nel modulo <STRONG>Parametri di gestione assistenza</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="3585b-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2945b-111">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="2945b-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3585b-111">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="3585b-111">See also</span></span>
 
-[<span data-ttu-id="2945b-112">Definire la priorità degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="2945b-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="3585b-112">Definire la priorità degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="3585b-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="2945b-113">Monitorare le attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="2945b-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="3585b-113">Monitorare le attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="3585b-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="2945b-114">[Prospetto interventi (modulo)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="2945b-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="3585b-114">[Prospetto interventi (modulo)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="3585b-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 

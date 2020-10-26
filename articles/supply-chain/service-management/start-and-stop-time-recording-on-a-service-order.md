@@ -15,52 +15,52 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4c101f6d52366898492b6c9c70fb6cd12edfb9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9590a4924442ceccf6f30c35e1dce907f54d368e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206636"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983183"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="51e6c-103">Avviare e interrompere la registrazione dell'ora per un ordine di assistenza</span><span class="sxs-lookup"><span data-stu-id="51e6c-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="1c8c3-103">Avviare e interrompere la registrazione dell'ora per un ordine di assistenza</span><span class="sxs-lookup"><span data-stu-id="1c8c3-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="51e6c-104">Utilizzare questa procedura per avviare e interrompere la registrazione delle ore per un ordine di assistenza per cui è stato definito un contratto di servizio.</span><span class="sxs-lookup"><span data-stu-id="51e6c-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="1c8c3-104">Utilizzare questa procedura per avviare e interrompere la registrazione delle ore per un ordine di assistenza per cui è stato definito un contratto di servizio.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="51e6c-105">Avviare la registrazione dell'ora</span><span class="sxs-lookup"><span data-stu-id="51e6c-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="1c8c3-105">Avviare la registrazione dell'ora</span><span class="sxs-lookup"><span data-stu-id="1c8c3-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="51e6c-106">Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="51e6c-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="1c8c3-106">Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="51e6c-107">Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Avvia**.</span><span class="sxs-lookup"><span data-stu-id="51e6c-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="1c8c3-107">Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Avvia**.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="51e6c-108">Immettere la data e l'ora in cui la registrazione deve essere avviata.</span><span class="sxs-lookup"><span data-stu-id="51e6c-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="1c8c3-108">Immettere la data e l'ora in cui la registrazione deve essere avviata.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="51e6c-109">Interrompi registrazione ore accordo sui livelli di servizio</span><span class="sxs-lookup"><span data-stu-id="51e6c-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="1c8c3-109">Interrompi registrazione ore accordo sui livelli di servizio</span><span class="sxs-lookup"><span data-stu-id="1c8c3-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="51e6c-110">Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="51e6c-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="1c8c3-110">Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="51e6c-111">Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Arresta**.</span><span class="sxs-lookup"><span data-stu-id="51e6c-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="1c8c3-111">Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Arresta**.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="51e6c-112">Immettere la data e l'ora in cui la registrazione deve essere interrotta.</span><span class="sxs-lookup"><span data-stu-id="51e6c-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="1c8c3-112">Immettere la data e l'ora in cui la registrazione deve essere interrotta.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="51e6c-113">Selezionare **Aggiungi un motivo di revoca** e un codice motivo nell'elenco **Codice motivo fase** se si desidera fornire un motivo per l'interruzione della registrazione dell'ora.</span><span class="sxs-lookup"><span data-stu-id="51e6c-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="1c8c3-113">Selezionare **Aggiungi un motivo di revoca** e un codice motivo nell'elenco **Codice motivo fase** se si desidera fornire un motivo per l'interruzione della registrazione dell'ora.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="51e6c-114">Se nel campo <STRONG>Codice motivo per superamento tempo massimo</STRONG> è selezionato <STRONG>Parametri di gestione assistenza</STRONG>, è necessario fornire un codice motivo prima di interruzione la registrazione dell'ora.</span><span class="sxs-lookup"><span data-stu-id="51e6c-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="1c8c3-114">Se nel campo <STRONG>Codice motivo per superamento tempo massimo</STRONG> è selezionato <STRONG>Parametri di gestione assistenza</STRONG>, è necessario fornire un codice motivo prima di interruzione la registrazione dell'ora.</span><span class="sxs-lookup"><span data-stu-id="1c8c3-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="51e6c-115">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="51e6c-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1c8c3-115">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="1c8c3-115">See also</span></span>
 
-<span data-ttu-id="51e6c-116">[Avvia registrazione ore accordo sui livelli di servizio (modulo)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="51e6c-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="1c8c3-116">[Avvia registrazione ore accordo sui livelli di servizio (modulo)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1c8c3-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="51e6c-117">[Interrompi registrazione ore accordo sui livelli di servizio (modulo)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="51e6c-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="1c8c3-117">[Interrompi registrazione ore accordo sui livelli di servizio (modulo)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1c8c3-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
 
   
 
