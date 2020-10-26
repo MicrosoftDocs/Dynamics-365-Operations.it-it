@@ -12,35 +12,35 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 999702b9a14965271b1ed350cda752e715a22a25
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5f9573fd220cd8b6a58f81e4d17ca65234f41beb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203597"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985343"
 ---
-# <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a><span data-ttu-id="a5f78-103">Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale</span><span class="sxs-lookup"><span data-stu-id="a5f78-103">Create a product lifecycle state to exclude products from Master planning</span></span>
+# <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a><span data-ttu-id="32749-103">Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale</span><span class="sxs-lookup"><span data-stu-id="32749-103">Create a product lifecycle state to exclude products from Master planning</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a5f78-104">In questa procedura viene illustrato come creare un nuovo stato del ciclo di vita del prodotto che esclude i prodotti dal calcolo del livello DBA e dalla pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="a5f78-104">This procedure shows how to create a new product lifecycle state that excludes the products from Master planning and BOM-level calculation.</span></span>
+<span data-ttu-id="32749-104">In questa procedura viene illustrato come creare un nuovo stato del ciclo di vita del prodotto che esclude i prodotti dal calcolo del livello DBA e dalla pianificazione generale.</span><span class="sxs-lookup"><span data-stu-id="32749-104">This procedure shows how to create a new product lifecycle state that excludes the products from Master planning and BOM-level calculation.</span></span>
 
 
-## <a name="create-an-obsolete-state"></a><span data-ttu-id="a5f78-105">Creare uno stato obsoleto</span><span class="sxs-lookup"><span data-stu-id="a5f78-105">Create an obsolete state</span></span>
-1. <span data-ttu-id="a5f78-106">Fare clic su Gestione informazioni sul prodotto > Impostazioni > Stato del ciclo di vita prodotto.</span><span class="sxs-lookup"><span data-stu-id="a5f78-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="a5f78-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="a5f78-107">Click New.</span></span>
-3. <span data-ttu-id="a5f78-108">Nel campo Stato digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="a5f78-108">In the State field, type a value.</span></span>
-4. <span data-ttu-id="a5f78-109">Selezionare No nel campo Attivo per pianificazione.</span><span class="sxs-lookup"><span data-stu-id="a5f78-109">Select No in the Is active for planning field.</span></span>
-5. <span data-ttu-id="a5f78-110">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="a5f78-110">In the Description field, type a value.</span></span>
+## <a name="create-an-obsolete-state"></a><span data-ttu-id="32749-105">Creare uno stato obsoleto</span><span class="sxs-lookup"><span data-stu-id="32749-105">Create an obsolete state</span></span>
+1. <span data-ttu-id="32749-106">Fare clic su Gestione informazioni sul prodotto > Impostazioni > Stato del ciclo di vita prodotto.</span><span class="sxs-lookup"><span data-stu-id="32749-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="32749-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="32749-107">Click New.</span></span>
+3. <span data-ttu-id="32749-108">Nel campo Stato digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="32749-108">In the State field, type a value.</span></span>
+4. <span data-ttu-id="32749-109">Selezionare No nel campo Attivo per pianificazione.</span><span class="sxs-lookup"><span data-stu-id="32749-109">Select No in the Is active for planning field.</span></span>
+5. <span data-ttu-id="32749-110">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="32749-110">In the Description field, type a value.</span></span>
 
-## <a name="associate-the-obsolete-state-to-a-released-product"></a><span data-ttu-id="a5f78-111">Associare lo stato obsoleto a un prodotto rilasciato</span><span class="sxs-lookup"><span data-stu-id="a5f78-111">Associate the obsolete state to a released product</span></span>
-1. <span data-ttu-id="a5f78-112">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="a5f78-112">Close the page.</span></span>
-2. <span data-ttu-id="a5f78-113">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="a5f78-113">Go to Product information management > Products > Released products.</span></span>
-3. <span data-ttu-id="a5f78-114">Utilizzare il filtro rapido per trovare i record.</span><span class="sxs-lookup"><span data-stu-id="a5f78-114">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a5f78-115">Ad esempio, applicare un filtro al campo Nome di ricerca con il valore 'M00'.</span><span class="sxs-lookup"><span data-stu-id="a5f78-115">For example, filter on the Search name field with a value of 'M00'.</span></span>
-4. <span data-ttu-id="a5f78-116">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="a5f78-116">Click Edit.</span></span>
-5. <span data-ttu-id="a5f78-117">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="a5f78-117">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="a5f78-118">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="a5f78-118">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="associate-the-obsolete-state-to-a-released-product"></a><span data-ttu-id="32749-111">Associare lo stato obsoleto a un prodotto rilasciato</span><span class="sxs-lookup"><span data-stu-id="32749-111">Associate the obsolete state to a released product</span></span>
+1. <span data-ttu-id="32749-112">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="32749-112">Close the page.</span></span>
+2. <span data-ttu-id="32749-113">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="32749-113">Go to Product information management > Products > Released products.</span></span>
+3. <span data-ttu-id="32749-114">Utilizzare il filtro rapido per trovare i record.</span><span class="sxs-lookup"><span data-stu-id="32749-114">Use the Quick Filter to find records.</span></span> <span data-ttu-id="32749-115">Ad esempio, applicare un filtro al campo Nome di ricerca con il valore 'M00'.</span><span class="sxs-lookup"><span data-stu-id="32749-115">For example, filter on the Search name field with a value of 'M00'.</span></span>
+4. <span data-ttu-id="32749-116">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="32749-116">Click Edit.</span></span>
+5. <span data-ttu-id="32749-117">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="32749-117">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="32749-118">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="32749-118">In the Product lifecycle state field, enter or select a value.</span></span>
 
