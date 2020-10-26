@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270006"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961636"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificare una pagina di sito esistente
 
@@ -47,7 +47,7 @@ L'operazione successiva consiste nell'apportare le modifiche effettive. In gener
 Tuttavia, la modifica può talvolta comportare l'aggiunta o la rimozione di modelli o frammenti. Per aggiungere un frammento o un modulo, trovare lo slot a cui si desidera aggiungere il modulo o il frammento utilizzando l'albero delle pagine, quindi selezionare il pulsante con i puntini di sospensione (**...**) per quello slot. Viene visualizzato un menu che include i comandi per aggiungere un modulo o un frammento. Per rimuovere un modulo o un frammento, trovarlo e selezionarlo nell'albero delle pagine, selezionare il pulsante con i puntini di sospensione e quindi selezionare il comando per eseguire la rimozione.
 
 > [!TIP]
-> È anche possibile visualizzare e modificare le proprietà di qualsiasi modulo visibile nell'anteprima WYSIWYG selezionando il modulo direttamente.
+> È anche possibile visualizzare e modificare le proprietà di qualsiasi modulo visibile nell'anteprima del generatore di pagine visivo selezionando il modulo direttamente.
 
 Dopo aver finito di apportare le modifiche e visualizzare in anteprima il loro effetto, è consigliabile archiviare la pagina selezionando **Fine modifica** nella barra dei comandi. 
 

@@ -3,7 +3,7 @@ title: Introduzione all'ottimizzazione di pianificazione
 description: Questo argomento illustra come iniziare a utilizzare la funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887266"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973478"
 ---
-# <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione di pianificazione
+# <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Microsoft Dynamics 365 Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. Per impostazione predefinita, la funzionalità di ottimizzazione di pianificazione non è abilitata in Dynamics Lifecycle Services (LCS). Pertanto, è possibile effettuare la valutazione prima che venga attivata.
+Come [annunciato in precedenza](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), l'ottimizzazione di pianificazione sostituirà il motore di pianificazione generale integrato esistente.
 
-Alla fine, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione integrato Supply Chain Management.
+Se attualmente utilizzi il motore di pianificazione generale integrato, dovresti già iniziare a pianificare la migrazione all'ottimizzazione di pianificazione. È importante avviare subito il processo di migrazione perché la deprecazione potrebbe impattare le operazioni. Per evitare problemi dell'ultimo minuto quando viene applicata la deprecazione, ti consigliamo vivamente di completare la migrazione prima del 1° dicembre 2020. 
+
+La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. La funzionalità di ottimizzazione di pianificazione non è attualmente attivata per impostazione predefinita in Dynamics Lifecycle Services (LCS), quindi hai la possibilità di eseguire una tua valutazione prima che la funzionalità venga attivata.
+
+> [!NOTE]
+> Devi richiedere un'eccezione per la migrazione all'ottimizzazione di pianificazione se il processo di pianificazione generale non include la produzione (ordini di produzione pianificati generati tramite la pianificazione generale) e hai bisogno di una versione del motore di pianificazione generale integrato successiva alla versione 10.0.15. A partire dalla versione 10.0.16, verrà visualizzato un errore negli ambienti durante l'esecuzione della pianificazione generale incorporata senza generazione degli ordini di produzione pianificati. L'ottimizzazione di pianificazione deve essere utilizzata per tutte le nuove distribuzioni che non generano ordini di produzione pianificati durante la pianificazione generale. I proprietari di ambienti esistenti che eseguono il motore di pianificazione generale integrato senza la generazione di ordini di produzione pianificati riceveranno una mail con i dettagli sul processo di eccezione. Ti consigliamo di collaborare con un partner per valutare e pianificare la migrazione all'ottimizzazione di pianificazione.
 
 Prima di attivare l'ottimizzazione di pianificazione, si consiglia vivamente di valutare i risultati dell'analisi di adeguatezza dell'ottimizzazione di pianificazione. Per ulteriori informazioni, vedere [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md).
 
