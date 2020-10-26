@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835112"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967260"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -149,7 +149,12 @@ Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
 * Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.6.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se si utilizza il browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. Se non si è grado di accedere con Chrome, provare a seguire la procedura di installazione descritta in Problema 1 utilizzando Internet Explorer o Edge. 
+* Se si utilizza Microsoft Edge con browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. 
+     1. Apri un nuovo browser in Microsoft Edge.
+     2. Immetti **edge://flags** e premi **INVIO**.
+     3. Cerca l'opzione **Supporto ClickOnce** o utilizza questo collegamento diretto: **edge://flags/#edge-click-once**.
+     4. Impostare l'opzione del menu a discesa su **Abilitato**.
+     5. Seleziona **Riavvia browser**.
 
 Problema 2: all'utente non sono state assegnate le autorizzazioni necessarie per utilizzare Financial Reporting. 
 

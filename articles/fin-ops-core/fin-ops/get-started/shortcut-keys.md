@@ -3,7 +3,7 @@ title: Tasti di scelta rapida
 description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761623"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962522"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -32,6 +32,8 @@ I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'imm
 
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
+
+Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave*, nel senso che richiedono due set consecutivi di combinazioni di tasti (separati da una virgola) che devono essere premuti indipendentemente per attivare l'azione richiesta. Ad esempio, il tasto di scelta rapida "ALT+M,A" richiede all'utente di premere prima "ALT+M", rilasciare i tasti e quindi premere "A". 
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 
@@ -51,7 +53,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Eseguire il pulsante predefinito in un modulo/finestra di dialogo | ALT + INVIO                        |
 | Fare clic sul pulsante o un riquadro                          | INVIO o Barra spaziatrice                   |
 | Aggiornare le informazioni per un riquadro di conteggio       | ALT + Freccia SU                     |
-| Visualizzare i collegamenti attualmente disponibili              | ALT+MAIUSC+K                      |
+| Visualizzare i collegamenti attualmente disponibili              | ALT + MAIUSC + K                      |
 
 ## <a name="date-picker-shortcuts"></a>Tasti di scelta rapida per la selezione della data
 
@@ -61,7 +63,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi tra le date nella selezione | CTRL + Tasti di direzione                           |
 | Spostarsi sul mese successivo/precedente       | Pagina GIÙ/Pagina SU                       |
 | Spostarsi sull'anno successivo/precedente        | CTRL + MAIUSC + Pagina GIÙ/CTRL + MAIUSC + Pagina SU |
-| Spostarsi su oggi                         | CTRL+HOME                                 |
+| Spostarsi su oggi                         | CTRL + HOME                                 |
 | Selezionare la data odierna                     | T                                         |
 | Annullare la data selezionata               | Z                                         |
 | Selezionare Mai (o la data massima)          | N                                         |
@@ -73,7 +75,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Aprire il riquadro Dettaglio informazioni (o spostare lo stato attivo sul riquadro Dettaglio informazioni se è già aperto) | ALT + M,B o CTRL + F2                        |
 | Chiudere il riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                         | ESC                                       |
 | Spostarsi sul riquadro Dettaglio informazioni successivo/precedente (con lo stato attivo nel riquadro Dettaglio informazioni)              | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU |
-| Spostarsi sull'&lt;n&gt;simo riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Spostarsi sull'&lt;n&gt;simo riquadro Dettaglio informazioni (con lo stato attivo nel riquadro Dettaglio informazioni)                | ALT + &lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Espandere un riquadro Dettaglio informazioni (con lo stato attivo nell'intestazione di Dettaglio informazioni)                             | INVIO o Barra spaziatrice                            |
 | Comprimere il riquadro Dettaglio informazioni corrente                                                    | ALT + 0                                     |
 
@@ -102,8 +104,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Esporta in Excel                               | CTRL + MAIUSC + E      |
 | Spostarsi sul record precedente (all'esterno di una griglia)  | CTRL + Freccia SU     |
 | Spostarsi sul record successivo (all'esterno di una griglia)      | CTRL + Freccia GIÙ   |
-| Spostarsi sul primo record (all'esterno di una griglia)     | CTRL+HOME         |
-| Spostarsi sull'ultimo record (all'esterno di una griglia)      | CTRL+FINE          |
+| Spostarsi sul primo record (all'esterno di una griglia)     | CTRL + HOME         |
+| Spostarsi sull'ultimo record (all'esterno di una griglia)      | CTRL + FINE          |
 | Chiudere il modulo (fare clic su Indietro)                   | ESC               |
 | Chiudere il modulo con salvataggio esplicito             | MAIUSC + ESC         |
 | Chiudere il modulo e annullare le modifiche non salvate | ALT + MAIUSC + Q       |
@@ -114,11 +116,11 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 |-----------------------------------------------------|----------------------------------------------|
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
-| Spostarsi sull'&lt;n&gt;sima scheda                         | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Spostarsi sull'&lt;n&gt;sima scheda                         | ALT + MAIUSC + &lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Spostarsi sulla scheda dettaglio successiva/precedente                   | ALT + MAIUSC + Freccia GIÙ/ALT + MAIUSC + Freccia SU    |
-| Spostarsi sull'&lt;n&gt;sima Scheda dettaglio                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Spostarsi sull'&lt;n&gt;sima Scheda dettaglio                     | ALT + &lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Spostarsi sul pannello successivo/precedente (scheda verticale)      | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
-| Spostarsi sul pannello &lt;n&gt; (scheda verticale)        | ALT+MAIUSC+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Spostarsi sul pannello &lt;n&gt; (scheda verticale)        | ALT + MAIUSC + &lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Espandere una scheda dettagli informazioni (con lo stato attivo nell'intestazione della scheda) | INVIO o Barra spaziatrice                               |
 | Comprimere la scheda dettagli corrente                        | ALT + 0                                        |
 | Passare alla visualizzazione griglia                                 | CTRL + MAIUSC + G                                 |
@@ -134,19 +136,19 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi sulla riga successiva/precedente                                                                                          | Freccia GIÙ/Freccia SU           |
 | Spostarsi sulla riga successiva/precedente senza selezionare<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote> | CTRL + Freccia SU/CTRL + Freccia GIÙ |
 | Selezionare/deselezionare la riga corrente<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>                    | CTRL + Barra spaziatrice/CTRL + clic         |
-| Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | Shift+Space                     |
+| Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | MAIUSC + BARRA SPAZIATRICE                     |
 | Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
 | Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ              |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
-| Passa al primo record                                                                                               | CTRL+HOME                       |
-| Passa all'ultimo record                                                                                                | CTRL+FINE                        |
+| Passa al primo record                                                                                               | CTRL + HOME                       |
+| Passa all'ultimo record                                                                                                | CTRL + FINE                        |
 | Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
-| Passa alla prima riga contrassegnata                                                                                           | ALT+MAIUSC+M, F                    |
-| Passa alla riga contrassegnata successiva                                                                                            | ALT+MAIUSC+M, L                    |
-| Passa alla riga contrassegnata precedente                                                                                        | ALT+MAIUSC+M, P                    |
-| Passa alla ultima riga contrassegnata                                                                                           | ALT+MAIUSC+M, N                    |
+| Passa alla prima riga contrassegnata                                                                                           | ALT + MAIUSC + M, F                    |
+| Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                    |
+| Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                    |
+| Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                    |
 | Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
-| Passare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT+MAIUSC+H                     |
+| Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
 
@@ -180,10 +182,10 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Andare alla barra di navigazione                                                    | ALT + M,N o ALT + MAIUSC + F1    |
 | Passare alla selezione delle società                                                    | CTRL + MAIUSC + O               |
 | Cerca una pagina                                                             | CTRL + / o ALT + G            |
-| Aprire il riquadro della Guida                                                            | CTRL+?                     |
-| Apri il parser di traccia                                                         | ALT+MAIUSC+T                |
+| Aprire il riquadro della Guida                                                            | CTRL + ?                     |
+| Apri il parser di traccia                                                         | ALT + MAIUSC + T                |
 | Spostarsi sul pannello di navigazione                                                   | ALT + F1                     |
-| Aggiungere/rimuovere un modulo come preferito (con lo stato attivo su un modulo nel pannello di navigazione)   | MAIUSC+F                    |
+| Aggiungere/rimuovere un modulo come preferito (con lo stato attivo su un modulo nel pannello di navigazione)   | MAIUSC + F                    |
 | Spostarsi nel riquadro azioni standard                                              | ALT + M,A o CTRL + F6         |
 | Spostarsi sul riquadro Filtro (può includerne l'apertura)                        | ALT + M,F o CTRL + F3         |
 | Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nel riquadro Filtro)                | ALT + M,M o CTRL + F3         |
@@ -193,7 +195,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi sul contenuto della pagina principale (con lo stato attivo in un altro riquadro)                    | ALT + M,M                    |
 | Spostarsi sul riquadro Dettaglio informazioni (può includerne l'apertura)                       | ALT + M,B o CTRL + F2         |
 
-## <a name="personalization-shortcuts"></a>Tasti di scelta rapida di personalizzazione
+## <a name="personalization-shortcuts"></a>Tasti di scelta rapida di [personalizzazione](personalize-user-experience.md) 
 
 | Azione                                                                                                             | Tasti di premere                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
 
+## <a name="task-recordershortcuts"></a>Tasti di scelta rapida di [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md) 
+
+| Azione                                                                    | Premere                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Arrestare la registrazione (durante la registrazione)                                          | ALT + R,S                    |
+| Attivare/disattivare la visibilità del riquadro Registrazione attività (durante la registrazione)             | ALT + R,T                    |
+| Attivare/disattivare la modalità Rails (durante la riproduzione di una guida attività)                                | ALT + R,L                    |
+| Andare al passaggio precedente (durante la riproduzione di una guida attività)                          | ALT + R,P                    |
+| Andare al passaggio successivo (durante la riproduzione di una guida attività)                              | ALT + R,N                    |
+| Alternare lo stato attivo tra la pagina e il messaggio pop-up animato (durante la riproduzione di una guida attività) | ALT + R,F               |
+| Espandere/comprimere il messaggio pop-up animato (durante la riproduzione di una guida attività)              | ALT + R,C                    |
+| Mostrare più/meno informazioni nel messaggio popup animato (durante la riproduzione di una guida attività) | ALT + R,M                    |
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

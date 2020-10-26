@@ -3,7 +3,7 @@ title: Aggiungere codice script nelle pagine del sito per supportare la telemetr
 description: In questo argomento viene descritto come aggiungere il codice script sul lato client alle pagine del sito per supportare la raccolta di telemetria sul lato client.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761251"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901498"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Aggiungere codice script nelle pagine del sito per supportare la telemetria
 
@@ -64,6 +64,9 @@ Per creare un frammento riutilizzabile per il codice di script esterno in Creazi
 1. Nel riquadro delle proprietà sulla destra, sotto **Origine script**, aggiungere un URL esterno o relativo per l'origine dello script esterno. Quindi configurare altre opzioni come richiesto.
 1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
 1. Selezionare **Pubblica**
+
+> [!NOTE]
+> Se i criteri di sicurezza dei contenuti (CSP) sono abilitati per il tuo sito, assicurati che tutti gli URL esterni vengano aggiunti alla direttiva CSP **script-src** in Creazione di siti Web di Commerce. Per altre informazioni, vedere [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Aggiungere un frammento che includa il codice dello script in un modello
 
