@@ -13,41 +13,41 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed020348e50158362fda7b6b36dcdb17c48b4532
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 55f5f6e5048f70e744cb3dc82a2a279aae69b4af
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142319"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976117"
 ---
-# <a name="create-cost-objects"></a><span data-ttu-id="5e32d-103">Creare oggetti di costo  </span><span class="sxs-lookup"><span data-stu-id="5e32d-103">Create cost objects</span></span> 
+# <a name="create-cost-objects"></a><span data-ttu-id="538a2-103">Creare oggetti di costo  </span><span class="sxs-lookup"><span data-stu-id="538a2-103">Create cost objects</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5e32d-104">In questa procedura viene illustrato come creare oggetti di costo importando la dimensione finanziaria centro di costo nella contabilità industriale tramite un connettore dati.</span><span class="sxs-lookup"><span data-stu-id="5e32d-104">This procedure shows how to create cost objects by importing the cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="5e32d-105">La società di dati dimostrativi USMF è stata utilizzata per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="5e32d-105">The USMF demo company was used to create this procedure.</span></span> 
+<span data-ttu-id="538a2-104">In questa procedura viene illustrato come creare oggetti di costo importando la dimensione finanziaria centro di costo nella contabilità industriale tramite un connettore dati.</span><span class="sxs-lookup"><span data-stu-id="538a2-104">This procedure shows how to create cost objects by importing the cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="538a2-105">La società di dati dimostrativi USMF è stata utilizzata per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="538a2-105">The USMF demo company was used to create this procedure.</span></span> 
 
 
-## <a name="create-new-cost-objects"></a><span data-ttu-id="5e32d-106">Creare nuovi oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="5e32d-106">Create new cost objects</span></span>
-1. <span data-ttu-id="5e32d-107">Passare a Contabilità industriale > Dimensioni > Dimensioni oggetto di costo.</span><span class="sxs-lookup"><span data-stu-id="5e32d-107">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
-2. <span data-ttu-id="5e32d-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="5e32d-108">Click New.</span></span>
-3. <span data-ttu-id="5e32d-109">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="5e32d-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="5e32d-110">Nel campo Connettore dati per membri di dimensione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="5e32d-110">In the Data connector for dimension members field, enter or select a value.</span></span>
-5. <span data-ttu-id="5e32d-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="5e32d-111">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="5e32d-112">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="5e32d-112">Click Save.</span></span>
+## <a name="create-new-cost-objects"></a><span data-ttu-id="538a2-106">Creare nuovi oggetti di costo</span><span class="sxs-lookup"><span data-stu-id="538a2-106">Create new cost objects</span></span>
+1. <span data-ttu-id="538a2-107">Passare a Contabilità industriale > Dimensioni > Dimensioni oggetto di costo.</span><span class="sxs-lookup"><span data-stu-id="538a2-107">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
+2. <span data-ttu-id="538a2-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="538a2-108">Click New.</span></span>
+3. <span data-ttu-id="538a2-109">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="538a2-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="538a2-110">Nel campo Connettore dati per membri di dimensione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="538a2-110">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="538a2-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="538a2-111">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="538a2-112">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="538a2-112">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a><span data-ttu-id="5e32d-113">Configurare il connettore dati</span><span class="sxs-lookup"><span data-stu-id="5e32d-113">Configure the data connector</span></span>
-1. <span data-ttu-id="5e32d-114">Fare clic su Configura provider membro di dimensione.</span><span class="sxs-lookup"><span data-stu-id="5e32d-114">Click Configure dimension member provider.</span></span>
-    * <span data-ttu-id="5e32d-115">Selezionare CostCenter per importare la dimensione CostCenter nella contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="5e32d-115">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
-2. <span data-ttu-id="5e32d-116">Nel campo Nome dimensione, selezionare Centro di costo.</span><span class="sxs-lookup"><span data-stu-id="5e32d-116">In the Dimension name field, select Cost center.</span></span>
-3. <span data-ttu-id="5e32d-117">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="5e32d-117">Click OK.</span></span>
+## <a name="configure-the-data-connector"></a><span data-ttu-id="538a2-113">Configurare il connettore dati</span><span class="sxs-lookup"><span data-stu-id="538a2-113">Configure the data connector</span></span>
+1. <span data-ttu-id="538a2-114">Fare clic su Configura provider membro di dimensione.</span><span class="sxs-lookup"><span data-stu-id="538a2-114">Click Configure dimension member provider.</span></span>
+    * <span data-ttu-id="538a2-115">Selezionare CostCenter per importare la dimensione CostCenter nella contabilità industriale.</span><span class="sxs-lookup"><span data-stu-id="538a2-115">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
+2. <span data-ttu-id="538a2-116">Nel campo Nome dimensione, selezionare Centro di costo.</span><span class="sxs-lookup"><span data-stu-id="538a2-116">In the Dimension name field, select Cost center.</span></span>
+3. <span data-ttu-id="538a2-117">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="538a2-117">Click OK.</span></span>
 
-## <a name="import-cost-centers"></a><span data-ttu-id="5e32d-118">Importare i centri di costo</span><span class="sxs-lookup"><span data-stu-id="5e32d-118">Import cost centers</span></span>
-1. <span data-ttu-id="5e32d-119">Fare clic su Importa membri di dimensione.</span><span class="sxs-lookup"><span data-stu-id="5e32d-119">Click Import dimension members.</span></span>
-2. <span data-ttu-id="5e32d-120">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="5e32d-120">Click OK.</span></span>
+## <a name="import-cost-centers"></a><span data-ttu-id="538a2-118">Importare i centri di costo</span><span class="sxs-lookup"><span data-stu-id="538a2-118">Import cost centers</span></span>
+1. <span data-ttu-id="538a2-119">Fare clic su Importa membri di dimensione.</span><span class="sxs-lookup"><span data-stu-id="538a2-119">Click Import dimension members.</span></span>
+2. <span data-ttu-id="538a2-120">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="538a2-120">Click OK.</span></span>
 
-## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="5e32d-121">Visualizzare i centri di costo importati</span><span class="sxs-lookup"><span data-stu-id="5e32d-121">View the imported cost centers</span></span>
-1. <span data-ttu-id="5e32d-122">Fare clic su Visualizza membri di dimensione.</span><span class="sxs-lookup"><span data-stu-id="5e32d-122">Click View dimension members.</span></span>
+## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="538a2-121">Visualizzare i centri di costo importati</span><span class="sxs-lookup"><span data-stu-id="538a2-121">View the imported cost centers</span></span>
+1. <span data-ttu-id="538a2-122">Fare clic su Visualizza membri di dimensione.</span><span class="sxs-lookup"><span data-stu-id="538a2-122">Click View dimension members.</span></span>
 
