@@ -16,15 +16,15 @@ ms.custom: 52961
 ms.assetid: fe3b4822-6140-4b02-bebb-1fc17be2bce8
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18326fdc931faf1aecd4b8b69fefed8b90c191ab
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211470"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979453"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Programmazione dei processi kanban per lean manufacturing
 
@@ -40,7 +40,7 @@ La programmazione può essere attivata automaticamente se si imposta il parametr
 Questo concetto consente di ridurre le dimensioni kanban sotto le dimensioni batch economiche effettive. Ad esempio, la dimensione batch economica per un articolo specifico (o famiglia di articoli) è 30. Anziché creare kanban che utilizzano la quantità di prodotto, 30, è possibile configurare la regola kanban in modo che abbia una quantità di prodotto pari a 10 e un valore di **Quantità di pianificazione automatica** di **3**. Sebbene la pianificazione automatica consenta di programmare i processi kanban per la cella di lavoro solo in presenza di tre processi non pianificati, è chiarissimo a chi pianifica e al supervisore dello shop floor che vi sono due processi non pianificati in attesa di esecuzione. I responsabili della pianificazione e dello shop floor possono integrare i due processi nella produzione pianificandoli manualmente o creando kanban aggiuntivi.
 
 ## <a name="manual-scheduling"></a>Programmazione manuale
-Per la programmazione manuale in Microsoft Dynamics AX 2012 è stata introdotta la bacheca di programmazione kanban. La programmazione manuale può essere combinata con la programmazione automatica. La bacheca di programmazione kanban consente di pianificare i processi, e di annullarne la pianificazione, di spostarli in sequenza o da un periodo all'altro. I processi che sono basati su una regola kanban in cui il valore di **Pianificazione automatica** è superiore a **0** possono essere eliminati dalla pianificazione manualmente. Tuttavia, questi processi saranno ripianificati quando si verifica il successivo evento di pianificazione automatica, vale a dire quando viene creato un nuovo kanban). Sono disponibili le seguenti opzioni per la programmazione manuale:
+Per la programmazione manuale in Microsoft Dynamics AX 2012 è stata introdotta la bacheca di programmazione kanban. La programmazione manuale può essere combinata con la programmazione automatica. La bacheca di programmazione kanban consente di pianificare i processi, e di annullarne la pianificazione, di spostarli in sequenza o da un periodo all'altro. I processi che sono basati su una regola kanban in cui il valore di **Pianificazione automatica** è superiore a **0** possono essere eliminati dalla pianificazione manualmente. Tuttavia, questi processi saranno ripianificati quando si verifica il successivo evento di pianificazione automatica, (vale a dire quando viene creato un nuovo kanban). Sono disponibili le seguenti opzioni per la programmazione manuale:
 
 -   **Programma**: programma i processi selezionati in base alla data di scadenza. Questa opzione è simile alla pianificazione automatica.
 -   **Programma in avanti a partire dalla data specifica**: tenta di programmare i processi selezionati in base alla data di scadenza ma limita il risultato utilizzando la data meno recente specificata.
