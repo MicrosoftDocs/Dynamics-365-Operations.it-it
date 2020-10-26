@@ -15,40 +15,40 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e5c2c3650a889040ec70abfaff013292a427eb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0e83e7008c2547ba0d9e7061772db825e69469a0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206429"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985070"
 ---
-# <a name="view-dispatch-teams"></a><span data-ttu-id="2306a-103">Visualizza team di intervento</span><span class="sxs-lookup"><span data-stu-id="2306a-103">View dispatch teams</span></span>   
+# <a name="view-dispatch-teams"></a><span data-ttu-id="08280-103">Visualizza team di intervento</span><span class="sxs-lookup"><span data-stu-id="08280-103">View dispatch teams</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2306a-104">Gli ordini di assistenza presenti nel modulo **Prospetto interventi** vengono raggruppati per team di intervento.</span><span class="sxs-lookup"><span data-stu-id="2306a-104">Service orders in the **Dispatch board** form are grouped by dispatch team.</span></span>
+<span data-ttu-id="08280-104">Gli ordini di assistenza presenti nel modulo **Prospetto interventi** vengono raggruppati per team di intervento.</span><span class="sxs-lookup"><span data-stu-id="08280-104">Service orders in the **Dispatch board** form are grouped by dispatch team.</span></span>
 
-1.  <span data-ttu-id="2306a-105">Fare clic su **Gestione assistenza** \> **Periodico** \> **Prospetto interventi**.</span><span class="sxs-lookup"><span data-stu-id="2306a-105">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="08280-105">Fare clic su **Gestione assistenza** \> **Periodico** \> **Prospetto interventi**.</span><span class="sxs-lookup"><span data-stu-id="08280-105">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="2306a-106">Selezionare un intervallo di date, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="2306a-106">Select a date range, and then click **OK**.</span></span>
+2.  <span data-ttu-id="08280-106">Selezionare un intervallo di date, quindi fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="08280-106">Select a date range, and then click **OK**.</span></span>
 
-3.  <span data-ttu-id="2306a-107">Nel diagramma di Gantt nella parte superiore del modulo **Prospetto interventi** espandere l'elenco di un team per controllare i nomi dei lavoratori del team.</span><span class="sxs-lookup"><span data-stu-id="2306a-107">In the **Dispatch board** form, in the Gantt chart at the top of the form, expand a team list to review the names of the workers on the team.</span></span> <span data-ttu-id="2306a-108">È inoltre possibile visualizzare i dettagli delle attività di servizio assegnate a ciascun lavoratore.</span><span class="sxs-lookup"><span data-stu-id="2306a-108">You can also view details about the service activities that are assigned to each worker.</span></span>
+3.  <span data-ttu-id="08280-107">Nel diagramma di Gantt nella parte superiore del modulo **Prospetto interventi** espandere l'elenco di un team per controllare i nomi dei lavoratori del team.</span><span class="sxs-lookup"><span data-stu-id="08280-107">In the **Dispatch board** form, in the Gantt chart at the top of the form, expand a team list to review the names of the workers on the team.</span></span> <span data-ttu-id="08280-108">È inoltre possibile visualizzare i dettagli delle attività di servizio assegnate a ciascun lavoratore.</span><span class="sxs-lookup"><span data-stu-id="08280-108">You can also view details about the service activities that are assigned to each worker.</span></span>
 
-<span data-ttu-id="2306a-109">Per informazioni sull'assegnazione di un lavoratore a un team, vedere [Impostare un tecnico preferito](set-up-preferred-technician.md).</span><span class="sxs-lookup"><span data-stu-id="2306a-109">For information about how to assign a worker to a team, see [Set up a preferred technician](set-up-preferred-technician.md).</span></span>
+<span data-ttu-id="08280-109">Per informazioni sull'assegnazione di un lavoratore a un team, vedere [Impostare un tecnico preferito](set-up-preferred-technician.md).</span><span class="sxs-lookup"><span data-stu-id="08280-109">For information about how to assign a worker to a team, see [Set up a preferred technician](set-up-preferred-technician.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2306a-110">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="2306a-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="08280-110">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="08280-110">See also</span></span>
 
-[<span data-ttu-id="2306a-111">Definire la priorità degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="2306a-111">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="08280-111">Definire la priorità degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="08280-111">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="2306a-112">Visualizzare lo stato degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="2306a-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="08280-112">Visualizzare lo stato degli ordini di assistenza</span><span class="sxs-lookup"><span data-stu-id="08280-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
-[<span data-ttu-id="2306a-113">Monitorare le attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="2306a-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="08280-113">Monitorare le attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="08280-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="2306a-114">[Prospetto interventi (modulo)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="2306a-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="08280-114">[Prospetto interventi (modulo)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="08280-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 

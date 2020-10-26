@@ -13,62 +13,62 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6009f6de76155ea7c2982b28fe4505232447c9c8
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 6fa9c6d4862a49bbf0b5ecbb8c0c3d573e0f49e6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895307"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986145"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="ab5a6-103">Creare varianti prodotto predefinite</span><span class="sxs-lookup"><span data-stu-id="ab5a6-103">Create predefined product variants</span></span>
+# <a name="create-predefined-product-variants"></a><span data-ttu-id="82ddf-103">Creare varianti prodotto predefinite</span><span class="sxs-lookup"><span data-stu-id="82ddf-103">Create predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ab5a6-104">Questa procedura guida nella creazione di varianti prodotto per una rappresentazione generale prodotto mediante le combinazioni di dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="ab5a6-105">La società dimostrativa utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-105">The demo company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="82ddf-104">Questa procedura guida nella creazione di varianti prodotto per una rappresentazione generale prodotto mediante le combinazioni di dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="82ddf-105">La società dimostrativa utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="82ddf-105">The demo company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-master"></a><span data-ttu-id="ab5a6-106">Creare una rappresentazione generale prodotto</span><span class="sxs-lookup"><span data-stu-id="ab5a6-106">Create a product master</span></span>
-1. <span data-ttu-id="ab5a6-107">Andare a Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="ab5a6-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-108">Click New.</span></span>
-3. <span data-ttu-id="ab5a6-109">Nel campo Numero prodotto, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="ab5a6-110">Immettere un numero prodotto manualmente è obbligatorio solo se nessuna sequenza numerica è stata impostata per il campo relativo al numero di prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="ab5a6-111">In altre parole, ignorare il passaggio se la sequenza numerica è stata impostata per il campo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="ab5a6-112">Digitare un valore nel campo Nome prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="ab5a6-113">Nel campo Gruppo di dimensioni prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="ab5a6-114">Selezionare il gruppo di dimensioni prodotto SizeCol (dimensione e colore).</span><span class="sxs-lookup"><span data-stu-id="ab5a6-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="ab5a6-115">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-115">Click OK.</span></span>
+## <a name="create-a-product-master"></a><span data-ttu-id="82ddf-106">Creare una rappresentazione generale prodotto</span><span class="sxs-lookup"><span data-stu-id="82ddf-106">Create a product master</span></span>
+1. <span data-ttu-id="82ddf-107">Andare a Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="82ddf-108">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-108">Click New.</span></span>
+3. <span data-ttu-id="82ddf-109">Nel campo Numero prodotto, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="82ddf-110">Immettere un numero prodotto manualmente è obbligatorio solo se nessuna sequenza numerica è stata impostata per il campo relativo al numero di prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="82ddf-111">In altre parole, ignorare il passaggio se la sequenza numerica è stata impostata per il campo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
+4. <span data-ttu-id="82ddf-112">Digitare un valore nel campo Nome prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-112">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="82ddf-113">Nel campo Gruppo di dimensioni prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-113">In the Product dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="82ddf-114">Selezionare il gruppo di dimensioni prodotto SizeCol (dimensione e colore).</span><span class="sxs-lookup"><span data-stu-id="82ddf-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
+6. <span data-ttu-id="82ddf-115">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="82ddf-115">Click OK.</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="ab5a6-116">Aggiungere dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="ab5a6-116">Add product dimensions</span></span>
-1. <span data-ttu-id="ab5a6-117">Fare clic su Dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="ab5a6-118">In questo esempio viene illustrato come immettere manualmente le dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="ab5a6-119">È inoltre possibile scegliere di selezionare un gruppo di dimensioni, colore o stile che include i valori della dimensione prodotto si desidera utilizzare.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="ab5a6-120">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-120">Click New.</span></span>
-3. <span data-ttu-id="ab5a6-121">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="ab5a6-122">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="ab5a6-123">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="ab5a6-124">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-124">Click New.</span></span>
-7. <span data-ttu-id="ab5a6-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="ab5a6-126">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="ab5a6-127">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="ab5a6-128">Fare clic sulla scheda Colori.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="ab5a6-129">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-129">Click New.</span></span>
-12. <span data-ttu-id="ab5a6-130">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="ab5a6-131">Nel campo Colore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="ab5a6-132">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="ab5a6-133">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-133">Click New.</span></span>
-16. <span data-ttu-id="ab5a6-134">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="ab5a6-135">Nel campo Colore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="ab5a6-136">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="ab5a6-137">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-137">Click Save.</span></span>
-20. <span data-ttu-id="ab5a6-138">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-138">Close the page.</span></span>
+## <a name="add-product-dimensions"></a><span data-ttu-id="82ddf-116">Aggiungere dimensioni prodotto</span><span class="sxs-lookup"><span data-stu-id="82ddf-116">Add product dimensions</span></span>
+1. <span data-ttu-id="82ddf-117">Fare clic su Dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-117">Click Product dimensions.</span></span>
+    * <span data-ttu-id="82ddf-118">In questo esempio viene illustrato come immettere manualmente le dimensioni prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="82ddf-119">È inoltre possibile scegliere di selezionare un gruppo di dimensioni, colore o stile che include i valori della dimensione prodotto si desidera utilizzare.</span><span class="sxs-lookup"><span data-stu-id="82ddf-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
+2. <span data-ttu-id="82ddf-120">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-120">Click New.</span></span>
+3. <span data-ttu-id="82ddf-121">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="82ddf-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="82ddf-122">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-122">In the Size field, enter or select a value.</span></span>
+5. <span data-ttu-id="82ddf-123">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="82ddf-123">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="82ddf-124">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-124">Click New.</span></span>
+7. <span data-ttu-id="82ddf-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="82ddf-125">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="82ddf-126">Nel campo Sito immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-126">In the Size field, enter or select a value.</span></span>
+9. <span data-ttu-id="82ddf-127">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="82ddf-127">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="82ddf-128">Fare clic sulla scheda Colori.</span><span class="sxs-lookup"><span data-stu-id="82ddf-128">Click the Colors tab.</span></span>
+11. <span data-ttu-id="82ddf-129">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-129">Click New.</span></span>
+12. <span data-ttu-id="82ddf-130">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="82ddf-130">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="82ddf-131">Nel campo Colore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-131">In the Color field, enter or select a value.</span></span>
+14. <span data-ttu-id="82ddf-132">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="82ddf-132">In the Name field, type a value.</span></span>
+15. <span data-ttu-id="82ddf-133">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="82ddf-133">Click New.</span></span>
+16. <span data-ttu-id="82ddf-134">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="82ddf-134">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="82ddf-135">Nel campo Colore immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="82ddf-135">In the Color field, enter or select a value.</span></span>
+18. <span data-ttu-id="82ddf-136">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="82ddf-136">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="82ddf-137">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="82ddf-137">Click Save.</span></span>
+20. <span data-ttu-id="82ddf-138">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="82ddf-138">Close the page.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="ab5a6-139">Generare varianti prodotto</span><span class="sxs-lookup"><span data-stu-id="ab5a6-139">Generate product variants</span></span>
-1. <span data-ttu-id="ab5a6-140">Fare clic su Varianti prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-140">Click Product variants.</span></span>
-2. <span data-ttu-id="ab5a6-141">Fare clic su Suggerimenti variante.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="ab5a6-142">Fare clic su Seleziona tutto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-142">Click Select all.</span></span>
-    * <span data-ttu-id="ab5a6-143">In questo esempio sono selezionate tutte le possibili varianti.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="ab5a6-144">Se solo un sottoinsieme delle possibili combinazioni di dimensione prodotto verrà utilizzato per creare le varianti, è possibile selezionare le singole voci.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="ab5a6-145">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-145">Click Create.</span></span>
-    * <span data-ttu-id="ab5a6-146">È possibile generare le descrizioni per tutte le varianti in base alla combinazione di valori di dimensione prodotto.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="ab5a6-147">La descrizioni sono facoltativa.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="ab5a6-148">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ab5a6-148">Click Save.</span></span>
+## <a name="generate-product-variants"></a><span data-ttu-id="82ddf-139">Generare varianti prodotto</span><span class="sxs-lookup"><span data-stu-id="82ddf-139">Generate product variants</span></span>
+1. <span data-ttu-id="82ddf-140">Fare clic su Varianti prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-140">Click Product variants.</span></span>
+2. <span data-ttu-id="82ddf-141">Fare clic su Suggerimenti variante.</span><span class="sxs-lookup"><span data-stu-id="82ddf-141">Click Variant suggestions.</span></span>
+3. <span data-ttu-id="82ddf-142">Fare clic su Seleziona tutto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-142">Click Select all.</span></span>
+    * <span data-ttu-id="82ddf-143">In questo esempio sono selezionate tutte le possibili varianti.</span><span class="sxs-lookup"><span data-stu-id="82ddf-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="82ddf-144">Se solo un sottoinsieme delle possibili combinazioni di dimensione prodotto verrà utilizzato per creare le varianti, è possibile selezionare le singole voci.</span><span class="sxs-lookup"><span data-stu-id="82ddf-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
+4. <span data-ttu-id="82ddf-145">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="82ddf-145">Click Create.</span></span>
+    * <span data-ttu-id="82ddf-146">È possibile generare le descrizioni per tutte le varianti in base alla combinazione di valori di dimensione prodotto.</span><span class="sxs-lookup"><span data-stu-id="82ddf-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="82ddf-147">La descrizioni sono facoltativa.</span><span class="sxs-lookup"><span data-stu-id="82ddf-147">The descriptions are optional.</span></span>  
+5. <span data-ttu-id="82ddf-148">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="82ddf-148">Click Save.</span></span>
 
