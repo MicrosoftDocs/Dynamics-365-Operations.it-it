@@ -3,7 +3,7 @@ title: Analisi di adeguatezza dell'ottimizzazione di pianificazione
 description: Questo argomento spiega come verificare la configurazione e i dati correnti rispetto alle funzionalità della funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887140"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973454"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-Per visualizzare la compatibilità dell'impostazione e dei dati correnti rispetto alla funzionalità di ottimizzazione di pianificazione, passare a **Pianificazione generale** \> **Impostazione** \> **Analisi di adeguatezza dell'ottimizzazione di pianificazione** e selezionare **Esegui analisi**. Se l'analisi rileva delle incoerenze, vengono elencate nella stessa pagina. L'esecuzione dell'analisi può richiedere alcuni minuti.
+Devi analizzare il risultato dell'analisi di adeguatezza dell'ottimizzazione di pianificazione come parte del processo di migrazione. Nota che l'ambito dell'ottimizzazione di pianificazione non è uguale alla funzionalità di pianificazione generale incorporata corrente. Ti consigliamo di collaborare con il tuo partner e di leggere la documentazione per prepararti alla migrazione. 
+
+L'analisi di adeguatezza dell'ottimizzazione di pianificazione ti aiuta a identificare dove il risultato potrebbe differire tra il motore di pianificazione generale integrato e l'ottimizzazione di pianificazione. Questa analisi viene eseguita in base alla configurazione e ai dati correnti. 
+
+Per vedere il risultato dell'analisi di adeguatezza dell'ottimizzazione di pianificazione, vai a **Pianificazione generale** \> **Impostazione** \> **Analisi di adeguatezza dell'ottimizzazione di pianificazione** e quindi seleziona **Esegui analisi**. Se l'analisi rileva delle incoerenze, vengono elencate nella stessa pagina. L'esecuzione dell'analisi può richiedere alcuni minuti.
 
 > [!NOTE]
 > In caso di incongruenze, sarà comunque possibile utilizzare l'ottimizzazione di pianificazione. I risultati dell'analisi di adeguatezza indicano le posizioni in cui il servizio di pianificazione non onorerà la configurazione corrente. Ciò significa che indicano le posizioni in cui i processi potrebbero essere ignorati o non essere supportati.
@@ -39,7 +43,7 @@ Per visualizzare la compatibilità dell'impostazione e dei dati correnti rispett
 
 - **Funzionalità:** Produzione
 - **Problema:** Articoli con un livello distinta base (BOM) maggiore di zero: 56
-- **Spiegazione:** L'analisi di adattamento ha rilevato 56 articoli con l' impostazione della distinta base per la produzione. Poiché l'attuale versione di ottimizzazione di pianificazione non supporta la produzione, ottimizzazione di pianificazione genera ordini fornitore pianificati anziché ordini di produzione pianificati. Mostra anche un avviso che elenca gli articoli interessati.
+- **Spiegazione:** l'analisi di adeguatezza ha rilevato 56 articoli con l' impostazione della distinta base per la produzione. Poiché l'attuale versione di ottimizzazione di pianificazione non supporta la produzione, ottimizzazione di pianificazione genera ordini fornitore pianificati anziché ordini di produzione pianificati. Mostra anche un avviso che elenca gli articoli interessati.
 
 ## <a name="analysis-results-example-2"></a>Risultati dell'analisi: Esempio 2
 
@@ -47,9 +51,9 @@ Per visualizzare la compatibilità dell'impostazione e dei dati correnti rispett
 - **Problema:** Gruppi di copertura con calcolo delle azioni abilitato: 6
 - **Descrizione:** L'analisi di adeguatezza ha rilevato sei gruppi di copertura in cui il calcolo dell'azione è abilitato. Poiché la versione corrente dell'ottimizzazione di pianificazione non supporta le azioni, non viene generata alcuna azione durante la pianificazione generale.
 
-## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Panoramica dei possibili risultati dell'analisi di adattamento
+## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Panoramica dei possibili risultati dell'analisi di adeguatezza
 
-La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'analisi di adattamento. Il segno di cancelletto (_\#_) verrà sostituito con un numero che indica il numero di record che presentano il problema elencato.
+La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'analisi di adeguatezza. Il segno di cancelletto (_\#_) verrà sostituito con un numero che indica il numero di record che presentano il problema elencato.
 
 | Funzionalità | Problema elencato | Spiegazione | Disponibilità prevista |
 | --- | --- | --- | --- |
@@ -63,7 +67,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Stabilizzazione | Piani generali con stabilizzazione automatica impostata: _\#_ | Nella versione 10.0.7 e successive, la stabilizzazione automatica è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità _Stabilizzazione automatica per l'ottimizzazione della pianificazione_ è stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |
 | FitAnalysisPlanningItems | Articoli di pianificazione: _\#_ | Questa funzione è in sospeso. Attualmente, gli articoli di pianificazione vengono gestiti come gli articoli normali quando è abilitata l'ottimizzazione della pianificazione. | 2021 ottobre |
 | Prevista | Gruppi di copertura con "Includi ordini interaziendali" abilitati: _\#_ | Questa funzione è in sospeso. Attualmente, la pianificazione generale non include la domanda pianificata downstream quando l'ottimizzazione della pianificazione è abilitata, indipendentemente da questa impostazione. Si noti che gli ordini rilasciati/stabilizzati funzionano ancora con la normale funzionalità interaziendale e coprono la maggior parte degli scenari. | 2020 ottobre |
-| Prevista | Gruppi di copertura con impostazione "Riduci previsione per" impostata su un valore diverso rispetto a "Ordini": _\#_ | Per impostazione predefinita, l'ottimizzazione della pianificazione utilizza per gli ordini "Riduci previsioni per", indipendentemente da questa impostazione. | 2020 ottobre |
+| Prevista | Gruppi di copertura con impostazione "Riduci previsione per" impostata su un valore diverso rispetto a "Ordini": _\#_ | Per impostazione predefinita, l'ottimizzazione della pianificazione utilizza per gli ordini "Riduci previsioni per", indipendentemente da questa impostazione. | novembre 2020 |
 | Prevista | Modelli previsionali con sottomodelli: _\#_ | Questa funzione è in sospeso. Attualmente, le previsioni che utilizzano sottomodelli non sono supportate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | 2021 aprile |
 | Prevista | Piani generali con "Includi previsione offerta" abilitati: _\#_ | Questa funzione è in sospeso. Attualmente, le previsioni offerta non sono supportate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | 2021 ottobre |
 | Intervallo temporale blocco | Gruppi di copertura con intervallo temporale di blocco impostato: _\#_ | L'intervallo temporale di blocco non viene spesso utilizzato e al momento non è previsto di includerlo per l'ottimizzazione della pianificazione. Attualmente, l'impostazione dell'intervallo temporale di blocco viene ignorata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | N/D |
@@ -72,7 +76,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Interaziendale | Piani generali che includono la domanda downstream pianificata: _\#_ | Questa funzione è in sospeso. Attualmente, la pianificazione generale non include la domanda pianificata downstream quando l'ottimizzazione della pianificazione è abilitata, indipendentemente da questa impostazione. Si noti che gli ordini rilasciati/stabilizzati funzionano con la normale funzionalità interaziendale e coprono la maggior parte degli scenari. | 2020 ottobre |
 | Kanban | Record di copertura articoli con kanban di tipo di ordine pianificato: _\#_ | Questa funzione è in sospeso. Attualmente, la copertura degli articoli impostata su kanban verrà ignorata quando è abilitata l'ottimizzazione della pianificazione. Il tipo di ordine pianificato kanban creerà un avviso durante la pianificazione generale e verranno creati ordini fornitore pianificati per coprire la domanda relativa. | 2021 ottobre |
 | Kanban | Articoli con ordine di tipo kanban predefinito: _\#_ | Attualmente, un tipo di ordine predefinito impostato su kanban verrà ignorato quando è abilitata l'ottimizzazione della pianificazione. Il tipo di ordine predefinito kanban creerà un avviso durante la pianificazione generale e verranno creati ordini fornitore pianificati per coprire la domanda relativa. | 2021 ottobre |
-| Stato del ciclo di vita prodotto   | Stati del ciclo di vita del prodotto non attivi per la pianificazione: _\#_ | Questa è una funzione in sospeso. Lo stato del ciclo di vita del prodotto viene attualmente ignorato con l'ottimizzazione di pianificazione abilitata. È possibile regolare il filtro del prodotto a livello di piano per evitare di includere prodotti in cui il relativo stato del ciclo di vita è disabilitato per la pianificazione. | 2020 ottobre |
+| Stato del ciclo di vita prodotto   | Stati del ciclo di vita del prodotto non attivi per la pianificazione: _\#_ | Questa è una funzione in sospeso. Lo stato del ciclo di vita del prodotto viene attualmente ignorato con l'ottimizzazione di pianificazione abilitata. È possibile regolare il filtro del prodotto a livello di piano per evitare di includere prodotti in cui il relativo stato del ciclo di vita è disabilitato per la pianificazione. | novembre 2020 |
 | Produzione | Righe DBA con arrotondamento o impostazione multipla _\#_ | Questa funzione è in sospeso. Attualmente, l'arrotondamento e le impostazioni multiple vengono ignorate sulle righe DBA quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | 2021 aprile |
 | Produzione | Righe DBA/formula con misura formula: _\#_ | Questa funzione è in sospeso. Attualmente, la misurazione della formula viene ignorata in DBA e nelle righe della formula quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | 2021 ottobre |
 | Produzione | Righe DBA / formula con sostituzione articolo (gruppi di piani): _\#_ | Questa funzione è in sospeso. Attualmente, la sostituzione degli articoli (gruppi di pianificazione) viene ignorata in DBA e nelle righe formula quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | 2021 ottobre |

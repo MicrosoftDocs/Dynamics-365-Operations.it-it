@@ -3,7 +3,7 @@ title: Introduzione al componente aggiuntivo per la fatturazione elettronica
 description: Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835983"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971474"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica
 
@@ -62,7 +62,7 @@ Il componente aggiuntivo per la fatturazione elettronica è inizialmente disponi
 Prima di poter completare i passaggi in questo argomento, è necessario soddisfare i seguenti prerequisiti:
 
 - Accesso al tuo account LCS.
-- Un progetto di distribuzione LCS che include Finance o Supply Chain Management versione 10.0.12 o successiva.
+- Un progetto di distribuzione LCS che include Finance o Supply Chain Management versione 10.0.13 o successiva.
 - Accesso al tuo account RCS.
 - Attiva la funzionalità di globalizzazione per il tuo account RCS tramite il modulo **Gestione funzionalità**. Per altre informazioni, vedi [Regulatory Configuration Services (RCS) - Funzionalità di globalizzazione](rcs-globalization-feature.md)
 - Crea una risorsa Key Vault e un account di archiviazione in Azure. Per ulteriori informazioni, vedi [Creare un account di archiviazione di Azure e Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ La figura seguente mostra i cinque passaggi principali che verranno completati i
 ## <a name="lcs-setup"></a>Impostazioni LCS
 
 1. Accedi al tuo account LCS.
-2. Seleziona il progetto di distribuzione LCS. Prima di poter selezionare il progetto, è necessario che sia attivo e funzionante.
-3. Nella Scheda dettaglio **Componenti aggiuntivi per l'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
-4. Seleziona **Invio documenti aziendali**.
-5. Nella finestra di dialogo **Configura componente aggiuntivo**, nel campo **ID applicazione AAD**, inserisci **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Questo valore è un valore fisso.
-6. Nel campo **ID tenant AAD** immetti l'ID del tuo account di sottoscrizione di Azure.
+2. Seleziona il riquadro **Gestione funzionalità di anteprima** e nel gruppo di campi **Funzionalità di anteprima pubblica**, seleziona **BusinessDocumentSubmission**.
+3. Seleziona il campo **Funzionalità di anteprima abilitata**.
+4. Seleziona il progetto di distribuzione LCS. Prima di poter selezionare il progetto, è necessario che sia attivo e funzionante.
+5. Nella Scheda dettaglio **Componenti aggiuntivi per l'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
+6. Seleziona **Invio documenti aziendali**.
+7. Nella finestra di dialogo **Configura componente aggiuntivo**, nel campo **ID applicazione AAD**, inserisci **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Questo valore è un valore fisso.
+8. Nel campo **ID tenant AAD** immetti l'ID del tuo account di sottoscrizione di Azure.
 
     ![Finestra di dialogo Configura componente aggiuntivo in LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Seleziona la casella di controllo per accettare i termini e le condizioni.
-8. Selezionare **Installa**.
+9. Seleziona la casella di controllo per accettare i termini e le condizioni.
+10. Selezionare **Installa**.
 
 ## <a name="rcs-setup"></a>Impostazioni RCS
 
@@ -124,7 +126,7 @@ Durante la configurazione RCS, completerai queste attività:
 
     ![Campo URI di Key Vault](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Nella Scheda dettaglio **Certificati**, seleziona **Aggiungi** e immetti i nomi dei certificati digitali e i segreti del Key Vault. Entrambi i set di valori vengono configurati nella risorsa Key Vault in Azure.
+7. Nella Scheda dettaglio **Certificati**, seleziona **Aggiungi** per immettere tutti i nomi dei certificati digitali e i segreti del Key Vault necessari per stabilire connessioni attendibili. Nella colonna **Tipo** è possibile specificare se si tratta di un certificato o di un segreto. Entrambi i set di valori vengono configurati nella risorsa Key Vault in Azure.
 
     ![Aggiunta di certificati](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ Durante la configurazione RCS, completerai queste attività:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Configurare l'integrazione RCS con il server del componente aggiuntivo per la fatturazione elettronica
 
-1. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Collegamenti correlati**, seleziona il collegamento **Parametri per la creazione di report elettronici**.
+1. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Impostazioni correlate**, seleziona il collegamento **Parametri per la creazione di report elettronici**.
 2. Seleziona **Fare clic qui per connettersi a Regulatory Configuration Service**. Se non desideri connetterti a LCS, seleziona **Annulla**.
-3. Nella scheda **Componente aggiuntivo per la fatturazione elettronica**, nel campo **URI endpoint servizio**, immetti `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Nella scheda **Servizi di fatturazione elettronica**, nel campo **URI endpoint servizio**, immetti il valore in base alle aree geografiche disponibili: `https://businessdocumentsubmission.us.operations365.dynamics.com/` o `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Nel campo **ID applicazione**, verifica che venga visualizzato l'ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Questo valore è un valore fisso.
 5. Nel campo **ID ambiente LCS** immetti l'ID del tuo account di sottoscrizione LCS.
 

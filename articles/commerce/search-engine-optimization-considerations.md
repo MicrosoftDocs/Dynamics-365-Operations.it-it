@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002806"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961588"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
 
@@ -47,7 +47,7 @@ Per ottimizzare l'indicizzazione del motore di ricerca, il framework di renderin
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Impostazioni SEO delle pagine per anteprima interna, audience limitata e tutte le audience
 
-Poiché Dynamics 365 Commerce supporta le anteprime autenticate WYSIWYG, gli autori possono preparare il contenuto delle pagine senza preoccuparsi che le informazioni saranno visibili ai visitatori del sito. Se è necessario pubblicare una pagina, ma l'esposizione deve essere limitata, deve avere il tag meta **NOINDEX**, di modo che non venga indicizzata dai motori di ricerca. Quindi, quando la pagina è pronta per tutte le audience, tutti i metadati SEO di base devono essere presenti, allo scopo di ottimizzare l'efficienza di indicizzazione dei motori di ricerca. Inoltre, il tag meta **NOLIMIT** deve essere rimosso.
+Poiché Dynamics 365 Commerce supporta le anteprime autenticate WYSIWYG nel generatore di pagine visivo, gli autori possono preparare il contenuto delle pagine senza preoccuparsi che le informazioni saranno visibili ai visitatori del sito. Se è necessario pubblicare una pagina, ma l'esposizione deve essere limitata, deve avere il tag meta **NOINDEX**, di modo che non venga indicizzata dai motori di ricerca. Quindi, quando la pagina è pronta per tutte le audience, tutti i metadati SEO di base devono essere presenti, allo scopo di ottimizzare l'efficienza di indicizzazione dei motori di ricerca. Inoltre, il tag meta **NOLIMIT** deve essere rimosso.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

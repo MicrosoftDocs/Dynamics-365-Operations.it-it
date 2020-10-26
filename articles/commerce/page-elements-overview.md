@@ -3,7 +3,7 @@ title: Glossario del modello di pagina
 description: In questo argomento vengono descritti i vari elementi utilizzati nelle pagine di un sito di Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025996"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973911"
 ---
 # <a name="page-model-glossary"></a>Glossario del modello di pagina
 
@@ -54,6 +54,8 @@ Nella tabella seguente viene fornito un riepilogo dei termini che è necessario 
 [Stato e ciclo di vita documento](document-states-overview.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
+
+[Abilitare e utilizzare la condivisione multicanale](cross-channel-sharing.md)
 
 [Utilizzare i moduli](work-with-modules.md)
 
