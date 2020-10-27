@@ -16,15 +16,15 @@ ms.custom: 54591
 ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20a94ed3c64e81013edfa10e060dd32e04d12577
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b7214575e1eb3289224446ae5dd9d40221f054f8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214483"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978509"
 ---
 # <a name="production-posting"></a>Registrazione produzione
 
@@ -35,7 +35,7 @@ Questo articolo fornisce informazioni sui diversi tipi di registrazioni nel proc
 Le attività di registrazione della produzione seguono i processi di produzione descritti nelle sezioni indicate di seguito.
 
 ## <a name="material-consumption"></a>Consumo materiali
-I materiali vengono registrati come utilizzati in produzione quando il giornale di registrazione distinte di prelievo produzione viene registrato. Questo processo genera transazioni in uscita che riducono le scorte disponibili. Nei parametri di produzione è possibile specificare se il valore delle materie prime in lavorazione \[WIP\]) deve essere registrato nella contabilità generale. Il valore delle materie prime in lavorazione (WIP) viene quindi registrato in un conto distinta di prelievo dedicato e in un conto di contropartita dedicato distinta di prelievo.
+I materiali vengono registrati come utilizzati in produzione quando il giornale di registrazione distinte di prelievo produzione viene registrato. Questo processo genera transazioni in uscita che riducono le scorte disponibili. Nei parametri di produzione è possibile specificare se il valore delle materie prime in lavorazione (\[WIP\]) deve essere registrato nella contabilità generale. Il valore delle materie prime in lavorazione (WIP) viene quindi registrato in un conto distinta di prelievo dedicato e in un conto di contropartita dedicato distinta di prelievo.
 
 ## <a name="time-consumption"></a>Consumo di tempo
 Il tempo che i lavoratori utilizzano per i processi di produzione viene registrato nel giornale di registrazione schede cicli di lavorazione o nel giornale di registrazione schede processi. Quando questi giornali di registrazione vengono registrati, viene elaborata la registrazione contabile in un conto dedicato per le risorse in lavorazione (WIP). Questa registrazione rappresenta il valore del tempo dedicato sull'ordine di produzione. Una volta che l'ordine di produzione viene registrato come finito, i conti WIP vengono liquidati.

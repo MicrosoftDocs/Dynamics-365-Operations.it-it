@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Italy
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8891be0e4fb2cf2bd8d491c06aae675550fa1c4c
-ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
+ms.openlocfilehash: 95b0d1ca97c4fac9fcdcdb96622a58cdb75a13ca
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763679"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980681"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 

@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895379"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989243"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -37,10 +37,10 @@ In questo argomento sono riportate informazioni su cicli di lavorazione e operaz
 
 Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Supply Chain Management è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
 
--   **Ciclo di lavorazione** - un ciclo definisce la struttura del processo di produzione. In altre parole, definisce l'ordine delle operazioni.
--   **Operazione** - un'operazione identifica un passaggio denominato in un ciclo di lavorazione, ad esempio **Assemblaggio**. La stessa operazione può verificarsi in più cicli di lavorazione e può contenere un numero di operazioni diverso.
--   **Relazione operativa** - una relazione operativa definisce le proprietà operative di un'operazione, ad esempio il tempo di attrezzaggio, il tempo di esecuzione, le categorie costi, i parametri del consumo e i requisiti risorsa. La relazione operativa consente di impostare le proprietà operative di un'operazione per la variazione, in base al ciclo di lavorazione in cui l'operazione viene utilizzata o ai prodotti che vengono prodotti.
--   **Versione del ciclo di lavorazione** - una versione del ciclo di lavorazione definisce il ciclo di lavorazione specifico utilizzato per creare un prodotto o una variante prodotto. Le versioni dei cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzati nei prodotti o di essere modificati nel tempo. Inoltre consentono l'utilizzo dei diversi cicli di lavorazione per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali l'ubicazione o la quantità che deve essere prodotta.
+- **Ciclo di lavorazione** - un ciclo definisce la struttura del processo di produzione. In altre parole, definisce l'ordine delle operazioni.
+- **Operazione** - un'operazione identifica un passaggio denominato in un ciclo di lavorazione, ad esempio **Assemblaggio**. La stessa operazione può verificarsi in più cicli di lavorazione e può contenere un numero di operazioni diverso.
+- **Relazione operativa** - una relazione operativa definisce le proprietà operative di un'operazione, ad esempio il tempo di attrezzaggio, il tempo di esecuzione, le categorie costi, i parametri del consumo e i requisiti risorsa. La relazione operativa consente di impostare le proprietà operative di un'operazione per la variazione, in base al ciclo di lavorazione in cui l'operazione viene utilizzata o ai prodotti che vengono prodotti.
+- **Versione del ciclo di lavorazione** - una versione del ciclo di lavorazione definisce il ciclo di lavorazione specifico utilizzato per creare un prodotto o una variante prodotto. Le versioni dei cicli di lavorazione consentono ai cicli di lavorazione di essere riutilizzati nei prodotti o di essere modificati nel tempo. Inoltre consentono l'utilizzo dei diversi cicli di lavorazione per produrre lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato dipende da fattori quali l'ubicazione o la quantità che deve essere prodotta.
 
 ## <a name="routes"></a>Cicli di lavorazione
 Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la produzione di un prodotto o una variante prodotto. A ciascuna operazione viene assegnato un numero di operazione e un'operazione successiva. L'ordine delle operazioni forma una rete di cicli di lavorazione che può essere rappresentata da un grafico diretto con uno o più punti di origine e un unico punto finale. In Supply Chain Management i cicli di lavorazione vengono distinti in base al tipo di struttura. I due tipi di cicli di lavorazione sono cicli di lavorazione semplici e reti di cicli di lavorazione. Nei parametri di controllo produzione, è possibile specificare se è possibile utilizzare solo i cicli di lavorazione semplici o reti più complesse di cicli di lavorazione.
@@ -60,9 +60,9 @@ Se si consentono reti più complesse del ciclo di lavorazione nei parametri di c
 [![Rete di cicli di lavorazione](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
-> -   Non esiste alcuna certezza che più operazioni con la stessa operazione successiva (ad esempio operazioni 30 e 40 nella precedente figura) verranno effettivamente eseguite in parallelo. La disponibilità e la capacità delle risorse possono determinare i vincoli nel modo in cui le operazioni sono programmate.
-> -   Non è possibile utilizzare 0 (zero) come numero di operazione. Questo numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
+> - Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
+> - Non esiste alcuna certezza che più operazioni con la stessa operazione successiva (ad esempio operazioni 30 e 40 nella precedente figura) verranno effettivamente eseguite in parallelo. La disponibilità e la capacità delle risorse possono determinare i vincoli nel modo in cui le operazioni sono programmate.
+> - Non è possibile utilizzare 0 (zero) come numero di operazione. Questo numero è prenotato e viene utilizzato per specificare che l'ultima operazione del ciclo di lavorazione non dispone di operazione successiva.
 
 ### <a name="parallel-operations"></a>Operazioni parallele
 
@@ -99,12 +99,12 @@ Le proprietà operative dell'operazione, ad esempio il tempo di attrezzaggio, il
 ## <a name="operation-relations"></a>Relazioni operative
 Le seguenti proprietà operative di un'operazione vengono gestite nella relazione operativa:
 
--   Categorie costi
--   Parametri di consumo
--   Tempi di elaborazione
--   Quantità di elaborazione
--   Requisiti risorsa
--   Note e istruzioni
+- Categorie costi
+- Parametri di consumo
+- Tempi di elaborazione
+- Quantità di elaborazione
+- Requisiti risorsa
+- Note e istruzioni
 
 È possibile definire più relazioni operative per la stessa operazione. Tuttavia, ciascuna relazione operativa è specifica di un'operazione e vengono memorizzare le proprietà specifiche di un ciclo di lavorazione, un prodotto rilasciato, o un set di prodotti rilasciati correlati a un gruppo di articoli. Di conseguenza, la stessa operazione può essere utilizzata in più cicli di lavorazione con proprietà operative diverse. Inoltre, è possibile gestire più facilmente i dati master se si utilizzano operazioni standard con le stesse proprietà operative, indipendentemente dal ciclo di lavorazione utilizzato e dal prodotto da produrre. L'ambito della relazione operativa è definito tramite le proprietà **Codice articolo**, **Relazione articolo**, **Codice ciclo di lavorazione** e **Relazione ciclo di lavorazione** come illustrato nella seguente tabella.
 
@@ -166,12 +166,13 @@ Quando Supply Chain Management cerca la relazione operativa più rilevante per u
 Di conseguenza, un'operazione essere utilizzata una sola volta per ogni ciclo di lavorazione. Se l'operazione viene eseguita più volte nello stesso ciclo di lavorazione, tutti le occorrenze di tale operazione avranno la stessa relazione operativa e non sarà possibile avere proprietà diverse, ad esempio il tempo di esecuzione, per ogni occorrenza.
 
 ## <a name="route-versions"></a>Versioni cicli di lavorazione
+
 Le versioni del ciclo di lavorazione vengono utilizzate per adeguare il ciclo di lavorazione alle variazioni nella produzione dei prodotti o per migliorare il controllo del processo di produzione. Definiscono quale ciclo di lavorazione deve essere utilizzato quando si produce un prodotto rilasciato specifico o una variante prodotto rilasciata. È possibile utilizzare i seguenti vincoli per definire quale ciclo di lavorazione utilizzare per un prodotto rilasciato:
 
--   Le dimensioni prodotto (dimesnioni, colore, stile o configurazione)
--   Quantità di produzione
--   Sito di produzione
--   Data di produzione
+- Le dimensioni prodotto (dimesnioni, colore, stile o configurazione)
+- Quantità di produzione
+- Sito di produzione
+- Data di produzione
 
 Quando si produce il prodotto presso un sito specifico, con una quantità specifica o in un periodo specifico, è possibile indicare una versione specifica del ciclo di lavorazione come versione del ciclo di lavorazione predefinito. Tuttavia, si noti che solo un ciclo di lavorazione attivo è consentito per un prodotto rilasciato specifico e per un set specifico di vincoli.  
 
@@ -194,6 +195,7 @@ Se è necessario tenere un registro per registrare chi approva e attiva ciascuna
 Il caso di modifica del prodotto per l'approvazione e l'attivazione di nuovi o modificati cicli di lavorazione e versioni di cicli di lavorazione fornisce un modo semplice di visualizzare una panoramica dei vincoli della versione del ciclo di lavorazione. È inoltre possibile approvare e attivare tutti i cicli di lavorazione correlati a una modifica specifica con un'unica operazione e documentare i risultati nel caso del prodotto.
 
 ## <a name="maintaining-routes"></a>Gestione dei cicli di lavorazione
+
 In base ai requisiti aziendali, è possibile ridurre le risorse necessarie per gestire le definizioni di processo.
 
 ### <a name="making-routes-independent-of-resources"></a>Impostazione di cicli di lavorazione indipendenti dalle risorse
@@ -224,10 +226,10 @@ Quando si utilizza questo metodo, la pagina **Relazioni operative** viene impost
 
 Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei requisiti risorsa per un'operazione, le risorse applicabili possono funzionare secondo velocità diverse. Come risultato, il tempo necessario per elaborare l'operazione potrebbe variare. Per risolvere questo problema, è possibile utilizzare il campo **Formula** della relazione operativa per specificare come viene calcolato il tempo di elaborazione. Sono disponibili le seguenti opzioni:
 
--   **Standard** – (opzione predefinita) nel calcolo vengono utilizzati solo i campi della relazione operativa e viene moltiplicato il tempo di esecuzione specificato per la quantità dell'ordine.
--   **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**.
--   **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
--   **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
+- **Standard** – (opzione predefinita) nel calcolo vengono utilizzati solo i campi della relazione operativa e viene moltiplicato il tempo di esecuzione specificato per la quantità dell'ordine.
+- **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**.
+- **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
+- **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
 
 ### <a name="set-up-route-groups"></a>Imposta i gruppi di cicli di lavorazione
 

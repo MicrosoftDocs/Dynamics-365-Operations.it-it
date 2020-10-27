@@ -3,7 +3,7 @@ title: Operazione di magazzino in ingresso in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710311"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971499"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -133,6 +133,18 @@ La visualizzazione **In ricevimento ora** fornisce agli utenti un modo mirato di
 Le convalide si verificano durante il processo di ricezione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di ricevere più scorte di quelle ordinate in un ordine fornitore ma la consegna in eccesso non è configurata o l'importo ricevuto supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine fornitore, l'utente riceve un errore e non è consentito ricevere la quantità in eccesso.
 
 Le entrate eccessive non sono consentite per i documenti ordine di trasferimento. Gli utenti riceveranno sempre errori se provano a ricevere più di quanto è stato spedito per la riga dell'ordine di trasferimento.
+
+### <a name="close-purchase-order-lines"></a>Chiudere righe ordine fornitore
+
+Puoi chiudere la quantità rimanente di un ordine fornitore in entrata durante il processo di ricezione se lo spedizioniere ha confermato di non poter spedire l'intera quantità richiesta. A questo proposito, la società deve essere configurata per consentire il limite minimo di fornitura degli ordini fornitore. Inoltre, una percentuale di tolleranza del limite minimo di fornitura deve essere definita per la riga dell'ordine fornitore.
+
+Per configurare l'azienda in modo da consentire il limite minimo di fornitura degli ordini fornitore, in Commerce Headquarters, seleziona **Approvvigionamento** > **Impostazione** > **Parametri di approvvigionamento**. Nella scheda **Consegna**, attiva il parametro **Accetta limite minimo di fornitura**. Quindi esegui il processo di programmazione della distribuzione **1070** (**Configurazione canale**) per sincronizzare le modifiche ai canali.
+
+Le percentuali di tolleranza del limite minimo di fornitura per una riga di ordine fornitore possono essere predefinite nei prodotti come parte della configurazioni dei prodotti in Commerce Headquarters. In alternativa, possono essere impostate o sovrascritte in uno specifico ordine fornitore in Commerce Headquarters.
+
+Dopo che un'organizzazione completa le configurazioni del limite minimo di fornitura dell'ordine fornitore, gli utenti del POS vedranno una nuova opzione **Chiudi quantità rimanente** nel pannello **Dettagli** quando viene selezionata una riga ordine fornitore in entrata nell'operazione **Magazzino in entrata**. Se l'utente chiude la quantità rimanente, il POS esegue una convalida per verificare se la quantità che viene chiusa rientra nella percentuale di tolleranza del limite minimo di fornitura definita nella riga dell'ordine fornitore. Se la tolleranza del limite minimo di fornitura viene superato, viene visualizzato un messaggio di errore e l'utente non sarà in grado di chiudere la quantità rimanente fino a quando la quantità precedentemente ricevuta più la quantità **In ricevimento ora** è uguale o superiore alla quantità minima che deve essere ricevuta in base alla percentuale di tolleranza del limite minimo di fornitura. 
+
+Con l'opzione **Chiudi quantità rimanente** attivata per una riga di ordine fornitore, quando l'utente completa la ricezione utilizzando l'azione **Termina ricezione**, viene inoltre inviata una richiesta di chiusura a Commerce Headquarters e qualsiasi quantità non ricevuta di questa riga ordine verrà annullata. A quel punto la linea viene considerata completamente ricevuta. 
 
 ### <a name="receiving-location-controlled-items"></a>Ricezione di articoli controllati in base alla posizione
 

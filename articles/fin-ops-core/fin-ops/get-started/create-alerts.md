@@ -3,7 +3,7 @@ title: Creare regole di avviso
 description: In questo argomento vengono fornite informazioni sugli avvisi e viene descritto come creare una regola di avviso in modo da essere informati sugli eventi come una data in arrivo o una specifica modifica.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075926"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970681"
 ---
 # <a name="create-alert-rules"></a>Creare regole di avviso
 
@@ -92,3 +92,14 @@ Gli avvisi possono essere inviati esternamente utilizzando il framework degli ev
 7. Nella Scheda dettaglio **Invia avviso con**, nel campo **Oggetto**, accettare la voce indice predefinita per il messaggio di posta elettronica o immettere un nuovo oggetto. Il testo è utilizzato come voce indice del messaggio di posta elettronica che si riceve quando viene attivato un avviso. Se si desidera inviare l'avviso come evento aziendale, impostare **Invia esternamente** su **Sì**.
 8. Nel campo **Messaggio**, immettere un messaggio facoltativo. Il testo viene utilizzato come il messaggio ricevuto quando un avviso viene attivato.
 9. Selezionare **OK** per salvare le impostazioni e creare la regola di avviso.
+
+## <a name="limitations-and-workarounds"></a>Limitazioni e soluzioni alternative
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Soluzione alternativa per la creazione di avvisi per le origini dati secondarie di un modulo
+Non è possibile creare avvisi per alcune origini dati secondarie nei moduli. Ad esempio, quando si creano avvisi nel modulo dei profili di registrazione di clienti o fornitori, sono disponibili solo i campi nell'intestazione (CustLedger o VendLedger) e non i conti dimensione. La soluzione alternativa per questa limitazione è utilizzare **SysTableBrowser** per aprire la tabella come origine dati primaria. 
+1. Apri la tabella nel modulo **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Crea un avviso con il modulo SysTableBrowser.
+

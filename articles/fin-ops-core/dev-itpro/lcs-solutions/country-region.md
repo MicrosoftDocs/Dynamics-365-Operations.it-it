@@ -1,6 +1,6 @@
 ---
 title: Risorse di globalizzazione
-description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese.
+description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/02/2019
@@ -14,15 +14,15 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
-ms.author: shylaw
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598183"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979306"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
@@ -35,16 +35,16 @@ Se le normative governative locali richiedono che i dati vengano memorizzati o g
 
 [!include [banner](../includes/banner.md)]
 
-Nelle app Finance and Operations sono presenti funzionalità per i paesi documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
+Nelle app Finance and Operations sono presenti funzionalità per i paesi/aree geografiche documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
 In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
 - Ottenere ulteriori informazioni su come sviluppare soluzioni specifiche per paese/area geografica.
-- Recuperare aggiornamenti specifici del paese/dell'area geografica.
+- Recuperare aggiornamenti specifici del paese/area geografica.
 - Inviare e consultare degli avvisi normativi.
-- Ottenere informazioni su come utilizzare funzionalità specifiche del paese/dell'area geografica.
+- Ottenere informazioni su come utilizzare funzionalità specifiche del paese/area geografica.
 
 ### <a name="developing-localized-solutions"></a>Sviluppo di soluzioni localizzate
-Nelle risorse seguenti sono riportate istruzioni e informazioni che possono essere utili per gli sviluppatori e i fornitori di software indipendente (ISV, Independent Software Vendor) che creano personalizzazioni specifiche di un paese/un'area geografica o una soluzione per un paese non supportato da Microsoft.
+Nelle risorse seguenti sono riportate istruzioni e informazioni che possono essere utili per gli sviluppatori e i fornitori di software indipendente (ISV, Independent Software Vendor) che creano personalizzazioni specifiche di un paese/area geografica o una soluzione per un paese/area geografica non supportato da Microsoft.
 -   [Separazione dei modelli di localizzazione](separate-localization-models.md)
 -   [Applicare il contesto del paese](apply-country-context.md)
 -   [Informazioni sulla certificazione normativa nei titoli delle funzionalità](regulatory-certifications.md)
@@ -61,7 +61,7 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 
 #### <a name="communication-and-alerts"></a>Comunicazione e avvisi
 -   [Comunicazione di aggiornamenti normativi e monitoraggio normativo](regulatory-watch-communication.md)
--   [Inviare gli avvisi relativi alle funzionalità per la normativa specifiche del paese](submit-localization-alerts.md)
+-   [Inviare gli avvisi relativi alle funzionalità per la normativa specifiche del paese/area geografica](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Piani di rilascio di Dynamics 365
 I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
@@ -70,7 +70,7 @@ I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applic
 La [home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse nelle versioni specifiche delle app Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
-Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
+Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi/aree geografiche. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Creare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)
@@ -89,7 +89,7 @@ Per trovare le guide attività, fare clic su Guida in una pagina dell'applicazio
 Per ulteriori informazioni, vedere la [Guida](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
-### <a name="countryregion-specific-help-content"></a>Contenuti della Guida specifici del paese/dell'area geografica
+### <a name="countryregion-specific-help-content"></a>Contenuti della Guida specifici del paese/area geografica
 :::row:::
     :::column:::
         - [Australia](../../../finance/localizations/australia.md)

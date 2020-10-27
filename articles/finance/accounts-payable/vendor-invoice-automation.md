@@ -1,5 +1,5 @@
 ---
-title: Automazione fattura fornitore
+title: Automazione delle fatture per documenti digitalizzati
 description: In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
-ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "3396011"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "3904957"
 ---
-# <a name="vendor-invoice-automation"></a>Automazione fattura fornitore
+# <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per documenti digitalizzati
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,7 +53,7 @@ Il resto di questo argomento fornisce descrizioni dettagliate di questi componen
 
 ## <a name="data-entities"></a>Entità di dati
 
-Un pacchetto dati è l'unità di lavoro che deve essere inviata, in modo che le intestazioni delle fatture, le righe fattura e gli allegati fatture possono essere creati. Le seguenti entità dati vengono utilizzate per gli elementi che costituiscono il pacchetto dati:
+Un pacchetto dati è l'unità di lavoro che deve essere inviata, in modo che le intestazioni delle fatture, le righe di fattura e gli allegati fatture possono essere creati. Le seguenti entità dati vengono utilizzate per gli elementi che costituiscono il pacchetto dati:
 
 + Intestazione fattura fornitore
 + Riga fattura fornitore

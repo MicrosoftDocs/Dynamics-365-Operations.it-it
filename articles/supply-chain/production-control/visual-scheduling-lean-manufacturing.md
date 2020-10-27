@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826408"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958743"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programmazione visiva per lean manufacturing
 
@@ -61,7 +61,7 @@ La pagina **Bacheca programmazione kanban** contiene sette elementi principali, 
 
 ### <a name="view-the-time-scale"></a>Consente di visualizzare la scala cronologica
 
-La bacheca è suddivisa in periodi, ognuno dei quali è rappresentato da un nodo (4). I nodi del periodo sono elencati sull'asse verticale e l'accesso orizzontale rappresenta una scala cronologica (7) che mostra la durata del periodo. Un periodo ha una durata di un giorno o una settimana. La durata del periodo viene determinata dalla configurazione della cella di lavoro selezionata nella bacheca della programmazione kanban (2). Per ogni nodo di periodo, la bacheca della programmazione kanban indica quanto i processi kanban programmati stanno caricando nel periodo. Esiste inoltre un'indicazione di produttività massima per il periodo. Se la produttività programmata supera la produttività massima, nel periodo viene considerato sovraccaricato e un simbolo di avviso rosso verrà visualizzato. Un processo kanban programmato è incluso in un periodo con inizio e ore di scadenza (5) programmati. La durata del processo corrisponde al tempo di attività. I processi kanban vengono visualizzati come sovrapposti in un periodo se i relativi tempi di attività superano il tempo di produzione di un'unità della cella di lavoro.
+La bacheca è suddivisa in periodi, ognuno dei quali è rappresentato da un nodo (4). I nodi del periodo sono elencati sull'asse verticale e l'asse orizzontale rappresenta una scala cronologica (7) che mostra la durata del periodo. Un periodo ha una durata di un giorno o una settimana. La durata del periodo viene determinata dalla configurazione della cella di lavoro selezionata nella bacheca della programmazione kanban (2). Per ogni nodo di periodo, la bacheca della programmazione kanban indica quanto i processi kanban programmati stanno caricando nel periodo. Esiste inoltre un'indicazione di produttività massima per il periodo. Se la produttività programmata supera la produttività massima, nel periodo viene considerato sovraccaricato e un simbolo di avviso rosso verrà visualizzato. Un processo kanban programmato è incluso in un periodo con inizio e ore di scadenza (5) programmati. La durata del processo corrisponde al tempo di attività. I processi kanban vengono visualizzati come sovrapposti in un periodo se i relativi tempi di attività superano il tempo di produzione di un'unità della cella di lavoro.
 
 ### <a name="view-job-status"></a>Visualizzazione dello stato del processo
 

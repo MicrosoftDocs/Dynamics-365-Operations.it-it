@@ -16,15 +16,15 @@ ms.custom: 19191
 ms.assetid: 8993f9a1-d1c0-49f5-afd3-5e1077ded0fe
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee92f7f5cc7cbbb4af8455bdcaf1b2265102ad7c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f7fac3ec6df53dcc6e459f62f76d856a11d294b6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209492"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981354"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
@@ -60,7 +60,7 @@ No, il valore di un attributo di destinazione non può limitare i valori per gli
 
 Nella seguente espressione, la destinazione per il calcolo è la lunghezza di un cavo di alimentazione e il valore di input è un colore:  
 
-**Espressione**: \[If Color == "Verde", 1,5, 1,0]\]  
+**Espressione**: \[If Color == "Verde", 1,5, 1,0\]  
 
 Quando si configura l'articolo, la lunghezza del cavo di alimentazione viene impostata su **1,5** se si specifica **Verde** come valore dell'attributo colore. Se si specifica un qualsiasi altro colore, la lunghezza diventa **1,0**. Tuttavia, poiché i calcoli sono unidirezionali, il calcolo non fissa il valore dell'attributo colore su **Verde** se si specifica prima la lunghezza di **1,5**.
 
@@ -90,7 +90,7 @@ Se si rimuove un valore di input nel calcolo, anche il valore dell'attributo di 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Perché viene visualizzato un messaggio di errore indicante che il modello è in conflitto?
 Questo messaggio viene visualizzato quando un calcolo include un errore o quando è presente un conflitto in uno o più vincoli. Per ulteriori informazioni sui conflitti nei vincoli, vedere [Vincoli di espressione e vincoli di tabella nei modelli di configurazione del prodotto](expression-constraints-table-constraints-product-configuration-models.md). Di seguito sono elencate alcune situazioni in cui gli errori possono verificarsi nei calcoli:
 
--   Un valore viene suddiviso per 0 (zero.
+-   Un valore viene suddiviso per 0 (zero).
 -   È presente un conflitto tra i due seguenti elementi:
     -   I valori disponibili per un attributo e che vengono limitati da un vincolo.
     -   Un valore generato da un calcolo.

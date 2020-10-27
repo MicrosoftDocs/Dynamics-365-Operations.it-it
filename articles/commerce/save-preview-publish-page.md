@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269983"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961612"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Salvare, visualizzare in anteprima e pubblicare una pagina
 
@@ -38,9 +38,9 @@ Quando si salva una pagina, le modifiche sono visibili solo all'utente corrente.
 
 ## <a name="preview-a-page"></a>Visualizzare l'anteprima di una pagina
 
-Lo strumento di creazione offre due tipi di funzionalità di anteprima: un riquadro di anteprima WYSIWYG nell'editor di pagine e una finestra di anteprima distinta.
+Lo strumento di creazione offre due tipi di funzionalità di anteprima: il generatore di pagine visivo, che è un riquadro di anteprima WYSIWYG nell'editor di pagine, e una finestra di anteprima distinta.
 
-Quando si utilizza l'editor di pagine, un'anteprima WYSIWYG viene visualizzata nel riquadro centrale. Questa anteprima viene automaticamente aggiornata ogni volta che si salva la pagina. È anche possibile aggiornarla manualmente selezionando **Aggiorna** nella barra dei comandi. L'anteprima WYSIWYG visualizza la pagina esattamente come sarà visibile agli utenti del sito, ma con gli helper di creazione nella parte superiore.
+Quando si utilizza l'editor di pagine, un'anteprima WYSIWYG viene visualizzata nel riquadro centrale. Questa anteprima viene automaticamente aggiornata ogni volta che si salva la pagina. È anche possibile aggiornarla manualmente selezionando **Aggiorna** nella barra dei comandi. L'anteprima visualizza la pagina esattamente come sarà visibile agli utenti del sito, ma con gli helper di creazione nella parte superiore.
 
 Al termine della modifica della pagina, è possibile visualizzarne l'anteprima per stabilire quali clienti la vedranno. Per visualizzare l'anteprima di una pagina, selezionare **Anteprima** nella barra dei comandi. L'anteprima sarà visualizzata in una finestra del browser distinta. La pagina nella finestra di anteprima appare esattamente come risulterà visibile agli utenti del sito. È possibile ridimensionare la finestra per assicurare il corretto rendering di moduli reattivi in tutte le porte di visualizzazione.
 

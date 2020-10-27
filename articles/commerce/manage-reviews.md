@@ -1,9 +1,9 @@
 ---
 title: Gestire valutazioni e recensioni
-description: In questo argomento viene descritto come gestire valutazioni e recensioni utilizzando lo strumento di moderazione di valutazioni e recensioni di Microsoft Dynamics 365 Commerce.
+description: In questo argomento viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027244"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974008"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestire valutazioni e recensioni
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come gestire valutazioni e recensioni utilizzando lo strumento di moderazione di valutazioni e recensioni di Microsoft Dynamics 365 Commerce.
+In questo argomento viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Dynamics 365 Commerce utilizza il servizio cognitivo di Microsoft Azure per moderare automaticamente il testo delle recensioni censurando le parole volgari. Inoltre, i moderatori possono utilizzare lo strumento di moderazione di valutazioni e recensioni per le seguenti attività manuali:
+Dynamics 365 Commerce utilizza il servizio cognitivo di Microsoft Azure per moderare automaticamente il testo delle recensioni censurando le parole volgari. Inoltre, i moderatori possono Creazione di siti Web di Dynamics 365 Commerce per implementare le seguenti attività manuali:
 
 - Moderare le recensioni rispondendo alle stesse o rimuovendole.
 - Eliminare le recensioni di un cliente su richiesta del cliente.
 - Importare in blocco i dati di valutazioni e recensioni per tutti i prodotti in un modello di Microsoft Power BI, di modo che i trend di valutazioni e recensioni possano essere analizzati.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Accedere alle funzionalità di moderazione di valutazioni e recensioni
-
-Per accedere alle funzionalità di moderazione di valutazioni e recensioni nello strumento di gestione del sito di e-commerce, attenersi alla seguente procedura.
-
-1. Accedere a [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
-1. Aprire il progetto contenente l'ambiente in cui si desidera inizializzare e-Commerce.
-1. Nella sezione **Ambienti**, selezionare l'ambiente.
-1. In **Funzionalità ambiente**, selezionare **Gestione vendita al dettaglio**.
-1. Nella scheda **e-Commerce** sotto **Collegamenti**, selezionare **Strumento di gestione del sito di e-Commerce**.
-
 ## <a name="read-a-review"></a>Leggere una recensione 
+
+Per leggere una recensione in Creazione di siti Web di Commerce, effettuare le seguenti operazioni.
 
 1. Andare a **Home \> Recensioni \> Moderazione**.
 1. Utilizzare il campo di ricerca nell'angolo superiore destro della pagina per filtrare le recensioni visualizzate per ID prodotto, nome di prodotto o testo della recensione.
@@ -62,7 +54,7 @@ Ulteriori filtri consentono di limitare le recensioni per periodo, valutazione, 
 
 Talvolta, i clienti che hanno acquistato un prodotto esprimono la loro soddisfazione o insoddisfazione o non capiscono come utilizzare il prodotto. In veste di moderatore, è possibile pubblicare una risposta a una recensione. Questa risposta viene visualizzata insieme alla recensione nel sito. 
 
-Per rispondere a una recensione, effettuare le seguenti operazioni.
+Per rispondere a una recensione in Creazione di siti Web di Commerce, effettuare le seguenti operazioni.
 
 1. Andare a **Home \> Recensioni \> Moderazione**.
 1. Individuare e selezionare la recensione che richiede una risposta.
@@ -76,20 +68,20 @@ Per rispondere a una recensione, effettuare le seguenti operazioni.
 
 Talvolta, i moderatori rimuovono le recensioni dei clienti per un motivo commerciale. 
 
-Per rimuovere una recensione, effettuare le seguenti operazioni.
+Per rimuovere una recensione in Creazione di siti Web di Commerce, effettuare le seguenti operazioni.
 
 1. Andare a **Home \> Recensioni \> Moderazione**.
 1. Individuare e selezionare la recensione da rimuovere.
-1. Nel riquadro delle proprietà a destra, selezionare il motivo della rimozione e quindi selezionare **Rimuovere**.
+1. Nel riquadro delle proprietà a destra, selezionare il motivo della rimozione sotto **Rimuovere una recensione** e quindi selezionare **Rimuovi**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Eliminare le recensioni di un cliente su richiesta del cliente. 
 
 Talvolta, i clienti desiderano eliminare in modo permanente i dati delle loro recensioni e valutazioni da un sito Web di e-Commerce. Un moderatore che riceve una richiesta di rimozione da un cliente può rimuovere i dati del cliente mediante la funzionalità di eliminazione di recensioni. Per trovare ed eliminare i dati di un cliente, il moderatore richiede l'indirizzo di posta elettronica che il cliente ha utilizzato per accedere e fornire le recensioni. 
 
-Per trovare ed eliminare i dati dei clienti, effettuare le seguenti operazioni.
+Per trovare ed eliminare dati dei clienti in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Andare a **Home \> Recensioni \> Elimina**.
-1. Nel campo **Cerca utenti per indirizzo di posta elettronica**, immettere l'indirizzo di posta elettronica del cliente e quindi selezionare **Cerca**.
+1. Nella casella **Cerca utenti per indirizzo di posta elettronica**, immettere l'indirizzo di posta elettronica del cliente e quindi selezionare **Cerca**.
 1. Se il cliente svolge una qualsiasi attività di recensione (ad esempio invio di recensioni, voti sull'utilità delle recensioni di un altro cliente o commenti sulla recensione di un altro cliente), i risultati sono visualizzati. Per ogni elemento, è presente un pulsante **Elimina**.
 1. Per ogni elemento che deve essere eliminato, selezionare **Elimina**. Quando viene richiesto di confermare, selezionare **Sì**. 
     
@@ -101,9 +93,9 @@ Per trovare ed eliminare i dati dei clienti, effettuare le seguenti operazioni.
 
 ## <a name="download-ratings-and-reviews-data"></a>Scaricare i dati di valutazioni e recensioni
 
-Lo strumento di moderazione di valutazioni e recensioni consente ai moderatori di importare in blocco i dati di valutazioni e recensioni, di modo che possano analizzare le tendenze. Un modello di Power BI che include le metriche di base è disponibile. I moderatori possono utilizzare questo modello per collegare i dati importati in blocco e visualizzare un dashboard. Non devono creare un dashboard personalizzato. I moderatori possono inoltre personalizzare il modello di Power BI in base alle proprie esigenze. 
+Creazione di siti Web di Commerce consente ai moderatori di importare in blocco i dati di valutazioni e recensioni, di modo che possano analizzare le tendenze. Un modello di Power BI che include le metriche di base è disponibile. I moderatori possono utilizzare questo modello per collegare i dati importati in blocco e visualizzare un dashboard. Non devono creare un dashboard personalizzato. I moderatori possono inoltre personalizzare il modello di Power BI in base alle proprie esigenze. 
 
-Per scaricare i dati di valutazioni e recensioni, effettuare le seguenti operazioni.
+Per scaricare i dati di valutazioni e recensioni in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Andare a **Home \> Recensioni \> Report**.
 1. Selezionare **Scarica dati di recensioni** per scaricare in blocco i dati di valutazioni e recensioni in formato CSV.
@@ -112,7 +104,7 @@ Per scaricare i dati di valutazioni e recensioni, effettuare le seguenti operazi
 
 I moderatori possono scaricare il modello di Power BI in modo da poter visualizzare le tendenze in un dashboard.
 
-Per visualizzare le tendenze di valutazioni e recensioni, effettuare le seguenti operazioni.
+Per visualizzare le tendenze di valutazioni e recensioni in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Andare a **Home \> Recensioni \> Report**.
 1. Selezionare **Modello di PowerBI** per scaricare il modello.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652181"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970705"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -234,6 +234,9 @@ Se un articolo di lavoro di magazzino è costituito da righe uguali a un pallet 
 
 Poiché la funzionalità **Gestisci per targa** non supporta il lavoro che copre più pallet, è meglio avere un elemento di lavoro separato per diverse targhe. Per utilizzare questo approccio, aggiungere il campo **ID targa impegnata dall'ordine** come interruzione di intestazione di lavoro della pagina **Modello di lavoro**.
 
+> [!NOTE]
+> Per il processo di creazione del lavoro impegnato nell'ordine, alle righe del lavoro di prelievo verrà assegnato un valore "dimensione inventariale impegnata nell'ordine" e non sarà possibile visualizzare direttamente il valore di targa. Solo il processo *Diretto dall'utente* è supportato durante la configurazione di una voce di menu del dispositivo mobile.
+
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Scenario di esempio: configurare ed elaborare una prenotazione della targa impegnata da un ordine
 
 Questo scenario mostra come configurare ed elaborare una prenotazione della targa impegnata da un ordine.
@@ -407,7 +410,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app del magazzino quando si inizia il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app di magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Selezionare <strong>Suggerisci</strong>.</li>
 <li>Confermare la nuova ubicazione suggerita in base alla disponibilità della quantità batch.</li>
 </ol>
@@ -424,7 +427,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app del magazzino quando si inizia il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app di magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Immettere un'ubicazione manualmente.</li>
 </ol>
 </td>
@@ -452,7 +455,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Completo</strong> nell'app del magazzino quando si elabora il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Completo</strong> nell'app di magazzino quando si elabora il lavoro di prelievo.</li>
 <li>Nel campo <strong>Qtà prelievo</strong>, immettere una quantità parziale del prelievo necessario per indicare la piena capacità.</li>
 </ol>
 </td>
@@ -527,7 +530,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Avviare un movimento sull'app del magazzino.</li>
+<li>Avviare un movimento sull'app di magazzino.</li>
 <li>Immettere le ubicazioni "da" e "a".</li>
 </ol></td>
 <td>
@@ -643,7 +646,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -672,7 +675,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -696,7 +699,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -722,7 +725,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 </ol>
@@ -735,7 +738,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Nessuna</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -759,7 +762,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app del magazzino quando si esegue il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione automatica</strong>.</li>
 </ol>
