@@ -142,8 +142,10 @@
                           items:
                             - name: Requisiti di sistema per la doppia scrittura
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Scenari supportati per la configurazione a doppia scrittura
+                            - name: Linee guida per configurare la doppia scrittura
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Considerazioni per la sincronizzazione iniziale
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Configurazione a doppia scrittura da Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Ripristino temporizzato del database di produzione in un ambiente sandbox
                   href: database/database-pitr-prod-sandbox.md
+                - name: Abilitare l'accesso al database just-in-time
+                  href: database/database-just-in-time-jit-access.md
             - name: Esercitazioni
               items:
                 - name: Aggiornamento per scopi di formazione
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Inizializzare Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Migrare i canali a una Commerce Scale Unit diversa
+                  href: deployment/Reassign-CSU.md
                 - name: Residenza dei dati Retail
                   href: deployment/retail-data-residency.md
             - name: Distribuzione locale
@@ -1458,15 +1464,15 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Ottenere supporto per Finance and Operations gestito da 21Vianet in Cina
               href: lifecycle-services/21vianet-support.md
-            - name: Impostare il supporto tecnico per Finance and Operations
+            - name: Configurare il supporto tecnico per le app Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Gestire le esperienze di supporto per Finance and Operations
+            - name: Gestire le esperienze di supporto per le app Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Amministrazione sistema
           items:
             - name: Home page amministrazione sistema
               href: sysadmin/system-administration-home-page.md
-            - name: Aggiungere collegamenti alle note legali e all'informativa sulla privacy
+            - name: Aggiungere collegamenti alle note legali e all'Informativa sulla privacy
               href: sysadmin/legal-terms-privacy-statement.md
             - name: Report su codici di licenza e chiavi di configurazione
               href: sysadmin/license-codes-configuration-keys-report.md
