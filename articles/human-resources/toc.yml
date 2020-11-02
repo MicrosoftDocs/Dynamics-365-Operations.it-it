@@ -5,6 +5,12 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 ottobre 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 ottobre 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 settembre 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 settembre 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 settembre 2020
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: Creare un'app di esportazione dati ricorrente
               href: hr-admin-integration-recurring-data-export.md
+            - name: Integrazione con LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: Integrazione con Office
               items:
                 - name: Esercitazione sull'integrazione di Office
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: App Human Resources in Teams
           href: hr-admin-teams-leave-app.md
+        - name: Prepararsi per la fase operativa
+          href: hr-admin-go-live-prepare.md
+        - name: Domande frequenti sulla fase operativa
+          href: hr-admin-go-live-faq.md
         - name: Risorse di documentazione
           items:
             - name: Guida
@@ -669,6 +681,8 @@
           items:
             - name: Panoramica del dipendente e del responsabile self-service
               href: hr-employee-manager-self-service-overview.md
+            - name: Creare collegamenti personalizzati nel responsabile self-service
+              href: hr-employee-manager-self-service-custom-links.md
             - name: Cambiare il nome dell'area di lavoro del dipendente self-service
               href: hr-employee-self-service-workspace-name.md
             - name: Modificare le informazioni personali
