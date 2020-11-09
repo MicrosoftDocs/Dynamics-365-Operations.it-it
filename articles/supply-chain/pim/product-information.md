@@ -1,7 +1,7 @@
 ---
 title: Panoramica delle informazioni sul prodotto
 description: Vengono fornite le informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015131"
 ---
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
@@ -72,7 +72,7 @@ Una rappresentazione generale prodotto è associata a un gruppo di dimensioni pr
 È possibile: scegliere tra tre tecnologie di configurazione:
 
 - Le varianti predefinite vengono definite dalle dimensioni di prodotto predefinite. La definizione delle varianti include la definizione di una specifica combinazione valida di dimensioni, ad esempio colore, stile e dimensioni. Ogni combinazione produce una variante di prodotto specifico.
-- La configurazione basata su dimensioni viene in genere utilizzata in scenari di produzione e consente di utilizzare la dimensione di configurazione nella definizione delle distinte base (BOMs). Dopo che una specifica configurazione viene selezionata, il sistema utilizza il sottoinsieme di righe DBA valide per tale configurazione per la pianificazione e la produzione. Questo concetto è anche denominato *DBA generale*, poiché una DBA condivisa viene utilizzata per tutte le configurazioni di un prodotto.
+- La configurazione basata su dimensioni viene in genere utilizzata in scenari di produzione e consente di utilizzare la dimensione di configurazione nella definizione delle distinte base (BOMs). Dopo che una specifica configurazione viene selezionata, il sistema utilizza il sottoinsieme di righe DBA valide per tale configurazione per la pianificazione e la produzione. Questo concetto è anche denominato *DBA generale* , poiché una DBA condivisa viene utilizzata per tutte le configurazioni di un prodotto.
 - La configurazione basata su vincoli utilizza un modello di configurazione prodotto per descrivere tutti i possibili attributi e componenti necessari per descrivere tutte le varianti possibili di un prodotto in un singolo modello. I vincoli di combinazioni di attributi possono essere definiti con le espressioni standard o i vincoli basati su tabella. I modelli di configurazione e le configurazioni diventano più importanti nella gestione delle informazioni sul prodotto e vengono utilizzati in tutti i settori.
 
 Quando si pianifica l'implementazione di Supply Chain Management, è particolarmente importante scegliere la tecnologia di configurazione corretta per un processo aziendale. Un prodotto non può essere convertito da un modello in un altro dopo l'implementazione.
@@ -89,7 +89,7 @@ I prodotti rilasciati a un persona giuridica specifica sono noti come *prodotti 
 
 È possibile configurare l'area di lavoro **Gestione prodotti rilasciati** dalla voce di menu **Configura area di lavoro personale**. Selezionare una gerarchia di categorie e una categoria in base a cui filtrare l'area di lavoro. Per rettificare i dati rilevanti del prodotto nell'area di lavoro, è possibile anche definire, in giorni, gli intervalli temporali per **Prodotti rilasciati di recente** e **Prodotti rilasciati interrotti**.
 
-L'area di lavoro è costituita da un riepilogo di riquadri e due elenchi. L'elenco **Casi aperti** mostra i casi di modifiche di prodotti che includono prodotti nella gerarchia di categorie dei prodotti selezionata che non sono stati completati e chiusi. Nell'elenco **Rilasciati di recente** vengono visualizzati i prodotti che sono stati rilasciati all'interno dell'intervallo di tempo impostato durante la configurazione dell'area di lavoro. Per ciascuna voce nell'elenco, viene eseguita la convalida e viene visualizzato lo stato di convalida. Questo stato può indicare che le configurazioni richieste per la persona giuridica non sono state completate. Dall'elenco è possibile accedere direttamente alle pagine **Dettagli prodotto rilasciato**, **Gestione attributi prodotto**, **Gestione categoria di prodotti**, **Impostazioni ordine predefinite** e **Traduzioni testo** per completare la configurazione richiesta del prodotto.
+L'area di lavoro è costituita da un riepilogo di riquadri e due elenchi. L'elenco **Casi aperti** mostra i casi di modifiche di prodotti che includono prodotti nella gerarchia di categorie dei prodotti selezionata che non sono stati completati e chiusi. Nell'elenco **Rilasciati di recente** vengono visualizzati i prodotti che sono stati rilasciati all'interno dell'intervallo di tempo impostato durante la configurazione dell'area di lavoro. Per ciascuna voce nell'elenco, viene eseguita la convalida e viene visualizzato lo stato di convalida. Questo stato può indicare che le configurazioni richieste per la persona giuridica non sono state completate. Dall'elenco è possibile accedere direttamente alle pagine **Dettagli prodotto rilasciato** , **Gestione attributi prodotto** , **Gestione categoria di prodotti** , **Impostazioni ordine predefinite** e **Traduzioni testo** per completare la configurazione richiesta del prodotto.
 
 ### <a name="manually-creating-a-new-released-product"></a>Creazione manuale di un nuovo prodotto rilasciato
 

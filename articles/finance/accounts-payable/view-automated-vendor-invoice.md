@@ -3,7 +3,7 @@ title: Visualizzare i risultati dell'automazione delle fatture fornitore (antepr
 description: In questo argomento viene descritto come visualizzare lo stato delle fatture fornitore che si trovano nel processo di invio al flusso di lavoro automatizzato.
 author: abruer
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65e7929e612c8465f26a2f3bc7df6f13620e5b4e
-ms.sourcegitcommit: 3387595e41fb03e98bb437588f6de78794ae383f
+ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022615"
 ---
-# <a name="view-vendor-invoice-automation-results-preview"></a>Visualizzare i risultati dell'automazione delle fatture fornitore (anteprima)
+# <a name="view-vendor-invoice-automation-results"></a>Visualizzare i risultati dell'automazione delle fatture dei fornitori
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritto come visualizzare lo stato delle fatture fornitore che si trovano nel processo di invio al flusso di lavoro automatizzato. I dettagli della cronologia dell'automazione vengono mantenuti per ogni fattura fornitore importata. A seconda dei processi aziendali che hai automatizzato, la pagina **Fatture fornitore in sospeso** mostra i valori **Stato corrispondenza entrate automatizzate** e **Stato Invio a flusso di lavoro automatizzato**. Puoi visualizzare i dettagli e creare un piano per concentrarti sulle fatture che non hanno superato un passaggio automatizzato. Quindi, dopo aver corretto il problema, puoi riprendere il processo automatizzato per la fattura importata.
 

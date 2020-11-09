@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178538"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006117"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento cliente parziale e il pagamento finale completo prima della data dello sconto
 
@@ -34,7 +34,7 @@ Questo articolo fornisce scenari che illustrano come registrare pagamenti parzia
 Fabrikam vende merci al cliente 4028. Fabrikam offre uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Le fatture devono essere pagate in 30 giorni. Fabrikam offre inoltre sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità clienti**.
 
 ## <a name="customer-invoice"></a>Fattura cliente
-Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina**Transazioni cliente**.
+Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 4028. Arnie può visualizzare la transazione nella pagina **Transazioni cliente**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -48,7 +48,7 @@ Nella pagina **Cliente** o **Transazioni cliente** Arnie potrà aprire la pagina
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni** per la fattura contrassegnata.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 10,00     |
@@ -71,7 +71,7 @@ Il cliente 4028 invia un pagamento di 500,00 il 1° luglio. Per immettere il pag
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Pagamento parziale tramite le righe del giornale di registrazione
-Anziché aprire la pagina **Pagamenti cliente** nel giornale di registrazione pagamenti, Arnie può fare clic su **Righe** per immettere un pagamento. Il giornale di registrazione pagamenti viene visualizzato in cui Arnie può immettere una riga per il cliente 4028. Arnie apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione. Arnie contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** su **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **5,05**. Di conseguenza, Arnie sta liquidando 505,05 della fattura.
+Anziché aprire la pagina **Pagamenti cliente** nel giornale di registrazione pagamenti, Arnie può fare clic su **Righe** per immettere un pagamento. Il giornale di registrazione pagamenti viene visualizzato in cui Arnie può immettere una riga per il cliente 4028. Arnie apre quindi la pagina **Liquida transazioni** , in modo che sia possibile contrassegnare la fattura per la liquidazione. Arnie contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** su **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **5,05**. Di conseguenza, Arnie sta liquidando 505,05 della fattura.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -79,7 +79,7 @@ Anziché aprire la pagina **Pagamenti cliente** nel giornale di registrazione pa
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 10,00     |
@@ -95,7 +95,7 @@ Se il cliente desidera liquidare esattamente metà della fattura, deve inviare u
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 10,00     |
@@ -112,9 +112,9 @@ Arnie chiude la pagina **Transazioni di liquidare**. Nel giornale di registrazio
 | DISC-10010 |  Sconto di cassa   | 1/7/2015  |         |                                      | 5,00                                  | 0,00    | GBP      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Pagamento per l'importo rimanente
-Il cliente 4028 paga l'importo rimanente di 495,00 l'8 luglio, che rientra nel periodo dello sconto di cassa. Arnie crea il giornale di registrazione pagamenti l'8 luglio e contrassegna la transazione per la liquidazione. Vede che l'importo da liquidare è di 495,00. Il valore nel campo **Sconto di cassa stimato** è **5,00**, in quanto è stato prelevato in precedenza lo sconto di 5,00.
+Il cliente 4028 paga l'importo rimanente di 495,00 l'8 luglio, che rientra nel periodo dello sconto di cassa. Arnie crea il giornale di registrazione pagamenti l'8 luglio e contrassegna la transazione per la liquidazione. Vede che l'importo da liquidare è di 495,00. Il valore nel campo **Sconto di cassa stimato** è **5,00** , in quanto è stato prelevato in precedenza lo sconto di 5,00.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Totale contrassegnato            | 495,00 |
 | Sconto di cassa stimato | 5,00   |
@@ -127,7 +127,7 @@ Le informazioni sulla transazione contrassegnata vengono visualizzate nella grig
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 10,00     |

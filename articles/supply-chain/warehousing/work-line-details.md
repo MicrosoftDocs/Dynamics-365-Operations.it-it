@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4f0952cc8778ffc509bed80b3a5038dbf4fb76c2
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015897"
 ---
 # <a name="work-line-details"></a>Dettagli riga di lavoro
 
@@ -30,7 +31,7 @@ La pagina **Dettagli riga di lavoro** mostra un elenco completo, ordinabile e fi
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Attivare la funzione Dettagli riga di lavoro
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Dettagli riga di lavoro*
@@ -41,7 +42,7 @@ Per visualizzare l'elenco dei dettagli della riga di lavoro, vai a **Gestione de
 
 - Utilizza il campo **Filtro** per cercare le righe che hanno un valore specifico per qualsiasi parametro disponibile. (I parametri disponibili includono molti parametri che non sono mostrati come colonne nella griglia.)
 - Utilizza la casella di controllo **Mostra chiuse** per mostrare o nascondere le righe chiuse.
-- Seleziona **Visualizza dimensioni** per aprire la finestra di dialogo **Visualizzazione dimensioni**, in cui è possibile scegliere di mostrare o nascondere varie colonne di dimensioni nella griglia.
+- Seleziona **Visualizza dimensioni** per aprire la finestra di dialogo **Visualizzazione dimensioni** , in cui è possibile scegliere di mostrare o nascondere varie colonne di dimensioni nella griglia.
 - Seleziona un'intestazione di colonna per aprire un menu in cui puoi scegliere di ordinare o filtrare l'elenco in base ai valori in quella colonna.
 - Seleziona una riga di lavoro, quindi seleziona **Cambia ubicazione** per aprire una finestra di dialogo in cui puoi modificare l'ubicazione per quella riga di lavoro. L'ubicazione specificata sovrascriverà l'impostazione della direttiva di ubicazione.
 - Seleziona una riga di lavoro, quindi seleziona **Annulla riga di lavoro** per aprire una finestra di dialogo in cui è possibile ridurre parzialmente o completamente la quantità di quella riga di lavoro.
@@ -60,7 +61,7 @@ Per utilizzate questa demo utilizzando i record e i valori di esempio specificat
 
 ### <a name="verify-that-the-scenario-setup-includes-enough-available-inventory"></a>Verificare che la configurazione dello scenario includa sufficienti scorte disponibili
 
-Se stai lavorando con dati dimostrativi **USMF**, è consigliabile prima assicurarti che il tuo sistema sia configurato in modo che ci siano scorte sufficienti in ogni ubicazione di prelievo. Per questa demo, ci si aspetta che le seguenti scorte siano disponibili:
+Se stai lavorando con dati dimostrativi **USMF** , è consigliabile prima assicurarti che il tuo sistema sia configurato in modo che ci siano scorte sufficienti in ogni ubicazione di prelievo. Per questa demo, ci si aspetta che le seguenti scorte siano disponibili:
 
 - **Articolo M9200:** 45 unità. (o più)
 - **Articolo M9202:** 10 unità. (o più)
@@ -79,10 +80,10 @@ Segui questi passaggi per creare lavoro di prelievo.
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Seleziona **Nuovo** per aprire la finestra di dialogo **Crea ordine cliente**.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
-    - Nella Scheda dettaglio **Cliente**, imposta il campo **Conto cliente** su _US-001_.
-    - Nel campo **Magazzino** della Scheda dettaglio **Generale**, seleziona _51_.
+    - Nella Scheda dettaglio **Cliente** , imposta il campo **Conto cliente** su _US-001_.
+    - Nel campo **Magazzino** della Scheda dettaglio **Generale** , seleziona _51_.
 
 1. Scegli **OK** per creare l'ordine cliente e chiudere la finestra di dialogo.
 1. Viene aperto il nuovo ordine cliente. Include una nuova riga vuota nella griglia **Righe ordine cliente**. Imposta i seguenti valori per questa riga ordine:
@@ -92,13 +93,13 @@ Segui questi passaggi per creare lavoro di prelievo.
     - **Unità:** _ea_
 
 1. Seleziona la nuova riga ordine, quindi sul menu **Scorte** sopra la griglia, seleziona **Prenotazione** per aprire la pagina **Prenotazione**.
-1. Nella pagina **Prenotazione**, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella pagina **Prenotazione** , seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**. Il sistema crea una spedizione, la aggiunge a un nuovo carico e crea il lavoro richiesto.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**. Il sistema crea una spedizione, la aggiunge a un nuovo carico e crea il lavoro richiesto.
 1. Crea un secondo ordine cliente per lo stesso account cliente e magazzino utilizzato per il primo ordine. Aggiungi le seguenti due righe ordine a questo ordine:
 
-    - **Riga 1:** imposta il campo **Numero articolo** su _M9200_, il campo **Quantità** su _25_ e il campo **Unità** su _ea_.
-    - **Riga 2:** imposta il campo **Numero articolo** su _M9202_, il campo **Quantità** su _10_ e il campo **Unità** su _ea_.
+    - **Riga 1:** imposta il campo **Numero articolo** su _M9200_ , il campo **Quantità** su _25_ e il campo **Unità** su _ea_.
+    - **Riga 2:** imposta il campo **Numero articolo** su _M9202_ , il campo **Quantità** su _10_ e il campo **Unità** su _ea_.
 
 1. Ripeti i passaggi da 6 a 8 per prenotare le scorte per ciascuna riga ordine (una alla volta), quindi ripeti il passaggio 9 per rilasciare l'ordine al magazzino.
 
@@ -107,7 +108,7 @@ Segui questi passaggi per creare lavoro di prelievo.
 1. Vai a **Gestione magazzino \> Lavoro \> Dettagli riga di lavoro**.
 1. Trova e seleziona una delle righe di lavoro che hai creato per questa demo.
 1. Seleziona **Cambia ubicazione** per aprire la finestra di dialogo **Seleziona nuova ubicazione**.
-1. Nella finestra di dialogo **Seleziona nuova ubicazione**, nel campo **Ubicazione**, seleziona una nuova ubicazione per la riga di lavoro.
+1. Nella finestra di dialogo **Seleziona nuova ubicazione** , nel campo **Ubicazione** , seleziona una nuova ubicazione per la riga di lavoro.
 1. Seleziona **OK** per applicare la modifica e chiudere la finestra di dialogo.
 
 > [!IMPORTANT]
@@ -118,9 +119,9 @@ Segui questi passaggi per creare lavoro di prelievo.
 1. Vai a **Gestione magazzino \> Lavoro \> Dettagli riga di lavoro**.
 1. Trova e seleziona una delle righe di lavoro che hai creato per questa demo. Nota che è possibile annullare o modificare le quantità solo per le righe di lavoro in cui si trova il tipo di lavoro _prelievo_.
 1. Seleziona **Annulla riga di lavoro** per aprire la finestra di dialogo **Quantità da annullare**.
-1. Nella finestra di dialogo **Quantità da annullare**, modifica il valore nel campo **Quantità** per specificare la quantità che dovrebbe essere *sottratta da* la quantità attualmente specificata per la riga. Per impostazione predefinita, il campo **Quantità** mostra la quantità completa.
+1. Nella finestra di dialogo **Quantità da annullare** , modifica il valore nel campo **Quantità** per specificare la quantità che dovrebbe essere *sottratta da* la quantità attualmente specificata per la riga. Per impostazione predefinita, il campo **Quantità** mostra la quantità completa.
 
-    - Se annulli l'intera quantità, il valore **Stato del lavoro** verrà modificato in _Annullato_, ma il campo **Quantità di lavoro** mostrerà comunque il valore originale.
+    - Se annulli l'intera quantità, il valore **Stato del lavoro** verrà modificato in _Annullato_ , ma il campo **Quantità di lavoro** mostrerà comunque il valore originale.
     - Se annulli solo parte della quantità, il campo **Quantità di lavoro** verrà aggiornato per mostrare il nuovo valore, ma il valore di **Stato lavoro** non verrà modificato.
 
 1. Seleziona **OK** per applicare la modifica e chiudere la finestra di dialogo.

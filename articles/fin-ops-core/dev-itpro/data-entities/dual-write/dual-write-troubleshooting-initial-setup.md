@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275443"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997352"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Risoluzione dei problemi durante l'impostazione iniziale
 
@@ -41,7 +40,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 **Ruolo richiesto per impostare la doppia scrittura:** Amministratore di sistema nelle app Finance and Operations e Common Data Service.
 
-Gli errori nella pagina **Impostazione del collegamento a Common Data Service** sono generalmente causati da problemi di configurazione o permessi incompleti. Assicurarsi che l'intero controllo dello stato passi nella pagina **Impostazione del collegamento a Common Data Service**, come mostrato nella figura seguente. Non è possibile collegare la doppia scrittura a meno che non venga superato l'intero controllo dello stato.
+Gli errori nella pagina **Impostazione del collegamento a Common Data Service** sono generalmente causati da problemi di configurazione o permessi incompleti. Assicurarsi che l'intero controllo dello stato passi nella pagina **Impostazione del collegamento a Common Data Service** , come mostrato nella figura seguente. Non è possibile collegare la doppia scrittura a meno che non venga superato l'intero controllo dello stato.
 
 ![Controllo dello stato riuscito](media/health_check.png)
 
@@ -70,7 +69,7 @@ Per fornire il consenso all'app, attenersi alla seguente procedura.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verificare che i dati dell'azienda e i team di doppia scrittura siano impostati correttamente durante il collegamento
 
-Per garantire che la doppia scrittura funzioni correttamente, le società selezionate durante la configurazione vengono create nell'ambiente Common Data Service. Per impostazione predefinita, queste società sono di sola lettura e la proprietà **IsDualWriteEnable** è impostata su **True**. Inoltre, vengono creati il proprietario e il team della Business Unit proprietaria predefinita e viene incluso il nome dell'azienda. Prima di abilitare le mappe, verificare che sia specificato il proprietario del team predefinito. Per trovare l'entità **Companies (CDM\_Company)**, attenersi alla seguente procedura.
+Per garantire che la doppia scrittura funzioni correttamente, le società selezionate durante la configurazione vengono create nell'ambiente Common Data Service. Per impostazione predefinita, queste società sono di sola lettura e la proprietà **IsDualWriteEnable** è impostata su **True**. Inoltre, vengono creati il proprietario e il team della Business Unit proprietaria predefinita e viene incluso il nome dell'azienda. Prima di abilitare le mappe, verificare che sia specificato il proprietario del team predefinito. Per trovare l'entità **Companies (CDM\_Company)** , attenersi alla seguente procedura.
 
 1. Nell'app basata su modello in Dynamics 365, selezionare il filtro nell'angolo in alto a destra.
 2. Nell'elenco a discesa selezionare **Società**.

@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c14fb92103fdd3c32ebc287a74a5dc4f4882b0e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016495"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
@@ -56,7 +57,7 @@ In questo argomento viene illustrato come impostare una direttiva di ubicazione 
     - Quantità in unità: l'intera quantità registrata.  
     - Quantità rimanente: la quantità ancora da registrare che è specificata nella riga dell'ordine fornitore.  
     - Quantità prevista: la quantità totale che è specificata nella riga dell'ordine fornitore  
-6. Selezionare o deselezionare la casella di controllo **Limita per unità**. Se si seleziona questa opzione e si specifica l'unità sulla pagina **Limita per unità**, solo gli articoli con tale unità di misura possono essere inseriti nell'ubicazione. Ad esempio, se l'unità di misura è PL (pallet), solo gli articoli in pallet potranno essere stoccati nell'ubicazione specifica.  
+6. Selezionare o deselezionare la casella di controllo **Limita per unità**. Se si seleziona questa opzione e si specifica l'unità sulla pagina **Limita per unità** , solo gli articoli con tale unità di misura possono essere inseriti nell'ubicazione. Ad esempio, se l'unità di misura è PL (pallet), solo gli articoli in pallet potranno essere stoccati nell'ubicazione specifica.  
 7. Selezionare o deselezionare la casella di controllo **Consenti divisione**. Ciò consente alla direttiva di suddividere la quantità tra più ubicazioni.  
 8. Selezionare **Salva**.
 
@@ -81,7 +82,7 @@ In questo argomento viene illustrato come impostare una direttiva di ubicazione 
 ## <a name="edit-the-query-for-directive-action-line"></a>Modificare la query relativa alla riga dell'azione
 1. Selezionare **Modifica query**.
 2. Selezionare **Aggiungi**.
-3. Nel campo **Campo**, digitare `location profile ID`. In questo esempio le ubicazioni possibili verranno limitate utilizzando un ID profilo dell'ubicazione.  
+3. Nel campo **Campo** , digitare `location profile ID`. In questo esempio le ubicazioni possibili verranno limitate utilizzando un ID profilo dell'ubicazione.  
 4. Digitare un valore nel campo **Criteri**.
 5. Selezionare **OK**. È possibile continuare ad aggiungere righe direttive e azioni direttive finché non sono stati coperti tutti gli scenari possibili nel magazzino.  
 

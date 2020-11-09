@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse
+ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ab0a6e7de02b4b69d3f7a129392a1057482f0c26
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826337"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017232"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
@@ -46,7 +46,7 @@ Per una rapida dimostrazione su come rilasciare le righe di formula e DBA alla p
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Rilascio di DBA e righe formula utilizzando un processo batch
 
-Il processo batch **Rilascio automatico di righe di DBA e di formula** esamina la DBA e le righe formula selezionate con una quantità rimanente da rilasciare. Il processo prende in considerazione solo gli ordini con stato **Rilasciato**, **Iniziato** oppure **Dichiarato finito**. Se una distinta base o una riga formula ha una quantità rimanete da rilasciare, il processo rilascia fino alla quantità che può essere coperta dalla quantità che è già stata fisicamente prenotata e la quantità fisicamente disponibile.
+Il processo batch **Rilascio automatico di righe di DBA e di formula** esamina la DBA e le righe formula selezionate con una quantità rimanente da rilasciare. Il processo prende in considerazione solo gli ordini con stato **Rilasciato** , **Iniziato** oppure **Dichiarato finito**. Se una distinta base o una riga formula ha una quantità rimanete da rilasciare, il processo rilascia fino alla quantità che può essere coperta dalla quantità che è già stata fisicamente prenotata e la quantità fisicamente disponibile.
 
 ### <a name="example-of-a-batch-job-release"></a>Esempio di rilascio di un processo batch
 
@@ -60,7 +60,7 @@ Il processo batch **Rilascio automatico di righe di DBA e di formula** esamina l
 
 ### <a name="batch-job-setup"></a>Impostazione del processo batch
 
-Nella query per il processo batch **Rilascio automatico di righe di DBA e di formula**, è possibile impostare un criterio di filtro per specificare il numero con quanti giorni in anticipo il processo deve cercare le righe con quantità non rilasciate. Nella query per il processo, nel campo **Data materie prime**, utilizzare la funzione **(LessThanDate())** come criterio di filtro.
+Nella query per il processo batch **Rilascio automatico di righe di DBA e di formula** , è possibile impostare un criterio di filtro per specificare il numero con quanti giorni in anticipo il processo deve cercare le righe con quantità non rilasciate. Nella query per il processo, nel campo **Data materie prime** , utilizzare la funzione **(LessThanDate())** come criterio di filtro.
 
 Nella figura seguente viene illustrato un ordine di produzione con due processi, 10 e 20, relativi all'assemblaggio e all'imballaggio per l'ordine di produzione. Ogni processo viene impostato per il consumo di una quantità di materiale. In questa illustrazione, l'intervallo temporale di rilascio indicato dalla freccia verde sotto la riga del tempo è uguale al numero di giorni specificato nel criterio **(LessThanDate())**. Ad esempio, **(LessThanDate(2))** indica che il processo deve cercare le quantità non rilasciate solo all'interno di un intervallo temporale dei due giorni.
 
@@ -68,7 +68,7 @@ Nella figura seguente viene illustrato un ordine di produzione con due processi,
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Rilasciare materiale per numero operazione o proporzionalmente alla quantità di prodotti finiti
 
-Se si rilasciano i materiali mediante l'impostazione dei parametri **Su rilascio di ordine di produzione**, quando si effettua un rilascio manuale, sono disponibili due opzioni per il controllo del rilascio materiali:
+Se si rilasciano i materiali mediante l'impostazione dei parametri **Su rilascio di ordine di produzione** , quando si effettua un rilascio manuale, sono disponibili due opzioni per il controllo del rilascio materiali:
 
 - Rilascio materiale per numero di operazione.
 - Rilascio materiale proporzionalmente alla quantità di prodotti finiti.
@@ -77,7 +77,7 @@ Se si rilasciano i materiali mediante l'impostazione dei parametri **Su rilascio
 
 Per controllare le operazioni per cui il materiale deve essere rilasciato, utilizzare la pagina **Rilascia in magazzino**.
 
-- Selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione**, selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Utilizzare quindi i campi **Da oper. n.** e **A oper. n.** per specificare l'intervallo di numeri di operazione.
+- Selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione** , selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Utilizzare quindi i campi **Da oper. n.** e **A oper. n.** per specificare l'intervallo di numeri di operazione.
 
 Nella figura seguente viene illustrato un ordine di produzione con due operazioni, 10 e 20. In questo esempio, se si limita il rilascio all'operazione 10, solo il materiale M9203 verrà rilasciato.
 
@@ -89,11 +89,11 @@ Per una rapida dimostrazione su come rilasciare materiale in proporzione alla qu
 
 È possibile rilasciare le materie prime per una quantità parziale dei prodotti finiti o in un'unità specifica.
 
-- Per rilasciare le materie prime per una quantità parziale dei prodotti finiti, selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione**, selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Nel campo **Quantità** immettere una quantità.
+- Per rilasciare le materie prime per una quantità parziale dei prodotti finiti, selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione** , selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Nel campo **Quantità** immettere una quantità.
 
     Ad esempio, un ordine di produzione viene creato e programmato per 1.000 pezzi. Il supervisore dello shop floor sta pianificando la produzione di 100 pezzi per il turno successivo e desidera rilasciare materiali solo per questo turno di lavoro. In questo caso, il supervisore può utilizzare il campo **Quantità** per rilasciare materiali per i 100 pezzi pianificati per il turno successivo.
 
-- Per rilasciare le materie prime in un'unità specifica, selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione**, selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Utilizzare quindi il campo **Unità** per selezionare l'unità del prodotto finito in cui rilasciare il materiale.
+- Per rilasciare le materie prime in un'unità specifica, selezionare **Controllo produzione** \> **Ordini di produzione** \> **Tutti gli ordini di produzione** , selezionare un ordine di produzione e quindi nella scheda **Magazzino** selezionare **Rilascia in magazzino**. Utilizzare quindi il campo **Unità** per selezionare l'unità del prodotto finito in cui rilasciare il materiale.
 
     Le unità disponibili sono definite nell'ID gruppo di sequenze unità del prodotto finito.
 

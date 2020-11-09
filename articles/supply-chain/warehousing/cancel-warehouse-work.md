@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSTroubIeshootingSeIfService
+ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984036"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016242"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Annullare il lavoro di magazzino per la gestione delle eccezioni
 
@@ -29,7 +29,7 @@ ms.locfileid: "3984036"
 
 La funzionalità Annulla lavoro in Microsoft Dynamics 365 Supply Chain Management consente all'utente amministratore di annullare il lavoro magazzino specifico attualmente in corso, ma che è bloccato dal sistema o non può essere completato a causa di circostanze eccezionali. Questa funzionalità è un'alternativa conveniente e sicura agli script correttivi SQL che correggono i dati incoerenti. Tuttavia, mentre questi script sono in genere richiesti ai professionisti IT, la funzionalità Annulla lavoro può essere utilizzata dagli utenti dell'azienda che dispongono dei diritti di amministratore.
 
-È possibile accedere alla funzionalità Annulla lavoro selezionando **Gestione magazzino** \> **Attività periodiche** \> **Pulitura \> Annulla lavoro**. Nella finestra di dialogo **Annulla lavoro**, specificare l'ID del lavoro da annullare, quindi selezionare **OK**.
+È possibile accedere alla funzionalità Annulla lavoro selezionando **Gestione magazzino** \> **Attività periodiche** \> **Pulitura \> Annulla lavoro**. Nella finestra di dialogo **Annulla lavoro** , specificare l'ID del lavoro da annullare, quindi selezionare **OK**.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>Lavori di magazzino che possono essere annullati
 
@@ -40,7 +40,7 @@ Diversamente dalla normale funzionalità Annulla a cui è possibile accedere uti
 > [!NOTE]
 > Per lavori che devono essere annullati per motivi operativi, gli utenti del magazzino devono continuare a utilizzare la normale funzionalità Annulla nella pagina di lavoro.
 
-Solo i lavori di tipo **Vendite**, **Uscita di trasferimento**, **Prelievo materie prime** oppure **Rifornimento** possono essere annullati utilizzando la funzionalità Annulla lavoro. La logica di annullamento non verrà eseguita per i lavori di prelievo materie prime bloccati o lavori che possono essere annullati utilizzando la normale funzionalità Annulla (vedere la nota precedente).
+Solo i lavori di tipo **Vendite** , **Uscita di trasferimento** , **Prelievo materie prime** oppure **Rifornimento** possono essere annullati utilizzando la funzionalità Annulla lavoro. La logica di annullamento non verrà eseguita per i lavori di prelievo materie prime bloccati o lavori che possono essere annullati utilizzando la normale funzionalità Annulla (vedere la nota precedente).
 
 Per sbloccare il lavoro, il sistema annulla le eventuali righe di lavoro rimanenti e corregge i dati di magazzino associati all'ID lavoro specificato dall'utente. Sarà quindi possibile riprendere le normali operazioni di gestione del magazzino che riguardano la quantità dell'articolo interessata.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: f165a6187332a45e77c22de6eb10e227bc1c8f4c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017623"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -121,8 +122,8 @@ Utilizzare il campo **Ricezione carico in eccesso** per le voci di menu del disp
 
 - Ricezione articoli di carico
 - Ricevimento e stoccaggio articoli di carico
-- Ricezione di targhe miste, (quando il campo **Metodo di identificazione riga del documento di origine** è impostato su _Ricezione articoli di carico_)
-- Ricezione di targhe miste e stoccaggio (quando il campo **Metodo di identificazione riga del documento di origine** è impostato su _Ricezione articoli di carico_)
+- Ricezione di targhe miste, (quando il campo **Metodo di identificazione riga del documento di origine** è impostato su _Ricezione articoli di carico_ )
+- Ricezione di targhe miste e stoccaggio (quando il campo **Metodo di identificazione riga del documento di origine** è impostato su _Ricezione articoli di carico_ )
 
 Nella seguente tabella vengono illustrate le opzioni disponibili per il campo **Ricezione carico in eccesso**.
 
@@ -158,7 +159,7 @@ Per aprire una pagina in cui è possibile registrare un'entrata del prodotto, i 
 - Aprire l'ordine fornitore pertinente, quindi selezionare l'azione **Entrata prodotti**.
 - Andare a **Approvvigionamento \> Ordini fornitore \> Ricezione dei prodotti \> Registrazione del processo di ricezione del prodotto**.
 
-L'azione **Entrata prodotti** disponibile nella pagina **Carico** (e nella pagina equivalente per il processo di aggiornamento, la pagina **Aggiorna entrate prodotti**) può aggiornare le quantità di ricevute del prodotto solo sulle quantità di ordini fornitore che hanno lo stato _Registrato_. Tuttavia, l'azione **Entrata prodotti** disponibile sulla pagina **Ordini fornitore** può includere quantità in entrambi gli stati di elaborazione (_Ordinato_ e _Registrato_). Può anche controllare l'ambito della registrazione dell'entrata del prodotto attraverso parametri aggiuntivi, come ad esempio _Quantità in Ricevi ora_ e _Quantità registrata e servizi_.
+L'azione **Entrata prodotti** disponibile nella pagina **Carico** (e nella pagina equivalente per il processo di aggiornamento, la pagina **Aggiorna entrate prodotti** ) può aggiornare le quantità di ricevute del prodotto solo sulle quantità di ordini fornitore che hanno lo stato _Registrato_. Tuttavia, l'azione **Entrata prodotti** disponibile sulla pagina **Ordini fornitore** può includere quantità in entrambi gli stati di elaborazione ( _Ordinato_ e _Registrato_ ). Può anche controllare l'ambito della registrazione dell'entrata del prodotto attraverso parametri aggiuntivi, come ad esempio _Quantità in Ricevi ora_ e _Quantità registrata e servizi_.
 
 Solo gli ordini con lo stato _Confermato_ possono essere registrati all'entrata prodotti. Per gli ordini fornitore non confermati, l'azione **Entrata prodotti** apparirà come non disponibile.
 
@@ -171,7 +172,7 @@ Per registrare all'entrata prodotti le quantità registrate dalla pagina **Caric
 - L'ordine fornitore associato al carico deve avere lo stato _Confermato_.
 
 > [!NOTE]
-> Se lo stato del carico non è stato impostato su _Spedito_, il sistema confermerà automaticamente il carico prima di eseguire l'aggiornamento dell'entrata del prodotto. (Lo stato del carico è impostato su _Spedito_ quando un utente registra la spedizione in entrata del carico.)
+> Se lo stato del carico non è stato impostato su _Spedito_ , il sistema confermerà automaticamente il carico prima di eseguire l'aggiornamento dell'entrata del prodotto. (Lo stato del carico è impostato su _Spedito_ quando un utente registra la spedizione in entrata del carico.)
 
 Per registrare all'entrata prodotti le registrazioni di arrivo associate a un carico selezionato, il lavoratore seleziona l'azione **Entrata prodotti** nella pagina **Carico**. La pagina che viene visualizzata contiene i seguenti dettagli chiave:
 
@@ -184,7 +185,7 @@ Per registrare all'entrata prodotti le registrazioni di arrivo associate a un ca
 >
 > | Versione | Calcolo |
 > |---|---|
-> | Versioni precedenti alla versione 10.0.10 e versioni più recenti in cui la funzione _Consenti l'entrata di più prodotti per carico_ non è attivata | La quantità della riga è il totale di tutte le quantità registrate _per quella riga ordine fornitore_, indipendentemente dal fatto che la registrazione sia stata effettuata su più carichi, separatamente dal carico, da un dispositivo mobile o dal client. |
+> | Versioni precedenti alla versione 10.0.10 e versioni più recenti in cui la funzione _Consenti l'entrata di più prodotti per carico_ non è attivata | La quantità della riga è il totale di tutte le quantità registrate _per quella riga ordine fornitore_ , indipendentemente dal fatto che la registrazione sia stata effettuata su più carichi, separatamente dal carico, da un dispositivo mobile o dal client. |
 > | Versioni 10.0.10 e versioni successive in cui la funzione _Consenti l'entrata di più prodotti per carico_ è attivata | La quantità della riga è il totale di tutte le quantità registrate _per il record di carico_ da cui è stata avviata l'azione **Registrazione entrata prodotto**. |
 
 Quando l'utente seleziona **OK** per confermare la registrazione dell'entrata del prodotto, il sistema esegue i seguenti aggiornamenti chiave sulle entità appropriate.
@@ -206,22 +207,22 @@ Nella tabella seguente sono riepilogati gli effetti dell'impostazione **Consenti
 |---|---|---|---|
 | Quando questo campo non è disponibile (versioni precedenti a 10.0.10) | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata.</p><p>Se la quantità di carico viene aggiornata su 0 (zero), ossia non è stata effettuata alcuna registrazione, la riga di carico viene eliminata.</p><p>Se non ci sono righe di carico sul carico, il carico viene eliminato.</p> | _Ricevuti_ | Se esistono più carichi per la quantità registrata della riga ordine, solo lo stato del carico da cui è stata registrata l'entrata viene aggiornato su _Ricevuto_. |
 | Nessuna | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata associata all'ID carico.</p><p>Se non viene registrato alcun ID carico per la transazione di inventario, il comportamento corrisponde a quello delle versioni precedenti alla 10.0.10.</p> | _Ricevuti_ | |
-| Sì | Nessun aggiornamento | _Ricevuto_, se la quantità di carico totale registrata è uguale o superiore alla quantità di carico | |
-| Sì | Nessun aggiornamento | _Spedito_ o _In corso_, se la quantità di carico totale registrata è minore della quantità di carico | |
+| Sì | Nessun aggiornamento | _Ricevuto_ , se la quantità di carico totale registrata è uguale o superiore alla quantità di carico | |
+| Sì | Nessun aggiornamento | _Spedito_ o _In corso_ , se la quantità di carico totale registrata è minore della quantità di carico | |
 
-Una volta che il campo **Stato del carico** è impostato su _Ricevuto_, non è più possibile effettuare registrazioni di entrate del prodotto per quel carico. Tuttavia, il lavoratore può registrare la quantità di ordine rimanente rispetto al carico ricevuto nelle seguenti condizioni. (Per ulteriori informazioni, vedere la sezione [Ricezione del carico in eccesso](#load-over-receiving) descritta precedentemente in questo argomento.)
+Una volta che il campo **Stato del carico** è impostato su _Ricevuto_ , non è più possibile effettuare registrazioni di entrate del prodotto per quel carico. Tuttavia, il lavoratore può registrare la quantità di ordine rimanente rispetto al carico ricevuto nelle seguenti condizioni. (Per ulteriori informazioni, vedere la sezione [Ricezione del carico in eccesso](#load-over-receiving) descritta precedentemente in questo argomento.)
 
 - La versione di Supply Chain Management è precedente alla versione 10.0.11.
 - La funzione _Entrata eccessiva delle quantità di carico_ è attivata e il campo **Entrata eccessiva quantità riga di carico** sulla voce di menu del dispositivo mobile per l'azione di ricezione articoli di carico è impostato su _Consenti_.
 
-Per registrare all'entrata prodotti ulteriori quantità di carico registrate rispetto a un carico con stato _Ricevuto_, l'utente deve eseguire l'azione di registrazione dall'ordine fornitore associato.
+Per registrare all'entrata prodotti ulteriori quantità di carico registrate rispetto a un carico con stato _Ricevuto_ , l'utente deve eseguire l'azione di registrazione dall'ordine fornitore associato.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Registrare le quantità registrate dalla pagina Ordine fornitore
 
-Per registrare all'entrata prodotti le quantità dalla pagina **Ordine fornitore** , l'utente completa le seguenti attività prima di selezionare l'azione **Entrata prodotti**:
+Per registrare all'entrata prodotti le quantità dalla pagina **Ordine fornitore** , l'utente completa le seguenti attività prima di selezionare l'azione **Entrata prodotti** :
 
 - Impostare il campo **Quantità** nella sezione **Parametri** nella scheda **Impostazioni** su _Quantità registrata_.
-- Nel campo **Entrata prodotti**, inserire i numeri degli ordini fornitore inclusi nella registrazione.
+- Nel campo **Entrata prodotti** , inserire i numeri degli ordini fornitore inclusi nella registrazione.
 
 > [!NOTE]
 > La quantità di riga che verrà inclusa nell'ambito di registrazione è il totale di tutte le quantità registrate per la riga ordine, indipendentemente dal fatto che la registrazione della quantità sia stata effettuata su più carichi, separatamente dal carico, da un dispositivo mobile o dal client. La stessa regola si applica quando la registrazione dell'entrata del prodotto viene eseguita da un carico, se viene eseguita laddove il campo **Consenti l'entrata di più prodotti per carico** non è disponibile o non è abilitato.
@@ -237,7 +238,7 @@ Nella tabella seguente sono riepilogati gli effetti dell'impostazione **Consenti
 
 | Consenti più entrate prodotti per carico | Quantità di carico | Stato carico | Nota |
 |---|---|---|---|
-| Quando questo campo è disabilitato o non disponibile (nelle versioni precedenti a 10.0.10) | Nessun aggiornamento | Non sono stati eseguiti aggiornamenti. (Lo stato rimane _Aperto_, _Spedito_ o _In corso_.) | Poiché la registrazione dell'entrata del prodotto è iniziata da un ordine fornitore, la logica di aggiornamento non contiene informazioni sull'associazione tra le quantità registrate nel suo ambito e i carichi rispetto ai quali è stata registrata la registrazione. Pertanto, non è possibile selezionare il carico per l'aggiornamento dello stato. |
+| Quando questo campo è disabilitato o non disponibile (nelle versioni precedenti a 10.0.10) | Nessun aggiornamento | Non sono stati eseguiti aggiornamenti. (Lo stato rimane _Aperto_ , _Spedito_ o _In corso_.) | Poiché la registrazione dell'entrata del prodotto è iniziata da un ordine fornitore, la logica di aggiornamento non contiene informazioni sull'associazione tra le quantità registrate nel suo ambito e i carichi rispetto ai quali è stata registrata la registrazione. Pertanto, non è possibile selezionare il carico per l'aggiornamento dello stato. |
 | Abilitate | Nessun aggiornamento | <p>Si verifica una delle seguenti azioni:</p><ul><li>Lo stato viene cambiato in <i>Ricevuto</i> se le quantità totali ricevute e acquistate delle transazioni di inventario dell'ordine fornitore sono maggiori o uguali alla quantità del carico a cui sono associate.</li><li>Lo stato rimane <i>Aperto</i>, <i>Spedito</i> o <i>In corso</i> se la condizione precedente non viene soddisfatta per tutte le righe nel carico.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Selezionare l'opzione di registrazione dell'entrata del prodotto appropriata per le operazioni logistiche
@@ -267,12 +268,12 @@ Questi scenari richiedono la funzionalità _Registrazioni entrata di più prodot
 
 1. Aprire l'area di lavoro **Gestione funzionalità**. (Per i dettagli completi su come trovare e utilizzare questo spazio di lavoro, vedere [Panoramica sulla gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Attivare la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_, elencata nel modo seguente:
+1. Attivare la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_ , elencata nel modo seguente:
 
     - **Modulo:** _Gestione magazzino_
     - **Nome della funzione:** _Associa transazioni di inventario dell'ordine fornitore al carico_
 
-1. Attivare la funzionalità _Registrazioni entrata di più prodotti per carico_, elencata nel modo seguente:
+1. Attivare la funzionalità _Registrazioni entrata di più prodotti per carico_ , elencata nel modo seguente:
 
     - **Modulo:** _Gestione magazzino_
     - **Nome della funzione:** _Registrazioni entrata di più prodotti per carico_
@@ -311,7 +312,7 @@ In questa procedura, verrà creato manualmente un ordine fornitore e un carico a
 
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine fornitore**, impostare il campo **Conto fornitore** su _1001_.
+1. Nella finestra di dialogo **Crea ordine fornitore** , impostare il campo **Conto fornitore** su _1001_.
 1. Scegliere **OK** per chiudere la finestra di dialogo e creare l'ordine fornitore.
 1. Il nuovo ordine fornitore include già una riga sotto **Righe ordine fornitore**. Impostare i seguenti valori per questa riga:
 
@@ -321,19 +322,19 @@ In questa procedura, verrà creato manualmente un ordine fornitore e un carico a
 
 1. Nel riquadro azioni, nella scheda **Acquisto** , selezionare **Azioni \> Conferma**. Lo stato dell'ordine è ora _Confermato_.
 1. Nel riquadro azioni, nella scheda **Magazzino** , selezionare **Azioni \> Conferma**.
-1. Nella pagina **Workbench pianificazione carico**, nel riquadro azioni, nella scheda **Domanda e offerta** , selezionare **Aggiungi \> Al nuovo carico**.
-1. Nella finestra di dialogo **Assegnazione modello di carico**, impostare il campo **ID modello di carico** su _Contenitore 20'_.
+1. Nella pagina **Workbench pianificazione carico** , nel riquadro azioni, nella scheda **Domanda e offerta** , selezionare **Aggiungi \> Al nuovo carico**.
+1. Nella finestra di dialogo **Assegnazione modello di carico** , impostare il campo **ID modello di carico** su _Contenitore 20'_.
 1. Scegliere **OK** per chiudere la finestra di dialogo e tornare al workbench.
-1. Nella sezione **Carichi**, selezionare **ID carico** per aprire il carico appena creato.
+1. Nella sezione **Carichi** , selezionare **ID carico** per aprire il carico appena creato.
 1. Esaminare l'intestazione del carico e i dettagli della riga e osservare i seguenti punti:
 
-    - Nella scheda dettaglio **Carica**, il campo **Stato del carico** è impostato su _Aperto_.
-    - Nella sezione **Righe di carico**, c'è una sola riga in cui il campo **Quantità** è impostato su _10_ e il campo **Quantità di lavoro creata** è impostato su _0_ (zero).
+    - Nella scheda dettaglio **Carica** , il campo **Stato del carico** è impostato su _Aperto_.
+    - Nella sezione **Righe di carico** , c'è una sola riga in cui il campo **Quantità** è impostato su _10_ e il campo **Quantità di lavoro creata** è impostato su _0_ (zero).
 
     ![Dettagli carico](media/inbound-load-details.png "Dettagli carico")
 
 1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Conferma \> Spedizione in entrata**. Si noti che lo **Stato del carico** è cambiato in _Spedito_.
-1. Prendere nota del valore **ID carico**, in modo da poterlo utilizzare nella procedura successiva.
+1. Prendere nota del valore **ID carico** , in modo da poterlo utilizzare nella procedura successiva.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Registrare l'entrata delle quantità arrivate sul carico
 
@@ -344,7 +345,7 @@ Quando il carico arriva alla banchina di entrata del magazzino, un addetto al ri
 1. Seguire le istruzioni per l'immissione dei dati sullo schermo per inserire i seguenti valori. (L'ordine potrebbe variare, a seconda del dispositivo mobile o dell'emulatore che si sta utilizzando.)
 
     - **Carico** - Immettere l'ID carico creato nella procedura precedente.
-    - **Articolo** - Immettere _A0001_, che corrisponde all'articolo previsto per questo carico.
+    - **Articolo** - Immettere _A0001_ , che corrisponde all'articolo previsto per questo carico.
     - **Quantità** - Immettere _9_ come quantità effettiva presente sul carico. Si noti che questa quantità è inferiore alla quantità prevista.
 
 1. Si continui a scorrere il flusso di lavoro, lasciando tutti gli altri campi vuoti o impostati sui valori predefiniti, fino a quando il dispositivo non informa che il lavoro è completato.
@@ -352,15 +353,15 @@ Quando il carico arriva alla banchina di entrata del magazzino, un addetto al ri
 L'attività di ricezione del carico è ora completata e l'addetto al ricevimento può passare all'attività successiva. Tuttavia, il personale addetto al ricevimento in magazzino esaminerà il record di carico e sarà in grado di vedere che la quantità entrata era inferiore alla quantità prevista. Completerà quindi la seguente procedura utilizzando il client Web.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nell'elenco, fare riferimento al carico appena ricevuto. (Potrebbe essere necessario selezionare la casella di controllo **Mostra chiuso** per includere i carichi in entrata che hanno lo stato carico di _Spedito_). Quindi selezionare il collegamento nella colonna **ID carico** per aprire il carico.
-1. Nel record di carico, si noti che il valore **Stato del carico** rimane _Spedito_, ma il valore **Quantità di lavoro creata** sulla riga di carico è cambiato in _9_.
+1. Nell'elenco, fare riferimento al carico appena ricevuto. (Potrebbe essere necessario selezionare la casella di controllo **Mostra chiuso** per includere i carichi in entrata che hanno lo stato carico di _Spedito_ ). Quindi selezionare il collegamento nella colonna **ID carico** per aprire il carico.
+1. Nel record di carico, si noti che il valore **Stato del carico** rimane _Spedito_ , ma il valore **Quantità di lavoro creata** sulla riga di carico è cambiato in _9_.
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Nell'elenco, trovare l'acquisto appena ricevuto, quindi selezionare il collegamento nella colonna **Ordine fornitore** per aprire l'ordine.
 \
-1. Nella scheda dettaglio **Righe ordine fornitore**, selezionare **Magazzino \> Visualizza \> Transazioni**.
+1. Nella scheda dettaglio **Righe ordine fornitore** , selezionare **Magazzino \> Visualizza \> Transazioni**.
 1. Rivedere i dettagli delle due transazioni dell'ordine fornitore. (Potrebbe essere necessario personalizzare la pagina **Transazioni di magazzino** per vedere il campo **ID carico** sulla griglia). Sono presenti due transazioni:
 
-    - La transazione con un'entrata nello stato _Registrato_ rappresenta la quantità di registrazione di _9_ eseguita su un carico specifico utilizzando il dispositivo mobile. L'**ID carico** è associato alla transazione in questione.
+    - La transazione con un'entrata nello stato _Registrato_ rappresenta la quantità di registrazione di _9_ eseguita su un carico specifico utilizzando il dispositivo mobile. L' **ID carico** è associato alla transazione in questione.
     - La transazione con un'entrata nello stato _Ordinato_ rappresenta la quantità rimanente di riga ordine non registrata di _1_.
 
 #### <a name="product-receiptpost-the-registered-load-quantities-against-purchase-orders"></a>Registrare all'entrata prodotti le quantità di carico rispetto agli ordini fornitore
@@ -368,9 +369,9 @@ L'attività di ricezione del carico è ora completata e l'addetto al ricevimento
 In questa procedura, si registra all'entrata prodotti l'inventario registrato per un carico. Di conseguenza, l'inventario ricevuto e i relativi costi verranno aggiunti alla contabilità generale dell'azienda.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nell'elenco, trovare il carico appena ricevuto. (Potrebbe essere necessario selezionare la casella di controllo **Mostra chiuso** per includere i carichi in entrata che hanno lo stato carico di _Spedito_). Quindi selezionare il collegamento nella colonna **ID carico** per aprire il carico.
+1. Nell'elenco, trovare il carico appena ricevuto. (Potrebbe essere necessario selezionare la casella di controllo **Mostra chiuso** per includere i carichi in entrata che hanno lo stato carico di _Spedito_ ). Quindi selezionare il collegamento nella colonna **ID carico** per aprire il carico.
 1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Ricezione \> Entrata prodotti**. Se viene richiesto di confermare la selezione, fare clic su **Sì**.
-1. Nella finestra di dialogo **Registrazione dell'entrata del prodotto**, nella scheda dettaglio **Righe**, analizzare la griglia. È visualizzata la riga dell'ordine fornitore per la quale la quantità è stata registrata rispetto al carico selezionato.
+1. Nella finestra di dialogo **Registrazione dell'entrata del prodotto** , nella scheda dettaglio **Righe** , analizzare la griglia. È visualizzata la riga dell'ordine fornitore per la quale la quantità è stata registrata rispetto al carico selezionato.
 
     > [!NOTE]
     > Nelle versioni in cui la funzione _Registrazioni entrata di più prodotti per carico_ non è disponibile o non è abilitata, la quantità predefinita visualizzata nella griglia **Righe di carico** sarà la quantità totale che è stata registrata su tutti i carichi associati alla riga ordine fornitore.
@@ -403,7 +404,7 @@ Questo scenario mostra anche come elaborare simultaneamente registrazioni di ent
 In questa procedura, sarà possibile abilitare più registrazioni di entrata del prodotto dallo stesso carico.
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-1. Sulla scheda **Carichi**, impostare il campo **Consenti l'entrata di più prodotti per carico** su _Sì_.
+1. Sulla scheda **Carichi** , impostare il campo **Consenti l'entrata di più prodotti per carico** su _Sì_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Creare due carichi per pianificare la ricezione di un ordine fornitore
 
@@ -413,21 +414,21 @@ Inoltre viene anche illustrato come impostare la riga dell'ordine fornitore in m
 
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Selezionare **Nuovo**.
-1. Nella scheda dettaglio **Fornitore**, impostare il campo **Conto fornitore** su _1001_, quindi selezionare **OK**.
+1. Nella scheda dettaglio **Fornitore** , impostare il campo **Conto fornitore** su _1001_ , quindi selezionare **OK**.
 1. Il nuovo ordine fornitore viene aperto e include una riga vuota nella griglia **Righe ordine fornitore**. Impostare i seguenti valori per questa riga ordine:
 
     - **Numero articolo:** _A0001_
     - **Magazzino:** _24_
     - **Quantità:** _10_
 
-1. Nella scheda dettaglio **Dettagli riga**, nella scheda **Consegna**, impostare il campo **Limite massimo di fornitura** su _20_.
+1. Nella scheda dettaglio **Dettagli riga** , nella scheda **Consegna** , impostare il campo **Limite massimo di fornitura** su _20_.
 1. Nel riquadro azioni, nella scheda **Acquisto** , selezionare **Azioni \> Conferma**. Lo stato dell'ordine è ora _Confermato_.
 1. Nel riquadro azioni, nella scheda **Magazzino** , selezionare **Azioni \> Conferma**.
-1. Nella pagina **Workbench pianificazione carico**, nel riquadro azioni, nella scheda **Domanda e offerta** , selezionare **Aggiungi \> Al nuovo carico**.
-1. Nella finestra di dialogo **Assegnazione modello di carico**, impostare il campo **ID modello di carico** su _Contenitore 20'_. Nella scheda **Dettagli**, modificare il valore **Quantità** da _10_ a _5_ per aggiungere parzialmente la quantità della riga dell'ordine fornitore.
+1. Nella pagina **Workbench pianificazione carico** , nel riquadro azioni, nella scheda **Domanda e offerta** , selezionare **Aggiungi \> Al nuovo carico**.
+1. Nella finestra di dialogo **Assegnazione modello di carico** , impostare il campo **ID modello di carico** su _Contenitore 20'_. Nella scheda **Dettagli** , modificare il valore **Quantità** da _10_ a _5_ per aggiungere parzialmente la quantità della riga dell'ordine fornitore.
 1. Selezionare **OK** per applicare le impostazioni e chiudere la finestra di dialogo.
 1. Ripetere i passaggi da 8 a 10 per creare un secondo carico. Questa volta, il campo **Quantità** è già impostato su _5_.
-1. Nella pagina **Workbench di pianificazione carico**, nella griglia **Carichi**, selezionare il valore **ID carico** per il primo carico creato. Verrà visualizzata la pagina **Dettagli carico** con il carico selezionato. Eseguire i passaggi indicati di seguito:
+1. Nella pagina **Workbench di pianificazione carico** , nella griglia **Carichi** , selezionare il valore **ID carico** per il primo carico creato. Verrà visualizzata la pagina **Dettagli carico** con il carico selezionato. Eseguire i passaggi indicati di seguito:
 
     1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Conferma \> Spedizione in entrata**.
     1. Si noti che lo **Stato del carico** è cambiato in _Spedito_.
@@ -447,14 +448,14 @@ Questa procedura mostra come un addetto al ricevimento carichi registrerà le qu
 1. Seguire le istruzioni per l'immissione dei dati sullo schermo per inserire i seguenti valori. (L'ordine potrebbe variare, a seconda del dispositivo mobile o dell'emulatore che si sta utilizzando.)
 
     - **Carico** - Immettere il primo ID carico creato nella procedura precedente.
-    - **Articolo** - Immettere _A0001_, che corrisponde all'articolo previsto per questo carico.
+    - **Articolo** - Immettere _A0001_ , che corrisponde all'articolo previsto per questo carico.
     - **Quantità** - Immettere _3_. Si noti che questa quantità è inferiore alla quantità prevista. Per questo scenario, si supponga di essere un addetto al ricevimento che non abbia il tempo di registrare tutte le quantità per questo carico. Più avanti in questa procedura, sarà necessario registrare i pezzi rimanenti ripetendo questo passaggio e impostando il campo **Quantità** su _2_.
 
 1. Si continui a scorrere il flusso di lavoro, lasciando tutti gli altri campi vuoti o impostati sui valori predefiniti, fino a quando il dispositivo non informa che il lavoro è completato.
 1. Nel client Web, passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nell'elenco, trovare il carico appena ricevuto e selezionare il valore **ID carico** per aprire il carico. Si noti che il valore **Stato del carico** rimane _Spedito_, ma il valore **Quantità di lavoro creata** nella riga di carico è cambiato in _3_.
+1. Nell'elenco, trovare il carico appena ricevuto e selezionare il valore **ID carico** per aprire il carico. Si noti che il valore **Stato del carico** rimane _Spedito_ , ma il valore **Quantità di lavoro creata** nella riga di carico è cambiato in _3_.
 1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Ricezione \> Entrata prodotti**. Se viene richiesto di confermare la selezione, fare clic su **Sì**.
-1. Nella finestra di dialogo **Registrazione dell'entrata del prodotto**, rivedere ma non modificare i valori visualizzati, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Registrazione dell'entrata del prodotto** , rivedere ma non modificare i valori visualizzati, quindi selezionare **OK**.
 1. Si viene reindirizzati alla pagina **Dettagli carico** per il carico selezionato. Notare i punti seguenti:
 
     - Il campo **Stato del carico** rimane impostato su _Spedito_.
@@ -473,7 +474,7 @@ Per questo scenario, l'addetto al ricevimento registrerà in entrata una quantit
 1. Seguire le istruzioni per l'immissione dei dati sullo schermo per inserire i seguenti valori. (L'ordine potrebbe variare, a seconda del dispositivo mobile o dell'emulatore che si sta utilizzando.)
 
     - **Carico** - Immettere il secondo ID carico creato in precedenza.
-    - **Articolo** - Immettere _A0001_, che corrisponde all'articolo previsto per questo carico.
-    - **Quantità** - Immettere _7_, che è la quantità rimanente che il fornitore è autorizzato a consegnare come parte della quantità totale dell'ordine fornitore di 12 (dove 10 è la quantità dell'ordine originale e 2 è la quantità di consegna in eccesso consentita del 20 percento). Tenere a mente che 5 pezzi sono già stati registrati rispetto al primo carico.
+    - **Articolo** - Immettere _A0001_ , che corrisponde all'articolo previsto per questo carico.
+    - **Quantità** - Immettere _7_ , che è la quantità rimanente che il fornitore è autorizzato a consegnare come parte della quantità totale dell'ordine fornitore di 12 (dove 10 è la quantità dell'ordine originale e 2 è la quantità di consegna in eccesso consentita del 20 percento). Tenere a mente che 5 pezzi sono già stati registrati rispetto al primo carico.
 
 Il secondo carico è stato ora aggiornato con la quantità di 7 e può essere aggiornato all'entrata del prodotto in base a questa quantità.

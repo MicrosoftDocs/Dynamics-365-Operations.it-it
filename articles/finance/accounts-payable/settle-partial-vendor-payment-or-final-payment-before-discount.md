@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967312"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006143"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidare un pagamento fornitore parziale e il pagamento finale completo prima della data dello sconto
 
@@ -48,7 +48,7 @@ Nella pagina **Fornitori** April apre la pagina **Liquida transazioni**. April p
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|       &nbsp;                 | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | -10.00    |
@@ -64,7 +64,7 @@ April fa clic sulla scheda **Sconto di cassa** per visualizzare l'importo dello 
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Pagamento parziale effettuato il 1° luglio utilizzando la pagina Liquida transazioni
-April può creare un giornale di registrazione pagamenti per il pagamento aprendo la pagina **Giornale di registrazione pagamenti** nella contabilità fornitori. Crea un nuovo giornale di registrazione e immette una riga per il fornitore 3064. Apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione. April contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** in **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **-10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **-5,05**. Di conseguenza, April sta liquidando -505,05 della fattura.
+April può creare un giornale di registrazione pagamenti per il pagamento aprendo la pagina **Giornale di registrazione pagamenti** nella contabilità fornitori. Crea un nuovo giornale di registrazione e immette una riga per il fornitore 3064. Apre quindi la pagina **Liquida transazioni** , in modo che sia possibile contrassegnare la fattura per la liquidazione. April contrassegna la fattura e modifica il valore nel campo **Importo da liquidare** in **-500,00**. Vede che il valore nel campo **Importo sconto di cassa** è **-10,00** per l'intera fattura e che il valore nel campo **Importo sconto di cassa da applicare** è **-5,05**. Di conseguenza, April sta liquidando -505,05 della fattura.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -72,7 +72,7 @@ April può creare un giornale di registrazione pagamenti per il pagamento aprend
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | -10.00    |
@@ -88,7 +88,7 @@ April desidera liquidare esattamente metà della fattura. Di conseguenza, modifi
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | -10.00    |
@@ -105,9 +105,9 @@ April chiude la pagina **Transazioni di liquidare**. Nel giornale di registrazio
 | DISC-10010 | Sconto di cassa    | 1/7/2015  |         | 5,00                                 |                                       | 0,00    | GBP      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>L'importo rimanente viene pagato l'8 luglio
-April liquida la parte restante della fattura per il fornitore 3064 l'8 luglio, compreso nel periodo dello sconto di cassa. April crea il giornale di registrazione pagamenti l'8 luglio e contrassegna la transazione per la liquidazione. Vede che l'importo da liquidare è di 495,00. Il valore nel campo **Sconto di cassa stimato** è **-5,00**, in quanto è stato prelevato in precedenza lo sconto di 5,00.
+April liquida la parte restante della fattura per il fornitore 3064 l'8 luglio, compreso nel periodo dello sconto di cassa. April crea il giornale di registrazione pagamenti l'8 luglio e contrassegna la transazione per la liquidazione. Vede che l'importo da liquidare è di 495,00. Il valore nel campo **Sconto di cassa stimato** è **-5,00** , in quanto è stato prelevato in precedenza lo sconto di 5,00.
 
-|                         |        |
+|  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|
 | Totale contrassegnato            | 495,00 |
 | Sconto di cassa stimato | -5,00  |
@@ -120,7 +120,7 @@ Le informazioni sulla transazione contrassegnata vengono visualizzate nella grig
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+|  &nbsp;                      | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 10,00     |

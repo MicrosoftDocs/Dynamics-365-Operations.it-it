@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f6d1f8a4c85c2161d1b79246d437bb3b4d223d1d
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015943"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
 
@@ -49,11 +50,11 @@ Quando il processo è in esecuzione, ha una dimensione di commit pari a 100. In 
 
 ## <a name="possible-user-impact"></a>Impatto possibile sugli utenti
 
-Gli utenti potrebbero essere interessati se il processo di pulizia delle voci disponibili elimina tutti i record per un determinato livello (come il livello della targa). In questo caso, la funzionalità che consente di determinare che l'inventario era precedentemente disponibile in una targa potrebbe non funzionare come previsto, poiché le voci disponibili pertinenti non sono più disponibili. Tale funzionalità controlla la condizione **Quantità \<\> 0**nelle impostazioni **Visualizzazione dimensioni** quando gli utenti visualizzano le informazioni disponibili. Tuttavia, il miglioramento delle prestazioni fornito dal processo di pulizia dovrebbe compensare questa piccola perdita di funzionalità.
+Gli utenti potrebbero essere interessati se il processo di pulizia delle voci disponibili elimina tutti i record per un determinato livello (come il livello della targa). In questo caso, la funzionalità che consente di determinare che l'inventario era precedentemente disponibile in una targa potrebbe non funzionare come previsto, poiché le voci disponibili pertinenti non sono più disponibili. Tale funzionalità controlla la condizione **Quantità \<\> 0** nelle impostazioni **Visualizzazione dimensioni** quando gli utenti visualizzano le informazioni disponibili. Tuttavia, il miglioramento delle prestazioni fornito dal processo di pulizia dovrebbe compensare questa piccola perdita di funzionalità.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Rendere disponibile l'impostazione Tempo di esecuzione massimo
 
-Per impostazione predefinita, l'impostazione **Tempo di esecuzione massimo** non è disponibile. Se si desidera utilizzarla, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzione correlata nel sistema. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per impostazione predefinita, l'impostazione **Tempo di esecuzione massimo** non è disponibile. Se si desidera utilizzarla, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzione correlata nel sistema. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Tempo di esecuzione massimo per il processo di pulizia delle voci disponibili per la gestione del magazzino*

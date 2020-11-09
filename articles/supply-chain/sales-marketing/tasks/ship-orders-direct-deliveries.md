@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98ce5584f869fef57b542e6aa364045554ef0fde
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018516"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Spedire ordini come consegne dirette
 
@@ -32,13 +32,13 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Impostare un singolo ordine per la consegna diretta
 1. Passare al **pannello di navigazione >Moduli > Contabilità clienti > Ordini > Tutti gli ordini cliente**.
 2. Selezionare **Nuovo**.
-3. Nel campo **Conto cliente**, immettere o selezionare un valore, quindi selezionare **OK**
-4. Immettere o selezionare valori nei campi **Sito** e **Numero articolo**, quindi selezionare **Salva**.
-5. Nel riquadro azioni selezionare **Ordine cliente**, quindi **Consegna diretta**. Nella pagina Crea consegna è visualizzato l'elenco di tutte le righe ordine cliente aperte come copiate dall'ordine cliente. È possibile esaminare i dettagli dell'ordine e se necessario, è possibile modificare i dettagli quali la quantità di acquisto e i termini per la determinazione del prezzo prima di creare la consegna diretta.  
+3. Nel campo **Conto cliente** , immettere o selezionare un valore, quindi selezionare **OK**
+4. Immettere o selezionare valori nei campi **Sito** e **Numero articolo** , quindi selezionare **Salva**.
+5. Nel riquadro azioni selezionare **Ordine cliente** , quindi **Consegna diretta**. Nella pagina Crea consegna è visualizzato l'elenco di tutte le righe ordine cliente aperte come copiate dall'ordine cliente. È possibile esaminare i dettagli dell'ordine e se necessario, è possibile modificare i dettagli quali la quantità di acquisto e i termini per la determinazione del prezzo prima di creare la consegna diretta.  
 6. Selezionare **Sì** nel campo **Includi tutto**.
     - Se si desidera generare una consegna diretta solo per un sottoinsieme delle righe di ordine cliente, selezionarle singolarmente.  
     - Il campo **Conto fornitore** potrebbe essere già popolato con un numero fornitore. Se il fornitore predefinito è impostato per il prodotto (nella copertura articoli associata), questo fornitore verrà copiato nella riga. In caso contrario, è necessario immettere manualmente un fornitore. In questo esempio, verrà selezionato un nuovo fornitore al prossimo passaggio, anche se il campo è già popolato.   
-7. Nel campo **Conto fornitore**, immettere o selezionare un valore, quindi selezionare **OK**. Il messaggio informa che l'ordine fornitore è stato creato.   
+7. Nel campo **Conto fornitore** , immettere o selezionare un valore, quindi selezionare **OK**. Il messaggio informa che l'ordine fornitore è stato creato.   
 8. Espandere la sezione **Dettagli riga**.
 9. Fare clic sulla scheda **Consegna** e verificare che il campo **Consegna diretta** sia impostato **Sì**.
 10. Nel riquadro azioni fare clic su **Generale**.
@@ -57,7 +57,7 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
 17. Selezionare **OK**.
 18. Nel riquadro azioni fare clic su **Ricevimento**.
 19. Selezionare **Entrata prodotti**.
-20. Nel campo **Entrata prodotti**, digitare un valore.
+20. Nel campo **Entrata prodotti** , digitare un valore.
 21. Selezionare **OK**.
 22. Nel riquadro azioni fare clic su **Generale**.
 23. Selezionare **Ordini correlati** ed evidenziare il record desiderato.
@@ -70,9 +70,9 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Creare consegne dirette dal workbench
 1. Passare al **pannello di navigazione >Moduli > Contabilità clienti > Ordini > Tutti gli ordini cliente**.
 2. Selezionare **Nuovo**.
-3. Nel campo **Conto cliente**, immettere o selezionare un valore, quindi selezionare **OK**
+3. Nel campo **Conto cliente** , immettere o selezionare un valore, quindi selezionare **OK**
 4. Nei campi **Numero articolo** e **Sito** immettere o selezionare un valore.
-5. Espandere la sezione **Dettagli riga**, quindi selezionare la scheda **Consegna**. Anziché creare una consegna diretta come parte dell'elaborazione dell'ordine cliente come nella procedura precedente, è possibile scegliere di passare questa attività a un professionista degli acquisti. Per includere la riga ordine cliente nel processo di gestione consegna diretta, è necessario contrassegnare la riga per la consegna diretta.  
+5. Espandere la sezione **Dettagli riga** , quindi selezionare la scheda **Consegna**. Anziché creare una consegna diretta come parte dell'elaborazione dell'ordine cliente come nella procedura precedente, è possibile scegliere di passare questa attività a un professionista degli acquisti. Per includere la riga ordine cliente nel processo di gestione consegna diretta, è necessario contrassegnare la riga per la consegna diretta.  
 6. Selezionare **Sì** nel campo **Consegna diretta**.
     - Se l'articolo è già stato impostato per la consegna diretta per impostazione predefinita, il campo verrà impostato automaticamente su Sì alla voce della riga ordine. È possibile impostare un articolo per la consegna diretta nella rappresentazione generale prodotto impostando l'opzione Consegna diretta su Sì e selezionando un magazzino consegna diretta.  
     - Poiché l'ordine fornitore non è ancora stato creato, lo stato della consegna diretta è impostato su "Per consegna diretta".   

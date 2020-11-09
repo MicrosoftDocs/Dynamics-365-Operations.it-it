@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 936bd88faad0d24c8cd72bc153cf55c38b4a4825
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763433"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012346"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.9 (aprile 2020)
 
@@ -36,37 +36,66 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. Alcune di queste funzionalità potrebbero anche essere state incluse in una versione incrementale precedente, ma non sono state annunciate in precedenza nell'argomento *Novità*, quindi vengono aggiunte qui. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
+Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. Alcune di queste funzionalità potrebbero anche essere state incluse in una versione incrementale precedente, ma non sono state annunciate in precedenza nell'argomento *Novità* , quindi vengono aggiunte qui. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Allestimento del carico avanzato durante un'ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Per ulteriori informazioni, vedere [Allestimento del carico avanzato durante un'ondata](../warehousing/advanced-load-building-during-wave.md).
+
 - [Rilascio automatico della spedizione per il cross-docking](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock)<br> - Per ulteriori informazioni, vedere [Rilascio automatico della spedizione per il cross-docking](../warehousing/auto-release-shipment-for-cross-docking.md).
+
 - [Calcolare la data di consegna dell'ordine di acquisto in base ai tempi di consegna e ai giorni lavorativi (settore pubblico)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+
 - [Elaborazione prodotti a peso variabile con gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management)<br> - Per ulteriori informazioni, vedere [Elaborazione di prodotti a peso variabile con la gestione magazzino](../warehousing/catch-weight-processing.md)e il video [Miglioramenti al prodotto a peso variabile](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
+
 - [Report Confronta prezzi degli articoli in magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage)<br> - Per ulteriori informazioni, vedere [Report Confronta prezzi degli articoli in magazzino](../cost-management/compare-item-price.md).
+
 - [Consolidare i miglioramenti delle spedizioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
+
 - [Cross-docking](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)<br> - Per ulteriori informazioni, vedere il video [Cross-docking pianificato](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
+
 - Ulteriore integrazione del peso variabile [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7)<br> - Per ulteriori informazioni, vedere [Elaborazione di prodotti a peso variabile con la gestione magazzino](../warehousing/catch-weight-processing.md)e anche il video [Miglioramenti al prodotto a peso variabile](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
+
 - [Integrazione dei cespiti con il ciclo di vita della Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)<br> - Per ulteriori informazioni, vedere [Integrare la gestione cespiti con i cespiti](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md).
+
 - [Prenotazione flessibile di dimensioni a livello di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation)<br> - Per ulteriori informazioni, vedere [Criteri flessibili di prenotazione delle dimensioni a livello di magazzino](../warehousing/flexible-warehouse-level-dimension-reservation.md)
+
 - [Dispositivo scheda di processo migliorato](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device)<br> - Per ulteriori informazioni, vedere [Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile](../production-control/tasks/report-progress-mobile-job-device.md) e [Dichiarazione di finito dal dispositivo scheda processo](../production-control/report-finished-job-device.md).
+
 - [Controllo qualità in entrata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
+
 - [Archiviazione report di aging delle scorte](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
+
 - [Archiviazione report valori di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)<br> - Per ulteriori informazioni, vedere [Report di archiviazione valori di magazzino](../cost-management/inventory-value-report-storage.md)
+
 - [Diagramma di Gantt dello stato della pianificazione generale](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart)<br> - Per ulteriori informazioni, vedere [Monitorare un'esecuzione di pianificazione generale](../master-planning/tasks/monitor-master-planning-run.md) e anche il video [Prestazioni MRP e miglioramenti dell'usabilità](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+
 - [Nuove entità di dati per l'area di produzione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Ordinamento in uscita](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)<br> - Per ulteriori informazioni, vedere [Ordinamento in uscita](../warehousing/outbound-sorting.md).
+
 - [Dimensioni di imballaggio e di stoccaggio](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
+
 - [Stabilizzazione parallela degli ordini pianificati](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Per ulteriori informazioni, vedere [Stabilizzazione parallela](../master-planning/maintain-planned-orders.md#parallelize-firming) e anche il video [Prestazioni MRP e miglioramenti dell'usabilità](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+
 - [Ottimizzazione della pianificazione per la distribuzione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Per ulteriori informazioni, vedere [Panoramica dell'ottimizzazione di pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md).
+
 - [Miglioramenti del contratto di acquisto](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Per ulteriori informazioni, vedere [Contratti di acquisto](../procurement/purchase-agreements.md).
+
 - [Cluster di stoccaggio](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) <br> - Per ulteriori informazioni, vedere il video [Cluster di stoccaggio](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
+
 - [Stoccaggio a parete/Stoccaggio in magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)<br> - Per ulteriori informazioni, vedere [Stoccaggio a parete - Stoccaggio in magazzino](../warehousing/put-to-wall-put-to-store.md).
+
 - [Ordinamento ricezione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+
 - [Spedizione pacchi di piccole dimensioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
+
 - [Offerta del fornitore: domande dei fornitori e risposte riepilogative](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
+
 - [Pianificazione visiva per gli ordini di lavoro in Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)<br> - Per ulteriori informazioni, vedere [Utilizzare ordini di lavoro pianificati con un diagramma di Gantt](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt).
+
 - [Assegnazione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)<br> - Per ulteriori informazioni, vedere [Assegnazione magazzino](../warehousing/warehouse-slotting.md).
+
 - [Miglioramenti della stampa di etichette ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
+
 - [Codice del passaggio ondata](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)<br> - Per ulteriori informazioni, vedere [Codici del passaggio ondata](../warehousing/wave-step-codes.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

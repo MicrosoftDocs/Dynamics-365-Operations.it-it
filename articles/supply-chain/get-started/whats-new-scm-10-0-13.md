@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802945"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012392"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.13 (ottobre 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.13. Questa versione ha il numero di build 10.0.569 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.13. Questa versione ha il numero di build 10.0.569 ed è disponibile come segue:
 
 - **Versione di anteprima:** agosto 2020
 - **Disponibilità generale (aggiornamento automatico):** settembre 2020
@@ -49,8 +49,6 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 - [Nuove dimensioni dell'inventario per il monitoraggio della versione del prodotto ed estendibilità ottimizzata](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Per ulteriori informazioni sulle dimensioni prodotto, vedere [Dimensioni del prodotto](../pim/product-dimensions.md).
 
 - [Prenotazione su commessa dell'ordine basata su targhe](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Per ulteriori informazioni, vedere [Prenotazione flessibile della targa](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
-
-- [Visualizzazione del carico di lavoro in uscita](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)
 
 - [Panoramica delle righe di prelievo lavoro](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 

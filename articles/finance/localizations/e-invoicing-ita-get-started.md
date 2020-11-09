@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea0408f4ef72bf77a0659799075338e4e6b2aa30
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835980"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039794"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Il componente aggiuntivo per la fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
@@ -54,13 +54,13 @@ Durante la configurazione RCS, completerai queste attività:
 ## <a name="import-the-e-invoicing-feature"></a>Importare la funzionalità per la fatturazione elettronica
 
 1. Accedi al tuo account RCS.
-2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
-3. Nella pagina **Funzionalità di fatturazione elettronica**, seleziona **Importa** per importare la funzionalità di fatturazione elettronica dal repository globale.
+2. Nell'area di lavoro **Funzionalità di globalizzazione** , nella sezione **Funzionalità** , seleziona il riquadro **Fatturazione elettronica**.
+3. Nella pagina **Funzionalità di fatturazione elettronica** , seleziona **Importa** per importare la funzionalità di fatturazione elettronica dal repository globale.
 
     > [!NOTE]
     > Se non vedi l'elenco delle funzionalità disponibili, seleziona **Sincronizza**. 
 
-4. Seleziona la funzionalità **Esportazione fatture elettroniche (IT)**, quindi seleziona **Importa**.
+4. Seleziona la funzionalità **Esportazione fatture elettroniche (IT)** , quindi seleziona **Importa**.
 
 ![Importazione della funzionalità di esportazione delle fatture elettroniche (IT)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
@@ -68,13 +68,13 @@ Quando importi la funzionalità **Esportazione fatture elettroniche (IT)** dal r
 
 ## <a name="create-a-new-version-of-the-e-invoices-export-it-feature"></a>Creare una nuova versione della funzionalità di esportazioni delle fatture elettroniche (IT)
 
-1. Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Versioni**, seleziona **Nuovo**. 
+1. Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Versioni** , seleziona **Nuovo**. 
 
     ![Aggiunta di una nuova versione della funzionalità per la fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Successivamente, configurerai i formati di creazione di reporting elettronici (ER) associati alla funzionalità di fatturazione elettronica.
 
-2. Nella scheda **Configurazioni**, seleziona **Aggiungi** per gestire le versioni di configurazione.
+2. Nella scheda **Configurazioni** , seleziona **Aggiungi** per gestire le versioni di configurazione.
 
     ![Gestione delle versioni di configurazione della funzionalità per la fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -96,7 +96,7 @@ Quando importi la funzionalità **Esportazione fatture elettroniche (IT)** dal r
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Gestire le configurazioni della funzionalità di fatturazione elettronica
 
-- Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Configurazioni**, seleziona **Aggiungi**, **Elimina** o **Modifica** per gestire le configurazioni della funzionalità di fatturazione elettronica.
+- Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Configurazioni** , seleziona **Aggiungi** , **Elimina** o **Modifica** per gestire le configurazioni della funzionalità di fatturazione elettronica.
 
 ![Gestione delle configurazioni della funzionalità di fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
@@ -104,9 +104,9 @@ In questo passaggio si configurano gli eventi applicabili alle fatture elettroni
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Configurare l'impostazione della funzionalità Fattura di vendita
 
-1. Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Configurazioni**, nella colonna **Configurazione funzionalità**, seleziona **Fattura di vendita**.
+1. Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Configurazioni** , nella colonna **Configurazione funzionalità** , seleziona **Fattura di vendita**.
 2. Selezionare **Modifica**.
-3. Nella pagina **Configurazione versioni funzionalità**, seleziona la scheda **Azioni** per gestire l'elenco delle azioni. Le azioni definiscono un elenco di operazioni che devono essere eseguite in ordine sequenziale per completare l'intera esecuzione dell'evento.
+3. Nella pagina **Configurazione versioni funzionalità** , seleziona la scheda **Azioni** per gestire l'elenco delle azioni. Le azioni definiscono un elenco di operazioni che devono essere eseguite in ordine sequenziale per completare l'intera esecuzione dell'evento.
 
     ![Scheda Azioni](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
@@ -131,9 +131,9 @@ I passaggi e le impostazioni necessari per configurare la funzionalità **Fattur
 
 ## <a name="assign-the-e-invoicing-feature-to-the-environment"></a>Assegnare la funzionalità di fatturazione elettronica all'ambiente
 
-1. Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Ambienti**, seleziona **Abilita**.
-2. Nel campo **Ambiente**, seleziona l'ambiente.
-3. Nel campo **Valido da**, seleziona la data in cui il nuovo ambiente dovrebbe diventare effettivo.
+1. Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Ambienti** , seleziona **Abilita**.
+2. Nel campo **Ambiente** , seleziona l'ambiente.
+3. Nel campo **Valido da** , seleziona la data in cui il nuovo ambiente dovrebbe diventare effettivo.
 4. Seleziona **Abilita**. 
 
 ![Abilitazione dell'ambiente di fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
@@ -144,12 +144,12 @@ I passaggi e le impostazioni necessari per configurare la funzionalità **Fattur
 
 ### <a name="change-the-version-status-to-completed"></a>Modificare lo stato della versione in Completato
 
-1. Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Versioni**, seleziona la versione della funzionalità di fatturazione elettronica con stato **Bozza**.
+1. Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Versioni** , seleziona la versione della funzionalità di fatturazione elettronica con stato **Bozza**.
 2. Selezionare **Cambia stato \> Completa**. 
 
 ### <a name="change-the-version-status-to-published"></a>Modificare lo stato della versione in Pubblicato 
 
-1. Nella pagina **Funzionalità di fatturazione elettronica**, nella scheda **Versioni**, seleziona la versione della funzionalità di fatturazione elettronica con stato **Completato**.
+1. Nella pagina **Funzionalità di fatturazione elettronica** , nella scheda **Versioni** , seleziona la versione della funzionalità di fatturazione elettronica con stato **Completato**.
 2. Seleziona **Cambia stato \> Pubblica**.
 
 ![Modifica dello stato della funzionalità di fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
@@ -163,30 +163,30 @@ Durante la configurazione di Finance, completerai queste attività:
 
 ### <a name="import-the-er-data-model-data-model-mapping-and-formats"></a>Importa il modello di dati ER, il mapping del modello di dati e i formati
 
-1. Nell'area di lavoro **Creazione di report elettronici**, verificare che il provider di configurazione **Servizio documenti aziendali** sia impostato su **Attivo**.
+1. Nell'area di lavoro **Creazione di report elettronici** , verificare che il provider di configurazione **Servizio documenti aziendali** sia impostato su **Attivo**.
 2. Selezionare **Archivi**.
 3. Seleziona **Risorsa globale \> Apri**.
-4. Importa **Modello di fattura**, **Mapping modello di fattura** e **Modello di contesto della fattura cliente**.
+4. Importa **Modello di fattura** , **Mapping modello di fattura** e **Modello di contesto della fattura cliente**.
 
 #### <a name="turn-on-the-feature-for-exporting-customer-electronic-invoices-for-italy"></a>Attivare la funzionalità per esportare le fatture elettroniche dei clienti per l'Italia
 
 1. Vai a **Amministrazione organizzazione \> Impostazione \> Parametri documento elettronico**.
-2. Nella scheda **Funzionalità**, seleziona la casella di controllo **Abilitata** nella riga per il riferimento di funzionalità **IT00036**.
+2. Nella scheda **Funzionalità** , seleziona la casella di controllo **Abilitata** nella riga per il riferimento di funzionalità **IT00036**.
 
 ![Attivazione della funzionalità FatturaPA](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Configurare documenti elettronici
 
 1. Vai a **Amministrazione organizzazione \> Impostazione \> Parametri documento elettronico**.
-2. Nella scheda **Documento elettronico**, seleziona **Aggiungi** e inserisci le tabelle necessarie per generare le fatture elettroniche italiane:
+2. Nella scheda **Documento elettronico** , seleziona **Aggiungi** e inserisci le tabelle necessarie per generare le fatture elettroniche italiane:
 
     - **Nome tabella:** giornale di registrazione fatture cliente
     - **Nome tabella:** fattura di progetto
 
 3. Per ogni tabella, definisci un contesto di documento correlato:
 
-    - Per **Giornale di registrazione fatture cliente**, seleziona **Contesto della fattura cliente**.
-    - Per **Fattura di progetto**, seleziona **Contesto della fattura di progetto**.
+    - Per **Giornale di registrazione fatture cliente** , seleziona **Contesto della fattura cliente**.
+    - Per **Fattura di progetto** , seleziona **Contesto della fattura di progetto**.
 
 ![Configurazione dei tipi di risposta](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
@@ -199,7 +199,7 @@ Durante l'elaborazione in Finance, completerai queste attività:
 
 ### <a name="generate-electronic-invoices"></a>Generare fatture elettroniche
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile** e la funzionalità **IT00036**, il vecchio processo di Finance per la generazione di fatture elettroniche italiane non può più essere utilizzato. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
+Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile** e la funzionalità **IT00036** , il vecchio processo di Finance per la generazione di fatture elettroniche italiane non può più essere utilizzato. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
 
 È possibile inviare i documenti manualmente, in base alla richiesta di documenti di fatturazione elettronica.
 
@@ -208,13 +208,13 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Invia documenti elettronici**.
 2. Per il primo invio di qualsiasi documento, imposta l'opzione **Invia di nuovo i documenti** su **No**. Se devi inviare nuovamente un documento tramite il servizio, imposta questa opzione su **Sì**.
-3. Nella Scheda dettaglio **Record da includere**, seleziona **Filtra** per aprire la finestra di dialogo **Richiesta** in cui è possibile creare una query per selezionare i documenti da inviare.
+3. Nella Scheda dettaglio **Record da includere** , seleziona **Filtra** per aprire la finestra di dialogo **Richiesta** in cui è possibile creare una query per selezionare i documenti da inviare.
 
 ![Finestra di dialogo Invia documenti elettronici](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Query filtri
 
-1. Nella finestra di dialogo **Richiesta**, configura le condizioni di filtro sia per le fatture di vendita che per le fatture di progetto oppure lascia vuote le condizioni per includere tutte le fatture non inviate.
+1. Nella finestra di dialogo **Richiesta** , configura le condizioni di filtro sia per le fatture di vendita che per le fatture di progetto oppure lascia vuote le condizioni per includere tutte le fatture non inviate.
 
     ![Configurazione dei criteri del filtro di invio](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
@@ -228,7 +228,7 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 È possibile visualizzare i registri di invio per tutti i documenti inviati.
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Registro di invio documenti elettronici**.
-2. Nel campo **Tipo di documento**, seleziona **Giornale di registrazione fatture cliente** o **Fattura di progetto** per filtrare i documenti elettronici obbligatori.
+2. Nel campo **Tipo di documento** , seleziona **Giornale di registrazione fatture cliente** o **Fattura di progetto** per filtrare i documenti elettronici obbligatori.
 
     ![Selezione di un tipo di documento per visualizzare i registri di invio](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 

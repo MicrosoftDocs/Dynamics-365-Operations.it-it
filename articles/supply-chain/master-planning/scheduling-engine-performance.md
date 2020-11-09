@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015069"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -180,7 +180,7 @@ Il risolutore di vincoli non riconosce le specifiche dell'algoritmo di pianifica
 
 La maggior parte dei vincoli (interni) nel motore controlla l'orario di lavoro e la capacità di una risorsa. In sostanza, l'attività consiste nel percorrere le fasce orarie lavorative di una risorsa a partire da un dato punto in una data direzione e trovare un intervallo sufficientemente lungo in cui la capacità (tempo) richiesta per i processi può rientrare.
 
-A questo proposito, il motore deve conoscere gli orari di lavoro di una risorsa. Contrariamente ai dati del modello principale, gli orari di lavoro sono *caricati alla domanda*, a significare che vengono caricati nel motore secondo necessità. La ragione di questo approccio è che spesso in Supply Chain Management vi sono degli orari di lavoro che coprono un periodo molto lungo e in genere molti calendari, a tal punto che i dati da caricare sarebbero molto voluminosi.
+A questo proposito, il motore deve conoscere gli orari di lavoro di una risorsa. Contrariamente ai dati del modello principale, gli orari di lavoro sono *caricati alla domanda* , a significare che vengono caricati nel motore secondo necessità. La ragione di questo approccio è che spesso in Supply Chain Management vi sono degli orari di lavoro che coprono un periodo molto lungo e in genere molti calendari, a tal punto che i dati da caricare sarebbero molto voluminosi.
 
 Le informazioni di calendario vengono richieste dal motore in blocchi, invocando il metodo della classe X++ `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. La richiesta riguarda è un ID calendario specifico in un intervallo di tempo specifico. A seconda dello stato della cache del server in Supply Chain Management, ognuna di queste richieste può finire in diverse chiamate di database, il che richiede molto tempo (rispetto al tempo di calcolo puro). Inoltre, se il calendario contiene definizioni dell'orario di lavoro molto elaborate con molti intervalli di orari di lavoro al giorno, la durata del caricamento aumenta.
 
@@ -188,7 +188,7 @@ Quando i dati sull'orario di lavoro vengono caricati nel motore di pianificazion
 
 ### <a name="finite-capacity"></a>Capacità limitata
 
-Quando si utilizza la capacità finita, le fasce orarie di lavoro del calendario vengono suddivise e ridotte in base alle prenotazioni della capacità esistenti. Anche queste prenotazioni, come i calendari, vengono recuperate tramite la stessa classe `WrkCtrSchedulingInteropDataProvider`, ma utilizzano invece il metodo `getCapacityReservations`. Durante la pianificazione generale, vengono prese in considerazione le prenotazioni per il piano generale specifico e se abilitate nella pagina **Parametri di pianificazione generale**, sono incluse anche le prenotazioni da ordini di produzione stabilizzati. Allo stesso modo, quando si pianifica un ordine di produzione, è anche possibile includere prenotazioni di ordini pianificati esistenti, sebbene questo metodo non sia così frequente come l'altro.
+Quando si utilizza la capacità finita, le fasce orarie di lavoro del calendario vengono suddivise e ridotte in base alle prenotazioni della capacità esistenti. Anche queste prenotazioni, come i calendari, vengono recuperate tramite la stessa classe `WrkCtrSchedulingInteropDataProvider`, ma utilizzano invece il metodo `getCapacityReservations`. Durante la pianificazione generale, vengono prese in considerazione le prenotazioni per il piano generale specifico e se abilitate nella pagina **Parametri di pianificazione generale** , sono incluse anche le prenotazioni da ordini di produzione stabilizzati. Allo stesso modo, quando si pianifica un ordine di produzione, è anche possibile includere prenotazioni di ordini pianificati esistenti, sebbene questo metodo non sia così frequente come l'altro.
 
 L'utilizzo della capacità finita aumenterà la durata della pianificazione per diversi motivi:
 
@@ -238,11 +238,7 @@ Ad esempio, se l'orario di lavoro di un gruppo di risorse in una data specifica 
 
 Il carico della pianificazione del processo su tutte le risorse incluse nel gruppo di risorse in un dato giorno viene considerato quando viene calcolata la capacità disponibile del gruppo di risorse nello stesso giorno. Per ogni data, il calcolo è:
 
-> Capacità disponibile del gruppo di risorse =  
-> (capacità delle risorse nel gruppo in base al loro calendario) -  
-> (carico pianificato del processo sulle risorse nel gruppo) -  
-> (carico pianificato delle operazioni sulle risorse nel gruppo) -  
-> (carico pianificato delle operazioni sul gruppo di risorse)
+*Capacità del gruppo di risorse disponibile = Capacità per le risorse nel gruppo in base al loro calendario &ndash; Caricamento pianificato del lavoro sulle risorse nel gruppo &ndash; Caricamento pianificato delle operazioni sulle risorse del gruppo &ndash; Caricamento pianificato delle operazioni sul gruppo di risorse*
 
 Nella scheda **Requisiti risorsa** dell'operazione del ciclo di lavorazione, i requisiti delle risorse possono essere specificati utilizzando una risorsa specifica (nel qual caso l'operazione verrà pianificata utilizzando quella risorsa), per un gruppo di risorse, per un tipo di risorsa o per una o più abilità, competenze, corsi o certificati. Sebbene da un lato l'utilizzo di tutte queste opzioni offra una grande flessibilità nella progettazione dei cicli di lavorazione, dall'altro complica la programmazione per il motore poiché la capacità deve essere considerata per "proprietà" (il nome astratto utilizzato nel motore per abilità, competenza e così via).
 
@@ -252,11 +248,7 @@ Nella pianificazione delle operazioni, la capacità disponibile per una determin
 
 Per ogni data, il calcolo necessario è:
 
-> La capacità disponibile per una competenza =  
-> (la capacità per la competenza) -  
-> (carico pianificato del processo sulle risorse con la competenza specifica incluse nel gruppo di risorse) -  
-> (carico pianificato delle operazioni sulle risorse con la competenza specifica incluse nel gruppo di risorse) -  
-> (carico pianificato delle operazioni sul gruppo di risorse stesso che necessita la competenza specifica)
+*Capacità disponibile per una capacità = Capacità per la capacità &ndash; Caricamento pianificato del lavoro sulle risorse con la capacità specifica, incluse nel gruppo di risorse &ndash; Caricamento pianificato delle operazioni sulle risorse con la capacità specifica, incluse nel gruppo di risorse &ndash; Caricamento pianificato delle operazioni sul gruppo di risorse stesso che richiedono la capacità specifica*
 
 Ciò significa che se c'è un carico su una risorsa specifica, quel carico viene considerato nel calcolo della capacità disponibile del gruppo di risorse per competenza, perché il carico su una risorsa specifica riduce il relativo contributo alla capacità del gruppo di risorse per una competenza, indipendentemente dal fatto che il carico sulla risorsa specifica sia o meno per quella competenza specifica. Se è presente un carico a livello di gruppo di risorse, viene considerato nel calcolo della capacità disponibile del gruppo di risorse per competenza solo se il carico proviene da un'operazione che richiede la competenza specifica.
 
@@ -313,7 +305,7 @@ L'utilizzo di una capacità finita richiede che il motore carichi le informazion
 
 ### <a name="setting-hard-links"></a>Impostazione di collegamenti rigidi
 
-Il tipo di collegamento standard del ciclo di lavorazione è *flessibile*, il che significa che è consentito un intervallo temporale tra l'ora di fine di un'operazione e l'inizio di quella successiva. Questa tolleranza può avere l'effetto indesiderabile di interrompere la produzione per un determinato periodo di tempo e quindi implicare un aumento del lavoro in corso se i materiali o la capacità non sono disponibili per una delle operazioni per un periodo molto lungo. Ciò non avviene con i collegamenti rigidi perché l'inizio devono essere perfettamente allineati. Tuttavia, l'impostazione di collegamenti rigidi complica il problema della pianificazione perché l'intersezione tra l'orario di lavoro e la capacità deve essere calcolata per due risorse delle operazioni. Se sono coinvolte anche operazioni parallele, ciò aggiunge un tempo di calcolo significativo. Se le risorse delle due operazioni hanno calendari diversi che non si sovrappongono affatto, il problema è irrisolvibile.
+Il tipo di collegamento standard del ciclo di lavorazione è *flessibile* , il che significa che è consentito un intervallo temporale tra l'ora di fine di un'operazione e l'inizio di quella successiva. Questa tolleranza può avere l'effetto indesiderabile di interrompere la produzione per un determinato periodo di tempo e quindi implicare un aumento del lavoro in corso se i materiali o la capacità non sono disponibili per una delle operazioni per un periodo molto lungo. Ciò non avviene con i collegamenti rigidi perché l'inizio devono essere perfettamente allineati. Tuttavia, l'impostazione di collegamenti rigidi complica il problema della pianificazione perché l'intersezione tra l'orario di lavoro e la capacità deve essere calcolata per due risorse delle operazioni. Se sono coinvolte anche operazioni parallele, ciò aggiunge un tempo di calcolo significativo. Se le risorse delle due operazioni hanno calendari diversi che non si sovrappongono affatto, il problema è irrisolvibile.
 
 Si consiglia di utilizzare collegamenti rigidi solo quando strettamente necessario e valutare attentamente se è necessario per ciascuna operazione del ciclo di lavorazione.
 
@@ -329,7 +321,7 @@ Poiché il motore funziona esaminando ogni singola fascia oraria per la capacit�
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Timeout di pianificazione importanti (o inesistenti)
 
-Le prestazioni del motore di pianificazione possono essere ottimizzate utilizzando i parametri presenti nella pagina **Parametri di pianificazione**. Le impostazioni **Timeout pianificazione abilitato** e **Timeout ottimizzazione pianificazione abilitato** devono essere sempre impostate su **Sì**. Se impostate su **No**, la pianificazione può potenzialmente essere eseguita all'infinito se è stato creato un ciclo di lavorazione non fattibile con molte opzioni.
+Le prestazioni del motore di pianificazione possono essere ottimizzate utilizzando i parametri presenti nella pagina **Parametri di pianificazione**. Le impostazioni **Timeout pianificazione abilitato** e **Timeout ottimizzazione pianificazione abilitato** devono essere sempre impostate su **Sì**. Se impostate su **No** , la pianificazione può potenzialmente essere eseguita all'infinito se è stato creato un ciclo di lavorazione non fattibile con molte opzioni.
 
 Il valore di **Tempo di pianificazione per sequenza** determina il numero massimo di secondi durante i quali viene eseguita la ricerca di una soluzione per una singola sequenza (nella maggior parte dei casi una sequenza corrisponde a un singolo ordine). Il valore da utilizzare dipende molto dalla complessità del ciclo di lavorazione e da impostazioni come la capacità finita, ma un massimo di circa 30 secondi è un buon punto di partenza.
 

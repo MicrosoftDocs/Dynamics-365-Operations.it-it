@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976381"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006168"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -76,7 +76,7 @@ Una gerarchia di dimensioni che soddisfa i requisiti di reporting dell'organizza
 
 **Gerarchia dimensioni**
 
-|              | Intervalli membro di dimensione |                     |
+|    &nbsp;    | Intervalli membro di dimensione | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Nodi**        | **Membro di dimensione di inizio**   | **Membro di dimensione di fine** |
 | Organizzazione |                         |                     |
@@ -97,7 +97,7 @@ Una gerarchia di dimensioni che soddisfa i requisiti dei criteri può essere imp
 
 **Gerarchia dimensioni**
 
-|                         | Intervalli membro di dimensione |                     |
+|      &nbsp;             | Intervalli membro di dimensione |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Nodi                   | Membro di dimensione di inizio   | Membro di dimensione di fine |
 | Rendiconto profitti e perdite |                         |                     |
@@ -105,7 +105,7 @@ Una gerarchia di dimensioni che soddisfa i requisiti dei criteri può essere imp
 
 Dopo che le voci di contabilità generale vengono elaborate, il saldo delle voci di costo per oggetto di costo sarà simile al seguente.
 
-|                      | **Oggetto di costo** |           |           |           | **Totale**     |
+|      &nbsp;          | **Oggetto di costo** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Totale**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Elemento di costo**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Elettricità** | 100,00          | 200.00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Per sapere come avviene il flusso dei costi tra i centri di costo dell'organizza
 
 I membri di dimensione elemento di costo possono essere impostati come indicato di seguito.
 
-| Elementi di costo | Tipo          |               |
+| Elementi di costo | Tipo          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elettricità   | Primario       |
 | 1002          | Stipendi      | Primario       |
@@ -179,7 +179,7 @@ La gerarchia di dimensioni **Rendiconto profitti e perdite** deve essere aggiorn
 
 **Gerarchia dimensioni**
 
-|                         | Intervalli membro di dimensione |                     |
+|      &nbsp;             | Intervalli membro di dimensione |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Nodi                   | Membro di dimensione di inizio   | Membro di dimensione di fine |
 | Rendiconto profitti e perdite |                         |                     |
@@ -250,7 +250,7 @@ La pagina **Dettagli scrittura contabile saldo costi oggetto di costo** che vien
 | CC003       | Assemblaggio     | SC-CC002 | Dati finanziari         | 11.527,75   | 31-01-2017 |
 | CC004       | Imballaggio    | SC-CC002 | Dati finanziari         | 6.207,25    | 31-01-2017 |
 
-Dopo aver completato il **calcolo dei costi generali**, è possibile segnalare i risultati utilizzando strumenti quali l'area di lavoro Microsoft SharePoint, Excel o Power BI.
+Dopo aver completato il **calcolo dei costi generali** , è possibile segnalare i risultati utilizzando strumenti quali l'area di lavoro Microsoft SharePoint, Excel o Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Visualizzare i report in Excel 
 
@@ -258,7 +258,7 @@ Le gerarchie di dimensioni consentono di visualizzare i dati a diversi livelli d
 
 Di seguito è riportato un esempio di reporting Power Pivot in Excel.
 
-| **Rendiconto profitti e perdite** | **Oggetto di costo** |                |               |               |  **Totale**    |
+| **Rendiconto profitti e perdite** | **Oggetto di costo** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Totale**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Costo primario**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Utilizzando i **criteri rollup costi** e gli **elementi di costo di tipo seconda
 
 Se lo stesso esempio fosse stato eseguito senza creare i **criteri rollup costi,** il risultato del report sarebbe come quello indicato di seguito. Il costo viene eseguito correttamente ma la tracciabilità e i dettagli dei flussi dei costi tra i centri di costo verranno persi.
 
-| **Rendiconto profitti e perdite** | **Oggetto di costo** |           |               |               |          **Totale**  |
+| **Rendiconto profitti e perdite** | **Oggetto di costo** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Totale**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Costo primario**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

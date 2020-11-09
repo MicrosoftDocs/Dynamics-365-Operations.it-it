@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e6170bdc8f0adcefbe310fcbf61c06aa68f02d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018792"
 ---
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
@@ -63,7 +63,7 @@ Spesso, è necessario specificare dimensioni diverse per l'articolo selezionato 
 
 Una riga di ordine fornitore che viene utilizzata per restituire un prodotto al fornitore avrà una quantità negativa. È possibile selezionare un lotto specifico da restituire utilizzando l'azione **Prenotazione**.  
 
-In alcuni casi, è possibile che si voglia dividere la quantità che è stata ordinata, in modo che diverse parti vengono recapitate in date diverse. È possibile impostare tali consegne utilizzando l'azione **Programmazione consegna**, disponibile nel menu **Riga ordine fornitore** nella visualizzazione **Righe**.  
+In alcuni casi, è possibile che si voglia dividere la quantità che è stata ordinata, in modo che diverse parti vengono recapitate in date diverse. È possibile impostare tali consegne utilizzando l'azione **Programmazione consegna** , disponibile nel menu **Riga ordine fornitore** nella visualizzazione **Righe**.  
 
 Le spese possono essere aggiunte automaticamente alle righe dell'ordine se le spese automatiche sono state impostate per il fornitore o il gruppo di spese del fornitore e per l'articolo o il gruppo di spese dell'articolo. Tuttavia, in genere, le spese vengono aggiunte manualmente a livello di riga dell'ordine. Per aggiungere una spesa, aprire la pagina **Gestisci spese** utilizzando l'azione **Gestisci spese** nel menu **Dati finanziari** della visualizzazione **Righe**. Il vantaggio dell'aggiunta di spese direttamente a livello di riga è che l'addebito può essere allocato come un costo di magazzino. Per impostare i codici di addebito in modo da registrare il costo del prodotto, utilizzare l'opzionedi addebito **Articolo**. Questi tipi di spese devono essere allocati dall'intestazione dell'ordine fornitore alle righe prima di poter confermare l'ordine. Ad esempio, si potrebbe desiderare di allocare le spese in base alla quantità di ciascuna riga. La categoria di spesa influisce anche su come le spese vengono registrate. Ad esempio, le spese fisse specificano un importo fisso e le spese percentuali vengono calcolate come percentuale dell'importo netto per la riga ordine. I PO possono essere assegnati a un carico e il carico può includere una stima della spesa prevista per il costo di trasporto. È possibile allocare questa spesa dal carico alle righe dell'ordine fornitore.
 

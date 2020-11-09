@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018378"
 ---
 # <a name="set-up-consignment"></a>Impostare la spedizione
 
@@ -53,7 +53,7 @@ In questo scenario di esempio, la società USMF ha un accordo di spedizione con 
 USMF eseguirà i processi periodici aggiuntivi:
 
 -   Lo spostamento fisico dell'inventario di proprietà del fornitore tra magazzini diversi viene elaborato tramite un giornale di registrazione trasferimenti.
--   L'inventario fisico disponibile viene aggiornato utilizzando un giornale**Conteggio articoli**. Il conteggio può essere utilizzato dal fornitore per aggiornare l'inventario disponibile, se è autorizzato a tale operazione.
+-   L'inventario fisico disponibile viene aggiornato utilizzando un giornale **Conteggio articoli**. Il conteggio può essere utilizzato dal fornitore per aggiornare l'inventario disponibile, se è autorizzato a tale operazione.
 
 Il fornitore, US-104, può monitorare gli aggiornamenti utilizzando la pagina **Inventario spedizione disponibile**.
 
@@ -82,7 +82,7 @@ L'interfaccia di collaborazione fornitore ha tre pagine correlate al processo di
 -   **Inventario spedizione disponibile** - Consente di visualizzare le informazioni sugli articoli di spedizione previsti per la consegna e gli articoli fisicamente disponibili il sito del cliente.
 
 ## <a name="inventory-owners"></a>Proprietari inventario
-Per registrare l'inventario spedizione in entrata fisico, è necessario definire un proprietario fornitore. Questo viene effettuato nella pagina **Proprietario inventario**. Quando si seleziona un **Conto fornitore**, vengono generati i valori predefiniti per i campi **Nome** e **Proprietario**. Il valore nel campo **Proprietario** sarà visibile al fornitore, pertanto è possibile modificarlo se i nomi di conto fornitore non sono facili da riconoscere per le persone esterne. È possibile modificare il campo **Proprietario**, ma solo fino al passaggio quando si salva il record **Proprietario inventario**. Il campo **Nome** viene popolato automaticamente con il nome della parte a cui il conto fornitore è associato e non può essere modificato.
+Per registrare l'inventario spedizione in entrata fisico, è necessario definire un proprietario fornitore. Questo viene effettuato nella pagina **Proprietario inventario**. Quando si seleziona un **Conto fornitore** , vengono generati i valori predefiniti per i campi **Nome** e **Proprietario**. Il valore nel campo **Proprietario** sarà visibile al fornitore, pertanto è possibile modificarlo se i nomi di conto fornitore non sono facili da riconoscere per le persone esterne. È possibile modificare il campo **Proprietario** , ma solo fino al passaggio quando si salva il record **Proprietario inventario**. Il campo **Nome** viene popolato automaticamente con il nome della parte a cui il conto fornitore è associato e non può essere modificato.
 
 [![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)
 
@@ -92,7 +92,7 @@ Gli articoli che verranno utilizzati nei processi di spedizione devono essere as
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Giornale di registrazione modifiche proprietà inventario
-Il giornale di registrazione **Modifica proprietà inventario**viene utilizzato per registrare il trasferimento di proprietà dell'inventario di spedizione dal fornitore alla persona giuridica che lo consuma. Come qualsiasi giornale di registrazione magazzino, deve essere identificatocon un nome di giornale di registrazione magazzino. Questi nomi vengono creati nella pagina **Nomi giornale di registrazione magazzino** e **Tipo di giornale di registrazione** deve essere impostato su **Modifica proprietà**.
+Il giornale di registrazione **Modifica proprietà inventario** viene utilizzato per registrare il trasferimento di proprietà dell'inventario di spedizione dal fornitore alla persona giuridica che lo consuma. Come qualsiasi giornale di registrazione magazzino, deve essere identificatocon un nome di giornale di registrazione magazzino. Questi nomi vengono creati nella pagina **Nomi giornale di registrazione magazzino** e **Tipo di giornale di registrazione** deve essere impostato su **Modifica proprietà**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

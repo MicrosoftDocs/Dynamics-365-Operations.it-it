@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998110"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione della doppia scrittura da Lifecycle Services
 
@@ -50,12 +49,12 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 3. Selezionare la versione. 
 4. Selezionare la topologia. Se è disponibile solo una topologia, viene selezionata automaticamente.
 5. Completare i primi passaggi nella procedura guidata **Impostazioni di distribuzione**.
-6. Nella scheda **Common Data Service**, eseguire uno dei passaggi seguenti:
+6. Nella scheda **Common Data Service** , eseguire uno dei passaggi seguenti:
 
     - Se un ambiente Common Data Service è già predisposto per il tenant, è possibile selezionarlo.
 
         1. Impostare l'opzione **Configura Common Data Service** su **Sì**.
-        2. Nel campo **Ambienti disponibili**, selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
+        2. Nel campo **Ambienti disponibili** , selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
         3. Selezionare la casella di controllo **Accetto** per indicare che si accettano le condizioni.
 
         ![Scheda Common Data Service quando un ambiente Common Data Service è già predisposto per il tenant](../dual-write/media/lcs_setup_1.png)
@@ -75,7 +74,7 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
         ![Scheda Common Data Service quando il tenant non dispone già si un ambiente Common Data Service](../dual-write/media/lcs_setup_2.png)
 
 7. Completare i rimanenti passaggi nella procedura guidata **Impostazioni di distribuzione**.
-8. Dopo che l'ambiente ha lo stato **Distribuito**, aprire la pagina dei dettagli dell'ambiente. La sezioni **Informazioni sull'ambiente Common Data Service** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Common Data Service collegati.
+8. Dopo che l'ambiente ha lo stato **Distribuito** , aprire la pagina dei dettagli dell'ambiente. La sezioni **Informazioni sull'ambiente Common Data Service** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Common Data Service collegati.
 
     ![Sezione informazioni sull'ambiente Common Data Service](../dual-write/media/lcs_setup_3.png)
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,24 +16,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017416"
 ---
 # <a name="warehouse-slotting"></a>Assegnazione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato *Ordinato*, *Prenotato* o *Rilasciato*. La domanda generata può quindi essere applicata alle ubicazioni che verranno utilizzate per il prelievo, in base a quantità, unità, dimensioni fisiche, ubicazioni fisse e altro. Dopo aver stabilito il piano di assegnazione, è possibile creare un lavoro di rifornimento per portare la quantità appropriata di scorte in ciascuna ubicazione.
+L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato *Ordinato* , *Prenotato* o *Rilasciato*. La domanda generata può quindi essere applicata alle ubicazioni che verranno utilizzate per il prelievo, in base a quantità, unità, dimensioni fisiche, ubicazioni fisse e altro. Dopo aver stabilito il piano di assegnazione, è possibile creare un lavoro di rifornimento per portare la quantità appropriata di scorte in ciascuna ubicazione.
 
 Questa funzionalità aiuta i responsabili del magazzino a pianificare in modo intelligente le ubicazioni di prelievo prima di rilasciare ordini al magazzino e creare attività di prelievo.
 
 ## <a name="turn-on-the-warehouse-slotting-feature"></a>Attivare la funzione di assegnazione magazzino
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Assegnazione magazzino*
@@ -53,7 +54,7 @@ I livelli di unità di misura consentono di raggruppare più unità di misura ai
     - **Descrizione:** *Ogni pallet di scatole*
 
 1. Selezionare **Salva**.
-1. Nella Scheda dettaglio **Unità di misura**, seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Unità di misura** , seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Unità:** *Scatola*
@@ -82,8 +83,8 @@ I livelli di unità di misura consentono di raggruppare più unità di misura ai
 
 1. Vai a **Gestione magazzino \> Impostazioni \> Codici di direttiva**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nel campo **Codice direttiva**, immetti *Assegnazione*.
-1. Nel campo **Descrizione direttiva**, immetti *Assegnazione*.
+1. Nel campo **Codice direttiva** , immetti *Assegnazione*.
+1. Nel campo **Descrizione direttiva** , immetti *Assegnazione*.
 
 ### <a name="set-up-slotting-templates"></a>Configurare modelli di assegnazione
 
@@ -108,8 +109,8 @@ Successivamente, devi impostare l'intestazione del modello, le specifiche di ass
 
         In questo campo sono disponibili i seguenti valori:
 
-        - **Ordinato**: l'intera quantità ordinata nell'ordine cliente deve essere considerata domanda.
-        - **Prenotata**: solo le quantità della riga ordine cliente prenotate (fisiche e ordinate) devono essere considerate domanda.
+        - **Ordinato** : l'intera quantità ordinata nell'ordine cliente deve essere considerata domanda.
+        - **Prenotata** : solo le quantità della riga ordine cliente prenotate (fisiche e ordinate) devono essere considerate domanda.
 
     - **Magazzino:** _61_
     - **Consenti domanda ondata per utilizzare le quantità non prenotate:** _Sì_
@@ -120,7 +121,7 @@ Puoi inoltre specificare una query per restringere l'ambito della domanda che vi
 
 Per ogni modello creato, attieniti alla seguente procedura per aggiungere una riga per ciascuna specifica di assegnazione.
 
-1. Nella Scheda dettaglio **Dettagli modello di assegnazione**, seleziona **Nuova** per creare una riga di modello.
+1. Nella Scheda dettaglio **Dettagli modello di assegnazione** , seleziona **Nuova** per creare una riga di modello.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Sequenza:** _1_
@@ -145,8 +146,8 @@ Per ogni modello creato, attieniti alla seguente procedura per aggiungere una ri
 
         In questo campo sono disponibili i seguenti valori:
 
-        - **Presumi vuoto**: questo sistema dovrebbe presumere che tutte le ubicazioni nell'area di prelievo siano vuote e non dovrebbe controllare tali ubicazioni per le scorte.
-        - **Considera qtà**: il sistema dovrebbe controllar ele ubicazioni nell'area di prelievo per le scorte e ignorare tutte le ubicazioni che non sono vuote.
+        - **Presumi vuoto** : questo sistema dovrebbe presumere che tutte le ubicazioni nell'area di prelievo siano vuote e non dovrebbe controllare tali ubicazioni per le scorte.
+        - **Considera qtà** : il sistema dovrebbe controllar ele ubicazioni nell'area di prelievo per le scorte e ignorare tutte le ubicazioni che non sono vuote.
 
     - **Codice direttiva:** _Assegnazione_
 
@@ -158,15 +159,15 @@ Per ogni modello creato, attieniti alla seguente procedura per aggiungere una ri
 
     - **Consenti rallentamento:** _Sì_
 
-        Quando questa opzione è impostata su *Sì*, se una domanda non può essere assegnata, verrà creato un lavoro di spostamento per estrarre le scorte dalle ubicazioni in cui sono presenti , ma dove non è stata effettuata alcuna assegnazione. Il modello viene quindi eseguito nuovamente. Questa volta, ignora le scorte nelle ubicazioni. Questa funzionalità funziona al meglio quando il campo **Criteri assegnazione fascia** è impostato su _Considera qtà_.
+        Quando questa opzione è impostata su *Sì* , se una domanda non può essere assegnata, verrà creato un lavoro di spostamento per estrarre le scorte dalle ubicazioni in cui sono presenti , ma dove non è stata effettuata alcuna assegnazione. Il modello viene quindi eseguito nuovamente. Questa volta, ignora le scorte nelle ubicazioni. Questa funzionalità funziona al meglio quando il campo **Criteri assegnazione fascia** è impostato su _Considera qtà_.
 
     - **Utilizzo ubicazioni fisse** _Solo ubicazioni fisse per il prodotto_
 
         In questo campo sono disponibili i seguenti valori:
 
-        - **Ubicazioni fisse e non fisse**: il sistema non dovrebbe essere limitato all'uso di ubicazioni fisse.
-        - **Solo ubicazioni fisse per il prodotto**: il sistema deve effettuare assegnazioni solo in ubicazioni fisse per il prodotto.
-        - **Solo ubicazioni fisse per la variante prodotto**: il sistema deve effettuare assegnazioni solo in ubicazioni fisse per la variante prodotto.
+        - **Ubicazioni fisse e non fisse** : il sistema non dovrebbe essere limitato all'uso di ubicazioni fisse.
+        - **Solo ubicazioni fisse per il prodotto** : il sistema deve effettuare assegnazioni solo in ubicazioni fisse per il prodotto.
+        - **Solo ubicazioni fisse per la variante prodotto** : il sistema deve effettuare assegnazioni solo in ubicazioni fisse per la variante prodotto.
 
 1. Selezionare **Salva**.
 1. Seleziona **Nuova** per creare una seconda riga del modello.
@@ -188,7 +189,7 @@ Per ogni modello creato, attieniti alla seguente procedura per aggiungere una ri
 
 1. Seleziona la riga in cui il campo **Sequenza** è impostato su *2*.
 1. Selezionare **Modifica query**.
-1. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** *Ubicazioni*
@@ -203,13 +204,13 @@ Per ogni modello creato, attieniti alla seguente procedura per aggiungere una ri
 Almeno una direttiva di ubicazione deve essere impostata per supportare i prelievi di assegnazione. Utilizza le procedure in questa sezione per impostare una nuova *direttiva di ubicazione di rifornimento* per i prelievi di assegnazione.
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
-1. Nel riquadro sinistro, nel campo **Tipo di ordine di lavoro**, seleziona *Rifornimento*.
+1. Nel riquadro sinistro, nel campo **Tipo di ordine di lavoro** , seleziona *Rifornimento*.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nell'intestazione della nuova direttiva ubicazione, nel campo **Nome**, immetti *Prelievo di assegnazione 61*.
+1. Nell'intestazione della nuova direttiva ubicazione, nel campo **Nome** , immetti *Prelievo di assegnazione 61*.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Configurare la scheda dettaglio Direttive ubicazione
 
-1. Nella Scheda dettaglio **Direttive ubicazione**, imposta i seguenti valori. Accetta i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Direttive ubicazione** , imposta i seguenti valori. Accetta i valori predefiniti per tutti gli altri campi.
 
     - **Tipo di lavoro:** _Prelievo_
     - **Sito:** _6_
@@ -240,8 +241,8 @@ Almeno una direttiva di ubicazione deve essere impostata per supportare i prelie
 
 ##### <a name="edit-the-query"></a>Modificare la query
 
-1. Nella scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Modifica query**.
-1. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Modifica query**.
+1. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** *Ubicazioni*
@@ -267,7 +268,7 @@ Seguire questi passaggi per creare la domanda a cui applicare l'assegnazione.
 
 1. Vai a **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente.
-1. Nella finestra di dialogo **Crea ordine cliente**, nel campo **Conto cliente**, seleziona _US-007_.
+1. Nella finestra di dialogo **Crea ordine cliente** , nel campo **Conto cliente** , seleziona _US-007_.
 1. Nel campo **Magazzino** selezionare _61_.
 1. Selezionare **OK**.
 1. Viene aperto il nuovo ordine cliente. Include una riga vuota nella Scheda dettaglio **Righe ordine cliente**. Su questa riga, impostare i seguenti valori:
@@ -282,7 +283,7 @@ Seguire questi passaggi per creare la domanda a cui applicare l'assegnazione.
 
 1. Selezionare **Salva**.
 1. Seleziona **Nuovo** per creare un secondo ordine cliente.
-1. Nella finestra di dialogo **Crea ordine cliente**, nel campo **Conto cliente**, seleziona _US-008_.
+1. Nella finestra di dialogo **Crea ordine cliente** , nel campo **Conto cliente** , seleziona _US-008_.
 1. Nel campo **Magazzino** selezionare _61_.
 1. Viene aperto il nuovo ordine cliente. Include una riga vuota nella Scheda dettaglio **Righe ordine cliente**. Su questa riga, impostare i seguenti valori:
 
@@ -323,7 +324,7 @@ Il piano di assegnazione mostra l'ubicazione a cui è stato assegnato ciascun ar
 
 #### <a name="create-replenishment"></a>Creare rifornimento
 
-Dopo aver creato il piano di assegnazione, è necessario creare il *lavoro di rifornimento*, in base al piano.
+Dopo aver creato il piano di assegnazione, è necessario creare il *lavoro di rifornimento* , in base al piano.
 
 - Nel riquadro azioni seleziona **Esegui rifornimento**. Un messaggio informativo appare quando il processo è completato. Questo messaggio indica il numero di intestazioni create per l'ID build di lavoro.
 
@@ -343,7 +344,7 @@ Dopo aver inserito tutti gli elementi richiesti, è possibile impostare l'assegn
     - Crea lavoro di rifornimento
 
     > [!NOTE]
-    > I passaggi di assegnazione sono progressivi. Se vuoi selezionare *Trova domanda*, devi prima selezionare *Genera domanda*.
+    > I passaggi di assegnazione sono progressivi. Se vuoi selezionare *Trova domanda* , devi prima selezionare *Genera domanda*.
 
 1. Specifica il modello di assegnazione da utilizzare.
 1. Imposta la ricorrenza per l'esecuzione automatica, se lo desideri.

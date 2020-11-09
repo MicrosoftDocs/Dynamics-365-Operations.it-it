@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
+ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46bbaca86f9113a3e4705e4f2c0f76590e62ec1
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018884"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Panoramica dell'approvvigionamento
 
@@ -35,13 +35,13 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Verifica della necessità di prodotti e servizi
 
-La necessità di prodotti o servizi può sorgere da *richieste di approvvigionamento*, ad esempio quando un dipendente richiede un prodotto. I *cataloghi prodotti* possono essere impostati per guidare la selezione dei prodotti disponibili. In alternativa le richieste possono essere effettuate per prodotti non ancora disponibili in un catalogo e permettere al reparto acquisti di verificare il modo in cui il prodotto può essere fornito.  
+La necessità di prodotti o servizi può sorgere da *richieste di approvvigionamento* , ad esempio quando un dipendente richiede un prodotto. I *cataloghi prodotti* possono essere impostati per guidare la selezione dei prodotti disponibili. In alternativa le richieste possono essere effettuate per prodotti non ancora disponibili in un catalogo e permettere al reparto acquisti di verificare il modo in cui il prodotto può essere fornito.  
 
 Il parametro *Limiti spesa* consente di impostare vincoli relativi alla spesa della richiesta di acquisto. Il *flusso di lavoro di acquisto* aggiunge l'opzione di richiesta di approvazione prima che venga effettuato l'ordine. È inoltre possibile specificare delle allocazioni dei fondi di budget, se necessario.  
 
 Il reparto di approvvigionamento identifica i fornitori per i prodotti e i servizi richiesti e questo può determinare l'invio di una *richiesta di offerta* a più fornitori potenziali. È possibile condividere le specifiche del prodotto richiesto e i fornitori potenziali possono visualizzare e controllare se possono consegnare un prodotto conforme a tali specifiche. I fornitori restituiscono le offerte che vengono verificate dal reparto di approvvigionamento prima di selezionare il fornitore desiderato.  
 
-Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto* al fornitore come alternativa a un processo più completo della richiesta di offerta. La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine. Se i fornitori sono impostati per l'uso del portale **Fornitore**, la funzionalità di richiesta di acquisto è disabilitata. L'ordine viene condiviso nel portale**fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.  
+Gli ordini fornitore includono un'opzione per inviare la *richiesta di acquisto* al fornitore come alternativa a un processo più completo della richiesta di offerta. La richiesta di acquisto può essere utilizzata per contribuire a stabilire termini quali prezzi, sconti e data di consegna dell'ordine. Se i fornitori sono impostati per l'uso del portale **Fornitore** , la funzionalità di richiesta di acquisto è disabilitata. L'ordine viene condiviso nel portale **fornitori** e quando viene inviata una *richiesta di conferma* il fornitore può direttamente confermare l'ordine.  
 
 *Cataloghi fornitore* è possibile utilizzare i cataloghi per raccogliere informazioni sull'assortimento di prodotti che i fornitori possono fornire. I fornitori possono pubblicare il proprio catalogo, pertanto è più semplice mantenere aggiornato il catalogo. È possibile allegare un *elenco di fornitori approvati* a un prodotto e questo può agevolare la selezione del fornitore quando i nuovi ordini fornitore vengono aperti e impedire l'utilizzo dei fornitori non desiderati.
 
@@ -66,7 +66,7 @@ I prezzi e gli sconti includono informazioni sui prezzi, gli sconti e i termini 
 
 ### <a name="delivery-options"></a>Opzioni di consegna
 
-Sono disponibili opzioni diverse per il processo di consegna associato a un ordine fornitore. I prodotti ordinati possono essere suddivisi nella programmazione della *consegna* in cui le parti della quantità ordinata possono essere pianificate per la consegna in date differenti. La consegna può anche includere la *consegna diretta* a partire da un ordine cliente, questo automatizza la creazione del documento di trasporto nell'ordine cliente nel momento in cui l'entrata prodotti viene registrata nell'ordine fornitore. Gli ordini fornitore possono inoltre fare parte di una catena di *ordini interaziendali*, noti anche come ordini fornitore interaziendali, in cui i prodotti vengono ordinati a partire da un ordine cliente interaziendale corrispondente. In questo caso, alcuni passaggi sono automatizzati nei due ordini interaziendali correlati.
+Sono disponibili opzioni diverse per il processo di consegna associato a un ordine fornitore. I prodotti ordinati possono essere suddivisi nella programmazione della *consegna* in cui le parti della quantità ordinata possono essere pianificate per la consegna in date differenti. La consegna può anche includere la *consegna diretta* a partire da un ordine cliente, questo automatizza la creazione del documento di trasporto nell'ordine cliente nel momento in cui l'entrata prodotti viene registrata nell'ordine fornitore. Gli ordini fornitore possono inoltre fare parte di una catena di *ordini interaziendali* , noti anche come ordini fornitore interaziendali, in cui i prodotti vengono ordinati a partire da un ordine cliente interaziendale corrispondente. In questo caso, alcuni passaggi sono automatizzati nei due ordini interaziendali correlati.
 
 ### <a name="supplementary-items"></a>Articoli supplementari
 
@@ -78,13 +78,13 @@ Gli addebiti possono essere assegnati all'ordine fornitore. Questa assegnazione 
 
 ## <a name="product-receipt-and-invoicing"></a>Entrata prodotti e fatturazione
 
-Gli ordini fornitore che includono prodotti fisici in genere vengono prima elaborati tramite la *registrazione degli arrivi* nel magazzino e successivamente viene registrata un'*entrata prodotti* per l'ordine. Gli ordini fornitore con prodotti che soddisfano richieste di approvvigionamento possono essere configurati in modo che il dipendente che ha richiesto i prodotti debba fornire una *conferma di entrata*.  
+Gli ordini fornitore che includono prodotti fisici in genere vengono prima elaborati tramite la *registrazione degli arrivi* nel magazzino e successivamente viene registrata un' *entrata prodotti* per l'ordine. Gli ordini fornitore con prodotti che soddisfano richieste di approvvigionamento possono essere configurati in modo che il dipendente che ha richiesto i prodotti debba fornire una *conferma di entrata*.  
 
 Alcuni ordini fornitore includono prodotti che corrispondono a servizi o ad altri prodotti non fisici che non richiedono l'entrata in un magazzino. I prodotti possono essere creati come servizi o *categorie di approvvigionamento* e possono essere utilizzati direttamente nell'ordine fornitore corrispondente. Con tali ordini, l'entrata dei prodotti talvolta viene ignorata e la fatturazione dell'ordine avviene direttamente o, in alternativa, la registrazione dell'entrata prodotti viene effettuata nell'ordine fornitore senza alcuna precedente registrazione arrivi.  
 
 L'entrata prodotti può determinare il consumo automatico per uno scopo specifico. Ciò include il consumo implicito con consegna diretta, il consumo per un progetto o la contabilizzazione del prodotto come cespite.  
 
-Quando le *fatture fornitore* arrivano dal fornitore è necessario prima registrale nel *registro fatture*, indipendentemente dall'ordine fornitore, e quindi successivamente approvarle come record a fronte dell'ordine fornitore. La registrazione della fattura fornitore con l'ordine fornitore include la corrispondenza dell'entrata prodotti rispetto alla fattura.  
+Quando le *fatture fornitore* arrivano dal fornitore è necessario prima registrale nel *registro fatture* , indipendentemente dall'ordine fornitore, e quindi successivamente approvarle come record a fronte dell'ordine fornitore. La registrazione della fattura fornitore con l'ordine fornitore include la corrispondenza dell'entrata prodotti rispetto alla fattura.  
 
 Le *distribuzioni contabili* possono essere specificate nell'ordine fornitore per descrivere come deve essere effettuata la registrazione in contabilità generale ed è inoltre possibile definire la modalità di allocazione dei fondi di budget se questa è inclusa nella configurazione.  
 

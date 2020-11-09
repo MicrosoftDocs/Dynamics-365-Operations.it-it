@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829214"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997402"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -63,9 +62,9 @@ Ad esempio, la sequenza numerica in Supply Chain Management è **1, 2, 3, 4, 5, 
 
 Le offerte di vendita possono essere create in Sales o in Supply Chain Management. Se si crea un'offerta in Sales, viene sincronizzata con Supply Chain Management in tempo reale. Analogamente se si crea un'offerta in Supply Chain Management, viene sincronizzata con Sales in tempo reale. Notare i punti seguenti:
 
-+ È possibile aggiungere uno sconto al prodotto sull'offerta. In questo caso, lo sconto verrà sincronizzato con Supply Chain Management. I campi **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione non supporta il mapping di integrazione. I campi relativi a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti e mantenuti in Supply Chain Management.
-+ I campi **% sconto**, **Sconto** e **Importo trasporto** nell'intestazione dell'offerta di vendita sono di sola lettura.
-+ I campi **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
++ È possibile aggiungere uno sconto al prodotto sull'offerta. In questo caso, lo sconto verrà sincronizzato con Supply Chain Management. I campi **Sconto** , **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione non supporta il mapping di integrazione. I campi relativi a **Prezzo** , **Sconto** , **Spese** e **Imposta** sono gestiti e mantenuti in Supply Chain Management.
++ I campi **% sconto** , **Sconto** e **Importo trasporto** nell'intestazione dell'offerta di vendita sono di sola lettura.
++ I campi **Termini di trasporto** , **Termini di consegna** , **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
 
 Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il parametro della **riga di richiesta di offerta della creazione rapida**. La riattivazione del parametro consente di continuare a creare le righe di richiesta di offerta utilizzando la funzione di creazione rapida.
 1. Passare all'applicazione Dynamics 365 Sales.
@@ -111,7 +110,7 @@ Le fatture di vendita vengono create in Supply Chain Management e sincronizzate 
 + Un campo **Numero fattura** è stato aggiunto all'entità **Fattura** ed è visualizzato nella pagina.
 + Il pulsante **Crea fattura** nella pagina **Ordine cliente** è nascosto perché le fatture verranno create in Supply Chain Management e sincronizzate in Sales. La pagina **Fattura** non è modificabile poiché le fatture verranno sincronizzate da Supply Chain Management.
 + Il valore **Stato dell'ordine cliente** diventa automaticamente **Fatturato** dopo la sincronizzazione della fattura correlata da Supply Chain Management in Sales. Inoltre, il proprietario dell'ordine cliente da cui la fattura è stata creata viene assegnato come proprietario della fattura. Di conseguenza, il proprietario dell'ordine cliente può visualizzare la fattura.
-+ I campi **Termini di trasporto**, **Termini di consegna** e **Modalità di consegna** non vengono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
++ I campi **Termini di trasporto** , **Termini di consegna** e **Modalità di consegna** non vengono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
 
 ## <a name="templates"></a>Modelli
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: smmContactPerson, VendBankAccounts, VendTable
+ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018077"
 ---
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
@@ -58,7 +58,7 @@ Per ciascun fornitore, è possibile definire più indirizzi, ciascuno dei quali 
 ## <a name="vendor-contacts"></a>Contatti fornitore
 È possibile archiviare i contatti per un fornitore. Tali contatti possono quindi essere utilizzati in diversi documenti, ad esempio ordini fornitore o richieste di offerta.  
 
-Per aggiungere contatti per un fornitore, nella pagina **Tutti i fornitori**, nella scheda **Fornitore**, nel gruppo **Imposta** fare clic su **Contatti** &gt; **Aggiungi contatti**.  
+Per aggiungere contatti per un fornitore, nella pagina **Tutti i fornitori** , nella scheda **Fornitore** , nel gruppo **Imposta** fare clic su **Contatti** &gt; **Aggiungi contatti**.  
 
 È possibile creare nuovi contatti fornitore. In alternativa, è possibile copiare i dettagli di un'altra persona già registrate in Supply Chain Management e modificare le informazioni in base alle esigenze.  
 
@@ -84,12 +84,12 @@ Per impostare un conto fornitore, è inoltre essere necessario registrare gli ac
 ## <a name="putting-a-vendor-on-hold"></a>Fornitore in attesa
 È possibile mettere in attesa un fornitore per vari tipi di transazione. Sono disponibili le seguenti opzioni:
 
--   **No**: per il fornitore non sono state create sospensioni.
--   **Fattura**: per questo fornitore non è possibile registrare fatture.
--   **Tutto**: il fornitore è sospeso per tutti i tipi di transazione. Questi tipi di transazione includono richieste di acquisto, fatture e pagamenti.
--   **Pagamento**: non è possibile generare pagamenti per il fornitore.
+-   **No** : per il fornitore non sono state create sospensioni.
+-   **Fattura** : per questo fornitore non è possibile registrare fatture.
+-   **Tutto** : il fornitore è sospeso per tutti i tipi di transazione. Questi tipi di transazione includono richieste di acquisto, fatture e pagamenti.
+-   **Pagamento** : non è possibile generare pagamenti per il fornitore.
 -   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine di acquisto. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini di acquisto.
--   **Mai**: il fornitore non viene mai messo in attesa per inattività.
+-   **Mai** : il fornitore non viene mai messo in attesa per inattività.
 
 Quando si mette un fornitore in attesa, è possibile specificare un motivo e una data in cui lo stato di attesa verrà terminato. Se non si immette una data di fine, lo stato di attesa del fornitore avrà durata illimitata.
 
@@ -97,7 +97,7 @@ Quando si mette un fornitore in attesa, è possibile specificare un motivo e una
 
 I criteri seguenti vengono utilizzati per includere fornitori che sono stati inattivi in un periodo, includere o escludere fornitori che sono dipendenti ed escludere fornitori che si trovano in un periodo di tolleranza prima della successiva sospensione.
 
-- In base al numero di giorni che si immette nel campo **Nel periodo attività** della pagina **Inattivazione fornitore**, l'applicazione calcola la data più recente in cui il fornitore può avere una qualsiasi attività da considerare inattiva. Ovvero la data corrente meno il numero di giorni che si immette. Se sono presenti una o più fatture del fornitore in cui la data è successiva all'ultima data calcolata, il fornitore verrà escluso dalla disattivazione. Questa impostazione viene convalidata anche se il fornitore ha dei pagamenti dopo tale data, apre richieste di acquisto, apre ordini fornitore, apre richieste di offerta o risposte a offerte.
+- In base al numero di giorni che si immette nel campo **Nel periodo attività** della pagina **Inattivazione fornitore** , l'applicazione calcola la data più recente in cui il fornitore può avere una qualsiasi attività da considerare inattiva. Ovvero la data corrente meno il numero di giorni che si immette. Se sono presenti una o più fatture del fornitore in cui la data è successiva all'ultima data calcolata, il fornitore verrà escluso dalla disattivazione. Questa impostazione viene convalidata anche se il fornitore ha dei pagamenti dopo tale data, apre richieste di acquisto, apre ordini fornitore, apre richieste di offerta o risposte a offerte.
 - Il numero di giorni nel campo **Periodo di tolleranza prima della sospensione successiva** viene utilizzato per calcolare la data di tolleranza più recente. Ovvero la data corrente meno i giorni che si immette. Questa opzione è valida solo per i fornitori che sono stati precedentemente disattivati. Nel caso di una disattivazione precedente, l'applicazione verifica lo storico di altre occorrenze di disattivazione per il fornitore e controlla se l'ultima disattivazione si è verificata prima della data di tolleranza più recente. In caso affermativo, il fornitore verrà incluso nel processo di disattivazione.
 - Il parametro **Includi dipendenti** si riferisce ai fornitori che sono collegati a un dipendente. È possibile scegliere se si desidera includere tali dipendenti.
 
@@ -114,7 +114,7 @@ Se è necessario effettuare i pagamenti a un conto bancario fornitore, è possib
 ## <a name="ledger-accounts"></a>Conti CoGe
 È possibile specificare i conti predefiniti visualizzati automaticamente nei giornali di registrazione delle fatture fornitore per il fornitore specificato. Utilizzare questa opzione se in genere si pagano gli stessi tipi di articoli o servizi dagli stessi fornitori nel tempo. Quando si specifica un conto predefinito, è possibile immettere in modo rapido ed efficiente voci nel giornale di registrazione fatture. I conti predefiniti specificati non vengono utilizzati per ordini fornitore o fatture fornitore immesse nella pagina **Fattura fornitore**.  
 
-Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito**, accessibile dalla scheda **Fattura** nel record fornitore. I conti selezionati qui sono visualizzati nell'elenco filtrato dei conti relativi al fornitore quando si effettua un inserimento nel giornale di registrazione. È possibile impostare uno dei conti come conto predefinito.
+Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito** , accessibile dalla scheda **Fattura** nel record fornitore. I conti selezionati qui sono visualizzati nell'elenco filtrato dei conti relativi al fornitore quando si effettua un inserimento nel giornale di registrazione. È possibile impostare uno dei conti come conto predefinito.
 
 
 

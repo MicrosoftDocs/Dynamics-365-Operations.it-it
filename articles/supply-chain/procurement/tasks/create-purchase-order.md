@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383230"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018158"
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
@@ -45,7 +45,7 @@ In questo argomento viene descritto come creare un ordine fornitore manualmente.
 ## <a name="add-a-purchase-order-line"></a>Aggiungere una riga ordine fornitore
 1. Selezionare **Riga ordine fornitore**.
 2. Selezionare **Dimensioni**. I prodotti possono essere in varianti differenziate in base alle dimensioni, ad esempio, colore, dimensione o stile. I prodotti possono essere impostati per utilizzare le dimensioni di immagazzinamento, ad esempio sito e magazzino. Esistono inoltre dimensioni di tracciabilità facoltative, ad esempio batch e numeri di serie. Per migliorare l'efficienza della registrazione ordine, è possibile aggiungere i campi dimensione utilizzati in genere direttamente nella griglia di ordine.  
-3. Selezionare la casella di controllo **Colore**. Facoltativo: se si seleziona il campo **Salva impostazione**, le dimensioni specificate verranno anche visualizzate nella griglia della riga ordine alla successiva apertura della pagina ordine fornitore.  
+3. Selezionare la casella di controllo **Colore**. Facoltativo: se si seleziona il campo **Salva impostazione** , le dimensioni specificate verranno anche visualizzate nella griglia della riga ordine alla successiva apertura della pagina ordine fornitore.  
 4. Selezionare **OK**.
 5. Nel campo **Numero articolo** selezionare **T0004**.
 
@@ -60,7 +60,7 @@ In questo argomento viene descritto come creare un ordine fornitore manualmente.
     - Il campo **Prezzo unitario** in genere contiene un valore di un contratto di acquisto o di un accordo commerciale. È possibile modificare il prezzo unitario nelle singole righe ordine, ad esempio se un prezzo univoco viene negoziato con il fornitore.  
     - Il campo **Sconto** rappresenta un importo di sconto unitario. Questo sconto riduce il prezzo unitario in base allo sconto. Questo sconto viene in genere fornito automaticamente dai contratti di acquisto o dagli accordi commerciali, ma è possibile ignorarlo su singole righe se gli sconti univoci sono stati negoziazioni con il fornitore.  
     - Di conseguenza, può essere immessa una percentuale di sconto che riduce l'importo netto della riga. La percentuale di sconto viene spesso fornita automaticamente dai contratti di acquisto o dagli accordi commerciali, ma è possibile ignorarla su singole righe se con il fornitore è stata negoziaziota una percentuale di sconto univoco.  
-    - Il valore del campo **Importo netto** viene calcolato da altri campi nella riga che include la quantità, il prezzo unitario, lo sconto e la percentuale di sconto. È possibile modificare l'importo netto, ma dopo i campi **Prezzo unitario**, **Sconto** e **Percentuale sconto** risulteranno vuoti e quando si registra verso la riga, l'importo registrato sarà proporzionale all'importo netto. In genere il campo **Importo netto** viene utilizzato solo per visualizzare l'importo netto della riga.  
+    - Il valore del campo **Importo netto** viene calcolato da altri campi nella riga che include la quantità, il prezzo unitario, lo sconto e la percentuale di sconto. È possibile modificare l'importo netto, ma dopo i campi **Prezzo unitario** , **Sconto** e **Percentuale sconto** risulteranno vuoti e quando si registra verso la riga, l'importo registrato sarà proporzionale all'importo netto. In genere il campo **Importo netto** viene utilizzato solo per visualizzare l'importo netto della riga.  
 
 8. Espandere la sezione **Dettagli riga**.
 9. Selezionare la scheda **Consegna**. Una data di consegna univoca può essere assegnata a ciascuna riga ordine. La data viene ereditata dal campo dell'intestazione dell'ordine fornitore, ma si può modificare.  
@@ -68,7 +68,7 @@ In questo argomento viene descritto come creare un ordine fornitore manualmente.
 ## <a name="review-order-totals"></a>Rivedere i totali ordini
 1. Selezionare **Totali**.
 
-    - Se non noti l'azione **Totali**, seleziona la scheda **Ordine fornitore** nel riquadro azioni.  
+    - Se non noti l'azione **Totali** , seleziona la scheda **Ordine fornitore** nel riquadro azioni.  
     - Questa finestra di dialogo mostra i totali dell'intero ordine.  
     - Il campo **Selezione** consente di modificare la base di come vengono calcolati i totali. Ad esempio, è possibile scegliere **Quantità entrata prodotti** per visualizzare i totali correlati all'importo dei prodotti ricevuti o **Quantità ordinata** per visualizzare l'importo del prodotto ordinato.  
 
