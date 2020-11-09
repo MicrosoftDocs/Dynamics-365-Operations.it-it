@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962522"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013182"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -33,7 +33,7 @@ I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'imm
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
-Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave*, nel senso che richiedono due set consecutivi di combinazioni di tasti (separati da una virgola) che devono essere premuti indipendentemente per attivare l'azione richiesta. Ad esempio, il tasto di scelta rapida "ALT+M,A" richiede all'utente di premere prima "ALT+M", rilasciare i tasti e quindi premere "A". 
+Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave* , nel senso che richiedono due set consecutivi di combinazioni di tasti (separati da una virgola) che devono essere premuti indipendentemente per attivare l'azione richiesta. Ad esempio, il tasto di scelta rapida "ALT+M,A" richiede all'utente di premere prima "ALT+M", rilasciare i tasti e quindi premere "A". 
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 
@@ -239,7 +239,7 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
 
-## <a name="task-recordershortcuts"></a>Tasti di scelta rapida di [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>Tasti di scelta rapida di [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md) 
 
 | Azione                                                                    | Premere                       |
 |-------------------------------------------------------------------------------|----------------------------|

@@ -3,7 +3,7 @@ title: Aggiungere informazioni sul copyright
 description: In questo argomento viene descritto come aggiungere informazioni sul copyright nel sito di e-Commerce.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269592"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019543"
 ---
 # <a name="add-a-copyright-notice"></a>Aggiungere informazioni sul copyright
 
@@ -41,17 +41,17 @@ Prima di aggiungere informazioni sul copyright al sito, è necessario disporre d
 
 Per aggiungere informazioni sul copyright nella parte inferiore di ogni pagina che utilizza un modello specifico, effettuare le seguenti operazioni.
 
-1. Andare a **Frammenti** e quindi selezionare **Nuovo frammento pagina**.
-1. Nella finestra di dialogo, selezionare il modulo **Piè di pagina** e assegnare un nome al frammento. Ad esempio, immettere **Piè di pagina-Copyright**.
+1. Andare a **Frammenti** quindi selezionare **Nuovo**.
+1. Nella finestra di dialogo **Nuovo frammento** , selezionare il modulo **Piè di pagina** e denominare il frammento. Ad esempio, immettere **Piè di pagina-Copyright**.
 1. Selezionare **OK**.
-1. Nel pannello di navigazione, selezionare il pulsante con i puntini di sospensione (**...**) accanto a **Piè di pagina** e selezionare **Aggiungi modulo**.
+1. Nel pannello di navigazione, selezionare il pulsante con i puntini di sospensione ( **...** ) accanto a **Piè di pagina** e selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo, selezionare **Categoria piè di pagina** e quindi **OK**.
 1. Nel pannello di navigazione, selezionare il pulsante con i puntini di sospensione accanto a **Piè di pagina** e selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo, selezionare **Blocco di testo** e quindi **OK**.
 1. Nel pannello di navigazione, selezionare **Blocco di testo**.
-1. Nel riquadro delle proprietà a destra, nel campo **Paragrafo**, aggiungere le informazioni sul copyright. Ad esempio, immettere **(C) Fabrikam 2019**.
-1. Selezionare **Salva**, **Fine modifica** e quindi **Pubblica**.
-1. Andare a **Modelli**, selezionare il modello e quindi **Modifica**.
+1. Nel riquadro delle proprietà a destra, nel campo **Paragrafo** , aggiungere le informazioni sul copyright. Ad esempio, immettere **(C) Fabrikam 2019**.
+1. Selezionare **Salva** , **Fine modifica** e quindi **Pubblica**.
+1. Andare a **Modelli** , selezionare il modello e quindi **Modifica**.
 1. Sotto **Struttura pagina** espandere **Corpo** e quindi **Pagina predefinita**.
 1. Selezionare il pulsante con i puntini di sospensione accanto a **Slot piè di pagina** e quindi selezionare **Aggiungi frammento**.
 1. Selezionare il frammento creato in precedenza e quindi **Seleziona**.

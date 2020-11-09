@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb535b1f20d97042e6205b680de1cc687350f071
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975149"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107209"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 
@@ -66,7 +66,7 @@ Se più righe sono selezionate, il menu a comparsa dettagli riga di ordine indic
 
 L'evasione ordine unificata include la possibilità di accettare manualmente gli ordini. Per impostazione predefinita, gli ordini per l'evasione presso il POS sono già accettati. Tuttavia, se i processi aziendali impongono che un lavoratore a livello di POS debba accettare gli ordini, l'accettazione manuale può essere attivata a livello di POS. Per consentire all'accettazione dell'ordine, andare a **Retail e Commerce** \> **Canali** \> **Punti vendita** \> **Tutti i punti vendita**. Aprire il punto vendita desiderato, quindi nella scheda **Generale** individuare l'intestazione secondaria **Evasione ordine**. Questa intestazione secondaria include un'opzione denominata **Accettazione manuale** configurata su **No** per impostazione predefinita. Impostando questa opzione su **Sì** e sincronizzando le modifiche nel database di canale, le righe di ordine possono essere elaborate tramite il processo di accettazione.
 
-I lavoratori con autorizzazione **Consenti accettazione ordine** possono aprire l'evasione dell'ordine e selezionare le righe per l'accettazione. Una volta accettate le righe, il loro stato cambia da **In sospeso** ad **Accettato** e il resto del processo di evasione dell'ordine può procedere. Quando è attivata l'**Accettazione manuale** gli ordini non verranno elaborati fino a che non sono stati accettati.
+I lavoratori con autorizzazione **Consenti accettazione ordine** possono aprire l'evasione dell'ordine e selezionare le righe per l'accettazione. Una volta accettate le righe, il loro stato cambia da **In sospeso** ad **Accettato** e il resto del processo di evasione dell'ordine può procedere. Quando è attivata l' **Accettazione manuale** gli ordini non verranno elaborati fino a che non sono stati accettati.
 
 Gli ordini per il prelievo del punto vendita non hanno mai stato **In sospeso**. Questo per evitare uno scenario in cui un cliente arriva al POS e la riga dell'ordine non può essere elaborata perché un lavoratore con il privilegio appropriato non è disponibile.
 
@@ -84,15 +84,15 @@ La categoria di azioni **Prelievo** viene fornita a supporto del processo di pre
 
 **Azione: Prelievo**
 
-- **Stato POS risultante**: Prelievo
-- **Stato back office risultante**: Nessuna modifica
+- **Stato POS risultante** : Prelievo
+- **Stato back office risultante** : Nessuna modifica
 
 Dopo che un ordine è stato accettato, le righe possono essere selezionate e contrassegnate come **Prelievo**. Contrassegnando una riga come **Prelievo** è possibile indicare che il lavoro di prelievo già stato eseguito su una riga. Questo impedisce a due lavoratori di tentare di selezionare le stesse righe di ordine contemporaneamente.
 
 **Azione: Stampa distinta di prelievo**
 
-- **Stato risultante**: Prelievo
-- **Stato back office risultante**: Nessuna modifica
+- **Stato risultante** : Prelievo
+- **Stato back office risultante** : Nessuna modifica
 
 Le distinte di prelievo possono essere stampate presso il POS per supportare i lavoratori nell'esecuzione del processo di prelievo. Una distinta di prelievo stampata può essere trasportata con il lavoratore che esegue il prelievo e mentre i prodotti vengono prelevati, l'operatore li contrassegnerà manualmente come selezionato nella distinta di prelievo.
 
@@ -111,7 +111,7 @@ Se gli ordini vengono elaborati nel tempo, quantità parziali possono essere ela
 
 Se una riga ordine viene selezionata per errore, la procedura di annullamento deve essere eseguita sulla riga dell'ordine nel back office. Al momento non esiste alcuna azione di annullamento prelievo supportata presso il punto vendita.
 
-Le righe ordine di ordini diversi possono essere selezionate e contrassegnate come **Prelievo**, stampate sulla stessa distinta di prelievo o contrassegnate come **Prelevato**.
+Le righe ordine di ordini diversi possono essere selezionate e contrassegnate come **Prelievo** , stampate sulla stessa distinta di prelievo o contrassegnate come **Prelevato**.
 
 ### <a name="pack"></a>Imballa
 
@@ -178,7 +178,7 @@ Le righe o le righe parziali possono essere rifiutate. Questo consente di riasse
 **Azione: Rifiuta**
 
 - **Stato risultante:** Rifiutato
-- **Stato back office risultante**: Nessuna modifica
+- **Stato back office risultante** : Nessuna modifica
 
 Le righe ordine rifiutate possono essere visualizzate dall'area lavoro **Elaborazione e richiesta di informazioni ordini cliente**. Deselezionare il filtro persona nell'area di lavoro per visualizzare tutte le righe dell'ordine rifiutate nei POS. Nella scheda **Righe ordine rifiutate** della visualizzazione nella sezione **Ordini e preferiti** è possibile visualizzare i dettagli della riga ordine. Inoltre, gli utenti possono fare clic sul pulsante **Righe ordine rifiutate** nella sezione **Riepilogo** per passare a una visualizzazione dell'ordine cliente. Questa visualizzazione mostra tutti gli ordini con una o più righe rifiutate dell'ordine. Se la gestione distribuita dell'ordine (DOM) è attivata, questi ordini respinti verranno automaticamente riassegnati ai POS appropriati per l'evasione, tuttavia, tuttavia queste righe ordine possono anche essere riassegnate manualmente. A questo scopo, selezionare la riga con **Stato di adempimento** **Rifiutato** e modificare il sito/magazzino come necessario. Fare clic sul menu a discesa **Aggiorna riga** e fare clic su **Reimposta stato di adempimento** per cambiare lo stato di evasione da **Rifiutato** ad **Accettato** o **In sospeso** in base all'impostazione dell'evasione dell'ordine. Dopo che lo stato di evasione viene reimpostato, i lavoratori del POS potranno visualizzare le righe ordine nel POS.
 
@@ -192,7 +192,7 @@ Continuando con l'esempio precedente, se 200 schede sono contrassegnate come imb
 
 ## <a name="line-statuses"></a>Stati per la riga
 
-Le righe ordine nel POS hanno diversi stati per riflettere lo stato della riga ordine. Gli stati nel POS e nel back office non sempre corrispondono. Lo stato della riga ordine può essere visualizzato attraverso il POS utilizzando le operazioni di evasione degli ordini. Nel back office, le righe ordini possono essere visualizzate da Dettagli ordini. I dettagli dell'ordine sono accessibili tramite **Retail e Commerce** \> **Clienti** \> **Tutti gli ordini cliente**. Selezionare **ID ordine** per visualizzare i dettagli dell'ordine. Nei dettagli dell'ordine selezionare la scheda **Ordine cliente**, quindi **Stato dettagliato** nell'intestazione secondaria **Visualizzazione**.
+Le righe ordine nel POS hanno diversi stati per riflettere lo stato della riga ordine. Gli stati nel POS e nel back office non sempre corrispondono. Lo stato della riga ordine può essere visualizzato attraverso il POS utilizzando le operazioni di evasione degli ordini. Nel back office, le righe ordini possono essere visualizzate da Dettagli ordini. I dettagli dell'ordine sono accessibili tramite **Retail e Commerce** \> **Clienti** \> **Tutti gli ordini cliente**. Selezionare **ID ordine** per visualizzare i dettagli dell'ordine. Nei dettagli dell'ordine selezionare la scheda **Ordine cliente** , quindi **Stato dettagliato** nell'intestazione secondaria **Visualizzazione**.
 
 - **In sospeso** – Le righe ordine che sono state assegnate a un POS, ma non ancora accettate, hanno lo stato **In sospeso** se visualizzate nel POS. Le righe in attesa di accettazione nel punto vendita avranno lo stato **Elaborazione ordine** nel back office.
 - **Accettato** – Le righe ordine che sono state accettate manualmente o accettate automaticamente avranno lo stato **Accettato** se visualizzate nel POS. Le righe con stato **Accettato** verranno visualizzate come **Elaborazione ordine** nel back office.
@@ -204,7 +204,7 @@ Le righe ordine nel POS hanno diversi stati per riflettere lo stato della riga o
 
 ## <a name="order-fulfillment-filtering"></a>Filtro di evasione ordine
 
-L'evasione dell'ordine presso il POS include il filtro per aiutare l'utente a trovare facilmente ciò di cui ha bisogno. I filtri possono essere modificati dal riquadro azioni nella parte inferiore della schermata **POS**. Per impostazione predefinita, viene applicato un filtro **Tipo di consegna** in base alla modalità di impostazione dell'operazione. Se l'operazione è impostata con il parametro **Tutti gli ordini**, il filtro viene applicato quando si accede all'esecuzione dell'ordine. Lo stesso si applica ai parametri in **Ritiro presso punto vendita** e **Spedizione da punto vendita**. Gli altri filtri che possono essere applicati all'esecuzione dell'ordine includono:
+L'evasione dell'ordine presso il POS include il filtro per aiutare l'utente a trovare facilmente ciò di cui ha bisogno. I filtri possono essere modificati dal riquadro azioni nella parte inferiore della schermata **POS**. Per impostazione predefinita, viene applicato un filtro **Tipo di consegna** in base alla modalità di impostazione dell'operazione. Se l'operazione è impostata con il parametro **Tutti gli ordini** , il filtro viene applicato quando si accede all'esecuzione dell'ordine. Lo stesso si applica ai parametri in **Ritiro presso punto vendita** e **Spedizione da punto vendita**. Gli altri filtri che possono essere applicati all'esecuzione dell'ordine includono:
 
 - Numero cliente
 - Nome cliente

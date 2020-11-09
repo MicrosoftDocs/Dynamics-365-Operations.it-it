@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018159"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
@@ -42,7 +42,7 @@ I fornitori possono inoltre controllare le informazioni sull'inventario spedizio
 
 L'area di lavoro **Conferma ordine fornitore** consente di rispondere agli ordini fornitore che sono stati inviati per la revisione. Consente inoltre di visualizzare le informazioni sugli ordini fornitore in attesa dell'azione dal cliente e su quelli confermati ma ancora aperti.
 
-Sono disponibili tre elenchi  nell'area di lavoro **Conferma ordine fornitore**:
+Sono disponibili tre elenchi  nell'area di lavoro **Conferma ordine fornitore** :
 
 - **Ordini fornitore per la revisione** - In questo elenco sono contenuti gli ordini fornitore inviati e in attesa di una risposta. Dopo la risposta, l'ordine fornitore viene rimosso dall'elenco. Se il cliente invia una nuova versione di ordine fornitore prima che si sia risposto alla versione precedente, viene mostrata solo l'ultima versione.
 - **In attesa dell'azione del cliente** - Questo elenco mostra tutti gli ordini fornitore a cui si è risposto ma non ancora confermati dal cliente. Se l'ordine fornitore viene accettato, è possibile monitorarlo in questo elenco finché lo stato non cambia in **Confermato**. Se l'ordine fornitore viene rifiutato o accettato con modifiche, è possibile monitorarlo qui finché il cliente non invia una nuova versione.
@@ -59,9 +59,9 @@ Sono disponibili tre elenchi  nell'area di lavoro **Conferma ordine fornitore**:
 
 Gli ordini fornitore che il cliente ha inviato per la revisione sono mostrati nell'area di lavoro **Conferma ordine fornitore** e nella pagina **Ordini fornitore per la revisione**. Una volta che si apre un ordine fornitore, è possibile accettarlo, rifiutarlo, o accettarlo con modifiche. Potrebbero essere presenti allegati nell'intestazione dell'ordine fornitore o nelle singole righe. Inoltre, è possibile allegare informazioni alla risposta nell'intestazione o nelle singole righe di ordine fornitore. Ad esempio, è possibile suggerire un articolo sostitutivo per una delle righe.
 
-È possibile visualizzare in anteprima e stampare un ordine fornitore come file PDF tramite l'opzione **Anteprima/Stampa**. È possibile visualizzare o nascondere le seguenti colonne di dimensione tramite l'azione **Visualizza dimensioni**: **Sito**, **Magazzino**, **Colore**, **Dimensione**, **Stile**, **Configurazione**. 
+È possibile visualizzare in anteprima e stampare un ordine fornitore come file PDF tramite l'opzione **Anteprima/Stampa**. È possibile visualizzare o nascondere le seguenti colonne di dimensione tramite l'azione **Visualizza dimensioni** : **Sito** , **Magazzino** , **Colore** , **Dimensione** , **Stile** , **Configurazione**. 
 
-Se si utilizza l'opzione **Accetta con modifiche**, è possibile accettare o rifiutare singole righe. È inoltre possibile apportare le modifiche seguenti alle righe:
+Se si utilizza l'opzione **Accetta con modifiche** , è possibile accettare o rifiutare singole righe. È inoltre possibile apportare le modifiche seguenti alle righe:
 
 - Modificare le date o quantità. Per aggiornare la data di consegna confermata per tutte le righe, utilizzare l'opzione nell'intestazione di ordine fornitore **Aggiorna date di consegna**.
 - Suddividere righe per date o quantità di consegna differenti.
@@ -109,7 +109,7 @@ Le persone che lavorano nel settore pubblico possono visualizzare le richieste d
 
     Una RdO chiusa mostra tutte le offerte fornitore fino al livello di riga. Quando le offerte vengono assegnate o rifiutate, queste informazioni si riflettono nella RdO chiusa. Tutti gli allegati inclusi nell'offerta sono inoltre disponibili.
 
-**Nota**: questa funzionalità è disponibile solo se è abilitata la configurazione del settore pubblico.
+**Nota** : questa funzionalità è disponibile solo se è abilitata la configurazione del settore pubblico.
 
 ### <a name="bidding"></a>Offerta
 
@@ -124,13 +124,13 @@ Le persone che lavorano nel settore pubblico possono visualizzare le richieste d
 - Selezionare **Reimposta dalla RdO** per reimpostare i dati immessi per un'offerta e tornare alla richiesta di offerta originale. È possibile reimpostare l'intestazione o la riga.
 - Selezionare **Aggiungi alternativa** o **Rimuovi alternativa** nella griglia della riga per utilizzare le alternative.
 
-    Alcune RdO consentono delle offerte alternative. È possibile specificare le offerte alternative solo per le righe di tipo **Categoria**, poiché non è possibile aggiungere articoli specifici come alternative. 
+    Alcune RdO consentono delle offerte alternative. È possibile specificare le offerte alternative solo per le righe di tipo **Categoria** , poiché non è possibile aggiungere articoli specifici come alternative. 
 
 - Selezionare **Allegato RdO** o **Allegato righe RdO** per aprire qualsiasi allegato che il cliente ha aggiunto a una RdO. Selezionare **Allegati offerta** o **Allegati riga di offerta** per caricare allegati insieme all'offerta.
 
     Potrebbero esserci questionari a cui rispondere prima di poter presentare un'offerta.
 
-- Selezionare **Rifiuta** se non si desidera inviare un'offerta. Dopo aver selezionato **Rifiuta**, non è possibile richiamare l'azione e inserire un'offerta.
+- Selezionare **Rifiuta** se non si desidera inviare un'offerta. Dopo aver selezionato **Rifiuta** , non è possibile richiamare l'azione e inserire un'offerta.
 
 Se una RdO viene modificata, è necessario immettere una nuova offerta. È possibile trovare informazioni sulla modifica nella scheda **Modifiche** della pagina RdO. Le RdO modificate vengono visualizzate nella pagina **Nuovi inviti di offerta**.
 

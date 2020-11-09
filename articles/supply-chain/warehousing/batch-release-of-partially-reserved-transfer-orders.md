@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLoadPlanningWorkbench
+ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0707731caaf9b4852e3c19be899ad92f5b84e29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016290"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Rilascio batch degli ordini di trasferimento parzialmente prenotati
 
@@ -47,7 +47,7 @@ I criteri di evasione per gli ordini di trasferimento e gli ordini cliente sono 
 
 -   Per creare criteri di evasione per ordini di trasferimento e ordini cliente, fare clic su **Gestione magazzino** \> **Impostazione** \> **Rilascia in magazzino** \> **Criteri di evasione** e quindi creare un criterio di evasione immettendo un nome e una descrizione.
 
--   Per specificare una percentuale di evasione, un tipo di valore e il messaggio visualizzato se il criterio di evasione viene violato, fare clic su **Gestione magazzino** \> **Impostazione** \> **Rilascia in magazzino** \> **Regola di evasione** e quindi impostare i campi **Percentuale evasione**, **Tipo di valore** e **Messaggio di violazione adempimento**.
+-   Per specificare una percentuale di evasione, un tipo di valore e il messaggio visualizzato se il criterio di evasione viene violato, fare clic su **Gestione magazzino** \> **Impostazione** \> **Rilascia in magazzino** \> **Regola di evasione** e quindi impostare i campi **Percentuale evasione** , **Tipo di valore** e **Messaggio di violazione adempimento**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Impostare i criteri di evasione per gli ordini di trasferimento e gli ordini cliente
 

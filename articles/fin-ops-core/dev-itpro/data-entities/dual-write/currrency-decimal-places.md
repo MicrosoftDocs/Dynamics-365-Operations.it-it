@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456816"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997480"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migrazione del tipo di dati valuta per la doppia scrittura
 
@@ -81,13 +80,13 @@ Sono previste alcune limitazioni:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Impostazioni di sistema: precisione della valuta per i prezzi
 
-Al termine della migrazione, gli amministratori possono impostare la precisione della valuta. Passare a **Impostazioni \> Amministrazione** e selezionare **Impostazioni di sistema**. Quindi, nella scheda **Generale**, cambiare il valore del campo **Impostazione della precisione della valuta utilizzata per la determinazione dei prezzi**, come mostrato nella figura seguente.
+Al termine della migrazione, gli amministratori possono impostare la precisione della valuta. Passare a **Impostazioni \> Amministrazione** e selezionare **Impostazioni di sistema**. Quindi, nella scheda **Generale** , cambiare il valore del campo **Impostazione della precisione della valuta utilizzata per la determinazione dei prezzi** , come mostrato nella figura seguente.
 
 ![Impostazioni di sistema per la valuta](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gestione aziendale: valute
 
-Se si richiede che la precisione di una valuta specifica differisca dalla precisione della valuta utilizzata per la determinazione dei prezzi, è possibile modificarla. Passare a **Impostazioni \> Gestione aziendale**, selezionare **Valute** e selezionare la valuta da modificare. Quindi impostare il campo **Precisione valuta** sul numero di posizioni decimali desiderate, come mostrato nella figura seguente.
+Se si richiede che la precisione di una valuta specifica differisca dalla precisione della valuta utilizzata per la determinazione dei prezzi, è possibile modificarla. Passare a **Impostazioni \> Gestione aziendale** , selezionare **Valute** e selezionare la valuta da modificare. Quindi impostare il campo **Precisione valuta** sul numero di posizioni decimali desiderate, come mostrato nella figura seguente.
 
 ![Impostazioni della valuta per una valuta locale specifica](media/specific-currency.png)
 

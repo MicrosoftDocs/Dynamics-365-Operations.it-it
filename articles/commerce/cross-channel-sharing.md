@@ -3,7 +3,7 @@ title: Abilitare e utilizzare la condivisione multicanale
 description: In questo argomento viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5dad866250bc57a9b158ee73948da509ecccd52c
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019520"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Abilitare e utilizzare la condivisione multicanale
 
@@ -55,7 +55,7 @@ Per abilitare la condivisione multicanale in Creazione di siti Web di Commerce, 
 
     ![Opzione Multicanale impostata su Attivato in Creazione di siti Web di Commerce](./media/enabling-cross-channel-sharing.png)
 
-Dopo aver abilitato la condivisione multicanale, le relative informazioni verranno visualizzate nella sezione **Canali** in **Impostazioni sito \> Funzionalità**, come mostra l'esempio nell'illustrazione seguente.
+Dopo aver abilitato la condivisione multicanale, le relative informazioni verranno visualizzate nella sezione **Canali** in **Impostazioni sito \> Funzionalità** , come mostra l'esempio nell'illustrazione seguente.
 
 ![Informazioni sui canali visibili dopo l'abilitazione della condivisione multicanale](./media/channels-cross-channel.png)
 
@@ -72,10 +72,10 @@ Puoi creare e utilizzare contenuto multicanale in diversi modi. Ad esempio, puoi
 Per creare un frammento multicanale in Creazione di siti Web di Commerce, segui questi passaggi.
 
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
-1. Nella finestra di dialogo **Nuovo frammento di pagina**, seleziona il modulo **Banner promozionale**, quindi sotto **Nome frammento di pagina**, inserisci un nome (ad esempio,**Banner multicanale**). Selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento** , selezionare il modulo **Banner promozionale** , quindi sotto **Nome frammento** , inserire un nome (ad esempio, **Banner multicanale** ). Selezionare **OK**.
 1. Nel riquadro delle proprietà del modulo **Banner promozionale** seleziona **Aggiungi messaggio** e quindi **Messaggio**.
-1. Nella finestra di dialogo **Messaggio**, sotto **Testo**, immetti **Multicanale** e seleziona **OK**. 
-1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
+1. Nella finestra di dialogo **Messaggio** , sotto **Testo** , immetti **Multicanale** e seleziona **OK**. 
+1. Selezionare **Salva** , selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 Questo frammento multicanale può essere utilizzato su pagine multicanale o specifiche del canale create in qualsiasi canale del sito.
 
@@ -86,12 +86,12 @@ Le pagine multicanale possono essere utilizzate su qualsiasi canale del tuo sito
 Per creare una pagina multicanale in Creazione di siti Web di Commerce che utilizza contenuto multicanale, segui questi passaggi.
 
 1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, seleziona un modello, ad esempio **Marketing**.
-1. Sotto **Nome pagina**, immetti un nome per la pagina (ad esempio **Pagina multicanale**).
-1. Sotto **URL pagina**, inserisci l'URL di una pagina (ad esempio, **examplepage**), quindi seleziona **OK**.
-1. Nello slot **Principale** della nuova pagina, seleziona il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento**.
-1. Nella finestra di dialogo **Aggiungi frammento**, seleziona il frammento multicanale creato in precedenza che ha un banner promozionale, quindi seleziona **OK**.
-1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Multicanale".
+1. Nella finestra di dialogo **Scegli un modello** , seleziona un modello, ad esempio **Marketing**.
+1. Sotto **Nome pagina** , immetti un nome per la pagina (ad esempio **Pagina multicanale** ).
+1. Sotto **URL pagina** , inserisci l'URL di una pagina (ad esempio, **examplepage** ), quindi seleziona **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare il pulsante con i puntini di sospensione ( **...** ) e quindi **Aggiungi frammento**.
+1. Nella finestra di dialogo **Aggiungi frammento** , selezionare il frammento multicanale creato in precedenza che ha un banner promozionale, quindi selezionare **OK**.
+1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Multicanale".
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ### <a name="create-a-channel-specific-page-that-uses-cross-channel-content"></a>Creare una pagina specifica del canale che utilizza contenuto multicanale
@@ -100,13 +100,13 @@ Utilizzando contenuto multicanale in pagine specifiche del canale, puoi creare u
 
 Per creare una pagina specifica del canale in Creazione di siti Web di Commerce che utilizza contenuto multicanale, segui questi passaggi.
 
-1. In un canale specifico, come **Punto vendita online esteso Fabrikam**, vai a **Pagine** e quindi seleziona **Nuova** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, seleziona un modello, ad esempio **Marketing**.
-1. Sotto **Nome pagina**, immetti un nome per la pagina (ad esempio **Pagina specifica del canale**).
-1. Sotto **URL pagina**, immetti l'URL di una pagina (ad esempio, **channelspecificpage**), quindi seleziona **OK**.
-1. Nello slot **Principale** della nuova pagina, seleziona il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento**.
-1. Nella finestra di dialogo **Aggiungi frammento**, sotto **Canale**, seleziona **Punto vendita online multicanale**. Il frammento multicanale che hai creato in precedenza deve essere visualizzato nell'elenco. Selezionalo e quindi seleziona **OK**.
-1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Multicanale".
+1. In un canale specifico, come **Punto vendita online esteso Fabrikam** , vai a **Pagine** e quindi seleziona **Nuova** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello** , seleziona un modello, ad esempio **Marketing**.
+1. Sotto **Nome pagina** , immetti un nome per la pagina (ad esempio **Pagina specifica del canale** ).
+1. Sotto **URL pagina** , immetti l'URL di una pagina (ad esempio, **channelspecificpage** ), quindi seleziona **OK**.
+1. Nello slot **Principale** della nuova pagina, selezionare il pulsante con i puntini di sospensione ( **...** ) e quindi **Aggiungi frammento**.
+1. Nella finestra di dialogo **Aggiungi frammento** , sotto **Canale** , selezionare **Punto vendita online multicanale**. Il frammento multicanale che hai creato in precedenza deve essere visualizzato nell'elenco. Selezionalo e quindi seleziona **OK**.
+1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Multicanale".
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ### <a name="create-a-channel-specific-version-of-a-cross-channel-page"></a>Creare una versione specifica del canale di una pagina multicanale
@@ -119,11 +119,11 @@ Per creare una versione specifica del canale di una pagina multicanale in Creazi
 1. Apri la pagina multicanale che hai creato in precedenza.
 1. Nel campo **Canale** in alto a destra, seleziona il canale che deve avere un contenuto specifico. L'editor di pagine mostra un messaggio che richiede di creare una nuova variante di pagina.
 1. Seleziona **Crea variante di pagina**.
-1. Nello slot **Principale** della variante di pagina, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nello slot **Principale** della variante di pagina, seleziona i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** seleziona il modulo **Banner promozionale** e quindi **OK**.
 1. Nel riquadro delle proprietà del modulo **Banner promozionale** seleziona **Aggiungi messaggio** e quindi **Messaggio**.
-1. Nella finestra di dialogo **Messaggio**, sotto **Testo**, immetti **Specifico del canale** e seleziona **OK**.
-1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Specifico del canale".
+1. Nella finestra di dialogo **Messaggio** , sotto **Testo** , immetti **Specifico del canale** e seleziona **OK**.
+1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina. Il banner promozionale dovrebbe indicare "Specifico del canale".
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 Se quindi utilizzi l'URL di base del canale e vai all'URL della pagina multicanale in quel sito, vedrai il contenuto specifico del canale anziché il contenuto multicanale.

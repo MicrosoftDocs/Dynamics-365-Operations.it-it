@@ -3,7 +3,7 @@ title: Opzioni di configurazione per l'automazione delle fatture fornitore (ante
 description: In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore.
 author: abruer
 manager: AnnBe
-ms.date: 08/30/2020
+ms.date: 10/16/2020
 ms.topic: articl
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eedc5ae1ed20da4c506b3510eaeac32c0ada3b70
-ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
+ms.openlocfilehash: c3ee1112a409f87fdb433d5d43442a858dbd1798
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3905020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022592"
 ---
-# <a name="setup-options-for-vendor-invoice-automation-preview"></a>Opzioni di configurazione per l'automazione delle fatture fornitore (anteprima)
+# <a name="setup-options-for-vendor-invoice-automation"></a>Opzioni di configurazione per l'automazione delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore. Le funzionalità di automazione delle fatture utilizzano i seguenti tipi di parametri di configurazione:
 
@@ -40,27 +39,27 @@ Per ottenere l'automazione senza contatto dal processo di importazione attravers
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parametri per l'invio di fatture fornitore importate al sistema del flusso di lavoro
 
-Per l'invio di fatture fornitore importate al sistema del flusso di lavoro vengono utilizzati specifici parametri. Inoltre, alcuni parametri sono utilizzati per abbinare righe di entrata prodotti registrate alle righe di fattura fornitore in sospeso. Nella scheda **Automazione fattura fornitore** della pagina **Parametri di contabilità fornitori**, i parametri che devi impostare sono suddivisi tra le seguenti sezioni:
+Per l'invio di fatture fornitore importate al sistema del flusso di lavoro vengono utilizzati specifici parametri. Inoltre, alcuni parametri sono utilizzati per abbinare righe di entrata prodotti registrate alle righe di fattura fornitore in sospeso. Nella scheda **Automazione fattura fornitore** della pagina **Parametri di contabilità fornitori** , i parametri che devi impostare sono suddivisi tra le seguenti sezioni:
 
 - Flusso di lavoro fatture fornitore
 - Abbina le entrate prodotti automaticamente
 
 Sono disponibili i parametri seguenti:
 
-- **Invia automaticamente fatture importate a flusso di lavoro** - Se imposti questa opzione su **Sì**, le fatture importate vengono inviate automaticamente al sistema del flusso di lavoro. Se questa opzione è impostata su **No**, le fatture devono essere inviate manualmente. Impostando questa opzione su **Sì**, abiliti un processo senza contatto dai risultati dell'importazione fino alla registrazione.
+- **Invia automaticamente fatture importate a flusso di lavoro** - Se imposti questa opzione su **Sì** , le fatture importate vengono inviate automaticamente al sistema del flusso di lavoro. Se questa opzione è impostata su **No** , le fatture devono essere inviate manualmente. Impostando questa opzione su **Sì** , abiliti un processo senza contatto dai risultati dell'importazione fino alla registrazione.
 
     Puoi impostare questa opzione su **Sì** solo se un flusso di lavoro di fatture fornitore attivo è configurato per la persona giuridica. Per configurare un flusso di lavoro, vai a **Contabilità fornitori \> Impostazioni \> Flusso di lavoro contabilità fornitori**.
 
-- **Abbina entrate prodotti a righe di fattura prima dell'invio automatico** - Se imposti questa opzione su **Sì**, la fattura importata non può essere inviata automaticamente al sistema del flusso di lavoro fino a che la quantità delle entrate prodotti abbinata non è uguale alla quantità della fattura. Impostando questa opzione su **Sì**, abiliti l'abbinamento automatico delle entrate prodotti registrate alle righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Quel processo verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. A quel punto, la fattura viene automaticamente inviata al sistema del flusso di lavoro.
+- **Abbina entrate prodotti a righe di fattura prima dell'invio automatico** - Se imposti questa opzione su **Sì** , la fattura importata non può essere inviata automaticamente al sistema del flusso di lavoro fino a che la quantità delle entrate prodotti abbinata non è uguale alla quantità della fattura. Impostando questa opzione su **Sì** , abiliti l'abbinamento automatico delle entrate prodotti registrate alle righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Quel processo verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. A quel punto, la fattura viene automaticamente inviata al sistema del flusso di lavoro.
 
     L'opzione "Abbina entrate prodotti a righe di fattura prima dell'invio automatico" è disponibile solo se l'opzione **Abilita convalida abbinamento fatture** è selezionata. Quando questa opzione è selezionata, l'opzione **Abbina automaticamente entrate prodotti a righe di fattura** viene selezionata automaticamente.
 
-- **Richiedi che i totali calcolati siano uguali ai totali importati per l'invio automatico del flusso di lavoro** - Se imposti questa opzione su **Sì**, la fattura non può essere inviata automaticamente al sistema del flusso di lavoro fino a che i totali calcolati per la fattura non sono uguali ai totali importati. Se questa opzione è impostata su **No**, la fattura può essere inviata automaticamente al sistema del flusso di lavoro, ma non può essere registrata fino a che i totali calcolati non vengono corretti di modo che corrispondano ai totali importati. Se non importi l'importo della fattura o l'importo dell'IVA, questa opzione deve essere impostata su **No**.
-- **Abbina automaticamente entrate prodotti a righe di fattura** - Se imposti questa opzione su **Sì**, l'elaborazione in background può essere utilizzata per eseguire l'abbinamento automatico delle entrate prodotto registrate a righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Quel processo verrà eseguito fino a quando la quantità di entrate prodotto abbinata non sarà uguale alla quantità della fattura o fino a quando non viene raggiunto il valore del campo **Numero di tentativi di abbinamento automatico**. Il processo può essere eseguito fino a quando la fattura non è stata inviata al sistema del flusso di lavoro.
+- **Richiedi che i totali calcolati siano uguali ai totali importati per l'invio automatico del flusso di lavoro** - Se imposti questa opzione su **Sì** , la fattura non può essere inviata automaticamente al sistema del flusso di lavoro fino a che i totali calcolati per la fattura non sono uguali ai totali importati. Se questa opzione è impostata su **No** , la fattura può essere inviata automaticamente al sistema del flusso di lavoro, ma non può essere registrata fino a che i totali calcolati non vengono corretti di modo che corrispondano ai totali importati. Se non importi l'importo della fattura o l'importo dell'IVA, questa opzione deve essere impostata su **No**.
+- **Abbina automaticamente entrate prodotti a righe di fattura** - Se imposti questa opzione su **Sì** , l'elaborazione in background può essere utilizzata per eseguire l'abbinamento automatico delle entrate prodotto registrate a righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Quel processo verrà eseguito fino a quando la quantità di entrate prodotto abbinata non sarà uguale alla quantità della fattura o fino a quando non viene raggiunto il valore del campo **Numero di tentativi di abbinamento automatico**. Il processo può essere eseguito fino a quando la fattura non è stata inviata al sistema del flusso di lavoro.
 
     Questa opzione è disponibile solo se è selezionata l'opzione **Abilita convalida abbinamento fatture**.
 
-    Se imposti l'opzione **Abbina entrate prodotti a righe di fattura prima dell'abbinamento automatico** su **Sì**, questa opzione non può essere impostata su **No**. Per impostare questa opzione su **No**, devi prima impostare **Abbina entrate prodotti a righe di fattura prima dell'abbinamento automatico** su **No**.
+    Se imposti l'opzione **Abbina entrate prodotti a righe di fattura prima dell'abbinamento automatico** su **Sì** , questa opzione non può essere impostata su **No**. Per impostare questa opzione su **No** , devi prima impostare **Abbina entrate prodotti a righe di fattura prima dell'abbinamento automatico** su **No**.
 
 - **Numero di tentativi di abbinamento automatico** - Seleziona il numero di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima di considerare il processo come non riuscito. Quando viene raggiunto il numero di tentativi specificato, la fattura viene rimossa dall'elaborazione dell'automazione.
 - **Convalida solo quando la quantità di entrate prodotti abbinata è uguale alla quantità della fattura** - Se selezioni questa opzione, l'abbinamento fatture viene convalidato automaticamente solo quando la quantità di entrate prodotti abbinata della riga di fattura è uguale alla quantità fattura della riga di fattura. Se questa opzione è deselezionata, l'abbinamento fatture viene convalidato ogni volta che il sistema abbina automaticamente una riga di entrata prodotti a una riga di fattura.

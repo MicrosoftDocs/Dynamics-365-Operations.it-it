@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7e9fdf0a546bf449f249eacdded1f4b4d1b4d1af
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017324"
 ---
 # <a name="zone-threshold-replenishment"></a>Rifornimento soglia di zona
 
@@ -40,7 +41,7 @@ A differenza del rifornimento min/max basato sull'ubicazione, il rifornimento mi
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Attiva la funzione di rifornimento della soglia di zona
 
-Prima di poter utilizzare la funzionalità *Rifornimento soglia di zona*, deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter utilizzare la funzionalità *Rifornimento soglia di zona* , deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Rifornimento soglia di zona*
@@ -94,15 +95,15 @@ Questo esempio mostra come preparare un modello di rifornimento. Se prevedi di a
     - **Tipo di rifornimento:** _Minimo o massimo_
 
 1. Selezionare **Salva**.
-1. Mentre la nuova riga è ancora selezionata nella griglia **Panoramica**, seleziona **Nuovo** sopra la griglia **Dettagli del modello rifornimento** per aggiungere una riga associata al modello di rifornimento *Rifornimento min/max zona* che hai appena creato.
+1. Mentre la nuova riga è ancora selezionata nella griglia **Panoramica** , seleziona **Nuovo** sopra la griglia **Dettagli del modello rifornimento** per aggiungere una riga associata al modello di rifornimento *Rifornimento min/max zona* che hai appena creato.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero sequenza:** Immetti _1_.
     - **Descrizione:** Immetti _Rifornimento zona prelievo_.
     - **Unità di rifornimento:** Seleziona _EA_.
     - **Tipo di richiesta:** lascia vuoto questo campo.
-    - **Codice direttiva:** questo campo collega il modello di rifornimento a una direttiva di ubicazione. Seleziona il codice direttiva per i dati dimostrativi che hai creato in precedenza (_Rifornimento zona_).
-    - **Modello di lavoro**: lasciare vuoto questo campo.
+    - **Codice direttiva:** questo campo collega il modello di rifornimento a una direttiva di ubicazione. Seleziona il codice direttiva per i dati dimostrativi che hai creato in precedenza ( _Rifornimento zona_ ).
+    - **Modello di lavoro** : lasciare vuoto questo campo.
     - **Quantità minima:** questo campo imposta la quantità a cui verrà attivato il rifornimento. Immetti _50_.
     - **Quantità massima:** questo campo imposta la quantità massima di un articolo che può essere presente in una zona. Il lavoro di rifornimento generato aumenterà le scorte fino a questa quantità. Immetti _150_.
     - **Unità:** questo campo imposta l'unità per i valori minimo e massimo. Seleziona _ea_.
@@ -114,7 +115,7 @@ Questo esempio mostra come preparare un modello di rifornimento. Se prevedi di a
     - **Magazzino:** seleziona _61_.
 
 1. Seleziona **Seleziona prodotti** sopra la griglia **Dettagli modello di rifornimento**.
-1. Nella finestra di dialogo **Query prodotto**, nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella finestra di dialogo **Query prodotto** , nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** _Articoli_
@@ -124,7 +125,7 @@ Questo esempio mostra come preparare un modello di rifornimento. Se prevedi di a
 
 1. Seleziona **OK** per salvare la query e chiudere la finestra dialogo.
 1. Seleziona **Seleziona zone da rifornire** sopra la griglia **Dettagli modello di rifornimento**.
-1. Nella finestra di dialogo **Query zona**, nella scheda **Intervallo**, aggiungi una riga alla griglia.
+1. Nella finestra di dialogo **Query zona** , nella scheda **Intervallo** , aggiungi una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** _Zona magazzino_
@@ -165,7 +166,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
     - **Più SKU:** imposta questa opzione su _No_.
 
 1. Seleziona **Salva** per creare una direttiva con le impostazioni che hai configurato finora.
-1. Nella Scheda dettaglio **Righe**, seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Righe** , seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero sequenza:** Immetti _1_.
@@ -179,7 +180,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
     - **Consenti divisione:** seleziona questa casella di controllo.
 
 1. Seleziona **Salva** per salvare la nuova riga.
-1. Mentre la tua nuova riga è ancora selezionata nella griglia **Righe**, seleziona **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia.
+1. Mentre la tua nuova riga è ancora selezionata nella griglia **Righe** , seleziona **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero sequenza:** Immetti _1_.
@@ -191,7 +192,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
 
 1. Seleziona **Salva** per salvare la nuova azione.
 1. Con la nuova azione ancora selezionata, seleziona **Modifica query** sopra la griglia **Azioni direttiva ubicazione**.
-1. Viene visualizzata una finestra di dialogo della query, in cui è possibile selezionare le ubicazioni da rifornire. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Viene visualizzata una finestra di dialogo della query, in cui è possibile selezionare le ubicazioni da rifornire. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** _Ubicazioni_
@@ -204,7 +205,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
 
 ##### <a name="create-a-replenishment-put-directive"></a>Creare una direttiva di stoccaggio di rifornimento
 
-1. Nella pagina **Direttive di ubicazione**, nel riquadro sinistro, verifica che il campo **Tipo di ordine di lavoro** sia è ancora impostato su _Rifornimento_.
+1. Nella pagina **Direttive di ubicazione** , nel riquadro sinistro, verifica che il campo **Tipo di ordine di lavoro** sia è ancora impostato su _Rifornimento_.
 1. Nel riquadro azioni seleziona **Nuova** per creare un'altra nuova direttiva.
 1. Imposta i valori seguenti:
 
@@ -217,7 +218,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
     - **Più SKU:** imposta questa opzione su _No_.
 
 1. Seleziona **Salva** per creare una direttiva con le impostazioni che hai configurato finora.
-1. Nella Scheda dettaglio **Righe**, seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Righe** , seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero sequenza:** Immetti _1_.
@@ -231,7 +232,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
     - **Consenti divisione:** seleziona questa casella di controllo.
 
 1. Seleziona **Salva** per salvare la nuova riga.
-1. Mentre la tua nuova riga è ancora selezionata nella griglia **Righe**, seleziona **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia.
+1. Mentre la tua nuova riga è ancora selezionata nella griglia **Righe** , seleziona **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero sequenza:** Immetti _1_.
@@ -243,7 +244,7 @@ Per preparare i dati dimostrativi in modo che possano essere utilizzati nello sc
 
 1. Seleziona **Salva** per salvare la nuova azione.
 1. Con la nuova azione ancora selezionata, seleziona **Modifica query** sopra la griglia **Azioni direttiva ubicazione**.
-1. Viene visualizzata una finestra di dialogo della query, in cui è possibile selezionare la zona da rifornire. Questa zona deve essere la stessa zona specificata nel modello di rifornimento. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Viene visualizzata una finestra di dialogo della query, in cui è possibile selezionare la zona da rifornire. Questa zona deve essere la stessa zona specificata nel modello di rifornimento. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** _Ubicazioni_
@@ -268,21 +269,21 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio specificati
 
 #### <a name="prepare-additional-sample-data"></a>Preparare altri dati di esempio
 
-Dopo aver selezionato la persona giuridica **USMF**, aggiungi i dati di esempio aggiuntivi richiesti, come descritto nella sezione [Impostare il rifornimento basato su zone](#setup) precedente in questo argomento.
+Dopo aver selezionato la persona giuridica **USMF** , aggiungi i dati di esempio aggiuntivi richiesti, come descritto nella sezione [Impostare il rifornimento basato su zone](#setup) precedente in questo argomento.
 
 #### <a name="check-your-on-hand-inventory"></a>Controllare le scorte disponibili
 
 Segui questi passaggi per verificare che il sistema includa scorte sufficienti per supportare lo scenario di esempio.
 
-1. Verifica che vi siano scorte disponibili per l'articolo *A0001* in due diverse ubicazioni nella zona di prelievo (*PIANO*) specificata nel modello di rifornimento. Tuttavia, le scorte totali dovrebbe essere inferiori alla quantità minima richiesta (*50*) specificata nel modello di rifornimento. In questo modo, puoi simulare il modo in cui si verifica il calcolo per l'intera zona anziché solo per una singola ubicazione. **Utilizza uno qualsiasi dei processi di magazzino per regolare le scorte in base alle esigenze.**
-1. Verifica che ci siano abbastanza scorte dell'articolo *A0001* in un'ubicazione in blocco specificata nella direttiva sull'ubicazione di prelievo zona in cui il lavoro di rifornimento dovrebbe prelevare gli articoli dall'ID zona *MASSA*. Le scorte totali devono essere superiori alla quantità massima richiesta (*150*) specificata nel modello di rifornimento.
+1. Verifica che vi siano scorte disponibili per l'articolo *A0001* in due diverse ubicazioni nella zona di prelievo ( *PIANO* ) specificata nel modello di rifornimento. Tuttavia, le scorte totali dovrebbe essere inferiori alla quantità minima richiesta ( *50* ) specificata nel modello di rifornimento. In questo modo, puoi simulare il modo in cui si verifica il calcolo per l'intera zona anziché solo per una singola ubicazione. **Utilizza uno qualsiasi dei processi di magazzino per regolare le scorte in base alle esigenze.**
+1. Verifica che ci siano abbastanza scorte dell'articolo *A0001* in un'ubicazione in blocco specificata nella direttiva sull'ubicazione di prelievo zona in cui il lavoro di rifornimento dovrebbe prelevare gli articoli dall'ID zona *MASSA*. Le scorte totali devono essere superiori alla quantità massima richiesta ( *150* ) specificata nel modello di rifornimento.
 1. Facoltativo ma consigliato: attieniti alla seguente procedura per creare un giornale di registrazione delle scorte:
 
     1. Vai a **Gestione magazzino \> Inserimenti nel giornale di registrazione \> Articoli \> Rettifica di magazzino**.
     1. Selezionare **Nuovo**.
-    1. Nella finestra di dialogo **Crea giornale di registrazione magazzino**, nel campo **Magazzino**, seleziona *61*.
+    1. Nella finestra di dialogo **Crea giornale di registrazione magazzino** , nel campo **Magazzino** , seleziona *61*.
     1. Selezionare **OK**.
-    1. Nella Scheda dettaglio **Righe giornale di registrazione**, utilizza il pulsante **Nuova** per aggiungere tre righe alla griglia e impostare i seguenti valori. Dopo aver completato l'impostazione di ciascuna riga, seleziona **Salva**.
+    1. Nella Scheda dettaglio **Righe giornale di registrazione** , utilizza il pulsante **Nuova** per aggiungere tre righe alla griglia e impostare i seguenti valori. Dopo aver completato l'impostazione di ciascuna riga, seleziona **Salva**.
 
         - **Riga 1:**
 
@@ -319,8 +320,8 @@ Segui questi passaggi per verificare che il sistema includa scorte sufficienti p
 Dopo che tutti i dati di esempio dei prerequisiti sono presenti, puoi attivare il rifornimento seguendo questi passaggi.
 
 1. Vai a **Gestione magazzino \> Rifornimento \> Rifornimenti**.
-1. Nella finestra di dialogo **Rifornimento**, nella Scheda dettaglio **Record da includere**, seleziona **Filtro**.
-1. Nella finestra di dialogo **Richiesta di informazioni**, nella scheda **Intervallo**, modifica la riga della tabella predefinita nel modo seguente:
+1. Nella finestra di dialogo **Rifornimento** , nella Scheda dettaglio **Record da includere** , seleziona **Filtro**.
+1. Nella finestra di dialogo **Richiesta di informazioni** , nella scheda **Intervallo** , modifica la riga della tabella predefinita nel modo seguente:
 
     - **Tabella:** seleziona _Modelli di rifornimento_.
     - **Tabella derivata:** seleziona _Modelli di rifornimento_.

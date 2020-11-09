@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410415"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107186"
 ---
 # <a name="set-up-a-call-center-channel"></a>Impostare un canale servizio clienti
 
@@ -48,7 +48,7 @@ Per creare e configurare un nuovo canale servizio clienti, effettuare le seguent
 1. Selezionare la **persona giuridica** appropriata nell'elenco a discesa.
 1. Selezionare l'ubicazione **magazzino** appropriata nell'elenco a discesa. Questa posizione verrà utilizzata come impostazione predefinita per gli ordini cliente creati per questo canale di servizio clienti, a meno che non siano state definite altre impostazioni predefinite a livello di cliente o articolo.
 1. Nel campo **Cliente predefinito** fornire un cliente predefinito valido. Questi dati vengono utilizzati per facilitare il popolamento automatico delle impostazioni predefinite quando vengono creati nuovi record cliente. Quando si creano ordini di servizio clienti, non è consigliabile creare ordini per il cliente predefinito.
-1. Nel campo **Profilo di notifica tramite posta elettronica**, fornire un profilo di notifica valido. Man mano che gli ordini del servizio clienti vengono creati ed elaborati, il profilo di notifica e-mail viene utilizzato per attivare avvisi e-mail automatici ai clienti con informazioni sullo stato dell'ordine.
+1. Nel campo **Profilo di notifica tramite posta elettronica** , fornire un profilo di notifica valido. Man mano che gli ordini del servizio clienti vengono creati ed elaborati, il profilo di notifica e-mail viene utilizzato per attivare avvisi e-mail automatici ai clienti con informazioni sullo stato dell'ordine.
 1. Fornire un codice informativo **Forzatura prezzo**. Potrebbe essere necessario creare dapprima un codice informativo. Questo codice informativo fornisce il set di codici motivo che l'utente dovrà scegliere quando utilizza la funzionalità di sostituzione del prezzo in un ordine di servizio clienti.
 1. Fornire un codice informativo **Codice sospensione**. Potrebbe essere necessario creare dapprima un codice informativo. Questo codice informativo fornisce il set di codici motivo facoltativi che l'utente dovrà scegliere quando utilizza mette in attesa un ordine.
 1. Fornire un codice informativo **Credito**. Potrebbe essere necessario creare dapprima un codice informativo. Questo codice informativo fornisce il set di codici motivo che l'utente può scegliere quando utilizza la funzionalità di credito dell'ordine del servizio clienti per fornire rimborsi al cliente per motivi di servizio clienti.
@@ -75,7 +75,7 @@ L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna** 
 
 Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un canale, procedere come segue. Gli utenti dovranno scegliere tra i metodi di pagamento predefiniti per collegarli al canale del servizio clienti. Prima di impostare i metodi di pagamento del servizio clienti, impostare innanzitutto i metodi di pagamento principali **Retail e Commerce \> Impostazione del canale \> Modalità di pagamento \> Modalità di pagamento**.
 
-1. Nel riquadro azioni, selezionare la scheda **Imposta**, quindi selezionare **Metodi di pagamento**.
+1. Nel riquadro azioni, selezionare la scheda **Imposta** , quindi selezionare **Metodi di pagamento**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
 1. Nel riquadro di spostamento, selezionare un metodo di pagamento tra i pagamenti predefiniti disponibili.
 1. Configurare eventuali impostazioni aggiuntive come necessario per il tipo di pagamento. Per le carte di credito, gift card o carte fedeltà, è necessaria un'impostazione aggiuntiva selezionando la funzione **Impostazione carta**. 
@@ -94,7 +94,7 @@ Per modificare o aggiungere una modalità di consegna da associare al canale del
 
 1. Dal modulo delle modalità di consegna del servizio clienti, selezionare **Gestire le modalità di consegna**
 1. Nel riquadro azioni, selezionare **Nuovo** per creare una nuova modalità di consegna o selezionarne una esistente.
-1. Nella sezione **Canali di vendita al dettaglio**, fare clic su **Aggiungi riga** per aggiungere il canale del servizio clienti. Aggiungere canali utilizzando nodi dell'organizzazione anziché aggiungere ogni canale singolarmente può semplificare questa operazione.
+1. Nella sezione **Canali di vendita al dettaglio** , fare clic su **Aggiungi riga** per aggiungere il canale del servizio clienti. Aggiungere canali utilizzando nodi dell'organizzazione anziché aggiungere ogni canale singolarmente può semplificare questa operazione.
 1. Assicurarsi che la modalità di consegna sia stata configurata con i dati nella scheda dettaglio **Prodotti** e nella scheda dettaglio **Indirizzi**. Se nessun prodotto o indirizzo di consegna è valido per la modalità di consegna, la scelta durante l'inserimento dell'ordine comporterà errori.
 1. Dopo che sono state apportate le modifiche alla modalità di configurazione della consegna del servizio clienti, il processo **Elabora modalità di consegna** deve essere eseguito per esplodere la matrice della modifica. Questo processo è disponibile accedendo a **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Elabora modalità di consegna**.
 
@@ -106,7 +106,7 @@ L'immagine seguente illustra un esempio di modalità di consegna.
 
 Per creare un ordine cliente collegato al canale del servizio clienti da Commerce Headquarters, l'utente che crea l'ordine cliente deve essere collegato al canale del servizio clienti. L'utente non può collegare manualmente un ordine cliente creato in Commerce Headquarters al canale del servizio clienti. Il collegamento è sistematico e si basa sull'utente e sulla relazione dell'utente con il canale del servizio clienti. Un utente può essere collegato a un solo canale del servizio clienti.
 
-1. Nel riquadro azioni, selezionare la scheda **Canale**, quindi selezionare **Utenti canale**.
+1. Nel riquadro azioni, selezionare la scheda **Canale** , quindi selezionare **Utenti canale**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
 1. Scegliere un **ID utente** esistente dall'elenco di selezione a discesa per collegare questo utente al canale del servizio clienti
 
@@ -119,7 +119,7 @@ I gruppi di prezzi sono facoltativi, ma se utilizzati possono controllare quali 
 
 Per impostare un gruppo di prezzi, procedere come segue.
 
-1. Nel riquadro azioni, fare clic sulla scheda **Canale**, quindi selezionare **Gruppi di prezzi**.
+1. Nel riquadro azioni, fare clic sulla scheda **Canale** , quindi selezionare **Gruppi di prezzi**.
 1. Fare clic su **Nuovo** nel riquadro azioni.
 1. Selezionare un **Gruppo di prezzi di vendita al dettaglio** dall'elenco di selezione a discesa.
 

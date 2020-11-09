@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: dce4b6310e2f6d31a115302efa7fbc132799e48f
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829287"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997676"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurare il mapping per i campi di stato dell'ordine cliente
 
@@ -45,7 +44,7 @@ L'enumerazione **Stato** include i seguenti valori:
 - Fatturate
 - Operazione annullata
 
-L'enumerazione **Stato documento** specifica il documento più recente che è stato generato per l'ordine. Ad esempio, se l'ordine è confermato, questo documento è una conferma dell'ordine cliente. Se un ordine cliente viene fatturato parzialmente e la riga rimanente viene confermata, lo stato del documento rimane **Fattura**, perché la fattura viene generata in un secondo momento nel processo.
+L'enumerazione **Stato documento** specifica il documento più recente che è stato generato per l'ordine. Ad esempio, se l'ordine è confermato, questo documento è una conferma dell'ordine cliente. Se un ordine cliente viene fatturato parzialmente e la riga rimanente viene confermata, lo stato del documento rimane **Fattura** , perché la fattura viene generata in un secondo momento nel processo.
 
 L'enumerazione **Stato documento** include i seguenti valori:
 
@@ -98,7 +97,7 @@ La tabella seguente mostra la mappatura di **Stato di elaborazione** tra Sales e
 
 Per configurare il mapping per i campi di stato dell'ordine cliente, è necessario abilitare gli attributi **IsSOPIntegrationEnabled** e **isIntegrationUser**.
 
-Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
+Per abilitare l'attributo **IsSOPIntegrationEnabled** , segui questi passaggi.
 
 1. In un browser, passa a `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Sostituisci **\<test-name\>** con il collegamento della tua azienda in Sales.
 2. Nella pagina che viene aperta, trova **organizationid** e prendi nota del valore.
@@ -128,9 +127,9 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
 
     ![IsSOPIntegrationEnabled impostato su true](media/sales-map-integration-enabled.png)
 
-Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
+Per abilitare l'attributo **isIntegrationUser** , segui questi passaggi.
 
-1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema**, seleziona **Entità utente** e quindi apri **Modulo \> Utente**.
+1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema** , seleziona **Entità utente** e quindi apri **Modulo \> Utente**.
 
     ![Apertura del modulo utente](media/sales-map-user.png)
 

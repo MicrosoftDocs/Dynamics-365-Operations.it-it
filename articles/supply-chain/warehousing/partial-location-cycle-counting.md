@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
+ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017600"
 ---
 # <a name="partial-location-cycle-counting"></a>Conteggio ciclo ubicazioni parziale
 
@@ -41,7 +41,7 @@ Quando si utilizza il processo di lavoro di magazzino per le operazioni di conte
 
 Quando si definiscono i dettagli del modello di lavoro, è possibile utilizzare l'opzione **Interruzioni riga lavoro** per specificare se le righe del lavoro di conteggio devono essere raggruppate in base al numero di articolo o al numero di variante prodotto. Questa impostazione è necessaria se si desidera conteggiare le scorte disponibili solo per i prodotti specifici di un'ubicazione. Le righe del lavoro di conteggio ciclo create avranno il livello di informazioni definito qui e l'operazione di conteggio guidata verrà gestita in base a tale livello. 
 
-Se si associano i piani di conteggio ciclo ai modelli di lavoro mediante l'opzione **Interruzioni riga lavoro**, il campo **Conteggio ciclo parziale** viene selezionato per il lavoro di conteggio ciclo creato e più righe del lavoro di conteggio ciclo verranno create in base alla definizione del modello di lavoro. 
+Se si associano i piani di conteggio ciclo ai modelli di lavoro mediante l'opzione **Interruzioni riga lavoro** , il campo **Conteggio ciclo parziale** viene selezionato per il lavoro di conteggio ciclo creato e più righe del lavoro di conteggio ciclo verranno create in base alla definizione del modello di lavoro. 
 
 Prima che il lavoro di conteggio ciclo parziale possa essere elaborato, è necessario, come minimo, selezionare **Visualizza numero articolo** per la voce di menu del dispositivo mobile come parte della configurazione del conteggio ciclo. All'operatore di magazzino verrà chiesto di registrare solo le informazioni di conteggio correlate alle righe di conteggio (numeri articolo e dimensioni prodotto). Tutte le altre scorte disponibili verranno ignorate in questo processo di conteggio. 
 

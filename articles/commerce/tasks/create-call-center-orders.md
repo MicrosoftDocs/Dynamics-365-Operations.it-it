@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141432"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107354"
 ---
 # <a name="create-call-center-orders"></a> Creare ordini del servizio clienti
 
@@ -30,29 +30,29 @@ ms.locfileid: "3141432"
 
 In questa procedura vengono descritti i passaggi per individuare un cliente, creare un nuovo ordine, cercare un prodotto e raccogliere il pagamento del cliente. Questa procedura utilizza la società di dati dimostrativi USRT ed è destinata all'addetto degli ordini cliente. Prerequisiti: l'utente che completa la procedura viene impostato come utente del servizio clienti e il catalogo semestrale di Fabrikam è pubblicato con almeno un codice sorgente.
 
-1. Passare a Retail e Commerce > Clienti > Servizio clienti.
-2. Nel campo Cerca testo, immettere i criteri di ricerca per cercare il cliente.
-    * Per questa procedura di esempio, digitare 'karen' e premere TAB.  
-3. Fare clic su Cerca.
-    * Poiché è presente un solo cliente di nome Karen, i dati dimostrativi verranno automaticamente selezionati.  
-4. Fare clic su Nuovo ordine cliente.
-5. Espandere o comprimere la sezione Intestazione ordine cliente.
+1. Passare a **Retail e Commerce \> Clienti \> Servizio clienti**.
+2. Nel campo **Cerca testo** , immettere i criteri di ricerca per cercare il cliente.
+    * Per questa procedura di esempio, digitare "Karen" e premere **TAB**.  
+3. Selezionare Cerca.
+    * Poiché è presente un solo cliente di nome "Karen" nei dati dimostrativi, il risultato viene automaticamente selezionato.  
+4. Selezionare **Nuovo ordine cliente**.
+5. Espandere o comprimere la sezione **intestazione ordine cliente**.
 6. Selezionare il codice sorgente per il catalogo.
-    * Se non sono presenti codici sorgente attivi è possibile chiudere il campo Origine e ignorare questo passaggio.  
-7. Fare clic su Aggiungi riga.
-8. Nel campo Numero articolo, immettere il termine di ricerca per l'articolo.
-    * Per questa procedura di esempio impostare un numero di articolo parziale "8111"e premere TAB. Verrà visualizzata la finestra pop-up per la ricerca dell'articolo.  
-9. Selezionare il prodotto da aggiungere all'ordine cliente
+    * Se non sono presenti codici sorgente attivi è possibile ignorare questo passaggio.  
+7. Selezionare **Aggiungi riga**.
+8. Nel campo **Numero articolo** , immettere il termine di ricerca per l'articolo.
+    * Per questa procedura di esempio impostare un numero di articolo parziale "8111" e premere TAB. Viene visualizzata la finestra pop-up per la ricerca dell'articolo.  
+9. Selezionare il prodotto da aggiungere all'ordine cliente.
 10. Immettere la quantità di vendita.
-11. Fare clic su Crea.
-12. Fare clic su Completa per acquisire il pagamento del cliente.
-13. Scegliere Aggiungi.
+11. Selezionare **Crea**.
+12. Selezionare **Completa** per acquisire il pagamento del cliente.
+13. Selezionare **Aggiungi**.
     * Il collegamento Aggiungi è presente nella scheda Pagamenti. Espandere la scheda Pagamenti se è compressa.  
 14. Selezionare il metodo di pagamento.
     * Selezionare il metodo di pagamento in contanti per questa procedura.  
 15. Chiudere la pagina.
 16. Immettere l'importo.
-    * Per questa procedura immettere un importo uguale al saldo ordine che può essere presente nella pagina di riepilogo Ordine cliente a sinistra del campo dell'importo. In tal modo sarà possibile completare l'ordine come interamente pagato.  
-17. Fare clic su OK.
-18. Fare clic su Invia.
+    * Per questa procedura immettere un importo uguale al saldo ordine che può essere presente nella pagina di riepilogo Ordine cliente a sinistra del campo dell'importo. L'azione consente di completare l'ordine come interamente pagato.  
+17. Selezionare **OK**.
+18. Selezionare **Invia**.
 
