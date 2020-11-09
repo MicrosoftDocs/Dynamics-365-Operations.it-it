@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018838"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -44,7 +44,7 @@ Per impedire che il contratto di acquisto venga utilizzato e confermato, contras
 È possibile identificare un lavoratore responsabile principale e un lavoratore responsabile secondario nella classificazione del contratto di acquisto. Questi valori saranno ereditati dal contratto di acquisto risultante. Non è obbligatorio aggiungere lavoratori responsabili al contratto di acquisto e possono essere modificati direttamente caso per caso sul contratto di acquisto stesso. Non è possibile specificare un lavoratore responsabile secondario senza un lavoratore responsabile primario, sebbene non sia necessario disporre di un lavoratore responsabile secondario. Non è possibile specificare lo stesso lavoratore come lavoratore responsabile principale e secondario.
 
 > [!IMPORTANT]
-> Prima di poter utilizzare la funzionalità della parte responsabile, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+> Prima di poter utilizzare la funzionalità della parte responsabile, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 > 
 > - **Modulo:** *Attività di approvvigionamento*
 > - **Nome funzionalità:** *Parte responsabile del contratto di acquisto*
@@ -52,10 +52,10 @@ Per impedire che il contratto di acquisto venga utilizzato e confermato, contras
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di acquisto è un impegno di acquisto di un prodotto. È possibile utilizzare righe di più ordini fornitore (PO) per evadere l'impegno. Sono disponibili quattro tipi di impegni:
 
--   **Impegno quantità prodotto**: si acquista una quantità specifica di un prodotto.
--   **Impegno valore prodotto**: si acquista un importo valuta specifico di un prodotto.
--   **Impegno valore categoria prodotto**: si acquista un importo valuta specifico in una categoria di approvvigionamento. L'importo può riguardare un articolo in catalogo o fuori catalogo.
--   **Impegno valore**: si acquista un importo in valuta specifico di qualsiasi prodotto o prodotti in qualsiasi categoria di approvvigionamento.
+-   **Impegno quantità prodotto** : si acquista una quantità specifica di un prodotto.
+-   **Impegno valore prodotto** : si acquista un importo valuta specifico di un prodotto.
+-   **Impegno valore categoria prodotto** : si acquista un importo valuta specifico in una categoria di approvvigionamento. L'importo può riguardare un articolo in catalogo o fuori catalogo.
+-   **Impegno valore** : si acquista un importo in valuta specifico di qualsiasi prodotto o prodotti in qualsiasi categoria di approvvigionamento.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Termini per la determinazione del prezzo dei contratti di acquisto
 I termini per la determinazione del prezzo possono variare a seconda del tipo di impegno. I termini per la determinazione del prezzo dei contratti di acquisto sostituiscono tutti gli altri termini per la determinazione del prezzo impostati per gli accordi commerciali. Nella seguente tabella vengono descritti i campi relativi al prezzo interessati da ciascun tipo di impegno. I campi contenenti **Sì** possono essere aggiornati in una riga ordine.

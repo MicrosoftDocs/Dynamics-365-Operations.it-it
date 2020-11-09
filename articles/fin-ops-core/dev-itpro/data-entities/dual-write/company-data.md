@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728415"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997528"
 ---
 # <a name="company-concept-in-common-data-service"></a>Concetto di società in Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728415"
 
 In Finance and Operations, il concetto di *società* è un costrutto sia legale che commerciale. È inoltre un limite di visibilità e di sicurezza per i dati. Gli utenti lavorano sempre nel contesto di una singola società e la maggior parte dei dati è oggetto dello striping della società.
 
-Common Data Service non dispone di un concetto equivalente. Il concetto più vicino è *Business Unit*, ovvero principalmente un limite di visibilità e sicurezza per i dati utente. Questo concetto non ha le stesse implicazioni legali o commerciali del concetto di società.
+Common Data Service non dispone di un concetto equivalente. Il concetto più vicino è *Business Unit* , ovvero principalmente un limite di visibilità e sicurezza per i dati utente. Questo concetto non ha le stesse implicazioni legali o commerciali del concetto di società.
 
 Poiché Business Unit e società non sono equivalenti concetti, non è possibile applicare un mapping di uno-a-uno (1:1) tra loro a scopo dell'integrazione con Common Data Service. Tuttavia, poiché gli utenti devono, per impostazione predefinita, poter visualizzare gli stessi record nell'applicazione e in Common Data Service, Microsoft ha introdotto una nuova entità in Common Data Service denominata cdm\_Company. Questa entità equivale all'entità Società nell'applicazione. Per contribuire a garantire che la visibilità dei record è equivalente tra l'applicazione e Common Data Service in modo predefinito, è consigliabile la seguente impostazione per i dati in Common Data Service:
 
@@ -93,7 +92,7 @@ Esistono diversi modi per compilare automaticamente il nome dell'azienda nelle a
 + Se si è un configuratore o un amministratore di sistema e si desidera compilare automaticamente i dati aziendali in un modulo personalizzato, è possibile utilizzare gli [eventi di modulo](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Aggiungere un riferimento JavaScript a **msdyn_/DefaultCompany.js** e utilizzare i seguenti eventi. È possibile utilizzare qualsiasi modulo predefinito, ad esempio il modulo **Account**.
 
     + L'evento **OnLoad** per il modulo: impostare il campo **defaultCompany**.
-    + L'evento **OnChange** per il campo **Società**: impostare il campo **updateDefaultCompany**.
+    + L'evento **OnChange** per il campo **Società** : impostare il campo **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Applicare filtri in base al contesto della società
 

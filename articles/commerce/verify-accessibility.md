@@ -1,7 +1,7 @@
 ---
 title: Verificare l'accessibilità del contenuto della pagina
 description: Questo argomento descrive come verificare l'accessibilità del contenuto della pagina in Microsoft Dynamics 365 Commerce.
-author: arotkin
+author: josaw1
 manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: arotkin
+ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8e35b0f71ff41bade266fb177e4500c7d124ed1f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015105"
 ---
 # <a name="verify-page-content-accessibility"></a>Verificare l'accessibilità del contenuto della pagina
 
@@ -46,23 +46,23 @@ Per attivare l'integrazione di [Microsoft Accessibility Insights](https://access
 
 1. Accedere a Commerce come amministratore di sistema.
 1. Nel riquadro di spostamento sinistro, selezionare **Impostazioni tenant** (accanto al simbolo dell'ingranaggio) per espanderlo.
-1. In **Impostazioni tenant**, selezionare **Funzionalità**.
+1. In **Impostazioni tenant** , selezionare **Funzionalità**.
 1. Impostare l'opzione **Verifica accessibilità** su **Attiva**.
 
 ## <a name="turn-on-microsoft-accessibility-insights-for-a-single-site"></a>Attivare Microsoft Accessibility Insights per un singolo sito
 
 Per attivare l'integrazione di [Microsoft Accessibility Insights](https://accessibilityinsights.io/) per un singolo sito di Commerce, attenersi alla seguente procedura.
 
-1. In **Siti**, selezionare **Fabrikam** (o il nome del proprio sito).
+1. In **Siti** , selezionare **Fabrikam** (o il nome del proprio sito).
 1. Nel riquadro di spostamento sinistro, selezionare **Impostazioni sito** per espanderlo.
-1. In **Impostazioni sito**, selezionare **Funzionalità**.
+1. In **Impostazioni sito** , selezionare **Funzionalità**.
 1. Impostare l'opzione **Verifica accessibilità** su **Attiva**.
 
 ## <a name="verify-the-accessibility-of-the-content-on-the-home-page"></a>Verificare l'accessibilità del contenuto nella home page
 
 Per utilizzare il servizio [Microsoft Accessibility Insights](https://accessibilityinsights.io/) integrato per analizzare e verificare il contenuto della home page in Commerce, seguire questi passaggi.
 
-1. In **Siti**, selezionare **Fabrikam** (o il nome del proprio sito).
+1. In **Siti** , selezionare **Fabrikam** (o il nome del proprio sito).
 1. Nel pannello di navigazione a sinistra, selezionare **Pagine**.
 1. Trovare e selezionare la home page per aprirla nell'editor di pagine.
 1. Nella barra dei comandi, selezionare **Verifica accessibilità**. Viene visualizzata la pagina **Verifica accessibilità**.

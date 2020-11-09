@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015182"
 ---
 # <a name="order-details-module"></a>Modulo Dettagli ordini
 
@@ -38,7 +38,7 @@ Il modulo Dettagli ordine viene utilizzato per visualizzare i dettagli di confer
 
 | Nome proprietà  | Valori | descrizione |
 |----------------|--------|-------------|
-| Intestazione        | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Il modulo Dettagli ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
+| Intestazione        | Testo e tag di intestazione ( **H1** , **H2** , **H3** , **H4** , **H5** o **H6** ) | Il modulo Dettagli ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Numero contatto | Text | È possibile fornire un numero di contatto per domande relative all'ordine. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduli che possono essere utilizzati in una pagina Dettagli ordine
@@ -53,20 +53,20 @@ Quando si crea una pagina Dettagli ordine, è possibile aggiungere altri moduli 
 Per aggiungere un modulo Dettagli ordine a una nuova pagina e impostare le proprietà necessarie, effettua le seguenti operazioni.
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
-1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immetti un nome per **Modello Dettagli ordine**, quindi seleziona **OK**.
-1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Nuovo modello** , sotto **Nome modello** , immetti un nome per **Modello Dettagli ordine** , quindi seleziona **OK**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione ( **...** ) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
-1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo**, seleziona il modulo **Dettagli ordine** quindi **OK**.
-1. Seleziona **Salva**, quindi **Anteprima** per visualizzare l'anteprima del modello. Il rendering del modulo Dettagli ordine non verrà eseguito in quanto richiede il contesto del numero di conferma ordine.
+1. Nello slot **Principale** del modulo **Pagina predefinita** , selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** , seleziona il modulo **Dettagli ordine** quindi **OK**.
+1. Seleziona **Salva** , quindi **Anteprima** per visualizzare l'anteprima del modello. Il rendering del modulo Dettagli ordine non verrà eseguito in quanto richiede il contesto del numero di conferma ordine.
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, seleziona **Modello dettagli ordine**. Sotto **Nome pagina**, immetti **Pagina dettagli ordine** e seleziona **OK**.
-1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo**, seleziona il modulo **Dettagli ordine** quindi **OK**.
+1. Nella finestra di dialogo **Scegli un modello** , seleziona **Modello dettagli ordine**. Sotto **Nome pagina** , immetti **Pagina dettagli ordine** e seleziona **OK**.
+1. Nello slot **Principale** del modulo **Pagina predefinita** , selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** , seleziona il modulo **Dettagli ordine** quindi **OK**.
 1. Nel riquadro delle proprietà del modulo Dettagli ordine, seleziona **Intestazione** accanto al simbolo della matita.
-1. Nel campo **Titolo dell'intestazione** della finestra di dialogo **Intestazione**, immetti il testo dell'intestazione **Dettagli ordine**, quindi seleziona **OK**.
-1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
+1. Nel campo **Titolo dell'intestazione** della finestra di dialogo **Intestazione** , immetti il testo dell'intestazione **Dettagli ordine** , quindi seleziona **OK**.
+1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

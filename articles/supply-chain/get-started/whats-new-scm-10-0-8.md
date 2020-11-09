@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801460"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012323"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.8 (febbraio 2020)
 
@@ -36,13 +36,14 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. Alcune di queste funzionalità potrebbero anche essere state incluse in una versione incrementale precedente, ma non sono state annunciate in precedenza nell'argomento *Novità*, quindi vengono aggiunte qui. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
+Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. Alcune di queste funzionalità potrebbero anche essere state incluse in una versione incrementale precedente, ma non sono state annunciate in precedenza nell'argomento *Novità* , quindi vengono aggiunte qui. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Zona ubicazione aggiuntiva](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [Gestione cespiti](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Per ulteriori informazioni, vedere [Panoramica della gestione cespiti](../asset-management/index.md).
 - [Annulla lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Per ulteriori informazioni, vedere [Annullare il lavoro di magazzino per la gestione delle eccezioni](../warehousing/cancel-warehouse-work.md).
 - [Modifica pool di lavoro nel lavoro](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Per ulteriori informazioni, vedere [Modifica pool di lavoro nel lavoro](../warehousing/change-work-pool-on-work.md).
-- [Posizione cluster piena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - Per ulteriori informazioni, vedere [Posizione cluster piena](../warehousing/cluster-position-full.md).
+- [Posizione cluster piena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Per ulteriori informazioni, vedere [Posizione cluster piena](../warehousing/cluster-position-full.md).
 - [Conferma e trasferimento](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Per ulteriori informazioni, vedere [Conferma e trasferimento](../warehousing/confirm-and-transfer.md).
 - [Aging prelievo scorte per direttiva ubicazione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Per ulteriori informazioni, vedere [Aging prelievo scorte per direttiva ubicazione](../warehousing/location-directive-inventory-picking-aging.md).
 - [Stato ubicazione](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

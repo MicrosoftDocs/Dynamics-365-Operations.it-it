@@ -3,7 +3,7 @@ title: Utilizzare i frammenti
 description: In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019566"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
@@ -58,31 +58,27 @@ Nella figura seguente viene illustrato come è possibile utilizzare i frammenti 
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Salvare una configurazione di modulo esistente come frammento
 
-Per convertire un modulo configurato precedentemente in un frammento riutilizzabile, effettuare le seguenti operazioni.
+Per convertire un modulo configurato precedentemente in un frammento riutilizzabile in Creazione di siti Web di Commerce, effettuare le seguenti operazioni.
 
 1. Aprire una pagina o un modello che contiene il modulo da convertire in frammento.
 1. Nel riquadro struttura a sinistra o direttamente nel generatore di pagine visivo, selezionare il modulo precedentemente configurato.
-1. Selezionare i puntini di sospensione (**...**) accanto al nome del modulo nel riquadro struttura o nella barra degli strumenti del modulo nel generatore di pagine visivo. 
-1. Selezionare **Condividi come frammento di pagina**. 
-1. Nella finestra di dialogo **Salva come frammento di pagina** immetti un nome per il frammento.
+1. Selezionare i puntini di sospensione ( **...** ) accanto al nome del modulo nel riquadro struttura o nella barra degli strumenti del modulo nel generatore di pagine visivo. 
+1. Selezionare **Condividi come frammento**. 
+1. Nella finestra di dialogo **Salva come frammento** immettere un nome per il frammento.
 1. Selezionare **OK** per salvare la configurazione di modulo come frammento che è possibile aggiungere ad altre pagine.
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
-L'immagine seguente mostra come salvare una configurazione di modulo come frammento.
+### <a name="create-a-new-fragment"></a>Crea un nuovo frammento
 
-![Schermata di come salvare una configurazione di modulo come frammento](./media/save-as-fragment.png)
-
-### <a name="create-a-new-fragment"></a>Creare un nuovo frammento
-
-Per creare un nuovo frammento, completare i passaggi seguenti.
+Per creare un nuovo frammento in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
-1. Selezionare **Nuovo frammento pagina**. Viene visualizzata una finestra di dialogo contenente tutti i tipi di modulo disponibili. Come indicato in precedenza, i frammenti possono essere creati da qualsiasi tipo di modulo.
+1. Selezionare **Nuovo**. Viene visualizzata una finestra di dialogo **Nuovo frammento** contenente tutti i tipi di modulo disponibili. Come indicato in precedenza, i frammenti possono essere creati da qualsiasi tipo di modulo.
 1. Selezionare un tipo di modulo per il frammento.
 
-L'immagine seguente mostra dove creare un nuovo frammento.
-
-![Una schermata di dove creare un nuovo frammento](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Se si seleziona un tipo di modulo contenitore generico, si avrà a disposizione la massima flessibilità quando si dovrà aggiornare e configurare il frammento in seguito.
 
@@ -92,30 +88,28 @@ Nelle procedure riportate di seguito viene descritto come aggiungere, rimuovere 
 
 ### <a name="add-a-fragment"></a>Aggiungere un frammento
 
-Per aggiungere un frammento a una pagina, effettuare le operazioni indicate di seguito.
+Per aggiungere un frammento a una pagina in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Nel riquadro a sinistra o direttamente nel generatore di pagine visivo, selezionare un contenitore o uno slot a cui i moduli figlio possono essere aggiunti.
-1. Nel riquadro online, selezionare i puntini di sospensione (**...**) accanto al nome del contenitore o dello slot.  In alternativa, se si utilizza il generatore di pagine visivo, selezionare il simbolo più (**+**).  
+1. Selezionare i puntini di sospensione ( **...** ) accanto al nome del contenitore o dello slot.  In alternativa, se si utilizza il generatore di pagine visivo, selezionare il simbolo più ( **+** ).  
 1. Selezionare **Aggiungi frammento**.
-
-    ![Una schermata di come aggiungere un frammento esistente a uno slot o contenitore](./media/add-fragment.png)
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Se il contenitore o lo slot non supporta nuovi moduli figlio, l'opzione **Aggiungi frammento** non è disponibile.
     
-1. Nella finestra di dialogo **Aggiungi frammento**, cercare e selezionare un frammento da aggiungere. Se non sono elencati frammenti disponibili, è necessario dapprima creare un frammento da un tipo di modulo che lo slot o il contenitore supporta.
+1. Nella finestra di dialogo **Seleziona frammento** , cercare e selezionare un frammento da aggiungere. Se non sono elencati frammenti disponibili, è necessario dapprima creare un frammento da un tipo di modulo che lo slot o il contenitore supporta.
 1. Selezionare il frammento desiderato per aggiungerlo al contenitore o allo slot nella pagina.
-
-    ![Schermata della finestra modale del selettore di frammenti](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > I moduli consentiti in un contenitore o in uno slot sono definiti in base al modello della pagina o alle definizioni dei moduli.
 
 ### <a name="remove-a-fragment"></a>Rimuovere un frammento
 
-Per rimuovere un frammento da uno slot o un contenitore in una pagina, effettuare le seguenti operazioni.
+Per rimuovere un frammento da uno slot o un contenitore in una pagina di Creazione di siti Web di Commerce, seguire questi passaggi.
 
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del frammento da rimuovere e quindi selezionare il simbolo del cestino.  In alternativa, è possibile selezionare il frammento nel generatore di pagine visivo e selezionare il simbolo del cestino nella barra degli strumenti del frammento.
+1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione ( **...** ) accanto al nome del frammento da rimuovere e quindi selezionare il simbolo del cestino.  In alternativa, è possibile selezionare il frammento nel generatore di pagine visivo e selezionare il simbolo del cestino nella barra degli strumenti del frammento.
 1. Quando viene richiesto di confermare la rimozione del frammento, selezionare **OK**.
 
 > [!NOTE]
@@ -125,10 +119,10 @@ Per rimuovere un frammento da uno slot o un contenitore in una pagina, effettuar
 
 Per modificare i frammenti, è necessario utilizzare l'interfaccia utente dell'editor di frammenti. Questa restrizione è dovuta alla struttura. Impedisce agli autori di confondere il processo di modifica dei moduli per una pagina specifica con il processo di modifica di frammenti che potrebbero essere condivisi da più pagine.
 
-Per modificare un frammento, completare i passaggi seguenti.
+Per modificare un frammento in Creazione di siti Web di Commerce, seguire questi passaggi.
 
 1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
-1. In **Frammenti**, selezionare il frammento da modificare.
+1. In **Frammenti** , selezionare il frammento da modificare.
 1. Modificare le proprietà del modulo del frammento e la struttura come necessario. Il processo è analogo a quello per modificare i moduli nella visualizzazione dell'editor di pagine.
 
 È anche possibile modificare un frammento selezionandolo in una pagina, in un modello o in un frammento padre e quindi selezionando **Modifica frammento** nel riquadro delle proprietà a destra.

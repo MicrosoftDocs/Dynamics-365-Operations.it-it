@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e72249e26fb8f291f804cf5f2e4ce98bf88cd5bf
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017692"
 ---
 # <a name="outbound-sorting"></a>Ordinamento in uscita
 
@@ -47,7 +48,7 @@ Questa configurazione elabora automaticamente l'ondata e crea lavoro quando una 
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Nell'elenco di modelli, selezionare **Magazzino 62**.
-1. Nella Scheda dettaglio **Generale**, assicurarsi che l'opzione **Elabora ondata al rilascio in magazzino** sia impostata su *Sì*.
+1. Nella Scheda dettaglio **Generale** , assicurarsi che l'opzione **Elabora ondata al rilascio in magazzino** sia impostata su *Sì*.
 
 ### <a name="set-up-a-worker"></a>Configurare un lavoratore
 
@@ -58,10 +59,10 @@ La stazione di imballaggio è considerata un'ubicazione. I lavoratori che accedo
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Lavoratore**.
 1. Selezionare **Nuovo**.
-1. Nel campo **Lavoratore**, selezionare l'utente di destinazione nell'elenco di dipendenti.
+1. Nel campo **Lavoratore** , selezionare l'utente di destinazione nell'elenco di dipendenti.
 1. Selezionare **Select**.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Utenti**, selezionare **Nuovo** per creare un account per dispositivo mobile e impostarne i seguenti valori:
+1. Nella Scheda dettaglio **Utenti** , selezionare **Nuovo** per creare un account per dispositivo mobile e impostarne i seguenti valori:
 
     - **ID utente:** immettere un ID univoco.
     - **Nome utente:** immettere un nome per l'ID.
@@ -91,7 +92,7 @@ La stazione di imballaggio è considerata un'ubicazione. I lavoratori che accedo
 ### <a name="set-up-warehouse-management-parameters"></a>Impostare i parametri di Gestione magazzino
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-1. Nella scheda **Generale** della Scheda dettaglio **Tipi di ubicazione**, impostare il campo **Tipo di ubicazione di ordinamento** su *ORDINAMENTO*.
+1. Nella scheda **Generale** della Scheda dettaglio **Tipi di ubicazione** , impostare il campo **Tipo di ubicazione di ordinamento** su *ORDINAMENTO*.
 1. Nel riquadro azioni selezionare **Salva**.
 
 ### <a name="set-up-a-location-profile"></a>Impostare un profilo di ubicazione
@@ -103,12 +104,12 @@ La stazione di imballaggio è considerata un'ubicazione. I lavoratori che accedo
     - **ID profilo ubicazione:** *Ordinamento*
     - **Nome:** *Ordinamento*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Formato ubicazione:** *ASRB* (Sezione-Scaffale-Ripiano-Contenitore)
     - **Tipo di ubicazione:** *ORDINAMENTO*
     - **Usa rilevamento targa:** *Sì*
-    - **Consenti articoli combinati:** *Sì* (quando si imposta questa opzione su *Sì*, l'opzione **Consenti batch inventario combinati** è automaticamente impostata su *Sì* e non può essere modificata in modo indipendente).
+    - **Consenti articoli combinati:** *Sì* (quando si imposta questa opzione su *Sì* , l'opzione **Consenti batch inventario combinati** è automaticamente impostata su *Sì* e non può essere modificata in modo indipendente).
 
 1. Selezionare **Salva**.
 
@@ -140,20 +141,20 @@ Per questo scenario, si creerà un modello di ordinamento in uscita per creare p
     - **Magazzino:** *62*
     - **Ubicazione:** *SORT*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Ordina tipo di verifica:** selezionare *Scansione posizione*
     - **Crea lavoro in posizione chiusa:** *Sì*
 
-        Se questa opzione è impostata su *Sì*, quando la posizione è chiusa, verrà creato il lavoro per spostare le scorte nell'ubicazione di spedizione finale. Se è impostata su *No*, le scorte verranno immediatamente prelevate nell'ordine quando la posizione viene chiusa.
+        Se questa opzione è impostata su *Sì* , quando la posizione è chiusa, verrà creato il lavoro per spostare le scorte nell'ubicazione di spedizione finale. Se è impostata su *No* , le scorte verranno immediatamente prelevate nell'ordine quando la posizione viene chiusa.
 
     - **Assegnazione di posizione:** *Automatica*
 
-        Se questo campo è impostato su *Manuale*, l'utente deve sempre indicare in quale posizione le scorte devono essere ordinate. Se è impostato su *Automatica*, il sistema inserisce automaticamente le scorte in una posizione quando possibile, in base alle suddivisioni del modello di ordinamento.
+        Se questo campo è impostato su *Manuale* , l'utente deve sempre indicare in quale posizione le scorte devono essere ordinate. Se è impostato su *Automatica* , il sistema inserisce automaticamente le scorte in una posizione quando possibile, in base alle suddivisioni del modello di ordinamento.
 
 1. Nel riquadro azioni selezionare **Salva** per rendere l'opzione **Modifica query** disponibile.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento**, aggiungere una riga con i seguenti valori:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento** , aggiungere una riga con i seguenti valori:
 
     - **Tabella:** *Spedizioni*
     - **Tabella derivata:** *Spedizioni*
@@ -169,7 +170,7 @@ Per questo scenario, si creerà un modello di ordinamento in uscita per creare p
     Il pulsante **Interruzioni del modello di ordinamento in uscita** nel riquadro azioni diventa disponibile.
 
 1. Nel riquadro azioni selezionare **Interruzioni del modello di ordinamento in uscita**.
-1. Nella finestra di dialogo **Criteri di ordinamento in uscita**, impostare i seguenti valori:
+1. Nella finestra di dialogo **Criteri di ordinamento in uscita** , impostare i seguenti valori:
 
     - **Nome tabella di riferimento:** *Spedizioni*
     - **Nome campo di riferimento:** *Servizio trasporto*
@@ -186,7 +187,7 @@ Per questo scenario, si creerà un modello di ordinamento in uscita per creare p
     - **Criteri imballaggio contenitore:** *Ordinamento*
     - **Descrizione:** *Ordinamento*
 
-1. Nella Scheda dettaglio **Panoramica**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Panoramica** , impostare i seguenti valori:
 
     - **Magazzino:** *62*
     - **Ubicazione predefinita per ordinamento:** *ORDINAMENTO*
@@ -208,7 +209,7 @@ Creare un nuovo profilo di imballaggio che verrà utilizzato insieme alla funzio
     - **Criteri imballaggio contenitore:** *Ordinamento*
     - **Modalità ID contenitore:** *Auto*
     - **Tipo di contenitore:** *Scatola-grande*
-    - **Creazione automatica contenitore alla chiusura del contenitore:** deselezionato (= *No*)
+    - **Creazione automatica contenitore alla chiusura del contenitore:** deselezionato (= *No* )
 
 1. Selezionare **Salva**.
 
@@ -240,15 +241,15 @@ Creare una voce di menu per dispositivo mobile per creare pallet durante l'ordin
     - **Modalità:** *Indiretta*
     - **Utilizza lavoro esistente:** *No*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Codice attività:** *Ordinamento in uscita*
 
-        Quando questo campo è impostato su *Ordinamento in uscita*, il campo **ID modello di ordinamento in uscita** è visualizzato.
+        Quando questo campo è impostato su *Ordinamento in uscita* , il campo **ID modello di ordinamento in uscita** è visualizzato.
 
     - **Utilizza guida processo:** *Sì*
 
-        Quando il campo **Codice attività** è impostato su *Ordinamento in uscita*, questa opzione viene automaticamente impostata su *Sì*.
+        Quando il campo **Codice attività** è impostato su *Ordinamento in uscita* , questa opzione viene automaticamente impostata su *Sì*.
 
     - **ID modello di ordinamento in uscita:** *AutoWork*
 
@@ -267,8 +268,8 @@ Ora creeremo una voce di menu che consente agli utenti di spostare gli articoli 
     - **Modalità:** *Lavoro*
     - **Utilizza lavoro esistente:** *Sì*
 
-1. Nella Scheda dettaglio **Generale**, impostare il campo **Diretto da** su *Diretto dall'utente*.
-1. Nella Scheda dettaglio **Classi di lavoro**, selezionare **Nuovo**, quindi impostare i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , impostare il campo **Diretto da** su *Diretto dall'utente*.
+1. Nella Scheda dettaglio **Classi di lavoro** , selezionare **Nuovo** , quindi impostare i seguenti valori:
 
     - **ID classe lavoro:** *ORDINAMENTO*
     - **Tipo ordine di lavoro:** *Prelievo scorte ordinate*
@@ -282,7 +283,7 @@ Ora creeremo una voce di menu che consente agli utenti di spostare gli articoli 
 1. Accedere a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Menu del dispositivo mobile**.
 1. Selezionare il menu **In uscita**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella colonna **Menu e voci di menu disponibili**, trovare e selezionare **Creazione pallet**.
+1. Nella colonna **Menu e voci di menu disponibili** , trovare e selezionare **Creazione pallet**.
 1. Selezionare il pulsante freccia DESTRA per spostare **Creazione pallet** nella colonna **Struttura menu**.
 1. Utilizzare i pulsanti freccia SU e GIÙ per inserire la voce di menu **Creazione pallet** nella posizione desiderata nel menu del dispositivo mobile.
 1. Selezionare **Salva**.
@@ -302,7 +303,7 @@ Le *direttive ubicazione* sono regole che aiutano a identificare le ubicazioni d
     - **Sequenza:** *1*
     - **Nome:** *Portellone*
 
-1. Nella Scheda dettaglio **Direttive ubicazione**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Direttive ubicazione** , impostare i seguenti valori:
 
     - **Tipo di lavoro:** *Inserire*
     - **Sito:** *6*
@@ -310,21 +311,21 @@ Le *direttive ubicazione* sono regole che aiutano a identificare le ubicazioni d
     - **Più SKU:** *No*
 
 1. Selezionare **Salva** per rendere disponibile la barra degli strumenti nella Scheda dettaglio **Righe**.
-1. Nella Scheda dettaglio **Righe**, selezionare **Nuovo**, quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Righe** , selezionare **Nuovo** , quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Sequenza:** *1*
     - **Da:** *0*
     - **A:** *1.000.000*
 
 1. Selezionare **Salva** per rendere disponibile la barra degli strumenti nella Scheda dettaglio **Azioni direttiva ubicazione**.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, selezionare **Nuovo**, quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , selezionare **Nuovo** , quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Sequenza:** *1*
     - **Nome:** *Portellone*
 
 1. Selezionare **Salva**.
-1. Nella scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
+1. Nella scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Modifica query**.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
 1. Selezionare **OK** per salvare le impostazioni e chiudere l'editor di query.
 
 #### <a name="set-up-a-multiple-sku-directive"></a>Configurare una direttiva per più SKU
@@ -337,7 +338,7 @@ Le *direttive ubicazione* sono regole che aiutano a identificare le ubicazioni d
     - **Sequenza:** *2*
     - **Nome:** *Multi portellone*
 
-1. Nella Scheda dettaglio **Direttive ubicazione**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Direttive ubicazione** , impostare i seguenti valori:
 
     - **Tipo di lavoro:** *Inserire*
     - **Sito:** *6*
@@ -345,21 +346,21 @@ Le *direttive ubicazione* sono regole che aiutano a identificare le ubicazioni d
     - **Più SKU:** *Sì*
 
 1. Selezionare **Salva** per rendere disponibile la barra degli strumenti nella Scheda dettaglio **Righe**.
-1. Nella Scheda dettaglio **Righe**, selezionare **Nuovo**, quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Righe** , selezionare **Nuovo** , quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Sequenza:** *1*
     - **Da:** *0*
     - **A:** *1.000.000*
 
 1. Selezionare **Salva** per rendere disponibile la barra degli strumenti nella Scheda dettaglio **Azioni direttiva ubicazione**.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, selezionare **Nuovo**, quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , selezionare **Nuovo** , quindi impostare i seguenti valori per la nuova riga. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Sequenza:** *1*
     - **Nome:** *Multi portellone*
 
 1. Selezionare **Salva**.
-1. Nella scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
+1. Nella scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Modifica query**.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
 1. Selezionare **OK** per salvare le impostazioni e chiudere l'editor di query.
 
 ### <a name="set-up-work-templates"></a>Imposta modelli di lavoro
@@ -367,14 +368,14 @@ Le *direttive ubicazione* sono regole che aiutano a identificare le ubicazioni d
 1. Accedere a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
 1. Impostare il campo **Tipo ordine di lavoro** su *Prelievo scorte ordinate*.
 1. Nel riquadro azioni selezionare **Nuovo** per creare un modello di lavoro.
-1. Nella scheda **Panoramica**, impostare i seguenti valori:
+1. Nella scheda **Panoramica** , impostare i seguenti valori:
 
     - **Sequenza:** *1*
     - **Modello di lavoro** *Ordinamento*
     - **Descrizione modello di lavoro:** *Ordinamento*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Dettagli modello di lavoro** disponibile.
-1. Nella Scheda dettaglio **Dettagli modello di lavoro**, selezionare **Nuovo** per aggiungere una riga e quindi impostarne i seguenti valori:
+1. Nella Scheda dettaglio **Dettagli modello di lavoro** , selezionare **Nuovo** per aggiungere una riga e quindi impostarne i seguenti valori:
 
     - **Tipo di lavoro:** *Prelevare*
     - **ID classe lavoro:** *ORDINAMENTO*
@@ -396,7 +397,7 @@ Questo scenario simula una situazione in cui i contenitori imballati devono esse
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
     - **Conto cliente:** *US-005*
     - **Magazzino:** *62*
@@ -406,29 +407,29 @@ Questo scenario simula una situazione in cui i contenitori imballati devono esse
     Viene aperto il nuovo ordine cliente.
 
 1. Passa alla visualizzazione **Intestazione**.
-1. Nella Scheda dettaglio **Consegna**, nella sezione **Trasporti**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Consegna** , nella sezione **Trasporti** , imposta i seguenti valori:
 
     - **Vettore spedizione:** *Air cargo*
     - **Servizio trasporto:** *Air*
 
 1. Tornare alla visualizzazione **Righe**.
-1. Se una nuova riga vuota non viene aggiunta automaticamente alla griglia nella Scheda dettaglio **Righe ordine cliente**, selezionare **Aggiungi riga** per aggiungerne una.
+1. Se una nuova riga vuota non viene aggiunta automaticamente alla griglia nella Scheda dettaglio **Righe ordine cliente** , selezionare **Aggiungi riga** per aggiungerne una.
 1. Nella nuova riga ordine, impostare i seguenti valori:
 
     - **Numero articolo:** *A0001*
     - **Quantità:** *2*
 
-1. Mentre la nuova riga ordine è ancora selezionata nella Scheda dettaglio **Righe ordine cliente**, nel menu **Inventario** sopra la griglia, selezionare **Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Mentre la nuova riga ordine è ancora selezionata nella Scheda dettaglio **Righe ordine cliente** , nel menu **Inventario** sopra la griglia, selezionare **Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
 1. Riceverai un messaggio informativo che mostra la spedizione e l'ondata per questo ordine. Prendere nota del numero ID ondata e del numero ID spedizione.
 
 #### <a name="sales-order-2"></a>Ordine cliente 2
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
     - **Conto cliente:** *US-006*
     - **Magazzino:** *62*
@@ -439,20 +440,20 @@ Questo scenario simula una situazione in cui i contenitori imballati devono esse
     - **Articolo:** *A0001*
     - **Quantità:** *1*
 
-1. Nella scheda dettaglio **Dettagli riga**, nella scheda **Consegna**, impostare il campo **Modalità di consegna** su *Flowe-STD*.
-1. Nella Scheda dettaglio **Righe ordine cliente**, selezionare **Aggiungi riga**, quindi impostare i seguenti valori nella seconda riga ordine.
+1. Nella scheda dettaglio **Dettagli riga** , nella scheda **Consegna** , impostare il campo **Modalità di consegna** su *Flowe-STD*.
+1. Nella Scheda dettaglio **Righe ordine cliente** , selezionare **Aggiungi riga** , quindi impostare i seguenti valori nella seconda riga ordine.
 
     - **Articolo:** *A0002*
     - **Quantità:** *1*
 
-1. Nella scheda dettaglio **Dettagli riga**, nella scheda **Consegna**, impostare il valore del campo **Modalità di consegna** su *Air C-Air*.
-1. Nella Scheda dettaglio **Righe ordine cliente**, selezionare la prima riga ordine. Quindi, nel menu **Scorte** sopra la griglia, selezionare **Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella scheda dettaglio **Dettagli riga** , nella scheda **Consegna** , impostare il valore del campo **Modalità di consegna** su *Air C-Air*.
+1. Nella Scheda dettaglio **Righe ordine cliente** , selezionare la prima riga ordine. Quindi, nel menu **Scorte** sopra la griglia, selezionare **Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nella Scheda dettaglio **Righe ordine cliente**, selezionare la seconda riga ordine. Quindi, nel menu **Scorte** sopra la griglia, selezionare **Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella Scheda dettaglio **Righe ordine cliente** , selezionare la seconda riga ordine. Quindi, nel menu **Scorte** sopra la griglia, selezionare **Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
 1. Riceverai un messaggio informativo che mostra la spedizione e l'ondata per questo ordine. Si noti che sono stati creati due numeri ID ondata e due numeri ID spedizione, uno per ciascuna modalità di consegna per le righe ordine cliente.
 
 #### <a name="get-the-work-ids-from-the-work-details"></a>Ottenere gli ID lavoro dai dettagli del lavoro
@@ -466,35 +467,35 @@ Completare il lavoro creato utilizzando il dispositivo mobile per spostare gli a
 
 1. Nel dispositivo mobile, accedere al magazzino *62* utilizzando l'ID utente creato per questo scenario (o l'ID utente di un utente di dati dimostrativi esistente).
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Prelievo vendite**.
-1. Nel campo **ID**, immettere l'ID lavoro creato per l'ordine cliente 1.
+1. Nel menu **In uscita** , selezionare **Prelievo vendite**.
+1. Nel campo **ID** , immettere l'ID lavoro creato per l'ordine cliente 1.
 1. Selezionare **OK**.
-1. Nella pagina **Ordini cliente - Prelievo**, immettere una targa di destinazione creata per l'ordine cliente 1. Si noti che sono visualizzati l'ubicazione di prelievo (*bulk-001*), l'articolo (*A0001*) e la quantità (*2 pezzi*).
+1. Nella pagina **Ordini cliente - Prelievo** , immettere una targa di destinazione creata per l'ordine cliente 1. Si noti che sono visualizzati l'ubicazione di prelievo ( *bulk-001* ), l'articolo ( *A0001* ) e la quantità ( *2 pezzi* ).
 1. Selezionare **OK**.
 1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
 1. Selezionare **OK**.
 
-    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato", che indica che l'ID lavoro dell'ordine cliente 1 è stato completato.
+    Nella pagina **Esegui scansione ID lavoro/ID targa** , viene visualizzato il messaggio "Lavoro completato", che indica che l'ID lavoro dell'ordine cliente 1 è stato completato.
 
     Ora si sceglierà l'ordine cliente 2.
 
-1. Nel campo **ID**, immettere l'ID lavoro creato per l'ordine cliente 2, dove la riga 1 include l'articolo *A0001*.
+1. Nel campo **ID** , immettere l'ID lavoro creato per l'ordine cliente 2, dove la riga 1 include l'articolo *A0001*.
 1. Selezionare **OK**.
-1. Nella pagina **Ordini cliente - Prelievo**, immettere una targa di destinazione. Si noti che sono visualizzati l'ubicazione di prelievo (*bulk-001*), l'articolo (*A0001*) e la quantità (*1 pezzo*).
-1. Selezionare **OK**.
-1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
-1. Selezionare **OK**.
-
-    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 1 dell'ordine di vendita 2 è stato completato.
-
-1. Nel campo **ID**, immettere l'ID lavoro creato per l'ordine cliente 2, dove la riga 2 include l'articolo *A0002*.
-1. Selezionare **OK**.
-1. Nella pagina **Ordini cliente - Prelievo**, immettere una targa di destinazione. Si noti che sono visualizzati l'ubicazione di prelievo (*bulk-002*), l'articolo (*A0001*) e la quantità (*1 pezzo*).
+1. Nella pagina **Ordini cliente - Prelievo** , immettere una targa di destinazione. Si noti che sono visualizzati l'ubicazione di prelievo ( *bulk-001* ), l'articolo ( *A0001* ) e la quantità ( *1 pezzo* ).
 1. Selezionare **OK**.
 1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
 1. Selezionare **OK**.
 
-    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 2 dell'ordine di vendita 2 è stato completato.
+    Nella pagina **Esegui scansione ID lavoro/ID targa** , viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 1 dell'ordine di vendita 2 è stato completato.
+
+1. Nel campo **ID** , immettere l'ID lavoro creato per l'ordine cliente 2, dove la riga 2 include l'articolo *A0002*.
+1. Selezionare **OK**.
+1. Nella pagina **Ordini cliente - Prelievo** , immettere una targa di destinazione. Si noti che sono visualizzati l'ubicazione di prelievo ( *bulk-002* ), l'articolo ( *A0001* ) e la quantità ( *1 pezzo* ).
+1. Selezionare **OK**.
+1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
+1. Selezionare **OK**.
+
+    Nella pagina **Esegui scansione ID lavoro/ID targa** , viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 2 dell'ordine di vendita 2 è stato completato.
 
 ### <a name="pack-sales-orders-into-containers"></a>Imballare ordini cliente in contenitori
 
@@ -512,52 +513,52 @@ Completare il lavoro creato utilizzando il dispositivo mobile per spostare gli a
     - **ID profilo imballaggio:** *Ordinamento*
 
 1. Selezionare **OK** per chiudere la finestra di dialogo.
-1. Nella pagina **Imballaggio**, nel campo **Targa o spedizione**, immettere la targa di destinazione per l'ordine cliente 1. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
+1. Nella pagina **Imballaggio** , nel campo **Targa o spedizione** , immettere la targa di destinazione per l'ordine cliente 1. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
 1. Nel riquadro azioni selezionare **Nuovo contenitore**.
 1. Accettare tutte le impostazioni predefinite e selezionare **OK**. Prendere nota dell'ID contenitore.
-1. Nella Scheda dettaglio **Imballaggio articolo**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Imballaggio articolo** , impostare i seguenti valori:
 
     - **Quantità:** *1*
     - **Identificatore:** articolo *A0001*
 
 1. Nel riquadro azioni selezionare **Chiudi contenitore**.
-1. Nella finestra di dialogo **Chiudi contenitore**, selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
+1. Nella finestra di dialogo **Chiudi contenitore** , selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
 1. Selezionare **OK**. Il contenitore viene spostato nell'ubicazione *ORDINAMENTO* ed è pronto per l'ordinamento.
 1. Creare un secondo contenitore per aggiungere il secondo articolo della targa per l'ordine cliente 1 a un nuovo contenitore.
 1. Nel riquadro azioni selezionare **Nuovo contenitore**.
 1. Accettare tutte le impostazioni predefinite e selezionare **OK**. Prendere nota dell'ID contenitore.
-1. Nella Scheda dettaglio **Imballaggio articolo**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Imballaggio articolo** , impostare i seguenti valori:
 
     - **Quantità:** *1*
     - **Identificatore:** articolo *A0001*
 
 1. Nel riquadro azioni selezionare **Chiudi contenitore**.
-1. Nella finestra di dialogo **Chiudi contenitore**, selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
+1. Nella finestra di dialogo **Chiudi contenitore** , selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
 1. Selezionare **OK**. Il contenitore viene spostato nell'ubicazione *ORDINAMENTO* ed è pronto per l'ordinamento.
 
 #### <a name="pack-sales-order-2-into-containers"></a>Imballare l'ordine cliente 2 in contenitori
 
-1. Nella pagina **Imballaggio**, nel campo **Targa o spedizione**, immettere la targa di destinazione per la riga 1 dell'ordine cliente 2. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
+1. Nella pagina **Imballaggio** , nel campo **Targa o spedizione** , immettere la targa di destinazione per la riga 1 dell'ordine cliente 2. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
 1. Nel riquadro azioni selezionare **Nuovo contenitore**.
 1. Accettare tutte le impostazioni predefinite e selezionare **OK**. Prendere nota dell'ID contenitore.
-1. Nella Scheda dettaglio **Imballaggio articolo**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Imballaggio articolo** , impostare i seguenti valori:
 
     - **Quantità:** *1*
     - **Identificatore:** articolo *A0001*
 
 1. Nel riquadro azioni selezionare **Chiudi contenitore**.
-1. Nella finestra di dialogo **Chiudi contenitore**, selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
+1. Nella finestra di dialogo **Chiudi contenitore** , selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
 1. Selezionare **OK**. Il contenitore viene spostato nell'ubicazione *ORDINAMENTO* ed è pronto per l'ordinamento.
-1. Nel campo **Targa o spedizione**, immettere la targa di destinazione per la riga 2 dell'ordine cliente 2. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
+1. Nel campo **Targa o spedizione** , immettere la targa di destinazione per la riga 2 dell'ordine cliente 2. Quindi premere il tasto **TAB** o **INVIO** della tastiera per uscire dal campo.
 1. Nel riquadro azioni selezionare **Nuovo contenitore**.
 1. Accettare tutte le impostazioni predefinite e selezionare **OK**. Prendere nota dell'ID contenitore.
-1. Nella Scheda dettaglio **Imballaggio articolo**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Imballaggio articolo** , impostare i seguenti valori:
 
     - **Quantità:** *1*
     - **Identificatore:** articolo *A0002*
 
 1. Nel riquadro azioni selezionare **Chiudi contenitore**.
-1. Nella finestra di dialogo **Chiudi contenitore**, selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
+1. Nella finestra di dialogo **Chiudi contenitore** , selezionare **Ottieni peso sistema** di modo che il sistema aggiorni il campo **Peso lordo**.
 1. Selezionare **OK**. Il contenitore viene spostato nell'ubicazione *ORDINAMENTO* ed è pronto per l'ordinamento.
 
 Per visualizzare i dettagli del contenitore, selezionare **Gestione magazzino \> Imballaggio e containerizzazione \> Contenitori** e cercare gli ID contenitore creati durante l'imballaggio.
@@ -573,13 +574,13 @@ Per visualizzare i dettagli del contenitore, selezionare **Gestione magazzino \>
 
 1. Nel dispositivo mobile, accedere al magazzino *62* utilizzando l'ID utente creato per questo scenario (o l'ID utente di un utente di dati dimostrativi esistente).
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Creazione pallet**.
-1. Nel campo **Targa/Con**, immettere il primo ID contenitore associato all'ordine cliente 1.
+1. Nel menu **In uscita** , selezionare **Creazione pallet**.
+1. Nel campo **Targa/Con** , immettere il primo ID contenitore associato all'ordine cliente 1.
 1. Selezionare **OK**.
-1. Poiché al momento non esistono posizioni di ordinamento, è necessario specificarne una. Nel campo **ID posizione ordinamento**, immettere *SP01*.
-1. Poiché nessuna targa è attualmente associata alla posizione di ordinamento *SP01*, è necessario specificarne una. Nel campo **TARGA**, immettere *PLP01*.
+1. Poiché al momento non esistono posizioni di ordinamento, è necessario specificarne una. Nel campo **ID posizione ordinamento** , immettere *SP01*.
+1. Poiché nessuna targa è attualmente associata alla posizione di ordinamento *SP01* , è necessario specificarne una. Nel campo **TARGA** , immettere *PLP01*.
 1. Selezionare **OK**.
-1. Poiché la convalida della posizione di ordinamento è attivata, è necessario immettere nuovamente l'ID posizione di ordinamento. Nel campo **ID posizione ordinamento**, immettere *SP01*.
+1. Poiché la convalida della posizione di ordinamento è attivata, è necessario immettere nuovamente l'ID posizione di ordinamento. Nel campo **ID posizione ordinamento** , immettere *SP01*.
 1. Selezionare **OK**.
 
     Viene visualizzato il messaggio "Lavoro completato".
@@ -593,23 +594,23 @@ Per visualizzare i dettagli del contenitore, selezionare **Gestione magazzino \>
 
 1. Nel dispositivo mobile, accedere al magazzino *62* utilizzando l'ID utente creato per questo scenario (o l'ID utente di un utente di dati dimostrativi esistente).
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Creazione pallet**.
-1. Nel campo **Targa/Con**, immettere il secondo ID contenitore associato all'ordine cliente 1.
+1. Nel menu **In uscita** , selezionare **Creazione pallet**.
+1. Nel campo **Targa/Con** , immettere il secondo ID contenitore associato all'ordine cliente 1.
 1. Selezionare **OK**. Poiché il modello di ordinamento è configurato per l'ordinamento automatico ed esiste già una posizione di ordinamento con criteri corrispondenti, si viene automaticamente indirizzati alla posizione di ordinamento corretta.
 1. Selezionare **OK**.
-1. Confermare l'ID posizione di ordinamento per indicare che le scorte sono nell'ubicazione corretta. Nel campo **ID posizione ordinamento**, immettere *SP01*.
+1. Confermare l'ID posizione di ordinamento per indicare che le scorte sono nell'ubicazione corretta. Nel campo **ID posizione ordinamento** , immettere *SP01*.
 1. Selezionare **OK**.
 
     Il lavoro è completato per il secondo contenitore dell'ordine cliente 1. Ora si ordineranno i contenitori rimanenti dell'ordine di vendita 2.
 
-1. Nel campo **Targa/Con**, immettere l'ID contenitore del contenitore dell'ordine cliente 2 che contiene l'articolo *A0001*. Poiché il servizio di trasporto differisce, viene richiesto di immettere una nuova posizione di ordinamento e di assegnare una targa a quella posizione. Utilizzare la posizione ordinamento *SP02* e la targa *PLP02*.
+1. Nel campo **Targa/Con** , immettere l'ID contenitore del contenitore dell'ordine cliente 2 che contiene l'articolo *A0001*. Poiché il servizio di trasporto differisce, viene richiesto di immettere una nuova posizione di ordinamento e di assegnare una targa a quella posizione. Utilizzare la posizione ordinamento *SP02* e la targa *PLP02*.
 1. Selezionare **OK**.
 1. Confermare la posizione di ordinamento immettendo *SP02* nel campo **ID posizione di ordinamento**.
 1. Selezionare **OK**.
 
     Il lavoro è completato per il contenitore.
 
-1. Nel campo **Targa/Con**, immettere l'ID contenitore per il contenitore rimanente dell'ordine cliente 2 che contiene l'articolo *A0002*. Poiché il servizio di trasporto è uguale a quello dell'ordine cliente 1, il sistema mostra la posizione di ordinamento esistente che ha criteri corrispondenti.
+1. Nel campo **Targa/Con** , immettere l'ID contenitore per il contenitore rimanente dell'ordine cliente 2 che contiene l'articolo *A0002*. Poiché il servizio di trasporto è uguale a quello dell'ordine cliente 1, il sistema mostra la posizione di ordinamento esistente che ha criteri corrispondenti.
 1. Selezionare **OK**.
 1. Confermare la posizione di ordinamento immettendo *SP01* nel campo **ID posizione di ordinamento**.
 1. Selezionare **OK**.
@@ -624,8 +625,8 @@ Quando tutte le scorte sono state ordinate, la posizione deve essere chiusa prim
 
 1. Nel dispositivo mobile, accedere al magazzino *62* utilizzando l'ID utente creato per questo scenario (o l'ID utente di un utente di dati dimostrativi esistente).
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Creazione pallet**.
-1. Nel campo **Targa/Con**, immettere un ID contenitore che è stato ordinato per ordinare la posizione *SP01*.
+1. Nel menu **In uscita** , selezionare **Creazione pallet**.
+1. Nel campo **Targa/Con** , immettere un ID contenitore che è stato ordinato per ordinare la posizione *SP01*.
 1. Selezionare **OK**.
 1. Viene visualizzato il seguente messaggio: "Il contenitore è già ordinato nella posizione SP01. Chiudere la posizione?". Selezionare **Chiudi**.
 
@@ -646,21 +647,21 @@ Quando tutte le scorte sono state ordinate, la posizione deve essere chiusa prim
 
 1. Nel dispositivo mobile, accedere al magazzino *62* utilizzando l'ID utente creato per questo scenario (o l'ID utente di un utente di dati dimostrativi esistente).
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Carica da ordinamento**.
+1. Nel menu **In uscita** , selezionare **Carica da ordinamento**.
 1. Immettere l'ID targa di destinazione dalla prima posizione di ordinamento, *SP01*. Impostare il campo **ID** su *PLP01*.
 1. Selezionare **OK**.
-1. La pagina **Prelievo scorte ordinate: Prelievo** mostra il lavoro di prelievo che deve essere eseguito. Prelevare dall'ubicazione *ORDINAMENTO* e dalla targa di destinazione *PLP01*, che ha più articoli e una quantità pari a *3*.
+1. La pagina **Prelievo scorte ordinate: Prelievo** mostra il lavoro di prelievo che deve essere eseguito. Prelevare dall'ubicazione *ORDINAMENTO* e dalla targa di destinazione *PLP01* , che ha più articoli e una quantità pari a *3*.
 1. Selezionare **OK**.
-1. La pagina **Prelievo scorte ordinate: Stoccaggio** mostra il lavoro di stoccaggio che deve essere eseguito. Stoccare nell'ubicazione *Portellone* e nella targa di destinazione *PLP01*, che ha più articoli e una quantità pari a *3*.
+1. La pagina **Prelievo scorte ordinate: Stoccaggio** mostra il lavoro di stoccaggio che deve essere eseguito. Stoccare nell'ubicazione *Portellone* e nella targa di destinazione *PLP01* , che ha più articoli e una quantità pari a *3*.
 1. Selezionare **OK**.
 
     Il lavoro è completato.
 
 1. Immettere l'ID targa di destinazione della seconda posizione di ordinamento, *SP02*. Impostare il campo **ID** su *PLP02*.
 1. Selezionare **OK**.
-1. La pagina **Prelievo scorte ordinate: Prelievo** mostra il lavoro di prelievo che deve essere eseguito. Prelevare dall'ubicazione *ORDINAMENTO* e dalla targa di destinazione *PLP02*, che ha più articoli e una quantità pari a *1*.
+1. La pagina **Prelievo scorte ordinate: Prelievo** mostra il lavoro di prelievo che deve essere eseguito. Prelevare dall'ubicazione *ORDINAMENTO* e dalla targa di destinazione *PLP02* , che ha più articoli e una quantità pari a *1*.
 1. Selezionare **OK**.
-1. La pagina **Prelievo scorte ordinate: Stoccaggio** mostra il lavoro di stoccaggio che deve essere eseguito. Stoccare nell'ubicazione *Portellone* e nella targa di destinazione *PLP02*, che ha più articoli e una quantità pari a *1*.
+1. La pagina **Prelievo scorte ordinate: Stoccaggio** mostra il lavoro di stoccaggio che deve essere eseguito. Stoccare nell'ubicazione *Portellone* e nella targa di destinazione *PLP02* , che ha più articoli e una quantità pari a *1*.
 1. Selezionare **OK**.
 
     Il lavoro è completato.

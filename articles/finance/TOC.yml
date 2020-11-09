@@ -240,7 +240,9 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Visualizzare i risultati dell'automazione delle fatture dei fornitori
                   href: accounts-payable/view-automated-vendor-invoice.md
-            - name: Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore
+                - name: Area di lavoro per l'immissione della fattura fornitore
+                  href: accounts-payable/vendor-invoices-workspace.md
+            - name: Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture fornitore
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Abbinamento fatture e ordini fornitore interaziendali
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Visualizzare le scritture contabili e le transazioni
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Bilancio di verifica con report dettagliato transazionale
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Inserire le scritture contabili nel giornale di registrazione
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Rivalutazione della valuta in una società di consolidamento
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Creare una voce di contabilità generale avanzata nel settore pubblico
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Bilancio di verifica con report dettagliato transazionale
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Utilizzare i limiti di controllo di cassa
                   href: public-sector/cash-control.md
                 - name: Elaborazione di fine anno nel settore pubblico
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: Certificati NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Convalida del certificato personalizzato NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Impostare, importare e verificare documenti XML NF-e e DANFE'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Impostare i parametri federali NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Richiesta di informazioni imposte
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Pulire la tabella TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Motore imposte
                   items:
                     - name: Panoramica motore fiscale
@@ -2651,7 +2657,7 @@
                         - name: Panoramica del profilo di inventario
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Impostare un profilo di inventario
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Utilizzare un profilo di inventario nei documenti e nelle query
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Report

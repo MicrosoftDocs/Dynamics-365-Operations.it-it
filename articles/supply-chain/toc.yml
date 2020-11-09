@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Creare un contratto di acquisto
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Allocazione automatica degli addebiti
+                  href: procurement/automatic-charges-allocation.md
                 - name: Sconti fornitore
                   href: procurement/vendor-rebates.md
                 - name: 'Risolvere i problemi relativi a prezzi, sconti, accordi e ribassi'
@@ -2041,7 +2043,15 @@
                       href: production-control/release-production-orders.md
                     - name: Dichiarare finiti gli ordini di produzione
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configura scheda processo per dispositivi
+                    - name: Configurare e utilizzare l'interfaccia di esecuzione dell'area di produzione
+                      items:
+                        - name: Configurare l'interfaccia di esecuzione dell'area di produzione
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Configurare un dispositivo per eseguire l'interfaccia dell'area di produzione
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
+                          href: production-control/production-floor-execution-use.md
+                    - name: Configurare la scheda processo per dispositivi
                       href: production-control/config-job-card-device.md
                     - name: Dichiarazione di finito dal dispositivo scheda di processo
                       href: production-control/report-finished-job-device.md
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Spedire gli ordini cliente senza immagazzinaggio
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Allocazione automatica degli addebiti
+                  href: procurement/automatic-charges-allocation.md
                 - name: Creare un ordine fornitore da un ordine cliente
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Creare ordini cliente
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Creare ordini di trasferimento dall'app di magazzino
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Elaborazione degli eventi dell'app di magazzino
-                      href: warehousing/warehouse-app-events.md
                     - name: Conferma di prelievo pezzi
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiali di imballaggio e addebiti
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Impostare i dispositivi mobili per il lavoro di magazzino
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Elaborazione degli eventi dell'app di magazzino
+                      href: warehousing/warehouse-app-events.md
                     - name: Ricezione della targa con l'app di magazzino
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore

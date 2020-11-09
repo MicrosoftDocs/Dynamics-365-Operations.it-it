@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978895"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006261"
 ---
 # <a name="price-simulation"></a>Simulazione prezzo
 
@@ -54,9 +54,9 @@ Per assicurarsi che gli sconti e i prezzi vengano calcolati correttamente, prest
 Per gli accordi commerciali in Supply Chain Management sono previsti quattro tipi di sconti sui prezzi. Tali sconti possono essere impostati per articoli, clienti o gruppi di prezzi diversi e possono avere un'applicazione limitata in base alla data. Per evitare calcoli errati, durante il processo di simulazione del prezzo è necessario considerare gli accordi commerciali. I quattro tipi di sconti previsti negli accordi commerciali sono i seguenti:
 
 -   **Prezzo di vendita** è possibile specificare prezzi di vendita distinti per gli articoli. Quando vengono create le righe dell'offerta, il programma cerca il prezzo di vendita corretto per un articolo e lo trasferisce nelle righe dell'offerta. Questo tipo di sconto negli accordi commerciali non influisce pertanto sul processo di simulazione del prezzo. Il prezzo di vendita utilizzato nella riga dell'offerta riflette l'accordo commerciale.
--   **Sconto riga**: a seconda della quantità ordinata, vengono specificati sconti speciali per gli articoli. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
--   **Sconto plurimo**: se le quantità combinate superano il limite specificato, combinazioni predefinite di articoli ordinati danno luogo a uno sconto sull'intero ordine. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
--   **Sconto totale**: se gli importi combinati superano il limite specificato, articoli ordinati predefiniti danno luogo a uno sconto sull'intero ordine. Lo sconto totale viene generato dalle righe dell'offerta. Tuttavia, poiché lo sconto totale viene applicato al totale dell'offerta come sconto, viene ridotto l'importo totale dell'offerta. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
+-   **Sconto riga** : a seconda della quantità ordinata, vengono specificati sconti speciali per gli articoli. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
+-   **Sconto plurimo** : se le quantità combinate superano il limite specificato, combinazioni predefinite di articoli ordinati danno luogo a uno sconto sull'intero ordine. Gli importi riga in genere vengono ridotti dello sconto riga prima che venga eseguita una simulazione del prezzo. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
+-   **Sconto totale** : se gli importi combinati superano il limite specificato, articoli ordinati predefiniti danno luogo a uno sconto sull'intero ordine. Lo sconto totale viene generato dalle righe dell'offerta. Tuttavia, poiché lo sconto totale viene applicato al totale dell'offerta come sconto, viene ridotto l'importo totale dell'offerta. Questo tipo di sconto negli accordi commerciali influisce pertanto sul processo di simulazione del prezzo.
 
 ### <a name="quotation-lines-and-trade-agreements"></a>Righe dell'offerta e accordi commerciali
 
@@ -74,7 +74,7 @@ Creare un'offerta con le seguenti righe:
 
 Nella seguente tabella vengono illustrate le righe dell'offerta.
 
-|                            | Calcolo                          | Risultato   |
+|    &nbsp;                  | Calcolo                          | Risultato   |
 |----------------------------|--------------------------------------|----------|
 | Quantità di vendita             | 10 unità + 12 unità                  | 22 unità |
 | Valore netto di vendita in EUR         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ Nella seguente tabella vengono illustrate le righe dell'offerta.
 
 Eseguire una simulazione di prezzo e applicare uno sconto totale del 15% per l'intera offerta o per l'intestazione dell'offerta. Nella tabella seguente vengono illustrati i nuovi totali dell'offerta dopo l'esecuzione della simulazione del prezzo.
 
-|                                                      | Calcolo                               | Risultato   |
+|     &nbsp;                                           | Calcolo                               | Risultato   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Quantità di vendita                                       | 10 unità + 12 unità                       | 22 unità |
 | Valore netto di vendita precedente in EUR                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Creare un'offerta con le seguenti righe:
 
 Nella seguente tabella vengono illustrate le righe dell'offerta.
 
-|                                      | Calcolo                          | Risultato   |
+|      &nbsp;                          | Calcolo                          | Risultato   |
 |--------------------------------------|--------------------------------------|----------|
 | Quantità di vendita                       | 10 unità + 12 unità                  | 22 unità |
 | Valore netto di vendita in EUR per BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ Nella seguente tabella vengono illustrate le righe dell'offerta.
 
 Eseguire una simulazione di prezzo e applicare uno sconto totale del 10% alle unità BR-12. Nella tabella seguente vengono illustrati i nuovi totali dell'offerta dopo l'esecuzione della simulazione del prezzo per la singola voce.
 
-|                                                   | Calcolo                             | Risultato   |
+|    &nbsp;                                         | Calcolo                             | Risultato   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Quantità di vendita                                    | 10 unità + 12 unità                     | 22 unità |
 | Valore netto di vendita precedente in EUR per BR-12                  | 10 × 15,32                              | 153,20   |

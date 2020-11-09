@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017738"
 ---
 # <a name="pick-line-grouping"></a>Raggruppamento righe prelievo
 
@@ -36,23 +36,23 @@ Nel raggruppamento delle righe di prelievo, è possibile combinare più righe di
 ### <a name="create-a-mobile-device-menu-item"></a>Creare una voce di menu per dispositivo mobile
 
 1. Andare a **Gestione magazzino \>Impostazione \>Dispositivo mobile \>Voci di menu del dispositivo mobile** e creare una nuova voce di menu denominata **Prelievo riga gruppo di vendita - Utente diretto**.
-2. In **Voci di menu del dispositivo mobile**, impostare i valori seguenti:
+2. In **Voci di menu del dispositivo mobile** , impostare i valori seguenti:
 
-    - Nel campo **Nome voce di menu**, immettere **Prelievo vendite - Riga gruppo**.
-    - Nel campo **Titolo**, immetti **Prelievo vendite - Riga gruppo**.
+    - Nel campo **Nome voce di menu** , immettere **Prelievo vendite - Riga gruppo**.
+    - Nel campo **Titolo** , immetti **Prelievo vendite - Riga gruppo**.
     - Selezionare **Lavoro** nel campo **Modalità**.
     - Impostare l'opzione **Utilizza lavoro esistente** su **Sì**.
 
-3. Nella scheda Dettagli **Generale**, è possibile impostare i seguenti valori:
+3. Nella scheda Dettagli **Generale** , è possibile impostare i seguenti valori:
 
-    - Nel campo **Diretto da**, selezionare **Diretto dall'utente**.
+    - Nel campo **Diretto da** , selezionare **Diretto dall'utente**.
     - Impostare l'opzione **Genera targa** su **Sì**.
     - Impostare l'opzione **Prelievo gruppo** su **Sì**.
 
-4. Nella Scheda dettagli **Classi di lavoro**, seguire questi passaggi per configurare le classi di lavoro valide per la voce di menu del dispositivo mobile:
+4. Nella Scheda dettagli **Classi di lavoro** , seguire questi passaggi per configurare le classi di lavoro valide per la voce di menu del dispositivo mobile:
 
     1. Selezionare **Nuovo**.
-    2. Nel campo **ID classe di lavoro**, selezionare **Vendite** o **Prelievo SO**, a seconda del magazzino che verrà utilizzato.
+    2. Nel campo **ID classe di lavoro** , selezionare **Vendite** o **Prelievo SO** , a seconda del magazzino che verrà utilizzato.
     3. Nel campo **Tipo ordine di lavoro** selezionare **Ordini cliente**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configurare un menu per dispositivo mobile
@@ -65,12 +65,12 @@ Nel raggruppamento delle righe di prelievo, è possibile combinare più righe di
 1. Accedere a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
 1. Trovare il modello di lavoro da utilizzare con questa funzione. Per questo esempio, selezionare il modello di lavoro Contoso **51 prelievi da approntare** standard.
 1. Nel menu, selezionare **Modifica query**.
-1. Nella scheda **Ordinamento**, selezionare **Aggiungi** e quindi impostare i seguenti valori:
+1. Nella scheda **Ordinamento** , selezionare **Aggiungi** e quindi impostare i seguenti valori:
 
     - Nel campo **Tabella** selezionare **Transazioni lavoro temporanee**.
     - Nel campo **Tabella derivata** selezionare **Transazioni lavoro temporanee**.
     - Nel campo **Campo** selezionare **Numero articolo**.
-    - Nel campo **Direzione di ricerca**, selezionare **Crescente**.
+    - Nel campo **Direzione di ricerca** , selezionare **Crescente**.
 
 > [!NOTE]
 > Affinché la funzionalità di raggruppamento delle righe di prelievo funzioni, le righe di lavoro devono essere ordinate per ID articolo. Se le righe che hanno gli stessi articoli non sono in sequenza una dopo l'altra, non verranno raggruppate.
@@ -84,8 +84,8 @@ Prima di poter impostare il raggruppamento delle righe di prelievo, è necessari
 1. Accedere a **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 2. Selezionare **Nuovo** per creare un ordine cliente. 
 3. Nel campo **Conto cliente** selezionare qualsiasi cliente. 
-4. Nel campo **Magazzino** della Scheda dettaglio **Generale**, selezionare **51**. Selezionare **OK**.
-5. In **Righe ordine cliente**, aggiungere le sei righe seguenti:
+4. Nel campo **Magazzino** della Scheda dettaglio **Generale** , selezionare **51**. Selezionare **OK**.
+5. In **Righe ordine cliente** , aggiungere le sei righe seguenti:
 
     - **Riga 1:** nel campo **Numero articolo** selezionare **M9200**. Nel campo **Quantità** immettere **3**
     - **Riga 2:** nel campo **Numero articolo** selezionare **M9201**. Nel campo **Quantità** immettere **3** 
@@ -130,3 +130,4 @@ Prima di poter impostare il raggruppamento delle righe di prelievo, è necessari
 >    - Prelievo di pezzi.
 >    - Righe di lavoro che includono lavori di rifornimento incompiuti.
 >    - Prelievo eccessivo.
+>    - Prelievo breve con riallocazione articolo

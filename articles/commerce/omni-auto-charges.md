@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505613"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107377"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -38,13 +38,13 @@ Nelle versioni precedenti alla versione 10.0 di Retail, le configurazioni di [ad
 
 Quando si utilizzano le versioni precedenti alla versione 10.0, a un utente POS viene richiesto di immettere manualmente le spese di spedizione durante la creazione di una transazione POS "Spedisci tutto" o "Spedizione selezionata". Sebbene le funzionalità relative alle spese varie dell'applicazione siano utilizzate secondo il modo in cui le spese sono scritte nell'ordine, non viene fornito un calcolo sistematico; il calcolo è basato sull'input dell'utente per determinare il valore delle spese. Le spese possono essere aggiunte solo come singolo codice spese relativo alla "spedizione" e non possono essere modificate facilmente nel POS dopo la creazione.
 
-L'utilizzo di richieste manuali per l'aggiunta di spese di spedizione è ancora disponibile nelle versioni 10.0 e successive. Se un'organizzazione non abilita il parametro **Spese automatiche avanzate**, le richieste POS per l'immissione manuale delle spese rimarranno invariate.
+L'utilizzo di richieste manuali per l'aggiunta di spese di spedizione è ancora disponibile nelle versioni 10.0 e successive. Se un'organizzazione non abilita il parametro **Spese automatiche avanzate** , le richieste POS per l'immissione manuale delle spese rimarranno invariate.
 
 Con le funzionalità di addebiti automatici avanzati, gli utenti POS possono avere calcoli sistematici per qualsiasi spese varie definite basate sulle tabelle di impostazione degli addebiti automatici. Inoltre, gli utenti avranno la possibilità di aggiungere o modificare un numero illimitato di spese e commissioni aggiuntive a una transazione di vendita POS a livello di riga o intestazione (per un ordine cliente o cash and carry).
 
 ## <a name="enabling-advanced-auto-charges"></a>Abilitazione degli addebiti automatici avanzati
 
-Nella pagina **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**, passare alla scheda **Ordini cliente**. Nella scheda Dettaglio **Addebiti**, immettere **Utilizza addebiti automatici avanzati** su **Sì**.
+Nella pagina **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio** , passare alla scheda **Ordini cliente**. Nella scheda Dettaglio **Addebiti** , immettere **Utilizza addebiti automatici avanzati** su **Sì**.
 
 ![Parametro Addebiti automatici avanzati](media/advancedchargesparameter.png)
 
@@ -87,7 +87,7 @@ Accedere a **Contabilità clienti \> Impostazione spese \> Spese automatiche**.
 
 Configurare due differenti addebiti automatici a livello di intestazione. Configurarne uno per la modalità di consegna "Su strada" e uno per la consegna "Via aerea". Per questo scenario, configurarli per l'utilizzo di "Tutti i clienti".
 
-Per le spese di consegna su strada, nella sezione delle righe della pagina **Spese automatiche**, definire un addebito di $10 che verrà applicato per gli ordini tra $0,01 e $100. Creare un'altra riga spese per indicare che gli ordini superiori a $100,01 non comporteranno spese.
+Per le spese di consegna su strada, nella sezione delle righe della pagina **Spese automatiche** , definire un addebito di $10 che verrà applicato per gli ordini tra $0,01 e $100. Creare un'altra riga spese per indicare che gli ordini superiori a $100,01 non comporteranno spese.
 
 ![Esempio di due tabelle di addebiti automatici](media/headerchargesexample.png)
 
@@ -149,9 +149,9 @@ L'operazione **Aggiungi spese intestazione** deve essere configurata nel [layout
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Elaborazione delle vendite delle spese intestazione manuali
 
-Per eseguire lo scenario nell'applicazione POS, l'utente POS creerà la transazione di vendita come al solito, aggiungendo i prodotti e qualsiasi altra configurazione alla vendita. Prima della riscossione del pagamento, l'utente deve eseguire l'operazione **Aggiungi spese intestazione**, che richiederà all'utente di selezionare un codice spese e di immettere il valore delle spese. Dopo che l'utente ha completato il processo, la spesa viene aggiunta all'ordine cliente come spesa a livello di intestazione.
+Per eseguire lo scenario nell'applicazione POS, l'utente POS creerà la transazione di vendita come al solito, aggiungendo i prodotti e qualsiasi altra configurazione alla vendita. Prima della riscossione del pagamento, l'utente deve eseguire l'operazione **Aggiungi spese intestazione** , che richiederà all'utente di selezionare un codice spese e di immettere il valore delle spese. Dopo che l'utente ha completato il processo, la spesa viene aggiunta all'ordine cliente come spesa a livello di intestazione.
 
-Questo processo può essere applicato al servizio clienti utilizzando le funzionalità **Spese** presente nella scheda **Vendi** nella barra degli strumenti. Nella pagina **Gestisci spese**, l'utente può aggiungere una nuove riga spese all'intestazione dell'ordine.
+Questo processo può essere applicato al servizio clienti utilizzando le funzionalità **Spese** presente nella scheda **Vendi** nella barra degli strumenti. Nella pagina **Gestisci spese** , l'utente può aggiungere una nuove riga spese all'intestazione dell'ordine.
 
 ### <a name="manual-line-charges-example"></a>Esempio di spese riga manuali
 
@@ -183,17 +183,17 @@ L'operazione **Gestisci spese** (142) deve essere aggiunta al [layout dello sche
 
 Nella pagina **Gestisci spese** nel POS, l'utente può visualizzare i dettagli relativi alle spese a livello di intestazione o riga. L'utente può utilizzare la funzione **Modifica** disponibile in questa pagina per apportare modifiche all'importo addebitato a una specifica riga spese. Quando una riga spese viene sovrascritta manualmente, non verrà ricalcolata in modo sistematico a meno che l'utente non esegua l'operazione **Ricalcola spese**.
 
-Se l'opzione **Codice motivo forzatura spese** è stata configurata nella pagina di configurazione **Parametri di commercio**, all'utente verrà richiesto di fornire un codice motivo quando le spese vengono modificate nell'applicazione POS.
+Se l'opzione **Codice motivo forzatura spese** è stata configurata nella pagina di configurazione **Parametri di commercio** , all'utente verrà richiesto di fornire un codice motivo quando le spese vengono modificate nell'applicazione POS.
 
 Se i codici motivo sono stati acquisiti per le spese sovrascritte, un nuovo report è inoltre disponibile per esaminare e controllare tali modifiche. Il report si trova in **Retail e Commerce \> Richieste di informazioni e report \> Storico sostituzione spese**.
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Rimborso delle spese in una transazione di reso POS
 
-Se il parametro **Utilizza addebiti automatici avanzati** è impostato su **Sì**, il parametro di commercio esistente per **Rimborso spese di spedizione** non è più applicabile. Per indicare quali spese devono essere rimborsate in modo sistematico a un cliente quando si utilizzano gli addebiti automatici avanzati, assicurarsi che il codice spese correlato sia stato configurato come **Rimborsabile** nella pagina **Codice spese**. Verificare che le impostazioni siano state sincronizzate ai database dei canali di commercio mediante l'elaborazione della programmazione della distribuzione.
+Se il parametro **Utilizza addebiti automatici avanzati** è impostato su **Sì** , il parametro di commercio esistente per **Rimborso spese di spedizione** non è più applicabile. Per indicare quali spese devono essere rimborsate in modo sistematico a un cliente quando si utilizzano gli addebiti automatici avanzati, assicurarsi che il codice spese correlato sia stato configurato come **Rimborsabile** nella pagina **Codice spese**. Verificare che le impostazioni siano state sincronizzate ai database dei canali di commercio mediante l'elaborazione della programmazione della distribuzione.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Rimborso delle spese in una transazione ordine di reso
 
-Le spese non vengono rimborsate sistematicamente agli **ordini di reso** creati in Commerce. Agli utenti viene richiesto di selezionare l'opzione **Copia spese** quando si crea l'**ordine di reso**. Se l'opzione **Copia spese** non è selezionata, le spese della transazione di vendita originale non verranno automaticamente rimborsate. Se l'opzione **Copia spese** è stata selezionata, tutte le spese verranno copiate nell'ordine di reso e l'utente può modificare o rimuovere manualmente tutte le spese che non desidera siano rimborsate. Il processo dell'ordine di reso nel servizio clienti attualmente non consente l'utilizzo del flag **Rimborsabile** in **Codice spese**.
+Le spese non vengono rimborsate sistematicamente agli **ordini di reso** creati in Commerce. Agli utenti viene richiesto di selezionare l'opzione **Copia spese** quando si crea l' **ordine di reso**. Se l'opzione **Copia spese** non è selezionata, le spese della transazione di vendita originale non verranno automaticamente rimborsate. Se l'opzione **Copia spese** è stata selezionata, tutte le spese verranno copiate nell'ordine di reso e l'utente può modificare o rimuovere manualmente tutte le spese che non desidera siano rimborsate. Il processo dell'ordine di reso nel servizio clienti attualmente non consente l'utilizzo del flag **Rimborsabile** in **Codice spese**.
 
 ### <a name="configuring-pos-receipts-to-show-charges"></a>Configurazione di ricevute POS per visualizzare le spese
 

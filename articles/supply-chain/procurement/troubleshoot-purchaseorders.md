@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e55974f65577170880e60095f1ba74ea7366e592
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018562"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Risolvere i problemi relativi agli ordini fornitore
 
@@ -34,7 +34,7 @@ Questo argomento descrive come risolvere i problemi che potresti riscontrare men
 
 Questo problema può verificarsi a causa di incoerenze nelle distribuzioni degli ordini fornitore.
 
-Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza*, vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza* , vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Quando gli ordini fornitore vengono importati tramite la gestione dei dati, i numeri di riga dell'ordine fornitore non seguono l'incremento definito nei parametri di sistema.
 
@@ -58,7 +58,7 @@ Questo comportamento è predefinito. I valori predefiniti per il gruppo IVA, sco
 
 Questo problema può verificarsi a causa di incoerenze nelle distribuzioni degli ordini fornitore.
 
-Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza*, vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza* , vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Una o più distribuzioni contabili è distribuita eccessivamente o sottodistribuita.
 
@@ -70,7 +70,7 @@ Viene visualizzato il seguente errore: "Una o più distribuzioni contabili è di
 
 Questo problema può verificarsi a causa di incoerenze nelle distribuzioni degli ordini fornitore.
 
-Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza*, vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza* , vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Posso mostrare solo gli ordini fornitore che ho creato?
 
@@ -118,7 +118,7 @@ Questo comportamento è predefinito. Negli ordini fornitore, il prodotto viene s
 
 ### <a name="issue-description"></a>Descrizione del problema
 
-Un prodotto ha un fornitore approvato che ha, ad esempio, una data di validità dell'11 gennaio 2018 (*11/01/2018*) e una data di scadenza di *Mai*. Se provi a modificare la data di validità al 10 gennaio 2018 (*10/01/2018*) o il 12 gennaio 2018 (*12/01/2018*), viene visualizzato il seguente errore:
+Un prodotto ha un fornitore approvato che ha, ad esempio, una data di validità dell'11 gennaio 2018 ( *11/01/2018* ) e una data di scadenza di *Mai*. Se provi a modificare la data di validità al 10 gennaio 2018 ( *10/01/2018* ) o il 12 gennaio 2018 ( *12/01/2018* ), viene visualizzato il seguente errore:
 
 > Impossibile creare un record nell'elenco dei fornitori approvati (PdsApproveVendorList). Il valore "Scadenza" deve essere maggiore o uguale al valore "Validità".
 
@@ -130,7 +130,7 @@ Un prodotto ha un fornitore approvato che ha, ad esempio, una data di validità 
 - Per modificare la data di scadenza in modo che sia successiva a uno qualsiasi dei periodi esistenti, la data di validità deve essere successiva all'ultima data di scadenza in qualsiasi record esistente.
 - Per ridurre il periodo complessivo per il quale il fornitore è approvato, è necessario eliminare o modificare i record esistenti. In alternativa, puoi utilizzare l'interruttore **Tronca** durante l'importazione. Questa opzione elimina tutti i record esistenti nella tabella per i fornitori approvati per articolo.
 
-Per lo scenario di esempio descritto nella descrizione del problema, in cui un record ha una data di validità di *11/01/2018* e una data di scadenza di *Mai*, puoi importare un nuovo record con data di validità *10/01/2018* e una data di scadenza di *Mai*. Tuttavia, non è possibile ridurre il periodo in modo che la data di validità venga aggiornata a *12/01/2018* tramite la gestione dei dati. È necessario apportare questa modifica tramite l'interfaccia utente.
+Per lo scenario di esempio descritto nella descrizione del problema, in cui un record ha una data di validità di *11/01/2018* e una data di scadenza di *Mai* , puoi importare un nuovo record con data di validità *10/01/2018* e una data di scadenza di *Mai*. Tuttavia, non è possibile ridurre il periodo in modo che la data di validità venga aggiornata a *12/01/2018* tramite la gestione dei dati. È necessario apportare questa modifica tramite l'interfaccia utente.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Dopo aver modificato l'indirizzo di consegna nell'intestazione di un ordine fornitore, il nome della consegna non viene sincronizzato.
 

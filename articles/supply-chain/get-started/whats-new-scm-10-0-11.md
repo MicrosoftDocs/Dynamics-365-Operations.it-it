@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652085"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012300"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.11 (luglio 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.11. Questa versione ha il numero di build 10.0.464 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.11. Questa versione ha il numero di build 10.0.464 ed è disponibile come segue:
 
 - **Versione di anteprima:** aprile 2020
 - **Disponibilità generale (aggiornamento automatico):** maggio 2020
@@ -39,10 +39,15 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 - [Archiviazione report scorte disponibili](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
 - [Miglioramenti alla ricezione della targa per l'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Per ulteriori informazioni, vedere [Ricevimento della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Miglioramenti della prenotazione di righe per il modulo di prenotazione del numero di batch](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Per ulteriori informazioni, vedere [Prenotare lo stesso batch per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md).
+
 - [Nuove entità di dati per l'area di produzione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Entrata in eccesso di quantità di carico](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
+
 - [Dichiarazione di finito per i numeri di batch dal dispositivo scheda di processo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Per ulteriori informazioni, vedere [Dichiarazione di finito dal dispositivo scheda di processo](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018192"
 ---
 # <a name="create-a-purchase-return-order"></a>Creare un ordine di reso acquisti
 
@@ -34,7 +34,7 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 2. Fare clic su **Nuovo**.
 3. Digitare "US-102" nel campo **Conto fornitore**.
 4. Fare clic su **OK**.
-5. Nel **Riquadro azioni**, fare clic su **Acquisti**.
+5. Nel **Riquadro azioni** , fare clic su **Acquisti**.
 6. Fare clic su **Nota di accredito**. Questa è la pagina da cui potete copiare da una fattura fornitore esistente al vostro ordine di reso. Questa è la stessa pagina che è usata per altre azioni di copia. Ma poiché l'abbiamo aperta dall'azione Nota di accredito, la pagina è configurata per supportare la creazione di un ordine di reso per la contropartita delle fatture fornitore.  
 7. Espandere la sezione **Parametri**.
     - L'opzione **Inverti segno** è selezionata automaticamente e non può essere cambiata. Ciò assicura che il segno sia cambiato per le quantità e che le righe di ordine che si aggiungono faranno da contropartita alla fattura fornitore.  
@@ -54,7 +54,7 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 17. Espandere la sezione **Righe o intestazioni selezionate da copiare**. Questa visualizzazione mostra un riepilogo di tutti i documenti e le righe che sono state selezionate per essere copiate nel vostro ordine.  
 18. Comprimere la sezione **Righe o intestazioni selezionate da copiare**.
 19. Fare clic su **OK**. La riga selezionata è stata ora copiata nell'ordine di reso acquisti. Il campo **Quantità** mostra -10.   
-20. Nella sezione **Riga ordine fornitore**, fare clic su **Inventario**.
+20. Nella sezione **Riga ordine fornitore** , fare clic su **Inventario**.
 21. Fare clic su **Contrassegno**. La riga di ordine che è stata creata è contrassegnata a fronte della transazione di magazzino dalla fattura fornitore. Ciò assicura che l'inventario che è restituito al fornitore sia lo stesso dell'inventario che è stato ricevuto prima. Ci sono alcune situazioni dove il contrassegno non viene posto, per esempio, se l'inventario già è stato contrassegnato come consumato, o se il prodotto è uno che non usa il contrassegno.  
 
 22. Fare clic su **OK**.
@@ -64,7 +64,7 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 2. Nel **riquadro azioni** fare clic su **Ricevi**.
 3. Fare clic su **Entrata prodotti**.
     - Questa pagina è usata per registrare l'entrata prodotti per gli ordini fornitore ed anche per elaborare il reso delle merci al fornitore. Le righe di ordine con una quantità negativa significano che le merci devono essere restituite al fornitore ed il documento che può essere generato da questa pagina può essere usato come documento di trasporto per questo uso.   
-    - Nel campo **Quantità**, selezionare Quantità ordinata per questo esempio. Ciò assicura che la spedizione sia elaborata per la quantità ordinata completa con cui le righe di ordine erano state create.   
-4. Nel campo **Entrata prodotti**, digitare un valore. Questo campo è usato per immettere un riferimento che sarà usato come giustificativo per il giornale di registrazione entrata prodotti.  
+    - Nel campo **Quantità** , selezionare Quantità ordinata per questo esempio. Ciò assicura che la spedizione sia elaborata per la quantità ordinata completa con cui le righe di ordine erano state create.   
+4. Nel campo **Entrata prodotti** , digitare un valore. Questo campo è usato per immettere un riferimento che sarà usato come giustificativo per il giornale di registrazione entrata prodotti.  
 5. Fare clic su **OK**. Le merci ora sono state registrate come spedite sull'ordine di reso acquisti e un giornale di registrazione entrata prodotti è stato creato. Potete usare l'azione Entrata prodotti per esaminare i giornali di registrazione creati con l'ordine fornitore e vedere che cosa è stato ricevuto o restituito e quando.  
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188489"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097188"
 ---
 # <a name="bank-management-workspace"></a>Area di lavoro gestione banche
 
 [!include [banner](../includes/banner.md)]
 
-Nell'area di lavoro **Gestione banche** vengono visualizzate le informazioni relative ai conti bancari della società. Questa area di lavoro include una visualizzazione **Riepilogo** e una pagina **Analisi**. Nella visualizzazione **Riepilogo** vengono visualizzati i riquadri di riepilogo, le informazioni sul conto bancario, un grafico del saldo e informazioni correlate. La pagina dell'**analisi** dei dati utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai saldi del conto bancario.
+Nell'area di lavoro **Gestione banche** vengono visualizzate le informazioni relative ai conti bancari della società. Questa area di lavoro include una visualizzazione **Riepilogo** e una pagina **Analisi**. Nella visualizzazione **Riepilogo** vengono visualizzati i riquadri di riepilogo, le informazioni sul conto bancario, un grafico del saldo e informazioni correlate. La pagina dell' **analisi** dei dati utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai saldi del conto bancario.
 
 ## <a name="summary-view"></a>Visualizzazione di riepilogo
 
@@ -51,7 +51,7 @@ Le informazioni relative alla data dell'ultimo aggiornamento dei dati sono visua
 
 ### <a name="related-information"></a>Informazioni correlate
 
-Nella sezione **Informazioni correlate**, è possibile aprire la pagina **Giornale di registrazione generale** per completare i trasferimenti bancari. È inoltre possibile aprire rapidamente le pagine **Transazioni provvisorie** e **Transazioni bancarie**.
+Nella sezione **Informazioni correlate** , è possibile aprire la pagina **Giornale di registrazione generale** per completare i trasferimenti bancari. È inoltre possibile aprire rapidamente le pagine **Transazioni provvisorie** e **Transazioni bancarie**.
 
 ## <a name="analytics-view"></a>Visualizzazione Analisi
 
@@ -63,4 +63,4 @@ La pagina **Analisi** mostra le metriche importanti dei conti bancari della soci
 -   Saldo per conto bancario
 -   Saldo per valuta
 
-È possibile visualizzare l'analisi dei dati bancari per tutte le società dall'area di lavoro **Panoramica situazione di cassa - tutte le società**.
+È possibile visualizzare l'analisi dei dati bancari per tutte le società dall'area di lavoro **Panoramica situazione di cassa - tutte le società**. Per ulteriori informazioni, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).

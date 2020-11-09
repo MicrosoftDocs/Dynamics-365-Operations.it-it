@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: yijialuan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014961"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamenti IVA e regole di arrotondamento
 
@@ -44,8 +44,8 @@ L'IVA totale per un periodo mostra un saldo in avere di -98.765,43. La persona g
 La persona giuridica desidera utilizzare un metodo che consenta di arrotondare il saldo all'unità più vicina. L'utente responsabile della contabilità IVA esegue le seguenti operazioni.
 
 1. Fare click su **Imposte** > **Imposte indirette** > **IVA** > **Uffici IVA**.
-2. Nella scheda dettaglio **Generale**, nel campo **Tipo di arrotondamento** selezionare **Normale**.
-3. Nel campo **Arrotondamento**, immettere 1,00.
+2. Nella scheda dettaglio **Generale** , nel campo **Tipo di arrotondamento** selezionare **Normale**.
+3. Nel campo **Arrotondamento** , immettere 1,00.
 4. Quando è il momento di pagare le imposte sulle vendite all'autorità fiscale, andare a **Tasse** > **Dichiarazioni** > **IVA** > **Liquida e registra IVA**. Nel conti di liquidazione IVA, è possibile notare che l'importo di soggettività tributaria di **98.765,43** viene arrotondato a **98.765**.
 
 Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni metodo di arrotondamento disponibile nel campo **Tipo di arrotondamento** nella pagina **Uffici IVA**.
@@ -54,7 +54,7 @@ Le seguente tabella mostra un importo di 98.765,43 arrotondato utilizzando ogni 
 > Se il valore di arrotondamento è impostato su 0,00:
 >
 > - Per l'arrotondamento normale, il comportamento dell'arrotondamento è lo stesso di **Arrotondamento = 0,01**.
-> - Per **Opzioni Tipo di arrotondamento**, **Arrotondamento per difetto**, **Arrotondamento per eccesso** e **A proprio vantaggio**, il comportamento è lo stesso di **Arrotondamento = 1,00**.
+> - Per **Opzioni Tipo di arrotondamento** , **Arrotondamento per difetto** , **Arrotondamento per eccesso** e **A proprio vantaggio** , il comportamento è lo stesso di **Arrotondamento = 1,00**.
 
 | Opzione Tipo di arrotondamento                | Valore arrotondamento = 0,01 | Valore arrotondamento = 0,10 | Valore arrotondamento = 1,00 | Valore arrotondamento = 100,00 | Valore arrotondamento = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

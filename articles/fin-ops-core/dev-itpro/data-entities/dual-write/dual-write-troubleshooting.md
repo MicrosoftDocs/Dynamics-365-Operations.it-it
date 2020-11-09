@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
-ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
+ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997256"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -43,7 +42,7 @@ Alcune versioni dello strumento di distribuzione dei pacchetti non sono compatib
 
 Dopo aver installato lo strumento di distribuzione pacchetti, installare il pacchetto della soluzione seguendo questi passaggi.
 
-1. Scaricare l'ultimo file del pacchetto della soluzione da Yammer.com. Dopo aver scaricato il file zip del pacchetto, fare clic con il tasto destro del mouse e selezionare **Proprietà**. Selezionare la casella di controllo **Sblocca**, quindi selezionare **Applica**. Se la casella di controllo **Sblocca** non è visibile, il file zip è già sbloccato ed è possibile saltare questo passaggio.
+1. Scaricare l'ultimo file del pacchetto della soluzione da Yammer.com. Dopo aver scaricato il file zip del pacchetto, fare clic con il tasto destro del mouse e selezionare **Proprietà**. Selezionare la casella di controllo **Sblocca** , quindi selezionare **Applica**. Se la casella di controllo **Sblocca** non è visibile, il file zip è già sbloccato ed è possibile saltare questo passaggio.
 
     ![Finestra di dialogo Proprietà](media/unblock_option.png)
 
@@ -64,14 +63,14 @@ Per attivare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Sistema** selezionare **Amministrazione**.
 2. Nella pagina **Amministrazione** selezionare **Impostazioni di sistema**.
-3. Nella scheda **Personalizzazione**, nel campo **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
+3. Nella scheda **Personalizzazione** , nel campo **Analisi attività plug-in e flusso di lavoro personalizzato** , selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
 
 
 Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Personalizzazione** selezionare **Registro di traccia plug-in**.
 2. Trovare i log di traccia dove il campo **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione**, esaminare il testo **Blocco messaggio**.
+3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione** , esaminare il testo **Blocco messaggio**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app Finance and Operations
 
@@ -116,7 +115,7 @@ Ora è possibile collegare un nuovo ambiente.
 
 Quando si crea un ordine cliente in Dynamics 365 Sales, se si fa clic su **+ Aggiungi prodotti** si potrebbe essere reindirizzati al modulo della riga ordine cliente di Dynamics 365 Project Operations. Da quel modulo non è possibile visualizzare il modulo **Informazioni** della riga ordine cliente. L'opzione **Informazioni** non appare nel menu a discesa sotto **Nuova riga ordine**. Ciò accade perché Project Operations è stato installato nell'ambiente.
 
-Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente procedura:
+Per riattivare l'opzione del modulo **Informazioni** , attenersi alla seguente procedura:
 1. Passare all'entità **Riga ordine**.
 2. Trovare il modulo **Informazioni** sotto il nodo dei moduli. 
 3. Selezionare il modulo **Informazioni** e fare clic su **Abilita ruoli di sicurezza**. 

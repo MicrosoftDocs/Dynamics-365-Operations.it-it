@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bd741cdf86ef73742a75bac910d7560cb380cfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189547"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006238"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Giustificativo singolo con più record cliente o fornitore
 
@@ -50,9 +50,8 @@ Quando viene registrato un giustificativo contenente più record cliente o forni
 
 Nel seguente esempio, più fatture fornitore vengono registrate nella contabilità generale in un singolo giustificativo nella pagina **Giornale di registrazione generale**. Queste fatture vengono distribuite in più dimensioni conto.
 
-|             |                  |              |                 |           |            |
+| Giustificativo | Tipo di account | Conto  | descrizione | Dare | Avere |
 |-------------|------------------|--------------|-----------------|-----------|------------|
-| **Giustificativo** | **Tipo di conto** | **Conto**  | **Descrizione** | **Dare** | **Avere** |
 | GNJL001     | Fornitore           | 1001         | INV1            |           | 100,00     |
 | GNJL001     | Fornitore           | 1001         | INV2            |           | 200,00     |
 | GNJL001     | Fornitore           | 1001         | INV3            |           | 300,00     |
@@ -63,9 +62,8 @@ Nel seguente esempio, più fatture fornitore vengono registrate nella contabilit
 
 Dopo la registrazione viene creato un giustificativo.
 
-|             |              |                  |                                    |
+| Giustificativo | Conto  | Tipo di registrazione | Importo in valuta di transazione |
 |-------------|--------------|------------------|------------------------------------|
-| **Giustificativo** | **Conto**  | **Tipo di registrazione** | **Importo in valuta di transazione** |
 | GNJL001     | 606300-001-- | Giornale di registrazione contabile   | 50,00                              |
 | GNJL001     | 606300-002-- | Giornale di registrazione contabile   | 50,00                              |
 | GNJL001     | 606300-003-- | Giornale di registrazione contabile   | 200,00                             |
@@ -78,9 +76,8 @@ Si noti che il giustificativo contiene tre voci per il tipo di registrazione del
 
 Utilizzando questo esempio, si può analizzare l'impatto di un giustificativo sulla contabilità della liquidazione downstream. Si supponga di pagare 197,00 della fattura 200,00, con uno sconto di cassa di 3,00. Si noti che il valore del conto dello sconto di cassa verrà assegnato per tutte dimensioni dai conti spese del giustificativo della fattura. Questo perché è stato utilizzato un giustificativo per registrare la fattura precendente, senza indicazione di come l'utente intende correlare le distribuzioni spese al saldo fornitore nel singolo giustificativo.
 
-|             |              |                      |           |            |
+| Giustificativo | Conto  | Tipo di registrazione     | Dare | Avere |
 |-------------|--------------|----------------------|-----------|------------|
-| **Giustificativo** | **Conto**  | **Tipo di registrazione**     | **Dare** | **Avere** |
 | APPAYM001   | 200110-001-  | Saldo fornitore       | 197,00    |            |
 | APPAYM001   | 110110-001-  | Gestione banche                 |           | 197,00     |
 | 14000056    | 520200-001-- | Sconto di cassa fornitore |           | 0.25       |
@@ -91,9 +88,8 @@ Utilizzando questo esempio, si può analizzare l'impatto di un giustificativo su
 
 Se l'utente non è soddisfatto dell'allocazione dello sconto di cassa per tutte distribuzioni di spesa della fattura originale, anziché un giustificativo, più giustificativi dovranno essere usati per registrare le fatture. Di seguito è riportato un esempio di come più giustificativi possono essere immessi nella contabilità generale, anziché utilizzare un giustificativo, come illustrato all'inizio di questo esempio.
 
-|             |                  |              |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto  | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto**  | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | GNJL001     | Fornitore           | 1001         | INV1            |           | 100,00     | Contabilità generale          | &lt;vuoto&gt;:      |
 | GNJL001     | Contabilità generale           | 606300-001-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;:      |
 | GNJL001     | Contabilità generale           | 606300-002-- | INV1            |   50,00   |            | Contabilità generale          | &lt;vuoto&gt;:      |
@@ -102,9 +98,8 @@ Se l'utente non è soddisfatto dell'allocazione dello sconto di cassa per tutte 
 
 Ora, quando INV2 viene pagata, la seguente voce verrà creata. Si noti che le dimensioni finanziarie dello sconto di cassa seguono le dimensioni finanziarie della spesa associata.
 
-|             |              |                      |           |            |
+| Giustificativo | Conto  | Tipo di registrazione     | Dare | Avere |
 |-------------|--------------|----------------------|-----------|------------|
-| **Giustificativo** | **Conto**  | **Tipo di registrazione**     | **Dare** | **Avere** |
 | APPAYM001   | 200110-001-  | Saldo fornitore       | 197,00    |            |
 | APPAYM001   | 110110-001-  | Gestione banche                 |           | 197,00     |
 | 14000056    | 520200-003-- | Sconto di cassa fornitore |           | 3,00       |
@@ -112,17 +107,15 @@ Ora, quando INV2 viene pagata, la seguente voce verrà creata. Si noti che le di
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Un giustificativo con più fornitori e l'impatto sulla contabilità di profitti/perdite realizzati
 
-|             |                  |             |                 |           |            |                  |              |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo di account | Conto  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo di conto** | **Conto**  |
 | GNJL001     | Fornitore           | 1001        | INV1            |           | 100,00     | Contabilità generale           | 606300-001-- |
 | GNJL001     | Fornitore           | 1001        | INV2            |           | 200,00     | Contabilità generale           | 606300-002-- |
 
 Nel seguente esempio, più fatture fornitore vengono registrate nella contabilità generale in un singolo giustificativo nella pagina **Giornale di registrazione generale**. Queste fatture vengono distribuite in più dimensioni conto. Dopo la registrazione viene creato un giustificativo.
 
-|             |              |                  |                                          |                                         |
+| Giustificativo | Conto  | Tipo di registrazione | Importo nella valuta di transazione (EUR) | Importo nella valuta di contabilizzazione (USD) |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Giustificativo** | **Conto**  | **Tipo di registrazione** | **Importo nella valuta di transazione (EUR)** | **Importo nella valuta di contabilizzazione (USD)** |
 | GNJL001     | 606300-001-- | Giornale di registrazione contabile   | 100,00                                   | 114,00                                  |
 | GNJL001     | 606300-002-- | Giornale di registrazione contabile   | 200,00                                   | 228,00                                  |
 | GNJL001     | 200110-001-  | Saldo fornitore   | -100,00                                  | -114,00                                 |
@@ -132,9 +125,8 @@ Si noti che il giustificativo contiene due voci per il tipo di registrazione del
 
 Utilizzando questo esempio, si può analizzare l'impatto di un giustificativo sulla contabilità della liquidazione downstream. Si supponga che la valuta di contabilizzazione sia USD e che le transazioni precendenti siano state registrate nella valuta di transazione EUR. Si supponga che la fattura di EUR 200,00 sia stata interamente pagata ma che sia stata rilevata una perdita realizzata a causa di una differenza del tasso di cambio tra il momento della registrazione della fattura e il pagamento. Si noti che il valore del conto della perdita realizzata verrà assegnato per tutte dimensioni dai conti spese del giustificativo della fattura. In questo caso, le dimensioni 001 e 002 sono state assegnate anche se la percezione dell'utente può essere che solo 002 che appartiene al conto spese dalla fattura da liquidare. Questo perché è stato utilizzato un giustificativo per registrare la fattura precendente, senza fornire alcuna indicazione di come l'utente intende correlare le distribuzioni spese al saldo fornitore nel singolo giustificativo.
 
-|             |             |                    |                                          |                                         |
+| Giustificativo | Conto | Tipo di registrazione   | Importo nella valuta di transazione (EUR) | Importo nella valuta di contabilizzazione (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione**   | **Importo nella valuta di transazione (EUR)** | **Importo nella valuta di contabilizzazione (USD)** |
 | APPAYM001   | 200110-001- | Saldo fornitore     | 200,00                                   | 230,00                                  |
 | APPAYM001   | 110110-001- | Gestione banche               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-001- | Perdita sul tasso di cambio | 0,00                                     | 0.67                                    |
@@ -143,17 +135,15 @@ Utilizzando questo esempio, si può analizzare l'impatto di un giustificativo su
 
 Se l'utente non è soddisfatto dell'allocazione della perdita sul tasso di cambio per tutte distribuzioni di spesa della fattura originale, anziché un giustificativo, più giustificativi dovranno essere utilizzati per registrare le fatture. Di seguito è riportato un esempio di come più giustificativi possono essere immessi nella contabilità generale, anziché utilizzare un giustificativo, come illustrato all'inizio di questo esempio.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | GNJL002     | Fornitore           | 1001        | INV1            |           | 100,00     | Contabilità generale          | 606300-001--       |
 | GNJL003     | Fornitore           | 1001        | INV2            |           | 200,00     | Contabilità generale          | 606300-002--       |
 
 Ora, quando INV2 viene pagata, la seguente voce verrà creata. Si noti che le dimensioni finanziarie della perdita sul tasso di cambio seguono le dimensioni finanziarie della spesa associata.
 
-|             |             |                    |                                          |                                         |
+| Giustificativo | Conto | Tipo di registrazione   | Importo nella valuta di transazione (EUR) | Importo nella valuta di contabilizzazione (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione**   | **Importo nella valuta di transazione (EUR)** | **Importo nella valuta di contabilizzazione (USD)** |
 | APPAYM001   | 200110-001- | Saldo fornitore     | 200,00                                   | 230,00                                  |
 | APPAYM001   | 110110-001- | Gestione banche               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-002- | Perdita sul tasso di cambio | 0,00                                     | 2,00                                    |
@@ -168,64 +158,56 @@ Questo esempio presuppone una vendita in cui il cliente ha diritto a uno sconto 
 
 Per un esempio, si supponga che la seguente vendita venga effettuata al cliente ACME. Le seguenti voci contabili rappresentano la vendita.
 
-|                    |                  |           |            |
+| Conto CoGe | Tipo di registrazione | Dare | Avere |
 |--------------------|------------------|-----------|------------|
-| **Conto CoGe** | **Tipo di registrazione** | **Dare** | **Avere** |
 | 401100-002-023-    | Ricavi          |           | 100        |
 | 130100-002-        | Saldo cliente | 100       |            |
 
 A questo punto, l'utente trasferisce il saldo esigibile da ACME alla società di assicurazioni, in un giustificativo nel giornale di registrazione pagamenti della contabilità clienti. La società di assicurazioni è impostata come assicurazione del cliente.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | ARPAYM001   | Cliente         | ACME        | Trasferimenti        |           | 100,00     | Cliente        | Assicurazione          |
 
 Si noti che la voce precendente è inclusa in un giustificativo. Nel giustificativo sono presenti due record cliente. Il giustificativo successivo viene creato quando la voce di contabilità generale precedente viene registrata.
 
-|             |             |                  |                                    |
+| Giustificativo | Conto | Tipo di registrazione | Importo in valuta di transazione |
 |-------------|-------------|------------------|------------------------------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione** | **Importo in valuta di transazione** |
 | ARPAYM001   | 130100-002- | Saldo cliente | 100,00                             |
 | ARPAYM001   | 130100-002- | Saldo cliente | -100,00                            |
 
 Successivamente, si supponga di ricevere un pagamento dal cliente Assicurazione per 98,00 e che si sceglie di liquidare il pagamento con la fattura creata dal trasferimento del saldo. Ciò determina la registrazione del giustificativo successivo. L'aspettativa potrebbe essere che la liquidazione utilizzi le dimensioni finanziarie della fattura originale, ma non è possibile perché non è presente un documento fattura per il cliente Assicurazione. Si noti che per impostazione predefinita, le dimensioni di distribuzione dello sconto di cassa provengono dalla transazione cliente creata dal trasferimento e non del conto ricavi della fattura originale. Il valore predefinito risulta nell'uso di un giustificativo per trasferire i saldi.
 
-|             |             |                  |           |            |
+| Giustificativo | Conto | Tipo di registrazione | Dare | Avere |
 |-------------|-------------|------------------|-----------|------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione** | **Dare** | **Avere** |
 | ARPAYM002   | 110110-002- | Gestione banche             | 98,00     |            |
 | ARPAYM002   | 130100-002- | Saldo cliente |           | 98,00      |
 
 Nel giustificativo correlato per lo sconto di cassa, il valore predefinito della dimensione finanziaria deriva dalla transazione cliente creata dal trasferimento perché il trasferimento ha più di un cliente.
 
-|             |             |                        |           |            |
+| Giustificativo | Conto | Tipo di registrazione       | Dare | Avere |
 |-------------|-------------|------------------------|-----------|------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione**       | **Dare** | **Avere** |
 | ARP-00001   | 403300-002- | Sconto di cassa cliente | 2,00      |            |
 | ARP-00001   | 130100-002- | Saldo cliente       |           | 2,00       |
 
 Se l'utente non è soddisfatto dell'impostazione predefinita delle dimensioni finanziarie per lo sconto di cassa, anziché un giustificativo, più giustificativi dovranno essere utilizzati per registrare il trasferimento del saldo. Questo scenario deve essere completato creando una nota di credito per il cliente DA cui il saldo viene spostato e una nota di debito o una fattura creata per il cliente A cui il saldo viene spostato. Nel seguente esempio viene illustrato come più giustificativi possono più essere immessi nel giornale pagamenti contabilità clienti per trasferire il saldo, anziché utilizzare un giustificativo, come illustrato in precedenza in questo esempio.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | ARPAYM001   | Cliente         | ACME        |                 |           | 100,00     | Contabilità generale          | 401100-002-023-    |
 | ARPAYM002   | Cliente         | Assicurazione   |                 | 100,00    |            | Contabilità generale          | 401100-002-023-    |
 
 Ciò significa che dopo che il cliente Assicurazione paga 98,00 con il giustificativo ARPAYM02, verranno utilizzate le dimensioni finanziarie corrette della voce di conto CoGe del giustificativo ARPAYM002.
 
-|             |             |                  |           |            |
+| Giustificativo | Conto | Tipo di registrazione | Dare | Avere |
 |-------------|-------------|------------------|-----------|------------|
-| **Giustificativo** | **Conto** | **Tipo di registrazione** | **Dare** | **Avere** |
 | ARPAYM003   | 110110-002- | Gestione banche             | 98,00     |            |
 | ARPAYM003   | 130100-002  | Saldo cliente |           | 98,00      |
 
 Nel giustificativo correlato per lo sconto di cassa, le dimensioni finanziarie verranno utilizzate dal conto ricavi contropartita indicato nel giustificativo di ARPAYM002.
 
-|             |                 |                        |           |            |
+| Giustificativo | Conto     | Tipo di registrazione       | Dare | Avere |
 |-------------|-----------------|------------------------|-----------|------------|
-| **Giustificativo** | **Conto**     | **Tipo di registrazione**       | **Dare** | **Avere** |
 | ARP-00001   | 403300-002-023- | Sconto di cassa cliente | 2,00      |            |
 | ARP-00001   | 130100-002-     | Saldo cliente       |           | 2,00       |
 
@@ -236,16 +218,14 @@ La compensazione può essere utile per le vendite e gli acquisti di un'organizza
 
 Per illustrare, si supponga che il fornitore 1001 e il cliente US-008 siano la stessa entità, in modo che l'organizzazione desideri compensare i saldi contabilità fornitori e contabilità clienti prima di pagare/ricevere il saldo residuo. Si supponga che il record cliente deve 75,00 EUR e al record fornitore spettano 100,00 EUR e che si preferisce compensare i saldi e pagare al fornitore solo 25,00 EUR. Si supponga inoltre che la valuta di contabilizzazione sia EUR. In questo caso, una transazione di compensazione viene immessa in un giustificativo nel giornale di registrazione pagamenti contabilità fornitori.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | APPAYM001   | Fornitore           | 1001        | Compensazione         |  75,00    |            | Cliente        | US-008             |
 
 Per evitare problemi indesiderati con le liquidazioni future per la transazione, anziché utilizzare un giustificativo, è possibile inserire nel giornale di registrazione più giustificativi per registrare la transazione di compensazione. Si noti che i saldi cliente e fornitore vengono compensati con un singolo conto di compensazione per evitare l'utilizzo di un giustificativo contenente più saldi cliente e fornitore.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Giustificativo | Tipo di account | Conto | descrizione | Dare | Avere | Tipo contropartita | Conto di contropartita |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Giustificativo** | **Tipo di conto** | **Conto** | **Descrizione** | **Dare** | **Avere** | **Tipo contropartita** | **Conto di contropartita** |
 | 001         | Cliente         | US-008      |                 |           |  75,00     | Contabilità generale          | 999999---          |
 | 002         | Fornitore           | 1001        |                 |  75,00    |            | Contabilità generale          | 999999---          |
 

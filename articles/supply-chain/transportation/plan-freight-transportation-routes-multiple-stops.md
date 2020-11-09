@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
+ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b76a6530517ec9e2e513cda7477f271558632650
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206267"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017853"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Pianificare percorsi di trasporto di carichi con più fermate
 
@@ -43,7 +43,7 @@ Un piano di percorso contiene segmenti di percorso che forniscono informazioni s
 Ogni piano di percorso deve essere associato a una guida di percorso.
 
 ## <a name="route-guides"></a>Guide ciclo di lavorazione
-Una guida di percorso definisce i criteri per abbinare un carico a un piano di percorso specifico. Ad esempio, è possibile specificare un hub di origine e un hub di destinazione, i limiti per il volume del contenitore o peso e un vettore di spedizione, servizio o gruppo. Le guide di percorso sono disponibili nella pagina **'Tariffa workbench ciclo di lavorazione**, i dove carichi possono essere abbinati ai percorsi manualmente o automaticamente. Se la guida di percorso si riferisce a un percorso programmato, è disponibile anche nella pagina **Workbench di allestimento del carico**.
+Una guida di percorso definisce i criteri per abbinare un carico a un piano di percorso specifico. Ad esempio, è possibile specificare un hub di origine e un hub di destinazione, i limiti per il volume del contenitore o peso e un vettore di spedizione, servizio o gruppo. Le guide di percorso sono disponibili nella pagina **'Tariffa workbench ciclo di lavorazione** , i dove carichi possono essere abbinati ai percorsi manualmente o automaticamente. Se la guida di percorso si riferisce a un percorso programmato, è disponibile anche nella pagina **Workbench di allestimento del carico**.
 
 ## <a name="scheduled-routes"></a>Cicli di lavorazione programmati
 Un percorso programmato è un piano di percorso predefinito che dispone di una programmazione per le date di spedizione. I percorsi programmati e non programmati differiscono nel modo in cui i carichi vengono assegnati. Se si assegna un percorso non programmato utilizzando la tariffa workbench ciclo di lavorazione, solo il carico e la guida di percoso sono convalidati. Se si assegna un percorso programmato, le date e gli indirizzi di ordini ei hub e la data sul piano di percorso vengono anche considerati. Non è necessario utilizzare la pagina Tariffa workbench ciclo di lavorazione per assegnare manualmente i carichi a un percorso programmato. Al contrario, è possibile utilizzare il Workbench di allestimento del carico per suggerire che i carichi vengano generati in base agli indirizzi dei clienti e alle date di consegna degli ordini cliente per un dato percorso programmato. Per i percorsi programmati, il piano di percorso avrò hub di origine e destinazione fissi. In genere, il vettore e il servizio di spedizionesaranno gli stessi per tutti i segmenti, ma possono differire. Gli hub di destinazione vengono creati utilizzando i codici postali dei clienti visitati nel percorso. È possibile definire diverse programmazioni di percorso per piano di percorso. Il piano di percorso deve essere associato a una guida di percorso. Tuttavia, per i percorsi programmati, il piano può essere associato a una sola guida di percorso. La programmazione dei percorsi viene utilizzata solo per creare i percorsi effettivi nella pagina **Programmazione ciclo di lavorazione**. È possibile utilizzare il modello di carico predefinito per proporre carichi nel workbench di allestimeno del carico.

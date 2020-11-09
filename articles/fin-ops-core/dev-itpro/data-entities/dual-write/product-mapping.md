@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835856"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000766"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Quando un ecosistema aziendale è costituito da applicazioni Dynamics 365, come Finance, Supply Chain Management e Sales, le aziende spesso utilizzano queste applicazioni per acquisire dati di prodotto. Questo perché tali app forniscono una robusta infrastruttura di prodotto completata da sofisticati concetti di valutazione e dati di magazzino disponibile accurati. Le aziende che utilizzano un sistema esterno di gestione del ciclo di vita del prodotto per l'acquisizione dei dati di prodotto possono dirigere i prodotti dalle app Finance and Operations ad altre app Dynamics 365. L'esperienza di prodotto unificata importa il modello di dati di prodotto integrato in Common Data Service, di modo che tutti gli utenti delle applicazioni inclusi gli utenti di Power Platform possano usufruire dei dati di prodotto avanzati delle app Finance and Operations.
 
@@ -109,7 +106,7 @@ Si noti che la sincronizzazione dei prodotti avviene dalle app Finance and Opera
 
 Le dimensioni prodotto sono caratteristiche che identificano una variante prodotto. Le quattro dimensioni prodotto (colore, dimensione, stile e configurazione) vengono inoltre mappati a Common Data Service per definire le varianti prodotto. Nella figura seguente è illustrato il modello di dati per la dimensione prodotto Colore. Lo stesso modello viene applicato a Dimensioni, Stili e Configurazioni. 
 
-![Modello di dati per prodotti](media/dual-write-product-two.png)
+![Modello di dati per dimensioni di prodotto](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli
 
 Le unità di misura e la relativa conversione sono disponibili in Common Data Service mediante il modello di dati visualizzato nel diagramma.
 
-![Modello di dati per prodotti](media/dual-write-product-three.png)
+![Modello di dati per unità di misura](media/dual-write-product-three.png)
 
 Il concetto di unità di misura è integrato tra le app Finance and Operations e altre app Dynamics 365. Per ogni classe di unità di misura in un'app Finance and Operations, viene creato un gruppo di unità in un'app Dynamics 365, che contiene le unità appartenenti alla classe di unità di misura. Un'unità di base predefinita viene inoltre creata per ogni gruppo di unità. 
 
@@ -203,7 +200,7 @@ I criteri di prodotto sono set di criteri utilizzati per definire i prodotti e l
 
 Per identificare in modo univoco i prodotti tra Dynamics 365 for Finance and Operations e i prodotti in Common Data Service vengono utilizzate le chiavi di integrazione. Per i prodotti, il **(productnumber)** è la chiave univoca che identifica un prodotto in Common Data Service. È composta dalla concatenazione di: **(società, msdyn_productnumber)**. La **società** indica la persona giuridica in Finance and Operations e **msdyn_productnumber** indica il numero del prodotto specifico in Finance and Operations. 
 
-Per gli utenti di altre app Dynamics 365, il prodotto viene identificato nell'interfaccia utente con **msdyn_productnumber** (notare che l'etichetta del campo è **Numero prodotto**). Nel modulo del prodotto sono mostrati sia l'azienda che il msydn_productnumber. Tuttavia, il campo (productnumber), la chiave univoca per un prodotto, non viene visualizzato. 
+Per gli utenti di altre app Dynamics 365, il prodotto viene identificato nell'interfaccia utente con **msdyn_productnumber** (notare che l'etichetta del campo è **Numero prodotto** ). Nel modulo del prodotto sono mostrati sia l'azienda che il msydn_productnumber. Tuttavia, il campo (productnumber), la chiave univoca per un prodotto, non viene visualizzato. 
 
 Se si creano app in Common Data Service, è necessario prestare attenzione all'utilizzo di **productnumber** (l'ID univoco del prodotto) come chiave di integrazione. Non usare **msdyn_productnumber** perché non è univoco. 
 

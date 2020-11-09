@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 5dbc856f21b6398109ab1ac4da409252050385df
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071592"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011581"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
 [!include [banner](../includes/banner.md)]
 
-Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli. 
+Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli.
 
 Nella seguente tabella vengono illustrate le funzioni avanzate di formattazione disponibili per progettare i report.
 
@@ -44,7 +44,8 @@ Nella seguente tabella vengono illustrate le funzioni avanzate di formattazione 
 | Utilizzare le virgolette singole ('') e la e commerciale (&) per i valori di dimensione | È possibile utilizzare i valori di dimensione, inclusi il carattere e commerciale per la progettazione di report. |
 
 ## <a name="advanced-cell-placement"></a>Posizionamento avanzato nelle celle
-Il posizionamento avanzato nelle celle, o *posizionamento forzato*, implica la collocazione di valori specifici in celle specifiche. Ad esempio, il posizionamento forzato viene usato spesso per spostare il saldo corretto in un rendiconto del flusso di cassa. È possibile utilizzare il posizionamento formato per gli scopi seguenti:
+
+Il posizionamento avanzato nelle celle, o *posizionamento forzato* , implica la collocazione di valori specifici in celle specifiche. Ad esempio, il posizionamento forzato viene usato spesso per spostare il saldo corretto in un rendiconto del flusso di cassa. È possibile utilizzare il posizionamento formato per gli scopi seguenti:
 
 - Spostare valori da Microsoft Excel in celle specifiche.
 - Immettere i valori hardcoded specifici in un report.
@@ -52,11 +53,12 @@ Il posizionamento avanzato nelle celle, o *posizionamento forzato*, implica la c
 
 > [!NOTE]
 > In molti casi, è necessario configurare la definizione di report in modo da eseguire i calcoli delle colonne prima dei calcoli delle righe. Per completare questa configurazione, attenersi alla procedura seguente.
-> 
+>
 > 1. In Progettazione report, aprire la definizione di report.
-> 2. Nella scheda **Impostazioni**, in **Priorità calcolo**, selezionare **Esegui prima calcolo colonna e poi riga**.
+> 2. Nella scheda **Impostazioni** , in **Priorità calcolo** , selezionare **Esegui prima calcolo colonna e poi riga**.
 
 ## <a name="designing-the-report"></a>Progettazione del report
+
 Quando si progetta un report, è necessario prima creare tutte le righe di dettaglio per assicurarsi che venga effettuato il pull dei valori come previsto. Aggiungere quindi le sostituzioni di formato **NP** (non stampare) per eliminare il dettaglio che include i valori finali.
 
 > [!IMPORTANT]
@@ -65,6 +67,7 @@ Quando si progetta un report, è necessario prima creare tutte le righe di detta
 Per il posizionamento forzato, le formule utilizzano il formato seguente: &lt;colonna di destinazione&gt;=&lt;colonna di origine&gt;.&lt;codice di riga&gt; Separare i posizionamenti aggiuntivi per una riga con una virgola e uno spazio. Ecco un esempio: D=C.190,E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Esempi delle opzioni di formattazione avanzate
+
 Gli esempi seguenti mostrano come formattare la definizione di riga e la definizione di colonna per forzare il posizionamento in un report di base del flusso di cassa (esempio 1) e un report statistico (esempio 2).
 
 ### <a name="example-1-basic-forcing"></a>Esempio 1: Posizionamento forzato di base
@@ -78,12 +81,12 @@ La tabella indicata di seguito mostra un esempio di una definizione di riga che 
 | 160      |                                  |             |                             |                            |                              |
 | 190      |                                  |             |                             |                            |                              |
 
-> [!NOTE] 
+> [!NOTE]
 > Le colonne vuote sono state rimosse dalla tabella precedente ai fini della presentazione: le colonne Sostituzione di formato, Saldo normale, Controllo stampa, Restrizione di colonna non sono visualizzate.
 
 La tabella indicata di seguito mostra un esempio di una definizione di colonna che utilizza il posizionamento forzato di base nella riga.
 
-|                              | A   | B    | C        | D      | E      | V    |
+|           Formattazione             | A   | B    | C        | D      | E      | V    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | Intestazione 1                     |     |      |          |        |        |      |
 | Intestazione 2                     | A   | B    | C        | D      | E      | V    |
@@ -113,12 +116,12 @@ La tabella indicata di seguito mostra un esempio di una definizione di riga che 
 | 310      | Vendite USA                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |                                            |
 | 340      | Vendite internazionali       | CAL         | D=C.220,E=C115,F=(C.220/C.115)  |                      |                |                                            |
 
-> [!NOTE] 
+> [!NOTE]
 > Le colonne vuote sono state rimosse dalla tabella precedente ai fini della presentazione: le colonne Controllo stampa, Restrizione di colonna e Modificatore di riga non sono visualizzate.
 
 La tabella indicata di seguito mostra un esempio di una definizione di colonna che utilizza il posizionamento forzato per un report statistico.
 
-|                              | A   | B    | C      | D            | E     | V            |
+|    Formattazione                    | A   | B    | C      | D            | E     | V            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
 | Intestazione 1                     | A   | B    | C      | D            | E     | V            |
 | Intestazione 2                     | -   | -    | Da inizio anno    | Vendite annue | Personale | $ a persona |
@@ -132,6 +135,7 @@ La tabella indicata di seguito mostra un esempio di una definizione di colonna c
 | Larghezza colonna                 | 5   | 30   | 14     | 14           | 14    | 14           |
 
 ## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Limitazione di una riga a un'unità gerarchica specifica
+
 Quando una riga del report è limitata a un'unità gerarchica specifica, la riga mostra i dati collegati solo quella unità gerarchica e ignora i dati per altre unità gerarchiche nell'albero gerarchico. Ad esempio, è possibile creare una riga che fornisce i dati dettagliati per le spese d'esercizio totali di un reparto specifico. Il report può contenere dati duplicati se il report contiene sia un albero gerarchico che una definizione di riga con più del solo conto naturale. Ad esempio, si ha un albero gerarchico in cui sono elencati i sei reparti dell'organizzazione e anche una definizione di riga che include una specifica combinazione di conto e reparto nella riga. Quando si genera il report, la combinazione specifica di conto e del reparto viene stampata a ogni livello dell'albero gerarchico, anche se il reparto potrebbe non corrispondere a ciò che c'è nell'albero. Questo comportamento si verifica perché la riga sostituisce quanto in genere viene filtrato dalla definizione di report. Una modalità in cui è possibile evitare la duplicazione dei dati è limitare una riga a un'unità gerarchica specifica.
 
 > [!NOTE]
@@ -146,13 +150,14 @@ Quando una riga del report è limitata a un'unità gerarchica specifica, la riga
 5. Fare doppio clic sulla cella nella colonna **Collegamento a dimensioni finanziarii** della riga limitata e immettere un collegamento al sistema di dati finanziari.
 
 ## <a name="selecting-print-control-in-a-row-definition"></a>Selezione di un controllo di stampa in una definizione di riga
+
 È possibile specificare i codici di controllo di stampa per ciascuna colonna mediante la cella **Controllo stampa**.
 
 ### <a name="add-print-control-codes-to-a-report-row"></a>Aggiungere i codici di controllo di stampa in una riga del report
 
 1. In Progettazione report, aprire la definizione di riga da modificare.
 2. Fare doppio clic sulla cella **Controllo stampa**.
-3. Nella finestra di dialogo **Controllo stampa**, selezionare un codice di controllo di stampa, o premere e tenere premuto il tasto Ctrl per selezionare più codici. È inoltre possibile digitare i codici di stampa direttamente nella cella **Controllo stampa**. Separare più codici di controllo di stampa con virgole.
+3. Nella finestra di dialogo **Controllo stampa** , selezionare un codice di controllo di stampa, o premere e tenere premuto il tasto Ctrl per selezionare più codici. È inoltre possibile digitare i codici di stampa direttamente nella cella **Controllo stampa**. Separare più codici di controllo di stampa con virgole.
 4. Selezionare eventuali opzioni di stampa condizionali.
 5. Scegliere **OK**.
 
@@ -182,13 +187,15 @@ Nella seguente tabella sono descritti i codici di controllo di stampa condiziona
 | CR                 | Stampa solo i saldi in avere per la riga. |
 
 ## <a name="column-restriction-cell-in-a-row-definition"></a>Cella Restrizione di colonna in una definizione di riga
+
 La cella **Restrizione di colonna** in una definizione di riga ha più scopi. A seconda del tipo di riga, è possibile utilizzare la cella **Restrizione di colonna** per specificare una delle funzioni seguenti:
 
 - La cella può limitare la stampa degli importi della riga a una colonna specifica. Questa funzione è utile se si crea un conto patrimoniale tabulare.
 - La cella può specificare la colonna degli importi da ordinare.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Uso di una formula di calcolo in una definizione di riga
-Una formula di calcolo in una definizione di riga può includere gli operatori **+**, **-**, **\*** e **/** e anche le istruzioni **IF/THEN/ELSE**. Inoltre, un calcolo può includere singole celle e importi assoluti (i numeri effettivi inclusi nella formula). La formula può contenere 1024 caratteri al massimo. I calcoli non possono essere applicati alle righe contenenti le celle del tipo **Collegamento a dimensioni finanziarie** (FD). Tuttavia, è possibile includere i calcoli di righe consecutive, eliminare la stampa di quelle righe e quindi calcolare il totale delle righe di calcolo.
+
+Una formula di calcolo in una definizione di riga può includere gli operatori **+** , **-** , **\*** e **/** e anche le istruzioni **IF/THEN/ELSE**. Inoltre, un calcolo può includere singole celle e importi assoluti (i numeri effettivi inclusi nella formula). La formula può contenere 1024 caratteri al massimo. I calcoli non possono essere applicati alle righe contenenti le celle del tipo **Collegamento a dimensioni finanziarie** (FD). Tuttavia, è possibile includere i calcoli di righe consecutive, eliminare la stampa di quelle righe e quindi calcolare il totale delle righe di calcolo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatori in una formula di calcolo
 
@@ -201,7 +208,7 @@ Una formula di calcolo utilizza operatori più complessi di una formula di total
 
 1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Fare doppio clic sulla cella **Codice formato** quindi selezionare **CAL**.
-3. Nella cella **Unità/righe/formule correlate**, immettere la formula di calcolo.
+3. Nella cella **Unità/righe/formule correlate** , immettere la formula di calcolo.
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Esempio di una formula di calcolo per righe specifiche
 
@@ -213,10 +220,10 @@ In questo esempio, la formula di calcolo **@100+@330** indica che l'importo nell
 | 370      | Importo di cassa all'inizio dell'anno   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Importo di cassa all'inizio del periodo | TOT         | 340+370                    |               |              |                              |
 
-Quando la riga in una definizione di riga ha un codice formato **CAL** e si immette un calcolo matematico nella cella **Unità/righe/formule correlate**, è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere **A.120** per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere **@120** per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale.
+Quando la riga in una definizione di riga ha un codice formato **CAL** e si immette un calcolo matematico nella cella **Unità/righe/formule correlate** , è inoltre necessario immettere la lettera della colonna e della riga associate nel report. Ad esempio, immettere **A.120** per indicare la colonna A, riga 120. In alternativa, è possibile utilizzare la chiocciola (@) per indicare tutte le colonne. Ad esempio, immettere **@120** per indicare tutte le colonne, riga 120. Tutti i calcoli matematici per cui non è presente una lettera di colonna o una chiocciola (@) vengono considerati come un numero reale.
 
 > [!NOTE]
-> Se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio **A.GROSS\_MARGIN/A.SALES**). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, **\@GROSS\_MARGIN/@SALES**).
+> Se si utilizza un codice di riga etichetta per fare riferimento a una riga, è necessario utilizzare un punto (.) come separatore tra la lettera di colonna e l'etichetta (ad esempio **A.GROSS\_MARGIN/A.SALES** ). Se si utilizza la chiocciola (@), il separatore non è necessario (ad esempio, **\@GROSS\_MARGIN/@SALES** ).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Esempio di una formula di calcolo per una colonna specifica
 
@@ -235,8 +242,8 @@ In questo esempio, la formula di calcolo **E=C.340** significa che il calcolo ne
 
 Quando si modifica un numero o un calcolo in una colonna di una riga specifica ma non si desidera influire su altre colonne nel report, è possibile specificare **CAL** (calcolo) nella colonna **Codice formato** della definizione di riga.
 
-- Per eseguire un calcolo in tutte le colonne (**FD**) del report, non immettere un'assegnazione di colonna.
-- Per limitare una formula a specifiche colonne, immettere la lettera di colonna, un segno di uguale (**=**) e quindi la formula.
+- Per eseguire un calcolo in tutte le colonne ( **FD** ) del report, non immettere un'assegnazione di colonna.
+- Per limitare una formula a specifiche colonne, immettere la lettera di colonna, un segno di uguale ( **=** ) e quindi la formula.
 - È possibile specificare più colonne. Quando si utilizza la chiocciola (@) con il posizionamento di una colonna specifica, la chiocciola (@) è correlata alla riga.
 - È possibile immettere più formule di colonna in una riga. Separare le formule utilizzando virgole.
 
@@ -266,13 +273,13 @@ Il termine **Periodi** in un'istruzione **IF** rappresenta il numero di periodi 
 
 Le formule **THEN** ed **ELSE** possono essere qualsiasi calcolo valido, da assegnazioni di valori molto semplici a formule complesse. Ad esempio, l'istruzione **IF A.200&gt;0 THEN A=B.200** indica "se il valore nella cella nella colonna A della riga 200 è maggiore di 0 (zero), inserisci il valore della cella nella colonna B della riga 200 nella cella nella colonna A della riga corrente". L'istruzione **IF/THEN** precedente inserisce un valore in una colonna della riga corrente. Tuttavia, è possibile anche utilizzare una chiocciola (@) nelle valutazioni true/false o nella formula per rappresentare tutte le colonne. Di seguito sono riportati alcuni altri esempi descritti nelle sezioni seguenti:
 
-- **IF A.200 &gt;0 THEN B.200**: se il valore nella cella A.200 è positivo, il valore della cella B.200 viene immesso in ogni colonna della riga corrente.
-- **IF A.200 &gt;0 THEN @200**: Se il valore nella cella A.200 è positivo, il valore di ciascuna colonna nella riga 200 viene immesso nella colonna corrispondente della riga corrente.
-- **IF @200 &gt;0 THEN @200**: Se il valore nella riga 200 della colonna corrente è positivo, il valore della riga 200 viene immesso nella stessa colonna della riga corrente.
+- **IF A.200 &gt;0 THEN B.200** : se il valore nella cella A.200 è positivo, il valore della cella B.200 viene immesso in ogni colonna della riga corrente.
+- **IF A.200 &gt;0 THEN @200** : Se il valore nella cella A.200 è positivo, il valore di ciascuna colonna nella riga 200 viene immesso nella colonna corrispondente della riga corrente.
+- **IF @200 &gt;0 THEN @200** : Se il valore nella riga 200 della colonna corrente è positivo, il valore della riga 200 viene immesso nella stessa colonna della riga corrente.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Limitazione di un calcolo a un'unità gerarchica in una definizione di riga
 
-Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in modo che l'importo risultante non sia sottoposto a rollup in un'unità di livello superiore, è possibile utilizzare il codice **@Unit** nella cella **Unità/righe/formule correlate** nella definizione di riga. Il codice **@Unit** è presente nella colonna B dell'albero gerarchico, **Nome unità**. Quando si utilizza il codice **@Unit**, non viene eseguito il rollup dei valori, ma il calcolo viene valutato a ogni livello dell'albero gerarchico.
+Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in modo che l'importo risultante non sia sottoposto a rollup in un'unità di livello superiore, è possibile utilizzare il codice **@Unit** nella cella **Unità/righe/formule correlate** nella definizione di riga. Il codice **@Unit** è presente nella colonna B dell'albero gerarchico, **Nome unità**. Quando si utilizza il codice **@Unit** , non viene eseguito il rollup dei valori, ma il calcolo viene valutato a ogni livello dell'albero gerarchico.
 
 > [!NOTE]
 > Per utilizzare questa funzione, un albero gerarchico deve essere associato alla definizione di riga.
@@ -280,7 +287,7 @@ Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in
 La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dati finanziari. Il calcolo viene registrato nella cella **Unità/righe/formule correlate** della definizione di riga e nella restrizione di tipo di dati finanziari. Il calcolo deve utilizzare un calcolo condizionale che inizia con una costruzione **IF @Unit**. Ecco un esempio: IF @Unit(SALES) THEN @100 ELSE 0 Questo calcolo include l'importo della riga 100 in ogni colonna del report, ma solo per l'unità SALES. Se più unità sono denominate SALES, l'importo viene visualizzato in ciascuna di queste unità. Inoltre, la riga 100 può essere una riga di dati finanziari e può essere definita come da non stampare. In questo caso, si impedisce all'importo di apparire in tutte le unità dell'albero. È inoltre possibile limitare l'importo a una singola colonna del report, ad esempio la colonna H, utilizzando una restrizione di colonna per stampare il valore solo in quella colonna del report. È possibile includere combinazioni **OR** in un'istruzione **IF**. Ecco un esempio: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 È possibile specificare un'unità in una restrizione di tipo calcolo in uno dei seguenti modi:
 
 - Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, **IF @Unit(SALES)** abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
-- Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit(ACME:SALES**) per limitare il calcolo alle unità SALES della società ACME.
+- Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit(ACME:SALES** ) per limitare il calcolo alle unità SALES della società ACME.
 - Immettere il codice gerarchia completo dell'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -288,19 +295,19 @@ La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dat
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Restringere un calcolo a un'unità gerarchica
 
-1. In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
+1. In Progettazione report fare clic su **Definizioni di riga** , quindi aprire la definizione di riga che si intende modificare.
 2. Fare doppio clic sulla cella **Codice formato** quindi selezionare **CAL**.
 3. Fare clic sulla cella **Unità/righe/formule correlate** quindi immettere un calcolo condizionale che inizia con una costruzione **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Istruzioni IF/THEN/ELSE in una definizione di colonna
 
-Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati di qualsiasi altra colonna. È possibile fare riferimento ad altre colonne, ma non è possibile fare riferimento a una cella del report nell'istruzione **IF**. Qualsiasi calcolo deve essere applicato all'intera colonna. Ad esempio, l'istruzione **IF B&gt;100 THEN B ELSE C\*1,25** indica "Se l'importo nella colonna B è maggiore di 100, inserisci il valore dalla colonna B nella colonna **CALC**. Se l'importo nella colonna B non è maggiore di 100, moltiplica il valore nella colonna C per 1,25 e inserisci il risultato nella colonna **CALC**". Fare seguire sempre l'istruzione **IF** con un'istruzione logica che può essere valutata come vera o falsa. Le formule utilizzate per l'istruzione **THEN** e per l'istruzione **ELSE** possono contenere riferimenti a qualsiasi numero di colonne e le formule possono essere tanto complesse quanto si desidera.
+Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati di qualsiasi altra colonna. È possibile fare riferimento ad altre colonne, ma non è possibile fare riferimento a una cella del report nell'istruzione **IF**. Qualsiasi calcolo deve essere applicato all'intera colonna. Ad esempio, l'istruzione **IF B&gt;100 THEN B ELSE C\*1,25** indica "Se l'importo nella colonna B è maggiore di 100, inserisci il valore dalla colonna B nella colonna **CALC**. Se l'importo nella colonna B non è maggiore di 100, moltiplica il valore nella colonna C per 1,25 e inserisci il risultato nella colonna **CALC** ". Fare seguire sempre l'istruzione **IF** con un'istruzione logica che può essere valutata come vera o falsa. Le formule utilizzate per l'istruzione **THEN** e per l'istruzione **ELSE** possono contenere riferimenti a qualsiasi numero di colonne e le formule possono essere tanto complesse quanto si desidera.
 
 > [!NOTE]
 > Non è possibile inserire i risultati di un calcolo in alcuna altra colonna. I risultati devono essere nella colonna che contiene la formula.
 
 #### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Utilizzare le virgolette singole ('') e la e commerciale (&) per i valori di dimensione in una riga, una colonna o una struttura ad albero
 
-È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&). 
+È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&).
 
-Nel campo **Collegamento a dimensioni finanziarie**, è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&). 
+Nel campo **Collegamento a dimensioni finanziarie** , è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&).

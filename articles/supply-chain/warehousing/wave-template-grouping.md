@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4dd188cbd17cfed372283ecb3389633b0c0021eb
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530468"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015828"
 ---
 # <a name="wave-template-grouping"></a>Gruppi del modello di ondata
 
@@ -33,7 +34,7 @@ Il raggruppamento dei modelli di ondate consente al sistema di utilizzare le con
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Attivare la funzione di raggruppamento dei modelli di ondata
 
-Prima di poter utilizzare la funzionalità *Raggruppamento modello ondata*, deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter utilizzare la funzionalità *Raggruppamento modello ondata* , deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Raggruppamento modello ondata*
@@ -45,14 +46,14 @@ Per rendere disponibile il raggruppamento modello ondata, attieniti alla seguent
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Nel riquadro sinistro, seleziona il modello di ondata da configurare. Se ti stai preparando a lavorare sullo scenario più avanti in questo argomento usando i dati demo, seleziona il modello **62 Spedizione predefinita**.
 1. Seleziona **Modifica** per mettere la pagina in modalità modifica.
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Automatizza creazione ondata:** *Sì*
     - **Assegna a ondate aperte:** *Sì*
     - **Elabora ondata al rilascio in magazzino:** *No*
 
 1. Nel riquadro azioni, seleziona **Modifica query** per aprire la finestra di dialogo dell'editor di query.
-1. Nella finestra di dialogo della query, nella scheda **Ordinamento**, rivedi i criteri di ordinamento e assicurati che esista una regola che includa il campo che vuoi utilizzare per raggruppare le ondate.
+1. Nella finestra di dialogo della query, nella scheda **Ordinamento** , rivedi i criteri di ordinamento e assicurati che esista una regola che includa il campo che vuoi utilizzare per raggruppare le ondate.
 
     Se ti stai preparando a utilizzare lo scenario utilizzando i dati demo, aggiungi una riga con i seguenti valori:
 
@@ -67,7 +68,7 @@ Per rendere disponibile il raggruppamento modello ondata, attieniti alla seguent
 
 1. Seleziona **OK** per salvare le modifiche e chiudere la finestra di dialogo della query.
 1. Nel riquadro azioni seleziona **Raggruppamento modello ondata**.
-1. Nella pagina **Raggruppamento modello ondata**, seleziona la casella di controllo **Raggruppa per** per ogni riga che si desidera utilizzare per raggruppare le righe dell'ordine in ondate, come richiesto. Se ti stai preparando a elaborare lo scenario utilizzando i dati demo, seleziona la casella di controllo **Raggruppa per** controllo per la riga *Servizio trasporto*.
+1. Nella pagina **Raggruppamento modello ondata** , seleziona la casella di controllo **Raggruppa per** per ogni riga che si desidera utilizzare per raggruppare le righe dell'ordine in ondate, come richiesto. Se ti stai preparando a elaborare lo scenario utilizzando i dati demo, seleziona la casella di controllo **Raggruppa per** controllo per la riga *Servizio trasporto*.
 1. Selezionare **Salva**.
 1. Chiudi la pagina **Raggruppamento modello ondata**.
 1. Seleziona **Salva** per salvare il modello.
@@ -92,30 +93,30 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
-    - Nella Scheda dettaglio **Cliente**, imposta il campo **Conto cliente** su *US-004*.
-    - Nel campo **Magazzino** della Scheda dettaglio **Generale**, seleziona *62*.
+    - Nella Scheda dettaglio **Cliente** , imposta il campo **Conto cliente** su *US-004*.
+    - Nel campo **Magazzino** della Scheda dettaglio **Generale** , seleziona *62*.
 
 1. Scegli **OK** per creare l'ordine cliente e chiudere la finestra di dialogo **Crea ordine cliente**.
 1. Il nuovo ordine cliente viene aperto nella visualizzazione **Righe**. Prendi nota del numero di ordine cliente.
 1. Passa alla visualizzazione **Intestazione**.
-1. Nella Scheda dettaglio **Consegna**, nella sezione **Trasporti**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Consegna** , nella sezione **Trasporti** , imposta i seguenti valori:
 
     - **Vettore spedizione:** *Air cargo*
     - **Servizio trasporto:** *Air*
 
 1. Torna alla visualizzazione **Righe**.
-1. Nella sezione **Righe ordine cliente**, seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
+1. Nella sezione **Righe ordine cliente** , seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero articolo:** *A0002*
     - **Quantità:** *2*
 
 1. Seleziona la nuova riga ordine, quindi sul menu **Scorte** sopra la griglia, seleziona **Prenotazione**.
-1. Nella pagina **Prenotazione**, nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella pagina **Prenotazione** , nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
 1. Riceverai un messaggio informativo che mostra la spedizione e l'ondata per questo ordine. Prendi nota del numero ID ondata e i numeri ID spedizione.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Visualizzare l'ondata creata dall'ordine cliente 1
@@ -129,30 +130,30 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
-    - Nella Scheda dettaglio **Cliente**, imposta il campo **Conto cliente** su *US-005*.
-    - Nel campo **Magazzino** della Scheda dettaglio **Generale**, seleziona *62*.
+    - Nella Scheda dettaglio **Cliente** , imposta il campo **Conto cliente** su *US-005*.
+    - Nel campo **Magazzino** della Scheda dettaglio **Generale** , seleziona *62*.
 
 1. Scegli **OK** per creare l'ordine cliente e chiudere la finestra di dialogo **Crea ordine cliente**.
 1. Il nuovo ordine cliente viene aperto nella visualizzazione **Righe**. Prendi nota del numero di ordine cliente.
 1. Passa alla visualizzazione **Intestazione**.
-1. Nella Scheda dettaglio **Consegna**, nella sezione **Trasporti**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Consegna** , nella sezione **Trasporti** , imposta i seguenti valori:
 
     - **Vettore spedizione:** *Flower moving*
     - **Servizio trasporto:** *Std*
 
 1. Torna alla visualizzazione **Righe**.
-1. Nella sezione **Righe ordine cliente**, seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
+1. Nella sezione **Righe ordine cliente** , seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero articolo:** *A0001*
     - **Quantità:** *1*
 
 1. Seleziona la nuova riga ordine, quindi sul menu **Scorte** sopra la griglia, seleziona **Prenotazione**.
-1. Nella pagina **Prenotazione**, nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella pagina **Prenotazione** , nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
 1. Riceverai un messaggio informativo che mostra la spedizione e l'ondata per questo ordine. Prendi nota del numero ID ondata e i numeri ID spedizione. Nota l'ID ondata differisce dall'ID ondata del primo ordine cliente.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Visualizzare l'ondata creata dall'ordine cliente 2
@@ -168,30 +169,30 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
-    - Nella Scheda dettaglio **Cliente**, imposta il campo **Conto cliente** su *US-006*.
-    - Nel campo **Magazzino** della Scheda dettaglio **Generale**, seleziona *62*.
+    - Nella Scheda dettaglio **Cliente** , imposta il campo **Conto cliente** su *US-006*.
+    - Nel campo **Magazzino** della Scheda dettaglio **Generale** , seleziona *62*.
 
 1. Scegli **OK** per creare l'ordine cliente e chiudere la finestra di dialogo **Crea ordine cliente**.
 1. Il nuovo ordine cliente viene aperto nella visualizzazione **Righe**. Prendi nota del numero di ordine cliente.
 1. Passa alla visualizzazione **Intestazione**.
-1. Nella Scheda dettaglio **Consegna**, nella sezione **Trasporti**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Consegna** , nella sezione **Trasporti** , imposta i seguenti valori:
 
     - **Vettore spedizione:** *Air Cargo*
     - **Servizio trasporto:** *Air*
 
 1. Torna alla visualizzazione **Righe**.
-1. Nella sezione **Righe ordine cliente**, seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
+1. Nella sezione **Righe ordine cliente** , seleziona **Aggiungi riga** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero articolo:** *A0001*
     - **Quantità:** *1*
 
 1. Seleziona la nuova riga ordine, quindi sul menu **Scorte** sopra la griglia, seleziona **Prenotazione**.
-1. Nella pagina **Prenotazione**, nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
+1. Nella pagina **Prenotazione** , nel riquadro azioni, seleziona **Prenota lotto** per prenotare l'intera quantità della riga selezionata nel magazzino.
 1. Chiudi la pagina **Prenotazione** per tornare all'ordine cliente.
-1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
 1. Riceverai un messaggio informativo che mostra la spedizione e l'ondata per questo ordine. Prendi nota del numero ID ondata e i numeri ID spedizione. La spedizione è stata assegnata all'ondata esistente dal primo ordine cliente.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Visualizzare l'ondata per gli ordini cliente 1 e 3
@@ -199,4 +200,4 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 1. Selezionare **Gestione magazzino \> Ondate in uscita \> Ondate spedizione \> Tutte le ondate**.
 1. Seleziona l'ID ondata creato dal terzo ordine cliente.
 1. Seleziona il collegamento ID ondata per aprire la pagina Dettagli ondata.
-1. Nota che la spedizione è stata aggiunta alla Scheda dettaglio **Righe ondata**, insieme alla spedizione per il primo ordine cliente.
+1. Nota che la spedizione è stata aggiunta alla Scheda dettaglio **Righe ondata** , insieme alla spedizione per il primo ordine cliente.

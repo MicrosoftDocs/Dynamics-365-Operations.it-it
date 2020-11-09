@@ -3,7 +3,7 @@ title: Confronto tra funzionalità cloud e locali
 description: Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100284"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040101"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -85,8 +85,9 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
-| **Area**                | **Funzionalità**             | **Cloud** | **On-premises** |
+| **Area**                | **Funzionalità**             | **Cloud** | **Locale** |
 |-------------------------|-------------------|-----------|-----------------|
+| Gestione cespiti                     |                                                                                           | Sì       | Nessuno |
 | Conformità e certificazioni        |                                                                                           | Sì       | Sì             |
 |                                      | Certificazione SOC 1 tipo 1                                                                | Sì       | Nessuna              |
 | Contabilità industriale                      |                                                                                           | Sì       | Sì             |

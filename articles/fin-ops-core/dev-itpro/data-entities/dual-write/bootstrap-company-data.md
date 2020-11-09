@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172925"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997578"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Domande frequenti sul bootstrap con i dati della società
  
@@ -37,7 +36,7 @@ ms.locfileid: "3172925"
 ## <a name="when-should-i-use-bootstrapping"></a>Quando si deve utilizzare il bootstrap? 
 È necessario utilizzare il bootstrap prima di abilitare le mappe entità a doppia scrittura (durante il passaggio n. 5).  
 1. Per configurare la connessione di doppia scrittura tra le istanze dell'app Finance and Operations e Common Data Service o altra app Dynamics 365, accedere all'app Finance and Operations come amministratore. 
-2. Passare al modulo **Gestione dei dati** e fare clic sul pulsante **Doppia scrittura**. Viene avviato l'**integratore dei dati**. 
+2. Passare al modulo **Gestione dei dati** e fare clic sul pulsante **Doppia scrittura**. Viene avviato l' **integratore dei dati**. 
 3. Creare la connessione a doppia scrittura per una o più società.  
     > [!div class="mx-imgBorder"]
     > ![Creare la connessione a doppia scrittura](media/dual-write-boot-1.png)
@@ -52,16 +51,16 @@ ms.locfileid: "3172925"
 ## <a name="how-to-i-use-the-code-sample"></a>Come si usa l'esempio di codice?
 Il codice di esempio è un'applicazione C # che puoi caricare in Visual Studio. Richiede dipendenze del pacchetto NuGet dall'SDK di Common Data Service che è possibile aggiornare tramite gli strumenti standard di Visual Studio. 
 
-Dopo aver decompresso e aperto la soluzione in Visual Studio e recuperato i pacchetti NuGet, cercare **TODO** nel codice. Ogni decisione che è necessario prendere su come si desidera avviare il bootstrap delle informazioni aziendali è annotata da un **TODO**, con un codice di esempio per un'implementazione canonica. 
+Dopo aver decompresso e aperto la soluzione in Visual Studio e recuperato i pacchetti NuGet, cercare **TODO** nel codice. Ogni decisione che è necessario prendere su come si desidera avviare il bootstrap delle informazioni aziendali è annotata da un **TODO** , con un codice di esempio per un'implementazione canonica. 
 
-Il codice di esempio mostra solo uno dei molti modi in cui è possibile classificare i record di entità per società. Modificando la logica nelle sezioni **TODO**, è possibile creare la categorizzazione personalizzata. 
+Il codice di esempio mostra solo uno dei molti modi in cui è possibile classificare i record di entità per società. Modificando la logica nelle sezioni **TODO** , è possibile creare la categorizzazione personalizzata. 
  
 ## <a name="what-should-i-expect"></a>Cosa ci si deve aspettare?
-Per impostazione predefinita, l'applicazione di esempio consente di fornire un dizionario di mappature del codice da unità aziendale a società. Qualsiasi entità avviata con un campo **OwningBusinessUnit** viene automaticamente impostata per utilizzare la società specificata. Qualsiasi entità senza un campo **OwningBusinessUnit**, ad esempio un prodotto, imposterà la società in base alla mappatura con un valore di unità di business vuoto.
+Per impostazione predefinita, l'applicazione di esempio consente di fornire un dizionario di mappature del codice da unità aziendale a società. Qualsiasi entità avviata con un campo **OwningBusinessUnit** viene automaticamente impostata per utilizzare la società specificata. Qualsiasi entità senza un campo **OwningBusinessUnit** , ad esempio un prodotto, imposterà la società in base alla mappatura con un valore di unità di business vuoto.
 
-L'applicazione della console prevede un parametro, **–simulate** o **–apply**. Se si utilizza il parametro della riga di comando **–simulate**, i dati non vengono aggiornati. Solo i file **simulation_<entityname>.csv** vengono generati nella stessa directory dello strumento, uno per ciascuna entità che sarebbe stata aggiornata. È possibile rivedere iterativamente questi file mentre si lavora per assicurarsi che il codice aggiorni i valori dell'azienda come previsto. 
+L'applicazione della console prevede un parametro, **–simulate** o **–apply**. Se si utilizza il parametro della riga di comando **–simulate** , i dati non vengono aggiornati. Solo i file **simulation_<entityname>.csv** vengono generati nella stessa directory dello strumento, uno per ciascuna entità che sarebbe stata aggiornata. È possibile rivedere iterativamente questi file mentre si lavora per assicurarsi che il codice aggiorni i valori dell'azienda come previsto. 
 
-Al termine degli aggiornamenti simulati, utilizzare il parametro **–apply**. In tal modo vengono aggiornati tutti i record che attualmente hanno un valore aziendale errato, in batch di 1000 record alla volta (per impostazione predefinita). Il codice è idempotente come indicato, il che significa che è possibile eseguirlo nuovamente e verranno aggiornate solo le società assegnate in modo errato. Durante l'esecuzione di **–apply**, il codice, genera i file CSV delle modifiche effettuate ovvero **applied_<entityname>.csv**. 
+Al termine degli aggiornamenti simulati, utilizzare il parametro **–apply**. In tal modo vengono aggiornati tutti i record che attualmente hanno un valore aziendale errato, in batch di 1000 record alla volta (per impostazione predefinita). Il codice è idempotente come indicato, il che significa che è possibile eseguirlo nuovamente e verranno aggiornate solo le società assegnate in modo errato. Durante l'esecuzione di **–apply** , il codice, genera i file CSV delle modifiche effettuate ovvero **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

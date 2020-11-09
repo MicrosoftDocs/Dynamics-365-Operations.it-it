@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMTable
+ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 555c76651609718aeed11230b4de4fec3bb39ce9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016887"
 ---
 # <a name="batch-balancing"></a>Bilanciamento del batch
 
@@ -97,7 +97,7 @@ L'ingrediente B ha l'attributo di base X e un livello stabilito di 30 ed è incl
 
 ### <a name="none"></a>Nessuna
 
-Se si applica il processo di bilanciamento del batch quando il tipo di ingrediente è **Nessuno**, la quantità stimata e la quantità bilanciata della riga della formula nell'ordine batch sono corrispondenti.
+Se si applica il processo di bilanciamento del batch quando il tipo di ingrediente è **Nessuno** , la quantità stimata e la quantità bilanciata della riga della formula nell'ordine batch sono corrispondenti.
 
 **Esempio**
 
@@ -115,7 +115,7 @@ La relazione tra un principio attivo e un ingrediente complementare viene impost
 
 Per impostare le relazioni tra gli ingredienti, attenersi alla procedura indicata di seguito.
 
-1.  Selezionare **Gestione informazioni sul prodotto** \> **Fatture e materiali e formule** \> **Formule**, aprire una riga della formula, quindi selezionare **Ingredienti** per aprire la pagina **Principio di compensazione**.
+1.  Selezionare **Gestione informazioni sul prodotto** \> **Fatture e materiali e formule** \> **Formule** , aprire una riga della formula, quindi selezionare **Ingredienti** per aprire la pagina **Principio di compensazione**.
 
 2.  Selezionare la riga che rappresenta un principio di compensazione, quindi selezionare il principio attivo per compensare.
 
@@ -125,7 +125,7 @@ Per impostare le relazioni tra gli ingredienti, attenersi alla procedura indicat
 
 L'ingrediente B è un principio attivo con l'attributo di base X e un livello stabilito di 30. È incluso in una formula che richiede 30 litri di ingrediente B per ogni 100 litri di prodotto. L'ingrediente C è un ingrediente di compensazione e una quantità pari a 10 è inclusa nella stessa formula. Un fattore di compensazione di 1,10 è impostato per il principio di compensazione. Di conseguenza, la quantità bilanciata dell'ingrediente di compensazione verrà ridotta della differenza tra la quantità bilanciata del principio attivo e la quantità stimata richiesta moltiplicata per 1,10.
 
-Nell'esempio per il tipo di ingrediente **Attivo**, la quantità bilanciata del principio attivo richiesto è stata calcolata come 25,71 e la quantità stimata richiesta è stata calcolata come 30. In questo caso, la quantità bilanciata dell'ingrediente di compensazione verrà calcolata come segue:
+Nell'esempio per il tipo di ingrediente **Attivo** , la quantità bilanciata del principio attivo richiesto è stata calcolata come 25,71 e la quantità stimata richiesta è stata calcolata come 30. In questo caso, la quantità bilanciata dell'ingrediente di compensazione verrà calcolata come segue:
 
 1.  Viene determinata la differenza tra la quantità stimata e quella bilanciata:
 
@@ -156,7 +156,7 @@ La quantità bilanciata del riempitivo viene calcolata come la differenza tra la
 ---------------------------
 
 Il processo di bilanciamento del batch viene eseguito dalla pagina **Bilanciamento del batch**.
-Selezionare **Gestione costi** \> **Ordini batch**, quindi nella scheda **Processo** selezionare **Bilanciamento del batch**. Il bilanciamento del batch è disponibile per gli ordini batch con stato **Iniziato**.
+Selezionare **Gestione costi** \> **Ordini batch** , quindi nella scheda **Processo** selezionare **Bilanciamento del batch**. Il bilanciamento del batch è disponibile per gli ordini batch con stato **Iniziato**.
 
 In genere, il bilanciamento del batch può essere applicato agli ordini batch se la formula dispone di almeno una riga della formula in cui il tipo di ingrediente è **Attivo**. Per l'eccezione a questa regola, vedere la sezione "Ordini batch non applicabili al bilanciamento del batch" più avanti in questo argomento.
 
@@ -171,7 +171,7 @@ Il processo di bilanciamento del batch può essere diviso in due processi second
 Nel processo secondario Bilancia ingredienti batch, la quantità di ingredienti da utilizzare per il batch di produzione viene calcolata in base ai batch selezionati con principi attivi. In generale, il calcolo può essere completato solo in caso di copertura totale di tutti gli ingredienti. Non è possibile bilanciare solo parte del batch che l'ordine batch è impostato per produrre.
 
 [!NOTE]
-Non è possibile salvare un calcolo e quindi completare il processo di bilanciamento del batch in un secondo momento. Se si chiude la pagina **Bilanciamento del batch**, è necessario ripetere il calcolo per completare il processo.
+Non è possibile salvare un calcolo e quindi completare il processo di bilanciamento del batch in un secondo momento. Se si chiude la pagina **Bilanciamento del batch** , è necessario ripetere il calcolo per completare il processo.
 
 ### <a name="confirm-and-release-the-formula"></a>Confermare e rilasciare la formula
 

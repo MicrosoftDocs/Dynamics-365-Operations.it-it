@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652243"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016610"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -52,7 +53,7 @@ Abilita la funzionalità di rifornimento superiore alla capacità nel profilo ub
 1. Vai a **Gestione magazzino \> Impostazioni \> Magazzino \> Profili ubicazione**.
 1. Nel riquadro sinistro selezionare **PICK-06**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella Scheda dettaglio **Rifornimento**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Rifornimento** , impostare i seguenti valori:
 
     - **Supera la capacità di ubicazione:** *Sì*
 
@@ -62,13 +63,13 @@ Abilita la funzionalità di rifornimento superiore alla capacità nel profilo ub
 
         Questo campo definisce il metodo utilizzato per determinare quando è necessario rilasciare più lavoro. È possibile rilasciare in base alla quantità o a una percentuale.
 
-        - *Percentuale*: seleziona questa opzione per utilizzare la capacità percentuale basata su limiti di stoccaggio o metriche di volume. Selezionando questa opzione si abilita il campo **Percentuale overflow** e si disabilitano i due campi relativi alla quantità, **Quantità di overflow** e **Unità di overflow**.
+        - *Percentuale* : seleziona questa opzione per utilizzare la capacità percentuale basata su limiti di stoccaggio o metriche di volume. Selezionando questa opzione si abilita il campo **Percentuale overflow** e si disabilitano i due campi relativi alla quantità, **Quantità di overflow** e **Unità di overflow**.
 
             È possibile utilizzare questa opzione se le ubicazioni di prelievo utilizzano metriche volume.
 
             Se questa opzione è selezionata, impostare il campo **Percentuale overflow** sulla percentuale in corrispondenza della quale sarà reso disponibili più lavoro di rifornimento.
 
-        - *Quantità*: selezionare questa opzione per utilizzare un valore di quantità specifico. Selezionando questa opzione si abilita il campo **Percentuale overflow** e si disabilitano i due campi relativi alla quantità, **Quantità di overflow** e **Unità di overflow**.
+        - *Quantità* : selezionare questa opzione per utilizzare un valore di quantità specifico. Selezionando questa opzione si abilita il campo **Percentuale overflow** e si disabilitano i due campi relativi alla quantità, **Quantità di overflow** e **Unità di overflow**.
 
             Utilizzare questa opzione quando non si utilizza metrica di volume per le ubicazioni che vengono rifornite o quando si dispone di quantità costanti per cui si desidera portare più scorte nell'ubicazione.
 
@@ -97,7 +98,7 @@ Abilita la funzionalità di rifornimento superiore alla capacità nel profilo ub
         I limiti di stoccaggio dell'ubicazione vengono considerati quando viene calcolata la percentuale di quantità di lavoro. Se non vengono definiti limiti di stoccaggio per l'ubicazione, la percentuale della quantità di lavoro viene calcolata in base al volume se i limiti di volume sono definiti per il profilo dell'ubicazione.
 
 > [!IMPORTANT]
-> Se si utilizzano i dati dimostrativi per la persona giuridica **USMF** ed è stata precedentemente attivata la funzionalità *Posizionamento targa ubicazione*, è necessario disattivare l'impostazione **Abilita posizionamento targa** per il profilo di ubicazione **BULK-06** per completare i passaggi su dispositivo mobile nello scenario di esempio.
+> Se si utilizzano i dati dimostrativi per la persona giuridica **USMF** ed è stata precedentemente attivata la funzionalità *Posizionamento targa ubicazione* , è necessario disattivare l'impostazione **Abilita posizionamento targa** per il profilo di ubicazione **BULK-06** per completare i passaggi su dispositivo mobile nello scenario di esempio.
 
 ### <a name="wave-step-code"></a>Codice del passaggio ondata
 
@@ -119,7 +120,7 @@ I modelli rifornimento rappresentano un set di regole che controlla quando e com
 
 1. Vai a **Gestione magazzino \> Impostazione \> Rifornimento \> Modelli di rifornimento**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella sezione **Panoramica**, selezionare la riga in cui il campo **Modello di rifornimento** è impostato su *Riforniomento domanda*.
+1. Nella sezione **Panoramica** , selezionare la riga in cui il campo **Modello di rifornimento** è impostato su *Riforniomento domanda*.
 1. Imposta i valori seguenti:
 
     - **Codice passaggio ondata:** *Rifornimento*
@@ -133,11 +134,11 @@ I modelli rifornimento rappresentano un set di regole che controlla quando e com
 1. Nel riquadro sinistro, impostare il campo **Tipo di modello ondata** su *Spedizione*.
 1. Selezionare il modello **61 spedizione** nell'elenco.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella scheda dettaglio **Generale**, impostare l'opzione **Automatizza rilascio lavoro di rifornimento** su *Sì*.
+1. Nella scheda dettaglio **Generale** , impostare l'opzione **Automatizza rilascio lavoro di rifornimento** su *Sì*.
 
     Impostare questa opzione su *Sì* per creare lavoro di rifornimento basato sulla domanda e per rilasciarlo automaticamente. È necessario aggiungere il metodo ondata di rifornimento al modello di ondata e creare un modello rifornimento di tipo **Domanda ondata**. Impostare un modello di rifornimento nella pagina **Modelli di rifornimento**. Per configurare un modello di rifornimento, è necessario aggiungere il metodo di rifornimento al modello ondata.
 
-1. Nella Scheda dettaglio **Metodi**, nella colonna **Metodi selezionati**, trova la seguente riga:
+1. Nella Scheda dettaglio **Metodi** , nella colonna **Metodi selezionati** , trova la seguente riga:
 
     - **Nome metodo:** *Rifornimento*
     - **Nome:** *Rifornimento*
@@ -166,10 +167,10 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
     - **Numero articolo:** *T0100*
     - **Quantità:** *40*
 
-1. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Scorte \> Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto**.
+1. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Scorte \> Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto**.
 1. Chiudere la pagina.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
 
     Viene visualizzato un messaggio informativo che mostra l'ID ondata e spedizione creati. Viene inoltre creata un'ondata di rifornimento.
 
@@ -177,7 +178,7 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 
 #### <a name="create-sales-order-2"></a>Creare l'ordine cliente 2
 
-1. Nella pagina **Tutti gli ordini cliente**, nel riquadro azioni, scegliere **Nuovo** per aprire una finestra di dialogo per la creazione di un nuovo ordine cliente.
+1. Nella pagina **Tutti gli ordini cliente** , nel riquadro azioni, scegliere **Nuovo** per aprire una finestra di dialogo per la creazione di un nuovo ordine cliente.
 1. Nella finestra di dialogo, impostare il seguente valore:
 
     - **Conto cliente:** *US-001*
@@ -189,10 +190,10 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
     - **Numero articolo:** *T0100*
     - **Quantità:** *60*
 
-1. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Scorte \> Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto**.
+1. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Scorte \> Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto**.
 1. Chiudere la pagina.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
 
     Viene visualizzato un messaggio informativo che mostra l'ID ondata e spedizione creati. Viene inoltre creata un'ondata di rifornimento.
 
@@ -200,7 +201,7 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 
 #### <a name="create-sales-order-3"></a>Creare l'ordine cliente 3
 
-1. Nella pagina **Tutti gli ordini cliente**, nel riquadro azioni, scegliere **Nuovo** per aprire una finestra di dialogo per la creazione di un nuovo ordine cliente.
+1. Nella pagina **Tutti gli ordini cliente** , nel riquadro azioni, scegliere **Nuovo** per aprire una finestra di dialogo per la creazione di un nuovo ordine cliente.
 1. Nella finestra di dialogo, imposta i seguenti valori:
 
     - **Conto cliente:** *US-004*
@@ -212,10 +213,10 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
     - **Numero articolo:** *T0100*
     - **Quantità:** *30*
 
-1. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Scorte \> Prenotazione**.
-1. Nella pagina **Prenotazione**, selezionare **Prenota lotto**.
+1. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Scorte \> Prenotazione**.
+1. Nella pagina **Prenotazione** , selezionare **Prenota lotto**.
 1. Chiudere la pagina.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
 
     Viene visualizzato un messaggio informativo che mostra l'ID ondata e spedizione creati. Viene inoltre creata un'ondata di rifornimento.
 
@@ -224,11 +225,11 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 #### <a name="view-work-details"></a>Visualizzare i dettagli del lavoro
 
 1. Vai a **Gestione magazzino \> Lavoro \> Dettagli lavoro**.
-1. Nella sezione **Panoramica**, filtrare la colonna **Magazzino** per il magazzino *61*.
+1. Nella sezione **Panoramica** , filtrare la colonna **Magazzino** per il magazzino *61*.
 1. Dovresti vedere che sono stati creati sette ID lavoro per i tre ordini cliente della domanda.
 
     - Tre dei sette ID lavoro hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* e quattro hanno un valore **Tipo di ordine di lavoro** di *Ordini di vendita*.
-    - Tutti e tre gli ID lavoro che hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* hanno le stesse ubicazioni *Preleva* e *Inserisci* nella sezione **Righe**:
+    - Tutti e tre gli ID lavoro che hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* hanno le stesse ubicazioni *Preleva* e *Inserisci* nella sezione **Righe** :
 
         - **Preleva:** *02A01R5S1B*
         - **Inserisci:** *06A01R2S1B*
@@ -254,8 +255,8 @@ Per trovare gli ID targa necessari in seguito, attenersi alla seguente procedura
 
 1. Selezionare **Applica**.
 1. Nel riquadro azioni selezionare **Dimensioni**.
-1. Nella finestra di dialogo **Visualizzazione delle dimensioni**, **Dimensioni di immagazzinamento**, selezionare tutti i valori.
-1. Nella sezione **Transazioni**, selezionare **Codice articolo** e **Quantità \<\> 0**.
+1. Nella finestra di dialogo **Visualizzazione delle dimensioni** , **Dimensioni di immagazzinamento** , selezionare tutti i valori.
+1. Nella sezione **Transazioni** , selezionare **Codice articolo** e **Quantità \<\> 0**.
 1. Al termine, selezionare **OK** per chiudere la finestra di dialogo.
 1. La griglia **Disponibilità** mostra i numeri di targa per l'articolo *T0100* in ogni ubicazione. Prendere nota della targa che si trova in ogni ubicazione, perché questa informazione sdarà necessaria in seguito.
 1. Chiudere la pagina.
@@ -271,7 +272,7 @@ Verrà eseguito il rifornimento dell'ubicazione di magazzino per i primi due ID 
 
     Viene richiesto di completare il primo lavoro di rifornimento. Vengono visualizzati il numero, la quantità e l'ubicazione di prelievo dell'articolo.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 1. Selezionare il pulsante **OK** (simbolo del segno di spunta).
 
     Il sistema genera un numero di targa di destinazione per la nuova targa per l'articolo selezionato.
@@ -306,12 +307,12 @@ Prima che l'attività di rifornimento rimanente possa essere completata, le scor
 
     La pagina delle attività **Ordini cliente: prelievo** mostra il numero di articolo, la quantità e l'ubicazione da cui prelevare per la prima ubicazione.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 1. Selezionare il pulsante **OK** (simbolo del segno di spunta).
 
     La pagina delle attività **Ordini cliente: prelievo** mostra il numero di articolo, la quantità e l'ubicazione da cui prelevare per la successiva ubicazione.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 1. Selezionare il pulsante **OK** (simbolo del segno di spunta).
 
     La pagina **Ordini cliente: inserisci** indica di stoccare entrambi i lavori di prelievo completati nell'ubicazione di staging in uscita.
@@ -328,7 +329,7 @@ Prima che l'attività di rifornimento rimanente possa essere completata, le scor
 
     La pagina delle attività **Ordini cliente: prelievo** mostra il numero di articolo, la quantità e l'ubicazione da cui prelevare.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 
     La targa specificata sarà una delle targhe generate dal sistema dalle attività di lavoro di rifornimento. Per assicurarsi di acquisire l'ID targa corretto, controllare il livello di scorte nella pagibna **Scorte disponibili** per l'articolo, l'ubicazione e la quantità.
 
@@ -348,7 +349,7 @@ L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimen
 
     La pagina delle attività **Ordini cliente: prelievo** mostra il numero di articolo, la quantità e l'ubicazione da cui prelevare.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 
     La targa specificata sarà una delle targhe generate dal sistema dalle attività di lavoro di rifornimento. Per assicurarsi di acquisire l'ID targa corretto, controllare il livello di scorte nella pagibna **Scorte disponibili** per l'articolo, l'ubicazione e la quantità.
 
@@ -360,7 +361,7 @@ L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimen
 
 Non appena la somma della quantità disponibile nell'ubicazione di prelievo e la quantità di rifornimento è inferiore alla soglia, sarà possibile elaborare il restante lavoro di rifornimento.
 
-Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine di vendita 2) è *Aperto*, perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
+Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine di vendita 2) è *Aperto* , perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
 
 Ora puoi elaborare questo lavoro di rifornimento tramite il dispositivo mobile.
 
@@ -368,7 +369,7 @@ Ora puoi elaborare questo lavoro di rifornimento tramite il dispositivo mobile.
 
     Viene richiesto di completare il lavoro di rifornimento rimanente. Vengono visualizzati il numero, la quantità e l'ubicazione di prelievo dell'articolo.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 1. Selezionare il pulsante **OK** (simbolo del segno di spunta).
 
     Il sistema genera un numero di targa di destinazione per la nuova targa per l'articolo selezionato.
@@ -391,7 +392,7 @@ Ora è possibile scegliere l'ordine cliente 2. Si è sbloccato quando sono stati
 
     La pagina delle attività **Ordini cliente: prelievo** mostra il numero di articolo, la quantità e l'ubicazione da cui prelevare.
 
-1. Nel campo **Targa**, immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
+1. Nel campo **Targa** , immettere il numero di targa per l'articolo nell'ubicazione visualizzata.
 
     La targa specificata sarà la targa generata dal sistema dall'attività di lavoro di rifornimento. Per assicurarsi di acquisire l'ID targa corretto, controllare il livello di scorte nella pagibna **Scorte disponibili** per l'articolo, l'ubicazione e la quantità.
 

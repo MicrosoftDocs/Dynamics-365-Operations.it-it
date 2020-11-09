@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8320c8aab82a39a8a5565e6b3e805e1065c67453
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016818"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
 
@@ -39,7 +39,7 @@ Lo scenario qui descritto presuppone che tu abbia già attivato la funzione, ese
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Attiva la funzionalità dei criteri di consolidamento delle spedizioni manuali
 
-Prima di poter usare la funzionalità *Consolidamento spedizione manuale*, devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter usare la funzionalità *Consolidamento spedizione manuale* , devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Consolidamento spedizione manuale*
@@ -63,10 +63,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 #### <a name="sales-order-1-3"></a>Ordine cliente 1-3
 
@@ -77,17 +77,17 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 1. Aggiungi una seconda riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0002* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0002* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
     - **Modalità di consegna:** *Airwa-Air*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi, nel riquadro azioni, seleziona **Prenota lotto** per prenotare la seconda riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi, nel riquadro azioni, seleziona **Prenota lotto** per prenotare la seconda riga dell'ordine.
 
 ### <a name="create-order-set-2"></a>Crea un insieme di ordini 2
 
@@ -100,17 +100,17 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile*)
+    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile* )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 1. Aggiungi una seconda riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo*)
+    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo* )
     - **Quantità:** *1.00*
     - **Modalità di consegna:** *Airwa-Air*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi, nel riquadro azioni, seleziona **Prenota lotto** per prenotare la seconda riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi, nel riquadro azioni, seleziona **Prenota lotto** per prenotare la seconda riga dell'ordine.
 
 ### <a name="create-order-set-3"></a>Crea un insieme di ordini 3
 
@@ -123,10 +123,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 #### <a name="sales-orders-3-3-and-3-4"></a>Ordini cliente 3-3 e 3-4
 
@@ -137,10 +137,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 ### <a name="create-order-set-4"></a>Crea un insieme di ordini 4
 
@@ -152,10 +152,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 #### <a name="sales-orders-4-3-and-4-4"></a>Ordini cliente 4-3 e 4-4
 
@@ -165,10 +165,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 #### <a name="sales-orders-4-5-and-4-6"></a>Ordini cliente 4-5 e 4-6
 
@@ -181,10 +181,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 #### <a name="sales-orders-4-7-and-4-8"></a>Ordini cliente 4-7 e 4-8
 
@@ -197,10 +197,10 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 ## <a name="release-the-orders-to-the-warehouse"></a>Rilascia gli ordini al magazzino
 
@@ -208,14 +208,14 @@ Segui questi passaggi per rilasciare ciascun ordine cliente creato per questo sc
 
 1. Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente**.
 1. Trova e seleziona l'ordine cliente da rilasciare.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Azioni \> Rilascia in magazzino** per rilasciare l'ordine cliente selezionato.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Azioni \> Rilascia in magazzino** per rilasciare l'ordine cliente selezionato.
 1. Ripeti questa procedura per ogni altro ordine cliente creato per questo scenario.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
 
 1. Vai a **Gestione magazzino \> Rilascia in magazzino \> Workbench consolidamento spedizione**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor delle query, nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
+1. Nella finestra di dialogo dell'editor delle query, nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
 
     - **Tabella:** *Ordini cliente*
     - **Campo:** *Ordine cliente*
@@ -238,7 +238,7 @@ La seguente procedura consente di verificare le spedizioni che sono state create
 Dovrebbero essere state create due spedizioni:
 
 - La prima spedizione contiene tre righe ed è stata creata utilizzando il criterio di consolidamento della spedizione *CustomerMode*.
-- La seconda spedizione, che non utilizza la modalità di trasporto della consegna *Airways*, è stata creata utilizzando i criteri di consolidamento della spedizione *CustomerOrderNo*.
+- La seconda spedizione, che non utilizza la modalità di trasporto della consegna *Airways* , è stata creata utilizzando i criteri di consolidamento della spedizione *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Spedizioni correlate per insiemi di ordini 2
 

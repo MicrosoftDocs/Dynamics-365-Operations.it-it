@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
+ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967260"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3999551"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -129,7 +129,7 @@ Report finanziari fornisce 22 report finanziari predefiniti. Ogni report utilizz
 | Fondi budget disponibili - Predefinito                         | Consente di visualizzare un confronto dettagliato del budget rivisto, delle spese effettive, delle prenotazioni budget e dei fondi budget disponibili per tutti i conti                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Apertura report finanziari
-Quando si seleziona il menu **Report finanziari**, l'elenco dei report finanziari predefiniti per la società viene visualizzato. È quindi possibile aprire o modificare un report. Per aprire uno dei report predefiniti, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2019, il report viene generato per il 31 luglio 2019. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
+Quando si seleziona il menu **Report finanziari** , l'elenco dei report finanziari predefiniti per la società viene visualizzato. È quindi possibile aprire o modificare un report. Per aprire uno dei report predefiniti, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2019, il report viene generato per il 31 luglio 2019. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Creazione e modifica di report finanziari
 Nell'elenco dei report finanziari, è possibile creare un nuovo report o modificare un report esistente. Se si dispone delle autorizzazioni appropriate, è possibile creare un nuovo report finanziario selezionando **Nuovo** nel riquadro azioni. Viene scaricato un programma di progettazione nel dispositivo. Dopo aver avviato la progettazione report, è possibile creare il nuovo report. Dopo aver salvato il nuovo report, verrà visualizzato nell'elenco dei report finanziari. Nell'elenco vengono visualizzati solo i report creati per la società utilizzata in Dynamics 365 Finance. 
@@ -145,8 +145,8 @@ Esistono alcuni problemi comuni che possono causare problemi quando si apre Prog
 
 Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **Modifica**.
 
-* In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona**, immettere "\*\.dynamics.com" (senza virgolette) quindi selezionare **Aggiungi**. 
-* In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
+* In Internet Explorer, selezionare **Impostazioni** , quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona** , immettere "\*\.dynamics.com" (senza virgolette) quindi selezionare **Aggiungi**. 
+* In Internet Explorer, selezionare **Impostazioni** , quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
 * Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.6.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
 * Se si utilizza Microsoft Edge con browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. 
@@ -154,14 +154,14 @@ Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **
      2. Immetti **edge://flags** e premi **INVIO**.
      3. Cerca l'opzione **Supporto ClickOnce** o utilizza questo collegamento diretto: **edge://flags/#edge-click-once**.
      4. Impostare l'opzione del menu a discesa su **Abilitato**.
-     5. Seleziona **Riavvia browser**.
+     5. Selezionare **Riavvia browser**.
 
 Problema 2: all'utente non sono state assegnate le autorizzazioni necessarie per utilizzare Financial Reporting. 
 
 * Per verificare se l'utente non dispone dell'autorizzazione, selezionare **Sì** nell'errore "Impossibile connettersi al server di Financial Reporting. Selezionare Sì se si desidera continuare e specificare un indirizzo server diverso." Quindi selezionare **Test connessione**. Se non si dispone dell'autorizzazione, verrà visualizzato il messaggio "Tentativo di connessione non riuscito. L'utente non dispone delle autorizzazioni appropriate per connettersi al server. Contattare l'amministratore di sistema."
 * Le autorizzazioni necessarie sono elencate sopra in [Concessione dell'accesso di sicurezza a Financial Reporting](#granting-security-access-to-financial-reporting). La sicurezza in Financial Reporting è basata su questi privilegi. Non si avrà accesso se non si hanno questi privilegi (o un altro ruolo di sicurezza che include questi privilegi). 
 * L'attività di integrazione **Provider utenti azienda a azienda** (che corrisponde anche all'integrazione dell'utente) viene eseguita con un intervallo di 5 minuti. Potrebbero essere necessari fino a 10 minuti affinché le modifiche alle autorizzazioni diventino effettive in Financial Reporting. 
-  Se un altro utente può aprire Progettazione report, selezionare **Strumenti**, quindi selezionare **Stato integrazione**. Verificare che la mappa di integrazione "Provider di utenti della società alla società" sia stata eseguita correttamente in quanto si dispone dell'autorizzazione per utilizzare Financial Reporting. 
+  Se un altro utente può aprire Progettazione report, selezionare **Strumenti** , quindi selezionare **Stato integrazione**. Verificare che la mappa di integrazione "Provider di utenti della società alla società" sia stata eseguita correttamente in quanto si dispone dell'autorizzazione per utilizzare Financial Reporting. 
 * È possibile che un altro errore abbia impedito la conclusione di **Integrazione tra utenti Dynamics e utenti Financial Reporting**. Oppure è possibile che sia stato avviato e non ancora completato un ripristino del datamart o che si sia verificato un altro errore di sistema. Provare a eseguire nuovamente il processo più tardi. Se il problema persiste, contattare l'amministratore di sistema.
 
 Problema 3: è possibile procedere oltre la pagina di accesso di Progettazione report ClickOnce, ma non è possibile completare l'accesso in Progettazione report. 

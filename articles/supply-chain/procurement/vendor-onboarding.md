@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018654"
 ---
 # <a name="onboard-vendors"></a>Inserimento di fornitori
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -102,8 +103,8 @@ Per ulteriori informazioni sulla configurazione della richiesta fornitore, veder
 | Informazioni fornitore         | In questa pagina viene riportato il nome del fornitore, immesso automaticamente dalla richiesta originale di registrazione del fornitore potenziale. È incluso inoltre il numero di organizzazione, il numero di telefono del fornitore, il numero di fax e l'indirizzo di posta elettronica e gli indirizzi del fornitore per diversi scopi. |
 | Informazioni contatto | In questa pagina viene riportato il nome del contatto, immesso automaticamente dalla richiesta originale di registrazione del fornitore potenziale. È incluso inoltre il numero di telefono e l'indirizzo di posta elettronica del contatto e gli indirizzi del contatto per diversi scopi. |
 | Informazioni aziendali       | In questa pagina vengono inclusi i numeri di partita IVA (per vari paesi) e i numeri di dipendenti. Viene inoltre indicato se l'azienda è di proprietà di minoranza. |
-| Categorie di approvvigionamento     | Questa pagina contiene le categorie di approvvigionamento per le quali il fornitore richiede l'approvazione. L'utente può selezionare le categorie nella gerarchia delle categorie di approvvigionamento. È possibile configurare il numero di livelli visualizzati nella gerarchia in &gt; **Parametri di approvvigionamento** **Collaborazione fornitore**, in **Approvvigionamento** &gt; **Impostazione** |
-| Questionari             | La procedura guidata può includere un insieme di questionari per il fornitore. I questionari che vengono visualizzati nella procedura guidata vengono configurati nella richiesta fornitore o per categoria di approvvigionamento. Se i questionari sono configurati per categoria di approvvigionamento, le categorie di approvvigionamento per cui il fornitore richiede l'approvazione determinano i questionari che sono visualizzati nella procedura guidata. Nella pagina **Categorie di approvvigionamento**, è possibile aggiungere un questionario nella categoria rilevante e impostare il tipo di attività come **Integrazione fornitori**. |
+| Categorie di approvvigionamento     | Questa pagina contiene le categorie di approvvigionamento per le quali il fornitore richiede l'approvazione. L'utente può selezionare le categorie nella gerarchia delle categorie di approvvigionamento. È possibile configurare il numero di livelli visualizzati nella gerarchia in &gt; **Parametri di approvvigionamento** **Collaborazione fornitore** , in **Approvvigionamento** &gt; **Impostazione** |
+| Questionari             | La procedura guidata può includere un insieme di questionari per il fornitore. I questionari che vengono visualizzati nella procedura guidata vengono configurati nella richiesta fornitore o per categoria di approvvigionamento. Se i questionari sono configurati per categoria di approvvigionamento, le categorie di approvvigionamento per cui il fornitore richiede l'approvazione determinano i questionari che sono visualizzati nella procedura guidata. Nella pagina **Categorie di approvvigionamento** , è possibile aggiungere un questionario nella categoria rilevante e impostare il tipo di attività come **Integrazione fornitori**. |
 
 Quando l'utente fornitore potenziale completa la procedura guidata di registrazione fornitore, una richiesta fornitore viene creata.
 
@@ -143,7 +144,7 @@ Prima di approvare una richiesta fornitore, nella pagina **Nuovo fornitore** nel
 
 Se l'utente del fornitore potenziale può accedere a Supply Chain Management come utente di collaborazione fornitore che rappresenta il fornitore, impostare l'autorizzazione di accesso di collaborazione su **Sì**. Per disattivare l'account utente che il fornitore potenziale ha usato per la registrazione, impostare questa autorizzazione su **No**.
 
-Se l'autorizzazione di accesso di collaborazione fornitore è impostata su **Sì**, quando la richiesta fornitore viene approvata, viene inviata una richiesta di modifica dei ruoli utente in modo che l'utente disponga di ruoli definiti per il tipo **Fornitore** in **Ruoli esterni**. Se l'autorizzazione è impostata su **No**, quando la richiesta fornitore viene approvata, viene inviata una richiesta di disattivazione dell'utente. In questo caso, il flusso di lavoro per disattivare una richiesta utente deve essere configurato.
+Se l'autorizzazione di accesso di collaborazione fornitore è impostata su **Sì** , quando la richiesta fornitore viene approvata, viene inviata una richiesta di modifica dei ruoli utente in modo che l'utente disponga di ruoli definiti per il tipo **Fornitore** in **Ruoli esterni**. Se l'autorizzazione è impostata su **No** , quando la richiesta fornitore viene approvata, viene inviata una richiesta di disattivazione dell'utente. In questo caso, il flusso di lavoro per disattivare una richiesta utente deve essere configurato.
 
 Affinché un account fornitore possa essere creato quando viene approvata la richiesta fornitore, la sequenza numerica per la creazione di fornitori dalle richieste fornitore deve essere impostata su **Automatica**.
 

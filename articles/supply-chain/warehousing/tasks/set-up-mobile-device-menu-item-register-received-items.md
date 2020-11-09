@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem, WHSRFMenu
+ms.search.form: WHSRFMenuItem, WHSRFMenu, WHSRFDefaultData
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 25fabeeb9bcedd888cdebc1ffeee9f0aef5b43cd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017439"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
 
@@ -39,15 +39,15 @@ Questo argomento descrive l'impostazione di una voce di menu per dispositivo mob
 3. Digitare un valore nel campo **Nome voce di menu**. Si tratta dell'identificatore univoco per questa voce di menu per dispositivo mobile. Ad esempio, è possibile immettere `My PO registration`.  
 4. Digitare un valore nel campo **Titolo**. Si tratta del titolo visualizzato all'utente nel dispositivo mobile. Ad esempio, è possibile immettere `PO registration`.  
 5. Selezionare **Lavoro** nel campo **Modalità**. La registrazione delle quantità disponibili ricevute per una riga ordine fornitore creerà il lavoro per spostare gli articoli dall'area di ricevimento in magazzino. Il lavoro non viene creato finché gli articoli non sono registrati. Pertanto, lasciare l'opzione **Utilizza lavoro esistente** impostata su **No**.
-6. Nel campo **Processo di creazione lavoro**, nella sezione **Generale**, selezionare **Ricevimento articolo ordine acquisto**.
+6. Nel campo **Processo di creazione lavoro** , nella sezione **Generale** , selezionare **Ricevimento articolo ordine acquisto**.
     - Una riga ordine fornitore deve essere identificata in modo univoco prima che la disponibilità possa essere registrata nel magazzino. In questo scenario, il dispositivo mobile registrerà il numero dell'ordine fornitore e il numero di articolo e ciò permetterà al sistema di identificare la riga PO. Il lavoro di stoccaggio verrà creato e può essere prelevato da un altro lavoratore. Il metodo della creazione di lavoro selezionato determina quali campi diventano disponibili nella Scheda dettaglio **Generale**.  
-    - Se si seleziona l'opzione **Utilizza dati predefiniti**, si abilita il pulsante **Dati predefiniti**. Qui è possibile selezionare i campi per visualizzare i dati solitamente necessari a un lavoratore per svolgere il lavoro giornaliero, in modo che tali valori siano visualizzati sul dispositivo mobile.  
+    - Se si seleziona l'opzione **Utilizza dati predefiniti** , si abilita il pulsante **Dati predefiniti**. Qui è possibile selezionare i campi per visualizzare i dati solitamente necessari a un lavoratore per svolgere il lavoro giornaliero, in modo che tali valori siano visualizzati sul dispositivo mobile.  
     - Il parametro **Raggruppamento targa** funziona congiuntamente al gruppo di sequenze unità assegnato all'articolo ricevuto. È possibile specificare se le entrate minori o maggiori di un pallet vengono raggruppate in un'unica targa o suddivise in una targa separata per ogni unità.  
-    - Se si seleziona l'opzione **Genera targa**, questa genera un numero di identificazione univoco basato sulla selezione della sequenza numerica.  
+    - Se si seleziona l'opzione **Genera targa** , questa genera un numero di identificazione univoco basato sulla selezione della sequenza numerica.  
     - È possibile selezionare il modello da utilizzare quando il lavoro viene creato. Ad esempio, se si registra un articolo per un ordine fornitore, il lavoro di stoccaggio viene generato in base al modello di lavoro. Se non si seleziona un modello di lavoro in questo campo, il sistema assegnerà un modello in base ai criteri di query associati ai modelli.  
     - Se i codici smaltimento vengono visualizzati sul dispositivo mobile, i lavoratori possono valutare lo stato o la qualità degli articoli e selezionare il codice appropriato. Le regole del codice di smaltimento determinano se gli articoli sono disponibili per altri processi di magazzino. Le regole determinano anche la direttiva ubicazione utilizzata per il lavoro creato.   
-    - Se si seleziona l'opzione **Codici smaltimento batch**, i lavoratori possono valutare lo stato o la qualità di un batch e selezionare il codice smaltimento appropriato. Le regole impostate per il codice di smaltimento batch determinano se il batch sarà disponibile per altri processi di magazzino.  
-    - Se si seleziona l'opzione **Stampa etichette**, un'etichetta di targa verrà stampata automaticamente quando gli articoli vengono ricevuti.  
+    - Se si seleziona l'opzione **Codici smaltimento batch** , i lavoratori possono valutare lo stato o la qualità di un batch e selezionare il codice smaltimento appropriato. Le regole impostate per il codice di smaltimento batch determinano se il batch sarà disponibile per altri processi di magazzino.  
+    - Se si seleziona l'opzione **Stampa etichette** , un'etichetta di targa verrà stampata automaticamente quando gli articoli vengono ricevuti.  
 7. Selezionare **Salva**.
 8. Chiudere la pagina.
 

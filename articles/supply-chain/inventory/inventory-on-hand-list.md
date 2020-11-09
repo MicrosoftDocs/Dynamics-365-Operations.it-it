@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017393"
 ---
 # <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
 
@@ -39,8 +39,8 @@ Utilizzare i seguenti strumenti per trovare il set di prodotti che si sta cercan
 
 - Nel riquadro azioni selezionare [**Dimensioni**](#dimensions) per aprire una finestra di dialogo in cui è possibile aggiungere o rimuovere le colonne mostrate nella griglia **Disponibilità**.
 - Nel [riquadro **Filtri**](#filters-pane), immettere i valori per i campi specifici per mostrare solo i record che corrispondono a tali valori. Tenere presente che i filtri qui definiti si applicano alle tabelle di origine che potrebbero essere aggregate in un secondo momento, in base alle dimensioni selezionate per la visualizzazione. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
-- Nel riquadro **Filtri**, selezionare **Applica** per generare l'elenco di scorte disponibili corrispondente nella griglia **Disponibilità**.
-- Nella griglia **Disponibilità**, selezionare un'intestazione di colonna per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+- Nel riquadro **Filtri** , selezionare **Applica** per generare l'elenco di scorte disponibili corrispondente nella griglia **Disponibilità**.
+- Nella griglia **Disponibilità** , selezionare un'intestazione di colonna per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
 
 Per ogni elemento corrispondente, la griglia **Disponibilità** fornisce le seguenti colonne di informazioni sulle scorte.
 
@@ -53,15 +53,15 @@ Per ogni elemento corrispondente, la griglia **Disponibilità** fornisce le segu
 | Ordinata in totale | La quantità totale inclusa negli ordini in entrata o che presenta una quantità positiva in vari giornali di registrazione magazzino. |
 | Merci ordinate in corso di consegna | La quantità totale inclusa negli ordini in uscita o che presenta una quantità negativa in vari giornali di registrazione magazzino. |
 | Ordinato prenotato | Quantità totale prenotata sulle entrate ordinate. Il valore in questo campo rappresenta la quantità totale di articoli in transazioni in uscita con uno stato di _Ordinato prenotato_. Gli articoli prenotati come ordinati non sono fisicamente disponibili in magazzino. Pertanto, non possono essere prelevati e consegnati direttamente. |
-| Disponibile per prenotazione | Quantità totale di scorte disponibili che può essere prenotata.<p>**Nota:** se la casella di controllo **Prenota articoli ordinati** è selezionata nella pagina **Parametri di gestione articoli e magazzino**, il valore in questo campo include le entrate previste. Se la casella di controllo è deselezionata, il valore esclude le entrate previste.</p> |
+| Disponibile per prenotazione | Quantità totale di scorte disponibili che può essere prenotata.<p>**Nota:** se la casella di controllo **Prenota articoli ordinati** è selezionata nella pagina **Parametri di gestione articoli e magazzino** , il valore in questo campo include le entrate previste. Se la casella di controllo è deselezionata, il valore esclude le entrate previste.</p> |
 | Totale disponibile | Quantità totale disponibile.<p>**Totale disponibile** è un campo calcolato. Il valore è uguale al valore **Fisico disponibile** più il valore **Ordinata in totale** meno il valore **In ordinazione**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Applicare i filtri per trovare i record che si stanno cercando
 
 Utilizzare il riquadro **Filtri** per filtrare l'elenco di scorte disponibili in modo che includa solo i record in cui i valori dei campi corrispondono ai criteri di filtro. Per definire un filtro, seguire questi passaggi.
 
-1. Nel riquadro **Filtri**, trovare il campo in base al quale filtrare.
-2. Nel campo sotto il nome del campo di destinazione, selezionare un operatore logico (ad esempio, *inizia con*, *uguale a* o *maggiore di*).
+1. Nel riquadro **Filtri** , trovare il campo in base al quale filtrare.
+2. Nel campo sotto il nome del campo di destinazione, selezionare un operatore logico (ad esempio, *inizia con* , *uguale a* o *maggiore di* ).
 3. Immettere o selezionare il valore da cercare.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Utilizzare il riquadro **Filtri** per filtrare l'elenco di scorte disponibili in
 
 È possibile modificare il set di filtri disponibile nel riquadro **Filtri** seguendo questi passaggi.
 
-- Per rimuovere un filtro dal riquadro, selezionare il relativo pulsante **Chiudi** (**X**).
+- Per rimuovere un filtro dal riquadro, selezionare il relativo pulsante **Chiudi** ( **X** ).
 - Per aggiungere un filtro, selezionare **Aggiungi** nella parte superiore del riquadro **Filtri**. La finestra di dialogo **Aggiungi campi filtro** che appare mostra un elenco dei campi disponibili. Mostra anche informazioni sul tipo di dati e la tabella per ciascun campo. Utilizzare le intestazioni di colonna per filtrare e ordinare l'elenco come richiesto, quindi selezionare la casella di controllo per ciascun campo che si desidera aggiungere al riquadro **Filtro**. Al termine, selezionare **Inserisci** per applicare le modifiche.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selezionare le dimensioni da mostrare
@@ -87,7 +87,7 @@ Per personalizzare la selezione delle dimensioni inventariali visualizzata, atte
     La finestra di dialogo **Visualizzazione dimensioni** che appare mostra ogni dimensione.
 
 2. Selezionare le caselle di controllo corrispondenti alle dimensioni che si desidera includere nella griglia.
-3. Se si desidera che la selezione venga utilizzata per impostazione predefinita alla successiva apertura della pagina **Elenco scorte disponibili**, impostare l'opzione **Salva impostazione** su **Sì**. Se si imposta questa opzione su **No**, la selezione verrà utilizzata solo durante la sessione corrente. Pertanto, alla successiva apertura della pagina, verrà utilizzata la selezione predefinita corrente.
+3. Se si desidera che la selezione venga utilizzata per impostazione predefinita alla successiva apertura della pagina **Elenco scorte disponibili** , impostare l'opzione **Salva impostazione** su **Sì**. Se si imposta questa opzione su **No** , la selezione verrà utilizzata solo durante la sessione corrente. Pertanto, alla successiva apertura della pagina, verrà utilizzata la selezione predefinita corrente.
 4. Seleziona **OK** per chiudere la finestra di dialogo e applicare le modifiche.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtro sull'output dell'elenco scorte disponibili
@@ -115,7 +115,7 @@ La pagina **Elenco scorte disponibili** è impostata per mostrare le seguenti di
 - Sito
 - Magazzino
 
-Nel riquadro **Filtri**, sono impostati i seguenti criteri di filtro:
+Nel riquadro **Filtri** , sono impostati i seguenti criteri di filtro:
 
 - **Numero articolo** \| **è esattamente** \| _IA0001_
 - **Fisico disponibile** \| **inferiore o uguale a** \| _1_
@@ -134,7 +134,7 @@ La pagina **Elenco scorte disponibili** è impostata per mostrare le seguenti di
 - Numero articolo
 - Sito
 
-Nel riquadro **Filtri**, sono impostati i seguenti criteri di filtro:
+Nel riquadro **Filtri** , sono impostati i seguenti criteri di filtro:
 
 - **Numero articolo** \| **è esattamente** \| _IA0001_
 - **Fisico disponibile** \| **inferiore o uguale a** \| _1_
@@ -145,4 +145,4 @@ Ecco l'output risultante.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Si noti che le impostazioni nel riquadro **Filtri** si applicano alla tabella di scorte dettagliata (non aggregata) mostrata all'inizio di questa sezione. Pertanto, il criterio **Fisico disponibile** \| **inferiore o uguale a** \| _1_ trova due righe di quella tabella (la prima e la terza riga, ognuna delle quali mostra un valore **Fisico disponibile** di _1_). Tuttavia, in questo scenario, la pagina **Elenco scorte disponibili** non è impostata per mostrare la dimensione **Magazzino**. Pertanto, aggrega le due righe originali in una singola riga risultante, poiché entrambe le righe hanno valori identici in tutte le dimensioni visualizzate. Questa riga sembra violare il criterio di filtro, perché il valore **Fisico disponibile** è mostrato come _2_. Tuttavia, il risultato è corretto, perché le impostazioni nel riquadro **Filtri** si applicano alla tabella di origine, non alla tabella aggregata mostrata nella pagina **Elenco scorte disponibili**.
+Si noti che le impostazioni nel riquadro **Filtri** si applicano alla tabella di scorte dettagliata (non aggregata) mostrata all'inizio di questa sezione. Pertanto, il criterio **Fisico disponibile** \| **inferiore o uguale a** \| _1_ trova due righe di quella tabella (la prima e la terza riga, ognuna delle quali mostra un valore **Fisico disponibile** di _1_ ). Tuttavia, in questo scenario, la pagina **Elenco scorte disponibili** non è impostata per mostrare la dimensione **Magazzino**. Pertanto, aggrega le due righe originali in una singola riga risultante, poiché entrambe le righe hanno valori identici in tutte le dimensioni visualizzate. Questa riga sembra violare il criterio di filtro, perché il valore **Fisico disponibile** è mostrato come _2_. Tuttavia, il risultato è corretto, perché le impostazioni nel riquadro **Filtri** si applicano alla tabella di origine, non alla tabella aggregata mostrata nella pagina **Elenco scorte disponibili**.

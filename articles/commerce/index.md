@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024662"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107163"
 ---
 # <a name="commerce-home-page"></a>Home page di Commerce
-
 
 [!include [banner](includes/banner.md)]
 
@@ -36,7 +35,7 @@ Dynamics 365 Commerce si basa sulle funzionalità consolidate di Dynamics 365 Re
 
 Questa versione consente di creare esperienze digitali utilizzando strumenti di sviluppo e creazione Web incorporati per produrre vetrine virtuali digitali intelligenti e coinvolgenti. Una piattaforma di commercio marketing e headless connessa favorisce ulteriormente la gestione trasparente di contenuti, asset, promozioni, scorte e prezzi in tutti i canali.
 
-- **Tutto per generare ed effettuare attività commerciali digitali**: semplificare la soluzione commerciale aziendale ed end-to-end che si adatta alle proprie esigenze nei canali tradizionali ed emergenti. Strumenti di creazione e sviluppo Web incorporati consentono di creare vetrine virtuali digitali intelligenti e coinvolgenti, mentre una piattaforma commerciale marketing e headless connessa permette la gestione trasparente di contenuto, asset, promozioni, scorte e prezzi nei canali.
+- **Tutto per generare ed effettuare attività commerciali digitali** : semplificare la soluzione commerciale aziendale ed end-to-end che si adatta alle proprie esigenze nei canali tradizionali ed emergenti. Strumenti di creazione e sviluppo Web incorporati consentono di creare vetrine virtuali digitali intelligenti e coinvolgenti, mentre una piattaforma commerciale marketing e headless connessa permette la gestione trasparente di contenuto, asset, promozioni, scorte e prezzi nei canali.
 
 - **Fidelizzare i clienti e superarne le aspettative:** utilizzare strumenti di gestione dei clienti per ottenere una visione completa del cliente e soddisfarne le esigenze a ogni livello di impegno, in base a profilo, storia e preferenze dello stesso nei canali fisici e digitali. Incoraggiare i propri dipendenti a favorire relazioni durevoli mediante suggerimenti basati sull'intelligenza artificiale, informazioni dettagliate sui clienti e programmi fedeltà che aumentano l'appeal del marchio.
 

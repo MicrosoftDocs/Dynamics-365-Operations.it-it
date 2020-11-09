@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d8c2da17d4e3df37c55844f0aad00f883725f741
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
+ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989280"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000980"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornire guide alla realtà mista per i lavoratori nei reparti di produzione
 
@@ -124,7 +124,7 @@ Per configurare la modalità di visualizzazione delle guide nell'officina, vai a
 
 Imposta i seguenti campi:
 
-- **Sottodominio ambiente CDS** - Questo campo dovrebbe già contenere un valore. Questo campo indica il sottodominio dell'ambiente Common Data Service in cui crei le guide. Il sottodominio è la prima parte dell'URL e in genere prende il nome dell'organizzazione. Ad esempio, se l'URL di Common Data Service è "contoso.crm4.dynamics.com", qui devi inserire *contoso*. Questo valore viene utilizzato per comporre gli indirizzi per le guide e verrà codificato nei codici a matrice.
+- **Sottodominio Common Data Service** - Questo campo deve già contenere un valore. Questo campo indica il sottodominio dell'ambiente Common Data Service in cui crei le guide. Il sottodominio è la prima parte dell'URL e in genere prende il nome dell'organizzazione. Ad esempio, se l'URL di Common Data Service è "contoso.crm4.dynamics.com", qui devi inserire *contoso*. Questo valore viene utilizzato per comporre gli indirizzi per le guide e verrà codificato nei codici a matrice.
 - **Dimensione codice a matrice** - Imposta la dimensione del codice a matrice di cui viene eseguito il rendering. Ti consigliamo di scegliere una dimensione che riempia la maggior parte dello schermo, ma non di più. *15* è in genere un buon valore.
 - **Livello di correzione errori codice a matrice** - Imposta la granularità del codice a matrice. Una granularità più elevata può aumentare l'affidabilità del codice, ma il valore di **Dimensione codice a matrice** deve essere abbastanza grande da supportare il livello di dettaglio richiesto dal livello di correzione selezionato.
 
@@ -196,7 +196,7 @@ Per aggiungere una guida a un prodotto rilasciato:
 
 1. Vai a **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
 1. Apri il prodotto a cui desideri assegnare una guida.
-1. Nel riquadro azioni, apri la scheda **Progettazione** e, nel gruppo **Visualizza**, seleziona **Guide associate**.
+1. Nel riquadro azioni, apri la scheda **Progettazione** e, nel gruppo **Visualizza** , seleziona **Guide associate**.
 1. Viene aperta la pagina **Guide associate** per il prodotto selezionato.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia. 
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
@@ -248,8 +248,8 @@ Per aggiungere una guida a una versione di formula:
 1. Vai a **Gestione informazioni sul prodotto \> Distinte base e formule \> Formule**.
 1. Apri la formula che include una versione a cui desideri assegnare una guida.
 1. Apri la scheda **Intestazione** sopra la Scheda dettaglio superiore.
-1. Nella Scheda dettaglio **Versioni formula**, seleziona la versione a cui si desidera assegnare una guida.
-1. Nella barra degli strumenti **Versioni formula**, seleziona **Guide associate**.
+1. Nella Scheda dettaglio **Versioni formula** , seleziona la versione a cui si desidera assegnare una guida.
+1. Nella barra degli strumenti **Versioni formula** , seleziona **Guide associate**.
     ![Aprire le guide associate a una versione di formula selezionata](media/instruction-guides-FormulaVersion.png "Aprire le guide associate a una versione di formula selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di formula.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia. 
@@ -297,8 +297,8 @@ Per aggiungere una guida a una versione di distinta materiali:
 1. Vai a **Gestione informazioni sul prodotto \> Distinte base e formule \> Distinte base**.
 1. Apri la distinta materiali che include una versione a cui desideri assegnare una guida.
 1. Apri la scheda **Intestazione** sopra la Scheda dettaglio superiore.
-1. Nella Scheda dettaglio **Versioni DBA**, seleziona la versione a cui desideri assegnare una guida.
-1. Nella barra degli strumenti **Versioni DBA**, seleziona **Guide associate**.
+1. Nella Scheda dettaglio **Versioni DBA** , seleziona la versione a cui desideri assegnare una guida.
+1. Nella barra degli strumenti **Versioni DBA** , seleziona **Guide associate**.
     ![Aprire le guide associate a una versione di DBA selezionata](media/instruction-guides-BOMVersion.png "Aprire le guide associate a una versione di DBA selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di DBA.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia.
@@ -340,8 +340,8 @@ Per aggiungere una guida a una versione di ciclo di lavorazione:
 
 1. Vai a **Controllo produzione \> Tutti i cicli di lavorazione**.
 1. Apri il ciclo di lavorazione a cui desideri assegnare una guida.
-1. Nella Scheda dettaglio **Versioni**, seleziona la versione a cui desideri assegnare una guida.
-1. Nella barra degli strumenti **Versioni**, seleziona **Guide associate**.
+1. Nella Scheda dettaglio **Versioni** , seleziona la versione a cui desideri assegnare una guida.
+1. Nella barra degli strumenti **Versioni** , seleziona **Guide associate**.
     ![Aprire le guide associate a una versione di ciclo di lavorazione selezionata](media/instruction-guides-RouteVersion.png "Aprire le guide associate a una versione di ciclo di lavorazione selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di DBA.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia.
@@ -365,7 +365,7 @@ Per aggiungere una guida a una relazione operativa di ciclo di lavorazione:
 
 1. Vai a **Controllo produzione \> Tutti i cicli di lavorazione**.
 1. Apri il ciclo di lavorazione a cui desideri assegnare una guida.
-1. Nel riquadro azioni, apri la scheda **Ciclo di lavorazione** e, nel gruppo **Gestisci**, seleziona **Dettagli ciclo di lavorazione**.
+1. Nel riquadro azioni, apri la scheda **Ciclo di lavorazione** e, nel gruppo **Gestisci** , seleziona **Dettagli ciclo di lavorazione**.
 1. Viene aperta la pagina **Dettagli ciclo di lavorazione** per il ciclo di lavorazione selezionato.
 1. Nella griglia in alto, seleziona l'operazione per cui desideri fornire linee guida.
 1. Nella griglia inferiore, seleziona una relazione specifica (o la relazione **Tutto** generica).

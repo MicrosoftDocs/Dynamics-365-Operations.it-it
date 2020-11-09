@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 10eb32f75ccfe1521af9ebfe1e73ef08ea4238f7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597547"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017830"
 ---
 # <a name="put-to-wall---put-to-store"></a>Stoccaggio a parete - stoccaggio in magazzino
 
@@ -34,12 +35,12 @@ Questa funzionalità di magazzino è anche indicata con altri nomi, ad esempio "
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Attivare la funzionalità Ordinamento in uscita
 
-Prima di poter usare la funzionalità *Stoccaggio a parete - stoccaggio in magazzino*, è necessario attivare la funzionalità *Ordinamento in uscita* nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Prima di poter usare la funzionalità *Stoccaggio a parete - stoccaggio in magazzino* , è necessario attivare la funzionalità *Ordinamento in uscita* nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Ordinamento in uscita*
 
-La funzionalità *Ordinamento in uscita* può essere utilizzata insieme alla funzionalità *Codice passaggio ondata a livello di organizzazione* se è attivata. È inoltre necessario attivare questa funzionalità se si useranno codici predefiniti impostati nei codici passaggio ondata. Nell'area di lavoro **Gestione funzionalità**, questa funzione è elencata nel modo seguente:
+La funzionalità *Ordinamento in uscita* può essere utilizzata insieme alla funzionalità *Codice passaggio ondata a livello di organizzazione* se è attivata. È inoltre necessario attivare questa funzionalità se si useranno codici predefiniti impostati nei codici passaggio ondata. Nell'area di lavoro **Gestione funzionalità** , questa funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Codice passaggio ondata a livello di organizzazione*
@@ -62,7 +63,7 @@ Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Ve
 ### <a name="warehouse-management-parameters"></a>Parametri di gestione magazzino
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-1. Nella scheda **Generale** della Scheda dettaglio **Tipi di ubicazione**, nel campo **Tipo di ubicazione di ordinamento**, immettere *ORDINAMENTO*.
+1. Nella scheda **Generale** della Scheda dettaglio **Tipi di ubicazione** , nel campo **Tipo di ubicazione di ordinamento** , immettere *ORDINAMENTO*.
 1. Selezionare **Salva**.
 
 ### <a name="location-profile"></a>Profilo dell'ubicazione
@@ -74,7 +75,7 @@ Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Ve
     - **ID profilo ubicazione:** *Ordinamento*
     - **Nome:** *Ordinamento*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Formato ubicazione** *PACK*
     - **Tipo di ubicazione:** *ORDINAMENTO*
@@ -88,7 +89,7 @@ Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Ve
 
 1. Vai a **Gestione magazzino \> Impostazione \> Magazzino \> Ubicazioni**.
 1. Deselezionare la casella di controllo **Genera cifre di controllo per ubicazione**.
-1. Nel riquadro azioni, selezionare **Nuovo**, quindi impostare i seguenti valori:
+1. Nel riquadro azioni, selezionare **Nuovo** , quindi impostare i seguenti valori:
 
     - **Magazzino:** *62*
     - **Ubicazione:** *Ordinamento*
@@ -99,7 +100,7 @@ Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Ve
 ### <a name="packing-profiles"></a>Profili imballaggio
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Imballaggio \> Profili imballaggio**.
-1. Nel riquadro azioni, selezionare **Nuovo**, quindi impostare i seguenti valori:
+1. Nel riquadro azioni, selezionare **Nuovo** , quindi impostare i seguenti valori:
 
     - **ID profilo imballaggio:** *Ordinamento*
     - **Descrizione:** *Ordinamento*
@@ -115,7 +116,7 @@ Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Ve
 Se la funzionalità *Codice passaggio ondata a livello di organizzazione* è stata attivata, impostare il seguente codice.
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Codici passaggio ondata**.
-1. Nel riquadro azioni, selezionare **Nuovo**, quindi impostare i seguenti valori:
+1. Nel riquadro azioni, selezionare **Nuovo** , quindi impostare i seguenti valori:
 
     - **Codice passaggio ondata:** *Ordinamento*
     - **Descrizione passaggio ondata:** *Ordinamento*
@@ -137,13 +138,13 @@ Il modello di ordinamento controlla se vengono create posizioni di ordinamento, 
 
         Questo campo definisce il processo per cui viene utilizzato il modello di ordinamento. Sono disponibili i valori seguenti:
 
-        - **Domanda ondata** - Il modello di ordinamento viene utilizzato per il processo *Stoccaggio a parete*. Questo tipo di modello è utilizzato per ignorare la stazione del collo ed elaborare le scorte direttamente dall'ondata. È possibile utilizzare questo tipo solo se il metodo di elaborazione dell'ondata di **ordinamento**, è incluso nel modello di ondata.
+        - **Domanda ondata** - Il modello di ordinamento viene utilizzato per il processo *Stoccaggio a parete*. Questo tipo di modello è utilizzato per ignorare la stazione del collo ed elaborare le scorte direttamente dall'ondata. È possibile utilizzare questo tipo solo se il metodo di elaborazione dell'ondata di **ordinamento** , è incluso nel modello di ondata.
         - **Contenitore** - Il modello di ordinamento viene utilizzato per il processo *Costruzione di pallet dopo imballaggio*. Questo tipo di modello viene utilizzato per elaborare i contenitori che sono chiusi nel centro di imballaggio e devono essere ordinati in pallet.
 
     - **Magazzino:** *62*
     - **Ubicazione:** *Ordinamento*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Ordina tipo di verifica:** selezionare *Scansione posizione*
 
@@ -155,7 +156,7 @@ Il modello di ordinamento controlla se vengono create posizioni di ordinamento, 
 
     - **Crea lavoro in posizione chiusa:** *Sì*
 
-        Se questa opzione è impostata su *Sì*, quando la posizione è chiusa, verrà creato il lavoro per spostare le scorte nell'ubicazione di spedizione finale. Se è impostata su *No*, le scorte verranno immediatamente prelevate nell'ordine quando la posizione viene chiusa.
+        Se questa opzione è impostata su *Sì* , quando la posizione è chiusa, verrà creato il lavoro per spostare le scorte nell'ubicazione di spedizione finale. Se è impostata su *No* , le scorte verranno immediatamente prelevate nell'ordine quando la posizione viene chiusa.
 
     - **Assegnazione di posizione:** *Manuale*
 
@@ -177,7 +178,7 @@ Il modello di ordinamento controlla se vengono create posizioni di ordinamento, 
 
     - **Chiudi automaticamente posizione ordinamento:** *Sì*
 
-        Se questa opzione è impostata su *Sì*, la posizione di ordinamento verrà chiusa automaticamente quando tutto il lavoro che arriva in quella posizione risulta completato.
+        Se questa opzione è impostata su *Sì* , la posizione di ordinamento verrà chiusa automaticamente quando tutto il lavoro che arriva in quella posizione risulta completato.
 
     - **Numero di posizioni di ordinamento:** *3*
 
@@ -195,8 +196,8 @@ Il modello di ordinamento controlla se vengono create posizioni di ordinamento, 
 
         Questo campo definisce il profilo di imballaggio che verrà utilizzato quando la posizione di ordinamento viene imballata in un contenitore.
 
-1. Nel riquadro azioni selezionare **Modifica query**per specificare i criteri utilizzati per questo modello di ordinamento.
-1. Nella finestra di dialogo della query, nella scheda **Ordinamento**, selezionare **Nuovo** per aggiungere una riga e quindi impostare i seguenti valori:
+1. Nel riquadro azioni selezionare **Modifica query** per specificare i criteri utilizzati per questo modello di ordinamento.
+1. Nella finestra di dialogo della query, nella scheda **Ordinamento** , selezionare **Nuovo** per aggiungere una riga e quindi impostare i seguenti valori:
 
     - **Tabella:** *Carica dettagli*
     - **Tabella derivata:** *Carica dettagli*
@@ -230,16 +231,16 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
 1. Nel campo **Tipo di modello ondata** selezionare *Spedizione*.
 1. Selezionare il modello **62 Spedizione predefinita**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella Scheda dettaglio **Generale**, apportare le seguenti modifiche:
+1. Nella Scheda dettaglio **Generale** , apportare le seguenti modifiche:
 
     - Impostare l'opzione **Elabora ondata al rilascio in magazzino** su *No*.
     - Impostare l'opzione **Assegna a ondate aperte** su *Sì*.
 
 1. Nella scheda dettaglio **Metodi** impostare il metodo **ordinamento**.
 
-    1. Nella griglia **Metodi rimanenti**, selezionare **ordinamento**.
+    1. Nella griglia **Metodi rimanenti** , selezionare **ordinamento**.
     2. Selezionare il pulsante freccia DESTRA per spostare **ordinamento** nella griglia **Metodi selezionati**.
-    3. Nella griglia **Metodi selezionati**, selezionare **ordinamento**.
+    3. Nella griglia **Metodi selezionati** , selezionare **ordinamento**.
     4. Impostare il campo **Codice passaggio ondata** su *Ordinamento*.
 
 1. Selezionare **Salva**.
@@ -255,7 +256,7 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
     - **Modalità:** *Indiretta*
     - **Utilizza lavoro esistente:** *No*
 
-1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
 
     - **Codice attività:** *Ordinamento in uscita*
     - **Usa guida al processo:** *Sì* (valore predefinito)
@@ -268,7 +269,7 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
 1. Accedere a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Menu del dispositivo mobile**.
 1. Nell'elenco dei menu, selezionare **In uscita**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella griglia **Menu e voci di menu disponibili**, trovare e selezionare la voce di menu **Ordina** appena creata.
+1. Nella griglia **Menu e voci di menu disponibili** , trovare e selezionare la voce di menu **Ordina** appena creata.
 1. Selezionare il pulsante freccia DESTRA per spostare **Ordina** nell'elenco **Struttura menu**. In questo modo, si aggiunge la voce di menu al menu **In uscita**.
 1. Selezionare **Salva**.
 
@@ -284,7 +285,7 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
     - **Sequenza:** *1*
     - **Nome:** *Stoccaggio in Portellone*
 
-1. Nella Scheda dettaglio **Direttive ubicazione**, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Direttive ubicazione** , impostare i seguenti valori:
 
     - **Tipo di lavoro:** *Inserire*
     - **Sito:** *6*
@@ -293,21 +294,21 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
     - **Più SKU:** *No*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Righe** disponibile.
-1. Nella Scheda dettaglio **Righe**, selezionare **Nuovo**, quindi impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Righe** , selezionare **Nuovo** , quindi impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Numero progressivo:** *1*
     - **Da quantità:** *0*
     - **A quantità:** *1000000*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Azioni direttiva ubicazione** disponibile.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, selezionare **Nuovo**, quindi impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , selezionare **Nuovo** , quindi impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Numero progressivo:** *1*
     - **Nome:** *Portellone*
 
-1. Selezionare **Salva**per rendere disponibile il pulsante **Modifica query** nella barra degli strumenti **Azioni direttiva ubicazione**.
-1. Nella scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Modifica query**.
-1. Nella finestra di dialogo della query, nella scheda **Intervallo**, trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
+1. Selezionare **Salva** per rendere disponibile il pulsante **Modifica query** nella barra degli strumenti **Azioni direttiva ubicazione**.
+1. Nella scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Modifica query**.
+1. Nella finestra di dialogo della query, nella scheda **Intervallo** , trovare la riga in cui il campo **Campo** è impostato su *Ubicazione*. Impostare il campo **Criteri** per questa riga su *Portellone*.
 1. Selezionare **OK** per confermare la modifica.
 
 ### <a name="work-classes"></a>Classi lavoro
@@ -329,26 +330,26 @@ Modificare il modello di ondata utilizzato per l'ordinamento della domanda ondat
 1. Nella griglia, selezionare il modello di lavoro **62 Prelievo da imballare**.
 1. Nel riquadro azioni, selezionare **Suddivisioni intestazione lavoro**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella riga in cui il campo **Nome campo** è impostato su *ID spedizione*, deselezionare la casella di controllo **Raggruppa per questo campo**.
+1. Nella riga in cui il campo **Nome campo** è impostato su *ID spedizione* , deselezionare la casella di controllo **Raggruppa per questo campo**.
 1. Selezionare **Salva** e quindi chiudere la finestra di dialogo **Suddivisioni intestazione lavoro**.
 1. Nel campo **Tipo ordine di lavoro** selezionare *Prelievo scorte ordinate*.
 1. Selezionare **Nuovo** per creare un modello di lavoro.
-1. Nella sezione **Panoramica**, impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
+1. Nella sezione **Panoramica** , impostare i seguenti valori. Accettare i valori predefiniti per tutti gli altri campi.
 
     - **Modello di lavoro:** *Prelievo ordinato*
     - **Descrizione modello di lavoro:** *Prelievo ordinato*
 
 1. Selezionare **Salva** per rendere disponibile la Scheda dettaglio **Dettagli modello di lavoro** .
-1. Nella sezione **Dettagli modello di lavoro**, si creeranno due righe. Selezionare **Nuovo**, quindi impostare i seguenti valori per la riga 1:
+1. Nella sezione **Dettagli modello di lavoro** , si creeranno due righe. Selezionare **Nuovo** , quindi impostare i seguenti valori per la riga 1:
 
     - **Tipo di lavoro:** *Prelevare*
-    - **Obbligatorio:** Selezionato (= *Sì*)
+    - **Obbligatorio:** Selezionato (= *Sì* )
     - **ID classe lavoro:** *Ordinamento*
 
-1. Selezionare di nuovo **Nuovo**, quindi impostare i seguenti valori per la riga 2:
+1. Selezionare di nuovo **Nuovo** , quindi impostare i seguenti valori per la riga 2:
 
     - **Tipo di lavoro:** *Inserire*
-    - **Obbligatorio:** Selezionato (= *Sì*)
+    - **Obbligatorio:** Selezionato (= *Sì* )
     - **ID classe lavoro:** *Ordinamento*
 
 1. Selezionare **Salva**.
@@ -367,7 +368,7 @@ Prima di creare ordini cliente e spedizioni, verificare che le ubicazioni di pre
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente per ordine 1.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
     - **Cliente:** *US-001*
     - **Magazzino:** *62*
@@ -385,12 +386,12 @@ Prima di creare ordini cliente e spedizioni, verificare che le ubicazioni di pre
 
 1. Ripetere i passaggi seguenti per ciascuna riga di vendita nell'ordine per prenotare le relative scorte:
 
-    1. Nella scheda dettaglio **Righe ordine cliente**, nel menu **Scorte**, seleziona **Prenotazione**.
+    1. Nella scheda dettaglio **Righe ordine cliente** , nel menu **Scorte** , seleziona **Prenotazione**.
     1. Nella pagina **Prenotazione** selezionare **Prenota lotto** e chiudere la pagina.
     1. Selezionare **Salva**.
 
 1. Selezionare **Nuovo** per creare un ordine cliente per ordine 2.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
     - **Cliente:** *US-004*
     - **Magazzino:** *62*
@@ -408,12 +409,12 @@ Prima di creare ordini cliente e spedizioni, verificare che le ubicazioni di pre
 
 1. Ripetere i passaggi seguenti per ciascuna riga di vendita nell'ordine per prenotare le relative scorte:
 
-    1. Nella scheda dettaglio **Righe ordine cliente**, nel menu **Scorte**, seleziona **Prenotazione**.
+    1. Nella scheda dettaglio **Righe ordine cliente** , nel menu **Scorte** , seleziona **Prenotazione**.
     1. Nella pagina **Prenotazione** selezionare **Prenota lotto** e chiudere la pagina.
     1. Selezionare **Salva**.
 
 1. Selezionare **Nuovo** per creare un ordine cliente per ordine 3.
-1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
 
     - **Cliente:** *US-007*
     - **Magazzino:** *62*
@@ -426,7 +427,7 @@ Prima di creare ordini cliente e spedizioni, verificare che le ubicazioni di pre
 
 1. Per prenotare le scorte per la riga di vendita, attenersi alla procedura riportata di seguito.
 
-    1. Nella scheda dettaglio **Righe ordine cliente**, nel menu **Scorte**, seleziona **Prenotazione**.
+    1. Nella scheda dettaglio **Righe ordine cliente** , nel menu **Scorte** , seleziona **Prenotazione**.
     1. Nella pagina **Prenotazione** selezionare **Prenota lotto** e chiudere la pagina.
     1. Selezionare **Salva**.
 
@@ -434,7 +435,7 @@ Completare la seguente procedura per rilasciare ogni ordine cliente al magazzino
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Nella griglia, selezionare il primo ordine cliente creato.
-1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
 
     Viene visualizzato un messaggio informativo che mostra l'ID ondata e l'ID spedizione creati.
 
@@ -448,10 +449,10 @@ Completare la seguente procedura per rilasciare ogni ordine cliente al magazzino
 
     Durante l'elaborazione delle ondate, il metodo di ordinamento utilizzerà il modello di ordinamento per assegnare le scorte alle posizioni di ordinamento. Al termine dell'elaborazione dell'ondata viene visualizzato un messaggio informativo che indica che l'ondata è stata pubblicata e che il lavoro è stato creato.
 
-1. Nel riquadro azioni, nella scheda **Ondata**, nel gruppo **Informazioni correlate**, selezionare **Lavoro** per visualizzare il lavoro creato. Prendere nota dell'ID lavoro.
+1. Nel riquadro azioni, nella scheda **Ondata** , nel gruppo **Informazioni correlate** , selezionare **Lavoro** per visualizzare il lavoro creato. Prendere nota dell'ID lavoro.
 1. Selezionare **Gestione magazzino \> Imballaggio e containerizzazione \> Assegnazioni di posizioni di ordinamento in uscita**.
 1. Nella colonna di sinistra è possibile visualizzare la posizione di ordinamento in uscita creata per ciascuna spedizione.
-1. Nella Scheda dettaglio **Criteri di posizione di ordinamento**, è possibile visualizzare l'ID spedizione per quella posizione.
+1. Nella Scheda dettaglio **Criteri di posizione di ordinamento** , è possibile visualizzare l'ID spedizione per quella posizione.
 
 Un ID lavoro è stato creato per portare le scorte dalle ubicazioni di prelievo all'ubicazione di ordinamento. Per completare il lavoro, sarà necessario l'ID lavoro creato durante l'elaborazione dell'ondata.
 
@@ -459,13 +460,13 @@ Un ID lavoro è stato creato per portare le scorte dalle ubicazioni di prelievo 
 
 1. Accedere all'app per dispositivi mobili come lavoratore nel magazzino *62*.
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Prelievo vendite**.
-1. Selezionare il campo **ID**, quindi immettere l'ID lavoro dall'elaborazione dell'ondata.
+1. Nel menu **In uscita** , selezionare **Prelievo vendite**.
+1. Selezionare il campo **ID** , quindi immettere l'ID lavoro dall'elaborazione dell'ondata.
 1. Conferma l'inserimento.
 
     Successivamente, viene richiesto di immettere una targa di destinazione. Si noti che la riga 1 dell'ordine di vendita 1 è ciò che deve essere prelevato e aggiunto alla targa di destinazione. Vengono visualizzati il numero, la quantità, la descrizione e l'ubicazione di prelievo dell'articolo.
 
-1. Nel campo **Targa destinazione**, immettere il numero di targa di destinazione.
+1. Nel campo **Targa destinazione** , immettere il numero di targa di destinazione.
 
     Si preleveranno tutte le righe create dall'ondata elaborata sulla stessa targa di destinazione.
 
@@ -488,12 +489,12 @@ Ora che tutte le scorte sono state stoccate nella posizione di ordinamento, devo
 
 1. Accedere all'app per dispositivi mobili.
 1. Nel menu principale, selezionare **In uscita**.
-1. Nel menu **In uscita**, selezionare **Ordina** per iniziare a ordinare gli articoli.
-1. Nel campo **TARGA/CON**, immettere la targa di destinazione del lavoro dell'ordine cliente prelevato.
+1. Nel menu **In uscita** , selezionare **Ordina** per iniziare a ordinare gli articoli.
+1. Nel campo **TARGA/CON** , immettere la targa di destinazione del lavoro dell'ordine cliente prelevato.
 1. Conferma l'inserimento.
 1. Immettere il numero di articolo da ordinare per primo.
 1. Il sistema determina la prima posizione di ordinamento che deve essere visualizzata. Confermare la posizione di ordinamento.
-1. Viene richiesto di assegnare una targa alla posizione di ordinamento. Selezionare il campo **TARGA**, immettere un numero di targa, quindi confermare l'immissione.
+1. Viene richiesto di assegnare una targa alla posizione di ordinamento. Selezionare il campo **TARGA** , immettere un numero di targa, quindi confermare l'immissione.
 
     Poiché la posizione di ordinamento è correlata all'ID spedizione, si ordineranno gli articoli prelevati in una targa specifica per la spedizione in uscita e l'ordine cliente.
 

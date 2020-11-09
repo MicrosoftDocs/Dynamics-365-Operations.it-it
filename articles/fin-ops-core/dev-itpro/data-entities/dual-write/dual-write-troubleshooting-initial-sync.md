@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443851"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997328"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Risoluzione dei problemi durante la sincronizzazione iniziale
 
@@ -37,7 +36,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificare la presenza di errori di sincronizzazione iniziale in un'app Finance and Operations
 
-Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In esecuzione**. Se lo stato è **Non in esecuzione**, si sono verificati errori durante la sincronizzazione iniziale. Per visualizzare gli errori, selezionare la scheda **Dettagli sulla sincronizzazione iniziale** nella pagina **Doppia scrittura**.
+Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In esecuzione**. Se lo stato è **Non in esecuzione** , si sono verificati errori durante la sincronizzazione iniziale. Per visualizzare gli errori, selezionare la scheda **Dettagli sulla sincronizzazione iniziale** nella pagina **Doppia scrittura**.
 
 ![Errore nella scheda dei dettagli della sincronizzazione iniziale](media/initial_sync_status.png)
 
@@ -73,7 +72,7 @@ Se questo errore si verifica in modo coerente e non è possibile completare la s
 
 1. Accedere alla macchina virtuale (VM) per l'app Finance and Operations.
 2. Aprire la console di gestione Microsoft.
-3. Nel riquadro **Servizi**, assicurarsi che il servizio framework di importazione esportazione dati di Microsoft Dynamics 365 sia in esecuzione. Riavviarlo se è stato arrestato, poiché la sincronizzazione iniziale lo richiede.
+3. Nel riquadro **Servizi** , assicurarsi che il servizio framework di importazione esportazione dati di Microsoft Dynamics 365 sia in esecuzione. Riavviarlo se è stato arrestato, poiché la sincronizzazione iniziale lo richiede.
 
 ## <a name="initial-synchronization-error-403-forbidden"></a>Errore di sincronizzazione iniziale: 403 Accesso negato
 
@@ -84,7 +83,7 @@ Se questo errore si verifica in modo coerente e non è possibile completare la s
 Per risolvere il problema, procedere come segue.
 
 1. Accedere all'app Finance and Operations.
-2. Nella pagina **Applicazioni Azure Active Directory**, eliminare il client **DtAppID**, quindi aggiungerlo di nuovo.
+2. Nella pagina **Applicazioni Azure Active Directory** , eliminare il client **DtAppID** , quindi aggiungerlo di nuovo.
 
 ![Client DtAppID nell'elenco di applicazioni Azure AD](media/aad_applications.png)
 
@@ -108,13 +107,13 @@ Di seguito sono riportati alcuni esempi.
 - *Impossibile risolvere il guid per il campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Impossibile risolvere il guid per il campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. La ricerca non è stata trovata: V24-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Se i record nell'entità fornitore hanno valori nei campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, seguire questi passaggi per completare la sincronizzazione iniziale.
+Se i record nell'entità fornitore hanno valori nei campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** , seguire questi passaggi per completare la sincronizzazione iniziale.
 
 1. Nell'app Finance and Operations, eliminare i campi **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** dal mapping e salvare il mapping.
 
     1. Nella pagina del mapping in doppia scrittura per **Fornitori V2 (msdyn\_vendors)** e selezionare la scheda **Mapping entità**. Nel filtro a sinistra, selezionare **Finance and Operations apps.Vendors V2**. Nel filtro di destra, selezionare **Vendite.Fornitore**.
     2. Cercare **primarycontactperson** per trovare il campo di origine **PrimaryContactPersonId**.
-    3. Selezionare **Azioni**, quindi selezionare **Elimina**.
+    3. Selezionare **Azioni** , quindi selezionare **Elimina**.
 
         ![Eliminazione del campo PrimaryContactPersonId](media/vend_selfref3.png)
 
@@ -128,7 +127,7 @@ Se i record nell'entità fornitore hanno valori nei campi **PrimaryContactPerson
 
     1. Nell'area di lavoro **Gestione dati** selezionare la scheda **Entità di dati**.
     2. Selezionare l'entità **Fornitori V2**.
-    3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
+    3. Nel riquadro azioni selezionare **Opzioni** , quindi selezionare **Rilevamento modifiche**.
 
         ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
 
@@ -155,13 +154,13 @@ Di seguito sono riportati alcuni esempi.
 - *Impossibile risolvere il guid per il campo: primarycontactid.msdyn\_contactpersonid. La ricerca non è stata trovata: 000056. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Impossibile risolvere il guid per il campo: msdyn\_billingaccount.accountnumber. La ricerca non è stata trovata: 1206-1. Provare questi URL per verificare l'esistenza dei dati di riferimento: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Se i record nell'entità cliente hanno valori nei campi **ContactPersonID** e **InvoiceAccount**, seguire questi passaggi per completare la sincronizzazione iniziale. È possibile utilizzare questo approccio per tutte le entità predefinite come **Account** e **Contatti**.
+Se i record nell'entità cliente hanno valori nei campi **ContactPersonID** e **InvoiceAccount** , seguire questi passaggi per completare la sincronizzazione iniziale. È possibile utilizzare questo approccio per tutte le entità predefinite come **Account** e **Contatti**.
 
 1. Nell'app Finance and Operations, eliminare i campi **ContactPersonID** e **InvoiceAccount** dal mapping **Clienti V3 (account)** e quindi salvare il mapping.
 
-    1. Nella pagina del mapping in doppia scrittura per **Clienti V3 (account)**, selezionare la scheda **Mapping entità** e nel filtro a sinistra, selezionare **App Finance and Operations.Clienti V3**. Nel filtro a destra, selezionare **Common Data Service.Account**.
+    1. Nella pagina del mapping in doppia scrittura per **Clienti V3 (account)** , selezionare la scheda **Mapping entità** e nel filtro a sinistra, selezionare **App Finance and Operations.Clienti V3**. Nel filtro a destra, selezionare **Common Data Service.Account**.
     2. Cercare **contactperson** per trovare il campo di origine **ContactPersonID**.
-    3. Selezionare **Azioni**, quindi selezionare **Elimina**.
+    3. Selezionare **Azioni** , quindi selezionare **Elimina**.
 
         ![Eliminazione del campo ContactPersonID](media/cust_selfref3.png)
 
@@ -175,7 +174,7 @@ Se i record nell'entità cliente hanno valori nei campi **ContactPersonID** e **
 
     1. Nell'area di lavoro **Gestione dati** selezionare la scheda **Entità di dati**.
     2. Selezionare l'entità **Clienti V3**.
-    3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
+    3. Nel riquadro azioni selezionare **Opzioni** , quindi selezionare **Rilevamento modifiche**.
 
         ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
 
@@ -199,11 +198,11 @@ Se i record nell'entità cliente hanno valori nei campi **ContactPersonID** e **
 
         ![Progetto di integrazione dei dati per aggiornare CustomerAccount e ContactPersonId](media/cust_selfref6.png)
 
-    2. Aggiungere i criteri dell'azienda nel filtro sul lato Common Data Service in modo che solo i record che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Aggiungere i criteri dell'azienda nel filtro sul lato Common Data Service in modo che solo i record che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query** , è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**. 
 
         > [NOTA] Se il pulsante del filtro non è presente, creare un ticket di supporto per chiedere al team di integrazione dei dati di abilitare la funzionalità sul tenant.
 
-        Se non si immette una query filtro per **\_msdyn\_company\_value**, tutti i record vengono sincronizzati.
+        Se non si immette una query filtro per **\_msdyn\_company\_value** , tutti i record vengono sincronizzati.
 
         ![Aggiunta di una query filtro](media/cust_selfref7.png)
 

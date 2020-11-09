@@ -3,7 +3,7 @@ title: Visualizzare un esperimento in anteprima e pubblicarlo
 description: In questo argomento viene descritto come visualizzare in anteprima e pubblicare un esperimento in Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930229"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097118"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Visualizzare un esperimento in anteprima e pubblicarlo
 
@@ -34,18 +34,20 @@ Questo argomento descrive come visualizzare in anteprima e pubblicare un esperim
 ## <a name="preview-your-experiment-variations"></a>Visualizzare un'anteprima delle varianti dell'esperimento
 Puoi visualizzare in anteprima le varianti e continuare a modificarle finché non hanno l'aspetto desiderato.
 
-1. In Creazione di siti Web, utilizza il menu a discesa delle varianti sotto la barra dei comandi per selezionare il contenuto che desideri visualizzare in anteprima. 
-1. Seleziona **Anteprima** nella barra in alto. Viene visualizzata un'anteprima di come apparirà il contenuto una volta pubblicato.
-1. Per visualizzare in anteprima una variante diversa, selezionala dal menu a discesa delle varianti e seleziona di nuovo **Anteprima**.
+Per visualizzare in anteprima le varianti dell'esperimento in Creazione di siti Web di Commerce seguire questi passaggi.
+
+1. Nel menu a discesa delle varianti sotto la barra dei comandi selezionare il contenuto che si desidera visualizzare in anteprima. 
+1. Nella barra dei comandi, selezionare **Anteprima**. Viene visualizzata un'anteprima di come apparirà il contenuto una volta pubblicato.
+1. Per visualizzare in anteprima una variante diversa, selezionarla dal menu a discesa delle varianti e selezionare di nuovo **Anteprima**.
 
 ## <a name="publish-your-experiment"></a>Pubblicare l'esperimento
-Se non stai utilizzando un gruppo di pubblicazione per pianificare il momento in cui l'esperimento verrà pubblicato e desideri pubblicarlo immediatamente, seleziona**Pubblica** nella barra dei comandi. Verranno pubblicate tutte le varianti che appartengono all'esperimento.
+Se non stai utilizzando un gruppo di pubblicazione per pianificare il momento in cui l'esperimento verrà pubblicato e desideri pubblicarlo immediatamente, seleziona **Pubblica** nella barra dei comandi. Verranno pubblicate tutte le varianti che appartengono all'esperimento.
     
 > [!IMPORTANT]
 > Se la pagina ha un URL non pubblicato, devi prima pubblicare l'URL o non sarà visibile agli utenti del tuo sito web. Per informazioni dettagliate, vedi [Salvare, visualizzare in anteprima e pubblicare una pagina](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Utilizzare gruppi di pubblicazione per pianificare quando l'esperimento verrà pubblicato
-Le varianti create in Creazione in siti Web possono essere pianificate per la pubblicazione utilizzando un gruppo di pubblicazione. In un gruppo di pubblicazione, puoi collegare una pagina o un frammento all'esperimento nella scheda **Esperimenti** o **Pagine** o **Frammenti**. Per ulteriori informazioni, vedi l'argomento [Collegare un esperimento e modificare le varianti](experimentation-connect-edit.md). Per informazioni sui gruppi di pubblicazione, vedi [Utilizzare i gruppi di pubblicazione](publish-groups.md).
+Le varianti create in Creazione in siti Web possono essere pianificate per la pubblicazione utilizzando un gruppo di pubblicazione. All'interno di un gruppo di pubblicazione, è possibile collegare una pagina o un frammento all'esperimento selezionando **Esperimenti** nel riquadro di spostamento a sinistra. È possibile eseguire questa operazione anche selezionando **Pagine** o **Frammenti** e seguendo le istruzioni in [Connettere un esperimento e modificare le varianti](experimentation-connect-edit.md). Per informazioni sui gruppi di pubblicazione, vedi [Utilizzare i gruppi di pubblicazione](publish-groups.md).
 
 Quando si utilizzano gruppi di pubblicazione con esperimenti, è necessario tenere presente alcune considerazioni importanti.
 - Quando aggiungi una pagina o un frammento per la quale è in esecuzione un esperimento a un gruppo di pubblicazione, l'esperimento verrà rimosso dalla pagina o dal frammento nel gruppo di pubblicazione.

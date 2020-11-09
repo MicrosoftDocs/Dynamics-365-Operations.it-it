@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598060"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040055"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenuto Power BI per crediti e riscossioni
 
@@ -51,6 +51,9 @@ La seguente impostazione deve essere completata per visualizzare i dati nelle ra
 3. Andare a **Contabilità generale > Impostazioni > Contabilità generale** e impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
 4. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
 5. Andare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **CustCollectionsBIMeasurementsV2**.
+
+>[!NOTE] 
+> Le definizioni del periodo di v devono essere impostate in **Parametri contabilità clienti> Riscossioni > Valori predefiniti riscossioni** per abilitare l'aging dei dati nel contenuto Power BI.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 

@@ -3,7 +3,7 @@ title: Panoramica dei processi di fatturazione automatizzati dei fornitori
 description: In questo argomento viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato.
 author: abruer
 manager: AnnBe
-ms.date: 08/30/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 187b3c4f1a8b2c9ec6df95c19b261756ec4562dc
-ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
+ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3905019"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022498"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Panoramica dei processi di fatturazione automatizzati dei fornitori
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato. Questa soluzione è costituita da funzionalità attivate in Gestione funzionalità. Tali funzionalità si applicano solo alle fatture fornitore, non alle fatture elaborate tramite la pagina **Giornale di registrazione fatture** o **Giornale di registrazione del registro fatture**.
 

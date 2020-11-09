@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533323"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107232"
 ---
 # <a name="set-up-an-online-channel"></a>Impostare un canale online
 
@@ -46,14 +46,14 @@ Per creare e configurare un nuovo canale online, effettuare le seguenti operazio
 1. Nel pannello di navigazione, andare a **Moduli \> Canali \> Punti vendita online**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
 1. Nel campo **Nome** digitare un nome per il nuovo canale.
-1. In **Persona giuridica**, immettere la persona giuridica appropriata.
-1. In **Magazzino**, immettere il magazzino appropriato.
+1. In **Persona giuridica** , immettere la persona giuridica appropriata.
+1. In **Magazzino** , immettere il magazzino appropriato.
 1. Nel campo **Fuso orario punto vendita** selezionare il fuso orario appropriato.
-1. Nel campo **Valuta**, selezionare la valuta appropriata.
+1. Nel campo **Valuta** , selezionare la valuta appropriata.
 1. Nel campo **Cliente predefinito** fornire un cliente predefinito valido.
-1. Nel campo **Rubrica clienti**, fornire una rubrica valida.
-1. Nel campo **Profilo funzionalità**, selezionare un profilo di funzionalità, se applicabile.
-1. Nel campo **Profilo di notifica tramite posta elettronica**, fornire un profilo di notifica valido.
+1. Nel campo **Rubrica clienti** , fornire una rubrica valida.
+1. Nel campo **Profilo funzionalità** , selezionare un profilo di funzionalità, se applicabile.
+1. Nel campo **Profilo di notifica tramite posta elettronica** , fornire un profilo di notifica valido.
 1. Nel riquadro azioni selezionare **Salva**.
 
 L'immagine seguente mostra la creazione di un nuovo canale online.
@@ -70,13 +70,13 @@ Se il sito di e-commerce supporterà più lingue, espandere la sezione **Lingue*
 
 ## <a name="set-up-payment-account"></a>Impostare un conto pagamenti
 
-Nella sezione **Conto pagamenti**, è possibile aggiungere un fornitore di servizi di pagamento di terze parti. Per informazioni sull'impostazione del connettore di pagamento Adyen, vedere [Connettore pagamenti di Dynamics 365 per Adyen](../retail/dev-itpro/adyen-connector.md).
+Nella sezione **Conto pagamenti** , è possibile aggiungere un fornitore di servizi di pagamento di terze parti. Per informazioni sull'impostazione del connettore di pagamento Adyen, vedere [Connettore pagamenti di Dynamics 365 per Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Ulteriori operazioni di impostazione di canali
+## <a name="additional-channel-setup"></a>Ulteriori azioni di impostazione di canali
 
 Ulteriori attività necessarie per l'impostazione di un canale online includono l'impostazione di metodi di pagamento, modalità di consegna e assegnazione del gruppo di adempimento.
 
-L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna**, **Metodi di pagamento** e **Assegnazione gruppo di adempimento** nella scheda **Imposta**.
+L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna** , **Metodi di pagamento** e **Assegnazione gruppo di adempimento** nella scheda **Imposta**.
 
 ![Ulteriori azioni di impostazione del canale online](media/channel-setup-online-3.png)
 
@@ -84,10 +84,10 @@ L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna**,
 
 Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un canale, procedere come segue.
 
-1. Nel riquadro azioni, selezionare la scheda **Imposta**, quindi selezionare **Metodi di pagamento**.
+1. Nel riquadro azioni, selezionare la scheda **Imposta** , quindi selezionare **Metodi di pagamento**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
 1. Nel pannello di navigazione, selezionare un metodo di pagamento desiderato.
-1. Nella sezione **Generale**, immettere un nome in **Nome operazione** e configurare qualsiasi altra impostazione desiderata.
+1. Nella sezione **Generale** , immettere un nome in **Nome operazione** e configurare qualsiasi altra impostazione desiderata.
 1. Configurare eventuali impostazioni aggiuntive come necessario per il tipo di pagamento.
 1. Nel riquadro azioni selezionare **Salva**.
 
@@ -103,7 +103,7 @@ Per modificare o aggiungere una modalità di consegna, attenersi alla seguente p
 
 1. Nel pannello di navigazione, selezionare **Moduli \> Gestione inventario \> Modalità di consegna**.
 1. Nel riquadro azioni, selezionare **Nuovo** per creare una nuova modalità di consegna o selezionarne una esistente.
-1. Nella sezione **Canali di vendita al dettaglio**, selezionare **Aggiungi riga** per aggiungere il canale. Aggiungere canali utilizzando nodi dell'organizzazione anziché aggiungere ogni canale singolarmente può semplificare questa operazione.
+1. Nella sezione **Canali di vendita al dettaglio** , selezionare **Aggiungi riga** per aggiungere il canale. Aggiungere canali utilizzando nodi dell'organizzazione anziché aggiungere ogni canale singolarmente può semplificare questa operazione.
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
@@ -113,10 +113,10 @@ L'immagine seguente illustra un esempio di modalità di consegna.
 
 Per impostare l'assegnazione di un gruppo di adempimento, effettuare le seguenti operazioni.
 
-1. Nel riquadro azioni, selezionare la scheda **Imposta**, quindi selezionare **Assegnazione gruppo di adempimento**.
+1. Nel riquadro azioni, selezionare la scheda **Imposta** , quindi selezionare **Assegnazione gruppo di adempimento**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nell'elenco a discesa **Gruppo di adempimento**, selezionare un gruppo di adempimento.
-1. Nel campo **Descrizione**, immettere una descrizione.
+1. Nell'elenco a discesa **Gruppo di adempimento** , selezionare un gruppo di adempimento.
+1. Nel campo **Descrizione** , immettere una descrizione.
 1. Nel riquadro azioni selezionare **Salva**.
 
 L'immagine seguente mostra un esempio di impostazione dell'assegnazione di un gruppo di adempimento.

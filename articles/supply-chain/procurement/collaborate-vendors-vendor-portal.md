@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018447"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborazione con i fornitori tramite il portale fornitori
 
@@ -38,7 +38,7 @@ Il portale fornitori è destinato ai fornitori che non dispongono dell'integrazi
 Il processo può essere configurato in modo che una conferma del fornitore confermi automaticamente l'ordine. In questo caso, il follow-up è necessario solo occasionalmente, quando un ordine viene rifiutato o quando la conferma del fornitore viene registrata come risposta ma lo stato dell'ordine fornitore non viene aggiornato a **Confermato** a causa di un problema nel processo di conferma.
 
 ## <a name="po-confirmation-and-rejection"></a>Conferma e rifiuto dell'ordine fornitore
-Gli ordini fornitore vengono preparati in Dynamics AX. Se si dispone di un ordine fornitore con uno stato **Approvato**, lo si invia al fornitore generando una richiesta di conferma. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail. L'ordine fornitore viene visualizzato nel portale fornitori e include un'opzione che il fornitore può utilizzare per confermarlo o rifiutarlo. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore.  
+Gli ordini fornitore vengono preparati in Dynamics AX. Se si dispone di un ordine fornitore con uno stato **Approvato** , lo si invia al fornitore generando una richiesta di conferma. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore, è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail. L'ordine fornitore viene visualizzato nel portale fornitori e include un'opzione che il fornitore può utilizzare per confermarlo o rifiutarlo. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore.  
 
 Nel portale fornitori il fornitore può visualizzare le righe dell'ordine. Queste righe includono informazioni come il numero prodotto esterno, le dimensioni, le informazioni sul prezzo, la quantità, la data di consegna e l'indirizzo di consegna. Il fornitore può generare un report che mostra le informazioni sull'ordine fornitore e il prezzo totale. Le spese rilevanti al fornitore vengono visualizzate se il fornitore fa clic sul pulsante **Spese** nell'intestazione o nelle righe. I fornitori possono importare le informazioni dell'ordine fornitore nel proprio sistema utilizzando la funzionalità **Esporta in Excel**.  
 
@@ -47,7 +47,7 @@ Nella tabella seguente viene mostrato lo scambio tipico di informazioni, a secon
 | Tipo di risposta                                                                                                  | Risultato                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Il fornitore conferma l'ordine. Il sistema è configurato per confermare automaticamente gli ordini fornitore quando il fornitore conferma.    | Lo stato dell'ordine viene aggiornato a **Confermato**. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come **Confermata** ma lo stato dell'ordine fornitore rimane **In revisione esterna**.                                                                       |
-| Il fornitore conferma l'ordine. Il sistema non è configurato per confermare automaticamente gli ordini fornitore quando il fornitore conferma. | La risposta del fornitore viene registrata come **Confermata**, ma lo stato dell'ordine fornitore rimane **In revisione esterna**.                                                                                                                                                                                      |
+| Il fornitore conferma l'ordine. Il sistema non è configurato per confermare automaticamente gli ordini fornitore quando il fornitore conferma. | La risposta del fornitore viene registrata come **Confermata** , ma lo stato dell'ordine fornitore rimane **In revisione esterna**.                                                                                                                                                                                      |
 | Il fornitore rifiuta l'ordine.                                                                                     | La risposta del fornitore viene registrata come **Rifiutata** e lo stato dell'ordine fornitore rimane **In revisione esterna**. Il rifiuto viene ricevuto insieme al motivo e alle modifiche suggerite, ad esempio una data di consegna alternativa. Aggiornare l'ordine fornitore e inviare una nuova versione per la conferma. |
 
 ## <a name="changes-to-a-po"></a>Modifiche a un ordine fornitore
@@ -70,7 +70,7 @@ Nella tabella seguente è riportato un esempio delle modifiche dello stato e del
 
 Per visualizzare le versioni dell'ordine fornitore che sono state inviate al fornitore e le relative risposte, fare clic su **Giornali di registrazione** &gt; **Richieste di conferma** dall'ordine fornitore.  
 
-Gli ordini inviati al fornitore per una risposta e con stato **In revisione esterna** verranno visualizzati nell'elenco **Ordini fornitore inviati al portale fornitori e in attesa di risposta** o **Ordini fornitore inviati al portale fornitori e per cui la risposta richiede un'azione**. Quando si modifica un ordine che è stato inviato al fornitore, in modo che lo stato torni nuovamente ad **Approvato**, l'ordine non viene più visualizzato in questi elenchi. Per verificare se in precedenza è stata emessa una risposta all'ordine dal fornitore, fare clic su **Giornali di registrazione** &gt; **Richieste di conferma**.  
+Gli ordini inviati al fornitore per una risposta e con stato **In revisione esterna** verranno visualizzati nell'elenco **Ordini fornitore inviati al portale fornitori e in attesa di risposta** o **Ordini fornitore inviati al portale fornitori e per cui la risposta richiede un'azione**. Quando si modifica un ordine che è stato inviato al fornitore, in modo che lo stato torni nuovamente ad **Approvato** , l'ordine non viene più visualizzato in questi elenchi. Per verificare se in precedenza è stata emessa una risposta all'ordine dal fornitore, fare clic su **Giornali di registrazione** &gt; **Richieste di conferma**.  
 
 I fornitori non devono confermare l'ordine nel portale fornitori. Possono anche inviare un messaggio di posta elettronica o comunicare l'accettazione di un ordine attraverso altri canali. È quindi possibile confermare l'ordine manualmente in Dynamics AX. In questo caso, viene visualizzato un avviso che l'ordine sta per essere confermato anche in assenza di risposte dal fornitore. L'ordine fornitore viene visualizzato nello storico di conferma nel portale fornitori come ordine confermato aperto che non dispone di risposte. Il fornitore non ha più la possibilità di rifiutare o confermare l'ordine fornitore.  
 

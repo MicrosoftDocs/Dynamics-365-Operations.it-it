@@ -3,7 +3,7 @@ title: Attività iniziali per il leasing di cespiti
 description: Questo argomento descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022569"
 ---
 # <a name="asset-leasing-get-started"></a>Attività iniziali per il leasing di cespiti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing. Definisce anche la terminologia utilizzata nell'interfaccia utente e nella documentazione. Leasing di cespiti è una funzionalità avanzata per la gestione, il monitoraggio e l'automazione di transazioni finanziarie per cespiti in leasing in Microsoft Dynamics 365 Finance. Leasing di cespiti è conforme agli standard contabili internazionali (IFRS 16) e agli standard GAAP statunitensi (ASC 842). Leasing di cespiti acquisisce ed elabora informazioni sui leasing e consente la generazione di scritture contabili durante il ciclo di vita del leasing, dalla rilevazione iniziale alle scritture contabili mensili fino alla riduzione del valore e alla risoluzione del leasing. Leasing di cespiti si integra perfettamente con altri componenti di Dynamics 365 Finance, tra cui Cespiti, Contabilità fornitori e Contabilità generale.
 
@@ -209,8 +208,8 @@ Rappresenta il riporto della riduzione del saldo dell'asset Right of use. Identi
 ## <a name="create-an-asset-lease"></a>Creare un leasing di cespiti
 Completa i passaggi seguenti per creare un nuovo leasing. 
 
-1. Per utilizzare la funzionalità **Leasing di cespiti**, devi abilitarla nell'area di lavoro **Gestione funzionalità**. Nell'area di lavoro **Gestione funzionalità**, seleziona **Tutto** in modo che tutte le funzionalità siano elencate nella pagina. Seleziona **Leasing di cespiti**, quindi seleziona **Abilita adesso**.
-2. Vai a **Leasing di cespiti > Comune> Riepilogo leasing**. Imposta i campi necessari nella Scheda dettaglio **Generale**: 
+1. Per utilizzare la funzionalità **Leasing di cespiti** , devi abilitarla nell'area di lavoro **Gestione funzionalità**. Nell'area di lavoro **Gestione funzionalità** , seleziona **Tutto** in modo che tutte le funzionalità siano elencate nella pagina. Seleziona **Leasing di cespiti** , quindi seleziona **Abilita adesso**.
+2. Vai a **Leasing di cespiti > Comune> Riepilogo leasing**. Imposta i campi necessari nella Scheda dettaglio **Generale** : 
    - **Dettagli del leasing**
    - **Vita utile del cespite (mesi)**
    - **Gruppo di leasing**

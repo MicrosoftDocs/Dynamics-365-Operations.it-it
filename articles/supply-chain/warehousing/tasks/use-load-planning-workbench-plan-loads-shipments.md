@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7966c6e445e0e44cd4ff8518926aa6b410502e13
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c37a98a3728cb1233a6e1207975a6b8f23f8120d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015920"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
@@ -40,7 +41,7 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 7. Selezionare articolo: **A0001**. **A0001** è abilitato per la gestione trasporto.  
 8. Nel campo **Sito** fare clic sul pulsante a discesa per aprire la ricerca, quindi selezionare un articolo.
 9. Nel campo **Quantità** immettere un numero.
-10. Nel campo **Magazzino**, immettere '24' per questo esempio. Tale magazzino è abilitato per la gestione trasporto e la gestione avanzata del magazzino.  
+10. Nel campo **Magazzino** , immettere '24' per questo esempio. Tale magazzino è abilitato per la gestione trasporto e la gestione avanzata del magazzino.  
 11. Selezionare **Salva**.
 12. Chiudere la pagina.
 

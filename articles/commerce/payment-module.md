@@ -3,7 +3,7 @@ title: Modulo pagamento
 description: In questo argomento viene descritto il modulo di pagamento e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818328"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055383"
 ---
 # <a name="payment-module"></a>Modulo pagamento
 
@@ -42,6 +42,9 @@ Il modulo di pagamento copre eventuali addebiti sugli ordini che non sono già c
 
 Il connettore pagamenti Adyen supporta inoltre l'autenticazione avanzata del cliente (SCA). Parte della direttiva relativa ai servizi di pagamento 2.0 (PSD2.0) dell'Unione europea (UE) richiede che gli acquirenti online siano autenticati al di fuori della loro esperienza di acquisto online quando utilizzano una modalità di pagamento elettronico. Durante il flusso di check out, i clienti vengono reindirizzati al loro sito bancario. Quindi, dopo l'autenticazione, vengono reindirizzati al flusso di check out di Commerce. Durante questo reindirizzamento, le informazioni che un cliente ha inserito nel flusso di checkout (ad esempio, l'indirizzo di spedizione, le opzioni di consegna, le informazioni sulla carta regalo e le informazioni sulla fedeltà) persisteranno. Prima di poter attivare questa funzione, il connettore di pagamento deve essere configurato per SCA in Commerce headquarters. Per ulteriori informazioni, vedere [Autenticazione avanzata del cliente (SCA) tramite Adyen](adyen_redirect.md).
 
+> [!NOTE]
+> Per il connettore pagamenti Adyen, il modulo iframe nel modulo di pagamento può essere visualizzato solo se si aggiunge l'URL di Adyen all'elenco dei siti consentiti. Per completare questo passaggio, aggiungere **\*.adyen.com** alle direttive **child-src** , **connect-src** , **img-src** , **script-src** e **style-src** dei criteri di sicurezza dei contenuti del sito. Per altre informazioni, vedere [Gestire i criteri di sicurezza del contenuto](manage-csp.md). 
+
 L'immagine seguente mostra un esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout.
 
 ![Esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ L'immagine seguente mostra un esempio di moduli Gift card, Punti fedeltà e Paga
 |---------------|--------|-------------|
 | Intestazione | Testo dell'intestazione | Un'intestazione facoltativa per il modulo di pagamento. |
 | Altezza dell'iframe | Pixel | L'altezza dell'iframe, in pixel. L'altezza può essere modificata secondo le esigenze. |
-| Mostra indirizzo di fatturazione | **True** o **False** | Se questa proprietà è impostata su **True**, l'indirizzo di fatturazione verrà fornito da Adyen all'interno dell'iframe del modulo di pagamento. Se è impostata su **False**, l'indirizzo di fatturazione non verrà fornito da Adyen e un utente di Commerce dovrà configurare un modulo per mostrare l'indirizzo di fatturazione nella pagina di check out. |
+| Mostra indirizzo di fatturazione | **True** o **False** | Se questa proprietà è impostata su **True** , l'indirizzo di fatturazione verrà fornito da Adyen all'interno dell'iframe del modulo di pagamento. Se è impostata su **False** , l'indirizzo di fatturazione non verrà fornito da Adyen e un utente di Commerce dovrà configurare un modulo per mostrare l'indirizzo di fatturazione nella pagina di check out. |
 | Ignora stile pagamenti | Codice Cascading Style Sheets (CSS) | Poiché il modulo di pagamento è ospitato in un iframe, la capacità di stile è limitata. È possibile ottenere uno stile utilizzando questa proprietà. Per sostituire gli stili del sito, è necessario incollare il codice CSS come valore di questa proprietà. La creazione di siti CSS e gli stili non si applicano a questo modulo. |
 
 ## <a name="billing-address"></a>Indirizzo di fatturazione
 
-Il modulo di pagamento consente ai clienti di fornire un indirizzo di fatturazione per le informazioni di pagamento. Inoltre, consente loro di utilizzare il proprio indirizzo di spedizione come indirizzo di fatturazione, per rendere il flusso di pagamento più semplice e veloce. Se la proprietà **Mostra indirizzo di fatturazione** è impostata su **False**, il modulo di pagamento dovrebbe essere configurato nella pagina di check out.
+Il modulo di pagamento consente ai clienti di fornire un indirizzo di fatturazione per le informazioni di pagamento. Inoltre, consente loro di utilizzare il proprio indirizzo di spedizione come indirizzo di fatturazione, per rendere il flusso di pagamento più semplice e veloce. Se la proprietà **Mostra indirizzo di fatturazione** è impostata su **False** , il modulo di pagamento dovrebbe essere configurato nella pagina di check out.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Aggiungere un modulo di pagamento a una pagina di checkout e impostare le proprietà necessarie
 

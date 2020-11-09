@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208042"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018861"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
@@ -42,7 +42,7 @@ La registrazione entrata prodotti si verifica spesso alle banchine di entrata di
 I prodotti che vengono ricevuti in magazzino possono essere sottoposti a ispezione di controllo qualità prima dello stoccaggio in magazzino. Ordini di controllo qualità o ordini di quarantena possono essere utilizzati per eseguire l'ispezione di controllo qualità. Se vengono utilizzati ordini di controllo qualità, è possibile configurare il processo per bloccare temporaneamente i prodotti mediante una prenotazione mentre ispezionati. Se vengono utilizzati gli ordini di quarantena, prodotti vengono spostati in un altro magazzino per l'ispezione. Questo magazzino è noto come magazzino di quarantena. In entrambi i processi di ispezione di controllo di qualità, alcune delle merci potrebbero essere scartate, perché non conformi alle aspettative di qualità o perché il controllo di qualità implica test distruttivi di un campione del prodotto.
 
 ## <a name="product-receipt"></a>Entrata prodotti
-Molto spesso, l'azione **Entrata prodotti** della pagina **Ordini fornitore** viene utilizzata per contrassegnare i prodotti come **Ricevuto** nell'ordine fornitore. La pagina **Registrazione entrata prodotti** include diverse opzioni per la quantità che viene considerata come ricevuta. Ad esempio, è possibile impostare il campo **Quantità** su **Quantità ordinata** o **Quantità in Ricevi ora**. In alternativa, se è stato utilizzato un processo di arrivo in magazzino, spesso il campo viene impostato su **Quantità registrata**. È possibile modificare le quantità in ciascuna riga dell'ordine che verrà contrassegnata come **Ricevuto**, per tenere conto di eventuali discrepanze, come limite minimo e massimo di fornitura. Durante l'entrata prodotti, è necessario specificare un identificatore di entrata prodotti, che è in genere un riferimento al documento di trasporto del fornitore. Questo identificatore è necessario per la contabilità, poiché consente verifiche o controlli di documenti di trasporto rispetto a ciò che è stato ricevuto e le scorte o le spese contabilizzate.  
+Molto spesso, l'azione **Entrata prodotti** della pagina **Ordini fornitore** viene utilizzata per contrassegnare i prodotti come **Ricevuto** nell'ordine fornitore. La pagina **Registrazione entrata prodotti** include diverse opzioni per la quantità che viene considerata come ricevuta. Ad esempio, è possibile impostare il campo **Quantità** su **Quantità ordinata** o **Quantità in Ricevi ora**. In alternativa, se è stato utilizzato un processo di arrivo in magazzino, spesso il campo viene impostato su **Quantità registrata**. È possibile modificare le quantità in ciascuna riga dell'ordine che verrà contrassegnata come **Ricevuto** , per tenere conto di eventuali discrepanze, come limite minimo e massimo di fornitura. Durante l'entrata prodotti, è necessario specificare un identificatore di entrata prodotti, che è in genere un riferimento al documento di trasporto del fornitore. Questo identificatore è necessario per la contabilità, poiché consente verifiche o controlli di documenti di trasporto rispetto a ciò che è stato ricevuto e le scorte o le spese contabilizzate.  
 
 È possibile creare PO per prodotti non destinati come magazzino ma che sono considerati una spesa. Questa categoria include le righe dell'ordine in cui i prodotti sono contrassegnati come **Non stoccati** dal relativo gruppo di modelli inventariali e anche le righe che utilizzano le categorie di approvvigionamento. In questo caso, gli articoli potrebbero non essere sottoposti a registrazione degli arrivi e l'entrata in magazzino. Invece, l'azione **Entrata prodotti** viene utilizzata per registrare l'entrata direttamente nell'ordine fornitore e l'entrata dipende dalla quantità ordinata, non una quantità registrata.  
 

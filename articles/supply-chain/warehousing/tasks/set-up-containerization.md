@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable, WHSContainerizatonHistory, WHSContainerPackingPolicyChange, WHSManifestShipmentContainers, WHSAllowedContainerTypeGroup, WHSPostMethod, WHSContainerCreateDialog, WHSContainerCloseDiag, WHSContainer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d08b89ac32b8ec40ae9dff15dbbd3264800cfb1a
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: 1f961dc379ceeeae9bbceec1baaa9b9be21316f3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017784"
 ---
 # <a name="set-up-containerization"></a>Impostare containerizzazione
 
@@ -61,7 +61,7 @@ Questa argomento descrive come automatizzare la containerizzazione dei carichi i
 ## <a name="set-up-a-container-group"></a>Impostare un gruppo di contenitori
 1. Nel pannello di navigazione andare a **Moduli > Gestione magazzino > Impostazioni > Contenitori > Gruppo di contenitori**.
 2. Nel Riquadro azioni selezionare **Nuovo**. È possibile impostare i gruppi logici dei tipi di contenitore. Per ogni gruppo è possibile specificare la sequenza in cui imballare i contenitori e la percentuale di riempimento dei contenitori. Vengono utilizzate le dimensioni di tipo Dimensione dell'articolo per determinare se potrà essere inserito in un contenitore. Viene utilizzato il contenitore più vicino alle dimensioni di tipo Dimensione dell'articolo. Se in un gruppo sono presenti più tipi di contenitore, è consigliabile disporre la sequenza in base alla dimensione, in modo che il contenitore più grande sia il primo, il numero 1 della sequenza, e il contenitore più piccolo sia l'ultimo.    
-3. Nel campo **ID gruppo contenitori**, immettere un valore creato in precedenza.
+3. Nel campo **ID gruppo contenitori** , immettere un valore creato in precedenza.
 4. Digitare un valore nel campo **Descrizione**
 5. Ripetere i passaggi 2-4 per tutti e tre i tipi di contenitore creati in precedenza.
 6. Selezionare **Salva**.
@@ -75,7 +75,7 @@ Questa argomento descrive come automatizzare la containerizzazione dei carichi i
 5. Digitare un valore nel campo **Codice passaggio ondata**.
 6. Selezionare la casella di controllo **Consenti prelievi condivisi**.
 7. Selezionare **Salva**.
-8. Seleziona **Vincoli combinazione contenitore**. L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori. Ad esempio, se si aggiunge il campo **Numero articolo**, quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo. Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.  
+8. Seleziona **Vincoli combinazione contenitore**. L'opzione Suddivisioni logica combinazione consente di impostare le regole di imballaggio delle righe di allocazione in contenitori. Ad esempio, se si aggiunge il campo **Numero articolo** , quando gli articoli vengono assegnati ai contenitori, un nuovo contenitore verrà creato quando è presente un nuovo numero di articolo. Ciò impedirà ai lavoratori di imballare righe di allocazioni per due diversi clienti nello stesso contenitore.  
 9. Selezionare **Nuovo**.
 10. Selezionare un'opzione nel campo **Tabella**.
 11. Nel campo **Selezione campi** immettere o selezionare un valore.

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017485"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Impostare i magazzini per gli ordini di trasferimento 
 
@@ -32,7 +33,7 @@ Utilizzando i livelli magazzino è possibile creare una gerarchia per supportare
 
 2.  Selezionare il magazzino che si desidera ricaricare.
 
-3.  Nella scheda dettaglio **Pianificazione generale**, selezionare la casella di controllo **Ricaricamento**.
+3.  Nella scheda dettaglio **Pianificazione generale** , selezionare la casella di controllo **Ricaricamento**.
 
 4.  Nel campo **Magazzino principale** selezionare il magazzino che si desidera assegnare come magazzino di ricaricamento. Tramite la programmazione generale viene calcolato un fabbisogno di trasferimento per il magazzino selezionato e viene generato un ordine di trasferimento pianificato dal campo **Magazzino principale** assegnato.
    
@@ -50,5 +51,5 @@ Utilizzando i livelli magazzino è possibile creare una gerarchia per supportare
 È inoltre necessario impostare il lead time di spedizione tra magazzini nella pagina **Giorni di spedizione**. 
 1. Passare a **Gestione inventario > Impostazioni > Distribuzione > Giorni di spedizione**.
 2. Nel campo **Punto di ricevimento** selezionare il **magazzino**.
-3. Selezionare **Magazzino di spedizione**, **Magazzino ricevente** e **Giorni di spedizione**. 
+3. Selezionare **Magazzino di spedizione** , **Magazzino ricevente** e **Giorni di spedizione**. 
 4. (Facoltativo) È inoltre possibile impostare il tempo di spedizione, a seconda della modalità di consegna, nella scheda **Giorni di spedizione per modalità di consegna**.
