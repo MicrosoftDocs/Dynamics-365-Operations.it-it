@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 694c1f415fd52eb9e98ace2e5787c12f7a1fed8e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258582"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687279"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Home page creazione di report e analisi con Power BI
 
@@ -30,7 +29,7 @@ ms.locfileid: "3258582"
 
 In questo argomento vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili.
 
-## <a name="get-started"></a>Per iniziare
+## <a name="get-started"></a>Introduzione
 - [Accesso alle informazioni e creazione di report](information-access-reporting.md)
 - [Discussione tecnica - Opzioni per la creazione di report](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
 - [Finance and Operations - Blog sui servizi di creazione di report e di analisi di Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
@@ -62,7 +61,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 - [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Creazione di report elettronici
-Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici conformi ai requisiti legali di vari paesi. Le applicazioni di creazione di report elettronici includono i controlli finanziari, le dichiarazioni fiscali e la fatturazione elettronica.
+Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici conformi ai requisiti legali di vari paesi/aree geografiche. Le applicazioni di creazione di report elettronici includono i controlli finanziari, le dichiarazioni fiscali e la fatturazione elettronica.
 
 [![Esempio di creazione di report elettronici](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 

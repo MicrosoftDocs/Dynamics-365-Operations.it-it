@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975270"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528547"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -64,7 +64,7 @@ Per informazioni su come utilizzare i dati di pianificazione di altri moduli nei
 ## <a name="user-interface-and-reporting-capabilities"></a>Interfaccia utente e funzionalità di creazione di report
 Gli utenti possono creare i piani di budget direttamente nel client (utilizzando una pagina del documento del piano di budget configurabile) o tramite Excel. In Excel sono fornite diverse funzionalità aggiuntive. Ad esempio, è possibile utilizzare dati esterni come origine di un piano di budget, eseguire calcoli personalizzati e utilizzare la tabella pivot e i grafici di Microsoft. È possibile configurare la maggior parte delle variabili del processo di pianificazione del budget. 
 
-Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, cosa è incluso nel budget e l'aspetto del processo. Sebbene sia possibile utilizzare Excel per la pianificazione del budget, l'applicazione rappresenta una singola soluzione attendibile che consente di evitare problemi di controllo del budget. È possibile utilizzare processi periodici per passare i dati iniziali dell'impostazione del budget nel piano di budget. Per la creazione di report, l'applicazione offre un set di pagine di richieste informazioni standard che consentono di visualizzare e analizzare i dati dell'impostazione del budget. È possibile accedere ai dati del piano di budget tramite Management Reporter e gli scenari dei piani di budget separati possono essere visualizzati come colonne del report di Management Reporter.
+Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, cosa è incluso nel budget e l'aspetto del processo. Sebbene sia possibile utilizzare Excel per la pianificazione del budget, l'applicazione rappresenta una singola soluzione attendibile che consente di evitare problemi di controllo del budget. È possibile utilizzare processi periodici per passare i dati iniziali dell'impostazione del budget nel piano di budget. Per la creazione di report, l'applicazione offre un set di pagine di richieste informazioni standard che consentono di visualizzare e analizzare i dati dell'impostazione del budget. È possibile accedere ai dati del piano di budget tramite [Financial Reporting](../general-ledger/financial-reporting-getting-started.md) e gli scenari dei piani di budget separati possono essere visualizzati come colonne del report finanziario.
 
 
 

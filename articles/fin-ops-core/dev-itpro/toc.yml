@@ -14,14 +14,12 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.16 (febbraio 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform update 10.0.15 (gennaio 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform update 10.0.14 (novembre 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platform update 10.0.13 (ottobre 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform update 10.0.12 (agosto 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Funzionalità di Platform rimosse o deprecate
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Funzionalità di AX 2012 posticipate
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Funzionalità non implementate nelle distribuzioni locali
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Fine del supporto standard per Microsoft Dynamics AX 2009 e 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventi aziendali
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Configurare il mapping per i campi dello stato dell'ordine cliente
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Filtrare gli ordini interaziendali per evitare di sincronizzare ordini e righe ordine
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Gestione della doppia scrittura
                           items:
                             - name: Personalizzazione di mapping di entità e campo
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Anagrafica fiscale integrata
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Sincronizzazione con il motore di determinazione del prezzo di Dynamics 365 Supply Chain Management su richiesta
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Prospetto per uno scenario di liquidazione in doppia scrittura
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Sincronizzazione con il motore di determinazione del prezzo di Dynamics 365 Supply Chain Management su richiesta
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Utilizzare il motore di determinazione dei prezzi di Dynamics 365 Commerce con Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Cespiti interni per l'assistenza
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Lavoratore, mansione e posizione integrati'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Requisiti di dimensionamento hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Autenticazione in Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: Impostare e distribuire ambienti locali
                   items:
                     - name: Impostare progetti locali in LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Creare una connessione a Lifecycle Services (LCS) in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Aggiornare una pipeline legacy in Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Applicazione di esempio di gestione flotta
               items:
                 - name: Scenario completo per l'applicazione di esempio di gestione flotta
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Accesso ai dati tramite l'API SysDa
                           href: dev-ref/sysda.md
+                        - name: Mitigare un attacco SQL injection
+                          href: dev-ref/query-with-parameters.md
                     - name: Macro X++
                       href: dev-ref/xpp-macros.md
                     - name: Classi di attributi X++
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Crittografia nelle app Finance and Operations
                   href: sysadmin/encryption.md
-                - name: Impostare l'intervallo di inattività di una sessione
+                - name: Impostare il timeout di inattività di una sessione
                   href: sysadmin/session-idle-timeout.md
                 - name: Report di sicurezza predefiniti
                   href: sysadmin/security-reports.md
                 - name: Creare nuovi utenti
                   href: sysadmin/tasks/create-new-users.md
+                - name: Gestione delle sessioni utente
+                  href: sysadmin/user-session-management.md
                 - name: Importare utenti in blocco
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Impostare la separazione dei compiti
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Configurazione del client Azure Key Vault
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Routine di pulizia
+              href: sysadmin/cleanuproutines.md
         - name: Aggiornamenti e hotfix
           items:
             - name: Risorse aggiornamenti e hotfix
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Sviluppare elementi per la navigazione
                   href: user-interface/build-navigation.md
-                - name: Sviluppare aree di lavoro
+                - name: Modificare un'area di lavoro
                   href: user-interface/build-workspace.md
             - name: Moduli
               items:

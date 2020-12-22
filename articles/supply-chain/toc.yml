@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Domande frequenti sugli aggiornamenti del servizio One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Gestire gli aggiornamenti e il ciclo di vita del codice personalizzato, incluso Dynamics 365 Commerce'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Criteri del ciclo di vita del software - versioni sul cloud
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Criteri del ciclo di vita del software: versioni in locale'
@@ -70,12 +72,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.15 (dicembre 2020)
+                    - name: Supply Chain Management 10.0.16 (febbraio 2021)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (gennaio 2021)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (novembre 2020)
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13 (ottobre 2020)
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funzionalità di AX 2012 posticipate
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Funzionalità non implementate nelle distribuzioni locali
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fine del supporto standard per Microsoft Dynamics AX 2009 e 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Risorse di documentazione
@@ -216,6 +216,14 @@
                   items:
                     - name: Merci in transito dal fornitore
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Cloud e rete perimetrale
+          items:
+            - name: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Gestione cespiti
           items:
             - name: Panoramica della gestione cespiti
@@ -230,9 +238,9 @@
                 - name: Stati del ciclo di vita delle unità funzionalità
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Tipi di attributo di manutenzione
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Tipi di unità funzionali
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: Tipi di unità funzionali
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: Unità funzionali
               items:
                 - name: Introduzione alle unità funzionali
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Pacchetto di contenuto Power BI per la gestione dei costi
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Risolvere i problemi relativi alla gestione dei costi
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Integrazioni di creazione di report e Power BI
           items:
             - name: Creazione di report e analisi con Power BI
@@ -1327,7 +1337,9 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Traccia del costo medio corrente per dimensione inventariale
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
-        - name: Intelligence IoT
+            - name: Componente aggiuntivo Visibilità magazzino
+              href: inventory/inventory-visibility.md
+        - name: Intelligenza IoT
           items:
             - name: Home page intelligence IoT
               href: iot/iot-intelligence-home-page.md
@@ -1347,6 +1359,8 @@
           items:
             - name: Home page pianificazione generale
               href: master-planning/master-planning-home-page.md
+            - name: Migrazione a Ottimizzazione pianificazione per la pianificazione generale
+              href: master-planning/new-master-planning-engine.md
             - name: Ottimizzazione pianificazione
               items:
                 - name: Panoramica sull'ottimizzazione della pianificazione
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Applicare i filtri a un piano
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Pianificazione generale con previsione della domanda
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Pianificazione generale con accordi commerciali di acquisto
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Margini di sicurezza
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Contrassegno scorte con Ottimizzazione pianificazione
+                  href: master-planning/planning-optimization/marking.md
+                - name: Pianificazione interaziendale
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Escludere i prodotti con determinati stati del ciclo di vita del prodotto
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Approva ordini pianificati
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Stabilizzazione automatica con l'ottimizzazione della pianificazione
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Modificare una previsione della domanda manualmente
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Risolvere i problemi di pianificazione generale
+              href: master-planning/troubleshoot-masterplanning.md
         - name: App per dispositivi mobili
           items:
             - name: Home page app per dispositivi mobili
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Calcoli DBA
                   href: cost-management/bom-calculations.md
+                - name: Risolvere i problemi relativi alle informazioni sul prodotto
+                  href: pim/troubleshooting-productinformation.md
             - name: Configurazione prodotto
               items:
                 - name: Panoramica configurazione prodotto
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Trasferire i dati per i modelli prodotto
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Risolvere i problemi di configurazione del prodotto
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Gestione modifiche di progettazione
+          items:
+            - name: Panoramica della gestione delle modifiche di progettazione
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Parametri per gestione modifiche di progettazione
+              href: engineering-change-management/engineering-parameters.md
+            - name: Stabilire valori comuni per la gestione delle modifiche di progettazione
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Organizzazioni di progettazione e regole sulla proprietà dei dati
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Proprietario del prodotto
+              href: engineering-change-management/product-owner.md
+            - name: Attributi di progettazione e ricerca di attributi di progettazione
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Versioni di progettazione e categorie di prodotti di progettazione
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Transazioni e stato del ciclo di vita del prodotto
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Gestire le modifiche ai prodotti di progettazione
+              href: engineering-change-management/engineering-change-management.md
+            - name: Idoneità prodotto
+              href: engineering-change-management/product-readiness.md
+            - name: Struttura rilascio prodotto
+              href: engineering-change-management/release-product-structure.md
         - name: Controllo produzione
           items:
             - name: Panoramica processo di produzione
@@ -2047,6 +2101,8 @@
                       items:
                         - name: Configurare l'interfaccia di esecuzione dell'area di produzione
                           href: production-control/production-floor-execution-configure.md
+                        - name: Progettare l'interfaccia di esecuzione dell'area di produzione
+                          href: production-control/production-floor-execution-tabs.md
                         - name: Configurare un dispositivo per eseguire l'interfaccia dell'area di produzione
                           href: production-control/production-floor-execution-setup.md
                         - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
@@ -2105,6 +2161,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Gruppi flessibilità
                       href: production-control/time-attendance-flex-groups.md
+                - name: Risolvere i problemi di produzione discreta
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Lean manufacturing
               items:
                 - name: Panoramica del lean manufacturing
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Registrazione produzione
                       href: cost-management/production-posting.md
+                - name: Risolvere i problemi di produzione di processo
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Vendite e marketing
           items:
             - name: Panoramica vendite e marketing
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Associare un indice carburante a un vettore come spesa accessoria
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: Certificazione di origine USMCA
+              href: transportation/usmca-certification-of-origin.md
             - name: Creare una polizza di carico
               href: transportation/create-bill-of-lading.md
             - name: Pianificare i cicli di lavorazione trasporto
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Registrare il check-in e il check-out del conducente per un appuntamento
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: Sconti
+              href: transportation/transportation-management-discount.md
+            - name: Spese varie
+              href: transportation/transportation-management-misc-charge.md
+            - name: Modalità e metodi
+              href: transportation/transportation-management-modes-methods.md
+            - name: Sequenze numeriche
+              href: transportation/transportation-management-number-sequence.md
+            - name: Stato
+              href: transportation/transportation-management-status.md
+            - name: Zona principale
+              href: transportation/transportation-management-zone-master.md
+            - name: Gruppi vettore
+              href: transportation/tasks/carrier-groups.md
+            - name: Workbench di allestimento del carico
+              href: transportation/tasks/load-building-workbench.md
+            - name: Modelli di carico
+              href: transportation/tasks/load-template.md
+            - name: Profili valutazione
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: Impostare un indice carburante vettore
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Impostare un metodo di pagamento del trasporto
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Combinazione dimensioni prodotto ubicazione
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Cluster di stoccaggio
+                  href: warehousing/putaway-clusters.md
                 - name: Controllo qualità
                   href: warehousing/quality-check.md
+                - name: Risolvere i problemi relativi alle operazioni di magazzino in ingresso
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Operazioni di magazzino in uscita
               items:
                 - name: Prenotazioni in Gestione magazzino
                   items:
                     - name: Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Risolvere i problemi relativi alle prenotazioni nella gestione del magazzino
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Rilascio parziale e spedizione parziale
                   items:
                     - name: Spedizione parziale di un carico di trasporto
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Rilascio batch degli ordini di trasferimento parzialmente prenotati
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Risolvere i problemi relativi a rilasci parziali e spedizioni parziali
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Prelievo e imballaggio
                   items:
                     - name: Impostare prelievo del cluster
@@ -2697,6 +2787,10 @@
                       href: warehousing/outbound-sorting.md
                     - name: Stoccaggio a parete - Stoccaggio in magazzino
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Visualizzazione del carico di lavoro in uscita
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Risolvere i problemi relativi a prelievo e imballaggio
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Rifornimento
                   items:
                     - name: Panoramica rifornimento
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Rifornimento soglia di zona
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Strategie di rifornimento
+                      href: warehousing/replenishment-strategies.md
                     - name: Rifornimento superiore alla capacità dell'ubicazione
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Risolvere i problemi di rifornimento del magazzino
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Allestimento del carico e spedizioni
                   items:
                     - name: Conferma e trasferimento
@@ -2721,10 +2819,12 @@
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Rilascio alla regola del magazzino
                       href: warehousing/release-to-warehouse-rule.md
-                    - name: Gruppi del modello di ondata
+                    - name: Raggruppamento modello ondata
                       href: warehousing/wave-template-grouping.md
                     - name: Ristampare e annullare le etichette delle ondate
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Risolvere i problemi di allestimento del carico e spedizioni
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Criteri consolidamento spedizione
                   items:
                     - name: Criteri consolidamento spedizione
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: Scenario 5 - Consolidare le spedizioni manualmente utilizzando la pagina di consolidamento delle spedizioni
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Risolvere i problemi relativi alle operazioni di magazzino in uscita
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Operazioni in magazzino
               items:
                 - name: Criteri di lavoro magazzino
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Utilizzo ubicazione - Consolidamento articolo
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Risolvere i problemi di lavoro di magazzino
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: Divisione lavoro
+                      href: warehousing/work-split.md
             - name: Impostazione magazzino
               items:
                 - name: Configurazione del magazzino
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: Controllare il lavoro utilizzando i modelli di lavoro e le direttive ubicazione
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Creare direttive di ubicazione
+                    - name: Utilizzare le direttive di ubicazione
                       href: warehousing/create-location-directive.md
+                    - name: Limiti stoccaggio ubicazione
+                      href: warehousing/location-stocking-limits.md
                     - name: Codici del passaggio ondata
                       href: warehousing/wave-step-codes.md
                     - name: Configurare l'elaborazione di ondate
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Impostare un magazzino per gli ordini di trasferimento
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Risoluzione dei problemi di configurazione del magazzino
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Installare e configurare l'app di magazzino
                   items:
                     - name: Installare e connettere l'app di magazzino
@@ -2879,6 +2989,10 @@
                   items:
                     - name: Aggiornare i processi di gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Risolvere i problemi di configurazione del magazzino
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Sviluppo di Supply Chain Management
           items:
             - name: Guida per lo sviluppo del controllo Gantt

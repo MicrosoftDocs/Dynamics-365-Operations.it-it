@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979306"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685055"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
 ## <a name="local-and-regional-deployments"></a>Distribuzioni locali e regionali
 Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
 
-[App Finance and Operations gestite de 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[App Finance and Operations gestite da 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 

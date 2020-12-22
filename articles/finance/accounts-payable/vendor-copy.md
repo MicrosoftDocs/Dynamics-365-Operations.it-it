@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 33338c331a53586b325def398267ab10db23f78a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978033"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459314"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiare i fornitori mediante sequenze numeriche condivise
 
@@ -31,7 +31,7 @@ ms.locfileid: "3978033"
 
 ## <a name="setup"></a>Impostazione
 
-La funzionalità è attivata quando si utilizza una sequenza numerica condivisa per assegnare ID fornitore. È necessario utilizzare la stessa sequenza numerica in ogni persona giuridica nella quale si desidera copiare un fornitore. Modificare la sequenza numerica del fornitore nella pagina **Parametri contabilità fornitori** per ogni persona giuridica. Selezionare **Contabilità fornitori** \> **Imposta** \> **Parametri contabilità fornitori**e selezionare la scheda **Sequenze numeriche**.
+La funzionalità è attivata quando si utilizza una sequenza numerica condivisa per assegnare ID fornitore. È necessario utilizzare la stessa sequenza numerica in ogni persona giuridica nella quale si desidera copiare un fornitore. Modificare la sequenza numerica del fornitore nella pagina **Parametri contabilità fornitori** per ogni persona giuridica. Selezionare **Contabilità fornitori** \> **Imposta** \> **Parametri contabilità fornitori** e selezionare la scheda **Sequenze numeriche**.
 
 È inoltre possibile impostare le sequenze numeriche fornitore per ogni gruppo fornitori. Queste sequenze numeriche devono anche essere condivise. La sequenza numerica per un gruppo fornitori viene utilizzata prima. Se non è definita alcuna sequenza numerica per un gruppo fornitori, viene utilizzata la sequenza numerica specificata nella pagina **Parametri contabilità fornitori**.
 

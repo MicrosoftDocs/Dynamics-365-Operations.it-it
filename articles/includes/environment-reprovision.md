@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459306"
+---
 Quando si copia un database tra due ambienti, è necessario eseguire lo strumento di provisioning dell'ambiente prima che il database copiato sia completamente operativo per verificare che tutti i componenti Commerce siano aggiornati.
 
 > [!IMPORTANT]
