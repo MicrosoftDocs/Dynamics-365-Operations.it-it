@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022217"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529830"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (6 ottobre 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -54,9 +56,9 @@ Questa versione include le seguenti correzioni di bug.
 | --- | --- | --- |
 | 448806 | **Tipo di identificazione predefinito** viene esportato come **RecID** nei parametri HCM | Questa modifica all'entità dei parametri di Human Resources aggiunge una colonna che visualizza il **Tipo di identificazione predefinito**. |
 | 492923 | Le registrazioni delle attività non vengono salvate in Lifecycle Services (LCS) | Le registrazioni attività ora possono essere salvate in LCS. |
-| 429950 | La retribuzione fissa non scade correttamente durante il cambio di posizione | Quando si cambia la posizione di un lavoratore nella pagina **Trasferisci lavoratore** , la data di fine retribuzione è stata fissata un giorno prima della fine della posizione. La data di fine della retribuzione è ora la stessa della data di fine della posizione. |
-| 467214 | **Analisi stipendio** viene visualizzato solo se **Nome conversione tariffa retributiva** è impostato su **Annuale** | Le tariffe retributive stipendiate con un nome diverso da **Annuale** non vengono visualizzate nell'analisi di retribuzione. Con questo aggiornamento, le analisi di retribuzione ora utilizzano tutte le conversioni della tariffa retributiva. Quando si eseguono i report da **Orario** o **Stipendio** , qualsiasi conversione della tariffa di pagamento che utilizza un periodo diverso da quello orario è inclusa nel filtro **Stipendio**. Paga solo tariffe retributive con un periodo **Orario** sono incluse nel filtro **Orario**. |
-| 482464 | Durante la visualizzazione delle **Revisioni** , la vista **Dettagli** non cambia in visualizzazione griglia dopo aver applicato un filtro | Dopo aver applicato un filtro, la griglia delle revisioni viene visualizzata come previsto. |
+| 429950 | La retribuzione fissa non scade correttamente durante il cambio di posizione | Quando si cambia la posizione di un lavoratore nella pagina **Trasferisci lavoratore**, la data di fine retribuzione è stata fissata un giorno prima della fine della posizione. La data di fine della retribuzione è ora la stessa della data di fine della posizione. |
+| 467214 | **Analisi stipendio** viene visualizzato solo se **Nome conversione tariffa retributiva** è impostato su **Annuale** | Le tariffe retributive stipendiate con un nome diverso da **Annuale** non vengono visualizzate nell'analisi di retribuzione. Con questo aggiornamento, le analisi di retribuzione ora utilizzano tutte le conversioni della tariffa retributiva. Quando si eseguono i report da **Orario** o **Stipendio**, qualsiasi conversione della tariffa di pagamento che utilizza un periodo diverso da quello orario è inclusa nel filtro **Stipendio**. Paga solo tariffe retributive con un periodo **Orario** sono incluse nel filtro **Orario**. |
+| 482464 | Durante la visualizzazione delle **Revisioni**, la vista **Dettagli** non cambia in visualizzazione griglia dopo aver applicato un filtro | Dopo aver applicato un filtro, la griglia delle revisioni viene visualizzata come previsto. |
 | 483184 | Human Resources non genera la maturazione delle ferie quando si seleziona **Base livello** come **Data di inizio rettificata** nel record **Iscrizione congedo** |La **Data di inizio rettificata** viene compilata e utilizzata per la generazione della maturazione delle ferie.  |
 | 509731 | La richiesta di ferie per futuri lavoratori licenziati causa problemi se richiedono un periodo di ferie dopo la data di cessazione | Ora è possibile inviare richieste di ferie per i dipendenti con una data di cessazione futura purché la richiesta sia anteriore alla data di cessazione. |
 | 510716 | L'analisi retributiva include dipendenti sia uomini che donne per **Retribuzione oraria media maschile** | Nell'analisi retributiva, **Retribuzione oraria media maschile** in **Analisi demografica retribuzione** include la retribuzione media femminile. Ora include solo i maschi. |
@@ -77,9 +79,9 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 
 Le seguenti nuove funzionalità sono previste per le versioni future:
 
-- **Elenco di controllo entità incluso in Common Data Service** : Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
+- **Elenco di controllo entità incluso in Common Data Service**: Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
 
-- **Codici motivo gestione vantaggi** : I codici motivo per la gestione dei vantaggi verranno presto combinati con i codici motivo esistenti in Human Resources. Se sono stati creati codici motivo nella gestione dei vantaggi che superano i 15 caratteri, è necessario modificare il nome del codice motivo nel modulo **Codici motivo** della gestione dei vantaggi in modo che abbia al massimo 15 caratteri. Dopo aver aggiornato il nome, il codice motivo verrà visualizzato sotto il modulo del codice motivo esistente in Gestione del personale. Questa modifica sarà disponibile in futuro e non influirà sul funzionamento esistente.
+- **Codici motivo gestione vantaggi**: I codici motivo per la gestione dei vantaggi verranno presto combinati con i codici motivo esistenti in Human Resources. Se sono stati creati codici motivo nella gestione dei vantaggi che superano i 15 caratteri, è necessario modificare il nome del codice motivo nel modulo **Codici motivo** della gestione dei vantaggi in modo che abbia al massimo 15 caratteri. Dopo aver aggiornato il nome, il codice motivo verrà visualizzato sotto il modulo del codice motivo esistente in Gestione del personale. Questa modifica sarà disponibile in futuro e non influirà sul funzionamento esistente.
 
 - **Collegamenti personalizzati in self-service dei responsabili** : Per supportare i responsabili, stiamo espandendo le capacità nel self-service dei responsabili. Stiamo aggiungendo la possibilità di aggiungere collegamenti personalizzati nella scheda **Team personale**. Questa funzione è simile alla funzione dei collegamenti personalizzati nella **scheda Informazioni personali** nel self-service dei dipendenti. Per ulteriori informazioni, vedere [Collegamenti personalizzati nel self-service responsabili](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551958"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461685"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Aggiornare le guide per l'inserimento in Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>Aggiornare le guide per l'inserimento
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Se occorre apportare modifiche alle guide per l'inserimento in Microsoft Dynamic
 2. Selezionare la guida che si desidera modificare.
 3. Apportare tutte le modifiche desiderate, quindi selezionare **Salva** (simbolo del disco).
 
-    ![[Salvataggio delle modifiche a una guida per l'inserimento](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Salvataggio delle modifiche in una guida per l'inserimento](./media/onboard-save.png)](./media/onboard-save.png)
 
 Onboard invierà automaticamente al nuovo assunto un'e-mail che indica quali modifiche sono state apportate. Per una facile identificazione, accanto a ogni modifica sarà visualizzato un tag rosso **Nuova**.
 

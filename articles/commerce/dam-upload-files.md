@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fc0490e3532dcbb9c1e91101009b2d4605315416
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097036"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594214"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Caricare file diversi da immagini e video
 
@@ -93,6 +93,8 @@ Per caricare un file in Creazione di siti Web Commerce, effettuare le seguenti o
 
 [Caricare video](dam-upload-video.md)
 
-[Ritagliare immagini](dam-crop-images.md)
+[Tagliare immagini](dam-crop-images.md)
 
-[Personalizzare i punti focali dell'immagine](dam-custom-focal-point.md)
+[Personalizzare punti focali immagine](dam-custom-focal-point.md)
+
+[Caricare e fornire file statici](upload-serve-static-files.md)

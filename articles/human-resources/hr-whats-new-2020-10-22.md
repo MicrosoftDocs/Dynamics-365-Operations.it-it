@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107538"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529984"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 22 ottobre 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -55,7 +57,7 @@ Questa versione include le seguenti correzioni di bug.
 | Numero problema| Uscita  | descrizione|
 | --- | --- | --- |
 | 437922 | L'importazione delle ore FMLA utilizzando l'entità DMF genera un errore di sola lettura. | L'utilizzo dell'entità ore FMLA per importare le ore associate a un caso FMLA non è riuscito. È stata aggiunta una logica per garantire che le ore importate non superino le ore rimanenti per il caso. |
-| 512019 | Importo **Ultimo riporto in avanti** non corretto. | Nella pagina **Permesso** , cambiando **In data** sul primo giorno del periodo fiscale successivo visualizza un importo **Ultimo riporto in avanti** non corretto per il tipo **Congedo annuale**. Ora visualizza l'importo corretto. |
+| 512019 | Importo **Ultimo riporto in avanti** non corretto. | Nella pagina **Permesso**, cambiando **In data** sul primo giorno del periodo fiscale successivo visualizza un importo **Ultimo riporto in avanti** non corretto per il tipo **Congedo annuale**. Ora visualizza l'importo corretto. |
 | 458639 | L'entità **Contatti lavoratore** non supporta la modalità di rilevamento delle modifiche. | L'entità **Contatti lavoratore** è stata aggiornata in modo da poterla utilizzare in scenari BYOD.|
 | 505347 | I responsabili della formazione potevano inviare una richiesta di congedo per un dipendente quando la funzione Lavoratore semplificato era abilitata. | I ruoli diversi dall'assistente delle risorse umane e dal responsabile delle risorse umane non sono autorizzati a inviare richieste di ferie per i dipendenti. |
 | 513490 | Registrazione della gestione dei benefit: aggiungere la registrazione per i piani senza opzioni di copertura. | Abbiamo abilitato la registrazione dei risultati per il **piano senza opzioni di copertura**. Ora vengono visualizzati nella tabella **Risultati del processo** e sono ordinati correttamente per essere visualizzati all'inizio. |

@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-11
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d49a4aca368e3de10ae37b56c6d286d78f7f369a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899176"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461657"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-11-2019"></a>Novità o modifiche in Dynamics 365 Talent - Core HR (11 gennaio 2019)
 
@@ -43,9 +43,9 @@ Questa funzionalità consente la visualizzazione dei saldi per periodi di conged
 I saldi di congedo visualizzeranno il saldo corrente dei dipendenti. I saldi futuri sono disponibili nelle aree di lavoro **Dipendente self-service** e **Persone** immettendo una data iniziale per il calcolo del saldo previsto.
 
 Per visualizzare i saldi previsti, sono stati aggiunti degli elementi nelle seguenti aree:
-  - Scheda**Tempo libero** nell'area di lavoro **Dipendente self-service**.
-  - Scheda**Congedo e assenza** nell'area di lavoro **Responsabile self-service**.
-  - Pagina**Congedo e assenza** nell'area di lavoro **Persone**.
+  - Scheda **Tempo libero** nell'area di lavoro **Dipendente self-service**.
+  - Scheda **Congedo e assenza** nell'area di lavoro **Responsabile self-service**.
+  - Pagina **Congedo e assenza** nell'area di lavoro **Persone**.
 
 ### <a name="allow-decimals-for-variable-compensation-plans-cash-plans"></a>Utilizzo dei decimali per i piani di retribuzione variabile (piani in contanti)
 I piani e i premi in contanti variabili presentano ora la flessibilità per importi e sostituzioni di valori con importi decimali.

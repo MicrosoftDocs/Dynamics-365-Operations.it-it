@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818252"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665274"
 ---
 # <a name="store-selector-module"></a>Modulo Selettore punto vendita
 
@@ -47,7 +47,7 @@ Il modulo di selezione del punto vendita consente agli utenti di inserire una po
 
 Il modulo di selezione del punto vendita è integrato nelle [interfacce di programmazione delle applicazioni REST (API) di Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) per utilizzare le funzionalità di geocodifica e suggerimenti automatici di Bing. È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di commercio in Commerce Headquarters. L'API di geocodifica viene utilizzata per convertire una posizione in valori di latitudine e longitudine. L'integrazione con l'API Suggerimenti automatici viene utilizzata per mostrare suggerimenti di ricerca quando gli utenti immettono posizioni nel campo di ricerca.
 
-Per l'API REST Suggerimenti automatici, è necessario assicurarsi che i seguenti URL siano consentiti (noti anche come "autorizzati") in base ai criteri di sicurezza dei contenuti del sito. Questa configurazione viene eseguita durante la creazione del sito di Commerce, aggiungendo gli URL consentiti a varie direttive CSP per il sito (ad esempio, **img-src**). Per altre informazioni, vedere [Criteri di sicurezza dei contenuti](manage-csp.md). 
+Per l'API REST Suggerimenti automatici, è necessario assicurarsi che i seguenti URL siano consentiti in base ai criteri di sicurezza dei contenuti del sito. Questa configurazione viene eseguita durante la creazione del sito di Commerce, aggiungendo gli URL consentiti a varie direttive CSP per il sito (ad esempio, **img-src**). Per altre informazioni, vedere [Criteri di sicurezza dei contenuti](manage-csp.md). 
 
 - Alla direttiva **connect-src**, aggiungere **&#42;bing.com**.
 - Alla direttiva **img-src**, aggiungere **&#42; virtualearth.net**.
@@ -65,6 +65,9 @@ Affinché lo scenario funzioni, i prodotti devono essere configurati in modo da 
 L'immagine seguente mostra un esempio di un modulo selettore punto vendita utilizzato su un PDP.
 
 ![Esempio di un modulo selettore punto vendita utilizzato su un PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Nella versione 10.0.16 e successive, è possibile abilitare una nuova funzionalità che consente a un'organizzazione di definire più modalità di ritiro delle opzioni di consegna per i clienti.  Se questa funzione è abilitata, il selettore punto vendita e altri moduli di e-commerce verranno migliorati per consentire all'acquirente di scegliere tra potenzialmente più opzioni di consegna del ritiro, se configurate.  Per saperne di più su questa funzione, fare riferimento a [questa documentazione](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Modalità Trova punti vendita
 

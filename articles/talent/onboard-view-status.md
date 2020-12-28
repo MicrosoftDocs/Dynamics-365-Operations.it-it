@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814722"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461684"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Visualizzare lo stato delle attività e dei dipendenti in fase di inserimento
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Talent: Onboard consente di visualizzare l'avanzamento de
 2. Per eseguire il drill-down, selezionare la guida che si desidera visualizzare.
 3. Selezionare la scheda **Attività** per vedere quali attività ha completato il nuovo assunto.
 
-    ![[Visualizzazione delle attività completate dal nuovo assunto](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Visualizzazione delle attività completate dalla nuova assunzione](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Visualizzare le attività di inserimento ricevute in assegnazione
 

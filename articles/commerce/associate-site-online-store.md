@@ -1,5 +1,5 @@
 ---
-title: Associare un sito di e-Commerce a un canale online
+title: Associare un sito Dynamics 365 Commerce a un canale online
 description: In questo argomento viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online.
 author: bicyclingfool
 manager: AnnBe
@@ -18,23 +18,22 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975370"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517332"
 ---
-# <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Associare un sito di e-Commerce a un canale online
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associare un sito Dynamics 365 Commerce a un canale online
 
 [!include [banner](includes/banner.md)]
 
-
 In questo argomento viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online. 
 
-Dopo aver eseguito il provisioning di e-Commerce tramite il portale Microsoft Dynamics Lifecycle Services (LCS), è possibile configurare il primo sito Web di e-Commerce. Durante la creazione iniziale del sito, si associa il sito a un punto vendita online creato precedentemente. Questo passaggio associa il sito a un canale online e consente di visualizzare gerarchia di navigazione, prodotti, categorie, prezzi, opzioni di spedizione e tutto ciò che è stato definito nel punto vendita online nel sito.
+Dopo aver eseguito il provisioning dell'ambiente e-commerce Dynamics 365 Commerce tramite il portale Microsoft Dynamics Lifecycle Services (LCS), è possibile configurare il primo sito Web di e-commerce. Durante la creazione iniziale del sito, si associa il sito a un punto vendita online creato precedentemente. Questo passaggio associa il sito a un canale online e consente di visualizzare gerarchia di navigazione, prodotti, categorie, prezzi, opzioni di spedizione e tutto ciò che è stato definito nel punto vendita online nel sito.
 
-Per configurare un nuovo sito e associarvi un punto vendita online, in LCS selezionare il collegamento per l'ambiente di creazione di siti. Quindi, nella pagina dell'ambiente di creazione di siti, selezionare **Nuovo sito**. Nella finestra di dialogo **Nuovo sito**, immettere alcune informazioni di base sul sito. Per una descrizione completa delle informazioni che è necessario immettere, vedere [Creare un nuovo sito di e-Commerce](create-ecommerce-site.md).
+Per configurare un nuovo sito e associarvi un punto vendita online, in LCS selezionare il collegamento per l'ambiente di creazione di siti. Quindi, nella pagina dell'ambiente di creazione di siti, selezionare **Nuovo sito**. Nella finestra di dialogo **Nuovo sito**, immettere alcune informazioni di base sul sito. Per una descrizione completa delle informazioni che è necessario immettere, vedere [Creare un nuovo sito di e-commerce](create-ecommerce-site.md).
 
 Dopo la creazione del sito, è possibile verificare che sia associato al punto vendita online selezionando la scheda **Prodotti**. Dovrebbe essere visualizzato l'assortimento di prodotti che è stato allocato al punto vendita online. È anche possibile utilizzare il campo a discesa nell'angolo in alto a sinistra della pagina per accedere ai prodotti per categoria.
 
@@ -42,7 +41,7 @@ Dopo la creazione del sito, è possibile verificare che sia associato al punto v
 
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 

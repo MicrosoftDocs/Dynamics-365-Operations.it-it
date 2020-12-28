@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976018"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517127"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurare più tenant B2C in un ambiente Commerce
 
@@ -114,15 +114,15 @@ Il nuovo tenant Azure AD B2C ora è presente nell'elenco in **Gestisci applicazi
 
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
-[Associare un sito online a un canale](associate-site-online-store.md)
+[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+[Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
 
 [Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
 

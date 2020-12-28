@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818200"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665398"
 ---
 # <a name="iframe-module"></a>Modulo iFrame
 
@@ -35,7 +35,7 @@ In questo argomento viene descritto il modulo iFrame e la procedura per aggiunge
 
 Un modulo iFrame fornisce un iFrame (frame in linea) che ospita contenuti esterni su un sito. Ad esempio, può essere utilizzato per ospitare un video YouTube o un visualizzatore di file PDF in qualsiasi pagina del sito. 
 
-Un modulo iFrame richiede un URL di destinazione. Ospita quindi il contenuto della pagina di destinazione all'interno di un elemento **iFrame** HTML. Gli URL esterni devono essere presenti nell'elenco di consentiti (noto anche come "elenco elementi consentiti") in base alle direttive sui criteri di sicurezza dei contenuti (CSP) del sito. Per i contenuti iFrame, gli URL dovrebbero essere consentiti utilizzando la direttiva **frame-ancestor**. Per altre informazioni, vedere [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md).
+Un modulo iFrame richiede un URL di destinazione. Ospita quindi il contenuto della pagina di destinazione all'interno di un elemento **iFrame** HTML. Gli URL esterni devono essere presenti nell'elenco dei consentiti in base alle direttive sui criteri di sicurezza dei contenuti (CSP) del sito. Per i contenuti iFrame, gli URL dovrebbero essere consentiti utilizzando la direttiva **frame-ancestor**. Per altre informazioni, vedere [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md).
 
 > [!NOTE]
 > Il modulo iFrame è disponibile in Dynamics 365 Commerce versione 10.0.13.

@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812697"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461627"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novità o modifiche in Dynamics 365 Talent (20 marzo 2019)
 
@@ -80,7 +80,7 @@ Sono state apportate modifiche per correggere un problema durante la modifica de
 In molte organizzazioni, i responsabili delle retribuzioni e dei benefit potrebbero accedere solo a determinati record di retribuzione. Questi record potrebbero essere per dirigenti o dipendenti regionali. Con questa modifica, le Risorse umane possono gestire i piani di retribuzione per differenti gruppi di dipendenti nell'organizzazione. È possibile assegnare ruoli di sicurezza a piani fissi e variabili che determinano l'accesso ai piani e ai dati dei dipendenti correlati ai piani, ad esempio record di stipendi o premi. Solo i ruoli con l'accesso concesso possono elaborare la retribuzione per quei dipendenti.
 
 ###  <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
-Con l'aggiornamento 24 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento.
+Con l'aggiornamento 24 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Verifica di dipendenti duplicati: modifiche dell'interfaccia
 Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi Nome e uno stato indica il numero di duplicati trovati. È possibile selezionare il collegamento fornito per aprire una nuova pagina e valutare se utilizzare la corrispondenza rilevata. Il modulo Duplicati non si apre automaticamente per non interrompere l'immissione dei dati.

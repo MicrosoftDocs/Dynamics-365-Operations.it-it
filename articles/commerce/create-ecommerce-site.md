@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533438"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517186"
 ---
 # <a name="create-an-e-commerce-site"></a>Creare un sito di e-commerce
 
@@ -32,7 +32,7 @@ ms.locfileid: "3533438"
 
 Questo argomento descrive i passaggi e le informazioni richiesti per creare un nuovo sito di e-commerce in Creazione di siti Web di Dynamics 365 Commerce.
 
-Quando si concedono in licenza le funzionalità di e-commerce, all'autore del sito verrà fornito un sito di partenza che è possibile utilizzare come base per il proprio sito. Tuttavia, se si desidera iniziare da zero o se si desidera creare un secondo sito, sarà necessario stabilire un nuovo sito nell'ambiente di creazione del sito. 
+Quando si concedono in licenza le funzionalità di Dynamics 365 Commerce, all'autore del sito verrà fornito un sito di partenza che è possibile utilizzare come base per il proprio sito. Tuttavia, se si desidera iniziare da zero o se si desidera creare un secondo sito, sarà necessario stabilire un nuovo sito nell'ambiente di creazione del sito. 
 
 ## <a name="set-up-your-site"></a>Configurare il sito
 
@@ -46,7 +46,7 @@ Per configurare il sito, effettuare la procedura seguente.
 |-------------------------------------|-------------|
 | Nome sito                           | Immettere il nome visualizzato da utilizzare per il sito nell'ambiente di creazione di siti. Questo nome è visibile solo nell'ambiente di creazione e non ai clienti. |
 | Gruppo di sicurezza dell'amministratore del sito | Specificare il gruppo di sicurezza di Microsoft Azure Active Directory (Azure AD) che gestisce gli utenti con il ruolo di amministratore sito nel sito. |
-| Canale predefinito (numero unità operativa) | Selezionare il punto vendita online per il quale il sito viene utilizzato come vetrina virtuale Web. Se il sito di e-Commerce deve supportare più punti vendita online, è necessario associare i punti vendita al sito in **Impostazioni sito** dopo la configurazione del sito. |
+| Canale predefinito (numero unità operativa) | Selezionare il punto vendita online per il quale il sito viene utilizzato come vetrina virtuale Web. Se il sito di e-commerce deve supportare più punti vendita online, è necessario associare i punti vendita al sito in **Impostazioni sito** dopo la configurazione del sito. |
 | Lingua predefinita                            | Specificare la lingua predefinita per il mercato e il punto vendita online. Un punto vendita online può supportare più lingue. Se si desidera supportare più lingue per questo punto vendita online o un altro punto vendita online, è possibile configurare tale supporto in **Impostazioni sito** dopo la configurazione del sito.  |
 | Dominio                              | Selezionare un nome di dominio che sarà utilizzato come dominio per il punto vendita online. Se non è stato configurato alcun dominio in LCS, è possibile lasciare vuoto questo campo. Dopo che il dominio è configurato in LCS, è necessario aggiungerlo al punto vendita online in **Impostazioni sito**.  |
 | Percorso                              | Quando il sito supporta più lingue per un nome di dominio specifico, utilizzare il campo del percorso per creare un URL di sito univoco per quella combinazione di dominio e lingua. Se la lingua specificata nel campo **Lingua predefinita** è l'unica lingua che verrà supportata per il dominio, o sarà sempre la lingua predefinita dopo aver localizzato il sito in altre lingue, è consigliabile lasciare vuoto questo campo. |
@@ -58,13 +58,13 @@ Dopo la creazione del sito, è possibile verificare che sia associato al punto v
 
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
-[Associare un sito online a un canale](associate-site-online-store.md)
+[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+[Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
 
 [Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
 

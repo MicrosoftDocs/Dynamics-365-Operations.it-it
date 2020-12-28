@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896775"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527122"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Novità o modifiche in Dynamics 365 Talent (5 novembre 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
@@ -59,7 +61,7 @@ La versione di questa settimana modifica il modo in cui le immagini vengono ridi
 
 ### <a name="a-positions-available-for-assignment-date-can-be-earlier-than-the-activation-date-340103"></a>Una posizione disponibile per la data di assegnazione può essere precedente alla data di attivazione (340103)
 
-Con questa modifica, verrà visualizzato un avviso se si seleziona una **data disponibile per l'assegnazione** precedente alla **data di attivazione**della posizione.
+Con questa modifica, verrà visualizzato un avviso se si seleziona una **data disponibile per l'assegnazione** precedente alla **data di attivazione** della posizione.
 
 ### <a name="cant-create-a-compensation-change-request-in-employee-self-service-for-step-based-plans-376872"></a>Impossibile creare una richiesta di modifica di retribuzione nel self-service dei dipendenti per piani basati su passaggi (376872)
 
@@ -69,7 +71,7 @@ Questa versione corregge un problema quando si richiede la modifica della retrib
 
 Con questa modifica, i codici motivo con più di 30 caratteri verranno aggiornati in Common Data Service. Le modifiche apportate in Common Data Service vengono applicate anche in Talent.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Gestire l'integrazione da Talent in Finance and Operations (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Risolvere il problema di integrazione da Talent a Finance and Operations (351961)
 
 Questa versione risolve un problema a causa del quale gli indirizzi aggiornati in Talent non venivano aggiornati in Finance and Operations. Le modifiche apportate ai blocchi di indirizzi ora vengono aggiornate.
 

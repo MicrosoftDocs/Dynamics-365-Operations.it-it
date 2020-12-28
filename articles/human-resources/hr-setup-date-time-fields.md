@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be1e28d0b842184ce3c4f7bd9748f5e76ac67489
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430097"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529854"
 ---
 # <a name="understand-date-and-time-fields"></a>Informazioni sui campi di data e ora
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I campi **Data e ora** sono un concetto fondamentale in Dynamics 365 Human Resources. È importante capire come utilizzare i dati di **Data e ora** in moduli di Dynamics 365 Human Resources, in Common Data Service e in origini esterne.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Differenza tra i tipi di dati dei campi Data e Data e ora
 
-I campi**Data e ora** contengono informazioni sul fuso orario, mentre i campi **Data** no. I campi **Data** visualizzano le stesse informazioni in tutte le posizioni. Quando si immette una data nel campo **Data**, Human Resources scrive la stessa data nel database.
+I campi **Data e ora** contengono informazioni sul fuso orario, mentre i campi **Data** no. I campi **Data** visualizzano le stesse informazioni in tutte le posizioni. Quando si immette una data nel campo **Data**, Human Resources scrive la stessa data nel database.
 
 Quando si visualizzano i dati in un campo **Data e ora**, Human Resources regola la data e l'ora in base al fuso orario dell'utente impostato nel modulo **Opzioni utente** (**Common > Impostazioni > Opzioni utente**). Le informazioni di data e ora immesse nel campo possono non essere le stesse informazioni scritte nel database.
 

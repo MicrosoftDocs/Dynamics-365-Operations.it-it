@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081341"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594115"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -197,6 +197,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 500 | Annulla transazione | Annulla la transazione corrente. | Sì | Sì | No | Sì | No |
 | 916 | Windows Workflow Foundation | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 924 | X-report per carte bancarie | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
+| 311 | Rimuovere gli sconti di sistema dalle transazioni | Rimuovere tutti gli sconti applicati dal sistema, inclusi gli sconti basati su coupon, dalla transazione. Ciò non rimuove gli sconti manuali. | Sì | Sì | Sì | Sì | Nessuno |
+| 312 | Riapplicare gli sconti di sistema | Riapplicare gli sconti di sistema sulla transazione se sono stati rimossi utilizzando l'operazione **Rimuovere gli sconti di sistema dalle transazioni**. | Sì | Sì | Sì | Sì | Nessuno |
 
 \* L'operazione è disponibile in modalità offline solo quando si crea un ordine cliente o un'offerta di vendita e solo se la creazione offline di ordini cliente e offerte di vendita viene configurata nel profilo funzionalità POS. L'operazione non può essere eseguita quando gli ordini sono creati tramite il servizio in tempo reale, oppure quando gli ordini vengono richiamati o modificati.
 

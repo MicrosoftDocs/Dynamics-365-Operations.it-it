@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974840"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665300"
 ---
 # <a name="recall-order-operation-in-pos"></a>Operazione Richiama ordine nel POS
 
 [!include [banner](includes/banner.md)]
 
-L'operazione Richiama ordine nel POS fornisce funzionalità di ricerca e filtro degli ordini aggiornate e informazioni specifiche dell'ordine. Questa funzionalità è disponibile in Commerce versione 10.0.15 e successive.
+L'operazione **Richiama ordine** nel POS fornisce funzionalità di ricerca e filtro degli ordini aggiornate e informazioni specifiche dell'ordine. Questa funzionalità è disponibile in Commerce versione 10.0.15 e successive.
 
 Per abilitare questa funzionalità, attiva la funzionalità **Operazione Richiama ordine migliorata nel POS** nell'area di lavoro **Gestione funzionalità** in Commerce Headquarters. Dopo aver abilitato la funzionalità, valuta la possibilità di aggiornare i [layout dello schermo](pos-screen-layouts.md) nel POS per utilizzare alcune delle funzionalità modificate.
 

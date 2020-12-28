@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899130"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461586"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Novità o modifiche in Dynamics 365 Talent - Core HR (23 gennaio 2019)
 
@@ -51,5 +51,5 @@ Quando si modifica la mansione in una posizione, per impostazione predefinita i 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Il periodo di prova e il calendario non sono visualizzati per i dipendenti assunti in futuro
 Con questa modifica, i campi **Periodo di prova** e **Calendario** sono stati aggiunti alla pagina **Gestione modifiche** per consentire l'immissione di dati per dipendenti futuri e passati.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Aggiornamento 23 della piattaforma per Finance and Operations
+### <a name="platform-update-23-for-finance-and-operations"></a>Update 23 della piattaforma per Finance and Operations
 Correzioni di bug secondarie sono state incluse nell'aggiornamento 23 della piattaforma per Finance and Operations. Per ulteriori informazioni, vedere [Novità o modifiche nell'aggiornamento 23 della piattaforma Dynamics 365 Finance and Operations (gennaio 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

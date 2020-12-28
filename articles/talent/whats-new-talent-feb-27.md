@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897674"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529140"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Novità o modifiche in Dynamics 365 Talent (27 febbraio 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 
@@ -75,7 +77,7 @@ Questa versione include altre correzioni di bug minori.
 
 In molte organizzazioni, i responsabili retribuzioni e benefit potrebbero accedere solo a specifici record di retribuzione. Questi record potrebbero essere utilizzati da dirigenti o dipendenti regionali. Questa modifica consentirà alle Risorse umane di gestire i piani di retribuzione per differenti popolazioni di dipendenti nell'organizzazione. I ruoli di sicurezza che possono essere assegnati a piani fissi e variabili determineranno l'accesso a tali piani e ai dati dei dipendenti ad essi correlati (ad esempio, informazioni sugli stipendi e record di premi). Solo i ruoli con l'accesso specificato potranno elaborare la retribuzione per quei dipendenti.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Aggiornamento 24 della piattaforma per Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>Update 24 della piattaforma per Finance and Operations
 
 Per ulteriori informazioni sull'aggiornamento 24 della piattaforma per Microsoft Dynamics 365 Finance and Operations (marzo 2019), vedere [Funzionalità di anteprima nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
@@ -98,19 +100,19 @@ Per aggiornare il modello esistente, effettuare le seguenti operazioni.
 
     - **Posizioni lavorative a Posizioni**: rimuovere questo mapping.
     - **Assegnazione processo padre Posizioni lavorative a Posizioni**: rimuovere questo mapping.
-    - **Posizioni lavorative a Posizione base**: aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Posizione di base** di Finance and Operations. Spostarlo nella posizione 7 nella sequenza.
+    - **Posizioni lavorative a Posizione base:** aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Posizione di base** di Finance and Operations. Spostarlo nella posizione 7 nella sequenza.
 
         [![Mapping Posizioni lavorative a Posizione di base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Posizioni lavorative a Dettagli posizione**: aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Dettagli posizione** di Finance and Operations. Spostarlo nella posizione 8 nella sequenza.
+    - **Posizioni a Dettagli posizione:** aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Dettagli posizione** di Finance and Operations. Spostarlo nella posizione 8 nella sequenza.
 
         [![Mapping Posizioni lavorative a Dettagli posizione](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Posizioni lavorative a Durate posizione**: aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Durate posizione** di Finance and Operations.
+    - **Posizioni a Durate posizione:** aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Durate posizione** di Finance and Operations.
 
         [![Mapping Posizioni lavorative a Durate posizione](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Posizioni lavorative a Gerarchie posizioni**: aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Gerarchie posizioni** di Finance and Operations. Selezionare **Query avanzata** per rendere la query avanzata disponibile per il progetto.
+    - **Posizioni a Gerarchie posizioni:** aggiungere un nuovo mapping dall'entità **Posizioni lavorative** di Common Data Service all'entità **Gerarchie posizioni** di Finance and Operations. Selezionare **Query avanzata** per rendere la query avanzata disponibile per il progetto.
 
        [![Pulsante Query avanzata](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Per aggiornare il modello esistente, effettuare le seguenti operazioni.
         [![Comando Aggiungi colonna condizionale](./media/Add-column.png)](./media/Add-column.png)
 
     6. Nella finestra di dialogo **Aggiungi colonna condizionale**, immettere **HIERARCHYTYPENAME** come nome della nuova colonna.
-    7. Nella parte **Se** della condizione, selezionare un campo, utilizzare **uguale a** come relazione e immettere qualsiasi valore. Nelle parti **Quindi** e **Altrimenti** della condizione, specificare cosa deve essere il valore predefinito. In questo caso, immettere **Riga** in entrambe le parti.
+    7. Nella parte **Se** della condizione, selezionare un campo, utilizzare **uguale a** come relazione e immettere qualsiasi valore. Nelle parti **_Quindi_* e **Altrimenti** della condizione, specificare cosa deve essere il valore predefinito. In questo caso, immettere **Riga** in entrambe le parti.
 
         [![Finestra di dialogo Aggiungi colonna condizionale](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

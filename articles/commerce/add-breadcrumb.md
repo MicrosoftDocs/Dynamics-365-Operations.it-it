@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055406"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517162"
 ---
 # <a name="breadcrumb-module"></a>Modulo Percoso di navigazione
 
@@ -46,7 +46,7 @@ L'immagine seguente illustra un esempio di modulo Percoso di navigazione che mos
 
 ## <a name="breadcrumb-module-settings"></a>Impostazioni del modulo Percorso di navigazione
 
-Il modulo Percorso di navigazione si basa sull'impostazione **Tipo di visualizzazione percorso di navigazione in PDP** , definita in **Impostazioni sito \> Estensioni** in Creazione di siti Web. Questa impostazione ha tre valori possibili:
+Il modulo Percorso di navigazione si basa sull'impostazione **Tipo di visualizzazione percorso di navigazione in PDP**, definita in **Impostazioni sito \> Estensioni** in Creazione di siti Web. Questa impostazione ha tre valori possibili:
 
 - **Mostra gerarchia di categorie** - Quando si seleziona questo valore, il modulo Percorso di navigazione mostrerà l'intera gerarchia di categorie del prodotto visualizzato nella PDP.
 - **Mostra di nuovo i risultati** - Quando si seleziona questo valore, il modulo Percorso di navigazione mostrerà un collegamento "Torna ai risultati" in una PDP se l'utente ha aperto la PDP da un modulo che consente un collegamento "Torna ai risultati". Questa funzionalità è disponibile quando gli utenti navigano tra le pagine di categorie, ricerca, elenco e elenchi di suggerimenti. Per supportare questa funzionalità, i moduli Raccolta prodotti e Risultati ricerca hanno una proprietà denominata **Consenti di tornare a risultati in PDP**. Questa proprietà offre la flessibilità di definire i moduli che devono supportare la funzionalità "Torna ai risultati" nella PDP. Ad esempio, quando l'opzione **Mostra di nuovo i risultati** è selezionata in **Tipo di visualizzazione percorso di navigazione in PDP** nel modulo Percorso di navigazione e l'opzione **Consenti di tornare ai risultati in PDP** è selezionata per il modulo Risultati ricerca della pagina di ricerca, verrà visualizzato un collegamento "Torna ai risultati" quando gli utenti passano dalla pagina di ricerca a una pagina PDP.
@@ -66,18 +66,18 @@ Il modulo Percorso di navigazione si basa sull'impostazione **Tipo di visualizza
 
 Per aggiungere un modulo Percorso di navigazione a una pagina PDP e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
-1. Andare a **Impostazioni sito /> Estensioni** , quindi per l'impostazionze **Tipo di visualizzazione percorso di navigazione in PDP** , selezionare **Mostra gerarchia di categorie**.
+1. Andare a **Impostazioni sito \> Estensioni**, quindi per l'impostazionze **Tipo di visualizzazione percorso di navigazione in PDP** selezionare **Mostra gerarchia di categorie**.
 1. Andare a **Modelli** e selezionare il modello PDP.
-1. Nello slot **Contenitore**  che contiene il modulo Casella acquisti, selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nello slot **Contenitore**  che contiene il modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Percorso di navigazione** e quindi **OK**.
-1. Selezionare **Salva** , selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Pagine** e aprire una PDP che utilizza il modello PDP. Se una PDP non esiste ancora, crearne una.
-1. Nello slot **Contenitore**  che contiene il modulo Casella acquisti, selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nello slot **Contenitore**  che contiene il modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Percorso di navigazione** e quindi **OK**.
-1. Nel riquadro delle proprietà dello slot **Percorso di navigazione** , sotto **Radice** , selezionare **Testo collegamento**.
-1. Nella finestra di dialogo **Testo collegamento** , immettere **Home** e sotto **Destinazione collegamento** , selezionare **Aggiungi un collegamento**.
-1. Nella finestra di dialogo **Aggiungi un collegamento** , selezionare un collegamento per la radice del percorso di navigazione, quindi selezionare **OK**.
-1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
+1. Nel riquadro delle proprietà dello slot **Percorso di navigazione**, sotto **Radice**, selezionare **Testo collegamento**.
+1. Nella finestra di dialogo **Testo collegamento**, immettere **Home** e sotto **Destinazione collegamento**, selezionare **Aggiungi un collegamento**.
+1. Nella finestra di dialogo **Aggiungi un collegamento**, selezionare un collegamento per la radice del percorso di navigazione, quindi selezionare **OK**.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
