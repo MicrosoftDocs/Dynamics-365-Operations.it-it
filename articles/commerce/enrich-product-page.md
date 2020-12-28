@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269822"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413380"
 ---
 # <a name="enrich-a-product-page"></a>Migliorare una pagina prodotto
 
@@ -54,7 +54,7 @@ Per migliorare una pagina prodotto, attenersi alla procedura riportata di seguit
 1. Nel riquadro delle proprietà a destra, nel campo **RTF**, immettere la descrizione aggiornata del prodotto.
 1. Nel campo **Intestazione**, immettere il testo dell'intestazione e quindi selezionare **OK**.
 1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
-1. Nel campo **Commenti**, immettere **Prodotto migliorato**e selezionare **OK**.
+1. Nel campo **Commenti**, immettere **Prodotto migliorato** e selezionare **OK**.
 1. Selezionare **Anteprima** per eseguire l'anteprima della pagina prodotto migliorata. Al termine, chiudere la scheda Anteprima per tornare allo strumento di creazione.
 1. Selezionare **Pubblica**
 

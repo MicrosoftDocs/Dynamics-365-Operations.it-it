@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 28954eab857a06da3978ca362081dfc3c525354d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023054"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413532"
 ---
 # <a name="set-up-call-center-channels"></a>Impostare canali servizio clienti
 
@@ -82,5 +82,5 @@ Gli utenti che non sono collegati a un canale servizio clienti utilizzano le fun
 Dopo aver completato la configurazione del canale servizio clienti e la definizione degli utenti del canale, per garantire il comportamento del sistema desiderato, assicurarsi che tutti i parametri necessari del servizio clienti siano definiti in **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti**. Assicurarsi che anche le sequenze numeriche correlate vengano definite.
 
 > [!NOTE]
-> Per utilizzare la funzionalità di servizio clienti, la chiave di configurazione per **Indirizzi di spedizione multipli**deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\>**Impostazioni**\>**Configurazione licenza**. Ciò è necessario a causa della funzionalità di servizio clienti che esegue varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente. 
+> Per utilizzare la funzionalità di servizio clienti, la chiave di configurazione per **Indirizzi di spedizione multipli** deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\>**Impostazioni**\>**Configurazione licenza**. Ciò è necessario a causa della funzionalità di servizio clienti che esegue varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente. 
 

@@ -19,18 +19,18 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097164"
+ms.locfileid: "4413593"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identificare un'ipotesi e determinare le metriche per un esperimento
 La prima fase del ciclo di vita della sperimentazione include l'identificazione dell'ipotesi per l'esperimento e la determinazione delle metriche da monitorare per valutare l'esito positivo dell'esperimento. Il diagramma seguente mostra tutti i passaggi relativi alla [configurazione e all'esecuzione di un esperimento](experimentation-overview.md) su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati. 
 
 [ ![Percorso utente per sperimentazione - Identificazione](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
-Un'ipotesi è un'asserzione in cui prevedi il risultato dell'esperimento. Molti fattori contribuiscono alla definizione di un'ipotesi, ad esempio la ricerca sul comportamento degli utenti e sui dati del sito Web raccolti. Con l'ipotesi, definirai l'assunto o la teoria che vuoi convalidare con l'esperimento. Un esempio di ipotesi per l'esperimento potrebbe essere " *un'immagine di una t-shirt bianca sulla mia home page genererà una percentuale di clic più alta rispetto a un maglione blu scuro durante i mesi estivi poiché le persone vogliono indossare qualcosa di leggero e di colore chiaro in estate.* " In tal caso, creerai varianti che includono una t-shirt bianca e un maglione blu scuro e pubblicherai entrambi contemporaneamente.
+Un'ipotesi è un'asserzione in cui prevedi il risultato dell'esperimento. Molti fattori contribuiscono alla definizione di un'ipotesi, ad esempio la ricerca sul comportamento degli utenti e sui dati del sito Web raccolti. Con l'ipotesi, definirai l'assunto o la teoria che vuoi convalidare con l'esperimento. Un esempio di ipotesi per l'esperimento potrebbe essere "*un'immagine di una t-shirt bianca sulla mia home page genererà una percentuale di clic più alta rispetto a un maglione blu scuro durante i mesi estivi poiché le persone vogliono indossare qualcosa di leggero e di colore chiaro in estate.*" In tal caso, creerai varianti che includono una t-shirt bianca e un maglione blu scuro e pubblicherai entrambi contemporaneamente.
 
 Per convalidare un'ipotesi, l'esito positivo o negativo di un esperimento dovrebbe essere direttamente associato alle azioni dell'utente; ad esempio, se l'utente del sito web fa clic su un collegamento o un pulsante. Queste azioni devono corrispondere agli eventi che verranno segnalati al servizio di terze parti che monitora l'esperimento. Nel tempo, la percentuale di utenti che intraprendono l'azione verrà conteggiata come metrica che puoi utilizzare per generare rapporti e condurre analisi. Per esaminare tutti gli eventi e gli attributi disponibili vedere [Eventi dei componenti Commerce per la diagnostica e la risoluzione dei problemi](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
 

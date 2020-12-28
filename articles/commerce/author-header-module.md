@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055452"
+ms.locfileid: "4413591"
 ---
 # <a name="header-module"></a>Modulo Intestazione
 
@@ -34,7 +34,7 @@ In questo argomento vengono descritti i moduli Intestazione e la procedura per c
 
 In Dynamics 365 Commerce, un'intestazione di pagina è configurata come un frammento di pagina che include l'intestazione, il banner promozionale e i moduli di consenso dei cookie. 
 
-Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito, il modulo dell'icona del carrello, il simbolo dell'elenco preferenze, opzioni di accesso e la barra di ricerca. Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (in altre parole un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger* ).
+Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia di navigazione, collegamenti ad altre pagine del sito, il modulo dell'icona del carrello, il simbolo dell'elenco preferenze, opzioni di accesso e la barra di ricerca. Un modulo Intestazione viene automaticamente ottimizzato per il dispositivo sul quale viene visualizzato il sito (in altre parole un dispositivo desktop o un dispositivo mobile). Ad esempio, in un dispositivo mobile, la barra di navigazione è compressa in un pulsante **Menu** (a volte definito *menu hamburger*).
 
 L'immagine seguente mostra un esempio di modulo Intestazione in una home page.
 
@@ -42,7 +42,7 @@ L'immagine seguente mostra un esempio di modulo Intestazione in una home page.
 
 ## <a name="properties-of-a-header-module"></a>Proprietà di un modulo Intestazione
 
-Un modulo Intestazione supporta le proprietà **Immagine logo** , **Collegamento logo** e **Collegamenti account personale**. 
+Un modulo Intestazione supporta le proprietà **Immagine logo**, **Collegamento logo** e **Collegamenti account personale**. 
 
 Le proprietà **Immagine logo** e **Collegamento logo** vengono utilizzate per definire un logo nella pagina. Per ulteriori informazioni, vedere [Aggiungere un logo](add-logo.md). 
 
@@ -72,33 +72,33 @@ Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Int
 Per creare un frammento Intestazione, procedere come segue.
 
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
-1. Nella finestra di dialogo **Nuovo frammento** , selezionare il modulo **Contenitore** , immettere un nome per il frammento e selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Contenitore**, immettere un nome per il frammento e selezionare **OK**.
 1. Selezionare lo slot **Contenitore predefinito** e nel riquadro delle proprietà a destra, impostare la proprietà **Larghezza** su **Riempi schermo**.
-1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione ( **...** ) quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare i moduli **Consenso per i cookie** , **Intestazione** e **Banner promozionale** , quindi selezionare **OK**.
+1. Nello slot **Contenitore predefinito** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare i moduli **Consenso per i cookie**, **Intestazione** e **Banner promozionale**, quindi selezionare **OK**.
 1. Nel riquadro delle proprietà del modulo **Banner promozionale** selezionare **Aggiungi messaggio** e quindi **Messaggio** .
-1. Nella finestra di dialogo **Messaggio** , aggiungere il testo e i collegamenti per il contenuto promozionale e selezionare **OK**.
+1. Nella finestra di dialogo **Messaggio**, aggiungere il testo e i collegamenti per il contenuto promozionale e selezionare **OK**.
 1. Nel riquadro delle proprietà del modulo **Consenso per i cookie** aggiungere e configurare il testo e un collegamento alla pagina della privacy del sito.
-1. Nello slot **Menu di navigazione** del modulo Intestazione, selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** , selezionare il modulo **Menu di navigazione** e quindi **OK**.
-1. Nel riquadro delle proprietà per il modulo del menu di spostamento, sotto **Origine menu di spostamento** , selezionare **Retail Server** .
+1. Nello slot **Menu di navigazione** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Menu di navigazione** e quindi **OK**.
+1. Nel riquadro delle proprietà per il modulo del menu di spostamento, sotto **Origine menu di spostamento**, selezionare **Retail Server** .
 1. Nel riquadro delle proprietà per il modulo del menu di spostamento, sotto **Voci di menu statiche** selezionare **Aggiungi voce di menu** e quindi selezionare **Voce di menu** . 
-1. Nella finestra di dialogo **Voce di menu** , sotto **Testo voce di menu** inserire "Contatto".
-1. Nella finestra di dialogo **Voce di menu** , sotto **Destinazione collegamento voce di menu** selezionare **Aggiungi un collegamento** .
-1. Nella finestra di dialogo **Aggiungi un collegamento** , selezionare l'URL per la pagina "Contatti" del sito, quindi selezionare **OK**.  
+1. Nella finestra di dialogo **Voce di menu**, sotto **Testo voce di menu** inserire "Contatto".
+1. Nella finestra di dialogo **Voce di menu**, sotto **Destinazione collegamento voce di menu** selezionare **Aggiungi un collegamento** .
+1. Nella finestra di dialogo **Aggiungi un collegamento**, selezionare l'URL per la pagina "Contatti" del sito, quindi selezionare **OK**.  
 1. Nella finestra di dialogo **Voce di menu** selezionare **OK**.
-1. Nello slot **Ricerca** del modulo Intestazione, selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nello slot **Ricerca** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Ricerca** e quindi **OK**.
 1. Nel riquadro delle proprietà per il modulo Ricerca, configurare le proprietà come necessario.
-1. Nello slot **Icona carrello** del modulo Intestazione, selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
+1. Nello slot **Icona carrello** del modulo Intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Icona carrello** e quindi **OK**.
 1. Nel riquadro delle proprietà per il modulo Icona carrello, configurare le proprietà come necessario. Se l'icona del carrello deve visualizzare un riepilogo del carrello (noto anche come mini carrello) quando il puntatore del mouse si trova sull'icona, selezionare **Mostra mini carrello**.
-1. Selezionare **Salva** , selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 
 Per assicurare che un'intestazione sia visualizzata in ogni pagina, effettuare le seguenti operazioni in ogni modello di pagina creato per il sito.
 
-1. Nello slot **Intestazione** del modulo **Pagina predefinita** , aggiungere il frammento piè di pagina creato.
-1. Selezionare **Salva** , selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
+1. Nello slot **Intestazione** del modulo **Pagina predefinita**, aggiungere il frammento piè di pagina creato.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

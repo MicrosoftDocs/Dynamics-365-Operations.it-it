@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761275"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413401"
 ---
 # <a name="add-a-privacy-policy-page"></a>Aggiungere una pagina dell'Informativa sulla privacy
 
@@ -69,17 +69,17 @@ Per creare una pagina di informativa sulla privacy, attenersi alla seguente proc
 1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una pagina.
 1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello per la pagina dell'informativa sulla privacy.
 1. Immettere un nome e un URL per la pagina e selezionare **OK**. 
-1. Nello slot **Principale**della pagina, aggiungere un modulo **Blocco ricco di contenuti**.
+1. Nello slot **Principale** della pagina, aggiungere un modulo **Blocco ricco di contenuti**.
 1. Nel modulo **Blocco ricco di contenuti**, aggiungi un modulo **Elemento blocco ricco di contenuti**.
 1. Nel riquadro delle proprietà del modulo **Blocco ricco di contenuti**, selezionare **Aggiungi origine dati**, quindi selezionare **Contenuto RTF**.
 1. Nell'editor di testo RTF, immettere il contenuto per la pagina dell'informativa sulla privacy. Espandere l'editor di testo RTF nella modalità a schermo intero in base alle necessità.
-1. Dopo aver inserito i contenuti, selezionare **Anteprima**per visualizzare l'anteprima della pagina nel browser Web.
+1. Dopo aver inserito i contenuti, selezionare **Anteprima** per visualizzare l'anteprima della pagina nel browser Web.
 1. Completa eventuali aggiunte restanti alla pagina e alle proprietà del modulo.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 Per pubblicare l'URL per la pagina dell'informativa sulla privacy, procedere come segue.
 
-1. Vai a **URL**e seleziona l'URL per la pagina dell'informativa sulla privacy.
+1. Vai a **URL** e seleziona l'URL per la pagina dell'informativa sulla privacy.
 1. Selezionare **Pubblica** per pubblicare l'URL selezionato.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Creare un collegamento alla pagina dell'informativa sulla privacy in un piè di pagina

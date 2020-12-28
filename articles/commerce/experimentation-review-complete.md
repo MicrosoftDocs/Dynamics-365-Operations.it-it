@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097095"
+ms.locfileid: "4413599"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promuovere una variante e completare un esperimento
 
@@ -40,7 +40,7 @@ Per promuovere la variante migliore, seguire questi passaggi.
 
 1. In Creazione di siti Web di Commerce selezionare **Esperimenti** nel riquadro di spostamento a sinistra e selezionare l'esperimento.
 1. Selezionare **Completa esperimento** nella barra dei comandi.
-1. Nella casella di dialogo **Completa l'esperimento** , selezionare **Esamina dati dell'esperimento**. Si apre il servizio di terze parti in cui è possibile convalidare le metriche e determinare quale variante ha avuto il rendimento migliore.
+1. Nella casella di dialogo **Completa l'esperimento**, selezionare **Esamina dati dell'esperimento**. Si apre il servizio di terze parti in cui è possibile convalidare le metriche e determinare quale variante ha avuto il rendimento migliore.
 1. Nella casella di dialogo **Completa l'esperimento** selezionare la variante migliore e quindi selezionare **Avanti**.
 1. Apri il servizio di terze parti e interrompi l'esperimento.
 1. In Creazione di siti Web, seleziona **Completa** per sovrascrivere la pagina live originale e pubblicare la variante migliore di modo che sia disponibile a tutti gli utenti del sito web. 

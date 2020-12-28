@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014888"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4413612"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layout schermo con dati dimostrativi in Modern POS (MPOS) e Cloud POS
 
@@ -64,6 +64,7 @@ Gli ID layout schermo possono avere un massimo di 10 caratteri. L'ID è una stri
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La versione di base che supporta molteplici dimensioni di schermo per vari dispositivi e proporzioni |
 | 3.1            | La versione di base con un supporto aggiuntivo per il pannello **Prodotti consigliati**        |
+| 4              | La versione estesa per il layout aggiornato di Fabrikam esteso                                  |
 
 ### <a name="persona"></a>Persona
 
@@ -75,9 +76,9 @@ Gli ID layout schermo possono avere un massimo di 10 caratteri. L'ID è una stri
 
 ### <a name="example-layout"></a>Layout di esempio
 
-Di seguito viene riportato un esempio di ID layout per la società Fabrikam, layout versione 3 e la persona Responsabile punto vendita:
+Di seguito viene riportato un esempio di ID layout per la società Fabrikam, layout versione 4 e la persona Responsabile punto vendita:
 
-F3MGR
+F4MGR
 
 Nella figura seguente è illustrato un esempio della schermata di benvenuto per un responsabile punto vendita di Fabrikam.
 
@@ -103,6 +104,7 @@ Nella tabella seguente vengono illustrate le dimensioni di layout fornite per ri
 | Completo\*      | 1280 × 720 | 16:9         | Tablet                 |
 | Completo        | 1366 × 768 | 16:9         | Tablet, schermi più grandi |
 | Completo        | 1440 × 960 | 3:2          | Tablet, schermi più grandi |
+| Completo\*      | 1536 × 864 | 16:9         | Tablet, schermi più grandi |
 
 \* Queste dimensioni di layout aggiuntive sono disponibili solo nei layout di Fabrikam e Adventure Works.
 
@@ -120,7 +122,7 @@ Ogni società fittizia è relativa ad un segmento di vendita al dettaglio differ
 | Società         | Percorso | Segmento        | Principale | Tema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Articoli sportivi | Blu   | Scuro  |
-| Fabrikam        | Houston  | Abbigliamento        | Verde  | Leggero |
+| Fabrikam        | San Francisco  | Abbigliamento        | Verde  | Chiaro |
 | Contoso         | Boston   | Elettronica    | Rosso    | Scuro  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Degli utenti sono stati specificati per i vari layout schermo. Mediante la segue
 | Adventure Works | A3MGR            | Responsabile punto vendita | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Cassiere       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Addetto alle scorte   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Responsabile punto vendita | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Responsabile punto vendita | 000160, 000713         |
 | Fabrikam        | F3CSH            | Cassiere       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Addetto alle scorte   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Responsabile punto vendita | 000100, 000111         |

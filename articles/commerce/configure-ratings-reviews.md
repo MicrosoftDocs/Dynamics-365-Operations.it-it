@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071568"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413358"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurare valutazioni e recensioni
 
@@ -59,7 +59,7 @@ Per collegare la valutazione di una prodotto alla sezione **Recensioni** della p
 
 1. Aprire il modello PDP. 
 1. Andare a **Impostazioni modulo contenitore Casella acquisti**.
-1. In **Casella acquisti**selezionare **Valutazioni prodotti**, quindi selezionare la casella di controllo **Collega clic a modulo Recensioni completo**.
+1. In **Casella acquisti** selezionare **Valutazioni prodotti**, quindi selezionare la casella di controllo **Collega clic a modulo Recensioni completo**.
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 

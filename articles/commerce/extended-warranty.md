@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621195"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413347"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Creare e configurare garanzie estese
 
@@ -88,7 +88,7 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 
 1. Selezionare **Salva** per salvare l'articolo garanzia.
 1. Rilasciare il prodotto garanzia all'azienda in modo che possa essere venduto. Per ulteriori informazioni, vedere [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md).
-1. Nella pagina**Dettagli prodotto rilasciato** nella scheda dettaglio **Garanzia**, impostare i campi **Base scaglione prezzo**, **Limite inferiore** e **Limite superiore**.
+1. Nella pagina **Dettagli prodotto rilasciato** nella scheda dettaglio **Garanzia**, impostare i campi **Base scaglione prezzo**, **Limite inferiore** e **Limite superiore**.
 
     | Nome campo | Valore | descrizione |
     |------------|-------|-------------|

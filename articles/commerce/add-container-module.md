@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817404"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413392"
 ---
 # <a name="container-module"></a>Modulo Contenitore
 
@@ -85,8 +85,8 @@ Il contenitore con il tipo di moduli a 3 slot è ottimizzato per un layout a tre
 Ulteriori proprietà possono essere utilizzate per ottimizzare il layout per differenti porte di visualizzazione. Per ogni porta di visualizzazione, è possibile definire la larghezza di ogni colonna. Le seguenti impostazioni sono disponibili per la larghezza di colonna:
 
 - **33%/33%/33%** - Tutti e tre i moduli hanno una larghezza di colonna uguale.
-- **50%/25%/25%** - Il primo modulo ha una larghezza di colonna del 50% e ognuno dei due moduli rimanenti ha una larghezza di colonna del 25%. Sono disponibili anche le opzioni **25%/50%/25%** e**25%/25%/50%**.
-- **16%/16%/67%** - Ognuno dei due primi moduli ha una larghezza di colonna del 16% e il terzo modulo ha una larghezza di colonna del 67%. Sono disponibili anche le opzioni **16%/67%/16%** e**67%/16%/16%**.
+- **50%/25%/25%** - Il primo modulo ha una larghezza di colonna del 50% e ognuno dei due moduli rimanenti ha una larghezza di colonna del 25%. Sono disponibili anche le opzioni **25%/50%/25%** e **25%/25%/50%**.
+- **16%/16%/67%** - Ognuno dei due primi moduli ha una larghezza di colonna del 16% e il terzo modulo ha una larghezza di colonna del 67%. Sono disponibili anche le opzioni **16%/67%/16%** e **67%/16%/16%**.
 
 ### <a name="container-with-3-slots-properties"></a>Proprietà del contenitore con 3 slot
 

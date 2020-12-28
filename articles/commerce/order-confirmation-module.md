@@ -1,9 +1,9 @@
 ---
-title: Modulo Dettagli ordini
-description: In questo argomento vengono descritti i moduli Dettagli ordine e la procedura per utilizzarli in Microsoft Dynamics 365 Commerce.
-author: anupamar
+title: Modulo Conferma ordine
+description: In questo argomento vengono descritti i moduli Conferma ordine e la procedura per usarli in Microsoft Dynamics 365 Commerce.
+author: anupamar-ms
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,56 +17,57 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015182"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413619"
 ---
-# <a name="order-details-module"></a>Modulo Dettagli ordini
+# <a name="order-confirmation-module"></a>Modulo conferma ordine
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Dettagli ordine e la procedura per utilizzarli in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Conferma ordine e la procedura per usarli in Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-Il modulo Dettagli ordine viene utilizzato per visualizzare i dettagli di conferma di un ordine dopo l'esecuzione dell'ordine. Mostra l'ID di conferma dell'ordine, le informazioni di contatto dell'ordine e altri dettagli, come gli articoli acquistati, le informazioni di pagamento e il metodo di spedizione.
+Il modulo Conferma ordine viene utilizzato per visualizzare i dettagli di conferma di un ordine dopo l'esecuzione dell'ordine. Mostra l'ID di conferma dell'ordine, le informazioni di contatto dell'ordine e altri dettagli, come gli articoli acquistati, le informazioni di pagamento, le opzioni di ritiro e il metodo di spedizione.
 
-## <a name="order-details-module-properties"></a>Proprietà del modulo Dettagli ordine
+## <a name="order-confirmation-module-properties"></a>Proprietà del modulo Conferma ordine
 
-| Nome proprietà  | Valori | descrizione |
+| Nome proprietà  | Valori | Descrizione |
 |----------------|--------|-------------|
-| Intestazione        | Testo e tag di intestazione ( **H1** , **H2** , **H3** , **H4** , **H5** o **H6** ) | Il modulo Dettagli ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
+| Intestazione        | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**), | Il modulo Conferma ordine può avere un'intestazione. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Numero contatto | Text | È possibile fornire un numero di contatto per domande relative all'ordine. |
+| Mostrare le informazioni sulla fascia oraria per il ritiro | True o false | Questa proprietà è disponibile in Dynamics 365 Commerce 10.0.15 e versioni successive. Quando è impostata su vero, visualizza le informazioni sulla fascia oraria per il ritiro se fornite per un articolo da ritirare|
 
-## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduli che possono essere utilizzati in una pagina Dettagli ordine
+## <a name="modules-that-can-be-used-on-an-order-confirmation-page"></a>Moduli che possono essere utilizzati in una pagina Conferma ordine
 
-Quando si crea una pagina Dettagli ordine, è possibile aggiungere altri moduli pertinenti oltre al modulo Dettagli ordine. Di seguito sono riportati alcuni esempi.
+Quando si crea una pagina Conferma ordine, è possibile aggiungere altri moduli pertinenti oltre al modulo Conferma ordine. Di seguito sono riportati alcuni esempi.
 
-- **Modulo Suggerimenti** - Il modulo Suggerimenti può essere aggiunto alla pagina Dettagli ordine per suggerire altri prodotti al cliente.
-- **Moduli Marketing** - È possibile aggiungere qualsiasi modulo Marketing alla pagina Dettagli ordine per visualizzare contenuti di marketing.
+- **Modulo Suggerimenti** - Il modulo Suggerimenti può essere aggiunto alla pagina Conferma ordine per suggerire altri prodotti al cliente.
+- **Moduli Marketing** - È possibile aggiungere qualsiasi modulo Marketing alla pagina Conferma ordine per visualizzare contenuti di marketing.
 
-## <a name="add-an-order-details-module-to-a-page"></a>Aggiungi un un modulo Dettagli ordine a una pagina
+## <a name="add-an-order-confirmation-module-to-a-page"></a>Aggiungere un un modulo Conferma ordine a una pagina
 
-Per aggiungere un modulo Dettagli ordine a una nuova pagina e impostare le proprietà necessarie, effettua le seguenti operazioni.
+Per aggiungere un modulo Conferma ordine a una nuova pagina e impostare le proprietà necessarie, effettuare le seguenti operazioni.
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
-1. Nella finestra di dialogo **Nuovo modello** , sotto **Nome modello** , immetti un nome per **Modello Dettagli ordine** , quindi seleziona **OK**.
-1. Nello slot **Corpo** selezionare i puntini di sospensione ( **...** ) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere un nome per **Modello Conferma ordine**, quindi selezionare **OK**.
+1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
 1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
-1. Nello slot **Principale** del modulo **Pagina predefinita** , selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** , seleziona il modulo **Dettagli ordine** quindi **OK**.
-1. Seleziona **Salva** , quindi **Anteprima** per visualizzare l'anteprima del modello. Il rendering del modulo Dettagli ordine non verrà eseguito in quanto richiede il contesto del numero di conferma ordine.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Conferma ordine** quindi **OK**.
+1. Seleziona **Salva**, quindi **Anteprima** per visualizzare l'anteprima del modello. Non si deve eseguire il rendering del modulo Conferma ordine in quanto richiede il contesto del numero di conferma ordine.
 1. Selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
-1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello** , seleziona **Modello dettagli ordine**. Sotto **Nome pagina** , immetti **Pagina dettagli ordine** e seleziona **OK**.
-1. Nello slot **Principale** del modulo **Pagina predefinita** , selezionare i puntini di sospensione ( **...** ) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** , seleziona il modulo **Dettagli ordine** quindi **OK**.
-1. Nel riquadro delle proprietà del modulo Dettagli ordine, seleziona **Intestazione** accanto al simbolo della matita.
-1. Nel campo **Titolo dell'intestazione** della finestra di dialogo **Intestazione** , immetti il testo dell'intestazione **Dettagli ordine** , quindi seleziona **OK**.
-1. Selezionare **Salva** , quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
+1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Scegli un modello**, selezionare **Modello Conferma ordine**. Sotto **Nome pagina**, immettere **Pagina Conferma ordine** e selezionare **OK**.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo**, selezionare il modulo **Conferma ordine** quindi **OK**.
+1. Nel riquadro delle proprietà del modulo Conferma ordine, selezionare **Intestazione** accanto al simbolo della matita.
+1. Nel campo **Titolo dell'intestazione** della finestra di dialogo **Intestazione**, immettere il testo dell'intestazione **Conferma ordine**, quindi selezionare **OK**.
+1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
@@ -82,5 +83,7 @@ Per aggiungere un modulo Dettagli ordine a una nuova pagina e impostare le propr
 [Modulo indirizzo di spedizione](ship-address-module.md)
 
 [Modulo opzioni di consegna](delivery-options-module.md)
+
+[Modulo di informazioni sul ritiro](pickup-info-module.md)
 
 [Modulo gift card](add-giftcard.md)

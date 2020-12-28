@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413330"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
 
@@ -85,7 +85,7 @@ In questo scenario, le spese a livello di intestazione sono definite per la rela
 
 ![Spese automatiche per la modalità di consegna 11 quando la ripartizione automatica nelle righe corrispondenti è attivata](media/11_enabled.png)
 
-Questo scenario utilizza lo stesso ordine cliente contenente cinque righe. La modalità di consegna nell'intestazione dell'ordine è impostata su**99**, ma la modalità di consegna per ogni articolo dell'ordine cliente è configurata come illustrato nella seguente tabella.
+Questo scenario utilizza lo stesso ordine cliente contenente cinque righe. La modalità di consegna nell'intestazione dell'ordine è impostata su **99**, ma la modalità di consegna per ogni articolo dell'ordine cliente è configurata come illustrato nella seguente tabella.
 
 | Articolo  | Quantità riga | Modalità di consegna | Prezzo unitario |
 |-------|---------------|---------------|----------------|

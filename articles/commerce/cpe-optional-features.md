@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599822"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413351"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
 
@@ -78,7 +78,7 @@ Se si desidera valutare le funzionalità di posta elettronica transazionali, è 
 1. Utilizzare il menu a sinistra per selezionare **Moduli \> Retail e Commerce \>  Impostazione sedi centrali \> Parametri \> Parametri posta elettronica**.
 1. Nella scheda **Impostazioni SMTP**, nel campo **Server di posta in uscita**, immettere il nome FQDN o l'indirizzo IP del server SMTP o del servizio di posta elettronica.
 1. Nel campo **Numero porta SMTP** immettere il numero di porta. (Se non si utilizza Secure Sockets Layer \[SSL\], il numero di porta predefinito è **25** .)
-1. Se è richiesta l'autenticazione, immettere i valori nei campi **Nome utente**e **Password**.
+1. Se è richiesta l'autenticazione, immettere i valori nei campi **Nome utente** e **Password**.
 1. Selezionare **Salva**.
 1. Selezionare **Aggiorna**.
 1. Sulla scheda **Messaggio e-mail di prova** nel campo **Provider di posta elettronica**, selezionare **SMTP**.
@@ -120,7 +120,7 @@ Potresti voler personalizzare i modelli di messaggio di posta elettronica in mod
     1. Selezionare il modello nell'elenco.
     1. In **Contenuto messaggio posta elettronica**, selezionare la versione appropriata della lingua nell'elenco. Il valore predefinito della lingua è **en-us**.
     1. In **Contenuto messaggio posta elettronica**, selezionare **Modifica**. Viene visualizzato il riquadro **Carica modello di messaggio di posta elettronica**.
-    1. Selezionare **Sfoglia**e trovare il file HTML con il contenuto personalizzato.
+    1. Selezionare **Sfoglia** e trovare il file HTML con il contenuto personalizzato.
     1. Selezionare **Carica**. Il modello viene caricato nel sistema e viene visualizzata un'anteprima.
     1. Selezionare **OK**.
     1. Facoltativo: Personalizzare la proprietà **Oggetto** del modello.

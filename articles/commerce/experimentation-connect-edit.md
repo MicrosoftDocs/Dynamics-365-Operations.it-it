@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096969"
+ms.locfileid: "4413596"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Collegare un esperimento e modificare varianti
 
@@ -60,13 +60,13 @@ Per collegare l'esperimento, avvierai la procedura guidata **Collega l'esperimen
 
 Per iniziare la connessione dell'esperimento in Creazione di siti Web di Commerce seguire questi passaggi.
 
-1. Per avviare la procedura guidata **Connetti esperimento** , selezionare **Esperimenti** nel riquadro di spostamento a sinistra, quindi selezionare **Connetti**. In alternativa, è possibile accedere alla procedura guidata da una pagina o da un editor di frammenti modificandolo e selezionando **Connetti esperimento** sulla barra dei comandi.
+1. Per avviare la procedura guidata **Connetti esperimento**, selezionare **Esperimenti** nel riquadro di spostamento a sinistra, quindi selezionare **Connetti**. In alternativa, è possibile accedere alla procedura guidata da una pagina o da un editor di frammenti modificandolo e selezionando **Connetti esperimento** sulla barra dei comandi.
 
     > [!NOTE]
     > Una pagina può essere collegata solo a un esperimento alla volta. Per collegare una pagina a un altro esperimento, elimina prima l'esperimento a cui la pagina è attualmente collegata.
 
 1. Scegli la pagina o il frammento su cui desideri eseguire l'esperimento.
-1. Imposta l'ambito della sperimentazione su **parziale** o **intero** , in base alla scelta che hai fatto nella sezione [Determinare l'ambito dell'esperimento](#determine-the-scope-of-your-experiment) vista sopra.
+1. Imposta l'ambito della sperimentazione su **parziale** o **intero**, in base alla scelta che hai fatto nella sezione [Determinare l'ambito dell'esperimento](#determine-the-scope-of-your-experiment) vista sopra.
     > [!NOTE]
     > Il flag della funzionalità **Sperimenta su pagine o frammenti** deve essere abilitato se desideri sperimentare su una pagina o su un frammento intero. Per ulteriori informazioni, fai riferimento all'argomento [Sperimentazione in Dynamics 365 Commerce](experimentation-overview.md):
     
@@ -84,7 +84,7 @@ Segui questi passaggi se hai definito l'ambito dell'esperimento come **parziale*
 1. Seleziona il modulo su cui sperimentare, seleziona i puntini di sospensione (...), quindi seleziona **Aggiungi all'esperimento**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Modificare varianti per esperimenti con ambito intero
-Se hai definito l'ambito dell'esperimento come **intero** nella procedura guidata **Collega l'esperimento** , nella visualizzazione dell'editor utilizza il menu a discesa delle varianti sotto la barra dei comandi per modificare ogni variante in base all'ipotesi originale. 
+Se hai definito l'ambito dell'esperimento come **intero** nella procedura guidata **Collega l'esperimento**, nella visualizzazione dell'editor utilizza il menu a discesa delle varianti sotto la barra dei comandi per modificare ogni variante in base all'ipotesi originale. 
 
 > [!NOTE]
 > In entrambi i casi, puoi anche stabilire una variante di base o controllo lasciando invariata una delle varianti.
