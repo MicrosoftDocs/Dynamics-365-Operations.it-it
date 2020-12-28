@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057054"
+ms.locfileid: "4419278"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Panoramica self-service per dipendenti e manager
 
@@ -35,11 +35,11 @@ Se è necessario aggiungere o modificare informazioni personali, vedere [Modific
 
 ## <a name="user-not-assigned-to-a-worker-record"></a>Utente non assegnato a un record lavoratore
 
-Se non l'utente non è stato collegato a un record **Lavoratore** nella pagina **Utenti** , verrà visualizzato il seguente messaggio:
+Se non l'utente non è stato collegato a un record **Lavoratore** nella pagina **Utenti**, verrà visualizzato il seguente messaggio:
 
 **ID utente non associato ad alcun record dipendente nel sistema. Non sarà possibile visualizzare né aggiornare le informazioni fino a quando non viene eseguita un'associazione. Per assistenza, contattare il responsabile o il team di supporto.**
 
-Per associare un utente a un record **Lavoratore** passare a **Utenti** e selezionare l'utente. Selezionare **Modifica** , aggiungere il lavoratore corrispondente nel campo **Persona** nel modulo e selezionare **Salva**. Ora è possibile accedere al self-service dei dipendenti.
+Per associare un utente a un record **Lavoratore** passare a **Utenti** e selezionare l'utente. Selezionare **Modifica**, aggiungere il lavoratore corrispondente nel campo **Persona** nel modulo e selezionare **Salva**. Ora è possibile accedere al self-service dei dipendenti.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisiti di sicurezza per il self-service dipendenti e responsabili
 
@@ -80,7 +80,7 @@ La scheda **Certificati** visualizza il certificato e la data di scadenza del ce
 
 La scheda **Prossima revisione programmata** mostra la prossima revisione delle prestazioni. È possibile iniziare una nuova revisione da questa scheda. Anche il manager o il rappresentante delle risorse umane può avviare revisioni. A seconda delle impostazioni dell'organizzazione, è possibile anche visualizzare, aggiornare e inviare revisioni di uscita da questa scheda.
 
-È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato ( **Non avviato** , **Operativo** e **Richiede miglioramento** ). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misurazioni e stato. È anche possibile includere allegati.
+È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misurazioni e stato. È anche possibile includere allegati.
 
 È possibile visualizzare le competenze esistenti nella scheda **Competenze**. È possibile aggiornare le competenze, aggiungerne di nuove o rimuovere quelle che non sono più pertinenti. A seconda delle impostazioni dell'organizzazione, la modifica alle competenze potrebbe essere soggetta a un processo di approvazione.
 
@@ -94,13 +94,13 @@ Questa sezione fornisce i collegamenti ad altre aree self-service dei dipendenti
 
 Registrarsi per ottenere vantaggi tramite il collegamento **Vantaggi**. Per ulteriori informazioni sulla gestione dei vantaggi, vedere [Panoramica dei vantaggi](hr-benefits-management-overview.md)
 
-In **Prestazioni** , è possibile selezionare **Giornali di registrazione prestazioni** per creare voci del giornale di registrazione prestazioni da utilizzare su obiettivi e revisioni delle prestazioni. È possibile selezionare **Invia feedback** per fornire feedback ad altri dipendenti all'interno dell'organizzazione. A seconda delle impostazioni dell'organizzazione, i messaggi e-mail possono essere inviati al destinatario, al mittente e ai manager. È possibile inviare il feedback a tutti i dipendenti all'interno dell'organizzazione. L'invio del feedback non è limitato dalla società.
+In **Prestazioni**, è possibile selezionare **Giornali di registrazione prestazioni** per creare voci del giornale di registrazione prestazioni da utilizzare su obiettivi e revisioni delle prestazioni. È possibile selezionare **Invia feedback** per fornire feedback ad altri dipendenti all'interno dell'organizzazione. A seconda delle impostazioni dell'organizzazione, i messaggi e-mail possono essere inviati al destinatario, al mittente e ai manager. È possibile inviare il feedback a tutti i dipendenti all'interno dell'organizzazione. L'invio del feedback non è limitato dalla società.
 
-In **Competenze** , è possibile apportare modifiche a **Corsi** , **Formazione** , **Posizioni di fiducia** ed **Esperienza professionale**. A seconda delle impostazioni dell'organizzazione, gli aggiornamenti delle competenze potrebbero essere soggetti a un processo di approvazione.
+In **Competenze**, è possibile apportare modifiche a **Corsi**, **Formazione**, **Posizioni di fiducia** ed **Esperienza professionale**. A seconda delle impostazioni dell'organizzazione, gli aggiornamenti delle competenze potrebbero essere soggetti a un processo di approvazione.
 
 È possibile visualizzare i dettagli del lavoro in **Organizzazione**. I dettagli del lavoro includono competenze, certificati e aree di responsabilità per la posizione principale. È anche possibile vedere tutte le attrezzature assegnate all'utente. A seconda delle impostazioni dell'organizzazione, la modifica alle attrezzature assegnate potrebbe essere soggetta a un processo di approvazione.
 
-In **Questionario** , è possibile vedere i questionari completati. È anche possibile visualizzare i questionari a livello di società che non sono stati completati. È possibile scegliere di completare un questionario in qualsiasi momento. L'autore del questionario può determinare il periodo di tempo e il destinatario del questionario.
+In **Questionario**, è possibile vedere i questionari completati. È anche possibile visualizzare i questionari a livello di società che non sono stati completati. È possibile scegliere di completare un questionario in qualsiasi momento. L'autore del questionario può determinare il periodo di tempo e il destinatario del questionario.
 
 È possibile configurare i collegamenti definiti dall'utente in **Parametri risorse umane**. Ad esempio, è possibile definire i collegamenti ai rendiconto di retribuzione, alla documentazione di fine anno o a soluzioni esterne. Questi collegamenti vengono visualizzati nella parte inferiore di questa sezione, ma è possibile spostarli utilizzando la personalizzazione.
 
@@ -112,7 +112,7 @@ La scheda **Team personale** visualizza le seguenti informazioni per il self ser
 
 ### <a name="personnel-actions"></a>Azioni dipendente
 
-Le azioni del personale vengono visualizzate in base alle opzioni di configurazione **Parametri condivisi risorse umane** e **Parametri risorse umane**. Quando abilitate per **Lavoratori** , le azioni del personale consentono nuove opzioni di menu, tra cui:
+Le azioni del personale vengono visualizzate in base alle opzioni di configurazione **Parametri condivisi risorse umane** e **Parametri risorse umane**. Quando abilitate per **Lavoratori**, le azioni del personale consentono nuove opzioni di menu, tra cui:
 
 - **Richiedi nuovo dipendente**
 - **Richiedi nuovo terzista**
@@ -131,7 +131,7 @@ L'abilitazione di **Azioni della posizione** attiva le seguenti opzioni:
 
 ### <a name="summary"></a>Riepilogo
 
-Le informazioni nella sezione **Sommario** dipendono dalle opzioni selezionate da HR in **Parametri risorse umane**. Nella scheda **Self service manager** della pagina **Parametri risorse umane** , è possibile configurare le opzioni per visualizzare i record in scadenza e le posizioni aperte. L'abilitazione di queste opzioni determina ciò che i manager possono vedere nella sezione **Sommario**.
+Le informazioni nella sezione **Sommario** dipendono dalle opzioni selezionate da HR in **Parametri risorse umane**. Nella scheda **Self service manager** della pagina **Parametri risorse umane**, è possibile configurare le opzioni per visualizzare i record in scadenza e le posizioni aperte. L'abilitazione di queste opzioni determina ciò che i manager possono vedere nella sezione **Sommario**.
 
 È possibile configurare i seguenti riquadri per i manager:
 
@@ -201,7 +201,7 @@ Per visualizzare la cronologia delle retribuzioni, selezionare l'importo della r
 
 #### <a name="leave-and-absence-tab"></a>Scheda Congedo e assenza
 
-La scheda **Congedo e assenza** visualizza i saldi principali per i dipendenti con attività. Per utilizzare o visualizzare un elenco completo delle attività, selezionare **Dettagli** e quindi selezionare **Permesso**. Nel modulo **Permesso** , è possibile visualizzare i saldi, le richieste, i permessi approvati e i saldi previsti per aiutare i dipendenti a gestire meglio il tempo. A seconda delle impostazioni dell'organizzazione, è anche possibile richiedere il permesso per i diretti subalterni e i subalterni estesi.
+La scheda **Congedo e assenza** visualizza i saldi principali per i dipendenti con attività. Per utilizzare o visualizzare un elenco completo delle attività, selezionare **Dettagli** e quindi selezionare **Permesso**. Nel modulo **Permesso**, è possibile visualizzare i saldi, le richieste, i permessi approvati e i saldi previsti per aiutare i dipendenti a gestire meglio il tempo. A seconda delle impostazioni dell'organizzazione, è anche possibile richiedere il permesso per i diretti subalterni e i subalterni estesi.
 
 #### <a name="performance-goals-tab"></a>Scheda Obiettivi prestazioni
 
@@ -211,6 +211,6 @@ I manager possono vedere tutti gli obiettivi del team selezionando il riquadro *
 
 #### <a name="reviews-tab"></a>Scheda Revisioni
 
-La scheda **Revisioni** riepiloga le revisioni che il dipendente ha in ogni stato: **In corso** , **Pronto per la revisione** e **Revisione finale**. Per accedere alla revisione di un dipendente, selezionare il pulsante **Dettagli** quindi selezionare le revisione su cui collaborare. In base a dove si trova una revisione nel processo del flusso di lavoro, è possibile vedere se la revisione è disponibile per l'aggiornamento. 
+La scheda **Revisioni** riepiloga le revisioni che il dipendente ha in ogni stato: **In corso**, **Pronto per la revisione** e **Revisione finale**. Per accedere alla revisione di un dipendente, selezionare il pulsante **Dettagli** quindi selezionare le revisione su cui collaborare. In base a dove si trova una revisione nel processo del flusso di lavoro, è possibile vedere se la revisione è disponibile per l'aggiornamento. 
 
 È possibile vedere tutte le revisioni del team selezionando il riquadro **Revisioni prestazioni team** nella sezione **Riepilogo** di **Team personale**.

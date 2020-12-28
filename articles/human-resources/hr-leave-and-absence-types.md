@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969024"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419171"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
 
@@ -50,7 +50,7 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
 5. In **Generale**, selezionare **Nessuno**, **Programmato** o **Non programmato** nell'elenco a discesa **Categoria**.
 
-6. Seleziona un codice di reddito nell'elenco a discesa**Codice di reddito**.
+6. Seleziona un codice di reddito nell'elenco a discesa **Codice di reddito**.
 
 7. Sotto **Codice motivo obbligatorio**, scegliere se richiedere un codice motivo o meno. Se si desidera richiedere dei codici motivo, potrebbe essere necessario aggiungerli. Sotto **Codici motivo**, selezionare **Aggiungi**, selezionare un codice motivo, quindi selezionare la casella di controllo **Abilitato** accanto allo stesso.
 

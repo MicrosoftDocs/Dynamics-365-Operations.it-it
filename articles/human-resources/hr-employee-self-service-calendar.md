@@ -2,8 +2,8 @@
 title: Creare un calendario di team
 description: Visualizzare e creare calendari di team in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969000"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419285"
 ---
 # <a name="view-team-and-company-calendars"></a>Visualizzare i calendari per team e società
 
@@ -64,6 +64,11 @@ I calendari ora contengono filtri e opzioni aggiuntive. Tutti i calendari includ
 La configurazione del calendario nei parametri di congedo e assenza determina le opzioni di visualizzazione disponibili.
 
 È anche possibile filtrare i calendari per responsabile o reparto. L'assegnazione della posizione principale determina i dipendenti visualizzati quando vengono impostati questi filtri. 
+
+>[!IMPORTANT]
+>La visualizzazione dei permessi e delle assenze tra le aziende è attualmente in anteprima. È necessario abilitarla nell'ambiente **Sandbox**. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br><br>
+>Quindi è necessario abilitare la funzione in **Parametri condivisi delle risorse umane** per visualizzare il filtro della persona giuridica nei calendari. Per ulteriori informazioni, vedere [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md).<br><br>
+>È possibile filtrare il calendario per persona giuridica. Se si desidera visualizzare tutti i dipendenti indipendentemente dalla persona giuridica, deselezionare la casella del filtro e selezionare Invio. 
 
 Per informazioni sulle impostazioni del calendario, vedere [Configurare i parametri del calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554355"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419269"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Modificare il nome dell'area di lavoro Dipendente self-service
 
