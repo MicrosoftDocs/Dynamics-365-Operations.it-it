@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8439b88ccda3f72e5a9b918c6c89bd406599b516
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818228"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413614"
 ---
 # <a name="checkout-module"></a>Modulo Checkout
 
@@ -116,11 +116,13 @@ Per aggiungere un modulo Checkout a una nuova pagina e impostare le proprietà n
 
 [Modulo icona carrello](cart-icon-module.md)
 
-[Modulo Pagamento](payment-module.md)
+[Modulo pagamento](payment-module.md)
 
-[Modulo Indirizzo di spedizione](ship-address-module.md)
+[Modulo indirizzo di spedizione](ship-address-module.md)
 
-[Modulo Opzioni di consegna](delivery-options-module.md)
+[Modulo opzioni di consegna](delivery-options-module.md)
+
+[Modulo di informazioni sul ritiro](pickup-info-module.md)
 
 [Modulo Dettagli ordini](order-confirmation-module.md)
 

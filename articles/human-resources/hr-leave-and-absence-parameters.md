@@ -2,8 +2,8 @@
 title: Configurare i parametri di congedo e assenza
 description: Definire i parametri delle risorse umane per congedo e assenza in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712378"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419287"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurare i parametri di congedo e assenza
 
@@ -47,6 +47,19 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 5. Nella scheda **Self-service dipendenti**, indicare se i manager possono immettere richieste di congedo e assenza per conto dei propri dipendenti.
 
 7. Selezionare **Salva**.
+
+>[!IMPORTANT]
+>La visualizzazione dei permessi e delle assenze tra le aziende è attualmente in anteprima. È necessario abilitarlo nell'ambiente **Sandbox** per visualizzare l'opzione per congedo e assenza. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Visualizzare e modificare parametri condivisi delle risorse umane
+
+1. Nella pagina **Gestione personale** selezionare la scheda **Collegamenti**.
+
+2. Sotto **Impostazione**, selezionare **Parametri condivisi di risorse umane**.
+
+3. Nella scheda **Accesso anticipato**, selezionare **Sì** per **Abilita la visualizzazione dei permessi della società** per consentire la visualizzazione dei permesso di tutta l'azienda.
+
+4. Selezionare **Salva**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Visualizzare e modificare i parametri di congedo e assenza
 

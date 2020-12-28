@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428664"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419217"
 ---
 # <a name="define-new-jobs"></a>Definire nuovi processi
 
@@ -57,7 +57,7 @@ L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà co
 21. Nell'elenco trovare e selezionare il record desiderato.
 22. Nell'elenco fare clic sul collegamento nella riga selezionata.
 23. Attiva/disattiva l'espansione della sezione Competenze.
-    * Si noti che i campi nelle Schede dettaglio Competenze, Istruzione e Certificati sono vuoti. Dopo la copia delle informazioni da un modello di posizioni lavorative, le informazioni in questi campi verranno immesse in un unico passaggio.   
+    * Si noti che i campi nelle Schede dettaglio Competenze, Istruzione e Certificati sono vuoti. Dopo la copia delle informazioni da un modello di posizioni lavorative, le informazioni in questi campi verranno immesse in un unico passaggio.   
 24. Fare clic su Salva.
 25. Fare clic su Copia da.
 26. Fare clic su Copia da modello.

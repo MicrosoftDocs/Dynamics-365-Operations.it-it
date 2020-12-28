@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154182"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413576"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -80,7 +80,7 @@ Le stampanti includono stampanti di ricevute POS tradizionali e stampanti a pagi
 
 ### <a name="scanner"></a>Scanner
 
-Fino a due scanner di codici a barre possono essere utilizzate contemporaneamente. Questa funzionalità supporta scenari in cui uno scanner più mobile è necessario per la scansione di articoli di grandi dimensioni o pesanti, mentre uno scanner incorporato fisso viene utilizzato per la maggior parte degli articoli di formato standard, per velocizzare i tempi di check out. Gli scanner possono essere supportati tramite OPOS, piattaforma UWP (Universal Windows Platform o interfacce di lettori collegati alla tastiera. USB o Bluetooth può essere utilizzato per connettere uno scanner a un computer.
+Fino a due scanner di codici a barre possono essere utilizzate contemporaneamente. Questa funzionalità supporta scenari in cui uno scanner più mobile è necessario per la scansione di articoli di grandi dimensioni o pesanti, mentre uno scanner incorporato fisso viene utilizzato per la maggior parte degli articoli di formato standard, per velocizzare i tempi di check out. Gli scanner possono essere supportati tramite OPOS, piattaforma UWP (Universal Windows Platform) o interfacce di lettori collegati alla tastiera. USB o Bluetooth può essere utilizzato per connettere uno scanner a un computer.
 
 ### <a name="msr"></a>MSR
 

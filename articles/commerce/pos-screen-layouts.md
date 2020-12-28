@@ -20,11 +20,11 @@ ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022473"
+ms.locfileid: "4413588"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
@@ -45,10 +45,10 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 
 ![Schermo di transazione di POS con tema scuro](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
-- **Numero di profilo** : il numero di profilo costituisce l'identificatore univoco per il profilo visivo.
-- **Descrizione** : è possibile specificare un nome significativo che contribuirà a identificare il profilo corretto per la specifica situazione.
+- **Numero di profilo**: il numero di profilo costituisce l'identificatore univoco per il profilo visivo.
+- **Descrizione**: è possibile specificare un nome significativo che contribuirà a identificare il profilo corretto per la specifica situazione.
 - **Tema** – È possibile scegliere tra temi **Chiari** e **Scuri** dell'applicazione. Il tema ha effetto sui colori di sfondo sul carattere e dell'applicazione.
-- **Colore accento** : il colore accento viene utilizzato nel POS per distinguere o evidenziare specifici elementi visivi ad esempio riquadri, pulsanti di comando e collegamenti ipertestuali. Questi elementi sono in genere elementi su cui è possibile eseguire azioni.
+- **Colore accento**: il colore accento viene utilizzato nel POS per distinguere o evidenziare specifici elementi visivi ad esempio riquadri, pulsanti di comando e collegamenti ipertestuali. Questi elementi sono in genere elementi su cui è possibile eseguire azioni.
 - **Colore dell'intestazione** - Consente di configurare il colore dell'intestazione di pagina per soddisfare i requisiti di branding del rivenditore.
 - **Combinazione di tipi di carattere** - È possibile selezionare tra combinazioni di caratteri **Standard** e **Grande**. La combinazione di tipi di carattere, influisce sulla dimensione del carattere in tutta l'applicazione. La selezione predefinita è **Standard**.
 - **Mostra sempre le etichette della barra dell'applicazione** - Quando questa opzione è attivata, il testo dell'etichetta è sempre visibile sotto i pulsanti della barra dell'applicazione.
@@ -56,13 +56,13 @@ I profili visivi vengono assegnati ai registratori di cassa e specificano gli el
 - **Mostra data/ora** - Quando questa opzione è attivata, la data e l'ora correnti vengono visualizzate nell'intestazione POS e nella schermata di accesso.
 - **Tastiera** - È possibile selezionare tra **Valore predefinito impostato su tastiera del sistema operativo** e **Mostra tastierino numerico** per specificare la tastiera predefinita utilizzata per l'input nella schermata di accesso. Il tastierino numerico è una tastiera virtuale utilizzata principalmente per i dispositivi basati sul tocco. La selezione predefinita è **Valore predefinito impostato su tastiera del sistema operativo**.
 - **Immagine di logo** - È possibile specificare un'immagine del logo che viene visualizzata nella schermata di accesso. Si consiglia di utilizzare un'immagine con uno sfondo trasparente. La dimensione del file deve essere ridotta al minimo, poiché il comportamento e le prestazioni dell'applicazione possono essere influenzati quando i file di grandi dimensioni vengono archiviati e caricati.
-- **Sfondo di accesso** : è possibile specificare un'immagine di sfondo per la schermata di accesso. La dimensione del file delle immagini di sfondo deve essere ridotta al minimo.
-- **Sfondo** : è possibile specificare un'immagine di sfondo da utilizzare al posto del colore del tema in tutta l'applicazione. Per quanto riguarda le immagini di sfondo per la schermata di accesso, la dimensione del file deve essere ridotta al minimo.
+- **Sfondo di accesso**: è possibile specificare un'immagine di sfondo per la schermata di accesso. La dimensione del file delle immagini di sfondo deve essere ridotta al minimo.
+- **Sfondo**: è possibile specificare un'immagine di sfondo da utilizzare al posto del colore del tema in tutta l'applicazione. Per quanto riguarda le immagini di sfondo per la schermata di accesso, la dimensione del file deve essere ridotta al minimo.
 
 > [!NOTE]
 > Il layout di **Destra** e la visualizzazione data/ora non si applicano alla schermata di accesso in visualizzazione compatta.
 
-Devi eseguire il processo di pianificazione distribuzione **1090** ( **Registri** ) per sincronizzare le ultime configurazioni del profilo visivo con il database del canale.
+Devi eseguire il processo di pianificazione distribuzione **1090** (**Registri**) per sincronizzare le ultime configurazioni del profilo visivo con il database del canale.
 
 ## <a name="screen-layouts"></a>Layout schermo
 
@@ -70,21 +70,21 @@ Le configurazioni del layout dello schermo determinano le azioni, il contenuto e
 
 ![Vista layout schermo POS](../commerce/media/POS-Screen-Layout-View.png)
 
-- **Schermata di benvenuto** : nella maggior parte dei casi, la schermata di benvenuto corrisponde alla pagina che gli utenti visualizzano al momento dell'accesso al POS. La schermata di benvenuto può essere costituita da un'immagine del marchio e da griglie dei pulsanti che consentono di accedere alle operazioni del POS. In genere, le operazioni non specifiche alla transazione corrente vengono posizionate in questa schermata.
+- **Schermata di benvenuto**: nella maggior parte dei casi, la schermata di benvenuto corrisponde alla pagina che gli utenti visualizzano al momento dell'accesso al POS. La schermata di benvenuto può essere costituita da un'immagine del marchio e da griglie dei pulsanti che consentono di accedere alle operazioni del POS. In genere, le operazioni non specifiche alla transazione corrente vengono posizionate in questa schermata.
 
     ![Schermata di benvenuto POS](../commerce/media/POS-Welcome-Screen.png)
 
-- **Schermata transazione** : la schermata **transazione** è lo schermo principale nel POS per l'elaborazione di transazioni di vendita e ordini. Il contenuto e il layout sono configurati mediante la progettazione layout dello schermo.
+- **Schermata transazione**: la schermata **transazione** è lo schermo principale nel POS per l'elaborazione di transazioni di vendita e ordini. Il contenuto e il layout sono configurati mediante la progettazione layout dello schermo.
 
     ![Schermata transazione POS](../commerce/media/POS-Transaction-Screen.png)
 
-- **Schermata di avvio predefinita** : alcuni rivenditori preferiscono che il cassiere passi direttamente alla schermata delle **transazioni** dopo l'accesso. La **schermata di inizio predefinita** consente di specificare lo schermo predefinito che viene visualizzato dopo l'accesso per ogni layout dello schermo.
+- **Schermata di avvio predefinita**: alcuni rivenditori preferiscono che il cassiere passi direttamente alla schermata delle **transazioni** dopo l'accesso. La **schermata di inizio predefinita** consente di specificare lo schermo predefinito che viene visualizzato dopo l'accesso per ogni layout dello schermo.
 
 ### <a name="assignment"></a>Assegnazione
 
 I layout dello schermo possono essere assegnati a livello di punto vendita, registratore di cassa o utente. L'assegnazione dell'utente ha la priorità sulle assegnazioni dei punti vendita e del registratore di cassa e l'assegnazione del registratore ha la priorità sull'assegnazione del punto vendita. In uno scenario semplice in cui tutti gli utenti utilizzano lo stesso layout indipendentemente dal registratore o dal ruolo, il layout dello schermo può essere impostato solo al livello di punto vendita. Negli scenari in cui specifici registratori di cassa o utenti specifici richiedono i layout specializzati, questi possono essere assegnati.
 
-A seconda del livello assegnato ai layout dello schermo, è necessario eseguire i processi di pianificazione distribuzione **1070** ( **Configurazione del canale** ), **1090** ( **Registri** ) e/o **1060** ( **Personale** ) per sincronizzare le ultime configurazioni del layout dello schermo con il database del canale.
+A seconda del livello assegnato ai layout dello schermo, è necessario eseguire i processi di pianificazione distribuzione **1070** (**Configurazione del canale**), **1090** (**Registri**) e/o **1060** (**Personale**) per sincronizzare le ultime configurazioni del layout dello schermo con il database del canale.
 
 ### <a name="layout-sizes"></a>Dimensioni layout
 
@@ -97,8 +97,8 @@ All'avvio, l'applicazione POS sceglierà automaticamente la dimensione del layou
 - **Nome** - È possibile immettere un nome significativo per identificare le dimensioni dello schermo.
 - **Tipo di layout** - Retail POS può visualizzare la propria interfaccia utente in diversi modi per fornire la migliore esperienza utente su un dato dispositivo.
 
-    - **POS moderno - Completo** : il layout completo in genere è più adatto per schermi di maggiori dimensioni, ad esempio di monitor di PC o tablet. Gli utenti possono selezionare gli elementi dell'interfaccia utente da includere, specificare la dimensione e la posizione di quegli elementi e configurarne le proprietà dettagliate. Il layout completo supporta entrambe le configurazioni orizzontale e verticale.
-    - **POS moderno - Compatto** : il layout compatto in genere è migliore per telefoni o tablet di piccole dimensioni. Le opzioni di progettazione sono limitate per i dispositivi compatti. Gli utenti possono configurare le colonne e i campi per il riquadro ricevuta e il pannello totali.
+    - **POS moderno - Completo**: il layout completo in genere è più adatto per schermi di maggiori dimensioni, ad esempio di monitor di PC o tablet. Gli utenti possono selezionare gli elementi dell'interfaccia utente da includere, specificare la dimensione e la posizione di quegli elementi e configurarne le proprietà dettagliate. Il layout completo supporta entrambe le configurazioni orizzontale e verticale.
+    - **POS moderno - Compatto**: il layout compatto in genere è migliore per telefoni o tablet di piccole dimensioni. Le opzioni di progettazione sono limitate per i dispositivi compatti. Gli utenti possono configurare le colonne e i campi per il riquadro ricevuta e il pannello totali.
 
 - **Larghezza/altezza** - Questi valori effettivi rappresentano le dimensioni della schermata, in pixel, previste per il layout. Tenere presente che alcuni sistemi operativi utilizzano la scalabilità per le visualizzazioni ad alta definizione.
 
@@ -119,7 +119,7 @@ Nei layout POS compatti le griglie dei pulsanti sono automaticamente disposte da
 
 ### <a name="images"></a>Immagini
 
-Per ciascuna dimensione del layout in un layout dello schermo, è possibile specificare le immagini da includere nell'interfaccia utente POS. Per i layout POS completi, è possibile specificare una singola immagine per la schermata di benvenuto. Questa immagine appare come il primo elemento dell'interfaccia utente a sinistra. Nella schermata **Transazione** , le immagini possono essere utilizzate come immagini di schede o come logo. Nei layout compatti di POS non vengono utilizzate queste immagini.
+Per ciascuna dimensione del layout in un layout dello schermo, è possibile specificare le immagini da includere nell'interfaccia utente POS. Per i layout POS completi, è possibile specificare una singola immagine per la schermata di benvenuto. Questa immagine appare come il primo elemento dell'interfaccia utente a sinistra. Nella schermata **Transazione**, le immagini possono essere utilizzate come immagini di schede o come logo. Nei layout compatti di POS non vengono utilizzate queste immagini.
 
 ### <a name="screen-layout-designer"></a>Progettazione layout schermo
 
@@ -147,13 +147,13 @@ Il Designer completo del layout consente agli utenti di trascinare i controlli d
     ![Controlli dell'interfaccia utente di POS](../commerce/media/POS-UI-Controls.png)
 
     - **Tastierino numerico** - Il tastierino numerico è il meccanismo principale per l'input utente sulla schermata **Transazione** di POS. È possibile configurare il controllo in modo che venga mostrato il tastierino numerico completo. Questa opzione è ideale per i dispositivi touchscreen. In alternativa, è possibile configurarlo in modo da visualizzare solo il campo di immissione. In questo caso, per l'immissione viene utilizzata una tastiera fisica. Le impostazioni del tastierino numerico sono disponibili solo nei layout completi. Per i layout compatti, il tastierino numerico completo è sempre visualizzato sulla schermata **Transazione**.
-    - **Pannello totali** : è possibile configurare il pannello totali in una o due colonne per visualizzare i valori come ad esempio conteggio righe, importo di sconto, addebiti, subtotale e imposta. I layout compatti supportano solo una singola colonna.
-    - **Pannello Ricevuta** : il riquadro ricevuta contiene righe di vendita, pagamento e le informazioni di consegna per i prodotti e i servizi elaborati nel POS. È possibile specificare colonne, larghezze e posizione. Nei layout compatti, è possibile configurare informazioni aggiuntive visualizzate nella riga nella riga principale.
-    - **Scheda cliente** : vengono visualizzate le informazioni relative al cliente attualmente associato alla transazione. La scheda cliente può essere configurata per nascondere o visualizzare informazioni aggiuntive.
-    - **Controllo scheda** : può essere inserito nel layout dello schermo, altri comandi ad esempio il tastierino numerico, la carta cliente o le griglie dei pulsanti. Controllo scheda è un contenitore che consente agli utenti di inserire ulteriore contenuto nello schermo. Controllo scheda è disponibile solo per i layout completi.
-    - **Immagine** : il controllo immagine può essere utilizzato per visualizzare il logo del punto vendita o un'altra immagine del marchio nello schermo di **transazione**. Controllo immagine è disponibile solo per i layout completi.
-    - **Prodotti consigliati** : se configurato per l'ambiente, il controllo prodotti consigliati visualizza suggerimenti sul prodotto basati su Machine Learning.
-    - **Controllo personalizzato** : il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
+    - **Pannello totali**: è possibile configurare il pannello totali in una o due colonne per visualizzare i valori come ad esempio conteggio righe, importo di sconto, addebiti, subtotale e imposta. I layout compatti supportano solo una singola colonna.
+    - **Pannello Ricevuta**: il riquadro ricevuta contiene righe di vendita, pagamento e le informazioni di consegna per i prodotti e i servizi elaborati nel POS. È possibile specificare colonne, larghezze e posizione. Nei layout compatti, è possibile configurare informazioni aggiuntive visualizzate nella riga nella riga principale.
+    - **Scheda cliente**: vengono visualizzate le informazioni relative al cliente attualmente associato alla transazione. La scheda cliente può essere configurata per nascondere o visualizzare informazioni aggiuntive.
+    - **Controllo scheda**: può essere inserito nel layout dello schermo, altri comandi ad esempio il tastierino numerico, la carta cliente o le griglie dei pulsanti. Controllo scheda è un contenitore che consente agli utenti di inserire ulteriore contenuto nello schermo. Controllo scheda è disponibile solo per i layout completi.
+    - **Immagine**: il controllo immagine può essere utilizzato per visualizzare il logo del punto vendita o un'altra immagine del marchio nello schermo di **transazione**. Controllo immagine è disponibile solo per i layout completi.
+    - **Prodotti consigliati**: se configurato per l'ambiente, il controllo prodotti consigliati visualizza suggerimenti sul prodotto basati su Machine Learning.
+    - **Controllo personalizzato**: il controllo personalizzato agisce come segnaposto nel layout dello schermo e consente agli utenti di prenotare lo spazio per contenuto personalizzato. Controllo personalizzato è disponibile solo per i layout completi.
 
 ### <a name="compact-layout-designer"></a>Progettazione layout compatto
 
@@ -192,8 +192,8 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 
         ![Dimensioni dei pulsanti di POS nelle righe e colonne](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Carattere personalizzato** – Quando si seleziona la casella di controllo **Abilita tipo di carattere personalizzato per POS** , è possibile specificare un font diverso da quello di sistema predefinito per il POS.
-    - **Tema personalizzato** - Per impostazione predefinita, i pulsanti POS utilizzano il colore d'accento del profilo visivo. Quando si seleziona la casella di controllo **Utilizzare il contenuto personalizzato** , è possibile specificare i colori aggiuntivi.
+    - **Carattere personalizzato** – Quando si seleziona la casella di controllo **Abilita tipo di carattere personalizzato per POS**, è possibile specificare un font diverso da quello di sistema predefinito per il POS.
+    - **Tema personalizzato** - Per impostazione predefinita, i pulsanti POS utilizzano il colore d'accento del profilo visivo. Quando si seleziona la casella di controllo **Utilizzare il contenuto personalizzato**, è possibile specificare i colori aggiuntivi.
 
         > [!NOTE]
         > Modern POS e Cloud POS usano solo i valori **Colore sfondo** e **Colore carattere**.

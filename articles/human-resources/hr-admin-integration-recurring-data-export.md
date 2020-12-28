@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009500"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419238"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
 
@@ -122,13 +122,13 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
     > [!TIP]
     > È possibile che si intenda rinominare ogni passaggio di modo che risulti più descrittivo del nome predefinito, **Richiamare una richiesta HTTP**. Ad esempio, è possibile rinominare questo passaggio **ExportToPackage**.
 
-5. [Inizializzare una variabile ](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) per memorizzare lo stato di esecuzione della richiesta **ExportToPackage**.
+5. [Inizializzare una variabile](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) per memorizzare lo stato di esecuzione della richiesta **ExportToPackage**.
 
     ![Azione Inizializza variabile](media/integration-logic-app-initialize-variable-step.png)
 
 6. Attendere fino a quando lo stato di esecuzione dell'esportazione dei dati è **Operazione completata**.
 
-    1. Aggiungere un [ciclo Until ](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) che si ripete fino a che il valore della variabile **ExecutionStatus** non è **Operazione completata**.
+    1. Aggiungere un [ciclo Until](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) che si ripete fino a che il valore della variabile **ExecutionStatus** non è **Operazione completata**.
     2. Aggiungere un'azione **Ritarda** che attende cinque secondi prima di eseguire il polling dello stato di esecuzione corrente dell'esportazione.
 
         ![Contenitore del ciclo Until](media/integration-logic-app-until-loop-step.png)
@@ -136,7 +136,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         > [!NOTE]
         > Impostare il valore del limite su **15** per attendere un massimo di 75 secondi (15 iterazioni × 5 secondi) per il completamento dell'esportazione. Se l'esportazione richiede più tempo, regolare il valore del limite in base alle esigenze.        
 
-    3. Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExecutionSummaryStatus ](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) e impostare la variabile **ExecutionStatus**sul risultato della risposta **GetExecutionSummaryStatus**.
+    3. Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) e impostare la variabile **ExecutionStatus** sul risultato della risposta **GetExecutionSummaryStatus**.
 
         > Questo esempio non esegue il controllo degli errori. L'API **GetExecutionSummaryStatus** può restituire stati terminali non riusciti (ovvero stati diversi da **Operazione completata**). Per ulteriori informazioni, vedere la [documentazione API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 

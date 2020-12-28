@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011423"
+ms.locfileid: "4419273"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparare per passare alla fase operativa di Human Resources
 
@@ -57,7 +57,7 @@ Un passaggio fondamentale principale in ogni progetto di implementazione è il p
 
 Per garantire che l'ambiente di produzione venga utilizzato per le operazioni in tempo reale, Microsoft effettua il provisioning dell'istanza di produzione solo quando l'implementazione si avvicina alla fase **operativa** dopo il completamento delle attività richieste nella metodologia LCS. Per ulteriori informazioni sugli ambienti nell'abbonamento, vedere la [Guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-I clienti devono completare le fasi **Analisi** , **Progetta e sviluppa** e **Test** della metodologia LCS prima che il pulsante  **Configura**  diventa disponibile per la richiesta dell'ambiente di produzione. Per completare una fase in LCS, è necessario prima completare ogni passaggio richiesto in quella fase. Quando tutti i passaggi di una fase sono stati completati, è possibile completare l'intera fase. È sempre possibile riaprire una fase in un secondo momento se è necessario apportare modifiche. Per altre informazioni, vedere  [Lifecycle Services (LCS) per i clienti di app Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+I clienti devono completare le fasi **Analisi**, **Progetta e sviluppa** e **Test** della metodologia LCS prima che il pulsante  **Configura**  diventa disponibile per la richiesta dell'ambiente di produzione. Per completare una fase in LCS, è necessario prima completare ogni passaggio richiesto in quella fase. Quando tutti i passaggi di una fase sono stati completati, è possibile completare l'intera fase. È sempre possibile riaprire una fase in un secondo momento se è necessario apportare modifiche. Per altre informazioni, vedere  [Lifecycle Services (LCS) per i clienti di app Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Il processo di completamento di un passaggio ha due parti: 
 

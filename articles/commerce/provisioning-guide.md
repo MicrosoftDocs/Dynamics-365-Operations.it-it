@@ -3,7 +3,7 @@ title: Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento illustra come eseguire il provisioning di un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599852"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4413611"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 
@@ -48,6 +48,7 @@ Per informazioni relative a come configurare l'ambiente di valutazione di Commer
 
 I seguenti prerequisiti devono essere presenti prima di poter eseguire il provisioning dell'ambiente di valutazione Commerce:
 
+- Essere inseriti nel programma di valutazione e aver ottenuto la capacità per un ambiente di valutazione.
 - Si dispone dell'accesso al portale di Microsoft Dynamics Lifecycle Services (LCS).
 - Si è un partner o cliente di Microsoft Dynamics 365 e si è in grado di creare un progetto Dynamics 365 Commerce.
 - Si dispone dell'accesso di amministratore alla sottoscrizione Microsoft Azure o si è in contatto con un amministratore della sottoscrizione che può fornire assistenza se necessario.
@@ -91,7 +92,7 @@ Per distribuire l'ambiente, attenersi a questa procedura.
 
 1. Nel menu superiore, selezionare **Distribuzione ambienti ospitati nel cloud**.
 1. Selezionare **Aggiungi** per aggiungere un ambiente.
-1. Nel campo **Versione applicazione**, selezionare la versione più recente. Se si ha la necessità di selezionare una versione dell'applicazione diversa dalla versione più recente, non selezionare una versione precedente alla versione **10.0.8**.
+1. Nel campo **Versione applicazione**, selezionare la versione più recente. Se si ha la necessità di selezionare una versione dell'applicazione diversa dalla versione più recente, non selezionare una versione precedente alla versione **10.0.14**.
 1. Nel campo **Versione piattaforma**, utilizzare la versione della piattaforma che viene scelta automaticamente per la versione dell'applicazione selezionata. 
 
     ![Selezione delle versioni della piattaforma e dell'applicazione](./media/project1.png)

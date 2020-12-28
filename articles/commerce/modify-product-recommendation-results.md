@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664956"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413541"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Regolare i risultati dei suggerimenti sul prodotto basati su AI-ML
 
@@ -66,7 +66,7 @@ L'elenco di prodotti "Più venduti" include un parametro che può essere modific
 1.  Nell'elenco dei parametri condivisi, selezionare **Elenchi suggerimenti**.
 1.  Selezionare l'elenco per il quale si intende aggiungere o rimuovere prodotti.
 1.  Per aggiungere prodotti alla tabella, selezionare **Aggiungi riga**. 
-1.  Sotto la colonna Prodotto, cerca un prodotto per **Nome**o **Numero prodotto**.
+1.  Sotto la colonna Prodotto, cerca un prodotto per **Nome** o **Numero prodotto**.
 
     ![Esempio di ricerca di un prodotto nell'elenco Nuovo prodotto](./media/examplenewlistconfiguration1.png)
 

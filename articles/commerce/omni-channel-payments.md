@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
 ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819815"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413577"
 ---
 # <a name="omni-channel-payments-overview"></a>Panoramica sui pagamenti omnicanale
 
@@ -167,7 +167,7 @@ Attenersi alla seguente procedura per eseguire lo scenario.
 3. Aggiungere una o più righe alla transazione.
 4. Selezionare **Ordini** per visualizzare le opzioni relative agli ordini.
 5. Selezionare **Preleva tutto**, quindi quando verrà richiesto, selezionare **Ordine cliente**.
-6. Nella barra di ricerca, immettere **Seattle**quindi selezionare il punto vendita **Seattle** per il prelievo. 
+6. Nella barra di ricerca, immettere **Seattle** quindi selezionare il punto vendita **Seattle** per il prelievo. 
 7. Selezionare **OK** per accettare la data corrente come data di prelievo.
 9. Selezionare **Pagamento con carta** per avviare il pagamento.
 10. Scegliere il pagamento con carta per l'importo dovuto per il deposito. 

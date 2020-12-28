@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022007"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413620"
 ---
 # <a name="gift-card-module"></a>Modulo Gift card
 
@@ -61,7 +61,7 @@ Valori supportati:
 
 ## <a name="site-settings-for-gift-card-modules"></a>Impostazioni del sito per i moduli Gift card
 
-In Creazione di siti Web di Commerce sotto **Impostazioni del sito \> Estensioni** , è disponibile un'impostazione del moduli Gift card chiamata **Tipo di gift card supportato**. Questa impostazione supporta tre valori:
+In Creazione di siti Web di Commerce sotto **Impostazioni del sito \> Estensioni**, è disponibile un'impostazione del moduli Gift card chiamata **Tipo di gift card supportato**. Questa impostazione supporta tre valori:
 - **Gift card Dynamics 365** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Dynamics 365. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
 - **Gift card SVS e gift card Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Givex e SVS. Questa impostazione è supportata per gli utenti anonimi che hanno effettuato l'accesso al sito di e-Commerce.
 - **Gift card Dynamics 365, SVS e Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Dynamics 365, SVS e Givex. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
@@ -81,11 +81,13 @@ Per istruzioni su come aggiungere un moduli Gift card a una pagina checkout e im
 
 [Modulo checkout](add-checkout-module.md)
 
-[Modulo Pagamento](payment-module.md)
+[Modulo pagamento](payment-module.md)
 
-[Modulo Indirizzo di spedizione](ship-address-module.md)
+[Modulo indirizzo di spedizione](ship-address-module.md)
 
 [Modulo opzioni di consegna](delivery-options-module.md)
+
+[Modulo di informazioni sul ritiro](pickup-info-module.md)
 
 [Modulo Dettagli ordini](order-confirmation-module.md)
 

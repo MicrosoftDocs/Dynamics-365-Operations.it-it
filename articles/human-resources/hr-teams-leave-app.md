@@ -3,7 +3,7 @@ title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929995"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4419284"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams ti consente di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi direttamente in Microsoft Teams. Puoi interagire con un bot per richiedere informazioni e avviare una richiesta di congedo. La scheda **Tempo libero** fornisce informazioni più dettagliate. Inoltre, puoi inviare alle persone informazioni sulla tua imminente indisponibilità in team e chat al di fuori dell'app Human Resources.
+L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams ti consente di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi direttamente in Microsoft Teams. Puoi interagire con un bot per richiedere informazioni e avviare una richiesta di congedo. La scheda **Tempo libero** fornisce informazioni più dettagliate. È inoltre possibile inviare alle persone informazioni sulla imminente indisponibilità in team e chat al di fuori dell'app Human Resources.
 
 ## <a name="install-the-app"></a>Installa l'app
 
@@ -182,11 +182,25 @@ Se non riesci ad accedere all'app, è possibile che l'account che stai utilizzan
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Errore durante l'approvazione delle richieste di congedo nell'app Human Resources in Teams
 
-Se viene visualizzato un errore quando si tenta di approvare le richieste di congedo nell'app Teams, esegui i seguenti passaggi di risoluzione dei problemi:
+Se viene visualizzato un errore quando si tenta di approvare le richieste di congedo nell'app Teams, eseguire i seguenti passaggi di risoluzione dei problemi:
 
 1. Verifica che l'account che stai utilizzando per accedere a Microsoft Teams sia quello utilizzato per accedere a Dynamics 365 Human Resources.
 
 2. Verifica di essere un responsabile approvazione valido per la richiesta controllando le impostazioni del flusso di lavoro per l'approvazione del congedo. Per ulteriori informazioni sui flussi di lavoro delle richieste di congedo, vedi [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Problemi di accessibilità noti
+
+L'app Human Resources in Teams presenta i seguenti problemi di accessibilità che stiamo cercando di risolvere nelle versioni future.
+
+| Uscita | Soluzione o spiegazione |
+| --- | --- |
+| Lo zoom al 400% sul desktop nasconde alla vista alcuni pulsanti di azione. | Consigliamo di utilizzare invece una lente d'ingrandimento fino a quando non saremo in grado di supportare questo livello di zoom. |
+| Nella scheda **Permesso**, VoiceOver annuncia l'azione di un pulsante durante la lettura dell'intestazione per la griglia del permesso. | L'intestazione e gli elementi all'interno della griglia sono raggruppati per anno e sono comprimibili. VoiceOver lo interpreta come un elemento utilizzabile, ma non lo è. |
+| Se si scorre mentre un popup o un menu è aperto, VoiceOver ignora la lettura del popup o del contenuto del menu. | Esplorare il contenuto utilizzando la scansione delle dita. |
+| Nella scheda **Permesso** c'è un ulteriore gesto di scorrimento per la navigazione verso **Codice motivo** in una nuova richiesta. | Non ci sono controlli nascosti che la navigazione a scorrimento sta cercando di raggiungere. |
+| Nella scheda **Permesso** se si scorre mentre il calendario è aperto, si esce dal controllo invece che all'inizio di una nuova richiesta o durante la modifica di una richiesta. | Quando si raggiunge **Vai a oggi**, considerarlo come la fine del controllo e scorrere nella direzione opposta per tornare all'inizio. |
+| VoiceOver non legge le etichette per le date. | Le date rilevate in coppia sono sempre **Data d'inizio** e **Data di fine**. |
+| Nella scheda **Chat**, lo stato attivo torna all'inizio quando si immette una data mentre si utilizza lo strumento di assistenza o la navigazione da tastiera. | Premere TAB fino a raggiungere nuovamente l'area di immissione. |
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 
