@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 4d8f9901a33cecfa0617bcaaa92738c0f527971e
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982294"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408109"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
@@ -85,7 +85,7 @@ Le spese varie non sono sempre richieste o desiderate quando vengono emesse fatt
 > [!NOTE]
 > La società emette una fattura automatica per contabilizzare le imposte richieste per le merci che vengono consegnate gratuitamente. Oltre alla registrazione della fattura, devono essere generate le voci contabili per il pagamento. Per rendere disponibile tale processo, è necessario disporre di un account cliente che rappresenti la propria azienda. In questo caso, il conto fattura in un ordine cliente verrà impostato sul conto cliente dell'azienda per impostazione predefinita. Pertanto, la fattura emessa sarà una fattura automatica. Quando si specificano i termini di pagamento in contanti, il pagamento si verifica in aggiunta alla fattura automatica. Infine, la transazione del cliente viene chiusa e l'importo viene registrato nel conto di cassa specificato nel campo **Modalità di pagamento**. Questo campo verrà inoltre impostato per impostazione predefinita su un'intestazione dell'ordine cliente.
 >
-> Se il cliente paga le tasse, i campi **Conto fatture**e **Termini di pagamento** devono essere lasciati vuoti.
+> Se il cliente paga le tasse, i campi **Conto fatture** e **Termini di pagamento** devono essere lasciati vuoti.
 
 ## <a name="posting-tax-invoices-for-goods-delivered-for-free"></a>Registrazione delle fatture imposte per le merci consegnate gratuitamente
 

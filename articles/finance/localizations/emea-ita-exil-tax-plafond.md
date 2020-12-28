@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 78c215d0e503df7ca8d2a0b34503dff846d18dfe
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284050"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408102"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 

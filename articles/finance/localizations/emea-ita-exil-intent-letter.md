@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 921041e142e2e3d5aceb1832c9189fc72a9238ab
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138373"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408118"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
@@ -39,7 +39,7 @@ Prima di fatturare, è necessario soddisfare i seguenti prerequisiti:
 ## <a name="set-up-accounts-receivable-parameters"></a>Impostazione dei parametri di Contabilità clienti
 
 1. Andare a **Contabilità clienti** \> **Impostazioni** \> **Parametri contabilità clienti**.
-2. Nella scheda **Contabilità generale e IVA** nella scheda dettaglio**Esportatori abituali**, nel campo **Fascia IVA esportatori abituali**, definire una fascia IVA che viene utilizzata solo per gli esportatori abituali.
+2. Nella scheda **Contabilità generale e IVA** nella scheda dettaglio **Esportatori abituali**, nel campo **Fascia IVA esportatori abituali**, definire una fascia IVA che viene utilizzata solo per gli esportatori abituali.
 3. Impostare l'opzione **Assegnazione automatica lettera di intento** su **Sì** per attivare l'assegnazione automatica delle lettere di intento durante la fatturazione.
 
 ![Impostazione dei parametri di Contabilità clienti](media/emea-ita-exil-intent-AR-parm.jpg)

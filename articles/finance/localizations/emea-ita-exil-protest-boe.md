@@ -17,11 +17,11 @@ ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 2c0b73c8037f0170b75efe847eb1c51735490503
-ms.sourcegitcommit: 2d3c757f453fcb07df629f86de4ea0c94f1370aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3264299"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408105"
 ---
 # <a name="bills-of-exchange-protest-import"></a>Importazione di protesti effetti attivi 
 

@@ -1,55 +1,92 @@
 ---
-title: Data di competenza per le transazioni
-description: In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.
-author: EvgenyPopovMBS
-manager: AnnBe
-ms.date: 06/20/2017
+title: Data di competenza per le transazioni e il report giornale di registrazione fiscale
+description: In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia
+author: anasyash
+manager: tfehr
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: 264534
+ms.search.scope: ''
+ms.custom: ''
 ms.search.region: Italy
-ms.author: epopov
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2b89de6b4ce83cc51355b6fa294175362f30ca94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.author: anasyash
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 54582e6ca79eff02a056cb2c16baceecb626e9b9
+ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183718"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4592474"
 ---
-# <a name="competence-date-for-transactions"></a>Data di competenza per le transazioni
-
-[!include [banner](../includes/banner.md)]
+# <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 
 In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia.
 
-In Italia, le società devono utilizzare una data di registrazione per registrare le transazioni. La data di registrazione è la data in cui la società conferma la transazione. Le transazioni di chiusura e rettifica possono essere effettuate diversi mesi dopo l'ultimo giorno dell'anno fiscale. In genere, queste transazioni vengono effettuate alla data in cui lo stato patrimoniale viene approvato dal Consiglio di Amministrazione. Queste transazioni devono essere dichiarate nel giornale di registrazione fiscale italiano alla data in cui vengono registrate, ma devono disporre di un riferimento alla data di competenza. Due sono pertanto le date richieste:
+In Italia, le società devono utilizzare una data di registrazione per registrare le transazioni. La data di registrazione nel giornale di registrazione fiscale corrisponde alla data in cui la società conferma la transazione.
 
--   La data di competenza, che rappresenta la data in cui la transazione influisce sull'importo del saldo
--   La data di registrazione, che è la data in cui l'utente registra la transazione
+Le transazioni di chiusura e correzione avvengono in genere alla data in cui lo stato patrimoniale viene approvato dal consiglio di amministrazione. Possono tuttavia essere anche completate diversi mesi dopo l'ultimo giorno dell'anno fiscale. Tali transazioni devono essere dichiarate nel giornale di registrazione fiscale italiano alla data di registrazione, che deve coincidere con la data di conferma. Le transazioni devono tuttavia avere un riferimento alla relativa data di competenza, che rappresenta la data in cui la transazione influisce sull'importo del saldo.
 
-**Esempio:** l'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo stato patrimoniale viene approvato il 15 aprile. Di conseguenza, le transazioni di chiusura e rettifica vengono dichiarate nel giornale di registrazione fiscale italiano ad aprile, ma influiscono sul saldo al 31 dicembre.
+## <a name="turn-on-the-competence-date-functionality"></a>Attiva la funzionalità della data di competenza
 
-## <a name="enable-the-competence-date"></a>Attivare la data di competenza
-Per attivare questa funzionalità per le transazioni, nella pagina **Parametri di contabilità generale**, nella scheda **Contabilità generale**, impostare l'opzione **Riferimento alla data competenza nella data della transazione** su **Sì**. Dopo aver attivato la data di competenza, è possibile specificare le date di competenza e delle transazioni per ogni giornale di registrazione utilizzato per registrare le transazioni di rettifica e di chiusura/apertura per l'anno fiscale:
+1.  Selezionare **Contabilità generale** \> **Impostazione contabilità generale** \> **Parametri di contabilità generale**.
 
--   Giornale di registrazione generale
--   Giornale di registrazione cespiti
--   Riconciliazione estratti conto
--   Bilancio di chiusura
--   Transazione di apertura
--   Progetto - Registra costi
--   Progetto - Volume d'affari accumulato
--   Progetto - Stima registrata
--   Progetto - Storna stima
+2.  Nella pagina **Parametri di contabilità generale**, nella scheda **Contabilità generale** impostare l'opzione **Riferimento alla data competenza nella data della transazione** su **Sì**.
 
+    Dopo aver attivato la funzionalità della data di competenza, è possibile specificare **Data transazione** come data di conferma per ogni giornale di registrazione utilizzabile per registrare le transazioni di correzione e di chiusura per l'anno fiscale:
 
+    -   Giornale di registrazione generale (**Contabilità generale** \> **Inserimenti nel giornale di registrazione** \> **Giornali di registrazione generale**)
+    -   Giornale di registrazione cespiti (**Cespiti** \> **Scritture contabili** \> **Giornale di registrazione cespiti**)
+    -   Riconciliazione estratti conto bancario (**Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari** \> **Riconcilia** \> **Riconciliazione estratti conto**)
+    -   Rettifiche periodo di chiusura (**Contabilità generale** \> **Periodo chiuso** \> **Rettifiche periodo di chiusura**)
+    -   Chiusura di fine anno (**Contabilità generale** \> **Periodo chiuso** \> **Chiusura di fine anno** \> **Esegui chiusura fiscale**)
+    -   Progetto - Registra costi (**Gestione progetti e contabilità** \> **Periodico** \> **Tempistica e materiali** \> **Registra costi** \> **Registra**)
+    -   Progetto - Accumula ricavi (**Gestione progetti e contabilità** \> **Periodico** \> **Tempistica e materiali** \> **Accumula ricavi**)
+    -   Progetto - Stima registrata (**Gestione progetti e contabilità** \> **Periodico** \> **Stime** \> **Registra stime**)
+    -   Progetto - Storna stima (**Gestione progetti e contabilità** \> **Periodico** \> **Stime** \> **Storna stime**)
 
+## <a name="fiscal-journal-report"></a>Report Giornale di registrazione fiscale
 
+Il report **Giornale di registrazione fiscale** italiano (**Contabilità generale \> Richieste e report \> Giornale di registrazione fiscale**) è un report mensile che elenca tutti i giustificativi e gli inserimenti nel giornale di registrazione nell'ordine, in base alla data di registrazione.
+
+In questo report sono inclusi i seguenti campi:
+
+-   Numero riga
+-   Data di registrazione
+-   Data competenza
+-   Numero documento (numero giustificativo)
+-   Data del documento
+-   Nome e numero del conto CoGe
+-   Nome e numero del conto cliente o fornitore
+-   descrizione
+-   Valuta
+-   Importo in Dare o in Avere del documento
+
+![Transazioni del report Giornale di registrazione fiscale](media/ITA-Competence-date-for-transactions-1-fiscal-journal.png)
+
+## <a name="example"></a>Esempio
+
+L'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo stato patrimoniale viene approvato il 15 aprile. Di conseguenza, le transazioni di chiusura e correzione vengono dichiarate nel giornale di registrazione fiscale italiano ad aprile, ma influiscono sul saldo al 31 dicembre.
+
+1. Andare a **Contabilità generale** \> **Inserimenti nel giornale di registrazione** \> **Giornali di registrazione generali**.
+2. Nella pagina **Giornale di registrazione generale** specificare 31 dicembre nel campo **Data**.
+3. Nel campo **Data transazione** specificare il 15 aprile.
+4. Registrare la transazione.
+
+    ![Pagina del giustificativo giornale di registrazione](media/ITA-Competence-date-for-transactions-2-general-journal.png)
+
+5. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Giornale di registrazione fiscale** ed eseguire il report. La transazione viene riportata nella riga del giornale di registrazione fiscale. Il campo **Data di registrazione** è impostato sul 15 aprile e il campo **Data competenza** è impostato sul 31 dicembre.
+
+    ![Pagina Giornale di registrazione fiscale](media/ITA-Competence-date-for-transactions-3-fiscal-journal.png)
+
+6. Andare a **Contabilità generale \> Richieste di informazioni e report \> Bilancio di verifica** ed esegui il report.
+
+    ![Descrizione interfaccia utente grafica e descrizione generata automaticamente](media/ITA-Competence-date-for-transactions-4-trial-balance.png)
+
+7. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Transazioni giustificativo**.
+8. Nella pagina **Transazioni giustificativo** aggiungere la colonna **Data transazione**.
+9. Verificare il campo **Data** sia impostato sul 31 dicembre e il campo **Data transazione** sia impostato sul 15 aprile.

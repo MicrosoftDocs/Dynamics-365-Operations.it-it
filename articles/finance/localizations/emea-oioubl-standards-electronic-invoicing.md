@@ -3,7 +3,7 @@ title: Standard supportati per la fatturazione elettronica in Europa
 description: In questo argomento viene descritto il livello di copertura della fatturazione elettronica per l'Europa.
 author: mrolecki
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c86cc90e5f441641bc14d20898e65325d7c7d716
-ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
+ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
+ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763684"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4592467"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
@@ -47,7 +47,22 @@ Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun
 -   Formato specifico estone versione 1.2
 -   Finvoice 3.0 per la Finlandia
 
-La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Esistono un modello dati **Modello fattura**, mapping di modello fattura e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese creati per Austria (AT), Danimarca (DK), Italia (IT), Norvegia (NO), Spagna (ES), Francia (FR), Belgio (BE) e Paesi Bassi (NL), Germania (DE) e Unione Europea (UE).
+La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modello di dati **Modello di fattura**, un mapping modello di fattura e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese/area geografica sono state create per i seguenti paesi/aree geografiche: 
+
+- Austria (AT)
+- Danimarca (DK)
+- Italia (IT)
+- Norvegia (NO)
+- Spagna (ES)
+- Francia (FR)
+- Belgio (BE)
+- Paesi Bassi (NL)
+- Germania (DE)
+- Estonia (EE)
+- Finlandia (FI)
+- Unione Europea (UE)
+
+Il modello di dati **Modello di fattura**, il mapping di modello di fattura e le configurazioni di formati di report elettronici (ER) specifici di ciascun paese/area geografica includono:
 
 -   Fattura vendite OIOUBL - per AT, DK e NO
 -   Nota di accredito OIOUBL - per AT, DK e NO
@@ -82,6 +97,16 @@ La fatturazione elettronica è basata sulla [creazione di report elettronici (ER
 
 Le fatture e le note di accredito elettroniche che vengono generate includono informazioni obbligatorie, ad esempio un numero EAN (European Article Numbering), il contatto, il numero del conto dimensione e l'indirizzo dei cliente. Le regole di convalida vengono applicate quando le fatture vengono generate in modo che sia possibile verificare la correttezza delle informazioni immesse. Il set di dati necessari può essere diverso da paese a paese. Poiché i requisiti, così come i paesi e i formati supporti, sono soggetti a modifica, è necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**.
 
+## <a name="electronic-invoice-configuration"></a>Configurazione fattura elettronica
+La configurazione e le specifiche delle fatture elettroniche variano in base al paese/area geografica per cui sono implementate. Per ulteriori informazioni su come configurare e utilizzare le fatture elettroniche dei clienti, vedere gli argomenti specifici del paese correlati:
+
+- [Italia](emea-ita-e-invoices.md)
+- [Norvegia](emea-nor-e-invoices.md)
+- [Germania](emea-deu-e-invoices.md)
+- [Finlandia](https://support.microsoft.com/help/4559937)
+- [Estonia](https://support.microsoft.com/help/4552679)
+- [PEPPOL](https://support.microsoft.com/help/4490320)
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](../../fin-and-ops/get-started/help-overview.md#task-guides) nel riquadro della Guida:
 
@@ -90,4 +115,4 @@ Per ulteriori informazioni su come impostare le fatture elettroniche, è possibi
  - Impostare gli account cliente per la fatturazione elettronica OIOUBL
 
 > [!NOTE] 
-> Sebbene queste Guide attività vengano create per il formato di fatturazione elettronico *OIOUBL* specifico della Danimarca, sono applicabili agli altri paesi supportati con piccole differenze.
+> Sebbene queste Guide attività vengano create per il formato di fatturazione elettronico *OIOUBL* specifico della Danimarca, sono applicabili agli altri paesi/aree geografiche supportati con piccole differenze.

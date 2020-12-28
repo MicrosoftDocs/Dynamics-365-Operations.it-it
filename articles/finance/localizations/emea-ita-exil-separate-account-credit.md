@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 56bdb80612473b9fbbe8a76936860a6de33c3200
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982348"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408104"
 ---
 # <a name="separate-accounts-for-credit-notes"></a>Conti separati per note di credito
 

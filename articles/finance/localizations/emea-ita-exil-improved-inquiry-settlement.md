@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 531dfa6ff058e2c91cbdf1c7b8bb5ec67d127393
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982296"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408108"
 ---
 # <a name="improved-inquiry-on-debitcredit-settlement"></a>Richiesta di informazioni migliorata sulla liquidazione dare/avere
 
@@ -49,6 +49,6 @@ La griglia nella parte inferiore della pagina mostra le transazioni di addebito 
 
 ![Pagina Elenco fatture/pagamenti](media/emea-ita-exil-DC-inquiry-vendor-invoice-payment.png)
 
-Nel riquadro azioni selezionare **Parametri**per impostare un filtro in modo che la pagina elenco **Fatture/pagamenti** mostri solo i dati specifici.
+Nel riquadro azioni selezionare **Parametri** per impostare un filtro in modo che la pagina elenco **Fatture/pagamenti** mostri solo i dati specifici.
 
 ![Finestra di dialogo a discesa dei parametri](media/emea-ita-exil-DC-inquiry-parameters.png)

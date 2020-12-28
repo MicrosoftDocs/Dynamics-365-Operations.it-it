@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 30c6f3e3ef973b211ef6564a4d68aa391a61d66e
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527622"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408101"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 

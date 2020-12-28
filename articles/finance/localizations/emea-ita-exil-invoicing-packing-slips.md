@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 80fa72f1314ae4743692a2954421c59be6bd8f91
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982321"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408107"
 ---
 # <a name="sort-sales-invoice-lines-by-packing-slip"></a>Ordinare le righe fattura di vendita per documento di trasporto
 
@@ -33,7 +33,7 @@ In Italia, le aziende devono spesso emettere *fatture accompagnatorie*. Le fattu
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
 - Nell'area di lavoro **Gestione funzionalità**, verificare che la funzionalità **Ordinamento righe fattura fornitore per documento di trasporto** sia attivata. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
-- Le fatture clienti devono utilizzare il nuovo layout **SalesInvoice.Report \_IT**. Andare a **Contabilità clienti** /> **Impostazioni** /> **Moduli** /> **Impostazione moduli**, quindi sulla scheda **Generale** selezionare **Gestione stampa**. Sulla pagina **Impostazione Gestione stampa**, sotto **Modulo - Contabilità clienti \> Fattura cliente** selezionare **Originale \<Impostazione predefinita\>**. Quindi, nel campo **Formato report** selezionare **SalesInvoice.Report \_IT**.
+- Le fatture clienti devono utilizzare il nuovo layout **SalesInvoice.Report \_IT**. Andare a **Contabilità clienti** /> **Impostazioni** /> **Moduli** /> **Impostazione moduli**, quindi sulla scheda **Generale** selezionare **Gestione stampa**. Sulla pagina **Impostazione Gestione stampa**, sotto **Modulo - Contabilità clienti\> Fattura cliente** selezionare **Originale \<Default\>**. Quindi, nel campo **Formato report** selezionare **SalesInvoice.Report \_IT**.
 
     ![Nuovo layout selezionato per le fatture cliente](media/emea-ita-exil-invoice-packing-slip-pic2.jpg)
 

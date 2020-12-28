@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9c9c0ba97b7b7ea1e9eba2398bb67bb445a76bcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175785"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408084"
 ---
 # <a name="credit-invoicing-italy"></a>Fatturazione delle note di accredito (Italia)
 

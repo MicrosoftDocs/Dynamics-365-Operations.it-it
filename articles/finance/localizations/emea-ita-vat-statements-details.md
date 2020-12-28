@@ -18,12 +18,12 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29a0c46863c2b6a1f25d13f56f90324c781e2c83
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d799d334d070d2a43f508c034f12b561d606efe4
+ms.sourcegitcommit: 78ef538704e3d774ed274b549163246c226cd3dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175781"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "4408125"
 ---
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
@@ -108,6 +108,8 @@ Dopo la fine dell'anno, generare il report per ogni periodo di liquidazione. La 
 | **Esportato**             | Indica che il file è stato esportato.                                                         |
 | **Data di esportazione**       | Data in cui è stato esportato il file con estensione .ivc.                                                     |
 | **Nome file di esportazione**     | Nome del file con estensione ivc.                                                                    |
+
+Trova maggiori dettagli in [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md).
 
 ## <a name="vat-summary-report"></a>Report di riepilogo IVA
 Per il reporting IVA, l'Italia richiede la dichiarazione e la formattazione di informazioni specifiche. Nella pagina **Uffici IVA**, in **Impostazione fiscale**, configurare l'autorità italiana.

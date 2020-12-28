@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 5a7bd58f66c4ff8df59ca6027861d235c36c2ace
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830321"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408103"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -77,7 +77,7 @@ Se è necessario stampare note simili su documenti per gruppi di clienti, è pos
 4. Per impostare le note avanzate per i fornitori, andare a **Contabilità fornitori**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate fornitori**.
 
 > [!NOTE]
-> Per le note avanzate dei fornitori, **Ordine fornitore**è l'unico documento disponibile.
+> Per le note avanzate dei fornitori, **Ordine fornitore** è l'unico documento disponibile.
 
 ### <a name="set-up-document-types"></a>Imposta i tipi di documenti
 
@@ -112,6 +112,6 @@ In Contabilità fornitori, le note vengono generate automaticamente come allegat
 
 ### <a name="printing-advanced-notes"></a>Stampa delle note avanzate
 
-Note avanzate definite come **Esterne**sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
+Note avanzate definite come **Esterne** sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
 
 ![Impostazione della stampa delle note avanzate](media/emea-ita-exil-notes-printing.jpg)

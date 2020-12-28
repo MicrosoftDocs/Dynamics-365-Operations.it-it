@@ -17,11 +17,11 @@ ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 1c58aa35dacb719eeef3a9b8d5f4904beefc73a0
-ms.sourcegitcommit: f19fe09cbf956da4d4b8c12a8d8792cadec6fc09
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225338"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408095"
 ---
 # <a name="swiss-qr-bills"></a>Fatture QR per la Svizzera
 

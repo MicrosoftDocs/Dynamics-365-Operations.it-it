@@ -18,11 +18,11 @@ ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9dd03d5fb9faeaf4ae160fa6cf55998ff3be72d7
-ms.sourcegitcommit: 045be8c2cb065497f3b58c50dff16d7a71aaa876
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "3722236"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408117"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 

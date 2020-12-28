@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: b03e75d72d1d0b45e53141f08a8bbb47c6b24334
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408110"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 

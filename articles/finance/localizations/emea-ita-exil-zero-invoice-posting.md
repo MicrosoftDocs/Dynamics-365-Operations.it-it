@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: feb01e1eb34631fa0f94283d7b88ba4155928883
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982324"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408114"
 ---
 # <a name="posting-invoices-with-zero-amount"></a>Registrazione fatture con importo zero
 

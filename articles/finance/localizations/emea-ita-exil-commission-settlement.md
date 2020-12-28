@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 88dc37f8a5baf9685472d830b9705239aae4fe2b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144923"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408111"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 

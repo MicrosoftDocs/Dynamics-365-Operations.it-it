@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95b0d1ca97c4fac9fcdcdb96622a58cdb75a13ca
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 28523407b4fc326ab628f9b40a09a38efcbc4c3f
+ms.sourcegitcommit: 78ef538704e3d774ed274b549163246c226cd3dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980681"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "4408124"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -57,3 +57,4 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Importazione protesto di effetti attivi](emea-ita-exil-protest-boe.md)
 - [Plafond fiscale](emea-ita-exil-tax-plafond.md)
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
+- [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md)

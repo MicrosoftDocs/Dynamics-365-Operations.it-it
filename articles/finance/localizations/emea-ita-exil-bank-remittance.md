@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: a57870201fd36369eac4276af05c4be697ac4dbe
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249106"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408112"
 ---
 # <a name="configurable-posting-profiles-for-banks-and-remittance-types"></a>Profili registrazione configurabili per banche e tipi di rimessa
 

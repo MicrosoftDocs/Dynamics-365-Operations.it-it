@@ -18,11 +18,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0428613413b695d7e8c7aae044e0c01decf1a9d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175786"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408086"
 ---
 # <a name="italian-black-list-report"></a>Report block list italiano
 

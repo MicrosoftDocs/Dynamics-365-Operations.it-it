@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 5874608284ab7c010aa34d37f3f76d9eedf08764
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982349"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408106"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 

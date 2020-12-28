@@ -17,11 +17,11 @@ ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 086b3054e53a2c71c0d9e4a788d987fcc7c6183b
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982297"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408082"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 
@@ -69,7 +69,7 @@ I dati di origine utilizzati per importare i gruppi bancari possono essere prese
 
 ## <a name="use-the-enhanced-list-of-bank-groups"></a>Utilizzare l'elenco avanzato dei gruppi bancari
 
-Quando la funzione di miglioramento della configurazione del conto bancario è attivata, due campi descrittivi aggiuntivi, **Nome filiale**e **Città**, diventano disponibili per gruppi bancari.
+Quando la funzione di miglioramento della configurazione del conto bancario è attivata, due campi descrittivi aggiuntivi, **Nome filiale** e **Città**, diventano disponibili per gruppi bancari.
 
 ![Campi Nome filiale e Città](media/emea-ita-exil-bank-pic.jpg)
 
