@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897697"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529164"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Novità o modifiche in Dynamics 365 Talent - Core HR (6 dicembre 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Build 8.1.2071**
 
 Questo argomento descrive le funzionalità nuove o modificate di Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Aggiornamento 22 della piattaforma per Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>Update 22 della piattaforma per Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Esportazione fino a 1 milione di righe in Excel
 
@@ -133,7 +135,7 @@ L'attività Lavoratori a Lavoro necessita l'aggiornamento dei mapping seguenti.
 
 Anche la trasformazione del campo Sesso deve essere aggiornata. Selezionare il tipo di mappa **fn** (funzione) per Sesso e aggiornare i mapping dei valori seguenti.
 
-| Common Data Service Value   | Finance and Operations value | | ------------|------------------ -----------| | 75440000    | Male                         | | 75440001    | Female                       | | 75440002    | None                         | | 75440003    | NonSpecific                  |
+| Valore Common Data Service | Valore Finance and Operations | | ------------|------------------ -----------| | 75440000    | Maschio                         | | 75440001    | Femmina                       | | 75440002    | Nessuno                         | | 75440003    | Non specificato                  |
 
 I mapping aggiornati devono risultare simili a quanto segue.
 

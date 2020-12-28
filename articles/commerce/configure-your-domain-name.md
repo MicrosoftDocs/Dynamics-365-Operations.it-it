@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: afc8c7fffbded82be32357bdeb30546afc8b0957
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533300"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517126"
 ---
 # <a name="configure-your-domain-name"></a>Configurare il proprio nome di dominio
 
@@ -33,25 +33,25 @@ ms.locfileid: "3533300"
 
 In questo argomento viene illustrato come configurare un nome di dominio per un sito di e-Commerce di Microsoft Dynamics 365. 
 
-## <a name="add-domains-during-e-commerce-initialization"></a>Aggiungere domini durante l'inizializzazione di e-Commerce
+## <a name="add-domains-during-e-commerce-initialization"></a>Aggiungere domini durante l'inizializzazione di e-commerce
 
-Per associare domini all'ambiente di e-Commerce, inizializzare e-Commerce come descritto in [Distribuire un nuovo sito di e-Commerce](deploy-ecommerce-site.md). Durante l'inizializzazione, viene richiesto di immettere informazioni che verranno utilizzate per eseguire il provisioning dell'ambiente di e-Commerce. Nel campo **Nomi host supportati**, aggiungere tutti i domini che si prevede di utilizzare con questo ambiente. I domini devono essere separati con un punto e virgola. In questo modo, i domini vengono configurati in tutti i componenti di e-Commerce necessari e sono pronti per essere utilizzati quando si passa il traffico dalla rete per la distribuzione di contenuti (CDN) o dal server Web ai front-end di e-Commerce.
+Per associare domini all'ambiente di e-commerce Dynamics 365 Commerce, inizializzare e-commerce come descritto in [Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md). Durante l'inizializzazione, viene richiesto di immettere informazioni che verranno utilizzate per eseguire il provisioning dell'ambiente di e-commerce. Nel campo **Nomi host supportati**, aggiungere tutti i domini che si prevede di utilizzare con questo ambiente. I domini devono essere separati con un punto e virgola. In questo modo, i domini vengono configurati in tutti i componenti di Commerce necessari e sono pronti per essere utilizzati quando si passa il traffico dalla rete per la distribuzione di contenuti (CDN) o dal server Web ai front-end di e-commerce.
 
-## <a name="add-domains-after-e-commerce-initialization"></a>Aggiungere domini dopo l'inizializzazione di e-Commerce
+## <a name="add-domains-after-e-commerce-initialization"></a>Aggiungere domini dopo l'inizializzazione di e-commerce
 
-Per associare nuovi domini all'ambiente di e-Commerce dopo l'inizializzazione di e-Commerce, è necessario inviare una richiesta di assistenza.
+Per associare nuovi domini all'ambiente di e-commerce dopo l'inizializzazione di e-commerce, è necessario inviare una richiesta di assistenza.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
-[Associare un sito online a un canale](associate-site-online-store.md)
+[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+[Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
 
 [Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
 

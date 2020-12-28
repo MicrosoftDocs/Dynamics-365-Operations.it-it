@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d8f70e7aa7316241adbbde6c4188c2ae0e640633
-ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
+ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "3823529"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4669086"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novità o modifiche in Human Resources
 
@@ -49,6 +49,8 @@ Per ulteriori informazioni sulle funzionalità imminenti o sul processo di aggio
 
 Per trovare novità o modifiche in ogni versione bisettimanale di Human Resources, vedere i seguenti articoli:
 
+[02 dicembre 2020](hr-whats-new-2020-12-02.md)</br>
+[22° ottobre 2020](hr-whats-new-2020-10-22.md)</br>
 [16 settembre 2020](hr-whats-new-2020-09-16.md)</br>
 [3 settembre 2020](hr-whats-new-2020-09-03.md)</br>
 [20 agosto 2020](hr-whats-new-2020-08-20.md)</br>
@@ -74,6 +76,6 @@ Per trovare novità o modifiche in ogni versione bisettimanale di Human Resource
 
 ## <a name="see-also"></a>Vedere anche
 
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)

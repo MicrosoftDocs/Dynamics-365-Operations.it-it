@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896934"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528221"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novità o modifiche in Dynamics 365 Talent (2 aprile 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
@@ -54,7 +56,7 @@ In Attract and Onboard, i problemi segnalati dagli utenti finali mediante la fun
 ## <a name="changes-in-core-hr"></a>Modifiche di Core HR
 Le modifiche descritte in questo sezione sono valide per la build numero 8.1.2216.
 
-### <a name="platform-update-25-for-finance-and-operations"></a>Aggiornamento 25 della piattaforma per Finance and Operations
+### <a name="platform-update-25-for-finance-and-operations"></a>Update 25 della piattaforma per Finance and Operations
 Per ulteriori informazioni sull'aggiornamento 25 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 25 della piattaforma Dynamics 365 for Finance and Operations (aprile 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Protezione retribuzione avanzata (fissa e variabile)
@@ -77,4 +79,4 @@ Le organizzazioni potrebbero richiedere codici motivo per determinati tipi di co
 Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi Nome e uno stato indica il numero di duplicati trovati. È possibile selezionare il collegamento fornito per aprire una nuova pagina e valutare se utilizzare la corrispondenza rilevata. Per evitare di interrompere l'immissione di dati, il modulo Duplicati non viene aperto automaticamente.
 
 ###  <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
-Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento. 
+Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento. 

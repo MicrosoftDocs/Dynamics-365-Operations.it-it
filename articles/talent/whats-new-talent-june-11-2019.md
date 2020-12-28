@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897582"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528671"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Novità e modifiche in Dynamics 365 Talent (11 giugno 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent.
 
@@ -54,7 +56,7 @@ Questa versione include correzioni di bug minori per Dynamics 365 Talent: Onboar
 
 Le modifiche descritte in questo sezione sono valide per la build numero 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Aggiornamento 27 della piattaforma per Finance and Operations
+### <a name="platform-update-27-for-finance-and-operations"></a>Update 27 della piattaforma per Finance and Operations
 
 Per ulteriori dettagli sull'aggiornamento 27 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 27 della piattaforma Dynamics 365 Finance and Operations (giugno 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 

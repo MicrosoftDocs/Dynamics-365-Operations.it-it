@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765003"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517357"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domini in Dynamics 365 Commerce
 
@@ -47,7 +47,7 @@ La seguente illustrazione mostra la schermata di provisioning di e-commerce LCS 
 
 ## <a name="commerce-generated-urls"></a>URL generati da Commerce
 
-Durante il provisioning di un ambiente di e-commerce, Commerce genererà un URL che sarà l'indirizzo di lavoro per l'ambiente. A questo URL si fa riferimento nel collegamento del sito di e-Commerce mostrato in LCS dopo il provisioning dell'ambiente. Un URL generato da Commerce è nel formato `https://<e-Commerce tenant name>.commerce.dynamics.com`, dove il nome del tenant di e-Commerce è il nome immesso in LCS per l'ambiente Commerce.
+Durante il provisioning di un ambiente di e-commerce Dynamics 365 Commerce, Commerce genererà un URL che sarà l'indirizzo di lavoro per l'ambiente. A questo URL si fa riferimento nel collegamento del sito di e-commerce mostrato in LCS dopo il provisioning dell'ambiente. Un URL generato da Commerce è nel formato `https://<e-commerce tenant name>.commerce.dynamics.com`, dove il nome del tenant di e-commerce è il nome immesso in LCS per l'ambiente Commerce.
 
 È possibile utilizzare i nomi host del sito di produzione anche in un ambiente sandbox. Questa opzione è ideale quando si copia un sito da un ambiente sandbox a quello di produzione.
 
@@ -102,9 +102,9 @@ Quando una stringa di query di dominio non viene fornita in un ambiente con più
 
 ## <a name="traffic-forwarding-in-production"></a>Inoltro del traffico in produzione
 
-È possibile simulare più domini utilizzando i parametri della stringa di query del dominio sull'endpoint commerce.dynamics.com. Tuttavia quando è necessario passare in produzione, è necessario inoltrare il traffico per il dominio personalizzato all'endpoint `<e-Commerce tenant name>.commerce.dynamics.com`.
+È possibile simulare più domini utilizzando i parametri della stringa di query del dominio sull'endpoint commerce.dynamics.com. Tuttavia quando è necessario passare in produzione, è necessario inoltrare il traffico per il dominio personalizzato all'endpoint `<e-commerce tenant name>.commerce.dynamics.com`.
 
-L'endpoint `<e-Commerce tenant name>.commerce.dynamics.com` non supporta Secure Sockets Layer (SSL) del dominio personalizzato, quindi è necessario configurare domini personalizzati utilizzando un Front Door Service o una rete per la distribuzione di contenuti (CDN). 
+L'endpoint `<e-commerce tenant name>.commerce.dynamics.com` non supporta Secure Sockets Layer (SSL) del dominio personalizzato, quindi è necessario configurare domini personalizzati utilizzando un Front Door Service o una rete per la distribuzione di contenuti (CDN). 
 
 Per impostare domini personalizzati utilizzando un Front Door Service o una CDN, sono disponibili due opzioni:
 
@@ -115,7 +115,7 @@ Per informazioni su come configurare direttamente un servizio CDN, vedere [Aggiu
 
 Per usare l'istanza di Azure Front Door fornita da Commerce, è necessario creare una richiesta di assistenza per l'assistenza alla configurazione della rete CDN del team di onboarding di Commerce. 
 
-- Sarà necessario fornire il nome della società, il dominio di produzione, l'ID ambiente e il nome del tenant e-Commerce di produzione. 
+- Sarà necessario fornire il nome della società, il dominio di produzione, l'ID ambiente e il nome del tenant e-commerce di produzione. 
 - Sarà necessario confermare se si tratta di un dominio esistente (utilizzato per un sito attualmente attivo) o di un nuovo dominio. 
 - Per un nuovo dominio, la verifica del dominio e il certificato SSL possono essere ottenuti in un unico passaggio. 
 - Per un dominio che serve un sito Web esistente, è necessario un processo a più fasi per stabilire la verifica del dominio e il certificato SSL. Questo processo prevede un contratto di servizio (SLA) di 7 giorni lavorativi per l'attivazione di un dominio, poiché include più passaggi sequenziali.
@@ -152,17 +152,17 @@ L'istanza di Azure Front Door fornita da Commerce non supporta i domini Apex (do
 
   ## <a name="additional-resources"></a>Risorse aggiuntive
 
-  [Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+  [Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
   [Impostare un canale punto vendita online](online-stores.md)
 
   [Creare un sito di e-commerce](create-ecommerce-site.md)
 
-  [Associare un sito online a un canale](associate-site-online-store.md)
+  [Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
   [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-  [Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+  [Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
 
   [Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107354"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594238"
 ---
 # <a name="create-call-center-orders"></a> Creare ordini del servizio clienti
 
@@ -31,7 +31,7 @@ ms.locfileid: "4107354"
 In questa procedura vengono descritti i passaggi per individuare un cliente, creare un nuovo ordine, cercare un prodotto e raccogliere il pagamento del cliente. Questa procedura utilizza la società di dati dimostrativi USRT ed è destinata all'addetto degli ordini cliente. Prerequisiti: l'utente che completa la procedura viene impostato come utente del servizio clienti e il catalogo semestrale di Fabrikam è pubblicato con almeno un codice sorgente.
 
 1. Passare a **Retail e Commerce \> Clienti \> Servizio clienti**.
-2. Nel campo **Cerca testo** , immettere i criteri di ricerca per cercare il cliente.
+2. Nel campo **Cerca testo**, immettere i criteri di ricerca per cercare il cliente.
     * Per questa procedura di esempio, digitare "Karen" e premere **TAB**.  
 3. Selezionare Cerca.
     * Poiché è presente un solo cliente di nome "Karen" nei dati dimostrativi, il risultato viene automaticamente selezionato.  
@@ -40,7 +40,7 @@ In questa procedura vengono descritti i passaggi per individuare un cliente, cre
 6. Selezionare il codice sorgente per il catalogo.
     * Se non sono presenti codici sorgente attivi è possibile ignorare questo passaggio.  
 7. Selezionare **Aggiungi riga**.
-8. Nel campo **Numero articolo** , immettere il termine di ricerca per l'articolo.
+8. Nel campo **Numero articolo**, immettere il termine di ricerca per l'articolo.
     * Per questa procedura di esempio impostare un numero di articolo parziale "8111" e premere TAB. Viene visualizzata la finestra pop-up per la ricerca dell'articolo.  
 9. Selezionare il prodotto da aggiungere all'ordine cliente.
 10. Immettere la quantità di vendita.
@@ -55,4 +55,10 @@ In questa procedura vengono descritti i passaggi per individuare un cliente, cre
     * Per questa procedura immettere un importo uguale al saldo ordine che può essere presente nella pagina di riepilogo Ordine cliente a sinistra del campo dell'importo. L'azione consente di completare l'ordine come interamente pagato.  
 17. Selezionare **OK**.
 18. Selezionare **Invia**.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna](../customize-email-delivery-mode.md)
+
+[Modifica modalità di consegna nel POS](../pos-change-delivery-mode.md)
 

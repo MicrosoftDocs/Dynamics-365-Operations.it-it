@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817308"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517234"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -197,15 +197,15 @@ Una volta aggiornato il file global.json e pubblicato le modifiche, il nuovo tes
 
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
-[Associare un sito online a un canale](associate-site-online-store.md)
+[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+[Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
 
 [Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
 

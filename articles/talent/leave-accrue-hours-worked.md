@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006080"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461664"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Attribuire permessi in base alle ore lavorate
 
@@ -48,31 +48,31 @@ Per impostare un piano di congedo che usa le ore lavorate, seguire questi passag
 
 L'elaborazione dell'attribuzione dei piani basati sulle ore lavorate utilizza la frequenza di attribuzione, insieme alla base del periodo di attribuzione, per determinare le ore da attribuire.
 
-## <a name="annual-accrual-frequency"></a>Frequenza di attribuzione annuale
+## <a name="annual-accrual-frequency"></a>Frequenza di accumulo annuale
 
-| Data concessione attribuzione    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
+| Data concessione accumulo    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 12/31/2018            | 2080                 | 144                   | 1/1/2018-31/12/2018  | 2085                | 144                 |        
 | 12/31/2018            | 2080                 | 144                   | 1/1/2018-31/12/2018  | 2000                | 0                 |
 
 
-## <a name="monthly-accrual-frequency"></a>Frequenza di attribuzione mensile
+## <a name="monthly-accrual-frequency"></a>Frequenza di accumulo mensile
 
-| Data concessione attribuzione    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
+| Data concessione accumulo    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 8/31/2018             | 160                  | 12                    | 1/8/2018-31/8/2018   | 184                 | 12                  |        
 | 8/31/2018             | 160                  | 3                     | 1/8/2018-31/8/2018   | 184                 | 3                   |
 
-## <a name="semi-monthly-accrual-frequency"></a>Frequenza di attribuzione semestrale
+## <a name="semi-monthly-accrual-frequency"></a>Frequenza di accumulo semestrale
 
-| Data concessione attribuzione    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
+| Data concessione accumulo    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 8/31/2018             | 80                   | 6                     | 16/8/2018-31/8/2018  | 81                  | 6                  |        
 | 8/31/2018             | 80                   | 6                     | 16/8/2018-31/8/2018  | 75                  | 0                   |
 
-## <a name="weekly-accrual-frequency"></a>Frequenza di attribuzione settimanale
+## <a name="weekly-accrual-frequency"></a>Frequenza di accumulo settimanale
 
-| Data concessione attribuzione    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
+| Data concessione accumulo    | Livello ore lavorate    | Importo accumulo        | Date ore lavorate   | Ore lavorate effettive| Premio               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 8/31/2018             | 40                   | 3                     | 27/8/2018-31/8/2018  | 42                  | 3                  |        
 | 8/31/2018             | 40                   | 3                     | 27/8/2018-31/8/2018  | 35                  | 0                   |

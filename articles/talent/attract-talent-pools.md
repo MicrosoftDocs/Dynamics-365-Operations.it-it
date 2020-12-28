@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078045"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527695"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Selezionare i candidati utilizzando i pool di talenti in Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I selezionatori e responsabili delle assunzioni possono organizzare i candidati utilizzando la funzionalità Pool di talenti in Attract. I pool di talenti consentono di tenere traccia e stabilire un contatto con tutti i candidati che fanno domanda per mansioni nella società.
 
@@ -113,7 +115,7 @@ Tutti gli utenti dispongono di una visualizzazione condivisa dei profili dei can
 
 - Scheda **Documenti** mostra tutti i documenti che il candidato ha aggiunto dal proprio profilo o durante le domande di lavoro. È possibile utilizzare questa scheda per gestire i curriculum, lettere di presentazione, portfolio e altro del candidato. È possibile utilizzare questa scheda per aggiungere documenti.
 
-    Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft Office 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
+    Per visualizzare un documento, selezionare il nome del documento nell'elenco dei documenti. È possibile visualizzare i documenti di Microsoft Word nella domanda di lavoro utilizzando Microsoft 365. È inoltre possibile scaricare i documenti nel computer locale tramite l'opzione **Download** per ogni documento.
 
 - Nella scheda **LinkedIn** vengono visualizzate le informazioni LinkedIn del candidato. Per utilizzare questa scheda, è necessario connettere l'account LinkedIn nelle impostazioni utente e stabilire la connessione a LinkedIn Recruiter nel proprio ambiente. Per ulteriori informazioni, vedere [Selezionare i candidati con LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 

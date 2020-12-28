@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930019"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476079"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
@@ -86,7 +86,6 @@ Dopo aver abilitato le notifiche per l'app Human Resources in Teams, è possibil
 
 | Uscita | Stato |
 | --- | --- |
-| Lo scorrimento orizzontale non funziona su telefoni Android | Lo scorrimento orizzontale non è un problema su iOS o su dispositivi desktop. Stiamo lavorando a una correzione per Android. |
 | Il saldo non è corretto quando richiedi permessi per una data futura. | Le previsioni non sono ancora disponibili. Il saldo visualizza la data corrente. |
 | Impossibile annullare una richiesta **In revisione**. | Questa funzionalità non è attualmente supportata e verrà aggiunta in una versione futura. |
 | Le informazioni sul saldo sono calcolate a partire da oggi. | Il sistema al momento non visualizza i saldi al momento del periodo di competenza, anche se configurato nei parametri congedo e assenza. |

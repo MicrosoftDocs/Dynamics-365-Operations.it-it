@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897513"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529710"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Novità o modifiche in Dynamics 365 Talent (6 maggio 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Talent.
 
@@ -43,9 +45,9 @@ Questa versione include correzioni di bug minori per Dynamics 365 Talent: Onboar
 
 Le modifiche descritte in questo sezione sono valide per la build numero 8.1.2282. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Aggiornamento 26 della piattaforma per Finance and Operations
+### <a name="platform-update-26-for-finance-and-operations"></a>Update 26 della piattaforma per Finance and Operations
 
-Per ulteriori dettagli sull'aggiornamento 26 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 26 della piattaforma Dynamics 365 Finance and Operations (maggio 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Per ulteriori dettagli sull'aggiornamento 26 della piattaforma per Finance and Operations, vedere [Funzionalità di anteprima nell'aggiornamento 26 della piattaforma Dynamics 365 Finance and Operations (giugno 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Support dell'entità Common Data Service per i campi personalizzati
 

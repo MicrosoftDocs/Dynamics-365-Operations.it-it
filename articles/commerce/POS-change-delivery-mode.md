@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975099"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594139"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Modifica modalità di consegna nel POS
 
@@ -40,4 +40,10 @@ Dopo aver configurato questa funzione nel POS, quando si seleziona **Cambia moda
 
 Dopo aver selezionato le righe che si desidera modificare, fare clic su **Cambia modalità di consegna** per visualizzare la richiesta di selezionare le opzioni della modalità di consegna. Se sono state selezionate più righe da modificare, il POS visualizzerà solo le modalità di consegna che sono state configurate come consentite per tutti i prodotti selezionati. Le modalità di consegna possono essere configurate per supportare prodotti e indirizzi di consegna specifici. Se esiste una modalità di consegna accettabile per una combinazione di prodotti e indirizzi ma non per un'altra combinazione di prodotti e indirizzi selezionata, la modalità di consegna non è disponibile. Potrebbe essere necessario selezionare le righe una per una e modificare separatamente la modalità di consegna per ciascuna riga se si desidera selezionare una modalità di consegna per un prodotto che non è supportato da un altro prodotto.  
 
-Dopo aver selezionato la nuova modalità di consegna, viene visualizzata la pagina delle transazioni. Per rivedere le selezioni della nuova modalità di consegna, selezionare la scheda **Consegna** nell'elenco delle transazioni.   
+Dopo aver selezionato la nuova modalità di consegna, viene visualizzata la pagina delle transazioni. Per rivedere le selezioni della nuova modalità di consegna, selezionare la scheda **Consegna** nell'elenco delle transazioni.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Creare ordini servizio clienti](tasks/create-call-center-orders.md)
+
+[Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna](customize-email-delivery-mode.md)

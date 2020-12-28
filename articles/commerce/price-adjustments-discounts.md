@@ -3,7 +3,7 @@ title: Rettifiche prezzi e sconti
 description: Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Dynamics 365 Commerce.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023088"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584317"
 ---
 # <a name="price-adjustments-and-discounts"></a>Rettifiche prezzi e sconti
 
@@ -41,11 +41,13 @@ Le rettifiche prezzo e gli sconti possono essere applicati ai prodotti, alle var
 
 ## <a name="types-of-discounts"></a>Tipi di sconti
 
-Sono ora disponibili quattro tipi di sconti:
+Sono ora disponibili molti tipi di sconti:
 
 - **Sconto semplice**: una singola percentuale o importo.
 - **Sconto la quantità** Uno sconto applicato quando due o più prodotti vengono acquistati.
 - **Sconto gamma** - Viene applicato uno sconto quando si acquista una combinazione specifica di prodotti.
 - **Sconto della soglia** - Uno sconto applicato quando il totale della transazione è più della quantità specificata.
+- **Sconti basati sui metodi di pagamento** - Uno sconto che viene applicato quando il totale della transazione è superiore a un importo specificato e per il pagamento viene utilizzato un tipo di pagamento specifico (ad esempio, contanti, carta di credito o di debito).
+- **Sconto sulla spedizione** - Uno sconto che viene applicato quando il totale della transazione è superiore a un importo specificato e una modalità di consegna specifica (ad esempio, spedizione in due giorni o spedizione notturna) viene utilizzata per l'ordine.
 
 Sia le rettifiche prezzo che gli sconti sono collegati a gruppi di prezzi. I gruppi di prezzi possono quindi essere associati ai canali, i cataloghi, le affiliazioni e piani di fedeltà.

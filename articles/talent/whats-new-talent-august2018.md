@@ -1,7 +1,7 @@
 ---
 title: Novità o modifiche in Dynamics 365 Talent - Core HR (agosto 2018)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Talent - Core HR.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897766"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690102"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Novità o modifiche in Dynamics 365 Talent - Core HR (agosto 2018)
 
@@ -33,9 +33,9 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Ta
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Visualizzare i record in scadenza nel self service responsabile
 
-È possibile visualizzare i record in scadenza nel self service responsabile. Nuove opzioni consentono di configurare le informazioni disponibili ai responsabili. Questi valori comprendono:
+È possibile visualizzare i record in scadenza nel self service responsabile. Nuove opzioni consentono di configurare le informazioni disponibili ai responsabili. Le opzioni sono:
 
--   Certificati
+-   Attestati
 
 -   Numeri di identificazione
 
@@ -51,7 +51,7 @@ Questa funzionalità consente anche di specificare l'intervallo di giorni in cui
 
 È possibile configurare per ruolo le opzioni che saranno disponibili durante l'immissione di una richiesta di trasferimento. Questa funzionalità offre ulteriore flessibilità tra i ruoli di un'organizzazione.
 
-Ad esempio, i responsabili che richiedono trasferimenti di dipendenti potrebbero non avere accesso per suggerire o immettere importi di compensazione o per selezionare gli elenchi di attività che verranno associati alla richiesta di trasferimento. In questo caso, i responsabili possono creare e inviare le domande di trasferimento ma non sono autorizzati a immettere le compensazioni o le assegnazioni degli elenchi di attività. In questa stessa configurazione, il reparto Risorse umane sarà in grado di assegnare i nuovi valori della compensazione nonché elenchi di controllo aggiuntivi da completare per portare a termine il trasferimento.
+Ad esempio, i responsabili che richiedono trasferimenti di dipendenti potrebbero non avere accesso per suggerire o immettere importi di compensazione o per selezionare gli elenchi di attività che verranno associati alla richiesta di trasferimento. I responsabili possono creare e inviare le domande di trasferimento ma non possono immettere le compensazioni o le assegnazioni degli elenchi di attività. In questa stessa configurazione, il reparto Risorse umane può assegnare i nuovi valori della compensazione ed elenchi di controllo aggiuntivi da completare per portare a termine il trasferimento.
 
 Per impostazione predefinita, le nuove opzioni di configurazione sono impostate per non modificare le capacità prima di questo aggiornamento.
 
@@ -59,7 +59,7 @@ Per impostazione predefinita, le nuove opzioni di configurazione sono impostate 
 
 Ora sono presenti campi di data aggiuntivi in Congedo e assenza.
 
-Grazie a questa funzionalità è possibile impostare la base del periodo di attribuzione per competenza a livello del piano per utilizzare le date specifiche di un dipendente. Ciò consente di utilizzare date diverse dalla data di inizio del piano durante il processo di attribuzione per competenza di congedo. Le opzioni per date specifiche di un dipendente includono i seguenti valori:
+Grazie a questa funzionalità è possibile impostare la base del periodo di attribuzione per competenza a livello del piano per utilizzare le date specifiche di un dipendente. Date diverse dalla data di inizio del piano possono essere utilizzate durante il processo di attribuzione per competenza di congedo. Le opzioni per date specifiche di un dipendente includono i seguenti valori:
 
 -   Personalizzata (disponibile prima dell'aggiornamento)
 

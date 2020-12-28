@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980966"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517382"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -345,15 +345,15 @@ Un account amministratore secondario facoltativo può essere aggiunto nella sezi
 
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
-[Distribuire un nuovo sito di e-commerce](deploy-ecommerce-site.md)
+[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
 [Creare un sito di e-commerce](create-ecommerce-site.md)
 
-[Associare un sito online a un canale](associate-site-online-store.md)
+[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
 
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
-[Caricare reindirizzamenti di URL in blocco](upload-bulk-redirects.md)
+[Caricare i reindirizzamenti URL in blocco](upload-bulk-redirects.md)Associare un sito Dynamics 365 Commerce a un canale online
 
 [Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
 
