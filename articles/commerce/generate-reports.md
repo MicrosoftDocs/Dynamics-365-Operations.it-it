@@ -1,0 +1,140 @@
+---
+title: Generare report del canale online
+description: In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Commerce.
+author: psimolin
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: samjar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: ae7b73c7a51ffa606876072d607fc219f5f6a2ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413481"
+---
+# <a name="generate-online-channel-reports"></a><span data-ttu-id="ee471-103">Generare report del canale online</span><span class="sxs-lookup"><span data-stu-id="ee471-103">Generate online channel reports</span></span>
+
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="ee471-104">In questo argomento viene descritto come generare report per il canale online in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="ee471-104">This topic describes how to generate reports for your online channel in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="ee471-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="ee471-105">Overview</span></span>
+
+<span data-ttu-id="ee471-106">È possibile generare e visualizzare vari report in Commerce per verificare le prestazioni del canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-106">You can generate and view several reports in Commerce to see how your online channel is performing.</span></span>
+
+## <a name="channel-summary-report"></a><span data-ttu-id="ee471-107">Report di riepilogo canale</span><span class="sxs-lookup"><span data-stu-id="ee471-107">Channel summary report</span></span>
+
+<span data-ttu-id="ee471-108">Nel report **Riepilogo canale** è visualizzato un riepilogo delle seguenti transazioni del canale selezionato:</span><span class="sxs-lookup"><span data-stu-id="ee471-108">The **Channel summary** report shows a summary of the following transactions for the selected channel:</span></span>
+
+- <span data-ttu-id="ee471-109">Transazioni di vendita</span><span class="sxs-lookup"><span data-stu-id="ee471-109">Sales transactions</span></span>
+- <span data-ttu-id="ee471-110">Transazioni di pagamento</span><span class="sxs-lookup"><span data-stu-id="ee471-110">Payment transactions</span></span>
+- <span data-ttu-id="ee471-111">Transazioni fiscali</span><span class="sxs-lookup"><span data-stu-id="ee471-111">Tax transactions</span></span>
+- <span data-ttu-id="ee471-112">Transazioni scontate</span><span class="sxs-lookup"><span data-stu-id="ee471-112">Discounted transactions</span></span>
+
+<span data-ttu-id="ee471-113">Per generare un report **Riepilogo canale**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-113">To generate a **Channel summary** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-114">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report di riepilogo canale**.</span><span class="sxs-lookup"><span data-stu-id="ee471-114">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel summary report**.</span></span>
+1. <span data-ttu-id="ee471-115">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-115">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-116">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-116">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-117">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-117">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-118">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-118">Select **OK**.</span></span>
+ 
+## <a name="channel-sales-by-year-report"></a><span data-ttu-id="ee471-119">Report vendite canale per anno</span><span class="sxs-lookup"><span data-stu-id="ee471-119">Channel sales by year report</span></span> 
+
+<span data-ttu-id="ee471-120">Nel report **Vendite canale per anno** viene visualizzato un confronto delle vendite annuali di un punto vendita specifico.</span><span class="sxs-lookup"><span data-stu-id="ee471-120">The **Channel sales by year** report shows a comparison of year-over-year sales for a specific store.</span></span> <span data-ttu-id="ee471-121">Si seleziona l'anno di cui si desidera comparare le vendite e il report confronta le vendite di quell'anno con le vendite nell'anno precedente.</span><span class="sxs-lookup"><span data-stu-id="ee471-121">You select the year to compare the sales against, and the report compares sales for the selected year with sales for the previous year.</span></span>
+
+<span data-ttu-id="ee471-122">Per generare un report **Vendite canale per anno**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-122">To generate a **Channel sales by year** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-123">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per anno**.</span><span class="sxs-lookup"><span data-stu-id="ee471-123">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel sales by year report**.</span></span>
+1. <span data-ttu-id="ee471-124">Nel campo **Dall'anno di calendario**, immettere un anno.</span><span class="sxs-lookup"><span data-stu-id="ee471-124">In the **From calendar year** field, enter a year.</span></span>
+1. <span data-ttu-id="ee471-125">Nel campo **All'anno di calendario**, immettere un anno.</span><span class="sxs-lookup"><span data-stu-id="ee471-125">In the **To calendar year** field, enter a year.</span></span>
+1. <span data-ttu-id="ee471-126">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-126">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-127">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-127">Select **OK**.</span></span>
+
+## <a name="channel-sales-by-hour-report"></a><span data-ttu-id="ee471-128">Report vendite canale per ora</span><span class="sxs-lookup"><span data-stu-id="ee471-128">Channel sales by hour report</span></span>
+
+<span data-ttu-id="ee471-129">Nel report **Vendite canale per ora** sono visualizzate le metriche di vendita per ora del canale o dell'unità operativa selezionato.</span><span class="sxs-lookup"><span data-stu-id="ee471-129">The **Channel sales by hour** report shows sales metrics per hour for a selected channel or operating unit.</span></span>
+
+<span data-ttu-id="ee471-130">Per generare un report **Vendite canale per ora**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-130">To generate a **Channel sales by hour** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-131">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite canale per ora**.</span><span class="sxs-lookup"><span data-stu-id="ee471-131">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel sales by hour report**.</span></span>
+1. <span data-ttu-id="ee471-132">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-132">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-133">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-133">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-134">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-134">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-135">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-135">Select **OK**.</span></span>
+
+## <a name="top-customers-report"></a><span data-ttu-id="ee471-136">Report primi clienti</span><span class="sxs-lookup"><span data-stu-id="ee471-136">Top customers report</span></span>
+
+<span data-ttu-id="ee471-137">Nel report **Primi clienti** sono visualizzate le metriche di vendita per i primi *N* clienti del canale o dell'unità operativa selezionato.</span><span class="sxs-lookup"><span data-stu-id="ee471-137">The **Top customers** report shows sales metrics for the top *N* customers for a selected channel or operating unit.</span></span> <span data-ttu-id="ee471-138">Il valore *N* è un numero da 10 a 100 ed è basato su una misura di aggregazione selezionata dall'utente.</span><span class="sxs-lookup"><span data-stu-id="ee471-138">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="ee471-139">Per generare un report **Primi clienti**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-139">To generate a **Top customers** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-140">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report primi clienti**.</span><span class="sxs-lookup"><span data-stu-id="ee471-140">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top customers report**.</span></span>
+1. <span data-ttu-id="ee471-141">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-141">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-142">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-142">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-143">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-143">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-144">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-144">Select **OK**.</span></span>
+
+## <a name="top-discounts-report"></a><span data-ttu-id="ee471-145">Report sconti principali</span><span class="sxs-lookup"><span data-stu-id="ee471-145">Top discounts report</span></span>
+
+<span data-ttu-id="ee471-146">Nel report **Sconti principali** sono visualizzate le metriche di vendita per i primi *N* sconti del canale o dell'unità operativa selezionato.</span><span class="sxs-lookup"><span data-stu-id="ee471-146">The **Top discounts** report shows sales metrics for the top *N* discounts for a selected channel or operating unit.</span></span> <span data-ttu-id="ee471-147">Il valore *N* è un numero da 10 a 100 ed è basato su una misura di aggregazione selezionata dall'utente.</span><span class="sxs-lookup"><span data-stu-id="ee471-147">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="ee471-148">Per generare un report **Sconti principali**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-148">To generate a **Top discounts** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-149">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report sconti principali**.</span><span class="sxs-lookup"><span data-stu-id="ee471-149">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top discounts report**.</span></span>
+1. <span data-ttu-id="ee471-150">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-150">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-151">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-151">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-152">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-152">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-153">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-153">Select **OK**.</span></span>
+
+## <a name="top-products-report"></a><span data-ttu-id="ee471-154">Report prodotti principali</span><span class="sxs-lookup"><span data-stu-id="ee471-154">Top products report</span></span>
+
+<span data-ttu-id="ee471-155">Nel report **Prodotti principali** sono visualizzate le metriche di vendita per i primi *N* prodotti del canale o dell'unità operativa selezionato.</span><span class="sxs-lookup"><span data-stu-id="ee471-155">The **Top products** report shows sales metrics for the top *N* products for a selected channel or operating unit.</span></span> <span data-ttu-id="ee471-156">Il valore *N* è un numero da 10 a 100 ed è basato su una misura di aggregazione selezionata dall'utente.</span><span class="sxs-lookup"><span data-stu-id="ee471-156">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="ee471-157">Per generare un report **Prodotti principali**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-157">To generate a **Top products** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-158">Andare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report prodotti principali**.</span><span class="sxs-lookup"><span data-stu-id="ee471-158">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top products report**.</span></span>
+1. <span data-ttu-id="ee471-159">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-159">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-160">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-160">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-161">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-161">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-162">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-162">Select **OK**.</span></span>
+
+## <a name="category-sales-report"></a><span data-ttu-id="ee471-163">Report vendite di categoria</span><span class="sxs-lookup"><span data-stu-id="ee471-163">Category sales report</span></span>
+
+<span data-ttu-id="ee471-164">Nel report **Vendite di categoria** sono visualizzate le metriche di vendita in un periodo selezionato per ogni nodo di una gerarchia di categorie del canale o dell'unità operativa selezionato.</span><span class="sxs-lookup"><span data-stu-id="ee471-164">The **Category sales** report shows sales metrics over a selected period for each node of a category hierarchy for a selected channel or operating unit.</span></span>
+
+<span data-ttu-id="ee471-165">Per generare un report **Vendite di categoria**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-165">To generate a **Category sales** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-166">Passare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite di categoria**.</span><span class="sxs-lookup"><span data-stu-id="ee471-166">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Category sales report**.</span></span>
+1. <span data-ttu-id="ee471-167">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-167">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-168">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-168">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-169">Nel campo **Canale**, selezionare il canale online.</span><span class="sxs-lookup"><span data-stu-id="ee471-169">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="ee471-170">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-170">Select **OK**.</span></span>
+
+## <a name="organization-sales-report"></a><span data-ttu-id="ee471-171">Report vendite organizzazione</span><span class="sxs-lookup"><span data-stu-id="ee471-171">Organization sales report</span></span>
+
+<span data-ttu-id="ee471-172">Nel report **Vendite organizzazione** sono visualizzate le prestazioni dei punti vendita per unità organizzativa.</span><span class="sxs-lookup"><span data-stu-id="ee471-172">The **Organization sales** report shows the performance of your stores by organization unit.</span></span> <span data-ttu-id="ee471-173">Questo report include la quantità e l'importo delle vendite per punto vendita e il margine di profitto di ogni punto vendita.</span><span class="sxs-lookup"><span data-stu-id="ee471-173">This report includes the sales quantity and amount by store, and the profit margin for each store.</span></span> <span data-ttu-id="ee471-174">L'unità organizzativa è basata sulla gerarchia di report predefinita.</span><span class="sxs-lookup"><span data-stu-id="ee471-174">The organization unit is based on the default reporting hierarchy.</span></span>
+
+<span data-ttu-id="ee471-175">Per generare un report **Vendite organizzazione**, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="ee471-175">To generate an **Organization sales** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="ee471-176">Passare a **Retail e Commerce \> Richieste di informazioni e report \> Report vendite \> Report vendite organizzazione**.</span><span class="sxs-lookup"><span data-stu-id="ee471-176">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Organization sales report**.</span></span>
+1. <span data-ttu-id="ee471-177">Immettere una data nel campo **Dal**.</span><span class="sxs-lookup"><span data-stu-id="ee471-177">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-178">Nel campo **Al** immettere una data.</span><span class="sxs-lookup"><span data-stu-id="ee471-178">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="ee471-179">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee471-179">Select **OK**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="ee471-180">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="ee471-180">Additional resources</span></span>
+
+- [<span data-ttu-id="ee471-181">Home page di Commerce</span><span class="sxs-lookup"><span data-stu-id="ee471-181">Commerce home page</span></span>](../retail/index.md)
