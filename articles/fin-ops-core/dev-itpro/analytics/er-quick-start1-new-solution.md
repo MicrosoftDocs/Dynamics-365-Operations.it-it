@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678250"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680244"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -142,10 +141,10 @@ Come utente che dispone del ruolo di sviluppatore per la creazione di report ele
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Configurare i parametri ER
 
-1. Andare ad **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nell'area di lavoro **Creazione di report elettronici** , selezionare **Parametri per la creazione di report elettronici**.
-3. Nella pagina **Parametri per la creazione di report elettronici** , nella scheda **Generale** , impostare l'opzione **Abilita integrazione fiscale** su **Sì**.
-4. Nella scheda **Allegati** , impostare i seguenti parametri:
+1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+2. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Parametri per la creazione di report elettronici**.
+3. Nella pagina **Parametri per la creazione di report elettronici**, nella scheda **Generale**, imposta l'opzione **Abilita integrazione fiscale** su **Sì**.
+4. Nella scheda **Allegati**, imposta i seguenti parametri:
 
     - Impostare il campo **Configurazioni** su **File** per l'azienda **USMF**.
     - Impostare i campi **Archivio processi**, **Temporaneo**, **Base** e **Altri** su **File**.
@@ -161,28 +160,28 @@ Ogni configurazione ER viene contrassegnata come di proprietà di un provider di
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Rivedere l'elenco dei provider di configurazione ER
 
-1. Andare ad **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Collegamenti correlati**, selezionare **Provider di configurazione**.
 3. Nella pagina **Provider di configurazione**, ogni configurazione del provider ha un nome e un URL univoco. Rivedi il contenuto della pagina. Se un record per **Litware, Inc.** (`https://www.litware.com`) esiste già, salta la procedura successiva, [Aggiungere un nuovo provider di configurazione ER](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Aggiungere un nuovo provider di configurazione ER
 
 1. Nella pagina **Provider di configurazione**, seleziona **Nuovo**.
-2. Nel campo **Nome**, immettere  **Litware, Inc.**
-3. Nel campo **Indirizzo Internet** immetti  `https://www.litware.com`.
-4. Selezionare  **Salva**.
+2. Nel campo **Nome**, immetti **Litware, Inc.**
+3. Nel campo **Indirizzo Internet** immetti `https://www.litware.com`.
+4. Selezionare **Salva**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Attivare un provider di configurazioni ER
 
-1. Andare ad **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nell'area di lavoro **Creazione di report elettronici**, selezionare il provider di configurazioni **Litware, Inc.**.
-3. Selezionare **Imposta come attivo**.
+3. Selezionare **Imposta come attivo**.
 
 Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Progettare un modello di dati specifici di un dominio
 
-È necessario creare una nuova configurazione ER che contenga un componente [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) per il dominio aziendale **Gestione questionari**. Questo modello di dati verrà successivamente utilizzato come origine dati quando si progetta un formato ER per generare il report **Gestione questionari**.
+È necessario creare una nuova configurazione ER che contenga un componente [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) per il dominio aziendale **Gestione questionari**. Questo modello di dati verrà successivamente utilizzato come origine dati quando si progetta un formato ER per generare il report **Gestione questionari**.
 
 Completando i passaggi nella sezione [Importare una nuova configurazione del modello di dati](#ImportDataModel), è possibile importare il modello di dati richiesto dal file XML fornito. In alternativa, puoi completare i passaggi nella sezione [Creare una nuova configurazione del modello di dati](#DesignDataModel) per progettare questo modello di dati da zero.
 
@@ -811,7 +810,7 @@ Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza
 
 In qualità di utente nel ruolo Amministratore di sistema, è necessario sviluppare una nuova logica in modo che il formato ER configurato possa essere chiamato dall'interfaccia utente dell'applicazione per generare il report personalizzato. Attualmente, ER non offre alcuna capacità per configurare questo tipo di logica. Pertanto, è necessario un lavoro di ingegneria. 
 
-Per sviluppare la nuova logica, è necessario distribuire una topologia che supporti la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md). È inoltre necessario avere accesso all'ambiente di sviluppo per questa topologia. Per ulteriori informazioni sulle API ER disponibili, vedere [API framework report elettronici](er-apis-app73.md).
+Per sviluppare la nuova logica, è necessario distribuire una topologia che supporti la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md). È inoltre necessario avere accesso all'ambiente di sviluppo per questa topologia. Per ulteriori informazioni sulle API ER disponibili, vedere [API framework report elettronici](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Modificare il codice sorgente
 

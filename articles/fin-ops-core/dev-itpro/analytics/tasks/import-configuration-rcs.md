@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea2bfd2514be666d05165410ca27041a86464715
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143225"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684189"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Importare configurazioni da RCS
 
@@ -31,28 +30,28 @@ I passaggi seguenti illustrano come un utente con ruolo di amministratore di sis
 
 1. Andare a **Amministrazione organizzazione** > **Aree di lavoro** > **Creazione di report elettronici**. 
 2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se questo provider di configurazione non è visualizzato, completare i passaggi nell'argomento [Creare provider di configurazioni e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). 
-3. Se si dispone di un ambiente RCS di cui è stato effettuato il provisioning per la società, fare clic sul collegamento esterno **Regulatory services - Configurazione** e seguire le istruzioni per il provisioning di un ambiente RCS. 
-4. Fare clic su **Parametri per la creazione di report elettronici**. 
-5. Fare clic sulla scheda **RCS**. 
+3. Se si dispone di un ambiente RCS di cui è stato effettuato il provisioning per la società, selezionare il collegamento esterno **Regulatory services - Configurazione** e seguire le istruzioni per il provisioning di un ambiente RCS. 
+4. Selezionare i **parametri per la creazione di report elettronici**. 
+5. Selezionare la scheda **RCS**. 
 6. Se si è già eseguito il provisioning dell'ambiente RCS per la società, utilizzare gli URL nella pagina per accedervi. 
 7. Chiudere la pagina. 
 
 ## <a name="register-a-new-er-repository"></a>Registrare un nuovo archivio ER. 
 1. Nell'elenco contrassegnare la riga selezionata. 
 2. Selezionare il provider Litware, Inc. 
-3. Fare clic su Archivi. 
+3. Selezionare Archivi. 
 4. Fare clic su Aggiungi per aprire la finestra di dialogo a discesa. 
 5. Nel campo Tipo di archivio di configurazioni immettere "RCS". 
-6. Fare clic su Crea archivio. 
+6. Selezionare Crea archivio. 
 7. Nel campo Nome visualizzato ambiente RCS, immettere o selezionare un valore. 
-8. Selezionare l'istanza di RCS desiderata. Tenere presente che possono esistere varie istanze. 
-9. Fare clic su OK. 
+8. Selezionare l'istanza di RCS desiderata. Possono esistere varie istanze. 
+9. Selezionare OK. 
 
 ## <a name="import-er-configurations-from-rcs-based-repository"></a>Importare le configurazioni ER dall'archivio basato su RCS
-1. Fare clic su **Mostra filtri**. 
+1. Seleziona **Mostra filtri**. 
 2. Immettere un valore di filtro "RCS" nel campo **Nome** utilizzando l'operatore di filtro **inizia con**. 
-3. Quando si apre l'archivio selezionato, nella pagina **Connessione a Regulatory Configuration Service**, fare clic sul collegamento **Fare clic qui per connettersi a Regulatory Configuration Services**. 
-4. Fare clic su **Apri**. 
-5. Fare clic su **Chiudi**. 
-6. Selezionare la versione desiderata della configurazione ER e fare clic su **Importa** per importarla nell'istanza.
+3. Quando si apre l'archivio selezionato, nella pagina **Connessione a Regulatory Configuration Service**, selezionare il collegamento **Fare clic qui per connettersi a Regulatory Configuration Services**. 
+4. Selezionare **Apri**. 
+5. Selezionare **Chiudi**. 
+6. Selezionare la versione desiderata della configurazione ER e selezionare **Importa** per importarla nell'istanza.
 

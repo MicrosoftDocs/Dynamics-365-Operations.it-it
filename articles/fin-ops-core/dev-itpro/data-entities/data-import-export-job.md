@@ -3,24 +3,23 @@ title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278900"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684062"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -130,7 +129,7 @@ Un processo può essere protetto in base a ruoli, utenti e persone giuridiche co
 È possibile eseguire un processo una volta facendo clic sul pulsante **Importa** o **Esporta** dopo aver definito il processo. Per impostare un processo ricorrente, selezionare **Crea processo dati ricorrente**.
 
 > [!NOTE]
-> Un processo di importazione o esportazione può essere eseguito in modo asincrono selezionando il pulsante **Importa** o **Esporta**. L'esecuzione asincrona utilizza il framework asincrono, che è differente dal framework batch. Tuttavia, come il framework batch, il framework asincrono può anche essere soggetto a una limitazione e di conseguenza il processo può non essere eseguito immediatamente. I processi possono anche essere eseguiti in modo sincrono selezionando **Importa adesso** o **Esporta adesso**. Questa selezione avvia immediatamente il processo e risulta utile se l'esecuzione asincrona o batch non viene avviata a causa di una limitazione. I processi possono anche essere eseguiti in un batch scegliendo **Esegui in batch**. Le risorse batch sono soggette a limitazione, quindi il processo batch potrebbe non essere avviato immediatamente. L'opzione asincrona è utile quando gli utenti interagiscono direttamente con l'interfaccia utente e non sono power user per comprendere la pianificazione batch. L'utilizzo di un batch è un'opzione alternativa se è necessario esportare o importare grandi volumi. I processi batch possono essere pianificati per l'esecuzione in un gruppo batch specifico, che consente un maggior controllo da una prospettiva di bilanciamento del carico. Se l'esecuzione asincrona e quella batch sono soggette a limitazione a causa di un utilizzo elevato delle risorse di sistema, come soluzione alternativa immediata è possibile utilizzare la versione sincrona dell'importazione/esportazione. L'opzione sincrona verrà avviata immediatamente e bloccherà l'interfaccia utente poiché viene eseguita in modo sincrono. La finestra del browser deve rimanere aperta quando l'operazione sincrona è in corso.
+> Un processo di importazione o esportazione può essere eseguito selezionando il pulsante **Importa** o **Esporta**. Questo pianificherà un processo batch da eseguire solo una volta. Il processo potrebbe non essere eseguito immediatamente se il servizio batch subisce una limitazione a causa del carico sul servizio batch. I processi possono anche essere eseguiti in modo sincrono selezionando **Importa adesso** o **Esporta adesso**. Questa selezione avvia immediatamente il processo e risulta utile se il batch non viene avviato a causa di una limitazione. I processi possono anche essere programmati per essere eseguiti in un secondo momento. Questo può essere fatto scegliendo l'opzione **Esegui in batch**. Le risorse batch sono soggette a limitazione, quindi il processo batch potrebbe non essere avviato immediatamente. L'utilizzo di un batch è l'opzione consigliata perché aiuta anche con grandi volumi di dati che devono essere importati o esportati. I processi batch possono essere pianificati per l'esecuzione in un gruppo batch specifico, che consente un maggior controllo da una prospettiva di bilanciamento del carico.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Verificare che il processo è stato eseguito come previsto
 Lo storico processi è disponibile per la risoluzione dei problemi e l'analisi dei processi di importazione e di esportazione. Le esecuzioni dello storico processi sono organizzate in base a intervalli di tempo.
@@ -195,7 +194,7 @@ La funzionalità di pulizia dello storico processi nella gestione dei dati deve 
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-La funzionalità deve essere abilitata nella gestione delle funzionalità ed è quindi accessibile da **Gestione dati \> Pulizia storico processi**.
+La funzionalità **di pulizia storico esecuzione** deve essere abilitata nella gestione delle funzionalità ed è quindi accessibile da **Gestione dati \> Pulizia storico processi**.
 
 ### <a name="scheduling-parameters"></a>Parametri di programmazione
 
@@ -211,3 +210,36 @@ Quando si esegue la programmazione del processo di pulizia, i seguenti parametri
 
 > [!NOTE]
 > Se i record nelle tabelle di gestione temporanea non vengono ripuliti completamente, assicurarsi che il processo di pulizia sia pianificato per essere ripetuto. Come spiegato sopra, in qualsiasi esecuzione di pulizia il processo pulirà il maggior numero di ID di esecuzione possibile entro le ore massime previste. Per continuare la pulizia di tutti i record di gestione temporanea rimanenti, è necessario pianificare l'esecuzione periodica del processo.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Pulizia e archiviazione storico processi (disponibile per l'anteprima nel Platform update 39 o nella versione 10.0.15)
+La funzionalità di pulizia e archiviazione storico processi sostituisce le versioni precedenti della funzionalità di pulizia. Questa sezione spiegherà queste nuove funzionalità.
+
+Una delle principali modifiche alla funzionalità di pulizia è l'uso del processo batch di sistema per la pulizia dello storico. L'utilizzo del processo batch di sistema consente alle Finance and Operations app di pianificare ed eseguire automaticamente il processo batch di pulizia non appena il sistema è pronto. Non è più necessario pianificare manualmente il processo batch. In questa modalità di esecuzione predefinita, il processo batch verrà eseguito ogni ora a partire dalla mezzanotte e conserverà lo storico delle esecuzioni per i 7 giorni più recenti. Lo storco eliminato viene archiviato per il recupero futuro.
+
+> [!NOTE]
+> Poiché questa funzionalità è in anteprima, il processo batch di sistema non eliminerà alcuno storico esecuzione fino a quando non verrà abilitato tramite l'anteprima DMFEnableExecutionHistoryCleanupSystemJob. Quando la funzione sarà generalmente disponibile in una versione futura, questo periodo di pubblicazione non sarà necessario e il processo batch del sistema inizierà a essere eliminato e archiviato dopo che il sistema è pronto, in base alla pianificazione definita come spiegato sopra. 
+
+> [!NOTE]
+> In una versione futura, le versioni precedenti della funzionalità di pulizia verranno rimosse dalle Finance and Operations app.
+
+La seconda modifica nel processo di pulizia è l'archiviazione dello storico esecuzione eliminato. Il processo di pulizia archivierà i record eliminati nell'archiviazione BLOB che DIXF utilizza per le integrazioni regolari. Il file archiviato sarà nel formato del pacchetto DIXF e sarà disponibile per 7 giorni nel BLOB durante il quale potrà essere scaricato. La longevità predefinita di 7 giorni per il file archiviato può essere modificata fino a un massimo di 90 giorni nei parametri.
+
+### <a name="changing-the-default-settings"></a>Modifica delle impostazioni predefinite
+Questa funzionalità è attualmente in anteprima e deve essere esplicitamente attivata abilitando l'anteprima DMFEnableExecutionHistoryCleanupSystemJob. La funzionalità di pulizia della gestione temporanea deve essere attivata anche nella gestione delle funzionalità.
+
+Per modificare l'impostazione predefinita per la longevità del file archiviato, accedere all'area di lavoro della gestione dei dati e selezionare **Pulizia storico processi**. Impostare **Giorni in cui conservare il pacchetto in BLOB** su un valore compreso tra 7 e 90 (inclusi). Ciò avrà effetto sugli archivi creati dopo questa modifica.
+
+### <a name="downloading-the-archived-package"></a>Download del pacchetto archiviato
+Questa funzionalità è attualmente in anteprima e deve essere esplicitamente attivata abilitando l'anteprima DMFEnableExecutionHistoryCleanupSystemJob. La funzionalità di pulizia della gestione temporanea deve essere attivata anche nella gestione delle funzionalità.
+
+Per scaricare lo storico esecuzione archiviata, andare all'area di lavoro della gestione dei dati e selezionare **Pulizia storico processi**. Selezionare **Storico backup del pacchetto** per aprire il modulo dello storico. Questo modulo mostra l'elenco di tutti i pacchetti archiviati. Un archivio può essere selezionato e scaricato selezionando **Scarica il pacchetto**. Il pacchetto scaricato sarà nel formato del pacchetto DIXF e conterrà i seguenti file:
+
+-   Il file della tabella di gestione temporanea dell'entità
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

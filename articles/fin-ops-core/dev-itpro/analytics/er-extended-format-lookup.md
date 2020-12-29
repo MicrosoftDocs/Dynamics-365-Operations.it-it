@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138862"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679488"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Consentire agli utenti di impostare un riferimento al formato ER richiedendo un formato presente nel repository globale
 
 [!include [banner](../includes/banner.md)]
 
-È possibile utilizzare il framework di [report elettronici](general-electronic-reporting.md) (ER) per configurare [formati](general-electronic-reporting.md#FormatComponentOutbound) per documenti in uscita in base ai requisiti legali dei vari paesi. È inoltre possibile utilizzare il framework ER per configurare [formati ](general-electronic-reporting.md#FormatComponentInbound) per l'analisi di documenti in entrata e utilizzare le informazioni in tali documenti per aggiungere o aggiornare i dati dell'applicazione. Ognuno di questi formati può essere utilizzato nella propria istanza Dynamics 365 Finance per la gestione di documenti aziendali in entrata o in uscita come parte di un determinato processo aziendale. 
+È possibile utilizzare il framework di [report elettronici](general-electronic-reporting.md) (ER) per configurare [formati](general-electronic-reporting.md#FormatComponentOutbound) per documenti in uscita in base ai requisiti legali dei vari paesi. È inoltre possibile utilizzare il framework ER per configurare [formati ](general-electronic-reporting.md#FormatComponentInbound) per l'analisi di documenti in entrata e utilizzare le informazioni in tali documenti per aggiungere o aggiornare i dati dell'applicazione. Ognuno di questi formati può essere utilizzato nella propria istanza Dynamics 365 Finance per la gestione di documenti aziendali in entrata o in uscita come parte di un determinato processo aziendale.
 
 Di solito, è necessario specificare quale formato ER deve essere utilizzato in un determinato processo aziendale. Per fare ciò, selezionare un singolo formato ER in un campo di ricerca configurato come parte dei parametri specifici del processo aziendale. Questi campi di ricerca vengono generalmente implementati utilizzando l'API appropriata del framework ER. Per ulteriori informazioni, vedere [API framework ER - codice per visualizzare una ricerca di mapping di formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -45,7 +44,7 @@ Se l'attuale istanza di Finance contiene formati ER relativi a processi aziendal
 
 Questa ricerca offre solo i formati ER che sono già stati importati nell'istanza corrente di Finance. Per [importare](./tasks/er-import-configuration-lifecycle-services.md) soluzioni ER nell'istanza corrente di Finance, è necessario disporre delle autorizzazioni per eseguire la funzione appropriata del framework ER che supporta il [ciclo di vita](general-electronic-reporting-manage-configuration-lifecycle.md) delle soluzioni ER che contengono formati ER.
 
-A partire dalla versione 10.0.9 di Finance (versione di aprile 2020), l'interfaccia utente della ricerca di formati ER implementata mediante l'API del framework ER è stata estesa. È ancora possibile selezionare i formati ER esistenti, che si trovano nella scheda dettaglio **Seleziona la configurazione del formato**. Inoltre, la ricerca estesa offre la nuova opzione per la ricerca di formati ER specifici nel repository globale. Tutti i formati ER del repository globale sono disponibili nella scheda dettaglio **Importa da repository globale**.
+A partire dalla versione 10.0.9 di Finance (versione di aprile 2020), l'interfaccia utente della ricerca di formati ER implementata mediante l'API del framework ER è stata estesa. È ancora possibile selezionare i formati ER esistenti, che si trovano nella scheda dettaglio **Seleziona la configurazione del formato**. Inoltre, la ricerca estesa offre la nuova opzione per la ricerca di formati ER specifici nel repository globale (GR). Tutti i formati ER del repository globale sono disponibili nella scheda dettaglio **Importa da repository globale**.
 
 [![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ Quando si seleziona un formato ER nella scheda dettaglio **Importa da repository
 
 [![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Quindi, se l'importazione viene completata correttamente, il riferimento al formato ER importato viene archiviato in questo campo di ricerca. Si noti che quando si accede al repository globale per la prima volta, è necessario seguire il collegamento fornito per iscriversi al servizio [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) utilizzato per gestire l'accesso al repository globale.
+Quindi, se l'importazione viene completata correttamente, il riferimento al formato ER importato viene archiviato in questo campo di ricerca. Quando si accede al repository globale per la prima volta, è necessario seguire il collegamento fornito per iscriversi al servizio [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) utilizzato per gestire l'accesso al repository globale.
 
 [![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Per impostazione predefinita, la scheda dettaglio **Importa da repository globale** visualizza l'elenco di formati ER presenti nell'archivio temporaneo che viene creato automaticamente in base al contenuto del repository globale per miglioramenti delle prestazioni. Ciò avviene quando la scheda dettaglio **Importa da repository globale** viene aperta la prima volta, il che può richiedere alcuni secondi.
 
-Se il formato ER richiesto non è visualizzato nella scheda dettaglio **Importa da repository globale**, ma si è certi della sua presenza nel repository globale, selezionare l'opzione **Sincronizza**. Questa operazione aggiornerà l'archivio temporaneo e lo sincronizzerà con il contenuto corrente del repository globale.
+Se il formato ER richiesto non è visualizzato nella scheda dettaglio **Importa da repository globale**, ma si è certi della sua presenza nel repository globale, selezionare l'opzione **Sincronizza**. Questa opzione aggiornerà l'archivio temporaneo e lo sincronizzerà con il contenuto corrente del repository globale.
 
 ## <a name="feature-activation"></a>Attivazione della funzionalità
 

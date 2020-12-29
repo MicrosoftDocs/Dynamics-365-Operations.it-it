@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181774"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682773"
 ---
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
@@ -81,14 +80,14 @@ Nella versione precedente, le entità di VendPaymentBIMeasure e LedgerActivityMe
 ## <a name="security"></a>Sicurezza
 Attualmente, i dati sui report Power BI incorporati non possono essere limitati alle persone giuridiche a cui l'utente ha accesso. Pertanto, i report di Power BI incorporati sono controllati attraverso i diritti dell'impostazione di sicurezza. I diritti definiti consentono l'accesso ai dati per tutte le persone giuridiche o solo per la società attiva. Nella seguente tabella vengono illustrati i diritti esistenti e ruoli a cui sono assegnati. I diritti possono essere rimossi o assegnati ai ruoli diversi, in base ai requisiti dell'organizzazione.
 
-| Imposta                                    | Ruoli | Descrizione |
+| Diritti                                    | Ruoli | descrizione |
 |-----------------------------------------|-------|------------|
 | Visualizza area di lavoro Panoramica responsabile finanziario             | Responsabile finanziario | Questi diritti consentono di accedere all'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
 | Visualizza informazioni finanziarie dettagliate della società attuale | <ul><li>Contabile</li><li>Direttore amministrativo</li><li>Supervisore contabile</li><li>Revisore</li><li>Responsabile budget</li><li>Amministratore delegato</li><li>Responsabile finanziario</li><li>Supervisore finanziario</li></ul> | Questi diritti consentono di accedere a Informazioni finanziarie dettagliate. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Non è possibile aggiungere altre persone giuridiche. |
 | Visualizza informazioni finanziarie dettagliate della società   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Confronto tra Creazione di report finanziari e Informazioni finanziarie dettagliate
+## <a name="financial-reporting-vs-financial-insights"></a>Confronto tra Creazione di report finanziari e Informazioni finanziarie dettagliate
 Sebbene **Informazioni finanziarie dettagliate** contenga rendiconti finanziari, non sostituisce la creazione di report finanziari nell'applicazione. I rendiconti finanziari predefiniti di **Informazioni finanziarie dettagliate** sono di portata limitata e non includono tutti i tipi di rendiconti finanziari. Il reporting finanziario è ancora lo strumento principale per progettare, creare e generare rendiconti finanziari statutari di legge.
 
 La seguente tabella di confronto aiuterà a differenziare le due opzioni:
@@ -103,7 +102,7 @@ La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 | **Supporto creazione di report con gerarchia/gerarchia organizzativa**   | Sì                                                               | No |
 | **Report i dati del giornale d registrazione secondario**                             | Sì limitato solo al fornitore, cliente                              | Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via. |
 | **Valuta di dichiarazione**                                   | Sì valuta di contabilizzazione e convertire in valuta di dichiarazione       | No solo valuta di contabilizzazione |
-| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
+| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza Finance and Operations) o solo per la società attiva |
 | **Supporto di diversi piani dei conti e anni fiscali** | Sì                                                               | No |
 | **Report di dati esterni**                              | No                                                                | No |
 | **Supporto di consolidamenti**                               | Sì                                                               | Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione |
@@ -131,7 +130,7 @@ Gli utenti possono filtrare il report utilizzando il riquadro **Filtro** a sinis
 - **Filtri a livello di oggetto visivo** : questi filtri vengono applicati solo all'oggetto visivo selezionato. Questi filtri vengono applicati sopra i filtri a livello di pagina.
 - **Filtro drill-through**: questo filtro applica il filtro a partire da un oggetto visivo "sorgente" che viene applicato all'oggetto visivo corrente quando si passa dall'oggetto visivo di origine a quello corrente.
 
-![Filtro](./media/filter.png)
+![Opzioni di filtro](./media/filter.png)
 
 Per rimuovere un valore specifico di filtro, selezionare il simbolo della gomma accanto ad esso. Non rimuovere un filtro selezionando la X. Se si seleziona la X, il campo su cui stai filtrando viene rimosso come opzione di filtro. Se si deseleziona accidentalmente un campo dal filtro, chiudere l'area di lavoro e quindi riaprila. Le impostazioni di filtro predefinite verranno applicate nuovamente.
 
@@ -176,25 +175,25 @@ Tramite Power BI sono disponibili diversi livelli di drill. Ogni livello ha un n
 
 Nell'illustrazione seguente, il rendiconto del **Bilancio di verifica** viene compresso al livello più alto della gerarchia di righe, il tipo di conto principale.
 
-![Bilancio di verifica](./media/trial-balance.png)
+![Rendiconto del bilancio di verifica](./media/trial-balance.png)
 
 Per visualizzare il livello successivo della gerarchia, le categorie principali del conto, è possibile impostare il campo **Drill** su **Righe** e quindi fare clic sul pulsante **Espandi** il terzo pulsante dopo il campo Drill. Tutte le categorie del conto principale vengono espanse. Attualmente, Power BI non consente di espandere solo una riga o una colonna, ma visualizza anche tutte le altre righe o colonne.
 
-![Bilancio di verifica](./media/trial-balance2.png)
+![Analisi del bilancio di verifica sulle righe](./media/trial-balance2.png)
 
 Per espandere il conto principale per tutte le righe, è possibile utilizzare di nuovo il pulsante **Espandi**. Tuttavia, per eseguire il drill-down sui conti principali per una sola riga, selezionare innanzitutto il pulsante **Drill-down** (la singola freccia rivolta verso il basso sul lato destro della finestra), quindi selezionare la riga per cui eseguire il drill-down. L'illustrazione seguente mostra il risultato quando viene selezionata la riga **Vendite** dopo aver selezionato il pulsante **Drill-down**.
 
-![Bilancio di verifica](./media/trial-balance3.png)
+![Pulsante di espansione del bilancio di prova](./media/trial-balance3.png)
 
 Dopo aver eseguito il drill-down su una singola riga, sono necessari più clic per tornare al bilancio di verifica completo. Il pulsante **Drill-up** (il primo pulsante dopo il campo **Drill**) esegue il drill-up solo nel contesto della categoria **Vendite**, come mostrato nella seguente illustrazione.
 
-![Bilancio di verifica](./media/trial-balance4.png)
+![Pulsante drill up del bilancio di verifica](./media/trial-balance4.png)
 
 È possibile continuare a utilizzare il pulsante **Drill-up** per tornare al più alto livello di riepilogo per le righe.
 
 Power BI dispone anche di un pulsante che consente di passare al livello successivo nella gerarchia (il secondo pulsante dopo il campo **Drill**). L'effetto di questo pulsante differisce dall'effetto del pulsante **Espandi** (il terzo pulsante dopo il campo **Drill**), che viene utilizzato per espandere la gerarchia. Quando si espande la gerarchia, la gerarchia viene mantenuta nel report. Ad esempio, come mostrato in precedenza, se si espande il tipo di conto principale, nel report viene comunque visualizzato il tipo di account principale. Tuttavia, quando si passa al livello successivo nella gerarchia, il report non mostra più il padre nella gerarchia, come mostrato nella figura seguente.
 
-![Bilancio di verifica](./media/trial-balance5.png)
+![Pulsante drill back del bilancio di verifica](./media/trial-balance5.png)
 
 Per visualizzare i dettagli della transazione alla base dei saldi riepilogati, è possibile selezionare alcuni importi per eseguire il drill-back in Financial and Operations.
 
@@ -245,6 +244,6 @@ Power BI non fornisce un'opzione per nascondere e mostrare righe vuote. Se una r
 
 Le informazioni contenute nelle seguenti risorse non sono necessarie per abilitare i report incorporati per la **Panoramica responsabile finanziario** o l'area di lavoro **Informazioni finanziarie dettagliate** in un ambiente di produzione. Al contrario, sono utili per le caselle di sviluppo e se si desidera incorporare i propri report di Power BI.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Accesso alle aree di lavoro analitiche e ai report in un ambiente a scatola singola](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771168"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682849"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
 
@@ -154,7 +153,7 @@ Seguire i passaggi nella sezione "Esempio: automatizzare l'impostazione delle re
 Impostando parametri ER specifici, è possibile sopprimere le notifiche che informano della sostituzione delle associazioni del formato. Questa soppressione può essere utile se le associazioni del formato vengono sostituite in una modalità automatica utilizzando Regression Suite Automation Tool. In questo caso, l'avviso può essere considerato un errore del test case in esecuzione.
 
 1. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, selezionare **Parametri utente**.
-2. Impostare l'opzione **Sopprimi avvisi di base**su **Sì** e selezionare **OK**.
+2. Impostare l'opzione **Sopprimi avvisi di base** su **Sì** e selezionare **OK**.
 
 ### <a name="review-the-generated-baseline-file"></a>Esaminare il file di base generato
 

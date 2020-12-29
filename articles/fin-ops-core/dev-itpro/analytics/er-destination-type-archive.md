@@ -3,7 +3,7 @@ title: Tipo di destinazione archivio ER
 description: In questo argomento vengono fornite informazioni su come configurare una destinazione archivio per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8797a68507a5116c6adbf1f2d805838fa507958c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745587"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679680"
 ---
-# <a name="archive-destination"></a>Destinazione archivio
+# <a name="archive-er-destination-type"></a>Tipo di destinazione archivio ER
 
 [!include [banner](../includes/banner.md)]
 
-È possibile configurare una destinazione archivio per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita. In base all'impostazione di destinazione, un documento generato viene archiviato come allegato di un record dell'elenco di processi ER.
+È possibile configurare una destinazione archivio per ogni componente **Cartella** o **File** di un formato ER configurato per generare documenti in uscita. In base all'impostazione di destinazione, un documento generato viene archiviato come allegato di un record dell'elenco di processi ER. Per visualizzare i risultati, andare su **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Processi di creazione report elettronici**.
 
 È possibile utilizzare questa opzione per inviare il documento generato a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì** per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I [tipi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) di documento vengono definiti in **Amministrazione organizzazione** \> **Gestione documenti** \> **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
 
@@ -49,6 +48,9 @@ Il percorso posizione determina dove viene salvato il file. Una volta abilitata 
 ## <a name="azure-storage"></a>Archiviazione di Azure
 
 Quando il percorso del tipo di documento è impostato su **Archiviazione di Azure**, è possibile salvare un file in Archiviazione di Azure.
+
+> [!NOTE] 
+> Il framework ER archivia in modo permanente i file nell'archiviazione BLOB di Azure a differenza del Framework di gestione dei dati che applica i criteri di conservazione di sette giorni per i documenti che devono essere elaborati. Per ulteriori informazioni, vedere [API per ottenere lo stato del messaggio](../data-entities/recurring-integrations.md#api-for-getting-message-status) e [API di controllo dello stato](../data-entities/data-management-api.md#status-check-api). I file correlati a ER verranno archiviati nell'archivio BLOB di Azure come allegati dei record della tabella dell'applicazione per tutto il tempo necessario. Un singolo file verrà eliminato dall'archiviazione BLOB di Azure insieme al record della tabella dell'applicazione a cui era allegato il file.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

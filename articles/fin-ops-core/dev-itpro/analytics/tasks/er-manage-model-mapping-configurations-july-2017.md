@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143055"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684429"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gestire il mapping dei modelli di ER in configurazioni di ER separate
 
@@ -66,9 +65,9 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
     * Mapping di esempio  
 4. Fare clic su Crea configurazione.
 5. Espandere la sezione Prerequisiti.
-    * Si noti che il gruppo di prerequisiti Implementazioni è stato aggiunto automaticamente. Questo gruppo include il componente di prerequisiti che fa riferimento alla configurazione del modello dati padre ed è contrassegnato come Implementazione. Ciò significa che la configurazione di mapping di modello Mapping di esempio viene considerata l'implementazione del modello dati Modello dati di esempio. Di conseguenza, questo componente comporterà il download da parte di ER della configurazione del mapping di modello da un archivio quando viene scaricata la configurazione del modello dati di esempio.   
+    * Il gruppo di prerequisiti Implementazioni è stato aggiunto automaticamente. Questo gruppo include il componente di prerequisiti che fa riferimento alla configurazione del modello dati padre ed è contrassegnato come Implementazione. Ciò significa che la configurazione di mapping di modello Mapping di esempio viene considerata l'implementazione del modello dati Modello dati di esempio. Di conseguenza, questo componente comporterà il download da parte di ER della configurazione del mapping di modello da un archivio quando viene scaricata la configurazione del modello dati di esempio.   
 6. Fare clic su Progettazione.
-    * Si noti che la configurazione di mapping di modello creata contiene un nuovo mapping vuoto con lo stesso nome della configurazione creata. Tenere presente che quando una configurazione di modelli padre selezionata contiene mapping di modello, questi ultimi verranno copiati in una nuova configurazione di mapping di modello.   
+    * La configurazione di mapping di modello creata contiene un nuovo mapping vuoto con lo stesso nome della configurazione creata. Quando una configurazione di modelli padre selezionata contiene mapping di modello, questi ultimi verranno copiati in una nuova configurazione di mapping di modello.   
 7. Fare clic su Progettazione.
 8. Nella struttura selezionare 'Dynamics 365 for Operations\Tabella'.
 9. Fare clic su Aggiungi radice.
@@ -112,7 +111,7 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 16. Fare clic su Esegui.
     * Nella scheda dettaglio Versioni fare clic su Esegui.  
 17. Fare clic su OK.
-    * Verificare l'uscita che contiene il nome della società a cui l'utente che ha esegue questa configurazione di formato ha eseguito l'accesso. Si noti che la configurazione di mapping di modello creata viene utilizzata da questa configurazione di formato perché è presente una sola configurazione disponibile contenente i mapping di modello richiesti.   
+    * Verificare l'uscita che contiene il nome della società a cui l'utente che ha esegue questa configurazione di formato ha eseguito l'accesso. La configurazione di mapping di modello creata viene utilizzata da questa configurazione di formato perché è presente una sola configurazione disponibile contenente i mapping di modello richiesti.   
 
 ## <a name="add-alternative-er-model-mapping-configuration"></a>Aggiungere una configurazione del mapping di modello ER alternativa
 1. Nella struttura selezionare "Sample data model".
@@ -153,12 +152,12 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Utilizzare una configurazione del mapping di modello ER esistente
 1. Nella struttura selezionare "Sample data model\Sample format".
 2. Fare clic su Esegui.
-    * Si noti che la versione bozza della configurazione di formato ER non può essere eseguita perché è presente più di una configurazione di mapping di modello disponibile per il modello dati non definito selezionato come origine dati del formato ER in esecuzione.   
+    * La versione bozza della configurazione di formato ER non può essere eseguita perché è presente più di una configurazione di mapping di modello disponibile per il modello dati non definito selezionato come origine dati del formato ER in esecuzione.   
     * A questo punto verrà definita la configurazione del mapping di modello alternativo come un configurazione da cui i mapping di modello verranno utilizzati come origini dati per il formato ER in esecuzione.   
 3. Nella struttura selezionare "Sample data model\Sample mapping (alternative)".
 4. Selezionare Sì nel campo Impostazione predefinita per mapping di modello.
 5. Nella struttura selezionare "Sample data model\Sample format".
 6. Fare clic su Esegui.
 7. Fare clic su OK.
-    * Si noti che la configurazione del mapping di modello predefinita viene utilizzata da questa configurazione di formato per la generazione di documenti elettronici (l'output creato conterrà il codice della società).  
+    * La configurazione del mapping di modello predefinita viene utilizzata da questa configurazione di formato per la generazione di documenti elettronici (l'output creato conterrà il codice della società).  
 

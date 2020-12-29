@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181728"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682723"
 ---
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
@@ -81,7 +80,7 @@ I blocchi predefiniti sono le definizioni di riga, le definizioni di colonna, le
 
 ### <a name="export-a-building-block-group"></a>Esportare un gruppo di blocchi predefiniti
 
-È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra installazioni. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
+È possibile esportare un gruppo di blocchi predefiniti o blocchi predefiniti di report specifici in un gruppo di blocchi predefiniti. È possibile utilizzare il gruppo di blocchi predefiniti esportato come backup. È inoltre possibile copiare i dati esportati tra installazioni. La funzionalità di progettazione report include gli stili di carattere e i set di dimensioni di riferimento con il gruppo di blocchi predefiniti.
 
 1. In Progettazione report, menu **Società**, fare clic su **Gruppi di blocchi predefiniti**.
 2. Nella finestra di dialogo **Gruppi di blocchi predefiniti** selezionare il gruppo che si desidera esportare e quindi fare clic su **Esporta**.

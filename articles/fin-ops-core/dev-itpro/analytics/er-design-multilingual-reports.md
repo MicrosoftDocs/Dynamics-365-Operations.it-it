@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810669"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679704"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -158,7 +157,7 @@ ER supporta diversi modi per specificare una lingua per un report generato. Nel 
 
     ![Specificare nella pagina della progettazione dell'operazione ER una lingua definita in fase di progettazione come lingua di un report generato](./media/er-multilingual-labels-language-context-fixed.png)
 
-- **Definito in fase di esecuzione** - Genera un report in una lingua specificata in fase di esecuzione. Se si seleziona questo valore nel campo **Lingua** configurare un'espressione ER che restituisce il codice per la lingua, ad esempio la lingua del cliente corrispondente.
+- **Definito in fase di esecuzione** - Genera un report in una lingua specificata in fase di esecuzione. Se si seleziona questo valore nel campo **Lingua**, configurare un'espressione ER che restituisce il codice per la lingua, ad esempio la lingua del cliente corrispondente.
 
     ![Specificare nella pagina della progettazione dell'operazione ER una lingua definita in fase di esecuzione come lingua di un report generato](./media/er-multilingual-labels-language-context-runtime.png)
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088199"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681426"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 
@@ -67,7 +66,7 @@ Utilizzando un'origine di dati di tipo **Codice a barre** è possibile generare 
     - Matrice dati
     - Codice QR
 
-Quando si configura un'origine dati **Codice a barre** , è possibile definire specifici parametri di rendering che vengono utilizzati per generare un'immagine:
+Quando si configura un'origine dati **Codice a barre**, è possibile definire specifici parametri di rendering che vengono utilizzati per generare un'immagine:
 
 - **Larghezza** - Specificare la larghezza del codice a barre in pixel. Un valore di **0** (zero) indica che viene utilizzata la larghezza predefinita. Il significato può variare per altri formati.
 - **Altezza** - Specificare l'altezza del codice a barre in pixel. Un valore di **0** (zero) indica che viene utilizzata l'altezza predefinita. Il significato può variare per altri formati.
@@ -76,7 +75,7 @@ Quando si configura un'origine dati **Codice a barre** , è possibile definire s
 - **Codifica** - Specificare il tipo di caratteri codificati nell'immagine del codice a barre generata. Per impostazione predefinita, viene utilizzata la codifica **UTF-8**.
 
 > [!IMPORTANT]
-> Quando si aggiunge una nuova origine dati **Codice a barre** , è necessario posizionarla sotto un altro elemento (contenitore) come elemento nidificato.
+> Quando si aggiunge una nuova origine dati **Codice a barre**, è necessario posizionarla sotto un altro elemento (contenitore) come elemento nidificato.
 >
 > Quando si associa un'origine dati **Codice a barre** a un elemento cella in un formato e l'elemento cella rappresenta un controllo del contenuto di Word o un'immagine di Excel, l'origine dati viene presentata in quell'associazione come una funzione che ha un singolo parametro di tipo **Stringa**. È necessario utilizzare questo parametro per specificare il testo che deve essere trasformato in un'immagine di codice a barre e letto quando viene scannerizzato un codice a barre generato.
 
@@ -138,16 +137,16 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importare la soluzione ER fornita
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione** , nella sezione **Configurazioni** , selezionare il riquadro **Configurazioni report**.
-3. Nella pagina **Configurazioni** , se la configurazione **Modello per assegni** non è disponibile nella struttura delle configurazioni, seguire questi passaggi per importare la configurazione del modello di dati ER.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare il riquadro **Configurazioni report**.
+3. Nella pagina **Configurazioni**, se la configurazione **Modello per assegni** non è disponibile nella struttura delle configurazioni, seguire questi passaggi per importare la configurazione del modello di dati ER.
 
     1. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
-    2. Nella finestra di dialogo, selezionare **Sfoglia** , trovare e selezionare il file **Model for cheques.xml** , quindi selezionare **OK**.
+    2. Nella finestra di dialogo, selezionare **Sfoglia**, trovare e selezionare il file **Model for cheques.xml**, quindi selezionare **OK**.
 
 4. Se la configurazione **Formato stampa assegni** non è disponibile nella struttura delle configurazioni, seguire questi passaggi per importare la configurazione di formato ER.
 
     1. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
-    2. Nella finestra di dialogo, selezionare **Sfoglia** , trovare e selezionare il file **Cheques printing format.xml** , quindi selezionare **OK**.
+    2. Nella finestra di dialogo, selezionare **Sfoglia**, trovare e selezionare il file **Cheques printing format.xml**, quindi selezionare **OK**.
 
 5. Nell'albero di configurazione, espandere **Modello per assegni**.
 6. Esaminare l'elenco delle configurazioni ER importate nella struttura delle configurazioni.
@@ -155,13 +154,13 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Generare un assegno di pagamento
 
 1. Passare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**.
-2. Nella pagina **Conti bancari** , selezionare il conto **USMF OPER**.
-3. Nella pagina dei dettagli del conto bancario, nel riquadro azioni, nella scheda **Imposta** , nel gruppo **Layout** , selezionare **Assegno**.
+2. Nella pagina **Conti bancari**, selezionare il conto **USMF OPER**.
+3. Nella pagina dei dettagli del conto bancario, nel riquadro azioni, nella scheda **Imposta**, nel gruppo **Layout**, selezionare **Assegno**.
 4. Nella pagina **Layout assegno** selezionare **Modifica**.
-5. Nella scheda dettaglio **Generale** , impostare l'opzione **Formato esportazione elettronica generica** su **Sì**.
+5. Nella scheda dettaglio **Generale**, impostare l'opzione **Formato esportazione elettronica generica** su **Sì**.
 6. Nel campo **Esporta configurazione formato** selezionare il formato ER **Formato stampa assegni** importato in precedenza.
 7. Nel riquadro azioni fare clic su **Stampa di prova**.
-8. Nella finestra di dialogo, impostare l'opzione **Formato assegno negoziabile** su **Sì** , quindi selezionare **OK**.
+8. Nella finestra di dialogo, impostare l'opzione **Formato assegno negoziabile** su **Sì**, quindi selezionare **OK**.
 
     ![Finestra di dialogo Layout assegno - Stampa di prova](./media/er-barcode-data-source-check-layout.png)
 
@@ -183,7 +182,7 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 È ora necessario modificare la soluzione ER e quindi [riapplicare](modify-electronic-reporting-format-reapply-excel-template.md) il modello modificato.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione** , nella sezione **Configurazioni** , selezionare **Configurazioni report**.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare **Configurazioni report**.
 3. Nella pagina **Configurazioni** nell'albero di configurazione, espandere **Modello per assegni** e selezionare **Formato stampa assegni**.
 4. Nel riquadro azioni selezionare **Progettazione**.
 5. Nella pagina della progettazione delle operazioni ER selezionare la scheda **Mapping** sul lato destro della pagina, quindi, nel riquadro dell'albero del formato a sinistra, selezionare **Espandi/Comprimi**.
@@ -192,8 +191,8 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
     ![Associazione di elementi di formato cella a origini dati nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-cells-bound.png)
 
 7. Selezionare la scheda **Formato** sul lato destro della pagina.
-8. Nel riquadro azioni selezionare i puntini di sospensione ( **...** ), quindi selezionare **Importa**.
-9. Nel gruppo **Importa** , selezionare **Aggiorna da Excel** , quindi selezionare **Aggiorna modello**.
+8. Nel riquadro azioni selezionare i puntini di sospensione (**...**), quindi selezionare **Importa**.
+9. Nel gruppo **Importa**, selezionare **Aggiorna da Excel**, quindi selezionare **Aggiorna modello**.
 10. Nella finestra di dialogo, passare al file **Cheque template Excel.xlsx** salvato sul computer, selezionarlo e quindi selezionare **OK** per confermare che il modello selezionato deve essere applicato.
 11. Selezionare la scheda **Mapping** sul lato destro della pagina, quindi, nel riquadro dell'albero del formato a sinistra, selezionare **Espandi/Comprimi**.
 12. Si noti che l'elemento cella **AmountBarcode** è stato aggiunto al formato. Questo elemento è associato all'elemento **AmountBarcode** che è stato aggiunto al modello Excel modificato come segnaposto per un'immagine del codice a barre.
@@ -209,8 +208,8 @@ Successivamente, è necessario aggiungere una nuova origine dati di tipo **Codic
 
     ![Selezione del tipo di origine dati Codice a barre](./media/er-barcode-data-source-add.png)
 
-3. Nella finestra di dialogo, nel campo **Nome** , immettere **barcode**.
-4. Nel **Formato codice a barre** , selezionare **Codice 128**.
+3. Nella finestra di dialogo, nel campo **Nome**, immettere **barcode**.
+4. Nel **Formato codice a barre**, selezionare **Codice 128**.
 5. Nel campo **Larghezza** immetti **500**.
 6. Selezionare **OK**.
 
@@ -221,7 +220,7 @@ Successivamente, è necessario aggiungere una nuova origine dati di tipo **Codic
 Successivamente, è necessario associare il nuovo elemento di formato all'origine dati appena aggiunta.
 
 1. Nella pagina della progettazione delle operazioni ER nella scheda **Mapping** sul lato destro della pagina, selezionare l'origine dati **print\\barcode**.
-2. Nel riquadro dell'albero del formato a sinistra, selezionare l'elemento cella **AmountBarcode** , quindi selezionare **Associa**.
+2. Nel riquadro dell'albero del formato a sinistra, selezionare l'elemento cella **AmountBarcode**, quindi selezionare **Associa**.
 3. Nel riquadro azioni selezionare **Mostra dettagli**.
 4. Si noti che, poiché l'origine dati **Codice a barre** è rappresentata nell'associazione come una funzione che contiene un singolo parametro, il nome dell'elemento formato associato è stato preso automaticamente come argomento di quel parametro.
 
@@ -229,7 +228,7 @@ Successivamente, è necessario associare il nuovo elemento di formato all'origin
 
 5. Selezionare **Modifica formula** per regolare l'associazione.
 
-    Non si desidera che venga restituito il nome dell'elemento cella. Pertanto, è necessario configurare un'espressione che restituisca il testo contenente l'importo da pagare dell'assegno corrente. Perché l'intervallo **ChequeLines** padre è associato all'origine dati **model.cheques** , l'importo da pagare dell'assegno corrente è disponibile nel campo **model.cheques.attributes.amount** del tipo di dati **Reale**.
+    Non si desidera che venga restituito il nome dell'elemento cella. Pertanto, è necessario configurare un'espressione che restituisca il testo contenente l'importo da pagare dell'assegno corrente. Perché l'intervallo **ChequeLines** padre è associato all'origine dati **model.cheques**, l'importo da pagare dell'assegno corrente è disponibile nel campo **model.cheques.attributes.amount** del tipo di dati **Reale**.
 
 6. Nel campo **Formula** immettere **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
 7. Selezionare **Salva** e quindi chiudere la [pagina della progettazione della formula ER](general-electronic-reporting-formula-designer.md).
@@ -250,10 +249,10 @@ Se si desidera continuare a lavorare con la versione corrente di bozza, ma è ne
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Completare la versione modificata del formato
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione** , nella sezione **Configurazioni** , selezionare **Configurazioni report**.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare **Configurazioni report**.
 3. Nella pagina **Configurazioni** nell'albero di configurazione, espandere **Modello per assegni** e selezionare **Formato stampa assegni**.
-4. Nella scheda dettaglio **Versioni** , selezionare il record che lo stato **Bozza**.
-5. Selezionare **Cambia stato** , quindi selezionare **Completa**.
+4. Nella scheda dettaglio **Versioni**, selezionare il record che lo stato **Bozza**.
+5. Selezionare **Cambia stato**, quindi selezionare **Completa**.
 6. Nella finestra di dialogo selezionare **OK**.
 
 Lo stato della versione corrente viene modificato da **Bozza** a **Completato** e una nuova versione con lo stato **Bozza** viene creata. È possibile utilizzare questa nuova versione bozza per applicare ulteriori modifiche.
@@ -261,9 +260,9 @@ Lo stato della versione corrente viene modificato da **Bozza** a **Completato** 
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Rendere disponibile per l'utilizzo la versione bozza
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione** , nella sezione **Configurazioni** , selezionare **Configurazioni report**.
-3. Nella pagina **Configurazioni** , nel Riquadro azioni, nella scheda **Configurazioni** , nel gruppo **Impostazioni avanzate** , selezionare **Parametri utente**.
-4. Nella finestra di dialogo, impostare le opzioni **Esegui impostazione** su **Sì** , quindi selezionare **OK**.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare **Configurazioni report**.
+3. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
+4. Nella finestra di dialogo, impostare le opzioni **Esegui impostazione** su **Sì**, quindi selezionare **OK**.
 5. Nell'albero di configurazione, espandere **Modello per assegni** e selezionare **Formato stampa assegni**.
 6. Impostare l'opzione **Esegui bozza** su **Sì**.
 7. Selezionare **Salva**.
@@ -273,9 +272,9 @@ La versione bozza del formato selezionato è contrassegnata come disponibile per
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque2"></a>Generare un assegno di pagamento
 
 1. Passare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**.
-2. Nella pagina **Conti bancari** , selezionare il conto **USMF OPER**.
-3. Nella pagina dei dettagli del conto bancario, nel riquadro azioni, nella scheda **Imposta** , nel gruppo **Layout** , selezionare **Assegno**.
-4. Nella pagina **Layout assegno** , nel riquadro azioni, selezionare **Stampa di prova**.
+2. Nella pagina **Conti bancari**, selezionare il conto **USMF OPER**.
+3. Nella pagina dei dettagli del conto bancario, nel riquadro azioni, nella scheda **Imposta**, nel gruppo **Layout**, selezionare **Assegno**.
+4. Nella pagina **Layout assegno**, nel riquadro azioni, selezionare **Stampa di prova**.
 5. Nella finestra di dialogo, impostare l'opzione **Formato assegno negoziabile** su **Sì**.
 6. Selezionare **OK**.
 7. Esaminare l'assegno generato. Si noti che è stato generato un codice a barre per codificare l'importo da pagare dell'assegno.

@@ -1,6 +1,6 @@
 ---
 title: Configurazione della doppia scrittura da Lifecycle Services
-description: Questo argomento spiega come impostare una connessione a doppia scrittura tra un nuovo ambiente Finance and Operations e un nuovo ambiente Common Data Service da Microsoft Dynamics Lifecycle Services (LCS).
+description: Questo argomento spiega come impostare una connessione a doppia scrittura tra un nuovo ambiente Finance and Operations e un nuovo ambiente Dataverse da Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998110"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683527"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione della doppia scrittura da Lifecycle Services
 
@@ -31,14 +31,16 @@ ms.locfileid: "3998110"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-Questo argomento spiega come impostare una connessione a doppia scrittura tra un nuovo ambiente Finance and Operations e un nuovo ambiente Common Data Service da Microsoft Dynamics Lifecycle Services (LCS).
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Questo argomento spiega come impostare una connessione a doppia scrittura tra un nuovo ambiente Finance and Operations e un nuovo ambiente Dataverse da Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 È necessario essere un amministratore per impostare una connessione a doppia scrittura.
 
 + È necessario disporre dell'accesso al tenant.
-+ È necessario essere un amministratore in entrambi gli ambienti Finance and Operations e Common Data Service.
++ È necessario essere un amministratore in entrambi gli ambienti Finance and Operations e Dataverse.
 
 ## <a name="set-up-a-dual-write-connection"></a>Configurare una connessione a doppia scrittura
 
@@ -49,20 +51,20 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 3. Selezionare la versione. 
 4. Selezionare la topologia. Se è disponibile solo una topologia, viene selezionata automaticamente.
 5. Completare i primi passaggi nella procedura guidata **Impostazioni di distribuzione**.
-6. Nella scheda **Common Data Service** , eseguire uno dei passaggi seguenti:
+6. Nella scheda **Dataverse**, eseguire uno dei passaggi seguenti:
 
-    - Se un ambiente Common Data Service è già predisposto per il tenant, è possibile selezionarlo.
+    - Se un ambiente Dataverse è già predisposto per il tenant, è possibile selezionarlo.
 
-        1. Impostare l'opzione **Configura Common Data Service** su **Sì**.
-        2. Nel campo **Ambienti disponibili** , selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
+        1. Impostare l'opzione **Configura Dataverse** su **Sì**.
+        2. Nel campo **Ambienti disponibili**, selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
         3. Selezionare la casella di controllo **Accetto** per indicare che si accettano le condizioni.
 
-        ![Scheda Common Data Service quando un ambiente Common Data Service è già predisposto per il tenant](../dual-write/media/lcs_setup_1.png)
+        ![Scheda Dataverse quando un ambiente Dataverse è già predisposto per il tenant](../dual-write/media/lcs_setup_1.png)
 
-    - Se il tenant non dispone già di un ambiente Common Data Service, verrà fornito un nuovo ambiente.
+    - Se il tenant non dispone già di un ambiente Dataverse, verrà fornito un nuovo ambiente.
 
-        1. Impostare l'opzione **Configura Common Data Service** su **Sì**.
-        2. Immettere un nome per l'ambiente Common Data Service.
+        1. Impostare l'opzione **Configura Dataverse** su **Sì**.
+        2. Immettere un nome per l'ambiente Dataverse.
         3. Seleziona l'area geografica in cui distribuire l'ambiente.
         4. Seleziona la lingua e la valuta predefinite per l'ambiente.
 
@@ -71,12 +73,12 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 
         5. Selezionare la casella di controllo **Accetto** per indicare che si accettano le condizioni.
 
-        ![Scheda Common Data Service quando il tenant non dispone già si un ambiente Common Data Service](../dual-write/media/lcs_setup_2.png)
+        ![Scheda Dataverse quando il tenant non dispone già si un ambiente Dataverse](../dual-write/media/lcs_setup_2.png)
 
 7. Completare i rimanenti passaggi nella procedura guidata **Impostazioni di distribuzione**.
-8. Dopo che l'ambiente ha lo stato **Distribuito** , aprire la pagina dei dettagli dell'ambiente. La sezioni **Informazioni sull'ambiente Common Data Service** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Common Data Service collegati.
+8. Dopo che l'ambiente ha lo stato **Distribuito**, aprire la pagina dei dettagli dell'ambiente. La sezioni **Informazioni sull'ambiente Dataverse** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Dataverse collegati.
 
-    ![Sezione informazioni sull'ambiente Common Data Service](../dual-write/media/lcs_setup_3.png)
+    ![Sezione informazioni sull'ambiente Dataverse](../dual-write/media/lcs_setup_3.png)
 
 9. Un amministratore dell'ambiente Finance and Operations deve accedere a LCS e selezionare **Collega a CDS per app** per completare il collegamento. La pagina dei dettagli dell'ambiente mostra le informazioni di contatto dell'amministratore.
 
@@ -84,7 +86,7 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 
 10. Per aprire l'area di lavoro **Integrazione dei dati** nell'ambiente Finance and Operations e controllare i modelli disponibili, selezionare **Collega a CDS per app**.
 
-    ![Pulsante Collega a CDS per app nella sezione informazioni sull'ambiente Common Data Service](../dual-write/media/lcs_setup_4.png)
+    ![Pulsante Collega a CDS per app nella sezione informazioni sull'ambiente Dataverse](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Non è possibile scollegare gli ambienti utilizzando LCS. Per scollegare un ambiente, aprire l'area di lavoro **Integrazione dei dati** nell'ambiente Finance and Operations, quindi selezionare **Scollega**.

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745107"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682245"
 ---
 # <a name="listjoin-er-function"></a>Funzione LISTJOIN ER
 
@@ -75,7 +74,7 @@ In questo caso, l'espressione `LISTJOIN(LIST('Record 1'), LIST('Record 2'))`rest
 
 ![Pagina di progettazione del mapping di modello ER con due record](./media/er-functions-list-listjoin-image2.gif)
 
-La struttura di questo elenco è costituita da un singolo campo**Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
+La struttura di questo elenco è costituita da un singolo campo **Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
 
 ![Campo dell'importo della pagina di progettazione del mapping di modello ER](./media/er-functions-list-listjoin-image3.gif)
 

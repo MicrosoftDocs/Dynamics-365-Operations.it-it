@@ -1,6 +1,6 @@
 ---
 title: Siti e magazzini integrati
-description: In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Common Data Service.
+description: In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Dataverse.
 author: t-benebo
 manager: AnnBe
 ms.date: 10/09/2019
@@ -18,26 +18,28 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d5c2030160f6025c9de63b2c29215364f5f87e6f
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997626"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679322"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Siti e magazzini integrati
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Common Data Service. I siti e magazzini operativi sono concetti comuni in un'applicazione di Supply Chain Management. Questi vengono utilizzati per modellare la catena di approvvigionamento della società.
+
+In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Dataverse. I siti e magazzini operativi sono concetti comuni in un'applicazione di Supply Chain Management. Questi vengono utilizzati per modellare la catena di approvvigionamento della società.
 
 ## <a name="templates"></a>Modelli
 
-Grazie all'integrazione con Common Data Service, tali concetti e tutte le informazioni correlate sono disponibili in Common Data Service utilizzando le entità di dati di siti e magazzini nella tabella seguente.
+Grazie all'integrazione con Dataverse, tali concetti e tutte le informazioni correlate sono disponibili in Dataverse utilizzando le tabelle di dati di siti e magazzini nella tabella seguente.
 
-App di Finance and Operations | Altre app Dynamics 365 | Descrizione
+App di Finance and Operations | Altre app Dynamics 365 | descrizione
 --------------------------|---------------------------|---
 Siti | msdyn_operationalsites | 
 Magazzini | msdyn_warehouses | 

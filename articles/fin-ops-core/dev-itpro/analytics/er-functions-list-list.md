@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a31288885abda69873ae23b28a36e2a54852f593
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c7f8e701ec2836206d2299abba5e5b8542b4cf92
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745155"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683089"
 ---
 # <a name="list-er-function"></a>Funzione ER LIST
 
@@ -59,12 +58,12 @@ La struttura dell'elenco che viene creato contiene solo i campi che sono present
 
 ## <a name="example"></a>Esempio
 
-Immettere l'origine dati **Record 1**del tipo *Contenitore*. Questa origine dati contiene i seguenti campi nidificati del tipo *Campo calcolato*:
+Immettere l'origine dati **Record 1** del tipo *Contenitore*. Questa origine dati contiene i seguenti campi nidificati del tipo *Campo calcolato*:
 
 - **Codice:** Questo campo contiene un'espressione che restituisce un valore di tipo *Stringa*.
 - **Importo:** Questo campo contiene un'espressione che restituisce un valore di tipo *Reale*.
 
-Immettere quindi l'origine dati **Record 2**del tipo *Contenitore*. Questa origine dati contiene i seguenti campi nidificati del tipo *Campo calcolato*:
+Immettere quindi l'origine dati **Record 2** del tipo *Contenitore*. Questa origine dati contiene i seguenti campi nidificati del tipo *Campo calcolato*:
 
 - **Importo:** Questo campo contiene un'espressione che restituisce un valore di tipo *Reale*.
 - **IsValid:** Questo campo contiene un'espressione che restituisce un valore di tipo *Booleano*.

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142457"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684549"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificare i formati per generare documenti che contengono dati dell'applicazione
 
@@ -95,16 +94,17 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 52. Fare clic su Salva.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificare il formato per memorizzare i dettagli del report
+
 1. Fare clic su Mapping formato a modello.
 2. Fare clic su Nuovo.
 3. Nel campo Definizione immettere o selezionare l'elemento radice "Per l'aggiornamento dei dati dell'applicazione".
-    * Per l'aggiornamento dei dati dell'applicazione  
+    * Per l'aggiornamento dei dati dell'applicazione.
 4. Nel campo Nome digitare "Mapping per aggiornare i dati".
     * Mapping per aggiornare i dati  
 5. Fare clic su Salva.
-    * Questo mapping definisce come i dettagli del report Intrastat vengono raccolti nel modello dati, la cui struttura è specificata dall'elemento radice selezionato "Per l'aggiornamento dei dati dell'applicazione". Tali dettagli, il mapping di modello con lo stesso elemento radice "Per l'aggiornamento dei dati dell'applicazione" e la direzione "A destinazione" verranno utilizzati per l'aggiornamento dei dati dell'applicazione. L'aggiornamento dei dati dell'applicazione inizia immediatamente dopo la generazione del report Intrastat in uscita. Si noti che l'aggiornamento dei dati dell'applicazione può essere ignorato in fase di esecuzione, ma il modello dati deve essere vuoto (deve contenere un elenco di record vuoto).   
+    * Questo mapping definisce come i dettagli del report Intrastat vengono raccolti nel modello dati, la cui struttura è specificata dall'elemento radice selezionato "Per l'aggiornamento dei dati dell'applicazione". Tali dettagli, il mapping di modello con lo stesso elemento radice "Per l'aggiornamento dei dati dell'applicazione" e la direzione "A destinazione" verranno utilizzati per l'aggiornamento dei dati dell'applicazione. L'aggiornamento dei dati dell'applicazione inizia immediatamente dopo la generazione del report Intrastat in uscita. L'aggiornamento dei dati dell'applicazione può essere ignorato in fase di esecuzione, ma il modello dati deve essere vuoto (deve contenere un elenco di record vuoto).
 6. Fare clic su Progettazione.
-    * Si noti che il formato di report Intrastat in uscita viene aggiunto per impostazione predefinita come origine dei dati per il mapping di modello.  
+    * Il formato di report Intrastat in uscita viene aggiunto per impostazione predefinita come origine dei dati per il mapping di modello.  
     * Associare gli elementi del report progettato (visualizzati come origine dei dati) agli elementi del modello dati, che viene filtrato in base all'elemento radice del modello selezionato.  
 7. Nella struttura espandere "Archive header".
 8. Nella struttura espandere "Archive header\Archive lines".
@@ -120,8 +120,8 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 18. Fare clic su Aggiungi funzione.
 19. Nella struttura espandere "format".
 20. Nella struttura espandere "format\Declaration: XML Element(Declaration)".
-21. Nella struttura espandere "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
-22. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
+21. Nella struttura espandere `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Fare clic su Aggiungi origine dati.
 24. Nel campo Formula immettere "COUNT(format.Declaration.Data.Item)".
     * COUNT(format.Declaration.Data.Item)  
@@ -130,23 +130,22 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 27. Nella struttura selezionare "Archive header\File name".
 28. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)".
 29. Fare clic su Associa.
-30. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)".
+30. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Nella struttura selezionare "Archive header\Archive lines\Item number".
 32. Fare clic su Associa.
-33. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)".
+33. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Nella struttura selezionare "Archive header\Archive lines\Amount".
 35. Fare clic su Associa.
-36. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)".
+36. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
 37. Nella struttura selezionare "Archive header\Archive lines\Commodity rec id".
 38. Fare clic su Associa.
 39. Nella struttura selezionare "Archive header\Archive lines".
-40. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)".
+40. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Fare clic su Associa.
 42. Nella struttura selezionare "Archive header".
-43. Nella struttura selezionare "format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)".
+43. Nella struttura selezionare `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Fare clic su Associa.
 45. Fare clic su Salva.
 46. Chiudere la pagina.
 47. Chiudere la pagina.
 48. Chiudere la pagina.
-

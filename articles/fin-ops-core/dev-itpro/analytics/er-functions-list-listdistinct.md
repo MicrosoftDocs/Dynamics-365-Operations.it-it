@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 791038981e88d0f52026bfb17d2d1fa381f28c46
-ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
+ms.openlocfilehash: 2333cfc21a16a5905acadd590982020fdf878330
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3688009"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682269"
 ---
 # <a name="listdistinct-er-function"></a>Funzione LISTDISTINCT ER
 
@@ -71,7 +70,7 @@ La struttura dell'elenco creato corrisponde alla struttura dell'elenco specifica
 
 Lo stesso valore del selettore potrebbe essere calcolato per più record nell'elenco specificato. In questo caso, i valori dei campi del record corrispondente nell'elenco creato sono uguali ai valori del primo record dell'elenco specificato per cui viene calcolato il valore del selettore.
 
-L'esecuzione di questa funzione viene effettuata su qualsiasi origine dati [Reporting elettronico (ER) ](general-electronic-reporting.md) del tipo *Elenco di record* presente in memoria.
+L'esecuzione di questa funzione viene effettuata su qualsiasi origine dati [Reporting elettronico (ER)](general-electronic-reporting.md) del tipo *Elenco di record* presente in memoria.
 
 L'origine dati **GROUPBY** può essere utilizzata anche per generare l'elenco di record per i quali viene calcolato il selettore con valori distinti. Tuttavia, dal punto di vista delle prestazioni e del consumo di memoria, è meglio usare la funzione `LISTDISTINCT` rispetto all'origine dati **GROUPBY**, perché l'esecuzione della funzione viene eseguita in memoria.
 

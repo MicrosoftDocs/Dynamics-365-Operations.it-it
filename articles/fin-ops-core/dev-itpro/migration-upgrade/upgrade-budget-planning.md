@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5ba9b8a041f9eef8142cb56d7c764a5faf6071f6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191502"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681000"
 ---
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
@@ -72,7 +71,7 @@ Per consentire di determinare la modalità di configurazione del sistema aggiorn
    -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
    -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
 
-   Le colonne seguenti verranno create in Finance and Operations:
+   Verranno create le colonne che seguono in Finance and Operations:
 
    | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
    |----------------|----------------------|--------------------|-------------|

@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040124"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679958"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Questo argomento non è più aggiornato. Per visualizzare un elenco corrente di funzionalità che sono state rimosse o deprecate nelle app Finance and Operations, cercare i contenuti **"Funzionalità rimosse o deprecate"** relativi all'app che stai utilizzando.
@@ -185,7 +186,7 @@ Il supporto per la creazione di ordini cliente basati su progetti in cui il cont
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | La funzionalità sarà sempre abilitata dopo la rimozione del parametro. |
 | **Sostituita da un'altra funzionalità?**   | N. La funzionalità per supportare ordini cliente basati su progetti con più fonti di finanziamento sarà sempre attivata.   |
-| **Aree del prodotto interessate**         |Il parametro **Consenti ordini cliente per progetti con più fonti di finanziamento** verrà rimosso. I seguenti metodi verranno modificati alla rimozione del parametro: **ctrlSalesOrderTable** nella classe **ProjStatusType** , **validate** nel campo **ProjId** e **run** nel modulo **SalescreateOrder**. I seguenti metodi verranno deprecati alla rimozione del parametro: **IsSalesOrderAllowedForMultipleFundingSources** nel file di tabella **ProjTable** , **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** nel file di tabella **ProjTable** , il campo dati **AllowSalesOrdersForMultipleFundingSources** nel modulo **ProjParameters** e nei file **ProjParameterEntity** , il metodo privato **IsAssociatedToMultipleFundingSourcesContract** nel file di tabella **ProjTable**. |
+| **Aree del prodotto interessate**         |Il parametro **Consenti ordini cliente per progetti con più fonti di finanziamento** verrà rimosso. I seguenti metodi verranno modificati alla rimozione del parametro: **ctrlSalesOrderTable** nella classe **ProjStatusType**, **validate** nel campo **ProjId** e **run** nel modulo **SalescreateOrder**. I seguenti metodi verranno deprecati alla rimozione del parametro: **IsSalesOrderAllowedForMultipleFundingSources** nel file di tabella **ProjTable**, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** nel file di tabella **ProjTable**, il campo dati **AllowSalesOrdersForMultipleFundingSources** nel modulo **ProjParameters** e nei file **ProjParameterEntity**, il metodo privato **IsAssociatedToMultipleFundingSourcesContract** nel file di tabella **ProjTable**. |
 | **Opzione di distribuzione**              | Tutte  |
 | **Stato**                         | Il parametro verrà deprecato durante l'ondata di rilascio nell'aprile 2020. |
 
@@ -266,7 +267,7 @@ Gli indicatori di prestazioni chiave (KPI) incorporati potrebbero essere modella
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Le definizioni di metadati di tabella possono avere gruppi di campi contenenti riferimenti di campo non validi. In caso di distribuzione, è possibile che si verifichino errori di runtime in Financial Reporting e SQL Server Reporting Services (SSRS). Questo problema è attualmente categorizzato come *avviso del compilatore* anziché come *errore* , a indicare che è possibile continuare a creare pacchetti distribuibili e a eseguire la distribuzione senza correggere il problema. Per risolvere il problema:<br><br>1. Rimuovere il riferimento di campo non valido dalla definizione del gruppo di campi di tabella.<br><br>2. Ricompilare.<br><br>3. Verificare che tutti gli errori o avvisi siano stati risolti. |
+| **Motivo del deprecamento/rimozione** | Le definizioni di metadati di tabella possono avere gruppi di campi contenenti riferimenti di campo non validi. In caso di distribuzione, è possibile che si verifichino errori di runtime in Financial Reporting e SQL Server Reporting Services (SSRS). Questo problema è attualmente categorizzato come *avviso del compilatore* anziché come *errore*, a indicare che è possibile continuare a creare pacchetti distribuibili e a eseguire la distribuzione senza correggere il problema. Per risolvere il problema:<br><br>1. Rimuovere il riferimento di campo non valido dalla definizione del gruppo di campi di tabella.<br><br>2. Ricompilare.<br><br>3. Verificare che tutti gli errori o avvisi siano stati risolti. |
 | **Sostituita da un'altra funzionalità?**   | Questo avviso verrà sostituito da un errore di compilazione in futuro. |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
@@ -374,12 +375,12 @@ I due report più non sono supportati in Finance and Operations. Il report **Agi
 | **Stato**                       | Deprecata: le voci di menu per i due report sono state rimosse nella versione 7.3. Tuttavia, il codice per i report è ancora presente nel prodotto. Il piano è di rimuovere il codice in una versione successiva. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Pacchetti di contenuti Power BI disponibili in AppSource
-I pacchetti di contenuti **Gestione costi** , **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio** , disponibili sul sito [Microsoft AppSource](https://appsource.microsoft.com), sono deprecati in conseguenza degli aggiornamenti di prodotto in Microsoft Power BI. Anche i moduli di amministrazione del sistema utilizzati per distribuire questi pacchetti di contenuto in PowerBI.com sono deprecati in Finance and Operations.
+I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [Microsoft AppSource](https://appsource.microsoft.com), sono deprecati in conseguenza degli aggiornamenti di prodotto in Microsoft Power BI. Anche i moduli di amministrazione del sistema utilizzati per distribuire questi pacchetti di contenuto in PowerBI.com sono deprecati in Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Aggiornamenti di prodotto in Microsoft Power BI. |
-| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi** , **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio** , disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Sostituita da un'altra funzionalità?**   | I pacchetti di contenuti **Gestione costi**, **Prestazioni finanziarie** e **Prestazioni canale di vendita al dettaglio**, disponibili sul sito [AppSource](https://appsource.microsoft.com), vengono sostituiti da applicazioni analitiche che consentono l'integrazione di soluzioni a livello di database. Per ulteriori informazioni sulle applicazioni analitiche, vedere [Power BI Embedded nelle aree di lavoro](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Aree del prodotto interessate**         | Cost management, Finance e Retail                                                                                               |
 | **Opzione di distribuzione**              | Solo cloud (l'integrazione con PowerBI.com non è supportata nelle distribuzioni locali).                                                                                                            |
 | **Stato**                         | Deprecato: il calendario di destinazione per la rimozione della funzionalità è il 2° trimestre 2018.    |
@@ -712,7 +713,7 @@ Informazioni sulle retribuzioni in Risorse umane
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Questa funzionalità è stata sostituita dalle pagine principali sulle risorse umane e sulle retribuzioni.  |
-| **Sostituita da un'altra funzionalità?**   | **Benefit** , **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è accessibile utilizzando la chiave di configurazione **Risorse umane 1** \> **Retribuzione**. |
+| **Sostituita da un'altra funzionalità?**   | **Benefit**, **Redditi** e altre pagine correlate, incluse in precedenza nelle retribuzioni degli Stati Uniti ora sono state riconfigurate e fanno parte della configurazione principale Risorse umane per supportare l'elaborazione esterna delle retribuzioni. Questa funzionalità è accessibile utilizzando la chiave di configurazione **Risorse umane 1** \> **Retribuzione**. |
 | **Aree del prodotto interessate**         | Risorse umane, retribuzioni   |
 | **Stato**                         | Rimosso a partire da Dynamics 365 for Operations versione 1611.    |
 
@@ -1157,7 +1158,7 @@ La creazione della notifica anticipata non può essere effettuata operazione uti
 
 ### <a name="gl-ssrs-reports"></a>Report GL SSRS
 
-Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo** , **Bilancio di verifica dettagliato** , **Piano dei conti** , **Audit trail** , **Saldi** e **Elenco saldi**.
+Report che includono le seguenti voci di menu sono stati rimossi: **Bilancio di verifica riepilogativo**, **Bilancio di verifica dettagliato**, **Piano dei conti**, **Audit trail**, **Saldi** e **Elenco saldi**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1359,7 +1360,7 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Basso utilizzo |
-| **Sostituita da un'altra funzionalità?**   | No, ma la pagina **Relazione profilo** , aperta dalla pagina **Gruppi di profili** , supporta lo stesso scenario aziendale della pagina **Pianificazione lavori** deprecata. |
+| **Sostituita da un'altra funzionalità?**   | No, ma la pagina **Relazione profilo**, aperta dalla pagina **Gruppi di profili**, supporta lo stesso scenario aziendale della pagina **Pianificazione lavori** deprecata. |
 | **Aree del prodotto interessate**         | Orario e presenze     |
 | **Stato**                         | Il codice non è stato rimosso. Tuttavia, per il modulo, JmgWorkPlanner, non è stata eseguita la migrazione.    |
 

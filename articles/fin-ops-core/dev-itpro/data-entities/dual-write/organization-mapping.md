@@ -1,6 +1,6 @@
 ---
-title: Gerarchia organizzativa in Common Data Service
-description: In questo argomento viene descritta l'integrazione dei dati dell'organizzazione tra le app Finance and Operations e Common Data Service.
+title: Gerarchia organizzativa in Dataverse
+description: In questo argomento viene descritta l'integrazione dei dati dell'organizzazione tra le app Finance and Operations e Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,32 +18,34 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000736"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680074"
 ---
-# <a name="organization-hierarchy-in-common-data-service"></a>Gerarchia organizzativa in Common Data Service
+# <a name="organization-hierarchy-in-dataverse"></a>Gerarchia organizzativa in Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Poiché Dynamics 365 Finance è un sistema finanziario, *organizzazione* è un concetto base e l'impostazione del sistema inizia con la configurazione di una gerarchia organizzativa. I dati finanziari aziendali possono quindi essere tracciati a livello di organizzazione e anche a qualsiasi livello della gerarchia organizzativa.
 
-Sebbene In Common Data Service non esiste il concetto di una gerarchia organizzativa, vi sono alcuni concetti isolati, come i ricavi di vendita totali. Come parte dell'integrazione con Common Data Service, , la struttura dati della gerarchia organizzativa viene aggiunta a Common Data Service.
+Sebbene In Dataverse non esiste il concetto di una gerarchia organizzativa, vi sono alcuni concetti isolati, come i ricavi di vendita totali. Come parte dell'integrazione con Dataverse, , la struttura dati della gerarchia organizzativa viene aggiunta a Dataverse.
 
 ## <a name="data-flow"></a>Flusso di dati
 
-Un ecosistema aziendale composto dalle app Finance and Operations e Common Data Service continuerà a avere una gerarchia organizzativa. Questa gerarchia organizzativa si basa sulle app Finance and Operations, ma viene esposta in Common Data Service per scopi di informazione ed estendibilità. La figura di seguito mostra le informazioni di gerarchia organizzativa che vengono esposte in Common Data Service come flusso di dati unidirezionale dalle app Finance and Operations a Common Data Service.
+Un ecosistema aziendale composto dalle app Finance and Operations e Dataverse continuerà a avere una gerarchia organizzativa. Questa gerarchia organizzativa si basa sulle app Finance and Operations, ma viene esposta in Dataverse per scopi di informazione ed estendibilità. La figura di seguito mostra le informazioni di gerarchia organizzativa che vengono esposte in Dataverse come flusso di dati unidirezionale dalle app Finance and Operations a Dataverse.
 
 ![Immagine dell'architettura](media/dual-write-data-flow.png)
 
-Le mappe delle entità della gerarchia organizzativa sono disponibili per la sincronizzazione unidirezionale dei dati dalle app Finance and Operations a Common Data Service.
+Le mappe della tabella della gerarchia organizzativa sono disponibili per la sincronizzazione unidirezionale dei dati dalle Finance and Operations app a Dataverse.
 
 ## <a name="templates"></a>Modelli
 
-Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe di entità viene creata per sincronizzare i prodotti e le informazioni correlate.
+Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe della tabella viene creata per sincronizzare i prodotti e le informazioni correlate.
 
 App di Finance and Operations | Altre app Dynamics 365 | descrizione
 -----------------------|--------------------------------|---
@@ -64,7 +66,7 @@ Persone giuridiche | cdm_companies | Fornisce la sincronizzazione bidirezionale 
 
 ## <a name="internal-organization"></a>Organizzazione interna
 
-Le informazioni sull'organizzazione interna in Common Data Service vengono recuperate da due entità, **unità operativa** e **persone giuridiche**.
+Le informazioni sull'organizzazione interna in Dataverse vengono recuperate da due tabelle, **unità operativa** e **persone giuridiche**.
 
 [!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
 

@@ -10,31 +10,30 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771121"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682747"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Soluzione PowerBI.com per prestazioni finanziarie
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Questa soluzione PowerBI.com è stata deprecata come documentato in [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Questa soluzione PowerBI.com è stata deprecata come documentato in Funzionalità [rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Questo argomento descrive la soluzione PowerBI.com per **Prestazioni finanziarie**. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello di dati e sulle entità utilizzati per creare la soluzione.
 
 ## <a name="main-account-setup"></a>Impostazione del conto principale
-Poiché le organizzazioni desiderano che le passività e gli importi dei ricavi appaiano come importi positivi nei report, l'impostazione dei conti principali è importante. Affinché questi conti principali vengano visualizzati come importi positivi, il tipo di conto principale deve essere impostato su **Passività** o **Ricavi**. Quando si utilizzano questi tipi di conto, la dichiarazione nei report tramite Power BI invertirà i segni e gli importi risulteranno positivi.
+Poiché le organizzazioni desiderano che le passività e gli importi dei ricavi appaiano come importi positivi nei report, l'impostazione dei conti principali è importante. Affinché questi conti principali vengano visualizzati come importi positivi, il tipo di conto principale deve essere impostato su **Passività** o **Ricavi**. Quando si utilizzano questi tipi di conto, la dichiarazione nei report tramite Power BI invertirà i segni e gli importi risulteranno positivi.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Dashboard e report inclusi nella soluzione PowerBI.com
 Il dashboard contiene riquadri di riepilogo di dati basati sui report sottostanti. Ogni riquadro contiene informazioni riepilogative per l'anno corrente per tutte le società in un'organizzazione. Di seguito sono riportati alcuni riquadri:

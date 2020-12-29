@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142203"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682143"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
 
@@ -54,7 +53,7 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 2. Chiudere la pagina. 
 3. Andare a **Tutte le aree di lavoro** > **Creazione di report elettronici**. 
 4. Fare clic su **Applicazioni connesse**. 
-5. Assicurarsi che l'applicazione configurata sia basata su Azure e accessibile all'utente RCS corrente. È inoltre necessario che l'utente RCS corrente abbia accesso all'applicazione selezionata, sia stato registrato come utente di questa applicazione e disponga di un ruolo con privilegi di accesso ai metadati dell'applicazione. 
+5. Assicurarsi che l'applicazione configurata sia basata su Azure e accessibile all'utente RCS corrente. È inoltre necessario che l'attuale utente RCS abbia accesso all'applicazione selezionata e che sia stato registrato come utente di questa applicazione con un ruolo che gli conferisce i privilegi di accesso ai metadati dell'applicazione. 
 6. Fare clic su **Nuovo**. 
 7. Nel campo **Nome** digitare "MiaAppConnessa". 
 8. Nel campo **Applicazione**, immettere "https:// miasocietà.operations.dynamics.com". 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143317"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684284"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Creare le configurazioni richieste per importare dati da un file esterno
 
@@ -98,11 +97,11 @@ I passaggi in questa sottoattività indicano come una nuova configurazione di fo
 
     Si noti che il formato progettato è visualizzato come componente di origine dati.  
 
-6. Nella struttura, espandere 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record'.
-7. Nella struttura, espandere 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record'.
-8. Nella struttura, espandere 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record\*fornitore: Elemento XML 1..1 (fornitore): Record'.
-9. Nella struttura, espandere 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record\paese: Elemento XML 0..1 (country): Record'.
-10. Nella struttura, selezionare 'formato: Record\*liquidazione: Elemento XML 1..1 (liquidazione): Record\transazione: Elemento XML 0..* (transazione): Elenco di record\*fornitore: Elemento XML 1..1 (fornitore): Record'.
+6. Nella struttura espandere `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. Nella struttura espandere `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. Nella struttura espandere `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. Nella struttura espandere `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. Nella struttura selezionare `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Si noti che la presentazione di elementi di formato obbligatori e facoltativi è diversa nel componente predefinito origine dati "formato".  
 11. Nella struttura, espandere 'Transazioni: Elenco di record= format.settlement.'$enumerated''.
@@ -237,7 +236,7 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 19. Chiudere la pagina.
 20. Fare clic su Modifica.
 
-    Se è stato installato l'hotfix "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), eseguire il passaggio successivo "Attivare il flag Impostazione predefinita per mapping di modello" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
+    Se è stato installato l'aggiornamento rapido "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), eseguire il passaggio successivo "Attivare il flag Impostazione predefinita per mapping di modello" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
 
 21. Selezionare Sì nel campo Impostazione predefinita per mapping di modello.
 22. Nella struttura selezionare '1099 Modello pagamenti'.
@@ -245,9 +244,9 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 24. Fare clic su Mappa modello a origine dati.
 25. Fare clic su Esegui.
 
-    Se è stato installato l'aggiornamento rapido KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), selezionare il mapping di modello preferito nel campo di ricerca. Se non è stato ancora installato l'hotfix, ignorare il passaggio successivo perché il mapping è già stato selezionato dalla definizione della configurazione di formato predefinita.  
+    Se è stato installato l'aggiornamento rapido KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selezionare il mapping di modello preferito nel campo di ricerca. Se non è stato ancora installato l'hotfix, ignorare il passaggio successivo perché il mapping è già stato selezionato dalla definizione della configurazione di formato predefinita.  
     
-    Se non è stato installato l'hotfix KB 4012871, notare che la finestra di dialogo contiene una domanda di mapping di modello aggiuntiva utilizzata per analizzare il file da importare. I dati quindi vengono trasferiti dalla finestra di dialogo nel modello dati. Attualmente, è possibile scegliere il formato di mapping che deve essere utilizzato in base al tipo di file che si prevede di importare.  
+    Se non è stato installato l'aggiornamento rapido KB 4012871, notare che la finestra di dialogo contiene una domanda di mapping di modello aggiuntiva utilizzata per analizzare il file da importare. I dati quindi vengono trasferiti dalla finestra di dialogo nel modello dati. Attualmente, è possibile scegliere il formato di mapping che deve essere utilizzato in base al tipo di file che si prevede di importare.  
     
     Se si prevede di chiamare il mapping di modello da un punto nell'applicazione progettato appositamente per l'azione, la destinazione ER e il mapping di formato devono essere contrassegnati come parte dell'integrazione.  
 

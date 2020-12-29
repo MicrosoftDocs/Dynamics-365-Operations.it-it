@@ -3,26 +3,25 @@ title: Home page delle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367060"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679346"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -67,10 +66,9 @@ ms.locfileid: "3367060"
 
 ## <a name="other-resources"></a>Altre risorse
 - [Risolvere i problemi relativi alle distribuzioni locali](troubleshoot-on-prem.md)
-- [Script relativi alla risoluzione dei problemi negli ambienti dei locali](onprem-tsg-implementations.md)
+- [Script relativi alla risoluzione dei problemi negli ambienti locali](onprem-tsg-implementations.md)
 - [Rotazione certificati](certificate-rotation-on-prem.md)
 - [Diagnostica locale](on-premises-diagnostics.md)
-- [Funzionalità non implementate nelle distribuzioni locali](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software e versioni in locale](../migration-upgrade/on-prem-version-update-policy.md)
  

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142249"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681975"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER da altri componenti
 
@@ -47,8 +46,8 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 5. Fare clic su Nuovo.
 6. Selezionare il componente prerequisito del prodotto.
 7. Selezionare Microsoft Dynamics 365 for Operations (1611).
-8. Nel campo Versione digitare "[7.1.1541.3036,8]".
-    * [7.1.1541.3036,8]  
+8. Nel campo Versione digitare "[7.1.1541.3036,8)".
+    * [7.1.1541.3036,8)  
     * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
 9. Fare clic su Salva.
 10. Chiudere la pagina.
@@ -60,8 +59,8 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 16. Fare clic su Nuovo.
 17. Selezionare il componente prerequisito del prodotto.
 18. Selezionare Microsoft Dynamics AX 7.0 RTW.
-19. Nel campo Versione digitare "[7.0.1265.3015,7.1]".
-    * [7.0.1265.3015,7.1]  
+19. Nel campo Versione digitare "[7.0.1265.3015,7.1)".
+    * [7.0.1265.3015,7.1)  
     * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
 20. Fare clic su Salva.
 21. Chiudere la pagina.

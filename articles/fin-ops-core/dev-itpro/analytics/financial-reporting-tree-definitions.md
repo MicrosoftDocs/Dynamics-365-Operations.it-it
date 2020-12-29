@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564169"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682675"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
@@ -165,9 +164,9 @@ Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 ca
 3. Nella finestra di dialogo **Sicurezza dell'unità** selezionare un nome, quindi fare clic su **Rimuovi**.
 4. Scegliere **OK**.
 
-### <a name="link-toreports"></a>Collegamento ai report
+### <a name="link-to-reports"></a>Collegamento ai report
 
-Dopo aver creato una colonna di **report** nella definizione di riga e si è specificato il report da includere nel report, è necessario aggiornare l'albero gerarchico con la colonna collegata e le informazioni sul report. Un report può essere importato in qualsiasi unità nell'albero gerarchico.
+Dopo aver creato una colonna di **report** nella definizione di riga e si è specificato il report da includere nel report, è necessario aggiornare l'albero gerarchico con la colonna collegata e le informazioni sul report. Un report può essere importato in qualsiasi unità nell'albero gerarchico.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificare il report in un albero gerarchico
 

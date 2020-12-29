@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143101"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684381"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generare report in formato di Office con immagini incorporate
 
@@ -40,14 +39,14 @@ In questo esempio verranno create configurazioni ER per la società di esempio "
     * Eseguire il formato a scopo di verifica.  
 6. Selezionare Sì nel campo Formato assegno negoziabile.
 7. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che il logo della società viene visualizzato nel report così come la firma della persona autorizzata. L'immagine della firma viene ricavata dal tipo di dati "Container" del record del layout dell'assegno associato al conto bancario selezionato.  
+    * Esaminare l'output creato. Il logo della società viene visualizzato nel report così come la firma della persona autorizzata. L'immagine della firma viene ricavata dal tipo di dati "Container" del record del layout dell'assegno che è associato al conto bancario selezionato.  
 8. Espandere la sezione Copie.
 9. Fare clic su Modifica.
 10. Nel campo Filigrana, immettere "Stampa filigrana come Annulla".
     * Modificare l'impostazione del layout della filigrana per visualizzare il testo della filigrana nella generazione di documenti in un elemento forma di Excel.  
 11. Fare clic su Stampa di prova.
 12. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che la filigrana viene visualizzata nel report creato in base all'opzione selezionata.  
+    * Esaminare l'output creato. La filigrana viene visualizzata nel report creato in base all'opzione selezionata.  
 13. Chiudere la pagina.
 14. Nel riquadro azioni, fare clic su Gestisci pagamenti.
 15. Fare clic su Assegni.
@@ -56,7 +55,7 @@ In questo esempio verranno create configurazioni ER per la società di esempio "
 18. Nell'elenco selezionare tutte le righe.
 19. Fare clic su Stampa copia assegno.
     * Eseguire il formato per ristampare gli assegni selezionati.  
-    * Esaminare l'output creato. Si noti che gli assegni selezionati sono stati ristampati. Il logo e le etichette delle società non verranno stampati perché sono visualizzati nel modulo prestampato.  
+    * Esaminare l'output creato. Gli assegni selezionati sono stati ristampati. Il logo e le etichette delle società non verranno stampati perché sono visualizzati nel modulo prestampato.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modificare il mapping del modello dati importato
 1. Chiudere la pagina.
@@ -66,7 +65,7 @@ In questo esempio verranno create configurazioni ER per la società di esempio "
 5. Fare clic su Progettazione.
 6. Fare clic su Mappa modello a origine dati.
 7. Fare clic su Progettazione.
-    * Cambieremo l'associazione dell'elemento di firma del modello dati per ottenere l'immagine della firma del file che è stato collegato al record del layout di assegno associato al conto bancario selezionato.  
+    * Cambieremo l'associazione dell'elemento di firma del modello dati per ottenere l'immagine della firma del file che è stato collegato al record del layout di assegno che è associato al conto bancario selezionato.  
 8. Disattivare la visualizzazione dei dettagli.
 9. Nella struttura espandere "layout".
 10. Nella struttura espandere "layout\signature".
@@ -91,7 +90,7 @@ In questo esempio verranno create configurazioni ER per la società di esempio "
 4. Fare clic su Verifica.
 5. Fare clic su Stampa di prova.
 6. Fare clic su OK.
-    * Esaminare l'output creato. Si noti che l'immagine dall'allegato di gestione documenti viene inviata come firma di una persona autorizzata.  
+    * Esaminare l'output creato. L'immagine dall'allegato di gestione documenti viene inviata come firma di una persona autorizzata.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Utilizzare il documento di MS Word come modello nel formato importato
 1. Chiudere la pagina.
