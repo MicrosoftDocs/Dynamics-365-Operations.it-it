@@ -3,7 +3,7 @@ title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835088"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693776"
 ---
 # <a name="grid-capabilities"></a>Funzionalità del controllo griglia
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che possono essere utilizzate per migliorare la produttività degli utenti, creare viste più interessanti dei dati e ottenere informazioni dettagliate significative sui dati. In questo articolo vengono illustrate le seguenti funzionalità: 
 
@@ -95,21 +95,23 @@ Come booster di produttività, gli utenti possono inserire formule matematiche n
 Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per ulteriori informazioni sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Raggruppamento di dati tabulari
-[!include [preview banner](../includes/preview-banner.md)]
+Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento in griglie** che generalmente è disponibile nella versione 10.0.16/Platform update 40 e dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
 
-Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **(Anteprima) Raggruppamento in griglie** che dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
-
-Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge un nuovo **gruppo** all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo: 
+Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge una nuova colonna **Raggruppa per** all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo: 
 -  Valore dei dati per il gruppo 
--  Nome della colonna (Queste informazioni saranno particolarmente utili dopo il supporto di più livelli di raggruppamento).  
+-  Nome della colonna (queste informazioni saranno particolarmente utili in caso di più livelli di raggruppamento)  
 -  Numero di righe di dati in questo gruppo
 -  Subtotali per qualsiasi colonna configurata per mostrare i totali
 
 Con la funzionalità [Visualizzazioni salvate](saved-views.md) abilitata, questo raggruppamento può essere salvato mediante personalizzazione come parte di una visualizzazione per un accesso rapido alla successiva visita della pagina.  
 
-Se si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, il raggruppamento originale viene sostituito, poiché un solo livello di raggruppamento è supportato a partire dalla versione 10.0.9 con l'update 33 della piattaforma.
+### <a name="multiple-levels-of-grouping"></a>Più livelli di raggruppamento
+Dopo aver raggruppato i dati in una singola colonna, puoi raggruppare i dati in una colonna diversa selezionando **Raggruppa in base a questa colonna** sulla colonna desiderata. Questo processo può essere ripetuto fino a quando non si ottengono 5 livelli di raggruppamento nidificati, ovvero la profondità massima supportata. A questo punto, non sarà più possibile raggruppare per colonne aggiuntive.  
 
-Per annullare il raggruppamento in una griglia, fare clic con il pulsante destro del mouse sulla colonna di raggruppamento e selezionare **Separa**.  
+In qualsiasi momento, puoi rimuovere il raggruppamento su qualsiasi colonna facendo clic con il pulsante destro del mouse su quella colonna e selezionando **Separa**. È possibile anche rimuovere il raggruppamento da tutte le colonne selezionando **Opzioni griglia** e poi **Separa tutto**.   
+
+Tenere presente che, prima della versione 10.0.16/Platform update 40, è supportato solo un livello di raggruppamento. In queste versioni, se i dati sono raggruppati e si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, il raggruppamento originale viene sostituito.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Espansione e compressione di gruppi
 Il raggruppamento iniziale di dati avrà tutti i gruppi espansi. È possibile creare visualizzazioni riepilogative dei dati comprimendo i singoli gruppi oppure è possibile utilizzare l'espansione e la compressione del gruppo per facilitare lo spostamento tra i dati. Per espandere o comprimere un gruppo, selezionare il pulsante con la freccia (>) nella riga dell'intestazione del gruppo corrispondente. Tenere presente che lo stato di espansione/compressione dei singoli gruppi **non** è salvato nella personalizzazione.
@@ -165,10 +167,26 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
     -  È presente un elenco di schede raggruppate sulla pagina.
     -  Una colonna della griglia con un controllo estendibile non reattivo.
 
-    Quando un utente incontra per la prima volta una di queste situazioni, verrà visualizzato un messaggio sull'aggiornamento della pagina. Una volta visualizzato questo messaggio, la pagina continuerà a utilizzare la griglia esistente per tutti gli utenti fino al prossimo aggiornamento della versione del prodotto. Una migliore gestione di questi scenari, in modo che la nuova griglia possa essere utilizzata, verrà presa in considerazione per un aggiornamento futuro.     
+    Quando un utente incontra per la prima volta una di queste situazioni, verrà visualizzato un messaggio sull'aggiornamento della pagina. Una volta visualizzato questo messaggio, la pagina continuerà a utilizzare la griglia esistente per tutti gli utenti fino al prossimo aggiornamento della versione del prodotto. Una migliore gestione di questi scenari, in modo che la nuova griglia possa essere utilizzata, verrà presa in considerazione per un aggiornamento futuro.    
+    
+-  [KB 4582758] I record sono sfocati quando si modifica lo zoom da 100 a qualsiasi altra percentuale
+    
+### <a name="fixed-as-part-of-10015"></a>Cespiti come parte del 10.0.15    
+
+-  [KB 4582723] Le opzioni di visualizzazione non vengono mostrate se eseguite successivamente nel ciclo di vita del modulo
+
+### <a name="fixed-as-part-of-10014"></a>Cespiti come parte del 10.0.14
+
+-  (Aggiornamento di qualità) [KB 4584752] Errore client imprevisto nella pagina Proposte di fatturazione progetto
 
 ### <a name="fixed-as-part-of-10013"></a>Cespiti come parte del 10.0.13
 
+-  (Aggiornamento di qualità) [KB 4583880] Regression Suite Automation Tool i test (RSAT) hanno esito negativo sull'azione OpenLookup con "Impossibile leggere la proprietà RowIndex di undefined"
+-  (Aggiornamento di qualità) [KB 4583847] Errore client imprevisto durante la navigazione tra le ricerche 
+-  (Aggiornamento di qualità) [Bug 471777] Impossibile selezionare i campi in una griglia per modificare o creare un'app per dispositivi mobili
+-  [Bug 474851] I collegamenti ipertestuali nei controlli del gruppo di riferimento non funzionano 
+-  [Bug 474848] Le anteprime avanzate con griglie non vengono visualizzate
+-  [KB 4582726] La proprietà RotateSign non viene rispettata  
 -  [Bug 470173] Le caselle di controllo nelle righe inattive si attivano e disattivano quando si fa clic sullo spazio bianco nella cella
 -  [Bug 474848] Le anteprime avanzate con griglie non vengono visualizzate
 -  [Bug 474851] I collegamenti ipertestuali nei controlli del gruppo di riferimento non funzionano 
@@ -176,6 +194,7 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 -  [KB 4569441] Problemi con il rendering di elenchi di schede a più colonne, descrizioni comandi sulle immagini e opzioni di visualizzazione in alcuni campi
 -  [KB 4575279] Non tutte le righe contrassegnate vengono eliminate nel giornale di registrazione generale
 -  [KB 4575233] Le opzioni di visualizzazione non vengono ripristinate dopo lo spostamento in un'altra riga
+-  [Bug 477884] Le ricerche restituiscono un valore / record errato se è attivato un nuovo controllo della griglia
 -  [KB 4571095] La registrazione della ricevuta del prodotto si verifica quando si preme accidentalmente INVIO (gestione corretta dell'azione predefinita di una pagina)
 -  [KB 4575437] Le ricerche con controlli modificabili si chiudono inaspettatamente
 -  [KB 4569418] Riga duplicata creata nel modulo di programmazione consegna
@@ -189,7 +208,7 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 -  [KB 4575288] Lo stato attivo viene ripristinato sulla riga attiva quando si seleziona il bordo tra le righe in un elenco semplice
 -  [KB 4575287] Lo stato attivo non torna alla prima colonna quando si utilizza la freccia GIÙ per creare una nuova riga nei giornali di registrazione
 -  [KB 4564819] Impossibile eliminare le righe in una fattura a testo libero (perché l'origine dati ChangeGroupMode = ImplicitInnerOuter)
--  [KB 4563317] Le descrizioni dei comandi/anteprime avanzate non vengono visualizzate per le immagini.
+-  [KB 4563317] Le descrizioni dei comandi/anteprime avanzate non vengono visualizzate per le immagini
 
 ### <a name="fixed-as-part-of-10012"></a>Cespiti come parte del 10.0.12
 
@@ -220,12 +239,12 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 - [KB 4558378] Il drill-through a volte apre il record errato.
 - [KB 4558379] Si verifica un errore quando vengono aperte le ricerche in cui **ReplaceOnLookup**=**No**.
 - [KB 4558380] Lo spazio disponibile nella griglia non viene riempito immediatamente dopo la compressione di una parte della pagina.
-- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
+- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti a volte potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
 - [KB 4558382] Si verificano errori del client imprevisti.
 - [KB 4558383] I controlli all'esterno della griglia non sono aggiornati dopo l'eliminazione dell'ultimo record.
 - [KB 4558587] I gruppi di riferimento con caselle combinate per i campi di sostituzione non mostrano i valori.
 - [KB 4562143] I campi non verranno aggiornati dopo una modifica alla riga / l'elaborazione della griglia si bloccherà dopo l'eliminazione della riga.
-- [KB 4562645] Si verifica un'eccezione quando viene aperta una ricerca durante l'esecuzione dei test RSAT (Remote Server Administration Tools).
+- [KB 4562645] Si verifica un'eccezione quando viene aperta una ricerca durante l'esecuzione dei test RSAT (Remote Server Administration Tools) Regression Suite Automation Tool.
 
 ### <a name="fixed-as-part-of-10010"></a>Cespiti come parte del 10.0.10
 

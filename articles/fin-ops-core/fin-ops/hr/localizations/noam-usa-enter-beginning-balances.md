@@ -1,28 +1,27 @@
 ---
 title: Immettere i saldi iniziali delle retribuzioni
 description: Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte. Queste informazioni sono utili ai partner per migrare o trasferire dati per una nuova implementazione di retribuzione da un altro sistema.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4bb8f565f5bf5630a7c5f8602b96e569692bc7c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005680"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693404"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
@@ -39,7 +38,7 @@ Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniz
     - Benefit e detrazioni
 
 - La società dovrebbe aver selezionato la data in cui i saldi iniziali delle retribuzioni possono essere impostati.
-- Sono state raccolte informazioni su tutti i ricavi, benefit/detrazioni, Contributi per benefit, imposte del dipendente e imposte del datore di lavoro e i relativi importi da inizio anno dal sistema legacy.
+- Sono state raccolte informazioni su tutti i ricavi, benefit/detrazioni, contributi per benefit, imposte del dipendente e imposte del datore di lavoro e i relativi importi da inizio anno dal sistema legacy.
 
 Dal momento che si prevede di immettere i saldi iniziali, valutare il livello di dettaglio dei dati. La maggior parte delle aziende immette un singolo importo consolidato da inizio anno. Tuttavia, se sono necessarie informazioni più dettagliate, i saldi possono essere immessi in incrementi trimestrali. La definizione del livello di dettaglio necessario determina il numero dei rendiconti finanziari di retribuzione da creare per ciascun lavoratore. Per un singolo importo da inizio anno, è necessario un solo rendiconto manuale per ciascun dipendente. Per fare ciò, utilizzare gli importi da inizio anno a partire dal rendiconto di pagamento finale del sistema precedente come importo immesso nel nuovo sistema di gestione delle retribuzioni.
 

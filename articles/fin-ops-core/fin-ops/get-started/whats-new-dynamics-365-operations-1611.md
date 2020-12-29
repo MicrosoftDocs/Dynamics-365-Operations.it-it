@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 221294
 ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 03e7fcc2041363f9ddee8fdda9c4ea30bf89a9cb
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b3ede085533fee1bb779ed9da899f509a77fc0c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812476"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693433"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -124,7 +123,7 @@ Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 fo
 | Configurare le imposte su spese per uno stato/regione o provincia. | In alcuni paesi, le spese sostenute in stati/regioni o province differenti potrebbero essere soggette a diverse aliquote IVA. È ora possibile impostare le configurazioni imposte spese a livello di stato/regione o provincia, non solo a livello di paese. Se si lascia vuoto il campo **Stato/Regione/Provincia** nella pagina **Configurazione fiscale**, la fascia IVA viene applicata a tutti gli stati/regioni/provincie del paese specificato. |
 | Impostare tipi di carta di credito per le spese. | In precedenza, non esisteva una pagina in cui creare nuovi tipi di carta di credito, ad esempio Visa, MasterCard o AMEX, utilizzabili con Gestione spese. È ora possibile creare i tipi di carta di credito da utilizzare per Gestione spese. La pagina di trova nell'area **Impostazione**, sezione **Calcoli e codici**. |
 | Definire un flusso di lavoro di approvazione multilivello per le note spese. | Un nuovo flusso di lavoro per le note spese supporta un processo di approvazione multilivello. I dipendenti immettono gli approvatori provvisori e gli approvatori finali durante la creazione della nota spese. Il flusso di lavoro indirizza quindi la nota spese agli approvatori provvisori per primi. Dopo che la nota spese è approvata a quel livello, il flusso di lavoro la indirizza agli approvatori finali per l'approvazione finale. |
-| Creare e gestire le spese non collegate a una nota spese. | L'utente può ora creare spese e gestirle, ad esempio allegando o dettagliando  ricevute o assegnando ospiti) senza dover prima creare una nota spese. Una o più spese possono essere selezionate e aggiunte a una nuova nota spese, in modo che possono essere inviate per l'approvazione. Una nuova pagina per la gestione delle spese è disponibile in **Gestione spese** &gt; **Spese personali** &gt; **Spese**. |
+| Creare e gestire le spese non collegate a una nota spese. | L'utente può ora creare spese e gestirle, (ad esempio allegando o dettagliando  ricevute o assegnando ospiti) senza dover prima creare una nota spese. Una o più spese possono essere selezionate e aggiunte a una nuova nota spese, in modo che possono essere inviate per l'approvazione. Una nuova pagina per la gestione delle spese è disponibile in **Gestione spese** &gt; **Spese personali** &gt; **Spese**. |
 
 ## <a name="financial-management"></a>Gestione finanziaria
 
@@ -945,4 +944,4 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
+[Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)

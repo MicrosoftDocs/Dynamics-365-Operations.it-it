@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015045"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692968"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -73,7 +72,7 @@ Le funzionalità di cui è stata programmata l'abilitazione sono visualizzate ne
 Se l'abilitazione di una funzionalità è stata programmata, un pulsante **Programma** viene visualizzato nel riquadro dei dettagli. È possibile utilizzare questo pulsante per cambiare il valore **Data abilitazione** con una data diversa.
 
 1. Selezionare la funzionalità programmata che si desidera riprogrammare, quindi nel riquadro dei dettagli, selezionare **Programma**.
-2. Nella finestra di dialogo visualizzata, nel campo **Data abilitazione** , specificare la nuova data in cui la funzionalità deve essere abilitata.
+2. Nella finestra di dialogo visualizzata, nel campo **Data abilitazione**, specificare la nuova data in cui la funzionalità deve essere abilitata.
 3. Selezionare **Abilita** per riprogrammare la funzionalità o **Disabilita** per annullare la programmazione.
 
 ## <a name="turn-off-a-feature"></a>Disabilitare una funzionalità
@@ -92,7 +91,7 @@ A volte, viene fornita una funzionalità fondamentale che deve essere abilitata 
 
 Per impostazione predefinita, tutte le funzionalità aggiunte all'ambiente sono disabilitate. È possibile abilitare tutte le funzionalità selezionando il pulsante **Abilita tutto**. 
 
-Quando si seleziona **Abilita tutto** , verrà visualizzato un'opzione in cui necessario immettere le seguenti informazioni:
+Quando si seleziona **Abilita tutto**, verrà visualizzato un'opzione in cui necessario immettere le seguenti informazioni:
 - Elenco di tutte le funzionalità che richiedono la conferma prima di poter essere abilitate. Se si desidera abilitare le funzionalità nell'elenco, scegliere **Sì** per il pulsante **Abilita le funzionalità che richiedono conferma**.
 - Elenco di tutte le funzionalità che non possono essere abilitate verrà visualizzato. Quelle funzionalità non verranno abilitate.
 
@@ -130,8 +129,8 @@ Un'entità di dati denominata **Gestione funzionalità** consente di esportare l
 
 Gli esempi riportati di seguito descrivono cosa accade quando si utilizza l'entità **Gestione funzionalità** per importare dati.
 
-- Se si modifica il valore del campo **Abilitato** su **Sì** , la funzionalità viene abilitata e il campo **Data abilitazione** è impostato sulla data corrente.
-- Se si modifica il valore del campo **Abilitato** su **No** o si lascia vuoto il campo **EnableDate** , la funzionalità viene disabilitata e il campo **Data abilitazione** è vuoto. Non è possibile disabilitare una funzionalità obbligatoria o una funzionalità che non può essere disabilitata dopo l'abilitazione.
+- Se si modifica il valore del campo **Abilitato** su **Sì**, la funzionalità viene abilitata e il campo **Data abilitazione** è impostato sulla data corrente.
+- Se si modifica il valore del campo **Abilitato** su **No** o si lascia vuoto il campo **EnableDate**, la funzionalità viene disabilitata e il campo **Data abilitazione** è vuoto. Non è possibile disabilitare una funzionalità obbligatoria o una funzionalità che non può essere disabilitata dopo l'abilitazione.
 - Se si imposta il campo **EnableDate** su una data futura, la funzionalità viene programmata per tale data.
 - Se si imposta il campo **Abilitato** su **Sì** e il campo **EnableDate** su una data futura, la funzionalità viene programmata per quella data. 
 - Se si imposta il campo **Abilitato** su **No** nonché il campo **EnableDate** su una data futura, la funzionalità viene programmata per quella data.
@@ -181,7 +180,7 @@ Le versioni di anteprima sono interruttori attivati/disabilitati in tempo reale 
 Sì, se una funzionalità influisce sul funzionamento di un ambiente che non ha un impatto funzionale, puoi abilitarla per impostazione predefinita.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Come è possibile controllare l'abilitazione delle funzionalità nel codice?
-Usa il metodo **isFeatureEnabled** nella classe **FeatureStateProvider** , passandogli un'istanza della classe di funzionalità. Esempio: 
+Usa il metodo **isFeatureEnabled** nella classe **FeatureStateProvider**, passandogli un'istanza della classe di funzionalità. Esempio: 
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))

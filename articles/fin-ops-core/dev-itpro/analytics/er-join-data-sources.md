@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
-ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
+ms.openlocfilehash: 0d7df12026d6d668b1f48a48cd12bf4b12e0f94e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3332324"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686418"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilizzare le origini dati JOIN per ottenere i dati da più tabelle dell'applicazione nei mapping del modello di report elettronici (ER)
 
@@ -38,7 +37,7 @@ Attualmente sono supportati i seguenti tipi di join:
 - Right inner join:
     - Unire solo i record della prima origine dati (all'estrema sinistra) e quindi solo i record della seconda origine (all'estrema destra) corrispondenti tra loro in base alle condizioni configurate.
 
-Nell'origine dati configurata **Join**, quando tutte le origini dati sono di tipo **Record di tabella**, l'esecuzione dell'origine dati Join può essere [effettuata a livello di database](#analyze) utilizzando una singola istruzione SQL. Ciò riduce il numero di chiamate al database, migliorando le prestazioni di mapping del modello. In caso contrario, l'esecuzione dell'origine dati **Join** viene eseguita in memoria.
+Nell'origine dati configurata **Join**, quando tutte le origini dati sono di tipo **Record di tabella**, l'esecuzione dell'origine dati Join può essere [effettuata a livello di database](#analyze) utilizzando una singola istruzione SQL. Questo rendiconto riduce il numero di chiamate al database, migliorando le prestazioni di mapping del modello. In caso contrario, l'esecuzione dell'origine dati **Join** viene eseguita in memoria.
 
 > [!NOTE]
 > L'utilizzo della funzione **VALUEIN** nelle espressioni ER che specificano le condizioni per il join dei record delle origini dati di tipo Join non è ancora supportato. Consultare la pagina [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md) per altri dettagli su questa funzione.
@@ -79,7 +78,7 @@ Preventivamente, è inoltre necessario scaricare dall'[Area download Microsoft](
 
 1. Accedere a Finance o RCS nella prima sessione del Web browser.
 2. Andare a **Amministrazione organizzazione \> Aree di lavoro \> Creazione di report elettronici**.
-3. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il provider di configurazione per la società di esempio Litware, Inc. (http://www.litware.com) sia elencato e contrassegnato come **Attivo**. Se il provider di configurazione non è visualizzato, seguire i passaggi della procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+3. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il provider di configurazione per la società di esempio [Litware, Inc.](http://www.litware.com) sia elencato e contrassegnato come **Attivo**. Se il provider di configurazione non è visualizzato, seguire i passaggi della procedura [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Area di lavoro Creazione di report elettronici](./media/GER-JoinDS-ActiveProvider.PNG)
 
@@ -96,20 +95,21 @@ Preventivamente, è inoltre necessario scaricare dall'[Area download Microsoft](
     2. Selezionare **Carica da file XML**.
     3. Selezionare **Sfoglia** per trovare il file **Mapping to learn JOIN data sources.version.1.1.xml**.
     4. Selezionare **OK**.
-4.  Importare il file di configurazione del formato ER.
+4. Importare il file di configurazione del formato ER.
     1. Selezionare **Scambia**.
     2. Selezionare **Carica da file XML**.
     3. Selezionare **Sfoglia** per trovare il file **Format to learn JOIN data sources.version.1.1.xml**.
     4. Selezionare **OK**.
-5.  Nell'albero delle configurazioni, espandere l'elemento **Model to learn JOIN data sources** nonché altri elementi di modello (se disponibili).
-6.  Osservare l'elenco delle configurazioni ER nell'albero, nonché i dettagli della versione nella scheda dettaglio **Versioni**: verranno utilizzati come origine dati per il report di esempio.
+5. Nell'albero delle configurazioni, espandere l'elemento **Model to learn JOIN data sources** nonché altri elementi di modello (se disponibili).
+6. Osservare l'elenco delle configurazioni ER nell'albero, nonché i dettagli della versione nella scheda dettaglio **Versioni**: verranno utilizzati come origine dati per il report di esempio.
 
     ![Pagina delle configurazioni per la creazione di report elettronici](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Attivare le opzioni di traccia dell'esecuzione
-1.  Selezionare **CONFIGURAZIONI**.
-2.  Selezionare **Parametri utente**.
-3.  Impostare i parametri di traccia dell'esecuzione come riportato nella schermata di seguito.
+
+1. Selezionare **CONFIGURAZIONI**.
+2. Selezionare **Parametri utente**.
+3. Impostare i parametri di traccia dell'esecuzione come riportato nella schermata di seguito.
 
     ![Pagina dei parametri utente per la creazione di report elettronici](./media/GER-JoinDS-Parameters.PNG)
 
@@ -119,11 +119,11 @@ Preventivamente, è inoltre necessario scaricare dall'[Area download Microsoft](
 
 Esaminare le impostazioni del componente di mapping del modello ER. Il componente è configurato per accedere alle informazioni sulle versioni delle configurazioni ER, i dettagli delle configurazioni e dei provider di configurazione senza utilizzare origini dati di tipo **Join**.
 
-1.  Selezionare la configurazione **Mapping to learn JOIN data sources**.
-2.  Selezionare **Progettazione** per aprire l'elenco dei mapping.
-3.  Selezionare **Progettazione** per esaminare i dettagli dei mapping. 
-4.  Selezionare **Mostra dettagli**.
-5.  Nell'albero delle configurazioni, espandere gli elementi del modello dati **Set1** e **Set1.Details**:
+1. Selezionare la configurazione **Mapping to learn JOIN data sources**.
+2. Selezionare **Progettazione** per aprire l'elenco dei mapping.
+3. Selezionare **Progettazione** per esaminare i dettagli dei mapping.
+4. Selezionare **Mostra dettagli**.
+5. Nell'albero delle configurazioni, espandere gli elementi del modello dati **Set1** e **Set1.Details**:
 
     1. L'associazione **Details: Record list = Versions** indica che l'elemento **Set1.Details** è associato all'origine dati **Versions** che restituisce i record della tabella **ERSolutionVersionTable**. Ciascun record della tabella rappresenta una singola versione della configurazione ER. Il contenuto della tabella è presentato nella scheda dettaglio **Versioni** della pagina **Configurazioni**.
     2. L'associazione **ConfigurationVersion: String = @.PublicVersionNumber** indica che il valore della versione pubblica della versione di ciascuna configurazione ER è ricavato dal campo **PublicVersionNumber** della tabella **ERSolutionVersionTable** e inserito nell'elemento **ConfigurationVersion**.
@@ -132,19 +132,19 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
     ![Pagina della progettazione mapping modello di ER](./media/GER-JoinDS-Set1Review.PNG)
 
-6.  Nell'albero delle configurazioni, espandere l'elemento del modello dati **Set1.Summary**:
+6. Nell'albero delle configurazioni, espandere l'elemento del modello dati **Set1.Summary**:
 
     1. L'associazione **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indica che l'elemento **Set1.Summary.VersionsNumber** è associato al campo di aggregazione **VersionsNumber** dell'origine dati **VersionsSummary** del tipo **GroupBy** configurato per restituire il numero di record della tabella **ERSolutionVersionTable** tramite l'origine dati **Versions**.
 
     ![Pagina dei parametri dell'origine dati GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
-7.  Chiudere la pagina.
+7. Chiudere la pagina.
 
 ### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Esaminare il mapping del modello ER (parte 2)
 
 Esaminare le impostazioni del componente di mapping del modello ER. Il componente è configurato per accedere alle informazioni sulle versioni delle configurazioni ER, i dettagli delle configurazioni e dei provider di configurazione utilizzando un'origine dati di tipo **Join**.
 
-1.  Nell'albero delle configurazioni, espandere gli elementi del modello dati **Set2** e **Set2.Details**. Tenere presente che l'associazione **Details: Record list = Details** indica che l'elemento **Set2.Details** è associato all'origine dati **Details** configurata come origine dati di tipo **Join**.
+1. Nell'albero delle configurazioni, espandere gli elementi del modello dati **Set2** e **Set2.Details**. L'associazione **Details: Record list = Details** indica che l'elemento **Set2.Details** è associato all'origine dati **Details** configurata come origine dati di tipo **Join**.
 
     ![Pagina della progettazione mapping modello di ER](./media/GER-JoinDS-Set2Review.PNG)
 
@@ -152,16 +152,16 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
     ![Pagina della progettazione mapping modello di ER](./media/GER-JoinDS-AddJoinDS.PNG)
 
-2.  Selezionare l'origine dati **Dettagli**.
-3.  Selezionare **Modifica** nel riquadro **Origini dati**.
-4.  Selezionare **Modifica join**.
-5.  Selezionare **Mostra dettagli**.
+2. Selezionare l'origine dati **Dettagli**.
+3. Selezionare **Modifica** nel riquadro **Origini dati**.
+4. Selezionare **Modifica join**.
+5. Selezionare **Mostra dettagli**.
 
     ![Pagina dei parametri dell'origine dati JOIN](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Questa pagina viene utilizzata per progettare l'origine dati richiesta di tipo **Join**. In fase di esecuzione, questa origine dati creerà un unico elenco unito di record dalle origini dati della griglia dell'**elenco unito**. Il join dei record inizia dall'origine dati **ConfigurationProviders** presente nella griglia come prima (la colonna **Tipo** è vuota). I record di ogni altra origine dati verranno uniti di conseguenza ai record dell'origine dati padre in base all'ordine in questa griglia. Ogni origine dati di join deve essere configurata come origine dati nidificata in un'origine dati di destinazione (l'origine dati **1Versions** è nidificata in **1Configurations**; l'origine dati **1Configurations** è nidificata in **ConfigurationProviders**). Ogni origine dati configurata deve contenere le condizioni per il join. Nell'origine dati per questo particolare **Join**, sono definiti i seguenti join:
+    Questa pagina viene utilizzata per progettare l'origine dati richiesta di tipo **Join**. In fase di esecuzione, questa origine dati creerà un unico elenco unito di record dalle origini dati della griglia dell'**elenco unito**. Il join dei record inizia dall'origine dati **ConfigurationProviders** presente nella griglia come prima (la colonna **Tipo** è vuota). I record di ogni altra origine dati verranno uniti di conseguenza ai record dell'origine dati padre in base all'ordine in questa griglia. Ogni origine dati di join deve essere configurata come origine dati nidificata in un'origine dati di destinazione (l'origine dati `1Versions` è nidificata in `1Configurations`; l'origine dati `1Configurations` è nidificata in **ConfigurationProviders**). Ogni origine dati configurata deve contenere le condizioni per il join. Nell'origine dati per questo particolare **Join**, sono definiti i seguenti join:
 
-    - Ogni record dell'origine dati **ConfigurationProviders** (a cui si fa riferimento nella tabella **ERVendorTable**) è unito solo ai record di **1Configurations** (a cui si fa riferimento nella tabella **ERSolutionTable**) che hanno lo stesso valore nei campi **SolutionVendor** e **RecId**. Il tipo **Inner join** viene utilizzato per questo join, nonché le seguenti condizioni per la corrispondenza dei record: 
+    - Ogni record dell'origine dati **ConfigurationProviders** (a cui si fa riferimento nella tabella **ERVendorTable**) è unito solo ai record di **1Configurations** (a cui si fa riferimento nella tabella **ERSolutionTable**) che hanno lo stesso valore nei campi **SolutionVendor** e **RecId**. Il tipo **Inner join** viene utilizzato per questo join, nonché le seguenti condizioni per la corrispondenza dei record:
 
     FILTER (Configurations, Configurations.SolutionVendor = ConfigurationProviders.RecId)
 
@@ -171,32 +171,32 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
     - L'opzione **Esegui** è configurata come **Query** indicando che questa origine dati di join verrà eseguita in fase di esecuzione a livello di database come chiamata SQL diretta.
 
-    Si noti che per unire i record di origini dati che rappresentano le tabelle dell'applicazione, è possibile specificare le condizioni di join utilizzando coppie di campi diversi da quelli che descrivono le relazioni AOT esistenti tra queste tabelle. Questo tipo di join può essere configurato per essere eseguito anche a livello di database.
+    Per unire i record di origini dati che rappresentano le tabelle dell'applicazione, è possibile specificare le condizioni di join utilizzando coppie di campi diversi da quelli che descrivono le relazioni AOT esistenti tra queste tabelle. Questo tipo di join può essere configurato per essere eseguito anche a livello di database.
 
-6.  Chiudere la pagina.
-7.  Selezionare **Annulla**.
-8.  Nell'albero delle configurazioni, espandere l'elemento del modello dati **Set2.Summary**:
+6. Chiudere la pagina.
+7. Selezionare **Annulla**.
+8. Nell'albero delle configurazioni, espandere l'elemento del modello dati **Set2.Summary**:
 
     - L'associazione **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** indica che l'elemento **Set2.Summary.VersionsNumber** è associato al campo di aggregazione **VersionsNumber** dell'origine dati **DetailsSummary** del tipo **GroupBy** configurato per restituire il numero di record uniti dell'origine dati **Details** di tipo **Join**.
-    - Si noti che l'opzione dell'**ubicazione dell'esecuzione** è configurata come **Query** indicando che questa origine dati **GroupBy** verrà eseguita in fase di esecuzione come chiamata SQL diretta a livello di database. Questo è possibile perché l'origine dati di base **Details** del tipo **Join** è configurata come eseguita a livello di database.
+    - L'opzione dell'ubicazione dell'**esecuzione** è configurata come **Query** indicando che questa origine dati **GroupBy** verrà eseguita in fase di esecuzione come chiamata SQL diretta a livello di database. Questo comportamento è possibile perché l'origine dati di base **Details** del tipo **Join** è configurata come eseguita a livello di database.
 
     ![Pagina dei parametri dell'origine dati GROUPBY](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
-9.  Chiudere la pagina.
+9. Chiudere la pagina.
 10. Selezionare **Annulla**.
 
 ### <a name="execute-er-format"></a><a name="executeERformat"></a> Eseguire il formato ER
 
-1.  Accedere a Finance o RCS nella seconda sessione del browser Web utilizzando le stesse credenziali e società della prima sessione.
-2.  Andare a **Amministrazione organizzazione\> Creazione di report elettronici \> Configurazioni**.
-3.  Espandere la configurazione **Model to learn JOIN data sources**.
-4.  Selezionare la configurazione **Format to learn JOIN data sources**.
-5.  Selezionare **Progettazione**.
-6.  Selezionare **Mostra dettagli**.
-7.  Selezionare **Mapping**.
-8.  Selezionare **Espandi/Comprimi**.
+1. Accedere a Finance o RCS nella seconda sessione del browser Web utilizzando le stesse credenziali e società della prima sessione.
+2. Andare a **Amministrazione organizzazione\> Creazione di report elettronici \> Configurazioni**.
+3. Espandere la configurazione **Model to learn JOIN data sources**.
+4. Selezionare la configurazione **Format to learn JOIN data sources**.
+5. Selezionare **Progettazione**.
+6. Selezionare **Mostra dettagli**.
+7. Selezionare **Mapping**.
+8. Selezionare **Espandi/Comprimi**.
 
-    Si noti che questo formato è progettato per popolare un file di testo generato con una nuova riga per ogni versione di configurazione ER (sequenza **Versione**). Ogni riga generata conterrà il nome di un provider di configurazione proprietario della configurazione corrente, il nome della configurazione e la versione della configurazione separati da un punto e virgola. L'ultima riga del file generato conterrà il numero di versioni rilevate delle configurazioni ER (sequenza **Riepilogo**).
+    Questo formato è progettato per popolare un file di testo generato con una nuova riga per ogni versione di configurazione ER (sequenza **Versione**). Ogni riga generata conterrà il nome di un provider di configurazione proprietario della configurazione corrente, il nome della configurazione e la versione della configurazione separati da un punto e virgola. L'ultima riga del file generato conterrà il numero di versioni rilevate delle configurazioni ER (sequenza **Riepilogo**).
 
     ![Pagina della progettazione del formato ER](./media/GER-JoinDS-FormatReview.PNG)
 
@@ -207,7 +207,7 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
     ![Pagina della progettazione del formato ER](./media/GER-JoinDS-FormatMappingReview.PNG)
 
-9.  Selezionare **Esegui**.
+9. Selezionare **Esegui**.
 10. Nella finestra di dialogo, selezionare **No** nel campo **Utilizza origine dati JOIN**.
 11. Selezionare **OK**.
 12. Esaminare il file generato.
@@ -216,38 +216,38 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
 #### <a name="analyze-er-format-execution-trace"></a>Analizzare la traccia dell'esecuzione ER
 
-1.  Nella prima sessione di Finance o RCS, selezionare **Progettazione**.
-2.  Selezionare **Traccia delle prestazioni**.
-3.  Nella griglia **Traccia delle prestazioni**, selezionare il primo record dell'ultima traccia dell'esecuzione di un formato ER che ha utilizzato il componente di mapping di modello corrente.
-4.  Selezionare **OK**.
+1. Nella prima sessione di Finance o RCS, selezionare **Progettazione**.
+2. Selezionare **Traccia delle prestazioni**.
+3. Nella griglia **Traccia delle prestazioni**, selezionare il primo record dell'ultima traccia dell'esecuzione di un formato ER che ha utilizzato il componente di mapping di modello corrente.
+4. Selezionare **OK**.
 
-    Si noti che le statistiche di esecuzione informano sulle chiamate duplicate alle tabelle delle applicazioni:
+    Le statistiche di esecuzione informano sulle chiamate duplicate alle tabelle delle applicazioni:
 
     - **ERSolutionTable** è stato chiamato tante volte quanti sono i record della versione di configurazione nella tabella **ERSolutionVersionTable**, mentre il numero delle volte delle chiamate potrebbe essere ridotto per migliorare le prestazioni.
     - **ERVendorTable** è stato chiamato due volte per ogni record della versione di configurazione rilevato nella tabella **ERSolutionVersionTable**, mentre il numero delle chiamate potrebbe essere ridotto.
 
     ![Pagina della progettazione mapping modello di ER](./media/GER-JoinDS-Set1Run2.PNG)
 
-5.  Chiudere la pagina.
+5. Chiudere la pagina.
 
 ### <a name="execute-er-format"></a>Eseguire il formato ER
 
-1.  Passare alla scheda del Web browser con la seconda sessione di Finance o RCS.
-2.  Selezionare **Esegui**.
-3.  Nella finestra di dialogo, selezionare **Sì** nel campo **Utilizza origine dati JOIN**.
-4.  Selezionare **OK**.
-5.  Esaminare il file generato.
+1. Passare alla scheda del Web browser con la seconda sessione di Finance o RCS.
+2. Selezionare **Esegui**.
+3. Nella finestra di dialogo, selezionare **Sì** nel campo **Utilizza origine dati JOIN**.
+4. Selezionare **OK**.
+5. Esaminare il file generato.
 
     ![Finestra di dialogo utente ER](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizzare la traccia dell'esecuzione ER
 
-1.  Nella prima sessione di Finance o RCS, selezionare **Progettazione**.
-2.  Selezionare **Traccia delle prestazioni**.
-3.  Nella griglia **Traccia delle prestazioni**, selezionare il primo record che rappresenta l'ultima traccia dell'esecuzione di un formato ER che ha utilizzato il componente di mapping di modello corrente.
-4.  Selezionare **OK**.
+1. Nella prima sessione di Finance o RCS, selezionare **Progettazione**.
+2. Selezionare **Traccia delle prestazioni**.
+3. Nella griglia **Traccia delle prestazioni**, selezionare il primo record che rappresenta l'ultima traccia dell'esecuzione di un formato ER che ha utilizzato il componente di mapping di modello corrente.
+4. Selezionare **OK**.
 
-    Si noti che le statistiche di esecuzione informano di quanto segue:
+    Le statistiche ti informano su quanto segue:
 
     - Il database dell'applicazione è stato chiamato una volta per ottenere i record delle tabelle **ERVendorTable**, **ERSolutionTable** e **ERSolutionVersionTable** per accedere ai campi obbligatori.
 
@@ -289,4 +289,3 @@ Quando l'origine dati configurata viene eseguita mentre l'esecuzione ER è [trac
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Generare la traccia dell'esecuzione del formato ER per risolvere problemi relativi alle prestazioni](trace-execution-er-troubleshoot-perf.md)
-

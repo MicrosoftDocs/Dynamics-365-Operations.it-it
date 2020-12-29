@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812438"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694940"
 ---
 # <a name="human-resources-overview"></a>Panoramica delle risorse umane
 
@@ -46,7 +45,7 @@ Risorse umane consente di semplificare molte attività di routine di gestione de
 Quando si utilizza Risorse umane, è necessario strutturare l'organizzazione utilizzando gli elementi, ad esempio reparti, mansioni e posizioni. Questi sono tra gli elementi fondamentali che si configurano in Risorse umane. I singoli dipendenti vengono assegnati alle posizioni che sono associate alle mansioni.
 
 - [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](../../../talent/departments-jobs-positions.md)
-- [Impostare i parametri di Risorse umane specifici della società](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Impostare i parametri di Risorse umane (HR) specifici della società](../../../talent/set-up-company-specific-hr-parameters.md)
 - [Impostare i parametri di Risorse umane per le persone giuridiche](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Selezionare, assumere e motivare i dipendenti

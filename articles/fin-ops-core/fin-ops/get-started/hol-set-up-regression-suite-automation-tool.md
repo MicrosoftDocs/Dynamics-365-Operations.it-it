@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248715"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695117"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Esercitazione sull'impostazione e l'installazione di Regression Suite Automation Tool
 Questo argomento è un'esercitazione che consente di iniziare a utilizzare RSAT e gli strumenti ad esso associati. 
@@ -387,7 +386,7 @@ Per abilitare l'autenticazione, è necessario generare e installare un certifica
 
     ![AOSService nell'elenco dei siti](./media/setup_rsa_tool_49.png)
 
-3. Fare clic con il pulsante destro del mouse su **Esplora** per aprire la cartella **\<Unità\>: \\AosService\\Webroot**. Individuare il file **wif.config**.
+3. Fare clic con il pulsante destro del mouse su **Esplora** per aprire la cartella **\<Drive\>: \\AosService\\Webroot**. Individuare il file **wif.config**.
 
     ![File Wif.config nella cartella Webroot](./media/setup_rsa_tool_50.png)
 
@@ -464,7 +463,7 @@ Nelle versioni precedenti di RSAT, si dovevano installare i driver del browser e
 
     ![Finestra di dialogo Nuovo piano di test](./media/setup_rsa_tool_55.png)
 
-4. Selezionare il segno**+** e quindi selezionare **Gruppo statico** per creare un gruppo statico sotto il nuovo piano di test. Denominare il nuovo gruppo di test **T01 - Produzione per scorte**.
+4. Selezionare il segno **+** e quindi selezionare **Gruppo statico** per creare un gruppo statico sotto il nuovo piano di test. Denominare il nuovo gruppo di test **T01 - Produzione per scorte**.
 
     > [!NOTE]
     > È inoltre possibile creare un gruppo basato su query, se i nuovi test case da BPM devono essere inseriti automaticamente nel gruppo di test RSAT.
@@ -563,14 +562,14 @@ Nelle versioni precedenti di RSAT, si dovevano installare i driver del browser e
 
     ![Risoluzione dello schermo impostata su 100%](./media/setup_rsa_tool_68.png)
 
-6. Se i driver del browser non sono installati nel sistema, verrà visualizzato il messaggio di avviso "Per eseguire questa operazione è necessario il driver di \<nome browser\>. Scaricare e installare automaticamente il driver ora? Selezionare **Sì**.
+6. Se i driver del browser non sono installati nel sistema, verrà visualizzato il messaggio di avviso "Per eseguire questa operazione è necessario il driver \<browser name\>. Scaricare e installare automaticamente il driver ora? Selezionare **Sì**.
 
     ![Messaggio di avviso per Internet Explorer](./media/setup_rsa_tool_69.png)
 
     ![Messaggio di avviso per Chrome](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
-    > Se si utilizza Chrome come browser e viene visualizzato un messaggio di errore in cui viene indicato che la sessione non è stata creata in quanto la versione di Chrome non è corretta, scaricare il driver di Chrome più recente da <http://chromedriver.chromium.org/downloads> nella cartella**C:\\Programmi (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium**.
+    > Se si utilizza Chrome come browser e viene visualizzato un messaggio di errore in cui viene indicato che la sessione non è stata creata in quanto la versione di Chrome non è corretta, scaricare il driver di Chrome più recente da <http://chromedriver.chromium.org/downloads> nella cartella **C:\\Programmi (x86)\\Regression Suite Automation Tool\\Common\\External\\Selenium**.
 
     ![Messaggio di errore per Chrome](./media/setup_rsa_tool_71.png)
 

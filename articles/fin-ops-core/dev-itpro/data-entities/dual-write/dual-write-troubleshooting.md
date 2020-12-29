@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi generali
-description: In questo argomento vengono fornite informazioni sulla risoluzione dei problemi generali di integrazione della doppia scrittura tra le app Finance and Operations e Common Data Service.
+description: In questo argomento vengono fornite informazioni sulla risoluzione dei problemi generali di integrazione della doppia scrittura tra le app Finance and Operations e Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997256"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688261"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-In questo argomento vengono fornite informazioni sulla risoluzione dei problemi generali di integrazione della doppia scrittura tra le app Finance and Operations e Common Data Service.
+
+In questo argomento vengono fornite informazioni sulla risoluzione dei problemi generali di integrazione della doppia scrittura tra le app Finance and Operations e Dataverse.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo argomento tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
@@ -42,7 +44,7 @@ Alcune versioni dello strumento di distribuzione dei pacchetti non sono compatib
 
 Dopo aver installato lo strumento di distribuzione pacchetti, installare il pacchetto della soluzione seguendo questi passaggi.
 
-1. Scaricare l'ultimo file del pacchetto della soluzione da Yammer.com. Dopo aver scaricato il file zip del pacchetto, fare clic con il tasto destro del mouse e selezionare **Proprietà**. Selezionare la casella di controllo **Sblocca** , quindi selezionare **Applica**. Se la casella di controllo **Sblocca** non è visibile, il file zip è già sbloccato ed è possibile saltare questo passaggio.
+1. Scaricare l'ultimo file del pacchetto della soluzione da Yammer.com. Dopo aver scaricato il file zip del pacchetto, fare clic con il tasto destro del mouse e selezionare **Proprietà**. Selezionare la casella di controllo **Sblocca**, quindi selezionare **Applica**. Se la casella di controllo **Sblocca** non è visibile, il file zip è già sbloccato ed è possibile saltare questo passaggio.
 
     ![Finestra di dialogo Proprietà](media/unblock_option.png)
 
@@ -51,11 +53,11 @@ Dopo aver installato lo strumento di distribuzione pacchetti, installare il pacc
     ![Contenuto della cartella Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
 
 3. Incollare tutti i file copiati nella cartella **Strumenti** dello strumento di distribuzione pacchetti. 
-4. Eseguire **PackageDeployer.exe** per selezionare l'ambiente Common Data Service e installare le soluzioni.
+4. Eseguire **PackageDeployer.exe** per selezionare l'ambiente Dataverse e installare le soluzioni.
 
     ![Contenuto della cartella Strumenti](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Abilitare e visualizzare il log di traccia del plug-in Common Data Service per visualizzare i dettagli dell'errore
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Abilitare e visualizzare il log di traccia del plug-in Dataverse per visualizzare i dettagli dell'errore
 
 **Ruolo richiesto per attivare il log di traccia e visualizzare gli errori:** amministratore di sistema
 
@@ -63,18 +65,18 @@ Per attivare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Sistema** selezionare **Amministrazione**.
 2. Nella pagina **Amministrazione** selezionare **Impostazioni di sistema**.
-3. Nella scheda **Personalizzazione** , nel campo **Analisi attività plug-in e flusso di lavoro personalizzato** , selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
+3. Nella scheda **Personalizzazione**, nel campo **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
 
 
 Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Personalizzazione** selezionare **Registro di traccia plug-in**.
 2. Trovare i log di traccia dove il campo **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione** , esaminare il testo **Blocco messaggio**.
+3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione**, esaminare il testo **Blocco messaggio**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app Finance and Operations
 
-**Ruolo richiesto per visualizzare gli errori:** amministratore di sistema. Gli errori di doppia scrittura originati da Common Data Service possono apparire nell'app Finance and Operations. In alcuni casi, il testo completo del messaggio di errore non è disponibile perché il messaggio è troppo lungo o contiene informazioni di identificazione personale (PII). È possibile attivare la registrazione dettagliata degli errori seguendo questi passaggi.
+**Ruolo richiesto per visualizzare gli errori:** amministratore di sistema. Gli errori di doppia scrittura originati da Dataverse possono apparire nell'app Finance and Operations. In alcuni casi, il testo completo del messaggio di errore non è disponibile perché il messaggio è troppo lungo o contiene informazioni di identificazione personale (PII). È possibile attivare la registrazione dettagliata degli errori seguendo questi passaggi.
 
 1. Tutte le configurazioni del progetto nelle app Finance and Operations hanno una proprietà **IsDebugMode** nell'entità **DualWriteProjectConfiguration**. Aprire l'entità **DualWriteProjectConfiguration** utilizzando il componente aggiuntivo di Excel.
 
@@ -85,7 +87,7 @@ Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 3. Esegui lo scenario che genera errori.
 4. I log dettagliati sono disponibili nella tabella DualWriteErrorLog. Per cercare i dati nel browser delle tabelle, utilizzare il seguente URL (sostituire **XXX** come appropriato):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Controllare gli errori di sincronizzazione sulla macchina virtuale per l'app Finance and Operations
 
@@ -99,9 +101,9 @@ Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 6. Selezionare **Registri applicazioni e servizi \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operativo**.
 7. Rivedere l'elenco degli errori recenti.
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Scollegare e collegare un altro ambiente Common Data Service da un'app Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Scollegare e collegare un altro ambiente Dataverse da un'app Finance and Operations
 
-**Ruolo richiesto per scollegare l'ambiente:** amministratore di sistema per l'app Finance and Operations o Common Data Service.
+**Ruolo richiesto per scollegare l'ambiente:** amministratore di sistema per l'app Finance and Operations o Dataverse.
 
 1. Accedere all'app Finance and Operations.
 2. Andare a **Aree di lavoro \>Gestione dei dati** e selezionare il riquadro **Doppia scrittura**.
@@ -113,9 +115,9 @@ Ora è possibile collegare un nuovo ambiente.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Impossibile visualizzare il modulo delle informazioni sulla riga ordine cliente 
 
-Quando si crea un ordine cliente in Dynamics 365 Sales, se si fa clic su **+ Aggiungi prodotti** si potrebbe essere reindirizzati al modulo della riga ordine cliente di Dynamics 365 Project Operations. Da quel modulo non è possibile visualizzare il modulo **Informazioni** della riga ordine cliente. L'opzione **Informazioni** non appare nel menu a discesa sotto **Nuova riga ordine**. Ciò accade perché Project Operations è stato installato nell'ambiente.
+Quando si crea un ordine cliente in Dynamics 365 Sales, se si fa clic su **+ Aggiungi prodotti** si potrebbe essere reindirizzati al Dynamics 365 Project Operations modulo della riga ordine. Da quel modulo non è possibile visualizzare il modulo **Informazioni** della riga ordine cliente. L'opzione **Informazioni** non appare nel menu a discesa sotto **Nuova riga ordine**. Ciò accade perché Project Operations è stato installato nell'ambiente.
 
-Per riattivare l'opzione del modulo **Informazioni** , attenersi alla seguente procedura:
+Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente procedura:
 1. Passare all'entità **Riga ordine**.
 2. Trovare il modulo **Informazioni** sotto il nodo dei moduli. 
 3. Selezionare il modulo **Informazioni** e fare clic su **Abilita ruoli di sicurezza**. 

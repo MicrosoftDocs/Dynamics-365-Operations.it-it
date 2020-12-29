@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002545"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686247"
 ---
 # <a name="view-and-design-financial-reports"></a>Visualizzare e progettare report finanziari
 
@@ -164,7 +163,7 @@ Per questo esercizio verrà modificato un report predefinito esistente. Si aggiu
 14. Chiudere **Conto patrimoniale e conto economico consolidati affiancati**.
 15. Chiudere **Progettazione report**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Esercizio 5: creare un report di reparto affiancato
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Esercizio 5: creare un report di reparto affiancato
 In questo esercizio verrà creato un nuovo report. Il report del conto economico di reparto affiancato. Verrà utilizzata una definizione di riga esistente, ma verrà creata una nuova definizione di report e una nuova definizione di colonna che utilizza i filtri di dimensione. Cominceremo dall'elenco Report finanziari.
 
 1. Passare a **Report finanziari** in Richieste di informazioni e report nella contabilità generale.
@@ -195,6 +194,6 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 ## <a name="additional-resources"></a>Risorse aggiuntive
 [Creazione di report finanziari](../../../finance/general-ledger/financial-reporting-getting-started.md)
 
-[Visualizzare i report finanziari](../../../finance/general-ledger/view-financial-reports.md)
+[Visualizza report finanziari](../../../finance/general-ledger/view-financial-reports.md)
 
-[Blog sui report finanziari di Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 365 Finance Blog](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

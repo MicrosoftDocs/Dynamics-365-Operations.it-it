@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811603"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695039"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guide attività nuove o aggiornate (novembre 2016)
 
@@ -30,7 +29,7 @@ ms.locfileid: "2811603"
 
 In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (novembre 2016 – tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
 
-La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per Microsoft Dynamics 365 for Operations, la piattaforma Microsoft Dynamics 365 for Operations versione 3, la piattaforma Microsoft Dynamics AX versione 2, l'aggiornamento di maggio 2016 di Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Home page Novità o modifiche in Finance and Operations](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Guida](help-overview.md).
+La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene le guide attività da utilizzare per ottenere assistenza per Microsoft Dynamics 365 for Operations, la piattaforma Microsoft Dynamics 365 for Operations versione 3, la piattaforma Microsoft Dynamics AX versione 2, l'aggiornamento di maggio 2016 di Dynamics AX e la versione di febbraio 2016 di Microsoft Dynamics AX. Per ulteriori informazioni su queste versioni, vedere [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md). Le versioni localizzate delle guide attività sono disponibili in questa libreria. Per ulteriori informazioni su come connettere il sistema di Guida a una libreria di guide attività, vedere [Guida](help-overview.md).
 
 > [!NOTE]
 > Un asterisco (\*) accanto al titolo di una riga Modellatore di processi aziendali (BPM) indica che la guida attività per il processo aziendale è stata creata per l'aggiornamento di Dynamics 365 for Operations di novembre 2016 e non è supportata nelle versioni precedenti di Microsoft Dynamics AX.

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181843"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688319"
 ---
 # <a name="generate-financial-reports"></a>Genera report finanziari
 
@@ -98,7 +97,7 @@ Per eliminare una programmazione report, è necessario essere il proprietario de
 
 Se non si immettono le credenziali necessarie per tutte le società incluse nei report, si riceve un messaggio di questo tipo quando si salva la programmazione report: "È necessario immettere le credenziali per le società che sono contenute nella programmazione report. Fare clic sul pulsante Autorizzazioni per immettere le credenziali".
 
-Un utente esegue ad esempio l'accesso alla società A con il proprio account di accesso e la propria password. Crea una programmazione per un report che utilizza una definizione di albero gerarchico per raccogliere i dati da più società. Quando salva la pianificazione di report, all'utente viene richiesto di immettere le credenziali per le altre società specificate nella definizione di albero gerarchico. Quando le credenziali scadono, i report interessati nella programmazione report non vengono generati fino all'aggiornamento delle credenziali. Verrà visualizzato un messaggio nella coda di report per indicare che le autorizzazioni devono essere aggiornate. La programmazione report ha esito negativo se uno dei seguenti scenari si verifica (perché richiedono le credenziali):
+Un utente esegue ad esempio l'accesso alla società A con un account di accesso e una password. L'utente crea una programmazione per un report che utilizza una definizione di albero gerarchico per raccogliere i dati da più società. Quando salva la pianificazione di report, all'utente viene richiesto di immettere le credenziali per le altre società specificate nella definizione di albero gerarchico. Quando le credenziali scadono, i report interessati nella programmazione report non vengono generati fino all'aggiornamento delle credenziali. Verrà visualizzato un messaggio nella coda di report per indicare che le autorizzazioni devono essere aggiornate. La programmazione report ha esito negativo se uno dei seguenti scenari si verifica (perché richiedono le credenziali):
 
 - Una società è stata aggiunta a un albero gerarchico per un singolo report.
 - Un report in un gruppo di report è stato modificato.

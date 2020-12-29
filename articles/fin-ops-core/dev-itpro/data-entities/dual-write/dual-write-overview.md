@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 961e6a167d4fe48c96bffcff1e54acde0ad5d805
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997426"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685615"
 ---
 # <a name="dual-write-overview"></a>Panoramica della doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997426"
 
 La doppia scrittura è un'infrastruttura predefinita che fornisce interazione quasi in tempo reale tra le app Customer Engagement e le app Finance and Operations. Quando i dati su clienti, prodotti, persone e operazioni scorrono oltre i confini delle applicazioni, tutti i reparti di un'organizzazione sono potenziati.
 
-La doppia scrittura fornisce un'integrazione bidirezionale strettamente connessa tra le app Finance and Operations e Common Data Service. Qualsiasi modifica dei dati nelle app Finance and Operations causa scritture in Common Data Service e qualsiasi modifica dei dati in in Common Data Service causa scritture nelle app Finance and Operations. Questo flusso di dati automatizzato offre un'esperienza utente integrata tra le app.
+La doppia scrittura fornisce un'integrazione bidirezionale strettamente connessa tra le app Finance and Operations e Dataverse. Qualsiasi modifica dei dati nelle app Finance and Operations causa scritture in Dataverse e qualsiasi modifica dei dati in in Dataverse causa scritture nelle app Finance and Operations. Questo flusso di dati automatizzato offre un'esperienza utente integrata tra le app.
 
 ![Rapporto dei dati tra le app](media/dual-write-overview.jpg)
 
@@ -52,7 +54,7 @@ L'infrastruttura a doppia scrittura è estensibile e affidabile e include le seg
 + Possibilità di configurare allarmi e soglie personalizzate e di iscriversi alle notifiche
 + Interfaccia utente intuitiva per filtraggio e trasformazioni
 + Capacità di impostare e visualizzare le dipendenze e le relazioni tra entità
-+ Estensibilità per entità e mappe standard e personalizzate
++ Estensibilità per tabelle e mappe standard e personalizzate
 + Gestione affidabile del ciclo di vita delle applicazioni
 + Esperienza di installazione predefinita per i nuovi clienti
 
@@ -85,23 +87,23 @@ La doppia scrittura crea una mappatura tra i concetti nelle app Finance and Oper
 La doppia scrittura fornisce l'integrazione dei dati tra le applicazioni Microsoft Dynamics 365. Questa solido framework collega gli ambienti e consente a diverse applicazioni aziendali di lavorare insieme. Ecco i motivi principali per cui usare la doppia scrittura:
 
 + La doppia scrittura fornisce un'integrazione strettamente collegata, quasi in tempo reale e bidirezionale tra le app Finance and Operations e le app basate su modello in Dynamics 365. Questa integrazione rende Microsoft Dynamics 365 il punto principale per tutte le soluzioni aziendali. I clienti che usano Dynamics 365 Finance e Dynamics 365 Supply Chain Management, ma che utilizzano soluzioni non Microsoft per la gestione delle relazioni con i clienti (CRM), si stanno muovendo verso Dynamics 365 per il supporto della doppia scrittura.
-+ I dati provenienti da clienti, prodotti, operazioni, progetti e Internet of Things (IoT) passano automaticamente a Common Data Service attraverso la doppia scrittura. Questa connessione è utile per le aziende interessate alle espansioni Power Platform.
++ I dati provenienti da clienti, prodotti, operazioni, progetti e Internet of Things (IoT) passano automaticamente a Dataverse attraverso la doppia scrittura. Questa connessione è utile per le aziende interessate alle espansioni Power Platform.
 + L'infrastruttura a doppia scrittura segue il principio senza codice/poco codice. È necessario un minimo sforzo di progettazione per estendere le mappe da tabella a tabella standard e per includere mappe personalizzate.
 + La doppia scrittura supporta sia la modalità online che la modalità offline. Microsoft è l'unica azienda che offre supporto per le modalità online e offline.
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Cosa significa la doppia scrittura per sviluppatori e architetti di app Customer Engagement?
 
-La doppia scrittura automatizza il flusso di dati tra le app Finance and Operations e Customer Engagement. La doppia scrittura è composta da due soluzioni AppSource installate su Common Data Service. Le soluzioni espandono lo schema delle entità, i plug-in e i flussi di lavoro in Common Data Service in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app Customer Engagement devono comprendere questi cambiamenti e collaborare con le loro controparti delle app Finance and Operations.
+La doppia scrittura automatizza il flusso di dati tra le app Finance and Operations e Customer Engagement. La doppia scrittura è composta da due soluzioni AppSource installate su Dataverse. Le soluzioni espandono lo schema delle entità, i plug-in e i flussi di lavoro in Dataverse in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app Customer Engagement devono comprendere questi cambiamenti e collaborare con le loro controparti delle app Finance and Operations.
 
-Per creare parità con le applicazioni Finance and Operations, la doppia scrittura apporta alcune modifiche cruciali nello schema Common Data Service. Se si comprende il piano, è possibile evitare alcune modifiche di progettazione e sviluppo in futuro.
+Per creare parità con le applicazioni Finance and Operations, la doppia scrittura apporta alcune modifiche cruciali nello schema Dataverse. Se si comprende il piano, è possibile evitare alcune modifiche di progettazione e sviluppo in futuro.
 
-+ Quando il il pacchetto AppSource di doppia scrittura è installato, Common Data Service avrà nuovi concetti come società e parte. Questi concetti aiutano le applicazioni basate su Common Data Service, inclusi Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagire perfettamente con le app Finance and Operations.
++ Quando il il pacchetto AppSource di doppia scrittura è installato, Dataverse avrà nuovi concetti come società e parte. Questi concetti aiutano le applicazioni basate su Dataverse, inclusi Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagire perfettamente con le app Finance and Operations.
 
 + Le attività e le note sono unificate e ampliate per supportare sia i C1 (utenti del sistema) che i C2 (clienti del sistema).
 
-+ Per evitare la perdita di dati durante la trasmissione di valuta tra le app Finance and Operations e Common Data Service, è possibile estendere il numero di cifre decimali nel tipo di dati di valuta delle app Customer Engagement. La funzione converte automaticamente i record esistenti nel nuovo stato esteso a livello dei metadati. Durante questo processo, il valore della valuta viene convertito in dati decimali anziché in dati monetari e il valore della valuta supporta 10 cifre decimali. Questa funzione richiede il consenso esplicito e le organizzazioni che non richiedono più di 4 cifre decimali di precisione non hanno bisogno di aderire. Per ulteriori informazioni, vedere [Migrazione del tipo di dati valuta per la doppia scrittura](currrency-decimal-places.md).
++ Per evitare la perdita di dati durante la trasmissione di valuta tra le app Finance and Operations e Dataverse, è possibile estendere il numero di cifre decimali nel tipo di dati di valuta delle app Customer Engagement. La funzione converte automaticamente le righe esistenti nel nuovo stato esteso a livello dei metadati. Durante questo processo, il valore della valuta viene convertito in dati decimali anziché in dati monetari e il valore della valuta supporta 10 cifre decimali. Questa funzione richiede il consenso esplicito e le organizzazioni che non richiedono più di 4 cifre decimali di precisione non hanno bisogno di aderire. Per ulteriori informazioni, vedere [Migrazione del tipo di dati valuta per la doppia scrittura](currrency-decimal-places.md).
 
-+ [Validità della data](../../dev-tools/date-effectivity.md) sarà aggiunta a Common Data Service. Supporterà i dati passati, presenti e futuri nella stessa entità.
++ [Validità della data](../../dev-tools/date-effectivity.md) sarà aggiunta a Dataverse. Supporterà i dati passati, presenti e futuri nella stessa entità.
 
 + Le [conversioni di unità](../../../../supply-chain/pim/tasks/manage-unit-measure.md) del prodotto sono supportate per prodotti, offerte, ordini e fatture.
 

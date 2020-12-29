@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257063"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685385"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor di formule avanzato per report elettronici
 
@@ -44,9 +43,9 @@ Oltre all'[editor di formule](general-electronic-reporting-formula-designer.md) 
 
 Completare i seguenti passaggi per iniziare a utilizzare l'editor di formule avanzato nell'istanza di Microsoft Dynamics 365 Finance.
 
-1.  Selezionare  **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
-2.  Nella pagina  **Configurazioni** , nel Riquadro azioni, nella scheda **Configurazioni** , nel gruppo **Impostazioni avanzate** , selezionare **Parametri utente**.
-3.  Nella finestra di dialogo **Parametri utente** , nella sezione **Traccia esecuzione** , impostare il parametro **Abilita editor di formule avanzato** su **Sì**.
+1.  Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
+2.  Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
+3.  Nella finestra di dialogo **Parametri utente**, nella sezione **Traccia esecuzione**, impostare il parametro **Abilita editor di formule avanzato** su **Sì**.
 
 [![Pagina delle configurazioni ER](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
@@ -163,7 +162,7 @@ L'editor è attualmente supportato nei seguenti browser Web:
 
 - Chrome
 - Bordo
-- FireFox 2.0
+- Firefox
 - Opera
 - Safari
 

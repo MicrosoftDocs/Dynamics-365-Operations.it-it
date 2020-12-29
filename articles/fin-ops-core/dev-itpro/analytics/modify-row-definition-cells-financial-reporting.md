@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182993"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685861"
 ---
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
 
@@ -107,7 +106,7 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
     |-------------------------------|-----------------------------------|--------|
     | (Nessuno)                        |                                   | Cancella il contenuto della cella **Codice formato**. |
     | TOT                           | Totale                             | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I totali contengono gli operatori semplici, ad esempio **+** o **-**. |
-    | CAL                           | Calcolo                       | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I calcoli contengono gli operatori complessi, ad esempio **+**, **-**, **\***, **/** e **IF/THEN/ELSE**. |
+    | CAL                           | Calcolo                       | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I calcoli contengono gli operatori complessi, ad esempio **+**, **-**, **\**_, _*/** e **IF/THEN/ELSE**. |
     | DES                           | descrizione                       | Identifica una riga di intestazione o una riga vuota in un report. |
     | LFT RGT CEN                   | Centro da sinistra a destra                 | Allinea il testo di descrizione della riga nella pagina del report, indipendentemente dalla posizione del testo nella definizione di colonna. |
     | CBR                           | Riga di base di modifica                   | Identifica una riga che imposta la riga di base per i calcoli della colonna. |
@@ -158,7 +157,7 @@ Quando si crea una formula di totale di riga, è necessario utilizzare codici di
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Collegare una riga di formato a una riga di importo
 
-Nella colonna **Codice formato** in una definizione di riga, i codici di formato **DES**, **LFT**, **RGT**, **CEN**, **---** e **===** applicano la formattazione alle righe non di importo. Per impedire la stampa di questa formattazione quando le righe di importo correlate vengono eliminate, ad esempio perché le righe di importo contengono valori zero o nessuna attività del periodo), è necessario correlare le righe di formato alle corrispondenti righe di importo. Questa funzionalità è utile se si desidera impedire la stampa delle intestazioni o della formattazione correlate ai subtotali quando non vi sono dettagli da stampare per il periodo.
+Nella colonna **Codice formato** in una definizione di riga, i codici di formato **DES**, **LFT**, **RGT**, **CEN**, **---** e **===** applicano la formattazione alle righe non di importo. Per impedire la stampa di questa formattazione quando le righe di importo correlate vengono eliminate, (ad esempio perché le righe di importo contengono valori zero o nessuna attività del periodo), è necessario correlare le righe di formato alle corrispondenti righe di importo. Questa funzionalità è utile se si desidera impedire la stampa delle intestazioni o della formattazione correlate ai subtotali quando non vi sono dettagli da stampare per il periodo.
 
 > [!NOTE]
 > È inoltre possibile impedire la stampa delle righe di importo dettagliato deselezionando l'opzione per visualizzare le righe senza importo. Questa opzione si trova nella scheda **Impostazioni** della definizione di report. Per impostazione predefinita, i conti dettagli sulle transazioni che hanno un saldo a zero o nessuna attività del periodo vengono eliminati nei report. Per visualizzare i conti dettagli sulle transazioni, selezionare la casella di controllo **Visualizza righe senza importo** nella scheda **Impostazioni** della definizione di report.
@@ -175,7 +174,7 @@ Nella colonna **Codice formato** in una definizione di riga, i codici di formato
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Esempio per impedire la stampa delle righe
 
-Nel seguente esempio, Phyllis desidera impedire la stampa dell'intestazione e dei caratteri di sottolineatura nella riga **Cassa totale** del report perché non c'è stata attività in nessun conto di cassa. Di conseguenza, nella riga 220 (che, come indicato dal codice formato **---**, è una riga di formattazione), nella cella **Unità/Righe/Formule correlate**, immette **250**, ovvero il codice della riga di importo riga che desidera eliminare.
+Nel seguente esempio, un utente desidera impedire la stampa dell'intestazione e dei caratteri di sottolineatura nella riga **Cassa totale** del report perché non c'è stata attività in nessun conto di cassa. Di conseguenza, nella riga 220 (che, come indicato dal codice formato **---**, è una riga di formattazione), nella cella **Unità/Righe/Formule correlate**, l'utente immette **250**, ovvero il codice della riga di importo riga che l'utente desidera eliminare.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -416,7 +415,7 @@ Per impostazione predefinita, Progettazione report non stampa una riga se non ha
 3. Scegliere **Salva** dal menu **File** per salvare le modifiche.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Utilizzare i caratteri jolly e gli intervalli in una definizione di riga
-Quando si immette un valore di segmento naturale nella finestra di dialogo **Dimensioni**, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Progettazione report estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette **6???** in una riga, Progettazione report include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette **6\***, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio **60** e **600000**. Progettazione report sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra **12?0** e **12?4**, il carattere jolly in **12?0** viene sostituito con il valore minimo del set di caratteri e il carattere jolly in **12?4** viene sostituito con il valore massimo del set di caratteri.
+Quando si immette un valore di segmento naturale nella finestra di dialogo **Dimensioni**, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Progettazione report estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette **6???** in una riga, Progettazione report include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette **6\**_, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio _* 60** e **600000**. Progettazione report sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra **12?0** e **12?4**, il carattere jolly in **12?0** viene sostituito con il valore minimo del set di caratteri e il carattere jolly in **12?4** viene sostituito con il valore massimo del set di caratteri.
 
 > [!NOTE]
 > È consigliabile evitare di utilizzare i caratteri jolly per i conti iniziali e finali negli intervalli. Se si utilizzano i caratteri jolly nel conto iniziale o finale, è possibile che i risultati siano imprevisti.

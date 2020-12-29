@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8f97d4f59765840e215710e666079df3d4ecb878
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005781"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685251"
 ---
 # <a name="learning-power-bi-content"></a>Contenuto Learning di Power BI
 
@@ -35,7 +34,7 @@ I report inclusi nel contenuto **Learning** di Power BI dispongono di grafici e 
 | Report                | Contenuto |
 |-----------------------|----------|
 | Panoramica di Learning     | Riepilogo di altri report |
-| Analisi del corso       | Registrazione per località, partecipante per stato, corsi per tipo società e partecipazione al corso per processo |
+| Analisi del corso       | Registrazione per località, partecipante per stato, corsi per tipo società e partecipazione al corso per processo |
 | Analisi della registrazione | Elenco registrazione |
 | Tipi di corso          | Tipi di corsi in base alla competenza |
 | Analisi istruttore   | Indice dei corsi per istruttori, numero di istruttori, corsi per istruttore, corsi per istruttore e agenda del corso per istruttore |

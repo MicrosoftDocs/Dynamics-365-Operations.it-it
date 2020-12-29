@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178559"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694691"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
@@ -174,7 +173,7 @@ Per i paesi che sono supportati, è possibile creare la maggior parte delle dich
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Se l'organizzazione è modellata come unità operativa
 
-Le dichiarazioni statutarie devono essere create utilizzando un'altra applicazione. È necessario assicurarsi che i dati vengano acquisiti nelle app Finance and Operations per supportare i requisiti di ciascuna unità operativa, laddove differiscono dai requisiti della sede centrale.
+Le dichiarazioni statutarie devono essere create utilizzando un'altra applicazione. È necessario assicurarsi che i dati vengano acquisiti in Finance and Operations per supportare i requisiti di ciascuna unità operativa, laddove differiscono dai requisiti della sede centrale.
 
 ### <a name="currency"></a>Valuta
 

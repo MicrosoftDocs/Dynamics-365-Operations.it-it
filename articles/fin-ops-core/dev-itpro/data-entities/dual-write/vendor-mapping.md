@@ -1,6 +1,6 @@
 ---
 title: Dati master fornitori integrati
-description: In questo argomento viene descritta l'integrazione dei dati dei fornitori tra le app Finance and Operations e Common Data Service.
+description: In questo argomento viene descritta l'integrazione dei dati dei fornitori tra le app Finance and Operations e Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997650"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685487"
 ---
 # <a name="integrated-vendor-master"></a>Dati master fornitori integrati
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Su
 
 ## <a name="vendor-data-flow"></a>Flusso di dati fornitore
 
-È possibile utilizzare il nuovo progetto del fornitore se non si desidera archiviare i dati del fornitore nell'entità **Account/Contatto** in Common Data Service.
+È possibile utilizzare il nuovo progetto del fornitore se non si desidera archiviare i dati del fornitore nell'entità **Account/Contatto** in Dataverse.
 
 ![Flusso di dati fornitore](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Su
 
 ## <a name="templates"></a>Modelli
 
-I dati dei fornitori includono tutte le informazioni sul fornitore, ad esempio il gruppo di fornitori, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura. Una raccolta di mappe di entità funziona in combinazione durante l'interazione con i dati dei fornitori, come illustrato nella seguente tabella.
+I dati dei fornitori includono tutte le informazioni sul fornitore, ad esempio il gruppo di fornitori, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura. Una raccolta di mappe della tabella funziona in combinazione durante l'interazione con i dati dei fornitori, come illustrato nella seguente tabella.
 
 App di Finance and Operations | Altre app Dynamics 365     | Descrizione
 ----------------------------|-----------------------------|------------
 Fornitore V2                   | Account                     | Le società che utilizzano l'entità Conto per archiviare le informazioni sui fornitori possono continuare a usarlo nello stesso modo. Possono inoltre sfruttare la funzionalità fornitore esplicita imminente con l'integrazione delle app Finance and Operations.
-Fornitore V2                   | Msdyn\_vendors              | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Common Data Service a causa dell'integrazione con le app Finance and Operations. 
+Fornitore V2                   | Msdyn\_vendors              | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Dataverse a causa dell'integrazione con le app Finance and Operations. 
 Gruppi di fornitori               | msdyn\_vendorgroups         | Questo modello sincronizza le informazioni del gruppo di fornitori.
 Metodo di pagamento fornitore       | msdyn\_vendorpaymentmethods | Questo modello sincronizza le informazioni del metodo di pagamento dei fornitori.
 Contatti CDS V2             | contatti                    | Il modello [contatti](customer-mapping.md#cds-contacts-v2-to-contacts) sincronizza tutte le informazioni di contatto primarie, secondarie e terziarie, sia per i clienti che per i fornitori.

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013182"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693727"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -33,7 +32,7 @@ I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'imm
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
 
-Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave* , nel senso che richiedono due set consecutivi di combinazioni di tasti (separati da una virgola) che devono essere premuti indipendentemente per attivare l'azione richiesta. Ad esempio, il tasto di scelta rapida "ALT+M,A" richiede all'utente di premere prima "ALT+M", rilasciare i tasti e quindi premere "A". 
+Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave*, nel senso che richiedono due set consecutivi di combinazioni di tasti (separati da una virgola) che devono essere premuti indipendentemente per attivare l'azione richiesta. Ad esempio, il tasto di scelta rapida "ALT+M,A" richiede all'utente di premere prima "ALT+M", rilasciare i tasti e quindi premere "A". 
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 

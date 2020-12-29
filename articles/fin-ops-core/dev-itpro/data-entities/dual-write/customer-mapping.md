@@ -1,6 +1,6 @@
 ---
 title: Gestione integrata dei dati dei clienti
-description: In questo argomento viene descritta l'integrazione dei dati dei clienti tra Finance and Operations e Common Data Service.
+description: In questo argomento viene descritta l'integrazione dei dati dei clienti tra Finance and Operations e Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,19 +18,21 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 36716c302d86bc5715798bf4cf4899f666d0872c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 801538e320ca78b0cc55bb4e4b8a80d38b9b48d6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997456"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685641"
 ---
 # <a name="integrated-customer-master"></a>Dati master clienti integrati
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-I dati dei clienti possono essere masterizzati in più di un'applicazione Dynamics 365. Ad esempio, un record del cliente può avere origine dall'attività di vendita in Dynamics 365 Sales (un'app basata su modello in Dynamics 365) o un record può avere origine dall'attività di vendita al dettaglio in Dynamics 365 Commerce (un'app Finance and Operations). Indipendentemente da dove provengano i dati dei clienti, questi vengono integrati in background. Dati master clienti integrati ti offre la flessibilità di gestire i dati dei clienti in qualsiasi applicazione Dynamics 365 e offre una visione completa del cliente con la suite di applicazioni Dynamics 365.
+
+I dati dei clienti possono essere masterizzati in più di un'applicazione Dynamics 365. Ad esempio, una riga del cliente può avere origine dall'attività di vendita in Dynamics 365 Sales (un'app basata su modello in Dynamics 365) o una riga può avere origine dall'attività di vendita al dettaglio in Dynamics 365 Commerce (un'app Finance and Operations). Indipendentemente da dove provengano i dati dei clienti, questi vengono integrati in background. Dati master clienti integrati ti offre la flessibilità di gestire i dati dei clienti in qualsiasi applicazione Dynamics 365 e offre una visione completa del cliente con la suite di applicazioni Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flusso dei dati dei clienti
 
@@ -38,17 +40,17 @@ I dati dei clienti possono essere masterizzati in più di un'applicazione Dynami
 
 ![Flusso dei dati dei clienti](media/dual-write-customer-data-flow.png)
 
-I clienti possono essere classificati largamente in due tipi: clienti commerciali/aziendali e consumatori/utenti finali. Questi due tipi di clienti vengono archiviati e gestiti in modo diverso in Finance and Operations e Common Data Service.
+I clienti possono essere classificati largamente in due tipi: clienti commerciali/aziendali e consumatori/utenti finali. Questi due tipi di clienti vengono archiviati e gestiti in modo diverso in Finance and Operations e Dataverse.
 
-In Finance and Operations, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione** , il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona** , il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite l'entità SMMContactPersonEntity.
+In Finance and Operations, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione**, il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona**, il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite l'entità SMMContactPersonEntity.
 
-In Common Data Service, i clienti commerciali/aziendali sono gestiti nell'entità Conto e vengono identificati come clienti quando l'attributo **RelationshipType** è impostato su **Cliente**. Sia i consumatori/utenti finali che il contatto sono rappresentati dall'entità Contatto. Per fornire una netta separazione tra un consumatore/utente finale e un contatto, l'entità **Contatto** include un flag booleano **Di vendita**. Se **Di vendita** è **True** , il contatto è un consumatore/utente finale e offerte e gli ordini possono essere creati per quel contatto. Se **Di vendita** è **False** , il contatto è solo un contatto principale di un cliente.
+In Dataverse, i clienti commerciali/aziendali sono gestiti nell'entità Conto e vengono identificati come clienti quando l'attributo **RelationshipType** è impostato su **Cliente**. Sia i consumatori/utenti finali che il contatto sono rappresentati dall'entità Contatto. Per fornire una netta separazione tra un consumatore/utente finale e un contatto, l'entità **Contatto** include un flag booleano **Di vendita**. Se **Di vendita** è **True**, il contatto è un consumatore/utente finale e offerte e gli ordini possono essere creati per quel contatto. Se **Di vendita** è **False**, il contatto è solo un contatto principale di un cliente.
 
 Quando un contatto non di vendita partecipa a un processo di ordine o offerta, **Di vendita** è impostato su **True** per contrassegnare il contatto come contatto di vendita. Un contatto che è diventato un contatto di vendita rimane tale.
 
 ## <a name="templates"></a>Modelli
 
-I dati dei clienti includono tutte le informazioni sul cliente, ad esempio il gruppo di clienti, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura e lo stato del programma fedeltà. Una raccolta di mappe di entità funziona in combinazione durante l'interazione con i dati dei clienti, come illustrato nella seguente tabella.
+I dati dei clienti includono tutte le informazioni sul cliente, ad esempio il gruppo di clienti, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura e lo stato del programma fedeltà. Una raccolta di mappe della tabella funziona in combinazione durante l'interazione con i dati dei clienti, come illustrato nella seguente tabella.
 
 App di Finance and Operations | Altre app Dynamics 365         | Descrizione
 ----------------------------|---------------------------------|------------

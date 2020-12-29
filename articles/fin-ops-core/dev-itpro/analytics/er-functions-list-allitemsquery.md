@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37546fccf804a4522638147d39206997e8c0c24c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: ed21252fbbe3d4adad106625062e10e3de712bb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745371"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687746"
 ---
 # <a name="allitemsquery-er-function"></a>Funzione ER ALLITEMSQUERY
 
@@ -53,7 +52,7 @@ L'elenco risultante di record.
 
 Il percorso specificato deve essere definito come percorso di un'origine dati valido in un elemento di origine dati del tipo di dati *Elenco di record*. Deve anche contenere almeno una relazione. Gli elementi di dati come *Stringa* e *Data* del percorso devono generare un errore in fase di progettazione nel generatore di espressioni ER.
 
-Quando questa funzione viene applicata alle origini dati del tipo di dati *Elenco di record*che fa riferimento a un oggetto applicazione che può essere richiamato direttamente utilizzando SQL (ad esempio una tabella, un'entità o una query), viene eseguito come query SQL con join. Altrimenti, viene eseguita in memoria come funzione [ALLITEMS](er-functions-list-allitems.md).
+Quando questa funzione viene applicata alle origini dati del tipo di dati *Elenco di record* che fa riferimento a un oggetto applicazione che può essere richiamato direttamente utilizzando SQL (ad esempio una tabella, un'entità o una query), viene eseguito come query SQL con join. Altrimenti, viene eseguita in memoria come funzione [ALLITEMS](er-functions-list-allitems.md).
 
 ## <a name="example"></a>Esempio
 

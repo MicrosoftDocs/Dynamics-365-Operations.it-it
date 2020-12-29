@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 090badd48785dfacf5942426d0fe53629f3c0cda
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321804"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686370"
 ---
 # <a name="er-migration-cleanup"></a>Pulizia della migrazione ER 
 
@@ -49,7 +48,7 @@ Completare i seguenti passaggi per risolvere i problemi con i modelli ER a cui n
 
 ## <a name="applicability"></a>Applicabilità
 
-> [Importante] L'opzione di **pulizia della migrazione** è destinata solo alle configurazioni di formato ER che contengono modelli ER non accessibili. Quando si elimina una configurazione di formato ER utilizzando l'opzione di **pulizia della migrazione**, ER elimina i modelli correlati agli elementi di configurazione nell'unico database dell'applicazione. L'esistenza dei file fisici appropriati nell'archiviazione BLOB non viene convalidata. Si presuppone invece che non siano presenti tali file. Non utilizzare pertanto l'opzione di **pulizia della migrazione** in alternativa all'opzione di eliminazione della configurazione ER nella pagina **Configurazioni**. Utilizzare l'opzione di **pulizia della migrazione** solo se l'uso dell'opzione di eliminazione della configurazione ER nella pagina **Configurazioni** ha esito negativo.
+> [Importante] L'opzione **Pulizia migrazione** è destinata solo alle configurazioni di formato ER che contengono modelli ER non accessibili. Quando si elimina una configurazione di formato ER utilizzando l'opzione di **pulizia della migrazione**, ER elimina i modelli correlati agli elementi di configurazione nell'unico database dell'applicazione. L'esistenza dei file fisici appropriati nell'archiviazione BLOB non viene convalidata. Si presuppone invece che non siano presenti tali file. Non utilizzare pertanto l'opzione di **pulizia della migrazione** in alternativa all'opzione di eliminazione della configurazione ER nella pagina **Configurazioni**. Utilizzare l'opzione di **pulizia della migrazione** solo se l'uso dell'opzione di eliminazione della configurazione ER nella pagina **Configurazioni** ha esito negativo.
 >
 > Se si utilizza l'opzione di **pulizia della migrazione** per eliminare una configurazione di formato ER quando il modello a cui viene fatto riferimento è disponibile nell'archiviazione BLOB, vengono eliminati solo gli elementi di configurazione correlati nel database dell'applicazione. Il file fisico del modello nell'archivio BLOB viene mantenuto. La sovrascrittura dei file nell'archiviazione BLOB non è più consentita. Per ulteriori informazioni, vedere [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Non sarà inoltre più possibile reimportare le configurazioni eliminate utilizzando la pulizia della migrazione in questo ambiente. Per risolvere questo problema, è necessario trovare il file corrispondente nell'archiviazione BLOB ed eliminarlo manualmente.
 

@@ -3,26 +3,25 @@ title: Video
 description: In questa pagina sono elencati i video illustrativi di Microsoft e quelli tecnologici relativi alle app Finance and Operations disponibili su YouTube e altri siti.
 author: sericks007
 manager: AnnBe
-ms.date: 10/12/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
-ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
+ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3991454"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693571"
 ---
 # <a name="videos"></a>Video 
 
@@ -148,9 +147,12 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 - [Approvare gli ordini fornitore su un dispositivo mobile](https://youtu.be/gZ-gOlJe7H8)
 - [Integrare un nuovo fornitore](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
 
+### <a name="product-information-management"></a>Gestione informazioni sul prodotto
+- [Cambia capacità di gestione](https://youtu.be/N313FqvRuBc)
+
 ### <a name="production-control"></a>Controllo produzione
 
-- [Bilanciamento dei batch](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+- [Bilanciamento del batch](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Miglioramenti al processo di rilascio di ordini di produzione](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione](https://youtu.be/BtbuShkGj4I)
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811484"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693260"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
@@ -470,7 +469,7 @@ Non sono state aggiunte nuove funzionalità.
 <tr>
 <td>(JPN) Generare un report IVA sui consumi in Giappone che include le aliquote IVA rivedute.</td>
 <td>Il report IVA sui consumi è disponibile per un'aliquota d'imposta del 5%.</td>
-<td>Il report IVA sui consumi contiene una sezione dell'aliquota d'imposta riveduta ad esempio l'8%).</td>
+<td>Il report IVA sui consumi contiene una sezione dell'aliquota d'imposta riveduta ad (esempio l'8%).</td>
 <td>Il layout è stato da poco annunciato dal governo.</td>
 </tr>
 <tr>
@@ -1031,6 +1030,6 @@ Non sono state aggiunte nuove funzionalità.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
+[Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
 
 [Nuove guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)

@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 715e0f8d08c6abbde35eb917cddc4ecf4b7b67ed
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1dd76150dd1519adf2c453db8e874d6db32b5906
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811458"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693144"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)
 
@@ -104,6 +103,6 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
+[Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)

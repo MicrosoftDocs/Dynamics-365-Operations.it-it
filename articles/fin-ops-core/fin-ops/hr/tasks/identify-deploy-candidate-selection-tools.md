@@ -3,7 +3,7 @@ title: Identificare e distribuire strumenti per la selezione dei candidati
 description: Individuare un pool qualificato di candidati per coprire le posizioni aperte può essere difficile, in particolare quando una posizione richiede un set univoco di competenze.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143951"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693066"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificare e distribuire strumenti per la selezione dei candidati
 
@@ -49,7 +48,7 @@ Individuare un pool qualificato di candidati per coprire le posizioni aperte pu�
 17. Fare clic su Risultato.
 18. Fare clic su Riprendi.
 19. Fare clic su Certificati.
-    * È possibile esaminare più nel dettaglio ogni persona elencata e visualizzare i dettagli relativi all'istruzione, alle competenze, all'esperienza professionale e così via.  
+    * È possibile esaminare più nel dettaglio ogni persona elencata e visualizzare i dettagli relativi all'istruzione, alle competenze e all'esperienza professionale.  
 20. Chiudere la pagina.
 21. Chiudere la pagina.
 22. Selezionare di nuovo il risultato.
