@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444724"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi
 
@@ -55,7 +55,7 @@ Effettuare le seguenti operazioni per aggiungere l'entità importazione rendicon
             3.  Caricare il file di dati = nuova versione SampleBankCompositeEntity.xml.
             4.  Fare clic su **Sì** per sovrascrivere il file esistente.
             5.  Fare clic su **Sì** per generare un nuovo mapping.
-            6.  Verificare che S**equenceNumber** sia stato mappato.
+            6.  Verificare che S **equenceNumber** sia stato mappato.
                 -   Fare clic su **Visualizza mapping** sull'entità rendiconto.
                 -   Verificare che **SequenceNumber** sia mappato da Origine a Gestione temporanea.
 

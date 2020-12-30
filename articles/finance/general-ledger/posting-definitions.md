@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770599"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444807"
 ---
 # <a name="posting-definitions"></a>Definizioni di registrazione
 
@@ -32,12 +32,12 @@ ms.locfileid: "2770599"
 Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle.
 Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili. È possibile visualizzare i documenti e i tipi di registrazione supportati nella pagina **Definizioni di registrazione transazioni**. 
 
-Per iniziare a utilizzare le definizioni di registrazione, selezionare l'opzione**Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**. Anche quando si utilizzano le definizioni di registrazione, è ancora necessario definire i profili di registrazione per le voci di origine e i documenti e i tipi di registrazione non supportati. 
+Per iniziare a utilizzare le definizioni di registrazione, selezionare l'opzione **Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**. Anche quando si utilizzano le definizioni di registrazione, è ancora necessario definire i profili di registrazione per le voci di origine e i documenti e i tipi di registrazione non supportati. 
 
 Le definizioni di registrazione devono essere utilizzate per consentire la contabilità degli impegni di spesa per gli ordini fornitore e la contabilità degli impegni preliminari di spesa per le richieste di acquisto.
 
 ## <a name="defining-posting-definitions"></a>Definizioni di registrazione
-Utilizzare la pagina**Definizioni di registrazione** per specificare i criteri di corrispondenza e definire le voci che devono essere generate quando una corrispondenza si verifica. I criteri di corrispondenza vengono valutati per le voci di origine come distribuzioni contabili. 
+Utilizzare la pagina **Definizioni di registrazione** per specificare i criteri di corrispondenza e definire le voci che devono essere generate quando una corrispondenza si verifica. I criteri di corrispondenza vengono valutati per le voci di origine come distribuzioni contabili. 
 
 Nella pagina **Definizioni di registrazione** è possibile anche assegnare numeri di priorità alle righe di immissione per definire l'ordine in cui vengono valutate le righe. Le righe con il numero di priorità inferiore vengono valutate per prime. Ad esempio, vengono valutate tutte le righe con priorità 1, quindi le righe con priorità 2 e così via. Quando viene rilevata una corrispondenza, gli altri criteri di corrispondenza vengono ignorati. Inoltre, solo per i criteri del gruppo corrispondenti alla transazione di origine vengono create voci generate. 
 

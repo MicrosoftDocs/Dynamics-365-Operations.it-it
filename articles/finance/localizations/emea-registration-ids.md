@@ -18,11 +18,11 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7a0b978228e26ec70457a4bcb1c064070953909b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175482"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444934"
 ---
 # <a name="registration-ids"></a>ID registrazione
 
@@ -52,7 +52,7 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 
 | Campo            | descrizione|
 |-----------------------|----------------|
-| Tipo di registrazione     | IL tipo di registrazione in un particolare paese/regione.|
+| Tipo di registrazione     | Il tipo di registrazione in un particolare paese/regione.|
 | Limitato a         | Tipo di restrizione applicabile al tipo di registrazione fiscale: Nessuno, Persona, Organizzazione.|
 | Categoria di registrazione | Identificatore univoco di registrazione approvato per l'uso nel paese. L'elenco completo delle categorie supportate è riportato più avanti in questo argomento. |
 
@@ -63,7 +63,7 @@ La Rubrica globale contiene informazioni consolidate sugli indirizzi di clienti,
 
 |Campo                |descrizione                                                |
 |---------------------|-----------------------------------------------------------|
-| Tipo di registrazione   | IL tipo di registrazione nel paese/regione selezionato.     |
+| Tipo di registrazione   | Il tipo di registrazione nel paese/regione selezionato.     |
 | Numero di registrazione | ID registrazione della parte.                                |
 | descrizione         | Descrizione del numero di registrazione.               |
 | Sezione             | Informazioni aggiuntive sul numero di registrazione. |

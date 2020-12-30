@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444839"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -84,7 +84,7 @@ In seguito ad alcune conversazioni con i clienti, Microsoft ha compilato il segu
 I seguenti scenari possono essere soddisfatti solo utilizzando la funzionalità Un giustificativo. Se l'organizzazione ha uno di questi scenari, è necessario consentire l'immissione di più transazioni in un giustificativo impostando il parametro **Consenti più transazioni in un giustificativo** nella pagina **Parametri di contabilità generale**. Tali gap funzionali verranno corretti con altre funzionalità nelle versioni successive.
 
 > [!Note]
-> [Per i seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
+> [Per ognuno dei seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrare i pagamenti cliente o fornitore in formato riepilogativo in un conto bancario
 

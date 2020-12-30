@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188926"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444680"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento cliente parziale che ha più periodi di sconto
 
@@ -42,14 +42,14 @@ Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 40
 | 9/7/2015           | 10,00                | 990,00                         |
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
-Arnie può visualizzare la transazione nella pagina**Transazioni cliente**.
+Arnie può visualizzare la transazione nella pagina **Transazioni cliente**.
 
 | Giustificativo   | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10030 | Fattura          | 25/6/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | GBP      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pagamento parziale prima della data dello sconto di cassa
-Il 28 giugno, il cliente 4031 effettua un pagamento parziale di 294,00. Poiché il 28 giugno rientra nel primo periodo di sconto di cassa, il cliente riceverà lo sconto di 6,00. Nella pagina **Liquida transazioni**, il valore di**Importo sconto di cassa** è di 20,00 e il valore di **Importo sconto di cassa da applicare** è pari a 6,00.
+Il 28 giugno, il cliente 4031 effettua un pagamento parziale di 294,00. Poiché il 28 giugno rientra nel primo periodo di sconto di cassa, il cliente riceverà lo sconto di 6,00. Nella pagina **Liquida transazioni**, il valore di **Importo sconto di cassa** è di 20,00 e il valore di **Importo sconto di cassa da applicare** è pari a 6,00.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

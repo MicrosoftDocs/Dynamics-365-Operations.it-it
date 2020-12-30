@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188995"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444683"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Impostare tassi d'interesse per un codice interessi
 
@@ -55,7 +55,7 @@ Ad esempio, per impostare un codice interessi che valuta un interesse del 5% per
 È possibile impostare tassi d'interesse che calcolano una quantità specificata per valuta.
 - Un importo interessi è specificato per ciascuna valuta relativa al codice interessi.
 - È possibile immettere limiti per l'importo interessi facoltativi.
-- **Importo** è selezionato nel campo**Calcola interessi in base a** nella pagina **Imposta codici interessi**.
+- **Importo** è selezionato nel campo **Calcola interessi in base a** nella pagina **Imposta codici interessi**.
 
 Ad esempio, per impostare un codice interessi che valuta un interesse pari a 25,00 per ogni 20 giorni in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 20 nel campo **Calcola interessi ogni** e selezionare **Giorno**.
 

@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899644"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444648"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Aggiornare l'entità composta giornale di registrazione bancario
 
@@ -40,7 +40,7 @@ Effettuare le seguenti operazioni per aggiungere il campo BankTransactionType ag
     -   Tabella\\BankJournalLineStaging
 
 2.  Gestione dati\\Progetti dati
-    -   Esporre il tipo **Transazione bancaria**sul layout **Dati di origine**.
+    -   Esporre il tipo **Transazione bancaria** sul layout **Dati di origine**.
         -   Formato dati di origine = Elemento XML
         -   Nome entità = Giornale di registrazione bancario
         -   Caricare il file di dati = nuova versione SampleBankJournalCompositeEntity.xml

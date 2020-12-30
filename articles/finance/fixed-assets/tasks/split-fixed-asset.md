@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000295"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514328"
 ---
 # <a name="split-a-fixed-asset"></a>Dividere un cespite
 
@@ -39,7 +39,7 @@ In questo argomento viene descritto come suddividere una percentuale di un libro
 
 ## <a name="split-a-fixed-asset"></a>Dividere un cespite
 
-Prima che un cespite completamente ammortizzato venga suddiviso, lo stato del libro cespiti deve essere modificato manualmente da **Chiuso** in **Aperto**. Questo passaggio è necessario perché lo stato del libro deve essere **Aperto** per registrare le transazioni per l'attività (ad esempio, per una vendita di dismissione). Dopo che lo stato del libro cespiti è cambiato, seguire questi passaggi per suddividere il cespite.
+Prima che un cespite completamente ammortizzato venga suddiviso, lo stato del libro cespiti deve essere modificato manualmente da **Chiuso** in **Aperto**. Questo passaggio è necessario perché lo stato del libro deve essere **Aperto** per registrare le transazioni per l'attività (ad esempio, per una vendita di dismissione). È inoltre necessario attivare il parametro **Consenti più transazioni in un giustificativo** nella scheda **Generale** della pagina **Parametri di contabilità generale**. Dopo che lo stato del libro cespiti è stato modificato e sono state consentite più transazioni all'interno di un giustificativo, completa i seguenti passaggi per dividere il cespite.
 
 1. Nell'elenco, individuare e selezionare il collegamento del cespite da dividere.
 2. Selezionare **Libri**. Selezionare il libro per la divisione in base al nuovo cespite.

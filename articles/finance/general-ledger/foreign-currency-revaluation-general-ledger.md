@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006215"
+ms.locfileid: "4444950"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
@@ -41,15 +41,15 @@ Quando si esegue il processo di rivalutazione, il saldo in ogni conto principale
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Preparare l'esecuzione della rivalutazione valuta estera
 Prima di effettuare il processo di rivalutazione, è richiesta l'impostazione che segue.
 
--   Nella pagina **Conto principale** :
+-   Nella pagina **Conto principale**:
 -   Se il conto principale deve essere rivalutato in Contabilità generale, selezionare **Rivalutazione valuta estera**. Se il conto principale non deve essere rivalutato (ad esempio per la contabilità clienti e la contabilità fornitori se rivalutato nei giornali di registrazione secondari), deselezionare questa opzione.
--   Se il conto principale è contrassegnato per la rivalutazione, immettere **Tipo di tasso di cambio**. Questo tipo di tasso di cambio verrà utilizzato per la rivalutazione del conto principale. Un campo separato, **Tipo di tasso di cambio report finanziari** , è disponibile per i report finanziari. I due campi non vengono mantenuti nella sincronizzazione, consentendo l'utilizzo di tipi di tasso di cambio diversi per la rivalutazione e i report finanziari.
+-   Se il conto principale è contrassegnato per la rivalutazione, immettere **Tipo di tasso di cambio**. Questo tipo di tasso di cambio verrà utilizzato per la rivalutazione del conto principale. Un campo separato, **Tipo di tasso di cambio report finanziari**, è disponibile per i report finanziari. I due campi non vengono mantenuti nella sincronizzazione, consentendo l'utilizzo di tipi di tasso di cambio diversi per la rivalutazione e i report finanziari.
 
--   Nella pagina **Contabilità generale** :
+-   Nella pagina **Contabilità generale**:
 -   Specificare **Tipo di tasso di cambio**. Se il tipo di tasso di cambio non è definito nel conto principale, il tipo di tasso di cambio verrà utilizzato durante la rivalutazione valuta estera.
 -   Specificare i conti del profitto realizzato, della perdita realizzata, del profitto non realizzato e della perdita non realizzata per la rivalutazione valuta. I conti della perdita e del profitto realizzati vengono utilizzati quando vengono compensate le transazioni di contabilità clienti e contabilità fornitori e i conti di perdita e di profitto non realizzati vengono utilizzati per la rivalutazione di transazioni aperte e di conti principali di contabilità generale.
 
--   Nella pagina **Conti rivalutazione valuta** :
+-   Nella pagina **Conti rivalutazione valuta**:
 -   Selezionare conti di rivalutazione valuta diversi per ciascuna valuta e società. Se non vengono definiti, vengono utilizzati i conti della pagina **Contabilità generale**.
 
 ## <a name="process-foreign-currency-revaluation"></a>Elaborare una rivalutazione valuta estera

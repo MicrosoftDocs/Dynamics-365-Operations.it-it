@@ -1,6 +1,6 @@
 ---
 title: Informazioni dettagliate pagamenti cliente (anteprima)
-description: Questo argomento descrive la capacità di informazioni dettagliate pagamenti che aiuta a migliorare la comprensione delle pratiche di pagamento tipiche dei singoli clienti e può identificare circostanze che giustificano l'avvio di processi di raccolta prima di quanto altrimenti fatto.
+description: Questo argomento descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773986"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644635"
 ---
 # <a name="customer-payment-insights-preview"></a>Informazioni dettagliate pagamenti cliente (anteprima)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento descrive la capacità di informazioni dettagliate pagamenti che aiuta a migliorare la comprensione delle pratiche di pagamento tipiche dei singoli clienti e può identificare circostanze che giustificano l'avvio di processi di raccolta prima di quanto potrebbe essere altrimenti fatto. 
+Questo argomento descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli. 
 
 ## <a name="overview"></a>Panoramica
 
-Le organizzazioni scoprono spesso che è difficile prevedere quando i clienti pagano le fatture. Questa mancanza di informazione porta a previsioni del flusso di cassa meno accurate, processi di raccolta che iniziano troppo tardi e ordini che vengono rilasciati a clienti che potrebbero non ricevere il pagamento. Le informazioni dettagliate pagamenti cliente (anteprima) consentono alle organizzazioni di prevedere quando verrà pagata una fattura cliente, aiutando l'organizzazione a creare strategie di raccolta che migliorano la probabilità di essere pagati in tempo. 
+Spesso è difficile prevedere quando i clienti pagano le fatture. Questa mancanza di informazione porta a previsioni del flusso di cassa meno accurate, processi di raccolta che iniziano troppo tardi e ordini che vengono rilasciati a clienti che potrebbero non ricevere il pagamento. Le informazioni dettagliate sui pagamenti dei clienti (anteprima) aiutano le organizzazioni a prevedere quando verrà pagata una fattura cliente. Queste informazioni possono aiutare le organizzazioni a creare strategie di riscossione che aumentano la probabilità di essere pagati in tempo. 
 
 ## <a name="predictions"></a>Previsioni
 
@@ -42,13 +42,13 @@ Le previsioni di pagamento consentiranno alle organizzazioni di migliorare i pro
 
 Utilizzando un modello di Machine Learning che sfrutta fatture storiche, pagamenti e dati dei clienti, Informazioni dettagliate pagamenti cliente (anteprima) prevede in modo più accurato quando un cliente paga una fattura in sospeso.
 
-Per ciascuna la fattura aperta, l'analisi dei pagamenti del cliente (anteprima) stima tre probabilità di pagamento:
+Per ciascuna la fattura aperta, l'analisi dei pagamenti del cliente (anteprima) può stimare tre probabilità di pagamento:
 
 -   Probabilità di pagamento effettuato in tempo 
 -   Probabilità di pagamento effettuato in ritardo
 -   Probabilità di pagamento effettuato molto in ritardo
 
-Per consentire alle organizzazioni di comprendere l'importo totale del pagamento che possono aspettarsi da un cliente in uno dei tre bucket, In tempo, In ritardo e Molto in ritardo, Informazioni dettagliate pagamenti cliente (anteprima) fornisce anche una visione aggregata dei pagamenti previsti.
+Informazioni dettagliate pagamenti cliente (anteprima) fornisce anche una visione aggregata dei pagamenti previsti per consentire alle organizzazioni di comprendere l'importo totale del pagamento che possono aspettarsi da un cliente in uno dei tre bucket, In tempo, In ritardo e Molto in ritardo.
 
 [![Visualizzazione aggregata delle previsioni di pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -66,7 +66,7 @@ Lo sviluppo e la distribuzione di una soluzione AI è difficile. Richiede un tea
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Come ottenere l'analisi dei pagamenti dei clienti (anteprima)
 
-Inviare un'e-mail a [Informazioni dettagliate pagamenti cliente (anteprima)](mailto:fiap@microsoft.com) se si è interessati a provare Informazioni dettagliate pagamenti cliente (anteprima).
+Invia un messaggio e-mail a [Informazioni dettagliate pagamenti cliente (anteprima)](mailto:fiap@microsoft.com) se si è interessati a provare Informazioni dettagliate pagamenti cliente (anteprima).
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 

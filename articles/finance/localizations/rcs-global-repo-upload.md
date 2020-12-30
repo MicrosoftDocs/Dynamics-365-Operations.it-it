@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834235"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444843"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Creare configurazioni ER in Regulatory Configuration Services (RCS) e caricarle nel repository globale
 
@@ -71,7 +71,7 @@ Per condividere una configurazione nuova o derivata con la tua organizzazione, p
 3. Nella finestra del messaggio di conferma, seleziona **Sì**. 
 4. Aggiorna la descrizione della versione come richiesto, quindi seleziona **OK**. 
 
-Lo stato della configurazione viene aggiornato su **Condividi**e la configurazione viene caricata nel repository globale. Da qui, puoi utilizzarla nei seguenti modi:
+Lo stato della configurazione viene aggiornato su **Condividi** e la configurazione viene caricata nel repository globale. Da qui, puoi utilizzarla nei seguenti modi:
 
 - Importala nell'istanza di Dynamics 365. Per ulteriori informazioni, vedi [(ER) Importare le configurazioni da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Condividila con una terza parte o un'organizzazione esterna, vedi [Configurazioni RCS per la condivisione di report elettronici (ER) con organizzazioni esterne](rcs-global-repo-share-configuration.md)

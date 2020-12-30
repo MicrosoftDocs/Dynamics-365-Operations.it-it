@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2c9d95a7a45ed99c63516749285126c786685c87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187316"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444662"
 ---
 # <a name="consumption-depreciation"></a>Ammortamento del consumo
 
@@ -44,7 +44,7 @@ Quando si imposta un profilo di ammortamento per i cespiti e si seleziona l'opzi
     -   Ammortamento unità
     -   Consumo stimato
 
-    Nel campo**Consumo registrato** è indicato l'ammortamento basato sul consumo, in unità, già registrato per la combinazione di cespite e modello di valore o per il registro beni ammortizzabili. Non è possibile aggiornare manualmente il valore del campo.
+    Nel campo **Consumo registrato** è indicato l'ammortamento basato sul consumo, in unità, già registrato per la combinazione di cespite e modello di valore o per il registro beni ammortizzabili. Non è possibile aggiornare manualmente il valore del campo.
 
 ## <a name="examples"></a>Esempi
 ### <a name="example-1"></a>Esempio 1

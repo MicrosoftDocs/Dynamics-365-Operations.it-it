@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5277081d9f7adcc43c30d30208d13c7e39d76118
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140377"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645283"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrare una fattura fornitore nel giornale di registrazione fatture
 
@@ -43,7 +43,9 @@ Questa guida attività indicherà come registrare le fatture fornitore non assoc
     * Come **Fascia IVA** predefinita verrà impostata quella del conto fornitore.  
     * Come **fascia IVA articoli** predefinita verrà impostata quella del conto principale specificata nel campo **Conto di contropartita**.  
     * La **data di scadenza** verrà calcolata in base ai Termini di pagamento.  
-    * Come **sconto di cassa** predefinito verrà impostato quello del conto fornitore.  
+    * Come **sconto di cassa** predefinito verrà impostato quello del conto fornitore.
+12. Se è stato abilitato il flusso di lavoro del giornale di registrazione fatture fornitore, fai clic su **Flusso di lavoro > Invia**.
+    * Quando l'invio viene approvato, la data verrà anticipata al primo giorno del successivo periodo di apertura, se la data di registrazione della transazione rientra in un periodo In sospeso o Chiuso per la registrazione contabile.
 12. Fare clic su **Registra**.
 13. Chiudere la pagina.
 

@@ -1,7 +1,7 @@
 ---
 title: Registrare transazioni cespiti nei livelli di registrazione
 description: Questo articolo fornisce una panoramica delle funzionalità del livello di registrazione per le transazioni cespiti.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770714"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493674"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrare transazioni cespiti nei livelli di registrazione
 
@@ -39,8 +39,11 @@ I giornali di registrazione cespiti vengono definiti mediante la pagina  Nomi gi
 
 È possible designare conti CoGe per le transazioni cespiti nella pagina Profili registrazione cespiti. Per ciascun profilo registrazione, è necessario selezionare il tipo di transazione e il libro pertinenti e quindi designare i conti CoGe. Impostare un record di profilo registrazione per ciascun libro che verrà registrato nella contabilità generale.
 
+Il cespite può essere inserito in documenti che supportano solo il livello di registrazione **Corrente**, come **Ordine fornitore**, **Fattura fornitore in sospeso**, **Ordine cliente** o **Fattura a testo libero**. Durante la selezione di un ID cespite in uno qualsiasi di questi documenti, il libro cespiti viene filtrato sul libro con livello di registrazione **Corrente** e verrà compilato automaticamente durante la registrazione quando il sistema convalida che il livello di registrazione cespite è **Corrente**. Se tale convalida non può essere completata, il processo di registrazione verrà interrotto. 
+
 > [!NOTE] 
-> L'utilizzo di libri derivati consente di registrare transazioni contemporaneamente in diversi livelli di registrazione. Le transazioni del libro principale vengono create in un giornale di registrazione con il livello di registrazione corrispondente a quello del libro. Durante la registrazione le transazioni del libro derivato vengono registrate nei livelli di registrazione appropriati.
+> L'utilizzo di libri derivati consente di registrare transazioni contemporaneamente in diversi livelli di registrazione. Le transazioni del libro principale vengono create in un giornale di registrazione o documento di origine con il livello di registrazione corrispondente a quello del libro. Durante la registrazione le transazioni del libro derivato vengono registrate nei livelli di registrazione appropriati. 
+
 
 Per ulteriori informazioni, vedere [Libri derivati](derived-books.md) e [Registrare con i libri derivati](post-derived-value-models.md).
 

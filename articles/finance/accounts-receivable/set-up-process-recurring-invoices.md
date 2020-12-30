@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444682"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Impostare ed elaborare fatture ricorrenti
 
@@ -53,7 +53,7 @@ Una volta creato il modello, è necessario assegnarlo ai clienti per i quali si 
 Un cliente può avere più modelli con frequenze diverse.
 
 ## <a name="generate-the-recurring-invoices"></a>Generare le fatture ricorrenti
-Nella pagina **Fatture ricorrenti**è presente un'attività che elabora modelli di fattura ricorrente. Specificare la data della fattura e il modello da cui generare le fatture. Le fatture verranno generate e verrà assegnato un singolo numero ID ricorrenza per ciascun gruppo di fatture elaborato.
+Nella pagina **Fatture ricorrenti** è presente un'attività che elabora modelli di fattura ricorrente. Specificare la data della fattura e il modello da cui generare le fatture. Le fatture verranno generate e verrà assegnato un singolo numero ID ricorrenza per ciascun gruppo di fatture elaborato.
 
 <a name="post-recurring-free-text-invoices"></a>Registrare fatture a testo libero ricorrenti
 ---------------------------------

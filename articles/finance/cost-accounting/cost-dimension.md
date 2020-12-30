@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977673"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444811"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Creare dimensioni e importare i membri di dimensione
 

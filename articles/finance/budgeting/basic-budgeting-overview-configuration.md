@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667462"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444795"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
@@ -57,7 +57,7 @@ Definire un *modello di budget* che corrisponda a tutti o ad alcuni dei budget. 
 > [!NOTE] 
 > Se viene utilizzato il controllo del budget, è possibile associare un solo modello di budget a una durata ciclo di budget specifica. 
 
-Creare *codici budget*che identificano il tipo di transazioni budget da registrare e i flussi di lavoro correlati. I codici budget possono supportare i seguenti tipi di budget:
+Creare *codici budget* che identificano il tipo di transazioni budget da registrare e i flussi di lavoro correlati. I codici budget possono supportare i seguenti tipi di budget:
 
 -   Budget originale
 -   Trasferito

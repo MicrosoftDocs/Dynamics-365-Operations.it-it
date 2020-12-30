@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259773"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444872"
 ---
 # <a name="year-end-close"></a>Chiusura di fine anno
 
@@ -80,7 +80,7 @@ Selezionare l'anno fiscale di cui si desidera eseguire la chiusura di fine anno.
 
 Immettere un numero di giustificativo, che può essere o meno obbligatorio, in base all'impostazione dei parametri di contabilità generale. Lo stesso numero di giustificativo verrà utilizzato per tutte le persone giuridiche selezionate per la chiusura di fine anno. Il numero di giustificativo non viene generato usando una sequenza numerica. È consigliabile immettere un numero di giustificativo, anche se non è obbligatorio. Se si inserisce un numero di giustificativo si facilita la ricerca della transazione di apertura del nuovo anno fiscale. Se un numero di giustificativo non viene immesso, il giustificativo è vuoto per la transazione di apertura. 
 
-Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale selezionato, impostare **Annulla chiusura precedente** su **Sì**. La chiusura di fine anno verrà stornata, ma il processo può essere rieseguito in qualsiasi momento. Se si storna una chiusura di fine anno, la **Data dell'ultima chiusura di fine anno*** non sarà disponibile. 
+Se desidera stornare una chiusura di fine anno precedente per l'anno fiscale selezionato, impostare **Annulla chiusura precedente** su **Sì**. La chiusura di fine anno verrà stornata, ma il processo può essere rieseguito in qualsiasi momento. Se si storna una chiusura di fine anno, la **Data dell'ultima chiusura di fine anno** non sarà disponibile. 
 
 La chiusura di fine anno viene eseguita in modalità batch per impostazione predefinita. È consigliabile eseguire il processo in modalità batch, per consentire all'utente di tornare ad altre attività. Il campo **Data dell'ultima chiusura di fine anno** verrà aggiornato con la data della sessione al completamento del processo di chiusura di fine anno.
 

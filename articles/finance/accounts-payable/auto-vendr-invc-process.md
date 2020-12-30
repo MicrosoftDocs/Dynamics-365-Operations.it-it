@@ -3,7 +3,7 @@ title: Panoramica dei processi di fatturazione automatizzati dei fornitori
 description: In questo argomento viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022498"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665324"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Panoramica dei processi di fatturazione automatizzati dei fornitori
 
@@ -39,8 +39,9 @@ I processi di automazione possono essere utilizzati per eseguire queste attivit�
 - Inviare automaticamente fatture importate al sistema del flusso di lavoro.
 - Abbinare entrate prodotti alle righe di fattura fornitore in sospeso.
 - Simulare la registrazione prima della registrazione di una fattura fornitore.
-- Visualizzare lo storico flusso di lavoro in modo rapido ed efficiente.
+- Visualizzare lo storico automazione e flusso di lavoro in modo rapido ed efficiente.
 - Visualizzare e analizzare i risultati dell'automazione dell'elaborazione delle fatture fornitori.
+- Riprendi l'elaborazione automatizzata per più fatture.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Automazione delle fatture fornitore - Inviare fatture fornitore importate al sistema del flusso di lavoro
 
@@ -58,10 +59,13 @@ Il sistema può abbinare automaticamente le entrate prodotti registrate alle rig
 
 La simulazione della registrazione completa i passaggi di convalida eseguiti durante il processo di registrazione delle fatture fornitore, ma nessun conto viene aggiornato. Per eseguire il processo, puoi selezionare una singola fattura o più fatture nella pagina **Fatture fornitore in sospeso**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Automazione delle fatture fornitore - Esperienza migliorata per la visualizzazione delle informazioni dello storico flusso di lavoro per fatture fornitore
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Automazione delle fatture fornitore - Esperienza migliorata per la visualizzazione delle informazioni dello storico automazione e flusso di lavoro per fatture fornitore
 
-Viene fornita una visualizzazione di facile lettura dello storico flusso di lavoro delle fatture fornitore. Puoi accedere allo storico flusso di lavoro delle fatture fornitore direttamente dalla fattura fornitore. Pertanto, sono necessari meno clic per trovare tali informazioni.
+Viene fornita una visualizzazione di facile lettura dello storico flusso di lavoro delle fatture fornitore. Puoi accedere allo storico flusso di lavoro delle fatture fornitore direttamente dalla fattura fornitore. Pertanto, sono necessari meno clic per trovare tali informazioni. Se l'organizzazione ha abilitato la possibiliyà di inviare automaticamente le fatture fornitore importate al flusso di lavoro, viene fornita la cronologia dell'automazione per le fatture importate. La cronologia dell'automazione aiuta a identificare il passaggio del processo corrente, nonché i passaggi che sono già stati completati. Quando un passaggio non viene completato, il sistema fornisce informazioni dettagliate per aiutarti a comprendere il motivo dell'errore.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Automazione delle fatture fornitore - Analisi e metriche
 
 L'area di lavoro **Inserimento fatture fornitore** ti consente di concentrarti sulle fatture fornitore che non hanno superato il processo automatizzato. I riquadri nell'area di lavoro elencano le informazioni sulle fatture fornitore che non sono state inviate correttamente al sistema del flusso di lavoro, importate o abbinate alle entrate prodotti. Sono inoltre disponibili metriche Microsoft Power BI per fornire ai responsabili della contabilità fornitori una visione dell'efficienza dell'automazione delle fatture fornitore.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automazione delle fatture fornitore: riprendere l'elaborazione dell'automazione per più fatture
+Quando una fattura importata non viene inviata correttamente al flusso di lavoro tramite il processo automatizzato, il sistema la rimuoverà dall'ulteriore elaborazione automatizzata. Un addetto alla contabilità fornitori può esaminare e modificare la fattura prima che il processo automatizzato la invii nuovamente al flusso di lavoro. Quando un motivo di errore può essere risolto con la stessa correzione per più fatture, puoi riavviare il processo automatizzato nella pagina **Riprendi l'elaborazione automatica delle fatture**. 

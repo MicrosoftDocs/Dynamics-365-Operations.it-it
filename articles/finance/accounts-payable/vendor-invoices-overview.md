@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249120"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701678"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
@@ -112,15 +112,18 @@ Una fattura fornitore in uso non può essere modificata da un altro utente. Tutt
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Reimpostare lo stato flusso di lavoro di fatture fornitore da Irreversibile a Bozza
 
-Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile avrà lo stato **Irriversibile**. Quando lo stato di un flusso di lavoro di fatture fornitore è **Irreversibile**, è possibile reimpostarlo su **Bozza** selezionando **Richiama**. È quindi possibile modificare la fattura fornitore. Questa funzionalità è disponibile se il parametro **Reimposta stato Bozza per flusso di lavoro fatture fornitore** nella pagina **Gestione funzionalità** è abilitato.
+Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile avrà lo stato **Irriversibile**. Quando lo stato di un flusso di lavoro di fatture fornitore è **Irreversibile**, è possibile reimpostarlo su **Bozza** selezionando **Richiama**. È quindi possibile modificare la fattura fornitore. Questa funzionalità è disponibile se il parametro **Reimpostare lo stato flusso di lavoro di fatture fornitore da Irreversibile a Bozza** nella pagina **Gestione funzionalità** è attivato.
 
 È possibile utilizzare la pagina **Storico flusso di lavoro** per reimpostare lo stato flusso di lavoro su **Bozza**. È possibile visualizzare questa pagina da **Fattura fornitore** o dal percorso **Comune > Richieste di informazioni > Flusso di lavoro**. Per reimpostare lo stato del flusso di lavoro su **Bozza**, selezionare **Richiama**. È inoltre possibile reimpostare lo stato del flusso di lavoro su Bozza selezionando l'azione **Richiama** nella pagina **Fattura fornitore** o **Fatture fornitore in sospeso**. Dopo la reimpostazione dello stato flusso di lavoro su **Bozza**, diventa disponibile per modificare la pagina **Fattura fornitore**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Visualizzazione del totale della fattura nella pagina Fatture fornitore in sospeso
+È possibile visualizzare il totale della fattura nella pagina **Fatture fornitore in sospeso** abilitando il parametro **Visualizza totale fatture su elenco fatture fornitore in sospeso** nella pagina **Parametri di contabilità fornitori**. 
 
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Impostare criteri di fatture fornitore](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Imposta criteri fatture fornitore](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Dati principali della fattura in sistema di contabilità fornitori utilizzando la fattura fornitore](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Inserire dati fattura nella contabilità fornitori tramite un giornale di approvazione](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

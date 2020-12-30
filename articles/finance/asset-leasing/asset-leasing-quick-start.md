@@ -19,11 +19,11 @@ ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4444958"
 ---
 # <a name="asset-leasing-get-started"></a>Attività iniziali per il leasing di cespiti
 
@@ -208,8 +208,8 @@ Rappresenta il riporto della riduzione del saldo dell'asset Right of use. Identi
 ## <a name="create-an-asset-lease"></a>Creare un leasing di cespiti
 Completa i passaggi seguenti per creare un nuovo leasing. 
 
-1. Per utilizzare la funzionalità **Leasing di cespiti** , devi abilitarla nell'area di lavoro **Gestione funzionalità**. Nell'area di lavoro **Gestione funzionalità** , seleziona **Tutto** in modo che tutte le funzionalità siano elencate nella pagina. Seleziona **Leasing di cespiti** , quindi seleziona **Abilita adesso**.
-2. Vai a **Leasing di cespiti > Comune> Riepilogo leasing**. Imposta i campi necessari nella Scheda dettaglio **Generale** : 
+1. Per utilizzare la funzionalità **Leasing di cespiti**, devi abilitarla nell'area di lavoro **Gestione funzionalità**. Nell'area di lavoro **Gestione funzionalità**, seleziona **Tutto** in modo che tutte le funzionalità siano elencate nella pagina. Seleziona **Leasing di cespiti**, quindi seleziona **Abilita adesso**.
+2. Vai a **Leasing di cespiti > Comune> Riepilogo leasing**. Imposta i campi necessari nella Scheda dettaglio **Generale**: 
    - **Dettagli del leasing**
    - **Vita utile del cespite (mesi)**
    - **Gruppo di leasing**

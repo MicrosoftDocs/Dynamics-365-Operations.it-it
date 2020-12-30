@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770737"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444778"
 ---
 # <a name="online-financial-consolidations"></a>Consolidamenti finanziari online
 
@@ -29,7 +29,7 @@ ms.locfileid: "2770737"
 
 In questo argomento vengono descritti i consolidamenti finanziari online nella contabilità generale. Prima di leggere questo argomento, leggere l'argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](financial-consolidations-currency-translation.md).
 
-Dopo aver completato la configurazione, immettere i dettagli del consolidamento nella pagina **Consolidato [online]**. Al termine, è possibile fare clic su **OK** o **Batch** per elaborare il consolidamento.
+Dopo aver completato la configurazione, immettere i dettagli del consolidamento nella pagina **Consolida [online]**. Al termine, è possibile fare clic su **OK** o **Batch** per elaborare il consolidamento.
 
 ## <a name="criteria"></a>Criteri
 Nella scheda **Criteri** della pagina **Consolidato [online]**, si definiscono i conti, i periodi e il tipo di dati da consolidare.

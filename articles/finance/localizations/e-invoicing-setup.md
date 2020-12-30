@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039894"
+ms.locfileid: "4444963"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Configurare il componente aggiuntivo per la fatturazione elettronica
 
@@ -49,8 +49,8 @@ A causa delle variazioni nei formati delle fatture e nei flussi di azioni, la co
 Il processo di configurazione deve essere completato nel proprio ambiente RCS. Segui questi passaggi per creare una nuova funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
 1. Accedi al tuo ambiente RCS.
-2. Nell'area di lavoro **Funzionalità di globalizzazione** , nella sezione **Funzionalità** , seleziona il riquadro **Componente aggiuntivo per la fatturazione elettronica**.
-3. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica** , seleziona **Importa** per importare la configurazione del modello dati ER dal repository globale.
+2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Funzionalità**, seleziona il riquadro **Componente aggiuntivo per la fatturazione elettronica**.
+3. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica**, seleziona **Importa** per importare la configurazione del modello dati ER dal repository globale.
 4. Seleziona **Aggiungi** per creare una funzionalità del componente aggiuntivo per la fatturazione elettronica. È possibile creare la funzionalità da zero o derivarla da una funzionalità del componente aggiuntivo per la fatturazione elettronica esistente.
 
     ![Aggiunta di una funzionalità del componente aggiuntivo per la fatturazione elettronica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
@@ -64,14 +64,14 @@ Le configurazioni contengono le configurazioni del formato di creazione di repor
 
 Segui questi passaggi per aggiungere formati ER alla funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
-1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica** , nella scheda **Configurazioni** , seleziona **Aggiungi** per aggiungere configurazioni del formato di file ER per la funzionalità del componente aggiuntivo per la fatturazione elettronica.
+1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica**, nella scheda **Configurazioni**, seleziona **Aggiungi** per aggiungere configurazioni del formato di file ER per la funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
     ![Aggiunta di configurazioni della funzionalità del componente aggiuntivo per la fatturazione elettronica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Quando crei da zero una funzionalità del componente aggiuntivo per la fatturazione elettronica, è necessario aggiungere manualmente tutte le configurazioni del formato di file ER. Quando si ricava una funzionalità del componente aggiuntivo per la fatturazione elettronica da una funzionalità esistente, le configurazioni del formato di file ER vengono create automaticamente, poiché vengono ereditate dalla funzionalità del componente aggiuntivo della fatturazione elettronica originale.
 
-2. Seleziona **Modifica** per aprire la pagina **Progettazione formati** , in cui è possibile modificare la configurazione del formato di file ER.
+2. Seleziona **Modifica** per aprire la pagina **Progettazione formati**, in cui è possibile modificare la configurazione del formato di file ER.
 
     ![Modifica di configurazioni della funzionalità del componente aggiuntivo per la fatturazione elettronica](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
@@ -88,7 +88,7 @@ Le configurazioni della funzionalità incorporano le regole per la comunicazione
 
 Segui questi passaggi per aggiungere configurazioni della funzionalità alla funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
-1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica** , nella scheda **Configurazioni** , seleziona **Aggiungi** per aggiungere configurazioni della funzionalità alla funzionalità del componente aggiuntivo per la fatturazione elettronica.
+1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica**, nella scheda **Configurazioni**, seleziona **Aggiungi** per aggiungere configurazioni della funzionalità alla funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
     ![Aggiunta di configurazioni della funzionalità del componente aggiuntivo per la fatturazione elettronica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
@@ -111,7 +111,7 @@ Ciascuna azione contiene un elenco predefinito di parametri necessari affinché 
 
 #### <a name="actions-fasttab"></a>Scheda dettaglio Azioni
 
-Nella pagina **Configurazione versioni funzionalità** , nella scheda **Azioni** , nella Scheda dettaglio **Azioni** , segui uno o entrambi questi passaggi per gestire le azioni:
+Nella pagina **Configurazione versioni funzionalità**, nella scheda **Azioni**, nella Scheda dettaglio **Azioni**, segui uno o entrambi questi passaggi per gestire le azioni:
 
 - Seleziona **Nuovo** o **Elimina** per aggiungere nuove azioni o eliminare azioni esistenti.
 - Seleziona **Su** o **Giù** per spostare le azioni selezionate in alto o in basso nella griglia e quindi modificare l'ordine in cui vengono eseguite. Le azioni vengono eseguite nell'ordine in cui appaiono nella griglia, dall'alto verso il basso.
@@ -194,7 +194,7 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 |-----------------------------|-------------|
 | URL servizio Web             | L'URL a cui inviare le richieste. |
 | Timeout richiesta Web         | La quantità massima di tempo (in millisecondi) di attesa per una risposta del servizio Web. |
-| Tipo di operazione richiesta      | Il tipo di operazione di richiesta HTTP (ad esempio, **GET** , **POST** o **DELETE** ). |
+| Tipo di operazione richiesta      | Il tipo di operazione di richiesta HTTP (ad esempio, **GET**, **POST** o **DELETE**). |
 | Nomi certificati           | I nomi dei certificati. |
 | Codifica del corpo della risposta      | La codifica prevista del corpo della risposta HTTP, in modo che possa essere decodificato correttamente. |
 | Tipo di contenuto della richiesta HTTP   | L'input dell'intestazione del tipo di contenuto della richiesta HTTP. |
@@ -260,7 +260,7 @@ Le regole di applicabilità consentono di creare regole logiche che determinano 
 
 #### <a name="set-up-applicability-rules"></a>Configurare le regole di applicabilità
 
-1. Nella pagina **Configurazione versioni funzionalità** , nella scheda **Regole di applicabilità** , seleziona **Nuovo** per aggiungere una regola di applicabilità.
+1. Nella pagina **Configurazione versioni funzionalità**, nella scheda **Regole di applicabilità**, seleziona **Nuovo** per aggiungere una regola di applicabilità.
 
     ![Gestione delle regole di applicabilità](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
@@ -295,7 +295,7 @@ Nella seguente tabella vengono illustrati i campi disponibili nella scheda **Reg
 
 #### <a name="set-up-variables"></a>Imposta variabili
 
-- Nella pagina **Configurazione versioni funzionalità** , nella scheda **Variabili** , seleziona **Nuovo** o **Elimina** per gestire le variabili.
+- Nella pagina **Configurazione versioni funzionalità**, nella scheda **Variabili**, seleziona **Nuovo** o **Elimina** per gestire le variabili.
 
     ![Gestione delle variabili](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
@@ -311,7 +311,7 @@ Nella seguente tabella vengono illustrati i campi disponibili nella scheda **Var
 
 ### <a name="validate-the-feature-setup"></a>Convalidare la configurazione della funzionalità
 
-- Nella pagina **Configurazione versione funzionalità** , nel riquadro azioni seleziona **Convalida** per convalidare la configurazione della versione della funzionalità.
+- Nella pagina **Configurazione versione funzionalità**, nel riquadro azioni seleziona **Convalida** per convalidare la configurazione della versione della funzionalità.
 
    ![Selezione del pulsante Convalida](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
@@ -323,8 +323,8 @@ Un del componente aggiuntivo per la fatturazione elettronica deve essere associa
 
 Segui questi passaggi per abilitare un ambiente del componente aggiuntivo per la fatturazione elettronica per la funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
-1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica** , nella scheda **Ambienti** , seleziona **Abilita** per aggiungere un ambiente del componente aggiuntivo per la fatturazione elettronica.
-2. Nel campo **Valido da** , immetti la data in cui il nuovo ambiente diventa effettivo.
+1. Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica**, nella scheda **Ambienti**, seleziona **Abilita** per aggiungere un ambiente del componente aggiuntivo per la fatturazione elettronica.
+2. Nel campo **Valido da**, immetti la data in cui il nuovo ambiente diventa effettivo.
 
 ![Abilitazione di un ambiente del componente aggiuntivo per la fatturazione elettronica](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
@@ -332,7 +332,7 @@ Segui questi passaggi per abilitare un ambiente del componente aggiuntivo per la
 
 La funzionalità del componente aggiuntivo per la fatturazione elettronica può essere condivisa tra più organizzazioni.
 
-- Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica** , nella scheda **Organizzazioni** , seleziona **Condividi con** per aggiungere l'organizzazione con cui vuoi condividere la funzionalità del componente aggiuntivo per la fatturazione elettronica.
+- Nella pagina **Funzionalità del componente aggiuntivo per la fatturazione elettronica**, nella scheda **Organizzazioni**, seleziona **Condividi con** per aggiungere l'organizzazione con cui vuoi condividere la funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
 Per interrompere la condivisione della funzionalità del componente aggiuntivo per la fatturazione elettronica con l'organizzazione, seleziona **Annulla condivisione**.
 
@@ -342,22 +342,22 @@ Le versioni aiutano a controllare il ciclo di vita della funzionalità del compo
 
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Creare una nuova versione di una funzionalità del componente aggiuntivo per la fatturazione elettronica esistente
 
-1. Nella pagina Funzionalità **del componente aggiuntivo per la fatturazione elettronica** , nella griglia a sinistra, seleziona la funzionalità del componente aggiuntivo per la fatturazione elettronica.
-2. Nella scheda **Versioni** , seleziona **Nuovo** per aggiungere una nuova versione della funzionalità del componente aggiuntivo per la fatturazione elettronica.
+1. Nella pagina Funzionalità **del componente aggiuntivo per la fatturazione elettronica**, nella griglia a sinistra, seleziona la funzionalità del componente aggiuntivo per la fatturazione elettronica.
+2. Nella scheda **Versioni**, seleziona **Nuovo** per aggiungere una nuova versione della funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
 ### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Modificare lo stato della funzionalità del componente aggiuntivo per la fatturazione elettronica
 
 Segui questi passaggi per gestire il ciclo di vita della funzionalità del componente aggiuntivo per la fatturazione elettronica.
 
-1. Nella pagina Funzionalità **del componente aggiuntivo per la fatturazione elettronica** , nella griglia a sinistra, seleziona la funzionalità del componente aggiuntivo per la fatturazione elettronica.
-2. Nella scheda **Versioni** , seleziona **Cambia stato** e quindi modifica lo stato da **Bozza** a **Completo**.
+1. Nella pagina Funzionalità **del componente aggiuntivo per la fatturazione elettronica**, nella griglia a sinistra, seleziona la funzionalità del componente aggiuntivo per la fatturazione elettronica.
+2. Nella scheda **Versioni**, seleziona **Cambia stato** e quindi modifica lo stato da **Bozza** a **Completo**.
 3. Ti viene chiesto di confermare se desideri completare la funzionalità del componente aggiuntivo per la fatturazione elettronica e tutti i suoi componenti. Seleziona **Sì** per confermare l'azione o **No** per annullare.
 
     > [!NOTE]
-    > Quando selezioni **Sì** , lo stato delle versioni di configurazione, che sono componenti della funzionalità del componente aggiuntivo per la fatturazione elettronica, viene modificato automaticamente da **Bozza** a **Completato**.
+    > Quando selezioni **Sì**, lo stato delle versioni di configurazione, che sono componenti della funzionalità del componente aggiuntivo per la fatturazione elettronica, viene modificato automaticamente da **Bozza** a **Completato**.
 
 4. Seleziona **Cambia stato** e quindi modifica lo stato da **Completo** a **Pubblica**.
 5. Ti viene chiesto di confermare se desideri pubblicare la funzionalità del componente aggiuntivo per la fatturazione elettronica e tutti i suoi componenti sul repository globale. Seleziona **Sì** per confermare l'azione o **No** per annullare.
 
     > [!NOTE]
-    > Quando selezioni **Sì** , lo stato delle versioni di configurazione viene modificato automaticamente da **Completato** a **Condiviso**.
+    > Quando selezioni **Sì**, lo stato delle versioni di configurazione viene modificato automaticamente da **Completato** a **Condiviso**.

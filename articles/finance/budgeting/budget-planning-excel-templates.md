@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772101"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444910"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
@@ -67,7 +67,7 @@ Nella scheda **Progettazione**, fare clic sui campi **Aggiungi** quindi selezion
 
 Puntare il cursore nella posizione desiderata nel file di Excel. Fare clic su **Aggiungi etichetta** per aggiungere l'etichetta del campo nella posizione selezionata. Selezionare **Aggiungi valore** per il campo relativo al valore nel posto selezionato. Fare clic su **Fine** per chiudere la finestra di progettazione.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Selezionare Aggiungi valore](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Selezionare Aggiungi valore](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Aggiungere una colonna calcolata alla tabella del modello di documento del piano di budget
 --------------------------------------------------------------
@@ -120,7 +120,7 @@ Si consiglia di bloccare il modello per impedire agli utenti di chiuderlo. Per a
 
 Fare clic sulla freccia per un menu aggiuntivo. Selezionare **Blocca**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Selezionare Blocca](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Selezionare Blocca](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Posso utilizzare altre funzionalità di Excel, ad esempio formattazione di celle, colori, formattazione condizionale e i grafici con i modelli del piano di budget?
 

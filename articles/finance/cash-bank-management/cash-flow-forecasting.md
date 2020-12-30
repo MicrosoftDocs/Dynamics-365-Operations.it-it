@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653778"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645771"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
@@ -92,6 +92,11 @@ Nel campo **Conto liquidità per i pagamenti** è specificato il conto liquidit�
 ### <a name="inventory-management"></a>Gestione inventario
 
 Le previsioni di offerta e domanda di magazzino possono essere incluse nella previsione di cassa. Nella scheda **Gestione inventario** della pagina **Impostazione previsione di cassa**, selezionare il modello di previsione da includere nella previsione di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole righe della previsione della domanda e dell'offerta.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurazione di dimensioni per la previsione di cassa
+Una nuova scheda nella pagina **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro **Previsione di cassa**. Questa scheda verrà visualizzata solo quando la funzione Previsioni di cassa è abilitata. 
+
+Nella scheda **Dimensioni**, scegli dall'elenco delle dimensioni da utilizzare per i filtri e utilizza i tasti freccia per spostarle nella colonna di destra. È possibile selezionare solo due dimensioni per filtrare i dati di previsione di cassa. 
 
 ### <a name="calculation"></a>Calcolo
 

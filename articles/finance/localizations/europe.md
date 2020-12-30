@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14bc48a0dc118121b75c47f6082a3b4d58fcbadc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977098"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512213"
 ---
 # <a name="europe-overview"></a>Panoramica Europa
 
@@ -99,4 +99,3 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
 
 - [Panoramica dei report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-

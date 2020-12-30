@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187040"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444900"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
@@ -53,7 +53,7 @@ Se ad esempio si seleziona **Annuale**, l'ammortamento annuale viene registrato 
 Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, viene utilizzato l'ammortamento a quote costanti basato sulla vita utile rimanente, calcolato in base agli anni fiscali rimanenti. Se ad esempio l'anno fiscale inizia il 1° luglio 2015 e termina il 30 giugno 2016, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato per ciascun periodo fiscale. La durata dell'anno fiscale successivo si baserà sui periodi fiscali impostati nella pagina **Calendari fiscali**. Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 -   L'opzione **Annuale** registra l'importo totale dell'ammortamento che viene calcolato per l'anno fiscale come importo unico nell'ultimo giorno dell'anno fiscale.
--   **Periodo fiscale**calcola l'importo totale dell'ammortamento per l'anno fiscale. L'importo totale viene quindi attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali** per il calendario fiscale specificato per il libro.
+-   **Periodo fiscale** calcola l'importo totale dell'ammortamento per l'anno fiscale. L'importo totale viene quindi attribuito ai periodi fiscali definiti nella pagina **Calendari fiscali** per il calendario fiscale specificato per il libro.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Esempio di ammortamento a quote costanti di un cespite non modificato
 A un cespite sono associate le seguenti caratteristiche.

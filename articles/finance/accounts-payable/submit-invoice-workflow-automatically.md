@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 3387595e41fb03e98bb437588f6de78794ae383f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444626"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Inviare fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti (anteprima)
 

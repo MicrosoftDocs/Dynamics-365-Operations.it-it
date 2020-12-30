@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022545"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644539"
 ---
 # <a name="reimburse-customers"></a>Rimborsare i clienti
 
@@ -33,22 +33,19 @@ In questo articolo viene illustrato come creare transazioni di rimborso per un g
 
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di iniziare.
 
-| Prerequisito                                                            | Descrizione                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Specificare l'importo minimo di rimborso per la persona giuridica.          | Nella pagina **Parametri contabilità clienti** , nell'area **Generale** , nel campo **Rimborso minimo** , immettere l'importo minimo rimborsabile per le eccedenze di pagamento del cliente. |
-| Facoltativo: aggiungere un conto fornitore a ciascun cliente che può essere rimborsato. | Nella pagina **Clienti** , nella scheda dettaglio **Dettagli vari** , nel campo **Conto fornitore** , selezionare il conto fornitore per il cliente.                                           |
+| Prerequisito                                                            | Descrizione |
+|-------------------------------------------------------------------------|-------------|
+| Specificare l'importo minimo di rimborso per la persona giuridica.          | Nella pagina **Parametri contabilità clienti**, nell'area **Generale**, nel campo **Rimborso minimo**, immettere l'importo minimo rimborsabile per le eccedenze di pagamento del cliente. |
+| Facoltativo: aggiungere un conto fornitore a ciascun cliente che può essere rimborsato. | Nella pagina **Clienti**, nella scheda dettaglio **Dettagli vari**, nel campo **Conto fornitore**, selezionare il conto fornitore per il cliente. |
 
 Quando si creano le transazioni di rimborso, viene creata una fattura fornitore per l'importo del saldo in Avere. Il processo di rimborso rimuove il saldo in Avere per il conto cliente e crea un saldo esigibile per il conto fornitore corrispondente al cliente.
 
-1.  In Contabilità clienti, eseguire il processo **Rimborso**.
-2.  Eseguire uno dei passaggi riportati di seguito.
-    -   Per effettuare il rimborso su specifici conti cliente, fare clic su **Seleziona** , quindi specificare i conti cliente nella query.
-    -   Per effettuare il rimborso su tutti i conti cliente, scegliere **OK**.
+1. In Contabilità clienti, esegui il processo **Rimborso** (**Contabilità clienti \> Attività periodiche \> Rimborso**).
+2. Per raggruppare tutte le transazioni, indipendentemente dalle dimensioni del libro mastro, imposta l'opzione **Riepiloga cliente** su **Sì**. Per raggruppare solo transazioni con dimensioni contabili simili, imposta l'opzione su **No**.
+3. Seleziona **Includi clienti con transazioni di addebito in sospeso** per selezionare i clienti che hanno importi di addebito non liquidati.
+4. Per rimborsare conti di clienti specifici, nella scheda dettaglio **Record da includere**, elezionare **Filtro** e quindi specificare i conti del cliente nella query.
 
     Gli importi in Avere verranno trasferiti nei conti fornitore dei clienti ed elaborati come normali pagamenti. Se un cliente non dispone di conto fornitore, verrà creato automaticamente un conto fornitore occasionale per il cliente.
-3.  Per visualizzare le transazioni di rimborso create, utilizzare la pagina **Rimborso**.
-4.  In Contabilità fornitori, creare un pagamento per le fatture fornitore create dal processo di rimborso.
 
-
-
-
+5. Per visualizzare le transazioni di rimborso create, utilizza il report **Rimborso** (**Contabilità clienti \> Richieste di informazioni e report \> Report di rimborso**).
+6. In Contabilità fornitori, creare un pagamento per le fatture fornitore create dal processo di rimborso. Per informazioni su come pagare i fornitori, vedi [Panoramica dei pagamenti del fornitore](../accounts-payable/Vendor-payments-workspace.md).

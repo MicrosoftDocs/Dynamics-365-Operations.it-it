@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444629"
 ---
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidare un pagamento fornitore parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 
@@ -66,7 +66,7 @@ April, quindi, registra il pagamento. La fattura ora ha un saldo pari a 700,00. 
 | DISC-10020 | Sconto di cassa    | 7/1/2015  |         | 3,00                                 |                                       | 0,00    | GBP      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Pagamento rimanente il 15 luglio, Utilizzare lo sconto di cassa = normale
-April paga il resto della fattura il 15 luglio, che è dopo il periodo di sconto. Nella pagina **Liquida transazioni aperte** nessun importo di sconto viene visualizzato nel campo **Sconto di cassa stimato**e il valore nel campo **Importo sconto di cassa** è **0,00**. Quando April paga i 700,00 rimanenti, nessuno sconto aggiuntivo verrà applicato.
+April paga il resto della fattura il 15 luglio, che è dopo il periodo di sconto. Nella pagina **Liquida transazioni aperte** nessun importo di sconto viene visualizzato nel campo **Sconto di cassa stimato** e il valore nel campo **Importo sconto di cassa** è **0,00**. Quando April paga i 700,00 rimanenti, nessuno sconto aggiuntivo verrà applicato.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

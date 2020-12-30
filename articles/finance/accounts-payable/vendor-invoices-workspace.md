@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000797"
+ms.locfileid: "4444943"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Area di lavoro per l'immissione della fattura fornitore
 
@@ -39,7 +39,7 @@ Nell'area di lavoro **Inserimento fatture fornitore** vengono visualizzate le in
 
 È necessario completare questa configurazione prima che i dati possano essere visualizzati nelle visualizzazioni Power BI nell'area di lavoro **Inserimento fatture fornitore**.
 
-1. Nell'area di lavoro **Gestione delle funzionalità** , filtrare l'elenco per trovare la funzionalità **Automazione fatture fornitore**.
+1. Nell'area di lavoro **Gestione delle funzionalità**, filtrare l'elenco per trovare la funzionalità **Automazione fatture fornitore**.
 3. Selezionare **Abilita ora**.
 4. Per garantire che le fatture possano essere elaborate dall'inizio alla fine senza richiedere un intervento manuale, impostare un flusso di lavoro di fatturazione fornitore. Per configurare un flusso di lavoro, vai a **Contabilità fornitori \> Imposta \> Flussi di lavoro contabilità fornitori**.
 5. Andare a **Contabilità fornitori \> Imposta \> Parametri contabilità fornitori** e selezionare la scheda **Automazione fatture fornitore**. Per ulteriori informazioni, vedere [Opzioni di configurazione per l'automazione delle fatture fornitore](vnd-invoice-set-up-options.md).
@@ -72,13 +72,13 @@ I riquadri nella sezione **Riepilogo fatture in sospeso** della visualizzazione 
 
 Per utilizzare il riquadro **Recupera fatture fornitore** la funzione deve essere attivata nei parametri della contabilità fornitori. Andare a **Contabilità fornitori \> Parametri contabilità fornitori** e quindi nella scheda **Fattura** impostare l'opzione **Consenti recupero fattura fornitore** su **Sì**.
 
-Quando la funzione è attiva, verranno raggruppati anche tre riquadri nell'area di lavoro in una sezione chiamata **Giornali di registrazione**. I riquadri sono intitolati **Giornali di registrazione** , **Giornali di registrazione - Assegnati all'utente corrente** e **Pool di fatture**. 
+Quando la funzione è attiva, verranno raggruppati anche tre riquadri nell'area di lavoro in una sezione chiamata **Giornali di registrazione**. I riquadri sono intitolati **Giornali di registrazione**, **Giornali di registrazione - Assegnati all'utente corrente** e **Pool di fatture**. 
 
 Le informazioni nella sezione **Riepilogo fatture in sospeso** è per la società impostata come società predefinita per l'accesso.
 
 ### <a name="creating-new-records"></a>Creazione di nuovi record
 
-Per creare un nuovo record di fattura, selezionare **Nuovo** , quindi selezionare uno dei seguenti tipi di record nell'elenco:
+Per creare un nuovo record di fattura, selezionare **Nuovo**, quindi selezionare uno dei seguenti tipi di record nell'elenco:
 
 - Fattura fornitore
 - Giornale di registrazione fatture
@@ -102,7 +102,7 @@ Nella griglia **Trova ordine di acquisto** è possibile usare il campo **Ricerca
 
 ### <a name="related-information"></a>Informazioni correlate
 
-È possibile visualizzare le informazioni sulle fatture registrate utilizzando i collegamenti sul lato destro dell'area di lavoro. Questi collegamenti includono **Fatture fornitore aperte** , **Giornale di registrazione fatture** e **Cronologia fatture e dettagli corrispondenti**. Nella sezione **Fornitori** è possibile accedere a un elenco filtrato che mostra tutti i fornitori in attesa oppure utilizzare il collegamento **Tutti i fornitori**. I collegamenti **Tutti gli ordini di acquisto** e **Pagamenti anticipati aperti** sono anche disponibili.
+È possibile visualizzare le informazioni sulle fatture registrate utilizzando i collegamenti sul lato destro dell'area di lavoro. Questi collegamenti includono **Fatture fornitore aperte**, **Giornale di registrazione fatture** e **Cronologia fatture e dettagli corrispondenti**. Nella sezione **Fornitori** è possibile accedere a un elenco filtrato che mostra tutti i fornitori in attesa oppure utilizzare il collegamento **Tutti i fornitori**. I collegamenti **Tutti gli ordini di acquisto** e **Pagamenti anticipati aperti** sono anche disponibili.
 
 ### <a name="analytics--all-companies-page"></a>Pagina Analisi - Tutte le società
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250330"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4445009"
 ---
 # <a name="financial-period-close-workspace"></a>Area di lavoro chiusura periodo finanziario
 
@@ -52,7 +52,7 @@ Due indicatori vengono utilizzati per le attività:
 -   L'icona del punto esclamativo indica che l'attività è scaduta. Per le attività già scadute, anche la data di scadenza viene evidenziata in rosso.
 -   Un'icona di un lucchetto indica che l'attività dipende da altre attività non ancora completate. Un'attività che viene bloccata dalle dipendenze non può essere contrassegnata come completata. È possibile impostare le dipendenze per un'attività utilizzando l'azione **Imposta dipendenza**.
 
-Il nome dell'attività è un collegamento ipertestuale alla pagina alla quale l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale utilizzando il campo **Collegamento attività** quando si modifica o si crea un'attività. 
+Il nome dell'attività è un collegamento ipertestuale alla pagina a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale utilizzando il campo **Collegamento attività** quando si modifica o si crea un'attività. 
 
 È possibile collegare file, note, immagini e URL a un'attività utilizzando l'azione **Allegati**. Ad esempio, è possibile indicare i numeri di giornale di registrazione utilizzati come parte di un'attività, aggiungere commenti su un'attività specifica, o collegare un file di report stampato per un'attività. Un'icona viene visualizzata nella colonna **Allegato** per l'attività se un allegato è presente. 
 

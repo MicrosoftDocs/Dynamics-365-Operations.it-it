@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015009"
+ms.locfileid: "4444954"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento cliente parziale con sconti sulle note di accredito
 
@@ -51,11 +51,11 @@ Nella pagina **Transazioni cliente** Arnie apre la pagina **Liquida transazioni*
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**.
 
-- **Data sconto di cassa** : 12/7/2015 
-- **Importo sconto di cassa** : -1,00     
-- **Utilizzare lo sconto di cassa** : Normale    
-- **Sconto di cassa applicato** : 0,00      
-- **Importo sconto di cassa da applicare** : -1,00     
+- **Data sconto di cassa**: 12/7/2015 
+- **Importo sconto di cassa**: -1,00     
+- **Utilizzare lo sconto di cassa**: Normale    
+- **Sconto di cassa applicato**: 0,00      
+- **Importo sconto di cassa da applicare**: -1,00     
 
 La liquidazione sarà di 100,00 e includerà un pagamento di 99,00 e uno sconto di 1,00.
 

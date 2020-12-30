@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006168"
+ms.locfileid: "4444948"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -250,7 +250,7 @@ La pagina **Dettagli scrittura contabile saldo costi oggetto di costo** che vien
 | CC003       | Assemblaggio     | SC-CC002 | Dati finanziari         | 11.527,75   | 31-01-2017 |
 | CC004       | Imballaggio    | SC-CC002 | Dati finanziari         | 6.207,25    | 31-01-2017 |
 
-Dopo aver completato il **calcolo dei costi generali** , è possibile segnalare i risultati utilizzando strumenti quali l'area di lavoro Microsoft SharePoint, Excel o Power BI.
+Dopo aver completato il **calcolo dei costi generali**, è possibile segnalare i risultati utilizzando strumenti quali l'area di lavoro Microsoft SharePoint, Excel o Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Visualizzare i report in Excel 
 

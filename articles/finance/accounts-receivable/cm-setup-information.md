@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977889"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444655"
 ---
 # <a name="credit-management-setup"></a>Impostazione di Gestione crediti 
 
@@ -85,7 +85,7 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 È possibile creare stati di conto nella pagina **Stati conto** (**Credito e riscossioni \> Impostazione > Impostazione gestione crediti \> Stati conto**).
 
 1. Aggiungere uno stato di conto e inserire una descrizione che rappresenti la solvibilità di un cliente. Ad esempio, utilizzare **Normale** per indicare che la solvibilità di un cliente è buona e che gli ordini aperti sono soggetti a un'elaborazione standard della gestione dei crediti.
-2. Nei campi **Fatturazione**e **Consegna sospesa**, selezionare il tipo di sospensione che dovrebbe verificarsi per i clienti con questo stato di conto. È possibile sospendere tutta l'elaborazione, solo l'elaborazione delle fatture o nessuna elaborazione quando vengono applicate le regole del limite di credito.
+2. Nei campi **Fatturazione** e **Consegna sospesa**, selezionare il tipo di sospensione che dovrebbe verificarsi per i clienti con questo stato di conto. È possibile sospendere tutta l'elaborazione, solo l'elaborazione delle fatture o nessuna elaborazione quando vengono applicate le regole del limite di credito.
 
 ## <a name="scoring-groups"></a>Gruppi di punteggio
 
