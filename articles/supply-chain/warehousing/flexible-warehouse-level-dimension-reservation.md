@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017646"
+ms.locfileid: "4431476"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -70,14 +70,14 @@ Quando il livello **Numero batch** nella gerarchia è selezionato, tutte le dime
 >
 > **Numero batch** e **Targa** sono gli unici livelli nella gerarchia che sono aperti per i criteri di prenotazione flessibili. In altre parole, non è possibile selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Ubicazione** o **Numero di serie**.
 >
-> Se la gerarchia di prenotazioni include la dimensione numero di serie (che deve essere sempre inferiore al livello **Numero batch** ) e la prenotazione specifica al batch per il numero di batch, il sistema continuerà a gestire le operazioni di prenotazione e prelievo di numeri di serie, in base alle regole che si applicano ai criteri di prenotazione "Serial-below\[location\]".
+> Se la gerarchia di prenotazioni include la dimensione numero di serie (che deve essere sempre inferiore al livello **Numero batch**) e la prenotazione specifica al batch per il numero di batch, il sistema continuerà a gestire le operazioni di prenotazione e prelievo di numeri di serie, in base alle regole che si applicano ai criteri di prenotazione "Serial-below\[location\]".
 
-In qualsiasi momento, è possibile consentire la prenotazione specifica al batch per una gerarchia di prenotazioni "Batch-below\[location\]" esistente nella distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni e i lavori di magazzino aperti creati prima della modifica. Tuttavia, la casella di controllo **Consenti prenotazione su ordine con domanda** non può essere deselezionata se esistono operazioni di magazzino problematiche di tipo **Ordinato prenotato** , **Fisico prenotato** o **Ordinato** per uno o più articoli associati a quella gerarchia di prenotazioni.
+In qualsiasi momento, è possibile consentire la prenotazione specifica al batch per una gerarchia di prenotazioni "Batch-below\[location\]" esistente nella distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni e i lavori di magazzino aperti creati prima della modifica. Tuttavia, la casella di controllo **Consenti prenotazione su ordine con domanda** non può essere deselezionata se esistono operazioni di magazzino problematiche di tipo **Ordinato prenotato**, **Fisico prenotato** o **Ordinato** per uno o più articoli associati a quella gerarchia di prenotazioni.
 
 > [!NOTE]
 > Se la gerarchia di prenotazioni esistente di un articolo non consente la specifica del batch nell'ordine, è possibile riassegnarlo a una gerarchia di prenotazioni che consente la specifica del batch, a condizione che la struttura a livello di gerarchia sia la stessa in entrambe le gerarchie. Utilizzare la funzione **Modifica gerarchia prenotazioni per articoli** per eseguire la riassegnazione. Questa modifica potrebbe essere pertinente quando si desidera impedire la prenotazione flessibile di batch per un sottoinsieme di articoli tracciati in batch ma consentirla per il resto del portafoglio prodotti.
 
-Indipendentemente dalla selezione o meno della casella di controllo **Consenti prenotazione su ordine con domanda** , se non si desidera prenotare uno specifico numero di batch per l'articolo in una riga ordine, la logica delle operazioni di magazzino predefinita che è valida per una gerarchia di prenotazioni "Batch-below\[location\]" verrà comunque applicata.
+Indipendentemente dalla selezione o meno della casella di controllo **Consenti prenotazione su ordine con domanda**, se non si desidera prenotare uno specifico numero di batch per l'articolo in una riga ordine, la logica delle operazioni di magazzino predefinita che è valida per una gerarchia di prenotazioni "Batch-below\[location\]" verrà comunque applicata.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Prenotare un numero di batch specifico per un ordine cliente
 
@@ -102,19 +102,19 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 1. Selezionare **Gestione magazzino** \> **Impostazione** \> **Scorte \> Gerarchia prenotazioni**.
 2. Selezionare **Nuovo**.
-3. Nel campo **Nome** , immettere un nome (ad esempio **BatchFles** ).
-4. Nel campo **Descrizione** , immettere una descrizione (ad esempio, **Batch below flessibile** ).
-5. Nel campo **Selezionato** , selezionare **Numero di serie** e **Proprietario** , quindi selezionare il pulsante freccia sinistra per spostarli nel campo **Disponibile**.
+3. Nel campo **Nome**, immettere un nome (ad esempio **BatchFles**).
+4. Nel campo **Descrizione**, immettere una descrizione (ad esempio, **Batch below flessibile**).
+5. Nel campo **Selezionato**, selezionare **Numero di serie** e **Proprietario**, quindi selezionare il pulsante freccia sinistra per spostarli nel campo **Disponibile**.
 6. Selezionare **OK**.
-7. Nella riga per il livello di dimensione **Numero batch** , selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. I livelli **Targa** e **Ubicazione** vengono selezionati automaticamente e non è possibile deselezionare le caselle di controllo corrispondenti.
+7. Nella riga per il livello di dimensione **Numero batch**, selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. I livelli **Targa** e **Ubicazione** vengono selezionati automaticamente e non è possibile deselezionare le caselle di controllo corrispondenti.
 8. Selezionare **Salva**.
 
 ### <a name="create-a-new-released-product"></a>Creare un nuovo prodotto rilasciato
 
 1. Impostare i tre parametri di dati master del prodotto utilizzando questi valori:
 
-    - Nel campo **Gruppo di dimensioni di immagazzinamento** , selezionare **Magaz**.
-    - Nel campo **Gruppo di dimensioni di tracciabilità** , selezionare **Batch-Fis**.
+    - Nel campo **Gruppo di dimensioni di immagazzinamento**, selezionare **Magaz**.
+    - Nel campo **Gruppo di dimensioni di tracciabilità**, selezionare **Batch-Fis**.
     - Nel campo **Gerarchia prenotazioni** selezionare **BatchFles**.
 
 2. Creare due numeri di batch ad esempio **B11** e **B22**.
@@ -130,23 +130,23 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 1. Andare a **Vendite e marketing** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
 2. Selezionare **Nuovo**.
-3. Nell'intestazione dell'ordine cliente, nel campo **Conto cliente** , immettere **US-003**.
+3. Nell'intestazione dell'ordine cliente, nel campo **Conto cliente**, immettere **US-003**.
 4. Aggiungere una riga per il nuovo articolo e immettere **10** come quantità. Assicurarsi che il campo **Magazzino** sia impostato su **24**.
-5. Nella scheda dettaglio **Righe ordine cliente** selezionare **Scorte** e quindi nel gruppo **Gestisci** , selezionare **Prenotazione batch**. La pagina **Prenotazione batch** mostra un elenco di batch disponibili per la prenotazione per la riga ordine. Per questo esempio, mostra una quantità **20** per il numero di batch **B11** e una quantità **10** per il numero di batch **B22**. Si noti che non è possibile accedere alla pagina **Prenotazione batch** da una riga se l'articolo in quella riga è associato alla gerarchia di prenotazioni "Batch-below\[location\]" a meno che non sia impostata per consentire la prenotazione specifica al batch.
+5. Nella scheda dettaglio **Righe ordine cliente** selezionare **Scorte** e quindi nel gruppo **Gestisci**, selezionare **Prenotazione batch**. La pagina **Prenotazione batch** mostra un elenco di batch disponibili per la prenotazione per la riga ordine. Per questo esempio, mostra una quantità **20** per il numero di batch **B11** e una quantità **10** per il numero di batch **B22**. Si noti che non è possibile accedere alla pagina **Prenotazione batch** da una riga se l'articolo in quella riga è associato alla gerarchia di prenotazioni "Batch-below\[location\]" a meno che non sia impostata per consentire la prenotazione specifica al batch.
 
     > [!NOTE]
     > Per prenotare un batch specifico per un ordine cliente, è necessario utilizzare la pagina **Prenotazione batch**.
     >
     > Se si inserisce il numero di batch direttamente nella riga ordine cliente, il sistema si comporterà come se si fosse immesso un valore di batch specifico per un articolo che è soggetto ai criteri di prenotazione "Batch-below\[location\]". Quando si salva la riga, viene visualizzato un messaggio di avviso. Se si conferma che il numero di batch deve essere specificato direttamente nella riga ordine, la riga non verrà gestita dalla logica di gestione del magazzino normale.
     >
-    > Se si prenota la quantità nella pagina **Prenotazione** , non verrà prenotato alcun batch specifico e l'esecuzione delle operazioni di magazzino per la riga seguirà le regole applicabili in base ai criteri di prenotazione "Batch-below\[location\]".
+    > Se si prenota la quantità nella pagina **Prenotazione**, non verrà prenotato alcun batch specifico e l'esecuzione delle operazioni di magazzino per la riga seguirà le regole applicabili in base ai criteri di prenotazione "Batch-below\[location\]".
 
     In genere, questa pagina funziona e interagisce nello stesso modo in cui funziona e interagisce con gli articoli a cui è associata una gerarchia di prenotazioni di tipo "Batch-above\[location\]". Tuttavia, si applicano le seguenti eccezioni:
 
-    - La scheda dettaglio **Numeri di batch impegnati nella riga di origine** mostra i numeri di batch prenotati per la riga ordine. I valori batch nella griglia verranno visualizzati durante l'intero ciclo di evasione della riga ordine, comprese le fasi di elaborazione del magazzino. Invece, nella scheda dettaglio **Panoramica** , la prenotazione normale nella riga ordine (ovvero la prenotazione effettuata per le dimensioni superiori al livello **Ubicazione** ) viene visualizzata nella griglia fino al momento in cui viene creato il lavoro di magazzino. L'entità di lavoro gestisce quindi la prenotazione nella riga e questa non viene più visualizzata nella pagina. La scheda dettaglio **Numeri batch impegnati nella riga di origine** consente al gestore degli ordini cliente di visualizzare i numeri di batch che sono stati impegnati nell'ordine del cliente in qualsiasi momento durante il relativo ciclo di vita, fino alla fatturazione.
+    - La scheda dettaglio **Numeri di batch impegnati nella riga di origine** mostra i numeri di batch prenotati per la riga ordine. I valori batch nella griglia verranno visualizzati durante l'intero ciclo di evasione della riga ordine, comprese le fasi di elaborazione del magazzino. Invece, nella scheda dettaglio **Panoramica**, la prenotazione normale nella riga ordine (ovvero la prenotazione effettuata per le dimensioni superiori al livello **Ubicazione**) viene visualizzata nella griglia fino al momento in cui viene creato il lavoro di magazzino. L'entità di lavoro gestisce quindi la prenotazione nella riga e questa non viene più visualizzata nella pagina. La scheda dettaglio **Numeri batch impegnati nella riga di origine** consente al gestore degli ordini cliente di visualizzare i numeri di batch che sono stati impegnati nell'ordine del cliente in qualsiasi momento durante il relativo ciclo di vita, fino alla fatturazione.
     - Oltre a prenotare un batch specifico, un utente può selezionare manualmente la targa e l'ubicazione specifiche del batch anziché lasciare al sistema il compito di selezionarli automaticamente. Questa funzionalità è correlata alla progettazione del meccanismo di prenotazione di batch impegnati nell'ordine. Come menzionato precedentemente, quando un numero di batch specifico viene prenotato per un articolo secondo i criteri di prenotazione "Batch-below\[location\]", il sistema deve prenotare tutte le dimensioni fino all'ubicazione. Pertanto, il lavoro di magazzino avrà le stesse dimensioni di immagazzinamento prenotate dagli utenti che hanno lavorato sugli ordini e a volte potrebbe non rappresentare la posizione di stoccaggio degli articoli più conveniente o addirittura possibile per le operazioni di prelievo. Se i gestori degli ordini sono consapevoli dei vincoli inerenti al magazzino, potrebbero voler selezionare manualmente le targhe e le ubicazioni quando prenotano un batch. In questo caso, l'utente deve utilizzare la funzionalità **Visualizza dimensioni** nell'intestazione della pagina e deve aggiungere l'ubicazione e la targa nella griglia della scheda dettaglio **Panoramica**.
 
-6. Nella pagina **Prenotazione batch** , selezionare la riga per il batch **B11** , quindi selezionare **Prenota riga**. Non esiste una logica designata per l'assegnazione di ubicazioni e targhe durante la prenotazione automatica. È possibile inserire manualmente la quantità nel campo **Prenotazione**. Si noti che nella scheda dettaglio **Numeri batch impegnati nella riga di origine** il batch **B11** è visualizzato come **Impegnato**.
+6. Nella pagina **Prenotazione batch**, selezionare la riga per il batch **B11**, quindi selezionare **Prenota riga**. Non esiste una logica designata per l'assegnazione di ubicazioni e targhe durante la prenotazione automatica. È possibile inserire manualmente la quantità nel campo **Prenotazione**. Si noti che nella scheda dettaglio **Numeri batch impegnati nella riga di origine** il batch **B11** è visualizzato come **Impegnato**.
 
     ![Impegnare un numero di batch specifico in una riga ordine cliente nella pagina Prenotazione batch](media/Batch-reservation-form-with-order-committed-reservation.png)
 
@@ -168,7 +168,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Esaminare ed elaborare il lavoro di magazzino che ha numeri di batch impegnati nell'ordine
 
-1. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Magazzino** \> **Dettagli lavoro**.
+1. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Magazzino** \> **Dettagli lavoro**.
 
     Il lavoro che gestisce l'operazione di prelievo per le quantità batch impegnate nella riga ordine cliente presenta le seguenti caratteristiche:
 
@@ -212,9 +212,9 @@ Per abilitare la prenotazione della targa su un ordine, è necessario selezionar
 
 ![Pagina delle gerarchie di prenotazione dell'inventario per una gerarchia di prenotazione flessibile della targa](media/Flexible-LP-reservation-hierarchy.png)
 
-È possibile abilitare la prenotazione della targa sull'ordine in qualsiasi fase della distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni o i lavori di magazzino aperti creati prima della modifica. Tuttavia, non è possibile deselezionare la casella di controllo **Consenti prenotazione su ordine con domanda** se esistono operazioni di magazzino con stato di uscita del tipo *Ordinato prenotato* , *Fisico prenotato* o *Ordinato* per uno o più articoli associati a quella gerarchia di prenotazioni.
+È possibile abilitare la prenotazione della targa sull'ordine in qualsiasi fase della distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni o i lavori di magazzino aperti creati prima della modifica. Tuttavia, non è possibile deselezionare la casella di controllo **Consenti prenotazione su ordine con domanda** se esistono operazioni di magazzino con stato di uscita del tipo *Ordinato prenotato*, *Fisico prenotato* o *Ordinato* per uno o più articoli associati a quella gerarchia di prenotazioni.
 
-Anche se la casella di controllo **Consenti prenotazione su ordine con domanda** è selezionata per il livello **Targa** , è comunque possibile *non* prenotare una targa specifica sull'ordine. In questo caso, si applica la logica delle operazioni di magazzino predefinita valida per la gerarchia di prenotazione.
+Anche se la casella di controllo **Consenti prenotazione su ordine con domanda** è selezionata per il livello **Targa**, è comunque possibile *non* prenotare una targa specifica sull'ordine. In questo caso, si applica la logica delle operazioni di magazzino predefinita valida per la gerarchia di prenotazione.
 
 Per prenotare una targa specifica, è necessario utilizzare un processo [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Nell'applicazione, è possibile effettuare questa prenotazione direttamente da un ordine cliente utilizzando l'opzione **Prenotazioni impegnate su ordine per targa** del comando **Apri in Excel**. Nei dati dell'entità aperti nel componente aggiuntivo di Excel, è necessario inserire i seguenti dati relativi alla prenotazione e quindi selezionare **Pubblica** per inviare nuovamente i dati a Supply Chain Management:
 
@@ -224,7 +224,7 @@ Per prenotare una targa specifica, è necessario utilizzare un processo [Open Da
 - Targa
 - Quantità
 
-Se è necessario prenotare una targa specifica per un articolo tracciato in lotti, utilizzare la pagina **Prenotazione in lotti** , come descritto nella sezione [Immettere i dettagli dell'ordine cliente](#sales-order-details).
+Se è necessario prenotare una targa specifica per un articolo tracciato in lotti, utilizzare la pagina **Prenotazione in lotti**, come descritto nella sezione [Immettere i dettagli dell'ordine cliente](#sales-order-details).
 
 Quando la riga dell'ordine cliente che utilizza una prenotazione della targa impegnata nell'ordine viene elaborata dalle operazioni di magazzino, le direttive di ubicazione non vengono utilizzate.
 
@@ -249,19 +249,19 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
 
 1. Passare a **Gestione magazzino \> Impostazione \> Scorte \> Gerarchia prenotazioni**.
 1. Selezionare **Nuovo**.
-1. Nel campo **Nome** , immettere un valore (ad esempio *FlexibleLP* ).
-1. Nel campo **Descrizione** , immettere un valore (ad esempio, *Prenotazione targa flessibile* ).
-1. Nell'elenco **Selezionato** , selezionare **Numero di lotto** , **Numero di serie** e **Proprietario**.
+1. Nel campo **Nome**, immettere un valore (ad esempio *FlexibleLP*).
+1. Nel campo **Descrizione**, immettere un valore (ad esempio, *Prenotazione targa flessibile*).
+1. Nell'elenco **Selezionato**, selezionare **Numero di lotto**, **Numero di serie** e **Proprietario**.
 1. Selezionare il pulsante **Rimuovi** ![freccia indietro](media/backward-button.png) per spostare i record selezionati sull'elenco **Disponibili**.
 1. Selezionare **OK**.
-1. Nella riga per il livello di dimensione **Targa** , selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. Il livello **Targa** viene selezionato automaticamente e non è possibile deselezionare la casella di controllo corrispondente.
+1. Nella riga per il livello di dimensione **Targa**, selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. Il livello **Targa** viene selezionato automaticamente e non è possibile deselezionare la casella di controllo corrispondente.
 1. Selezionare **Salva**.
 
 ### <a name="create-two-released-products"></a>Creare due prodotti rilasciati
 
 1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Nuovo prodotto rilasciato** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Nuovo prodotto rilasciato**, imposta i seguenti valori:
 
     - **Numero di prodotto:** *Item1*
     - **Numero articolo:** *Item1*
@@ -272,9 +272,9 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
     - **Gerarchia di prenotazione:** *FlexibleLP*
 
 1. Selezionare **OK** per creare il prodotto e chiudere la finestra di dialogo.
-1. Il nuovo prodotto è aperto. Nella Scheda dettaglio **Magazzino** , impostare il campo **ID gruppo di sequenze unità** su *ea*.
+1. Il nuovo prodotto è aperto. Nella Scheda dettaglio **Magazzino**, impostare il campo **ID gruppo di sequenze unità** su *ea*.
 1. Ripetere i passaggi precedenti per creare un secondo prodotto con le stesse impostazioni, ma impostare i campi **Numero prodotto** e **Numero articolo** su *Item2*.
-1. Nel riquadro azioni della scheda **Gestione articoli** , nel gruppo **Visualizza** , selezionare **Scorte disponibili**. Quindi selezionare **Rettifica quantità**.
+1. Nel riquadro azioni della scheda **Gestione articoli**, nel gruppo **Visualizza**, selezionare **Scorte disponibili**. Quindi selezionare **Rettifica quantità**.
 1. Regola le scorte disponibili dei nuovi articoli come specificato nella tabella seguente.
 
     | Articolo  | Magazzino | Posizione | Targa | Quantità |
@@ -291,13 +291,13 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-001*
     - **Magazzino:** *24*
 
 1. Selezionare **OK** per chiudere la finestra di dialogo **Crea ordine cliente** e aprire il nuovo ordine cliente.
-1. Nella Scheda dettaglio **Righe ordine cliente** , aggiungere una riga che abbia le seguenti impostazioni:
+1. Nella Scheda dettaglio **Righe ordine cliente**, aggiungere una riga che abbia le seguenti impostazioni:
 
     - **Numero articolo:** *Item1*
     - **Quantità:** *10*
@@ -308,17 +308,17 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
     - **Quantità:** *5*
 
 1. Selezionare **Salva**.
-1. Nella Scheda dettaglio **Dettagli riga** , nella scheda **Imposta** , prendere nota del valore di **ID lotto** per ogni riga. Questi valori saranno richiesti durante la prenotazione di targhe specifiche.
+1. Nella Scheda dettaglio **Dettagli riga**, nella scheda **Imposta**, prendere nota del valore di **ID lotto** per ogni riga. Questi valori saranno richiesti durante la prenotazione di targhe specifiche.
 
     > [!NOTE]
-    > Per prenotare una targa specifica, è necessario utilizzare l'entità di dati **Prenotazioni impegnate su ordine per targa**. Per prenotare un articolo tracciato in lotti su una targa specifica, è possibile anche utilizzare la pagina **Prenotazione in lotti** , come descritto nella sezione [Immettere i dettagli dell'ordine cliente](#sales-order-details).
+    > Per prenotare una targa specifica, è necessario utilizzare l'entità di dati **Prenotazioni impegnate su ordine per targa**. Per prenotare un articolo tracciato in lotti su una targa specifica, è possibile anche utilizzare la pagina **Prenotazione in lotti**, come descritto nella sezione [Immettere i dettagli dell'ordine cliente](#sales-order-details).
     >
     > Se si immette la targa direttamente nella riga dell'ordine cliente e la si conferma nel sistema, l'elaborazione della gestione del magazzino non verrà utilizzata per la riga.
 
-1. Selezionare **Apri in Microsoft Office** , selezionare **Prenotazioni impegnate su ordine per targa** e scaricare il file.
+1. Selezionare **Apri in Microsoft Office**, selezionare **Prenotazioni impegnate su ordine per targa** e scaricare il file.
 1. Aprire il file scaricato in Excel e selezionare **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire.
 1. Se si esegue per la prima volta il componente aggiuntivo di Excel, selezionare **Considera attendibile questo componente aggiuntivo**.
-1. Se viene richiesto di accedere, selezionare **Accedi** , quindi accedere utilizzando le stesse credenziali usate per l'accesso a Supply Chain Management.
+1. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso a Supply Chain Management.
 1. Per prenotare un articolo su una targa specifica, nel componente aggiuntivo di Excel, selezionare **Nuovo** per aggiungere una riga di prenotazione e quindi impostare i seguenti valori:
 
     - **ID lotto:** immettere il valore **ID lotto** trovato per la riga ordine cliente per *item1*.
@@ -337,17 +337,17 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
     > La riga di prenotazione apparirà nel sistema solo se la pubblicazione viene completata senza errori.
 
 1. Tornare a Supply Chain Management. 
-1. Per rivedere la prenotazione dell'articolo, nella Scheda dettaglio **Righe ordine cliente** , nel menu **Inventario** , selezionare **Gestisci \> Prenotazione**. Tenere presente che, per la riga ordine cliente per *Item1* , vengono prenotate scorte dell'ordine di *10* , mentre per la riga ordine cliente per *Item2* , vengono prenotate scorte pari a *5*.
-1. Per rivedere le transazioni di magazzino correlate alla prenotazione della riga ordine cliente, nella Scheda dettaglio **Righe ordine cliente** , nel menu **Inventario** , selezionare **Visualizza \> Transazioni**. Si noti che esistono due transazioni correlate alla prenotazione: una in cui il campo **Riferimento** è impostato su *Ordine cliente* e una dove il campo **Riferimento** è impostato su *Prenotazione impegnata dall'ordine*.
+1. Per rivedere la prenotazione dell'articolo, nella Scheda dettaglio **Righe ordine cliente**, nel menu **Inventario**, selezionare **Gestisci \> Prenotazione**. Tenere presente che, per la riga ordine cliente per *Item1*, vengono prenotate scorte dell'ordine di *10*, mentre per la riga ordine cliente per *Item2*, vengono prenotate scorte pari a *5*.
+1. Per rivedere le transazioni di magazzino correlate alla prenotazione della riga ordine cliente, nella Scheda dettaglio **Righe ordine cliente**, nel menu **Inventario**, selezionare **Visualizza \> Transazioni**. Si noti che esistono due transazioni correlate alla prenotazione: una in cui il campo **Riferimento** è impostato su *Ordine cliente* e una dove il campo **Riferimento** è impostato su *Prenotazione impegnata dall'ordine*.
 
     > [!NOTE]
     > Una transazione in cui il campo **Riferimento** è impostato su *Ordine cliente* rappresenta la prenotazione nella riga ordine per le dimensioni inventariali superiori al livello **Ubicazione** (sito, magazzino e stato inventario). Una transazione in cui il campo **Riferimento** è impostato su *Prenotazione impegnata dall'ordine* rappresenta la prenotazione della riga ordine per la targa e l'ubicazione specifiche.
 
-1. Per rilasciare l'ordine cliente, nel riquadro azioni, nella scheda **Magazzino** , nel gruppo **Azioni** , selezionare **Rilascia in magazzino**.
+1. Per rilasciare l'ordine cliente, nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Rivedere ed elaborare il lavoro di magazzino con le targhe impegnate dagli ordini assegnate
 
-1. Nella scheda dettaglio **Righe ordine cliente** , nel menu **Magazzino** , seleziona **Dettagli lavoro**.
+1. Nella scheda dettaglio **Righe ordine cliente**, nel menu **Magazzino**, seleziona **Dettagli lavoro**.
 
     Come quando viene effettuata la prenotazione per un batch specifico, il sistema non utilizza le direttive di ubicazione quando crea il lavoro per l'ordine cliente vendita che utilizza la prenotazione della targa. Poiché la prenotazione impegnata nell'ordine specifica tutte le dimensioni inventariali, inclusa l'ubicazione, non è necessario utilizzare le direttive di ubicazione, poiché tali dimensioni inventariali vengono solo inserite nel lavoro. Vengono mostrate nella sezione **Dalle dimensioni inventariali** della pagina **Transazioni di inventario lavoro**.
 
@@ -375,10 +375,10 @@ Un esempio di questo scenario è una situazione in cui il prelievo di un lavoro 
 
 1. Selezionare **Gestione magazzino** \> **Carichi** \> **Carichi attivi**.
 2. Seleziona il carico che è stato creato in relazione alla spedizione dell'ordine cliente.
-3. Nella scheda dettaglio **Carica righe ordine** , selezionare **Riduci quantità prelevata**.
-4. Nella pagina **Riduce quantità prelevata** , nel campo **Sposta nell'ubicazione** , seleziona **FL-001**.
+3. Nella scheda dettaglio **Carica righe ordine**, selezionare **Riduci quantità prelevata**.
+4. Nella pagina **Riduce quantità prelevata**, nel campo **Sposta nell'ubicazione**, seleziona **FL-001**.
 5. Nel campo **Passa a targa** selezionare **LP33**.
-6. Nella griglia, nel campo **Quantità inventario per annullamento prelievo** , immettere **10**.
+6. Nella griglia, nel campo **Quantità inventario per annullamento prelievo**, immettere **10**.
 7. Selezionare **OK**.
 
 Di seguito sono riportati i risultati dell'azione di annullamento del prelievo:
@@ -512,7 +512,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 #### <a name="move-an-item-within-a-warehouse"></a>Spostare un articolo in un magazzino
 
 > [!NOTE]
-> Questa azione di magazzino è applicabile solo a un movimento di tipo **Processo di creazione lavoro** , non al movimento per modello.
+> Questa azione di magazzino è applicabile solo a un movimento di tipo **Processo di creazione lavoro**, non al movimento per modello.
 
 <table>
 <thead>

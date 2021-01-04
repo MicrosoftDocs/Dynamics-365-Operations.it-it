@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016173"
+ms.locfileid: "4431508"
 ---
 # <a name="cluster-position-full"></a>Posizione cluster piena
 
@@ -33,7 +33,7 @@ Questa funzione introduce la possibilità di eseguire il pulsante **Completo** s
 
 ## <a name="turn-on-the-cluster-position-full-feature"></a>Attivare la funzionalità Posizione cluster piena
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Posizione cluster piena*
@@ -54,7 +54,7 @@ Per elaborare lo [scenario di esempio](#example-scenario) utilizzando i record e
 
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Profili cluster**.
 1. Nel riquadro elenco, selezionare il record **Crea cluster**.
-1. Nella Scheda dettaglio **Generale** , verificare i seguenti valori:
+1. Nella Scheda dettaglio **Generale**, verificare i seguenti valori:
 
     - **Genera ID cluster:** *Sì*
     - **Attiva posizioni:** *Sì*
@@ -94,7 +94,7 @@ Per elaborare lo [scenario di esempio](#example-scenario) utilizzando i record e
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.
 1. Nel riquadro elenco, selezionare il record **Creazione prelievo del cluster**.
 1. Nel riquadro azioni, selezionare **Modifica**.
-1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
 
     - **Diretto da:** *Prelievo del cluster*
     - **Genera targa:** *Sì*
@@ -131,19 +131,19 @@ Prima di poter iniziare il prelievo dei cluster, è necessario creare del lavoro
 
 1. Accedere a **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare l'ordine cliente 1.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-010*
     - **Magazzino:** *61*
 
 1. Selezionare **OK**.
-1. Viene aperto il nuovo ordine cliente. Nella Scheda dettaglio **Righe ordine cliente** , aggiungere una riga che abbia le seguenti impostazioni:
+1. Viene aperto il nuovo ordine cliente. Nella Scheda dettaglio **Righe ordine cliente**, aggiungere una riga che abbia le seguenti impostazioni:
 
     - **Numero articolo:** *T0100*
     - **Quantità:** *5*
 
 1. Nella scheda dettaglio **Dettagli riga** nella scheda **Consegna** impostare il campo **Data di consegna confermata** sulla data di oggi.
-1. Nella Scheda dettaglio **Righe ordine cliente** , aggiungere una seconda riga che abbia le seguenti impostazioni:
+1. Nella Scheda dettaglio **Righe ordine cliente**, aggiungere una seconda riga che abbia le seguenti impostazioni:
 
     - **Numero articolo:** *L0101*
     - **Quantità:** *20*
@@ -152,11 +152,11 @@ Prima di poter iniziare il prelievo dei cluster, è necessario creare del lavoro
 1. Per ogni riga che appena aggiunta, seguire questi passaggi per prenotare le scorte:
 
     1. Selezionare la riga da prenotare.
-    2. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Scorte \> Prenotazione**.
-    3. Nella pagina **Prenotazione** , quindi nel riquadro azioni, selezionare **Prenota lotto** per prenotare le scorte.
+    2. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Scorte \> Prenotazione**.
+    3. Nella pagina **Prenotazione**, quindi nel riquadro azioni, selezionare **Prenota lotto** per prenotare le scorte.
     4. Chiudi la pagina **Prenotazione**.
 
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
 
     Quando il rilascio è completato, verranno ricevuti messaggi informativi che mostrano l'ID ondata e l'ID carico creati.
 
@@ -164,19 +164,19 @@ Prima di poter iniziare il prelievo dei cluster, è necessario creare del lavoro
 
 1. Accedere a **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare l'ordine cliente 2.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-011*
     - **Magazzino:** *61*
 
 1. Selezionare **OK**.
-1. Viene aperto il nuovo ordine cliente. Nella Scheda dettaglio **Righe ordine cliente** , aggiungere una riga che abbia le seguenti impostazioni:
+1. Viene aperto il nuovo ordine cliente. Nella Scheda dettaglio **Righe ordine cliente**, aggiungere una riga che abbia le seguenti impostazioni:
 
     - **Numero articolo:** *L0101*
     - **Quantità:** *20*
 
 1. Nella scheda dettaglio **Dettagli riga** nella scheda **Consegna** impostare il campo **Data di consegna confermata** sulla data di oggi.
-1. Nella Scheda dettaglio **Righe ordine cliente** , aggiungere una seconda riga che abbia le seguenti impostazioni:
+1. Nella Scheda dettaglio **Righe ordine cliente**, aggiungere una seconda riga che abbia le seguenti impostazioni:
 
     - **Numero articolo:** *T0100*
     - **Quantità:** *2*
@@ -185,11 +185,11 @@ Prima di poter iniziare il prelievo dei cluster, è necessario creare del lavoro
 1. Per ogni riga che appena aggiunta, seguire questi passaggi per prenotare le scorte:
 
     1. Selezionare la riga da prenotare.
-    2. Nella scheda dettaglio **Righe ordine cliente** , selezionare **Scorte \> Prenotazione**.
-    3. Nella pagina **Prenotazione** , quindi nel riquadro azioni, selezionare **Prenota lotto** per prenotare le scorte.
+    2. Nella scheda dettaglio **Righe ordine cliente**, selezionare **Scorte \> Prenotazione**.
+    3. Nella pagina **Prenotazione**, quindi nel riquadro azioni, selezionare **Prenota lotto** per prenotare le scorte.
     4. Chiudi la pagina **Prenotazione**.
 
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
 
     Quando il rilascio è completato, verranno ricevuti messaggi informativi che mostrano l'ID ondata e l'ID carico creati.
 
@@ -202,7 +202,7 @@ Dovrebbero essere stati creati due ID lavoro, ciascuno dei quali ha due righe di
 1. Selezionare la riga per ogni ordine cliente per visualizzare le informazioni correlate nella griglia **Righe**. Prendere nota della posizione da cui verrà prelevato ogni articolo.
 1. Passare a **Gestione articoli \> Richieste di informazioni e report \> Scorte disponibili**.
 1. Nel riquadro azioni, scegliere **Dimensioni** per aprire la finestra di dialogo **Visualizzazione dimensioni**.
-1. Assicurarsi che le caselle di controllo **Targa** , **Magazzino** e **Numero articolo** siano selezionate, quindi selezionare **OK**.
+1. Assicurarsi che le caselle di controllo **Targa**, **Magazzino** e **Numero articolo** siano selezionate, quindi selezionare **OK**.
 1. Nel riquadro **Filtro** impostare i seguenti filtri:
 
     - **Numero articolo** - **è uno tra** - *L0101* e *T100*
@@ -237,10 +237,10 @@ In qualsiasi momento durante i seguenti passaggi, è possibile selezionare la sc
 
     Viene visualizzata la pagina **ATTIVITÀ: Ordinamento: Creazione prelievo del cluster**. Qui, i due pallet prelevati vengono ordinati in una posizione di prelievo. Questa posizione potrebbe essere un totalizzatore o un contenitore utilizzato per separare le scorte prelevate dall'ordine cliente.
 
-1. Visualizzare i dettagli mostrati per l'articolo ( *L0101* ) e la quantità ( *20* ea) che verrà ordinato nella posizione 1 (per l'ordine cliente 1).
+1. Visualizzare i dettagli mostrati per l'articolo (*L0101*) e la quantità (*20* ea) che verrà ordinato nella posizione 1 (per l'ordine cliente 1).
 1. Impostare il campo **NOME POSIZIONE** su *1*.
 1. Selezionare **OK** (segno di spunta).
-1. Visualizzare i dettagli mostrati per l'articolo ( *L0101* ) e la quantità ( *20* ea) che verrà ordinato nella posizione 2 (per l'ordine cliente 2).
+1. Visualizzare i dettagli mostrati per l'articolo (*L0101*) e la quantità (*20* ea) che verrà ordinato nella posizione 2 (per l'ordine cliente 2).
 1. Impostare il campo **NOME POSIZIONE** su *2*.
 1. Selezionare **OK** (segno di spunta).
 
@@ -259,10 +259,10 @@ In questo scenario, la posizione 1 non può accettare l'intera quantità di arti
 1. Selezionare **OK** (segno di spunta).
 1. Immettere la targa da cui viene prelevato l'articolo impostando il campo **LP** su *LPREPL04*.
 1. Selezionare **OK** (segno di spunta).
-1. Visualizzare i dettagli mostrati per l'articolo ( *T0100* ) e la quantità ( *2* ea) che verrà ordinato nella posizione 2 (per l'ordine cliente 2).
+1. Visualizzare i dettagli mostrati per l'articolo (*T0100*) e la quantità (*2* ea) che verrà ordinato nella posizione 2 (per l'ordine cliente 2).
 1. Impostare il campo **NOME POSIZIONE** su *2*.
 1. Selezionare **OK** (segno di spunta).
-1. Visualizzare i dettagli mostrati per l'articolo ( *T0100* ) e la quantità ( *2* ea) che verrà ordinato nella posizione 1 (per l'ordine cliente 1).
+1. Visualizzare i dettagli mostrati per l'articolo (*T0100*) e la quantità (*2* ea) che verrà ordinato nella posizione 1 (per l'ordine cliente 1).
 1. Impostare il campo **NOME POSIZIONE** su *1*.
 1. Selezionare **OK** (segno di spunta).
 

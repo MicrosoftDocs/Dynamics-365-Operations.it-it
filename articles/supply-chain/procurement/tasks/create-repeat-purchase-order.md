@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018031"
+ms.locfileid: "4431499"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Creare un ordine fornitore ripetuto
 
@@ -43,12 +43,12 @@ In questo argomento viene illustrato come creare un ordine fornitore (PO) ripetu
     - Anche il campo **Inverti segno** supporta la modifica della quantità ordinata cambiando il segno della quantità per le righe di ordine che si aggiungono. Ciò può essere utile se dovete invertire una transazione, creando le righe di ordine che negano la transazione. Questa opzione è selezionata automaticamente quando la pagina viene aperta dall'azione **Crea nota di accredito**.  
     - L'opzione **Copia spese** permette di copiare le spese nel nuovo ordine dal documento da cui si stanno copiando le righe di ordine.  
     - L'opzione **Ricalcola il prezzo** usa i prezzi e gli sconti correnti piuttosto che copiarli dal documento da cui si stanno copiando altre informazioni.  
-    - L'opzione **Copia esattamente** crea una copia esatta dei valori in tutti i campi sull'intestazione e sulle righe del documento di ordine. Se questa opzione non è selezionata, i valori predefiniti sono usati per molti dei campi relativi a fornitore e prodotti come se steste creando manualmente il nuovo ordine. Per esempio, se l'ordine da cui si sta copiando sostituisce il conto fattura predefinito del fornitore, lo stesso conto fattura viene copiato nell'ordine. Se non si seleziona l'opzione **Copia esattamente** , il conto fattura predefinito per il fornitore viene usato nell'ordine.  
+    - L'opzione **Copia esattamente** crea una copia esatta dei valori in tutti i campi sull'intestazione e sulle righe del documento di ordine. Se questa opzione non è selezionata, i valori predefiniti sono usati per molti dei campi relativi a fornitore e prodotti come se steste creando manualmente il nuovo ordine. Per esempio, se l'ordine da cui si sta copiando sostituisce il conto fattura predefinito del fornitore, lo stesso conto fattura viene copiato nell'ordine. Se non si seleziona l'opzione **Copia esattamente**, il conto fattura predefinito per il fornitore viene usato nell'ordine.  
     - L'opzione **Elimina righe acquisti** elimina tutte le righe dell'ordine fornitore che già esistono nell'ordine fornitore in cui si copia, prima dell'applicazione delle nuove righe. Usare con prudenza questa opzione, perché elimina tutte le linee righe esistenti senza ulteriore avvertimento.  
-    - Se si usa l'opzione **Copia intestazione ordine** , non è necessario creare manualmente le informazioni dell'intestazione sul nuovo ordine. Si noti che questa opzione provocherà l'uso di valori predefiniti per i campi associati al fornitore. Se il documento da cui si sta copiando contiene valori non predefiniti da copiare, usare l'opzione **Copia esattamente**.   
+    - Se si usa l'opzione **Copia intestazione ordine**, non è necessario creare manualmente le informazioni dell'intestazione sul nuovo ordine. Si noti che questa opzione provocherà l'uso di valori predefiniti per i campi associati al fornitore. Se il documento da cui si sta copiando contiene valori non predefiniti da copiare, usare l'opzione **Copia esattamente**.   
     - Ci sono origini documenti differenti da cui potete copiare e ciascuna ha una sezione separata in questa pagina. Per esempio, la sezione **Ordini fornitore** permette che copiate dagli ordini fornitore esistenti.  
 
-8. Nella sezione **Ordini fornitore** , selezionare le righe da copiare negli Appunti. È inoltre possibile selezionare righe supplementari da altri ordini fornitore e copiarle nell'ordine. È inoltre possibile aggiungere righe da altri tipi di documenti di acquisto. I prossimi passaggi esaminano le opzioni differenti.  
+8. Nella sezione **Ordini fornitore**, selezionare le righe da copiare negli Appunti. È inoltre possibile selezionare righe supplementari da altri ordini fornitore e copiarle nell'ordine. È inoltre possibile aggiungere righe da altri tipi di documenti di acquisto. I prossimi passaggi esaminano le opzioni differenti.  
 9. Espandere la sezione **Conferma**. Qui potete selezionare le conferme di ordine fornitore da cui copiare. Le conferme di ordine fornitore sono identificate tramite l'ID giornale di registrazione acquisti associato o l'ID ordine fornitore.  
 10. Espandere la sezione **Entrate prodotti**. Qui potete selezionare i giornali di registrazione entrata prodotti da cui copiare. I giornali di registrazione entrata prodotti sono identificati tramite il giustificativo di entrata prodotti o l'ID ordine fornitore.   
 11. Espandere la sezione **Fatture**. Qui potete selezionare le fatture fornitore da cui copiare. Le fatture sono identificate tramite il giustificativo della fattura o l'ID ordine fornitore.   

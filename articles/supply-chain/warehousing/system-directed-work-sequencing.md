@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017029"
+ms.locfileid: "4431537"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 
@@ -60,7 +60,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio presentati 
 1. Nell'elenco delle voci di menu del dispositivo mobile, seleziona **Selezione vendite - Sistema**. La voce di menu richiesta dovrebbe già esistere. 
 1. Verificare le seguenti impostazioni:
 
-    - Nella Scheda dettaglio **Generale** , il campo **Diretto da** deve essere impostato su *Diretto dal sistema*.
+    - Nella Scheda dettaglio **Generale**, il campo **Diretto da** deve essere impostato su *Diretto dal sistema*.
     - la Scheda dettaglio **Classi di lavoro** dovrebbe mostrare le seguenti impostazioni.
 
         | ID classe lavoro | Tipo ordine di lavoro |
@@ -79,7 +79,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio presentati 
 
 1. Selezionare **Salva**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella scheda **Join** , espandi la gerarchia di join per mostrare la tabella **Righe di lavoro**.
+1. Nella scheda **Join**, espandi la gerarchia di join per mostrare la tabella **Righe di lavoro**.
 1. Seleziona il join della tabella **Righe di lavoro**.
 1. Seleziona **Aggiungi tabella join**.
 1. Nell'elenco che appare, trova e seleziona la riga con le seguenti impostazioni:
@@ -91,7 +91,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio presentati 
 
     Le ubicazioni vengono aggiunte al join della tabella.
 
-1. Sulla scheda **Ordinamento** , seleziona e **Aggiungi** per aggiungere una riga.
+1. Sulla scheda **Ordinamento**, seleziona e **Aggiungi** per aggiungere una riga.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** *Righe di lavoro*
@@ -130,7 +130,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio presentati 
     - **Criteri:** *!STAGE*
 
         > [!IMPORTANT]
-        > Assicurati di includere il punto esclamativo ( *!* ) di fronte a *STAGE*.
+        > Assicurati di includere il punto esclamativo (*!*) di fronte a *STAGE*.
 
 1. Seleziona **OK** per salvare e chiudere la query.
 1. Selezionare **Salva**.
@@ -148,7 +148,7 @@ Se si utilizzano i dati Contoso predefiniti, la query per l'azione della diretti
 1. Andare a **Gestione magazzino** \> **Impostazioni** \> **Direttive ubicazione**.
 1. Nel campo **Tipo ordine di lavoro** selezionare *Ordini cliente*.
 1. Seleziona la direttiva ubicazione denominata *Prelievo 51*.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , seleziona la riga per l'azione **Prelievo**.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, seleziona la riga per l'azione **Prelievo**.
 1. Seleziona **Modifica query** sopra la griglia.
 1. Rivedi la query **Intervallo**.
 
@@ -169,9 +169,9 @@ Rilascerai quindi ciascun ordine cliente nel magazzino per creare il lavoro in u
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Nel riquadro azioni seleziona **Nuovo** per creare l'ordine cliente 1.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
-    - Nella sezione **Cliente** , imposta il campo **Conto cliente** su *US-004*.
+    - Nella sezione **Cliente**, imposta il campo **Conto cliente** su *US-004*.
     - Nella sezione **Generale** imposta il campo **Magazzino** su *51*.
 
 1. Selezionare **OK** per chiudere la finestra di dialogo. Prendi nota del numero di ordine cliente.
@@ -181,16 +181,16 @@ Rilascerai quindi ciascun ordine cliente nel magazzino per creare il lavoro in u
     - **Quantità:** *20*
 
 1. Nel menu **Scorte** sopra la griglia, seleziona **Prenotazione**.
-1. Nella pagina **Prenotazione** , seleziona **Prenota lotto** per prenotare le scorte.
+1. Nella pagina **Prenotazione**, seleziona **Prenota lotto** per prenotare le scorte.
 1. Chiudi la pagina **Prenotazione**.
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino** per creare lavoro per il magazzino.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino** per creare lavoro per il magazzino.
 
     Ricevi messaggi informativi che mostrano l'ID ondata e gli ID spedizione creati per l'ordine cliente.
 
 #### <a name="sales-order-2"></a>Ordine cliente 2
 
 1. Nel riquadro azioni seleziona **Nuovo** per creare l'ordine cliente 2.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-007*
     - **Magazzino:** *51*
@@ -212,7 +212,7 @@ Rilascerai quindi ciascun ordine cliente nel magazzino per creare il lavoro in u
 #### <a name="sales-order-3"></a>Ordine cliente 3
 
 1. Nel riquadro azioni seleziona **Nuovo** per creare l'ordine cliente 3.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-009*
     - **Magazzino:** *51*
@@ -234,7 +234,7 @@ Rilascerai quindi ciascun ordine cliente nel magazzino per creare il lavoro in u
 #### <a name="sales-order-4"></a>Ordine cliente 4
 
 1. Nel riquadro azioni seleziona **Nuovo** per creare l'ordine cliente 4.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-010*
     - **Magazzino:** *51*
@@ -269,7 +269,7 @@ Rilascerai quindi ciascun ordine cliente nel magazzino per creare il lavoro in u
 Prima di eseguire il flusso sul dispositivo mobile, verifica che solo il lavoro appena creato sia nello stato *Aperto* per il magazzino *51* e il tipo di ordine di lavoro *Ordine cliente*. Altrimenti, i risultati del test potrebbero variare, poiché il prelievo diretto dal sistema includerà tutto il lavoro idoneo.
 
 1. Vai a **Gestione magazzino \> Lavoro \> In uscita \> Lavoro acquisti aperto**.
-1. Nella griglia **Lavoro acquisti aperto** , filtra il campo **Magazzino** in modo che il lavoro venga mostrato solo per il magazzino *51*.
+1. Nella griglia **Lavoro acquisti aperto**, filtra il campo **Magazzino** in modo che il lavoro venga mostrato solo per il magazzino *51*.
 1. Conferma che vengono visualizzati solo i quattro ID lavoro creati in precedenza.
 1. Chiudi la pagina **Lavoro**.
 
@@ -300,7 +300,7 @@ Ricorda che questa configurazione acquisirà qualsiasi lavoro che abbia almeno u
 
 ## <a name="tips"></a>Suggerimenti
 
-Le query della sequenza di lavoro dirette dal sistema sono *inclusive*. È importante ricordare questo fatto per alcune configurazioni. Ad esempio, vuoi che una voce di menu specifica elabori il lavoro solo dove si trova l'unità di lavoro *ea* e specifichi tale limitazione nella scheda **Intervallo** della query. In questo caso, tutto il lavoro in cui almeno una riga di lavoro ha l'unità di lavoro impostata su *ea* sarà inserita sul lavoratore. Pertanto, questo lavoro potrebbe includere anche lavori in cui le righe di lavoro hanno un'unità di lavoro diversa da *ea* (ad esempio *scatola* o *pallet* ). La query esclude il lavoro solo dove nessuna riga di lavoro ha l'unità di lavoro impostata su *ea*.
+Le query della sequenza di lavoro dirette dal sistema sono *inclusive*. È importante ricordare questo fatto per alcune configurazioni. Ad esempio, vuoi che una voce di menu specifica elabori il lavoro solo dove si trova l'unità di lavoro *ea* e specifichi tale limitazione nella scheda **Intervallo** della query. In questo caso, tutto il lavoro in cui almeno una riga di lavoro ha l'unità di lavoro impostata su *ea* sarà inserita sul lavoratore. Pertanto, questo lavoro potrebbe includere anche lavori in cui le righe di lavoro hanno un'unità di lavoro diversa da *ea* (ad esempio *scatola* o *pallet*). La query esclude il lavoro solo dove nessuna riga di lavoro ha l'unità di lavoro impostata su *ea*.
 
 Pertanto, nell'esempio di questo scenario, l'ID lavoro *4* è stato anche acquisito dalla query. Quando è stato creato, sono state aggiunte due righe: una per 25 ea e una per 10 ea. Il lavoro è stato ancora presentato all'utente, poiché almeno una riga di lavoro ha una quantità inferiore a 20 ea.
 

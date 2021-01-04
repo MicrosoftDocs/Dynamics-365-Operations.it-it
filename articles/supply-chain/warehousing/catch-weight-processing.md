@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016264"
+ms.locfileid: "4431509"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -30,7 +30,7 @@ ms.locfileid: "4016264"
 
 ## <a name="feature-exposure"></a>Esposizione della funzionalità
 
-Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario utilizzare una chiave di configurazione di licenza per attivare la funzionalità. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**. Quindi, nella scheda **Chiavi di configurazione** , espandere **Commercio \> Gestione magazzino e trasporto** e selezionare la casella di controllo **Peso variabile per il magazzino**.
+Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario utilizzare una chiave di configurazione di licenza per attivare la funzionalità. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**. Quindi, nella scheda **Chiavi di configurazione**, espandere **Commercio \> Gestione magazzino e trasporto** e selezionare la casella di controllo **Peso variabile per il magazzino**.
 
 > [!NOTE]
 > Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Distribuzione processo \> Peso variabile** devono essere attivate. Per impostare le chiavi di configurazione per il peso variabile, è anche necessario attivare la funzionalità utilizzando l'area di lavoro **Gestione funzionalità**. La funzionalità principale che deve essere attivata è **Elaborazione di prodotti a peso variabile con la gestione magazzino**. Sono due le funzionalità correlate ma facoltative che si potrebbe voler attivare **Lo stato delle scorte cambia per i prodotti a peso variabile** e **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti**.
@@ -55,7 +55,7 @@ Poiché il peso delle scorte all'arrivo in magazzino può differire da quello de
 
 **Esempio 1**
 
-Durante un processo di produzione **Dichiarazione di finito** , il peso di entrata acquisito di una targa che contiene otto scatole di un prodotto a peso variabile è di 80,1 chilogrammi. La targa viene quindi conservata nell'area dei prodotti finiti e durante il periodo di immagazzinamento, una parte del peso viene persa nell'atmosfera.
+Durante un processo di produzione **Dichiarazione di finito**, il peso di entrata acquisito di una targa che contiene otto scatole di un prodotto a peso variabile è di 80,1 chilogrammi. La targa viene quindi conservata nell'area dei prodotti finiti e durante il periodo di immagazzinamento, una parte del peso viene persa nell'atmosfera.
 
 Successivamente, in un processo di prelievo ordine cliente, il peso acquisito della stessa targa è di 79,8 chilogrammi. Pertanto, nel sistema, si ha una differenza di peso nell'ambito del set di dimensioni fisiche.
 
@@ -67,7 +67,7 @@ Nella relativa definizione, un prodotto è impostato per tollerare un peso minim
 
 Si hanno due scatole del prodotto e il relativo peso registrato è 16 kg. Se un addetto del magazzino preleva e pesa una delle scatole e il peso acquisito è di 9 kg, l'altra scatola peserà 7 kg. Tuttavia, poiché il peso di 7 kg è inferiore al peso minimo, il sistema non esegue una rettifica automatica per aumentare di 1 kg il peso delle scorte disponibili.
 
-Per impostare i conti in cui queste rettifiche sono registrate, accedere a **Gestione costi \> Impostazione criteri integrazione contabilità generale \> Registrazione**. Quindi , nella scheda **Scorte** , definire i seguenti conti:
+Per impostare i conti in cui queste rettifiche sono registrate, accedere a **Gestione costi \> Impostazione criteri integrazione contabilità generale \> Registrazione**. Quindi , nella scheda **Scorte**, definire i seguenti conti:
 
 - Conto perdite prodotti a peso variabile
 - Conto profitti prodotti a peso variabile
@@ -97,19 +97,19 @@ Il processo di tracciabilità di tag a peso variabile può essere utilizzato per
 
 Un altro parametro importante correlato all'elaborazione dei tag di peso variabile è **Metodo di tracciabilità dimensioni con tag di peso variabile**. I tag possono essere tracciati parzialmente o completamente. Se un tag viene tracciato parzialmente, tiene traccia delle dimensioni del prodotto, delle dimensioni di tracciabilità e dello stato delle scorte. Se un tag viene tracciato completamente, tiene traccia delle dimensioni del prodotto, delle dimensioni di tracciabilità e di **tutte** le dimensioni di immagazzinamento.
 
-Inoltre, quando un articolo viene tracciato con tag, è disponibile un parametro **Metodo di acquisizione tag in uscita**. È possibile impostare questo parametro di modo che il tag venga sempre richiesto per le transazioni in uscita dal dispositivo mobile. In alternativa, è possibile impostare il parametro di modo che i tag siano richiesti solo quando necessari. Ad esempio, ci sono cinque tag di peso variabile nelle scorte per una determinata targa e si è indicato di voler selezionare tutti e cinque i tag nella targa. In questo caso, se il parametro **Metodo di acquisizione tag in uscita** è impostato su **Richiedi tag solo quando necessario** , i cinque tag vengono selezionati automaticamente. Non è necessario eseguire la scansione di ogni tag. Se il parametro è impostato su **Richiedi sempre tag** , è necessario eseguire la scansione di ogni tag, anche se tutti e cinque i tag vengono selezionati.
+Inoltre, quando un articolo viene tracciato con tag, è disponibile un parametro **Metodo di acquisizione tag in uscita**. È possibile impostare questo parametro di modo che il tag venga sempre richiesto per le transazioni in uscita dal dispositivo mobile. In alternativa, è possibile impostare il parametro di modo che i tag siano richiesti solo quando necessari. Ad esempio, ci sono cinque tag di peso variabile nelle scorte per una determinata targa e si è indicato di voler selezionare tutti e cinque i tag nella targa. In questo caso, se il parametro **Metodo di acquisizione tag in uscita** è impostato su **Richiedi tag solo quando necessario**, i cinque tag vengono selezionati automaticamente. Non è necessario eseguire la scansione di ogni tag. Se il parametro è impostato su **Richiedi sempre tag**, è necessario eseguire la scansione di ogni tag, anche se tutti e cinque i tag vengono selezionati.
 
 > [!NOTE]
 > Di norma, i tag vengono acquisiti e aggiornati solo dalle voci di menu del dispositivo mobile. Tuttavia, ci sono alcuni scenari in cui i tag vengono acquisiti altrove (ad esempio nella stazione di imballaggio manuale). Tuttavia, in generale, le voci di menu del dispositivo mobile devono essere utilizzate per tutte le attività di magazzino nel caso si utilizzano i tag.
 
 ### <a name="how-to-capture-catch-weight"></a>Come acquisire il peso variabile
 
-**Quando si utilizza la tracciabilità dei tag a peso variabile** , un tag deve essere sempre creato per ogni unità di peso variabile ricevuta e ogni tag deve sempre essere associato a un peso.
+**Quando si utilizza la tracciabilità dei tag a peso variabile**, un tag deve essere sempre creato per ogni unità di peso variabile ricevuta e ogni tag deve sempre essere associato a un peso.
 
 Ad esempio, **Scatola** è l'unità a peso variabile e si riceve un pallet di otto scatole. In questo caso, otto tag a peso variabile univoci devono essere creati e un peso deve essere associato a ogni tag. A seconda del tag a peso variabile in entrata, è possibile acquisire il peso di tutte e otto le scatole, e il peso medio può quindi essere distribuito a ciascuna scatola, oppure un peso univoco per ogni scatola.
 Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app di magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
 
-**Quando la tracciabilità dei tag a peso variabile non viene utilizzata** , il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
+**Quando la tracciabilità dei tag a peso variabile non viene utilizzata**, il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
 
 Per i metodi di acquisizione del peso in uscita, l'opzione **Per unità di peso variabile** consente di specificare che la pesatura deve essere eseguita per ciascuna unità di peso variabile (ad esempio per scatola). L'opzione **Per unità di prelievo** consente di specificare che il peso deve essere acquisito in base alla quantità che verrà prelevata (ad esempio, tre scatole). Tenere presente che per i processi di prelievo della riga di produzione e di movimenti interni, il peso medio verrà utilizzato se l'opzione **Non acquisito** è utilizzata.
 
@@ -209,4 +209,4 @@ Oltre alle restrizioni attualmente in vigore per i prodotti a peso variabile, ai
 - La funzionalità di storno lavoro non è supportata per gli articoli a peso variabile che sono tracciati con il numero di tag.
 
 > [!NOTE]
-> Le informazioni precedenti sui tag di peso variabile sono valide solo se il prodotto a peso variabile ha un metodo di tracciabilità delle dimensioni con tag di peso variabile completamente tracciato (ovvero, se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e tutte le dimensioni di immagazzinamento** ). Se l'articolo a peso variabile è tracciato solo parzialmente con tag (ovvero se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e stato scorte** ) si applicano ulteriori restrizioni. Poiché in questo non c'è visibilità tra tag e scorte, alcuni scenari aggiuntivi non sono supportati.
+> Le informazioni precedenti sui tag di peso variabile sono valide solo se il prodotto a peso variabile ha un metodo di tracciabilità delle dimensioni con tag di peso variabile completamente tracciato (ovvero, se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e tutte le dimensioni di immagazzinamento**). Se l'articolo a peso variabile è tracciato solo parzialmente con tag (ovvero se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e stato scorte**) si applicano ulteriori restrizioni. Poiché in questo non c'è visibilità tra tag e scorte, alcuni scenari aggiuntivi non sono supportati.

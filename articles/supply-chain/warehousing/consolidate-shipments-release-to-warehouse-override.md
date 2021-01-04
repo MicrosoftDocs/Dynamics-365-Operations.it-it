@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016795"
+ms.locfileid: "4431489"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolidare le spedizioni quando i criteri di consolidamento delle spedizioni vengono ignorati dalla pagina Rilascia in magazzino
 
@@ -47,10 +47,10 @@ Lo scenario qui descritto presuppone che tu abbia già attivato la funzione, ese
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
-1. Seleziona **Magazzino \> Prenotazione** , quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
+1. Seleziona **Magazzino \> Prenotazione**, quindi nel riquadro azioni, seleziona **Prenota lotto** per prenotare la riga dell'ordine.
 
 ## <a name="release-the-sales-orders-from-the-release-to-warehouse-page"></a>Rilascia gli ordini cliente dalla pagina Rilascia in magazzino
 
@@ -64,7 +64,7 @@ Segui questi passaggi per sovrascrivere i criteri di consolidamento della spediz
 1. Seleziona **Rilascia in magazzino**.
 1. Seleziona il secondo e terzo ordine cliente creato per questo scenario.
 1. Seleziona **Aggiungi** per aggiungere righe al rilascio al magazzino. Tieni presente che il criterio *Predefinito* viene applicato nel riquadro inferiore.
-1. Seleziona la seconda riga, quindi nel campo **Seleziona nuovi criteri di consolidamento spedizioni** , seleziona il criterio *CustomerOrderNo*.
+1. Seleziona la seconda riga, quindi nel campo **Seleziona nuovi criteri di consolidamento spedizioni**, seleziona il criterio *CustomerOrderNo*.
 1. Seleziona **Rilascia in magazzino** per entrambe le righe.
 
 ## <a name="verify-the-shipments"></a>Verifica le spedizioni
@@ -78,7 +78,7 @@ Segui questi passaggi per rivedere le spedizioni che sono state create.
 
 1. Vai a **Gestione magazzino \> Spedizioni \> Tutte le spedizioni**.
 1. Trova e seleziona la spedizione richiesta.
-1. Nel campo **Criteri di consolidamento spedizioni** , rivedi il criterio di consolidamento usato al momento della creazione della spedizione.
+1. Nel campo **Criteri di consolidamento spedizioni**, rivedi il criterio di consolidamento usato al momento della creazione della spedizione.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

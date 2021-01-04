@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b226dd61c758cf17c8e4784ec22d2628145c1836
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431216"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Distinte base e formule
 
@@ -108,7 +108,7 @@ Le DBA fittizie in genere vengono utilizzate per semplificare il processo di pro
 
 ### <a name="pegged-supply"></a>Fornitura sottoposta a pegging
 
-Selezionare il tipo di riga**Fornitura sottoposta a pegging** quando si desidera creare una produzione secondaria, un kanban evento riga DBA o un ordine fornitore diretto per qualsiasi variante prodotto cui fa riferimento la riga DBA. La produzione secondaria, il kanban evento o l'ordine fornitore viene creato quando si stima l'ordine di produzione. Le quantità di articoli richiesti vengono automaticamente prenotate per l'ordine di produzione in uso.
+Selezionare il tipo di riga **Fornitura sottoposta a pegging** quando si desidera creare una produzione secondaria, un kanban evento riga DBA o un ordine fornitore diretto per qualsiasi variante prodotto cui fa riferimento la riga DBA. La produzione secondaria, il kanban evento o l'ordine fornitore viene creato quando si stima l'ordine di produzione. Le quantità di articoli richiesti vengono automaticamente prenotate per l'ordine di produzione in uso.
 
 ### <a name="vendor"></a>Fornitore
 

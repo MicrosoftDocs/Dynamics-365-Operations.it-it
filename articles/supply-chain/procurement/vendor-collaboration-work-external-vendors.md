@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018746"
+ms.locfileid: "4431550"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
@@ -34,7 +34,7 @@ Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongon
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori** , vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
+> Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
 
 Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
@@ -60,8 +60,8 @@ Un amministratore può configurare le impostazioni generali per la collaborazion
 
 Prima di creare account utente per un fornitore esterno, è necessario configurare il conto fornitore per consentire al fornitore l'utilizzo della collaborazione fornitore. Nella pagina **Fornitori** nella scheda **Generale** impostare il campo **Attivazione collaborazione**. Sono disponibili le opzioni seguenti:
 
-- **Attiva (con conferma automatica OF)** - Gli ordini fornitore vengono confermati automaticamente se il fornitore li accetta senza apportare modifiche.
-- **Attiva (senza conferma automatica OF)** - Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
+- **Attiva (con conferma automatica OF)**- Gli ordini fornitore vengono confermati automaticamente se il fornitore li accetta senza apportare modifiche.
+- **Attiva (senza conferma automatica OF)**- Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Specificare se il fornitore deve visualizzare le informazioni sul prezzo
 
@@ -71,7 +71,7 @@ Per condividere le informazioni sui prezzi per gli ordini di acquisto tramite l'
 
 ### <a name="sending-a-po-to-a-vendor"></a>Inviare un ordine fornitore a un fornitore
 
-Gli ordini fornitore vengono preparati in Supply Chain Management. Quando un ordine fornitore ha lo stato **Approvato** , viene inviato al fornitore selezionando l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo aver inviato l'ordine fornitore, il fornitore lo può vedere nella pagina **Ordini fornitore per la revisione** dell'interfaccia della collaborazione fornitore. Il fornitore può quindi accettare l'ordine fornitore, rifiutarlo o suggerire modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
+Gli ordini fornitore vengono preparati in Supply Chain Management. Quando un ordine fornitore ha lo stato **Approvato**, viene inviato al fornitore selezionando l'azione **Invia per conferma** nella pagina **Ordine fornitore**. Lo stato dell'ordine fornitore diventa **In revisione esterna**. Dopo aver inviato l'ordine fornitore, il fornitore lo può vedere nella pagina **Ordini fornitore per la revisione** dell'interfaccia della collaborazione fornitore. Il fornitore può quindi accettare l'ordine fornitore, rifiutarlo o suggerire modifiche. Il fornitore può anche aggiungere commenti per comunicare informazioni come modifiche all'ordine fornitore. Se si desidera richiamare l'attenzione del fornitore su un nuovo ordine fornitore è anche possibile utilizzare il sistema di gestione stampa per inviare l'ordine per e-mail.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Conferma e accettazione di un ordine fornitore da parte di un fornitore
 
@@ -120,7 +120,7 @@ Le informazioni relative ai prezzi e alle spese non possono essere modificate da
 </tbody>
 </table>
 
-È possibile utilizzare l'area di lavoro **Preparazione ordini acquisto** per controllare a quali ordini fornitore il fornitore ha risposto. Questa area di lavoro contiene due elenchi che contengono gli ordini fornitore con stato **In revisione esterna** :
+È possibile utilizzare l'area di lavoro **Preparazione ordini acquisto** per controllare a quali ordini fornitore il fornitore ha risposto. Questa area di lavoro contiene due elenchi che contengono gli ordini fornitore con stato **In revisione esterna**:
 
 - In revisione esterna richiede un'azione
 - In revisione esterna in attesa della risposta fornitore
@@ -141,7 +141,7 @@ Quando si annulla un ordine fornitore, viene ripristinato lo stato **Approvato**
 
 Se un fornitore ha risposto a un ordine fornitore e ha suggerito delle modifiche, il passaggio successivo consiste nell'elaborare la risposta.
 
-Nell'area di lavoro **Preparazione ordini acquisto** nell'elenco **In revisione esterna richiede un'azione** , è possibile identificare gli ordini fornitore a cui un fornitore ha risposto accettando le modifiche. Dall'elenco, è inoltre possibile accedere alla risposta del fornitore.
+Nell'area di lavoro **Preparazione ordini acquisto** nell'elenco **In revisione esterna richiede un'azione**, è possibile identificare gli ordini fornitore a cui un fornitore ha risposto accettando le modifiche. Dall'elenco, è inoltre possibile accedere alla risposta del fornitore.
 
 In una risposta, un fornitore può modificare le informazioni seguenti nell'intestazione:
  
@@ -156,9 +156,9 @@ Nelle righe, il fornitore può modificare la quantità e le date di consegna, ag
     
 - **Accettata con modifiche**
 - **Rifiutata**
-- **Sostituita** : in questo caso, viene aggiunta un'altra riga con stato **Sostituisci**.
+- **Sostituita**: in questo caso, viene aggiunta un'altra riga con stato **Sostituisci**.
 - **Confermato**
-- **Sostituita** : in questo caso verranno aggiunte altre righe con stato **Righe programmazione**.
+- **Sostituita**: in questo caso verranno aggiunte altre righe con stato **Righe programmazione**.
 
 Se una riga non include modifiche, lo stato della riga è **Accettata**.
 
@@ -168,7 +168,7 @@ Nella risposta, gli stati di riga indicano i tipi di modifiche apportati dal for
 
 Non tutte le modifiche suggerite possono essere aggiornate in un ordine fornitore. Solo gli aggiornamenti nell'intestazione e gli aggiornamenti di date e quantità nelle righe possono essere aggiornati automaticamente nell'ordine fornitore. Per le altre modifiche, è necessario aggiornare l'ordine fornitore manualmente. In questo caso, il valore del campo **L'aggiornamento ordine fornitore è stato elaborato?** è **Aggiornamento manuale**. Ad esempio, se un fornitore suggerisce di dividere una riga in una programmazione, questa modifica deve essere effettuata manualmente.
 
-Ogni riga con stato **Accettato** avrà una data di consegna confermata. Quando si esegue l'azione **Elabora aggiornamento ordine fornitore** , questa data viene aggiornata nell'ordine fornitore. Le note e gli allegati non vengono trasferiti automaticamente all'ordine fornitore corrente. Inoltre, quando si aggiorna l'ordine fornitore corrente mediante l'azione **Elabora aggiornamento ordine fornitore** , gli accordi commerciali non vengono rivalutati nelle righe dell'ordine fornitore.
+Ogni riga con stato **Accettato** avrà una data di consegna confermata. Quando si esegue l'azione **Elabora aggiornamento ordine fornitore**, questa data viene aggiornata nell'ordine fornitore. Le note e gli allegati non vengono trasferiti automaticamente all'ordine fornitore corrente. Inoltre, quando si aggiorna l'ordine fornitore corrente mediante l'azione **Elabora aggiornamento ordine fornitore**, gli accordi commerciali non vengono rivalutati nelle righe dell'ordine fornitore.
 
 ## <a name="po-statuses-and-versions"></a>Stati e versioni dell'ordine fornitore
 

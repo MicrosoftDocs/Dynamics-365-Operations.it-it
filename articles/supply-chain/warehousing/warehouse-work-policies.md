@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017669"
+ms.locfileid: "4431559"
 ---
 # <a name="work-policies"></a>Criteri di lavoro
 
@@ -49,7 +49,7 @@ Per configurare i criteri di lavoro, passare a **Gestione magazzino \> Imposta \
 
 ### <a name="the-work-order-types-fasttab"></a>Scheda dettaglio Tipi di ordine di lavoro
 
-Nella Scheda dettaglio **Tipi di ordine di lavoro** , aggiungere tutti i tipi di ordini di lavoro e i relativi processi di lavoro a cui si applica il criterio di lavoro. I seguenti tipi di ordini di lavoro e i relativi processi di lavoro sono supportati per i criteri di lavoro.
+Nella Scheda dettaglio **Tipi di ordine di lavoro**, aggiungere tutti i tipi di ordini di lavoro e i relativi processi di lavoro a cui si applica il criterio di lavoro. I seguenti tipi di ordini di lavoro e i relativi processi di lavoro sono supportati per i criteri di lavoro.
 
 | Tipo ordine di lavoro | Processo di lavoro |
 |---|---|
@@ -63,12 +63,12 @@ Per configurare un criterio di lavoro in modo che si applichi a più processi di
 
 Per ogni riga della griglia, impostare il campo **Metodo di creazione lavoro** su uno dei seguenti valori:
 
-- **Mai** : i criteri di lavoro impediranno la creazione di lavoro di magazzino per il tipo di ordine di lavoro selezionato e il relativo processo di lavoro.
-- **Cross-docking** : i criteri di lacoro creeranno lavoro di cross-docking utilizzando i criteri selezionati nel campo **Nome criteri di cross-docking**.
+- **Mai**: i criteri di lavoro impediranno la creazione di lavoro di magazzino per il tipo di ordine di lavoro selezionato e il relativo processo di lavoro.
+- **Cross-docking**: i criteri di lacoro creeranno lavoro di cross-docking utilizzando i criteri selezionati nel campo **Nome criteri di cross-docking**.
 
 ### <a name="the-inventory-locations-fasttab"></a>Scheda dettaglio Ubicazioni di magazzino
 
-Nella Scheda dettaglio **Ubicazioni di magazzino** , aggiungere tutte le ubicazioni in cui applicare questi criteri di lavoro. Se non si specifica una ubicazione associata ai criteri di lavoro, i criteri di lavoro non verranno applicati ad alcun processo.
+Nella Scheda dettaglio **Ubicazioni di magazzino**, aggiungere tutte le ubicazioni in cui applicare questi criteri di lavoro. Se non si specifica una ubicazione associata ai criteri di lavoro, i criteri di lavoro non verranno applicati ad alcun processo.
 
 Non è possibile specificare la stessa ubicazione per molteplici criteri di lavoro.
 
@@ -76,10 +76,10 @@ Non è possibile specificare la stessa ubicazione per molteplici criteri di lavo
 
 ### <a name="the-products-fasttab"></a>Scheda dettaglio Prodotti
 
-Nella scheda **Prodotti** , impostare il campo **Selezione prodotto** per controllare a quali prodotti i criteri devono applicarsi:
+Nella scheda **Prodotti**, impostare il campo **Selezione prodotto** per controllare a quali prodotti i criteri devono applicarsi:
 
-- **Tutti** : i criteri dovrebbero applicarsi a tutti i prodotti.
-- **Selezionati** : i crtieri dovrebbero applicarsi solo ai prodotti elencati nella griglia. Utilizzare la barra degli strumenti nella Scheda dettaglio **Prodotti** per aggiungere prodotti alla griglia o rimuoverli dalla griglia.
+- **Tutti**: i criteri dovrebbero applicarsi a tutti i prodotti.
+- **Selezionati**: i crtieri dovrebbero applicarsi solo ai prodotti elencati nella griglia. Utilizzare la barra degli strumenti nella Scheda dettaglio **Prodotti** per aggiungere prodotti alla griglia o rimuoverli dalla griglia.
 
 ## <a name="default-and-custom-to-locations"></a>Ubicazioni di destinazione predefinite e personalizzate
 
@@ -99,9 +99,9 @@ Per configurare una voce di menu del dispositivo mobile in modo da supportare la
 
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.
 1. Selezionare o creare una voce di menu che utilizza uno dei processi di creazione del lavoro elencati in precedenza in questa sezione.
-1. Nella Scheda dettaglio **Generale** , impostare l'opzione **Utilizza dati predefiniti** su **Sì**.
+1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Utilizza dati predefiniti** su **Sì**.
 1. Nel riquadro azioni selezionare **Dati predefiniti**.
-1. Nella pagina **Dati predefiniti** , impostare i seguenti valori:
+1. Nella pagina **Dati predefiniti**, impostare i seguenti valori:
 
     - **Campo Dati predefiniti:** impostare questo campo su *Ubicazione destinazione*.
     - **Magazzino:** selezionare il magazzino di destinazione da utilizzare con questa voce di menu.
@@ -113,11 +113,11 @@ Per configurare una voce di menu del dispositivo mobile in modo da supportare la
 
 ## <a name="example-scenario-warehouse-receiving"></a>Scenario di esempio: ricezione magazzino
 
-Tutti i prodotti che vengono ricevuti dal processo *Ricevimento (e stoccaggio) articolo ordine acquisto* devono essere registrato nell'ubicazione *FL-001* e devono essere disponibili nel magazzino *24*. Tuttavia, il lavoro non dovrebbe essere creato. I prodotti che vengono ricevuti da qualsiasi altro processo (ovvero utilizzando altre voci di menu del dispositivo mobile) devono essere registrati nell'ubicazione di ricezione del magazzino predefinita ( *RECV* ) e il lavoro dovrebbe essere creato come al solito. (Questo scenario non mostra la configurazione di ricezione predefinita).
+Tutti i prodotti che vengono ricevuti dal processo *Ricevimento (e stoccaggio) articolo ordine acquisto* devono essere registrato nell'ubicazione *FL-001* e devono essere disponibili nel magazzino *24*. Tuttavia, il lavoro non dovrebbe essere creato. I prodotti che vengono ricevuti da qualsiasi altro processo (ovvero utilizzando altre voci di menu del dispositivo mobile) devono essere registrati nell'ubicazione di ricezione del magazzino predefinita (*RECV*) e il lavoro dovrebbe essere creato come al solito. (Questo scenario non mostra la configurazione di ricezione predefinita).
 
 Questo scenario richiede i seguenti elementi:
 
-- Un criterio di lavoro per il processo *Ricevimento (e stoccaggio) articolo ordine acquisto* nell'ubicazione *FL-001* , per tutti i prodotti
+- Un criterio di lavoro per il processo *Ricevimento (e stoccaggio) articolo ordine acquisto* nell'ubicazione *FL-001*, per tutti i prodotti
 - Una voce di menu del dispositivo mobile con dati predefiniti e che imposta il campo **Ubicazione destinazione** su *FL-001*
 
 ### <a name="prerequisites"></a>Prerequisiti
@@ -130,31 +130,31 @@ Questo scenario utilizza i dati dimostrativi standard. Pertanto, se si desidera 
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Criteri di lavoro**.
 1. Selezionare **Nuovo**.
-1. Nel campo **Nome criteri di lavoro** , immetti *Nessun lavoro di stoccaggio per l'articolo d'acquisto*.
+1. Nel campo **Nome criteri di lavoro**, immetti *Nessun lavoro di stoccaggio per l'articolo d'acquisto*.
 1. Selezionare **Salva**.
-1. Nella scheda dettaglio **Tipi di ordine di lavoro** , selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
+1. Nella scheda dettaglio **Tipi di ordine di lavoro**, selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
 
     - **Tipo di ordine di lavoro:** *Ordini fornitore*
     - **Processo di lavoro:** *Ricevimento (e stoccaggio) articolo ordine acquisto*
     - **Metodo di creazione del lavoro:** *Mai*
     - **Nome criteri di cross-docking:** Lasciare vuoto questo campo.
 
-1. Nella scheda dettaglio **Ubicazioni di magazzino** , selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
+1. Nella scheda dettaglio **Ubicazioni di magazzino**, selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
 
     - **Magazzino:** *24*
     - **Ubicazione:** *FL-001*
 
-1. Nella Scheda dettaglio **Prodotti** , impostare il campo **Selezione prodotto** su *Tutti*.
+1. Nella Scheda dettaglio **Prodotti**, impostare il campo **Selezione prodotto** su *Tutti*.
 1. Selezionare **Salva**.
 
 ### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Impostare una voce di menu del dispositivo mobile in modo da modificare l'ubicazione di ricezione
 
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.
 1. Nel riquadro sinistro, selezionare la voce di menu **Entrata acquisto** esistente.
-1. Nella Scheda dettaglio **Generale** , impostare l'opzione **Utilizza dati predefiniti** su *Sì*.
+1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Utilizza dati predefiniti** su *Sì*.
 1. Selezionare **Salva**.
 1. Nel riquadro azioni selezionare **Dati predefiniti**.
-1. Nella riquadro azioni della pagina **Dati predefiniti** , selezionare **Nuovo** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
+1. Nella riquadro azioni della pagina **Dati predefiniti**, selezionare **Nuovo** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
 
     - **Campo Dati predefiniti:** *Ubicazione destinazione*
     - **Magazzino:** *24*
@@ -171,14 +171,14 @@ L'esempio in questa sezione mostra come ricevere un articolo dell'ordine fornito
 
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine fornitore** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine fornitore**, imposta i seguenti valori:
 
     - **Conto fornitore:** *US-101*
     - **Sito:** *2*
     - **Magazzino:** *24*
 
 1. Scegliere **OK** per chiudere la finestra di dialogo e aprire il nuovo ordine fornitore.
-1. Nella Scheda dettaglio **Righe ordine fornitore** , imposta i seguenti valori per la riga vuota:
+1. Nella Scheda dettaglio **Righe ordine fornitore**, imposta i seguenti valori per la riga vuota:
 
     - **Numero articolo:** *A0001*
     - **Quantità:** *1*
@@ -201,7 +201,7 @@ L'ordine fornitore è ora ricevuto, ma nessun lavoro è associato ad esso. Le sc
 
 ## <a name="example-scenario-manufacturing"></a>Scenario di esempio: produzione
 
-Nel seguente esempio, sono presenti due ordini di produzione, *PRD-001* e *PRD-002*. L'ordine di produzione *PRD-001* ha un'operazione denominata *Assemblaggio* , in cui il prodotto *SC1* viene dichiarato finito nell'ubicazione *001*. L'ordine di produzione *PRD-002* ha un'operazione denominata *Verniciatura* e utilizza il prodotto *SC1* dall'ubicazione *001*. L'ordine di produzione *PRD-002* utilizza anche le materie prime *RM1* dall'ubicazione *001*. Le materie prime *RM1* sono immagazzinate nell'ubicazione *BULK-001* e verranno prelevate nell'ubicazione *001* dal lavoro di magazzino per il prelievo di materie prime. Il lavoro di prelievo viene generato quando l'ordine di produzione *PRD-002* viene rilasciato.
+Nel seguente esempio, sono presenti due ordini di produzione, *PRD-001* e *PRD-002*. L'ordine di produzione *PRD-001* ha un'operazione denominata *Assemblaggio*, in cui il prodotto *SC1* viene dichiarato finito nell'ubicazione *001*. L'ordine di produzione *PRD-002* ha un'operazione denominata *Verniciatura* e utilizza il prodotto *SC1* dall'ubicazione *001*. L'ordine di produzione *PRD-002* utilizza anche le materie prime *RM1* dall'ubicazione *001*. Le materie prime *RM1* sono immagazzinate nell'ubicazione *BULK-001* e verranno prelevate nell'ubicazione *001* dal lavoro di magazzino per il prelievo di materie prime. Il lavoro di prelievo viene generato quando l'ordine di produzione *PRD-002* viene rilasciato.
 
 [![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -231,9 +231,9 @@ I processi del magazzino non includono sempre il lavoro in magazzino. Definendo 
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Criteri di lavoro**.
 1. Selezionare **Nuovo**.
-1. Nel campo **Nome criteri di lavoro** , immetti *Nessun lavoro di stoccaggio*.
+1. Nel campo **Nome criteri di lavoro**, immetti *Nessun lavoro di stoccaggio*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella scheda dettaglio **Tipi di ordine di lavoro** , selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
+1. Nella scheda dettaglio **Tipi di ordine di lavoro**, selezionare **Agggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
 
     - **Tipo di ordine di lavoro:** *Stoccaggio dei prodotti finiti*
     - **Processo di lavoro:** *Tutti i processi di lavoro correlati*
@@ -247,13 +247,13 @@ I processi del magazzino non includono sempre il lavoro in magazzino. Definendo 
     - **Metodo di creazione del lavoro:** *Mai*
     - **Nome criteri di cross-docking:** Lasciare vuoto questo campo.
 
-1. Nella scheda dettaglio **Ubicazioni di magazzino** , selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
+1. Nella scheda dettaglio **Ubicazioni di magazzino**, selezionare **Aggiungi** per aggiungere una riga alla griglia e quindi impostare i seguenti valori per la nuova riga:
 
     - **Magazzino:** *51*
     - **Ubicazione:** *001*
 
-1. Nella Scheda dettaglio **Prodotti** , impostare il campo **Selezione prodotto** su *Selezionati*.
-1. Nella Scheda dettaglio **Prodotti** , selezionare **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Prodotti**, impostare il campo **Selezione prodotto** su *Selezionati*.
+1. Nella Scheda dettaglio **Prodotti**, selezionare **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, impostare il campo **Numero articolo** su *L0101*.
 1. Nel riquadro azioni selezionare **Salva**.
 
@@ -261,7 +261,7 @@ I processi del magazzino non includono sempre il lavoro in magazzino. Definendo 
 
 1. Passare a **Amministrazione organizzazione \> Risorse \> Gruppi di risorse**.
 1. Nel riquadro sinistro, selezionare il gruppo di risorse **5102**.
-1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
 
     - **Magazzino di output:** *51*
     - **Ubicazione di output:** *001*
@@ -275,22 +275,22 @@ I processi del magazzino non includono sempre il lavoro in magazzino. Definendo 
 
 1. Fare clic su **Controllo produzione \> Ordini di produzione \> Tutti gli ordini di produzione**.
 1. Nel riquadro azioni, selezionare **Nuovo ordine di produzione**.
-1. Nella finestra di dialogo **Crea ordine di produzione** , impostare il campo **Numero articolo** su *L0101*.
+1. Nella finestra di dialogo **Crea ordine di produzione**, impostare il campo **Numero articolo** su *L0101*.
 1. Selezionare **Crea** per creare l'ordine e chiudere la finestra di dialogo.
 
     Un nuovo ordine di produzione viene aggiunto alla griglia nella pagina **Tutti gli ordini di produzione**.
 
     Mantieni selezionato il nuovo ordine di produzione.
 
-1. Nel riquadro azioni, scheda **Ordine di produzione** , gruppo **Processo** , selezionare **Stima**.
-1. Nella finestra di dialogo **Stima** , leggere la stima, quindi selezionare **OK** per chiudere la finestra di dialogo.
-1. Nel riquadro azioni, scheda **Ordine di produzione** , gruppo **Processo** , selezionare **Avvia**.
-1. Nella finestra di dialogo **Avvia** , nella scheda **Generale** , impostare il campo **Consumo DBA automatico** su *Mai*.
+1. Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Stima**.
+1. Nella finestra di dialogo **Stima**, leggere la stima, quindi selezionare **OK** per chiudere la finestra di dialogo.
+1. Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Avvia**.
+1. Nella finestra di dialogo **Avvia**, nella scheda **Generale**, impostare il campo **Consumo DBA automatico** su *Mai*.
 1. Selezionare **OK** per salvare l'impostazione e chiudere la finestra di dialogo.
-1. Nel riquadro azioni, scheda **Ordine di produzione** , gruppo **Processo** , selezionare **Dichiarazione di finito**.
-1. Nella finestra di dialogo **Dichiarazione di finito** , sulla scheda **Generale** , impostare l'opzione **Accetta errore** su *Sì*.
+1. Nel riquadro azioni, scheda **Ordine di produzione**, gruppo **Processo**, selezionare **Dichiarazione di finito**.
+1. Nella finestra di dialogo **Dichiarazione di finito**, sulla scheda **Generale**, impostare l'opzione **Accetta errore** su *Sì*.
 1. Selezionare **OK** per salvare l'impostazione e chiudere la finestra di dialogo.
-1. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale** , selezionare **Dettagli lavoro**.
+1. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale**, selezionare **Dettagli lavoro**.
 
 Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato generato per lo stoccaggio. Questo comportamento si verifica perché vengono definiti criteri di lavoro che impediscono la generazione del lavoro quando il prodotto *L0101* viene dichiarato finito all'ubicazione *001*.
 

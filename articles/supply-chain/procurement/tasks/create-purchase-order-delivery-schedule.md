@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018238"
+ms.locfileid: "4431545"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Creare un ordine fornitore con una programmazione consegna
 
@@ -46,7 +46,7 @@ Questa argomento dimostra come creare una programmazione consegna per un ordine 
 - Nel campo della data di consegna, selezionare una data che è di una settimana successiva alla prima riga di consegna.  
 - È possibile tenere traccia della quantità totale che viene allocata alle righe di programmazione consegna guardando i campi **Totale** e **Rimanente**. Se la quantità rimanente da zero, la quantità totale della riga originale è stata allocata alla programmazione.  
 12. Espandere la sezione **Conversione spese**.
-- Le opzioni qui permettono di determinare la distribuzione delle spese tra le righe della programmazione consegna. Se si seleziona **Copia importi lordi** , lo stesso importo di spesa della riga ordine originale viene copiato in ciascuna riga di consegna. L'opzione **Assegna a righe consegna** divide le spese dalla riga originale secondo la quantità su ogni riga di consegna.  
+- Le opzioni qui permettono di determinare la distribuzione delle spese tra le righe della programmazione consegna. Se si seleziona **Copia importi lordi**, lo stesso importo di spesa della riga ordine originale viene copiato in ciascuna riga di consegna. L'opzione **Assegna a righe consegna** divide le spese dalla riga originale secondo la quantità su ogni riga di consegna.  
 13. Comprimere la sezione **Conversione spese**.
 14. Selezionare **OK**.
 - La programmazione consegna ora è stata applicata all'ordine.  
@@ -67,7 +67,7 @@ L'ordine fornitore deve essere confermato prima che l'entrata prodotti possa ess
 3. Nel riquadro azioni fare clic su **Ricevimento**.
 4. Selezionare **Entrata prodotti**. Digitare un valore nel campo **Entrata prodotti**.
 - Questo campo è usato per immettere un riferimento che sarà usato come giustificativo per il giornale di registrazione entrata prodotti.  
-- Nel campo **Quantità** , selezionare **Quantità ordinata**. Questa opzione significa che l'entrata verrà elaborata per la quantità con cui sono state create le righe ordine.  
+- Nel campo **Quantità**, selezionare **Quantità ordinata**. Questa opzione significa che l'entrata verrà elaborata per la quantità con cui sono state create le righe ordine.  
 - Assicurarsi che il campo **Stampa entrata prodotti** sia impostato su **No**. La stampa non è necessaria in questo esempio.  
 5. Espandere la sezione **Righe**.
 - Notare come l'entrata prodotti è creata per le due righe di consegna e non riga ordine originale. Se l'entrata fosse stata registrata nel magazzino, sarebbe stata registrata anche nelle righe di programmazione consegna.  

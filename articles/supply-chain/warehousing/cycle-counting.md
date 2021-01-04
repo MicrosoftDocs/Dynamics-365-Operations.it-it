@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015989"
+ms.locfileid: "4431487"
 ---
 # <a name="cycle-counting"></a>Conteggio ciclo
 
@@ -33,9 +33,9 @@ Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di 
 
 Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per controllare gli articoli di magazzino disponibili. Il processo di conteggio ciclo può essere descritto in tre passaggi:
 
-1.  **Creare il lavoro di conteggio ciclo** : il lavoro di conteggio ciclo può essere creato automaticamente in base ai parametri di soglia per gli articoli o tramite un piano di conteggio ciclo. In alternativa, è possibile creare manualmente il lavoro di conteggio ciclo tramite l'articolo o i parametri di magazzino nella pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**.
-2.  **Elaborare il conteggio ciclo** : una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Dynamics 365 Supply Chain Management. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
-3.  **Risolvere le differenze nel valore conteggiato** : dopo un conteggio ciclo, per tutti gli articoli con differenze nel valore conteggiato sarà impostato lo stato di lavoro **Revisione in sospeso** nel modulo **Tutto il lavoro**. È possibile risolvere le differenze nella pagina **Lavoro conteggio ciclo con revisione in sospeso**.
+1.  **Creare il lavoro di conteggio ciclo**: il lavoro di conteggio ciclo può essere creato automaticamente in base ai parametri di soglia per gli articoli o tramite un piano di conteggio ciclo. In alternativa, è possibile creare manualmente il lavoro di conteggio ciclo tramite l'articolo o i parametri di magazzino nella pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**.
+2.  **Elaborare il conteggio ciclo**: una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Dynamics 365 Supply Chain Management. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
+3.  **Risolvere le differenze nel valore conteggiato**: dopo un conteggio ciclo, per tutti gli articoli con differenze nel valore conteggiato sarà impostato lo stato di lavoro **Revisione in sospeso** nel modulo **Tutto il lavoro**. È possibile risolvere le differenze nella pagina **Lavoro conteggio ciclo con revisione in sospeso**.
 
 Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo](./media/performcyclecountinginawarehouselocation.jpg)
 
@@ -110,21 +110,21 @@ Il lavoro di conteggio ciclo può essere creato quando il numero di articoli sce
 È possibile programmare piani di conteggio ciclo per creare immediatamente o periodicamente il lavoro di conteggio ciclo. Impostando i piani di conteggio ciclo, è possibile controllare il pool di lavoro per cui viene creato il lavoro di conteggio ciclo, il numero massimo di conteggi ciclo creati per gli articoli in ubicazioni diverse e il numero di giorni prima che venga conteggiata di nuovo un'ubicazione magazzino. Ad esempio, un articolo è disponibile in tre ubicazioni nel magazzino e il numero massimo di conteggi ciclo è impostato su **2**. In questo caso, quando si esegue il piano di conteggio ciclo, vengono creati due conteggi ciclo per le due ubicazioni in cui è presente l'articolo. In un altro esempio si imposta il numero di giorni tra i conteggi ciclo su **5**. In questo caso, il lavoro di conteggio ciclo viene creato ogni cinque giorni. Tuttavia, se il lavoro di conteggio ciclo viene elaborato il terzo giorno, il lavoro di conteggio ciclo successivo verrà creato cinque giorni dopo l'elaborazione dell'ultimo conteggio ciclo, l'ottavo giorno.
 
 ## <a name="create-cycle-counting-work-manually"></a>Creare un lavoro di conteggio ciclo manualmente
-Per creare il lavoro di conteggio ciclo manualmente, è possibile utilizzare la pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**. È possibile specificare il numero massimo di conteggi ciclo da creare. Ad esempio, se il responsabile del magazzino specifica un valore di **5** , il lavoro di conteggio ciclo viene creato per cinque ubicazioni anche se l'articolo è presente in 10 ubicazioni differenti. È anche possibile selezionare un ID di pool di lavoro a cui assegnare gli ID di lavoro di conteggio ciclo creati. Quando un ID di pool di lavoro viene elaborato per il conteggio ciclo, gli ID di lavoro di conteggio ciclo assegnati al pool di lavoro vengono elaborati in gruppo.
+Per creare il lavoro di conteggio ciclo manualmente, è possibile utilizzare la pagina **Lavoro conteggio ciclo per articolo** o **Lavoro conteggio ciclo per ubicazione**. È possibile specificare il numero massimo di conteggi ciclo da creare. Ad esempio, se il responsabile del magazzino specifica un valore di **5**, il lavoro di conteggio ciclo viene creato per cinque ubicazioni anche se l'articolo è presente in 10 ubicazioni differenti. È anche possibile selezionare un ID di pool di lavoro a cui assegnare gli ID di lavoro di conteggio ciclo creati. Quando un ID di pool di lavoro viene elaborato per il conteggio ciclo, gli ID di lavoro di conteggio ciclo assegnati al pool di lavoro vengono elaborati in gruppo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Eseguire un conteggio ciclo tramite un dispositivo mobile
 Sono disponibili diversi metodi per elaborare il lavoro di conteggio ciclo utilizzando Supply Chain Management in un dispositivo mobile:
 
--   **Diretto dall'utente** : il lavoratore può specificare un ID di lavoro di conteggio ciclo che è nello stato **Aperto**.
--   **Diretto dal sistema** : al lavoratore viene assegnato un ID di lavoro di conteggio ciclo da Supply Chain Management.
--   **Raggruppamento conteggio ciclo** : il lavoratore può raggruppare degli ID di lavoro di conteggio ciclo che sono specifici di un'ubicazione, una zona o un pool di lavoro.
--   **Conteggio ciclo a campione** : il lavoratore può contare gli articoli in un'ubicazione magazzino in qualsiasi momento, senza creare un lavoro di conteggio ciclo. Per eseguire il conteggio ciclo a campione in un'ubicazione, il lavoratore immette l'ID ubicazione.
+-   **Diretto dall'utente**: il lavoratore può specificare un ID di lavoro di conteggio ciclo che è nello stato **Aperto**.
+-   **Diretto dal sistema**: al lavoratore viene assegnato un ID di lavoro di conteggio ciclo da Supply Chain Management.
+-   **Raggruppamento conteggio ciclo**: il lavoratore può raggruppare degli ID di lavoro di conteggio ciclo che sono specifici di un'ubicazione, una zona o un pool di lavoro.
+-   **Conteggio ciclo a campione**: il lavoratore può contare gli articoli in un'ubicazione magazzino in qualsiasi momento, senza creare un lavoro di conteggio ciclo. Per eseguire il conteggio ciclo a campione in un'ubicazione, il lavoratore immette l'ID ubicazione.
 
 Nel seguente esempio viene illustrato come eseguire il conteggio ciclo a campione utilizzando un dispositivo mobile. Le istruzioni che il lavoratore vede nel dispositivo variano a seconda dell'impostazione della voce di menu per il conteggio ciclo a campione.
 
 1.  Nel dispositivo mobile selezionare la voce di menu per elaborare il lavoro di conteggio ciclo a campione.
 2.  Registrare l'ubicazione per la quale eseguire il conteggio ciclo a campione.
-3.  Registrare e confermare il numero di articolo e la quantità di articoli conteggiata. **Nota:** lo stato del lavoro di conteggio ciclo viene aggiornato a **Revisione in sospeso** o **Chiuso** nella pagina **Tutto il lavoro** , a seconda dei parametri impostati nella pagina **Lavoratore**.
+3.  Registrare e confermare il numero di articolo e la quantità di articoli conteggiata. **Nota:** lo stato del lavoro di conteggio ciclo viene aggiornato a **Revisione in sospeso** o **Chiuso** nella pagina **Tutto il lavoro**, a seconda dei parametri impostati nella pagina **Lavoratore**.
 4.  Facoltativo: ripetere il passaggio 3 per gli articoli rimanenti nell'ubicazione e verificare che non siano presenti articoli aggiuntivi disponibili al conteggio.
 
 ## <a name="resolve-cycle-counting-differences"></a>Risolvere differenze di conteggio ciclo

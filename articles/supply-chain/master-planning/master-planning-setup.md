@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3958795"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430962"
 ---
 # <a name="set-up-master-planning"></a>Impostare la pianificazione generale
 
@@ -120,7 +120,7 @@ La programmazione processo è un metodo di programmazione più dettagliato, dove
 Per ogni piano, è possibile selezionare fino a quando i vari fabbisogni e altre considerazioni devono essere calcolati mediante la pianificazione generale. Il periodo è noto come *intervallo temporale*. Per le migliori prestazioni nella pianificazione generale, si consiglia di rettificare i vari intervalli temporali per soddisfare i requisiti aziendali. Per ogni piano, è possibile trovare gli intervalli temporali nella scheda dettaglio **Intervalli temporali in giorni** della pagina **Piani generali** (**Pianificazione generale \> Impostazioni \> Piani \> Piani generali**).
 
 > [!NOTE]
-> Gli intervalli temporali indicano fino a quando i vari fabbisogni e altre considerazioni vengono calcolati mediante la pianificazione generale. Gli intervalli temporali selezionati in questa pagina sostituiranno quelli definiti nel gruppo di copertura. Ciò significa impostare un'opzione relativa agli intervalli temporali su Sì e definire i giorni che sostituiranno l'intervallo temporale definito nel gruppo di copertura. Quando impostato su No, l'intervallo temporale verrà definito nel gruppo di copertura. Infine, se non si desidera o non è necessario utilizzare un'opzione (ad esempio non si desidera utilizzare i messaggi d'azione), impostare **Sì**e quindi impostare l'intervallo temporale su **0** (zero) giorni.
+> Gli intervalli temporali indicano fino a quando i vari fabbisogni e altre considerazioni vengono calcolati mediante la pianificazione generale. Gli intervalli temporali selezionati in questa pagina sostituiranno quelli definiti nel gruppo di copertura. Ciò significa impostare un'opzione relativa agli intervalli temporali su Sì e definire i giorni che sostituiranno l'intervallo temporale definito nel gruppo di copertura. Quando impostato su No, l'intervallo temporale verrà definito nel gruppo di copertura. Infine, se non si desidera o non è necessario utilizzare un'opzione (ad esempio non si desidera utilizzare i messaggi d'azione), impostare **Sì** e quindi impostare l'intervallo temporale su **0** (zero) giorni.
 
 ### <a name="coverage"></a>Copertura
 

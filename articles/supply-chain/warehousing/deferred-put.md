@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016703"
+ms.locfileid: "4431486"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 
@@ -44,7 +44,7 @@ I criteri sono configurati nella pagina **Criteri di elaborazione lavoro**. Nell
 | Nome criteri di elaborazione lavoro     | Nome del criterio di elaborazione del lavoro. |
 | Tipo ordine di lavoro                 | Tipo di ordine di lavoro a cui si applicano i criteri. |
 | Operazione                       | Operazione che viene elaborata utilizzando i criteri. |
-| Metodo di elaborazione lavoro          | Metodo usato per elaborare la riga di lavoro. Se il metodo è impostato su **Immediato** , il comportamento è simile al comportamento quando nessun criterio di elaborazione del lavoro viene utilizzato per elaborare la riga. Se il metodo è impostato su **Differito** , l'elaborazione differita che utilizza il framework batch viene utilizzata. |
+| Metodo di elaborazione lavoro          | Metodo usato per elaborare la riga di lavoro. Se il metodo è impostato su **Immediato**, il comportamento è simile al comportamento quando nessun criterio di elaborazione del lavoro viene utilizzato per elaborare la riga. Se il metodo è impostato su **Differito**, l'elaborazione differita che utilizza il framework batch viene utilizzata. |
 | Soglia di elaborazione differita   | Il valore **0** (zero) indica che non esiste una soglia. In questo caso, l'elaborazione differita viene utilizzata se possibile. Se il calcolo specifico è inferiore alla soglia, il metodo immediato viene utilizzato. In caso contrario, verrà usato il metodo Differito se possibile. Per lavoro correlato a vendite e trasferimenti, la soglia viene calcolata come il numero di righe di carico di origine associate che vengono elaborate per il lavoro. Per il lavoro di rifornimento, la soglia viene calcolata come il numero di righe di lavoro rifornite dal lavoro. Impostando una soglia, ad esempio, **5** per le vendite, i lavori più piccoli con meno di cinque righe di carico di origine iniziali non useranno l'elaborazione differita, ma i lavori maggiori sì. La soglia ha effetto solo se il metodo di elaborazione di lavoro è **Differito**. |
 | Gruppo batch di elaborazione differita |Gruppo batch utilizzato per elaborazione. |
 
@@ -68,7 +68,7 @@ Per impostazione predefinita, le attività **Completate** verranno visualizzate.
 Ecco una descrizione dei possibili stati:
 
 - **In attesa** - Il processo batch correlato è in attesa di elaborazione nel server batch.
-- **Non riuscito** - Elaborazione non riuscita. L'attività può essere rielaborata mediante l'azione **Elabora stoccaggio differito** , oppure è possibile annullarla con l'azione **Annulla stoccaggio differito**.
+- **Non riuscito** - Elaborazione non riuscita. L'attività può essere rielaborata mediante l'azione **Elabora stoccaggio differito**, oppure è possibile annullarla con l'azione **Annulla stoccaggio differito**.
 - **Completato** - Il processo è stato completato.
 
 ## <a name="impact-on-closed-work-dates"></a>Impatto sulle date di chiusura lavoro

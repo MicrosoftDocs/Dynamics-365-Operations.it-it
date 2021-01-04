@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 28c00b5a2485ffcc01a316d2a39e7259fb563d1d
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889051"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431183"
 ---
 # <a name="maintenance-plans"></a>Piani di manutenzione
 
@@ -169,7 +169,7 @@ Di seguito sono riportati alcuni esempi dell'impostazione delle righe di piano d
 
 - Quando si crea un nuovo cespite e questo utilizza un tipo di cespite relativo a un piano di manutenzione, il piano di manutenzione viene automaticamente immesso in **Tutti gli oggetti** > Scheda dettaglio **Piani di manutenzione cespiti**. Inoltre, in **Valori predefiniti tipo di cespite**, nella Scheda dettaglio **Piano di manutenzione**, verranno automaticamente inseriti i piani di manutenzione correlati.  
 - Se si aggiungono o rimuovono tipi di cespite o tipi di unità funzionale in **Piani di manutenzione**, tale modifica viene riflessa solo nei nuovi cespiti creati dopo la modifica.  
-- Se si aggiungono o rimuovono cespiti o unità funzionali in **Piani di manutenzione**, tale modifica verrà automaticamente aggiornata in **Tutti i cespiti** > , Scheda dettaglio**Piani di manutenzione cespiti** o in **Tutte le unità funzionali** > Scheda dettaglio **Piani di manutenzione**.  
+- Se si aggiungono o rimuovono cespiti o unità funzionali in **Piani di manutenzione**, tale modifica verrà automaticamente aggiornata in **Tutti i cespiti** > , Scheda dettaglio **Piani di manutenzione cespiti** o in **Tutte le unità funzionali** > Scheda dettaglio **Piani di manutenzione**.  
 
 Nella figura seguente è illustrato un esempio di un piano di manutenzione di "assistenza camion" nella pagina **Piani di gestione**.
 

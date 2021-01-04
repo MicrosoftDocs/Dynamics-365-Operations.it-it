@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017077"
+ms.locfileid: "4431464"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Rifornimento con kanban di prelievo
 
@@ -54,7 +54,7 @@ In questo scenario, un processo di produzione (4) utilizza il materiale da un'ub
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Configurare il lavoro del magazzino per il prelievo del kanban per il kanban di prelievo
 
-Per abilitare il prelievo di materie prime per il kanban di prelievo, configurare modelli di ondata, modelli di lavoro e direttive di ubicazione per il tipo di ordine di lavoro **Prelievo kanban**. Questo tipo di ordine di lavoro non supporta solo il processo di prelievo per il kanban di prelievo. Supporta anche il processo di prelievo per il kanban di produzione. Tuttavia, è possibile configurare un processo separato di prelievo per ciascun tipo di kanban separando i modelli di ondata, i modelli di lavoro e le direttive di posizione. Per separare i modelli ondata, i modelli di lavoro e le direttive di posizione, impostare i criteri per il tipo di attività ( **Processo** o **Trasferimento** ) nelle query per tali entità.
+Per abilitare il prelievo di materie prime per il kanban di prelievo, configurare modelli di ondata, modelli di lavoro e direttive di ubicazione per il tipo di ordine di lavoro **Prelievo kanban**. Questo tipo di ordine di lavoro non supporta solo il processo di prelievo per il kanban di prelievo. Supporta anche il processo di prelievo per il kanban di produzione. Tuttavia, è possibile configurare un processo separato di prelievo per ciascun tipo di kanban separando i modelli di ondata, i modelli di lavoro e le direttive di posizione. Per separare i modelli ondata, i modelli di lavoro e le direttive di posizione, impostare i criteri per il tipo di attività (**Processo** o **Trasferimento**) nelle query per tali entità.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Configurare il kanban di prelievo
 

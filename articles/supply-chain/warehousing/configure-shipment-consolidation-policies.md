@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016219"
+ms.locfileid: "4431492"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurazione dei criteri di consolidamento delle spedizioni
 
@@ -36,7 +36,7 @@ Gli scenari presentati in questo argomento mostrano come impostare criteri di co
 > [!IMPORTANT]
 > Nel [primo scenario](#scenario-1) che è descritto in questo argomento, devi prima impostare un magazzino in modo che utilizzi la funzione di consolidamento della spedizione precedente. Renderai quindi disponibili i criteri di consolidamento della spedizione. In questo modo, puoi provare come funziona lo scenario di aggiornamento. Se prevedi di utilizzare un ambiente dati dimostrativo per conoscere il primo scenario, non attivare la funzionalità prima di eseguire lo scenario.
 
-Prima di poter usare la funzionalità *Criteri di consolidamento spedizione* , devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
+Prima di poter usare la funzionalità *Criteri di consolidamento spedizione*, devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Consolida spedizione*
@@ -47,7 +47,7 @@ Ogni scenario in questo argomento fa riferimento a valori e record inclusi nei d
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scenario 1: configurare i criteri di consolidamento delle spedizioni predefiniti
 
-Esistono due situazioni in cui è necessario configurare il numero minimo di criteri predefiniti dopo aver attivato la funzionalità *Criteri di consolidamento della spedizione* :
+Esistono due situazioni in cui è necessario configurare il numero minimo di criteri predefiniti dopo aver attivato la funzionalità *Criteri di consolidamento della spedizione*:
 
 - Stai aggiornando un ambiente che contiene già dati.
 - Stai configurando un ambiente completamente nuovo.
@@ -59,12 +59,12 @@ Quando avvii questa procedura, la funzionalità *Criteri di consolidamento della
 Attieniti alla seguente procedura per impostare i criteri di consolidamento delle spedizioni predefiniti in un ambiente in cui i magazzini sono già stati configurati per il consolidamento tra ordini.
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
-1. Nell'elenco, trova e apri il record di magazzino desiderato (ad esempio, magazzino *24* nei dati dimostrativi **USMF** ).
+1. Nell'elenco, trova e apri il record di magazzino desiderato (ad esempio, magazzino *24* nei dati dimostrativi **USMF**).
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella Scheda dettaglio **Magazzino** , imposta l'opzione **Consolida spedizione al rilascio al magazzino** su *Sì*.
+1. Nella Scheda dettaglio **Magazzino**, imposta l'opzione **Consolida spedizione al rilascio al magazzino** su *Sì*.
 1. Ripeti i passaggi da 2 a 4 per tutti gli altri magazzini in cui è richiesto il consolidamento.
 1. Chiudere la pagina.
-1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione*. Nell'area di lavoro **Gestione funzionalità** , la funzione è denominata *Consolida spedizione*.
+1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione*. Nell'area di lavoro **Gestione funzionalità**, la funzione è denominata *Consolida spedizione*.
 1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**. Potrebbe essere necessario aggiornare il browser per vedere la nuova voce di menu **Criteri di consolidamento della spedizione** dopo aver abilitato la funzione.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 
@@ -77,14 +77,14 @@ Attieniti alla seguente procedura per impostare i criteri di consolidamento dell
     > - Entrambi i criteri **CrossOrder** considerano lo stesso insieme di campi della logica precedente, ad eccezione del campo per il numero dell'ordine. Questo campo viene utilizzato per consolidare le righe nelle spedizioni, in base a fattori quali magazzino, modalità di trasporto della consegna e indirizzo.
     > - Entrambi i criteri **Predefinito** considerano lo stesso insieme di campi della logica precedente, incluso il campo per il numero dell'ordine. Questo campo viene utilizzato per consolidare le righe nelle spedizioni, in base a fattori quali numero di ordine, magazzino, modalità di trasporto della consegna e indirizzo.
 
-1. Seleziona il criterio **CrossOrder** per il tipo di criterio *Ordini cliente* , quindi, nel riquadro azioni, seleziona **Modifica query**.
+1. Seleziona il criterio **CrossOrder** per il tipo di criterio *Ordini cliente*, quindi, nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor di query, notare che i magazzini in cui l'opzione **Consolida spedizione al rilascio al magazzino** è impostata su *Sì* sono elencati. Pertanto, sono inclusi nella query.
 
 ### <a name="create-default-policies-for-a-new-environment"></a>Crea criteri predefiniti per un nuovo ambiente
 
 Segui questi passaggi per impostare i criteri di consolidamento delle spedizioni predefinite in un ambiente completamente nuovo.
 
-1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione* , se non è stata già abilitata. Nell'area di lavoro **Gestione funzionalità** , la funzione è denominata *Consolida spedizione*.
+1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione*, se non è stata già abilitata. Nell'area di lavoro **Gestione funzionalità**, la funzione è denominata *Consolida spedizione*.
 1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 
@@ -122,10 +122,10 @@ Utilizza la gestione delle funzionalità per attivare la funzione, se non è gi�
 
 1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
 1. Apri il prodotto con numero articolo *M9200*. Il prodotto selezionato deve essere abilitato per i processi del magazzino avanzato \[WMS\] e questo prodotto è pre-abilitato per i processi WMS nei dati dimostrativi **USMF**.
-1. Nella Scheda dettaglio **Magazzino** , imposta il campo **Codice 4** su *Infiammabile*.
+1. Nella Scheda dettaglio **Magazzino**, imposta il campo **Codice 4** su *Infiammabile*.
 1. Chiudere la pagina.
 1. Apri il prodotto con numero articolo *M9201*. Questo prodotto è pre-abilitato anche per i processi WMS nei dati dimostrativi **USMF**.
-1. Nella Scheda dettaglio **Magazzino** , imposta il campo **Codice 4** su *Esplosivo*.
+1. Nella Scheda dettaglio **Magazzino**, imposta il campo **Codice 4** su *Esplosivo*.
 1. Chiudere la pagina.
 
 #### <a name="create-a-new-transportation-mode-of-delivery"></a>Crea una nuova modalità di trasporto della consegna
@@ -159,14 +159,14 @@ Utilizza la gestione delle funzionalità per attivare la funzione, se non è gi�
 
 1. Vai a **Vendite e marketing \> Clienti \> Tutti i clienti**.
 1. Apri il cliente con il numero di conto *US-003*.
-1. Nella Scheda dettaglio **Impostazioni predefinite ordine cliente** , imposta il campo **Pool ordini cliente** al pool degli ordini che hai appena creato.
+1. Nella Scheda dettaglio **Impostazioni predefinite ordine cliente**, imposta il campo **Pool ordini cliente** al pool degli ordini che hai appena creato.
 1. Chiudi la pagina, quindi ripeti i passaggi 4 e 5 per il cliente che ha il numero di conto *US-004*.
 
 ### <a name="create-example-policy-1"></a>Crea un criterio di esempio 1
 
 In questo esempio, creerai un criterio *Cliente + Modalità* che può essere utilizzato per il seguente caso aziendale:
 
-- Il criterio chiederà un conto cliente specifico ( *US-001* ) e una modalità di consegna specifica ( *Airwa-Air* ).
+- Il criterio chiederà un conto cliente specifico (*US-001*) e una modalità di consegna specifica (*Airwa-Air*).
 - Il consolidamento con spedizioni aperte è disattivato.
 - Il consolidamento viene eseguito per ID ordine. In altre parole, ci saranno spedizioni separate per ordine, magazzino e così via.
 
@@ -181,10 +181,10 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Campi di consolidamento** , nell'elenco **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
+1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , nella griglia, trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, nella griglia, trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
 1. Seleziona **Aggiungi** per aggiungere una riga con le seguenti impostazioni alla griglia:
 
     - **Tabella:** *Righe ordine*
@@ -201,7 +201,7 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 
 In questo esempio, creerai un criterio *Merce pericolosa* che può essere utilizzato per il seguente caso aziendale:
 
-- Il criterio chiederà un codice filtro specifico ( *pericoloso* ) e una modalità di consegna specifica ( *Airwa-Air* ).
+- Il criterio chiederà un codice filtro specifico (*pericoloso*) e una modalità di consegna specifica (*Airwa-Air*).
 - Il consolidamento con spedizioni aperte è attivato.
 - Il consolidamento viene eseguito tra gli ordini. In altre parole, ci saranno spedizioni separate per conto, magazzino e così via, ma solo all'interno del gruppo di articoli specificato nella query.
 
@@ -216,13 +216,13 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 
 1. Imposta l'opzione **Consolida con spedizioni aperte** su *Sì*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Campi di consolidamento** , nell'elenco **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
+1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Join** , espandi e seleziona **Tabelle \> Carica dettagli** nell'albero.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Join**, espandi e seleziona **Tabelle \> Carica dettagli** nell'albero.
 1. Seleziona **Aggiungi tabella join**.
-1. Nella griglia di relazioni che appare, trova e seleziona la riga in cui il campo **Relazione** è impostato su *Numero articolo magazzino (Numero articolo)* , quindi seleziona **Seleziona**. 
-1. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
+1. Nella griglia di relazioni che appare, trova e seleziona la riga in cui il campo **Relazione** è impostato su *Numero articolo magazzino (Numero articolo)*, quindi seleziona **Seleziona**. 
+1. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
 
     - **Tabella:** *Numero articolo magazzino*
     - **Tabella derivata:** *Numero articolo magazzino*
@@ -232,7 +232,7 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 1. Selezionare **OK** per chiudere la finestra di dialogo.
 
 > [!NOTE]
-> Per questo caso aziendale, tutte le righe ordine in cui gli articoli hanno un codice filtro specifico (ovvero il codice filtro in cui il campo **Codice 4** è impostato su *Infiammabile* ) verrà consolidato con altri articoli dello stesso tipo tra gli ordini. Se esiste una spedizione aperta per lo stesso conto, magazzino e gruppo di articoli, le nuove righe verranno allegate ad esso.
+> Per questo caso aziendale, tutte le righe ordine in cui gli articoli hanno un codice filtro specifico (ovvero il codice filtro in cui il campo **Codice 4** è impostato su *Infiammabile*) verrà consolidato con altri articoli dello stesso tipo tra gli ordini. Se esiste una spedizione aperta per lo stesso conto, magazzino e gruppo di articoli, le nuove righe verranno allegate ad esso.
 
 ### <a name="create-example-policy-3"></a>Crea un criterio di esempio 3
 
@@ -253,12 +253,12 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 
 1. Imposta l'opzione **Consolida con spedizioni aperte** su *Sì*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Campi di consolidamento** , nell'elenco **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Richiesta di approvvigionamento cliente*.
+1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Richiesta di approvvigionamento cliente*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
-1. Nell'elenco **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
+1. Nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
 1. Selezionare **OK** per chiudere la finestra di dialogo.
 
 > [!NOTE]
@@ -285,10 +285,10 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Campi di consolidamento** , nell'elenco **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
+1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor delle query, nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
+1. Nella finestra di dialogo dell'editor delle query, nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
 
     - **Tabella:** *Ordini cliente*
     - **Tabella derivata:** *Ordini cliente*
@@ -319,10 +319,10 @@ In genere, questo caso aziendale può essere risolto utilizzando i criteri prede
 
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
-1. Nella Scheda dettaglio **Campi di consolidamento** , nel campo **Campi rimanenti** , seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
+1. Nella Scheda dettaglio **Campi di consolidamento**, nel campo **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
 1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , trova la riga in cui il campo **Campo** è impostato su *Magazzino* e imposta il campo **Criteri** per quella riga su *61, 63*.
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trova la riga in cui il campo **Campo** è impostato su *Magazzino* e imposta il campo **Criteri** per quella riga su *61, 63*.
 1. Selezionare **OK** per chiudere la finestra di dialogo.
 
 ### <a name="set-the-order"></a>Configura l'ordine

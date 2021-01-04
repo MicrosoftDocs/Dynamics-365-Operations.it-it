@@ -1,0 +1,42 @@
+---
+title: Risolvere i problemi di impostazione del magazzino
+description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare durante l'impostazione dei magazzini in Microsoft Dynamics 365 Supply Chain Management.
+author: perlynne
+manager: tfehr
+ms.date: 10/19/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application user
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: perlynne
+ms.search.validFrom: 2020-10-19
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 2158c097fafb6c35bce7dc28a29c175f458cde1b
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645843"
+---
+# <a name="troubleshoot-warehouse-setup"></a>Risolvere i problemi di impostazione del magazzino
+
+[!include [banner](../includes/banner.md)]
+
+Questo argomento descrive come risolvere i problemi comuni che si possono verificare durante l'impostazione dei magazzini in Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="i-cant-use-any-role-except-administrator-to-access-the-mobile-device-app-emulator"></a>Non è possibile utilizzare alcun ruolo tranne amministratore per accedere all'emulatore di app del dispositivo mobile.
+
+### <a name="issue-description"></a>Descrizione del problema
+
+Non è possibile utilizzare un ruolo tranne quello dell'amministratore per accedere all'emulatore di app del dispositivo mobile.
+
+### <a name="issue-resolution"></a>Risoluzione dei problemi
+
+L'emulatore dell'app per dispositivi mobili è impostato per funzionare solo con l'account amministratore. Per tutti gli scopi di test e processo live, consigliamo di utilizzare l'app di magazzino stessa.

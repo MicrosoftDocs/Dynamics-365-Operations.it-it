@@ -1,5 +1,5 @@
 ---
-title: Stabilizzazione automatica con l'ottimizzazione di pianificazione
+title: Stabilizzazione automatica con Ottimizzazione pianificazione
 description: In questo argomento viene illustrato come utilizzare la stabilizzazione automatica con l'ottimizzazione di pianificazione.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383690"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594528"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Stabilizzazione automatica con l'ottimizzazione di pianificazione
+# <a name="autofirming-with-planning-optimization"></a>Stabilizzazione automatica con Ottimizzazione pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ La stabilizzazione automatica consente di stabilizzare ovvero rilasciare gli ord
 > [!NOTE]
 > La stabilizzazione automatica di un ordine fornitore pianificato può avvenire solo se l'articolo è associato a un fornitore.
 
-## <a name="turn-on-auto-firming"></a>Attivare la stabilizzazione automatica
+## <a name="turn-on-autofirming"></a>Attivare la stabilizzazione automatica
 
 Per attivare la stabilizzazione automatica, effettuare le seguenti operazioni.
 
@@ -48,7 +48,7 @@ L'intervallo temporale di stabilizzazione viene calcolato in avanti a partire da
 
 - Per definire l'intervallo temporale predefinito per la stabilizzazione di un gruppo di copertura, andare a **Pianificazione generale** \> **Impostazione** \> **Copertura** \> **Gruppi di copertura** e selezionare un gruppo di copertura. Quindi, nella Scheda dettaglio **Altro**, nel campo **Intervallo temporale di stabilizzazione automatica (giorni)**, immettere il numero di giorni.
 - Per sovrascrivere l'intervallo temporale per la stabilizzazione definito per il gruppo di copertura per un articolo specifico, vai a **Gestione informazioni sul prodotto** \> **Prodotti rilasciati**, quindi nel riquadro azioni **Piano** seleziona **Copertura articoli**. Nella scheda **Generale**, selezionare **Ignora intervalli temporali** e nel campo **Intervallo temporale di stabilizzazione automatico (giorni)**, immettere il numero di giorni.
-- Per sovrascrivere l'intervallo temporale per la stabilizzazione definito per il gruppo di copertura e la copertura articoli per un piano generale specifico, andare a **Pianificazione generale** \> **Impostazione** \> **Piani generali** e selezionare un piano generale. Quindi, nella Scheda dettaglio **Intervallo temporale in giorni**, impostare **Blocca** su **Sì** e immettere il numero di giorni.
+- Per sovrascrivere l'intervallo temporale per la stabilizzazione definito per il gruppo di copertura e la copertura articoli per un piano generale specifico, andare a **Pianificazione generale** \> **Impostazione** \> **Piani generali** e selezionare un piano generale. Quindi, nella Scheda dettaglio **Intervallo temporale in giorni**, impostare **Stabilizzazione** su **Sì** e immettere il numero di giorni.
 
 Se la stabilizzazione automatica è attivata per l'esecuzione di una pianificazione generale che utilizza l'ottimizzazione di pianificazione, il processo di stabilizzazione automatica viene eseguito in base all'impostazione di stabilizzazione automatica. Se la stabilizzazione automatica non è attivata o se la pianificazione viene avviata dalla pagina **Fabbisogno netto**, il processo di stabilizzazione automatica verrà ignorato.
 

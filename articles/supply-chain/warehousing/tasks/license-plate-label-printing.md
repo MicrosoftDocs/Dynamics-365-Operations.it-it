@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e548e5e5528733412d47478dd740b87217cdac2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016104"
+ms.locfileid: "4431505"
 ---
 # <a name="enable-license-plate-label-printing"></a>Abilitare la stampa di etichette targa
 
@@ -44,7 +44,7 @@ In questo argomento viene descritto come abilitare la stampa automatica di un'et
 4. Digitare un valore nel campo **Società**.
 5. Espandere la sezione **Segmenti**.
 6. Selezionare **Modifica**.
-7. Nella tabella **Segmenti** , selezionare la prima riga.
+7. Nella tabella **Segmenti**, selezionare la prima riga.
 8. Selezione **Rimuovi**.
 9. Selezione **Rimuovi**.
 10. Selezionare **Salva**.
@@ -66,7 +66,7 @@ In questo argomento viene descritto come abilitare la stampa automatica di un'et
 4. Digitare un valore nel campo **Magazzino**.
 5. Digitare un valore nel campo **Nome**.
 6. Selezionare **Nuovo**.
-7. Nel campo **ID layout** , immettere o selezionare un valore.
+7. Nel campo **ID layout**, immettere o selezionare un valore.
 8. Nel campo **Nome** selezionare il nome della stampante che si desidera utilizzare.
 9. Selezionare **Salva**.
 10. Chiudere la pagina.
@@ -81,7 +81,7 @@ In questo argomento viene descritto come abilitare la stampa automatica di un'et
 7. Selezionare **Sì** nel campo **Genera targa**.
 8. Espandere la sezione **Classi di lavoro**.
 9. Selezionare **Nuovo**.
-10. Nel campo **ID classe lavoro** , digitare un valore.
+10. Nel campo **ID classe lavoro**, digitare un valore.
 11. Selezionare **Salva**.
 12. Chiudere la pagina.
 13. Andare a **Pannello di navigazione > Moduli > Gestione magazzino > Impostazione > Dispositivo mobile > Menu del dispositivo mobile**.
@@ -95,7 +95,7 @@ In questo argomento viene descritto come abilitare la stampa automatica di un'et
 1. Andare a **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Lavoro > Modelli di lavoro**.
 2. Selezionare **Modifica**.
 3. Selezionare **Nuovo**.
-4. Nel campo **Tipo di lavoro** , selezionare **Stampa**.
+4. Nel campo **Tipo di lavoro**, selezionare **Stampa**.
 5. Nel campo **ID classe lavoro** immettere o selezionare un valore.
 6. Selezionare **Sposta su**.
 7. Selezionare **Salva**.

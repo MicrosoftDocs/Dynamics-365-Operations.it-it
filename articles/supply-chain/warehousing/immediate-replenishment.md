@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017509"
+ms.locfileid: "4431540"
 ---
 # <a name="immediate-replenishment"></a>Rifornimento immediato
 
@@ -47,7 +47,7 @@ Il rifornimento immediato viene utilizzato durante l'esecuzione dell'ondata se l
 
 ## <a name="set-up-immediate-replenishment"></a>Impostare il rifornimento immediato
 
-- Passare a **Gestione magazzino** \> **Impostazioni** \> **Direttive ubicazione** , quindi nella scheda **Righe** , nell'elenco **Modello per il rifornimento immediato** , selezionare un modello di rifornimento per la domanda di ondata.
+- Passare a **Gestione magazzino** \> **Impostazioni** \> **Direttive ubicazione**, quindi nella scheda **Righe**, nell'elenco **Modello per il rifornimento immediato**, selezionare un modello di rifornimento per la domanda di ondata.
 
 Il modello di rifornimento viene applicato se la riga di direttiva ubicazione non riesce ad allocare un'unità di misura dedicata.
 

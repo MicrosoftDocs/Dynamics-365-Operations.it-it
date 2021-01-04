@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017485"
+ms.locfileid: "4431530"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Impostare i magazzini per gli ordini di trasferimento 
 
@@ -33,7 +33,7 @@ Utilizzando i livelli magazzino è possibile creare una gerarchia per supportare
 
 2.  Selezionare il magazzino che si desidera ricaricare.
 
-3.  Nella scheda dettaglio **Pianificazione generale** , selezionare la casella di controllo **Ricaricamento**.
+3.  Nella scheda dettaglio **Pianificazione generale**, selezionare la casella di controllo **Ricaricamento**.
 
 4.  Nel campo **Magazzino principale** selezionare il magazzino che si desidera assegnare come magazzino di ricaricamento. Tramite la programmazione generale viene calcolato un fabbisogno di trasferimento per il magazzino selezionato e viene generato un ordine di trasferimento pianificato dal campo **Magazzino principale** assegnato.
    
@@ -51,5 +51,5 @@ Utilizzando i livelli magazzino è possibile creare una gerarchia per supportare
 È inoltre necessario impostare il lead time di spedizione tra magazzini nella pagina **Giorni di spedizione**. 
 1. Passare a **Gestione inventario > Impostazioni > Distribuzione > Giorni di spedizione**.
 2. Nel campo **Punto di ricevimento** selezionare il **magazzino**.
-3. Selezionare **Magazzino di spedizione** , **Magazzino ricevente** e **Giorni di spedizione**. 
+3. Selezionare **Magazzino di spedizione**, **Magazzino ricevente** e **Giorni di spedizione**. 
 4. (Facoltativo) È inoltre possibile impostare il tempo di spedizione, a seconda della modalità di consegna, nella scheda **Giorni di spedizione per modalità di consegna**.

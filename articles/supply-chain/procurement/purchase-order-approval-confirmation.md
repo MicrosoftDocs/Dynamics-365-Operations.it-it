@@ -20,11 +20,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018815"
+ms.locfileid: "4431468"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare gli ordini fornitore
 
@@ -35,7 +35,7 @@ In questo argomento vengono descritti gli stati che attraversa un ordine fornito
 Dopo aver creato un ordine fornitore (PO), potrebbe essere necessario passare attraverso un processo di approvazione. Dopo che il fornitore ha accettato l'ordine, il PO è impostata su uno stato di **Confermato**.
 
 ## <a name="approval-of-purchase-orders"></a>Approvazione di ordini fornitore
-I PO che non utilizzano la gestione delle modifiche hanno uno stato di **Approvato** appena creati, mentre i PO che utilizzano la gestione delle modifiche hanno uno stato di **Bozza** quando vengono creati. Un ordine fornitore creato consolidando un ordine pianificato dalla pianificazione generale viene impostato sempre su **Approvato** , indipendentemente dalle impostazioni della gestione modifiche. Un ordine fornitore consente di creare transazioni di magazzino solo quando raggiunge lo stato **Approvato**. Di conseguenza, tale inventario non viene visualizzato come disponibile per la prenotazione o il contrassegno fino a quando non viene accettato l'ordine.
+I PO che non utilizzano la gestione delle modifiche hanno uno stato di **Approvato** appena creati, mentre i PO che utilizzano la gestione delle modifiche hanno uno stato di **Bozza** quando vengono creati. Un ordine fornitore creato consolidando un ordine pianificato dalla pianificazione generale viene impostato sempre su **Approvato**, indipendentemente dalle impostazioni della gestione modifiche. Un ordine fornitore consente di creare transazioni di magazzino solo quando raggiunge lo stato **Approvato**. Di conseguenza, tale inventario non viene visualizzato come disponibile per la prenotazione o il contrassegno fino a quando non viene accettato l'ordine.
 
 Abilitare la gestione modifiche per i PO impostando l'opzione **Attiva gestione modifiche** nella pagina **Parametri di approvvigionamento**. Quando è attivata la gestione delle modifiche, i PO deve passare attraverso un flusso di lavoro di approvazione dopo essere stati completati. Supply Chain Management dispone di un editor di processo del flusso di lavoro in cui è possibile definire un flusso di lavoro per rappresentare il processo di approvazione. Il flusso di lavoro può includere regole per l'approvazione automatica, regole che determinano chi verrà assegnato per approvare specifici PO e regole di escalation di un flusso di lavoro che è stato in attesa di approvazione per molto tempo. È possibile attivare il processo di gestione delle modifiche per tutti i fornitori o per fornitori specifici. È inoltre possibile impostare il processo in modo che possa essere ignorato per singoli PO.
 
@@ -67,7 +67,7 @@ Un fornitore potrebbe richiedere qualche tipo di garanzia che il pagamento verr�
 ## <a name="changing-purchase-orders"></a>Modifica degli ordini fornitore
 In alcuni casi, potrebbe essere necessario modificare un ordine fornitore dopo il raggiungimento di uno stato di approvazione di **Approvato** o **Confermato**.
 
-Se l'ordine fornitore è stato creato utilizzando un processo di gestione delle modifiche, è possibile apportare modifiche richiamando l'ordine oppure, se l'ordine è già stato approvato, utilizzando l'azione **Richiedi modifica**. In questo caso, lo stato di approvazione viene nuovamente modificato in **Bozza** , ed è quindi possibile modificare l'ordine. Dopo avere apportato le modifiche, potrebbe essere necessario inviare di nuovo il PO per la riapprovazione. È possibile configurare i tipi di modifiche che richiedono la riapprovazione utilizzando una regola dei criteri **Regola di riapprovazione per gli ordini fornitore** nella pagina **Criteri acquisto**.
+Se l'ordine fornitore è stato creato utilizzando un processo di gestione delle modifiche, è possibile apportare modifiche richiamando l'ordine oppure, se l'ordine è già stato approvato, utilizzando l'azione **Richiedi modifica**. In questo caso, lo stato di approvazione viene nuovamente modificato in **Bozza**, ed è quindi possibile modificare l'ordine. Dopo avere apportato le modifiche, potrebbe essere necessario inviare di nuovo il PO per la riapprovazione. È possibile configurare i tipi di modifiche che richiedono la riapprovazione utilizzando una regola dei criteri **Regola di riapprovazione per gli ordini fornitore** nella pagina **Criteri acquisto**.
 
 Se parte della quantità ordinata per una riga dell'ordine fornitore è stata consegnata, non è possibile modificare la quantità ordinata quando l'ordine fornitore si trova in **Bozze**. Tuttavia, è possibile modificare la quantità **Rimanente consegna** nella riga per l'ordine fornitore che si trova in **Bozze**.
 

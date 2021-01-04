@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017715"
+ms.locfileid: "4431485"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Di seguito è riportata una spiegazione di questo formato:
 
-- `FieldName` è il nome del campo dati (ad esempio **Quantità** ).
+- `FieldName` è il nome del campo dati (ad esempio **Quantità**).
 - `FormatString` definisce come devono essere stampati i dati.
 
-I seguenti esempi mostrano come personalizzare il campo della quantità di lavoro ( **Quantità** ):
+I seguenti esempi mostrano come personalizzare il campo della quantità di lavoro (**Quantità**):
 
 - Per mostrare sempre quattro cifre (usando zeri come segnaposto) utilizzare `$Qty:0000$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "0010".
 - Per mostrare sempre due cifre decimali, utilizzare `$Qty:0.00$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "10.00".

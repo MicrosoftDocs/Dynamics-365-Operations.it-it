@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017577"
+ms.locfileid: "4431566"
 ---
 # <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
 
@@ -40,15 +40,15 @@ Se necessario, un lavoratore può passare un cluster a un altro lavoratore. Tale
 
 Per abilitare il prelievo del cluster, è necessario impostare quanto segue:
 
-- **Profili cluster** : consente di specificare se generare automaticamente gli ID del cluster, il numero di posizioni da utilizzare, quando interrompere i cluster e come ordinare in sequenza e verificare il lavoro di prelievo.
+- **Profili cluster**: consente di specificare se generare automaticamente gli ID del cluster, il numero di posizioni da utilizzare, quando interrompere i cluster e come ordinare in sequenza e verificare il lavoro di prelievo.
 
-- **Modelli di lavoro** : consente di definire la modalità di creazione del lavoro di prelievo per il prelievo del cluster.
+- **Modelli di lavoro**: consente di definire la modalità di creazione del lavoro di prelievo per il prelievo del cluster.
 
-- **Direttive ubicazione** : consente di specificare dove prelevare gli articoli e dove inserirli.
+- **Direttive ubicazione**: consente di specificare dove prelevare gli articoli e dove inserirli.
 
-- **Voci di menu del dispositivo mobile** : consente di configurare una voce di menu del dispositivo mobile per utilizzare il lavoro esistente che è diretto dal prelievo del cluster. È quindi necessario aggiungere la voce di menu a un menu del dispositivo mobile in modo che sia visualizzato sui dispositivi mobili.
+- **Voci di menu del dispositivo mobile**: consente di configurare una voce di menu del dispositivo mobile per utilizzare il lavoro esistente che è diretto dal prelievo del cluster. È quindi necessario aggiungere la voce di menu a un menu del dispositivo mobile in modo che sia visualizzato sui dispositivi mobili.
 
-- **Parametri di gestione magazzino** : consente di specificare la sequenza numerica da utilizzare se si desidera generare gli identificatori per i cluster.
+- **Parametri di gestione magazzino**: consente di specificare la sequenza numerica da utilizzare se si desidera generare gli identificatori per i cluster.
 
 ## <a name="set-up-a-cluster-profile"></a>Impostare un profilo del cluster
 

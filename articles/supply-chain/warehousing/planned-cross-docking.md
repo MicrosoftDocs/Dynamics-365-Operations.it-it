@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017761"
+ms.locfileid: "4431548"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking pianificato
 
@@ -83,17 +83,17 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 
         Questo campo definisce se il lavoro di cross-docking deve utilizzare le ubicazioni di transito/carico dalla spedizione o se deve utilizzare le direttive di ubicazione per trovare le proprie ubicazioni di transizione/carico.
 
-    - **Modello di lavoro** : lasciare vuoto questo campo.
+    - **Modello di lavoro**: lasciare vuoto questo campo.
 
         Questo campo definisce il modello di lavoro che deve essere utilizzato quando viene creato il lavoro di cross-docking.
 
     - **Riconvalida al ricevimento della fornitura:** *No*
 
-        Questa opzione definisce se la fornitura deve essere riconvalidata al momento del ricevimento. Se questa opzione è impostata su *Sì* , vengono controllati sia l'intervallo di tempo massimo sia l'intervallo di giorni di scadenza.
+        Questa opzione definisce se la fornitura deve essere riconvalidata al momento del ricevimento. Se questa opzione è impostata su *Sì*, vengono controllati sia l'intervallo di tempo massimo sia l'intervallo di giorni di scadenza.
 
     - **Convalida finestra temporale:** *Sì*
 
-        Questa opzione definisce se la finestra temporale massima deve essere valutata quando viene selezionata una fonte di approvvigionamento. Se questa opzione è impostata su *Sì* , diventano disponibili i campi correlati alle finestre di tempo massimo e minimo.
+        Questa opzione definisce se la finestra temporale massima deve essere valutata quando viene selezionata una fonte di approvvigionamento. Se questa opzione è impostata su *Sì*, diventano disponibili i campi correlati alle finestre di tempo massimo e minimo.
 
     - **Intervallo di tempo massimo:** *5*
 
@@ -109,7 +109,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 
         *Criteri FEFO (first out first first out):* questo campo definisce il numero massimo di giorni tra la data di scadenza del lotto in scadenza al momento che è attualmente nel magazzino e il lotto in ricezione.
 
-1. Nella Scheda dettaglio **Fonti di approvvigionamento** , si specificano i tipi di fornitura validi per questo modello. Seleziona **Nuovo** , quindi imposta i seguenti valori:
+1. Nella Scheda dettaglio **Fonti di approvvigionamento**, si specificano i tipi di fornitura validi per questo modello. Seleziona **Nuovo**, quindi imposta i seguenti valori:
 
     - **Numero progressivo:** *1*
     - **Fonte di approvvigionamento:** *Ordine fornitore*
@@ -136,7 +136,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **Descrizione modello di lavoro:** *Cross-docking 51*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Dettagli modello di lavoro** disponibile.
-1. Nella Scheda dettaglio **Dettagli modello di lavoro** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Dettagli modello di lavoro**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tipo di lavoro:** *Prelevare*
@@ -156,7 +156,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
 1. Nel riquadro sinistro, imposta il campo **Tipo di ordine di lavoro** su *Cross-docking*.
-1. Nel riquadro azioni, seleziona **Nuovo** , quindi imposta i seguenti valori:
+1. Nel riquadro azioni, seleziona **Nuovo**, quindi imposta i seguenti valori:
 
     - **Numero progressivo:** *1*
     - **Nome:** *51 inserisci cross-docking*
@@ -165,14 +165,14 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **Magazzino:** *51*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Righe** disponibile.
-1. Nella Scheda dettaglio **Righe** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Righe**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Da quantità:** *1*
     - **A quantità:** *1000000*
 
 1. Seleziona **Salva** per rendere la Scheda dettaglio **Azioni direttiva ubicazione** disponibile.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Nome:** *Baydoor*
@@ -180,7 +180,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 
 1. Seleziona **Salva** per rendere il pulsante **Modifica query** nella barra degli strumenti **Azioni direttiva ubicazione** disponibile.
 1. Seleziona **Modifica query** per aprire l'editor di query.
-1. Nella scheda **Intervallo** , verifica che siano configurate le seguenti due righe:
+1. Nella scheda **Intervallo**, verifica che siano configurate le seguenti due righe:
 
     - Riga 1:
 
@@ -203,7 +203,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.
 1. Nell'elenco delle voci di menu nel riquadro sinistro, seleziona **Stoccaggio dell'ordine fornitore**.
 1. Selezionare **Modifica**.
-1. Nella Scheda dettaglio **Classi di lavoro** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Classi di lavoro**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **ID classe lavoro:** *CrossDock*
@@ -219,7 +219,7 @@ Segui questi passaggi per creare un ordine fornitore come fonte di approvvigiona
 
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine fornitore** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine fornitore**, imposta i seguenti valori:
 
     - **Conto fornitore:** *104*
     - **Magazzino:** *51*
@@ -236,7 +236,7 @@ Segui questi passaggi per creare un ordine cliente come origine della domanda.
 
 1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine cliente** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
     - **Conto cliente:** *US-002*
     - **Magazzino:** *51*
@@ -251,18 +251,18 @@ Segui questi passaggi per creare un ordine cliente come origine della domanda.
 
 Segui questi passaggi per creare il cross-docking pianificato dall'ordine cliente.
 
-1. Nella pagina **Dettagli ordine cliente** per l'ordine cliente appena creato, nel riquadro azioni, nella scheda **Magazzino** del gruppo **Azioni** , seleziona **Rilascia in magazzino**.
+1. Nella pagina **Dettagli ordine cliente** per l'ordine cliente appena creato, nel riquadro azioni, nella scheda **Magazzino** del gruppo **Azioni**, seleziona **Rilascia in magazzino**.
 
     L'operazione di rilascio in magazzino crea una riga di spedizione e di carico per la riga ordine client e tenta di allocare le scorte.
     
     Viene visualizzato un messaggio informativo. Viene inoltre visualizzato il seguente messaggio di avviso: "Nessun lavoro creato per l'ondata XXXX. Vedi il registro della cronologia di creazione del lavoro per i dettagli. " Questo comportamento è previsto perché non sono presenti scorte nel magazzino.
 
-1. Nella scheda dettaglio **Righe ordine cliente** , nel menu **Magazzino** , seleziona **Dettagli spedizione**.
+1. Nella scheda dettaglio **Righe ordine cliente**, nel menu **Magazzino**, seleziona **Dettagli spedizione**.
 
     La pagina **Dettagli spedizione** viene visualizzata e mostra la spedizione creata per l'ordine cliente.
 
-1. Nella Scheda dettaglio **Righe di carico** , il campo **Quantità cross-dockin pianificata** è impostato su *3*. Poiché non erano disponibili scorte nel magazzino, ma una fonte di approvvigionamento valida arriverà entro l'intervallo di tempo definito nel modello di cross-docking, la quantità cross-docking è stata creata.
-1. Nella Scheda dettaglio **Righe di carico** , seleziona **Cross-docking pianificato** per visualizzare i dettagli del cross-docking creato.
+1. Nella Scheda dettaglio **Righe di carico**, il campo **Quantità cross-dockin pianificata** è impostato su *3*. Poiché non erano disponibili scorte nel magazzino, ma una fonte di approvvigionamento valida arriverà entro l'intervallo di tempo definito nel modello di cross-docking, la quantità cross-docking è stata creata.
+1. Nella Scheda dettaglio **Righe di carico**, seleziona **Cross-docking pianificato** per visualizzare i dettagli del cross-docking creato.
 
 ## <a name="process-the-cross-docking"></a>Elaborare il cross-docking
 
@@ -276,12 +276,12 @@ Il secondo ID lavoro creato ha un valore **Tipo di ordine di lavoro** di *Ordini
 
 1. Accedi al dispositivo mobile come un utente in magazzino *51*.
 1. Vai a **In entrata \> Entrata acquisto**.
-1. Nel campo **Numero ordine fornitore** , inserisci il numero dell'ordine fornitore.
+1. Nel campo **Numero ordine fornitore**, inserisci il numero dell'ordine fornitore.
 1. Nel campo **Qtà** immetti *5*.
 1. Selezionare **OK**.
 1. Nella pagina successiva, imposta il campo **Articolo** su *A0001*.
 1. Selezionare **OK**.
-1. Nella pagina successiva, conferma i valori **Numero ordine fornitore** , **Articolo** e **Quantità** selezionando **OK**.
+1. Nella pagina successiva, conferma i valori **Numero ordine fornitore**, **Articolo** e **Quantità** selezionando **OK**.
 
     Ricevi un messaggio di tipo Lavoro completato.
 
@@ -292,14 +292,14 @@ Il secondo ID lavoro creato ha un valore **Tipo di ordine di lavoro** di *Ordini
 Attualmente, entrambi gli ID lavoro hanno la stessa targa di destinazione. Per completare i passaggi successivi, è necessario ottenere l'ID lavoro e l'ID targa di destinazione. È possibile ottenere queste informazioni dai dettagli di lavoro per la riga ordine fornitore e la riga ordine cliente. In alternativa, puoi andare a **Gestione magazzino \> Lavoro \> Dettagli del lavoro** e filtrsre per il lavoro in cui il valore **Magazzino** è *51*.
 
 1. Sul dispositivo mobile, vai a **In entrata \> Stoccaggio acquisto** e immetti la targa di destinazione dal lavoro.
-1. Nel campo **ID** , immetti l'ID targa di destinazione dai dettagli di lavoro.
+1. Nel campo **ID**, immetti l'ID targa di destinazione dai dettagli di lavoro.
 
-    La pagina di preliveo di cross-docking mostra l'ubicazione di prelievo ( *RECV* ), la targa di destinazione ( *targa* ), l'articolo ( *A0001* ) e la quantità ( *3* ).
+    La pagina di preliveo di cross-docking mostra l'ubicazione di prelievo (*RECV*), la targa di destinazione (*targa*), l'articolo (*A0001*) e la quantità (*3*).
 
 1. Selezionare **OK**.
-1. Nel campo **Targa di destinazione** , immetti una targa di destinazione per l'ID targa che deve essere inserito (cross-docking) nell'ubicazione di spedizione. È possibile selezionare qualsiasi ID targa di propria scelta.
+1. Nel campo **Targa di destinazione**, immetti una targa di destinazione per l'ID targa che deve essere inserito (cross-docking) nell'ubicazione di spedizione. È possibile selezionare qualsiasi ID targa di propria scelta.
 1. Selezionare **OK**.
-1. Nella pagina successiva, nel campo **ID** , immetti l'ID targa di destinazione.
+1. Nella pagina successiva, nel campo **ID**, immetti l'ID targa di destinazione.
 1. Selezionare **OK**.
 1. Conferma il lavoro per selezionare la quantità rimanente di 2, quindi seleziona **OK**.
 1. Nella pagina successiva, seleziona **Fatto** per terminare il processo di raccolta e iniziare il processo di stoccaggio.

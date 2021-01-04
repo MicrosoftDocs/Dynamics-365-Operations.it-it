@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8cd436f1b8324335cc39ce54344db834dddebc9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204610"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431010"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -61,7 +61,7 @@ Le entità create per definire il layout di magazzino vengono utilizzate nelle q
 
 È necessario considerare il layout fisico del magazzino, sia per determinare le capacità di stoccaggio (limiti stoccaggio ubicazione e profili ubicazioni) sia come parte dei tentativi di ottenere processi ottimali di magazzino. 
 
-I limiti di stoccaggio dell'ubicazione aiutano a garantire che non venga creato lavoro per richiedere che l'inventario sia inserito in un'ubicazione che non ha la capacità fisica di contenerlo. Se ad esempio alcune posizioni all'interno di un magazzino possono contenere solo un pallet, è possibile abilitare i limiti di stoccaggio ubicazione. Il valore **Quantità** può essere impostato su**1** e il valore **Unità** può essere impostato su **Profitti e perdite** in un raggruppamento specifico di profili ubicazione. 
+I limiti di stoccaggio dell'ubicazione aiutano a garantire che non venga creato lavoro per richiedere che l'inventario sia inserito in un'ubicazione che non ha la capacità fisica di contenerlo. Se ad esempio alcune posizioni all'interno di un magazzino possono contenere solo un pallet, è possibile abilitare i limiti di stoccaggio ubicazione. Il valore **Quantità** può essere impostato su **1** e il valore **Unità** può essere impostato su **Profitti e perdite** in un raggruppamento specifico di profili ubicazione. 
 
 Se calcoli più avanzati sono necessari per controllare i vincoli di capacità dell'ubicazione, le impostazioni del profilo dell'ubicazione possono essere utilizzate. In questo caso, peso e volume vengono considerati quando vengono effettuati i calcoli di capacità. 
 

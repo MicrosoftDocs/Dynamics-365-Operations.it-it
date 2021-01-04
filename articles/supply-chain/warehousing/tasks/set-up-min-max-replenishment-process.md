@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016726"
+ms.locfileid: "4431478"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Impostare un processo di rifornimento minimo/massimo
 
@@ -45,11 +45,11 @@ Questa procedura mostra come impostare un nuovo processo di rifornimento che uti
 2. Nel campo **Tipo ordine di lavoro** selezionare "Rifornimento".
 3. Fare clic su **Nuova** nel **riquadro azioni**.
 4. Digitare un valore nel campo **Nome**.
-5. Nel campo **Tipo di lavoro** , selezionare 'Preleva'.
+5. Nel campo **Tipo di lavoro**, selezionare 'Preleva'.
 6. Nel campo **Sito** immettere o selezionare un valore. Se si utilizza USMF, è possibile selezionare il sito 2.  
 7. Nel campo **Magazzino** immettere o selezionare un valore. Se si utilizza USMF, è possibile selezionare il magazzino 24.  
 8. Fare clic su **Salva**.
-9. Nella sezione **Righe** , fare clic su **Nuovo**.
+9. Nella sezione **Righe**, fare clic su **Nuovo**.
 10. Nell'elenco contrassegnare la riga selezionata.
 11. Nel campo **A quantità** immettere un numero. È ad esempio possibile impostarlo su 9999.  
 12. Selezionare la casella di controllo **Consenti divisione**. Se si seleziona questa opzione, il processo di creazione del lavoro consentirà la suddivisione delle quantità di righe di lavoro tra più ubicazioni.  
@@ -68,10 +68,10 @@ Questa procedura mostra come impostare un nuovo processo di rifornimento che uti
 3. Fare clic su **Nuova** nel **riquadro azioni**.
 4. Digitare un valore nel campo **Modello di lavoro**.
 5. Fare clic su **Salva**.
-6. Nella sezione **Dettagli modello di lavoro** , fare clic su **Nuovo**.
-7. Nel campo **Tipo di lavoro** , selezionare 'Preleva'.
+6. Nella sezione **Dettagli modello di lavoro**, fare clic su **Nuovo**.
+7. Nel campo **Tipo di lavoro**, selezionare 'Preleva'.
 8. Nel campo **ID classe lavoro** immettere o selezionare un valore. Questo deve essere una classe di lavoro correlata al rifornimento. Se si utilizza USMF, selezionare Rifornisci.  
-9. Nella sezione **Dettagli modello di lavoro** , fare clic su **Nuovo**.
+9. Nella sezione **Dettagli modello di lavoro**, fare clic su **Nuovo**.
 10. Nell'elenco contrassegnare la riga selezionata.
 11. Nel campo **Tipo di lavoro** selezionare "Inserisci".
 12. Nel campo **ID classe lavoro** immettere o selezionare un valore.
@@ -84,7 +84,7 @@ Questa procedura mostra come impostare un nuovo processo di rifornimento che uti
 3. Digitare un valore nel campo **Modello rifornimento**. Assegnare al modello un nome per indicare che è per il rifornimento min/max.  
 4. Digitare un valore nel campo **Descrizione**
 5. Selezionare la casella di controllo **Consenti domanda ondata per utilizzare le quantità non prenotate**. Se si seleziona questa opzione, il rifornimento della domanda di ondata utilizzerà le quantità correlate al rifornimento min/max. Ad esempio, questo può essere utile se il lavoro di rifornimento min/max non viene elaborato immediatamente, per evitare che il lavoro inutile di rifornimento della domanda venga creato.
-6. Nella sezione **Dettagli del modello rifornimento** , fare clic su **Nuovo**.
+6. Nella sezione **Dettagli del modello rifornimento**, fare clic su **Nuovo**.
 7. Immettere un numero nel campo **Numero progressivo**.
 8. Digitare un valore nel campo **Descrizione**
 9. Nell'elenco contrassegnare la riga selezionata.

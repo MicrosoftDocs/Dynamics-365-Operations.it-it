@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988385"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430931"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento nell'app di magazzino
 
@@ -155,7 +155,7 @@ In questa sezione viene descritto come impostare un processo di prelievo per dir
 1. Vai a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
 1. Seleziona **Modifica**.
 1. Nell'intestazione dell'elenco di navigazione, seleziona **Tipo di ordine di lavoro** *Uscita di trasferimento*.
-1. Nell'elenco di navigazione, seleziona la direttiva ubicazione esistente**Prelievo OT 51**.
+1. Nell'elenco di navigazione, seleziona la direttiva ubicazione esistente **Prelievo OT 51**.
 1. Nella Scheda dettaglio **Righe**, seleziona la casella di controllo **Consenti divisione**.
 1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Nuova** per aggiungere una nuova riga di azione.
 1. Nel campo **Nome** immetti *Targa guidata*.
@@ -280,7 +280,7 @@ Nel corso di questo scenario, si è verificato quanto segue:
 1. Utilizzando l'app di magazzino, hai selezionato una voce di menu che utilizza il codice attività **Crea ordine di trasferimento da targhe**.
 1. L'app ti richiede di selezionare il magazzino di destinazione per l'ordine di trasferimento. Il magazzino di origine è sempre quello a cui hai attualmente accesso come Lavoratore.
 1. Nella selezione del magazzino di destinazione, il sistema ha riservato un numero ID per l'ordine di trasferimento imminente (in base alla sequenza numerica dell'ordine di trasferimento definita nel sistema) ma non ha ancora creato l'ordine di trasferimento.
-1. Quando hai eseguito la scansione della targa*LP10* contenente le scorte disponibili che devono essere spostate nel nuovo magazzino, un **evento dell'app di magazzino** è stato aggiunto alla coda degli eventi per essere elaborato in seguito. L'evento di magazzino conteneva i dettagli del messaggio sulla scansione, incluso il numero dell'ordine di trasferimento previsto.
+1. Quando hai eseguito la scansione della targa *LP10* contenente le scorte disponibili che devono essere spostate nel nuovo magazzino, un **evento dell'app di magazzino** è stato aggiunto alla coda degli eventi per essere elaborato in seguito. L'evento di magazzino conteneva i dettagli del messaggio sulla scansione, incluso il numero dell'ordine di trasferimento previsto.
 1. Nell'app di magazzino quando il pulsante **Completa ordine** è selezionato, un nuovo evento dell'app di magazzino, **Completa ordine di trasferimento**, viene creato e lo stato dell'evento esistente correlato, **Crea ordine di trasferimento**, diventa **In coda**.
 1. Nel back-end, il **processo batch Elabora eventi dell'app di magazzino** ha prelevato l'evento **In coda** e raccolto le scorte disponibili correlate alla targa sottoposta a scansione. In base alle disponibilità, sono stati creati il record dell'ordine di trasferimento effettivo e le righe associate. Il processo ha anche popolato il campo **Criteri di spedizione in uscita** per l'ordine di trasferimento in base al valore configurato di *Rilascio e conferma spedizione* e collegato la targa alle righe per la strategia **Targa guidata**.
 1. In base al valore del campo **Criteri di spedizione in uscita** della riga dell'ordine di trasferimento, la query **Processo batch Rilascio automatico degli ordini di trasferimento** ha generato il rilascio dell'ordine di trasferimento al magazzino di spedizione. Inoltre, per via della configurazione dei campi **Modello ondata**, **Modello di lavoro** e **Direttive ubicazione** utilizzati, per il lavoro sono stati generati processi automatici a seguito dei quali lo **stato del carico** è diventato *Caricato*.

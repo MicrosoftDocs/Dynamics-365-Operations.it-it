@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018424"
+ms.locfileid: "4431577"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Immettere e confrontare le offerte RdO e assegnare i contratti
 
@@ -36,7 +36,7 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 ## <a name="enter-a-reply-as-a-vendor"></a>Immettere una risposta come fornitore
 
 1. Nel dashboard, selezionare **Offerta fornitore**.
-2. Nell'elenco **Nuovi inviti di offerta** , trovare una richiesta di offerta appena inviata. Selezionare la richiesta di offerta per verificare quanto è stato ordinato.
+2. Nell'elenco **Nuovi inviti di offerta**, trovare una richiesta di offerta appena inviata. Selezionare la richiesta di offerta per verificare quanto è stato ordinato.
 3. Selezionare **Allegati RdO** per esaminare gli eventuali allegati aggiunti.
 4. Selezionare **Offerta** per rendere i campi modificabili. Si noti che il campo **Avanzamento offerta** è impostato su **Aggiornamento in corso del fornitore**.
 5. Nell'intestazione e nelle righe, immettere i valori dalla risposta alla richiesta di offerta.
@@ -52,7 +52,7 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Immettere una risposta di un fornitore come responsabile approvvigionamenti
 
-1. Assicurarsi che l'autorizzazione per modificare le offerte fornitore sia impostata. Passare a **Approvvigionamento \> Impostazione \> Parametri di approvvigionamento**. Nella scheda **Richiesta di offerta** , impostare l'opzione **L'acquirente può modificare l'offerta dei fornitori** su **Sì**.
+1. Assicurarsi che l'autorizzazione per modificare le offerte fornitore sia impostata. Passare a **Approvvigionamento \> Impostazione \> Parametri di approvvigionamento**. Nella scheda **Richiesta di offerta**, impostare l'opzione **L'acquirente può modificare l'offerta dei fornitori** su **Sì**.
 2. Scegliere **Approvvigionamento \> Richieste di offerta \> Tutte le richieste di offerta**.
 3. Selezionare una RdO con stato di **Inviato** e selezionare il collegamento nel campo **Caso richiesta di offerta**.
 4. Selezionare **Gestisci risposte**. La pagina che appare mostra una RdO per ogni venditore che è stato invitato a fare un'offerta.
@@ -62,7 +62,7 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 
 ## <a name="score-the-bids"></a>Assegnare un punteggio alle offerte
 
-1. Nella pagina **Tutte le richieste di offerta** , selezionare il caso RdO per cui si desidera contrassegnare le risposte ricevute.
+1. Nella pagina **Tutte le richieste di offerta**, selezionare il caso RdO per cui si desidera contrassegnare le risposte ricevute.
 2. Selezionare **Gestisci risposte**.
 3. Selezionare la risposta per il punteggio.
 4. Selezionare **Intestazione** in modo da poter visualizzare il punteggio per l'offerta.
@@ -74,12 +74,12 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 
 ## <a name="compare-the-replies"></a>Confrontare le risposte
 
-1. Nel riquadro azioni, sella scheda **Generale** , selezionare **Confronta risposte**.
+1. Nel riquadro azioni, sella scheda **Generale**, selezionare **Confronta risposte**.
 2. Nel campo **Classificazione** immettere un numero.  
     - Questa pagina mostra le offerte, insieme con l'intestazione e le informazioni sulla riga, oltre che il punteggio totale a livello di intestazione. È possibile confrontare le righe ordinando la griglia in modo che le righe confrontabili siano l'una accanto all'altra. Sono incluse anche le seguenti informazioni:
-    - **Quantità** : la quantità dell'offerta del fornitore. Questa potrebbe essere diversa dalla quantità che è specificata nella richiesta di offerta.
-    - **Importo netto** : il prezzo offerto da un fornitore, dopo la detrazione di eventuali sconti, per gli articoli nella riga.
-    - **Deviazione** : il numero di giorni di differenza tra la data di consegna specificata nella riga o nell'intestazione dell'offerta e la data di consegna richiesta nella riga o nell'intestazione della RdO. È possibile inserire una classificazione per ogni offerta.  
+    - **Quantità**: la quantità dell'offerta del fornitore. Questa potrebbe essere diversa dalla quantità che è specificata nella richiesta di offerta.
+    - **Importo netto**: il prezzo offerto da un fornitore, dopo la detrazione di eventuali sconti, per gli articoli nella riga.
+    - **Deviazione**: il numero di giorni di differenza tra la data di consegna specificata nella riga o nell'intestazione dell'offerta e la data di consegna richiesta nella riga o nell'intestazione della RdO. È possibile inserire una classificazione per ogni offerta.  
 3. Selezionare la riga dell'intestazione dell'altra offerta che si desidera classificare.
 4. Nel campo **Classificazione** immettere un numero.
 5. Selezionare **Salva**.
@@ -91,19 +91,19 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
     - Se si seleziona la casella di controllo **Contrassegna** nell'intestazione dell'offerta, verranno contrassegnate anche tutte le righe. Per rifiutare o accettare solo alcune righe dell'offerta, è possibile contrassegnare tali righe. Inoltre, è possibile accettare l'offerta di un fornitore in alcune righe della richiesta di offerta e quindi assegnare altre righe della richiesta di offerta a un fornitore diverso. Tuttavia, è necessario effettuare un'offerta alla volta.  
     - Se sono presenti righe alternative, è possibile accettare la riga di offerta originale o la relativa alternativa, ma non entrambe.  
 3. Selezionare **Rifiuta**.
-4. Selezionare **Parametri** , quindi nel campo **Motivo rifiuto** , immettere o selezionare il motivo del rifiuto di offerta. Il motivo viene salvato nella risposta.  
+4. Selezionare **Parametri**, quindi nel campo **Motivo rifiuto**, immettere o selezionare il motivo del rifiuto di offerta. Il motivo viene salvato nella risposta.  
 5. Selezionare **OK**.
 6. Selezionare **OK**.
 
 ## <a name="accept-a-bid"></a>Accettare un'offerta
 
-1. Selezionare l'offerta che si desidera accettare, quindi il collegamento nel campo **Richiesta di offerta**. Se ci si trova nella pagina **Confronta risposte richiesta di offerta** , l'offerta evidenziata con lo stato attivo è l'offerta che il sistema considererà durante l'azione Accetta. È possibile accettare le righe di una sola offerta alla volta.  
+1. Selezionare l'offerta che si desidera accettare, quindi il collegamento nel campo **Richiesta di offerta**. Se ci si trova nella pagina **Confronta risposte richiesta di offerta**, l'offerta evidenziata con lo stato attivo è l'offerta che il sistema considererà durante l'azione Accetta. È possibile accettare le righe di una sola offerta alla volta.  
 2. Nel Riquadro azioni fare clic su **Rispondi**.
 3. Selezionare **Accetta**. Se si sono contrassegnate solo righe specifiche, l'azione Accetta includerà solo quelle righe. Se si desidera accettare tutte le righe dell'offerta, non è necessario contrassegnare le righe.  
-4. Selezionare **Parametri** , quindi nel campo **Motivo accettazione** , immettere o selezionare il motivo dell'accettazione di offerta. Il motivo viene salvato nell'offerta.  
+4. Selezionare **Parametri**, quindi nel campo **Motivo accettazione**, immettere o selezionare il motivo dell'accettazione di offerta. Il motivo viene salvato nell'offerta.  
 5. Selezionare **OK**.
-6. Selezionare **OK**. Quando si seleziona **OK** , viene generato un ordine fornitore in base alle righe incluse nell'accettazione della RdO. Se sono presenti altre offerte che non sono state elaborate (accettate, rifiutate o restituite), il sistema richiederà di rifiutarle.  
+6. Selezionare **OK**. Quando si seleziona **OK**, viene generato un ordine fornitore in base alle righe incluse nell'accettazione della RdO. Se sono presenti altre offerte che non sono state elaborate (accettate, rifiutate o restituite), il sistema richiederà di rifiutarle.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Visualizzare l'ordine fornitore generato
 
-Nel riquadro azioni, sella scheda **Generale** , selezionare **Ordine fornitore**. La pagina visualizzata mostra l'ordine fornitore generato quando è stata accettata l'offerta.
+Nel riquadro azioni, sella scheda **Generale**, selezionare **Ordine fornitore**. La pagina visualizzata mostra l'ordine fornitore generato quando è stata accettata l'offerta.

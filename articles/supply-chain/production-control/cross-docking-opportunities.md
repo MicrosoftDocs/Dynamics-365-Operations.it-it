@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016841"
+ms.locfileid: "4431496"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
@@ -36,7 +36,7 @@ In questo argomento viene descritto come gestire il processo del materiale di cr
 
 Il cross-docking dalla produzione a una posizione di uscita è rilevante per i produttori che producono alti volumi e idealmente desiderano spedire i prodotti finiti non appena vengono dichiarati finiti nelle righe di produzione. L'obiettivo è la spedizione dei prodotti ai centri di distribuzione che si trovano fisicamente vicini alla richiesta di approvvigionamento, anziché l'accumulo nel sito di fabbricazione.
 
-Nel caso non vi sia la domanda immediata di un prodotto, quest'ultimo deve essere stoccato nelle ubicazioni di magazzino presso il sito di fabbricazione. Questo processo viene detto *cross-docking opportunistico* , ossia indica se è presente una richiesta di spedizione del prodotto, nel qual caso si deve utilizzare questa opportunità anziché stoccare il prodotto per l'archiviazione interna.
+Nel caso non vi sia la domanda immediata di un prodotto, quest'ultimo deve essere stoccato nelle ubicazioni di magazzino presso il sito di fabbricazione. Questo processo viene detto *cross-docking opportunistico*, ossia indica se è presente una richiesta di spedizione del prodotto, nel qual caso si deve utilizzare questa opportunità anziché stoccare il prodotto per l'archiviazione interna.
 
 Nel seguente esempio vengono illustrate tre variazioni di flusso che inizia alla fine della riga di produzione (2).
 
@@ -102,7 +102,7 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 4.  Impostare i carichi in modo che vengano creati automaticamente per gli ordini di trasferimento. Nei parametri di magazzino, impostare i carichi in modo che vengano creati automaticamente alla creazione degli ordini di trasferimento. Un carico è un prerequisito per rendere l'ordine di trasferimento idoneo al cross-docking.
 5.  Configurare il mapping carico articolo. Andare alla pagina **Mapping carico articolo** e impostare un modello predefinito di carico di lavoro per il gruppo di articoli **CarAudio**. Questo mapping inserisce automaticamente il modello di carico nel carico alla creazione dell'ordine di trasferimento.
 6.  Creare un ordine di trasferimento. Creare l'ordine di trasferimento per il numero di articolo L0101. Quantità = 20.
-7.  Rilasciare l'ordine di trasferimento dal workbench pianificazione del carico. Nella scheda **Spedizione** , selezionare la voce di menu per il workbench pianificazione del carico e nel menu **Rilascia** della riga di carico selezionare **Rilascia in magazzino**. Una riga di ondata aperta di tipo **Uscita di trasferimento** viene creata per l'ordine di trasferimento.
+7.  Rilasciare l'ordine di trasferimento dal workbench pianificazione del carico. Nella scheda **Spedizione**, selezionare la voce di menu per il workbench pianificazione del carico e nel menu **Rilascia** della riga di carico selezionare **Rilascia in magazzino**. Una riga di ondata aperta di tipo **Uscita di trasferimento** viene creata per l'ordine di trasferimento.
 8.  Creare un ordine di produzione. Andare alla pagina elenco **Ordine di produzione** e creare un ordine di produzione per il prodotto L0101. Quantità = 20. Stimare e avviare l'ordine di produzione. Il campo **Registra distinta di prelievo ora** resta impostato su **No**.
 9.  Dichiarare finito dal dispositivo mobile. Andare al portale del dispositivo mobile e selezionare la voce **Dichiarato di finito e stoccato**. Dichiarare finito L0101 dal dispositivo portatile. Quantità = 10. Si noti che l'ubicazione di stoccaggio è **BAYDOOR**. Questa ubicazione viene rilevata dalla direttiva di ubicazione **Uscita di trasferimento** per il tipo di ordine di lavoro **Inserisci**. Si noti anche che il lavoro di tipo **Uscita di trasferimento** è stato creato e completato. Passare ai dettagli dell'ordine di trasferimento per verificare il lavoro.
 10. Ora dichiarare altri 10 pezzi dal dispositivo mobile. Si noti che l'ubicazione di stoccaggio è ancora **BAYDOOR**. Si noti anche che è stato creato un nuovo lavoro di tipo **Uscita di trasferimento** per i 10 pezzi.
@@ -115,7 +115,7 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 1.  Modificare i criteri di cross-docking. Modificare i criteri di cross-docking creati nello scenario 1 selezionando la casella di controllo **La domanda di cross-docking richiede un'ubicazione**.
 2.  Consente di creare un nuovo ordine di trasferimento.
 3.  Aprire la pagina **Workbench pianificazione carico**.
-4.  Dal workbench pianificazione del carico, passare alla sezione **Carichi** e selezionare **Programma appuntamento** dal menu **Trasporti** per creare una nuova programmazione appuntamenti. Si noti che la programmazione appuntamenti contiene un riferimento all'ordine di trasferimento nel campo **Numero di ordine**. Nel campo **Data/ora di inizio pianificate nella postazione** , è possibile impostare la data e l'ora dell'appuntamento. Questa data e ora verranno utilizzate per stabilire la priorità della domanda di cross-docking durante il processo di cross-docking. La data e l'ora impostate in questo campo aggiorneranno il campo **Data e ora di spedizione programmata carico** del carico corrispondente. L'ubicazione nella scheda dettaglio **Dettagli di spedizione** determina l'ubicazione in cui l'ordine di trasferimento viene spedito.
+4.  Dal workbench pianificazione del carico, passare alla sezione **Carichi** e selezionare **Programma appuntamento** dal menu **Trasporti** per creare una nuova programmazione appuntamenti. Si noti che la programmazione appuntamenti contiene un riferimento all'ordine di trasferimento nel campo **Numero di ordine**. Nel campo **Data/ora di inizio pianificate nella postazione**, è possibile impostare la data e l'ora dell'appuntamento. Questa data e ora verranno utilizzate per stabilire la priorità della domanda di cross-docking durante il processo di cross-docking. La data e l'ora impostate in questo campo aggiorneranno il campo **Data e ora di spedizione programmata carico** del carico corrispondente. L'ubicazione nella scheda dettaglio **Dettagli di spedizione** determina l'ubicazione in cui l'ordine di trasferimento viene spedito.
 5.  Nel rilascio **Workbench pianificazione carico** nel magazzino.
 6.  Creare un ordine di produzione per il numero di articolo **L0101** e impostare lo stato su **Iniziato** con una quantità pari a 20.
 7.  Dichiarare finito dal dispositivo mobile.

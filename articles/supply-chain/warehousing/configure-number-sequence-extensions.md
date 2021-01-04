@@ -4,7 +4,7 @@ description: Questo argomento fornisce una panoramica della funzionalità che fo
 author: GarmMSFT
 manager: tfehr
 ms.date: 06/10/2020
-ms.topic: configure-number-sequence-extensions
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016127"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4431590"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurare sequenze numeriche per flussi di magazzino
 
@@ -52,8 +52,8 @@ Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sist
 Per configurare le estensioni di sequenza numerica nel sistema, attenersi alla seguente procedura.
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-1. Nella scheda **Generale** , nel campo **Prefisso società GS1** immettere il prefisso GS1 della propria società. Questo valore influirà su tutte le sequenze numeriche in cui il prefisso GS1 è incluso come segmento.
-1. Se si desidera generare numeri di polizza di carico per etichette ondata, nella scheda **Report** , selezionare la casella di controllo **Genera numero polizza di carico quando si stampano etichette ondata**.
+1. Nella scheda **Generale**, nel campo **Prefisso società GS1** immettere il prefisso GS1 della propria società. Questo valore influirà su tutte le sequenze numeriche in cui il prefisso GS1 è incluso come segmento.
+1. Se si desidera generare numeri di polizza di carico per etichette ondata, nella scheda **Report**, selezionare la casella di controllo **Genera numero polizza di carico quando si stampano etichette ondata**.
 
     > [!NOTE]
     > Questa casella di controllo è disponibile solo se la funzionalità per la [stampa di etichette ondata](configure-wave-label-printing.md) è attivata.
@@ -64,7 +64,7 @@ Per configurare le estensioni di sequenza numerica nel sistema, attenersi alla s
     Per ulteriori informazioni su come personalizzare queste sequenze numeriche predefinite e/o aggiungere nuove sequenze, vedere la sezione successiva. È anche possibile rimuovere una di queste sequenze se non è necessaria.
 
 1. Ritornare **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
-1. Nella scheda **Sequenze numeriche** , selezionare un'estensione di sequenza numerica pertinente da utilizzare per generare numeri per ID targa, ID etichetta ondata, ID contenitore (in questo caso, selezionare la sequenza **Numero SSCC-18** appropriata) e/o ID polizza di carico (in questo caso, selezionare la sequenza **Polizza di carico** ). Per impostazione predefinita, le estensioni di sequenza numerica sono supportate solo per questi quattro tipi di ID.
+1. Nella scheda **Sequenze numeriche**, selezionare un'estensione di sequenza numerica pertinente da utilizzare per generare numeri per ID targa, ID etichetta ondata, ID contenitore (in questo caso, selezionare la sequenza **Numero SSCC-18** appropriata) e/o ID polizza di carico (in questo caso, selezionare la sequenza **Polizza di carico**). Per impostazione predefinita, le estensioni di sequenza numerica sono supportate solo per questi quattro tipi di ID.
 
 La prossima volta che viene generato un nuovo numero per una di queste sequenze numeriche, verrà utilizzata la nuova logica.
 
@@ -79,16 +79,16 @@ Per creare e modificare sequenze numeriche, attenersi alla seguente procedura.
 
 1. Andare a **Gestione magazzino** \> **Impostazioni** \> **Estensioni di sequenza numerica**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nel campo **Estensione di sequenza numerica** , immettere un nome per la nuova sequenza. Nel campo **Descrizione** immettere una descrizione.
-1. Nella Scheda dettaglio **Segmenti** , utilizzare i pulsanti sulla barra degli strumenti per assemblare il formato di numerazione aggiungendo, eliminando e disponendo i segmenti. Nel campo **Segmento** di ogni riga, assegnare un tipo di segmento per definire lo scopo e il contenuto di quel segmento. Nella seguente tabella vengono illustrati i tipi di segmenti disponibili.
+1. Nel campo **Estensione di sequenza numerica**, immettere un nome per la nuova sequenza. Nel campo **Descrizione** immettere una descrizione.
+1. Nella Scheda dettaglio **Segmenti**, utilizzare i pulsanti sulla barra degli strumenti per assemblare il formato di numerazione aggiungendo, eliminando e disponendo i segmenti. Nel campo **Segmento** di ogni riga, assegnare un tipo di segmento per definire lo scopo e il contenuto di quel segmento. Nella seguente tabella vengono illustrati i tipi di segmenti disponibili.
 
     | Tipo di segmento | descrizione |
     |---|---|
     | Costante | Questo tipo di segmento aggiunge lo stesso testo costante per ciascun numero generato nella sequenza. Nel campo **Valore** immettere il testo necessario. Il campo **Lunghezza** viene automaticamente aggiornato alla lunghezza del testo immesso nel campo **Valore**. |
-    | Sequenza numerica | Nel campo **Valore** immettere un segno numerico ( *\#* ) per ogni carattere che dovrebbe essere mostrato nella sequenza generata. La sequenza numerica stessa potrebbe generare numeri più lunghi, ma verranno visualizzati solo i caratteri più a destra. Il campo **Lunghezza** viene automaticamente aggiornato al numero di segni numerici immessi nel campo **Valore**.<p>Per soddisfare i requisiti GS1 per i numeri SSCC-18, assicurarsi che la lunghezza di questo segmento sia 16 meno la lunghezza del prefisso GS1.</p> |
+    | Sequenza numerica | Nel campo **Valore** immettere un segno numerico (*\#*) per ogni carattere che dovrebbe essere mostrato nella sequenza generata. La sequenza numerica stessa potrebbe generare numeri più lunghi, ma verranno visualizzati solo i caratteri più a destra. Il campo **Lunghezza** viene automaticamente aggiornato al numero di segni numerici immessi nel campo **Valore**.<p>Per soddisfare i requisiti GS1 per i numeri SSCC-18, assicurarsi che la lunghezza di questo segmento sia 16 meno la lunghezza del prefisso GS1.</p> |
     | Prefisso GS1 | Questo tipo di segmento aggiunge il valore impostato nel campo **Prefisso società GS1** alla pagina **Parametri di gestione magazzino**. Il campo **Valore** mostra il valore impostato nella **Parametri di gestione magazzino** e il campo **Lunghezza** mostra il numero di caratteri nel valore. Il campo **Valore** e il campo **Lunghezza** sono entrambi di sola lettura. |
-    | Identificatore applicazione | Nel campo **Valore** , immettere un identificatore dell'applicazione, come specificato dai criteri GS1 pertinenti per questo tipo di sequenza numerica. Ad esempio, immettere *00* per SSCC o *420* per Polizza di carico. Il campo **Lunghezza** viene automaticamente aggiornato alla lunghezza dell'identificatore immesso nel campo **Valore**. |
-    | Tipo di imballaggio | Per gli articoli che possono essere chiaramente identificati, questo tipo di segmento aggiunge un valore di campo dal relativo gruppo di sequenze unità (nella pagina **Gruppi di sequenze unità** ) (questo comportamento corrisponde alla logica esistente per gli ID targa). Per le targhe che includono più unità di stockkeeping (SKU), questo tipo di segmento aggiunge *0* (zero) per impostazione predefinita. Per questo tipo di segmento, il campo **Valore** è sempre impostato su *P* e il campo **Lunghezza** è sempre impostato su *1*.|
-    | Cifra di controllo | Questo tipo di segmento aggiunge una cifra di controllo, che è un calcolo del modulo 10 (questo comportamento corrisponde alla logica esistente per gli ID targa). Per questo tipo di segmento, il campo **Valore** è sempre impostato su un accento circonflesso ( *^* ) e il campo **Lunghezza** è sempre impostato su *1*. |
+    | Identificatore applicazione | Nel campo **Valore**, immettere un identificatore dell'applicazione, come specificato dai criteri GS1 pertinenti per questo tipo di sequenza numerica. Ad esempio, immettere *00* per SSCC o *420* per Polizza di carico. Il campo **Lunghezza** viene automaticamente aggiornato alla lunghezza dell'identificatore immesso nel campo **Valore**. |
+    | Tipo di imballaggio | Per gli articoli che possono essere chiaramente identificati, questo tipo di segmento aggiunge un valore di campo dal relativo gruppo di sequenze unità (nella pagina **Gruppi di sequenze unità**) (questo comportamento corrisponde alla logica esistente per gli ID targa). Per le targhe che includono più unità di stockkeeping (SKU), questo tipo di segmento aggiunge *0* (zero) per impostazione predefinita. Per questo tipo di segmento, il campo **Valore** è sempre impostato su *P* e il campo **Lunghezza** è sempre impostato su *1*.|
+    | Cifra di controllo | Questo tipo di segmento aggiunge una cifra di controllo, che è un calcolo del modulo 10 (questo comportamento corrisponde alla logica esistente per gli ID targa). Per questo tipo di segmento, il campo **Valore** è sempre impostato su un accento circonflesso (*^*) e il campo **Lunghezza** è sempre impostato su *1*. |
 
 1. Per visualizzare un esempio del formato numerico finale, controllare il campo **Formato** nella parte inferiore della Scheda dettaglio **Segmenti**.

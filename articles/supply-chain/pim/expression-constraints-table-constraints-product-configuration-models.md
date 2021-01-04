@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979830"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431346"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 

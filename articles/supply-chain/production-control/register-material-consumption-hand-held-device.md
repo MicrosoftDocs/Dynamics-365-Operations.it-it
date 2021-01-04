@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211263"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431429"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrare il consumo dei materiali usando un dispositivo mobile
 
@@ -68,7 +68,7 @@ Questo porterà il materiale dall'ubicazione di stoccaggio all'ubicazione di ent
 
 Dopo che l'ordine di produzione è stato avviato, è possibile registrare il consumo di materiali con il flusso di lavoro per un dispositivo portatile. Iniziamo la registrazione di un consumo di 25 chilogrammi del lotto B1.
 
-6.  Selezionare la voce di menu **Registra materiale** **consumo** dal menu per il dispositivo portatile, immettere i seguenti dati: 
+6.  Selezionare la voce di menu  **Registra materiale** **consumo** dal menu per il dispositivo portatile, immettere i seguenti dati: 
 
 -    Numero dell'ordine di produzione. 
 -    Ubicazione in cui il materiale dovrà essere consumato, in questo caso PIL-01. 

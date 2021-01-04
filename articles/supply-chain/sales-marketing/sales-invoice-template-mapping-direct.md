@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215978"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431023"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
 
@@ -98,7 +98,7 @@ Andare a **Impostazioni** > **Amministrazione** > **Impostazioni di sistema** > 
 
 - Un listino prezzi è necessario per creare fatture in Sales. Aggiornare la mappa di valori per **pricelevelid.name \[nome listino prezzi\]** al listino prezzi utilizzato in Sales per la valuta. È possibile utilizzare il listino prezzi predefinito per una singola valuta. In alternativa, se si hanno listini prezzi in più valute, è possibile utilizzare una mappa di valori.
 
-    Il valore di modello per **pricelevelid.name \[[nome listino prezzi\]** è una mappa di valori basata sulla valuta con USD = Servizio CRM USA (esempio).  
+    Il valore di modello per **pricelevelid.name \[nome listino prezzi\]** è una mappa di valori basata sulla valuta con USD = Servizio CRM USA (esempio).  
     
 #### <a name="salesinvoiceline-task"></a>Attività SalesInvoiceLine
 

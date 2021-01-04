@@ -16,11 +16,11 @@ ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 9ca63cbc6bc6d6baed9d45bce30d0b32e156301c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988324"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430813"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Prezzi di vendita basati su attributi per la configurazione prodotto basata su vincoli
 
@@ -111,7 +111,7 @@ Per impostare criteri di selezione per modelli di prezzo:
 1. Vai a **Gestione informazioni sul prodotto \> Prodotti \> Modelli di configurazione prodotto**.
 1. Seleziona il modello di configurazione prodotto di destinazione.
 1. Nel riquadro azioni, apri la scheda **Modello** e, nel gruppo **Imposta**, seleziona **Criteri modello di prezzo**. Viene visualizzata la pagina **Criteri modello di prezzo**.
-1. Se la riga della query necessaria non esiste ancora, seleziona**Nuova** nel riquadro azioni per aggiungere una nuova riga alla griglia ed imposta le seguenti opzioni per la stessa:
+1. Se la riga della query necessaria non esiste ancora, seleziona **Nuova** nel riquadro azioni per aggiungere una nuova riga alla griglia ed imposta le seguenti opzioni per la stessa:
     - **Nome**: immetti un nome per la riga.
     - **Descrizione**: descrivi brevemente la query e a cosa serve.
     - **Modello di prezzo**: seleziona un [modello di prezzo](#build-price-model) (nel modello di configurazione corrente) che la query applicherà quando attivata.

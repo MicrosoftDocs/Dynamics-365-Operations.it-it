@@ -4,7 +4,7 @@ description: Questo argomento spiega come annullare e ristampare le etichette on
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016656"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4431591"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare etichette ondata
 
@@ -42,7 +42,7 @@ Questo argomento presenta una raccolta di scenari che mostrano, attraverso esemp
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scenario 1: ristampare le etichette dal client Web
 
-È possibile visualizzare e ristampare le etichette ondata dalle seguenti pagine. Nel riquadro azioni di ogni pagina della scheda **Spedizioni** nel gruppo **Informazioni correlate** , selezionare **Etichette ondata**.
+È possibile visualizzare e ristampare le etichette ondata dalle seguenti pagine. Nel riquadro azioni di ogni pagina della scheda **Spedizioni** nel gruppo **Informazioni correlate**, selezionare **Etichette ondata**.
 
 - Tutte le spedizioni \> Dettagli spedizione
 - Tutti i carichi \> Dettagli carico
@@ -54,10 +54,10 @@ Per ristampare un'etichetta ondata dal client Web, attenersi alla seguente proce
 
 1. Selezionare **Gestione magazzino \> Ondate in uscita \> Ondate spedizione \> Tutte le ondate**.
 1. Selezionare l'ondata da cui ristampare le etichette.
-1. Nel riquadro azioni, scheda **Ondata** , gruppo **Stampa** , selezionare **Etichette ondata**.
+1. Nel riquadro azioni, scheda **Ondata**, gruppo **Stampa**, selezionare **Etichette ondata**.
 1. Seguire uno o entrambi i seguenti passaggi:
 
-    - Nel campo **Nome stampante** , selezionare una stampante per ristampare l'etichetta. (lasciare vuoto questo campo se si desidera semplicemente aggiornare i dettagli dell'etichetta ondata, senza ristampare l'etichetta).
+    - Nel campo **Nome stampante**, selezionare una stampante per ristampare l'etichetta. (lasciare vuoto questo campo se si desidera semplicemente aggiornare i dettagli dell'etichetta ondata, senza ristampare l'etichetta).
     - Per aggiornare l'etichetta, selezionare la casella di controllo **Aggiorna dettagli etichetta ondata** (lasciare deselezionata questa casella di controllo se si desidera ristampare l'etichetta precedente).
 
     > [!NOTE]
@@ -118,7 +118,7 @@ Seguire questi passaggi per creare una nuova raccolta di voci di menu con cui ri
     - **Campo di raggruppamento etichetta:** *ID spedizione*
     - **Modalità di stampa:** *Enumerazione*
 
-1. Nel riquadro azioni selezionare **Elenco campi** , quindi utilizzare gli elenchi a discesa per selezionare i campi che verranno visualizzati per aiutare i lavoratori a identificare il rotolo di etichette corretto (ad esempio, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* e *NumberOfLabels* ).
+1. Nel riquadro azioni selezionare **Elenco campi**, quindi utilizzare gli elenchi a discesa per selezionare i campi che verranno visualizzati per aiutare i lavoratori a identificare il rotolo di etichette corretto (ad esempio, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* e *NumberOfLabels*).
 1. Chiudere la pagina.
 1. Creare una quarta voce di menu e impostare i seguenti valori per la stessa:
 
@@ -131,7 +131,7 @@ Seguire questi passaggi per creare una nuova raccolta di voci di menu con cui ri
     - **Campo di raggruppamento etichetta:** *ID spedizione*
     - **Modalità di stampa:** *ID ultima etichetta ondata valida*
 
-1. Nel riquadro azioni selezionare **Elenco campi** , quindi utilizzare gli elenchi a discesa per selezionare i campi che verranno visualizzati per aiutare i lavoratori a identificare il rotolo di etichette corretto (ad esempio, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* e *NumberOfLabels* ).
+1. Nel riquadro azioni selezionare **Elenco campi**, quindi utilizzare gli elenchi a discesa per selezionare i campi che verranno visualizzati per aiutare i lavoratori a identificare il rotolo di etichette corretto (ad esempio, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* e *NumberOfLabels*).
 1. Chiudere la pagina.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Configurare il menu per dispositivo mobile

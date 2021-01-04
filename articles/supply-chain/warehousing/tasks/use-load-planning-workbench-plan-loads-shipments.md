@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c37a98a3728cb1233a6e1207975a6b8f23f8120d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015920"
+ms.locfileid: "4431528"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
@@ -41,7 +41,7 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 7. Selezionare articolo: **A0001**. **A0001** è abilitato per la gestione trasporto.  
 8. Nel campo **Sito** fare clic sul pulsante a discesa per aprire la ricerca, quindi selezionare un articolo.
 9. Nel campo **Quantità** immettere un numero.
-10. Nel campo **Magazzino** , immettere '24' per questo esempio. Tale magazzino è abilitato per la gestione trasporto e la gestione avanzata del magazzino.  
+10. Nel campo **Magazzino**, immettere '24' per questo esempio. Tale magazzino è abilitato per la gestione trasporto e la gestione avanzata del magazzino.  
 11. Selezionare **Salva**.
 12. Chiudere la pagina.
 

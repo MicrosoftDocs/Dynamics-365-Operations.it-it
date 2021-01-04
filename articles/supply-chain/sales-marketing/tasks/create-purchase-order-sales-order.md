@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018700"
+ms.locfileid: "4431547"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Creare un ordine fornitore da un ordine cliente
 
@@ -45,7 +45,7 @@ Questa procedura indica come creare un ordine fornitore in base a un ordine clie
 12. Nell'elenco fare clic sul collegamento nella riga selezionata.
 13. Nel campo **Quantità** immettere un numero.
 14. Fare clic su **Salva**.
-15. Nel **riquadro azioni** , fare clic su **Ordine cliente**.
+15. Nel **riquadro azioni**, fare clic su **Ordine cliente**.
 16. Fare clic su **Ordine acquisto**. Nella pagina **Crea ordine acquisto** è visualizzato l'elenco di tutte le righe ordine cliente aperte che sono state copiate dall'ordine cliente. È possibile esaminare i dettagli dell'ordine e se necessario, è possibile modificare i dettagli selezionati quali la quantità di acquisto e i termini per la determinazione del prezzo prima di creare gli acquisti. 
 17. Selezionare l'opzione **Includi tutto**.
     - Se si desidera generare ordini acquisto solo per un sottoinsieme delle righe di ordine cliente, selezionarle singolarmente.  
@@ -63,7 +63,7 @@ Questa procedura indica come creare un ordine fornitore in base a un ordine clie
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Esaminare gli ordini acquisto creati da ordini cliente
 1. Nel **riquadro azioni** fare clic su **Generale**.
 2. Fare clic su **Ordini correlati**. Nella pagina **Ordini correlati** sono elencati tutti gli ordini creati dall'ordine cliente. In questo esempio, sono disponibili due ordini fornitore generati per due fornitori diversi rispettivamente. 
-3. Fare clic per seguire il collegamento nel campo **Ordine acquisto**. Ciascuna riga ordine fornitore è associata alla riga ordine cliente da cui ha avuto origine l'acquisto. La relazione con l'ordine cliente viene visualizzata nella **scheda Prodotto** della Scheda dettaglio **Dettagli riga** , nei campi **Tipo di riferimento** , **Numero di riferimento** e **Lotto di riferimento**.  
+3. Fare clic per seguire il collegamento nel campo **Ordine acquisto**. Ciascuna riga ordine fornitore è associata alla riga ordine cliente da cui ha avuto origine l'acquisto. La relazione con l'ordine cliente viene visualizzata nella **scheda Prodotto** della Scheda dettaglio **Dettagli riga**, nei campi **Tipo di riferimento**, **Numero di riferimento** e **Lotto di riferimento**.  
 4. Espandere o comprimere la sezione **Dettagli riga**.
 5. Fare clic sulla scheda **Prodotto**.
     - Il **lotto di riferimento** garantisce che i costi dell'acquisto corrente vengano addebitati all'ordine cliente collegato.  

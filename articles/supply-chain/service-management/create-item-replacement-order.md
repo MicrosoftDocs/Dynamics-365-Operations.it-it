@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e63c175d12cac91648cb57a3f41d1769e81d57af
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830101"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431340"
 ---
 # <a name="create-an-item-replacement-order"></a>Creare un ordine di sostituzione articolo 
 
@@ -38,7 +38,7 @@ Gli ordini di sostituzione articolo vengono in genere creati dopo la restituzion
 
 2.  Creare un nuovo ordine di reso o selezionare un ordine di reso dall'elenco per aprire il modulo **Ordine di reso - Codice NAR: %1, %2**.
 
-3.  Fare clic su **Riga reso**quindi selezionare **Articolo sostitutivo**.
+3.  Fare clic su **Riga reso** quindi selezionare **Articolo sostitutivo**.
 
 4.  Selezionare l'articolo da sostituire con il reso. Immettere le specifiche dell'articolo e quindi fare clic su **Applica**.
 

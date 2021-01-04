@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012485"
+ms.locfileid: "4431458"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -41,7 +41,7 @@ Le sezioni rimanenti di questo argomento descrivono il modo in cui i lavoratori 
 
 ## <a name="all-jobs-tab"></a>Scheda Tutti i processi
 
-La scheda **Tutti i processi** fornisce un elenco che mostra tutti i processi di produzione che hanno uno stato di *Non avviato* , *Arrestato* o *Avviato*.
+La scheda **Tutti i processi** fornisce un elenco che mostra tutti i processi di produzione che hanno uno stato di *Non avviato*, *Arrestato* o *Avviato*.
 
 ![Scheda Tutti i processi](media/pfei-all-jobs-tab.png "Scheda Tutti i processi")
 
@@ -81,17 +81,17 @@ I lavoratori iniziano un processo di produzione selezionando un processo nella s
 
 I lavoratori usano la finestra di dialogo **Avvia processo** per confermare la quantità di produzione e quindi avviare il processo. I lavoratori possono regolare la quantità selezionando il campo **Quantità** e quindi utilizzando la tastiera numerica che appare. I lavoratori quindi selezionano **Avvia** per iniziare a lavorare sul processo. La finestra di dialogo **Avvia processo** viene chiusa e il processo viene aggiunto alla scheda **Processi attivi**.
 
-I lavoratori possono iniziare un processo che si trova in qualsiasi stato. Quando un lavoratore avvia un processo che ha uno stato di *Non avviato* , il campo **Quantità** nella finestra di dialogo **Avvia processo** mostra inizialmente la quantità totale. Quando un lavoratore avvia un processo che ha uno stato di *Avviato* o *Arrestato* , il campo **Quantità** mostra la quantità rimanente.
+I lavoratori possono iniziare un processo che si trova in qualsiasi stato. Quando un lavoratore avvia un processo che ha uno stato di *Non avviato*, il campo **Quantità** nella finestra di dialogo **Avvia processo** mostra inizialmente la quantità totale. Quando un lavoratore avvia un processo che ha uno stato di *Avviato* o *Arrestato*, il campo **Quantità** mostra la quantità rimanente.
 
 ## <a name="reporting-good-quantities"></a>Dichiarazione di buone quantità
 
-Quando un lavoratore completa o completa parzialmente un processo, può dichiarare le buone quantità prodotte selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara avanzamento**. Quindi, nella finestra di dialogo **Dichiara avanzamento** il lavoratore inserisce la buona quantità utilizzando la tastiera numerica. La quantità è vuota per impostazione predefinita. Dopo aver immesso una quantità, il lavoratore può aggiornare lo stato del processo a *In corso* , *Arrestato* o *Completato*.
+Quando un lavoratore completa o completa parzialmente un processo, può dichiarare le buone quantità prodotte selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara avanzamento**. Quindi, nella finestra di dialogo **Dichiara avanzamento** il lavoratore inserisce la buona quantità utilizzando la tastiera numerica. La quantità è vuota per impostazione predefinita. Dopo aver immesso una quantità, il lavoratore può aggiornare lo stato del processo a *In corso*, *Arrestato* o *Completato*.
 
 ![Finestra di dialogo Dichiarazione avanzamento](media/pfei-report-progress-dialog.png "Finestra di dialogo Dichiarazione avanzamento")
 
 ## <a name="reporting-scrap"></a>Dichiarazione dello scarto
 
-Quando un lavoratore completa o completa parzialmente un processo, può dichiarare lo scarto selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara scarto**. Quindi, nella finestra di dialogo **Dichiara scarto** il lavoratore inserisce la quantità di scarto utilizzando la tastiera numerica. Il lavoratore seleziona anche un motivo ( *Nessuno* , *Macchina* , *Operatore* o *Materiale* ).
+Quando un lavoratore completa o completa parzialmente un processo, può dichiarare lo scarto selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara scarto**. Quindi, nella finestra di dialogo **Dichiara scarto** il lavoratore inserisce la quantità di scarto utilizzando la tastiera numerica. Il lavoratore seleziona anche un motivo (*Nessuno*, *Macchina*, *Operatore* o *Materiale*).
 
 ![Finestra di dialogo Dichiarazione scarto](media/pfei-report-scrap-dialog.png "Finestra di dialogo Dichiarazione scarto")
 
@@ -111,7 +111,7 @@ Il lavoratore seleziona il due processi nella scheda **Tutti i processi** e quin
 
 ### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>Scenario 2: un lavoratore che ha due processi attivi in corso e desidera avviare un terzo processo e lavorarci parallelamente agli altri due
 
-Il lavoratore seleziona il terzo processo nella scheda **Tutti i processi** e quindi seleziona **Aggregazione**. Nella finestra di dialogo **Aggregazione** , il lavoratore può regolare la quantità da avviare. Il lavoratore quindi conferma la finestra di dialogo selezionando **Aggregazione**.
+Il lavoratore seleziona il terzo processo nella scheda **Tutti i processi** e quindi seleziona **Aggregazione**. Nella finestra di dialogo **Aggregazione**, il lavoratore può regolare la quantità da avviare. Il lavoratore quindi conferma la finestra di dialogo selezionando **Aggregazione**.
 
 ## <a name="working-on-indirect-activities"></a>Utilizzo delle attività indirette
 
@@ -119,8 +119,8 @@ Le attività indirette sono attività che non sono direttamente correlate a un o
 
 Ad esempio, Shannon, una lavoratrice del reparto produzione presso Contoso, desidera partecipare a una riunione aziendale e le riunioni sono considerate un'attività indiretta. Si applica uno dei due scenari seguenti:
 
-- **Shannon sta lavorando a uno o più processi attivi.** Shannon sceglie **Attività** , identifica l'attività (riunione) e conferma la sua selezione. Un messaggio che appare la informa che ha dei processi in corso. Dal messaggio, Shannon può scegliere di completare o arrestare i processi su cui sta lavorando prima di andare alla riunione.
-- **Shannon non ha processi attivi.** Shannon sceglie **Attività** , identifica l'attività (riunione) e conferma la sua selezione. Ora è registrata come partecipante alla riunione.
+- **Shannon sta lavorando a uno o più processi attivi.** Shannon sceglie **Attività**, identifica l'attività (riunione) e conferma la sua selezione. Un messaggio che appare la informa che ha dei processi in corso. Dal messaggio, Shannon può scegliere di completare o arrestare i processi su cui sta lavorando prima di andare alla riunione.
+- **Shannon non ha processi attivi.** Shannon sceglie **Attività**, identifica l'attività (riunione) e conferma la sua selezione. Ora è registrata come partecipante alla riunione.
 
 In entrambi gli scenari, dopo che Shannon ha confermato la sua selezione, va alla pagina di accesso o a una pagina che attende la conferma di essere tornata dalla sua attività indiretta. La pagina che appare dipende dalla configurazione dell'interfaccia di esecuzione dell'area di produzione. (Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).)
 

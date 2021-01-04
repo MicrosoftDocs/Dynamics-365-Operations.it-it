@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980635"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431204"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data LIFO con valore fisico e contrassegno
 
@@ -39,7 +39,7 @@ Si consiglia di eseguire una chiusura periodica dell'inventario quando viene app
 Negli esempi riportati di seguito viene mostrato l'effetto prodotto dall'utilizzo del modello Data LIFO con tre configurazioni:
 
 -   Data LIFO senza opzione **Includi valore fisico**
--   Data LIFO con opzione**Includi valore fisico**
+-   Data LIFO con opzione **Includi valore fisico**
 -   Data LIFO con contrassegno
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>Data LIFO senza opzione Includi valore fisico

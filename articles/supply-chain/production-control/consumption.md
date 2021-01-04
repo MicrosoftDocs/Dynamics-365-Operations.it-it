@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211638"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431215"
 ---
 # <a name="calculate-material-consumption"></a>Calcolare il consumo di materiali
 
@@ -63,7 +63,7 @@ Si presume che 0,5 metri di tubo vengano scartati per ogni cinque pezzi di tubo 
 
 ### <a name="consumption"></a>Consumo
 
-In genere, si seleziona**Consumo** come meccanismo di arrotondamento per eccesso quando le materie prime devono essere prelevate nelle quantità intere di unità movimentazione specifica del prodotto. Ad esempio, 2 litri di vernice vengono utilizzati per produrre un pezzo di un prodotto finito e la vernice viene prelevata in latte da 25 litri. In questo caso, il meccanismo di arrotondamento per eccesso **Consumo** può essere utilizzato per arrotondare per eccesso il consumo ai numeri interi di latte da 25 litri. Questo è il calcolo della quantità di vernice necessaria se devono essere prodotti 180 pezzi del prodotto finito:
+In genere, si seleziona **Consumo** come meccanismo di arrotondamento per eccesso quando le materie prime devono essere prelevate nelle quantità intere di unità movimentazione specifica del prodotto. Ad esempio, 2 litri di vernice vengono utilizzati per produrre un pezzo di un prodotto finito e la vernice viene prelevata in latte da 25 litri. In questo caso, il meccanismo di arrotondamento per eccesso **Consumo** può essere utilizzato per arrotondare per eccesso il consumo ai numeri interi di latte da 25 litri. Questo è il calcolo della quantità di vernice necessaria se devono essere prodotti 180 pezzi del prodotto finito:
 
 1.  Vernice necessaria, esclusi scarti: 180 × 2 = 360 litri
 2.  Numero di latte: 360 ÷ 25 = 14,4, che viene arrotondato per eccesso a 15

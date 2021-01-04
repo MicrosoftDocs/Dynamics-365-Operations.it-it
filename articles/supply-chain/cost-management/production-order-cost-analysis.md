@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826720"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431234"
 ---
 # <a name="production-order-cost-analysis"></a>Analisi del costo ordine di produzione
 
@@ -49,7 +49,7 @@ Nel diagramma di seguito riportato sono illustrati i quattro scostamenti che rap
 È possibile analizzare gli scostamenti di produzione utilizzando la pagina **Scostamento** o il report **Scostamento produzione**. Utilizzare le opzioni di visualizzazione per visualizzare gli scostamenti dettagliati per articolo e risorsa operativa o per gruppo di costi. Il criterio di scomposizione dei costi nei parametri di magazzino determina se viene tenuta traccia degli scostamenti per gruppo di costi. È inoltre possibile utilizzare le opzioni di visualizzazione **singolo**, **multiplo** e **totale** per visualizzare gli scostamenti riepilogati. Le informazioni sugli scostamenti dettagliati sono utili per comprendere l'origine di ciascuno scostamento. Per prevedere gli scostamenti prima di terminare un ordine di produzione, analizzare le informazioni dettagliate fornite nel report **Stima e determinazione dei costi**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Analisi dei costi per ordini di produzione correnti
-Le informazioni relative a ciascun tipo di transazione vengono fornite in report separati. Utilizzare questi report per analizzare i costi per le attività di produzione segnalate. Vengono visualizzate informazioni solo per gli ordini di produzione correnti con stato **Iniziato** o**Dichiarato finito**.
+Le informazioni relative a ciascun tipo di transazione vengono fornite in report separati. Utilizzare questi report per analizzare i costi per le attività di produzione segnalate. Vengono visualizzate informazioni solo per gli ordini di produzione correnti con stato **Iniziato** o **Dichiarato finito**.
 
 -   **Materiali in lavorazione**: in questo report vengono elencate le transazioni di distinta di prelievo dichiarate a fronte degli ordini di produzione correnti per una data di transazione specificata. Nel report viene indicata la quantità del componente prelevata e l'importo costi di ciascuna transazione. Utilizzare i criteri di selezione per un singolo articolo componente. È possibile, ad esempio, stampare informazioni sulla quantità prelevata del componente a fronte degli ordini di produzione applicabili. Poiché la quantità prelevata non viene aggiornata in base alle quantità dichiarate finite dell'articolo principale, è possibile che la quantità effettiva delle materie prime in lavorazione venga sovrastimata.
 -   **Semilavorato**: in questo report vengono elencate le transazioni cicli di lavorazione (o transazioni processi) dichiarate a fronte degli ordini di produzione correnti per una data di transazione specificata. Il report indica orari, importo e quantità (sia quantità idonea sia quantità difettosa) che vengono dichiarati per ciascuna transazione. Sono inoltre incluse informazioni quali numero di operazione, ID operazione e risorsa operativa. In aggiunta, nel report vengono visualizzati il tempo totale e l'importo per tutte le transazioni a fronte dell'ordine di produzione, nonché la quantità dichiarata finita.

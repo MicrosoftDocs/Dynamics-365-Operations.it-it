@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987192"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4431588"
 ---
 # <a name="create-a-baseline-forecast"></a>Creare una previsione di base
 
@@ -43,7 +43,7 @@ Un responsabile di pianificazione della produzione può creare una previsione di
 7. Chiudere la pagina.
 8. Chiudere la pagina.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Impostare i parametri della previsione della domanda
+## <a name="set-up-the-demand-forecasting-parameters"></a>Impostare i parametri della previsione della domanda
 1. Andare a Pianificazione generale > Impostazioni > Previsione della domanda > Parametri di previsione della domanda.
 2. Espandere la sezione Parametri dell'algoritmo di previsione.
 3. Nel campo Strategia di generazione previsione selezionare "Copia domanda storica".

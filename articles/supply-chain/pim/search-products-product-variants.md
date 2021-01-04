@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018332"
+ms.locfileid: "4431553"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Ricerca di prodotti e varianti prodotto durante la registrazione ordine
 
@@ -44,7 +44,7 @@ Durante la ricerca dei prodotti o varianti prodotto, è importante comprendere
 
 ### <a name="examples"></a>Esempi
 
-Negli esempi seguenti vengono utilizzati prodotti e varianti prodotto per illustrare come la ricerca viene gestita in vari scenari. **Prerequisito:**  In **Vendite e marketing &gt; Impostazione &gt; Ricerca &gt; Parametri ricerca &gt; Tipo di ricerca** , selezionare l'opzione **Corrispondenza completa**.
+Negli esempi seguenti vengono utilizzati prodotti e varianti prodotto per illustrare come la ricerca viene gestita in vari scenari. **Prerequisito:**  In **Vendite e marketing &gt; Impostazione &gt; Ricerca &gt; Parametri ricerca &gt; Tipo di ricerca**, selezionare l'opzione **Corrispondenza completa**.
 
 | Tipo di prodotto     | Nome prodotto    | Numero prodotto visualizzato | Numero articolo | Configurazione |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -52,7 +52,7 @@ Negli esempi seguenti vengono utilizzati prodotti e varianti prodotto per illust
 | Variante prodotto  | Active speaker  | D0010:::Nero:         | D0010       | 000005        |
 | Variante prodotto  | Active speaker  | D0010:::Bianco:         | D0010       | Bianco         |
 
-Se si digita 'speak' nel campo **Numero articolo** , si ottengono tutti i prodotti precedenti come risultato della ricerca. Se si immette 'nero' nel campo **Numero articolo** , si ottiene il secondo prodotto come risultato, perché contiene il testo 'nero' nel numero prodotto visualizzato. Questi due esempi mostrano che la ricerca viene effettuata non solo all'inizio del campo, una corrispondenza si verifica anche se il testo di ricerca viene trovato nel mezzo di una stringa di testo nel record corrispondente.  
+Se si digita 'speak' nel campo **Numero articolo**, si ottengono tutti i prodotti precedenti come risultato della ricerca. Se si immette 'nero' nel campo **Numero articolo**, si ottiene il secondo prodotto come risultato, perché contiene il testo 'nero' nel numero prodotto visualizzato. Questi due esempi mostrano che la ricerca viene effettuata non solo all'inizio del campo, una corrispondenza si verifica anche se il testo di ricerca viene trovato nel mezzo di una stringa di testo nel record corrispondente.  
 
 Se si immette '05' si otterrà solo la seconda variante prodotto come risultato, poiché contiene '05' nella configurazione. Ciò dimostra che la ricerca avviene in tutti i campi abilitati nella pagina **Criteri di ricerca**.  
 
@@ -65,7 +65,7 @@ Prima di utilizzare la funzionalità di ricerca di prodotti e varianti prodotto,
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Passaggio 1: Includere tutti gli identificatori e dimensioni prodotto e variante prodotto pertinenti nei criteri di ricerca
 
-Esempi di identificatori e dimensioni di prodotti e varianti prodotto in base a cui è possibile cercare sono  **Nome prodotto, Numero articolo** , **Numero prodotto visualizzato, Configurazione, Colore, Dimensione, Stile, Nome ricerca e così via**.  
+Esempi di identificatori e dimensioni di prodotti e varianti prodotto in base a cui è possibile cercare sono  **Nome prodotto, Numero articolo**, **Numero prodotto visualizzato, Configurazione, Colore, Dimensione, Stile, Nome ricerca e così via**.  
 
 Andare alla pagina **Vendite e marketing &gt; Impostazioni &gt; Ricerca &gt; Criteri di ricerca**. La pagina **Criteri di ricerca** consente di definire i criteri per il cliente, il prospect e la ricerca di prodotti. Assicurarsi di filtrare la pagina utilizzando i criteri di ricerca del prodotto. Questa operazione può essere eseguita passando a **Prodotto** nel menu della pagina.  
 
@@ -73,7 +73,7 @@ Per aggiungere il numero prodotto visualizzato ai criteri di ricerca, fare clic 
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Passaggio 2: Popolare la tabella di database utilizzata per la ricerca di prodotti
 
-Nella pagina **Criteri di ricerca** , fare clic sul pulsante **Aggiorna dati ricerca**. Nella finestra di dialogo **Aggiorna dati ricerca** assicurarsi che  **Origine** sia impostato su **Prodotto** e fare clic su **OK**. Il sistema aggregherà in una tabella tutti i criteri di ricerca selezionati specificati nel passaggio 1. Se si dispone di molti prodotti e varianti prodotto, questa operazione può essere piuttosto lunga ed è possibile ricevere un avviso. Si consiglia di programmare la popolazione della tabella di ricerca nel server batch in un momento in cui il server non è troppo occupato.  
+Nella pagina **Criteri di ricerca**, fare clic sul pulsante **Aggiorna dati ricerca**. Nella finestra di dialogo **Aggiorna dati ricerca** assicurarsi che  **Origine** sia impostato su **Prodotto** e fare clic su **OK**. Il sistema aggregherà in una tabella tutti i criteri di ricerca selezionati specificati nel passaggio 1. Se si dispone di molti prodotti e varianti prodotto, questa operazione può essere piuttosto lunga ed è possibile ricevere un avviso. Si consiglia di programmare la popolazione della tabella di ricerca nel server batch in un momento in cui il server non è troppo occupato.  
 
 Finché la tabella non viene popolata, la ricerca di prodotti non fornirà i risultati corretti. Se non viene visualizzato alcun risultato di ricerca, verificare che la tabella sia popolata.  
 
@@ -83,7 +83,7 @@ La tabella deve essere popolata solo quando i criteri di ricerca viene modificat
 
 È possibile abilitare questa funzionalità accedendo a **Vendite e marketing &gt; Impostazione &gt; Ricerca &gt; Parametri ricerca** e impostando **Abilita ricerca prodotto** su **Sì** nella scheda **Generale**.  
 
-Per l'immissione riga ordine cliente, il comportamento predefinito è di aprire la pagina **Ricerca prodotto** quando si inizia a digitare nel campo **Numero articolo** e quindi premere il tasto **TAB**. La pagina **Ricerca prodotto** cambia il contesto durante la creazione della riga ordine e può essere considerata inutilmente intrusiva. Se si preferisce visualizzare i risultati della ricerca in una ricerca e non perdere il contesto durante l'immissione riga ordine, è possibile utilizzare invece la ricerca esterna. Se si cerca un prodotto o una variante prodotto, ma non viene selezionata alcuna informazione nella ricerca e si preme il tasto **TAB** , viene visualizzata la pagina **Ricerca prodotto**.
+Per l'immissione riga ordine cliente, il comportamento predefinito è di aprire la pagina **Ricerca prodotto** quando si inizia a digitare nel campo **Numero articolo** e quindi premere il tasto **TAB**. La pagina **Ricerca prodotto** cambia il contesto durante la creazione della riga ordine e può essere considerata inutilmente intrusiva. Se si preferisce visualizzare i risultati della ricerca in una ricerca e non perdere il contesto durante l'immissione riga ordine, è possibile utilizzare invece la ricerca esterna. Se si cerca un prodotto o una variante prodotto, ma non viene selezionata alcuna informazione nella ricerca e si preme il tasto **TAB**, viene visualizzata la pagina **Ricerca prodotto**.
 
 
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889891"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431052"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Addetti alla manutenzione e gruppi di lavoratori
 
@@ -41,7 +41,7 @@ In questo argomento vengono illustrati gli addetti alla manutenzione e i gruppi 
 1. Selezionare **Gestione cespiti** \> **Impostazione** \> **Lavoratori** \> **Lavoratori**.
 2. Selezionare **Nuovo** per aggiungere un lavoratore all'elenco.
 3. Selezionare il lavoratore nel campo **Lavoratore**.
-4. Impostare **Attivo**su  **Sì** per la programmazione del lavoratore negli ordini di lavoro.
+4. Impostare **Attivo** su  **Sì** per la programmazione del lavoratore negli ordini di lavoro.
 
     Nella Scheda dettaglio **Generale**, i campi **Descrizione** e **Risorsa** vengono completati automaticamente se una risorsa è stata selezionata per il lavoratore. Il campo **Calendario** verrà anche compilato automaticamente, a condizione di avere impostato il lavoratore come risorsa e allocato un calendario a tale risorsa nella pagina **Risorse** (**Amministrazione organizzazione** \> **Risorse** \> **Risorse**).
 

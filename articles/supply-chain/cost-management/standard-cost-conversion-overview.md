@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214391"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431228"
 ---
 # <a name="standard-cost-conversion-overview"></a>Panoramica sulla conversione in costo standard
 
@@ -60,13 +60,13 @@ La nuova versione di determinazione costi è dedicata al record di conversione, 
 È possibile effettuare la gestione delle informazioni sui costi degli articoli nella versione di determinazione costi dedicata solo dalla pagina **Conversioni costo standard**. Non è possibile utilizzare la pagina **Impostazione versione di determinazione costi** o la pagina **Gestione versione di determinazione costi** per calcolare i costi per la versione di determinazione costi durante la conversione. È tuttavia possibile utilizzare queste pagina per la gestione della versione di determinazione costi dedicata dopo il completamento del processo di conversione.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Identificare gli articoli da convertire in costo standard
-Utilizzare la pagina**Conversioni costo standard** per identificare i singoli articoli che dovranno essere convertiti in costo standard. È possibile aggiungere più articoli utilizzando la pagina **Aggiunge articoli alla conversione in costo standard**. In generale, per garantire la correttezza del calcolo dei costi è consigliabile includere tutti gli articoli prodotti in un unico record di conversione.
+Utilizzare la pagina **Conversioni costo standard** per identificare i singoli articoli che dovranno essere convertiti in costo standard. È possibile aggiungere più articoli utilizzando la pagina **Aggiunge articoli alla conversione in costo standard**. In generale, per garantire la correttezza del calcolo dei costi è consigliabile includere tutti gli articoli prodotti in un unico record di conversione.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Immettere o calcolare il costo standard in sospeso per ogni articolo in corso di conversione.
 Utilizzare la pagina **Prezzo articolo** per immettere i costi standard in sospeso nella versione di determinazione costi dedicata per gli articoli acquistati e gli articoli trasferimento. I record di costi sono specifici del sito. È quindi necessario immettere i costi in sospeso di ogni articolo per ogni sito. Utilizzare la pagina **Prezzo articolo** per calcolare i costi standard in sospeso per gli articoli prodotti. È consigliabile calcolare i costi in sospeso di ogni articolo prodotto per ogni sito di produzione, a meno che il sito non corrisponda a un sito di trasferimento. In questo caso, i costi in sospeso devono essere immessi manualmente. Alcuni articoli possono avere le dimensioni prodotto del colore, delle dimensioni o della configurazione. Nella pagina **Conversioni costo standard** la casella di controllo **Usa prezzo di costo per variante** mostra il costo standard per ciascuna combinazione di dimensioni prodotto. Se la casella di controllo è deselezionata, per l'articolo è necessario immettere solo un costo in sospeso.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Verificare gli articoli in corso di conversione e risolvere gli eventuali problemi.
-Utilizzare il report**Verifiche conversione in costo standard** per identificare le uscite di articoli in corso di conversione. Se per un articolo non sussistono problemi, il relativo stato nel record di conversione passa a **Verificato**. In caso di problemi, è necessario risolverli e rieseguire il report finché lo stato dell'articolo non passa a **Verificato**. Se non è possibile risolvere un problema di un articolo in modo tempestivo, è possibile eliminare l'articolo dal record di conversione e convertirlo in seguito.
+Utilizzare il report **Verifiche conversione in costo standard** per identificare le uscite di articoli in corso di conversione. Se per un articolo non sussistono problemi, il relativo stato nel record di conversione passa a **Verificato**. In caso di problemi, è necessario risolverli e rieseguire il report finché lo stato dell'articolo non passa a **Verificato**. Se non è possibile risolvere un problema di un articolo in modo tempestivo, è possibile eliminare l'articolo dal record di conversione e convertirlo in seguito.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Cambiare lo stato del record di conversione in Pronto
 Quando lo stato del record di conversione viene cambiato in **Pronto**, viene eseguita una verifica finale prima dell'esecuzione della conversione in costo standard. Lo stato passa a **Pronto** solo se vengono soddisfatte le seguenti condizioni:

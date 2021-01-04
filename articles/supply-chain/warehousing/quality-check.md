@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016633"
+ms.locfileid: "4431546"
 ---
 # <a name="quality-check"></a>Controllo qualità
 
@@ -44,7 +44,7 @@ Questo processo può anche essere configurato in modo tale che tutte le targhe a
 
 ## <a name="turn-on-the-quality-check-feature"></a>Attivare la funzionalità Controllo qualità
 
-Prima di poter utilizzare la funzionalità *Controllo qualità* , è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità** , la funzione è elencata nel modo seguente:
+Prima di poter utilizzare la funzionalità *Controllo qualità*, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Controllo qualità*
@@ -77,8 +77,8 @@ Il modello di controllo della qualità definisce le regole per eseguire controll
 
         Selezionare i criteri da utilizzare quando la qualità dell'inventario viene rifiutata. Di seguito vengono illustrate le opzioni disponibili.
 
-        - *Crea solo lavoro* : creare il lavoro solo per facilitare la movimentazione delle scorte.
-        - *Crea ordine di controllo qualità* : creare un ordine di controllo qualità per facilitare i test di qualità.
+        - *Crea solo lavoro*: creare il lavoro solo per facilitare la movimentazione delle scorte.
+        - *Crea ordine di controllo qualità*: creare un ordine di controllo qualità per facilitare i test di qualità.
 
     - **Gruppo di test:** *Sistemi di chiusura*
 
@@ -106,7 +106,7 @@ Le classi di lavoro vengono utilizzate per indirizzare e/o limitare il tipo di r
 
         Selezionare il tipo di ordine di lavoro creato dalla classe di lavoro. Quando si imposta il lavoro di controllo qualità, selezionare sempre *Qualità nel controllo qualità*.
 
-1. Nella Scheda dettaglio **Tipi di ubicazione inseriti validi** , lasciare vuoto il campo **Tipo di ubicazione**.
+1. Nella Scheda dettaglio **Tipi di ubicazione inseriti validi**, lasciare vuoto il campo **Tipo di ubicazione**.
 
     Se si seleziona un tipo di ubicazione, si limitano le ubicazioni in cui gli articoli possono essere stoccati dopo che sono stati prelevati. Questo campo viene utilizzato quando una direttiva ubicazione prova a risolvere l'ubicazione o quando un addetto al magazzino specifica manualmente l'ubicazione per la voce di menu del dispositivo mobile.
 
@@ -121,9 +121,9 @@ Modelli di lavoro consente di definire le operazioni di lavoro che devono essere
 1. Accedere a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
 1. Nell'intestazione, Impostare il campo **Tipo ordine di lavoro** su *Ordini fornitore*.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Selezionare un modello di lavoro che dovrebbe includere una fase di controllo della qualità. Nella sezione **Panoramica** , nel campo **Modello di lavoro** , selezionare *Ricevuta ordine d'acquisto 51*.
-1. Nella sezione **Dettagli del modello di lavoro** , notare che la griglia ha due righe esistenti: una per *Preleva* e una per *Inserisci*.
-1. Nella sezione **Dettagli del modello di lavoro** , selezionare **Nuovo** per aggiungere una riga per il controllo di qualità alla griglia. Si noti che il campo **Numero di riga** per la nuova riga è impostato su *3*.
+1. Selezionare un modello di lavoro che dovrebbe includere una fase di controllo della qualità. Nella sezione **Panoramica**, nel campo **Modello di lavoro**, selezionare *Ricevuta ordine d'acquisto 51*.
+1. Nella sezione **Dettagli del modello di lavoro**, notare che la griglia ha due righe esistenti: una per *Preleva* e una per *Inserisci*.
+1. Nella sezione **Dettagli del modello di lavoro**, selezionare **Nuovo** per aggiungere una riga per il controllo di qualità alla griglia. Si noti che il campo **Numero di riga** per la nuova riga è impostato su *3*.
 1. Nella nuova riga, imposta i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
 
     - **Tipo di lavoro:** *Controllo qualità*
@@ -138,7 +138,7 @@ Modelli di lavoro consente di definire le operazioni di lavoro che devono essere
 
 1. Seguire questi passaggi per modificare il valore di **Numero di riga** per la nuova riga:
 
-    1. Nella sezione **Dettagli del modello di lavoro** , selezionare la riga in cui il campo **Tipo di lavoro** è impostato su *Controllo qualità*.
+    1. Nella sezione **Dettagli del modello di lavoro**, selezionare la riga in cui il campo **Tipo di lavoro** è impostato su *Controllo qualità*.
     2. Selezionare il pulsante **Sposta su** o **Sposta giù** per spostare la riga *Controllo qualità* in modo che sia dopo la riga *Preleva*.
 
 1. Nel riquadro azioni selezionare **Salva**.
@@ -147,7 +147,7 @@ Modelli di lavoro consente di definire le operazioni di lavoro che devono essere
 
 Quindi, creare un modello di lavoro per il controllo di qualità.
 
-1. Nell'intestazione della pagina **Modelli di lavoro** , modifica il valore del campo **Tipo di ordine di lavoro** su *Qualità nel controllo qualità*.
+1. Nell'intestazione della pagina **Modelli di lavoro**, modifica il valore del campo **Tipo di ordine di lavoro** su *Qualità nel controllo qualità*.
 1. Nel riquadro azioni seleziona **Nuova** per aggiungere una riga alla griglia nella sezione **Panoramica**.
 1. Nella nuova riga, imposta i seguenti valori:
 
@@ -158,7 +158,7 @@ Quindi, creare un modello di lavoro per il controllo di qualità.
     - **Descrizione modello di lavoro:** *Controllo qualità 51*
 
 1. Nel riquadro azioni, selezionare **Salva** per rendere disponibile la sezione **Dettagli modello di lavoro**.
-1. Mentre il nuovo modello è ancora selezionato nella sezione **Panoramica** , selezionare **Nuovo** nella sezione **Dettagli del modello di lavoro** per aggiungere una riga alla griglia in quel punto.
+1. Mentre il nuovo modello è ancora selezionato nella sezione **Panoramica**, selezionare **Nuovo** nella sezione **Dettagli del modello di lavoro** per aggiungere una riga alla griglia in quel punto.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tipo di lavoro:** *Prelevare*
@@ -166,7 +166,7 @@ Quindi, creare un modello di lavoro per il controllo di qualità.
 
         Selezionare il nome della [classe di lavoro](#work-class) creata in precedenza per il lavoro di controllo della qualità.
 
-1. Nella sezione **Dettagli del modello di lavoro** , selezionare ancora **Nuovo** per aggiungere un'altra riga.
+1. Nella sezione **Dettagli del modello di lavoro**, selezionare ancora **Nuovo** per aggiungere un'altra riga.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tipo di lavoro:** *Inserire*
@@ -190,25 +190,25 @@ Le direttive ubicazione sono regole che aiutano a identificare le ubicazioni di 
     - **Numero sequenza:** accetta il valore predefinito.
     - **Nome:** *51 a qualità*
 
-1. Nella Scheda dettaglio **Direttive ubicazione** , imposta i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
+1. Nella Scheda dettaglio **Direttive ubicazione**, imposta i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
 
     - **Tipo di lavoro:** *Inserire*
     - **Sito:** *5*
     - **Magazzino:** *51*
 
 1. Nel riquadro azioni, selezionare **Salva** per salvare la direttiva e rendere disponibile la Scheda dettaglio **Righe**.
-1. Nella Scheda dettaglio **Righe** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Righe**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
 
     - **Da quantità:** *1*
     - **A quantità:** *1000000*
 
 1. Nel riquadro azioni, selezionare **Salva** per salvare la nuova riga e rendere disponibile la Scheda dettaglio **Azioni direttiva ubicazione**.
-1. Mentre la nuova riga è ancora selezionata nella Scheda dettaglio **Righe** , selezionare **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia in quel punto, in modo da poter configurare un'azione per la riga.
+1. Mentre la nuova riga è ancora selezionata nella Scheda dettaglio **Righe**, selezionare **Nuova** nella Scheda dettaglio **Azioni direttiva ubicazione** per aggiungere una riga alla griglia in quel punto, in modo da poter configurare un'azione per la riga.
 1. Nella nuova riga, impostare il campo **Nome** su *Qualità*. Accettare i valori predefiniti per i campi rimanenti.
 1. Nel riquadro azioni, selezionare **Salva** per rendere disponibile il pulsante **Modifica query** nella Scheda dettaglio **Azioni direttiva ubicazione**.
-1. Mentre la riga appena aggiunta è ancora selezionata nella Scheda dettaglio **Azioni direttiva ubicazione** , selezionare **Modifica query** per aprire una finestra di dialogo in cui è possibile modificare la query per l'azione.
-1. Nella scheda **Intervallo** , selezionare **Aggiungi** per aggiungere una riga alla query.
+1. Mentre la riga appena aggiunta è ancora selezionata nella Scheda dettaglio **Azioni direttiva ubicazione**, selezionare **Modifica query** per aprire una finestra di dialogo in cui è possibile modificare la query per l'azione.
+1. Nella scheda **Intervallo**, selezionare **Aggiungi** per aggiungere una riga alla query.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** *Ubicazioni*
@@ -219,7 +219,7 @@ Le direttive ubicazione sono regole che aiutano a identificare le ubicazioni di 
     L'ubicazione *QMS* è un'ubicazione di magazzino per la qualità.
 
 1. Selezionare **OK** per chiudere la finestra di dialogo.
-1. Ora è necessario modificare la sequenza delle direttive di ubicazione dell'ordine fornitore per il magazzino *51*. Salvare la nuova direttiva ubicazione *51 alla qualità* , aggiornare la pagina e selezionare la direttiva ubicazione nell'elenco. Quindi utilizzare i pulsanti **Sposta su** e **Sposta giù** nel riquadro azioni per inserire la direttiva ubicazione per il magazzino *51* nel seguente ordine. (Prima di selezionare **Sposta su** o **Sposta giù** , è necessario selezionare una direttiva ubicazione nell'elenco).
+1. Ora è necessario modificare la sequenza delle direttive di ubicazione dell'ordine fornitore per il magazzino *51*. Salvare la nuova direttiva ubicazione *51 alla qualità*, aggiornare la pagina e selezionare la direttiva ubicazione nell'elenco. Quindi utilizzare i pulsanti **Sposta su** e **Sposta giù** nel riquadro azioni per inserire la direttiva ubicazione per il magazzino *51* nel seguente ordine. (Prima di selezionare **Sposta su** o **Sposta giù**, è necessario selezionare una direttiva ubicazione nell'elenco).
 
     1. Da 51 a qualità
     2. 51 PO Diretto
@@ -234,7 +234,7 @@ Configurare una voce di menu in modo che i dispositivi mobili possano eseguire l
 1. Passare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile**.
 1. Nell'elenco, selezionare la voce d menu **Stoccaggio acquisto**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella sezione **Classi di lavoro** , selezionare **Nuova** per aggiungere una riga alla griglia.
+1. Nella sezione **Classi di lavoro**, selezionare **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **ID classe lavoro:** *Controllo di qualità*
@@ -256,7 +256,7 @@ Configurare una voce di menu in modo che i dispositivi mobili possano eseguire l
     - **Modalità:** *Lavoro*
     - **Utilizza lavoro esistente:** *No*
 
-1. Nella Scheda dettaglio **Generale** , impostare i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
+1. Nella Scheda dettaglio **Generale**, impostare i seguenti valori. Accettare i valori predefiniti per i campi rimanenti.
 
     - **Processo di creazione lavoro:** *Ricevimento e stoccaggio riga ordine acquisto*
     - **Genera targa:** *Sì*
@@ -269,9 +269,9 @@ Configurare una voce di menu in modo che i dispositivi mobili possano eseguire l
 1. Accedere a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Menu del dispositivo mobile**.
 1. Nel riquadro sinistro, selezionare il menu **In entrata**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella colonna **Menu e voci di menu disponibili** , selezionare la nuova voce di menu **Ricezione riga PO**.
+1. Nella colonna **Menu e voci di menu disponibili**, selezionare la nuova voce di menu **Ricezione riga PO**.
 1. Selezionare il pulsante freccia DESTRA per spostare **Ricezione riga PO** nella colonna **Struttura menu**.
-1. Nella colonna **Struttura menu** , selezionare **Ricezione riga PO** , quindi selezionare il pulsante freccia SU o freccia GIÙ per spostare la voce di menu nella posizione desiderata nel menu del dispositivo mobile.
+1. Nella colonna **Struttura menu**, selezionare **Ricezione riga PO**, quindi selezionare il pulsante freccia SU o freccia GIÙ per spostare la voce di menu nella posizione desiderata nel menu del dispositivo mobile.
 1. Nel riquadro azioni selezionare **Salva**.
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Scenario di esempio
@@ -282,13 +282,13 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine fornitore** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine fornitore**, imposta i seguenti valori:
 
     - **Conto fornitore:** *104*
     - **Magazzino:** *51*
 
 1. Scegliere **OK** per chiudere la finestra di dialogo e aprire il nuovo ordine fornitore.
-1. Nella Scheda dettaglio **Righe ordine fornitore** , la griglia contiene una nuova riga vuota. Su questa riga, impostare i seguenti valori:
+1. Nella Scheda dettaglio **Righe ordine fornitore**, la griglia contiene una nuova riga vuota. Su questa riga, impostare i seguenti valori:
 
     - **Numero articolo:** *M9203*
     - **Quantità:** *3*
@@ -304,14 +304,14 @@ Dopo che l'ordine fornitore è stato creato, può essere ricevuto utilizzando la
 
 1. Accedere all'app di magazzino come utente nel magazzino *51*. (Immettere *51* come ID utente e *1* come password).
 1. Passare a **In entrata \> Ricezione riga PO**.
-1. Nel campo **PONUM** , immettere il numero dell'ordine fornitore.
+1. Nel campo **PONUM**, immettere il numero dell'ordine fornitore.
 1. Confermare il numero dell'ordine fornitore.
-1. Nel campo **LINENUM** , immettere il numero della riga dell'ordine fornitore che viene ricevuta. Poiché l'ordine include solo una riga in questo scenario, sarà necessario immettere *1* nel campo **LINENUM** per ogni passaggio di ricezione.
+1. Nel campo **LINENUM**, immettere il numero della riga dell'ordine fornitore che viene ricevuta. Poiché l'ordine include solo una riga in questo scenario, sarà necessario immettere *1* nel campo **LINENUM** per ogni passaggio di ricezione.
 1. Confermare il numero della riga.
-1. Nel campo **QUANTITÀ** immettere la quantità da ricevere. Poiché l'ordine fornutore è per tre pallet ( *PL* ) in questo scenario e sono presenti tre passaggi di ricezione, sarà necessario immettere *1* nel campo **QUANTITÀ** per ogni passaggio di ricezione.
+1. Nel campo **QUANTITÀ** immettere la quantità da ricevere. Poiché l'ordine fornutore è per tre pallet (*PL*) in questo scenario e sono presenti tre passaggi di ricezione, sarà necessario immettere *1* nel campo **QUANTITÀ** per ogni passaggio di ricezione.
 1. Confermare la quantità.
 
-    La pagina **Controllo qualità** visualizzata non ha campi di immissione. Ha solo il pulsante di conferma (segno di spunta) in basso e il pulsante Menu ( **≡** ) in cima. (Il pulsante Menu viene talvolta definito hamburger o pulsante hamburger). Per accelerare il processo di controllo qualità, quando il pallet supera il controllo qualità, l'utente conferma la pagina **Controllo qualità**.
+    La pagina **Controllo qualità** visualizzata non ha campi di immissione. Ha solo il pulsante di conferma (segno di spunta) in basso e il pulsante Menu (**≡**) in cima. (Il pulsante Menu viene talvolta definito hamburger o pulsante hamburger). Per accelerare il processo di controllo qualità, quando il pallet supera il controllo qualità, l'utente conferma la pagina **Controllo qualità**.
 
     ![Pagina Controllo qualità](media/quality-check.png "Pagina Controllo qualità")
 
@@ -337,12 +337,12 @@ Dopo che l'ordine fornitore è stato creato, può essere ricevuto utilizzando la
 
 Per questo scenario, il pallet 2 verrà rifiutato.
 
-1. Nel campo **LINENUM** , immettere *1* e confermare il numero di riga.
+1. Nel campo **LINENUM**, immettere *1* e confermare il numero di riga.
 1. Il campo **QUANTITÀ** è ora disponibile. Immettere *1* e confermare la quantità.
 
     Viene visualizzata la pagina **Controllo qualità**. Per questa ricezione, il pallet verrà rifiutato per la qualità e verrà inserito nell'ubicazione di qualità *QMS*.
 
-1. Selezionare il pulsante Menu ( **≡** ) nella parte superiore della pagina, quindi dal menu selezionare **Rifiuta**.
+1. Selezionare il pulsante Menu (**≡**) nella parte superiore della pagina, quindi dal menu selezionare **Rifiuta**.
 1. Nella pagina **Attività** che appare, immettere **QMS** come ubicazione *Inserisci* a cui inviare il pallet per ulteriori ispezioni.
 
     La pagina **Qualità nel controllo qualità: inserimento** che appare mostra i dettagli del lavoro di inserimento:
@@ -371,7 +371,7 @@ Per ulteriori informazioni sulla gestione della qualità, vedere [Panoramica del
 
 Per questo scenario, il pallet 3 verrà accettato.
 
-1. Nel campo **LINENUM** , immettere *1* e confermare il numero di riga.
+1. Nel campo **LINENUM**, immettere *1* e confermare il numero di riga.
 1. Il campo **QUANTITÀ** è ora disponibile. Immettere *1* e confermare la quantità.
 
     Viene visualizzata la pagina **Controllo qualità**. Per questa ricezione, il pallet verrà accettato per la qualità e verrà inserito in un'ubicazione di stoccaggio in blocco.
@@ -394,6 +394,6 @@ Per questo scenario, il pallet 3 verrà accettato.
 
     Nella pagina **Attività** per la ricezione della riga ordine fornitore, viene visualizzato il messaggio "Lavoro completato". Il campo **LINENUM** è disponibile in modo da poter iniziare a ricevere il pallet successivo.
 
-1. Selezionare il pulsante Menu ( **≡** ) nella parte superiore della pagina, quindi dal menu selezionare **Annulla** per tornare al menu.
+1. Selezionare il pulsante Menu (**≡**) nella parte superiore della pagina, quindi dal menu selezionare **Annulla** per tornare al menu.
 
 Ora è possibile chiudere l'app per dispositivi mobili.

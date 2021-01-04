@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018631"
+ms.locfileid: "4431573"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Risolvere problemi relativi a entrate prodotti e fatturazione
 
@@ -38,7 +38,7 @@ Una quantità è obbligatoria se si desidera registrare le fatture. Pertanto, se
 
 Questo problema può verificarsi a causa di incoerenze nelle distribuzioni degli ordini fornitore.
 
-Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza* , vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Per sbloccare questo problema e reimpostare l'ordine fornitore su uno stato *Bozza*, vai a **Approvvigionamento \>Attività periodiche \> Pulisci \> Reimpostazione distribuzione ordine fornitore**. Per ulteriori informazioni, vedi il seguente post del blog: [Risolvere gli errori di distribuzione dell'ordine fornitore in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Non riesco a consolidare più entrate prodotto in un unico ordine fornitore.
 
@@ -58,7 +58,7 @@ Se un'entrata prodotti viene annullata, il sistema consente la registrazione del
 
 La seguente procedura mostra un modo per riprodurre il problema.
 
-1. Nella pagina **Parametri contabilità fornitori** , nella scheda **Generale** , assicurati che l'opzione **Registra entrata prodotti nella contabilità generale** sia impostata su *Sì*.
+1. Nella pagina **Parametri contabilità fornitori**, nella scheda **Generale**, assicurati che l'opzione **Registra entrata prodotti nella contabilità generale** sia impostata su *Sì*.
 1. Crea un ordine fornitore e aggiungi una riga ordine con una quantità di *1.000* per un prodotto.
 1. Conferma l'ordine fornitore.
 1. Registra l'entrata del prodotto e controlla i giustificativi.
@@ -74,7 +74,7 @@ Le transazioni possono essere registrate nei conti CoGe sospesi quando le entrat
 
 Se l'opzione **Passività ratei all'entrata prodotti** è impostata su *No* per il gruppo di modelli di articoli, non verranno effettuate registrazioni nella contabilità generale. Tuttavia, un evento fisico verrà registrato ai fini della contabilità in un giornale di registrazione secondario e tale evento richiede un numero di giustificativo. Questo numero di giustificativo è il numero di giustificativo a cui si fa riferimento nelle transazioni di magazzino.
 
-Ti consigliamo di impostare l'opzione **Passività ratei all'entrata prodotti** su *Sì* , come descritto nel seguente post del blog: [Registrare le spese varie al momento dell'entrata del prodotto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Ti consigliamo di impostare l'opzione **Passività ratei all'entrata prodotti** su *Sì*, come descritto nel seguente post del blog: [Registrare le spese varie al momento dell'entrata del prodotto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>L'impostazione Registra nel conto di addebito nella contabilità generale non è attivata.
 
@@ -87,11 +87,11 @@ Questo problema si verifica quando viene fatturato un ordine fornitore, se l'opz
 La seguente procedura mostra un modo per riprodurre il problema.
 
 1. Passare a **Contabilità fornitori \> Impostazioni \> Parametri contabilità fornitori**.
-1. Nella scheda **Fattura** , imposta l'opzione **Registra nel conto di addebito nella contabilità generale** su *Sì*.
+1. Nella scheda **Fattura**, imposta l'opzione **Registra nel conto di addebito nella contabilità generale** su *Sì*.
 1. Vai a **Gestione scorte \> Impostazione \> Registrazione \> Registrazione**.
-1. Nella scheda **Ordine fornitore** , assicurati di aver eliminato tutte le righe nella spesa di acquisto del prodotto.
+1. Nella scheda **Ordine fornitore**, assicurati di aver eliminato tutte le righe nella spesa di acquisto del prodotto.
 1. Vai a **Contabilità fornitori \> Ordini fornitore \> Tutti gli ordini fornitore**.
-1. Creare un ordine fornitore. Nel campo **Conto fornitore** , seleziona *1001 Acme Office Supplies*.
+1. Creare un ordine fornitore. Nel campo **Conto fornitore**, seleziona *1001 Acme Office Supplies*.
 1. Aggiungi una riga ordine fornitore con le seguenti impostazioni:
 
     - **Numero articolo:** *D0011 Laser Projector*
@@ -99,11 +99,11 @@ La seguente procedura mostra un modo per riprodurre il problema.
     - **Magazzino:** *11*
     - **Quantità:** *4*
 
-1. Nel riquadro azioni, nella scheda **Acquisto** , nel gruppo **Azione** , seleziona **Conferma**.
-1. Nel riquadro azioni, nella scheda **Ricevi** , nel gruppo **Genera** , seleziona **Entrata prodotto**.
-1. Nella finestra di dialogo **Registrazione entrata prodotti** , nel campo **Entrata prodotti** , immetti un numero arbitrario, quindi seleziona **OK**.
-1. Nel riquadro azioni, nel gruppo **Genera** della scheda **Fattura** , seleziona **Fattura**.
-1. Nel campo **Numero** , immetti un numero arbitrario come numero di fattura.
+1. Nel riquadro azioni, nella scheda **Acquisto**, nel gruppo **Azione**, seleziona **Conferma**.
+1. Nel riquadro azioni, nella scheda **Ricevi**, nel gruppo **Genera**, seleziona **Entrata prodotto**.
+1. Nella finestra di dialogo **Registrazione entrata prodotti**, nel campo **Entrata prodotti**, immetti un numero arbitrario, quindi seleziona **OK**.
+1. Nel riquadro azioni, nel gruppo **Genera** della scheda **Fattura**, seleziona **Fattura**.
+1. Nel campo **Numero**, immetti un numero arbitrario come numero di fattura.
 1. Aggiorna lo stato di abbinamento e registra.
 1. Si noti che ora viene visualizzato il seguente errore quando si genera una fattura da un ordine fornitore: "Numero di conto per il tipo di transazione spesa di acquisto per il prodotto inesistente".
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018401"
+ms.locfileid: "4431562"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Panoramica delle richieste di offerta (RdO)
 
@@ -44,7 +44,7 @@ Nell'illustrazione riportata di seguito viene mostrata una panoramica del proces
 
 È possibile creare un caso RdO da ordini pianificati, da una richiesta di acquisto o con un'immissione manuale. Il caso RdO è il documento di base utilizzato per emettere una RdO a ciascun fornitore.
 
-Dopo che si prepara il caso RdO e aggiungere i fornitori, selezionare **Invia** ( **Invia e pubblica** per il settore pubblico) nel caso RdO. Un giornale di registrazione RdO viene generato per ciascun fornitore a cui viene inviata una RdO. È possibile configurare le opzioni di stampa per l'azione Invia così da stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di RdO per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare automaticamente un foglio di risposta che il fornitore può completare.
+Dopo che si prepara il caso RdO e aggiungere i fornitori, selezionare **Invia** (**Invia e pubblica** per il settore pubblico) nel caso RdO. Un giornale di registrazione RdO viene generato per ciascun fornitore a cui viene inviata una RdO. È possibile configurare le opzioni di stampa per l'azione Invia così da stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di RdO per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare automaticamente un foglio di risposta che il fornitore può completare.
 
 In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
@@ -54,7 +54,7 @@ Quando si ricevono le offerte tramite posta elettronica, è possibile gestirle t
 
 Se una seconda iterazione di una risposta è necessaria da un fornitore, selezionare **Reso** nella pagina **Richiesta di offerta**. L'azione di reso genera un nuovo giornale di registrazione e un report che verranno stampati, archiviati e inviati in base alle impostazioni di stampa.
 
-Se sono stati aggiunti criteri di punteggio al caso RdO, alla richiesta di offerta sarà associato un riquadro in cui è possibile immettere i punteggi. I punteggi totali verranno visualizzati nella RdO quando si confrontano le risposte nella pagina **Confronta risposte**. Nella pagina **Confronta risposte** , è inoltre possibile confrontare altri dati di risposte, ad esempio il prezzo riga, la data di consegna e il prezzo totale.
+Se sono stati aggiunti criteri di punteggio al caso RdO, alla richiesta di offerta sarà associato un riquadro in cui è possibile immettere i punteggi. I punteggi totali verranno visualizzati nella RdO quando si confrontano le risposte nella pagina **Confronta risposte**. Nella pagina **Confronta risposte**, è inoltre possibile confrontare altri dati di risposte, ad esempio il prezzo riga, la data di consegna e il prezzo totale.
 
 Dopo aver scelto un'offerta o una serie di righe in un'offerta, è possibile accettare alcune o tutte le righe e rifiutare il resto. I giornali di accettazione, i giornali di rifiuto e i relativi report vengono generati e stampati, archiviati e inviati in base alle impostazioni di stampa. Quando si accetta un'offerta o si accettano righe specifiche di un'offerta, viene generato un contratto di acquisto o un ordine fornitore oppure viene aggiornata una richiesta di acquisto, a seconda del tipo di acquisto correlato alla RdO. È possibile creare un accordo commerciale che è possibile utilizzare successivamente per qualsiasi risposta, indipendentemente dal fatto che siano state accettate o rifiutate.
 
@@ -75,7 +75,7 @@ Prima di creare un caso RdO, è necessario impostare le informazioni sulla richi
 
 È inoltre necessario configurare il processo di modifica. Come parte della configurazione, è possibile attivare il blocco dei campi. Quando il blocco dei campi è attivato, un professionista dell'approvvigionamento che desidera modificare una richiesta di offerta deve innanzitutto selezionare **Crea** nella sezione **Modifica** della scheda **Offerta** nel caso RdO. Quindi, dopo che il caso RdO è stato aggiornato con la modifica, il responsabile approvvigionamenti deve completare il processo selezionando **Finalizza**. L'azione Finalizza genera un messaggio di posta elettronica che notifica ai fornitori la RdO rettificata.
 
-Nella pagina **Parametri di approvvigionamento** , selezionare il modello da usare per la notifica tramite posta elettronica che viene inviata ai fornitori. Quando viene creato in **Modelli di messaggio di posta elettronica** , un modello può includere i seguenti token di sostituzione:
+Nella pagina **Parametri di approvvigionamento**, selezionare il modello da usare per la notifica tramite posta elettronica che viene inviata ai fornitori. Quando viene creato in **Modelli di messaggio di posta elettronica**, un modello può includere i seguenti token di sostituzione:
 
 - %Caso RdO%
 - %Motivo di restituzione dell'offerta%
@@ -130,12 +130,12 @@ Creare un caso RdO, selezionare i fornitori ai quali si desidera fare un caso Rd
 
 È possibile creare manualmente un caso RdO per tipo di acquisto **Ordine fornitore** o **Contratto di acquisto**.
 
-Se il caso RdO è di tipo **Ordine fornitore** , si verifica il seguente comportamento che devia da altri tipi di casi RdO:
+Se il caso RdO è di tipo **Ordine fornitore**, si verifica il seguente comportamento che devia da altri tipi di casi RdO:
 
 - Quando le righe del caso RdO vengono create, le operazioni di magazzino vengono generate con stato di entrata **Ricevimento offerta**.
 - Quando si accetta un'offerta, viene generato un ordine fornitore.
 
-Se il caso RdO è di tipo **Contratto di acquisto** , si verifica il seguente comportamento che devia da altri casi RdO:
+Se il caso RdO è di tipo **Contratto di acquisto**, si verifica il seguente comportamento che devia da altri casi RdO:
 
 - Il caso RdO viene utilizzato per un contratto che prevede l'acquisto di una quantità o di un valore specifico di prodotti nel tempo. È necessario selezionare l'intervallo di date applicabile al contratto di acquisto e il nome della persona responsabile della gestione del contratto di acquisto.
 - Quando si accetta un'offerta, viene generato un contratto di acquisto.
@@ -148,7 +148,7 @@ Quando si crea un caso RdO, è possibile selezionare un tipo di sollecito. Il ti
 
 È possibile aggiungere un questionario a un caso RdO. Il questionario verrà visualizzato su tutte le risposte alla RdO dopo aver inviato la richiesta. Il completamento del questionario è un'attività obbligatoria affinché l'offerta possa essere inviata.
 
-Sebbene vengano fornite i valori predefiniti, è possibile modificare le impostazioni **Campi RoD inclusi nei moduli di risposta RoD del fornitore** per ogni singolo caso RdO come necessario. A tale scopo, creare o aprire un caso RdO. Quindi, nel riquadro azioni, aprire la scheda **Offerta** e nella sezione **Risposte** , selezionare **Imposta valori predefiniti risposte RdO**. Viene visualizzata la finestra di dialogo **Campi risposta richiesta di offerta predefiniti** , il cui funzionamento è identico a quando si impostano i valori predefiniti per i moduli di risposta RdO del fornitore. L'unica differenza è che le modifiche qui influenzeranno solo il caso RdO corrente. Per dettagli su come abilitare questa funzionalità e sul relativo funzionamento, vedere [Scegliere i campi predefiniti da includere nei moduli di risposta RoO del fornitore](#default-reply-fields).
+Sebbene vengano fornite i valori predefiniti, è possibile modificare le impostazioni **Campi RoD inclusi nei moduli di risposta RoD del fornitore** per ogni singolo caso RdO come necessario. A tale scopo, creare o aprire un caso RdO. Quindi, nel riquadro azioni, aprire la scheda **Offerta** e nella sezione **Risposte**, selezionare **Imposta valori predefiniti risposte RdO**. Viene visualizzata la finestra di dialogo **Campi risposta richiesta di offerta predefiniti**, il cui funzionamento è identico a quando si impostano i valori predefiniti per i moduli di risposta RdO del fornitore. L'unica differenza è che le modifiche qui influenzeranno solo il caso RdO corrente. Per dettagli su come abilitare questa funzionalità e sul relativo funzionamento, vedere [Scegliere i campi predefiniti da includere nei moduli di risposta RoO del fornitore](#default-reply-fields).
 
 Sono disponibili tre modi per selezionare i fornitori da aggiungere a un caso RdO:
 
@@ -166,7 +166,7 @@ Occasionalmente, è necessario modificare un caso RdO dopo averlo inviato. Potre
 
 Se si configura il processo di modifica in modo che risulti più restrittivo, prima di poter modificare i campi in un caso RdO che è già stato inviato, è necessario selezionare **Crea** nel caso RdO per avviare una modifica. Al termine delle modifiche, è necessario selezionare **Finalizza**. L'utente viene quindi guidato nel processo di aggiunta di informazioni per il messaggio di posta elettronica inviato per comunicare ai fornitori la modifica. Il report della RdO aggiornato, che include una nota delle modifiche, viene automaticamente collegato al messaggio.
 
-Se si configura il processo meno restrittivo delle modifiche, non è necessario selezionare **Crea** prima di poter modificare i campi in un caso RdO che è già stato inviato. Tuttavia, è necessario aggiungere manualmente una nota delle modifiche nella RdO e inviare di nuovo il caso. Tenere presente che tale approccio può essere utilizzato solo se nessuna delle risposte (Offerte) è stata modificata. Se è stata specificata una risposte ma non ha stato **Ricevuta** , il pulsante **Invia** non sarà disponibile. In questo caso, è necessario selezionare **Crea** e **Finalizza** , come nel processo più restrittivo. La risposta viene reimpostata per riflettere le modifiche nel caso RdO.
+Se si configura il processo meno restrittivo delle modifiche, non è necessario selezionare **Crea** prima di poter modificare i campi in un caso RdO che è già stato inviato. Tuttavia, è necessario aggiungere manualmente una nota delle modifiche nella RdO e inviare di nuovo il caso. Tenere presente che tale approccio può essere utilizzato solo se nessuna delle risposte (Offerte) è stata modificata. Se è stata specificata una risposte ma non ha stato **Ricevuta**, il pulsante **Invia** non sarà disponibile. In questo caso, è necessario selezionare **Crea** e **Finalizza**, come nel processo più restrittivo. La risposta viene reimpostata per riflettere le modifiche nel caso RdO.
 
 Se i fornitori utilizzano l'interfaccia di collaborazione fornitore per immettere le offerte, è necessario utilizzare sempre il processo di modifica per informare i fornitori delle modifiche al caso RdO. Questo processo aiuta a prevenire la situazione in cui i venditori fanno offerte per una richiesta RdO obsoleta mentre la loro offerta è in corso. Per ulteriori informazioni sulle funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
@@ -197,7 +197,7 @@ Quando si accetta un'offerta o una o più righe specifiche in un'offerta, un ord
 
 Nella risposta, è possibile aggiungere un codice motivo per spiegare perché un'offerta è accettata o rifiutata.
 
-Quando si accetta un'offerta di tipo **Richiesta di acquisto** , le righe della richiesta di acquisto vengono aggiornate in base alle seguenti informazioni che riflettono i dati dell'offerta accettata:
+Quando si accetta un'offerta di tipo **Richiesta di acquisto**, le righe della richiesta di acquisto vengono aggiornate in base alle seguenti informazioni che riflettono i dati dell'offerta accettata:
 
 - Prezzo unitario
 - Percentuale sconto

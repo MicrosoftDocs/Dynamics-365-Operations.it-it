@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016518"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654126"
 ---
 # <a name="replenishment-overview"></a>Panoramica del rifornimento
 
@@ -34,10 +34,10 @@ In questo argomento vengono descritte le strategie di rifornimento disponibili p
 
 Sono disponibili le seguenti strategie di rifornimento:
 
-- **Rifornimento basato su domanda ondata** : questa strategia crea il lavoro di rifornimento per carichi o ordini in uscita se scorte non sono disponibili quando il lavoro viene creato dall'ondata. Ad esempio, se la quantità necessaria per un ordine cliente non è disponibile durante l'elaborazione di un'ondata, è possibile creare il lavoro di rifornimento.
-- **Rifornimento basato su quantità minima e massima** : questa strategia utilizza i limiti di stoccaggio minimo e massimo per determinare quando rifornire le ubicazioni. I criteri di articolo e di ubicazione definiscono il magazzino che viene valutato per il rifornimento. I modelli di rifornimento basato su quantità minima e massima sono il meccanismo principale per il mantenimento di livelli ottimali di ubicazioni di prelievo. Per aiutare la disponibilità di scorte accessibili sufficienti a soddisfare la domanda ondata, è possibile utilizzare il rifornimento basato sulla domanda come integrazione tra i cicli di rifornimento minimo/massimo.
-- **Rifornimento basato sulla domanda di carico** : questa strategia somma la domanda di diversi carichi e crea il lavoro di rifornimento necessario per lo stoccaggio delle ubicazioni di prelievo pertinenti. Questa strategia consente di garantire che i carichi creati possono essere prelevati nel magazzino dopo il rilascio.
-- **Rifornimento immediato** : questa strategia rifornisce il magazzino prima dell'eseuczione di un'ondata se l'allocazione non riesce per una riga della direttiva di ubicazione con un modello di rifornimento. 
+- **Rifornimento basato su domanda ondata**: questa strategia crea il lavoro di rifornimento per carichi o ordini in uscita se scorte non sono disponibili quando il lavoro viene creato dall'ondata. Ad esempio, se la quantità necessaria per un ordine cliente non è disponibile durante l'elaborazione di un'ondata, è possibile creare il lavoro di rifornimento.
+- **Rifornimento basato su quantità minima e massima**: questa strategia utilizza i limiti di stoccaggio minimo e massimo per determinare quando rifornire le ubicazioni. I criteri di articolo e di ubicazione definiscono il magazzino che viene valutato per il rifornimento. I modelli di rifornimento basato su quantità minima e massima sono il meccanismo principale per il mantenimento di livelli ottimali di ubicazioni di prelievo. Per aiutare la disponibilità di scorte accessibili sufficienti a soddisfare la domanda ondata, è possibile utilizzare il rifornimento basato sulla domanda come integrazione tra i cicli di rifornimento minimo/massimo.
+- **Rifornimento basato sulla domanda di carico**: questa strategia somma la domanda di diversi carichi e crea il lavoro di rifornimento necessario per lo stoccaggio delle ubicazioni di prelievo pertinenti. Questa strategia consente di garantire che i carichi creati possono essere prelevati nel magazzino dopo il rilascio.
+- **Rifornimento immediato**: questa strategia rifornisce il magazzino prima dell'eseuczione di un'ondata se l'allocazione non riesce per una riga della direttiva di ubicazione con un modello di rifornimento. 
 
 Tutte e quattro le strategie creano lavoro di rifornimento, basato su un modello di rifornimento.
 
@@ -62,7 +62,7 @@ Le quantità minima e massima vengono impostate in un modello di rifornimento. M
 Si noti che la strategia di rifornimento basato su quantità minima e massima non può rifornire un'ubicazione vuota, a meno che l'ubicazione è impostata come ubicazione fissa per l'articolo. Se l'ubicazione da rifornire non è un'ubicazione fissa, il sistema non può determinare quale articolo deve essere rifornito. Pertanto, almeno una certa quantità di scorte è necessaria prima del rifornimento.
 
 ## <a name="load-demand-replenishment"></a>Rifornimento domanda di carico
-Il rifornimento basato sulla domanda di carico somma la domanda di diversi carichi e crea il lavoro di rifornimento necessario per lo stoccaggio delle ubicazioni di prelievo pertinenti. Il rifornimento basato sulla domanda di carico è simile al rifornimento basato sulla domanda ondata in molti modi. La differenza principale è come e quando vengono eseguiti i due tipi di rifornimento. Come per rifornimento basato su quantità minima e massima, il rifornimento basato sulla domanda di carico viene eseguito utilizzando un processo batch. Per impostare il processo batch, nella pagina **Rifornimento domanda di carico** , selezionare il modello di rifornimento da utilizzare e impostare una query di filtro per specificare quali carichi vengono utilizzati per determinare la domanda. La query di ubicazione definisce le ubicazioni da cui sottrarre le quantità disponibili per soddisfare la domanda aggregata dei carichi.
+Il rifornimento basato sulla domanda di carico somma la domanda di diversi carichi e crea il lavoro di rifornimento necessario per lo stoccaggio delle ubicazioni di prelievo pertinenti. Il rifornimento basato sulla domanda di carico è simile al rifornimento basato sulla domanda ondata in molti modi. La differenza principale è come e quando vengono eseguiti i due tipi di rifornimento. Come per rifornimento basato su quantità minima e massima, il rifornimento basato sulla domanda di carico viene eseguito utilizzando un processo batch. Per impostare il processo batch, nella pagina **Rifornimento domanda di carico**, selezionare il modello di rifornimento da utilizzare e impostare una query di filtro per specificare quali carichi vengono utilizzati per determinare la domanda. La query di ubicazione definisce le ubicazioni da cui sottrarre le quantità disponibili per soddisfare la domanda aggregata dei carichi.
 
 ## <a name="immediate-replenishment"></a>Rifornimento immediato
 Anziché sommare la domanda alla fine di un processo di allocazione ed effettuare il rifornimento in base alla quantità sommata, è possibile applicare la strategia di rifornimento immediato. Quando si utilizza questa strategia, il magazzino può essere rifornito immediatamente dopo l'allocazione per una riga della direttiva di ubicazione non riuscita. Di conseguenza, è possibile impostare il rifornimento in modo che sia limitato da specifiche unità e che utilizzi le quantità impostate per specifiche ubicazioni.

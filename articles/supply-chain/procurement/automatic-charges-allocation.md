@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998878"
+ms.locfileid: "4431448"
 ---
 # <a name="automatic-allocation-of-charges"></a>Allocazione automatica degli addebiti
 
@@ -53,8 +53,8 @@ Per allocare gli addebiti è necessario prima definire i codici di addebito.
 
 1. Le scheda dettaglio **Registrazione** include le sezioni **Debito** e **Credito**. Impostare i seguenti campi, a seconda della contabilità generale in cui si desidera registrare gli addebiti:
 
-    - **Tipo** - Selezionare il tipo di conto in cui si sta registrando ( *Contabilità generale* , *Cliente* o *Articolo* ).
-    - **Registrazione** - Selezionare il tipo di registrazione da creare (come *Commissione broker* o *Liquidazione cliente* ).
+    - **Tipo** - Selezionare il tipo di conto in cui si sta registrando (*Contabilità generale*, *Cliente* o *Articolo*).
+    - **Registrazione** - Selezionare il tipo di registrazione da creare (come *Commissione broker* o *Liquidazione cliente*).
     - **Conto** - Selezionare il conto in cui registrare l'addebito.
 
 1. Nel riquadro azioni selezionare **Salva**.
@@ -112,21 +112,21 @@ Dopo aver impostato i codici di addebito, seguire questi passaggi per definire g
     - *Gruppo* – assegnare gli addebiti a un gruppo di addebiti vari.
     - *Tutto* – assegnare gli addebiti a tutti i clienti o i fornitori.
 
-1. Nel campo **Relazione cliente** o **Relazione fornitore** selezionare un fornitore o cliente specifico se si imposta il campo **Codice conto** su *Tabella*. Se si imposta il campo **Codice conto** su *Gruppo* , selezionare un gruppo di addebiti cliente o fornitore.
+1. Nel campo **Relazione cliente** o **Relazione fornitore** selezionare un fornitore o cliente specifico se si imposta il campo **Codice conto** su *Tabella*. Se si imposta il campo **Codice conto** su *Gruppo*, selezionare un gruppo di addebiti cliente o fornitore.
 1. Nel campo **Codice articolo** selezionare uno dei seguenti valori per specificare l'ambito degli articoli che saranno interessati. È possibile selezionare un codice articolo solo quando si definiscono gli addebiti automatici a livello di riga.
 
     - *Tabella* – assegnare gli addebiti a un articolo specifico.
     - *Gruppo* – assegnare gli addebiti a un gruppo di addebiti articoli.
     - *Tutti* – assegnare gli addebiti a tutti gli articoli.
 
-1. Nel campo **Relazione articolo** selezionare un articolo specifico se il campo **Codice articolo** è stato impostato su *Tabella*. Se il campo **Codice articolo** è stato impostato su *Gruppo* , selezionare un gruppo di addebiti articolo.
+1. Nel campo **Relazione articolo** selezionare un articolo specifico se il campo **Codice articolo** è stato impostato su *Tabella*. Se il campo **Codice articolo** è stato impostato su *Gruppo*, selezionare un gruppo di addebiti articolo.
 1. **Solo per ordini cliente:** nel campo **Codice modalità di consegna** selezionare uno dei seguenti valori per specificare l'ambito delle modalità di consegna interessate:
 
     - *Tabella* – assegnare gli addebiti a una modalità di consegna specifica.
     - *Gruppo* – assegnare gli addebiti a un gruppo di modalità di consegna.
     - *Tutti* – assegnare gli addebiti a tutte le modalità di consegna.
 
-1. **Solo per ordini cliente:** nel campo **Relazione tra modalità di consegna** selezionare una specifica modalità di consegna se il campo **Codice modalità di consegna** è stato impostato su *Tabella*. Se il campo **Codice modalità di consegna** è stato impostato su *Gruppo* , selezionare un gruppo di modalità di consegna.
+1. **Solo per ordini cliente:** nel campo **Relazione tra modalità di consegna** selezionare una specifica modalità di consegna se il campo **Codice modalità di consegna** è stato impostato su *Tabella*. Se il campo **Codice modalità di consegna** è stato impostato su *Gruppo*, selezionare un gruppo di modalità di consegna.
 1. Nella Scheda dettaglio **Righe** definire gli addebiti e le tariffe di addebito da utilizzare quando viene applicato l'addebito automatico. È possibile utilizzare la barra degli strumenti in questa scheda dettaglio per aggiungere tutte le righe necessarie. Per ciascuna riga, impostare i seguenti campi:
 
     - **Valuta** - Selezionare la valuta da utilizzare per calcolare l'addebito.
@@ -171,9 +171,9 @@ La procedura seguente mostra come allocare gli addebiti a livello di intestazion
     - **Alloca tutto** – Selezionare questa casella di controllo per allocare le spese alle righe ordine fornitore, anche se il tipo di addebito del codice spese è diverso da *Articolo*.
     - **Ricevuto** – Selezionare questa casella di controllo per allocare le spese solo alle righe ordine ricevuto.
     - **Stoccato** – Selezionare questa casella di controllo per allocare le spese solo alle righe ordine inventariate.
-    - **Mostra selezioni e cancella righe specifiche** - Selezionare questa casella di controllo per escludere righe specifiche da questa allocazione. Quando si seleziona questa casella di controllo, la griglia **Scegli le righe da escludere dall'allocazione** viene aperta. Questa griglia include solo le righe che soddisfano i criteri definiti nelle impostazioni **Assegna gli addebiti alle righe** e **Stoccato**. Ad esempio, se si imposta il campo **Assegna gli addebiti alle righe** su *Righe positive* e si seleziona la casella di controllo **Stoccato** , solo le righe che sono positive e inventariate vengono visualizzate nella griglia. Inoltre, la griglia filtra automaticamente tutte le righe per cui è già stata ricevuta l'intera quantità. Con la griglia aperta, deselezionare la casella di controllo **Includi** per ogni riga che deve essere esclusa dall'allocazione. 
+    - **Mostra selezioni e cancella righe specifiche** - Selezionare questa casella di controllo per escludere righe specifiche da questa allocazione. Quando si seleziona questa casella di controllo, la griglia **Scegli le righe da escludere dall'allocazione** viene aperta. Questa griglia include solo le righe che soddisfano i criteri definiti nelle impostazioni **Assegna gli addebiti alle righe** e **Stoccato**. Ad esempio, se si imposta il campo **Assegna gli addebiti alle righe** su *Righe positive* e si seleziona la casella di controllo **Stoccato**, solo le righe che sono positive e inventariate vengono visualizzate nella griglia. Inoltre, la griglia filtra automaticamente tutte le righe per cui è già stata ricevuta l'intera quantità. Con la griglia aperta, deselezionare la casella di controllo **Includi** per ogni riga che deve essere esclusa dall'allocazione. 
 
         > [!IMPORTANT]
-        > Quando si utilizza la griglia **Scegli le righe da escludere dall'allocazione** assicurarsi di lasciare la griglia aperta finché non si seleziona **Alloca**. Se si chiude la griglia prima di selezionare **Alloca** , le impostazioni nella griglia andranno perse. Pertanto, gli addebiti verranno allocati in base ai criteri definiti in precedenza.
+        > Quando si utilizza la griglia **Scegli le righe da escludere dall'allocazione** assicurarsi di lasciare la griglia aperta finché non si seleziona **Alloca**. Se si chiude la griglia prima di selezionare **Alloca**, le impostazioni nella griglia andranno perse. Pertanto, gli addebiti verranno allocati in base ai criteri definiti in precedenza.
 
 1. Selezionare **Alloca** per applicare le impostazioni e chiudere la finestra di dialogo.

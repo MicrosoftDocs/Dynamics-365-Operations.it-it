@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a896acb984f64860df54b61350c0e6d12e0dd678
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209147"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528925"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Dynamics 365 Field Service in Dynamics 365 Supply Chain Management.
 
@@ -185,12 +187,12 @@ Per supportare l'integrazione tra Field Service e Supply Chain Management, sono 
 
 ### <a name="work-order-entity"></a>Entità ordine di lavoro
 
-Il campo ***Solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro** e appare nella pagina. Viene utilizzato per controllare in modo coerente se un ordine di lavoro è costituito interamente da prodotti gestiti esternamente. Un ordine di lavoro include solo prodotti gestiti esternamente quando tutti i prodotti correlati vengono gestiti in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro che hanno prodotti sconosciuti.
+Il campo **Solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro** e appare nella pagina. Viene utilizzato per controllare in modo coerente se un ordine di lavoro è costituito interamente da prodotti gestiti esternamente. Un ordine di lavoro include solo prodotti gestiti esternamente quando tutti i prodotti correlati vengono gestiti in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro che hanno prodotti sconosciuti.
 
 ### <a name="work-order-product-entity"></a>Entità ordine di lavoro prodotto
 
 - Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro prodotto viene gestito in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro prodotto sconosciuti in Supply Chain Management.
-- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando i prodotti ordine di lavoro vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
+- Il campo **Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro prodotto** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando i prodotti ordine di lavoro vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
 - Il campo **Importo unitario fatturato** mostra l'importo che viene fatturato in base all'unità effettiva utilizzata. Questo valore viene calcolato come il valore di **Importo totale** diviso per il valore di **Quantità effettiva**. Il campo viene utilizzato per l'integrazione con sistemi che non supportano valori diversi per la quantità utilizzata e la quantità fatturata. Questo campo non appare nell'interfaccia utente (UI). 
 - Il campo **Importo sconto fatturato** viene calcolato come il valore di **Importo sconto** più l'arrotondamento del calcolo del valore di **Importo sconto fatturato**. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Quantità decimale** memorizza il valore del campo **Quantità** come numero decimale. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente. 
@@ -199,7 +201,7 @@ Il campo ***Solo prodotti gestiti esternamente** è stato aggiunto all'entità *
 ### <a name="work-order-service-entity"></a>Entità ordine di lavoro assistenza
 
 - Il campo **L'ordine ha solo prodotti gestiti esternamente** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente se l'ordine di lavoro assistenza viene gestito in Supply Chain Management. Questo campo impedisce agli utenti di sincronizzare ordini di lavoro assistenza sconosciuti in Supply Chain Management.
-- Il campo ***Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando gli ordini di lavoro assistenza vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
+- Il campo **Stato sistema intestazione** è stato aggiunto all'entità **Ordine di lavoro assistenza** e appare nella pagina. Viene utilizzato per controllare in modo coerente lo stato di sistema dell'ordine di lavoro e garantisce il corretto filtraggio quando gli ordini di lavoro assistenza vengono sincronizzati in Supply Chain Management. Quando si impostano filtri sulle attività di integrazione, le informazioni contenute in **Stato sistema intestazione** vengono utilizzate anche per determinare se i valori stimati o utilizzati devono essere sincronizzati.
 - Il campo **Durata in ore** memorizza il valore del campo **Durata** dopo che il valore è stato convertito da minuti in ore. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Durata stimata in ore** memorizza il valore del campo **Durata stimata** dopo che il valore è stato convertito da minuti in ore. Questo campo viene utilizzato per l'integrazione e non è presente nell'interfaccia utente.
 - Il campo **Importo unitario fatturato** memorizza l'importo che viene fatturato in base all'unità effettiva utilizzata. Questo valore viene calcolato come il valore di **Importo totale** diviso per il valore di **Quantità effettiva**. Questo campo viene utilizzato per l'integrazione con sistemi che non supportano valori diversi per la quantità utilizzata e la quantità fatturata. Il campo non appare nell'interfaccia utente.
@@ -236,7 +238,7 @@ Assicurarsi che **Chiave di integrazione** esiste per **msdyn_workorders**
 2. Selezionare la scheda **Insieme di connessioneµµµ**
 3. Selezionare l'insieme di connessione utilizzato per Sincronizzazione ordine di lavoroµµµ
 4. Selezionare la scheda **Chiave di integrazione**
-5. Trovare msdyn_workorders e verificare che la chiave **msdyn_name (Numero ordine di lavoro)** è stata aggiunta. Se non è visualizzata, aggiungerla facendo clic su **Aggiungi chiave**µµµ e su **Salva** nella parte superiore della pagina
+5. Trovare msdyn_workorders e verificare che la chiave **msdyn_name (Numero ordine di lavoro)** è stata aggiunta. Se non è visualizzata, aggiungerla facendo clic su **Aggiungi chiave** µµµ e su **Salva** nella parte superiore della pagina
 
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 

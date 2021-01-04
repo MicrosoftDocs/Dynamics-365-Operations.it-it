@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016864"
+ms.locfileid: "4431491"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidare le spedizioni quando vengono rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
 
@@ -56,7 +56,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-order-1-2"></a>Ordine cliente 1-2
@@ -68,7 +68,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-order-1-3"></a>Ordine cliente 1-3
@@ -80,12 +80,12 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 1. Aggiungi una seconda riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0002* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0002* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
     - **Modalità di consegna:** *Airwa-Air*
 
@@ -99,12 +99,12 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile* )
+    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile*)
     - **Quantità:** *1.00*
 
 1. Aggiungi una seconda riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo* )
+    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo*)
     - **Quantità:** *1.00*
     - **Modalità di consegna:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile* )
+    - **Numero articolo:** *M9200* (un articolo il cui filtro **Codice 4** è impostato su *Infiammabile*)
     - **Quantità:** *1.00*
 
 1. Aggiungi una seconda riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo* )
+    - **Numero articolo:** *M9201* (un articolo il cui filtro **Codice 4** è impostato su *Esplosivo*)
     - **Quantità:** *1.00*
     - **Modalità di consegna:** *Airwa-Air*
 
@@ -141,7 +141,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 ### <a name="create-order-set-5"></a>Crea un insieme di ordini 5
@@ -155,7 +155,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-order-5-3"></a>Ordine cliente 5-3
@@ -167,7 +167,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 ### <a name="create-order-set-6"></a>Crea un insieme di ordini 6
@@ -181,7 +181,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-orders-6-3-and-6-4"></a>Ordini cliente 6-3 e 6-4
@@ -193,7 +193,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-orders-6-5-and-6-6"></a>Ordini cliente 6-5 e 6-6
@@ -207,7 +207,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 #### <a name="sales-orders-6-7-and-6-8"></a>Ordini cliente 6-7 e 6-8
@@ -221,7 +221,7 @@ Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini cliente** e crea una 
 
 1. Aggiungi una riga ordine con le seguenti impostazioni:
 
-    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4** )
+    - **Numero articolo:** *A0001* (un articolo a cui non è stato assegnato il filtro **Codice 4**)
     - **Quantità:** *1.00*
 
 ## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a>Rilascio automatico di ordini cliente nel magazzino
@@ -236,7 +236,7 @@ Per ciascuna serie di ordini di vendita creata in precedenza, verranno completat
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Imposta il campo **Tipo di modello ondata** su *Spedizione*.
-1. Trova e seleziona il modello ondata associato al magazzino utilizzato nei insieme di ordini creati per questo scenario. Ad esempio, se hai utilizzato il magazzino *24* , seleziona il modello ondata **Spedizione predefinita 24**. Se hai utilizzato il magazzino *61* , seleziona il modello ondata **Spedizione 61**.
+1. Trova e seleziona il modello ondata associato al magazzino utilizzato nei insieme di ordini creati per questo scenario. Ad esempio, se hai utilizzato il magazzino *24*, seleziona il modello ondata **Spedizione predefinita 24**. Se hai utilizzato il magazzino *61*, seleziona il modello ondata **Spedizione 61**.
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Impostare l'opzione **Elabora ondata al rilascio in magazzino** su *No*.
 
@@ -244,8 +244,8 @@ Per ciascuna serie di ordini di vendita creata in precedenza, verranno completat
 
 1. Vai a **Gestione del magazzino \> Rilascio in magazzino \> Rilascio automatico degli ordini cliente**.
 1. Imposta il campo **Quantità da rilasciare** su *Tutto*.
-1. Nella Scheda dettaglio **Record da includere** , seleziona **Filtro** per aprire la finestra di dialogo dell'editor di query.
-1. Nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
+1. Nella Scheda dettaglio **Record da includere**, seleziona **Filtro** per aprire la finestra di dialogo dell'editor di query.
+1. Nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
 
     - **Tabella:** *Ordine cliente*
     - **Tabella derivata:** *Ordine cliente*
@@ -268,7 +268,7 @@ Segui la [procedura base di rilascio al magazzino](#release-procedure) per rilas
 Al termine, dovresti vedere che sono state create due spedizioni:
 
 - La prima spedizione contiene tre righe ed è stata creata utilizzando il criterio di consolidamento della spedizione *CustomerMode*.
-- La seconda spedizione, che non utilizza la modalità di trasporto della consegna *Airways* , è stata creata utilizzando i criteri di consolidamento della spedizione *CustomerOrderNo*.
+- La seconda spedizione, che non utilizza la modalità di trasporto della consegna *Airways*, è stata creata utilizzando i criteri di consolidamento della spedizione *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Rilascia gli ordini cliente dall'insieme di ordini 2
 
@@ -292,7 +292,7 @@ Al termine, dovresti vedere che si sono verificate le seguenti azioni:
 
 Segui la [procedura base di rilascio al magazzino](#release-procedure) per rilasciare gli ordini cliente dall'insieme di ordini 4.
 
-Al termine, dovresti vedere quella spedizione esistente (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1* ) è stato aggiornato. È stata aggiunta una nuova riga.
+Al termine, dovresti vedere quella spedizione esistente (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1*) è stato aggiornato. È stata aggiunta una nuova riga.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Rilascia gli ordini cliente dall'insieme di ordini 5
 
@@ -300,7 +300,7 @@ Segui la [procedura base di rilascio al magazzino](#release-procedure) per rilas
 
 Al termine, dovresti vedere che si sono verificate le seguenti azioni:
 
-- Una spedizione esistente (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1* ) è stata aggiornata. Una riga dall'ordine cliente 5-3 (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1* ) è stata aggiunta ad esso.
+- Una spedizione esistente (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1*) è stata aggiornata. Una riga dall'ordine cliente 5-3 (dove il campo **Richiesta di approvvigionamento cliente** è impostato su *1*) è stata aggiunta ad esso.
 - È stata creata una nuova spedizione, in cui le righe degli ordini cliente 5-1 e 5-2 sono raggruppate in un'unica spedizione.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Rilascia gli ordini cliente dall'insieme di ordini 6

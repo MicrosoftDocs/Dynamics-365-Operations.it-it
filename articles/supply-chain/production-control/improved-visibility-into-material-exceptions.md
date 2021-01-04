@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016587"
+ms.locfileid: "4431495"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilità nelle eccezioni materiali
 
@@ -34,7 +34,7 @@ Nell'area di lavoro **Gestione area di produzione** tre riquadri consentono una 
 - Ondate inevase che richiedono attenzione
 - Lavoro magazzino aperto che richiede attenzione
 
-Per tutte e tre i riquadri, la data di materie prime delle righe distinta base (BOM) e le righe formula viene comparata con la data dell'area di lavoro nonché i filtri per **Unità di produzione** , **Gruppo di risorse** e **Risorsa** che sono impostati nel menu **Configura area di lavoro personale**. Per impostazione predefinita, la data dell'area di lavoro è impostata sulla data corrente, ma è possibile modificarla.
+Per tutte e tre i riquadri, la data di materie prime delle righe distinta base (BOM) e le righe formula viene comparata con la data dell'area di lavoro nonché i filtri per **Unità di produzione**, **Gruppo di risorse** e **Risorsa** che sono impostati nel menu **Configura area di lavoro personale**. Per impostazione predefinita, la data dell'area di lavoro è impostata sulla data corrente, ma è possibile modificarla.
 
 Una riga DBA o una riga formula non rilasciate richiedono attenzione se la data della materia prima della riga è uguale o precedente alla data dell'area di lavoro e se soddisfa i criteri definiti dai filtri nell'area di lavoro.
 

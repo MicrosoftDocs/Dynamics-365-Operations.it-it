@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018769"
+ms.locfileid: "4431583"
 ---
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
@@ -33,7 +33,7 @@ In questo articolo vengono fornite informazioni generali sugli ordini fornitore 
 
 Un ordine fornitore (PO) è un documento che rappresenta un contratto con un fornitore per acquistare beni o servizi. Il documento consente inoltre di tenere traccia delle entrate di prodotti che vengono effettuate rispetto all'ordine e, successivamente, la contabilità delle fatture che il fornitore emette rispetto all'ordine.  
 
-La pagina **Ordini fornitore** contiene una panoramica degli ordini disponibili e consente di modificare gli ordini. Quando si apre un PO, è possibile selezionare la visualizzazione **Intestazione** , che contiene informazioni specificate solo una volta per ogni ordine fornitore, esempio i dettagli del fornitore. In alternativa, è possibile selezionare la visualizzazione **Righe** , in cui è possibile modificare le righe dell'ordine. In genere, si alterneranno queste due visualizzazioni mentre si modificano gli ordini fornitore. Le spese non vengono elencate direttamente nella pagina **Ordini fornitore** , ma sono accessibili tramite i menu nell'intestazione e nelle righe ordine.  
+La pagina **Ordini fornitore** contiene una panoramica degli ordini disponibili e consente di modificare gli ordini. Quando si apre un PO, è possibile selezionare la visualizzazione **Intestazione**, che contiene informazioni specificate solo una volta per ogni ordine fornitore, esempio i dettagli del fornitore. In alternativa, è possibile selezionare la visualizzazione **Righe**, in cui è possibile modificare le righe dell'ordine. In genere, si alterneranno queste due visualizzazioni mentre si modificano gli ordini fornitore. Le spese non vengono elencate direttamente nella pagina **Ordini fornitore**, ma sono accessibili tramite i menu nell'intestazione e nelle righe ordine.  
 
 Sono disponibili numerosi report in cui è possibile visualizzare informazioni su PO, entrate prodotti e fatture fornitore. Questi report si trovano nei moduli **Approvvigionamento** e **Contabilità fornitori**.  
 
@@ -73,7 +73,7 @@ Il campo **Stato documento** consente di esaminare rapidamente lo stato di avanz
 
 IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore passa attraverso un processo di revisione o un flusso di lavoro. Sono disponibili i valori seguenti:
 
--   **Bozza** , **In revisione** , e **Respinto** – questi stati vengono utilizzati solo quando un flusso di lavoro di approvazione viene utilizzato per il PO.
+-   **Bozza**, **In revisione**, e **Respinto** – questi stati vengono utilizzati solo quando un flusso di lavoro di approvazione viene utilizzato per il PO.
 -   **Approvato** – questo stato viene assegnato agli ordini che hanno completato l'approvazione del flusso di lavoro. Gli ordini creati senza utilizzare un flusso di lavoro di approvazione ricevono immediatamente lo stato **Approvato**.
 -   **IN revisione esterna** – questo stato viene utilizzato in scenari in cui viene inviata una richiesta di informazioni sull'acquisto al fornitore, in modo che il fornitore possa confermare i termini dell'ordine fornitore. Questo stato viene inoltre utilizzato nel processo che viene avviato per l'azione **Richiesta di conferma**. Per questo processo, il fornitore viene richiesto di confermare i termini dell'ordine fornitore mediante il collegamento al sistema e registrando se conferma o rifiuta l'ordine.
 -   **Confermato** – questo stato viene assegnato dopo l'ordine è stato confermato. In genere, questo stato è l'ultimo stato di approvazione che viene assegnato a un ordine.

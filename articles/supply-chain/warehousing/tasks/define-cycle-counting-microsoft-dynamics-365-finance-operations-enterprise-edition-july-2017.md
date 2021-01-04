@@ -17,11 +17,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016150"
+ms.locfileid: "4431507"
 ---
 # <a name="define-cycle-counting"></a>Definire il conteggio ciclo  
 
@@ -38,7 +38,7 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 5. Chiudere la pagina.
 
 ## <a name="enable-the-mobile-device"></a>Abilitare il dispositivo mobile
-1. Nel **pannello di navigazione** , andare a **Moduli > Gestione magazzino > Impostazione > Dispositivo mobile > Voci di menu del dispositivo mobile**.
+1. Nel **pannello di navigazione**, andare a **Moduli > Gestione magazzino > Impostazione > Dispositivo mobile > Voci di menu del dispositivo mobile**.
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **Nome voce di menu**.
 4. Digitare un valore nel campo **Titolo**.
@@ -52,7 +52,7 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 12. Nel campo **ID classe lavoro** selezionare un valore.
 13. Nel **Riquadro azioni** fai clic su **Salva**.
 14. Chiudere la pagina.
-15. Nel **pannello di navigazione** , andare a **Moduli > Gestione magazzino > Impostazione > Dispositivo mobile > Voci di menu del dispositivo mobile**.
+15. Nel **pannello di navigazione**, andare a **Moduli > Gestione magazzino > Impostazione > Dispositivo mobile > Voci di menu del dispositivo mobile**.
 16. Nell'elenco trovare e selezionare il record desiderato.
 17. Nella struttura selezionare la voce di menu appena creata.
 18. Fare clic su **Modifica**.

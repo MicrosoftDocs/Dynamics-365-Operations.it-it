@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209124"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528901"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Panoramica dell'integrazione con Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Supply Chain Management consente la sincronizzazione dei processi aziendali tra Dynamics 365 Supply Chain Management e Dynamics 365 Field Service. Gli scenari di integrazione vengono configurati utilizzando modelli di integrazione dati estendibili e Common Data Service per abilitare la sincronizzazione dei processi aziendali.
 È possibile utilizzare modelli standard per creare progetti di integrazione personalizzati in cui mappare campi ed entità personalizzati e standard aggiuntivi per ottimizzare l'integrazione e soddisfare esigenze aziendali specifiche. 

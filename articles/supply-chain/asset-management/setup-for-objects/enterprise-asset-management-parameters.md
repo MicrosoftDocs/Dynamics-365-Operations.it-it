@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889843"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431255"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -34,7 +34,7 @@ In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lav
 > [!NOTE]
 > Per configurare un sistema che includa dati dimostrativi per il test delle funzionalità di Gestione risorse, consultare [Distribuire un ambiente demo](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) per le istruzioni.
 
-collegamento**Cespiti**
+collegamento **Cespiti**
 
 - **Unità funzionale predefinita** rappresenta l'unità funzionale standard, che viene selezionata automaticamente per i cespiti quando si creano nuovi cespiti.  
 - Nel campo **Calendario standard**, selezionare un calendario da utilizzare per calcolare i KPI del cespite, se nessuna risorsa è selezionata per un cespite.  
@@ -48,7 +48,7 @@ collegamento**Cespiti**
 - Nel campo **Modello**, selezionare il modello previsionale utilizzato nelle previsioni di tipo di processo e ordine di lavoro.  
 
 
-collegamento**Ordini di lavoro**
+collegamento **Ordini di lavoro**
 
 - **Tipo di ordine di lavoro predefinito** definisce le impostazioni standard quando si crea un ordine di lavoro.  
 - **Tipo di ordine di lavoro preventivo** definisce il tipo di ordine di lavoro utilizzato per la creazione degli ordini di lavoro per i piani di manutenzione. Se questo campo viene lasciato vuoto, il tipo di ordine di lavoro nel campo **Tipo di ordine di lavoro predefinito** viene utilizzato.  
@@ -68,7 +68,7 @@ collegamento**Ordini di lavoro**
 - Nella Scheda dettaglio **Categoria**, le categorie predefinite correlate al consumo per gli ordini di lavoro possono essere definite.  
 
 
-collegamento**Programmazione ordine di lavoro**
+collegamento **Programmazione ordine di lavoro**
 
 - **Intervallo temporale programmazione** definisce il periodo in giorni, calcolato a partire dalla data di inizio prevista dell'ordine di lavoro, durante il quale i processi dell'ordine di lavoro sono pianificati.  
 - Il **Piano generale** Riguarda le risorse del modulo **Amministrazione organizzazione**. Se si seleziona un piano generale in questo campo, sarà possibile visualizzare le prenotazioni di capacità correlate agli ordini di lavoro in **Prenotazioni capacità** (**Amministrazione organizzazione** > **Risorse** > **Risorse** > selezionare risorsa > scheda **Risorsa** > pulsante **Prenotazioni capacità** ). Se si lascia questo campo vuoto, sarà possibile visualizzare il carico di capacità correlato agli ordini di lavoro in **Carico di capacità** (**Amministrazione organizzazione** \> **Risorse** \> **Risorse** \> selezionare risorsa \> scheda **Risorsa** \> pulsante **Prenotazioni capacità**).  

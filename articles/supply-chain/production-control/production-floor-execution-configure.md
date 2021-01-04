@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cf58a7d851577854d08bad70cff69794c3841a2d
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
+ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012486"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664298"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -36,29 +36,34 @@ Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automa
 
 Questo argomento descrive le varie opzioni per la configurazione dei dispositivi scheda processo.
 
-## <a name="turn-on-new-features-in-feature-management"></a>Attivare nuove funzionalità nella gestione delle funzionalità
+## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Attivare l'interfaccia di esecuzione dell'area di produzione e le relative funzionalità opzionali
 
-Alcune delle impostazioni descritte in questo argomento devono essere attivate nel sistema affinché siano disponibili. Utilizzare la pagina [Gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le seguenti funzionalità come richiesto.
+L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle impostazioni opzionali descritte in questo argomento, devono essere attivate nel sistema prima di poterle utilizzare. Utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le funzionalità descritte nelle sottosezioni seguenti secondo le necessità.
 
-### <a name="generate-license-plate"></a>Genera targa
+### <a name="the-production-floor-execution-interface"></a>Interfaccia di esecuzione dell'area di produzione
 
-Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
+Questa è la funzionalità principale descritta in questo argomento. Aggiunge l'interfaccia di esecuzione dell'area di produzione al sistema. Per abilitarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+- Esecuzione dell'area di produzione
+
+### <a name="generate-license-plates"></a>Generare le targhe
+
+Queste funzioni rendono la funzionalità targa disponibile all'interfaccia di esecuzione dell'area di produzione. Per usarle, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
 1. Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo
 1. Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo
 
-### <a name="print-label"></a>Stampa etichetta
+### <a name="print-labels"></a>Stampa etichette
 
-Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
+Queste funzioni rendono la funzionalità stampa dell'etichetta disponibile all'interfaccia di esecuzione dell'area di produzione. Per usarle, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
 1. Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo
 1. Stampa etichetta dal dispositivo scheda processo
 
 ### <a name="allow-locking-the-touch-screen"></a>Consenti blocco del touchscreen
 
-Per rendere disponibile questa funzionalità, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Questa funzione aggiunge un pulsante all'interfaccia di esecuzione dell'area di produzione che consente ai lavoratori di sanificare il touch screen. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- (Anteprima) Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
+- Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 
@@ -69,14 +74,15 @@ Per creare e gestire le configurazioni del dispositivo, andare a **Controllo pro
 
 Successivamente, configurare le varie impostazioni per la configurazione del dispositivo selezionato. Sono disponibili i campi seguenti:
 
-- **Segnala quantità all'uscita** - Impostare questa opzione su *Sì* per richiedere ai lavoratori di fornire il loro feedback sui lavori in corso quando timbrano il cartellino. Se impostato su *No* , ai lavoratori non verrà richiesto di eseguire questa operazione.
-- **Blocca dipendente** - Quando questa opzione è impostata su *No* , i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). Il dispositivo tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì* , i lavoratori rimarranno connessi al dispositivo con la scheda lavoro. Tuttavia, un lavoratore può disconnettersi manualmente in modo che un altro lavoratore possa accedere mentre il dispositivo con la scheda lavoro continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
-- **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No* , viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.
-- **Singolo Lavoratore** - Impostare questa opzione su *Sì* se un solo lavoratore utilizza ciascun dispositivo scheda lavoro in cui è attiva questa configurazione. Quando questa opzione è impostata su *Sì* , l'opzione **Blocca dipendente** viene automaticamente impostata su *Sì*. Inoltre, questa impostazione rimuove la necessità (e la possibilità) per il lavoratore di accedere utilizzando un ID badge (o altro ID simile). Al contrario, il lavoratore accede a Microsoft Dynamics 365 Supply Chain Management utilizzando un account utente di sistema collegato a un *lavoratore registrato nel tempo* (nella tabella *lavoratori* ) e si connette al dispositivo con la scheda lavoro come quel lavoratore nello stesso tempo.
-- **Consenti blocco del touchscreen** - Impostare questa opzione su *Sì* per consentire ai lavoratori di bloccare il touchscreen del dispositivo con la scheda lavoro di modo che possano pulirlo. Quando questa opzione è impostata su *Sì* , il pulsante **Blocca schermo per pulizia** viene aggiunto alla pagina di accesso del dispositivo. Quando un lavoratore seleziona questo pulsante, il touchscreen viene bloccato temporaneamente per impedire un'immissione involontaria. Viene visualizzato anche un timer per il conto alla rovescia. L'operatore può pulire in sicurezza il dispositivo e lo schermo. Al termine del conto alla rovescia, il touchscreen si sblocca automaticamente.
-- **Durata blocco schermo** - Quando l'opzione **Consenti blocco del touchscreen** è impostata su *Sì* , utilizzare questa opzione per specificare il numero di secondi in cui il touchscreen deve essere bloccato per la pulizia. La durata deve essere un numero tra 5 e 120 secondi.
-- **Genera targa** - Impostare questa opzione su *Sì* per generare una nuova targa ogni volta che un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando l'opzione è impostata su *No* , i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.
+- **Segnala quantità all'uscita** - Impostare questa opzione su *Sì* per richiedere ai lavoratori di fornire il loro feedback sui lavori in corso quando timbrano il cartellino. Se impostato su *No*, ai lavoratori non verrà richiesto di eseguire questa operazione.
+- **Blocca dipendente** - Quando questa opzione è impostata su *No*, i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). Il dispositivo tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì*, i lavoratori rimarranno connessi al dispositivo con la scheda lavoro. Tuttavia, un lavoratore può disconnettersi manualmente in modo che un altro lavoratore possa accedere mentre il dispositivo con la scheda lavoro continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
+- **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No*, viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.
+- **Singolo Lavoratore** - Impostare questa opzione su *Sì* se un solo lavoratore utilizza ciascun dispositivo scheda lavoro in cui è attiva questa configurazione. Quando questa opzione è impostata su *Sì*, l'opzione **Blocca dipendente** viene automaticamente impostata su *Sì*. Inoltre, questa impostazione rimuove la necessità (e la possibilità) per il lavoratore di accedere utilizzando un ID badge (o altro ID simile). Al contrario, il lavoratore accede a Microsoft Dynamics 365 Supply Chain Management utilizzando un account utente di sistema collegato a un *lavoratore registrato nel tempo* (nella tabella *lavoratori*) e si connette al dispositivo con la scheda lavoro come quel lavoratore nello stesso tempo.
+- **Consenti blocco del touchscreen** - Impostare questa opzione su *Sì* per consentire ai lavoratori di bloccare il touchscreen del dispositivo con la scheda lavoro di modo che possano pulirlo. Quando questa opzione è impostata su *Sì*, il pulsante **Blocca schermo per pulizia** viene aggiunto alla pagina di accesso del dispositivo. Quando un lavoratore seleziona questo pulsante, il touchscreen viene bloccato temporaneamente per impedire un'immissione involontaria. Viene visualizzato anche un timer per il conto alla rovescia. L'operatore può pulire in sicurezza il dispositivo e lo schermo. Al termine del conto alla rovescia, il touchscreen si sblocca automaticamente.
+- **Durata blocco schermo** - Quando l'opzione **Consenti blocco del touchscreen** è impostata su *Sì*, utilizzare questa opzione per specificare il numero di secondi in cui il touchscreen deve essere bloccato per la pulizia. La durata deve essere un numero tra 5 e 120 secondi.
+- **Genera targa** - Impostare questa opzione su *Sì* per generare una nuova targa ogni volta che un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando l'opzione è impostata su *No*, i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.
 - **Stampa etichetta** - Impostare questa opzione su *Sì* per stampare l'etichetta di una targa quando un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
+- **Selezione delle schede** - Utilizzare le impostazioni in questa sezione per scegliere quali schede devono essere visualizzate dall'interfaccia di esecuzione dell'area di produzione quando la configurazione corrente è attiva. È possibile progettare tutte le schede necessarie, quindi aggiungerle e disporle qui come richiesto. Per dettagli su come progettare le schede e lavorare con le impostazioni qui, vedere [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Pulire le configurazioni dei processi
 

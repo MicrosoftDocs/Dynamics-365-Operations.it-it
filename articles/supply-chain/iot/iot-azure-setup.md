@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014914"
+ms.locfileid: "4431462"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurazione delle risorse Azure per Intelligence IoT
 
@@ -41,7 +41,7 @@ Per verificare che l'ID dell'app per l'app del produttore dell'ERP Microsoft Dyn
 1. Accedere al portale Azure all'indirizzo <https://portal.azure.com>.
 2. Accedere a **Azure Active Directory**.
 3. Vai ad **Applicazioni aziendali**.
-4. Nel campo **Tipo di applicazione** , seleziona **Applicazioni Microsoft**.
+4. Nel campo **Tipo di applicazione**, seleziona **Applicazioni Microsoft**.
 5. Nel campo di ricerca, immetti **Microsoft Dynamics ERP Microservices**.
 6. Verifica che **Microsoft Dynamics ERP Microservices** sia nell'elenco. Altre applicazioni hanno nomi simili. È pertanto importante accertarsi di trovare l'applicazione corretta. L'ID app è **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
@@ -61,8 +61,8 @@ Per creare una risorsa insieme di credenziali chiave, completa i passaggi seguen
 
 1. Nel portale di Azure, creare o andare a un gruppo di risorse.
 2. Selezionare **Aggiungi**.
-3. Nella pagina **Nuovo** , nel campo di ricerca, inserisci **Insieme di credenziali chiave**. Selezionare **Crea**.
-4. Nella pagina **Crea insieme di credenziali chiave** , nel campo **Nome insieme di credenziali chiave** , inserisci un nome.
+3. Nella pagina **Nuovo**, nel campo di ricerca, inserisci **Insieme di credenziali chiave**. Selezionare **Crea**.
+4. Nella pagina **Crea insieme di credenziali chiave**, nel campo **Nome insieme di credenziali chiave**, inserisci un nome.
 5. Rivedi i valori predefiniti, quindi seleziona **Rivedi + crea**.
 6. Selezionare **Crea**.
 
@@ -74,7 +74,7 @@ Per creare una risorsa dell'hub IoT, completa i passaggi seguenti:
 
 1. Crea o vai a un gruppo di risorse.
 2. Selezionare **Aggiungi**.
-3. Nella pagina **Nuovo** , nel campo di ricerca, inserisci **Hub IoT**. Selezionare **Crea**.
+3. Nella pagina **Nuovo**, nel campo di ricerca, inserisci **Hub IoT**. Selezionare **Crea**.
 4. Nel campo **Nome hub IoT** immetti un nome.
 5. Rivedi i valori predefiniti, quindi seleziona **Rivedi + crea**.
 6. Selezionare **Crea**.
@@ -90,7 +90,7 @@ Per creare una risorsa cache Redis, completa i passaggi seguenti:
 
 1. Crea o vai a un gruppo di risorse.
 2. Selezionare **Aggiungi**.
-3. Nella pagina **Nuovo** , nel campo di ricerca, inserisci **Cache di Azure per Redis**. Selezionare **Crea**.
+3. Nella pagina **Nuovo**, nel campo di ricerca, inserisci **Cache di Azure per Redis**. Selezionare **Crea**.
 4. Nel campo **Nome DNS** immetti un nome.
 5. Rivedi i valori predefiniti, quindi seleziona **Crea**.
 
@@ -109,7 +109,7 @@ Per configurare l'hub IoT, attieniti a questa procedura.
 
 1. Nelle risorse, seleziona la risorsa dell'hub IoT.
 2. Nel riquadro di navigazione sinistro, seleziona **Endpoint predefiniti**.
-3. In **Gruppi di consumer** , incolla i seguenti gruppi di consumatori. Questi gruppi di consumatori corrispondono agli scenari predefiniti.
+3. In **Gruppi di consumer**, incolla i seguenti gruppi di consumatori. Questi gruppi di consumatori corrispondono agli scenari predefiniti.
 
     + microsoft.dynamics.iotintelligence-1
     + microsoft.dynamics.iotintelligence-2
@@ -122,9 +122,9 @@ Per configurare l'insieme di credenziali chiave, segui questa procedura.
 1. Nelle risorse, seleziona la risorsa dell'insieme di credenziali chiave.
 2. Nel riquadro di spostamento sinistro, seleziona **Criteri di accesso**.
 3. Seleziona **Aggiungi un nuovo criterio di accesso**.
-4. Nella pagina **Aggiungi un criterio di accesso** , nel campo **Autorizzazioni segrete** , seleziona **Ottieni** ed **Elenco**.
+4. Nella pagina **Aggiungi un criterio di accesso**, nel campo **Autorizzazioni segrete**, seleziona **Ottieni** ed **Elenco**.
 5. Fai clic su **Seleziona un'entità**.
-6. Nella finestra di dialogo **Entità di protezione** , cerca e seleziona **Microsoft Dynamics ERP Microservices**. Quindi seleziona **Seleziona**.
+6. Nella finestra di dialogo **Entità di protezione**, cerca e seleziona **Microsoft Dynamics ERP Microservices**. Quindi seleziona **Seleziona**.
 7. Selezionare **Aggiungi**.
 8. Selezionare **Salva**.
 
@@ -141,7 +141,7 @@ Per salvare il segreto per la stringa di connessione dell'hub IoT, attieniti all
 5. Nel pannello di navigazione a sinistra, selezionare **Segreti**.
 6. Seleziona **Genera/Importa**.
 7. Nel campo **Nome** immettere un nome.
-8. Nel campo **Valore** , incolla il valore dell'endpoint che hai copiato in precedenza.
+8. Nel campo **Valore**, incolla il valore dell'endpoint che hai copiato in precedenza.
 9. Selezionare **Crea**.
 
 ### <a name="save-the-redis-cache-connection-string-secret"></a>Salva il segreto della stringa di connessione della cache Redis
@@ -155,7 +155,7 @@ Per salvare il segreto per la stringa di connessione della cache Redis, attienit
 5. Nel pannello di navigazione a sinistra, selezionare **Segreti**.
 6. Seleziona **Genera/Importa**.
 7. Nel campo **Nome** immettere un nome.
-8. Nel campo **Valore** , incolla la stringa di connessione che hai copiato in precedenza.
+8. Nel campo **Valore**, incolla la stringa di connessione che hai copiato in precedenza.
 9. Selezionare **Crea**.
 
 > [!NOTE]

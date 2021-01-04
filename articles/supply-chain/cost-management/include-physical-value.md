@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201734"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431127"
 ---
 # <a name="include-physical-value"></a>Includi valore fisico
 
@@ -45,7 +45,7 @@ La casella di controllo ha effetti leggermente diversi a seconda del modello inv
 -   Se non si seleziona la casella di controllo **Includi valore fisico** con questi modelli inventariali, con la chiusura dell'inventario verranno eseguite compensazioni solo per le transazioni aggiornate finanziariamente.
 -   Se si utilizzano i modelli inventariali media ponderata o data media ponderata, la chiusura inventario determinerà la compensazione solo delle transazioni aggiornate finanziariamente, indipendentemente dalla selezione della casella di controllo **Includi valore fisico**.
 
-**Esempio 1** È stata selezionata la casella di controllo**Includi valore fisico** e sono stati ricevuti i seguenti ordini fornitore:
+**Esempio 1** È stata selezionata la casella di controllo **Includi valore fisico** e sono stati ricevuti i seguenti ordini fornitore:
 
 -   È stato fatturato un ordine acquisto per una quantità 2 a un prezzo di costo di 10,00 EUR aggiornato nel documento di trasporto.
 -   Un ordine acquisto per una quantità 3 a un prezzo di costo di 12,00 EUR aggiornato nella fattura.

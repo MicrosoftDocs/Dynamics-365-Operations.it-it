@@ -4,7 +4,7 @@ description: Questo argomento descrive la stampa di etichette ondata e spiega co
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016957"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4431589"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Configurare e utilizzare la stampa di etichette ondata
 
@@ -56,7 +56,7 @@ Questi miglioramenti rendono più efficiente l'etichettatura dei cartoni prima d
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Attivare la funzionalità di stampa di etichette ondata
 
-Per poter utilizzare la funzionalità *Stampa di etichette ondata* , è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Per poter utilizzare la funzionalità *Stampa di etichette ondata*, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Stampa di etichette ondata*
@@ -84,8 +84,8 @@ I modelli di ondata consentono di collegare istanze specifiche dei metodi di ond
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Selezionare un modello, ad esempio **62 Spedizione predefinita**.
-1. Nella Scheda dettaglio **Metodi** , spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
-1. Nella colonna **Metodi selezionati** , seleziona il metodo **Stampa di etichette ondata** e impostare il relativo campo **Codice passaggio ondata** su *PrintLabel*. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
+1. Nella Scheda dettaglio **Metodi**, spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
+1. Nella colonna **Metodi selezionati**, seleziona il metodo **Stampa di etichette ondata** e impostare il relativo campo **Codice passaggio ondata** su *PrintLabel*. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Creare un layout di etichetta ondata
 
@@ -123,7 +123,7 @@ Il layout di etichetta controlla quali informazioni sono stampate sull'etichetta
 
 1. Chiudere la pagina.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -132,9 +132,9 @@ Il layout di etichetta controlla quali informazioni sono stampate sull'etichetta
 
     Questa query garantisce che sull'etichetta vengano stampate solo le righe di lavoro di tipo prelievo, non le righe di lavoro di tipo stoccaggio.
 
-1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join** , selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
+1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join**, selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
 1. Chiudere la finestra di dialogo dell'editor di query.
-1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione** , **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione** , nel campo **Intestazione etichetta** , immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
+1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione**, **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione**, nel campo **Intestazione etichetta**, immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ Il layout di etichetta controlla quali informazioni sono stampate sull'etichetta
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Corpo etichetta** , immettere il codice ZPL per il corpo necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Corpo etichetta**, immettere il codice ZPL per il corpo necessario. Ecco un esempio.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ Il layout di etichetta controlla quali informazioni sono stampate sull'etichetta
     </Row>
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Piè di pagina etichetta** , immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Piè di pagina etichetta**, immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
 
     ```plaintext
     ^PQ1^XZ
@@ -220,7 +220,7 @@ Quindi, impostare il gruppo di sequenze di unità per il tipo di etichetta ondat
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Magazzino \> Gruppi di sequenze unità**.
 1. Selezionare il gruppo **unità scatola pallet**.
-1. Per la riga **Scatola** , impostare il campo **Tipo di livello ondata** su *Scatola*.
+1. Per la riga **Scatola**, impostare il campo **Tipo di livello ondata** su *Scatola*.
 
 ### <a name="create-a-wave-label-template"></a>Creare un modello di etichetta ondata
 
@@ -234,15 +234,15 @@ Ora si creerà il modello di etichetta ondata per il tipo di etichetta ondata.
     - **Codice passaggio ondata:** *PrintLabel*
     - **Magazzino:** *62*
 
-1. Nella Scheda dettaglio **Generale** , impostare il campo **Tipo di etichetta ondata** su *Cartone*.
-1. Nella Scheda dettaglio **Dettagli modello di etichette ondata** , aggiungere una nuova riga con le seguenti impostazioni:
+1. Nella Scheda dettaglio **Generale**, impostare il campo **Tipo di etichetta ondata** su *Cartone*.
+1. Nella Scheda dettaglio **Dettagli modello di etichette ondata**, aggiungere una nuova riga con le seguenti impostazioni:
 
     - **ID layout etichetta:** *Cartone*
     - **Nome stampante:** selezionare una stampante ZPL appropriata.
     - **Esegui query:** *Sì* (questa impostazione è facoltativa, ma è consigliata per prestazioni ottimali).
 
 1. Nel riquadro azioni selezionare **Salva**.
-1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata** , selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata**, selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Spedizioni*
     - **Tabella derivata:** *Spedizioni*
@@ -252,7 +252,7 @@ Ora si creerà il modello di etichetta ondata per il tipo di etichetta ondata.
     Al termine, selezionare **OK** per chiudere la finestra di dialogo dell'editor di query.
 
 1. Nel riquadro azioni, selezionare **Modifica query** per aprire la finestra di dialogo dell'editor di query per l'intero modello di etichetta.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -262,7 +262,7 @@ Ora si creerà il modello di etichetta ondata per il tipo di etichetta ondata.
 1. Selezionare **OK** per chiudere la finestra di dialogo dell'editor di query.
 1. Viene visualizzato un messaggio che richiede di confermare l'operazione di ripristino del raggruppamento. Selezionare **Sì** per continuare.
 1. Nel riquadro azioni selezionare **Gruppo di modelli di etichette ondata**.
-1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata** , selezionare la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento* , quindi selezionare la casella di controllo **ID build etichetta** per questa riga.
+1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata**, selezionare la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento*, quindi selezionare la casella di controllo **ID build etichetta** per questa riga.
 
     > [!NOTE]
     > Questa configurazione creerà una sequenza di etichette ("Cartone 1 di X") per riga di carico in tutta l'ondata, indipendentemente dall'impostazione del raggruppamento di lavoro. Questa sequenza di etichette può essere stampata sul layout di etichetta.
@@ -296,10 +296,10 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
     > [!NOTE]
     > Gli articoli e le quantità forniti qui sono solo esempi. Devono utilizzare il gruppo di sequenze di unità definito in precedenza, conversioni di unità appropriate da *unità* a *scatola* a *pallet* devono essere definite per gli stessi e devono avere stock nel magazzino *62*. Per ulteriori informazioni, vedere [Unità di misura e politiche di stoccaggio](unit-measure-stocking-policies.md).
 
-1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente** , nel menu **Scorte** , selezionare **Prenotazioni**.
+1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente**, nel menu **Scorte**, selezionare **Prenotazioni**.
 1. Nella pagina **Prenotazione** del riquadro azioni, selezionare **Prenota lotto** e chiudere la pagina.
 1. Ripetere i passaggi 4 e 5 per la riga ordine cliente 2.
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
 
     Si verificano gli eventi seguenti:
 
@@ -307,7 +307,7 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
     - Le etichette ondata vengono generate e stampate. Il numero di etichette sarà uguale al numero di cartoni (in questo esempio, 376 etichette per scatole per la riga 1 e 322 etichette per scatole per la riga 2).
     - Viene generato un nuovo ID polizza di carico per le spedizioni. Se sono state configurate le estensioni della sequenza numerica, gli ID etichetta ondata avranno il formato numerico **SSCC-18**. 
 
-È possibile visualizzare e ristampare le etichette ondata dalle seguenti pagine. Nel riquadro azioni di ogni pagina della scheda **Spedizioni** nel gruppo **Informazioni correlate** , selezionare **Etichette ondata**.
+È possibile visualizzare e ristampare le etichette ondata dalle seguenti pagine. Nel riquadro azioni di ogni pagina della scheda **Spedizioni** nel gruppo **Informazioni correlate**, selezionare **Etichette ondata**.
 
 - Tutte le spedizioni \> Dettagli spedizione
 - Tutti i carichi \> Dettagli carico
@@ -345,8 +345,8 @@ I modelli di ondata consentono di collegare istanze specifiche dei metodi di ond
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Selezionare un modello, ad esempio **Contaneirizzazione 63**.
-1. Nella Scheda dettaglio **Metodi** , spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
-1. Nella colonna **Metodi selezionati** , seleziona il metodo **Stampa di etichette ondata** e impostare il relativo campo **Codice passaggio ondata** su *PrintLabel*. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
+1. Nella Scheda dettaglio **Metodi**, spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
+1. Nella colonna **Metodi selezionati**, seleziona il metodo **Stampa di etichette ondata** e impostare il relativo campo **Codice passaggio ondata** su *PrintLabel*. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Creare un layout di etichetta ondata
 
@@ -382,16 +382,16 @@ I modelli di ondata consentono di collegare istanze specifiche dei metodi di ond
 
 1. Chiudere la pagina.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
     - **Campo:** *Tipo di lavoro*
     - **Criteri:** *Prelievo*
 
-1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join** , selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
+1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join**, selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
 1. Chiudere la finestra di dialogo dell'editor di query.
-1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione** , **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione** , nel campo **Intestazione etichetta** , immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
+1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione**, **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione**, nel campo **Intestazione etichetta**, immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ I modelli di ondata consentono di collegare istanze specifiche dei metodi di ond
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Corpo etichetta** , immettere il codice ZPL per il corpo necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Corpo etichetta**, immettere il codice ZPL per il corpo necessario. Ecco un esempio.
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ I modelli di ondata consentono di collegare istanze specifiche dei metodi di ond
     </Row>
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Piè di pagina etichetta** , immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Piè di pagina etichetta**, immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
 
     ```plaintext
     ^PQ1^XZ
@@ -437,14 +437,14 @@ L'etichetta è ora pronta per l'uso.
     - **Codice passaggio ondata:** *PrintLabel*
     - **Magazzino:** *63*
 
-1. Nella Scheda dettaglio **Dettagli modello di etichette ondata** , aggiungere una riga con le seguenti impostazioni:
+1. Nella Scheda dettaglio **Dettagli modello di etichette ondata**, aggiungere una riga con le seguenti impostazioni:
 
     - **ID layout etichetta:** *Contenitore*
     - **Nome stampante:** selezionare una stampante ZPL appropriata.
     - **Esegui query:** *Sì* (questa impostazione è facoltativa, ma è consigliata per prestazioni ottimali).
 
 1. Nel riquadro azioni selezionare **Salva**.
-1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata** , selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata**, selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Spedizioni*
     - **Tabella derivata:** *Spedizioni*
@@ -495,10 +495,10 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
     > [!NOTE]
     > Gli articoli e le quantità forniti qui sono solo esempi. Devono disporre di scorte nel magazzino specificato.
 
-1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente** , nel menu **Scorte** , selezionare **Prenotazioni**.
+1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente**, nel menu **Scorte**, selezionare **Prenotazioni**.
 1. Nella pagina **Prenotazione** del riquadro azioni, selezionare **Prenota lotto** e chiudere la pagina.
 1. Ripetere i passaggi 4 e 5 per ogni riga ordine cliente aggiuntiva.
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
 
     Si verificano gli eventi seguenti:
 
@@ -527,16 +527,16 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
 1. Andare a **Gestione magazzino \> Impostazione \> Ondate \> Metodi di elaborazione ondata**.
 1. Verificare che **waveLabelPrinting** sia nell'elenco. Se non lo è, selezionare **Rigenera metodi** nel riquadro azioni per aggiungerlo.
-1. Per il metodo **waveLabelPrinting** , selezionare la casella di controllo **Rendi ripetibile il metodo**.
+1. Per il metodo **waveLabelPrinting**, selezionare la casella di controllo **Rendi ripetibile il metodo**.
 
 ### <a name="set-up-a-wave-template"></a>Impostare un modello di ondata
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 2. Selezionare un modello, ad esempio **62 Spedizione predefinita**.
-3. Nella Scheda dettaglio **Metodi** , spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
-4. Nella colonna **Metodi selezionati** , assegnare un valore **Codice passaggio ondata** , come *Cartone* , al metodo **Stampa di etichette ondata**. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
+3. Nella Scheda dettaglio **Metodi**, spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati**.
+4. Nella colonna **Metodi selezionati**, assegnare un valore **Codice passaggio ondata**, come *Cartone*, al metodo **Stampa di etichette ondata**. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
 5. Spostare il metodo **Stampa di etichette ondata** nella colonna **Metodi selezionati** una seconda volta.
-6. Nella colonna **Metodi selezionati** , assegnare un valore **Codice passaggio ondata** differente, come *Pallet* , al secondo metodo **Stampa di etichette ondata**. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
+6. Nella colonna **Metodi selezionati**, assegnare un valore **Codice passaggio ondata** differente, come *Pallet*, al secondo metodo **Stampa di etichette ondata**. Per ulteriori informazioni sui codici del passaggio ondata, vedere [Codici del passaggio ondata](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Creare tre layout di etichetta ondata
 
@@ -572,7 +572,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
 1. Chiudere la pagina.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -581,9 +581,9 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
     Questa query garantisce che sull'etichetta vengano stampate solo le righe di lavoro di tipo prelievo, non le righe di lavoro di tipo stoccaggio.
 
-1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join** , selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**. 
+1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join**, selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**. 
 1. Chiudere la finestra di dialogo dell'editor di query.
-1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione** , **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione** , nel campo **Intestazione etichetta** , immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
+1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione**, **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione**, nel campo **Intestazione etichetta**, immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Corpo etichetta** , immettere il codice ZPL per il corpo necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Corpo etichetta**, immettere il codice ZPL per il corpo necessario. Ecco un esempio.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     </Row>
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Piè di pagina etichetta** , immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Piè di pagina etichetta**, immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
 
     ```plaintext
     ^PQ1^XZ
@@ -684,7 +684,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
 1. Chiudere la pagina.
 1. Nel riquadro azioni, seleziona **Modifica query**.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -693,9 +693,9 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
     Questa query garantisce che sull'etichetta vengano stampate solo le righe di lavoro di tipo prelievo, non le righe di lavoro di tipo stoccaggio.
 
-1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join** , selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
+1. Se si desidera poter stampare l'ID polizza di carico, nella scheda **Join**, selezionare la tabella **Righe lavoro** e unirvi la tabella **Spedizioni**.
 1. Chiudere la finestra di dialogo dell'editor di query.
-1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione** , **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione** , nel campo **Intestazione etichetta** , immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
+1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione**, **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione**, nel campo **Intestazione etichetta**, immettere il codice per l'intestazione necessaria. Ad esempio, se si utilizzano stampanti Zebra, è possibile utilizzare il codice seguente.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Corpo etichetta** , immettere il codice ZPL per il corpo necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Corpo etichetta**, immettere il codice ZPL per il corpo necessario. Ecco un esempio.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     </Row>
     ```
 
-1. Nella sezione **Sezione del corpo** , nel campo **Piè di pagina etichetta** , immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
+1. Nella sezione **Sezione del corpo**, nel campo **Piè di pagina etichetta**, immettere il codice ZPL per il piè di pagina necessario. Ecco un esempio.
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     - **Descrizione:** *Etichetta di interruzione*
 
 1. Nel riquadro azioni selezionare **Salva**.
-1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione** , **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione** , nel campo **Intestazione etichetta** , immettere il codice ZPL per l'intestazione necessaria. Ecco un esempio.
+1. La Scheda dettaglio **Layout testo stampante** ha tre sezioni in cui è possibile scrivere il codice della stampante: **Sezione di intestazione**, **Sezione del corpo** e **Sezione piè di pagina**. Nella sezione **Sezione di intestazione**, nel campo **Intestazione etichetta**, immettere il codice ZPL per l'intestazione necessaria. Ecco un esempio.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -770,8 +770,8 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 
 1. Fare clic su **Gestione magazzino \> Impostazione \> Magazzino \> Gruppi di sequenze unità**.
 1. Selezionare o creare un gruppo **unità scatola pallet**.
-1. Per la riga **Scatola** , impostare il campo **Tipo di livello ondata** su *Scatola*.
-1. Per la riga **PALLET** , impostare il campo **Tipo di livello ondata** su *Pallet*.
+1. Per la riga **Scatola**, impostare il campo **Tipo di livello ondata** su *Scatola*.
+1. Per la riga **PALLET**, impostare il campo **Tipo di livello ondata** su *Pallet*.
 
 ### <a name="create-wave-label-templates"></a>Creare modelli di etichetta ondata
 
@@ -783,15 +783,15 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     - **Codice passaggio ondata:** *Cartone*
     - **Magazzino:** *62*
 
-1. Nella Scheda dettaglio **Generale** , nel campo **Tipo di etichetta ondata** , selezionare un valore, ad esempio *Cartone*.
-1. Nella Scheda dettaglio **Dettagli modello di etichette ondata** , aggiungere una riga con le seguenti impostazioni:
+1. Nella Scheda dettaglio **Generale**, nel campo **Tipo di etichetta ondata**, selezionare un valore, ad esempio *Cartone*.
+1. Nella Scheda dettaglio **Dettagli modello di etichette ondata**, aggiungere una riga con le seguenti impostazioni:
 
     - **ID layout etichetta:** *Cartone*
     - **Nome stampante:** selezionare una stampante ZPL appropriata.
     - **Esegui query:** *Sì* (questa impostazione è facoltativa, ma è consigliata per prestazioni ottimali).
 
 1. Nel riquadro azioni selezionare **Salva**.
-1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata** , selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata**, selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Spedizioni*
     - **Tabella derivata:** *Spedizioni*
@@ -801,7 +801,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     Al termine, selezionare **OK** per chiudere la finestra di dialogo dell'editor di query.
 
 1. Nel riquadro azioni, selezionare **Modifica query** per aprire la finestra di dialogo dell'editor di query per l'intero modello di etichetta.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -818,13 +818,13 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 1. Selezionare **OK** per chiudere la finestra di dialogo dell'editor di query.
 1. Viene visualizzato un messaggio che richiede di confermare l'operazione di ripristino del raggruppamento. Selezionare **Sì** per continuare.
 1. Nel riquadro azioni selezionare **Gruppo di modelli di etichette ondata**.
-1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata** , per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID spedizione* , impostare i seguenti valori:
+1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata**, per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID spedizione*, impostare i seguenti valori:
 
     - **Stampa etichetta di interruzione:** selezionare questa casella di controllo.
     - **ID layout etichetta:** selezionare un'etichetta di interruzione. (ad esempio, selezionare il layout di etichetta *Interruzione* creato in precedenza in questo scenario).
     - **Nome stampante:** selezionare la stampante per l'etichetta di interruzione (in genere, per lo scopo di suddividere i rotoli di etichette, è necessario selezionare la stessa stampante selezionata nella Scheda dettagli **Dettagli modello di etichette ondata**. Sono tuttavia possibili altri scenari).
 
-1. Per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento* , seleziona la casella di controllo **ID build etichetta**.
+1. Per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento*, seleziona la casella di controllo **ID build etichetta**.
 
     > [!NOTE]
     > Questa configurazione creerà una sequenza di etichette ("Cartone 1 di X") per riga di carico in tutta l'ondata, indipendentemente dall'impostazione del raggruppamento di lavoro. Questa sequenza di etichette può essere stampata su un layout di etichetta. Inoltre, le etichette di diverse spedizioni saranno separate dall'etichetta di interruzione selezionata.
@@ -837,15 +837,15 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     - **Codice passaggio ondata:** *Pallet*
     - **Magazzino:** *62*
 
-1. Nella Scheda dettaglio **Generale** , nel campo **Tipo di etichetta ondata** , selezionare un valore, ad esempio *Pallet*.
-1. Nella Scheda dettaglio **Dettagli modello di etichette ondata** , aggiungere una riga con le seguenti impostazioni:
+1. Nella Scheda dettaglio **Generale**, nel campo **Tipo di etichetta ondata**, selezionare un valore, ad esempio *Pallet*.
+1. Nella Scheda dettaglio **Dettagli modello di etichette ondata**, aggiungere una riga con le seguenti impostazioni:
 
     - **ID layout etichetta:** *Pallet*
     - **Nome stampante:** selezionare una stampante ZPL appropriata.
     - **Esegui query:** *Sì* (questa impostazione è facoltativa, ma è consigliata per prestazioni ottimali).
 
 1. Nel riquadro azioni selezionare **Salva**.
-1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata** , selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo** , aggiungere una riga con le seguenti impostazioni:
+1. Facoltativo: se si sta progettando un'etichetta specifica per il cliente, è necessario creare una query per trovare il conto del cliente. Nella scheda dettaglio **Dettagli modello di etichette ondata**, selezionare **Modifica query**. Quindi, nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Spedizioni*
     - **Tabella derivata:** *Spedizioni*
@@ -855,7 +855,7 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
     Al termine, selezionare **OK** per chiudere la finestra di dialogo dell'editor di query. 
 
 1. Nel riquadro azioni, selezionare **Modifica query** per aprire la finestra di dialogo dell'editor di query per l'intero modello di etichetta.
-1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento** , aggiungere una riga con le seguenti impostazioni:
+1. Nella finestra di dialogo dell'editor di query, nella scheda **Ordinamento**, aggiungere una riga con le seguenti impostazioni:
 
     - **Tabella:** *Righe di lavoro*
     - **Tabella derivata:** *Righe di lavoro*
@@ -872,13 +872,13 @@ Per eseguire questo scenario, i dati dimostrativi devono essere installati ed è
 1. Selezionare **OK** per chiudere la finestra di dialogo dell'editor di query.
 1. Viene visualizzato un messaggio che richiede di confermare l'operazione di ripristino del raggruppamento. Selezionare **Sì** per continuare.
 1. Nel riquadro azioni selezionare **Gruppo di modelli di etichette ondata**.
-1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata** , per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID spedizione* , impostare i seguenti valori:
+1. Nella finestra di dialogo **Gruppo di modelli di etichette ondata**, per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID spedizione*, impostare i seguenti valori:
 
     - **Stampa etichetta di interruzione:** selezionare questa casella di controllo.
     - **ID layout etichetta:** selezionare un'etichetta di interruzione. (ad esempio, selezionare il layout di etichetta *Interruzione* creato in precedenza in questo scenario).
     - **Nome stampante:** selezionare la stampante per l'etichetta di interruzione (in genere, per lo scopo di suddividere i rotoli di etichette, è necessario selezionare la stessa stampante selezionata nella Scheda dettagli **Dettagli modello di etichette ondata**. Sono tuttavia possibili altri scenari).
 
-1. Per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento* , seleziona la casella di controllo **ID build etichetta**.
+1. Per la riga in cui il campo **Nome campo di riferimento** è impostato su *ID riga di carico di riferimento*, seleziona la casella di controllo **ID build etichetta**.
 
     > [!NOTE]
     > Questa configurazione creerà una sequenza di etichette ("Cartone 1 di X") per riga di carico in tutta l'ondata, indipendentemente dall'impostazione del raggruppamento di lavoro. Questa sequenza di etichette può essere stampata su un layout di etichetta. Inoltre, le etichette di diverse spedizioni saranno separate dall'etichetta di interruzione selezionata.
@@ -912,10 +912,10 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
     > [!NOTE]
     > Gli articoli e le quantità forniti qui sono solo esempi. Devono utilizzare il gruppo di sequenze di unità definito in precedenza, conversioni di unità appropriate da *unità* a *scatola* a *pallet* devono essere definite per gli stessi e devono avere stock nel magazzino *62*. Per ulteriori informazioni, vedere [Unità di misura e politiche di stoccaggio](unit-measure-stocking-policies.md).
 
-1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente** , nel menu **Scorte** , selezionare **Prenotazioni**.
+1. Selezionare la riga ordine cliente 1. Nella sezione **Riga ordine cliente**, nel menu **Scorte**, selezionare **Prenotazioni**.
 1. Nella pagina **Prenotazione** del riquadro azioni, selezionare **Prenota lotto** e chiudere la pagina.
 1. Ripetere i passaggi 4 e 5 per la riga ordine cliente 2.
-1. Nel riquadro azioni, nella scheda **Magazzino** , seleziona **Rilascia in magazzino**.
+1. Nel riquadro azioni, nella scheda **Magazzino**, seleziona **Rilascia in magazzino**.
 
     Si verificano gli eventi seguenti: 
 

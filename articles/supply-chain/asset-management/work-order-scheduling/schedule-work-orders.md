@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888907"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431251"
 ---
 # <a name="schedule-work-orders"></a>Programmare ordini di lavoro
 
@@ -88,7 +88,7 @@ Negli esempi seguenti, il punteggio di criticità è "2 "e i punteggi del livell
 | WO-00010817   | Due giorni dopo la data corrente   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Due giorni dopo la data corrente   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Gli ordini di lavoro verranno programmati nell'ordine seguente: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Gli ordini di lavoro verranno programmati nell'ordine seguente: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Esempio 2:**
 
@@ -98,7 +98,7 @@ Gli ordini di lavoro verranno programmati nell'ordine seguente: WO-000108**16**,
 | WO-00010817   | Due giorni dopo la data corrente   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Due giorni dopo la data corrente   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Se il punteggio del livello di servizio viene aumentato a "100" anziché a "5 ", l'ordine di programmazione sarà: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Se il punteggio del livello di servizio viene aumentato a "100" anziché a "5 ", l'ordine di programmazione sarà: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Tutti i punteggi di valutazione relativi al calcolo per determinare quali addetti alla manutenzione devono completare gli ordini di lavoro sono impostati come numeri, che vengono aggiunti al calcolo di ogni addetto alla manutenzione durante la programmazione dell'ordine di lavoro. L'addetto alla manutenzione con il punteggio più alto viene selezionato per l'ordine di lavoro. Di seguito è riportata una breve descrizione dei punteggi degli addetti alla manutenzione:
 

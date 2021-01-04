@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980992"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430995"
 ---
 # <a name="product-related-translations-faq"></a>Domande frequenti sulle traduzioni relative ai prodotti
 
@@ -54,7 +54,7 @@ Per creare le traduzioni per un prodotto, completare i passaggi seguenti:
 
 Per creare le traduzioni per gli attributi del prodotto, completare i passaggi seguenti:
 1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Prodotti rilasciati**.
-2.  In **Impostazione**fare clic su **Attributi**, quindi su **Attributi**.
+2.  In **Impostazione** fare clic su **Attributi**, quindi su **Attributi**.
 3.  Nella pagina **Attributi**, fare clic su **Traduci**.
 4.  Nel campo **Lingua** della pagina **Traduzione testo**, selezionare una lingua. Per aggiungere più lingue, espandere il campo **Lingua** e fare clic su **OK**.
 5.  Nel gruppo **Testo tradotto** immettere le traduzioni nei campi **Descrizione** , **Nome descrittivo** e **Testo Guida**.
@@ -115,7 +115,7 @@ Per creare un gruppo di valori di dimensione, completare i passaggi seguenti:
 1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Impostazione** &gt; **Gruppi di varianti**.
 2.  Selezionare **Gruppi** **di dimensioni**, **Gruppi di colori** o **Gruppi di stili**.
 3.  Fare clic su **Nuovo** e immettere un nome per il gruppo nel campo **Gruppo** **di dimensioni**, **Gruppo di colori** o **Gruppo di stili**. Fare clic su **Dimensioni**, **Colori** o **Stili** per creare le righe per i gruppi.
-4.  Nella pagina **Righe** **gruppo** di dimensioni, **Righe** **gruppo** **di colori** o **Righe gruppi di stil**i, fare clic su **Nuovo** e creare le dimensioni, i colori e gli stili per i gruppi.
+4.  Nella pagina **Righe** **gruppo** di dimensioni, **Righe** **gruppo** **di colori** o **Righe gruppi di stil** i, fare clic su **Nuovo** e creare le dimensioni, i colori e gli stili per i gruppi.
 
 Per gestire le traduzioni per i valori in un gruppo di valori di dimensione, effettuare le operazioni seguenti:
 1.  Seguire i passaggi della procedura precedente per creare un gruppo di valori di dimensioni per aprire la pagina **Righe gruppo di dimensioni** **Righe gruppo di colori** o **Righe gruppo di stili**.

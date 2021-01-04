@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016449"
+ms.locfileid: "4431518"
 ---
 # <a name="set-up-shipping-carriers"></a>Impostare vettori di spedizione
 
@@ -36,12 +36,12 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 2. Nel Riquadro azioni seleziona **Nuovo**.
 3. Nel campo **Vettore spedizione** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
-5. Nel campo **Modo** , selezionare un'opzione dal menu a discesa.
+5. Nel campo **Modo**, selezionare un'opzione dal menu a discesa.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Inserire le informazioni generali per il vettore di spedizione
 1. Attivare/disattivare l'espansione della sezione **Panoramica**.
 2. Selezionare o deselezionare la casella di controllo **Attiva vettore di spedizione**.
-3. Nel campo **Conto fornitore** , selezionare un'opzione dal menu a discesa. Selezionare il conto fornitore a cui assegnare il vettore di spedizione.  
+3. Nel campo **Conto fornitore**, selezionare un'opzione dal menu a discesa. Selezionare il conto fornitore a cui assegnare il vettore di spedizione.  
 4. Nel campo **Tipo di pagamento trasporto** selezionare un'opzione. Selezionare **Manuale** per utilizzare la pagina Metodo di pagamento trasporto o selezionare **EDI** per aggiornare il metodo di pagamento utilizzando il formato EDI (Electronic Data Interchange).  
 5. Selezionare o deselezionare la casella di controllo **Attiva valutazione vettore**.
 
@@ -50,14 +50,14 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 2. Selezionare **Nuovo**.
 3. Nel campo **Servizio trasporto** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
-5. Nel campo **Metodo di trasporto** , selezionare un'opzione dal menu a discesa.
+5. Nel campo **Metodo di trasporto**, selezionare un'opzione dal menu a discesa.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Impostare l'indirizzo del vettore (facoltativo)
 1. Attiva/disattiva l'espansione della sezione **Indirizzi**.
 2. Selezionare **Nuovo**.
 3. Digitare un valore nel campo **Nome o descrizione**.
-4. Nel campo **Paese** , selezionare un'opzione dal menu a discesa.
-5. Nel campo **Codice postale (CAP)** , selezionare un'opzione dal menu a discesa.
+4. Nel campo **Paese**, selezionare un'opzione dal menu a discesa.
+5. Nel campo **Codice postale (CAP)**, selezionare un'opzione dal menu a discesa.
 6. Digitare un valore nel campo **Via**.
 7. Selezionare **OK**.
 
@@ -66,10 +66,10 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 2. Selezionare **Nuovo**.
 3. Nel campo **Profilo valutazione** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
-5. Nel campo **Sito** , selezionare un'opzione dal menu a discesa.
-6. Nel campo **Magazzino** , selezionare un'opzione dal menu a discesa.
-7. Nel campo **Motore tariffe** , selezionare un'opzione dal menu a discesa. Selezionare il motore tariffe in base al contratto stipulato con il vettore.  
-8. Nel campo **Tariffa principale** , selezionare un'opzione dal menu a discesa.
-9. Nel campo **Motore tempo di transito** , selezionare un'opzione dal menu a discesa.
+5. Nel campo **Sito**, selezionare un'opzione dal menu a discesa.
+6. Nel campo **Magazzino**, selezionare un'opzione dal menu a discesa.
+7. Nel campo **Motore tariffe**, selezionare un'opzione dal menu a discesa. Selezionare il motore tariffe in base al contratto stipulato con il vettore.  
+8. Nel campo **Tariffa principale**, selezionare un'opzione dal menu a discesa.
+9. Nel campo **Motore tempo di transito**, selezionare un'opzione dal menu a discesa.
 10. Selezionare **Salva**.
 

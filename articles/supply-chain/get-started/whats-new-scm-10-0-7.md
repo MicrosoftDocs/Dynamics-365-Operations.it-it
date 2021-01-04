@@ -1,5 +1,5 @@
 ---
-title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.7 (gennaio 2020)
+title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.7 (gennaio 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.7.
 author: josaw1
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
+ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802873"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4597108"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.7 (gennaio 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.7 (gennaio 2020)
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +48,7 @@ La gestione delle funzionalità ora consente di abilitare tutte le nuove funzion
 Per informazioni sulle correzioni di bug incluse in ciascuno degli aggiornamenti che fanno parte di 10.0.7, accedere a Lifecycle Services (LCS) e visualizzare l'[articolo KB](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e).
 
 ### <a name="platform-update-31"></a>Update 31 della piattaforma
-Microsoft Dynamics 365 Supply Chain Management 10.0.7 include l'aggiornamento della piattaforma 31. Per ulteriori informazioni sull'aggiornamento 31 della piattaforma, vedere [Novità e modifiche nell'aggiornamento 31 della piattaforma](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.7 include l'aggiornamento della piattaforma 31. Per ulteriori informazioni sull'aggiornamento 31 della piattaforma, vedere [Novità o modifiche nell'aggiornamento 31 della piattaforma](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
 
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Piano di rilascio della seconda ondata 2019 di Dynamics 365
 Desideri sapere quali sono le funzionalità imminenti e rilasciate di recente nella nostra piattaforma o in una delle app aziendali?

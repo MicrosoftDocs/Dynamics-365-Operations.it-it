@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888835"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431041"
 ---
 # <a name="create-functional-locations"></a>Creare unità funzionali
 
@@ -80,7 +80,7 @@ Per ulteriori informazioni sull'installazione dei cespiti, vedere [Installare i 
 
 ## <a name="asset-attribute-requirements"></a>Requisiti degli attributi del cespite
 
-In questa Scheda dettaglio è possibile aggiungere i requisiti specifici di attributi dei cespiti installati nella unità funzionale. Questi requisiti sono solo a scopo informativo. Non impediscono di installare i cespiti con altri requisiti di attributi. Fare clic **Aggiungi riga** e selezionare il tipo di attributo. Quindi immettere il **Valore**rilevante, selezionare una soglia nel campo **Criteri soglia** e salvare il record.
+In questa Scheda dettaglio è possibile aggiungere i requisiti specifici di attributi dei cespiti installati nella unità funzionale. Questi requisiti sono solo a scopo informativo. Non impediscono di installare i cespiti con altri requisiti di attributi. Fare clic **Aggiungi riga** e selezionare il tipo di attributo. Quindi immettere il **Valore** rilevante, selezionare una soglia nel campo **Criteri soglia** e salvare il record.
 
 ## <a name="maintenance-plans-and-maintenance-rounds"></a>Piani di manutenzione e cicli di manutenzione
 

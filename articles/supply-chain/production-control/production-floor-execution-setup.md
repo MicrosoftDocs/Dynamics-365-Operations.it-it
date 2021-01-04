@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012487"
+ms.locfileid: "4431457"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Impostare un dispositivo per eseguire l'interfaccia di esecuzione dell'area di produzione
 
@@ -33,7 +33,7 @@ L'interfaccia di esecuzione dell'area di produzione è configurata per ogni disp
 
 Per impostare la configurazione e i filtri dei processi per un dispositivo, accedere alla pagina **Esecuzione area di produzione** utilizzando un account con un ruolo di sicurezza che include il diritto *Supervisore gestione tempo*. (Tra i ruoli di sicurezza predefiniti, solo *Supervisore reparto di produzione* ha questo diritto). Quindi seguire questi passaggi.
 
-1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisore gestione tempo* ).
+1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisore gestione tempo*).
 1. Assicurarti che sia disponibile una configurazione per il dispositivo che si sta impostando. Se non esiste già una configurazione, viene fornita una configurazione predefinita. Per ulteriori informazioni su come impostare una configurazione, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).
 1. Andare a **Controllo produzione \> Esecuzione produzione \> Esecuzione area di produzione**.
 
@@ -45,8 +45,8 @@ Per impostare la configurazione e i filtri dei processi per un dispositivo, acce
 1. Selezionare uno o più filtri da applicare al dispositivo corrente. Questi filtri aiuteranno a garantire che sul dispositivo vengano visualizzati solo i processi pertinenti. Per impostare un filtro, selezionare il tipo di filtro per aprire un elenco di valori, quindi selezionare il valore in base al quale filtrare. Sono disponibili i filtri seguenti:
 
     - **Unità di produzione** - Questo è il filtro di livello più alto. Si riferisce in genere a un'ampia area di lavoro che contiene diversi gruppi di risorse e singole risorse.
-    - **Gruppo di risorse** - Questo è un filtro di livello medio. In genere si riferisce a una raccolta di risorse correlate in un'area limitata dell'area di lavoro. Se si seleziona prima il filtro **Unità di produzione** , l'elenco dei gruppi di risorse mostra solo i gruppi di quell'unità. In caso contrario, mostra tutti i gruppi di risorse disponibili.
-    - **Risorsa** - Questo è il filtro più specifico. Si riferisce in genere a una macchina specifica o un'altra singola risorsa. Se si seleziona prima il filtro **Gruppo di risorse** e/o **Unità di produzione** , l'elenco delle risorse mostra solo le risorse di quel gruppo e/o quell'unità. In caso contrario, mostra tutte le risorse disponibili.
+    - **Gruppo di risorse** - Questo è un filtro di livello medio. In genere si riferisce a una raccolta di risorse correlate in un'area limitata dell'area di lavoro. Se si seleziona prima il filtro **Unità di produzione**, l'elenco dei gruppi di risorse mostra solo i gruppi di quell'unità. In caso contrario, mostra tutti i gruppi di risorse disponibili.
+    - **Risorsa** - Questo è il filtro più specifico. Si riferisce in genere a una macchina specifica o un'altra singola risorsa. Se si seleziona prima il filtro **Gruppo di risorse** e/o **Unità di produzione**, l'elenco delle risorse mostra solo le risorse di quel gruppo e/o quell'unità. In caso contrario, mostra tutte le risorse disponibili.
 
 1. Selezionare **OK**.
 1. Viene visualizzata la pagina di accesso e il dispositivo è pronto per l'uso.

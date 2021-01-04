@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017163"
+ms.locfileid: "4431471"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinazione dimensioni prodotto ubicazione
 
@@ -45,19 +45,19 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
 1. Vai a **Gestione magazzino \> Impostazioni \> Magazzino \> Profili ubicazione**.
 1. Nell'elenco dei profili di ubicazione, seleziona **BULK**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella Scheda dettaglio **Generale** , imposta l'opzione **Abilita combinazione specifica dimensioni prodotto di ubicazione** su *Sì*.
+1. Nella Scheda dettaglio **Generale**, imposta l'opzione **Abilita combinazione specifica dimensioni prodotto di ubicazione** su *Sì*.
 
     > [!NOTE]
     > È possibile impostare questa opzione su *Sì* solo se l'opzione **Consenti articoli combinati** è impostata su *No*.
 
-1. Nella Scheda dettaglio **Combinazione dimensioni prodotto consentita** , imposta l'opzione **Dimensione** su *Sì*. Nello scenario descritto in questo argomento, la combinazione può essere eseguita solo per prodotti che hanno valori diversi per **Dimensione**. Tuttavia, sono disponibili anche altre opzioni.
+1. Nella Scheda dettaglio **Combinazione dimensioni prodotto consentita**, imposta l'opzione **Dimensione** su *Sì*. Nello scenario descritto in questo argomento, la combinazione può essere eseguita solo per prodotti che hanno valori diversi per **Dimensione**. Tuttavia, sono disponibili anche altre opzioni.
 1. Selezionare **Salva**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Creare una nuova rappresentazione generale prodotto e varianti di prodotto
 
 1. Vai a **Gestione informazioni sul prodotto \> Prodotti \> Rappresentazioni generali prodotto**.
 1. Nel riquadro azioni seleziona **Nuova** per creare una rappresentazione generale prodotto.
-1. Nella finestra di dialogo **Nuovo prodotto** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Nuovo prodotto**, imposta i seguenti valori:
 
     - **Tipo di prodotto:** *Articolo*
     - **Sottotipo di prodotto:** *Rappresentazione generale prodotto*
@@ -67,7 +67,7 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
     - **Tecnologia di configurazione:** *Varianti predefinite*
 
 1. Selezionare **OK**.
-1. Nella pagina **Dettagli prodotto** , nella Scheda dettaglio **Generale** , imposta i seguenti valori:
+1. Nella pagina **Dettagli prodotto**, nella Scheda dettaglio **Generale**, imposta i seguenti valori:
 
     - **Genera varianti automaticamente:** *Sì*
     - **Gruppo di dimensioni:** *CASUALDHIR*
@@ -79,10 +79,10 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
 ### <a name="release-products-to-the-usmf-company"></a>Rilasciare i prodotti a società USMF
 
 1. Nel riquadro azioni seleziona **Rilascia prodotti**.
-1. Nella pagina **Seleziona prodotti da rilasciare** , Verifica che il numero di prodotto *B0001* sia nell'elenco, quindi seleziona **Avanti**.
+1. Nella pagina **Seleziona prodotti da rilasciare**, Verifica che il numero di prodotto *B0001* sia nell'elenco, quindi seleziona **Avanti**.
 1. Seleziona **Avanti** per confermare le varianti del prodotto da rilasciare.
-1. Nella pagina **Seleziona aziende a cui rilasciare** , seleziona *USMF* , quindi seleziona **Avanti** per confermare la selezione.
-1. Nella pagina **Conferma selezione** , seleziona **Fine** per completare il rilascio.
+1. Nella pagina **Seleziona aziende a cui rilasciare**, seleziona *USMF*, quindi seleziona **Avanti** per confermare la selezione.
+1. Nella pagina **Conferma selezione**, seleziona **Fine** per completare il rilascio.
 
     Ricevi un messaggio di tipo "Operazione completata".
 
@@ -92,29 +92,29 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
 1. Vai a **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati** per terminare la creazione del prodotto rilasciato.
 1. Trova e seleziona il numero dell'articolo *B0001* per aprire la pagina **Dettagli prodotto rilasciato**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nella Scheda dettaglio **Generale** , verifica che **Gruppo di modelli di articoli** sia impostato su *FIFO*.
-1. Nel riquadro azioni, nella scheda **Prodotto** , nel gruppo **Imposta** , seleziona **Gruppi di dimensioni**.
+1. Nella Scheda dettaglio **Generale**, verifica che **Gruppo di modelli di articoli** sia impostato su *FIFO*.
+1. Nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, seleziona **Gruppi di dimensioni**.
 1. Imposta i valori seguenti:
 
     - **Gruppo di dimensioni di immagazzinamento:** *Ondata*
     - **Gruppo di dimensioni di tracciabilità:** *Nessuno*
 
 1. Selezionare **OK**.
-1. Nel riquadro azioni, nella scheda **Prodotto** , nel gruppo **Imposta** , seleziona **Gerarchia prenotazioni**.
-1. Imposta il campo **Gerarchia prenotazioni** su *Predefinito* , quindi seleziona **OK**.
-1. Nella Scheda dettaglio **Generale** , nella sezione **Amministrazione** , nota che le tue selezioni sono state aggiornate.
-1. Nella Scheda dettaglio **Acquisto** , nel campo **Prezzo** , immetti *10*.
+1. Nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, seleziona **Gerarchia prenotazioni**.
+1. Imposta il campo **Gerarchia prenotazioni** su *Predefinito*, quindi seleziona **OK**.
+1. Nella Scheda dettaglio **Generale**, nella sezione **Amministrazione**, nota che le tue selezioni sono state aggiornate.
+1. Nella Scheda dettaglio **Acquisto**, nel campo **Prezzo**, immetti *10*.
 1. Nella Scheda dettaglio **Gestisci costi** seleziona il gruppo *Audio* nel campo **Gruppo di articoli**.
-1. Nella Scheda dettaglio **Acquisto** , nel campo **Prezzo** , immetti *10*.
-1. Nell Scheda dettaglio **Magazzino** , nel campo **ID gruppo di sequenze unità** , immetti *ea*.
+1. Nella Scheda dettaglio **Acquisto**, nel campo **Prezzo**, immetti *10*.
+1. Nell Scheda dettaglio **Magazzino**, nel campo **ID gruppo di sequenze unità**, immetti *ea*.
 1. Selezionare **Salva**.
 
 ### <a name="create-a-location-directive"></a>Creare una direttiva ubicazione
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
-1. Nel riquadro sinistro, nel campo **Tipo di ordine di lavoro** , seleziona *Ordini fornitore*.
+1. Nel riquadro sinistro, nel campo **Tipo di ordine di lavoro**, seleziona *Ordini fornitore*.
 1. Nell'elenco, seleziona la direttiva di ubicazione denominata *24 PO diretto*.
-1. Nella Scheda dettaglio **Azioni direttiva ubicazione** , seleziona **Nuova** per aggiungere una riga alla griglia.
+1. Nella Scheda dettaglio **Azioni direttiva ubicazione**, seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Numero progressivo:** *1*
@@ -128,7 +128,7 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
     - **Strategia:** *Nessuna*
 
 1. Con la nuova riga ancora selezionata, seleziona **Modifica query** sopra la griglia.
-1. Nella finestra di dialogo della query, nella scheda **Intervallo** , seleziona **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella finestra di dialogo della query, nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori:
 
     - **Tabella:** *Ubicazioni*
@@ -137,10 +137,10 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
     - **Criteri:** *BULK*
 
 1. Selezionare **OK**.
-1. Nella pagina **Direttive ubicazione** , nel riquadro azioni, seleziona **Salva**.
+1. Nella pagina **Direttive ubicazione**, nel riquadro azioni, seleziona **Salva**.
 
 > [!NOTE]
-> Nella Scheda dettaglio **Azioni direttiva ubicazione** nel campo **Strategia** , se utilizzi la strategia di ubicazione *Consolida* , la configurazione della Scheda dettaglio **Combinazione dimensioni prodotto consentita** in **Profili ubicazione** verrà sovrascritta e gli elementi verranno collocati nella stessa ubicazione anche se questo comportamento non è consentito dalla configurazione.
+> Nella Scheda dettaglio **Azioni direttiva ubicazione** nel campo **Strategia**, se utilizzi la strategia di ubicazione *Consolida*, la configurazione della Scheda dettaglio **Combinazione dimensioni prodotto consentita** in **Profili ubicazione** verrà sovrascritta e gli elementi verranno collocati nella stessa ubicazione anche se questo comportamento non è consentito dalla configurazione.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Creare una voce di menu per dispositivo mobile
 
@@ -153,7 +153,7 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
     - **Modalità:** *Lavoro*
     - **Utilizza lavoro esistente:** *No*
 
-1. Nella Scheda dettaglio **Generale** , imposta i seguenti valori:
+1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
 
     - **Processo di creazione lavoro:** *Ricevimento e stoccaggio riga ordine acquisto*
     - **Genera targa:** *Sì*
@@ -165,7 +165,7 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
 1. Accedere a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Menu del dispositivo mobile**.
 1. Nell'elenco dei menu, seleziona **In entrata**.
 1. Nel riquadro azioni, seleziona **Modifica**.
-1. Nell'elenco **Menu e voci di menu disponibili** , trova e seleziona la voce di menu **Ricezione riga PO**.
+1. Nell'elenco **Menu e voci di menu disponibili**, trova e seleziona la voce di menu **Ricezione riga PO**.
 1. Seleziona il pulsante freccia destra per spostare la voce di menu **Ricezione riga PO** sull'elenco **Struttura menu**. In questo modo, aggiungi la nuova voce di menu al menu selezionato.
 1. Selezionare **Salva**.
 
@@ -181,7 +181,7 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 1. Vai a **Contabilità fornitori \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nella finestra di dialogo **Crea ordine fornitore** , imposta i seguenti valori:
+1. Nella finestra di dialogo **Crea ordine fornitore**, imposta i seguenti valori:
 
     - **Conto fornitore:** *1001*
     - **Magazzino:** *24*
@@ -212,11 +212,11 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 1. Accedi all'app del magazzino come utente abilitato per il magazzino *24*.
 1. Seleziona il menu **In uscita**.
 1. Seleziona **Ricezione riga PO**.
-1. Seleziona il campo **PONUM** , quindi inserisci il numero dell'ordine fornitore.
+1. Seleziona il campo **PONUM**, quindi inserisci il numero dell'ordine fornitore.
 1. Conferma l'immissione selezionando il pulsante di conferma (✔) nella parte inferiore della pagina.
-1. Immetti il numero di riga dall'ordine fornitore che viene ricevuto. Seleziona il campo **LINENUM** , quindi utilizza il tastierino numerico per immettere *1*.
+1. Immetti il numero di riga dall'ordine fornitore che viene ricevuto. Seleziona il campo **LINENUM**, quindi utilizza il tastierino numerico per immettere *1*.
 1. Conferma l'inserimento.
-1. Immetti la quantità da ricevere. Seleziona il segno più ( **+** ) due volte per aumentare il valore nel campo **Qtà** su *2*.
+1. Immetti la quantità da ricevere. Seleziona il segno più (**+**) due volte per aumentare il valore nel campo **Qtà** su *2*.
 1. Registra l'inserimento selezionando il pulsante (✔) nella parte inferiore della pagina, quindi conferma l'inserimento selezionando nuovamente il pulsante (✔).
 1. Visualizza le informazioni nella pagina **Ordini fornitore: Inserisci**. Questa pagina mostra il lavoro che è stato creato per lo sttoccaggio (Lavoro 1).
 
@@ -238,4 +238,4 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 1. Seleziona il pulsante Menu nella parte superiore della pagina (a volte indicato come hamburger o pulsante hamburger), quindi seleziona **Annulla** per uscire da **Ricezione riga PO**.
 
 > [!TIP]
-> Puoi ripetere questo scenario, ma questa volta, imposta **Dimensione** - *No* nella Scheda dettaglio **Consenti combinazione dimensioni prodotto** sul *BULK* **Profili di ubicazione** , in modo che nessuna delle dimensioni del prodotto possa essere combinata. In questo caso, quando si riceve l'ordine fornitore, ciascuna variante di prodotto verrà inserita in una nuova ubicazione.
+> Puoi ripetere questo scenario, ma questa volta, imposta **Dimensione** - *No* nella Scheda dettaglio **Consenti combinazione dimensioni prodotto** sul *BULK* **Profili di ubicazione**, in modo che nessuna delle dimensioni del prodotto possa essere combinata. In questo caso, quando si riceve l'ordine fornitore, ciascuna variante di prodotto verrà inserita in una nuova ubicazione.

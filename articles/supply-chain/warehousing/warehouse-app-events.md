@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431009"
 ---
 # <a name="warehouse-app-event-processing"></a>Elaborazione degli eventi dell'app di magazzino
 
@@ -46,7 +46,7 @@ Configura un processo batch pianificato per elaborare gli eventi dell'app di mag
 1. Viene visualizzata la finestra di dialogo Elabora eventi dell'app di magazzino. Espandi la Scheda dettaglio **Esegui in background** e imposta **Elaborazione batch** su **Sì**.
 1. Nella Scheda dettaglio **Esegui in background** selezionare **Ricorrenza**.
 1. Si apre la finestra di dialogo **Definisci ricorrenza**. Imposta il programma di esecuzione secondo necessità per la tua azienda.
-1. Seleziona**OK** per tornare alla finestra di dialogo **Elabora eventi dell'app di magazzino**.
+1. Seleziona **OK** per tornare alla finestra di dialogo **Elabora eventi dell'app di magazzino**.
 1. Seleziona **OK** nella finestra di dialogo **Elabora eventi dell'app di magazzino** per aggiungere il processo batch alla coda batch.
 
 ## <a name="query-warehouse-app-events"></a>Eseguire query sugli eventi dell'app di magazzino

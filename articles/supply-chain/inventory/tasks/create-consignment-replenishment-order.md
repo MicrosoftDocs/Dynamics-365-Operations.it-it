@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018355"
+ms.locfileid: "4431554"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Creare nuovo ordine di rifornimento spedizione
 
@@ -33,16 +33,16 @@ In questo argomento viene illustrato come creare un ordine di rifornimento spedi
 ## <a name="create-a-consignment-replenishment-order"></a>Creare nuovo ordine di rifornimento spedizione
 1. Nel pannello di navigazione, andare a **Moduli > Approvvigionamento > Spedizione > Ordini di rifornimento spedizione**.
 2. Selezionare **Nuovo**.
-3. Nel campo **Conto fornitore** , selezionare il fornitore **US-104** (è necessario selezionare un fornitore che viene registrato come proprietario nella pagina **Proprietari inventario** ). 
+3. Nel campo **Conto fornitore**, selezionare il fornitore **US-104** (è necessario selezionare un fornitore che viene registrato come proprietario nella pagina **Proprietari inventario**). 
 4. Selezionare **OK**.
 5. Selezionare **Aggiungi riga**.
-6. Nel campo **Numero articolo** , digitare `M9211CI` (è necessario selezionare un articolo impostato per l'inventario spedizione).
+6. Nel campo **Numero articolo**, digitare `M9211CI` (è necessario selezionare un articolo impostato per l'inventario spedizione).
 7. Nel campo **Quantità** immettere un numero.
 8. Nel campo **Data di consegna richiesta** immettere una data. Le date di richiesta e conferma vengono utilizzate dal motore MRP per l'arrivo previsto delle merci.  
 9. Immettere una data nel campo **Data di consegna confermata**.
 10. Espandere la sezione **Dettagli riga**.
 11. Selezionare la scheda **Dimensioni inventariali**.
-12. Per visualizzare il proprietario nel campo **Proprietario dimensioni inventariali** , aggiornare la pagina. Il fornitore US-104 è ora elencato come proprietario.  
+12. Per visualizzare il proprietario nel campo **Proprietario dimensioni inventariali**, aggiornare la pagina. Il fornitore US-104 è ora elencato come proprietario.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Controllare lo stato delle transazioni di inventario
 1. Selezionare **Scorte**.
@@ -53,7 +53,7 @@ In questo argomento viene illustrato come creare un ordine di rifornimento spedi
 ## <a name="receive-items"></a>Ricevi articoli
 1. Selezionare **Entrata prodotti**.
 2. Digitare un valore nel campo **Entrata prodotti esterna**.
-3. Nel campo **Quantità** , immettere un numero minore del numero riportato. 
+3. Nel campo **Quantità**, immettere un numero minore del numero riportato. 
 4. Selezionare **OK**.
 
 ## <a name="check-the-on-hand-inventory"></a>Controllare le scorte disponibili.

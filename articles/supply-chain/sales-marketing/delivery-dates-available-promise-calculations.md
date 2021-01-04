@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979429"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666772"
 ---
 # <a name="order-promising"></a>Promesse ordine
 
@@ -37,6 +37,12 @@ Le promesse di ordine calcolano la prima data di spedizione e di entrate e si ba
 -   **ATP (available-to-promise)**: è la quantità di un articolo disponibile e che può essere promessa a un cliente in una data specifica. Il calcolo della quantità ATP include magazzino non impegnato, lead time, entrate e uscite pianificate.
 -   **ATP + margine su uscita magazzino**: la data di spedizione è uguale alla data ATP più il margine su uscita da magazzino per l'articolo. Il margine su uscita da magazzino consiste nel tempo richiesto per preparare gli articoli per la spedizione.
 -   **CTP (capable-to-promise)**: la disponibilità viene calcolata tramite un'esplosione.
+
+> [!NOTE]
+> Quando un ordine cliente viene aggiornato, le informazioni sulla promessa d'ordine vengono aggiornate solo se la data di promessa d'ordine esistente non può essere soddisfatta, come illustrato nei seguenti esempi:
+> 
+> - **Esempio 1**: l'attuale data di promessa d'ordine è il 20 luglio, ma a causa dell'aumento della quantità, non sarà possibile effettuare consegne fino al 25 luglio. Poiché la data corrente non può più essere soddisfatta, viene attivata la promessa d'ordine.
+> -  **Esempio 2**: l'attuale data di promessa d'ordine è il 20 luglio, ma a causa della riduzione della quantità, è ora possibile effettuare consegne il 15 luglio. Tuttavia, poiché la data corrente può ancora essere soddisfatta, la promessa d'ordine non viene attivata e il 20 luglio rimane la data di promessa d'ordine.
 
 ## <a name="atp-calculations"></a>Calcoli ATP
 La quantità ATP viene calcolata in base al metodo dell'ATP cumulativa includendo i periodi futuri. Il metodo di calcolo ATP ha come vantaggio principale la capacità di gestire i casi in cui la somma delle uscite tra le entrate è maggiore dell'ultima entrata, ad esempio nei casi in cui è necessario utilizzare una quantità di un'entrata precedente per soddisfare un fabbisogno. Il metodo di calcolo dell'ATP cumulativa includendo i periodi futuri include tutte le uscite finché la quantità cumulativa da ricevere non supera la quantità cumulativa per l'uscita. Di conseguenza, il metodo di calcolo ATP valuta se parte della quantità di un periodo precedente può essere utilizzata in un periodo successivo.  

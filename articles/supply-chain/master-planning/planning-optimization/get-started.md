@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973478"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4431594"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -67,6 +67,8 @@ Per utilizzare l'ottimizzazione di pianificazione, installare il componente aggi
 1. Nella scheda dettaglio **Componenti aggiuntivi dell'ambiente** dovrebbe essere visualizzato che Ottimizzazione pianificazione è in fase di installazione.
 1. Dopo pochi minuti **Installazione in corso** dovrebbe cambiare in **Installato** (è possibile che sia necessario aggiornare la pagina). Una volta installato, è possibile attivare Ottimizzazione pianificazione in Dynamics 365 Supply Chain Management.
 
+Lo scopo principale dell'installazione del componente aggiuntivo Ottimizzazione pianificazione è connettere il servizio e l'ambiente. Pertanto, è necessario installare il componente aggiuntivo separatamente su ogni ambiente in cui verrà utilizzato Ottimizzazione pianificazione, indipendentemente da qualsiasi codice spostato tra gli ambienti.
+
 ### <a name="planning-optimization-integration"></a>Integrazione di ottimizzazione di pianificazione
 
 Per configurare se il componente aggiuntivo Ottimizzazione pianificazione deve essere utilizzato per la pianificazione generale, andare a **Pianificazione generale** \> **Impostazione** \> **Parametri di Ottimizzazione pianificazione**.
@@ -95,7 +97,7 @@ L'impostazione dell'opzione **Usa ottimizzazione di pianificazione** determina i
 
 ### <a name="integration-with-the-setup"></a>Integrazione con l'impostazione
 
-Se l'anteprima di ottimizzazione di pianificazione è attivata, la pianificazione generale viene eseguita utilizzando il componente aggiuntivo ottimizzazione di pianificazione. In questo caso, i risultati e le funzionalità della pianificazione generale sono interessati.
+Se l'Ottimizzazione pianificazione è attivata, la pianificazione generale viene eseguita utilizzando il componente aggiuntivo ottimizzazione di pianificazione. In questo caso, i risultati e le funzionalità della pianificazione generale sono interessati.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

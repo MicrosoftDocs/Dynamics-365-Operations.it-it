@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978533"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431437"
 ---
 # <a name="costing-versions-overview"></a>Panoramica delle versioni di determinazione costi
 
@@ -46,7 +46,7 @@ In una versione di determinazione costi può essere contenuto un insieme di reco
 ## <a name="entering-costs"></a>Immettere i costi
 La gestione dei dati per i record dei costi in una versione di determinazione costi comporta l'immissione dei costi per gli articoli acquistati e per gli articoli trasferiti da un sito a un altro. Per i produttori sono previste ulteriori attività di gestione dei dati tramite l'immissione di costi per le categorie di costi associate alle operazioni dei cicli di lavorazione, l'immissione di formule di calcolo per i costi indiretti che riflettono i costi generali di produzione e il calcolo dei costi per gli articoli prodotti. 
 
-I dati relativi ai costi degli articoli in una versione di determinazione costi sono costituiti da uno o più record dei costi per ciascun articolo. Quando un record di costo di un articolo viene immesso per la prima volta, ha uno stato **in sospeso** e una data di validità prevista. Quando si attiva il record del costo dell'articolo, lo stato viene aggiornato e diventa **attivo** e la data di validità viene aggiornata alla data di attivazione. Record dei costi degli articoli diversi possono riflettere siti, date di validità o stati diversi. Quando si calcolano i costi per gli articoli prodotti per una data futura, il calcolo DBA (distinta base) utilizza i record dei costi con data di validità pertinente, indipendentemente che lo stato sia in**in sospeso** o **attivo**. Verrà utilizzato il record del costo attivo corrente di un articolo per stimare i costi degli ordini di produzione e valutare le operazioni di magazzino secondo un modello inventariale di determinazione costi standard. La gestione dei record dei costi per le categorie di costi e per le formule di calcolo dei costi indiretti è simile alla gestione dei record dei costi degli articoli. 
+I dati relativi ai costi degli articoli in una versione di determinazione costi sono costituiti da uno o più record dei costi per ciascun articolo. Quando un record di costo di un articolo viene immesso per la prima volta, ha uno stato **in sospeso** e una data di validità prevista. Quando si attiva il record del costo dell'articolo, lo stato viene aggiornato e diventa **attivo** e la data di validità viene aggiornata alla data di attivazione. Record dei costi degli articoli diversi possono riflettere siti, date di validità o stati diversi. Quando si calcolano i costi per gli articoli prodotti per una data futura, il calcolo DBA (distinta base) utilizza i record dei costi con data di validità pertinente, indipendentemente che lo stato sia in **in sospeso** o **attivo**. Verrà utilizzato il record del costo attivo corrente di un articolo per stimare i costi degli ordini di produzione e valutare le operazioni di magazzino secondo un modello inventariale di determinazione costi standard. La gestione dei record dei costi per le categorie di costi e per le formule di calcolo dei costi indiretti è simile alla gestione dei record dei costi degli articoli. 
 
 Due criteri di bloccaggio per una versione di determinazione costi determinano se possono essere gestiti costi in sospeso e se il costo in sospeso può essere attivato. Utilizzare i criteri di bloccaggio per consentire la gestione dei dati e quindi per impedire la gestione dei dati per i record dei costi in una versione di determinazione costi. 
 
