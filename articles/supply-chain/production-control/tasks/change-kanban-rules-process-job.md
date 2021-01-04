@@ -1,0 +1,51 @@
+---
+title: Modificare regole kanban di un processo di lavorazione
+description: La procedura consente di modificare la regola kanban utilizzata per un kanban specifico.
+author: ChristianRytt
+manager: tfehr
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: crytt
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4d4c8fd8251aca2cc53e59afe4c104f2e5198426
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430878"
+---
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="00a12-103">Modificare regole kanban di un processo di lavorazione</span><span class="sxs-lookup"><span data-stu-id="00a12-103">Change kanban rules for a process job</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="00a12-104">La procedura consente di modificare la regola kanban utilizzata per un kanban specifico.</span><span class="sxs-lookup"><span data-stu-id="00a12-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="00a12-105">Ciò è utile per livellare le risorse di carico o in caso di scomposizione.</span><span class="sxs-lookup"><span data-stu-id="00a12-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="00a12-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="00a12-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="00a12-107">Questa procedura è destinata al responsabile pianificazione che lavora presso una società di produzione snella, responsabile del flusso del valore.</span><span class="sxs-lookup"><span data-stu-id="00a12-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
+
+
+## <a name="copy-kanban-rule"></a><span data-ttu-id="00a12-108">Copiare la regola kanban</span><span class="sxs-lookup"><span data-stu-id="00a12-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="00a12-109">Passare a Regole kanban.</span><span class="sxs-lookup"><span data-stu-id="00a12-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="00a12-110">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="00a12-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="00a12-111">Selezionare la regola kanban di evento 000022 per L0001.</span><span class="sxs-lookup"><span data-stu-id="00a12-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="00a12-112">Fare clic su Duplica regola kanban.</span><span class="sxs-lookup"><span data-stu-id="00a12-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="00a12-113">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="00a12-113">Click OK.</span></span>
+
+## <a name="change-kanban-rule"></a><span data-ttu-id="00a12-114">Modificare la regola kanban</span><span class="sxs-lookup"><span data-stu-id="00a12-114">Change kanban rule</span></span>
+1. <span data-ttu-id="00a12-115">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="00a12-115">Close the page.</span></span>
+2. <span data-ttu-id="00a12-116">Passare a Programmazione processo kanban.</span><span class="sxs-lookup"><span data-stu-id="00a12-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="00a12-117">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="00a12-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="00a12-118">Selezionare la riga con il kanban 000177.</span><span class="sxs-lookup"><span data-stu-id="00a12-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="00a12-119">Fare clic su Utilizza regola kanban alternativa.</span><span class="sxs-lookup"><span data-stu-id="00a12-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="00a12-120">Scegliere Avanti.</span><span class="sxs-lookup"><span data-stu-id="00a12-120">Click Next.</span></span>
+6. <span data-ttu-id="00a12-121">Nel campo Regola kanban immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="00a12-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="00a12-122">Selezionare la regola kanban creata in precedenza.</span><span class="sxs-lookup"><span data-stu-id="00a12-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="00a12-123">Si tratta della regola kanban con il numero più elevato.</span><span class="sxs-lookup"><span data-stu-id="00a12-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="00a12-124">Scegliere Fine.</span><span class="sxs-lookup"><span data-stu-id="00a12-124">Click Finish.</span></span>
+    * <span data-ttu-id="00a12-125">A questo punto il processo kanban utilizza un'altra regola kanban.</span><span class="sxs-lookup"><span data-stu-id="00a12-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="00a12-126">Può essere utile per livellare il carico delle celle di lavoro.</span><span class="sxs-lookup"><span data-stu-id="00a12-126">This can be useful to level load work cells.</span></span>  
+
