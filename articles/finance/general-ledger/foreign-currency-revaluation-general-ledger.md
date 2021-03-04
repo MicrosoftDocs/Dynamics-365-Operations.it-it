@@ -113,3 +113,6 @@ Per stornare la transazione di rivalutazione, selezionare il pulsante **Transazi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

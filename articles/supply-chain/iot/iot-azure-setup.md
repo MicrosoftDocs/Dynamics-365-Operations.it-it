@@ -162,3 +162,6 @@ Per salvare il segreto per la stringa di connessione della cache Redis, attienit
 > Ogni volta che aggiorni una delle stringhe di connessione, devi anche aggiornare i valori segreti.
 
 Ora hai completato il provisioning delle risorse di Azure richieste. Il prossimo passo è [Installare l'add-in Intelligence IoT in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Per ulteriori informazioni su come creare una pagina checkout, vedere [Aggiunger
 [Panoramica delle pagine dei dettagli del prodotto](quick-tour-pdp.md)
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

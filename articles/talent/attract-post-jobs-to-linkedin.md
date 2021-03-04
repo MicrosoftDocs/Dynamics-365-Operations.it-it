@@ -80,3 +80,6 @@ Se si verificano problemi nell'accesso o nella pubblicazione di posizioni in Lin
 [Selezionare i candidati con LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Risoluzione dei problemi di integrazione con LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ In presenza di un conflitto con il piano dei conti, è possibile cambiare il del
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Come determinare se l'ambiente richiede delimitatori aggiornati 
 Se i delimitatori nell'ambiente aggiornato sono in conflitto, è possibile avvertire l'instabilità quando si immettono i valori in un controllo di immissione segmentato o in un controllo di immissione delle dimensioni. Ciò significa che è sempre necessario utilizzare le ricerche o un menu a comparsa quando si immettono combinazioni di piano dei conti e dimensioni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

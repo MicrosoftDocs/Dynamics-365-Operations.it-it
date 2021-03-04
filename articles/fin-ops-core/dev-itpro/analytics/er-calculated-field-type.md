@@ -342,3 +342,6 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 - [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
 - [Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

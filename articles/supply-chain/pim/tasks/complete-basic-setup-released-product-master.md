@@ -53,3 +53,6 @@ Questa è la terza procedura di otto che illustra come sviluppare le combinazion
 20. Chiudere la pagina.
 21. Chiudere il modulo **Dettagli prodotto rilasciato**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

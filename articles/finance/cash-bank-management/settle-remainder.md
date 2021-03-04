@@ -70,3 +70,6 @@ Per liquidare il residuo, procedere come segue:
 7)  È inoltre possibile scegliere di creare un giornale di registrazione pagamenti con il residuo di liquidazione o soltanto registrarlo con un giornale di registrazione. Selezionare **Sì** per **Modifica in giornale di registrazione** per creare un giornale di registrazione pagamenti. Sarà possibile modificare il giornale di registrazione pagamenti creato.
 8)  Fare clic su **Residuo liquidazione**. Se si sceglie di creare un giornale, il pulsante diventerà **Crea giornale di registrazione**. Fare clic su **Crea giornale di registrazione**.
 9)  Se è stato creato un giornale di registrazione pagamenti, la pagina del giornale di registrazione verrà aperta dopo aver fatto clic su **Residuo liquidazione**. Una riga del giornale di registrazione verrà aggiunta con l'importo residuo liquidazione come importo e con il conto residuo liquidazione come conto di contropartita. Se si è aggiunto un cliente o fornitore per spostare l'importo di liquidazione a un altro cliente o fornitore, una riga aggiuntiva verrà aggiunta al giornale di registrazione per spostare l'importo di liquidazione a quel cliente o fornitore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

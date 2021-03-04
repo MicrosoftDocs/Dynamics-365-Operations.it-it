@@ -121,3 +121,6 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 |     DBA     | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
 |    Ciclo    |                                           Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

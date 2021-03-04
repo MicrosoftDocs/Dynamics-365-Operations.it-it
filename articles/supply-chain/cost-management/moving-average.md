@@ -155,3 +155,6 @@ In questo esempio di media mobile, il report del valore di magazzino viene stamp
 
 > [!NOTE]
 > Non è possibile riconciliare la contabilità generale con il magazzino utilizzando l'opzione di ordinamento **Ora della transazione**. Il report deve essere stampato utilizzando l'opzione **Data di registrazione** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

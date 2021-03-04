@@ -107,3 +107,6 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 ## <a name="view-the-purchase-order-that-is-generated"></a>Visualizzare l'ordine fornitore generato
 
 Nel riquadro azioni, sella scheda **Generale**, selezionare **Ordine fornitore**. La pagina visualizzata mostra l'ordine fornitore generato quando è stata accettata l'offerta.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

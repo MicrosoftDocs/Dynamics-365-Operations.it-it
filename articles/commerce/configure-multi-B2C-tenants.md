@@ -131,3 +131,6 @@ Il nuovo tenant Azure AD B2C ora è presente nell'elenco in **Gestisci applicazi
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

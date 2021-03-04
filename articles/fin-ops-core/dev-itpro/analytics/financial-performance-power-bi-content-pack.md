@@ -88,3 +88,6 @@ Le entità seguenti sono state utilizzate come base della soluzione PowerBI.com 
 - ChartofAccounts
 
 Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto. Per impostazione predefinita, il contenuto include dati per gli ultimi tre anni e un anno successivo. Per includere i calcoli aggiuntive in report e dashboard, è possibile modificare la [cartella di lavoro di Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Questa cartella di lavoro è il modello dati predefinito utilizzato per creare il contenuto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

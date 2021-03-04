@@ -82,3 +82,6 @@ La quantità nella distinta base (DBA) è 1 e la quantità di produzione è 110.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ Se si utilizza l'azione **Elimina** nella richiesta di registrazione del fornito
 |         Approvate         |                                                                               La richiesta del fornitore viene approvata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
 |         Rifiutato         |                                                                               La richiesta del fornitore viene rifiutata.                                                                               |                                                                                                   La richiesta di registrazione del fornitore potenziale, i dati inseriti nella procedura guidata di registrazione del fornitore e la richiesta fornitore vengono eliminati.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

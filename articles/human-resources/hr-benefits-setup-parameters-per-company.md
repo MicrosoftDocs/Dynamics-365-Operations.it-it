@@ -42,3 +42,5 @@ Per ogni organizzazione che offre benefit, è necessario configurare le impostaz
    | **Indirizzo mittente di posta elettronica predefinito** | L'indirizzo di posta elettronica da utilizzare quando si invia il messaggio di posta elettronica di conferma. |
 
 3. Selezionare **Salva**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

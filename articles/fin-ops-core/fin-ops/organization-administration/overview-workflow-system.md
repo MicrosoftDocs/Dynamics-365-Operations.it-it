@@ -71,3 +71,6 @@ Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basat
 + [Configurare i rami paralleli in un flusso di lavoro](configure-parallel-branch-workflow.md)
 + [Configurare flussi di lavoro voci](configure-line-item-workflow.md)
 + [Domande frequenti sul flusso di lavoro](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

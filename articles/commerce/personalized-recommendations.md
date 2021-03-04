@@ -131,3 +131,6 @@ Per applicare la personalizzazione a un elenco di suggerimenti esistente in Crea
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

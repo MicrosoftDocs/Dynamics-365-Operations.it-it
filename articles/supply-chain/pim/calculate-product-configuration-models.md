@@ -105,3 +105,6 @@ I calcoli non sono inclusi nella convalida. È necessario eseguire il test del m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

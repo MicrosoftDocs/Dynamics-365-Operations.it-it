@@ -72,3 +72,6 @@ La configurazione del calendario nei parametri di congedo e assenza determina le
 
 Per informazioni sulle impostazioni del calendario, vedere [Configurare i parametri del calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

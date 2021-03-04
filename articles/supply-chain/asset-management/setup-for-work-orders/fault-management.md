@@ -133,3 +133,6 @@ Attenersi alla procedura seguente per creare un elenco di suggerimenti per corre
 
 > [!NOTE]
 > È possibile modificare i nomi di sintomi, aree, tipi, cause e rimedi come necessario. Le modifiche ai nomi vengono automaticamente implementate nelle registrazioni di errore correlate.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

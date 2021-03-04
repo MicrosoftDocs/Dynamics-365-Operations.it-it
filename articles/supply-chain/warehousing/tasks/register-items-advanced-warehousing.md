@@ -76,3 +76,6 @@ Prendere nota del numero dell'ordine fornitore creato e anche del numero di arti
     * Dopo aver fatto clic su OK, controllare la barra dei messaggi. Dovrebbe esserci un messaggio che dice che l'operazione è stata completata.  
 5. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

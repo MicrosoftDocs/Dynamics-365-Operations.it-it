@@ -108,3 +108,6 @@ La pagina **Certificati per duplice uso** è utilizzata per impostare e gestire 
     | Stampa su fattura | Selezionare questa casella di controllo per stampare il numero di certificato sulle fatture indirizzate al paese specificato durante l'intervallo di date specificato. |
     | Stampa su documento di trasporto | Selezionare questa casella di controllo per stampare il numero di certificato sui documenti di trasporto indirizzati al paese specificato durante l'intervallo di date specificato. |
     | Stampa su ordine cliente | Selezionare questa casella di controllo per stampare il numero di certificato su ordini cliente indirizzati al paese specificato durante l'intervallo di date specificato. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

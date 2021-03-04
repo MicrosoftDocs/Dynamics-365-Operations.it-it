@@ -206,3 +206,6 @@ Rivedere il codice nella `BankImport_RU` classe del modello `Application Suite` 
 
 [Modifiche dell'API framework ER per Aggiornamento applicazione 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

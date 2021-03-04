@@ -60,3 +60,6 @@ Se l'organizzazione si sviluppa e si prende in considerazione la pianificazione 
 28. Fare clic su Report.
     * Le corrispondenze migliori verranno elencate nella parte superiore del report.  È possibile vedere che viene elencato un elemento di lacuna.  È la differenza tra il livello elencato nel mapping competenze e il livello di competenza assegnato alla persona.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

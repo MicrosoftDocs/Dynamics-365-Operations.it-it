@@ -45,3 +45,6 @@ In questa procedura vengono descritti i passaggi per configurare ed eseguire i p
 11. Fare clic su OK.
 12. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

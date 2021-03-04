@@ -155,3 +155,6 @@ Attualmente, la funzionalità dei gruppi di pubblicazione supporta solo contenut
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Personalizzare la navigazione del sito](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

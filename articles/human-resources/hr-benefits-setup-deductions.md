@@ -52,3 +52,6 @@ L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente d
 4. Per tenere traccia e gestire le modifiche all'impostazione del tasso di benefit, selezionare **Azioni**, quindi selezionare **Gestisci versioni**.
 
 5. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

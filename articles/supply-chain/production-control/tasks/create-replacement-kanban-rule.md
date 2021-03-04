@@ -56,3 +56,6 @@ Questa procedura mostra come sostituire la regola kanban esistente con una nuova
 1. Impostare Quantità massima su "100".
     * Espandere la scheda dettaglio Quantità per visualizzare il campo Quantità massima. Modificare la quantità massima in 100 permetterà l'elaborazione di un massimo di 100 kanban.    Questo è l'ultimo passaggio di questa attività.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

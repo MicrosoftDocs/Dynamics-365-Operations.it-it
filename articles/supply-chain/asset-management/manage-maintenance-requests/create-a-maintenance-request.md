@@ -74,3 +74,6 @@ Nella visualizzazione dettagli, è possibile aggiornare vari dati. Di seguito so
 
 > [!NOTE]
 > Se si seleziona un cespite quando si crea una richiesta di intervento di manutenzione, è possibile aggiungere un solo problema al cespite. Dopo che la richiesta di intervento di manutenzione è stata creata, è possibile aggiungere più problemi in base alle esigenze. Per aggiungere problemi, selezionare **Errore del cespite** nella pagina **Tutte le richieste di intervento di manutenzione**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

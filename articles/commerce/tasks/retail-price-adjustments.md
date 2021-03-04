@@ -53,3 +53,6 @@ In questa procedura vengono descritti i passaggi per creare una rettifica prezzo
 14. Chiudere la pagina.
 15. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

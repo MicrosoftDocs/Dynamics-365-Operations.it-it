@@ -53,3 +53,6 @@ Quando gli utenti avviano un'offerta in Sales, il framework a doppia scrittura c
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Prospect to cash in doppia scrittura](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

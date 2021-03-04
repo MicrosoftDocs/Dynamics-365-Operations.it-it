@@ -36,3 +36,6 @@ Impostare categorie di impieghi in Dynamics 365 Human Resources da abbinare ai l
 3. Specificare valori per **Tipo di lavoratore**, **Categoria di impiego** e **Descrizione**.
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

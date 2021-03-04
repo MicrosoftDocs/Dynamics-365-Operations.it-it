@@ -136,3 +136,6 @@ Per impostare un gruppo di prezzi, procedere come segue.
 [Impostare e utilizzare gli avvisi di frode](set-up-fraud-alerts.md)
 
 [Impostare programmi di continuità per i servizi clienti](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ ms.locfileid: "4419251"
 [Accumulare piani di congedo e assenza](hr-leave-and-absence-accrue.md)</br>
 [Acquista e vendi congedo](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

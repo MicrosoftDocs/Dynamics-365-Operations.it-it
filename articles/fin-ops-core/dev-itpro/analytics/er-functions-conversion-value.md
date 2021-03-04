@@ -63,3 +63,6 @@ Le virgole e i caratteri punto (). vengono considerati separatori decimali e un
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di conversione di tipo](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

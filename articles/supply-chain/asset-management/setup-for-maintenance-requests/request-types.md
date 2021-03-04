@@ -45,3 +45,6 @@ Un tipo di richiesta di intervento di manutenzione definisce il rapporto con un 
 Nella figura seguente è illustrato un esempio della pagina **Tipi di richieste di intervento di manutenzione**.
 
 ![Pagina Tipi di richieste di intervento di manutenzione](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

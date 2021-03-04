@@ -99,3 +99,6 @@ L'attività seguente è creare una RdO per ottenere le offerte dai fornitori per
 8. Selezionare la pagina.
 9. Seleziona Completa.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

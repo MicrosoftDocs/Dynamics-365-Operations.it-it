@@ -69,3 +69,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Dopo aver completato questi passaggi, è possibile estendere l'inventario disponibile per sito e l'inventario disponibile per entità di dati warehouse aggiungendo i nuovi campi. In questo modo, i campi estesi verranno riconosciuti e inclusi durante la migrazione dei dati che utilizza tali entità di dati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

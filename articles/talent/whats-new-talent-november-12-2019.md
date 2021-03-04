@@ -60,3 +60,6 @@ Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in ge
 Talvolta, una funzionalità integrale viene attivata per impostazione predefinita e non può essere disattivata, ad esempio l'area di lavoro **Gestione funzionalità**.
  
 Una volta che una funzionalità è generalmente disponibile, può essere attivata o disattivata negli ambienti di produzione. L'area di lavoro **Gestione funzionalità** indica quando una funzionalità di anteprima diventa obbligatoria. Questa data è in genere il 1° ottobre o il 1° aprile in base ai piani di rilascio semestrali. Non è possibile disattivare le funzionalità obbligatorie. Finché non diventa obbligatoria, è possibile attivare e disattivare una funzionalità in tutti gli ambienti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

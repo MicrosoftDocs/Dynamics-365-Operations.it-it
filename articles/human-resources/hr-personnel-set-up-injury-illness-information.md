@@ -65,3 +65,6 @@ I datori di lavoro devono sapere se i propri dipendenti si feriscono o si ammala
     * Le agenzie di reporting sono le agenzie alle quali deve essere dichiarato l'evento imprevisto. Selezionare la casella di controllo predefinita corrispondente all'agenzia predefinita a cui inviare le dichiarazioni di malattie e infortuni.  
 23. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

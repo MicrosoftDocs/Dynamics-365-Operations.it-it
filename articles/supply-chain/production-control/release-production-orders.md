@@ -64,3 +64,6 @@ Il lavoro per il prelievo delle materie prime viene generato durante il rilascio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

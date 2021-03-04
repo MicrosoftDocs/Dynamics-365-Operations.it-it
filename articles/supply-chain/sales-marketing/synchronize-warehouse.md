@@ -81,3 +81,6 @@ Nella figura seguente viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Magazzini (da Supply Chain Management a Field Service): Magazzino
 
 [![Mapping dei modelli in Integrazione dati](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

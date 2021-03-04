@@ -149,3 +149,6 @@ Per configurare la risposta delle API di disponibilità dei prodotti, attenersi 
 [Applicare impostazioni relative alle scorte](inventory-settings.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Per configurare la pulitura del registro del database, effettua le seguenti oper
    - Data e ora creazione
 
 3. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

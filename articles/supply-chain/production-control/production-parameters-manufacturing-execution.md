@@ -154,3 +154,6 @@ Le impostazioni seguenti possono essere utilizzate se i materiali devono essere 
 | Dichiarazione di finito |   Consumo DBA automatico    | <strong>Mai</strong>  |
 | Dichiarazione di finito | Aggiorna report dichiarazione di finito in linea | <strong>Stato</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

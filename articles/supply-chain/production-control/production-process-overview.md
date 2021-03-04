@@ -88,3 +88,6 @@ Le seguenti operazioni nel ciclo di vita della produzione possono verificarsi pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

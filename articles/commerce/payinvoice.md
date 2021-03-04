@@ -45,3 +45,6 @@ Per attivare questi scenari, il profilo della funzionalità per i punti vendita 
 
 > [!NOTE]
 > Il pagamento o la liquidazione di importi parziali non è supportato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

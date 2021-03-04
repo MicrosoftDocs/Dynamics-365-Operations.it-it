@@ -50,3 +50,6 @@ La dimensione di tracciabilità **Proprietario** non è presente quando l'app de
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione delle funzionalità. Attualmente, i processi di gestione del magazzino supportano solo l'inventario di proprietà della persona giuridica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

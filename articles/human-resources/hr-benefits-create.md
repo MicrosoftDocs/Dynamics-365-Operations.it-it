@@ -53,3 +53,6 @@ Questa attività indicherà come creare elementi di benefit che verranno utilizz
 6. Nel campo Validità immettere una data e un'ora.
 7. Fare clic su Crea benefit.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

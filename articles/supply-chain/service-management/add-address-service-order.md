@@ -75,3 +75,6 @@ Per aggiungere un indirizzo alternativo a un ordine di assistenza, effettuare le
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

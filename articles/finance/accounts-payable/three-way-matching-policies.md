@@ -145,3 +145,6 @@ Per ulteriori informazioni, vedere [Panoramica dell'abbinamento fatture della co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

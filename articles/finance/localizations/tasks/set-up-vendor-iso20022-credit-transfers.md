@@ -52,3 +52,6 @@ Si tratta della quarta procedura di cinque, che illustra il processo di pagament
 4. Nell'elenco fare clic sul collegamento nella riga SEPA CT.
 5. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

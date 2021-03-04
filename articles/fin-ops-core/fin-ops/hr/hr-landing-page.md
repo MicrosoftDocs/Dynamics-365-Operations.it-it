@@ -93,3 +93,6 @@ Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro e confo
 - [Progettare questionari](../../../talent/design-questionnaires.md)
 - [Distribuire e programmare questionari](../../../talent/distribute-questionnaires.md)
 - [Visualizzare e valutare i risultati dei questionari](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ La seguente illustrazione mostra un esempio di un ordine e-commerce in cui è st
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Modulo di informazioni sul ritiro](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

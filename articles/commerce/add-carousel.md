@@ -86,3 +86,6 @@ Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà n
 [Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

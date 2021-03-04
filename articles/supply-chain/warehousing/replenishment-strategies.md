@@ -115,3 +115,6 @@ I risultati differiscono a causa delle informazioni disponibili quando si crea i
 [![Esempio 2](media/ReplenTemp_example_2.png "Esempio 2")](media/ReplenTemp_example_2_large.png)
 
 Pertanto, per ottenere la quantità massima nelle ubicazioni rifornite, è necessario impostare l'opzione **Consenti divisione** su *Sì* nelle direttive di ubicazione per il prelievo di rifornimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

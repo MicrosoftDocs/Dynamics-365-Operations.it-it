@@ -117,3 +117,6 @@ Se prevedi di utilizzare questo approccio per una grande quantità di dati trans
 [Funzione ER FIRSTORNULL](er-functions-list-firstornull.md)
 
 [Funzione ER WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

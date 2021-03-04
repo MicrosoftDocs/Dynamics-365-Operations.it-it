@@ -164,3 +164,6 @@ Per configurare funzionalità facoltative per l'ambiente di valutazione Commerce
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sito Web di Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

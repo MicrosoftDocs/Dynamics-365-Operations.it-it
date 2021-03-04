@@ -109,3 +109,6 @@ Usare i seguenti criteri per selezionare e aggiornare i prodotti o le varianti d
 - [Assegnare uno stato del ciclo di vita di prodotto a un prodotto rilasciato](tasks/product-lifecycle-state-released-product.md)
 - [Trovare i prodotti o le varianti prodotto obsoleti e associare uno stato del ciclo di vita](tasks/obsolete-product-variants.md)
 - [Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

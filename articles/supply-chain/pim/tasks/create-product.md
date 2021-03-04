@@ -39,3 +39,6 @@ In questa procedura vengono descritti i passaggi per creare un nuovo prodotto ne
 8. Nel campo Numero prodotto, digitare un valore.
 9. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ In questa procedura viene descritto come generare il report di riconciliazione i
 6. Selezionare Sì nel campo Mostra dettagli.
 7. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

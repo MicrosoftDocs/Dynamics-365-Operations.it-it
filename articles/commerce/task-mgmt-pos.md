@@ -64,3 +64,6 @@ La figura di seguito mostra la scheda **Elenchi di attività**.
 [Creare elenchi di attività e aggiungere attività](task-mgmt-create-lists.md)
 
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

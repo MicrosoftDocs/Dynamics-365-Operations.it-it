@@ -31,3 +31,6 @@ Come per tutte le spese varie, le spese generate dal trasporto devono essere ass
 Andare a **Gestione trasporti > Impostazione > Valutazione > Spese varie** definire i criteri di qualificazione che determinano quando uno specifico **Codice spese** viene applicato a una spesa.
 
 È necessaria almeno una configurazione per ogni impostazione **Modulo spese** pertinente (*Cliente* e *Fornitore*) dove il **Tipo di spesa varia** è impostato su *Nessuno*. Se questa manca, la spesa varia *non* viene aggiunta all'ordine.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

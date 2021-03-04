@@ -40,3 +40,6 @@ I profili di ammortamento determinano il tipo e la frequenza di ammortamento per
 7. Selezionare un'opzione nel campo **Frequenza periodo**.
 8. Chiudere il modulo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

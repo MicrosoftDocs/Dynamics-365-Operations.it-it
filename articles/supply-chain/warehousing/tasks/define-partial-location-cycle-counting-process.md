@@ -73,3 +73,6 @@ Quando si utilizzano i piani di conteggio ciclo per creare il lavoro di conteggi
 14. Fare clic su OK.
 15. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

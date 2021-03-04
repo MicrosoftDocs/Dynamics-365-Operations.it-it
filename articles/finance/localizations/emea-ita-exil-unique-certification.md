@@ -103,3 +103,6 @@ I dati di origine utilizzati per l'importazione possono essere presentati come u
 ## <a name="process-the-unique-certification"></a>Elaborare la certificazione unica
 
 Dopo che la certificazione univoca è stata generata e riempita con i dati, è possibile selezionare **Convalida** per convalidare i dati prima che venga generato il file di output. Dopo la convalida del file di output, selezionare **Esporta** per generare il file di output elettronico nel formato legalmente richiesto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

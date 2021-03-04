@@ -79,3 +79,6 @@ Diverse statistiche sulla gestione dei crediti sono incluse nella scheda dettagl
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Sequenze numeriche e parametri di sequenza numerica condivisi
 
 Per elaborare le correzioni del limite di credito si deve disporre di un ID giornale di registrazione. È necessario aggiungere il numero di correzione del limite di credito che deve essere utilizzato per generare l'ID giornale di registrazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

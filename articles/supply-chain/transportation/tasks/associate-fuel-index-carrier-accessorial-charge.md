@@ -78,3 +78,6 @@ Questa guida illustra creare un'assegnazione di spese accessorie, di spese acces
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 7. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -408,3 +408,6 @@ Ora è possibile scegliere l'ordine cliente 2. Si è sbloccato quando sono stati
 - È possibile sovrascrivere manualmente la disponibilità del lavoro di rifornimento per ciascuna intestazione di lavoro dalla pagina **Dettagli del lavoro** se si desidera.
 - Quando il sistema imposta la disponibilità del lavoro di rifornimento, considera qualsiasi inventario che si trova già nell'ubicazione prima del completamento di qualsiasi lavoro
 - Ogni lavoro dell'ordine di vendita è collegato a un lavoro di rifornimento specifico. Non esiste una corrispondente funzionalità di disponibilità del lavoro di vendita.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

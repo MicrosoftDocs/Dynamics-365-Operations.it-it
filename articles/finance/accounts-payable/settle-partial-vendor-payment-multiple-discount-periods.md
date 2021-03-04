@@ -140,3 +140,6 @@ Il 20 luglio April crea un pagamento finale di 200,00 per la fattura. Non viene 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

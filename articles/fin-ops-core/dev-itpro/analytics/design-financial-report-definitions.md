@@ -84,3 +84,6 @@ Nella seguente tabella sono descritte le schede in una definizione di report e c
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Le immagini di catalogo, categoria, dipendente e cliente che devono essere utili
 5. Utilizzare un processo analogo per altre le entità, ad esempio categoria, dipendente e cliente.
 
     [![Immagine offline](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

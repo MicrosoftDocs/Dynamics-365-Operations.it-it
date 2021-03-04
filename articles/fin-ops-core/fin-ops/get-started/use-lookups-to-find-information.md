@@ -83,3 +83,6 @@ In questo caso, l'utente deve annullare il valore del controllo di ricerca, apri
 Dopo che il filtro è stato applicato (vedere l'immagine di seguito), l'utente può individuare e selezionare la riga come di consueto.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

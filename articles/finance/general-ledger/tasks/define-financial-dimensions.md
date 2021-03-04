@@ -55,3 +55,6 @@ Questa guida di attività dimostra l'aggiunta una dimensione finanziaria support
 9. Nel campo **Valore di dimensione**, immettere un nome per descrivere il valore della dimensione finanziaria.
 10. Nel campo **Descrizione**, immettere una descrizione che descrive il valore di dimensione finanziaria.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Prima di poter inviare e-mail, è necessario configurare il servizio di posta in
 [Prerequisiti di impostazione dei canali](channels-prerequisites.md)
 
 [Panoramica organizzazioni e gerarchie organizzative](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

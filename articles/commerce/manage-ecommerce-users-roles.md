@@ -71,3 +71,6 @@ Dopo la creazione del sito, solo gli utenti nei gruppi di sicurezza associati ai
 [Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito](search-engine-optimization-considerations.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

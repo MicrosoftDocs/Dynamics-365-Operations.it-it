@@ -74,3 +74,6 @@ Nella schermata seguente viene illustrato un esempio di calcolo **Controllo ore 
 Un altro metodo di eseguire un calcolo delle ore è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi fare clic sul pulsante **Controllo ore** nella Scheda dettaglio **Generale**. I cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic su **OK** nella finestra di dialogo **Controllo ore cespiti** e viene visualizzato il calcolo dei cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

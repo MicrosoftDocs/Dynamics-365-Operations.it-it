@@ -113,3 +113,6 @@ In alcune situazioni in cui gli ordini cliente vengono creati indirettamente, ad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

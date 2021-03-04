@@ -91,3 +91,6 @@ In questo argomento, completerai due passaggi principali:
 9. Nella finestra di dialogo **Entità di sicurezza**, seleziona l'entità di sicurezza aggiungendo **Componente aggiuntivo per la fatturazione elettronica**.
 10. Seleziona **Aggiungi** e quindi seleziona **Salva le modifiche di Key Vault**.
 11. Nella pagina **Panoramica**, copia il valore **Nome DNS** valore per il Key Vault. Questo valore verrà utilizzato durante la configurazione del servizio in RCS e verrà indicato come *URI di Key Vault*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

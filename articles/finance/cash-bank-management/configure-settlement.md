@@ -67,3 +67,6 @@ Per evitare le voci contabili aggiuntive, il debito e il credito nello stesso co
 
 -   Le organizzazioni utilizzano spesso dimensioni fisse per compilare con zero una dimensione finanziaria che non è richiesta. È il caso in genere dei conti dello stato patrimoniale, ad esempio contabilità clienti/contabilità fornitori. Le strutture dei conti possono essere utilizzate per non tenere traccia delle dimensioni finanziarie che sono in genere completate con zeri.  È possibile rimuovere la dimensione finanziaria per i conti dello stato patrimoniale, eliminando la necessità di utilizzare dimensioni fisse.
 -   Se l'organizzazione richiede dimensioni fisse nel conto principale contabilità fornitori/contabilità clienti, trovare un modo per impostare come valore predefinito la dimensione fissa nel pagamento, in modo che il valore di dimensione fissa sia memorizzato nella transazione fornitore per il pagamento. Ciò permetterà al sistema di ricostruire il conto principale contabilità fornitori/contabilità clienti per includere i valori di dimensione fissa. Il valore di dimensione fissa può essere definito come valore predefinito sui fornitori o il nome del giornale di registrazione pagamenti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

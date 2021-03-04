@@ -65,3 +65,6 @@ Negli argomenti delle funzioni logiche, è possibile utilizzare riferimenti a or
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni logiche](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

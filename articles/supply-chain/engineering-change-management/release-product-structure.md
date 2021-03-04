@@ -160,3 +160,6 @@ Questo comportamento si applica solo quando un prodotto viene selezionato dirett
 Ad esempio, il prodotto X è assegnato al gruppo di proprietari di prodotto *Armadi di design*. Il prodotto X fa anche parte della distinta base del prodotto Y, che è assegnato a gruppo di proprietari del prodotto *Altoparlanti di design*. Se un utente del gruppo di proprietari del prodotto *Altoparlanti di design* rilascia il prodotto Y e la relativa distinta base, il prodotto X verrà rilasciato insieme al prodotto Y.
 
 Per ulteriori informazioni, vedere [Proprietari del prodotto](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

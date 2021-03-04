@@ -216,3 +216,6 @@ Il riquadro scorrevole mostra i risultati di esecuzione più recenti per il proc
 [Creare e modificare entità virtuali che contengono dati di un'origine dati esterna](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Cosa sono i portali di Power Apps?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Panoramica sulla creazione di app in Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

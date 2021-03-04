@@ -42,3 +42,6 @@ Questa attività riguarda la preparazione di un processo kanban di lavorazione q
 6. Fare clic su Prepara.
     * Il processo di preparazione è ora completato. La casella di controllo selezionata per tutte le righe della distinta di prelievo indica che lo stato della fornitura è Prelevato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

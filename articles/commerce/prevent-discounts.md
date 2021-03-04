@@ -41,3 +41,6 @@ Le opzioni seguenti, disponibili nella scheda **Commerce** dei prodotti rilascia
 > Queste impostazioni non limitano l'operazione di sostituzione dei prezzi in quanto questa definisce il prezzo base e non è considerata come sconto.
 
 [![Campo Impedisci sconti](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

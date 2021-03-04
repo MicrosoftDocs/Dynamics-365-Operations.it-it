@@ -46,3 +46,6 @@ Se non è stata ancora riprodotta la guida attività seguente, [ER Creare le con
 | Descrizione contenuto    | File                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Configurazione modello di ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

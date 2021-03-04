@@ -44,3 +44,6 @@ Le regole di allocazione contabile possono essere utilizzate per il piano di bud
 > [!NOTE]
 > Non è possibile utilizzare le regole di allocazione contabile interaziendali per la pianificazione del budget.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

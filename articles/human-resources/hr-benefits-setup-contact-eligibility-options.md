@@ -45,3 +45,6 @@ In questo articolo viene illustrato come configurare i tipi di contatti personal
    | **Età** | L'età massima di un contatto personale idoneo per il piano di benefit. Questo campo è attivo solo se si seleziona una relazione. Questa età viene confrontata all'età calcolata del contatto personale. L'età calcolata è: (data di copertura - data di nascita del contatto personale / 365). Questo numero è sempre un numero intero. |
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Questo argomento fornisce informazioni su come analizzare e gestire i requisiti 
     - Se **Ruolo** è selezionato, selezionare **Aggiungi ruolo a utente**. Verrà aperta la pagina **Assegna utenti a ruoli**. Per ulteriori informazioni, vedere la pagina [Assegnare gli utenti ai ruoli di sicurezza](assign-users-security-roles.md).
     - Se **Compito** è selezionato, selezionare **Aggiungi compito a ruolo**, selezionare i ruoli a cui deve essere aggiunto il compito, quindi **OK**.
     - Se **Privilegio** è selezionato, selezionare **Aggiungi privilegio a compiti**, selezionare i ruoli a cui deve essere aggiunto il compito, quindi **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

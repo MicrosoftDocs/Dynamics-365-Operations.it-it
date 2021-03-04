@@ -60,3 +60,6 @@ In questo argomento viene descritto come impostare i produttori di cespiti e i r
 2. Nella colonna **Cespite**, selezionare il collegamento per il cespite. Viene visualizzata la pagina **Dettagli**.
 3. Selezionare **Modifica**.
 4. Nella Scheda dettaglio **Generale**, selezionare i valori nei campi **Modello** e **Produttore**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

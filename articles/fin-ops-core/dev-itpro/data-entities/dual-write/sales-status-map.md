@@ -150,3 +150,6 @@ Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
     ![Modifica del valore del campo Modalità utente integrazione](media/sales-map-user-mode-yes.png)
 
 I tuoi ordini cliente sono ora mappati.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

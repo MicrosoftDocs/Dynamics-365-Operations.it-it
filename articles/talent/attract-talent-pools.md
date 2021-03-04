@@ -149,3 +149,6 @@ Spesso, diversi candidati validi per una mansione non vengono selezionati, ma no
 1. Nella pagina della domanda di lavoro, selezionare **Aggiungi a pool di talenti**. Un elenco dei pool di talenti a cui si ha accesso viene visualizzato.
 
 1. Selezionare o cercare il pool di talenti quindi selezionare **Aggiungi** per aggiungere il candidato a tale pool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

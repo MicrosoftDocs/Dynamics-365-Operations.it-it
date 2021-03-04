@@ -57,3 +57,6 @@ Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in o
 | Contabilità generali                   | Contabilità generale utilizzabile per filtrare il report nella contabilità generale corrente              |
 | Codici budget              | Codici budget per filtrare i report per                                                |
 | Persone giuridiche            | Persone giuridiche utilizzabili per filtrare il report nella persona giuridica corrente |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

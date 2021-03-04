@@ -57,3 +57,6 @@ Completare i seguenti passaggi per risolvere i problemi con i modelli ER a cui n
 Un problema simile può verificarsi se si esegue la migrazione dell'istanza dell'applicazione in un'altra posizione utilizzata più volte come destinazione della migrazione e per la quale l'archiviazione BLOB contiene già file modello ER.
 
 Poiché è possibile disporre di più configurazioni di formato ER, questo processo può richiedere molto tempo. È pertanto preferibile utilizzare la funzionalità [Archiviazione di backup di modelli ER](er-backup-storage-templates.md) per ripristinare automaticamente i modelli con riferimenti interrotti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

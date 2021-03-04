@@ -114,3 +114,6 @@ Per impostare l'attributo **Età minima** per una risorsa video, attenersi alla 
 [Aggiungere una pagina dell'Informativa sulla privacy](add-privacy-page.md)
 
 [Sostituire gli ID utente associati alle modifiche al contenuto monitorato](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

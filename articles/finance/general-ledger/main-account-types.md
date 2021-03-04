@@ -41,3 +41,6 @@ Per ulteriori informazioni, vedere [Impostare le categorie di conti principali](
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

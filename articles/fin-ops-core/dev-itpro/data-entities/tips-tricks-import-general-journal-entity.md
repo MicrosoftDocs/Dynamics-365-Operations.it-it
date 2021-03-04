@@ -65,3 +65,6 @@ Le seguenti sezioni descrivono l'effetto di queste impostazioni. Spiegano inoltr
 - Se il campo **Numero del giustificativo** è impostato su **Generato automaticamente**, l'importazione non riuscirà. L'impostazione **Generato automaticamente** per il campo **Numero del giustificativo** non è supportata.
 
 Per impostazione predefinita, l'entità giornale di registrazione generale utilizza l'elaborazione basata su set. Dopo aver valutato i requisiti aziendali dell'organizzazione, è possibile modificare l'impostazione **Elaborazione basata su set** facendo clic su **Entità di dati** nell'area di lavoro **Gestione dati**. L'elaborazione basata su set viene utilizzata per velocizzare il processo di importazione. Se non si utilizza l'elaborazione basata su set, l'importazione tramite l'entità giornale di registrazione generale sarà più lenta.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Per ulteriori informazioni su come impostare le fatture elettroniche, è possibi
 
 > [!NOTE] 
 > Sebbene queste Guide attività vengano create per il formato di fatturazione elettronico *OIOUBL* specifico della Danimarca, sono applicabili agli altri paesi/aree geografiche supportati con piccole differenze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

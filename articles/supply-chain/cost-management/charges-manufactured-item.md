@@ -40,3 +40,6 @@ Le spese per un articolo prodotto vengono sempre incluse nel costo unitario dell
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

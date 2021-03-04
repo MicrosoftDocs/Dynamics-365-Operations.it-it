@@ -43,3 +43,6 @@ In questa procedura viene illustrato l'utilizzo della Richiesta di informazioni 
 12. Nel riquadro azioni fare clic su **Documento originale**.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

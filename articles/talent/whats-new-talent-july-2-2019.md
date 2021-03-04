@@ -55,3 +55,6 @@ Questa versione include correzioni di bug minori per Dynamics 365 Talent: Onboar
 ## <a name="changes-in-core-hr"></a>Modifiche di Core HR
 
 Questa versione include correzioni di bug minori per Dynamics 365 Talent: Core HR.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ I prodotti venduti dall'organizzazione possono presentare varianti differenziate
     Nella pagina **Totali** vengono visualizzati i dettagli dell'intero ordine. Sono inclusi l'importo subtotale, ovvero una somma di tutti gli importi netti della riga rettificati per gli sconti riga finali, l'importo totale della fattura, ovvero un importo subtotale rettificato per lo sconto a livello di ordine finale, le spese e l'IVA, la situazione limite di credito del cliente e altro. Importo della fattura è l'importo che verrà visualizzato nel documento fattura del cliente.  
     
 3. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

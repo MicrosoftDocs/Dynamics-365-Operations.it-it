@@ -57,3 +57,6 @@ In questo argomento viene descritto come creare un contratto di vendita con cui 
 11. Selezionare **OK**.
 12. Chiudere la pagina. Il contratto è ora effettivo. È possibile avviare il collegamento degli ordini cliente al contratto, da compensare a fronte della destinazione impegnata.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

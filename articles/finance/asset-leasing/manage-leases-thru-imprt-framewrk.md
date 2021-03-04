@@ -83,3 +83,6 @@ Se stai utilizzando il framework di importazione leasing per aggiornare i leasin
 
 1. Vai a **Leasing cespite \> Framework di importazione leasing \> Imposta \> Aggiorna selezione campi**.
 2. Nella pagina visualizzata, seleziona i campi da aggiornare, quindi seleziona la freccia verde per spostarli nell'elenco **Campi selezionati**. Solo i campi nell'elenco **Campi selezionati** possono essere aggiornati utilizzando la suite di importazione leasing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

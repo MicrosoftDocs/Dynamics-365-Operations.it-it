@@ -100,3 +100,6 @@ I processi di retribuzione vengono utilizzati per determinare nuovi importi e pr
 10. Fare clic su Approvato.
     * Dopo che il record è stato approvato può essere caricato nel record ufficiale di retribuzione del dipendente. La nuova retribuzione sarà valida a partire dalla data di transazione specificata nel processo di retribuzione.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

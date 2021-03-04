@@ -64,3 +64,6 @@ Per effettuare il provisioning dell'ambiente di valutazione Commerce, consultare
 [Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

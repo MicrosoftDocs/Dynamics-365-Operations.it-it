@@ -43,3 +43,6 @@ Questa procedura illustra come modificare la previsione per un articolo. La soci
 1. Fare clic su **Apri** in Microsoft Office.
 2. Fare clic sull'opzione per **modificare una previsione della domanda** in Excel. In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

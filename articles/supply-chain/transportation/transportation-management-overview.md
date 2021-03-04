@@ -87,3 +87,6 @@ Supply Chain Management offre una strategia di allestimento del carico denominat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

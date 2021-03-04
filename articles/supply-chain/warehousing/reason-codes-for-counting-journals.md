@@ -144,3 +144,6 @@ I seguenti campi verranno aggiunti alla voce di menu del dispositivo mobile quan
 - Codice motivo conteggio predefinito
 - Visualizza codice motivo conteggio
 - Modifica codice motivo conteggio
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

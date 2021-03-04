@@ -59,3 +59,6 @@ Dopo aver importato i dati storici della domanda, è possibile generare una prev
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

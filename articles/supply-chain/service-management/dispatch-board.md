@@ -54,3 +54,6 @@ Per informazioni sull'esecuzione di attività specifiche in un prospetto interve
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

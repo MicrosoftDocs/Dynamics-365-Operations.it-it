@@ -289,3 +289,6 @@ Quando l'origine dati configurata viene eseguita mentre l'esecuzione ER è [trac
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Generare la traccia dell'esecuzione del formato ER per risolvere problemi relativi alle prestazioni](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

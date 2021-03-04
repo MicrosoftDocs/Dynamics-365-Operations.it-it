@@ -253,3 +253,6 @@ Per le pagine con grandi selettori di visualizzazione (personalizzazioni e query
 
 - Se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Se quel riquadro è stato creato dopo aver abilitato le visualizzazioni, la selezione di un riquadro aprirà la pagina con la visualizzazione associata a quel riquadro.
 - Se si accede a una pagina e quel punto di ingresso include una query, la query originale verrà eseguita al posto della query della visualizzazione predefinita. Quando ciò avviene, si verrà avvisati mediante un messaggio informativo durante il caricamento della visualizzazione. È inoltre possibile confermare passando a questa visualizzazione dopo il caricamento della pagina, in quanto la visualizzazione della query dovrebbe essere eseguita.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

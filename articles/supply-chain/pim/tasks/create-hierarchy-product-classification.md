@@ -67,3 +67,6 @@ Questa procedura mostra come creare una nuova gerarchia di categorie e assegnare
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
 9. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

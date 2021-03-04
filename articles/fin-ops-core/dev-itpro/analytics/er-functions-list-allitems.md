@@ -65,3 +65,6 @@ Se si immette **Vend** come origine dati del tipo di dati *Elenco di record* che
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di elenco](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ Quando si esegue un'analisi dei conti mancanti, sono disponibili i seguenti tast
 [Creazione di report finanziari](financial-reporting-intro.md)
 
 [Interfaccia di Progettazione report](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

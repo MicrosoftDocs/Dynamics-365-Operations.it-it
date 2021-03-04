@@ -57,3 +57,6 @@ Per poter utilizzare l'area di lavoro **Elenco di controllo di convalida dati**,
 Le aree di attività si utilizzano per raggruppare attività di convalida dati in aree logiche di proprietà all'interno dell'organizzazione. Ad esempio, i gruppi Contabilità fornitori, Contabilità clienti, o Contabilità generale possono essere utilizzati come aree di attività.
 
 La voce di menu **Nome voce di menu** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di convalida dati che esegue il report **Aging contabilità fornitori** per la contabilità fornitori può essere collegata alla pagina del report **Aging contabilità fornitori**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

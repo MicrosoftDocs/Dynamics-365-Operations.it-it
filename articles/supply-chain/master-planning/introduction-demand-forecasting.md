@@ -100,3 +100,6 @@ Si noti che l'UOM di previsione della domanda non deve avere alcun significato s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Verrà eseguito il mapping di modello creato a scopo di verifica per vedere come
     * Selezionare Sfoglia e selezionare il file Response4.xml.
 16. Selezionare OK.
     * Esaminare l'output generato. Il tipo di risposta è stato riconosciuto correttamente come uguale per il file Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

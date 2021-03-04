@@ -114,3 +114,6 @@ Nella seguente tabella sono descritti i tasti di scelta rapida che possono esser
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

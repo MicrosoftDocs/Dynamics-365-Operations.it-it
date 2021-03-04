@@ -49,3 +49,6 @@ Quando si creano le transazioni di rimborso, viene creata una fattura fornitore 
 
 5. Per visualizzare le transazioni di rimborso create, utilizza il report **Rimborso** (**Contabilità clienti \> Richieste di informazioni e report \> Report di rimborso**).
 6. In Contabilità fornitori, creare un pagamento per le fatture fornitore create dal processo di rimborso. Per informazioni su come pagare i fornitori, vedi [Panoramica dei pagamenti del fornitore](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

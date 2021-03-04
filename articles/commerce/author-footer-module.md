@@ -87,3 +87,6 @@ Aggiungendo il frammento ai modelli di pagina, si assicura il rendering del piè
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

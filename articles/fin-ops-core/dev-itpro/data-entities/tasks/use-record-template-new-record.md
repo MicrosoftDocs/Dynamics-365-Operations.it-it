@@ -35,3 +35,6 @@ Questa procedura utilizza la società USMF.
 3. Nell'elenco trovare e selezionare il record desiderato.
 4. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

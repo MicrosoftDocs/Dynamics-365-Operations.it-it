@@ -65,3 +65,6 @@ Tali passaggi possono essere completati mediante un set di dati. Per completare 
     * Mapping di esempio Intrastat  
 5. Fare clic su Crea configurazione.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

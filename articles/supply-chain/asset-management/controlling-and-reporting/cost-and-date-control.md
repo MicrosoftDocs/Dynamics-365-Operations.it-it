@@ -108,3 +108,6 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 ![Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

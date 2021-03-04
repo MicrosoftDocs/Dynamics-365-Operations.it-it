@@ -305,3 +305,6 @@ Le query della sequenza di lavoro dirette dal sistema sono *inclusive*. È impor
 Pertanto, nell'esempio di questo scenario, l'ID lavoro *4* è stato anche acquisito dalla query. Quando è stato creato, sono state aggiunte due righe: una per 25 ea e una per 10 ea. Il lavoro è stato ancora presentato all'utente, poiché almeno una riga di lavoro ha una quantità inferiore a 20 ea.
 
 A seconda dello scenario, è possibile impedire questo comportamento utilizzando le suddivisioni del lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

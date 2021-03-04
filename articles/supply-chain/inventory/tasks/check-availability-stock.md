@@ -60,3 +60,6 @@ Nella procedura viene illustrato come controllare le scorte disponibili e fisich
 5. Fare clic su **OK**.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

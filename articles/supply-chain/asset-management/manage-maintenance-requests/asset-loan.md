@@ -58,3 +58,6 @@ Nella pagina **Prestiti attivi cespiti**, è possibile visualizzare un elenco di
 3. Nel campo **Restituito** immettere la data e l'ora.
 4. Selezionare **OK**.
 5. Aggiornare la pagina elenco **Prestiti attivi cespiti** e osservare che il cespite in prestito non è più presente nell'elenco.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

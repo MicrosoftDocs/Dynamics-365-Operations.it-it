@@ -79,3 +79,6 @@ I modelli di orario di lavoro definiscono le ore lavorative di una settimana e v
 3. Espandere la sezione Domenica.
 4. Selezionare Sì nel campo Chiuso per prelievo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

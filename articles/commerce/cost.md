@@ -171,3 +171,6 @@ Per questa combinazione, è necessario impostare i campi seguenti:
 
 > [!IMPORTANT]
 > La funzionalità DOM prende in considerazione questi costi durante l'esecuzione solo se il fattore di costo viene aggiunto al profilo di evasione rilevante.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

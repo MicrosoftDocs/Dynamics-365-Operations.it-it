@@ -45,3 +45,6 @@ Nella seguente tabella vengono riportati i tipi di gerarchie di categorie dispon
 | Gerarchia di navigazione   | Utilizzare questo tipo di gerarchia per raggruppare e organizzare i prodotti in categorie in modo che possano essere esplorati online o nei POS. |
 
 Utilizzando una gerarchia di categorie per strutturare i prodotti, è possibile impostare e gestire gli attributi del prodotto e le proprietà a livello di categoria. Tali attributi e proprietà includono le impostazioni per le dimensioni prodotto e le impostazioni del POS. Tutti i prodotti assegnati alle categorie ereditano automaticamente gli attributi e le proprietà definiti. È inoltre possibile copiare le impostazioni delle proprietà per qualsiasi prodotto a più prodotti in una categoria selezionata contemporaneamente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

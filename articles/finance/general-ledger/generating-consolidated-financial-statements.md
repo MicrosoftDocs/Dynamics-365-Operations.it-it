@@ -224,3 +224,6 @@ Per ottenere la conversione corretta degli importi quando si utilizzano le valut
 Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

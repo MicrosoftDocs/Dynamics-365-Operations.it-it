@@ -36,3 +36,6 @@ La proprietà **Scopo autenticazione server** del certificato V5 viene emessa da
 Questo aggiornamento consente una soluzione alternativa per la convalida del certificato, il che significa che è possibile stabilire una comunicazione sicura.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

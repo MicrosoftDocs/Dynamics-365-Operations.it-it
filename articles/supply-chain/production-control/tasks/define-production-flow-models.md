@@ -46,3 +46,6 @@ I modelli di flusso di produzione descrivono come la capacità delle celle di la
 8. Selezionare un'opzione nel campo Reazione alla carenza di capacità.
     * Le opzioni sono: Posticipa, per posticipare la domanda completa dell'evento di programmazione al successivo giorno di produzione disponibile con produttività disponibile. Annulla, per terminare la pianificazione automatica per l'evento di programmazione e lascia i processi correlati non pianificati.   Aggiungi al giorno richiesto, per pianificare i processi necessari per il periodo richiesto. Ciò determina un overload della cella per questo giorno e richiede al responsabile della pianificazione di rivedere e interagire manualmente.   Distribuire i diversi processi di evento di programmazione a tutti i giorni di produzione disponibili, a partire dal primo giorno disponibile. La quantità di distribuzione minima è la quantità del processo kanban. La distribuzione assegna la quantità di pianificazione minima (quantità kanban) per ogni giorno con sufficiente produttività disponibile.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

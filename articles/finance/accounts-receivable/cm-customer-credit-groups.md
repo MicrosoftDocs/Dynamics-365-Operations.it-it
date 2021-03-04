@@ -39,3 +39,6 @@ I membri di un gruppo di crediti cliente possono essere selezionati tra diverse 
 Dopo aver completato l'impostazione di un gruppo di crediti cliente, è possibile aggiungervi clienti specificando la relativa persona giuridica e l'ID conto cliente. Quando si aggiunge un nuovo cliente a un gruppo di crediti cliente, il sistema cerca lo stesso conto cliente in tutte le persone giuridiche e richiede di aggiungerlo al gruppo di crediti cliente.
 
 Utilizzare il menu **Saldi con aging** per visualizzare i dettagli del saldo con aging per tutti i clienti di fatturazione in un gruppo di crediti cliente. La pagina **Saldo di aging** mostra un riepilogo dei saldi con aging per i conti cliente fattura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

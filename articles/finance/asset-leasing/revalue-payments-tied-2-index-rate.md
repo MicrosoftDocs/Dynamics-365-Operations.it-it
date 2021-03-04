@@ -68,3 +68,6 @@ Per visualizzare gli effetti del processo di rivalutazione del leasing sui leasi
 È possibile visualizzare lo scadenziario pagamenti appena generato che inizia alla data di rivalutazione e mostrare l'importo totale del pagamento aggiornato. Sono stati inoltre creati un nuovo piano di ammortamento dell'obbligazione sul leasing e un piano di ammortamento dei cespiti per riflettere lo scadenziario dei pagamenti rettificato.
 
 La scrittura contabile ha registrato automaticamente la scrittura contabile di rettifica nel conto per la modifica dei canoni di leasing correlati alla rivalutazione dell'indice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

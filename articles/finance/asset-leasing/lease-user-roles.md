@@ -44,3 +44,6 @@ Attieniti alla seguente procedura per assegnare gli utenti ai ruoli utilizzati i
 1. Passa ad **Amministrazione sistema \> Sicurezza \> Assegna utenti a ruoli**.
 2. Seleziona il ruolo **Mantenere il leasing**, **Addetto al leasing** o **Visualizzare il leasing**, quindi seleziona **Assegna/escludi utenti manualmente**.
 3. Seleziona l'utente a cui assegnare il ruolo, quindi seleziona **Assegna a ruolo**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

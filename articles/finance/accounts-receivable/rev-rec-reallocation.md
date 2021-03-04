@@ -114,3 +114,6 @@ I seguenti argomenti trattano vari scenari per il riconoscimento dei ricavi:
 - [Riallocazione del riconoscimento dei ricavi - Scenario 2](rev-rec-reallocation-scenario-2.md) - Vengono immessi due ordini cliente e quindi il cliente aggiunge un articolo al contratto dopo che il primo ordine cliente è stato fatturato.
 - [Riallocazione del riconoscimento dei ricavi - Scenario 3](rev-rec-reallocation-scenario-3.md) - Viene aggiunta una nuova riga a un ordine cliente fatturato esistente.
 - [Riallocazione del riconoscimento dei ricavi - Scenario 4](rev-rec-reallocation-scenario-4.md) - Viene rimossa una riga da un ordine cliente fatturato parzialmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

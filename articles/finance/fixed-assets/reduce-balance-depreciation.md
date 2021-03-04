@@ -85,3 +85,6 @@ Utilizzando il metodo A saldi decrescenti, il 30% della base di ammortamento (va
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

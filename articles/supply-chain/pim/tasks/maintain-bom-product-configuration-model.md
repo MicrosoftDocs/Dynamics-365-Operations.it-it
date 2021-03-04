@@ -58,3 +58,6 @@ L'esecuzione di questa procedura richiede un modello di configurazione prodotto 
     * Verificare se le dimensioni prodotto sono attive e nel qual caso è necessario assegnare un valore o un attributo.  
 9. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

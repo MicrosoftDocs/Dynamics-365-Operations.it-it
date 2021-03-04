@@ -80,3 +80,6 @@ Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenzi
 1. Su una voce di menu del dispositivo mobile, apri il modulo di configurazione per la conferma del lavoro:  **Gestione magazzino** \> **Gestione magazzino** \> **Configurazione** \>  **Dispositivo mobile** \> **Voci di menu del dispositivo mobile**.
 
 1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**. L'opzione **Conferma prodotto** consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

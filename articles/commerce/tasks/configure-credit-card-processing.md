@@ -62,3 +62,6 @@ In questa procedura vengono descritti i passaggi per visualizzare l'elenco dei p
 24. Fare clic sulla casella di controllo Elaboratore predefinito nuove carte di credito.
 25. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1415,3 +1415,6 @@ Nella contabilità finanziaria, il costo di 10.000,00 dell'elettricità viene re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

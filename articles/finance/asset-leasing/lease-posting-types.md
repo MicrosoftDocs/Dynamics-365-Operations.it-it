@@ -154,3 +154,6 @@ Sul conto selezionato per ogni tipo di spesa viene effettuato un addebito quando
 
 > [!NOTE]
 > Il conto di contropartita viene selezionato a livello di leasing nelle righe per il programma di pagamento del costo esecutivo. Questo conto di contropartita può essere associato al fornitore o a un conto CoGe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

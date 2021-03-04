@@ -61,3 +61,6 @@ In questo argomento viene descritto come visualizzare le attività in un ordine 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

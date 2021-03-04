@@ -111,3 +111,6 @@ Per ulteriori informazioni, vedere [Creare un giornale di registrazione annullam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

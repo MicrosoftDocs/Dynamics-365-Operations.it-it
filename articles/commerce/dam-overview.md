@@ -60,3 +60,6 @@ Le risorse digitali e le funzionalità di gestione si trovano all'interno di Cre
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

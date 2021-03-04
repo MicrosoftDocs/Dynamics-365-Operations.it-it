@@ -75,3 +75,6 @@ Dopo la creazione del sito, è possibile verificare che sia associato al punto v
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

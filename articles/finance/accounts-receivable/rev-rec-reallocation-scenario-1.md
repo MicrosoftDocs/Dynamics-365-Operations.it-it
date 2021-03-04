@@ -58,3 +58,6 @@ Per completare la riallocazione, selezionare **Processo**. Viene richiesta una d
 > Per fornire un contesto sul motivo per cui vengono visualizzati questi elementi aggiuntivi, è possibile aggiungere altre colonne alla griglia, ad esempio **ID riallocazione** e **Ordine cliente**.
 > 
 > [![Colonne aggiuntive nella pagina Allocazione del prezzo dei ricavi](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

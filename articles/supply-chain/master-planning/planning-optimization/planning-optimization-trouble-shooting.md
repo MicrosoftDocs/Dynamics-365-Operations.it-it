@@ -75,3 +75,6 @@ Ciò è correlato a una funzionalità in sospeso pianificata come parte del supp
 [Introduzione all'ottimizzazione della pianificazione](get-started.md)
 
 [Analisi corrispondenza Ottimizzazione pianificazione](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ In Gestione cespiti, è possibile impostare documenti in modo da correlarli auto
 
 4. Selezionare **Allegati**. Verrà visualizzata la pagina **Gestione documenti** standard.
 5. Impostare i documenti o note che dovranno essere collegati al record documenti cespiti. Dopo aver collegato i documenti, il campo **Allegati** mostra il numero di documenti correlati al record.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

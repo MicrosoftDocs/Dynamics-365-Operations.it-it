@@ -72,3 +72,6 @@ Utilizzare i seguenti passaggi per creare una relazione dell'oggetto di assisten
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

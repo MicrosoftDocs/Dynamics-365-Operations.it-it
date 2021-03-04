@@ -260,3 +260,6 @@ Nell'esempio precedente, è stato effettuato l'accesso ai parametri specifici de
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

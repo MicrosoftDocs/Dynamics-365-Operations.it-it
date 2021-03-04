@@ -127,3 +127,6 @@ Per aggiungere un modulo Checkout a una nuova pagina e impostare le proprietà n
 [Modulo Dettagli ordini](order-confirmation-module.md)
 
 [Modulo gift card](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

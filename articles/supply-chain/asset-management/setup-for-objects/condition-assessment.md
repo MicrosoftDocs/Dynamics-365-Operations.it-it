@@ -66,3 +66,6 @@ Dopo avere effettuato una registrazione di valutazione delle condizioni di un ce
 
 >[!NOTE]
 >È anche possibile registrare la valutazione delle condizioni in un ordine di lavoro (**Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** > **Valutazione delle condizioni** ).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

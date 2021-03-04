@@ -64,3 +64,6 @@ Questa procedura descrive come confermare gli ordini cliente. Verrà illustrato 
 11. Fare clic su **OK**.
 12. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

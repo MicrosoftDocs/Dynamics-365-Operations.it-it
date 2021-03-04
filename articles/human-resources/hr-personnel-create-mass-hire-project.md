@@ -48,3 +48,6 @@ Questa procedura descrive il processo di configurazione del progetto di assunzio
     * Facoltativamente, selezionare il reparto per le nuove posizioni.  
 13. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

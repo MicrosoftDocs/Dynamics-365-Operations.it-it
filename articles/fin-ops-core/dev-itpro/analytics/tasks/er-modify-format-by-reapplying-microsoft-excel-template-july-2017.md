@@ -83,3 +83,6 @@ In questa procedura viene illustrato come modificare la configurazione ER riappl
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Utilizzare la versione bozza modificata del formato ER per l'elaborazione del giornale di registrazione pagamenti
 
 Esaminare il foglio di lavoro creato che include il nuovo dettaglio delle righe di pagamento, ovvero la data di pagamento.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

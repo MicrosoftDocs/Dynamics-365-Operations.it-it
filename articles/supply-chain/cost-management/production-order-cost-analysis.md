@@ -65,3 +65,6 @@ Le informazioni relative a ciascun tipo di transazione vengono fornite in report
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

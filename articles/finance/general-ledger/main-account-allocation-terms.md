@@ -70,3 +70,6 @@ Nella Scheda dettaglio **Conto CoGe di destinazione**, il conto principale sarà
 > Facoltativamente è possibile usare il pulsante **Copia** per duplicare l'allocazione selezionata.
 
 Quando viene creato un termine di allocazione per un conto principale, il sistema registrerà automaticamente un nuovo giustificativo quando viene registrato un giustificativo che corrisponde alle dimensioni finanziarie di origine nei termini di allocazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

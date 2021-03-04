@@ -157,3 +157,6 @@ Per scopi di verifica, eseguire il mapping di formato utilizzando il file Sample
 2. Fare clic su OK.
     * Esaminare l'output in formato XML, che rappresenta i dati che sono stati importati dal file selezionato e trasferiti nel modello dati. Tenere presente che solo le righe 3 del file TXT importato sono state elaborate. Nella riga 4 il codice IBAN non valido è stato ignorato e un messaggio di errore viene inviato nel Registro informazioni.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

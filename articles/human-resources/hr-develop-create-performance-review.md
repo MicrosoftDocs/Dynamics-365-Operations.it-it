@@ -78,3 +78,6 @@ In questo argomento viene illustrato come creare una revisione delle prestazioni
 34. Selezionare la scheda **Revisione**. Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  
 35. Selezionare la scheda **Conferme**. Il lavoratore e il responsabile possono confermare la revisione. Quando tutte le conferme necessarie sono state completate, lo stato diventa **Completato** e non è possibile apportare altre modifiche.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

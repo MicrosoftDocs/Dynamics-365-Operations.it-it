@@ -101,3 +101,6 @@ Questa procedura dimostra la creazione efficientemente delle offerte che offrono
 11. Passare a Vendite e marketing > Offerte di vendita > Tutte le offerte.
     * Verificare che le offerte siano state create per tutti i clienti specificati nella routine di aggiornamento di massa, in base al modello selezionato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Si consiglia di non eseguire questi processi batch troppo frequentemente (ogni p
 > Per motivi di prestazioni, quando vengono utilizzati i calcoli delle scorte disponibili sul lato canale per effettuare una richiesta di disponibilità scorte utilizzando l'API e-Commerce o la nuova logica di inventario sul canale POS, il calcolo utilizza una cache per determinare se è trascorso abbastanza tempo per giustificare la nuova esecuzione della logica di calcolo. La cache predefinita è impostata su 60 secondi. Ad esempio, hai attivato il calcolo lato canale per il tuo negozio e hai visualizzato le scorte disponibili per un prodotto nella pagina **Ricerca in magazzino**. Se viene venduta un'unità del prodotto, la pagina **Ricerca in magazzino** non mostrerà l'inventario ridotto fino a quando la cache non sarà stata canCellaata. Dopo che gli utenti registrano le transazioni nel POS, devono attendere 60 secondi prima di verificare che l'inventario disponibile sia stato ridotto.
 
 Se lo scenario aziendale richiede un tempo di cache inferiore, contattare il rappresentante dell'assistenza tecnica per assistenza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

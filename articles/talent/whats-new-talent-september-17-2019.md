@@ -59,3 +59,6 @@ In questa versione, il campo iFamiglie di processi è stato aggiunto alla pagina
 Questa funzionalità è ora disponibile negli ambienti sandbox. Per attivare questa funzionalità, passare ad **Amministrazione sistema > Collegamenti > Impostazioni > Parametri di sistema > Funzionalità di anteprima**. Selezionare **Navigazione e modulo lavoratore avanzati**. In questo modo le modifiche saranno valide per tutti gli utenti. È possibile disattivare questa opzione in qualsiasi momento.
 
 Per ulteriori informazioni, vedere [Inserimento e navigazione dei dipendenti semplificati](./streamlined-employee-entry.md). Per visualizzare le modifiche, guardare il video [Panoramica della seconda ondata della versione Dynamics 365 for Talent 2019](https://aka.ms/ROGT19RW2ROV).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

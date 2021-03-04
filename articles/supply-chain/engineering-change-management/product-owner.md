@@ -61,3 +61,6 @@ Ad esempio, il prodotto X è assegnato al gruppo di proprietari di prodotto *Arm
 ## <a name="product-owners-and-approvals"></a>Proprietari e approvazioni dei prodotti
 
 Poiché i proprietari dei prodotti sanno se modifiche di progettazione specifiche andranno a vantaggio dei loro prodotti, spesso ha senso includerle come parte del processo di approvazione nella gestione delle modifiche di progettazione. È possibile implementare questo approccio impostando i proprietari di prodotto come fornitori partecipanti nei flussi di lavoro utilizzati per la gestione delle modifiche di progettazione. Il sistema assegnerà quindi le attività di approvazione nei flussi di lavoro, in base ai prodotti presenti nelle richieste di modifica di progettazione e negli ordini di modifica di progettazione. Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

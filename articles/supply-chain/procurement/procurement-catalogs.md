@@ -76,3 +76,6 @@ Gli aggiornamenti vengono pubblicati automaticamente o manualmente, a seconda de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

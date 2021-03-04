@@ -69,3 +69,6 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 | Forzalavoro\_NomeLavoratore             | Nome, cognome e nome completo                                                                       | |
 | Forzalavoro\_TitoloLavoratore            | Titolo e data di anzianità                                                                                   | |
 | Forzalavoro\_TendenzaLavoratore             | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Forzalavoro\_Società, Forzalavoro\_Retribuzione, Forzalavoro\_PosizioneGeografica, Forzalavoro\_Prestazioni, Forzalavoro\_NomeLavoratore, Forzalavoro\_NomeSuperiore, Forzalavoro\_OffsetCalendario, Forzalavoro\_Data, Forzalavoro\_TitoloLavoratore, Forzalavoro\_DatiDemografici, Forzalavoro\_Impiego, Forzalavoro\_Mansione |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

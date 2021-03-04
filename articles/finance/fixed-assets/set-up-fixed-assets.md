@@ -84,3 +84,6 @@ I codici motivo possono essere configurati come necessari per le modifiche a un 
 Infine, nella scheda **Sequenze numeriche**, è necessario definire le sequenze numeriche per i cespiti. La sequenza numerica **Cespiti** può essere sostituita dalla sequenza numerica del **Gruppo cespite** se è stata specificata.
 
 Per ulteriori informazioni, vedere [Creare un cespite](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

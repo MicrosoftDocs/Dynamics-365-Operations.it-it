@@ -121,3 +121,6 @@ Per ulteriori informazioni su come gestire il contenuto del sito vedere gli argo
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
 
 [Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

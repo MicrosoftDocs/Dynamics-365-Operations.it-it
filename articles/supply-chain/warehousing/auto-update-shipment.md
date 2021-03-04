@@ -140,3 +140,6 @@ L'ondata viene elaborata e viene creato un lavoro per le quantità prenotate nel
 Se lo stato di una spedizione è **In ondata** o superiore, gli aggiornamenti alla quantità di una riga ordine cliente non vengono applicati a una riga di carico associata alla spedizione o convalidati a fronte di tale riga. Le modifiche alla quantità in una riga di carico devono essere eseguite direttamente nella riga di carico.
 
 La convalida viene eseguita dopo aver creato un lavoro per la riga di carico ed effettuato una prenotazione. Una diminuzione della quantità nella riga ordine cliente viene quindi convalidata a fronte della prenotazione della riga di lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

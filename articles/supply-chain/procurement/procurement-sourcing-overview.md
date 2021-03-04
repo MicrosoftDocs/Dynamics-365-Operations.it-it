@@ -93,3 +93,6 @@ Per gli ordini fornitore fatturati verrà registrata la passività nel conto for
 ## <a name="vendor-performance"></a>Prestazioni fornitore
 
 Le prestazioni e la verifica dell'acquisto sono supportati tramite i *report di contabilità fornitori e approvvigionamento* che includono l'analisi della spesa e delle prestazioni del fornitore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

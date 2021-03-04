@@ -63,3 +63,6 @@ Questa procedura riguarda la creazione dei criteri di calcolo della quantità ka
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Selezionare il criterio Speaker2016 creato nella sottoattività precedente.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

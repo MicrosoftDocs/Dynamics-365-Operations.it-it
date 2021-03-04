@@ -249,3 +249,6 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 - [Configurare il formato per eseguire il conteggio e la sommatoria](./tasks/er-format-counting-summing-1.md)
 - [Generare la traccia dell'esecuzione del formato ER per risolvere problemi relativi alle prestazioni](trace-execution-er-troubleshoot-perf.md)
 - [Differire l'esecuzione di elementi XML in formati ER](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

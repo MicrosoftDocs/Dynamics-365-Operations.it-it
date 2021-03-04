@@ -49,3 +49,6 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
     - Convalidare solo dopo aver filtrato una determinata transazione anziché effettuare una convalida generica. Ad esempio, per il numero di record, filtrare per il numero di transazione o la data della transazione in modo che la convalida escluda tutte le altre transazioni. 
     - Se si sta verificando un saldo del cliente o un controllo del budget, salvare prima il valore e quindi aggiungere il valore della transazione per convalidare il risultato previsto anziché un valore previsto fisso. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

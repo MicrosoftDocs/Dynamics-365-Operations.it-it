@@ -142,3 +142,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 4.  Selezionare il cliente.
 5.  Selezionare **Informazioni di contatto** o **Ordini cliente**. Se si seleziona **Ordini cliente**, viene visualizzato un elenco di ordini cliente del cliente.
 6.  Selezionare **Ordine cliente**. È ora possibile visualizzare informazioni su righe dell'ordine cliente, spedizioni, informazioni di contatto del cliente e dell'incaricato dell'ordine.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

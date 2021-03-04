@@ -344,3 +344,6 @@ Ecco alcune note e suggerimenti per utilizzare la funzionalità:
 
 - Se stai utilizzando ubicazioni dinamiche, il lavoro di rifornimento verrà creato per la prima ubicazione disponibile o per un'ubicazione che contiene già scorte, se l'azione della direttiva ubicazione è impostata per utilizzare la strategia **Consolida**.
 - Se stai utilizzando ubicazioni fisse anziché zone, è consigliabile utilizzare [rifornimento min/max standard](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

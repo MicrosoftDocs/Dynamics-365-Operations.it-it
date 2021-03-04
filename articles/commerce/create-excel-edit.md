@@ -78,3 +78,6 @@ Per creare e configurare una cartella di lavoro di Excel in modo da poter modifi
 [Modificare le dimensioni finanziarie per le transazioni di vendita al dettaglio](edit-financial-dim.md)
 
 [Aggiungere campi a una cartella di lavoro di Excel per modificare le transazioni di vendita al dettaglio](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

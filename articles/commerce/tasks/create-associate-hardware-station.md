@@ -58,3 +58,6 @@ In questa procedura vengono descritti i passaggi per creare una nuova stazione h
 23. Digitare un valore nel campo ID terminale EFT.
 24. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

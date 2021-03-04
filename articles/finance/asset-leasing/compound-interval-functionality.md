@@ -160,3 +160,6 @@ La tabella seguente elenca i primi 12 mesi dello scadenziario pagamenti. Conside
 
 > [!NOTE]
 > Se il tipo di rendita viene modificato in **Rendita dovuta**, il pagamento avverrà a gennaio anziché a dicembre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

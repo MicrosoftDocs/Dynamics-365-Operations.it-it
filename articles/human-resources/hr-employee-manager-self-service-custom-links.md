@@ -48,3 +48,6 @@ Per utilizzare questa funzione, abilitare **Collegamenti personalizzati in self-
 ## <a name="see-also"></a>Vedere anche
 
 [Panoramica self-service per dipendenti e manager](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

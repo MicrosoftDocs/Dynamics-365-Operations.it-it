@@ -504,3 +504,6 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 [Gestione della non conformità](enable-nonconformance-management.md)
 
 [Gestione qualità per i processi di magazzino](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

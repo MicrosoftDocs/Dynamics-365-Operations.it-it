@@ -60,3 +60,6 @@ Questa funzionalità è utile se si desidera ottenere una panoramica del consumo
 8. Fare clic sul pulsante **Visualizza dimensioni** se si desidera visualizzare il prodotto, l'immagazzinamento o le dimensioni di tracciabilità correlati agli articoli. Selezionare le casella di controllo pertinenti, quindi fare clic su **OK**.
 
 ![Figura 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

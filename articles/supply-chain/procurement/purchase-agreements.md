@@ -114,3 +114,6 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

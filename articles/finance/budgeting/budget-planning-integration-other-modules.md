@@ -147,3 +147,6 @@ Report aggiuntivi disponibili includono il report **Posizioni previste per piano
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

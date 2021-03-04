@@ -57,3 +57,6 @@ L'analisi di tempo utilizzato per elaborare gli elementi di lavoro consente di p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

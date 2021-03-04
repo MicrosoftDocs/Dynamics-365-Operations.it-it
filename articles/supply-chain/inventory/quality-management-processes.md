@@ -101,3 +101,6 @@ La pagina **Correzioni** consente di creare un elenco di non conformità che dev
 [Impostare ordini di controllo qualità](tasks/set-up-quality-orders.md)
 
 [Verificare la qualità delle merci](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

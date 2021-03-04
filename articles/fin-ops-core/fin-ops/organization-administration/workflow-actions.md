@@ -141,3 +141,6 @@ Quando un approvatore richiede una modifica di un documento, quest'ultimo viene 
 Si supponga ad esempio che Giorgio abbia presentato un documento pari a USD 12.000 assegnato a Luisa. Se Luisa richiede una modifica, la nota spese viene restituita a Giorgio.
 
 Giorgio può quindi inviare di nuovo la nota spese. È possibile apportare le modifiche richieste prima, oppure può inviare la versione originale della nota spese. Se Giorgio presenta di nuovo la nota spese, questa viene inviata a Ezio per l'approvazione, in quanto Ezio è il primo approvatore nel processo di approvazione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

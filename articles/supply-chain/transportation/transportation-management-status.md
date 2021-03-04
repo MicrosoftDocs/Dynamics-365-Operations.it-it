@@ -49,3 +49,6 @@ Per associare uno stato di trasporto a uno stato di vettore, effettuare quanto s
 1. Selezionare il codice dello stato di trasporto che si desidera mappare al codice del vettore di spedizione selezionato.
 1. Immettere il codice esterno utilizzato dal vettore di spedizione.
 1. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Questa versione corregge un problema che si verifica dopo l'eliminazione di un g
 ### <a name="print-performance-reviews"></a>Stampare le valutazioni delle prestazioni
 
 Vedere [Stampare le valutazioni delle prestazioni](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) nel piano della seconda ondata di rilascio di Dynamics 365: 2019.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

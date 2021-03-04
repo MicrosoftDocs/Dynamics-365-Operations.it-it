@@ -243,3 +243,6 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

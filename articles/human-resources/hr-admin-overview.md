@@ -102,3 +102,5 @@ Questa Guida per l'amministratore consente di configurare, gestire e risolvere i
 - [Novità o modifiche in Human Resources](hr-admin-whats-new.md)
 - [Guida per gli sviluppatori](hr-developer-overview.md)
 - [Manuale dell'utente](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

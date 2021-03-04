@@ -66,3 +66,6 @@ Il modulo di gestione di congedi e assenze fornisce le seguenti funzionalità:
 - **Inoltro delle richieste di permesso**
 
     I dipendenti possono inoltrare le richieste di permesso a fronte delle ore disponibili. Le richieste possono essere semplici richieste di un solo giorno oppure di più giorni che includono più tipi di congedo e assenza. Se un flusso di lavoro non è attivato, le richieste vengono approvate automaticamente. Se un flusso di lavoro è attivato, l'approvazione può essere automatica o richiedere una conferma, a seconda della configurazione del flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

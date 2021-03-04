@@ -74,3 +74,6 @@ Questa procedura è incentrata sull'impostazione necessaria per creare una regol
 2. Fare clic su Visualizza struttura di pegging.
     * Si noti che viene creato un kanban con la stessa quantità della riga di vendita. È inoltre possibile visualizzare le uscite materiali necessarie per la produzione di L0050. Si tratta dell'ultimo passaggio di questa procedura.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

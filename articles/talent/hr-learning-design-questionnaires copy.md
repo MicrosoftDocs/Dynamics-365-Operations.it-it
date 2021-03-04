@@ -246,3 +246,6 @@ In alternativa, è possibile impostare un questionario in modo che se un intervi
 
 [Visualizzare e valutare i risultati dei questionari](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

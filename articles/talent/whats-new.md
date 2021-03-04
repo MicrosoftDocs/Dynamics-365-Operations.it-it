@@ -33,3 +33,6 @@ Ogni settimana sono presenti nuove versioni per Talent. Queste versioni vengono 
 
 Il sommario continuerà a essere aggiornato ogni settimana, si consiglia quindi di tornare di frequente per trovare tutte le nuove funzioni e modifiche delle ultime versioni di Talent.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

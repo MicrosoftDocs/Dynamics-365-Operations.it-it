@@ -50,3 +50,6 @@ Come parte della creazione dei prodotti rilasciati, è necessario selezionare le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

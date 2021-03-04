@@ -92,3 +92,6 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

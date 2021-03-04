@@ -64,3 +64,6 @@ Il modulo di selezione sito può essere aggiunto al [Modulo di intestazione](aut
 [Modulo percorso di navigazione](add-breadcrumb.md)
 
 [Modulo menu di spostamento](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

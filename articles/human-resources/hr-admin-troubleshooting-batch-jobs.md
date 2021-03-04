@@ -65,3 +65,6 @@ I seguenti processi batch devono essere eseguiti di notte o dopo le ore lavorati
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Ottimizzare le prestazioni con attività di pulizia automatica](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

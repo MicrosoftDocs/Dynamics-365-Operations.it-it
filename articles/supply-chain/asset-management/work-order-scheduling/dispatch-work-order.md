@@ -60,3 +60,6 @@ Nella figura seguente è illustrato un esempio di selezioni di distribuzione nel
 [!NOTE]
 Se si desidera eliminare la programmazione in un ordine di lavoro, selezionare l'ordine di lavoro **Tutti gli ordini di lavoro** e fare clic su **Elimina programmazione** nella scheda **Generale**. Aggiornare manualmente lo stato del ciclo di vita di ordine di lavoro se si elimina la programmazione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

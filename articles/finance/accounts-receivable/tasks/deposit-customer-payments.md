@@ -48,3 +48,6 @@ Depositare pagamenti cliente. In questa attività viene utilizzata la società d
 17. Selezionare **OK**. La prima pagina viene utilizzata per creare la distinta di deposito.  
 18. Selezionare **OK**. Il secondo passaggio è di stampare la distinta di deposito, ma questo passaggio non è obbligatorio.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

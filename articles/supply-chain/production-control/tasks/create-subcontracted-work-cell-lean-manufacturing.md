@@ -71,3 +71,6 @@ Per modellare un'attività in conto lavoro per la lean manufacturing, è necessa
 24. Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.
 25. ResolveChanges per l'unità.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

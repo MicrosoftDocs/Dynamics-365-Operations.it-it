@@ -58,3 +58,6 @@ Questa procedura mostra come creare un conto bancario per un fornitore. È possi
 25. Nel campo **Conto bancario**, selezionare il conto che avete appena creato.
 26. Fare clic su **Salva**. L'indirizzo può essere ereditato dal gruppo di banche, se è specificato, o potete aggiungerlo qui.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

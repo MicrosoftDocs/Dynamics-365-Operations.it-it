@@ -118,3 +118,6 @@ Le seguenti tabelle elencano le pagine e i campi da cui è possibile accedere al
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Registra lettere di sollecito automaticamente           |     I tipi di azione lettera di sollecito pubblicheranno la lettera durante l'automazione.                                      |
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Creare attività per l'automazione                |     Creare e chiudere le attività per i tipi di azione non attività per visualizzare tutti i passaggi automatizzati eseguiti su un account.        |
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Giorni per la conservazione dell'automazione del processo di riscossione     |     Definisce il numero di giorni in cui viene archiviata la cronologia delle riscossioni.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

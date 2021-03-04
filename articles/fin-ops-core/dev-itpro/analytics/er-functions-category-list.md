@@ -64,3 +64,6 @@ Le funzioni dell'elenco della creazione di report elettronici (ER) possono esser
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

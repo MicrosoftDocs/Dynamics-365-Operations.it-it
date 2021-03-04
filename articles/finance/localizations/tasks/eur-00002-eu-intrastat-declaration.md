@@ -114,3 +114,6 @@ Questa procedura è stata creata utilizzando la società di dati dimostrativi DE
     * Ad esempio, selezionare "Spedizioni".  
 27. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

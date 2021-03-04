@@ -87,3 +87,6 @@ La correzione di questo errore dipende dalla causa dell'errore:
 
 + Se il mapping prevede mapping dipendenti, assicurarsi di abilitare i mapping dipendenti di questo mapping della tabella.
 + Nel mapping potrebbero mancare i campi di origine o destinazione. Se manca un campo nell'app Finance and Operations, seguire i passaggi nella sezione [Problema dei campi di entità mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Se manca un campo in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che i campi vengano automaticamente compilati nuovamente nel mapping.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

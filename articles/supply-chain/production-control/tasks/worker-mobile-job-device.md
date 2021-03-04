@@ -68,3 +68,6 @@ Per questo esempio, verificare che all'utente "SHANNON " sia assegnato il ruolo 
 6. Nel campo **Unità di produzione**, è possibile impostare il filtro predefinito per il lavoratore. In tal modo si assicura che solo i processi di produzione per l'unità di produzione selezionata vengano visualizzati quando il lavoratore accede al dispositivo. Immettere il valore desiderato.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

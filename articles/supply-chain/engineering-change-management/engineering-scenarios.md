@@ -411,3 +411,6 @@ Il prodotto può ora essere rilasciato di nuovo nella società *USMF* e quindi i
 1. Selezionare ogni azienda a cui si desidera rilasciare i prodotti.
 1. Selezionare **OK** per chiudere la finestra di dialogo **Rilasci** e tornare all'ordine di modifica.
 1. Nel riquadro azioni, nella scheda **Ordine di modifica**, nel gruppo **Rilasci prodotto** selezionare **Elabora** per rilasciare i prodotti interessati alle aziende selezionate. In alternativa, selezionare **Struttura prodotto di rilascio** per avviare il processo di rilascio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

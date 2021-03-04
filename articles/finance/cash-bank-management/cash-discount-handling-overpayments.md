@@ -139,3 +139,6 @@ L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00. Il pagamento e l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

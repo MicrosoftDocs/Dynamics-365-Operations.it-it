@@ -82,3 +82,6 @@ Se un leasing è stato modificato, puoi visualizzarne le diverse versioni. Puoi 
 
 2. Per visualizzare i programmi storici, apri il leasing modificato dalla pagina **Riepilogo leasing**, seleziona il libro desiderato, quindi, nel riquadro azioni, seleziona **Cronologia versioni libro**.
 3. Nella pagina **Versione libro** seleziona la versione desiderata e il programma desiderato da visualizzare.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

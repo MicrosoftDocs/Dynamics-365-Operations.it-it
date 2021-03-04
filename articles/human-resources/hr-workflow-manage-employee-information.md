@@ -73,3 +73,6 @@ Per configurare un flusso di lavoro di base che viene avviato quando i dipendent
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

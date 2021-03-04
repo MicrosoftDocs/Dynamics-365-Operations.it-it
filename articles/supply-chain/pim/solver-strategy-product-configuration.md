@@ -73,3 +73,6 @@ Nella tabella seguente vengono fornite indicazioni sulla strategia risolutore da
 [Euristica](https://techterms.com/definition/heuristic)
 
 [Problema di soddisfacimento di vincoli (CSP, Constraint Satisfaction Problem)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

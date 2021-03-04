@@ -48,3 +48,6 @@ In questa procedura vengono descritti i passaggi per creare le regole di riforni
 14. Immettere un numero nel campo Peso.
 15. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

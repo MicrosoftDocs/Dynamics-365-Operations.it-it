@@ -81,3 +81,6 @@ Dopo aver creato gli stati del ciclo di vita necessari per le richieste di inter
 Nella figura seguente è illustrato un esempio della pagina **Modelli del ciclo di vita delle richieste di intervento di manutenzione**.
 
 ![Pagina Modelli del ciclo di vita delle richieste di intervento di manutenzione](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

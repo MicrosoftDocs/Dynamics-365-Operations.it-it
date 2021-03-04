@@ -88,3 +88,6 @@ La transazione di rivalutazione valuta estera viene inoltre suddivisa tra le dim
 Se si deve stornare la transazione di rivalutazione, selezionare il pulsante **Transazione di storno** nel Riquadro azione della pagina **Rivalutazione valuta estera**. Un nuovo record cronologico di rivalutazione valuta estera viene creato per mantenere un audit trail storico di quando la rivalutazione si è verificata o è stata stornata.
 
 Per stornare più rivalutazioni, è necessario stornare dapprima quella più recente. Continuare quindi a stornare le rivalutazioni meno recenti in base alla data. È possibile quindi elaborare le nuove rivalutazioni per i periodi stornati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

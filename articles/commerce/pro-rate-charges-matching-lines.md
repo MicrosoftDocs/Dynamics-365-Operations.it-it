@@ -175,3 +175,6 @@ Quando questo metodo di calcolo viene utilizzato in uno scenario di reso parzial
 [Addebiti automatici avanzati omnicanale](omni-auto-charges.md)
 
 [Abilitare e configurare addebiti automatici per canale](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

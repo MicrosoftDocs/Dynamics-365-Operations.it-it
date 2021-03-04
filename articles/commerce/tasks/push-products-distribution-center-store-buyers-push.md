@@ -53,3 +53,6 @@ In questa procedura vengono descritti i passaggi per creare ed elaborare una dis
 19. Fare clic su Crea ordine.
 20. Fare clic su Sì.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

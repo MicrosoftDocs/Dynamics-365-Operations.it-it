@@ -108,3 +108,6 @@ Modificare il contratto produce i seguenti effetti sui dettagli della programmaz
 - Se i ricavi del prodotto sono stati riconosciuti, in alcuni casi il riconoscimento non è corretto poiché basato su una programmazione dei ricavi errata. Le righe devono essere stornate e riconosciute nuovamente, in base alla nuova programmazione. In questo scenario vengono create nuove righe di programmazione dei ricavi, con importi negativi alla data di riconoscimento originale. Le nuove righe vengono create per riconoscere gli importi basati sulla nuova programmazione dei ricavi. Ad esempio, l'8 agosto 2019 è stato riconosciuto un importo ricavi di $10,53. L'8 settembre 2019 è stato riconosciuto un importo ricavi di $13,16. Di conseguenza, vengono create due nuove righe nelle stesse date. Una riga per -$10,53 e l'altra per -$13,16. Vengono quindi create ventiquattro nuove righe, tra le quali allocare l'importo totale di $160,61 corrispondente ai ricavi differiti. È possibile registrare le righe di storno eseguendo il processo **Crea giornale di registrazione**.
 
 [![Programmazione di riconoscimento ricavi](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

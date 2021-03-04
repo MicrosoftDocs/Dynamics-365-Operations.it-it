@@ -194,3 +194,6 @@ Nella figura seguente è illustrato un esempio di un piano di manutenzione confi
 
 ![Figura 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

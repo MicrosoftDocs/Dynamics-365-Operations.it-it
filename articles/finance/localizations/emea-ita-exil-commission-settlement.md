@@ -105,3 +105,6 @@ Per impostazione predefinita, il valore del campo **delle provvigioni** è eredi
 
 > [!NOTE]
 > Quando si registra la fattura, il sistema crea le transazioni di provvigione e giustificativo. Se il valore del campo **Liquidazione delle provvigioni** è **Su fattura** nell'intestazione dell'ordine cliente, il sistema crea un record **Liquidazione**. Se il valore nel campo **Liquidazione delle provvigioni** è **Su pagamento** nell'intestazione dell'ordine cliente, il record **Liquidazione** viene creato solo dopo che la fattura e il pagamento sono stati liquidati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

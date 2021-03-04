@@ -75,3 +75,6 @@ Nella pagina **Compensazioni dei saldi contabili** sono disponibili le funzional
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Aggiornare l'elenco dei conti inclusi nell'elenco di transazioni
 
 Selezionare **Conti compensazione saldi contabili** per aprire una finestra di dialogo in cui è possibile modificare i conti inclusi nell'elenco di transazioni. Selezionare **Nuovo** per aggiungere nuovi conti all'elenco. Questo elenco viene utilizzato per filtrare l'elenco di transazioni che viene visualizzato nella pagina **Compensazioni dei saldi contabili**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

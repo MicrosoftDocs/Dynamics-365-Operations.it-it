@@ -209,3 +209,6 @@ Nel consolidamento della contabilità generale, è stata aggiunta una nuova opzi
 -  È ora possibile scegliere se utilizzare la valuta di contabilizzazione o di dichiarazione della società di origine come valuta di transazione nella società di consolidamento.
 
 - Gli importi in valuta di dichiarazione o contabilizzazione della società di origine verranno copiati direttamente in quelli nella società di consolidamento, se una delle valute è uguale. Gli importi in valuta di dichiarazione e contabilizzazione nella società di consolidamento vengono calcolati utilizzando il tasso di cambio se nessuna delle valute è uguale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

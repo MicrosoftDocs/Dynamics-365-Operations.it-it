@@ -39,3 +39,6 @@ La procedura riportata di seguito elenca i passaggi che gli amministratori di si
 6. Andare a **Pannello di navigazione > Moduli > Comune > Comune > Dashboard predefinito**. La nuova immagine di logo o banner viene visualizzata nel dashboard.  
     
     Potrebbe essere necessario modificare la società, utilizzando la selezione delle società, impostando quella per cui è stato caricato il banner.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

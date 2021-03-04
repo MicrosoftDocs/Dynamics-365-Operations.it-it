@@ -97,3 +97,6 @@ Tuttavia, se si utilizza un'IVA condizionata, è possibile liquidare quando si r
 Se si utilizza un assegno postdatato come metodo di pagamento, quando viene creato il pagamento, il conto bancario non viene cancellato. In alcuni paesi, l'IVA diventa responsabilità "realizzata" quando il pagamento cancella la banca, il che significa che l'assegno postdatato è stato liquidato. È possibile abilitarlo selezionando l'opzione per **realizzare l'imposta condizionale quando vengono generati assegni postdatati** in **Gestione cassa e banche > Impostazioni > Parametri di gestione cassa e banche > Assegni postdatati**.
 
 Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

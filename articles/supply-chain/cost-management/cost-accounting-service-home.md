@@ -37,3 +37,6 @@ Il componente aggiuntivo del servizio di contabilità dei costi per Microsoft Dy
 ## <a name="related-resources"></a>Risorse correlate
 
 [Introduzione al servizio di contabilità industriale](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

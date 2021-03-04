@@ -76,3 +76,6 @@ Scaricare i seguenti file per completare la guida attività:
 
 - [Configurazione del modello di ER - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [Configurazione del formato di ER - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

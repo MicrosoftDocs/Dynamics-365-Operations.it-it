@@ -40,3 +40,6 @@ Prima di poter offrire i prodotti in vendita nei canali di commercio, è necessa
 4. **Aggiunta di prodotti agli assortimenti.** Un assortimento rappresenta una raccolta di prodotti offerti nei canali. È possibile definire uno o più assortimenti e ogni prodotto può essere assegnato a uno o più assortimenti. Per assegnare prodotti a canali, si assegnano gli assortimenti a tali canali. Quando si crea un assortimento, è possibile aggiungere prodotti non sono ancora rilasciati a una persona giuridica. Tuttavia, è necessario rilasciare i prodotti a una persona giuridica prima che possano essere resi disponibili per i canali.
 5. **Aggiungere prodotti alle gerarchie di navigazione.** Prima che i prodotti possono essere esplorati online o nel POS, devono essere classificati in una gerarchia di navigazione di Commerce.
 6. **Aggiungere prodotti ai cataloghi.** Sebbene questo passaggio sia facoltativo per il POS, i punti vendita online richiedono che i prodotti siano inclusi in almeno un catalogo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

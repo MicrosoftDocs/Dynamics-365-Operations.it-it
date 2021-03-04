@@ -150,3 +150,6 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 17. Nel campo **Conto bancario** digitare `GBSI OPER`.
 18. Selezionare **OK** e quindi di nuovo **OK**. Verificare il foglio di lavoro creato, inclusi i dettagli delle righe di pagamento, nonché i totali per ciascun codice valuta utilizzato nel messaggio di pagamento.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

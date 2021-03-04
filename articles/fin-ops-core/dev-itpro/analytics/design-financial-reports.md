@@ -197,3 +197,6 @@ In questo esercizio verrà creato un nuovo report. Il report del conto economico
 [Visualizza report finanziari](../../../finance/general-ledger/view-financial-reports.md)
 
 [Dynamics 365 Finance Blog](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

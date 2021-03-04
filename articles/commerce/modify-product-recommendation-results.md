@@ -121,3 +121,6 @@ Seguire questi passaggi per aggiungere o rimuovere manualmente risultati per un 
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

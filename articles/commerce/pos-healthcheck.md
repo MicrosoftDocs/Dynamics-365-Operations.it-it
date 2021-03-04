@@ -83,3 +83,6 @@ I test del controllo dello stato predefiniti sono configurati per fornire alcuni
 ## <a name="related-articles"></a>Articoli correlati
 
 [Trigger e stampa di Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

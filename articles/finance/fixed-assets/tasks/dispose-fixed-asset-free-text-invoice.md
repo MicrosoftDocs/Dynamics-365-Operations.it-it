@@ -41,3 +41,6 @@ In questo argomento viene descritto come eliminare un cespite utilizzando la fat
 10. Nel campo **Cespite** immettere o selezionare un valore.
 11. Selezionare **Registra**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

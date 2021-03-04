@@ -87,3 +87,6 @@ Le configurazioni ER progettate nell'ambiente di sviluppo possono essere caricat
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

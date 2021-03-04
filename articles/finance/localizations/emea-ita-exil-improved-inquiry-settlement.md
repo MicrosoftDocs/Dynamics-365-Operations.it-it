@@ -52,3 +52,6 @@ La griglia nella parte inferiore della pagina mostra le transazioni di addebito 
 Nel riquadro azioni selezionare **Parametri** per impostare un filtro in modo che la pagina elenco **Fatture/pagamenti** mostri solo i dati specifici.
 
 ![Finestra di dialogo a discesa dei parametri](media/emea-ita-exil-DC-inquiry-parameters.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Questa guida vi mostra come creare un tipo di sollecito ed associarlo a un metod
 8. Fare clic su OK.
 9. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

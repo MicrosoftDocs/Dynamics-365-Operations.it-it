@@ -55,3 +55,6 @@ Gli utenti esterni al tenant in cui è stato distribuito l'ambiente devono esser
 4. Selezionare **Importa utenti**.
 5. Selezionare **Chiudi**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

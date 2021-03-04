@@ -98,3 +98,6 @@ In questo argomento viene descritto come importare le versioni aggiornate delle 
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

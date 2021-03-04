@@ -43,3 +43,6 @@ Questa procedura crea e convalida giornali di registrazione e righe del giornale
 12. Fare clic su **Registra**.
 13. Fai clic su **Giustificativo**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

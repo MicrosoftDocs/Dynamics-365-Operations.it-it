@@ -48,3 +48,6 @@ La pagina **Transazione cespiti** mostra le transazioni che aumentano o diminuis
 Per visualizzare le transazioni di spesa del leasing, seleziona un leasing nella pagina **Riepilogo leasing**, quindi seleziona **Libri** per aprire i libri cespite allegati al record di leasing. Quindi, seleziona **Transazioni di spesa**.
 
 La pagina **Transazioni di spesa** mostra tutte le spese che sono state registrate a fronte del leasing, come gli interessi passivi, le spese di ammortamento e gli eventuali costi di esecuzione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

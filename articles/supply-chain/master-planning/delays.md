@@ -59,3 +59,6 @@ Nella pagina **Ordine pianificato**, sotto la scheda **Ritardi** è visualizzata
 --------
 
 [Impostazioni della copertura](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

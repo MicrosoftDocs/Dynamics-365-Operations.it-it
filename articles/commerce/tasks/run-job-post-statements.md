@@ -44,3 +44,6 @@ In questa procedura vengono descritti i passaggi per configurare ed eseguire un 
 8. Fare clic su OK.
 9. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

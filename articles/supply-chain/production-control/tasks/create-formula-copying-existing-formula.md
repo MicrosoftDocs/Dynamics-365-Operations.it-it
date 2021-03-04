@@ -57,3 +57,6 @@ La procedura consente di creare rapidamente una nuova formula copiando da una fo
 3. Fare clic su OK.
 4. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

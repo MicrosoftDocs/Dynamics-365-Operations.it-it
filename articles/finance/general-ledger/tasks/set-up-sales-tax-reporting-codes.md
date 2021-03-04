@@ -39,3 +39,6 @@ Questa registrazione utilizza la società dimostrativa DEMF.
 6. Nel campo **Breve descrizione** immettere una descrizione per scopi interni.
 7. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

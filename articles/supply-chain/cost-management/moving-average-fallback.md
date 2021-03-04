@@ -46,3 +46,6 @@ Per selezionare la sequenza dei costi di fallback per i calcoli della media mobi
     - **Costo attivo - Prezzo dell'articolo** - Le organizzazioni potrebbero riscontrare problemi di prestazioni se utilizzano processi aziendali in cui l'inventario diventa regolarmente negativo e, allo stesso tempo, il volume delle transazioni è elevato. Questa impostazione può aiutare a mitigare questi problemi di prestazioni.
 
 ![Parametri di contabilità inventario](media/inventory-accounting-parameters.png "Parametri di contabilità inventario")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

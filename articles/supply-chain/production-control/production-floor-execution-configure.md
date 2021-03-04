@@ -94,3 +94,6 @@ Un processo batch pulisce periodicamente le voci nella tabella dei riferimenti p
 1. Nel riquadro azioni selezionare **Pulisci configurazioni client**.
 1. Nella finestra di dialogo **Pulisci configurazione client** impostare il campo **Numero di giorni** sul numero di giorni di inattività (precedenti a oggi) da considerare. Verranno rimosse tutte le configurazioni e i record di accesso per i dispositivi che non sono stati attivi durante quel periodo.
 1. Selezionare **OK** per pulire le configurazioni pertinenti, in base all'impostazione **Numero di giorni**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

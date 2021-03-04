@@ -59,3 +59,6 @@ Impostare commissione pagamento fornitore. In questa attività viene utilizzata 
     * Questa valuta è per la commissione. La valuta di pagamento viene utilizzata per definire quando la regola della commissione deve essere imposta in base alla valuta del pagamento. Ad esempio, la banca può addebitare una commissione quando un pagamento viene effettuato in euro, ma a tutti gli altri pagamenti non viene imposta una commissione.  
 18. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4444875"
 19. Fare clic su Aggiorna.
     * Per visualizzare i risultati dell'aggiornamento, fare clic su Dettagli messaggio nella barra blu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

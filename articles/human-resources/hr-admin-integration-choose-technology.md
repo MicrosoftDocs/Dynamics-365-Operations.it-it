@@ -144,3 +144,6 @@ Con così tante diverse tecnologie di integrazione disponibili, scegliere quale 
 <sup>2</sup>Microsoft sta investendo molto per aumentare la copertura dei dati per le entità Common Data Service. Si consiglia di utilizzare Common Data Service quando è disponibile la copertura. Attualmente, la copertura dati di Common Data Service è bassa rispetto alle entità abilitate per DMF e OData.
 
 <sup>3 </sup>È possibile accedere al database SQL a livello programmatico.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

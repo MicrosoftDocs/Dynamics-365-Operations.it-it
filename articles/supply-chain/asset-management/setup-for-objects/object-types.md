@@ -97,3 +97,6 @@ Nella pagina **Pezzi di ricambio**, è possibile creare nuovi pezzi di ricambio 
 
 Per verificare se il pezzo di ricambio nella riga selezionata viene utilizzato altrove in Gestione cespiti (ad esempio, in relazione a cespiti e ordini di lavoro) selezionare la riga del pezzo di ricambio quindi scegliere **Articolo utilizzato in** per aprire la pagina **Articolo utilizzato in**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

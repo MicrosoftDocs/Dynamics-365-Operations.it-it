@@ -39,3 +39,6 @@ La procedura mostra come visualizzare le voci di costo per un oggetto di costo. 
 7. Utilizzare il filtro rapido per filtrare il campo Numero in base al valore 'p000031'.
     * Se le voci di costo sono vuote, impostare la data iniziale su 31 gennaio 2012 e la data finale su 31 dicembre 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

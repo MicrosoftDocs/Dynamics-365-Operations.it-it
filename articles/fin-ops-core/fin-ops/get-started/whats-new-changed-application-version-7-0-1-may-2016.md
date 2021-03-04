@@ -106,3 +106,6 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

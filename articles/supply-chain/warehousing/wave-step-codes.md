@@ -93,3 +93,6 @@ Le seguenti procedura consente di garantire che il modello di rifornimento creat
 6. Nel campo **Codice passaggio ondata**, selezionare il codice passaggio ondata selezionato nel modello rifornimento.
 
 Eseguire questi passaggi per ciascuna persona giuridica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

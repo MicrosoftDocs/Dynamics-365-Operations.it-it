@@ -101,3 +101,6 @@ Nella scheda **Cataloghi** sono inoltre disponibili le opzioni di configurazione
 ## <a name="additional-notes"></a>Note aggiuntive
 
 Attualmente, quando un ID codice di origine viene applicato a un ordine cliente nel servizio clienti, viene utilizzato per determinare prezzi, promozioni, script up-selling e cross-selling specifici del catalogo. Il sistema non impedirà l'ordine nell'ordine cliente di un prodotto che non è presente nel catalogo. Se un articolo ordinato non è presente nel catalogo, il sistema utilizza prima di tutto il **Gruppo di prezzi** che è definito nel canale servizio clienti (**Retail e Commerce** \> **Canali** \> **Servizi clienti** \> **Tutti i servizi clienti**) per il prezzo dell'articolo o le promozioni. Se non viene trovato alcun prezzo di canale, viene utilizzato il prezzo di vendita di base dell'articolo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Se il contenuto marketing è univoco a uno specifico prodotto, qualsiasi modulo 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 
 [Migliorare una pagina prodotto](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

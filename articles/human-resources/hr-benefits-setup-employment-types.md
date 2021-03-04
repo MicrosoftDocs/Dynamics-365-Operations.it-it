@@ -41,3 +41,6 @@ Impostare tipi di impieghi in Dynamics 365 Human Resources da abbinare ai lavora
    | **Descrizione** | Descrizione del tipo di impiego. |
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

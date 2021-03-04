@@ -57,3 +57,6 @@ Inoltre, nella struttura avanzata di categorie di prodotti, un responsabile del 
 È possibile utilizzare la nuova struttura avanzata per le proprietà di prodotto per selezionare quali proprietà di prodotto aggiornate devono essere distribuite ai prodotti associati. Nella pagina **Gerarchia di prodotti di Commerce**, nel Riquadro azioni, selezionare **Categoria**, quindi selezionare **Aggiorna prodotti** per aprire la finestra di dialogo **Aggiorna prodotti**.
 
 ![Finestra di dialogo Aggiorna prodotti](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Utilizzare la pagina **Report black list italiano** per creare un nuovo report e
 -   Utilizzare **Trasferimento** per trasferire le transazioni delle fatture cliente e fornitore alla sezione **Transazioni** in base ai criteri che sono specificati nella sezione **Generale**. Nel report vengono visualizzate solo le transazioni associate a un codice IVA. Verificare le transazioni e apportare eventuali modifiche, se necessario.
 -   Utilizzare **Applica soglia** per escludere le fatture dal report **black list italiano** inferiori all'importo di soglia specificato nel campo **Importo soglia** nella sezione **Generale**.
 -   Utilizzare **Report** per generare ed esportare il report come file.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

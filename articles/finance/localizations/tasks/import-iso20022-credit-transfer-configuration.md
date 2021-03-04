@@ -45,3 +45,6 @@ Si tratta della prima attività di cinque, tale set illustra il processo di paga
     * Se il pulsante di importazione non è disponibile, significa che la configurazione è già stata importata.  
 9. Fare clic su Sì.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

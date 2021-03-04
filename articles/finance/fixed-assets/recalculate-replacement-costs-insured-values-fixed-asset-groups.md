@@ -78,3 +78,6 @@ Il giorno successivo il proprio superiore informa che i computer sono diminuiti 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

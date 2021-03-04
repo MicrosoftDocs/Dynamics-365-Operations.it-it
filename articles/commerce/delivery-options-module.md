@@ -83,3 +83,6 @@ Un modulo delle opzioni di consegna può essere aggiunto solo a un modulo checko
 [Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti](pro-rate-charges-matching-lines.md)
 
 [Imposta la modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

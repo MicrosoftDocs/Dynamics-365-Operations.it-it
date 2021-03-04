@@ -58,3 +58,6 @@ Il modo in cui sviluppare la gerarchia delle unità funzionali dipende dai requi
 Nella figura seguente viene illustrato un esempio di unità funzionali basate sui clienti.
 
 ![Diagramma che mostra le unità funzionali in base ai clienti](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

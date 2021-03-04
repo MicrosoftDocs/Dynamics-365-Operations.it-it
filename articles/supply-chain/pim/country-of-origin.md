@@ -91,3 +91,6 @@ Quando si genera un report DBA, è possibile includere il paese di origine per c
 Viene generato e visualizzato un report con informazioni sul paese di origine di ciascuna parte. Di seguito è riportato un esempio del report.
 
 ![Report del paese di origine](media/country-of-origin-report.png "Report del paese di origine")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

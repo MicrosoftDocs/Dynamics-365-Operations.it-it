@@ -49,3 +49,6 @@ Definire l'ambito della regola all'interno del criterio. Ad esempio, se si crea 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

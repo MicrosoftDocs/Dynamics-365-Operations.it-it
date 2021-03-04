@@ -163,3 +163,6 @@ Se la configurazione viene effettuata presso un sito, o una società, diverso da
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

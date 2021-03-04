@@ -204,3 +204,6 @@ per impostare l'opzione di convalida:
 1. Nella scheda **Generale**, imposta **Convalida delle quantità ordine predefinite** su uno dei seguenti valori:
     - **Rigoroso**: selezionare questa opzione per fare in modo che tutti i valori di **Quantità ordine standard** saranno un multiplo del valore **Multiplo** per ciascuna Scheda dettaglio ( **Ordine fornitore**, **Inventario** e **Ordine cliente**).
     - **Standard**: Seleziona questa opzione per usare la convalida standard (che funziona come quando questa funzionalità non è abilitata).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

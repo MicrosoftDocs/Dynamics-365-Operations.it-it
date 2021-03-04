@@ -45,3 +45,6 @@ Un ordine di produzione può essere creato negli scenari seguenti:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

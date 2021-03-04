@@ -56,3 +56,6 @@ Le domande condizionali consentono di specificare la domanda successiva da prese
 10. Nella struttura selezionare "Domande\Sono pagato equamente per il lavoro che svolgo".
     * Si noti che la struttura delle domande viene aggiornata per visualizzare la dipendenza.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

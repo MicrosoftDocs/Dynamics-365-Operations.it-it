@@ -65,3 +65,6 @@ Puoi modificare gli stati dell'inventario utilizzando la pagina **Disponibili pe
 > - Nella pagina **Disponibili per ubicazione** è possibile raggruppare le righe in base alle dimensioni visualizzate utilizzando il pulsante **Visualizza dimensioni** e modificare lo stato delle righe selezionate.
 > - Nella pagina **Disponibili per ubicazione** è possibile selezionare più record e quindi utilizzare il pulsante **Modifica stato inventario** per cambiarli tutti contemporaneamente.
 > - Nell'attività periodica **Modifica stato inventario** sarà possibile filtrare tenendo traccia delle dimensioni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

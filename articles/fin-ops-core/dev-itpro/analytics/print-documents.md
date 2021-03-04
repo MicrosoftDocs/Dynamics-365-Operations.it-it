@@ -74,3 +74,6 @@ Il seguente diagramma mostra i componenti di base che consentono di supportare l
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tenere presente che è possibile registrare una singola stampante con più agenti di distribuzione documenti. Per risolvere le preferenze della stampante, il servizio in hosting utilizza il percorso di rete che identifica in modo univoco ogni stampante di rete. Di conseguenza, anche quando una stampante è registrata da più client, appare come una singola selezione nell'elenco delle stampanti disponibili nelle applicazioni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Questa attività utilizza il set di dati dimostrativi SSI.
 12. Digitare un valore nel campo Commento.
 13. Fare clic su Invia.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

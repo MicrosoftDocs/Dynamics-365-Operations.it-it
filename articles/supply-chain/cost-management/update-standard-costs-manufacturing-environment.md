@@ -48,3 +48,6 @@ In ciascun caso è necessario valutare con attenzione come aggiornare i costi st
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

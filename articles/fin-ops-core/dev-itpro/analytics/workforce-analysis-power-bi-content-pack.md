@@ -86,3 +86,6 @@ Nella tabella seguente vengono illustrate le entità su cui si è basato il cont
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                 | Società, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione |
 | Progetto di assunzione collettiva        | Numero di progetti di assunzione collettiva, proprietario del progetto e stato del progetto                     | Società, Riga assunzione collettiva |
 | Riga assunzione collettiva           | Reparto, tipo di impiego e posizione                                           | Data, mansione, progetto di assunzione collettiva |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

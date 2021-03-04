@@ -79,3 +79,6 @@ In questa procedura vengono descritti i passaggi per impostare un programma fede
 39. Chiudere la pagina.
 40. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

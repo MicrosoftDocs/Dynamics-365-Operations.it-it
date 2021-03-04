@@ -86,3 +86,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 7.  Selezionare **Allegati** per visualizzare tutti i file o note associati alla fattura.
 8.  Nella pagina **Dettagli fattura**, selezionare l'azione del flusso di lavoro appropriata per completare il processo di revisione.
 9.  Selezionare **Fine**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

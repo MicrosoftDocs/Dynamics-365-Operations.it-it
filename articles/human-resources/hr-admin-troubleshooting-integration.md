@@ -181,3 +181,6 @@ Aggiornare le entità di dati in Finance selezionando **Gestione dati \> Paramet
 - Gestione dei dati:
 
   - [Gestione dei dati](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

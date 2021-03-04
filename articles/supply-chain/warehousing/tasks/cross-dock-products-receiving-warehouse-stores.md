@@ -49,3 +49,6 @@ In questa procedura vengono descritti i passaggi per creare ed elaborare un cros
 15. Nell'elenco, individuare e selezionare il magazzino di ricezione dei prodotti
 16. Fare clic su Ordine per visualizzare gli ordini creati per il magazzino selezionato
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 - [Funzione di arrotondamento](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

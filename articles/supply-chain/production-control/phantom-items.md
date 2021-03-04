@@ -73,3 +73,6 @@ La DBA fittizia può essere utilizzata anche per una DBA con una rete di cicli d
 Nella figura seguente, (a) è la DBA per il prodotto G e la parte F e (b) è la scheda cicli di lavorazione per il prodotto G e la parte F.
 
 ![Prodotto G e parte F con le schede cicli di lavorazione](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

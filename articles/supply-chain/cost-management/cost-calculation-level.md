@@ -57,3 +57,6 @@ Un ordine di produzione per il prodotto C viene quindi creato e il prodotto A è
     - **Prodotto C:** 2
 
 Questo comportamento garantisce che le modifiche alle DBA dell'ordine di produzione non influiscano sui calcoli dei costi successivi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

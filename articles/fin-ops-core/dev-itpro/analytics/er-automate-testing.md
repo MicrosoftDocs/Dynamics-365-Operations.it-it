@@ -380,3 +380,6 @@ Di conseguenza, come visto, il funzionamento di qualsiasi formato ER può essere
 - [Tracciare i risultati del report generato e paragonarli ai valori di base](er-trace-reports-compare-baseline.md)
 - [ER Aggiornare il formato adottandone una nuova versione di base](tasks/er-upgrade-format.md)
 - [ER importa una configurazione da Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

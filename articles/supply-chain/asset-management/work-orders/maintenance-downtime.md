@@ -89,3 +89,6 @@ Fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Tempi di f
 >[!NOTE]
 >Tutti i calendari utilizzati nel modulo **Gestione cespiti** sono impostati in **Amministrazione organizzazione** > **Impostazione** > **Calendari** > **Calendari**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

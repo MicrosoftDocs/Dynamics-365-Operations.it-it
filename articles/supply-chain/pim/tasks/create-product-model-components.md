@@ -38,3 +38,6 @@ I modelli di configurazione prodotti basata su vincoli utilizzano i componenti c
 7. Nel campo Descrizione digitare un valore.
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

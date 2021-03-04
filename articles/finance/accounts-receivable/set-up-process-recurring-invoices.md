@@ -67,3 +67,6 @@ Dopo la registrazione delle fatture ricorrenti, è possibile stampare le fatture
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

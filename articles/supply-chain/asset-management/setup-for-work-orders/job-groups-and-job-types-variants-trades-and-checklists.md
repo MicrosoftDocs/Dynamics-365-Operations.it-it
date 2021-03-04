@@ -267,3 +267,6 @@ In Gestione cespiti, è possibile aggiornare automaticamente qualsiasi modifica 
 2. Nella finestra di dialogo **Aggiorna previsione tipo di processo di manutenzione**, nella Scheda dettaglio **Record da includere**, è possibile aggiungere selezioni per determinati tipi di processo di manutenzione come necessario. Selezionare **Filtro** e quindi **Seleziona** per effettuare le selezioni.
 3. Nella Scheda dettaglio **Esecuzione in background**, è possibile impostare l'aggiornamento automatico come processo batch, come necessario.
 4. Selezionare **OK** per avviare l'aggiornamento delle previsioni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

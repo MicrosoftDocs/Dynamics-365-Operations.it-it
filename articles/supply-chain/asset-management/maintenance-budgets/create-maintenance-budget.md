@@ -59,3 +59,6 @@ I budget di manutenzione sono basati sui tipi di costo utilizzati in Gestione ce
 
 > [!NOTE]
 > Il budget di manutenzione calcola solo i costi in budget basati sulle righe di programma di manutenzione. Per calcolare i costi effettivi per lo stesso periodo, è possibile effettuare tale calcolo nella pagina **Controllo costo dei cespiti**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

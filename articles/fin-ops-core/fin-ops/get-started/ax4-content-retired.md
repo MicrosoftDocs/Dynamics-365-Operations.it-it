@@ -31,3 +31,6 @@ Il contenuto di Microsoft Dynamics AX 4.0 su TechNet e su MSDN è stato ritirato
 
 - [Criteri del ciclo di vita Microsoft](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Percorsi di aggiornamento supportati per Dynamics AX 2012](https://technet.microsoft.com/library/dd362093.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Se non è già stato fatto, seguire la procedura per [abilitare la personalizzaz
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ In Contabilità fornitori, le note vengono generate automaticamente come allegat
 Note avanzate definite come **Esterne** sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
 
 ![Impostazione della stampa delle note avanzate](media/emea-ita-exil-notes-printing.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ In questa procedura verrà descritto come aggiungere un'immagine a un prodotto. 
 5. Fare clic su Nuovo.
     * Fare clic su Sfoglia. Individuare l'immagine che si desidera utilizzare, selezionarla quindi chiudere la finestra di dialogo.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

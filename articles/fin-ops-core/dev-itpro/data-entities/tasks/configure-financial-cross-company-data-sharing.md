@@ -59,3 +59,6 @@ Questa guida attività richiede la piattaforma 7.1 o una versione successiva di 
 27. Aggiorna la pagina.
 28. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ La gestione dei trasporti consente di suddividere le ubicazioni geografiche in z
 - **Ottimizzare la pianificazione del percorso** - Assegnando piani di percorso specifici a zone specifiche.
 
 Le zone vengono definite in base ai valori dei campi dei metadati (come paese, intervallo di codici di avviamento postale o servizio del vettore) che qualificano ciascuna zona. Le definizioni di zona non sono necessarie se i prezzi di trasporto non utilizzano un concetto di zona.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

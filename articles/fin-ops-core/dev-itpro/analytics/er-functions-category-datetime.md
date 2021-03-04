@@ -56,3 +56,6 @@ Le funzioni di data e ora della creazione di report elettronici (ER) possono ess
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

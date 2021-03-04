@@ -65,3 +65,6 @@ Per migliorare una pagina categoria, effettuare le seguenti operazioni.
 [Migliorare una pagina prodotto](enrich-product-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

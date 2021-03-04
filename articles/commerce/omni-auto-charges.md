@@ -222,3 +222,6 @@ Se gli utenti sostituiscono manualmente le spese calcolate o aggiungono una spes
 
 [Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

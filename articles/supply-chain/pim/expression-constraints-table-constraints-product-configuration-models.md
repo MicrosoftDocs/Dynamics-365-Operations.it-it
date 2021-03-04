@@ -254,3 +254,6 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

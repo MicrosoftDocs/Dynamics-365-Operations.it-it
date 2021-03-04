@@ -46,3 +46,6 @@ Diverse impostazioni di configurazione influiscono sul comportamento di Leasing 
 
     > [!NOTE]
     > È consigliabile mantenere questa opzione impostata su **No**. L'impostazione di questa opzione viene utilizzata come convalida e controllo per impedire l'ammortamento accidentale di una versione del libro chiuso. Mantenendo l'opzione impostata su **No**, contribuisci a mantenere accurati i calcoli del valore contabile netto e dell'ammortamento futuro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

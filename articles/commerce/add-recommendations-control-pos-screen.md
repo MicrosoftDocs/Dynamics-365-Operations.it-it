@@ -119,3 +119,6 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

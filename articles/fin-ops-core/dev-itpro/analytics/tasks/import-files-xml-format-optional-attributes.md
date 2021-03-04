@@ -123,3 +123,6 @@ I passaggi seguenti illustrano come un utente con ruolo di amministratore di sis
 
 > [!NOTE]
 > Lo stesso file è stato importato in quanto la progettazione del formato ora considera l'attributo "id" per l'elemento "documento" come facoltativo.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

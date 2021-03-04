@@ -91,3 +91,6 @@ Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

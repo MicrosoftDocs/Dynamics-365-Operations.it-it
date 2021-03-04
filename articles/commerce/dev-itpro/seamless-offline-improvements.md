@@ -56,3 +56,6 @@ I parametri di commercio sono generalmente memorizzati nella cache. Pertanto, do
 
 - [Funzionalità POS offline](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Operazioni POS online e offline](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

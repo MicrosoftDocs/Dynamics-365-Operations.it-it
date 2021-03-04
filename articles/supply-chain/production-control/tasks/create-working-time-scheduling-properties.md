@@ -44,3 +44,6 @@ Le proprietà di programmazione orario di lavoro vengono utilizzate per classifi
 3. Digitare un valore nel campo Valore.
 4. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

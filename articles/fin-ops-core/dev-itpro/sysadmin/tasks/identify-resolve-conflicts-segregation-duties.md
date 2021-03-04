@@ -43,3 +43,6 @@ Questo argomento illustra come identificare e risolvere conflitti di separazione
 1. Scegliere **Pannello di navigazione > Moduli > Amministrazione sistema > Sicurezza > Separazione dei compiti > Regole di separazione dei compiti**. Selezionare una regola.  
 2. Selezionare **Convalida compiti e ruoli**. Se i ruoli esistenti violano la regola selezionata, verrà visualizzato un messaggio contenente il nome del ruolo e i nomi dei compiti in conflitto. L'amministratore deve indicare l'attenuazione per il rischio di sicurezza o modificare il ruolo in modo che non violi le regole per la separazione dei compiti. Se nessun ruolo viola la regola selezionata, verrà visualizzato un messaggio per indicare che tutti i ruoli sono conformi.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

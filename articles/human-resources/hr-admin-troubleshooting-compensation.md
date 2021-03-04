@@ -47,3 +47,6 @@ La documentazione per la compensazione è elencata di seguito:
 - Lavorazione:
 
     - [Processo retributivo](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

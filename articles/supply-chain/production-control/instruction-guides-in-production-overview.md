@@ -410,3 +410,6 @@ Quando Supply Chain Management genera i processi per il reparto di produzione, r
 - Se definisci varie relazioni operative di ciclo di lavorazione che includono la relazione *Tutti* e vi assegni guide, per il processo verranno mostrate solo le guide della relazione più specifica.  
 
 ![Diagramma sulla risoluzione delle guide pertinenti](media/instruction-guides-Resolve.png "Diagramma sulla risoluzione delle guide pertinenti")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

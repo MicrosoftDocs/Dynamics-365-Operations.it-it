@@ -109,3 +109,6 @@ Per consentire ai lavoratori di apportare questa modifica, è possibile creare u
 - **Visualizza stato inventario:** *Sì*
 
 È possibile impostare altri campi nella pagina in base alle proprie esigenze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Poiché Dynamics 365 Commerce supporta le anteprime autenticate WYSIWYG nel gene
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

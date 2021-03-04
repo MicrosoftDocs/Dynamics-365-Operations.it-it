@@ -141,3 +141,6 @@ Per aggiornare il modello esistente, effettuare le seguenti operazioni.
     9. Nella pagina **Attività mapping**, selezionare la nuova colonna come origine per creare un altro mapping per HIERARCHYTYPENAME.
 
         [![Mapping](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

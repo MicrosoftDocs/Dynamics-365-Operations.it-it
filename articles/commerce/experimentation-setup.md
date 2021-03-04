@@ -54,3 +54,6 @@ Per impostare i parametri corretti effettuare le seguenti operazioni.
 
 ## <a name="next-step"></a>Passaggio successivo
 [Collegare e modificare un esperimento](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

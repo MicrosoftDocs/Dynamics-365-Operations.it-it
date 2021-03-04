@@ -119,3 +119,6 @@ Per rendere più semplice e più rapido definire le azioni associate a ogni riga
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

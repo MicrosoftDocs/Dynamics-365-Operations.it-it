@@ -151,3 +151,6 @@ Nella seguente illustrazione vengono mostrati gli effetti del modello inventaria
 - Le chiusure inventario sono rappresentate da una linea tratteggiata verticale di colore rosso e dall'etichetta *Chiusura inventario*.
 - Le liquidazioni eseguite tramite la chiusura inventario sono rappresentate da frecce rosse tratteggiate che uniscono in diagonale un'entrata a un'uscita.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

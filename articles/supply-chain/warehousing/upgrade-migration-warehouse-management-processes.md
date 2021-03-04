@@ -83,3 +83,6 @@ Prima di poter utilizzare i prodotti rilasciati nel modulo **Gestione magazzino*
 6.  Nella pagina **Modifica gruppo di dimensioni di immagazzinamento per articoli** aggiungere i numeri articolo, i gruppi di dimensioni di immagazzinamento e i gruppi di sequenze di unità. È possibile completare questo passaggio direttamente nella pagina, utilizzando l'integrazione di Microsoft Office oppure il processo delle entità di dati in [Gestione dati](../../dev-itpro/data-entities/data-entities.md).
 7.  Convalidare le modifiche. Durante il processo di convalida si verificano alcune convalide di integrità dei dati. Nell'ambito di un processo di aggiornamento di dimensioni più ampie, è possibile che si debba correggere eventuali problemi nell'implementazione di origine. In questo caso sarà necessario eseguire un ulteriore aggiornamento dei dati.
 8.  Elaborare le modifiche. L'aggiornamento di tutte le dimensioni inventariali può richiedere qualche minuto. È possibile monitorare lo stato utilizzando le attività dei processi batch.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ L'area di lavoro **Inserimento fatture fornitore** ti consente di concentrarti s
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automazione delle fatture fornitore: riprendere l'elaborazione dell'automazione per più fatture
 Quando una fattura importata non viene inviata correttamente al flusso di lavoro tramite il processo automatizzato, il sistema la rimuoverà dall'ulteriore elaborazione automatizzata. Un addetto alla contabilità fornitori può esaminare e modificare la fattura prima che il processo automatizzato la invii nuovamente al flusso di lavoro. Quando un motivo di errore può essere risolto con la stessa correzione per più fatture, puoi riavviare il processo automatizzato nella pagina **Riprendi l'elaborazione automatica delle fatture**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

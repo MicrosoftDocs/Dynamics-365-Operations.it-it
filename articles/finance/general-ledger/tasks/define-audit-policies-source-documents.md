@@ -88,3 +88,6 @@ In questo argomento viene illustrato come impostare ed eseguire regole dei crite
 57. Espandere la sezione **Associazioni**.
 58. Nell'elenco trovare e selezionare il record desiderato.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

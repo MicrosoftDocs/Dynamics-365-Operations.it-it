@@ -47,3 +47,6 @@ Dopo aver selezionato la nuova modalità di consegna, viene visualizzata la pagi
 [Creare ordini servizio clienti](tasks/create-call-center-orders.md)
 
 [Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

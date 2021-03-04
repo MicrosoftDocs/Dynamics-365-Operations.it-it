@@ -75,3 +75,6 @@ Se il valore dell'argomento `decimals` è minore di 0 (zero), il numero specific
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni matematiche](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

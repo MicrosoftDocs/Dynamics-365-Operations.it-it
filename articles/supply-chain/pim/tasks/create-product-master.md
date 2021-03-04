@@ -61,3 +61,6 @@ Creare una rappresentazione generale prodotto per le varianti predefinite. La so
 10. Fare clic su **Salva**.
 11. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Questa argomento descrive come automatizzare la containerizzazione dei carichi i
 11. Nel campo **Selezione campi** immettere o selezionare un valore.
 12. Selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

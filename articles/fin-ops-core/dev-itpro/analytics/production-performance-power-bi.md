@@ -128,3 +128,6 @@ La tabella seguente mostra le dimensioni chiave utilizzate come filtri per divid
 | Entità                  | ID e nome                                                   |
 | Risorse                 | ID risorsa, nome della risorsa, tipo di risorsa e gruppo di risorse |
 | Prodotti                  | Numero prodotto, nome prodotto, ID articolo e gruppo di articoli         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

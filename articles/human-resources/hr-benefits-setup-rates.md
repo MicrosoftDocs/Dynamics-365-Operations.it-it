@@ -93,3 +93,6 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
    | **Tasso fumatore crediti flessibili** | Il costo del benefit in crediti flessibili, basato sul calcolo definito per il livello per fumatori. |
 
 5. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

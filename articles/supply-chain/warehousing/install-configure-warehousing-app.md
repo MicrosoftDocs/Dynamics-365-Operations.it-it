@@ -274,3 +274,6 @@ In caso di un dispositivo perso o compromesso, devi rimuovere l'accesso a Supply
 1. Assicurati che l'ID client dell'applicazione corrisponda all'ID client annotato nel passaggio 2.
 1. Sulla barra degli strumenti, seleziona **Elimina**.
 1. Nel messaggio di conferma visualizzato, seleziona **Sì**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

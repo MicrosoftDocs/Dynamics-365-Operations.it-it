@@ -170,3 +170,6 @@ Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Ordini cliente ibridi](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ In questa procedura vengono descritti i passaggi per creare un nuovo canale di c
 65. Fare clic su Salva.
 66. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

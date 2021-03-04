@@ -82,3 +82,6 @@ Nella pagina **Progetto di assunzione collettiva** fare clic su **Apri progetto*
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

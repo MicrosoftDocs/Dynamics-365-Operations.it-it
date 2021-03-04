@@ -123,3 +123,6 @@ Per i passaggi dettagliati della procedura, vedere [Risorse registrazione attivi
 [Registrazione attività](task-recorder.md)
 
 [Creare argomenti dettagliati della Guida con Registrazione attività (collegamento esterno)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

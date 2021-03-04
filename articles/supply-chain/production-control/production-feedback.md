@@ -36,3 +36,6 @@ Il riscontro di produzione fornisce il riscontro dei lavoratori sui processi di 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

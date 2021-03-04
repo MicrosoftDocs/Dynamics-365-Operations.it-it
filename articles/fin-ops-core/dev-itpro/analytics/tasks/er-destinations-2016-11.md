@@ -60,3 +60,6 @@ Il formato utilizzato in questo esempio è Bonifico ISO20022, ma è possibile us
 21. Digitare un valore nel campo Oggetto.
 22. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

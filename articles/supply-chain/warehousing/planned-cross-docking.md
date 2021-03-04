@@ -316,3 +316,6 @@ Attualmente, entrambi gli ID lavoro hanno la stessa targa di destinazione. Per c
 La seguente illustrazione mostra come il lavoro cross-docking completato potrebbe apparire in Microsoft Dynamics 365 Supply Chain Management.
 
 ![Lavoro di cross docking completato](media/PlannedCrossDockingWork.png "Lavoro di cross docking completato")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

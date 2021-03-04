@@ -95,3 +95,6 @@ Se hai definito l'ambito dell'esperimento come **intero** nella procedura guidat
 
 ## <a name="next-step"></a>Passaggio successivo
 [Visualizzare un esperimento in anteprima e pubblicarlo](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

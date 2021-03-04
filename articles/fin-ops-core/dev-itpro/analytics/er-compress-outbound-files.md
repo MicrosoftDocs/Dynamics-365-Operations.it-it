@@ -94,3 +94,6 @@ Prima di completare le procedure in questo argomento, è necessario completare i
 [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 
 [Differire l'esecuzione di elementi XML in formati ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

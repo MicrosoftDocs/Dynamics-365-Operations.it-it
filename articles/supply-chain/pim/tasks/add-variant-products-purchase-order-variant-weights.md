@@ -48,3 +48,6 @@ In questa procedura vengono descritti i passaggi per utilizzare i pesi varianti 
 17. Impostare la quantità su "1000".
 18. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

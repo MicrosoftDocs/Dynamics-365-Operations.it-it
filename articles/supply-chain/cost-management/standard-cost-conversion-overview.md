@@ -102,3 +102,6 @@ Il report **Rendiconto analisi scostamento** consente di analizzare lo scostamen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

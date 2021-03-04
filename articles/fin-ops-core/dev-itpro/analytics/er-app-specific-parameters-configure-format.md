@@ -309,3 +309,6 @@ Per informazioni su come utilizzare il formato ER configurato **Formato per otte
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Impostare i parametri di un formato ER per la persona giuridica](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

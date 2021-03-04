@@ -58,3 +58,6 @@ Se si crea una nota di credito basata su un ordine cliente esistente, deselezion
 
 > [!NOTE]
 > Conti separati sono applicabili solo alle note di credito basate su ordini cliente. Non sono applicabili alle note di credito a testo libero, poiché le note di credito a testo libero richiedono l'inserimento esplicito di un conto CoGe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1373,3 +1373,6 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 |     <strong>Aree del prodotto interessate</strong>     |                                              Contabilità generale                                              |
 |             <strong>Stato</strong>             |                                      Rimosso a partire da Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

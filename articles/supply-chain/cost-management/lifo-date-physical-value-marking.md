@@ -157,3 +157,6 @@ Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

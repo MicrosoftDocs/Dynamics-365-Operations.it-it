@@ -49,3 +49,6 @@ In questo argomento vengono descritti alcuni metodi di visualizzare transazioni 
 2. Nel riquadro azioni, selezionare **Codice IVA**.
 3. Selezionare **IVA registrata**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

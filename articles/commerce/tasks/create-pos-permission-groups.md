@@ -48,3 +48,6 @@ In questo argomento viene illustrato come creare un gruppo di autorizzazioni POS
 16. Nel campo Gruppo di autorizzazioni POS immettere o selezionare un valore. Tutti i lavoratori nelle posizioni per questo processo utilizzeranno le impostazioni del gruppo di autorizzazioni POS a meno che le autorizzazioni POS del lavoratore siano state ignorate a livello di posizione.  
 17. Selezionare **Salva**. Dopo aver salvato le modifiche, è necessario eseguire la programmazione di distribuzione del personale per applicare le modifiche ai canali.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

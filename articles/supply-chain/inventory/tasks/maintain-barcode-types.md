@@ -46,3 +46,6 @@ Questa procedura mostra come impostare una nuova definizione di codice a barre c
 12. Fare clic su Salva.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

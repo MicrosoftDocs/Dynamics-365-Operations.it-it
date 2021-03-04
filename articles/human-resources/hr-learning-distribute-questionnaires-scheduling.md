@@ -129,3 +129,6 @@ La programmazione dei questionari consente di pianificare e distribuire i questi
 2. Fare clic su Fine.
 3. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

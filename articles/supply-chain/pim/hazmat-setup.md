@@ -284,3 +284,6 @@ Per impostare i valori per la specifica, andare a **Gestione informazioni sul pr
 La specifica *Tunnel materiali pericolosi* limita i tipi di tunnel attraverso i quali un materiale pericoloso può essere trasportato identificando i tipi di tunnel che devono essere utilizzati. Le categorie di tunnel sono stabilite dalle normative applicabili per il trasporto di materiali pericolosi. Questa specifica di solito si applica solo al trasporto su strada.
 
 Per impostare i valori per la specifica, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Tunnel materiali pericolosi**. Nella pagina **Tunnel materiali pericolosi** è possibile creare un numero qualsiasi di identificatori di tunnel e configurarli con un codice di identificazione e una breve descrizione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

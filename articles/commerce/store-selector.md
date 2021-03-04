@@ -146,3 +146,6 @@ Per configurare il modulo di selezione del punto vendita in modo da mostrare i p
 [API REST Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Modulo mappe](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

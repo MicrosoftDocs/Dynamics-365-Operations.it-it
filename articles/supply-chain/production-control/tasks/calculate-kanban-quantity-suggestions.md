@@ -85,3 +85,6 @@ Questa procedura riguarda l'ottimizzazione della dimensione e delle quantità ka
     * Si noti che si tratta della quantità kanban fissa pari a 4 derivata dal calcolo della quantità kanban.  
 5. Fare clic sulla scheda ListPanel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

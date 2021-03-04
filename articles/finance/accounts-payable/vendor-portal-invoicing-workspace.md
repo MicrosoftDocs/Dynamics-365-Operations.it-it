@@ -62,3 +62,6 @@ Per ulteriori informazioni, vedere [Collaborazione fornitore con i fornitori est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

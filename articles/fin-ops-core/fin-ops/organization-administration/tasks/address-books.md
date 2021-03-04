@@ -41,3 +41,6 @@ La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 7. Fare clic sulla freccia per aggiungere i team disponibili selezionati alla rubrica.
 8. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

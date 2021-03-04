@@ -121,3 +121,6 @@ Quando l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità
     - Operazioni totali nel periodo successivo con una data di competenza nel periodo effettivo
 
 - L'importo **Totale calcolato considerando la data di competenza** viene fornito su una riga distinta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

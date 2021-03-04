@@ -175,3 +175,6 @@ Per visualizzare un elenco delle capacità disponibili nelle distribuzioni local
 
 \* Negli ambienti locali, PerfTimer mostra solo i risultati per il client.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

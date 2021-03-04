@@ -65,3 +65,6 @@ Questo elenco viene fornito per aiutare a tenere in considerazione queste rimozi
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

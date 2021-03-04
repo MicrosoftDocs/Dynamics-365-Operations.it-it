@@ -51,3 +51,6 @@ Dopo la registrazione della fattura corretta, si avranno tre fatture:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

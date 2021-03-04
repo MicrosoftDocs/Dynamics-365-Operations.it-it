@@ -73,3 +73,6 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Invia cespite in prestito                  | Seleziona un cespite di prestito che deve essere una sostituzione temporanea per il cespite selezionato nella richiesta di intervento di manutenzione selezionata. |
 | Restituisci cespite in prestito                | Registra il cespite in prestito come restituito. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

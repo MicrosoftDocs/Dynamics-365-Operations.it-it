@@ -173,3 +173,6 @@ Per configurare un modulo contenitore in una pagina, effettuare le seguenti oper
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

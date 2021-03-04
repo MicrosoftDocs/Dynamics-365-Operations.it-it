@@ -42,3 +42,6 @@ Per impedire l'esecuzione del calcolo, selezionare il flag **Interrompi esplosio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

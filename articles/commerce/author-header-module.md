@@ -119,3 +119,6 @@ Per assicurare che un'intestazione sia visualizzata in ogni pagina, effettuare l
 [Modulo di selezione sito](site-selector.md)
 
 [Memorizzare il modulo di selezione](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -210,3 +210,6 @@ Come descritto in precedenza in questo argomento, gli attributi **Etichetta** e 
 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Funzioni di creazione di report elettronici](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

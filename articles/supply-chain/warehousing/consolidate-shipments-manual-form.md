@@ -98,3 +98,5 @@ Segui questi passaggi per rilasciare ciascun ordine cliente creato per questo sc
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

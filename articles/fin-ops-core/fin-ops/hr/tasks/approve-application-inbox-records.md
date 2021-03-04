@@ -48,3 +48,6 @@ Questa procedura illustra come esaminare le domande di lavoro ricevute tramite l
 2. Nell'elenco fare clic sul collegamento nella riga selezionata.
 3. Espandere la sezione Allegati.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Ad esempio, sono in vigore le seguenti condizioni:
 L'importo da ammortizzare per il cespite originale è $1.822,25. Questo importo è uguale al valore contabile netto prima della registrazione della transazione di divisione ($ 9.111,25), più la rettifica di acquisizione generata durante la registrazione della transazione di divisione (- $ 8.000), più la rettifica di ammortamento generata durante la transazione di divisione ($ 711). Pertanto, l'ammortamento per il secondo anno è (1.822,25 × 18 percento) ÷ 12 = $27,33.
 
 L'importo da ammortizzare per il nuovo cespite nel primo anno è (8.000 × 18 percento) ÷ 12 = $120.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

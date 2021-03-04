@@ -157,3 +157,6 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 71. Chiudere la pagina.
 72. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

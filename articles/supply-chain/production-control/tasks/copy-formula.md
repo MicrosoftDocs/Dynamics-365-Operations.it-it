@@ -65,3 +65,6 @@ Questa procedura riguarda la creazione di una formula che include gli stessi ing
 5. Fare clic su Seleziona.
 6. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

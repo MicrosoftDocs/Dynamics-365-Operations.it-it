@@ -49,3 +49,6 @@ Quando si stabilisce un ordine pianificato, la finestra di dialogo **Stabilizzaz
 - **No** - Non viene applicato alcun contrassegno di inventario.
 - **Standard** – Il contrassegno scorte viene aggiornato in base al pegging. Un ordine di richiesta (domanda) viene contrassegnato in base a un ordine di evasione (offerta). Se una certa quantità rimane nell'ordine di evasione, non viene contrassegnata e le informazioni di riferimento vengono lasciate vuote. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate solo all'ordine cliente.
 - **Esteso** – Verranno contrassegnati sia l'ordine di richiesta (domanda) che l'ordine di evasione (offerta), indipendentemente dalla quantità eventualmente rimasta nell'ordine di evasione. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate all'ordine cliente e all'ordine fornitore.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

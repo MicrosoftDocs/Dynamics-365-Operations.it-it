@@ -36,3 +36,6 @@ Questo argomento spiega come creare sequenze numeriche per ID leasing. Spiega in
 3. Seleziona **Sequenze numeriche** nella barra laterale.
 4. Seleziona la sequenza numerica per il riferimento **ID leasing**. Questa sequenza numerica verrà utilizzata per generare l'identificatore univoco per ogni leasing.
 5. Seleziona la sequenza numerica per il riferimento **ID processo**. Questa sequenza numerica verrà utilizzata per generare l'identificatore univoco per ogni processo di rivalutazione dell'indice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

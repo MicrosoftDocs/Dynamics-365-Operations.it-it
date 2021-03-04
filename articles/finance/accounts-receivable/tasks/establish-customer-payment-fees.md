@@ -51,3 +51,6 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 18. Nel campo **Valuta commissioni**, selezionare la valuta della commissione. Si tratta della valuta in cui la commissione verrà creata.  
 19. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

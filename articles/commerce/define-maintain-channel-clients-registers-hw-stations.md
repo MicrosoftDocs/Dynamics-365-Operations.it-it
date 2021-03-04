@@ -205,3 +205,6 @@ Ulteriori informazioni relative alla attivazione includono il lavoratore che ha 
 ### <a name="client-data-synchronization"></a>Sincronizzazione dei dati client
 
 Tutte le modifiche apportate a un client POS, ad eccezione delle modifiche dello stato di attivazione del dispositivo, devono essere sincronizzate nel database di canale per essere effettive. Per sincronizzare le modifiche al database di canale, passare a **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**, ed eseguire la programmazione di distribuzione necessaria. Per le modifiche del client, è necessario eseguire le programmazioni di distribuzione **Registratori di cassa** e **Configurazione canale**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

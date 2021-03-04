@@ -94,3 +94,6 @@ Utilizzando i metadati della chiave di configurazione creati durante l'elenco di
 Ogni volta che si aggiornano le chiavi di configurazione a livello di entità, tabella o campo, l'elenco delle entità nel framework di gestione dei dati deve essere aggiornato. Questo processo garantisce che il framework riceva le ultime impostazioni della chiave di configurazione. Fino a quando l'elenco delle entità non viene aggiornato, il seguente avviso verrà visualizzato nella pagina dell'elenco delle entità. Le modifiche della chiave di configurazione aggiornata avranno effetto immediatamente dopo l'aggiornamento dell'elenco delle entità. Si consiglia di convalidare processi e progetti di dati esistenti per assicurarsi che funzionino come previsto dopo che le modifiche alle chiavi di configurazione sono state applicate.
 
 ![Campi di destinazione](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Il pulsante **Allocazione del prezzo dei ricavi** è ancora disponibile per visu
 La programmazione prevista del riconoscimento ricavi viene rimossa e sostituita con la programmazione finale del riconoscimento ricavi. I dettagli della programmazione dei ricavi vengono gestiti per ogni riga ordine cliente e utilizzati per rilasciare i ricavi differiti sui ricavi effettivi quando gli obblighi contrattuali sono soddisfatti.
 
 [![Programmazione finale del riconoscimento ricavi](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

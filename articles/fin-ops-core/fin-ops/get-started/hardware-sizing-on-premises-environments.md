@@ -141,3 +141,6 @@ L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la com
 ## <a name="virtualization-and-oversubscription"></a>Virtualizzazione e oversubscription
 
 I servizi cruciali come AOS devono essere ospitati in host virtuali che hanno risorse dedicate (core, memoria e disco).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

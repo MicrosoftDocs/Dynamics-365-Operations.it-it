@@ -96,3 +96,6 @@ Questa procedura mostra come impostare e abilitare il calcolo e la verifica dell
 17. Nell'elenco, selezionare il gruppo di provvigioni creato in precedenza.
 18. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

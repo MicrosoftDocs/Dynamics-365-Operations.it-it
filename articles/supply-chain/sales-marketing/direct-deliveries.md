@@ -53,3 +53,6 @@ Quando si crea una consegna diretta, gli articoli venduti non arrivano mai nel p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

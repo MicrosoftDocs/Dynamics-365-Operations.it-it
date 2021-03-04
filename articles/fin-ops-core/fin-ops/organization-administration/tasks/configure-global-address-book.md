@@ -45,3 +45,6 @@ La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 13. Nell'elenco trovare e selezionare il record desiderato. Premere il tasto Maiusc per selezionare più ruoli da aggiungere al riquadro **Ruoli selezionati**, quindi fare clic sulla freccia per aggiungere i ruoli selezionati.  
 14. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

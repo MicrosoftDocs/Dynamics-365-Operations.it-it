@@ -121,3 +121,6 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Se si richiede che la precisione di una valuta specifica differisca dalla precis
 ### <a name="tables-currency-field"></a>tabelle: campo Valuta
 
 Il numero di posizioni decimali che è possibile configurare per campi di valuta specifici è limitato a quattro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

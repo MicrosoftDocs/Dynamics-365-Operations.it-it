@@ -110,3 +110,6 @@ Quando la funzione dei materiali pericolosi è attivata nel sistema, il report *
 ## <a name="packing-list-report"></a>Report di elenco imballaggio
 
 Quando la funzione dei materiali pericolosi è attivata nel sistema, gli elenchi di imballaggio includono informazioni aggiuntive correlate al testo della stampa della spedizione per un articolo. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

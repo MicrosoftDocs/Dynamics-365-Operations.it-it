@@ -333,3 +333,6 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
 > [!NOTE] 
 > - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La gerarchia elenco accessi non rende sicura l'esportazione dei dati in Excel. Di conseguenza, lo strumento di creazione report dovrà essere utilizzato solo dai responsabili e dai contabili che devono avere l'accesso completo per visualizzare i dati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Per le impostazioni cultura **EN-US**, `NUMBERFORMAT (0.45, "p")` restituisce **
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

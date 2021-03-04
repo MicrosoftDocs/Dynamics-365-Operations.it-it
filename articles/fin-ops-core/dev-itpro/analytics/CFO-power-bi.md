@@ -43,3 +43,6 @@ Nella seguente tabella viene visualizzato il contenuto di Power BI da cui vengon
 | [Vendita e redditività](sales-profitability-performance-content-pack.md) | <ul><li>Ricavi per regione</li><li>Primi 10 clienti in base ai ricavi</li><li>Primi 10 prodotti in base ai ricavi</li></ul> |
 | [Gestione crediti e riscossioni](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Attività clienti scadute</li><li>Clienti con limite di credito superato</li><li>Saldi con aging</li></ul> |
 | [Analisi delle spese di acquisto](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Acquisti per mese/giorno</li><li>Primi 10 fornitori per acquisti</li><li>Primi 10 prodotti per acquisti</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

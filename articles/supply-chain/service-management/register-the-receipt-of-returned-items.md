@@ -113,3 +113,6 @@ In alternativa all'uso del modulo **Panoramica arrivi**, è possibile utilizzare
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -397,3 +397,6 @@ Per questo scenario, il pallet 3 verrà accettato.
 1. Selezionare il pulsante Menu (**≡**) nella parte superiore della pagina, quindi dal menu selezionare **Annulla** per tornare al menu.
 
 Ora è possibile chiudere l'app per dispositivi mobili.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Per configurare un URL per l'apertura nel POS, effettuare le operazioni seguenti
 5. Selezionare **Apri URL** come azione.
 6. Immettere l'URL che si desidera utilizzare.
 7. Specificare se aprire l'URL in una nuova finestra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

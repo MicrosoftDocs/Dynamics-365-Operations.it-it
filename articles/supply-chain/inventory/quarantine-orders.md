@@ -67,3 +67,6 @@ Nell'ambito dell'elaborazione dell'ordine di quarantena è possibile scartare le
 --------
 
 [Blocco scorte](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

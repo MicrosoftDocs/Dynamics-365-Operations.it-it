@@ -55,3 +55,6 @@ Questa procedura illustra come creare un attributo batch, come assegnare interva
 22. Fare clic su Salva.
 23. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

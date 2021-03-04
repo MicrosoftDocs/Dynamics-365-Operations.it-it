@@ -65,3 +65,6 @@ Utilizzare questa procedura per avviare e interrompere la registrazione delle or
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

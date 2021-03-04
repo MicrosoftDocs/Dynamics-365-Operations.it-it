@@ -54,3 +54,6 @@ Una riga di fattura verrà esclusa dall'elaborazione automatizzata se viene sodd
 - Il valore **Stato corrispondenza entrate automatizzate** della riga di fattura è **Non riuscita**.
 - La fattura è in uso.
 - La fattura è nel sistema del flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

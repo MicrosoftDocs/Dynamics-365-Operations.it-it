@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Dopo aver recuperato un token di accesso, lo si passerà all'intestazione di autorizzazione come token di connessione con ogni richiesta inviata all'API dati, come descritto sopra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

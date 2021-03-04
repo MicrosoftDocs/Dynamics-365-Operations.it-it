@@ -50,3 +50,6 @@ Questa procedura dimostra come individuare le informazioni sulla carta fedeltà 
 15. Fare clic su Transazioni carte.
 16. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

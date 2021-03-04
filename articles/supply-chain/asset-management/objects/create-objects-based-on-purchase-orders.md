@@ -70,3 +70,6 @@ Innanzitutto, vengono impostati gli articoli da utilizzare per creare i cespiti 
 3. È possibile impostare il processo per l'esecuzione come processo batch, ad esempio, una volta ogni giorno.
 
 **Attenzione:** Se i dati vengono modificati in un ordine fornitore *dopo* aver creato un cespite in base all'articolo pertinente, le modifiche non verranno riflesse nel cespite.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

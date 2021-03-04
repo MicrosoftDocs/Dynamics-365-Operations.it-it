@@ -43,3 +43,6 @@ I calendari descrivono la capacità e gli orari di lavoro delle risorse operativ
 12. Selezionare **OK**.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

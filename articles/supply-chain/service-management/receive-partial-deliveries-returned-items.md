@@ -51,3 +51,6 @@ Se una spedizione di reso contiene una quantità inferiore all'intera quantità 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

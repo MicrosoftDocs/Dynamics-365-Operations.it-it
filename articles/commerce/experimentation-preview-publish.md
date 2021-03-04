@@ -60,3 +60,6 @@ Quando si utilizzano gruppi di pubblicazione con esperimenti, è necessario tene
 
 ## <a name="next-step"></a>Passaggio successivo
 [Eseguire e monitorare un esperimento](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

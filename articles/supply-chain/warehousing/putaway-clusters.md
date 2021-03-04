@@ -296,3 +296,6 @@ Prima di poter stoccare gli articoli nel cluster, è necessario chiudere il clus
 ## <a name="notes-and-tips"></a>Note e suggerimenti
 
 Per i casi in cui l'ID cluster diventa la targa padre per un pallet annidato, la posizione di stoccaggio viene fornita automaticamente quando l'ID cluster viene scansionato. Non è necessario scansionare ulteriori targhe, anche se la generazione della targa è impostata su manuale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

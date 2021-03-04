@@ -55,3 +55,6 @@ Dopo l'importazione dei dati nella contabilità industriale, è possibile utiliz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

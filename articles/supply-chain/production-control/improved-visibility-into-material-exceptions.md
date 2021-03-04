@@ -67,3 +67,6 @@ Quando il riquadro è selezionato, la pagina **Tutte le ondate di produzione** s
 Il riquadro **Lavoro magazzino aperto che richiede attenzione** indica il numero di DBA e righe formula rilasciate in magazzino con lavoro non elaborato e con data di materie prime precedente o uguale alla data dell'area di lavoro. Le righe devono essere utilizzate anche da una risorsa operativa che si applica al filtro dell'area di lavoro.
 
 Quando il riquadro è selezionato, la pagina **Tutto il lavoro** si apre. Questa pagina viene filtrata per numero di intestazioni di lavoro aperte che contengono righe di lavoro di DBA e righe formula rilasciate che soddisfano i criteri per il riquadro. Nella pagina **Tutto il lavoro** è possibile elaborare manualmente il lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

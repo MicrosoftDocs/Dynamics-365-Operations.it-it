@@ -82,3 +82,6 @@ Per informazioni dettagliate su come configurare un modulo mappa in una pagina, 
 [Gestire Bing Mappe per la tua organizzazione](./dev-itpro/manage-bing-maps.md)
 
 [Controllo Web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

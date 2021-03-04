@@ -68,3 +68,6 @@ Più selezioni vengono effettuate per lo stesso record, più specifica sarà l'i
 
 Durante la programmazione degli ordini di lavoro, vengono calcolati vari punteggi per determinare quali lavoratori devono completare i processi relativi a un ordine di lavoro (tali punteggi sono impostati in **Parametri di gestione cespiti** >  collegamento **Programmazione dell'ordine di lavoro**). Se due o più addetti alla manutenzione preferiti o addetti alla manutenzione responsabili ottengono lo stesso punteggio durante la programmazione dell'ordine di lavoro, un lavoratore viene selezionato in modo casuale. In caso contrario, è sempre il lavoratore con il punteggio massimo che viene scelto per completare un ordine di lavoro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

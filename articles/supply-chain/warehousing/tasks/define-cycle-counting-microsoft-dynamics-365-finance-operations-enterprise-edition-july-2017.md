@@ -96,3 +96,6 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 21. Fare clic su **OK**.
 22. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

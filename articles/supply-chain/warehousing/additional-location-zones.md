@@ -58,3 +58,6 @@ Prima di poter utilizzare la funzionalità *Zona ubicazione aggiuntiva*, tale fu
 7. Selezionare **Crea**.
 8. Ricevi messaggi che indicano che sono state aggiunte nuove ubicazioni. Seleziona il pulsante **Mostra messaggi** per visualizzare i messaggi.
 9. Vai a **Gestione magazzino \> Impostazione \> Magazzino \> Ubicazioni**. Le nuove ubicazioni vengono visualizzate nell'elenco e tutti i campi della zona sono disponibili (ovvero, il campo della zona esistente e i nuovi campi della zona aggiuntivi).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

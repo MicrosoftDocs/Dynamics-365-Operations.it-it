@@ -39,3 +39,6 @@ In questa procedura vengono descritti i passaggi per aggiungere un nuovo calcolo
 4. Fare clic su Chiudi.
 5. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

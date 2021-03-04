@@ -58,3 +58,6 @@ Prima di iniziare, modificare il contesto del paese per la società DEMF da DEU 
 10. Chiudere la pagina.
 11. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

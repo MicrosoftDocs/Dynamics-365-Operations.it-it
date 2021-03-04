@@ -56,3 +56,6 @@ Per questa attività è necessario un flusso di produzione con versione e attivi
 3. Nel campo Attività immettere o selezionare un valore.
 4. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

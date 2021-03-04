@@ -77,3 +77,6 @@ Per le descrizioni di questi concetti, vedere [Concetti chiave della gestione de
 [Sospensioni credito per ordini cliente](./cm-sales-order-credit-holds.md)
 
 [Attività periodiche di gestione dei crediti cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

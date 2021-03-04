@@ -239,3 +239,6 @@ Una garanzia è un servizio che viene fornito per un prodotto specifico e univoc
 [Impostare assortimenti](set-up-assortments.md)
 
 [Panoramica delle sequenze numeriche](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

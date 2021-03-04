@@ -123,3 +123,6 @@ Il controllo delle dimensioni consente di determinare il raggruppamento delle ri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

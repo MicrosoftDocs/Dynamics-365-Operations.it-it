@@ -140,3 +140,6 @@ Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzion
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

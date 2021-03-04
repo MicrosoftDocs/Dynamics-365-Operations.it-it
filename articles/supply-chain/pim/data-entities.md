@@ -50,3 +50,6 @@ ms.locfileid: "4431619"
 
 > [!NOTE]
 > È possibile utilizzare l'entità dati **Prodotti rilasciati V2** per importare prodotti nel sistema solo se il prodotto condiviso è già stato creato. Altrimenti, per importare prodotti nel sistema, è necessario utilizzare l'entità dati **Creazione prodotto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

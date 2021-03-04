@@ -88,3 +88,6 @@ Una delle interessanti caratteristiche di Power BI è il modo in cui tutte le im
 ## <a name="export-to-excel"></a>Esporta in Excel
 
 Per visualizzare i dati del report in Excel, è possibile fare clic sul menu di opzioni (tre punti) su un'immagine e selezionare **Esporta i dati sottostanti**. I dati esportati verranno esportati come filtrati, rispettando le autorizzazioni degli utenti in Attract. Per ulteriori informazioni, vedere [Esportare dati dalle visualizzazioni](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

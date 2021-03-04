@@ -80,3 +80,6 @@ Dopo aver annullato gli ordini fornitore che erano nello stato *Confermato*, gli
 
 Questo problema si verifica solo per gli ordini fornitore soggetti a gestione delle modifiche. Si verifica perché l'annullamento è considerato una modifica che deve essere approvata. L'approvazione può essere eseguita automaticamente dal sistema. Pertanto, il processo consiste nell'inviare l'ordine fornitore annullato al flusso di lavoro di approvazione in modo che possa passare allo stato *Approvato*. A quel punto, l'ordine fornitore non verrà più visualizzato nell'elenco delle bozze di ordini fornitore nell'area di lavoro **Preparazione ordine fornitore**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -384,3 +384,6 @@ Dopo aver inserito tutti gli elementi richiesti, è possibile impostare l'assegn
 1. Imposta la ricorrenza per l'esecuzione automatica, se lo desideri.
 
 Per gli esercizi nello scenario, **non** impostare l'assegnazione automatica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

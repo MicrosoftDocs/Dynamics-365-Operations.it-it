@@ -127,3 +127,6 @@ Una volta che il controllo del budget è abilitato, gli utenti riceveranno i mes
 Da questa pagina l'utente può espandere la pagina **Statistiche di controllo del budget per periodo** per visualizzare i dettagli di disponibilità e le prenotazioni di budget per la combinazione selezionata di dimensioni di controllo del budget. Gli utenti possono inoltre accedere alla pagina **Statistiche di controllo del budget** in cui la disponibilità del budget viene visualizzata per tutte le combinazioni di dimensioni finanziarie utilizzate nel controllo del budget. 
 
 Se il controllo del budget è attivato per gli ordini fornitore, il responsabile budget può utilizzare l'area di lavoro **Budget contabili e previsioni** per verificare la coda di tutti gli ordini fornitore non confermati con errori e avvisi di verifica budget. Se il responsabile budget dispone delle autorizzazioni per superare il budget, può confermare l'ordine fornitore direttamente nell'area di lavoro.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

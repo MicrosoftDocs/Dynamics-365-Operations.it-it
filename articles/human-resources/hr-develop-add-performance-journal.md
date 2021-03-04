@@ -54,3 +54,6 @@ Il giornale di registrazione delle prestazioni contiene informazioni correlate a
 20. Nel campo Descrizione, immettere 'Grazie per tutto l'aiuto alla conferenza!'.
 21. Fare clic su Invia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

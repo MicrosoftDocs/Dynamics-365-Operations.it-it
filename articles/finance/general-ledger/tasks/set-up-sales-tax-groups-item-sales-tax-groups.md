@@ -50,3 +50,6 @@ In questa registrazione attività verrà illustrata l'impostazione dell'IVA e de
 19. Nell'elenco fare clic sul collegamento nella riga selezionata.
 20. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

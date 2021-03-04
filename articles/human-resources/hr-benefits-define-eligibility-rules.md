@@ -69,3 +69,6 @@ La società di dati dimostrativi utilizzata per creare questa registrazione è U
 10. Fare clic su Salva.
 11. Chiudere il modulo.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

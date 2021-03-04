@@ -101,3 +101,6 @@ In questo argomento viene descritto come abilitare la stampa automatica di un'et
 7. Selezionare **Salva**.
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

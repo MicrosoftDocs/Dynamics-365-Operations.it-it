@@ -90,3 +90,6 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei report elettronici](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

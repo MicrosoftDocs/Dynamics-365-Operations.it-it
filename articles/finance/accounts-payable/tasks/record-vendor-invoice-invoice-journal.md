@@ -49,3 +49,6 @@ Questa guida attività indicherà come registrare le fatture fornitore non assoc
 12. Fare clic su **Registra**.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

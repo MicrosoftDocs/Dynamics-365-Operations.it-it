@@ -45,3 +45,6 @@ Se si impiegano volontari o altre persone non dipendenti, è possibile che si in
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Panoramica self-service per dipendenti e manager](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

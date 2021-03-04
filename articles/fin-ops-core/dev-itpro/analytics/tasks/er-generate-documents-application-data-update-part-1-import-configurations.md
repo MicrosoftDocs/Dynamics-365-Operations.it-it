@@ -75,3 +75,6 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
     * Verificare la struttura del formato utilizzato per generare il report Intrastat. Si noti che è progettata per generare un file XML popolando i dati dal modello dati, basato sull'elemento radice relativo al "documento in uscita". Verificare che il nome del file generato sia definito nel modulo di dialogo utente (viene utilizzata l'origine dati "fn").   
 30. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

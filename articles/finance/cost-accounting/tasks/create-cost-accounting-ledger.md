@@ -38,3 +38,6 @@ Un movimento CoGe di contabilità industriale rappresenta l'unità gerarchica co
 8. Nel campo Dimensione statistica immettere o selezionare un valore.
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

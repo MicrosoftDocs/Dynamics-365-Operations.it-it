@@ -250,3 +250,6 @@ Questo scenario mostra in che modo le impostazioni descritte in precedenza in qu
 1. Nell'ordine cliente appena creato, nella Scheda dettaglio **Righe ordine cliente**, seleziona **Aggiungi riga** per aggiungere un'altra riga.
 1. Su questa nuova riga, imposta il campo **Codice articolo** su *M9200* e il campo **Quantità** su *1*.
 1. Ripetere le righe da 6 a 9 per prenotare la riga e rilasciarla nel magazzino. Come in precedenza, il sistema crea una **nuova** spedizione per la riga aggiunta. Tuttavia, poiché l'articolo proviene dal gruppo di articoli **CarAudio**, **non riesce a superare i vincoli impostati per il gruppo combinato di carico**. Pertanto, viene **aggiunto a un nuovo carico**. Se non avessi specificato un gruppo combinato di carico nel modello di allestimento del carico, questa spedizione sarebbe stata aggiunta al primo carico.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

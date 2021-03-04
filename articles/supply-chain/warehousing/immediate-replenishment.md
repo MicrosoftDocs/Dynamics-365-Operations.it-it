@@ -57,3 +57,6 @@ Se si seleziona il rifornimento immediato per una riga di direttiva ubicazione, 
 
 - Assicurarsi che il modello di rifornimento della domanda applicato sia impostato in modo da utilizzare i modelli di ubicazione corretti e i modelli di lavoro del tipo **Rifornimento**.
 - Assicurarsi che ci siano scorte disponibili sufficienti presso le ubicazioni in cui il modello di rifornimento della domanda cerca le scorte disponibili per il rifornimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ La conferma viene applicata nei seguenti scenari:
 
 1. Dalle voci di menu del dispositivo mobile, aprire la configurazione della conferma del lavoro.  
 1. Selezionare l'opzione per la conferma batch o targa. Entrambe le opzioni sono disponibili per i prelievi di tipo lavoro senza la conferma automatica attivata.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

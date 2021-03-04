@@ -96,3 +96,6 @@ Per ulteriori informazioni sui moduli Gestione account e su come crearli, vedere
 
 [Panoramica delle pagine del checkout e del carrello](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

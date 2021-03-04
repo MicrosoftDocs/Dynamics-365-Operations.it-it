@@ -75,3 +75,6 @@ La configurazione è condivisa con l'organizzazione esterna ed è disponibile pe
 ![Configurazione condivisa con un'organizzazione esterna](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Per annullare la condivisione di una configurazione precedentemente condivisa con un'organizzazione esterna, seleziona la configurazione e fai clic su **Annulla la condivisione**, quindi seleziona **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

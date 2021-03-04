@@ -40,3 +40,6 @@ Abbiamo aggiunto la funzionalità Importazione/esportazione rapida per consentir
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

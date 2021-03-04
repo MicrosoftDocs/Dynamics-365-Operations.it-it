@@ -218,3 +218,6 @@ Per visualizzare in quali piani di budget una posizione prevista è stata inclus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Per aggiungere un modulo Hero a una nuova pagina e impostare le proprietà neces
 [Modulo blocco testo](add-content-rich-block.md)
 
 [Modulo lettore video](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

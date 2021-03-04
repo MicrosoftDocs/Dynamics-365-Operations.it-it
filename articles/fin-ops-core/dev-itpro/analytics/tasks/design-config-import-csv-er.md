@@ -124,3 +124,6 @@ Per scopi di verifica, eseguire il mapping di formato utilizzando il file 1099en
     * Esaminare l'output in formato XML, che rappresenta i dati che sono stati importati dal file selezionato e trasferiti nel modello dati. Tenere presente che tutte le 7 righe del file CSV importato sono state elaborate. La riga 1 dei titoli dei campi è stata ignorata, le transazioni 4 sono state correttamente analizzate e le transazioni 2 sono state riconosciute come non valide.
 3. Chiudere la pagina.
 4. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

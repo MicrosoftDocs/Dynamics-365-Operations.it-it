@@ -55,3 +55,6 @@ Una distinta base (DBA) modello può essere collegata a una relazione tra oggett
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

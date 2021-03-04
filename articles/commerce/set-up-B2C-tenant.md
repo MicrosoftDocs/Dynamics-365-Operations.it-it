@@ -362,3 +362,6 @@ Un account amministratore secondario facoltativo può essere aggiunto nella sezi
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

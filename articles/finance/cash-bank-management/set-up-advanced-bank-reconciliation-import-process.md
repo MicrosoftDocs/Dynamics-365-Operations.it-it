@@ -199,3 +199,6 @@ Se l'importazione ha esito positivo, riceverai un messaggio che informa che il r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Ulteriori informazioni sulla stampa delle etichette
 
 Per ulteriori informazioni su come impostare e stampare le etichette, vedere [Abilitare la stampa dell'etichetta della targa](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

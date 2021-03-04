@@ -136,3 +136,6 @@ Prima di registrare una fattura a testo libero, è possibile visualizzare l'inte
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Le dimensioni finanziarie e i conti principali sono componenti chiave della fase
 - Evitare di utilizzare il delimitatore di piano dei conti selezionato nei valori delle dimensioni finanziarie e dei conti principali.
 
 Seguendo queste procedure consigliate, contribuite a garantire la rappresentazione coerente dell'ordine definito dall'utente in ogni parte del sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

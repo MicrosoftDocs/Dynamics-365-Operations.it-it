@@ -127,3 +127,6 @@ Il colore viene visualizzato solo sul livello più basso nel diagramma di Gantt.
 1. Nella griglia, selezionare la riga in cui il campo **Campo** è impostato su **Numero articolo**.
 1. Nel campo **Criteri** immettere un valore.
 1. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

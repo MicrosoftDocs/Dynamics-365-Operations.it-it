@@ -301,3 +301,6 @@ Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Co
 Per altre informazioni relative alla ricezione della targa e ai criteri di lavoro, vedere [Ricezione della targa tramite l'app di magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

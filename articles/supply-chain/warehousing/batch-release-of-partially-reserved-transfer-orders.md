@@ -64,3 +64,6 @@ Il parametro **Quantità** specifica se l'intera quantità o la quantità prenot
 -   Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini di trasferimento, fare clic su **Gestione magazzino** \> **Rilascia in magazzino** \> **Rilascio automatico degli ordini di trasferimento**.
 
 -   Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini cliente, fare clic su **Gestione magazzino** \> **Rilascia in magazzino** \> **Rilascio automatico degli ordini cliente**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

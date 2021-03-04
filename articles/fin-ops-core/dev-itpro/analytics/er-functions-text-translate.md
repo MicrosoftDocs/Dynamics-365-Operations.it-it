@@ -77,3 +77,6 @@ La funzione `TRANSLATE` sostituisce un carattere alla volta. La funzione sostitu
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

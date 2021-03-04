@@ -81,3 +81,6 @@ L'ordine cliente viene nuovamente fatturato per l'articolo aggiunto. La fattura 
 [![Pagina Transazioni giustificativo con la voce contabile registrata](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Poiché la somma dei ricavi e delle vendite è superiore a $319,50, la differenza viene registrata per $14,48. Questo importo compensa il saldo dal conto di compensazione parziale dei ricavi fattura. Tale saldo è stato aggiornato nella nuova voce contabile registrata dopo la riallocazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

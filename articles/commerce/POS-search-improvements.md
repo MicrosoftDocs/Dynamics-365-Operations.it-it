@@ -118,3 +118,6 @@ In una versione futura di Commerce, i rivenditori potranno impostare la modalit�
 
 Per impedire problemi imprevisti relativi alle prestazioni, questa configurazione è nascosta dietro a un flighting flag denominato **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Pertanto, per visualizzare l'impostazione **Modalità di ricerca di clienti predefinita** nell'interfaccia utente, il rivenditore deve creare una richiesta di supporto per il relativo test di accettazione utente (UAT) e gli ambienti di produzione. Dopo il ricevimento della richiesta, il team di progettazione collaborerà con il rivenditore per assicurare che questi esegua il test nei relativi ambienti non di produzione per valutare le prestazioni e implementare le eventuali ottimizzazioni necessarie.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

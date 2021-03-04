@@ -65,3 +65,6 @@ Ciascuna delle entità standard Common Data Service è estesa con riferimenti al
 7. Dopo aver esteso l'entità **Offerte**, applicare un filtro con `CUSTGROUP !=  "<company>"` come stringa di query.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Intestazione offerta di vendita, modifica query":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

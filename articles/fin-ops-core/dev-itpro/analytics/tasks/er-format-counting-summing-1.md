@@ -56,3 +56,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 8. Nella struttura espandere 'Modello Intrastat'.
 9. Nella struttura, selezionare 'Modello Intrastat\Intrastat (DE)'.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

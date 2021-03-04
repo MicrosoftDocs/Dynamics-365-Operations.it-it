@@ -79,3 +79,6 @@ In ogni riga del contratto di assistenza viene descritto dettagliatamente il con
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Creare contratti di assistenza](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

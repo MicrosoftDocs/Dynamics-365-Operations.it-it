@@ -144,3 +144,6 @@ I seguenti compiti e privilegi sono stati aggiunti per le automazioni delle prop
 | Richiedere informazioni su occorrenze programmazione | Addetto ai pagamenti della contabilità fornitori, Addetto ai pagamenti centralizzati della contabilità fornitori | Questo compito concede i diritti di visualizzare le occorrenze delle automazioni delle proposte di pagamento mediante i seguenti privilegi:<ul><li>Visualizzare occorrenze programmazione</li><li>Visualizzare vista settimanale occorrenze</li></ul> |
 | Richiedere informazioni su serie programmata      | Nessuno                                                                       | Questo compito concede i diritti di visualizzare le impostazioni della serie e delle occorrenze mediante i seguenti privilegi:<ul><li>Visualizzare occorrenze programmazione</li><li>Visualizza pagina elenco occorrenze</li><li>Visualizzare vista settimanale occorrenze</li></ul>|
 | Gestire occorrenze programmazione     | Nessuno                                                                       | Questo compito garantisce i diritti di creare e gestire un'occorrenza mediante i seguenti privilegi:<ul><li>Gestire occorrenze programmazione</li><li>Visualizzare vista settimanale occorrenze</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

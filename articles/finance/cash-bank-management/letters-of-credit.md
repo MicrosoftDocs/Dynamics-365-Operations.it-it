@@ -53,3 +53,6 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 [Creare un contratto per linea di credito bancaria per una lettera di credito](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

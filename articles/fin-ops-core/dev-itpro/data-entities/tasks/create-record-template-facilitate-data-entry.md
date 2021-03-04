@@ -43,3 +43,6 @@ In questo argomento viene descritto come creare un modello di record in modo che
 13. Selezionare **OK**.
 14. Selezionare **Chiudi**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

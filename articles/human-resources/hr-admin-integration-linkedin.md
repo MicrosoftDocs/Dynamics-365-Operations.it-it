@@ -190,3 +190,6 @@ I seguenti dettagli vengono importati e inclusi nel record del nuovo dipendente:
 
 [Configurare le entità virtuali di Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Che cos'è Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

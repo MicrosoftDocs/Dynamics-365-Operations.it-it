@@ -54,3 +54,6 @@ Viene descritta la procedura per creare un team di intervento. Dopo aver creato 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

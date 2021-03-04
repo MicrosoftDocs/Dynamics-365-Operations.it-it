@@ -110,3 +110,6 @@ Per immettere un nome per l'attività automatica, effettuare le operazioni indic
     </table>
 
 8. Ripetere i passaggi dal 3 al 7 per ciascun evento selezionato nel passaggio 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

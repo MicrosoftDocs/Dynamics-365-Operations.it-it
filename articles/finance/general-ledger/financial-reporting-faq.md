@@ -88,3 +88,6 @@ Quando si dispone di un report che non corrisponde a quello che ci si aspettereb
 2.  Esportare il report in Excel
 
 Ora si possono copiare i dati dal report di Excel della creazione di report finanziari e nel report D365 Bilancio di verifica e confrontare le colonne "Saldo finale".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

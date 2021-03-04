@@ -53,3 +53,6 @@ Quando si inverte lo stato di un ordine di produzione da **Iniziato** a **Rilasc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

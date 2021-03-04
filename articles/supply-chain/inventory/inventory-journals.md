@@ -117,3 +117,6 @@ Questi due giornali di registrazione magazzino supportano solo lo scenario di *I
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Entità di dati](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

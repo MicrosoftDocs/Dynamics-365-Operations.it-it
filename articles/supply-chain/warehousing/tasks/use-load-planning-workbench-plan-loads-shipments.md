@@ -61,3 +61,6 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 5. Selezionare **Assegna**.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

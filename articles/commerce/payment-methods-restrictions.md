@@ -61,3 +61,6 @@ Quando l'opzione **Limitare per i rimborsi senza ricevuta** è impostata su **S�
 
 Se una transazione ha un reso con ricevuta e un reso senza ricevuta, le condizioni di restrizione non verranno applicate perché la transazione sarà un flusso di lavoro di reso con una ricevuta. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

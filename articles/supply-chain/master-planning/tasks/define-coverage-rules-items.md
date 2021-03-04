@@ -102,3 +102,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 11. Nel campo **Ora dell'acquisto** immettere '5'.
 12. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

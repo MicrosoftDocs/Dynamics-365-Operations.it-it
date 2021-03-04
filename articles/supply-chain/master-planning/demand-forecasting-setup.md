@@ -102,3 +102,6 @@ Nella scheda **Chiavi di allocazione** è possibile impostare **Parametri dell'a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

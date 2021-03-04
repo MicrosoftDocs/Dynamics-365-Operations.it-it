@@ -39,3 +39,6 @@ I seguenti scenari illustreranno il processo di consolidamento delle spedizioni 
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

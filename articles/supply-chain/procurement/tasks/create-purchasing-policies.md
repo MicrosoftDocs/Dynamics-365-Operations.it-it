@@ -57,3 +57,6 @@ Questa argomento vi mostra come creare criteri acquisto da allineare con i vostr
 4. Selezionare **Chiudi**.
 - Ora è possibile impostare altre regole dei criteri per i criteri di acquisto. Si noti che un tipo di regola di criteri non può avere regole sovrapposte attive allo stesso tempo all'interno di un singolo criterio di approvvigionamento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

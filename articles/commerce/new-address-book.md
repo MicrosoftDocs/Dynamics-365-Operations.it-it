@@ -57,3 +57,6 @@ L'immagine seguente mostra la creazione di una rubrica di dipendenti per un punt
 [Panoramica layout schermo](pos-screen-layouts.md)       
 
 [Configurare e installare Retail hardware station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ L'immagine seguente mostra un esempio di impostazione dell'assegnazione di un gr
 [Impostare un canale servizio clienti](channel-setup-callcenter.md)
 
 [Connettore pagamenti di Dynamics 365 per Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Per rimuovere un'associazione esistente tra un cespite in manutenzione e un cesp
 1. Trovare e aprire il cespite.
 1. Nella scheda dettaglio **Cespite** cancellare il valore nel campo **Unità funzionale**.
 1. Nel riquadro azioni selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

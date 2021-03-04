@@ -140,3 +140,6 @@ La strategia LIFO trova l'ubicazione che contiene la data di aging più recente 
 1. Da notare che nella riga in cui il valore **Tipo di lavoro** è *Prelievo*, il valore di **Ubicazione** è *FL-001*. Questa ubicazione contiene la targa con la data di aging più recente (LIFO).
 
 In questi scenari, hai visto come la strategia di aging dell'ubicazione indirizza il lavoro verso l'ubicazione delle scorte che ha le scorte più vecchie o quelle più recenti, a seconda della strategia selezionata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

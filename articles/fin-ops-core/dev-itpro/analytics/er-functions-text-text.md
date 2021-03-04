@@ -59,3 +59,6 @@ Se le impostazioni locali server dell'istanza di Microsoft Dynamics 365 Finance 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

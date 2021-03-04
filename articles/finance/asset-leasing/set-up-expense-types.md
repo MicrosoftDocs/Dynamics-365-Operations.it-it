@@ -59,3 +59,6 @@ Successivamente, è consigliabile associare i conti ai tipi di spesa. Questi con
 7. Nei campi appropriati seleziona il conto principale del leasing finanziario e il conto principale del leasing operativo.
 
 Dopo aver completato questi passaggi, puoi aggiungere le spese tramite le righe **Piano di pagamento dei costi di esecuzione** nella pagina **Dettagli leasing** di un leasing selezionato. In alternativa, puoi aggiungere le spese quando crei un nuovo leasing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

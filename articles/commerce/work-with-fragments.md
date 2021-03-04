@@ -136,3 +136,6 @@ Per modificare un frammento in Creazione di siti Web di Commerce, seguire questi
 [Utilizzare i layout preimpostati](work-with-layouts.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

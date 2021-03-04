@@ -98,3 +98,6 @@ Nella figura seguente è illustrato un esempio del grafico risultante.
 ![Visualizzazione della zona e dello stato di lavoro](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
 
 Questo grafico mostra due zone denominate **FLOOR** e **BULK**, più una zona denominata **Blank**. La zona **Blank** rappresenta tutte le righe di lavoro che non sono membri di nessuna zona. Il grafico mostra sempre tutti i dati filtrati non correlati come **Blank**, per fornire la massima visibilità possibile. Nella zona **FLOOR**, il grafico mostra tre righe chiuse e quattro righe aperte. Nella zona **BULK**, il grafico mostra quattro righe chiuse, una riga aperta e 24 righe annullate. Infine, il grafico mostra otto righe chiuse che non fanno parte di alcuna zona e sono quindi elencate come **Blank**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

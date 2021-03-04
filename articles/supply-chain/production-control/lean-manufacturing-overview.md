@@ -83,3 +83,6 @@ Inoltre, la funzionalità lean manufacturing supporta i processi di acquisto e d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

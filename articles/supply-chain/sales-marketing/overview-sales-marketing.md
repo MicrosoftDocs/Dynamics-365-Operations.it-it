@@ -125,3 +125,6 @@ Una fattura proforma è una fattura preparata come stima degli importi effettivi
 #### <a name="blogs"></a>Blog
 
 È possibile trovare una panoramica del processo di vendita nel post [Processo di vendita in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

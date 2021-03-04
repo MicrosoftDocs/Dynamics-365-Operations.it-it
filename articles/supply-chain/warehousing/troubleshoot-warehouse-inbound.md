@@ -65,3 +65,6 @@ Una nuova funzione di gestione del carico in entrata, *Entrata in eccesso di qua
 1. Entrata in eccesso di quantità di carico
 
 Per ulteriori informazioni, vedere [Registrare le quantità di prodotto registrate rispetto a ordini fornitore](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

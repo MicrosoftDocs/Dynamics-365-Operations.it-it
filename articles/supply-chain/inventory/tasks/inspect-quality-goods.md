@@ -51,3 +51,6 @@ In questo argomento viene descritto come elaborare un ordine di controllo qualit
 4. Selezionare **OK**.
 5. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

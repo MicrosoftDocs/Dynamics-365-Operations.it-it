@@ -91,3 +91,6 @@ Nella scheda **Posizioni** della pagina principale del lavoratore offre una vist
 
 [![Posizioni](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

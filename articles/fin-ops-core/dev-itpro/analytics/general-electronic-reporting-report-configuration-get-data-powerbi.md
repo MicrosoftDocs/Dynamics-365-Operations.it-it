@@ -196,3 +196,6 @@ Impostare l'integrazione con Power BI. Per ulteriori informazioni, vedere [Confi
 [Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md)
 
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

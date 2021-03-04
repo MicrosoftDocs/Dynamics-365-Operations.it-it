@@ -41,3 +41,6 @@ In questa procedura vengono descritti i passaggi per creare un nuovo dispositivo
 9. Nell'elenco fare clic sul collegamento nella riga selezionata.
 10. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

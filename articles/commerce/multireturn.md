@@ -54,3 +54,6 @@ Quando gli ordini sono selezionati, verrà visualizzato un elenco di tutti i pro
 
 Se l'ordine viene reso integralmente, l'importo delle imposte restituite al cliente sarà pari all'importo delle imposte addebitare in origine.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

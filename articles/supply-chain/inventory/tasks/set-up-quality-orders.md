@@ -136,3 +136,5 @@ In questa procedura viene illustrato come abilitare il processo di gestione dell
 
 > [!NOTE]
 > La funzione *Gestione della qualità per i processi di magazzino* fornisce opzioni aggiuntive per l'impostazione di associazioni di qualità. Aggiunge una nuova condizione (**Tipo di magazzino applicabile**) e una nuova impostazione (**Criteri di elaborazione della qualità**). Se è stata abilitata questa funzione, vedere [Gestione della qualità per i processi di magazzino](../quality-management-for-warehouses-processes.md) per dettagli.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

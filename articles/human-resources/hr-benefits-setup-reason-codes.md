@@ -41,3 +41,6 @@ Dynamics 365 Human Resources utilizza codici motivo per spiegare perché i benef
    | **Descrizione** | Descrizione del codice motivo. |
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

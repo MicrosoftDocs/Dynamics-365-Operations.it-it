@@ -514,3 +514,6 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Scaricare configurazioni ER da Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordini di lavoro con progetto (da Field Service a Supply Chain Management): WorkOrderService
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

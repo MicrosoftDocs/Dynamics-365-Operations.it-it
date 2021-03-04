@@ -109,3 +109,6 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 [Modulo casella acquisti](add-buy-box.md)
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

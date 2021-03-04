@@ -60,3 +60,6 @@ Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntiv
     Lo stato sulla pagina è passato a **Modifiche in attesa di approvazione**.
 
 Il flusso di lavoro segue il processo standard del flusso di lavoro nell'applicazione. L'approvatore viene reindirizzato alla pagina **Cliente**, in cui le modifiche possono essere riviste nella pagina **Modifiche proposte** e selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro. Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

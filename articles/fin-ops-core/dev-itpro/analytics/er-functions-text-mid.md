@@ -69,3 +69,6 @@ Se il valore dell'argomento `starting position` supera la lunghezza della string
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

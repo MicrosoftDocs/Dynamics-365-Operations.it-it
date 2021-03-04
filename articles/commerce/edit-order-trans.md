@@ -90,3 +90,6 @@ Per impostazione predefinita, dopo che gli ordini sono stati sincronizzati, veng
 [Creare una cartella di lavoro di Excel per modificare le transazioni di vendita al dettaglio](create-excel-edit.md)
 
 [Aggiungere campi a una cartella di lavoro di Excel per modificare le transazioni di vendita al dettaglio](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

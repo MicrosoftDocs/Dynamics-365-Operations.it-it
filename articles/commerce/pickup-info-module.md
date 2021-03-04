@@ -70,3 +70,6 @@ La seguente illustrazione mostra un esempio di una pagina checkout e-commerce ch
 [Modulo conferma ordine](order-confirmation-module.md)
 
 [Modulo Dettagli ordini](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

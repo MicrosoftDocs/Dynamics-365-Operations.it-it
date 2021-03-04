@@ -85,3 +85,6 @@ Ulteriori informazioni su questa funzionalità sono disponibili nell'[Esercitazi
 ## <a name="other-fixes"></a>Altre correzioni
 
 Questa versione include anche una serie di correzioni di bug, aggiunta di nuove entità, correzioni a entità esistenti e modifiche alle etichette localizzate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

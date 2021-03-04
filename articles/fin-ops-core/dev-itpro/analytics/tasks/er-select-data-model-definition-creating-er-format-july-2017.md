@@ -98,3 +98,6 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
     * Si noti che ora solo un elemento radice è disponibile per eseguire il mapping a origini dati dell'applicazione. Quando viene introdotto almeno un mapping di modello, solo gli elementi radice del modello che sono mappati alle origini dati dell'applicazione possono essere selezionati come modello di definizione mentre il formato ER viene aggiunto.   
 5. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Per aggiungere uno script esterno direttamente a un modello in Creazione di siti
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

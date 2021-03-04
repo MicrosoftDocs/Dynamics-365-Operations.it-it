@@ -73,3 +73,6 @@ Nella pagina elenco **Programmazione processo kanban** è incluso un riquadro De
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

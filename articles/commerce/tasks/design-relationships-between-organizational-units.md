@@ -63,3 +63,6 @@ In questa procedura viene illustrato come progettare la relazione tra le unità 
 29. Fare clic su Pubblica.
 30. Fare clic su Chiudi.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

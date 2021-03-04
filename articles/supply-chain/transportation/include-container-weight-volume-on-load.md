@@ -45,3 +45,6 @@ Il numero di contenitori da prendere in considerazione per un carico viene calco
 -   Per impostare peso e volume di un contenitore, fare clic su **Gestione magazzino** \> **Impostazione** \> **Contenitori** \> **Tipi di contenitore**.
 
 -   Per impostare la percentuale di utilizzo del contenitore, fare clic su **Gestione magazzino** \> **Impostazione** \> **Contenitori** \> **Gruppo di contenitori** e immettere un valore nel campo **Percentuale di utilizzo contenitore**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

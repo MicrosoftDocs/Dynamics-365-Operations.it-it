@@ -64,3 +64,6 @@ Quando si copia un fornitore, il sistema cerca di salvare le informazioni del nu
 
 1. Viene visualizzata un'opzione **Copia fornitore**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il fornitore nella persona giuridica corrente, impostare l'opzione su **Sì**.
 2. Selezionare **Select**. Viene creato il nuovo fornitore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

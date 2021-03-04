@@ -55,3 +55,6 @@ I passaggi seguenti illustrano come un utente con ruolo di amministratore di sis
 5. Selezionare **Chiudi**. 
 6. Selezionare la versione desiderata della configurazione ER e selezionare **Importa** per importarla nell'istanza.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

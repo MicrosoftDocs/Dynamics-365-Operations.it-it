@@ -110,3 +110,6 @@ Scissione dei pagamenti IVA
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

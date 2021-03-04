@@ -83,3 +83,6 @@ Per salvare e attivare il flusso di lavoro, attenersi alla procedura indicata di
 
     - Per attivare questa versione del flusso di lavoro, fare clic su **Attiva la nuova versione**. Quando un flusso di lavoro è attivo, l'utente è in grado di inviare documenti per l'elaborazione.
     - Se non si desidera attivare questa versione, fare clic su **Non attivare la nuova versione**. Sarà possibile attivare il flusso di lavoro in un secondo momento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

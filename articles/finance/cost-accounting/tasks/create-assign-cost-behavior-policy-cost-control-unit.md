@@ -86,3 +86,6 @@ Il comportamento costo è la classificazione del costo come fisso o variabile. A
 15. Nel campo Unità di controllo costi immettere o selezionare un valore.
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

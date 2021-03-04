@@ -93,3 +93,6 @@ Utilizzare la procedura descritta in questo argomento per configurare SQL Server
 13. Fare clic su **Esci** per chiudere l'applicazione **Gestione configurazione di Reporting Services**.
 
     [![chiudere gestione configurazione di reporting services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Saranno disponibili le seguenti pagine e voci di menu relative all'impostazione 
  - **Parametri per il commercio estero** (**Imposta** > **Impostazione** > **IVA** > **Commercio estero** > **Parametri per il commercio estero**). Vedere [Impostare le proprietà del paese/area geografica](#Set-up-Country/region-properties).
 
 La casella di controllo **Reverse charge** sarà disponibile nelle pagine **Gruppo IVA** e **IVA registrata**. Per ulteriori informazioni, vedere le sezioni [Impostare fasce IVA e fasce IVA articoli](#sales-tax-item-sales-tax-groups), [Reverse charge su una fattura di vendita](#reverse-charge-sale) e [Reverse charge su una fattura di acquisto](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

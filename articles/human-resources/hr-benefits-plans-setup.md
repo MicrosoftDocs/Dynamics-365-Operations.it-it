@@ -159,3 +159,6 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
 2. Selezionare **Programmi di crediti flessibili**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

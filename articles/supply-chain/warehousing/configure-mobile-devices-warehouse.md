@@ -439,3 +439,6 @@ Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possib
 [Stati inventario](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Utilizzare questa procedura per gestire l'origine dati della contabilità genera
 14. Nel campo Livello di registrazione selezionare Corrente.
 15. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

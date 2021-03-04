@@ -111,3 +111,6 @@ Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

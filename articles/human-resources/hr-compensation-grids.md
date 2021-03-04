@@ -92,3 +92,6 @@ Le griglie retributive vengono utilizzate per definire e gestire le strutture di
 29. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
 30. Fare clic su Applica alla griglia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

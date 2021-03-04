@@ -55,3 +55,6 @@ Il pianificatore di produzione calcola i fabbisogni di capacità e materiali per
 2. Fare clic su Stabilizza.
 3. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

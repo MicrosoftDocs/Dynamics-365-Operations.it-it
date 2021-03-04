@@ -66,3 +66,6 @@ Questa procedura riguarda l'esecuzione del processo kanban di prelievo per trasf
 2. Fare clic su Completa.
     * In questo modo verrà completato il trasferimento di entrambi i processi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

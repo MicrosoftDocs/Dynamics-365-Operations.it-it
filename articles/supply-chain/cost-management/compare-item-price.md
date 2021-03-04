@@ -121,3 +121,6 @@ Il seguente è un esempio di come esportare nel report **Confronta prezzi degli 
 1. Viene visualizzata la pagina **Riepilogo dell'esecuzione** in cui è possibile vedere lo stato del processo di esportazione e un elenco di entità esportate. Selezionare l'entità **Confronta prezzi articoli** elencata nell'area **Stato elaborazione entità** e quindi selezionare **Scarica file** per scaricare i dati esportati da tale entità.
 
 Per ulteriori informazioni su come utilizzare la gestione dei dati per esportare i dati, vedere [Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Impostare **Abilitato** su **Sì** per utilizzare la configurazione ER per defin
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

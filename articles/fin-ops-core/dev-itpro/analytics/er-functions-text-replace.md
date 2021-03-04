@@ -81,3 +81,6 @@ Se l'argomento `regular expression flag` è **FALSO**, questa funzione restituis
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ L'immagine seguente mostra una persona giuridica aggiunta alla radice della gera
 [Panoramica dei canali](channels-overview.md)
 
 [Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ In questo argomento viene descritto come eseguire la gestione di non conformità
 2. Selezionare **Chiudi non conformità**.
 3. Selezionare **Sì**.
 4. Chiudere le pagine.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

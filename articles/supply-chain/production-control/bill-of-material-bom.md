@@ -118,3 +118,6 @@ Selezionare il tipo di riga **Fornitore** se per il processo di produzione viene
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Selezionando **Opzioni di transazione \> Spese \> Gestisci spese** nell'applicaz
 [Addebiti automatici avanzati omnicanale](omni-auto-charges.md)
 
 [Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

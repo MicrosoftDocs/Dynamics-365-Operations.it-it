@@ -147,3 +147,6 @@ Nella seguente tabella viene visualizzato il risultato del calcolo per un oggett
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

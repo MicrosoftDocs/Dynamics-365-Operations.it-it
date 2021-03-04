@@ -257,3 +257,6 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 
     > [!NOTE]
     > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

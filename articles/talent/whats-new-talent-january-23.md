@@ -53,3 +53,6 @@ Con questa modifica, i campi **Periodo di prova** e **Calendario** sono stati ag
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Update 23 della piattaforma per Finance and Operations
 Correzioni di bug secondarie sono state incluse nell'aggiornamento 23 della piattaforma per Finance and Operations. Per ulteriori informazioni, vedere [Novità o modifiche nell'aggiornamento 23 della piattaforma Dynamics 365 Finance and Operations (gennaio 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

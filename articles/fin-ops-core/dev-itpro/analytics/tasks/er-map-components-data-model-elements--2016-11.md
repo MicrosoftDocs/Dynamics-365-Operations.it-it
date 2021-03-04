@@ -113,3 +113,6 @@ Ciascuna versione del formato può essere configurata come disponibile per l'uti
 1. Espandere la sezione Codici paese ISO.
     * Ogni accesso al formato può essere limitato identificando particolari paesi in cui un formato è applicabile. Se l'elenco dei paesi per il formato specifico è vuoto, il formato può essere utilizzato in qualsiasi società. Quando alcuni codici paese ISO vengono immessi nell'elenco di paesi, il formato può essere utilizzato solo nelle società se nell'indirizzo principale è presente il codice paese.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

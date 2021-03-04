@@ -56,3 +56,6 @@ ms.locfileid: "4419286"
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

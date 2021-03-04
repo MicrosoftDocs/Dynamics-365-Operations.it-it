@@ -63,3 +63,6 @@ Una volta creati gli stati di ciclo di vita necessari per le unità funzionali, 
 5. Se si desidera selezionare tutti gli stati disponibili per un modello, fare clic sul pulsante ![Seleziona tutte le fasi disponibili](media/03-setup-for-functional-locations.png). Tutti gli stati verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
 6. Se si desidera rimuovere uno stato selezionato dal modello, selezionare lo stato nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante ![freccia Indietro](media/04-setup-for-functional-locations.png).
 7. Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita possono seguire uno stato selezionato.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

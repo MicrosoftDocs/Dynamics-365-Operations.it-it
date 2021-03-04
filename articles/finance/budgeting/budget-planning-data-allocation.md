@@ -77,3 +77,6 @@ Infine, aggiungere un'attività automatizzata per l'allocazione della fase di pi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

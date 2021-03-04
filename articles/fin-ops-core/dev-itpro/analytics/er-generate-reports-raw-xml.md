@@ -37,3 +37,6 @@ ms.locfileid: "4686724"
 > Tenere presente che il framework non verifica se il contenuto XML che viene inserito nel documento generato utilizzando l'elemento di formato **RAW XML** è corretto.
 
 Per ulteriori informazioni su questa funzionalità, riprodurre le guide attività **ER Utilizzare dati XML non elaborati per generare report XML (Parte 1: Progettare un modello di dati)** e **ER Utilizzare dati XML non elaborati per generare report XML (Parte 2: Progettare un modello di dati)** che fanno parte dell processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** e che possono essere scaricate dall'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Queste guide attività illustrano in dettaglio il processo di configurazione di un formato di ER per inserire dati XML non elaborati in file generati.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In questo argomento viene descritto come utilizzare il registro fatture per crea
 13. Selezionare **Transazioni**.
 14. Selezionare la fattura creata. Il rateo del registro fatture è stato stornato e registrato nel conto spese appropriato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

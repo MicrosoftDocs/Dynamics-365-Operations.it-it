@@ -74,3 +74,6 @@ L'ordine fornitore deve essere confermato prima che l'entrata prodotti possa ess
 6. Comprimere la sezione **Righe**.
 7. Fare clic su **OK** per registrare l'entrata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

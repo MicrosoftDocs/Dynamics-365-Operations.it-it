@@ -53,3 +53,6 @@ ms.locfileid: "4419271"
 ## <a name="see-also"></a>Vedere anche
 
 [Congedo sospeso](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

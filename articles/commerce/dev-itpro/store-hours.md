@@ -78,3 +78,6 @@ Seguire questi passaggi per aggiungere gli orari del punto vendita sulle ricevut
 Le ricevute POS ora includono gli orari del punto vendita. Se nel modello sono state incluse le festività, saranno visualizzate sulla ricevuta.
 
 ![Esempio di ricevuta](../dev-itpro/media/Storehours3.png "Esempio di ricevuta")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

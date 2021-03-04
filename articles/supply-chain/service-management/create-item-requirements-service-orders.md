@@ -72,3 +72,6 @@ Le richieste articoli per gli ordini di assistenza vengono elaborati nel corso d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

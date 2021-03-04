@@ -51,3 +51,6 @@ Nella figura seguente è illustrato un esempio di un report di ordine di lavoro 
 
 ![Figura 2](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

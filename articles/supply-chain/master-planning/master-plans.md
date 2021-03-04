@@ -57,3 +57,6 @@ Una società può scegliere di utilizzare semplicemente un piano dinamico o il p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

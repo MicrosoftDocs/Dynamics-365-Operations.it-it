@@ -49,3 +49,6 @@ Nel momento in cui i candidati vengono aggiunti a una posizione aperta, ricevono
 
 ## <a name="analytic-reports"></a>Report analitici
 I team di assunzione possono utilizzare le metriche del processo di assunzione delle chiavi di visualizzazione per un singolo lavoro o aggregate in tutti i lavori con [report analitici di Attract](analytic-reports.md). Questa funzionalità è attualmente in [anteprima](access-preview-feature.md) per i clienti con la [versione di Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

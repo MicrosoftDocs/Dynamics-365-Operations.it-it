@@ -193,3 +193,6 @@ Vi è un'eccezione alla regola in base alla quale gli ordini batch sono applicab
 Se una formula contiene un principio attivo per un prodotto attivato per i processi di gestione magazzino, ma il numero batch è sotto il percorso nella gerarchia prenotazioni, l'ordine batch non è applicabile al bilanciamento del batch.
 
 Un ordine batch non applicabile al bilanciamento del batch viene sottoposto al ciclo di lavorazione standard per gli ordini batch.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

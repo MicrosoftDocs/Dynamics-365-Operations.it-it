@@ -56,3 +56,6 @@ Per la valutazione, è possibile utilizzare direttamente il report **Report prod
 - Area di lavoro **Gestione punto vendita** &gt; **Retail e Commerce** &gt; **Canali** &gt; **Gestione punto vendita** &gt; **Report** &gt; **Report prodotti principali**
 - Area di lavoro **Gestione categorie e prodotti** &gt; **Retail e Commerce** &gt; **Prodotti e categorie** &gt; **Gestione punto vendita** &gt; **Report** &gt; **Report prodotti principali**
 - Sezione **Richieste di informazioni e report** &gt; **Retail e Commerce** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report prodotti principali**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

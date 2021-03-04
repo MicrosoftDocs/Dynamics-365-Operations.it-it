@@ -46,3 +46,6 @@ Questa procedura riguarda la definizione del ciclo di lavorazione di configurazi
 15. Nell'elenco fare clic sul collegamento nella riga selezionata.
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

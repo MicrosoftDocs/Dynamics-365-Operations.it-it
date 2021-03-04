@@ -90,3 +90,6 @@ Per ulteriori informazioni, vedere [Inserimento e navigazione dei dipendenti sem
 ### <a name="platform-update-29"></a>Update 29 della piattaforma
 
 Per ulteriori dettagli sull'aggiornamento 29 della piattaforma, vedere [Funzionalità di anteprima nell'aggiornamento 29 della piattaforma Dynamics 365 for Finance and Operations (ottobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

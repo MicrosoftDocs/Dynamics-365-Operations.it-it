@@ -45,3 +45,6 @@ Quando si prenotano scorte di un prodotto in una riga ordine cliente impostata p
 - I giorni di durata a scaffale rimanenti per il batch sono insufficienti in base alla data di scadenza e alla data di consumo consigliata, più gli eventuali giorni di vendita del cliente.
 
 Per gli articoli associati a un gruppo di dimensioni di immagazzinamento con **Usa processi di gestione magazzino** abilitato, è possibile prenotare specifici numeri di lotto utilizzando una gerarchia di prenotazione con la dimensione di inventario del numero di lotto definita sopra la dimensione della posizione. La pagina **Prenotazione batch** per le righe ordine di vendita e trasferimento consente inoltre di selezionare e prenotare più righe in base ai numeri di batch disponibili. Per ulteriori informazioni sulle operazioni da eseguire se si utilizza una gerarchia di prenotazione con la dimensione del numero di batch al di sotto della posizione, vedere [Criteri flessibili di prenotazione delle dimensioni a livello di magazzino](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

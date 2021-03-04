@@ -50,3 +50,6 @@ Per una maggiore visibilità dei vari importi relativi al carrello, tre nuovi ca
 - **Deposito applicato**: l'importo del deposito applicato in una transazione quando l'utente effettua un prelievo dell'ordine cliente. Se non esiste alcuna sostituzione deposito e viene configurato un deposito del 10 per cento, l'importo riportato in questo campo è 90 percento dell'importo totale dell'ordine cliente.
 - **Importo esecuzione**: l'importo totale per le righe in cui la modalità di consegna è stata impostata su **Eseguire** quando l'ordine cliente è stato creato o modificato o durante lo scambio degli ordini cliente. L'importo in questo campo include IVA e spese.
 - **Importo reso**: l'importo totale per le righe con le quantità negative durante lo scambio dell'ordine cliente. L'importo in questo campo include IVA e spese.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

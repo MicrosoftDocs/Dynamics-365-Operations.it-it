@@ -41,3 +41,6 @@ ms.locfileid: "4692820"
 
 > [!NOTE]
 > I modelli di messaggio di posta elettronica per il flusso di lavoro verranno forniti da modelli di messaggio di posta elettronica del sistema o modelli di messaggio di posta elettronica dell'organizzazione a seconda che il flusso di lavoro sia un flusso di lavoro a livello di sistema (non specifico dell'azienda) o a livello di organizzazione (specifico dell'azienda).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

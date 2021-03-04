@@ -79,3 +79,6 @@ Per scaricare **Referral App**, accedere a [Soluzione di estensibilità Dynamics
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Migrare app tra tenant e ambienti](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,5 @@ Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, 
 -   Selezionare o verificare i criteri per analizzare i risultati per caratteristiche del questionario o dell'intervistato. Ad esempio, selezionando **Codice postale (CAP)**, è possibile analizzare la correlazione tra l'ubicazione di un intervistato e le risposte corrette.
 
 Le impostazioni definite vengono salvate e possono essere utilizzate per ricalcolare periodicamente i risultati.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

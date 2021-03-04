@@ -169,3 +169,6 @@ Lo scenario di esempio richiede la preparazione di due profili di ubicazione.
 
 > [!NOTE]
 > I campi dell'ubicazione vengono aggiornati solo dalle transazioni di magazzino. Se sposti le scorte utilizzando un giornale di registrazione o altri processi non di magazzino, i campi non verranno aggiornati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

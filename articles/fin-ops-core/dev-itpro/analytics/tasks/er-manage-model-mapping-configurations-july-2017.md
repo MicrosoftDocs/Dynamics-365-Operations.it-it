@@ -161,3 +161,6 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 7. Fare clic su OK.
     * La configurazione del mapping di modello predefinita viene utilizzata da questa configurazione di formato per la generazione di documenti elettronici (l'output creato conterrà il codice della società).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

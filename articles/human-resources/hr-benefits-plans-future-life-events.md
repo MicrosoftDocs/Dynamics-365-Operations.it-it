@@ -46,3 +46,6 @@ ms.locfileid: "4419153"
    | Linea | Numero di riga dell'evento reale futuro. |
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

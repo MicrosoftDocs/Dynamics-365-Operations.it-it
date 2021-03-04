@@ -111,3 +111,6 @@ Verrà creata una nuova DBA modello con le righe corrispondenti a quelle della D
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

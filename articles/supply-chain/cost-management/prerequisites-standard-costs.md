@@ -80,3 +80,6 @@ I clienti che desiderano cambiare gli articoli esistenti e impostare un modello 
 
 - [Come impostare i costi standard per i materiali diretti in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Costi di manodopera diretti standard in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ I lavoratori possono aprire un documento allegato a un processo selezionando **I
 1. Il lavoratore utilizza la guida per apprendere come eseguire l'attività.
 
 Per ulteriori informazioni su come creare, assegnare e utilizzare le guide per HoloLens, vedere [Fornire guide di realtà mista per i lavoratori in produzione](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

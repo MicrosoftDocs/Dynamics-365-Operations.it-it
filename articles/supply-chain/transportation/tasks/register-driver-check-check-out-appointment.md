@@ -46,3 +46,6 @@ In questa procedura viene descritto come registrare il check-in e il check-out d
 1. Fare clic su Check-out conducente.
 2. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

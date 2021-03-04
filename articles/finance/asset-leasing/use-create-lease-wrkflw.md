@@ -45,3 +45,6 @@ Prima di utilizzare questa procedura, assicurati che sia stato creato almeno il 
 
 8. Per interrompere un flusso di lavoro, nella pagina **Storico flusso di lavoro**, seleziona **Richiama**. Nella finestra di dialogo visualizzata, immetti un commento e quindi seleziona **OK**.
 9. Per disattivare un flusso di lavoro o per attivare un flusso di lavoro creato in precedenza, vai a **Leasing cespite \> Imposta \> Flusso di lavoro di leasing**. Quindi, nella pagina **Flusso di lavoro di leasing**, seleziona **Flusso di lavoro \> Versioni**. Per rendere inattivo un flusso di lavoro corrente, seleziona il leasing attivo nella finestra di dialogo della versione del leasing, quindi seleziona **Rendi inattivo**. Per rendere attivo un flusso di lavoro esistente, seleziona il flusso di lavoro e quindi seleziona **Rendi attivo**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

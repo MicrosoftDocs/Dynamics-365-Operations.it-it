@@ -143,3 +143,6 @@ Per disabilitare uno scenario, attenersi alla procedura seguente.
 2. Nel riquadro dello scenario, selezionare **Configura**.
 3. Selezionare **Avanti** per andare all'ultima pagina della procedura guidata.
 4. Impostare l'opzione per disabilitare lo scenario.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Nella pagina **Doppia scrittura** è possibile che venga visualizzato un messagg
 *L'entità con nome "msdyn\_dualwriteentitymap" con namemapping = "Logico" non è stata trovata in MetadataCache.*
 
 Per risolvere il problema, assicurarsi che sia installata la soluzione core doppia scrittura in Dataverse. La soluzione core doppia scrittura è un prerequisito per la consapevolezza della soluzione.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

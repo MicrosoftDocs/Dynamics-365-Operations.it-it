@@ -40,3 +40,6 @@ La configurazione **Visualizza batch meno recenti all'interno del magazzino** è
 
 - In **Gestione magazzino** > **Impostazioni** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile** impostare **Utilizza lavoro esistente** su **Sì** per la voce di menu e selezionare **Avvisa** nel campo **Preleva batch meno recente**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

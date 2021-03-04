@@ -58,3 +58,6 @@ Se si selezionano i tipi di carico **Capacità** o **Residuo** per il calcolo, l
 
 Per informazioni sulla modalità di calcolo del carico di capacità nelle righe di programma di manutenzione e ordini di lavoro non programmati, consultare [Calcolare carico di capacità](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

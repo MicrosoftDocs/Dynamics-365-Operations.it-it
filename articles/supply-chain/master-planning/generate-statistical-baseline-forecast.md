@@ -78,3 +78,6 @@ Se la previsione non viene generata per un grande set di articoli, ma ad esempio
 - [Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 
 - [Autorizzare una previsione corretta](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo ba
 6. Dopo la registrazione della transazione, puoi visualizzare le informazioni sulla transazione e il valore contabile dell'obbligazione sul leasing selezionando **Transazioni di passività** nel libro di leasing.
 
     Nello scadenzario dei pagamenti, verrà selezionata la casella di controllo **Giornale di registrazione registrato** e la riga mostrerà il numero di giornale di registrazione fattura. Dopo aver creato un giornale di registrazione pagamenti e una registrazione per quel giornale, è necessario stornare il movimento prima che possa essere ricreato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

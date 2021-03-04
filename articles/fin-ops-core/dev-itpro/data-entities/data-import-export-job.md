@@ -243,3 +243,6 @@ Per scaricare lo storico esecuzione archiviata, andare all'area di lavoro della 
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

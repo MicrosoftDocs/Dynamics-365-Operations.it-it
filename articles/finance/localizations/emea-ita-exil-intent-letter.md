@@ -91,3 +91,6 @@ L'importo della transazione fattura sarà soggetto al calcolo dell'IVA solo se s
 I dettagli della lettera di intento saranno inclusi anche in un layout stampabile della fattura.
 
 ![Stampa fattura](media/emea-ita-exil-intent-inv-print.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

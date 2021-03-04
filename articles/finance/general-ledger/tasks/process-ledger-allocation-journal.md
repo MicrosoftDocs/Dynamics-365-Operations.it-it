@@ -44,3 +44,6 @@ In questo argomento viene illustrato come elaborare una richiesta di allocazione
 9. Selezionare **Registra**.
 10. Selezionare **Registra**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

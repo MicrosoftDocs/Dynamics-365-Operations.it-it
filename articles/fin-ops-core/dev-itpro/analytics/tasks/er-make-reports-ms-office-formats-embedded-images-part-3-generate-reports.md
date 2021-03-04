@@ -119,3 +119,6 @@ In questo esempio verranno create configurazioni ER per la società di esempio "
 23. Fare clic su OK.
     * Esaminare l'output creato. Si noti che l'output è stato generato come documento di MS Word con immagini incorporate che presentano il logo della società, la firma di una persona autorizzata e il testo selezionato della filigrana.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

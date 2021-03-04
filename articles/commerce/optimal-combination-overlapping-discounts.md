@@ -84,3 +84,6 @@ Per risolvere il problema di un numero che cresce in modo esponenziale delle com
 ![Formula per il calcolo del valore marginale](./media/overlapping-discount-combo-06.jpg)
 
 Dopo che il valore marginale di ciascuno sconto in un set di prodotti condivisi viene calcolato, gli sconti vengono applicati ai prodotti condivisi nell'ordine, esaustivamente, dal valore marginale più elevato al valore marginale più basso. Per questo metodo, tutte le possibilità di sconto rimanenti non vengono confrontate ogni volta dopo che una singola istanza di uno sconto viene applicata. Invece, gli scontisovrapposti vengono confrontati una volta e quindi applicati nell'ordine. Nessun confronto aggiuntivo viene eseguito. È possibile configurare la soglia per passare al metodo del valore marginale nella scheda **Sconto** della pagina **Parametri di commercio**. Il tempo accettabile di calcolo dello sconto totale varia nei settori di vendita al dettaglio. Tuttavia, questo tempo rientra in genere nell'intervallo compreso tra decine di millisecondi e un secondo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

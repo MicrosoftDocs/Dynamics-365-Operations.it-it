@@ -112,3 +112,6 @@ Per iniziare a utilizzare layout preimpostati, vedere [Utilizzare layout preimpo
 [Utilizzare i layout preimpostati](work-with-layouts.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

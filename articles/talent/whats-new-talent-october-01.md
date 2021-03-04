@@ -56,3 +56,6 @@ Le organizzazioni attribuiscono permessi in modo diverso in base a quando i dipe
 ## <a name="known-issue"></a>Problema noto
 
 -   **Problema:** quando si aggiunge un nuovo allegato a un lavoratore, i pulsanti **Nuovo** e **Modifica** appaiono disattivati. **Soluzione alternativa:** prima di aprire la pagina degli allegati, assicurarsi che i riquadri Dettaglio informazioni nella pagina **Lavoratore** siano chiusi. Se i riquadri Dettaglio informazioni sono chiusi quando la pagina **Lavoratore** viene caricata, i pulsanti degli **Allegati** saranno abilitati. Questo problema verrà risolto nel prossimo aggiornamento della piattaforma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

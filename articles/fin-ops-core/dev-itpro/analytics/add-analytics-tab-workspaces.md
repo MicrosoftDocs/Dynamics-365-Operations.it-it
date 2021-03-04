@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Valore booleano che indica se il riquadro filtri deve essere visualizzato (**True**) o nascosto (**False**).     |
 | showNavPane      | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (**True**) o nascosto (**False**). |
 | defaultFilters   | Filtri di base per il report Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

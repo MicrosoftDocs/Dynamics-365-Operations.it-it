@@ -496,3 +496,6 @@ Verificare che la configurazione di mapping di modello condivisa non sia contras
 - Almeno una versione della configurazione del mapping di modello ER è nello stato **Completato** o **Condiviso**. In questo caso, la versione con il numero più alto verrà utilizzata per l'esecuzione del formato ER.
 - L'opzione **Esegui bozza** per la configurazione di mapping di modello ER è abilitata. In questo caso, la versione con lo stato **Bozza** verrà utilizzata per l'esecuzione del formato ER.
 > L'opzione **Esegui bozza** diventa disponibile nella pagina **Configurazioni** per ogni configurazione di mapping di modello ER quando il parametro dell'utente ER **Esegui impostazione** è abilitato.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

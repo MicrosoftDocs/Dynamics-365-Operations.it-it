@@ -59,3 +59,6 @@ Utilizzare la guida attività per creare una sequenza delle lettere di sollecito
 26. Espandere la Scheda dettaglio **Nota**.
 27. Immettere il testo da visualizzare sulla lettera di sollecito per il codice lettera di sollecito selezionato. È possibile tradurre il testo in più lingue utilizzando il menu Traduzioni sopra la casella della nota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

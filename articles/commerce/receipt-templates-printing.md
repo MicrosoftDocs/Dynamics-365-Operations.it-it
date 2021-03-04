@@ -82,3 +82,6 @@ I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo har
 
 > [!NOTE]
 > Se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

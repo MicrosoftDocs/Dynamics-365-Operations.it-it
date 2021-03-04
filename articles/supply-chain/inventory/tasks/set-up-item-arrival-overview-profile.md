@@ -54,3 +54,6 @@ In questo argomento viene descritta l'impostazione del profilo della panoramica 
 17. Selezionare **Salva**.
 18. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

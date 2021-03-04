@@ -49,3 +49,6 @@ Quando si aggiorna un documento di trasporto per un reso che deriva da un contra
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

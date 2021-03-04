@@ -599,3 +599,6 @@ Se il lavoratore non risulta al lavoro un giorno e non sono presenti assenze pia
 - Inserimento automatico dell'assenza
 
 Quando le registrazioni giornaliere vengono calcolate per un lavoratore che ha diritto a ore flessibili, il codice assenza specificato nel campo **Inserimento automatico della flessibilità in difetto-** viene utilizzato come codice assenza predefinito. Se il lavoratore non ha diritto all'orario flessibile, viene utilizzato il codice assenza specificato nel campo **Inserimento automatico dell'assenza**. Se una società ha una combinazione di lavoratori che sono abilitati a usufruire degli orari flessibili e lavoratori che non lo sono, è necessario impostare entrambi i parametri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

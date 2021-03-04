@@ -174,3 +174,6 @@ Altri miglioramenti back-end visibili agli utenti sono stati apportati alla funz
 
     - Accedere a **Retail e Commerce** \> **Impostazione sedi centrali** \> **Parametri** \> **Parametri di commercio**. Quindi, ,nella scheda **Registrazione**, nella Scheda dettaglio **Aggiornamento dell'inventario**, nel campo **Livello dettagli** selezionare **Riepilogo**.
     - Accedere a **Retail e Commerce** \> **Impostazione sedi centrali** \> **Parametri** \> **Parametri di commercio**. Quindi, nella scheda **Registrazione**, nella Scheda dettaglio **Aggregazione**, impostare l'opzione **Transazioni giustificativo** su **Sì**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

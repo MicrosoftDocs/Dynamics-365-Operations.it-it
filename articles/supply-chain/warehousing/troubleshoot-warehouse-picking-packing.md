@@ -110,3 +110,6 @@ Quando si usa il processo *Prelievo cluster diretto dal sistema*, se si configur
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Per risolvere questo problema, modificare il profilo del cluster e impostare l'opzione **Attiva posizioni** su *No*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

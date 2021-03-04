@@ -51,3 +51,6 @@ In questa attività viene illustrato come creare un contratto per linea di credi
 18. Fare clic su Estendi.
 19. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

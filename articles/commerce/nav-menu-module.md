@@ -72,3 +72,6 @@ Per dettagli su come aggiungere un modulo del menu di spostamento a un modulo di
 [Conformità dei cookie](cookie-compliance.md)
 
 [Modulo intestazione](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

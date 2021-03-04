@@ -71,3 +71,6 @@ Dopo aver completato il processo di riparazione o manutenzione, è possibile reg
 2. Selezionare il cespite o la richiesta di intervento di manutenzione.
 3. Selezionare **Consegna cespiti**.
 4. Nel campo **Consegnato** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in uscita**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

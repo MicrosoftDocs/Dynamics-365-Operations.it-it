@@ -245,3 +245,6 @@ Nel carico di lavoro nelle unità di scala, è possibile gestire i due processi 
 
 - Elaborare record di tabelle ciclo
 - Elabora eventi di trasferimento del controllo di esecuzione ondata
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

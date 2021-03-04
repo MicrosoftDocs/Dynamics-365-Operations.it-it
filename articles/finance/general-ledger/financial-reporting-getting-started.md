@@ -173,3 +173,6 @@ Problema 3: è possibile procedere oltre la pagina di accesso di Progettazione r
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Visualizza report finanziari](view-financial-reports.md)
 - [Definizioni di albero gerarchico nei report finanziari](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

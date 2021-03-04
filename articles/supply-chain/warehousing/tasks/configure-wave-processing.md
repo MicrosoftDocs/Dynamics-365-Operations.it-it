@@ -61,3 +61,6 @@ In questo guida viene descritto come impostare i criteri che determinano quale l
 Per gli ordini cliente e gli ordini di kanban, l'inventario deve essere prenotato prima che l'ordine venga rilasciato al magazzino. In caso contrario, gli articoli o le righe di allocazione non possono essere elaborati in un'ondata. Per gli ordini di produzione, è anche possibile scegliere Consenti prenotazione parziale. Ad esempio, questo è utile se si dispone dei materiali necessari per avviare una produzione ed è quindi possibile attendere fino a quando i materiali aggiuntivi diventano disponibili per terminare il processo. Se si seleziona questa opzione, è necessario ripetere manualmente il rilascio al processo di magazzino quando i materiali aggiuntivi diventano disponibili.  
 25. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

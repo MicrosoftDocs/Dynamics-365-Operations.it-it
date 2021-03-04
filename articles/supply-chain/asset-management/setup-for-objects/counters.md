@@ -67,3 +67,6 @@ Quando i tipi di cespite vengono aggiunti a un tipo di contatore in **Contatori*
 
 ![Figura 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

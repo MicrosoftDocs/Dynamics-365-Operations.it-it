@@ -96,3 +96,6 @@ Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

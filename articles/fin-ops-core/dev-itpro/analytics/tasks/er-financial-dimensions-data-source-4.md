@@ -49,3 +49,6 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 ![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run3.png)
     * Esaminare l'output generato. Per ciascuna transazione del batch selezionato, le dimensioni finanziarie del set di dimensioni corrispondente vengono presentate. Eseguire questo report e selezionare dimensioni diverse per vedere che il report non dipende dal numero di dimensioni selezionate o dal numero di dimensioni configurate per questa istanza.  
 ![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

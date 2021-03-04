@@ -41,3 +41,6 @@ In questo argomento sono elencate le aree di lavoro mobili disponibili con l'app
 | [Ordini cliente](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Aggiorna costantemente gli ordini cliente.                                                                                                                          |  2017 gennaio                  |
 | [Collaborazione fornitore](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati. |2017 gennaio    |
 | [Gestione cespiti](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Questa area di lavoro consente agli utenti di visualizzare e creare richieste di manutenzione e ordini di lavoro. Gli utenti possono inoltre visualizzare i processi di ordine di lavoro assegnati in una visualizzazione elenco o del calendario. È inoltre possibile visualizzare e eseguire ricerche di cespiti e unità funzionali. |2019 ottobre    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

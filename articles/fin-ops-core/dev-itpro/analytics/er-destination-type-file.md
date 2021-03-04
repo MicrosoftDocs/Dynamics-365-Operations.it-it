@@ -38,3 +38,6 @@ Nella pagina **Impostazioni destinazione**, se si imposta **Abilitato** su **Sì
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

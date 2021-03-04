@@ -94,3 +94,5 @@ Si raccomanda di non includere dati personali (qualsiasi informazione che possa 
 
 - [Novità in Risorse umane](hr-admin-whats-new.md)
 - [Piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

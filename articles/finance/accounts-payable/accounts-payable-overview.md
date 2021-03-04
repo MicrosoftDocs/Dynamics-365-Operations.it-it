@@ -148,3 +148,6 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

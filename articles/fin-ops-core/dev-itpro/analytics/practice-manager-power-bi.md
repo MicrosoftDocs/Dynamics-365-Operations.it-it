@@ -117,3 +117,6 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Misura di aggregazione chiave       | Campo               | descrizione |
 |---------------------------------|---------------------|-------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

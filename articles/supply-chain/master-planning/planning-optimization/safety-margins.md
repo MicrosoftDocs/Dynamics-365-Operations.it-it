@@ -183,3 +183,6 @@ Ad esempio, un articolo ha un lead time di un giorno e un margine su entrata di 
 [Introduzione all'ottimizzazione della pianificazione](get-started.md)
 
 [Analisi corrispondenza Ottimizzazione pianificazione](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

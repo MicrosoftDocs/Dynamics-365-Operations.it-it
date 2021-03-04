@@ -54,3 +54,6 @@ In questo argomento viene descritto come impostare i modelli di carico e come as
 1. Nel riquadro azioni, nella scheda **Domanda e offerta**, nel gruppo **Aggiungi** seleziona **Al nuovo carico**.
 1. Nella finestra di dialogo **Modello carico**,nel campo **ID modello di carico** selezionare il modello da applicare.
 1. Selezionare **OK** per applicare il modello.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

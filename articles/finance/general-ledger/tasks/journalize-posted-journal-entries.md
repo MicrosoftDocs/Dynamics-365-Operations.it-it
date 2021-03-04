@@ -40,3 +40,6 @@ Questa procedura descrive come effettuare inserimenti nel giornale di registrazi
 9. Scegliere **OK** per la pagina del filtro.
 10. Scegliere **OK** per avviare il processo di inserimento nel giornale di registrazione. Un report verrà generato dopo che il processo è completato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

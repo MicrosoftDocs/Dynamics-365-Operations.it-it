@@ -39,3 +39,6 @@ Nell'illustrazione seguente viene fornita una panoramica del flusso di lavoro da
 
 ![Figura 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

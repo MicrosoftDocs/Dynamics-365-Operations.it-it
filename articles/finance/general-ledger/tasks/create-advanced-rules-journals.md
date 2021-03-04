@@ -58,3 +58,6 @@ Questa procedura descrive come creare regole avanzate per i giornali di registra
 4. Nella struttura, selezionare 'il gruppo a cui è consentita la registrazione per questo nome di giornale di registrazione'.
 5. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

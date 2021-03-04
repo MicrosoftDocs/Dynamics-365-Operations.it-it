@@ -221,3 +221,6 @@ Quando il documento è nello stato **Richiesto**, è visibile nella scheda **Att
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Operazione di magazzino in uscita in POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

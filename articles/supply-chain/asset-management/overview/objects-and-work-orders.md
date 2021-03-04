@@ -55,3 +55,6 @@ Diversi passaggi devono essere completati quando si desidera programmare ed eseg
 
 > [!NOTE]
 > In genere quando si lavora in Dynamics 365 Supply Chain Management e nel modulo **Gestione cespiti**, si seleziona **Nuovo** per creare un nuovo record, **Modifica** per aggiornare un record esistente e si seleziona **Salva** per salvare i dati nuovi o modificati.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

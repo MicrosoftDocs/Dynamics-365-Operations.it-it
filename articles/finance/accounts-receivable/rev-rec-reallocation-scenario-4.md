@@ -77,3 +77,6 @@ Quando si seleziona **Giustificativo**, il giornale di registrazione fatture mos
 Quindi, aprire la pagina **Tutti i clienti** (**Contabilità clienti \> Clienti \> Tutti i clienti**), selezionare il cliente **US\_SI\_0003** e quindi selezionare **Transazioni**. La pagina **Transazioni cliente** mostra solo la fattura originale (000008), insieme alla voce contabile originale. Perché l'opzione **Correzioni delle fatture registrate in contabilità clienti** è impostata su **No** nella pagina **Parametri di contabilità generale** viene aggiornata solo la contabilità generale. Pertanto, le voci contabili stornate e aggiornate non vengono visualizzate. Notare che le transazioni di rettifica ricavi create nello [scenario 3](rev-rec-reallocation-scenario-3.md) sono visualizzate.
 
 [![Voce contabile originale nella pagina Transazioni cliente](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Quando si apre un blocco predefinito, gli utenti possono accedere al blocco pred
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

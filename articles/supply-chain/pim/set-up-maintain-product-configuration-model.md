@@ -53,3 +53,6 @@ Questo articolo descrive i passaggi per l'impostazione e la creazione di un mode
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

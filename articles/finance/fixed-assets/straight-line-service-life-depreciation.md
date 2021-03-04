@@ -108,3 +108,6 @@ La vita utile della rettifica di acquisizione è la stessa del cespite e inizia 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

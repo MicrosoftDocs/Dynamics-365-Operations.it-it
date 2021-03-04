@@ -38,3 +38,6 @@ Nella pagina **Assegni**, eseguire le attività di manutenzione per gli assegni.
 Per aprire la pagina **Assegni**, passare a **Gestione cassa e banche \> Conti bancari \> Conti bancari**, quindi nel riquadro Azioni, nella scheda **Gestione di pagamenti**, nel gruppo **Informazioni correlate**, selezionare **Assegni**. In alternativa, passare a **Gestione cassa e banche \> Richieste di informazioni e report \> Assegni**.
 
 Quindi, per creare assegni con stato **In bianco**, selezionare **Crea assegni in bianco** nel riquadro Azioni. Durante la creazione di assegni in bianco, il conto bancario associato è temporaneamente disattivato. In questo modo si riduce il rischio di generare pagamenti nello stesso momento in cui vengono creati assegni in bianco. Al completamento dell'elaborazione, il conto bancario associato viene riattivato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

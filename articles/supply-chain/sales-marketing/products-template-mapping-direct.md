@@ -124,3 +124,6 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping in In
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

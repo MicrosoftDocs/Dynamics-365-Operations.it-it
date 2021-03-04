@@ -63,3 +63,6 @@ Supponiamo che l'organizzazione desideri limitare l'accesso ai dati. Se, per qua
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Per ulteriori informazioni sulla protezione a livello di riga di Power BI, vedere [Gestire la protezione sul proprio modello in Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

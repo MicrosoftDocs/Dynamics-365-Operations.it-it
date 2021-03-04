@@ -157,3 +157,6 @@ Per creare una mansione, attenersi alla procedura seguente.
 
 13. Per attivare la mansione, selezionare **Attiva**.
 14. Per pubblicare la mansione, passare a **Registrazioni** e selezionare **Registra ora** nel sito Talent - Avanzamento professionale o su LinkedIn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

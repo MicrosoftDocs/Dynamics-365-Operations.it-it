@@ -45,3 +45,6 @@ Con questa modifica, il valore predefinito del campo **Azione richiesta da** è 
 ### <a name="ideas-portal-updated"></a>Portale Ideas aggiornato
 Nell'app, i collegamenti per inviare un'idea per Talent sono stati aggiornati nel nuovo portale Ideas. Tutte le idee immesse nel portale precedente sono state migrate, di conseguenza possono ancora essere votate da altri utenti.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

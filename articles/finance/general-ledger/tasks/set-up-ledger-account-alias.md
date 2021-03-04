@@ -41,3 +41,6 @@ Questa procedura mostra come creare un alias di conto che fornisce un collegamen
 9. Nel campo Stato attivo iniziale, selezionare la dimensione che avrà lo stato attivo quando l'alias viene utilizzato.
     * Dopo aver digitato il collegamento e il conto e le dimensioni sono popolati, il campo Stato attivo iniziale è dove si sposta il cursore o lo stato attivo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

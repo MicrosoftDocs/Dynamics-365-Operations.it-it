@@ -92,3 +92,6 @@ Per creare e modificare sequenze numeriche, attenersi alla seguente procedura.
     | Cifra di controllo | Questo tipo di segmento aggiunge una cifra di controllo, che è un calcolo del modulo 10 (questo comportamento corrisponde alla logica esistente per gli ID targa). Per questo tipo di segmento, il campo **Valore** è sempre impostato su un accento circonflesso (*^*) e il campo **Lunghezza** è sempre impostato su *1*. |
 
 1. Per visualizzare un esempio del formato numerico finale, controllare il campo **Formato** nella parte inferiore della Scheda dettaglio **Segmenti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

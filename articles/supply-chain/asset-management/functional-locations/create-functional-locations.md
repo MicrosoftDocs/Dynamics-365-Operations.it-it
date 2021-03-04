@@ -132,3 +132,6 @@ Una unità funzionale con le ubicazioni secondarie correlate può essere elimina
 
 >[!NOTE]
 >Se non è possibile eliminare una unità funzionale, è possibile gestire l'eliminazione impostando uno stato del ciclo di vita dell'unità funzionale a questo scopo. Ad esempio, è possibile impostare un fase "Scartata" "o "Eliminata "", che non deve essere una fase attiva, nel modulo **Stati del ciclo di vita delle unità funzionali**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

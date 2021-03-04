@@ -67,3 +67,6 @@ Il valore del record risultante.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Altre funzioni (specifiche del dominio aziendale)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

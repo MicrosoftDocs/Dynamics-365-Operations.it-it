@@ -112,3 +112,6 @@ Per accedere a Creazione di siti di Commerce, selezionare la scheda **e-Commerce
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

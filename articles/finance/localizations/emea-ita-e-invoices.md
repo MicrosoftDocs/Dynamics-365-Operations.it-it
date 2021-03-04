@@ -275,3 +275,6 @@ Se un tipo di documento richiesto non è coperto dai valori nell'elenco preceden
 - Registrazione del tipo di documento fattura
 
 Per ulteriori informazioni, vedere [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

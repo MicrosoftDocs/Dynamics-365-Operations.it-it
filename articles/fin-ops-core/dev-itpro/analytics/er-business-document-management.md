@@ -423,3 +423,6 @@ Molto probabilmente è stato eseguito l'accesso all'istanza corrente dell'app de
 
 [Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

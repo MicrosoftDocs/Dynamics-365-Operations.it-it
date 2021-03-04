@@ -523,3 +523,6 @@ Dopo che tutte queste registrazioni contabili sono state create e registrate, ve
 | 11         | Fondo di ammortamento |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

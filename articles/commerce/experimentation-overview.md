@@ -57,3 +57,6 @@ Per ulteriori informazioni su ciascun passaggio del processo di sperimentazione,
 
 ## <a name="next-step"></a>Passaggio successivo
 [Identificare un'ipotesi e determinare le metriche per un esperimento](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

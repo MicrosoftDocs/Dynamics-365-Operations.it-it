@@ -281,3 +281,6 @@ Ora che la funzionalità *Posizionamento targa di ubicazione* è stata impostata
     ![Ubicazione posizione 1](media/LocationLicensePlatePositioning.png "Ubicazione posizione 1")
 
 1. Immetti l'ID targa creato per l'ubicazione, quindi segui le istruzioni per selezionare l'ordine cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

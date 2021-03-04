@@ -63,3 +63,6 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Configurare, installare e attivare Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

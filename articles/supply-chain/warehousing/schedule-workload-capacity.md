@@ -80,3 +80,6 @@ Se queste informazioni non sono state specificate correttamente, alla generazion
 3. Nel campo **Tipo di ordine**, selezionare **Pianificato e confermato**, **Pianificato** o **Confermato** per indicare il tipo di ordini da proiettare nel report.
 4. Nel campo **Tipo di carico** selezionare un tipo di carico per indicare se la capacità del carico di lavoro deve essere proiettata per il volume o il peso.
 5. Nel campo **Capacità di carico di lavoro** selezionare un'impostazione di capacità del carico da lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

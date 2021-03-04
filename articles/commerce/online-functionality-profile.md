@@ -67,3 +67,6 @@ L'immagine seguente mostra un esempio di profilo funzionalità online.
 [Impostare un canale di vendita al dettaglio](channel-setup-retail.md)
 
 [Impostare un canale servizio clienti](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

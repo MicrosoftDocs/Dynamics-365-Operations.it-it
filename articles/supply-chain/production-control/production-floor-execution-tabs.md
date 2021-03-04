@@ -79,3 +79,6 @@ Dopo aver progettato tutte le schede necessarie, è possibile associarle a una c
 1. Continuare ad aggiungere altre schede secondo necessità.
 
 1. Utilizzare i pulsanti **Sposta su** e **Sposta giù** sulla barra degli strumenti per disporre le schede secondo necessità. Le schede verranno visualizzate da sinistra a destra nell'ordine mostrato nella schermata sopra (la scheda in alto è mostrata a sinistra).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

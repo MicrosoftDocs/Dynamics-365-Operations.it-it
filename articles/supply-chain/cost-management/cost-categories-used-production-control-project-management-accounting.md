@@ -44,3 +44,6 @@ I pulsanti aggiuntivi nella pagina **Categorie costi** consentono di accedere al
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

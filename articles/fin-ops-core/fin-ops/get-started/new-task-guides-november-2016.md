@@ -547,3 +547,6 @@ La libreria unificata APQC (novembre 2016 – tutte le lingue) contiene le guide
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guide attività nuove o aggiornate (agosto 2016)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

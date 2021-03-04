@@ -185,3 +185,6 @@ Questa procedura utilizza la società dimostrativa USMF.
     * Verificare che il report elenchi le transazioni con il numero di documento bancario, il limite struttura, l'importo utilizzato e l'importo del saldo linea di credito.  
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

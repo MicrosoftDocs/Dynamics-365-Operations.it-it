@@ -265,3 +265,6 @@ Gli ordini cliente con un motivo di sospensione forzata non possono essere rilas
 Attualmente Gestione crediti può essere utilizzato solo per gli ordini cliente. Le fatture a testo libero, gli ordini POS e gli ordini servizio clienti utilizzeranno i limiti di credito temporanei e le assicurazioni/garanzie aggiunte per adeguare il limite di credito. Non utilizzeranno le regole di blocco e non verranno inseriti nell'elenco di sospensioni in caso di problemi con il limite di credito.
 
 Non esiste supporto per le fatture di progetto in Gestione crediti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

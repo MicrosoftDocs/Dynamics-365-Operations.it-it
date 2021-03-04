@@ -207,3 +207,6 @@ La seguenti dimensioni chiave vengono utilizzate come filtri per dividere le mis
 | Persone giuridiche                                          | Nomi di persone giuridiche                              |
 | Calendari fiscali                                        | Calendario fiscale, anno, trimestre, periodo, mese   |
 | Sito                                                    | ID, nome, indirizzo, Stato/regione, paese               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

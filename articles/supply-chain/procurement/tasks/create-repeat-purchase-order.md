@@ -70,3 +70,6 @@ Invece di copiare un ordine intero, è più comune creare un nuovo PO e completa
 4. Selezionare la riga per l'ordine fornitore desiderato. Notare che la singola riga ordine presente in questo PO è anche selezionata.  
 5. Selezionare **OK**. La riga supplementare di ordine è stata aggiunta al vostro ordine fornitore.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

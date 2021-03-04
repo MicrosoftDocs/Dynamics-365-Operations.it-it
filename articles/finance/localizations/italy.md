@@ -58,3 +58,6 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Plafond fiscale](emea-ita-exil-tax-plafond.md)
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
 - [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

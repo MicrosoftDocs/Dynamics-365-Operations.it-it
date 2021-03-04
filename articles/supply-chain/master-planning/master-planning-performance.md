@@ -162,3 +162,6 @@ Prima dell'inizio della fase di copertura, è presente una fase di pre-copertura
 - **Una routine pesante alla volta** - Non eseguire la pianificazione generale insieme a qualsiasi altra routine pesante.
 - **Esaminare il registro sessioni**
 - **Filtrare articoli** - Utilizzare lo stato del ciclo di vita per escludere articoli dall'esecuzione della pianificazione generale (non utilizzare numeri di articolo).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

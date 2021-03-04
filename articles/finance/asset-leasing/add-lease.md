@@ -89,3 +89,6 @@ Tutte le scritture contabili create in Leasing cespite sono contenute nel giorna
 
 > [!NOTE]
 > Il giornale di registrazione leasing cespite non può essere creato manualmente. Viene creato automaticamente quando vengono creati i programmi di leasing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

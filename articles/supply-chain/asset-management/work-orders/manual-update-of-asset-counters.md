@@ -64,3 +64,6 @@ Nella pagina **Contatori cespiti** (**Gestione cespiti** > **Richieste di inform
 >[!NOTE]
 >È possibile impostare un intervallo per definire gli scostamenti rispetto alle registrazioni manuali. È inoltre possibile specificare il tipo di messaggio che verrà visualizzato se le registrazioni non rientrano nell'intervallo definito. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

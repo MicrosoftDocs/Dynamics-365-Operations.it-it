@@ -144,3 +144,6 @@ I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella p
 --------
 
 [Panoramica sull'installazione e sulla configurazione dell'app di magazzino](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

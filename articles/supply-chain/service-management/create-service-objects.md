@@ -43,3 +43,6 @@ Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possib
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

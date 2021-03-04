@@ -44,3 +44,6 @@ Man mano che le aziende evolvono e le circostanze cambiano, anche i rischi di cr
 È possibile eseguire il processo **Aggiorna statistiche saldo clienti** per aggiornare il calcolo delle statistiche del saldo visualizzato nella pagina **Richiesta informazioni su statistiche del saldo**. Queste informazioni vengono utilizzate per calcolare i punteggi di rischio e i valori visualizzati nei Dettagli informazioni sulle statistiche del credito nella pagina **Cliente**.
 
 Quando si esegue il processo, aggiorna le statistiche sul saldo clienti per un singolo cliente. Per impostare un processo batch allo scopo di eseguire il processo per più clienti, è possibile utilizzare la pagina **Calcola statistiche saldo** (**Gestione crediti \> Attività periodiche \> Calcola statistiche saldo**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

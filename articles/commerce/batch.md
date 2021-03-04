@@ -45,3 +45,6 @@ Per definire l'ID batch utilizzato per la fatturazione degli ordini cliente tram
 
 > [!NOTE]
 > Il supporto per una migliore gestione degli articoli di cui viene tenuta traccia in batch durante la registrazione dei rendiconti per scenari diversi dalla gestione avanzata magazzino è stato introdotto in Retail versione 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

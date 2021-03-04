@@ -53,3 +53,6 @@ Questa registrazione utilizza la società dimostrativa USRT.
     * Selezionare il conto in cui registrare gli importi di deposito in cassaforte.  
 8. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

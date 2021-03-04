@@ -55,3 +55,6 @@ Le funzioni specifiche del dominio della creazione di report elettronici (ER) po
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

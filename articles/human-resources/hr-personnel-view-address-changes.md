@@ -128,3 +128,6 @@ Quando si seleziona il riquadro **Modifiche agli indirizzi**, una nuova pagina m
 > Se si desidera ricevere un avviso o un'e-mail su queste modifiche agli indirizzi, è possibile creare una nuova regola di avviso nella scheda **Opzioni** del riquadro azioni. Per ulteriori informazioni sulle regole di avviso, vedere [Creare regole di avviso](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Se si desidera configurare un flusso di lavoro per le modifiche agli indirizzi, è possibile selezionare l'opzione **Invia esternamente** nella regola di avviso, quindi utilizzare Power Automate per attivare l'evento aziendale e configurare un flusso di lavoro. Per ulteriori informazioni, vedere [Avvisi come eventi aziendali](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

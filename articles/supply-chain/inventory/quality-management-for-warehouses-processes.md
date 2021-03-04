@@ -622,3 +622,6 @@ Sono stati impostati i dati di lavoro e ubicazione per il magazzino 51, per gara
 
 > [!NOTE]
 > Prendere in considerazione l'aggiunta della voce di qualità a una voce di menu di un dispositivo mobile in cui si trova il codice attività *Visualizza elenco lavori aperti*. Per un esempio, vedere la voce di menu del dispositivo mobile denominata **Elenco di lavoro** nei dati dimostrativi. Per prima cosa aggiungere la classe di lavoro *Ordine di controllo qualità* a una voce di menu definita dall'utente, poiché questa classe di lavoro è necessaria per visualizzare il lavoro nell'elenco di lavoro. Quindi aggiungere la classe *Ordine di controllo qualità* alla voce del menu **Elenco di lavoro**. Gli utenti che hanno accesso all'elenco di lavoro potranno quindi selezionare ed elaborare il lavoro generato automaticamente dalla convalida dell'ordine di controllo qualità.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

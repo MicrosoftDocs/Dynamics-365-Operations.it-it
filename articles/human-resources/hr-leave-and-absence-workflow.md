@@ -81,3 +81,6 @@ Questi esempi mostrano come è possibile creare diversi tipi di condizioni di fl
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già
 9. Fare clic su Modifica posizione.
     * È inoltre possibile modificare la retribuzione in questo momento. Se non si assegna la retribuzione in questo momento, è possibile modificarla nel modulo del lavoratore, selezionando la scheda Retribuzione e scegliendo "Piano fisso". Dopo aver selezionato "Modifica posizione", lo stato sulla domanda di lavoro verrà aggiornato ad "Assunto".  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Il secondo ordine cliente è ora fatturato. La fattura totale presentata al clie
 [![Pagina Transazioni giustificativo con la voce contabile registrata](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Poiché la somma dei ricavi e delle vendite è superiore a $1.170,44, la differenza viene registrata per -$130,17. Questo importo compensa il saldo dal conto di compensazione parziale dei ricavi fattura. Tale saldo viene registrato nella nuova voce contabile dopo la riallocazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

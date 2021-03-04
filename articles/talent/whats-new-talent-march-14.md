@@ -71,3 +71,6 @@ Con l'aggiornamento 24 della piattaforma per Finance and Operations, gli utenti 
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Verifica di dipendenti duplicati: modifiche dell'interfaccia
 Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi Nome e uno stato indica quanti ne sono stati trovati. È possibile selezionare il collegamento fornito per aprire una nuova pagina e valutare se utilizzare la corrispondenza rilevata. Il modulo Duplicati non si apre automaticamente per non interrompere l'immissione dei dati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

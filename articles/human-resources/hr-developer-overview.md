@@ -62,3 +62,6 @@ Questa Guida per gli sviluppatori fornisce un'API e riferimenti ai campi persona
 - [Novità o modifiche in Human Resources](hr-admin-whats-new.md)
 - [Guida per l'amministratore](hr-admin-overview.md)
 - [Manuale dell'utente](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

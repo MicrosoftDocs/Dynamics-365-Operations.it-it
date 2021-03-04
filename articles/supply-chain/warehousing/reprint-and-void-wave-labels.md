@@ -218,3 +218,6 @@ Le eccezioni lavoro controllano il comportamento del prelievo in difetto. Per im
 1. Selezionare **Prelievo in difetto**.
 1. Selezionare il codice di eccezione lavoro creato per questo scenario.
 1. Se è stata selezionata l'eccezione corretta, la casella di controllo **Annulla e ristampa** deve essere disponibile. Selezionare questa casella e confermare. Dopo la conferma, la sequenza di rotoli di etichette identificata dal campo **ID build etichetta** viene ricalcolata in base alla quantità della riga di lavoro modificata. Viene quindi ristampata sulla stampante specificata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

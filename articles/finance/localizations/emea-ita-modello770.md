@@ -142,3 +142,6 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 23. Selezionare **Esporta**, quindi nella pagina **Esporta**, nel campo **Nome file**, specificare il nome file compresso per scaricare. Il file compresso contiene il Modello 770 come file ASCII.
 24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 25. Selezionare **OK** per esportare il Modello 770.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

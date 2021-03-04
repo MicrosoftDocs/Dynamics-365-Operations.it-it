@@ -46,3 +46,6 @@ Nella procedura viene utilizzato il ruolo Ragioniere e i dati dimostrativi per l
     * Impostare **Aumenta la vita utile** su **Sì** se il componente aggiuntivo aumenta la vita utile del cespite.  
     * Questo campo viene visualizzato solo a scopo informativo. Per aumentare la vita utile, modificare la vita utile nei modelli di valore e/o nei registri beni ammortizzabili per il cespite.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Dopo che gli importi di retribuzione sono stati controllati per un dipendente e 
 Una volta che uno o più eventi del dipendente presentano lo stato aggiornato in Approvato, possono essere caricati nei record di retribuzione fissa del dipendente. Questa operazione può essere effettuata scegliendo un evento dipendente alla volta e facendo clic sul pulsante **Carica retribuzione dipendente** nella pagina **Risultati dei dipendenti** oppure facendo clic su **Carica retribuzione** nella pagina **Risultati processo** per caricare tutti gli eventi dipendente approvati contemporaneamente.
 
 Facendo clic su **OK** nella finestra di dialogo  **Carica retribuzione** verranno aggiunte le righe d'azione retributiva diverse da zero nella pagina **Retribuzione fissa dipendente**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

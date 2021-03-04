@@ -82,3 +82,6 @@ L'ordinamento migliorato in Dynamics 365 Commerce consente ai clienti di ordinar
 [Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
 
 [Gestire i metadati SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordi
 - **Previsione dell'offerta**: Selezionare **Previsioni di cassa** per visualizzare i flussi di cassa futuri associati alla previsione dell'offerta dell'articolo selezionata.
 - **Previsione della domanda**: Selezionare **Previsioni di cassa** per visualizzare i flussi di cassa futuri associati alla previsione della domanda dell'articolo selezionata.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

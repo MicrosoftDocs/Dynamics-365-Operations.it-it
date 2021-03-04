@@ -102,3 +102,6 @@ In caso di problemi nel pubblicare un annuncio di lavoro su Broadbean, effettuar
 [Creare, approvare e pubblicare annunci di mansioni in Attract](./creating-jobs-attract.md)
 
 [Abilitare l'integrazione di Broadbean in Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

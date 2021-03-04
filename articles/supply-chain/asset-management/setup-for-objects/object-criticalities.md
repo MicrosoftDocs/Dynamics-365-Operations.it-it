@@ -62,3 +62,6 @@ Per impostare la criticità, è necessario innanzitutto creare i tipi di critici
 - La criticità in un ordine di lavoro viene ricalcolata ogni volta in cui una riga di ordine di lavoro viene aggiunta o eliminatq dall'ordine di lavoro.
 - Se un ordine di lavoro contiene più processi dell'ordine di lavoro, la più alta criticità, a seconda del campo **Fattore** della pagina **Tipi di criticità**, è sempre utilizzata nell'ordine di lavoro.
 - In genere, la criticità cespiti può cambiare in un periodo. La criticità può essere influenzata dall'acquisto di nuova apparecchiatura, rinnovamenti, e così via. Si consiglia di rivalutare le criticità dei cespiti a intervalli regolari, (ad esempio una volta l'anno o ogni due anni) per assicurarsi che le definizioni di criticità corrispondano alla impostazione di produzione corrente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

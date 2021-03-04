@@ -51,3 +51,6 @@ I codici interessi possono essere impostati per calcolare importi d'interesse di
 21. Immettere la percentuale di interesse per mese da utilizzare per calcolare gli interessi a partire dal mese 7. In questo esempio, è 2,5.
 22. Fare clic su Chiudi per completare l'impostazione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

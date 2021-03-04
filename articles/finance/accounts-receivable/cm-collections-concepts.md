@@ -122,3 +122,6 @@ Quando si annullano le transazioni per un cliente, tutte le transazioni di quel 
 [Sospensioni credito per ordini cliente](./cm-sales-order-credit-holds.md)
 
 [Attività periodiche di gestione dei crediti cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

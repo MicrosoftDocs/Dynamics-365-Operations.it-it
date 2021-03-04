@@ -43,3 +43,6 @@ In questo argomento viene illustrato come creare un profilo di ubicazione in Dyn
 10. Selezionare **Sì** nel campo **Consenti conteggio ciclo**.
 11. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

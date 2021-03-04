@@ -92,3 +92,6 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ In questo argomento viene illustrato come impostare una direttiva di ubicazione 
 4. Digitare un valore nel campo **Criteri**.
 5. Selezionare **OK**. È possibile continuare ad aggiungere righe direttive e azioni direttive finché non sono stati coperti tutti gli scenari possibili nel magazzino.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

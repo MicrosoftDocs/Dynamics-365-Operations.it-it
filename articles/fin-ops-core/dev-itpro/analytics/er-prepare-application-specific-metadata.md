@@ -280,3 +280,6 @@ Quando è necessario valutare questo mapping di modello utilizzando i metadati d
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 In alternativa, è possibile riprodurre la guida attività **Preparare i metadati dell'applicazione da utilizzare in RCS** nell'applicazione nonché le guide attività **Accedere ai metadati dell'applicazione utilizzando una configurazione ER** e **Accedere ai metadati dell'applicazione utilizzando applicazioni connesse** in RCS. Queste guide attività possono essere scaricate dalla pagina [Guide attività per la creazione di report elettronici per Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

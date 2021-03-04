@@ -71,3 +71,6 @@ Il processo di aggiornamento sposterà l'impostazione esistente e tutte le trans
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

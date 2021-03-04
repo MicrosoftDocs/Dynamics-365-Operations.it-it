@@ -95,3 +95,6 @@ Tuttavia, come menzionato in precedenza, quando si utilizza una configurazione d
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Dichiarazione di finito dal dispositivo scheda processo](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

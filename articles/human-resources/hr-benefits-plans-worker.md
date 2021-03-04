@@ -49,3 +49,6 @@ ms.locfileid: "4419149"
    | Piani | La scheda dettagli Piani contiene i piani che soddisfano i criteri di filtro specificati. Le opzioni di configurazione pertinenti impostate dal personale delle risorse umane e le selezioni di iscrizione scelte dai dipendenti sono incluse in ogni riga. Il campo Qualificato specifica se esiste un conflitto di convalida con la selezione del piano. |
 
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

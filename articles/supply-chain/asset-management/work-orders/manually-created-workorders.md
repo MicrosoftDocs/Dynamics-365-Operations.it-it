@@ -166,3 +166,6 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Crear
 >[!NOTE]
 >Per creare automaticamente gli ordini di lavoro è possibile pianificare i processi del piano di manutenzione o impostare la creazione automatica dei [piani di manutenzione](../preventive-and-reactive-maintenance/maintenance-plans.md) o [cicli di manutenzione](../preventive-and-reactive-maintenance/maintenance-rounds.md) per un cespite. Gli ordini di lavoro creati dalle richieste di intervento di manutenzione nella pagina elenco **Tutti i programmi di manutenzione** hanno i tipi di processo di manutenzione selezionati nelle richieste di intervento di manutenzione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

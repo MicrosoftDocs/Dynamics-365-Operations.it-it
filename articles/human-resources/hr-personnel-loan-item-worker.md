@@ -44,3 +44,6 @@ Questa procedura illustra come prestare un articolo a un lavoratore e come regis
 2. Fare clic su Modifica.
 3. Immettere una data nel campo Effettiva restituzione.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

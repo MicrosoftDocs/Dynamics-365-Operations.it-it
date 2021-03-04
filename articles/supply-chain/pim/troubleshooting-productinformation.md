@@ -152,3 +152,6 @@ Se una variante di prodotto è già stata rilasciata in un'azienda A e si tenta 
 Il pulsante **Nuovo** della pagina **Varianti prodotti rilasciati** crea la variante e la rilascia nel contesto aziendale. Se la variante è già stata creata, non è possibile utilizzare il pulsante **Nuovo** per rilasciarla in un'altra azienda.
 
 Per risolvere il problema, aprire la pagina **Rappresentazione generale prodotto** e selezionare **Rilascia prodotto** per rilasciare la variante esistente nella società desiderata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

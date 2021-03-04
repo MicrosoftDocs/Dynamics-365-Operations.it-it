@@ -51,3 +51,6 @@ Per questi documenti, è possibile inoltre passare al documento di origine effet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

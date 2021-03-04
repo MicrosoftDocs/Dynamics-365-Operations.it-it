@@ -63,3 +63,6 @@ Se per le singole sezioni dell'area di lavoro sono presenti filtri, è possibile
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Come per un filtro per l'intera area di lavoro, selezionare o immettere un valore nel campo per filtrare il contenuto della sezione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

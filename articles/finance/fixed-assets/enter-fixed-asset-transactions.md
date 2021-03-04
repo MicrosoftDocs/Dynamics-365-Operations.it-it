@@ -68,3 +68,6 @@ Nella pagina Giornale di registrazione generale può essere registrato qualsiasi
 Il valore residuo dei periodi di ammortamento del cespite non viene aggiornato quando una riga del giornale dei tipi di transazioni di ammortamento viene creata manualmente o importata mediante un'entità di dati. Questo valore viene aggiornato quando il processo della proposta di ammortamento viene utilizzato per creare la riga del giornale.
 
 Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

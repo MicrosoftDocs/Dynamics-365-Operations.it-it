@@ -61,3 +61,6 @@ Quando si esegue il formato ER configurato, il valore di testo del campo **Label
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

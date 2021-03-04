@@ -78,3 +78,6 @@ Per selezionare un layout differente per una pagina esistente, effettuare le seg
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 49. Fare clic su Salva.
 50. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Per utilizzare la riconciliazione automatica, è necessario specificare la progr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

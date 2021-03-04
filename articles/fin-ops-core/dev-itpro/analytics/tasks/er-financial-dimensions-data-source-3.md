@@ -145,3 +145,6 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 46. Chiudere la pagina.
 ![Pagina della progettazione delle operazioni ER](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

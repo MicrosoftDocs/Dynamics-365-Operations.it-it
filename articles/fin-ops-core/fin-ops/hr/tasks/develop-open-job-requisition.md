@@ -65,3 +65,6 @@ I progetti di selezione consentono di gestire il processo di selezione. Per cias
     * Lo stato Avviato indica che il progetto è pronto per ricevere le domande di lavoro.  
 33. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ I mapping aggiornati devono essere simili all'immagine seguente.
 ![Attività Lavoratori a Lavoratore.](./media/WorkerMapping.png)
 
 ![Trasformazione del campo Sesso](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

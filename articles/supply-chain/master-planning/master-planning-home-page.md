@@ -86,3 +86,6 @@ Ulteriori informazioni sono disponibili come guide attività. Per accedere alle 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

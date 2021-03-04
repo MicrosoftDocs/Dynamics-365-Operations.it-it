@@ -94,3 +94,6 @@ Per disattivare la valutazione di regole specifiche, selezionare l'opportunità 
 [Creare regole per il consulente dell'ottimizzazione](./create-rules-optimization-advisor.md)
 
 [Consulente dell'ottimizzazione in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

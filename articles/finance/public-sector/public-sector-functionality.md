@@ -72,3 +72,6 @@ Nella tabella seguente vengono fornite informazioni sul modo in cui questa chiav
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

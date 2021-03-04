@@ -73,3 +73,6 @@ Se una funzionalità o un modulo del sito di e-commerce utilizza un cookie non e
 [Modulo consenso per i cookie](cookie-consent-module.md) 
  
 [Modulo intestazione](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

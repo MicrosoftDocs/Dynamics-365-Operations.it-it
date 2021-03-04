@@ -303,3 +303,6 @@ Tuttavia, quando si utilizza l'origine dati **Codice a barre** per produrre codi
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
 - [Funzione NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

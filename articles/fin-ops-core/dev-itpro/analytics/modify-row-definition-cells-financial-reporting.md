@@ -529,3 +529,6 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

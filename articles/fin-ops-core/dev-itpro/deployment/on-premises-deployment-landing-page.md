@@ -72,3 +72,6 @@ ms.locfileid: "4679346"
 - [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software e versioni in locale](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

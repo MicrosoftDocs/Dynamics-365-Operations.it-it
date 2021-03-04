@@ -676,3 +676,6 @@ I dipendenti possono indicare le informazioni sul passaporto. Queste informazion
 
 I dipendenti possono dichiarare più numeri di identificazione più del tipo di identificazione **Passaporto**. Tuttavia, solo l'immissione del passaporto attivo corrente viene integrata in Dayforce. Se tutte le immissioni di passaporto sono scadute, in Dayforce viene integrato il passaporto di emissione più recente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

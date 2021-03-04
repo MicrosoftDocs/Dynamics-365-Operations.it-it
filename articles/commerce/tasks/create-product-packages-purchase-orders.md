@@ -73,3 +73,6 @@ In questa procedura vengono descritti i passaggi per creare un collo di prodotti
 17. Fare clic su Crea.
 18. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile av
 - [Inserire dati fattura nella contabilità fornitori tramite un giornale di approvazione](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Registrare una fattura fornitore nel giornale di registrazione fatture](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

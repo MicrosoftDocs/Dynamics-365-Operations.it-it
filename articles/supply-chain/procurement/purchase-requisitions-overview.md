@@ -202,3 +202,6 @@ Per consolidare le righe della richiesta di acquisto approvate, attenersi alla s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

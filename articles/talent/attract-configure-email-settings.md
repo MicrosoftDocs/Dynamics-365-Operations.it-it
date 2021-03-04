@@ -89,3 +89,6 @@ Se non si connette un altro account del servizio di posta elettronica, per i mes
     ![Aggiunta di collegamenti all'informativa sulla privacy e alle condizioni per l'utilizzo della società per il piè di pagina dei messaggi di posta elettronica](./media/attract-admin-email-footer.png)
 
 4. Selezionare **Salva** per salvare le impostazioni del modello di messaggio di posta elettronica.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

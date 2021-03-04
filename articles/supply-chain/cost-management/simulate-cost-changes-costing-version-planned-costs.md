@@ -59,3 +59,6 @@ Dopo aver immesso le variazioni di costo simulate, calcolare i costi degli artic
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

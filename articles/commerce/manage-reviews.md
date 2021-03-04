@@ -132,3 +132,6 @@ Per visualizzare le tendenze di valutazioni e recensioni in Creazione di siti We
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

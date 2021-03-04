@@ -130,3 +130,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
     -   Per scorte fisiche (questa visualizzazione rappresenta l'importo totale).
     -   Per scorte prenotate (questa visualizzazione rappresenta l'importo prenotato).
     -   Per scorte fisiche disponibili (questa visualizzazione rappresenta la quantità disponibile senza prenotazioni).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

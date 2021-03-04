@@ -86,3 +86,6 @@ Nella pagina **Clienti**, per ciascun cliente che ha accettato di effettuare i p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

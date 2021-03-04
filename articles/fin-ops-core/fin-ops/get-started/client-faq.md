@@ -54,3 +54,6 @@ L'opzione **Visualizza dettagli** è disponibile in un paio di modi:
 
 - Se un controllo ha le funzionalità **Visualizza dettagli** e se il controllo ha un valore, il valore viene visualizzato come collegamento ipertestuale. È possibile fare clic sul collegamento ipertestuale per aprire la pagina contenente dettagli aggiuntivi.
 - **Visualizza dettagli** è anche un'opzione dei menu di scelta rapida. Per ulteriori informazioni su quando i menu di scelta rapida vengono visualizzati quando si fa clic con il pulsante destro del mouse, vedere la sezione precedente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

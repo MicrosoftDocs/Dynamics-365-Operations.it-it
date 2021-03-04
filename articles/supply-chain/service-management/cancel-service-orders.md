@@ -78,3 +78,6 @@ Gli ordini di assistenza selezionati verranno annullati o il relativo stato di a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

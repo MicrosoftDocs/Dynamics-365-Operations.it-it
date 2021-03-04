@@ -145,3 +145,6 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 - [Doppia valuta](dual-currency.md)
 - [Panoramica dell'IVA](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

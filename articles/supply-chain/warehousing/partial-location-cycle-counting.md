@@ -62,3 +62,6 @@ Per questo esempio, solo il numero di articolo A0001 deve essere conteggiato nel
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Conteggio ciclo](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ In questo argomento viene illustrato come creare un nuovo gruppo cespite. Utiliz
 8. Nel campo **Convenzione di ammortamento** selezionare un'opzione.
 9. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

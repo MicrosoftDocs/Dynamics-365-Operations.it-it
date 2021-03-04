@@ -55,3 +55,6 @@ Questa procedura indica come programmare un ordine di produzione. La società di
 6. Chiudere la pagina.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

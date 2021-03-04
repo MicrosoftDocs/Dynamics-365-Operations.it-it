@@ -117,3 +117,6 @@ Le due illustrazioni di seguito illustrano un processo di programmazione nella f
 - È possibile impostare un processo batch nella Scheda dettaglio **Esecuzione in background** per programmare i cicli a intervalli regolari.  
 - Se un ciclo è incluso in vari pool di ordini di lavoro (vedere [Pool di ordini di lavoro](../work-orders/work-order-pools.md)), un record viene visualizzato per ogni pool in **Apri pool di programmi di manutenzione**. Questa operazione viene eseguita per ottimizzare le opzioni di filtro per i pool di ordini di lavoro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Quando viene registrata una transazione finanziaria, lo stato del record di tran
 -   Giornali di registrazione magazzino di quantità negative, ad esempio movimenti, profitti e perdite, conteggio, distinta base e trasferimento
 
 Le transazioni che riducono la quantità vengono registrate al prezzo di costo medio corrente. La procedura di chiusura dell'inventario, pertanto, è necessaria per liquidare le transazioni in uscita a fronte delle transazioni in entrata in base al modello inventariale assegnato a ciascun articolo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

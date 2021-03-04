@@ -66,3 +66,6 @@ Questa funzionalità è disponibile per le persone giuridiche il cui indirizzo p
 16. Fare clic su Salva.
 17. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

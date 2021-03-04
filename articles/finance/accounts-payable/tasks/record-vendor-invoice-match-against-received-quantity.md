@@ -65,3 +65,6 @@ Questa procedura utilizza la società dimostrativa USMF. Il ruolo di responsabil
 10. Nel riquadro azioni fare clic su Revisione.
 11. Fare clic su Dettagli abbinamento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

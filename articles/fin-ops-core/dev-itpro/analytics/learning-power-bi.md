@@ -62,3 +62,6 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Learni
 | Posizione         | Posizione, titolo ed equivalente a tempo pieno (FTE)                  | Agenda del corso, partecipanti al corso |
 | Nome dipendente    | Nome, cognome e nome completo                             | Partecipanti al corso |
 | Posizione del dipendente   | Titolo e data di anzianità                                         | Partecipanti al corso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

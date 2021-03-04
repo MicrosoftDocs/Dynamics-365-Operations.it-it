@@ -115,3 +115,6 @@ Nella tabella seguente vengono fornite ulteriori informazioni sulle azioni aggiu
 | Disponibilità         | Visualizza informazioni ATP per la combinazione di varianti selezionata per l'ubicazione selezionata. |
 | Mostra tutte le ubicazioni   | Passa alla visualizzazione della ricerca in magazzino standard ed evidenzia le informazioni sulla disponibilità delle scorte per la variante articolo in tutti i punti vendita nel gruppo di localizzatore punto vendita e anche nei centri di distribuzione di tipo **Standard/Predefinito**. |
 | Visualizza dettagli prodotto | Reindirizza l'utente alla pagina **Dettagli prodotto** della rappresentazione generale prodotto associata. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

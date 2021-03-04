@@ -193,3 +193,6 @@ Il riconoscimento ricavi può anche essere utilizzato per gli ordini cliente cre
 
 - **Ricavi fattura differiti** (in **Conti ricavi**): immettere il conto principale per il prezzo dei ricavi che effettua registrazioni dei ricavi differiti (anziché dei ricavi). Il prezzo dei ricavi viene differito se nella riga ordine cliente è disponibile una programmazione dei ricavi.
 - **Costo differito** (in **Conti costi**): immettere il conto principale per l'importo del costo del venduto che effettua registrazioni del costo del venduto differito nel caso in cui anche i ricavi siano differiti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

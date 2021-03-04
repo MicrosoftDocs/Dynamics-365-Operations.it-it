@@ -55,3 +55,6 @@ Utilizzare la procedura seguente per impostare un modello per la rappresentazion
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

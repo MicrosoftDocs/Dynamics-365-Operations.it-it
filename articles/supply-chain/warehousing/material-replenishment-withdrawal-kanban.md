@@ -87,3 +87,6 @@ Nel seguente scenario, l'attività di trasferimento del kanban di prelievo viene
 
 Dopo che un kanban è stato utilizzato nell'ubicazione entrata produzione, viene segnalato come vuoto e un nuovo kanban viene aggiunto al flusso. Quando il kanban viene creato, una riga di ondata viene aggiunta a un'ondata kanban. Quando l'ondata kanban viene elaborata, il lavoro di magazzino per il prelievo di kanban viene creato. Il lavoratore di magazzino elabora il lavoro per il prelievo di kanban e viene indirizzato dal lavoro per prelevate il materiale per il kanban in un'ubicazione di magazzino. Non appena il lavoratore di magazzino conferma il prelievo, il kanban viene automaticamente completato e il lavoratore del magazzino viene indirizzato a  collocare il materiale nell'ubicazione di entrata produzione.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

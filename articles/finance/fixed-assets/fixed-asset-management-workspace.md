@@ -74,3 +74,6 @@ Nella seguente tabella vengono illustrate le visualizzazioni disponibili in cias
 | Mappe valutazioni        | Dettagli cespite |
 
 Per visualizzare l'analisi con i dati, è necessario prima di tutto aggiornare la misura di aggregazione AssetTransactionMeasure nella pagina **Archivio entità**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Nel report **Elenco richieste di intervento di manutenzione** viene visualizzato
 Nella figura seguente è illustrato un esempio del report **Elenco richieste di intervento di manutenzione** per tutte le richieste di intervento di manutenzione attive.
 
 ![Report elenco delle richieste di intervento di manutenzione](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

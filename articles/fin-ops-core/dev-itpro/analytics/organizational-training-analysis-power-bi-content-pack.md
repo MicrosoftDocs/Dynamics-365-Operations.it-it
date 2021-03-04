@@ -57,3 +57,6 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 | Formazione\_Posizione        | Posizione, titolo ed equivalente a tempo pieno (FTE)                  | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso |
 | Formazione\_NomeLavoratore      | Nome, cognome e nome completo                             | Formazione\_PartecipantiCorso |
 | Formazione\_TitoloLavoratore     | Titolo e data di anzianità                                         | Formazione\_PartecipantiCorso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

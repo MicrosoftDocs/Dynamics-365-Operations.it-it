@@ -64,3 +64,6 @@ In questo argomento si descrive l'impostazione di un programma di continuità (a
     * Quando l'articolo viene venduto da un servizio clienti, la logica di business aggiuntiva viene applicata dal programma di continuità selezionato.  
 7. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

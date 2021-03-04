@@ -169,3 +169,6 @@ Il modello modificato viene utilizzato per generare il report delle fatture a te
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
 
 [Progettare una configurazione per la creazione di report nel formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

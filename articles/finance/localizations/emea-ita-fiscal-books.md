@@ -258,3 +258,6 @@ Per nascondere queste funzioni dall'interfaccia utente per tutti i ruoli di sicu
 ![Oggetti non pubblicati](./media/unpublished-objects.png)
 
 7.  Ripeti questi passaggi per il privilegio, **Storna transazioni fornitore**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

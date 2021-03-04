@@ -41,3 +41,6 @@ Se è selezionata una riga del carrello ed è selezionata l'opzione **Preleva se
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Ordini cliente in Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

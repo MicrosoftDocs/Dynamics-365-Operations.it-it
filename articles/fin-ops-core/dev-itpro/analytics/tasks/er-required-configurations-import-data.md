@@ -254,3 +254,6 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 27. Chiudere la pagina.
 28. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

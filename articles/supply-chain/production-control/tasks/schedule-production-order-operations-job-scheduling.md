@@ -56,3 +56,6 @@ In questo argomento viene descritta la programmazione di un ordine di produzione
 6. Nel riquadro azioni, selezionare **Ordine di produzione**.
 7. Selezionare **Tutti i processi**. Si noti che in base al ciclo di lavorazione attivo, 5 processi vengono creati con la programmazione dei processi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

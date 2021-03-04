@@ -87,3 +87,6 @@ Dopo aver completato i passaggi descritti precedentemente in questo argomento ne
 2. Nel campo **Tabella riferimenti** selezionare la tabella del database da cui aggiungere i dati dei parametri alla descrizione.
 3. Nel campo **Campo riferimento** selezionare il campo da cui aggiungere i dati dei parametri alla descrizione.
 4. Ripetere i passaggi da 1 a 3 per aggiungere ulteriori parametri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

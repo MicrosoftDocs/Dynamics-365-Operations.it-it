@@ -48,3 +48,6 @@ In questa procedura vengono descritti i passaggi per creare le dimensioni finanz
 17. Nell'elenco, individuare e selezionare il valore della dimensione per l'aggiornamento del registratore.
 18. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Questa attività mostra la configurazione necessaria per creare una regola kanba
     * Si noti il kanban creato per fornire M0001 per l'ordine di produzione stimato.  
     * Questo è l'ultimo passaggio.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

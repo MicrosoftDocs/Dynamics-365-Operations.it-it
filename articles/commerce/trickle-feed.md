@@ -54,3 +54,6 @@ Con la creazione di ordini basata su inserimento continuo introdotta in Retail v
 > Le voci di menu **Retail e Commerce > Retail e Commerce IT > Registrazione POS > Calcola rendiconti in batch** e **Retail e Commerce > Retail e Commerce IT > Registrazione POS > Registra rendiconti in batch** vengono rimosse con questa nuova funzionalità.
 
 In alternativa, i tipi di rendiconto finanziario e transazionale possono essere creati manualmente. Passare a **Retail e Commerce > Canali > Punti vendita** e fare clic su **Rendiconti**. Fare clic su **Nuovo** e scegliere il tipo di rendiconto che si desidera creare. Nei campi nella pagina **Rendiconti** e nelle azioni nel gruppo **Rendiconto** della pagina verranno visualizzati i dati e le azioni pertinenti in base al tipo di rendiconto selezionato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

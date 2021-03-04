@@ -94,3 +94,6 @@ Per creare un prodotto di progettazione, aprire il la pagina **Prodotti rilascia
 È possibile utilizzare la ricerca degli attributi di progettazione per trovare i prodotti cercandone i valori. Pertanto, è possibile trovare facilmente i prodotti di progettazione in base alle loro caratteristiche. È possibile cercare i prodotti che appartengono a una categoria di prodotti di progettazione oppure eseguire la ricerca in tutti i prodotti di progettazione.
 
 La ricerca è disponibile nelle pagine dei dati di rappresentazione generale prodotto e negli articoli transazionali nel sistema, come gli ordini cliente. Per un articolo transazionale, è possibile utilizzare la pagina **Ricerca attributi di progettazione** per cercare un prodotto. È quindi possibile utilizzare il pulsante **Aggiungi come nuova riga** per aggiungere il prodotto alle righe dell'ordine cliente. I prodotti nei risultati di ricerca possono anche essere aggiunti direttamente all'ordine.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

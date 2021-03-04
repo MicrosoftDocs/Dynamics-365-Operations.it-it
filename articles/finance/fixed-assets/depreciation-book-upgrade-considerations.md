@@ -83,3 +83,6 @@ Con l'uno o l'altro approccio, lo script di aggiornamento dei dati utilizzerà l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Per impostare un calendario, seguire questi passaggi:
 10. Per assegnare un calendario ai dipendenti, nel riquadro azioni selezionare **Assegna ai dipendenti**. Selezionare i dipendenti a cui si desidera assegnare il calendario e quindi fare clic su **Assegna**.
 
 Per i dipendenti non è obbligatorio avere calendari assegnati. Se è presente un calendario orario di lavoro definito, i giorni non lavorativi vengono esclusi automaticamente dalla richiesta. La quantità, in ore o giorni, è per impostazione predefinita pari alle ore di lavoro definite nel calendario. Se a un dipendente non è assegnato un calendario, tutti i giorni sono disponibili per il permesso e la quantità di permessi non è il valore predefinito per la richiesta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ In questo argomento viene illustrato come creare un metodo di pagamento per i pa
 15. Utilizzare la scheda **Attributi di pagamento** per definire gli attributi di pagamento che si desidera utilizzare per il metodo di pagamento.
 16. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

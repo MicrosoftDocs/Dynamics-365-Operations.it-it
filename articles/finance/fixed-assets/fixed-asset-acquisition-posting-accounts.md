@@ -45,3 +45,6 @@ Per ulteriori informazioni, vedere [Acquisire cespiti tramite approvvigionamento
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

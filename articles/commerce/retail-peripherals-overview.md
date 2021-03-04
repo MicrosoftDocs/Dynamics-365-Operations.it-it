@@ -837,3 +837,6 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 [Simulatore di periferica per commercio](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Un controllore costi può utilizzare questa procedura per mappare una dimensione
     * Per questo esempio selezionare il membro di dimensione 6001004 Telefono.  
 11. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

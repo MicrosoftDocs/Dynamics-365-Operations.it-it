@@ -63,3 +63,6 @@ Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura son
    | **Periodo di reporting** | Specifica il periodo di reporting dell'evento reale, in giorni. **Nota**: se non si immette un importo, il sistema presuppone che la finestra di reporting sia zero e non elaborerà l'evento reale. |
 
 5. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

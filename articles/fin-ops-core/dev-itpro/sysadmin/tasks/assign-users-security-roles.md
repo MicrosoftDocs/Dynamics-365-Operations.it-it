@@ -57,3 +57,6 @@ Gli utenti che vengono assegnati manualmente ai ruoli di sicurezza devono anche 
 2. Nella struttura selezionare un ruolo e nel menu **Utenti assegnati al ruolo** selezionare **Assegna/escludi utenti manualmente**.
 4. In **Assegna o escludi utenti da ruolo** gli utenti a cui non è stato assegnato il ruolo sono elencati con **Modalità di assegnazione** impostato su **Nessuna**. Selezionare uno o più utenti a cui deve essere assegnato il ruolo.
 5. Nel **riquadro azioni** selezionare **Assegna a ruolo**. **Modalità assegnazione** viene aggiornato in **Manuale** e agli utenti è ora assegnato un nuovo ruolo.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

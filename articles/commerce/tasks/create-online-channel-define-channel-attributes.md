@@ -67,3 +67,6 @@ In questa procedura vengono descritti i passaggi per creare un nuovo canale onli
 3. Eseguire la programmazione di distribuzione 1070 per sincronizzare le modifiche nel database del canale. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

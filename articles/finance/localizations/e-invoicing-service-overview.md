@@ -113,3 +113,6 @@ L'abilitazione e l'utilizzo della fatturazione elettronica potrebbe richiedere l
 - [Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico](e-invoicing-mex-get-started.md)
 - [Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia](e-invoicing-ita-get-started.md)
 - [Configurare il componente aggiuntivo per la fatturazione elettronica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

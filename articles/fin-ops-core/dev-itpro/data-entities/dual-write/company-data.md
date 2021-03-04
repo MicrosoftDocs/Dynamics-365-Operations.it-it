@@ -102,3 +102,6 @@ Per applicare il filtro in base al contesto della società ai moduli personalizz
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Applicare il contesto della società":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

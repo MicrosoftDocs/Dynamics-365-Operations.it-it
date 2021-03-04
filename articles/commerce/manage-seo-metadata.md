@@ -95,3 +95,6 @@ Per modificare i metadati della pagina, effettuare le operazioni seguenti.
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

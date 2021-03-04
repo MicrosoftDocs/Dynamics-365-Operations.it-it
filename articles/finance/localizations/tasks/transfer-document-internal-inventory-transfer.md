@@ -74,3 +74,6 @@ In questa procedura viene illustrato come creare documenti di trasferimento per 
 10. Fare clic su Documento di trasporto.
 11. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

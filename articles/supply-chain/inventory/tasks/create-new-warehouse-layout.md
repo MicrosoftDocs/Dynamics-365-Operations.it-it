@@ -63,3 +63,6 @@ In questo argomento viene descritto come impostare le informazioni sulle ubicazi
 7. Chiudere la pagina.
 8. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

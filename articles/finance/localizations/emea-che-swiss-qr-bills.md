@@ -166,3 +166,6 @@ Creare le righe di registrazione pagamenti fornitore utilizzando la funzionalit√
 Per i pagamenti correlati alle fatture QR, il file di bonifico viene generato in base al valore dell'ID pagamento. Questo valore viene recuperato dal codice QR.
 
 √à possibile importare i file pain.002 e i file camt.054 dalla pagina **Trasferimenti di pagamento**. Per ulteriori informazioni, vedere [Importare file ISO20022](emea-iso20022-file-formats.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

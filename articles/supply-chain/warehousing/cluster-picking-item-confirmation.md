@@ -42,3 +42,6 @@ La verifica dell'articolo per il prelievo cluster funziona nello stesso modo del
 |        Opzione        |                                    descrizione                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

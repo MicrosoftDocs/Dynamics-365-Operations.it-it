@@ -49,3 +49,6 @@ Si prenda in considerazione il seguente scenario: un pezzo di piastra metallica 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

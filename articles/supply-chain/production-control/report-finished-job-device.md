@@ -239,3 +239,6 @@ Per controllare se i lavoratori devono riutilizzare una targa esistente o genera
 
 > [!NOTE]
 > Per configurare l'etichetta, andare a **Gestione magazzino \> Impostazioni \> Distribuzione documenti \> Layout distribuzione documenti**. Per ulteriori informazioni, vedere [Abilitare la stampa di etichette targa](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

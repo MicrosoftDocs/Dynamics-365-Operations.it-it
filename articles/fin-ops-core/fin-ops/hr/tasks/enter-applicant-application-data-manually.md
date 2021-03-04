@@ -61,3 +61,6 @@ Questa procedura illustra come gestire manualmente informazioni sui candidati e 
 6. Fare clic su Salva.
     * Dopo aver salvato la domanda di lavoro, è possibile allegarvi documenti, ad esempio esperienza del candidato, premi e lettera di presentazione.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ In questa procedura viene illustrato come creare un fondo di ammortamento specia
     * Il valore predefinito di Percentuale o Importo viene dall'impostazione del fondo di ammortamento speciale.  
 8. Nel campo Priorità immettere un numero.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

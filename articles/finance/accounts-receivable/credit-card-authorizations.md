@@ -80,3 +80,6 @@ Per annullare un'autorizzazione della carta di credito, è possibile modificare 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Il giornale di registrazione fatture creato dopo la registrazione non include l'
 È importante che il giornale di registrazione fatture non includa l'articolo padre dell'aggregazione perché tutti i processi eseguiti dopo la registrazione della fattura si basano su quel giornale di registrazione fatture. Ad esempio, se si crea una nota di credito nella scheda **Vendi** del riquadro Azioni, la nota di credito creata include gli articoli componente ma non l'articolo padre.
 
 [![Nota di credito che mostra gli articoli componente ma non l'articolo padre](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

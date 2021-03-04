@@ -36,3 +36,6 @@ Quando gli utenti creano gli ordini di spedizione per il cliente nel POS, posson
 Per impostazione predefinita, la finestra di dialogo in cui è selezionata una modalità di consegna mostra tutte le modalità di consegna valide per la combinazione di un canale, un articolo e un indirizzo di consegna. Queste modalità di consegna sono definite nella pagina **Modi di consegna** in Headquarters (**Vendite e marketing \> Impostazioni \> Distribuzione \> Modi di consegna**). I modi di consegna "non vettore", ad esempio **Esegui** o **Ritiro**, potrebbero essere disponibili per la selezione nella finestra di dialogo.
 
 Tuttavia, è stata aggiunta una funzione che consente di nascondere le modalità di consegna non vettore nella finestra di dialogo. Per attivare questa funzionalità, nella pagina **Parametri di commercio**, nella scheda **Ordini cliente**, impostare l'opzione per **visualizzare solo le opzioni della modalità di consegna vettore per ordini di spedizione** su **Sì**. Dopo aver attivato questa funzionalità ed eseguito i processi di distribuzione appropriati per sincronizzare le informazioni con il database del canale, le modalità di consegna non vettore non verranno visualizzate per la selezione durante il processo di creazione degli ordini di spedizione in POS.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

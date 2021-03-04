@@ -153,3 +153,6 @@ Questa scheda evidenzia l'impatto dell'alternativa di consegna selezionata. Se s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

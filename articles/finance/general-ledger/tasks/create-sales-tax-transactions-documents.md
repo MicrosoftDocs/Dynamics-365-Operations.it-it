@@ -60,3 +60,6 @@ L'IVA sui documenti viene calcolata immettendo una fascia IVA e una fascia IVA a
 29. Fare clic su Fascia IVA.
 30. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

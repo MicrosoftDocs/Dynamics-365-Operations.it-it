@@ -73,3 +73,6 @@ In questo caso, l'espressione `LIST('Record 1', 'Record 2')`restituisce un nuovo
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di elenco](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

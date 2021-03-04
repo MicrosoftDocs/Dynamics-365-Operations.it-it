@@ -157,3 +157,6 @@ Nella seguente tabella viene illustrata la regola generale.
 | IVA a credito | Negativo              | Conto IVA a credito | Negativo (Avere)  |
 | IVA a debito    | Positivo              | Conto IVA a debito    | Negativo (Avere)  |
 | IVA a debito    | Negativo              | Conto IVA a debito    | Positivo (Dare)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

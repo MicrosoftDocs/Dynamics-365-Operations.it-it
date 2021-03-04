@@ -68,3 +68,6 @@ Questa procedura indica come creare, stampare e registrare le note d'interesse. 
 5. Fare clic su **OK**.
 6. Nel campo **Stato** selezionare "Registrata".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

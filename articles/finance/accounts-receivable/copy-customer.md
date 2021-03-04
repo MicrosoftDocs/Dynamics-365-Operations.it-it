@@ -64,3 +64,6 @@ Quando si copia un cliente, il sistema cerca di salvare le informazioni del nuov
 
 1. Viene visualizzata un'opzione **Copia cliente**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il cliente nella persona giuridica corrente, impostare l'opzione su **Sì**. 
 2. Selezionare **Select**. Il nuovo cliente viene creato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

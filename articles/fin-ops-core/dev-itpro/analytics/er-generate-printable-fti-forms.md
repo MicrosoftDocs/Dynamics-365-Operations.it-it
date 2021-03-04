@@ -224,3 +224,6 @@ L'espressione **Emailing.TxtToUse.Body** del formato di esempio viene configurat
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

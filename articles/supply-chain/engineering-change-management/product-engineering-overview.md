@@ -59,3 +59,6 @@ Quindi, attivare la chiave di configurazione **Gestione modifiche di progettazio
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
 1. Espandere il nodo **Commercio** e selezionare la casella di controllo **Gestione modifiche di progettazione**.
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

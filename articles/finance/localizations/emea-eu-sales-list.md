@@ -160,3 +160,6 @@ Una volta completato il processo di creazione del report per uno specifico perio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

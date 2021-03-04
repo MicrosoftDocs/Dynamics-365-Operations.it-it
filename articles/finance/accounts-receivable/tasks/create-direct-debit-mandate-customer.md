@@ -90,3 +90,6 @@ In questa guida attività viene illustrata la creazione di un mandato di addebit
 3. Selezionare il cliente aggiunto al mandato.
 4. Nel campo **ID mandato di addebito diretto**, immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

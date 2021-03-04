@@ -99,3 +99,6 @@ Aprire il documento in Word ed effettuare le seguenti operazioni:
 16. Fare clic su **OK**.
 17. Fare clic su **OK**. Analizzare l'output generato. Tenere presente che l'output creato viene visualizzato nel formato di Word e contiene i dettagli dei pagamenti elaborati.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

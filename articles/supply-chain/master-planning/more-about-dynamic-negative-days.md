@@ -251,3 +251,6 @@ Per garantire l'immissione dei valori corretti per la propria società, è neces
 ## <a name="see-also"></a>Vedere anche
 
 Per ulteriori informazioni, vedere il post del blog [Altre informazioni sui giorni negativi (dinamici)](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

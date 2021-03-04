@@ -46,3 +46,6 @@ Per facilitare l'individuazione di configurazioni specifiche o correlate, è pos
 [![Filtro applicato e importazione per tipo di documento aziendale](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 I risultati filtrati possono essere importati in un repository RCS dell'utente o in un ambiente Dynamics 365 Finance, singolarmente o come set. A questo scopo, selezionare il gruppo di configurazioni e fare clic su **Importa**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

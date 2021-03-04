@@ -73,3 +73,6 @@ Per configurare i modelli di posta elettronica per modalità di consegna specifi
 [Creare ordini servizio clienti](tasks/create-call-center-orders.md)
 
 [Modifica modalità di consegna nel POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

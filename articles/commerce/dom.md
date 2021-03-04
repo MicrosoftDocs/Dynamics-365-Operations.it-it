@@ -256,3 +256,6 @@ Di seguito vengono illustrati alcuni aspetti da considerare quando si utilizza l
 - Attualmente, la gestione degli ordini distribuiti cerca solo gli ordini creati dai canali di commercio. Gli ordini cliente vengono identificati come ordini cliente se l'opzione **Vendita Commerce** è impostata su **Sì**.
 - Microsoft non ha testato la gestione degli ordini distribuiti con funzionalità avanzate di gestione del magazzino. I clienti e partner devono prestare attenzione a determinare se la gestione degli ordini distribuiti è compatibile con le funzionalità avanzate di gestione del magazzino e i processi ad esse pertinenti.
 - La gestione degli ordini distribuiti sarà disponibile solo nella versione cloud di Commerce. Non è supportata nelle distribuzioni locali.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

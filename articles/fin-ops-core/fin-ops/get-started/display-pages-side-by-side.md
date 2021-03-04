@@ -48,3 +48,6 @@ Prima di utilizzare la funzionalità **Apri in nuova finestra**, è necessario c
 La funzionalità **Apri in nuova finestra** è disponibile solo quando sono presenti più pagine aperte nella finestra. Inoltre, la finestra popup si chiude automaticamente quando non sono presenti più pagine aperte (ovvero quando viene chiusa l'ultima pagina nella finestra). Il sistema chiude anche le pagine aperte quando si esplora un'area diversa dell'applicazione. Di conseguenza, se le finestre popup sono aperte e si esplora un'area diversa dell'applicazione, le finestre popup sono automaticamente chiuse perché le pagine in quelle finestre sono state chiuse dal sistema.
 
 La barra superiore nelle finestre popup visualizza le informazioni sulla società in cui è stata aperta la pagina ed è di sola lettura. Le finestre popup si basano anche sulla finestra principale del browser. Se la finestra principale è chiusa o aggiornata, tutte le finestre popup aperte diventeranno di sola lettura. Se ciò dovesse accadere, è comunque possibile visualizzare le informazioni in queste finestre, ma non sarà possibile interagire con esse.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

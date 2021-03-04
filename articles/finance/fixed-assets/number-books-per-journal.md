@@ -47,3 +47,6 @@ Il processo di elaborazione batch esclude i libri chiusi. Ad esempio, in un proc
 Il limite al numero di libri viene applicato se gli ID risorsa duplicati non esistono nello stesso giornale. Tuttavia, se l'ID risorsa è uguale all'ID libro, il numero di libri per giornale di registrazione può essere superato per mantenere l'ID risorsa nello stesso giornale.
 
 Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite e ogni libro cespiti viene registrato nello stesso livello di registrazione. Esegui l'ammortamento per tre mesi consecutivi, senza riepilogo. Il giornale di registrazione ammortamento verrà creato tramite un processo batch e il sistema creerà sette giornali di registrazione con 667 ID cespite e tre libri per ogni ID cespite. Il risultato sarà 2.001 libri. Pertanto, in tre mesi, ci saranno 6.003 righe di giornale di registrazione per mantenere gli stessi ID cespite nello stesso giornale di registrazione. Il sistema creerà anche un giornale di registrazione con 332 ID cespiti e tre libri per ogni ID cespite. In tre mesi ci saranno 2.988 righe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

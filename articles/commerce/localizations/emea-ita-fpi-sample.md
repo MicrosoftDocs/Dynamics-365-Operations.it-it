@@ -286,3 +286,6 @@ Il file di configurazione si trova nella cartella **Configuration** del progetto
 
 - **Indirizzo endpoint** - L'URL della stampante.
 - **Sincronizzazione data e ora** - Questa impostazione specifica se la data e l'ora della stampante devono essere sincronizzate con la stazione hardware collegata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

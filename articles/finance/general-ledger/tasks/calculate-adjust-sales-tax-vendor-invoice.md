@@ -44,3 +44,6 @@ In questo argomento viene descritto come rettificare l'IVA in una fattura fornit
 13. Selezionare **OK**.
 14. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

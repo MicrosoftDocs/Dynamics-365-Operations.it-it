@@ -53,3 +53,6 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

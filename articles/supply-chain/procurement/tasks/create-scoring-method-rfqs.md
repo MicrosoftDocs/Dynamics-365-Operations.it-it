@@ -47,3 +47,6 @@ Questa procedura indica come creare un metodo di assegnazione del punteggio. Un 
 14. Nel campo Da immettere un numero.
 15. Nel campo A immettere un numero.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ I seguenti dati sono disponibili con il controllo dei processi.
 |Storico domanda di lavoro | Domanda di lavoro (msdyn_JobapplicatonId)<br></br>Stato (msdyn_status) <br></br>Motivo stato (msdyn_statusreason) <br></br>Motivo rifiuto (msdyn_rejectionreason) |
 | Storico posizione aperta | Posizione aperta (msdyn_JobopeningId) <br></br>Stato (msdyn_jobopeningstatus) <br></br>Motivo stato (msdyn_jobopeningstatusreason) |
 | Storico candidato | Candidato (msdyn_CandidateId) |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

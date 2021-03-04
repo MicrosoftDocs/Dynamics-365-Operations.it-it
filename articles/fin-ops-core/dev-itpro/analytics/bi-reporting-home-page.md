@@ -89,3 +89,6 @@ I seguenti report forniscono informazioni di riferimento sugli oggetti:
 - [Report su codici di licenza e chiavi di configurazione](../sysadmin/license-codes-configuration-keys-report.md)
 - [Report di SQL Server Reporting Services (SSRS) disponibili](SSRS-report.md)
 - [Report per i tipi di flussi di lavoro](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
     - Sul conto di attribuzione per competenza dello sconto è stato effettuato l'accredito per passività futura verso il cliente.
     - È stato effettuato l'addebito sul conto spese dello sconto, nel rispetto del costo sostenuto in relazione alle vendite.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

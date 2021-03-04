@@ -72,3 +72,5 @@ Assegnare il ruolo utente Talent al team delle relazioni di Talent.
 
    1. Accedere al portale delle carriere da una nuova finestra del browser.
    2. Candidarsi per il lavoro dal portale delle carriere. 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

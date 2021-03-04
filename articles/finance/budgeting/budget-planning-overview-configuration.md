@@ -205,3 +205,6 @@ Il menu **Azioni** può essere utilizzato per creare un nuovo processo copiandon
 Un altro comando utile nel menu **Azioni** è **Visualizza stato del processo di budget**. Questo comando consente di mostrare graficamente i piani di budget all'interno di un processo, insieme ai dati rilevanti, ad esempio lo stato del flusso di lavoro dei piani, i riepiloghi per importo e per unità e la navigazione con un clic ai piani di budget stessi.
 
 [![Stato del processo di pianificazione del budget](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

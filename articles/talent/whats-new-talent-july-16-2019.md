@@ -142,3 +142,6 @@ Le organizzazioni possono offrire diversi tipi di congedo differenti ai dipenden
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Visualizzare le informazioni sulle prestazioni per report diretti ed estesi in Responsabile self-service
 
 Una nuova opzione consentirà ai responsabili di visualizzare le prestazioni dei report diretti ed estesi. Attualmente, i responsabili linea possono assegnare e aggiornare obiettivi prestazionali e pubblicare nuove revisioni. Inoltre, i responsabili diretti e i relativi dipendenti possono gestire e aggiornare giornali di registrazione prestazioni per garantire la corretta esecuzione del processo di valutazione delle prestazioni. Una volta questa modifica implementata, i responsabili potranno visualizzare e gestire informazioni relative alle prestazioni per i report estesi oltre che per quelli diretti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

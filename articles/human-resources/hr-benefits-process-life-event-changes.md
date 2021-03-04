@@ -52,3 +52,6 @@ Elaborare modifiche a eventi reali in Microsoft Dynamics 365 Human Resources per
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Per accreditare un importo fatturato, è necessario prima selezionare l'importo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

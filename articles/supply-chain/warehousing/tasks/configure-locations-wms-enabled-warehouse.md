@@ -175,3 +175,6 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

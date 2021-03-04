@@ -205,3 +205,6 @@ I rendiconti sono visualizzazioni utilizzate dai manager responsabili del contro
 Le versioni vengono utilizzate per simulare, visualizzare e confrontare i diversi risultati. Per impostazione predefinita, tutti i costi effettivi vengono visualizzati in una versione base nota come *effettiva*. Per i budget e i calcoli è possibile utilizzare tutte le versioni necessarie. Ad esempio, è possibile importare i dati del budget in una versione originale e quindi modificare il budget in una versione riveduta. Per i calcoli è possibile creare più versioni. In queste varie versioni è possibile creare calcoli utilizzando diverse regole di calcolo che verranno applicate per l'allocazione dei costi.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ In questa argomento vengono descritti i passaggi per creare e registrare un gior
 1. Selezionare **Scorte**.
 2. Selezionare **Transazioni**. È possibile visualizzare tutte le transazioni correlate che verranno create quando si registra il giornale di registrazione conteggi scorte.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

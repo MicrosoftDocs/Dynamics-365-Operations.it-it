@@ -165,3 +165,6 @@ Il report sul tasso di sconto medio ponderato soddisfa i requisiti di divulgazio
 |     Valuta                          |     L'abbreviazioni per la valuta della transazione utilizzata. Tutti i report convertiranno la valuta delle transazioni nella valuta di dichiarazione.  |
 |     Canoni di leasing rimanenti          |     L'importo totale dei canoni di leasing non pagati dal programma di pagamento rimanente dalla data **A partire da**.            |
 |     Pagamenti ponderati rimanenti       |     I canoni di leasing rimanenti moltiplicati per il tasso di sconto utilizzato.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

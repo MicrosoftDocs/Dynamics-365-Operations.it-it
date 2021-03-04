@@ -39,3 +39,6 @@ Informazioni su come individuare i fornitori in base a criteri specifici. In que
 6. Nel campo Paese, digitare un valore.
 7. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

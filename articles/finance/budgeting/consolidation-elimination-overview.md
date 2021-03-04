@@ -90,3 +90,6 @@ Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e q
 Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

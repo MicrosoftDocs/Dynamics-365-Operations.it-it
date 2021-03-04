@@ -102,3 +102,6 @@ Non è possibile creare avvisi per alcune origini dati secondarie nei moduli. Ad
     ```
 2. Crea un avviso con il modulo SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

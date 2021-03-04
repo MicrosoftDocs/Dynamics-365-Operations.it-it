@@ -135,3 +135,6 @@ Di seguito viene illustrato un esempio delle valutazioni di prodotti nei canali 
 [Gestire valutazioni e recensioni](manage-reviews.md)
 
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

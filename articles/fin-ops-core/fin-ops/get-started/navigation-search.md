@@ -62,3 +62,6 @@ L'elenco dei risultati della ricerca è limitato a 10 voci. Se nei risultati non
 ## <a name="development"></a>Sviluppo
 
 Dal punto di vista dello sviluppo, la funzionalità di ricerca di navigazione è semplice da utilizzare poiché di fatto non esiste alcun ritardo tra la distribuzione delle voci di menu e la loro capacità di apparire nei risultati della ricerca. A condizione che il collegamento alle voci di menu sia stabilito sia tramite il pannello di navigazione che il dashboard, tali voci diventeranno automaticamente esplorabili.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

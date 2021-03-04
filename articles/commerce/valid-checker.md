@@ -78,3 +78,6 @@ Se viene rilevato un errore di convalida, per correggerlo è necessario contatta
 
 > [!NOTE]
 > Regole di convalida aggiuntive supportare più scenari verranno aggiunte in una versione futura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

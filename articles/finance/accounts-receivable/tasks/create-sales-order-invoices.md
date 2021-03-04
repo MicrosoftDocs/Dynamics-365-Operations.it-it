@@ -68,3 +68,6 @@ Questa guida attività descrive la fatturazione di un ordine cliente, inclusa l'
 10. Fare clic su **Annulla**.
 11. Fare clic su **Sì**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

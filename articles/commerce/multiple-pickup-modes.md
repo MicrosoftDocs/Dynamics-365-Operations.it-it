@@ -86,3 +86,6 @@ Quando sono disponibili più modalità di consegna ritiro per un canale, viene f
 ## <a name="considerations-for-distributed-order-management"></a>Considerazioni per la gestione di ordini distribuiti
 
 Le funzioni di [gestione ordini distribuiti (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce ignorano le righe di vendita contrassegnate per il ritiro in negozio. Queste funzionalità sono state aggiornate per garantire che le righe di vendita collegate alle modalità di consegna ritiro configurate ignorino la logica DOM e non vengano riallocate a un nuovo magazzino di evasione ordini.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

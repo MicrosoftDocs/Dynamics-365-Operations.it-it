@@ -95,3 +95,6 @@ Se tutte le righe in un ordine di assistenza sono contrassegnate dallo stato **C
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

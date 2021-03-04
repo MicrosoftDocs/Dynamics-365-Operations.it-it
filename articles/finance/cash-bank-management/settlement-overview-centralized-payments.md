@@ -108,3 +108,6 @@ In caso di pagamenti fornitore, le transazioni relative a importi da versare e d
 
 ## <a name="withholding-tax"></a>Ritenuta d'acconto
 Il conto fornitore associato alla fattura viene utilizzato per determinare se la ritenuta d'acconto deve essere calcolata. Se la ritenuta d'acconto viene applicata, l'imposta verrà calcolata nella persona giuridica associata alla fattura. Se le persone giuridiche utilizzano valute diverse, verrà utilizzato il tasso di cambio dalla persona giuridica associata alla fattura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

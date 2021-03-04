@@ -54,3 +54,6 @@ La finestra relativa al giustificativo mostra il giustificativo dalla società p
 3. Nell'elenco contrassegnare la riga selezionata.
 4. Fare clic su Giustificativo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

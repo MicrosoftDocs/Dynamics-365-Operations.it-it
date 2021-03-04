@@ -122,3 +122,6 @@ Questo argomento descrive brevemente alcuni scenari specifici del paese, come l'
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

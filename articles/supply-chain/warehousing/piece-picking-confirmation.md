@@ -51,3 +51,6 @@ Le opzioni seguenti diventano disponibili per la selezione quando il tipo di lav
 | Conferma di prelievo pezzi | Disponibile per i tipi di lavoro prelievo e conteggio. La conferma del prodotto viene selezionata automaticamente. Consente di confermare ogni pezzo di magazzino dal dispositivo mobile. |
 |  Numero massimo di pezzi  |                   Disponibile per il lavoro di prelievo se la conferma di prelievo del pezzo è abilitata. Consente di impostare un limite al numero di pezzi che è necessario confermare.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 21. Fare clic su Apri.
     * Esaminare il file XML creato che contiene i dettagli di conteggio e somma che sono stati raccolti durante l'esecuzione della configurazione selezionata.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

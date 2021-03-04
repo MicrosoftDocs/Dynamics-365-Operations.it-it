@@ -115,3 +115,6 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 
  - [Esaminare le informazioni sulla riscossione](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

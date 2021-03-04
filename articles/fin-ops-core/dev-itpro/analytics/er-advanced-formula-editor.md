@@ -171,3 +171,6 @@ L'editor è attualmente supportato nei seguenti browser Web:
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 - [Editor Monaco](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

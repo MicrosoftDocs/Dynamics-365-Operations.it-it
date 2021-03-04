@@ -89,3 +89,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 1.  Nell'app mobile, selezionare l'area di lavoro **Directory società**.
 2.  Nel campo **Ricerca**, immettere il nome, il cognome, il titolo o il reparto del dipendente per avviare la ricerca.
 3.  Selezionare un dipendente. Viene visualizzata la pagina **Profilo dipendente**. Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -329,3 +329,6 @@ Il valore di **Timeout tentativi ottimizzazione** determina il numero massimo di
 
 > [!NOTE]
 > I valori impostati per i timeout verranno applicati sia per la pianificazione degli ordini di produzione rilasciati sia per gli ordini pianificati nel quadro della pianificazione MRP. Di conseguenza, l'impostazione di valori molto alti potrebbe aumentare notevolmente il tempo di esecuzione della pianificazione MRP durante l'esecuzione di un piano con molti ordini di produzione pianificati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

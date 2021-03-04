@@ -45,3 +45,6 @@ Allo stesso modo, nella colonna **Stato terze parti**, i seguenti valori potrebb
 Il diagramma seguente mostra entrambi i gruppi di stati e il modo in cui si relazionano tra loro.
 
 [ ![Stati della sperimentazione](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

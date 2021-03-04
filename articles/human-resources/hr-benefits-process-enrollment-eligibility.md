@@ -72,3 +72,6 @@ In questo articolo viene descritto come visualizzare i risultati del processo di
    | **Stato risultati** | Questo sarà Idoneo o Non idoneo. Lo stato del risultato sarà Non idoneo se il lavoratore non ha soddisfatto i criteri della regola di idoneità, se al lavoratore mancano informazioni richieste come una frequenza di retribuzione o un compenso fisso o se nel piano di benefit mancano informazioni che impediscono ai lavoratori di essere iscritti. |
    | **Messaggio risultati** | Indica perché un lavoratore non è idoneo per un piano di benefit o se è stata approvata la regola di idoneità. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

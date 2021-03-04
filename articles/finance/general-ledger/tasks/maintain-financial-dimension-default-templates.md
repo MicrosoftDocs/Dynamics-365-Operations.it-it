@@ -42,3 +42,6 @@ In questo argomento viene illustrato come impostare i modelli predefiniti delle 
 11. Immettere i valori di dimensione finanziaria corrispondenti alla percentuale immessa.
 12. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ogni occorrenza può essere modificata senza influire su altre occorrenze defini
 ## <a name="developer-documentation"></a>Documentazione sviluppatori
 
 Il framework di automazione dei processi consente agli sviluppatori di estendere il framework di automazione dei processi. La documentazione relativa al [framework di automazione dei processi](../process-automation/process-automation-framework.md) fornisce informazioni su come è possibile creare processi personalizzati che devono essere eseguiti dal server batch pianificato con la procedura guidata di automazione dei processi e visualizzati automaticamente nella vista del calendario.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

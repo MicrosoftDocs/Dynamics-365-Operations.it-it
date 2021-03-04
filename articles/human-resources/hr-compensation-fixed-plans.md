@@ -98,3 +98,6 @@ Ad esempio, se la retribuzione fissa viene impostata per un dipendente, è possi
 
 Il sistema verifica che l'importo di retribuzione specificato per un piano di retribuzione del tipo di grado o fascia rientri nei punti di riferimento minimo e massimo per il livello retributivo specificato sulla mansione del dipendente. Se l'importo di retribuzione non rientra nell'intervallo consentito, viene visualizzato un messaggio di errore o di avviso, a seconda del livello di tolleranza impostato nel piano di retribuzione fissa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ L'illustrazione seguente mostra la pagina di elenco **Tutti i programmi di manut
 
 ![Figura 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

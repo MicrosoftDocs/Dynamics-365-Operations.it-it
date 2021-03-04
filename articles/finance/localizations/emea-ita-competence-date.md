@@ -90,3 +90,6 @@ L'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo st
 7. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Transazioni giustificativo**.
 8. Nella pagina **Transazioni giustificativo** aggiungere la colonna **Data transazione**.
 9. Verificare il campo **Data** sia impostato sul 31 dicembre e il campo **Data transazione** sia impostato sul 15 aprile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

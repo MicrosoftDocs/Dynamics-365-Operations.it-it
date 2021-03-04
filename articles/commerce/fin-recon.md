@@ -62,3 +62,6 @@ Quando viene utilizzata la registrazione del rendiconto a inserimento continuo, 
 I dettagli della riconciliazione finanziaria per un turno sono sincronizzati in Commerce headquarters utilizzando il processo P.
 
 I rendiconti finanziari di vendita dettaglio in Commerce headquarters non calcolano i totali per mostrare i dettagli nelle righe dei rendiconti. Al contrario, gli importi finalizzati nel client POS vengono utilizzati per creare e registrare rendiconti finanziari di vendita al dettaglio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

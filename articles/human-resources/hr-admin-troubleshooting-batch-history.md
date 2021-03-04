@@ -64,3 +64,6 @@ Pianificare un'attività automatica per ripulire la cronologia dei processi batc
 
 8. Apportare le modifiche necessarie a tutti gli altri parametri in **Esegui in background** e selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

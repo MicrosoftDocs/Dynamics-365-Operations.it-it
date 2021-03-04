@@ -151,3 +151,6 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 [Risorse piattaforma mobile](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

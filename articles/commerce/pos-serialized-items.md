@@ -95,3 +95,6 @@ Per abilitare tale convalida, come prerequisito, è necessario pianificare i seg
 [Operazione di magazzino in ingresso in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operazione di magazzino in uscita in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

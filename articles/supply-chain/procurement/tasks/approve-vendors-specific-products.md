@@ -62,3 +62,6 @@ Questa procedura mostra come approvare i fornitori per prodotti specifici. Ciò 
 31. Chiudere la pagina.
 32. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

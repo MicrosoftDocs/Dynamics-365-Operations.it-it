@@ -117,3 +117,6 @@ Nella seguente tabella vengono illustrate le visualizzazioni disponibili in cias
 | Fatture che non sono state importate | <ul><li>Fatture che non sono state importate</li><li>Fatture che non sono state importate per società</li></ul> |
 | Motivi dell'automazione non riuscita | <ul><li>Fatture non riuscite</li><li>Fatture non riuscite per società</li><li>Fatture non riuscite per gruppo di fornitori</li></ul> |
 | Stato flusso di lavoro                | <ul><li>Fatture nel flusso di lavoro</li><li>Istanze del flusso di lavoro di fatture fornitori</li><li>Assegnazione per responsabile approvazione</li><li>Flusso di lavoro fattura fornitore per società</li><li>Giorni impiegati in media nel flusso di lavoro per approvatore</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Utilizzare questa procedura per creare una gerarchia di report per l'organizzazi
     * Selezionare il membro di dimensione corrispondente al nodo.  
 59. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

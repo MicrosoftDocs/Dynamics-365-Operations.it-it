@@ -49,3 +49,6 @@ L'esecuzione di questa procedura richiede almeno un modello di configurazione pr
     * Attivare la versione del modello prodotto. È possibile avere un solo prodotto attivo per un modello prodotto alla volta.  
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

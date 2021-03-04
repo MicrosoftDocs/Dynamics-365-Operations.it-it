@@ -83,3 +83,6 @@ Se il campo **Lavoratori con rapporto chiuso** della scheda **Giornali di regist
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

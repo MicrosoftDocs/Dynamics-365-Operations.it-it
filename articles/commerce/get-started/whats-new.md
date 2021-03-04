@@ -45,3 +45,6 @@ Questa pagina indica le risorse sulle nuove funzionalità e modifiche nelle ulti
 | Dynamics 365 for Retail - 7.3.2.5 | 7.3.21971.64091 | 2018 giugno | [KB 4342134 Microsoft Dynamics 365 for Retail - Versione 7.3.2.5 - Pacchetto di aggiornamento rapido 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* Il collegamento punta a un articolo della Knowledge Base (KB). È necessario accedere a Lifecycle Services (LCS) per visualizzare l'articolo KB.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

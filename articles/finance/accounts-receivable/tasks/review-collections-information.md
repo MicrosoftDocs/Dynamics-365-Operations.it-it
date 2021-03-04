@@ -143,3 +143,6 @@ In questa argomento vengono descritti i passaggi per esaminare le informazioni s
 5. Selezionare **Mostra elenco**.
 - Consente di selezionare un conto cliente o accettare il valore predefinito. Per impostazione predefinita, si tratta del conto cliente selezionato nella pagina elenco o nel modulo da cui è stato aperto il modulo. Se il modulo è stato aperto da una pagina elenco, i clienti nell'elenco sono quelli inclusi nel pool di riscossioni utilizzato nella pagina elenco.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

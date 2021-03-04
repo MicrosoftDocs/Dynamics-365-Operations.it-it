@@ -62,3 +62,6 @@ Gli argomenti elencati nella tabella consentono di configurare i componenti di C
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

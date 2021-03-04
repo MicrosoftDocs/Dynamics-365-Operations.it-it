@@ -131,3 +131,6 @@ Per la legislazione italiana, le regole si applicano ai periodi di liquidazione.
 |   <strong>Chiuso</strong>    | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
 | <strong>Ultimo periodo</strong> |             Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.              |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

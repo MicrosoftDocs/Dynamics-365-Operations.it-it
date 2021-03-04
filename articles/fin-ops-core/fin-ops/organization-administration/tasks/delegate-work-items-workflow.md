@@ -60,3 +60,6 @@ Se si prevede di restare assenti dall'ufficio o di non essere disponibili per in
 8. Nel campo **Data/ora di fine** immettere una data e un'ora.
 9. Selezionare la casella di controllo **Attivato** per attivare la regola di delega. 
 10. Nel campo **Commento** immettere un commento che spiega il motivo della delega degli elementi di lavoro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

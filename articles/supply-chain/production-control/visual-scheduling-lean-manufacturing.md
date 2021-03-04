@@ -95,3 +95,6 @@ I processi possono essere riassegnati da un periodo a un altro. Questa funzione 
 
 [Programmazione dei processi kanban per lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ Non è possibile segnalare la quantità di errore in un ordine di produzione a m
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>È possibile tracciare i numeri di serie dei prodotti finiti rispetto ai numeri di serie dei prodotti consumati?
 
 Non è possibile tracciare i numeri di serie dei prodotti finiti rispetto ai numeri di serie del materiale che un ordine di produzione consuma per realizzare tali prodotti finiti. Questo scenario non è attualmente supportato. La soluzione consiste nel creare ordini di produzione per una quantità di 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

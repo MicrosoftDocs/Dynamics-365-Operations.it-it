@@ -59,3 +59,6 @@ Questa procedura mostra come creare un conto fornitore e come aggiungere un indi
 7. Chiudere la pagina.
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

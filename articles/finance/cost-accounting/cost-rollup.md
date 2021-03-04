@@ -301,3 +301,6 @@ La netta separazione tra **Allocazione costi** e **Criteri rollup costi** fornis
 -  [Dimensioni elemento di costo](cost-elements.md)
 -  [Gerarchia dimensioni](dimension-hierarchy.md)
 -  [Calcolo generale](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

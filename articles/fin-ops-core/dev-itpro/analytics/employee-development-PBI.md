@@ -68,3 +68,6 @@ I report inclusi nel contenuto **Sviluppo del dipendente** di Power BI dispongon
 | Analisi competenze del dipendente  | Certificato, livello, data livello e competenza                                                                    | Nome del dipendente, Competenza |
 | Prestazioni              | Valutazione, descrizione e modello di valutazione                                                                      | Dipendente corrente, Posizione corrente, Tendenza del dipendente, Competenza preferita per la mansione, Assegnazione della posizione passata, Tendenza della posizione, Dipendente con rapporto di lavoro chiuso |
 | Competenza                    | Competenza, tipo di competenza e valutazione                                                                              | Analisi competenze del dipendente, Competenza preferita per la mansione |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Segui questi passaggi per rivedere le spedizioni che sono state create.
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 7. Immettere una data nel campo Dal.
 8. Nel campo Data finale immettere una data.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

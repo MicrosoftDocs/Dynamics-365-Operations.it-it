@@ -48,3 +48,6 @@ Questa procedura mostra come impostare un metodo di pagamento trasporto. La proc
 7. Fare clic su Invia.
 8. Selezionare un percorso.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

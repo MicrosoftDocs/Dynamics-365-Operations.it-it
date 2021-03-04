@@ -66,3 +66,6 @@ Gruppi ritenute d'acconto | msdyn_withholdingtaxgroups |
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

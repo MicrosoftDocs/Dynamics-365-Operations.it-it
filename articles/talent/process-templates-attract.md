@@ -71,3 +71,6 @@ Per creare un modello di processo di assunzione, attenersi alla procedura seguen
     - Per rimuovere un'attività, espanderla, quindi fare clic sul pulsante di pattumiera nell'intestazione dell'attività.
 
 8. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Un utente di Commerce segue il flusso di lavoro per calcolare, approvare e trasf
 - Registrare le assenze
 
 Per ulteriori informazioni su come elaborare le registrazioni di orari e presenze, vedere [Elaborare le registrazioni in Orario e presenze](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

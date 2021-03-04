@@ -50,3 +50,6 @@ Dopo aver creato i gruppi di leasing, puoi assegnare libri a ciascun gruppo. Qua
 1. Vai a **Leasing cespiti \> Imposta \> Gruppo di leasing**.
 2. Seleziona un gruppo di leasing, quindi seleziona **Libri**.
 3. Seleziona **Nuovo**, quindi, nel campo **Tipo di libro**, seleziona il libro da assegnare al gruppo di leasing. Puoi assegnare più libri a un gruppo di leasing se un leasing deve essere contabilizzato in modi diversi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

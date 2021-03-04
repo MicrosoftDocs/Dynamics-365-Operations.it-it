@@ -69,3 +69,6 @@ Due flussi di lavoro di approvazione sono disponibili: **Parallelo** e **Sequenz
 È possibile anche impostare e applicare una data di scadenza per le offerte. Se si imposta **Richiedere una data di scadenza per tutte le offerte** su **Sì**, le offerte scadono dopo il numero di ore o di giorni specificato.
 
 Per ulteriori informazioni sulla gestione delle offerte, vedere [Configurare la gestione delle offerte](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

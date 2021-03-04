@@ -98,3 +98,6 @@ Un calcolo DBA genera messaggi di avviso. È possibile visualizzare avvisi su un
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

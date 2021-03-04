@@ -40,3 +40,6 @@ ms.locfileid: "4688175"
 12. Digitare un valore nel campo **Riduzione dei rischi di sicurezza**. Immettere una descrizione delle azioni prese per attenuare il rischio di sicurezza. Ad esempio, è possibile attenuare il rischio effettuando revisioni più dettagliati del processo, svolgendo una revisione manageriale mensile o condividendo le risorse con altri reparti.     
 13. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

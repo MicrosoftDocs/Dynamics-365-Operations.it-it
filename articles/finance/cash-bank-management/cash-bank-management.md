@@ -99,3 +99,6 @@ Informazioni aggiuntive sono disponibili come guide attività in Finance. Per ac
 #### <a name="videos"></a>Video
 
 Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

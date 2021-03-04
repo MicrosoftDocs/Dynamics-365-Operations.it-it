@@ -296,3 +296,6 @@ Fabrikam riceve un pagamento di 75,00 dal cliente 4000, Northwind Traders. Il pa
 | Contabilità clienti (Fabrikam West)    |              | 75,00         |
 | Dovuto da Fabrikam East (Fabrikam West) | 25,00        |               |
 | Contabilità clienti (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

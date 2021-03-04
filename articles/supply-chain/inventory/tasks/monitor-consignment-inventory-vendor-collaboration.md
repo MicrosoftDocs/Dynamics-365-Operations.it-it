@@ -43,3 +43,6 @@ In questa procedura viene illustrato come utilizzare la collaborazione fornitore
 1. Andare a Collaborazione fornitore > Inventario spedizione > Inventario spedizione disponibile.
     * La pagina Inventario spedizione disponibile mostra le scorte di proprietà nel magazzino del cliente. È possibile visualizzare ulteriori dimensioni, ad esempio sito e magazzino, facendo clic sulla scheda Visualizza dimensioni.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

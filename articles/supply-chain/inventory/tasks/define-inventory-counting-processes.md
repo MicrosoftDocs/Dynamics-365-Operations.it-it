@@ -85,3 +85,6 @@ In questo argomento viene descritta la configurazione dei processi di conteggio 
 5. Nel menu a discesa del campo **Gruppo di conteggio**, selezionare un gruppo di conteggio. È possibile selezionare uno specifico gruppo di conteggio da applicare all'articolo nel magazzino specifico selezionato. Quando il conteggio viene eseguito nel magazzino, questi criteri di conteggio sostituiranno i criteri di conteggio generali per l'articolo.  
 6. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

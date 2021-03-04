@@ -72,3 +72,6 @@ Arricchire il canale aggiungendo gli attributi del prodotto e del canale. È nec
 33. Fare clic su OK.
 34. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Risorse aggiuntive
 - [Area di lavoro controllo costi](cost-control-workspace.md)
 - [Gerarchia dimensioni](dimension-hierarchy.md)
 - [Impostare la sicurezza per il pacchetto di contenuti della contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

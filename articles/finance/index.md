@@ -73,3 +73,6 @@ Le normative del paese/area geografica incidono sull'impostazione fiscale e su a
 
 Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione. Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -380,3 +380,6 @@ Nella prima transazione della sottoscrizione 00020\_135 il prezzo di vendita di 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

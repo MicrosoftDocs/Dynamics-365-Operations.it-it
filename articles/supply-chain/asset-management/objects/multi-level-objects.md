@@ -62,3 +62,6 @@ Se un cespite ha cespiti secondari correlati, è possibile eliminarlo solo se no
 
 > [!NOTE]
 > Se non è possibile eliminare un cespite utilizzando questa procedura, un altro metodo per gestire l'eliminazione è di impostare uno stato del ciclo di vita del cespite a questo scopo. Ad esempio, è possibile impostare uno stato del ciclo di vita su **Eliminato** o **Rottamato** nella pagina **Stati del ciclo di vita del cespite**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

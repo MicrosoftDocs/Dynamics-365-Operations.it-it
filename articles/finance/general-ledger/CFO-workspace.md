@@ -56,3 +56,6 @@ In questo argomento viene descritto come aggiungere dimensioni finanziarie all'a
 16. Generare il progetto, quindi aprire l'applicazione per visualizzare i risultati.
 
     [![Area di lavoro completata](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

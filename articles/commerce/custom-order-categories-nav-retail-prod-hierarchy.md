@@ -88,3 +88,6 @@ L'ordine di visualizzazione della gerarchia di navigazione nei canali è rispecc
 
 > [!NOTE]
 > Per impostazione predefinita, la personalizzazione della funzionalità di ordinamento è disattivata. Per informazioni su come attivare questa e altre funzionalità, vedere [Gestione funzionalità](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Dopo che un responsabile della selezione ha creato un progetto di assunzione col
 8. Nell'elenco deselezionare la riga selezionata.
     * Selezionare la posizione di progetto successiva e continuare a immettere le informazioni dei lavoratori per ogni persona che si assume.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

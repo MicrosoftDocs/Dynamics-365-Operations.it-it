@@ -121,3 +121,6 @@ Una volta registrate tutte le merci, il responsabile del magazzino o il responsa
 
 ## <a name="summary"></a>Riepilogo
 La pagina **Panoramica arrivi** consente al responsabile del magazzino e agli addetti al magazzino di ottenere una panoramica del lavoro previsto che deve essere svolto come parte di un processo in entrata. Nella pagina può inoltre essere utilizzata per avviare il processo di registrazione arrivi articoli, per garantire che gli articoli vengano aggiornati alla prima immissione nel magazzino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

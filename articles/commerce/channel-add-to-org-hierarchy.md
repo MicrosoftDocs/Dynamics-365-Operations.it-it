@@ -82,3 +82,6 @@ L'immagine seguente mostra una gerarchia con vari canali aggiunti.
 [Impostare un canale di vendita al dettaglio](channel-setup-retail.md)
     
 [Impostare un canale online](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

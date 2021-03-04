@@ -106,3 +106,6 @@ Per aggiungere un modulo Lettore video a una nuova pagina e impostare le proprie
 [Modulo blocco testo](add-content-rich-block.md)
 
 [Modulo Blocco di contenuto](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

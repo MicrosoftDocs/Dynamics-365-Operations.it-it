@@ -51,3 +51,6 @@ Nella scheda **Dettagli** della pagina **Autorizzazione** è possibile visualizz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

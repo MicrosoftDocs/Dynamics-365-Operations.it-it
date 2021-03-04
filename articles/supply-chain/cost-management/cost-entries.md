@@ -72,3 +72,6 @@ La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del doc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

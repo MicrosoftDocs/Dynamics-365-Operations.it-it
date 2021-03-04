@@ -51,3 +51,6 @@ I dati relativi al costo dell'articolo per i costi standard possono essere copia
 
 [Eseguire le operazioni preliminari alla gestione dei costi standard per gli articoli prodotti](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

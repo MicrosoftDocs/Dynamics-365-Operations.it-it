@@ -253,3 +253,6 @@ Completa i passaggi seguenti per creare un nuovo leasing.
 
    Nella pagina **Transazioni di obbligazione sul leasing** sono visualizzati la rilevazione iniziale, il pagamento degli interessi del leasing, il canone di leasing e il saldo dell'obbligazione sul leasing. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

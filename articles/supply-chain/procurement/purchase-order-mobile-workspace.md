@@ -113,3 +113,6 @@ Dopo avere visualizzato l'ordine fornitore assegnato all'utente e letto le istru
 5. Selezionare l'azione appropriata.
 6. Nella pagina **Completa attività**, immettere un commento. Se si seleziona l'azione **Delega**, è necessario selezionare un utente a cui delegare l'attività.
 7. Selezionare **Fine**. Dopo aver aggiornato l'area di lavoro, l'ordine fornitore non sarà più in elenco. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

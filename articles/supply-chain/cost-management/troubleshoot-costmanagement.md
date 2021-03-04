@@ -62,3 +62,6 @@ Ricordarsi di eseguire una chiusura dell'inventario a partire dal %3 (31-01-2019
 ## <a name="inventory-aging-report-discrepancies"></a>Discrepanze report di aging delle scorte
 
 Il **Report di aging delle scorte** mostra valori diversi se visualizzati a dimensioni di stoccaggio diverse (come sito o magazzino). Per ulteriori informazioni sulla logica di reporting, vedere [Esempi e logica del report di aging delle scorte](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

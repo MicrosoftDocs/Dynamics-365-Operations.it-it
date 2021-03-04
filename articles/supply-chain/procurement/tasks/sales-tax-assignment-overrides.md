@@ -57,3 +57,6 @@ Questa procedura dimostra come assegnare fasce IVA ai canali di commercio. Inolt
 21. Nell'elenco fare clic sul collegamento nella riga selezionata.
 22. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

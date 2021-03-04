@@ -46,3 +46,6 @@ Questo argomento descrive la procedura per visualizzare lo stato di un documento
     - Il pulsante **Riassegna** apre una finestra di dialogo in cui è possibile riassegnare un elemento di lavoro a un altro utente.  
     - Assicurarsi che la sezione **Dettagli tracciabilità** sia espansa. In questa sezione è possibile visualizzare lo storico flusso di lavoro del documento selezionato.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

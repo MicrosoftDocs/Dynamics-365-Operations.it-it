@@ -41,3 +41,6 @@ Un'unità operativa è un'organizzazione utilizzata per dividere il controllo de
     + Immettere informazioni sui metodi di comunicazione, ad esempio indirizzi di posta elettronica, URL e numeri di telefono. Per immettere un nuovo record di comunicazione, fare clic su Nuovo. Per modificare un record di comunicazione esistente, fare clic su **Altre opzioni > Avanzate**.   
 6. Se lo si desidera, modificare **Numero unità operativa** come necessario. Da notare che questo numero è un identificatore univoco per il record **Parte** corrispondente e non può essere uguale a qualsiasi altra unità operativa.
 7. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

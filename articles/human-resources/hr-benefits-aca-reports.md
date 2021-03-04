@@ -68,3 +68,6 @@ Oltre a visualizzare un elenco di dipendenti che non sono ACA dichiarabili, è i
 Se è necessario dichiarare i singoli dipendenti coperti in quanto come datore di lavoro si fornisce la copertura autoassicurata, è anche possibile visualizzare tutti i dipendenti coperti dai piani di benefit che sono stati contrassegnati come **ACA dichiarabile** selezionando l'azione Visualizza copertura dipendente della striscia del riquadro azioni.
 
 **Nota:** solo i benefit il piano è stato contrassegnato come **ACA dichiarabile** verranno visualizzati nella finestra di richiesta di informazioni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

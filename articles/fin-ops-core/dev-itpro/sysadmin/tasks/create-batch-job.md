@@ -54,3 +54,6 @@ Un processo batch è un gruppo di attività inviate a un'istanza del server ogge
     - **Trattenuto**: impostare il processo batch su **trattenuto** di modo che sia trattenuto dallo scheduler dei processi batch. È equivalente a *fermo*.
     - **In attesa**: impostare il processo batch su **in attesa** di modo che sia in attesa di essere selezionato dallo scheduler di processi batch. E equivalente a *avvia*.
 5. Fare clic su **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

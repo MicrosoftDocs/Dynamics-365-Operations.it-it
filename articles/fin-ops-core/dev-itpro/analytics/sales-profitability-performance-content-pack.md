@@ -107,3 +107,6 @@ La seguenti dimensioni chiave nel cubo vendite vengono utilizzate come filtri pe
 | Appuntamenti            | Appuntamenti                                                |
 
 Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

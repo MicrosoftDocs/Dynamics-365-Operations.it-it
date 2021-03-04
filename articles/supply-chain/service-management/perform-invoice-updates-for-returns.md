@@ -57,3 +57,6 @@ Quando si imposta l'aggiornamento della fattura per l'elaborazione batch, lo sta
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

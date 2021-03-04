@@ -83,3 +83,6 @@ Sono disponibili due opzioni relative alle prenotazioni nella pagina **Parametri
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Criteri di prenotazione scorte nella pagina Parametri di produzione
 
 Il valore del campo **Prenotazione** nella scheda **Generale** della pagina **Parametri di produzione** determina il punto predefinito nel processo di produzione in cui dovranno essere prenotate le scorte. Ad esempio, le scorte possono essere prenotate quando il lavoro viene programmato oppure iniziato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

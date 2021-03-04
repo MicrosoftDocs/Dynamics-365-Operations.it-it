@@ -130,3 +130,6 @@ I passaggi seguenti illustrano come un utente con ruolo di amministratore di sis
 3. Fare clic su **Sfoglia** e selezionare il file **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Fare clic su **OK**.
 5. Esaminare il file generato. Da notare che lo stesso file è stato importato in quanto la progettazione del formato ora considera l'attributo "id" per l'elemento "documento" come facoltativo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

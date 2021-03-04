@@ -48,3 +48,6 @@ Per impostare i profili di registrazione, è necessario aprire un conto bancario
 ## <a name="use-posting-profiles-in-remittance-journal-posting"></a>Utilizzare i profili di registrazione nella registrazione del giornale di registrazione rimesse
 
 Se i profili di registrazione sono stati impostati nel conto bancario, il sistema li utilizzerà per specificare il conto di contropartita quando viene registrato un giornale di registrazione rimesse. Se i profili di registrazione non sono stati impostati, il sistema seleziona il profilo di registrazione nella scheda **Contabilità generale e IVA** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

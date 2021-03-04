@@ -44,3 +44,6 @@ Questa procedura imposterà un vincolo di trasporto per impedire a un articolo s
 10. Fare clic su Salva.
 11. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

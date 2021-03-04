@@ -67,3 +67,6 @@ Per ulteriori informazioni ed esempi sull'uso di questa funzione, vedere [Differ
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni raccolta dati](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

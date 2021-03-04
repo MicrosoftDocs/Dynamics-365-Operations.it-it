@@ -124,3 +124,6 @@ Seguire questi passaggi per configurare l'integrazione.
     4. È possibile avere più ambienti in Customer Insights, ad esempio ambienti di produzione e test. Nel campo **ID istanza dell'ambiente**, immettere l'ambiente appropriato.
     5. Nel campo **ID cliente alternativo**, immettere la proprietà in Customer Insights mappata al numero del conto del cliente (in Commerce, il numero del conto del cliente è l'ID cliente).
     6. Le restanti tre proprietà sono le misure che verranno mostrate sulla scheda cliente nel libro clienti. È possibile selezionare fino a tre misure da visualizzare nella scheda cliente. Tuttavia, non è obbligatorio selezionare le misure. Come indicato in precedenza, il sistema mostra prima questi valori e quindi mostra i valori per il gruppo di attributi del libro clienti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

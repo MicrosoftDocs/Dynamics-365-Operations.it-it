@@ -70,3 +70,6 @@ Dopo aver creato gli stati del ciclo di vita del cespite necessari, è possibile
 
 6. Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita del cespite possono seguire uno stato selezionato.
 7. È possibile utilizzare la Scheda dettaglio **Stato del cespite** per gestire i cespiti ricevuti per la riparazione. Nella sezione **In entrata/in uscita**, è possibile selezionare gli stati del ciclo di vita del cespite per indicare il flusso di lavoro di un cespite ricevuto per la riparazione. Se si offrono cespiti in prestito a clienti o reparti, nella sezione **Prestito**, è possibile selezionare gli stati del ciclo di vita per i cespiti di prestito.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

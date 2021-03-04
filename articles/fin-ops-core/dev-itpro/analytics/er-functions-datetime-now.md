@@ -49,3 +49,6 @@ Il valore di data/ora risultante.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di data e ora](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ In questa procedura viene descritto come visualizzare tutti gli ordini pianifica
 8. Espandere la sezione Dettagli domanda a monte.
     * In questa sezione, è possibile visualizzare i dettagli su come la domanda verrà evasa. Può essere necessario attendere l'esecuzione della pianificazione generale nella società di rifornimento per poter visualizzare informazioni aggiuntive qui.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

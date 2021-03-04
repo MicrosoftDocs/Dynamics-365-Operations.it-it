@@ -92,3 +92,6 @@ In questo argomento viene descritto il processo per creare una richiesta. Vengon
 6. Chiudere la pagina.
 7. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

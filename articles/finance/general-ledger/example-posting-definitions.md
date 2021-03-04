@@ -128,3 +128,6 @@ In questo esempio, qualsiasi conto fa parte di Struttura conti - profitti e perd
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Il messaggio di benvenuto viene visualizzato nella parte superiore di ogni pagin
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

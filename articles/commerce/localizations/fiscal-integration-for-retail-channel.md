@@ -150,3 +150,6 @@ La seguente funzionalità di integrazione fiscale è disponibile anche in Retail
 La seguente funzionalità di integrazione fiscale legacy disponibile in Retail SDK non utilizza il framework di integrazione fiscale e sarà deprecata negli aggiornamenti successivi:
 
 - [Esempio di integrazione di un'unità di controllo per la Svezia (legacy)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

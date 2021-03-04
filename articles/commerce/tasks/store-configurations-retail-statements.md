@@ -49,3 +49,6 @@ In questa procedura sono illustrate le configurazioni per il punto vendita al de
 17. Selezionare "Sì" in **Dividi per metodo rendiconto** per ottenere i rendiconti creati per ciascun metodo di rendiconto definito. Questa azione può essere utile se le prestazioni di registrazione devono essere migliorate per gli archivi con alti volumi di transazioni perché creano molti piccoli rendiconti che possono essere elaborati in parallelo.  
 18. Nella Scheda dettaglio **Generale**, nel campo **Cliente predefinito**, è possibile selezionare il conto cliente da utilizzare per le vendite ai clienti che entrano.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

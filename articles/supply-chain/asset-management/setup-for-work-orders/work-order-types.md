@@ -52,3 +52,6 @@ Per ulteriori informazioni sugli stati del ciclo di vita di ordine di lavoro e s
 8. Selezionare **Salva**.
 
 ![Tipi di ordine di lavoro](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

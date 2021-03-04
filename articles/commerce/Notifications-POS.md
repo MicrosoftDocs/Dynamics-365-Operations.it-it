@@ -77,3 +77,6 @@ Per visualizzare il conteggio di notifica su un pulsante, è necessario assicura
 La seguente illustrazione mostra l'effetto della selezione di **Destra in alto** rispetto a **Centro** nel campo **Allineamento contenuto** per pulsanti di varie dimensioni.
 
 ![Contenuto in diretta su pulsanti POS](./media/ButtonsWithLiveContent.png "Contenuto in diretta su pulsanti POS")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

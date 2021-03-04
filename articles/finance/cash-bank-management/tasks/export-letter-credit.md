@@ -140,3 +140,6 @@ Eseguire la procedura 'Impostare le linee di credito bancarie e i profili regist
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Verificare Stato spedizione = Pagamento ricevuto e importo saldo = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

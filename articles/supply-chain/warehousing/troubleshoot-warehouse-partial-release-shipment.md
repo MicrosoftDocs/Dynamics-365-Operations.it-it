@@ -42,3 +42,6 @@ Ad esempio, un ordine cliente ha due articoli: uno per la consegna e uno per il 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Lo stato di rilascio si applica solo alle righe ordine in cui gli articoli sono abilitati per la gestione del magazzino. Pertanto, lo stato di rilascio rimane *Parzialmente rilasciato* in questo scenario. Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione delle funzionalità. È possibile aggiungere un'estensione come parte del documento di trasporto e del processo di fatturazione per aggiornare lo stato di rilascio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

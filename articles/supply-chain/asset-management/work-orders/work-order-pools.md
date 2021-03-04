@@ -109,3 +109,6 @@ Come descritto nella sezione precedente, è possibile aggiungere ordini di lavor
 
 Per rimuovere un ordine di lavoro da un pool di ordini di lavoro, ripetere questi passaggi, ma selezionare **Rimuovi** nel passaggio 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

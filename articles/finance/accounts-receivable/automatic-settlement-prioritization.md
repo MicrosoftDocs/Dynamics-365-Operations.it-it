@@ -83,3 +83,6 @@ Se non esiste una priorità di liquidazione definita dall'utente, le transazioni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

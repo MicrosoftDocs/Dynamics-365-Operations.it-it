@@ -45,3 +45,6 @@ In Microsoft Dynamics 365 Human Resources, i giorni di attesa stabiliscono una m
    | **Giorno di attesa** | Selezionare il giorno di attesa da utilizzare per calcolare la data di attesa. |
 
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

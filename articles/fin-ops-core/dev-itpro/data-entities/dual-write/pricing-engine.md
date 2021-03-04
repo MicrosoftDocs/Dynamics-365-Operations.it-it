@@ -69,3 +69,6 @@ Quando i campi in Sales sono compilati, si applicano le seguenti limitazioni:
 + L'impostazione degli addebiti e delle allocazioni degli addebiti in Supply Chain Management non viene replicata in Sales.
 + Il prezzo non considera i prezzi al dettaglio speciali specificati nel campo **Canale al dettaglio** della pagina della riga ordine cliente in Supply Chain Management.
 + Gli sconti definiti nella sezione **Gestione indennità commerciali** di Supply Chain Management non sono considerati.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

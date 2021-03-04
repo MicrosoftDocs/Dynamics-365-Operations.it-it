@@ -68,3 +68,6 @@ Gli ordini di sostituzione articolo vengono in genere creati dopo la restituzion
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

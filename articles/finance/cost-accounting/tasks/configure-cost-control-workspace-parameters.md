@@ -59,3 +59,6 @@ Utilizzare questa procedura per configurare l'area di lavoro di controllo costi 
 27. Nel campo Nodo gerarchia dimensioni di oggetto di costo immettere o selezionare un valore.
     * Dopo aver selezionato una gerarchia di dimensioni di oggetto di costo, espandere la gerarchia dimensioni di elemento di costo per visualizzare i valori di costo desiderato. Ad esempio, è possibile espandere la gerarchia nei costi generali di produzione per visualizzare il valore.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

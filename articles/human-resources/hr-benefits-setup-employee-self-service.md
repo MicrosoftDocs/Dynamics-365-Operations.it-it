@@ -72,3 +72,6 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
    | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
 
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

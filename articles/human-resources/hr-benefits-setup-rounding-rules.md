@@ -36,3 +36,6 @@ ms.locfileid: "4419228"
 3. Specificare i valori per **Arrotondamento all'unità più vicina**, **Scenario** e **Tipo di arrotondamento**.
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

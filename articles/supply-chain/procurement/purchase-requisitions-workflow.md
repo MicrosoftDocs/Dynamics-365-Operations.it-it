@@ -121,3 +121,6 @@ Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necess
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

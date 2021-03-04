@@ -854,3 +854,6 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
     - Ordini di trasferimento e prelievo di materie prime
 
 - La regola di consolidamento dei contenitori per l'imballaggio per unità direttiva presenta dei limiti. Per le prenotazioni impegnate in ordini, si consiglia di non utilizzare modelli di build contenitore dove il campo **Imballa per unità direttiva** è abilitato. Nella progettazione attuale, le direttive di ubicazione non vengono utilizzate durante la creazione di lavoro di magazzino. Pertanto, solo l'unità più bassa nel gruppo di sequenze unità (l'unità di magazzino) viene applicata durante il passaggio ondata di containerizzazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

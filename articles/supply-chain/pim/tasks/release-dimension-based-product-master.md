@@ -41,3 +41,6 @@ Questa procedura mostra come emettere una rappresentazione generale prodotto da 
 7. Scegliere Avanti.
 8. Scegliere Fine.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

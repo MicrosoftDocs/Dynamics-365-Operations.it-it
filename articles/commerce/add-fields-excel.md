@@ -55,3 +55,6 @@ Il nuovo campo e i relativi dati dovrebbero ora essere disponibili per la modifi
 [Modificare le dimensioni finanziarie per le transazioni di vendita al dettaglio](edit-financial-dim.md)
 
 [Creare una cartella di lavoro di Excel per modificare le transazioni di vendita al dettaglio](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

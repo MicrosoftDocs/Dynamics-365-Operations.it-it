@@ -91,3 +91,5 @@ Dopo aver inviato l'elenco di controllo, il FastTrack Solution Architect esamine
 ## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti fase operativa](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

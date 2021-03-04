@@ -91,3 +91,6 @@ Utilizzare la funzione **Installa cespite** per installare una struttura di cesp
 4. Selezionare la nuova ubicazione nel campo **Unità funzionale**.
 5. Il campo **Validità** viene impostato automaticamente sulla data e ora corrente. Tuttavia, è possibile selezionare una data e un'ora diverse per l'inizio della validità della installazione nella struttura di cespiti.
 6. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

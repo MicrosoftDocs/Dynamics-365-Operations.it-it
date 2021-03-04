@@ -241,3 +241,6 @@ Quando si implementa una gerarchia organizzativa, considerare le procedure ottim
 - Prima di modellare strutture di ristrutturazione consistenti, utilizzare le date di validità della gerarchia per effettuare un'analisi dell'impatto e un test di convalida.
 - Utilizzare la modalità bozza per modificare una gerarchia prima di pubblicare una versione in un ambiente di produzione.
 - Limitare il numero di persone che dispongono delle autorizzazioni per aggiungere o rimuovere organizzazioni da una gerarchia in un ambiente di produzione. Un numero inferiore riduce le possibilità di commettere costosi errori.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

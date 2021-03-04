@@ -104,3 +104,6 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

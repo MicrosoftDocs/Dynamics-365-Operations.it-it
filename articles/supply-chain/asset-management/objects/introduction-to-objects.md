@@ -78,3 +78,6 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Parti di ricambio          | Consente di visualizzare un elenco di pezzi di ricambio approvati e alternativi che possono essere usati per il cespite.                                                                               |
 | Consumo cespite    | Consente di stampare un report contenente le registrazioni del consumo relativo al cespite.                                                                                                |
 | Errore del cespite          | Consente di stampare un report contenente le registrazioni dei problemi del cespite.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

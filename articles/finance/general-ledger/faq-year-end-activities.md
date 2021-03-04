@@ -137,3 +137,6 @@ Dynamics 365 Finance non stampa il modulo 1096 Riepilogo annuale e trasmissione 
 È stata aggiunta una nuova funzionalità del settore pubblico, **Aggiorna informazioni 1099 per conto principale**, che è possibile abilitare nell'area di lavoro **Gestione funzionalità**. Questa funzionalità consente di associare i valori dei moduli 1099 per un fornitore dal conto principale nella distribuzione contabile, piuttosto che dal conto predefinito nel record fornitore.
 
 Per ulteriori informazioni, vedere [Configurare i fornitori per la creazione di report 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

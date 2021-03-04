@@ -107,3 +107,6 @@ Per esportare le conversioni unità in Excel, nella pagina **Conversioni unità*
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Gestire unità di misura](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

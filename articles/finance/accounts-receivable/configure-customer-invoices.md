@@ -167,3 +167,6 @@ I seguenti campi modificano il comportamento del processo di registrazione.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

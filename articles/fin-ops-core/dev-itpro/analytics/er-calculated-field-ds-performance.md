@@ -300,3 +300,6 @@ Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provi
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni](trace-execution-er-troubleshoot-perf.md)
 - [Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Proce
 
 Per una breve descrizione dei pulsanti nella pagina elenco **Processi di manutenzione ordine di lavoro attivi**, vedere [Introduzione agli ordini di lavoro](../work-orders/introduction-to-work-orders.md) dove sono descritti pulsanti identici.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

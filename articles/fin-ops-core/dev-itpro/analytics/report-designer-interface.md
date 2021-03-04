@@ -227,3 +227,6 @@ La barra degli strumenti di Progettazione report consente l'accesso rapido ai co
 [Creazione di report finanziari](financial-reporting-intro.md)
 
 [Generare report finanziari](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

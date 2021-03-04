@@ -53,3 +53,6 @@ Per creare un libro di leasing, procedi come segue.
     | Soglia a breve termine                     | Immetti il numero di mesi da utilizzare come soglia per i leasing a breve termine. Se il termine del leasing è inferiore o uguale al numero di mesi che immetti qui, il sistema classificherà il leasing come un leasing a breve termine e verrà applicato il trattamento della passività sui contratti. |
     | Soglia valore basso                      | Immetti un importo da utilizzare come soglia per i leasing a valore basso. Se il valore equo del cespite è inferiore o uguale al valore immesso qui, il sistema classificherà il leasing come un leasing a valore basso e verrà applicato il trattamento della passività sui contratti. |
     | Paga il fornitore                            | Imposta questa opzione su **Sì** per consentire la registrazione dei canoni di leasing, come fattura, nel conto fornitore specificato in ogni leasing. Quando viene registrato un canone di leasing, verrà accreditato il conto fornitore. Se questa opzione è impostata su **No**, il conto specificato per il tipo di registrazione **Canone di leasing** nella pagina **Parametri di registrazione del leasing** verrà invece accreditato. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

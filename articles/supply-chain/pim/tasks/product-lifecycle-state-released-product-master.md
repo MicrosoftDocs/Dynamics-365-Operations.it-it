@@ -54,3 +54,6 @@ In questa procedura viene illustrato come assegnare uno stato del ciclo di vita 
 2. Nell'elenco contrassegnare la riga selezionata.
 3. Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Questa procedura illustra come creare nuovi nodi in una gerarchia di categorie d
 4. Selezionare i prodotti che si desidera aggiungere alla categoria di approvvigionamento.
 5. Selezionare la freccia per aggiungere i prodotti alla tabella **Selezionati**.
 6. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

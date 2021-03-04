@@ -53,3 +53,6 @@ Quando si creano le scritture contabili delle spese di ammortamento per un leasi
 L'importo finale della spesa di ammortamento può essere calcolato utilizzando un tasso di cambio leggermente diverso, in modo che l'asset ROU venga completamente ammortizzato sia nella valuta contabile che nella valuta di dichiarazione.
 
 Se il leasing è stato riclassificato come **Passività sui contratti**, il sistema cancella automaticamente i tassi di cambio delle valute contabili e di dichiarazione, se sono già state definite.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

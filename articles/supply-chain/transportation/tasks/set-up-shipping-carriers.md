@@ -73,3 +73,6 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 9. Nel campo **Motore tempo di transito**, selezionare un'opzione dal menu a discesa.
 10. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

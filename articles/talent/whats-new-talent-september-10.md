@@ -98,3 +98,6 @@ In questa versione sono incluse altre correzioni di bug:
 - Quando viene assunto un terzista, la scheda **Retribuzione** non deve essere disponibile nella pagina azione di richiesta.
 - Durante il processo di richiesta di fine rapporto, non è possibile continuare fino a quanto non sono stati completati tutti i campi obbligatori.
 - Sono stati risolti i problemi relativi all'ordinamento e alla visualizzazione delle date nell'analisi della gestione del personale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Questa procedura indica come rilasciare un ordine di produzione. La società di 
 6. Fare clic su OK.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ In questa guida di attività è riportato un esempio di dichiarazione di finito 
 18. Fare clic su Dettagli lavoro.
     * Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato generato per lo stoccaggio. Questa situazione si verifica perché vengono definiti criteri di lavoro che impediscono la generazione del lavoro quando il prodotto L0101 viene dichiarato finito all'ubicazione 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

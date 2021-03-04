@@ -55,3 +55,5 @@ Quando la richiesta è pronta, utilizzare l'azione **Flusso di lavoro** > **Invi
 
 - [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

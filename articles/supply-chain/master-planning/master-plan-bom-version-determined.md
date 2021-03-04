@@ -44,3 +44,6 @@ Una versione DBA valida, generale o specifica di un sito, deve soddisfare i crit
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

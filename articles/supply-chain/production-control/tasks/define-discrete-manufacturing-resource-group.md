@@ -58,3 +58,6 @@ Un gruppo di risorse è un set di risorse operative che in genere corrisponde al
 6. Nell'elenco trovare e selezionare il record desiderato.
 7. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

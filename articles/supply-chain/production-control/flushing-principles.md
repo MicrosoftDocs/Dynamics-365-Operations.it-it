@@ -63,3 +63,6 @@ Il principio di registrazione del consumo di materiali Fine indica che il materi
 
 ### <a name="available-at-location"></a>Disponibile in ubicazione
 Il principio di registrazione del consumo di materiali Disponibile in ubicazione indica che il materiale verrà consumato automaticamente quando verrà registrato come prelevato per la produzione. Il materiale viene registrato come prelevato dall'ubicazione quando il lavoro per il prelievo di materie prime è completato oppure quando il materiale è disponibile nell'ubicazione entrata produzione e la riga materiali viene rilasciata al magazzino. La distinta di prelievo che viene generata durante il processo viene registrata in un processo batch. Questo principio è rilevante se, ad esempio, sono presenti molti attività di prelievo rispetto a un ordine di produzione. In questo caso, non è necessario aggiornare manualmente la distinta di prelievo ed è possibile ottenere una visualizzazione corrente del saldo WIP.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

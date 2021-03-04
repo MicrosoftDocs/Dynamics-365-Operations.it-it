@@ -83,3 +83,6 @@ La struttura di questo elenco è costituita da un singolo campo **Importo** di t
 [Funzioni di elenco](er-functions-category-list.md)
 
 [Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

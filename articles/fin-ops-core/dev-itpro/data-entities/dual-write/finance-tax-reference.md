@@ -37,3 +37,6 @@ I dati finanziari e di imposte vengono integrati utilizzando i seguenti mapping:
 
 + [Contabilità integrata](ledger-mapping.md)
 + [Anagrafica fiscale integrata](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

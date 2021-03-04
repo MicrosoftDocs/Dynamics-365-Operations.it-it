@@ -83,3 +83,6 @@ Se il primo valore dei risultati e il valore dei risultati *N*-esimo sono valori
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni logiche](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

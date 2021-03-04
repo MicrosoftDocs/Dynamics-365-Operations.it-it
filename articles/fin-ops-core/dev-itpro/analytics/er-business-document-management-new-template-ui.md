@@ -64,3 +64,6 @@ Seguire questi passaggi per attivare questa funzione per tutte le persone giurid
 Il pulsante **Nuovo documento** è utilizzato per creare e modificare un modello in una configurazione in formato ER fornita da un altro provider. In questo esempio, il provider è Microsoft. Quando si seleziona **Nuovo documento**, è possibile visualizzare tutti i modelli di proprietà del provider corrente e di altri provider. Dopo aver selezionato il modello, questo viene aperto per la modifica. Il modello modificato verrà archiviato in una nuova configurazione in formato ER generato automaticamente.
 
 Per ulteriori informazioni, vedere [Panoramica di Gestione documenti aziendali](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

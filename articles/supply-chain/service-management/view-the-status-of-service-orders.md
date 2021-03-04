@@ -55,3 +55,6 @@ Per valutare rapidamente l'urgenza di un ordine di assistenza, il diagramma di G
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

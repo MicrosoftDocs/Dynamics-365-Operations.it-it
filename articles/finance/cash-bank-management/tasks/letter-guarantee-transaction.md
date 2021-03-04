@@ -148,3 +148,6 @@ Questa procedura utilizza la società dimostrativa USMF.
     * Verificare la scritture contabili registrate.  
 16. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

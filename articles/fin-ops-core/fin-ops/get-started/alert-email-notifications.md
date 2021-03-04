@@ -50,3 +50,6 @@ Il servizio invia notifiche tramite posta elettronica utilizzando modelli di mes
 Nell'immagine seguente viene illustrata la struttura delle notifiche di avviso ricevute tramite posta elettronica.
 
 [![Notifiche di avviso basate su modelli per la creazione di record, le modifiche ai campi e l'eliminazione di modelli](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

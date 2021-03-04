@@ -86,3 +86,6 @@ Una *barra degli strumenti* contiene strumenti che consentono, ad esempio, di ag
 Un *elenco* è un insieme di record che è possibile scorrere. I record possono essere inseriti nella pagina selezionandoli. Spesso questa azione apre una griglia.
 
 ![L'immagine seguente mostra esempi di barre degli strumenti, griglie ed elenchi.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

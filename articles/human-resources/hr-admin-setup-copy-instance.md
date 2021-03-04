@@ -150,3 +150,6 @@ Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare
 [Rimuovere un'istanza](hr-admin-setup-remove-instance.md)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

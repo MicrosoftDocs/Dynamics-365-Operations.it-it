@@ -90,3 +90,6 @@ L'estensione contiene un file di dati chiamato RecoMockDataset.csv, che consente
 [Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Alla data di azzeramento, il numero di ricevuta viene reimpostato per la prima t
 
 > [!NOTE]
 > A seconda della data di azzeramento selezionata e del formato della ricevuta, è possibile che si abbiano numeri di ricevuta duplicati. Sebbene il sistema POS sia in grado di gestire queste situazioni, queste aumentano la quantità di tempo necessaria per elaborare i resi poiché gli addetti alle vendite devono scegliere tra le ricevute duplicate. Altre complicazioni legate alla pulizia dei dati possono verificarsi se le ricevute duplicate non erano una conseguenza pianificata. Pertanto, si consiglia di utilizzare caratteri di data dinamici (ad esempio, **ggg**, **MM**, **DD** e **AA**) per evitare numeri di ricevuta duplicati dopo una reimpostazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

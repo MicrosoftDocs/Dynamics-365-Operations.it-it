@@ -208,3 +208,6 @@ Il seguente scenario utilizza l'app di magazzino su un dispositivo mobile per cr
 
     > [!NOTE]
    > Il sistema crea un ID lavoro per ogni movimento che deve essere completato. Se si specifica un'ubicazione che contiene già delle scorte, viene creato un solo ID lavoro. Se si specifica una nuova ubicazione, vengono creati due ID lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà co
 33. Attiva/disattiva l'espansione della sezione Istruzione.
 34. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

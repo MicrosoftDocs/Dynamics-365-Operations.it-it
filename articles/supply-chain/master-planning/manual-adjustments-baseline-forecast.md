@@ -85,3 +85,6 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

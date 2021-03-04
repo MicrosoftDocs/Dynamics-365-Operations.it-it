@@ -198,3 +198,6 @@ Durante un passaggio del processo di configurazione viene suggerito automaticame
 
 [Creare una nomenclatura di numero prodotto per le varianti prodotto configurate](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

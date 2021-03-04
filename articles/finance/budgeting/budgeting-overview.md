@@ -70,3 +70,6 @@ Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

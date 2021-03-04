@@ -52,3 +52,6 @@ Onboard invierà automaticamente al nuovo assunto un'e-mail che indica quali mod
     ![[Eseguire il push delle modifiche in un modello per l'inserimento a tutte le guide create dal modello](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Le modifiche verranno visualizzate nei nuovi assunti che aprono le guide per l'inserimento. Tuttavia, Onboard non avviserà tramite e-mail i nuovi assunti che le guide sono state modificate. Per una facile identificazione, accanto a ogni modifica sarà visualizzato un tag rosso **Nuova**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

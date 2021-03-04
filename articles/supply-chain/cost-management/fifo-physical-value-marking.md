@@ -136,3 +136,6 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

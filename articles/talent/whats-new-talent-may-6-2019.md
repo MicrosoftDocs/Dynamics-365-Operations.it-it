@@ -93,3 +93,6 @@ La possibilità di tracciare il tempo libero dei dipendenti e analizzare come ta
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indicare il tipo di istanza durante il provisioning di Talent
 
 Quando si esegue il provisioning di una nuova istanza di Talent, è possibile indicare se il tipo di istanza è **Produzione** o **Sandbox**, consentendo il test iniziale di nuove funzionalità. Tutte le istanze Talent esistenti verranno aggiornate al tipo di istanza di produzione. Se si desidera aggiornare una delle istanze esistenti al tipo di istanza di Sandbox, contattare il supporto tecnico per avviare la richiesta di modifica.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

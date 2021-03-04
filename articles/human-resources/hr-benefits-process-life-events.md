@@ -57,3 +57,6 @@ Ad esempio, se oggi è il 1° febbraio e il 14 febbraio il lavoratore Joe Smith 
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

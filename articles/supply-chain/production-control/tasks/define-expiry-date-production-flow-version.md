@@ -41,3 +41,6 @@ Per terminare la validità e l'elaborazione di una versione del flusso di produz
 6. Nel campo Data di scadenza immettere una data e un'ora.
     * Per la data di scadenza, una nuova versione non inizierà o verrà attivata. E non sarà più possibile creare o avviare processi per questo flusso di produzione. È comunque possibile completare i processi avviati dopo la data di scadenza.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

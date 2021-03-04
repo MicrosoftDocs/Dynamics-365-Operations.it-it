@@ -39,3 +39,6 @@ Questa procedura indica come creare un ordine fornitore per un fornitore occasio
 5. Fare clic su OK.
     * L'ordine fornitore può ora essere completato ed elaborato come qualunque altro ordine. Non ci sono caratteristiche speciali relative a come questo è fatto. La fattura contabilizzerà una transazione dovuta sul conto fornitore che è stato creato con l'ordine ed il pagamento poi sarà elaborato.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

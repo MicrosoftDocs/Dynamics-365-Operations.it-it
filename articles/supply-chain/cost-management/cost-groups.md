@@ -54,3 +54,6 @@ La segmentazione per gruppi di costi può applicarsi inoltre a scostamenti per u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

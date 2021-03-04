@@ -52,3 +52,6 @@ Dopo aver programmato processi di manutenzione preventiva, necessario creare ord
 
 5. Fare clic su **OK**. Vengono creati uno o più ordini di lavoro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

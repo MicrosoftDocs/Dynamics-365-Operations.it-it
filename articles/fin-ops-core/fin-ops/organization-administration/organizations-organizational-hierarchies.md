@@ -67,3 +67,6 @@ Impostare le gerarchie organizzative per la visualizzazione e il reporting sull'
 A ogni gerarchia viene assegnato uno scopo. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia.
 
 Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, i dati master condivisi, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni. La creazione di organizzazioni e gerarchie richiede una pianificazione attenta. Per ulteriori informazioni, vedere [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

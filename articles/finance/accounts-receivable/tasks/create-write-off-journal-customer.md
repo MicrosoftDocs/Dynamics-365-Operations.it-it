@@ -84,3 +84,6 @@ Questa guida attività indicherà come impostare i parametri per gli annullament
 5. Fare clic su **OK**.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

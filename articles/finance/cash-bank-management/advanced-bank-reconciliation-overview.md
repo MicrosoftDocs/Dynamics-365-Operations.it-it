@@ -51,3 +51,6 @@ La funzionalità di riconciliazione bancaria avanzata consente di includere i re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

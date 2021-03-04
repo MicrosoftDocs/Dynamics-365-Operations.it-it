@@ -49,3 +49,6 @@ Nell'esempio è stata utilizzata una versione di determinazione costi aggiuntiva
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

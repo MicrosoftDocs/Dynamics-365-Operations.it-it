@@ -176,3 +176,6 @@ La lingua aggiunta diventerà disponibile affinché sia possibile configurare il
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,5 @@ Opinioni, notizie e altre informazioni sulla gestione costi sono disponibili nel
 #### <a name="task-guides"></a>Guide attività
 
 Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

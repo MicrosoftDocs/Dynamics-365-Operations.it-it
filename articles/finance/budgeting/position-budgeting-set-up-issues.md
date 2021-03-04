@@ -64,3 +64,6 @@ Le date nella riga dell'elemento costo della posizione prevista devono rientrare
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Per ulteriori informazioni su questa funzionalità, utilizzare il set di Guide a
 - [Configurazione del modello dati di ER: Intrastat (modello)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configurazione del mapping del modello di ER: Intrastat (mapping)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configurazione del formato di ER: Intrastat (formato)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

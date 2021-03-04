@@ -63,3 +63,6 @@ Anche l'espressione `"abc" & "def"` restituisce **"abcdef"**.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

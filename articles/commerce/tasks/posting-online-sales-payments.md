@@ -109,3 +109,6 @@ In questa procedura vengono descritti i passaggi per configurare ed eseguire un 
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

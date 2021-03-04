@@ -57,3 +57,6 @@ La finestra di dialogo restituisce le informazioni ATP da Supply Chain Managemen
 - Quantità entrata
 - Quantità uscita
 - Quantità disponibile
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

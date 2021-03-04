@@ -238,3 +238,6 @@ Quando viene prelevato un ordine con più metodi di pagamento e più righe, il c
 - [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

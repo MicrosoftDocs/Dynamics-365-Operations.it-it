@@ -111,3 +111,6 @@ Consente di eliminare i record di accumuli per un piano e un intervallo di date 
 
 [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)</br>
 [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

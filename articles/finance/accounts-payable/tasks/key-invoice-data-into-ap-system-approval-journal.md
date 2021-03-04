@@ -54,3 +54,6 @@ In questo argomento viene descritto come utilizzare il registro fatture per crea
 10. Selezionare **Registra**.
 11. Selezionare **Giustificativo** per visualizzare le voci registrate. Il conto di approvazione fatture in sospeso viene stornato e sostituito con il conto spese effettivo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

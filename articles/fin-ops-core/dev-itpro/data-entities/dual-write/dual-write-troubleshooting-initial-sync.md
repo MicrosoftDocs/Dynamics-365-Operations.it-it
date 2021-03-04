@@ -211,3 +211,6 @@ Se le righe nell'entità cliente hanno valori nei campi **ContactPersonID** e **
     La sincronizzazione iniziale delle righe è ora completata.
 
 8. Abilitare di nuovo il rilevamento delle modifiche nell'app Finance and Operations per l'entità **Clienti V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

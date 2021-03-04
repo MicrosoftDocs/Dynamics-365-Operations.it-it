@@ -62,3 +62,6 @@ Questa procedura riguarda la programmazione dei processi kanban di lavorazione p
     * Si noti che entrambi i processi vengono aggiunti al periodo desiderato.  
     * Nella sezione Capacità periodo, è possibile visualizzare il carico per ogni periodo. Il campo Consumo mostra il consumo previsto in questo periodo. Se il consumo programmato è superiore alla capacità disponibile di questo periodo, verrà selezionato il consumo di overload.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

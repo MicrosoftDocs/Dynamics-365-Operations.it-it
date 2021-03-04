@@ -230,3 +230,6 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

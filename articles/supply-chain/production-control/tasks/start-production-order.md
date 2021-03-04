@@ -71,3 +71,6 @@ Questa procedura mostra come avviare un ordine di produzione in Controllo shop f
 7. Fare clic su Registra.
 8. Fare clic su OK.
     * Nel giornale di registrazione schede cicli di lavorazione, il tempo trascorso sulle singole operazioni viene registrato. È possibile dichiarare anche la quantità idonea e quella difettosa.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

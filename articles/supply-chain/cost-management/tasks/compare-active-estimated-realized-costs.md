@@ -40,3 +40,6 @@ In questa procedura viene illustrato come visualizzare i motivi di scostamenti d
 6. Fare clic su Visualizza confronto costi.
 7. Fare clic su Chiudi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

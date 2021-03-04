@@ -54,3 +54,6 @@ Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'ar
 [Richiedere permessi](hr-employee-self-service-request-time-off.md)
 [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

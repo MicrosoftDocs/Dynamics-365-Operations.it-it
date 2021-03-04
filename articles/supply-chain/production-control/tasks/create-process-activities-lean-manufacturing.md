@@ -94,3 +94,6 @@ Prerequisiti:
 12. Scegliere Fine.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

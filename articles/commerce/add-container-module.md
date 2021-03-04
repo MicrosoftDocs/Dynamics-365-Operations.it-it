@@ -142,3 +142,6 @@ Per aggiungere un modulo Contenitore a una nuova pagina e impostare le propriet√
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Pi√® di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

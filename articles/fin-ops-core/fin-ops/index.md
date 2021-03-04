@@ -145,3 +145,6 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

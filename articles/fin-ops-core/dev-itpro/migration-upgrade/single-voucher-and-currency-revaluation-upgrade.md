@@ -34,3 +34,6 @@ Quando si esegue l'aggiornamento a Microsoft Dynamics 365 for Operations version
 1.  Prima di eseguire l'aggiornamento a Finance and Operations, eseguire i processi di rivalutazione valuta estera per la Contabilità clienti e la Contabilità fornitori. Impostare il campo **Metodo** su **Data fattura**. Viene creata una transazione di rivalutazione che annulla l'ultima rivalutazione valuta estera. Di conseguenza, le transazioni aperte vengono valutate alla valuta di contabilizzazione originale.
 2.  Eseguire l'aggiornamento alla versione 1611.
 3.  Eseguire di nuovo il processo di rivalutazione valuta esterna per la contabilità fornitori e la contabilità clienti. Impostare questa volta il campo **Metodo** su **Standard**. Viene creata una nuova transazione di rivalutazione basata sui tassi di cambio correnti. Questa transazione registra il profitto/la perdita non realizzati e il conto CoGe riepilogativo corretto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

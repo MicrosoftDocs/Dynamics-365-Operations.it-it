@@ -69,3 +69,6 @@ Le statistiche del questionario possono essere utilizzate per calcolare medie, t
 2. Fare clic su Risultato.
 3. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

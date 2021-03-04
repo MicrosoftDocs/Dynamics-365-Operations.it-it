@@ -41,3 +41,6 @@ Prima che i processi kanban possano essere creati e le attività possano essere 
 5. Fare clic su Attiva.
 6. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

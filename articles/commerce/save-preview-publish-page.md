@@ -100,3 +100,6 @@ Per pubblicare un URL, procedere come segue.
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

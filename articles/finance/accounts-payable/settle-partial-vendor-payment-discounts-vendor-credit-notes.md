@@ -71,3 +71,6 @@ April può verificare le transazioni del fornitore nella pagina **Transazioni fo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

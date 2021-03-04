@@ -55,3 +55,6 @@ Dopo aver completato i prerequisiti, è possibile creare un assortimento e asseg
 2. Selezionare i canali o i gruppi di canali di alto livello a cui applicare l'assortimento.
 3. Aggiungere categorie di prodotti, singoli prodotti o varianti prodotto all'assortimento. È possibile includere tutti i prodotti di una categoria specifica o escludere determinati prodotti da una categoria inclusa nell'assortimento.
 4. Pubblicare l'assortimento. Quando si pubblica un assortimento, l'utilità di pianificazione di assortimento viene eseguita automaticamente. Questo processo genera l'elenco dei prodotti. Quando il processo è completo, i prodotti diventano disponibili per i canali a cui è assegnato l'assortimento. Se vengono apportate modifiche a un assortimento che è stato pubblicato o ai canali a cui è assegnato l'assortimento, l'assortimento deve essere aggiornato. Per aggiornare l'assortimento quando vengono apportate modifiche, è possibile eseguire l'utilità di pianificazione di assortimento come processo batch.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

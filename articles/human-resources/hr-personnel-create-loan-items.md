@@ -59,3 +59,6 @@ Gli articoli prestito sono record che consentono di tenere traccia degli articol
 14. Fare clic su OK.
 15. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

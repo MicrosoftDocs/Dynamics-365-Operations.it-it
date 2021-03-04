@@ -187,3 +187,6 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

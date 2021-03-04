@@ -83,3 +83,6 @@ Per impostare un reindirizzamento per la pagina di risposte per errori di codice
 [Aggiungere una nuova pagina del sito](add-new-page.md)
 
 [Creare un URL di pagina](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

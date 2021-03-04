@@ -44,3 +44,6 @@ Questa procedura indica come modificare la relazione gerarchica di un dipendente
 12. Nel campo Subordinato a immettere o selezionare un valore.  Esempio: 000437
 13. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

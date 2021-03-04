@@ -84,3 +84,6 @@ Per assegnare conti ai libri di leasing e ai gruppi che sono stati creati, è ne
     > [!NOTE]
     > Il conto finanziario o operativo selezionato verrà addebitato quando viene registrata la fattura per la spesa programmata.
     > **Compensazione delle spese di leasing** verrà utilizzato come tipo di registrazione per le transazioni dei costi di esecuzione ma registrerà nel **Conto di compensazione** definito in **Righe scadenziario pagamenti costi di esecuzione** nei dettagli del leasing o nel modulo del libro di leasing.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

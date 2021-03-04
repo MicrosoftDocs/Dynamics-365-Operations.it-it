@@ -58,3 +58,6 @@ Una volta completata l'importazione, sarà necessario assegnare i ruoli agli ute
 ## <a name="run-in-a-sandbox-environment"></a>Eseguire l'operazione in un ambiente sandbox
 1. Selezionare **Importazione in batch**.
 2. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

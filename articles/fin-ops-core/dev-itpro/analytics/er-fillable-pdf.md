@@ -301,3 +301,6 @@ L'illustrazione seguente mostra un esempio di un'altra prima pagina del report g
 
 - [ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Progettare le configurazioni di ER per generare report in formato di Word](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

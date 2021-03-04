@@ -56,3 +56,6 @@ I campi dei fattori di conversione identificano il fattore di conversione dalla 
    | **Fattore di conversione oraria** | Il fattore di conversione annuale per la frequenza di pagamento. Ad esempio, il fattore di conversione annuale per la frequenza di retribuzione mensile è: </br></br>(12 pagamenti mensili/2080 ore) = 0,005769
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ In questo argomento viene descritta la creazione di un contratto di acquisto e v
 5. Selezionare **Conferme contratto di acquisto**. L'opzione **Anteprima/Stampa** consente di generare un documento per il contratto di acquisto che successivamente è possibile stampare o inviare al fornitore. Se in seguito si aggiorna il contratto e lo si riconferma, entrambe le versioni verranno visualizzate in questo punto.  
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

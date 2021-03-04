@@ -186,3 +186,6 @@ Se occorre effettuare una correzione nel conto CoGe della Contabilità fornitori
 ### <a name="the-system-allows-it"></a>"Consentito dal sistema"
 
 Le organizzazioni spesso utilizzano la funzionalità Un giustificativo principalmente perché il sistema ne consente l'utilizzo, senza conoscere le implicazioni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

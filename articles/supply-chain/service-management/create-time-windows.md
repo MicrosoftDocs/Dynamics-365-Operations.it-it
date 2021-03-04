@@ -40,3 +40,6 @@ ms.locfileid: "4431268"
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Intervalli di tempo](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

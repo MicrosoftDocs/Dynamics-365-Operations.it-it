@@ -1233,3 +1233,6 @@ Si noti che il piè di pagina del report generato non contiene il nome del forma
 - [Funzione IF](er-functions-logical-if.md)
 - [Funzione ORDERBY](er-functions-list-orderby.md)
 - [Funzione SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

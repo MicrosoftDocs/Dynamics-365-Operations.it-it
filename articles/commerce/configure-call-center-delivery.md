@@ -95,3 +95,6 @@ Se l'impostazione **Attiva completamento ordine** è disattivato, gli utenti dev
 Ad esempio, per gli ordini che verranno spediti il giorno successivo per via aerea, il prelievo dal magazzino deve avvenire alle 13.00 di ogni giorno. In questo caso, è possibile creare un codice di urgenza e collegarlo a un qualsiasi modo di consegna del giorno successivo che viene configurato nel sistema. Quando il magazzino crea l'ondata di prelievi, è possibile utilizzare il codice di urgenza appropriato nel campo **Urgente** come filtro, in modo che il prelievo venga eseguito solo per gli ordini con modi di consegna collegati a quel codice.
 
 Inoltre, quando viene immesso un ordine di servizio clienti, è possibile applicare manualmente un codice di urgenza all'intestazione dell'ordine cliente o a una singola riga dell'ordine cliente. Anche in questo caso, il codice può essere utilizzato per l'ordinamento e i report. Talvolta un ordine deve essere gestito con attenzione a causa di un problema con il servizio clienti. In questo caso, è possibile applicare un codice di urgenza specifico all'intestazione o alle righe ordine per aiutare a identificare e ad assegnare una priorità all'ordine durante il processo di evasione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

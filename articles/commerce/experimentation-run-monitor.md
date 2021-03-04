@@ -53,3 +53,6 @@ Se per un qualsiasi motivo devi modificare le varianti, segui i passaggi seguent
 
 ## <a name="next-step"></a>Passaggio successivo
 [Promuovere una variante e completare un esperimento](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà n
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
 
 [Creare un profilo funzionalità online](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

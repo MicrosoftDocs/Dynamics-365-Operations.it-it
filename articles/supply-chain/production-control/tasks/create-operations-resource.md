@@ -81,3 +81,6 @@ Una risorsa operativa esegue le attività di un progetto o di un processo di pro
 4. Nel campo Ubicazione di input immettere o selezionare un valore.
     * Specificare il percorso del magazzino da cui la risorsa operativa sta utilizzando i materiali.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

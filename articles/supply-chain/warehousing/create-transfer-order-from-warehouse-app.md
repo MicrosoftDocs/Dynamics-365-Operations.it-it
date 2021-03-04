@@ -334,3 +334,6 @@ Gli ordini di trasferimento vengono creati senza utilizzare **Controllo data di 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Posso usare una targa con scorte fisiche disponibili negative?
 
 La funzionalità supporta solo quantità fisiche disponibili positive. Assicurati di disporre di quantità fisiche disponibili positive a livello di magazzino e di stato delle scorte prima di assegnare targhe a un ordine di trasferimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
     - La pagina Consegna diretta agisce da workbench che fornisce all'addetto acquisti una panoramica di tutte le righe ordine cliente che devono essere consegnate direttamente e permette di creare i rispettivi ordini fornitore. Inoltre, è possibile visualizzare gli ordini di consegna diretta aperti e gli ordini confermati nelle schede Conferma e Consegna.  
     - Dopo aver creato un ordine di consegna diretta, questo viene spostato automaticamente nella scheda Conferma. È possibile scegliere di confermare l'ordine direttamente in questa pagina. Quando l'acquisto viene confermato, viene automaticamente spostato nella scheda Consegna da cui è possibile registrarne la ricezione.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

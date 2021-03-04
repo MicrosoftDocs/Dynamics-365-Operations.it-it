@@ -89,3 +89,6 @@ Durante il secondo semestre il cliente decide che gli interventi di assistenza n
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

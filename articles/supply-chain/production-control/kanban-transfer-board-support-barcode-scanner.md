@@ -192,3 +192,6 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

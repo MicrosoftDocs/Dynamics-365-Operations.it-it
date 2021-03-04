@@ -89,3 +89,6 @@ Un modo per migliorare le prestazioni con il motore di pianificazione generale i
 
 > [!NOTE]
 > Ciò limiterà il periodo per le esplosioni eseguite per questo piano generale a un solo giorno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Questa procedura consente a un responsabile della selezione di assumere un candi
 15. Espandere o comprimere la sezione Informazioni sul contatto.
 16. Espandere o comprimere la sezione Informazioni personali.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

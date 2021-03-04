@@ -367,3 +367,6 @@ ER consente di adottare automaticamente le modifiche alla versione più recente 
 
 - [Creare configurazioni di creazione di report elettronici (ER)](electronic-reporting-configuration.md)
 - [Gestire il ciclo di vita della configurazione per la creazione di report elettronici (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

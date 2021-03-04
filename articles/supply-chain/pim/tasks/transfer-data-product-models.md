@@ -37,3 +37,6 @@ L'esportazione dei dati per un modello di configurazione prodotto richiede almen
 5. Fare clic su Esporta modello prodotto.
     * Il comportamento di download varia da browser a browser a seconda delle impostazioni di sicurezza impostate.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

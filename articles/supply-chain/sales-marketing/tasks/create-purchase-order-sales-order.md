@@ -69,3 +69,6 @@ Questa procedura indica come creare un ordine fornitore in base a un ordine clie
     - Il **lotto di riferimento** garantisce che i costi dell'acquisto corrente vengano addebitati all'ordine cliente collegato.  
     - È possibile passare all'ordine cliente di origine aprendo il collegamento nel campo **Numero di riferimento**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

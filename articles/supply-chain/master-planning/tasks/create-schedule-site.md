@@ -56,3 +56,6 @@ Questa procedura mostra come programmare gli ordini di produzione non ancora ini
 4. Fare clic su Materiali.
     * In questa pagina è possibile visualizzare il consumo stimato dei materiali per le operazioni presenti nell'ordine di produzione e le scorte correnti disponibili.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Inoltre, i rivenditori possono definire il limite massimo di punti premio del pr
 
     > [!NOTE]
     > A differenza di altri sconti periodici come sconti quantità, semplici, gamma e di soglia, lo sconto di spedizione non crea righe di sconto, ma piuttosto modifica le spese di spedizione direttamente e aggiunge il nome dello sconto alla descrizione delle spese.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

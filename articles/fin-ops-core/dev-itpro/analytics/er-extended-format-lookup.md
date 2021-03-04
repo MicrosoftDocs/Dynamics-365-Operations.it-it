@@ -91,3 +91,6 @@ Se è stata abilitata la funzionalità **Ricerca estesa di configurazioni di for
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [API del framework di report elettronici (ER)](er-apis-app73.md)
 - [Gestire il ciclo di vita delle configurazioni per la creazione di report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

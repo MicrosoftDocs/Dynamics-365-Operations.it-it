@@ -106,3 +106,6 @@ Supply Chain Management ora supporta il calcolo DBA che comprende servizi di tra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

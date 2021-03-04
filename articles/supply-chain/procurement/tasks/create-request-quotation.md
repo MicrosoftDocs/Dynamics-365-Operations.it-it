@@ -81,3 +81,6 @@ Dopo avere specificato informazioni di base sulla richiesta di offerta, specific
 4. Chiudere la pagina.
 5. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

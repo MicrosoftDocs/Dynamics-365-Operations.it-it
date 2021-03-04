@@ -118,3 +118,6 @@ Per eseguire una sincronizzazione completa su un'entità tra Human Resources e C
 [![Eseguire una sincronizzazione completa](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

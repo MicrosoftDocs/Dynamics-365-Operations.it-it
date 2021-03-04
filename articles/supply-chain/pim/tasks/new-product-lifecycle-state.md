@@ -35,3 +35,6 @@ In questa procedura viene illustrato come creare un nuovo stato del ciclo di vit
 3. Nel campo Stato digitare un valore.
 4. Nel campo Descrizione digitare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

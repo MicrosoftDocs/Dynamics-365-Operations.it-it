@@ -73,3 +73,6 @@ La sezione principale della home page può evidenziare prodotti, categorie o pro
 [Panoramica delle pagine del checkout e del carrello](quick-tour-cart-checkout.md)
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

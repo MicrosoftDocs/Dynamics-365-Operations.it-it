@@ -72,3 +72,6 @@ Un modello di piano di budget viene creato dal responsabile budget in Microsoft 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

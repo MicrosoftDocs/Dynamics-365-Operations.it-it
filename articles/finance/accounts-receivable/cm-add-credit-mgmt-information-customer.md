@@ -102,3 +102,6 @@ I limiti di credito temporanei hanno la precedenza sui limiti di credito di un c
     In questo caso, il limite di credito effettivo è 125.000 (= A + \[B × C\]).
     
     Tuttavia, se si seleziona la casella di controllo **Incluso nell'esposizione** il valore 50.000 di **Aggiorna limite di credito** (= 50,00 percento di 100.000) viene rimosso e il valore di esposizione è 75.000 (= A + \[B × C\] - B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

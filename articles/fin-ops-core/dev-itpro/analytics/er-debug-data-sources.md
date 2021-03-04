@@ -281,3 +281,6 @@ Se una delle configurazioni precedentemente elencate non è presente nella strut
 6. Nel campo **Conto bancario** selezionare **DEMF OPER**.
 7. Nella finestra di dialogo **Genera pagamenti** selezionare **OK**.
 8. Nella finestra di dialogo **Parametri per la creazione di report elettronici** selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

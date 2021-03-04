@@ -227,3 +227,6 @@ Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - peri
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica piani generali](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

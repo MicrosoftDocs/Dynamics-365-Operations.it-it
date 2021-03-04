@@ -81,3 +81,6 @@ Quando si crea un nuovo ordine di assistenza per un contratto di assistenza a cu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Tutte le modifiche apportate alla risposta della riga ordine sono visualizzate. 
 
 ### <a name="open-confirmed-orders"></a>Ordini confermati aperti
 Quando l'ordine fornitore viene confermato dall'utente (vale a dire, quando lo stato dell'ordine fornitore viene impostato su **Confermato**), l'ordine appare nell'ordine confermato aperto. Resterà nell'elenco fino a quando non verrà registrato come ricevuto dal cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

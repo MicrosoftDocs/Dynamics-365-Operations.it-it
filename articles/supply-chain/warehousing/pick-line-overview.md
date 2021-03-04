@@ -69,3 +69,6 @@ Per configurare una voce di menu del dispositivo mobile per fornire una panorami
     - Utilizza i campi **Campo di visualizzazione** restanti per aggiungere fino a sette campi di visualizzazione aggiuntivi, come richiesto. In ciascun campo **Campo di visualizzazione**, seleziona il nome di un campo della riga di lavoro. Ogni riga mostrerà quindi un valore per quel campo. I valori verranno visualizzati nell'ordine selezionato qui. Puoi lasciare alcuni dei campi **Campo di visualizzazione** vuoti se non si richiedono tutti e sette i valori.
 
 1. Nel riquadro azioni, seleziona **Salva**, quindi chiudi la pagina **Elenco campi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

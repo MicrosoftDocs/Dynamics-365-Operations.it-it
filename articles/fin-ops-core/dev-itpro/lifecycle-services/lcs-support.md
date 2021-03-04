@@ -68,3 +68,6 @@ In questo argomento viene descritto come ottenere supporto per le app Finance an
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

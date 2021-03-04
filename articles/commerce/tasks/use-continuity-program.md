@@ -62,3 +62,6 @@ Questa procedura descrive la vendita di un programma di continuità e l'elaboraz
     * Immettere il numero di ordine cliente annotato in precedenza nella procedura. Questo terrà il tempo di elaborazione a un minimo per questa procedura. Il campo Ordine cliente è facoltativo: si potrebbero elaborare tutti gli ordini per qualsiasi dato programma.  
 21. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Per garantire che la doppia scrittura funzioni correttamente, le società selezi
 *Doppia scrittura non riuscita - Registrazione plug-in non riuscita: \[(Impossibile ottenere la mappa della partizione per il progetto DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Errore: il numero massimo di partizioni consentite è stato superato per il mapping DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\]. Si sono verificati uno o più errori.*
 
 Il limite attuale quando si collegano gli ambienti è di circa 40 tavoli giuridici. Questo errore si verifica se si tenta di abilitare le mappe e più di 40 tavoli giuridici sono collegati tra gli ambienti.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

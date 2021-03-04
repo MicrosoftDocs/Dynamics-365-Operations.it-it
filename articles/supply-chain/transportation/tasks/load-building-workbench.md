@@ -67,3 +67,6 @@ Per creare una strategia di allestimento del carico, attenersi alla procedura se
 1. Rivedere i carichi proposti e le righe di carico proposte.
 1. Nel riquadro azioni selezionare **Crea carichi** per creare carichi basati sulle righe del documento di origine nella scheda dettaglio **Righe carico proposte**.
 1. Chiudere la pagina **Workbench di allestimento del carico**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

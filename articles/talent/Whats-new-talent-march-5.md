@@ -80,3 +80,6 @@ In molte organizzazioni, i responsabili retribuzione e benefit possono accedere 
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Update 24 della piattaforma per Finance and Operations
 Per ulteriori informazioni sull'aggiornamento 24 della piattaforma per Finance and Operations, vedere [Novità o modifiche nell'aggiornamento 24 della piattaforma Finance and Operations (marzo 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

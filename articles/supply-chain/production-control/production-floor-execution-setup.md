@@ -80,3 +80,6 @@ La parte superiore della seguente illustrazione mostra l'aspetto predefinito del
 Per impostazione predefinita, l'interfaccia di esecuzione dell'area di produzione si disconnette automaticamente se nessuno la utilizza per 12 ore. Un utente di Supply Chain Management deve quindi accedere di nuovo. Tuttavia, è possibile estendere il limite di timeout fino a 90 giorni.
 
 Per estendere il limite di timeout, accedere a Supply Chain Management e andare in **Amministrazione di sistema \> Utenti \> Estensioni di sessione**. Specificare l'account utente di Supply Chain Management utilizzato per accedere al dispositivo e il numero di ore per le quali la sessione deve rimanere attiva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

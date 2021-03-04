@@ -40,3 +40,6 @@ Questa procedura mostra come definire i gruppi di configurazione prodotto creand
 7. Digitare un valore nel campo Nome.
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

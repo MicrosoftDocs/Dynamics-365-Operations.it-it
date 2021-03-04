@@ -67,3 +67,6 @@ Nella seguente tabella vengono illustrati i campi disponibili nel report.
 |           Dismissioni: valore di scarto            |                                                                                               Il valore di scarto del libro cespiti con una transazione di dismissione di scarto.                                                                                               |
 |           Dismissioni: profitti/perdite            |                                                                                 Valore dei profitti o delle perdite calcolato come parte della transazione di dismissione per il libro cespiti.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

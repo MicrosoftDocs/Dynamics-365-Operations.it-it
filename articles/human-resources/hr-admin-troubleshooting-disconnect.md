@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources disconnette gli utenti quando due differe
 Assicurarsi che un solo ambiente sia aperto in uno specifico momento per un determinato tipo di browser. Gli utenti possono aprire più sessioni per lo stesso ambiente (ovvero più schede nello stesso browser).
 
 Gli utenti che desiderano accedere a due ambienti contemporaneamente devono aprire ogni ambiente in un tipo di browser diverso. Ad esempio, l'utente A può visualizzare l'ambiente 1 in Chrome e l'ambiente 2 in Microsoft Edge.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Quando si tenta di liquidare una transazione, è possibile notare un simbolo che
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Residuo liquidazione](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

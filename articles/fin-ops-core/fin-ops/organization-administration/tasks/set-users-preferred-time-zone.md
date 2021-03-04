@@ -35,3 +35,6 @@ Nella seguente argomento viene illustrato come un utente con il ruolo di amminis
 5. Nel campo **Fuso orario**, selezionare un'opzione dall'elenco a discesa.
 6. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

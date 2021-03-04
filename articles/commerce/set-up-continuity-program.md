@@ -50,3 +50,6 @@ Dopo aver impostato un programma di continuità come descritto in precedenza, è
 - **Estendi righe continuità** (se necessario): estendere il numero di volte che un evento di continuità può essere ripetuto. La ripetizione delle spedizioni può quindi estendersi oltre il limite impostato nel campo **Soglia ripetizione continuità** dei parametri del servizio clienti.
 - **Eseguire un aggiornamento di continuità** (se necessario): sincronizzare le modifiche tra il programma di continuità e gli ordini cliente padre di continuità.
 - **Chiudi righe e ordini di continuità**: chiudere gli ordini di continuità.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

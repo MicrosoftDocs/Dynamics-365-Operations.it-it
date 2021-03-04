@@ -60,3 +60,6 @@ Si tratta della seconda di cinque procedure che illustrano il processo di pagame
     * Ad esempio selezionare il conto bancario "DEMF OPER".  
 6. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

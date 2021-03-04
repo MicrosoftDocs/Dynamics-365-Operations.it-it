@@ -143,3 +143,6 @@ Per quanto riguarda il calendario del gruppo di copertura, è importante conside
 
 ### <a name="updating-scm-related-calendars"></a>Aggiornamento dei calendari correlati a SCM
 Sebbene sia importante che tutti i calendari rilevanti siano assegnati nella rispettiva posizione (fornitore, cliente, magazzino, modalità di consegna o gruppo di copertura), aggiornarli è altrettanto importante affinché riflettano le modifiche. Il sistema definirà le date degli ordini di produzione, trasferimento, fornitore e cliente in base alla combinazione dei calendari assegnati. È consigliabile chiarire chi è responsabile dell'assegnazione e dell'aggiornamento dei calendari nelle relative aree corrispondenti. Nel caso di scomposizione o di qualsiasi altra modifica inusuale nei giorni lavorativi, è essenziale aggiornare i calendari in base a tale modifica. Tutte le attività che dipendono dai calendari, ad esempio la pianificazione generale e la programmazione della produzione, devono essere ripetute dopo l'aggiornamento dei calendari. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

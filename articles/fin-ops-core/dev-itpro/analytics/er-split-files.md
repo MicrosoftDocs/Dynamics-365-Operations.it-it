@@ -47,3 +47,6 @@ Per ulteriori informazioni su questa funzionalit√†, riprodurre la guida attivit√
 [Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md)
 
 [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

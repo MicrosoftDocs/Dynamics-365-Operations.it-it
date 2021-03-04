@@ -116,3 +116,6 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

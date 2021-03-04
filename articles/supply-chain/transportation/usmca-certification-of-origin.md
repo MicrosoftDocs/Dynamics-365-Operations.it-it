@@ -140,3 +140,6 @@ L'utente che firma la certificazione deve inserire manualmente il numero di pagi
 ### <a name="page-numbers"></a>Numeri di pagina
 
 La pagina corrente e il numero di pagine stampate nella parte inferiore del documento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

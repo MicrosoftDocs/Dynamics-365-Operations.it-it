@@ -207,3 +207,6 @@ Per importare le impostazioni di base da un file XML archiviato nel server di Mi
 
 - [Tracciare i risultati del report generato e paragonarli ai valori di base](er-trace-reports-compare-baseline.md)
 - [Risorse registrazione attività](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Nella seguente tabella vengono illustrate le visualizzazioni disponibili in cias
 |    Saldo fornitore/cliente     |                                                                                                                   <ul><li>Saldo fornitore/cliente</li><li>Saldo fornitore/cliente per società</li><li>Dettagli saldo fornitore/cliente</li></ul>                                                                                                                    |
 |    Fatture con sospensione pagamento     |                                                                                         <ul><li>Fatture con sospensione pagamento</li><li>Dettagli fatture con sospensione pagamento</li><li>Fatture con sospensione pagamento per società</li><li>Fatture con sospensione pagamento per gruppo fornitori</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

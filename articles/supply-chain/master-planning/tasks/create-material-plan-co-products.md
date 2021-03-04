@@ -111,3 +111,6 @@ Il pianificatore della produzione pianifica i fabbisogni di materiali per gli ar
 19. Selezionare No nel campo Disattiva tutti i processi di pianificazione.
 20. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

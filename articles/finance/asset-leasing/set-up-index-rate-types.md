@@ -43,3 +43,6 @@ Devi selezionare **Differenza di valore del tasso di indicizzazione** o **Valore
 
 - Seleziona il metodo **Differenza di valore del tasso di indicizzazione** per calcolare un nuovo canone di leasing, basato sulla differenza tra il tasso di indicizzazione alla data di inizio e il tasso di indicizzazione più recente. Il tasso di indicizzazione è definito nel campo **Tasso di indicizzazione (%)**.
 - Seleziona il metodo **Valore del tasso di indicizzazione** per calcolare il canone di leasing utilizzando la percentuale specificata nel campo **Tasso di indicizzazione (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

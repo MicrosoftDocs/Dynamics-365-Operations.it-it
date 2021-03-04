@@ -55,3 +55,6 @@ L'indice o il prezzo di base della sottoscrizione vengono aggiornati con il valo
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

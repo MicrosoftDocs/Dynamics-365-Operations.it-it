@@ -116,3 +116,6 @@ In questa Scheda dettaglio, è possibile aggiungere o rimuovere i cicli di manut
 ## <a name="financial-dimensions"></a>Dimensioni finanziarie
 
 È possibile selezionare dimensioni finanziarie per il cespite.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

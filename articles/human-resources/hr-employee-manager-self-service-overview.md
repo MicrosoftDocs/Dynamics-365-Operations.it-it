@@ -214,3 +214,5 @@ I manager possono vedere tutti gli obiettivi del team selezionando il riquadro *
 La scheda **Revisioni** riepiloga le revisioni che il dipendente ha in ogni stato: **In corso**, **Pronto per la revisione** e **Revisione finale**. Per accedere alla revisione di un dipendente, selezionare il pulsante **Dettagli** quindi selezionare le revisione su cui collaborare. In base a dove si trova una revisione nel processo del flusso di lavoro, è possibile vedere se la revisione è disponibile per l'aggiornamento. 
 
 È possibile vedere tutte le revisioni del team selezionando il riquadro **Revisioni prestazioni team** nella sezione **Riepilogo** di **Team personale**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

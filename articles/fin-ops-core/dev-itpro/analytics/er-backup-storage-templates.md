@@ -102,3 +102,6 @@ In Finance and Operations versione 10.0.5 la funzionalità di archiviazione di b
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
 
 [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

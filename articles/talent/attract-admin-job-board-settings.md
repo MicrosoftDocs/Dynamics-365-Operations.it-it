@@ -51,3 +51,6 @@ Se si desidera rendere visibili le posizioni aperte nella propria azienda al mag
 
 > [!NOTE]
 > Microsoft e Attract non partecipano alla creazione e alla gestione di tali dati. È responsabilità dell'utente mantenerli aggiornati in Attract e collaborare con Broadbean per risolvere eventuali problemi relativi alle credenziali.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ La società di dati dimostrativi utilizzata per creare questa registrazione è U
 5. Fare clic su Esporta.
 6. Fare clic su PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Nella pagina **Profili valutazione** è possibile rivedere tutti i profili di va
 
 > [!NOTE]
 > I profili creati nella pagina **Vettori di spedizione** vengono visualizzati anche nella pagina **Profili di valutazione**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

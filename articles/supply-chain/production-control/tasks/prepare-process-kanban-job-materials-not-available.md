@@ -52,3 +52,6 @@ Questa procedura riguarda la preparazione del processo kanban di lavorazione qua
 6. Fare clic su Prepara.
     * Si noti che un'icona nello stato del processo indica che il processo ora è pronto.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

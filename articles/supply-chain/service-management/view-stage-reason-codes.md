@@ -45,3 +45,6 @@ Visualizzare e modificare l'elenco dei motivi fase di un ordine di assistenza. U
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

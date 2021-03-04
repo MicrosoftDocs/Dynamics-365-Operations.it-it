@@ -111,3 +111,6 @@ Supply Chain Management non supporta attualmente il calcolo delle commissioni pe
 L'articolo in aggregazione non è disponibile per l'ordine fornitore perché, se esamini le righe dell'ordine cliente per l'articolo aggregato, noterai che la quantità è *0* (zero) e lo stato è *Annullato*. Questo comportamento è predefinito. L'ordine cliente acquista solo i componenti dell'articolo in aggregazione. Non acquista l'articolo in aggregazione stesso.
 
 Se devi acquistare un'aggregazione, valuta se devi contrassegnarlo come articolo dell'aggregazione, perché questa funzionalità è effettivamente progettata per scenari di riconoscimento dei ricavi. Per ulteriori informazioni su articoli e aggregazioni, vedi [Aggregazioni](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

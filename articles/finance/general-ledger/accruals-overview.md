@@ -46,3 +46,6 @@ Quando si immette un giornale di registrazione, è possibile fare clic su **Rate
 
 
 Per ulteriori informazioni, vedere [Creare schemi di attribuzione per competenza](tasks/create-accrual-schemes.md) e [Creare transazioni di attribuzione per competenza in contabilità generale](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

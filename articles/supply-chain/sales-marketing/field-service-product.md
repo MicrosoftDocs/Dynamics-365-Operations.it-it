@@ -73,3 +73,6 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Prodotti Field Service (da Supply Chain Management a Field Service): Prodotti - Prodotti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Alcune formule non possono essere testate in fase di progettazione. Ad esempio, 
 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

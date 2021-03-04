@@ -54,3 +54,6 @@ Si desidera creare un intervallo di assistenza della durata di 10 giorni.
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Intervalli assistenza](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

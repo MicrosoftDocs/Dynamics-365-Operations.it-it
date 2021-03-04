@@ -58,3 +58,6 @@ ms.locfileid: "4419137"
     * Esistono spesso vari obiettivi che sono uguali o simili per i membri del team o tutti i dipendenti.     L'amministratore HR o il responsabile può creare gruppi di obiettivi che contengono uno o più modelli di obiettivo. È possibile aggiungere obiettivi da un gruppo di obiettivi e quindi modificarli per adattarli alle proprie tempistiche.  
     * Quando si crea una revisione, è possibile aggiungere obiettivi a tale revisione. Fare riferimento alla guida attività per le revisioni per vedere come è possibile aggiungere obiettivi alle revisioni.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

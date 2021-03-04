@@ -37,3 +37,6 @@ In questa procedura viene illustrato come assegnare uno stato del ciclo di vita 
 5. Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.
 6. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

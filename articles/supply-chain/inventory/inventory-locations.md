@@ -66,3 +66,6 @@ Nella pagina delle ubicazioni di magazzino è possibile visualizzare il layout d
 --------
 
 [Creare un nuovo layout di magazzino](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

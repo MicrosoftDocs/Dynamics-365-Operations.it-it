@@ -255,3 +255,6 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
