@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: rhaertle
 ms.custom: 62303
 ms.search.region: Global
-ms.author: margoc
+ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
+ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694388"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "5073109"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentazione per l'applicazione Finance and Operations
 
@@ -82,7 +82,7 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Settore pubblico</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Funzionalità relative alle normative locali</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Risorse umane</a></h3>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Benefit</a></p>
 <p><a href="../../human-resources/hr-develop-performance-management-overview.md">Sviluppo e formazione dei dipendenti</a></p>
 <p><a href="../../human-resources/hr-learning-questionnaires.md">Questionari</a></p>

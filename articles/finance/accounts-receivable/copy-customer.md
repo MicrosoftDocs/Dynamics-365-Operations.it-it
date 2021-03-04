@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 91f7568ea8364f97de7e514fb207191ee00041a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab2beb9ca1b7cd8a4bdbb84c46ed223f58ce377d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459286"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991145"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiare i clienti mediante sequenze numeriche condivise
 
@@ -61,7 +60,7 @@ Quando si copia un cliente, il sistema cerca di salvare le informazioni del nuov
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Copiare un cliente utilizzando la funzionalità di ricerca del numero di partita IVA
 
-È inoltre possibile copiare i clienti utilizzando la funzionalità di ricerca del numero di partita IVA del gruppo **Registrazione** sulla scheda **Cliente** del riquadro azioni della pagina **Tutti i clienti**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID cliente, il nome del cliente e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un cliente solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un cliente che corrisponde ai criteri, procedere come segue.
+È inoltre possibile copiare i clienti utilizzando la funzionalità di ricerca del numero di partita IVA del gruppo **Registrazione** sulla scheda **Cliente** del riquadro Azioni della pagina **Tutti i clienti**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID cliente, il nome del cliente e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un cliente solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un cliente che corrisponde ai criteri, procedere come segue.
 
 1. Viene visualizzata un'opzione **Copia cliente**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il cliente nella persona giuridica corrente, impostare l'opzione su **Sì**. 
 2. Selezionare **Select**. Il nuovo cliente viene creato.

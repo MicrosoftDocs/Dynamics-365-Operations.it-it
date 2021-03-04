@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a74b8ed226c4e13c8684fe86d4dca7236a84040e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459353"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012190"
 ---
 # <a name="customer-workflow"></a>Flusso di lavoro cliente
 
@@ -53,7 +52,7 @@ Quando si modifica un campo che viene abilitato per il flusso di lavoro, viene v
 
 Ogni volta che si modifica un campo abilitato per il flusso di lavoro, tale campo viene aggiunto all'elenco delle modifiche proposte. Per eliminare il valore proposto per un campo, utilizzare il pulsante **Elimina** accanto al campo nell'elenco. Per eliminare tutte le modifiche, utilizzare il pulsante **Ignora tutte le modifiche** in fondo alla pagina. Selezionare **OK** per chiudere la pagina.
 
-Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro azioni: **Modifiche proposte** e **Flusso di lavoro**.
+Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro Azioni: **Modifiche proposte** e **Flusso di lavoro**.
 
 1. Selezionare **Modifiche proposte** per aprire la pagina **Modifiche proposte** ed esaminare le modifiche.
 2. Selezionare **Flusso di lavoro \> Invia** per inviare le modifiche al flusso di lavoro.

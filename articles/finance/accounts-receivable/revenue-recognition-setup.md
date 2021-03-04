@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459312"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995568"
 ---
 # <a name="revenue-recognition-setup"></a>Impostazione del riconoscimento ricavi
 [!include [banner](../includes/banner.md)]
@@ -30,6 +29,8 @@ ms.locfileid: "4459312"
 
 > [!NOTE]
 > Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
+
+> Il riconoscimento dei ricavi, inclusa la funzionalità aggregazione, non è supportato per l'utilizzo nei canali di Commerce (e-commerce, POS, servizio clienti). Gli articoli configurati con il riconoscimento dei ricavi non devono essere aggiunti agli ordini o alle transazioni creati nei canali di Commerce.
 
 Il modulo **Riconoscimento ricavi** contiene le seguenti opzioni di impostazione:
 
@@ -138,7 +139,7 @@ I gruppi di articoli e i prodotti rilasciati possono essere impostati utilizzand
     - **Tolleranza massima**: immettere la percentuale consentita superiore al prezzo mediano.
     - **Tolleranza minima**: immettere la percentuale consentita inferiore al prezzo mediano.
 
-Dopo aver configurato le impostazioni per il prodotto rilasciato, è necessario definire manualmente il prezzo dei ricavi immettendo il prezzo di valore equo o il prezzo mediano (quando si utilizza il metodo del prezzo mediano) nella pagina **Prezzi dei ricavi** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi, nel riquadro azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Prezzi dei ricavi**).
+Dopo aver configurato le impostazioni per il prodotto rilasciato, è necessario definire manualmente il prezzo dei ricavi immettendo il prezzo di valore equo o il prezzo mediano (quando si utilizza il metodo del prezzo mediano) nella pagina **Prezzi dei ricavi** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi, nel riquadro Azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Prezzi dei ricavi**).
 
 [![Prezzi dei ricavi](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
@@ -151,7 +152,7 @@ Il prezzo dei ricavi definito manualmente in questa pagina viene utilizzato per 
 - **Prezzo di allocazione ricavi**: in base al valore selezionato nel campo **Importo o percentuale listino**, immettere un importo o una percentuale per rappresentare il prezzo dei ricavi utilizzato per allocare i ricavi tra gli elementi dell'ordine cliente.
 - **Dal** e **Al**: immettere l'intervallo di date in cui il prezzo dei ricavi è attivo. Questi campi sono facoltativi.
 
-Se l'opzione **Attiva metodo di allocazione sconto** nella pagina **Parametri di contabilità generale** è impostata su **Sì** e se il campo **Tipo di ricavi** per il prodotto rilasciato è impostato su **Supporto contratti registrati**, è necessario specificare anche gli articoli supportati dal prodotto rilasciato. Questa impostazione viene effettuata nella pagina **Base impostazione** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi nel riquadro azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Base impostazione**).
+Se l'opzione **Attiva metodo di allocazione sconto** nella pagina **Parametri di contabilità generale** è impostata su **Sì** e se il campo **Tipo di ricavi** per il prodotto rilasciato è impostato su **Supporto contratti registrati**, è necessario specificare anche gli articoli supportati dal prodotto rilasciato. Questa impostazione viene effettuata nella pagina **Base impostazione** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi nel riquadro Azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Base impostazione**).
 
 Nella pagina **Base impostazione**, aggiungere un record per ogni gruppo di articoli supportato dall'articolo. Quando si effettua l'allocazione dei ricavi, il prezzo dei ricavi viene distribuito tra le parti essenziali e non indispensabili per l'articolo PCS.
 
@@ -180,7 +181,7 @@ Quando si imposta un articolo di aggregazione, è necessario configurare due cam
 - Nella Scheda dettaglio **Progetta**, nel campo **Tipo di produzione**, l'articolo deve essere impostato come un articolo DBA.
 - Nella Scheda dettaglio **Generale**, nel campo **Aggregazione**, l'articolo deve essere contrassegnato come un articolo di aggregazione.
 
-I componenti devono quindi essere assegnati all'articolo padre di aggregazione/DBA nella pagina **Versioni DBA** (andare a **Riconoscimento ricavi \> Impostazione \> Scorte e impostazione prodotto \> Prodotti rilasciati**, quindi nel riquadro azioni, nella scheda **Progetta**, nel gruppo **DBA**, selezionare **Versioni DBA**). Per ulteriori informazioni, vedere la documentazione relativa all'impostazione per le DBA.
+I componenti devono quindi essere assegnati all'articolo padre di aggregazione/DBA nella pagina **Versioni DBA** (andare a **Riconoscimento ricavi \> Impostazione \> Scorte e impostazione prodotto \> Prodotti rilasciati**, quindi nel riquadro Azioni, nella scheda **Progetta**, nel gruppo **DBA**, selezionare **Versioni DBA**). Per ulteriori informazioni, vedere la documentazione relativa all'impostazione per le DBA.
 
 [![Prodotti rilasciati, programmazioni DBA](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6212ecbf1883405d7ca8cb1dba752b778e4d901c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995544"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Riconoscimento ricavi negli ordini cliente
 
@@ -56,7 +55,7 @@ Sono disponibili due concetti per il riconoscimento ricavi:
 
 ## <a name="confirm-the-sales-order"></a>Confermare l'ordine cliente
 
-Per visualizzare ulteriori dettagli relativi al prezzo e alla programmazione dei ricavi, utilizzare i pulsanti nel gruppo **Riconoscimento ricavi** nella scheda **Gestisci** nel riquadro azioni dell'ordine cliente. Poiché in questa fase l'ordine cliente non è confermato, i pulsanti utilizzati per il riconoscimento ricavi non sono disponibili. Questi pulsanti diventano disponibili o non disponibili durante l'elaborazione dell'ordine cliente fino alla fase di evasione.
+Per visualizzare ulteriori dettagli relativi al prezzo e alla programmazione dei ricavi, utilizzare i pulsanti nel gruppo **Riconoscimento ricavi** nella scheda **Gestisci** nel riquadro Azioni dell'ordine cliente. Poiché in questa fase l'ordine cliente non è confermato, i pulsanti utilizzati per il riconoscimento ricavi non sono disponibili. Questi pulsanti diventano disponibili o non disponibili durante l'elaborazione dell'ordine cliente fino alla fase di evasione.
 
 [![Intestazione ordine cliente](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 

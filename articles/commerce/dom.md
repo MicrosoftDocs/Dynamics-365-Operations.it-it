@@ -3,14 +3,13 @@ title: Gestione ordini distribuiti (DOM - Distributed Order Management)
 description: In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4459350"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982593"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -49,8 +48,12 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     - **Abilita gestione ordini distribuiti**: impostare questa opzione su **Sì**.
     - **Confermare l'utilizzo di Bing Mappe per DOM**: impostare questa opzione su **Sì**.
 
+
         > [!NOTE]
-        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di Commerce** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
+        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di Commerce** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di Commerce**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
+        >
+        > Il portale [Bing Mappe Dev Center](https://www.bingmapsportal.com/) consente di limitare l'accesso alle chiavi API di Bing Mappe a un set di domini specificato. Con questa funzionalità, i clienti possono definire un set limitato di valori referrer o intervalli di indirizzi IP in base ai quali la chiave verrà convalidata. Le richieste provenienti dall'elenco Consenti verranno elaborate normalmente, mentre le richieste provenienti dall'esterno dell'elenco restituiranno una risposta di accesso negato. L'aggiunta della sicurezza del dominio alla chiave API è facoltativa e le chiavi lasciate inalterate continueranno a funzionare. L'elenco Consenti per una chiave è indipendente da tutte le altre chiavi in quanto permette di avere regole distinte per ciascuna chiave. La Gestione ordini distribuiti non supporta l'impostazione di proprietà correlate al dominio.
+
 
     - **Periodo di ritenuta in giorni**: specificare per quanto tempo i piani di evasione generati dalle esecuzioni DOM vengono conservati nel sistema. Il processo batch **Impostazione processo di eliminazione dati di evasione DOM** eliminerà qualsiasi piano di evasione precedente al numero di giorni specificato qui.
     - **Periodo di rifiuto (in giorni)**: specificare il tempo che deve trascorrere prima che una riga di ordine rifiutata possa essere assegnata alla stessa ubicazione.
@@ -62,14 +65,15 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     - **Tipo di risolutore**: selezionare un valore. Con Commerce sono inclusi due tipi di risolutore: **Risolutore di produzione** e **Risolutore semplificato**. Per tutti i computer che eseguiranno la gestione degli ordini distribuiti (ovvero tutti i server che fanno parte del gruppo DOMBatch), è necessario che **Risolutore di produzione** sia selezionato. Il risolutore di produzione richiede la chiave di licenza speciale che, per impostazione predefinita, viene concessa e distribuita negli ambienti di produzione. Per gli ambienti non di produzione, la chiave di licenza deve essere distribuita manualmente. Per distribuire manualmente la chiave di licenza, effettuare le seguenti operazioni:
 
         1. In Microsoft Dynamics Lifecycle Services, aprire la raccolta Risorse condivise, selezionare **Modello** come tipo di cespite e scaricare il file **Licenza DOM**.
-        2. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<AOS service root\>\\webroot**. Prendere nota del percorso \<AOS Service root\> perché verrà utilizzato nel passaggio successivo.
-        3. Copiare il file di configurazione nella directory **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Passare al client di Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
+        1. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<AOS service root\>\\webroot**. Prendere nota del percorso \<AOS Service root\> perché verrà utilizzato nel passaggio successivo.
+        1. Copiare il file di configurazione nella directory **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        1. Passare al client di Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
+
 
         > [!NOTE]
         > Il risolutore semplificato viene fornito in modo che i rivenditori al dettaglio possano provare la funzionalità DOM senza dover distribuire la licenza speciale. È consigliabile che le organizzazioni non utilizzino il risolutore semplificato negli ambienti di produzione.
         >
-        > Sebbene il risolutore semplificato fornisca lo stesso set di funzionalità del risolutore di produzione, presenta restrizioni relative alle prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e alla convergenza dei risultati (un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari).
+        > Il Risolutore di produzione migliora le prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e la convergenza dei risultati (dal momento che un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari). Alcune regole come **Ordini parziali** e **Numero massimo di ubicazioni** richiedono il Risolutore di produzione.
      
 6. Tornare a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Parametri DOM**.
 7. Nella scheda **Sequenze numeriche**, assegnare le sequenze numeriche richieste alle diverse entità DOM.
@@ -121,7 +125,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
         \* Se l'opzione **Evadere gli ordini parziali** è impostata su **No**, il valore dell'opzione **Evadere le righe parziali** è sempre considerato **No**, indipendentemente dall'impostazione effettiva.
 
         > [!NOTE]
-        > In Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Anziché consentire a un utente di specificare se gli ordini possono essere evasi da una sola ubicazione o da tutte le ubicazioni possibili, ora gli utenti potranno specificare se l'evasione può essere eseguita da un insieme di ubicazioni definito (fino a 5) o da tutte le ubicazioni possibili. Ciò assicura maggiore flessibilità riguardo al numero di ubicazioni da cui è possibile evadere l'ordine.
+        > In Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Anziché consentire a un utente di specificare se gli ordini possono essere evasi da una sola ubicazione o da tutte le ubicazioni possibili, ora gli utenti potranno specificare se l'evasione può essere eseguita da un insieme di ubicazioni definito (fino a 5) o da tutte le ubicazioni possibili. Ciò assicura maggiore flessibilità riguardo al numero di ubicazioni da cui è possibile evadere l'ordine. Questa regola funziona solo con il Risolutore di produzione. 
 
    - **Regola ubicazione di evasione offline**: questa regola consente alle organizzazioni di specificare un'ubicazione o gruppo di ubicazioni come offline o non disponibile per la gestione degli ordini distribuiti, in modo che non sia possibile assegnare ordini da evadere a tali ubicazioni.
     - **Regola numero massimo di rifiuti**: questa regola consente alle organizzazioni di definire una soglia per i rifiuti. Quando la soglia viene raggiunta, il processore DOM contrassegna un ordine o una riga ordine come un'eccezione e li esclude da ulteriori elaborazioni.
@@ -158,13 +162,13 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     7. Nella Scheda dettaglio **Regole**, selezionare **Aggiungi**, quindi selezionare la regola da collegare al profilo.
     8. Ripetere i due passaggi precedenti fino a che tutte le regole obbligatorie non vengono associate al profilo.
     9. Selezionare **Salva**.
-    10. Nel riquadro azioni, nella scheda **Imposta**, selezionare **Modalità di consegna**.
+    10. Nel riquadro Azioni, nella scheda **Imposta**, selezionare **Modalità di consegna**.
     11. Nella pagina **Modalità di consegna**, selezionare **Nuovo**.
     12. Nel campo **Società**, selezionare la persona giuridica. L'elenco delle società è limitato alle persone giuridiche aggiunte in precedenza.
     13. Nel campo **Modalità di consegna**, selezionare la modalità di consegna da associare a questo profilo. La modalità di consegna non può essere associata a più profili attivi.
     14. Ripetere i due passaggi precedenti fino a che tutte le modalità di consegna obbligatorie non vengono associate al profilo.
     15. Chiudere la pagina **Modalità di consegna**.
-    16. Nel riquadro azioni, nella scheda **Imposta**, selezionare **Origini ordini cliente**.
+    16. Nel riquadro Azioni, nella scheda **Imposta**, selezionare **Origini ordini cliente**.
     17. Nella pagina **Origini vendite**, selezionare **Nuovo**.
     18. Nel campo **Società**, selezionare la persona giuridica. L'elenco delle società è limitato alle persone giuridiche aggiunte in precedenza.
     19. Nel campo **Origine vendite**, selezionare l'origine vendita da associare a questo profilo. L'origine della vendita non può essere associata a più profili attivi.

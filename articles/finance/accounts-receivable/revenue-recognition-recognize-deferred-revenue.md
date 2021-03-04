@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459327"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115922"
 ---
 # <a name="recognize-deferred-revenue"></a>Riconoscimento dei ricavi differiti
 
@@ -37,9 +36,9 @@ In questo argomento viene descritto il processo di riconoscimento ricavi nella p
 Sono disponibili due modi per accedere ai dettagli della programmazione per il riconoscimento ricavi.
 
 - È possibile aprire la programmazione per il riconoscimento ricavi direttamente da un ordine cliente fatturato. In questo caso, le informazioni nella programmazione dei ricavi vengono filtrate per visualizzare solo i dettagli relativi all'ordine cliente selezionato. Questo metodo è utile per convalidare i dettagli di programmazione per un ordine cliente.
-- È possibile aprire la programmazione per il riconoscimento ricavi dalla pagina **Riconoscimento ricavi \> Attività periodiche**. Questo metodo è spesso utilizzato quando i ricavi vengono riconosciuti alla fine di un periodo. Quando la pagina viene aperta per la prima volta, non viene visualizzata alcuna informazione. Utilizzare i filtri sopra la griglia per definire i criteri dei dettagli di programmazione che devono essere visualizzati. È possibile filtrare le date di fatturazione immettendo un intervallo di date, un ordine cliente, un cliente, un ID progetto o uno stato.
+- È possibile aprire la programmazione per il riconoscimento ricavi dalla pagina **Riconoscimento ricavi \> Attività periodiche**. Questo metodo è spesso utilizzato quando i ricavi vengono riconosciuti alla fine di un periodo. Quando la pagina viene aperta per la prima volta, non viene visualizzata alcuna informazione. Utilizzare i filtri sopra la griglia per definire i criteri dei dettagli di programmazione che devono essere visualizzati. È possibile filtrare le date di fattura immettendo un intervallo di date, un ordine cliente, un cliente, un ID progetto o uno stato.
 
-[![Pagina di programmazione dei ricavi](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Illustrazione della pagina Programmazioni ricavi](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 La Scheda dettaglio **Dimensione finanziaria** sotto alla griglia mostra le dimensioni finanziarie della riga ordine cliente. Queste dimensioni sono state considerate durante la registrazione dei ricavi differiti. Sono anche considerate durante il riconoscimento ricavi. I valori di dimensione utilizzati dipendono dalla struttura dei conti assegnata ai conti principali dei ricavi e dei ricavi differiti.
 
