@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444994"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003258"
 ---
 # <a name="impair-right-of-use-assets"></a>Ridurre asset Right of use
 
@@ -102,6 +101,3 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 7. Per visualizzare l'effetto netto della riduzione del valore, consulta le tabelle delle transazioni di passività e attività. Tien presente che la spesa per riduzione di valore ha diminuito l'asset ROU, ma il valore contabile dell'obbligazione sul leasing non è cambiato.
 
 La riduzione del valore ha un altro effetto che dovresti considerare. Poiché l'importo dell'asset ROU è ora molto inferiore all'obbligazione sul leasing, l'importo deve essere ammortizzato in modo diverso rispetto a prima. In particolare, il cespite viene ora ammortizzato in modo lineare durante i restanti 84 mesi di leasing, a partire dalla data di transazione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

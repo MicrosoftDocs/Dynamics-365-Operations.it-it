@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431476"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004804"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -854,6 +853,3 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
     - Ordini di trasferimento e prelievo di materie prime
 
 - La regola di consolidamento dei contenitori per l'imballaggio per unità direttiva presenta dei limiti. Per le prenotazioni impegnate in ordini, si consiglia di non utilizzare modelli di build contenitore dove il campo **Imballa per unità direttiva** è abilitato. Nella progettazione attuale, le direttive di ubicazione non vengono utilizzate durante la creazione di lavoro di magazzino. Pertanto, solo l'unità più bassa nel gruppo di sequenze unità (l'unità di magazzino) viene applicata durante il passaggio ondata di containerizzazione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431600"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005329"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transazioni e stati del ciclo di vita del prodotto
 
@@ -76,6 +75,3 @@ I seguenti campi sono disponibili per ogni processo elencato nella scheda dettag
 | Polizza | Selezionare uno dei seguenti valori per controllare se e come il processo corrente sarà consentito per i prodotti che si trovano in questo stato del ciclo di vita:<ul><li>**Abilitato** - Il processo aziendale è consentito.</li><li>**Bloccato** - Il processo non è consentito. Se un utente tenta di utilizzare il processo su un prodotto che si trova in questo stato del ciclo di vita, il sistema bloccherà il tentativo e mostrerà un errore. Ad esempio, si potrebbe bloccare l'acquisto dei prodotti a fine vita.</li><li>**Abilitato con avviso** - Il processo è consentito, ma verrà visualizzato un avviso. Ad esempio, si potrebbe desiderare che un prodotto prototipo venga inserito in un ordine di produzione creato dal reparto Ricerca e sviluppo. Tuttavia, gli altri reparti devono essere consapevoli che non devono ancora produrre il prodotto.</li></ul> |
 
 Se stai aggiungendo più regole dello stato del ciclo di vita come personalizzazione, puoi visualizzare tali regole nell'interfaccia utente selezionando **Aggiorna processi** nel riquadro superiore. I pulsante **Aggiorna processi** è disponibile solo per gli amministratori.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

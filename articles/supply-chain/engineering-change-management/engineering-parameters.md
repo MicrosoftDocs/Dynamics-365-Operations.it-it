@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005379"
 ---
 # <a name="engineering-change-management-parameters"></a>Parametri per gestione modifiche di progettazione
 
@@ -57,6 +56,3 @@ La tabella seguente descrive i campi disponibili nella scheda **Gestione modific
 | Regola gravità | Selezionare come stabilire la gravità di un ordine di modifica di progettazione. Selezionare *Manuale* se si prevede che l'utente immetta un valore nel campo **Gravità**. Selezionare *Calcola* per fare in modo che il sistema calcoli il valore di **Gravità** quando si seleziona **Calcola gravità** nel riquadro azioni dell'ordine di modifica di progettazione. In questo caso, il sistema utilizzerà le regole di gravità definite nella pagina **Set regole di gravità**. Selezionare *Calcola automaticamente* in modo che il valore del campo **Gravità** venga calcolato e compilato automaticamente in base ai set di regole di gravità. |
 | Nuovo rilascio prodotti interessati | Questo campo è applicabile quando i prodotti vengono nuovamente rilasciati tramite un ordine di modifica di progettazione. È possibile selezionare se proporre tutti i prodotti o solo i prodotti interessati nella finestra di dialogo **Rilasci**. |
 | Livelli DBA da rilasciare | Profondità del livello DBA da rilasciare. Se la distinta base ha più livelli (ovvero, se è più profonda) del valore qui specificato, verranno rilasciati solo i livelli fino al valore specificato. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

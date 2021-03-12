@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005204"
 ---
 # <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
 
@@ -146,6 +145,3 @@ Ecco l'output risultante.
 | IA0001 | 1 | 2 | 2 |
 
 Si noti che le impostazioni nel riquadro **Filtri** si applicano alla tabella di scorte dettagliata (non aggregata) mostrata all'inizio di questa sezione. Pertanto, il criterio **Fisico disponibile** \| **inferiore o uguale a** \| _1_ trova due righe di quella tabella (la prima e la terza riga, ognuna delle quali mostra un valore **Fisico disponibile** di _1_). Tuttavia, in questo scenario, la pagina **Elenco scorte disponibili** non è impostata per mostrare la dimensione **Magazzino**. Pertanto, aggrega le due righe originali in una singola riga risultante, poiché entrambe le righe hanno valori identici in tutte le dimensioni visualizzate. Questa riga sembra violare il criterio di filtro, perché il valore **Fisico disponibile** è mostrato come _2_. Tuttavia, il risultato è corretto, perché le impostazioni nel riquadro **Filtri** si applicano alla tabella di origine, non alla tabella aggregata mostrata nella pagina **Elenco scorte disponibili**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

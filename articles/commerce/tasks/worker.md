@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd437f549ffc1f8879ce3814ace1193040b280e1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 73c200f7f6ff0aa5672e50c539bfaa5e30213185
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413545"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003605"
 ---
 # <a name="configure-a-worker"></a> Configurare un lavoratore
 
@@ -57,6 +56,3 @@ Questa procedura dimostra come configurare un lavoratore come rappresentante che
 6. Nel campo Gruppo predefinito, immettere o selezionare un valore.
 7. Fare clic su Salva.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b047a1abaa6b19096740f589281c837643d796b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444761"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003530"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creare pagamenti fornitore utilizzando una proposta di pagamento
 
@@ -69,19 +68,19 @@ Il 1° luglio April paga i fornitori. Utilizza una proposta di pagamento per con
 
 ### <a name="option-1-by-cash-discount"></a>Opzione 1: per sconto di cassa
 
-April seleziona **Sconto di cassa** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
+April seleziona **Sconto di cassa** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
 
 -   1002, poiché la data dello sconto del 4 luglio rientra nell'intervallo delle date di pagamento.
 -   1004, poiché la data dello sconto del 1 luglio rientra nell'intervallo delle date di pagamento.
 
 Le seguenti fatture non sono incluse nella proposta:
 
--   1001, poiché la data dello sconto del 29 giugno è scaduta, pertanto questa fattura non è più idonea per lo sconto di cassa.
+-   1001, poiché la data dello sconto del 29 giugno è scaduta, pertanto questa fattura non è più idonea per lo sconto di cassa.
 -   1003, poiché la fattura non ha una data dello sconto.
 
 ### <a name="option-2-by-due-date"></a>Opzione 2: per data di scadenza
 
-April seleziona **Per data di scadenza** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
+April seleziona **Per data di scadenza** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
 
 -   1003, poiché la data di scadenza del 29 giugno rientra nell'intervallo delle date di pagamento.
 
@@ -93,7 +92,7 @@ Le seguenti fatture non sono incluse nella proposta:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>Opzione 3: per data di scadenza e sconto di cassa
 
-April seleziona **Data di scadenza e sconto di cassa** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
+April seleziona **Data di scadenza e sconto di cassa** come tipo di proposta. Inserisce un intervallo di date dal 26 giugno al 10 luglio. Le seguenti fatture sono incluse nella proposta:
 
 -   1003, poiché la data di scadenza del 29 giugno rientra nell'intervallo delle date di pagamento.
 -   1002, poiché la data dello sconto del 4 luglio rientra nell'intervallo delle date di pagamento.
@@ -101,14 +100,14 @@ April seleziona **Data di scadenza e sconto di cassa** come tipo di proposta. In
 
 Le seguenti fatture non sono incluse nella proposta:
 
--   1001, poiché la data dello sconto del 29 giugno è scaduta, pertanto tale fattura non è più idonea per lo sconto di cassa e la data di scadenza del 15 luglio non è compresa nell'intervallo.
+-   1001, poiché la data dello sconto del 29 giugno è scaduta, pertanto tale fattura non è più idonea per lo sconto di cassa e la data di scadenza del 15 luglio non è compresa nell'intervallo.
 
 ## <a name="country-specific-considerations"></a>Considerazioni specifiche di paese
 ### <a name="norway"></a>Norvegia
 
 #### <a name="dimension-control"></a>Controllo dimensioni
 
-Il controllo delle dimensioni consente di determinare il raggruppamento delle righe generate per proposta di pagamento e impostare dimensioni predefinite in base alle dimensioni finanziarie utilizzate per le fatture applicate. Nel contesto norvegese per ogni metodo di pagamento esiste una scheda Dimensione finanziaria in cui è possibile attivare il controllo delle dimensioni nonché attivare il raggruppamento per ciascuna dimensione. Sono possibili le seguenti opzioni:
+Il controllo delle dimensioni consente di determinare il raggruppamento delle righe generate per proposta di pagamento e impostare dimensioni predefinite in base alle dimensioni finanziarie utilizzate per le fatture applicate. Nel contesto norvegese per ogni metodo di pagamento esiste una scheda Dimensione finanziaria in cui è possibile attivare il controllo delle dimensioni nonché attivare il raggruppamento per ciascuna dimensione. Sono possibili le seguenti opzioni:
 
 -   Il campo **Controllo dimensioni** è disabilitato. La proposta di pagamento funzionerà come per qualsiasi altro paese.
 -   Il campo **Controllo dimensioni** è attivato senza definire ulteriormente le dimensioni. La proposta di pagamento verrà creata senza prendere le dimensioni in considerazione. La transazione creata non eredita dimensioni della voce applicata.
@@ -119,10 +118,7 @@ Il controllo delle dimensioni consente di determinare il raggruppamento delle ri
 
 #### <a name="bank-account-selection"></a>Selezione del conto bancario
 
-È possibile definire un conto di addebito di pagamento standard per il metodo di pagamento indipendentemente dal contesto del paese. Questo verrà impostato nelle righe di pagamento generate da una proposta. Con la funzionalità di conto bancario è possibile definire più conti bancari di addebito gestiti per dimensione e valuta o una combinazione di questi per utilizzare diversi conti bancari di addebito, in base a ciascuna combinazione. È possibile impostare queste combinazioni nella pagina **Metodi di pagamento** utilizzando il pulsante  **Conti bancari** disponibile per ogni metodo di pagamento con **Tipo di conto di registrazione** = **Banca**.
+È possibile definire un conto di addebito di pagamento standard per il metodo di pagamento indipendentemente dal contesto del paese. Questo verrà impostato nelle righe di pagamento generate da una proposta. Con la funzionalità di conto bancario è possibile definire più conti bancari di addebito gestiti per dimensione e valuta o una combinazione di questi per utilizzare diversi conti bancari di addebito, in base a ciascuna combinazione. È possibile impostare queste combinazioni nella pagina **Metodi di pagamento** utilizzando il pulsante **Conti bancari** disponibile per ogni metodo di pagamento con **Tipo di conto di registrazione** = **Banca**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

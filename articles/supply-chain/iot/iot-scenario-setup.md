@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91deb080121d50794e6ff6fe79f9ca876b76deb4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431398"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005254"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configurazione dello scenario per l'Intelligence IoT
 
@@ -143,6 +142,3 @@ Per disabilitare uno scenario, attenersi alla procedura seguente.
 2. Nel riquadro dello scenario, selezionare **Configura**.
 3. Selezionare **Avanti** per andare all'ultima pagina della procedura guidata.
 4. Impostare l'opzione per disabilitare lo scenario.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

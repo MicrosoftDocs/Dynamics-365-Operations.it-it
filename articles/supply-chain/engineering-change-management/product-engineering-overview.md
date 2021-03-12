@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f1aa04b472eaef7ed398f08a05d46bac2d589561
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514352"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001950"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -59,6 +58,3 @@ Quindi, attivare la chiave di configurazione **Gestione modifiche di progettazio
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
 1. Espandere il nodo **Commercio** e selezionare la casella di controllo **Gestione modifiche di progettazione**.
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

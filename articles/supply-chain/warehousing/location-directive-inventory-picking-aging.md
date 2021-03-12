@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431469"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004629"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Aging prelievo scorte per direttiva ubicazione
 
@@ -120,7 +119,7 @@ La strategia FIFO trova l'ubicazione che contiene la data di aging più vecchia 
 1. Nel riquadro azioni della pagina **Ordine cliente**, nella scheda **Magazzino**, nel gruppo **Azioni**, seleziona **Rilascia in magazzino**. Vengono visualizzati messaggi informativi. Il sistema crea una spedizione, la aggiunge a un nuovo carico e crea il lavoro richiesto.
 1. Nella Scheda dettaglio **Righe ordine cliente**, nel menu **Magazzino**, seleziona **Dettagli lavoro** per aprire il lavoro creato per questo ordine cliente. Da notare che nella riga in cui il valore **Tipo di lavoro** è *Prelievo*, il valore di **Ubicazione** è *FL-002*. Questa ubicazione contiene la targa con la data di aging più vecchia (FIFO).
 1. Seleziona **Magazzino \> Dettagli spedizione**.
-1. Nella Scheda dettaglio **Generale**, prendi nota dell'ID ondata, in modo da poterlo utilizzare nello scenario 2.
+1. Nella Scheda dettaglio *_Generale_*, prendi nota dell'ID ondata, in modo da poterlo utilizzare nello scenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenario 2: impostazione e utilizzo dell'aging ubicazione LIFO
 
@@ -140,6 +139,3 @@ La strategia LIFO trova l'ubicazione che contiene la data di aging più recente 
 1. Da notare che nella riga in cui il valore **Tipo di lavoro** è *Prelievo*, il valore di **Ubicazione** è *FL-001*. Questa ubicazione contiene la targa con la data di aging più recente (LIFO).
 
 In questi scenari, hai visto come la strategia di aging dell'ubicazione indirizza il lavoro verso l'ubicazione delle scorte che ha le scorte più vecchie o quelle più recenti, a seconda della strategia selezionata.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
