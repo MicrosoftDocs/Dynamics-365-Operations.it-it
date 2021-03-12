@@ -11,45 +11,44 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ac4ceeb3e21ab089eb16565bb6e38c7eb44be80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 668b60efa55fa553cf308d5bfc5da7e23f460366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987031"
 ---
-# <a name="complete-basic-setup-of-a-released-product-master"></a><span data-ttu-id="5ab4c-103">Completare l'impostazione di base di una rappresentazione generale prodotto rilasciata</span><span class="sxs-lookup"><span data-stu-id="5ab4c-103">Complete basic setup of a released product master</span></span>
+# <a name="complete-basic-setup-of-a-released-product-master"></a>Completare l'impostazione di base di una rappresentazione generale prodotto rilasciata
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5ab4c-104">Questo argomento procedura mostra come completare la configurazione minima necessaria prima che la rappresentazione generale prodotto possa essere utilizzata nelle versioni DBA.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-104">This topic shows how to complete the minimum setup that is required before the product master can be used in BOM versions.</span></span>
+Questo argomento procedura mostra come completare la configurazione minima necessaria prima che la rappresentazione generale prodotto possa essere utilizzata nelle versioni DBA.
 
-<span data-ttu-id="5ab4c-105">Questa è la terza procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-105">This is the third procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="5ab4c-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-106">The demo data company used to create this procedure is USMF.</span></span>
+Questa è la terza procedura di otto che illustra come sviluppare le combinazioni per la configurazione basata su dimensioni. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
-1. <span data-ttu-id="5ab4c-107">Andare a **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-107">Go to **Navigation pane > Modules > Product information management > Products > Released products**.</span></span>
-2. <span data-ttu-id="5ab4c-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-108">In the list, find and select the desired record.</span></span> <span data-ttu-id="5ab4c-109">Selezionare la rappresentazione generale prodotto che è stata rilasciata nella seconda procedura.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-109">Select the product master that you have released in the second procedure.</span></span> <span data-ttu-id="5ab4c-110">La rappresentazione generale prodotto viene creata con la tecnologia di configurazione basata su dimensioni.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-110">This product master is created with the dimension-based configuration technology.</span></span>  
-3. <span data-ttu-id="5ab4c-111">Nel riquadro azioni fare clic su **Prodotto**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-111">On the Action Pane, select **Product**.</span></span>
-4. <span data-ttu-id="5ab4c-112">Fare clic su **Gruppi di dimensioni** per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-112">Select **Dimension groups** to open the drop dialog.</span></span>
-5. <span data-ttu-id="5ab4c-113">Nel campo **Gruppo di dimensioni di immagazzinamento** selezionare il pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-113">In the **Storage dimension group** field, select the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="5ab4c-114">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-114">In the list, find and select the desired record.</span></span> <span data-ttu-id="5ab4c-115">Il gruppo dimensione di immagazzinamento determina quali dimensioni di immagazzinamento vengono utilizzate per la transazione del prodotto.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-115">The storage dimension group determines which storage dimensions are used for product transaction.</span></span> <span data-ttu-id="5ab4c-116">Selezionare **Sito** per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-116">Select **Site** for this procedure.</span></span>  
-7. <span data-ttu-id="5ab4c-117">Nel campo **Gruppo di dimensioni di tracciabilità** fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-117">In the **Tracking dimension group** field, select the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="5ab4c-118">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="5ab4c-119">Il gruppo dimensione di tracciabilità determina quali dimensioni di tracciabilità vengono utilizzate per la transazione del prodotto.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-119">The tracking dimension group determines which tracking dimensions are used for product transaction.</span></span> <span data-ttu-id="5ab4c-120">Selezionare **Nessuna** per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-120">Select **None** for this procedure.</span></span>  
-9. <span data-ttu-id="5ab4c-121">Fare clic su **OK**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-121">Click **OK**.</span></span>
-10. <span data-ttu-id="5ab4c-122">Fare clic su **Modifica**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-122">Click **Edit**.</span></span>
-11. <span data-ttu-id="5ab4c-123">Nel campo **Gruppo di modelli di articoli** fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-123">In the **Item model group** field, select the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="5ab4c-124">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-124">In the list, find and select the desired record.</span></span> <span data-ttu-id="5ab4c-125">I gruppi di modelli di articoli contengono impostazioni che determinano la modalità in cui gli articoli vengono controllati e gestiti all'entrata e all'uscita.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-125">Item model groups contain settings that determine how items are controlled and handled on item receipts and issues.</span></span> <span data-ttu-id="5ab4c-126">Determinano inoltre in che modo viene calcolato il consumo di articoli.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-126">They also determine how item consumption is calculated.</span></span> <span data-ttu-id="5ab4c-127">Selezionare **FIFO** per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-127">Select **FIFO** for this procedure.</span></span>  
-13. <span data-ttu-id="5ab4c-128">Espandere la sezione **Gestisci costi**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-128">Expand the **Manage costs** section.</span></span>
-14. <span data-ttu-id="5ab4c-129">Nel campo **Gruppo di articoli** fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-129">In the **Item group** field, select the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="5ab4c-130">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-130">In the list, find and select the desired record.</span></span> <span data-ttu-id="5ab4c-131">I gruppi di articoli vengono utilizzati per la gestione delle scorte mediante la divisione degli articoli di magazzino in gruppi.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-131">Item groups are used to manage inventory by dividing inventory items into groups.</span></span> <span data-ttu-id="5ab4c-132">Selezionare **CarAudio** per questa procedura.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-132">Select **CarAudio** for this procedure.</span></span>  
-16. <span data-ttu-id="5ab4c-133">Nel Riquadro azioni selezionare **Pianifica**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-133">On the Action Pane, select **Plan**.</span></span>
-17. <span data-ttu-id="5ab4c-134">Selezionare **Impostazioni ordine predefinite**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-134">Select **Default order settings**.</span></span>
-18. <span data-ttu-id="5ab4c-135">Nel campo **Tipo di ordine predefinito** selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-135">In the **Default order type field**, select an option.</span></span> <span data-ttu-id="5ab4c-136">Selezionare **Produzione** per specificare che l'opzione di rifornimento predefinita per la rappresentazione generale prodotto è di produrla.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-136">Select **Production** to specify that the default supply option for this product master is to produce it.</span></span>  
-19. <span data-ttu-id="5ab4c-137">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-137">Select **Save**.</span></span>
-20. <span data-ttu-id="5ab4c-138">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-138">Close the page.</span></span>
-21. <span data-ttu-id="5ab4c-139">Chiudere il modulo **Dettagli prodotto rilasciato**.</span><span class="sxs-lookup"><span data-stu-id="5ab4c-139">Close the **Released product details** form.</span></span>
+1. Andare a **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.
+2. Nell'elenco trovare e selezionare il record desiderato. Selezionare la rappresentazione generale prodotto che è stata rilasciata nella seconda procedura. La rappresentazione generale prodotto viene creata con la tecnologia di configurazione basata su dimensioni.  
+3. Nel riquadro azioni fare clic su **Prodotto**.
+4. Fare clic su **Gruppi di dimensioni** per aprire la finestra di dialogo a discesa.
+5. Nel campo **Gruppo di dimensioni di immagazzinamento** selezionare il pulsante a discesa per aprire la ricerca.
+6. Nell'elenco trovare e selezionare il record desiderato. Il gruppo dimensione di immagazzinamento determina quali dimensioni di immagazzinamento vengono utilizzate per la transazione del prodotto. Selezionare **Sito** per questa procedura.  
+7. Nel campo **Gruppo di dimensioni di tracciabilità** fare clic sul pulsante a discesa per aprire la ricerca.
+8. Nell'elenco trovare e selezionare il record desiderato. Il gruppo dimensione di tracciabilità determina quali dimensioni di tracciabilità vengono utilizzate per la transazione del prodotto. Selezionare **Nessuna** per questa procedura.  
+9. Fare clic su **OK**.
+10. Fare clic su **Modifica**.
+11. Nel campo **Gruppo di modelli di articoli** fare clic sul pulsante a discesa per aprire la ricerca.
+12. Nell'elenco trovare e selezionare il record desiderato. I gruppi di modelli di articoli contengono impostazioni che determinano la modalità in cui gli articoli vengono controllati e gestiti all'entrata e all'uscita. Determinano inoltre in che modo viene calcolato il consumo di articoli. Selezionare **FIFO** per questa procedura.  
+13. Espandere la sezione **Gestisci costi**.
+14. Nel campo **Gruppo di articoli** fare clic sul pulsante a discesa per aprire la ricerca.
+15. Nell'elenco trovare e selezionare il record desiderato. I gruppi di articoli vengono utilizzati per la gestione delle scorte mediante la divisione degli articoli di magazzino in gruppi. Selezionare **CarAudio** per questa procedura.  
+16. Nel Riquadro azioni selezionare **Pianifica**.
+17. Selezionare **Impostazioni ordine predefinite**.
+18. Nel campo **Tipo di ordine predefinito** selezionare un'opzione. Selezionare **Produzione** per specificare che l'opzione di rifornimento predefinita per la rappresentazione generale prodotto è di produrla.  
+19. Selezionare **Salva**.
+20. Chiudere la pagina.
+21. Chiudere il modulo **Dettagli prodotto rilasciato**.
 
