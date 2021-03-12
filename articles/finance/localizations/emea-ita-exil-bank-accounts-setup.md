@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 086b3054e53a2c71c0d9e4a788d987fcc7c6183b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06a445dbe1d7e4046c0f6ae4564ec4254e339f26
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408082"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962635"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 
@@ -76,6 +75,3 @@ Quando la funzione di miglioramento della configurazione del conto bancario è a
 Durante la configurazione di un conto bancario, sono disponibili campi descrittivi aggiuntivi per i gruppi bancari che consentono una selezione più precisa di una banca.
 
 ![Campi descrittivi aggiuntivi in una configurazione del conto bancario](media/emea-ita-exil-bank-pic2.jpg)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

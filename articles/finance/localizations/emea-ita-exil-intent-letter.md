@@ -3,7 +3,7 @@ title: Lettere di intento - Fatturazione di esportatori abituali
 description: Questo argomento fornisce informazioni su come impostare lettere di intento e su come utilizzarle quando si emettono fatture.
 author: ilkond
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 12/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 921041e142e2e3d5aceb1832c9189fc72a9238ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd024c216f6eb20f7841d493ccec0adf8881a2c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408118"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962617"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
@@ -86,11 +85,8 @@ Quando si crea un ordine cliente o una fattura a testo libero per un cliente cla
 
 ![Nuovo ordine cliente](media/emea-ita-exil-intent-new-order.jpg)
 
-L'importo della transazione fattura sarà soggetto al calcolo dell'IVA solo se supera l'importo della lettera di intento.
+L'importo della transazione fattura sarà soggetto al calcolo dell'IVA solo se non supera l'importo della lettera di intento.
 
 I dettagli della lettera di intento saranno inclusi anche in un layout stampabile della fattura.
 
 ![Stampa fattura](media/emea-ita-exil-intent-inv-print.jpg)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

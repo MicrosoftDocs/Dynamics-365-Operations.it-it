@@ -3,7 +3,7 @@ title: Creare e aggiornare le fasce orarie per il ritiro del cliente
 description: In questo argomento viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
 author: anupamar-ms
 manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681544"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828213"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Creare e aggiornare le fasce orarie per il ritiro del cliente
 
@@ -49,17 +49,15 @@ Una fascia oraria viene definita utilizzando le seguenti proprietà:
 
     La proprietà **Numero minimo di giorni** garantisce che il rivenditore abbia tempo sufficiente per elaborare l'ordine prima che sia pronto per il ritiro. La proprietà **Numero massimo di giorni** garantisce che l'utente non possa selezionare una data troppo lontana nel futuro. Ad esempio, se il valore minimo è impostato su **1** e viene effettuato un ordine il 20 settembre, il primo giorno in cui l'ordine sarà disponibile per il ritiro è il giorno idoneo successivo (21 settembre). Allo stesso modo, impostando un valore massimo, è possibile definire il numero massimo di giorni in cui un ordine può essere ritirato. Quando vengono definiti i valori minimo e massimo, gli utenti del sito possono vedere e selezionare solo un insieme specifico di giorni durante la loro esperienza di pagamento.
 
-    È possibile impostare il valore minimo su un valore decimale inferiore a 1. Ad esempio, se il ritiro è disponibile quattro ore dopo aver effettuato un ordine, imposta il valore minimo su **0,17** (= 4 ÷ 24, arrotondato per eccesso a due cifre decimali). Tuttavia, se si imposta il valore minimo su un valore decimale maggiore di 1, viene sempre arrotondato al numero intero più vicino (in eccesso o in difetto).
-
-    Se si imposta il valore massimo su un valore decimale, viene sempre arrotondato per eccesso. Ad esempio, un valore di **1,2** verrà arrotondato a **2**.
+    È possibile impostare il valore minimo su un valore decimale inferiore a 1. Ad esempio, se il ritiro è disponibile quattro ore dopo aver effettuato un ordine, imposta il valore minimo su **0,17** (= 4 ÷ 24, arrotondato per eccesso a due cifre decimali). Tuttavia, se si imposta il valore minimo su un valore decimale maggiore di 1, viene sempre arrotondato in eccesso al numero intero più vicino. Ad esempio, un valore di **1,2** verrà arrotondato a **2**. Analogamente, se si imposta il valore massimo su un valore decimale, viene sempre arrotondato in eccesso al numero intero più vicino. 
 
 - **Data di inizio** e **Data di fine** - Specificare le date di inizio e di fine della fascia oraria. Ogni voce di fascia oraria ha una data di inizio e una data di fine. Pertanto si dispone della flessibilità di aggiungere diverse fasce orarie durante l'anno (ad esempio, ritiri durante le ore di vacanza). Se l'inizio e le date di una fascia oraria vengono modificate dopo che è stato effettuato un ordine, le modifiche non verranno applicate a tale ordine. Quando si definiscono le date di inizio e di fine, è necessario considerare le date di chiusura del negozio (ad esempio, il giorno di Natale) e assicurarsi che non siano definiti fasce orarie per quei giorni.
-- **Orario di consegna attivo** - Specificare il periodo in cui è consentito il ritiro. Ad esempio, l'orario di ritiro potrebbe essere tra le 14.00 e le 17.00 ogni giorno. Questa proprietà consente agli orari di ritiro di essere indipendenti dagli orari di negozio. Pertanto, il rivenditore può configurare orari di ritiro che soddisfino i suoi requisiti aziendali specifici. Quando si definiscono gli orari di ritiro attivi, è necessario considerare gli orari del negozio e assicurarsi che gli orari di ritiro non siano definiti per gli orari in cui il negozio è chiuso.
+- **Orario di ritiro attivo** - Specifica il periodo in cui è consentito il ritiro. Ad esempio, l'orario di ritiro potrebbe essere tra le 14.00 e le 17.00 ogni giorno. Questa proprietà consente agli orari di ritiro di essere indipendenti dagli orari di negozio. Pertanto, il rivenditore può configurare orari di ritiro che soddisfino i suoi requisiti aziendali specifici. Quando si definiscono gli orari di ritiro attivi, è necessario considerare gli orari del negozio e assicurarsi che gli orari di ritiro non siano definiti per gli orari in cui il negozio è chiuso.
 
     > [!NOTE]
     > Gli orari per il ritiro in negozio devono essere definiti nel fuso orario del negozio appropriato.
 
-- **Intervallo fascia oraria** - Specificare la durata che può essere assegnata a ciascuna fascia oraria. Ad esempio, la durata di ogni fascia oraria potrebbe essere in incrementi di 15 minuti, 30 minuti o un'ora.
+- **Intervallo fascia oraria** - Specificare la durata che può essere assegnata a ciascuna fascia oraria. Ad esempio, la durata di ogni fascia oraria potrebbe essere in incrementi di 15 minuti, 30 minuti o un'ora. Se il valore della fascia oraria è 0, la fascia oraria è disponibile per l'intera durata tra l'ora di inizio e l'ora di fine.
 - **Fasce per intervallo** - Specificare il numero di clienti o ordini che possono essere serviti per il ritiro durante ogni intervallo di fascia oraria. Ad esempio, inserire **1**, **2**, **3** o qualsiasi altro numero intero.
 - **Giorni attivi** - Specificare i giorni della settimana in cui le fasce orarie di ritiro sono attive. Questa proprietà consente al rivenditore di definire i giorni in cui desidera supportare gli ordini di ritiro.
 - **Canali di vendita al dettaglio** - Specificare i canali di vendita al dettaglio. Ogni fascia oraria può essere associata a uno o più punti vendita. A seconda dell'orario di apertura di ogni negozio, è possibile creare una o più voci di fascia oraria e associarle a un canale. 
@@ -84,7 +82,7 @@ Per configurare la funzione di fascia oraria in Commerce headquarters, seguire q
 1. Nella scheda dettaglio **Ritiro ordine - Impostazioni ora** selezionare **Aggiungi**.
 1. Nella finestra di dialogo **Ritiro ordine - Impostazioni ora** definire l'intervallo di date, la modalità di consegna, le ore di consegna attive, i giorni attivi, l'intervallo di fascia oraria, le fasce orarie per intervallo e altre impostazioni.
 
-    Se le fasce orarie saranno statiche per il prossimo futuro, lasciare il campo **Data di fine** vuoto.
+    Se le fasce orarie saranno statiche per il prossimo futuro, imposta il campo **Data di fine** su **Mai**.
 
     > [!NOTE]
     > È possibile creare più modelli, ma solo un modello può essere associato a un singolo canale o negozio.
@@ -120,9 +118,12 @@ La seguente illustrazione mostra un esempio di un ordine e-commerce in cui è st
 
 ![Esempio di un ordine e-commerce in cui è stata selezionata una fascia oraria per il ritiro](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
+## <a name="time-slot-selection-for-call-center-orders"></a>Selezione della fascia oraria per gli ordini del servizio clienti
+
+Nell'app del servizio clienti, gli agenti del servizio clienti possono selezionare il punto di ritiro o la posizione, nonché una data e un intervallo di tempo come evidenziato nella figura seguente.
+
+![Esempio di un ordine del servizio clienti in cui è stata selezionata una fascia oraria per il ritiro](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Modulo di informazioni sul ritiro](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

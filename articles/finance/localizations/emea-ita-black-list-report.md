@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BlackListTable_IT, IntrastatParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261414
 ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0428613413b695d7e8c7aae044e0c01decf1a9d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9b2db0f06a66731307bd295db222b80fe102e5e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408086"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962650"
 ---
 # <a name="italian-black-list-report"></a>Report block list italiano
 
@@ -30,9 +29,9 @@ ms.locfileid: "4408086"
 
 Informazioni su come impostare e gestire il report black list italiano.
 
-Il report black list italiano fornisce un elenco di transazioni tassabili con società situate in paesi con regimi fiscali privilegiati. Questi paesi sono indicati come "black list" dal governo italiano e presentano un rischio elevato dal punto di vista fiscale. Questo report deve essere inviato agli uffici IVA italiani e in genere viene utilizzato da ragionieri, responsabili delle riscossioni, addetti alla contabilità clienti, responsabili della contabilità clienti, manager delle vendite e addetti alle vendite. È necessario impostare alcuni elementi prima di poter generare il report **black list italiano** ed esportarlo nel formato richiesto.
+Il report black list italiano fornisce un elenco di transazioni tassabili con società situate in paesi con regimi fiscali privilegiati. Questi paesi sono indicati come "black list" dal governo italiano e presentano un rischio elevato dal punto di vista fiscale. Questo report deve essere inviato agli uffici IVA italiani e in genere viene utilizzato da ragionieri, responsabili delle riscossioni, addetti alla contabilità clienti, responsabili della contabilità clienti, manager delle vendite e addetti alle vendite. È necessario impostare alcuni elementi prima di poter generare il report **black list italiano** ed esportarlo nel formato richiesto.
 
--   Selezionare una sequenza numerica per il riferimento della sequenza numerica di **ID report black list** nella pagina **Parametri per il commercio estero**.
+-   Selezionare una sequenza numerica per il riferimento della sequenza numerica di **ID report black list** nella pagina **Parametri per il commercio estero**.
 -   Impostare il mapping del formato di report per il report **Black list** specificando i riferimenti alle configurazioni di report elettronici nella **Black list** nella pagina **Parametri per il commercio estero**.
 -   Impostare un paese o una regione come "black list".
 -   Impostare la natura giuridica di una persona giuridica.
@@ -63,6 +62,3 @@ Utilizzare la pagina **Report black list italiano** per creare un nuovo report e
 -   Utilizzare **Trasferimento** per trasferire le transazioni delle fatture cliente e fornitore alla sezione **Transazioni** in base ai criteri che sono specificati nella sezione **Generale**. Nel report vengono visualizzate solo le transazioni associate a un codice IVA. Verificare le transazioni e apportare eventuali modifiche, se necessario.
 -   Utilizzare **Applica soglia** per escludere le fatture dal report **black list italiano** inferiori all'importo di soglia specificato nel campo **Importo soglia** nella sezione **Generale**.
 -   Utilizzare **Report** per generare ed esportare il report come file.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

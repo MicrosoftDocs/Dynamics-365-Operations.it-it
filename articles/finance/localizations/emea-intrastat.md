@@ -3,7 +3,7 @@ title: Panoramica di Intrastat
 description: In questo argomento vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408099"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962727"
 ---
 # <a name="intrastat-overview"></a>Panoramica di Intrastat
 
@@ -197,7 +196,7 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 <td><ul>
 <li>Nella scheda <strong>Generale </strong> specificare le e seguenti informazioni:
 <ul>
-<li>Valore predefinito per i codici transazione da utilizzare sugli ordini acquisto, note di credito e ordini di trasferimento. Il codice transazione impostato per le note di accredito verrà utilizzato come il codice per le merci fisiche restituite ed è utilizzato per i resi fisici di scostamento rispetto alle note di accredito della correzione.</li>
+<li>Valore predefinito per i codici transazione da utilizzare sugli ordini acquisto, note di credito e ordini di trasferimento. Il codice transazione impostato per le note di accredito verrà utilizzato come il codice per le merci fisiche restituite ed è utilizzato per i resi fisici di scostamento rispetto alle note di accredito della correzione. I resi di beni fisici vengono dichiarati in trasferimento Intrastat con una direzione diversa. Il reso di arrivo è dichiarato come intervento e il reso di intervento è dichiarato come arrivo.</li>
 <li>Il dipendente responsabile di produzione report Intrastat.</li>
 </ul></li>
 <li><strong>Limite minimo</strong> Consente di specificare le impostazioni per aggiornare le transazioni nella soglia:
@@ -240,6 +239,3 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

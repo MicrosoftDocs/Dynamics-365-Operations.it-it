@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664a70ed7c93c88e1a9cd020029bac285dbaa1f8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 003a5d2332aaf12ee7e9352ecb61ef190c04a41f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694028"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798907"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurare le attività automatiche in un flusso di lavoro
 
@@ -110,6 +110,3 @@ Per immettere un nome per l'attività automatica, effettuare le operazioni indic
     </table>
 
 8. Ripetere i passaggi dal 3 al 7 per ciascun evento selezionato nel passaggio 2.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 601977cc5b8aa992b8576d30eb1412fb4e119154
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963637"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catalogo di apprendimento per consulenti funzionali di Dynamics 365 Supply Chain Management
 
@@ -114,6 +113,3 @@ Per i consulenti funzionali, la ricerca sull'analisi delle mansioni ha dimostrat
 | [Exam MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: utilizzare funzionalità e strumenti di implementazione comuni, configurare sicurezza, processi e opzioni, eseguire la migrazione dei dati e convalidare e supportare la soluzione. | Esame, i costi variano in base alla regione |
 | [Esame MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: implementare la gestione delle informazioni sul prodotto; implementare la gestione dell'inventario; implementare e gestire i processi della catena di approvvigionamento e implementare la gestione del magazzino e la gestione dei trasporti ed eseguire i processi aziendali. | Esame, i costi variano in base alla regione |
 | [Esame MB-320: Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://www.microsoft.com/learning/exam-MB-320.aspx) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: impostare e configurare la produzione; creare e gestire la produzione e gli ordini snelli; e creare, elaborare e gestire ordini batch di produzione. | Esame, i costi variano in base alla regione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

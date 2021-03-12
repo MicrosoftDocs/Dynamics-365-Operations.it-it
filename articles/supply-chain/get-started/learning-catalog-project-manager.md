@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 5585ad96ec689b55c00e123fc465684436028823
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516671"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963612"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per responsabili dei progetti di implementazione con Dynamics 365 Supply Chain Management
 
@@ -107,6 +106,3 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Exam MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: utilizzare funzionalità e strumenti di implementazione comuni, configurare sicurezza, processi e opzioni, eseguire la migrazione dei dati e convalidare e supportare la soluzione. | Esame, i costi variano in base alla regione |
 | [Esame MB-320: Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: impostare e configurare la produzione; creare e gestire la produzione e gli ordini snelli; e creare, elaborare e gestire ordini batch di produzione. | Esame, i costi variano in base alla regione |
 | [Esame MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: implementare la gestione delle informazioni sul prodotto; implementare la gestione dell'inventario; implementare e gestire i processi della catena di approvvigionamento e implementare la gestione del magazzino e la gestione dei trasporti ed eseguire i processi aziendali. | Esame, i costi variano in base alla regione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

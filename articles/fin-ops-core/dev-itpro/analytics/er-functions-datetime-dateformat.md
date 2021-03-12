@@ -3,7 +3,7 @@ title: Funzione ER DATEFORMAT
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione DATEFORMAT della creazione di report elettronici (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684934"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826013"
 ---
 # <a name="dateformat-er-function"></a>Funzione ER DATEFORMAT
 
@@ -52,19 +52,22 @@ Un valore di data che rappresenta la data da formattare.
 
 Formato della stringa di output.
 
+> [!NOTE]
+> La stringa di formato fa distinzione tra maiuscole e minuscole quando si utilizza un formato standard o un formato personalizzato. Ad esempio, l'identificatore di formato "d" [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) restituisce la data utilizzando il modello di data breve, mentre l'identificatore di formato "D" standard restituisce la data utilizzando il modello di data lunga. Inoltre, l'identificatore di formato "M" [personalizzato](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) restituisce il mese da 1 a 12, mentre l'identificatore di formato "m" personalizzato restituisce i minuti da 0 a 59.
+
 `culture`: *Stringa*
 
 La cultura da utilizzare per la formattazione.
 
 ## <a name="return-values"></a>Valori restituiti
 
-*Stringa*
+*String*
 
 Il valore di stringa risultante.
 
 ## <a name="usage-notes"></a>Note sull'utilizzo
 
-Quando la cultura non è definita come argomento della funzione richiamata, il valore di `culture` è definito dal contesto di chiamata. Ad esempio, se la funzione `DATEFORMAT` viene richiamata utilizzando la sintassi 1 in un formato creazione di report elettronici (ER) per un elemento **FILE** che è configurato per utilizzare la cultura tedesca, la conversione verrà effettuata utilizzando la cultura tedesca. Il valore `culture` predefinito è **EN-US**.
+Se la cultura non è definita come argomento della funzione richiamata, il valore di `culture` è definito dal contesto di chiamata. Ad esempio, se la funzione `DATEFORMAT` viene richiamata utilizzando la sintassi 1 in un formato creazione di report elettronici (ER) per un elemento **FILE** che è configurato per utilizzare la cultura tedesca, la conversione verrà effettuata utilizzando la cultura tedesca. Il valore `culture` predefinito è **EN-US**.
 
 ## <a name="example-1"></a>Esempio 1
 
@@ -77,6 +80,3 @@ Quando la cultura non è definita come argomento della funzione richiamata, il v
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di data e ora](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

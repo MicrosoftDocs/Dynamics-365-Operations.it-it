@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430963"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963740"
 ---
 # <a name="weighted-average-date"></a>Data media ponderata
 
@@ -51,7 +50,7 @@ Le transazioni di magazzino che escono dall'inventario, quali gli ordini cliente
 
 Le liquidazioni sono registrazioni di chiusura inventario che rettificano le uscite in base alla media ponderata corretta, calcolata alla data di chiusura. 
 
-**Nota:** per ulteriori informazioni sulle liquidazioni, vedere l'articolo sulla chiusura inventario. Negli esempi riportati di seguito è illustrato l'effetto dell'uso della media ponderata con cinque configurazioni:
+**Nota:** per ulteriori informazioni sulle liquidazioni, vedere l'articolo sulla chiusura inventario. Negli esempi riportati di seguito è illustrato l'effetto dell'uso della media ponderata con cinque configurazioni:
 
 -   Compensazione diretta con data media ponderata quando non è utilizzata l'opzione **Includi valore fisico**
 -   Liquidazione riepilogativa con data media ponderata quando non è utilizzata l'opzione **Includi valore fisico**
@@ -196,6 +195,3 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

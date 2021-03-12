@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f4f6a3fdf07ae267f92eedd312c6c721f18429
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692894"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798931"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurare i processi di approvazione in un flusso di lavoro
 
@@ -183,6 +183,3 @@ Un processo di approvazione è costituito da passaggi di approvazione. Per aggiu
 1. Nell'editor flusso di lavoro fare doppio clic sul processo di approvazione. Verranno visualizzati i passaggi del processo di approvazione.
 2. Per aggiungere un passaggio di approvazione, trascinarlo dall'area **Elementi flusso di lavoro** nella canvas.
 3. Per configurare un passaggio di approvazione, vedere [Configurare i passaggi di approvazione in un flusso di lavoro](configure-approval-step-workflow.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

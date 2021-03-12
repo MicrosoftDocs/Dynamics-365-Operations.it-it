@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile, LedgerJournalTransApprove, LedgerJournalTransAsset, LedgerJournalTransDaily, LedgerJournalTransVendInvoice, PurchTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264294
 ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2b014929ac2359ffa17975f673b72ebdc0c9ad41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09480b70fb68b2b523f5a5eb8076a2bff59376cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408083"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962638"
 ---
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a>Ammortamento manuale dei cespiti per l'Italia
 
@@ -46,6 +45,3 @@ La **Data d'esecuzione ammortamento** deve essere configurata al momento dell'ac
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

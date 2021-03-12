@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431606"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963690"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Attributi di progettazione e ricerca di attributi di progettazione
 
@@ -94,6 +93,3 @@ Per creare un prodotto di progettazione, aprire il la pagina **Prodotti rilascia
 È possibile utilizzare la ricerca degli attributi di progettazione per trovare i prodotti cercandone i valori. Pertanto, è possibile trovare facilmente i prodotti di progettazione in base alle loro caratteristiche. È possibile cercare i prodotti che appartengono a una categoria di prodotti di progettazione oppure eseguire la ricerca in tutti i prodotti di progettazione.
 
 La ricerca è disponibile nelle pagine dei dati di rappresentazione generale prodotto e negli articoli transazionali nel sistema, come gli ordini cliente. Per un articolo transazionale, è possibile utilizzare la pagina **Ricerca attributi di progettazione** per cercare un prodotto. È quindi possibile utilizzare il pulsante **Aggiungi come nuova riga** per aggiungere il prodotto alle righe dell'ordine cliente. I prodotti nei risultati di ricerca possono anche essere aggiunti direttamente all'ordine.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

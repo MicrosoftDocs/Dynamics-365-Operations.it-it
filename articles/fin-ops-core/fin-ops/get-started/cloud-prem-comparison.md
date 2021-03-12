@@ -3,7 +3,7 @@ title: Confronto tra funzionalità cloud e locali
 description: Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate.
 author: sericks007
 manager: AnnBe
-ms.date: 12/02/2020
+ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
+ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694569"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959896"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -120,8 +120,9 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 | Localizzazioni                        |                                                                                           | Sì       | Sì             |
 | Produzione                        |                                                                                           | Sì       | Sì             |
 | Offerta e pianificazione generale      |                                                                                           | Sì       | Sì             |
+| Ottimizzazione pianificazione                |                                                                                           | Sì       | Nessuno              |
 | App per dispositivi mobili, aree di lavoro e piattaforma |                                                                                           | Sì       | Sì             |
-| Integrazione di Office                   |                                                                                           | Sì       | Sì             |
+| Integrazione Office                   |                                                                                           | Sì       | Sì             |
 | Amministrazione organizzazione          |                                                                                           | Sì       | Sì             |
 | Approvvigionamento             |                                                                                           | Sì       | Sì             |
 |                                      | Collegamento al catalogo esterno dalla richiesta di acquisto                                   | Sì       | Nessuna              |
@@ -175,6 +176,3 @@ Per visualizzare un elenco delle capacità disponibili nelle distribuzioni local
 
 \* Negli ambienti locali, PerfTimer mostra solo i risultati per il client.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

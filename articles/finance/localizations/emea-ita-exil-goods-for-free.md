@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d8f9901a33cecfa0617bcaaa92738c0f527971e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6cb43394079f056ca0989f3ac99dcdac9dbce13e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408109"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962629"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
@@ -96,6 +95,3 @@ Quando si crea un ordine cliente per merci consegnate gratuitamente, il motivo d
 La stampa della fattura mostrerà il titolo **Fattura gratuita**. Inoltre, agli articoli verrà aggiunto il prefisso **Articolo gratuito:** se il flag **Merci gratuite** è attivo sul motivo di consegna utilizzato per l'ordine.
 
 ![Stampa della fattura gratuita](media/emea-ita-exil-free-tax-invoice-printout.jpg)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

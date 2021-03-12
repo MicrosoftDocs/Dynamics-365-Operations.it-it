@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
 ms.custom: ''
 ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 54582e6ca79eff02a056cb2c16baceecb626e9b9
-ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
+ms.openlocfilehash: dd947e064c09af6c3d02b2e42068024d0889583d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4592474"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962644"
 ---
 # <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 
@@ -90,6 +89,3 @@ L'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo st
 7. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Transazioni giustificativo**.
 8. Nella pagina **Transazioni giustificativo** aggiungere la colonna **Data transazione**.
 9. Verificare il campo **Data** sia impostato sul 31 dicembre e il campo **Data transazione** sia impostato sul 15 aprile.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b03e75d72d1d0b45e53141f08a8bbb47c6b24334
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ff8553011cc32d7c2aa919546c364e0796deebf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408110"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962632"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 
@@ -119,6 +118,3 @@ Le transazioni di simulazione possono essere esaminare in diversi report di cont
 2. Impostare **Transazioni giornale di registrazione di simulazione** su **Sì** nella finestra di dialogo **Rendiconto per dimensioni**.
 3. Selezionare un valore nel campo **Gruppo di giornali di registrazione di simulazione** e selezionare **OK**.
 4. Verificare che il report contenga transazioni di simulazione registrate e transazioni di contabilità generale standard.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

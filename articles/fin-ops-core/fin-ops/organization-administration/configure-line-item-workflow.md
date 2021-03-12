@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72719c9fd03f73b69b558fc0f08eed91ea94ee1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694361"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798831"
 ---
 # <a name="configure-line-item-workflows"></a>Configurare i flussi di lavoro voci
 
@@ -54,6 +54,3 @@ Per specificare di utilizzare lo stesso flusso di lavoro per elaborare tutte le 
     6. Per verificare la correttezza della configurazione del set di condizioni immesse, fare clic su **Test**. Nella pagina **Test condizione flusso di lavoro**, nell'area **Convalida condizione**, selezionare un record e fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite. Fare clic su **OK** o su **Annulla** per tornare alla pagina **Proprietà**.
 
     Nella scheda **Flusso di lavoro** selezionare il flusso di lavoro da utilizzare per elaborare le voci che soddisfano il set di condizioni definite.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

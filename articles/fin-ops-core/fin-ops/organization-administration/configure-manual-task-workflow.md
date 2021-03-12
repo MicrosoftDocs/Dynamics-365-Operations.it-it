@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109c047a35154f6d4c0ebcd71e1c72990d0f4971
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693380"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798807"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurare le attività manuali in un flusso di lavoro
 
@@ -381,6 +381,3 @@ Quando l'attività manuale viene assegnata a un utente, quest'ultimo dovrà eseg
 5. Selezionare la casella di controllo **Delega** se si desidera consentire all'utente di assegnare l'attività a un altro utente.
 6. Selezionare la casella di controllo **Riassegna** se si desidera consentire all'utente di riassegnare l'attività a un altro utente nella coda di elementi di lavoro.
 7. Selezionare la casella di controllo **Rilascio** se si desidera consentire all'utente di riassegnare l'attività alla coda di elementi di lavoro. Un altro utente potrà quindi completare l'attività.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

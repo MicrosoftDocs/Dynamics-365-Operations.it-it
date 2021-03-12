@@ -10,15 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: 818b87d13ffddb00bf09c6055769c5ea25e0f452
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 61bcaf9ba78721492dc9f4ecb8cabbf521c14072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645264"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962639"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
@@ -275,6 +274,3 @@ Se un tipo di documento richiesto non è coperto dai valori nell'elenco preceden
 - Registrazione del tipo di documento fattura
 
 Per ulteriori informazioni, vedere [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

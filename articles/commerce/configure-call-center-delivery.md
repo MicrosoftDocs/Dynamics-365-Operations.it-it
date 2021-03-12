@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413361"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963112"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
@@ -95,6 +94,3 @@ Se l'impostazione **Attiva completamento ordine** è disattivato, gli utenti dev
 Ad esempio, per gli ordini che verranno spediti il giorno successivo per via aerea, il prelievo dal magazzino deve avvenire alle 13.00 di ogni giorno. In questo caso, è possibile creare un codice di urgenza e collegarlo a un qualsiasi modo di consegna del giorno successivo che viene configurato nel sistema. Quando il magazzino crea l'ondata di prelievi, è possibile utilizzare il codice di urgenza appropriato nel campo **Urgente** come filtro, in modo che il prelievo venga eseguito solo per gli ordini con modi di consegna collegati a quel codice.
 
 Inoltre, quando viene immesso un ordine di servizio clienti, è possibile applicare manualmente un codice di urgenza all'intestazione dell'ordine cliente o a una singola riga dell'ordine cliente. Anche in questo caso, il codice può essere utilizzato per l'ordinamento e i report. Talvolta un ordine deve essere gestito con attenzione a causa di un problema con il servizio clienti. In questo caso, è possibile applicare un codice di urgenza specifico all'intestazione o alle righe ordine per aiutare a identificare e ad assegnare una priorità all'ordine durante il processo di evasione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

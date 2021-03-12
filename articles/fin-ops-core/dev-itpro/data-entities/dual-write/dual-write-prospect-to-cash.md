@@ -3,7 +3,7 @@ title: Prospect to cash in doppia scrittura
 description: Questo argomento fornisce informazioni sul prospect to cash in doppia scrittura.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683649"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959603"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -37,6 +37,11 @@ Nelle interfacce delle app, è possibile accedere agli stati di elaborazione e a
 
 ![Flusso di dati doppia scrittura in prospect to cash](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Per informazioni sull'integrazione di clienti e contatti, vedere [Gestione integrata dei dati dei clienti](customer-mapping.md). Per informazioni sull'integrazione del prodotto, vedere [Esperienza prodotto unificata](product-mapping.md).
+
+> [!NOTE]
+> In Dynamics 365 Sales, sia il prospect che il cliente fanno riferimento a un record nella tabella **Account** dove la colonna **RelationshipType** è **Prospect** o **Cliente**. Se la tua logica aziendale include un processo di qualidica **Account** in cui il record **Account** viene creato e qualificato come prospect prima e poi come cliente, quel record si sincronizza con l'app Finance and Operations solo quando è un cliente (`RelationshipType=Customer`). Se desideri che la riga **Account** venga sincronizzata come prospecr, è necessaria una mappa personalizzata per integrare i dati del prospect.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
 
 Prima di poter sincronizzare le offerte di vendita, è necessario aggiornare le seguenti impostazioni.
@@ -46,11 +51,11 @@ Prima di poter sincronizzare le offerte di vendita, è necessario aggiornare le 
 In Sales, andare a **Impostazioni \> Amministrazione \> Impostazioni di sistema \> Vendite** e assicurarsi che siano configurate le seguenti impostazioni:
 
 - L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
-- Il campo **Metodo di calcolo sconto** sia impostato su **Voce**.
+- La colonna **Metodo di calcolo sconto** sia impostato su **Voce**.
 
 ### <a name="sites-and-warehouses"></a>Siti e magazzini
 
-In Supply Chain Management, i campi **Sito** e **magazzino** sono obbligatori per le righe di offerta e le righe di ordine. Se si imposta il sito e il magazzino nelle impostazioni ordine predefinite, tali campi verranno automaticamente impostati quando si aggiunge un prodotto a una riga di offerta o a una riga di ordine. 
+In Supply Chain Management, le colonne **Sito** e **magazzino** sono obbligatorie per le righe di offerta e le righe di ordine. Se si imposta il sito e il magazzino nelle impostazioni ordine predefinite, tali colonne verranno automaticamente impostati quando si aggiunge un prodotto a una riga di offerta o a una riga di ordine. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Sequenze numeriche per offerte e ordini
 
@@ -62,9 +67,9 @@ Ad esempio, la sequenza numerica in Supply Chain Management è **1, 2, 3, 4, 5, 
 
 Le offerte di vendita possono essere create in Sales o in Supply Chain Management. Se si crea un'offerta in Sales, viene sincronizzata con Supply Chain Management in tempo reale. Analogamente se si crea un'offerta in Supply Chain Management, viene sincronizzata con Sales in tempo reale. Notare i punti seguenti:
 
-+ È possibile aggiungere uno sconto al prodotto sull'offerta. In questo caso, lo sconto verrà sincronizzato con Supply Chain Management. I campi **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione non supporta il mapping di integrazione. I campi relativi a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestiti e mantenuti in Supply Chain Management.
-+ I campi **% sconto**, **Sconto** e **Importo trasporto** nell'intestazione dell'offerta di vendita sono di sola lettura.
-+ I campi **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
++ È possibile aggiungere uno sconto al prodotto sull'offerta. In questo caso, lo sconto verrà sincronizzato con Supply Chain Management. Le colonne **Sconto**, **Spese** e **Imposta** nell'intestazione sono controllati da un'impostazione in Supply Chain Management. Questa impostazione non supporta il mapping di integrazione. Le colonne relative a **Prezzo**, **Sconto**, **Spese** e **Imposta** sono gestite e mantenute in Supply Chain Management.
++ Le colonne **% sconto**, **Sconto** e **Importo trasporto** nell'intestazione dell'offerta di vendita sono di sola lettura.
++ Le colonne **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono incluse nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
 
 Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il parametro della **riga di richiesta di offerta della creazione rapida**. La riattivazione del parametro consente di continuare a creare le righe di richiesta di offerta utilizzando la funzione di creazione rapida.
 1. Passare all'applicazione Dynamics 365 Sales.
@@ -82,7 +87,7 @@ Gli ordini cliente possono essere creati in Sales o in Supply Chain Management. 
 + Calcolo e arrotondamento dello sconto:
 
     - Il modello di calcolo dello sconto in Sales differisce da quello in Supply Chain Management. In Supply Chain Management, l'importo di sconto finale in una riga di vendita può derivare da una combinazione di importi e percentuali di sconto. Se questo importo di sconto finale viene diviso per la quantità nella riga, è possibile che venga applicato l'arrotondamento. Tuttavia, questo arrotondamento non viene considerato se un importo di sconto per unità arrotondato viene sincronizzato in Sales. Per garantire la corretta sincronizzazione in Sales dell'intero importo di sconto da una riga di vendita in Supply Chain Management, l'intero importo deve essere sincronizzato senza essere diviso per la quantità della riga. Di conseguenza, è necessario definire il metodo di calcolo sconto come **Voce** in Sales.
-    - Quando una riga dell'ordine cliente viene sincronizzata da Sales in Supply Chain Management, viene utilizzato l'intero importo di sconto riga. Poiché Supply Chain Management non include un campo in cui registrare l'intero importo di sconto per una riga, l'importo viene diviso per la quantità e registrato nel campo **Sconto riga**. Qualsiasi arrotondamento durante questa divisione viene registrato nel campo **Addebiti vendite** nella riga di vendita.
+    - Quando una riga dell'ordine cliente viene sincronizzata da Sales in Supply Chain Management, viene utilizzato l'intero importo di sconto riga. Poiché Supply Chain Management non include una colonna in cui registrare l'intero importo di sconto per una riga, l'importo viene diviso per la quantità e registrato nella colonna **Sconto riga**. Qualsiasi arrotondamento durante questa divisione viene registrato nella colonna **Addebiti vendite** nella riga di vendita.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Esempio: Sincronizzazione da Sales a Supply Chain Management
 
@@ -98,7 +103,7 @@ Se si esegue la sincronizzazione da Supply Chain Management a Sales, si ottiene 
 
 ## <a name="dual-write-solution-for-sales"></a>Soluzione di doppia scrittura per Sales
 
-Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagina. La maggior parte di questi campi appare nella scheda **Integrazione** in Sales. Per ulteriori informazioni su come vengono mappati i campi di stato, vedere [Configurare il mapping per i campi di stato dell'ordine cliente](sales-status-map.md).
+Nuove colonne sono state aggiunte alla tabella **Ordine** e visualizzati nella pagina. La maggior parte di queste colonne appare nella scheda **Integrazione** in Sales. Per ulteriori informazioni su come vengono mappate le colonne di stato, vedere [Configurare il mapping per le colonne di stato dell'ordine cliente](sales-status-map.md).
 
 + I pulsanti **Crea fattura** e **Annulla ordine** nella pagina **Ordine cliente** sono nascosti in Sales.
 + Il valore dello **stato dell'ordine cliente** rimarrà **attivo** per garantire che le modifiche da Supply Chain Management possano essere applicate all'ordine cliente in Sales. Per controllare questo comportamento, impostare il valore **Codice stato \[Stato\]** su **Attivo**.
@@ -107,18 +112,18 @@ Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagi
 
 Le fatture di vendita vengono create in Supply Chain Management e sincronizzate in Sales. Notare i punti seguenti:
 
-+ Un campo **Numero fattura** è stato aggiunto all'entità **Fattura** ed è visualizzato nella pagina.
++ Un colonna **Numero fattura** è stato aggiunto alla tabella **Fattura** ed è visualizzato nella pagina.
 + Il pulsante **Crea fattura** nella pagina **Ordine cliente** è nascosto perché le fatture verranno create in Supply Chain Management e sincronizzate in Sales. La pagina **Fattura** non è modificabile poiché le fatture verranno sincronizzate da Supply Chain Management.
 + Il valore **Stato dell'ordine cliente** diventa automaticamente **Fatturato** dopo la sincronizzazione della fattura correlata da Supply Chain Management in Sales. Inoltre, il proprietario dell'ordine cliente da cui la fattura è stata creata viene assegnato come proprietario della fattura. Di conseguenza, il proprietario dell'ordine cliente può visualizzare la fattura.
-+ I campi **Termini di trasporto**, **Termini di consegna** e **Modalità di consegna** non vengono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
++ Le colonne **Termini di trasporto**, **Termini di consegna** e **Modalità di consegna** non vengono incluse nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
 
 ## <a name="templates"></a>Modelli
 
 Prospect per uno scenario di liquidazione include una raccolta di mappe della tabella di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App di Finance and Operations | App basate su modello in Dynamics 365 | descrizione |
+| App di Finance and Operations | App di interazione con i clienti | descrizione |
 |-----------------------------|-----------------------------------|-------------|
-| Intestazioni fattura di vendita V2    | fatture                          |             |
+| Intestazioni fattura di vendita V2    | fatture                          | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
 | Righe fattura di vendita V2      | invoicedetails                    |             |
 | Intestazioni ordine cliente CDS     | salesorders                       |             |
 | Righe ordine cliente CDS       | salesorderdetails                 |             |
@@ -135,6 +140,11 @@ Ecco le mappe della tabella di base correlate per prospect per uno scenario di l
 + [Tutti i prodotti per msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Listino prezzi](product-mapping.md)
 
+## <a name="limitations"></a>Limiti
+- Gli ordini di reso non sono supportati.
+- Le note di credito non sono supportate.
+- Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
@@ -150,6 +160,3 @@ Ecco le mappe della tabella di base correlate per prospect per uno scenario di l
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
