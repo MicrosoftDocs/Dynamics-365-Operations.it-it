@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 9a033258feeccf172f1e2c03a9f49305054b24c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972133"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Panoramica dei processi di fatturazione automatizzati dei fornitori
 
@@ -69,6 +68,3 @@ L'area di lavoro **Inserimento fatture fornitore** ti consente di concentrarti s
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automazione delle fatture fornitore: riprendere l'elaborazione dell'automazione per più fatture
 Quando una fattura importata non viene inviata correttamente al flusso di lavoro tramite il processo automatizzato, il sistema la rimuoverà dall'ulteriore elaborazione automatizzata. Un addetto alla contabilità fornitori può esaminare e modificare la fattura prima che il processo automatizzato la invii nuovamente al flusso di lavoro. Quando un motivo di errore può essere risolto con la stessa correzione per più fatture, puoi riavviare il processo automatizzato nella pagina **Riprendi l'elaborazione automatica delle fatture**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

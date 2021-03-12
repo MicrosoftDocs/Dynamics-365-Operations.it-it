@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444913"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971280"
 ---
 # <a name="budget-planning"></a>Pianificazione del budget
 
@@ -106,7 +105,7 @@ La pianificazione del budget utilizza criteri di sicurezza per configurare l'acc
 
 2.5. Selezionare "Concedi accesso a organizzazioni specifiche". Selezionare la gerarchia organizzativa creata nel primo passaggio. Selezionare il nodo Dati finanziari e fare clic sul pulsante Concedi con figli. 
 
-***Importante*** *Quando si esegue questa attività, assicurarsi di essere nel contesto della persona giuridica DEMF poiché la sicurezza organizzativa viene applicata per la persona giuridica* 
+**_Importante_*: quando si esegue questa attività, assicurarsi di essere nel contesto della persona giuridica DEMF poiché la sicurezza organizzativa viene applicata per la persona giuridica* 
 
 ### <a name="task-3-create-scenarios"></a>Attività 3: creare scenari
 3.1. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella pagina Scenari, prendere nota degli scenari che verranno utilizzati in seguito in questo lab: Valori effettivi dell'anno precedente e In budget. 
@@ -247,6 +246,3 @@ C. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Confi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

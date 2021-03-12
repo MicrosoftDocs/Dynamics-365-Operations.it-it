@@ -3,24 +3,23 @@ title: Utilizzare articoli serializzati nel POS
 description: Questo argomento spiega come gestire gli articoli serializzati nell'applicazione POS (Point of Sale).
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972557"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Utilizzare articoli serializzati nel POS
 
@@ -90,11 +89,49 @@ Per abilitare tale convalida, come prerequisito, è necessario pianificare i seg
 - **Retail e Commerce** > **Vendita al dettaglio e commercio IT** > **Prodotti e inventario** > **Disponibilità prodotto con dimensioni di tracciabilità**
 - **Retail e Commerce** > **Programmazioni della distribuzione** > **1130** (**Disponibilità del prodotto**)
 
+## <a name="sell-serialized-items-in-pos"></a>Vendere gli articoli serializzati in POS
+
+Sebbene l'applicazione POS abbia sempre supportato la vendita di articoli serializzati, nella versione Commerce 10.0.17 e successive, le organizzazioni possono abilitare funzionalità che migliorano la logica di business che viene attivata quando si vendono prodotti configurati per la tracciabilità del numero di serie.
+
+Quando la funzionalità **Convalida avanzata del numero di serie per acquisizione ordini POS ed evasione ordini** è abilitata, le seguenti configurazioni di prodotto vengono valutate quando si vendono prodotti serializzati in POS:
+
+- **Tipo numero di serie** impostazione per il prodotto (**attivo** o **attivo in vendite**).
+- **Emissione in bianco consentita** impostazioni per il prodotto.
+- **Inventario fisico negativo** impostazioni per il prodotto e/o il magazzino di vendita.
+
+### <a name="active-serial-configurations"></a>Configurazioni dei numeri di serie attivi
+
+Quando gli articoli vengono venduti in POS configurati con una dimensione di tracciabilità del numero di serie **Attiva**, il POS avvia la logica di convalida che impedisce agli utenti di completare la vendita di un articolo serializzato con un numero di serie che non viene trovato nell'inventario corrente del magazzino di vendita. Esistono due eccezioni a questa regola di convalida:
+
+- Se l'elemento è configurato anche con l'opzione **Emissione in bianco consentita** abilitata, gli utenti possono ignorare l'immissione del numero di serie e vendere l'articolo senza designazione del numero di serie.
+- Se l'articolo e/o il magazzino di vendita è configurato con **Inventario fisico negativo** abilitato, l'applicazione accetta e vende un numero di serie di cui non è possibile confermare la presenza nell'inventario del magazzino da cui viene venduto. Questa configurazione consente alla transazione di magazzino per quello specifico articolo/numero di serie di diventare negativa e quindi il sistema consentirà la vendita di numeri di serie sconosciuti.
+
+> [!IMPORTANT]
+> Per garantire che l'applicazione POS possa convalidare correttamente se i numeri di serie venduti per gli articoli di tipo di numero di serie **Attivo** sono nell'inventario del magazzino di vendita, è necessario che le organizzazioni eseguano il processo **Disponibilità prodotto con dimensioni di tracciabilità** in Commerce headquarters e il processo di distribuzione della disponibilità del prodotto di accompagnamento **1130** in Commerce headquarters su base frequente. Quando il nuovo inventario serializzato viene ricevuto nei magazzini di vendita, affinché il POS possa convalidare la disponibilità dell'inventario dei numeri di serie venduti, la rappresentazione generale dell'inventario deve aggiornare frequentemente il database del canale con i dati sulla disponibilità dell'inventario più aggiornati. Il processo **Disponibilità prodotto con dimensioni di tracciabilità** acquisisce un'istantanea corrente dell'inventario principale, inclusi i numeri di serie, per tutti i magazzini dell'azienda. Il processo di distribuzione **1130** prende l'istantanea dell'inventario e la condivide con tutti i database di canale configurati.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Attivare le configurazioni dei numeri di serie nelle vendite
+
+Gli articoli configurati con dimensione di numero di serie **Attiva in processo di vendita** non passano attraverso alcuna logica di convalida dell'inventario, poiché questa configurazione implica che i numeri di serie dell'inventario non sono preregistrati in magazzino e i numeri di serie vengono acquisiti solo al momento della vendita.  
+
+Se **Emissione in bianco consentita** è configurato anche per gli articoli con l'opzione **Attiva in processo di vendita** configurata, l'immissione del numero di serie può essere ignorata. Se **Emissione in bianco consentita** non è configurato, l'applicazione richiede all'utente di inserire un numero di serie, anche se non verrà convalidato rispetto all'inventario disponibile.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Applicare i numeri di serie durante la creazione delle transazioni POS
+
+L'applicazione POS richiede immediatamente agli utenti l'acquisizione del numero di serie quando si vende un articolo serializzato, ma l'applicazione consente agli utenti di saltare l'immissione dei numeri di serie fino a un certo punto del processo di vendita. Quando l'utente inizia ad acquisire il pagamento, l'applicazione applica e richiede l'immissione del numero di serie per tutti gli articoli che non sono configurati per essere evasi tramite spedizioni o ritiri futuri. Tutti gli articoli con numero di serie configurati per il pagamento in contanti o l'evasione degli ordini richiedono che l'utente acquisisca il numero di serie (o accetti di lasciarlo vuoto se la configurazione dell'articolo lo consente) prima di completare la vendita.
+
+Per gli articoli con numero di serie venduti per il ritiro o la spedizione futuri, gli utenti POS possono saltare l'inserimento iniziale del numero di serie e completare comunque la creazione dell'ordine del cliente.   
+
+> [!NOTE]
+> Quando si vendono o si evadono prodotti con numero di serie tramite l'applicazione POS, viene applicata una quantità di "1" per gli articoli con numero di serie nella transazione di vendita. Questo è il risultato del modo in cui le informazioni sul numero di serie vengono tracciate nella riga di vendita. Quando si vende o si evade una transazione per più articoli con numero di serie tramite POS, ogni riga di vendita deve essere configurata solo con una quantità di "1". 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Applicare i numeri di serie durante l'evasione o il ritiro dell'ordine cliente
+
+Quando si evadono le righe ordine cliente per i prodotti con numero di serie utilizzando l'operazione **Evasione ordini** in POS, POS impone l'acquisizione del numero di serie prima dell'evasione finale. Pertanto, se un numero di serie non è stato fornito durante l'acquisizione dell'ordine iniziale, deve essere acquisito durante i processi di prelievo, imballaggio o spedizione nel POS. Ad ogni passaggio viene eseguita una convalida e all'utente verranno richiesti solo i dati del numero di serie se mancano o non sono più validi. Ad esempio, se un utente salta le fasi di prelievo o imballaggio e avvia immediatamente una spedizione e per la riga non è stato registrato un numero di serie, il POS richiederà l'inserimento del numero di serie prima del completamento della fase di fatturazione finale. Quando si impone l'acquisizione del numero di serie durante le operazioni di evasione degli ordini in POS, tutte le regole menzionate in precedenza in questo argomento vengono comunque applicate. Solo gli articoli con numero di serie configurati come **Attivo** passano attraverso una convalida dello stock di inventario del numero di serie. Gli articoli configurati come **Attivo nel processo di vendita** non verranno convalidati. Se **Inventario fisico negativo** è consentito i prodotti **attivi**, sarà accettato qualsiasi numero di serie, indipendentemente dalla disponibilità di magazzino. Per gli articoli **attivi** e **attivi nel processo di vendita**, se **Emissione in bianco consentita** è configurato, un utente può lasciare i numeri di serie vuoti se lo desidera durante le fasi di prelievo, imballaggio e spedizione.
+
+Le convalide dei numeri di serie si verificheranno anche quando un utente esegue le operazioni di ritiro sugli ordini dei clienti nel POS. L'applicazione POS non consente di finalizzare un ritiro su un prodotto serializzato a meno che non superi le convalide come menzionato in precedenza. Le convalide sono sempre basate sulla dimensione di tracciabilità del prodotto e sulle configurazioni del magazzino di vendita. 
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Operazione di magazzino in ingresso in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operazione di magazzino in uscita in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

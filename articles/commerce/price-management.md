@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972457"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -240,6 +239,3 @@ Inoltre, **solo** il motore di determinazione del prezzo supporta le seguenti fu
 Il prezzo è uno dei fattori più importanti che governano le decisioni di acquisto di molti clienti e la maggior parte di questi confronta i prezzi in vari siti prima di effettuare un acquisto. Per avere la certezza di fornire prezzi concorrenziali, i rivenditori vigilano sui loro concorrenti e spesso eseguono promozioni. Per consentire ai rivenditori di attirare clienti, è molto importante che la ricerca dei prodotti, la funzionalità di esplorazione, gli elenchi e la pagina dei dettagli visualizzino i prezzi più accurati.
 
 In una versione imminente di Commerce, l'API (Application Programming Interface) **GetActivePrices** restituirà i prezzi che includono sconti semplici (ad esempio sconti a riga singola che non dipendono da altri articoli nel carrello). In questo modo, i prezzi visualizzati sono prossimi all'importo effettivo che i clienti pagheranno per gli articoli. Questa API includerà tutti i tipi di sconti semplici: sconti in base all'affiliazione, alla fedeltà, al catalogo e al canale. Inoltre, l'API restituirà i nomi e le informazioni di validità per gli sconti applicati, di modo che i rivenditori possano fornire una descrizione più dettagliata del prezzo e creare un senso di urgenza se la validità dello sconto scade ben presto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

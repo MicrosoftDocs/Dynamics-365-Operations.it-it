@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b5a90b96ac598d145e2b0697627de04731b55f59
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9c680ea16e9f64107fde081c7e7763697356dcc1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444986"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971380"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Confermare gli scadenzari pagamenti di Leasing cespite in un batch
 
@@ -42,6 +41,3 @@ Per confermare più scadenziari di pagamento, segui questi passaggi.
     - Per confermare tutti i libri, attiva il parametro **Per tutti i libri**.
 
 Le informazioni per i libri appena confermati sono mostrate nella pagina **Libri confermati**. Dopo la conferma degli scadenziari di pagamento, le scritture contabili di riconoscimento iniziale possono essere registrate a fronte dei leasing.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

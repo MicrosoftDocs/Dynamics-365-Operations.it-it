@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento fornitore parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
+title: Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
 description: In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a30bd1c032d27405c17388465eb813d6c87c270
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444629"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971980"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidare un pagamento fornitore parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
 
 [!include [banner](../includes/banner.md)]
 
@@ -122,6 +121,3 @@ April, quindi, registra il pagamento. Quando April apre la pagina **Transazioni 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

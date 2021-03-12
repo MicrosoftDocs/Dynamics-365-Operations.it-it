@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413468"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972709"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinare la combinazione ottimale di sconti sovrapposti
 
@@ -84,6 +83,3 @@ Per risolvere il problema di un numero che cresce in modo esponenziale delle com
 ![Formula per il calcolo del valore marginale](./media/overlapping-discount-combo-06.jpg)
 
 Dopo che il valore marginale di ciascuno sconto in un set di prodotti condivisi viene calcolato, gli sconti vengono applicati ai prodotti condivisi nell'ordine, esaustivamente, dal valore marginale più elevato al valore marginale più basso. Per questo metodo, tutte le possibilità di sconto rimanenti non vengono confrontate ogni volta dopo che una singola istanza di uno sconto viene applicata. Invece, gli scontisovrapposti vengono confrontati una volta e quindi applicati nell'ordine. Nessun confronto aggiuntivo viene eseguito. È possibile configurare la soglia per passare al metodo del valore marginale nella scheda **Sconto** della pagina **Parametri di commercio**. Il tempo accettabile di calcolo dello sconto totale varia nei settori di vendita al dettaglio. Tuttavia, questo tempo rientra in genere nell'intervallo compreso tra decine di millisecondi e un secondo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

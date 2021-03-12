@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413331"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972432"
 ---
 # <a name="retail-price-reports"></a>Report dei prezzi di vendita al dettaglio
 
@@ -44,6 +43,3 @@ Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per pun
 | Visualizza prodotti con variazioni di prezzo | L'impostazione di questa opzione su **Sì** visualizzerà i prezzi solo per le date in cui il prezzo è stato modificato. Il prezzo di *un giorno prima* della **data iniziale** selezionata verrà sempre visualizzato, di modo che il responsabile punto vendita possa facilmente identificare i prodotti senza prezzi modificati per l'intera durata selezionata nonché visualizzare il prezzo corrente. |
 
 Dopo la generazione del report, il file di Excel può essere scaricato per tutti i requisiti di filtro aggiuntivi. Il report dei prezzi può essere utilizzato per verificare i prezzi storici dei prodotti per le date passate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

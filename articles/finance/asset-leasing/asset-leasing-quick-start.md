@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: 97fcaeb091d91c3b214451b0b156382e450e60f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4444958"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971505"
 ---
 # <a name="asset-leasing-get-started"></a>Attività iniziali per il leasing di cespiti
 
@@ -253,6 +252,3 @@ Completa i passaggi seguenti per creare un nuovo leasing.
 
    Nella pagina **Transazioni di obbligazione sul leasing** sono visualizzati la rilevazione iniziale, il pagamento degli interessi del leasing, il canone di leasing e il saldo dell'obbligazione sul leasing. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

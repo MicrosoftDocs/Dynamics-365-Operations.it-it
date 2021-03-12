@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444939"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972241"
 ---
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
@@ -57,6 +56,3 @@ Le funzionalità di distribuzione contabile generiche forniscono le seguenti opz
 Nella versione 10.0.13, è stata aggiunta una funzionalità che convalida la tabella di distribuzione contabile per garantire che i nuovi campi siano configurati correttamente. Questa funzionalità è chiamata **Abilita una convalida aggiuntiva dei dati per i documenti utilizzando il framework di contabilità dei documenti di origine**. Per utilizzare la funzionalità, è necessario abilitarla utilizzando l'area di lavoro **Gestione delle funzionalità**. Per abilitare la funzionalità, cerca il nome della funzionalità nel campo **Cerca** della pagina **Gestione funzionalità**, quindi seleziona **Abilita ora**.
 
 Per ulteriori informazioni, vedere [Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture fornitore](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

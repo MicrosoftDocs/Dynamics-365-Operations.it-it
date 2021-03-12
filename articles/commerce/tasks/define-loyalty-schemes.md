@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb1afb0ebce742fa2f6accd65e553df6607107a4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972282"
 ---
 # <a name="define-loyalty-schemes"></a> Definire schemi di programma fedeltà
 
@@ -70,6 +69,3 @@ In questa procedura vengono descritti i passaggi per definire uno schema del pro
 27. Fare clic su Salva.
     * Se si modificano i canali per uno schema del programma fedeltà, è necessario eseguire Elabora programmi fedeltà. In tal modo, i canali riceveranno gli schemi del programma fedeltà aggiornati.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
