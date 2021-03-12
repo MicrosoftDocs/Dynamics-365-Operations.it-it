@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965679"
 ---
 # <a name="system-directed-cluster-picking"></a>Prelievo cluster diretto dal sistema
 
@@ -207,6 +206,3 @@ Prima di poter impostare il prelievo cluster diretto al sistema, è necessario c
 1. L'ultimo passaggio sul dispositivo mobile consiste nell'**inserire** il cluster nella posizione finale. Selezionare **OK**.
     - Quando l'operazione di inserimento viene confermata, il cluster viene chiuso e suddiviso, in base al valore impostato per il campo **Suddividi il cluster a** nel profilo cluster. Anche gli ID lavoro vengono chiusi.
 1. Sul dispositivo mobile viene visualizzato il messaggio "Cluster completato".
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

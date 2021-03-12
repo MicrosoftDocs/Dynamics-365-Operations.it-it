@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430831"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965807"
 ---
 # <a name="service-subscriptions"></a>Sottoscrizioni assistenza
 
@@ -38,6 +37,3 @@ Un codice periodo indica la durata del periodo della commissione di sottoscrizio
 Questo codice viene definito nel gruppo di sottoscrizioni assistenza. La definizione del codice per le sottoscrizioni avviene pertanto tramite il gruppo di sottoscrizioni assistenza. Nelle nuove sottoscrizioni create sarà presente una data di inizio suggerita. Questa è la data di inizio del periodo (se si tratta del primo periodo creato) o la fine del periodo precedente (se si tratta del secondo periodo o di un periodo successivo).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

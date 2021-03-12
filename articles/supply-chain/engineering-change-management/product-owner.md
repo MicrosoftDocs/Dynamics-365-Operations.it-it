@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431597"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967335"
 ---
 # <a name="product-owners"></a>Proprietari del prodotto
 
@@ -61,6 +60,3 @@ Ad esempio, il prodotto X è assegnato al gruppo di proprietari di prodotto *Arm
 ## <a name="product-owners-and-approvals"></a>Proprietari e approvazioni dei prodotti
 
 Poiché i proprietari dei prodotti sanno se modifiche di progettazione specifiche andranno a vantaggio dei loro prodotti, spesso ha senso includerle come parte del processo di approvazione nella gestione delle modifiche di progettazione. È possibile implementare questo approccio impostando i proprietari di prodotto come fornitori partecipanti nei flussi di lavoro utilizzati per la gestione delle modifiche di progettazione. Il sistema assegnerà quindi le attività di approvazione nei flussi di lavoro, in base ai prodotti presenti nelle richieste di modifica di progettazione e negli ordini di modifica di progettazione. Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

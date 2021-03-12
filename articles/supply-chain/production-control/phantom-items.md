@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b14bebadd7088c9bbcfb6b1c5df1fe1a3c98694d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02c4994fe6df192937f92f0167a3127ff2a8a588
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966331"
 ---
 # <a name="phantom-items"></a>Articoli fittizi
 
@@ -73,6 +72,3 @@ La DBA fittizia può essere utilizzata anche per una DBA con una rete di cicli d
 Nella figura seguente, (a) è la DBA per il prodotto G e la parte F e (b) è la scheda cicli di lavorazione per il prodotto G e la parte F.
 
 ![Prodotto G e parte F con le schede cicli di lavorazione](media/product-G-part-F-with-route-sheet.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

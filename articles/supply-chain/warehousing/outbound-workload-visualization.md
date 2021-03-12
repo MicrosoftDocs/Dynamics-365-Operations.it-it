@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965554"
 ---
 # <a name="outbound-workload-visualization"></a>Visualizzazione del carico di lavoro in uscita
 
@@ -98,6 +97,3 @@ Nella figura seguente è illustrato un esempio del grafico risultante.
 ![Visualizzazione della zona e dello stato di lavoro](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
 
 Questo grafico mostra due zone denominate **FLOOR** e **BULK**, più una zona denominata **Blank**. La zona **Blank** rappresenta tutte le righe di lavoro che non sono membri di nessuna zona. Il grafico mostra sempre tutti i dati filtrati non correlati come **Blank**, per fornire la massima visibilità possibile. Nella zona **FLOOR**, il grafico mostra tre righe chiuse e quattro righe aperte. Nella zona **BULK**, il grafico mostra quattro righe chiuse, una riga aperta e 24 righe annullate. Infine, il grafico mostra otto righe chiuse che non fanno parte di alcuna zona e sono quindi elencate come **Blank**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

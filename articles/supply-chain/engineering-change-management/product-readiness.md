@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431604"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967260"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
@@ -148,6 +147,3 @@ Per ogni riga che si aggiunge, impostare i seguenti campi.
 | Gestione questionari | Seleziona il questionario da utilizzare per l'elenco di controllo. L'elenco di controllo è un elenco di controllo locale nella società in cui viene effettuato il controllo di disponibilità. Il sistema deve essere in grado di valutare se l'elenco di controllo ha una risposta corretta. Pertanto, l'elenco di controllo deve essere impostato in modo che venga eseguita una valutazione basata su risposte corrette. Per ulteriori informazioni su come creare questionari, vedere [Utilizzo dei questionari](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) e gli argomenti correlati. |
 | Approvazione automatica | I record del controllo di disponibilità includono una casella di controllo **Approvato** che indica lo stato di approvazione. Selezionare la casella di controllo **Approvazione automatica** per i controlli che devono essere impostati su approvato immediatamente dopo essere stati completati dall'utente assegnato. Deselezionare questa casella di controllo per richiedere l'approvazione esplicita come passaggio aggiuntivo. |
 | Obbligatorio | Selezionare questa casella di controllo per i controlli che devono essere completati dall'utente assegnato. I controlli obbligatori non possono essere ignorati. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431402"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967182"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 
@@ -140,6 +139,3 @@ Nei dettagli traccia sono incluse le informazioni sugli ordini di controllo qual
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>È possibile tracciare i co-prodotti e i sottoprodotti?
 È possibile tracciare i co-prodotti, ma non è possibile tracciare i sottoprodotti poiché a questi non vengono in genere assegnate le dimensioni di tracciabilità. Quando viene tracciato un articolo, i dettagli traccia includono eventuali co-prodotti correlati. Un nodo contenente un co-prodotto include la parola "co-prodotto" nei dettagli. È inoltre possibile visualizzare i dettagli relativi a un co-prodotto selezionando il nodo nei dettagli traccia e quindi facendo clic sulla scheda dettaglio **Produzione**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

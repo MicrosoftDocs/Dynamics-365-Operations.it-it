@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431563"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966107"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Spedire ordini come consegne dirette
 
@@ -82,6 +81,3 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
     - La pagina Consegna diretta agisce da workbench che fornisce all'addetto acquisti una panoramica di tutte le righe ordine cliente che devono essere consegnate direttamente e permette di creare i rispettivi ordini fornitore. Inoltre, è possibile visualizzare gli ordini di consegna diretta aperti e gli ordini confermati nelle schede Conferma e Consegna.  
     - Dopo aver creato un ordine di consegna diretta, questo viene spostato automaticamente nella scheda Conferma. È possibile scegliere di confermare l'ordine direttamente in questa pagina. Quando l'acquisto viene confermato, viene automaticamente spostato nella scheda Consegna da cui è possibile registrarne la ricezione.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
