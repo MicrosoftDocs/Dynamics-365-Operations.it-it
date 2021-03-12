@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aff3bee942f3443eb604311d1d804b66421e332d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31f325d2614d0a01192a0157ee0e89514bc51caa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985763"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Impostare e gestire immagini per Modern POS (MPOS)
 
@@ -209,6 +208,3 @@ Le immagini di catalogo, categoria, dipendente e cliente che devono essere utili
 5. Utilizzare un processo analogo per altre le entità, ad esempio categoria, dipendente e cliente.
 
     [![Immagine offline](./media/offline2.png)](./media/offline2.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

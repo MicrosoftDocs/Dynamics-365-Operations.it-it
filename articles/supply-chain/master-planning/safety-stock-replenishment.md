@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987256"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Garantire le scorte di sicurezza per gli articoli
 
@@ -116,6 +115,3 @@ L'evasione della transazione del fabbisogno di scorte di sicurezza perde priorit
 Durante la fase di copertura della pianificazione generale, il rifornimento delle scorte di sicurezza non perderà più priorità. Le scorte disponibili in magazzino possono essere utilizzate prima di qualsiasi altro tipo di domanda. Durante il calcolo del ritardo, verrà aggiunta nuova logica per superare le righe di vendita con ritardo, il fabbisogno della riga DBA e tutti gli altri tipi di domanda, per determinare se possono essere consegnati in tempo, a condizione che vengano utilizzate le scorte di sicurezza. Se il sistema determina che può ridurre al minimo i ritardi usando le scorte di sicurezza, le righe di vendita o DBA sostituiranno la relativa copertura iniziale con le scorte di sicurezza e il sistema attiverà invece il rifornimento per le scorte di sicurezza.
 
 Se il piano o l'articolo non è impostato per il calcolo con ritardo, il vincolo delle scorte di sicurezza avrà la stessa avrà priorità di eventuali altri tipi di domanda. Ciò significa che è presente una prenotazione delle scorte disponibili e di altre scorte disponibili prima di altri tipi di domanda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

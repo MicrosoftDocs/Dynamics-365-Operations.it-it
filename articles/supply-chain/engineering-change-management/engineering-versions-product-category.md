@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431595"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987481"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versioni di progettazione e categorie di prodotti di progettazione
 
@@ -162,6 +161,3 @@ Le distinte base e i cicli di lavorazione vengono creati dalla versione di proge
 Per i prodotti in cui si utilizza la dimensione del prodotto *versione* (insieme all'impatto logistico sulle transazioni), la versione viene aggiunta anche alle distinte base e ai cicli di lavorazione. Questo comportamento aiuta a differenziare le distinte base e i cicli di lavorazione di versioni consecutive, indipendentemente dall'impostazione **Applica validità**.
 
 Per i prodotti in cui non si utilizza la dimensione del prodotto *versione* (senza l'impatto logistico sulle transazioni), la versione non viene aggiunta anche alle distinte base o ai cicli di lavorazione. Pertanto, non ci saranno differenze tra le distinte base e i cicli di lavorazione di versioni consecutive. In questo caso, consigliamo vivamente di impostare l'opzione **Applica validità** su *Sì*. In questo modo, si aiuta a prevenire la sovrapposizione delle versioni di progettazione e si può anche attivare la distinta base e il ciclo di lavorazione di una versione più recente senza dover prima disattivare la DBA e il ciclo di lavorazione della versione precedente. Se si imposti l'opzione **Applica validità** su *Sì* in questo caso, è necessario disattivare manualmente le distinte base e i cicli di lavorazione delle versioni precedenti prima di poter attivare la versione più recente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
