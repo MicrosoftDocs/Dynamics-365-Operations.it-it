@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66d110c3235e8a87b64bf160bdad8524fad6abe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431186"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001151"
 ---
 # <a name="change-work-pool-on-work"></a>Modifica pool di lavoro nel lavoro
 
@@ -149,6 +148,3 @@ Questo scenario mostra come modificare il flusso di elaborazione per un elemento
 > Quando viene visualizzata la finestra di dialogo **Modifica pool di lavoro**, il campo **ID pool di lavoro** potrebbe essere vuoto per impostazione predefinita. Se il campo è vuoto quando si seleziona **OK** per applicare le modifiche, si rimuoverà il pool di lavoro completamente dal lavoro.
 >
 > Oltre a cambiare pool di lavoro, è possibile utilizzare questa procedura per aggiungere un pool di lavoro a qualsiasi elemento di lavoro che non ne ha uno o per rimuovere un pool di lavoro da qualsiasi elemento di lavoro che ne ha uno.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431436"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001701"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversione di unità di misura per varianti prodotto
 
@@ -59,7 +58,7 @@ Per configurare una rappresentazione generale prodotto per supportare la convers
     - **Prodotto**: se selezioni questo valore puoi configurare una conversione unità per la rappresentazione generale prodotto. Questa conversione di unità verrà utilizzata come fallback per tutte le varianti di prodotto per le quali non è definita alcuna conversione di unità.
     - **Variante prodotto**: se selezioni questo valore puoi configurare una conversione unità per una specifica variante prodotto. Usa il campo **Variante prodotto** per selezionare la variante.
 
-    ![![Aggiunta di una nuova conversione unità](media/uom-new-conversion.png "Aggiunta di una nuova conversione unità")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Aggiunta di una nuova conversione unità](media/uom-new-conversion.png "Aggiunta di una nuova conversione unità")
 
 1. Utilizzare gli altri campi forniti per impostare la conversione unità.
 1. Seleziona **OK** per salvare la nuova conversione unità.
@@ -107,6 +106,3 @@ Per esportare le conversioni unità in Excel, nella pagina **Conversioni unità*
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Gestire unità di misura](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

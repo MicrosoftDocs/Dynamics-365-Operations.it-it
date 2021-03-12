@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431509"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001176"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -210,6 +209,3 @@ Oltre alle restrizioni attualmente in vigore per i prodotti a peso variabile, ai
 
 > [!NOTE]
 > Le informazioni precedenti sui tag di peso variabile sono valide solo se il prodotto a peso variabile ha un metodo di tracciabilità delle dimensioni con tag di peso variabile completamente tracciato (ovvero, se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e tutte le dimensioni di immagazzinamento**). Se l'articolo a peso variabile è tracciato solo parzialmente con tag (ovvero se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e stato scorte**) si applicano ulteriori restrizioni. Poiché in questo non c'è visibilità tra tag e scorte, alcuni scenari aggiuntivi non sono supportati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

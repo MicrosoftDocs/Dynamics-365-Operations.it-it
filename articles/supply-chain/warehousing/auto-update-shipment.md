@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430946"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001226"
 ---
 # <a name="shipment-auto-updates"></a>Aggiornamenti automatici delle spedizioni
 
@@ -140,6 +139,3 @@ L'ondata viene elaborata e viene creato un lavoro per le quantità prenotate nel
 Se lo stato di una spedizione è **In ondata** o superiore, gli aggiornamenti alla quantità di una riga ordine cliente non vengono applicati a una riga di carico associata alla spedizione o convalidati a fronte di tale riga. Le modifiche alla quantità in una riga di carico devono essere eseguite direttamente nella riga di carico.
 
 La convalida viene eseguita dopo aver creato un lavoro per la riga di carico ed effettuato una prenotazione. Una diminuzione della quantità nella riga ordine cliente viene quindi convalidata a fronte della prenotazione della riga di lavoro.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

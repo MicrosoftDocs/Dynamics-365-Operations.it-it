@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d459fb516cca3825c0a1871797f83df4c1a7c6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94c6d8f4086466b396524faeed5753da1a76d17a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431069"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001576"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
@@ -154,6 +153,3 @@ Le impostazioni seguenti possono essere utilizzate se i materiali devono essere 
 | Dichiarazione di finito |   Consumo DBA automatico    | <strong>Mai</strong>  |
 | Dichiarazione di finito | Aggiorna report dichiarazione di finito in linea | <strong>Stato</strong> |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430980"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999833"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificare una previsione della domanda manualmente
 
@@ -43,6 +42,3 @@ Questa procedura illustra come modificare la previsione per un articolo. La soci
 1. Fare clic su **Apri** in Microsoft Office.
 2. Fare clic sull'opzione per **modificare una previsione della domanda** in Excel. In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

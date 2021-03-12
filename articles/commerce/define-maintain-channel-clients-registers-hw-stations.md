@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc043208362137d337f91745d2de357388510005
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000902"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -205,6 +204,3 @@ Ulteriori informazioni relative alla attivazione includono il lavoratore che ha 
 ### <a name="client-data-synchronization"></a>Sincronizzazione dei dati client
 
 Tutte le modifiche apportate a un client POS, ad eccezione delle modifiche dello stato di attivazione del dispositivo, devono essere sincronizzate nel database di canale per essere effettive. Per sincronizzare le modifiche al database di canale, passare a **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**, ed eseguire la programmazione di distribuzione necessaria. Per le modifiche del client, è necessario eseguire le programmazioni di distribuzione **Registratori di cassa** e **Configurazione canale**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
