@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 2c39a72d22c01faec3856e7f47cb6b3811447cab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431461"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983443"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -329,6 +328,3 @@ Il valore di **Timeout tentativi ottimizzazione** determina il numero massimo di
 
 > [!NOTE]
 > I valori impostati per i timeout verranno applicati sia per la pianificazione degli ordini di produzione rilasciati sia per gli ordini pianificati nel quadro della pianificazione MRP. Di conseguenza, l'impostazione di valori molto alti potrebbe aumentare notevolmente il tempo di esecuzione della pianificazione MRP durante l'esecuzione di un piano con molti ordini di produzione pianificati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

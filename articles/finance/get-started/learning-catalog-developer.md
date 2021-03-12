@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528746"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984986"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Catalogo di apprendimento per sviluppatori Dynamics 365 Finance
 
@@ -49,8 +48,8 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Finance and Operations: Estensione Dynamics 365 for Finance and Operations con PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Comprendere la semplicità di Microsoft PowerApps e come può integrarsi a Dynamics 365 for Finance and Operations per trasformare digitalmente le aziende ed aumentare la produttività degli utenti. | Registrazione gratuita di una conferenza Web | 43 minuti |
 | [Finance and Operations: Estendibilità (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Microsoft fornirà una panoramica e un aggiornamento sui piani di estendibilità di Microsoft. Verranno discussi in dettaglio i vari modi di estendere una soluzione, approfondendo le funzionalità di estendibilità dei metadati, nonché la possibilità di aumentare ed estendere il codice, anche tramite la potente funzione della catena di comando. | Registrazione gratuita di una conferenza Web | 50 minuti |
 | [Visual Studio Team Services (VSTS) Setup (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Questa discussione tecnica illustrerà i passaggi necessari per configurare un'istanza e un progetto VSTS per la connessione al progetto di implementazione LCS per la configurazione dell'ambiente di sviluppo/testing. | Registrazione gratuita di una conferenza Web | 41 minuti |
-| [CDS Servizio di integrazione di dati (DYN451PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Discussione tecnica sulle capacità del servizio di integrazione di dati Common Data Service (CDS). Verranno illustrate le opzioni di integrazione tra Dynamics 365 Customer Engagement e Dynamics 365 Finance and Operations, oltre all'integrazione con altre soluzioni di terze parti. | Registrazione gratuita di una conferenza Web | 61 minuti |
-| [Integration Between Dynamics 365 for Sales and Dynamics 365 for Finance & Operations via CDS (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | In questa discussione tecnica viene introdotto lo scenario di integrazione noto come Prospect per uno scenario di liquidazione, con attività di vendita e marketing in Dynamics 365 for Sales ed evasione in Dynamics 365 for Finance and Operations. Verrà trattato anche l'integratore di dati e spiegato come modificare l'integrazione. | Registrazione gratuita di una conferenza Web | 54 minuti |
+| [Integratori dati Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Discussione tecnica sulle capacità del servizio di integrazione di dati Dataverse. Verranno illustrate le opzioni di integrazione tra Dynamics 365 Customer Engagement e Dynamics 365 Finance and Operations, oltre all'integrazione con altre soluzioni di terze parti. | Registrazione gratuita di una conferenza Web | 61 minuti |
+| [Integrazione tra Dynamics 365 for Sales e Dynamics 365 for Finance & Operations tramite Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | In questa discussione tecnica viene introdotto lo scenario di integrazione noto come Prospect per uno scenario di liquidazione, con attività di vendita e marketing in Dynamics 365 for Sales ed evasione in Dynamics 365 for Finance and Operations. Verrà trattato anche l'integratore di dati e spiegato come modificare l'integrazione. | Registrazione gratuita di una conferenza Web | 54 minuti |
 | [Data Management (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Partecipare questa discussione tecnica sulla gestione dei dati. Scoprire le opzioni disponibili e gli scenari per i quali sono consigliate. Verrà trattato il framework di gestione dei dati, i modelli, la copia del database, la condivisione dei dati tra società, e le considerazioni sulle prestazioni. | Registrazione gratuita di una conferenza Web | 58 minuti |
 | [Azure Integration Tools for Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Questa discussione tecnica spiega i tipi di strumenti che si potrebbero prendere in considerazione durante l'integrazione con Dynamics 365 for Finance & Operations e quando scegliere lo strumento di integrazione. La sessione illustrerà anche alcuni scenari di integrazione orchestrati usando i servizi di integrazione di Azure. | Registrazione gratuita di una conferenza Web | 63 minuti |
 | [Integration Frameworks within Dynamics 365 for Finance & Operations (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | Questa sessione fornirà una panoramica dei framework di integrazione in Dynamics 365 for Finance & Operations e discuterà la considerazione in base alla quale questi framework potrebbero essere utilizzati. | Registrazione gratuita di una conferenza Web | 64 minuti |
@@ -94,6 +93,3 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | Contenuto | descrizione  | Formatta  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Esame MB-500: Microsoft Dynamics 365: sviluppatore di app Finance and Operations](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: pianificazione dell'architettura e progettazione della soluzione; applicare strumenti di sviluppo; progettare e sviluppare elementi AOT; sviluppare e testare il codice; implementare la creazione di report; integrare e gestire soluzioni di dati; implementare la sicurezza e ottimizzare le prestazioni. | Esame, i costi variano in base alla regione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

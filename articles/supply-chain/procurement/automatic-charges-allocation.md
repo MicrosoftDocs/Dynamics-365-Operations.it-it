@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431448"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983170"
 ---
 # <a name="automatic-allocation-of-charges"></a>Allocazione automatica degli addebiti
 
@@ -177,6 +176,3 @@ La procedura seguente mostra come allocare gli addebiti a livello di intestazion
         > Quando si utilizza la griglia **Scegli le righe da escludere dall'allocazione** assicurarsi di lasciare la griglia aperta finché non si seleziona **Alloca**. Se si chiude la griglia prima di selezionare **Alloca**, le impostazioni nella griglia andranno perse. Pertanto, gli addebiti verranno allocati in base ai criteri definiti in precedenza.
 
 1. Selezionare **Alloca** per applicare le impostazioni e chiudere la finestra di dialogo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

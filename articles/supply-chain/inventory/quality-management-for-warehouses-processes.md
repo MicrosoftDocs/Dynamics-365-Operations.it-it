@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431424"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983727"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
@@ -622,6 +621,3 @@ Sono stati impostati i dati di lavoro e ubicazione per il magazzino 51, per gara
 
 > [!NOTE]
 > Prendere in considerazione l'aggiunta della voce di qualità a una voce di menu di un dispositivo mobile in cui si trova il codice attività *Visualizza elenco lavori aperti*. Per un esempio, vedere la voce di menu del dispositivo mobile denominata **Elenco di lavoro** nei dati dimostrativi. Per prima cosa aggiungere la classe di lavoro *Ordine di controllo qualità* a una voce di menu definita dall'utente, poiché questa classe di lavoro è necessaria per visualizzare il lavoro nell'elenco di lavoro. Quindi aggiungere la classe *Ordine di controllo qualità* alla voce del menu **Elenco di lavoro**. Gli utenti che hanno accesso all'elenco di lavoro potranno quindi selezionare ed elaborare il lavoro generato automaticamente dalla convalida dell'ordine di controllo qualità.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

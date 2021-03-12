@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
+ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983546"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
@@ -274,6 +273,3 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 ### <a name="reduce-a-forecast-by-transactions"></a>Ridurre una previsione mediante transazioni
 
 Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Gruppi di copertura** , nella scheda dettaglio **Altro**, nel campo **Riduci previsione per** , selezionare **Tutte le transizioni** se tutte le transazioni devono ridurre la previsione oppure **Ordini** se solo gli ordini cliente devono ridurre la previsione.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9ee25036488d2f7f24c1691d36239f3f34caf0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f253355b3de4f148c11b1d9d3f43b6756e6bd38c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431197"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983677"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.6 (novembre 2019)
 
@@ -71,6 +70,3 @@ L'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Mana
 Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

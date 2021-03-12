@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f10022ae4906972d08e08e3e5476630213468d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444822"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985463"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenuto di Power BI della panoramica situazione di cassa
 
@@ -79,6 +78,3 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Riepilogo di entrate di cassa, uscite e saldo utilizzando la valuta di contabilizzazione di ciascuna società |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Riepilogo di entrate di cassa, uscite e saldo utilizzando la valuta di sistema per tutte le società |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Riepilogo dell'importo della transazione e del saldo netti delle valute utilizzando la valuta della transazione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

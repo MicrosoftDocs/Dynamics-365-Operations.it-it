@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b7d2e33c1edb36227a76453d1981aec5babbf75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444880"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985364"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Rivalutazione valuta estera - Banca
 
@@ -88,6 +87,3 @@ La transazione di rivalutazione valuta estera viene inoltre suddivisa tra le dim
 Se si deve stornare la transazione di rivalutazione, selezionare il pulsante **Transazione di storno** nel Riquadro azione della pagina **Rivalutazione valuta estera**. Un nuovo record cronologico di rivalutazione valuta estera viene creato per mantenere un audit trail storico di quando la rivalutazione si è verificata o è stata stornata.
 
 Per stornare più rivalutazioni, è necessario stornare dapprima quella più recente. Continuare quindi a stornare le rivalutazioni meno recenti in base alla data. È possibile quindi elaborare le nuove rivalutazioni per i periodi stornati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

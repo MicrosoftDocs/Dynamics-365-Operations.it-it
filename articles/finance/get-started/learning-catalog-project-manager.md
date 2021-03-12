@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984911"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catalogo di apprendimento per responsabili dei progetti di implementazione con Dynamics 365 Finance
 
@@ -95,6 +94,3 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Exam MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: utilizzare funzionalità e strumenti di implementazione comuni, configurare sicurezza, processi e opzioni, eseguire la migrazione dei dati e convalidare e supportare la soluzione. | Esame, i costi variano in base alla regione | |
 | [Esame MB-310: Microsoft Dynamics 365 for Finance and Operations, Financials](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di eseguire le seguenti attività tecniche: impostare e configurare la gestione finanziaria; gestire e applicare processi comuni; implementare e gestire la contabilità fornitori e clienti. | Esame, i costi variano in base alla regione | |
 | [Microsoft Certified: Consulente funzionale dati finanziari associato di Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: I consulenti funzionali di Dynamics 365 for Finance and Operations unificano i dati finanziari e le operazioni globali e automatizzano le attività e i flussi di lavoro, standardizzano gli ordini dei clienti, le vendite, la fatturazione e la creazione di rapporti. | Certificazione, i costi variano in base alla regione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

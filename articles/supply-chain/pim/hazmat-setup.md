@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431333"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983343"
 ---
 # <a name="set-up-hazardous-materials"></a>Impostare i materiali pericolosi
 
@@ -284,6 +283,3 @@ Per impostare i valori per la specifica, andare a **Gestione informazioni sul pr
 La specifica *Tunnel materiali pericolosi* limita i tipi di tunnel attraverso i quali un materiale pericoloso può essere trasportato identificando i tipi di tunnel che devono essere utilizzati. Le categorie di tunnel sono stabilite dalle normative applicabili per il trasporto di materiali pericolosi. Questa specifica di solito si applica solo al trasporto su strada.
 
 Per impostare i valori per la specifica, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Tunnel materiali pericolosi**. Nella pagina **Tunnel materiali pericolosi** è possibile creare un numero qualsiasi di identificatori di tunnel e configurarli con un codice di identificazione e una breve descrizione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

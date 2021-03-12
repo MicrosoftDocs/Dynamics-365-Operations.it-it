@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8ae97d0e6aac1b0961427bd73a37612020231a9f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431605"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983802"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -185,6 +184,3 @@ La maggior parte dei campi sugli ordini di modifica di progettazione sono gli st
 | Ambiente, salute e sicurezza | Specificare se le regole di salute e sicurezza ambientali sono applicabili alla modifica. Se lo sono, è possibile selezionare le regole applicabili. |
 
 È possibile utilizzare il pulsante **Gestisci/copia informazioni di modifica** per copiare le informazioni sulle modifiche tra i prodotti interessati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

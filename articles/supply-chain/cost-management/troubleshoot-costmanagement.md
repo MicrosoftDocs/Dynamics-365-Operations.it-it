@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4431593"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983852"
 ---
 # <a name="troubleshoot-cost-management"></a>Risolvere i problemi relativi alla gestione dei costi
 
@@ -63,5 +62,22 @@ Ricordarsi di eseguire una chiusura dell'inventario a partire dal %3 (31-01-2019
 
 Il **Report di aging delle scorte** mostra valori diversi se visualizzati a dimensioni di stoccaggio diverse (come sito o magazzino). Per ulteriori informazioni sulla logica di reporting, vedere [Esempi e logica del report di aging delle scorte](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Si verifica un conflitto di aggiornamento quando il metodo di valutazione dell'inventario è Costo standard o Media mobile
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Quando si registrano documenti come giornali di registrazione magazzino, fatture di ordini fornitore o fatture di ordini cliente in parallelo per scalabilità e prestazioni, è possibile che venga visualizzato un messaggio di errore relativo a un conflitto di aggiornamento e alcuni documenti potrebbero non essere registrati. Il problema può verificarsi quando il metodo di valutazione dell'inventario è *Costo standard* o *Media mobile*. Entrambi questi metodi sono metodi di determinazione dei costi perpetui. In altre parole, il costo finale viene determinato al momento della registrazione.
+
+Se stai usando il metodo *Media mobile*, il messaggio di errore è simile a questo esempio:
+
+> Il valore dell'inventario xx.xx non è previsto dopo il calcolo della spesa proporzionale
+
+Se stai usando il metodo *Costo standard*, il messaggio di errore è simile a questo esempio:
+
+> Il costo standard non corrisponde al valore dell'inventario finanziario dopo l'aggiornamento. Valore = xx.xx, Qtà = yy.yy, Costo standard = zz.zz
+
+Fino a quando Microsoft non rilascerà una soluzione per risolvere il problema, prendere in considerazione l'utilizzo delle seguenti soluzioni alternative per evitare o ridurre questi errori:
+
+- Registrare nuovamente i documenti con errore.
+- Creare documenti con meno righe.
+- Evitare i valori decimali nel costo standard. Provare a definire il costo standard in modo che il campo **Quantità di prezzo** sia impostato su *1*. Se devi specificare un valore **Quantità di prezzo** maggiore di *1*, prova a ridurre al minimo il numero di cifre decimali nel costo standard unitario. (Idealmente, dovrebbero esserci meno di due cifre decimali.) Ad esempio, evitare di definire impostazioni di costo standard come **Prezzo** = *10* e **Quantità di prezzo** = *3*, perché produrranno un costo standard unitario di 3,333333 (dove si ripete il valore decimale).
+- Nella maggior parte dei documenti, evitare di avere più righe che contengono la stessa combinazione di dimensioni di inventario finanziario e prodotto.
+- Riduci il grado di parallelizzazione. (In questo caso, il sistema potrebbe diventare più veloce, perché si verificano meno conflitti di aggiornamento e nuovi tentativi.)
