@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4445002"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990945"
 ---
 # <a name="budget-control-overview"></a>Panoramica del controllo del budget
 
@@ -127,6 +126,3 @@ Una volta che il controllo del budget è abilitato, gli utenti riceveranno i mes
 Da questa pagina l'utente può espandere la pagina **Statistiche di controllo del budget per periodo** per visualizzare i dettagli di disponibilità e le prenotazioni di budget per la combinazione selezionata di dimensioni di controllo del budget. Gli utenti possono inoltre accedere alla pagina **Statistiche di controllo del budget** in cui la disponibilità del budget viene visualizzata per tutte le combinazioni di dimensioni finanziarie utilizzate nel controllo del budget. 
 
 Se il controllo del budget è attivato per gli ordini fornitore, il responsabile budget può utilizzare l'area di lavoro **Budget contabili e previsioni** per verificare la coda di tutti gli ordini fornitore non confermati con errori e avvisi di verifica budget. Se il responsabile budget dispone delle autorizzazioni per superare il budget, può confermare l'ordine fornitore direttamente nell'area di lavoro.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

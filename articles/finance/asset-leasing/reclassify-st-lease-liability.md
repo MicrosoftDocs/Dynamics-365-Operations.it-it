@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 46bcd396c93bc1d2944241165d438f8ccc013e20
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444977"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992916"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Riclassificare la quota a breve termine di obbligazione sul leasing
 
@@ -41,6 +40,3 @@ Per creare e registrare la scrittura contabile di riclassificazione dell'obbliga
 4. Attiva il parametro **Registra**. In alternativa, se la voce deve essere creata ma non pubblicata, lascia questo parametro disattivato.
 5. Attiva il parametro **Visualizza anteprima prima della registrazione** per visualizzare la voce prima che venga registrata.
 6. Selezionare **OK**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

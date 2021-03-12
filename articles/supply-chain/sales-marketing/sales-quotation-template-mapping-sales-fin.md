@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991867"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527340"
 L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
@@ -63,8 +62,8 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 | Vendite        | Gestione della supply chain     |
 |--------------|----------------------------|
-| Citazioni       | Intestazione offerta di vendita CDS |
-| QuoteDetails | Righe di offerta di vendita CDS  |
+| Citazioni       | Intestazione offerta di vendita Dataverse |
+| QuoteDetails | Righe di offerta di vendita Dataverse  |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
@@ -143,6 +142,3 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 [Prospect to cash](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

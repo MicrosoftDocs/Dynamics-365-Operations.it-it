@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444998"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992760"
 ---
 # <a name="use-lease-approval-workflows"></a>Utilizzare flussi di lavoro di approvazione del leasing
 
@@ -45,6 +44,3 @@ Prima di utilizzare questa procedura, assicurati che sia stato creato almeno il 
 
 8. Per interrompere un flusso di lavoro, nella pagina **Storico flusso di lavoro**, seleziona **Richiama**. Nella finestra di dialogo visualizzata, immetti un commento e quindi seleziona **OK**.
 9. Per disattivare un flusso di lavoro o per attivare un flusso di lavoro creato in precedenza, vai a **Leasing cespite \> Imposta \> Flusso di lavoro di leasing**. Quindi, nella pagina **Flusso di lavoro di leasing**, seleziona **Flusso di lavoro \> Versioni**. Per rendere inattivo un flusso di lavoro corrente, seleziona il leasing attivo nella finestra di dialogo della versione del leasing, quindi seleziona **Rendi inattivo**. Per rendere attivo un flusso di lavoro esistente, seleziona il flusso di lavoro e quindi seleziona **Rendi attivo**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

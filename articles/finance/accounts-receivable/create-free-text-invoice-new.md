@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 726d4979059417871a00626c55da32fa4286cb53
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444651"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991119"
 ---
 # <a name="create-a-free-text-invoice"></a>Creare una fattura a testo libero
 
@@ -30,7 +29,7 @@ In questo argomento viene illustrato come creare le fatture a testo libero. Per 
 
 ## <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
-1. Passare a **Contabilità clienti \> Fatture \> Tutte le fatture a testo libero**.
+1. Passare a **Contabilità clienti (o contabilità relativa alle vendite) \> Fatture \> Tutte le fatture a testo libero**.
 2. Selezionare **Nuovo**.
 3. Nel campo **Conto cliente** selezionare un valore.
 
@@ -85,6 +84,3 @@ Dopo aver copiato le righe, è possibile modificare le informazioni secondo le e
 L'utente può creare una fattura a testo libero da un modello. Quando si seleziona **Nuovo da modello** nella scheda **Fattura**, è possibile selezionare un nome di modello e il conto cliente per la nuova fattura a testo libero. Il cliente può compilare automaticamente i valori predefiniti, ad esempio i termini di pagamento e il metodo di pagamento, oppure è possibile utilizzare i valori che erano stati salvati nel modello.
 
 Viene creata una nuova fattura a testo libero ed è possibile modificare i valori secondo le esigenze.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

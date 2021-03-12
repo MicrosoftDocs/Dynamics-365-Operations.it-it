@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444655"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991252"
 ---
 # <a name="credit-management-setup"></a>Impostazione di Gestione crediti 
 
@@ -153,6 +152,3 @@ Attenersi alla seguente procedura per aggiungere righe che rappresentano il limi
 2. Selezionare l'operatore di confronto che definisce come valutare le informazioni del gruppo di punteggio.
 3. Immettere il valore che deve essere confrontato al valore specificato per il gruppo di punteggio.
 4. Immettere il limite di credito che deve essere assegnato se le informazioni sul cliente corrispondono al valore specificato per il gruppo di punteggio. Ad esempio, si crea un limite di credito automatico per il gruppo di punteggio **Basso**. Se gli anni di attività sono uno dei gruppi di punteggio, è possibile definire una riga che assegna un limite di credito di 100.000 se il cliente è in attività da cinque anni e un'altra riga che assegna un limite di credito di 200.000 se il cliente è in attività da 10 anni.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

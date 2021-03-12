@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 16b83102aa76f46473138f89ea487e71668a188c
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: f362bf4a6b5de3ce16330aea08880b07b4145792
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444980"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992866"
 ---
 # <a name="set-up-index-rates"></a>Configurare i tassi di indicizzazione
 
@@ -43,6 +42,3 @@ Devi selezionare **Differenza di valore del tasso di indicizzazione** o **Valore
 
 - Seleziona il metodo **Differenza di valore del tasso di indicizzazione** per calcolare un nuovo canone di leasing, basato sulla differenza tra il tasso di indicizzazione alla data di inizio e il tasso di indicizzazione più recente. Il tasso di indicizzazione è definito nel campo **Tasso di indicizzazione (%)**.
 - Seleziona il metodo **Valore del tasso di indicizzazione** per calcolare il canone di leasing utilizzando la percentuale specificata nel campo **Tasso di indicizzazione (%)**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
