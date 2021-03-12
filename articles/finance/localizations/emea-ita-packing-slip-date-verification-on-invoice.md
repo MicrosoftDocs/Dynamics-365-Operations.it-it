@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 263824
 ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 549f5a93224ba64781676bc1239254e708fabafa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 80c2c34f5a0a5337121ef28470638cec05fc8928
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408115"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978226"
 ---
 # <a name="packing-slip-date-verification-on-invoices-for-italy"></a>Verifica della data del documento di trasporto nelle fatture per l'Italia
 
@@ -38,6 +37,3 @@ Per le persone giuridiche il cui indirizzo principale è in Italia è presente u
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

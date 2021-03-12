@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, KanbanFlowSelection, InventItemIdLookupSimple, KanbanCreateScheduled, Kanban
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68cac0f581e786cdb3801e03fb60db7bc05ffb2f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c25d47a78d1cc91ee2625ef628d7b9ba345b097
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430867"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977915"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Creare una regola kanban per più attività
 
@@ -59,6 +58,3 @@ Questa procedura mostra come creare una regola kanban che comprende più attivit
     * Notare che il kanban ha due processi dal flusso di produzione. Il primo è SpeakerAssemblyAndPolish e il secondo è SpeakerTestAndPackaging.  
     * Questo è l'ultimo passaggio.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

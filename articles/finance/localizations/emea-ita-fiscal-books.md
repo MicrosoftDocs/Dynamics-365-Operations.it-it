@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters, LedgerParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 268654
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9dd03d5fb9faeaf4ae160fa6cf55998ff3be72d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3990ba0f5302287aaebf7006e23e5c23cf484870
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408117"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978230"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
@@ -258,6 +257,3 @@ Per nascondere queste funzioni dall'interfaccia utente per tutti i ruoli di sicu
 ![Oggetti non pubblicati](./media/unpublished-objects.png)
 
 7.  Ripeti questi passaggi per il privilegio, **Storna transazioni fornitore**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431536"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977290"
 ---
 # <a name="configure-wave-processing"></a>Configurare l'elaborazione di ondate
 
@@ -61,6 +60,3 @@ In questo guida viene descritto come impostare i criteri che determinano quale l
 Per gli ordini cliente e gli ordini di kanban, l'inventario deve essere prenotato prima che l'ordine venga rilasciato al magazzino. In caso contrario, gli articoli o le righe di allocazione non possono essere elaborati in un'ondata. Per gli ordini di produzione, è anche possibile scegliere Consenti prenotazione parziale. Ad esempio, questo è utile se si dispone dei materiali necessari per avviare una produzione ed è quindi possibile attendere fino a quando i materiali aggiuntivi diventano disponibili per terminare il processo. Se si seleziona questa opzione, è necessario ripetere manualmente il rilascio al processo di magazzino quando i materiali aggiuntivi diventano disponibili.  
 25. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

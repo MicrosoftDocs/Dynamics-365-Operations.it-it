@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430947"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977490"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 
@@ -179,6 +178,3 @@ Si verificano i seguenti eventi:
 - Il rilascio a un magazzino viene attivato per l'ordine cliente associato.
 - In base al rilascio, viene creato il lavoro di spedizione e cross-docking. Questo lavoro indica all'operatore del magazzino di prelevare le quantità richieste per soddisfare la riga ordine cliente e metterle nell'ubicazione in uscita specificata nella direttiva di ubicazione di cross-docking.
 - Se la quantità dell'ordine di produzione è maggiore della quantità richiesta dall'ordine cliente, viene creato il lavoro di stoccaggio regolare. Questo lavoro indica all'operatore del magazzino di prelevare la quantità di prodotti finiti rimanente dopo cross-docking e spostarla nell'ubicazione normale, a seconda della direttiva di ubicazione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

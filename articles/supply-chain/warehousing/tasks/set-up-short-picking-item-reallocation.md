@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ab8baf846d65e6fefe9ca575b5af5a2dbceac666
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976890"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Impostare la riallocazione articolo per prelievo breve
 
@@ -64,6 +63,3 @@ La società di dati dimostrativi USMF è stata utilizzata per creare questa proc
 6. Nell'elenco, seleziona un **ID utente**. Ad esempio, 24.
 7. Espandi la Scheda dettaglio **Lavoro**.
 8. Selezionare **Sì** nel campo **Consenti riallocazione manuale articolo**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

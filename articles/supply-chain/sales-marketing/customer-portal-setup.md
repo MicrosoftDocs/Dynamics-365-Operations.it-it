@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529532"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977740"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installare, configurare e aggiornare il portale clienti
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529532"
 Per implementare il portale clienti, è necessario disporre delle seguenti licenze:
 
 - **Portali Power Apps** - Questa licenza è richiesta per ospitare il portale clienti. I portali sono concessi in licenza in base all'utilizzo. Per ulteriori informazioni, consultare [Requisiti di licenza per portali Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Doppia scrittura** - È necessario disporre delle licenze necessarie per abilitare la doppia scrittura per le entità Supply Chain Management. Per ulteriori informazioni, vedere i [Requisiti di sistema per la doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Doppia scrittura** - È necessario disporre delle licenze necessarie per abilitare la doppia scrittura per le tabelle Supply Chain Management. Per ulteriori informazioni, vedere i [Requisiti di sistema per la doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dipendenze da doppia scrittura e portali Power Apps
 
@@ -39,13 +38,13 @@ Il portale clienti dipende dai portali Power Apps e dalla doppia scrittura, come
 
 ![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
-A differenza di altre funzionalità di Supply Chain Management, il modello di portale clienti risiede nei portali Power Apps. Pertanto, il portale clienti è limitato dalle funzionalità fornite dai portali  Power Apps e dalle entità in doppia scrittura.
+A differenza di altre funzionalità di Supply Chain Management, il modello di portale clienti risiede nei portali Power Apps. Pertanto, il portale clienti è limitato dalle funzionalità fornite dai portali  Power Apps e dalle tabelle in doppia scrittura.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configurazione richiesta per abilitare il portale clienti
 
 Dopo aver verificato di disporre delle licenze necessarie, è possibile configurare la doppia scrittura come descritto in [Istruzioni di sincronizzazione iniziale con doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Assicurarsi di abilitare i seguenti mapping di entità in doppia scrittura:
+Assicurarsi di abilitare i seguenti mapping di tabelle in doppia scrittura:
 
 - Intestazione ordine cliente
 - Dettagli ordini cliente
@@ -80,12 +79,9 @@ Per informazioni su come configurare e personalizzare il portale clienti, è nec
 - [Documentazione sui portali Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Documentazione sulla doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Per gestire efficacemente i portali, è necessario acquisire familiarità con i portali Power Apps e il ciclo di vita di Common Data Service. Per ulteriori informazioni, vedi le seguenti risorse:
+Per gestire efficacemente i portali, è necessario acquisire familiarità con i portali Power Apps e il ciclo di vita di Microsoft Dataverse. Per ulteriori informazioni, vedi le seguenti risorse:
 
 - [Informazioni sul ciclo di vita dei portali](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Aggiornare un portale](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrare la configurazione del portale](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestione del ciclo di vita delle soluzioni: app Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

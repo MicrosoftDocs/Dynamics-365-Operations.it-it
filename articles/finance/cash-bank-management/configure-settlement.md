@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444923"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976453"
 ---
 # <a name="configure-settlement"></a>Configurare una liquidazione
 
@@ -67,6 +66,3 @@ Per evitare le voci contabili aggiuntive, il debito e il credito nello stesso co
 
 -   Le organizzazioni utilizzano spesso dimensioni fisse per compilare con zero una dimensione finanziaria che non è richiesta. È il caso in genere dei conti dello stato patrimoniale, ad esempio contabilità clienti/contabilità fornitori. Le strutture dei conti possono essere utilizzate per non tenere traccia delle dimensioni finanziarie che sono in genere completate con zeri.  È possibile rimuovere la dimensione finanziaria per i conti dello stato patrimoniale, eliminando la necessità di utilizzare dimensioni fisse.
 -   Se l'organizzazione richiede dimensioni fisse nel conto principale contabilità fornitori/contabilità clienti, trovare un modo per impostare come valore predefinito la dimensione fissa nel pagamento, in modo che il valore di dimensione fissa sia memorizzato nella transazione fornitore per il pagamento. Ciò permetterà al sistema di ricostruire il conto principale contabilità fornitori/contabilità clienti per includere i valori di dimensione fissa. Il valore di dimensione fissa può essere definito come valore predefinito sui fornitori o il nome del giornale di registrazione pagamenti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Supporto a doppia valuta per le imposte
 description: Questo argomento spiega come estendere la funzionalità di contabilità a doppia valuta nel dominio fiscale e l'impatto sul calcolo e sulla registrazione delle imposte
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444741"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978604"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Supporto a doppia valuta per l'IVA
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ Per ulteriori informazioni sulla doppia valuta, fare riferimento a [Doppia valut
 
 Come conseguenza del supporto per la doppia valuta, sono disponibili due nuove funzionalità nella gestione delle funzionalità: 
 
-- Conversione IVA (rilascio nella versione 10.0.9)
-- Saldo automatico della liquidazione imposte nella valuta di dichiarazione (rilascio nella versione 10.0.11)
+- Conversione IVA (novità nella versione 10.0.13)
 
 Il supporto per doppia valuta per l'IVA garantisce che le imposte vengano calcolate accuratamente nella valuta fiscale e che il saldo della liquidazione IVA sia calcolato con precisione sia nella valuta contabile che nella valuta di dichiarazione. 
 
@@ -145,6 +143,3 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 - [Doppia valuta](dual-currency.md)
 - [Panoramica dell'IVA](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

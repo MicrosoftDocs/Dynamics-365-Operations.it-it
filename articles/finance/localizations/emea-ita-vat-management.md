@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14c044c1f674e94bdcb8bc1c66d794727898799d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14c1a3a87855bf9861ebfdd2e68eaf1dd55fb373
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408092"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978214"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 
@@ -95,7 +94,7 @@ Tuttavia, l'impostazione dell'opzione **Data del libro IVA** nella pagina **Para
 
 Quando l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** è impostata su **Sì**, il report **Liquidazione IVA italiana** fornisce le seguenti informazioni:
 
-- Le pagine delle sezioni dei libri IVA includono una nuova colonna **Data di effettuazione dell'operazione (Data del libro IVA)**. Questa colonna rappresenta il valore del campo **Data del libro IVA** per la transazione IVA.
+- Le pagine delle sezioni dei libri IVA includono una nuova colonna **Momento di effettuazione dell'operazione**. Questa colonna rappresenta il valore del campo **Data del libro IVA** per la transazione IVA.
 - I totali di ogni sezione del libro IVA sono rappresentati da tre gruppi:
 
     - Operazioni nel periodo effettivo con una data di competenza nel periodo effettivo
@@ -121,6 +120,3 @@ Quando l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità
     - Operazioni totali nel periodo successivo con una data di competenza nel periodo effettivo
 
 - L'importo **Totale calcolato considerando la data di competenza** viene fornito su una riga distinta.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

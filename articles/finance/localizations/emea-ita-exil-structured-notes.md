@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MCROrderNotes
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5a7bd58f66c4ff8df59ca6027861d235c36c2ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 866fc439a667728c5c0be12708f4cc999adbe53f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408103"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978239"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -115,6 +114,3 @@ In Contabilità fornitori, le note vengono generate automaticamente come allegat
 Note avanzate definite come **Esterne** sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
 
 ![Impostazione della stampa delle note avanzate](media/emea-ita-exil-notes-printing.jpg)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

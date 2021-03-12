@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkClass
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed9b72d891df4d40213d4854da6b09bd9876effa
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431506"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977215"
 ---
 # <a name="create-a-work-class"></a>Creare una classe di lavoro
 
@@ -40,6 +39,3 @@ Questa procedura mostra come impostare una classe di lavoro. Le classi di lavoro
     * Se si seleziona un tipo di ubicazione, viene impostata una restrizione in cui gli articoli possono essere inseriti dopo che sono stati prelevati. Questa impostazione viene utilizzata quando una direttiva ubicazione prova a risolvere l'ubicazione o se un addetto al magazzino fornisce manualmente l'ubicazione per la voce di menu del dispositivo mobile.  
 8. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

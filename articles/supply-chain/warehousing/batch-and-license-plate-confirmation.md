@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: 97790b91d4de536b89b580c26ef1e37145f7d7c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514304"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977440"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Conferma batch e targa
 
@@ -48,6 +47,3 @@ La conferma viene applicata nei seguenti scenari:
 
 1. Dalle voci di menu del dispositivo mobile, aprire la configurazione della conferma del lavoro.  
 1. Selezionare l'opzione per la conferma batch o targa. Entrambe le opzioni sono disponibili per i prelievi di tipo lavoro senza la conferma automatica attivata.  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

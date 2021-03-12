@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444857"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976368"
 ---
 # <a name="reconcile-a-bank-account"></a>Riconciliare un conto bancario
 
@@ -71,6 +70,3 @@ La funzionalità Annulla riconciliazione rendiconti bancari consente di annullar
 Le riconciliazioni del rendiconto bancario possono essere annullate solo nell'ordine cronologico in cui sono state immesse. Quando una riconciliazione del rendiconto bancario viene annullata, le nuove transazioni e le rettifiche verranno stornate e tutte le altre transazioni vengono contrassegnate come non riconciliate.
  
 Per annullare la riconciliazione del rendiconto bancario, selezionare il rendiconto bancario e selezionare **Rendiconto bancario > Annulla riconciliazione estratti conto**. Nella pagina **Annulla riconciliazione estratti conto**, immettere **Codice motivo**, **Commento motivo** e **Data di annullamento**. Selezionare **OK** per avviare l'annullamento. Nota, la data di annullamento di rendiconto bancario deve essere coincidente o successiva alla data del rendiconto bancario. Dopo che la riconciliazione del rendiconto bancario è annullata, il campo **Data di annullamento** per il rendiconto bancario verrà aggiornato con la **Data di annullamento** fornita. Fare clic sul pulsante **Transazioni** per visualizzare le transazioni per cui la riconciliazione è stata annullata.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

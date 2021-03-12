@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Taxreport770Table_IT
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 942b776d3e7317d11f6c050756d90ec4d6bef970
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f03b382b4e76ff4b252ee2ce8f7bf43a8a58345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408116"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978224"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 
@@ -142,6 +141,3 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 23. Selezionare **Esporta**, quindi nella pagina **Esporta**, nel campo **Nome file**, specificare il nome file compresso per scaricare. Il file compresso contiene il Modello 770 come file ASCII.
 24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 25. Selezionare **OK** per esportare il Modello 770.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

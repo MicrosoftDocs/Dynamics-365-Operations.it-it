@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: feb01e1eb34631fa0f94283d7b88ba4155928883
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23eaf94fa170c980c102e28ceb0f6f22d29ee53d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408114"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978233"
 ---
 # <a name="posting-invoices-with-zero-amount"></a>Registrazione fatture con importo zero
 
@@ -41,6 +40,3 @@ Prima di poter registrare transazioni finanziarie per fatture che hanno un impor
 La funzione Registrazione fatture con importo pari a zero si applica alle fatture create nei moduli **Contabilità clienti** e **Contabilità fornitori**.
 
 Quando vengono registrate fatture con un importo pari a 0 (zero), il sistema crea transazioni cliente/fornitore e transazioni giustificativo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
