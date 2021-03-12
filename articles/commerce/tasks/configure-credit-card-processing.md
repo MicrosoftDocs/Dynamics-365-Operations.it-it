@@ -10,55 +10,54 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 611cc49d2373247da141d2fafc149d05f3bd13b0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413513"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006112"
 ---
-# <a name="configure-credit-card-processing"></a><span data-ttu-id="ab2a1-103"> Configurare l'elaborazione delle carte di credito</span><span class="sxs-lookup"><span data-stu-id="ab2a1-103">Configure credit card processing</span></span>
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="13c7f-103"> Configurare l'elaborazione delle carte di credito</span><span class="sxs-lookup"><span data-stu-id="13c7f-103">Configure credit card processing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ab2a1-104">In questa procedura vengono descritti i passaggi per visualizzare l'elenco dei provider dei servizi di pagamento e configurare un conto pagamenti per la contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="ab2a1-105">Questa procedura utilizza i dati dimostrativi della società USRT ed è destinata ad amministratori e professionisti IT.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
+<span data-ttu-id="13c7f-104">In questa procedura vengono descritti i passaggi per visualizzare l'elenco dei provider dei servizi di pagamento e configurare un conto pagamenti per la contabilità clienti.</span><span class="sxs-lookup"><span data-stu-id="13c7f-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="13c7f-105">Questa procedura utilizza i dati dimostrativi della società USRT ed è destinata ad amministratori e professionisti IT.</span><span class="sxs-lookup"><span data-stu-id="13c7f-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="ab2a1-106">Visualizzare un elenco di provider di servizi di pagamento</span><span class="sxs-lookup"><span data-stu-id="ab2a1-106">View a list of payment providers</span></span>
-1. <span data-ttu-id="ab2a1-107">Fare clic su Contabilità clienti > Impostazione pagamenti > Servizi di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
-2. <span data-ttu-id="ab2a1-108">Fare clic su Visualizza provider disponibili.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-108">Click View available providers.</span></span>
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="13c7f-106">Visualizzare un elenco di provider di servizi di pagamento</span><span class="sxs-lookup"><span data-stu-id="13c7f-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="13c7f-107">Fare clic su Contabilità clienti > Impostazione pagamenti > Servizi di pagamento.</span><span class="sxs-lookup"><span data-stu-id="13c7f-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="13c7f-108">Fare clic su Visualizza provider disponibili.</span><span class="sxs-lookup"><span data-stu-id="13c7f-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a><span data-ttu-id="ab2a1-109">Configurare un conto pagamenti</span><span class="sxs-lookup"><span data-stu-id="ab2a1-109">Configure payment account</span></span>
-1. <span data-ttu-id="ab2a1-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-110">Click New.</span></span>
-2. <span data-ttu-id="ab2a1-111">Digitare un valore nel campo Servizio di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-111">In the Payment service field, type a value.</span></span>
-3. <span data-ttu-id="ab2a1-112">Selezionare un'opzione nel campo Connettore pagamenti.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-112">In the Payment connector field, select an option.</span></span>
-4. <span data-ttu-id="ab2a1-113">Attivare l'espansione della sezione Conto servizio di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-113">Toggle the expansion of the Payment service account section.</span></span>
-5. <span data-ttu-id="ab2a1-114">Nel campo Ambiente: digitare 'PROD'.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-114">In the Environment: field, type 'PROD'.</span></span>
-6. <span data-ttu-id="ab2a1-115">Fare clic su Tipi carta di credito.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-115">Click Credit card types.</span></span>
-7. <span data-ttu-id="ab2a1-116">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="ab2a1-117">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="ab2a1-118">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-118">Click Add.</span></span>
-10. <span data-ttu-id="ab2a1-119">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-119">In the Currency field, type a value.</span></span>
-11. <span data-ttu-id="ab2a1-120">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-120">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="ab2a1-121">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="ab2a1-122">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-122">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="ab2a1-123">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-123">Click Add.</span></span>
-15. <span data-ttu-id="ab2a1-124">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-124">In the Currency field, type a value.</span></span>
-16. <span data-ttu-id="ab2a1-125">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="ab2a1-126">È possibile ripetere questi passaggi per un numero illimitato di tipi di carta in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-126">You can repeat these steps for as many card types as you need.</span></span>  
-17. <span data-ttu-id="ab2a1-127">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-18. <span data-ttu-id="ab2a1-128">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-128">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="ab2a1-129">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-129">Click Add.</span></span>
-20. <span data-ttu-id="ab2a1-130">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-130">In the Currency field, type a value.</span></span>
-21. <span data-ttu-id="ab2a1-131">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-131">Click Save.</span></span>
-22. <span data-ttu-id="ab2a1-132">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-132">Close the page.</span></span>
-23. <span data-ttu-id="ab2a1-133">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-133">Click Validate.</span></span>
-24. <span data-ttu-id="ab2a1-134">Fare clic sulla casella di controllo Elaboratore predefinito nuove carte di credito.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-134">Click the Default processor for new credit cards checkbox.</span></span>
-25. <span data-ttu-id="ab2a1-135">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="ab2a1-135">Click Save.</span></span>
+## <a name="configure-payment-account"></a><span data-ttu-id="13c7f-109">Configurare un conto pagamenti</span><span class="sxs-lookup"><span data-stu-id="13c7f-109">Configure payment account</span></span>
+1. <span data-ttu-id="13c7f-110">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="13c7f-110">Click New.</span></span>
+2. <span data-ttu-id="13c7f-111">Digitare un valore nel campo Servizio di pagamento.</span><span class="sxs-lookup"><span data-stu-id="13c7f-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="13c7f-112">Selezionare un'opzione nel campo Connettore pagamenti.</span><span class="sxs-lookup"><span data-stu-id="13c7f-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="13c7f-113">Attivare l'espansione della sezione Conto servizio di pagamento.</span><span class="sxs-lookup"><span data-stu-id="13c7f-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="13c7f-114">Nel campo Ambiente: digitare 'PROD'.</span><span class="sxs-lookup"><span data-stu-id="13c7f-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="13c7f-115">Fare clic su Tipi carta di credito.</span><span class="sxs-lookup"><span data-stu-id="13c7f-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="13c7f-116">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="13c7f-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="13c7f-117">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="13c7f-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="13c7f-118">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="13c7f-118">Click Add.</span></span>
+10. <span data-ttu-id="13c7f-119">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="13c7f-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="13c7f-120">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="13c7f-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="13c7f-121">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="13c7f-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="13c7f-122">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="13c7f-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="13c7f-123">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="13c7f-123">Click Add.</span></span>
+15. <span data-ttu-id="13c7f-124">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="13c7f-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="13c7f-125">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="13c7f-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="13c7f-126">È possibile ripetere questi passaggi per un numero illimitato di tipi di carta in base alle necessità.</span><span class="sxs-lookup"><span data-stu-id="13c7f-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="13c7f-127">Nel campo Giornale di registrazione pagamenti fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="13c7f-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="13c7f-128">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="13c7f-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="13c7f-129">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="13c7f-129">Click Add.</span></span>
+20. <span data-ttu-id="13c7f-130">Digitare un valore nel campo Valuta.</span><span class="sxs-lookup"><span data-stu-id="13c7f-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="13c7f-131">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="13c7f-131">Click Save.</span></span>
+22. <span data-ttu-id="13c7f-132">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="13c7f-132">Close the page.</span></span>
+23. <span data-ttu-id="13c7f-133">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="13c7f-133">Click Validate.</span></span>
+24. <span data-ttu-id="13c7f-134">Fare clic sulla casella di controllo Elaboratore predefinito nuove carte di credito.</span><span class="sxs-lookup"><span data-stu-id="13c7f-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="13c7f-135">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="13c7f-135">Click Save.</span></span>
 
