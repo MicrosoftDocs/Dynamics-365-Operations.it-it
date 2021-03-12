@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66a5ca8a679563b59ca23992f7e0b4ee6fab470b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993806"
 ---
 # <a name="warehouse-app-event-processing"></a>Elaborazione degli eventi dell'app di magazzino
 
@@ -78,6 +77,3 @@ Per ripristinare un messaggio di evento di un'app di magazzino non riuscita:
 1. Continua a lavorare fino a quando tutti i messaggi pertinenti non vengono ripristinati.
 
 Puoi anche rimuovere un messaggio di evento **Non riuscito** utilizzando l'opzione **Elimina** nella barra degli strumenti **Messaggi di evento dell'app di magazzino**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

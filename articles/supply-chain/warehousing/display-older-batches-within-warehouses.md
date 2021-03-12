@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b1c9452a811d662976a25993264be0617ac67fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 418ce3b320024780def0f7c5687b7c2e1c6b6f2b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431131"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996225"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile
 
@@ -40,6 +39,3 @@ La configurazione **Visualizza batch meno recenti all'interno del magazzino** è
 
 - In **Gestione magazzino** > **Impostazioni** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile** impostare **Utilizza lavoro esistente** su **Sì** per la voce di menu e selezionare **Avvisa** nel campo **Preleva batch meno recente**. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

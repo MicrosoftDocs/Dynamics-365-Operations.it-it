@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e4d87e85520c2b6f2346fddf3b985d4e17fe35cb
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 7748a18d2b6f612b3ac9ac1a75efb6ae5f13859a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644875"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993885"
 ---
 # <a name="troubleshoot-warehouse-replenishment"></a>Risolvere i problemi di rifornimento del magazzino
 
@@ -40,6 +39,3 @@ Il lavoro di prelievo è bloccato a causa del lavoro di rifornimento dipendente.
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Quando si utilizza il rifornimento della domanda ciclo, se un'ubicazione di prelievo deve essere rifornita per soddisfare la domanda dell'ordine di origine, il sistema crea sia il lavoro di rifornimento che il lavoro di prelievo. Tuttavia, blocca il lavoro di prelievo fino al completamento del lavoro di rifornimento. Questo comportamento è intenzionale, perché l'ubicazione di prelievo non avrà scorte sufficienti a meno che il lavoro di rifornimento non sia completato. Completare il lavoro di rifornimento e quindi elaborare il lavoro di prelievo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

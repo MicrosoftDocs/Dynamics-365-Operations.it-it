@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5068c121e921c1586dc6ae003c0021bf41d2254
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8683f3b6e10efe6e975ae6bc3d7863f884bb9a0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444789"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994467"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Impostare i periodi di liquidazione IVA
 
@@ -51,6 +50,3 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 16. Selezionare **Nuovo intervallo periodico**. Una volta che il primo intervallo periodico è stato immesso, i nuovi periodi possono essere creati automaticamente. È possibile tornare e aggiungere nuovi intervalli periodici in base alle esigenze.  
 17. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

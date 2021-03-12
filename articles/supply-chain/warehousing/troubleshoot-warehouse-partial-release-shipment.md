@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e89a430f90374733b23fadaf53f5bab598d67d62
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 33323a8aed44cf19db6c2c937abcb09f7e05b6c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993954"
 ---
 # <a name="troubleshoot-partial-releases-and-partial-shipments"></a>Risolvere i problemi dei rilasci parziali e delle spedizioni parziali
 
@@ -42,6 +41,3 @@ Ad esempio, un ordine cliente ha due articoli: uno per la consegna e uno per il 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Lo stato di rilascio si applica solo alle righe ordine in cui gli articoli sono abilitati per la gestione del magazzino. Pertanto, lo stato di rilascio rimane *Parzialmente rilasciato* in questo scenario. Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione delle funzionalità. È possibile aggiungere un'estensione come parte del documento di trasporto e del processo di fatturazione per aggiornare lo stato di rilascio.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413434"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993730"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Abilitare e configurare addebiti automatici per canale
 
@@ -77,7 +76,7 @@ Dopo aver attivato la funzionalità **Abilita filtro spese automatiche per canal
 
 Per definire le spese automatiche per canale in Commerce, attenersi alla seguente procedura.
 
-1. Accedere a **Contabilità clienti \> Impostazione spese \> Spese automatiche**.
+1. Accedere a **Contabilità clienti \> Impostazione spese \> Spese automatiche**.
 1. Nel riquadro a sinistra, nel campo **Livello**, selezionare **Intestazione** o **Riga**, a seconda delle esigenze aziendali.
 1. Nel campo **Codice canale di vendita al dettaglio**, selezionare il codice canale appropriato (ad esempio, **Tabella** o **Gruppo**). Se l'impostazione predefinita **Tutti** è utilizzata, le regole di addebito vengono applicate a tutti i canali.
 
@@ -128,6 +127,3 @@ Selezionando **Opzioni di transazione \> Spese \> Gestisci spese** nell'applicaz
 [Addebiti automatici avanzati omnicanale](omni-auto-charges.md)
 
 [Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
