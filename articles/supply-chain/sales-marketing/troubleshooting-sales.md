@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431105"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974787"
 ---
 # <a name="troubleshoot-sales-orders"></a>Risolvere i problemi relativi agli ordini cliente
 
@@ -59,6 +58,8 @@ Puoi creare un ordine fornitore da un ordine cliente. Per ulteriori informazioni
 Puoi annullare solo gli ordini cliente e gli ordini di reso che si trovano in uno stato *Creato*. Per ulteriori informazioni, vedi [Annullare un ordine di reso](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Quando provo ad annullare un ordine client, ricevo un messaggio di errore "Impossibile rimuovere le prenotazioni perché è presente lavoro creato che si basa sulle prenotazioni".
+
+Codice errore: WAX4661
 
 Se il lavoro è associato a un ordine cliente, non è possibile annullare l'ordine cliente finché il lavoro non viene annullato e stornato. Questo requisito si applica anche se il lavoro associato all'ordine cliente viene chiuso.
 
@@ -110,7 +111,4 @@ Supply Chain Management non supporta attualmente il calcolo delle commissioni pe
 
 L'articolo in aggregazione non è disponibile per l'ordine fornitore perché, se esamini le righe dell'ordine cliente per l'articolo aggregato, noterai che la quantità è *0* (zero) e lo stato è *Annullato*. Questo comportamento è predefinito. L'ordine cliente acquista solo i componenti dell'articolo in aggregazione. Non acquista l'articolo in aggregazione stesso.
 
-Se devi acquistare un'aggregazione, valuta se devi contrassegnarlo come articolo dell'aggregazione, perché questa funzionalità è effettivamente progettata per scenari di riconoscimento dei ricavi. Per ulteriori informazioni su articoli e aggregazioni, vedi [Aggregazioni](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Se devi acquistare un'aggregazione, valuta se devi contrassegnarlo come articolo dell'aggregazione, perché questa funzionalità è progettata per scenari di riconoscimento dei ricavi. Per ulteriori informazioni su articoli e aggregazioni, vedi [Aggregazioni](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

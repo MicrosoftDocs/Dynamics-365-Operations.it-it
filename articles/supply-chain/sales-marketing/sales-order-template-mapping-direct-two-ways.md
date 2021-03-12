@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431342"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974987"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
 
@@ -64,8 +65,8 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 | Gestione della supply chain  | Vendite             |
 |-------------------------|-------------------|
-| Intestazioni ordine cliente CDS | SalesOrders       |
-| Righe ordine cliente CDS   | SalesOrderDetails |
+| Intestazioni ordine cliente Dataverse | SalesOrders       |
+| Righe ordine cliente Dataverse   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
@@ -75,7 +76,7 @@ Non è necessario creare ordini in Sales. È invece possibile creare nuovi ordin
 
 In Supply Chain Management, i filtri nel modello garantiscono che solo gli ordini cliente pertinenti siano inclusi nella sincronizzazione:
 
-- Nell'ordine cliente, il cliente che richiede l'ordine e quello che emette la fattura devono essere originati in Sales per essere inclusi nella sincronizzazione. In Supply Chain Management, i campi **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** sono utilizzati per filtrare ordini cliente dalle entità di dati.
+- Nell'ordine cliente, il cliente che richiede l'ordine e quello che emette la fattura devono essere originati in Sales per essere inclusi nella sincronizzazione. In Supply Chain Management, le colonne **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** sono utilizzati per filtrare ordini cliente dalle tabelle di dati.
 - L'ordine cliente in Supply Chain Management deve essere confermato. Solo gli ordini cliente confermati o gli ordini cliente con stato di elaborazione più elevato, ad esempio **Inviato** o **Fatturato** vengono sincronizzati in Sales.
 - Dopo la creazione o la modifica di un ordine cliente, è necessario eseguire il processo batch **Calcola totali vendite** in Supply Chain Management. Solo gli ordini cliente in cui vengono calcolati i totali delle vendite saranno sincronizzati in Sales.
 
@@ -103,10 +104,10 @@ Quando una riga dell'ordine cliente viene sincronizzata da Sales in Supply Chain
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
-Nuovi campi sono stati aggiunti all'entità **Ordine** e visualizzati nella pagina:
+Nuove colonne sono state aggiunte alla tabella **Ordine** e visualizzati nella pagina:
 
 - **Gestito esternamente** - Impostare questa opzione su **Sì** se l'ordine proviene da Supply Chain Management.
-- **Stato elaborazione** - Questo campo mostra lo stato di elaborazione dell'ordine in Supply Chain Management. Sono disponibili i valori seguenti:
+- **Stato elaborazione** - Questa colonna mostra lo stato di elaborazione dell'ordine in Supply Chain Management. Sono disponibili i valori seguenti:
 
     - **Bozza** - Lo stato iniziale quando un ordine viene creato in Sales. In Sales, solo gli ordini con questo stato di elaborazione possono essere modificati.
     - **Attivo** - Lo stato dopo che l'ordine viene attivato in Sales utilizzando il pulsante **Attiva**.
@@ -141,7 +142,7 @@ Prima di sincronizzare gli ordini cliente, è importante aggiornare le impostazi
 - Andare a **Impostazioni** &gt; **Amministrazione** &gt; **Impostazioni di sistema** &gt; **Vendite** e assicurarsi che:
 
     - L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
-    - Il campo **Metodo di calcolo sconto** sia impostato su **Voce**.
+    - La colonna **Metodo di calcolo sconto** sia impostato su **Voce**.
 
 ### <a name="setup-in-supply-chain-management"></a>Impostazione in Supply Chain Management
 
@@ -151,10 +152,10 @@ Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario imposta
 
 1. Passare a **Vendite e marketing** \> **Impostazioni** \> **Ordini cliente** \> **Origine vendite**.
 2. Selezionare **Nuovo** per creare una nuova origine vendite.
-3. Nel campo **Origine vendite** immettere un nome per l'origine, ad esempio **SalesOrder**.
-4. Nel campo **Descrizione** immettere una descrizione, ad esempio **Ordine cliente di Sales**.
+3. Nella colonna **Origine vendite** immettere un nome per l'origine, ad esempio **SalesOrder**.
+4. Nella colonna **Descrizione** immettere una descrizione, ad esempio **Ordine cliente di Sales**.
 5. Selezionare la casella di controllo **Assegnazione tipo di origine**.
-6. Impostare il campo **Tipo di origine vendite** su **Integrazione ordine cliente**.
+6. Impostare la colonna **Tipo di origine vendite** su **Integrazione ordine cliente**.
 7. Selezionare **Salva**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Impostazione nel progetto di Integrazione dati Ordini cliente (da Sales in Supply Chain Management) - Diretto
@@ -181,12 +182,12 @@ Se si utilizza anche l'integrazione dell'ordine di lavoro, è necessario imposta
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
 > [!NOTE]
-> I campi **Termini di pagamento**, **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
+> Le colonne **Termini di pagamento**, **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono inclusi nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
 
 Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integrazione dati.
 
 > [!NOTE]
-> Il mapping mostra quali informazioni dei campi verranno sincronizzate da Sales in Supply Chain Management o da Supply Chain Management in Sales.
+> Il mapping mostra quali informazioni delle colonne verranno sincronizzate da Sales in Supply Chain Management o da Supply Chain Management in Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordini di vendita (da Supply Chain Management a Sales) - Diretto: OrderHeader
 
@@ -207,6 +208,3 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Prospect to cash](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

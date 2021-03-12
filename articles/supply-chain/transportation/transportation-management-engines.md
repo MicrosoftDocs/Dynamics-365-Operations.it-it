@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431517"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973887"
 ---
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
@@ -89,7 +88,7 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | **Motore zona**                                | Richiede l'impostazione diretta dei metadati nella master zona.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Motore di tempo di transito** e **Motore di trasferta** | Recupera i metadati direttamente dal modulo di impostazione della configurazione del motore chilometraggio.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Esempio di metadati per il motore tariffe** Il motore di gestione del trasporto richiede l'identificazione dell'indirizzo di origine, lo stato/regione e il paese di destinazione e il punto iniziale e finale della spedizione. Utilizzando tali requisiti, i metadati assomiglierebbero ai dati della tabella seguente. La tabella include inoltre informazioni sul tipo di dati di input necessari.
+  **Esempio di metadati per il motore tariffe** Il motore di gestione del trasporto richiede l'identificazione dell'indirizzo di origine, lo stato/regione e il paese di destinazione e il punto iniziale e finale della spedizione. Utilizzando tali requisiti, i metadati assomiglierebbero ai dati della tabella seguente. La tabella include inoltre informazioni sul tipo di dati di input necessari.
 -   Definire queste informazioni in **Gestione trasporto** &gt; **Impostazioni** nella pagina **Tipo di base tariffa**.
 
 | Sequenza | Nome                          | Tipo di campo | Tipo di dati | Tipo di ricerca    | Obbligatorio |
@@ -99,6 +98,3 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | 3        | Codice postale di inizio destinazione | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 4        | Codice postale di fine destinazione   | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 5        | Paese di destinazione           | Assegnazione | Stringa    | Paese |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

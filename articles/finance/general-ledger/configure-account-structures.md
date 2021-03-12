@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55c3d6c0f2cddb4da8fd82f26ca3184b194e174b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444854"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975893"
 ---
 # <a name="configure-account-structures"></a>Configura strutture dei conti
 
@@ -107,6 +106,3 @@ Quando si impostano le strutture dei conti esistono alcune procedure consigliate
 Quando si è soddisfatti della nuova impostazione o di una modifica della struttura dei conti, è necessario attivarla. Se una struttura dei conti è assegnata a una contabilità generale, questa attivazione può essere un processo lungo, in quanto tutte le transazioni non registrate nel sistema devono essere sincronizzate con la nuova struttura. Le transazioni registrate non vengono influenzate dalle modifiche della struttura dei conti.
 
 Per ulteriori informazioni, vedere [Definire il piano dei conti](plan-chart-of-accounts.md), [Dimensioni finanziarie](financial-dimensions.md) e [Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

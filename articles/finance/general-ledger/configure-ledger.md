@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4445001"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975818"
 ---
 # <a name="configure-ledgers"></a>Configurare i libri contabili
 
@@ -82,6 +81,3 @@ Se utilizzi due valute o se utilizzi un'unica valuta ma le transazioni vengono r
 I profitti e le perdite realizzati sono i profitti e le perdite realizzati dalle transazioni completate. Sono registrati nel rendiconto profitti e perdite. I guadagni e le perdite non realizzati sono profitti e perdite che si sono materializzati, ma la cui transazione non è stata completata. In altre parole, hai registrato una fattura, ad esempio, ma la fattura non è stata ancora liquidata e pagata. I profitti e le perdite non realizzati sono registrati nello stato patrimoniale.
 
 Per ulteriori informazioni su come utilizzare due valute, vedi [Doppia valuta](dual-currency.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

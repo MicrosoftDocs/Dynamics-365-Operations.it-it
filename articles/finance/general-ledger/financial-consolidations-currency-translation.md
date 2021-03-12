@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444901"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975766"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -125,7 +124,7 @@ L'impostazione delle eliminazioni è disponibile nell'area **Impostazioni** del 
 
 Dopo avere definito le proprietà di base, selezionare **Righe** per definire le regole di elaborazione effettive. Sono disponibili due opzioni per le eliminazioni: è possibile eliminare l'importo netto della modifica o definire un importo fisso.
 
-Selezionare i conti di origine. È possibile utilizzare un asterisco (\*) come carattere jolly. AD esempio **1\*** seleziona tutti i conti che iniziano con **1** come origine dei dati per l'allocazione.
+Selezionare i conti di origine. È possibile utilizzare un asterisco (\*) come carattere jolly. Ad esempio **1\**_seleziona tutti i conti che iniziano con_* 1** come origine dei dati per l'allocazione.
 
 Dopo aver selezionato i conti di origine, utilizzare il campo **Specifica conto** per specificare il conto che viene utilizzato dalla società di destinazione. Selezionare **Origine** per utilizzare lo stesso conto principale che viene definito nel conto principale. Se si seleziona **Definito dall'utente**, è necessario specificare un conto di destinazione.
 
@@ -182,6 +181,3 @@ Di seguito sono riportati alcuni degli scenari di consolidamento supportati dall
 
 ## <a name="generating-consolidated-financial-statements"></a>Generazione di rendiconti finanziari consolidati
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
