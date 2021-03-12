@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970105"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Scegliere tra Modern POS (MPOS) e Cloud POS
 
@@ -105,6 +104,3 @@ Considerare le seguenti informazioni quando si pianifica l'implementazione di PO
 - **Dispositivi hardware e periferiche** - Un aspetto importante di un sistema Retail POS è la capacità di utilizzare le periferiche POS, ad esempio le stampanti, i cassetti di cassa e i terminali di pagamento. Sebbene tutte le opzioni disponibili di POS possano utilizzare le periferiche, solo MPOS per Windows le supporta direttamente. Per tutte le altre applicazioni, è necessario munirsi di una o più stazioni hardware. Sebbene aggiunga flessibilità, questo approccio richiede l'aggiunta, la configurazione e il supporto di componenti aggiuntivi.
 - **Requisiti di sistema** - I requisiti di sistema dell'applicazione POS variano. Assicurarsi di controllare le informazioni più recenti prima di scegliere. Ad esempio, poiché CPOS viene eseguito in un browser, supporta una gamma più ampia di sistemi operativi. Per ulteriori informazioni sui requisiti di sistema, vedere [Requisiti di sistema per le distribuzioni cloud](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Distribuzione e assistenza** - La complessità di requisiti di assistenza e di distribuzione può variare, a seconda delle scelte di distribuzione e di applicazioni. Ad esempio, per una distribuzione CPOS ospitata nel cloud, non è necessario installare e aggiornare in ogni dispositivo. Di conseguenza, tale approccio semplifica notevolmente la complessità e riduce i costi. Tuttavia, se si distribuisce MPOS in ogni registratore e si attiva la modalità offline e si distribuiscono anche stazioni hardware condivise, si aumenta enormemente il numero di endpoint che devono essere gestiti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4444955"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969728"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Visualizzare i risultati dell'automazione delle fatture dei fornitori
 
@@ -38,6 +37,3 @@ Se una fattura importata è soggetta al processo di invio al flusso di lavoro, �
 - **In sospeso** - I processi automatizzati definiti nella pagina **Parametri contabilità fornitori** sono stati eseguiti, ma almeno un passaggio del processo non è riuscito. Lo stato **In sospeso** viene applicato anche se il campo **Includi in elaborazione automatizzata** è impostato su **No**. Puoi visualizzare gli errori selezionando **Visualizza risultati più recenti**.
 - **In flusso di lavoro** - La fattura importata è stata inviata al sistema flusso di lavoro, tramite il processo di invio al flusso di lavoro automatizzato o manualmente.
 - **Flusso di lavoro completato** - Il processo del flusso di lavoro è stato completato per la fattura importata.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

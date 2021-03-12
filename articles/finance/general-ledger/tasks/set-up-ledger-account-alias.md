@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
-ms.sourcegitcommit: 66dafaae9d97f0f8e67ce1d309362532b6edf447
+ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968405"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Impostare un alias conto CoGe
 
@@ -41,6 +40,3 @@ Questa procedura mostra come creare un alias di conto che fornisce un collegamen
 9. Nel campo Stato attivo iniziale, selezionare la dimensione che avrà lo stato attivo quando l'alias viene utilizzato.
     * Dopo aver digitato il collegamento e il conto e le dimensioni sono popolati, il campo Stato attivo iniziale è dove si sposta il cursore o lo stato attivo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

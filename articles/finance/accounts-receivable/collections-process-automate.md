@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444654"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969703"
 ---
 # <a name="collections-process-automation"></a>Automazione processo riscossioni
 
@@ -118,6 +117,3 @@ Le seguenti tabelle elencano le pagine e i campi da cui è possibile accedere al
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Registra lettere di sollecito automaticamente           |     I tipi di azione lettera di sollecito pubblicheranno la lettera durante l'automazione.                                      |
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Creare attività per l'automazione                |     Creare e chiudere le attività per i tipi di azione non attività per visualizzare tutti i passaggi automatizzati eseguiti su un account.        |
 |     Parametri contabilità clienti > Automazione del processo di riscossione     |     Giorni per la conservazione dell'automazione del processo di riscossione     |     Definisce il numero di giorni in cui viene archiviata la cronologia delle riscossioni.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967585"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Spostamento della sequenza dei costi di fallback medi
 
@@ -46,6 +45,3 @@ Per selezionare la sequenza dei costi di fallback per i calcoli della media mobi
     - **Costo attivo - Prezzo dell'articolo** - Le organizzazioni potrebbero riscontrare problemi di prestazioni se utilizzano processi aziendali in cui l'inventario diventa regolarmente negativo e, allo stesso tempo, il volume delle transazioni è elevato. Questa impostazione può aiutare a mitigare questi problemi di prestazioni.
 
 ![Parametri di contabilità inventario](media/inventory-accounting-parameters.png "Parametri di contabilità inventario")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

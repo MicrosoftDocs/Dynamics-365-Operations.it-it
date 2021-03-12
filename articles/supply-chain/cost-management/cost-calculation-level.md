@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 52b77e794ee38add556ac01d62c973b38c48a548
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42088d8c005cf3fc04e768f1b8e8c8ca0b8c6993
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431059"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967733"
 ---
 # <a name="cost-calculation-level"></a>Livello di calcolo costi
 
@@ -57,6 +56,3 @@ Un ordine di produzione per il prodotto C viene quindi creato e il prodotto A è
     - **Prodotto C:** 2
 
 Questo comportamento garantisce che le modifiche alle DBA dell'ordine di produzione non influiscano sui calcoli dei costi successivi.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

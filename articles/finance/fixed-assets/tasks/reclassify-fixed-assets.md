@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd108f2e778b31749c66b2787d9f59467cae97dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444716"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968856"
 ---
 # <a name="reclassify-fixed-assets"></a>Riclassifica i cespiti
 
@@ -46,6 +45,3 @@ Seguire questi passaggi per riclassificare un cespite:
 5. Immettere una data nel campo **Riclassificazione**.
 6. Nel campo **Serie giustificativi** immettere o selezionare un valore.
 7. Fare clic su **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

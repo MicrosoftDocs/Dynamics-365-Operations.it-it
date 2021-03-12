@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 259fd8f41eade1e873225f0d95c499c8cb8c1a6a
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969530"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Stornare le transazioni di leasing registrate
 
@@ -56,6 +55,3 @@ Per revocare una transazione stornata, segui questi passaggi.
 Quando selezioni **Tracciatura di storno**, viene visualizzata una finestra di dialogo che mostra sia le transazioni originali che le transazioni stornate, insieme a un numero di traccia collegato.
 
 Puoi anche tenere traccia delle revoche utilizzando la pagina **Programmi** appropriata. Il campo **Storno** viene deselezionato, mentre il campo **Giornale di registrazione registrato** viene selezionato. Inoltre, il campo **Ultimo numero giornale di registrazione** viene aggiornato con il numero del giornale di registrazione della transazione di revoca e il campo **Numero giornale di registrazione** viene aggiornato con il numero di giornale di storno.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

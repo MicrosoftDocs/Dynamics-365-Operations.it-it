@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e0a015283064af2287013bccc065b4467a308c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d53181d63f7b362662d993e21671e9b685b5dfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444709"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968429"
 ---
 # <a name="set-up-main-account-categories"></a>Impostare le categorie di conti principali
 
@@ -42,6 +41,3 @@ In questo argomento viene illustrato come impostare le categorie di conti princi
 3. Selezionare o deselezionare l'opzione **Collegato** per scegliere i conti principali.
 4. Selezionare **OK**.
 5. Selezionare **Sì**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

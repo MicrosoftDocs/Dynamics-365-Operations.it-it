@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444888"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968981"
 ---
 # <a name="electronic-messaging"></a>Messaggi elettronici
 
@@ -536,6 +535,3 @@ La griglia nella scheda Dettaglio **Registro azioni** viene automaticamente riem
 ![Aggiornare lo stato del messaggio](media/update-status.png)
 
 Lo stato del messaggio viene aggiornato a **Preparato** ed è possibile generare il report selezionando **Genera report**. Il report viene generato e lo stato del messaggio e il registro delle azioni del vengono aggiornati. Per visualizzare il report generato, selezionare il pulsante **Allegato** (il simbolo di graffetta) nell'angolo superiore destro della pagina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

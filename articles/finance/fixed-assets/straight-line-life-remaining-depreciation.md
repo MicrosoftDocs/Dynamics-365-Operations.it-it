@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444900"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969006"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
@@ -38,7 +37,7 @@ Quando si imposta un profilo di ammortamento cespiti e si seleziona **Vita utile
 
 ### <a name="calendar"></a>Calendario
 
-Se si seleziona **Calendario** nel campo ***Anno di ammortamento***, si presuppone che l'anno inizi il primo gennaio e termini il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
+Se selezioni **Calendario** nel campo **_Anno di ammortamento_*_, si presume un anno compreso tra il 1 gennaio e il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. L'opzione _* Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 -   **Annuale**: viene registrato un importo il 31 dicembre.
 -   **Mensile**: viene registrato un importo mensile alla fine di ciascun mese di calendario.
@@ -80,6 +79,3 @@ L'importo di ammortamento è uguale ogni anno: (Costo di acquisizione – Valore
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

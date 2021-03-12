@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968456"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Impostare gruppi di registrazione contabile per l'IVA.
 
@@ -42,6 +41,3 @@ L'IVA viene calcolata e registrato nei conti principali specificati in Gruppi re
 11. Nel campo **Sconto di cassa fornitore**, selezionare il conto principale per la registrazione dello sconto di cassa per i **codici IVA** associati al **gruppo di registrazione contabile**. È facoltativo e se non viene immesso alcun conto, verrà utilizzato il conto principale in **Codici sconto di cassa**. Può essere utile utilizzare conti diversi per **gruppo di registrazione contabile** se si utilizza l'opzione Storna IVA su sconto di cassa in **Fasce IVA**.  
 12. Fare clic su **Salva**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
