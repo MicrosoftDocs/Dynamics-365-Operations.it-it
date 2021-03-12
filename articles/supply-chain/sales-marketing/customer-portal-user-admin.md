@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996778"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Creare e gestire utenti del portale clienti
 
@@ -39,11 +38,11 @@ Il video su come [invitare i clienti a registrarsi e utilizzare il portale per i
 
 ## <a name="prerequisite-setup"></a>Configurazione dei prerequisiti
 
-I contatti nei portali Power Apps sono memorizzati come record nell'entità **Contatti** in Common Data Service. La doppia scrittura quindi sincronizza questi record con Microsoft Dynamics 365 Supply Chain Management come necessario.
+I contatti nei portali Power Apps sono memorizzati come record nella tabella **Contatti** in Microsoft Dataverse. La doppia scrittura quindi sincronizza questi record con Microsoft Dynamics 365 Supply Chain Management come necessario.
 
 ![Diagramma di sistema per i contatti del portale clienti](media/customer-portal-contacts.png "Diagramma di sistema per i contatti del portale clienti")
 
-Prima di iniziare a invitare nuovi clienti, assicurarsi di aver abilitato il mapping dell'entità **Contatto** in doppia scrittura.
+Prima di iniziare a invitare nuovi clienti, assicurarsi di aver abilitato il mapping della tabella **Contatto** in doppia scrittura.
 
 ## <a name="the-invitation-process"></a>Processo di invito
 
@@ -58,15 +57,15 @@ Dopo aver creato un contatto, questo dovrebbe essere visibile in Supply Chain Ma
 
 Per ulteriori informazioni, vedere [Configurare un contatto per l'uso in un portale](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) nella documentazione sui portali Power Apps.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Ruoli Web e autorizzazioni di entità predefiniti
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Ruoli Web e autorizzazioni di tabella predefiniti
 
-I ruoli utente nei portali Power Apps sono definiti mediante [ruoli Web ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) e [autorizzazioni di entità](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Alcuni ruoli sono definiti per il portale clienti predefinito. È possibile creare nuovi ruoli e modificare o rimuovere ruoli esistenti.
+I ruoli utente nei portali Power Apps sono definiti mediante [ruoli Web ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) e [autorizzazioni di tabella](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Alcuni ruoli sono definiti per il portale clienti predefinito. È possibile creare nuovi ruoli e modificare o rimuovere ruoli esistenti.
 
 ### <a name="out-of-box-web-roles"></a>Ruoli Web predefiniti
 
 Questa sezione descrive i ruoli Web forniti con il portale clienti.
 
-Per ulteriori informazioni su come modificare i ruoli utente predefiniti, vedere [Creare ruoli Web per portali](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) e [Aggiungere sicurezza basata su record utilizzando autorizzazioni di entità per portali](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) nella documentazione sui portali Power Apps.
+Per ulteriori informazioni su come modificare i ruoli utente predefiniti, vedere [Creare ruoli Web per portali](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) e [Aggiungere sicurezza basata su record utilizzando autorizzazioni di tabella per portali](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) nella documentazione sui portali Power Apps.
 
 #### <a name="administrator"></a>Amministratore
 
@@ -96,6 +95,3 @@ La tabella seguente mostra quali ordini di vendita sono visibili agli utenti per
 
 > [!NOTE]
 > Anche se Sam e Jane sono contatti che lavorano per il cliente X, possono vedere solo gli ordini che essi stessi hanno effettuato e nient'altro. Sebbene May abbia un ordine nel sistema, non può vederlo nel portale clienti, poiché è un utente non autorizzato. Inoltre, deve aver effettuato l'ordine attraverso un canale diverso dal portale clienti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

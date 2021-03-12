@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4419287"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "4997103"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurare i parametri di congedo e assenza
 
@@ -92,6 +92,3 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

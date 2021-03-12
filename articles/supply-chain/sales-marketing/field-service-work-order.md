@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998505"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 
@@ -62,13 +61,13 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 | **Field Service** | **Gestione della supply chain** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Intestazioni ordine cliente CDS |
-| msdyn_workorderservices | Righe ordine cliente CDS   |
-| msdyn_workorderproducts | Righe ordine cliente CDS   |
+| msdyn_workorders        | Intestazioni ordine cliente Dataverse |
+| msdyn_workorderservices | Righe ordine cliente Dataverse   |
+| msdyn_workorderproducts | Righe ordine cliente Dataverse   |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Supply Chain Management tramite un progetto di integrazione dati Common Data Service. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Supply Chain Management. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
+Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Supply Chain Management tramite un progetto di integrazione dati Microsoft Dataverse. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Supply Chain Management. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
 
 ## <a name="estimated-versus-used"></a>Stimato rispetto a Utilizzato
 
@@ -273,6 +272,3 @@ Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 
 [![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

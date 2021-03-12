@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430915"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996328"
 ---
 # <a name="confirm-and-transfer"></a>Conferma e trasferimento
 
@@ -230,6 +229,3 @@ Puoi anche confermare che le relazioni di transazione sono state aggiornate nei 
 - L'opzione **Dividi quantità in un nuovo carico** funziona anche quando alcune delle rimanenti intestazioni di lavoro hanno uno stato di *In corso*. Pertanto, è ancora possibile utilizzare la funzionalità anche se i lavoratori stanno già eseguendo gli ordini di prelievo.
 - Se selezioni **Annulla quantità non soddisfatta** mentre è rimasto lavoro con uno stato di *Aperto* o *In corso*, viene visualizzato il seguente messaggio di errore: "Impossibile annullare la quantità rimanente per il carico. Lavoro esistente per il carico".
 - Se selezioni **Annulla quantità non soddisfatta** quando non vi sono lavori rimanenti ma sul carico sono presenti righe di carico non rilasciate, viene visualizzato il seguente messaggio di errore: "Impossibile confermare la spedizione per carico poiché la quantità per l'articolo supera la percentuale definita per la consegna in corso". Per evitare l'errore, puoi impostare la percentuale **In consegna** sulla riga di carico non rilasciata al 100 percento. Le righe non rilasciate non verranno spostate in un nuovo carico, ma il carico corrente verrà confermato con una consegna insufficiente. In questo caso, non sarà possibile rilasciare nuovamente l'ordine originale. Pertanto, dovrai gestirlo in qualche altro modo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

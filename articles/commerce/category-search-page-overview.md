@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2a7eab8e7f5d300930f8a093afff2d848d8a2db7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413422"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997851"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
@@ -111,6 +110,3 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

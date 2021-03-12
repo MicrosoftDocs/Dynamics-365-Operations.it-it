@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fe02a83d05e4b86694c1b210906128ac0cf6a84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431531"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998430"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Ricevimento della targa tramite l'app di magazzino
 
@@ -105,6 +104,3 @@ Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Co
 Per ulteriori informazioni sullo scenario di produzione *Dichiarazione di finito*, vedere [Panoramica dei criteri di lavoro del magazzino](warehouse-work-policies.md).
 
 Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
