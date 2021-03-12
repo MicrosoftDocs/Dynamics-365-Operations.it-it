@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989695"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
 
@@ -69,6 +68,3 @@ Per configurare una voce di menu del dispositivo mobile per fornire una panorami
     - Utilizza i campi **Campo di visualizzazione** restanti per aggiungere fino a sette campi di visualizzazione aggiuntivi, come richiesto. In ciascun campo **Campo di visualizzazione**, seleziona il nome di un campo della riga di lavoro. Ogni riga mostrerà quindi un valore per quel campo. I valori verranno visualizzati nell'ordine selezionato qui. Puoi lasciare alcuni dei campi **Campo di visualizzazione** vuoti se non si richiedono tutti e sette i valori.
 
 1. Nel riquadro azioni, seleziona **Salva**, quindi chiudi la pagina **Elenco campi**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

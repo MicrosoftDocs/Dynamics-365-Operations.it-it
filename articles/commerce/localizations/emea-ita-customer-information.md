@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Italy
 ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b6ddd2177c46dcf19bf42eeadf3c7f835fa3e72f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e88c6b703dd6b1acde1ba078ffd16b06588551a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408078"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989581"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -275,6 +274,3 @@ Attenersi alla procedura seguente per creare pacchetti distribuibili contenenti 
 
 1. Eseguire **msbuild** per l'intero Retail SDK per creare i pacchetti distribuibili.
 1. Applicare i pacchetti via Microsoft Dynamics Lifecycle Services (LCS) o manualmente. Per ulteriori informazioni, vedere [Confezione di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3244d857a9135249130672501f8b766ff9a0680
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 697ca7557b26026783626e843ee1e5d1fd27db9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444793"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990266"
 ---
 # <a name="reverse-journal-posting"></a>Stornare registrazione del giornale di registrazione
 
@@ -70,6 +69,3 @@ Se il numero di righe giustificativo è pari o inferiore a 100 righe, il process
 
 Le transazioni possono essere stornate solo se soddisfano le regole business per lo storno. I pagamenti fornitore non possono essere stornati utilizzando la funzionalità descritta in questo argomento. I pagamenti fornitore devono essere stornati tramite i passaggi elencati in [Stornare un pagamento fornitore](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

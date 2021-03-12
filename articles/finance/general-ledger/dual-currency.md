@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444631"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990466"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
@@ -209,6 +208,3 @@ Nel consolidamento della contabilità generale, è stata aggiunta una nuova opzi
 -  È ora possibile scegliere se utilizzare la valuta di contabilizzazione o di dichiarazione della società di origine come valuta di transazione nella società di consolidamento.
 
 - Gli importi in valuta di dichiarazione o contabilizzazione della società di origine verranno copiati direttamente in quelli nella società di consolidamento, se una delle valute è uguale. Gli importi in valuta di dichiarazione e contabilizzazione nella società di consolidamento vengono calcolati utilizzando il tasso di cambio se nessuna delle valute è uguale.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

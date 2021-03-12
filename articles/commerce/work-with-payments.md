@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413471"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989254"
 ---
 # <a name="payment-methods-in-call-centers"></a>Metodi di pagamento nei servizi clienti
 
@@ -53,6 +52,3 @@ Poiché i metodi di pagamento sono definiti, devono essere collegati a un conto 
 Per gli scenari di elaborazione del rimborso, il servizio clienti utilizza anche alcuni metodi di pagamento definiti in Contabilità clienti. Per configurare questi metodi di pagamento, andare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Metodi di rimborso servizio clienti**. È necessario completare la configurazione per elaborare gli assegni di rimborso ai clienti. Ad esempio, se un cliente ha in origine pagato per un ordine utilizzando contanti o un assegno, l'utente potrebbe voler inviare al cliente un assegno di rimborso tramite la contabilità clienti. In questo caso, i tipi di pagamento in contanti e con assegno nel servizio clienti devono essere associati al metodo di pagamento corretto in Contabilità clienti per garantire che il rimborso venga correttamente elaborato.
 
 Inoltre, se un utente sta elaborando un ordine di reso come utente di un servizio clienti in Commerce, ma non è in grado di collegare il reso a una vendita originale, il metodo di pagamento **Reso** deve essere definito nei parametri del servizio clienti. Passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti** e quindi nella scheda **NAR/Reso** nel campo **Metodo di pagamento** assicurarsi che il metodo di pagamento sia definito. Il metodo di pagamento sarà il metodo di pagamento utilizzato per i rimborsi. In genere, verrà definito come metodo con assegno o metodo tramite conto cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

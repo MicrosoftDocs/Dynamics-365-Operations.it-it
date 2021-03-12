@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed63245066799d7d8f14362ab6c9193c0cda7c4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66903d142ecb7228e4fdec56dbd45472acbdeb69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431027"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989645"
 ---
 # <a name="piece-picking-confirmation"></a>Conferma di prelievo pezzi
 
@@ -51,6 +50,3 @@ Le opzioni seguenti diventano disponibili per la selezione quando il tipo di lav
 | Conferma di prelievo pezzi | Disponibile per i tipi di lavoro prelievo e conteggio. La conferma del prodotto viene selezionata automaticamente. Consente di confermare ogni pezzo di magazzino dal dispositivo mobile. |
 |  Numero massimo di pezzi  |                   Disponibile per il lavoro di prelievo se la conferma di prelievo del pezzo è abilitata. Consente di impostare un limite al numero di pezzi che è necessario confermare.                   |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

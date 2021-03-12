@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 01f44c49b6623cbcc2f08cfd6e4978c9a1676b83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 38e3c5b3b85eb9ad17270cf7002046896d305548
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988265"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Importare la configurazione di bonifico ISO20022
 
@@ -45,6 +44,3 @@ Si tratta della prima attività di cinque, tale set illustra il processo di paga
     * Se il pulsante di importazione non è disponibile, significa che la configurazione è già stata importata.  
 9. Fare clic su Sì.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

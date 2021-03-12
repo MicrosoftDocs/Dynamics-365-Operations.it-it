@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650668"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988954"
 ---
 # <a name="number-of-books-per-journal"></a>Numero di libri per giornale di registrazione
 
@@ -46,7 +45,7 @@ Il processo di elaborazione batch esclude i libri chiusi. Ad esempio, in un proc
 
 Il limite al numero di libri viene applicato se gli ID risorsa duplicati non esistono nello stesso giornale. Tuttavia, se l'ID risorsa è uguale all'ID libro, il numero di libri per giornale di registrazione può essere superato per mantenere l'ID risorsa nello stesso giornale.
 
-Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite e ogni libro cespiti viene registrato nello stesso livello di registrazione. Esegui l'ammortamento per tre mesi consecutivi, senza riepilogo. Il giornale di registrazione ammortamento verrà creato tramite un processo batch e il sistema creerà sette giornali di registrazione con 667 ID cespite e tre libri per ogni ID cespite. Il risultato sarà 2.001 libri. Pertanto, in tre mesi, ci saranno 6.003 righe di giornale di registrazione per mantenere gli stessi ID cespite nello stesso giornale di registrazione. Il sistema creerà anche un giornale di registrazione con 332 ID cespiti e tre libri per ogni ID cespite. In tre mesi ci saranno 2.988 righe.
+Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite e ogni libro cespiti viene registrato nello stesso livello di registrazione. Esegui l'ammortamento per tre mesi consecutivi, senza riepilogo.  Il giornale di registrazione ammortamento verrà creato tramite un processo batch e il sistema creerà sette giornali di registrazione con 667 ID cespite e tre libri per ogni ID cespite. Il risultato sarà 2.001 libri. Pertanto, in tre mesi, ci saranno 6.003 righe di giornale di registrazione per mantenere gli stessi ID cespite nello stesso giornale di registrazione. Il sistema creerà anche un giornale di registrazione con 332 ID cespiti e tre libri per ogni ID cespite. In tre mesi ci saranno 2.988 righe.
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> Se il parametro **Riepilogo ammortamento** viene attivato durante la creazione di una proposta di ammortamento, il valore nel campo **Numero di libri per giornale - Proposta di ammortamento** non ha effetto. In questo caso il numero di libri per giornale è 6.000, il limite interno definito.

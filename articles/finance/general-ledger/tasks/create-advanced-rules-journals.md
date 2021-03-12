@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea6ca24d27bb5b00bbe31060ce2f7e40bf2fb335
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c06855c7a7648c5829b90bc548a7d2e400967698
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988604"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Creare regole avanzate per giornali di registrazione
 
@@ -58,6 +57,3 @@ Questa procedura descrive come creare regole avanzate per i giornali di registra
 4. Nella struttura, selezionare 'il gruppo a cui è consentita la registrazione per questo nome di giornale di registrazione'.
 5. Fare clic su **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

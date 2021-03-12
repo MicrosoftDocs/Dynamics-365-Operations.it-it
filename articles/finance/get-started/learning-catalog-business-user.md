@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444824"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990241"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catalogo di apprendimento per gli utenti di Dynamics 365 Finance
 
@@ -54,12 +53,10 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Configurare e utilizzare l'impostazione budget in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Ogni organizzazione, sia essa pubblica o privata, imposta gli obiettivi finanziari e operativi mediante la creazione di budget. Con la natura collaborativa e guidata dai processi della pianificazione del budget, è possibile rendere più efficiente il processo di budget. | Percorso di apprendimento online gratuito autonomo | 3.5 ore |
 | [Configurare e gestire i cespiti in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese o area geografica. | Percorso di apprendimento online gratuito autonomo | 4.5 ore |
 | [Introduzione alla contabilità industriale per le catene di fornitura in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | La contabilità industriale consente di raccogliere dati da diverse origini, ad esempio dalla contabilità generale, dalle contabilità ausiliarie, dai budget e dalle informazioni statistiche. È quindi possibile analizzare, riepilogare e valutare i dati sui costi, in modo che la gestione possa prendere le migliori decisioni possibili per gli aggiornamenti dei prezzi, i budget, il controllo dei costi e così via.  | Percorso di apprendimento online gratuito autonomo | 1 ora  |
+| [Utilizzo di Gestione spese in Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Ottimizza la redditività e minimizza i costi con accurate funzionalità di gestione delle spese in Dynamics 365 Project Operations. Scopri come configurare il sistema, creare e approvare le note spese. | Percorso di apprendimento online gratuito autonomo | 5.5 ore  |
 
 ## <a name="exam"></a>Esame<a name="exam"></a>
 
-| Contenuto | descrizione  | Formatta  |
+| Contenuto | descrizione  | Formattazione  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Dimostrare di aver compreso Microsoft Dynamics 365; Power Platform; concetti del cloud; opzioni di licenza e opzioni di distribuzione e rilascio | Esame, i costi variano in base alla regione |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

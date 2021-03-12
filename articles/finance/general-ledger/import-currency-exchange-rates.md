@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444866"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988879"
 ---
 # <a name="import-currency-exchange-rates"></a>Importare tassi di cambio valutari
 
@@ -56,6 +55,3 @@ Prima di poter importare i tassi di cambio, è necessario impostare le informazi
 | **Ignora tassi di cambio esistenti**   | Questa casella di controllo gestisce l'aggiornamento del tasso di cambio esistente di una coppia di valute quando il tasso di cambio per una data specifica è già presente. Se non si seleziona questa casella di controllo, il tasso di cambio per le date specifiche non viene importato se esiste già un altro tasso di cambio.                                                                                       |
 | **Impedisci importazione in festa nazionale** | Questa casella di controllo gestisce l'importazione del tasso di cambio per una data che è una festa nazionale. Ad esempio, se si seleziona questa casella di controllo e si utilizza la Banca Centrale Europea come provider di tassi di cambio, il sistema non aggiornerà il tasso di cambio durante la festa nazionale correlata alla persona giuridica corrente. Questa opzione potrebbe non essere disponibile per alcuni provider. |
 | **Tasso del giorno precedente** | Questa casella di controllo è disponibile se si abilita la funzionalità **Importazione ECB alla data corrente o precedente** nella pagina **Gestione funzionalità**. Questa casella di controllo è disponibile solo per il provider, *Banca centrale europea*. Selezionare questa casella di controllo per importare il tasso di cambio valuta pubblicato dalla Banca centrale europea il giorno lavorativo precedente alle 16:00 CET circa. Per impostazione predefinita, la casella di controllo è selezionata. Deselezionarla per importare il tasso di cambio valutario pubblicato nello stesso giorno lavorativo.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
