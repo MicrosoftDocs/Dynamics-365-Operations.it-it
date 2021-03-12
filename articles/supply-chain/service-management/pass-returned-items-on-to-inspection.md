@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e8205db277715f4f4f9c1ee589f264c0ded6617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7207c54a88b8a7fc6c38db50c4916d1fc16b5ec4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431173"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006681"
 ---
 # <a name="pass-returned-items-on-to-inspection"></a>Trasferire i resi al servizio di ispezione 
 
@@ -56,6 +55,3 @@ Verrà creato automaticamente un ordine di quarantena, a cui la persona o il rep
 
 [Specificare la modalità di smaltimento dei resi](specify-how-to-dispose-of-returned-items.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
