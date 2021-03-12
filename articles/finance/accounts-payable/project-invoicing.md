@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444736"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979589"
 ---
 # <a name="project-invoicing"></a>Fatturazione progetto
 
@@ -75,7 +74,7 @@ Se l'organizzazione richiede che le proposte di fatturazione vengano riviste pri
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Visualizzare le informazioni sulla concessione nelle pagine dell'elenco delle fatture del progetto
 
-Gli utenti del settore pubblico possono aggiungere i valori di **ID concessione** e **Nome concessione** alle pagine elenco **Proposte di fatturazione del progetto** e **Fatture del progetto**. Queste colonne sono abilitate usando la funzionalità **Aggiungi informazioni sulla concessione alle pagine elenco delle fatture del progetto**. Questa funzionalità è disattivata per impostazione predefinita e può essere abilitata in  **Aree di lavoro > Gestione funzionalità**. Contatta l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
+Gli utenti del settore pubblico possono aggiungere i valori di **ID concessione** e **Nome concessione** alle pagine elenco **Proposte di fatturazione del progetto** e **Fatture del progetto**. Queste colonne sono abilitate usando la funzionalità **Aggiungi informazioni sulla concessione alle pagine elenco delle fatture del progetto**. Questa funzionalità è disattivata per impostazione predefinita e può essere abilitata in **Aree di lavoro > Gestione funzionalità**. Contatta l'amministratore di sistema per assistenza nell'abilitazione di questa funzionalità.
 
 ## <a name="on-account-invoicing"></a>Fatturazione acconti
 L'importo immesso per un progetto in una fattura di acconto è basato sulla tempistica, la percentuale di completamento e altre condizioni di fatturazione specificate nel contratto di progetto correlato. L'importo non viene calcolato in base alle ore, agli articoli, alle spese o alle commissioni registrate nel progetto. 
@@ -132,6 +131,3 @@ Per accreditare un importo fatturato, è necessario prima selezionare l'importo 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

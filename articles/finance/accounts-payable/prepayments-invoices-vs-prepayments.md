@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979540"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
@@ -38,7 +37,7 @@ Le organizzazioni possono emettere pagamenti anticipati in favore dei fornitori 
 | Fatturazione di pagamento anticipato                                                                | Pagamenti anticipati                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Definire un valore di pagamento anticipato per un ordine fornitore.                                    | Nessun valore di pagamento anticipato è stato definito per un ordine fornitore.                    |
-| Chiave: una fattura di pagamento anticipato e una fattura finale devono essere registrate.                       | Nessuna fattura di pagamento anticipato deve essere registrata.                                    |
+| Chiave: una fattura di pagamento anticipato e una fattura finale devono essere registrate.                       | Nessuna fattura di pagamento anticipato deve essere registrata.                                    |
 | La passività per il pagamento anticipato viene registrata nel conto di pagamento anticipato, non nel conto della contabilità fornitori. | La passività per il pagamento anticipato viene registrata nel conto della contabilità fornitori.                  |
 | Il saldo fornitore non corrisponde al valore di pagamento anticipato in tutto il processo.     | Il saldo fornitore corrisponde al valore di pagamento anticipato in tutto il processo. |
 | La fatturazione di pagamento anticipato è disponibile solo in Contabilità fornitori.                         | I pagamenti anticipati sono disponibili in Contabilità fornitori e Contabilità clienti.    |
@@ -48,14 +47,14 @@ Le procedure contabili in molti paesi richiedono che i pagamenti anticipati da u
 
 1.  Impostare i profili di registrazione per i pagamenti anticipati.
 2.  In Parametri contabilità clienti e Parametri contabilità fornitori di **Contabilità generale e IVA** selezionare il nuovo profilo di registrazione utilizzando il parametro **Profilo registrazione per giornale di registrazione pagamenti con pagamento anticipato**.
-3.  Creare un giornale di registrazione pagamenti, quindi creare il nuovo pagamento.
-4.  È possibile contrassegnare il pagamento come pagamento anticipato. Se un pagamento viene contrassegnato come pagamento anticipato, il pagamento viene registrato nei conti CoGe che vengono definiti nel profilo di registrazione impostato ai passaggi 1 e 2. Inoltre, se il pagamento viene contrassegnato come pagamento anticipato, le imposte vengono calcolate. Alcuni governi richiedono che le imposte siano pagate quando viene registrato un pagamento anticipato, anche in mancanza di fattura.
+3.  Crea un giornale di registrazione pagamenti, quindi crea il nuovo pagamento.
+4.  È possibile contrassegnare il pagamento come pagamento anticipato. Se un pagamento viene contrassegnato come pagamento anticipato, il pagamento viene registrato nei conti CoGe che vengono definiti nel profilo di registrazione impostato ai passaggi 1 e 2. Inoltre, se il pagamento viene contrassegnato come pagamento anticipato, le imposte vengono calcolate. Alcuni governi richiedono che le imposte siano pagate quando viene registrato un pagamento anticipato, anche in mancanza di fattura.
 5.  Registrare il pagamento anticipato.
-6.  Facoltativo: È possibile liquidare il pagamento anticipato a fronte dell'ordine fornitore o l'ordine cliente prima di creare la fattura. In un ordine cliente o un ordine fornitore, nel riquadro azioni, utilizzare **Liquida transazioni**.
-7.  Dopo che il fornitore avrà fornito le merci o i servizi, registrare la fattura. Se il pagamento anticipato è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente al passaggio 6, il pagamento anticipato viene automaticamente liquidato a fronte della fattura creata. Se il pagamento anticipato non è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente, è possibile liquidarlo manualmente a fronte della fattura utilizzando **Liquida transazioni** nella pagina cliente o fornitore. L'importo del pagamento anticipato verrà quindi temporaneamente stornato dal conto CoGe di AP/AR. Inoltre, se le imposte sono state calcolate, vengono stornate, poiché la fattura include le imposte effettive.
+6.  Facoltativo: È possibile liquidare il pagamento anticipato a fronte dell'ordine fornitore o l'ordine cliente prima di creare la fattura. In un ordine cliente o un ordine fornitore, nel riquadro azioni, utilizza **Liquida transazioni**.
+7.  Dopo che il fornitore avrà fornito le merci o i servizi, registrare la fattura. Se il pagamento anticipato è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente al passaggio 6, il pagamento anticipato viene automaticamente liquidato a fronte della fattura creata. Se il pagamento anticipato non è stato liquidato a fronte dell'ordine fornitore o dell'ordine cliente, è possibile liquidarlo manualmente a fronte della fattura utilizzando **Liquida transazioni** nella pagina cliente o fornitore. L'importo del pagamento anticipato verrà quindi temporaneamente stornato dal conto CoGe di AP/AR. Inoltre, se le imposte sono state calcolate, vengono stornate, poiché la fattura include le imposte effettive.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Panoramica del processo di fatturazione del pagamento anticipato
-Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fornitore emette le fatture di pagamento anticipato per richiedere un deposito sull'acquisto prima che l'ordine fornitore sia stato completato. Ad esempio, alcuni fornitori richiedono un pagamento anticipato di merci o servizi personalizzati. Se un fornitore emette una fattura che richiede il pagamento anticipato, è possibile utilizzare la funzionalità di fatturazione del pagamento anticipato. Un valore di pagamento anticipato può essere definito nell'ordine fornitore, una fattura di pagamento anticipato viene registrata e pagata, quindi la fattura di pagamento anticipato viene applicata alla fattura finale. Per creare un pagamento anticipato, completare i passaggi che seguono.
+Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fornitore emette le fatture di pagamento anticipato per richiedere un deposito sull'acquisto prima che l'ordine fornitore sia stato completato. Ad esempio, alcuni fornitori richiedono un pagamento anticipato di merci o servizi personalizzati. Se un fornitore emette una fattura che richiede il pagamento anticipato, è possibile utilizzare la funzionalità di fatturazione del pagamento anticipato. Un valore di pagamento anticipato può essere definito nell'ordine fornitore, una fattura di pagamento anticipato viene registrata e pagata, quindi la fattura di pagamento anticipato viene applicata alla fattura finale. Per creare un pagamento anticipato, completare i passaggi che seguono.
 
 1.  L'addetto acquisti crea, conferma e invia un ordine fornitore per il quale il fornitore ha richiesto un pagamento anticipato. Il valore di pagamento anticipato viene definito nell'ordine fornitore come parte del contratto.
 2.  Il fornitore invia una fattura di pagamento anticipato.
@@ -66,6 +65,3 @@ Le fatture di pagamento anticipato sono una normale procedura commerciale. Un f
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
+title: Liquidare un pagamento fornitore parziale con sconti sulle note di accredito
 description: Questo articolo descrive uno scenario in cui una nota di credito viene liquidata a fronte di una fattura.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14222
 ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 701376cd080a5dda4c985aced1b08c7cb2147c27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444628"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979440"
 ---
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidare un pagamento fornitore parziale con sconti sulle note di accredito fornitore
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento fornitore parziale con sconti sulle note di accredito
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,6 +70,3 @@ April può verificare le transazioni del fornitore nella pagina **Transazioni fo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

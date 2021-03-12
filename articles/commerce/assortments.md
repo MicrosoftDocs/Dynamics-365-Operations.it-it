@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980000"
 ---
 # <a name="assortment-management"></a>Gestione dell'assortimento
 
@@ -107,6 +106,3 @@ Considerare i seguenti requisiti di implementazione quando si pianificano e si g
 - **Vendite e resi esterni agli assortimenti** - Questa funzionalità aiuta i rivenditori a gestire con efficacia gli assortimenti consentendo loro di limitare i prodotti disponibili a quelli appartenenti alla combinazione di prodotti di base per il punto vendita. Questa funzione consente inoltre ai rivenditori di gestire situazioni in cui un prodotto è stato omesso erroneamente da un assortimento o in cui un prodotto viene restituito al di fuori delle date di validità per l'assortimento.
 
 Se i dati del prodotto non sono presenti nel database del canale, il POS effettua le chiamate in tempo reale alla sede centrale per recuperare le informazioni necessarie, in modo che il prodotto possa essere venduto, restituito o aggiunto a un ordine cliente. Le informazioni sul prodotto recuperate in questo modo sono disponibili solo nell'ambito della transazione. Il prodotto non viene aggiunto alla definizione dell'assortimento. Di conseguenza, le chiamate in tempo reale successive verranno eseguite in base alle esigenze.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: d9626f33ced0433bc96ed58429e95d4f75af6508
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4413620"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980384"
 ---
 # <a name="gift-card-module"></a>Modulo Gift card
 
@@ -94,6 +93,3 @@ Per istruzioni su come aggiungere un moduli Gift card a una pagina checkout e im
 [Supporto per gift card esterne](./dev-itpro/gift-card.md)
 
 [SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

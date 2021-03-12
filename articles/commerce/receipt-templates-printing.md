@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413560"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979755"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Impostare e progettare formati di ricevute
 
@@ -46,6 +45,10 @@ In questo articolo viene descritto come modificare layout modulo per controllare
     - **Non stampare**: la ricevuta non viene stampata.
     - **Richiedi conferma all'utente**: all'utente viene chiesto se stampare la ricevuta.
     - **Come richiesto**: questa opzione viene utilizzata solo per le ricevute di regali. Se questa opzione è selezionata, l'utente può stampare le ricevute di regali dalla pagina **Modifica** se richieste.
+
+## <a name="print-images"></a>Stampare le immagini
+
+La finestra di progettazione ricevuta include una variabile **Logo** che può essere utilizzata per specificare le immagini da stampare sulla ricevuta. Le immagini incluse nelle ricevute utilizzando la variabile **Logo** devono essere di tipi di file bitmap monocromatici (.bmp). Se un'immagine .bmp è specificata nella finestra di progettazione ricevuta, ma non viene stampata quando viene inviata alla stampante, la dimensione del file potrebbe essere troppo grande o le dimensioni in pixel dell'immagine non sono compatibili con la stampante. In tal caso, prova a ridurre la risoluzione del file di immagine.   
 
 ## <a name="design-a-receipt-format"></a>Progettare un formato di ricevuta
 
@@ -82,6 +85,3 @@ I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo har
 
 > [!NOTE]
 > Se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

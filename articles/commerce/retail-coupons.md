@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413385"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979677"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -82,6 +81,3 @@ La funzionalità Buono sconto include diverse funzionalità distinte. Commerce H
 - **HQ è parzialmente aggiornato, ma Commerce Scale Unit e POS non vengono aggiornati.** In un aggiornamento HQ, il buono sconto e le pagine di sconto vengono aggiornati e il motore dei prezzi di commercio viene aggiornato. Se uno solo di questi due componenti viene aggiornato, alcune pagine in Commerce non corrisponderanno ai dati del calcolo dei prezzi. Di conseguenza, calcoli degli sconti imprevisti o errori possono verificarsi durante i calcoli degli sconti.
 - **HQ è aggiornato, ma Commerce Scale Unit e POS non vengono aggiornati (N-1).** Poiché non tutti i punti vendita possono essere aggiornati contemporaneamente, si consiglia di aggiornare HQ prima di aggiornare i punti vendita. Nello scenario N-1, le nuove funzionalità correlate ai buoni sconto non saranno disponibili nei punti vendita che non sono stati ancora aggiornati. Ad esempio, la funzionalità dei buoni sconto introduce l'esclusione delle righe. Se si utilizza l'esclusione delle righe in uno sconto, questo non verrà applicato in un punto vendita che esegue una versione precedente.
 - **HQ non è aggiornato, ma Commerce Scale Unit e POS vengono aggiornati (N+1).** Poiché il motore dei prezzi aggiornato in Commerce Scale Unit è in grado di gestire i codici sconto legacy durante i calcoli dei prezzi, l'aggiornamento non dovrebbe avere alcun impatto funzionale in questo scenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

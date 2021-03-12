@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527365"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980858"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizzare e utilizzare il portale clienti
 
@@ -40,9 +39,9 @@ Mediante i seguenti argomenti è possibile apprendere le nozioni di basi sui por
 - [Gestire il contenuto del portale](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) - Questo argomento spiega come è possibile gestire e personalizzare il contenuto visibile nel portale.
 - [Modificare CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) - Questo argomento consente di eseguire personalizzazioni più complesse nell'interfaccia utente del portale.
 - [Creare un tema per il portale](https://docs.microsoft.com/dynamics365/portals/create-theme) - Questo argomento consente di creare un tema dell'interfaccia utente per il portale.
-- [Creare ed esporre facilmente il contenuto del portale](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) - Questo argomento consente di gestire i dati e le entità sottostanti utilizzate per il portale.
+- [Creare ed esporre facilmente il contenuto del portale](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) - Questo argomento consente di gestire i dati e le tabelle sottostanti utilizzate per il portale.
 - [Configurare un contatto per l'uso in un portale](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) - Questo argomento spiega come creare e personalizzare i ruoli utente nonché la sicurezza e l'autenticazione nei portali Power Apps.
-- [Configurare note per i moduli entità e i moduli Web nei portali ](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) - Questo argomento spiega come aggiungere documenti e spazio di archiviazione aggiuntivo al portale.
+- [Configurare note per i moduli tabella e i moduli Web nei portali ](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) - Questo argomento spiega come aggiungere documenti e spazio di archiviazione aggiuntivo al portale.
 - [Gestione degli errori per il sito Web del portale](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) - Questo argomento descrive come visualizzare i log degli errori del portale e memorizzarli nell'account dell'archiviazione BLOB di Microsoft Azure .
 
 ## <a name="customize-the-order-creation-process"></a>Personalizzare il processo di creazione di ordini
@@ -91,7 +90,7 @@ Di seguito sono riportati i passaggi standard per l'invio di un ordine dal porta
 
 Per garantire un'esperienza utente senza problemi, il portale clienti inserisce automaticamente i valori per diversi campi obbligatori. Questi valori si basano sulle informazioni nel record di contatto del cliente che sta inviando l'ordine.
 
-Per ogni [record di contatto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) che appartiene a un cliente che utilizzerà il portale clienti per inviare ordini, i valori devono essere specificati per i seguenti campi obbligatori. Altrimenti, si verificheranno degli errori.
+Per ogni [riga di contatto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) che appartiene a un cliente che utilizzerà il portale clienti per inviare ordini, i valori devono essere specificati per i seguenti campi obbligatori. Altrimenti, si verificheranno degli errori.
 
 - **Società** - L'entità legale a cui appartiene l'ordine
 - **Cliente potenziale** - L'account cliente associato all'ordine
@@ -99,7 +98,7 @@ Per ogni [record di contatto](https://docs.microsoft.com/powerapps/maker/portals
 - **Valuta** - La valuta del prezzo
 - **Spedisci a paese** - Immettere il paese in cui gli articoli verranno consegnati
 
-I seguenti campi vengono impostati automaticamente per l'entità ordine cliente:
+I seguenti campi vengono impostati automaticamente per la tabella ordine cliente:
 
 - **Lingua** - La lingua dell'ordine (per impostazione predefinita, il valore viene ricavato dal record di contatto)
 - **Spedisci a paese** - Il paese in cui verranno consegnati gli articoli (per impostazione predefinita, il valore viene ricavato dal record di contatto)
@@ -116,7 +115,7 @@ I seguenti campi vengono impostati automaticamente per l'entità ordine cliente:
 
 È possibile modificare liberamente l'aspetto e l'interfaccia utente del portale clienti se non si modifica il processo di creazione di ordini di base. Se si desidera modificare il processo di creazione di ordini, è necessario tenere presente alcuni aspetti.
 
-Non rimuovere i seguenti campi dall'entità ordine cliente in Common Data Service, poiché sono necessari per creare un ordine cliente in doppia scrittura:
+Non rimuovere le seguenti colonne dalla tabella ordine cliente in Microsoft Dataverse, poiché sono necessari per creare un ordine cliente in doppia scrittura:
 
 - **Società** - L'entità legale a cui appartiene l'ordine
 - **Nome** - Il nome dell'ordine cliente
@@ -127,7 +126,7 @@ Non rimuovere i seguenti campi dall'entità ordine cliente in Common Data Servic
 - **Lingua** - La lingua dell'ordine (in genere, questa lingua è la lingua del cliente potenziale)
 - **Descrizione indirizzo di consegna** - L'indirizzo di consegna dell'ordine cliente
 
-Per gli articoli, I campi seguenti sono obbligatori:
+Per gli articoli, le colonne seguenti sono obbligatorie:
 
 - **Prodotto** - Il prodotto da ordinare
 - **Quantità** - La quantità del prodotto selezionato
@@ -135,11 +134,11 @@ Per gli articoli, I campi seguenti sono obbligatori:
 - **Spedisci a paese** - Il paese di consegna
 - **Descrizione indirizzo di consegna** - L'indirizzo di consegna dell'ordine
 
-È necessario assicurarsi che il portale clienti invii i valori per tutti questi campi.
+È necessario assicurarsi che il portale clienti invii i valori per tutte queste colonne.
 
-Se si desidera aggiungere campi alla pagina o rimuovere campi, vedere [Creare o modificare moduli di creazione rapida per un'esperienza di immissione dati ottimizzata](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Se si desidera aggiungere colonne alla pagina o rimuovere colonne, vedere [Creare o modificare moduli di creazione rapida per un'esperienza di immissione dati ottimizzata](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Se si desidera modificare la modalità di preimpostazione dei campi e di impostazione dei valori al momento del salvataggio della pagina, consultare le seguenti informazioni nella documentazione sui portali Power Apps:
+Se si desidera modificare la modalità di preimpostazione delle colonne e di impostazione dei valori al momento del salvataggio della pagina, consultare le seguenti informazioni nella documentazione sui portali Power Apps:
 
 - [Prepopolare i campi](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Impostare i valori al salvataggio](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Per ulteriori informazioni su come configurare e personalizzare il portale clien
 - [Aggiornare un portale](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrare la configurazione del portale](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestione del ciclo di vita delle soluzioni: app Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

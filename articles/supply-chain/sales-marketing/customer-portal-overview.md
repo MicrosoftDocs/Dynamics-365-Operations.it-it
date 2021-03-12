@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529580"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980808"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ Il portale clienti viene fornito come modello di portali Power Apps. Dipende dai
 
 I [portali Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) sono una funzionalità che consente agli utenti di creare un sito Web rivolto verso l'esterno al quale possono accedere persone esterne all'organizzazione. È possibile creare portali con poco codice o senza codice. Il portale clienti è uno dei tanti [modelli di portale Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) messi a disposizione da Microsoft.
 
-La [doppia scrittura](https://docs.microsoft.com/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app basate su modello in Dynamics 365 e le app Finance and Operations. La doppia scrittura fornisce un'integrazione bidirezionale tra le app Finance and Operations e Common Data Service. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da entità sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le entità appropriate.
+La [doppia scrittura](https://docs.microsoft.com/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app Finance and Operations. La doppia scrittura fornisce un'integrazione bidirezionale tra le app Finance and Operations e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
 
 ![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
 Il portale clienti funge da punto di partenza per le organizzazioni che desiderano utilizzare i portali Power Apps per creare un sito Web rivolto verso l'esterno che utilizza i dati dell'installazione di Supply Chain Management. Consente alle organizzazioni di connettere la doppia scrittura, Supply Chain Management e i portali Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
