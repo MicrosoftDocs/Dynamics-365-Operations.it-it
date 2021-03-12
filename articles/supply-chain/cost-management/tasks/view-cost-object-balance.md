@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventCostDimParmFixed
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26adc89c2f4f71a1b989a44c32fc5b2133a31134
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ea74aa6efd4cd29c6c5deca9917224f8cfd605c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431280"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002000"
 ---
-# <a name="view-cost-object-balance"></a><span data-ttu-id="f0d25-103">Visualizzare il saldo oggetto di costo</span><span class="sxs-lookup"><span data-stu-id="f0d25-103">View cost object balance</span></span>
+# <a name="view-cost-object-balance"></a><span data-ttu-id="d97ae-103">Visualizzare il saldo oggetto di costo</span><span class="sxs-lookup"><span data-stu-id="d97ae-103">View cost object balance</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f0d25-104">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="f0d25-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f0d25-105">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="f0d25-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="d97ae-104">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="d97ae-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d97ae-105">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="d97ae-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="f0d25-106">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="f0d25-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="f0d25-107">Fare clic su Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="f0d25-107">Click Released products.</span></span>
-3. <span data-ttu-id="f0d25-108">Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="f0d25-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
-4. <span data-ttu-id="f0d25-109">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="f0d25-109">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="f0d25-110">Fare clic su Oggetti di costo.</span><span class="sxs-lookup"><span data-stu-id="f0d25-110">Click Cost objects.</span></span>
-6. <span data-ttu-id="f0d25-111">Fare clic su Quantità fisica.</span><span class="sxs-lookup"><span data-stu-id="f0d25-111">Click Physical quantity.</span></span>
-7. <span data-ttu-id="f0d25-112">Fare clic su Visualizzazione dimensioni.</span><span class="sxs-lookup"><span data-stu-id="f0d25-112">Click Dimensions display.</span></span>
-8. <span data-ttu-id="f0d25-113">Deselezionare la casella di controllo Ubicazione.</span><span class="sxs-lookup"><span data-stu-id="f0d25-113">Clear the Location check box.</span></span>
-9. <span data-ttu-id="f0d25-114">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="f0d25-114">Click OK.</span></span>
+1. <span data-ttu-id="d97ae-106">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="d97ae-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="d97ae-107">Fare clic su Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="d97ae-107">Click Released products.</span></span>
+3. <span data-ttu-id="d97ae-108">Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="d97ae-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="d97ae-109">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="d97ae-109">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="d97ae-110">Fare clic su Oggetti di costo.</span><span class="sxs-lookup"><span data-stu-id="d97ae-110">Click Cost objects.</span></span>
+6. <span data-ttu-id="d97ae-111">Fare clic su Quantità fisica.</span><span class="sxs-lookup"><span data-stu-id="d97ae-111">Click Physical quantity.</span></span>
+7. <span data-ttu-id="d97ae-112">Fare clic su Visualizzazione dimensioni.</span><span class="sxs-lookup"><span data-stu-id="d97ae-112">Click Dimensions display.</span></span>
+8. <span data-ttu-id="d97ae-113">Deselezionare la casella di controllo Ubicazione.</span><span class="sxs-lookup"><span data-stu-id="d97ae-113">Clear the Location check box.</span></span>
+9. <span data-ttu-id="d97ae-114">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="d97ae-114">Click OK.</span></span>
 
