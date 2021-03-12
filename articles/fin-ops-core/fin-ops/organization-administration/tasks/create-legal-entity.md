@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694839"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796756"
 ---
 # <a name="create-a-legal-entity"></a>Creare una nuova persona giuridica
 
@@ -45,6 +45,3 @@ Una persona giuridica è un'organizzazione identificata mediante registrazione p
 15. Espandere la sezione **Registrazione fiscale**. Nella sezione **Registrazione fiscale** immettere i numeri di registrazione utilizzati per le dichiarazioni alle autorità fiscali.
 16. Espandere la sezione **Imposta 1099**. Nella sezione **Imposta 1099** immettere le informazioni incluse nel modulo 1099 per la persona giuridica.  
 17. Fare clic su **Salva**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

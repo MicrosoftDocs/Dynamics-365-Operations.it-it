@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685667"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744855"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Linee guida per la configurazione della doppia scrittura
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685667"
 È possibile impostare una connessione di doppia scrittura tra un ambiente Finance and Operations e un ambiente Dataverse.
 
 + Un **ambiente Finance and Operations** fornisce la piattaforma sottostante per le **app Finance and Operations** (ad esempio, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources).
-+ Un **ambiente Dataverse** fornisce la piattaforma sottostante per le **app Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing e Dynamics 365 Project Service Automation).
++ Un **ambiente Dataverse** fornisce la piattaforma sottostante per le **app di interazione con i clienti** in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365, Dynamics 365 Marketing e Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > Il modulo Risorse umane in Dynamics 365 Finance supporta le connessioni a doppia scrittura, al contrario dell'app Dynamics 365 Human Resources.
@@ -138,6 +138,3 @@ Per i collegamenti a un esempio e un approccio alternativo, consultare la sezion
 Per un esempio, vedere [Abilitazione di Customers V3-mappa della tabella Contatti](enable-entity-map.md#enable-table-map)
 
 Per un approccio alternativo che si basa sui volumi di dati in ogni entità che deve eseguire una sincronizzazione iniziale, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693234"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797492"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -195,6 +195,3 @@ Per i clienti che non hanno ancora attivato la funzionalità [Visualizzazioni sa
 Quando si personalizza l'impostazione delle dimensioni inventariali in una pagina, considerare le impostazioni create utilizzando l'opzione **Visualizza dimensioni**. Ad esempio, è possibile utilizzare la personalizzazione per nascondere una colonna per la dimensione inventariale del numero batch, ma alla successiva apertura della pagina la colonna sarà di nuovo visibile. Questo comportamento si verifica perché le impostazioni **Visualizzazione di dimensioni** controllano le colonne di dimensioni inventariali che vengono visualizzate. Le impostazioni **Visualizzazione dimensioni** vengono applicate a tutte le pagine e sostituiscono qualsiasi impostazione personalizzata dei campi delle dimensioni inventariali nelle singole pagine.
 
 Di conseguenza, nell'esempio precedente, se non si desidera che la colonna relativa alla dimensione inventariale del numero batch venga visualizzata in una pagina, è necessario cancellare la dimensione come parte dell'opzione **Dimensioni di visualizzazione** della tabella per quella pagina.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

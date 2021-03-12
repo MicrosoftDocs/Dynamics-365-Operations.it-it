@@ -14,26 +14,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4e34685731a09131d2ab49a0e04479c9c20f4da8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693800"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798593"
 ---
 # <a name="batch-processing-of-alerts"></a>Elaborazione batch degli avvisi
 
 [!include [banner](../includes/banner.md)]
 
-Gli avvisi vengono gestiti tramite l'elaborazione batch. È necessario impostare l'elaborazione batch per consentire il recapito degli avvisi.
+Gli avvisi vengono gestiti tramite l'elaborazione batch. È necessario impostare l'elaborazione batch prima degli avvisi di proceso e recapito.
 
-Sono supportati due tipi di eventi:
+La funzionalità di elaborazione in batch supporta due tipi di eventi:
 
 - Eventi generati da eventi basati sulla modifica. Questi eventi vengono anche definiti eventi di creazione/eliminazione e di aggiornamento.
-- Eventi generati dalle date di scadenza.
+- Eventi attivati dalle date di scadenza.
 
 È possibile impostare processi batch per ciascun tipo di evento.
-        
+
 ## <a name="batch-processing-for-change-based-events"></a>Elaborazione batch per eventi basati su modifica
 
 Il sistema legge tutti gli eventi basati sulla modifica che si sono verificati dopo l'ultima esecuzione dell'elaborazione batch. Gli eventi basati su modifica includono gli aggiornamenti ai campi, nonché l'eliminazione e la creazione dei record. Questi eventi vengono confrontati con le condizioni impostate nelle regole di avviso. Quando un evento soddisfa le condizioni di una regola, il processo batch genera un avviso.
@@ -44,13 +44,13 @@ Per gli eventi basati sulla modifica è possibile impostare un processo batch ch
 
 Un processo batch che si ripete invece con minore frequenza ed è pianificato per orari in cui il carico del sistema è ridotto può contribuire a migliorare le prestazioni del sistema. Tuttavia, una frequenza bassa dell'elaborazione batch può non soddisfare le richieste degli utenti riguardanti la tempestività degli avvisi.
 
-Pertanto, quando si imposta la frequenza dell'elaborazione batch per eventi basati sulla modifica, è necessario raggiungere un compromesso tra la tempestività degli avvisi e le prestazioni dell'intero sistema. Queste considerazioni diventano più rilevanti, man mano che aumenta il numero degli utenti che creano regole di avviso. La frequenza non influisce sul numero di eventi che devono essere elaborati. Tuttavia, se più utenti creano regole, occorre eseguire maggiori controlli. Questo tipo di scambio dei dati può influire sulle prestazioni del sistema.
+Pertanto, quando si imposta la frequenza dell'elaborazione batch per eventi basati sulla modifica, è necessario raggiungere un compromesso tra la tempestività degli avvisi e le prestazioni dell'intero sistema. Queste considerazioni diventano più rilevanti, man mano che aumenta il numero degli utenti che creano regole di avviso. La frequenza non influisce sul numero di eventi che il sistema elabora. Tuttavia, se più utenti creano regole, il processo esegue maggiori controlli. Questo tipo di scambio dei dati può influire sulle prestazioni del sistema.
 
 #### <a name="the-risks-of-low-batch-frequency"></a>I rischi correlati a una bassa frequenza del processo batch
 
-Se si imposta una frequenza bassa per l'elaborazione batch degli eventi basati sulla modifica, i dati rilevanti per le condizioni delle regole di avviso possono cambiare prima dell'elaborazione del batch. Di conseguenza, è possibile perdere degli avvisi.
+Se si imposta una frequenza bassa per l'elaborazione batch degli eventi basati sulla modifica, i dati rilevanti per le condizioni delle regole di avviso possono cambiare prima dell'elaborazione. Di conseguenza, è possibile perdere degli avvisi.
 
-Ad esempio una regola di avviso viene impostata per generare un avviso quando si verifica l'evento **modifica del contatto del cliente** e viene soddisfatta la condizione **cliente = BB**. In altre parole, quando il contatto del cliente BB cambia, l'evento viene registrato. Tuttavia, il sistema di elaborazione batch viene impostato in modo che l'elaborazione batch si verifichi con una frequenza minore rispetto all'immissione dei dati. Se il nome del cliente viene modificato da **BB** in **AA** prima che l'evento venga elaborato, i dati nel database non corrispondono più alla condizione della regola, **cliente = BB**. Di conseguenza, quando l'evento è infine elaborato, non viene generato alcun avviso.
+Ad esempio una regola di avviso viene impostata per attivare un avviso quando si verifica l'evento **modifica del contatto del cliente** e viene soddisfatta la condizione **cliente = BB**. In altre parole, quando il contatto del cliente BB cambia, il processo registra l'evento. Tuttavia, il sistema di elaborazione batch viene impostato in modo che l'elaborazione batch si verifichi con una frequenza minore rispetto all'immissione dei dati. Se il nome del cliente cambia da **BB** a **AA** prima dell'elaborazione dell'evento, i dati presenti nel database non soddisfano più la condizione della regola, **cliente = BB**. Di conseguenza, quando l'evento è infine elaborato, non viene generato alcun avviso.
 
 ### <a name="set-up-processing-for-change-based-alerts"></a>Impostare l'elaborazione per gli avvisi basati sulla modifica
 
@@ -82,6 +82,3 @@ Se si configura una finestra di elaborazione batch, viene inviato un avviso quan
 
 1. Passare ad **Amministrazione sistema** &gt; **Attività periodiche** &gt; **Avvisi** &gt; **Avvisi data di scadenza**.
 2. Nella finestra di dialogo **Avvisi data di scadenza**, immettere le informazioni appropriate.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694471"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798306"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -141,6 +141,3 @@ L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la com
 ## <a name="virtualization-and-oversubscription"></a>Virtualizzazione e oversubscription
 
 I servizi cruciali come AOS devono essere ospitati in host virtuali che hanno risorse dedicate (core, memoria e disco).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

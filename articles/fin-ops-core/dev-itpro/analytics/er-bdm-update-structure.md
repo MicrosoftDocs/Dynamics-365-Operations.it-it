@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681330"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728091"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Aggiornare la struttura di un modello di documento aziendale 
 
@@ -56,7 +56,7 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 5. Selezionare **OK** per creare il nuovo modello.
 
     > [!NOTE]
-    > Se non hai ancora effettuato l'accesso a Office Online, [verrai reindirizzato alla Office 365 pagina di accesso](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Per tornare al tuo ambiente finanziario, selezionare il pulsante **Indietro** nel browser.
+    > Se non hai ancora effettuato l'accesso a Office Online, [verrai reindirizzato alla Office 365 pagina di accesso](er-business-document-management.md#frequently-asked-questions). Per tornare al tuo ambiente finanziario, selezionare il pulsante **Indietro** nel browser.
 
     Il nuovo modello viene aperto per la modifica nel controllo incorporato di Excel Online nella pagina dell'editor del modello.
 
@@ -106,6 +106,3 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 [Panoramica dei report elettronici](general-electronic-reporting.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

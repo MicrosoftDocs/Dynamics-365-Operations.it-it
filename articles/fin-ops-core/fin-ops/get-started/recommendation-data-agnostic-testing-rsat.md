@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693752"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798203"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostico dei dati utilizzando Regression Suite Automation Tool
 
@@ -49,6 +49,3 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
     - Convalidare solo dopo aver filtrato una determinata transazione anziché effettuare una convalida generica. Ad esempio, per il numero di record, filtrare per il numero di transazione o la data della transazione in modo che la convalida escluda tutte le altre transazioni. 
     - Se si sta verificando un saldo del cliente o un controllo del budget, salvare prima il valore e quindi aggiungere il valore della transazione per convalidare il risultato previsto anziché un valore previsto fisso. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

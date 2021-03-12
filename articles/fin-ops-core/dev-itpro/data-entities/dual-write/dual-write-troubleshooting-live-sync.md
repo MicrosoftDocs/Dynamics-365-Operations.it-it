@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685565"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744615"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Risoluzione dei problemi di sincronizzazione in tempo reale
 
@@ -46,11 +46,11 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 Per risolvere il problema, seguire i passaggi in [Requisiti e prerequisiti di sistema](requirements-and-prerequisites.md). Per completare questi passaggi, gli utenti dell'applicazione di doppia scrittura che vengono creati in Dataverse devono avere il ruolo di amministratore di sistema. Anche il team proprietario predefinito deve avere il ruolo di amministratore di sistema.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronizzazione in tempo reale per un'entità genera coerentemente un errore simile quando si crea una riga in un'app Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronizzazione in tempo reale per una tabella genera coerentemente un errore simile quando si crea una riga in un'app Finance and Operations
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
-È possibile che venga visualizzato un messaggio di errore simile al seguente ogni volta che si tenta di salvare i dati dell'entità in un'app Finance and Operations:
+È possibile che venga visualizzato un messaggio di errore simile al seguente ogni volta che si tenta di salvare i dati della tabella in un'app Finance and Operations:
 
 *Impossibile salvare le modifiche nel database. L'unità di lavoro non può eseguire il commit della transazione. Impossibile scrivere i dati nell'entità unità di misura. Scrittura su UnitOfMeasureEntity non riuscita con messaggio di errore Impossibile sincronizzare con l'entità unità di misura.*
 
@@ -58,8 +58,8 @@ Per risolvere il problema, è necessario assicurarsi che i dati di riferimento d
 
 Se i dati esistono su entrambi i lati e si conferma che il problema non è relativo ai dati, procedere nel seguente modo.
 
-1. Arrestare l'entità correlata.
-2. Accedere all'app Finance and Operations e assicurarsi che siano presenti righe per l'entità in errore nelle tabelle DualWriteProjectConfiguration e DualWriteProjectFieldConfiguration. Ad esempio, ecco come appare la query se l'entità **Clienti** non riesce.
+1. Arrestare la tabella correlata.
+2. Accedere all'app Finance and Operations e assicurarsi che siano presenti righe per la tabella in errore nelle tabelle DualWriteProjectConfiguration e DualWriteProjectFieldConfiguration. Ad esempio, ecco come appare la query se la tabella **Clienti** non riesce.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Se i dati esistono su entrambi i lati e si conferma che il problema non è relat
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Se sono presenti righe per l'entità in errore anche dopo aver interrotto la mappatura della tabella, eliminare le righe correlate all'entità in errore. Prendere nota della colonna **projectname** nella tabella DualWriteProjectConfiguration e recuperare il record nella tabella DualWriteProjectFieldConfiguration utilizzando il nome del progetto per eliminare la riga.
+3. Se sono presenti righe per la tabella in errore anche dopo aver interrotto la mappatura della tabella, eliminare le righe correlate alla tabella in errore. Prendere nota della colonna **projectname** nella tabella DualWriteProjectConfiguration e recuperare la riga nella tabella DualWriteProjectFieldConfiguration utilizzando il nome del progetto per eliminare la riga.
 4. Avviare la mappatura della tabella. Convalidare se i dati vengono sincronizzati senza problemi.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestire gli errori dei privilegi di lettura o scrittura quando si creano i dati in un'app Finance and Operations
@@ -127,6 +127,3 @@ Per risolvere il problema, procedere come segue.
 
 3. Assicurarsi che la colonna **externalenvironmentURL** abbia l'URL corretto di Dataverse o dell'app. Eliminare tutte le righe duplicate che puntano all'URL Dataverse errato. Eliminare le righe corrispondenti nelle tabelle DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Arrestare il mapping della tabella e quindi riavviarlo
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

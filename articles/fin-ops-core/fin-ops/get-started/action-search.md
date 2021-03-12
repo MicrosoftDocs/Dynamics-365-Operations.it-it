@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694190"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798649"
 ---
 # <a name="action-search"></a>Ricerca di azioni
 
@@ -35,7 +35,7 @@ Le pagine espongono principalmente i controlli presenti nei riquadri azioni, sia
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Le descrizioni dei tasti non sono più disponibili ma sono state sostituite dalla funzionalità di ricerca di azioni. La nuova funzionalità consente di trovare rapidamente ed eseguire un pulsante da qualsiasi riquadro azioni visibile.
+La funzionalità di ricerca delle azioni sostituisce le descrizioni dei tasti che non sono più disponibili. La nuova funzionalità consente di trovare rapidamente ed eseguire un pulsante da qualsiasi riquadro azioni visibile.
 
 ## <a name="using-action-search"></a>Utilizzo della ricerca azioni
 
@@ -75,6 +75,3 @@ Nell'esempio precedente, la ricerca azioni ha mostrato i risultati dal riquadro 
 ## <a name="action-search-vs-navigation-search"></a>Confronto tra ricerca di azioni e ricerca di navigazione
 
 La ricerca di azioni è destinata alla ricerca e all'esecuzione di azioni in una pagina, ma è disponibile un meccanismo di ricerca distinto che consente di cercare e passare alle pagine. Per ulteriori informazioni su tale funzionalità, vedere l'articolo [Ricerca per navigazione](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

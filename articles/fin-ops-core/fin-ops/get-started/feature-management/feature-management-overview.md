@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692968"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798354"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -101,8 +101,8 @@ Tutte le funzionalità che possono essere abilitate verranno abilitate. Se una f
 
 Per impostazione predefinita, tutte le funzionalità aggiunte all'ambiente sono disabilitate, a meno che non siano funzionalità obbligatorie. Tuttavia, se si desidera abilitare automaticamente tutte le nuove funzionalità, è possibile utilizzare l'elenco a discesa sotto il titolo dell'area di lavoro per modificare ciò che avviene quando vengono aggiunte nuove funzionalità.
 
-- Selezionare **Abilità nuove funzionalità automaticamente** per abilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
-- Selezionare **Non abilitare nuove funzionalità automaticamente** per disabilitare tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+- Selezionare `Enable new features automatically` per abilitare automaticamente tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
+- Selezionare `Do not enable new features automatically` per disattivare in modo predefinito tutte le nuove funzionalità quando vengono aggiunte all'ambiente.
 
 
 Quando si abilita automaticamente ogni funzionalità, saranno abilitate tutte le funzionalità che verrebbero abilitate quando si fa clic sul pulsante **Abilita tutto**. Non saranno abilitate le funzionalità che richiedono la conferma o le funzionalità che non possono essere abilitate finché non si intraprende un'azione.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Cos'è l'IFeatureLifecycle implementato da alcune classi di funzionalità?
 IFeatureLifecycle è un meccanismo interno a Microsoft per indicare la fase del ciclo di vita delle funzionalità. Le funzionalità possono essere:
-- PrivatePreview - Necessita una distribuzione in anteprima per essere visibile.
-- PublicPreview: - Visualizzato per impostazione predefinita ma con un avviso indicante che la funzionalità è in anteprima.
-- Released - Rilasciato completamente.
+- `PrivatePreview` - Necessita una distribuzione in anteprima per essere visibile.
+- `PublicPreview` - Visualizzato per impostazione predefinita ma con un avviso indicante che la funzionalità è in anteprima.
+- `Released`- Completamente rilasciato.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

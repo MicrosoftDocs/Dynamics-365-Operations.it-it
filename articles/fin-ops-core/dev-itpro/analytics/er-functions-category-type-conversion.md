@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686077"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740810"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Elenco delle funzioni ER nella categoria conversione del tipo
 
@@ -38,6 +38,14 @@ Le funzioni di conversione del tipo creazione di report elettronici (ER) possono
 | [IntValue](er-functions-conversion-intvalue.md)       | Questa funzione restituisce un valore *Int* che rappresenta la stringa specificata. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Questa funzione restituisce un valore *Reale* che viene convertito dal valore specificato *Stringa*. Durante la conversione, vengono considerati i separatori di raggruppamento decimali e numerici specificati. |
 | [Valore](er-functions-conversion-value.md)             | Questa funzione restituisce un valore *Reale* che viene convertito dal valore specificato *Stringa*. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Funzioni di conversione di tipo nella categoria contenitore
+
+La tabella seguente descrive le funzioni di conversione di tipo nella categoria [contenitore](er-functions-category-container.md).
+
+| Funzione | descrizione |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Questa funzione converte l'input specificato del tipo *Stringa* in un elemento dati del tipo *Contenitore*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Funzioni di conversione di tipo nella categoria data e ora
 
@@ -79,6 +87,3 @@ La tabella seguente descrive le funzioni di conversione di tipo nella [categoria
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694337"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797047"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Panoramica delle organizzazioni e delle gerarchie organizzative
 
@@ -67,6 +67,3 @@ Impostare le gerarchie organizzative per la visualizzazione e il reporting sull'
 A ogni gerarchia viene assegnato uno scopo. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia.
 
 Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, i dati master condivisi, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni. La creazione di organizzazioni e gerarchie richiede una pianificazione attenta. Per ulteriori informazioni, vedere [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

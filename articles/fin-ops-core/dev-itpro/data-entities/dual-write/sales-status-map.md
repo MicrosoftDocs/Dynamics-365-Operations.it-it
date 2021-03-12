@@ -1,6 +1,6 @@
 ---
-title: Configurare il mapping per i campi di stato dell'ordine cliente
-description: In questo argomento viene illustrato come configurare i campi di stato dell'ordine cliente per la doppia scrittura.
+title: Configurare il mapping per le colonne dello stato dell'ordine cliente
+description: In questo argomento viene illustrato come configurare le colonne di stato dell'ordine cliente per la doppia scrittura.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4454173"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744301"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurare il mapping per i campi di stato dell'ordine cliente
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurare il mapping per le colonne dello stato dell'ordine cliente
 
 [!include [banner](../../includes/banner.md)]
 
-I campi che indicano lo stato dell'ordine cliente hanno valori di enumerazione diversi in Microsoft Dynamics 365 Supply Chain Management e Dynamics 365 Sales. È necessaria una configurazione aggiuntiva per mappare questi campi in doppia scrittura.
+Le colonne che indicano lo stato dell'ordine cliente hanno valori di enumerazione diversi in Microsoft Dynamics 365 Supply Chain Management e Dynamics 365 Sales. È necessaria una configurazione aggiuntiva per mappare queste colonne in doppia scrittura.
 
-## <a name="fields-in-supply-chain-management"></a>Campi in Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>Colonne in Supply Chain Management
 
-In Supply Chain Management, due campi riflettono lo stato dell'ordine cliente. I campi che devi mappare sono **Stato** e **Stato documento**.
+In Supply Chain Management, due colonne riflettono lo stato dell'ordine cliente. Le colonne che devi mappare sono **Stato** e **Stato documento**.
 
 L'enumerazione **Stato** specifica lo stato generale dell'ordine. Questo stato è mostrato nell'intestazione dell'ordine.
 
@@ -53,9 +53,9 @@ L'enumerazione **Stato documento** include i seguenti valori:
 - Documento di trasporto
 - Fattura
 
-## <a name="fields-in-sales"></a>Campi in Sales
+## <a name="columns-in-sales"></a>colonne in Sales
 
-In Sales, due campi indicano lo stato dell'ordine. I campi che devi mappare sono **Stato** e **Stato elaborazione**.
+In Sales, due colonne indicano lo stato dell'ordine. Le colonne che devi mappare sono **Stato** e **Stato elaborazione**.
 
 L'enumerazione **Stato** specifica lo stato generale dell'ordine. Include i valori seguenti:
 
@@ -95,7 +95,7 @@ La tabella seguente mostra la mappatura di **Stato di elaborazione** tra Sales e
 
 ## <a name="setup"></a>Attrezzaggio
 
-Per configurare il mapping per i campi di stato dell'ordine cliente, è necessario abilitare gli attributi **IsSOPIntegrationEnabled** e **isIntegrationUser**.
+Per configurare il mapping per le colonne di stato dell'ordine cliente, è necessario abilitare gli attributi **IsSOPIntegrationEnabled** e **isIntegrationUser**.
 
 Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
 
@@ -110,14 +110,14 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
 
 Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
 
-1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema**, seleziona **Entità utente** e quindi apri **Modulo \> Utente**.
+1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema**, seleziona **Tabella utente** e quindi apri **Modulo \> Utente**.
 
     ![Apertura del modulo utente](media/sales-map-user.png)
 
 2. In Esplora campi, trova **Modalità utente integrazione** e fai doppio clic su di esso per aggiungerlo al modulo. Salva le modifiche.
 
-    ![Aggiunta del campo Modalità utente integrazione al modulo](media/sales-map-field-explorer.png)
+    ![Aggiunta della colonna Modalità utente integrazione al modulo](media/sales-map-field-explorer.png)
 
 3. In Sales, vai a **Impostazione \> Sicurezza \> Utenti** e cambia la visualizzazione da **Utenti abilitati** a **Utenti dell'applicazione**.
 
@@ -145,11 +145,8 @@ Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
 
     ![Elenco di utenti dell'applicazione](media/sales-map-user-mode.png)
 
-5. Cambi il valore del campo **Modalità utente integrazione** su **Sì**.
+5. Cambi il valore della colonna **Modalità utente integrazione** su **Sì**.
 
-    ![Modifica del valore del campo Modalità utente integrazione](media/sales-map-user-mode-yes.png)
+    ![Modifica del valore della colonna Modalità utente integrazione](media/sales-map-user-mode-yes.png)
 
 I tuoi ordini cliente sono ora mappati.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693114"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797261"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Assumere dipendenti esistenti tramite selezione
 
@@ -40,6 +40,3 @@ Talvolta le posizioni aperte possono essere ricoperte da candidati che sono già
 9. Fare clic su Modifica posizione.
     * È inoltre possibile modificare la retribuzione in questo momento. Se non si assegna la retribuzione in questo momento, è possibile modificarla nel modulo del lavoratore, selezionando la scheda Retribuzione e scegliendo "Piano fisso". Dopo aver selezionato "Modifica posizione", lo stato sulla domanda di lavoro verrà aggiornato ad "Assunto".  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

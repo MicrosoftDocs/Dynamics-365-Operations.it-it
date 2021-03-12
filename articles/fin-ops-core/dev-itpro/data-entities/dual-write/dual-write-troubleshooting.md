@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744543"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -65,23 +65,23 @@ Per attivare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Sistema** selezionare **Amministrazione**.
 2. Nella pagina **Amministrazione** selezionare **Impostazioni di sistema**.
-3. Nella scheda **Personalizzazione**, nel campo **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
+3. Nella scheda **Personalizzazione**, nella colonna **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
 
 
 Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
 1. Accedere all'app basata su modello in Dynamics 365, aprire la pagina **Impostazioni** e quindi in **Personalizzazione** selezionare **Registro di traccia plug-in**.
-2. Trovare i log di traccia dove il campo **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Trovare i log di traccia dove la colonna **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione**, esaminare il testo **Blocco messaggio**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app Finance and Operations
 
 **Ruolo richiesto per visualizzare gli errori:** amministratore di sistema. Gli errori di doppia scrittura originati da Dataverse possono apparire nell'app Finance and Operations. In alcuni casi, il testo completo del messaggio di errore non è disponibile perché il messaggio è troppo lungo o contiene informazioni di identificazione personale (PII). È possibile attivare la registrazione dettagliata degli errori seguendo questi passaggi.
 
-1. Tutte le configurazioni del progetto nelle app Finance and Operations hanno una proprietà **IsDebugMode** nell'entità **DualWriteProjectConfiguration**. Aprire l'entità **DualWriteProjectConfiguration** utilizzando il componente aggiuntivo di Excel.
+1. Tutte le configurazioni del progetto nelle app Finance and Operations hanno una proprietà **IsDebugMode** nella tabella **DualWriteProjectConfiguration**. Aprire la tabella **DualWriteProjectConfiguration** utilizzando il componente aggiuntivo di Excel.
 
     > [!TIP]
-    > Un modo semplice per aprire l'entità è attivare la modalità **Progettazione** nel componente aggiuntivo di Excel e quindi aggiungere **DualWriteProjectConfigurationEntity** al foglio di lavoro. Per ulteriori informazioni, vedere [Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel](../../office-integration/use-excel-add-in.md).
+    > Un modo semplice per aprire la tabella è attivare la modalità **Progettazione** nel componente aggiuntivo di Excel e quindi aggiungere **DualWriteProjectConfigurationEntity** al foglio di lavoro. Per ulteriori informazioni, vedere [Aprire i dati della tabella in Excel e aggiornarli tramite il componente aggiuntivo di Excel](../../office-integration/use-excel-add-in.md).
 
 2. Impostare la proprietà **IsDebugMode** su **Sì** per il progetto.
 3. Esegui lo scenario che genera errori.
@@ -118,10 +118,7 @@ Ora è possibile collegare un nuovo ambiente.
 Quando si crea un ordine cliente in Dynamics 365 Sales, se si fa clic su **+ Aggiungi prodotti** si potrebbe essere reindirizzati al Dynamics 365 Project Operations modulo della riga ordine. Da quel modulo non è possibile visualizzare il modulo **Informazioni** della riga ordine cliente. L'opzione **Informazioni** non appare nel menu a discesa sotto **Nuova riga ordine**. Ciò accade perché Project Operations è stato installato nell'ambiente.
 
 Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente procedura:
-1. Passare all'entità **Riga ordine**.
+1. Passare alla tabella **Riga ordine**.
 2. Trovare il modulo **Informazioni** sotto il nodo dei moduli. 
 3. Selezionare il modulo **Informazioni** e fare clic su **Abilita ruoli di sicurezza**. 
 4. Cambiare l'impostazione di sicurezza su **Mostra a tutti**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

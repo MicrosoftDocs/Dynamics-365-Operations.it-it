@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694497"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798429"
 ---
 # <a name="create-alert-rules"></a>Creare regole di avviso
 
@@ -40,7 +40,7 @@ I processi batch per la modifica dei dati e gli avvisi di scadenza devono essere
 
 L'evento che attiva una regola di avviso può essere una data prossima o un cambiamento specifico che si verificherà. I trigger per eventi sono definiti nella Scheda dettaglio **Invia avviso quando** della finestra di dialogo **Crea regola di avviso**. Gli eventi disponibili per un determinato campo dipendono dall'attivazione selezionata.
 
-Ad esempio, se si imposta una regola di avviso per il campo **Data di inizio**, sono appropriati gli eventi generati dalla data di scadenza. Di conseguenza, il tipo di evento **in scadenza il** è disponibile per quel campo. Tuttavia, per un campo come **Centro di costo** un evento basato sulla data di scadenza non è appropriato. Di conseguenza, il tipo di evento **in scadenza il** non è disponibile per quel campo. Il tipo di evento **è stato modificato** è invece disponibile.
+Ad esempio, se si imposta una regola di avviso per il campo **Data di inizio**, sono appropriati gli eventi generati dalla data di scadenza. Di conseguenza, il tipo di evento `is due in` è disponibile per tale campo. Tuttavia, per un campo come **Centro di costo** un evento basato sulla data di scadenza non è appropriato. Di conseguenza, il tipo di evento `is due in` non è disponibile per quel campo. Tuttavia, sarà disponibile il tipo di evento `has changed`.
 
 ## <a name="event-types"></a>Tipi di evento
 
@@ -86,10 +86,10 @@ Gli avvisi possono essere inviati esternamente utilizzando il framework degli ev
 2. Nel riquadro azioni della scheda **Opzioni** del gruppo **Condividi**, selezionare **Crea regola di avviso**.
 3. Nella finestra di dialogo **Crea regola di avviso**, nel campo **Campo**, selezionare il campo da monitorare.
 4. Nel campo **Evento**, selezionare il tipo di evento.
-5. Nella Scheda dettaglio **Invia avviso per**, selezionare l'opzione desiderata. Se si desidera inviare l'avviso come evento aziendale, assicurarsi che **A livello di organizzazione** sia impostato su **No**.
+5. Nella Scheda dettaglio **Invia avviso per**, selezionare l'opzione desiderata. Se si desidera inviare l'avviso come evento aziendale, impostare il valore **A livello di organizzazione** su **No**.
 6. Se si desidera che la regola di avviso diventi inattiva in corrispondenza di una data specifica, selezionare una data di fine nella Scheda dettaglio **Invia avviso fino a**.
-7. Nella Scheda dettaglio **Invia avviso con**, nel campo **Oggetto**, accettare la voce indice predefinita per il messaggio di posta elettronica o immettere un nuovo oggetto. Il testo è utilizzato come voce indice del messaggio di posta elettronica che si riceve quando viene attivato un avviso. Se si desidera inviare l'avviso come evento aziendale, impostare **Invia esternamente** su **Sì**.
-8. Nel campo **Messaggio**, immettere un messaggio facoltativo. Il testo viene utilizzato come il messaggio ricevuto quando un avviso viene attivato.
+7. Nella Scheda dettaglio **Invia avviso con**, nel campo **Oggetto**, accettare la voce indice predefinita per il messaggio di posta elettronica o immettere un nuovo oggetto. Il testo diventa voce indice del messaggio di posta elettronica che si riceve quando viene attivato un avviso. Se si desidera inviare l'avviso come evento aziendale, impostare **Invia esternamente** su **Sì**.
+8. Nel campo **Messaggio**, immettere un messaggio facoltativo. Il testo diventa il messaggio ricevuto quando un avviso viene attivato.
 9. Selezionare **OK** per salvare le impostazioni e creare la regola di avviso.
 
 ## <a name="limitations-and-workarounds"></a>Limitazioni e soluzioni alternative
@@ -102,6 +102,3 @@ Non è possibile creare avvisi per alcune origini dati secondarie nei moduli. Ad
     ```
 2. Crea un avviso con il modulo SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744695"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Gerarchia organizzativa in Dataverse
 
@@ -49,9 +49,9 @@ Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sull
 
 App di Finance and Operations | Altre app Dynamics 365 | descrizione
 -----------------------|--------------------------------|---
-Scopi gerarchia organizzativa | msdyn_internalorganizationhierarchypurposes | Questo modello consente la sincronizzazione unidirezionale di entità scopo gerarchia organizzativa.
-Tipo di gerarchia organizzativa | msdyn_internalorganizationhierarchytypes | Questo modello consente la sincronizzazione unidirezionale di entità tipo di gerarchia organizzativa.
-Gerarchia organizzativa - pubblicata | msdyn_internalorganizationhierarchies | Questo modello consente la sincronizzazione unidirezionale di entità gerarchia organizzativa pubblicata.
+Scopi gerarchia organizzativa | msdyn_internalorganizationhierarchypurposes | Questo modello consente la sincronizzazione unidirezionale di tabella scopo gerarchia organizzativa.
+Tipo di gerarchia organizzativa | msdyn_internalorganizationhierarchytypes | Questo modello consente la sincronizzazione unidirezionale di tabella tipo di gerarchia organizzativa.
+Gerarchia organizzativa: pubblicata | msdyn_internalorganizationhierarchies | Questo modello consente la sincronizzazione unidirezionale di tabella gerarchia organizzativa pubblicata.
 Unità operativa | msdyn_internalorganizations |
 Persone giuridiche | msdyn_internalorganizations |
 Persone giuridiche | cdm_companies | Fornisce la sincronizzazione bidirezionale delle informazioni della persona giuridica (società).
@@ -73,6 +73,3 @@ Le informazioni sull'organizzazione interna in Dataverse vengono recuperate da d
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

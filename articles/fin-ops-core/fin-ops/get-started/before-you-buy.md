@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694138"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798551"
 ---
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
@@ -30,7 +30,7 @@ Non si è mai utilizzato Dynamics 365 Finance, Dynamics 365 Supply Chain Managem
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Passaggio uno: provare Finance and Operations gratuitamente per 30 giorni
 
-È possibile provare gratuitamente Dynamics 365 for Finance, Dynamics 365 Supply Chain Management o Dynamics 365 Commerce per 30 giorni grazie a una semplice iscrizione tramite posta elettronica. La versione di prova delle applicazioni Finance and Operations include guide introduttive che forniscono istruzioni dettagliate grazie alle quali è possibile vedere scenari specifici in azione. Il prodotto è disponibile per esplorare e provare scenari di lavoro, ma non può essere personalizzato. I dati dimostrativi sono inclusi per facilitare l'utilizzo del prodotto e per rendere l'esperienza più significativa. Un promemoria di posta elettronica verrà inviato 3 giorni prima della scadenza della versione di valutazione. Ulteriori dettagli sono disponibili all'indirizzo [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+È possibile provare gratuitamente Dynamics 365 for Finance, Dynamics 365 Supply Chain Management o Dynamics 365 Commerce per 30 giorni grazie a una semplice iscrizione tramite posta elettronica. La versione di prova delle applicazioni Finance and Operations include guide introduttive che forniscono istruzioni dettagliate grazie alle quali è possibile vedere scenari specifici in azione. Il prodotto è disponibile per esplorare e provare scenari di lavoro, ma non può essere personalizzato. I dati dimostrativi sono inclusi per facilitare l'utilizzo del prodotto e per rendere l'esperienza più significativa. Un promemoria di posta elettronica verrà inviato 3 giorni prima della scadenza della versione di valutazione. I dettagli sono disponibili in [Iscrizione a sottoscrizioni di anteprima](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Passaggio due: selezionare un'opzione di distribuzione
 
@@ -93,6 +93,3 @@ Microsoft FastTrack for Dynamics 365 è il servizio per il successo dei clienti 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Se si esegue l'aggiornamento da Dynamics AX 2012 o la migrazione da AX 2009
 
 Se si esegue l'aggiornamento da Microsoft Dynamics AX 2012 o la migrazione da Microsoft Dynamics AX 2009, si può essere idonei a un periodo di valutazione più lungo. Per ulteriori informazioni, contattare <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

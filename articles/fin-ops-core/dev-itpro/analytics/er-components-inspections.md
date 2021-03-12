@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688569"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797343"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
 [!include[banner](../includes/banner.md)]
 
-Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](general-electronic-reporting.md#FormatComponentOutbound) e [componente del mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato viene fornito il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
+Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](general-electronic-reporting.md#FormatComponentOutbound) e [componente del mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato, il controllo fornisce il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
 
 Per impostazione predefinita, la convalida viene applicata automaticamente nei seguenti casi per una configurazione ER che contiene i componenti ER precedentemente menzionati:
 
@@ -489,7 +488,7 @@ In alternativa, è possibile selezionare la riga per un singolo avviso nella gri
 
 ### <a name="manual-resolution"></a>Risoluzione manuale
 
-È possibile regolare manualmente le espressioni di tutte le origini dati menzionate nella griglia di convalida sostituendo la funzione **WHERE** con la funzione **FILTER**.
+È possibile regolare manualmente le espressioni di tutte le origini dati nella griglia di convalida sostituendo la funzione **WHERE** con la funzione **FILTER**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Preferibilità della funzione ALLITEMSQUERY rispetto a ALLITEMS
 
@@ -573,11 +572,11 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
     ![Convalidare gli elementi di formato associati alle origini dati nella pagina Progettazione formati](./media/er-components-inspections-09c.png)
 
-16. Notare che si verifica un errore di convalida. Il messaggio indica che potrebbe essere generato un errore per i componenti formato configurati **Rendiconto\\Parte\\Nome** e **Rendiconto\\Parte\\AccountNum** in fase di esecuzione se l'elenco **model.Vendor** è vuoto.
+16. Notare che si verifica un errore di convalida. Il messaggio indica che potrebbe essere generato un errore per i componenti formato configurati **Rendiconto\\Parte\\Nome** e **Rendiconto\\Parte\\AccountNum** in fase di esecuzione se l'elenco `model.Vendor` è vuoto.
 
     ![Errore di convalida che notifica il potenziale errore per i componenti di formato configurati](./media/er-components-inspections-09d.png)
 
-La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso, selezionare **Esegui** per eseguire il formato e selezionare il numero di conto di un fornitore che non esiste. Poiché il fornitore richiesto non esiste, l'elenco **model.Vendor** sarà vuoto (ovvero, non conterrà record).
+La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso, selezionare **Esegui** per eseguire il formato e selezionare il numero di conto di un fornitore che non esiste. Poiché il fornitore richiesto non esiste, l'elenco `model.Vendor` sarà vuoto (ovvero, non conterrà record).
 
 ![Errori di runtime perché si sono verificati durante l'esecuzione del mapping del formato](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Per la riga selezionata nella griglia nella scheda **Avvisi**, è possibile sele
 
 #### <a name="option-1"></a>Opzione 1
 
-È possibile associare l'elemento di formato **Rendiconto\\Parte\\Nome** all'elemento origine dati **model.Vendor**. In fase di esecuzione, questa associazione chiama prima l'origine dati **model.Vendor**. Se **model.Vendor** restituisce un elenco di record vuoto, gli elementi di formato nidificati non vengono eseguiti. Pertanto, non si verificano avvisi di convalida per questa configurazione di formato.
+È possibile associare l'elemento di formato **Rendiconto\\Parte\\Nome** all'elemento origine dati `model.Vendor`. In fase di esecuzione, questa associazione chiama prima l'origine dati `model.Vendor`. Se `model.Vendor` restituisce un elenco di record vuoto, gli elementi di formato nidificati non vengono eseguiti. Pertanto, non si verificano avvisi di convalida per questa configurazione di formato.
 
 ![Associare l'elemento di formato all'elemento origini dati nella pagina Progettazione formati](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opzione 2
 
-Modificare l'associazione dell'elemento di formato **Rendiconto\\Parte\\Nome** da `model.Vendor.Name` a `FIRSTORNULL(model.Vendor).Name`. L'associazione aggiornata converte in modo condizionale il primo record dell'origine dati **model.Vendor** del tipo **Elenco di record** in una nuova origine dati del tipo **Record**. Questa nuova origine dati contiene lo stesso insieme di campi.
+Modificare l'associazione dell'elemento di formato **Rendiconto\\Parte\\Nome** da `model.Vendor.Name` a `FIRSTORNULL(model.Vendor).Name`. L'associazione aggiornata converte in modo condizionale il primo record dell'origine dati `model.Vendor` del tipo **Elenco di record** in una nuova origine dati del tipo **Record**. Questa nuova origine dati contiene lo stesso insieme di campi.
 
-- Se almeno un record è disponibile nell'origine dati **model.Vendor**, i campi di quel record vengono riempiti con i valori dei campi del primo record dell'origine dati **model.Vendor**. In questo caso, l'associazione aggiornata restituisce il nome del fornitore.
+- Se almeno un record è disponibile nell'origine dati `model.Vendor`, i campi di quel record vengono riempiti con i valori dei campi del primo record dell'origine dati `model.Vendor`. In questo caso, l'associazione aggiornata restituisce il nome del fornitore.
 - In caso contrario, ogni campo del record creato viene riempito con il valore predefinito per il tipo di dati di quel campo. In questo caso, la stringa vuota viene restituita come valore predefinito del tipo di dati **Stringa**.
 
 Pertanto, non si verificano avvisi di convalida per l'elemento di formato **Rendiconto\\Parte\\Nome** quando è associato all'espressione `FIRSTORNULL(model.Vendor).Name`.
@@ -606,13 +605,13 @@ Pertanto, non si verificano avvisi di convalida per l'elemento di formato **Rend
 
 #### <a name="option-3"></a>Opzione 3
 
-Se si desidera specificare esplicitamente i dati inseriti in un documento generato quando l'origine dati **model.Vendor** del tipo **Elenco di record** non restituisce alcun record (il testo **Non disponibile** in questo esempio), modificare l'associazione dell'elemento di formato **Rendiconto\\Parte\\Nome** da `model.Vendor.Name` a `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. È possibile anche usare l'espressione `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Se si desidera specificare esplicitamente i dati inseriti in un documento generato quando l'origine dati `model.Vendor` del tipo **Elenco di record** non restituisce alcun record (il testo **Non disponibile** in questo esempio), modificare l'associazione dell'elemento di formato **Rendiconto\\Parte\\Nome** da `model.Vendor.Name` a `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. È possibile anche usare l'espressione `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Ulteriori considerazioni
 
-L'ispezione avvisa anche di un altro potenziale problema. Per impostazione predefinita, quando si associano gli elementi di formato **Rendiconto\\Parte\\Nome** e **Rendiconto\\Parte\\AccountNum** ai campi appropriati dell'origine dati **model.Vendor** del tipo **Elenco di record**, quelle associazioni verranno eseguite e assumeranno i valori dei campi appropriati del primo record dell'origine dati **model.Vendor**, se l'elenco non è vuoto.
+L'ispezione avvisa anche di un altro potenziale problema. Per impostazione predefinita, quando si associano gli elementi di formato **Rendiconto\\Parte\\Nome** e **Rendiconto\\Parte\\AccountNum** ai campi appropriati dell'origine dati `model.Vendor` del tipo **Elenco di record**, quelle associazioni verranno eseguite e assumeranno i valori dei campi appropriati del primo record dell'origine dati `model.Vendor`, se l'elenco non è vuoto.
 
-Perché l'elemento di formato **Rendiconto\\Parte** non è stato vincolato con l'origine dati **model.Vendor**, l'elemento **Rendiconto\\Parte** non verrà iterato per ogni record dell'origine dati **model.Vendor** durante l'esecuzione del formato. Al contrario, un documento generato verrà riempito con le informazioni solo dal primo record dell'elenco di record, se tale elenco contiene più record. Pertanto, potrebbe esserci un problema se il formato è inteso a riempire un documento generato con informazioni su tutti i fornitori dall'origine dati **model.Vendor**. Per risolvere questo problema, associare l'elemento **Rendiconto\\Parte** all'origine dati **model.Vendor**.
+Perché l'elemento di formato **Rendiconto\\Parte** non è stato vincolato con l'origine dati `model.Vendor`, l'elemento **Rendiconto\\Parte** non verrà iterato per ogni record dell'origine dati `model.Vendor` durante l'esecuzione del formato. Al contrario, un documento generato verrà riempito con le informazioni solo dal primo record dell'elenco di record, se tale elenco contiene più record. Pertanto, potrebbe esserci un problema se il formato è inteso a riempire un documento generato con informazioni su tutti i fornitori dall'origine dati `model.Vendor`. Per risolvere questo problema, associare l'elemento **Rendiconto\\Parte** all'origine dati `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Eseguibilità di un'espressione con la funzione FILTER (memorizzazione nella cache)
 
@@ -699,7 +698,7 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
 14. Associare gli elementi di formato alle origini dati fornite nel modo seguente:
 
-    - Associare l'elemento di formato **Rendiconto\\Parte** all'elemento origine dati **model.Vendor**.
+    - Associare l'elemento di formato **Rendiconto\\Parte** all'elemento origine dati `model.Vendor`.
     - Associare l'elemento di formato **Rendiconto\\Parte\\Nome** al campo origine dati **model.Vendor.Name**.
     - Associare l'elemento di formato **Rendiconto\\Parte\\AccountNum** al campo origine dati **model.Vendor.AccountNumber**.
 
@@ -813,6 +812,3 @@ Per sapere come sincronizzare la struttura del formato con un modello ER nell'ed
 [Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni](trace-execution-er-troubleshoot-perf.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694078"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797098"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurare i passaggi di approvazione in un flusso di lavoro
 
@@ -276,6 +276,3 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
 
 5. Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
 6. Se gli utenti nel percorso di riassegnazione non inviano una risposta nel tempo prestabilito, verrà automaticamente eseguita un'azione sul documento dal sistema. Per specificare l'azione presa dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

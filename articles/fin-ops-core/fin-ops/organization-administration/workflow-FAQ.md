@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694058"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797393"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -59,6 +59,3 @@ Il valore predefinito per **Numero di elementi del flusso di lavoro per batch** 
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Che cos'è la funzionalità di errore avanzato del flusso di lavoro?
 La funzionalità di errore avanzato del flusso di lavoro nella versione 10.0.13 aggiunge codici di errore per differenziare classi diverse di errori del flusso di lavoro. I messaggi di errore riportati saranno per lo più simili con piccole differenze per renderli più chiari.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
