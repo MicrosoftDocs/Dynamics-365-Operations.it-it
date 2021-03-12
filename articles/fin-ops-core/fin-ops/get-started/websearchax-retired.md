@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 4a4899ad01065b835a6a63a0a418b34d89c4cd3b
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8e7890b6cf25d50e135e3d82d45647dfe8697655
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693619"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797933"
 ---
-# <a name="websearchax-page-has-been-retired"></a><span data-ttu-id="b17a8-104">La pagina WebSearchAX è stata ritirata</span><span class="sxs-lookup"><span data-stu-id="b17a8-104">WebSearchAX page has been retired</span></span>
+# <a name="websearchax-page-has-been-retired"></a><span data-ttu-id="2f3a3-104">La pagina WebSearchAX è stata ritirata</span><span class="sxs-lookup"><span data-stu-id="2f3a3-104">WebSearchAX page has been retired</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b17a8-105">La pagina WebSearchAX è stata ritirata.</span><span class="sxs-lookup"><span data-stu-id="b17a8-105">We've had to retire the WebSearchAX page.</span></span> <span data-ttu-id="b17a8-106">Si consiglia di utilizzare la ricerca nei siti dal motore di ricerca preferito per sostituirla.</span><span class="sxs-lookup"><span data-stu-id="b17a8-106">We recommend that you use site search from your favorite search engine to replace it.</span></span> <span data-ttu-id="b17a8-107">Ad esempio:</span><span class="sxs-lookup"><span data-stu-id="b17a8-107">For example:</span></span>
+<span data-ttu-id="2f3a3-105">La pagina WebSearchAX è stata ritirata.</span><span class="sxs-lookup"><span data-stu-id="2f3a3-105">We've had to retire the WebSearchAX page.</span></span> <span data-ttu-id="2f3a3-106">Si consiglia di utilizzare la ricerca nei siti dal motore di ricerca preferito per sostituirla.</span><span class="sxs-lookup"><span data-stu-id="2f3a3-106">We recommend that you use site search from your favorite search engine to replace it.</span></span> <span data-ttu-id="2f3a3-107">Ad esempio:</span><span class="sxs-lookup"><span data-stu-id="2f3a3-107">For example:</span></span>
 
-<span data-ttu-id="b17a8-108">site:technet.microsoft.com dynamics ax 2012 "termine di ricerca"</span><span class="sxs-lookup"><span data-stu-id="b17a8-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="2f3a3-108">site:technet.microsoft.com dynamics ax 2012 "termine di ricerca"</span><span class="sxs-lookup"><span data-stu-id="2f3a3-108">site:technet.microsoft.com dynamics ax 2012 "search term"</span></span>
 
-<span data-ttu-id="b17a8-109">oppure</span><span class="sxs-lookup"><span data-stu-id="b17a8-109">–or–</span></span>
+<span data-ttu-id="2f3a3-109">oppure</span><span class="sxs-lookup"><span data-stu-id="2f3a3-109">–or–</span></span>
 
-<span data-ttu-id="b17a8-110">site:msdn.microsoft.com dynamics ax 2012 “termine di ricerca”</span><span class="sxs-lookup"><span data-stu-id="b17a8-110">site:msdn.microsoft.com dynamics ax 2012 "search term"</span></span>
+<span data-ttu-id="2f3a3-110">site:msdn.microsoft.com dynamics ax 2012 “termine di ricerca”</span><span class="sxs-lookup"><span data-stu-id="2f3a3-110">site:msdn.microsoft.com dynamics ax 2012 "search term"</span></span>
