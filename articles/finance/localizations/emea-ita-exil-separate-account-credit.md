@@ -11,50 +11,49 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 56bdb80612473b9fbbe8a76936860a6de33c3200
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f460a3121f28c5621d506295a9726a7e67881335
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408104"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978245"
 ---
-# <a name="separate-accounts-for-credit-notes"></a><span data-ttu-id="e361b-103">Conti separati per note di credito</span><span class="sxs-lookup"><span data-stu-id="e361b-103">Separate accounts for credit notes</span></span>
+# <a name="separate-accounts-for-credit-notes"></a><span data-ttu-id="259da-103">Conti separati per note di credito</span><span class="sxs-lookup"><span data-stu-id="259da-103">Separate accounts for credit notes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e361b-104">In Italia, una società può definire i criteri contabili in modo che gli importi delle note di credito vengano registrati nei conti CoGe che differiscono dai conti ricavi.</span><span class="sxs-lookup"><span data-stu-id="e361b-104">In Italy, a company can define the accounting policy so that credit note amounts are posted to ledger accounts that differ from the revenue accounts.</span></span> <span data-ttu-id="e361b-105">Questo approccio viene utilizzato per tenere traccia dell'importo emesso sulle note di credito.</span><span class="sxs-lookup"><span data-stu-id="e361b-105">This approach is used to track the amount that is issued on credit notes.</span></span>
+<span data-ttu-id="259da-104">In Italia, una società può definire i criteri contabili in modo che gli importi delle note di credito vengano registrati nei conti CoGe che differiscono dai conti ricavi.</span><span class="sxs-lookup"><span data-stu-id="259da-104">In Italy, a company can define the accounting policy so that credit note amounts are posted to ledger accounts that differ from the revenue accounts.</span></span> <span data-ttu-id="259da-105">Questo approccio viene utilizzato per tenere traccia dell'importo emesso sulle note di credito.</span><span class="sxs-lookup"><span data-stu-id="259da-105">This approach is used to track the amount that is issued on credit notes.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="e361b-106">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="e361b-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="259da-106">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="259da-106">Prerequisites</span></span>
 
-- <span data-ttu-id="e361b-107">L'indirizzo principale della persona giuridica deve essere in Italia.</span><span class="sxs-lookup"><span data-stu-id="e361b-107">The primary address of the legal entity must be in Italy.</span></span>
-- <span data-ttu-id="e361b-108">Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Conti separati per note di credito**.</span><span class="sxs-lookup"><span data-stu-id="e361b-108">In the **Feature management** workspace, turn on the **Separate accounts for credit notes** feature.</span></span> <span data-ttu-id="e361b-109">Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="e361b-109">For more information, see [Feature management overview](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+- <span data-ttu-id="259da-107">L'indirizzo principale della persona giuridica deve essere in Italia.</span><span class="sxs-lookup"><span data-stu-id="259da-107">The primary address of the legal entity must be in Italy.</span></span>
+- <span data-ttu-id="259da-108">Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Conti separati per note di credito**.</span><span class="sxs-lookup"><span data-stu-id="259da-108">In the **Feature management** workspace, turn on the **Separate accounts for credit notes** feature.</span></span> <span data-ttu-id="259da-109">Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="259da-109">For more information, see [Feature management overview](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
-## <a name="set-up-posting-accounts"></a><span data-ttu-id="e361b-110">Impostare i conti di registrazione</span><span class="sxs-lookup"><span data-stu-id="e361b-110">Set up posting accounts</span></span>
+## <a name="set-up-posting-accounts"></a><span data-ttu-id="259da-110">Impostare i conti di registrazione</span><span class="sxs-lookup"><span data-stu-id="259da-110">Set up posting accounts</span></span>
 
-<span data-ttu-id="e361b-111">È possibile definire conti CoGe specifici da utilizzare per gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="e361b-111">You can define specific ledger accounts that should be used for sales orders.</span></span> <span data-ttu-id="e361b-112">Per completare la configurazione, sulla pagina **Registrazione**, selezionare l'opzione **Nota di credito**, quindi specificare i conti CoGe.</span><span class="sxs-lookup"><span data-stu-id="e361b-112">To complete the setup, on the **Posting** page, select the **Credit note** option, and then specify the ledger accounts.</span></span>
+<span data-ttu-id="259da-111">È possibile definire conti CoGe specifici da utilizzare per gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="259da-111">You can define specific ledger accounts that should be used for sales orders.</span></span> <span data-ttu-id="259da-112">Per completare la configurazione, sulla pagina **Registrazione**, selezionare l'opzione **Nota di credito**, quindi specificare i conti CoGe.</span><span class="sxs-lookup"><span data-stu-id="259da-112">To complete the setup, on the **Posting** page, select the **Credit note** option, and then specify the ledger accounts.</span></span>
 
-<span data-ttu-id="e361b-113">Puoi anche usare la pagine **Registrazione** per impostare account diversi per varie combinazioni di clienti, articoli e gruppi correlati.</span><span class="sxs-lookup"><span data-stu-id="e361b-113">You can also use the **Posting** page to set up different accounts for various combinations of customers, items, and related groups.</span></span>
+<span data-ttu-id="259da-113">Puoi anche usare la pagine **Registrazione** per impostare account diversi per varie combinazioni di clienti, articoli e gruppi correlati.</span><span class="sxs-lookup"><span data-stu-id="259da-113">You can also use the **Posting** page to set up different accounts for various combinations of customers, items, and related groups.</span></span>
 
 ![Configurazione della registrazione dei conti](media/emea-ita-exil-separate-account-credit-pic1.jpg)
 
-## <a name="post-credit-notes"></a><span data-ttu-id="e361b-115">Registrazione delle note di credito</span><span class="sxs-lookup"><span data-stu-id="e361b-115">Post credit notes</span></span>
+## <a name="post-credit-notes"></a><span data-ttu-id="259da-115">Registrazione delle note di credito</span><span class="sxs-lookup"><span data-stu-id="259da-115">Post credit notes</span></span>
 
-### <a name="post-a-new-credit-note"></a><span data-ttu-id="e361b-116">Registrare una nuova nota di credito.</span><span class="sxs-lookup"><span data-stu-id="e361b-116">Post a new credit note</span></span>
+### <a name="post-a-new-credit-note"></a><span data-ttu-id="259da-116">Registrare una nuova nota di credito.</span><span class="sxs-lookup"><span data-stu-id="259da-116">Post a new credit note</span></span>
 
-<span data-ttu-id="e361b-117">Quando si registra una nuova nota di credito, viene utilizzato il conto CoGe anziché il conto ricavi standard definito nell'ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="e361b-117">When you post a new credit note, the ledger account is used instead of the standard revenue account that is defined on the sales order.</span></span>
+<span data-ttu-id="259da-117">Quando si registra una nuova nota di credito, viene utilizzato il conto CoGe anziché il conto ricavi standard definito nell'ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="259da-117">When you post a new credit note, the ledger account is used instead of the standard revenue account that is defined on the sales order.</span></span>
 
-<span data-ttu-id="e361b-118">Se non viene definito un conto CoGe separato per la nota di credito o se non viene trovata una combinazione richiesta di cliente e articolo, per la registrazione viene utilizzato un conto ricavi ordine cliente standard.</span><span class="sxs-lookup"><span data-stu-id="e361b-118">If no separate ledger account is defined for the credit note, or if a required combination of a customer and an item isn't found, a standard sales order revenue account is used for posting.</span></span>
+<span data-ttu-id="259da-118">Se non viene definito un conto CoGe separato per la nota di credito o se non viene trovata una combinazione richiesta di cliente e articolo, per la registrazione viene utilizzato un conto ricavi ordine cliente standard.</span><span class="sxs-lookup"><span data-stu-id="259da-118">If no separate ledger account is defined for the credit note, or if a required combination of a customer and an item isn't found, a standard sales order revenue account is used for posting.</span></span>
 
-### <a name="post-a-credit-note-that-was-created-from-a-sales-order"></a><span data-ttu-id="e361b-119">Registrare una nota di credito creata da un ordine cliente</span><span class="sxs-lookup"><span data-stu-id="e361b-119">Post a credit note that was created from a sales order</span></span>
+### <a name="post-a-credit-note-that-was-created-from-a-sales-order"></a><span data-ttu-id="259da-119">Registrare una nota di credito creata da un ordine cliente</span><span class="sxs-lookup"><span data-stu-id="259da-119">Post a credit note that was created from a sales order</span></span>
 
-<span data-ttu-id="e361b-120">Se si crea una nota di credito basata su un ordine cliente esistente, deselezionare il campo **Conto principale** per ogni riga della nota di credito.</span><span class="sxs-lookup"><span data-stu-id="e361b-120">If you create a credit note that is based on an existing sales order, clear the **Main account** field for each credit note line.</span></span> <span data-ttu-id="e361b-121">Nel campo potrebbe essere stato inserito automaticamente un conto ricavi dall'ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="e361b-121">A revenue account from the sales order might have been automatically entered in the field.</span></span>
+<span data-ttu-id="259da-120">Se si crea una nota di credito basata su un ordine cliente esistente, deselezionare il campo **Conto principale** per ogni riga della nota di credito.</span><span class="sxs-lookup"><span data-stu-id="259da-120">If you create a credit note that is based on an existing sales order, clear the **Main account** field for each credit note line.</span></span> <span data-ttu-id="259da-121">Nel campo potrebbe essere stato inserito automaticamente un conto ricavi dall'ordine cliente.</span><span class="sxs-lookup"><span data-stu-id="259da-121">A revenue account from the sales order might have been automatically entered in the field.</span></span>
 
 ![Compensazione del conto principale](media/emea-ita-exil-separate-account-credit-pic2.jpg)
 
 > [!NOTE]
-> <span data-ttu-id="e361b-123">Conti separati sono applicabili solo alle note di credito basate su ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="e361b-123">Separate accounts are applicable only to credit notes that are based on sales orders.</span></span> <span data-ttu-id="e361b-124">Non sono applicabili alle note di credito a testo libero, poiché le note di credito a testo libero richiedono l'inserimento esplicito di un conto CoGe.</span><span class="sxs-lookup"><span data-stu-id="e361b-124">They aren't applicable to free-text credit notes, because free-text credit notes require that a ledger account be explicitly entered.</span></span>
+> <span data-ttu-id="259da-123">Conti separati sono applicabili solo alle note di credito basate su ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="259da-123">Separate accounts are applicable only to credit notes that are based on sales orders.</span></span> <span data-ttu-id="259da-124">Non sono applicabili alle note di credito a testo libero, poiché le note di credito a testo libero richiedono l'inserimento esplicito di un conto CoGe.</span><span class="sxs-lookup"><span data-stu-id="259da-124">They aren't applicable to free-text credit notes, because free-text credit notes require that a ledger account be explicitly entered.</span></span>
