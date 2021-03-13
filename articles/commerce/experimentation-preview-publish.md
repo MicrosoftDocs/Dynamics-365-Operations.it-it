@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 32115378be00df771c6ff658da0c090446edf8b0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4413594"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009949"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Visualizzare un esperimento in anteprima e pubblicarlo
 
@@ -60,6 +59,3 @@ Quando si utilizzano gruppi di pubblicazione con esperimenti, è necessario tene
 
 ## <a name="next-step"></a>Passaggio successivo
 [Eseguire e monitorare un esperimento](experimentation-run-monitor.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

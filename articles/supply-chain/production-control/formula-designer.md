@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49ec2ac0ce32da13239f3b7789d6f73f22f6e61b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431085"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007203"
 ---
 # <a name="formula-designer"></a>Designer formula
 
@@ -121,6 +120,3 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 |     DBA     | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
 |    Ciclo    |                                           Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                           |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

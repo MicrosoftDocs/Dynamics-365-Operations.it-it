@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431571"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007493"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Risolvere i problemi relativi agli ordini fornitore
 
@@ -132,7 +131,7 @@ Un prodotto ha un fornitore approvato che ha, ad esempio, una data di validità 
 
 Per lo scenario di esempio descritto nella descrizione del problema, in cui un record ha una data di validità di *11/01/2018* e una data di scadenza di *Mai*, puoi importare un nuovo record con data di validità *10/01/2018* e una data di scadenza di *Mai*. Tuttavia, non è possibile ridurre il periodo in modo che la data di validità venga aggiornata a *12/01/2018* tramite la gestione dei dati. È necessario apportare questa modifica tramite l'interfaccia utente.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Dopo aver modificato l'indirizzo di consegna nell'intestazione di un ordine fornitore, il nome della consegna non viene sincronizzato.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Dopo aver modificato l'indirizzo di consegna nell'intestazione di un ordine fornitore, il nome della consegna non viene sincronizzato.
 
 ### <a name="issue-description"></a>Descrizione del problema
 
@@ -145,6 +144,3 @@ Questo comportamento è predefinito. L'indirizzo selezionato deve essere classif
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Posso trovare l'utente che ha annullato un ordine fornitore?
 
 Questa informazioni viene registrata solo se per l'ordine fornitore è soggetto alla gestione delle modifiche. Se utilizzi la gestione delle modifiche, puoi vedere chi ha inviato la modifica (l'annullamento) e chi l'ha approvata.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

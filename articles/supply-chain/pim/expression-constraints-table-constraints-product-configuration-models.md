@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431346"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007708"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 
@@ -222,7 +221,7 @@ Gli esempi nella seguente tabella illustrano come scrivere una notazione di infi
 |        (x)        |                           Le parentesi hanno precedenza sulla priorità predefinita.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Perché i vincoli di espressione non vengono convalidati correttamente?
-Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
+Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
 
 -   Arrotonda eccesso
 -   Elemento
@@ -254,6 +253,3 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

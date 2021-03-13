@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431082"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007163"
 ---
 # <a name="formulas-and-formula-versions"></a>Formule e versioni di formula
 
@@ -71,6 +70,3 @@ La funzionalità Dimensionabile è disponibile solo se tutti i componenti dell'a
 
 ## <a name="use-step-consumption"></a>Utilizzare Consumo fase
 L'opzione Consumo fase elimina la necessità di immettere una quantità nella scheda **Riga formula** per un ingrediente. Questa opzione è invece configurata per avere un valore **Da serie** e un valore **Quantità**. Le informazioni del record Consumo fase per serie che soddisfano la quantità nell'ordine batch vengono selezionate. L'opzione Consumo fase è utile quando il tasso di consumo non è lineare rispetto alle dimensioni dell'ordine batch e aumenta la richiesta solo quando viene raggiunta una specifica soglia di quantità. Per attivare questa funzionalità per una nuova formula, nel gruppo **Calcolo consumo**, cambiare l'impostazione della formula per l'ingrediente applicabile da **Standard** a **Fase**. Si specifica questo metodo di consumo nella scheda **Impostazione** della pagina **Riga formula**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

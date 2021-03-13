@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e1d934bffd0a5daacf27fcd5a2e00043fe3daf8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444856"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009220"
 ---
 # <a name="set-up-depreciation-books"></a>Impostare i registri di beni ammortizzabili 
 
@@ -55,6 +54,3 @@ Questa procedura illustra il processo di creazione di un nuovo registro beni amm
 6. Immettere un numero nel campo Vita utile.
     * Si noti che il valore del campo Periodi di ammortamento viene calcolato dopo aver impostato la Vita utile.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

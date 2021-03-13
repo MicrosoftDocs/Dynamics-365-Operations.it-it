@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009245"
 ---
 # <a name="online-financial-consolidations"></a>Consolidamenti finanziari online
 
@@ -29,7 +28,7 @@ ms.locfileid: "4444778"
 
 In questo argomento vengono descritti i consolidamenti finanziari online nella contabilità generale. Prima di leggere questo argomento, leggere l'argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](financial-consolidations-currency-translation.md).
 
-Dopo aver completato la configurazione, immettere i dettagli del consolidamento nella pagina **Consolida [online]**. Al termine, è possibile fare clic su **OK** o **Batch** per elaborare il consolidamento.
+Dopo aver completato la configurazione, immettere i dettagli del consolidamento nella pagina **Consolidato [online]**. Al termine, è possibile fare clic su **OK** o **Batch** per elaborare il consolidamento.
 
 ## <a name="criteria"></a>Criteri
 Nella scheda **Criteri** della pagina **Consolidato [online]**, si definiscono i conti, i periodi e il tipo di dati da consolidare.
@@ -96,6 +95,3 @@ Nella scheda **Conversione valuta** si definiscono la persona giuridica, il cont
 Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

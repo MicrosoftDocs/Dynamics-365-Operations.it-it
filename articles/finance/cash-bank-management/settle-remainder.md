@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444774"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009570"
 ---
 # <a name="settle-remainder"></a>Residuo liquidazione
 
@@ -70,6 +69,3 @@ Per liquidare il residuo, procedere come segue:
 7)  È inoltre possibile scegliere di creare un giornale di registrazione pagamenti con il residuo di liquidazione o soltanto registrarlo con un giornale di registrazione. Selezionare **Sì** per **Modifica in giornale di registrazione** per creare un giornale di registrazione pagamenti. Sarà possibile modificare il giornale di registrazione pagamenti creato.
 8)  Fare clic su **Residuo liquidazione**. Se si sceglie di creare un giornale, il pulsante diventerà **Crea giornale di registrazione**. Fare clic su **Crea giornale di registrazione**.
 9)  Se è stato creato un giornale di registrazione pagamenti, la pagina del giornale di registrazione verrà aperta dopo aver fatto clic su **Residuo liquidazione**. Una riga del giornale di registrazione verrà aggiunta con l'importo residuo liquidazione come importo e con il conto residuo liquidazione come conto di contropartita. Se si è aggiunto un cliente o fornitore per spostare l'importo di liquidazione a un altro cliente o fornitore, una riga aggiuntiva verrà aggiunta al giornale di registrazione per spostare l'importo di liquidazione a quel cliente o fornitore.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

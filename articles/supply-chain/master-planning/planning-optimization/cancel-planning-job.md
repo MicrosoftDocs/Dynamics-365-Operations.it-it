@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4b65d344cd764740cc1485969c2fc4c2052e55e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7cee11e6d9e8bc2fe83f5369554ae9ff9ee2b741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431120"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008218"
 ---
 # <a name="cancel-a-planning-job"></a>Annullare un processo di pianificazione
 
@@ -60,6 +59,3 @@ Lo stato del processo sarà **Annullamento in corso** finché il servizio di ott
 [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
 
 [Applicare i filtri a un piano](plan-filters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
