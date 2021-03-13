@@ -1,5 +1,5 @@
 ---
-title: Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore
+title: Distribuzioni contabili e scritture contabili per le fatture fornitore
 description: Le distribuzioni contabili vengono utilizzate per definire il modo in cui un importo verrà conteggiato, ad esempio le spese e le tasse vengono conteggiate in una fattura fornitore. Ogni importo che deve essere conteggiato quando la fattura fornitore viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da15f27c7fef6367eacc83271419b633c0cbb245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444928"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012290"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture fornitore
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuzioni contabili e scritture contabili per le fatture fornitore
 
 [!include [banner](../includes/banner.md)]
 
@@ -250,6 +249,3 @@ L'inserimento nel giornale di registrazione secondario non può essere modificat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

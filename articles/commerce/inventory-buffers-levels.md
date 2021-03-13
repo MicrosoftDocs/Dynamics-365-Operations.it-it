@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012434"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer e livelli di scorte
 
@@ -41,7 +40,7 @@ La funzionalità per i buffer e i livelli di scorte viene controllata mediante l
 1. Andare a **Amministrazione sistema** \> **Aree di lavoro** \> **Gestione funzionalità**.
 1. Cercare la funzionalità **Abilita buffer e livelli di scorte**, selezionare la relativa riga, quindi selezionare **Abilita ora**.
 
-Dopo aver attivato la funzionalità, è possibile trovare i livelli di scorte in **Retail and Commerce \> Gestione articoli**.
+Dopo aver attivato la funzionalità, è possibile trovare i livelli di scorte in **Retail e Commerce \> Gestione articoli**.
 
 ## <a name="create-and-configure-an-inventory-level-profile"></a>Creare e configura un profilo di livello di scorte
 
@@ -55,7 +54,7 @@ Un *profilo di livello di scorte* determina se una determinata quantità di prod
 
 Per creare un profilo di livello di scorte, attenersi alla seguente procedura.
 
-1. Andare a **Retail and Commerce** \> **Gestione articoli** \> **Livelli scorte**.
+1. Andare a **Retail e Commerce** \> **Gestione articoli** \> **Livelli scorte**.
 1. Nel riquadro azioni selezionare **Nuovo**, quindi immettere valori nei campi **ID profilo** e **Descrizione**.
 1. Nella Scheda dettaglio **Intervalli**, selezionare **Aggiungi** per aggiungere un nuovo livello, quindi inserire i valori nelle colonne **Quantità iniziale**, **Quantità finale**, **Codice** e **Etichetta** per quel livello. Ripetere questo passaggio per aggiungere ulteriori livelli. Se necessario, è possibile modificare i valori nella griglia dei dati oppure selezionare **Elimina** per rimuovere un livello.
 1. Nel riquadro azioni selezionare **Salva**.
@@ -149,6 +148,3 @@ Per configurare la risposta delle API di disponibilità dei prodotti, attenersi 
 [Applicare impostazioni relative alle scorte](inventory-settings.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

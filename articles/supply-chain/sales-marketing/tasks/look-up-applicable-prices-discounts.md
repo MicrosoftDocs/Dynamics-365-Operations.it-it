@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430949"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010774"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Cercare i prezzi e gli sconti applicabili
 
@@ -60,6 +59,3 @@ Verificare che il campo del conto cliente contenga il numero cliente US-001
     * Sono disponibili due accordi sugli sconti riga per il prodotto T0012, che specificano uno sconto del 5% per una quantità della riga ordine da 1 a 10 e del 7% per le quantità ordine superiori a 10. Si noti che gli sconti vengono applicati a un gruppo di prodotti, in questo esempio al gruppo con codice 01, a cui il prodotto T0012 appartiene.  
 4. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

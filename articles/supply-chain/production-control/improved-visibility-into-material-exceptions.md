@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bd4392417c7fd389c1c5fadf3e61be33a2f336db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431495"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011124"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilità nelle eccezioni materiali
 
@@ -67,6 +66,3 @@ Quando il riquadro è selezionato, la pagina **Tutte le ondate di produzione** s
 Il riquadro **Lavoro magazzino aperto che richiede attenzione** indica il numero di DBA e righe formula rilasciate in magazzino con lavoro non elaborato e con data di materie prime precedente o uguale alla data dell'area di lavoro. Le righe devono essere utilizzate anche da una risorsa operativa che si applica al filtro dell'area di lavoro.
 
 Quando il riquadro è selezionato, la pagina **Tutto il lavoro** si apre. Questa pagina viene filtrata per numero di intestazioni di lavoro aperte che contengono righe di lavoro di DBA e righe formula rilasciate che soddisfano i criteri per il riquadro. Nella pagina **Tutto il lavoro** è possibile elaborare manualmente il lavoro.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

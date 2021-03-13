@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ae6a3078743fc9cd43c71bc1d4531c0553ee53bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012141"
 ---
 # <a name="reimburse-customers"></a>Rimborsare i clienti
 
@@ -49,6 +48,3 @@ Quando si creano le transazioni di rimborso, viene creata una fattura fornitore 
 
 5. Per visualizzare le transazioni di rimborso create, utilizza il report **Rimborso** (**Contabilità clienti \> Richieste di informazioni e report \> Report di rimborso**).
 6. In Contabilità fornitori, creare un pagamento per le fatture fornitore create dal processo di rimborso. Per informazioni su come pagare i fornitori, vedi [Panoramica dei pagamenti del fornitore](../accounts-payable/Vendor-payments-workspace.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

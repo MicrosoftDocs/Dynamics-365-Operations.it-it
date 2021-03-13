@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011674"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
@@ -31,6 +30,13 @@ In questo argomento viene descritto come configurare e usare i flussi di approva
 
 > [!NOTE]
 > I flussi di lavoro di approvazione del giornale di registrazione magazzino si applicano solo alle transazioni registrate utilizzando il modulo Gestione articoli. Non funzionano con i giornali di registrazione magazzino attivati dal modulo Gestione magazzino.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Attivare la funzionalità dei flussi di lavoro di approvazione del giornale di registrazione magazzino
+
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione articoli e magazzino*
+- **Nome funzionalità:** *Flusso di lavoro di approvazione del giornale di registrazione inventario*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Creare i flussi di lavoro di approvazione del giornale di registrazione magazzino
 
@@ -112,6 +118,3 @@ Per rivedere lo storico del flusso di lavoro per un giornale di registrazione:
 1. Nel riquadro di navigazione, espandere **Gestione articoli \> Inserimenti nel giornale di registrazione \> Articoli** e quindi selezionare un tipo di giornale di registrazione magazzino.
 1. Aprire il giornale di registrazione rilevante.
 1. Selezionare il pulsante **Flusso di lavoro** nel riquadro azioni per aprire una finestra di dialogo a discesa. Selezionare **Storico flusso di lavoro**. Per ulteriori informazioni, vedere [Visualizzare lo storico flusso di lavoro](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)..
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

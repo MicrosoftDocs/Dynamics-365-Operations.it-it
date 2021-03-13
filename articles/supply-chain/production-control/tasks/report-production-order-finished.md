@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5d9dcdbcb89df6430fb286c253ebecfc6d885af8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430841"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011149"
 ---
 # <a name="report-a-production-order-as-finished"></a>Dichiarazione di un ordine di produzione come finito
 
@@ -52,6 +51,3 @@ Questa procedura indica come dichiarare un ordine di produzione come finito. La 
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Il giornale di registrazione dichiarazioni di finito è stato registrato. Se si desidera apportare rettifiche al giornale di registrazione, è possibile creare manualmente un nuovo giornale di registrazione in cui è possibile apportare modifiche.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

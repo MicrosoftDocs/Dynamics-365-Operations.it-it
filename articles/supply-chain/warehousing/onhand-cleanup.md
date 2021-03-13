@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431533"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014485"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
 
@@ -50,7 +49,12 @@ Quando il processo è in esecuzione, ha una dimensione di commit pari a 100. In 
 
 ## <a name="possible-user-impact"></a>Impatto possibile sugli utenti
 
-Gli utenti potrebbero essere interessati se il processo di pulizia delle voci disponibili elimina tutti i record per un determinato livello (come il livello della targa). In questo caso, la funzionalità che consente di determinare che l'inventario era precedentemente disponibile in una targa potrebbe non funzionare come previsto, poiché le voci disponibili pertinenti non sono più disponibili. Tale funzionalità controlla la condizione **Quantità \<\> 0** nelle impostazioni **Visualizzazione dimensioni** quando gli utenti visualizzano le informazioni disponibili. Tuttavia, il miglioramento delle prestazioni fornito dal processo di pulizia dovrebbe compensare questa piccola perdita di funzionalità.
+Gli utenti potrebbero essere interessati se il processo di pulizia delle voci disponibili elimina tutti i record per un determinato livello (come il livello della targa). In questo caso, la funzionalità che consente di determinare che l'inventario era precedentemente disponibile in una targa potrebbe non funzionare come previsto, poiché le voci disponibili pertinenti non sono più disponibili. Questa capacità può essere utile nelle seguenti situazioni:
+
+- In **Scorte disponibili**, quando l'utente deseleziona la condizione **Quantità\<\> 0** o seleziona la condizione **Transazioni chiuse** nelle impostazioni **Visualizzazione delle dimensioni**.
+- In un report **Inventario fisico per dimensione inventariale** per periodi passati, quando l'utente imposta il parametro **In data**.
+
+Tuttavia, il miglioramento delle prestazioni fornito dal lavoro di pulizia dovrebbe compensare queste piccole perdite di funzionalità.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Rendere disponibile l'impostazione Tempo di esecuzione massimo
 
@@ -58,6 +62,3 @@ Per impostazione predefinita, l'impostazione **Tempo di esecuzione massimo** non
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Tempo di esecuzione massimo per il processo di pulizia delle voci disponibili per la gestione del magazzino*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Configurare un catalogo esterno per PunchOut e-procurement
 description: Questo argomento descrive l'utilizzo di un catalogo esterno o PunchOut per raccogliere le informazioni dell'offerta da un fornitore e aggiungerle a una richiesta.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431525"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016379"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Configurare un catalogo esterno per PunchOut e-procurement
 
@@ -54,19 +53,18 @@ Il catalogo esterno deve consentire a un dipendente che inserisce una richiesta 
 In questa sezione vengono forniti ulteriori dettagli sull'attività 4 della sezione precedente.
 
 1. Immetti un nome e una descrizione per il catalogo esterno del fornitore. Il nome che si inserisce verrà visualizzato nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. I dipendenti possono fare clic sul carrello per aprire il catalogo nel sito del catalogo esterno del fornitore.
-2. Aggiungere un'immagine utilizzando l'azione **Immagine catalogo esterno**. L'immagine verrà visualizzata nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. Si noti che la larghezza e l'altezza dell'immagine devono essere uguali. In caso contrario l'immagine non viene visualizzata correttamente.
+2. Aggiungere un'immagine utilizzando l'azione **Immagine catalogo esterno**. L'immagine verrà visualizzata nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. Si noti che la larghezza e l'altezza dell'immagine devono essere uguali. In caso contrario l'immagine non viene visualizzata correttamente.
 3. Seleziona se il sito Web del catalogo esterno del fornitore deve essere visualizzato nella stessa finestra del browser di quella in cui il dipendente ha creato la richiesta o se deve essere aperto in una nuova finestra.
 4. Selezionare il fornitore per il catalogo. Nell'elenco **Persone giuridiche** è presente una riga per ciascuna persona giuridica in cui il fornitore è impostato. Per consentire agli utenti di richiedere prodotti direttamente dal catalogo del fornitore in alcune persone giuridiche ma non in altre, è possibile utilizzare il pulsante **Impedisci accesso** o **Consenti accesso** per ogni persona giuridica in cui si desidera rendere disponibile o meno il catalogo.
 5. Nel campo **Scadenza predefinita (in giorni)** immettere il numero di giorni di validità di un'offerta ricevuta dal catalogo esterno e in cui può essere utilizzata per acquistare dal fornitore esterno. Quando un'offerta viene creata e recuperata dal sito del catalogo esterno del fornitore, è valida a partire dalla data di sistema corrente e rimane valida per il numero di giorni immessi in questo campo.
-6. Fare clic su **Aggiungi** per iniziare a mappare le categorie di approvvigionamento al catalogo esterno. Nell'elenco dei nomi di categoria selezionare quindi una categoria. L'elenco di categorie è un soprainsieme di categorie di approvvigionamento a cui il fornitore è stato mappato in tutte le persone giuridiche impostate per il fornitore.
+6. Fare clic su **Aggiungi** per iniziare a mappare le categorie di approvvigionamento al catalogo esterno.  Nell'elenco dei nomi di categoria selezionare quindi una categoria. L'elenco di categorie è un soprainsieme di categorie di approvvigionamento a cui il fornitore è stato mappato in tutte le persone giuridiche impostate per il fornitore.
 
     > [!NOTE]
-    > I criteri di approvvigionamento vengono utilizzati per consentire o limitare l'accesso alle categorie per la persona giuridica acquirente o unità operativa ricevente. L'utilizzo di un catalogo esterno richiede che l'accesso sia consentito ad almeno una delle categorie di approvvigionamento mappate al catalogo.
+    > I criteri di approvvigionamento vengono utilizzati per consentire o limitare l'accesso alle categorie per la persona giuridica acquirente o unità operativa ricevente. L'utilizzo di un catalogo esterno richiede che l'accesso sia consentito ad almeno una delle categorie di approvvigionamento mappate al catalogo.
 
 7. Impostare il messaggio di richiesta di impostazione cXML che verrà inviato al fornitore. Il formato del messaggio generato automaticamente è il modello minimo necessario per avviare una sessione. Specificare i valori per i tag.
 
-In qualsiasi momento, è possibile ricaricare il modello del messaggio generato dal sistema facendo clic su **Ripristina formato di messaggio**. 
-Notare che se si ripristina il formato di messaggio, il messaggio corrente verrà sostituito dal formato di messaggio generato automaticamente, che contiene tag vuoti.
+In qualsiasi momento, è possibile ricaricare il modello del messaggio generato dal sistema facendo clic su **Ripristina formato di messaggio**. Notare che se si ripristina il formato di messaggio, il messaggio corrente verrà sostituito dal formato di messaggio generato automaticamente, che contiene tag vuoti.
 
 ### <a name="cxml-setup-message"></a>Messaggio di impostazione cXML
 Di seguito è possibile trovare una descrizione dei tag inclusi nel modello:
@@ -91,7 +89,7 @@ Specificare un nome per l'elemento estrinseco che il fornitore può riconoscere 
 Per ulteriori informazioni sul protocollo cXML, vedere il [sito Web](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Messaggio postback
-Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Supply Chain Management. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta.
+Il messaggio postback è il messaggio che viene ricevuto dal fornitore quando l'utente esegue il check-out dal sito esterno e torna in Supply Chain Management. Non è possibile configurare i messaggi postback. I messaggi sono basati sulla definizione del protocollo cXML. Di seguito sono riportate le informazioni incluse nel messaggio postback che viene ricevuto in una riga di richiesta.
 
 | Messaggio ricevuto dal fornitore | Copiato nella riga di richiesta|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Se è stato richiesto un prodotto dal catalogo fornitore esterno, il catalogo no
 
 - [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
