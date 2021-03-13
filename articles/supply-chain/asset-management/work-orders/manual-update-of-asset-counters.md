@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23a94415a662059ddbd41cc6a0ba9dab24aae44e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430966"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020887"
 ---
 # <a name="manual-update-of-asset-counters"></a>Aggiornamento manuale dei contatori di cespiti
 
@@ -64,6 +63,3 @@ Nella pagina **Contatori cespiti** (**Gestione cespiti** > **Richieste di inform
 >[!NOTE]
 >È possibile impostare un intervallo per definire gli scostamenti rispetto alle registrazioni manuali. È inoltre possibile specificare il tipo di messaggio che verrà visualizzato se le registrazioni non rientrano nell'intervallo definito. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](../setup-for-objects/counters.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

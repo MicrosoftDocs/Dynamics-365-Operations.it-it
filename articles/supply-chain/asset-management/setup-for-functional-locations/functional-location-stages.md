@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationLifecycleModel, EntAssetFunctionalLocationLifecycleState
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eedc21dde32671b4f5539ac4e798a8e1329c191
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8f119e68319b901b052fa4aa659260f386f44bcf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431447"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021279"
 ---
 # <a name="functional-location-lifecycle-states"></a>Stati del ciclo di vita delle unità funzionali
 
@@ -63,6 +62,3 @@ Una volta creati gli stati di ciclo di vita necessari per le unità funzionali, 
 5. Se si desidera selezionare tutti gli stati disponibili per un modello, fare clic sul pulsante ![Seleziona tutte le fasi disponibili](media/03-setup-for-functional-locations.png). Tutti gli stati verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
 6. Se si desidera rimuovere uno stato selezionato dal modello, selezionare lo stato nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante ![freccia Indietro](media/04-setup-for-functional-locations.png).
 7. Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita possono seguire uno stato selezionato.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

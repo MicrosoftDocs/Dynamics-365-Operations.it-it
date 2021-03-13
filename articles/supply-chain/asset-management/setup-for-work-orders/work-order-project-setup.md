@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430973"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021556"
 ---
 # <a name="work-order-project-setup"></a>Impostazione del progetto di ordine di lavoro
 
@@ -86,6 +85,3 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 > Ogni volta che si crea una riga di ordine di lavoro, Gestione cespiti ricerca un gruppo di progetti che deve essere correlato al progetto di processo di ordine di lavoro. La ricerca è basata sull'impostazione descritta in questo argomento. Ogni gruppo di progetti presenta un tipo di progetto correlato. I gruppi di progetti con il tipo di progetto **Tempistica e materiali** o **A prezzi fissi** sono validi solo per i cespiti associati a un conto cliente.
 >
 > Per i progetti principali e i gruppi di progetti, quando il sistema seleziona il progetto di ordine di lavoro o il gruppo di progetti disponibile, la selezione è basata sui record creati utilizzando la procedura precedente. Gestione cespiti controlla i record associati al progetto di ordine di lavoro per determinare se esiste una corrispondenza possibile. Controlla sempre la combinazione più specifica per prima. In altre parole, per il progetto di ordine di lavoro principale, Gestione cespiti cerca una possibile corrispondenza per il campo **Cespite**. Se non trova alcuna corrispondenza, ne cerca una per il campo **Tipo di cespite**. Se non trova alcuna corrispondenza anche in questo caso, ne cerca una per il campo **Unità funzionale** e così via. Come si vede nel layout della pagina **Impostazione del progetto di ordine di lavoro**, questo comportamento indica che, per individuare la combinazione più specifica, Gestione cespiti controlla ogni record da destra a-sinistra per una corrispondenza. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un ID di progetto è selezionato. Il processo per l'individuazione del gruppo di progetti correlato è simile. Gestione cespiti cerca dapprima una possibile corrispondenza per il campo **Cespite**, quindi per il campo **Tipo di cespite** e infine per campo **Tipo di ordine di lavoro**. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un gruppo di progetti è selezionato.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
