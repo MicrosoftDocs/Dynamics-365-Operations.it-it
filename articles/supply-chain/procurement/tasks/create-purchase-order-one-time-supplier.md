@@ -1,7 +1,7 @@
 ---
 title: Creare un ordine fornitore per un fornitore occasionale
 description: Questa procedura indica come creare un ordine fornitore per un fornitore occasionale.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fc935b346adfe9548b024f22a2fbfb5af9a802d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c4885547cdf2f8496446761e27ce39e67e670f15
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431544"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016404"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Creare un ordine fornitore per un fornitore occasionale
 
@@ -39,6 +38,3 @@ Questa procedura indica come creare un ordine fornitore per un fornitore occasio
 5. Fare clic su OK.
     * L'ordine fornitore può ora essere completato ed elaborato come qualunque altro ordine. Non ci sono caratteristiche speciali relative a come questo è fatto. La fattura contabilizzerà una transazione dovuta sul conto fornitore che è stato creato con l'ordine ed il pagamento poi sarà elaborato.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

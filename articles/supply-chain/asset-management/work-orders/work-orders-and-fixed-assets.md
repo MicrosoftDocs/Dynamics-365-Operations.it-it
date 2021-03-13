@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ca7a5d88de4308d7be9c1bc749b9dbf1da027c2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431357"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016705"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Cespiti e ordini di lavoro
 
@@ -65,6 +64,3 @@ Nella seguente procedura viene descritta la relazione tra cespiti, ordini di lav
 
 7. Per visualizzare una panoramica dei progetti associati a un cespite, selezionare **Cespiti** > **Cespiti** > **Cespiti**, quindi nel campo **Numero cespite**, selezionare il collegamento del cespite per aprire la visualizzazione dei dettagli. Espandere il riquadro **Informazioni correlate** sul lato destro della pagina e selezionare la scheda dettaglio **Progetti associati**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
