@@ -1,6 +1,6 @@
 ---
 title: Utilizzare configurazioni del mapping di modelli per calcoli aggregati a livello di database
-description: Questa procedura fornisce informazioni per progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti.
+description: Questo argomento descrive come progettare una nuova configurazione di mapping di modello (ER) per la creazione di report elettronici e usare le funzioni ER incorporate per i calcoli aggregati efficienti.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a392697f6b91bc6555d0d72d09ecd7da32e1a3f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684117"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094267"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Utilizzare configurazioni del mapping di modelli per calcoli aggregati a livello di database
 
@@ -116,6 +116,3 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 68. Fare clic su Salva.
     * Tenere presente che il campo "Esecuzione in" indica che il raggruppamento verrà eseguito in fase di esecuzione in memoria anche se non sono presenti aggregazioni definite e l'origine dati selezionata di tipo "Record di tabella" fa riferimento alla stessa tabella "Intrastat". Ciò accade perché l'origine dati contiene alcuni campi calcolati che non possono essere convertiti a livello del database SQL.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

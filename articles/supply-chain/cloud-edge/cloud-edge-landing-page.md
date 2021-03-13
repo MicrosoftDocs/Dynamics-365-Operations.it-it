@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 28301cdfb86d00ea6f04e996fe7fb1485e83b2d4
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516816"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104966"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
@@ -165,7 +164,7 @@ Dopo aver ottenuto l'accesso al programma di anteprima, l'utente riceverà due c
 
 > [!IMPORTANT]
 > Quando si configurano le unità di scala nel cloud, è possibile [eseguire tutti i passaggi richiesti nel portale di gestione delle unità di scala](#scale-unit-manager-portal).
-<!-- >
+<!-- 
 > If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gestire unità di scala e carichi di lavoro utilizzando il portale di gestione delle unità di scala
@@ -176,7 +175,7 @@ Andare al [portale di gestione delle unità di scala](https://aka.ms/SCMSUM) e i
 
 Per aggiungere una o più unità di scala disponibili nella topologia, selezionare **Aggiungi unità di scala**. Nell'anteprima, è possibile visualizzare l'unità di scala nel cloud distribuita da uno dei codici promozionali ricevuto come parte del programma di anteprima.
 
-<!-- > [!IMPORTANT]
+<!--  [!IMPORTANT]
 > In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
 Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea carico di lavoro** per aggiungere un carico di lavoro di gestione del magazzino o di esecuzione della produzione a una delle unità di scala. Per ogni carico di lavoro, è necessario specificare il contesto dei processi che saranno di proprietà del carico di lavoro stesso. Per i carichi di lavoro di gestione del magazzino, il contesto è un magazzino specifico in un sito e in una persona giuridica specifici. Per i carichi di lavoro di esecuzione della produzione, il contesto è un sito specifico in una persona giuridica.
@@ -189,6 +188,3 @@ Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea ca
 <!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
 In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

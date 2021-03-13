@@ -1,9 +1,9 @@
 ---
 title: Destinazioni dei report elettronici
-description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici (ER), i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
+description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687160"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097283"
 ---
-# <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici (ER)
+# <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,7 +62,7 @@ Nella finestra di dialogo **Report Intrastat**, nella Scheda dettaglio **Esecuzi
 Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene eseguito in modalità [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Il processo batch appropriato viene creato in base ai parametri specificati nella scheda **Esecuzione in background** della finestra di dialogo **Parametri ER**.
 
 > [!NOTE]
-> La descrizione mansione viene avviata per informare l'utente dell'esecuzione di un mapping di formato ER. Include inoltre il nome del componente ER eseguito.
+> La descrizione mansione informa l'utente dell'esecuzione di un mapping di formato ER. Include inoltre il nome del componente ER eseguito.
 
 [![Esecuzione di un formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Nelle versioni di Finance **antecedenti alla versione 10.0.9**, è possibile cre
 Ad esempio, è possibile utilizzare questa funzionalità per configurare destinazioni di file per un componente di file utilizzato per generare un documento in uscita in formato Excel. Una destinazione ( [Archivio](er-destination-type-archive.md)) può essere configurata per memorizzare il file Excel originale nell'archivio dei processi ER e un'altra destinazione ([E-mail ](er-destination-type-email.md)) può essere configurata per [convertire](#OutputConversionToPDF) simultaneamente il file Excel in formato PDF e inviare il file PDF via posta elettronica.
 
 [![Configurazione di più destinazioni per un singolo elemento di formato](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Quando si esegue un formato ER, vengono sempre eseguite tutte le destinazioni configurate per i componenti del formato. Inoltre, in Finance **versione 10.0.17 e successive**, la funzionalità delle destinazioni ER è stata migliorata e ora consente di configurare diversi set di destinazioni per un unico formato ER. Questa configurazione contrassegna ogni set come configurato per una particolare azione utente. L'API ER è stata [estesa](er-apis-app10-0-17.md) in modo che possa essere fornita un'azione che l'utente esegue eseguendo un formato ER. Il codice azione fornito viene passato alle destinazioni ER. È possibile eseguire diverse destinazioni di un formato ER, a seconda del codice azione fornito. Per ulteriori informazioni, vedere [Configurare destinazioni ER dipendenti dall'azione](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Tipi di destinazione
 
@@ -154,7 +156,7 @@ Se si disabilita la casella di controllo **Interrompi elaborazione in caso di er
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Conversione dell'output in PDF
 
-È possibile utilizzare l'opzione di conversione PDF per convertire in PDF l'output in formato Microsoft Office (Excel/Word).
+È possibile utilizzare l'opzione di conversione PDF per convertire in PDF l'output in formato Microsoft Office (Excel o Word).
 
 ### <a name="make-pdf-conversion-available"></a>Rendere disponibile la conversione PDF
 
@@ -164,21 +166,20 @@ Per rendere disponibile l'opzione di conversione PDF nell'istanza corrente, di F
 
 ### <a name="applicability"></a>Applicabilità
 
-L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Microsoft Office Excel o Word (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF.
+L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Office (Excel o Word) (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF.
 
 ### <a name="limitations"></a>Limiti
 
 > [!NOTE]
 > Questa funzionalità è una funzionalità di anteprima ed è soggetta alle condizioni d'uso descritte in [Condizioni d'uso supplementari per le anteprime di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> L'opzione di conversione PDF è disponibile solo per le distribuzioni cloud.
->
-> Il PDF generato è limitato a un numero massimo di 300 pagine.
->
-> In Microsoft Dynamics 365 Finance versione 10.0.9 (aprile 2020) nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina. Con il rilascio di Dynamics 365 Finance versione 10.0.10 (maggio 2020), è possibile [specificare l'orientamento della pagina](#SelectPdfPageOrientation) nel documento PDF prodotto da un output di Excel mentre si configura una destinazione ER.
->
-> Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizzati per la conversione di un output che non contiene caratteri incorporati.
+L'opzione di conversione PDF è disponibile solo per le distribuzioni cloud.
+
+Il documento PDF generato è limitato a un numero massimo di 300 pagine.
+
+In Finance **versione 10.0.9**, nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina. In Finance **versione 10.0.10 (maggio 2020) e successive**, è possibile [specificare l'orientamento della pagina](#SelectPdfPageOrientation) nel documento PDF prodotto da un output di Excel mentre si configura una destinazione ER.
+
+Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizzati per la conversione di un output che non contiene caratteri incorporati.
 
 ### <a name="use-the-pdf-conversion-option"></a>Utilizzare l'opzione di conversione PDF
 
@@ -188,16 +189,16 @@ Per attivare la conversione PDF per una destinazione file, selezionare la casell
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selezionare un orientamento di pagina per la conversione PDF</a>
 
-Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare l'orientamento della pagina del PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
+Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare l'orientamento della pagina del documento PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
 
 [![Selezione di un orientamento di pagina per la conversione PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Per avere la possibilità di selezionare l'orientamento della pagina PDF, è necessario installare Microsoft Dynamics 365 Finance versione 10.0.10 (maggio 2020) o successiva.
+> Per avere la possibilità di selezionare l'orientamento della pagina PDF, è necessario installare Finance versione 10.0.10 o successiva.
 >
 > L'orientamento della pagina selezionato viene applicato a tutte le configurazioni ER che vengono generate in formato Excel e quindi convertite in formato PDF.
 >
-> Se un PDF convertito viene creato da una configurazione ER in formato Word, l'orientamento della pagina del PDF viene preso dal documento Word.
+> Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene preso dal documento Word.
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 
@@ -225,7 +226,7 @@ N. Viene utilizzato l'Archivio BLOB di Microsoft Azure definito e utilizzato per
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Qual è lo scopo della Destinazione file nelle impostazioni di destinazione? Cosa fa questa impostazione?
 
-La destinazione **File** viene utilizzata per controllare una finestra di dialogo. Se si abilita questa destinazione, o se per una configurazione non è definita alcuna destinazione, viene visualizzata una finestra di dialogo Apri o Salva dopo la creazione di un file di output.
+La destinazione **File** viene utilizzata per controllare una finestra di dialogo del Web browser quando si esegue un formato ER in modalità interattiva. Se si abilita questa destinazione, o se per una configurazione non è definita alcuna destinazione, viene visualizzata una finestra di dialogo Apri o Salva nel Web browser dopo la creazione di un file di output.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>È possibile ottenere un esempio della formula che fa riferimento a un conto fornitore a cui inviare messaggi di posta elettronica?
 
@@ -237,7 +238,6 @@ Il formato deve essere disponibile dapprima nelle configurazioni ER. Se questo p
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+[Panoramica dei report elettronici](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Configurare destinazioni ER dipendenti dall'azione](er-action-dependent-destinations.md)

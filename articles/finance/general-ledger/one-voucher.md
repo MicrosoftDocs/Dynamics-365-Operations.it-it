@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444839"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107722"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -55,25 +54,26 @@ La funzionalità Un giustificativo genera problemi durante liquidazione, calcolo
 
 Ad esempio, si registra il giustificativo plurimo seguente.
 
-[![Esempio](./media/example.png)](./media/example.png)
+[![Esempio di voucher multilinea](./media/example.png)](./media/example.png)
 
 Si genera quindi il report **Spese per fornitore** nell'area di lavoro **Informazioni finanziarie dettagliate**. In questo report i saldi del conto spese sono raggruppati per gruppo di fornitori e quindi per fornitore. Durante la generazione del report il sistema non può determinare quali gruppi di fornitori/fornitori hanno sostenuto la spesa di 250,00. Poiché mancano i dettagli della transazione, il sistema suppone che l'intera spesa di 250,00 sia stata sostenuta dal primo fornitore indicato nel giustificativo. Pertanto, l'importo di 250,00, incluso nel saldo del conto principale 600120, viene visualizzato sotto quel gruppo fornitori/fornitore. Tuttavia, è molto probabile che il primo fornitore nel giustificativo non sia il fornitore corretto. Di conseguenza, il report è probabilmente errato.
 
-[![Spese](./media/expenses.png)](./media/expenses.png)
+[![Spese per report fornitore](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Utilizzo futuro della funzionalità Un giustificativo
 
-A causa dei problemi descritti in precedenza, la funzionalità Un giustificativo diventerà obsoleta. Tuttavia, poiché si presentano discontinuità funzionali che dipendono da questa funzionalità, la funzionalità non diventerà obsoleta tutto d'un tratto. Si utilizzerà invece la seguente programmazione:
+A causa dei problemi che possono verificarsi quando si utilizza un voucher, questa funzionalità verrà eventualmente deprecata. Tuttavia, poiché si presentano discontinuità funzionali che dipendono da questa funzionalità, il deprecamento non si verificherà tutto in una volta. Si utilizzerà invece la seguente programmazione:
 
-- **Versione di primavera 2018** - Per impostazione predefinita, la funzionalità sarà disattivata per impostazione predefinita attraverso il parametro **Consenti più transazioni in un giustificativo** nella scheda **Generale** della pagina **Parametri di contabilità generale**. È tuttavia possibile attivare la funzionalità se l'organizzazione ha uno scenario che rientra in uno delle discontinuità funzionali indicate più avanti in questo argomento.
+- **Versione di primavera 2018**: questa funzionalità sarà disattivata per impostazione predefinita attraverso il parametro **Consenti più transazioni in un giustificativo** nella scheda **Generale** della pagina **Parametri di contabilità generale**. È tuttavia possibile riattivare la funzionalità se l'organizzazione ha uno scenario che rientra in uno delle discontinuità funzionali indicate più avanti in questo argomento.
 
-    - Se i clienti dispongono di uno scenario aziendale che non richiede la funzionalità Un giustificativo, non devono attivarla. Questi "bug" non verranno corretti da Microsoft nelle aree identificate oltre in questo argomento se questa funzionalità viene utilizzata anche se un'altra soluzione esiste.
-    - Smettere di utilizzare Un giustificativo per le integrazioni, a meno che la funzionalità sia necessaria per uno dei gap funzionali.
+    - Se il tuo scenario aziendale non richiede un voucher, ti consigliamo di lasciare la funzionalità disattivata. Se la usi anche se esiste un'altra soluzione, questi "bug" non verranno corretti da Microsoft nelle aree identificate oltre in questo argomento.
+    - Ti consigliamo di interrompere l'uso di un giustificativo per le integrazioni, a meno che la funzionalità sia necessaria per uno dei gap funzionali documentati.
 
-- **Versioni successive** - Verranno corretti tutti i gap funzionali. **Dopo che le interruzioni funzionali verranno colmate e le nuove funzionalità consegnate, passerà almeno un anno prima che la funzionalità Un giustificativo venga definitivamente disattivata**, poiché i clienti e fornitori di software indipendenti (ISV) devono avere sufficiente tempo per reagire alla nuova funzionalità. Ad esempio, è possibile che debbano aggiornare i processi aziendali, le entità e le integrazioni.
+- **Versioni successive**: è necessario soddisfare diversi requisiti commerciali utilizzando un solo giustificativo. Microsoft deve garantire che tutti i requisiti commerciali identificati possano ancora essere soddisfatti nel sistema dopo che la funzionalità è stata deprecata. Pertanto, sarà probabilmente necessario aggiungere nuove funzionalità per colmare le lacune funzionali. Microsoft non può fornire una soluzione specifica, perché ogni lacuna di funzionalità è diversa e deve essere valutata in base ai requisiti aziendali. Alcune lacune funzionali verranno probabilmente sostituite da funzionalità che aiutano a soddisfare requisiti aziendali specifici. Tuttavia, altre lacune potrebbero essere colmate continuando a consentire l'inserimento in un giornale di registrazione, come quando viene utilizzato un giustificativo, ma migliorando il sistema per tenere traccia di più dettagli come richiesto.
 
-> [!IMPORTANT]
-> L'opzione **Un solo numero di giustificativo** **non** è stata rimossa dall'impostazione dei nomi del giornale di registrazione. Questa opzione è ancora supportata quando il giustificativo contiene solo tipi di conto CoGe. I clienti devono fare attenzione quando utilizzano questa impostazione, perché il giustificativo non verrà registrato se utilizzano l'opzione **Un solo numero di giustificativo**, ma poi immettono più di un cliente, fornitore, banca, cespite o progetto. Inoltre, i clienti possono ancora immettere una combinazione di tipi di conto CoGe secondario, ad esempio un pagamento in un singolo giustificativo contenente i tipi di conto **Fornitore**/**Banca**.
+Dopo che tutte le lacune funzionali sono state colmate, Microsoft comunicherà che la funzionalità sarà deprecata. Tuttavia, la deprecazione non sarà efficace per almeno un anno da quella comunicazione. Sebbene Microsoft non sia in grado di fornire una stima su quando la funzionalità Un giustificativo sarà deprecata, saranno probabilmente necessari almeno due anni prima che si verifichi il deprecamento. I criteri Microsoft prevedono di lasciare almeno 12 mesi tra l'annuncio della funzionalità deprecata e l'effettivo deprecamento, in modo che i clienti e i fornitori di software indipendenti (ISV) abbiano il tempo di reagire alla modifica. Ad esempio, un'organizzazione potrebbe dover aggiornare i processi, le entità e le integrazioni aziendali.
+
+Il deprecamento di Un giustificativo è un cambiamento significativo che verrà ampiamente comunicato. Come parte di tale comunicazione, Microsoft aggiornerà questo argomento e pubblicherà un post sul blog nel blog di Microsoft Dynamics 365 Finance, aggiornare l'argomento "Funzionalità rimosse o deprecate", comunicare la modifica alle conferenze Microsoft appropriate e così via.
 
 ## <a name="why-use-one-voucher"></a>Perché utilizzare la funzionalità Un giustificativo?
 
@@ -84,7 +84,7 @@ In seguito ad alcune conversazioni con i clienti, Microsoft ha compilato il segu
 I seguenti scenari possono essere soddisfatti solo utilizzando la funzionalità Un giustificativo. Se l'organizzazione ha uno di questi scenari, è necessario consentire l'immissione di più transazioni in un giustificativo impostando il parametro **Consenti più transazioni in un giustificativo** nella pagina **Parametri di contabilità generale**. Tali gap funzionali verranno corretti con altre funzionalità nelle versioni successive.
 
 > [!Note]
-> [Per ognuno dei seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
+> [Per i seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrare i pagamenti cliente o fornitore in formato riepilogativo in un conto bancario
 
@@ -186,6 +186,3 @@ Se occorre effettuare una correzione nel conto CoGe della Contabilità fornitori
 ### <a name="the-system-allows-it"></a>"Consentito dal sistema"
 
 Le organizzazioni spesso utilizzano la funzionalità Un giustificativo principalmente perché il sistema ne consente l'utilizzo, senza conoscere le implicazioni.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

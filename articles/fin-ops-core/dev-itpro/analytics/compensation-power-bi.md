@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI per retribuzione
-description: Questo argomento descrive il contenuto Power BI Retribuzione. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: Questo argomento descrive il contenuto Power BI Retribuzione. Spiega come accedere ai report e fornisce informazioni sul modello di dati utilizzato.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687183"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093058"
 ---
-# <a name="compensation-power-bi-content"></a>Contenuto Power BI Retribuzione
+# <a name="compensation-power-bi-content"></a>Contenuto Power BI per retribuzione
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,6 +71,3 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Retrib
 | Nome dipendente            | Nome, cognome e nome completo                                                                       | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Posizione del dipendente           | Titolo e data di anzianità                                                                                   | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Società, Retribuzione, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione, Benefit |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Panoramica del componente aggiuntivo per la fatturazione elettronica
 description: Questo argomento fornisce informazioni sul componente aggiuntivo per la fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4444960"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104210"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Panoramica del componente aggiuntivo per la fatturazione elettronica
 
@@ -45,9 +44,9 @@ Il componente aggiuntivo per la fatturazione elettronica può aiutarti a raggiun
 
 Per utilizzare il componente aggiuntivo per la fatturazione elettronica, è necessario installarlo dal progetto in formato Microsoft Dynamics Lifecycle Services (LCS). Successivamente, segui la procedura di configurazione per attivare l'integrazione con Finance o Supply Chain Management. Per altre informazioni, vedi [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Disponibilità
+## <a name="service-availability"></a><a name="availability"></a>Disponibilità servizio
 
-Inizialmente, il componente aggiuntivo per la fatturazione elettronica è disponibile per clienti selezionati tramite un programma di anteprima. Successivamente, l'anteprima sarà disponibile per una più ampia fascia di clienti. Infine, il servizio diventerà generalmente disponibile. Poiché la funzionalità che soddisfa i requisiti specifici del paese/area geografica potrebbe essere limitata in diverse fasi del rilascio, è necessario controllare sempre la documentazione più aggiornata che evidenzi la copertura e l'ambito delle soluzioni specifiche del paese/area geografica supportato.
+Attualmente il componente aggiuntivo per la fatturazione elettronica è disponibile per i clienti tramite il programma di anteprima e nella fase successiva il servizio diventerà generalmente disponibile. Poiché la funzionalità che soddisfa i requisiti specifici del paese/area geografica potrebbe essere limitata in diverse fasi del rilascio, è necessario controllare sempre la documentazione più aggiornata che evidenzi la copertura e l'ambito delle soluzioni specifiche del paese/area geografica supportato.
 
 Il componente aggiuntivo per la fatturazione elettronica viene distribuito nelle seguenti aree geografiche di Azure:
 
@@ -76,7 +75,7 @@ Il componente aggiuntivo per la fatturazione elettronica può essere utilizzato 
     - Integrazione incorporata, facilmente estendibile e configurabile con contenuti aggiuntivi per diversi paesi
 
     > [!NOTE]
-    > Attualmente, è supportato un numero limitato di invii diretti. Per ulteriori informazioni, vedi la sezione [Disponibilità](#availability) descritta precedentemente in questo argomento. Il supporto verrà esteso in futuro.
+    > Attualmente, è supportato un numero limitato di invii diretti. Per ulteriori informazioni, vedi la sezione [Disponibilità servizio](#availability) descritta precedentemente in questo argomento. Il supporto verrà esteso in futuro.
 
 - Gestione delle risposte dai servizi Web, inclusa la gestione configurabile dei messaggi di eccezione
 - Supporto per firme elettroniche (ad esempio, utilizzando l'algoritmo di firma XMLDSig)
@@ -104,15 +103,9 @@ La figura seguente mostra i flussi di dati verso il e provenienti dal componente
 ![Flusso di dati per il componente aggiuntivo per la fatturazione elettronica](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
-L'abilitazione e l'utilizzo della fatturazione elettronica potrebbe richiedere l'invio di dati limitati, che includono l'ID di registrazione fiscale dell'organizzazione. Questo verrà trasmesso ad agenzie di terze parti autorizzate dalle autorità fiscali allo scopo di inviare fatture elettroniche nei formati predefiniti richiesti per l'integrazione con questi servizi Web del governo. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Consulta le sezioni dell'Informativa sulla privacy nella documentazione delle funzionalità specifiche del paese.
+L'abilitazione e l'utilizzo del componente aggiuntivo per la fatturazione elettronica potrebbe richiedere l'invio di dati limitati, che includono l'ID di registrazione fiscale dell'organizzazione. Questo verrà trasmesso ad agenzie di terze parti autorizzate dalle autorità fiscali allo scopo di inviare fatture elettroniche nei formati predefiniti richiesti per l'integrazione con questi servizi Web del governo. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Consulta le sezioni dell'Informativa sulla privacy nella documentazione delle funzionalità specifiche del paese.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md)
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica per il Brasile](e-invoicing-bra-get-started.md)
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico](e-invoicing-mex-get-started.md)
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia](e-invoicing-ita-get-started.md)
-- [Configurare il componente aggiuntivo per la fatturazione elettronica](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Amministrazione del servizio](e-invoicing-service-administration.md)
+- [Configurare le fattura elettroniche in RCS](e-invoicing-configuration-rcs.md)
+- [Emissione di fatture elettroniche in Finance e Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

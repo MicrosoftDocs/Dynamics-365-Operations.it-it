@@ -1,6 +1,6 @@
 ---
 title: 'ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 1: creare il formato)'
-description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che esegua calcoli e somme in base ai dati dell'output di testo già generato.
+description: Questo argomento descrive come configurare un formato di report elettronico per eseguire il conteggio e la somma in base ai dati dell'output di testo già generato. (Parte 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1742582057cc912d8e6f90eb14e9e4cdcd193608
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a3639b5ac28f8a571642e983906d658dabf05b1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684717"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093024"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 1: creare il formato)
 
@@ -56,6 +56,3 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 8. Nella struttura espandere 'Modello Intrastat'.
 9. Nella struttura, selezionare 'Modello Intrastat\Intrastat (DE)'.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

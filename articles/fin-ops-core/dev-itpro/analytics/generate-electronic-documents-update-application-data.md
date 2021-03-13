@@ -1,6 +1,6 @@
 ---
 title: Generare documenti elettronici con aggiornare i dati dell'applicazione utilizzando la creazione di report elettronici (ER)
-description: È possibile progettare i formati di report elettronici (ER) utilizzabili nell'applicazione per generare i documenti elettronici in uscita. È inoltre possibile progettare i formati di ER che analizzano i documenti elettronici in entrata e utilizzano il contenuto di questi documenti per aggiornare i dati dell'applicazione.
+description: È possibile progettare i formati di report elettronici (ER) utilizzabili nell'applicazione per generare i documenti elettronici in uscita.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688390"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093875"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Generare documenti elettronici con aggiornare i dati dell'applicazione utilizzando la creazione di report elettronici (ER)
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Generare documenti elettronici e aggiornare i dati dell'applicazione con la creazione di report elettronici
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Per ulteriori informazioni su questa funzionalità, utilizzare il set di Guide a
 - [Configurazione del modello dati di ER: Intrastat (modello)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configurazione del mapping del modello di ER: Intrastat (mapping)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configurazione del formato di ER: Intrastat (formato)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

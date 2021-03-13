@@ -1,7 +1,7 @@
 ---
 title: Contenuto Power BI Effettivi rispetto al budget
-description: Questo argomento descrive il contenuto Power BI Effettivi rispetto al budget. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
-author: ryansandness
+description: Questo argomento descrive il contenuto Power BI Effettivi rispetto al budget. Spiega come accedere ai report e fornisce informazioni sul modello di dati.
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685275"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093850"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenuto Power BI Effettivi rispetto al budget
 
@@ -57,6 +57,3 @@ Nella seguente tabella sono descritti i dettagli sulle metriche disponibili in o
 | Contabilità generali                   | Contabilità generale utilizzabile per filtrare il report nella contabilità generale corrente              |
 | Codici budget              | Codici budget per filtrare i report per                                                |
 | Persone giuridiche            | Persone giuridiche utilizzabili per filtrare il report nella persona giuridica corrente |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

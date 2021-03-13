@@ -1,6 +1,6 @@
 ---
 title: Tipo di destinazione stampante ER
-description: In questo argomento viene descritto come configurare una destinazione stampante per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita nei formati PDF o di Microsoft Office (Excel/Word).
+description: Questo argomento spiega come configurare una destinazione stampante per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 03/17/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679608"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094081"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destinazione stampante
 
@@ -70,6 +70,3 @@ Per usare uno specifico [orientamento di pagina](electronic-reporting-destinatio
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

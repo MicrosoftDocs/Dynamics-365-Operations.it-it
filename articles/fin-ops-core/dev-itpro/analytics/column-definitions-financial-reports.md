@@ -1,6 +1,6 @@
 ---
 title: Definizioni di colonna nei report finanziari
-description: In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report, o blocco predefinito, che specifica il contenuto delle colonne in un report. Al pari delle definizioni di riga, le definizioni delle colonne di base possono essere utilizzate nei report.
+description: In questo articolo vengono fornite informazioni sulle definizioni di colonna. Una definizione di colonna è un componente di report che specifica il contenuto delle colonne in un report.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687232"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093111"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -226,7 +226,7 @@ Un utente sta creando un report per una previsione dinamica di sei mesi. L'utent
 | Larghezza colonna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Controllo stampa       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-L'utente fa doppio clic su una cella di intestazione di colonna per aprire la finestra di dialogo **Intestazione colonna** e immette le seguenti informazioni.
+Quindi fa doppio clic su una cella di intestazione della colonna B per aprire la finestra di dialogo **Intestazione colonna** e immette le seguenti informazioni.
 
 | Campo              | Valore                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ L'utente fa doppio clic su una cella di intestazione di colonna per aprire la fi
 | Motivazione      | Non viene effettuata alcuna selezione. |
 | Estendi da        | B                     |
 | Estendi a          | BASE                  |
-| Intestazione Budget      | BASE+1 a colonna finale  |
 
 Dopo aver inserito le informazioni, l'utente fa clic su **OK**. Quindi fa doppio clic sulla cella di intestazione della colonna C per aprire la finestra di dialogo **Intestazione colonna** e immette le seguenti informazioni.
 
@@ -246,8 +245,8 @@ Dopo aver inserito le informazioni, l'utente fa clic su **OK**. Quindi fa doppio
 | Inserisci testo automatico    | Non viene effettuata alcuna selezione. |
 | Opzioni di formattazione     | Casella                   |
 | Motivazione      | Non viene effettuata alcuna selezione. |
-| Estendi da        | C                     |
-| Estendi a          | BASE+2                |
+| Estendi da        | BASE+1                |
+| Estendi a          | L                     |
 
 Ora, ogni volta che questo report viene generato, la parola "Effettiva" verrà stampata sulle colonne contenenti gli effettivi dati e la parola "Budget" verrà stampata sulle colonne contenenti le previsioni di budget. Inoltre, il numero di colonne verrà rettificato ogni mese.
 
@@ -599,6 +598,3 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 [Definizioni di riga in Progettazione report finanziari](row-definitions-financial-reporting.md)
 
 [Opzioni di formattazione avanzate nei report finanziari](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

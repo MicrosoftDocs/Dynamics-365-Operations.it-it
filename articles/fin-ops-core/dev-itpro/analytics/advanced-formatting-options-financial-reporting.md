@@ -1,7 +1,7 @@
 ---
 title: Opzioni di formattazione avanzate nei report finanziari
-description: Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli.
-author: ryansandness
+description: Questo argomento descrive le funzioni di formattazione avanzate, inclusi filtri, restrizioni, righe non stampabili e istruzioni condizionali nei calcoli.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683165"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093164"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
@@ -310,6 +310,3 @@ Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati
 È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&).
 
 Nel campo **Collegamento a dimensioni finanziarie**, è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

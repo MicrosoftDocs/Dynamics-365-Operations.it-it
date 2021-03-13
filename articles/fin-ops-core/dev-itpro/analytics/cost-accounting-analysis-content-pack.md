@@ -1,6 +1,6 @@
 ---
 title: Contenuti Power BI di analisi contabilità industriale
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683873"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093388"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Contenuti Power BI di analisi contabilità industriale
+# <a name="cost-accounting-analysis-power-bi-content"></a>Analisi della contabilità industriale contenuto Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -123,6 +123,3 @@ Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le mis
 | Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
 | Anni fiscali                       | Anno di calendario                                                                                                        |
 | Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

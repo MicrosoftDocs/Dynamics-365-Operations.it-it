@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI per prestazioni di vendite e redditività
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Prestazioni di vendita e redditività.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688237"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093565"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di vendite e redditività
 
@@ -107,6 +107,3 @@ La seguenti dimensioni chiave nel cubo vendite vengono utilizzate come filtri pe
 | Appuntamenti            | Appuntamenti                                                |
 
 Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

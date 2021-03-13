@@ -1,6 +1,6 @@
 ---
 title: Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale
-description: In questo argomento viene descritto come propagare la protezione a livello di accesso nella contabilità industriale alla protezione a livello di riga in Microsoft Power BI. Questa funzionalità assicura che gli utenti visualizzino solo i dati Power BI ai quali sono autorizzati ad accedere.
+description: In questo argomento viene descritto come propagare la protezione a livello di accesso nella contabilità industriale alla protezione a livello di riga in Microsoft Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d54ced21de112288c2f98c0bc895ca0d49c217e3
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682191"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093357"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale
 
@@ -63,6 +63,3 @@ Supponiamo che l'organizzazione desideri limitare l'accesso ai dati. Se, per qua
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 Per ulteriori informazioni sulla protezione a livello di riga di Power BI, vedere [Gestire la protezione sul proprio modello in Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

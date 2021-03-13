@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4444961"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104231"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Il servizio del componente aggiuntivo per la fatturazione elettronica si assume la responsabilità di archiviare tutti i dati aziendali nelle risorse di Microsoft Azure di proprietà della tua azienda. Per garantire che il servizio funzioni correttamente e che tutti i dati aziendali necessari e generati dal componente aggiuntivo per la fatturazione elettronica siano accessibili solo dal componente aggiuntivo, è necessario creare due risorse principali di Azure:
-
-- Un account di Archiviazione di Azure (Archiviazione BLOB) per archiviare le fatture elettroniche
-- Un Azure Key Vault per archiviare i certificati e l'URI (Uniform Resource Identifier) dell'account di archiviazione
-
-> [!NOTE]
-> Una risorsa per l'insieme di credenziali delle chiavi dedicata e Archiviazione BLOB del cliente devono essere allocati specificamente per l'utilizzo con il componente aggiuntivo per la fatturazione elettronica.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -91,6 +80,3 @@ In questo argomento, completerai due passaggi principali:
 9. Nella finestra di dialogo **Entità di sicurezza**, seleziona l'entità di sicurezza aggiungendo **Componente aggiuntivo per la fatturazione elettronica**.
 10. Seleziona **Aggiungi** e quindi seleziona **Salva le modifiche di Key Vault**.
 11. Nella pagina **Panoramica**, copia il valore **Nome DNS** valore per il Key Vault. Questo valore verrà utilizzato durante la configurazione del servizio in RCS e verrà indicato come *URI di Key Vault*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
-description: I passaggi in questo argomento descrivono come un utente di Regulatory Configuration Service (RCS) può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati in Finance and Operations.
+description: I passaggi in questo argomento descrivono come un utente di Regulatory Configuration Service può progettare un nuovo mapping di modello per la creazione di report elettronici utilizzando i metadati.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682143"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093332"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Accedere ai metadati dell'applicazione utilizzando applicazioni connesse
 
@@ -113,6 +113,3 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 11. Chiudere la pagina. 
 
 Quando è necessario valutare questo mapping di modello utilizzando i metadati di un'altra versione dell'applicazione, registrare un'altra applicazione connessa, assegnarla a questo mapping di modello e convalidarla in base ai nuovi metadati.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI sull'analisi delle spese di acquisto
-description: In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto.
 author: FrankDahl
 manager: AnnBe
 ms.date: 04/24/2019
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680616"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093444"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Power BI sull'analisi delle spese di acquisto
 
@@ -154,6 +154,3 @@ Le seguenti dimensioni chiave nel contenuto vengono utilizzate come filtri per d
 | Appuntamenti                  | Date, offset anno                                    |
 
 Per impostazione predefinita, il contenuto mostra i dati dell'anno di calendario corrente. Tuttavia, è possibile modificare il filtro della data nella sezione relativa ai filtri di report. È inoltre possibile modificare il filtro della società.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

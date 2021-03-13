@@ -1,6 +1,6 @@
 ---
 title: Tipo di destinazione posta elettronica ER
-description: Questo argomento spiega come configurare una destinazione posta elettronica per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita.
+description: Questo argomento spiega come configurare una destinazione e-mail per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690128"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094106"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -65,8 +65,6 @@ Se si seleziona **Gestione stampa posta elettronica** come tipo di indirizzo di 
 - Nel campo **Origine posta elettronica**, selezionare **Nessuna**.
 - Nel campo **Indirizzi di posta elettronica aggiuntivi, separati da ";"**, immettere gli indirizzi di posta elettronica fissi.
 
-![Configurare un indirizzo di posta elettronica fisso](./media/er_destinations-emailfixedaddress.png)
-
 In alternativa, è possibile ottenere indirizzi di posta elettronica dai dettagli di contatto della parte per la quale si genera un documento in uscita. Per utilizzare indirizzi di posta elettronica non fissi, nel campo **Origine posta elettronica** selezionare il [ruolo](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) della parte per una destinazione file. Sono supportati i ruoli che seguono:
 
 - Cliente
@@ -92,8 +90,6 @@ Nella pagina **Designer formula**, nel campo **Formula** immettere un riferiment
 
 Se i numeri conto del ruolo configurato sono univoci per l'intera istanza di Microsoft Dynamics 365 Finance, il campo **Società dell'origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** può rimanere vuota.
 
-![Campo di origine azienda di posta elettronica vuoto](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 In alternativa, potrebbe verificarsi una situazione in cui diverse parti nella [Rubrica globale](../../fin-ops/organization-administration/overview-global-address-book.md) sono state registrate in diverse società ([persone giuridiche](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) in modo che utilizzino tutti lo stesso numero di conto per ricoprire il ruolo configurato. In questo caso, i numeri di conto per il ruolo configurato non sono univoci per l'intera istanza di Finance. Pertanto, per selezionare esplicitamente una parte, non è possibile specificare solo un numero di conto. È inoltre necessario specificare l'azienda per la quale la parte è stata registrata nell'ambito di per ricoprire il ruolo configurato. Selezionare il pulsante **Associa** (simbolo della catena) accanto al campo **Conto di origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** per aprire la pagina [Designer formula](general-electronic-reporting-formula-designer.md). È quindi possibile utilizzare questa pagina per configurare una formula che restituisca, in fase di esecuzione, il codice dell'azienda di cui deve essere trovata la fonte desiderata nell'ambito di applicazione.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Per specificare il tipo di indirizzi di posta elettronica da utilizzare in fase 
 
 > [!NOTE]
 > Se gli scopi sono selezionati nel campo **Scopo** e l'opzione **Contatto primario** è impostata su **Sì** allo stesso tempo, tutti i messaggi di posta elettronica che soddisfano almeno un criterio configurato verranno utilizzati in fase di esecuzione.
-
-![Configurare un conto con attributi di origine posta elettronica](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Posta elettronica configurazione
 
@@ -145,6 +139,3 @@ La seguente illustrazione mostra il processo, come descritto in questo argomento
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

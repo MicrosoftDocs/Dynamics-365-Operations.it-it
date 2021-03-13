@@ -1,6 +1,6 @@
 ---
-title: Gestire il mapping dei modelli di ER in configurazioni di ER separate
-description: I passaggi seguenti illustrano come un utente assegnato con il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può gestire mapping di modello ER in configurazioni ER separate.
+title: Gestire il mapping dei modelli ER in configurazioni ER separate
+description: In questo argomento viene descritto come gestire i mapping del modello di creazione di report elettronici in configurazioni ER separate.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684429"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093800"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gestire il mapping dei modelli di ER in configurazioni di ER separate
 
@@ -161,6 +161,3 @@ Poiché le configurazioni ER sono condivise tra le società, è possibile comple
 7. Fare clic su OK.
     * La configurazione del mapping di modello predefinita viene utilizzata da questa configurazione di formato per la generazione di documenti elettronici (l'output creato conterrà il codice della società).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

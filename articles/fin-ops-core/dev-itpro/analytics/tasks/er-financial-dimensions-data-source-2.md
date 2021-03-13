@@ -1,6 +1,6 @@
 ---
 title: 'ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)'
-description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un modello per la creazione di report elettronici in modo che utilizzi dimensioni finanziarie come origine dati per i report elettronici.
+description: In questo argomento viene descritto come configurare un modello di Creazione di report elettronici (ER) per utilizzare le dimensioni finanziarie come origine dati per i report ER. (Parte 2)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 02c730d08c411e736a7f8b9e7bad3d6a18cb8e6a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681687"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093239"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)
 
@@ -147,6 +147,3 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 4. Fare clic su Completa.
 5. Fare clic su OK.
 ![Pagina della progettazione mapping modello di ER](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Contenuto Benefit di Power BI
-description: Questo argomento descrive il contenuto Benefit di Power BI. Descrive come accedere ai report inclusi e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: Questo argomento descrive il contenuto Benefit di Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687257"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093083"
 ---
 # <a name="benefits-power-bi-content"></a>Contenuto Benefit di Power BI
 
@@ -69,6 +69,3 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Benefi
 | Nome dipendente            | Nome, cognome e nome completo                                                                       | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Posizione del dipendente           | Titolo e data di anzianità                                                                                   | Dipendente corrente, Dipendente con rapporto di lavoro chiuso, Tendenza del dipendente |
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                                        | Società, Retribuzione, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione, Benefit |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

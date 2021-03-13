@@ -1,6 +1,6 @@
 ---
 title: RE Mappar ei modello dati alle origini dati selezionate
-description: I passaggi seguenti descrivono come un utente con ruolo amministratore di sistema o sviluppatore per la creazione di report elettronici può mappare un modello dati per la creazione di report elettronici a origini dati di Microsoft Dynamics 365 Finance, edizione Enterprise, selezionate.
+description: In questo argomento viene descritto come eseguire il mapping di un modello di dati di creazione di report elettronici (ER) a origini dati Microsoft Dynamics 365 Finance selezionate.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e2ba94c9ec3ecc33f0c697d9f18f763749e4ba1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684309"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093750"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>RE Mappar ei modello dati alle origini dati selezionate
 
@@ -146,6 +146,3 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 5. Selezionare la versione completata della configurazione corrente.
     * Si noti che la configurazione creata viene salvata come versione completata 1.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

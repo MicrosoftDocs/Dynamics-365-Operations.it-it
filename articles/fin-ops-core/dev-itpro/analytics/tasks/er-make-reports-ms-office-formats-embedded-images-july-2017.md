@@ -1,6 +1,6 @@
 ---
 title: Progettare le configurazioni per generare report in formato di Office con immagini incorporate
-description: La procedura in questo argomento fornisce informazioni su come progettare le configurazioni ER per generare i documenti elettronici in formati Microsoft Office (Excel e Word) contenenti le immagini incorporate.
+description: Questo argomento descrive come progettare configurazioni che generano documenti elettronici nei formati Excel e Word contenenti le immagini incorporate.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684405"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093672"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Progettare le configurazioni per generare report in formato di Office con immagini incorporate
 
@@ -90,6 +90,3 @@ Per completare i passaggi in questa procedura, prima completare i passaggi della
  30. Selezionare Sì nel campo Consenti creazione notifica anticipata su conti bancari inattivi.  
  31. Fare clic su Salva.  
  32. Chiudere la pagina.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

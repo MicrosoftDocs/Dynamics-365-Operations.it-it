@@ -1,6 +1,6 @@
 ---
 title: Definizioni di riga in Progettazione report finanziari
-description: Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario. Una definizione di riga può combinarsi con le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report per creare un gruppo di blocchi predefiniti che può essere utilizzato da più società.
+description: Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688285"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093267"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Progettazione report finanziari
 
@@ -187,6 +187,3 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

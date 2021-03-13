@@ -1,6 +1,6 @@
 ---
 title: Componenti del report finanziario
-description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo spiega come organizzare e bloccare i blocchi predefiniti e come utilizzare i gruppi di blocchi predefiniti.
+description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d066ee69887f05c8fe14eebac1111c4db26ec628
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682723"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093978"
 ---
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
@@ -126,6 +126,3 @@ Quando si apre un blocco predefinito, gli utenti possono accedere al blocco pred
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
