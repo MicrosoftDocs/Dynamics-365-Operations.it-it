@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689496"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154179"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -34,9 +33,19 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 > [!NOTE]
-> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.16
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formati di dichiarazione elettronica "Dichiarazione IVA (CZ)" e "Esportazione dichiarazione di controllo (CZ)" per la Repubblica ceca
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Sostituito con nuovi formati |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Domanda di lavoro |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: entro il 22 gennaio 2022, prevediamo che non verranno più supportati i formati per report elettronici (ER) "Dichiarazione IVA (CZ)" ed "Esportazione dichiarazione di controllo (CZ)". I nuovi formati XML (CZ) di dichiarazione IVA, Excel di dichiarazione IVA (CZ), XML di dichiarazione di controllo IVA (CZ) sono stati invece introdotti nel modello "Dichiarazione fiscale". |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Formato di creazione di report elettronici "Ledger transaction export format (BE)" e rispettivo modello "Ledger transaction export (BE)" per il Belgio
 
@@ -107,6 +116,3 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annunci precedenti sulle funzionalità rimosse o deprecate
 Per ulteriori informazioni sulle funzionalità che sono state rimosse o deprecate nelle versioni precedenti, vedere [Funzionalità rimosse o deprecate nelle versioni precedenti](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

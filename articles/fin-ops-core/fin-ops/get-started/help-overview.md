@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695141"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154155"
 ---
 # <a name="help-system"></a>Guida
 
@@ -163,7 +163,4 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Questo sito ospita contenuto delle versioni precedenti. |
 | [Community di Dynamics](https://community.dynamics.com/) | Questo sito ospita blog, forum e video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Questo sito fornisce informazioni su vendite e valutazione. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Questo sito ospita risorse di formazione, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. L'accesso ad alcune risorse su questo sito potrebbe richiedere un piano di servizio. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Questo sito ospita risorse di formazione, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. L'accesso ad alcune risorse su questo sito potrebbe richiedere un piano di servizio. |

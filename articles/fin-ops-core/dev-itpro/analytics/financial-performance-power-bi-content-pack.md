@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682747"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154363"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Soluzione PowerBI.com per prestazioni finanziarie
 
@@ -87,7 +87,4 @@ Le entità seguenti sono state utilizzate come base della soluzione PowerBI.com 
 - Contabilità generali
 - ChartofAccounts
 
-Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto. Per impostazione predefinita, il contenuto include dati per gli ultimi tre anni e un anno successivo. Per includere i calcoli aggiuntive in report e dashboard, è possibile modificare la [cartella di lavoro di Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Questa cartella di lavoro è il modello dati predefinito utilizzato per creare il contenuto.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Le entità sono state utilizzate per creare le misure calcolate nel modello dati. Le misure calcolate vengono utilizzate per calcolare gli indicatori di prestazione chiave (KPI) e i report utilizzati nel contenuto. Per impostazione predefinita, il contenuto include dati per gli ultimi tre anni e un anno successivo. Per includere i calcoli aggiuntive in report e dashboard, è possibile modificare la [cartella di lavoro di Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Questa cartella di lavoro è il modello dati predefinito utilizzato per creare il contenuto.

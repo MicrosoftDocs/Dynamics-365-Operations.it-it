@@ -3,7 +3,7 @@ title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689568"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154089"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -32,7 +32,55 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Funzionalità rimossa a partire dal 28 gennaio 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Processo batch per la gestione della deframmentazione dell'indice SQL
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Per ridurre il sovraccarico di funzionamento, monitoraggio e manutenzione della gestione dell'indice da parte dei clienti, questa funzione è stata rimossa. |
+| **Sostituita da un'altra funzionalità?**   | In futuro, la manutenzione dell'indice verrà eseguita dai servizi Microsoft. Ciò avverrà continuamente senza influire sui carichi di lavoro dell'utente. |
+| **Aree del prodotto interessate**         | App di Finance and Operations|
+| **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
+| **Stato**                         | Questa funzionalità è stata rimossa. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.17 delle app Finance and Operations
+
+> [!IMPORTANT]
+> La versione 10.0.17 è disponibile come parte di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sui rilasci di anteprima, vedi [Domande frequenti aggiornamenti del servizio One version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Per supportare le ultime versioni di Visual Studio, è necessario apportare alcune modifiche alle estensioni X++ per Visual Studio. Queste modifiche sono incompatibili con Visual Studio 2015. |
+| **Sostituita da un'altra funzionalità?**   | Visual Studio 2017 sostituirà Visual Studio 2015 come versione distribuita e richiesta. |
+| **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato. Dopo l'aggiornamento, i precedenti strumenti X ++ verranno rimossi da Visual Studio 2015 e gli strumenti aggiornati non verranno installati su Visual Studio 2015. Non vi è alcun impatto sulle build ospitate. Per la compilazione di macchine virtuali, la pipeline di compilazione (definizione di compilazione) deve essere aggiornata manualmente per modificare la dipendenza da MSBuild 14.0 (Visual Studio 2015) a MSBuild 15.0 (Visual Studio 2017) come descritto in [Aggiornare una pipeline legacy in Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Avatar utente 
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | L'avatar dell'utente visualizzato sul lato destro della barra di spostamento è stato recuperato utilizzando un'API dal controllo dell'intestazione di Dynamics 365, che è stato deprecato. |
+| **Sostituita da un'altra funzionalità?**   | Gli utenti vedranno invece le loro iniziali in un cerchio nella barra di spostamento. Questa è la stessa immagine attualmente utilizzata sulle macchine di sviluppo. |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Rimosso a partire dalla versione 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Ritiro di Enterprise Portal (EP)  
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Gli artefatti dei metadati associati a Dynamics AX 2012 Enterprise Portal (EP) sono stati deprecati, poiché EP non è mai stato supportato nelle app Finance and Operations. |
+| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato. Tutto il codice EP dovrebbe essere rimosso nella versione di ottobre 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.15 delle app Finance and Operations
 
@@ -192,6 +240,3 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annunci precedenti sulle funzionalità rimosse o deprecate
 Per ulteriori informazioni sulle funzionalità che sono state rimosse o deprecate nelle versioni precedenti, vedere [Funzionalità rimosse o deprecate nelle versioni precedenti](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

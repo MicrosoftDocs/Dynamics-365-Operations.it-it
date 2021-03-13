@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527412"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152199"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 26 settembre 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527412"
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
-Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>In questa versione
 
@@ -58,7 +57,7 @@ Questa versione include le seguenti correzioni di bug.
 | 481401 | L'elaborazione dell'accumulo si blocca quando la base della data di accumulo è successiva alla data di inizio dell'accumulo e alla fine del mese | L'elaborazione dell'accumulo viene aggiornato in modo da non avere ritardi quando la base della data di accumulo è successiva alla data di inizio dell'accumulo e alla fine del mese. |
 | 447167 | Gli elenchi di record in scadenza includono i lavoratori inattivi | Nella scheda **Record in scadenza** in **Gestione personale** sono inclusi i lavoratori inattivi. Ora include solo i lavoratori attivi. |
 | 486840 | La richiesta di congedo errata si apre da **Elementi di lavoro assegnati all'utente** | La selezione di una richiesta di congedo da **Elementi di lavoro assegnati all'utente** non apre più la richiesta di congedo più recente assegnata all'utente corrente. |
-| 506868 | Il campo **Titolo** di Common Data Service non è impostato per l'entità **Posizione lavorativa** | Il campo **Titolo** nelle entità **Lavoro** e **Posizione lavorativa** viene visualizzato come non specificato. Il campo **Titolo** ora viene visualizzato. |
+| 506868 | Il campo **Titolo** di Dataverse non è impostato per l'entità **Posizione lavorativa** | Il campo **Titolo** nelle entità **Lavoro** e **Posizione lavorativa** viene visualizzato come non specificato. Il campo **Titolo** ora viene visualizzato. |
 | 430359 | Non è possibile accedere alle attività dell'elenco di controllo dell'offboarding con ruoli di responsabile e dipendente assegnati | I lavoratori con una data di fine rapporto futura non potevano accedere alle loro attività dell'elenco di controllo se avevano solo un ruolo di dipendente o responsabile. Ora gli utenti con un ruolo di dipendente o responsabile possono accedere alle attività di offboarding con una data di fine rapporto futura. |
 | 458102 | Il nuovo dipendente non appare nell'entità **Informazioni retribuzione lavoratore** al momento della creazione | I nuovi dipendenti vengono inclusi nell'entità delle informazioni sulla retribuzione dei lavoratori senza dover aprire le informazioni sulla retribuzione per il dipendente prima di esportare l'entità. |
 
@@ -85,6 +84,3 @@ Per un elenco completo delle funzionalità pianificate e delle relative versioni
 [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Processo di aggiornamento](hr-admin-setup-update-process.md)
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

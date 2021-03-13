@@ -1,7 +1,7 @@
 ---
 title: Home page di approvvigionamento
 description: Sono elencati gli argomenti della Guida e altre risorse disponibili per l'approvvigionamento.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d189213a691d752f02160d7ed9b6f5f60329eebd
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431430"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154335"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
@@ -86,7 +85,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 ## <a name="prices-and-discounts"></a>Prezzi e sconti
 -   [Contratti di acquisto](purchase-agreements.md)
 -   [Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
--   [Sconti fornitore](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (white paper)
+-   [Sconti fornitore](https://docs.microsoft.com/dynamics/s-e/) (white paper)
 
 ## <a name="product-receipt-and-invoicing"></a>Entrata prodotti e fatturazione
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
@@ -104,6 +103,3 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

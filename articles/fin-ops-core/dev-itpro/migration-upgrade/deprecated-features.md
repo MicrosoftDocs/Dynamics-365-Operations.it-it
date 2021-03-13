@@ -1,6 +1,6 @@
 ---
 title: Funzionalità rimosse o deprecate nelle versioni precedenti
-description: Questo argomento descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti del prodotto.
+description: Questo argomento descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679958"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154387"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -39,7 +39,7 @@ Questo argomento descrive le funzionalità che sono state rimosse o deprecate in
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finanza 10.0.7 con Platform update 31
 
@@ -970,7 +970,7 @@ Questo strumento è stato utilizzato per integrare i dati di chiave di Microsoft
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Questa funzionalità è stata sostituita da un'altra funzionalità. |
-| **Sostituita da un'altra funzionalità?**   | Common Data Service                                      |
+| **Sostituita da un'altra funzionalità?**   | Dataverse                                      |
 | **Aree del prodotto interessate**         | Connettore per Dynamics                         |
 | **Stato**                         | Rimosso a partire da Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 |     <strong>Aree del prodotto interessate</strong>     |                                              Contabilità generale                                              |
 |             <strong>Stato</strong>             |                                      Rimosso a partire da Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

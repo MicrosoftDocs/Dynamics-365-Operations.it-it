@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264294
 ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ec28a453fd7005496a85c206db093dafdd1c4838
-ms.sourcegitcommit: 78ef538704e3d774ed274b549163246c226cd3dc
+ms.openlocfilehash: 196af9c84b2d969d625ce17de158cd9c180017e9
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4408126"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154139"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -1100,7 +1099,7 @@ I campi con **Totale** selezionato nel campo **Calcolo** sono contrassegnati in 
 
 ## <a name="appendix-2-example-of-the-yearly-tax-communication-setup-for-2020"></a>Appendice 2. Esempio di impostazioni comunicazione annuale imposte per il 2020
 
-Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](https://mbs.microsoft.com/customersource/Global/AX/downloads/tax-regulatory-updates/ItalianAnnualVATdeclaration). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
+Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](https://docs.microsoft.com/dynamics/s-e/ax/ItalianAnnualVATdeclaration_delta). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
 
 1. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 2. Selezionare il pulsante **Apri in Microsoft Office**, quindi in **Apri in Excel** selezionare **Impostazioni comunicazione annuale imposte (DEMF)**.
@@ -1121,6 +1120,3 @@ Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impos
    - VL032001 IVA dovuta (IVA a debito)
    - VL033001 Credito (IVA a credito)
    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
