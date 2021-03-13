@@ -2,7 +2,7 @@
 title: Inviare una richiesta di congedo a flusso di lavoro
 description: In Microsoft Dynamics 365 Human Resources, è possibile utilizzare l'API MyLeaveRequests submit() per inviare una richiesta di congedo al flusso di lavoro.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,61 +18,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419128"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115514"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="d7397-103">Inviare una richiesta di congedo a flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="d7397-103">Submit a leave request to workflow</span></span>
+# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="4cbc8-103">Inviare una richiesta di congedo a flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="4cbc8-103">Submit a leave request to workflow</span></span>
 
-<span data-ttu-id="d7397-104">In Microsoft Dynamics 365 Human Resources, è possibile utilizzare l'API MyLeaveRequests submit() per inviare una richiesta di congedo al flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="d7397-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="d7397-105">Questa API è esposta come azione nell'entità OData MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="d7397-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
+<span data-ttu-id="4cbc8-104">In Microsoft Dynamics 365 Human Resources, è possibile utilizzare l'API MyLeaveRequests submit() per inviare una richiesta di congedo al flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="4cbc8-105">Questa API è esposta come azione nell'entità OData MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="d7397-106">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="d7397-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="4cbc8-106">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="4cbc8-106">Prerequisites</span></span>
 
-<span data-ttu-id="d7397-107">La richiesta di congedo deve essere salvata nel database e deve essere recuperabile tramite l'entità MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="d7397-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="4cbc8-107">La richiesta di congedo deve essere salvata nel database e deve essere recuperabile tramite l'entità MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="d7397-108">Autorizzazioni</span><span class="sxs-lookup"><span data-stu-id="d7397-108">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="4cbc8-108">Autorizzazioni</span><span class="sxs-lookup"><span data-stu-id="4cbc8-108">Permissions</span></span>
 
-<span data-ttu-id="d7397-109">Per chiamare questa API è necessario disporre di una delle seguenti autorizzazioni.</span><span class="sxs-lookup"><span data-stu-id="d7397-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="d7397-110">Per ulteriori informazioni sulle autorizzazioni e su come selezionarle, vedere [Autenticazione](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="d7397-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
+<span data-ttu-id="4cbc8-109">Per chiamare questa API è necessario disporre di una delle seguenti autorizzazioni.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="4cbc8-110">Per ulteriori informazioni sulle autorizzazioni e su come selezionarle, vedere [Autenticazione](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="4cbc8-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
 
-| <span data-ttu-id="d7397-111">Tipo di autorizzazione</span><span class="sxs-lookup"><span data-stu-id="d7397-111">Permission type</span></span>                    | <span data-ttu-id="d7397-112">Autorizzazioni (dalla meno privilegiata alla più privilegiata)</span><span class="sxs-lookup"><span data-stu-id="d7397-112">Permissions (from least privileged to most privileged)</span></span> |
+| <span data-ttu-id="4cbc8-111">Tipo di autorizzazione</span><span class="sxs-lookup"><span data-stu-id="4cbc8-111">Permission type</span></span>                    | <span data-ttu-id="4cbc8-112">Autorizzazioni (dalla meno privilegiata alla più privilegiata)</span><span class="sxs-lookup"><span data-stu-id="4cbc8-112">Permissions (from least privileged to most privileged)</span></span> |
 |------------------------------------|--------------------------------------------------------|
-| <span data-ttu-id="d7397-113">Delegata (account di lavoro o dell'istituto di istruzione)</span><span class="sxs-lookup"><span data-stu-id="d7397-113">Delegated (work or school account)</span></span> | <span data-ttu-id="d7397-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="d7397-114">user\_impersonation</span></span>                                    |
+| <span data-ttu-id="4cbc8-113">Delegata (account di lavoro o dell'istituto di istruzione)</span><span class="sxs-lookup"><span data-stu-id="4cbc8-113">Delegated (work or school account)</span></span> | <span data-ttu-id="4cbc8-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="4cbc8-114">user\_impersonation</span></span>                                    |
 
-## <a name="https-request"></a><span data-ttu-id="d7397-115">Richiesta HTTPS</span><span class="sxs-lookup"><span data-stu-id="d7397-115">HTTPS request</span></span>
+## <a name="https-request"></a><span data-ttu-id="4cbc8-115">Richiesta HTTPS</span><span class="sxs-lookup"><span data-stu-id="4cbc8-115">HTTPS request</span></span>
 
 <!-- { "blockType": "ignored" } -->
 ```HTTP
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-<span data-ttu-id="d7397-116">La richiesta è conforme agli standard OData.</span><span class="sxs-lookup"><span data-stu-id="d7397-116">The request conforms to OData standards.</span></span> <span data-ttu-id="d7397-117">I parametri {requestId}, {leaveType}, {leaveDate} e {dataArea} si riferiscono ai campi che compongono la chiave naturale composita dell'entità MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="d7397-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="4cbc8-116">La richiesta è conforme agli standard OData.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-116">The request conforms to OData standards.</span></span> <span data-ttu-id="4cbc8-117">I parametri {requestId}, {leaveType}, {leaveDate} e {dataArea} si riferiscono ai campi che compongono la chiave naturale composita dell'entità MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d7397-118">Sebbene i campi per l'entità MyLeaveRequests fanno riferimento a una singola riga nella richiesta di congedo, la chiamata dell'API di invio invia l'intera richiesta di congedo (tutte le righe) al flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="d7397-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
+> <span data-ttu-id="4cbc8-118">Sebbene i campi per l'entità MyLeaveRequests fanno riferimento a una singola riga nella richiesta di congedo, la chiamata dell'API di invio invia l'intera richiesta di congedo (tutte le righe) al flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
 
-### <a name="request-headers"></a><span data-ttu-id="d7397-119">Intestazioni richieste</span><span class="sxs-lookup"><span data-stu-id="d7397-119">Request headers</span></span>
+### <a name="request-headers"></a><span data-ttu-id="4cbc8-119">Intestazioni richieste</span><span class="sxs-lookup"><span data-stu-id="4cbc8-119">Request headers</span></span>
 
-| <span data-ttu-id="d7397-120">Intestazione</span><span class="sxs-lookup"><span data-stu-id="d7397-120">Header</span></span>         | <span data-ttu-id="d7397-121">Value</span><span class="sxs-lookup"><span data-stu-id="d7397-121">Value</span></span>                     |
+| <span data-ttu-id="4cbc8-120">Intestazione</span><span class="sxs-lookup"><span data-stu-id="4cbc8-120">Header</span></span>         | <span data-ttu-id="4cbc8-121">Value</span><span class="sxs-lookup"><span data-stu-id="4cbc8-121">Value</span></span>                     |
 |----------------|---------------------------|
-| <span data-ttu-id="d7397-122">Autorizzazione</span><span class="sxs-lookup"><span data-stu-id="d7397-122">Authorization</span></span>  | <span data-ttu-id="d7397-123">Portatore {token} (necessaria)</span><span class="sxs-lookup"><span data-stu-id="d7397-123">Bearer {token} (required)</span></span> |
-| <span data-ttu-id="d7397-124">Content-Type</span><span class="sxs-lookup"><span data-stu-id="d7397-124">Content-Type</span></span>   | <span data-ttu-id="d7397-125">application/json</span><span class="sxs-lookup"><span data-stu-id="d7397-125">application/json</span></span>          |
+| <span data-ttu-id="4cbc8-122">Autorizzazione</span><span class="sxs-lookup"><span data-stu-id="4cbc8-122">Authorization</span></span>  | <span data-ttu-id="4cbc8-123">Portatore {token} (necessaria)</span><span class="sxs-lookup"><span data-stu-id="4cbc8-123">Bearer {token} (required)</span></span> |
+| <span data-ttu-id="4cbc8-124">Content-Type</span><span class="sxs-lookup"><span data-stu-id="4cbc8-124">Content-Type</span></span>   | <span data-ttu-id="4cbc8-125">application/json</span><span class="sxs-lookup"><span data-stu-id="4cbc8-125">application/json</span></span>          |
 
-### <a name="request-body"></a><span data-ttu-id="d7397-126">Corpo della richiesta</span><span class="sxs-lookup"><span data-stu-id="d7397-126">Request body</span></span>
+### <a name="request-body"></a><span data-ttu-id="4cbc8-126">Corpo della richiesta</span><span class="sxs-lookup"><span data-stu-id="4cbc8-126">Request body</span></span>
 
-<span data-ttu-id="d7397-127">Non fornire il corpo della richiesta per questo metodo.</span><span class="sxs-lookup"><span data-stu-id="d7397-127">Don't supply a request body for this method.</span></span>
+<span data-ttu-id="4cbc8-127">Non fornire il corpo della richiesta per questo metodo.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-127">Don't supply a request body for this method.</span></span>
 
-### <a name="response"></a><span data-ttu-id="d7397-128">Risposta</span><span class="sxs-lookup"><span data-stu-id="d7397-128">Response</span></span>
+### <a name="response"></a><span data-ttu-id="4cbc8-128">Risposta</span><span class="sxs-lookup"><span data-stu-id="4cbc8-128">Response</span></span>
 
-<span data-ttu-id="d7397-129">Una risposta positiva è sempre una risposta **204 Nessun contenuto**.</span><span class="sxs-lookup"><span data-stu-id="d7397-129">A successful response is always a **204 No Content** response.</span></span>
+<span data-ttu-id="4cbc8-129">Una risposta positiva è sempre una risposta **204 Nessun contenuto**.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-129">A successful response is always a **204 No Content** response.</span></span>
 
-<span data-ttu-id="d7397-130">I chiamanti non autorizzati riceveranno una risposta **401 Non autorizzato** o a **403 Accesso negato**.</span><span class="sxs-lookup"><span data-stu-id="d7397-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
+<span data-ttu-id="4cbc8-130">I chiamanti non autorizzati riceveranno una risposta **401 Non autorizzato** o a **403 Accesso negato**.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
 
-<span data-ttu-id="d7397-131">Se l'invio non ha esito positivo (ad esempio a causa della convalida), la risposta sarà **500 Errore del server** e il corpo della risposta includerà un oggetto JSON con ulteriori dettagli.</span><span class="sxs-lookup"><span data-stu-id="d7397-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
+<span data-ttu-id="4cbc8-131">Se l'invio non ha esito positivo (ad esempio a causa della convalida), la risposta sarà **500 Errore del server** e il corpo della risposta includerà un oggetto JSON con ulteriori dettagli.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d7397-132">Esempio</span><span class="sxs-lookup"><span data-stu-id="d7397-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4cbc8-132">Esempio</span><span class="sxs-lookup"><span data-stu-id="4cbc8-132">Example</span></span>
 
 ```http
 POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespaces/b2eb8003-334f-4a84-ab63-edbe23569090/data/MyLeaveRequests(RequestId='USMF-000065', LeaveType='Vacation', LeaveDate=2019-10-04T12:00:00Z, dataAreaId='USMF')/Microsoft.Dynamics.DataEntities.submit
@@ -92,19 +92,19 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a><span data-ttu-id="d7397-133">Convalida e messaggi d'errore</span><span class="sxs-lookup"><span data-stu-id="d7397-133">Validation and error messages</span></span>
+## <a name="validation-and-error-messages"></a><span data-ttu-id="4cbc8-133">Convalida e messaggi d'errore</span><span class="sxs-lookup"><span data-stu-id="4cbc8-133">Validation and error messages</span></span>
 
-<span data-ttu-id="d7397-134">Come parte della chiamata all'API di invio, Human Resources esegue la convalida della logica aziendale prima dell'invio e ciò garantisce che la richiesta di congedo sia in uno stato valido per l'invio.</span><span class="sxs-lookup"><span data-stu-id="d7397-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="d7397-135">I messaggi di errore che si potrebbero ricevere nella risposta se le convalide non riescono sono:</span><span class="sxs-lookup"><span data-stu-id="d7397-135">The possible error messages you may receive in the response if validations fail are:</span></span>
+<span data-ttu-id="4cbc8-134">Come parte della chiamata all'API di invio, Human Resources esegue la convalida della logica aziendale prima dell'invio e ciò garantisce che la richiesta di congedo sia in uno stato valido per l'invio.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="4cbc8-135">I messaggi di errore che si potrebbero ricevere nella risposta se le convalide non riescono sono:</span><span class="sxs-lookup"><span data-stu-id="4cbc8-135">The possible error messages you may receive in the response if validations fail are:</span></span>
 
- - <span data-ttu-id="d7397-136">La richieste comporterebbe l'inserimento del saldo '{LeaveTypeId}' sotto al saldo minimo consentito in {date}.</span><span class="sxs-lookup"><span data-stu-id="d7397-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
- - <span data-ttu-id="d7397-137">Impossibile inviare la richiesta di permesso con stato Completata.</span><span class="sxs-lookup"><span data-stu-id="d7397-137">Time off request in Completed state cannot be submitted.</span></span>
- - <span data-ttu-id="d7397-138">Impossibile inviare o salvare la richiesta poiché non sono state apportate modifiche.</span><span class="sxs-lookup"><span data-stu-id="d7397-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="d7397-139">Aggiungere o aggiornare l'importo o il tipo di congedo e riprovare.</span><span class="sxs-lookup"><span data-stu-id="d7397-139">Add or update the amount or the leave type and try again.</span></span>
- - <span data-ttu-id="d7397-140">La richiesta di sospensione immessa contiene uno o più giorni con la stessa data e il tipo di congedo come richiesta in sospeso esistente.</span><span class="sxs-lookup"><span data-stu-id="d7397-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="d7397-141">Richiamare la richiesta esistente per apportare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="d7397-141">Please recall the existing request to make changes.</span></span>
- - <span data-ttu-id="d7397-142">Il codice motivo '{ReasonCodeId}' non si applica ad alcun tipo di congedo nella richiesta.</span><span class="sxs-lookup"><span data-stu-id="d7397-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
- - <span data-ttu-id="d7397-143">Il tipo di congedo "{LeaveTypeId}" richiede un codice motivo.</span><span class="sxs-lookup"><span data-stu-id="d7397-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="d7397-144">Selezionare il tipo e il codice motivo appropriati.</span><span class="sxs-lookup"><span data-stu-id="d7397-144">Select the appropriate type and reason code.</span></span>
- - <span data-ttu-id="d7397-145">Il permesso non è stato inviato correttamente.</span><span class="sxs-lookup"><span data-stu-id="d7397-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="d7397-146">Il permesso è stato salvato come una richiesta di bozza.</span><span class="sxs-lookup"><span data-stu-id="d7397-146">The time off has been saved as a draft request.</span></span>
+ - <span data-ttu-id="4cbc8-136">La richieste comporterebbe l'inserimento del saldo '{LeaveTypeId}' sotto al saldo minimo consentito in {date}.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
+ - <span data-ttu-id="4cbc8-137">Impossibile inviare la richiesta di permesso con stato Completata.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-137">Time off request in Completed state cannot be submitted.</span></span>
+ - <span data-ttu-id="4cbc8-138">Impossibile inviare o salvare la richiesta poiché non sono state apportate modifiche.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="4cbc8-139">Aggiungere o aggiornare l'importo o il tipo di congedo e riprovare.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-139">Add or update the amount or the leave type and try again.</span></span>
+ - <span data-ttu-id="4cbc8-140">La richiesta di sospensione immessa contiene uno o più giorni con la stessa data e il tipo di congedo come richiesta in sospeso esistente.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="4cbc8-141">Richiamare la richiesta esistente per apportare le modifiche.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-141">Please recall the existing request to make changes.</span></span>
+ - <span data-ttu-id="4cbc8-142">Il codice motivo '{ReasonCodeId}' non si applica ad alcun tipo di congedo nella richiesta.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
+ - <span data-ttu-id="4cbc8-143">Il tipo di congedo "{LeaveTypeId}" richiede un codice motivo.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="4cbc8-144">Selezionare il tipo e il codice motivo appropriati.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-144">Select the appropriate type and reason code.</span></span>
+ - <span data-ttu-id="4cbc8-145">Il permesso non è stato inviato correttamente.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="4cbc8-146">Il permesso è stato salvato come una richiesta di bozza.</span><span class="sxs-lookup"><span data-stu-id="4cbc8-146">The time off has been saved as a draft request.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d7397-147">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="d7397-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4cbc8-147">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="4cbc8-147">See also</span></span>
 
-- [<span data-ttu-id="d7397-148">Panoramica di MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="d7397-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
-- [<span data-ttu-id="d7397-149">Autenticazione</span><span class="sxs-lookup"><span data-stu-id="d7397-149">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="4cbc8-148">Panoramica di MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="4cbc8-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
+- [<span data-ttu-id="4cbc8-149">Autenticazione</span><span class="sxs-lookup"><span data-stu-id="4cbc8-149">Authentication</span></span>](hr-developer-api-authentication.md)

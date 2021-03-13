@@ -2,8 +2,8 @@
 title: Imposta i codici causale
 description: Dynamics 365 Human Resources utilizza codici motivo per spiegare perché i benefit di un dipendente stanno cambiando.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae82c8312d344f5380adec8413766304681a0a05
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419227"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113093"
 ---
-# <a name="set-up-reason-codes"></a><span data-ttu-id="c4521-103">Imposta i codici causale</span><span class="sxs-lookup"><span data-stu-id="c4521-103">Set up reason codes</span></span>
+# <a name="set-up-reason-codes"></a><span data-ttu-id="35a7c-103">Imposta i codici causale</span><span class="sxs-lookup"><span data-stu-id="35a7c-103">Set up reason codes</span></span>
 
-<span data-ttu-id="c4521-104">Dynamics 365 Human Resources utilizza codici motivo per spiegare perché i benefit di un dipendente stanno cambiando.</span><span class="sxs-lookup"><span data-stu-id="c4521-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span> 
+<span data-ttu-id="35a7c-104">Dynamics 365 Human Resources utilizza codici motivo per spiegare perché i benefit di un dipendente stanno cambiando.</span><span class="sxs-lookup"><span data-stu-id="35a7c-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span>
 
-1. <span data-ttu-id="c4521-105">Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Codici motivo**.</span><span class="sxs-lookup"><span data-stu-id="c4521-105">In the **Benefits management** workspace, under **Setup**, select **Reason codes**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="35a7c-105">A partire da gennaio 2021, i codici motivo verranno migrati nell'area di lavoro **Gestione personale** invece dell'area di lavoro **Gestione benefit**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-105">As of January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="35a7c-106">Per ulteriori informazioni, vedi [Migrare manualmente i codici motivo alla gestione del personale](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span><span class="sxs-lookup"><span data-stu-id="35a7c-106">For more information, see [Manually migrate reason codes to Personnel management](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span></span>
 
-2. <span data-ttu-id="c4521-106">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="c4521-106">Select **New**.</span></span>
+## <a name="create-reason-codes"></a><span data-ttu-id="35a7c-107">Creare codici motivo</span><span class="sxs-lookup"><span data-stu-id="35a7c-107">Create reason codes</span></span>
 
-3. <span data-ttu-id="c4521-107">Specificare i valori per i seguenti campi:</span><span class="sxs-lookup"><span data-stu-id="c4521-107">Specify values for the following fields:</span></span>
+1. <span data-ttu-id="35a7c-108">Nell'area di lavoro **Gestione personale** (o nell'area di lavoro **Gestione benefit** se i codici motivo non sono ancora stati migrati), seleziona **Collegamenti** e quindi seleziona **Codici motivo**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-108">In the **Personnel management** workspace (or **Benefits management** workspace if your reason codes haven't yet migrated), select **Links**, and then select **Reason codes**.</span></span>
 
-   | <span data-ttu-id="c4521-108">Campo</span><span class="sxs-lookup"><span data-stu-id="c4521-108">Field</span></span> | <span data-ttu-id="c4521-109">Descrizione</span><span class="sxs-lookup"><span data-stu-id="c4521-109">Description</span></span> |
+2. <span data-ttu-id="35a7c-109">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-109">Select **New**.</span></span>
+
+3. <span data-ttu-id="35a7c-110">Specificare i valori per i seguenti campi:</span><span class="sxs-lookup"><span data-stu-id="35a7c-110">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="35a7c-111">Campo</span><span class="sxs-lookup"><span data-stu-id="35a7c-111">Field</span></span> | <span data-ttu-id="35a7c-112">Descrizione</span><span class="sxs-lookup"><span data-stu-id="35a7c-112">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="c4521-110">**Codice motivo**</span><span class="sxs-lookup"><span data-stu-id="c4521-110">**Reason code**</span></span> | <span data-ttu-id="c4521-111">Un nome univoco per identificare il motivo per cui un dipendente cambierebbe l'iscrizione a un piano di benefit.</span><span class="sxs-lookup"><span data-stu-id="c4521-111">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
-   | <span data-ttu-id="c4521-112">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="c4521-112">**Description**</span></span> | <span data-ttu-id="c4521-113">Descrizione del codice motivo.</span><span class="sxs-lookup"><span data-stu-id="c4521-113">A description of the reason code.</span></span> |
+   | <span data-ttu-id="35a7c-113">**Codice motivo**</span><span class="sxs-lookup"><span data-stu-id="35a7c-113">**Reason code**</span></span> | <span data-ttu-id="35a7c-114">Un nome univoco per identificare il motivo per cui un dipendente cambierebbe l'iscrizione a un piano di benefit.</span><span class="sxs-lookup"><span data-stu-id="35a7c-114">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
+   | <span data-ttu-id="35a7c-115">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="35a7c-115">**Description**</span></span> | <span data-ttu-id="35a7c-116">Descrizione del codice motivo.</span><span class="sxs-lookup"><span data-stu-id="35a7c-116">A description of the reason code.</span></span> |
 
-4. <span data-ttu-id="c4521-114">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="c4521-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="35a7c-117">In **Scenario applicabile**, imposta **Gestione benefit** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-117">Under **Applicable scenarios**, set **Benefits management** to **Yes**.</span></span> <span data-ttu-id="35a7c-118">Non applicabile se i tuoi codici motivo non sono ancora migrati all'area di lavoro **Gestione personale**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-118">(Not applicable if your reason codes haven't yet migrated to the **Personnel management** workspace.)</span></span>
+
+5. <span data-ttu-id="35a7c-119">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-119">Select **Save**.</span></span>
+
+## <a name="manually-migrate-reason-codes-to-personnel-management"></a><span data-ttu-id="35a7c-120">Migrare manualmente i codici motivo alla gestione del personale</span><span class="sxs-lookup"><span data-stu-id="35a7c-120">Manually migrate reason codes to Personnel management</span></span>
+
+<span data-ttu-id="35a7c-121">A partire da gennaio 2021, i codici motivo verranno migrati nell'area di lavoro **Gestione personale** invece che nell'area di lavoro **Gestione benefit**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-121">In January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="35a7c-122">La maggior parte dei dati del codice motivo verrà migrata automaticamente nel tuo ambiente.</span><span class="sxs-lookup"><span data-stu-id="35a7c-122">Most reason code data will automatically migrate in your environment.</span></span> <span data-ttu-id="35a7c-123">Alcuni dati del codice motivo potrebbero non essere migrati.</span><span class="sxs-lookup"><span data-stu-id="35a7c-123">Some reason code data might not migrate.</span></span> <span data-ttu-id="35a7c-124">Ad esempio, i codici motivo ora hanno un massimo di 15 caratteri, quindi qualsiasi codice motivo più lungo di 15 caratteri non verrà migrato automaticamente.</span><span class="sxs-lookup"><span data-stu-id="35a7c-124">For example, reason codes now have a 15-character maximum, so any reason codes longer than 15 characters won't migrate automatically.</span></span>
+
+<span data-ttu-id="35a7c-125">Vedrai un banner nella pagina **Collegamenti** dell'area di lavoro **Gestione benefit** che ti informa sulla migrazione e se i codici motivo non sono stati migrati.</span><span class="sxs-lookup"><span data-stu-id="35a7c-125">You'll see a banner on the **Links** page of the **Benefits management** workspace informing you about the migration and whether any reason codes didn't migrate.</span></span>
+
+1. <span data-ttu-id="35a7c-126">Seleziona **Codici motivo** per i dettagli sullo stato della migrazione.</span><span class="sxs-lookup"><span data-stu-id="35a7c-126">Select **Reason codes** for details about migration status.</span></span>
+
+   <span data-ttu-id="35a7c-127">[![Codici causale](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span><span class="sxs-lookup"><span data-stu-id="35a7c-127">[![Reason codes](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span></span>
+
+2. <span data-ttu-id="35a7c-128">Seleziona un codice motivo di cui la migrazione non è riuscita.</span><span class="sxs-lookup"><span data-stu-id="35a7c-128">Select a reason code that failed to migrate.</span></span>
+
+   <span data-ttu-id="35a7c-129">[![Stato della migrazione del codice motivo](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span><span class="sxs-lookup"><span data-stu-id="35a7c-129">[![Reason code migration status](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span></span>
+
+3. <span data-ttu-id="35a7c-130">Seleziona **Migra codice motivo**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-130">Select **Migrate reason code**.</span></span>
+
+   <span data-ttu-id="35a7c-131">[![Esegui migrazione del codice motivo](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span><span class="sxs-lookup"><span data-stu-id="35a7c-131">[![Migrate reason code](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span></span>
+
+4. <span data-ttu-id="35a7c-132">Nel riquadro **Migrazione del codice motivo benefit**, sono disponibili due opzioni per la mappatura a un codice motivo della gestione del personale:</span><span class="sxs-lookup"><span data-stu-id="35a7c-132">In the **Benefit reason code migration** pane, you have two options for mapping to a Personnel management reason code:</span></span>
+
+   - <span data-ttu-id="35a7c-133">Per utilizzare un codice motivo esistente in Gestione personale, scegline uno dal menu a discesa **Utilizza codice motivo esistente**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-133">To use an existing reason code in Personnel management, choose one from the **Use existing reason code** dropdown.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="35a7c-134">Puoi utilizzare un codice motivo esistente in Gestione personale solo se un altro codice motivo della gestione dei vantaggi non è già stato migrato su di esso.</span><span class="sxs-lookup"><span data-stu-id="35a7c-134">You can only use an existing reason code in Personnel management if another Benefits management reason code hasn't already migrated to it.</span></span>
+   - <span data-ttu-id="35a7c-135">Per creare un nuovo codice motivo in Gestione personale, immettine uno nuovo in **Nuovo codice motivo**, quindi inserisci una descrizione in **Nuova descrizione**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-135">To create a new reason code in Personnel management, enter a new one in **New reason code**, and then enter a description in **New description**.</span></span>
+
+   <span data-ttu-id="35a7c-136">[![Associare a un codice motivo di Gestione personale](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span><span class="sxs-lookup"><span data-stu-id="35a7c-136">[![Map to a Personnel management reason code](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span></span>
+
+<span data-ttu-id="35a7c-137">Dopo la migrazione dei codici motivo a Gestione personale, l'opzione per utilizzarli in Gestione benefit viene automaticamente impostata su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="35a7c-137">After reason codes migrate to Personnel management, the option for using them in Benefits management is automatically set to **Yes**.</span></span>
+
+<span data-ttu-id="35a7c-138">[![Usa codice motivo in Gestione benefit](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span><span class="sxs-lookup"><span data-stu-id="35a7c-138">[![Use reason code in Benefits management](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span></span>
