@@ -1,7 +1,7 @@
 ---
 title: Configurazioni richiesta fornitore
 description: In questo argomento vengono descritti i campi obbligatori in una richiesta nuovo fornitore.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,46 +11,45 @@ ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d78aa7c14ed2a2a5097f6f80c946c6ae4ed8bb94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431362"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021166"
 ---
-# <a name="vendor-request-configurations"></a><span data-ttu-id="c5df2-103">Configurazioni richiesta fornitore</span><span class="sxs-lookup"><span data-stu-id="c5df2-103">Vendor request configurations</span></span>
+# <a name="vendor-request-configurations"></a><span data-ttu-id="63e3e-103">Configurazioni richiesta fornitore</span><span class="sxs-lookup"><span data-stu-id="63e3e-103">Vendor request configurations</span></span>
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c5df2-104">Per completare una richiesta fornitore, un contatto del fornitore deve completare la procedura guidata di registrazione del fornitore potenziale.</span><span class="sxs-lookup"><span data-stu-id="c5df2-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
+<span data-ttu-id="63e3e-104">Per completare una richiesta fornitore, un contatto del fornitore deve completare la procedura guidata di registrazione del fornitore potenziale.</span><span class="sxs-lookup"><span data-stu-id="63e3e-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 
-<span data-ttu-id="c5df2-105">Nel modulo **Configurazioni richiesta fornitore**, è possibile creare profili che specificano i campi obbligatori e i campi visibili nella procedura guidata di registrazione del fornitore potenziale.</span><span class="sxs-lookup"><span data-stu-id="c5df2-105">In the **Vendor request configurations** form, you can create profiles that specify required fields and visible fields in the prospective vendor registration wizard.</span></span>
+<span data-ttu-id="63e3e-105">Nel modulo **Configurazioni richiesta fornitore**, è possibile creare profili che specificano i campi obbligatori e i campi visibili nella procedura guidata di registrazione del fornitore potenziale.</span><span class="sxs-lookup"><span data-stu-id="63e3e-105">In the **Vendor request configurations** form, you can create profiles that specify required fields and visible fields in the prospective vendor registration wizard.</span></span>
 
-<span data-ttu-id="c5df2-106">La procedura guidata per la registrazione del fornitore inizierà chiedendo al fornitore potenziale in quale paese opera il fornitore.</span><span class="sxs-lookup"><span data-stu-id="c5df2-106">The vendor registration wizard will start out by asking the prospective vendor user which country/region the vendor is doing business in.</span></span> <span data-ttu-id="c5df2-107">Queste informazioni consentono di determinare la configurazione applicabile.</span><span class="sxs-lookup"><span data-stu-id="c5df2-107">This information determines the applicable configuration.</span></span> <span data-ttu-id="c5df2-108">Se nessuna specifica configurazione è definita per un paese, verrà utilizzata una configurazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="c5df2-108">If no specific configuration is defined for a country/region, a default configuration will be used.</span></span>
+<span data-ttu-id="63e3e-106">La procedura guidata per la registrazione del fornitore inizierà chiedendo al fornitore potenziale in quale paese opera il fornitore.</span><span class="sxs-lookup"><span data-stu-id="63e3e-106">The vendor registration wizard will start out by asking the prospective vendor user which country/region the vendor is doing business in.</span></span> <span data-ttu-id="63e3e-107">Queste informazioni consentono di determinare la configurazione applicabile.</span><span class="sxs-lookup"><span data-stu-id="63e3e-107">This information determines the applicable configuration.</span></span> <span data-ttu-id="63e3e-108">Se nessuna specifica configurazione è definita per un paese, verrà utilizzata una configurazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="63e3e-108">If no specific configuration is defined for a country/region, a default configuration will be used.</span></span>
 
-### <a name="set-up-a-vendor-request-configuration"></a><span data-ttu-id="c5df2-109">Impostare una configurazione delle richieste fornitore</span><span class="sxs-lookup"><span data-stu-id="c5df2-109">Set up a vendor request configuration</span></span>
+### <a name="set-up-a-vendor-request-configuration"></a><span data-ttu-id="63e3e-109">Impostare una configurazione delle richieste fornitore</span><span class="sxs-lookup"><span data-stu-id="63e3e-109">Set up a vendor request configuration</span></span>
 
-<span data-ttu-id="c5df2-110">Per impostazione predefinita, è disponibile una configurazione fornitore nel modulo di configurazione delle richieste del fornitore.</span><span class="sxs-lookup"><span data-stu-id="c5df2-110">By default, there is a vendor configuration available in the Vendor request configurations form.</span></span>
+<span data-ttu-id="63e3e-110">Per impostazione predefinita, è disponibile una configurazione fornitore nel modulo di configurazione delle richieste del fornitore.</span><span class="sxs-lookup"><span data-stu-id="63e3e-110">By default, there is a vendor configuration available in the Vendor request configurations form.</span></span>
 
-<span data-ttu-id="c5df2-111">Non è possibile selezionare paesi per la configurazione predefinita, quindi la sezione **Paesi** non può essere modificata.</span><span class="sxs-lookup"><span data-stu-id="c5df2-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
+<span data-ttu-id="63e3e-111">Non è possibile selezionare paesi per la configurazione predefinita, quindi la sezione **Paesi** non può essere modificata.</span><span class="sxs-lookup"><span data-stu-id="63e3e-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
 
-1. <span data-ttu-id="c5df2-112">Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.</span><span class="sxs-lookup"><span data-stu-id="c5df2-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2. <span data-ttu-id="c5df2-113">Fare clic sulla scheda **Campi** per impostare lo stato dei campi elencati.</span><span class="sxs-lookup"><span data-stu-id="c5df2-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
-3. <span data-ttu-id="c5df2-114">Nascosto (non visibile)</span><span class="sxs-lookup"><span data-stu-id="c5df2-114">Hidden (Not visible)</span></span>
-4. <span data-ttu-id="c5df2-115">Visualizzato (visibile ma non obbligatorio)</span><span class="sxs-lookup"><span data-stu-id="c5df2-115">Displayed (Visible but not mandatory)</span></span>
-5. <span data-ttu-id="c5df2-116">Obbligatorio (visibile e obbligatorio)</span><span class="sxs-lookup"><span data-stu-id="c5df2-116">Required (Visible and mandatory)</span></span>
-6. <span data-ttu-id="c5df2-117">Fare clic sulla scheda **Contenuto** per specificare se il testo verrà visualizzato nella procedura guidata e se è necessario confermare che l'utente del fornitore potenziale deve accettarlo prima di continuare al passaggio successivo della procedura guidata.</span><span class="sxs-lookup"><span data-stu-id="c5df2-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="c5df2-118">L'accettazione verrà richiesta per tutti i termini e le condizioni che l'utente deve accettare per continuare.</span><span class="sxs-lookup"><span data-stu-id="c5df2-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
+1. <span data-ttu-id="63e3e-112">Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.</span><span class="sxs-lookup"><span data-stu-id="63e3e-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2. <span data-ttu-id="63e3e-113">Fare clic sulla scheda **Campi** per impostare lo stato dei campi elencati.</span><span class="sxs-lookup"><span data-stu-id="63e3e-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
+3. <span data-ttu-id="63e3e-114">Nascosto (non visibile)</span><span class="sxs-lookup"><span data-stu-id="63e3e-114">Hidden (Not visible)</span></span>
+4. <span data-ttu-id="63e3e-115">Visualizzato (visibile ma non obbligatorio)</span><span class="sxs-lookup"><span data-stu-id="63e3e-115">Displayed (Visible but not mandatory)</span></span>
+5. <span data-ttu-id="63e3e-116">Obbligatorio (visibile e obbligatorio)</span><span class="sxs-lookup"><span data-stu-id="63e3e-116">Required (Visible and mandatory)</span></span>
+6. <span data-ttu-id="63e3e-117">Fare clic sulla scheda **Contenuto** per specificare se il testo verrà visualizzato nella procedura guidata e se è necessario confermare che l'utente del fornitore potenziale deve accettarlo prima di continuare al passaggio successivo della procedura guidata.</span><span class="sxs-lookup"><span data-stu-id="63e3e-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="63e3e-118">L'accettazione verrà richiesta per tutti i termini e le condizioni che l'utente deve accettare per continuare.</span><span class="sxs-lookup"><span data-stu-id="63e3e-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
 
-<span data-ttu-id="c5df2-119">È inoltre possibile immettere un messaggio di conferma che viene visualizzato quando la procedura guidata è finalizzata e aggiungere uno o più questionari.</span><span class="sxs-lookup"><span data-stu-id="c5df2-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
+<span data-ttu-id="63e3e-119">È inoltre possibile immettere un messaggio di conferma che viene visualizzato quando la procedura guidata è finalizzata e aggiungere uno o più questionari.</span><span class="sxs-lookup"><span data-stu-id="63e3e-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
 
-### <a name="create-a-vendor-configuration-for-a-specific-countryregion"></a><span data-ttu-id="c5df2-120">Creare una configurazione del fornitore per un paese specifico</span><span class="sxs-lookup"><span data-stu-id="c5df2-120">Create a vendor configuration for a specific country/region</span></span>
-1.  <span data-ttu-id="c5df2-121">Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.</span><span class="sxs-lookup"><span data-stu-id="c5df2-121">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2.  <span data-ttu-id="c5df2-122">Fare clic su **Nuovo** per creare una nuova configurazione e immettere un nome per la configurazione.</span><span class="sxs-lookup"><span data-stu-id="c5df2-122">Click **New** to create a new configuration, and provide a name for the configuration.</span></span>
-3.  <span data-ttu-id="c5df2-123">Fare clic su **Salva**.</span><span class="sxs-lookup"><span data-stu-id="c5df2-123">Click **Save**.</span></span>
-4.  <span data-ttu-id="c5df2-124">Aprire la scheda **Paesi** per selezionare il paese per cui la configurazione deve essere utilizzata.</span><span class="sxs-lookup"><span data-stu-id="c5df2-124">Open the **Country/regions** tab to select the country/region that the configuration should be used for.</span></span>
-5.  <span data-ttu-id="c5df2-125">Completare la configurazione seguendo le indicazioni per la configurazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="c5df2-125">Complete the configuration by following the guidelines for the default configuration.</span></span>
+### <a name="create-a-vendor-configuration-for-a-specific-countryregion"></a><span data-ttu-id="63e3e-120">Creare una configurazione del fornitore per un paese specifico</span><span class="sxs-lookup"><span data-stu-id="63e3e-120">Create a vendor configuration for a specific country/region</span></span>
+1.  <span data-ttu-id="63e3e-121">Fare clic su **Approvvigionamento** > **Impostazione** > **Fornitori** e **Configurazioni richiesta fornitore**.</span><span class="sxs-lookup"><span data-stu-id="63e3e-121">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2.  <span data-ttu-id="63e3e-122">Fare clic su **Nuovo** per creare una nuova configurazione e immettere un nome per la configurazione.</span><span class="sxs-lookup"><span data-stu-id="63e3e-122">Click **New** to create a new configuration, and provide a name for the configuration.</span></span>
+3.  <span data-ttu-id="63e3e-123">Fare clic su **Salva**.</span><span class="sxs-lookup"><span data-stu-id="63e3e-123">Click **Save**.</span></span>
+4.  <span data-ttu-id="63e3e-124">Aprire la scheda **Paesi** per selezionare il paese per cui la configurazione deve essere utilizzata.</span><span class="sxs-lookup"><span data-stu-id="63e3e-124">Open the **Country/regions** tab to select the country/region that the configuration should be used for.</span></span>
+5.  <span data-ttu-id="63e3e-125">Completare la configurazione seguendo le indicazioni per la configurazione predefinita.</span><span class="sxs-lookup"><span data-stu-id="63e3e-125">Complete the configuration by following the guidelines for the default configuration.</span></span>
 
