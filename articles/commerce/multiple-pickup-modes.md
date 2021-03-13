@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594974"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053415"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Abilitare più modalità di consegna ritiro per gli ordini cliente
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 In Microsoft Dynamics 365 Commerce versione 10.0.16 e successive, le organizzazioni possono definire più modalità di consegna tra le quali gli acquirenti o gli addetti alle vendite possono scegliere quando creano un ordine che verrà ritirato in un negozio. In questo modo, le organizzazioni possono fornire più opzioni di ritiro ai propri acquirenti. Ad esempio, molti rivenditori ora offrono agli acquirenti la possibilità di scegliere tra il ritiro in negozio o il ritiro al piano strada per i loro ordini. Commerce supporta la configurazione di queste diverse modalità di consegna ritiro. Gli utenti possono quindi trarne vantaggio quando creano ordini cliente in qualsiasi canale di Commerce supportato (e-commerce, call center o negozio).
 
@@ -86,6 +85,3 @@ Quando sono disponibili più modalità di consegna ritiro per un canale, viene f
 ## <a name="considerations-for-distributed-order-management"></a>Considerazioni per la gestione di ordini distribuiti
 
 Le funzioni di [gestione ordini distribuiti (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce ignorano le righe di vendita contrassegnate per il ritiro in negozio. Queste funzionalità sono state aggiornate per garantire che le righe di vendita collegate alle modalità di consegna ritiro configurate ignorino la logica DOM e non vengano riallocate a un nuovo magazzino di evasione ordini.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

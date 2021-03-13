@@ -1,6 +1,6 @@
 ---
 title: Area di lavoro Elenco di controllo di convalida dati
-description: L'area di lavoro Elenco di controllo di convalida dati consente di tenere traccia dei processi di convalida dei dati tra società, aree e persone. L'elenco di controllo può essere utilizzato durante una nuova implementazione, dopo un aggiornamento o dopo una migrazione.
+description: L'area di lavoro Elenco di controllo di convalida dati consente di tenere traccia dei processi di convalida dei dati tra società, aree e persone.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,14 +14,14 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687577"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092333"
 ---
-# <a name="data-validation-checklist-workspace"></a>Area di lavoro Elenco di controllo di convalida dati
+# <a name="data-validation-checklist-workspace"></a>Area di lavoro elenco di controllo convalida dati
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,8 +39,7 @@ Le sezioni **Riepilogo** forniscono una panoramica del processo e includono indi
 
 Nella sezione **Attività e stato**, lo stato del progetto di convalida dati in generale viene visualizzato in diversi modi: stato in base alla persona giuridica, all'area e all'elenco attività. È inoltre possibile selezionare il filtro per visualizzare lo stato per una società specifica. Ciascuna scheda dello stato fornisce una scomposizione sia per percentuale che è stata completata sia per numero di attività rimanenti.
 
-L'Ultima scheda è per l'elenco dettagliato attività. Questo elenco include l'elenco completo delle attività.
-È possibile filtrare l'elenco attività in vari modi. Fare clic su **Modifica attività** per cambiare lo stato di un'attività o assegnare un'attività. Fare clic su **Allegati** per visualizzare gli allegati per un'attività.
+L'Ultima scheda è per l'elenco dettagliato attività. Questo elenco include l'elenco completo delle attività. È possibile filtrare l'elenco attività in vari modi. Fare clic su **Modifica attività** per cambiare lo stato di un'attività o assegnare un'attività. Fare clic su **Allegati** per visualizzare gli allegati per un'attività.
 
 Il nome dell'attività è un collegamento ipertestuale alla pagina a cui l'utente deve accedere per completare il lavoro. È possibile impostare il collegamento ipertestuale usando il campo **Nome voce di menu** quando si modifica o si crea un'attività dal modulo **Configura progetto di convalida dati**.
 
@@ -57,6 +56,3 @@ Per poter utilizzare l'area di lavoro **Elenco di controllo di convalida dati**,
 Le aree di attività si utilizzano per raggruppare attività di convalida dati in aree logiche di proprietà all'interno dell'organizzazione. Ad esempio, i gruppi Contabilità fornitori, Contabilità clienti, o Contabilità generale possono essere utilizzati come aree di attività.
 
 La voce di menu **Nome voce di menu** è associata all'impegno lavorativo dell'attività e può essere utilizzata per accedere direttamente alla pagina associata dal collegamento di attività nell'area di lavoro. Ad esempio, un'attività di convalida dati che esegue il report **Aging contabilità fornitori** per la contabilità fornitori può essere collegata alla pagina del report **Aging contabilità fornitori**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

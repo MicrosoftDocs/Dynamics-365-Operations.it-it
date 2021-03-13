@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI sulle metriche della forza lavoro
-description: In questo argomento viene descritto il contenuto Power BI Metriche forza lavoro. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo argomento viene descritto il contenuto Power BI Metriche forza lavoro.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687353"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092793"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenuto Power BI sulle metriche della forza lavoro
 
@@ -86,6 +86,3 @@ Nella tabella seguente vengono illustrate le entità su cui si è basato il cont
 | Tendenza del dipendente           | Lavoratori nel tempo, numero di dipendenti, società e posizione                                 | Società, Località geografica, Nome del dipendente, Subordinato a, Offset di calendario, Data, Posizione del dipendente, Dati demografici, Impiego, Mansione |
 | Progetto di assunzione collettiva        | Numero di progetti di assunzione collettiva, proprietario del progetto e stato del progetto                     | Società, Riga assunzione collettiva |
 | Riga assunzione collettiva           | Reparto, tipo di impiego e posizione                                           | Data, mansione, progetto di assunzione collettiva |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

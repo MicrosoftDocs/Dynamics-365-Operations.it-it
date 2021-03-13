@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI per prestazioni di magazzino
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI per prestazioni di magazzino.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687403"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092818"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di magazzino
 
@@ -111,6 +111,3 @@ Le seguenti misure aggregazione chiave vengono utilizzate come base del contenut
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

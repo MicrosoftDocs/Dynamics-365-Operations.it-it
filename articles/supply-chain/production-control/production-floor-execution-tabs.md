@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664274"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077580"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
 
@@ -57,7 +56,7 @@ Per creare e configurare una nuova scheda, effettuare le seguenti operazioni:
 1. Effettuare le seguenti impostazioni nell'intestazione della pagina:
 
     - **Nome scheda** - Specificare un nome per la scheda.
-    - **Visualizzazione principale** - Selezionare tra i due elenchi di processi predefiniti (*Processi attivi* o *Tutti i processi*).
+    - **Visualizzazione principale** - Selezionare tra i due elenchi di processi predefiniti (*Processi attivi*, *Tutti i processi* o *Macchina personale*).
     - **Visualizzazione dei dettagli** - Selezionare tra un valore vuoto o **Dettagli processo**. Se si seleziona il valore vuoto, non ci sarà una visualizzazione dettagliata nella scheda. Se si seleziona **Dettagli processo**, la visualizzazione dettagliata conterrà una descrizione dettagliata del processo selezionato nell'elenco dei processi nella visualizzazione principale.
 
 1. Nella sezione **Barra degli strumenti principale** scegliere quali pulsanti devono essere disponibili nella barra degli strumenti principale. La colonna **Azioni disponibili** mostra un elenco di tutti i pulsanti che possono essere aggiunti. Le colonne **Azioni selezionate** mostrano un elenco di tutti i pulsanti inclusi nella configurazione corrente. Utilizzare i pulsanti tra le colonne per spostare gli elementi selezionati tra le colonne secondo necessità. Utilizzare i pulsanti su e giù accanto alla colonna **Azioni selezionate** per controllare l'ordine in cui i pulsanti vengono presentati nell'interfaccia utente.
@@ -79,6 +78,3 @@ Dopo aver progettato tutte le schede necessarie, è possibile associarle a una c
 1. Continuare ad aggiungere altre schede secondo necessità.
 
 1. Utilizzare i pulsanti **Sposta su** e **Sposta giù** sulla barra degli strumenti per disporre le schede secondo necessità. Le schede verranno visualizzate da sinistra a destra nell'ordine mostrato nella schermata sopra (la scheda in alto è mostrata a sinistra).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

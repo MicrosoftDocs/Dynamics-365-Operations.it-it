@@ -3,7 +3,7 @@ title: Visualizzazioni salvate
 description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693703"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077451"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introduzione
 
@@ -123,12 +124,14 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
 1. Creare e salvare una copia personale della visualizzazione che si intende pubblicare. 
 2. Con quella visualizzazione attualmente caricata, selezionare il nome della visualizzazione per aprire il menu a discesa del selettore di visualizzazioni. 
 3. Selezionare il pulsante **Altro**, quindi selezionare **Pubblica**. Viene visualizzata la finestra di dialogo Pubblica.
-4. Immettere un nome di visualizzazione ed eventualmente una descrizione della visualizzazione. Questo è il nome che gli utenti che ricevono la visualizzazione vedranno nei relativi selettori di visualizzazioni. I nomi delle visualizzazioni pubblicate per una pagina devono essere univoci. Non sono consentiti nomi duplicati, anche se l'elenco dei ruoli o delle persone giuridiche a cui le visualizzazioni sono applicate differisce.
-5. **Versione 10.0.9 e successive:** determinare se la visualizzazione deve essere pubblicata come visualizzazione predefinita per gli utenti selezionati. Quando una visualizzazione viene impostata come predefinita, gli utenti la vedranno la prossima volta che apriranno la pagina di destinazione. La visualizzazione predefinita globale singola di ogni utente interessato verrà modificata. Tuttavia, gli utenti possono comunque modificare la visualizzazione predefinita dopo la pubblicazione.
-6. Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione. 
-7. **Versione 10.0.13 e successive:** determinare se si desidera pubblicare la visualizzazione nei ruoli figlio di ciascun ruolo di sicurezza selezionato. In tal caso, selezionare la casella di controllo **Includi ruoli figlio** nella riga per i ruoli di sicurezza appropriati. Questa casella di controllo non è disponibile per i ruoli che non hanno ruoli figlio.
-7. Aggiungere le persone giuridiche per cui la visualizzazione deve essere disponibile. 
-8. Selezionare **Pubblica**
+4. Immettere un nome per la visualizzazione. Questo è il nome che gli utenti che ricevono la visualizzazione vedranno nei relativi selettori di visualizzazioni. I nomi delle visualizzazioni pubblicate per una pagina devono essere univoci. Non sono consentiti nomi duplicati, anche se l'elenco dei ruoli o delle persone giuridiche a cui le visualizzazioni sono applicate differisce.
+5. **Aggiornamento 10.0.17 o successive:** se la funzionalità **(Anteprima) Supporto alla traduzione per le visualizzazioni dell'organizzazione** è attivata, è possibile aggiungere traduzioni per il nome della visualizzazione in tutte le lingue richieste dalla propria organizzazione selezionando il pulsante **Traduzioni** accanto al campo **Nome**. Il nome della visualizzazione verrà quindi mostrato agli utenti nella loro lingua corrente. È inoltre possibile impostare la lingua predefinita per specificare la traduzione che verrà mostrata agli utenti che utilizzano lingue per le quali non è definita alcuna traduzione.
+5. Facoltativo: immettere una descrizione per la visualizzazione, in modo che gli utenti che ricevono questa visualizzazione possano comprenderne meglio lo scopo. 
+6. Determinare se la visualizzazione deve essere pubblicata come visualizzazione predefinita per gli utenti selezionati. Quando una visualizzazione viene impostata come predefinita, gli utenti la vedranno la prossima volta che apriranno la pagina di destinazione. La visualizzazione predefinita globale singola di ogni utente interessato verrà modificata. Tuttavia, gli utenti possono comunque modificare la visualizzazione predefinita dopo la pubblicazione.
+7. Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione. 
+8. Determinare se si desidera pubblicare la visualizzazione nei ruoli figlio di ciascun ruolo di sicurezza selezionato. In tal caso, selezionare la casella di controllo **Includi ruoli figlio** nella riga per i ruoli di sicurezza appropriati. Questa casella di controllo non è disponibile per i ruoli che non hanno ruoli figlio.
+9. Aggiungere le persone giuridiche per cui la visualizzazione deve essere disponibile. 
+10. Selezionare **Pubblica**
 
 Da notare che in alcuni ambienti la visualizzazione pubblicata sarà visibile solo dopo un certo tempo (fino a un'ora).
 
@@ -146,27 +149,15 @@ Se le modifiche che si desidera apportare a una visualizzazione pubblicata sono 
 1. Passare alla visualizzazione pubblicata per i parametri che si desidera aggiornare. 
 2. Selezionare **Ripubblica** dal menu a discesa del selettore di visualizzazioni. Se si utilizza la versione 10.0.12 o precedente, è necessario selezionare **Pubblica** e poi **Sì** per aggiornare la visualizzazione esistente.
 3. Aggiornare il nome, la descrizione, i ruoli di sicurezza e le persone giuridiche della visualizzazione. 
-4. Selezionare **Pubblica** 
-5. **Versione 10.0.8 e precedenti:** se è stato aggiornato il nome della visualizzazione pubblicata, è necessario anche eliminare la visualizzazione pubblicata che ha il vecchio nome. Per altre informazioni, vedere la sezione [Gestione delle visualizzazioni salvate](saved-views.md#managing-published-views).
+4. Selezionare **Pubblica** Se in origine è stata selezionata questa visualizzazione pubblicata come visualizzazione predefinita, sarà nuovamente la visualizzazione predefinita per gli utenti dopo averla ripubblicata. 
 
-**Versione 10.0.9 e successive:** se in origine è stata selezionata questa visualizzazione pubblicata come visualizzazione predefinita, sarà nuovamente la visualizzazione predefinita per gli utenti dopo averla ripubblicata.
-
-Se le modifiche apportate alla visualizzazione pubblicata comportano la modifica delle personalizzazioni o dei filtri associati alla visualizzazione, procedere come segue: 
-
-**Versione 10.0.13 e successive:** apportare le modifiche richieste direttamente alla visualizzazione. Un asterisco (\*) dovrebbe apparire accanto al nome della visualizzazione.
+Se le modifiche apportate alla visualizzazione pubblicata comportano la modifica delle personalizzazioni o dei filtri associati alla visualizzazione, procedere come segue:
 
 1. Caricare la visualizzazione pubblicata che si desidera modificare. 
 2. Apportare le modifiche necessarie alla bozza locale.
 3. Selezionare **Ripubblica** dal menu a discesa del selettore di visualizzazioni.
 4. Selezionare **Sì** per indicare che si desidera pubblicare la visualizzazione insieme alle modifiche non salvate. 
 5. Regolare tutti i parametri di pubblicazione che richiedono una regolazione, quindi selezionare **Pubblica**. 
-
-**Versione 10.0.12 e precedenti**
-
-1. Caricare la visualizzazione pubblicata che si desidera modificare. 
-2. Salvare una copia della visualizzazione pubblicata per crearne una bozza locale. 
-3. Modificare la bozza locale con le modifiche necessarie.
-4. Pubblicare la visualizzazione con il nome originale. 
 
 ## <a name="managing-published-views"></a>Gestione di visualizzazioni pubblicate
 
@@ -179,20 +170,20 @@ Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a dispo
 - **Ripubblica**: utilizzare l'azione **Ripubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
 - **Pubblica**: utilizzare l'azione **Pubblica** per pubblicare una visualizzazione attualmente non pubblicata. 
 - **Annulla pubblicazione**: utilizza l'azione **Annulla pubblicazione** per rendere inattiva una visualizzazione. La visualizzazione sarà ancora disponibile nel sistema, ma gli utenti non la vedranno nel selettore di visualizzazione fino a quando non verrà nuovamente pubblicata.
-- **Salva come personale**: utilizzare l'azione **Salva come personale** per creare una bozza personale della visualizzazione pubblicata. Questa funzionalità consente di comprendere i contenuti di una visualizzazione non pubblicata o che non è stata ancora pubblicata. È possibile usarla per modificare e quindi ripubblicare una visualizzazione. Questa funzionalità è stata introdotta nella versione 10.0.12.
+- **Salva come personale**: utilizzare l'azione **Salva come personale** per creare una bozza personale della visualizzazione pubblicata. Questa funzionalità consente di comprendere i contenuti di una visualizzazione non pubblicata o che non è stata ancora pubblicata. È possibile usarla per modificare e quindi ripubblicare una visualizzazione.
 - **Elimina**: utilizzare l'azione **Elimina** per eliminare definitivamente una visualizzazione pubblicata o con pubblicazione annullata. Questa azione rimuove anche la visualizzazione per tutti gli utenti del sistema. La rimozione delle visualizzazione pubblicate avrà effetto dopo la selzione del pulsante **Salva**. Una volta eliminata, una visualizzazione non può essere recuperata. 
 
 ## <a name="managing-views-globally"></a>Gestire globalmente le visualizzazioni
 
 Sebbene alcune funzionalità di gestione siano presenti in ogni pagina, come indicato in questo argomento, gli **amministratori di sistema** e gli **amministratori di visualizzazioni salvate** possono gestire le visualizzazioni in modo più olistico per il sistema tramite la pagina **Personalizzazione**. In particolare, questa pagina presenta le seguenti sezioni e funzionalità: 
 
-- **Visualizzazioni pubblicate** - Questa sezione elenca tutte le visualizzazioni che sono state pubblicate per l'organizzazione. Da qui, è possibile ripubblicare una visualizzazione dopo aver modificato i ruoli di sicurezza o le persone giuridiche a cui è destinata la visualizzazione. È possibile anche esportare, eliminare o annullare la pubblicazione di queste visualizzazioni. Nella versione 10.0.12 e successive, è possibile utilizzare l'azione **Salva come personale** per creare una copia personale della visualizzazione, in modo da poter aggiornare la visualizzazione o ottenere una migliore comprensione del relativo contenuto. 
-- **Visualizzazioni non pubblicate**: questa sezione elenca tutte le visualizzazioni dell'organizzazione nel tuo sistema che non sono attualmente pubblicate. Queste visualizzazioni vengono spesso inserite nel sistema tramite la funzionalità di importazione. È possibile pubblicare, esportare o eliminare queste visualizzazioni. L'azione **Pubblicazione rapida** aggiunta nella versione 10.0.12 consente di pubblicare più visualizzazioni da questa sezione in un'unica azione, utilizzando il ruolo di sicurezza esistente e le configurazioni della persona giuridica. Nella versione 10.0.12 e successive, è possibile utilizzare l'azione **Salva come personale** per creare copie personali di queste visualizzazioni, in modo da ottenere una migliore comprensione del relativo contenuto.
+- **Visualizzazioni pubblicate** - Questa sezione elenca tutte le visualizzazioni che sono state pubblicate per l'organizzazione. Da qui, è possibile ripubblicare una visualizzazione dopo aver modificato i ruoli di sicurezza o le persone giuridiche a cui è destinata la visualizzazione. È possibile anche esportare, eliminare o annullare la pubblicazione di queste visualizzazioni. È possibile utilizzare l'azione **Salva come personale** per creare una copia personale della visualizzazione, in modo da poter aggiornare la visualizzazione o ottenere una migliore comprensione del relativo contenuto. 
+- **Visualizzazioni non pubblicate**: questa sezione elenca tutte le visualizzazioni dell'organizzazione nel tuo sistema che non sono attualmente pubblicate. Queste visualizzazioni vengono spesso inserite nel sistema tramite la funzionalità di importazione. È possibile pubblicare, esportare o eliminare queste visualizzazioni. L'azione **Pubblicazione rapida** aggiunta nella versione 10.0.12 consente di pubblicare più visualizzazioni da questa sezione in un'unica azione, utilizzando il ruolo di sicurezza esistente e le configurazioni della persona giuridica. È possibile utilizzare l'azione **Salva come personale** per creare copie personali di queste visualizzazioni, in modo da ottenere una migliore comprensione del relativo contenuto.
 - **Visualizzazioni personali** - Questa sezione elenca tutte le visualizzazioni che sono state create dagli utenti nel sistema. Da qui, è possibile pubblicare una visualizzazione personale nell'organizzazione o copiare una o più visualizzazioni per altri utenti. È anche possibile esportare o eliminare queste visualizzazioni, secondo le necessità.
 - **Impostazioni utente**: selezionare un utente da visualizzare o regolare la capacità dell'utente di utilizzare la personalizzazione per l'intero sistema o per pagine specifiche che l'utente ha visitato. È possibile visualizzare e interagire con le personalizzazioni dell'utente nel sistema. Puoi anche eliminare tutte le personalizzazioni per quell'utente o ripristinare i callout delle funzionalità per l'utente. Se i callout della funzionalità vengono reimpostati, e l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
 - **Impostazioni di sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, non vengono applicate personalizzazioni agli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
 
-Gli utenti che hanno accesso alla pagina **Personalizzazione** possono anche importare le visualizzazioni dell'organizzazione o personali tramite il pulsante **Importa visualizzazioni** nel riquadro azioni. Nella versione 10.0.12 e successive, è stato aggiunto un meccanismo per pubblicare immediatamente le visualizzazioni quando vengono importate.
+Gli utenti che hanno accesso alla pagina **Personalizzazione** possono anche importare le visualizzazioni dell'organizzazione o personali tramite il pulsante **Importa visualizzazioni** nel riquadro azioni. Per le visualizzazioni dell'organizzazione, puoi selezionare **Pubblica immediatamente** per rendere le visualizzazioni disponibili agli utenti senza un'ulteriore pubblicazione esplicita.
 
 ## <a name="known-issues"></a>Problemi noti
 Per un elenco di problemi noti con le visualizzazioni salvate, vedere [Creare moduli che utilizzano appieno le visualizzazioni salvate](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +195,7 @@ Per un elenco di problemi noti con le visualizzazioni salvate, vedere [Creare mo
 > [!NOTE]
 > Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finance and Operations per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
 
-**Versione 10.0.13 e successive**
-
-La funzionalità **Visualizzazioni salvate** non è più in anteprima. Ora è disponibile direttamente tramite la gestione delle funzionalità in qualsiasi ambiente.
-
-**Versioni dalla 10.0.9 alla 10.0.12**
-
-La funzionalità **Visualizzazioni salvate** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come per altre funzionalità di anteprima, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8 / Platform update 32 e precedenti**
-
-La funzionalità **Visualizzazioni salvate** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
-
-1. **Abilitare l'anteprima**: Eseguire la seguente istruzione SQL: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Reimpostare IIS** per liberare la cache statica delle versioni di anteprima. 
-3. **Individuare la funzionalità**: spostarsi nell'area di lavoro **Gestione funzionalità**. Se **Visualizzazioni salvate** non appare nell'elenco, selezionare il pulsante **Controlla aggiornamenti**.
-4. **Abilitare la funzionalità**: Individuare la funzionalità **Visualizzazioni salvate** nell'elenco delle funzionalità e selezionare **Abilita ora** nel riquadro dei dettagli.
-
-Tutte le sessioni utente successive verranno avviate con le visualizzazioni salvate abilitate.
+Puoi attivare e disattivare la funzionalità **Visualizzazioni salvate** tramite la gestione delle funzionalità in qualsiasi ambiente. Dopo l'attivazione, le visualizzazioni salvate verranno abilitate in tutte le sessioni utente successive.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Cosa succede alle personalizzazioni esistenti quando le visualizzazioni vengono abilitate? 
 
@@ -253,6 +224,3 @@ Per le pagine con grandi selettori di visualizzazione (personalizzazioni e query
 
 - Se si passa da un riquadro a una pagina, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Se quel riquadro è stato creato dopo aver abilitato le visualizzazioni, la selezione di un riquadro aprirà la pagina con la visualizzazione associata a quel riquadro.
 - Se si accede a una pagina e quel punto di ingresso include una query, la query originale verrà eseguita al posto della query della visualizzazione predefinita. Quando ciò avviene, si verrà avvisati mediante un messaggio informativo durante il caricamento della visualizzazione. È inoltre possibile confermare passando a questa visualizzazione dopo il caricamento della pagina, in quanto la visualizzazione della query dovrebbe essere eseguita.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

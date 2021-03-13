@@ -1,6 +1,6 @@
 ---
 title: 'ER Usare file di gestione documenti in output di formato (Parte 5: modificare ed eseguire il formato)'
-description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
+description: In questo argomento viene descritto come configurare un formato di reporting elettronico (ER) per utilizzare i file di gestione dei documenti (allegati) nell'output ER. (Parte 5)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b949c2629df0e9db8c11322c9d0d090b200edc2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f96189163d5ecac47ade9f713b3fd689e41352d0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681759"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092490"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Usare file di gestione documenti in output di formato (Parte 5: modificare ed eseguire il formato)
 
@@ -96,6 +96,3 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 7. Fare clic su OK.
     * Esaminare l'output generato. Si noti che, oltre al messaggio della fattura in formato XML, un singolo file è stato creato per ciascun allegato. I file degli allegati vengono popolati con l'output compresso in formato binario.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

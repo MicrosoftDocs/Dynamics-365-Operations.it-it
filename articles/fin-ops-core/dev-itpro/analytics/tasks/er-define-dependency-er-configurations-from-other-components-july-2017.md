@@ -1,6 +1,6 @@
 ---
-title: Definire la dipendenza delle configurazioni ER da altri componenti
-description: Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
+title: Definire la dipendenza delle configurazioni ER in altri componenti
+description: Questo argomento descrive come progettare una configurazione di creazione di report elettronici (ER) e specificarne la dipendenza da altri componenti software.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681975"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092152"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER da altri componenti
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER in altri componenti
 
 [!include [banner](../../includes/banner.md)]
 
@@ -46,8 +46,8 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 5. Fare clic su Nuovo.
 6. Selezionare il componente prerequisito del prodotto.
 7. Selezionare Microsoft Dynamics 365 for Operations (1611).
-8. Nel campo Versione digitare "[7.1.1541.3036,8)".
-    * [7.1.1541.3036,8)  
+8. Nel campo Versione digitare "[7.1.1541.3036,8]".
+    * [7.1.1541.3036,8]  
     * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
 9. Fare clic su Salva.
 10. Chiudere la pagina.
@@ -59,8 +59,8 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 16. Fare clic su Nuovo.
 17. Selezionare il componente prerequisito del prodotto.
 18. Selezionare Microsoft Dynamics AX 7.0 RTW.
-19. Nel campo Versione digitare "[7.0.1265.3015,7.1)".
-    * [7.0.1265.3015,7.1)  
+19. Nel campo Versione digitare "[7.0.1265.3015,7.1]".
+    * [7.0.1265.3015,7.1]  
     * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
 20. Fare clic su Salva.
 21. Chiudere la pagina.
@@ -139,6 +139,3 @@ Le configurazioni create dal sistema verranno eliminate e scaricate nuovamente d
 26. Nella struttura espandere "Sample data model".
     * Si noti che la configurazione di mapping "Mapping di esempio" del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
     * Se si accede a Finance and Operations, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

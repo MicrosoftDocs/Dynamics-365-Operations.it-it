@@ -1,6 +1,6 @@
 ---
 title: ER Usare file di gestione documenti in output di formato (parte 3 - creare il formato)
-description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
+description: In questo argomento viene descritto come configurare un formato di reporting elettronico per utilizzare i file di gestione dei documenti nell'output ER. (Parte 3)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 432cf4c41a7a223ab07b02edf6da7eac9965cff0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681855"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092618"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER Usare file di gestione documenti in output di formato (parte 3 - creare il formato)
 
@@ -119,6 +119,3 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 23. Fare clic su Salva.
 24. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Organizzare i componenti del report in Progettazione report
-description: Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
+description: In questo argomento viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685813"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092425"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizzare i componenti del report in Progettazione report
 
@@ -148,6 +148,3 @@ Solo le impostazioni del periodo di base predefinito vengono salvate con la defi
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

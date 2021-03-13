@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444835"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044023"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
@@ -67,14 +66,14 @@ Nella figura seguente viene mostrata una definizione di colonna nel formato affi
 ![Definizione di colonna in un formato affiancato](./media/column-definition-side-by-side-format.png "Definizione di colonna in un formato affiancato")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidamenti che utilizzano strutture organizzative create da persone giuridiche
-Le gerarchie organizzative che contengono dimensioni o persone giuridiche creano dinamicamente definizioni di albero gerarchico nei report finanziari. Un metodo facile per semplificare i consolidamenti consiste nell'aggiungere una gerarchia organizzativa al report nella creazione di report finanziari. In base alla data del report, la funzionalità di creazione di report finanziari selezionerà la gerarchia organizzativa alla data effettiva o prima di questa data, come illustrato nella figura seguente.
+Le gerarchie organizzative che contengono dimensioni o persone giuridiche creano dinamicamente definizioni di albero gerarchico nei report finanziari. Un metodo facile per semplificare i consolidamenti consiste nell'aggiungere una gerarchia organizzativa al report nella creazione di report finanziari. In base alla data del report, Financial Reporting selezionerà la gerarchia organizzativa alla data effettiva o prima di questa data, come illustrato nella figura seguente.
 
 ![Creare dinamicamente una definizione di albero gerarchico](./media/dynamically-create-reporting-tree-definitions.png "Creare dinamicamente una definizione di albero gerarchico")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidamenti che implicano eliminazioni
 Le transazioni di eliminazione sono una parte comune del processo di consolidamento. In questo esempio vengono eliminati cinque conti durante il consolidamento: 142600, 211400, 401420, 401180 e 510820. Le società possono impostare diversamente i relativi conti interaziendali. Ad esempio, alcune società impostano l'ultima cifra su 9 se il conto viene utilizzato nelle transazioni interaziendali. Indipendentemente dal metodo, se si conoscono i conti interaziendali, è possibile mostrare le eliminazioni nei rendiconti finanziari consolidati.
 
-Nella figura seguente viene illustrata una definizione di colonna per un conto economico consolidato. Tre conti interaziendali profitti e perdite vengono definiti per ogni società mediante il filtro dimensioni. La colonna D include i conti di eliminazione solo per la società USMF e la colonna E include le eliminazioni solo per la società DEMF. Sia la colonna D che la colonna E sono impostate in modo che **non** vengano stampate nel rendiconto finanziario.
+Nella figura seguente viene illustrata una definizione di colonna per un conto economico consolidato. Tre conti interaziendali profitti e perdite vengono definiti per ogni società mediante il filtro dimensioni. Le colonne F, G e H includono i conti di eliminazione solo per le società USMF, USRT e DEMF. Le colonne sono impostate in modo che **non** vengano stampate nel rendiconto finanziario.
 
 ![Conto economico consolidato con definizione di colonna](./media/column-definition-consolidated-income-statement.png "Conto economico consolidato con definizione di colonna")
 
@@ -224,6 +223,3 @@ Per ottenere la conversione corretta degli importi quando si utilizzano le valut
 Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

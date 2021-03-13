@@ -1,6 +1,6 @@
 ---
 title: RE Progettare il modello dati specifico di dominio
-description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici che contiene un modello dati per i documenti di pagamento elettronico.
+description: Questo argomento descrive come creare una nuova configurazione di reporting elettronico (ER) che contiene un modello di dati per i documenti di pagamento elettronico.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681951"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092693"
 ---
 # <a name="er-design-domain-specific-data-model"></a>RE Progettare il modello dati specifico di dominio
 
@@ -187,6 +187,3 @@ Si sta creando un nuovo modello dati per la configurazione selezionata. Questa v
 65. Fare clic su Salva.
 66. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

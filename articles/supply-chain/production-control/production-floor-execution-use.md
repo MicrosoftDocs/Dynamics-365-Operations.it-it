@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4431458"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077633"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -41,7 +40,7 @@ Le sezioni rimanenti di questo argomento descrivono il modo in cui i lavoratori 
 
 ## <a name="all-jobs-tab"></a>Scheda Tutti i processi
 
-La scheda **Tutti i processi** fornisce un elenco che mostra tutti i processi di produzione che hanno uno stato di *Non avviato*, *Arrestato* o *Avviato*.
+La scheda **Tutti i processi** fornisce un elenco che mostra tutti i processi di produzione che hanno uno stato di *Non avviato*, *Arrestato* o *Avviato*. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
 
 ![Scheda Tutti i processi](media/pfei-all-jobs-tab.png "Scheda Tutti i processi")
 
@@ -60,9 +59,11 @@ L'elenco dei processi ha le seguenti colonne. I numeri corrispondono ai numeri d
 
 ## <a name="active-jobs-tab"></a>Scheda Processi attivi
 
+La scheda **Processi attivi** mostra un elenco di tutti i lavori che il lavoratore che ha effettuato l'accesso ha già avviato. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
+
 ![Scheda Processi attivi](media/pfei-active-jobs-tab.png "Scheda Processi attivi")
 
-L'elenco dei processi nella scheda **Processi attivi** ha le seguenti colonne:
+L'elenco dei processi attivi include le seguenti colonne:
 
 - **Colonna di selezione** - La colonna più a sinistra utilizza segni di spunta per indicare i processi che sono stati selezionati dal lavoratore. I lavoratori possono selezionare più processi nell'elenco contemporaneamente. Per selezionare tutti i processi nell'elenco, selezionare il segno di spunta nell'intestazione della colonna. Quando viene selezionato un singolo processo, i dettagli su quel processo vengono visualizzati nella parte inferiore della pagina.
 - **Ordine** - Questa colonna mostra il numero dell'ordine di produzione per un processo.
@@ -72,6 +73,28 @@ L'elenco dei processi nella scheda **Processi attivi** ha le seguenti colonne:
 - **Completato** - Questa colonna mostra la quantità che è già stata completata per un processo.
 - **Scartato** - Questa colonna mostra la quantità che è già stata scartata per un processo.
 - **Rimanente** - Questa colonna mostra la quantità che resta da completare per un processo.
+
+## <a name="my-machine-tab"></a>Scheda Macchina personale
+
+La scheda **Macchina personale** consente ai lavoratori di selezionare un cespite connesso a una risorsa di tipo macchina all'interno del filtro impostato nella scheda **Tutti i processi**. Il lavoratore può quindi visualizzare lo stato e l'integrità del cespite selezionato leggendo i valori per un massimo di quattro contatori selezionati e gli elenchi delle recenti richieste di manutenzione e dei tempi di fermo registrati. Il lavoratore può anche richiedere la manutenzione per il cespite selezionato e registrare e modificare i tempi di fermo macchina. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
+ 
+![Scheda Macchina personale](media/pfei-my-machine-tab.png "Scheda Macchina personale")
+
+La scheda **Macchina personale** include le seguenti colonne. I numeri corrispondono ai numeri della precedente figura.
+
+1. **Cespite macchina** - Seleziona il cespite di tipo macchina che desideri monitorare. Inizia a digitare un nome per selezionare da un elenco di cespiti di tipo macchino oppure seleziona l'icona della lente di ingrandimento per selezionare da un elenco di tutti i cespiti associati alle risorse che si trovano nel filtro dell'elenco dei processi.
+
+    > [!NOTE]
+    > Gli utenti di Supply Chain Management possono assegnare una risorsa a ciascun cespite in base alle esigenze utilizzando la pagina **Tutti i cespiti** pagina (nella scheda **Cespite**, utilizzando il menu a discesa **Risorsa**). Per ulteriori informazioni, vedere [Creare un cespite](../asset-management/objects/create-an-object.md).
+
+1. **Impostazioni** - Seleziona l'icona dell'ingranaggio per aprire una finestra di dialogo in cui è possibile scegliere quali contatori visualizzare per il cespite di tipo macchina selezionato. I valori di questi contatori sono visualizzati nella parte superiore della scheda **Gestione cespiti** tab. Il menu **Impostazioni** (mostrato nella schermata seguente) consente di abilitare fino a quattro contatori. Per ogni contatore che desideri abilitare, utilizza il campo di ricerca nella parte superiore del riquadro per selezionare un contatore. Il campo di ricerca elenca tutti i contatori associati al cespite selezionato nella parte superiore della pagina **Gestione cespiti**. Imposta ogni contatore per monitorare il valore **Aggregato** valore o il valore **Effettivo** più recente per il contatore. Ad esempio, se imposti un contatore che tiene traccia del numero di ore di funzionamento della macchina, dovresti impostarlo su **Aggregato**. Se imposti un contatore per misurare l'ultima temperatura o pressione aggiornata, dovresti impostarlo su **Effettivo**. Selezionare **OK** per salvare le impostazioni e chiudere la finestra di dialogo.
+
+    ![Scheda Macchina personale](media/pfei-my-machine-tab-settings.png "Scheda Macchina personale")
+
+1. **Richiedi manutenzione** - Seleziona questo pulsante per aprire una finestra di dialogo in cui puoi creare una richiesta di manutenzione. Sarai in grado di fornire una descrizione e una nota. La richiesta verrà portata all'attenzione di un utente di Supply Chain Management, che potrà poi convertire la richiesta di manutenzione in un ordine di lavoro di manutenzione.
+1. **Registra tempo di inattività** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile registrare i tempi di fermo macchina. Potrai selezionare un codice motivo e inserire una data/un intervallo di tempo per il tempo di inattività. La registrazione dei tempi di fermo macchina viene utilizzata per calcolare l'efficienza del cespite di tipo macchina.
+1. **Visualizza o modifica** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile modificare o visualizzare i record dei tempi di inattività esistenti.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Avvio e completamento dei processi di produzione
 
@@ -124,7 +147,7 @@ Ad esempio, Shannon, una lavoratrice del reparto produzione presso Contoso, desi
 
 In entrambi gli scenari, dopo che Shannon ha confermato la sua selezione, va alla pagina di accesso o a una pagina che attende la conferma di essere tornata dalla sua attività indiretta. La pagina che appare dipende dalla configurazione dell'interfaccia di esecuzione dell'area di produzione. (Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Utilizzo delle pause
+## <a name="registering-breaks"></a>Pause registrazione
 
 I lavoratori possono registrare le pause. Le pause possono essere definite in modo flessibile, come descritto in [Retribuzione basata sulle registrazioni](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ I lavoratori possono aprire un documento allegato a un processo selezionando **I
 1. Il lavoratore utilizza la guida per apprendere come eseguire l'attività.
 
 Per ulteriori informazioni su come creare, assegnare e utilizzare le guide per HoloLens, vedere [Fornire guide di realtà mista per i lavoratori in produzione](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

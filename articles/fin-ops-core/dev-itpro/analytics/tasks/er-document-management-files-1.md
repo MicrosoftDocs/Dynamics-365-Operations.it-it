@@ -1,6 +1,6 @@
 ---
 title: 'ER Usare file di gestione documenti in output di formato (Parte 1: Preparare il modello dati)'
-description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che utilizzi i file (allegati) di gestione documenti nell'output della creazione di report elettronici.
+description: In questo argomento viene descritto come configurare un formato di reporting elettronico (ER) per utilizzare i file di gestione dei documenti (allegati) nell'output ER. (Parte 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bff518c60f0f36bdc88245d79bd82f0c4d0599ed
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681830"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092643"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Usare file di gestione documenti in output di formato (Parte 1: Preparare il modello dati)
 
@@ -74,6 +74,3 @@ Si creerà una propria configurazione del modello fattura cliente derivandola da
 3. Nel campo Nome digitare 'Modello fattura cliente (personalizzato)'.
 4. Fare clic su Crea configurazione.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

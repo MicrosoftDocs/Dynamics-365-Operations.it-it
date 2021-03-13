@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669174"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080040"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 2 dicembre 2020
 
@@ -61,7 +60,7 @@ Questa versione include le seguenti correzioni di bug.
 | 514087 | BenefitEligibilityProcessResult deve includere il datetime utilizzato nell'elaborazione. | Il risultato dell'elaborazione di BenefitEligibity ora include il datetimestamp dell'ultima elaborazione che mancava in precedenza. |
 | 526903 | La registrazione ai benefit non riesce per i piani con dipendenti quando **Seleziona automaticamente i beneficiari designati** è attivato in **Parametri condivisi delle risorse umane**. | Risolto il problema a causa del quale la registrazione ai benefit non riusciva per i dipendenti quando l'opzione **Seleziona automaticamente i beneficiari designati** è attivata per i beneficiari predefiniti. |
 | 521922 | Il parametro **Mostra assenza senza dettagli** mostra i dettagli delle richieste di permesso nel calendario delle assenze del team. | Il tipo di congedo, il colore del tipo di congedo e i dettagli del giorno venivano mostrati nel calendario delle assenze del team quando **Mostra assenza senza dettagli** era impostato su **Sì** in **Parametri di congedi e assenze**. Questo problema è stato risolto e ora il tipo di congedo non viene visualizzato e il colore predefinito del tipo di congedo (blu scuro) viene utilizzato per tutti i tipi di congedo nel calendario delle assenze del team. |
-| 527316 | Le modifiche al titolo per le notifiche di lavoro, posizione e lavoratore non vengono sincronizzate. | Una relazione Titolo è stata precedentemente aggiunta alle entità Lavoro, Posizione e Lavoratore. La sincronizzazione per questa relazione funziona per la sincronizzazione da Human Resources a Common Data Service, ma non per le notifiche di Common Data Service. Questo problema è stato risolto. |
+| 527316 | Le modifiche al titolo per le notifiche di lavoro, posizione e lavoratore non vengono sincronizzate. | Una relazione Titolo è stata precedentemente aggiunta alle entità Lavoro, Posizione e Lavoratore. La sincronizzazione per questa relazione funziona per la sincronizzazione da Human Resources a Dataverse, ma non per le notifiche di Dataverse. Questo problema è stato risolto. |
 | 512275 | Rimuovere le opzioni di colore da **Parametri di congedo e assenza**. | Ora che i colori sono definiti nel tipo di congedo, le opzioni dei colori non sono più necessarie in **Parametri di congedo e assenza**, quindi sono stati rimossi. |
 | 437112 | Testo del messaggio di errore fuorviante durante l'assegnazione della posizione del dipendente. | Aggiornato il messaggio di errore durante l'assunzione di un lavoratore e il tentativo di assegnarlo a una posizione non attiva. Messaggio aggiornato **La posizione specificata non è attiva alla data di inizio del rapporto di lavoro. Controllare la durata di questa posizione.** |
 | 527816 | Problemi di prestazioni con la pagina **Permesso**. | Le prestazioni sono state migliorate per la pagina **Permesso**. |
@@ -92,6 +91,3 @@ Per un elenco completo delle funzionalità pianificate e delle relative versioni
 [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

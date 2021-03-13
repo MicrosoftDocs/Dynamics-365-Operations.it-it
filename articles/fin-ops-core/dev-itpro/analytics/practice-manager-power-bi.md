@@ -1,6 +1,6 @@
 ---
 title: Contenuto di Power BI per responsabile procedura
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Responsabile procedura. Viene descritto come accedere ai report inclusi nel contenuto e vengono fornite informazioni sul modello dati e sulle entità utilizzati per creare il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Responsabile procedura.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685707"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092459"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
@@ -117,6 +117,3 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 | Misura di aggregazione chiave       | Campo               | descrizione |
 |---------------------------------|---------------------|-------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

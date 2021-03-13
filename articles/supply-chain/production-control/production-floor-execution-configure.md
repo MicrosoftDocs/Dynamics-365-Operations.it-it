@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664298"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077479"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -65,6 +64,12 @@ Questa funzione aggiunge un pulsante all'interfaccia di esecuzione dell'area di 
 
 - Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione
+
+Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia di esecuzione del piano di produzione. I lavoratori possono utilizzare questa scheda per selezionare un cespite connesso a una risorsa macchina che si trova all'interno del filtro selezionato dell'elenco lavori. Per il cespite macchina selezionato, il lavoratore può visualizzare lo stato e l'integrità del cespite dai valori contatore per un massimo di quattro contatori selezionati. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 
 Per creare e gestire le configurazioni del dispositivo, andare a **Controllo produzione \> Imposta \> Esecuzione produzione \> Configura esecuzione area di produzione**. La pagina **Configura esecuzione area di produzione** mostra un elenco di configurazioni esistenti. In questa pagina è possibile effettuare le azioni riportate di seguito:
@@ -94,6 +99,3 @@ Un processo batch pulisce periodicamente le voci nella tabella dei riferimenti p
 1. Nel riquadro azioni selezionare **Pulisci configurazioni client**.
 1. Nella finestra di dialogo **Pulisci configurazione client** impostare il campo **Numero di giorni** sul numero di giorni di inattività (precedenti a oggi) da considerare. Verranno rimosse tutte le configurazioni e i record di accesso per i dispositivi che non sono stati attivi durante quel periodo.
 1. Selezionare **OK** per pulire le configurazioni pertinenti, in base all'impostazione **Numero di giorni**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

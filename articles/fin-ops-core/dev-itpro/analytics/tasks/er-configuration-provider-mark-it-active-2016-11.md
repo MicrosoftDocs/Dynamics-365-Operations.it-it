@@ -1,6 +1,6 @@
 ---
 title: Creare provider di configurazioni e contrassegnarli come attivi
-description: In questo argomento viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare un provider di configurazione per la creazione di report elettronici.
+description: In questo argomento viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare un provider di configurazione.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/02/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 835e35ef233ba5734e5a4d47f624629e95ae5b89
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681999"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092062"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Creare fornitori di configurazioni e contrassegnarli come attivi
 
@@ -44,6 +44,3 @@ In questo argomento viene descritto come un utente assegnato al ruolo di amminis
 2. Selezionare **Imposta come attivo**.
 
 ![Pagina dell'area di lavoro Creazione di report elettronici](../media/GER-Task-ActiveProvider-1.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
