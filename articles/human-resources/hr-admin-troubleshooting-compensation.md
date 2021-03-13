@@ -2,7 +2,7 @@
 title: Eseguire il processo retributivo
 description: In questo articolo viene descritto come risolvere un problema in cui il cliente tenta di eseguire il processo retributivo in Microsoft Dynamics 365 Human Resources ma senza riuscirvi.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5eda572900090a3ead4b277f3c719b220dc10763
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419143"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113125"
 ---
 # <a name="run-the-compensation-process"></a>Eseguire il processo retributivo
 
@@ -47,6 +47,3 @@ La documentazione per la compensazione è elencata di seguito:
 - Lavorazione:
 
     - [Processo retributivo](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

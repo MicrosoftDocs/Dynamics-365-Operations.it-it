@@ -2,7 +2,7 @@
 title: Impostare programmi di crediti flessibili
 description: È possibile utilizzare programmi di crediti flessibili in Microsoft Dynamics 365 Human Resources per iscrivere i dipendenti ai benefit secondo un numero prestabilito di crediti flessibili.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 157984479a041f0bf4555aa96ed3f7e62e415d81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f701d9e38e04769f1255e6f8cb3ee757bf22f96c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419154"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113154"
 ---
 # <a name="set-up-flex-credit-programs"></a>Impostare programmi di crediti flessibili
 
@@ -45,6 +45,3 @@ ms.locfileid: "4419154"
    | **Regola di ripartizione** | La regola da utilizzare per ripartire i crediti flessibili quando un dipendente viene assunto durante il periodo di credito flessibile. </br></br><ul><li>**Nessuna** - Il dipendente non riceve crediti flessibili se viene assunto dopo l'inizio del periodo del programma di crediti flessibili.</li><li>**Credito totale** - Il dipendente riceve l'intero importo di crediti flessibili, indipendentemente da quando è stato assunto.</li><li>**Ripartizione** - Il dipendente riceve una quantità di crediti flessibili ripartita proporzionalmente in base alla data di inizio.</li></ul> |
    | **Formula di ripartizione del credito flessibile** | La regola da utilizzare per ripartire i crediti flessibili per i dipendenti che vengono assunti durante un periodo di benefit per il programma di crediti flessibili. La ripartizione si basa sulla data di inizio dell'impiego. Questo campo è utilizzato solo se si seleziona **Ripartizione** nel campo **Regola di ripartizione**. </br></br><ul><li>**Giornaliero** - Ripartisce il numero di crediti flessibili che un dipendente riceve a livello giornaliero. Il numero totale di crediti flessibili è diviso per il numero di giorni nel periodo. Ad esempio, se il periodo di benefit è 400 giorni, il sistema dividerà il numero totale di crediti flessibili per 400 per calcolare il numero di crediti flessibili che i dipendenti ricevono giornalmente.</li><li>**Mese corrente** - Ripartisce il numero di crediti flessibili che un dipendente riceve a livello mensile, arrotondato al mese corrente. Il numero totale di crediti flessibili è diviso per il numero di mesi nel periodo. Ad esempio, se il periodo di benefit è 15 mesi, il sistema dividerà il numero totale di crediti flessibili per 15 per calcolare il numero di crediti flessibili che i dipendenti ricevono al mese.</li><li>**Mese successivo** - Ripartisce il numero di crediti flessibili che un dipendente riceve a livello mensile, arrotondato al mese successivo. Il numero totale di crediti flessibili è diviso per il numero di mesi nel periodo. Ad esempio, se il periodo di benefit è 15 mesi, il sistema divide il numero totale di crediti flessibili per 15 per calcolare il numero di crediti flessibili che i dipendenti ricevono al mese.</li></ul> |
    
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

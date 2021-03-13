@@ -2,7 +2,7 @@
 title: Rimuovere un'istanza
 description: In questo argomento viene descritto il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1490bd95c284b58497325e57979e63a8190cb386
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419233"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113118"
 ---
 # <a name="remove-an-instance"></a>Rimuovere un'istanza
 
@@ -85,6 +85,3 @@ Per ripristinare l'ambiente:
 
 > [!Warning]
 > Gli ambienti Power Apps vengono salvati solo per sette giorni dopo l'eliminazione. È necessario ripristinare l'ambiente entro il periodo di sette giorni.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

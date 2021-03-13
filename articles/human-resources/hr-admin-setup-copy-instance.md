@@ -2,7 +2,7 @@
 title: Copiare un'istanza
 description: È possibile utilizzare Microsoft Dynamics Lifecycle Services (LCS) per copiare un database di Microsoft Dynamics 365 Human Resources in un ambiente sandbox.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527839"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113103"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
@@ -41,7 +41,7 @@ Per copiare un'istanza, tenere presente i seguenti suggerimenti:
 
 - Quando si copia il database di Human Resources, non si copiano gli elementi (app o dati) contenuti in un ambiente Microsoft Power Apps. Per informazioni su come copiare elementi in un ambiente Power Apps, vedere [Copiare un ambiente](https://docs.microsoft.com/power-platform/admin/copy-environment). L'ambiente Power Apps che si desidera sovrascrivere deve essere un ambiente sandbox. È necessario essere un amministratore tenant globale per modificare un ambiente di produzione Power Apps in un ambiente sandbox. Per ulteriori informazioni sulla modifica di un ambiente Power Apps, vedere [Passare a un'altra istanza](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Common Data Service, è necessario riapplicare i campi personalizzati alle entità Common Data Service. Vedere [Applicare campi personalizzati a Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Dataverse, è necessario riapplicare i campi personalizzati alle tabelle Dataverse. Vedere [Applicare campi personalizzati a Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Effetti della copia di un database di Human Resources
 
@@ -80,7 +80,7 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
 
 6. Selezionare l'ambiente Power Apps da copiare, quindi selezionare **Copia**.
 
-7. Al termine del processo di copia, accedere all'istanza di destinazione e abilitare l'integrazione di Common Data Service. Per ulteriori informazioni e istruzioni, vedere [Configurare l'integrazione di Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Al termine del processo di copia, accedere all'istanza di destinazione e abilitare l'integrazione di Dataverse. Per ulteriori informazioni e istruzioni, vedere [Configurare l'integrazione di Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Stati ed elementi di dati
 
@@ -122,11 +122,11 @@ Tutti gli utenti nell'ambiente sandbox di destinazione, inclusi gli amministrato
 
 Tutti gli utenti non amministratori nell'ambiente sandbox di destinazione sono disabilitati per impedire accessi indesiderati nell'ambiente sandbox. Gli amministratori possono riabilitare gli utenti se necessario.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Applicare campi personalizzati a Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Applicare campi personalizzati a Dataverse
 
-Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Common Data Service, è necessario riapplicare i campi personalizzati alle entità Common Data Service.
+Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Dataverse, è necessario riapplicare i campi personalizzati alle tabelle Dataverse.
 
-Per ogni campo personalizzato esposto nelle entità Common Data Service, eseguire le seguenti operazioni:
+Per ogni campo personalizzato esposto nelle tabelle Dataverse, eseguire le seguenti operazioni:
 
 1. Andare al campo personalizzato e selezionare **Modifica**.
 
@@ -140,7 +140,7 @@ Per ogni campo personalizzato esposto nelle entità Common Data Service, eseguir
 
 6. Selezionare di nuovo **Applica modifiche**.
 
-Il processo di deselezione, applicazione delle modifiche, riselezione e riapplicazione delle modifiche richiede l'aggiornamento dello schema in Common Data Service per includere i campi personalizzati.
+Il processo di deselezione, applicazione delle modifiche, riselezione e riapplicazione delle modifiche richiede l'aggiornamento dello schema in Dataverse per includere i campi personalizzati.
 
 Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare
 [Rimuovere un'istanza](hr-admin-setup-remove-instance.md)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

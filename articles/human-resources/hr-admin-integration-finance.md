@@ -2,7 +2,7 @@
 title: Configurare l'integrazione con Finance
 description: Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527919"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113126"
 ---
 # <a name="configure-integration-with-finance"></a>Configurare l'integrazione con Finance
 
@@ -44,7 +44,7 @@ La soluzione da Human Resources a Finance fornisce i seguenti tipi di sincronizz
 
 La soluzione di integrazione richiede le seguenti versioni di Human Resources e Finance: 
 
-- Dynamics 365 Human Resources su Common Data Service
+- Dynamics 365 Human Resources su Dataverse
 - Dynamics 365 Finance versione 7.2 e successive
 
 ## <a name="template-and-tasks"></a>Modello e attività
@@ -55,7 +55,7 @@ Per accedere al modello da Human Resources a Finance.
 
 2. Selezionare **Progetti**, quindi selezionare **Nuovo progetto** nell'angolo in alto a destra. Creare un nuovo progetto per ogni persona giuridica che si desidera integrare in Finance.
 
-3. Selezionare **Human Resources (da Human Resources Common Data Service a Finance)** per sincronizzare i record da Human Resources a Finance.
+3. Selezionare **Human Resources (da Human Resources Dataverse a Finance)** per sincronizzare i record da Human Resources a Finance.
 
 Il modello utilizza le seguenti attività sottostanti per sincronizzare i record da Human Resources a Finance:
 
@@ -81,14 +81,14 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="job-functions-to-compensation-job-function"></a>Funzioni lavorative a Funzione lavorativa retribuzione
 
-| Entità di Common Data Service (origine) | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine) | Entità di Finance (destinazione) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Nome funzione)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Reparti a Unità operativa
 
-| Entità di Common Data Service (origine)           | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)           | Entità di Finance (destinazione) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="job-types-to-compensation-job-type"></a>Tipi di posizione lavorativa a Tipo di posizione lavorativa retribuzione
 
-| Entità di Common Data Service (origine)   | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)   | Entità di Finance (destinazione) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +105,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="jobs-to-jobs"></a>Posizioni lavorative a Posizioni lavorative
 
-| Entità di Common Data Service (origine)                           | Entità di Finance (destinazione)           |
+| Tabella Dataverse (origine)                           | Entità di Finance (destinazione)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="jobs-to-job-detail"></a>Posizioni lavorative a Dettagli posizione lavorativa
 
-| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)                             | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Tipo di posizione lavorativa (Nome tipo di posizione lavorativa))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="position-types-to-position-type"></a>Tipi di posizione a Tipo di posizione
 
-| Entità di Common Data Service (origine)       | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)       | Entità di Finance (destinazione) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +134,13 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="job-positions-to-base-position"></a>Posizioni a Posizione di base
 
-| Entità di Common Data Service (origine)           | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)           | Entità di Finance (destinazione) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Posizioni a Dettagli posizione
 
-| Entità di Common Data Service (origine)              | Entità di Finance (destinazione)       |
+| Tabella Dataverse (origine)              | Entità di Finance (destinazione)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Numero posizione)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Posizione lavorativa (Nome))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="job-positions-to-position-durations"></a>Posizioni a Durate posizione
 
-| Entità di Common Data Service (origine)             | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)             | Entità di Finance (destinazione) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione)   | POSITIONID (POSITIONID)                      |
 | Attivazione   calcolata (Attivazione calcolata) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="job-positions-to-position-hierarchies"></a>Posizioni a Gerarchie posizioni
 
-| Entità di Common Data Service (origine)        | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)        | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Numero posizione)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 
 ### <a name="workers-to-worker"></a>Lavoratori a Lavoratore
-| Entità di Common Data Service (origine)           | Entità di Finance (destinazione)       |
+| Tabella Dataverse (origine)           | Entità di Finance (destinazione)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="employments-to-employment"></a>Impieghi a Impiego
 
-| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione) |
+| Tabella Dataverse (origine)                             | Entità di Finance (destinazione) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="employments-to-employment-detail"></a>Impieghi a Dettaglio impiego
 
-| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
+| Tabella Dataverse (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Assegnazione lavoratore posizione a Assegnazioni lavoratori posizioni
 
-| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
+| Tabella Dataverse (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Numero posizione)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ Nelle seguenti tabelle di mapping dei modelli, il nome dell'attività contiene l
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Indirizzi lavoratore a Indirizzo postale lavoratore V2
 
-| Entità di Common Data Service (origine)                             | Entità di Finance (destinazione)   |
+| Tabella Dataverse (origine)                             | Entità di Finance (destinazione)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ L'ID ubicazione utilizzato per l'indirizzo del lavoratore non fa parte di una se
 Nelle figura seguenti viene illustrato un esempio di mapping di modello nel servizio di integrazione di dati. 
 
 ![Mapping del modello](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

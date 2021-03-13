@@ -2,7 +2,7 @@
 title: Panoramica di congedo e assenza
 description: In Dynamics 365 Human Resources, l'area di lavoro Congedo e assenza fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419254"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115974"
 ---
 # <a name="leave-and-absence-overview"></a>Panoramica di congedo e assenza
 
@@ -54,6 +54,3 @@ Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'ar
 [Richiedere permessi](hr-employee-self-service-request-time-off.md)
 [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

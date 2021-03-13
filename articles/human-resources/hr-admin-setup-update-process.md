@@ -2,7 +2,7 @@
 title: Aggiornare un processo
 description: Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless per modifiche di applicazioni o piattaforme.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527811"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113087"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -43,7 +43,7 @@ Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti g
 
     Tutti i datacenter supportati vengono aggiornati ogni due settimane, salvo diversa indicazione. Gli Stati Uniti, l'Australia, l'Europa, il Regno Unito, l'Asia e il Canada sono inclusi negli aggiornamenti bisettimanali. 
 
-- **Aggiornamenti della soluzione Common Data Service**: questi aggiornamenti si verificano all'incirca ogni sei settimane, come necessario. Includono nuove entità e modifiche a entità esistenti in Common Data Service. Questi aggiornamenti vengono rilasciati nelle stesse aree degli aggiornamenti bisettimanali e richiedono circa sei settimane per replicarsi in tutti i datacenter. Gli aggiornamenti della soluzione possono essere allineati o meno agli aggiornamenti del servizio bisettimanali.
+- **Aggiornamenti della soluzione Dataverse**: questi aggiornamenti si verificano all'incirca ogni sei settimane, come necessario. Includono nuove entità e modifiche a entità esistenti in Dataverse. Questi aggiornamenti vengono rilasciati nelle stesse aree degli aggiornamenti bisettimanali e richiedono circa sei settimane per replicarsi in tutti i datacenter. Gli aggiornamenti della soluzione possono essere allineati o meno agli aggiornamenti del servizio bisettimanali.
 
 > [!NOTE]
 > Gli aggiornamenti della soluzione sono disponibili in tutti i datacenter una volta rilasciati. Se non si desidera attendere la replica automatica degli aggiornamenti, è possibile applicare manualmente questi aggiornamenti in qualsiasi datacenter di qualsiasi ambiente.
@@ -105,6 +105,3 @@ Durante il test delle funzionalità di anteprima o di nuove funzionalità, è po
 [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Criteri del ciclo di vita del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Creare opzioni di copertura
 description: Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono i livelli di copertura per l'idoneità di un partecipante in un piano o programma di benefit.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419244"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113100"
 ---
 # <a name="create-coverage-options"></a>Creare opzioni di copertura
 
@@ -59,6 +59,3 @@ Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di ben
    | **Consenti importo di copertura dipendente** | Specifica se consentire ai dipendenti di modificare l'importo di copertura nel self-service dei benefit quando selezionano i benefit. Se si seleziona questa casella di controllo, il sistema calcolerà i parametri del piano di benefit in base all'importo di copertura immesso in Dipendente self-service. |
 
 6. Selezionare **Salva**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

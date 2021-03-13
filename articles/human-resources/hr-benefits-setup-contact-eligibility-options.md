@@ -2,7 +2,7 @@
 title: Configurare opzioni di idoneità per contatti personali
 description: Configurare opzioni di idoneità per contatti personali in Microsoft Dynamics 365 Human Resources. I contatti personali possono essere beneficiari o persone a carico.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419219"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113124"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurare opzioni di idoneità per contatti personali
 
@@ -45,6 +45,3 @@ In questo articolo viene illustrato come configurare i tipi di contatti personal
    | **Età** | L'età massima di un contatto personale idoneo per il piano di benefit. Questo campo è attivo solo se si seleziona una relazione. Questa età viene confrontata all'età calcolata del contatto personale. L'età calcolata è: (data di copertura - data di nascita del contatto personale / 365). Questo numero è sempre un numero intero. |
 
 4. Selezionare **Salva**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

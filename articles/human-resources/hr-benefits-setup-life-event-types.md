@@ -2,7 +2,7 @@
 title: Configurare i tipi di eventi reali
 description: Microsoft Dynamics 365 Human Resources utilizza tipi di eventi reali per definire eventi in cui è valido aggiornare l'iscrizione ai benefit per i dipendenti.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419184"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113138"
 ---
 # <a name="configure-life-event-types"></a>Configurare i tipi di eventi reali
 
@@ -88,6 +88,3 @@ Dopo aver creato tipi di eventi reali, è necessario associarli ai tipi di piano
 | **Scadenza sostituzione regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità | Utilizzo dell'elaborazione delle modifiche a eventi reali. Ad esempio, se si modifica la scadenza della sostituzione delle regola di idoneità di un piano affinché sia oggi alle 17, in qualsiasi momento dopo le 17 o nei giorni seguenti e quindi si esegue l'elaborazione delle modifiche agli eventi reali, viene visualizzato un messaggio indicante che la sostituzione delle regole di idoneità è scaduta. |
 | **Nuovo piano di benefit (non specifico agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Nuovo | <ul><li>Le opzioni di idoneità sono aggiunte a un piano corrente</li><li>Viene aggiunto un nuovo piano con opzioni di idoneità associate</li></ul></br></br>Il personale delle risorse umane deve eseguire l'elaborazione dell'idoneità a eventi reali. |
 | **Modifica regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Regole/opzioni > Regole di idoneità | Utilizzo dell'elaborazione dell'idoneità a eventi reali. Registrato quando vengono modificati i seguenti valori dei record **EhrBenefitEligibilityRule**: **UseEmplCategory**, **UseEmplStatus** o **UseEmplType**. Aggiorna solo le transazioni di eventi reali già esistenti per una regola o criteri di idoneità modificati. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

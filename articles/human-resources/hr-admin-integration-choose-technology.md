@@ -2,7 +2,7 @@
 title: Scegliere una tecnologia di integrazione dei dati
 description: Questo articolo fornisce informazioni sull'integrazione con i dati gestiti da Human Resources. Descrive diverse tecnologie di integrazione per aiutare a decidere quali tecnologie si adattano meglio alle proprie esigenze.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ee394172fb531e7aecc1be411f9adf2dd184d15e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528343"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113160"
 ---
 # <a name="choose-a-data-integration-technology"></a>Scegliere una tecnologia di integrazione dei dati
 
@@ -36,42 +36,48 @@ Questo articolo fornisce informazioni sull'integrazione con i dati gestiti da Dy
 I dati aziendali sono una risorsa chiave che rende unica l'azienda. I dati della tua azienda sono estremamente preziosi. È possibile utilizzare le relazioni tra i dati raccolti in tutta l'azienda per migliorare i processi aziendali e la business intelligence all'interno dell'organizzazione. Ci impegniamo a fornire un accesso facile, sicuro e stabile ai dati aziendali indipendentemente dal sistema da cui provengono.
 
 Storicamente, l'integrazione dei dati tra più sistemi è stata sempre difficile.
-Microsoft sta implementando delle soluzioni per facilitare l'integrazione dei dati e un grande passo verso questo obiettivo viene realizzato mediante [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Microsoft sta implementando delle soluzioni per facilitare l'integrazione dei dati e un grande passo verso questo obiettivo viene realizzato mediante [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
-Human Resources utilizza Common Data Service come l'interfaccia pubblica preferita per gestire i dati di Human Resources. Prevediamo che in futuro tutti i dati più importanti gestiti dalle risorse umane saranno esposti in Common Data Service. Microsoft raccomanda Common Data Service come tecnologia da utilizzare per la maggior parte delle applicazioni di integrazione.
+Human Resources utilizza Dataverse come l'interfaccia pubblica preferita per gestire i dati di Human Resources. Prevediamo che in futuro tutti i dati più importanti gestiti dalle risorse umane saranno esposti in Dataverse. Microsoft raccomanda Dataverse come tecnologia da utilizzare per la maggior parte delle applicazioni di integrazione.
 
-Ci rendiamo conto che Common Data Service potrebbe non contenere ancora tutti i dati richiesti dall'applicazione. Ci rendiamo anche conto che la cronologia del progetto potrebbe richiedere una tecnologia alternativa. È importante notificare quando Common Data Service non soddisfa le esigenze di integrazione.
+Ci rendiamo conto che Dataverse potrebbe non contenere ancora tutti i dati richiesti dall'applicazione. Ci rendiamo anche conto che la cronologia del progetto potrebbe richiedere una tecnologia alternativa. È importante notificare quando Dataverse non soddisfa le esigenze di integrazione.
 
 ## <a name="integration-technologies"></a>Tecnologie di integrazione
 
 Le seguenti sezioni descrivono le diverse tecnologie di integrazione di dati disponibili per l'uso con Human Resources.
 
-### <a name="common-data-service-entities"></a>Entità di Common Data Service
+### <a name="dataverse-tables"></a>Tabelle Dataverse
 
-Common Data Service è l'interfaccia di dati pubblici preferita per le risorse umane. È basata sulla piattaforma Dynamics 365 XRM utilizzata dalle soluzioni [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
+Dataverse è l'interfaccia di dati pubblici preferita per le risorse umane. È basata sulla piattaforma Dynamics 365 XRM utilizzata dalle soluzioni [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
 
-Common Data Service fornisce una piattaforma e l'API per le entità di dati. Quando si distribuisce Human Resources, ci si connette a un'istanza di Common Data Service. Le entità per i dati di Human Resources vengono distribuiti nell'istanza di Common Data Service. Le entità e i dati sono disponibili per qualsiasi applicazione in grado di connettersi all'istanza di Common Data Service. Human Resources sincronizza i dati da e verso le entità Common Data Service.
-
-Quando le entità dati richieste dalle app di integrazione sono presenti in Common Data Service, è possibile utilizzare completamente [Common Data Service e le API che supporta](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Una delle API supportate è l'[API Web di Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), che fornisce un'implementazione OData per l'accesso ai dati di Common Data Service.
-
-Le entità di Common Data Service e le API associate sono l'opzione migliore per accedere ai dati di Human Resources da applicazioni Web, servizi Web/API e da qualsiasi altra applicazione che si collega ai feed OData.
+Dataverse fornisce una piattaforma e l'API per le tabelle di dati. Quando si distribuisce Human Resources, ci si connette a un'istanza di Dataverse. Le entità per i dati di Human Resources vengono distribuiti nell'istanza di Dataverse. Le tabelle e i dati sono disponibili per qualsiasi applicazione in grado di connettersi all'istanza di Dataverse. Human Resources sincronizza i dati da e verso le tabelle Dataverse.
 
 > [!NOTE]
-> Poiché la decisione di rendere Common Data Service l'interfaccia dati preferita per Human Resources è relativamente recente, è possibile che le entità di dati di Human Resources di cui necessiti per l'integrazione non siano ancora disponibili in Common Data Service.
-</br>
-> Per un elenco delle entità di Human Resources disponibili in Common Data Service vedere [Human Resources e Common Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> Le entità di Human Resources corrispondono alle tabelle Dataverse. Per ulteriori informazioni su Dataverse (in precedenza Common Data Service) e aggiornamenti terminologici, vedi [ Cosa è Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+Quando le tabelle dati richieste dalle app di integrazione sono presenti in Dataverse, è possibile utilizzare completamente [Dataverse e le API che supporta](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Una delle API supportate è l'[API Web di Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), che fornisce un'implementazione OData per l'accesso ai dati di Dataverse.
+
+Le tabelle di Dataverse e le API associate sono l'opzione migliore per accedere ai dati di Human Resources da applicazioni Web, servizi Web/API e da qualsiasi altra applicazione che si collega ai feed OData.
+
+> [!NOTE]
+> Poiché la decisione di rendere Dataverse l'interfaccia dati preferita per Human Resources è relativamente recente, è possibile che le entità di dati di Human Resources di cui necessiti per l'integrazione non siano ancora disponibili in Dataverse.
+> </br>
+> Per un elenco delle entità di Human Resources disponibili in Dataverse vedere [Human Resources e Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > Se le entità di Human Resources richieste per l'integrazione non sono ancora disponibili, dovrai attendere che le entità di dati diventino disponibili o dovrai utilizzare una delle altre tecnologie di integrazione descritte di seguito.
 > </br>
-> Per impostazione predefinita, l'integrazione di Common Data Service è disattivata nei nuovi ambienti che non includono i dati dimostrativi forniti. È attivata nei nuovi ambienti che contengono dati dimostrativi e gli ambienti iniziano la sincronizzazione dei dati quando se ne esegue il provisioning. Una volta che l'ambiente è pronto per sincronizzare i dati, è possibile attivare l'integrazione.
+> Per impostazione predefinita, l'integrazione di Dataverse è disattivata nei nuovi ambienti che non includono i dati dimostrativi forniti. È attivata nei nuovi ambienti che contengono dati dimostrativi e gli ambienti iniziano la sincronizzazione dei dati quando se ne esegue il provisioning. Una volta che l'ambiente è pronto per sincronizzare i dati, è possibile attivare l'integrazione.
 
 ### <a name="dmfdixf-entities"></a>Entità DMF/DIXF
 
-Human Resources, basato principalmente sulla stessa piattaforma delle applicazioni Finance and Operations, fornisce un [Data Management Framework (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF è anche noto come Data Import Export Framework (DIXF). Human Resources fornisce una serie di entità dati che è possibile utilizzare per l'importazione e l'esportazione di dati di Human Resources. Mentre le entità di Common Data Service sono l'interfaccia di integrazione di dati preferita per le risorse umane, le entità DMF sono ancora utili in alcune circostanze, ad esempio:
+Human Resources, basato principalmente sulla stessa piattaforma delle applicazioni Finance and Operations, fornisce un [Data Management Framework (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF è anche noto come Data Import Export Framework (DIXF). Human Resources fornisce una serie di entità dati che è possibile utilizzare per l'importazione e l'esportazione di dati di Human Resources. Mentre le tabelle di Dataverse sono l'interfaccia di integrazione di dati preferita per le risorse umane, le entità DMF sono ancora utili in alcune circostanze, ad esempio:
 
-- Le entità di Common Data Service non sono ancora disponibili.
+- Le tabelle di Dataverse non sono ancora disponibili.
 
 - L'integrazione richiede funzionalità di importazione/esportazione di dati in bulk ad alte prestazioni.
+
+> [!NOTE]
+> Le entità di Human Resources corrispondono alle tabelle Dataverse. Per ulteriori informazioni su Dataverse (in precedenza Common Data Service) e aggiornamenti terminologici, vedi [ Cosa è Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
 Le entità DMF attualmente forniscono la copertura dati più completa per i dati delle risorse umane.
 
@@ -92,7 +98,7 @@ DMF fornisce un'[API REST](https://docs.microsoft.com/dynamics365/unified-operat
 
 - Verifica dello stato di un'operazione di importazione/esportazione.
 
-L'API REST di pacchetti di DMF è pienamente supportata in Core HR di Human Resources.
+L'API REST di pacchetti di DMF è pienamente supportata in Human Resources.
 
 ### <a name="azure-sql-db-byod"></a>DB SQL di Azure (BYOD)
 
@@ -109,7 +115,7 @@ La funzionalità BYOD è appropriata per le soluzioni di reporting, integrazioni
 
 La maggior parte delle entità DMF è abilitata anche per l'accesso tramite i servizi dati di Human Resources (OData). La documentazione fornita per il [servizio Finance and Operations OData](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) si applica a Human Resources, ad eccezione della creazione di entità esposte a OData.
 
-Sebbene Common Data Service e l'implementazione OData fornita da Common Data Service (tramite l'[API Web di Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) sia preferita rispetto al servizio dati di Human Resources, questo servizio dati ha attualmente una copertura delle entità più completa per i dati di Human Resources.
+Sebbene Dataverse e l'implementazione OData fornita da Dataverse (tramite l'[API Web di Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) sia preferita rispetto al servizio dati di Human Resources, questo servizio dati ha attualmente una copertura delle entità più completa per i dati di Human Resources.
 
 ### <a name="excel-add-in"></a>Componente aggiuntivo di Excel
 
@@ -119,9 +125,9 @@ Il componente aggiuntivo di Excel è appropriato per importazioni/esportazioni d
 
 ### <a name="data-integrator"></a>Servizio di integrazione di dati
 
-È possibile usare il [servizio di integrazione dati](https://docs.microsoft.com/powerapps/administrator/data-integrator) per integrare i dati da e verso Common Data Service. Il servizio di integrazione di dati consente di definire progetti di integrazione (spesso basati su modelli predefiniti che gli sviluppatori di applicazioni hanno personalizzato per integrazioni specifiche). È possibile programmare i progetti di integrazione per essere eseguiti automaticamente in base a una pianificazione ricorrente o essere eseguiti manualmente.
+È possibile usare il [servizio di integrazione dati](https://docs.microsoft.com/powerapps/administrator/data-integrator) per integrare i dati da e verso Dataverse. Il servizio di integrazione di dati consente di definire progetti di integrazione (spesso basati su modelli predefiniti che gli sviluppatori di applicazioni hanno personalizzato per integrazioni specifiche). È possibile programmare i progetti di integrazione per essere eseguiti automaticamente in base a una pianificazione ricorrente o essere eseguiti manualmente.
 
-I progetti di integrazione dei dati sono appropriati per le integrazioni batch Common Data Service. Sono un'ottima scelta per le integrazioni tra le applicazioni della famiglia Dynamics 365. Ad esempio, Microsoft fornisce un modello di servizio di integrazione di dati per integrare i dati di Human Resources in Dynamics 365 Finance. Ulteriori informazioni sul modello sono disponibili in [Integrazione da Dynamics 365 Human Resources a Dynamics 365 Finance](hr-admin-integration-finance.md).
+I progetti di integrazione dei dati sono appropriati per le integrazioni batch Dataverse. Sono un'ottima scelta per le integrazioni tra le applicazioni della famiglia Dynamics 365. Ad esempio, Microsoft fornisce un modello di servizio di integrazione di dati per integrare i dati di Human Resources in Dynamics 365 Finance. Ulteriori informazioni sul modello sono disponibili in [Integrazione da Dynamics 365 Human Resources a Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
@@ -129,21 +135,18 @@ Il servizio di integrazione di dati supporta [Power Query](https://docs.microsof
 
 ## <a name="deciding-on-an-integration-technology"></a>Scelta di una tecnologia di integrazione
 
-Con così tante diverse tecnologie di integrazione disponibili, scegliere quale approccio di integrazione usare può talvolta risultare difficoltoso. Con l'evoluzione della copertura dei dati in Common Data Service, la decisione risulterà più agevole, in quanto Common Data Service diventerà l'interfaccia dati preferita nella maggior parte dei casi. Ma fino ad allora, è possibile che Common Data Service non soddisfi ancora le tue esigenze. La tabella seguente riepiloga alcune delle caratteristiche chiave delle opzioni di tecnologia di integrazione.
+Con così tante diverse tecnologie di integrazione disponibili, scegliere quale approccio di integrazione usare può talvolta risultare difficoltoso. Con l'evoluzione della copertura dei dati in Dataverse, la decisione risulterà più agevole, in quanto Dataverse diventerà l'interfaccia dati preferita nella maggior parte dei casi. Ma fino ad allora, è possibile che Dataverse non soddisfi ancora le tue esigenze. La tabella seguente riepiloga alcune delle caratteristiche chiave delle opzioni di tecnologia di integrazione.
 
 | Tecnologia/Strumento/API    | Integrazioni ricorrenti                   | Sincrona/asincrona                    | Accesso programmatico tramite un'API        | Volumi di dati appropriati                                   | Copertura dati                       |
 |------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|------------------------------------------------------------|-------------------------------------|
-| Entità di Common Data Service           | Sì, utilizzando un servizio di integrazione di dati o un middleware | Sincrona asincrono, batch (tramite un servizio di integrazione di dati) | Sì, tramite l'API Web di Dynamics 365 (OData) | Varia in base al caso d'uso (supporta il paging per uso interattivo) | In miglioramento <sup>2</sup>                       |
+| Tabelle Dataverse           | Sì, utilizzando un servizio di integrazione di dati o un middleware | Sincrona asincrono, batch (tramite un servizio di integrazione di dati) | Sì, tramite l'API Web di Dynamics 365 (OData) | Varia in base al caso d'uso (supporta il paging per uso interattivo) | In miglioramento <sup>2</sup>                       |
 | Entità DMF           | Sì, programmate tramite middleware        | Asincrona, batch                                | Sì, tramite l'API REST pacchetti di DMF         | Alta (centinaia di migliaia di record)                    | Alta                                |
 | API REST pacchetti di DMF   | Sì, programmate tramite middleware        | Asincrona, batch                                | Sì                                       | Alta (centinaia di migliaia di record)                    | L'API supporta tutte le entità DMF       |
 | BYOD                   | Sì, programmate dall'amministratore in Human Resources        | Asincrona, batch                                | No<sup>3</sup>                                    | Alta (centinaia di migliaia di record)                    | Supporta tutte le entità DMF           |
 | Entità abilitate per OData | Sì, utilizzando un middleware                    | Sincronizza                                        | Sì, tramite il servizio dati di Human Resources (OData)  | Varia in base al caso d'uso (supporta il paging per uso interattivo) | Alta                                |
 | Componente aggiuntivo di Excel           | Nessuno                                       | Sincronizza                                        | Nessuno                                        | Media (decine di migliaia di record)                      | Supporta tutte le entità abilitate per OData |
-| Servizio di integrazione di dati        | Sì, programmato nel servizio di integrazione di dati        | Asincrona, batch                                | Nessuno                                        | Varia con il caso d'uso                                       | Supporta tutte le entità di Common Data Service           |
+| Servizio di integrazione di dati        | Sì, programmato nel servizio di integrazione di dati        | Asincrona, batch                                | Nessuno                                        | Varia con il caso d'uso                                       | Supporta tutte le tabelle Dataverse           |
 
-<sup>2</sup>Microsoft sta investendo molto per aumentare la copertura dei dati per le entità Common Data Service. Si consiglia di utilizzare Common Data Service quando è disponibile la copertura. Attualmente, la copertura dati di Common Data Service è bassa rispetto alle entità abilitate per DMF e OData.
+<sup>2</sup>Microsoft sta investendo molto per aumentare la copertura dei dati per le tabelle Dataverse. Si consiglia di utilizzare Dataverse quando è disponibile la copertura. Attualmente, la copertura dati di Dataverse è bassa rispetto alle entità abilitate per DMF e OData.
 
 <sup>3 </sup>È possibile accedere al database SQL a livello programmatico.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

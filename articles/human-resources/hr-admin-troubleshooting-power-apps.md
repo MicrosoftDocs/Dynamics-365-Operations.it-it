@@ -2,7 +2,7 @@
 title: Impossibile creare un ambiente nell'interfaccia di amministrazione di Power Apps
 description: In questo articolo viene descritto come procedere se l'amministratore non è in grado di creare un ambiente nell'interfaccia di amministrazione di Microsoft Power Apps.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 664c644c9b34e3489b4134040e165d26202dbd38
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419175"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113113"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Impossibile creare un ambiente nell'interfaccia di amministrazione di Power Apps
 
 **Problema**
 
 - L'amministratore di ambiente/tenant non è in grado di creare un ambiente nell'interfaccia di amministrazione di Microsoft Power Apps.
-- Una licenza che concede agli utenti il diritto di eseguire l'operazione di creazione dell'ambiente non è stata assegnata direttamente all'utente che esegue quell'operazione.
+- L'utente non dispone di una licenza che dia il diritto di creare ambienti.
 
 **Soluzione**
 
-Verificare che l'amministratore del tenant abbia assegnato una licenza Power Apps P2 valida direttamente all'utente che esegue l'operazione di creazione dell'ambiente. Di seguito sono riportati i piani del servizio Microsoft Dynamics che forniscono quel diritto.
+Assicurati che l'amministratore del tenant abbia assegnato una licenza Power Apps P2 per l'utente che crea l'ambiente. I seguenti piani di servizio Microsoft Dynamics forniscono le autorizzazioni per creare ambienti:
 
 | Unità di stockkeeping (SKU) globale di un prodotto       | Piano di servizio Power Apps P2  |
 |------------------------------------------------|----------------------------|
@@ -44,6 +44,3 @@ Da notare che oltre alle unità di stockkeeping di Power Apps Piano 2, anche var
 
 1. Accedere a [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Creare gli ambienti seguendo le istruzioni in [Eseguire il provisioning di Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

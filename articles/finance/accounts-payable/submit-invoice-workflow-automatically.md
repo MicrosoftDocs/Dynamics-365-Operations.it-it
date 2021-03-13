@@ -1,5 +1,5 @@
 ---
-title: Inviare fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti (anteprima)
+title: Inviare le fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti
 description: In questo argomento viene descritto il processo di invio di fatture fornitore al sistema del flusso di lavoro e di abbinamento automatico delle righe di entrata prodotti registrate alle righe di fattura fornitore.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444626"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115658"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Inviare fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti (anteprima)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Inviare le fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritto il processo di invio di fatture fornitore al sistema del flusso di lavoro e di abbinamento automatico delle righe di entrata prodotti registrate alle righe di fattura fornitore.
 
@@ -47,13 +45,10 @@ Il processo verrà eseguito fino a quando la quantità delle entrate prodotti ab
 
 Le righe di fattura che hanno criteri di abbinamento a tre elementi di verifica, in cui la quantità di entrata prodotti abbinata è inferiore alla quantità di fattura, verranno incluse nel processo di abbinamento automatico all'entrata prodotti.
 
-Per visualizzare lo stato **Ultimo abbinamento** per le fatture che non fanno parte del processo di invio automatico al flusso di lavoro, apri la fattura dalla pagina **Fatture fornitore**. Quando visualizzi la fattura, le informazioni di convalida dell'abbinamento vengono aggiornate.
+Per visualizzare lo stato **Ultimo abbinamento** per le fatture che non fanno parte del processo di invio automatico al flusso di lavoro, apri la fattura dalla pagina **Fatture fornitore**. Quando visualizzi la fattura, le informazioni di convalida dell'abbinamento vengono aggiornate. Lo stato **Ultima partita** può essere aggiornato automaticamente utilizzando l'attività **Convalida abbinamento fatture** in background. Puoi configurare il processo di aggiornamento automatico dello stato **Ultima partita** nella scheda **Processi in background** della pagina **Automazioni di processo** (**Amministrazione del sistema\> Configurazione\> Automazioni di processo**).
 
 Una riga di fattura verrà esclusa dall'elaborazione automatizzata se viene soddisfatta una delle seguenti condizioni:
 
 - Il valore **Stato corrispondenza entrate automatizzate** della riga di fattura è **Non riuscita**.
 - La fattura è in uso.
 - La fattura è nel sistema del flusso di lavoro.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Creare piani di retribuzione fissa
 description: La retribuzione fissa fa riferimento allo stipendio lordo regolare o alle retribuzioni del dipendente. Questo articolo descrive i componenti che devono essere impostati per creare un piano di retribuzione fissa e iscrivere i dipendenti.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa370ad5b873d707aba865b7f90e22acfc4825ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419214"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113049"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Creare piani di retribuzione fissa
 
@@ -98,6 +98,3 @@ Ad esempio, se la retribuzione fissa viene impostata per un dipendente, è possi
 
 Il sistema verifica che l'importo di retribuzione specificato per un piano di retribuzione del tipo di grado o fascia rientri nei punti di riferimento minimo e massimo per il livello retributivo specificato sulla mansione del dipendente. Se l'importo di retribuzione non rientra nell'intervallo consentito, viene visualizzato un messaggio di errore o di avviso, a seconda del livello di tolleranza impostato nel piano di retribuzione fissa.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682773"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115730"
 ---
 # <a name="financial-insights"></a>Informazioni finanziarie dettagliate
 
@@ -66,9 +66,10 @@ I dati per **Informazioni finanziarie dettagliate** vengono estratti dall'archiv
 
 Per visualizzare i dati delle aree di lavoro **Informazioni finanziarie dettagliate** e **Panoramica responsabile finanziario**, è necessario aggiornare le seguenti entità:
 
-- Versione 2 di Dati transazione dei reporting finanziari (**Nota:** è una nuova funzionalità della versione 10.0.1 e sostituisce l'entità precedente).
-- Dati transazione dei report finanziari
+- BudgetActivityMeasure
+- Versione 3 dati transazione dei report finanziari 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Cubo Acquisti
 - Cubo Vendite
@@ -247,6 +248,3 @@ Le informazioni contenute nelle seguenti risorse non sono necessarie per abilita
 - [Accesso alle aree di lavoro analitiche e ai report in un ambiente a scatola singola](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Requisiti di sistema
 description: Questo articolo descrive i requisiti per Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f68b8f642ada1345e7097b5e7220e222b132b1dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e7d7389c1bcf0f6024464e37b36d39efae5b832
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419230"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113086"
 ---
 # <a name="system-requirements"></a>Requisiti di sistema
 
@@ -64,6 +64,3 @@ Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web
 > L'interfaccia utente è localizzata in altre lingue, tuttavia tutti i dati dell'utente sono memorizzati nella lingua in cui sono stati inseriti. È possibile creare e-mail e modelli in altre lingue, ma i dati come le informazioni sulla pianificazione sono disponibili solo in inglese al momento.
 
 Gli sviluppatori interessati a creare personalizzazioni specifiche per paese o regione o per creare una soluzione per un paese o una regione non attualmente supportato da Microsoft possono consultare la pagina [Globalizzazione](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

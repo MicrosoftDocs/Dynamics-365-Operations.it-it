@@ -2,7 +2,7 @@
 title: Creare un'app di esportazione dati ricorrente
 description: In questo articolo viene illustrato come creare un'app di logica Microsoft Azure che esporta dati da Microsoft Dynamics 365 Human Resources in modo ricorrente.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 97972d2179c42e9d2d672cbebb75643ef0a02a62
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419238"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113088"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
 
@@ -142,7 +142,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
 
         - **Metodo:** POST
         - **URL della richiesta:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
-        - **Corpo della richiesta:** body('Invoke\_an\_HTTP\_request')?['value']
+        - **Corpo della richiesta:** corpo('Invoke\_an\_HTTP\_request')?['value']
 
             > [!NOTE]
             > Potrebbe essere necessario inserire il valore **Corpo della richiesta** nella visualizzazione codice o nell'editor di funzioni nella finestra di progettazione.
@@ -205,6 +205,3 @@ L'illustrazione seguente mostra l'aspetto della finestra di progettazione di app
 In questa esercitazione, si è imparato a utilizzare un'app per la logica per esportare dati da Human Resources e a salvare i dati esportati in una cartella OneDrive for Business. È possibile modificare i passaggi di questa esercitazione come necessario in base alle proprie esigenze aziendali.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Elaborare eventi reali
 description: Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419147"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113077"
 ---
 # <a name="process-life-events"></a>Elaborare eventi reali
 
@@ -57,6 +57,3 @@ Ad esempio, se oggi è il 1° febbraio e il 14 febbraio il lavoratore Joe Smith 
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

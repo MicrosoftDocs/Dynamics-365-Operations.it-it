@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669175"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113037"
 ---
 # <a name="recruit-job-candidates"></a>Selezionare i candidati a una posizione
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources aiuta a gestire le richieste di selezione. Aiuta an
 Se non si sta utilizzando un'applicazione di selezione separata, è possibile anche gestire manualmente i candidati in Human Resources.
 
 >[!NOTE]
->Se si è un amministratore o uno sviluppatore e si desidera integrare Human Resources con un'applicazione di selezione di terze parti, consultare [ Configurare l'integrazione di Common Data Service](hr-admin-integration-common-data-service.md) e [Configurare le entità virtuali di Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>Se si è un amministratore o uno sviluppatore e si desidera integrare Human Resources con un'applicazione di selezione di terze parti, vedi [Configurare l'integrazione di Dataverse](hr-admin-integration-common-data-service.md) e [Configurare le tabelle virtuali di Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > È anche possibile trovare app di integrazione di selezione in [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Se non si sta utilizzando un'applicazione di selezione separata, è possibile an
 
 ## <a name="enable-recruiting-requests"></a>Abilita richieste di selezione
 
-Se si desidera inviare richieste di selezione in Human Resources, è necessario prima abilitare la funzionalità in **Parametri delle risorse umane**.
+Se si desidera inviare richieste di selezione in Human Resources, è necessario prima abilitare la funzionalità in **Parametri condivisi delle risorse umane**.
 
 1. Nell'area di lavoro **Gestione personale** selezionare **Collegamenti**.
 
-2. Sotto **Impostazione**, selezionare **Parametri Risorse umane**.
+2. Sotto **Impostazione**, selezionare **Parametri condivisi di risorse umane**.
 
-3. Nella scheda **Generale** sotto **RECLUTAMENTO**, impostare **Abilita richieste di selezione** su **Sì**.
-
-   ![Abilita richieste di selezione](./media/hr-recruit-0-enable-requests.png)
+3. Nella scheda **Selezione** sotto **RECLUTAMENTO**, impostare **Abilita richieste di selezione** su **Sì**.
 
 ## <a name="add-a-recruiting-request-location"></a>Aggiungere una posizione per la richiesta di selezione
 
@@ -224,8 +222,6 @@ Se necessario, è possibile licenziare un candidato dopo averlo assunto. Ad esem
 
 ## <a name="see-also"></a>Vedere anche
 
-[Configurare le entità virtuali di Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Configurare tabelle virtuali in Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizzare la forza lavoro](hr-personnel-departments-jobs-positions.md)<br>
 [Impostare i componenti di una mansione](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

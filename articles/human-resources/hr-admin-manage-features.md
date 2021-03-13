@@ -1,8 +1,8 @@
 ---
-title: Gestire le funzionalità
+title: Gestisci funzionalità in Human Resources
 description: Informazioni su come attivare o disattivare nuove funzionalità in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419237"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113162"
 ---
-# <a name="manage-features"></a>Gestire le funzionalità
+# <a name="manage-features-in-human-resources"></a>Gestisci funzionalità in Human Resources
 
 Nell'ambito della continua implementazione di nuove funzionalità per Microsoft Dynamics 365 Human Resources, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Forniamo funzionalità di anteprima che sono quasi pronte per la disponibilità generale e che sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
@@ -94,5 +94,3 @@ Si raccomanda di non includere dati personali (qualsiasi informazione che possa 
 
 - [Novità in Risorse umane](hr-admin-whats-new.md)
 - [Piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

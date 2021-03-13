@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 74a87ddb4ed14042dd4e716ad64bc844a800a0a0
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527436"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113173"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (16 settembre 2020)
 
@@ -110,9 +110,9 @@ Questa versione include opzioni di calendario aggiuntive per i calendari di cong
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Elenco di controllo entità incluso in Dataverse
 
-Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
+Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Codici motivo gestione vantaggi
 
@@ -124,6 +124,3 @@ I codici motivo per la gestione dei vantaggi verranno presto combinati con i cod
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

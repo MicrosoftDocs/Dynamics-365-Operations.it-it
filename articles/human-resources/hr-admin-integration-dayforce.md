@@ -2,7 +2,7 @@
 title: Configurare l'integrazione con Dayforce
 description: L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419121"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113104"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
@@ -676,6 +676,3 @@ I dipendenti possono indicare le informazioni sul passaporto. Queste informazion
 
 I dipendenti possono dichiarare più numeri di identificazione più del tipo di identificazione **Passaporto**. Tuttavia, solo l'immissione del passaporto attivo corrente viene integrata in Dayforce. Se tutte le immissioni di passaporto sono scadute, in Dayforce viene integrato il passaporto di emissione più recente.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

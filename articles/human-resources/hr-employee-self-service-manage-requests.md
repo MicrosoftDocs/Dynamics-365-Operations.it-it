@@ -2,7 +2,7 @@
 title: Gestire richieste di congedo e assenza
 description: Visualizzare e approvare richieste di congedi e assenze in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 365d933a2d33b7e1929f9f68e02050b624e30839
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419270"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115296"
 ---
-# <a name="manage-leave-and-absence-requests"></a>Gestire richieste di congedo e assenza
+# <a name="manage-leave-and-absence-requests"></a>Gestire le richieste di congedo e assenza
 
-I manager possono gestire le richieste di permesso dall'area di lavoro **Dipendente self-service** in Dynamics 365 Human Resources. Le richieste possono essere semplici richieste di un solo giorno oppure di più giorni che includono più tipi di congedo e assenza. Se un flusso di lavoro non è attivato, le richieste vengono approvate automaticamente. Se un flusso di lavoro è attivato, l'approvazione può essere automatica o richiedere una conferma, a seconda della configurazione del flusso di lavoro.
+Gestisci le richieste di permesso dall'area di lavoro **Dipendente self-service** in Dynamics 365 Human Resources. Le richieste possono essere semplici richieste di un solo giorno oppure di più giorni che includono più tipi di congedo e assenza. Se un flusso di lavoro non è attivato, le richieste vengono approvate automaticamente. Quando un flusso di lavoro è attivato, l'approvazione può essere automatica o richiedere una conferma, a seconda della configurazione del flusso di lavoro.
 
-1. Nell'area di lavoro **Dipendente self-service**, selezionare **Team personale**.
+1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Team personale**.
 
 2. Sotto **Informazioni team personale**, selezionare la scheda **Congedo e assenza**. 
 
@@ -39,5 +39,3 @@ I manager possono gestire le richieste di permesso dall'area di lavoro **Dipende
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

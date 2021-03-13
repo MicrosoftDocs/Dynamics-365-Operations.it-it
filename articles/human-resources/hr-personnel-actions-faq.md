@@ -2,7 +2,7 @@
 title: Domande frequenti sulle azioni del personale
 description: Questo articolo contiene risposte alle domande che potrebbero essere poste se l'organizzazione utilizzasse le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 6d52e7e5203a4c311afb56259e9e1800ee0e5161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419189"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115416"
 ---
 # <a name="personnel-actions-faq"></a>Domande frequenti sulle azioni del personale
 
@@ -92,6 +92,3 @@ Esempio
 - La data di validità di un'azione **Assumi lavoratore** è la data immessa nel campo **Data di inizio impiego**.
 - La data di validità di un'azione **Trasferisci lavoratore** è la data immessa nel campo **Data di inizio assegnazione** per il lavoratore.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
