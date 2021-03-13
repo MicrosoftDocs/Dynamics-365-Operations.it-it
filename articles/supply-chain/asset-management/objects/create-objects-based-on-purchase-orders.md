@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54c129d93e13e032cc5526a91c73d3363ed183db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 83419fa5c6b6aee0b321c526565c3518deaf4bd0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431095"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016986"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Creare cespiti in base agli ordini fornitore
 
@@ -70,6 +69,3 @@ Innanzitutto, vengono impostati gli articoli da utilizzare per creare i cespiti 
 3. È possibile impostare il processo per l'esecuzione come processo batch, ad esempio, una volta ogni giorno.
 
 **Attenzione:** Se i dati vengono modificati in un ordine fornitore *dopo* aver creato un cespite in base all'articolo pertinente, le modifiche non verranno riflesse nel cespite.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

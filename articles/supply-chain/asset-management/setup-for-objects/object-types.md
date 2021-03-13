@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a5db915c94cf9a454dc39e9174b3282a3f6bb75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431055"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017419"
 ---
 # <a name="asset-types"></a>Tipi di cespite
 
@@ -97,6 +96,3 @@ Nella pagina **Pezzi di ricambio**, è possibile creare nuovi pezzi di ricambio 
 
 Per verificare se il pezzo di ricambio nella riga selezionata viene utilizzato altrove in Gestione cespiti (ad esempio, in relazione a cespiti e ordini di lavoro) selezionare la riga del pezzo di ricambio quindi scegliere **Articolo utilizzato in** per aprire la pagina **Articolo utilizzato in**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

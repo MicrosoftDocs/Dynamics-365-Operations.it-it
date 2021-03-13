@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e82026f1d73e7368d93109bc0b895b7368ac84d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431177"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019306"
 ---
 # <a name="add-fault-to-work-order"></a>Aggiungere errore all'ordine di lavoro
 
@@ -80,6 +79,3 @@ Nella pagina elenco **Tutti i cespiti**, è possibile stampare un report degli e
 >[!NOTE]
 >Per stampare un report degli errori per vari cespiti o tipi di cespite, selezionare **Gestione cespiti** > **Report** > **Cespiti** > **Errore di cespite**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

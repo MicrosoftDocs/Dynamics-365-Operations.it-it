@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431255"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020656"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -34,21 +33,20 @@ In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lav
 > [!NOTE]
 > Per configurare un sistema che includa dati dimostrativi per il test delle funzionalità di Gestione risorse, consultare [Distribuire un ambiente demo](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) per le istruzioni.
 
-collegamento **Cespiti**
+## <a name="the-assets-tab"></a>Scheda Cespiti
+
+La scheda **Cespiti** fornisce le seguenti impostazioni:
 
 - **Unità funzionale predefinita** rappresenta l'unità funzionale standard, che viene selezionata automaticamente per i cespiti quando si creano nuovi cespiti.  
 - Nel campo **Calendario standard**, selezionare un calendario da utilizzare per calcolare i KPI del cespite, se nessuna risorsa è selezionata per un cespite.  
 - Nel campo **Visualizzazione**, selezionare la visualizzazione predefinita che viene visualizzata quando si apre **Visualizzazione cespiti** (**Gestione cespiti** > **Comune** > **Cespiti** > **Visualizzazione cespiti**).
 - **Tipo di richiesta predefinito** è il tipo predefinito di richiesta di intervento di manutenzione, che viene selezionato automaticamente quando si crea una nuova richiesta.  
-- Se si desidera creare progetti correlati ai cespiti, le relazioni di progetto relative alla selezione di **Progetto principale**, **Gerarchia progetto** e all'opzione **Crea automaticamente progetti** vengono impostate in **Parametri di gestione cespiti**.  
-- Nel campo **Maschera progetto ordine di lavoro**, definire il numero di sottoprogetti consentiti per gli ordini di lavoro e nei cespiti secondari. Una maschera di ordine di lavoro viene utilizzata per definire il numero di ordini di lavoro che possono essere creati in un cespite e utilizzati nel progetto di processo di ordine di lavoro correlato. La maschera dell'ordine di lavoro viene impostata nel campo **Maschera ordini di lavoro correlati** in **Parametri di gestione cespiti** (**Gestione cespiti** > **Impostazione** > **Parametri di gestione cespiti** > **Ordini di lavoro**).  
-    >[!NOTE]
-    >Il formato di una maschera di ordini di lavoro correlati è costituito da una serie di cancelletti (#), a seconda del numero massimo di ordini di lavoro che si prevede di creare per un cespite. Esempio: ## consente di creare fino a 99 sottoprogetti.  
 - Le previsioni relative ai tipi di processo vengono archiviate nel progetto selezionato nel campo **Previsione progetto**. Per ciascun tipo di processo, una nuova attività viene creata automaticamente nel progetto di previsione. Le previsioni del tipo di processo vengono salvate nel progetto di previsione.  
-- Nel campo **Modello**, selezionare il modello previsionale utilizzato nelle previsioni di tipo di processo e ordine di lavoro.  
+- Nel campo **Modello**, selezionare il modello previsionale utilizzato nelle previsioni di tipo di processo e ordine di lavoro.
 
+## <a name="the-work-orders-tab"></a>Scheda Ordini di lavoro
 
-collegamento **Ordini di lavoro**
+La scheda **Ordini di lavoro** fornisce le seguenti impostazioni:
 
 - **Tipo di ordine di lavoro predefinito** definisce le impostazioni standard quando si crea un ordine di lavoro.  
 - **Tipo di ordine di lavoro preventivo** definisce il tipo di ordine di lavoro utilizzato per la creazione degli ordini di lavoro per i piani di manutenzione. Se questo campo viene lasciato vuoto, il tipo di ordine di lavoro nel campo **Tipo di ordine di lavoro predefinito** viene utilizzato.  
@@ -67,8 +65,9 @@ collegamento **Ordini di lavoro**
     - Impostazione di cicli di manutenzione  
 - Nella Scheda dettaglio **Categoria**, le categorie predefinite correlate al consumo per gli ordini di lavoro possono essere definite.  
 
+## <a name="the-work-order-scheduling-tab"></a>Scheda Programmazione ordine di lavoro
 
-collegamento **Programmazione ordine di lavoro**
+La scheda **Programmazione ordine di lavoro** fornisce le seguenti impostazioni nella Scheda dettaglio **Generale**:
 
 - **Intervallo temporale programmazione** definisce il periodo in giorni, calcolato a partire dalla data di inizio prevista dell'ordine di lavoro, durante il quale i processi dell'ordine di lavoro sono pianificati.  
 - Il **Piano generale** Riguarda le risorse del modulo **Amministrazione organizzazione**. Se si seleziona un piano generale in questo campo, sarà possibile visualizzare le prenotazioni di capacità correlate agli ordini di lavoro in **Prenotazioni capacità** (**Amministrazione organizzazione** > **Risorse** > **Risorse** > selezionare risorsa > scheda **Risorsa** > pulsante **Prenotazioni capacità** ). Se si lascia questo campo vuoto, sarà possibile visualizzare il carico di capacità correlato agli ordini di lavoro in **Carico di capacità** (**Amministrazione organizzazione** \> **Risorse** \> **Risorse** \> selezionare risorsa \> scheda **Risorsa** \> pulsante **Prenotazioni capacità**).  
@@ -100,13 +99,10 @@ I campi descritti nell'elenco seguente sono tutti relativi ai punteggi di valuta
   - Supponendo che nessun lavoratore responsabile e gruppo di lavoratori responsabili sono stati selezionati in un ordine di lavoro da programmare - si aggiungono e si sottraggono i valori di punteggio di valutazione negli esempi dei campi precedenti **Lavoratore preferito**, **Gruppo lavoratori preferiti**, **Ubicazione cespiti** e **Data di inizio**, si ottiene un totale di 3.010,00. Ciò significa un punteggio elevato per il lavoratore già selezionato come lavoratore preferito nonché incluso nel gruppo di lavoratori preferiti nell'ordine di lavoro e il lavoratore anche si trova nella stessa struttura del cespite per cui un processo deve essere programmato. Questo significa che esiste una buona probabilità che il lavoratore in questione verrà selezionato per completare il processo durante la programmazione degli ordini di lavoro.  
   - Se il valore "0,00" viene immesso in uno degli otto campi precedente, il punteggio di valutazione non verrà utilizzato durante la programmazione degli ordini di lavoro.  
 
-collegamento **Tipi di documento**
+## <a name="the-document-types-tab"></a>Scheda Tipi di documento
 
 Selezionare i tipi di documento che devono essere disponibili per la stampa degli allegati correlati a un report dell'ordine di lavoro. Questa operazione può essere effettuata selezionando un tipo di documento nella sezione **Disponibili** e selezionando il pulsante ![freccia in avanti](media/15-setup-for-objects.png). Per rimuovere un tipo di documento selezionato, selezionare il tipo di documento nella sezione **Selezionati** e selezionare la ![freccia indietro](media/16-setup-for-objects.png).
 
-collegamento **Sequenze numeriche**
+## <a name="the-number-sequences-tab"></a>Scheda Sequenze numeriche
 
 Selezionare le sequenze numeriche richieste in questa sezione. Sono disponibili due sequenze numeriche per i cespiti: Uno per i cespiti creati manualmente e un'altra per i cespiti creati tramite i cespiti in sospeso.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

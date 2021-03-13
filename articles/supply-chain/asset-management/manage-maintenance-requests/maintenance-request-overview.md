@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7038269c66092367a0faf147766cb45eb5364e1b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431208"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019631"
 ---
 # <a name="maintenance-requests"></a>Richieste di intervento di manutenzione
 
@@ -73,6 +72,3 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Invia cespite in prestito                  | Seleziona un cespite di prestito che deve essere una sostituzione temporanea per il cespite selezionato nella richiesta di intervento di manutenzione selezionata. |
 | Restituisci cespite in prestito                | Registra il cespite in prestito come restituito. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

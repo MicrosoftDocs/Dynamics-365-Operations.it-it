@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431182"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018548"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
 
@@ -117,6 +116,3 @@ Le due illustrazioni di seguito illustrano un processo di programmazione nella f
 - È possibile impostare un processo batch nella Scheda dettaglio **Esecuzione in background** per programmare i cicli a intervalli regolari.  
 - Se un ciclo è incluso in vari pool di ordini di lavoro (vedere [Pool di ordini di lavoro](../work-orders/work-order-pools.md)), un record viene visualizzato per ogni pool in **Apri pool di programmi di manutenzione**. Questa operazione viene eseguita per ottimizzare le opzioni di filtro per i pool di ordini di lavoro.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

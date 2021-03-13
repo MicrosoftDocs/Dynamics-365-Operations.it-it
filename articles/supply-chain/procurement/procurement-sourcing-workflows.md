@@ -1,7 +1,7 @@
 ---
 title: Flussi di lavoro di approvvigionamento
 description: In alcune organizzazioni le richieste di acquisto e gli ordini fornitore devono essere approvati da un utente diverso dalla persona che ha immesso la transazione. Per impostare un processo di approvazione, è possibile creare un flusso di lavoro.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654150"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019756"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Flussi di lavoro di approvvigionamento
 
@@ -80,6 +79,3 @@ Nella canvas del flusso di lavoro è possibile trascinare elementi del flusso di
 - [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
 - [Inserimento di fornitori](vendor-onboarding.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

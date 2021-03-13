@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f91253c06fce6a52716f215411168179847379fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430990"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019481"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Panoramica dei processi di manutenzione di ordine di lavoro attivi
 
@@ -43,6 +42,3 @@ Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Proce
 
 Per una breve descrizione dei pulsanti nella pagina elenco **Processi di manutenzione ordine di lavoro attivi**, vedere [Introduzione agli ordini di lavoro](../work-orders/introduction-to-work-orders.md) dove sono descritti pulsanti identici.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

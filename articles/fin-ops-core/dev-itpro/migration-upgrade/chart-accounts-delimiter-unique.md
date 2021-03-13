@@ -1,7 +1,7 @@
 ---
 title: Impostare il delimitatore del piano dei conti come univoco
 description: In questo argomento viene descritto perché non è possibile avere lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. Dopo l'aggiornamento, è necessario cambiare i valori del delimitatore.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 2ce91557334a4342fa85848fc1b746b6b12c8992
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688529"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020106"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Impostare il delimitatore del piano dei conti come univoco
 
@@ -41,6 +41,3 @@ In presenza di un conflitto con il piano dei conti, è possibile cambiare il del
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Come determinare se l'ambiente richiede delimitatori aggiornati 
 Se i delimitatori nell'ambiente aggiornato sono in conflitto, è possibile avvertire l'instabilità quando si immettono i valori in un controllo di immissione segmentato o in un controllo di immissione delle dimensioni. Ciò significa che è sempre necessario utilizzare le ricerche o un menu a comparsa quando si immettono combinazioni di piano dei conti e dimensioni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

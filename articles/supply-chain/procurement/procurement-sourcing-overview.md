@@ -1,7 +1,7 @@
 ---
 title: Panoramica dell'approvvigionamento
 description: In questo articolo viene fornita una panoramica della funzionalità disponibile nel modulo Approvvigionamento.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 05/06/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 58021
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 4911b1729c811aafc5ca76fb4351ab672e3610f6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431475"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019706"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Panoramica dell'approvvigionamento
 
@@ -93,6 +92,3 @@ Per gli ordini fornitore fatturati verrà registrata la passività nel conto for
 ## <a name="vendor-performance"></a>Prestazioni fornitore
 
 Le prestazioni e la verifica dell'acquisto sono supportati tramite i *report di contabilità fornitori e approvvigionamento* che includono l'analisi della spesa e delle prestazioni del fornitore.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

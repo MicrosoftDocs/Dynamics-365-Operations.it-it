@@ -1,7 +1,7 @@
 ---
 title: Collaborazione fornitore con i fornitori esterni
 description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431550"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016755"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
@@ -259,6 +258,3 @@ L'utente che imposta i parametri per il processo RdO può creare più modelli di
 - %createddate%
 
 Se è richiesta una modifica e viene inviata dopo l'invio della RdO, la RdO verrà inviata nuovamente a tutti i fornitori invitati. Il documento pubblicato verrà aggiornato anche nella pagina **Richieste di offerta pubblicate aperte**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

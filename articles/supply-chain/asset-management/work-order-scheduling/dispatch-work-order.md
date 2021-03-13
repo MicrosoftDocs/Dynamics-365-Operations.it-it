@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetScheduledExecution
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d46beb04923d06aa8ccec05355731aa1b3f27c5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6b4b05dfe351bb61dc47c9c2bfe30831ab7b0a16
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430972"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016858"
 ---
 # <a name="dispatch-work-order"></a>Distribuire un ordine di lavoro
 
@@ -60,6 +59,3 @@ Nella figura seguente è illustrato un esempio di selezioni di distribuzione nel
 [!NOTE]
 Se si desidera eliminare la programmazione in un ordine di lavoro, selezionare l'ordine di lavoro **Tutti gli ordini di lavoro** e fare clic su **Elimina programmazione** nella scheda **Generale**. Aggiornare manualmente lo stato del ciclo di vita di ordine di lavoro se si elimina la programmazione.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

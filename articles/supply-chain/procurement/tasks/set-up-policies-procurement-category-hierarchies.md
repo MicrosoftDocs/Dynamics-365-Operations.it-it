@@ -1,7 +1,7 @@
 ---
 title: Impostare criteri per le gerarchie di categorie di approvvigionamento
 description: Utilizzare questa procedura per impostare le regole per ordinare prodotti in una categoria.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431087"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017098"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Impostare criteri per le gerarchie di categorie di approvvigionamento
 
@@ -52,6 +51,3 @@ Utilizzare questa procedura per impostare le regole per ordinare prodotti in una
 6. Selezionare un'opzione nel campo **Selezione fornitore**. Selezionare una regola per controllare il tipo di fornitori che può essere selezionato per la categoria quando le richieste vengono create.  
 7. Fare clic su **Chiudi**. Le regole dei criteri definite sono state per le richieste di tipo Consumo. Se voleste definire criteri per le richieste di tipo Rifornimento, dovreste creare una regola per Tipo di regola dei criteri chiamata "Regola dei criteri di accesso alle categorie di rifornimento".  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
