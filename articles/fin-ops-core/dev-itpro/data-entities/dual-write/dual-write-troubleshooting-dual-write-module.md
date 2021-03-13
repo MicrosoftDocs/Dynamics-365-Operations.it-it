@@ -1,5 +1,5 @@
 ---
-title: Risoluzione dei problemi con il modulo doppia scrittura nelle app Finance and Operations
+title: Risoluzione dei problemi di doppia scrittura nelle app Finance and Operations
 description: Questo argomento fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo doppia scrittura nelle app Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683625"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131247"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Risoluzione dei problemi con il modulo doppia scrittura nelle app Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Risoluzione dei problemi di doppia scrittura nelle app Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Se non si riesce ad aprire la pagina **Doppia scrittura** selezionando il riquad
 
 **Credenziali richieste per risolvere il problema:** lo stesso utente che ha impostato la doppia scrittura.
 
-È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di configurare una nuova entità per la doppia scrittura. L'unico utente che può creare una mappa è l'utente che imposta la connessione per la doppia scrittura.
+È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di configurare una nuova tabella per la doppia scrittura. L'unico utente che può creare una mappa è l'utente che imposta la connessione per la doppia scrittura.
 
 *Il codice dello stato della risposta non indica l'esito positivo: 401 (non autorizzato).*
 
@@ -77,7 +77,7 @@ Questo errore si verifica quando l'ambiente Dataverse collegato non è disponibi
 
 Per risolvere il problema, creare un ticket per il team di integrazione dei dati. Collegare la traccia di rete in modo che il team di integrazione dei dati possa contrassegnare le mappe come **Non in esecuzione** nel back-end.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Errore durante il tentativo di avviare un mapping della tabella
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Errore durante il tentativo di avviare un mapping della tabella
 
 È possibile che venga visualizzato un errore simile al seguente quando si tenta di impostare lo stato di un mapping su **In esecuzione**:
 
@@ -86,7 +86,4 @@ Per risolvere il problema, creare un ticket per il team di integrazione dei dati
 La correzione di questo errore dipende dalla causa dell'errore:
 
 + Se il mapping prevede mapping dipendenti, assicurarsi di abilitare i mapping dipendenti di questo mapping della tabella.
-+ Nel mapping potrebbero mancare i campi di origine o destinazione. Se manca un campo nell'app Finance and Operations, seguire i passaggi nella sezione [Problema dei campi di entità mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Se manca un campo in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che i campi vengano automaticamente compilati nuovamente nel mapping.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Nel mapping potrebbero mancare le colonne di origine o destinazione. Se manca una colonna nell'app Finance and Operations, seguire i passaggi nella sezione [Problema delle colonne di tabella mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se manca una colonna in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che le colonne vengano automaticamente compilati nuovamente nel mapping.

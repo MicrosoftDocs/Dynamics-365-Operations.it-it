@@ -1,8 +1,8 @@
 ---
 title: Configurare e gestire la registrazione del database
 description: Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419196"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129281"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurare e gestire la registrazione del database
 
@@ -87,6 +87,3 @@ Per configurare la pulitura del registro del database, effettua le seguenti oper
    - Data e ora creazione
 
 3. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

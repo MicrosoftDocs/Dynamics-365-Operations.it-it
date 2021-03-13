@@ -1,8 +1,8 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (11 giugno 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources all'11 giugno 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0720b2024a865fcd42cd80fd905586d626388f8f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ff359f65afc03a1b5691fddc078f73682e99e44
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419242"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127803"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (11 giugno 2020)
 
@@ -102,5 +102,3 @@ Una nuova opzione sarà disponibile nei parametri Risorse umane per aggiornare i
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

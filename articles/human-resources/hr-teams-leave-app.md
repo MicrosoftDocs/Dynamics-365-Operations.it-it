@@ -2,7 +2,7 @@
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4419284"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128163"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -196,7 +196,6 @@ L'app Human Resources in Teams presenta i seguenti problemi di accessibilità ch
 | --- | --- |
 | Lo zoom al 400% sul desktop nasconde alla vista alcuni pulsanti di azione. | Consigliamo di utilizzare invece una lente d'ingrandimento fino a quando non saremo in grado di supportare questo livello di zoom. |
 | Nella scheda **Permesso**, VoiceOver annuncia l'azione di un pulsante durante la lettura dell'intestazione per la griglia del permesso. | L'intestazione e gli elementi all'interno della griglia sono raggruppati per anno e sono comprimibili. VoiceOver lo interpreta come un elemento utilizzabile, ma non lo è. |
-| Se si scorre mentre un popup o un menu è aperto, VoiceOver ignora la lettura del popup o del contenuto del menu. | Esplorare il contenuto utilizzando la scansione delle dita. |
 | Nella scheda **Permesso** c'è un ulteriore gesto di scorrimento per la navigazione verso **Codice motivo** in una nuova richiesta. | Non ci sono controlli nascosti che la navigazione a scorrimento sta cercando di raggiungere. |
 | Nella scheda **Permesso** se si scorre mentre il calendario è aperto, si esce dal controllo invece che all'inizio di una nuova richiesta o durante la modifica di una richiesta. | Quando si raggiunge **Vai a oggi**, considerarlo come la fine del controllo e scorrere nella direzione opposta per tornare all'inizio. |
 | VoiceOver non legge le etichette per le date. | Le date rilevate in coppia sono sempre **Data d'inizio** e **Data di fine**. |
@@ -229,6 +228,3 @@ Per limitare l'accesso all'app Human Resources in Microsoft Teams per la tua org
 [Scaricare e installare Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centro assistenza di Microsoft Teams](https://support.office.com/teams)</br>
 [App Human Resources in Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

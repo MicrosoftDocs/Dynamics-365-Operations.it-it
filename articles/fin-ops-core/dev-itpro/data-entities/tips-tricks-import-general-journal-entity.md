@@ -1,5 +1,5 @@
 ---
-title: Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
+title: Importazione dei giustificativi utilizzando l'entità registrazione COGE
 description: In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687645"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129601"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Procedure consigliate per l'importazione di giustificativi utilizzando l'entità giornale di registrazione generale
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importazione dei giustificativi utilizzando l'entità registrazione COGE
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ Le seguenti sezioni descrivono l'effetto di queste impostazioni. Spiegano inoltr
 - Se il campo **Numero del giustificativo** è impostato su **Generato automaticamente**, l'importazione non riuscirà. L'impostazione **Generato automaticamente** per il campo **Numero del giustificativo** non è supportata.
 
 Per impostazione predefinita, l'entità giornale di registrazione generale utilizza l'elaborazione basata su set. Dopo aver valutato i requisiti aziendali dell'organizzazione, è possibile modificare l'impostazione **Elaborazione basata su set** facendo clic su **Entità di dati** nell'area di lavoro **Gestione dati**. L'elaborazione basata su set viene utilizzata per velocizzare il processo di importazione. Se non si utilizza l'elaborazione basata su set, l'importazione tramite l'entità giornale di registrazione generale sarà più lenta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

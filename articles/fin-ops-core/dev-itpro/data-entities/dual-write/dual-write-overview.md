@@ -1,6 +1,6 @@
 ---
 title: Panoramica della doppia scrittura
-description: Questo argomento fornisce una panoramica della doppia scrittura. La doppia scrittura è un'infrastruttura che fornisce interazione quasi in tempo reale tra le app Microsoft Dynamics 365 basate su modelli e le app Finance and Operations.
+description: Questo argomento fornisce una panoramica sulla doppia scrittura che fornisce interazione quasi in tempo reale tra le app Customer Engagement e le app Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685615"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130007"
 ---
 # <a name="dual-write-overview"></a>Panoramica della doppia scrittura
 
@@ -53,7 +53,7 @@ L'infrastruttura a doppia scrittura è estensibile e affidabile e include le seg
 + Visualizzazione combinata dei log di attività ed errori per gli amministratori dei dati
 + Possibilità di configurare allarmi e soglie personalizzate e di iscriversi alle notifiche
 + Interfaccia utente intuitiva per filtraggio e trasformazioni
-+ Capacità di impostare e visualizzare le dipendenze e le relazioni tra entità
++ Capacità di impostare e visualizzare le dipendenze e le relazioni tra tabelle
 + Estensibilità per tabelle e mappe standard e personalizzate
 + Gestione affidabile del ciclo di vita delle applicazioni
 + Esperienza di installazione predefinita per i nuovi clienti
@@ -93,7 +93,7 @@ La doppia scrittura fornisce l'integrazione dei dati tra le applicazioni Microso
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Cosa significa la doppia scrittura per sviluppatori e architetti di app Customer Engagement?
 
-La doppia scrittura automatizza il flusso di dati tra le app Finance and Operations e Customer Engagement. La doppia scrittura è composta da due soluzioni AppSource installate su Dataverse. Le soluzioni espandono lo schema delle entità, i plug-in e i flussi di lavoro in Dataverse in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app Customer Engagement devono comprendere questi cambiamenti e collaborare con le loro controparti delle app Finance and Operations.
+La doppia scrittura automatizza il flusso di dati tra le app Finance and Operations e Customer Engagement. La doppia scrittura è composta da due soluzioni AppSource installate su Dataverse. Le soluzioni espandono lo schema delle tabelle, i plug-in e i flussi di lavoro in Dataverse in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app Customer Engagement devono comprendere questi cambiamenti e collaborare con le loro controparti delle app Finance and Operations.
 
 Per creare parità con le applicazioni Finance and Operations, la doppia scrittura apporta alcune modifiche cruciali nello schema Dataverse. Se si comprende il piano, è possibile evitare alcune modifiche di progettazione e sviluppo in futuro.
 
@@ -103,12 +103,9 @@ Per creare parità con le applicazioni Finance and Operations, la doppia scrittu
 
 + Per evitare la perdita di dati durante la trasmissione di valuta tra le app Finance and Operations e Dataverse, è possibile estendere il numero di cifre decimali nel tipo di dati di valuta delle app Customer Engagement. La funzione converte automaticamente le righe esistenti nel nuovo stato esteso a livello dei metadati. Durante questo processo, il valore della valuta viene convertito in dati decimali anziché in dati monetari e il valore della valuta supporta 10 cifre decimali. Questa funzione richiede il consenso esplicito e le organizzazioni che non richiedono più di 4 cifre decimali di precisione non hanno bisogno di aderire. Per ulteriori informazioni, vedere [Migrazione del tipo di dati valuta per la doppia scrittura](currrency-decimal-places.md).
 
-+ [Validità della data](../../dev-tools/date-effectivity.md) sarà aggiunta a Dataverse. Supporterà i dati passati, presenti e futuri nella stessa entità.
++ [Validità della data](../../dev-tools/date-effectivity.md) sarà aggiunta a Dataverse. Supporterà i dati passati, presenti e futuri nella stessa tabella.
 
 + Le [conversioni di unità](../../../../supply-chain/pim/tasks/manage-unit-measure.md) del prodotto sono supportate per prodotti, offerte, ordini e fatture.
 
 Per ulteriori informazioni sulle modifiche imminenti, vedere [Novità o modifiche della doppia scrittura](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

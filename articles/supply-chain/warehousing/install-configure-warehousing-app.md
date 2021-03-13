@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -19,19 +18,22 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
+ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431364"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5142277"
 ---
-# <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app del magazzino
+# <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In questo argomento viene descritto come configurare il magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare il magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In questo argomento viene descritto come e configurare la vecchia app di magazzino. Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino (attualmente in anteprima pubblica), consulta [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
+
+> [!NOTE]
+> In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 L'app del magazzino è disponibile da Google Play Store e Microsoft Store. Viene fornito come componente autonomo. Pertanto, devi scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Microsoft Dynamics 365 Supply Chain Management.
 
@@ -274,6 +276,3 @@ In caso di un dispositivo perso o compromesso, devi rimuovere l'accesso a Supply
 1. Assicurati che l'ID client dell'applicazione corrisponda all'ID client annotato nel passaggio 2.
 1. Sulla barra degli strumenti, seleziona **Elimina**.
 1. Nel messaggio di conferma visualizzato, seleziona **Sì**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

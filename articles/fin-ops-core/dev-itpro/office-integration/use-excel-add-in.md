@@ -1,9 +1,9 @@
 ---
-title: Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel
-description: In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel.
-author: ChrisGarty
+title: Visualizzare e aggiornare i dati entità con Excel
+description: In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics.
+author: jasongre
 manager: AnnBe
-ms.date: 04/11/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,38 +13,39 @@ ms.reviewer: sericks
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
-ms.author: cgarty
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688469"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141878"
 ---
-# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Aprire i dati dell'entità in Excel e aggiornarli tramite il componente aggiuntivo di Excel
+# <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo Microsoft Dynamics Office per Excel. Per aprire i dati entità, è possibile iniziare da Excel o da Finance and Operations.
+In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics. Per aprire i dati entità, è possibile iniziare da Excel o dalle app Finance and Operations.
 
-Aprendo i dati entità in Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016.
+Aprendo i dati entità in Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016 o versione successiva.
 
 > [!NOTE]
 > Se il tenant Microsoft Azure Active Directory (Azure AD) viene configurato per l'utilizzo di Active Directory Federation Services (AD FS), è necessario verificare che l'aggiornamento del mese di maggio 2016 per Office sia stato applicato, in modo che il componente aggiuntivo di Excel possa consentire correttamente l'accesso.
 
-Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, guardare il breve video su come [creare un modello Excel per l'intestazione e allineare i modelli in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, guardare il breve video su come c[reare un modello Excel per l'intestazione e allineare i modelli](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Aprire i dati entità in Excel quando si inizia da Excel Finance and Operations
-1. In una pagina in Finance and Operations, selezionare **Apri in Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Aprire i dati entità in Excel quando si inizia da un'app Finance and Operations
+1. In una pagina in un'app Finance and Operations, selezionare **Apri in Microsoft Office**.
 
     Se l'origine dati principale (tabella) della pagina è analoga a quella dell'origine dati principale di tutte le entità, le opzioni predefinite **Apri in Excel** vengono generate per la pagina. Le opzioni **Apri in Excel** possono essere individuate su pagine utilizzate di frequente, ad esempio **Tutti i fornitori** e **Tutti i clienti**.
  
 2. Selezionare l'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
 3. In Excel selezionare **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Se si esegue per la prima volta il componente aggiuntivo di Excel, selezionare **Considera attendibile questo componente aggiuntivo**.
-5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso a Finance and Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente rispetto a Internet Explorer e consentirà l'acceso automatico, se possibile. Di conseguenza, verificare il nome utente nell'angolo superiore destro del componente aggiuntivo di Excel.
+5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app Finance and Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
 
 Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 
@@ -53,7 +54,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 2. Nell'Office Store cercare la parola chiave **Dynamics** e selezionare **Aggiungi** accanto a **Microsoft Dynamics Office Add-in** (il componente aggiuntivo di Excel).
 3. Se si esegue per la prima volta il componente aggiuntivo di Excel, abilitarlo selezionando **Considera attendibile questo componente aggiuntivo**. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Selezionare **Aggiungi informazioni sul server** per aprire il riquadro **Opzioni**.
-5. Nel browser, copiare l'URL del browser dall'istanza Finance and Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
+5. Nel browser, copiare l'URL del browser dall'app Finance and Operations di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
 
     Ad esempio, se l'URL è `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, eliminare tutto salvo `https://xxx.dynamics.com`.
 
@@ -72,7 +73,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 Dopo che il componente aggiuntivo di Excel avrà letto i dati entità nella cartella di lavoro, sarà possibile aggiornarli in qualsiasi momento selezionando **Aggiorna** nel componente aggiuntivo di Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Modificare i dati entità in Excel
-È possibile modificare i dati entità come richiesto, quindi pubblicarli selezionando **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
+È possibile modificare i dati entità come richiesto, quindi pubblicarli di nuovo nelle app Finance and Operations selezionando **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
 
 - Fare clic in un punto qualsiasi della tabella di origini dati, quindi selezionare **Nuovo** nel componente aggiuntivo di Excel.
 - Fare clic ovunque sull'ultima riga della tabella di origini dati, quindi premere il tasto TAB finché il cursore non si sposta dall'ultima colonna della riga e viene creata una nuova riga.
@@ -105,6 +106,21 @@ Se le origini dati sono state aggiunte come origini dati correlate, l'intestazio
 4. Per applicare le modifiche all'origine dati selezionare **Aggiorna**. Selezionare quindi **Fine** per chiudere la finestra di progettazione.
 5. Se è stato aggiunto un campo (colonna), selezionare **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
 
+## <a name="change-the-publish-batch-size"></a>Modificare la dimensione del batch di pubblicazione
+Quando gli utenti pubblicano le modifiche ai record di dati utilizzando il componente aggiuntivo di Excel, gli aggiornamenti vengono inviati in batch. La dimensione predefinita del batch di pubblicazione è 100 righe. Nella versione 10.0.17 e successive, la funzionalità **Consenti la configurazione delle dimensioni del batch di pubblicazione nel componente aggiuntivo di Excel** offre un controllo flessibile sulla dimensione del batch di pubblicazione.
+
+Gli amministratori di sistema possono specificare un limite a livello di sistema per le dimensioni del batch di pubblicazione per le cartelle di lavoro "Apri in Excel" impostando il campo **Pubblica limite batch** nella sezione **Parametri dell'app** della pagina **Parametri dell'app di Office**.
+
+La dimensione del batch di pubblicazione può essere modificata anche per una singola cartella di lavoro utilizzando il componente aggiuntivo di Excel.
+
+1. Apri la cartella di lavoro in Excel.
+2. Selezionare il pulsante **Opzione** (icona a forma di rotella) nell'angolo in alto a destra del componente aggiuntivo di Excel.
+3. Impostare il campo **Pubblica dimensione batch** come desiderato. Il valore impostato deve essere inferiore al limite di batch di pubblicazione a livello di sistema.
+4. Selezionare **OK**.
+5. Salva la cartella di lavoro. Se non si salva la cartella di lavoro dopo aver apportato modifiche alle impostazioni del componente aggiuntivo, tali modifiche non verranno mantenute quando la cartella di lavoro viene riaperta.
+
+Gli autori dei modelli di cartelle di lavoro di Excel possono utilizzare la stessa procedura per impostare la dimensione del batch di pubblicazione per i modelli prima di caricarli nel sistema.
+
 ## <a name="copy-environment-data"></a>Copia dati dell'ambiente
 
 I dati letti nella cartella di lavoro di un ambiente possono essere copiati in un altro ambiente. Tuttavia, non è possibile modificare semplicemente la connessione URL, poiché la cache di dati nella cartella di lavoro continuerà a elaborare i dati come dati esistenti. Utilizzare invece la funzionalità Copia dati dell'ambiente per pubblicare i dati in un nuovo ambiente come nuovi dati.
@@ -123,6 +139,4 @@ Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni se
 - **Viene visualizzato il pulsante Carica applet** - Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
 - **Viene visualizzato un messaggio "Non consentito"** - Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
 - **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- **Si riceve un timeout durante la pubblicazione delle modifiche ai dati** - Se ricevi messaggi di timeout mentre stai tentando di pubblicare le modifiche ai dati in un'entità, valuta la possibilità di ridurre le dimensioni del batch di pubblicazione per la cartella di lavoro interessata. Le entità che attivano quantità maggiori di logica sulle modifiche ai record potrebbero richiedere l'invio di aggiornamenti in batch più piccoli per evitare timeout.

@@ -1,8 +1,8 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (12 febbraio 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 12 febbraio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b89e022441f69825d9c9c56ecdbca2e09e461b9e
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526891"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (12 febbraio 2020)
 
@@ -35,9 +35,9 @@ Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Hum
 
 Con la versione di questa settimana, le entità **CompFixedEmpls** e **HcmPersonImage** sono ora pubbliche e disponibili tramite ODAta.
 
-## <a name="delete-employment-from-common-data-service-doesnt-work-when-employment-details-arent-active-403193"></a>L'eliminazione dell'impiego da Common Data Service non funziona quando i dettagli sull'impiego non sono attivi (403193)
+## <a name="delete-employment-from-dataverse-doesnt-work-when-employment-details-arent-active-403193"></a>L'eliminazione dell'impiego da Dataverse non funziona quando i dettagli sull'impiego non sono attivi (403193)
 
-Questa modifica ora consente di eliminare l'impiego tramite Common Data Service quando non esistono dettagli sull'impiego attivi.
+Questa modifica ora consente di eliminare l'impiego tramite Dataverse quando non esistono dettagli sull'impiego attivi.
 
 ## <a name="course-registration-workflow-changes-status-to-complete-and-errors-after-second-approval-409749"></a>Il flusso di lavoro di registrazione del corso cambia lo stato su completato e restituisce errori dopo la seconda approvazione (409749)
 
@@ -57,9 +57,9 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 
 L'update 32 della piattaforma sarà presto disponibile. [Ulteriori informazioni sull'update 32 della piattaforma sono disponibili qui](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>Soluzione Common Data Service aggiornata
+### <a name="updated-dataverse-solution"></a>Soluzione Dataverse aggiornata
 
-Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti modifiche:
+Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche:
 
 | Descrizione | Modifica |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 | Nuove entità di impostazione della retribuzione variabile | **Tipo di piano di retribuzione variabile**</br>**Piano di retribuzione variabile**</br>**Regole distribuzione incentivi**</br>**Livello del piano di retribuzione variabile** |
 | Nuova entità **Impiego calendario lavoratore** | Aggiunta di **Entità calendario lavoro** |
 | Nuova entità **Dettagli posizione di retribuzione** | Aggiunta di **Dettagli posizione di retribuzione** |
-| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Common Data Service. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
+| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Dataverse. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -78,5 +78,3 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

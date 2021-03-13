@@ -1,9 +1,9 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (13 aprile 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 13 aprile 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 4/13/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3afc112f8a30bb187fbe37c9062afe7943e986ec
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528523"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127899"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (13 aprile 2020)
 
@@ -43,9 +43,9 @@ Con questa modifica, il campo **Precisione di arrotondamento** è ora disponibil
 
 Ora è possibile modificare la data di fine iscrizione senza ricevere l'errore indicante che il campo Base data di accumulo deve essere compilato.
 
-## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>L'entità di impiego non si sincronizza con Common Data Service (430834)
+## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>L'entità di impiego non si sincronizza con Dataverse (430834)
 
-Questa modifica corregge un problema a causa del quale i dati sull'impiego non erano sincronizzati in Common Data Service dopo aver aggiunto le dimensioni finanziarie. 
+Questa modifica corregge un problema a causa del quale i dati sull'impiego non erano sincronizzati in Dataverse dopo aver aggiunto le dimensioni finanziarie. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>Rimuovere l'associazione di più elementi padre per l'entità Intervallo orario del calendario di lavoro (431775)
 
@@ -97,5 +97,3 @@ Se l'anteprima del documento per i documenti memorizzati in SharePoint non funzi
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

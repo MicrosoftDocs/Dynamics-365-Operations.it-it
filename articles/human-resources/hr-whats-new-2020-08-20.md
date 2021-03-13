@@ -1,9 +1,9 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (20 agosto 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 20 agosto 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 8/20/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b3654617b0e8bc4b586e969913d5dc355b60b882
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527483"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130061"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (20 agosto 2020)
 
@@ -83,9 +83,9 @@ I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Po
  
 - **Calendario permessi del responsabile**: i responsabili potranno vedere i permessi approvati e in sospeso per i loro diretti subalterni in una visualizzazione calendario. Questa visualizzazione fornisce una facile comprensione di quando i membri del team non sono al lavoro.
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Elenco di controllo entità incluso in Dataverse
 
-Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
+Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Dataverse.
 
 ## <a name="known-issues"></a>Problemi noti
 
@@ -120,6 +120,3 @@ Abbiamo recentemente scoperto due problemi riguardanti l'entità **BenefitsPlanE
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

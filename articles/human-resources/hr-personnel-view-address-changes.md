@@ -2,7 +2,7 @@
 title: Visualizzare e gestire le modifiche agli indirizzi
 description: Questo argomento spiega come visualizzare e gestire le modifiche agli indirizzi in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419142"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152055"
 ---
 # <a name="view-and-manage-address-changes"></a>Visualizzare e gestire le modifiche agli indirizzi
 
@@ -125,9 +125,6 @@ Il personale delle risorse umane può visualizzare e monitorare le modifiche agl
 Quando si seleziona il riquadro **Modifiche agli indirizzi**, una nuova pagina mostra i dettagli di eventuali modifiche agli indirizzi. Se lo si desidera, è possibile selezionare **Includi future modifiche agli indirizzi** nell'angolo in alto a destra per visualizzare le modifiche agli indirizzi con una data futura.
 
 > [!NOTE]
-> Se si desidera ricevere un avviso o un'e-mail su queste modifiche agli indirizzi, è possibile creare una nuova regola di avviso nella scheda **Opzioni** del riquadro azioni. Per ulteriori informazioni sulle regole di avviso, vedere [Creare regole di avviso](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Se si desidera ricevere un avviso o un'e-mail su queste modifiche agli indirizzi, è possibile creare una nuova regola di avviso nella scheda **Opzioni** del riquadro azioni. Per ulteriori informazioni sulle regole di avviso, vedere [Creare regole di avviso](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Se si desidera configurare un flusso di lavoro per le modifiche agli indirizzi, è possibile selezionare l'opzione **Invia esternamente** nella regola di avviso, quindi utilizzare Power Automate per attivare l'evento aziendale e configurare un flusso di lavoro. Per ulteriori informazioni, vedere [Avvisi come eventi aziendali](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Se si desidera configurare un flusso di lavoro per le modifiche agli indirizzi, è possibile selezionare l'opzione **Invia esternamente** nella regola di avviso, quindi utilizzare Power Automate per attivare l'evento aziendale e configurare un flusso di lavoro. Per ulteriori informazioni, vedere [Avvisi come eventi aziendali](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

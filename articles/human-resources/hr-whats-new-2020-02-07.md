@@ -1,8 +1,8 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (7 febbraio 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 7 febbraio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0a45eed4e094cedb9d6d8ed0cb2bdc81eb31b76e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526948"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128115"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (7 febbraio 2020)
 
@@ -57,9 +57,9 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 
 L'update 32 della piattaforma sarà presto disponibile. [Ulteriori informazioni sull'update 32 della piattaforma sono disponibili qui](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>Soluzione Common Data Service aggiornata
+### <a name="updated-dataverse-solution"></a>Soluzione Dataverse aggiornata
 
-Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti modifiche:
+Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche:
 
 | Descrizione | Modifica |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 | Nuove entità di impostazione della retribuzione variabile | **Tipo di piano di retribuzione variabile**</br>**Piano di retribuzione variabile**</br>**Regole distribuzione incentivi**</br>**Livello del piano di retribuzione variabile** |
 | Nuova entità **Impiego calendario lavoratore** | Aggiunta di **Entità calendario lavoro** |
 | Nuova entità **Dettagli posizione di retribuzione** | Aggiunta di **Dettagli posizione di retribuzione** |
-| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Common Data Service. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
+| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Dataverse. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -78,5 +78,3 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

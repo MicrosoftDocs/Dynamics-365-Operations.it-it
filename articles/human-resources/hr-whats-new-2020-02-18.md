@@ -1,8 +1,8 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (18 febbraio 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 18 febbraio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526980"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128067"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (18 febbraio 2020)
 
@@ -43,17 +43,17 @@ Il nuovo modulo **Lavoratore** ora memorizza i valori di ricerca quando si cambi
 
 I riquadri della gestione retribuzioni fissa e variabile ora visualizzano i record corretti nel nuovo modulo **Lavoratore**. Si applica solo alla funzione di anteprima del modulo dipendente semplificato. È possibile abilitare questa funzione di anteprima in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Gestire le funzionalità](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Campo di stato vuoto per alcuni record di richiesta di congedo in Common Data Service (414.915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Campo di stato vuoto per alcuni record di richiesta di congedo in Dataverse (414.915)
 
-Questa modifica risolve un problema in Common Data Service quando il campo **Stato** in una richiesta di congedo è impostato su **Revisione**. Common Data Service ora riflette lo stato.
+Questa modifica risolve un problema in Dataverse quando il campo **Stato** in una richiesta di congedo è impostato su **Revisione**. Dataverse ora riflette lo stato.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Analisi lacuna competenze possibile solo per il lavoro assegnato (411390)
 
 È ora possibile eseguire un'analisi lacuna competenze su qualsiasi lavoro definito in Human Resources.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>La valuta di sistema non si sincronizza da Common Data Service in Human Resources in nuovi ambienti (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>La valuta di sistema non si sincronizza da Dataverse in Human Resources in nuovi ambienti (418011)
 
-La valuta di sistema in Common Data Service ora si sincronizza con Human Resources.
+La valuta di sistema in Dataverse ora si sincronizza con Human Resources.
 
 ## <a name="in-preview"></a>In anteprima
 
@@ -63,9 +63,9 @@ La valuta di sistema in Common Data Service ora si sincronizza con Human Resourc
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="updated-common-data-service-solution"></a>Soluzione Common Data Service aggiornata
+### <a name="updated-dataverse-solution"></a>Soluzione Dataverse aggiornata
 
-Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti modifiche:
+Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche:
 
 | Descrizione | Modifica |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 | Nuove entità di impostazione della retribuzione variabile | **Tipo di piano di retribuzione variabile**</br>**Piano di retribuzione variabile**</br>**Regole distribuzione incentivi**</br>**Livello del piano di retribuzione variabile** |
 | Nuova entità **Impiego calendario lavoratore** | Aggiunta di **Entità calendario lavoro** |
 | Nuova entità **Dettagli posizione di retribuzione** | Aggiunta di **Dettagli posizione di retribuzione** |
-| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Common Data Service. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
+| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Dataverse. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -84,5 +84,3 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Area di lavoro mobile Approvazioni fatture
-description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazioni fatture. Questa area di lavoro fornisce un elenco di fatture assegnate all'utente mediante il processo del flusso di lavoro di intestazione della fattura fornitore.
+description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazioni fatture.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683410"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127571"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Area di lavoro mobile Approvazioni fatture
 
@@ -86,6 +86,3 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 7.  Selezionare **Allegati** per visualizzare tutti i file o note associati alla fattura.
 8.  Nella pagina **Dettagli fattura**, selezionare l'azione del flusso di lavoro appropriata per completare il processo di revisione.
 9.  Selezionare **Fine**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

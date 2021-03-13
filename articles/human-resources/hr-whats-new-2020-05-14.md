@@ -1,8 +1,8 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (14 maggio 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 14 maggio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528499"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127851"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (14 maggio 2020)
 
@@ -35,9 +35,9 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Hu
 
 Le modifiche alla piattaforma sono incluse nella versione di questa settimana. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.10 delle app Finance and Operations (maggio 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Questa versione include correzioni di bug e modifiche alle viste salvate.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Verificare che le distinte di prelievo Common Data Service siano coerenti con le enumerazioni Leave (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Verificare che le distinte di prelievo Dataverse siano coerenti con le enumerazioni Leave (436343)
 
-Le distinte di prelievo Common Data Service sono ora coerenti con le enumerazioni Leave.
+Le distinte di prelievo Dataverse sono ora coerenti con le enumerazioni Leave.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Consenti agli utenti di configurare il flusso di lavoro della richiesta di congedo in base all'importo della richiesta (300044)
 
@@ -75,7 +75,7 @@ Questa modifica corregge un errore quando un piano ferie ha due tipi di ferie as
 
 Con questa modifica, il banner Introduzione viene nascosto per gli utenti che non sono amministratori di sistema o amministratori della gestione dei dati. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>L'entità Indirizzo lavoratore Common Data Service funziona in modo diverso in termini di date effettive di data e ora in Human Resources (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>L'entità Indirizzo lavoratore Dataverse funziona in modo diverso in termini di date effettive di data e ora in Human Resources (425071)
 
 Questa modifica mantiene le informazioni sull'indirizzo allineate in determinati scenari, in base alle date dell'indirizzo.
 
@@ -119,5 +119,3 @@ Questa versione inizia a combinare i parametri delle risorse umane con i paramet
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

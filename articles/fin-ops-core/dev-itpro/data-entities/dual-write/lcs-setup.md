@@ -1,6 +1,6 @@
 ---
-title: Configurazione della doppia scrittura da Lifecycle Services
-description: Questo argomento spiega come impostare una connessione a doppia scrittura tra un nuovo ambiente Finance and Operations e un nuovo ambiente Dataverse da Microsoft Dynamics Lifecycle Services (LCS).
+title: Configurazione a doppia scrittura da Lifecycle Services
+description: Questo argomento spiega come configurare una connessione a doppia scrittura da Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683527"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127595"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione della doppia scrittura da Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione a doppia scrittura da Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
     - Se un ambiente Dataverse è già predisposto per il tenant, è possibile selezionarlo.
 
         1. Impostare l'opzione **Configura Dataverse** su **Sì**.
-        2. Nel campo **Ambienti disponibili**, selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
+        2. Nella colonna **Ambienti disponibili**, selezionare l'ambiente da integrare con i dati Finance and Operations. L'elenco include tutti gli ambienti per cui si dispone dei privilegi di amministratore.
         3. Selezionare la casella di controllo **Accetto** per indicare che si accettano le condizioni.
 
         ![Scheda Dataverse quando un ambiente Dataverse è già predisposto per il tenant](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
         ![Scheda Dataverse quando il tenant non dispone già si un ambiente Dataverse](../dual-write/media/lcs_setup_2.png)
 
 7. Completare i rimanenti passaggi nella procedura guidata **Impostazioni di distribuzione**.
-8. Dopo che l'ambiente ha lo stato **Distribuito**, aprire la pagina dei dettagli dell'ambiente. La sezioni **Informazioni sull'ambiente Dataverse** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Dataverse collegati.
+8. Dopo che l'ambiente ha lo stato **Distribuito**, aprire la pagina dei dettagli dell'ambiente. La sezione **Integrazione Power Platform** mostra i nomi dell'ambiente Finance and Operations e dell'ambiente Dataverse collegati.
 
-    ![Sezione informazioni sull'ambiente Dataverse](../dual-write/media/lcs_setup_3.png)
+    ![Sezione Integrazione Power Platform](../dual-write/media/lcs_setup_3.png)
 
 9. Un amministratore dell'ambiente Finance and Operations deve accedere a LCS e selezionare **Collega a CDS per app** per completare il collegamento. La pagina dei dettagli dell'ambiente mostra le informazioni di contatto dell'amministratore.
 
@@ -86,10 +84,8 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 
 10. Per aprire l'area di lavoro **Integrazione dei dati** nell'ambiente Finance and Operations e controllare i modelli disponibili, selezionare **Collega a CDS per app**.
 
-    ![Pulsante Collega a CDS per app nella sezione informazioni sull'ambiente Dataverse](../dual-write/media/lcs_setup_4.png)
+    ![Pulsante Collega a CDS per app nella sezione Integrazione Power Platform](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Non è possibile scollegare gli ambienti utilizzando LCS. Per scollegare un ambiente, aprire l'area di lavoro **Integrazione dei dati** nell'ambiente Finance and Operations, quindi selezionare **Scollega**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

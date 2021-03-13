@@ -1,8 +1,8 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (10 marzo 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 10 marzo 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b1819ddb996d83b03151eb228ec740f603f98409
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526918"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127995"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (10 marzo 2020)
 
@@ -45,7 +45,7 @@ Il modulo di manutenzione delle attività del lavoratore elenca tutte le attivit
 
 Esempio: Benjamin Martin è un amministratore dei benefit. Durante l'inserimento del dipendente, vengono create le attività per Benjamin per rivedere la selezione dei benefit del nuovo dipendente. Benjamin ha attività passate che ha completato e attività future che deve completare. Benjamin decide di lasciare l'azienda, quindi le attività devono essere riassegnate o rimosse. Il modulo di manutenzione dell'attività (nel riquadro azioni del modulo **Lavoratore**) consente di riassegnare o rimuovere tutte le attività di Benjamin.  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La soluzione Common Data Service è ora disponibile con le seguenti modifiche:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>La soluzione Dataverse è ora disponibile con le seguenti modifiche:
 
 | descrizione | Resto |
 | --- | --- |
@@ -57,18 +57,18 @@ Esempio: Benjamin Martin è un amministratore dei benefit. Durante l'inserimento
 | Nuove entità di impostazione della retribuzione variabile | <ul><li>**Tipo di piano di retribuzione variabile**</li><li>**Piano di retribuzione variabile**</li><li>**Regole distribuzione incentivi**</li><li>**Livello del piano di retribuzione variabile**</li></ul> |
 | Nuova entità **Impiego calendario lavoratore** | <ul><li>Aggiunta di **Entità calendario lavoro**</li></ul> |
 | Nuova entità **Dettagli posizione di retribuzione** | <ul><li>Aggiunta di **Dettagli posizione di retribuzione**</li></ul> |
-| Nuova entità **Titolo** | <ul><li>**Titolo** è stato aggiunto</li></ul> La nuova entità **Titolo** è inclusa in Common Data Service ma non è referenziata dalle entità **Posizione lavorativa** o **Lavoro** in questo momento. |
+| Nuova entità **Titolo** | <ul><li>**Titolo** è stato aggiunto</li></ul> La nuova entità **Titolo** è inclusa in Dataverse ma non è referenziata dalle entità **Posizione lavorativa** o **Lavoro** in questo momento. |
 
 > [!NOTE]
-> Le dimensioni finanziarie per le posizioni e per l'occupazione forniscono l'integrazione in una direzione per gli aggiornamenti da Human Resources a Common Data Service. Gli aggiornamenti sulle dimensioni finanziarie al momento non vengono sincronizzati da Common Data Service a Human Resources.
+> Le dimensioni finanziarie per le posizioni e per l'occupazione forniscono l'integrazione in una direzione per gli aggiornamenti da Human Resources a Dataverse. Gli aggiornamenti sulle dimensioni finanziarie al momento non vengono sincronizzati da Dataverse a Human Resources.
 
-Nelle prossime settimane, questi cambiamenti di entità saranno disponibili in tutti gli ambienti. Per installare manualmente l'ultima soluzione Common Data Service per Human Resources:
+Nelle prossime settimane, questi cambiamenti di entità saranno disponibili in tutti gli ambienti. Per installare manualmente l'ultima soluzione Dataverse per Human Resources:
 
 1.  Accedere all'[Interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Selezionare **Ambienti**.
 
-3.  Trovare l'ambiente da aggiornare. L'ambiente deve corrispondere al **nome dell'ambiente** nella sezione **informazioni Common Data Service** del modulo **Informazioni su** in Human Resources.
+3.  Trovare l'ambiente da aggiornare. L'ambiente deve corrispondere al **nome dell'ambiente** nella sezione **informazioni Dataverse** del modulo **Informazioni su** in Human Resources.
 
 4.  Selezionare l'ambiente per visualizzare i dettagli dell'ambiente.
 
@@ -106,5 +106,3 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 [Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

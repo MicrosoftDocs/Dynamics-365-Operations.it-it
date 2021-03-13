@@ -2,7 +2,7 @@
 title: Configurare i parametri di Human Resources
 description: Le impostazioni di alcuni parametri di Human Resources sono condivise tra società, mentre le impostazioni di altri parametri sono specifiche della società. In questo articolo viene illustrato come impostare parametri risorse umane specifici della società.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 131606ebaff49a2c63d22bcfdb5e523f4df87ec6
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419141"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129127"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurare i parametri di Human Resources
 
@@ -50,6 +50,3 @@ Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che v
 
 > [!NOTE]
 > Il numero di ore lavorate non può superare le 1.250 ore e la durata dell'impiego non può superare i 12 mesi. Questi valori massimi sono definiti in osservanza delle normative federali negli Stati Uniti. Infine, le impostazioni nella scheda **Dipendente self-service** determinano le informazioni che i responsabili possono immettere per conto dei propri dipendenti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

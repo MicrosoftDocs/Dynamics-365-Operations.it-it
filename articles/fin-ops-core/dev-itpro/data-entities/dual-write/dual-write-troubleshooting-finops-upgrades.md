@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683601"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131223"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
-È possibile che venga visualizzato un messaggio di errore simile al seguente esempio quando si tenta di utilizzare l'entità **DualWriteProjectConfiguration** per aggiornare un'app Finance and Operations al Platform update 30.
+È possibile che venga visualizzato un messaggio di errore simile al seguente esempio quando si tenta di utilizzare la tabella **DualWriteProjectConfiguration** per aggiornare un'app Finance and Operations al Platform update 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Per risolvere il problema, procedere come segue.
 8. Selezionare **Sincronizza** per eseguire una sincronizzazione completa del database.
 9. Una volta che la sincronizzazione completa del database ha esito positivo, rieseguire il passaggio di sincronizzazione del database in Microsoft Dynamics Lifecycle Services (LCS) e utilizzare gli script di aggiornamento manuale come applicabile, in modo da poter procedere con l'aggiornamento.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Problema di campi di entità mancanti sulle mappe
+## <a name="missing-table-columns-issue-on-maps"></a>Problema di colonne di tabella mancanti sulle mappe
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
@@ -70,27 +70,24 @@ Nella pagina **Doppia scrittura** è possibile che venga visualizzato un messagg
 
 *Campo di origine mancante \<field name\> nello schema.*
 
-![Esempio del messaggio di errore del campo di origine mancante](media/error_missing_field.png)
+![Esempio del messaggio di errore della colonna di origine mancante](media/error_missing_field.png)
 
-Per risolvere il problema, seguire innanzitutto questi passaggi per assicurarsi che i campi siano nell'entità.
+Per risolvere il problema, seguire innanzitutto questi passaggi per assicurarsi che le colonne siano nella tabella.
 
 1. Accedere alla macchina virtuale per l'app Finance and Operations.
-2. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare il riquadro **Parametri framework** e quindi nella scheda **Impostazioni tabella**, selezionare **Aggiorna elenco entità** per aggiornare le tabelle.
-3. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare la scheda **Tabelle dati** e assicurarsi che l'entità sia elencata. Se l'entità non è elencata, accedere alla macchina virtuale per l'app Finance and Operations e assicurarsi che l'entità sia disponibile.
+2. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare il riquadro **Parametri framework** e quindi nella scheda **Impostazioni tabella**, selezionare **Aggiorna elenco tabelle** per aggiornare le tabelle.
+3. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare la scheda **Tabelle dati** e assicurarsi che la tabella sia elencata. Se la tabella non è elencata, accedere alla macchina virtuale per l'app Finance and Operations e assicurarsi che la tabella sia disponibile.
 4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
-5. Selezionare **Aggiorna elenco entità** per completare automaticamente i campi nei mapping della tabella.
+5. Selezionare **Aggiorna elenco tabelle** per completare automaticamente le colonne nei mapping della tabella.
 
 Se il problema persiste, attenersi alla seguente procedura.
 
 > [!IMPORTANT]
-> Questi passaggi guidano l'utente attraverso il processo di eliminazione di un'entità e quindi l'aggiunta di una nuova. Per evitare problemi, assicurarsi di seguire esattamente i passaggi.
+> Questi passaggi guidano l'utente attraverso il processo di eliminazione di una tabella e quindi l'aggiunta di una nuova. Per evitare problemi, assicurarsi di seguire esattamente i passaggi.
 
 1. Nell'app Finance and Operations, andare a **Aree di lavoro \> Gestione dei dati** e selezionare il riquadro **Tabelle dati**.
-2. Trovare l'entità in cui manca l'attributo. Fare clic su **Modifica mapping di destinazione** nella barra degli strumenti.
+2. Trovare la tabella in cui manca l'attributo. Fare clic su **Modifica mapping di destinazione** nella barra degli strumenti.
 3. Nel riquadro **Mappa gestione temporanea a destinazione**, fare clic si **Genera mapping**.
 4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
 5. Se l'attributo non viene popolato automaticamente sulla mappa, aggiungerlo manualmente facendo clic sul pulsante **Aggiungi attributo** e quindi su **Salva**. 
 6. Selezionare la mappa e fare clic su **Esegui**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

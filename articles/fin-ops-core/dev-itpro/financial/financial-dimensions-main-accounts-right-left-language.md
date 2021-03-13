@@ -1,6 +1,6 @@
 ---
-title: Dimensioni finanziarie e conti principali in lingue leggibili da destra a sinistra
-description: In questo argomento vengono descritte alcune decisioni di implementazione che è opportuno considerare quando si utilizza una lingua da destra a sinistra ed è necessario impostare le dimensioni finanziarie e i conti principali.
+title: Dimensioni finanziarie e conti principali nelle lingue da destra a sinistra
+description: In questo argomento vengono descritte le decisioni che è opportuno considerare quando si utilizza una lingua da destra a sinistra ed è necessario impostare le dimensioni finanziarie e i conti principali.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680484"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127649"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Dimensioni finanziarie e conti principali in lingue leggibili da destra a sinistra
 
@@ -38,6 +38,3 @@ Le dimensioni finanziarie e i conti principali sono componenti chiave della fase
 - Evitare di utilizzare il delimitatore di piano dei conti selezionato nei valori delle dimensioni finanziarie e dei conti principali.
 
 Seguendo queste procedure consigliate, contribuite a garantire la rappresentazione coerente dell'ordine definito dall'utente in ogni parte del sistema.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

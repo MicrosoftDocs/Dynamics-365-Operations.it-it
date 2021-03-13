@@ -2,7 +2,7 @@
 title: Creare reparti e includerli nella gerarchia dei reparti
 description: Un reparto è un'unità operativa che rappresenta una categoria o un'area operativa di un'organizzazione. Un reparto è responsabile di una specifica area dell'organizzazione, ad esempio la vendita, la contabilità o le risorse umane. È possibile utilizzare i reparti per creare report sulle aree operative. I reparti possono essere responsabili di profitti e perdite.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419131"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130375"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Creare reparti e includerli nella gerarchia dei reparti
 
@@ -54,6 +54,3 @@ Per aggiungere un reparto alla gerarchia reparti, effettuare le operazioni indic
 
 ## <a name="steps-for-creating-a-department"></a>Passaggi per creare un reparto
 Fare riferimento all'articolo [Definire nuovi reparti](../fin-and-ops/hr/tasks/define-new-departments.md) per la procedura dettagliata relativa alla creazione di un nuovo reparto. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
