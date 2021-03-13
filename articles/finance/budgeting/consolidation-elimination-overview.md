@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444904"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120481"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Panoramica su eliminazione e consolidamento
 
@@ -60,6 +59,7 @@ L'opzione **Report finanziari** dispone di un numero illimitato di valute di dic
 L'opzione **Report finanziari** è la soluzione, perché i dettagli a livello di transazione può essere visualizzati per qualsiasi società quando vengono incluse nella definizione dell'albero gerarchico.
 
 4.  Si utilizza la pianificazione o il controllo del budget e deve essere consolidato.
+
 L'opzione **Report finanziari** è la soluzione per consolidare i dati di pianificazione o del controllo del budget.
 
 5.  Le filiali sono dislocate in tutto il mondo e sono disponibili più piani dei conti. Qual è il metodo migliore per il consolidamento dei dati?
@@ -86,10 +86,10 @@ L'opzione **Report finanziari** è la soluzione. Le gerarchie organizzative che 
 
 Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e quindi utilizzando l'opzione **Consolida con importazione** sull'altra istanza, è possibile consolidare i dati.
 
+11. È possibile eseguire un consolidamento con il budget nello stato **BOZZA**? 
+            
+Non sarai in grado di elaborare o completare i tuoi budget nella società di consolidamento. Si consiglia di utilizzare Financial Reporting per consolidare i budget in stato di bozza.
 
 Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

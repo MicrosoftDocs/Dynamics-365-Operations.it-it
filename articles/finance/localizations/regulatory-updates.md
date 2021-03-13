@@ -3,24 +3,23 @@ title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/13/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517502"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118657"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -43,43 +42,34 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |Paese|Data rilascio|Versione di rilascio|Aggiornamento normativo|
 |--------------------|---------------|-------|-------|
 |      Austria         |   2020 settembre      | 10.0.15      |   Il formato della dichiarazione IVA U30 è stato aggiornato per la creazione di report 2020   |
-|      Bahrein         |   2020 giugno      | 10.0.13      |   Scadenza emissione fattura (GCC)   |
-|      Bahrein         |   2020 settembre      | 10.0.13      |   Fattura di progetto per il Bahrein   |
-|      Bahrein         |   2020 giugno      | 10.0.13      |   Dichiarazione IVA per il Bahrein: abilitare la descrizione della transazione   |   
-|      Brasile         |   Agosto 2020      | 10.0.14, 10.0.13      |   Dichiarazione ADRCST PR   |
-|      Brasile         |   2020° maggio      | 10.0.13      |   SPED ECF layout 6   |
-|      Brasile         |   Luglio 2020      | 10.0.13      |   SPED fiscale - Record C176 - Stato RS   |
-|      Brasile         |   2020 ottobre      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 - Adozione delle regole di convalida sul codice Benefit del Distrito Federal   |
-|      Brasile         |   2020 ottobre      | 10.0.16      |   SPED Fiscal - Layout 015   |
-|      Brasile         |   novembre 2020      | 10.0.15HF      |   Aggiornamento SPED Fiscal ICMS/IPI record C176 per stato RS   |
+|      Belgio         |   2020 dicembre      | 10.0.16      |   Belgio: miglioramento delle prestazioni del report "transazioni contabili di esportazione" in Dynamics 365 Finance   |   
+|      Brasile         |   novembre 2020      | 10.0.15HF      |   SPED fiscale ICMS/IPI - Record C176 - Stato RS   |
+|      Brasile         |   2020 ottobre      | 10.0.16, 10.0.15HF      |   NF-e NT2019.001 v1.51 - Adozione delle regole di convalida sul codice Benefit del Distrito Federal   |
+|      Brasile         |   Ottobre 2020, Novembre 2020      | 10.0.16, 10.0.15HF      |   SPED Fiscal - Layout 015   |
 |      Brasile         |   2020 ottobre      | 10.0.16      |   Dichiarazione DRCST SC - SEF 262/2020   |
 |      Brasile         |   2020 ottobre      | 10.0.16      |   SPED Fiscal ICMS / IPI record C176   |
-|      Repubblica Ceca      |   Luglio 2020      | 10.0.13      |   Il rendiconto di controllo IVA diventa lo schema XML (elenco delle fatture)   |
-|      Repubblica Ceca         |   Luglio 2020      | 10.0.13      |   Dichiarazione IVA in XML, anteprima della dichiarazione IVA in Excel e formati XML della dichiarazione di controllo IVA basati sul modello di dichiarazione fiscale   |
-|      Europa        |   Agosto 2020       | 10.0.14      |   Trasferisci ID IVA partner in Intrastat  |
-|      Finlandia         |   Luglio 2020       | 10.0.13      |   Supporto di fatture elettroniche per la Finlandia  |
-|      India         |   Luglio 2020      | 10.0.13      |   TCS sulle vendite di merci come da sezione 206C (1H) - Soglia come da accumulo di transazioni basato su PAN.  |
-|      India         |   Agosto 2020, giugno 2020      | 10.0.13      |   Nota credito/debito rispetto a fattura di esportazione  |
-|      India         |   Agosto 2020      | 10.0.13      |   Fatture elettroniche in GST  |
-|      India         |   Luglio 2020      | 10.0.13      |   Nuovo strumento offline GSTR (ANX-1 e ANX-2) (versione beta)  |
-|      India         |   2020 ottobre      | 10.0.14HF, 10.0.13HF      |   Fattura elettronica in base alla GST nell'ordine di trasferimento stock per l'India|
-|      India         |   2020 ottobre      | 10.0.14HF, 10.0.13HF      |   Fattura elettronica ai sensi di GST per l'India con più registrazioni GSTIN|
-|      India         |   2020 settembre      | 10.0.13HF      |   Aliquota ritenuta d'acconto in 3/5 cifre decimali|
-|      India         |   2020 settembre      | 10.0.14HF      |   Gruppo di sequenza numerica: "GSTNSG", tipo di transazione: "Fattura GST" da impostare per il gruppo di sequenza numerica di riferimento GST di informazioni fiscali "0073"|
-|      Italia         |   Luglio 2020      | 10.0.13      |   Modifiche nel formato delle fatture elettroniche italiane - FatturaPA |
-|      Malesia         |   Luglio 2020      | 10.0.13      |   Report SST |
-|      Messico         |   2020 settembre      | 10.0.13HF      |   Posizione dello schema URL CFDI basata sul documento Anexo 20 |
+|      Brasile         |   2020 dicembre      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Identificazione dell'intermediario della piattaforma digitale (Aggiornamenti regole di convalida e layout)   |
+|      Europa        |   2021 gennaio       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Impatto del protocollo dell'Irlanda del Nord sulle relazioni di commercio intracomunitario nei paesi dell'UE  |
+|      Germania        |   2021 gennaio       | 10.0.16HF      |   Il formato di notifica anticipata IVA ELSTER UstVA è stato ampliato con due nuovi riquadri 37,50 per cancellazione debiti irrecuperabili  |
+|      Germania        |   2021 gennaio       | 10.0.17      |   Modifiche alla struttura XML di notifica anticipata IVA ELSTER (UstVA)  |
+|      Globali        |   2021 gennaio       | 10.0.16      |   Abilita meccanismo di reverse charge per schema IVA/GST  |
+|      India         |   2020 dicembre      | 10.0.16, HF, 10.0.15HF      |   Modifica al TCS on Sales of Goods Section 206 9 (1H) basata sul comunicato stampa CBDT  |
+|      Lettonia         |   2020 dicembre      | 10.0.17      |   Il formato Intrastat viene aggiornato a partire dal 2021  |
+|      Messico         |   2020 dicembre      | 10.0.17, 10.0.16, 10.0.15      |   Aggiornamento attributo "Monto" |
 |      Paesi Bassi         |   2020 ottobre      | 10.0.16     |   Il formato Intrastat viene aggiornato a partire dal 2021 |
-|      Norvegia         |   Agosto 2020      | 10.0.14     |   SAF-T: il livello di raggruppamento delle transazioni per "Giustificativo" deve essere riportato a livello di elemento "Transazione" anziché "Giornale di registrazione" |
-|      Polonia          |   2020 settembre     | 10.0.14     |   Polonia: formato Excel JPK-V7M (VDEK) - per sostituire il report SSRS  |
-|      Polonia          |   Luglio 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Miglioramenti per la scissione pagamenti su base volontaria |
-|      Polonia          |   2020 ottobre     | 10.0.13HF     |   Miglioramenti per la scissione pagamenti obbligatoria |
-|      Polonia          |   novembre 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) - Tipo di documento di vendita FP e RO per transazioni di vendita al dettaglio |
+|      Paesi Bassi         |   2020 dicembre      | 10.0.167     |   Nuova versione di tassonomia olandese NT15 |
+|      Polonia          |   2020 settembre     | 10.0.15     |   Miglioramenti per la scissione pagamenti su base volontaria |
+|      Polonia          |   novembre 2020     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) - Tipo di documento di vendita FP e RO per transazioni di vendita al dettaglio |
 |      Polonia          |   2020 settembre     | 10.0.15     |   Polonia: JPK-V7M (VDEK) - sblocca la possibilità di eseguire la generazione di report per parti |
 |      Polonia          |   2020 ottobre     | 10.0.16     |   Report JPK-V7M (VDEK) - Utilizzo del parametro "Pagamento volontario diviso" |
-|      Russia          |   Agosto 2020     | 10.0.14    |   Il formato del report di contabilità cambia a partire dall'anno 2020  |
-|      Russia          |   Luglio 2020     | 10.0.13    |   Calcolo dell'ammortamento sulla base del costo di acquisizione e delle riparazioni importanti con l'applicazione del bonus di ammortamento nella contabilità fiscale  |
+|      Polonia          |   novembre 2020     | 10.0.16, 10.0.15HF     |   Vendita al dettaglio: emissione di una fattura per il cliente al dettaglio per richiesta |
+|      Polonia          |   2021 gennaio     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Polonia: chiarimenti su JPK_KR (libri contabili SAF), in vigore da gennaio 2021 |
 |      Russia          |   novembre 2020     | 10.0.16    |   Il formato della dichiarazione IVA viene aggiornato alla versione 5.07 a partire dalla rendicontazione per il quarto trimestre 2020|
+|      Russia          |   2020 ottobre     | 10.0.16    |   Modifiche al PBU18 per la rendicontazione contabile per il 2020|
+|      Russia          |   2021 gennaio     | 10.0.17    |   Un nuovo formato della dichiarazione dei redditi immobiliari (versione tecnica 5.07 anziché 5.06) per la dichiarazione 2020|
+|      Spagna          |   novembre 2020     | 10.0.17    |   Convalida aggiornamento SII ed errori v.2.1 (bis) dal 1 gennaio 2021|
+|      Regno Unito         |   2020 dicembre     | 10.0.17, 10.0.16, 10.0.15    |   Registrazione fiscale delle società nelle fatture dei clienti (Brexit - Protocollo Irlanda del Nord)|
+|      Regno Unito          |   2020 dicembre     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit - Impatto del protocollo dell'Irlanda del Nord sulle società che commerciano beni in entrambe le località del Regno Unito e del Irlanda del Nord|
 
 
 
@@ -87,6 +77,3 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 - Trovare tutti gli aggiornamenti normativi pianificati e rilasciati in [Lifecycle Service - Ricerca argomento](https://lcs.dynamics.com/Logon/Index) (accesso obbligatorio).
 - Per un elenco delle localizzazioni supportate per , vedere la [guida International availability](https://aka.ms/dynamics_365_international_availability_deck).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
