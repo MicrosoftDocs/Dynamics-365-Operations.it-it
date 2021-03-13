@@ -11,93 +11,92 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4d2f2b0232666694788abb08b05408f725a1f8e5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408073"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009081"
 ---
-# <a name="eur-00011-generate-the-eu-sales-list-report"></a><span data-ttu-id="e6995-103">EUR-00011 - Generare la dichiarazione Elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="e6995-103">EUR-00011 Generate the EU sales list report</span></span>
+# <a name="eur-00011-generate-the-eu-sales-list-report"></a><span data-ttu-id="a818d-103">EUR-00011 - Generare la dichiarazione Elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="a818d-103">EUR-00011 Generate the EU sales list report</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e6995-104">In questa procedura vengono descritti i passaggi per generare il report elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="e6995-104">This procedure walks you through generating the EU sales list report.</span></span> <span data-ttu-id="e6995-105">È incluso il trasferimento delle transazioni commerciali intracomunitarie nell'elenco vendite UE e l'esecuzione del report.</span><span class="sxs-lookup"><span data-stu-id="e6995-105">This includes transferring intra-community trade transactions to the EU sales list and running the report.</span></span> <span data-ttu-id="e6995-106">Questa procedura include inoltre la creazione di una transazione commerciale intracomunitaria per fini dimostrativi.</span><span class="sxs-lookup"><span data-stu-id="e6995-106">This procedure also includes creating an intra-community trade transaction for demo purposes.</span></span> <span data-ttu-id="e6995-107">Per ulteriori informazioni sulla dichiarazione elenco vendite UE, inclusi i prerequisiti necessari, consultare la Guida.</span><span class="sxs-lookup"><span data-stu-id="e6995-107">For more information about EU Sales list reporting, including required prerequisites, refer to Help.</span></span>
+<span data-ttu-id="a818d-104">In questa procedura vengono descritti i passaggi per generare il report elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="a818d-104">This procedure walks you through generating the EU sales list report.</span></span> <span data-ttu-id="a818d-105">È incluso il trasferimento delle transazioni commerciali intracomunitarie nell'elenco vendite UE e l'esecuzione del report.</span><span class="sxs-lookup"><span data-stu-id="a818d-105">This includes transferring intra-community trade transactions to the EU sales list and running the report.</span></span> <span data-ttu-id="a818d-106">Questa procedura include inoltre la creazione di una transazione commerciale intracomunitaria per fini dimostrativi.</span><span class="sxs-lookup"><span data-stu-id="a818d-106">This procedure also includes creating an intra-community trade transaction for demo purposes.</span></span> <span data-ttu-id="a818d-107">Per ulteriori informazioni sulla dichiarazione elenco vendite UE, inclusi i prerequisiti necessari, consultare la Guida.</span><span class="sxs-lookup"><span data-stu-id="a818d-107">For more information about EU Sales list reporting, including required prerequisites, refer to Help.</span></span>
 
-<span data-ttu-id="e6995-108">Questa procedura si applica a tutti i paesi europei.</span><span class="sxs-lookup"><span data-stu-id="e6995-108">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="e6995-109">La procedura è stata creata utilizzando la società di dati dimostrativi DEMF e di conseguenza la Germania come paese di esempio.</span><span class="sxs-lookup"><span data-stu-id="e6995-109">The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</span></span> <span data-ttu-id="e6995-110">Nella procedura si utilizza anche il Portogallo come paese UE di esempio.</span><span class="sxs-lookup"><span data-stu-id="e6995-110">The procedure also uses Portugal as an exemplar EU country/region.</span></span> <span data-ttu-id="e6995-111">Prima di poter completare questa procedura, è necessario configurare la dichiarazione dell'elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="e6995-111">Before you can complete this procedure, you must configure EU sales list reporting.</span></span>
+<span data-ttu-id="a818d-108">Questa procedura si applica a tutti i paesi europei.</span><span class="sxs-lookup"><span data-stu-id="a818d-108">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="a818d-109">La procedura è stata creata utilizzando la società di dati dimostrativi DEMF e di conseguenza la Germania come paese di esempio.</span><span class="sxs-lookup"><span data-stu-id="a818d-109">The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</span></span> <span data-ttu-id="a818d-110">Nella procedura si utilizza anche il Portogallo come paese UE di esempio.</span><span class="sxs-lookup"><span data-stu-id="a818d-110">The procedure also uses Portugal as an exemplar EU country/region.</span></span> <span data-ttu-id="a818d-111">Prima di poter completare questa procedura, è necessario configurare la dichiarazione dell'elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="a818d-111">Before you can complete this procedure, you must configure EU sales list reporting.</span></span>
 
-<span data-ttu-id="e6995-112">Questa procedura è destinata ai contabili.</span><span class="sxs-lookup"><span data-stu-id="e6995-112">This procedure is intended for accountants.</span></span>
+<span data-ttu-id="a818d-112">Questa procedura è destinata ai contabili.</span><span class="sxs-lookup"><span data-stu-id="a818d-112">This procedure is intended for accountants.</span></span>
 
 
-## <a name="create-an-intra-community-sales-transaction-for-demo-purposes"></a><span data-ttu-id="e6995-113">Creare una transazione di vendita intracomunitaria per fini dimostrativi</span><span class="sxs-lookup"><span data-stu-id="e6995-113">Create an intra-community sales transaction for demo purposes</span></span>
-1. <span data-ttu-id="e6995-114">Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="e6995-114">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="e6995-115">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="e6995-115">Click New.</span></span>
-3. <span data-ttu-id="e6995-116">Nel campo Conto cliente digitare 'PRT-001'.</span><span class="sxs-lookup"><span data-stu-id="e6995-116">In the Customer account field, type 'PRT-001'.</span></span>
-4. <span data-ttu-id="e6995-117">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-117">Click OK.</span></span>
-5. <span data-ttu-id="e6995-118">Nel campo Numero articolo digitare "D0001".</span><span class="sxs-lookup"><span data-stu-id="e6995-118">In the Item number field, type 'D0001'.</span></span>
-6. <span data-ttu-id="e6995-119">Espandere la sezione Dettagli riga.</span><span class="sxs-lookup"><span data-stu-id="e6995-119">Expand the Line details section.</span></span>
-7. <span data-ttu-id="e6995-120">Fare clic sulla scheda Impostazioni.</span><span class="sxs-lookup"><span data-stu-id="e6995-120">Click the Setup tab.</span></span>
-8. <span data-ttu-id="e6995-121">Nel campo Fascia IVA articoli digitare 'FULL'.</span><span class="sxs-lookup"><span data-stu-id="e6995-121">In the Item sales tax group field, type 'FULL'.</span></span>
-9. <span data-ttu-id="e6995-122">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="e6995-122">Click Add line.</span></span>
-10. <span data-ttu-id="e6995-123">Nel campo Numero articolo digitare "D0003".</span><span class="sxs-lookup"><span data-stu-id="e6995-123">In the Item number field, type 'D0003'.</span></span>
-11. <span data-ttu-id="e6995-124">Nel campo Fascia IVA articoli digitare 'RED'.</span><span class="sxs-lookup"><span data-stu-id="e6995-124">In the Item sales tax group field, type 'RED'.</span></span>
-12. <span data-ttu-id="e6995-125">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="e6995-125">Click Save.</span></span>
-13. <span data-ttu-id="e6995-126">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="e6995-126">On the Action Pane, click Invoice.</span></span>
-14. <span data-ttu-id="e6995-127">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="e6995-127">Click Invoice.</span></span>
-15. <span data-ttu-id="e6995-128">Espandere la sezione Parametri.</span><span class="sxs-lookup"><span data-stu-id="e6995-128">Expand the Parameters section.</span></span>
-16. <span data-ttu-id="e6995-129">Nel campo Quantità selezionare "Tutto".</span><span class="sxs-lookup"><span data-stu-id="e6995-129">In the Quantity field, select 'All'.</span></span>
-17. <span data-ttu-id="e6995-130">Espandere la sezione Impostazione.</span><span class="sxs-lookup"><span data-stu-id="e6995-130">Expand the Setup section.</span></span>
-18. <span data-ttu-id="e6995-131">Nel campo Data fattura impostare la data su '01/11/2016'.</span><span class="sxs-lookup"><span data-stu-id="e6995-131">In the Invoice date field, set the date to '01/11/2016'.</span></span>
-19. <span data-ttu-id="e6995-132">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-132">Click OK.</span></span>
-20. <span data-ttu-id="e6995-133">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-133">Click OK.</span></span>
+## <a name="create-an-intra-community-sales-transaction-for-demo-purposes"></a><span data-ttu-id="a818d-113">Creare una transazione di vendita intracomunitaria per fini dimostrativi</span><span class="sxs-lookup"><span data-stu-id="a818d-113">Create an intra-community sales transaction for demo purposes</span></span>
+1. <span data-ttu-id="a818d-114">Andare a Contabilità clienti > Ordini > Tutti gli ordini cliente.</span><span class="sxs-lookup"><span data-stu-id="a818d-114">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="a818d-115">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="a818d-115">Click New.</span></span>
+3. <span data-ttu-id="a818d-116">Nel campo Conto cliente digitare 'PRT-001'.</span><span class="sxs-lookup"><span data-stu-id="a818d-116">In the Customer account field, type 'PRT-001'.</span></span>
+4. <span data-ttu-id="a818d-117">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-117">Click OK.</span></span>
+5. <span data-ttu-id="a818d-118">Nel campo Numero articolo digitare "D0001".</span><span class="sxs-lookup"><span data-stu-id="a818d-118">In the Item number field, type 'D0001'.</span></span>
+6. <span data-ttu-id="a818d-119">Espandere la sezione Dettagli riga.</span><span class="sxs-lookup"><span data-stu-id="a818d-119">Expand the Line details section.</span></span>
+7. <span data-ttu-id="a818d-120">Fare clic sulla scheda Impostazioni.</span><span class="sxs-lookup"><span data-stu-id="a818d-120">Click the Setup tab.</span></span>
+8. <span data-ttu-id="a818d-121">Nel campo Fascia IVA articoli digitare 'FULL'.</span><span class="sxs-lookup"><span data-stu-id="a818d-121">In the Item sales tax group field, type 'FULL'.</span></span>
+9. <span data-ttu-id="a818d-122">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="a818d-122">Click Add line.</span></span>
+10. <span data-ttu-id="a818d-123">Nel campo Numero articolo digitare "D0003".</span><span class="sxs-lookup"><span data-stu-id="a818d-123">In the Item number field, type 'D0003'.</span></span>
+11. <span data-ttu-id="a818d-124">Nel campo Fascia IVA articoli digitare 'RED'.</span><span class="sxs-lookup"><span data-stu-id="a818d-124">In the Item sales tax group field, type 'RED'.</span></span>
+12. <span data-ttu-id="a818d-125">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="a818d-125">Click Save.</span></span>
+13. <span data-ttu-id="a818d-126">Nel riquadro azioni fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="a818d-126">On the Action Pane, click Invoice.</span></span>
+14. <span data-ttu-id="a818d-127">Fare clic su Fattura.</span><span class="sxs-lookup"><span data-stu-id="a818d-127">Click Invoice.</span></span>
+15. <span data-ttu-id="a818d-128">Espandere la sezione Parametri.</span><span class="sxs-lookup"><span data-stu-id="a818d-128">Expand the Parameters section.</span></span>
+16. <span data-ttu-id="a818d-129">Nel campo Quantità selezionare "Tutto".</span><span class="sxs-lookup"><span data-stu-id="a818d-129">In the Quantity field, select 'All'.</span></span>
+17. <span data-ttu-id="a818d-130">Espandere la sezione Impostazione.</span><span class="sxs-lookup"><span data-stu-id="a818d-130">Expand the Setup section.</span></span>
+18. <span data-ttu-id="a818d-131">Nel campo Data fattura impostare la data su '01/11/2016'.</span><span class="sxs-lookup"><span data-stu-id="a818d-131">In the Invoice date field, set the date to '01/11/2016'.</span></span>
+19. <span data-ttu-id="a818d-132">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-132">Click OK.</span></span>
+20. <span data-ttu-id="a818d-133">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-133">Click OK.</span></span>
 
-## <a name="transfer-intra-community-trade-transactions-to-the-eu-sales-list"></a><span data-ttu-id="e6995-134">Trasferire le transazioni commerciali intracomunitarie nell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="e6995-134">Transfer intra-community trade transactions to the EU sales list</span></span>
-1. <span data-ttu-id="e6995-135">Passare a Imposta > Dichiarazioni > Commercio estero > Elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="e6995-135">Go to Tax > Declarations > Foreign trade > EU sales list.</span></span>
-2. <span data-ttu-id="e6995-136">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="e6995-136">Click Transfer.</span></span>
-3. <span data-ttu-id="e6995-137">Selezionare Sì nel campo Articolo per trasferire le transazioni articolo.</span><span class="sxs-lookup"><span data-stu-id="e6995-137">Select Yes in the Item field to transfer item transactions.</span></span>
-4. <span data-ttu-id="e6995-138">Selezionare Sì nel campo Servizio per trasferire le transazioni servizio.</span><span class="sxs-lookup"><span data-stu-id="e6995-138">Select Yes in the Service field to transfer service transactions.</span></span>
-    * <span data-ttu-id="e6995-139">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da trasferire.</span><span class="sxs-lookup"><span data-stu-id="e6995-139">You can also specify additional filters on intra-community trade transactions to transfer.</span></span>  
-5. <span data-ttu-id="e6995-140">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="e6995-140">Click Transfer.</span></span>
-    * <span data-ttu-id="e6995-141">Verificare che la transazione di vendita intracomunitaria venga trasferita correttamente nell'elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="e6995-141">Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</span></span>  
+## <a name="transfer-intra-community-trade-transactions-to-the-eu-sales-list"></a><span data-ttu-id="a818d-134">Trasferire le transazioni commerciali intracomunitarie nell'elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="a818d-134">Transfer intra-community trade transactions to the EU sales list</span></span>
+1. <span data-ttu-id="a818d-135">Passare a Imposta > Dichiarazioni > Commercio estero > Elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="a818d-135">Go to Tax > Declarations > Foreign trade > EU sales list.</span></span>
+2. <span data-ttu-id="a818d-136">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="a818d-136">Click Transfer.</span></span>
+3. <span data-ttu-id="a818d-137">Selezionare Sì nel campo Articolo per trasferire le transazioni articolo.</span><span class="sxs-lookup"><span data-stu-id="a818d-137">Select Yes in the Item field to transfer item transactions.</span></span>
+4. <span data-ttu-id="a818d-138">Selezionare Sì nel campo Servizio per trasferire le transazioni servizio.</span><span class="sxs-lookup"><span data-stu-id="a818d-138">Select Yes in the Service field to transfer service transactions.</span></span>
+    * <span data-ttu-id="a818d-139">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da trasferire.</span><span class="sxs-lookup"><span data-stu-id="a818d-139">You can also specify additional filters on intra-community trade transactions to transfer.</span></span>  
+5. <span data-ttu-id="a818d-140">Fare clic su Trasferisci.</span><span class="sxs-lookup"><span data-stu-id="a818d-140">Click Transfer.</span></span>
+    * <span data-ttu-id="a818d-141">Verificare che la transazione di vendita intracomunitaria venga trasferita correttamente nell'elenco vendite UE.</span><span class="sxs-lookup"><span data-stu-id="a818d-141">Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</span></span>  
 
-## <a name="generate-the-eu-sales-list-report"></a><span data-ttu-id="e6995-142"> Genera report elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="e6995-142">Generate the EU sales list report</span></span>
-1. <span data-ttu-id="e6995-143">Fare clic su Dichiarazione.</span><span class="sxs-lookup"><span data-stu-id="e6995-143">Click Reporting.</span></span>
-2. <span data-ttu-id="e6995-144">Nel campo Periodo di reporting selezionare 'Mensile'.</span><span class="sxs-lookup"><span data-stu-id="e6995-144">In the Reporting period field, select 'Monthly'.</span></span>
-3. <span data-ttu-id="e6995-145">Nel campo Data iniziale impostare la data su '01/01/2016'.</span><span class="sxs-lookup"><span data-stu-id="e6995-145">In the From date field, set the date to '01/01/2016'.</span></span>
-4. <span data-ttu-id="e6995-146">Selezionare Sì nel campo Genera file.</span><span class="sxs-lookup"><span data-stu-id="e6995-146">Select Yes in the Generate file field.</span></span>
-5. <span data-ttu-id="e6995-147">Selezionare Sì nel campo Genera report.</span><span class="sxs-lookup"><span data-stu-id="e6995-147">Select Yes in the Generate report field.</span></span>
-6. <span data-ttu-id="e6995-148">Nel campo Nome file digitare 'EUSalesList'.</span><span class="sxs-lookup"><span data-stu-id="e6995-148">In the File name field, type 'EUSalesList'.</span></span>
-7. <span data-ttu-id="e6995-149">Nel campo Nome file report digitare 'EUSalesList'.</span><span class="sxs-lookup"><span data-stu-id="e6995-149">In the Report file name field, type 'EUSalesList'.</span></span>
-8. <span data-ttu-id="e6995-150">Nel campo ID registrazione elenco vendite UE, immettere '123'.</span><span class="sxs-lookup"><span data-stu-id="e6995-150">In the EU Sales List Registration ID field, type '123'.</span></span>
-    * <span data-ttu-id="e6995-151">Questo campo è disponibile solo per la Germania.</span><span class="sxs-lookup"><span data-stu-id="e6995-151">This field is only available for Germany.</span></span>  
-    * <span data-ttu-id="e6995-152">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da includere nel report.</span><span class="sxs-lookup"><span data-stu-id="e6995-152">You can also specify additional filters on intra-community trade transactions to include in the report.</span></span>  
-9. <span data-ttu-id="e6995-153">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-153">Click OK.</span></span>
-    * <span data-ttu-id="e6995-154">Verificare che le finestre popup vengano visualizzate per confermare che il file e il report di controllo vengano scaricati.</span><span class="sxs-lookup"><span data-stu-id="e6995-154">Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</span></span>  
+## <a name="generate-the-eu-sales-list-report"></a><span data-ttu-id="a818d-142"> Genera report elenco vendite UE</span><span class="sxs-lookup"><span data-stu-id="a818d-142">Generate the EU sales list report</span></span>
+1. <span data-ttu-id="a818d-143">Fare clic su Dichiarazione.</span><span class="sxs-lookup"><span data-stu-id="a818d-143">Click Reporting.</span></span>
+2. <span data-ttu-id="a818d-144">Nel campo Periodo di reporting selezionare 'Mensile'.</span><span class="sxs-lookup"><span data-stu-id="a818d-144">In the Reporting period field, select 'Monthly'.</span></span>
+3. <span data-ttu-id="a818d-145">Nel campo Data iniziale impostare la data su '01/01/2016'.</span><span class="sxs-lookup"><span data-stu-id="a818d-145">In the From date field, set the date to '01/01/2016'.</span></span>
+4. <span data-ttu-id="a818d-146">Selezionare Sì nel campo Genera file.</span><span class="sxs-lookup"><span data-stu-id="a818d-146">Select Yes in the Generate file field.</span></span>
+5. <span data-ttu-id="a818d-147">Selezionare Sì nel campo Genera report.</span><span class="sxs-lookup"><span data-stu-id="a818d-147">Select Yes in the Generate report field.</span></span>
+6. <span data-ttu-id="a818d-148">Nel campo Nome file digitare 'EUSalesList'.</span><span class="sxs-lookup"><span data-stu-id="a818d-148">In the File name field, type 'EUSalesList'.</span></span>
+7. <span data-ttu-id="a818d-149">Nel campo Nome file report digitare 'EUSalesList'.</span><span class="sxs-lookup"><span data-stu-id="a818d-149">In the Report file name field, type 'EUSalesList'.</span></span>
+8. <span data-ttu-id="a818d-150">Nel campo ID registrazione elenco vendite UE, immettere '123'.</span><span class="sxs-lookup"><span data-stu-id="a818d-150">In the EU Sales List Registration ID field, type '123'.</span></span>
+    * <span data-ttu-id="a818d-151">Questo campo è disponibile solo per la Germania.</span><span class="sxs-lookup"><span data-stu-id="a818d-151">This field is only available for Germany.</span></span>  
+    * <span data-ttu-id="a818d-152">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da includere nel report.</span><span class="sxs-lookup"><span data-stu-id="a818d-152">You can also specify additional filters on intra-community trade transactions to include in the report.</span></span>  
+9. <span data-ttu-id="a818d-153">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-153">Click OK.</span></span>
+    * <span data-ttu-id="a818d-154">Verificare che le finestre popup vengano visualizzate per confermare che il file e il report di controllo vengano scaricati.</span><span class="sxs-lookup"><span data-stu-id="a818d-154">Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</span></span>  
 
-## <a name="mark-eu-sales-list-lines-as-reported"></a><span data-ttu-id="e6995-155">Contrassegnare le righe dell'elenco vendite UE come dichiarate</span><span class="sxs-lookup"><span data-stu-id="e6995-155">Mark EU sales list lines as Reported</span></span>
-1. <span data-ttu-id="e6995-156">Fare clic su Contrassegna.</span><span class="sxs-lookup"><span data-stu-id="e6995-156">Click Mark.</span></span>
-2. <span data-ttu-id="e6995-157">Fare clic su Contrassegna come dichiarato.</span><span class="sxs-lookup"><span data-stu-id="e6995-157">Click Mark as reported.</span></span>
-3. <span data-ttu-id="e6995-158">Nell'elenco, selezionare la riga per il campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="e6995-158">In the list, select the row for the Invoice date field.</span></span>
-4. <span data-ttu-id="e6995-159">Nel campo Criteri, immettere '01/01/2016..01/31/2016'.</span><span class="sxs-lookup"><span data-stu-id="e6995-159">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
-5. <span data-ttu-id="e6995-160">Nell'elenco, selezionare la riga per il campo Stato relazione.</span><span class="sxs-lookup"><span data-stu-id="e6995-160">In the list, select the row for the Reporting status field.</span></span>
-6. <span data-ttu-id="e6995-161">Nel campo Criteri, selezionare 'Incluso'.</span><span class="sxs-lookup"><span data-stu-id="e6995-161">In the Criteria field, select 'Included'.</span></span>
-    * <span data-ttu-id="e6995-162">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da contrassegnare come dichiarate.</span><span class="sxs-lookup"><span data-stu-id="e6995-162">You can also specify additional filters on intra-community trade transactions to mark as Reported.</span></span>  
-7. <span data-ttu-id="e6995-163">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-163">Click OK.</span></span>
-8. <span data-ttu-id="e6995-164">Selezionare 'Dichiarato' nel campo Selezione.</span><span class="sxs-lookup"><span data-stu-id="e6995-164">In the Selection field, select 'Reported'.</span></span>
+## <a name="mark-eu-sales-list-lines-as-reported"></a><span data-ttu-id="a818d-155">Contrassegnare le righe dell'elenco vendite UE come dichiarate</span><span class="sxs-lookup"><span data-stu-id="a818d-155">Mark EU sales list lines as Reported</span></span>
+1. <span data-ttu-id="a818d-156">Fare clic su Contrassegna.</span><span class="sxs-lookup"><span data-stu-id="a818d-156">Click Mark.</span></span>
+2. <span data-ttu-id="a818d-157">Fare clic su Contrassegna come dichiarato.</span><span class="sxs-lookup"><span data-stu-id="a818d-157">Click Mark as reported.</span></span>
+3. <span data-ttu-id="a818d-158">Nell'elenco, selezionare la riga per il campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="a818d-158">In the list, select the row for the Invoice date field.</span></span>
+4. <span data-ttu-id="a818d-159">Nel campo Criteri, immettere '01/01/2016..01/31/2016'.</span><span class="sxs-lookup"><span data-stu-id="a818d-159">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
+5. <span data-ttu-id="a818d-160">Nell'elenco, selezionare la riga per il campo Stato relazione.</span><span class="sxs-lookup"><span data-stu-id="a818d-160">In the list, select the row for the Reporting status field.</span></span>
+6. <span data-ttu-id="a818d-161">Nel campo Criteri, selezionare 'Incluso'.</span><span class="sxs-lookup"><span data-stu-id="a818d-161">In the Criteria field, select 'Included'.</span></span>
+    * <span data-ttu-id="a818d-162">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da contrassegnare come dichiarate.</span><span class="sxs-lookup"><span data-stu-id="a818d-162">You can also specify additional filters on intra-community trade transactions to mark as Reported.</span></span>  
+7. <span data-ttu-id="a818d-163">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-163">Click OK.</span></span>
+8. <span data-ttu-id="a818d-164">Selezionare 'Dichiarato' nel campo Selezione.</span><span class="sxs-lookup"><span data-stu-id="a818d-164">In the Selection field, select 'Reported'.</span></span>
 
-## <a name="mark-eu-sales-list-lines-as-closed"></a><span data-ttu-id="e6995-165">Contrassegnare le righe dell'elenco vendite UE come chiuse</span><span class="sxs-lookup"><span data-stu-id="e6995-165">Mark EU sales list lines as Closed</span></span>
-1. <span data-ttu-id="e6995-166">Fare clic su Contrassegna.</span><span class="sxs-lookup"><span data-stu-id="e6995-166">Click Mark.</span></span>
-2. <span data-ttu-id="e6995-167">Fare clic su Contrassegna come chiuso.</span><span class="sxs-lookup"><span data-stu-id="e6995-167">Click Mark as closed.</span></span>
-3. <span data-ttu-id="e6995-168">Nell'elenco, contrassegnare la riga per il campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="e6995-168">In the list, mark the row for the Invoice date field.</span></span>
-4. <span data-ttu-id="e6995-169">Nel campo Criteri, immettere '01/01/2016..01/31/2016'.</span><span class="sxs-lookup"><span data-stu-id="e6995-169">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
-5. <span data-ttu-id="e6995-170">Nell'elenco, contrassegnare la riga per il campo Stato relazione.</span><span class="sxs-lookup"><span data-stu-id="e6995-170">In the list, mark the row for the Reporting status field.</span></span>
-6. <span data-ttu-id="e6995-171">Nel campo Criteri, selezionare "Dichiarato".</span><span class="sxs-lookup"><span data-stu-id="e6995-171">In the Criteria field, select 'Reported'.</span></span>
-    * <span data-ttu-id="e6995-172">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da contrassegnare come chiuse.</span><span class="sxs-lookup"><span data-stu-id="e6995-172">You can also specify additional filters on intra-community trade transactions to mark as Closed.</span></span>  
-7. <span data-ttu-id="e6995-173">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="e6995-173">Click OK.</span></span>
-8. <span data-ttu-id="e6995-174">Selezionare 'Chiuso' nel campo Selezione.</span><span class="sxs-lookup"><span data-stu-id="e6995-174">In the Selection field, select 'Closed'.</span></span>
+## <a name="mark-eu-sales-list-lines-as-closed"></a><span data-ttu-id="a818d-165">Contrassegnare le righe dell'elenco vendite UE come chiuse</span><span class="sxs-lookup"><span data-stu-id="a818d-165">Mark EU sales list lines as Closed</span></span>
+1. <span data-ttu-id="a818d-166">Fare clic su Contrassegna.</span><span class="sxs-lookup"><span data-stu-id="a818d-166">Click Mark.</span></span>
+2. <span data-ttu-id="a818d-167">Fare clic su Contrassegna come chiuso.</span><span class="sxs-lookup"><span data-stu-id="a818d-167">Click Mark as closed.</span></span>
+3. <span data-ttu-id="a818d-168">Nell'elenco, contrassegnare la riga per il campo Data fattura.</span><span class="sxs-lookup"><span data-stu-id="a818d-168">In the list, mark the row for the Invoice date field.</span></span>
+4. <span data-ttu-id="a818d-169">Nel campo Criteri, immettere '01/01/2016..01/31/2016'.</span><span class="sxs-lookup"><span data-stu-id="a818d-169">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
+5. <span data-ttu-id="a818d-170">Nell'elenco, contrassegnare la riga per il campo Stato relazione.</span><span class="sxs-lookup"><span data-stu-id="a818d-170">In the list, mark the row for the Reporting status field.</span></span>
+6. <span data-ttu-id="a818d-171">Nel campo Criteri, selezionare "Dichiarato".</span><span class="sxs-lookup"><span data-stu-id="a818d-171">In the Criteria field, select 'Reported'.</span></span>
+    * <span data-ttu-id="a818d-172">È inoltre possibile specificare i filtri aggiuntivi per le transazioni di commercio intracomunitarie da contrassegnare come chiuse.</span><span class="sxs-lookup"><span data-stu-id="a818d-172">You can also specify additional filters on intra-community trade transactions to mark as Closed.</span></span>  
+7. <span data-ttu-id="a818d-173">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="a818d-173">Click OK.</span></span>
+8. <span data-ttu-id="a818d-174">Selezionare 'Chiuso' nel campo Selezione.</span><span class="sxs-lookup"><span data-stu-id="a818d-174">In the Selection field, select 'Closed'.</span></span>
 
