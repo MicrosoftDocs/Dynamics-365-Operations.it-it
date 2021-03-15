@@ -73,3 +73,6 @@ I campi **Alias**, **UPN** e **Identificatore secondario esterno** nella scheda 
 [Creare un profilo funzionalità di vendita al dettaglio](retail-functionality-profile.md)
 
 [ Configurare un lavoratore](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

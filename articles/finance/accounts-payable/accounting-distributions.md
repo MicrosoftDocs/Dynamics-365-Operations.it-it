@@ -56,3 +56,6 @@ Le funzionalità di distribuzione contabile generiche forniscono le seguenti opz
 Nella versione 10.0.13, è stata aggiunta una funzionalità che convalida la tabella di distribuzione contabile per garantire che i nuovi campi siano configurati correttamente. Questa funzionalità è chiamata **Abilita una convalida aggiuntiva dei dati per i documenti utilizzando il framework di contabilità dei documenti di origine**. Per utilizzare la funzionalità, è necessario abilitarla utilizzando l'area di lavoro **Gestione delle funzionalità**. Per abilitare la funzionalità, cerca il nome della funzionalità nel campo **Cerca** della pagina **Gestione funzionalità**, quindi seleziona **Abilita ora**.
 
 Per ulteriori informazioni, vedere [Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture fornitore](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

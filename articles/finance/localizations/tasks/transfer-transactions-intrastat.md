@@ -152,3 +152,6 @@ Questa procedura illustra come impostare i parametri Intrastat e trasferire le t
     
 Esaminare i dati del trasferimento, inclusi paese di destinazione/spedizione, paese di origine, peso, quantità, quantità di unità supplementari, voce doganale, codice transazione, importi fattura e importi statistici. Se necessario, è possibile modificare i dati.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

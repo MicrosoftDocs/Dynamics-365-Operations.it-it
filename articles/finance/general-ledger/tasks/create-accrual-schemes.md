@@ -40,3 +40,6 @@ In questo argomento viene descritto come creare uno schema di attribuzione per c
 10. Nel campo **Numero di occorrenze per periodo**, immettere un numero.
 11. Nel campo **Registra transazioni** specificare quando le transazioni devono essere registrate, ad esempio **Mensilmente**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

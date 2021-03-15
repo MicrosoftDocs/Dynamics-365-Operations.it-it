@@ -258,3 +258,6 @@ L'utente che imposta i parametri per il processo RdO può creare più modelli di
 - %createddate%
 
 Se è richiesta una modifica e viene inviata dopo l'invio della RdO, la RdO verrà inviata nuovamente a tutti i fornitori invitati. Il documento pubblicato verrà aggiornato anche nella pagina **Richieste di offerta pubblicate aperte**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

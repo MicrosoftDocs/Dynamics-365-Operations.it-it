@@ -95,3 +95,6 @@ Se si richiede che la precisione di una valuta specifica differisca dalla precis
 ### <a name="tables-currency-column"></a>tabelle: colonna Valuta
 
 Il numero di posizioni decimali che è possibile configurare per colonne di valuta specifiche è limitato a quattro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

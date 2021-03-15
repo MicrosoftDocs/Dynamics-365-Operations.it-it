@@ -87,3 +87,6 @@ Per ignorare pagamenti e note credito durante il calcolo del codice di lettera d
 
 1. Andare a **Pannello di navigazione > Moduli > Crediti e le riscossioni > Impostazioni > Parametri contabilità clienti** e fare clic sulla scheda **Riscossioni**. 
 2. Impostare **Ignora pagamenti e note credito durante il calcolo del codice di lettera di sollecito** su **Sì**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 [Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Selezionare uno dei seguenti argomenti per iniziare.
 [Stato e ciclo di vita documento](document-states-overview.md)
 
 [Abilitare e utilizzare la condivisione multicanale](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

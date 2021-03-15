@@ -45,3 +45,6 @@ La **Data d'esecuzione ammortamento** deve essere configurata al momento dell'ac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

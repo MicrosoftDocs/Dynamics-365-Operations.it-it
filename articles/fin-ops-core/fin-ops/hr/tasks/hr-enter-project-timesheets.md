@@ -51,3 +51,6 @@ Questa procedura consente di creare un foglio presenze utilizzando un modulo vuo
 21. Fare clic su **Invia**.
 22. Fare clic su **Invia**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

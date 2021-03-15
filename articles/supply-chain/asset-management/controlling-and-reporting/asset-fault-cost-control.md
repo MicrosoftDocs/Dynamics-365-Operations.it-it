@@ -61,3 +61,6 @@ In questo esempio viene illustrato un calcolo del controllo costi dell'errore ce
     ![Figura 1](media/05-controlling-and-reporting.png)
 
 Per informazioni su come impostare gli errori, fare riferimento alla sezione [Gestione errori](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

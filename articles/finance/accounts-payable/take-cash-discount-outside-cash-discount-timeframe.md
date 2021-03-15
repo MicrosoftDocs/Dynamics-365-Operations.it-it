@@ -90,3 +90,6 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

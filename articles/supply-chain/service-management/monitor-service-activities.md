@@ -59,3 +59,6 @@ Fare clic su **Gestione assistenza** \> **Periodico** \> **Prospetto interventi*
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

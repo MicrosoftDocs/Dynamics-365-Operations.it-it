@@ -46,3 +46,6 @@ L'importo calcolato dei costi costanti ammortizzati di un articolo prodotto vien
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

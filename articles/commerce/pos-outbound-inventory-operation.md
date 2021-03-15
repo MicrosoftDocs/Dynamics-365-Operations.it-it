@@ -192,3 +192,6 @@ Gli ordini di trasferimento spediti in modo completo vengono spostati nella sche
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Operazione di magazzino in ingresso in POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

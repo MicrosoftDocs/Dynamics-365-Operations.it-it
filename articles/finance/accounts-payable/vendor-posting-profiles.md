@@ -118,3 +118,6 @@ Specificare i valori seguenti per impostare il profilo registrazione
 | **Liquidazione** | Selezionare questa opzione per attivare la liquidazione automatica delle transazioni con questo profilo registrazione. Se questa opzione è deselezionata, è necessario liquidare manualmente le transazioni utilizzando la pagina **Liquida transazioni aperte**. |
 | **Annulla**     | Selezionare questa opzione per poter annullare le transazioni con questo profilo registrazione.                                                                                                               |
 | **Chiudi**      | Selezionare un profilo registrazione da applicare quando le transazioni con il profilo registrazione specificato vengono chiuse. È considerata chiusa una transazione liquidata completamente.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

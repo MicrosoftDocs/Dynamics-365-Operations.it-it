@@ -53,3 +53,6 @@ I saldi verranno aggiornati automaticamente o verranno sottoposti a un processo 
 
 [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)</br>
 [Gestire i criteri di acquisto e vendita congedo](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

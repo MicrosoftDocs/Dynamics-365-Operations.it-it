@@ -57,3 +57,6 @@ Quando si dispone di risorse operative del tipo **Risorse umane** che sono colle
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

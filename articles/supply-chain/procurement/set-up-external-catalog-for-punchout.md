@@ -112,3 +112,5 @@ Se è stato richiesto un prodotto dal catalogo fornitore esterno, il catalogo no
 
 - [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

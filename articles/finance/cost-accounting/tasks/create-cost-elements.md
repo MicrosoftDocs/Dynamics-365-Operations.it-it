@@ -57,3 +57,6 @@ Esistono vari modi per creare gli elementi di costo nella contabilità industria
 1. Fare clic su Visualizza membri di dimensione.
     * Consente di visualizzare i conti CoGe importati come elementi di costo nell'azienda in cui i costi possono fluire.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

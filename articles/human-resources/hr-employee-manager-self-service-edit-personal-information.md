@@ -72,3 +72,6 @@ I parametri impostati nella rubrica globale determinano i ruoli che possono visu
     - Per caricare un'immagine, selezionare **Carica nuova immagine**.
     - Per rimuovere un'immagine, selezionare l'immagine, quindi selezionare **Rimuovi**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ In questa procedura viene descritto dettagliatamente il processo per creare e re
 5. Chiudere il modulo.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

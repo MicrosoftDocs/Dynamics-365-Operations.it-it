@@ -67,3 +67,6 @@ In questo argomento vengono descritti i tipi di giornale di registrazione che è
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

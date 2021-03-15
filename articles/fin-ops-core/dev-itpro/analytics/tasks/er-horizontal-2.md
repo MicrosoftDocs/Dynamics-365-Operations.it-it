@@ -51,3 +51,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 8. Fare clic su OK.
     * Esaminare l'output generato. Si noti che il file di Excel appena creato contiene lo stesso numero di colonne selezionate per le dimensioni finanziarie. L'intestazione del report nelle colonne rappresenta i nomi delle dimensioni finanziarie. Le righe delle transazioni nelle colonne rappresentano le dimensioni finanziarie. Eseguire questo report e selezionare dimensioni diverse per vedere che il report non dipende dal numero di dimensioni selezionate o dal numero di dimensioni configurate per questa istanza.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

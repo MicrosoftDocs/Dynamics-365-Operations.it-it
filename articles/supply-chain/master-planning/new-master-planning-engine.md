@@ -115,3 +115,6 @@ L'amministratore dell'ambiente ha ricevuto un messaggio e-mail da Microsoft. Que
 > Completare il seguente questionario per iniziare e, se pertinente, richiedere l'eccezione dalla migrazione a Ottimizzazione pianificazione.
 
 **Risposta:** No, la pianificazione generale non è bloccata. L'esecuzione della pianificazione generale è stata completata ed è possibile utilizzare il risultato nel modo consueto. Tuttavia, per evitare di ricevere questo messaggio di errore durante le future esecuzioni della pianificazione generale, è necessario migrare immediatamente a Ottimizzazione pianificazione o richiedere un'eccezione utilizzando il collegamento nel messaggio di errore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

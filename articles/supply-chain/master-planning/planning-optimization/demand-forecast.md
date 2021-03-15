@@ -273,3 +273,6 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 ### <a name="reduce-a-forecast-by-transactions"></a>Ridurre una previsione mediante transazioni
 
 Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Gruppi di copertura** , nella scheda dettaglio **Altro**, nel campo **Riduci previsione per** , selezionare **Tutte le transizioni** se tutte le transazioni devono ridurre la previsione oppure **Ordini** se solo gli ordini cliente devono ridurre la previsione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

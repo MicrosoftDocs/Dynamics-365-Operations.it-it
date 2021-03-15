@@ -45,3 +45,6 @@ Seguire questi passaggi per riclassificare un cespite:
 5. Immettere una data nel campo **Riclassificazione**.
 6. Nel campo **Serie giustificativi** immettere o selezionare un valore.
 7. Fare clic su **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

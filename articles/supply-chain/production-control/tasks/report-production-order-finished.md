@@ -51,3 +51,6 @@ Questa procedura indica come dichiarare un ordine di produzione come finito. La 
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Il giornale di registrazione dichiarazioni di finito è stato registrato. Se si desidera apportare rettifiche al giornale di registrazione, è possibile creare manualmente un nuovo giornale di registrazione in cui è possibile apportare modifiche.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

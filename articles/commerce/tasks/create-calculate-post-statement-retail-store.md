@@ -47,3 +47,6 @@ In questa argomento vengono descritti i passaggi manuali per creare, calcolare e
 12. Nella home page selezionare **Dati finanziari punto vendita**.
 13. Fare clic sulla scheda **Rendiconti registrati**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

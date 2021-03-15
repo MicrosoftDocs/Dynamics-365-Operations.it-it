@@ -77,3 +77,6 @@ Per ripristinare un messaggio di evento di un'app di magazzino non riuscita:
 1. Continua a lavorare fino a quando tutti i messaggi pertinenti non vengono ripristinati.
 
 Puoi anche rimuovere un messaggio di evento **Non riuscito** utilizzando l'opzione **Elimina** nella barra degli strumenti **Messaggi di evento dell'app di magazzino**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

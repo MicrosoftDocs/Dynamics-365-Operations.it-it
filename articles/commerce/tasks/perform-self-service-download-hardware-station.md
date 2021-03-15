@@ -36,3 +36,6 @@ In questa procedura vengono descritti i passaggi per scaricare una stazione hard
 5. Nell'elenco trovare e selezionare il record desiderato.
 6. Fare clic su Scarica.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

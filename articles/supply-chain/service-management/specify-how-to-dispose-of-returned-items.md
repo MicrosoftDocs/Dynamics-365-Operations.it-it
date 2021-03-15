@@ -182,3 +182,6 @@ Per ogni codice smaltimento definito, è necessario selezionare un'azione di sma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

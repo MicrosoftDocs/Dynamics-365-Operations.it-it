@@ -103,3 +103,6 @@ I campi **Mapping competenze** e **Profili mapping competenze** possono essere u
 ## <a name="hiring-applicants"></a>Assunzione di candidati
 
 Utilizzare la pagina **Domande di lavoro** per assumere un candidato. Quando si assume un candidato, il record della domanda di lavoro avrà lo stato di **Assunto** e il record del candidato nella Rubrica globale verrà associato al nuovo record lavoratore. Le modifiche alle informazioni della Rubrica globale per il nuovo record lavoratore saranno visualizzate anche nel record candidato. Ciò consente di ridurre l'immissione di dati se il nuovo lavoratore si propone per una mansione differente all'interno dell'azienda. Per assumere un lavoratore esistente per una posizione nuova, fare clic su **Modifica posizione** nel menu a discesa **Stato domanda di lavoro** per avviare il processo di trasferimento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

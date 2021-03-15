@@ -62,3 +62,6 @@ Prima che un cespite completamente ammortizzato venga suddiviso, lo stato del li
     - Una transazione di acquisizione viene creata per il nuovo cespite per lo stesso importo.
 
 4. Selezionare **Registra**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Nella visualizzazione **Righe ordine di magazzino** è possibile monitorare l'av
 
 - Vai a **Gestione magazzino \> Richieste e segnalazioni \> Righe ordine di magazzino** e utilizza il filtro per trovare le righe che stai cercando.
 - Vai a **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore** e apri l'ordine fornitore pertinente. Nella sezione **Righe ordine fornitore**, seleziona una o più righe, quindi, sulla barra degli strumenti, seleziona **Magazzino \> Voci di ricevimento magazzino**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

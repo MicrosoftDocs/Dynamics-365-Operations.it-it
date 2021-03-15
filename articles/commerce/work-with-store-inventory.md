@@ -71,3 +71,6 @@ I conteggi scorte possono essere pianificati o non pianificati. Il conteggio del
 ## <a name="inventory-lookup"></a>Ricerca in magazzino
 
 La quantità di prodotto attualmente disponibile per più negozi e magazzini può essere visualizzata nella pagina **Ricerca in magazzino**. Oltre alla quantità disponibile corrente, le quantità available-to-promise (ATP) future possono essere visualizzate per ogni negozio. Seleziona il negozio per visualizzare le quantità ATP e quindi seleziona **Mostra disponibilità punto vendita**. Per informazioni sulle opzioni di configurazione disponibili, vedi [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Il seguente elenco di documenti aziendali è controllato dalla funzionalità **I
 [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 
 [Modifiche dell'API framework di report elettronici per Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

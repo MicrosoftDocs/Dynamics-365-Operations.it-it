@@ -47,3 +47,6 @@ Nell'area di lavoro **Gestione delle funzionalità**, attivare la seguente funzi
 La seguente illustrazione mostra un esempio del report che viene generato. Il report mostra che il codice di segnalazione **101** ha la valuta **Euro** se il campo **Valuta IVA** è impostato su **Euro** per il codice IVA a cui è assegnato il codice di reporting.
 
 ![Esempio di report Pagamento IVA per codice](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

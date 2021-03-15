@@ -80,3 +80,6 @@ Se si utilizzano i cicli di lavorazione, è necessario definire le operazioni pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

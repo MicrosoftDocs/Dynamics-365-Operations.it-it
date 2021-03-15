@@ -122,3 +122,6 @@ Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente pr
 2. Trovare il modulo **Informazioni** sotto il nodo dei moduli. 
 3. Selezionare il modulo **Informazioni** e fare clic su **Abilita ruoli di sicurezza**. 
 4. Cambiare l'impostazione di sicurezza su **Mostra a tutti**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

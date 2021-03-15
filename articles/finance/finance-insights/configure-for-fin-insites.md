@@ -1001,3 +1001,6 @@ Invia un messaggio e-mail a [Informazioni dettagliate sui pagamenti dei clienti 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 
 Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

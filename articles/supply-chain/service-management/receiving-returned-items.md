@@ -44,3 +44,6 @@ In base ai criteri della società, gli articoli nella spedizione dei resi posson
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

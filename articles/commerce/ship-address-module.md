@@ -71,3 +71,6 @@ Un modulo di indirizzi di spedizione può essere aggiunto solo a un modulo check
 [Modulo Dettagli ordini](order-confirmation-module.md)
 
 [Modulo gift card](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

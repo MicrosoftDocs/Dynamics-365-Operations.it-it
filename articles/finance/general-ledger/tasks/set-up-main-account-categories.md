@@ -41,3 +41,6 @@ In questo argomento viene illustrato come impostare le categorie di conti princi
 3. Selezionare o deselezionare l'opzione **Collegato** per scegliere i conti principali.
 4. Selezionare **OK**.
 5. Selezionare **Sì**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

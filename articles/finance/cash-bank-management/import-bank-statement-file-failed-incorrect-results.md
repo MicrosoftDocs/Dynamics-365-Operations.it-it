@@ -107,3 +107,6 @@ Nella tabella seguente vengono elencati esempi di definizioni di layout tecnici 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

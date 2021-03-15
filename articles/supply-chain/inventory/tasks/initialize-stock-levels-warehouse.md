@@ -59,3 +59,6 @@ Questa procedura mostra come aggiornare manualmente l'inventario disponibile tra
 25. Chiudere la pagina.
 26. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

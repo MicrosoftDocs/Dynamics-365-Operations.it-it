@@ -38,3 +38,6 @@ Prima di poter utilizzare il consolidamento di hub, è necessario abilitare l'op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

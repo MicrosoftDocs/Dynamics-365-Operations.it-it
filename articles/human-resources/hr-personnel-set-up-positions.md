@@ -67,3 +67,6 @@ Le posizioni sono un elemento importante del livello inferiore di una gerarchia 
 30. Nel campo Reparto immettere o selezionare un valore.
 31. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

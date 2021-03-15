@@ -40,3 +40,6 @@ Questa procedura riguarda l'impostazione di un codice smaltimento che può esser
 6. Nel campo Codice smaltimento reso digitare un valore.
     * Il codice smaltimento di reso determina il resto del processo di ordine di reso per gli articoli registrati. In questo esempio, il cliente deve ricevere una nota di accredito. Aggiungere un codice smaltimento di reso contenente un'azione di tipo Avere.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Una relazione reciproca può essere configurata in modo semplice nella pagina **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

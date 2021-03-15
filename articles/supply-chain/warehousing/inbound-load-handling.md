@@ -477,3 +477,6 @@ Per questo scenario, l'addetto al ricevimento registrerà in entrata una quantit
     - **Quantità** - Immettere _7_, che è la quantità rimanente che il fornitore è autorizzato a consegnare come parte della quantità totale dell'ordine fornitore di 12 (dove 10 è la quantità dell'ordine originale e 2 è la quantità di consegna in eccesso consentita del 20 percento). Tenere a mente che 5 pezzi sono già stati registrati rispetto al primo carico.
 
 Il secondo carico è stato ora aggiornato con la quantità di 7 e può essere aggiornato all'entrata del prodotto in base a questa quantità.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ Di conseguenza, quando l'opzione Attivazione è selezionata per Sovrapposizione,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -186,3 +186,6 @@ Esistono due eccezioni alla regola in base alla quale gli ordini batch sono appl
 1. Se l'unità di misura della formula è diversa dall'unità di misura dell'inventario del principio attivo, l'ordine batch non è applicabile per il bilanciamento del batch.
 
 Un ordine batch non applicabile al bilanciamento del batch viene sottoposto al ciclo di lavorazione standard per gli ordini batch.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

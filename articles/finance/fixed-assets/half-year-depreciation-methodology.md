@@ -41,3 +41,6 @@ Il primo anno di utilizzo si concluderà a dicembre 2020, il che significa che l
    [![Piano di ammortamento per convenzione di ammortamento semestrale](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 I periodi di ammortamento estesi aggiunti dalla convenzione semestrale forniscono un'allocazione più accurata dell'ammortamento. La convenzione semestrale rappresenta le spese di ammortamento in modo più equo, utile per la rendicontazione del conto economico.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Per ulteriori informazioni sul processo per il passaggio dal magazzino di base a
 - [Migrazione di Microsoft Dynamics AX WMS al nuovo magazzino R3 e funzionalità di trasporto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [Migrazione degli articoli WMSI/WMS2](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

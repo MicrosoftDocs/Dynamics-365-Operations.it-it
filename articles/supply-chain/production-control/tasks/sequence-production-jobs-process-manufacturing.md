@@ -70,3 +70,6 @@ Questa procedura utilizza i prodotti di vernice come esempio per mostrare come o
 8. Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore "P300".
     * Gli ordini vengono ora ordinati in sequenza in base alla priorità di colore e dimensioni e gli ordini pianificati cominciano alla prima data dell'ordine e alla prima data di consegna. Convalidare la colonna relativa alla data dell'ordine o alla data di inizio in Dettagli programmazione nel riquadro Dettaglio informazioni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

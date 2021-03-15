@@ -151,3 +151,6 @@ L'impostazione del periodo di fatturazione rappresenta una parte obbligatoria de
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

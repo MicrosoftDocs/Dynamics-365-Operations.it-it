@@ -43,3 +43,6 @@ In questa procedura viene illustrato come calcolare il costo di un prodotto fini
     * Può essere necessario fare clic sull'ellissi (...) per visualizzare l'opzione nel menu superiore.    La composizione del costo è come segue:  *    10 è derivato da ITEM_A, 10 da ITEM_B 10, 10 da BOM_2. In questo caso non sono presenti dettagli per BOM_2 perché è stato immesso come costo standard di 10 ma non è stato calcolato.  *    7 è derivato dal tempo di attrezzaggio, ovvero un costo costante e il 7 aggiuntivo è derivato dall'operazione del tempo di esecuzione (processo).  *    Sono previsti anche altri importi corrispondenti ai costi indiretti.  
 9. @SysTaskRecorder:_RequestClose
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

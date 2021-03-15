@@ -45,3 +45,6 @@ Pertanto, è possibile creare budget distinti per i conti transazioni più signi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Nella pagina della fotocamera, facendo clic sul pulsante Fotocamera, questo appa
 
 Quando si punta la fotocamera su un codice a barre, mantenere il codice a barre allineato alle parentesi per ottenere il miglior risultato. Se la scansione di un codice a barre viene effettuata correttamente, il risultato verrà elaborato e si verrà indirizzati al passaggio successivo. Se il passaggio successivo contiene un altro campo di input con la modalità di input preferita impostata su Scansione, la pagina della fotocamera verrà riavviata. Se il passaggio successivo non contiene un campo di scansione, la pagina della fotocamera non verrà avviata.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

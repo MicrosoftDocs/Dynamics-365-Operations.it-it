@@ -60,3 +60,6 @@ Quando si ha almeno una modifica proposta, vengono visualizzate due schede aggiu
     Lo stato sulla pagina è cambiato in **Modifiche in attesa di approvazione**.
 
 Il flusso di lavoro segue il processo standard del flusso di lavoro. L'approvatore viene reindirizzato alla pagina **Fornitore**, in cui le modifiche possono essere riviste nella pagina **Modifiche proposte** e selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro. Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

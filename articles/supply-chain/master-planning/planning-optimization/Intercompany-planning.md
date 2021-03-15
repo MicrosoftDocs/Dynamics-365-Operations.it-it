@@ -87,3 +87,6 @@ In questo esempio, viene creato un ordine fornitore pianificato nella società U
 La seguente illustrazione mostra come questo esempio potrebbe apparire nella pagina **Pegging multilivello** per l'ordine di produzione pianificato.
 
 ![Esempio interaziendale che coinvolge tre società](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

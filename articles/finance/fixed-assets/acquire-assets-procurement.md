@@ -108,3 +108,6 @@ Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

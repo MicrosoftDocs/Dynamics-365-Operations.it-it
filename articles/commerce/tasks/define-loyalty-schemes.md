@@ -69,3 +69,6 @@ In questa procedura vengono descritti i passaggi per definire uno schema del pro
 27. Fare clic su Salva.
     * Se si modificano i canali per uno schema del programma fedeltà, è necessario eseguire Elabora programmi fedeltà. In tal modo, i canali riceveranno gli schemi del programma fedeltà aggiornati.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

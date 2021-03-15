@@ -235,3 +235,6 @@ A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica
 - [Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico](e-invoicing-mex-get-started.md)
 - [Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia](e-invoicing-ita-get-started.md)
 - [Fatture elettroniche dei clienti in Egitto](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

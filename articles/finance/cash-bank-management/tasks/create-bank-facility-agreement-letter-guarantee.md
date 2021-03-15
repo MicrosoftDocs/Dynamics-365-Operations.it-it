@@ -56,3 +56,6 @@ Questa attività crea un contratto per linea di credito bancaria per elaborare u
 5. Fare clic su Salva.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

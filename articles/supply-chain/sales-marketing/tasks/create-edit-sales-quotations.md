@@ -69,3 +69,6 @@ Questa procedura dimostra come creare e aggiornare un'offerta di vendita. È pos
 13. Fare clic su **Ordini cliente**.
 14. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

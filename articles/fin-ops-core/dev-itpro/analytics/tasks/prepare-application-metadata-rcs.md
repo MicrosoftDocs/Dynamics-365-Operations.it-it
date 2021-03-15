@@ -80,3 +80,6 @@ Abbiamo aggiunto informazioni sui metadati relative alla tabella di record Intra
 3.    Fare clic su **OK**. 
     
 La configurazione dei metadati ER creata è stata salvata come file XML che può essere importato in RCS e utilizzato come origine delle informazioni sui metadati per il dominio aziendale del commercio estero. In base a queste informazioni, possiamo specificare il mapping tra i metadati dell'applicazione e il modello di dati ER.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

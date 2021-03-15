@@ -94,3 +94,6 @@ Per aggiungere un modulo Percorso di navigazione a una pagina PDP e impostare le
 [Modulo casella acquisti](add-buy-box.md)
 
 [SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

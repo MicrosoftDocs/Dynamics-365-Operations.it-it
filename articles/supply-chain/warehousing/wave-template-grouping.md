@@ -200,3 +200,6 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 1. Seleziona l'ID ondata creato dal terzo ordine cliente.
 1. Seleziona il collegamento ID ondata per aprire la pagina Dettagli ondata.
 1. Nota che la spedizione è stata aggiunta alla Scheda dettaglio **Righe ondata**, insieme alla spedizione per il primo ordine cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

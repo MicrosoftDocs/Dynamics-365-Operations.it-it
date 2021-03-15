@@ -67,3 +67,6 @@ In questo argomento viene descritto come è possibile creare regole e criteri di
 10. Selezionare **Salva**.
 11. Chiudere il modulo.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

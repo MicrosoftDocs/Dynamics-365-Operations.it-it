@@ -95,3 +95,6 @@ Le transazioni del rendiconto bancario contrassegnate come **Nuovo** nel foglio 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

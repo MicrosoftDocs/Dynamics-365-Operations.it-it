@@ -63,3 +63,6 @@ Questa procedura è incentrata sulla creazione di una nuova versione del flusso 
     * Immettere il numero di giorni nel periodo per la durata ciclo effettiva. Il periodo di durata ciclo effettiva è il numero di giorni che i processi verranno aggregati dal minuto effettivo a ritroso per calcolare la durata ciclo effettiva. Il valore può essere modificato in qualsiasi momento ed è solo utilizzato per il calcolo delle durate ciclo effettive.  
 13. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

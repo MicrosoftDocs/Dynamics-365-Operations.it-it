@@ -37,3 +37,6 @@ Un codice periodo indica la durata del periodo della commissione di sottoscrizio
 Questo codice viene definito nel gruppo di sottoscrizioni assistenza. La definizione del codice per le sottoscrizioni avviene pertanto tramite il gruppo di sottoscrizioni assistenza. Nelle nuove sottoscrizioni create sarà presente una data di inizio suggerita. Questa è la data di inizio del periodo (se si tratta del primo periodo creato) o la fine del periodo precedente (se si tratta del secondo periodo o di un periodo successivo).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

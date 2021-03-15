@@ -276,3 +276,6 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
 
 5. Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
 6. Se gli utenti nel percorso di riassegnazione non inviano una risposta nel tempo prestabilito, verrà automaticamente eseguita un'azione sul documento dal sistema. Per specificare l'azione presa dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

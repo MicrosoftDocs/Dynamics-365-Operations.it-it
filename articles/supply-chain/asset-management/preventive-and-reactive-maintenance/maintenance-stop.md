@@ -96,3 +96,6 @@ Nella figura seguente è illustrato un esempio della visualizzazione dettagliata
 - È possibile copiare i cespiti da un'attività dei tempi di fermo per la manutenzione a un'altra. In **Tutte le attività tempi di fermo per manutenzione**, selezionare il pulsante **Copia attività tempi di fermo per manutenzione** e apportare le selezioni nei campi **Da attività tempi di fermo per manutenzione** e **A attività tempi di fermo per manutenzione** e fare clic su **OK**.
 - In **Tutte le attività tempi di fermo per manutenzione**, fare clic sul pulsante **Righe programma di manutenzione** o **Ordini di lavoro attivi** per aprire i relativi elenchi e visualizzare le righe associate all'attività dei tempi di fermo per la manutenzione selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

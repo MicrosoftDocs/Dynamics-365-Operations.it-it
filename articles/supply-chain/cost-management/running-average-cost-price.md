@@ -75,3 +75,6 @@ Se tuttavia il modello aziendale lo consente, attenendosi alle seguenti procedur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

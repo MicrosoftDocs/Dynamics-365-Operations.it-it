@@ -103,3 +103,6 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

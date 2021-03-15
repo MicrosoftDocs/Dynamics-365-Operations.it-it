@@ -368,3 +368,6 @@ Quando una riga BPM viene eliminata, viene eliminata anche qualsiasi guida attiv
 **Riga BPM eliminata**
 
 - Spostare processi kanban programmati
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

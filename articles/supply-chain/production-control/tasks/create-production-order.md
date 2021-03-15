@@ -70,3 +70,6 @@ Questa procedura indica come creare un ordine di produzione. La società di dati
 6. Fare clic su Salva.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

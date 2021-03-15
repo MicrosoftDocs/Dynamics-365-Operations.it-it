@@ -55,3 +55,6 @@ In questo argomento viene descritto come aggiornare un ordine cliente quando i p
 19. Nel riquadro azioni selezionare **Preleva e imballa**.
 20. Selezionare **Documento di trasporto**. La pagina **Giornale di registrazione documenti di trasporto** contiene tutti i documenti di trasporto generati per l'ordine. È possibile esaminare i dettagli di ogni documento e stamparli, se si desidera.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

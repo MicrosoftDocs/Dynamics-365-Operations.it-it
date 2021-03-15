@@ -66,3 +66,6 @@ Poiché la società di progettazione possiede i dati rilevanti per la progettazi
 
     - Quando vengono rilasciati ad altre persone giuridiche, i documenti sono protetti dalla rimozione dalla società operativa.
     - Altre persone giuridiche possono aggiungere documenti locali completamente nuovi. La società operativa possiede e gestisce questi documenti locali.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

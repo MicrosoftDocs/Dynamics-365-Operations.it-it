@@ -132,3 +132,6 @@ Dopo aver eseguito un evento processo, è possibile suggerire correzioni dell'au
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

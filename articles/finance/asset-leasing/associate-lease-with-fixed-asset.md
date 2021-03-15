@@ -53,3 +53,6 @@ Il cespite può ora essere ammortizzato utilizzando la funzionalità di ammortam
 
 > [!NOTE]
 > Se associ un cespite a un leasing, i pulsanti **Ammortamento dei cespiti** e **Riduzione del valore del leasing** sono disabilitati in Leasing cespite. Puoi visualizzare l'ammortamento dei cespiti e le transazioni di riduzione del leasing da Cespiti. Anche il pulsante **Transazioni cespiti** che apre un modulo di richiesta è disabilitato. Puoi anche aprire il modulo di richiesta **Transazioni cespiti** in Cespiti.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

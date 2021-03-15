@@ -238,3 +238,6 @@ Ogni volta che si crea un cespite, i contatori dei cespiti correlati vengono ini
 1. Vai a **Gestione cespiti \> Imposta \> Ordini di lavoro \> Stati del ciclo di vita**.
 1. Nel riquadro elenco selezionare lo stato del ciclo di vita dell'ordine di lavoro in cui reimpostare il contatore pertinente.
 1. Nella Scheda dettaglio **Generale**, impostare l'opzione **Reimposta contatore** su *Sì*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

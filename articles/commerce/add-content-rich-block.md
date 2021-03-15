@@ -88,3 +88,6 @@ Per aggiungere un modulo Blocco di testo a una nuova pagina e impostare le propr
 
 [Modulo Lettore video](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

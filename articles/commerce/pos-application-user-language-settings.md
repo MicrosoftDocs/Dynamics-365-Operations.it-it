@@ -64,3 +64,6 @@ L'impostazione della lingua dell'utente viene impostata in **Tutti i lavoratori*
 | **Società** | Valori predefiniti                    | Valori predefiniti                                                       |
 | **Punto vendita**   | Sovrascrive la società          | Sovrascrive la società                                             |
 | **Utente**    | Sovrascrive il punto vendita o la società | Mai                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

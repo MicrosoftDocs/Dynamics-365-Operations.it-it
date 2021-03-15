@@ -84,3 +84,6 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 Per ulteriori informazioni su come lavorare con l'area di lavoro per dispositivi mobili **Gestione cespiti**, vedi [Utilizzare l'area di lavoro per dispositivi mobili per la gestione dei cespiti](asset-management-mobile-workspace.md).
 
 Per ulteriori informazioni sull'app per dispositivi mobili Finance and Operations (Dynamics 365), vedi la [Home page dell'app per dispositivi mobili](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

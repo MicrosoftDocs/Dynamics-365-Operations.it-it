@@ -57,3 +57,6 @@ In questo argomento viene illustrato come impostare una nomenclatura di numero p
 5. Nel campo **Nomenclatura di numero di variante prodotto** immettere o selezionare un valore.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

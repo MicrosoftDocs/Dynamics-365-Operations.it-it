@@ -251,3 +251,6 @@ Gli utenti dei servizi di globalizzazione possono gestire l'ambiente per imposta
 10. Selezionare **Pubblica** per pubblicare l'ambiente.
 
     ![Ambiente pubblicato](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

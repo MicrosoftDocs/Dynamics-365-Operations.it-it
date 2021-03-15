@@ -61,3 +61,6 @@ Utilizzare questa procedura per creare un ordine fornitore controllato in relazi
 4. Fare clic su Errori o avvisi verifica budget.
 5. Fare clic su Chiudi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Per creare gruppi di oggetti assistenza, effettuare le operazioni seguenti:
 [Creare oggetti assistenza](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 - Trovare tutti gli aggiornamenti normativi pianificati e rilasciati in [Lifecycle Service - Ricerca argomento](https://lcs.dynamics.com/Logon/Index) (accesso obbligatorio).
 - Per un elenco delle localizzazioni supportate per , vedere la [guida International availability](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

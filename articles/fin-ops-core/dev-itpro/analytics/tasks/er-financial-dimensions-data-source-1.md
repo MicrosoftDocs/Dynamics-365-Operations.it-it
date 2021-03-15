@@ -108,3 +108,6 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 
 ![Pagina della progettazione del modello di dati ER](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -302,3 +302,6 @@ Per creare una pagina con l'elenco dei dettagli delle fatture in Creazione di si
 [Modulo blocco contenuto](../add-hero-module.md)
 
 [Raccolta prodotti](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

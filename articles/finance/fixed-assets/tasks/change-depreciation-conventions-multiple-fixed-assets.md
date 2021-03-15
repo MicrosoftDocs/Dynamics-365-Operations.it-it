@@ -48,3 +48,6 @@ Tale attività consente di aggiornare la convenzione di ammortamento per un grup
 15. Fare clic su OK.
     *  I risultati del processo vengono visualizzati nel report Aggiornamento di massa.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

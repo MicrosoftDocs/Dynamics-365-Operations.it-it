@@ -58,3 +58,6 @@ In questo argomento viene descritto come creare e assegnare una struttura di reg
 17. Chiudere la pagina.
 18. Selezionare **Attiva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

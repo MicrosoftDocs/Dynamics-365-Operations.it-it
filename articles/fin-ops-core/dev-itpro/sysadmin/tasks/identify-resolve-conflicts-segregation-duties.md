@@ -59,3 +59,6 @@ Quando assegni utenti ai ruoli, le regole per la separazione dei compiti vengono
 
 > [!NOTE]
 > Se sono elencati più conflitti per lo stesso utente, selezionare il record utente e valutare i ruoli assegnati nella pagina **Utenti**. Per evitare questo conflitto, convalidare ogni regola dopo che è stata aggiunta o modificata.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

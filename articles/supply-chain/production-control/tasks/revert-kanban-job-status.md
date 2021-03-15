@@ -54,3 +54,6 @@ La procedura riguarda il ripristino di uno stato non di processo kanban non corr
     * Selezionare lo stesso processo.  
     * Si noti che lo stato del processo kanban viene reimpostato su Pianificato, indicato da un'icona kanban vuota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

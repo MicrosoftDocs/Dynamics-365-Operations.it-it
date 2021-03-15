@@ -87,3 +87,6 @@ Descrive la posizione o le posizioni da coprire per una richiesta di selezione. 
 [Introduzione all'API di integrazione del sistema di tracciabilità dei candidati](hr-admin-integration-ats-api-introduction.md)<br>
 [Query di esempio per la richiesta di selezione](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

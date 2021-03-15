@@ -108,3 +108,6 @@ Ora è possibile fare riferimento al frammento nel modello per altre pagine del 
 [Conformità dei cookie](cookie-compliance.md)
 
 [Sostituire gli ID utente associati alle modifiche al contenuto monitorato](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

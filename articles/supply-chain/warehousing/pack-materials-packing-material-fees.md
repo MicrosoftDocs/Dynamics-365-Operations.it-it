@@ -111,3 +111,6 @@ Per generare un report che mostri tutti gli addebiti del materiale di imballaggi
 
 1. Andare a **Contabilità clienti \> Impostazioni \> Parametri contabilità clienti**.
 1. Nella scheda **Aggiornamenti** nella scheda dettaglio **Fattura**, impostare l'opzione **Stampa peso materiale di imballaggio** su **Sì**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

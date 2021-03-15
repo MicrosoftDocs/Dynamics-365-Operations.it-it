@@ -239,3 +239,6 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

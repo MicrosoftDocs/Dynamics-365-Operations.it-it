@@ -44,3 +44,6 @@ Se per una riga di un contratto di assistenza non è stato specificato un interv
 
 [Creare intervalli di tempo](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

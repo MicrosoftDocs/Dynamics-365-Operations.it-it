@@ -43,3 +43,6 @@ Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per pun
 | Visualizza prodotti con variazioni di prezzo | L'impostazione di questa opzione su **Sì** visualizzerà i prezzi solo per le date in cui il prezzo è stato modificato. Il prezzo di *un giorno prima* della **data iniziale** selezionata verrà sempre visualizzato, di modo che il responsabile punto vendita possa facilmente identificare i prodotti senza prezzi modificati per l'intera durata selezionata nonché visualizzare il prezzo corrente. |
 
 Dopo la generazione del report, il file di Excel può essere scaricato per tutti i requisiti di filtro aggiuntivi. Il report dei prezzi può essere utilizzato per verificare i prezzi storici dei prodotti per le date passate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ In questo argomento viene descritto come classificare un prodotto utilizzando le
 11. Nel campo **Categoria** immettere o selezionare un valore.
 12. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

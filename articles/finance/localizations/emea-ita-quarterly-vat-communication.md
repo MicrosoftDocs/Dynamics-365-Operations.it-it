@@ -204,3 +204,6 @@ Una nuova voce di menu per il report **Comunicazione IVA trimestrale (LIPE)** de
     - **4**: Entità che operano in settori quali telecomunicazioni, approvvigionamento idrico, elettricità, raccolta rifiuti e smaltimento
 
 4.  Scegliere **OK** per generare il report.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

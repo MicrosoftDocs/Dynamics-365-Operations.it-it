@@ -45,3 +45,6 @@ Un ordine lotto consolidato può contenere qualsiasi combinazione dei seguenti o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

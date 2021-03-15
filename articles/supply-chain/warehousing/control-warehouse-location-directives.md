@@ -76,3 +76,6 @@ Le direttive di ubicazione determinano *dove* gli articoli devono essere preleva
 
 - Video: [Approfondimento sulla configurazione della gestione magazzino](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Argomento della Guida: [Creare direttive di ubicazione](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

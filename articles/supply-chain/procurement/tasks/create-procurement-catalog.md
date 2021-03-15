@@ -65,3 +65,6 @@ In questo argomento viene illustrato come creare un catalogo di approvvigionamen
 7. Selezionare **Aggiungi a righe**.
 8. Selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

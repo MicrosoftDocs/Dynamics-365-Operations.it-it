@@ -154,3 +154,6 @@ Selezionare la società che rappresenta l'origine dei dati consolidati, quindi s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Quando viene eseguita la pianificazione generale, vengono creati due ordini pian
 > Dopo che un ordine pianificato con pegging a una richiesta di acquisto è stato stabilizzato, il motore di pianificazione mantiene il pegging alla richiesta di acquisto. Se in seguito si scopre che nell'ordine stabilizzato manca una quantità necessaria per soddisfare la richiesta di acquisto, il sistema creerà un nuovo ordine pianificato per la differenza.
 
 Per ulteriori informazioni sulle richieste di acquisto, vedere [Panoramica della richiesta di acquisto](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

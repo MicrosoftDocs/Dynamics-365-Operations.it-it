@@ -64,3 +64,6 @@ Per eseguire questa procedura è necessario disporre del ruolo di amministratore
 29. Fare clic su OK.
 30. Selezionare un motivo per cui si esce in anticipo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

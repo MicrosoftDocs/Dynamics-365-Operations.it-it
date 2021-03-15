@@ -77,3 +77,6 @@ Tuttavia se si utilizza un articolo che ha una gerarchia di prenotazione "sotto 
 Questo comportamento è predefinito. Se si inserisce una dimensione sopra la dimensione **Ubicazione** nella gerarchia di prenotazione, deve essere specificata prima del rilascio al magazzino. Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione della funzionalità durante i rilasci al magazzino dal workbench di pianificazione del carico. Le quantità parziali non possono essere rilasciate se una o più dimensioni sopra **Ubicazione** non sono specificate.
 
 Per ulteriori informazioni, vedere [Criteri flessibili di prenotazione delle dimensioni a livello di magazzino](flexible-warehouse-level-dimension-reservation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

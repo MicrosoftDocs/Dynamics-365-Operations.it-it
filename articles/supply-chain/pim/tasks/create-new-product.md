@@ -42,3 +42,6 @@ Viene descritta la procedura per creare un nuovo prodotto condiviso. Viene in ge
 3. Nel campo **Gruppo di dimensioni di tracciabilità** immettere o selezionare un valore. Il gruppo di dimensioni di tracciabilità determina quali dimensioni di tracciabilità è necessario immettere in ciascuna transazione per il prodotto e come verrà gestita in magazzino.  
 4. Selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Questo argomento descrive l'impostazione di una voce di menu per dispositivo mob
 6. Selezionare **Salva**.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

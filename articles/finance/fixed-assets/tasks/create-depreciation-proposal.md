@@ -47,3 +47,6 @@ In questo argomento viene descritto come le proposte di ammortamento batch vengo
 3. Selezionare **Righe**.
 4. Selezionare **Registra**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

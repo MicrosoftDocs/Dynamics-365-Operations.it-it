@@ -109,3 +109,6 @@ Per designare gli approvatori, attenersi alla procedura indicata di seguito.
 1. Nella pagina **Opzioni** , nella scheda **Conti** , fare clic su **Approvatore designato**.
 2. Nel campo **ID utente approvatore** selezionare l'ID dell'utente che deve firmare per le modifiche apportate da un altro utente.
 3. Nel campo **ID utente per firma** selezionare l'ID dell'utente che ha apportato le modifiche per le quali è richiesta la firma.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

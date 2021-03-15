@@ -44,3 +44,6 @@ In questo argomento viene descritto come un utente assegnato al ruolo di amminis
 2. Selezionare **Imposta come attivo**.
 
 ![Pagina dell'area di lavoro Creazione di report elettronici](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

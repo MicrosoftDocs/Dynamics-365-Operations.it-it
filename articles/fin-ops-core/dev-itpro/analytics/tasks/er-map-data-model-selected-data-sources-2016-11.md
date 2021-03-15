@@ -146,3 +146,6 @@ I passaggi seguenti descrivono come un utente con ruolo amministratore di sistem
 5. Selezionare la versione completata della configurazione corrente.
     * Si noti che la configurazione creata viene salvata come versione completata 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Questo argomento spiega come impostare sequenze numeriche singole. Le sequenze n
 8. Espandere la sezione **Generale**. Nella Scheda dettaglio Generale specificare se la sequenza numerica è manuale e continua o non continua. Immettere, inoltre, il numero minimo e massimo che è possibile utilizzare nella sequenza numerica. Si consiglia di non modificare una sequenza numerica non continua con una sequenza numerica continua. La sequenza numerica non continua verrà soddisfatta. La modifica può causare anche le violazioni della chiave duplicata nel database. Inoltre, le sequenze numeriche continue hanno un maggiore effetto sulle prestazioni.   
 9. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

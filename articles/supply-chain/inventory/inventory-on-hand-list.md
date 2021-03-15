@@ -145,3 +145,6 @@ Ecco l'output risultante.
 | IA0001 | 1 | 2 | 2 |
 
 Si noti che le impostazioni nel riquadro **Filtri** si applicano alla tabella di scorte dettagliata (non aggregata) mostrata all'inizio di questa sezione. Pertanto, il criterio **Fisico disponibile** \| **inferiore o uguale a** \| _1_ trova due righe di quella tabella (la prima e la terza riga, ognuna delle quali mostra un valore **Fisico disponibile** di _1_). Tuttavia, in questo scenario, la pagina **Elenco scorte disponibili** non è impostata per mostrare la dimensione **Magazzino**. Pertanto, aggrega le due righe originali in una singola riga risultante, poiché entrambe le righe hanno valori identici in tutte le dimensioni visualizzate. Questa riga sembra violare il criterio di filtro, perché il valore **Fisico disponibile** è mostrato come _2_. Tuttavia, il risultato è corretto, perché le impostazioni nel riquadro **Filtri** si applicano alla tabella di origine, non alla tabella aggregata mostrata nella pagina **Elenco scorte disponibili**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Quando si genera il report, sono disponibili i seguenti campi predefiniti. È po
 Per visualizzare solo i conti non fiscali nel report, impostare una condizione di filtro, ad esempio un asterisco (\*), come illustrato nella figura seguente.
 
 ![Report con i conti non fiscali](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

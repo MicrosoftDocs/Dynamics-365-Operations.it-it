@@ -62,3 +62,6 @@ I giustificativi giornale di registrazione registrati possono essere salvati com
 29. Nel campo **Importo** immettere l'importo da applicare al giustificativo. Il campo **Importo** viene visualizzato solo se il modello di giustificativo è di tipo Percentuale.  
 30. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

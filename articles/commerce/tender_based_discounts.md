@@ -71,3 +71,6 @@ I rivenditori al dettaglio spesso scelgono di escludere dagli sconti alcuni prod
 
 > [!NOTE]
 > Quando la configurazione **Impedisci tutti gli sconti** è impostata su **Sì**, nessuno sconto verrà applicato al prodotto. Non verranno applicati nemmeno gli sconti basati sul metodo di pagamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

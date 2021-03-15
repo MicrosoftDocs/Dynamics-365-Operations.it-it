@@ -64,3 +64,6 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 [Impostare le linee di credito bancarie e i profili registrazione per le lettere di garanzia](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

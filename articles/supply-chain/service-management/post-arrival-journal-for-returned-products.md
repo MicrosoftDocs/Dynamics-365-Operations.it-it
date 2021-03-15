@@ -57,3 +57,6 @@ Dopo la registrazione del giornale, i resi verranno registrati nelle scorte e ne
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

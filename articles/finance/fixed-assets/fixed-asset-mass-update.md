@@ -41,3 +41,6 @@ Dopo aver aggiornato la convenzione di ammortamento per i cespiti, è possibile 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ L'utente deve essere aggiunto al ruolo Creatore dell'utente per l'ambiente in Mi
     ![Pulsante Sincronizza](media/get-more.png)
 
     Dopo che la sincronizzazione viene completata, l'app Human Resources verrà visualizzata nella home page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

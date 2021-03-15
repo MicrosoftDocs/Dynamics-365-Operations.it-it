@@ -52,3 +52,6 @@ Il workbench di allestimento del carico utilizza gli indirizzi dei clienti e le 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

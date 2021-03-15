@@ -112,3 +112,6 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
 
 [Modulo visualizzazione rapida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

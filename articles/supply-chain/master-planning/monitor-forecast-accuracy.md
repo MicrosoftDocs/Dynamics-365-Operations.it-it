@@ -49,3 +49,6 @@ Supply Chain Management calcola i seguenti tipi di precisione della previsione:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

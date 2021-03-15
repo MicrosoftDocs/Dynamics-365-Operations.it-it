@@ -56,3 +56,6 @@ Questa attività è stata creata utilizzando il set di dati USSI.
 21. Digitare un valore nel campo **Commento**.
 22. Fare clic su **Invia**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

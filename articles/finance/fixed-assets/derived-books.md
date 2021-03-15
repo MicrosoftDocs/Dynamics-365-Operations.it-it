@@ -47,3 +47,6 @@ Per ulteriori informazioni, vedere [Registrare con i libri derivati](post-derive
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

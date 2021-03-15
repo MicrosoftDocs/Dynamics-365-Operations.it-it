@@ -181,3 +181,6 @@ Di seguito sono riportati alcuni degli scenari di consolidamento supportati dall
 
 ## <a name="generating-consolidated-financial-statements"></a>Generazione di rendiconti finanziari consolidati
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

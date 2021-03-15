@@ -48,3 +48,6 @@ In questo argomento viene illustrato come impostare la ritenuta d'acconto. La *r
 18. Selezionare **Salva**.
 19. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

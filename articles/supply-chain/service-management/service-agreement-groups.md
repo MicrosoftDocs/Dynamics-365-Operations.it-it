@@ -41,3 +41,6 @@ Nel campo **Gruppo contratti di assistenza** della pagina **Parametri di gestion
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Creare gruppi di contratti di assistenza](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

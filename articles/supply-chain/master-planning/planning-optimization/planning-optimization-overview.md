@@ -77,3 +77,6 @@ L'illustrazione seguente mostra il flusso dei dati.
 [Applicare i filtri a un piano](plan-filters.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

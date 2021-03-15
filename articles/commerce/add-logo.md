@@ -73,3 +73,6 @@ Dopo aver pubblicato il frammento di intestazione aggiornato, tutte le pagine de
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

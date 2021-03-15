@@ -53,3 +53,6 @@ In questa procedura viene illustrato come creare un nuovo libro cespiti e associ
     * Si noti che il valore del campo Periodi di ammortamento viene calcolato dopo aver impostato Vita utile.  
     * È possibile impostare la convenzione di ammortamento come richiesto per scopi fiscali.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

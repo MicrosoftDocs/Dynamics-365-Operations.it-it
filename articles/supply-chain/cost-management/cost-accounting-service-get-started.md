@@ -110,3 +110,6 @@ Per impostare l'integrazione tra il servizio di contabilità industriale e Dynam
 ## <a name="related-resources"></a>Risorse correlate
 
 [Home page del servizio contabilità industriale](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Per gli scenari di pianificazione che includono la produzione, si consiglia di e
 Sebbene gli elementi figlio dipendenti vengano rilevati automaticamente e inclusi nelle esecuzioni della pianificazione generale quando viene utilizzato il motore di pianificazione generale integrato, Ottimizzazione pianificazione non esegue questa azione.
 
 Ad esempio, se un singolo bullone dalla struttura DBA del prodotto A viene utilizzato anche per produrre il prodotto B, tutti i prodotti nella struttura DBA dei prodotti A e B devono essere inclusi nel filtro. Poiché può essere molto complesso garantire che tutti i prodotti facciano parte del filtro, si consiglia di evitare esecuzioni di pianificazione generale filtrate quando sono coinvolti ordini di produzione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

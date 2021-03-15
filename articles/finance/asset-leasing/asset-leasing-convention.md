@@ -50,3 +50,6 @@ Per visualizzare o assegnare la convenzione di leasing, segui questi passaggi.
 3. Selezionare **Salva**.
 
 Quando viene creato un leasing, la data di inizio di ciascun libro viene inserita automaticamente in base alla data di inizio immessa per il leasing e alla convenzione di leasing specificata per il libro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

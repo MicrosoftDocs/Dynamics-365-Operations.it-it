@@ -75,3 +75,6 @@ Poiché gli elementi di costo rappresentano il livello minimo dei dettagli di co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

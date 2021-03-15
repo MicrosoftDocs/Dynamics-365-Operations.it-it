@@ -56,3 +56,6 @@ Questa procedura illustra come eseguire i processi di lavorazione kanban. Il pri
 6. Nel campo Quantità idonea immettere un numero.
 7. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

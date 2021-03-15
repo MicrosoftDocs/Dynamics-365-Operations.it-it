@@ -226,3 +226,6 @@ Lead time + giorni negativi + data odierna – data fabbisogno
 Il sistema utilizza solo gli ordini di fornitura pianificati compresi in questo intervallo temporale e crea un nuovo ordine pianificato al di fuori di tale intervallo. Il vantaggio dei giorni negativi dinamici è che includeranno il lead time del singolo prodotto per riutilizzare gli ordini esistenti e impedire la creazione di nuovi ordini pianificati che termineranno in un giorno successivo, a causa dei ritardi causati dal lead time. 
 
 Per ulteriori informazioni, vedere [Giorni negativi e giorni negativi dinamici](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

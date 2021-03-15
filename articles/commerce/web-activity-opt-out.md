@@ -55,3 +55,6 @@ Gli amministratori possono consentire agli utenti autenticati di rinunciare auto
 ### <a name="custom-extensions"></a>Estensioni personalizzate
 
 Gli amministratori possono creare estensioni personalizzate per gestire l'esperienza di rifiuto per gli utenti. Per ulteriori informazioni, vedere [Chiamare API Retail Server](e-commerce-extensibility/call-retail-server-apis.md)e [Estendibilità del canale online](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

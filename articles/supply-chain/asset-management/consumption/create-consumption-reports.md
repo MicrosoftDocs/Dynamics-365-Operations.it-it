@@ -77,3 +77,6 @@ Dopo aver registrato il consumo negli ordini di lavoro, è possibile stampare un
 >[!NOTE]
 >È inoltre possibile generare un [report di ordine di lavoro](../work-orders/work-order-report.md) contenente ulteriori dettagli su un ordine di lavoro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

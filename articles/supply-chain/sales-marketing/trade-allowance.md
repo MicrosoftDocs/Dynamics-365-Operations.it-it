@@ -199,3 +199,6 @@ Per ottenere una panoramica più analitica delle varie misurazioni delle prestaz
 
 Per ottenere una panoramica più analitica delle varie misurazioni delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Questa procedura dimostra come creare una programmazione consegna per un ordine 
 22. Fare clic su OK.
 23. Fare clic su Sì.
 24. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

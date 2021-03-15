@@ -82,3 +82,6 @@ Dopo che i dati di impostazione sono disponibili, si è pronti a creare un cespi
 1. Nella pagina **Tutte le unità funzionali**, verificare che l'unità funzionale in cui si desidera creare automaticamente il cespite utilizza il tipo di unità funzionale creato a questo scopo.
 2. Selezionare l'unità funzionale nell'elenco.
 3. Selezionare **Aggiorna stato dell'unità funzionale** e quindi selezionare lo stato del ciclo di vita creato a questo scopo. Un solo cespite verrà installato automaticamente nell'unità funzionale. Il cespite ha lo stesso ID e nome dell'unità funzionale.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

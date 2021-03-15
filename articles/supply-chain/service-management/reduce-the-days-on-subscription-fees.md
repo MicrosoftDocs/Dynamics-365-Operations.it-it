@@ -54,3 +54,6 @@ Se inoltre la data impostata nel campo **Dal** del periodo di riduzione corrispo
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

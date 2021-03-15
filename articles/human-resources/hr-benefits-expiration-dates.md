@@ -46,3 +46,6 @@ Questa procedura illustra come è possibile applicare una scadenza o estendere u
 15. Fare clic su Benefit.
 16. Nell'elenco individuare il benefit e selezionare il record. Si noti la nuova data di fine copertura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

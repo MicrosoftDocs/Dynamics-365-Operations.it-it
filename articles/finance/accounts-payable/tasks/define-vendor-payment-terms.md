@@ -46,3 +46,6 @@ In questo argomento viene spiegato come impostare le condizioni di pagamento per
 16. Immettere il conto principale in cui lo sconto di cassa verrà registrato per le fatture cliente, quindi immettere il conto principale in cui lo sconto di cassa verrà registrato per le fatture fornitore. Se **Conti di contropartita sconti** viene impostato su **Utilizza conto principale per sconti fornitore**, verrà utilizzato il conto principale. Se l'opzione è impostata su **Conti nelle righe fattura**, lo sconto di cassa verrà registrato nei conti spese/cespite nelle righe della fattura.  
 17. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

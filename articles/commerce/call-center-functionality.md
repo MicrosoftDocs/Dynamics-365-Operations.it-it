@@ -68,3 +68,6 @@ In questa pagina vengono forniti collegamenti alla documentazione relativi a imp
 ## <a name="configure-continuity-programs"></a>Configurazione di programmi di continuità
 
 [Impostare programmi di continuità per i servizi clienti](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

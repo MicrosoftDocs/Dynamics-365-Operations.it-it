@@ -69,3 +69,6 @@ In questa procedura viene illustrato come mettere in sospeso ordini cliente, com
     - L'azione **Cancella e invia** è applicabile solo quando si utilizza la funzionalità Servizio clienti.  
 8. Fare clic su **Cancella sospensioni**. La sospensione è stata cancellata dall'ordine e rimossa dall'elenco delle sospensioni attive. Per visualizzare tutte le sospensioni o i relativi sottoinsiemi in base a uno stato specifico, modificare il valore nel campo Mostra.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

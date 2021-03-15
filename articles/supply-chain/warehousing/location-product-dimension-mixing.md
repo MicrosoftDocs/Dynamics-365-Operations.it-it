@@ -238,3 +238,5 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 > [!TIP]
 > Puoi ripetere questo scenario, ma questa volta, imposta **Dimensione** - *No* nella Scheda dettaglio **Consenti combinazione dimensioni prodotto** sul *BULK* **Profili di ubicazione**, in modo che nessuna delle dimensioni del prodotto possa essere combinata. In questo caso, quando si riceve l'ordine fornitore, ciascuna variante di prodotto verrà inserita in una nuova ubicazione.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

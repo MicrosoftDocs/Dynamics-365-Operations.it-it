@@ -71,3 +71,6 @@ Questa procedura guida nella creazione di varianti prodotto per una rappresentaz
     * È possibile generare le descrizioni per tutte le varianti in base alla combinazione di valori di dimensione prodotto. La descrizioni sono facoltativa.  
 5. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

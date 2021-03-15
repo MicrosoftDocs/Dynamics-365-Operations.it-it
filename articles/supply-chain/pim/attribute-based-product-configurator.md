@@ -140,3 +140,6 @@ Il passaggio finale consiste nello specificare i prezzi di vendita basati su att
 1. Nel riquadro azioni, apri la scheda **Modello** e, nel gruppo **Dettagli modello prodotto**, seleziona **Versioni**.
 1. Viene visualizzata la pagina **Versioni**. Assicurati che **Metodo di determinazione prezzo** sia impostato su **Basato su attributi**.
     ![Impostare Metodo di determinazione prezzo su Basato su attributi](media/prod-config-versions.png "Impostare Metodo di determinazione prezzo su Basato su attributi")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

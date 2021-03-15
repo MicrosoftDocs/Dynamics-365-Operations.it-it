@@ -61,3 +61,6 @@ In questa procedura viene illustrato come creare uno stato del ciclo di vita del
 > [!NOTE]
 > Si supponga di aver impostato uno stato attivo, è possibile ora selezionare lo stato attivo per consentire al prodotto di essere utilizzato nel calcolo del livello DBA e della pianificazione generale. Ovviamente, ciò è applicabile solo se tutti i dettagli prodotto necessari per una pianificazione coerente vengono specificati.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

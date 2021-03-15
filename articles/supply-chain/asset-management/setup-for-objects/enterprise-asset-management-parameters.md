@@ -106,3 +106,6 @@ Selezionare i tipi di documento che devono essere disponibili per la stampa degl
 ## <a name="the-number-sequences-tab"></a>Scheda Sequenze numeriche
 
 Selezionare le sequenze numeriche richieste in questa sezione. Sono disponibili due sequenze numeriche per i cespiti: Uno per i cespiti creati manualmente e un'altra per i cespiti creati tramite i cespiti in sospeso.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

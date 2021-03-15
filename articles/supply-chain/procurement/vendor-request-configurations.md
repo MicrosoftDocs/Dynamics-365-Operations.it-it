@@ -53,3 +53,6 @@ Non è possibile selezionare paesi per la configurazione predefinita, quindi la 
 4.  Aprire la scheda **Paesi** per selezionare il paese per cui la configurazione deve essere utilizzata.
 5.  Completare la configurazione seguendo le indicazioni per la configurazione predefinita.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

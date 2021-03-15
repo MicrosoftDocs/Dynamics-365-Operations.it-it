@@ -275,3 +275,6 @@ In questo scenario, il prelievo del cluster è stato completato e all'utente vie
     Viene ricevuto un messaggio di tipo "Cluster completato".
 
 Ora è possibile usare la voce di menu **Prelievo vendite** per prelevare la quantità rimanente. È quindi possibile utilizzare la voce di menu **Caricamento vendite** per spostare gli articoli dalla posizione di gestione temporanea alla banchina di carico.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

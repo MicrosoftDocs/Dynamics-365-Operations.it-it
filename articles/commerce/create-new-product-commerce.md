@@ -114,3 +114,6 @@ L'immagine seguente illustra un esempio di configurazione per un prodotto rilasc
 [Creare persone giuridiche](channels-legal-entities.md)
 
 [Creare un gruppo di varianti](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

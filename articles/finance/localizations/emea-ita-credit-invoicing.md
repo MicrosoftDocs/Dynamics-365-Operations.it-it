@@ -55,3 +55,6 @@ Nel modulo **Contabilità fornitori**, passare a **Fatture** \> **Giornale di re
 Nel modulo **Contabilità fornitori**, passare a **Ordini fornitore** \> **Tutti gli ordini fornitore**, quindi nel riquadro azioni, nella scheda **Fattura**, nel gruppo **Introduci**, selezionare **Fatturazione note di accredito**.
 
 ![Pagina Tutti gli ordini fornitore con la pagina Fatturazione note di accredito](./media/ita-credit-invoicing-po.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

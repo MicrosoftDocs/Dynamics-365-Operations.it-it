@@ -157,3 +157,6 @@ Passare a **Retail e Commerce \> Canali \> Punti vendita \> Tutti i punti vendit
 Questa impostazione aiuta a garantire che i resoconti di back-office includano le stesse transazioni dei turni nel POS e che i dati siano riepilogati da tale turno.
 
 Per ulteriori informazioni sui metodi di dichiarazione e di chiusura, vedere [Configurazioni dei punti vendita per il Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

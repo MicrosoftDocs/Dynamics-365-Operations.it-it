@@ -61,3 +61,6 @@ Un articolo viene aggiunto a una riga di vendita per la consegna diretta da un m
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione delle funzionalità. Attualmente, WMS non supporta la consegna diretta. Pertanto, per utilizzare la consegna diretta, è necessario selezionare un articolo e un magazzino non WMS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

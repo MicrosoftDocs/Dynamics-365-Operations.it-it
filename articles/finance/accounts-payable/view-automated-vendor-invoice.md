@@ -37,3 +37,6 @@ Se una fattura importata è soggetta al processo di invio al flusso di lavoro, �
 - **In sospeso** - I processi automatizzati definiti nella pagina **Parametri contabilità fornitori** sono stati eseguiti, ma almeno un passaggio del processo non è riuscito. Lo stato **In sospeso** viene applicato anche se il campo **Includi in elaborazione automatizzata** è impostato su **No**. Puoi visualizzare gli errori selezionando **Visualizza risultati più recenti**.
 - **In flusso di lavoro** - La fattura importata è stata inviata al sistema flusso di lavoro, tramite il processo di invio al flusso di lavoro automatizzato o manualmente.
 - **Flusso di lavoro completato** - Il processo del flusso di lavoro è stato completato per la fattura importata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

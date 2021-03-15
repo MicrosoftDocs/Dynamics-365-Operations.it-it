@@ -113,3 +113,6 @@ Un piano di retribuzione fissa non può essere assegnato a un dipendente fino a 
 
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

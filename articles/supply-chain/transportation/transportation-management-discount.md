@@ -32,3 +32,6 @@ Per impostare gli sconti per la gestione dei trasporti, andare a **Gestione tras
 Scegliere se trasferire lo sconto al cliente (impostando il tipo di sconto su cliente) o mantenerlo in azienda (impostando il tipo di sconto su mittente). Ciò consente di definire una configurazione in cui si guadagna un margine sulle spese di trasporto calcolate.
 
 È possibile impostare più qualificatori per ogni sconto, come vettore, servizio di vettore, termini di consegna, cliente, destinazione e altro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

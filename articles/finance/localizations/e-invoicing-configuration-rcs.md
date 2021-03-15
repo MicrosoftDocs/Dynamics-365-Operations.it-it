@@ -290,3 +290,6 @@ Quando una funzione di fatturazione elettronica deriva da un'altra, il comando *
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Emissione di fatture elettroniche in Finance e Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

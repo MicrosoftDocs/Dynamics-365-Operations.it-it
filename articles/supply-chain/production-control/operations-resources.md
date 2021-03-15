@@ -84,3 +84,6 @@ Quando si definisce un'attività, ad esempio un'operazione del ciclo di lavorazi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

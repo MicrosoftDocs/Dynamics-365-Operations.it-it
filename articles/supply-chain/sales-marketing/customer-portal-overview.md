@@ -68,3 +68,6 @@ La [doppia scrittura](https://docs.microsoft.com/powerapps/maker/portals/overvie
 ![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
 Il portale clienti funge da punto di partenza per le organizzazioni che desiderano utilizzare i portali Power Apps per creare un sito Web rivolto verso l'esterno che utilizza i dati dell'installazione di Supply Chain Management. Consente alle organizzazioni di connettere la doppia scrittura, Supply Chain Management e i portali Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

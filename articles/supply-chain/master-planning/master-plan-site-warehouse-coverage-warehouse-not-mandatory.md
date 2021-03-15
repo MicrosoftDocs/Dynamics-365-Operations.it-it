@@ -62,3 +62,6 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

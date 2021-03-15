@@ -88,3 +88,6 @@ Commerce utilizza gerarchie organizzative per strutturare canali. Le gerarchie o
 > [!NOTE]
 > Per utilizzare la funzionalità di Commerce, la chiave di configurazione per **Indirizzi di spedizione multipli** deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\> **Impostazioni** \> **Configurazione licenza**. Ciò è necessario a causa delle varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

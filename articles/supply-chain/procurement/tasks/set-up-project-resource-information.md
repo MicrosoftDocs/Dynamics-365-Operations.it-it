@@ -51,3 +51,6 @@ Questa procedura mostra come impostare una risorsa del progetto. Questa attivit√
 20. Fare clic su Salva.
 21. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ In questo argomento viene illustrato come mettere in sospeso un periodo o chiude
 11. Selezionare **Aggiorna stato periodo** e impostare lo stato su **In attesa**, **Aperto** o **Chiuso in modo permanente**. **Aperto** indica che è possibile registrare nel periodo, se l'utente ha accesso. **In attesa** significa che il periodo non può essere registrato, ma il periodo può essere riaperto. **Chiuso in modo permanente** significa che il periodo è chiuso e non può mai essere aperto. Non possono essere registrate rettifiche. Non si consiglia di impostare un periodo su **Chiuso in modo permanente** fino a che tutte le rettifiche e i controlli sono completi.  
 12. Selezionare **Aggiornamento**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

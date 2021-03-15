@@ -170,3 +170,6 @@ Prima di poter impostare il raggruppamento delle righe di prelievo, è necessari
 >   - Righe di lavoro che includono lavori di rifornimento incompiuti
 >   - Prelievo eccessivo
 >   - Prelievo breve con riallocazione articolo
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Dopo aver copiato le righe, è possibile modificare le informazioni secondo le e
 L'utente può creare una fattura a testo libero da un modello. Quando si seleziona **Nuovo da modello** nella scheda **Fattura**, è possibile selezionare un nome di modello e il conto cliente per la nuova fattura a testo libero. Il cliente può compilare automaticamente i valori predefiniti, ad esempio i termini di pagamento e il metodo di pagamento, oppure è possibile utilizzare i valori che erano stati salvati nel modello.
 
 Viene creata una nuova fattura a testo libero ed è possibile modificare i valori secondo le esigenze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ La sequenza temporale viene aggiornata ogni volta che la pagina viene aperta. So
 - Ordini di lavoro, incluso l'articolo e le note registrati
 - Problemi
 - Valutazioni della condizione
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

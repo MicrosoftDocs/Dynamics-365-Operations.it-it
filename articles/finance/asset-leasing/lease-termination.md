@@ -158,3 +158,6 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 11. Per visualizzare l'effetto netto della risoluzione, dove il cespite ROU e l'obbligazione sul leasing sarà 0 (zero), apri le tabelle Passività e Transazioni attività.
 
 Lo stato del leasing dovrebbe ora essere **Terminato**. Non verranno registrate voci aggiuntive per questo leasing a meno che la risoluzione non venga annullata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

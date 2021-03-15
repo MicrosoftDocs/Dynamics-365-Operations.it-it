@@ -77,3 +77,6 @@ Per aggiungere un modulo visualizzazione prodotti a un modulo di raccolta prodot
 [Modulo Raccolta prodotti](product-collection-module-overview.md)
 
 [Modulo dei risultati di ricerca](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

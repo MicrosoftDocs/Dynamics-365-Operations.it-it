@@ -55,3 +55,6 @@ Per revocare una transazione stornata, segui questi passaggi.
 Quando selezioni **Tracciatura di storno**, viene visualizzata una finestra di dialogo che mostra sia le transazioni originali che le transazioni stornate, insieme a un numero di traccia collegato.
 
 Puoi anche tenere traccia delle revoche utilizzando la pagina **Programmi** appropriata. Il campo **Storno** viene deselezionato, mentre il campo **Giornale di registrazione registrato** viene selezionato. Inoltre, il campo **Ultimo numero giornale di registrazione** viene aggiornato con il numero del giornale di registrazione della transazione di revoca e il campo **Numero giornale di registrazione** viene aggiornato con il numero di giornale di storno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Per ulteriori informazioni sull'impostazione relativa al calcolo dei punteggi di
 
 > [!NOTE]
 > Se si modifica un record di livello di servizio cespiti nella pagina **Livelli di servizio cespiti** dopo che è stato già utilizzato in un ordine di lavoro, il livello di servizio per le richieste di intervento di manutenzione e ordini di lavoro non verrà aggiornato di conseguenza.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

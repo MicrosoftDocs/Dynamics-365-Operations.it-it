@@ -37,3 +37,6 @@ Quando esistono più vettori di spedizione e servizi di trasporto per lo stesso 
 1. Nel campo **Nome** immettere un nome descrittivo per il gruppo.
 1. Nella Scheda dettaglio **Dettagli**, aggiungere una riga e selezionare un vettore di spedizione e un servizio di trasporto per la riga stessa. Ripetere questo passaggio fino a quando non sono stati aggiunti tutti i vettori per il gruppo.
 1. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Il metodo a saldi decrescenti del 150% consente di dividere il 150% per gli anni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

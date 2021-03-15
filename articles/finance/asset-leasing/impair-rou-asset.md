@@ -101,3 +101,6 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 7. Per visualizzare l'effetto netto della riduzione del valore, consulta le tabelle delle transazioni di passività e attività. Tien presente che la spesa per riduzione di valore ha diminuito l'asset ROU, ma il valore contabile dell'obbligazione sul leasing non è cambiato.
 
 La riduzione del valore ha un altro effetto che dovresti considerare. Poiché l'importo dell'asset ROU è ora molto inferiore all'obbligazione sul leasing, l'importo deve essere ammortizzato in modo diverso rispetto a prima. In particolare, il cespite viene ora ammortizzato in modo lineare durante i restanti 84 mesi di leasing, a partire dalla data di transazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

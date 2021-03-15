@@ -162,3 +162,6 @@ A questo punto, la rete CDN deve essere configurata correttamente di modo che po
 [Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

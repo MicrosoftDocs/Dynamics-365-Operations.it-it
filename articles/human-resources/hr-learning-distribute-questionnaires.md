@@ -131,3 +131,6 @@ Dopo che è stato progettato e distribuito, un questionario può essere completa
 I questionari possono essere messi a disposizione di utenti o gruppi di utenti specifici o di tutti gli utenti in una rete.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

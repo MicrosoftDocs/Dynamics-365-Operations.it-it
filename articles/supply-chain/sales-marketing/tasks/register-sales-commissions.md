@@ -70,3 +70,6 @@ Prendere nota dei numeri cliente e articolo scelti per il processo di provvigion
 3. Chiudere la pagina.
 4. Seleziona **Giustificativo**. È possibile esaminare le transazioni giustificativo per gli importi della provvigione registrati nei conti predefiniti Commissioni e Importo a debito provvigioni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

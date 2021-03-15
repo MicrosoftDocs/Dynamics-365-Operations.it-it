@@ -118,3 +118,6 @@ I pulsanti della scheda **Ordine di lavoro** del gruppo **Progetto** del riquadr
 >[!NOTE]
 >Per includere le previsioni create in un ordine di lavoro quando si esegue la programmazione generale, utilizzare il modello previsionale selezionato nel modulo **Parametri di gestione cespiti**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

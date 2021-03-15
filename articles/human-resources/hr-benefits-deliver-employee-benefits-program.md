@@ -68,3 +68,6 @@ In questo articolo viene descritto come creare elementi di benefit che verranno 
 16. Selezionare un'opzione nel campo Base.
 17. Nel campo Importo o Tasso immettere un numero.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

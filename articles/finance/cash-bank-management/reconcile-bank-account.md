@@ -70,3 +70,6 @@ La funzionalità Annulla riconciliazione rendiconti bancari consente di annullar
 Le riconciliazioni del rendiconto bancario possono essere annullate solo nell'ordine cronologico in cui sono state immesse. Quando una riconciliazione del rendiconto bancario viene annullata, le nuove transazioni e le rettifiche verranno stornate e tutte le altre transazioni vengono contrassegnate come non riconciliate.
  
 Per annullare la riconciliazione del rendiconto bancario, selezionare il rendiconto bancario e selezionare **Rendiconto bancario > Annulla riconciliazione estratti conto**. Nella pagina **Annulla riconciliazione estratti conto**, immettere **Codice motivo**, **Commento motivo** e **Data di annullamento**. Selezionare **OK** per avviare l'annullamento. Nota, la data di annullamento di rendiconto bancario deve essere coincidente o successiva alla data del rendiconto bancario. Dopo che la riconciliazione del rendiconto bancario è annullata, il campo **Data di annullamento** per il rendiconto bancario verrà aggiornato con la **Data di annullamento** fornita. Fare clic sul pulsante **Transazioni** per visualizzare le transazioni per cui la riconciliazione è stata annullata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

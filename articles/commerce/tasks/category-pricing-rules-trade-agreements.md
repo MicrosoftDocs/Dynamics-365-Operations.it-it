@@ -58,3 +58,6 @@ Questa procedura dimostra la creazione degli accordi commerciali sui prezzi di v
 24. Fare clic sulla scheda Regole prezzi di categoria.
     * Le regole per prezzi di categoria specifiche del canale verranno visualizzate nell'elenco.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Il prezzo di costo medio corrente per il magazzino GW e il batch AAA è EUR 11,2
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

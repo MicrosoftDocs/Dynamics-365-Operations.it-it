@@ -95,3 +95,6 @@ Quando si utilizzano origini esterne come DMF per visualizzare o creare dati, te
 
 [Dai di Data e ora](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Fusi orari preferiti dall'utente](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

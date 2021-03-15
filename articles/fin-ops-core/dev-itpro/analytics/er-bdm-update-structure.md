@@ -106,3 +106,6 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 [Panoramica dei report elettronici](general-electronic-reporting.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

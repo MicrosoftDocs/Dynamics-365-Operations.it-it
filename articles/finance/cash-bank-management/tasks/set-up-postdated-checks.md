@@ -56,3 +56,6 @@ Il ruolo di questa procedura è Tesoriere. Questa procedura utilizza la società
 18. Fare clic su Salva.
 19. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

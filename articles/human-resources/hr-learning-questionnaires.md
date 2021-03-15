@@ -44,3 +44,6 @@ Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle at
 | [Progettare un questionario](hr-learning-design-questionnaires.md) | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
 | [Distribuire e programmare questionari](hr-learning-distribute-questionnaires.md) | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari. |
 | [Visualizzare e valutare i risultati di un questionario](hr-learning-evaluate-questionnaire-results.md) | In questo articolo vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

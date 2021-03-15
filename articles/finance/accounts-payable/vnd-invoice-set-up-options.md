@@ -62,3 +62,6 @@ Sono disponibili i parametri seguenti:
 
 - **Numero di tentativi di abbinamento automatico** - Seleziona il numero di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima di considerare il processo come non riuscito. Quando viene raggiunto il numero di tentativi specificato, la fattura viene rimossa dall'elaborazione dell'automazione.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

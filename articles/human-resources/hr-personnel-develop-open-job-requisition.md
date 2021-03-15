@@ -66,3 +66,5 @@ I progetti di selezione facilitano la gestione del processo di selezione. Dopo a
 32. Seleziona **Stato progetto di selezione**.
 33. Selezionare **Avvia**. Lo stato **Avviato** indica che il progetto è pronto per ricevere le domande di lavoro.  
 34. Selezionare **OK**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

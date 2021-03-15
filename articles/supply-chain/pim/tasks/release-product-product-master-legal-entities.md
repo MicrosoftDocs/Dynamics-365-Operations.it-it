@@ -36,3 +36,6 @@ In questa procedura vengono descritti i passaggi per rilasciare un prodotto o un
 6. Scegliere Avanti.
 7. Scegliere Fine.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

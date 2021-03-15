@@ -72,3 +72,6 @@ Questa procedura mostra come trovare prodotti o varianti di prodotto obsoleti e 
 
 8. Nell'elenco trovare e selezionare il record desiderato.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

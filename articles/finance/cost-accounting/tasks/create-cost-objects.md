@@ -50,3 +50,6 @@ In questa procedura viene illustrato come creare oggetti di costo importando la 
 ## <a name="view-the-imported-cost-centers"></a>Visualizzare i centri di costo importati
 1. Fare clic su Visualizza membri di dimensione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "5022007"
 Nella figura seguente è illustrato un esempio della pagina elenco **Tutte le richieste di intervento di manutenzione**.
 
 ![Pagina elenco Tutte le richieste di intervento di manutenzione](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

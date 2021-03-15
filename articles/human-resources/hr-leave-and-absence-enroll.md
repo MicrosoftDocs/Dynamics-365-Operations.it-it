@@ -60,3 +60,5 @@ Dopo aver creato un piano di congedo e assenza in Dynamics 365 Human Resources, 
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

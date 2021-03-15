@@ -103,3 +103,6 @@ In questo esempio si dovrà selezionare la versione desiderata della configurazi
     Per questo esempio, selezionare la versione della configurazione con stato **Condiviso**.
 
     Notare che anche la versione condivisa 1 della configurazione selezionata del modello dati è ora disponibile.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Questa procedura mostra come creare un modello di configurazione prodotto e imme
 17. Nel campo Per serie, immettere un numero.
 18. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Questa procedura consente di abilitare un certificato di entrata UE, configurand
 4. Nel riquadro azioni fare clic su Fattura.
 5. Fare clic su Visualizza certificati di entrata rilasciati.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

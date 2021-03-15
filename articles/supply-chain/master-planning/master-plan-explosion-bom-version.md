@@ -47,3 +47,6 @@ Nella figura riportata di seguito è illustrato il processo di esplosione della 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

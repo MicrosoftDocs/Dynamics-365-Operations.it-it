@@ -124,3 +124,6 @@ Questo comportamento è previsto. Poiché le richieste non sono sempre approvate
 
 È possibile creare accordi commerciali per qualsiasi risposta a una richiesta di offerta (RdO), indipendentemente dal fatto che sia stata accettata o rifiutata. Per ulteriori informazioni, vedi [Panoramica sulle richieste di offerta (RdO)](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

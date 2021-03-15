@@ -71,3 +71,6 @@ In questa procedura viene illustrato come impostare i dati per la riconciliazion
 11. Nel campo Codice motivo insufficienza di pagamento immettere o selezionare un valore.
 12. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ Di seguito è riportato un esempio di regola di distribuzione costi se la base d
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Importo  |
 |    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Importo |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

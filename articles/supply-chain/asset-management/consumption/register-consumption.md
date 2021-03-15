@@ -94,3 +94,6 @@ Quando si eseguono registrazioni del consumo, le dimensioni finanziarie relative
 >[!NOTE]
 >Per tutti e tre i tipi di registrazione, viene convalidata la combinazione di dimensioni finanziarie e le combinazioni non valide vengono lasciate vuote. Questa è la configurazione standard con altre app Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

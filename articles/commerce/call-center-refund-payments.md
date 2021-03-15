@@ -108,3 +108,6 @@ In alternativa, un'organizzazione può impostare l'opzione **Consenti sostituzio
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Metodi di pagamento nei servizi clienti](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

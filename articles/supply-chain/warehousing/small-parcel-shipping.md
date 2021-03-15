@@ -279,3 +279,6 @@ Segui questi passaggi per imballare la spedizione.
     ![Etichetta di spedizione di esempio](media/sps-label-example.png "Etichetta di spedizione di esempio")
 
 1. Tieni presente che i valori **ID manifesto contenitore** e **Trasporto totale** sono stati aggiunti come ricevuti dal vettore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

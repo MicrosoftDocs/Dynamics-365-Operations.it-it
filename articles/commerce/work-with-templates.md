@@ -149,3 +149,6 @@ Dopo avere visualizzato un'anteprima delle modifiche al modello, eseguire una di
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Utilizzare i layout preimpostati](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

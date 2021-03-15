@@ -209,3 +209,6 @@ Oltre alle restrizioni attualmente in vigore per i prodotti a peso variabile, ai
 
 > [!NOTE]
 > Le informazioni precedenti sui tag di peso variabile sono valide solo se il prodotto a peso variabile ha un metodo di tracciabilità delle dimensioni con tag di peso variabile completamente tracciato (ovvero, se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e tutte le dimensioni di immagazzinamento**). Se l'articolo a peso variabile è tracciato solo parzialmente con tag (ovvero se il parametro **Metodo di tracciabilità dimensioni con tag di peso variabile** nei criteri di gestione articoli a peso variabile è impostato su **Dimensioni prodotto, dimensioni di tracciabilità e stato scorte**) si applicano ulteriori restrizioni. Poiché in questo non c'è visibilità tra tag e scorte, alcuni scenari aggiuntivi non sono supportati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Il sistema determina quale ramo utilizzare valutando il documento inviato per de
     2. Selezionare un record nell'area **Convalida condizione** del modulo.
     3. Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite.
     4. Fare clic su **OK** o **Annulla** per tornare al modulo **Proprietà**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

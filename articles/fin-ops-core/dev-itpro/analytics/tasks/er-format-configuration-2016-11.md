@@ -158,3 +158,6 @@ Questo argomento illustra come un utente assegnato al ruolo di amministratore di
 42. Fare clic su **Salva**.
 43. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Negli argomenti riportati di seguito viene descritta la logica in base alla qual
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

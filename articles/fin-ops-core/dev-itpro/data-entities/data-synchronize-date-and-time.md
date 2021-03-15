@@ -40,3 +40,6 @@ Questa doppia conversione fa sì che le date cambino tra le applicazioni. Ad ese
 4. Modificare **Fuso orario** in **Fuso orario UTC** e cambiare **Lingua** in **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Questa attività descrive come assegnare un modello di fattura a testo libero a 
     + Annuale: selezionare questa opzione e immettere il numero di anni nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 anni per il cliente specificato.  
 14. Nel campo **Per** immettere un numero.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

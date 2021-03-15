@@ -52,3 +52,6 @@ Per aggiungere nuovi articoli prodotti durante il periodo bloccato, effettuare l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

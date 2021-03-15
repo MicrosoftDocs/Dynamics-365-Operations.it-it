@@ -72,3 +72,6 @@ In questo argomento viene spiegato come impostare i criteri di fatture fornitore
 16. Selezionare **OK**.
 17. Chiudere le pagine per tornare alla home page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

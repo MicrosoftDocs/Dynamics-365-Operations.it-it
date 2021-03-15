@@ -78,3 +78,6 @@ Human Resources connette le persone e i dati sulle operazioni per consentire all
 [Gestire i congedi e le assenze](hr-leave-and-absence-overview.md)</br>
 [Sviluppare i dipendenti](hr-develop-performance-management-overview.md)</br>
 [Crea corsi](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

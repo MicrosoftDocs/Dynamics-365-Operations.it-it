@@ -83,3 +83,6 @@ Dopo la registrazione del consumo di articoli in un ordine di lavoro, è possibi
 5. Se l'articolo scadrà, nel campo **Scadenza**, immettere una data di fine.
 6. Nel campo **Numero articolo**, selezionare l'articolo. Il nome verrà immesso automaticamente nel campo **Nome prodotto**.
 7. Nel campo **Quantità** immettere la quantità usata. Il campo **Unità** viene aggiornato automaticamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

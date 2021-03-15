@@ -182,3 +182,6 @@ Per immettere commenti sulle modifiche apportate al flusso di lavoro, effettuare
 2. Nel campo **Immettere commenti sul flusso di lavoro** immettere i commenti.
 3. Rivedere i commenti. Dopo aver aggiunto i commenti, non sarà più possibile modificarli.
 4. Fare clic su **Aggiungi** per aggiungere commenti all'are **Cronologia commenti**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

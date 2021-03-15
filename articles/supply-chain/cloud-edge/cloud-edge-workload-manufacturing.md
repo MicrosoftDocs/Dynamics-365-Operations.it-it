@@ -109,3 +109,6 @@ Per esaminare la cronologia dei processi di produzione elaborati su un'unità di
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Processo Elaborazione messaggi da hub di produzione a unità di scala
 
 Il processo _Elaborazione messaggi da hub di produzione a unità di scala_ elabora i dati dall'hub all'unità di scala. Questo processo viene avviato automaticamente quando viene distribuito il carico di lavoro di esecuzione della produzione. Tuttavia, è possibile eseguirlo manualmente in qualsiasi momento andando a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Elaborazione messaggi da hub di produzione a unità di scala**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Per risolvere il problema, il cliente deve completare i passaggi seguenti per il
 3. Selezionare **Salva**.
 
 ![Pagina dei parametri della rubrica globale](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

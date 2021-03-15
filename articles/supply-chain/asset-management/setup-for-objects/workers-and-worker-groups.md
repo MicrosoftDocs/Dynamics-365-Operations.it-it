@@ -63,3 +63,6 @@ In questo argomento vengono illustrati gli addetti alla manutenzione e i gruppi 
 6. Se un gruppo di risorse deve essere associato al gruppo di addetti alla manutenzione selezionato, selezionare **Copia dal gruppo di risorse**. Nel campo **Gruppo**, selezionare il gruppo di risorse da cui copiare le impostazioni dal calendario. Quindi , nel campo **Gruppo di lavoratori**, selezionare il gruppo di lavoratori in cui copiare le impostazioni del calendario del gruppo di risorse. Questo passaggio è rilevante solo se si desidera che gli addetti alla manutenzione utilizzino il calendario relativo a una risorsa (centro di lavoro) durante la programmazione dell'ordine di lavoro.
 
     Il campo nella Scheda dettaglio **Dettagli** mostra il numero di addetti alla manutenzione impostati nel gruppo di addetti alla manutenzione selezionato.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

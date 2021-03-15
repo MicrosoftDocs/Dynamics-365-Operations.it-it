@@ -61,3 +61,6 @@ Per ulteriori informazioni sui frammenti di intestazione e sui moduli, vedere [M
 [Modulo intestazione](author-header-module.md) 
 
 [Conformità dei cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

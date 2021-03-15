@@ -63,3 +63,6 @@ Un utente può selezionare un'operazione nella barra dell'applicazione. A second
 - **Modifica** - Consente agli utenti di apportare modifiche all'ordine cliente selezionato.
 
 - **Preleva** - Avvia il flusso di prelievo, che consente all'utente di scegliere i prodotti da prelevare e crea la transazione di prelievo delle vendite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

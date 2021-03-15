@@ -57,3 +57,6 @@ Se è necessario modificare la quantità di prelievo dopo aver selezionato gli a
 Se la funzionalità **Esperienza utente migliorata per l'elaborazione degli ordini di ritiro nel punto vendita** è attivata, le organizzazioni possono aggiungere un pulsante per l'opzione **Cambia righe di ritiro** al layout dello schermo della pagina della transazione. Dopo aver creato il carrello delle transazioni di ritiro in POS e aver selezionato gli articoli, è possibile selezionare **Cambia righe di ritiro** se devi cambiare gli articoli da ritirare ma non vuoi annullare l'intera transazione. Nella finestra di dialogo **Cambia righe di ritiro** visualizzata, puoi modificare gli articoli e le quantità di prelievo. Il carrello delle transazioni viene quindi aggiornato per riflettere le modifiche.
 
 ![Finestra di dialogo Cambia articoli di prelievo](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

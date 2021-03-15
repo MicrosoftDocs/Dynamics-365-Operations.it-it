@@ -144,3 +144,6 @@ Questo comportamento è predefinito. L'indirizzo selezionato deve essere classif
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Posso trovare l'utente che ha annullato un ordine fornitore?
 
 Questa informazioni viene registrata solo se per l'ordine fornitore è soggetto alla gestione delle modifiche. Se utilizzi la gestione delle modifiche, puoi vedere chi ha inviato la modifica (l'annullamento) e chi l'ha approvata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

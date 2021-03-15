@@ -113,3 +113,6 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 11. Chiudere la pagina. 
 
 Quando è necessario valutare questo mapping di modello utilizzando i metadati di un'altra versione dell'applicazione, registrare un'altra applicazione connessa, assegnarla a questo mapping di modello e convalidarla in base ai nuovi metadati.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Il video [Come utilizzare gli avvisi per monitorare i dati filtrati](https://you
 Il video [Opzioni per le regole di avviso](https://youtu.be/cpzimwOjicM) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 > [!NOTE]
 > Questo modo di ottenere informazioni sui metadati dell'applicazione è l'unico disponibile per le applicazioni distribuite localmente (quando un modello di distribuzione di dati aziendali locali o on-premises è utilizzato).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

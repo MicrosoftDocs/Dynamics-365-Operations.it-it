@@ -93,3 +93,6 @@ Non sarai in grado di elaborare o completare i tuoi budget nella società di con
 Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

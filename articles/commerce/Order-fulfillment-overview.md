@@ -217,3 +217,6 @@ L'evasione dell'ordine presso il POS include il filtro per aiutare l'utente a tr
 - Data creazione
 - Data di consegna
 - Data di ricevimento
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

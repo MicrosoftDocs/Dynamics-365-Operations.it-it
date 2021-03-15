@@ -41,3 +41,6 @@ Per confermare più scadenziari di pagamento, segui questi passaggi.
     - Per confermare tutti i libri, attiva il parametro **Per tutti i libri**.
 
 Le informazioni per i libri appena confermati sono mostrate nella pagina **Libri confermati**. Dopo la conferma degli scadenziari di pagamento, le scritture contabili di riconoscimento iniziale possono essere registrate a fronte dei leasing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

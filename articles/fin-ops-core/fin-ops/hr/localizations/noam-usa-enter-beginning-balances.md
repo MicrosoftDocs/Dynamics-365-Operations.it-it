@@ -166,3 +166,6 @@ Lo stesso processo può essere eseguito negli incrementi trimestrali se necessar
 2. Fare clic su **Sì** quando il messaggio "Quando si storna il rendiconto di pagamento, viene creato un rendiconto di pagamento di storno per compensare il rendiconto di pagamento. Il rendiconto di pagamento non può inoltre essere modificato. Stornare il rendiconto di pagamento?" viene visualizzato. 
 
 Dopo aver stornato il rendiconto di pagamento, è possibile generarne uno nuovo per il lavoratore dalla busta paga creata in precedenza. Assicurarsi di correggere tutte le righe errate nella busta paga prima di generare il nuovo rendiconto di pagamento, quindi generare nuovi i rendiconti di pagamento con gli importi corretti. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Utilizzare questa procedura per visualizzare o cancellare lo storico di un recor
 2. Nella pagina **Analisi RFM** selezionare il record da visualizzare.
 3. Per visualizzare lo storico del record, selezionare la scheda dettaglio **Storico**.
 4. Per cancellare lo storico del record, selezionare la scheda dettaglio **Cancella storico**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

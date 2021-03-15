@@ -39,3 +39,6 @@ In questa procedura vengono descritti i passaggi per configurare i prodotti coll
 10. Nel campo Quantità immettere un numero.
 11. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

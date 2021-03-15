@@ -182,3 +182,6 @@ Il mapping del modello **Copia InvoiceProject Copy** della configurazione **Mapp
 - [Gestire il mapping dei modelli ER in configurazioni ER separate](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese](er-country-dependent-model-mapping.md)
 - [Modifiche all'API del framework di report elettronici](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

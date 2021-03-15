@@ -54,3 +54,6 @@ Questa procedura crea le regole di configurazione che possono essere utilizzate 
     * Selezionare il numero di articolo da selezionare o deselezionare, a seconda del metodo scelto.  
 18. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

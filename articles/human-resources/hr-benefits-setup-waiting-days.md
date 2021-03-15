@@ -42,3 +42,6 @@ In Microsoft Dynamics 365 Human Resources, i giorni di attesa stabiliscono una m
    | **Giorno** | Il giorno del mese in corrispondenza del quale il sistema imposta la data finale del periodo di attesa. |
    
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

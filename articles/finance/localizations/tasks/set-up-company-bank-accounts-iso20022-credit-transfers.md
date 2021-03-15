@@ -51,3 +51,6 @@ Si tratta della seconda procedura di cinque, che illustra il processo di pagamen
 4. Nel campo Conto bancario immettere o selezionare un valore.
 5. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

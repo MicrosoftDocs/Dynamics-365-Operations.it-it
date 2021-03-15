@@ -63,3 +63,6 @@ La pagina **Analisi** mostra le metriche importanti dei conti bancari della soci
 -   Saldo per valuta
 
 È possibile visualizzare l'analisi dei dati bancari per tutte le società dall'area di lavoro **Panoramica situazione di cassa - tutte le società**. Per ulteriori informazioni, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

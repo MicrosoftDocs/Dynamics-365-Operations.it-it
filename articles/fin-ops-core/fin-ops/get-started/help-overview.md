@@ -164,3 +164,6 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 | [Community di Dynamics](https://community.dynamics.com/) | Questo sito ospita blog, forum e video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Questo sito fornisce informazioni su vendite e valutazione. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Questo sito ospita risorse di formazione, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. L'accesso ad alcune risorse su questo sito potrebbe richiedere un piano di servizio. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

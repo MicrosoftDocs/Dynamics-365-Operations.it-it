@@ -72,3 +72,6 @@ Dopo aver creato una configurazione con il tuo provider di configurazione, puoi 
 La configurazione è condivisa con l'organizzazione esterna ed è disponibile per tale organizzazione nel repository globale. Da lì, può essere importata nell'istanza di RCS dell'organizzazione o nelle sue istanze delle app Finance and Operations.
 
 6. Per annullare la condivisione di una configurazione precedentemente condivisa con un'organizzazione esterna, seleziona la configurazione e fai clic su **Annulla la condivisione**, quindi seleziona **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

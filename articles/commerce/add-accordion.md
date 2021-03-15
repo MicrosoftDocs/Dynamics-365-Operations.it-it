@@ -86,3 +86,6 @@ Per aggiungere un modulo Accordion a una pagina Domande frequenti e impostarne l
 [Modulo scheda](add-tab.md)
 
 [Modulo blocco testo](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Questa procedura mostra come impostare dati master tariffe. Il responsabile dell
     * Specificare il codice postale da cui questa assegnazione di base della tariffa deve essere valida.
 10. Nel campo **Paese prelievo** digitare "USA".
 11. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

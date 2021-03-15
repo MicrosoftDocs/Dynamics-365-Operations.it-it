@@ -54,3 +54,6 @@ Dopo aver creato le richieste di intervento di manutenzione, è possibile conver
 
     ![Aprire il nuovo ordine di lavoro](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Opinioni, notizie e altre informazioni su Gestione articoli e altre soluzioni so
 
 ### <a name="task-guides"></a>Guide attività
 Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

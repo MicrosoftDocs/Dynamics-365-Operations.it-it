@@ -45,3 +45,6 @@ Le fatture ricorrenti vengono utilizzate per fatturare regolarmente i clienti pe
 6. Fare clic su Registra.
     * Consente di registrare le fatture selezionate.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

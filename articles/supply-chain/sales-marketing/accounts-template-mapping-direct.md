@@ -116,3 +116,6 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 [Sincronizzare intestazioni e righe di fatture di vendita direttamente da Supply Chain Management in Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

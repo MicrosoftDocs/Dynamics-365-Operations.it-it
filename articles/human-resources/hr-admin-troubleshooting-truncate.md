@@ -104,3 +104,6 @@ In base ai campi selezionati da includere nel diagramma, ogni nodo visualizza le
 **Opzione aggiuntiva**
 
 In Human Resources, è inoltre possibile utilizzare l'area di lavoro **Persone** per visualizzare le informazioni relative alla gerarchia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

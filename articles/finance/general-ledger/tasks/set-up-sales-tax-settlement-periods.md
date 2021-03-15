@@ -50,3 +50,6 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 16. Selezionare **Nuovo intervallo periodico**. Una volta che il primo intervallo periodico è stato immesso, i nuovi periodi possono essere creati automaticamente. È possibile tornare e aggiungere nuovi intervalli periodici in base alle esigenze.  
 17. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Questa procedura mostra come visualizzare un rendiconto WIP in un ordine di prod
 6. Nel campo Data iniziale impostare la data su '2012-12-01'.
 7. Nel campo Data finale impostare la data su '2012-12-31'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Per attivare il rilevamento del punto vendita basato sull'ubicazione in Commerce
 [Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
 
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

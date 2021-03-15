@@ -274,3 +274,6 @@ Attenersi alla procedura seguente per creare pacchetti distribuibili contenenti 
 
 1. Eseguire **msbuild** per l'intero Retail SDK per creare i pacchetti distribuibili.
 1. Applicare i pacchetti via Microsoft Dynamics Lifecycle Services (LCS) o manualmente. Per ulteriori informazioni, vedere [Confezione di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

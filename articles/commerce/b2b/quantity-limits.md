@@ -84,3 +84,6 @@ Per attivare la funzione dei limiti di quantità degli ordini B2B in Creazione d
 [Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B](manage-b2b-users.md)
 
 [Configura il metodo di pagamento dell'account cliente per i siti Web di e-commerce B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

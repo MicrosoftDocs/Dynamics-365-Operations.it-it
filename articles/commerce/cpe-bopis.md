@@ -163,3 +163,6 @@ Per tutti i problemi generali, consultare sempre i log degli eventi Modern POS o
 [Salvare gli strumenti di pagamento online con il connettore Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Panoramica dei pagamenti omnicanale](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

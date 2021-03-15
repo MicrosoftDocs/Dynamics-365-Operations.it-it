@@ -148,3 +148,6 @@ Questo scenario mostra come modificare il flusso di elaborazione per un elemento
 > Quando viene visualizzata la finestra di dialogo **Modifica pool di lavoro**, il campo **ID pool di lavoro** potrebbe essere vuoto per impostazione predefinita. Se il campo è vuoto quando si seleziona **OK** per applicare le modifiche, si rimuoverà il pool di lavoro completamente dal lavoro.
 >
 > Oltre a cambiare pool di lavoro, è possibile utilizzare questa procedura per aggiungere un pool di lavoro a qualsiasi elemento di lavoro che non ne ha uno o per rimuovere un pool di lavoro da qualsiasi elemento di lavoro che ne ha uno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

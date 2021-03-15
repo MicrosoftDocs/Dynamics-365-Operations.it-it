@@ -125,3 +125,6 @@ In fine, le unità movimentazione kanban possono essere assegnate (= in lavorazi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

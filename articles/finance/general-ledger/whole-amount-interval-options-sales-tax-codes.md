@@ -89,3 +89,6 @@ Per ulteriori informazioni, vedere [Aliquote IVA basate su Imponibile marginale 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

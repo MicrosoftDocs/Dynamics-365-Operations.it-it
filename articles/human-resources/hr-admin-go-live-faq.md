@@ -99,3 +99,6 @@ Per segnalare un'interruzione di produzione, seguire la procedura descritta in â
  ## <a name="see-also"></a>Vedere anche
 
  [Prepararsi per la fase operativa](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

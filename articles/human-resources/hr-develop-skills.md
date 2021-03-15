@@ -62,3 +62,6 @@ I profili di mapping delle competenze consentono di trovare i dipendenti o i can
 È possibile creare un'analisi profilo competenze per visualizzare un elenco di competenze di un lavoratore, un candidato o una persona di contatto a partire da una data specifica. È possibile creare un'analisi della lacuna competenze per confrontare le competenze di una persona con le competenze richieste per una posizione lavorativa specifica.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Fatture di contratto (da Field Service a Supply Chain Management): Righe fattura
 
 [![Mapping dei modelli in Integrazione dati](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

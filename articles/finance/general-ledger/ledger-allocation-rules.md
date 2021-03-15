@@ -50,3 +50,6 @@ Le regole di allocazione sono composte da quattro componenti: generale, origine,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

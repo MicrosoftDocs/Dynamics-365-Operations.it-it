@@ -92,3 +92,6 @@ Esempio
 - La data di validità di un'azione **Assumi lavoratore** è la data immessa nel campo **Data di inizio impiego**.
 - La data di validità di un'azione **Trasferisci lavoratore** è la data immessa nel campo **Data di inizio assegnazione** per il lavoratore.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

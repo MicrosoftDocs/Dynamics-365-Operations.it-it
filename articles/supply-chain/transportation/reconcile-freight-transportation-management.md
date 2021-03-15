@@ -105,3 +105,6 @@ Un altro modo per eseguire la corrispondenza manuale per questo esempio è proce
 1. Corrispondenza di Inv1 e Inv 2 con una bolla di trasporto dopo l'altra. Corrispondenza completa della bolla di trasporto.
 
 Come mostra questo esempio, la corrispondenza delle fatture di trasporto con importi negativi deve essere eseguito solo manualmente. Ciò garantirà che sia sempre possibile effettuare la corrispondenza delle fatture di trasporto con importi negativi a una bolla di trasporto senza corrispondenza completa perché ciò consente di controllare la sequenza di corrispondenza.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

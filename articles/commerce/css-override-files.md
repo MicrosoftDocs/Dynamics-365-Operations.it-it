@@ -113,3 +113,6 @@ Per disattivare un file di sostituzione CSS sul sito, effettuare le operazioni s
 [Aggiungere lingue al sito](add-languages-to-site.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

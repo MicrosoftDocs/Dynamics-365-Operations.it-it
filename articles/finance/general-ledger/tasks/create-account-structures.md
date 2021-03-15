@@ -60,3 +60,6 @@ Questa guida attività descrive la creazione di una struttura dei conti. I passa
 29. Nel **riquadro azioni** fare clic su **Attiva**.
 30. Fare clic su **Attiva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

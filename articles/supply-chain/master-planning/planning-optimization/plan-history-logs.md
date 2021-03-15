@@ -46,3 +46,6 @@ Oltre a visualizzare l'ora di inizio e lo stato dei processi, è possibile visua
 [Applicare i filtri a un piano](plan-filters.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

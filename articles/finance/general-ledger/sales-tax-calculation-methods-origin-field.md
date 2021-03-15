@@ -130,3 +130,6 @@ Il documento/giornale di registrazione è impostato su Importo IVA inclusa =No I
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Le transazioni di simulazione possono essere esaminare in diversi report di cont
 2. Impostare **Transazioni giornale di registrazione di simulazione** su **Sì** nella finestra di dialogo **Rendiconto per dimensioni**.
 3. Selezionare un valore nel campo **Gruppo di giornali di registrazione di simulazione** e selezionare **OK**.
 4. Verificare che il report contenga transazioni di simulazione registrate e transazioni di contabilità generale standard.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

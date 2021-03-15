@@ -91,3 +91,6 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
     * Alcune etichette presentate nel modulo dell'assegno prestampato verranno incluse nel report quando è creato a scopo di verifica. Tuttavia, le etichette non verranno stampate durante la stampa effettiva in quanto il modulo prestampato le include già.  
 15. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

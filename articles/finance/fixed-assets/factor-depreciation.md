@@ -78,3 +78,6 @@ Il valore del campo **Fattore** è uguale a **50**. In questo caso, l'ammortamen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

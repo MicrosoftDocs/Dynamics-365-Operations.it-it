@@ -139,3 +139,6 @@ Nei dettagli traccia sono incluse le informazioni sugli ordini di controllo qual
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>È possibile tracciare i co-prodotti e i sottoprodotti?
 È possibile tracciare i co-prodotti, ma non è possibile tracciare i sottoprodotti poiché a questi non vengono in genere assegnate le dimensioni di tracciabilità. Quando viene tracciato un articolo, i dettagli traccia includono eventuali co-prodotti correlati. Un nodo contenente un co-prodotto include la parola "co-prodotto" nei dettagli. È inoltre possibile visualizzare i dettagli relativi a un co-prodotto selezionando il nodo nei dettagli traccia e quindi facendo clic sulla scheda dettaglio **Produzione**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

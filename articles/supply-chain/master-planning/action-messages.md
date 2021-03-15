@@ -52,3 +52,6 @@ Nella pagina **Gruppi di copertura**, è possibile selezionare i messaggi di azi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

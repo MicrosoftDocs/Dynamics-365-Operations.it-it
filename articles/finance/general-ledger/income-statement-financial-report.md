@@ -70,3 +70,6 @@ Le definizioni di colonna contengono i diversi tipi di colonna per fornire diver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

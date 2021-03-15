@@ -43,3 +43,6 @@ L'articolo è stato impostato con il modello inventariale FIFO e la chiusura del
 -   5 febbraio: quantità pari a 1 al costo di 13,00 EUR
 
 Per impostare il costo di questi due articoli a EUR 15,00, utilizzare l'opzione di rettifica delle disponibilità per aprire le quantità disponibili aperte all'ultimo periodo di chiusura dell'inventario. **Nota:** la data di registrazione della transazione di rettifica delle disponibilità sarà la data dell'ultima chiusura dell'inventario. Non è possibile modificare questa data.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

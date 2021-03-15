@@ -55,3 +55,6 @@ Se un articolo viene non correttamente collocato o danneggiato, immettere una re
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

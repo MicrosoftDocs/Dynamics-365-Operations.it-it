@@ -142,3 +142,6 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 [Prospect to cash](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

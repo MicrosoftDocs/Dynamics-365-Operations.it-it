@@ -55,3 +55,6 @@ I gruppi di programmazione snella sono definiti per raggruppare e distinguere i 
 3. Nel campo Chiave di allocazione articolo fare clic sul pulsante a discesa per aprire la ricerca.
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

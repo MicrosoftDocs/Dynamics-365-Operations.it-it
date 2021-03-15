@@ -62,3 +62,6 @@ Dopo aver impostato il formato per l'allegato della distinta di pagamento per fa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

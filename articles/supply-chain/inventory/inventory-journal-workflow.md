@@ -118,3 +118,6 @@ Per rivedere lo storico del flusso di lavoro per un giornale di registrazione:
 1. Nel riquadro di navigazione, espandere **Gestione articoli \> Inserimenti nel giornale di registrazione \> Articoli** e quindi selezionare un tipo di giornale di registrazione magazzino.
 1. Aprire il giornale di registrazione rilevante.
 1. Selezionare il pulsante **Flusso di lavoro** nel riquadro azioni per aprire una finestra di dialogo a discesa. Selezionare **Storico flusso di lavoro**. Per ulteriori informazioni, vedere [Visualizzare lo storico flusso di lavoro](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)..
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

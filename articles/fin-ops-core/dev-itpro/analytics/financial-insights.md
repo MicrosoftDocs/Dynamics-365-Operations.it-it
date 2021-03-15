@@ -248,3 +248,6 @@ Le informazioni contenute nelle seguenti risorse non sono necessarie per abilita
 - [Accesso alle aree di lavoro analitiche e ai report in un ambiente a scatola singola](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

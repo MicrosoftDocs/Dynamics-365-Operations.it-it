@@ -54,3 +54,6 @@ Per aggiungere un reparto alla gerarchia reparti, effettuare le operazioni indic
 
 ## <a name="steps-for-creating-a-department"></a>Passaggi per creare un reparto
 Fare riferimento all'articolo [Definire nuovi reparti](../fin-and-ops/hr/tasks/define-new-departments.md) per la procedura dettagliata relativa alla creazione di un nuovo reparto. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

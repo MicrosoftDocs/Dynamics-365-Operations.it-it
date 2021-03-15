@@ -56,3 +56,6 @@ Nei **Parametri di controllo produzione**, è possibile utilizzare il campo **Re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

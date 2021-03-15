@@ -41,3 +41,6 @@ La funzionalità Addebita invio utilizza le seguenti operazioni POS: Spedisci tu
 La funzionalità di selezione degli indirizzi di "spedizione" rimane invariata.
 
 I metodi di spedizione che possono essere utilizzati per evadere la riga dell'ordine sono basati sulla configurazione delle modalità di consegna valide per prodotti e indirizzi. Poiché le regole sulle modalità di consegna valide vengono gestite solo in Headquarters (HQ), il client POS esegua una chiamata in tempo reale per recuperare le modalità di consegna valide per una riga di spedizione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

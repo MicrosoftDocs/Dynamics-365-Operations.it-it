@@ -52,3 +52,6 @@ Utilizzando i livelli magazzino è possibile creare una gerarchia per supportare
 2. Nel campo **Punto di ricevimento** selezionare il **magazzino**.
 3. Selezionare **Magazzino di spedizione**, **Magazzino ricevente** e **Giorni di spedizione**. 
 4. (Facoltativo) È inoltre possibile impostare il tempo di spedizione, a seconda della modalità di consegna, nella scheda **Giorni di spedizione per modalità di consegna**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

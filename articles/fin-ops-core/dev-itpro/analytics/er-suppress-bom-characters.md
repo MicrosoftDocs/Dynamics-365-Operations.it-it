@@ -66,3 +66,6 @@ Per rivedere la funzionalità in fase di esecuzione, completare la procedura app
 ## <a name="see-also"></a>Vedere anche
 
 - [Differire l'esecuzione di elementi XML in formati ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ L'ammortamento senza arrotondamento ammonta a 2.444,44. Come indicato nella tabe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

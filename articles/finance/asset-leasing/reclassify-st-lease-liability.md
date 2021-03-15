@@ -40,3 +40,6 @@ Per creare e registrare la scrittura contabile di riclassificazione dell'obbliga
 4. Attiva il parametro **Registra**. In alternativa, se la voce deve essere creata ma non pubblicata, lascia questo parametro disattivato.
 5. Attiva il parametro **Visualizza anteprima prima della registrazione** per visualizzare la voce prima che venga registrata.
 6. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ I gruppi di attributi di categoria possono anche essere assegnati a ogni gruppo 
 [Gestire le categorie di prodotti e i prodotti](category-management-product-creation.md)
 
 [Modificare l'ordinamento di visualizzazione per entità di merchandising](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

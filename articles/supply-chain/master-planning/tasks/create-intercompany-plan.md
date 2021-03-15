@@ -53,3 +53,6 @@ In questa procedura viene illustrato come creare un piano interaziendale. La soc
 2. Nell'elenco fare clic sul collegamento nella riga selezionata. Fare clic sul collegamento per StaticPlan. È necessario essere  nella società USMF.  
 3. Fare clic su **Ordini pianificati**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

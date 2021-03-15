@@ -99,3 +99,6 @@ Se desideri collaborare con Microsoft su strumenti e processi per la personalizz
 [Risorse registrazione attività](../../dev-itpro/user-interface/task-recorder.md)  
 [Creare la documentazione o la formazione con Registrazione attività](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Archivio GitHub per una Guida personalizzata](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

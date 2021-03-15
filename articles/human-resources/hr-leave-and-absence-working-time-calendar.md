@@ -75,3 +75,6 @@ Se la funzionalità di anteprima per la correzione di giorni festivi di Congedo 
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Configurare tipi di congedo e assenza](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

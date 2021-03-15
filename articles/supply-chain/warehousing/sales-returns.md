@@ -330,3 +330,6 @@ In questo esempio la riga dell'ordine di reso viene creata utilizzando la funzio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

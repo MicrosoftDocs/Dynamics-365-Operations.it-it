@@ -47,3 +47,6 @@ Abilitando la tracciatura, è possibile visualizzare informazioni sui fattori ch
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

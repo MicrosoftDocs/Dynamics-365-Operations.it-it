@@ -73,3 +73,6 @@ Questa procedura è incentrata sull'impostazione necessaria per creare una regol
     * Ciò creerà 5 kanban.  
     * Si noti che 5 kanban, ciascuno per 10, sono stati creati per questa regola kanban di produzione. Si tratta dell'ultimo passaggio di questa procedura.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

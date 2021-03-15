@@ -40,3 +40,6 @@ Nelle versioni precedenti alla versione 10.0.13, se non si utilizza il flusso di
 > Si sta per eseguire una chiusura dell'inventario con data %1. Nessuna esecuzione del calcolo dei costi di backflush con data %1 corrispondente alla fine del periodo è stata registrata. Eseguire il calcolo dei costi di backflush con data %1 corrispondente alla fine del periodo. La valutazione delle scorte, del costo delle merci vendute e degli scostamenti potrebbe non essere corretta nella contabilità secondaria o nella contabilità generale fino a quando non viene eseguito.
 
 Questo problema è stato risolto nella versione 10.0.13 e successive. Per ulteriori informazioni, vedere [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

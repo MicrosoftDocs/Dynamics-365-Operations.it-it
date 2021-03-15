@@ -148,3 +148,6 @@ Arnie registra questo giornale e rivede le transazioni nella pagina **Transazion
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

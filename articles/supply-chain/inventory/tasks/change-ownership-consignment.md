@@ -54,3 +54,6 @@ In questa procedura viene illustrato come modificare il proprietario dell'invent
 2. Fare clic su OK.
 3. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

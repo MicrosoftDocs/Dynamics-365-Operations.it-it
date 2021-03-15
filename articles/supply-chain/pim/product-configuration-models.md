@@ -152,3 +152,6 @@ Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

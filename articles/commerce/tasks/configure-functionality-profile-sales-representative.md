@@ -36,3 +36,6 @@ Questa procedura dimostra come configurare le impostazioni del profilo funzional
 4. Nel campo Richiesta per il rappresentante, selezionare un'opzione.
 5. Selezionare Sì nel campo Richiedi rappresentante.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

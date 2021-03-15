@@ -73,3 +73,6 @@ In questa attività viene utilizzata la società dimostrativa "USMF".
     * Su questo conto viene effettuato un addebito quando il margine iniziale viene registrato e accreditato al momento della registrazione del pagamento.  
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

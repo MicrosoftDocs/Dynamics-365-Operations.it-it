@@ -41,3 +41,6 @@ ms.locfileid: "4994206"
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza dettagli calcolo.
     * Questa pagina visualizza la scomposizione dei costi. Ad esempio, è possibile visualizzare il prezzo di costo totale per unità per il prodotto finito nella prima riga. Le righe successive contengono i costi in base alla distinta base, al ciclo di lavorazione produzione e ai costi indiretti.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

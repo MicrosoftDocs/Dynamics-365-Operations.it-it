@@ -83,3 +83,6 @@ In entrambe le combinazioni di addebito diretto SEPA, i clienti hanno determinat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

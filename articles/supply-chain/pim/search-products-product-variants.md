@@ -86,3 +86,6 @@ Per l'immissione riga ordine cliente, il comportamento predefinito è di aprire 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

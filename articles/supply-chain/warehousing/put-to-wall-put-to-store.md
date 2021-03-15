@@ -540,3 +540,6 @@ Se le posizioni di ordinamento devono essere chiuse manualmente, l'opzione **Chi
 
 > [!IMPORTANT]
 > Dopo che il lavoro di movimento è stato creato dall'ubicazione di ordinamento, non è necessario annullare il lavoro. In caso contrario, la posizione e i relativi contenitori verranno eliminati dal sistema e non saranno disponibili per ulteriori elaborazioni. Anche le scorte verranno rimosse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

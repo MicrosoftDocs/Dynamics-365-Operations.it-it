@@ -48,3 +48,6 @@ In questa procedura viene illustrato come calcolare il costo di un prodotto fini
 11. Chiudere la pagina.
 12. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

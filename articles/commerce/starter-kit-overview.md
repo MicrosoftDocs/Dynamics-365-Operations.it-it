@@ -65,3 +65,6 @@ I seguenti tipi di moduli sono disponibili nella libreria di moduli:
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

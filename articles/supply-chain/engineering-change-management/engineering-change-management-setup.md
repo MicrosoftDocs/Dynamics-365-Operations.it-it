@@ -90,3 +90,6 @@ Per ciascuno set di regole, impostare il campo seguente:
 - **Gravità** - Selezionare il livello di gravità per cui stabilire le regole. Utilizzare la pagina **Gravità modifiche di progettazione** per creare i livelli e assegnarvi un nome. Per ulteriori informazioni, vedere la sezione precedente.
 
 Utilizzare i pulsanti nella Scheda dettaglio **Regole** per aggiungere o rimuovere una regola per l'impostazione di gravità corrente. Per ogni regola è presente un campo **Regola** e un campo **Nome**. Le regole sono stabilite dal sistema e indicano i tipi di modifiche che un prodotto può subire. Il nome indica il tipo di modifica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

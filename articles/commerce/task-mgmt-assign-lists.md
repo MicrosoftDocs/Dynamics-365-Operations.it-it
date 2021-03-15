@@ -91,3 +91,6 @@ Per tenere traccia dello stato dell'elenco attività per tutte le attività asse
 [Creare elenchi di attività e aggiungere attività](task-mgmt-create-lists.md)
 
 [Gestione delle attività in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

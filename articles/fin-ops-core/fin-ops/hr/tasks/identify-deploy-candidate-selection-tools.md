@@ -57,3 +57,6 @@ Individuare un pool qualificato di candidati per coprire le posizioni aperte pu√
 24. Chiudere la pagina.
 25. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

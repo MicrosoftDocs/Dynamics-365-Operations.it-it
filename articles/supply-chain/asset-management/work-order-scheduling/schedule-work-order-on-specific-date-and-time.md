@@ -55,3 +55,6 @@ Se un ordine di lavoro deve essere programmato a una data *e* un'ora specifiche,
 >[!NOTE]
 >Per programmare un addetto alla manutenzione per l'ordine di lavoro, l'addetto deve essere disponibile alla data e all'ora di inizio pianificate. La disponibilità del lavoratore viene impostata nel [calendario del lavoratore](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

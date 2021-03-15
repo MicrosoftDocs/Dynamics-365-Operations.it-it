@@ -59,3 +59,6 @@ I clienti possono effettuare un pagamento parziale in cui l'importo rimanente no
 
 
 Per ulteriori informazioni, vedere [Depositare pagamenti clienti](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

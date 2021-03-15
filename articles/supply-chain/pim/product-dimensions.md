@@ -145,3 +145,6 @@ La dimensione della versione funziona come le altre dimensioni del prodotto. Tut
 
 > [!IMPORTANT]
 > Se attivi e utilizzi la dimensione della versione, alcune soluzioni che fanno riferimento alle dimensioni dell'inventario potrebbero smettere di funzionare come previsto. Per confermare e risolvere questi problemi, contattare il fornitore di software indipendente (ISV) per le soluzioni interessate. Per ulteriori informazioni, vedere [Abilitare la dimensione della versione](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

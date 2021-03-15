@@ -292,3 +292,6 @@ Nel carico di lavoro nelle unità di scala, è possibile gestire i processi batc
 - Elaborare record di tabelle ciclo
 - Hub di magazzino per processore messaggi unità di scala
 - Elabora richieste aggiornamento quantità per righe ordine di magazzino
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

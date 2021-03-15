@@ -246,3 +246,6 @@ Nell'esempio seguente è possibile visualizzare lo stato massimo e minimo nel ca
 | Accettare una delle offerte. (o almeno una riga) |                          Ricevuti                           |                           Accettate                           |                    Ricevuti                    |                    Accettate                     |                   Ricevuti                   |                   Accettate                    |
 |           Rifiutare tutte le altre offerte.           |                          Rifiutato                           |                           Accettate                           |                    Rifiutato                    |                    Accettate                     |                   Rifiutato                   |                   Accettata                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

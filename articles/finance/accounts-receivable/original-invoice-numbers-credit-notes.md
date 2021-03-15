@@ -97,3 +97,6 @@ Quando stampi le note di credito di progetto, del cliente e testo libero, includ
 
 > [!NOTE]
 > Assicurati che i formati stampabili dei documenti siano correttamente configurati, ipotizzando che vengano stampati i riferimenti alle fatture originali.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

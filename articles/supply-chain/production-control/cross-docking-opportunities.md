@@ -126,3 +126,6 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 -   Lo scenario di cross-docking è supportato per gli articoli controllati di serie e batch, entrambi con dimensioni di numero di serie e batch definite sopra e sotto l'ubicazione nella gerarchia di prenotazione. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

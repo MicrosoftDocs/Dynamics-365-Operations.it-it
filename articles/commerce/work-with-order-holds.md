@@ -102,3 +102,6 @@ Se gli utenti desiderano rimuovere una sospensione ma apportare altre modifiche 
 ## <a name="reporting-options"></a>Opzioni di creazione report
 
 Passare a **Retail e Commerce** \> **Richieste di informazioni e report** \> **Report servizio clienti** \> **Report sospensioni ordine** per eseguire un report sulle sospensioni degli ordini per intervallo di dati, codice sospensione o altri criteri correlati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ L'esecuzione di questa procedura richiede un modello di configurazione prodotto 
 15. Nel campo Requisito immettere o selezionare un valore.
 16. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

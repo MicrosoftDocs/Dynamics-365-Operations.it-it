@@ -56,3 +56,6 @@ Quando si confermano le offerte di vendita, negli ordini clienti risultanti vien
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

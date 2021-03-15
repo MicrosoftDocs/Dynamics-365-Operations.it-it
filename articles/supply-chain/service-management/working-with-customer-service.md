@@ -48,3 +48,6 @@ Negli argomenti inclusi in questa sezione viene fornita una panoramica del proce
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

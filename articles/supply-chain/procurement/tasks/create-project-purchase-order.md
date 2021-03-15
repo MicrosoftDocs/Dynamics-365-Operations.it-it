@@ -47,3 +47,6 @@ Questa procedura indica come creare un ordine fornitore del progetto. Questa att
     * Verificare che i prezzi di costo e di vendita siano disponibili. Se non sono disponibili ma sono necessari, immettere le informazioni.  
 14. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

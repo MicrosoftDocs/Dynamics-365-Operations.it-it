@@ -163,3 +163,5 @@ I tipi di origine giornale di registrazione prestazioni descrivono la provenienz
 ### <a name="review-types"></a>Rivedi tipi
 
 I tipi di revisione prestazioni consentono di controllare il comportamento di una revisione. È possibile abilitare o disabilitare il flusso di lavoro di una revisione. Se la revisione non utilizza un flusso di lavoro, è possibile definire lo stato predefinito da utilizzare quando la revisione viene creata. È inoltre possibile decidere se al dipendente, al responsabile o a entrambi verrà richiesto di confermare la revisione.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

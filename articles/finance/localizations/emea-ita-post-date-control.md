@@ -48,3 +48,6 @@ Completa i seguenti passaggi per configurare il controllo della data di registra
 
  - Se il campo non è abilitato, che è l'opzione predefinita, il sistema non consente la registrazione di nuove fatture con date precedenti alla data dell'ultima fattura registrata.  
  - Se il campo è abilitato, il sistema consente la registrazione con qualsiasi data.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

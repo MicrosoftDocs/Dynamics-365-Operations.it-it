@@ -59,3 +59,6 @@ Lo stato del processo sarà **Annullamento in corso** finché il servizio di ott
 [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
 
 [Applicare i filtri a un piano](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

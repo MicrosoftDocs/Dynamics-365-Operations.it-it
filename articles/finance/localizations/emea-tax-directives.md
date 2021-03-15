@@ -32,3 +32,6 @@ La direttiva UE fornisce i regolamenti per tutti gli stati membri relativi alle 
 
 > [!NOTE]
 > Verifica che il campo **Specifica IVA** sia impostato su **Valuta di registrazione** o **Valuta di registrazione e valuta società** nella pagina **Impostazione moduli** nella scheda **Generale** (**Contabilità clienti > Impostazioni > Moduli >Impostazione moduli** o **Gestione progetti e contabilità > Impostazione > Moduli > Configurazione moduli**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

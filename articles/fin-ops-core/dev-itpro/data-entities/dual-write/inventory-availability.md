@@ -118,3 +118,6 @@ Campo di Finance and Operations | Tipo di mappa | Campo Interazione con i client
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

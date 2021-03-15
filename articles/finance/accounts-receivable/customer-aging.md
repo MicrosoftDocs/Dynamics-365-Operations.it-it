@@ -144,3 +144,6 @@ Quando si genera questo report, vengono visualizzati i seguenti parametri predef
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

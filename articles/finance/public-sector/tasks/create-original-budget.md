@@ -50,3 +50,6 @@ Quando si crea una voce di budget originale e si utilizzano il modello di budget
     * Per effettuare selezioni facoltative, fare clic sull'icona Sblocca nella parte superiore della pagina.  
 18. Fare clic su Aggiorna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

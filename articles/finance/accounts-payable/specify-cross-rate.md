@@ -43,3 +43,6 @@ Ad esempio, la valuta di contabilizzazione è USD, la valuta della fattura è CA
 3.  Per un cliente, nella pagina elenco **Tutti i clienti**, passare a **Raccolta > Liquida transazioni aperte**. Per un fornitore, nella pagina elenco **Tutti i fornitori**, passare a **Fattura > Liquida transazioni aperte**. 
 4.  Selezionare la transazione corrispondente al pagamento primario, quindi fare clic su **Contrassegna pagamento**. Verrà selezionata la casella di controllo nella colonna **Contrassegna** e verrà visualizzata un'icona informativa nella colonna **Pagamento primario**. 
 5.  Nel campo **Tasso di cambio incrociato**, immettere il tasso di cambio tra la valuta della fattura e la valuta del pagamento alla data di liquidazione. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Questa funzionalità non annulla la compatibilità con le versioni precedenti de
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Linguaggio della formula ER](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

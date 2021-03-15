@@ -52,3 +52,6 @@ Questa procedura mostra come applicare un modello di configurazione a un prodott
 
 ## <a name="select-the-product-configuration"></a>Selezionare la configurazione prodotto
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

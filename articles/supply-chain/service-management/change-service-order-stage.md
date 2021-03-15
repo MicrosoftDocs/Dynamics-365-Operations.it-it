@@ -40,3 +40,6 @@ Seguire questi passaggi per spostare un ordine di assistenza nella fase successi
 4.  Nel modulo **Cambia fase di assistenza**, selezionare la fase appropriata.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

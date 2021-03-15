@@ -81,3 +81,6 @@ Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Questi scenari comuni sono disponibili per i rivenditori che utilizzano Commerce
 + Prelevare i prodotti presso il punto vendita corrente o presso un altro punto vendita.
 + Annullare un ordine presso il punto vendita corrente o presso un altro punto vendita.
 + Restituire un ordine con o senza ricevuta presso il punto vendita corrente o presso un altro punto vendita.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

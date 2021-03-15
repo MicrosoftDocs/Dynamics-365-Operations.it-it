@@ -41,3 +41,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.
     * Allegare informazioni aggiuntive al giornale di registrazione.  
     * Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

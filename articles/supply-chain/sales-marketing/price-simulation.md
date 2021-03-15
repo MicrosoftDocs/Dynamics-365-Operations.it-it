@@ -144,3 +144,6 @@ La simulazione del prezzo ha effetto solo sulla riga a cui viene applicata e rid
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

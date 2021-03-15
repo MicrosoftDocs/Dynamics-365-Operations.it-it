@@ -105,3 +105,6 @@ L'esempio seguente mostra come esportare un rapporto **Report valori di inventar
 1. Nella pagina visualizzata **Riepilogo dell'esecuzione**, è possibile vedere lo stato del processo di esportazione e l' elenco delle entità esportate. Nella sezione **Stato elaborazione entità** selezionare l'entità **Valore di inventario** nell'elenco e quindi selezionare **Scarica file** per scaricare i dati esportati da tale entità.
 
 Per ulteriori informazioni su come utilizzare la gestione dei dati per esportare i dati, vedere [Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

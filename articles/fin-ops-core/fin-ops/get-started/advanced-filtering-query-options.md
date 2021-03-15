@@ -242,3 +242,6 @@ Vedere la tabella nella sezione successiva per ulteriori dettagli sui metodi di 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

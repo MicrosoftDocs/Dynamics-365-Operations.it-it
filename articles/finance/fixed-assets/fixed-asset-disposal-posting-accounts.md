@@ -42,3 +42,6 @@ La transazione di dismissione per un cespite in un pool a basso valore riduce il
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Queste devono essere utilizzate solo se l'annullamento del processo di pianifica
 4. In **Attività batch**, selezionare le attività da terminare.
 5. Fai clic su **Cambia stato**, scegli **Annullamento** e fai clic su **OK**.
 6. Nella scheda dettaglio **Attività batch**, fare clic su **Interrompi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | Prestazioni          | Valutazione, descrizione e modello di valutazione                            | Candidato, candidato impiegato, candidato congedato |
 | Progetto di selezione  | Descrizione del progetto, stato del progetto e aperture                | Candidato, candidato impiegato, candidato congedato |
 | Candidato congedato | Candidati congedati, motivo, prestazioni e data di fine rapporto | Società, Offset di calendario, Data, Località geografica, Prestazioni, Dati demografici, Impiego, Multimediale, Progetto di selezione, Nome candidato |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Per il trasferimento di batch del giornale di registrazione secondario sono disp
 Nella versione 10.0.8, sono stati apportati dei miglioramenti per migliorare le prestazioni dell'opzione Asincrono. Questa funzionalità è abilitata con il nome **Ottimizzazione delle prestazioni con trasferimento del giornale di registrazione secondario alla contabilità generale**. 
  
 Questa funzionalità migliora il trasferimento di dati dal giornale di registrazione secondario alla contabilità generale. Rende il processo più efficiente e raggruppa set di transazioni più piccole da trasferire. Ciò consente un uso più efficiente del server batch. Questa funzionalità richiede che il server batch sia configurato, online e funzionante affinché l'opzione di trasferimento Asincrono funzioni. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Affinché il progetto funzioni, verificare che la chiave di integrazione sia agg
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Inventario prodotti (da Supply Chain Management a Field Service): Inventario prodotti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

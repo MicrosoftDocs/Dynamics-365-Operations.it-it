@@ -67,3 +67,6 @@ Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzi
 
 ![Esempio del carico di lavoro mensile con unità funzionali](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

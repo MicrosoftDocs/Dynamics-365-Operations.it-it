@@ -211,3 +211,6 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
     La sincronizzazione iniziale delle righe è ora completata.
 
 8. Abilitare di nuovo il rilevamento delle modifiche nell'app Finance and Operations per la tabella **Clienti V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

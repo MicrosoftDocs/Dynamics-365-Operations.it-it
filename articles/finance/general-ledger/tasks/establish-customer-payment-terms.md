@@ -56,3 +56,6 @@ Questa procedura consente di definire un'impostazione dello sconto di cassa e de
 26. Nel campo **Conto principale per sconti fornitore**, immettere il conto principale in cui lo sconto di cassa verrà registrato per le fatture fornitore.
 27. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

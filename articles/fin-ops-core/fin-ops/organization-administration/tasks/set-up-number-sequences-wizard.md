@@ -38,3 +38,6 @@ Le sequenze numeriche vengono utilizzate per generare identificatori univoci e l
 4. Selezionare **Avanti**.
 5. Selezionare **Fine**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

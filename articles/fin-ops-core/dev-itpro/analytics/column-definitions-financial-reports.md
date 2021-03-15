@@ -598,3 +598,6 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 [Definizioni di riga in Progettazione report finanziari](row-definitions-financial-reporting.md)
 
 [Opzioni di formattazione avanzate nei report finanziari](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

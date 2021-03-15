@@ -202,3 +202,6 @@ Per ulteriori informazioni su come configurare le e-mail in Dynamics 365 Commerc
 [Impostare ricevute tramite posta elettronica](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Inviare le ricevute tramite posta elettronica da Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

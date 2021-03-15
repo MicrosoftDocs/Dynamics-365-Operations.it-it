@@ -63,3 +63,6 @@ Nella tabella seguente viene fornito un riepilogo dei termini che è necessario 
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Personalizzare la navigazione del sito](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

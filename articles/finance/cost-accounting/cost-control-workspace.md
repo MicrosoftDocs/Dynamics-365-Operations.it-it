@@ -157,3 +157,6 @@ Risorse aggiuntive
 [Definire i diritti di accesso per i controller oggetto di costo](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

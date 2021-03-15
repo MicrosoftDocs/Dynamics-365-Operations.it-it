@@ -207,3 +207,6 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Installare lo strumento di progettazione layout di POS di Retail](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

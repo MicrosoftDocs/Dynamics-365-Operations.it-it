@@ -135,3 +135,6 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
 
 [SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

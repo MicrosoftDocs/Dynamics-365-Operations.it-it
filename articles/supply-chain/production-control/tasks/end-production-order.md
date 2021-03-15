@@ -45,3 +45,6 @@ Questa procedura indica come terminare un ordine di produzione. La società di d
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza confronto costi.
     * Dopo aver terminato l'ordine di produzione, è possibile comparare il prezzo di costo stimato al prezzo di costo realizzato per ottenere una panoramica degli scostamenti di produzione.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

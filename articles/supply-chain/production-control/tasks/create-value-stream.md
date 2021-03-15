@@ -48,3 +48,6 @@ I flussi del valore sono unità operative che raggruppano uno o più flussi di p
 2. Chiudere la pagina.
 3. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

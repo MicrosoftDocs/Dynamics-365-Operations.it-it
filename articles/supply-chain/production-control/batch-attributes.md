@@ -52,3 +52,6 @@ Per gestire meglio il numero e i tipi di attributi, è possibile utilizzare i gr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

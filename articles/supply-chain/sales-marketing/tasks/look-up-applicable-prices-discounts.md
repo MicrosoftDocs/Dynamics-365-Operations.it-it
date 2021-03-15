@@ -59,3 +59,6 @@ Verificare che il campo del conto cliente contenga il numero cliente US-001
     * Sono disponibili due accordi sugli sconti riga per il prodotto T0012, che specificano uno sconto del 5% per una quantità della riga ordine da 1 a 10 e del 7% per le quantità ordine superiori a 10. Si noti che gli sconti vengono applicati a un gruppo di prodotti, in questo esempio al gruppo con codice 01, a cui il prodotto T0012 appartiene.  
 4. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

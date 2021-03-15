@@ -39,3 +39,6 @@ Non è possibile utilizzare un ruolo tranne quello dell'amministratore per acced
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 L'emulatore dell'app per dispositivi mobili è impostato per funzionare solo con l'account amministratore. Per tutti gli scopi di test e processo live, consigliamo di utilizzare l'app di magazzino stessa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

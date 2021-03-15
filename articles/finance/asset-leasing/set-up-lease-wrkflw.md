@@ -52,3 +52,6 @@ L'argomento spiega come configurare un flusso di lavoro di approvazione che verr
 14. Nella pagina **Crea flusso di lavoro**, seleziona **Chiudi**.
 14. Seleziona il nuovo flusso di lavoro, quindi seleziona **Versioni**. Quindi seleziona **Rendi attivo** per verificare che il flusso di lavoro sia attivo.
 15. Selezionare **Chiudi**. Viene visualizzata la nuova versione attiva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

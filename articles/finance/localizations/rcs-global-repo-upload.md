@@ -97,3 +97,6 @@ La versione della configurazione viene eliminata e viene visualizzato un messagg
 > [!NOTE]
 > Le configurazioni possono essere eliminate solo dal provider di configurazioni che le ha create. Se la configurazione è stata condivisa con un'altra organizzazione, sarà necessario annullare la condivisione prima di eliminarla.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

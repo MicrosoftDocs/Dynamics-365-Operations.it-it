@@ -127,3 +127,6 @@ Segui questi passaggi per creare lavoro di prelievo.
 
 > [!IMPORTANT]
 > Se annulli solo una parte della quantità per una riga di lavoro, è necessario rimuovere anche la quantità obsoleta dalla riga di carico. In caso contrario, a meno che la consegna in difetto non sia impostata correttamente, la riga di carico non può essere confermata dalla spedizione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Quando una riparazione è risolta, è possibile chiudere la relativa riga di rip
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Prima di poter registrare transazioni finanziarie per fatture che hanno un impor
 La funzione Registrazione fatture con importo pari a zero si applica alle fatture create nei moduli **Contabilità clienti** e **Contabilità fornitori**.
 
 Quando vengono registrate fatture con un importo pari a 0 (zero), il sistema crea transazioni cliente/fornitore e transazioni giustificativo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

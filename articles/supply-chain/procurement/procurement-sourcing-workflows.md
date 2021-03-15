@@ -79,3 +79,6 @@ Nella canvas del flusso di lavoro è possibile trascinare elementi del flusso di
 - [Definizione di flussi di lavoro di processi aziendali per le richieste di acquisto](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Flusso di lavoro delle richieste di acquisto](purchase-requisitions-workflow.md)
 - [Inserimento di fornitori](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

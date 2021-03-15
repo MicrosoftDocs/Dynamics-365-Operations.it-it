@@ -34,3 +34,6 @@ In questa procedura viene illustrato come creare e inviare il report IVA all'uff
 5. Selezionare Sì nel campo Crea documento fiscale elettronico.
 6. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

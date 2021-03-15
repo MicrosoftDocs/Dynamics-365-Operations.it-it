@@ -47,3 +47,6 @@ Questa guida attività trasferirà le informazioni finanziarie per un libro cesp
     * Esaminare i risultati prima di trasferire i libri cespiti.  
 10. Fare clic su **Trasferisci**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

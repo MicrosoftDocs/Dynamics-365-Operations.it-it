@@ -58,3 +58,6 @@ Questa guida consentirà di impostare una definizione periodo di aging, i saldi 
 2. Selezionare un cliente con un saldo.
 3. Espandere l'area riquadro Dettaglio informazioni **Aging** per visualizzare i saldi con aging. La definizione del periodo di aging per il riquadro Dettaglio informazioni viene ricavata dalla definizione del periodo di aging specificata nei parametri. È possibile modificarla mediante il menu Pagato a destinazione.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

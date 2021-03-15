@@ -70,3 +70,6 @@ Gstione assistenza può essere integrato con i seguenti moduli:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

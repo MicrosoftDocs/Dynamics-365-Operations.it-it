@@ -104,3 +104,6 @@ Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Co
 Per ulteriori informazioni sullo scenario di produzione *Dichiarazione di finito*, vedere [Panoramica dei criteri di lavoro del magazzino](warehouse-work-policies.md).
 
 Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -353,3 +353,6 @@ I seguenti scenari illustrano come è possibile utilizzare i criteri di consolid
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

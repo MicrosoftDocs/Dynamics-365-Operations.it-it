@@ -220,3 +220,6 @@ Per eseguire il controllo di compatibilità attenersi a questi passaggi.
 1. Nel riquadro azioni della scheda **Carichi** del gruppo **Azioni**, selezionare **Controllo compatibilità**.
 
 Viene inviato un messaggio contenente i risultati del controllo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Pertanto, le seguenti voci contabili vengono create automaticamente per bilancia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

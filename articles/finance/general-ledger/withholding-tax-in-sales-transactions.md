@@ -63,3 +63,6 @@ Il Gruppo ritenute d'acconto e il Gruppo ritenuta d'acconto articolo predefiniti
 La ritenuta d'acconto viene calcolata e registrata con **Giornale di registrazione pagamenti cliente**. Puoi modificare manualmente il codice della ritenuta d'acconto applicabile, nonché l'importo effettivo della ritenuta d'acconto nella scheda **Ritenuta d'acconto** nella pagina **Liquida transazioni**.
 
 L'importo della ritenuta d'acconto calcolato verrà detratto dal pagamento del cliente e registrato nel conto **Compensazione della ritenuta d'acconto** in un voucher correlato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Errori                              | Apre la pagina **Errori del cespite**, in cui è possibile visualizzare un elenco di registrazioni di problemi dei cespiti correlati alla unità funzionale selezionata. |
 | Aggiorna stato dell'unità funzionale    | Aggiorna la fase dell'unità funzionale selezionata                                                                                        |
 | Registro dello stato del ciclo di vita                 | Consente di visualizzare un registro contenente le fasi dell'unità funzionale selezionata.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

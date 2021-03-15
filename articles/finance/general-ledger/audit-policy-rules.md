@@ -100,3 +100,6 @@ Tutte le regole dei criteri per determinati criteri di controllo condividono gli
 [Definire i criteri di controllo per i documenti di origine](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Le domande aperte consentono agli intervistati di fornire una risposta propria. 
     * Un input di tipo Testo o Nota viene utilizzato per una domanda aperta.  
 6. Immettere la domanda nel campo Testo.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

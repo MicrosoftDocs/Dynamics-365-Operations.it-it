@@ -57,3 +57,6 @@ Quando si crea un pagamento in una persona giuridica che esegue la liquidazione 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

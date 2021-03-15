@@ -141,3 +141,6 @@ April registra il giornale di registrazione pagamenti e rivede le transazioni ne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

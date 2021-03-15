@@ -72,3 +72,6 @@ Questa procedura si applica a tutti i paesi europei. L'attività è stata creata
 37. Fare clic sulla scheda Generale.
     * Individuare una riga creata di recente e verificare che il mittente abbia spedito le merci dall'Italia.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

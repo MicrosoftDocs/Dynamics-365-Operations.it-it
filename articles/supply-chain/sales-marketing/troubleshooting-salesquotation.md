@@ -39,3 +39,6 @@ Se provi a impostare una quantità di vendita (campo **SalesQty**) per un elemen
 
 Non è possibile impostare una quantità di vendita per i prodotti che sono articoli di tipo Assistenza. Ad esempio, se offri un servizio per installare un articolo, non ha senso registrare una quantità, perché non esiste un articolo fisico. Esiste solo un servizio.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

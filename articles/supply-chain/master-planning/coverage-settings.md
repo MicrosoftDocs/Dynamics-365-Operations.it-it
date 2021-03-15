@@ -65,3 +65,6 @@ A ogni metodo di rifornimento viene assegnato uno dei seguenti codici di copertu
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica piani generali](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

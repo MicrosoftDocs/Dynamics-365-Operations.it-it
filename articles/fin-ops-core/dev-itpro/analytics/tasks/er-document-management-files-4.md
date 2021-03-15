@@ -69,3 +69,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 11. Fare clic su OK.
     * Esaminare l'output generato. Tenere presente che per ogni collegato un singolo nodo XML è stato creato. Il contenuto dell'allegato viene popolato nell'output XML in formato testo MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

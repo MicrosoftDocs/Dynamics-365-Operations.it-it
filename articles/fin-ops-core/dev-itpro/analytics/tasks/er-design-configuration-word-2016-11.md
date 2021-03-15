@@ -164,3 +164,6 @@ Per eseguire la versione bozza del formato modificabile, è necessario renderla 
 
 - [Progettare una nuova configurazione ER per generare report in formato Word](../er-design-configuration-word.md)
 - [Incorporare immagini e forme nei documenti generati utilizzando ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

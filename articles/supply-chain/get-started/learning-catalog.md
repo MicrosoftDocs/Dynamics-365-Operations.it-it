@@ -186,3 +186,6 @@ Informazioni sulla giusta formazione online, workshop con istruttore ed eventi p
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Nell'esempio seguente viene generato un ordine di controllo qualità quando vien
 [Processi di gestione qualità](quality-management-processes.md)
 
 [Verificare la qualità delle merci](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

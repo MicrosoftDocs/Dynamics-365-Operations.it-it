@@ -60,3 +60,6 @@ Per iniziare a configurare queste informazioni, creare una normativa che è poss
 ## <a name="warehouse-management"></a>Gestione magazzino
 
 Quando si prepara una spedizione, è possibile stampare vari nuovi report. Questi report utilizzano le informazioni impostate in Gestione informazioni sul prodotto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

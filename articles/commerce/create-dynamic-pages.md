@@ -96,3 +96,6 @@ Dopo la pubblicazione, la pagina personalizzata verrà offerta al posto della pa
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
 
 [Estendibilità del canale online](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

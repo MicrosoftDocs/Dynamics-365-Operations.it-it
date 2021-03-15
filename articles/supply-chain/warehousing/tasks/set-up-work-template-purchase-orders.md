@@ -60,3 +60,6 @@ In questo argomento viene descritto come impostare un modello di lavoro semplice
 6. Nel campo **ID classe lavoro**, digitare un valore. Le istruzioni di prelievo e stoccaggio costituiscono un set. Ogni set di prelievo/stoccaggio deve avere la stessa classe di lavoro. Utilizzare la stessa classe di lavoro fornita per l'istruzione di prelievo.  
 7. Selezionare **Salva**. Si noti che la casella di controllo **Valido** ora è selezionata.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

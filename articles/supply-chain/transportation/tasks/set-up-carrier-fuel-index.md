@@ -66,3 +66,6 @@ Questa guida illustra come creare un paese di indice carburante, un indice carbu
 12. Nell'elenco fare clic sul collegamento nella riga selezionata.
 13. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

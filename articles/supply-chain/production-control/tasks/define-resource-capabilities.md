@@ -48,3 +48,6 @@ Capacità risorsa descrive le operazioni che possono effettuare le risorse opera
 5. Nel campo Livello immettere un numero.
     * Se si specifica che un processo o un'operazione richiede una capacità specifica, è possibile specificare il livello minimo necessario. Utilizzare il livello di capacità per distinguere le risorse che possono eseguire lo stesso processo, ma con diverse velocità, forze, dimensioni e così via.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

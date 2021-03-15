@@ -65,3 +65,6 @@ Viene generato un record ogni volta che si esegue una rivalutazione valuta ester
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

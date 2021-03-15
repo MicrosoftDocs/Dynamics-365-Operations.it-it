@@ -66,3 +66,6 @@ Per l'implementazione di Lean Manufacturing, scegliamo l'approccio di un flusso 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

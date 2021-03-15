@@ -65,3 +65,6 @@ Questa impostazione consente di confermare un carico di trasporto che include un
 
 1. Selezionare **Gestione magazzino** \> **Carichi** \> **Carichi di trasporto**.
 2. Nel riquadro azioni, nella scheda **Spedisci e ricevi**, nel gruppo **Conferma** selezionare **Trasporto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

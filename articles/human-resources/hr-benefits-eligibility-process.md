@@ -54,3 +54,6 @@ In questa procedura vengono descritti i passaggi per utilizzare il processo di i
 25. Apri filtro di colonna Stato.
 26. Ordina da A a Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

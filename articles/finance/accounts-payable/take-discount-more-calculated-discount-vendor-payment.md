@@ -50,3 +50,6 @@ April registra il giornale di registrazione pagamenti. La fattura è completamen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ La società A gestisce i record finanziari per diverse piccole imprese. Uno dei 
 
 [Creare oggetti assistenza](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

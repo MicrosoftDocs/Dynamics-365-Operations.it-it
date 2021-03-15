@@ -79,3 +79,6 @@ Questa funzionalità è disponibile per tutti i ruoli che possono gestire i docu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

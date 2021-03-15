@@ -176,3 +176,6 @@ La procedura seguente mostra come allocare gli addebiti a livello di intestazion
         > Quando si utilizza la griglia **Scegli le righe da escludere dall'allocazione** assicurarsi di lasciare la griglia aperta finché non si seleziona **Alloca**. Se si chiude la griglia prima di selezionare **Alloca**, le impostazioni nella griglia andranno perse. Pertanto, gli addebiti verranno allocati in base ai criteri definiti in precedenza.
 
 1. Selezionare **Alloca** per applicare le impostazioni e chiudere la finestra di dialogo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

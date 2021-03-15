@@ -137,3 +137,6 @@ Per generare un report **Vendite organizzazione**, effettuare le seguenti operaz
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Home page di Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

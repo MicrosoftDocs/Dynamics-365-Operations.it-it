@@ -79,3 +79,6 @@ Per selezionare un layout differente per una pagina esistente, effettuare le seg
 
 [Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

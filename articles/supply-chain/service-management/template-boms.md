@@ -133,3 +133,6 @@ Per utilizzare le DBA modello, è necessario impostare due sequenze numeriche. I
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

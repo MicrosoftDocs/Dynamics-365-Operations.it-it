@@ -82,3 +82,6 @@ Se l'assegno stornato è stato emesso per un rimborso al cliente, si verificano 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

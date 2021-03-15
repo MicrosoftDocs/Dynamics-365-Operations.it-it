@@ -49,3 +49,6 @@ Se la stessa persona richiede l'accesso al portale fornitori per più conti forn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

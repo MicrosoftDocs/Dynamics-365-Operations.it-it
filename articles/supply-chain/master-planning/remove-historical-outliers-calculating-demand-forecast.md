@@ -50,3 +50,6 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

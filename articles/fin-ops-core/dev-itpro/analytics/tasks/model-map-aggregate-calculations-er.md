@@ -116,3 +116,6 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 68. Fare clic su Salva.
     * Tenere presente che il campo "Esecuzione in" indica che il raggruppamento verrà eseguito in fase di esecuzione in memoria anche se non sono presenti aggregazioni definite e l'origine dati selezionata di tipo "Record di tabella" fa riferimento alla stessa tabella "Intrastat". Ciò accade perché l'origine dati contiene alcuni campi calcolati che non possono essere convertiti a livello del database SQL.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

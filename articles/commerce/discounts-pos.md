@@ -68,3 +68,6 @@ La seguente illustrazione mostra la logica utilizzata quando il controllo della 
 La seguente illustrazione mostra la logica utilizzata quando il controllo della concorrenza degli sconti è impostato su **Il miglior prezzo solo in base alla priorità, sempre composto tra le priorità**.
 
 ![Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità](./media/Model_2.png "Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

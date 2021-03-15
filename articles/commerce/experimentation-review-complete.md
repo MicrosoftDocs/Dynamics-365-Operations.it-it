@@ -60,3 +60,6 @@ Per eliminare un esperimento in Creazione di siti Web di Commerce seguire questi
 
 ## <a name="previous-step"></a>Passaggio precedente
 [Eseguire e monitorare un esperimento](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

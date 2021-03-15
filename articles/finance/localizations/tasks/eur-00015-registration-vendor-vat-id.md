@@ -63,3 +63,6 @@ Prima di completare questa procedura è necessario impostare gli ID IVA. Questa 
 25. Nel campo Partita IVA, immettere o selezionare un valore.
 26. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

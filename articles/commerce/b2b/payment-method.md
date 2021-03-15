@@ -76,3 +76,6 @@ Per verificare che il metodo di pagamento del conto cliente sia stato abilitato 
 [Impostare limiti di quantità di prodotti per i siti di e-commerce B2B](quantity-limits.md)
 
 [SDK e aggiornamenti libreria dei moduli](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

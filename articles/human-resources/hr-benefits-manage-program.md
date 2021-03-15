@@ -64,3 +64,6 @@ Talvolta, un'organizzazione smette di offrire determinati benefit. In questo cas
 In modo analogo, la proroga di benefit collettiva consente di estendere la data di scadenza sia di un benefit che delle iscrizioni del lavoratore per il benefit, se si decide di offrire un benefit più lungo di quanto originariamente pianificato.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

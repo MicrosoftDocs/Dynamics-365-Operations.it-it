@@ -106,3 +106,6 @@ L'immagine seguente mostra un esempio di nodo con gruppi di attributi di prodott
 [Impostare assortimenti](set-up-assortments.md)
 
 [Gestire attributi e gruppi di attributi](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

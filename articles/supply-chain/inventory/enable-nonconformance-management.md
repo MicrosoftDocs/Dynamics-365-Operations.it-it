@@ -53,3 +53,6 @@ Per attivare la gestione di non conformità, effettuare le operazioni seguenti:
 [Processi di gestione qualità](quality-management-processes.md)
 
 [Impostare prerequisiti per la gestione di non conformità](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

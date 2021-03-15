@@ -104,3 +104,6 @@ La capacità di richiamare un giornale di registrazione in un flusso di lavoro i
 
 ## <a name="delete-journal-lines"></a>Eliminare le righe di un giornale di registrazione
 La capacità di eliminare tutte le righe di un giornale di registrazione viene abilitata in un giornale di registrazione in **Funzioni** > **Elimina righe giornale di registrazione**. Per abilitare questa funzionalità, in **Gestione funzionalità**, selezionare **Elimina ottimizzazioni prestazioni del giornale di registrazione**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

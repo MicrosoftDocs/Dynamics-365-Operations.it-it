@@ -68,3 +68,6 @@ Si tratta della quarta di cinque procedure che illustrano il processo di pagamen
 8. Fare clic su OK.
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

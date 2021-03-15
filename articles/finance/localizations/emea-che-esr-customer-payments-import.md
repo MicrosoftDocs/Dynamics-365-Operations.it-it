@@ -53,3 +53,6 @@ Dopo aver importato il file di pagamento, le righe del giornale di registrazione
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

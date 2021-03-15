@@ -58,3 +58,6 @@ Questa procedura mostra come creare una regola kanban che comprende più attivit
     * Notare che il kanban ha due processi dal flusso di produzione. Il primo è SpeakerAssemblyAndPolish e il secondo è SpeakerTestAndPackaging.  
     * Questo è l'ultimo passaggio.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -184,3 +184,6 @@ La maggior parte dei campi sugli ordini di modifica di progettazione sono gli st
 | Ambiente, salute e sicurezza | Specificare se le regole di salute e sicurezza ambientali sono applicabili alla modifica. Se lo sono, è possibile selezionare le regole applicabili. |
 
 È possibile utilizzare il pulsante **Gestisci/copia informazioni di modifica** per copiare le informazioni sulle modifiche tra i prodotti interessati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

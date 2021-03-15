@@ -44,3 +44,6 @@ La funzionalità della ritenuta d'acconto globale è stata migliorata per le tra
 
 > [!NOTE]
 > La funzionalità ritenuta d'acconto globale non può essere attivata per paesi/aree geografiche in cui esistono già soluzioni di ritenuta d'acconto localizzate. Queste aree includono ma non sono limitate a India, Brasile, Tailandia, Arabia Saudita, Irlanda, Gran Bretagna e Stati Uniti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

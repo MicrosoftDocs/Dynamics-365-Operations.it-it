@@ -97,3 +97,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 1.  Selezionare **Invia complimento**. 
 1. Immettere il testo del complimento da inviare. 
 1. Selezionare **Fine**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

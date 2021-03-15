@@ -92,3 +92,6 @@ L'immagine seguente mostra un esempio di carrello che mostra un messaggio In sto
 [Memorizzare il modulo di selezione](store-selector.md)
 
 [SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ La procedura consente di modificare la regola kanban utilizzata per un kanban sp
 7. Scegliere Fine.
     * A questo punto il processo kanban utilizza un'altra regola kanban. Può essere utile per livellare il carico delle celle di lavoro.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

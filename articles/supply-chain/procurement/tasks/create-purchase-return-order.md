@@ -67,3 +67,6 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 4. Nel campo **Entrata prodotti**, digitare un valore. Questo campo è usato per immettere un riferimento che sarà usato come giustificativo per il giornale di registrazione entrata prodotti.  
 5. Fare clic su **OK**. Le merci ora sono state registrate come spedite sull'ordine di reso acquisti e un giornale di registrazione entrata prodotti è stato creato. Potete usare l'azione Entrata prodotti per esaminare i giornali di registrazione creati con l'ordine fornitore e vedere che cosa è stato ricevuto o restituito e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

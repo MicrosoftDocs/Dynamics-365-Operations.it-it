@@ -88,3 +88,6 @@ Verranno visualizzate transazioni aggiuntive per gli importi in valuta di dichia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

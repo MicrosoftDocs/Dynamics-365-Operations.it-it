@@ -87,3 +87,6 @@ Le aree di responsabilità vengono utilizzate per indicare i ruoli di lavoro, i 
 
 ## <a name="steps-for-creating-a-job"></a>Passaggi per creare un processo
 Fare riferimento all'articolo [Definire nuovi processi](../fin-and-ops/hr/tasks/define-new-jobs.md) per la procedura dettagliata relativa alla creazione di un nuovo processo. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Una persona giuridica è un'organizzazione identificata mediante registrazione p
 15. Espandere la sezione **Registrazione fiscale**. Nella sezione **Registrazione fiscale** immettere i numeri di registrazione utilizzati per le dichiarazioni alle autorità fiscali.
 16. Espandere la sezione **Imposta 1099**. Nella sezione **Imposta 1099** immettere le informazioni incluse nel modulo 1099 per la persona giuridica.  
 17. Fare clic su **Salva**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

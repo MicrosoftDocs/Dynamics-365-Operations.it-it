@@ -75,3 +75,6 @@ La ritenuta d'acconto viene calcolata su **Giornale di registrazione pagamenti f
 L'importo della ritenuta d'acconto derivato verrà detratto dal pagamento del fornitore e registrato nel conto **Conto della ritenuta d'acconto** in un voucher correlato.
 
 ![Conto ritenuta d'acconto con relativo giustificativo](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

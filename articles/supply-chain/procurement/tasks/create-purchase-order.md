@@ -73,3 +73,6 @@ In questo argomento viene descritto come creare un ordine fornitore manualmente.
 
 2. Selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

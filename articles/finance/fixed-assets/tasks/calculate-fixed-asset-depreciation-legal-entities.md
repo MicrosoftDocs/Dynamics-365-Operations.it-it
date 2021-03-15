@@ -50,3 +50,6 @@ L'ammortamento del cespite può essere eseguito tra persone giuridiche in un uni
 5. Fare clic su Crea giornale di registrazione.
 6. Andare a Cespiti > Inserimenti nel giornale di registrazione > Giornale di registrazione cespiti.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

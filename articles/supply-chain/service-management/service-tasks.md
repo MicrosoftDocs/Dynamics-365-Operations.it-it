@@ -89,3 +89,6 @@ Quando si creano automaticamente ordini di assistenza, è possibile utilizzare l
 2. Nella scheda **Impostazione** selezionare **In base all'attività di assistenza** nel campo **Combina ordini di assistenza**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

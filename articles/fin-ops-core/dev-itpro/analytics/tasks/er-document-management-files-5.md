@@ -96,3 +96,6 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 7. Fare clic su OK.
     * Esaminare l'output generato. Si noti che, oltre al messaggio della fattura in formato XML, un singolo file è stato creato per ciascun allegato. I file degli allegati vengono popolati con l'output compresso in formato binario.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

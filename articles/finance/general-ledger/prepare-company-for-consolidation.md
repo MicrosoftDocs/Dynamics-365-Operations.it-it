@@ -67,3 +67,6 @@ La persona giuridica consolidata ora è impostata per il processo periodico **Co
 
 > [!NOTE]
 > Prima di eseguire il consolidamento, devi preparare le persone giuridiche affiliate per il consolidamento. Per ulteriori informazioni, vedi [Impostare una persona giuridica affiliata per il consolidamento](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

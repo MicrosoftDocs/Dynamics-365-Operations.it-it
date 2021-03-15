@@ -52,3 +52,6 @@ Per informazioni sull'assegnazione di un lavoratore a un team, vedere [Impostare
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

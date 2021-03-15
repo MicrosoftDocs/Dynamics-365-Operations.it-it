@@ -71,3 +71,6 @@ Utilizzando la modalità di carico di immagazzinamento selezionata nell'impostaz
 
 4. Nel campo **Tipo di carico** selezionare **Volume** o **Peso** per indicare l'unità operativa di magazzino per la proiezione dello spazio.
 5. Nel campo **Impostazioni di utilizzo dello spazio** selezionare l'impostazione di utilizzo dello spazio su cui deve essere basata la proiezione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

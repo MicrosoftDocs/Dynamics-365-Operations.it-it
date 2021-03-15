@@ -74,3 +74,6 @@ Le relazioni di attività di assistenza tecnica create in un ordine di assistenz
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

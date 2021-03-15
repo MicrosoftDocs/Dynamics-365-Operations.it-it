@@ -42,3 +42,6 @@ Se nel carico è presente più di una spedizione, è possibile generare una poli
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

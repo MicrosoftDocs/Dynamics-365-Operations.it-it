@@ -81,3 +81,6 @@ Un responsabile di pianificazione della produzione può creare una previsione di
 5. Fare clic su Dettagli riga previsione.
     * In questa pagina è possibile visualizzare i valori di precisione, la domanda storica e la previsione. È inoltre possibile modificare la previsione.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

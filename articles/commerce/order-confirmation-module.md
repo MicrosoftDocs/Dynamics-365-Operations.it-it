@@ -86,3 +86,6 @@ Per aggiungere un modulo Conferma ordine a una nuova pagina e impostare le propr
 [Modulo di informazioni sul ritiro](pickup-info-module.md)
 
 [Modulo gift card](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

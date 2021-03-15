@@ -61,3 +61,6 @@ Il campo **Allocazione costi sottoprodotti** nella pagina **Co-prodotti** è un 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

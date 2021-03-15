@@ -77,3 +77,6 @@ Accedere a Designer DBA utilizzando una relazione di oggetti assistenza
 
 Se gli ordini relativi a un contratto di assistenza vengono creati automaticamente, le relazioni di oggetti assistenza del contratto vengono riportate anche negli ordini di assistenza creati.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

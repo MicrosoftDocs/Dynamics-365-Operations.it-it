@@ -72,3 +72,6 @@ Quando si esegue il formato ER configurato, il modello di Word allegato viene ut
 
 - [Riutilizzare le configurazioni ER con i modelli Escel per generare report nel formato Word](./tasks/er-design-configuration-word-2016-11.md)
 - [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

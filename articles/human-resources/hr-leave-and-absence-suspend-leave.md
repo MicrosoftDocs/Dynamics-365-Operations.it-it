@@ -49,3 +49,6 @@ Se gli accumuli vengono elaborati mentre il congedo del dipendente è sospeso, n
 - [Configurare i tipi di congedo e assenza](hr-leave-and-absence-types.md)
 - [Accumulare piani di congedo e assenza](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

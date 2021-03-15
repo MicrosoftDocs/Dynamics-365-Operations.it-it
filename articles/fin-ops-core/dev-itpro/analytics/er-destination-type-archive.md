@@ -57,3 +57,6 @@ Quando il percorso del tipo di documento è impostato su **Archiviazione di Azur
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Configurare la gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,5 @@ L'entità MyLeaveRequests in Microsoft Dynamics 365 Human Resources fornisce l'e
 
 - [Inviare una richiesta di congedo a flusso di lavoro](hr-developer-api-myleaverequests-submit.md)
 - [Autenticazione](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

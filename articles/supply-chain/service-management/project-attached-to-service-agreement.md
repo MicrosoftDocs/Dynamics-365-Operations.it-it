@@ -36,3 +36,6 @@ Tutte le transazioni relative a ordini di assistenza vengono registrate attraver
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

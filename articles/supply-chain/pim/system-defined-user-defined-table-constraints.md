@@ -66,3 +66,6 @@ Prima che un vincolo di tabella possa essere reso effettivo in un modello di con
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4797465"
 8. Continuare a immettere il messaggio di posta elettronica inserendo i campi segnalibro necessari.
 9. Selezionare **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

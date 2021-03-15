@@ -257,3 +257,6 @@ Una volta create le direttive ubicazione, è possibile associare ciascun codice 
 
 - Video: [Approfondimento sulla configurazione della gestione magazzino](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Argomento della Guida: [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

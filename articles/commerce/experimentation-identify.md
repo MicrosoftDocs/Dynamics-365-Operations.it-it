@@ -39,3 +39,6 @@ Per convalidare un'ipotesi, l'esito positivo o negativo di un esperimento dovreb
 
 ## <a name="next-step"></a>Passaggio successivo
 [Configurare un esperimento](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

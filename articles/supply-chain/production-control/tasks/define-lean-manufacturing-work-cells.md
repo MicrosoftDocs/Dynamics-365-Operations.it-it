@@ -99,3 +99,6 @@ Una cella di lavoro è un modulo specifico dei gruppi di risorse che possono ess
 ## <a name="save"></a>Salva
 1. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

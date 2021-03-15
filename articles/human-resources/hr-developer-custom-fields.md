@@ -40,3 +40,5 @@ Assicurarsi di abilitare tutti i campi personalizzati creati in modo da poterli 
 [Tabelle Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Esposizione di campi personalizzati in entità di dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ In questa procedura viene illustrato come creare i criteri di rollup dei costi e
     * Continuare finché tutti i centri di costo sono mappati agli elementi di costo secondari corrispondenti.  
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

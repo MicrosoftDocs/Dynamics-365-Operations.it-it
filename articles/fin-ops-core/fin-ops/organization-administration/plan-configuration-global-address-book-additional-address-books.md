@@ -57,3 +57,6 @@ Dopo aver creato la Rubrica globale, è possibile creare Rubriche aggiuntive in 
 **Decisione:**
 
 - Quante Rubriche aggiuntive verranno create?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

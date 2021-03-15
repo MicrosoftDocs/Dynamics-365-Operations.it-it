@@ -56,3 +56,6 @@ Prima di utilizzare questa funzionalità, è necessario abilitarla nel sistema. 
     > Nel modulo non vengono inclusi i subtotali che sono definiti nel layout del report.
 
 L'entità di dati **Report di aging delle scorte** consente di esportare l'output di un report **Archiviazione report di aging delle scorte** applicando un filtro per il campo **Identificatore di processo - Nome** in qualsiasi formato supportato della gestione dei dati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

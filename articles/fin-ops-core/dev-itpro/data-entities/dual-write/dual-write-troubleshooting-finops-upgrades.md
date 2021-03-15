@@ -91,3 +91,6 @@ Se il problema persiste, attenersi alla seguente procedura.
 4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
 5. Se l'attributo non viene popolato automaticamente sulla mappa, aggiungerlo manualmente facendo clic sul pulsante **Aggiungi attributo** e quindi su **Salva**. 
 6. Selezionare la mappa e fare clic su **Esegui**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

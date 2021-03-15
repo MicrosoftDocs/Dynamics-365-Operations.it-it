@@ -103,3 +103,6 @@ Per spiegare questo apparente fallimento, è necessario comprendere i criteri di
 
 > [!NOTE]
 > Non è possibile utilizzare i limiti di stoccaggio dell'ubicazione per controllare, ad esempio, il rifornimento di articoli con quantità diverse nella stessa ubicazione. In questo caso, usare un *modello di rifornimento*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

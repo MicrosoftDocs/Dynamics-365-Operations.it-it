@@ -68,3 +68,6 @@ Dopo il completamento dell'inizializzazione, è necessario configurare i dati di
 - Canali di commercio
 - Registri e dispositivi
 - Assortimenti
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ Per generare il modello telematico per una lettera di intenti, attieniti alla se
     > Le lettere di intenti già incluse in altri modelli non possono essere selezionate.
 
 6. Nel riquadro azioni, seleziona **Esporta** per generare il file di output **Modello telematico lettera di intenti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

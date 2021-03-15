@@ -66,3 +66,6 @@ Abilitare il rilevamento delle modifiche per progetti entità di dati.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Progetti (da Supply Chain Management a Field Service): Progetti
 
 [![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

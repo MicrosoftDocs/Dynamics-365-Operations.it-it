@@ -82,3 +82,6 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
 - [Congedo sospeso](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

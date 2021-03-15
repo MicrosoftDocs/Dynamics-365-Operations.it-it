@@ -99,3 +99,6 @@ Dopo avere abilitato i suggerimenti sul prodotto, sarà necessario aggiungere il
 [Creare manualmente suggerimenti mirati](create-editorial-recommendation-lists.md)
 
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

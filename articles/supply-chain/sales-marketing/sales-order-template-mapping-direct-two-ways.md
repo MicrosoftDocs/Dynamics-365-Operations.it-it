@@ -208,3 +208,6 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Prospect to cash](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

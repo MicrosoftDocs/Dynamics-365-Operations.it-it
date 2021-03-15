@@ -89,3 +89,6 @@ Il metodo a saldi decrescenti del 200% consente di dividere il 200% per gli anni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

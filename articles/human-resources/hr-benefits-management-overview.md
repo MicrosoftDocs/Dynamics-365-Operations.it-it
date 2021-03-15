@@ -97,3 +97,6 @@ Questi articoli mostrano come creare piani di benefit, inclusi pacchetti e progr
 - [Elaborare l'idoneità a eventi reali](hr-benefits-process-life-event-eligibility.md)
 - [Elaborare modifiche ai tassi](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

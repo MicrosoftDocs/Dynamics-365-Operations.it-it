@@ -45,3 +45,6 @@ Questa procedura riguarda la rimozione di un processo kanban di lavorazione pian
 4. Fare clic su OK.
     * In questo modo lo stato del processo corrente verrà ripristinato da Pianificato a Non pianificato e il processo verrà rimosso dalla bacheca dei processi.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Un contratto di garanzia può includere varie righe del contratto per coprire la
     4. Nel campo **Percentuale**, immettere la percentuale di copertura per la riga della garanzia. La percentuale indica quanto è coperto dalla società.
 
 ![Pagina della garanzia](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

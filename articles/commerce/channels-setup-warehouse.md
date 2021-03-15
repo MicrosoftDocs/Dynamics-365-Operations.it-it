@@ -146,3 +146,6 @@ L'immagine seguente mostra i dettagli di un magazzino configurato.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

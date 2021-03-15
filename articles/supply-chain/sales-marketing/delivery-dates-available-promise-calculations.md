@@ -80,3 +80,6 @@ La data di spedizione viene quindi impostata su 10 giorni dalla data corrente, i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

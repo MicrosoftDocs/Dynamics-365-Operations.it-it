@@ -80,3 +80,6 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Trasferimento scorte (da Field Service a Supply Chain Management ): Trasferimento scorte
 
 [![Mapping dei modelli in Integrazione dati](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

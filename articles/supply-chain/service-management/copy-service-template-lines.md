@@ -59,3 +59,6 @@ Le righe del modello di assistenza verranno copiate nel nuovo ordine di assisten
 [Modelli di assistenza](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

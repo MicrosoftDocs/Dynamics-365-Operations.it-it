@@ -82,3 +82,6 @@ Questa procedura descrive il processo di chiusura di fine anno per il trasferime
 23. La chiusura di fine anno viene eseguita in modalità batch per impostazione predefinita. È consigliabile eseguire in modalità batch i processi a esecuzione prolungata. Questo è in genere uno di tali processi, che è il motivo per cui l'impostazione predefinita è utilizzare la modalità batch.  
 24. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

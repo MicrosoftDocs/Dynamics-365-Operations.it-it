@@ -60,3 +60,6 @@ L'opzione **Riconcilia dopo l'importazione** automaticamente convalida il rendic
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

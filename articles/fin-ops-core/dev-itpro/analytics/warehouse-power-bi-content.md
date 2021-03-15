@@ -111,3 +111,6 @@ Le seguenti misure aggregazione chiave vengono utilizzate come base del contenut
 | Prestazioni di spedizione        | Spedizioni per prodotto                       | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per cliente                      | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
 | Prestazioni di spedizione        | Spedizioni per sito/magazzino              | CustPackingSlipOnTimeStatus           | In anticipo, puntuale e in ritardo (vedere le relative descrizioni in precedenza nella tabella). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

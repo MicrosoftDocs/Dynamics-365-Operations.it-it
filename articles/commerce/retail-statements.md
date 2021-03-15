@@ -87,3 +87,6 @@ Quando si registra un rendiconto, gli ordini cliente e le fatture vengono creati
 - Le vendite per cui un cliente è stato aggiunto alla transazione in  POS generano ordini cliente e fatture separati, uno per ciascun cliente univoco.
 
 I giornali di registrazione pagamenti vengono creati automaticamente per i pagamenti nel rendiconto e il magazzino viene aggiornato per il punto vendita relativo al POS.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

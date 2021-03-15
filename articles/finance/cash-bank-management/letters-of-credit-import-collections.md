@@ -53,3 +53,6 @@ Un pagamento all'importazione aiuta a garantire che il venditore riceva il pagam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

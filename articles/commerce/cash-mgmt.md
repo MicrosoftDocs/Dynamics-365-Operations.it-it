@@ -61,3 +61,6 @@ In Retail versione 10.0.3 e successive, vengono fornite anche le seguenti funzio
 - Durante la riconciliazione, se la transazione selezionata non è bilanciata, l'utente deve immettere una descrizione del motivo della riconciliazione non bilanciata. Gli utenti possono selezionare una singola transazione e riconciliarla con la relativa descrizione del motivo.
 - Gli utenti possono continuare a riconciliare le transazioni e ad annullare la riconciliazione di quelle riconciliate fino alla chiusura del turno. Dopo la chiusura di un turno, non è possibile annullare la riconciliazione delle transazioni riconciliate.
 - Quando un utente sceglie di chiudere un turno, Commerce conferma che non sono presenti transazioni di gestione di cassa non riconciliate nel turno. Gli utenti non possono chiudere un turno se sono presenti transazioni non riconciliate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

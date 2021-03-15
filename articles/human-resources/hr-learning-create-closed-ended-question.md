@@ -68,3 +68,6 @@ Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può sceg
 5. Nel campo Gruppo di risposte immettere o selezionare un valore.
 6. Digitare un valore nel campo Testo.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

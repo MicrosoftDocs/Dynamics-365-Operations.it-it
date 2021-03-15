@@ -345,3 +345,6 @@ Se la base di allocazione del membro di dimensione predefinito di Elettricit√† √
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Basi di allocazione](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

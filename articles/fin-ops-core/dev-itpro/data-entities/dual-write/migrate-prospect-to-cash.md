@@ -98,3 +98,6 @@ Perché i dati della tabella **Prodotti** sono progetti per un flusso unidirezio
 ## <a name="quote-and-quote-product-tables"></a>Tabelle di offerta e prodotti offerta
 
 Per la tabella **Offerta**, seguire le istruzioni nella sezione [Tabella degli ordini](#order-table) precedente in questo argomento. Per la tabella **Prodotto offerta**, seguire le istruzioni nella sezione [Tabella dei prodotti ordini](#order-products-table) precedente in questo argomento.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

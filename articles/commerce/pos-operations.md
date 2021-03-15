@@ -208,3 +208,6 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 § Quando il POS è offline, solo le transazioni nel database offline corrente possono essere richiamate per il reso.
 
 \*\* Quando il POS è offline, solo le transazioni nel database del canale offline corrente sono visualizzabili nel giornale di registrazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

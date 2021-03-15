@@ -56,3 +56,6 @@ Alla fine di ogni mese, è possibile accumulare i ricavi mensili provenienti dal
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

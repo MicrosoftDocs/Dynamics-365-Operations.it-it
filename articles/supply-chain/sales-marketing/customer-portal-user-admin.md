@@ -95,3 +95,6 @@ La tabella seguente mostra quali ordini di vendita sono visibili agli utenti per
 
 > [!NOTE]
 > Anche se Sam e Jane sono contatti che lavorano per il cliente X, possono vedere solo gli ordini che essi stessi hanno effettuato e nient'altro. Sebbene May abbia un ordine nel sistema, non può vederlo nel portale clienti, poiché è un utente non autorizzato. Inoltre, deve aver effettuato l'ordine attraverso un canale diverso dal portale clienti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

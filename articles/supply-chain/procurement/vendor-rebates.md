@@ -166,3 +166,6 @@ Il processo di gestione degli sconti fornitore include molteplici attività di t
 - Generazione di attestazioni di sconto accurate
 - Accumulo di guadagni provvisori e crediti previsti nella contabilità generale
 - Aggiornamento del saldo fornitore e del conto economico con lo sconto dovuto
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

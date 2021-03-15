@@ -381,3 +381,6 @@ Quando l'attività manuale viene assegnata a un utente, quest'ultimo dovrà eseg
 5. Selezionare la casella di controllo **Delega** se si desidera consentire all'utente di assegnare l'attività a un altro utente.
 6. Selezionare la casella di controllo **Riassegna** se si desidera consentire all'utente di riassegnare l'attività a un altro utente nella coda di elementi di lavoro.
 7. Selezionare la casella di controllo **Rilascio** se si desidera consentire all'utente di riassegnare l'attività alla coda di elementi di lavoro. Un altro utente potrà quindi completare l'attività.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Se non è stato definito il numero di cespite nel modello del componente aggiunt
 
 > [!WARNING]
 > Il record del cespite non verrà eliminato se le transazioni sono state registrate nel libro associato o se il cespite appena creato viene immesso in una riga di giornale di registrazione ma non registrato. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

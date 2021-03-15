@@ -60,3 +60,6 @@ Questo argomento spiega come preparare i dati da sistemi esterni in modo che pos
 8. Imposta l'opzione **Elaborazione batch** su **Sì** per eseguire il consolidamento come processo batch in un momento specifico. Per eseguire immediatamente il consolidamento, seleziona **OK**. 
 
 Le transazioni e i saldi specificati per il consolidamento nelle affiliate verranno aggiunti ai conti appropriati della persona giuridica consolidata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

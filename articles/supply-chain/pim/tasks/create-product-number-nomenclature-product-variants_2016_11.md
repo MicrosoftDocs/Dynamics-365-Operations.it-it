@@ -101,3 +101,6 @@ In questa procedura viene illustrato come impostare una nomenclatura di numero p
 43. Chiudere la pagina.
 44. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

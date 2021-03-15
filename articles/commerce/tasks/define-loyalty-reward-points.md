@@ -45,3 +45,6 @@ In questa procedura vengono descritti i passaggi per definire i punti premio fed
 10. Selezionare un'opzione nel campo Unità ora di scadenza.
 11. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

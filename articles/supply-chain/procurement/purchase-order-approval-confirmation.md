@@ -98,3 +98,6 @@ Se un ordine fornitore è in gestione delle modifiche, qualsiasi modifica, come 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

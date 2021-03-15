@@ -93,3 +93,6 @@ I registri di invio includono le seguenti funzioni aggiuntive:
 - **Annulla invii** - Questa funzione abilita un processo di invio speciale in scenari in cui la fattura elettronica deve essere approvata da un servizio web esterno. Indica al componente aggiuntivo Fatturazione elettronica di inviare al servizio Web un messaggio specifico che ha lo scopo di annullare lo stato di una fattura elettronica approvata nel database del servizio Web.
 - **Invia di nuovo documento** - Invia nuovamente un documento elettronico che è già stato inviato al componente aggiuntivo Fatturazione elettronica. Viene creato un registro completamente nuovo nella pagina **Dettagli invio**.
 - **Esegui invio correlato**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

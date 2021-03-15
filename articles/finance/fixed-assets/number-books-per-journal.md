@@ -49,3 +49,6 @@ Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite
 
 > [!Note] 
 > Se il parametro **Riepilogo ammortamento** viene attivato durante la creazione di una proposta di ammortamento, il valore nel campo **Numero di libri per giornale - Proposta di ammortamento** non ha effetto. In questo caso il numero di libri per giornale è 6.000, il limite interno definito.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

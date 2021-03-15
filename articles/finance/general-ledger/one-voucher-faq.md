@@ -51,3 +51,6 @@ Come per ogni nuova funzionalità, i clienti devono guardare il piano di rilasci
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Quando viene individuata la data di ritiro, dove verrà comunicata?
 
 Il deprecamento di Un giustificativo è un cambiamento significativo che verrà ampiamente comunicato. Verrà comunicato tramite la documentazione del prodotto, un post sul blog e annunci durante le conferenze Microsoft applicabili, con largo anticipo rispetto alla data in cui il ritiro avrà effetto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

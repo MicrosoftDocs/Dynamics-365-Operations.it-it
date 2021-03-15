@@ -96,3 +96,6 @@ Ciascun campo ha un effetto diverso sulla transazione quando lo si modifica:
 - **Modifica termini di sconto di cassa:** vengono modificati gli sconti di cassa in base alla data di base e ai termini di sconto di cassa.
 
 Dopo avere modificato le impostazioni di pagamento, selezionare **Chiudi** per salvare le modifiche.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

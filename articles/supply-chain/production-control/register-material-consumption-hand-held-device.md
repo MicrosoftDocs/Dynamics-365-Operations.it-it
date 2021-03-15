@@ -91,3 +91,6 @@ Al termine della registrazione, selezionare **Fatto** per registrare il giornal
 -   Il materiale può essere consumato in quantità eccessiva. Ad esempio, se si stima una quantità consumata di materiale pari a 100 kg, è possibile che si verifichi un consumo eccessivo pari a una quantità, ad esempio, di 105 chilogrammi.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

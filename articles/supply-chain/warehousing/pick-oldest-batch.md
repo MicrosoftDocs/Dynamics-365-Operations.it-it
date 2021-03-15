@@ -40,3 +40,6 @@ Per gli articoli impostati per utilizzare il lavoro esistente, **Preleva batch m
 **Avvisa** e **Forza**: un elenco di batch con la data di scadenza meno recente verrà visualizzato sopra il controllo del batch quando il lavoratore seleziona un batch. Se l'ubicazione è controllata mediante targa, un elenco delle targhe con il batch meno recente verrà visualizzato sopra il controllo della targa. 
 -   **Avvisa**: se un lavoratore sceglie una targa o un batch che non appaiono nell'elenco, il controllo verrà lasciato vuoto e verrà visualizzato un avviso che indica la presenza di un batch meno recente da selezionare. Per continuare il lavoro, il lavoratore può selezionare nuovamente la stessa targa o batch.  
 -   **Forza**: i lavoratori continueranno a ricevere il messaggio che indica la presenza di un batch meno recente da prelevare.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

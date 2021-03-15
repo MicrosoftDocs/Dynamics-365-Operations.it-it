@@ -105,3 +105,6 @@ Quando si registra un documento, il gruppo di sequenza numerica appropriato vien
 
 > [!NOTE]
 > Per alcuni paesi esiste una logica specifica già implementata per la numerazione dei documenti. In questo caso, la logica specifica del paese avrà la precedenza sulla funzionalità **Numerazione cronologica**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

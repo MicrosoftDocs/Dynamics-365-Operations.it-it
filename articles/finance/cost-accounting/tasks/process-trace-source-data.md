@@ -44,3 +44,6 @@ Tutte le elaborazione dei dati vengono eseguite da processi. Per ogni processo e
     * Per questo esempio, selezionare il periodo 9 dell'anno fiscale 2017.  
 14. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

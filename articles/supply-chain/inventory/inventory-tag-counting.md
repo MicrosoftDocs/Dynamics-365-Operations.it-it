@@ -35,3 +35,6 @@ La creazione di righe nella pagina **Conteggio tag** consente di inserire un num
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Conteggio ciclo](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

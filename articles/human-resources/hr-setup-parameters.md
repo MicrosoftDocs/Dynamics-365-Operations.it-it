@@ -50,3 +50,6 @@ Le impostazioni nella scheda **Sequenza numerica** determinano le sequenze che v
 
 > [!NOTE]
 > Il numero di ore lavorate non può superare le 1.250 ore e la durata dell'impiego non può superare i 12 mesi. Questi valori massimi sono definiti in osservanza delle normative federali negli Stati Uniti. Infine, le impostazioni nella scheda **Dipendente self-service** determinano le informazioni che i responsabili possono immettere per conto dei propri dipendenti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

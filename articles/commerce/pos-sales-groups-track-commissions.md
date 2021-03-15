@@ -87,3 +87,6 @@ Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei la
 ## <a name="calculating-commissions"></a>Calcolo delle provvigioni
 
 La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente. Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

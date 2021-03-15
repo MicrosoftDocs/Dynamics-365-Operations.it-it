@@ -66,3 +66,6 @@ Se nella pagina **Registrazione documento di trasporto** non sono impostati i de
 9. Nei campi **Dichiarazioni aggiuntive**, **Note aggiuntive** e **Istruzioni aggiuntive** immettere tutte le informazioni aggiuntive da stampare nel documento di trasporto.
 10. Fare clic su **OK** per registrare e stampare il documento di trasporto con le informazioni correlate.
 11. Chiudere la pagina per salvare le modifiche.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

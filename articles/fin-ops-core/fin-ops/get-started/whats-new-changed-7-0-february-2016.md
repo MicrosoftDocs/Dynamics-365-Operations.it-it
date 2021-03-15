@@ -1033,3 +1033,6 @@ Non sono state aggiunte nuove funzionalità.
 [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
 
 [Nuove guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

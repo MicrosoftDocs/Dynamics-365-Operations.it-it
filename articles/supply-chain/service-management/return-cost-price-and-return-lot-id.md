@@ -111,3 +111,6 @@ Quando si utilizza il campo **ID lotto resi** in una riga ordine di reso per spe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Talvolta, potrebbe essere necessario verificare manualmente il limite di credito
 1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**. Fare doppio clic su un ordine cliente.
 
 2.  Nella scheda **Gestione** del riquadro azioni del modulo **Ordine cliente**, fare clic su **Verifica limite di credito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

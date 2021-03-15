@@ -945,3 +945,6 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

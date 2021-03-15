@@ -59,3 +59,6 @@ Quando viene registrato un ordine cliente, viene registrato automaticamente un i
 
 > [!NOTE]
 > A fini di confronto, se si seleziona la casella di controllo **Includi valore fisico** per questo articolo, quando si registra un ordine cliente, l'importo costi registrato sarà 12,00 EUR.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

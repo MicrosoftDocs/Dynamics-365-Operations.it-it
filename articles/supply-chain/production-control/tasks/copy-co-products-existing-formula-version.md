@@ -53,3 +53,6 @@ Questa procedura mostra come copiare i co-prodotti da una versione di formula es
 6. Fare clic su OK.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

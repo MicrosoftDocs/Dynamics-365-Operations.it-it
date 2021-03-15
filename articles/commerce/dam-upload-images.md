@@ -96,3 +96,6 @@ Per caricare in blocco una cartella di immagini in Creazione di siti Web, attene
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

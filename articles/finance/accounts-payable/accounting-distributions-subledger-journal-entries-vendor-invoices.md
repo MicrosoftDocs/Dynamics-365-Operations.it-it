@@ -249,3 +249,6 @@ L'inserimento nel giornale di registrazione secondario non può essere modificat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

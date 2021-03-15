@@ -115,3 +115,6 @@ A meno che un particolare requisito normativo non richieda l'utilizzo delle sequ
 In caso di un'interruzione dell'alimentazione, di un errore dell'applicazione o di altri problemi imprevisti, i numeri per le sequenze numeriche continue non possono essere riciclati automaticamente. È possibile eseguire il processo di pulitura manualmente o automaticamente per recuperare i numeri persi.
 
 Si consideri attentamente l'utilizzo del server quando si pianifica il processo di pulitura. È consigliabile eseguire la pulitura come processo batch nelle ore di attività meno intense.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

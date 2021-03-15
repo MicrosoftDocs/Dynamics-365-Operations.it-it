@@ -117,3 +117,6 @@ Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito**,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

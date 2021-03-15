@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 "termine di ricerca"
 oppure
 
 site:msdn.microsoft.com dynamics ax 2012 “termine di ricerca”
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ Agli addetti del punto vendita viene richiesto di selezionare una stazione hardw
 - [Configurare l'app POS Hybrid su Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Panoramica sul supporto delle periferiche di rete](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Questa guida attività consentirà di creare una fattura fornitore da un ordine 
 19. Fare clic su **Registra**.
 20. Chiudere il modulo. Si noti che l'ordine fornitore non è più elencato come ricevuto ma come non fatturato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

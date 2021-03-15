@@ -34,3 +34,6 @@ L'app Dynamics 365 Supply Chain Management - Magazzino è stata testata con una 
 
 Ai clienti si consiglia di testare l'app di scansione per dispositivi mobili Magazzino con l'hardware selezionato prima di decidere quale hardware acquistare.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

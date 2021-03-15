@@ -105,3 +105,6 @@ Durante il test delle funzionalità di anteprima o di nuove funzionalità, è po
 [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Criteri del ciclo di vita del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

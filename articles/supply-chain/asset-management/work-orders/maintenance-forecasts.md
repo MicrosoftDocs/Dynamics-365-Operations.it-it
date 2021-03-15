@@ -123,3 +123,6 @@ Se i costi delle ore, i costi degli articoli e le spese vengono aggiornati in al
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Aggiorna previsione ordine di lavoro**.
 
 ![Figura 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

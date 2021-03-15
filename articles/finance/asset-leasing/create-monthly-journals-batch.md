@@ -36,3 +36,6 @@ Per configurare un processo batch o per elaborare fatture di pagamento, ammortam
 > Le transazioni successive, come piani di ammortamento delle passività, pagamenti, ammortamenti e spese, verranno contabilizzati solo dopo la registrazione iniziale per i leasing corrispondenti.
 >
 > Le scritture contabili vengono create, ma non verranno registrate finché non selezioni il comando **Esegui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

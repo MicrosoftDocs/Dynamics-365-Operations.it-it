@@ -57,3 +57,6 @@ Se viene anche inserito un valore **Percentuale spese**, nel calcolo vengono uti
 ![Calcolo spese](media/emea-ita-exil-misc-charge-kg-pic2.jpg)
 
 Per ulteriori informazioni, vedere [Trasferire le transazioni a Intrastat](tasks/transfer-transactions-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

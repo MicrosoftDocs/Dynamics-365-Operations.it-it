@@ -102,3 +102,6 @@ In genere, il magazzino di uscita e l'ubicazione di un gruppo di risorse in cont
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

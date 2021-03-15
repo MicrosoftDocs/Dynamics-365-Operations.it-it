@@ -46,3 +46,6 @@ Questo articolo descrive come usare i codici a barre in Dynamics 365 Commerce.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Impostare le maschere codice a barre](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

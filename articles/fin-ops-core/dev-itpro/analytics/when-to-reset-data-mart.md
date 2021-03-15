@@ -54,3 +54,6 @@ In alcune circostanze non è consigliabile reimpostare un data mart, tra cui le 
 > I seguenti punti specificano due cose che il ripristino di un data mart *non* fa. <br>
 > - I ripristini non cancellano le progettazioni di report. <br>
 > - I ripristini non cancellano i dati della società o dei dati dell'utente a meno che non siano selezionati.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

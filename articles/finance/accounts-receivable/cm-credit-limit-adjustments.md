@@ -123,3 +123,6 @@ I flussi di lavoro **Correzioni del limite di credito** possono essere utilizzat
 
 > [!NOTE]
 > Quando si crea il flusso di lavoro **Correzioni del limite di credito**, è possibile configurarlo di modo che le correzioni siano registrate automaticamente dopo l'approvazione delle righe. Includere l'attività **Registra giornale automaticamente** nel flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

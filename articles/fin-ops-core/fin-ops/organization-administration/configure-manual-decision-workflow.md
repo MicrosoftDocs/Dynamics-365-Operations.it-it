@@ -350,3 +350,6 @@ Per prendere la decisione in un periodo di tempo specifico, effettuare le operaz
     - **Anni**: selezionare il giorno, la settimana e il mese entro i quali prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione entro il venerdì della terza settimana di dicembre.
 
 4. Se viene superato il limite di tempo, la decisione verrà presa dal sistema. Nell'elenco **Azione** selezionare l'opzione che dovrà essere selezionata dal sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

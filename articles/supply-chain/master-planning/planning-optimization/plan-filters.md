@@ -58,3 +58,6 @@ Viene impostato un filtro del piano che include gli articoli A, B e C. Le esecuz
 [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

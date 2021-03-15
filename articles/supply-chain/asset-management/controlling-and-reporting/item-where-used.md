@@ -70,3 +70,6 @@ Nella schermata seguente, viene visualizzato un esempio di un calcolo Utilizzo d
 
 ![Esempio di calcolo Utilizzo dell'articolo](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

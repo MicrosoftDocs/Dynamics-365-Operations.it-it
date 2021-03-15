@@ -62,3 +62,6 @@ Gli utenti di Commerce Headquarters possono esaminare i valori delle proprietà 
 [Configura il metodo di pagamento dell'account cliente per i siti Web di e-commerce B2B](payment-method.md)
 
 [Impostare limiti di quantità di prodotti per i siti di e-commerce B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

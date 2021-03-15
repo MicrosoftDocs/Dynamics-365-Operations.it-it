@@ -64,3 +64,6 @@ Nella seguente procedura viene descritta la relazione tra cespiti, ordini di lav
 
 7. Per visualizzare una panoramica dei progetti associati a un cespite, selezionare **Cespiti** > **Cespiti** > **Cespiti**, quindi nel campo **Numero cespite**, selezionare il collegamento del cespite per aprire la visualizzazione dei dettagli. Espandere il riquadro **Informazioni correlate** sul lato destro della pagina e selezionare la scheda dettaglio **Progetti associati**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

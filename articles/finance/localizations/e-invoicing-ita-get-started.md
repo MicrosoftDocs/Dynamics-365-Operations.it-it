@@ -245,3 +245,6 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 - [Panoramica del componente aggiuntivo per la fatturazione elettronica](e-invoicing-service-overview.md)
 - [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md)
 - [Configurare il componente aggiuntivo per la fatturazione elettronica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

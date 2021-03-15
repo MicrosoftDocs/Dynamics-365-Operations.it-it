@@ -43,3 +43,6 @@ In questa procedura viene illustrato come creare un nuovo stato del ciclo di vit
 5. Nell'elenco contrassegnare la riga selezionata.
 6. Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

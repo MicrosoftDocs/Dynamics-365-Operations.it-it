@@ -66,3 +66,6 @@ Ora il tipo di unità funzionale predefinito da utilizzare solo per una unità f
 
 >[!NOTE] 
 >Nella Scheda dettaglio **Generale**, è possibile ottenere una panoramica del numero di tipi di cespite, i piani di manutenzione, i requisiti di attributo cespite, tipi consentiti, gli attributi e le unità funzionali impostate per il tipo di unità funzionale. Nel campo **Unità funzionali** viene visualizzato il numero di unità funzionali che utilizzano il tipo di unità funzionale. È possibile utilizzare il pulsante **Copia** per copiare le impostazioni da un tipo di unità funzionale al tipo di unità funzionale selezionato.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

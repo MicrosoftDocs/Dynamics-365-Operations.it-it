@@ -40,3 +40,6 @@ La procedura di pagamento della ritenuta d'acconto liquida i saldi delle ritenut
 7. Fare clic su **OK**.
 
 ![Parametri per il pagamento della ritenuta d'acconto](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

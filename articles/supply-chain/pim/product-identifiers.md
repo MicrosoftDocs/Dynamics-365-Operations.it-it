@@ -189,3 +189,6 @@ Per configurare l'ambiente, attenersi a questa procedura.
 ## <a name="related-topic"></a>Argomento correlato
 
 [Ricerca di prodotti e varianti prodotto durante la registrazione ordine](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

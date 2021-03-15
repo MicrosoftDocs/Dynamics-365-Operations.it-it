@@ -115,3 +115,6 @@ L'evasione della transazione del fabbisogno di scorte di sicurezza perde priorit
 Durante la fase di copertura della pianificazione generale, il rifornimento delle scorte di sicurezza non perderà più priorità. Le scorte disponibili in magazzino possono essere utilizzate prima di qualsiasi altro tipo di domanda. Durante il calcolo del ritardo, verrà aggiunta nuova logica per superare le righe di vendita con ritardo, il fabbisogno della riga DBA e tutti gli altri tipi di domanda, per determinare se possono essere consegnati in tempo, a condizione che vengano utilizzate le scorte di sicurezza. Se il sistema determina che può ridurre al minimo i ritardi usando le scorte di sicurezza, le righe di vendita o DBA sostituiranno la relativa copertura iniziale con le scorte di sicurezza e il sistema attiverà invece il rifornimento per le scorte di sicurezza.
 
 Se il piano o l'articolo non è impostato per il calcolo con ritardo, il vincolo delle scorte di sicurezza avrà la stessa avrà priorità di eventuali altri tipi di domanda. Ciò significa che è presente una prenotazione delle scorte disponibili e di altre scorte disponibili prima di altri tipi di domanda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

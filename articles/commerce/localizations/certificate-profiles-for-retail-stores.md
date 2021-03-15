@@ -121,3 +121,6 @@ Se viene introdotta una nuova versione del certificato, ma non può essere aggio
 
 > [!NOTE]
 > Nel runtime di Commerce, verrà chiamata dapprima la nuova versione del certificato. Se il certificato non è stato ancora aggiornato in un punto vendita specifico o su un terminale specifico, verrà chiamata la versione precedente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

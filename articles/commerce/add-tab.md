@@ -83,3 +83,6 @@ Per aggiungere un modulo Scheda a una pagina e impostare le proprietà, effettua
 [Modulo Accordion](add-accordion.md)
 
 [Modulo blocco testo](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Questa procedura illustra come impedire che scorte fisiche disponibili vengano p
 2. Fare clic su **Sì**.
 3. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

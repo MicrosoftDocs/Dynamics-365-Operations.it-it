@@ -80,3 +80,6 @@ Indipendentemente dall'esecuzione del mapping dei conti, deselezionare la casell
 
 > [!NOTE]
 > Puoi utilizzare questo metodo per creare un piano dei conti nella persona giuridica consolidata dal piano dei conti in una delle persone giuridiche affiliate. Per ulteriori informazioni, vedi [Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi](../budgeting/consolidation-account-groups-consolidation-accounts.md). Quindi assegna un principio di conversione del consolidamento appropriato a ciascun conto principale consolidato ed esegui il consolidamento per tutte le entità giuridiche affiliate.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

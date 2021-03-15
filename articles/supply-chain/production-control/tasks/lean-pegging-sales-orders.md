@@ -56,3 +56,6 @@ La procedura riguarda la convalida della struttura di pegging da una riga di ven
 5. Nella struttura, selezionare 'Riga di vendita 000832\Kanban 000558\Uscita per L0001\Kanban 000559'.
     * Anche il processo per il secondo kanban viene pianificato perché l'intera struttura di pegging è pianificata. Si noti che lo stato del processo kanban è cambiato da Non pianificato a Pianificato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

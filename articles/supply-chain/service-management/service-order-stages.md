@@ -46,3 +46,6 @@ Quando si imposta una fase di assistenza, è possibile creare più opzioni, o pi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

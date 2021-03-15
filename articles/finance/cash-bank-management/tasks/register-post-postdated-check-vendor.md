@@ -55,3 +55,6 @@ Il ruolo dell'attività è Tesoriere. In questa attività viene utilizzata la so
 16. Chiudere la pagina.
 17. Fare clic sulla scheda Assegni postdatati.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

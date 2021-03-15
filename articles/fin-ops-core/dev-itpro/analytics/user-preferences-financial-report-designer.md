@@ -72,3 +72,6 @@ In questo articolo viene spiegato come impostare le preferenze utente per person
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

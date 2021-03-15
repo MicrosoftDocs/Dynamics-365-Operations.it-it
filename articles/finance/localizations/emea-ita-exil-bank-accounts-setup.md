@@ -75,3 +75,6 @@ Quando la funzione di miglioramento della configurazione del conto bancario è a
 Durante la configurazione di un conto bancario, sono disponibili campi descrittivi aggiuntivi per i gruppi bancari che consentono una selezione più precisa di una banca.
 
 ![Campi descrittivi aggiuntivi in una configurazione del conto bancario](media/emea-ita-exil-bank-pic2.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

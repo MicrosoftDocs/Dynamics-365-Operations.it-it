@@ -100,3 +100,6 @@ Per configurare un importo personalizzato per una gift card digitale in Creazion
 [Creare un profilo funzionalità online](online-functionality-profile.md)
 
 [Supporto per gift card esterne](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

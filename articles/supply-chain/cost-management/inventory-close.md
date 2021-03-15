@@ -86,3 +86,6 @@ Talvolta potrebbe essere necessario stornare una chiusura dell'inventario comple
 > [!NOTE] 
 > È possibile riaprire solo l'ultimo inventario. Per stornare una chiusura dell'inventario precedente, è necessario stornare singolarmente ogni successiva chiusura dell'inventario, a partire dalla chiusura più recente.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

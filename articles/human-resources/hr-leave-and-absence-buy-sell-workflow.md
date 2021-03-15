@@ -81,3 +81,6 @@ Questi esempi mostrano come è possibile creare diversi tipi di condizioni di fl
 [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)<br>
 [Gestire i criteri di acquisto e vendita congedo](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

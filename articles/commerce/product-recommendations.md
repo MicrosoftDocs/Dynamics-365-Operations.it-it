@@ -87,3 +87,6 @@ La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzat
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

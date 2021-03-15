@@ -154,3 +154,6 @@ Se si tenta di usare l'app del magazzino per eseguire un lavoro di prelievo per 
 ## <a name="other-blocked-operations"></a>Altre operazioni bloccate
 
 Tutte le operazioni che modificano le righe di lavoro, le transazioni di inventario del lavoro o i collegamenti di rifornimento correlati al lavoro che viene suddiviso non avranno esito positivo e verrà visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

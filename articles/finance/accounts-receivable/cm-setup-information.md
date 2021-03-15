@@ -152,3 +152,6 @@ Attenersi alla seguente procedura per aggiungere righe che rappresentano il limi
 2. Selezionare l'operatore di confronto che definisce come valutare le informazioni del gruppo di punteggio.
 3. Immettere il valore che deve essere confrontato al valore specificato per il gruppo di punteggio.
 4. Immettere il limite di credito che deve essere assegnato se le informazioni sul cliente corrispondono al valore specificato per il gruppo di punteggio. Ad esempio, si crea un limite di credito automatico per il gruppo di punteggio **Basso**. Se gli anni di attività sono uno dei gruppi di punteggio, è possibile definire una riga che assegna un limite di credito di 100.000 se il cliente è in attività da cinque anni e un'altra riga che assegna un limite di credito di 200.000 se il cliente è in attività da 10 anni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

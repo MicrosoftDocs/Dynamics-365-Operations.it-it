@@ -51,3 +51,6 @@ In questo argomento viene illustrato come impostare prezzi basati su attributi. 
 8. Nel campo **Espressione** digitare un valore. Ad esempio, digitare `50`. 
 9. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

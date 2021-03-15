@@ -119,3 +119,6 @@ Questa procedura mostra come impostare un nuovo processo di rifornimento che uti
 11. Fare clic su **OK**.
 12. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 8. Deselezionare la casella di controllo Ubicazione.
 9. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

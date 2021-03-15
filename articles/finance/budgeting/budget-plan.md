@@ -246,3 +246,6 @@ C. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Confi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

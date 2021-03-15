@@ -72,3 +72,6 @@ Se si desidera utilizzare informazioni del ciclo di lavorazione per la determina
 
 [Impostare prodotti che possono essere prodotti o ottenuti](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

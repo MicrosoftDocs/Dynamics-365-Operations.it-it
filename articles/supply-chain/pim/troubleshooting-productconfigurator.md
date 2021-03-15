@@ -74,3 +74,6 @@ Sarà quindi possibile aggiunger i calcoli riportati di seguito:
 
 - *Risultato decimale* = *Input* × *Percentuale* ÷ 100
 - *Risultato intero* = *Risultato decimale*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

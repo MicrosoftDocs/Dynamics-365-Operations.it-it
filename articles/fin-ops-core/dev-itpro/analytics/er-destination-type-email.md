@@ -139,3 +139,6 @@ La seguente illustrazione mostra il processo, come descritto in questo argomento
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

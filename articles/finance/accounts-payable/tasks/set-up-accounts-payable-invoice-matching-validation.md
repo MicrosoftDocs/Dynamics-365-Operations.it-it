@@ -97,3 +97,6 @@ Andare a **Contabilità fornitori > Impostazioni > Impostazione abbinamento fatt
 
 1. Per specificare tolleranze per singoli fornitori che sostituiscano la tolleranza predefinita, selezionare un **Conto fornitore**.
 2. Immettere la percentuale di scostamento accettata per questo fornitore.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

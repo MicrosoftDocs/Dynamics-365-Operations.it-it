@@ -89,3 +89,6 @@ Per impostare una connessione a doppia scrittura effettuare le seguenti operazio
 > [!NOTE]
 > Non è possibile scollegare gli ambienti utilizzando LCS. Per scollegare un ambiente, aprire l'area di lavoro **Integrazione dei dati** nell'ambiente Finance and Operations, quindi selezionare **Scollega**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

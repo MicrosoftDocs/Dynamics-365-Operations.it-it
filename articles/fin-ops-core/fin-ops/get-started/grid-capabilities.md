@@ -293,3 +293,6 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo grigli
 ### <a name="quality-update-for-1009platform-update-33"></a>Aggiornamento di qualità per 10.0.9/Aggiornamento della piattaforma 33
 
 - [KB 4550367] L'ora non è formattata correttamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

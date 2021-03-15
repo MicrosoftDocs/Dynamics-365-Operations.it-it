@@ -52,3 +52,6 @@ Verifica che le misure "Misura flusso di cassa V2" e "LedgerCovLiquidityMeasurem
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Le entità dell'archivio entità sono state aggiornate?
 
 È necessario aggiornare periodicamente le entità per garantire che i dati siano aggiornati e accurati. Per aggiornare manualmente un'entità specifica, vai a **Amministrazione di sistema \> Impostazione \> Archivio entità**, seleziona l'entità e quindi seleziona **Aggiorna**. I dati possono anche essere aggiornati automaticamente. Nella pagina **Archivio entità** imposta l'opzione **Aggiornamento automatico abilitato** su **Sì**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

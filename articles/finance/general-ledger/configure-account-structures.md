@@ -106,3 +106,6 @@ Quando si impostano le strutture dei conti esistono alcune procedure consigliate
 Quando si è soddisfatti della nuova impostazione o di una modifica della struttura dei conti, è necessario attivarla. Se una struttura dei conti è assegnata a una contabilità generale, questa attivazione può essere un processo lungo, in quanto tutte le transazioni non registrate nel sistema devono essere sincronizzate con la nuova struttura. Le transazioni registrate non vengono influenzate dalle modifiche della struttura dei conti.
 
 Per ulteriori informazioni, vedere [Definire il piano dei conti](plan-chart-of-accounts.md), [Dimensioni finanziarie](financial-dimensions.md) e [Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

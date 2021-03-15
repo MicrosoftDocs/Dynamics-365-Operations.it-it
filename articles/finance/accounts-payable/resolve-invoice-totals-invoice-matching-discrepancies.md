@@ -43,3 +43,6 @@ Dopo aver identificato la discrepanza, potrebbe essere necessario contattare il 
 Per ulteriori informazioni, vedere [Cercare/Risolvere eccezioni](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Le configurazioni create dal sistema verranno eliminate e scaricate nuovamente d
 26. Nella struttura espandere "Sample data model".
     * Si noti che la configurazione di mapping "Mapping di esempio" del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
     * Se si accede a Finance and Operations, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

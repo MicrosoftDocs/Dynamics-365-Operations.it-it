@@ -61,3 +61,6 @@ I lavoratori possono effettuare diversi tipi di registrazioni in esecuzione prod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

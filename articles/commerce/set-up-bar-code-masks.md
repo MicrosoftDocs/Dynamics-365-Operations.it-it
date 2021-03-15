@@ -82,3 +82,6 @@ Le maschere codice a barre devono essere assegnate ai codici a barre prima di po
 5. Fare clic su **Salva**.
 
 La maschera codice a barre può ora essere utilizzata per creare codici a barre per prodotti. I passaggi precedenti sono esempi che illustrano come creare maschere codice a barre per prodotti, ma descrivono anche come creare maschere codice a barre per qualsiasi altro tipo di codice a barre supportato. Le maschere, i tipi e le lunghezze dei codici a barre devono essere modificati in base all'utilizzo nell'ambiente specifico.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

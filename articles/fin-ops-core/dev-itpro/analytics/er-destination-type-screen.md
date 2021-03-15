@@ -38,3 +38,6 @@ Se si imposta **Abilitato** su **SÃ¬**, viene creata un'anteprima dell'output. Ã
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

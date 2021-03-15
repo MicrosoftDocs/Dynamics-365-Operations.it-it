@@ -106,3 +106,6 @@ Considerare i seguenti requisiti di implementazione quando si pianificano e si g
 - **Vendite e resi esterni agli assortimenti** - Questa funzionalità aiuta i rivenditori a gestire con efficacia gli assortimenti consentendo loro di limitare i prodotti disponibili a quelli appartenenti alla combinazione di prodotti di base per il punto vendita. Questa funzione consente inoltre ai rivenditori di gestire situazioni in cui un prodotto è stato omesso erroneamente da un assortimento o in cui un prodotto viene restituito al di fuori delle date di validità per l'assortimento.
 
 Se i dati del prodotto non sono presenti nel database del canale, il POS effettua le chiamate in tempo reale alla sede centrale per recuperare le informazioni necessarie, in modo che il prodotto possa essere venduto, restituito o aggiunto a un ordine cliente. Le informazioni sul prodotto recuperate in questo modo sono disponibili solo nell'ambito della transazione. Il prodotto non viene aggiunto alla definizione dell'assortimento. Di conseguenza, le chiamate in tempo reale successive verranno eseguite in base alle esigenze.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

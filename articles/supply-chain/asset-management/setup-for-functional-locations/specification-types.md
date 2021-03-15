@@ -63,3 +63,6 @@ Gli attributi impostabili variano in base all'elemento. Ad esempio, per una unit
 9. Salvare il record.
 
     Nel campo **Tipi di unità funzionali** viene visualizzato il numero di unità funzionali che utilizzano il tipo di attributo. Nel campo **Tipi di cespite** viene visualizzato il numero di tipi di cespite che lo utilizzano.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

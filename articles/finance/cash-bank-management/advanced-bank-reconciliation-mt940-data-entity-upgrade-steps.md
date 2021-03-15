@@ -63,3 +63,6 @@ Effettuare le seguenti operazioni per aggiungere l'entità importazione rendicon
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

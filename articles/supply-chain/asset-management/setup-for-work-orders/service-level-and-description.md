@@ -55,3 +55,6 @@ Quando si crea un ordine di lavoro, è possibile che si voglia definire i relati
 2. Selezionare **Nuovo**.
 3. Nel campo **Descrizione** immettere la descrizione.
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

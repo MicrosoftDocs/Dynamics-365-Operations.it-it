@@ -95,3 +95,6 @@ Quando si crea un ordine cliente per merci consegnate gratuitamente, il motivo d
 La stampa della fattura mostrerà il titolo **Fattura gratuita**. Inoltre, agli articoli verrà aggiunto il prefisso **Articolo gratuito:** se il flag **Merci gratuite** è attivo sul motivo di consegna utilizzato per l'ordine.
 
 ![Stampa della fattura gratuita](media/emea-ita-exil-free-tax-invoice-printout.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

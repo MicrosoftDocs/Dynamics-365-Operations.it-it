@@ -101,3 +101,6 @@ I modelli di record possono risultare utili per creare più rapidamente i record
 - [Configurare la gestione dei documenti](configure-document-management.md)
 - [Configurare e inviare messaggi di posta elettronica](configure-email.md)
 - [Dati di data/ora e fusi orari](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

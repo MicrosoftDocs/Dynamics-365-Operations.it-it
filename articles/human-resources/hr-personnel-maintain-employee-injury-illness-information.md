@@ -93,3 +93,6 @@ Questa registrazione attività copre i passaggi fondamentali per la creazione di
 36. Fare clic su Salva.
     * Lo stato del caso può essere aggiornato in qualsiasi momento.  Impostare il caso su In corso se l'elaborazione dell'infortunio o della malattia è ancora in corso.  Una volta chiuso l'incidente, è possibile solo aggiungere o rimuovere solo i costi, i trattamenti o le archiviazioni relative all'incidente.  Per modificare altre informazioni, riaprire il caso.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Questa procedura mostra come creare una nuova rappresentazione generale prodotto
     * Selezionare la tecnologia di configurazione basata su dimensioni.  
 9. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

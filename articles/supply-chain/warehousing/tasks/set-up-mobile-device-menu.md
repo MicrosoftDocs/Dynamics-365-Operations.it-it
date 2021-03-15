@@ -68,3 +68,6 @@ In questo argomento viene illustrato mostra come impostare una voce di menu Disp
 5. Selezionare la freccia rivolta verso destra.
 6. Selezionare **Salva**.
 7. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

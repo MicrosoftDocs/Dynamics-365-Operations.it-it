@@ -69,3 +69,6 @@ Ad esempio, attenersi alla procedura descritta di seguito.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

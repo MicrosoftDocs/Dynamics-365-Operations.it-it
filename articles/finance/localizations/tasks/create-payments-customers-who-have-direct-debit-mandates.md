@@ -67,3 +67,6 @@ Si tratta della quinta di cinque procedure che illustrano il processo di pagamen
 11. Fare clic su OK.
 12. Fare clic su OK.
 13. Fare clic su Crea pagamenti.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

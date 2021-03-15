@@ -167,3 +167,6 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 [I video tecnologici relativi a FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) forniscono a clienti e partner informazioni tecniche e best practice specifiche delle aree disciplinari.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

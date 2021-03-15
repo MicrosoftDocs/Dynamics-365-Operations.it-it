@@ -276,3 +276,6 @@ Per visualizzare il contenuto di un riconoscimento del fornitore o di una rispos
 
 - [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

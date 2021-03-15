@@ -97,3 +97,6 @@ Sugli smartphone e altri piccoli schermi, i controlli e il layout del modulo si 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Istruzioni per aiutare gli sviluppatori e i clienti a incorporare i concetti di accessibilità nelle proprie personalizzazioni
 
 Per ulteriori informazioni sulle procedure consigliate da Microsoft per consentire all'accessibilità, vedere [Accessibilità per moduli, prodotti e controlli](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

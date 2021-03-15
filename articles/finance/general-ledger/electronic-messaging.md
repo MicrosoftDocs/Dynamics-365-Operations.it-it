@@ -535,3 +535,6 @@ La griglia nella scheda Dettaglio **Registro azioni** viene automaticamente riem
 ![Aggiornare lo stato del messaggio](media/update-status.png)
 
 Lo stato del messaggio viene aggiornato a **Preparato** ed è possibile generare il report selezionando **Genera report**. Il report viene generato e lo stato del messaggio e il registro delle azioni del vengono aggiornati. Per visualizzare il report generato, selezionare il pulsante **Allegato** (il simbolo di graffetta) nell'angolo superiore destro della pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Per configurare un'operazione POS in modo che possa essere collegata a un'attivi
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
 
 [Gestione delle attività in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Dopo aver attivato e impostato la funzionalità, il report sulla fattura stampat
 
 > [!NOTE]
 > Il nuovo layout è applicabile solo alle fatture basate su ordini cliente. Non è applicabile alle fatture a testo libero, poiché non utilizzano documenti di trasporto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

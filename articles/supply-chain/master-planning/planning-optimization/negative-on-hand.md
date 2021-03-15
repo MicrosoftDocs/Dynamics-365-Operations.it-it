@@ -86,3 +86,6 @@ Il risultato è un ordine pianificato di 25 pz. (= 25 pz. &minus; 0 pz.) per ric
 [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

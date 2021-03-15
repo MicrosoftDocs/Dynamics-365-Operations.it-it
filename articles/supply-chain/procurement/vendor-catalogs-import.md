@@ -69,3 +69,6 @@ Il modello di file di importazione catalogo è un file XSD utilizzabile per crea
 3. Nella finestra di dialogo **Salva con nome** selezionare il percorso in cui si desidera archiviare il modello di file di catalogo e salvare il file.
 
 Per esempi e ulteriori informazioni, vedere questo post di blog: [Cataloghi fornitore in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

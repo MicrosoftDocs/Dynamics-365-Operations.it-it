@@ -79,3 +79,6 @@ Nella pagina elenco **Tutti i cespiti**, è possibile stampare un report degli e
 >[!NOTE]
 >Per stampare un report degli errori per vari cespiti o tipi di cespite, selezionare **Gestione cespiti** > **Report** > **Cespiti** > **Errore di cespite**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

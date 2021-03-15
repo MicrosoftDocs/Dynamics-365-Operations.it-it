@@ -147,3 +147,6 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 4. Fare clic su Completa.
 5. Fare clic su OK.
 ![Pagina della progettazione mapping modello di ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

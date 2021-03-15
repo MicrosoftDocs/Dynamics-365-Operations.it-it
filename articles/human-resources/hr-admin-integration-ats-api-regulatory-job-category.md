@@ -49,3 +49,6 @@ Questa enumerazione specifica il set di opzioni per i valori del set di opzioni 
 
 [Introduzione all'API di integrazione del sistema di tracciabilità dei candidati](hr-admin-integration-ats-api-introduction.md)<br>
 [Query di esempio per la richiesta di selezione](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

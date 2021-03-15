@@ -310,3 +310,6 @@ Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati
 È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&).
 
 Nel campo **Collegamento a dimensioni finanziarie**, è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

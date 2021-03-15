@@ -41,3 +41,6 @@ Questa procedura si applica a tutti i paesi europei. La procedura è stata creat
 7. Fare clic su Trova.
     * Tutte le parti con tale ID registrazione verranno visualizzate.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

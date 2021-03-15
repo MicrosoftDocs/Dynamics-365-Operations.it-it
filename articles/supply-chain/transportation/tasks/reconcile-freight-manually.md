@@ -60,3 +60,6 @@ Quando si esegue la riconciliazione di una fattura vettore e una fattura di tras
 5. Fare clic per seguire il collegamento nel campo Numero giornale di registrazione di riferimento.
 6. Fare clic su Righe.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Solo i lavori di tipo **Vendite**, **Uscita di trasferimento**, **Prelievo mater
 Per sbloccare il lavoro, il sistema annulla le eventuali righe di lavoro rimanenti e corregge i dati di magazzino associati all'ID lavoro specificato dall'utente. Sarà quindi possibile riprendere le normali operazioni di gestione del magazzino che riguardano la quantità dell'articolo interessata.
 
 Per stoccare l'articolo interessato in un'ubicazione specifica dopo che il lavoro è stato annullato, l'utente deve utilizzare un'operazione di movimento scorte o rettifica della quantità su un dispositivo mobile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

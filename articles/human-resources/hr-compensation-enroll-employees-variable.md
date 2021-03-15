@@ -41,3 +41,6 @@ Il responsabile di retribuzione e benefit può iscrivere i dipendenti a piani di
 8. Attivare/disattivare l'espansione della sezione Sostituzioni organizzative.
     * Se è necessario prendere in considerazione le prestazioni del dipendente, le prestazioni dei diversi reparti o un reparto diverso da quello assegnato alla posizione del dipendente, il reparto può essere sostituito. Il totale della colonna Percentuale deve ammontare a 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ oppure
 
 
 ![Elenco di metodi di pagamento](media/Return-policy-page5.PNG "Tipo di rimborso consentito")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

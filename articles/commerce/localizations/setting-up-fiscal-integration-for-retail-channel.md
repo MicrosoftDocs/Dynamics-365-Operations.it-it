@@ -225,3 +225,6 @@ Per abilitare l'esecuzione manuale di una registrazione fiscale posticipata, è 
     1. Selezionare il layout da aggiornare.
     2. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Processo di registrazione fiscale completo**.
     3. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

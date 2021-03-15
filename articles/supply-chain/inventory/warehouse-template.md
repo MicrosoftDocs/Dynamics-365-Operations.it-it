@@ -97,3 +97,6 @@ Per ulteriori informazioni su come utilizzare il modello di magazzino per copiar
 ## <a name="related-topic"></a>Argomento correlato
 
 [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

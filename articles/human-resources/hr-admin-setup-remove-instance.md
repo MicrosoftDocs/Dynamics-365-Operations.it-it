@@ -85,3 +85,6 @@ Per ripristinare l'ambiente:
 
 > [!Warning]
 > Gli ambienti Power Apps vengono salvati solo per sette giorni dopo l'eliminazione. È necessario ripristinare l'ambiente entro il periodo di sette giorni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

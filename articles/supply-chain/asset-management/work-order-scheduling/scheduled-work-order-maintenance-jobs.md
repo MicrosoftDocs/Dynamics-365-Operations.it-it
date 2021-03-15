@@ -51,3 +51,6 @@ Nella schermata seguente è illustrato un esempio della pagina **Processi di man
 
 ![Figura 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

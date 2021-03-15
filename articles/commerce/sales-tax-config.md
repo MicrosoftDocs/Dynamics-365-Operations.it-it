@@ -81,3 +81,6 @@ Per le righe ordine con ritiro nel punto vendita o al piano strada specificato, 
 
 [Calcolo dell'esenzione fiscale](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

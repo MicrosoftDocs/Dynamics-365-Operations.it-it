@@ -55,3 +55,6 @@ Verrà creato automaticamente un ordine di quarantena, a cui la persona o il rep
 
 [Specificare la modalità di smaltimento dei resi](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Per aggiungere un modulo Icona carrello, vedere [Modulo Intestazione](author-hea
 [Modulo Dettagli ordini](order-confirmation-module.md)
 
 [Modulo gift card](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

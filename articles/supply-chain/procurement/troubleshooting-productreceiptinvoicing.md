@@ -109,3 +109,6 @@ La seguente procedura mostra un modo per riprodurre il problema.
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Ciò dipende dalle impostazioni dei parametri per le fatture e i gruppi di fatture. Per ulteriori informazioni, vedi il seguente post del blog: [Contabilizzazione per spese di acquisto e variazione delle scorte](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

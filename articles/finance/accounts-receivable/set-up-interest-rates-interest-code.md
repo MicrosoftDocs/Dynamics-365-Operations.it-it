@@ -130,3 +130,6 @@ Per visualizzare versioni diverse, è possibile utilizzare l'opzione di menu **I
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

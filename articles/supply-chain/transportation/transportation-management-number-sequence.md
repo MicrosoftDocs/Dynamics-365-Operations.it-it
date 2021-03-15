@@ -48,3 +48,6 @@ Per collegare una sequenza numerica a un vettore, procedere come segue:
 1. Seleziona **Modifica**.
 1. Nella scheda dettaglio **Panoramica** selezionare un'opzione nel campo **Sequenza numerica prodotto**.
 1. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

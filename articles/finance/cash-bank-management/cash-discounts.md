@@ -65,3 +65,6 @@ Una fattura del valore di 1000 USD con termini di sconto di cassa di 20G2% viene
 > [!NOTE]
 > Se l'opzione Calcola sconti di cassa per pagamenti parziali è selezionata nei parametri di contabilità clienti o nelle pagine di parametri di contabilità fornitori, viene utilizzato il tasso di cambio in vigore alla data di ciascun pagamento parziale. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

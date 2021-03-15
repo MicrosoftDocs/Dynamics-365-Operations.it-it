@@ -77,3 +77,6 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 10. Fare clic su Salva.
 11. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

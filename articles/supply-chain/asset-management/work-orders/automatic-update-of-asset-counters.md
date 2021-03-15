@@ -69,3 +69,6 @@ Notare i punti seguenti:
 
 - È possibile impostare i contatori correlati a un altro contatore. In questo caso, quando un contatore viene aggiornato, i contatori correlati vengono aggiornati automaticamente contemporaneamente. Per ulteriori informazioni su come impostare i contatori correlati, vedere [Contatori](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

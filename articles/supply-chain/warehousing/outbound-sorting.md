@@ -666,3 +666,6 @@ Quando tutte le scorte sono state ordinate, la posizione deve essere chiusa prim
     Il lavoro è completato.
 
 Da questo momento, si applicano tutti gli altri processi di magazzino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

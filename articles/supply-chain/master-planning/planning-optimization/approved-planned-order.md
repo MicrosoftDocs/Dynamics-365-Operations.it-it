@@ -42,3 +42,6 @@ Il campo **Stato** aiuta a tracciare l'avanzamento utilizzando i seguenti valori
 - **Approvato:** se si desidera mantenere le modifiche o si prevede di confermare un ordine pianificato, modificare lo stato in *Approvato*. Gli ordini pianificati con stato *Approvato* vengono considerati come fornitura fissa e prevista dalla pianificazione generale, non vengono modificati né eliminati durante le esecuzioni di pianificazione generale successive. Per raggiungere questo obiettivo, la logica di pianificazione copia gli ordini pianificati con stato *Approvato* dalla vecchia versione del piano alla nuova versione del piano durante la pianificazione generale. Notare che gli ordini pianificati *approvati* sono considerati fornitura solo all'interno del piano generale specifico.
 
 È possibile gestire gli ordini pianificati nell'area di lavoro **Pianificazione generale**, nell'elenco **Ordine pianificato** o negli elenchi **Ordini di produzione pianificati**, **Ordini fornitore pianificati** e **Trasferimento pianificato**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

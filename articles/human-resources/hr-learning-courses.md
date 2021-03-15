@@ -137,3 +137,6 @@ I dipendenti registrati per un corso tramite la pagina **Dipendente self-service
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4826396"
 
 > [!IMPORTANT] 
 > Il rispetto delle regole per la separazione dei compiti non viene verificato quando si crea una regola. È possibile creare una regola che crei un conflitto per i ruoli esistenti. Anche le assegnazioni di ruoli utente esistenti possono essere in conflitto con la nuova regola. È necessario convalidare la conformità dopo aver creato o modificato una regola. Per altre informazioni, vedere [Identificare e risolvere conflitti di separazione dei compiti](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

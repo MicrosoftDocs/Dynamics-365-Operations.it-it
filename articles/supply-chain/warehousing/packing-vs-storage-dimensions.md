@@ -133,3 +133,6 @@ In questo processo creerai una spedizione basata sulle dimensioni di *imballaggi
 1. Aprire il dispositivo mobile, accedere al magazzino 63 e passare a **Inventario \> Rettifica in entrata**.
 1. Immettere **Ubicazione** = *SHORT-01*. Creare una nuova targa con **Articolo** = *A0001* e **Quantità** = *1 pz*.
 1. Selezionare **OK**. Riceverai l'errore "Ubicazione SHORT-01 non riuscita perché l'articolo A0001 non si adatta alle dimensioni specificate dell'ubicazione." Questo perché le dimensioni del tipo di *Immagazzinamento* del prodotto sono maggiori delle dimensioni specificate nel profilo di ubicazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

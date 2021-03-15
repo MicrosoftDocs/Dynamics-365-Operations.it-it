@@ -59,3 +59,6 @@ Il valore predefinito per **Numero di elementi del flusso di lavoro per batch** 
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Che cos'è la funzionalità di errore avanzato del flusso di lavoro?
 La funzionalità di errore avanzato del flusso di lavoro nella versione 10.0.13 aggiunge codici di errore per differenziare classi diverse di errori del flusso di lavoro. I messaggi di errore riportati saranno per lo più simili con piccole differenze per renderli più chiari.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

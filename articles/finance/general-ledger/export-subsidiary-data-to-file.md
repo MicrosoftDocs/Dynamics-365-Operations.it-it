@@ -70,3 +70,6 @@ Usi la pagina **Esporta** (**Amministrazione di sistema \> Aree di lavoro \> Imp
 5. Seleziona **OK** per eseguire l'esportazione.
 
 Al termine dell'esportazione, verrà visualizzato un messaggio con il numero di record salvati in ogni file. È quindi possibile importare i file nella persona giuridica consolidata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

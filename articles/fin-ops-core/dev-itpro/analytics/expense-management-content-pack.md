@@ -93,3 +93,6 @@ Il contenuto include un set di pagine di report. Ciascuna pagina è costituita d
 | Statistiche dipendenti | Note spese per tipo di costo            |
 |                     | Spese personali                       |
 |                     | Note spese per gruppo di statistiche     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

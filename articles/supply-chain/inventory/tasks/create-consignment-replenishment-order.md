@@ -61,3 +61,6 @@ In questo argomento viene illustrato come creare un ordine di rifornimento spedi
 3. Selezionare **Panoramica**. Gli articoli ricevuti come inventario di spedizione di proprietà del fornitore sono scorte disponibili. La quantità rimanente nell'ordine di rifornimento spedizione è indicata nel campo **Ordinata in totale**.  
 4. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

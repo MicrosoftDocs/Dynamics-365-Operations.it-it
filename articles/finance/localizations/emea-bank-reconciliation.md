@@ -58,3 +58,6 @@ Oltre a un rendiconto bancario, le banche possono generare messaggi specifici, c
 -   Risposta (SWE) BankGirot - Formato di risposta pagamenti fornitori che corrisponde al formato di esportazione Bankgirot
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Questa procedura mostra come impostare un'assegnazione delle spese accessorie. L
 14. Nel campo Commissioni accessorie immettere un numero.
 15. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

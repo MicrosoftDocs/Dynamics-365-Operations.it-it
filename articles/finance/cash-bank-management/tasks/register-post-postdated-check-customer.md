@@ -49,3 +49,6 @@ ms.locfileid: "4995292"
 15. Fare clic su Registra.
 16. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le mis
 | Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
 | Anni fiscali                       | Anno di calendario                                                                                                        |
 | Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

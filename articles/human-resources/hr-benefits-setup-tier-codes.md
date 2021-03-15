@@ -41,3 +41,6 @@ Dynamics 365 Human Resources utilizza codici di livello con tassi di benefit che
    | **Descrizione** | Una descrizione del codice di livello benefit. |
 
 4. Selezionare **Salva**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

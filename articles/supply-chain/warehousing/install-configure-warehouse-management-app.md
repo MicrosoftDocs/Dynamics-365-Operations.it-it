@@ -289,3 +289,6 @@ Se un dispositivo è perso o compromesso, è necessario rimuovere l'accesso a Su
 1. Assicurati che l'ID client dell'applicazione corrisponda all'ID client annotato nel passaggio 2.
 1. Sulla barra degli strumenti, seleziona **Elimina**.
 1. Nel messaggio di conferma visualizzato, seleziona **Sì**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

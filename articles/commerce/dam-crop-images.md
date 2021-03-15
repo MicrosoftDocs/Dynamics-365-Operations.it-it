@@ -65,3 +65,6 @@ Al termine del ritaglio personalizzato, le modifiche alle immagini avranno effet
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

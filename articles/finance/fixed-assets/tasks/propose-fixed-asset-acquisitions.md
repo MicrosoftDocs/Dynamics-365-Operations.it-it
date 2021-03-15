@@ -42,3 +42,6 @@ Questa argomento descrive come acquisire un cespite utilizzando la proposta di a
 - Solo i cespiti con la data di acquisizione e il prezzo di acquisizione impostati sul libro verranno inclusi nella proposta di acquisizione.  
 11. Nella pagina, selezionare la scheda **Libri**.
 12. Selezionare **Registra**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

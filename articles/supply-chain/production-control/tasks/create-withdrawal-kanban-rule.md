@@ -63,3 +63,6 @@ Questa procedura illustra l'impostazione necessaria per creare una regola kanban
     * Ciò creerà due kanban.  
     * 2 kanban, ciascuno per 5, sono stati creati per questa regola kanban di prelievo.  Si tratta dell'ultimo passaggio di questa procedura.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

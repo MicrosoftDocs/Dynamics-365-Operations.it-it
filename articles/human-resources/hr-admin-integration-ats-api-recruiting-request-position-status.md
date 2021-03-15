@@ -41,3 +41,6 @@ Questa enumerazione fornisce l'opzione impostata per i valori di stato di ciascu
 
 [Introduzione all'API di integrazione del sistema di tracciabilità dei candidati](hr-admin-integration-ats-api-introduction.md)<br>
 [Query di esempio per la richiesta di selezione](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

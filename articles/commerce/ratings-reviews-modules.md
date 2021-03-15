@@ -99,3 +99,6 @@ Il modulo Elenco recensioni prodotti include uno slot in cui è possibile aggiun
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

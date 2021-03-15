@@ -47,3 +47,6 @@ Quando un kanban viene svuotato per errore o un kanban ricevuto deve essere svuo
 2. Nell'elenco contrassegnare la riga selezionata.
     * Lo stato dell'unità movimentazione è Svuotato.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

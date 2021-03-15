@@ -128,3 +128,6 @@ Quando si seleziona il riquadro **Modifiche agli indirizzi**, una nuova pagina m
 > Se si desidera ricevere un avviso o un'e-mail su queste modifiche agli indirizzi, è possibile creare una nuova regola di avviso nella scheda **Opzioni** del riquadro azioni. Per ulteriori informazioni sulle regole di avviso, vedere [Creare regole di avviso](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > Se si desidera configurare un flusso di lavoro per le modifiche agli indirizzi, è possibile selezionare l'opzione **Invia esternamente** nella regola di avviso, quindi utilizzare Power Automate per attivare l'evento aziendale e configurare un flusso di lavoro. Per ulteriori informazioni, vedere [Avvisi come eventi aziendali](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

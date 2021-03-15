@@ -100,3 +100,6 @@ Questa procedura è destinata ai contabili.
 7. Fare clic su OK.
 8. Selezionare 'Chiuso' nel campo Selezione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

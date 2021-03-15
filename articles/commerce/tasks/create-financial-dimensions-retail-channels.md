@@ -54,3 +54,6 @@ In questa procedura vengono descritti i passaggi per creare una dimensione finan
 24. Nell'elenco fare clic sul collegamento nella riga selezionata.
 25. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

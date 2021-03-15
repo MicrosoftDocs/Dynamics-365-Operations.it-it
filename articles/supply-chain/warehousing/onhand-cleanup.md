@@ -62,3 +62,6 @@ Per impostazione predefinita, l'impostazione **Tempo di esecuzione massimo** non
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Tempo di esecuzione massimo per il processo di pulizia delle voci disponibili per la gestione del magazzino*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

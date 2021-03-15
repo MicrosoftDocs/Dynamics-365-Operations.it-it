@@ -53,3 +53,6 @@ Questa procedura mostra come creare spese accessorie principali per un hub e com
 9. Fare clic su Salva.
 10. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

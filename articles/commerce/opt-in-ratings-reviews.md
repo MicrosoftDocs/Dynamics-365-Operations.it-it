@@ -63,3 +63,6 @@ Per consentire l'utilizzo di valutazioni e recensioni sul sito, procedere come s
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

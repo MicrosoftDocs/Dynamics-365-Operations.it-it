@@ -57,3 +57,6 @@ I giornali di registrazione periodici vengono talvolta denominati giornali ricor
 27. Nel campo **Numero giornale di registrazione periodico** immettere o selezionare un valore.
 28. Nell'elenco fare clic sul collegamento nella riga selezionata.
 29. Fare clic su **OK**. Il giornale di registrazione periodico può ora essere rivisto, approvato o registrato a seconda del fabbisogno e dell'impostazione.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

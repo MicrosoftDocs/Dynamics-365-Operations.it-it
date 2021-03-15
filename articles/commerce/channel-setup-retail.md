@@ -181,3 +181,6 @@ Per impostare casseforti, effettuare le seguenti operazioni.
 
 [Impostare un canale servizio clienti](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

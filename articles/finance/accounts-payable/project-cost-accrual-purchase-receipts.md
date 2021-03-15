@@ -82,3 +82,6 @@ La fattura fornitore rimane con stato in sospeso finché non arriva la fattura f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

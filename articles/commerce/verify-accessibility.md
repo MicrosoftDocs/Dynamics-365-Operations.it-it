@@ -86,3 +86,6 @@ Per utilizzare il servizio [Microsoft Accessibility Insights](https://accessibil
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
 
 [Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

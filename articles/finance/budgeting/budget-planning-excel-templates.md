@@ -129,3 +129,6 @@ Sì, la maggior parte delle funzionalità standard di Excel funzionerà nei mode
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Inoltre, due report unici che sfruttano la struttura a griglia gerarchica consen
 - Area di lavoro **Gestione categorie e prodotti** &gt; **Retail e Commerce** &gt; **Prodotto e categorie** &gt; **Gestione punto vendita** &gt; **Report**
 - Area di lavoro **Gestione prezzi e sconti** &gt; **Retail e Commerce** &gt; **Prezzi e sconti** &gt; **Gestione punto vendita** &gt; **Report**
 - Sezione **Richieste di informazioni e report**  &gt; **Retail e Commerce** &gt; **Richieste di informazioni e report** &gt; **Report vendite**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

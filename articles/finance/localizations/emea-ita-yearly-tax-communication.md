@@ -1120,3 +1120,6 @@ Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impos
    - VL032001 IVA dovuta (IVA a debito)
    - VL033001 Credito (IVA a credito)
    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

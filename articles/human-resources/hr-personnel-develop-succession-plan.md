@@ -56,3 +56,6 @@ Man mano che la tua organizzazione cresce, devi iniziare la pianificazione della
 27. Seleziona **Risultato**.
 28. Seleziona **Report**. Le corrispondenze migliori verranno elencate nella parte superiore del report. Puoi vedere che viene elencato un elemento di lacuna. Un divario è la differenza tra il livello di mappatura delle competenze e il livello di competenza della persona.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

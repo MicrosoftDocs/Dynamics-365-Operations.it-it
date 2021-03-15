@@ -177,3 +177,6 @@ In questa sezione continuerai a lavorare sull'ordine di lavoro su cui hai lavora
 1. Nel riquadro azioni, nella scheda **Fatturazione**, selezionare **Nuova proposta di fatturazione**.
 1. Nella finestra di dialogo **Crea proposta di fatturazione**, nella sezione **Transazioni di progetto** selezionare la casella di controllo **Seleziona** per ogni riga che si desidera fatturare.
 1. Scegliere **OK** per chiudere la finestra di dialogo e visualizzare la nuova proposta di fatturazione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

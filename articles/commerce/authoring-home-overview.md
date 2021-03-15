@@ -121,3 +121,6 @@ Dopo il caricamento dello strumento di creazione, è possibile selezionare **Hom
 [Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito](search-engine-optimization-considerations.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

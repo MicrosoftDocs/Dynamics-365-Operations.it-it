@@ -812,3 +812,6 @@ Per sapere come sincronizzare la struttura del formato con un modello ER nell'ed
 [Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni](trace-execution-er-troubleshoot-perf.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

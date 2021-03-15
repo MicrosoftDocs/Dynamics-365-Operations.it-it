@@ -53,3 +53,6 @@ Il codice smaltimento può essere assegnato nel momento in cui un articolo viene
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

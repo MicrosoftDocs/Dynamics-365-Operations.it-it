@@ -50,3 +50,6 @@ Questa procedura mostra come convertire gli sconti del cliente approvati ed elab
     * Si noti che una transazione dall'importo negativo, rappresentante l'importo totale dello sconto, senza riferimento alla fattura è stata aggiunta al saldo del cliente.   
 15. Scegliere Annulla.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

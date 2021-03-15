@@ -38,3 +38,6 @@ La schermata seguente illustra un esempio di addetto alla manutenzione associato
 
 La configurazione del calendario per strumenti e cespiti non è necessaria in relazione alla programmazione dell'ordine di lavoro. Si presuppone che gli strumenti e i cespiti siano disponibili 24 ore al giorno per la manutenzione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

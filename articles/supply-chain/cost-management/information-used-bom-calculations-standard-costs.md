@@ -83,3 +83,6 @@ Nelle informazioni sulla versione di determinazione costi utilizzate in un calco
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 11. Visualizzare le prestazioni dei singoli elementi di costo.
 12. È inoltre possibile cercare elementi di costo specifici.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

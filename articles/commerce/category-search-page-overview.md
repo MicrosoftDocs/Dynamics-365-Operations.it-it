@@ -110,3 +110,6 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

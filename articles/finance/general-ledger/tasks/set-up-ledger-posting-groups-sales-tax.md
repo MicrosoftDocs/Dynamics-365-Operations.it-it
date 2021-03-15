@@ -41,3 +41,6 @@ L'IVA viene calcolata e registrato nei conti principali specificati in Gruppi re
 11. Nel campo **Sconto di cassa fornitore**, selezionare il conto principale per la registrazione dello sconto di cassa per i **codici IVA** associati al **gruppo di registrazione contabile**. È facoltativo e se non viene immesso alcun conto, verrà utilizzato il conto principale in **Codici sconto di cassa**. Può essere utile utilizzare conti diversi per **gruppo di registrazione contabile** se si utilizza l'opzione Storna IVA su sconto di cassa in **Fasce IVA**.  
 12. Fare clic su **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

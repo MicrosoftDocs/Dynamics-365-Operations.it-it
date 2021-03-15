@@ -225,3 +225,6 @@ Se necessario, è possibile licenziare un candidato dopo averlo assunto. Ad esem
 [Configurare tabelle virtuali in Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizzare la forza lavoro](hr-personnel-departments-jobs-positions.md)<br>
 [Impostare i componenti di una mansione](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

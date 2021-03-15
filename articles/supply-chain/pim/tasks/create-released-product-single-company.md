@@ -102,3 +102,6 @@ Questa procedura descrive come creare un unico prodotto rilasciato nel contesto 
 12. Trovare e selezionare il record desiderato nell'elenco.
 13. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

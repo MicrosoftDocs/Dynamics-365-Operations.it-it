@@ -205,3 +205,6 @@ L'illustrazione seguente mostra l'aspetto della finestra di progettazione di app
 In questa esercitazione, si è imparato a utilizzare un'app per la logica per esportare dati da Human Resources e a salvare i dati esportati in una cartella OneDrive for Business. È possibile modificare i passaggi di questa esercitazione come necessario in base alle proprie esigenze aziendali.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

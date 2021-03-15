@@ -113,3 +113,6 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
 
 - [Panoramica della doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Panoramica della gestione cespiti](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

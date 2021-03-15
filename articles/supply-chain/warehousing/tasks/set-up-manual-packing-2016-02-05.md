@@ -94,3 +94,6 @@ Il processo di imballaggio consente di convalidare e imballare i prodotti in con
 8. Nel campo Unità peso immettere o selezionare un valore.
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

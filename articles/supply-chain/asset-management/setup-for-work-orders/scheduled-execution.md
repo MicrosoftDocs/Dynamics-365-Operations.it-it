@@ -42,3 +42,6 @@ La configurazione dell'esecuzione programmata, correlata agli ordini di lavoro, 
 6. Selezionare **Salva**.
 
 ![Esecuzione programmata](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Il piè di pagina contenente le informazioni sul copyright viene automaticamente
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

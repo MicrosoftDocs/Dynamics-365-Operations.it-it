@@ -91,3 +91,6 @@ Per impostare i suggerimenti sul prodotto, effettuare le seguenti operazioni:
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

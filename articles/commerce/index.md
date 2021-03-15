@@ -55,3 +55,6 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestire un sito di e-commerce](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Sviluppo ed estendibilità del commercio](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

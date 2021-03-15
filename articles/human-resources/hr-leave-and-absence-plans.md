@@ -383,3 +383,6 @@ Saldo previsto (30) = Saldo accumulo (10 × 1) + Saldo corrente (40) – Rettifi
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Configurare i tipi di congedo e assenza](hr-leave-and-absence-types.md)
 - [Accumulare piani di congedo e assenza](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

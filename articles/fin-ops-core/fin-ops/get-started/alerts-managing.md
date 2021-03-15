@@ -82,3 +82,6 @@ Se si configura una finestra di elaborazione batch, viene inviato un avviso quan
 
 1. Passare ad **Amministrazione sistema** &gt; **Attività periodiche** &gt; **Avvisi** &gt; **Avvisi data di scadenza**.
 2. Nella finestra di dialogo **Avvisi data di scadenza**, immettere le informazioni appropriate.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

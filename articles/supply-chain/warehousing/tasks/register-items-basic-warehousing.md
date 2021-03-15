@@ -57,3 +57,6 @@ Questa procedura mostra come registrare gli articoli utilizzando il giornale di 
 2. Fare clic su Entrata prodotti.
 3. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

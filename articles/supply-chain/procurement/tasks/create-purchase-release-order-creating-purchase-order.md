@@ -63,3 +63,6 @@ Questa procedura mostra come utilizzare un contratto di acquisto quando si crea 
 3. Chiudere la pagina.
 4. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

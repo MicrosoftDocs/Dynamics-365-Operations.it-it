@@ -68,3 +68,6 @@ L'ordine viene salvato, ma viene impostato il flag **Non elaborare**. Il flag as
 Per visualizzare e gestire gli ordini in attesa per la revisione antifrode, passare a **Retail e Commerce** \> **Clienti** \> **Sospensioni ordine**. Nella pagina **Sospensioni ordine** selezionare una voce nell'elenco e quindi fare clic su **Ordine sospeso** per avere una visualizzazione più dettagliata che include informazioni sul motivo della sospensione. Nella Scheda dettaglio **Dettagli frode**, è possibile visualizzare i criteri di frode sistematici che sono stati trovati corrispondere per l'ordine e i punteggi che sono stati applicati. Se l'ordine è stato messo in attesa manualmente, è possibile rivedere i commenti che sono stati immessi dall'utente che ha messo l'ordine in attesa guardando la sezione **Note frode** nella Scheda dettaglio **Note**.
 
 Per ulteriori informazioni su come utilizzare gli ordini sospesi, vedere [Sospensioni ordine](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

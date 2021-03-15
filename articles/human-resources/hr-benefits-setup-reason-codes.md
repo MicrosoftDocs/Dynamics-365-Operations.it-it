@@ -79,3 +79,5 @@ Vedrai un banner nella pagina **Collegamenti** dell'area di lavoro **Gestione be
 Dopo la migrazione dei codici motivo a Gestione personale, l'opzione per utilizzarli in Gestione benefit viene automaticamente impostata su **Sì**.
 
 [![Usa codice motivo in Gestione benefit](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Nella pagina **Metodo di pagamento - clienti**, abilitare il parametro **Formato
 1. Per importare il file, creare un giornale di registrazione  **Protesta effetto attivo**, quindi selezionare **Righe giornale di registrazione**.
 2. Selezionare **Funzioni** \> **Importa protesto**.
 3. Nella finestra di dialogo selezionare il metodo di pagamento per l'importazione del protesto e allegare il file. Le righe del giornale di registrazione vengono create in base alle informazioni nel file.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

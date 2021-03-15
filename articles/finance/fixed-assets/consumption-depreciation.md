@@ -67,3 +67,6 @@ La proposta di ammortamento il 31 gennaio è la seguente: Quantità stimata × P
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

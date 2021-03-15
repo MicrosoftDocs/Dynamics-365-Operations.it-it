@@ -49,3 +49,6 @@ Nei casi in cui una nuova versione dello stesso file o un file completamente nuo
 ## <a name="upload-a-file-using-run-project"></a>Caricare un file tramite Esegui progetto
 
 È possibile caricare un file di Excel quando si utilizza l'opzione **Esegui progetto** per eseguire un progetto di importazione. Prestare attenzione a caricare solo i file con gli stessi fogli di lavoro dei mapping esistenti nelle entità di dati nel progetto dati. Se non è possibile trovare un foglio di lavoro nel nuovo file caricato, il sistema visualizza un errore e interrompe l'importazione. Se il mapping al foglio di lavoro deve essere modificato per un'entità, i mapping nel progetto di dati devono essere aggiornati nel progetto dati prima di utilizzare il file nell'esperienza **Esegui progetto**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

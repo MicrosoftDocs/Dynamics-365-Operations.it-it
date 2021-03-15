@@ -89,3 +89,6 @@ Un'*attività parallela* è un elemento del flusso di lavoro che include due o p
 ### <a name="subworkflow"></a>Flusso di lavoro secondario
 
 Un *flusso di lavoro secondario* è un flusso di lavoro eseguito nel contesto di un altro flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

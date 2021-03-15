@@ -51,3 +51,6 @@ Utilizzare questa procedura per impostare le regole per ordinare prodotti in una
 6. Selezionare un'opzione nel campo **Selezione fornitore**. Selezionare una regola per controllare il tipo di fornitori che può essere selezionato per la categoria quando le richieste vengono create.  
 7. Fare clic su **Chiudi**. Le regole dei criteri definite sono state per le richieste di tipo Consumo. Se voleste definire criteri per le richieste di tipo Rifornimento, dovreste creare una regola per Tipo di regola dei criteri chiamata "Regola dei criteri di accesso alle categorie di rifornimento".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

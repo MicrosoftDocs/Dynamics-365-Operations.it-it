@@ -39,3 +39,6 @@ La pagina **Panoramica attributi cespiti** mostra una riga separata per ciascun 
 3. Selezionare **OK**. Un elenco mostra tutti i cespiti che utilizzano il tipo selezionato. Per ciascun cespite, tutti i tipi di attributi correlati verranno visualizzati nella stessa riga.
 
 La pagina **Attributo cespite** mostra una riga separata per ogni tipo di attributo utilizzato in un cespite. Per aprire questa pagina selezionare **Gestione cespiti** \> **Richieste di informazioni** \> **Cespiti** \> **Attributo cespite**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

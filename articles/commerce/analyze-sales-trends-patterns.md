@@ -42,3 +42,6 @@ Gli utenti possono anche studiare schemi e tendenze di vendita su base oraria tr
 - Area di lavoro **Gestione punto vendita** &gt; **Retail e Commerce** &gt; **Canali** &gt; **Gestione punto vendita** &gt; **Report** &gt; **Report vendite canale per ora**
 - Area di lavoro **Dati finanziari punto vendita** &gt; **Retail e Commerce** &gt; **Canali** &gt; **Dati finanziari punto vendita** &gt; **Report** &gt; **Report vendite canale per ora**
 - Sezione **Richieste di informazioni e report** &gt; **Retail e Commerce** &gt; **Richieste di informazioni e report** &gt; **Report vendite** &gt; **Report vendite canale per ora**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

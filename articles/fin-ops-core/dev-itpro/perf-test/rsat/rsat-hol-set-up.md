@@ -803,3 +803,6 @@ In questa sezione, si creerà una variabile salvata nel primo test case, si cree
 2. Verificare che entrambi i test casi abbiano avuto esito positivo.
 
     ![Campo Risultato impostato su Superato per entrambi i test case](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Questa guida di attività descrive la generazione di transazioni di attribuzione
 17. Fare clic su OK.
 18. Fare clic su Registra.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Nella scheda **Conversione valuta** si definiscono la persona giuridica, il cont
 Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

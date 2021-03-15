@@ -110,3 +110,6 @@ La pagina **Dettagli lavoro pianificato** (**Gestione magazzino \> Lavoro \> Det
 Per visualizzare i processi batch per l'elaborazione delle ondate, selezionare **Processi batch** nel riquadro azioni della pagina **Tutte le ondate**.
 
 Da qui, è possibile visualizzare tutti i dettagli dell'attività batch per ciascuno degli ID processo batch.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

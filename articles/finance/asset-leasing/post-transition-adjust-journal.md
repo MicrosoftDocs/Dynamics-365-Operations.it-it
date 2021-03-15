@@ -46,3 +46,6 @@ Per registrare una rettifica di transizione in conformità con i nuovi principi 
 
 5. Per visualizzare la scrittura contabile, seleziona **Giornale di registrazione leasing cespiti**.
 6. Seleziona il nuovo giornale di registrazione, quindi seleziona **Registra**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

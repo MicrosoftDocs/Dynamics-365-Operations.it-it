@@ -162,3 +162,6 @@ Per motivi tecnici e di prestazioni, solo le tabelle che soddisfano le seguenti 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>È possibile fare riferimento a campi personalizzati dagli strumenti di sviluppo?  
 
 I campi personalizzati possono essere gestiti solo attraverso l'interfaccia utente e non è possibile farvi riferimento dal codice. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

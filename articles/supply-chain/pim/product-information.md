@@ -95,3 +95,6 @@ L'area di lavoro è costituita da un riepilogo di riquadri e due elenchi. L'elen
 ### <a name="manually-creating-a-new-released-product"></a>Creazione manuale di un nuovo prodotto rilasciato
 
 È possibile creare manualmente un prodotto rilasciato in una singola esecuzione, a seconda dei processi aziendali dell'organizzazione e delle regole relative all'utilizzo di questa funzione. Questa funzione crea un nuovo prodotto e lo rilascia automaticamente alla persona giuridica corrente. Per creare un nuovo prodotto, fare clic su **Prodotti rilasciati** nell'area di lavoro **Gestione prodotti rilasciati** o nella pagina elenco **Prodotto rilasciato**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

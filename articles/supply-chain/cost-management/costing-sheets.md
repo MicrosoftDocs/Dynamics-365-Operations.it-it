@@ -49,3 +49,6 @@ La scheda di determinazione costi viene visualizzata nella pagina **Calcola cost
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

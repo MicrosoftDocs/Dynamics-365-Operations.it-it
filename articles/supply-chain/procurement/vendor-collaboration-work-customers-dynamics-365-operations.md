@@ -146,3 +146,6 @@ Le informazioni accessibili sono il nome del fornitore, gli indirizzi, le inform
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Gestire gli utenti della collaborazione fornitore](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ La correzione di questo errore dipende dalla causa dell'errore:
 
 + Se il mapping prevede mapping dipendenti, assicurarsi di abilitare i mapping dipendenti di questo mapping della tabella.
 + Nel mapping potrebbero mancare le colonne di origine o destinazione. Se manca una colonna nell'app Finance and Operations, seguire i passaggi nella sezione [Problema delle colonne di tabella mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se manca una colonna in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che le colonne vengano automaticamente compilati nuovamente nel mapping.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

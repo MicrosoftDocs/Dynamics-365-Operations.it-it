@@ -61,3 +61,6 @@ In questo argomento viene descritto come utilizzare le funzionalità dei moduli 
 [Panoramica sviluppo e definizione dei contratti di assistenza](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

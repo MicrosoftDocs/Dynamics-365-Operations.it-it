@@ -43,3 +43,6 @@ Il problema potrebbe essere semplicemente una questione di tempistiche. Seguire 
 1. Selezionare **Modifica** nella parte superiore della pagina e impostare la data/ora di avvio pianificata su un valore che aggiorna l'analisi più prossima all'ora corrente.
 
 ![Processi batch](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

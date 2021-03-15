@@ -40,3 +40,6 @@ Gli uffici IVA sono entità in cui l'IVA deve essere dichiarata e pagata. È pos
 10. Immettere un numero nel campo Arrotondamento.
 11. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

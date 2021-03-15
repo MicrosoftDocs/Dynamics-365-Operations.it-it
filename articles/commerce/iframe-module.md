@@ -76,3 +76,6 @@ Per aggiungere un modulo iFrame a una pagina per mostrare un video esterno, atte
 [Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

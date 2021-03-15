@@ -931,3 +931,6 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
 - Storico etichette ondata
 
 Per la maggior parte di queste pagine, è possibile trovare la funzione pertinente selezionando **Etichette ondata** nel gruppo **Informazioni correlate** della scheda **Spedizioni** del riquadro azioni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

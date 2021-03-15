@@ -52,3 +52,6 @@ I reparti sono unità operative che rappresentano un'area funzionale di un'azien
 16. Nel campo Descrivi modifiche, digitare un valore.
 17. Fare clic su Pubblica.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

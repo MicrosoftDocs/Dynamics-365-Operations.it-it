@@ -58,3 +58,6 @@ Per il lavoratore a cui dovrà essere consentito di spostare le scorte prenotate
 Per questa funzionalità è stato effettuato il backporting a Microsoft Dynamics AX 2012 R3 e sarà disponibile come parte di CU12.
 Può inoltre essere scaricata singolarmente con il numero di KB 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

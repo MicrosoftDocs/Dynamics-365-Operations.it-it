@@ -59,3 +59,6 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
 - [Controllo unificato della data di registrazione](emea-ita-post-date-control.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

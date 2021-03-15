@@ -54,3 +54,6 @@ Le informazioni riportate di seguito vengono definite per il gruppo di sottoscri
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Le regole di distribuzione costi vengono utilizzate per distribuire i costi cont
 5. Nel campo Unità di controllo costi immettere o selezionare un valore.
 6. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

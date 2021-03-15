@@ -53,3 +53,6 @@ In questo argomento viene descritto come impostare le garanzie sui cespiti e sui
 
 > [!NOTE]
 > Quando si crea un ordine di lavoro per un cespite coperto da una garanzia del fornitore, se l'ordine di lavoro ha una data di inizio prevista durante il periodo di garanzia, si riceve una notifica sul contratto di garanzia. È quindi possibile annullare l'ordine di lavoro, come necessario.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

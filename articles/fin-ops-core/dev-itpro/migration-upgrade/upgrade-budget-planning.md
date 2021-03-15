@@ -162,3 +162,6 @@ Sono state aggiunte diverse entità di dati per consentire l'implementazione rap
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

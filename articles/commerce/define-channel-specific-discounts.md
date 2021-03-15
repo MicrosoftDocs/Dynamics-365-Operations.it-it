@@ -61,3 +61,6 @@ Nel seguente esempio sono illustrate le attività in questione nell'impostazione
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Rettifiche prezzi e sconti](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

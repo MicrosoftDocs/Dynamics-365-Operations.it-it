@@ -108,3 +108,6 @@ Nella seguente tabella viene illustrato in che modo i termini per la registrazio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

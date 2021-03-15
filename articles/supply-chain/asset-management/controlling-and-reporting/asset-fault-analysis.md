@@ -108,3 +108,6 @@ Nel schermata seguente, è stato aggiunto **Tipo** e viene visualizzato il calco
 >[!NOTE]
 >Per una panoramica di tutte le registrazioni di errore create negli ordini di lavoro e nelle richieste di intervento di manutenzione, fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Errore di cespite** > **Errori di cespite**. Nella pagina **Errori di cespite**, selezionare una registrazione ed espandere il riquadro **Informazioni correlate** per visualizzare informazioni relative alla richiesta di intervento di manutenzione o all'ordine di lavoro associato.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

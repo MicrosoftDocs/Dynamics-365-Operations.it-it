@@ -88,3 +88,6 @@ Per iscriversi al programma fedeltà, è possibile creare una pagina di marketin
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

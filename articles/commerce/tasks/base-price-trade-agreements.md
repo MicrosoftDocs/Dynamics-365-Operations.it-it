@@ -69,3 +69,6 @@ In questa procedura vengono descritti i passaggi per creare accordi commerciali 
 38. Nel **riquadro azioni** fare clic su Vendi.
 39. Fare clic su **Prezzo di vendita**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Le seguenti otto guide attività sono elencate nell'ordine in cui è necessario 
 7.  [Creare regole di configurazione](tasks/create-configuration-rules.md)
 8.  [Creare configurazioni basate su dimensioni](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

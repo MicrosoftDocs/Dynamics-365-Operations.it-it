@@ -61,3 +61,6 @@ Quando si creano collegamenti nelle definizioni di registrazione vengono applica
 Per ulteriori informazioni, vedere [Esempi di definizione di registrazione](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

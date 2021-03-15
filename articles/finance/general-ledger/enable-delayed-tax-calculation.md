@@ -64,3 +64,6 @@ Il sistema assegna la priorità all'impostazione dell'intestazione del giornale 
 4. Nella scheda **Impostazione**, impostare l'opzione **Calcolo IVA differito** **Sì**.
 
 ![Immagine della pagina del giornale di registrazione generale](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

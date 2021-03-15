@@ -59,3 +59,6 @@ Il nodo principale della struttura rappresenta la quantità disponibile dell'art
 9. Fare clic su **Ordini cliente spediti**.
 10. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

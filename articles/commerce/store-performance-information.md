@@ -44,3 +44,6 @@ In questo report viene fornito uno snapshot dei riepiloghi seguenti come parte d
 - Riepilogo IVA
 - Riepilogo sostituzione prezzo
 - Riepilogo sconti
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

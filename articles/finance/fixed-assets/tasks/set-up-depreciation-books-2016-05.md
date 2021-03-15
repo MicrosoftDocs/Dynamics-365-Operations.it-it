@@ -54,3 +54,6 @@ Questa procedura illustra il processo di creazione di un nuovo registro beni amm
 6. Immettere un numero nel campo Vita utile.
     * Si noti che il valore del campo Periodi di ammortamento viene calcolato dopo aver impostato la Vita utile.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

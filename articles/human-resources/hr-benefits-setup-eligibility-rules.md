@@ -176,3 +176,6 @@ I programmi sono una serie di piani di benefit che condividono un set comune di 
    | **Regole di idoneità** | Selezionare le regole di idoneità da applicare al programma di benefit. Le regole di ammissibilità vengono definite nella scheda **Regole di idoneità** in questa pagina. |
    
 4. Selezionare **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

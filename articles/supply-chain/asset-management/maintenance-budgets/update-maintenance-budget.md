@@ -74,3 +74,6 @@ Nella pagina **Righe budget di manutenzione**, è possibile aggiungere manualmen
 
 - Il rifornimento di alcuni cespiti è in fase di pianificazione, ma i processi correlati non sono ancora stati creati in Gestione cespiti. Tuttavia, si desidera includere i costi in budget per quei processi nel budget di manutenzione.
 - Nuovi cespiti o tipi di cespite sono stati creati a partire dalla creazione del budget di manutenzione, ma i piani di manutenzione non sono ancora stati impostati in tali cespiti o tipi di cespite. Tuttavia, si desidera includere i costi in budget per quei tipi di cespite nel budget di manutenzione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

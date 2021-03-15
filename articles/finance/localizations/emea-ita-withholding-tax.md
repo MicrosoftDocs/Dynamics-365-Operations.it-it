@@ -81,3 +81,6 @@ Per eseguire i report specifici dell'Italia relativi alla ritenuta d'acconto, pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

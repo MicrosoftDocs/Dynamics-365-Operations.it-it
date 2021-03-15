@@ -49,3 +49,6 @@ Si tratta della quinta procedura di cinque, che illustra il processo di pagament
     3.    Digitare un valore nel campo **Nome file**. Per questo esempio, in seguito al pagamento EUR, il file generato sarà conforme a SEPA. Il bonifico ISO20022 nonché altri formati di pagamento fornitore possono essere utilizzati per generare pagamenti in altre valute.
     4.    Nel campo **Conto bancario** immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

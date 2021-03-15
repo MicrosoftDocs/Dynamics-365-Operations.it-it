@@ -57,3 +57,6 @@ Per determinare in modo più semplice le righe del modello da copiare, raggruppa
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Copiare le righe di modelli di assistenza](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Questa guida attività descrive come aggiungere un conto principale in un piano 
 21. Nel campo **Tipo di conversione valuta** selezionare il metodo per calcolare i tassi di cambio per il conto.
 22. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

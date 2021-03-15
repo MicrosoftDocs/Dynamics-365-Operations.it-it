@@ -190,3 +190,6 @@ I seguenti dettagli vengono importati e inclusi nel record del nuovo dipendente:
 
 [Configurare tabelle virtuali in Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Che cos'è Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Quando si fa clic su una Guida attività nei risultati della ricerca, è possibi
 
 > [!NOTE]
 > La Guida in Retail Modern POS e Cloud POS non visualizza guide attività a seconda del modulo attivo o dell'operazione che si sta eseguendo. È necessario immettere il nome del processo della casella di ricerca e fare clic su **Cerca**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -527,3 +527,6 @@ Le query mostrate negli esempi precedenti potrebbero restituire un risultato com
 ```
 
 Notare che i campi delle quantità sono strutturati come un dizionario di misure e dei valori associati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

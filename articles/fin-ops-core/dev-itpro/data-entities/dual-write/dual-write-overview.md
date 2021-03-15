@@ -109,3 +109,6 @@ Per creare parità con le applicazioni Finance and Operations, la doppia scrittu
 
 Per ulteriori informazioni sulle modifiche imminenti, vedere [Novità o modifiche della doppia scrittura](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

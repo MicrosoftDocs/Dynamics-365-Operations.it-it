@@ -241,3 +241,6 @@ Il formato deve essere disponibile dapprima nelle configurazioni ER. Se questo p
 [Panoramica dei report elettronici](general-electronic-reporting.md)
 
 [Configurare destinazioni ER dipendenti dall'azione](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

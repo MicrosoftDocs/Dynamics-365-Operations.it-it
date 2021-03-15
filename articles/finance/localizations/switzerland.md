@@ -30,3 +30,6 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 
 - [Importazione pagamenti cliente PVR](emea-che-esr-customer-payments-import.md)
 - [Fatture QR per la Svizzera](emea-che-swiss-qr-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -298,3 +298,6 @@ L'elenco delle configurazioni di report elettronici per Finance viene costanteme
 
 - [Creare configurazioni per la creazione di report elettronici](electronic-reporting-configuration.md)
 - [Gestire il ciclo di vita della configurazione per la creazione di report elettronici (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

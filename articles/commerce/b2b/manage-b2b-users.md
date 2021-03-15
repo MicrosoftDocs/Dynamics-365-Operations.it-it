@@ -139,3 +139,6 @@ Per eseguire l'onboarding di partner commerciali e degli utenti in Commerce Head
 [Impostare limiti di quantità di prodotti per i siti di e-commerce B2B](quantity-limits.md)
 
 [Panoramica delle sequenze numeriche](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

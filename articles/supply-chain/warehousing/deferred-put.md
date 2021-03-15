@@ -109,3 +109,6 @@ L'area di lavoro **Monitoraggio lavoro in uscita** ha due riquadri che consenton
 ## <a name="deleting-completed-tasks"></a>Eliminazione di attività completate
 
 È possibile eliminare le attività di elaborazione differita dello stoccaggio già completate selezionandole e eliminandole nella pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

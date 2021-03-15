@@ -48,3 +48,6 @@ Ricevimento targa mista viene configurato come voce di meno di un dispositivo mo
 - Ricevimento e stoccaggio targa mista
 
 Le opzioni per identificare righe di documenti di origine sono articolo ordine fornitore, riga ordine fornitore, ordine di reso, articolo ordine di trasferimento e riga di ordine di trasferimento. Queste opzioni possono modificare l'ordine di ricevimento per una singola targa. L'ultima opzione è per articolo caricato. È possibile aggiungere più articoli alla targa, ma non è possibile passare tra i diversi carichi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

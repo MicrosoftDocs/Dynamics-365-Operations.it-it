@@ -43,3 +43,6 @@ Questa procedura dimostra come creare un registratore di cassa POS. Questa proce
     * Il numero di registratore di cassa POS EFT è usato per indicare all'unità di elaborazione di pagamento quale terminale di pagamento sta inviando le richieste di autorizzazione. Questo valore spesso è chiamato "ID terminale" o "TID". Il TID può essere trovato generalmente su un autoadesivo sul dispositivo di pagamento.  
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

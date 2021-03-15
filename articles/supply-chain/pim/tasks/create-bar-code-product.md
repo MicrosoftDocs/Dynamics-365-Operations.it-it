@@ -42,3 +42,6 @@ In questa argomento viene illustrato come creare un codice a barre manualmente u
 12. Selezionare **Salva**.
 13. Chiudere la pagina. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

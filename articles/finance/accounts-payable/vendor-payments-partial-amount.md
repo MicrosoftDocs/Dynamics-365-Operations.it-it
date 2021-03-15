@@ -53,3 +53,6 @@ Si supponga ad esempio di ricevere uno sconto di cassa del 2% se la fattura vien
 
 
 Per ulteriori informazioni, vedere [Panoramica pagamenti fornitore](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

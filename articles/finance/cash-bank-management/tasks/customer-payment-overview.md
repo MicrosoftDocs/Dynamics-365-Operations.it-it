@@ -51,3 +51,6 @@ Questa guida attività descrive vari metodi utilizzati per immettere i pagamenti
 21. Nel campo **Riferimento di pagamento** immettere un riferimento. Il riferimento di pagamento è necessario solo se si include il pagamento in una distinta di deposito.  
 22. Per registrare i pagamenti cliente, fare clic su **Registra** nel **riquadro azioni**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

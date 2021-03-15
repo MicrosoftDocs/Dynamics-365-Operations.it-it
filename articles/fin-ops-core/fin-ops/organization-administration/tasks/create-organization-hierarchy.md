@@ -48,3 +48,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
     - Aggiungere organizzazioni in base alle necessità.  
     - Per aggiungere un'organizzazione, fare clic su **Modifica**, quindi su **Inserisci**. Dopo avere apportato le modifiche, è possibile **salvare** una bozza e/o **pubblicare** le modifiche.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

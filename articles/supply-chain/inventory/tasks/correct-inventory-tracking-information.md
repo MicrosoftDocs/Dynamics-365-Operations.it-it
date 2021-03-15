@@ -63,3 +63,6 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 2. Fare clic su Transazioni.
     * È possibile visualizzare le transazioni create quando è stato registrato il giornale di registrazione.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

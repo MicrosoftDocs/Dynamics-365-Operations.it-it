@@ -165,3 +165,6 @@ Per alcuni record, è possibile specificare le modifiche future al record. Le se
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

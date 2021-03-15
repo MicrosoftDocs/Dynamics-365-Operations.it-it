@@ -47,3 +47,6 @@ Questo argomento elenca i passaggi per impostare la ritenuta d'acconto globale p
 7. Configurare i gruppi di ritenuta d'acconto nella pagina **Gruppi ritenute d'acconto articoli**.
 
 8. Configurare **Importo minimo della fattura** nella pagina **Parametri di contabilità generale > Ritenuta d'acconto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Per visualizzare e lavorare con il diagramma di Gantt:
     - Per riprogrammare un ordine di lavoro visualizzato, selezionarlo e quindi trascinarlo nella nuova data e ora appropriate.
 
 1. Se sono state apportate modifiche, seleziona **Salva** nel riquadro azioni per salvarle.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

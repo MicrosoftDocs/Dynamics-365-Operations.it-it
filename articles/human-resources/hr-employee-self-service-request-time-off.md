@@ -62,3 +62,6 @@ Quando si aggiorna una richiesta di permesso esistente, è possibile aggiungere 
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

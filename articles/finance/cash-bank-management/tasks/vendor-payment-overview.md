@@ -62,3 +62,6 @@ Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti 
 33. Fare clic su **OK** per generare i pagamenti.
 34. Fare clic su **Registra** se tutti i pagamenti sono approvati e generati. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

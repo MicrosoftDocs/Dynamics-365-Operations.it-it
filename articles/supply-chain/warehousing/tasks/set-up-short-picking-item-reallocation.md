@@ -63,3 +63,6 @@ La società di dati dimostrativi USMF è stata utilizzata per creare questa proc
 6. Nell'elenco, seleziona un **ID utente**. Ad esempio, 24.
 7. Espandi la Scheda dettaglio **Lavoro**.
 8. Selezionare **Sì** nel campo **Consenti riallocazione manuale articolo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

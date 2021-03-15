@@ -81,3 +81,6 @@ Per completare questi passaggi, è necessario prima completare i passaggi della 
 25. Fare clic su OK.
     * Analizzare il file di pagamento creato in formato XML. Confrontarlo con il layout del documento progettato e gli attributi di transazione del pagamento definiti.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ La quantità viene dichiarata nell'ubicazione di uscita. Il lavoro magazzino vie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

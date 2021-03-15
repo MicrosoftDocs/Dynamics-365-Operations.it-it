@@ -46,3 +46,6 @@ In questa procedura viene illustrato come impostare e pianificare un appuntament
 6. Fare clic su Salva.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

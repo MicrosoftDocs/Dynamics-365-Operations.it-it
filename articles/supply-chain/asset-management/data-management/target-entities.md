@@ -52,3 +52,6 @@ Nell'area di lavoro **Gestione dei dati**, è possibile ottenere una panoramica 
 
     ![Figura 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

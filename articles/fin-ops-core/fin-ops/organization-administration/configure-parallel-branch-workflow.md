@@ -50,3 +50,6 @@ Per progettare e configurare gli elementi del ramo parallelo, effettuare le oper
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare panoramica flussi di lavoro](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

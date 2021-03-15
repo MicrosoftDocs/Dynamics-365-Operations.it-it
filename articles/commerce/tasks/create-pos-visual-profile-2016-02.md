@@ -47,3 +47,6 @@ In questa procedura vengono descritti i passaggi per creare un profilo visivo di
 17. Nell'elenco fare clic sul collegamento nella riga selezionata.
 18. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Questa procedura mostra come creare un gruppo di conti di consolidamento e aggiu
 8. Digitare un valore nel campo Conto di consolidamento.
 9. Digitare un valore nel campo Nome conto di consolidamento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

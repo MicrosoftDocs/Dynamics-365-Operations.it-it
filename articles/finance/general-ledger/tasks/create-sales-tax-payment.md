@@ -36,3 +36,6 @@ La procedura di liquidazione e registrazione liquida i saldi IVA nei conti IVA e
 5. Nel campo **Data della transazione** immettere una data.
 6. Fare clic su **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

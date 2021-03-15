@@ -159,3 +159,6 @@ Il diagramma di Gantt può essere aperto nelle pagine seguenti.
 
 [Programmazione visiva per la produzione (script demo)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

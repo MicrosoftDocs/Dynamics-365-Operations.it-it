@@ -95,3 +95,6 @@ Per configurare il raggruppamento per gli ordini di lavoro generati automaticame
 1. Se desideri che le opzioni vengano applicate quando esegui solo alcuni dei tuoi piani di manutenzione, nella Scheda dettaglio **Record da includere** aggiungi i filtri in base alle tue esigenze, proprio come faresti per altri processi batch in Microsoft Dynamics 365 Supply Chain Management.
 1. Nella Scheda dettaglio **Esegui in background**, configura le opzioni batch e di pianificazione in base alle tue esigenze, proprio come faresti per altri processi batch in Supply Chain Management.
 1. Seleziona **OK** per eseguire e/o pianificare i piani di manutenzione selezionati.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

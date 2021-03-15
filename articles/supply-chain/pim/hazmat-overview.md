@@ -61,3 +61,6 @@ Per ulteriori informazioni su come impostare normative e valori per i materiali 
 ## <a name="warehouse-management"></a>Gestione magazzino
 
 Quando si prepara una spedizione in Gestione magazzino, è possibile stampare diversi nuovi report che utilizzano le informazioni impostate in Gestione informazioni sul prodotto. Per ulteriori informazioni sui report disponibili e su come utilizzarli, vedere [Richieste di informazioni e report sui materiali pericolosi](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

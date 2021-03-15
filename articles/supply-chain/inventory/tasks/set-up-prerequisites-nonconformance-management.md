@@ -79,3 +79,6 @@ Utilizzare questo argomento per attivare i processi di gestione delle non confor
 4. Digitare un valore nel campo **Descrizione**
 5. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

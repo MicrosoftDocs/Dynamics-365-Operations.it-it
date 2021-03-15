@@ -81,3 +81,6 @@ Per aggiungere un modulo di condivisione social al modulo casella acquisti, segu
 [Modulo casella acquisti](add-buy-box.md)
 
 [Conformità dei cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Per modificare un file pagamenti sicuri, è possibile richiamarlo. Nella pagina 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ La tabella seguente mostra l'elenco delle configurazioni di report elettronici c
 |                             | Documento di trasporto ordine cliente (LT) (Excel)           |
 |                             | Documento di trasporto ordine cliente (PL) (Excel)           |
 |                             | Documento di trasporto ordine cliente (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

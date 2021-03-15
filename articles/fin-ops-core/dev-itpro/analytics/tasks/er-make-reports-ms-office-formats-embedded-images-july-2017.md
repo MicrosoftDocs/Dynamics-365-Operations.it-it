@@ -90,3 +90,6 @@ Per completare i passaggi in questa procedura, prima completare i passaggi della
  30. Selezionare Sì nel campo Consenti creazione notifica anticipata su conti bancari inattivi.  
  31. Fare clic su Salva.  
  32. Chiudere la pagina.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

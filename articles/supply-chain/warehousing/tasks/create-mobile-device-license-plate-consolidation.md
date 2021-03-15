@@ -36,3 +36,6 @@ In questa procedura viene illustrato come creare una voce di menu del dispositiv
 5. Selezionare 'Indiretto' nel campo Modo.
 6. Nel campo Codice attività, selezionare 'Consolida targhe'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

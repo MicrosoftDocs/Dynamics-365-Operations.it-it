@@ -53,3 +53,6 @@ In questa procedura viene illustrato come creare un criterio di selezione del pr
 4. Nel campo Criteri selezionare Gruppo di clienti 10. 
 5. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 46. Chiudere la pagina.
 47. Chiudere la pagina.
 48. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ I siti Dynamics 365 Commerce sono supportati al meglio dai seguenti browser web.
 [Gestire i file robots.txt](manage-robots-txt-files.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

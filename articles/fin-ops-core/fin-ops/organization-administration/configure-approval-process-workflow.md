@@ -183,3 +183,6 @@ Un processo di approvazione è costituito da passaggi di approvazione. Per aggiu
 1. Nell'editor flusso di lavoro fare doppio clic sul processo di approvazione. Verranno visualizzati i passaggi del processo di approvazione.
 2. Per aggiungere un passaggio di approvazione, trascinarlo dall'area **Elementi flusso di lavoro** nella canvas.
 3. Per configurare un passaggio di approvazione, vedere [Configurare i passaggi di approvazione in un flusso di lavoro](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

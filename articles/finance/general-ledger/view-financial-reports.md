@@ -86,3 +86,6 @@ Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 | Tutte le ondate | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per elaborazione ciclo |
 | Workbench pianificazione carico | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per il workbench di pianificazione del lavoro |
 | Dettagli lavoro | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per la pagina dei dettagli del lavoro |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

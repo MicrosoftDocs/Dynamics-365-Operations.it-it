@@ -73,3 +73,6 @@ Per opinioni, notizie e altre informazioni su Gestione magazzino e altre soluzio
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

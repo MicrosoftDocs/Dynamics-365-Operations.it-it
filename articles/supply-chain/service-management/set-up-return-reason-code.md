@@ -62,3 +62,6 @@ Questa procedura consente di impostare i codici motivo reso che è possibile uti
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

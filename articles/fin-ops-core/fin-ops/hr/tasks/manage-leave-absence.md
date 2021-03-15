@@ -46,3 +46,6 @@ In questa procedura viene descritta la creazione dei record congedo dipendente. 
     * Ad esempio: Congedo per adozione  
 12. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

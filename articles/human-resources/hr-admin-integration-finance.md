@@ -255,3 +255,5 @@ L'ID ubicazione utilizzato per l'indirizzo del lavoratore non fa parte di una se
 Nelle figura seguenti viene illustrato un esempio di mapping di modello nel servizio di integrazione di dati. 
 
 ![Mapping del modello](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ La registrazione funziona in due modi, a seconda che si utilizzi un processo di 
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Perché non riesco a visualizzare le informazioni sul peso variabile nel giornale di registrazione magazzino dopo aver unito un articolo a peso variabile?
 È possibile unire i batch degli articoli a peso variabile come tutti gli altri articoli. Tuttavia, le informazioni sul peso variabile non vengono visualizzate nel giornale di registrazione magazzino. Si consiglia di verificare le informazioni sul peso variabile prima di trasferire l'unione batch nel giornale di registrazione magazzino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

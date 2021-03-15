@@ -150,3 +150,6 @@ Questa Scheda dettaglio evidenzia l'impatto dell'alternativa di consegna selezio
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Promesse ordine](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Seguire questi passaggi per riprodurre una guida attività da LCS.
 2. Selezionare **Apri da LCS**.
 3. Selezionare la libreria e il nodo BPM con la guida attività salvata.
 4. Aprire la guida attività.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

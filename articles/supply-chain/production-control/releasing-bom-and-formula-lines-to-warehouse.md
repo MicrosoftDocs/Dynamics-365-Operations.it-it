@@ -97,3 +97,6 @@ Per una rapida dimostrazione su come rilasciare materiale in proporzione alla qu
     Le unità disponibili sono definite nell'ID gruppo di sequenze unità del prodotto finito.
 
     Ad esempio, un prodotto finito ha la seguente conversione di unità tra chilogrammi (kg) e pallet (PL): PL 1 = 100 kg. Per creare un ordine di produzione per 10.000 kg del prodotto finito, è possibile rilasciare le materie prime per il numero di pallet che si pianifica di produrre. Selezionare **PL** come unità quindi selezionare un numero corrispondente nel campo **Quantità**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

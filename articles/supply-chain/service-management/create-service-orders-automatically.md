@@ -70,3 +70,6 @@ Quando si creano manualmente o automaticamente ordini di assistenza dalla riga d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

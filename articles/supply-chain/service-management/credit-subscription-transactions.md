@@ -55,3 +55,6 @@ Se il campo **Storna ratei in fase di accredito** nel modulo **Parametri di gest
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

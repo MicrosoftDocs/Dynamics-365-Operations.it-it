@@ -58,3 +58,6 @@ Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno 
 14. Nell'elenco fare clic sul collegamento nella riga selezionata.
 15. La pagina consente la visualizzazione dei dipendenti iscritti al benefit e di tutti i dipendenti non iscritti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

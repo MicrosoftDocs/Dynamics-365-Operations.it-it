@@ -178,3 +178,6 @@ Si verificano i seguenti eventi:
 - Il rilascio a un magazzino viene attivato per l'ordine cliente associato.
 - In base al rilascio, viene creato il lavoro di spedizione e cross-docking. Questo lavoro indica all'operatore del magazzino di prelevare le quantità richieste per soddisfare la riga ordine cliente e metterle nell'ubicazione in uscita specificata nella direttiva di ubicazione di cross-docking.
 - Se la quantità dell'ordine di produzione è maggiore della quantità richiesta dall'ordine cliente, viene creato il lavoro di stoccaggio regolare. Questo lavoro indica all'operatore del magazzino di prelevare la quantità di prodotti finiti rimanente dopo cross-docking e spostarla nell'ubicazione normale, a seconda della direttiva di ubicazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

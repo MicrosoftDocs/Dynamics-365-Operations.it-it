@@ -53,3 +53,6 @@ Prima di poter impostare gli addetti alla manutenzione responsabili, è necessar
 Nella figura seguente è illustrato un esempio della pagina **Addetti alla manutenzione responsabili**.
 
 ![Pagina Addetti alla manutenzione responsabili](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

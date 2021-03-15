@@ -105,3 +105,6 @@ Per modificare il percorso dell'URL, eseguire le operazioni indicate di seguito.
 [Tagliare immagini](dam-crop-images.md)
 
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

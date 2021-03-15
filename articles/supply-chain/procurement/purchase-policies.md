@@ -150,3 +150,6 @@ La regola di consolidamento domanda e creazione ordini fornitore definisce le re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

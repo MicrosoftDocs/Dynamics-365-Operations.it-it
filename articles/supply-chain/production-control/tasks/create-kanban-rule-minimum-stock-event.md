@@ -67,3 +67,6 @@ Questa procedura si concentra sulla configurazione necessaria per creare una reg
 5. Espandere la sezione Kanban.
     * Notare che un kanban è stato creato per trasferire il materiale necessario per il magazzino 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

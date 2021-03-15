@@ -67,3 +67,6 @@ I record dei prezzi di acquisto per gli articoli, inoltre, vengono utilizzati co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

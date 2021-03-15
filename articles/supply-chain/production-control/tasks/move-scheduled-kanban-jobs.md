@@ -61,3 +61,6 @@ Questa procedura riguarda lo spostamento di processi kanban di lavorazione piani
 2. Fare clic su **Avanti**. Si noti che il processo viene spostato una riga verso il basso nell'elenco. 
 
 3. Fare clic su **Indietro**. Si noti che il processo viene spostato una riga verso l'alto nell'elenco.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

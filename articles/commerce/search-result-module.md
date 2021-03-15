@@ -90,3 +90,6 @@ Per aggiungere un modulo di risultati di ricerca a una pagina di categoria effet
 [Panoramica della libreria moduli](starter-kit-overview.md)
 
 [Modulo visualizzazione rapida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

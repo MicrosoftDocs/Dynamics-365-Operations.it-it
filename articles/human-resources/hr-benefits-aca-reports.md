@@ -87,3 +87,6 @@ Se devi segnalare le persone coperte perché fornisci una copertura autoassicura
 
 > [!NOTE]
 > Solo i piani di benefit contrassegnati come **Segnalabile ACA** vengono visualizzati nella finestra di richiesta di informazioni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Per ulteriori informazioni sui report elettronici, vedere [Panoramica dei report
 - [Impostare un metodo di pagamento per bonifico ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Impostare un metodo di pagamento per addebito diretto ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Impostare i fornitori e i conti bancari dei fornitori per i bonifici ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

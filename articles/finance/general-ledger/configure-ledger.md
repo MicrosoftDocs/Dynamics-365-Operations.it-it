@@ -81,3 +81,6 @@ Se utilizzi due valute o se utilizzi un'unica valuta ma le transazioni vengono r
 I profitti e le perdite realizzati sono i profitti e le perdite realizzati dalle transazioni completate. Sono registrati nel rendiconto profitti e perdite. I guadagni e le perdite non realizzati sono profitti e perdite che si sono materializzati, ma la cui transazione non è stata completata. In altre parole, hai registrato una fattura, ad esempio, ma la fattura non è stata ancora liquidata e pagata. I profitti e le perdite non realizzati sono registrati nello stato patrimoniale.
 
 Per ulteriori informazioni su come utilizzare due valute, vedi [Doppia valuta](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

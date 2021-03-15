@@ -98,3 +98,6 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | 3        | Codice postale di inizio destinazione | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 4        | Codice postale di fine destinazione   | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 5        | Paese di destinazione           | Assegnazione | Stringa    | Paese |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

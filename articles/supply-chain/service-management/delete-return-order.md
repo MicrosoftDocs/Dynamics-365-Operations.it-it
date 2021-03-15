@@ -43,3 +43,6 @@ Utilizzare il modulo **Elimina ordine di reso** per eliminare più ordini di res
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Questo problema si verifica quando la quantità della transazione di magazzino v
 
 > [!IMPORTANT]
 > Si consiglia vivamente di modificare con attenzione lo script come richiesto per il proprio ambiente, di testarlo in un ambiente di test e quindi di controllare i dati ottenuti prima di eseguire lo script in un ambiente di produzione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

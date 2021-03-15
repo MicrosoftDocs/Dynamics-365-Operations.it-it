@@ -150,3 +150,6 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 
 3. Nel campo **Ambiente** immettere il nome dell'ambiente del componente aggiuntivo Fatturazione elettronica.
 4. Selezionare **Salva**, quindi chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

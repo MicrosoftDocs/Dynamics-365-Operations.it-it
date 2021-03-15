@@ -61,3 +61,6 @@ Dopo aver importato i dati storici della domanda, è possibile generare una prev
 
 [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)  
 [Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

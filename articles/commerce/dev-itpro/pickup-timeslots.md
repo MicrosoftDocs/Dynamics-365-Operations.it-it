@@ -127,3 +127,6 @@ Nell'app del servizio clienti, gli agenti del servizio clienti possono seleziona
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Modulo di informazioni sul ritiro](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

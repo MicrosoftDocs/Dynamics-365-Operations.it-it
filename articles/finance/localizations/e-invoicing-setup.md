@@ -360,3 +360,6 @@ Segui questi passaggi per gestire il ciclo di vita della funzionalità del compo
 
     > [!NOTE]
     > Quando selezioni **Sì**, lo stato delle versioni di configurazione viene modificato automaticamente da **Completato** a **Condiviso**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

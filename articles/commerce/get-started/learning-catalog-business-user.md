@@ -51,3 +51,6 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 | Contenuto | descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configurare e utilizzare l'e-commerce in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | I canali online e il sito di e-commerce di Dynamics 365 Commerce consentono ai rivenditori di creare una presenza online del proprio marchio. | Percorso di apprendimento online gratuito autonomo | 4 ore   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

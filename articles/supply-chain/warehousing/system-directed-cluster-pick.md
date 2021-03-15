@@ -206,3 +206,6 @@ Prima di poter impostare il prelievo cluster diretto al sistema, è necessario c
 1. L'ultimo passaggio sul dispositivo mobile consiste nell'**inserire** il cluster nella posizione finale. Selezionare **OK**.
     - Quando l'operazione di inserimento viene confermata, il cluster viene chiuso e suddiviso, in base al valore impostato per il campo **Suddividi il cluster a** nel profilo cluster. Anche gli ID lavoro vengono chiusi.
 1. Sul dispositivo mobile viene visualizzato il messaggio "Cluster completato".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Vengono visualizzate le informazioni sulla copertura per le persone a carico del
 
 > [!NOTE]
 > La pagina mostra solo i piani di benefit contrassegnati come **Segnalabile ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

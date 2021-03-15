@@ -55,3 +55,6 @@ In questa guida attività verrà illustrata la creazione e l'acquisizione di un 
 17. Nell'elenco fare clic sul collegamento nella riga selezionata.
 18. Fare clic su **Registra**. Il cespite verrà creato e acquisito quando viene registrata la fattura.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

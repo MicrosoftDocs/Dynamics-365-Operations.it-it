@@ -91,3 +91,6 @@ I prerequisiti per eseguire la procedura con un altro set di dati sono un prodot
 12. Chiudere la pagina.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

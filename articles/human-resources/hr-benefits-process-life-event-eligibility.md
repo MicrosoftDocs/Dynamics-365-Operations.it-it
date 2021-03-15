@@ -48,3 +48,6 @@ In questo articolo viene illustrato come eseguire l'elaborazione dell'idoneità 
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

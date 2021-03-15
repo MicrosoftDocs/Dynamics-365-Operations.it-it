@@ -69,3 +69,6 @@ In questa procedura viene illustrato come abilitare il processo di retribuzione 
 7. Fare clic su Modifica.
 8. Nel campo Accordo salariale immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

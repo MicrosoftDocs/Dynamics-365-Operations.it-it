@@ -89,3 +89,6 @@ Questa procedura indica come soddisfare un contratto di vendita associando gli o
 23. Fare clic su Contratto di vendita allegato.
 24. Fare clic sulla scheda Evasione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

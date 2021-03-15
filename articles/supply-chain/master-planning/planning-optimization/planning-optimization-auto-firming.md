@@ -66,3 +66,6 @@ Sia l'ottimizzazione di pianificazione che il motore di pianificazione integrato
 - La stabilizzazione automatica si basa sulla data del fabbisogno (data di fine).
 - Per garantire che gli ordini vengano stabilizzati in tempo utile, l'intervallo temporale per la stabilizzazione deve essere più lungo del lead time.
 - Se si desidera stabilizzare tutti gli ordini che devono iniziare nella settimana corrente, l'intervallo temporale per la stabilizzazione deve essere il lead time più una settimana.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

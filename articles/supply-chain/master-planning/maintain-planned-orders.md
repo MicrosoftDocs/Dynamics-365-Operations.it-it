@@ -67,3 +67,6 @@ Se si prevede di stabilizzare più ordini contemporaneamente, parallelizzare l'e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

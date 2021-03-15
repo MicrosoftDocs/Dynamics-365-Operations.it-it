@@ -53,3 +53,6 @@ Risorse aggiuntive
 
 [Creare un nuovo mandato di addebito diretto per un cliente](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

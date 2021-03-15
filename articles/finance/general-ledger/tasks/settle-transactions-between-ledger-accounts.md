@@ -48,3 +48,6 @@ Questa procedura mostra come compensare le transazioni tra diversi conti CoGe e 
 7. Fare clic su Compensazioni dei saldi contabili.
 8. Nell'elenco contrassegnare la riga selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

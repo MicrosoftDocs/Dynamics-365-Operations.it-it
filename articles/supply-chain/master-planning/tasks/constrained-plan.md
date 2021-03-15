@@ -52,3 +52,6 @@ La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 3. Selezionare **OK**.
 4. Selezionare **Ordini pianificati**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

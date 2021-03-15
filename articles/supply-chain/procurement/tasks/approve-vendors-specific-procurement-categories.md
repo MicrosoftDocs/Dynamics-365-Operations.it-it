@@ -43,3 +43,6 @@ In questo argomento viene descritto come approvare i fornitori per categorie di 
 13. Selezionare **No** nel campo **Eredita fornitori dalla categoria padre**.
 14. Selezionare **Sì** nel campo **Eredita fornitori dalla categoria padre**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

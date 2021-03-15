@@ -66,3 +66,6 @@ Utilizzare questa procedura per creare e assegnare i criteri di allocazione cost
 5. Nel campo Unità di controllo costi immettere o selezionare un valore.
 6. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

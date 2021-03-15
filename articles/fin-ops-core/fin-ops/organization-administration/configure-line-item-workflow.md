@@ -54,3 +54,6 @@ Per specificare di utilizzare lo stesso flusso di lavoro per elaborare tutte le 
     6. Per verificare la correttezza della configurazione del set di condizioni immesse, fare clic su **Test**. Nella pagina **Test condizione flusso di lavoro**, nell'area **Convalida condizione**, selezionare un record e fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite. Fare clic su **OK** o su **Annulla** per tornare alla pagina **Proprietà**.
 
     Nella scheda **Flusso di lavoro** selezionare il flusso di lavoro da utilizzare per elaborare le voci che soddisfano il set di condizioni definite.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

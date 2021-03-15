@@ -99,3 +99,6 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
 
 - [Panoramica dei report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

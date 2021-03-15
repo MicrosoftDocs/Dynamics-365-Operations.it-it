@@ -57,3 +57,6 @@ Utilizzare i passaggi seguenti per riassegnare un'attività a un altro lavorator
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ La tabella seguente descrive i campi disponibili nella scheda **Gestione modific
 | Regola gravità | Selezionare come stabilire la gravità di un ordine di modifica di progettazione. Selezionare *Manuale* se si prevede che l'utente immetta un valore nel campo **Gravità**. Selezionare *Calcola* per fare in modo che il sistema calcoli il valore di **Gravità** quando si seleziona **Calcola gravità** nel riquadro azioni dell'ordine di modifica di progettazione. In questo caso, il sistema utilizzerà le regole di gravità definite nella pagina **Set regole di gravità**. Selezionare *Calcola automaticamente* in modo che il valore del campo **Gravità** venga calcolato e compilato automaticamente in base ai set di regole di gravità. |
 | Nuovo rilascio prodotti interessati | Questo campo è applicabile quando i prodotti vengono nuovamente rilasciati tramite un ordine di modifica di progettazione. È possibile selezionare se proporre tutti i prodotti o solo i prodotti interessati nella finestra di dialogo **Rilasci**. |
 | Livelli DBA da rilasciare | Profondità del livello DBA da rilasciare. Se la distinta base ha più livelli (ovvero, se è più profonda) del valore qui specificato, verranno rilasciati solo i livelli fino al valore specificato. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

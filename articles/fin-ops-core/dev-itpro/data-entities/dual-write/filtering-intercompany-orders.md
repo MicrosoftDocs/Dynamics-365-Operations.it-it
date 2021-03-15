@@ -66,3 +66,6 @@ Ciascuna delle tabelle standard Dataverse è estesa tramite riferimenti alla col
 8. Dopo aver esteso l'entità **Offerte**, applicare un filtro con `CUSTGROUP != "<company>"` come stringa di query.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Finestra di dialogo Modifica query per l'intestazione offerta di vendita CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

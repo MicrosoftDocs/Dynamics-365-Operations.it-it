@@ -127,3 +127,6 @@ I valori di stile del set di impostazioni diventano attivi nel sito Web visibile
 [Aggiungere lingue al sito](add-languages-to-site.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

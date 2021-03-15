@@ -122,3 +122,6 @@ In questa guida attività verranno impostati i profili registrazione cespiti.  U
 88. Nel campo **Conto principale**, specificare i valori desiderati.
 89. Nel campo **Conto di contropartita**, specificare i valori desiderati.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

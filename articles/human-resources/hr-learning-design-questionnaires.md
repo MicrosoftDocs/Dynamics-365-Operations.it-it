@@ -236,3 +236,5 @@ Per utilizzare le domande condizionali per creare una gerarchia di domande in un
 Una persona giuridica offre sia gli articoli sia i servizi ai clienti. Come accade in genere in questi casi, alcuni clienti acquistano solo gli articoli, altri solo i servizi e alcuni acquistano entrambi. Pertanto, se la persona giuridica distribuisce un sondaggio relativo alla soddisfazione clienti, può applicare una struttura condizionale al questionario in modo da evitare che i clienti che acquistano solo servizi debbano rispondere alle domande sugli articoli. 
 
 In alternativa, è possibile impostare un questionario in modo che se un intervistato seleziona la risposta A per la domanda 1, la domanda 2 è quella successiva nella sequenza. Tuttavia, se l'intervistato seleziona la risposta B per la domanda 1, la domanda successiva è la numero 5.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

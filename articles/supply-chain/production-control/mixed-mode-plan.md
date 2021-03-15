@@ -68,3 +68,6 @@ Per una flessibilità completa in modalità mista, si consiglia di utilizzare DB
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

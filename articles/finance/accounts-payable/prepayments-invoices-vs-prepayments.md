@@ -65,3 +65,6 @@ Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

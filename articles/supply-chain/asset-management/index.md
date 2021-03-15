@@ -37,3 +37,6 @@ L'immagine seguente è un'illustrazione delle interfacce per altri moduli in Fin
 ![Panoramica su come Gestione cespiti si integra](media/overview-integrate2.jpg)
 
 Gestione cespiti consente di gestire e eseguire in modo efficiente le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società, come macchine, attrezzature di produzione e veicoli. Gestione cespiti supporta soluzioni per numerosi settori.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

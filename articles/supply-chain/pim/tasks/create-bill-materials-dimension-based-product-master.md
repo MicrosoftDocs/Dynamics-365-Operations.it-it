@@ -78,3 +78,6 @@ Per questa procedura è necessario completare le 4 guide precedenti di questa se
 5. Fare clic su OK.
 6. Fare clic su Attiva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

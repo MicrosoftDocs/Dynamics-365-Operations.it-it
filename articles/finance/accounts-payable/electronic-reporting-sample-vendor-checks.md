@@ -43,3 +43,6 @@ Microsoft Dynamics 365 Finance include un formato di esempio in cui l'assegno è
 - Quando vengono generati i pagamenti per il conto bancario configurato nel giornale di registrazione pagamenti, gli assegni verranno stampati utilizzando il formato specificato.
 
 Per ulteriori informazioni, vedere [Modificare un formato per la creazione di report elettronici](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

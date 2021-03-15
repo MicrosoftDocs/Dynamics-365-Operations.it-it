@@ -85,3 +85,6 @@ Prima di creare un canale di Dynamics 365 Commerce, è necessario completare var
 [Impostare un canale di vendita al dettaglio](channel-setup-retail.md)
     
 [Impostare un canale online](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

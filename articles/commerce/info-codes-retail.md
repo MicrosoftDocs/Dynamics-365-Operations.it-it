@@ -55,3 +55,6 @@ In Commerce è possibile creare gruppi di codici informativi. I gruppi di codici
 **Esempio 2: collegare i codici informativi ai gruppi di codici informativi**
 
 Quando si vendono alcuni prodotti, ad esempio i dispositivi mobili, si desidera sempre raccogliere un set di informazioni specifiche, ad esempio il numero di telefono, l'identificatore per l'attrezzatura mobile (MEID) e il numero di serie. Tuttavia, si desidera inoltre raccogliere informazioni diverse per un tablet rispetto a un telefono cellulare. È possibile impostare un gruppo di codici informativi che includa le richieste del numero di telefono, del MEID e del numero di serie e quindi collegare il gruppo di codici informativi a un singolo codice informativo. Quando il codice informativo specifico del prodotto viene attivato, il gruppo del codici informativo può essere attivato successivamente per consentire di raccogliere i dati comuni senza dover definire più insiemi di codici informativi collegati per ogni dispositivo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

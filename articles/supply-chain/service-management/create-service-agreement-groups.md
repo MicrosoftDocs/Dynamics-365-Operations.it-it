@@ -42,3 +42,6 @@ I gruppi di contratti di assistenza sono utili per ordinare e filtrare i contrat
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Panoramica del contratto di assistenza](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

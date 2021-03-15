@@ -67,3 +67,6 @@ Per selezionare il tema che viene applicato al sito, procedere come segue.
 
 [Creare un nuovo tema](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

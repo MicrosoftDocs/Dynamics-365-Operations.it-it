@@ -108,3 +108,5 @@ Come parte della chiamata all'API di invio, Human Resources esegue la convalida 
 
 - [Panoramica di MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Autenticazione](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

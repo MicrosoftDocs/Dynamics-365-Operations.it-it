@@ -44,3 +44,6 @@ In questo argomento viene illustrato come concedere ai lavoratori l'autorizzazio
 2. Utilizzare il filtro rapido per trovare il lavoratore appena aggiunto come richiedente.
 3. Selezionare il richiedente. L'elenco Preparatore mostra le persone che hanno l'autorizzazione a ordinare articoli per conto del richiedente che è selezionato nel riquadro sinistro.  Potete aggiungere preparatori supplementari qui. Questa visualizzazione inoltre vi consente di concedere al richiedente l'autorizzazione a creare le richieste in persone giuridiche e unità operative che non sono la persona giuridica o l'unità operativa primaria di quella persona.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Anziché sommare la domanda alla fine di un processo di allocazione ed effettuar
 |   Direttive ubicazione   |                                                       Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte.                                                        |
 |     Modelli di lavoro      |                                                   Modelli di lavoro di tipo <strong>Rifornimento</strong> sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -302,3 +302,6 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     ![Grafici di confronto costi](./media/subcontract35_cost-comparison-charts.png)
 
 Mancata impostazione nei dati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -130,3 +130,6 @@ Questo scenario mostra come funziona la funzionalità per i magazzini impostati 
 
 > [!NOTE]
 > Lo stesso risultato è previsto quando la seconda riga è parzialmente prenotata. In questo caso, il lavoro verrà creato per la quantità di riga prenotata ma non per la quantità senza prenotazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

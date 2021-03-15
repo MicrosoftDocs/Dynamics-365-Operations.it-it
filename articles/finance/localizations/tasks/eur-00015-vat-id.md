@@ -60,3 +60,6 @@ Queste informazioni si applicano a tutti i paesi europei. Questa attività è st
     * Assegnare il tipo di registrazione creato a una categoria predefinita di registrazione.  
 22. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

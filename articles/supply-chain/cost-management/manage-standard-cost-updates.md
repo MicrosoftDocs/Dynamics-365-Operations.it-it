@@ -51,3 +51,6 @@ L'attivazione di un nuovo prezzo standard rivaluterà in genere il valore delle 
 - **Nessuno**: nelle transazioni di rivalutazione non viene registrata alcuna dimensione finanziaria. Se nella struttura dei conti è presente una dimensione finanziaria obbligatoria, il processo di rivalutazione viene comunque eseguito e crea le voci contabili prive di dimensioni finanziarie. In questo caso, gli utenti riceveranno prima un messaggio di avviso, in modo che possano annullare la rivalutazione se necessario.
 - **Tabella**: le dimensioni finanziarie dell'articolo vengono registrate nelle transazioni di rivalutazione. Questa è l'impostazione predefinita ed è coerente con il comportamento del sistema originale senza attivare la funzionalità *Opzioni di dimensioni finanziarie predefinite per la rivalutazione del costo standard dell'inventario*.
 - **Registrazioni**: nelle transazioni di rivalutazione vengono registrate le dimensioni finanziarie della transazione da rivalutare. Per impostazione predefinita, le dimensioni finanziarie del conto inventario della transazione originale verranno utilizzate sia per il conto inventario che per il conto di rivalutazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

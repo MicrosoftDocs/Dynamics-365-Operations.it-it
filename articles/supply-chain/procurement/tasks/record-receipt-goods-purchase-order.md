@@ -48,3 +48,6 @@ Questa argomento descrive come registrare l'entrata delle merci direttamente su 
 6. Impostare **Quantità** su '4'. Qui potete specificare manualmente la quantità che si sta ricevendo per ogni riga sull'ordine.  
 7. Selezionare **OK**. Le merci ora sono state registrate come ricevute sull'ordine fornitore e un giornale di registrazione entrata prodotti è stato creato come documento per riflettere questo. Potete usare l'azione Entrata prodotti per esaminare i giornali di registrazione creati con l'ordine fornitore e vedere che cosa è stato ricevuto e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Queste attività sono destinate agli amministratori di sistema.
 8. Nel campo Paese, digitare 'PRT'.
 9. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

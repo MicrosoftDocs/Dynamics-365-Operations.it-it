@@ -99,3 +99,6 @@ Nella figura seguente è illustrato un esempio della pagina **Ordine fornitore**
 
 Analogamente, per visualizzare o inserire il numero di attività correlato a una richiesta di ordine fornitore, nella pagina elenco **Richiesta di acquisto ordine di lavoro**, selezionare il record della richiesta di acquisto e nella colonna **Richiesta di acquisto** selezionare il collegamento della richiesta di acquisto. Il campo **Numero attività** è disponibile nella scheda **Progetto** della scheda dettaglio **Dettagli riga**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

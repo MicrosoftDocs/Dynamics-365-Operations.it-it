@@ -75,3 +75,6 @@ I seguenti campi sono disponibili per ogni processo elencato nella scheda dettag
 | Polizza | Selezionare uno dei seguenti valori per controllare se e come il processo corrente sarà consentito per i prodotti che si trovano in questo stato del ciclo di vita:<ul><li>**Abilitato** - Il processo aziendale è consentito.</li><li>**Bloccato** - Il processo non è consentito. Se un utente tenta di utilizzare il processo su un prodotto che si trova in questo stato del ciclo di vita, il sistema bloccherà il tentativo e mostrerà un errore. Ad esempio, si potrebbe bloccare l'acquisto dei prodotti a fine vita.</li><li>**Abilitato con avviso** - Il processo è consentito, ma verrà visualizzato un avviso. Ad esempio, si potrebbe desiderare che un prodotto prototipo venga inserito in un ordine di produzione creato dal reparto Ricerca e sviluppo. Tuttavia, gli altri reparti devono essere consapevoli che non devono ancora produrre il prodotto.</li></ul> |
 
 Se stai aggiungendo più regole dello stato del ciclo di vita come personalizzazione, puoi visualizzare tali regole nell'interfaccia utente selezionando **Aggiorna processi** nel riquadro superiore. I pulsante **Aggiorna processi** è disponibile solo per gli amministratori.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

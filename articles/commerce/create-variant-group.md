@@ -72,3 +72,6 @@ L'immagine seguente mostra un esempio di un gruppo di dimensioni per "taglie di 
 [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md)
 
 [Dimensioni prodotto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

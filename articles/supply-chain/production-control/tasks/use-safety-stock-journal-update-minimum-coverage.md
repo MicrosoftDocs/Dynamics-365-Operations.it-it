@@ -65,3 +65,6 @@ Questa procedura mostra come calcolare le proposte di copertura minima basate su
 5. Nel **riquadro azioni**, fare clic su Piano.
 6. Fare clic su **Copertura articoli**. Notare che la **quantità minima** è stata aggiornata con la nuova quantità minima dal giornale di registrazione delle scorte di sicurezza.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

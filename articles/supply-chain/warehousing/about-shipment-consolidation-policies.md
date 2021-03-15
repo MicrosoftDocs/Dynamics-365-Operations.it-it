@@ -134,3 +134,6 @@ La tabella seguente riepiloga il funzionamento del consolidamento delle spedizio
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

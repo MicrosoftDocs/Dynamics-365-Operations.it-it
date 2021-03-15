@@ -110,3 +110,6 @@ Il costo orario corretto e il tempo necessario per il processo vengono registrat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Il responsabile di retribuzione e benefit può assegnare i dipendenti a piani di
     * Se il piano di retribuzione fissa è un piano di tipo Fase, selezionare la fase contenente la tariffa retributiva corretta per il dipendente. Se il piano di retribuzione fissa è un piano di tipo Fascia o Scala, immettere la tariffa retributiva per il dipendente. La tariffa retributiva verrà convalidata rispetto alle impostazioni di tolleranza per il piano e ai punti di riferimento minimo e massimo per il livello retributivo della mansione.  
 8. Fare clic su OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

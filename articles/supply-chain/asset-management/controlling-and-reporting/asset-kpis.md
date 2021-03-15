@@ -89,3 +89,6 @@ Nella figura seguente è illustrata una schermata di un calcolo KPI per quattro 
 - È possibile selezionare più cespiti in **Tutti i cespiti** e fare clic sul pulsante **KPI del cespite** nella scheda **Generale**. Quindi, fare clic su **OK** nella finestra di dialogo **Calcola KPI cespite** per calcolare i KPI per i cespiti selezionati.  
 - I risultati di un calcolo KPI possono o meno includere [registrazioni di tempi di fermo per la manutenzione](../work-orders/maintenance-downtime.md), in base all'impostazione e all'utilizzo dei codici motivo dei tempi di fermo per la manutenzione. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

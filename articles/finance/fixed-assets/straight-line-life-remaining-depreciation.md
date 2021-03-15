@@ -79,3 +79,6 @@ L'importo di ammortamento è uguale ogni anno: (Costo di acquisizione – Valore
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

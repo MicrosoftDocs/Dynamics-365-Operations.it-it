@@ -135,3 +135,6 @@ Le convalide dei numeri di serie si verificheranno anche quando un utente esegue
 [Operazione di magazzino in ingresso in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operazione di magazzino in uscita in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

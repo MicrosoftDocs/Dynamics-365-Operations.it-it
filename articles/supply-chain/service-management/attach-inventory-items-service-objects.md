@@ -50,3 +50,6 @@ L'articolo è ora collegato all'oggetto assistenza e le eventuali dimensioni inv
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resour
 3. Selezionare **Salva**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

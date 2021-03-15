@@ -139,3 +139,6 @@ Specificare i valori seguenti per impostare il profilo registrazione:
 
 Per ulteriori informazioni, vedere [Panoramica pagamenti cliente](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

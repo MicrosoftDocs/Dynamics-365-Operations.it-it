@@ -60,3 +60,6 @@ Nella tabella seguente vengono illustrati gli stati documento possibili degli el
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Personalizzare la navigazione del sito](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

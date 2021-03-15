@@ -39,3 +39,6 @@ Il lavoro di prelievo è bloccato a causa del lavoro di rifornimento dipendente.
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Quando si utilizza il rifornimento della domanda ciclo, se un'ubicazione di prelievo deve essere rifornita per soddisfare la domanda dell'ordine di origine, il sistema crea sia il lavoro di rifornimento che il lavoro di prelievo. Tuttavia, blocca il lavoro di prelievo fino al completamento del lavoro di rifornimento. Questo comportamento è intenzionale, perché l'ubicazione di prelievo non avrà scorte sufficienti a meno che il lavoro di rifornimento non sia completato. Completare il lavoro di rifornimento e quindi elaborare il lavoro di prelievo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

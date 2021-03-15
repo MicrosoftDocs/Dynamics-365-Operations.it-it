@@ -40,3 +40,6 @@ In questa procedura viene illustrato come definire le unità di controllo costi 
 10. Nel campo Dimensione immettere o selezionare un valore.
 11. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

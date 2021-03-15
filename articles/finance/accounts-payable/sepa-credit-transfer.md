@@ -125,3 +125,6 @@ Quando si generano pagamenti, viene generato il file di pagamento e viene richie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

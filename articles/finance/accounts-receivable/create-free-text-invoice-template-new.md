@@ -67,3 +67,6 @@ Per questa procedura utilizzare la società dimostrativa USMF. Questa procedura 
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Salvare un modello di fattura a testo libero
 È inoltre possibile salvare una fattura a testo libero esistente come modello. Quando si seleziona Salva come modello dalla scheda Fattura, immettere un nome e una descrizione per il modello. Se un modello con il nome è già presente, vedrete una notifica in un modello con il nome esistente. È comunque possibile fare clic su OK per sostituirlo. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

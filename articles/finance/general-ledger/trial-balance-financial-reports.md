@@ -109,3 +109,6 @@ Ogni report di bilancio di verifica utilizza una definizione di colonna diversa.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

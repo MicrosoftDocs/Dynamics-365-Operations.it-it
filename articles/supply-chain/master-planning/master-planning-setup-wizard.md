@@ -208,3 +208,6 @@ Nella procedura guidata, i seguenti valori vengono immessi per Contoso Retailer:
     - **Risposta:** "Sì, come definito nel piano generale". **1 giorno** viene immesso.
 
     Contoso utilizza le richieste approvate dei punti vendita per creare ordini fornitore pianificati per rifornire questi punti vendita. Poiché la pianificazione generale viene eseguita ogni giorno, le richieste dall'ultimo giorno verranno incluse nella programmazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

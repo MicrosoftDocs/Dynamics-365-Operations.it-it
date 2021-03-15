@@ -103,3 +103,6 @@ Per aggiungere un modulo Galleria multimediale in una pagina di marketing, effet
 [Modulo contenitore](add-container-module.md)
 
 [Caricare immagini](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Per correggere, rettificare o aggiornare i costi standard dei nuovi articoli, ef
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

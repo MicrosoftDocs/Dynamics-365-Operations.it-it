@@ -96,3 +96,6 @@ Per modificare i metadati della pagina, effettuare le operazioni seguenti.
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
 
 [Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Nella tabella riportata di seguito sono elencati i moduli di supporto ai compone
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

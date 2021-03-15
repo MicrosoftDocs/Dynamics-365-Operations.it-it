@@ -109,3 +109,6 @@ Per ulteriori informazioni, vedere [Crediti e riscossioni in Contabilità client
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

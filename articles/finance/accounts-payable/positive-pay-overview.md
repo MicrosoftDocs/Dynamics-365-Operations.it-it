@@ -48,3 +48,6 @@ Per ulteriori informazioni, vedere [Impostare e generare file di pagamenti sicur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

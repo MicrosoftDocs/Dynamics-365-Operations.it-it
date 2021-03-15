@@ -60,3 +60,6 @@ Oltre ai report finanziari, è possibile utilizzare i seguenti report di contabi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
