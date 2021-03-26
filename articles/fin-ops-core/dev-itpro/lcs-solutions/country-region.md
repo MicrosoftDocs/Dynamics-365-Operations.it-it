@@ -1,27 +1,26 @@
 ---
 title: Risorse di globalizzazione
 description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154121"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560920"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
@@ -55,7 +54,6 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 
 #### <a name="regulatory-updates"></a>Aggiornamenti normativi
 -   [Aggiornamenti normativi](../../../finance/localizations/regulatory-updates.md)
--   [Portale di localizzazione](https://docs.microsoft.com/dynamics/s-e/) (aggiornamenti settimanali)
 -   [Ricerca argomento in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)
 
 #### <a name="communication-and-alerts"></a>Comunicazione e avvisi

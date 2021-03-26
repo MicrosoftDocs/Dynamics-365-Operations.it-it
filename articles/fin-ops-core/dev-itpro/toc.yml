@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 10.0.18 (maggio 2021)
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform update 10.0.17 (aprile 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform update 10.0.16 (febbraio 2021)
@@ -22,6 +24,8 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Funzionalità rimosse o deprecate
               items:
+                - name: Home page delle funzionalità rimosse o deprecate
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Funzionalità di Platform rimosse o deprecate
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Funzionalità rimosse o deprecate nelle versioni precedenti
@@ -36,8 +40,10 @@
               href: business-events/home-page.md
             - name: Eventi aziendali per applicazione
               href: business-events/app-business-events.md
-            - name: Eventi aziendali per flusso di lavoro
+            - name: Eventi aziendali del flusso di lavoro
               href: business-events/business-events-workflow.md
+            - name: Eventi aziendali in batch
+              href: business-events/system-business-events.md
             - name: Avvisi come eventi aziendali
               href: business-events/alerts-business-events.md
             - name: Eventi aziendali in Microsoft Flow
@@ -216,10 +222,14 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Cespiti interni per l'assistenza
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Lavoratore, mansione e posizione integrati'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Disponibilità scorte
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Lavoratore, mansione e posizione integrati'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Integrazione della nota
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Riferimento di mapping
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Supporto per scrittura doppia
                           items:
                             - name: Supporto per soluzioni Field Service e Project Service Automation
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Creare una connessione a Lifecycle Services (LCS) in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Aggiornare la Azure Pipeline ospitata per nuovi pacchetti NuGet
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Aggiornare una pipeline legacy in Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Applicazione di esempio di gestione flotta
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Monitoraggio e diagnostica
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Report analisi di impatto
-              href: lifecycle-services/impact-analysis-report.md
             - name: Riavviare i servizi dell'ambiente
               href: lifecycle-services/restart-environment-services.md
             - name: Segnalare un'interruzione della produzione
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Esportare utenti B2B in Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Manutenzione dei dati
+              href: sysadmin/DataMaintenancePortal.md
             - name: Sicurezza
               items:
                 - name: Sicurezza basata sui ruoli
