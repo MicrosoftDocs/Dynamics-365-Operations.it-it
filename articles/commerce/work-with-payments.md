@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 939776b7bf55eafa8ca548905faa47cfa578a7e0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210805"
 ---
 # <a name="payment-methods-in-call-centers"></a>Metodi di pagamento nei servizi clienti
 
@@ -37,7 +37,7 @@ Per configurare i metodi di pagamento per un canale servizio clienti, passare a 
 
 Quando si crea un metodo di pagamento, sono disponibili cinque funzioni del metodo di pagamento che è possibile assegnare.
 
-| Funzione            | descrizione |
+| Funzione            | Descrizione |
 |---------------------|-------------|
 | Normale              | Utilizzare la funzione **Normale** nel metodo di pagamento quando si definiscono i metodi di pagamento quali contanti o buoni. Quando questi tipi di pagamenti vengono applicati a un ordine cliente nel servizio clienti, il flag **Pagamento anticipato** è impostato per impostazione predefinita su **Sì**. In questo modo verrà registrato immediatamente un giustificativo di pagamento anticipato nel conto cliente quando l'ordine viene inviato. Gli utenti possono cambiare il flag **Pagamento anticipato** su **No** se lo desiderano in modo che il giustificativo di pagamento non venga creato fino alla registrazione della fattura. Il giustificativo di pagamento anticipato viene registrato nello storico delle transazioni del cliente, dove verrà compensato in modo sistematico nella fattura per l'ordine cliente. |
 | Verifica               | Utilizzare la funzione **Assegno** quando si definisce uno strumento assegno bancario come forma di pagamento. Quando questo tipo di pagamento viene applicato a un ordine cliente, l'utente deve immettere il numero di assegno del cliente come parte dell'elaborazione dell'applicazione di pagamento. Anche i pagamenti con assegni vengono trattari come pagamenti anticipati quando vengono applicati e i giustificativi di pagamento vengono creati immediatamente al ricevimento dell'ordine. Questi giustificativi di pagamento anticipato verranno liquidati in modo sistematico in base alle fatture create per l'ordine. |

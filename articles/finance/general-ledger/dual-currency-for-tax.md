@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3f7ca56fef636431e152b2db424f1f972a507721
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978604"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212207"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Supporto a doppia valuta per l'IVA
 [!include [banner](../includes/banner.md)]
@@ -81,7 +81,7 @@ Importo imposte = 100 EUR
 | Valuta di contabilizzazione             | 100                        | 111                       | 83                       | **83.25**          |
 | Valuta dichiarazione              | 100                        | 111                       | 83                       | **83**             |
 
-Questo parametro può essere configurato in base alle esigenze di conformità dell'autorità fiscale.
+Questo parametro può essere configurato in base alle esigenze di conformità dell'ufficio tributario.
 
 
 ### <a name="upgrade-consideration"></a>Considerazione sull'aggiornamento

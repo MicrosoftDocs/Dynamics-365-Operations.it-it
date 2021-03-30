@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a77196be69bb71d917bf84c633199a3af3fbf478
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b9325ef31fc61d451584930b09c2039156c0c05
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986031"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206585"
 ---
-# <a name="promo-banner-module"></a>Modulo Banner promozionale
+# <a name="promo-banner-module"></a>Modulo banner promozionale
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I moduli Banner promozionale sono utilizzati per visualizzare messaggi informativi incorporati in una pagina. Possono essere utilizzati per visualizzare promozioni in tutto le pagine di un sito di e-Commerce. 
 
@@ -54,7 +52,7 @@ L'immagine seguente mostra un esempio di banner promozionale.
 
 ## <a name="promo-banner-module-properties"></a>Proprietà dei moduli Banner promozionale
 
-| Nome proprietà             | Valore                              | descrizione |
+| Nome proprietà             | Valore                              | Descrizione |
 |---------------------------|------------------------------------|-------------|
 | Messaggi banner           | Testo e collegamenti                     | Una matrice di testo e collegamenti. |
 | Riproduzione automatica                  | **True** o **False**              | Un valore che indica se i messaggi vengono automaticamente passati in rassegna, se sono configurati più messaggi. |

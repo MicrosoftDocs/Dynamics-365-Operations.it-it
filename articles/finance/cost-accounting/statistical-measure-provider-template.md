@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208825"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelli di fornitori per membri di dimensioni statistiche e provider misure
 
@@ -63,7 +63,7 @@ Un membro di dimensione statistica diventa automaticamente una base di allocazio
 
 Di seguito sono riportati alcuni esempi di membri di dimensione statistica tipici.
 
-| Nome dimensione statistica  | Elementi statistici | descrizione             | Unità |
+| Nome dimensione statistica  | Elementi statistici | Descrizione             | Unità |
 |-----------------------------|----------------------|-------------------------|------|
 | Elementi statistici condivisi | FTE                  | Dipendenti a tempo pieno     | Cadauno  |
 | Elementi statistici condivisi | Elettricità          | Consumo di elettricità | kWh  |
@@ -93,7 +93,7 @@ La tabella HcmEmployment contiene un elenco di tutti i dipendenti nell'istanza. 
 
 Di seguito è riportato un esempio di dipendenti inclusi nella tabella HcmEmployment.
 
-| Nome       | Centro di costo | descrizione   | Tipo di lavoratore |
+| Nome       | Centro di costo | Descrizione   | Tipo di lavoratore |
 |------------|-------------|----|-------------|
 | Dipendente 1 | CC001       | Risorse umane | Dipendente    |
 | Dipendente 2 | CC002       | FI | Dipendente    |
@@ -154,7 +154,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza | Elemento statistico |   descrizione       | Centro di costo |
+| Data di registrazione | Grandezza | Elemento statistico |   Descrizione       | Centro di costo |
 |-----------------|-----------|---------------------|---------------------|-------------|
 | 31-01-2017      | 1,00      | FTE                | Dipendenti a tempo pieno | CC001       |
 | 31-01-2017      | 2.00      | FTE                | Dipendenti a tempo pieno | CC002       |
@@ -162,7 +162,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |  descrizione        | Grandezza |
+| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |  Descrizione        | Grandezza |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Risorse umane | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 1,00      |
 | CC002       | FI | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 2.00      |
@@ -170,7 +170,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 Se la base di allocazione del membro di dimensione predefinito dei dipendenti a tempo pieno è assegnata come base di allocazione in una regola di distribuzione costi, il costo verrà distribuito utilizzando il seguente fattore di allocazione.
 
-| Oggetto di costo | descrizione    | Grandezza | Fattore di allocazione |
+| Oggetto di costo | Descrizione    | Grandezza | Fattore di allocazione |
 |-------------|----|-----------|-------------------|
 | CC001       | Risorse umane | 1,00      | (1/5) × Importo    |
 | CC002       | FI | 2.00      | (2/5) × Importo    |
@@ -244,14 +244,14 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza | Elemento statistico |  descrizione          | Gruppo di prodotti         |
+| Data di registrazione | Grandezza | Elemento statistico |  Descrizione          | Gruppo di prodotti         |
 |-----------------|-----------|---------------------|-----------------------|-----------------------|
 | 31-01-2017      | 16,00     | CC di imballaggio             | Centro di costo per l'imballaggio | Orange juice B2B      |
 | 31-01-2017      | 8,00      | CC di imballaggio             | Centro di costo per l'imballaggio | Orange juice Consumer |
 
 **Voci statistiche**
 
-| Oggetto di costo           | Data di registrazione | Membro di dimensione statistica |    descrizione        | Grandezza |
+| Oggetto di costo           | Data di registrazione | Membro di dimensione statistica |    Descrizione        | Grandezza |
 |-----------------------|-----------------|------------------------------|-----------------------|-----------|
 | Orange juice B2B      | 31-01-2017      | CC di imballaggio                      | Centro di costo per l'imballaggio | 16,00     |
 | Orange juice Consumer | 31-01-2017      | CC di imballaggio                      | Centro di costo per l'imballaggio | 8,00      |
@@ -320,7 +320,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza  | Elemento di costo |   descrizione           | Centro di costo |
+| Data di registrazione | Grandezza  | Elemento di costo |   Descrizione           | Centro di costo |
 |-----------------|------------|--------------|-------------------------|-------------|
 | 31-01-2017      | 2,450.00   | Elettricità  | Consumo di elettricità | CC001       |
 | 31-01-2017      | 4,100.00   | Elettricità  | Consumo di elettricità | CC002       |
@@ -328,7 +328,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |      descrizione                   | Grandezza  |
+| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |      Descrizione                   | Grandezza  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | Risorse umane | 31-01-2017      | Elettricità                  | Consumo di elettricità | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Elettricità                  | Consumo di elettricità | 4,100.00   |

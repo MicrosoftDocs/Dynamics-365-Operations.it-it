@@ -1,6 +1,6 @@
 ---
 title: Modulo Contenitore
-description: In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+description: Questo argomento tratta i moduli Contenitore e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23d81eaee6684ff2b041f93edd05076af66d322d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980533"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206417"
 ---
-# <a name="container-module"></a>Modulo Contenitore
+# <a name="container-module"></a>Modulo contenitore
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
+Questo argomento tratta i moduli Contenitore e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
 Un modulo Contenitore è un modulo che include altri moduli. Lo scopo principale di un modulo Contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo Contenitore.
 
@@ -50,7 +48,7 @@ L'immagine seguente mostra un esempio di un modulo Contenitore che contiene un m
 
 ## <a name="container-module-properties"></a>Proprietà del modulo Contenitore
 
-| Nome proprietà     | Valori | descrizione |
+| Nome proprietà     | Valori | Descrizione |
 |-------------------|--------|-------------|
 | Intestazione           | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**), | Un'intestazione facoltativa può essere fornita per il contenitore. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Larghezza             | **Adatta a contenitore** o **Riempi schermo** | Se il valore è **Adatta a contenitore** (il valore predefinito), i moduli nel contenitore sono limitati alla larghezza del contenitore. Se il valore impostato è **Riempi schermo**, i moduli non sono limitati alla larghezza del contenitore ma possono essere visualizzati in modalità a schermo intero. |

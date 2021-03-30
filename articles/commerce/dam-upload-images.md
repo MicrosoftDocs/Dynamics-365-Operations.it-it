@@ -1,6 +1,6 @@
 ---
 title: Caricare immagini
-description: In questo argomento viene descritto come caricare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+description: In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 03/03/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963012"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213796"
 ---
 # <a name="upload-images"></a>Caricare immagini
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come caricare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
@@ -38,7 +38,7 @@ La libreria multimediale Creazione di siti Web Commerce consente di caricare le 
 
 Quando si carica un'immagine, è possibile specificare le seguenti informazioni.
 
-- **Titolo, testo alternativo, descrizione, parole chiave**: i metadati dell'immagine o delle immagini. Titolo e testo alternativo sono valori obbligatori.
+- **Titolo, testo alternativo, Descrizione, parole chiave**: i metadati dell'immagine o delle immagini. Titolo e testo alternativo sono valori obbligatori.
 - **Seleziona categoria**:
     - **Nessuna**: utilizzato per un'immagine o immagini di storytelling e-commerce.
     - **Prodotto, categoria, cliente, dipendente, catalogo**: usati per un'immagine o immagini omnicanale Dynamics 365 Commerce.

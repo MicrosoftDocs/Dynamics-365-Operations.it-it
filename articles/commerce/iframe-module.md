@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b7b5935a81377e0cb6acfc497eece6148bf1eeee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 178469d58e5cb619c3eacfa6760f0eaec18be0dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206134"
 ---
-# <a name="iframe-module"></a>Modulo iFrame
+# <a name="iframe-module"></a>Modulo Iframe
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto il modulo iFrame e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Un modulo iFrame fornisce un iFrame (frame in linea) che ospita contenuti esterni su un sito. Ad esempio, può essere utilizzato per ospitare un video YouTube o un visualizzatore di file PDF in qualsiasi pagina del sito. 
 
@@ -45,7 +43,7 @@ L'immagine seguente mostra esempi di moduli iFrame che presentano video esterni 
 
 ## <a name="iframe-module-properties"></a>Proprietà del modulo iFrame
 
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Intestazione | Testo | L'intestazione del modulo. |
 | URL destinazione | URL | L'URL ospitato nel modulo. |

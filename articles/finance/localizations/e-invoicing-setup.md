@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0561a3307f8b990c06dd25c9fc3fd7097254061f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209948"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Configurare il componente aggiuntivo per la fatturazione elettronica
 
@@ -119,11 +119,11 @@ Nella pagina **Configurazione versioni funzionalità**, nella scheda **Azioni**,
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Azioni**.
 
-| Campo        | descrizione |
+| Campo        | Descrizione |
 |--------------|-------------|
 | Azione       | Esistono otto azioni predefinite:<ul><li><strong>Firma documento</strong></li><li><strong>FileStoreActionName</strong></li><li><strong>Trasforma documento</strong></li><li><strong>Elabora risposta</strong></li><li><strong>Chiama servizio web REST</strong></li><li><strong>Chiama servizio PAC messicano</strong></li><li><strong>Chiama servizio SEFAZ brasiliano</strong></li><li><strong>Chiama servizio SDI italiano</strong></li></ul> |
 | Nome azione  | Il nome dell'azione e il relativo ordine di esecuzione. |
-| descrizione  | Una descrizione dell'azione. |
+| Descrizione  | Una descrizione dell'azione. |
 | Abilita nuovo tentativo | Una casella di controllo selezionata indica che l'azione può essere ripetuta se il tentativo precedente non ha avuto successo. |
 | Azione nuovo tentativo | In caso di nuovo tentativo, l'azione da cui viene avviato il nuovo tentativo. Il nuovo tentativo termina quindi con l'azione corrente (tentativo inclusivo). Per le azioni che includono tali parametri, il parametro **Backoff minimo** e **Backoff massimo** specificano il numero minimo e il numero massimo di tentativi. |
 
@@ -135,10 +135,10 @@ La Scheda dettaglio **Parametri** elenca i parametri per l'azione selezionata ne
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Parametri**.
 
-| Campo       | descrizione |
+| Campo       | Descrizione |
 |-------------|-------------|
 | Nome        | Un elenco predefinito di parametri. Per ulteriori informazioni, vedi la sezione [Elenco dei parametri per azione](#list-of-parameters-by-action). |
-| descrizione | Descrizione del parametro. |
+| Descrizione | Descrizione del parametro. |
 | Valore       | Valore del parametro. |
 
 #### <a name="list-of-parameters-by-action"></a>Elenco dei parametri per azione
@@ -147,7 +147,7 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-sign-document"></a>Azione: firma documento
 
-| Parametro                             | descrizione |
+| Parametro                             | Descrizione |
 |---------------------------------------|-------------|
 | File di input                            | Il file del documento XML di input che deve essere firmato utilizzando una firma elettronica. |
 | Nome certificato                      | Il nome del certificato in archivio. |
@@ -166,13 +166,13 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-filestoreactionname"></a>Azione: FileStoreActionName
 
-| Parametro  | descrizione |
+| Parametro  | Descrizione |
 |------------|-------------|
 | File di input | Il file di input da memorizzare. |
 
 ###### <a name="action-transform-document"></a>Azione: trasforma il documento
 
-| Parametro                       | descrizione |
+| Parametro                       | Descrizione |
 |---------------------------------|-------------|
 | File di input                      | Il file di origine che fornisce i dati che devono essere eseguiti per l'azione. |
 | Direzione                       | Un valore che indica se deve essere utilizzato il formato di importazione o il formato di esportazione. |
@@ -182,14 +182,14 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-process-response"></a>Azione: elabora risposta
 
-| Parametro                    | descrizione |
+| Parametro                    | Descrizione |
 |------------------------------|-------------|
 | File di input                   | La risposta da analizzare. |
 | Elenco di configurazioni report | Un elenco di configurazioni utilizzate per analizzare le risposte. |
 
 ###### <a name="action-call-rest-web-service"></a>Azione: chiama servizio web REST
 
-| Parametro                   | descrizione |
+| Parametro                   | Descrizione |
 |-----------------------------|-------------|
 | URL servizio Web             | L'URL a cui inviare le richieste. |
 | Timeout richiesta Web         | La quantità massima di tempo (in millisecondi) di attesa per una risposta del servizio Web. |
@@ -207,7 +207,7 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-call-mexican-pac-service"></a>Azione: chiama servizio PAC messicano
 
-| Parametro                | descrizione |
+| Parametro                | Descrizione |
 |--------------------------|-------------|
 | File di input               | Il file che contiene i dati XML che verranno inviati al servizio Web come parametro di input del metodo. |
 | Indirizzo URL              | L'indirizzo del servizio Web (endpoint). |
@@ -223,7 +223,7 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-call-brazilian-sefaz-service"></a>Azione: chiama servizio SEFAZ brasiliano
 
-| Parametro                | descrizione |
+| Parametro                | Descrizione |
 |--------------------------|-------------|
 | File di input               | Il file che contiene i dati XML che verranno inviati al servizio Web come parametro di input del metodo. |
 | Indirizzo URL              | L'indirizzo del servizio Web (endpoint). |
@@ -239,7 +239,7 @@ I parametri disponibili variano a seconda dell'azione selezionata nella Scheda d
 
 ###### <a name="action-call-italian-sdi-service"></a>Azione: chiama servizio SDI italiano
 
-| Parametro                | descrizione |
+| Parametro                | Descrizione |
 |--------------------------|-------------|
 | File di input               | Il file che contiene i dati XML che verranno inviati al servizio Web come parametro di input del metodo. |
 | Indirizzo URL              | L'indirizzo del servizio Web (endpoint). |
@@ -281,7 +281,7 @@ Per separare le clausole, seleziona le clausole raggruppate da separare, quindi 
 
 Nella seguente tabella vengono illustrati i campi disponibili nella scheda **Regole di applicabilità**.
 
-| Campo         | descrizione |
+| Campo         | Descrizione |
 |---------------|-------------|
 | E/O        | Operatore logico. |
 | Campo         | Il campo da utilizzare per costruire la regola. |
@@ -300,10 +300,10 @@ Nella seguente tabella vengono illustrati i campi disponibili nella scheda **Reg
 
 Nella seguente tabella vengono illustrati i campi disponibili nella scheda **Variabili**.
 
-| Campo       | descrizione |
+| Campo       | Descrizione |
 |-------------|-------------|
 | Nome        | Nome della variabile. |
-| descrizione | Breve descrizione della variabile. |
+| Descrizione | Breve descrizione della variabile. |
 | Tipo        | Il tipo di variabile:<ul><li><strong>Costante</strong>: il contenuto della variabile è fisso.</li><li><strong>Dal client</strong>: il contenuto della variabile viene acquisito dal client Microsoft Dynamics 365 durante l'esecuzione del processo di invio.</li><li><strong>Al client</strong>: il contenuto della variabile viene reso disponibile per l'importazione dal client Microsoft Dynamics 365 durante l'esecuzione del processo di invio.</li></ul> |
 | Tipo di dati   | Tipo di dati della variabile:<ul><li>Boolean</li><li>Data</li><li>Numero</li><li>UUID</li><li>String</li><li>File</li></ul> |
 | Valore       | Il valore della variabile o il nome dell'azione che imposta il valore della variabile. |

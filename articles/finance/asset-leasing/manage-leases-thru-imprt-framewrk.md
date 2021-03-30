@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7df2f55f596cab54315c2da2ec0492422514f49c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90727e8624c8edb7cd9458089dd9d6dfaad67a7f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207233"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gestire i leasing tramite il framework di importazione dei leasing
 
@@ -40,7 +40,7 @@ Le seguenti entità di dati possono essere utilizzate per integrare Leasing cesp
 
 Il sistema può eseguire i tre processi seguenti tramite la suite di importazione dei leasing.
 
-| Tipo di processo  | descrizione |
+| Tipo di processo  | Descrizione |
 |---------------|-------------|
 | Aggiungere record    | I leasing migrati che hanno questo tipo di processo creano un leasing nel sistema. Lo scadenzario pagamenti deve essere confermato manualmente e la scrittura contabile di riconoscimento iniziale deve essere registrata manualmente dopo la migrazione. |
 | Aggiorna record | I leasing migrati che hanno questo tipo di processo aggiornano i valori dei campi per un leasing che è già nel sistema. Solo i campi che sono stati selezionati nella pagina **Aggiorna selezione campi** vengono aggiornati. È consigliabile selezionare campi non finanziari nella pagina **Aggiorna selezione campi**, perché questo tipo di processo non rettifica il leasing. |

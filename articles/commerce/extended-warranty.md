@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2457f2cf1d6bfb228aae63a0aebaca0d159b7323
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209079"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Creare e configurare garanzie estese
 
@@ -52,7 +52,7 @@ I clienti possono anche tornare in seguito e acquistare una garanzia estesa per 
 
 La tabella seguente definisce alcuni termini relativi alla garanzia.
 
-| Termine | descrizione |
+| Termine | Descrizione |
 |------------------------------|--------------|
 | Garanzia estesa/Garanzia | Una *garanzia estesa* si riferisce a un contratto di assistenza o un contratto che fornisce una garanzia prolungata ai clienti. La garanzia estesa include il servizio aggiuntivo di sostituzione o riparazione dei prodotti durante il periodo di copertura della garanzia estesa. |
 | Garanzia del produttore | Una *garanzia del produttore* (spesso indicata come *garanzia limitata*) è la garanzia che i clienti ricevono quando acquistano un prodotto. Ecco alcune funzionalità della garanzia del produttore:<ul><li>Il costo della garanzia è incluso nel costo del prodotto. I clienti non devono pagare alcun importo aggiuntivo per la garanzia del produttore.</li><li>A seconda della categoria del prodotto, la garanzia del produttore dura in genere 30 giorni, sei mesi o un anno. (Per la maggior parte dei prodotti elettronici di consumo, la garanzia dura un anno).</li><li>La garanzia copre eventuali difetti causati da guasti meccanici o elettrici. La copertura è limitata e non include alcun danno accidentale al prodotto acquistato. I clienti che desiderano proteggere i prodotti che acquistano da danni quotidiani devono investire in una garanzia estesa. Le garanzie estese durano da due a dieci anni, a seconda della categoria del prodotto. Hanno anche una copertura più ampia e coprono incidenti quotidiani come gocce, liquidi e macchie.</li></ul> |
@@ -76,7 +76,7 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 1. Selezionare **OK**.
 1. Nella pagina **Dettagli prodotto** nella scheda dettaglio **Garanzia** impostare i campi **Unità di tempo** e **Periodo di tempo**.
 
-    | Nome campo | Valore | descrizione |
+    | Nome campo | Valore | Descrizione |
     |------------|-------|-------------|
     | Unità di tempo | **Giorni**, **settimane**, **mesi** o **anni** | Questo campo specifica l'unità di tempo utilizzata per la garanzia. |
     | Periodo | Un valore intero positivo | Questo campo specifica la durata della garanzia nell'unità di tempo selezionata. |
@@ -89,7 +89,7 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 1. Rilasciare il prodotto garanzia all'azienda in modo che possa essere venduto. Per ulteriori informazioni, vedere [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md).
 1. Nella pagina **Dettagli prodotto rilasciato** nella scheda dettaglio **Garanzia**, impostare i campi **Base scaglione prezzo**, **Limite inferiore** e **Limite superiore**.
 
-    | Nome campo | Valore | descrizione |
+    | Nome campo | Valore | Descrizione |
     |------------|-------|-------------|
     | Base scaglione prezzo | **Nessuno**, **Prezzo base** o **Prezzo di vendita** | <ul><li>**Nessuno** - I valori **Limite inferiore** e **Limite superiore** degli scaglioni prezzo non sono applicabili.</li><li>**Prezzo base** - Una data garanzia sarà applicabile se il prezzo base (ovvero il prezzo senza sconti) dell'articolo garantibile è compreso tra i valori **Limite inferiore** e **Limite superiore** specificati qui, in base al prezzo dell'articolo garantibile.</li><li>**Prezzo di vendita** - Questo valore è riservato per un utilizzo futuro.</li></ul> |
     | Limite inferiore, limite superiore | Un valore intero positivo | Questi campi definiscono i limiti di prezzo superiore e inferiore dell'articolo garantibile e come l'articolo garanzia corrente è applicabile all'articolo garantibile. Questi limiti possono essere basati sul prezzo base dell'articolo garantibile (noto anche come prezzo al dettaglio suggerito dal produttore \[MSRP\]). Se il campo **Base scaglione prezzo** è impostato su **Prezzo base**, solo un articolo garantibile (prodotto) che ha un prezzo base tra i valori **Limite inferiore** e **Limite superiore** attiveranno un prompt per aggiungere l'articolo garanzia nel POS. |
@@ -201,7 +201,7 @@ Quando viene venduta una garanzia estesa, viene automaticamente creata un'entit�
 
 La tabella seguente descrive le proprietà dei criteri di garanzia e i loro valori. In Commerce Headquarters, la tabella del database è denominata WARRANTYPOLICY.
 
-| Nome proprietà | Valore | descrizione |
+| Nome proprietà | Valore | Descrizione |
 |---------------|-------|-------------|
 | PolicyNumber | Una stringa di caratteri (massimo 20 caratteri) | Il numero dei criteri di garanzia |
 | WarrantiedItemId | Una stringa di caratteri (massimo 20 caratteri) | L'ID dell'articolo garantibile |

@@ -1,6 +1,6 @@
 ---
 title: Modulo Sequenza
-description: In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+description: Questo argomento tratta i moduli Sequenza e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b4ce8fdb7b598e55db59ddf5a99a0ba46eb6f91
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5333ecd7a1fe4f60684fa5f5bb3ac9f98efde6d7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206513"
 ---
-# <a name="carousel-module"></a>Modulo Sequenza
+# <a name="carousel-module"></a>Modulo sequenza
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
+Questo argomento tratta i moduli Sequenza e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
 Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozionali (incluse immagini) in un banner sequenza rotante al quale i clienti possono accedere. Ad esempio, un rivenditore può utilizzare un modulo Sequenza in una home page per presentare molteplici nuovi prodotti o promozioni.
 
@@ -48,7 +46,7 @@ L'immagine seguente mostra un esempio di modulo Sequenza utilizzato in una home 
 
 ## <a name="carousel-module-properties"></a>Proprietà del modulo Sequenza
 
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Riproduzione automatica                  | **True** o **False** | Se il valore è impostato su **True**, la transizione tra gli articoli nella sequenza viene eseguita automaticamente. Se il valore è impostato su **False**, non viene eseguita alcuna transizione a meno che il cliente non utilizzi la tastiera o il mouse per passare da un articolo all'articolo successivo. |
 | Intervallo di transizione diapositiva | Un valore in secondi    | L'intervallo delle transizioni tra gli articoli. |

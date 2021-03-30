@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cad6a26ea1858d6afac33ef8eab10e16b404035b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3926f23e4e762a49ef94ef0c8f3291e7e9a4a6a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206393"
 ---
-# <a name="text-block-module"></a>Modulo Blocco di testo
+# <a name="text-block-module"></a>Modulo blocco testo
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Un modulo Blocco di testo è un modulo utilizzato per aggiungere contenuto testuale. Questo contenuto può essere informativo o promozionale.
 
@@ -50,7 +48,7 @@ L'immagine seguente mostra un esempio di modulo Blocco di testo utilizzato in un
 
 ## <a name="text-block-module-properties"></a>Proprietà dei moduli Blocco di testo
 
-| Nome proprietà     | Valore                                            | descrizione |
+| Nome proprietà     | Valore                                            | Descrizione |
 |-------------------|--------------------------------------------------|-------------|
 | RTF         | RTF                                        | Testo di paragrafo. Alcune funzionalità RTF di base sono supportate, ad esempio testo in grassetto, sottolineato e in corsivo. |
 | Nome classe personalizzato | Il nome di una classe Cascading Style Sheets (CSS)        | Il nome di una classe CSS personalizzata fornita da uno sviluppatore per formattare questo modulo. Il nome della classe deve essere definito nel pacchetto di temi. |

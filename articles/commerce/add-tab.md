@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209229"
 ---
-# <a name="tab-module"></a>Modulo Scheda
+# <a name="tab-module"></a>Modulo scheda
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Scheda e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I moduli Scheda sono moduli simili a contenitori utilizzati per organizzare le informazioni in una pagina di sito in schede. Possono essere utilizzati in qualsiasi pagina in cui le informazioni devono essere presentate in schede.
 
@@ -42,14 +40,14 @@ L'immagine seguente mostra un esempio di modulo Scheda in una pagina di sito. In
 
 ## <a name="tab-module-properties"></a>Proprietà dei moduli Scheda
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |---------------|--------|-------------|
 | Intestazione | Testo | Questa proprietà specifica un'intestazione di testo facoltativa per il modulo Scheda. |
 | Indice scheda attivo | Numero | Questa proprietà specifica la scheda che deve essere attiva per impostazione predefinita quando viene caricata una pagina. Se non viene fornito alcun valore, il primo elemento scheda è attivo per impostazione predefinita. |
 
 ## <a name="tab-item-module-properties"></a>Proprietà dei moduli Elemento scheda
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |---------------|--------|-------------|
 | Funzione | Testo | Questa proprietà specifica il testo del titolo del modulo Elemento scheda. |
 
