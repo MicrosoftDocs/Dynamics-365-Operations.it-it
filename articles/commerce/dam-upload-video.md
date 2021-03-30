@@ -17,58 +17,61 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8cabcd3528308919697a9f2ecb2a81ad5acbe31
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213844"
 ---
-# <a name="upload-videos"></a><span data-ttu-id="19edd-103">Caricare i video</span><span class="sxs-lookup"><span data-stu-id="19edd-103">Upload videos</span></span>
+# <a name="upload-videos"></a><span data-ttu-id="db179-103">Caricare i video</span><span class="sxs-lookup"><span data-stu-id="db179-103">Upload videos</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="19edd-104">In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="19edd-104">This topic describes how to upload videos in Microsoft Dynamics 365 Commerce site builder.</span></span>
+<span data-ttu-id="db179-104">In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="db179-104">This topic describes how to upload videos in Microsoft Dynamics 365 Commerce site builder.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="19edd-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="19edd-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="db179-105">Panoramica</span><span class="sxs-lookup"><span data-stu-id="db179-105">Overview</span></span>
 
-<span data-ttu-id="19edd-106">La libreria multimediale Creazione di siti Web Commerce consente di caricare i video.</span><span class="sxs-lookup"><span data-stu-id="19edd-106">The Commerce site builder Media Library allows you to upload videos.</span></span> <span data-ttu-id="19edd-107">È sempre necessario caricare la versione di un video con il bitrate e la risoluzione più alti, perché il video verrà automaticamente convertito per essere adatto a diversi riquadri di visualizzazione e ai punti di interruzione.</span><span class="sxs-lookup"><span data-stu-id="19edd-107">You should always upload the version of a video with the highest bitrate and resolution, because the video will be automatically converted to be suitable for different viewports and their breakpoints.</span></span>
+<span data-ttu-id="db179-106">La libreria multimediale Creazione di siti Web Commerce consente di caricare i video.</span><span class="sxs-lookup"><span data-stu-id="db179-106">The Commerce site builder Media Library allows you to upload videos.</span></span> <span data-ttu-id="db179-107">È sempre necessario caricare la versione di un video con il bitrate e la risoluzione più alti, perché il video verrà automaticamente convertito per essere adatto a diversi riquadri di visualizzazione e ai punti di interruzione.</span><span class="sxs-lookup"><span data-stu-id="db179-107">You should always upload the version of a video with the highest bitrate and resolution, because the video will be automatically converted to be suitable for different viewports and their breakpoints.</span></span>
 
-### <a name="video-information-specified-during-upload"></a><span data-ttu-id="19edd-108">Informazioni sul video specificate durante il caricamento</span><span class="sxs-lookup"><span data-stu-id="19edd-108">Video information specified during upload</span></span>
+### <a name="video-information-specified-during-upload"></a><span data-ttu-id="db179-108">Informazioni sul video specificate durante il caricamento</span><span class="sxs-lookup"><span data-stu-id="db179-108">Video information specified during upload</span></span>
 
-<span data-ttu-id="19edd-109">Quando si carica un video, è possibile specificare le seguenti informazioni.</span><span class="sxs-lookup"><span data-stu-id="19edd-109">When uploading a video, the following information can be specified.</span></span>
+<span data-ttu-id="db179-109">Quando si carica un video, è possibile specificare le seguenti informazioni.</span><span class="sxs-lookup"><span data-stu-id="db179-109">When uploading a video, the following information can be specified.</span></span>
 
-- <span data-ttu-id="19edd-110">**Titolo, descrizione, parole chiave**: i metadati del video.</span><span class="sxs-lookup"><span data-stu-id="19edd-110">**Title, Description, Keywords**: Metadata of the video.</span></span>
-- <span data-ttu-id="19edd-111">**Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video.</span><span class="sxs-lookup"><span data-stu-id="19edd-111">**Automatically generate closed captions**: Specifies whether closed captions should be automatically generated for the video.</span></span>
-- <span data-ttu-id="19edd-112">**Sottotitolo**: specifica i sottotitoli da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="19edd-112">**Closed Caption**: Specifies the closed captions to be used.</span></span>
-- <span data-ttu-id="19edd-113">**Audio normale**: specifica la traccia audio normale da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="19edd-113">**Regular Audio**: Specifies the regular audio track to be used.</span></span>
-- <span data-ttu-id="19edd-114">**Anteprima**: specifica l'anteprima per il video.</span><span class="sxs-lookup"><span data-stu-id="19edd-114">**Thumbnail**: Specifies the thumbnail for the video.</span></span> <span data-ttu-id="19edd-115">Se non specificata, verrà generata automaticamente.</span><span class="sxs-lookup"><span data-stu-id="19edd-115">If not specified, it will be generated automatically.</span></span>
-- <span data-ttu-id="19edd-116">**Audio descrittivo**: specifica la traccia audio descrittivo da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="19edd-116">**Descriptive Audio**: Specifies the descriptive audio track to be used.</span></span>
+- <span data-ttu-id="db179-110">**Titolo, Descrizione, parole chiave**: i metadati del video.</span><span class="sxs-lookup"><span data-stu-id="db179-110">**Title, Description, Keywords**: Metadata of the video.</span></span>
+- <span data-ttu-id="db179-111">**Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video.</span><span class="sxs-lookup"><span data-stu-id="db179-111">**Automatically generate closed captions**: Specifies whether closed captions should be automatically generated for the video.</span></span>
+- <span data-ttu-id="db179-112">**Sottotitolo**: specifica i sottotitoli da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="db179-112">**Closed Caption**: Specifies the closed captions to be used.</span></span>
+- <span data-ttu-id="db179-113">**Audio normale**: specifica la traccia audio normale da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="db179-113">**Regular Audio**: Specifies the regular audio track to be used.</span></span>
+- <span data-ttu-id="db179-114">**Anteprima**: specifica l'anteprima per il video.</span><span class="sxs-lookup"><span data-stu-id="db179-114">**Thumbnail**: Specifies the thumbnail for the video.</span></span> <span data-ttu-id="db179-115">Se non specificata, verrà generata automaticamente.</span><span class="sxs-lookup"><span data-stu-id="db179-115">If not specified, it will be generated automatically.</span></span>
+- <span data-ttu-id="db179-116">**Audio descrittivo**: specifica la traccia audio descrittivo da utilizzare.</span><span class="sxs-lookup"><span data-stu-id="db179-116">**Descriptive Audio**: Specifies the descriptive audio track to be used.</span></span>
 
-## <a name="upload-a-video"></a><span data-ttu-id="19edd-117">Caricare un video</span><span class="sxs-lookup"><span data-stu-id="19edd-117">Upload a video</span></span>
+## <a name="upload-a-video"></a><span data-ttu-id="db179-117">Caricare un video</span><span class="sxs-lookup"><span data-stu-id="db179-117">Upload a video</span></span>
 
-<span data-ttu-id="19edd-118">Per caricare un video in Creazione di siti Web, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="19edd-118">To upload a video in site builder, follow these steps.</span></span>
+<span data-ttu-id="db179-118">Per caricare un video in Creazione di siti Web, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="db179-118">To upload a video in site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="19edd-119">Nel riquadro di spostamento sinistro, selezionare **Libreria multimediale**.</span><span class="sxs-lookup"><span data-stu-id="19edd-119">In the left navigation pane, select **Media Library**.</span></span>
-1. <span data-ttu-id="19edd-120">Sulla barra dei comandi, selezionare **Carica \> Carica elementi multimediali**.</span><span class="sxs-lookup"><span data-stu-id="19edd-120">On the command bar, select **Upload \> Upload Media Items**.</span></span>
-1. <span data-ttu-id="19edd-121">Nella finestra Esplora file, individuare e selezionare uno o più file video da caricare, quindi selezionare **Apri**.</span><span class="sxs-lookup"><span data-stu-id="19edd-121">In the File Explorer window, navigate to and select one or more video files to upload, and then select **Open**.</span></span>
-1. <span data-ttu-id="19edd-122">Nella finestra di dialogo **Carica elemento multimediale**, immettere il titolo e il testo alternativo richiesti.</span><span class="sxs-lookup"><span data-stu-id="19edd-122">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
-1. <span data-ttu-id="19edd-123">Immettere una descrizione e le parole chiave facoltative e selezionare una categoria, se lo si desidera.</span><span class="sxs-lookup"><span data-stu-id="19edd-123">Enter optional description and keywords and select a category if desired.</span></span> 
-1. <span data-ttu-id="19edd-124">Se si desidera pubblicare le immagini immediatamente dopo averle caricate, selezionare la casella di controllo **Pubblica elementi multimediali dopo il caricamento**</span><span class="sxs-lookup"><span data-stu-id="19edd-124">If you want to publish the image(s) after immediately upload, select the **Publish media items after upload** check box</span></span>
-1. <span data-ttu-id="19edd-125">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="19edd-125">Select **OK**.</span></span>
+1. <span data-ttu-id="db179-119">Nel riquadro di spostamento sinistro, selezionare **Libreria multimediale**.</span><span class="sxs-lookup"><span data-stu-id="db179-119">In the left navigation pane, select **Media Library**.</span></span>
+1. <span data-ttu-id="db179-120">Sulla barra dei comandi, selezionare **Carica \> Carica elementi multimediali**.</span><span class="sxs-lookup"><span data-stu-id="db179-120">On the command bar, select **Upload \> Upload Media Items**.</span></span>
+1. <span data-ttu-id="db179-121">Nella finestra Esplora file, individuare e selezionare uno o più file video da caricare, quindi selezionare **Apri**.</span><span class="sxs-lookup"><span data-stu-id="db179-121">In the File Explorer window, navigate to and select one or more video files to upload, and then select **Open**.</span></span>
+1. <span data-ttu-id="db179-122">Nella finestra di dialogo **Carica elemento multimediale**, immettere il titolo e il testo alternativo richiesti.</span><span class="sxs-lookup"><span data-stu-id="db179-122">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
+1. <span data-ttu-id="db179-123">Immettere una descrizione e le parole chiave facoltative e selezionare una categoria, se lo si desidera.</span><span class="sxs-lookup"><span data-stu-id="db179-123">Enter optional description and keywords and select a category if desired.</span></span> 
+1. <span data-ttu-id="db179-124">Se si desidera pubblicare le immagini immediatamente dopo averle caricate, selezionare la casella di controllo **Pubblica elementi multimediali dopo il caricamento**</span><span class="sxs-lookup"><span data-stu-id="db179-124">If you want to publish the image(s) after immediately upload, select the **Publish media items after upload** check box</span></span>
+1. <span data-ttu-id="db179-125">Selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="db179-125">Select **OK**.</span></span>
 
-<span data-ttu-id="19edd-126">Se si stanno caricando più tipi di risorse contemporaneamente (ad esempio, immagini e video), nella finestra di dialogo **Carica elemento multimediale** sarà possibile specificare solo parole chiave, se i file devono essere pubblicati immediatamente dopo il caricamento e se i sottotitoli devono essere generati automaticamente per i file video.</span><span class="sxs-lookup"><span data-stu-id="19edd-126">If you are uploading multiple types of assets simultaneously (for example, images and videos), in the **Upload Media Item** dialog box you will only be able to specify keywords, whether the files should be published immediately after upload, and whether closed captions should be automatically generated for video files.</span></span> <span data-ttu-id="19edd-127">Tutte le risorse condivideranno le stesse parole chiave.</span><span class="sxs-lookup"><span data-stu-id="19edd-127">All the assets will share the same keywords.</span></span>
+<span data-ttu-id="db179-126">Se si stanno caricando più tipi di risorse contemporaneamente (ad esempio, immagini e video), nella finestra di dialogo **Carica elemento multimediale** sarà possibile specificare solo parole chiave, se i file devono essere pubblicati immediatamente dopo il caricamento e se i sottotitoli devono essere generati automaticamente per i file video.</span><span class="sxs-lookup"><span data-stu-id="db179-126">If you are uploading multiple types of assets simultaneously (for example, images and videos), in the **Upload Media Item** dialog box you will only be able to specify keywords, whether the files should be published immediately after upload, and whether closed captions should be automatically generated for video files.</span></span> <span data-ttu-id="db179-127">Tutte le risorse condivideranno le stesse parole chiave.</span><span class="sxs-lookup"><span data-stu-id="db179-127">All the assets will share the same keywords.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="19edd-128">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="19edd-128">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="db179-128">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="db179-128">Additional resources</span></span>
 
-[<span data-ttu-id="19edd-129">Panoramica della gestione risorse digitali</span><span class="sxs-lookup"><span data-stu-id="19edd-129">Digital asset management overview</span></span>](dam-overview.md)
+[<span data-ttu-id="db179-129">Panoramica della gestione risorse digitali</span><span class="sxs-lookup"><span data-stu-id="db179-129">Digital asset management overview</span></span>](dam-overview.md)
 
-[<span data-ttu-id="19edd-130">Caricare immagini</span><span class="sxs-lookup"><span data-stu-id="19edd-130">Upload images</span></span>](dam-upload-images.md)
+[<span data-ttu-id="db179-130">Caricare immagini</span><span class="sxs-lookup"><span data-stu-id="db179-130">Upload images</span></span>](dam-upload-images.md)
 
-[<span data-ttu-id="19edd-131">Caricare file</span><span class="sxs-lookup"><span data-stu-id="19edd-131">Upload files</span></span>](dam-upload-files.md)
+[<span data-ttu-id="db179-131">Caricare file</span><span class="sxs-lookup"><span data-stu-id="db179-131">Upload files</span></span>](dam-upload-files.md)
 
-[<span data-ttu-id="19edd-132">Tagliare immagini</span><span class="sxs-lookup"><span data-stu-id="19edd-132">Crop images</span></span>](dam-crop-images.md)
+[<span data-ttu-id="db179-132">Tagliare immagini</span><span class="sxs-lookup"><span data-stu-id="db179-132">Crop images</span></span>](dam-crop-images.md)
 
-[<span data-ttu-id="19edd-133">Personalizzare punti focali immagine</span><span class="sxs-lookup"><span data-stu-id="19edd-133">Customize image focal points</span></span>](dam-custom-focal-point.md)
+[<span data-ttu-id="db179-133">Personalizzare punti focali immagine</span><span class="sxs-lookup"><span data-stu-id="db179-133">Customize image focal points</span></span>](dam-custom-focal-point.md)
 
-[<span data-ttu-id="19edd-134">Caricare e fornire file statici</span><span class="sxs-lookup"><span data-stu-id="19edd-134">Upload and serve static files</span></span>](upload-serve-static-files.md)
+[<span data-ttu-id="db179-134">Caricare e fornire file statici</span><span class="sxs-lookup"><span data-stu-id="db179-134">Upload and serve static files</span></span>](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
