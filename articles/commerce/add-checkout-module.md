@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980508"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206465"
 ---
 # <a name="checkout-module"></a>Modulo Checkout
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere un modulo Checkout a una pagina e impostare le proprietà necessarie.
-
-## <a name="overview"></a>Panoramica
 
 Un modulo Checkout è un contenitore speciale che ospita tutti i moduli necessari per creare un ordine. Presenta un flusso dettagliato che un cliente utilizza per immettere tutte le informazioni pertinenti per effettuare un acquisto. Acquisisce l'indirizzo di spedizione, il metodo di spedizione e le informazioni di fatturazione. Fornisce inoltre un riepilogo dell'ordine e altre informazioni relative a un ordine cliente.
 
@@ -43,7 +41,7 @@ L'immagine seguente mostra un esempio di modulo Checkout in una pagina checkout.
 
 Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità per effettuare un ordine. Per raccogliere tutte le informazioni sul cliente necessarie prima di effettuare un ordine, è necessario aggiungere moduli aggiuntivi al modulo Checkout. Pertanto, i rivenditori hanno la flessibilità di aggiungere moduli personalizzati al flusso di checkout o di escludere moduli, in base alle loro esigenze.
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |----------------|--------|-------------|
 | Intestazione estrazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione per il modulo Checkout. |
 | Intestazione di riepilogo ordini | Testo dell'intestazione | Un'intestazione per la sezione di riepilogo dell'ordine del modulo. |

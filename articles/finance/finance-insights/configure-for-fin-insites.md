@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bb887bbff5eb5b92f588d3fa966ea204633575db
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: cf29e3c05f9fdcc685017a4c640ef32c40989c73
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208559"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configurazione per Informazioni finanziarie dettagliate (anteprima)
 
@@ -967,7 +967,7 @@ Segui questi passaggi per utilizzare LCS per aggiungere il componente aggiuntivo
 3. Seleziona il componente aggiunti **Esporta in Data Lake**.
 4. Immetti i valori seguenti.
 
-    | Valore                                                              | descrizione |
+    | Valore                                                              | Descrizione |
     |--------------------------------------------------------------------|-------------|
     | ID tenant della sottoscrizione di Azure in cui si trova il Key Vault | L'ID tenant in cui si trovano l'account di archiviazione, le app e i Key Vault. Per trovare questo valore, apri il [portale di Azure](https://portal.azure.com), vai ad **Azure Active Directory** e copia il valore **ID tenant**. |
     | Specificare il nome DNS del Key Vault                             | Il nome DNS del Key Vault, ad esempio `https://customkeyvault.vault.azure.net/`. Questo valore corrisponde al nome DNS utilizzato nell'archivio entità. |
@@ -986,7 +986,7 @@ Il componente aggiuntivo verrà installato in pochi minuti.
 3. Seleziona il componente aggiuntivo **Ottieni informazioni dettagliate**.
 4. Nella pagina dei dettagli del componente aggiuntivo **Ottieni informazioni dettagliate**, immetti i seguenti valori.
 
-    | Valore                                                    | descrizione |
+    | Valore                                                    | Descrizione |
     |----------------------------------------------------------|-------------|
     | URL organizzazione CDS                                     | L'URL dell'organizzazione Dataverse dell'istanza Dataverse. Per trovare questo valore, apri il [portale di Power Apps](https://make.powerapps.com), seleziona il pulsante **Impostazioni** (simbolo dell'ingranaggio) nell'angolo in alto a destra in alto, seleziona **Impostazioni avanzate** e copia l'URL. L'URL termina con "dynamics.com". |
     | ID org CDS                                               | L'ID ambiente dell'istanza di Dataverse. Per trovare questo valore, apri il [portale di Power Apps](https://make.powerapps.com), seleziona il pulsante **Impostazioni** (simbolo dell'ingranaggio) nell'angolo in alto a destra in alto, seleziona **Personalizzazioni \> Risorse per sviluppatori \> Informazioni di riferimento sull'istanza** e copia il valore **ID**. |

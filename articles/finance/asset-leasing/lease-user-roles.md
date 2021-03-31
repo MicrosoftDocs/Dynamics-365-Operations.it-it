@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: df23e219f5bd859b0072785dfd5f7a0ec63f540e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 09d80e9629b60144665441989d9d63d7f6be3c60
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207281"
 ---
 # <a name="assign-lease-user-roles"></a>Assegnare ruoli utente per il leasing
 
@@ -32,7 +32,7 @@ In questo argomento vengono descritti i ruoli di sicurezza utilizzati in Leasing
 
 Tre ruoli utente differenziano l'accesso in Leasing cespiti. Un ruolo è appropriato per mantenere i leasing, uno è appropriato per visualizzare i leasing e uno è appropriato per svolgere le funzioni di addetto al leasing. Ogni ruolo dispone di autorizzazioni specifiche per tutte le pagine di leasing e ciascuno consente agli utenti di visualizzare, creare, modificare o eliminare i leasing, in base alle loro mansioni lavorative.
 
-| Ruolo           | descrizione |
+| Ruolo           | Descrizione |
 |----------------|-------------|
 | Gestire leasing | Gli utenti in questo ruolo possono aggiungere, modificare, eliminare e visualizzare i leasing. Questo ruolo è progettato per gli utenti giornalieri le cui attività includono la creazione e la registrazione di voci di giornale mensili e l'aggiunta di nuovi leasing. Questo ruolo fornisce l'accesso a tutte le funzionalità di Leasing cespiti. |
 | Visualizzare leasing     | Gli utenti in questo ruolo possono solo visualizzare i record di leasing, gli scadenziari ed eseguire report. Non possono creare nuovi leasing, modificare i leasing esistenti o creare scritture contabili a fronte di leasing. Il ruolo è progettato per gli utenti che devono solo visualizzare i leasing, le pianificazioni dei leasing e le transazioni che si verificano a fronte di tali leasing. |

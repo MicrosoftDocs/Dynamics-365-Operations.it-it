@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 504232285267fb3663093a84a371e0040233ce23
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213940"
 ---
-# <a name="cookie-consent-module"></a>Modulo consenso per i cookie
+# <a name="cookie-consent-module"></a>Modulo di consenso sui cookie
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli consenso per i cookie e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Il modulo consenso per i cookie richiede agli utenti del sito di fornire esplicitamente il consenso per consentire i cookie per qualsiasi funzionalità o modulo che tiene traccia dei cookie del browser. Il consenso è richiesto la prima volta che un utente del sito apre un sito in una nuova sessione del browser. Una volta ricevuto il consenso, viene tracciato e all'utente del sito non verrà chiesto nuovamente il consenso. Per ulteriori informazioni vedere [Conformità dei cookie](cookie-compliance.md).
 
@@ -43,7 +41,7 @@ La figura seguente evidenzia un esempio di messaggio di consenso per i cookie co
 
 ## <a name="cookie-consent-module-properties"></a>Proprietà del modulo consenso per i cookie
 
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | RTF                  | RTF | Specifica una notifica RTF per gli utenti del sito indicante che il sito utilizza i cookie del browser e che gli utenti devono accettare l'uso dei cookie affinché il sito sia completamente funzionale. |
 | Collegamenti | URL | È possibile aggiungere uno o più collegamenti alla pagina sulla privacy di un sito che descrive i tipi di cookie tracciati nel sito. |

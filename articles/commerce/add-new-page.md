@@ -1,5 +1,5 @@
 ---
-title: Aggiungere una nuova pagina di sito
+title: Aggiungere una nuova pagina del sito
 description: In questo argomento viene descritto come aggiungere una nuova pagina di sito in Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54e690b0dde048b17ce074fcc30cf20a9ff7a4ca
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097131"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208041"
 ---
-# <a name="add-a-new-site-page"></a>Aggiungere una nuova pagina di sito
+# <a name="add-a-new-site-page"></a>Aggiungere una nuova pagina del sito
 
 
 [!include [banner](includes/banner.md)]

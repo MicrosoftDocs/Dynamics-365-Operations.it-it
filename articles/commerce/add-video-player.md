@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 712e9359e31be96c426d6f16c878f18f05cc1bd2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13072c8d6839fef1ab0dd55d626c23a2a1084d4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980109"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209181"
 ---
-# <a name="video-player-module"></a>Modulo Lettore video
-
+# <a name="video-player-module"></a>Modulo lettore video
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Il modulo Lettore video è utilizzato per supportare la riproduzione di video. Può essere aggiunto a qualsiasi pagina, a condizione che il contenuto del video sia caricato e disponibile nel sistema di gestione dei contenuti (CMS). Il modulo Lettore video supporta il tipo di file multimediale .mp4.
 
@@ -52,7 +49,7 @@ L'immagine seguente mostra un esempio di modulo Lettore video in una home page.
 
 ### <a name="video-player-module-properties"></a>Proprietà del modulo Lettore video
 
-| Nome proprietà         | Valore                               | descrizione |
+| Nome proprietà         | Valore                               | Descrizione |
 |-----------------------|-------------------------------------|-------------|
 | Riproduzione automatica             | **True** o **False**               | Se il valore è impostato su **True**, il video viene automaticamente riprodotto. |
 | Disattiva audio                  | **True** o **False**               | Se il valore è impostato su **True**, l'audio è disattivato. Per questo lettore, il valore predefinito è **False**. Nel browser Chrome, l'audio dei video riprodotti automaticamente è disattivato per impostazione predefinita e viene attivato solo se l'utente riproduce manualmente il video. |

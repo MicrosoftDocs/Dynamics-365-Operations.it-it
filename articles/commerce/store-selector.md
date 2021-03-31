@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205124"
 ---
-# <a name="store-selector-module"></a>Modulo Selettore punto vendita
+# <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I clienti possono utilizzare il modulo di selezione del punto vendita per ritirare un prodotto in un punto vendita selezionato dopo un acquisto online. In Commerce versione 10.0.13, il modulo di selezione del punto vendita include anche funzionalità aggiuntive che possono mostrare una pagina **Trova un punto vendita** pagina che mostra i punti vendita vicini.
 
@@ -82,7 +80,7 @@ Il modulo di selezione del punto vendita può essere utilizzato insieme al modul
 
 ## <a name="store-selector-module-properties"></a>Proprietà del modulo selettore punto vendita
 
-| Nome proprietà | Valore | descrizione |
+| Nome proprietà | Valore | Descrizione |
 |---------------|-------|-------------|
 | Intestazione | Testo | L'intestazione del modulo. |
 | Modo | **Trova punti vendita** o **Preleva al punto vendita** | La modalità **Trova punti vendita** mostra i punti vendita disponibili. La modalità **Preleva al punto vendita** consente agli utenti di selezionare un punto vendita per il ritiro. |

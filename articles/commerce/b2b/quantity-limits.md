@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e70648da2cc1c526625b6e34fd0867d40abb5a85
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211179"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Impostare limiti di quantità di prodotti per i siti di e-commerce B2B
 
@@ -81,7 +81,7 @@ Per attivare la funzione dei limiti di quantità degli ordini B2B in Creazione d
 
 [Creare gerarchie di modellazione per le organizzazioni B2B](org-model.md)
 
-[Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B](manage-b2b-users.md)
+[Gestione degli utenti partner commerciali sui siti di e-commerce B2B](manage-b2b-users.md)
 
 [Configura il metodo di pagamento dell'account cliente per i siti Web di e-commerce B2B](payment-method.md)
 
