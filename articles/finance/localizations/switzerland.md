@@ -15,18 +15,21 @@ ms.search.region: Switzerland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4975081e4e2a7567fa2b4ccae40e5144856bcee5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0baa05b60666659a3b7250bd3ef36f28b8abf0f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012020"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228057"
 ---
-# <a name="switzerland-overview"></a><span data-ttu-id="99b53-103">Panoramica per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="99b53-103">Switzerland overview</span></span>
+# <a name="switzerland-overview"></a><span data-ttu-id="f7ad3-103">Panoramica per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="f7ad3-103">Switzerland overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="99b53-104">In questo argomento vengono forniti i collegamenti alle risorse della documentazione per la Svizzera.</span><span class="sxs-lookup"><span data-stu-id="99b53-104">This topic provides links to documentation resources for Switzerland.</span></span> 
+<span data-ttu-id="f7ad3-104">In questo argomento vengono forniti i collegamenti alle risorse della documentazione per la Svizzera.</span><span class="sxs-lookup"><span data-stu-id="f7ad3-104">This topic provides links to documentation resources for Switzerland.</span></span> 
 
-- [<span data-ttu-id="99b53-105">Importazione pagamenti cliente PVR</span><span class="sxs-lookup"><span data-stu-id="99b53-105">ESR customer payments import</span></span>](emea-che-esr-customer-payments-import.md)
-- [<span data-ttu-id="99b53-106">Fatture QR per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="99b53-106">Swiss QR-bills</span></span>](emea-che-swiss-qr-bills.md)
+- [<span data-ttu-id="f7ad3-105">Importazione pagamenti cliente PVR</span><span class="sxs-lookup"><span data-stu-id="f7ad3-105">ESR customer payments import</span></span>](emea-che-esr-customer-payments-import.md)
+- [<span data-ttu-id="f7ad3-106">Fatture QR per la Svizzera</span><span class="sxs-lookup"><span data-stu-id="f7ad3-106">Swiss QR-bills</span></span>](emea-che-swiss-qr-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

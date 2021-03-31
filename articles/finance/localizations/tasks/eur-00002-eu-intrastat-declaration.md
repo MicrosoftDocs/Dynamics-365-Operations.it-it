@@ -15,101 +15,104 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 581a837049f239cb9b9fa41eb978304751cb3b54
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f42f7dbb22300f31b10ece9a44a563c8d438b50b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228031"
 ---
-# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="80534-103">EUR-00002 Generare una dichiarazione Intrastat UE</span><span class="sxs-lookup"><span data-stu-id="80534-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
+# <a name="eur-00002-generate-an-eu-intrastat-declaration"></a><span data-ttu-id="b602b-103">EUR-00002 Generare una dichiarazione Intrastat UE</span><span class="sxs-lookup"><span data-stu-id="b602b-103">EUR-00002 Generate an EU Intrastat declaration</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="80534-104">Questa procedura illustra i passaggi necessari per esportare la dichiarazione Intrastat in formato di file elettronico e per visualizzare l'anteprima dei dati della dichiarazione in formato Excel.</span><span class="sxs-lookup"><span data-stu-id="80534-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
+<span data-ttu-id="b602b-104">Questa procedura illustra i passaggi necessari per esportare la dichiarazione Intrastat in formato di file elettronico e per visualizzare l'anteprima dei dati della dichiarazione in formato Excel.</span><span class="sxs-lookup"><span data-stu-id="b602b-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
 
-<span data-ttu-id="80534-105">Prima di poter completare questa procedura, è necessario trasferire le transazioni a Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80534-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
+<span data-ttu-id="b602b-105">Prima di poter completare questa procedura, è necessario trasferire le transazioni a Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b602b-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
 
-<span data-ttu-id="80534-106">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</span><span class="sxs-lookup"><span data-stu-id="80534-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="b602b-106">Questa procedura è stata creata utilizzando la società di dati dimostrativi DEMF.</span><span class="sxs-lookup"><span data-stu-id="b602b-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="import-configurations-with-settings"></a><span data-ttu-id="80534-107">Importare le configurazioni con le impostazioni</span><span class="sxs-lookup"><span data-stu-id="80534-107">Import configurations with settings</span></span>
-1. <span data-ttu-id="80534-108">Andare a Aree di lavoro > Creazione di report elettronici</span><span class="sxs-lookup"><span data-stu-id="80534-108">Go to Workspaces > Electronic reporting</span></span>
-2. <span data-ttu-id="80534-109">Fare clic su Imposta attivo.</span><span class="sxs-lookup"><span data-stu-id="80534-109">Click Set active.</span></span>
-3. <span data-ttu-id="80534-110">Fare clic su Archivi.</span><span class="sxs-lookup"><span data-stu-id="80534-110">Click Repositories.</span></span>
-4. <span data-ttu-id="80534-111">Fare clic su Apri.</span><span class="sxs-lookup"><span data-stu-id="80534-111">Click Open.</span></span>
-5. <span data-ttu-id="80534-112">Aprire il filtro della colonna Nome configurazione.</span><span class="sxs-lookup"><span data-stu-id="80534-112">Open Configuration name column filter.</span></span>
-6. <span data-ttu-id="80534-113">Applicare un filtro sul campo "Nome configurazione" in base a un valore "Intrastat (DE)" utilizzando l'operatore di filtro "inizia con".</span><span class="sxs-lookup"><span data-stu-id="80534-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="80534-114">È necessario selezionare il nome di configurazione applicabile al paese della persona giuridica.</span><span class="sxs-lookup"><span data-stu-id="80534-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="80534-115">Questa procedura utilizza la persona giuridica tedesca (DEMF) come esempio, quindi deve essere scelto "Intrastat (DE)".</span><span class="sxs-lookup"><span data-stu-id="80534-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
-    * <span data-ttu-id="80534-116">Fare clic su Importa, quindi su Sì.</span><span class="sxs-lookup"><span data-stu-id="80534-116">Click Import and then click Yes.</span></span>  
-7. <span data-ttu-id="80534-117">Aprire il filtro della colonna Nome configurazione.</span><span class="sxs-lookup"><span data-stu-id="80534-117">Open Configuration name column filter.</span></span>
-8. <span data-ttu-id="80534-118">Applicare un filtro sul campo "Nome configurazione" in base a un valore "report Intrastat" utilizzando l'operatore di filtro "inizia con".</span><span class="sxs-lookup"><span data-stu-id="80534-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
-    * <span data-ttu-id="80534-119">Fare clic su Importa, quindi su Sì.</span><span class="sxs-lookup"><span data-stu-id="80534-119">Click Import and then click Yes.</span></span>  
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="b602b-107">Importare le configurazioni con le impostazioni</span><span class="sxs-lookup"><span data-stu-id="b602b-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="b602b-108">Andare a Aree di lavoro > Creazione di report elettronici</span><span class="sxs-lookup"><span data-stu-id="b602b-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="b602b-109">Fare clic su Imposta attivo.</span><span class="sxs-lookup"><span data-stu-id="b602b-109">Click Set active.</span></span>
+3. <span data-ttu-id="b602b-110">Fare clic su Archivi.</span><span class="sxs-lookup"><span data-stu-id="b602b-110">Click Repositories.</span></span>
+4. <span data-ttu-id="b602b-111">Fare clic su Apri.</span><span class="sxs-lookup"><span data-stu-id="b602b-111">Click Open.</span></span>
+5. <span data-ttu-id="b602b-112">Aprire il filtro della colonna Nome configurazione.</span><span class="sxs-lookup"><span data-stu-id="b602b-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="b602b-113">Applicare un filtro sul campo "Nome configurazione" in base a un valore "Intrastat (DE)" utilizzando l'operatore di filtro "inizia con".</span><span class="sxs-lookup"><span data-stu-id="b602b-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="b602b-114">È necessario selezionare il nome di configurazione applicabile al paese della persona giuridica.</span><span class="sxs-lookup"><span data-stu-id="b602b-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="b602b-115">Questa procedura utilizza la persona giuridica tedesca (DEMF) come esempio, quindi deve essere scelto "Intrastat (DE)".</span><span class="sxs-lookup"><span data-stu-id="b602b-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="b602b-116">Fare clic su Importa, quindi su Sì.</span><span class="sxs-lookup"><span data-stu-id="b602b-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="b602b-117">Aprire il filtro della colonna Nome configurazione.</span><span class="sxs-lookup"><span data-stu-id="b602b-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="b602b-118">Applicare un filtro sul campo "Nome configurazione" in base a un valore "report Intrastat" utilizzando l'operatore di filtro "inizia con".</span><span class="sxs-lookup"><span data-stu-id="b602b-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="b602b-119">Fare clic su Importa, quindi su Sì.</span><span class="sxs-lookup"><span data-stu-id="b602b-119">Click Import and then click Yes.</span></span>  
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="80534-120">Impostare Parametri per il commercio estero</span><span class="sxs-lookup"><span data-stu-id="80534-120">Set up Foreign trade parameters</span></span>
-1. <span data-ttu-id="80534-121">Passare a Imposta > Impostazione > Commercio estero > Parametri per il commercio estero</span><span class="sxs-lookup"><span data-stu-id="80534-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
-2. <span data-ttu-id="80534-122">Espandere la sezione Creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="80534-122">Expand the Electronic reporting section.</span></span>
-3. <span data-ttu-id="80534-123">Nel campo Mapping formato file immettere o selezionare un valore Intrastat (DE)</span><span class="sxs-lookup"><span data-stu-id="80534-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
-4. <span data-ttu-id="80534-124">Nel campo Mapping formato report immettere o selezionare un valore Report Intrastat</span><span class="sxs-lookup"><span data-stu-id="80534-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
-5. <span data-ttu-id="80534-125">Espandere la sezione Regole di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="80534-125">Expand the Rounding rules section.</span></span>
-    * <span data-ttu-id="80534-126">È necessario impostare le regole di arrotondamento che sono applicabili nel paese per la dichiarazione Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80534-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
-6. <span data-ttu-id="80534-127">Immettere un numero nel campo Regola di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="80534-127">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="80534-128">Inserire la precisione di arrotondamento, ad esempio, immettere "0,01".</span><span class="sxs-lookup"><span data-stu-id="80534-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
-7. <span data-ttu-id="80534-129">Nel campo Numero di decimali per l'importo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="80534-129">In the Number of decimals for amount field, enter a number.</span></span>
-    * <span data-ttu-id="80534-130">Ad esempio, immettere "2".</span><span class="sxs-lookup"><span data-stu-id="80534-130">For example, enter '2'.</span></span>  
-8. <span data-ttu-id="80534-131">Nel campo Arrotondamento sotto 1 kg selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="80534-131">In the Rounding below 1 kg field, select an option.</span></span>
-    * <span data-ttu-id="80534-132">Ad esempio, selezionare "Arrotondamento fino a 1 kg".</span><span class="sxs-lookup"><span data-stu-id="80534-132">For example, select 'Rounding up to 1 kg'.</span></span>  
-9. <span data-ttu-id="80534-133">Immettere un numero nel campo Regola di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="80534-133">In the Rounding rule field, enter a number.</span></span>
-    * <span data-ttu-id="80534-134">Ad esempio, impostare "1" per l'arrotondamento del peso all'intero.</span><span class="sxs-lookup"><span data-stu-id="80534-134">For example, enter '1' for rounding weight to the integer.</span></span>  
-10. <span data-ttu-id="80534-135">Espandere la sezione Limite minimo.</span><span class="sxs-lookup"><span data-stu-id="80534-135">Expand the Minimum limit section.</span></span>
-11. <span data-ttu-id="80534-136">Immettere un numero nel campo Peso.</span><span class="sxs-lookup"><span data-stu-id="80534-136">In the Weight field, enter a number.</span></span>
-    * <span data-ttu-id="80534-137">Ad esempio, impostare "10" come peso minimo.</span><span class="sxs-lookup"><span data-stu-id="80534-137">For example, enter '10' as the minimum weight.</span></span>  
-12. <span data-ttu-id="80534-138">Nel campo Importo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="80534-138">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="80534-139">Ad esempio, impostare "200" come quantità minima.</span><span class="sxs-lookup"><span data-stu-id="80534-139">For example, enter '200' as the minimum amount.</span></span>  
-13. <span data-ttu-id="80534-140">Nel campo Voce doganale immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="80534-140">In the Commodity field, enter or select a value.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="b602b-120">Impostare Parametri per il commercio estero</span><span class="sxs-lookup"><span data-stu-id="b602b-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="b602b-121">Passare a Imposta > Impostazione > Commercio estero > Parametri per il commercio estero</span><span class="sxs-lookup"><span data-stu-id="b602b-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="b602b-122">Espandere la sezione Creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="b602b-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="b602b-123">Nel campo Mapping formato file immettere o selezionare un valore Intrastat (DE)</span><span class="sxs-lookup"><span data-stu-id="b602b-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="b602b-124">Nel campo Mapping formato report immettere o selezionare un valore Report Intrastat</span><span class="sxs-lookup"><span data-stu-id="b602b-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="b602b-125">Espandere la sezione Regole di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="b602b-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="b602b-126">È necessario impostare le regole di arrotondamento che sono applicabili nel paese per la dichiarazione Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b602b-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="b602b-127">Immettere un numero nel campo Regola di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="b602b-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="b602b-128">Inserire la precisione di arrotondamento, ad esempio, immettere "0,01".</span><span class="sxs-lookup"><span data-stu-id="b602b-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="b602b-129">Nel campo Numero di decimali per l'importo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b602b-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="b602b-130">Ad esempio, immettere "2".</span><span class="sxs-lookup"><span data-stu-id="b602b-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="b602b-131">Nel campo Arrotondamento sotto 1 kg selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="b602b-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="b602b-132">Ad esempio, selezionare "Arrotondamento fino a 1 kg".</span><span class="sxs-lookup"><span data-stu-id="b602b-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="b602b-133">Immettere un numero nel campo Regola di arrotondamento.</span><span class="sxs-lookup"><span data-stu-id="b602b-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="b602b-134">Ad esempio, impostare "1" per l'arrotondamento del peso all'intero.</span><span class="sxs-lookup"><span data-stu-id="b602b-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="b602b-135">Espandere la sezione Limite minimo.</span><span class="sxs-lookup"><span data-stu-id="b602b-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="b602b-136">Immettere un numero nel campo Peso.</span><span class="sxs-lookup"><span data-stu-id="b602b-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="b602b-137">Ad esempio, impostare "10" come peso minimo.</span><span class="sxs-lookup"><span data-stu-id="b602b-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="b602b-138">Nel campo Importo immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b602b-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="b602b-139">Ad esempio, impostare "200" come quantità minima.</span><span class="sxs-lookup"><span data-stu-id="b602b-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="b602b-140">Nel campo Voce doganale immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="b602b-140">In the Commodity field, enter or select a value.</span></span>
 
-## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="80534-141">Impostare Compressione di Intrastat</span><span class="sxs-lookup"><span data-stu-id="80534-141">Set up Compression of Intrastat</span></span>
-1. <span data-ttu-id="80534-142">Passare a Imposta > Impostazioni > Commercio estero > Compressione di Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80534-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
-2. <span data-ttu-id="80534-143">Fare clic su Rimuovi.</span><span class="sxs-lookup"><span data-stu-id="80534-143">Click Remove.</span></span>
-3. <span data-ttu-id="80534-144">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="80534-144">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="80534-145">Ad esempio, selezionare Voce doganale nella sezione Disponibile.</span><span class="sxs-lookup"><span data-stu-id="80534-145">For example, select Commodity in the Available section.</span></span>  
-4. <span data-ttu-id="80534-146">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="80534-146">Click Add.</span></span>
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="b602b-141">Impostare Compressione di Intrastat</span><span class="sxs-lookup"><span data-stu-id="b602b-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="b602b-142">Passare a Imposta > Impostazioni > Commercio estero > Compressione di Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b602b-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="b602b-143">Fare clic su Rimuovi.</span><span class="sxs-lookup"><span data-stu-id="b602b-143">Click Remove.</span></span>
+3. <span data-ttu-id="b602b-144">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="b602b-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b602b-145">Ad esempio, selezionare Voce doganale nella sezione Disponibile.</span><span class="sxs-lookup"><span data-stu-id="b602b-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="b602b-146">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="b602b-146">Click Add.</span></span>
 
-## <a name="generate-intrastat-declaration"></a><span data-ttu-id="80534-147">Generare la dichiarazione Intrastat</span><span class="sxs-lookup"><span data-stu-id="80534-147">Generate Intrastat declaration</span></span>
-1. <span data-ttu-id="80534-148">Passare a Imposta > Dichiarazioni > Commercio estero > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="80534-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
-2. <span data-ttu-id="80534-149">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="80534-149">Click Validate.</span></span>
-    * <span data-ttu-id="80534-150">La convalida viene effettuata in base al campo Verifica impostazione nella pagina Parametri per il commercio estero.</span><span class="sxs-lookup"><span data-stu-id="80534-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
-3. <span data-ttu-id="80534-151">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="80534-151">Click OK.</span></span>
-4. <span data-ttu-id="80534-152">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="80534-152">Click Update.</span></span>
-5. <span data-ttu-id="80534-153">Fare clic su Limite minimo.</span><span class="sxs-lookup"><span data-stu-id="80534-153">Click Minimum limit.</span></span>
-6. <span data-ttu-id="80534-154">Nel campo Data di inizio, immettere una data.</span><span class="sxs-lookup"><span data-stu-id="80534-154">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="80534-155">Ad esempio, immettere 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-155">For example, enter January 1, 2015.</span></span>  
-7. <span data-ttu-id="80534-156">Selezionare Sì nel campo Comprimi.</span><span class="sxs-lookup"><span data-stu-id="80534-156">Select Yes in the Compress field.</span></span>
-8. <span data-ttu-id="80534-157">Immettere una data nel campo Data di fine.</span><span class="sxs-lookup"><span data-stu-id="80534-157">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="80534-158">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-158">For example, enter January 31, 2015.</span></span>  
-9. <span data-ttu-id="80534-159">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="80534-159">Click OK.</span></span>
-10. <span data-ttu-id="80534-160">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="80534-160">Click Update.</span></span>
-11. <span data-ttu-id="80534-161">Fare clic su Comprimi.</span><span class="sxs-lookup"><span data-stu-id="80534-161">Click Compress.</span></span>
-    * <span data-ttu-id="80534-162">La compressione si verifica in base a come si configurano le impostazioni di compressione di intrastate.</span><span class="sxs-lookup"><span data-stu-id="80534-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
-12. <span data-ttu-id="80534-163">Nel campo Data di inizio, immettere una data.</span><span class="sxs-lookup"><span data-stu-id="80534-163">In the Start date field, enter a date.</span></span>
-    * <span data-ttu-id="80534-164">Ad esempio, immettere 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-164">For example, enter January 1, 2015.</span></span>  
-13. <span data-ttu-id="80534-165">Immettere una data nel campo Data di fine.</span><span class="sxs-lookup"><span data-stu-id="80534-165">In the End date field, enter a date.</span></span>
-    * <span data-ttu-id="80534-166">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-166">For example, enter 31st January 2015.</span></span>  
-14. <span data-ttu-id="80534-167">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="80534-167">Click OK.</span></span>
-15. <span data-ttu-id="80534-168">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="80534-168">Click Update.</span></span>
-16. <span data-ttu-id="80534-169">Fare clic su Rigenera numeri progressivi.</span><span class="sxs-lookup"><span data-stu-id="80534-169">Click Regenerate sequence numbers.</span></span>
-17. <span data-ttu-id="80534-170">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="80534-170">Click OK.</span></span>
-18. <span data-ttu-id="80534-171">Fare clic su Output.</span><span class="sxs-lookup"><span data-stu-id="80534-171">Click Output.</span></span>
-19. <span data-ttu-id="80534-172">Fare clic su Report.</span><span class="sxs-lookup"><span data-stu-id="80534-172">Click Report.</span></span>
-20. <span data-ttu-id="80534-173">Nel campo Dal immettere la prima data del periodo di reporting.</span><span class="sxs-lookup"><span data-stu-id="80534-173">In the From date field, enter the first date of the reporting period.</span></span>
-    * <span data-ttu-id="80534-174">Ad esempio, impostare la data su 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-174">For example, set the date to January 1, 2015.</span></span>  
-21. <span data-ttu-id="80534-175">Nel campo Data finale immettere una data.</span><span class="sxs-lookup"><span data-stu-id="80534-175">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="80534-176">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="80534-176">For example, enter January 31, 2015.</span></span>  
-22. <span data-ttu-id="80534-177">Selezionare Sì nel campo Genera file.</span><span class="sxs-lookup"><span data-stu-id="80534-177">Select Yes in the Generate file field.</span></span>
-23. <span data-ttu-id="80534-178">Digitare un valore nel campo Nome file.</span><span class="sxs-lookup"><span data-stu-id="80534-178">In the File name field, type a value.</span></span>
-24. <span data-ttu-id="80534-179">Selezionare Sì nel campo Genera report.</span><span class="sxs-lookup"><span data-stu-id="80534-179">Select Yes in the Generate report field.</span></span>
-25. <span data-ttu-id="80534-180">Digitare un valore nel campo Nome file report.</span><span class="sxs-lookup"><span data-stu-id="80534-180">In the Report file name field, type a value.</span></span>
-26. <span data-ttu-id="80534-181">Selezionare un'opzione nel campo Direzione.</span><span class="sxs-lookup"><span data-stu-id="80534-181">In the Direction field, select an option.</span></span>
-    * <span data-ttu-id="80534-182">Ad esempio, selezionare "Spedizioni".</span><span class="sxs-lookup"><span data-stu-id="80534-182">For example, select 'Dispatches'.</span></span>  
-27. <span data-ttu-id="80534-183">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="80534-183">Click OK.</span></span>
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="b602b-147">Generare la dichiarazione Intrastat</span><span class="sxs-lookup"><span data-stu-id="b602b-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="b602b-148">Passare a Imposta > Dichiarazioni > Commercio estero > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="b602b-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="b602b-149">Fare clic su Convalida.</span><span class="sxs-lookup"><span data-stu-id="b602b-149">Click Validate.</span></span>
+    * <span data-ttu-id="b602b-150">La convalida viene effettuata in base al campo Verifica impostazione nella pagina Parametri per il commercio estero.</span><span class="sxs-lookup"><span data-stu-id="b602b-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="b602b-151">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b602b-151">Click OK.</span></span>
+4. <span data-ttu-id="b602b-152">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="b602b-152">Click Update.</span></span>
+5. <span data-ttu-id="b602b-153">Fare clic su Limite minimo.</span><span class="sxs-lookup"><span data-stu-id="b602b-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="b602b-154">Nel campo Data di inizio, immettere una data.</span><span class="sxs-lookup"><span data-stu-id="b602b-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="b602b-155">Ad esempio, immettere 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="b602b-156">Selezionare Sì nel campo Comprimi.</span><span class="sxs-lookup"><span data-stu-id="b602b-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="b602b-157">Immettere una data nel campo Data di fine.</span><span class="sxs-lookup"><span data-stu-id="b602b-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="b602b-158">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="b602b-159">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b602b-159">Click OK.</span></span>
+10. <span data-ttu-id="b602b-160">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="b602b-160">Click Update.</span></span>
+11. <span data-ttu-id="b602b-161">Fare clic su Comprimi.</span><span class="sxs-lookup"><span data-stu-id="b602b-161">Click Compress.</span></span>
+    * <span data-ttu-id="b602b-162">La compressione si verifica in base a come si configurano le impostazioni di compressione di intrastate.</span><span class="sxs-lookup"><span data-stu-id="b602b-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="b602b-163">Nel campo Data di inizio, immettere una data.</span><span class="sxs-lookup"><span data-stu-id="b602b-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="b602b-164">Ad esempio, immettere 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="b602b-165">Immettere una data nel campo Data di fine.</span><span class="sxs-lookup"><span data-stu-id="b602b-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="b602b-166">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="b602b-167">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b602b-167">Click OK.</span></span>
+15. <span data-ttu-id="b602b-168">Fare clic su Aggiorna.</span><span class="sxs-lookup"><span data-stu-id="b602b-168">Click Update.</span></span>
+16. <span data-ttu-id="b602b-169">Fare clic su Rigenera numeri progressivi.</span><span class="sxs-lookup"><span data-stu-id="b602b-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="b602b-170">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b602b-170">Click OK.</span></span>
+18. <span data-ttu-id="b602b-171">Fare clic su Output.</span><span class="sxs-lookup"><span data-stu-id="b602b-171">Click Output.</span></span>
+19. <span data-ttu-id="b602b-172">Fare clic su Report.</span><span class="sxs-lookup"><span data-stu-id="b602b-172">Click Report.</span></span>
+20. <span data-ttu-id="b602b-173">Nel campo Dal immettere la prima data del periodo di reporting.</span><span class="sxs-lookup"><span data-stu-id="b602b-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="b602b-174">Ad esempio, impostare la data su 1 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="b602b-175">Nel campo Data finale immettere una data.</span><span class="sxs-lookup"><span data-stu-id="b602b-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="b602b-176">Ad esempio, immettere 31 gennaio 2015.</span><span class="sxs-lookup"><span data-stu-id="b602b-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="b602b-177">Selezionare Sì nel campo Genera file.</span><span class="sxs-lookup"><span data-stu-id="b602b-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="b602b-178">Digitare un valore nel campo Nome file.</span><span class="sxs-lookup"><span data-stu-id="b602b-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="b602b-179">Selezionare Sì nel campo Genera report.</span><span class="sxs-lookup"><span data-stu-id="b602b-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="b602b-180">Digitare un valore nel campo Nome file report.</span><span class="sxs-lookup"><span data-stu-id="b602b-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="b602b-181">Selezionare un'opzione nel campo Direzione.</span><span class="sxs-lookup"><span data-stu-id="b602b-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="b602b-182">Ad esempio, selezionare "Spedizioni".</span><span class="sxs-lookup"><span data-stu-id="b602b-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="b602b-183">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b602b-183">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

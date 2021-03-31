@@ -13,16 +13,16 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0b166956a8242a3e4520002c0ca1af648a798c9a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b5fed8cf271ec9818463cfe960ae5c488cdc4c84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226245"
 ---
-# <a name="dynamics-365-finance-learning-catalog"></a><span data-ttu-id="88acd-103">Catalogo di apprendimento Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="88acd-103">Dynamics 365 Finance learning catalog</span></span>
+# <a name="dynamics-365-finance-learning-catalog"></a><span data-ttu-id="e9f4d-103">Catalogo di apprendimento Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="e9f4d-103">Dynamics 365 Finance learning catalog</span></span>
 
-<span data-ttu-id="88acd-104">Informazioni sulla giusta formazione online, workshop con istruttore ed eventi per il ruolo in qualità di utente dell'applicazione Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="88acd-104">Find the right online training, in person workshops, and events for your role as a user of the Dynamics 365 Finance application.</span></span>
+<span data-ttu-id="e9f4d-104">Informazioni sulla giusta formazione online, workshop con istruttore ed eventi per il ruolo in qualità di utente dell'applicazione Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="e9f4d-104">Find the right online training, in person workshops, and events for your role as a user of the Dynamics 365 Finance application.</span></span>
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -30,151 +30,154 @@ ms.locfileid: "5009195"
     :::column:::
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
-    ### <a name="business-and-technical-decision-makers"></a><span data-ttu-id="88acd-105">Responsabili delle decisioni tecniche e aziendali</span><span class="sxs-lookup"><span data-stu-id="88acd-105">Business and Technical Decision Makers</span></span>
+    ### <a name="business-and-technical-decision-makers"></a><span data-ttu-id="e9f4d-105">Responsabili delle decisioni tecniche e aziendali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-105">Business and Technical Decision Makers</span></span>
 
-    <span data-ttu-id="88acd-106">Decidi se investire in nuove tecnologie?</span><span class="sxs-lookup"><span data-stu-id="88acd-106">Do you decide whether to invest in new technologies?</span></span> 
+    <span data-ttu-id="e9f4d-106">Decidi se investire in nuove tecnologie?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-106">Do you decide whether to invest in new technologies?</span></span> 
 
-    [<span data-ttu-id="88acd-107">Catalogo di apprendimento per responsabili delle decisioni tecniche e aziendali</span><span class="sxs-lookup"><span data-stu-id="88acd-107">Business and Technical Decision Makers Learning Catalog</span></span>](learning-catalog-bdm.md#)
+    [<span data-ttu-id="e9f4d-107">Catalogo di apprendimento per responsabili delle decisioni tecniche e aziendali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-107">Business and Technical Decision Makers Learning Catalog</span></span>](learning-catalog-bdm.md#)
 
-    [<span data-ttu-id="88acd-108">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-108">Get started</span></span>](learning-catalog-bdm.md#get-started)
+    [<span data-ttu-id="e9f4d-108">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-108">Get started</span></span>](learning-catalog-bdm.md#get-started)
 
-    [<span data-ttu-id="88acd-109">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-109">Exam</span></span>](learning-catalog-bdm.md#exam)
+    [<span data-ttu-id="e9f4d-109">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-109">Exam</span></span>](learning-catalog-bdm.md#exam)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="business-users"></a><span data-ttu-id="88acd-110">Utenti aziendali</span><span class="sxs-lookup"><span data-stu-id="88acd-110">Business users</span></span>
+    ### <a name="business-users"></a><span data-ttu-id="e9f4d-110">Utenti aziendali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-110">Business users</span></span>
 
-    <span data-ttu-id="88acd-111">Hai appena ricevuto una nuova applicazione da utilizzare?</span><span class="sxs-lookup"><span data-stu-id="88acd-111">Did you just get a new application to use?</span></span> 
+    <span data-ttu-id="e9f4d-111">Hai appena ricevuto una nuova applicazione da utilizzare?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-111">Did you just get a new application to use?</span></span> 
 
-    [<span data-ttu-id="88acd-112">Catalogo di apprendimento per utenti aziendali</span><span class="sxs-lookup"><span data-stu-id="88acd-112">Business Users Learning Catalog</span></span>](learning-catalog-business-user.md)
+    [<span data-ttu-id="e9f4d-112">Catalogo di apprendimento per utenti aziendali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-112">Business Users Learning Catalog</span></span>](learning-catalog-business-user.md)
 
-    [<span data-ttu-id="88acd-113">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-113">Get Started</span></span>](learning-catalog-business-user.md#get-started)
+    [<span data-ttu-id="e9f4d-113">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-113">Get Started</span></span>](learning-catalog-business-user.md#get-started)
 
-    [<span data-ttu-id="88acd-114">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="88acd-114">Core platform knowledge</span></span>](learning-catalog-business-user.md#core-platform-knowledge)
+    [<span data-ttu-id="e9f4d-114">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="e9f4d-114">Core platform knowledge</span></span>](learning-catalog-business-user.md#core-platform-knowledge)
 
-    [<span data-ttu-id="88acd-115">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="88acd-115">Financial management</span></span>](learning-catalog-business-user.md#financial-management)
+    [<span data-ttu-id="e9f4d-115">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="e9f4d-115">Financial management</span></span>](learning-catalog-business-user.md#financial-management)
 
-    [<span data-ttu-id="88acd-116">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-116">Exam</span></span>](learning-catalog-business-user.md#exam)
+    [<span data-ttu-id="e9f4d-116">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-116">Exam</span></span>](learning-catalog-business-user.md#exam)
 
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="implementation-project-managers"></a><span data-ttu-id="88acd-117">Responsabili dei progetti di implementazione</span><span class="sxs-lookup"><span data-stu-id="88acd-117">Implementation Project Managers</span></span>
+    ### <a name="implementation-project-managers"></a><span data-ttu-id="e9f4d-117">Responsabili dei progetti di implementazione</span><span class="sxs-lookup"><span data-stu-id="e9f4d-117">Implementation Project Managers</span></span>
 
-    <span data-ttu-id="88acd-118">Hai la responsabilità di assicurarti che l'implementazione della tua società proceda senza intoppi?</span><span class="sxs-lookup"><span data-stu-id="88acd-118">Are you in charge of making sure your company’s implementation goes smoothly?</span></span>
+    <span data-ttu-id="e9f4d-118">Hai la responsabilità di assicurarti che l'implementazione della tua società proceda senza intoppi?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-118">Are you in charge of making sure your company’s implementation goes smoothly?</span></span>
 
-    [<span data-ttu-id="88acd-119">Catalogo di apprendimento per l'implementazione del manager di progetto</span><span class="sxs-lookup"><span data-stu-id="88acd-119">Implementation Project Manager Learning Catalog</span></span>](learning-catalog-project-manager.md)
+    [<span data-ttu-id="e9f4d-119">Catalogo di apprendimento per l'implementazione del manager di progetto</span><span class="sxs-lookup"><span data-stu-id="e9f4d-119">Implementation Project Manager Learning Catalog</span></span>](learning-catalog-project-manager.md)
 
-    [<span data-ttu-id="88acd-120">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-120">Get started</span></span>](learning-catalog-project-manager.md#get-started)
+    [<span data-ttu-id="e9f4d-120">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-120">Get started</span></span>](learning-catalog-project-manager.md#get-started)
 
-    [<span data-ttu-id="88acd-121">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="88acd-121">Core platform knowledge</span></span>](learning-catalog-project-manager.md#core-platform-knowledge)
+    [<span data-ttu-id="e9f4d-121">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="e9f4d-121">Core platform knowledge</span></span>](learning-catalog-project-manager.md#core-platform-knowledge)
 
-    [<span data-ttu-id="88acd-122">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="88acd-122">Financial management</span></span>](learning-catalog-project-manager.md#financial-management)
+    [<span data-ttu-id="e9f4d-122">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="e9f4d-122">Financial management</span></span>](learning-catalog-project-manager.md#financial-management)
 
-    [<span data-ttu-id="88acd-123">Esami</span><span class="sxs-lookup"><span data-stu-id="88acd-123">Exams</span></span>](learning-catalog-project-manager.md#exams)
+    [<span data-ttu-id="e9f4d-123">Esami</span><span class="sxs-lookup"><span data-stu-id="e9f4d-123">Exams</span></span>](learning-catalog-project-manager.md#exams)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="administrators"></a><span data-ttu-id="88acd-124">Amministratori</span><span class="sxs-lookup"><span data-stu-id="88acd-124">Administrators</span></span>
+    ### <a name="administrators"></a><span data-ttu-id="e9f4d-124">Amministratori</span><span class="sxs-lookup"><span data-stu-id="e9f4d-124">Administrators</span></span>
 
-    <span data-ttu-id="88acd-125">Hai bisogno di mantenere flussi, provisioning e sicurezza per sistemi e dati 24 ore su 24?</span><span class="sxs-lookup"><span data-stu-id="88acd-125">Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?</span></span>
+    <span data-ttu-id="e9f4d-125">Hai bisogno di mantenere flussi, provisioning e sicurezza per sistemi e dati 24 ore su 24?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-125">Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?</span></span>
 
-    [<span data-ttu-id="88acd-126">Catalogo di apprendimento per amministratori</span><span class="sxs-lookup"><span data-stu-id="88acd-126">Administrators Learning Catalog</span></span>](learning-catalog-administrator.md)
+    [<span data-ttu-id="e9f4d-126">Catalogo di apprendimento per amministratori</span><span class="sxs-lookup"><span data-stu-id="e9f4d-126">Administrators Learning Catalog</span></span>](learning-catalog-administrator.md)
 
-    [<span data-ttu-id="88acd-127">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-127">Get started</span></span>](learning-catalog-administrator.md#get-started)
+    [<span data-ttu-id="e9f4d-127">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-127">Get started</span></span>](learning-catalog-administrator.md#get-started)
 
-    [<span data-ttu-id="88acd-128">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="88acd-128">Core platform knowledge</span></span>](learning-catalog-administrator.md#core-platform-knowledge)
+    [<span data-ttu-id="e9f4d-128">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="e9f4d-128">Core platform knowledge</span></span>](learning-catalog-administrator.md#core-platform-knowledge)
 
-    [<span data-ttu-id="88acd-129">Sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="88acd-129">Core development</span></span>](learning-catalog-administrator.md#core-development)
+    [<span data-ttu-id="e9f4d-129">Sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="e9f4d-129">Core development</span></span>](learning-catalog-administrator.md#core-development)
 
-    [<span data-ttu-id="88acd-130">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="88acd-130">Migration and upgrade</span></span>](learning-catalog-administrator.md#migration-and-upgrade)
+    [<span data-ttu-id="e9f4d-130">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="e9f4d-130">Migration and upgrade</span></span>](learning-catalog-administrator.md#migration-and-upgrade)
 
-    [<span data-ttu-id="88acd-131">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="88acd-131">Servicing</span></span>](learning-catalog-administrator.md#servicing)
+    [<span data-ttu-id="e9f4d-131">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="e9f4d-131">Servicing</span></span>](learning-catalog-administrator.md#servicing)
 
-    [<span data-ttu-id="88acd-132">Test</span><span class="sxs-lookup"><span data-stu-id="88acd-132">Testing</span></span>](learning-catalog-administrator.md#testing)
+    [<span data-ttu-id="e9f4d-132">Test</span><span class="sxs-lookup"><span data-stu-id="e9f4d-132">Testing</span></span>](learning-catalog-administrator.md#testing)
 
   :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="developers"></a><span data-ttu-id="88acd-133">Sviluppatori</span><span class="sxs-lookup"><span data-stu-id="88acd-133">Developers</span></span>
+    ### <a name="developers"></a><span data-ttu-id="e9f4d-133">Sviluppatori</span><span class="sxs-lookup"><span data-stu-id="e9f4d-133">Developers</span></span>
 
-    <span data-ttu-id="88acd-134">Devi scrivere codice per l'integrazione con altre origini dati, estendere le funzionalità principali del sistema o creare un'applicazione complessa?</span><span class="sxs-lookup"><span data-stu-id="88acd-134">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
+    <span data-ttu-id="e9f4d-134">Devi scrivere codice per l'integrazione con altre origini dati, estendere le funzionalità principali del sistema o creare un'applicazione complessa?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-134">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
 
-    [<span data-ttu-id="88acd-135">Catalogo di apprendimento per sviluppatori</span><span class="sxs-lookup"><span data-stu-id="88acd-135">Developer Learning Catalog</span></span>](learning-catalog-developer.md)
+    [<span data-ttu-id="e9f4d-135">Catalogo di apprendimento per sviluppatori</span><span class="sxs-lookup"><span data-stu-id="e9f4d-135">Developer Learning Catalog</span></span>](learning-catalog-developer.md)
 
-    [<span data-ttu-id="88acd-136">Inizia subito</span><span class="sxs-lookup"><span data-stu-id="88acd-136">Get started</span></span>](learning-catalog-developer.md#get-started)
+    [<span data-ttu-id="e9f4d-136">Inizia subito</span><span class="sxs-lookup"><span data-stu-id="e9f4d-136">Get started</span></span>](learning-catalog-developer.md#get-started)
 
-    [<span data-ttu-id="88acd-137">Concetti di sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="88acd-137">Core development concepts</span></span>](learning-catalog-developer.md#core-development-concepts)
+    [<span data-ttu-id="e9f4d-137">Concetti di sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="e9f4d-137">Core development concepts</span></span>](learning-catalog-developer.md#core-development-concepts)
 
-    [<span data-ttu-id="88acd-138">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="88acd-138">Servicing</span></span>](learning-catalog-developer.md#servicing)
+    [<span data-ttu-id="e9f4d-138">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="e9f4d-138">Servicing</span></span>](learning-catalog-developer.md#servicing)
 
-    [<span data-ttu-id="88acd-139">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="88acd-139">Migration and upgrade</span></span>](learning-catalog-developer.md#migration-and-upgrade)
+    [<span data-ttu-id="e9f4d-139">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="e9f4d-139">Migration and upgrade</span></span>](learning-catalog-developer.md#migration-and-upgrade)
 
-    [<span data-ttu-id="88acd-140">Test</span><span class="sxs-lookup"><span data-stu-id="88acd-140">Testing</span></span>](learning-catalog-developer.md#testing)
+    [<span data-ttu-id="e9f4d-140">Test</span><span class="sxs-lookup"><span data-stu-id="e9f4d-140">Testing</span></span>](learning-catalog-developer.md#testing)
 
-    [<span data-ttu-id="88acd-141">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-141">Exam</span></span>](learning-catalog-developer.md#exam)
+    [<span data-ttu-id="e9f4d-141">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-141">Exam</span></span>](learning-catalog-developer.md#exam)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="functional-consultants"></a><span data-ttu-id="88acd-142">Consulenti funzionali</span><span class="sxs-lookup"><span data-stu-id="88acd-142">Functional consultants</span></span>
+    ### <a name="functional-consultants"></a><span data-ttu-id="e9f4d-142">Consulenti funzionali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-142">Functional consultants</span></span>
 
-    <span data-ttu-id="88acd-143">Sei un esperto di implementazione per un dominio aziendale?</span><span class="sxs-lookup"><span data-stu-id="88acd-143">Are you an implementation expert for a business domain?</span></span> 
+    <span data-ttu-id="e9f4d-143">Sei un esperto di implementazione per un dominio aziendale?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-143">Are you an implementation expert for a business domain?</span></span> 
 
-    [<span data-ttu-id="88acd-144">Catalogo di apprendimento per consulenti di applicazioni funzionali</span><span class="sxs-lookup"><span data-stu-id="88acd-144">Functional Application Consultant Learning Catalog</span></span>](learning-catalog-functional-consultant.md)
+    [<span data-ttu-id="e9f4d-144">Catalogo di apprendimento per consulenti di applicazioni funzionali</span><span class="sxs-lookup"><span data-stu-id="e9f4d-144">Functional Application Consultant Learning Catalog</span></span>](learning-catalog-functional-consultant.md)
 
-    [<span data-ttu-id="88acd-145">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-145">Get started</span></span>](learning-catalog-functional-consultant.md#get-started)
+    [<span data-ttu-id="e9f4d-145">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-145">Get started</span></span>](learning-catalog-functional-consultant.md#get-started)
 
-    [<span data-ttu-id="88acd-146">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="88acd-146">Core platform knowledge</span></span>](learning-catalog-functional-consultant.md#core-platform-knowledge)
+    [<span data-ttu-id="e9f4d-146">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="e9f4d-146">Core platform knowledge</span></span>](learning-catalog-functional-consultant.md#core-platform-knowledge)
 
-    [<span data-ttu-id="88acd-147">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="88acd-147">Financial management</span></span>](learning-catalog-functional-consultant.md#financial-management)
+    [<span data-ttu-id="e9f4d-147">Gestione finanziaria</span><span class="sxs-lookup"><span data-stu-id="e9f4d-147">Financial management</span></span>](learning-catalog-functional-consultant.md#financial-management)
 
-    [<span data-ttu-id="88acd-148">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-148">Exam</span></span>](learning-catalog-functional-consultant.md#exam)
+    [<span data-ttu-id="e9f4d-148">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-148">Exam</span></span>](learning-catalog-functional-consultant.md#exam)
 
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="partner-sales-and-marketing"></a><span data-ttu-id="88acd-149">Vendite e marketing partner</span><span class="sxs-lookup"><span data-stu-id="88acd-149">Partner Sales and Marketing</span></span>
+    ### <a name="partner-sales-and-marketing"></a><span data-ttu-id="e9f4d-149">Vendite e marketing partner</span><span class="sxs-lookup"><span data-stu-id="e9f4d-149">Partner Sales and Marketing</span></span>
 
-    <span data-ttu-id="88acd-150">Sei responsabile di aiutare i tuoi clienti ad acquistare la soluzione giusta?</span><span class="sxs-lookup"><span data-stu-id="88acd-150">Are you responsible for helping your customers buy the right solution?</span></span> 
+    <span data-ttu-id="e9f4d-150">Sei responsabile di aiutare i tuoi clienti ad acquistare la soluzione giusta?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-150">Are you responsible for helping your customers buy the right solution?</span></span> 
 
-    [<span data-ttu-id="88acd-151">Catalogo per l'apprendimento delle vendite e del marketing dei partner Microsoft</span><span class="sxs-lookup"><span data-stu-id="88acd-151">Microsoft Partner Sales and Marketing Learning Catalog</span></span>](learning-catalog-partner-sales.md)
+    [<span data-ttu-id="e9f4d-151">Catalogo per l'apprendimento delle vendite e del marketing dei partner Microsoft</span><span class="sxs-lookup"><span data-stu-id="e9f4d-151">Microsoft Partner Sales and Marketing Learning Catalog</span></span>](learning-catalog-partner-sales.md)
 
-    [<span data-ttu-id="88acd-152">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="88acd-152">Get started</span></span>](learning-catalog-partner-sales.md#get-started)
+    [<span data-ttu-id="e9f4d-152">Per iniziare</span><span class="sxs-lookup"><span data-stu-id="e9f4d-152">Get started</span></span>](learning-catalog-partner-sales.md#get-started)
 
-    [<span data-ttu-id="88acd-153">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-153">Exam</span></span>](learning-catalog-partner-sales.md#exam)
+    [<span data-ttu-id="e9f4d-153">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-153">Exam</span></span>](learning-catalog-partner-sales.md#exam)
 
     :::column-end:::
 
     :::column:::
 
-    ### <a name="solution-architects"></a><span data-ttu-id="88acd-154">Architetti di soluzioni</span><span class="sxs-lookup"><span data-stu-id="88acd-154">Solution architects</span></span>
+    ### <a name="solution-architects"></a><span data-ttu-id="e9f4d-154">Architetti di soluzioni</span><span class="sxs-lookup"><span data-stu-id="e9f4d-154">Solution architects</span></span>
 
-    <span data-ttu-id="88acd-155">Progetti soluzioni in grado di soddisfare le esigenze e i budget dei clienti?</span><span class="sxs-lookup"><span data-stu-id="88acd-155">Do you design solutions that meet your customers' needs and budgets?</span></span>
+    <span data-ttu-id="e9f4d-155">Progetti soluzioni in grado di soddisfare le esigenze e i budget dei clienti?</span><span class="sxs-lookup"><span data-stu-id="e9f4d-155">Do you design solutions that meet your customers' needs and budgets?</span></span>
 
-    [<span data-ttu-id="88acd-156">Catalogo di apprendimento per architetti della soluzione</span><span class="sxs-lookup"><span data-stu-id="88acd-156">Solution Architects Learning Catalog</span></span>](learning-catalog-solution-architect.md)
+    [<span data-ttu-id="e9f4d-156">Catalogo di apprendimento per architetti della soluzione</span><span class="sxs-lookup"><span data-stu-id="e9f4d-156">Solution Architects Learning Catalog</span></span>](learning-catalog-solution-architect.md)
 
-    [<span data-ttu-id="88acd-157">Inizia subito</span><span class="sxs-lookup"><span data-stu-id="88acd-157">Get started</span></span>](learning-catalog-solution-architect.md#get-started)
+    [<span data-ttu-id="e9f4d-157">Inizia subito</span><span class="sxs-lookup"><span data-stu-id="e9f4d-157">Get started</span></span>](learning-catalog-solution-architect.md#get-started)
 
-    [<span data-ttu-id="88acd-158">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="88acd-158">Core platform knowledge</span></span>](learning-catalog-solution-architect.md#core-platform-knowledge)
+    [<span data-ttu-id="e9f4d-158">Conoscenza della piattaforma principale</span><span class="sxs-lookup"><span data-stu-id="e9f4d-158">Core platform knowledge</span></span>](learning-catalog-solution-architect.md#core-platform-knowledge)
 
-    [<span data-ttu-id="88acd-159">Concetti di sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="88acd-159">Core development concepts</span></span>](learning-catalog-solution-architect.md#core-development-concepts)
+    [<span data-ttu-id="e9f4d-159">Concetti di sviluppo di base</span><span class="sxs-lookup"><span data-stu-id="e9f4d-159">Core development concepts</span></span>](learning-catalog-solution-architect.md#core-development-concepts)
 
-    [<span data-ttu-id="88acd-160">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="88acd-160">Migration and upgrade</span></span>](learning-catalog-solution-architect.md#migration-and-upgrade)
+    [<span data-ttu-id="e9f4d-160">Migrazione e aggiornamento</span><span class="sxs-lookup"><span data-stu-id="e9f4d-160">Migration and upgrade</span></span>](learning-catalog-solution-architect.md#migration-and-upgrade)
 
-    [<span data-ttu-id="88acd-161">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="88acd-161">Servicing</span></span>](learning-catalog-solution-architect.md#servicing)
+    [<span data-ttu-id="e9f4d-161">Manutenzione</span><span class="sxs-lookup"><span data-stu-id="e9f4d-161">Servicing</span></span>](learning-catalog-solution-architect.md#servicing)
 
-    [<span data-ttu-id="88acd-162">Test</span><span class="sxs-lookup"><span data-stu-id="88acd-162">Testing</span></span>](learning-catalog-solution-architect.md#testing)
+    [<span data-ttu-id="e9f4d-162">Test</span><span class="sxs-lookup"><span data-stu-id="e9f4d-162">Testing</span></span>](learning-catalog-solution-architect.md#testing)
 
-    [<span data-ttu-id="88acd-163">Esame</span><span class="sxs-lookup"><span data-stu-id="88acd-163">Exam</span></span>](learning-catalog-solution-architect.md#exam)
+    [<span data-ttu-id="e9f4d-163">Esame</span><span class="sxs-lookup"><span data-stu-id="e9f4d-163">Exam</span></span>](learning-catalog-solution-architect.md#exam)
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
