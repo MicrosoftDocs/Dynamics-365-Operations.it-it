@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1769af6663a040c699449eb53841b3f72ab433e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231034"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -55,7 +55,7 @@ I suggerimenti sul prodotto sono disponibili per i seguenti scenari:
 
 La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzati disponibili per i rivenditori da implementare nella soluzione Dynamics 365 Commerce tramite il [modulo Raccolta prodotti](product-collection-module-overview.md). I rivenditori possono anche mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione.
 
-| Modulo Raccolta prodotti  | Tipo | descrizione |
+| Modulo Raccolta prodotti  | Tipo | Descrizione |
 |----------------------------|------|-------------|
 | Nuove                        | Algoritmico | Questo modulo mostra un elenco dei prodotti più recenti che sono stati assortiti di recente in canali e cataloghi. |
 | Più venduti               | Algoritmico | Questo modulo mostra un elenco di prodotti classificati in base al più alto numero di vendite. |

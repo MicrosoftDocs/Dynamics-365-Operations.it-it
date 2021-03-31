@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3f2ae63758fcb6247c5e56433645d9252576c755
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228515"
 ---
 # <a name="put-to-wall---put-to-store"></a>Stoccaggio a parete - stoccaggio in magazzino
 
@@ -28,7 +28,7 @@ ms.locfileid: "4996277"
 
 La funzionalità *Stoccaggio a parete - stoccaggio in magazzino* consente di gestire scenari in cui è necessario consolidare un prodotto in un'area di gestione temporanea di preimballaggio, in base a criteri configurabili. Poiché questa funzionalità consente il prelievo su una singola targa di destinazione e può utilizzare più posizioni di stoccaggio rispetto al prelievo cluster, le aziende che spediscono a punti vendita o gestiscono piccoli articoli trarranno vantaggio dalla riduzione dei tempi di prelievo.
 
-Il flusso di lavoro per questa funzionalità indirizza il prodotto prelevato a un'ubicazione di ordinamento per la distribuzione in vari tipi di contenitori. In generale, ogni ubicazione di ordinamento include più posizioni di ordinamento. Ogni posizione di ordinamento viene assegnata in base ai criteri impostati dal processo aziendale. I criteri tipici sono la destinazione finale, la spedizione o il carico. Dopo l'arrivo di un prodotto, questo viene distribuito a ciascuna posizione di ordinamento, in base alla quantità associata all'ordine, alla destinazione, alla spedizione o al carico. Quando un container è pieno o completo, viene spostato in un'ubicazione di gestione temporanea o in un'ubicazione di spedizione per un'ulteriore gestione, a seconda del processo aziendale.
+Il flusso di lavoro per questa funzionalità indirizza il prodotto prelevato a un'ubicazione di ordinamento per la distribuzione in vari tipi di contenitori. In generale, ogni ubicazione di ordinamento include più posizioni di ordinamento. Ogni posizione di ordinamento viene assegnata in base ai criteri impostati dal processo aziendale. I criteri tipici sono la destinazione finale, la spedizione o il carico. Dopo l'arrivo di un prodotto, questo viene distribuito a ciascuna posizione di ordinamento, in base alla quantità associata all'ordine, alla destinazione, alla spedizione o al carico. Quando un contenitore è pieno o completo, viene spostato in un'ubicazione di gestione temporanea o in un'ubicazione di spedizione per un'ulteriore gestione, a seconda del processo aziendale.
 
 Questa funzionalità di magazzino è anche indicata con altri nomi, ad esempio "put-to-light".
 
@@ -463,7 +463,7 @@ Un ID lavoro è stato creato per portare le scorte dalle ubicazioni di prelievo 
 1. Selezionare il campo **ID**, quindi immettere l'ID lavoro dall'elaborazione dell'ondata.
 1. Conferma l'inserimento.
 
-    Successivamente, viene richiesto di immettere una targa di destinazione. Si noti che la riga 1 dell'ordine di vendita 1 è ciò che deve essere prelevato e aggiunto alla targa di destinazione. Vengono visualizzati il numero, la quantità, la descrizione e l'ubicazione di prelievo dell'articolo.
+    Successivamente, viene richiesto di immettere una targa di destinazione. Si noti che la riga 1 dell'ordine cliente 1 è ciò che deve essere prelevato e aggiunto alla targa di destinazione. Vengono visualizzati il numero, la quantità, la descrizione e l'ubicazione di prelievo dell'articolo.
 
 1. Nel campo **Targa destinazione**, immettere il numero di targa di destinazione.
 

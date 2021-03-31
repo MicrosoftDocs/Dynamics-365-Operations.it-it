@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 634f6cd840262895e6593c12dbe43923598241a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b657629e53488bbac222428cdb88c21deb2847c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227997"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria
 
@@ -42,7 +42,7 @@ Questa procedura si applica a tutti i paesi europei. L'attività è stata creata
 10. Nel campo Data/ora carico immettere una data e un'ora.
 11. Fare clic su Aggiungi indirizzo.
 12. Fare clic su Nuovo quindi creare il nuovo indirizzo con scopo Carico.
-13. Digitare 'Italiano' nel campo Nome o Descrizione.
+13. Digitare 'Italiano' nel campo Nome o descrizione.
 14. Selezionare il valore Carico.
     * Tenere presente che lo scopo dell'indirizzo deve esse Carico.  
 15. Nel campo Paese immettere o selezionare un valore ITA.

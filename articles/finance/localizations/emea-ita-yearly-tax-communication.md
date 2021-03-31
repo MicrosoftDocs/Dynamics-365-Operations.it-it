@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 196af9c84b2d969d625ce17de158cd9c180017e9
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: a673d283cdfbf386482cd7b17a1403ded7c61f2f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154139"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230184"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -78,7 +78,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 </tr>
 <tr>
 <td>
-<p>descrizione</p>
+<p>Descrizione</p>
 </td>
 <td>
 <p>Immettere una descrizione del campo.</p>
@@ -170,7 +170,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 
 15. Impostare i seguenti campi.
 
-    | Nome campo | descrizione                                                                                                                 |
+    | Nome campo | Descrizione                                                                                                                 |
     |------------|-----------------------------------------------------------------------------------------------------------------------------|
     | Segno       | Immettere **1** se il valore del campo deve essere accettato così com'è. Immettere **-1** se il valore del campo deve essere invertito. |
     | ID campo   | Selezionare il campo da sommare. I campi in cui il campo **Calcolo** è impostato su **Totale** non possono essere selezionato qui. |
@@ -184,7 +184,7 @@ I valori dei campi possono in genere essere numerici (formato **NU**) o alfanume
 
 Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a **NU** e **AN**, sono disponibili per la selezione anche i seguenti formati.
 
-| Formattazione | descrizione                                                                                                                                               | Carattere di spaziatura interna | Esempio                                    |
+| Formattazione | Descrizione                                                                                                                                               | Carattere di spaziatura interna | Esempio                                    |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------|
 | CF     | Codice fiscale (16 caratteri)                                                                                                                               | BARRA SPAZIATRICE             | "XXXXXX11X11X111X"                         |
 | PI     | Partita IVA (11 caratteri)                                                                                                                         | BARRA SPAZIATRICE             | "11111111111"                              |
@@ -209,7 +209,7 @@ Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a 
 
 3. Nella scheda **Generale** rivedere le seguenti informazioni:
 
-    | Campo                | descrizione                                                                                                                                                                                                                                                                                                                |
+    | Campo                | Descrizione                                                                                                                                                                                                                                                                                                                |
     |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | ID comunicazione imposte | Numero di identificazione del report **Comunicazione annuale imposte**.                                                                                                                                                                                                                                                      |
     | Anni                | Anno della comunicazione imposte. Questo campo viene automaticamente impostato sull'anno precedente. Se si crea il report nel 2020, questo campo è ad esempio impostato su **2019**.                                                                                                                                                |
@@ -1010,7 +1010,7 @@ Ecco un esempio per la persona giuridica **ITCO**.
 
 1. Andare a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA** e configurare i seguenti codici IVA.
 
-    | Codice IVA | Percentuale | descrizione                                                                              |
+    | Codice IVA | Percentuale | Descrizione                                                                              |
     |----------------|------------|------------------------------------------------------------------------------------------|
     | DOMP22         | 22         | Acquisti nazionali con un'aliquota del 22%.                                              |
     | DOMS22         | 22         | Vendite nazionali con un'aliquota del 22%.                                                  |
@@ -1023,7 +1023,7 @@ Ecco un esempio per la persona giuridica **ITCO**.
 4. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione annuale imposte** selezionare il formato **Comunicazione annuale imposte (IT)**.
 5. Andare a **Imposta** \> **Impostazione** \> **IVA** \> **Impostazioni comunicazione annuale imposte** e aggiungere le seguenti righe.
 
-    | ID campo | descrizione                                                                                                                                              | Formattazione | Calcolo      | Imposta sul reddito        | Segno | Scheda Codice IVA selezionato | Scheda Totali                   |
+    | ID campo | Descrizione                                                                                                                                              | Formattazione | Calcolo      | Imposta sul reddito        | Segno | Scheda Codice IVA selezionato | Scheda Totali                   |
     |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------------|------------|------|-----------------------------|------------------------------|
     | VE023001 | Imponibile del 22% delle transazioni fiscali agricole (art. 34, c.1) e delle operazioni professionali                                                                  | NU     | Transazioni fiscali | Imponibile   | 1    | DOMS22                      |                              |
     | VE023002 | Base imponibile del 22% su transazioni fiscali agricole (art. 34, c.1) e operazioni professionali                                                                       | NU     | Transazioni fiscali | Imposta | 1    | DOMS22                      |                              |

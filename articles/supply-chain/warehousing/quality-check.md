@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 585ca933726cb932290f8abf8504aeb13848a0e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996253"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228467"
 ---
 # <a name="quality-check"></a>Controllo qualità
 
@@ -182,7 +182,7 @@ Per ulteriori informazioni sui modelli di lavoro, vedere [Controllo del lavoro d
 Le direttive ubicazione sono regole che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte. Ad esempio, in una transazione dell'ordine cliente, la direttiva ubicazione determina il punto di prelievo e il punto di stoccaggio degli articoli. È necessario configurare una regola della direttiva ubicazione per definire come verranno gestiti i controlli di qualità non superati.
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
-1. Nel riquadro sinistro, impostare il campo **Tipo di ordine di lavoro** su *Ordini di acquisto* per lavorare con le direttive ubicazioni di quel tipo.
+1. Nel riquadro sinistro, impostare il campo **Tipo di ordine di lavoro** su *Ordini fornitore* per lavorare con le direttive ubicazioni di quel tipo.
 1. Nel riquadro azioni selezionare **Nuovo** per creare una direttiva ubicazione per i controlli di qualità.
 1. Nell'intestazione, imposta i seguenti valori:
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ab55d778f55c3ec96141c4f868724af1e11aed09
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229576"
 ---
 # <a name="asset-leasing-reports"></a>Report di leasing cespite
 
@@ -36,7 +36,7 @@ Questo argomento elenca e descrive brevemente i report disponibili in Leasing ce
 ## <a name="asset-movement"></a>Movimento cespite
 Il report sul movimento del cespite funge da rapporto di rollforward per i saldi degli Asset Right of use per ogni leasing. Questo report consente di visualizzare le transazioni di asset di un leasing durante un periodo specificato. In questo report sono inclusi i seguenti campi. 
 
-|     Campi del report                  |     descrizione                                                                |
+|     Campi del report                  |     Descrizione                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Data di inizio              |     La data di inizio della prima versione del leasing.                     |   
 |     Termine del leasing                     |     Il termine del leasing della prima versione del leasing.                            |
@@ -58,7 +58,7 @@ I valori nel report variano in base al leasing selezionato. Il report mostrerà 
 ## <a name="five-years-undiscounted-payment-forecast"></a>Previsione pagamento non scontato cinque anni
 Il report Previsione pagamento non scontato cinque anni mostra i pagamenti previsti per leasing non scontati da pagare nei prossimi cinque anni dalla data specificata nei parametri del report. In questo report sono inclusi i seguenti campi. 
 
-|     Campi del report         |     descrizione                                                                                       |
+|     Campi del report         |     Descrizione                                                                                       |
 |-------------------------- |---------------------------------------------------------------------------------------------------    |
 |     Descrizione leasing     |     La descrizione del leasing dall'intestazione del leasing.                                                      |
 |     ID leasing              |     ID leasing univoco.                                                                              |
@@ -76,7 +76,7 @@ Il report Previsione pagamento non scontato cinque anni mostra i pagamenti previ
 ## <a name="gaap-cash-flows-report"></a>Report del flusso di GAAP
 Il report di divulgazione GAAP soddisfa il requisito di divulgazione US GAAP specificato in 842-20-50-4 (g) (1). Per visualizzare questo report, vai a **Leasing cespite > Richieste di informazioni e report > Divulgazioni > GAAP - Flussi di cassa**. 
 
-|     Campi del report                                 |     descrizione                                                                                                                                               |
+|     Campi del report                                 |     Descrizione                                                                                                                                               |
 |------------------------------------------------   |-----------------------------------------------------------------------------  |
 |     Data di inizio <br> Data di fine                        |     Definisce un intervallo di date utilizzato per limitare le informazioni incluse nel report.      |
 |     Persona giuridica                                  |     La persona giuridica associata ai leasing.                                      |
@@ -94,7 +94,7 @@ Il report di divulgazione GAAP soddisfa il requisito di divulgazione US GAAP spe
 ## <a name="lease-balances-forecast"></a>Previsione saldi leasing
 La previsione saldi leasing elenca le informazioni direttamente dal piano di ammortamento delle passività e dal piano di ammortamento dei cespiti. Il report mostra gli importi previsti della passività prevista per il leasing e degli Asset Right of useper un periodo di tempo, comprese tutte le spese previste per tali leasing. In questo report sono inclusi i seguenti campi.
 
-|     Campi del report                 |     descrizione                                                                                                                                                                               |
+|     Campi del report                 |     Descrizione                                                                                                                                                                               |
 |---------------------------------  |--------------------------------------------------------------------------------------------------------------------   |
 |     Saldo iniziale             |     Il saldo iniziale nel piano di ammortamento del leasing per il periodo contenente la data di inizio del report.            |
 |     Riconoscimento iniziale           |     Se la data di inizio del leasing rientra nell'intervallo di date definito per il report, in questa colonna verrà visualizzato il valore del conto obbligazione della registrazione contabile di rilevamento iniziale.      |
@@ -112,7 +112,7 @@ La previsione saldi leasing elenca le informazioni direttamente dal piano di amm
 ## <a name="lease-commencements-report"></a>Report di inizio del leasing
 Il report di inizio leasing mostra tutti i leasing che sono iniziati entro un intervallo di date specificato, inclusa la passività iniziale e i saldi degli Asset Right of use. In questo report sono inclusi i seguenti campi. 
 
-|     Campi del report                 |     descrizione                                                                                       |
+|     Campi del report                 |     Descrizione                                                                                       |
 |---------------------------------  |---------------------------------------------------------------------------------------------------    |
 |     Data di inizio             |     La data della registrazione contabile di rilevamento che è stata registrata per quella versione di leasing.         |
 |     Importo passività iniziale      |     L'importo della passività dalla registrazione contabile della rilevazione iniziale.                                  |
@@ -121,7 +121,7 @@ Il report di inizio leasing mostra tutti i leasing che sono iniziati entro un in
 ## <a name="lease-modification-report"></a>Rapporto di modifica del leasing
 Il report di modifica del leasing mostra tutti i leasing che sono stati modificati entro un intervallo di date specificato. Il report mostra anche l'utente che ha rettificato il leasing e l'importo totale della passività rettificato. In questo report sono inclusi i seguenti campi. 
 
-|     Campi del report                 |     descrizione           |
+|     Campi del report                 |     Descrizione           |
 |---------------------------------  |-------------------------  |
 |     Rettificato da                   |     Il nome utente della persona che ha modificato il leasing.                                |
 |     Data di rettifica               |     La data in cui la registrazione contabile di rettifica è stata registrata.                        |
@@ -133,7 +133,7 @@ Il report di modifica del leasing mostra tutti i leasing che sono stati modifica
 ## <a name="lease-movement-report"></a>Report movimenti leasing
 Il report di movimento del leasing funge da report di rollforward per i saldi di obbligazione sul leasing per ogni leasing. Questo report consente all'utente di visualizzare le transazioni di passività di un leasing durante un periodo specificato.
 
-|     Campi del report             |     descrizione                                               |
+|     Campi del report             |     Descrizione                                               |
 |----------------------------   |-------------------------------------------------------------- |
 |     Data di inizio         |     La data di inizio della prima versione del leasing.    |
 |     Termine del leasing                |     Il termine del leasing della prima versione del leasing.           |
@@ -151,7 +151,7 @@ La richiesta di transazioni di leasing mostra tutte le registrazioni contabili g
 ## <a name="weighted-average-discount-rate-report"></a>Report sul tasso di sconto medio ponderato
 Il report sul tasso di sconto medio ponderato soddisfa i requisiti di divulgazione dei GAAP US specificati in ASC 842-20-50-4 (g) (4) per un tasso di sconto medio ponderato. Per visualizzare questo report, vai a **Leasing cespite > Richieste di informazioni e report > Divulgazioni > Report sul tasso di sconto medio ponderato**. In questo report sono inclusi i seguenti campi. 
 
-|     Campi del report                     |     descrizione                                                           |
+|     Campi del report                     |     Descrizione                                                           |
 |------------------------------------   |------------------------------------------------------------------------   |
 |     In data                        |     Questo report includerà tutti i leasing che sono iniziati il o prima del parametro di data **A partire da**. Questo report dovrebbe essere eseguito a partire dall'ultimo giorno del periodo da divulgare.      |
 |     Persona giuridica                      |     La persona giuridica associata al leasing.                           |

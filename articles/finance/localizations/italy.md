@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8354214906274f716ed4208f7d6d266b16de6496
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
+ms.openlocfilehash: a0f3eba390deebf56f25cbbb0e4fb140250a6672
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153625"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226192"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 

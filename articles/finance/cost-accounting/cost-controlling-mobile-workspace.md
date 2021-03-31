@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 58d86dbd2a3207b72d91165ede675bfe3ab8091e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f75a868acd8ae7e77c7080e2afe81788490bcccb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226415"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Area di lavoro mobile di controllo costi
 
@@ -88,7 +88,7 @@ Se nell'organizzazione è stato distribuita la versione 1611 con Aggiornamento p
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>

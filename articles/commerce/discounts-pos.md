@@ -1,5 +1,5 @@
 ---
-title: Mostrare gli sconti nel POS
+title: Mostra sconti in POS
 description: Questo argomento spiega come Microsoft Dynamics 365 Commerce aiuta gli addetti alle vendite a conoscere le promozioni e come possono essere utilizzate per i movimenti di cross-sell e upsell.
 author: ShalabhjainMSFT
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 118e7689e5d37aae18d3823b957301ddfa89369a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3934390b86f821233c2620405e316cf732b3d7bf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230618"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 

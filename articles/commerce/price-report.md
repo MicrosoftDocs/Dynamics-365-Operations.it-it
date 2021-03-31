@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f317b22f2794dc71093068a51c8e9d4e6d7d55ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972432"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231154"
 ---
 # <a name="retail-price-reports"></a>Report dei prezzi di vendita al dettaglio
 
@@ -34,7 +34,7 @@ Per fornire prezzi concorrenziali ai clienti, i rivenditori spesso modificano i 
 
 Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per punto vendita** deve essere attivato. Questo parametro si trova nella scheda **Parametri di commercio \> Sconti \> Varie**. L'apertura della pagina **Report prezzi** visualizza una finestra di dialogo con varie configurazioni. Le configurazioni disponibili sono elencate di seguito.
 
-| Configurazione | descrizione |
+| Configurazione | Descrizione |
 |---|---|
 | Dal / Al| L'intervallo di date per il quale il report dei prezzi deve essere generato. La durata è attualmente limitata a 7 giorni. |
 | Canale| Il punto vendita per il quale il report dei prezzi deve essere generato. |

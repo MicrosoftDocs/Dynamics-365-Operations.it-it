@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c30932800beda13ac8fe6b0386fe29efe93f79c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 457b1ac7afb8cad57399572acf429d208db917af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230536"
 ---
 # <a name="document-states-and-lifecycle"></a>Stato e ciclo di vita documento
 
@@ -35,7 +35,7 @@ L'argomento [Elementi pagina](page-elements-overview.md) elenca vari tipi di doc
 
 Nella tabella seguente vengono illustrati gli stati documento possibili degli elementi pagina in Commerce.
 
-| Stato documento      | Azione di Creazione di siti Web        | descrizione                                                  |
+| Stato documento      | Azione di Creazione di siti Web        | Descrizione                                                  |
 | ------------------- | -------------------------- | ------------------------------------------------------------ |
 | Check out         | Selezionare **Modifica**.           | Il documento applicabile è stato estratto. Mentre un documento si trova in questo stato, non può essere modificato da altri utenti di sistema autenticati e qualsiasi modifica apportata al documento è visibile solo all'utente. |
 | Salvato               | Selezionare **Salva**.           | Le modifiche apportate a un documento estratto vengono salvate nel database, ma il documento non è ancora archiviato o pubblicato. Le modifiche salvate non sono visibili ad altri utenti di sistema autenticati fino a che l'autore seleziona **Fine modifica**. Non sono visibili agli utenti esterni fino a che l'articolo non viene pubblicato. |

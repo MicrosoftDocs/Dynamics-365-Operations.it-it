@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3c1a184ff4561126d5b2f7a0cca92d2ee3c3e4b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984911"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226271"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catalogo di apprendimento per responsabili dei progetti di implementazione con Dynamics 365 Finance
 
@@ -28,7 +28,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="get-started"></a>Inizia subito<a name="get-started"></a>
 
-| Contenuto | descrizione  | Formatta  | Durata    |
+| Contenuto | Descrizione  | Formatta  | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 7 ore |
 | [Dynamics 365 e Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
@@ -39,7 +39,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="core-platform-knowledge"></a>Conoscenza della piattaforma principale<a name="core-platform-knowledge"></a>
 
-| Contenuto  | descrizione  | Formatta   | Durata    |
+| Contenuto  | Descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Utilizzare Lifecycle Services (LCS) per progettare e pianificare un'implementazione nelle app Finance and Operations](https://docs.microsoft.com/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) è uno spazio di lavoro collaborativo che i clienti e i partner utilizzano per gestire i progetti di app Finance and Operations dalla pre-vendita alla fase di implementazione e infine all'ambiente di produzione. Fornisce liste di controllo e strumenti che consentono di gestire il progetto, comprese le metodologie precostruite per semplificare l'implementazione e i servizi regolarmente aggiornati. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Configurare l'organizzazione nelle app Finance and Operations](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | Come consulente funzionale che lavora con app Finance and Operations, è necessario comprendere come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore |
@@ -71,7 +71,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="financial-management"></a>Gestione finanziaria<a name="financial-management"></a>
 
-| Contenuto   | descrizione  | Formatta   | Durata    |
+| Contenuto   | Descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Configurare e utilizzare la contabilità generale in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-general-ledger-dyn365-finance/) | Dynamics 365 Finance consente agli utenti aziendali di controllare le finanze e gestire i fondi con informazioni accurate in qualsiasi momento per la pianificazione e la previsione finanziaria e rimanere aggiornati con le analisi. Poiché i dati finanziari sono il cuore dell'azienda e il modulo di Contabilità generale è il cuore della gestione finanziaria, questo percorso di apprendimento mostra come configurare la funzionalità nel modulo di Contabilità generale. | Percorso di apprendimento online gratuito autonomo | 11 ore |
 | [Configurare e utilizzare la gestione cassa e banche e l'IVA in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/ ) | È possibile utilizzare il modulo Gestione cassa e banche in Dynamics 365 Finance per gestire i conti bancari dell'organizzazione e gli strumenti finanziari a essi associati. Tutte le aziende devono definire e pagare le imposte a vari uffici tributari. In questo percorso di apprendimento si apprende come configurare e utilizzare queste aree di Dynamics 365 Finance. | Percorso di apprendimento online gratuito autonomo | 7.5 ore |
@@ -89,7 +89,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="exams"></a>Esami<a name="exams"></a>
 
-| Contenuto  | descrizione  | Formatta   |
+| Contenuto  | Descrizione  | Formatta   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Exam MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: utilizzare funzionalità e strumenti di implementazione comuni, configurare sicurezza, processi e opzioni, eseguire la migrazione dei dati e convalidare e supportare la soluzione. | Esame, i costi variano in base alla regione | |
 | [Esame MB-310: Microsoft Dynamics 365 for Finance and Operations, Financials](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di eseguire le seguenti attività tecniche: impostare e configurare la gestione finanziaria; gestire e applicare processi comuni; implementare e gestire la contabilità fornitori e clienti. | Esame, i costi variano in base alla regione | |

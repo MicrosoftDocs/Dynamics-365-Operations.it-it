@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb7ba361c05dd3a3db0d41e4347a331935024bba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b71dc9b5394ee35b76ead292b72951ece0d1d03d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226319"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -50,7 +50,7 @@ Si supponga che un'organizzazione abbia la seguente struttura con 4 centri di co
 
 **Dimensione oggetto di costo**
 
-| Centri di costo | descrizione          |
+| Centri di costo | Descrizione          |
 |--------------|-----------|
 | CC001        | Risorse umane        |
 | CC002        | Dati finanziari   |
@@ -59,7 +59,7 @@ Si supponga che un'organizzazione abbia la seguente struttura con 4 centri di co
 
 **Dimensione elemento di costo**
 
-| Elementi di costo | descrizione | Tipo    |
+| Elementi di costo | Descrizione | Tipo    |
 |---------------|-------------|---------|
 | 1001          | Elettricità | Primario |
 | 1002          | Stipendi    | Primario |
@@ -114,7 +114,7 @@ Dopo che le voci di contabilità generale vengono elaborate, il saldo delle voci
 
 **Dimensione statistica**
 
-| Elementi statistici |    descrizione   |
+| Elementi statistici |    Descrizione   |
 |----------------------|------------------|
 | SE-1                 | Servizi HR      |
 | SE-2                 | Servizi finanziari |
@@ -123,7 +123,7 @@ L'oggetto di costo CC001 HR contribuisce Servizi HR a più oggetti di costo.
 
 I Servizi HR vengono utilizzati dalla seguente distribuzione di grandezza.
 
-| Oggetto di costo | descrizione |   Servizi HR |
+| Oggetto di costo | Descrizione |   Servizi HR |
 |-------------|-------------|----|
 | CC002       | Dati finanziari     | 35 |
 | CC003       | Assemblaggio    | 55 |
@@ -133,14 +133,14 @@ L'oggetto di costo CC002 Finanza contribuisce a più oggetti di costo.
 
 I Servizi finanziari vengono utilizzati dalla seguente distribuzione di grandezza.
 
-| Oggetto di costo |   descrizione    |  Servizi finanziari   |
+| Oggetto di costo |   Descrizione    |  Servizi finanziari   |
 |-------------|------------------|----|
 | CC003       | Assemblaggio         | 65 |
 | CC004       | Imballaggio        | 35 |
 
 I criteri di allocazione costi possono essere impostati come indicato di seguito.
 
-| Nome criteri | descrizione     | Gerarchia dimensioni di oggetto di costo | Dimensione statistica | Dimensione elemento di costo |
+| Nome criteri | Descrizione     | Gerarchia dimensioni di oggetto di costo | Dimensione statistica | Dimensione elemento di costo |
 |-------------|-----------------|---------------------------------|-----------------------|------------------------|
 | 2017        | Allocazione costi | Organizzazione                    | Elementi statistici  | Elementi di costo          |
 
@@ -189,7 +189,7 @@ Creare **Criteri rollup costi** in cui ogni centro di costo sia associato a un e
 
 **Criteri rollup costi**
 
-| Nome criteri | descrizione | Gerarchia dimensioni di oggetto di costo | Gerarchia dimensioni di elemento di costo |
+| Nome criteri | Descrizione | Gerarchia dimensioni di oggetto di costo | Gerarchia dimensioni di elemento di costo |
 |-------------|-------------|---------------------------------|----------------------------------|
 | 2017        | Flusso dei costi   | Organizzazione                    | Rendiconto profitti e perdite          |
 
@@ -214,7 +214,7 @@ Il sistema ora applica i **Criteri rollup costi** quando vengono create le **Scr
 
 **Scritture contabili saldo oggetto di costo**
 
-| Data di registrazione | Oggetto di costo | descrizione  | Elemento di costo | descrizione |  Importo |
+| Data di registrazione | Oggetto di costo | Descrizione  | Elemento di costo | Descrizione |  Importo |
 |-----------------|-------------|--------------|----------|-----------|-----------|
 | 31-01-2017      | CC001       | Risorse umane           | SC-CC001 | Risorse umane        | 10.100,00 |
 | 31-01-2017      | CC002       | Dati finanziari      | SC-CC002 | Dati finanziari   | 17.735,00 |
@@ -230,7 +230,7 @@ La pagina **Dettagli scrittura contabile saldo costi oggetto di costo** che vien
 
 **Dettagli scrittura contabile saldo costi oggetto di costo**
 
-| Membro di dimensione elemento di costo | descrizione |  Importo   |
+| Membro di dimensione elemento di costo | Descrizione |  Importo   |
 |-------------------------------|-------------|-----------|
 | 1001                          | Elettricità | 200.00    |
 | 1002                          | Stipendi    | 10.000,00 |
@@ -239,7 +239,7 @@ La pagina **Dettagli scrittura contabile saldo costi oggetto di costo** che vien
 
 **Voci di costo generate dal calcolo dei costi generali**
 
-| Oggetto di costo | descrizione  | Elemento di costo   | descrizione  |        Importo     |       Data di registrazione     |
+| Oggetto di costo | Descrizione  | Elemento di costo   | Descrizione  |        Importo     |       Data di registrazione     |
 |-------------|--------------|----------|-----------------|-------------|------------|
 | CC001       | Risorse umane           | SC-CC001 | Risorse umane              | 10.100,00 \- | 31-01-2017 |
 | CC002       | Dati finanziari      | SC-CC001 | Risorse umane              | 3.535,00    | 31-01-2017 |

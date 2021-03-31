@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ccb0b6c5aace0fc76c6886299fba7369abed860
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 378acccc9b3afb190d0b8f79bec3d64cd6a41fdb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231058"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crea suggerimenti con dati dimostrativi
 
@@ -45,7 +45,7 @@ Ogni ambiente di tipo Onebox viene fornito con un set precaricato di dati dimost
 
 I dati sono strutturati nelle seguenti colonne.
 
-| Nome colonna         | Obbligatorio          | descrizione                                                                                                                                 | Possibili valori                                                              |
+| Nome colonna         | Obbligatorio          | Descrizione                                                                                                                                 | Possibili valori                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Il tipo di elenco di suggerimenti sul prodotto specifico che deve essere generato dal punto dei dati dimostrativi.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Il numero specifico dell'unità operativa in cui sono previsti i suggerimenti sui prodotti.                                        |                                                                              |

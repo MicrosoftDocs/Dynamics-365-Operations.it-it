@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ce04af89a385ede2c45a4e86d4028918c13c2089
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3cd0e10a7dbdba446341fa2e0ee0dfbf1ed8b42f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011649"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.9 (aprile 2020)
 
@@ -41,7 +41,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 - [Rilascio automatico della spedizione per il cross-docking](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock)<br> - Per ulteriori informazioni, vedere [Rilascio automatico della spedizione per il cross-docking](../warehousing/auto-release-shipment-for-cross-docking.md).
 
-- [Calcolare la data di consegna dell'ordine di acquisto in base ai tempi di consegna e ai giorni lavorativi (settore pubblico)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [Calcolare la data di consegna dell'ordine fornitore in base ai tempi di consegna e ai giorni lavorativi (settore pubblico)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
 
 - [Elaborazione prodotti a peso variabile con gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management)<br> - Per ulteriori informazioni, vedere [Elaborazione di prodotti a peso variabile con la gestione magazzino](../warehousing/catch-weight-processing.md)e il video [Miglioramenti al prodotto a peso variabile](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 

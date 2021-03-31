@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228395"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -227,7 +227,7 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 1. Nella sezione **Panoramica**, filtrare la colonna **Magazzino** per il magazzino *61*.
 1. Dovresti vedere che sono stati creati sette ID lavoro per i tre ordini cliente della domanda.
 
-    - Tre dei sette ID lavoro hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* e quattro hanno un valore **Tipo di ordine di lavoro** di *Ordini di vendita*.
+    - Tre dei sette ID lavoro hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* e quattro hanno un valore **Tipo di ordine di lavoro** di *Ordini cliente*.
     - Tutti e tre gli ID lavoro che hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* hanno le stesse ubicazioni *Preleva* e *Inserisci* nella sezione **Righe**:
 
         - **Preleva:** *02A01R5S1B*
@@ -300,7 +300,7 @@ Prima che l'attività di rifornimento rimanente possa essere completata, le scor
 1. Passare a **In uscita \> Prelievo vendite**.
 1. Immettere il primo ID lavoro per l'ordine cliente 1.
 
-    Fare riferimento agli ID lavoro per gli ordini di vendita annotati in precedenza, nella pagina **Dettagli del lavoro**. L'ID lavoro inserito qui genererà il lavoro di prelievo per una quantità di 10 ea da due ubicazioni separate.
+    Fare riferimento agli ID lavoro per gli ordini cliente annotati in precedenza, nella pagina **Dettagli del lavoro**. L'ID lavoro inserito qui genererà il lavoro di prelievo per una quantità di 10 ea da due ubicazioni separate.
 
 1. Selezionare **OK**.
 
@@ -338,7 +338,7 @@ Prima che l'attività di rifornimento rimanente possa essere completata, le scor
 
     Viene visualizzato il messaggio "Lavoro completato".
 
-L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimento a cui è collegato non è stata completata. Attualmente, vi è ancora una quantità di 30 ea nell'ubicazione di prelievo e la quantità di rifornimento per l'ordine di vendita 2 è di 60 ea. La somma delle scorte disponibili e delle scorte di rifornimento (90 ea) supera la quantità di overflow di 0,65 PL (o 65 ea). Prima di completare il lavoro di rifornimento, è necessario eseguire il prelievo per l'ordine di vendita 3.
+L'ordine cliente 2 è bloccato dal prelievo perché l'attività di rifornimento a cui è collegato non è stata completata. Attualmente, vi è ancora una quantità di 30 ea nell'ubicazione di prelievo e la quantità di rifornimento per l'ordine cliente 2 è di 60 ea. La somma delle scorte disponibili e delle scorte di rifornimento (90 ea) supera la quantità di overflow di 0,65 PL (o 65 ea). Prima di completare il lavoro di rifornimento, è necessario eseguire il prelievo per l'ordine cliente 3.
 
 1. Immettere l'ID lavoro per l'ordine cliente 3.
 
@@ -360,7 +360,7 @@ L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimen
 
 Non appena la somma della quantità disponibile nell'ubicazione di prelievo e la quantità di rifornimento è inferiore alla soglia, sarà possibile elaborare il restante lavoro di rifornimento.
 
-Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine di vendita 2) è *Aperto*, perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
+Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine cliente 2) è *Aperto*, perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
 
 Ora puoi elaborare questo lavoro di rifornimento tramite il dispositivo mobile.
 
@@ -406,7 +406,7 @@ Ora è possibile scegliere l'ordine cliente 2. Si è sbloccato quando sono stati
 - Questa funzionalità funziona con tutti i tipi di rifornimento: domanda ondata, min / max, domanda di carico e assegnazione.
 - È possibile sovrascrivere manualmente la disponibilità del lavoro di rifornimento per ciascuna intestazione di lavoro dalla pagina **Dettagli del lavoro** se si desidera.
 - Quando il sistema imposta la disponibilità del lavoro di rifornimento, considera qualsiasi inventario che si trova già nell'ubicazione prima del completamento di qualsiasi lavoro
-- Ogni lavoro dell'ordine di vendita è collegato a un lavoro di rifornimento specifico. Non esiste una corrispondente funzionalità di disponibilità del lavoro di vendita.
+- Ogni lavoro dell'ordine cliente è collegato a un lavoro di rifornimento specifico. Non esiste una corrispondente funzionalità di disponibilità del lavoro di vendita.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

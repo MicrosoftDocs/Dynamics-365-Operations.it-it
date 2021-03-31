@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: f08906c14f80b07368d88d820acae83cf1157e6c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26bbbeee7ed6c228b3c84dc07576bccb8e1aebd8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231010"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Ricerca di scorte nel POS
 
@@ -78,7 +78,7 @@ Selezionare **Visualizza tutte le varianti** nella pagina **Dettagli prodotto** 
 
 Nella visualizzazione **Matrice basata su dimensione**, le celle per le varianti del prodotto includono un valore delle scorte disponibili nell'angolo in basso a destra. Nella tabella seguente viene illustrato il significato dei diversi valori.
 
-| Valore disponibilità                            | descrizione |
+| Valore disponibilità                            | Descrizione |
 |------------------------------------------|-------------|
 | Valore numerico maggiore di 0 (zero) | Una variante è stata rilasciata nell'ubicazione selezionata ed è possibile eseguire ulteriori azioni nella cella. Queste azioni verranno descritte in modo più dettagliato nelle sezioni successive dell'argomento. |
 | **0** (zero)                             | Una variante è stata rilasciata nell'ubicazione selezionata, ma l'articolo non è disponibile nell'ubicazione selezionata. Tuttavia, è possibile eseguire operazioni aggiuntive nella cella. Queste azioni verranno descritte in modo più dettagliato nelle sezioni successive dell'argomento. |
@@ -106,7 +106,7 @@ Inoltre, nella visualizzazione **Matrice basata su dimensione** è possibile ese
 
 Nella tabella seguente vengono fornite ulteriori informazioni sulle azioni aggiuntive disponibili.
 
-| Azione               | descrizione |
+| Azione               | Descrizione |
 |----------------------|-------------|
 | Vendi adesso             | Aggiunge la variante dell'articolo selezionata alla transazione e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione. |
 | Preleva al punto vendita     | Crea un ordine cliente per la variante prodotto che verrà prelevata dall'ubicazione selezionata e reindirizza l'utente alla schermata della transazione. Questa azione non è disponibile quando l'ubicazione selezionata è un centro di distribuzione. |

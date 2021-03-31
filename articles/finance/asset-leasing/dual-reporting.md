@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a7d9b3ea3d4f1d48b8a7326bd5a01d3119310c62
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d6daa43178625316a40427728e7e4186691cc13c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003183"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229552"
 ---
 # <a name="dual-reporting"></a>Doppio reporting
 
@@ -38,7 +38,7 @@ Il seguente esempio utilizza un leasing ai sensi del reporting statutario italia
 
 Il libro IFRS 16 è configurato in modo da essere conforme al principio contabile IFRS 16. Tutte le voci registrate in questo libro verranno registrate su un livello personalizzato.
 
-| Nome                                    | descrizione    |
+| Nome                                    | Descrizione    |
 |-----------------------------------------|----------------|
 | Tipo libro                               | IFRS 16        |
 | Descrizione del libro                        | IFRS 16        |
@@ -55,7 +55,7 @@ Il libro IFRS 16 è configurato in modo da essere conforme al principio contabil
 
 Il libro statutario è un libro di cassa in cui la società contabilizzerà le spese di leasing come l'importo in contanti che viene pagato ogni mese per l'affitto. Questo libro non produrrà un Asset Right of use un'obbligazione sul leasing.
 
-| Nome                                    | descrizione |
+| Nome                                    | Descrizione |
 |-----------------------------------------|-------------|
 | Tipo libro                               | Statutario   |
 | Descrizione del libro                        | GAAP locale  |
@@ -72,7 +72,7 @@ Il libro statutario è un libro di cassa in cui la società contabilizzerà le s
 
 Il libro di storno statutario è configurato allo stesso modo del libro statutario.
 
-| Nome                                    | descrizione                    |
+| Nome                                    | Descrizione                    |
 |-----------------------------------------|--------------------------------|
 | Tipo libro                               | Statutario - Storno           |
 | Descrizione del libro                        | Libro per stornare libro statutario |
@@ -117,7 +117,7 @@ Per contabilizzare questo leasing in due framework, utilizza un livello di regis
 <thead>
 <tr>
 <th rowspan='3'>Numero conto</th>
-<th rowspan='3'>descrizione</th>
+<th rowspan='3'>Descrizione</th>
 <th colspan='3'>Libro statutario (livello attuale)</th>
 <th rowspan='3'>Totale livello corrente</th>
 <th>Libro di storno (livello personalizzato)</th>
@@ -351,7 +351,7 @@ A questo punto, hai contabilizzato completamente questo leasing in base ai requi
 <thead>
 <tr>
 <th rowspan='3'>Numero conto</th>
-<th rowspan='3'>descrizione</th>
+<th rowspan='3'>Descrizione</th>
 <th colspan='3'>Libro statutario (livello attuale)</th>
 <th rowspan='3'>Totale livello corrente</th>
 </tr>
@@ -507,7 +507,7 @@ La scrittura contabile della spesa di ammortamento viene generata dal piano di a
 
 Dopo che tutte queste registrazioni contabili sono state create e registrate, vedrai i seguenti valori di "livello personalizzato 1". Nota che l'ultima colonna include la commissione bancaria, la spesa per l'imposta sul valore aggiunto (IVA) e la riduzione del contante dal livello precedente, ma non include le registrazioni contabili del reporting statutario. Pertanto, si ottengono vere funzionalità di doppio reporting. A questo punto, la società deve solo eseguire il bilancio di verifica e combinare il livello corrente e il livello personalizzato per creare un bilancio di verifica IFRS.
 
-| Numero di conto | descrizione              | Libro statutario\-Livello corrente\-JE\-100\-Dr \(Cr\) | Libro statutario\-Livello corrente\-JE\-110\-Dr \(Cr\) | Libro statutario\-Livello corrente\-JE\-120\-Dr \(Cr\) | Livello corrente \- Totali | - | Libro di storno\-Livello personalizzato\-JE\-130\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-140\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-150\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-160\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-170\-Dr \(Cr\) | Livello personalizzato \+ Livello corrente \- Totali |
+| Numero di conto | Descrizione              | Libro statutario\-Livello corrente\-JE\-100\-Dr \(Cr\) | Libro statutario\-Livello corrente\-JE\-110\-Dr \(Cr\) | Libro statutario\-Livello corrente\-JE\-120\-Dr \(Cr\) | Livello corrente \- Totali | - | Libro di storno\-Livello personalizzato\-JE\-130\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-140\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-150\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-160\-Dr \(Cr\) | Libro IFRS 16\-Livello personalizzato\-JE\-170\-Dr \(Cr\) | Livello personalizzato \+ Livello corrente \- Totali |
 |------------|--------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-------------------------|---|-------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------|
 | 1          | Spesa di leasing            | 1,000\.00                                         |                                                   |                                                   | 1,000\.00               |   | \-1.000                                         |                                                |                                                |                                                |                                                | 0\.00                                   |
 | 2          | Commissione bancaria                 |                                                   | 3\.00                                             |                                                   | 3\.00                   |   |                                                 |                                                |                                                |                                                |                                                | 3\.00                                   |

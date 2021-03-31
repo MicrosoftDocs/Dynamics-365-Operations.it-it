@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226439"
 ---
 # <a name="cost-control-workspace"></a>Area di lavoro controllo costi 
 
@@ -41,17 +41,17 @@ Per configurare un'area di lavoro di controllo costi, fare clic su **Contabilit�
 
 Nella scheda dettaglio **Generale**, è possibile creare un layout di report univoco. Il nome del report sarà un identificatore univoco che l'utente è in grado di riconoscere nell'area di lavoro **Controllo costi**. È inoltre possibile specificare se il report deve essere condiviso o mantenuto per uso interno dei contabili.
 
-| Campo       | descrizione |
+| Campo       | Descrizione |
 |-------------|-------------|
 | Nome        | Immettere un nome univoco per il layout. |
-| descrizione | Immettere una descrizione dettagliata. |
+| Descrizione | Immettere una descrizione dettagliata. |
 | Pubblicata   | Se si imposta il campo su **Sì**, un utente assegnato a uno dei seguenti ruoli può visualizzare il report nell'area di lavoro **Controllo costi** :<ul><li>Responsabile contabilità industriale</li><li>Contabile</li><li>Addetto contabilità</li><li>Controller oggetto di costo</li></ul>Se si imposta il campo su **No**, solo gli utenti assegnati a uno dei seguenti ruoli può visualizzare il report nell'area di lavoro **Controllo costi** :<ul><li>Responsabile contabilità industriale</li><li>Contabile</li><li>Addetto contabilità</li></ul> |
 
 ### <a name="data-filtering"></a>Filtro dati
 
 Nella scheda dettaglio **Filtro dati**, è necessario definire la struttura dei dati per il report. Gli utenti di questo report vedranno i valori nel report dopo l'elaborazione dei dati di origine.
 
-| Campo                                                             | descrizione |
+| Campo                                                             | Descrizione |
 |-------------------------------------------------------------------|-------------|
 | Movimento CoGe di contabilità industriale                                            | Il **Movimento CoGe di contabilità industriale** su cui è basato il report. Il valore deriva dal campo **Unità di controllo costi**. |
 | Unità di controllo costi                                                 | Il valore selezionato determina il movimento CoGe di contabilità industriale e gli oggetti di costo su cui sarà basato il report. |
@@ -64,7 +64,7 @@ Nella scheda dettaglio **Filtro dati**, è necessario definire la struttura dei 
 
 Il calcolo dei costi generali viene eseguito con più operazioni di calcolo sui dati di origine, ad esempio la classificazione comportamento costo, la distribuzione dei costi e l'allocazione dei costi. I calcoli dei costi generali più possono essere eseguiti per lo stesso periodo fiscale, nel caso in cui i dati di origine siano mancanti o le regole devono essere aggiornate. Ciascun calcolo dei costi generali verrà salvato con un ID univoco. Il contabile può selezionare uno specifico ID calcolo dei costi generali. Gli utenti del report, ad esempio i responsabili, verranno visualizzati i risultati del calcolo dei costi generali nell'area di lavoro **Controllo costi**.
 
-| Campo                  | descrizione |
+| Campo                  | Descrizione |
 |------------------------|-------------|
 | Periodo di calendario fiscale | Selezionare il periodo del calendario fiscale da assegnare a un ID calcolo dei costi generali.<blockquote>[!NOTE]<br>I periodi fiscali elencati nel campo provengono dal calendario fiscale associato alla contabilità industriale.</blockquote> |
 | Versione effettiva         | Selezionare l'ID calcolo dei costi generali appropriato. |
@@ -77,7 +77,7 @@ Nella scheda dettaglio **Periodi fiscali per colonna**, il contabile decide il p
 
 I valori indicati nelle colonne selezionate verranno moltiplicati per i valori selezionati nella scheda dettaglio **Periodi fiscali per colonna**.
 
-| Campo                | descrizione |
+| Campo                | Descrizione |
 |----------------------|-------------|
 | Periodo corrente       | Viene visualizzato il saldo del periodo fiscale corrente.<blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente.</blockquote> |
 | Periodo precedente      | Viene visualizzato il saldo del periodo fiscale precedente. Viene utilizzata la seguente formula:<br>Periodo fiscale corrente - 1<blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo precedente è derivato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato come periodo corrente. Il **Periodo precedente** verrà ricalcolato di conseguenza.</blockquote> |
@@ -88,7 +88,7 @@ I valori indicati nelle colonne selezionate verranno moltiplicati per i valori s
 
 Nella scheda dettaglio **Colonne da visualizzare per costi**, il contabile decide le colonne da includere nel report. Sono disponibili tre categorie: Costo fisso, Costo variabile e Costo non classificato.
 
-| Campo                 | descrizione |
+| Campo                 | Descrizione |
 |-----------------------|-------------|
 | Costo fisso            | Questo tipo di colonna mostra il costo fisso, in base all'ID calcolo dei costi generali selezionato.<blockquote>[!NOTE]<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
 | Costo variabile         | Questo tipo di colonna mostra il costo variabile, in base all'ID calcolo dei costi generali selezionato.<blockquote>[!NOTE]<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
@@ -103,7 +103,7 @@ Nella scheda dettaglio **Colonne da visualizzare per costi a budget**, il contab
 > [!NOTE]
 > Poiché i seguenti campi si comportano ugualmente per il budget originale e il budget rivisto, verranno spiegati insieme.
 
-| Campo                     | descrizione |
+| Campo                     | Descrizione |
 |---------------------------|-------------|
 | Budget                    | I saldi budget verranno visualizzati per le colonne selezionate.<blockquote>[!NOTE]<br>I saldi si basano sulle versioni di budget selezionate nella scheda dettaglio **Filtro dati**.</blockquote> |
 | Scostamento budget           | Calcolare e visualizzare la differenza tra i valori effettivi e quelli a budget. Viene utilizzata la seguente formula:<br>Saldo budget - Saldo effettivo |

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 36358c4351cddf81ecd6021fe367a52eb1fc55a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226859"
 ---
 # <a name="asset-types"></a>Tipi di cespite
 
@@ -30,7 +30,7 @@ ms.locfileid: "5017419"
 
 
 
-In questo argomento viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misurazione e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
+In questo argomento viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misura e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
 
 Per ciascun tipo di cespite, variazioni di impostazione del tipo di cespite possono essere create. Ad esempio, se si dispone di un tipo di cespite **Camion**, è possibile creare le variazioni del tipo di cespite per diversi produttori e modelli del cespite. Per ciascuna impostazione di tipo di cespite, sarà possibile aggiungere i pezzi di ricambio e i piani di manutenzione necessari.
 
