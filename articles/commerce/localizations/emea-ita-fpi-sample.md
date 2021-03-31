@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 31dbedbbb94b8309ce3d325f829e9eb92ddcd547
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 478c9f9b0dc85229926537137c30892c8057bbb2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225695"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 

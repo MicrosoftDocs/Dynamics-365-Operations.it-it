@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e1f8c8d74a5da1dceb54bcc7c16aebdfe2bf4fd1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214940"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versioni di progettazione e categorie di prodotti di progettazione
 
@@ -100,7 +100,7 @@ Per utilizzare le categorie di prodotto di progettazione, andare a **Gestione mo
 
 Impostare i seguenti campi nell'intestazione di una categoria di prodotti di progettazione.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Nome | Immettere un nome per la categoria di prodotti di progettazione. |
 | Società di progettazione | Selezionare la società di progettazione in cui è possibile creare i prodotti in questa categoria di prodotti di progettazione e in cui verranno mantenuti. |
@@ -109,10 +109,10 @@ Impostare i seguenti campi nell'intestazione di una categoria di prodotti di pro
 
 Impostare i seguenti campi nella Scheda dettaglio **Dettagli** di una categoria di prodotti di progettazione.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se la categoria si applica a prodotti o servizi. |
-| Tenere traccia delle versioni nelle transazioni | Selezionare se la versione del prodotto deve essere apposta su tutte le transazioni (impatto logistico). Ad esempio, se si tiene traccia della versione nelle transazioni, ogni ordine di vendita mostrerà quale versione specifica del prodotto è stata venduta in quell'ordine di vendita. Se non si tiene traccia della versione nelle transazioni, gli ordini di vendita non mostreranno quale versione specifica è stata venduta. Invece, mostrano sempre l'ultima versione.<ul><li>Se questa opzione è impostata su *Sì*, viene creata una rappresentazione generale prodotto per il prodotto e ogni versione del prodotto sarà una variante che utilizza la dimensione del prodotto *versione*. Il campo **Sottotipo di prodotto** viene impostato automaticamente su *Rappresentazione generale prodotto* ed è necessario selezionare un gruppo di dimensioni del prodotto in cui *versione* la dimensione è attiva. Solo gruppi di dimensioni prodotto dove *versione* è una dimensione attiva verranno mostrati. È possibile creare nuovi gruppi di dimensioni prodotto selezionando il pulsante **Modifica** (simbolo della matita).</li><li>Se questa opzione è impostata su *No*, la dimensione del prodotto *versione* non verrà utilizzata. È quindi possibile selezionare se creare un prodotto o una rappresentazione generale prodotto che utilizza le altre dimensioni.</li></ul><p>Questa opzione viene spesso utilizzata per prodotti che presentano una differenza di costo tra le versioni o per prodotti in cui si applicano condizioni diverse in relazione al cliente. Pertanto, è importante indicare quale versione è stata utilizzata in ciascuna transazione.</p> |
+| Tenere traccia delle versioni nelle transazioni | Selezionare se la versione del prodotto deve essere apposta su tutte le transazioni (impatto logistico). Ad esempio, se si tiene traccia della versione nelle transazioni, ogni ordine cliente mostrerà quale versione specifica del prodotto è stata venduta in quell'ordine cliente. Se non si tiene traccia della versione nelle transazioni, gli ordini cliente non mostreranno quale versione specifica è stata venduta. Invece, mostrano sempre l'ultima versione.<ul><li>Se questa opzione è impostata su *Sì*, viene creata una rappresentazione generale prodotto per il prodotto e ogni versione del prodotto sarà una variante che utilizza la dimensione del prodotto *versione*. Il campo **Sottotipo di prodotto** viene impostato automaticamente su *Rappresentazione generale prodotto* ed è necessario selezionare un gruppo di dimensioni del prodotto in cui *versione* la dimensione è attiva. Solo gruppi di dimensioni prodotto dove *versione* è una dimensione attiva verranno mostrati. È possibile creare nuovi gruppi di dimensioni prodotto selezionando il pulsante **Modifica** (simbolo della matita).</li><li>Se questa opzione è impostata su *No*, la dimensione del prodotto *versione* non verrà utilizzata. È quindi possibile selezionare se creare un prodotto o una rappresentazione generale prodotto che utilizza le altre dimensioni.</li></ul><p>Questa opzione viene spesso utilizzata per prodotti che presentano una differenza di costo tra le versioni o per prodotti in cui si applicano condizioni diverse in relazione al cliente. Pertanto, è importante indicare quale versione è stata utilizzata in ciascuna transazione.</p> |
 | Sottotipo di prodotto | Selezionare se la categoria conterrà prodotti o rappresentazioni generali prodotto. Per le rappresentazioni generali prodotto, verranno utilizzate le dimensioni del prodotto.
 | Gruppo di dimensioni prodotto | L'impostazione **Tenere traccia delle versioni nelle transazioni** aiuta a selezionare il sottotipo di prodotto. Se è stato specificato di voler tenere traccia della versione nelle transazioni, i gruppi di dimensioni prodotto in cui la dimensione *versione* è verranno mostrati. In caso contrario, solo gruppi di dimensioni prodotto dove la dimensione *versione* non è utilizzata verranno mostrati. |
 | Stato del ciclo di vita del prodotto alla creazione | Impostare lo stato del ciclo di vita del prodotto predefinito che un prodotto di progettazione deve avere quando viene creato per la prima volta. Per ulteriori informazioni, vedere [Stati e transazioni del ciclo di vita del prodotto](product-lifecycle-state-transactions.md). |
@@ -132,7 +132,7 @@ Se si modifica la selezione degli attributi per una categoria di progettazione e
 
 Per ogni riga che si aggiunge alla griglia, impostare i seguenti campi.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Nome | Selezionare l'attributo da aggiungere. |
 | Valore | Selezionare il valore predefinito dell'attributo. |

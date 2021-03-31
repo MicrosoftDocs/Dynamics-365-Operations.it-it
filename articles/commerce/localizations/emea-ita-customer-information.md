@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e88c6b703dd6b1acde1ba078ffd16b06588551a6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f15ad8908abcf43439fb72ba1f57965fbd8860fc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225709"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 

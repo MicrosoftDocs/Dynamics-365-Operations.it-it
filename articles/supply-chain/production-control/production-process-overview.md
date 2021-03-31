@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a376510e76bdc9687f7fa9af5921ae7c50d1fc59
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 12780fc1fa9f6a9c25495ace34b9731df49d5ae6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209421"
 ---
 # <a name="production-process-overview"></a>Panoramica del processo di produzione
 
@@ -37,7 +37,7 @@ Il modulo **Controllo produzione** è collegato ad altri moduli, ad esempio **Ge
 
 Il processo di produzione in genere è influenzato dalla contabilità industriale e dai metodi di valutazione del magazzino scelti per un processo di produzione specifico. Supply Chain Management supporta sia i metodi di costo effettivo (\[FIFO\], \[LIFO\], media mobile e media ponderata periodica) che i metodi di costo standard. La produzione snella è implementata in base al principio di determinazione costi di tipo backflush.  
 
-La scelta dei metodi di misurazione dei costi consente inoltre di definire i requisiti per le dichiarazione sul consumo di materiale e risorse durante il processo di produzione. In genere, i metodi di costo effettivo necessitano di dichiarazioni accurate a livello di processo, mentre i metodi di determinazione costi periodici consentono una dichiarazione meno granulare del consumo di materiali e risorse.
+La scelta dei metodi di misura dei costi consente inoltre di definire i requisiti per le dichiarazione sul consumo di materiale e risorse durante il processo di produzione. In genere, i metodi di costo effettivo necessitano di dichiarazioni accurate a livello di processo, mentre i metodi di determinazione costi periodici consentono una dichiarazione meno granulare del consumo di materiali e risorse.
 
 ## <a name="mixed-mode-manufacturing"></a>Produzione in modalità mista
 Le topologie di produzione e i prodotti diversi richiedono l'applicazione di tipi di ordine diversi. Supply Chain Management può applicare i diversi tipi di ordine in modalità mista. In altre parole, tutti i tipi di ordine possono verificarsi durante il processo di produzione end-to-end di un prodotto finito.

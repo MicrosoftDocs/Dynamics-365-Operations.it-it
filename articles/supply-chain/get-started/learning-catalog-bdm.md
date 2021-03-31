@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 65f3023b9e2c71cf8bbfb0eba0362f437381f0df
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 026eedc334df0162a62e659cbb55428d42abbc40
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216179"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per decision maker aziendali che considerano Dynamics 365 Supply Chain Management
 
@@ -28,7 +28,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="get-started"></a>Inizia subito<a name="get-started"></a>
 
-| Contenuto   | descrizione   | Formatta    | Durata    |
+| Contenuto   | Descrizione   | Formatta    | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 7 ore |
 | [Dynamics 365 e Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
@@ -38,7 +38,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="exam"></a>Esame<a name="exam"></a>
 
-| Contenuto  | descrizione  | Formatta  |
+| Contenuto  | Descrizione  | Formatta  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Dimostrare di aver compreso Microsoft Dynamics 365, Power Platform, concetti di cloud, opzioni di licenza e opzioni di distribuzione e rilascio. | Esame, i costi variano in base alla regione |
 

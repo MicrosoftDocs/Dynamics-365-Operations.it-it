@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f16a1cc7ba2ed9eb6751173e55ba071e9b4bb9d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220898"
 ---
 # <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
 
@@ -43,7 +43,7 @@ Utilizzare i seguenti strumenti per trovare il set di prodotti che si sta cercan
 
 Per ogni elemento corrispondente, la griglia **Disponibilità** fornisce le seguenti colonne di informazioni sulle scorte.
 
-| Colonna | descrizione |
+| Colonna | Descrizione |
 |---|---|
 | Inventario fisico | Quantità fisica disponibile in magazzino. |
 | Fisico prenotato | Quantità totale fisicamente prenotata. |

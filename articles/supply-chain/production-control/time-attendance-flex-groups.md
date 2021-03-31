@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 1e12874e3395ec47a6b76809b92c26e20fb14197
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5b695775b74950d3b5ce7d05d178c24a6bdb5aeb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980908"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214892"
 ---
 # <a name="flex-groups"></a>Gruppi flessibilità
 
@@ -133,7 +133,7 @@ In questo caso, si desidera essere in grado di gestire il saldo flessibilità de
 
 Per tenere conto delle ore di flessibilità, è necessario definire anche un nuovo tipo di retribuzione. Per questo scenario, il tipo di retribuzione viene denominato **FlexCnt**.
 
-| Tipo di retribuzione | descrizione  |
+| Tipo di retribuzione | Descrizione  |
 |----------|--------------|
 | FlexCnt  | Contatore flessibilità |
 
@@ -144,7 +144,7 @@ Quindi, seguire questi passaggi per impostare un tipo di retribuzione e aggiunge
 3. Selezionare **Orario e presenze** \> **Impostazione** \> **Accordi salariali** e quindi **Righe contratto**.
 4. Per **Lunedì**, per il tipo di profilo **Flessibilità in eccesso**, aggiungere le seguenti tre righe.
 
-    | Tipo di retribuzione | descrizione  | Dalle ore | Alle ore  | Minimo | Massimo | Fattore |
+    | Tipo di retribuzione | Descrizione  | Dalle ore | Alle ore  | Minimo | Massimo | Fattore |
     |----------|--------------|-----------|----------|---------|---------|--------|
     | FlexCnt  | Contatore flessibilità | 12:00  | 06:00 | 00.00   | 00.00   | 1,00   |
     | FlexCnt  | Contatore flessibilità | 06:00  | 12:00 | 00.00   | 02.00   | 1.50   |

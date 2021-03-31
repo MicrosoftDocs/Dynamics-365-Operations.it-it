@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14145020572add7fd9f49cf6a6dc2fb3c1f19b03
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9dfeddcf754ccaf1f5fb5d3f20ca771145c5f2a1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223316"
 ---
 # <a name="service-tasks-overview"></a>Panoramica delle attività di assistenza
 
@@ -53,13 +53,13 @@ Un tecnico deve effettuare due interventi su una scatola ingranaggi (oggetto ass
 
 ### <a name="service-agreement"></a>Contratto di assistenza
 
-| Project | Contratto di assistenza | descrizione                                  | Raggruppa   |
+| Project | Contratto di assistenza | Descrizione                                  | Raggruppa   |
 |---------|-------------------|----------------------------------------------|---------|
 | 9012    | 000008\_001       | Controllo e sostituzione di routine – GB-1234 | Gratifiche |
 
 ### <a name="service-agreement-lines"></a>Righe contratto di assistenza
 
-| descrizione             | Tipo di transazione | Oggetto assistenza | Attività di assistenza tecnica |
+| Descrizione             | Tipo di transazione | Oggetto assistenza | Attività di assistenza tecnica |
 |-------------------------|------------------|----------------|--------------|
 | Controllo e pulizia | Ore             | GB-1234        | I/C - GB1234 |
 | Travel                  | Expense          | GB-1234        | I/C - GB1234 |

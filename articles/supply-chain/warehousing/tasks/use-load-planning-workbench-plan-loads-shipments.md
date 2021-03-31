@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4fdff8bdc383a85d604fa6e545c625d5782241f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 277b91944d8f7ee79bed9b85ee6ebd275e72c75b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223292"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
@@ -49,7 +49,7 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 2. Selezionare la scheda **Righe di vendita**. Verrà creato il carico per l'ordine cliente creato. I carichi possono essere creati in base all'offerta e alla domanda da ordini fornitore, ordini di trasferimento e ordini cliente.  
 3. Nel riquadro azioni fare clic su **Domanda e offerta**.
 4. Selezionare **Al nuovo carico**.
-5. Nel campo **ID modello carico** fare clic sul pulsante a discesa per aprire la ricerca. Il modello di carico definisce le misure massime per il peso e il volume dell'intero carico. Ad esempio, il modello di carico può rappresentare la dimensione di un container o di un camion. Selezionare un articolo.
+5. Nel campo **ID modello carico** fare clic sul pulsante a discesa per aprire la ricerca. Il modello di carico definisce le misure massime per il peso e il volume dell'intero carico. Ad esempio, il modello di carico può rappresentare la dimensione di un contenitore o di un camion. Selezionare un articolo.
 6. Selezionare **OK**.
 
 ## <a name="rate-and-route-the-load"></a>Assegnare una tariffa e un percorso al carico

@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9b2db0f06a66731307bd295db222b80fe102e5e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca9a9145ebbead6b7dbaeeeb95a6fd5e4c5f4a8c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212930"
 ---
 # <a name="italian-black-list-report"></a>Report block list italiano
 

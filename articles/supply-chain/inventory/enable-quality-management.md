@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711ce21d0e522a737e6307e7de1889c8badd5ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65858838b0fbb245a9330fab4e3b65b36a9eb944
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005229"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219367"
 ---
 # <a name="quality-management-overview"></a>Panoramica sulla gestione della qualità
 
@@ -444,7 +444,7 @@ Se durante la produzione, si imposta il campo **Tipo di evento** su **Dichiarato
 <thead>
 <tr class="header">
 <th>Pagina</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 <th>Esempio</th>
 </tr>
 </thead>
@@ -463,7 +463,7 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 </tr>
 <tr class="even">
 <td>Test</td>
-<td>Utilizzare questa pagina per definire e visualizzare i singoli test che determinano se i prodotti sono conformi alle specifiche di qualità. È possibile assegnare uno o più test singoli a un gruppo di test. In questo caso, è inoltre necessario specificare le informazioni specifiche del test, ad esempio i valori di misurazione accettabili. I valori di misurazione vengono utilizzati per i test quantitativi, mentre le variabili di test vengono utilizzate per i test qualitativi.
+<td>Utilizzare questa pagina per definire e visualizzare i singoli test che determinano se i prodotti sono conformi alle specifiche di qualità. È possibile assegnare uno o più test singoli a un gruppo di test. In questo caso, è inoltre necessario specificare le informazioni specifiche del test, ad esempio i valori di misura accettabili. I valori di misura vengono utilizzati per i test quantitativi, mentre le variabili di test vengono utilizzate per i test qualitativi.
 <ul>
 <li>A un test quantitativo è associato un tipo di test <strong>Intero</strong> o <strong>Frazione</strong> e di un'unità di misura designata. Le specifiche di qualità e i risultati del test vengono espressi sotto forma di numeri.</li>
 <li>Un test qualitativo è un tipo di test <strong>Opzione</strong>. I test qualitativi richiedono informazioni aggiuntive sulla variabile di test misurata e sulle relative opzioni enumerate. Le specifiche di qualità e i risultati del test vengono espressi in base a un esito.</li>
@@ -472,8 +472,8 @@ Occorre definire un'associazione di controllo qualità per ogni variazione in un
 </tr>
 <tr class="odd">
 <td>Gruppi di test</td>
-<td>Utilizzare questa pagina per impostare, modificare e visualizzare gruppi di test e i singoli test assegnati a un gruppo specifico. Nel riquadro superiore sono visualizzati i gruppi di test, mentre nel riquadro inferiore sono visualizzati i test assegnati a un gruppo di test selezionato. A un gruppo di test è possibile assegnare più criteri, tra cui un piano di campionamento, un AQL e la richiesta di test distruttivo. Quando si assegna un singolo test a un gruppo di test, è necessario definire informazioni aggiuntive, come sequenza, documenti e date di validità. In un test quantitativo, le informazioni definite dall'utente includono anche i valori di misurazione accettabili e in un test qualitativo includono la variabile di test e il risultato predefinito. Il gruppo di test assegnato a un ordine di controllo qualità definisce il set predefinito di test che devono essere eseguiti sull'articolo specificato. Tuttavia, è possibile aggiungere, eliminare o modificare i test in un ordine di controllo qualità. I risultati di ciascun test vengono riportati in un ordine di controllo qualità.</td>
-<td>In una società di produzione è definito un gruppo di test per ogni variazione apportata alle linee guida per il controllo qualità. I vari gruppi di test riflettono le differenze nei piani di campionamento, nei set di test da eseguire congiuntamente, nel livello di qualità accettabile e in altri fattori. Per i test quantitativi sono inoltre presenti differenze nei valori di misurazione accettabili. Per applicare le linee guida per il controllo qualità, la società assegna un gruppo di test a ciascuna regola per la generazione automatica di ordini di controllo qualità (nella pagina <strong>Associazioni di controllo qualità</strong>) e assegna un gruppo di test agli ordini di controllo qualità creati manualmente.</td>
+<td>Utilizzare questa pagina per impostare, modificare e visualizzare gruppi di test e i singoli test assegnati a un gruppo specifico. Nel riquadro superiore sono visualizzati i gruppi di test, mentre nel riquadro inferiore sono visualizzati i test assegnati a un gruppo di test selezionato. A un gruppo di test è possibile assegnare più criteri, tra cui un piano di campionamento, un AQL e la richiesta di test distruttivo. Quando si assegna un singolo test a un gruppo di test, è necessario definire informazioni aggiuntive, come sequenza, documenti e date di validità. In un test quantitativo, le informazioni definite dall'utente includono anche i valori di misura accettabili e in un test qualitativo includono la variabile di test e il risultato predefinito. Il gruppo di test assegnato a un ordine di controllo qualità definisce il set predefinito di test che devono essere eseguiti sull'articolo specificato. Tuttavia, è possibile aggiungere, eliminare o modificare i test in un ordine di controllo qualità. I risultati di ciascun test vengono riportati in un ordine di controllo qualità.</td>
+<td>In una società di produzione è definito un gruppo di test per ogni variazione apportata alle linee guida per il controllo qualità. I vari gruppi di test riflettono le differenze nei piani di campionamento, nei set di test da eseguire congiuntamente, nel livello di qualità accettabile e in altri fattori. Per i test quantitativi sono inoltre presenti differenze nei valori di misura accettabili. Per applicare le linee guida per il controllo qualità, la società assegna un gruppo di test a ciascuna regola per la generazione automatica di ordini di controllo qualità (nella pagina <strong>Associazioni di controllo qualità</strong>) e assegna un gruppo di test agli ordini di controllo qualità creati manualmente.</td>
 </tr>
 <tr class="even">
 <td>Gruppi di controllo qualità articoli</td>

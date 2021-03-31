@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c6b84737c0e03870a0a40045451a816efdd94cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a3af80817e8b8735b149d41e3a9df4643c9b8b9f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205372"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informazioni utilizzate nei calcoli DBA con costi standard
 
@@ -42,7 +42,7 @@ Nelle informazioni sull'articolo prodotto utilizzate in un calcolo DBA per i cos
 
 Nelle informazioni sulla DBA utilizzate in un calcolo DBA per i costi standard è incluso quanto segue:
 -   Versione DBA - Alla versione della DBA assegnata all'articolo prodotto sono associati date di inizio e fine validità e uno stato (approvato e attivo). Tale versione può essere a livello di società o specifica del sito e può eventualmente riflettere i punti di interruzione quantità.
--   Quantità articolo della riga DBA - Per un componente in genere è richiesta una quantità variabile, ma può anche essere costante. La quantità componente in genere viene espressa per la produzione di un articolo principale, ma può essere espressa per 100 o 1000 allo scopo di gestire eventuali problematiche connesse alla precisione decimale. La quantità componente può inoltre essere calcolata in base alle misurazioni.
+-   Quantità articolo della riga DBA - Per un componente in genere è richiesta una quantità variabile, ma può anche essere costante. La quantità componente in genere viene espressa per la produzione di un articolo principale, ma può essere espressa per 100 o 1000 allo scopo di gestire eventuali problematiche connesse alla precisione decimale. La quantità componente può inoltre essere calcolata in base alle misure.
 -   Scarto articolo per la riga DBA: un componente può avere una quantità variabile o costante per lo scarto pianificato.
 -   Date di validità articolo per la riga DBA: a un componente possono essere associate date di inizio e fine validità.
 -   Tipo di produzione articolo per la riga DBA - La dimensione gruppo di transazioni di determinazione costi per l'ammortamento dei costi costanti rifletterà la quantità del calcolo DBA e la modalità di esplosione Produzione su ordine, in quanto per il calcolo DBA si presuppone che il componente prodotto verrà prodotto nella quantità esatta e non nella relativa quantità ordine standard.

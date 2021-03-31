@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f460a3121f28c5621d506295a9726a7e67881335
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61d5915d730c953a6e96fb9cf08f2e1e6be311ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978245"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214466"
 ---
 # <a name="separate-accounts-for-credit-notes"></a>Conti separati per note di credito
 

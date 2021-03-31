@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d3a9073b491511771cd8a8252b8b78ebfd8d1267
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a74d17046317ca20092e061c97fa45cfbc7e9493
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212916"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 

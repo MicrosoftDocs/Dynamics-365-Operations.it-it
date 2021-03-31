@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2bf8e340115b03577779d50ba03be8341535d87
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209661"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
@@ -103,7 +103,7 @@ Poiché ogni articolo viene registrato (o dichiarato come finito), il sistema de
 
 Quando la funzione _Gestione qualità per i processi di magazzino_ è attivata, il tipo di magazzino applicabile viene inserito logicamente nel quarto gruppo di ricerca della gerarchia di ricerca dell'associazione di controllo qualità. La tabella seguente fornisce una rappresentazione logica della gerarchia di ricerca.
 
-| Gruppo di ricerca | descrizione |
+| Gruppo di ricerca | Descrizione |
 |---|---|
 | Gruppo 1 | Per ogni associazione di controllo qualità, controllare i valori **Tipo di riferimento**, **Tipo di evento** e **Account esecuzione** rispetto all'elemento. Se esiste una corrispondenza con la riga del documento di origine, passare al gruppo 2. |
 | Gruppo 2 | Per ogni associazione di controllo qualità, controllare il valore **Codice articolo** (_Tabella_, _Gruppo_ o _Tutti_) rispetto all'elemento. _Tabella_ è più specifico di _Gruppo_ e _Gruppo_ è più specifico di _Tutti_. Se esiste una corrispondenza per _Tabella_ (un elemento specifico), passare al gruppo 3. Se non esiste una corrispondenza per _Tabella_, cercare una corrispondenza per _Gruppo_. Se non esiste una corrispondenza per _Gruppo_, applicare _Tutti_. Se c'è una corrispondenza, passare al gruppo 3. |
@@ -167,7 +167,7 @@ Il valore del campo **Ogni n targhe padre** controlla la frequenza con cui vengo
 Mentre i lavoratori ricevono articoli utilizzando l'app del magazzino, il sistema verifica se è stata impostata un'associazione di controllo qualità per ciascun articolo in arrivo. Se viene impostata un'associazione di controllo qualità, il sistema utilizza il record di campionamento degli articoli configurato per tale associazione di controllo qualità per determinare come creerà ordini di controllo qualità, lavori di campionamento degli articoli di qualità e lavori degli ordini fornitore.
 
 > [!NOTE]
-> Quando la registrazione della ricevuta viene effettuata nel client Web (utilizzando la piccola pagina di registrazione o il il giornale di registrazione arrivi degli articoli per le righe dell'ordine fornitore), non verrà creato alcun lavoro di campionamento di articoli di qualità o lavoro di ordini fornitore, indipendentemente dall'impostazione. Invece, per gli articoli che corrispondono a un'associazione di controllo qualità, il campionamento degli articoli di riferimento verrà utilizzato per controllare solo la creazione di ordini di controllo qualità.
+> Quando la registrazione della ricevuta viene effettuata nel client Web (utilizzando la piccola pagina di registrazione o il il giornale di registrazione arrivi articoli per le righe dell'ordine fornitore), non verrà creato alcun lavoro di campionamento di articoli di qualità o lavoro di ordini fornitore, indipendentemente dall'impostazione. Invece, per gli articoli che corrispondono a un'associazione di controllo qualità, il campionamento degli articoli di riferimento verrà utilizzato per controllare solo la creazione di ordini di controllo qualità.
 
 ## <a name="examples-of-automatic-generation-of-quality-orders"></a>Esempi di generazione automatica di ordini di controllo qualità
 

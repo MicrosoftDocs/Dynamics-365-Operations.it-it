@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 33f251eb66f58f8cf1db1d0dd005f8c21a71556b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980858"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205300"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizzare e utilizzare il portale clienti
 
@@ -109,7 +109,7 @@ I seguenti campi vengono impostati automaticamente per la tabella ordine cliente
 - **Nome ordine cliente** - Il nome dell'ordine cliente (il valore predefinito è **ordine cliente**)
 - **Valuta** - La valuta del prezzo (per impostazione predefinita, il valore viene ricavato dal record di contatto)
 - **Listino prezzi** - Il listino prezzi personalizzato per il cliente (per impostazione predefinita, il valore è ricavato dal record del contatto.)
-- **Descrizione indirizzo di consegna** - L'indirizzo di consegna dell'ordine di vendita (il valore predefinito è **descrizione indirizzo di consegna**)
+- **Descrizione indirizzo di consegna** - L'indirizzo di consegna dell'ordine cliente (il valore predefinito è **Descrizione indirizzo di consegna**)
 
 ### <a name="modify-the-order-creation-process"></a>Modificare il processo di creazione di ordini
 

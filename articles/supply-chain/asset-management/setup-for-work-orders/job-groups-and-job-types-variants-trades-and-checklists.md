@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c283a35f540105b4036305fb9118e090ad1528ba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206027"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
 
@@ -97,7 +97,7 @@ Innanzi tutto, si impostano le categorie e le varianti di tipi di processo di ma
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Creare una variabile di elenco di controllo di manutenzione
 
-Quando si creano righe di elenco di controllo di manutenzione nel valore predefinito di tipo di processo di manutenzione, è necessario selezionare un tipo di elenco di controllo di manutenzione. **Variabile** è un tipo di elenco di controllo di manutenzione. Viene utilizzato per definire un possibile risultato in un intervallo in una riga di elenco di controllo di manutenzione associata a una riga di ordine di lavoro. Una variabile consente di creare un set di risultati predefiniti senza dover eseguire una misurazione esatta.
+Quando si creano righe di elenco di controllo di manutenzione nel valore predefinito di tipo di processo di manutenzione, è necessario selezionare un tipo di elenco di controllo di manutenzione. **Variabile** è un tipo di elenco di controllo di manutenzione. Viene utilizzato per definire un possibile risultato in un intervallo in una riga di elenco di controllo di manutenzione associata a una riga di ordine di lavoro. Una variabile consente di creare un set di risultati predefiniti senza dover eseguire una misura esatta.
 
 **Esempio 1:** è possibile misurare il livello dell'olio definendo tre valori: **Livello troppo alto**, **Livello troppo basso** e **Livello corretto**. Per ogni valore, è necessario definire se il risultato è **Superato**, **Errore** o **Nessuno**.
 
@@ -168,7 +168,7 @@ I modelli di elenco di controllo di manutenzione possono essere utilizzati come 
 
 ![Pagina Tipi di processo di manutenzione](media/06-setup-for-work-orders.png)
 
-## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Creare righe predefinite di tipo di processo di manutenzione e le relative previsioni, elenchi di controllo di manutenzione, strumenti, descrizione e allegati
+## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Creare righe predefinite di tipo di processo di manutenzione e le relative previsioni, elenchi di controllo di manutenzione, strumenti, Descrizione e allegati
 
 1. Selezionare **Gestione cespiti** \> **Impostazione** \> **Processi** \> **Valori predefiniti tipo di processo di manutenzione**.
 

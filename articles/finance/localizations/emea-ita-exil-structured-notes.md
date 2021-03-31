@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 866fc439a667728c5c0be12708f4cc999adbe53f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 460ea65292e46669bb44addd32f107d93e03096f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978239"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224627"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -91,7 +91,7 @@ Andare a **Contabilità clienti**\>**Impostazioni**\>**Moduli**\>**Impostazione 
 ![Impostazione dei moduli](media/emea-ita-exil-notes-setup-forms.jpg)
 
 ### <a name="direct-attachment-to-documents"></a>Allegato diretto ai documenti
-Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini di vendita, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini di vendita. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
+Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini cliente, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini cliente. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
 1. Passare a **Contabilità clienti** \> **Impostazioni** \> **Moduli** \> **Impostazione moduli**.
 2. Nella scheda dettaglio **Generale**, nella sezione **Note avanzate** abilitare il parametro **Allegato diretto ai documenti**.
 

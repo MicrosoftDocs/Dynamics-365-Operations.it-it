@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 531c8c9ae8638096ffc23e736790a2d43fd3764a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980808"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215771"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "4980808"
 
 I moderni sistemi Supply Chain si basano sull'integrazione. In questi sistemi le scorte, la domanda dei clienti e i reparti vendite devono essere integrati anziché risiedere in silo separati. Il portale clienti consente alle organizzazioni che eseguono Microsoft Dynamics 365 Supply Chain Management di migliorare questa integrazione e di informare più efficacemente i propri clienti.
 
-Il portale clienti è un modello di [portali Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) che consente alle aziende di creare un sito Web business-to-business (B2B) rivolto verso l'esterno per scenari correlati all'elaborazione degli ordini di vendita. Il modello utilizza la [doppia scrittura](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), Supply Chain Management e i portali Power Apps per consentire ai clienti esterni di visualizzare e creare dati dall'ambiente Dynamics 365 dell'azienda.
+Il portale clienti è un modello di [portali Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) che consente alle aziende di creare un sito Web business-to-business (B2B) rivolto verso l'esterno per scenari correlati all'elaborazione degli ordini cliente. Il modello utilizza la [doppia scrittura](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), Supply Chain Management e i portali Power Apps per consentire ai clienti esterni di visualizzare e creare dati dall'ambiente Dynamics 365 dell'azienda.
 
 Il modello di portale clienti include tutte le funzionalità di personalizzazione di cui dispongono i portali Power Apps. Il modello può essere facilmente modificato per rappresentare il marchio dell'azienda, aggiungere una maggiore funzionalità e cambiare l'esperienza dell'utente. Tutte le funzionalità predefinite offerte dal modello possono essere modificate a piacere.
 
