@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000536"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216677"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Controllo dello stato per periferiche e servizi POS
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Commerce versione 10.0.10 e successive includono un'opera
 
 ## <a name="key-terms"></a>Termini importanti
 
-| Termine | descrizione |
+| Termine | Descrizione |
 |---|---|
 | Periferica | Qualsiasi dispositivo utilizzato dall'applicazione POS per facilitare le transazioni e altre operazioni nel negozio. Gli esempi includono registratori di cassa, scanner di codici a barre e terminali di pagamento. |
 | Gestione assistenza | In questo argomento, un servizio è un'applicazione accessoria dalla quale l'applicazione POS dipende per eseguire transazioni e operazioni quotidiane. Gli esempi includono app che aiutano con i calcoli delle imposte o di spedizione. |

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72142a3e05092a2da7749fa01ec58e2c1d8fe25d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 848e83505e9e20111c2809000dcf19f352142de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972607"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223025"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Commerce supporta queste tendenze mediante uno scenario i
 
 ## <a name="key-terms"></a>Termini importanti
 
-| Termine | descrizione |
+| Termine | Descrizione |
 |---|---|
 | Registro | L'entità utilizzata per configurare un'istanza di un registratore di cassa POS. |
 | Dispositivo | Una rappresentazione dell'istanza fisica di un registratore di cassa POS e dell'applicazione Modern POS che gli è stata assegnata. |
@@ -99,7 +99,7 @@ Per configurare il profilo hardware utilizzato per raggruppare la stampante di r
 3. Assegnare un numero di profilo hardware, quindi inserire una descrizione. Questo profilo hardware verrà utilizzato per raggruppare la stampante di ricevute e il cassetto di cassa. Pertanto, una descrizione come **Stampante di rete e cassetto di cassa** sarà sufficiente.
 4. Nelle Schede dettaglio per diversi tipi di dispositivo, configurare i seguenti tipi di dispositivo.
 
-    | Dispositivo | Tipo | descrizione | Dettagli aggiuntivi |
+    | Dispositivo | Tipo | Descrizione | Dettagli aggiuntivi |
     |---|---|---|---|
     | Stampante | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato al registratore di cassa. |
     | Cassetto di cassa | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |

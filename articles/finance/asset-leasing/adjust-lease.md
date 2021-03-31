@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219989"
 ---
 # <a name="adjust-leases"></a>Rettificare leasing
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 L'argomento spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano. Il leasing di cespiti è conforme alle linee guida fornite dagli standard Accounting Standards Codification Topic 842 (ASC 842) e International Financial Reporting Standard 16 (IFRS 16) sulle modifiche del leasing. ASC 842-20-15-1 definisce una modifica del leasing come qualsiasi modifica ai termini e alle condizioni di un contratto che causa una modifica dell'ambito o nella considerazione di un leasing. Il paragrafo 39 dell'IFRS 16 stabilisce che un conduttore deve rivalutare l'obbligazione sul leasingin modo che rifletta le modifiche ai canoni di leasing.
 
