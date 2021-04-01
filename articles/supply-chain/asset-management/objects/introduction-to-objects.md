@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: afdb9b3ba1130727235f931437f617dff4fa6d21
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253256"
 ---
 # <a name="introduction-to-assets"></a>Introduzione ai cespiti
 
@@ -55,10 +55,10 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Storico eventi        | Consente di visualizzare una panoramica delle diverse registrazioni effettuate nel cespite.                                                                                                         |
 | DBA cespiti            | Consente di visualizzare un elenco di tutti gli articoli (pezzi di ricambio e altri articoli) utilizzati in un cespite.                                                                                  |
 | Ordini di lavoro          | Consente  aprire la pagina elenco **Ordini di lavoro attivi**, in cui è possibile visualizzare gli ordini di lavoro per il cespite.                                                                                        |
-| Elenco di controllo            | Visualizza una panoramica degli elenchi di controllo di manutenzione e delle misurazioni registrate per il cespite.                                                                                                 |
+| Elenco di controllo            | Visualizza una panoramica degli elenchi di controllo di manutenzione e delle misure registrate per il cespite.                                                                                                 |
 | Tempi di fermo per la manutenzione | Crea o visualizza le registrazioni dei tempi di fermo per la manutenzione del cespite.                                                                                                       |
 | Transazioni progetto | Consente di visualizzare tutte le transazioni registrate correlate agli ordini di lavoro creati per il cespite.                                                                                       |
-| Misure dei cespiti       | Consente di creare o visualizzare le misurazioni relative al cespite.                                                                                                               |
+| Misure dei cespiti       | Consente di creare o visualizzare le misure relative al cespite.                                                                                                               |
 | Programma di manutenzione | Consente  aprire la pagina elenco **Apri programma di manutenzione**, in cui è possibile visualizzare piani di manutenzione, richieste di intervento di manutenzione e cicli di manutenzione associati al cespite e con stato **Creato**. |
 | Aggiorna stato del cespite   | Aggiorna lo stato del ciclo di vita del cespite. È possibile selezionare più cespiti nella pagina elenco **Tutti i cespiti** e quindi aggiornare lo stato del ciclo di vita per tutti contemporaneamente.              |
 | Registro dello stato del ciclo di vita  | Apre un registro contenente gli stati del ciclo di vita del cespite selezionato.                                                                                                                 |
@@ -67,7 +67,7 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Immagine                | Selezionare un'immagine per il cespite.                                                                                                                                   |
 | Cespiti padre        | Consente di visualizzare lo storico dei cespiti padre per il cespite selezionato.                                                                                                                |
 | Unità funzionali | Consente di visualizzare lo storico delle unità funzionali per il cespite selezionato.                                                                                                          |
-| Valutazione delle condizioni | Registra le misurazioni di valutazione delle condizioni del cespite.                                                                                                         |
+| Valutazione delle condizioni | Registra le misure di valutazione delle condizioni del cespite.                                                                                                         |
 | Errori               | Consente  aprire la pagina elenco **Problemi cespiti**, in cui è possibile visualizzare i problemi registrati nel cespite.                                                                                             |
 | Controllo costi         | Confronta i costi in budget e i costi effettivi nel cespite.                                                                                                              |
 | Controllo ore         | Confronta le ore previste e le ore effettive relative al cespite.                                                                                                              |

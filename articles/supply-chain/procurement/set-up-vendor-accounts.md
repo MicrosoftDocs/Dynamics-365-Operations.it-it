@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 27ca519ad0e0529c0d04c2f94a548c00532a9a45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237301"
 ---
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
@@ -87,7 +87,7 @@ Per impostare un conto fornitore, è inoltre essere necessario registrare gli ac
 -   **Fattura**: per questo fornitore non è possibile registrare fatture.
 -   **Tutto**: il fornitore è sospeso per tutti i tipi di transazione. Questi tipi di transazione includono richieste di acquisto, fatture e pagamenti.
 -   **Pagamento**: non è possibile generare pagamenti per il fornitore.
--   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine di acquisto. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini di acquisto.
+-   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine fornitore. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini fornitore.
 -   **Mai**: il fornitore non viene mai messo in attesa per inattività.
 
 Quando si mette un fornitore in attesa, è possibile specificare un motivo e una data in cui lo stato di attesa verrà terminato. Se non si immette una data di fine, lo stato di attesa del fornitore avrà durata illimitata.

@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3990ba0f5302287aaebf7006e23e5c23cf484870
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24e75a201a84bc3fce5e41583d435309a64dbff
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978230"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236286"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
@@ -93,7 +93,7 @@ I libri IVA vengono utilizzati per il reporting IVA. Per impostare i libri IVA i
 <thead>
 <tr class="header">
 <th>Campo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -148,7 +148,7 @@ I sezionali IVA sono un archivio in cui le transazioni di contabilità generale 
 <thead>
 <tr class="header">
 <th>Campo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -186,21 +186,21 @@ I sezionali IVA sono un archivio in cui le transazioni di contabilità generale 
 
 Sono disponibili inoltre il seguente pulsante.
 
-| Pulsante | descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Pulsante | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Creazione | Crea automaticamente tutti i sezionali IVA richiesti per i libri IVA esistenti del tipo **Vendite** e **Acquisti**. I sezionali IVA vengono creati per ciascuna sequenza numerica definita per i giustificativi fattura di acquisto o giustificativi nota di accredito di acquisto o giustificativi fattura di vendita o giustificativi nota di accredito di vendita o giustificativi fattura a testo libero o giustificativi note di accredito a testo libero nella pagina **Parametri contabilità fornitori**, **Parametri contabilità clienti** o **Parametri Gestione progetti e contabilità** e per ciascuna sequenza numerica utilizzata nella pagina **Nomi giornale di registrazione** per i giustificativi che hanno il campo **Libro IVA italiano** impostato su **Acquisti** o **Vendite**. Ogni sezionale IVA creato è collegato automaticamente al libro IVA predefinito. Il libro IVA deve essere creato prima dei sezionali IVA. Se più libri IVA dello stesso tipo di libro IVA  (**Vendite** o **Acquisti**) esistono, il primo libro IVA viene utilizzato per impostazione predefinita. Tuttavia, è possibile modificare manualmente il collegamento. Se nessun libro IVA è disponibile, nessun sezionale IVA viene creato automaticamente. |
 
 ## <a name="sales-tax-book-status"></a>Stato libro IVA
 Quando si crea un nuovo periodo IVA, per ciascun libro IVA esistente vengono impostate automaticamente le righe corrispondenti. Se si crea un libro IVA aggiuntivo, è possibile creare manualmente anche le righe per i periodi esistenti non ancora chiusi. Fare clic su **Imposta** &gt; **Imposte indirette** &gt; **IVA** &gt; **Periodi liquidazione IVA**, quindi fare clic su **Stato libro IVA**. Nella tabella seguente vengono descritte le schede della pagina **Stato libro IVA**.
 
-| Scheda      | descrizione                                                                                               |
+| Scheda      | Descrizione                                                                                               |
 |----------|-----------------------------------------------------------------------------------------------------------|
 | Panoramica | Consente di visualizzare lo stato delle pagine dei libri IVA. Tutti i campi risultano bloccati per gli aggiornamenti manuali.                |
 | Generale  | Consente di visualizzare le stesse informazioni disponibili nella scheda **Panoramica** ma solo per il libro IVA selezionato. |
 
 Nella seguente tabella vengono illustrati i campi disponibili.
 
-| Campo             | descrizione                                                                                      |
+| Campo             | Descrizione                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | Libro IVA    | Selezionare l'ID libro IVA impostato nella pagina **Libri IVA italiani**.            |
 | Nome              | Immettere il nome del libro IVA.                                                                  |
@@ -213,7 +213,7 @@ Nella seguente tabella vengono illustrati i campi disponibili.
 
 Sono disponibili inoltre il seguente pulsante.
 
-| Pulsante                   | descrizione                                                                                                                                            |
+| Pulsante                   | Descrizione                                                                                                                                            |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cambia numero prima pagina | Apre la finestra di dialogo **Cambia numero prima pagina**, in cui è possibile modificare il numero della prima pagina da utilizzare per il periodo di liquidazione aperto corrente. |
 
@@ -221,7 +221,7 @@ Sono disponibili inoltre il seguente pulsante.
 
 Utilizzare la finestra di dialogo **Cambia numero prima pagina** per modificare il numero della prima pagina del report IVA finale per il periodo di liquidazione IVA in corso. Il numero di pagina viene quindi visualizzato nella colonna **Modificato in** della pagina **Stato libro IVA** e utilizzato come numero della prima pagina del report IVA finale che viene stampato per il periodo fiscale corrente. Nella tabella seguente vengono descritti i campi disponibili nella finestra di dialogo **Cambia numero prima pagina**.
 
-| Campo             | descrizione                                                           |
+| Campo             | Descrizione                                                           |
 |-------------------|-----------------------------------------------------------------------|
 | Primo numero di pagina | Primo numero di pagina corrente per il libro IVA selezionato.        |
 | Modificato in        | Immettere il nuovo primo numero di pagina da utilizzare nel report IVA finale. |

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66903d142ecb7228e4fdec56dbd45472acbdeb69
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232865"
 ---
 # <a name="piece-picking-confirmation"></a>Conferma di prelievo pezzi
 
@@ -45,7 +45,7 @@ Il prelievo di pezzi funziona per tutto il lavoro di conteggio per il prelievo i
 Le opzioni seguenti diventano disponibili per la selezione quando il tipo di lavoro è prelievo o conteggio.
 
 
-|           Opzione           |                                                                            descrizione                                                                            |
+|           Opzione           |                                                                            Descrizione                                                                            |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Conferma di prelievo pezzi | Disponibile per i tipi di lavoro prelievo e conteggio. La conferma del prodotto viene selezionata automaticamente. Consente di confermare ogni pezzo di magazzino dal dispositivo mobile. |
 |  Numero massimo di pezzi  |                   Disponibile per il lavoro di prelievo se la conferma di prelievo del pezzo è abilitata. Consente di impostare un limite al numero di pezzi che è necessario confermare.                   |

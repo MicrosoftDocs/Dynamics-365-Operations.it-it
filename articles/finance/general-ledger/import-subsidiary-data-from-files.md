@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7ced1b970aefa20a27ab16e005dff8fabace78d1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f8e220599d8df9f560da1862f0909cbbaa3c7330
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249097"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importare dati delle società affiliate da file
 
@@ -36,7 +36,7 @@ Questo argomento spiega come preparare i dati da sistemi esterni in modo che pos
 
     | Campo                                 | Valore per il report | Valore per l'importazione |
     |---------------------------------------|----------------------|----------------------|
-    | descrizione                           | Non applicabile | Immettere una descrizione per identificare l'importazione. |
+    | Descrizione                           | Non applicabile | Immettere una descrizione per identificare l'importazione. |
     | Conto principale                          | Definisci l'intervallo di account che il rapporto deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. | Definisci l'intervallo di account che l'importazione deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. |
     | Periodo di consolidamento                  | Definisci l'intervallo di date da consolidare. | Definisci l'intervallo di date da consolidare. |
     | Includi importi effettivi                | Imposta questa opzione su **Sì** per includere gli importi effettivi. | Imposta questa opzione su **Sì** per includere gli importi effettivi. |
@@ -47,7 +47,7 @@ Questo argomento spiega come preparare i dati da sistemi esterni in modo che pos
 
 6. Se hai diverse valute contabili, utilizza i campi nella scheda **Conversione valuta** per configurare la traduzione eseguita durante il consolidamento.
 
-    | Campo                      | descrizione |
+    | Campo                      | Descrizione |
     |----------------------------|-------------|
     | Persona giuridica di origine        | Seleziona la persona giuridica da cui stai eseguendo l'importazione. |
     | Valuta di contabilizzazione di origine | Questa valuta predefinita è la valuta associata alla persona giuridica di origine selezionata nel campo **Persona giuridica di origine**. |

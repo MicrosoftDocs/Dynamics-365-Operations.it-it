@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: abb971f2ad81e4e0a4e9cfa6417bb3ddc0cb69cd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977340"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239160"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Raggruppamento di sistema in un elenco lavori aperti
 
@@ -35,7 +35,7 @@ Utilizzare questa procedura per impostare un raggruppamento di sistema su un ele
 
 -   In una voce di menu del dispositivo mobile, selezionare **Modalità: Indiretta** e **Codice attività: Visualizza elenco lavori aperti**. Diventano disponibili le opzioni seguenti. Queste opzioni sono necessarie per il raggruppamento di sistema in un elenco lavori aperti. 
 
-|        Opzione         |                                                                                                                                                                                                                                                                         descrizione                                                                                                                                                                                                                                                                         |
+|        Opzione         |                                                                                                                                                                                                                                                                         Descrizione                                                                                                                                                                                                                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Consentire il raggruppamento di sistema |                                                                                                                                                                                                                                                 Consente il raggruppamento di sistema per una voce di menu dell'elenco lavoro selezionata.                                                                                                                                                                                                                                                  |
 | Campo di raggruppamento sistema | Disponibile solo se <strong>Consenti lavoro di sistema</strong> è impostato su <strong>Sì</strong>. Selezionare il campo che determina la modalità di raggruppamento del lavoro di prelievo per i lavoratori. Ad esempio, se si seleziona il campo <strong>ID spedizione</strong>, il lavoratore esegue la scansione dell'ID spedizione per raggruppare il lavoro di prelievo. Tutto il lavoro di spedizione verrà quindi assegnato al lavoratore. Per questo campo è richiesta la creazione di una voce di menu per utilizzare il lavoro esistente raggruppato dal sistema. Utilizzare il campo <strong>Etichetta di raggruppamento sistema</strong> per indicare al lavoratore gli elementi da scansionare. |

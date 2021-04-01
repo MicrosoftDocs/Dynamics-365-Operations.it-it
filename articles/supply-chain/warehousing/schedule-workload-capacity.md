@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4eac4838a4df8f1f5863f1ce1895e7aded5fb08b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239280"
 ---
 # <a name="schedule-workload-capacity"></a>Programmare capacità carico di lavoro
 
@@ -61,7 +61,7 @@ Per proiettare le informazioni relative a volume e peso degli articoli, il volum
 
 - Movimentazione
 - Dimensioni fisiche
-- Misurazioni peso
+- Misure peso
 
 Se queste informazioni non sono state specificate correttamente, alla generazione del report **Capacità di carico di lavoro** si riceverà un messaggio. Dal report è quindi possibile effettuare il drill-down per identificare le informazioni mancanti necessarie per proiettare il carico di lavoro futuro.
 

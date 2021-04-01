@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: def0b35043f0a660e2a167b78cf0c65cd1e8b2fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e92dd1ac7e849f5ce7db4b4769b062701bb8f158
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006037"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236267"
 ---
 # <a name="registration-ids"></a>ID registrazione
 
@@ -34,10 +34,10 @@ Molti paesi e regioni prevedono normative e requisiti diversi per la registrazio
 ## <a name="registration-type-creation"></a>Creazioen del tipo di registrazione
 Prima di immettere l'ID registrazione, è necessario impostare i tipi di registrazione per i diversi tipi di numeri di registrazione a cui ogni parte è soggetta. Andare a **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; pagina **Tipi di registrazione** per creare e gestire i tipi di registrazione per fornitori, clienti, lavoratori e persone giuridiche situate in paesi diversi.
 
-|Campo                 |descrizione      |
+|Campo                 |Descrizione      |
 |------------------------------|----------------------------|                                                                           
 | Nome                | Il nome del tipo di registrazione. |                                                                           
-| descrizione         | Descrizione del tipo di registrazione. |
+| Descrizione         | Descrizione del tipo di registrazione. |
 | Paese      | Identificatore univoco per il paese.|
 | Ufficio tributario       | Ufficio tributario associato al tipo di registrazione.|
 | Limitato a       | Tipo di restrizione applicabile al tipo di registrazione fiscale: Nessuno, Persona, Organizzazione.|
@@ -49,7 +49,7 @@ Prima di immettere l'ID registrazione, è necessario impostare i tipi di registr
 ## <a name="assign-a-registration-type-to-a-registration-category"></a>Assegnare un tipo di registrazione a una categoria di registrazione
 La categoria di registrazione è l'identificatore di registrazione del paese/regione approvato per l'utilizzo in un particolare paese/regione a fini di imposte doganali e di altro tipo. Questa categoria definisce le regole di convalida di un ID di registrazione specifico (incluse cifre di controllo e così via) e l'ID di registrazione di inclusione in diversi report. Utilizzare la pagina **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; **Categorie di registrazione** per assegnare il tipo di registrazione di un determinato paese alla categoria di registrazione supportata.
 
-| Campo            | descrizione|
+| Campo            | Descrizione|
 |-----------------------|----------------|
 | Tipo di registrazione     | Il tipo di registrazione in un particolare paese/regione.|
 | Limitato a         | Tipo di restrizione applicabile al tipo di registrazione fiscale: Nessuno, Persona, Organizzazione.|
@@ -60,11 +60,11 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 La Rubrica globale contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere [Panoramica della rubrica globale](../../fin-and-ops/organization-administration/overview-global-address-book.md). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
 
 
-|Campo                |descrizione                                                |
+|Campo                |Descrizione                                                |
 |---------------------|-----------------------------------------------------------|
 | Tipo di registrazione   | Il tipo di registrazione nel paese/regione selezionato.     |
 | Numero di registrazione | ID registrazione della parte.                                |
-| descrizione         | Descrizione del numero di registrazione.               |
+| Descrizione         | Descrizione del numero di registrazione.               |
 | Sezione             | Informazioni aggiuntive sul numero di registrazione. |
 | Agenzia emittente      | Ufficio tributario che emette il numero di registrazione.        |
 | Data di emissione         | Data di emissione del numero di registrazione.              |

@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979805"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243771"
 ---
 # <a name="ratings-and-reviews-modules"></a>Moduli Valutazioni e recensioni
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento tratta i moduli di valutazione e recensione utilizzati nelle pagine dei dettagli del prodotto in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Le valutazioni e le recensioni nei siti Web di e-Commerce consentono ai clienti di informarsi sui prodotti prima di deciderne l'acquisto e costituiscono anche un meccanismo di raccolta dell'opinione dei clienti riguardo ai prodotti. 
 

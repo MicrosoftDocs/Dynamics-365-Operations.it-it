@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 922ff818e069f41c139cc00db9161dc6e113888b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dbf92c5e199ecadb3e4f7c6130427d449ef5b6c8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973737"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251771"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurare i filtri di prodotto per le transazioni di magazzino
 
@@ -160,7 +160,7 @@ Per impostare i codici filtro per un fornitore, effettuare le seguenti operazion
 1. Nei campi da **Codice 1** a **Codice 10** selezionare i codici filtro da utilizzare come criteri per limitare gli articoli disponibili per i fornitori nel gruppo di articoli selezionato. È necessario effettuare una selezione per ogni codice filtro impostato per il gruppo di articoli.
 
 > [!NOTE]
-> L'impostazione dei filtri dei prodotti del fornitore si applica ai prodotti rilasciati in cui i processi di gestione del magazzino sono abilitati per il gruppo di dimensioni di immagazzinamento associato. I codici filtro vengono utilizzati per determinare se il sistema consentirà agli utenti di acquistare un determinato articolo da un determinato fornitore quando creano righe ordine di acquisto. Microsoft Dynamics 365 Supply Chain Management prevede due metodi per gestire l'approvazione del fornitore. Se esistono uno o più prodotti rilasciati in cui il campo **Metodo di controllo fornitore approvato** è impostato su *Solo avvertimento* o *Non autorizzato*, entrambi i metodi di approvazione del fornitore potrebbero essere abilitati per tali articoli. Questa situazione potrebbe causare problemi quando gli utenti creano righe ordine fornitore.
+> L'impostazione dei filtri dei prodotti del fornitore si applica ai prodotti rilasciati in cui i processi di gestione del magazzino sono abilitati per il gruppo di dimensioni di immagazzinamento associato. I codici filtro vengono utilizzati per determinare se il sistema consentirà agli utenti di acquistare un determinato articolo da un determinato fornitore quando creano righe ordine fornitore. Microsoft Dynamics 365 Supply Chain Management prevede due metodi per gestire l'approvazione del fornitore. Se esistono uno o più prodotti rilasciati in cui il campo **Metodo di controllo fornitore approvato** è impostato su *Solo avvertimento* o *Non autorizzato*, entrambi i metodi di approvazione del fornitore potrebbero essere abilitati per tali articoli. Questa situazione potrebbe causare problemi quando gli utenti creano righe ordine fornitore.
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237378"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Panoramica delle richieste di offerta (RdO)
 
@@ -80,23 +80,23 @@ Nella pagina **Parametri di approvvigionamento**, selezionare il modello da usar
 - %Motivo di restituzione dell'offerta%
 - %Motivo della modifica%
 - %Modifica preparata da%
-- %Società%
+- %Company%
 - %Nome caso RdO%
 - %Ora e data di scadenza%
-- %Data%
+- %Date%
 
-I token %Motivo di restituzione dell'offerta% e %Motivo della modifica% vengono sostituiti da testo che il professionista dell'approvvigionamento può immettere quando completa la modifica nella procedura guidata **Modifica**. I valori dei token %Modifica preparata da% e %Società% vengono ottenuti automaticamente dalla richiesta di offerta. Per impostazione predefinita, il token %Data% viene sostituito dalla data corrente.
+I token %Motivo di restituzione dell'offerta% e %Motivo della modifica% vengono sostituiti da testo che il professionista dell'approvvigionamento può immettere quando completa la modifica nella procedura guidata **Modifica**. I valori dei token %Modifica preparata da% e %Company% vengono ottenuti automaticamente dalla RdO. Il token %Date% viene sostituito dalla data corrente.
 
 Se si desidera annullare una RdO dopo che è stata inviata, è possibile farlo dal caso RdO. Per l'annullamento, è necessario un modello di messaggio di posta elettronica per inviare la notifica di annullamento ai contatti del fornitore. Il modello deve essere selezionato nella pagina **Parametri di approvvigionamento**. Quando viene creato, il modello può includere i seguenti token di sostituzione:
 
 - %Motivo dell'annullamento%
 - %Caso RdO%
 - %RdO annullata da%
-- %Società%
+- %Company%
 - %Nome caso RdO%
-- %Data%
+- %Date%
 
-Il token %Motivo dell'annullamento% viene sostituito da testo che il professionista di approvvigionamento può immettere tramite la procedura guidata **Annullamento**. Per impostazione predefinita, il token %Data% viene sostituito dalla data corrente.
+Il token %Motivo dell'annullamento% viene sostituito da testo che il professionista di approvvigionamento può immettere tramite la procedura guidata **Annullamento**. Il token %Date% viene sostituito dalla data corrente.
 
 Se si desidera utilizzare i codici motivo in un'offerta per indicare il motivo per cui è stata accettata o rifiutata, è necessario impostarli nella pagina **Motivi fornitore**.
 

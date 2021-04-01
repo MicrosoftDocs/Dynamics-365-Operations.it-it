@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963437"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232961"
 ---
 # <a name="configure-app-field-names-in-the-warehouse-app"></a>Configurare i nomi di campo app nell'app di magazzino
 
@@ -46,7 +46,7 @@ Quando si utilizza Magazzino sul dispositivo mobile, è possibile configurare la
 <thead>
 <tr class="header">
 <th>Opzione</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>

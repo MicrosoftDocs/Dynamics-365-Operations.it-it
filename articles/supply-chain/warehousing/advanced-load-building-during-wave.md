@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1b75d5cec991b2863e7e0213257ac63d5ab566a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233201"
 ---
 # <a name="advanced-load-building-during-wave"></a>Allestimento del carico avanzato durante un'ondata
 
@@ -94,7 +94,7 @@ L'articolo **M9200** deve essere aggiunto al magazzino. Completa le procedure ne
 
 #### <a name="create-inventory-in-warehouse-62"></a>Creare scorte nel magazzino 62
 
-1. Vai a **Gestione scorte** \> **Inserimenti nel giornale di registrazione** \> **Articoli** \> **Rettifica magazzino**.
+1. Vai a **Gestione articoli** \> **Inserimenti nel giornale di registrazione** \> **Articoli** \> **Rettifica magazzino**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
 1. Nella finestra di dialogo **Crea giornale di registrazione magazzino**, nella scheda Dettaglio **Panoramica**, nel campo **Magazzino**, inserisci *62*. Accetta i valori predefiniti in tutti gli altri campi.
 1. Selezionare **OK** per chiudere la finestra di dialogo.
@@ -191,7 +191,7 @@ Se stai lavorando con dati dimostrativi **USMF**, ora hai terminato questa confi
 1. Nel riquadro azioni seleziona **Nuova** per aggiungere una riga alla griglia.
 1. Nella nuova riga, imposta i seguenti valori.
 
-    | Campo | descrizione | Valore nei dati dimostrativi USMF |
+    | Campo | Descrizione | Valore nei dati dimostrativi USMF |
     |---|---|---|
     | Numero progressivo | L'ordine in cui verrà valutato il modello. | *1* |
     | Nome modello di allestimento del carico | Immetti l'identificatore univoco del modello di allestimento del carico. È consigliabile immettere il nome del modello creato o aggiornato in precedenza in questa configurazione. | *62 Spedizione predefinita* |
