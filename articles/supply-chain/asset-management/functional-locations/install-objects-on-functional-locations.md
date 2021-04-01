@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 44e7d3f366ab79b54f021d01c69779ed04859be8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022032"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253640"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installare cespiti nelle unità funzionali
 
@@ -66,7 +66,7 @@ Dopo aver installato i cespiti in un'unità funzionale, è possibile sostituire 
 8. Per visualizzare l'elenco delle richieste di intervento di manutenzione attive, gli ordini di lavoro attivi, ovvero le registrazioni di problemi correlati ai cespiti installati in un'unità funzionale, selezionare l'unità funzionale nella pagina **Tutte le unità funzionali** e quindi **Richieste**, **Ordini di lavoro** o **Errori**.
 
 > [!NOTE]
-> Quando i dati correlati al cespite vengono modificati, vengono aggiornati automaticamente nella unità funzionale in cui il cespite è installato. Questo aggiornamento automatico riguarda le modifiche alle richieste di intervento di manutenzione, ordini di lavoro, alle registrazioni di problemi del cespite, alle registrazioni di tempi di fermo per la manutenzione e alle registrazioni delle misurazioni del cespite.
+> Quando i dati correlati al cespite vengono modificati, vengono aggiornati automaticamente nella unità funzionale in cui il cespite è installato. Questo aggiornamento automatico riguarda le modifiche alle richieste di intervento di manutenzione, ordini di lavoro, alle registrazioni di problemi del cespite, alle registrazioni di tempi di fermo per la manutenzione e alle registrazioni delle misure del cespite.
 
 ## <a name="automatically-create-one-asset-on-a-functional-location"></a>Creare automaticamente un solo cespite in una unità funzionale
 

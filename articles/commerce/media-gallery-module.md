@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252560"
 ---
-# <a name="media-gallery-module"></a>Modulo Galleria multimediale
+# <a name="media-gallery-module"></a>Modulo raccolta multimediale
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I moduli Galleria multimediale mostrano una o più immagini in una vista galleria. I moduli Galleria multimediale supportano le immagini di anteprima, che possono essere disposte orizzontalmente (come riga sotto l'immagine) o verticalmente (come colonna accanto all'immagine). I moduli Galleria multimediale offrono anche funzionalità che consentono di ingrandire le immagini o visualizzarle in modalità a schermo intero. Per eseguire il rendering in un modulo Galleria multimediale, un'immagine deve essere disponibile nella libreria multimediale Creazione di siti Web Commerce. Attualmente, i moduli Galleria multimediale supportano solo immagini.
 
@@ -49,7 +47,7 @@ Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le im
 
 ## <a name="media-gallery-properties"></a>Proprietà della galleria multimediale
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |---------------|--------|-------------|
 | Origine immagine | **Contesto pagina** o **ID prodotto** | Il valore predefinito è **Contesto pagina**. Se **Contesto pagina** è selezionato, il modulo prevede che la pagina fornisca le informazioni sull'ID prodotto. Se **ID prodotto** è selezionato, l'ID prodotto per un'immagine deve essere fornito come valore della proprietà **ID prodotto**. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | ID prodotto | Un ID prodotto | Questa proprietà è applicabile solo se il valore della proprietà **Origine immagine** è **ID prodotto**. |

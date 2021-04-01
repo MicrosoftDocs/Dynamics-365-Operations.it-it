@@ -12,12 +12,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: b8309ea07cfb673f759418094a3432f21cd8d518
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
+ms.openlocfilehash: 082ae61fada98209aae009459cf4cabaff320030
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153838"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247976"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezio
 
 1. Importa le versioni più recenti delle seguenti configurazioni per la creazione di report elettronici (ER) per il formato **Comunicazione IVA trimestrale**.
 
-    | Nome configurazione                        | Tipo             | descrizione                                                                                                                             |
+    | Nome configurazione                        | Tipo             | Descrizione                                                                                                                             |
     |-------------------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
     | Modello dei report fiscali italiani                 | Modello            | Il modello di dati comune per le dichiarazioni fiscali italiane.                                                                                          |
     | Mapping del modello Comunicazione IVA trimestrale | Mapping modello    | Il mapping del modello per la raccolta dei dati da Microsoft Dynamics 365 Finance al report **Comunicazione IVA trimestrale (LIPE)**. |
@@ -160,7 +160,7 @@ Una nuova voce di menu per il report **Comunicazione IVA trimestrale (LIPE)** de
 1. Vai a **Imposta** \> **Dichiarazioni** \> **IVA** \> **Comunicazione IVA trimestrale**.
 2. Nella finestra di dialogo **Parametri del report elettronico** imposta i parametri descritti nella tabella seguente.
 
-    | Campo                    | descrizione                                                                                                                                                                                                                                                                                                                                       | Valore di esempio    |
+    | Campo                    | Descrizione                                                                                                                                                                                                                                                                                                                                       | Valore di esempio    |
     |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
     | Anno                     | Immetti l'anno per cui generare il report.                                                                                                                                                                                                                                                                                                        | 2018             |
     | Periodo di liquidazione  | Seleziona il periodo di liquidazione IVA per cui generare il report.                                                                                                                                                                                                                                                                                | LUN              |
@@ -186,7 +186,7 @@ Una nuova voce di menu per il report **Comunicazione IVA trimestrale (LIPE)** de
 
 3. Per i parametri descritti nella tabella seguente, se è stato selezionato **Mese** nel campo **Mese o Trimestre** nel passaggio precedente, immetti i valori per **Mese1**, **Mese2** e **Mese3**, che corrispondono ai mesi del trimestre selezionato. Se hai selezionato **Trimestre** nel campo **Mese o Trimestre** immetti i valori per **Trimestre**, che corrisponde al trimestre selezionato.
 
-    | Campo                                                  | descrizione                                                                                                                                                       | Valore di esempio |
+    | Campo                                                  | Descrizione                                                                                                                                                       | Valore di esempio |
     |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
     | Subfornitura                                           | Se il contributore ha utilizzato i vantaggi forniti, seleziona **1**. Se il contributore non li ha usati, seleziona **0**. (Riferimento di legge: articolo 74, clausola 5)              | 0             |
     | EventiEccezionali                                      | Questo campo è riservato ai soggetti che hanno usufruito dei benefici fiscali IVA nel periodo di riferimento. I valori possibili sono **1** e **9**.                           | 1             |

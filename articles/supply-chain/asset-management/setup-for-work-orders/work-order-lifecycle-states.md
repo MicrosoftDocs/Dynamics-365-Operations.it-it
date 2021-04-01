@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2a8052942ff97c9e8033d5915723e82c42f964c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e72c56765ad51a4f43fb01d842f5940a4d1a025e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248841"
 ---
 # <a name="work-order-lifecycle-states"></a>Stati del ciclo di vita di ordine di lavoro
 
@@ -43,7 +43,7 @@ La tabella seguente descrive le opzioni nelle sezione **Ordine di lavoro** e **P
 |-------------------------------|-------------|
 | Attivi                        | Impostare questa opzione su **Sì** se l'ordine di lavoro deve essere attivo quando è in questo stato del ciclo di vita. |
 | Aggiungi riga                      | Impostare questa opzione su **No** se i processi di ordine di lavoro possono essere aggiunti a un ordine di lavoro quando è in questo stato del ciclo di vita. |
-| CANC                        | Impostare questa opzione su **Sì** se un ordine di lavoro può essere definito quando è in questo stato del ciclo di vita. |
+| Elimina                        | Impostare questa opzione su **Sì** se un ordine di lavoro può essere definito quando è in questo stato del ciclo di vita. |
 | Elimina riga                   | Impostare questa opzione su **Sì** se i processi di ordine di lavoro possono essere eliminati da un ordine di lavoro quando è in questo stato del ciclo di vita. |
 | Consenti la programmazione              | Impostare questa opzione su **Sì** se un ordine di lavoro può essere programmato quando è in questo stato del ciclo di vita. |
 | Imposta l'inizio effettivo              | Impostare questa opzione su **Sì** se all'utente deve essere richiesto di selezionare una data e un'ora di inizio effettive per un ordine di lavoro quando viene aggiornato a questo stato del ciclo di vita. |

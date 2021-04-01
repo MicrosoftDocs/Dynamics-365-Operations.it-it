@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985114"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256693"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Aggiungere dimensioni finanziarie all'area di lavoro Responsabile finanziario
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come aggiungere dimensioni finanziarie all'a
 1. In Finance, nella pagina **Archivio entità**, aggiornare le misure **LedgerActivityMeasure** e **BudgetActivityMeasure**.
 2. In Microsoft Visual Studio, aprire Application Explorer e cercare **LedgerCFO**.
 3. In **Risorse**, aprire **LedgerCFOWorkspacePBIX**.
-4. Quando la risorsa viene aperta in Microsoft Power BI, selezionare **Recupera dati**, quindi **Database SQL Server** e infine **Connetti**.
+4. Quando la risorsa viene aperta in Microsoft Power BI Desktop, selezionare **Recupera dati**, quindi **Database SQL Server** e infine **Connetti**.
 5. Immettere il nome del server e **AxDW** come database. Selezionare **DirectQuery** e quindi **OK**.
 6. Cercare e selezionare **LedgerActivityMeasure\_DimensionCombination** e quindi selezionare **Carica**.
 

@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a4e158be2d20755e2380d573116383101fd6d07f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 139abc1081fc3f79e5afe4889ab54ee7d5475816
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5008170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250956"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catalogo di apprendimento per amministratori di Dynamics 365 Supply Chain Management
 
@@ -28,7 +28,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="get-started"></a>Per iniziare<a name="get-started"></a>
 
-| Contenuto   | descrizione  | Formatta  | Durata    |
+| Contenuto   | Descrizione  | Formatta  | Durata    |
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Dynamics 365 e Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
 | [Introduzione alle app Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | Informazioni su come le applicazioni Finance and Operations supportano le aziende nella gestione dei loro sistemi finanziari globali, dei processi aziendali operativi e delle catene di fornitura semplificate per consentire alle persone di prendere decisioni informate e rapidamente. Come primo passo nella carriera di collaboratore in Finance and Operations, è necessario familiarizzare con le caratteristiche e le funzionalità, indipendentemente dal ruolo desiderato. | Percorso di apprendimento online gratuito autonomo | 2 ore |
@@ -36,7 +36,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="core-platform-knowledge"></a>Conoscenza della piattaforma principale<a name="core-platform-knowledge"></a>
 
-| Contenuto  | descrizione  | Formatta  | Durata    |
+| Contenuto  | Descrizione  | Formatta  | Durata    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Utilizzare Lifecycle Services (LCS) per progettare e pianificare un'implementazione nelle app Finance and Operations](https://docs.microsoft.com/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) è uno spazio di lavoro collaborativo che i clienti e i partner utilizzano per gestire i progetti di app Finance and Operations dalla pre-vendita alla fase di implementazione e infine all'ambiente di produzione. Fornisce liste di controllo e strumenti che consentono di gestire il progetto, comprese le metodologie precostruite per semplificare l'implementazione e i servizi regolarmente aggiornati. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Configurare l'organizzazione nelle app Finance and Operations](https://docs.microsoft.com/learn/paths/configure-your-organization-finance-ops/) | Come consulente funzionale che lavora con app Finance and Operations, è necessario comprendere come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore |
@@ -50,13 +50,13 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="core-development"></a>Sviluppo di base<a name="core-development"></a>
 
-| Contenuto | descrizione  | Formatta | Durata    |
+| Contenuto | Descrizione  | Formatta | Durata    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Data Management (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Partecipare questa discussione tecnica sulla gestione dei dati. Scoprire le opzioni disponibili e gli scenari per i quali sono consigliate. Verrà trattato il framework di gestione dei dati, i modelli, la copia del database, la condivisione dei dati tra società, e le considerazioni sulle prestazioni. | Registrazione gratuita di una conferenza Web | 58 minuti |
 
 ## <a name="migration-and-upgrade"></a>Migrazione e aggiornamento<a name="migration-and-upgrade"></a>
 
-| Contenuto | descrizione  | Formatta | Durata    |
+| Contenuto | Descrizione  | Formatta | Durata    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Finance and Operations: Aggiornamento da 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Partecipare alla prossima discussione tecnica durante la quale verrà illustrato il processo di aggiornamento da 7.X a 8.X. Verranno descritti vari scenari e le operazioni da eseguire per l'aggiornamento del codice e dei dati. Verranno descritti inoltre gli scenari di richiesta di estensibilità e come generarli ove opportuno. | Registrazione gratuita di una conferenza Web | 61 minuti |
 | [How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In questa sessione verrà spiegato come effettuare l'aggiornamento dall'applicazione Dynamics 365 Finance and Operations v7.0 (RTW) e v7.1 (1611) a v7.2 (luglio 2017). Si applica una chiara differenziazione tra i clienti Live e i progetti in corso (non ancora attivi). | Registrazione gratuita di una conferenza Web | 58 minuti |
@@ -65,7 +65,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="servicing"></a>Manutenzione<a name="servicing"></a>
 
-| Contenuto  | descrizione   | Formatta  | Durata    |
+| Contenuto  | Descrizione   | Formatta  | Durata    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Finance and Operations: Gestione funzionalità (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Discussione tecnica sull'esperienza di gestione delle funzionalità. Fornisce un'area di lavoro in cui è possibile visualizzare, abilitare, disabilitare e pianificare le funzioni fornite in ogni versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Partecipare a questa riunione per vedere cosa viene offerto nella versione 10.0.3 e i piani per le versioni future. | Registrazione gratuita di una conferenza Web | 47 minuti |
 | [Finance and Operations: Manutenzione, supporto e gestione della produzione (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Discussione tecnica su come supportare, gestire e servire in modo efficiente l'ambiente di produzione Dynamics 365 for Finance and Operations. | Registrazione gratuita di una conferenza Web | 53 minuti |
@@ -76,7 +76,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="testing"></a>Test<a name="testing"></a>
 
-| Contenuto  | descrizione  | Formatta  | Durata    |
+| Contenuto  | Descrizione  | Formatta  | Durata    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Finance and Operations: Regression Suite Automation Tool - Sfondo e Impostazione (DYN646PAL) ](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | Si tratta della prima di una serie in due parti di Test di automazione della suite di regressione (RSAT). In questa sessione, viene illustrato come tenere il passo con gli aggiornamenti continui utilizzando i test automatizzati tramite RSAT. Verranno trattati apprendimenti e raccomandazioni sulla creazione di registrazioni di attività ed esecuzione di test mediante RSAT, insieme a una procedura dettagliata dell'installazione e della configurazione. | Registrazione gratuita di una conferenza Web | 70 minuti |
 | [Finance and Operations: Regression Suite Automation Tool - Test della demo Lifecycle (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | Si tratta della seconda di una serie in due parti di Test di automazione della suite di regressione (RSAT). In questa sessione verrà trattata una demo dell'intero ciclo di creazione e salvataggio delle registrazioni delle attività da Finance and Operations alla libreria BPM in LCS, sincronizzando la libreria BPM per creare casi di test in Azure DevOps, raggruppando i casi di test in gruppi di test e caricando ed eseguendo i gruppi di test in RSAT. | Registrazione gratuita di una conferenza Web | 70 minuti |
@@ -84,7 +84,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="exam"></a>Esame<a name="exam"></a>
 
-| Contenuto  | descrizione  | Formatta  |
+| Contenuto  | Descrizione  | Formatta  |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
 | [Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Dimostrare di aver compreso Microsoft Dynamics 365, Power Platform, concetti di cloud, opzioni di licenza e opzioni di distribuzione e rilascio. | Esame, i costi variano in base alla regione |
 
